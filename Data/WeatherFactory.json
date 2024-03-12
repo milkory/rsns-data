@@ -1,0 +1,962 @@
+[
+  {
+    "id": 50000001,
+    "idCN": "初始产品",
+    "mod": "雪",
+    "resUrl": "",
+    "snowLevel": []
+  },
+  {
+    "id": 50000002,
+    "idCN": "天气/雪/01雪",
+    "mod": "雪",
+    "isInformalData": false,
+    "resUrl": "Weather\\Snow\\SnowOn3DScene",
+    "combinePath": "Snow1",
+    "intervalFrame": 15,
+    "buffId": 10400251,
+    "isSkill": true,
+    "isSecond": false,
+    "homeid": 50000006,
+    "iconResUrl": "Weather/Icon/Snow",
+    "backgroundResUrl": "Weather/Icon/Back/Snow",
+    "weatherName": "雪",
+    "weatherDetailList": [
+      {
+        "resUrl": "Weather/Icon/Snow",
+        "text": "<color=#ffffff>雪：</color><color=#7b68ee>【冻结】</color><color=#adadad>持续时间</color><color=#7b68ee>+1秒</color>"
+      },
+      {
+        "resUrl": "Weather/Icon/Snow",
+        "text": "<color=#ffffff>雪：</color><color=#cd8c00>【引雷】</color><color=#adadad>概率</color><color=#cd8c00>-3%</color>"
+      }
+    ],
+    "snowLevel": [
+      {
+        "EmissionPosX": 0.0,
+        "alpha": 0,
+        "fogRate": 0,
+        "fogSpeedMax": 0.0,
+        "fogSpeedMin": 0.0,
+        "invalidParticle": "Side",
+        "mainVelocityMax": 1.0,
+        "mainVelocityMin": 0.5,
+        "noiseStrength": 0.1,
+        "rate": 12,
+        "sideVelocityMax": 0.0,
+        "sideVelocityMin": 0.0
+      }
+    ],
+    "WeatherType": "FirstGroup"
+  },
+  {
+    "id": 50000003,
+    "idCN": "天气/雨/01雨",
+    "mod": "雨",
+    "isInformalData": false,
+    "resUrl": "Weather\\Rain\\ParticleRain1",
+    "combinePath": "Rain1",
+    "intervalFrame": 15,
+    "buffId": 10404540,
+    "isSkill": true,
+    "isSecond": false,
+    "homeid": 50000007,
+    "iconResUrl": "Weather/Icon/Rain",
+    "backgroundResUrl": "Weather/Icon/Back/Rain",
+    "weatherName": "雨",
+    "weatherDetailList": [
+      {
+        "resUrl": "Weather/Icon/Rain",
+        "text": "<color=#ffffff>雨：</color><color=#cd8c00>【引雷】</color><color=#adadad>概率</color><color=#cd8c00>+5%</color>"
+      },
+      {
+        "resUrl": "Weather/Icon/Rain",
+        "text": "<color=#ffffff>雨：</color><color=#ff7c7c>【点燃】</color><color=#adadad>持续时间</color><color=#ff7c7c>-1秒</color>"
+      }
+    ],
+    "rainLevel": [
+      {
+        "rateOverTimeBack": 20,
+        "rateOverTimeFront": 40,
+        "rateOverTimeSplash": 30,
+        "windForce": -10
+      }
+    ],
+    "WeatherType": "FirstGroup"
+  },
+  {
+    "id": 50000004,
+    "idCN": "天气/01雾",
+    "mod": "雾",
+    "resUrl": "Weather\\Fog\\Fog",
+    "intervalFrame": 0,
+    "buffId": -1,
+    "homeid": 50000005,
+    "fogLevel": [
+      {
+        "rateOverTime": 5
+      },
+      {
+        "rateOverTime": 23
+      }
+    ]
+  },
+  {
+    "id": 50000005,
+    "idCN": "家园/雾",
+    "mod": "雾",
+    "resUrl": "Weather\\Fog\\HomeFog",
+    "intervalFrame": 0,
+    "buffId": -1,
+    "fogLevel": [
+      {
+        "rateOverTime": 5
+      },
+      {
+        "rateOverTime": 9
+      },
+      {
+        "rateOverTime": 13
+      },
+      {
+        "rateOverTime": 18
+      },
+      {
+        "rateOverTime": 23
+      }
+    ]
+  },
+  {
+    "id": 50000006,
+    "idCN": "家园/雪",
+    "mod": "雪",
+    "resUrl": "Weather\\Snow\\SnowOn3DScene",
+    "intervalFrame": 0,
+    "buffId": -1,
+    "homeid": -1,
+    "snowLevel": [
+      {
+        "EmissionPosX": 0.0,
+        "alpha": 0,
+        "fogRate": 0,
+        "fogSpeedMax": 0.0,
+        "fogSpeedMin": 0.0,
+        "invalidParticle": "Side",
+        "mainVelocityMax": 0.2,
+        "mainVelocityMin": 0.0,
+        "noiseStrength": 0.1,
+        "rate": 12,
+        "sideVelocityMax": 0.0,
+        "sideVelocityMin": 0.0
+      },
+      {
+        "EmissionPosX": 0.0,
+        "alpha": 0,
+        "fogRate": 0,
+        "fogSpeedMax": 0.0,
+        "fogSpeedMin": 0.0,
+        "invalidParticle": "Side",
+        "mainVelocityMax": 0.8,
+        "mainVelocityMin": 0.5,
+        "noiseStrength": 0.1,
+        "rate": 12,
+        "sideVelocityMax": 0.0,
+        "sideVelocityMin": 0.0
+      },
+      {
+        "EmissionPosX": 0.0,
+        "alpha": 28,
+        "fogRate": 10,
+        "fogSpeedMax": 4.0,
+        "fogSpeedMin": 3.0,
+        "invalidParticle": "",
+        "mainVelocityMax": 2.0,
+        "mainVelocityMin": 0.5,
+        "noiseStrength": 0.2,
+        "rate": 12,
+        "sideVelocityMax": 3.0,
+        "sideVelocityMin": 1.0
+      },
+      {
+        "EmissionPosX": -5.0,
+        "alpha": 60,
+        "fogRate": 10,
+        "fogSpeedMax": 5.0,
+        "fogSpeedMin": 4.0,
+        "invalidParticle": "Front",
+        "mainVelocityMax": 4.0,
+        "mainVelocityMin": 2.0,
+        "noiseStrength": 0.3,
+        "rate": 12,
+        "sideVelocityMax": 5.0,
+        "sideVelocityMin": 3.0
+      },
+      {
+        "EmissionPosX": -10.0,
+        "alpha": 120,
+        "fogRate": 12,
+        "fogSpeedMax": 7.0,
+        "fogSpeedMin": 4.0,
+        "invalidParticle": "Front",
+        "mainVelocityMax": 5.0,
+        "mainVelocityMin": 3.0,
+        "noiseStrength": 0.5,
+        "rate": 24,
+        "sideVelocityMax": 9.0,
+        "sideVelocityMin": 6.0
+      }
+    ]
+  },
+  {
+    "id": 50000007,
+    "idCN": "家园/雨",
+    "mod": "雨",
+    "resUrl": "Weather\\Rain\\ParticleRain1",
+    "intervalFrame": 30,
+    "buffId": -1,
+    "rainLevel": [
+      {
+        "rateOverTimeBack": 0,
+        "rateOverTimeFront": 30,
+        "rateOverTimeSplash": 20,
+        "windForce": -1000
+      },
+      {
+        "rateOverTimeBack": 20,
+        "rateOverTimeFront": 50,
+        "rateOverTimeSplash": 30,
+        "windForce": -1000
+      },
+      {
+        "rateOverTimeBack": 20,
+        "rateOverTimeFront": 50,
+        "rateOverTimeSplash": 40,
+        "windForce": -1000
+      },
+      {
+        "rateOverTimeBack": 50,
+        "rateOverTimeFront": 90,
+        "rateOverTimeSplash": 50,
+        "windForce": -1000
+      },
+      {
+        "rateOverTimeBack": 100,
+        "rateOverTimeFront": 120,
+        "rateOverTimeSplash": 80,
+        "windForce": -1000
+      }
+    ]
+  },
+  {
+    "id": 50000008,
+    "idCN": "第三章/Conor/雾",
+    "mod": "雾",
+    "resUrl": "Weather\\Fog\\Fog",
+    "intervalFrame": 360,
+    "buffId": 10403058,
+    "fogLevel": [
+      {
+        "rateOverTime": 5
+      },
+      {
+        "rateOverTime": 23
+      }
+    ],
+    "homeid": 50000005
+  },
+  {
+    "id": 50000009,
+    "idCN": "天气/雨/02大雨",
+    "mod": "雨",
+    "isInformalData": false,
+    "resUrl": "Weather\\Rain\\ParticleRain1",
+    "combinePath": "Rain2",
+    "intervalFrame": 15,
+    "buffId": 10404543,
+    "isSkill": true,
+    "isSecond": false,
+    "homeid": 50000007,
+    "iconResUrl": "Weather/Icon/Rain2",
+    "backgroundResUrl": "Weather/Icon/Back/Rain",
+    "weatherName": "大雨",
+    "weatherDetailList": [
+      {
+        "resUrl": "Weather/Icon/Rain2",
+        "text": "<color=#ffffff>大雨：</color><color=#cd8c00>【引雷】</color><color=#adadad>概率</color><color=#cd8c00>+10%</color>"
+      },
+      {
+        "resUrl": "Weather/Icon/Rain2",
+        "text": "<color=#ffffff>大雨：</color><color=#ff7c7c>【点燃】</color><color=#adadad>持续时间</color><color=#ff7c7c>-2秒</color>"
+      }
+    ],
+    "rainLevel": [
+      {
+        "rateOverTimeBack": 80,
+        "rateOverTimeFront": 100,
+        "rateOverTimeSplash": 100,
+        "windForce": -10
+      }
+    ],
+    "WeatherType": "FirstGroup"
+  },
+  {
+    "id": 50000010,
+    "idCN": "天气/雨/03暴雨",
+    "mod": "雨",
+    "isInformalData": false,
+    "resUrl": "Weather\\Rain\\ParticleRain1",
+    "combinePath": "Rain3",
+    "intervalFrame": 15,
+    "buffId": 10404544,
+    "isSkill": true,
+    "isSecond": false,
+    "homeid": 50000007,
+    "iconResUrl": "Weather/Icon/Rain3",
+    "backgroundResUrl": "Weather/Icon/Back/Rain",
+    "weatherName": "暴雨",
+    "weatherDetailList": [
+      {
+        "resUrl": "Weather/Icon/Rain3",
+        "text": "<color=#ffffff>暴雨：</color><color=#cd8c00>【引雷】</color><color=#adadad>概率</color><color=#cd8c00>+15%</color>"
+      },
+      {
+        "resUrl": "Weather/Icon/Rain3",
+        "text": "<color=#ffffff>暴雨：</color><color=#ff7c7c>【点燃】</color><color=#adadad>持续时间</color><color=#ff7c7c>-3秒</color>"
+      }
+    ],
+    "rainLevel": [
+      {
+        "rateOverTimeBack": 100,
+        "rateOverTimeFront": 150,
+        "rateOverTimeSplash": 100,
+        "windForce": -30
+      }
+    ],
+    "WeatherType": "FirstGroup"
+  },
+  {
+    "id": 50000012,
+    "idCN": "环境/电光石火",
+    "mod": "基础环境",
+    "isInformalData": false,
+    "startEffectId": -1,
+    "endEffectId": -1,
+    "effectId": 11102141,
+    "buffId": 10400389,
+    "isSkill": true,
+    "interval": 15,
+    "duration": 720,
+    "radiusSN": 240000,
+    "environIconPath": "UI/Battle/Environment/Icon/Lightning",
+    "environName": "<color=#D1BF53>电光石火 ：</color>",
+    "environDetail": "全场<color=#FFB800>【引雷】</color>额外<color=#FFB800>落雷</color>1次，不论敌我",
+    "WeatherType": "FirstGroup",
+    "tempenvironName": "环境_电光石火",
+    "tempenvironDetail": "全场【引雷】额外落雷1次，不论敌我"
+  },
+  {
+    "id": 50000013,
+    "idCN": "环境/繁星",
+    "mod": "基础环境",
+    "isInformalData": false,
+    "startEffectId": 11101972,
+    "endEffectId": 11101949,
+    "effectId": 11101944,
+    "buffId": 10404595,
+    "isSkill": true,
+    "interval": 15,
+    "duration": 720,
+    "radiusSN": 240000,
+    "environIconPath": "UI/Battle/Environment/Icon/StarrySky",
+    "environName": "<color=#D1BF53>繁星 ：</color>",
+    "environDetail": "所有卡牌所需费用-1",
+    "WeatherType": "FirstGroup",
+    "tempenvironName": "环境_繁星",
+    "tempenvironDetail": "所有卡牌所需费用-1"
+  },
+  {
+    "id": 50000014,
+    "idCN": "地面/炽地",
+    "mod": "基础环境",
+    "isInformalData": false,
+    "startEffectId": -1,
+    "endEffectId": -1,
+    "effectId": 11100877,
+    "buffId": 10403206,
+    "isSkill": true,
+    "interval": 60,
+    "duration": 360,
+    "radiusSN": 20000,
+    "environIconPath": "",
+    "tempenvironName": "",
+    "environName": "",
+    "tempenvironDetail": "",
+    "environDetail": "",
+    "isTipTrigger": false,
+    "WeatherType": "FirstGroup"
+  },
+  {
+    "id": 50000015,
+    "idCN": "地面/燎原",
+    "mod": "基础环境",
+    "isInformalData": false,
+    "startEffectId": -1,
+    "endEffectId": -1,
+    "effectId": 11100879,
+    "buffId": 10403465,
+    "isSkill": true,
+    "interval": 60,
+    "duration": 360,
+    "radiusSN": 60000,
+    "environIconPath": "",
+    "tempenvironName": "",
+    "environName": "",
+    "tempenvironDetail": "",
+    "environDetail": "",
+    "isTipTrigger": false,
+    "WeatherType": "FirstGroup"
+  },
+  {
+    "id": 50000011,
+    "idCN": "试炼场/加费",
+    "mod": "只加BUFF",
+    "isInformalData": false,
+    "intervalFrame": 15,
+    "buffId": 10403629
+  },
+  {
+    "id": 50000017,
+    "idCN": "天气/雪/02大雪",
+    "mod": "雪",
+    "isInformalData": false,
+    "resUrl": "Weather\\Snow\\SnowOn3DScene",
+    "combinePath": "Snow2",
+    "intervalFrame": 15,
+    "buffId": 10400793,
+    "isSkill": true,
+    "isSecond": false,
+    "homeid": 50000006,
+    "iconResUrl": "Weather/Icon/Snow2",
+    "backgroundResUrl": "Weather/Icon/Back/Snow",
+    "weatherName": "大雪",
+    "weatherDetailList": [
+      {
+        "resUrl": "Weather/Icon/Snow2",
+        "text": "<color=#ffffff>大雪：</color><color=#7b68ee>【冻结】</color><color=#adadad>持续时间</color><color=#7b68ee>+2秒</color>"
+      },
+      {
+        "resUrl": "Weather/Icon/Snow2",
+        "text": "<color=#ffffff>大雪：</color><color=#cd8c00>【引雷】</color><color=#adadad>概率</color><color=#cd8c00>-6%</color>"
+      }
+    ],
+    "snowLevel": [
+      {
+        "EmissionPosX": -5.0,
+        "alpha": 30,
+        "fogRate": 10,
+        "fogSpeedMax": 3.5,
+        "fogSpeedMin": 2.0,
+        "invalidParticle": "Front",
+        "mainVelocityMax": 3.0,
+        "mainVelocityMin": 1.0,
+        "noiseStrength": 0.3,
+        "rate": 12,
+        "sideVelocityMax": 5.0,
+        "sideVelocityMin": 3.0
+      }
+    ],
+    "WeatherType": "FirstGroup"
+  },
+  {
+    "id": 50000018,
+    "idCN": "天气/雪/03暴雪",
+    "mod": "雪",
+    "isInformalData": false,
+    "resUrl": "Weather\\Snow\\SnowOn3DScene",
+    "combinePath": "Snow3",
+    "intervalFrame": 15,
+    "buffId": 10400794,
+    "isSkill": true,
+    "isSecond": false,
+    "homeid": 50000006,
+    "iconResUrl": "Weather/Icon/Snow3",
+    "backgroundResUrl": "Weather/Icon/Back/Snow",
+    "weatherName": "暴雪",
+    "weatherDetailList": [
+      {
+        "resUrl": "Weather/Icon/Snow3",
+        "text": "<color=#ffffff>暴雪：</color><color=#7b68ee>【冻结】</color><color=#adadad>持续时间</color><color=#7b68ee>+3秒</color>"
+      },
+      {
+        "resUrl": "Weather/Icon/Snow3",
+        "text": "<color=#ffffff>暴雪：</color><color=#cd8c00>【引雷】</color><color=#adadad>概率</color><color=#cd8c00>-9%</color>"
+      }
+    ],
+    "snowLevel": [
+      {
+        "EmissionPosX": -10.0,
+        "alpha": 120,
+        "fogRate": 12,
+        "fogSpeedMax": 7.0,
+        "fogSpeedMin": 4.0,
+        "invalidParticle": "Front",
+        "mainVelocityMax": 5.0,
+        "mainVelocityMin": 3.0,
+        "noiseStrength": 0.5,
+        "rate": 24,
+        "sideVelocityMax": 9.0,
+        "sideVelocityMin": 6.0
+      }
+    ],
+    "WeatherType": "FirstGroup"
+  },
+  {
+    "id": 50000019,
+    "idCN": "天气/炎热/01炎热",
+    "mod": "后处理",
+    "isInformalData": false,
+    "resUrl": "Weather\\Snow\\SnowOn3DScene",
+    "combinePath": "Fine1",
+    "intervalFrame": 15,
+    "buffId": 10400800,
+    "isSkill": true,
+    "isSecond": false,
+    "homeid": 50000019,
+    "iconResUrl": "Weather/Icon/Fine",
+    "backgroundResUrl": "Weather/Icon/Back/Fine",
+    "weatherName": "炎热",
+    "weatherDetailList": [
+      {
+        "resUrl": "Weather/Icon/Fine",
+        "text": "<color=#ffffff>炎热：</color><color=#ff7c7c>【点燃】</color><color=#adadad>持续时间</color><color=#ff7c7c>+1秒</color>"
+      },
+      {
+        "resUrl": "Weather/Icon/Fine",
+        "text": "<color=#ffffff>炎热：</color><color=#7b68ee>【冻结】</color><color=#adadad>持续时间</color><color=#7b68ee>-1秒</color>"
+      }
+    ],
+    "postEffectName": "Distortion",
+    "floatValueList": [
+      {
+        "key": "_DistortVelocity",
+        "value": 0.042
+      },
+      {
+        "key": "_DistortStrength",
+        "value": 0.02
+      },
+      {
+        "key": "_DensityX",
+        "value": 0.2
+      },
+      {
+        "key": "_DensityY",
+        "value": 0.2
+      }
+    ],
+    "WeatherType": "FirstGroup"
+  },
+  {
+    "id": 50000020,
+    "idCN": "天气/炎热/02酷热",
+    "mod": "后处理",
+    "isInformalData": false,
+    "resUrl": "Weather\\Snow\\SnowOn3DScene",
+    "combinePath": "Fine2",
+    "intervalFrame": 15,
+    "buffId": 10400799,
+    "isSkill": true,
+    "isSecond": false,
+    "homeid": 50000020,
+    "iconResUrl": "Weather/Icon/Fine2",
+    "backgroundResUrl": "Weather/Icon/Back/Fine",
+    "weatherName": "酷热",
+    "weatherDetailList": [
+      {
+        "resUrl": "Weather/Icon/Fine2",
+        "text": "<color=#ffffff>酷热：</color><color=#ff7c7c>【点燃】</color><color=#adadad>持续时间</color><color=#ff7c7c>+2秒</color>"
+      },
+      {
+        "resUrl": "Weather/Icon/Fine2",
+        "text": "<color=#ffffff>酷热：</color><color=#7b68ee>【冻结】</color><color=#adadad>持续时间</color><color=#7b68ee>-2秒</color>"
+      }
+    ],
+    "postEffectName": "Distortion",
+    "floatValueList": [
+      {
+        "key": "_DistortVelocity",
+        "value": 0.062
+      },
+      {
+        "key": "_DistortStrength",
+        "value": 0.045
+      },
+      {
+        "key": "_DensityX",
+        "value": 0.2
+      },
+      {
+        "key": "_DensityY",
+        "value": 0.5
+      }
+    ],
+    "WeatherType": "FirstGroup"
+  },
+  {
+    "id": 50000022,
+    "idCN": "天气/炎热/03炙热",
+    "mod": "后处理",
+    "isInformalData": false,
+    "resUrl": "Weather\\Snow\\SnowOn3DScene",
+    "combinePath": "Fine3",
+    "intervalFrame": 15,
+    "buffId": 10400797,
+    "isSkill": true,
+    "isSecond": false,
+    "homeid": 50000022,
+    "iconResUrl": "Weather/Icon/Fine3",
+    "backgroundResUrl": "Weather/Icon/Back/Fine",
+    "weatherName": "炙热",
+    "weatherDetailList": [
+      {
+        "resUrl": "Weather/Icon/Fine3",
+        "text": "<color=#ffffff>酷热：</color><color=#ff7c7c>【点燃】</color><color=#adadad>持续时间</color><color=#ff7c7c>+3秒</color>"
+      },
+      {
+        "resUrl": "Weather/Icon/Fine3",
+        "text": "<color=#ffffff>酷热：</color><color=#7b68ee>【冻结】</color><color=#adadad>持续时间</color><color=#7b68ee>-3秒</color>"
+      }
+    ],
+    "postEffectName": "Distortion",
+    "floatValueList": [
+      {
+        "key": "_DistortVelocity",
+        "value": 0.062
+      },
+      {
+        "key": "_DistortStrength",
+        "value": 0.045
+      },
+      {
+        "key": "_DensityX",
+        "value": 0.2
+      },
+      {
+        "key": "_DensityY",
+        "value": 0.5
+      }
+    ],
+    "WeatherType": "FirstGroup"
+  },
+  {
+    "id": 50000021,
+    "idCN": "环境/富氧大气",
+    "mod": "基础环境",
+    "isInformalData": false,
+    "startEffectId": -1,
+    "endEffectId": -1,
+    "effectId": 11104207,
+    "buffId": 10405754,
+    "isSkill": true,
+    "interval": 15,
+    "duration": 720,
+    "radiusSN": 240000,
+    "environIconPath": "UI/Battle/Environment/Icon/OxygenRich",
+    "environName": "<color=#FF6666>富氧大气 ：</color>",
+    "environDetail": "全场触发的<color=#FF6666>【点燃】</color>，<color=#FF6666>【炽地】</color>，<color=#FF6666>【燎原】</color>和<color=#FF6666>【火海】</color>伤害加倍，不论敌我",
+    "WeatherType": "FirstGroup",
+    "tempenvironName": "环境_富氧大气",
+    "tempenvironDetail": "全场触发的【点燃】，【炽地】，【燎原】和【火海】伤害加倍，不论敌我"
+  },
+  {
+    "id": 50000023,
+    "idCN": "环境/谜障森林20",
+    "mod": "基础环境",
+    "isInformalData": false,
+    "startEffectId": -1,
+    "endEffectId": -1,
+    "effectId": 11103375,
+    "buffId": 10406262,
+    "isSkill": true,
+    "interval": 15,
+    "duration": 999999,
+    "radiusSN": 240000,
+    "environIconPath": "UI/Battle/Environment/Icon/BlindForest",
+    "environName": "<color=#D1BF53>迷障森林 ：</color>",
+    "environDetail": "新入手牌有50%概率长满树枝，无法识别",
+    "WeatherType": "FirstGroup",
+    "tempenvironName": "环境_迷障森林",
+    "tempenvironDetail": "新入手牌有50%概率长满树枝，无法识别"
+  },
+  {
+    "id": 50000026,
+    "idCN": "地面/火海",
+    "mod": "基础环境",
+    "isInformalData": false,
+    "startEffectId": -1,
+    "endEffectId": -1,
+    "effectId": 11100878,
+    "buffId": 10406369,
+    "isSkill": true,
+    "interval": 60,
+    "duration": 360,
+    "radiusSN": 120000,
+    "environIconPath": "",
+    "tempenvironName": "",
+    "environName": "",
+    "tempenvironDetail": "",
+    "environDetail": "",
+    "isTipTrigger": false,
+    "WeatherType": "FirstGroup"
+  },
+  {
+    "id": 50000024,
+    "idCN": "天气/共振/01共振干涉",
+    "mod": "雪",
+    "isInformalData": false,
+    "resUrl": "Weather\\Snow\\SnowOn3DScene",
+    "intervalFrame": 15,
+    "buffId": 10406604,
+    "isSkill": true,
+    "isSecond": true,
+    "homeid": 50000006,
+    "iconResUrl": "Weather/Icon/Gongzhen1",
+    "backgroundResUrl": "Weather/Icon/Back/Gongzhen",
+    "weatherName": "共振干涉1",
+    "weatherDetailList": [
+      {
+        "resUrl": "UI/CardTag/HuiFei",
+        "text": "<color=#7b68ee>回费速度</color><color=#adadad>提高</color><color=#ffb800>0.05费/秒</color>"
+      }
+    ],
+    "snowLevel": [
+      {
+        "EmissionPosX": 0.0,
+        "alpha": 0,
+        "fogRate": 0,
+        "fogSpeedMax": 0.0,
+        "fogSpeedMin": 0.0,
+        "invalidParticle": "Side",
+        "mainVelocityMax": 1.0,
+        "mainVelocityMin": 0.5,
+        "noiseStrength": 0.1,
+        "rate": 12,
+        "sideVelocityMax": 0.0,
+        "sideVelocityMin": 0.0
+      }
+    ],
+    "WeatherType": "FirstGroup"
+  },
+  {
+    "id": 50000025,
+    "idCN": "天气/共振/02共振干涉",
+    "mod": "雪",
+    "isInformalData": false,
+    "resUrl": "Weather\\Snow\\SnowOn3DScene",
+    "intervalFrame": 15,
+    "buffId": 10406608,
+    "isSkill": true,
+    "isSecond": true,
+    "homeid": 50000006,
+    "iconResUrl": "Weather/Icon/Gongzhen2",
+    "backgroundResUrl": "Weather/Icon/Back/Gongzhen",
+    "weatherName": "共振干涉2",
+    "weatherDetailList": [
+      {
+        "resUrl": "UI/CardTag/HuiFei",
+        "text": "<color=#7b68ee>回费速度</color><color=#adadad>提高</color><color=#ffb800>0.1费/秒</color>"
+      }
+    ],
+    "snowLevel": [
+      {
+        "EmissionPosX": 0.0,
+        "alpha": 0,
+        "fogRate": 0,
+        "fogSpeedMax": 0.0,
+        "fogSpeedMin": 0.0,
+        "invalidParticle": "Side",
+        "mainVelocityMax": 1.0,
+        "mainVelocityMin": 0.5,
+        "noiseStrength": 0.1,
+        "rate": 12,
+        "sideVelocityMax": 0.0,
+        "sideVelocityMin": 0.0
+      }
+    ],
+    "WeatherType": "FirstGroup"
+  },
+  {
+    "id": 50000027,
+    "idCN": "天气/共振/03共振干涉",
+    "mod": "雪",
+    "isInformalData": false,
+    "resUrl": "Weather\\Snow\\SnowOn3DScene",
+    "intervalFrame": 15,
+    "buffId": 10406609,
+    "isSkill": true,
+    "isSecond": true,
+    "homeid": 50000006,
+    "iconResUrl": "Weather/Icon/Gongzhen3",
+    "backgroundResUrl": "Weather/Icon/Back/Gongzhen",
+    "weatherName": "共振干涉3",
+    "weatherDetailList": [
+      {
+        "resUrl": "UI/CardTag/HuiFei",
+        "text": "<color=#7b68ee>回费速度</color><color=#adadad>提高</color><color=#ffb800>0.15费/秒</color>"
+      }
+    ],
+    "snowLevel": [
+      {
+        "EmissionPosX": 0.0,
+        "alpha": 0,
+        "fogRate": 0,
+        "fogSpeedMax": 0.0,
+        "fogSpeedMin": 0.0,
+        "invalidParticle": "Side",
+        "mainVelocityMax": 1.0,
+        "mainVelocityMin": 0.5,
+        "noiseStrength": 0.1,
+        "rate": 12,
+        "sideVelocityMax": 0.0,
+        "sideVelocityMin": 0.0
+      }
+    ],
+    "WeatherType": "FirstGroup"
+  },
+  {
+    "id": 50000028,
+    "idCN": "天气/共振/01共振压制",
+    "mod": "特效天气",
+    "isInformalData": false,
+    "combinePath": "Resonance1",
+    "intervalFrame": 15,
+    "buffId": 10407799,
+    "isSkill": true,
+    "isSecond": true,
+    "homeid": -1,
+    "iconResUrl": "Weather/Icon/Gongzhen1",
+    "backgroundResUrl": "",
+    "weatherName": "共振压制1",
+    "weatherDetailList": [
+      {
+        "resUrl": "Weather/Icon/Gongzhen1",
+        "text": "<color=#ffffff>共振压制：</color><color=#8a2be2>回费速度</color><color=#adadad>减少</color><color=#8a2be2>0.09</color><color=#adadad>/秒</color>"
+      }
+    ],
+    "startEffectId": -1,
+    "endEffectId": -1,
+    "effectId": 11104845,
+    "offsetXSN": 0,
+    "offsetYSN": 0,
+    "offsetZSN": 260000,
+    "WeatherType": "SecondGroup"
+  },
+  {
+    "id": 50000029,
+    "idCN": "天气/共振/02共振压制",
+    "mod": "特效天气",
+    "isInformalData": false,
+    "combinePath": "Resonance2",
+    "intervalFrame": 15,
+    "buffId": 10407798,
+    "isSkill": true,
+    "isSecond": true,
+    "homeid": -1,
+    "iconResUrl": "Weather/Icon/Gongzhen2",
+    "backgroundResUrl": "",
+    "weatherName": "共振压制2",
+    "weatherDetailList": [
+      {
+        "resUrl": "Weather/Icon/Gongzhen2",
+        "text": "<color=#ffffff>共振压制：</color><color=#8a2be2>回费速度</color><color=#adadad>减少</color><color=#8a2be2>0.12</color><color=#adadad>/秒</color>"
+      }
+    ],
+    "startEffectId": -1,
+    "endEffectId": -1,
+    "effectId": 11104844,
+    "offsetXSN": 0,
+    "offsetYSN": 0,
+    "offsetZSN": 260000,
+    "WeatherType": "SecondGroup"
+  },
+  {
+    "id": 50000030,
+    "idCN": "天气/共振/03共振压制",
+    "mod": "特效天气",
+    "isInformalData": false,
+    "combinePath": "Resonance3",
+    "intervalFrame": 15,
+    "buffId": 10407705,
+    "isSkill": true,
+    "isSecond": true,
+    "homeid": -1,
+    "iconResUrl": "Weather/Icon/Gongzhen3",
+    "backgroundResUrl": "",
+    "weatherName": "共振压制3",
+    "weatherDetailList": [
+      {
+        "resUrl": "Weather/Icon/Gongzhen3",
+        "text": "<color=#ffffff>共振压制：</color><color=#8a2be2>回费速度</color><color=#adadad>减少</color><color=#8a2be2>0.15</color><color=#adadad>/秒</color>"
+      }
+    ],
+    "startEffectId": -1,
+    "endEffectId": -1,
+    "effectId": 11104843,
+    "offsetXSN": 0,
+    "offsetYSN": 0,
+    "offsetZSN": 260000,
+    "WeatherType": "SecondGroup"
+  },
+  {
+    "id": 50000031,
+    "idCN": "环境/开尔文笑话",
+    "mod": "基础环境",
+    "isInformalData": false,
+    "startEffectId": -1,
+    "endEffectId": -1,
+    "effectId": -1,
+    "buffId": 10407976,
+    "isSkill": false,
+    "interval": 30,
+    "duration": 720,
+    "radiusSN": 240000,
+    "environIconPath": "UI/Battle/Environment/Icon/KelvinsJoke",
+    "environName": "<color=#7AB2FF>开尔文笑话 ：</color>",
+    "environDetail": "使全场<color=#7AB2FF>【冻结】</color>状态下的目标<color=#FF6666>【崩坏】</color>，不论敌我",
+    "WeatherType": "FirstGroup",
+    "tempenvironName": "环境_开尔文笑话",
+    "tempenvironDetail": "使全场【冻结】状态下的目标【崩坏】，不论敌我"
+  },
+  {
+    "id": 50000033,
+    "idCN": "大世界/雨",
+    "mod": "大世界天气",
+    "isInformalData": false,
+    "resUrl": "Environment\\MapEffect\\Particle\\Prefabs\\Yu",
+    "WeatherType": "FirstGroup"
+  },
+  {
+    "id": 50000034,
+    "idCN": "大世界/雪",
+    "mod": "大世界天气",
+    "isInformalData": false,
+    "resUrl": "Environment\\MapEffect\\Particle\\Prefabs\\Xue_xiao",
+    "WeatherType": "FirstGroup"
+  },
+  {
+    "id": 50000035,
+    "idCN": "大世界/大雪",
+    "mod": "大世界天气",
+    "isInformalData": false,
+    "resUrl": "Environment\\MapEffect\\Particle\\Prefabs\\Xue_da",
+    "WeatherType": "FirstGroup"
+  },
+  {
+    "id": 50000036,
+    "idCN": "大世界/大雨",
+    "mod": "大世界天气",
+    "isInformalData": false,
+    "resUrl": "Environment\\MapEffect\\Particle\\Prefabs\\Yu",
+    "WeatherType": "FirstGroup"
+  }
+]

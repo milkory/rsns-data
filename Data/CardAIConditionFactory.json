@@ -1,0 +1,161 @@
+[
+  {
+    "id": 96200001,
+    "idCN": "初始产品",
+    "mod": "GS脚本"
+  },
+  {
+    "id": 96200002,
+    "idCN": "是队长技",
+    "mod": "判断队长技",
+    "isInformalData": false,
+    "isInvert": false
+  },
+  {
+    "id": 96200003,
+    "idCN": "弃牌按钮可用",
+    "mod": "弃牌按钮可用",
+    "isInformalData": false,
+    "isInvert": false
+  },
+  {
+    "id": 96200004,
+    "idCN": "卡牌颜色/红",
+    "mod": "卡牌颜色",
+    "isInformalData": false,
+    "isInvert": false,
+    "color": "Red"
+  },
+  {
+    "id": 96200005,
+    "idCN": "卡牌颜色/蓝",
+    "mod": "卡牌颜色",
+    "isInformalData": false,
+    "isInvert": false,
+    "color": "Blue"
+  },
+  {
+    "id": 96200006,
+    "idCN": "卡牌颜色/绿",
+    "mod": "卡牌颜色",
+    "isInformalData": false,
+    "isInvert": false,
+    "color": "Green"
+  },
+  {
+    "id": 96200007,
+    "idCN": "卡牌颜色/黄",
+    "mod": "卡牌颜色",
+    "isInformalData": false,
+    "isInvert": false,
+    "color": "Yellow"
+  },
+  {
+    "id": 96200008,
+    "idCN": "卡牌颜色/紫",
+    "mod": "卡牌颜色",
+    "isInformalData": false,
+    "isInvert": false,
+    "color": "Purple"
+  },
+  {
+    "id": 96200009,
+    "idCN": "卡牌颜色/黑",
+    "mod": "卡牌颜色",
+    "isInformalData": false,
+    "isInvert": false,
+    "color": "Black"
+  },
+  {
+    "id": 96200010,
+    "idCN": "手牌数大于",
+    "mod": "手牌数大于",
+    "isInformalData": false,
+    "isInvert": false
+  },
+  {
+    "id": 96200011,
+    "idCN": "释放者存活",
+    "mod": "卡牌角色存活",
+    "isInformalData": false,
+    "isInvert": false
+  },
+  {
+    "id": 96200012,
+    "idCN": "卡牌颜色/非黑",
+    "mod": "卡牌颜色",
+    "isInformalData": false,
+    "isInvert": true,
+    "color": "Black"
+  },
+  {
+    "id": 96200013,
+    "idCN": "条件集/手牌可用",
+    "mod": "条件集",
+    "isInformalData": false,
+    "isInvert": false,
+    "conditionList": [
+      {
+        "conditionId": 96200012
+      },
+      {
+        "conditionId": 96200011
+      },
+      {
+        "conditionId": 96200014
+      }
+    ]
+  },
+  {
+    "id": 96200014,
+    "idCN": "卡牌费用可用",
+    "mod": "卡牌费用可用",
+    "isInformalData": false,
+    "isInvert": false
+  },
+  {
+    "id": 96200015,
+    "idCN": "条件集/全部手牌不可用",
+    "mod": "条件集_所有手牌",
+    "isInformalData": false,
+    "isInvert": false,
+    "conditionList": [
+      {
+        "conditionId": 96200017
+      }
+    ]
+  },
+  {
+    "id": 96200016,
+    "idCN": "条件集/全部手牌不可用且弃牌可用",
+    "mod": "条件集",
+    "isInformalData": false,
+    "isInvert": false,
+    "conditionList": [
+      {
+        "conditionId": 96200015
+      },
+      {
+        "conditionId": 96200003
+      }
+    ]
+  },
+  {
+    "id": 96200017,
+    "idCN": "条件集/手牌不可用",
+    "mod": "条件集",
+    "isInformalData": false,
+    "isInvert": true,
+    "conditionList": [
+      {
+        "conditionId": 96200012
+      },
+      {
+        "conditionId": 96200011
+      },
+      {
+        "conditionId": 96200014
+      }
+    ]
+  }
+]
