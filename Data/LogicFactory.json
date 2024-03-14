@@ -1287,5 +1287,86 @@
     "returnType": "int",
     "scriptPath": "GGScript/MainLine2-1",
     "scriptLabel": "main"
+  },
+  {
+    "id": 60000102,
+    "idCN": "卡牌/功能节点/卡牌可使用/卡牌Buff",
+    "mod": "执行GS脚本",
+    "isInformalData": false,
+    "debug": true,
+    "memo": "检测卡牌上是否有传入的buff。\r全都没有返回true",
+    "paramHelp": "buff0\rbuff1\rbuff2\rbuff3\rbuff4\rbuff5",
+    "returnType": "bool",
+    "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rgetp currentCore\rset $core\r\rif\r\tget $core currentCard\r\tset $card\r\tif\r\t\tgetp cardProperty\r\t\tset $property\r\t\tif\r\t\t\tgetp buffSystem\t\r\t\t\tset $buffSystem\r\t\t\tget $__param0\r\t\t\tset $buffId\r\t\t\tif\r\t\t\t\tget $buffSystem\r\t\t\t\tcgf GetBuffLevel $buffId\r\t\t\t\tset $lv\r\t\t\t\tif\r\t\t\t\t\tret false\r\t\t\t\tendif\r\t\t\tendif\t\r\t\t\tget $__param1\r\t\t\tset $buffId\r\t\t\tif\r\t\t\t\tget $buffSystem\r\t\t\t\tcgf GetBuffLevel $buffId\r\t\t\t\tset $lv\r\t\t\t\tif\r\t\t\t\t\tret false\r\t\t\t\tendif\r\t\t\tendif\t\r\t\t\tget $__param2\r\t\t\tset $buffId\r\t\t\tif\r\t\t\t\tget $buffSystem\r\t\t\t\tcgf GetBuffLevel $buffId\r\t\t\t\tset $lv\r\t\t\t\tif\r\t\t\t\t\tret false\r\t\t\t\tendif\r\t\t\tendif\t\r\t\t\tget $__param3\r\t\t\tset $buffId\r\t\t\tif\r\t\t\t\tget $buffSystem\r\t\t\t\tcgf GetBuffLevel $buffId\r\t\t\t\tset $lv\r\t\t\t\tif\r\t\t\t\t\tret false\r\t\t\t\tendif\r\t\t\tendif\t\r\t\t\tget $__param4\r\t\t\tset $buffId\r\t\t\tif\r\t\t\t\tget $buffSystem\r\t\t\t\tcgf GetBuffLevel $buffId\r\t\t\t\tset $lv\r\t\t\t\tif\r\t\t\t\t\tret false\r\t\t\t\tendif\r\t\t\tendif\t\r\t\t\tget $__param5\r\t\t\tset $buffId\r\t\t\tif\r\t\t\t\tget $buffSystem\r\t\t\t\tcgf GetBuffLevel $buffId\r\t\t\t\tset $lv\r\t\t\t\tif\r\t\t\t\t\tret false\r\t\t\t\tendif\r\t\t\tendif\r\t\tendif\r\tendif\rendif\r\rret true"
+  },
+  {
+    "id": 60000103,
+    "idCN": "卡牌/卡牌可使用/卡牌Buff",
+    "mod": "逻辑脚本",
+    "isInformalData": false,
+    "debug": false,
+    "memo": "检测卡牌上是否有传入的buff。\r全都没有返回true",
+    "paramHelp": "",
+    "returnType": "bool",
+    "scriptPath": "GGScript/60000103",
+    "scriptLabel": "main"
+  },
+  {
+    "id": 60000104,
+    "idCN": "卡牌/功能节点/卡牌可使用/释放者Buff",
+    "mod": "执行GS脚本",
+    "isInformalData": false,
+    "debug": false,
+    "memo": "检测卡牌使用者上是否有传入的buff。\r全都没有返回true",
+    "paramHelp": "buff0\rbuff1\rbuff2\rbuff3\rbuff4\rbuff5",
+    "returnType": "bool",
+    "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rgetp currentCore\rset $core\r\rif\r\tget $core currentCard\r\tset $card\r\tif\r\t\tgetp owner\r\t\tset $owner\r\t\tif\r\t\t\tgetp buffSystem\r\t\t\tset $buffSystem\r\t\t\tget $__param0\r\t\t\tset $buffId\r\t\t\tif\r\t\t\t\tget $buffSystem\r\t\t\t\tcgf GetBuffLevel $buffId\r\t\t\t\tset $lv\r\t\t\t\tif\r\t\t\t\t\tret false\r\t\t\t\tendif\r\t\t\tendif\r\t\t\tget $__param1\r\t\t\tset $buffId\r\t\t\tif\r\t\t\t\tget $buffSystem\r\t\t\t\tcgf GetBuffLevel $buffId\r\t\t\t\tset $lv\r\t\t\t\tif\r\t\t\t\t\tret false\r\t\t\t\tendif\r\t\t\tendif\r\t\t\tget $__param2\r\t\t\tset $buffId\r\t\t\tif\r\t\t\t\tget $buffSystem\r\t\t\t\tcgf GetBuffLevel $buffId\r\t\t\t\tset $lv\r\t\t\t\tif\r\t\t\t\t\tret false\r\t\t\t\tendif\r\t\t\tendif\r\t\t\tget $__param3\r\t\t\tset $buffId\r\t\t\tif\r\t\t\t\tget $buffSystem\r\t\t\t\tcgf GetBuffLevel $buffId\r\t\t\t\tset $lv\r\t\t\t\tif\r\t\t\t\t\tret false\r\t\t\t\tendif\r\t\t\tendif\r\t\t\tget $__param4\r\t\t\tset $buffId\r\t\t\tif\r\t\t\t\tget $buffSystem\r\t\t\t\tcgf GetBuffLevel $buffId\r\t\t\t\tset $lv\r\t\t\t\tif\r\t\t\t\t\tret false\r\t\t\t\tendif\r\t\t\tendif\r\t\t\tget $__param5\r\t\t\tset $buffId\r\t\t\tif\r\t\t\t\tget $buffSystem\r\t\t\t\tcgf GetBuffLevel $buffId\r\t\t\t\tset $lv\r\t\t\t\tif\r\t\t\t\t\tret false\r\t\t\t\tendif\r\t\t\tendif\r\t\tendif\r\tendif\rendif\r\rret true"
+  },
+  {
+    "id": 60000110,
+    "idCN": "卡牌/功能节点/卡牌可使用/小队Buff",
+    "mod": "执行GS脚本",
+    "isInformalData": false,
+    "debug": true,
+    "memo": "检测小队上是否有传入的buff。\r全都没有返回true",
+    "paramHelp": "buff0\rbuff1\rbuff2\rbuff3\rbuff4\rbuff5",
+    "returnType": "bool",
+    "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rgetp currentCore\rset $core\r\rif\r\tget $core teamData\r\tset $team\r\tif\r\t\tgetp sysUnit\r\t\tset $sysUnit\r\t\tif\r\t\t\tgetp buffSystem\r\t\t\tset $buffSystem\r\t\t\tget $__param0\r\t\t\tset $buffId\r\t\t\tif\r\t\t\t\tget $buffSystem\r\t\t\t\tcgf GetBuffLevel $buffId\r\t\t\t\tset $lv\r\t\t\t\tif\r\t\t\t\t\tret false\r\t\t\t\tendif\r\t\t\tendif\t\r\t\t\tget $__param1\r\t\t\tset $buffId\r\t\t\tif\r\t\t\t\tget $buffSystem\r\t\t\t\tcgf GetBuffLevel $buffId\r\t\t\t\tset $lv\r\t\t\t\tif\r\t\t\t\t\tret false\r\t\t\t\tendif\r\t\t\tendif\t\r\t\t\tget $__param2\r\t\t\tset $buffId\r\t\t\tif\r\t\t\t\tget $buffSystem\r\t\t\t\tcgf GetBuffLevel $buffId\r\t\t\t\tset $lv\r\t\t\t\tif\r\t\t\t\t\tret false\r\t\t\t\tendif\r\t\t\tendif\t\r\t\t\tget $__param3\r\t\t\tset $buffId\r\t\t\tif\r\t\t\t\tget $buffSystem\r\t\t\t\tcgf GetBuffLevel $buffId\r\t\t\t\tset $lv\r\t\t\t\tif\r\t\t\t\t\tret false\r\t\t\t\tendif\r\t\t\tendif\t\r\t\t\tget $__param4\r\t\t\tset $buffId\r\t\t\tif\r\t\t\t\tget $buffSystem\r\t\t\t\tcgf GetBuffLevel $buffId\r\t\t\t\tset $lv\r\t\t\t\tif\r\t\t\t\t\tret false\r\t\t\t\tendif\r\t\t\tendif\t\r\t\t\tget $__param5\r\t\t\tset $buffId\r\t\t\tif\r\t\t\t\tget $buffSystem\r\t\t\t\tcgf GetBuffLevel $buffId\r\t\t\t\tset $lv\r\t\t\t\tif\r\t\t\t\t\tret false\r\t\t\t\tendif\r\t\t\tendif\t\r\t\tendif\r\tendif\rendif\r\rret true"
+  },
+  {
+    "id": 60000111,
+    "idCN": "卡牌/卡牌可使用/释放者Buff",
+    "mod": "逻辑脚本",
+    "isInformalData": false,
+    "debug": false,
+    "memo": "检测卡牌上是否有传入的buff。\r全都没有返回true",
+    "paramHelp": "",
+    "returnType": "bool",
+    "scriptPath": "GGScript/60000111",
+    "scriptLabel": "main"
+  },
+  {
+    "id": 60000112,
+    "idCN": "卡牌/卡牌可使用/小队Buff",
+    "mod": "逻辑脚本",
+    "isInformalData": false,
+    "debug": false,
+    "memo": "检测卡牌上是否有传入的buff。\r全都没有返回true",
+    "paramHelp": "",
+    "returnType": "bool",
+    "scriptPath": "GGScript/60000112",
+    "scriptLabel": "main"
+  },
+  {
+    "id": 60000113,
+    "idCN": "99活动/红茶战争/01",
+    "mod": "逻辑脚本",
+    "isInformalData": false,
+    "debug": true,
+    "memo": "红茶",
+    "paramHelp": "",
+    "returnType": "int",
+    "scriptPath": "GGScript/Hongcha",
+    "scriptLabel": "main"
   }
 ]

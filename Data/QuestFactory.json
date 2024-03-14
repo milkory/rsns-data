@@ -63395,7 +63395,7 @@
     "mod": "成就",
     "isInformalData": false,
     "name": "层出叠见",
-    "story": "建造客厢8次",
+    "story": "建造车厢8次",
     "describe": "前往修格里城",
     "questType": "Achieve",
     "sort": 71,
@@ -71705,7 +71705,8 @@
       {
         "id": 11400231,
         "num": 100
-      }
+      },
+      {}
     ],
     "startStation": -1,
     "endStationList": [],
@@ -71806,8 +71807,11 @@
     "name": "[活动]主线1",
     "story": "从修格里商会的NPC墨伊拉处得知修格里本地出现了一个新的红茶供应商，准备推广他们全新培育和制作的红茶，现在买入红茶是史上最低价。",
     "describe": "前往修格里城商会了解情况",
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
     "questType": "Main",
-    "sort": 0,
+    "sort": 10,
     "isSwitchUI": true,
     "switchUI": "UI/",
     "conditionList": [
@@ -71818,6 +71822,10 @@
     ],
     "num": 1,
     "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "parentQuest": -1,
+    "childQuestList": [],
     "rewardsList": [],
     "startStation": 83000001,
     "endStationList": [
@@ -71826,6 +71834,9 @@
         "weight": 10
       }
     ],
+    "client": 82600358,
+    "chapterId": -1,
+    "playerLevel": 1,
     "nextQuest": [
       {
         "id": 81000595
@@ -71836,6 +71847,26 @@
     "isOverwriteEvent": false,
     "eventList": [],
     "environmentList": [],
+    "traceList": [
+      {
+        "apiListId": 80301077,
+        "btnListId": 80300920,
+        "traceId": 80301269,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 80301523,
+        "uiPath": "UI/CityMap/CityMap"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 80301724,
+        "uiPath": "UI/HomeCOC/HomeCOC"
+      }
+    ],
     "isTime": false,
     "startTime": "",
     "endTime": "",
@@ -71849,8 +71880,11 @@
     "name": "[活动]主线2",
     "story": "完成的是采购还是卖红茶？先按完成一次订单处理，跑下流程。",
     "describe": "完成一个订单任务",
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
     "questType": "Main",
-    "sort": 0,
+    "sort": 10,
     "isSwitchUI": true,
     "switchUI": "UI/",
     "conditionList": [
@@ -71861,9 +71895,16 @@
     ],
     "num": 1,
     "islockAddProgress": false,
+    "isAutoComplete": true,
+    "checkComplete": false,
+    "parentQuest": -1,
+    "childQuestList": [],
     "rewardsList": [],
     "startStation": 83000001,
     "endStationList": [],
+    "client": 82600358,
+    "chapterId": -1,
+    "playerLevel": 1,
     "nextQuest": [
       {
         "id": 81000603
@@ -71874,6 +71915,7 @@
     "isOverwriteEvent": false,
     "eventList": [],
     "environmentList": [],
+    "traceList": [],
     "isTime": false,
     "startTime": "",
     "endTime": "",
@@ -71887,8 +71929,11 @@
     "name": "[活动]对话（EV1-Z1）",
     "story": "帝国三傻发现了茶叶不太对劲但又好像没发现。",
     "describe": "对话（EV1-Z1）",
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
     "questType": "Side",
-    "sort": 0,
+    "sort": 10,
     "isSwitchUI": true,
     "switchUI": "UI/",
     "conditionList": [
@@ -71899,6 +71944,10 @@
     ],
     "num": 1,
     "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "parentQuest": -1,
+    "childQuestList": [],
     "rewardsList": [],
     "startStation": 83000001,
     "endStationList": [
@@ -71907,12 +71956,29 @@
         "weight": 10
       }
     ],
+    "client": 82600043,
+    "chapterId": -1,
+    "playerLevel": 1,
     "nextQuest": [],
     "changeCityStateList": [],
     "isEvent": false,
     "isOverwriteEvent": false,
     "eventList": [],
     "environmentList": [],
+    "traceList": [
+      {
+        "apiListId": 80301077,
+        "btnListId": 80300920,
+        "traceId": 80301269,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 80301528,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
     "isTime": false,
     "startTime": "",
     "endTime": "2024-03-10 00:00:00",
@@ -71926,8 +71992,11 @@
     "name": "[活动]对话（EV1-Z2）",
     "story": "阿尔喀娜、夏洛蒂在和女仆讨论茶叶的问题但是好像在说谜语。",
     "describe": "对话（EV1-Z2）",
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
     "questType": "Side",
-    "sort": 0,
+    "sort": 10,
     "isSwitchUI": true,
     "switchUI": "UI/",
     "conditionList": [
@@ -71938,6 +72007,10 @@
     ],
     "num": 1,
     "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "parentQuest": -1,
+    "childQuestList": [],
     "rewardsList": [],
     "startStation": 83000001,
     "endStationList": [
@@ -71946,12 +72019,35 @@
         "weight": 10
       }
     ],
+    "client": 82600169,
+    "chapterId": -1,
+    "playerLevel": 1,
     "nextQuest": [],
     "changeCityStateList": [],
     "isEvent": false,
     "isOverwriteEvent": false,
     "eventList": [],
     "environmentList": [],
+    "traceList": [
+      {
+        "apiListId": 80301077,
+        "btnListId": 80300920,
+        "traceId": 80301269,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 80301528,
+        "uiPath": "UI/CityMap/CityMap"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 80301724,
+        "uiPath": "UI/HomePetStore/HomePetStore"
+      }
+    ],
     "isTime": false,
     "startTime": "",
     "endTime": "2024-03-10 00:00:00",
@@ -71965,8 +72061,11 @@
     "name": "[活动]对话（EV1-Z3）",
     "story": "卡塔斯似乎在进行什么调查但是中了大头贴机陷阱。",
     "describe": "对话（EV1-Z3）",
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
     "questType": "Side",
-    "sort": 0,
+    "sort": 10,
     "isSwitchUI": true,
     "switchUI": "UI/",
     "conditionList": [
@@ -71977,6 +72076,10 @@
     ],
     "num": 1,
     "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "parentQuest": -1,
+    "childQuestList": [],
     "rewardsList": [],
     "startStation": 83000001,
     "endStationList": [
@@ -71985,12 +72088,29 @@
         "weight": 10
       }
     ],
+    "client": 82600080,
+    "chapterId": -1,
+    "playerLevel": 1,
     "nextQuest": [],
     "changeCityStateList": [],
     "isEvent": false,
     "isOverwriteEvent": false,
     "eventList": [],
     "environmentList": [],
+    "traceList": [
+      {
+        "apiListId": 80301077,
+        "btnListId": 80300920,
+        "traceId": 80301269,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 80301537,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
     "isTime": false,
     "startTime": "",
     "endTime": "2024-03-10 00:00:00",
@@ -72004,8 +72124,11 @@
     "name": "[活动]对话（EV1-Z4）",
     "story": "闻笙匆匆离开，亚莉奈诱惑玩家只要一个吻就告诉玩家闻笙要去干什么。",
     "describe": "对话（EV1-Z4）",
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
     "questType": "Side",
-    "sort": 0,
+    "sort": 10,
     "isSwitchUI": true,
     "switchUI": "UI/",
     "conditionList": [
@@ -72016,6 +72139,10 @@
     ],
     "num": 1,
     "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "parentQuest": -1,
+    "childQuestList": [],
     "rewardsList": [],
     "startStation": 83000001,
     "endStationList": [
@@ -72024,12 +72151,35 @@
         "weight": 10
       }
     ],
+    "client": 82600080,
+    "chapterId": -1,
+    "playerLevel": 1,
     "nextQuest": [],
     "changeCityStateList": [],
     "isEvent": false,
     "isOverwriteEvent": false,
     "eventList": [],
     "environmentList": [],
+    "traceList": [
+      {
+        "apiListId": 80301077,
+        "btnListId": 80300920,
+        "traceId": 80301269,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 80301525,
+        "uiPath": "UI/CityMap/CityMap"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 80301724,
+        "uiPath": "UI/Home/BarStore/BarStore"
+      }
+    ],
     "isTime": false,
     "startTime": "",
     "endTime": "2024-03-10 00:00:00",
@@ -72043,8 +72193,11 @@
     "name": "[活动]主线6",
     "story": "列车长发现了弗兰和艾略特的异样，本来只是怀疑，但是看到遥极度OOC地抱着兜兜蹭就再次确定肯定出问题了，但问题出在哪里？虽然有了猜测但是此时的列车长没有轻易下定论。\r七号自由港后准备卸货但是其他乘员都没法工作了只能列车长自己上，结果发现站台上铁盟其他工作人员也少了很多。从工作人员处听说一天前这里发生了一场闹剧。",
     "describe": "城市地图",
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
     "questType": "Main",
-    "sort": 0,
+    "sort": 10,
     "isSwitchUI": true,
     "switchUI": "UI/",
     "conditionList": [
@@ -72055,6 +72208,10 @@
     ],
     "num": 1,
     "islockAddProgress": false,
+    "isAutoComplete": true,
+    "checkComplete": false,
+    "parentQuest": -1,
+    "childQuestList": [],
     "rewardsList": [],
     "startStation": 83000020,
     "endStationList": [
@@ -72063,6 +72220,9 @@
         "weight": 10
       }
     ],
+    "client": 82600358,
+    "chapterId": -1,
+    "playerLevel": 1,
     "nextQuest": [
       {
         "id": 81000604
@@ -72073,6 +72233,20 @@
     "isOverwriteEvent": false,
     "eventList": [],
     "environmentList": [],
+    "traceList": [
+      {
+        "apiListId": 80301077,
+        "btnListId": 80300920,
+        "traceId": 80301269,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 80301119,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
     "isTime": false,
     "startTime": "",
     "endTime": "",
@@ -72086,8 +72260,11 @@
     "name": "[活动]主线4",
     "story": "列车长发现了弗兰和艾略特的异样，本来只是怀疑，但是看到遥极度OOC地抱着兜兜蹭就再次确定肯定出问题了，但问题出在哪里？虽然有了猜测但是此时的列车长没有轻易下定论。\r七号自由港后准备卸货但是其他乘员都没法工作了只能列车长自己上，结果发现站台上铁盟其他工作人员也少了很多。从工作人员处听说一天前这里发生了一场闹剧。",
     "describe": "七号自由港遥",
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
     "questType": "Main",
-    "sort": 0,
+    "sort": 10,
     "isSwitchUI": true,
     "switchUI": "UI/",
     "conditionList": [
@@ -72098,6 +72275,10 @@
     ],
     "num": 1,
     "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "parentQuest": -1,
+    "childQuestList": [],
     "rewardsList": [],
     "startStation": 83000001,
     "endStationList": [
@@ -72106,6 +72287,9 @@
         "weight": 10
       }
     ],
+    "client": 82600358,
+    "chapterId": -1,
+    "playerLevel": 1,
     "nextQuest": [
       {
         "id": 81000602
@@ -72116,6 +72300,20 @@
     "isOverwriteEvent": false,
     "eventList": [],
     "environmentList": [],
+    "traceList": [
+      {
+        "apiListId": 80301077,
+        "btnListId": 80300920,
+        "traceId": 80301269,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 80301539,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
     "isTime": false,
     "startTime": "",
     "endTime": "",
@@ -72129,8 +72327,11 @@
     "name": "[活动]主线5",
     "story": "",
     "describe": "七号自由港-铁安局",
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
     "questType": "Main",
-    "sort": 0,
+    "sort": 10,
     "isSwitchUI": true,
     "switchUI": "UI/",
     "conditionList": [
@@ -72141,6 +72342,10 @@
     ],
     "num": 1,
     "islockAddProgress": false,
+    "isAutoComplete": true,
+    "checkComplete": false,
+    "parentQuest": -1,
+    "childQuestList": [],
     "rewardsList": [],
     "startStation": 83000020,
     "endStationList": [
@@ -72149,6 +72354,9 @@
         "weight": 10
       }
     ],
+    "client": 82600358,
+    "chapterId": -1,
+    "playerLevel": 1,
     "nextQuest": [
       {
         "id": 81000600
@@ -72159,6 +72367,26 @@
     "isOverwriteEvent": false,
     "eventList": [],
     "environmentList": [],
+    "traceList": [
+      {
+        "apiListId": 80301077,
+        "btnListId": 80300920,
+        "traceId": 80301269,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 80301529,
+        "uiPath": "UI/CityMap/CityMap"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 80301724,
+        "uiPath": "UI/Home/HomeSafe/HomeSafe"
+      }
+    ],
     "isTime": false,
     "startTime": "",
     "endTime": "",
@@ -72172,8 +72400,11 @@
     "name": "[活动]主线3",
     "story": "在完成第一次交易后，莉薇娅出于好奇泡了红茶给大家喝，所有乘员都喝了，除了莉薇娅列车长以外的人都觉得很香很好喝，莉薇娅表示是很熟悉的味道但并没有其他人那种上瘾一般的感觉，奇怪的是列车长也没感觉，但看其他人的反应能理解这个红茶为什么会这么受欢迎。",
     "describe": "修格里城莉薇娅",
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
     "questType": "Main",
-    "sort": 0,
+    "sort": 10,
     "isSwitchUI": true,
     "switchUI": "UI/",
     "conditionList": [
@@ -72184,6 +72415,10 @@
     ],
     "num": 1,
     "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "parentQuest": -1,
+    "childQuestList": [],
     "rewardsList": [],
     "startStation": 83000001,
     "endStationList": [
@@ -72192,6 +72427,9 @@
         "weight": 10
       }
     ],
+    "client": 82600002,
+    "chapterId": -1,
+    "playerLevel": 1,
     "nextQuest": [
       {
         "id": 81000601
@@ -72214,6 +72452,20 @@
     "isOverwriteEvent": false,
     "eventList": [],
     "environmentList": [],
+    "traceList": [
+      {
+        "apiListId": 80301077,
+        "btnListId": 80300920,
+        "traceId": 80301269,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 80301119,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
     "isTime": false,
     "startTime": "",
     "endTime": "",
@@ -72227,8 +72479,11 @@
     "name": "[活动]主线7",
     "story": "回到了修格里的商会询问墨伊拉相关问题。本来担心墨伊拉会不配合，但是意外地她却很好说话地提供了供货方的货源情报，他们的总部似乎不在城内，但是出城的话实时跟踪可能会打草惊蛇，但是墨伊拉给出的情报称他们今晚会来取这段时间的铁盟币，列车长想到一个办法，把波克士放进箱子里反追踪定位。",
     "describe": "修格里商会",
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
     "questType": "Main",
-    "sort": 0,
+    "sort": 10,
     "isSwitchUI": true,
     "switchUI": "UI/",
     "conditionList": [
@@ -72239,6 +72494,10 @@
     ],
     "num": 1,
     "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "parentQuest": -1,
+    "childQuestList": [],
     "rewardsList": [],
     "startStation": 83000020,
     "endStationList": [
@@ -72247,6 +72506,9 @@
         "weight": 10
       }
     ],
+    "client": 82600358,
+    "chapterId": -1,
+    "playerLevel": 1,
     "nextQuest": [
       {
         "id": 81000605
@@ -72257,6 +72519,26 @@
     "isOverwriteEvent": false,
     "eventList": [],
     "environmentList": [],
+    "traceList": [
+      {
+        "apiListId": 80301077,
+        "btnListId": 80300920,
+        "traceId": 80301269,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 80301523,
+        "uiPath": "UI/CityMap/CityMap"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 80301724,
+        "uiPath": "UI/HomeCOC/HomeCOC"
+      }
+    ],
     "isTime": false,
     "startTime": "",
     "endTime": "",
@@ -72270,8 +72552,11 @@
     "name": "[活动]主线8",
     "story": "到了夜晚果然一群打扮低调的人前来取钱，列车长通过实时监控定位到了工厂的位置。列车长将情况通报给了铁安局，自己先行出发了。",
     "describe": "修格里商会",
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
     "questType": "Main",
-    "sort": 0,
+    "sort": 10,
     "isSwitchUI": true,
     "switchUI": "UI/",
     "conditionList": [
@@ -72282,6 +72567,10 @@
     ],
     "num": 1,
     "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "parentQuest": -1,
+    "childQuestList": [],
     "rewardsList": [],
     "startStation": 83000001,
     "endStationList": [
@@ -72290,6 +72579,9 @@
         "weight": 10
       }
     ],
+    "client": 82600358,
+    "chapterId": -1,
+    "playerLevel": 1,
     "nextQuest": [
       {
         "id": 81000606
@@ -72300,6 +72592,26 @@
     "isOverwriteEvent": false,
     "eventList": [],
     "environmentList": [],
+    "traceList": [
+      {
+        "apiListId": 80301077,
+        "btnListId": 80300920,
+        "traceId": 80301269,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 80301523,
+        "uiPath": "UI/CityMap/CityMap"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 80301724,
+        "uiPath": "UI/HomeCOC/HomeCOC"
+      }
+    ],
     "isTime": false,
     "startTime": "",
     "endTime": "",
@@ -72313,8 +72625,11 @@
     "name": "[活动]主线9",
     "story": "地图上出现新的临时停靠地点——货源地，列车长表示出发。",
     "describe": "黑茶厂副本",
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
     "questType": "Main",
-    "sort": 0,
+    "sort": 10,
     "isSwitchUI": true,
     "switchUI": "UI/",
     "conditionList": [
@@ -72325,6 +72640,10 @@
     ],
     "num": 1,
     "islockAddProgress": false,
+    "isAutoComplete": true,
+    "checkComplete": false,
+    "parentQuest": -1,
+    "childQuestList": [],
     "rewardsList": [],
     "startStation": 83000001,
     "endStationList": [
@@ -72333,6 +72652,9 @@
         "weight": 10
       }
     ],
+    "client": 82600358,
+    "chapterId": -1,
+    "playerLevel": 1,
     "nextQuest": [
       {
         "id": 81000607
@@ -72343,6 +72665,14 @@
     "isOverwriteEvent": false,
     "eventList": [],
     "environmentList": [],
+    "traceList": [
+      {
+        "apiListId": 80301077,
+        "btnListId": 80300920,
+        "traceId": 80301269,
+        "uiPath": "UI/MainUI/MainUI"
+      }
+    ],
     "isTime": false,
     "startTime": "",
     "endTime": "",
@@ -72356,8 +72686,11 @@
     "name": "[活动]主线10",
     "story": "几天后我们再次来到七号自由港，铁安局在组织销毁茶叶。在大家的讨论中听到了关于“本来的修格里红茶就足够好喝”之类的对话。\r遇到了阿尔拉纳，帝国人稍微聊了聊帝国的事。揭开帝国神秘面纱的一角。\r阿尔喀娜表示如果我们哪一天要去帝国她很乐意给我们做向导，我们约定在不久的将来在曼杜斯花园见。",
     "describe": "七号自由港卡塔斯",
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
     "questType": "Main",
-    "sort": 0,
+    "sort": 10,
     "isSwitchUI": true,
     "switchUI": "UI/",
     "conditionList": [
@@ -72368,6 +72701,10 @@
     ],
     "num": 1,
     "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "parentQuest": -1,
+    "childQuestList": [],
     "rewardsList": [],
     "startStation": 83000020,
     "endStationList": [
@@ -72376,6 +72713,9 @@
         "weight": 10
       }
     ],
+    "client": 82600033,
+    "chapterId": -1,
+    "playerLevel": 1,
     "nextQuest": [
       {
         "id": 81000608
@@ -72392,6 +72732,20 @@
     "isOverwriteEvent": false,
     "eventList": [],
     "environmentList": [],
+    "traceList": [
+      {
+        "apiListId": 80301077,
+        "btnListId": 80300920,
+        "traceId": 80301269,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 80301540,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
     "isTime": false,
     "startTime": "",
     "endTime": "",
@@ -72405,8 +72759,11 @@
     "name": "[活动]主线11",
     "story": "后日谈",
     "describe": "修格里城卡塔斯",
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
     "questType": "Main",
-    "sort": 0,
+    "sort": 10,
     "isSwitchUI": true,
     "switchUI": "UI/",
     "conditionList": [
@@ -72417,6 +72774,10 @@
     ],
     "num": 1,
     "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "parentQuest": -1,
+    "childQuestList": [],
     "rewardsList": [],
     "startStation": 83000001,
     "endStationList": [
@@ -72425,12 +72786,29 @@
         "weight": 10
       }
     ],
+    "client": 82600033,
+    "chapterId": -1,
+    "playerLevel": 1,
     "nextQuest": [],
     "changeCityStateList": [],
     "isEvent": false,
     "isOverwriteEvent": false,
     "eventList": [],
     "environmentList": [],
+    "traceList": [
+      {
+        "apiListId": 80301077,
+        "btnListId": 80300920,
+        "traceId": 80301269,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 80301540,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
     "isTime": false,
     "startTime": "",
     "endTime": "",
@@ -72444,8 +72822,11 @@
     "name": "[活动]对话（EV1-Z5）",
     "story": "墨伊拉姐妹俩的对话，嘴硬心软的妹妹因为担心姐姐才向我们提供情报。",
     "describe": "对话（EV1-Z5）",
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
     "questType": "Side",
-    "sort": 0,
+    "sort": 10,
     "isSwitchUI": true,
     "switchUI": "UI/",
     "conditionList": [
@@ -72456,6 +72837,10 @@
     ],
     "num": 1,
     "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "parentQuest": -1,
+    "childQuestList": [],
     "rewardsList": [],
     "startStation": 83000020,
     "endStationList": [
@@ -72464,12 +72849,29 @@
         "weight": 10
       }
     ],
+    "client": 82600080,
+    "chapterId": -1,
+    "playerLevel": 1,
     "nextQuest": [],
     "changeCityStateList": [],
     "isEvent": false,
     "isOverwriteEvent": false,
     "eventList": [],
     "environmentList": [],
+    "traceList": [
+      {
+        "apiListId": 80301077,
+        "btnListId": 80300920,
+        "traceId": 80301269,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 80301528,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
     "isTime": false,
     "startTime": "",
     "endTime": "",
@@ -72483,8 +72885,11 @@
     "name": "[活动]对话（EV1-Z6）",
     "story": "亚莉奈会告诉你一个有趣的情报，闻笙最近抓到了一个“小老鼠”并且准备带去给鹭先生处置",
     "describe": "对话（EV1-Z6）",
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
     "questType": "Side",
-    "sort": 0,
+    "sort": 10,
     "isSwitchUI": true,
     "switchUI": "UI/",
     "conditionList": [
@@ -72495,6 +72900,10 @@
     ],
     "num": 1,
     "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "parentQuest": -1,
+    "childQuestList": [],
     "rewardsList": [],
     "startStation": 83000001,
     "endStationList": [
@@ -72503,12 +72912,35 @@
         "weight": 10
       }
     ],
+    "client": 82600080,
+    "chapterId": -1,
+    "playerLevel": 1,
     "nextQuest": [],
     "changeCityStateList": [],
     "isEvent": false,
     "isOverwriteEvent": false,
     "eventList": [],
     "environmentList": [],
+    "traceList": [
+      {
+        "apiListId": 80301077,
+        "btnListId": 80300920,
+        "traceId": 80301269,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 80301525,
+        "uiPath": "UI/CityMap/CityMap"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 80301724,
+        "uiPath": "UI/Home/BarStore/BarStore"
+      }
+    ],
     "isTime": false,
     "startTime": "",
     "endTime": "",

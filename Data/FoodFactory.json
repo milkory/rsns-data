@@ -7383,12 +7383,12 @@
   },
   {
     "id": 83300030,
-    "idCN": "拉面店/单人餐/1档",
+    "idCN": "拉面店/单人餐/海魂拉面",
     "mod": "炸鸡店套餐",
     "isInformalData": false,
-    "name": "海神拉面",
-    "foodImagePath": "Item/Food/Combo/SingleLowCombo",
-    "foodSettlementImagePath": "UI/HomeKeepFastFood/Settlement/SingleLowCombo",
+    "name": "海魂拉面",
+    "foodImagePath": "Item/Food/Ramen/SingleHaihunRamen",
+    "foodSettlementImagePath": "UI/HomeKeepFastFood/Settlement/HaihunRamen",
     "des": "只有葱和海鲜汤，海鲜汤由虾，柴鱼等熬制而成",
     "trust": 30,
     "PriceIndex": 1.37,
@@ -7683,8 +7683,37 @@
         "weight": 1
       }
     ],
-    "battleBuffList": [],
-    "foodPrefab": "Home/Prefabs/FastFood",
+    "battleBuffList": [
+      {
+        "id": 84100035,
+        "weight": 1
+      },
+      {
+        "id": 84100034,
+        "weight": 1
+      },
+      {
+        "id": 84100038,
+        "weight": 1
+      },
+      {
+        "id": 84100037,
+        "weight": 1
+      },
+      {
+        "id": 84100036,
+        "weight": 1
+      },
+      {
+        "id": 84100032,
+        "weight": 1
+      },
+      {
+        "id": 84100033,
+        "weight": 1
+      }
+    ],
+    "foodPrefab": "Home/Prefabs/Ramen",
     "playerAni": [
       {
         "animation": 80300205
@@ -7701,13 +7730,372 @@
   },
   {
     "id": 83300038,
-    "idCN": "拉面店/团队餐/1档",
+    "idCN": "拉面店/团队餐/海魂拉面",
     "mod": "炸鸡店套餐",
     "isInformalData": false,
-    "name": "海鲜拉面",
-    "foodImagePath": "Item/Food/Combo/SingleLowCombo",
-    "foodSettlementImagePath": "UI/HomeKeepFastFood/Settlement/SingleLowCombo",
+    "name": "海魂拉面",
+    "foodImagePath": "Item/Food/Ramen/TeamHaihunRamen",
+    "foodSettlementImagePath": "UI/HomeKeepFastFood/Settlement/HaihunRamen",
     "des": "贝类、斑节虾、鱿鱼",
+    "trust": 30,
+    "PriceIndex": 1.37,
+    "mealTypeNum": 5,
+    "cost": [
+      {
+        "id": 11400001,
+        "num": 660
+      }
+    ],
+    "foodRes": "Home/Furniture/3D/Prefabs/SingleLowCombo",
+    "iconBuffDesMember": "UI/HomeKeepFastFood/IconTrust",
+    "numBuffDesMember": 80601566,
+    "tipBuffDesMember": 80601571,
+    "memberTrust": [
+      {
+        "buff": 84100015,
+        "id": 10000059,
+        "like": 12600379
+      },
+      {
+        "buff": 84100015,
+        "id": 10000069,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000054,
+        "like": 12600380
+      },
+      {
+        "buff": 84100016,
+        "id": 10000004,
+        "like": 12600380
+      },
+      {
+        "buff": 84100013,
+        "id": 10000352,
+        "like": 12600377
+      },
+      {
+        "buff": 84100013,
+        "id": 10000298,
+        "like": 12600377
+      },
+      {
+        "buff": 84100014,
+        "id": 10000055,
+        "like": 12600378
+      },
+      {
+        "buff": 84100015,
+        "id": 10000068,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000335,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000063,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000071,
+        "like": 12600380
+      },
+      {
+        "buff": 84100013,
+        "id": 10000153,
+        "like": 12600377
+      },
+      {
+        "buff": 84100016,
+        "id": 10000111,
+        "like": 12600380
+      },
+      {
+        "buff": 84100017,
+        "id": 10000060,
+        "like": 12600381
+      },
+      {
+        "buff": 84100017,
+        "id": 10000414,
+        "like": 12600381
+      },
+      {
+        "buff": 84100015,
+        "id": 10000409,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000062,
+        "like": 12600380
+      },
+      {
+        "buff": 84100014,
+        "id": 10000110,
+        "like": 12600378
+      },
+      {
+        "buff": 84100015,
+        "id": 10000160,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000134,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000157,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000025,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000389,
+        "like": 12600379
+      },
+      {
+        "buff": 84100017,
+        "id": 10000300,
+        "like": 12600381
+      },
+      {
+        "buff": 84100017,
+        "id": 10000065,
+        "like": 12600381
+      },
+      {
+        "buff": 84100015,
+        "id": 10000156,
+        "like": 12600379
+      },
+      {
+        "buff": 84100017,
+        "id": 10000154,
+        "like": 12600381
+      },
+      {
+        "buff": 84100016,
+        "id": 10000095,
+        "like": 12600380
+      },
+      {
+        "buff": 84100013,
+        "id": 10000408,
+        "like": 12600377
+      },
+      {
+        "buff": 84100013,
+        "id": 10000064,
+        "like": 12600377
+      },
+      {
+        "buff": 84100015,
+        "id": 10000047,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000299,
+        "like": 12600380
+      },
+      {
+        "buff": 84100013,
+        "id": 10000170,
+        "like": 12600377
+      },
+      {
+        "buff": 84100016,
+        "id": 10000027,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000388,
+        "like": 12600379
+      },
+      {
+        "buff": 84100013,
+        "id": 10000051,
+        "like": 12600377
+      },
+      {
+        "buff": 84100016,
+        "id": 10000387,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000112,
+        "like": 12600379
+      },
+      {
+        "buff": 84100015,
+        "id": 10000053,
+        "like": 12600379
+      },
+      {
+        "buff": 84100013,
+        "id": 10000101,
+        "like": 12600377
+      },
+      {
+        "buff": 84100015,
+        "id": 10000124,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000139,
+        "like": 12600380
+      },
+      {
+        "buff": 84100017,
+        "id": 10000739,
+        "like": 12600381
+      },
+      {
+        "buff": 84100015,
+        "id": 10000032,
+        "like": 12600379
+      },
+      {
+        "buff": 84100014,
+        "id": 10000035,
+        "like": 12600378
+      },
+      {
+        "buff": 84100014,
+        "id": 10000031,
+        "like": 12600378
+      },
+      {
+        "buff": 84100014,
+        "id": 10000034,
+        "like": 12600378
+      },
+      {
+        "buff": 84100014,
+        "id": 10000052,
+        "like": 12600378
+      },
+      {
+        "buff": 84100017,
+        "id": 10000412,
+        "like": 12600381
+      },
+      {
+        "buff": 84100017,
+        "id": 10000297,
+        "like": 12600381
+      },
+      {
+        "buff": 84100015,
+        "id": 10000072,
+        "like": 12600379
+      },
+      {
+        "buff": 84100017,
+        "id": 10000094,
+        "like": 12600381
+      },
+      {
+        "buff": 84100013,
+        "id": 10000145,
+        "like": 12600377
+      }
+    ],
+    "iconBuffDesLCZ": "UI/HomeKeepFastFood/IconBuffLCZ",
+    "numBuffDesLCZ": 80601567,
+    "tipBuffDesLCZ": 80601572,
+    "speed": [
+      {
+        "id": 84100002,
+        "weight": 1
+      },
+      {
+        "id": 84100018,
+        "weight": 1
+      }
+    ],
+    "battleBuffList": [
+      {
+        "id": 84100035,
+        "weight": 1
+      },
+      {
+        "id": 84100034,
+        "weight": 1
+      },
+      {
+        "id": 84100038,
+        "weight": 1
+      },
+      {
+        "id": 84100037,
+        "weight": 1
+      },
+      {
+        "id": 84100036,
+        "weight": 1
+      },
+      {
+        "id": 84100032,
+        "weight": 1
+      },
+      {
+        "id": 84100033,
+        "weight": 1
+      }
+    ],
+    "foodPrefab": "Home/Prefabs/Ramen",
+    "playerAni": [
+      {
+        "animation": 80300205
+      },
+      {
+        "animation": 80300205
+      },
+      {
+        "animation": 80300205
+      },
+      {
+        "animation": 80300205
+      },
+      {
+        "animation": 80300205
+      },
+      {
+        "animation": 80300205
+      }
+    ],
+    "isPickFood": false,
+    "foodName": "",
+    "npcList": [],
+    "performFurnitureList": [],
+    "bgmPlay": -1
+  },
+  {
+    "id": 83300039,
+    "idCN": "拉面店/单人餐/青龙虾拉面",
+    "mod": "炸鸡店套餐",
+    "isInformalData": false,
+    "name": "青龙虾拉面",
+    "foodImagePath": "Item/Food/Ramen/SingleQinglongxiaRamen",
+    "foodSettlementImagePath": "UI/HomeKeepFastFood/Settlement/QinglongxiaRamen",
+    "des": "只有葱和海鲜汤，海鲜汤由虾，柴鱼等熬制而成",
     "trust": 30,
     "PriceIndex": 1.37,
     "mealTypeNum": 1,
@@ -8001,9 +8389,5443 @@
         "weight": 1
       }
     ],
-    "battleBuffList": [],
-    "foodPrefab": "Home/Prefabs/FastFood",
+    "battleBuffList": [
+      {
+        "id": 84100035,
+        "weight": 1
+      },
+      {
+        "id": 84100034,
+        "weight": 1
+      },
+      {
+        "id": 84100038,
+        "weight": 1
+      },
+      {
+        "id": 84100037,
+        "weight": 1
+      },
+      {
+        "id": 84100036,
+        "weight": 1
+      },
+      {
+        "id": 84100032,
+        "weight": 1
+      },
+      {
+        "id": 84100033,
+        "weight": 1
+      }
+    ],
+    "foodPrefab": "Home/Prefabs/Ramen",
     "playerAni": [
+      {
+        "animation": 80300205
+      },
+      {
+        "animation": 80300205
+      }
+    ],
+    "isPickFood": false,
+    "foodName": "",
+    "npcList": [],
+    "performFurnitureList": [],
+    "bgmPlay": -1
+  },
+  {
+    "id": 83300040,
+    "idCN": "拉面店/团队餐/青龙虾拉面",
+    "mod": "炸鸡店套餐",
+    "isInformalData": false,
+    "name": "青龙虾拉面",
+    "foodImagePath": "Item/Food/Ramen/TeamQinglongxiaRamen",
+    "foodSettlementImagePath": "UI/HomeKeepFastFood/Settlement/QinglongxiaRamen",
+    "des": "只有葱和海鲜汤，海鲜汤由虾，柴鱼等熬制而成",
+    "trust": 30,
+    "PriceIndex": 1.37,
+    "mealTypeNum": 5,
+    "cost": [
+      {
+        "id": 11400001,
+        "num": 660
+      }
+    ],
+    "foodRes": "Home/Furniture/3D/Prefabs/SingleLowCombo",
+    "iconBuffDesMember": "UI/HomeKeepFastFood/IconTrust",
+    "numBuffDesMember": 80601566,
+    "tipBuffDesMember": 80601571,
+    "memberTrust": [
+      {
+        "buff": 84100015,
+        "id": 10000059,
+        "like": 12600379
+      },
+      {
+        "buff": 84100015,
+        "id": 10000069,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000054,
+        "like": 12600380
+      },
+      {
+        "buff": 84100016,
+        "id": 10000004,
+        "like": 12600380
+      },
+      {
+        "buff": 84100013,
+        "id": 10000352,
+        "like": 12600377
+      },
+      {
+        "buff": 84100013,
+        "id": 10000298,
+        "like": 12600377
+      },
+      {
+        "buff": 84100014,
+        "id": 10000055,
+        "like": 12600378
+      },
+      {
+        "buff": 84100015,
+        "id": 10000068,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000335,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000063,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000071,
+        "like": 12600380
+      },
+      {
+        "buff": 84100013,
+        "id": 10000153,
+        "like": 12600377
+      },
+      {
+        "buff": 84100016,
+        "id": 10000111,
+        "like": 12600380
+      },
+      {
+        "buff": 84100017,
+        "id": 10000060,
+        "like": 12600381
+      },
+      {
+        "buff": 84100017,
+        "id": 10000414,
+        "like": 12600381
+      },
+      {
+        "buff": 84100015,
+        "id": 10000409,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000062,
+        "like": 12600380
+      },
+      {
+        "buff": 84100014,
+        "id": 10000110,
+        "like": 12600378
+      },
+      {
+        "buff": 84100015,
+        "id": 10000160,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000134,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000157,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000025,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000389,
+        "like": 12600379
+      },
+      {
+        "buff": 84100017,
+        "id": 10000300,
+        "like": 12600381
+      },
+      {
+        "buff": 84100017,
+        "id": 10000065,
+        "like": 12600381
+      },
+      {
+        "buff": 84100015,
+        "id": 10000156,
+        "like": 12600379
+      },
+      {
+        "buff": 84100017,
+        "id": 10000154,
+        "like": 12600381
+      },
+      {
+        "buff": 84100016,
+        "id": 10000095,
+        "like": 12600380
+      },
+      {
+        "buff": 84100013,
+        "id": 10000408,
+        "like": 12600377
+      },
+      {
+        "buff": 84100013,
+        "id": 10000064,
+        "like": 12600377
+      },
+      {
+        "buff": 84100015,
+        "id": 10000047,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000299,
+        "like": 12600380
+      },
+      {
+        "buff": 84100013,
+        "id": 10000170,
+        "like": 12600377
+      },
+      {
+        "buff": 84100016,
+        "id": 10000027,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000388,
+        "like": 12600379
+      },
+      {
+        "buff": 84100013,
+        "id": 10000051,
+        "like": 12600377
+      },
+      {
+        "buff": 84100016,
+        "id": 10000387,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000112,
+        "like": 12600379
+      },
+      {
+        "buff": 84100015,
+        "id": 10000053,
+        "like": 12600379
+      },
+      {
+        "buff": 84100013,
+        "id": 10000101,
+        "like": 12600377
+      },
+      {
+        "buff": 84100015,
+        "id": 10000124,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000139,
+        "like": 12600380
+      },
+      {
+        "buff": 84100017,
+        "id": 10000739,
+        "like": 12600381
+      },
+      {
+        "buff": 84100015,
+        "id": 10000032,
+        "like": 12600379
+      },
+      {
+        "buff": 84100014,
+        "id": 10000035,
+        "like": 12600378
+      },
+      {
+        "buff": 84100014,
+        "id": 10000031,
+        "like": 12600378
+      },
+      {
+        "buff": 84100014,
+        "id": 10000034,
+        "like": 12600378
+      },
+      {
+        "buff": 84100014,
+        "id": 10000052,
+        "like": 12600378
+      },
+      {
+        "buff": 84100017,
+        "id": 10000412,
+        "like": 12600381
+      },
+      {
+        "buff": 84100017,
+        "id": 10000297,
+        "like": 12600381
+      },
+      {
+        "buff": 84100015,
+        "id": 10000072,
+        "like": 12600379
+      },
+      {
+        "buff": 84100017,
+        "id": 10000094,
+        "like": 12600381
+      },
+      {
+        "buff": 84100013,
+        "id": 10000145,
+        "like": 12600377
+      }
+    ],
+    "iconBuffDesLCZ": "UI/HomeKeepFastFood/IconBuffLCZ",
+    "numBuffDesLCZ": 80601567,
+    "tipBuffDesLCZ": 80601572,
+    "speed": [
+      {
+        "id": 84100002,
+        "weight": 1
+      },
+      {
+        "id": 84100018,
+        "weight": 1
+      }
+    ],
+    "battleBuffList": [
+      {
+        "id": 84100035,
+        "weight": 1
+      },
+      {
+        "id": 84100034,
+        "weight": 1
+      },
+      {
+        "id": 84100038,
+        "weight": 1
+      },
+      {
+        "id": 84100037,
+        "weight": 1
+      },
+      {
+        "id": 84100036,
+        "weight": 1
+      },
+      {
+        "id": 84100032,
+        "weight": 1
+      },
+      {
+        "id": 84100033,
+        "weight": 1
+      }
+    ],
+    "foodPrefab": "Home/Prefabs/Ramen",
+    "playerAni": [
+      {
+        "animation": 80300205
+      },
+      {
+        "animation": 80300205
+      },
+      {
+        "animation": 80300205
+      },
+      {
+        "animation": 80300205
+      },
+      {
+        "animation": 80300205
+      },
+      {
+        "animation": 80300205
+      }
+    ],
+    "isPickFood": false,
+    "foodName": "",
+    "npcList": [],
+    "performFurnitureList": [],
+    "bgmPlay": -1
+  },
+  {
+    "id": 83300041,
+    "idCN": "拉面店/单人餐/松茸山珍拉面",
+    "mod": "炸鸡店套餐",
+    "isInformalData": false,
+    "name": "松茸山珍拉面",
+    "foodImagePath": "Item/Food/Ramen/SingleSongrongshanzhenRamen",
+    "foodSettlementImagePath": "UI/HomeKeepFastFood/Settlement/SongrongshanzhenRamen",
+    "des": "只有葱和海鲜汤，海鲜汤由虾，柴鱼等熬制而成",
+    "trust": 30,
+    "PriceIndex": 1.37,
+    "mealTypeNum": 1,
+    "cost": [
+      {
+        "id": 11400001,
+        "num": 660
+      }
+    ],
+    "foodRes": "Home/Furniture/3D/Prefabs/SingleLowCombo",
+    "iconBuffDesMember": "UI/HomeKeepFastFood/IconTrust",
+    "numBuffDesMember": 80601566,
+    "tipBuffDesMember": 80601571,
+    "memberTrust": [
+      {
+        "buff": 84100015,
+        "id": 10000059,
+        "like": 12600379
+      },
+      {
+        "buff": 84100015,
+        "id": 10000069,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000054,
+        "like": 12600380
+      },
+      {
+        "buff": 84100016,
+        "id": 10000004,
+        "like": 12600380
+      },
+      {
+        "buff": 84100013,
+        "id": 10000352,
+        "like": 12600377
+      },
+      {
+        "buff": 84100013,
+        "id": 10000298,
+        "like": 12600377
+      },
+      {
+        "buff": 84100014,
+        "id": 10000055,
+        "like": 12600378
+      },
+      {
+        "buff": 84100015,
+        "id": 10000068,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000335,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000063,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000071,
+        "like": 12600380
+      },
+      {
+        "buff": 84100013,
+        "id": 10000153,
+        "like": 12600377
+      },
+      {
+        "buff": 84100016,
+        "id": 10000111,
+        "like": 12600380
+      },
+      {
+        "buff": 84100017,
+        "id": 10000060,
+        "like": 12600381
+      },
+      {
+        "buff": 84100017,
+        "id": 10000414,
+        "like": 12600381
+      },
+      {
+        "buff": 84100015,
+        "id": 10000409,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000062,
+        "like": 12600380
+      },
+      {
+        "buff": 84100014,
+        "id": 10000110,
+        "like": 12600378
+      },
+      {
+        "buff": 84100015,
+        "id": 10000160,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000134,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000157,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000025,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000389,
+        "like": 12600379
+      },
+      {
+        "buff": 84100017,
+        "id": 10000300,
+        "like": 12600381
+      },
+      {
+        "buff": 84100017,
+        "id": 10000065,
+        "like": 12600381
+      },
+      {
+        "buff": 84100015,
+        "id": 10000156,
+        "like": 12600379
+      },
+      {
+        "buff": 84100017,
+        "id": 10000154,
+        "like": 12600381
+      },
+      {
+        "buff": 84100016,
+        "id": 10000095,
+        "like": 12600380
+      },
+      {
+        "buff": 84100013,
+        "id": 10000408,
+        "like": 12600377
+      },
+      {
+        "buff": 84100013,
+        "id": 10000064,
+        "like": 12600377
+      },
+      {
+        "buff": 84100015,
+        "id": 10000047,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000299,
+        "like": 12600380
+      },
+      {
+        "buff": 84100013,
+        "id": 10000170,
+        "like": 12600377
+      },
+      {
+        "buff": 84100016,
+        "id": 10000027,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000388,
+        "like": 12600379
+      },
+      {
+        "buff": 84100013,
+        "id": 10000051,
+        "like": 12600377
+      },
+      {
+        "buff": 84100016,
+        "id": 10000387,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000112,
+        "like": 12600379
+      },
+      {
+        "buff": 84100015,
+        "id": 10000053,
+        "like": 12600379
+      },
+      {
+        "buff": 84100013,
+        "id": 10000101,
+        "like": 12600377
+      },
+      {
+        "buff": 84100015,
+        "id": 10000124,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000139,
+        "like": 12600380
+      },
+      {
+        "buff": 84100017,
+        "id": 10000739,
+        "like": 12600381
+      },
+      {
+        "buff": 84100015,
+        "id": 10000032,
+        "like": 12600379
+      },
+      {
+        "buff": 84100014,
+        "id": 10000035,
+        "like": 12600378
+      },
+      {
+        "buff": 84100014,
+        "id": 10000031,
+        "like": 12600378
+      },
+      {
+        "buff": 84100014,
+        "id": 10000034,
+        "like": 12600378
+      },
+      {
+        "buff": 84100014,
+        "id": 10000052,
+        "like": 12600378
+      },
+      {
+        "buff": 84100017,
+        "id": 10000412,
+        "like": 12600381
+      },
+      {
+        "buff": 84100017,
+        "id": 10000297,
+        "like": 12600381
+      },
+      {
+        "buff": 84100015,
+        "id": 10000072,
+        "like": 12600379
+      },
+      {
+        "buff": 84100017,
+        "id": 10000094,
+        "like": 12600381
+      },
+      {
+        "buff": 84100013,
+        "id": 10000145,
+        "like": 12600377
+      }
+    ],
+    "iconBuffDesLCZ": "UI/HomeKeepFastFood/IconBuffLCZ",
+    "numBuffDesLCZ": 80601567,
+    "tipBuffDesLCZ": 80601572,
+    "speed": [
+      {
+        "id": 84100002,
+        "weight": 1
+      },
+      {
+        "id": 84100018,
+        "weight": 1
+      }
+    ],
+    "battleBuffList": [
+      {
+        "id": 84100042,
+        "weight": 1
+      },
+      {
+        "id": 84100040,
+        "weight": 1
+      },
+      {
+        "id": 84100039,
+        "weight": 1
+      },
+      {
+        "id": 84100048,
+        "weight": 1
+      },
+      {
+        "id": 84100044,
+        "weight": 1
+      },
+      {
+        "id": 84100046,
+        "weight": 1
+      },
+      {
+        "id": 84100043,
+        "weight": 1
+      },
+      {
+        "id": 84100041,
+        "weight": 1
+      },
+      {
+        "id": 84100047,
+        "weight": 1
+      },
+      {
+        "id": 84100045,
+        "weight": 1
+      }
+    ],
+    "foodPrefab": "Home/Prefabs/Ramen",
+    "playerAni": [
+      {
+        "animation": 80300205
+      },
+      {
+        "animation": 80300205
+      }
+    ],
+    "isPickFood": false,
+    "foodName": "",
+    "npcList": [],
+    "performFurnitureList": [],
+    "bgmPlay": -1
+  },
+  {
+    "id": 83300042,
+    "idCN": "拉面店/团队餐/松茸山珍拉面",
+    "mod": "炸鸡店套餐",
+    "isInformalData": false,
+    "name": "松茸山珍拉面",
+    "foodImagePath": "Item/Food/Ramen/TeamSongrongshanzhenRamen",
+    "foodSettlementImagePath": "UI/HomeKeepFastFood/Settlement/SongrongshanzhenRamen",
+    "des": "只有葱和海鲜汤，海鲜汤由虾，柴鱼等熬制而成",
+    "trust": 30,
+    "PriceIndex": 1.37,
+    "mealTypeNum": 5,
+    "cost": [
+      {
+        "id": 11400001,
+        "num": 660
+      }
+    ],
+    "foodRes": "Home/Furniture/3D/Prefabs/SingleLowCombo",
+    "iconBuffDesMember": "UI/HomeKeepFastFood/IconTrust",
+    "numBuffDesMember": 80601566,
+    "tipBuffDesMember": 80601571,
+    "memberTrust": [
+      {
+        "buff": 84100015,
+        "id": 10000059,
+        "like": 12600379
+      },
+      {
+        "buff": 84100015,
+        "id": 10000069,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000054,
+        "like": 12600380
+      },
+      {
+        "buff": 84100016,
+        "id": 10000004,
+        "like": 12600380
+      },
+      {
+        "buff": 84100013,
+        "id": 10000352,
+        "like": 12600377
+      },
+      {
+        "buff": 84100013,
+        "id": 10000298,
+        "like": 12600377
+      },
+      {
+        "buff": 84100014,
+        "id": 10000055,
+        "like": 12600378
+      },
+      {
+        "buff": 84100015,
+        "id": 10000068,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000335,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000063,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000071,
+        "like": 12600380
+      },
+      {
+        "buff": 84100013,
+        "id": 10000153,
+        "like": 12600377
+      },
+      {
+        "buff": 84100016,
+        "id": 10000111,
+        "like": 12600380
+      },
+      {
+        "buff": 84100017,
+        "id": 10000060,
+        "like": 12600381
+      },
+      {
+        "buff": 84100017,
+        "id": 10000414,
+        "like": 12600381
+      },
+      {
+        "buff": 84100015,
+        "id": 10000409,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000062,
+        "like": 12600380
+      },
+      {
+        "buff": 84100014,
+        "id": 10000110,
+        "like": 12600378
+      },
+      {
+        "buff": 84100015,
+        "id": 10000160,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000134,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000157,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000025,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000389,
+        "like": 12600379
+      },
+      {
+        "buff": 84100017,
+        "id": 10000300,
+        "like": 12600381
+      },
+      {
+        "buff": 84100017,
+        "id": 10000065,
+        "like": 12600381
+      },
+      {
+        "buff": 84100015,
+        "id": 10000156,
+        "like": 12600379
+      },
+      {
+        "buff": 84100017,
+        "id": 10000154,
+        "like": 12600381
+      },
+      {
+        "buff": 84100016,
+        "id": 10000095,
+        "like": 12600380
+      },
+      {
+        "buff": 84100013,
+        "id": 10000408,
+        "like": 12600377
+      },
+      {
+        "buff": 84100013,
+        "id": 10000064,
+        "like": 12600377
+      },
+      {
+        "buff": 84100015,
+        "id": 10000047,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000299,
+        "like": 12600380
+      },
+      {
+        "buff": 84100013,
+        "id": 10000170,
+        "like": 12600377
+      },
+      {
+        "buff": 84100016,
+        "id": 10000027,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000388,
+        "like": 12600379
+      },
+      {
+        "buff": 84100013,
+        "id": 10000051,
+        "like": 12600377
+      },
+      {
+        "buff": 84100016,
+        "id": 10000387,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000112,
+        "like": 12600379
+      },
+      {
+        "buff": 84100015,
+        "id": 10000053,
+        "like": 12600379
+      },
+      {
+        "buff": 84100013,
+        "id": 10000101,
+        "like": 12600377
+      },
+      {
+        "buff": 84100015,
+        "id": 10000124,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000139,
+        "like": 12600380
+      },
+      {
+        "buff": 84100017,
+        "id": 10000739,
+        "like": 12600381
+      },
+      {
+        "buff": 84100015,
+        "id": 10000032,
+        "like": 12600379
+      },
+      {
+        "buff": 84100014,
+        "id": 10000035,
+        "like": 12600378
+      },
+      {
+        "buff": 84100014,
+        "id": 10000031,
+        "like": 12600378
+      },
+      {
+        "buff": 84100014,
+        "id": 10000034,
+        "like": 12600378
+      },
+      {
+        "buff": 84100014,
+        "id": 10000052,
+        "like": 12600378
+      },
+      {
+        "buff": 84100017,
+        "id": 10000412,
+        "like": 12600381
+      },
+      {
+        "buff": 84100017,
+        "id": 10000297,
+        "like": 12600381
+      },
+      {
+        "buff": 84100015,
+        "id": 10000072,
+        "like": 12600379
+      },
+      {
+        "buff": 84100017,
+        "id": 10000094,
+        "like": 12600381
+      },
+      {
+        "buff": 84100013,
+        "id": 10000145,
+        "like": 12600377
+      }
+    ],
+    "iconBuffDesLCZ": "UI/HomeKeepFastFood/IconBuffLCZ",
+    "numBuffDesLCZ": 80601567,
+    "tipBuffDesLCZ": 80601572,
+    "speed": [
+      {
+        "id": 84100002,
+        "weight": 1
+      },
+      {
+        "id": 84100018,
+        "weight": 1
+      }
+    ],
+    "battleBuffList": [
+      {
+        "id": 84100042,
+        "weight": 1
+      },
+      {
+        "id": 84100040,
+        "weight": 1
+      },
+      {
+        "id": 84100039,
+        "weight": 1
+      },
+      {
+        "id": 84100048,
+        "weight": 1
+      },
+      {
+        "id": 84100044,
+        "weight": 1
+      },
+      {
+        "id": 84100046,
+        "weight": 1
+      },
+      {
+        "id": 84100043,
+        "weight": 1
+      },
+      {
+        "id": 84100041,
+        "weight": 1
+      },
+      {
+        "id": 84100047,
+        "weight": 1
+      },
+      {
+        "id": 84100045,
+        "weight": 1
+      }
+    ],
+    "foodPrefab": "Home/Prefabs/Ramen",
+    "playerAni": [
+      {
+        "animation": 80300205
+      },
+      {
+        "animation": 80300205
+      },
+      {
+        "animation": 80300205
+      },
+      {
+        "animation": 80300205
+      },
+      {
+        "animation": 80300205
+      },
+      {
+        "animation": 80300205
+      }
+    ],
+    "isPickFood": false,
+    "foodName": "",
+    "npcList": [],
+    "performFurnitureList": [],
+    "bgmPlay": -1
+  },
+  {
+    "id": 83300043,
+    "idCN": "拉面店/单人餐/龙虾松茸拉面",
+    "mod": "炸鸡店套餐",
+    "isInformalData": false,
+    "name": "龙虾松茸拉面",
+    "foodImagePath": "Item/Food/Ramen/SingleLongxiasongrongRamen",
+    "foodSettlementImagePath": "UI/HomeKeepFastFood/Settlement/LongxiasongrongRamen",
+    "des": "只有葱和海鲜汤，海鲜汤由虾，柴鱼等熬制而成",
+    "trust": 30,
+    "PriceIndex": 1.37,
+    "mealTypeNum": 1,
+    "cost": [
+      {
+        "id": 11400001,
+        "num": 660
+      }
+    ],
+    "foodRes": "Home/Furniture/3D/Prefabs/SingleLowCombo",
+    "iconBuffDesMember": "UI/HomeKeepFastFood/IconTrust",
+    "numBuffDesMember": 80601566,
+    "tipBuffDesMember": 80601571,
+    "memberTrust": [
+      {
+        "buff": 84100015,
+        "id": 10000059,
+        "like": 12600379
+      },
+      {
+        "buff": 84100015,
+        "id": 10000069,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000054,
+        "like": 12600380
+      },
+      {
+        "buff": 84100016,
+        "id": 10000004,
+        "like": 12600380
+      },
+      {
+        "buff": 84100013,
+        "id": 10000352,
+        "like": 12600377
+      },
+      {
+        "buff": 84100013,
+        "id": 10000298,
+        "like": 12600377
+      },
+      {
+        "buff": 84100014,
+        "id": 10000055,
+        "like": 12600378
+      },
+      {
+        "buff": 84100015,
+        "id": 10000068,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000335,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000063,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000071,
+        "like": 12600380
+      },
+      {
+        "buff": 84100013,
+        "id": 10000153,
+        "like": 12600377
+      },
+      {
+        "buff": 84100016,
+        "id": 10000111,
+        "like": 12600380
+      },
+      {
+        "buff": 84100017,
+        "id": 10000060,
+        "like": 12600381
+      },
+      {
+        "buff": 84100017,
+        "id": 10000414,
+        "like": 12600381
+      },
+      {
+        "buff": 84100015,
+        "id": 10000409,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000062,
+        "like": 12600380
+      },
+      {
+        "buff": 84100014,
+        "id": 10000110,
+        "like": 12600378
+      },
+      {
+        "buff": 84100015,
+        "id": 10000160,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000134,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000157,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000025,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000389,
+        "like": 12600379
+      },
+      {
+        "buff": 84100017,
+        "id": 10000300,
+        "like": 12600381
+      },
+      {
+        "buff": 84100017,
+        "id": 10000065,
+        "like": 12600381
+      },
+      {
+        "buff": 84100015,
+        "id": 10000156,
+        "like": 12600379
+      },
+      {
+        "buff": 84100017,
+        "id": 10000154,
+        "like": 12600381
+      },
+      {
+        "buff": 84100016,
+        "id": 10000095,
+        "like": 12600380
+      },
+      {
+        "buff": 84100013,
+        "id": 10000408,
+        "like": 12600377
+      },
+      {
+        "buff": 84100013,
+        "id": 10000064,
+        "like": 12600377
+      },
+      {
+        "buff": 84100015,
+        "id": 10000047,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000299,
+        "like": 12600380
+      },
+      {
+        "buff": 84100013,
+        "id": 10000170,
+        "like": 12600377
+      },
+      {
+        "buff": 84100016,
+        "id": 10000027,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000388,
+        "like": 12600379
+      },
+      {
+        "buff": 84100013,
+        "id": 10000051,
+        "like": 12600377
+      },
+      {
+        "buff": 84100016,
+        "id": 10000387,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000112,
+        "like": 12600379
+      },
+      {
+        "buff": 84100015,
+        "id": 10000053,
+        "like": 12600379
+      },
+      {
+        "buff": 84100013,
+        "id": 10000101,
+        "like": 12600377
+      },
+      {
+        "buff": 84100015,
+        "id": 10000124,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000139,
+        "like": 12600380
+      },
+      {
+        "buff": 84100017,
+        "id": 10000739,
+        "like": 12600381
+      },
+      {
+        "buff": 84100015,
+        "id": 10000032,
+        "like": 12600379
+      },
+      {
+        "buff": 84100014,
+        "id": 10000035,
+        "like": 12600378
+      },
+      {
+        "buff": 84100014,
+        "id": 10000031,
+        "like": 12600378
+      },
+      {
+        "buff": 84100014,
+        "id": 10000034,
+        "like": 12600378
+      },
+      {
+        "buff": 84100014,
+        "id": 10000052,
+        "like": 12600378
+      },
+      {
+        "buff": 84100017,
+        "id": 10000412,
+        "like": 12600381
+      },
+      {
+        "buff": 84100017,
+        "id": 10000297,
+        "like": 12600381
+      },
+      {
+        "buff": 84100015,
+        "id": 10000072,
+        "like": 12600379
+      },
+      {
+        "buff": 84100017,
+        "id": 10000094,
+        "like": 12600381
+      },
+      {
+        "buff": 84100013,
+        "id": 10000145,
+        "like": 12600377
+      }
+    ],
+    "iconBuffDesLCZ": "UI/HomeKeepFastFood/IconBuffLCZ",
+    "numBuffDesLCZ": 80601567,
+    "tipBuffDesLCZ": 80601572,
+    "speed": [
+      {
+        "id": 84100002,
+        "weight": 1
+      },
+      {
+        "id": 84100018,
+        "weight": 1
+      }
+    ],
+    "battleBuffList": [
+      {
+        "id": 84100042,
+        "weight": 1
+      },
+      {
+        "id": 84100040,
+        "weight": 1
+      },
+      {
+        "id": 84100039,
+        "weight": 1
+      },
+      {
+        "id": 84100048,
+        "weight": 1
+      },
+      {
+        "id": 84100044,
+        "weight": 1
+      },
+      {
+        "id": 84100046,
+        "weight": 1
+      },
+      {
+        "id": 84100043,
+        "weight": 1
+      },
+      {
+        "id": 84100041,
+        "weight": 1
+      },
+      {
+        "id": 84100047,
+        "weight": 1
+      },
+      {
+        "id": 84100045,
+        "weight": 1
+      }
+    ],
+    "foodPrefab": "Home/Prefabs/Ramen",
+    "playerAni": [
+      {
+        "animation": 80300205
+      },
+      {
+        "animation": 80300205
+      }
+    ],
+    "isPickFood": false,
+    "foodName": "",
+    "npcList": [],
+    "performFurnitureList": [],
+    "bgmPlay": -1
+  },
+  {
+    "id": 83300044,
+    "idCN": "拉面店/团队餐/龙虾松茸拉面",
+    "mod": "炸鸡店套餐",
+    "isInformalData": false,
+    "name": "龙虾松茸拉面",
+    "foodImagePath": "Item/Food/Ramen/TeamLongxiasongrongRamen",
+    "foodSettlementImagePath": "UI/HomeKeepFastFood/Settlement/LongxiasongrongRamen",
+    "des": "只有葱和海鲜汤，海鲜汤由虾，柴鱼等熬制而成",
+    "trust": 30,
+    "PriceIndex": 1.37,
+    "mealTypeNum": 5,
+    "cost": [
+      {
+        "id": 11400001,
+        "num": 660
+      }
+    ],
+    "foodRes": "Home/Furniture/3D/Prefabs/SingleLowCombo",
+    "iconBuffDesMember": "UI/HomeKeepFastFood/IconTrust",
+    "numBuffDesMember": 80601566,
+    "tipBuffDesMember": 80601571,
+    "memberTrust": [
+      {
+        "buff": 84100015,
+        "id": 10000059,
+        "like": 12600379
+      },
+      {
+        "buff": 84100015,
+        "id": 10000069,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000054,
+        "like": 12600380
+      },
+      {
+        "buff": 84100016,
+        "id": 10000004,
+        "like": 12600380
+      },
+      {
+        "buff": 84100013,
+        "id": 10000352,
+        "like": 12600377
+      },
+      {
+        "buff": 84100013,
+        "id": 10000298,
+        "like": 12600377
+      },
+      {
+        "buff": 84100014,
+        "id": 10000055,
+        "like": 12600378
+      },
+      {
+        "buff": 84100015,
+        "id": 10000068,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000335,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000063,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000071,
+        "like": 12600380
+      },
+      {
+        "buff": 84100013,
+        "id": 10000153,
+        "like": 12600377
+      },
+      {
+        "buff": 84100016,
+        "id": 10000111,
+        "like": 12600380
+      },
+      {
+        "buff": 84100017,
+        "id": 10000060,
+        "like": 12600381
+      },
+      {
+        "buff": 84100017,
+        "id": 10000414,
+        "like": 12600381
+      },
+      {
+        "buff": 84100015,
+        "id": 10000409,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000062,
+        "like": 12600380
+      },
+      {
+        "buff": 84100014,
+        "id": 10000110,
+        "like": 12600378
+      },
+      {
+        "buff": 84100015,
+        "id": 10000160,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000134,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000157,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000025,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000389,
+        "like": 12600379
+      },
+      {
+        "buff": 84100017,
+        "id": 10000300,
+        "like": 12600381
+      },
+      {
+        "buff": 84100017,
+        "id": 10000065,
+        "like": 12600381
+      },
+      {
+        "buff": 84100015,
+        "id": 10000156,
+        "like": 12600379
+      },
+      {
+        "buff": 84100017,
+        "id": 10000154,
+        "like": 12600381
+      },
+      {
+        "buff": 84100016,
+        "id": 10000095,
+        "like": 12600380
+      },
+      {
+        "buff": 84100013,
+        "id": 10000408,
+        "like": 12600377
+      },
+      {
+        "buff": 84100013,
+        "id": 10000064,
+        "like": 12600377
+      },
+      {
+        "buff": 84100015,
+        "id": 10000047,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000299,
+        "like": 12600380
+      },
+      {
+        "buff": 84100013,
+        "id": 10000170,
+        "like": 12600377
+      },
+      {
+        "buff": 84100016,
+        "id": 10000027,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000388,
+        "like": 12600379
+      },
+      {
+        "buff": 84100013,
+        "id": 10000051,
+        "like": 12600377
+      },
+      {
+        "buff": 84100016,
+        "id": 10000387,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000112,
+        "like": 12600379
+      },
+      {
+        "buff": 84100015,
+        "id": 10000053,
+        "like": 12600379
+      },
+      {
+        "buff": 84100013,
+        "id": 10000101,
+        "like": 12600377
+      },
+      {
+        "buff": 84100015,
+        "id": 10000124,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000139,
+        "like": 12600380
+      },
+      {
+        "buff": 84100017,
+        "id": 10000739,
+        "like": 12600381
+      },
+      {
+        "buff": 84100015,
+        "id": 10000032,
+        "like": 12600379
+      },
+      {
+        "buff": 84100014,
+        "id": 10000035,
+        "like": 12600378
+      },
+      {
+        "buff": 84100014,
+        "id": 10000031,
+        "like": 12600378
+      },
+      {
+        "buff": 84100014,
+        "id": 10000034,
+        "like": 12600378
+      },
+      {
+        "buff": 84100014,
+        "id": 10000052,
+        "like": 12600378
+      },
+      {
+        "buff": 84100017,
+        "id": 10000412,
+        "like": 12600381
+      },
+      {
+        "buff": 84100017,
+        "id": 10000297,
+        "like": 12600381
+      },
+      {
+        "buff": 84100015,
+        "id": 10000072,
+        "like": 12600379
+      },
+      {
+        "buff": 84100017,
+        "id": 10000094,
+        "like": 12600381
+      },
+      {
+        "buff": 84100013,
+        "id": 10000145,
+        "like": 12600377
+      }
+    ],
+    "iconBuffDesLCZ": "UI/HomeKeepFastFood/IconBuffLCZ",
+    "numBuffDesLCZ": 80601567,
+    "tipBuffDesLCZ": 80601572,
+    "speed": [
+      {
+        "id": 84100002,
+        "weight": 1
+      },
+      {
+        "id": 84100018,
+        "weight": 1
+      }
+    ],
+    "battleBuffList": [
+      {
+        "id": 84100042,
+        "weight": 1
+      },
+      {
+        "id": 84100040,
+        "weight": 1
+      },
+      {
+        "id": 84100039,
+        "weight": 1
+      },
+      {
+        "id": 84100048,
+        "weight": 1
+      },
+      {
+        "id": 84100044,
+        "weight": 1
+      },
+      {
+        "id": 84100046,
+        "weight": 1
+      },
+      {
+        "id": 84100043,
+        "weight": 1
+      },
+      {
+        "id": 84100041,
+        "weight": 1
+      },
+      {
+        "id": 84100047,
+        "weight": 1
+      },
+      {
+        "id": 84100045,
+        "weight": 1
+      }
+    ],
+    "foodPrefab": "Home/Prefabs/Ramen",
+    "playerAni": [
+      {
+        "animation": 80300205
+      },
+      {
+        "animation": 80300205
+      },
+      {
+        "animation": 80300205
+      },
+      {
+        "animation": 80300205
+      },
+      {
+        "animation": 80300205
+      },
+      {
+        "animation": 80300205
+      }
+    ],
+    "isPickFood": false,
+    "foodName": "",
+    "npcList": [],
+    "performFurnitureList": [],
+    "bgmPlay": -1
+  },
+  {
+    "id": 83300045,
+    "idCN": "拉面店/单人餐/黑松露拉面",
+    "mod": "炸鸡店套餐",
+    "isInformalData": false,
+    "name": "黑松露拉面",
+    "foodImagePath": "Item/Food/Ramen/SingleHeisongluRamen",
+    "foodSettlementImagePath": "UI/HomeKeepFastFood/Settlement/HeisongluRamen",
+    "des": "只有葱和海鲜汤，海鲜汤由虾，柴鱼等熬制而成",
+    "trust": 30,
+    "PriceIndex": 1.37,
+    "mealTypeNum": 1,
+    "cost": [
+      {
+        "id": 11400001,
+        "num": 660
+      }
+    ],
+    "foodRes": "Home/Furniture/3D/Prefabs/SingleLowCombo",
+    "iconBuffDesMember": "UI/HomeKeepFastFood/IconTrust",
+    "numBuffDesMember": 80601566,
+    "tipBuffDesMember": 80601571,
+    "memberTrust": [
+      {
+        "buff": 84100015,
+        "id": 10000059,
+        "like": 12600379
+      },
+      {
+        "buff": 84100015,
+        "id": 10000069,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000054,
+        "like": 12600380
+      },
+      {
+        "buff": 84100016,
+        "id": 10000004,
+        "like": 12600380
+      },
+      {
+        "buff": 84100013,
+        "id": 10000352,
+        "like": 12600377
+      },
+      {
+        "buff": 84100013,
+        "id": 10000298,
+        "like": 12600377
+      },
+      {
+        "buff": 84100014,
+        "id": 10000055,
+        "like": 12600378
+      },
+      {
+        "buff": 84100015,
+        "id": 10000068,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000335,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000063,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000071,
+        "like": 12600380
+      },
+      {
+        "buff": 84100013,
+        "id": 10000153,
+        "like": 12600377
+      },
+      {
+        "buff": 84100016,
+        "id": 10000111,
+        "like": 12600380
+      },
+      {
+        "buff": 84100017,
+        "id": 10000060,
+        "like": 12600381
+      },
+      {
+        "buff": 84100017,
+        "id": 10000414,
+        "like": 12600381
+      },
+      {
+        "buff": 84100015,
+        "id": 10000409,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000062,
+        "like": 12600380
+      },
+      {
+        "buff": 84100014,
+        "id": 10000110,
+        "like": 12600378
+      },
+      {
+        "buff": 84100015,
+        "id": 10000160,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000134,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000157,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000025,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000389,
+        "like": 12600379
+      },
+      {
+        "buff": 84100017,
+        "id": 10000300,
+        "like": 12600381
+      },
+      {
+        "buff": 84100017,
+        "id": 10000065,
+        "like": 12600381
+      },
+      {
+        "buff": 84100015,
+        "id": 10000156,
+        "like": 12600379
+      },
+      {
+        "buff": 84100017,
+        "id": 10000154,
+        "like": 12600381
+      },
+      {
+        "buff": 84100016,
+        "id": 10000095,
+        "like": 12600380
+      },
+      {
+        "buff": 84100013,
+        "id": 10000408,
+        "like": 12600377
+      },
+      {
+        "buff": 84100013,
+        "id": 10000064,
+        "like": 12600377
+      },
+      {
+        "buff": 84100015,
+        "id": 10000047,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000299,
+        "like": 12600380
+      },
+      {
+        "buff": 84100013,
+        "id": 10000170,
+        "like": 12600377
+      },
+      {
+        "buff": 84100016,
+        "id": 10000027,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000388,
+        "like": 12600379
+      },
+      {
+        "buff": 84100013,
+        "id": 10000051,
+        "like": 12600377
+      },
+      {
+        "buff": 84100016,
+        "id": 10000387,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000112,
+        "like": 12600379
+      },
+      {
+        "buff": 84100015,
+        "id": 10000053,
+        "like": 12600379
+      },
+      {
+        "buff": 84100013,
+        "id": 10000101,
+        "like": 12600377
+      },
+      {
+        "buff": 84100015,
+        "id": 10000124,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000139,
+        "like": 12600380
+      },
+      {
+        "buff": 84100017,
+        "id": 10000739,
+        "like": 12600381
+      },
+      {
+        "buff": 84100015,
+        "id": 10000032,
+        "like": 12600379
+      },
+      {
+        "buff": 84100014,
+        "id": 10000035,
+        "like": 12600378
+      },
+      {
+        "buff": 84100014,
+        "id": 10000031,
+        "like": 12600378
+      },
+      {
+        "buff": 84100014,
+        "id": 10000034,
+        "like": 12600378
+      },
+      {
+        "buff": 84100014,
+        "id": 10000052,
+        "like": 12600378
+      },
+      {
+        "buff": 84100017,
+        "id": 10000412,
+        "like": 12600381
+      },
+      {
+        "buff": 84100017,
+        "id": 10000297,
+        "like": 12600381
+      },
+      {
+        "buff": 84100015,
+        "id": 10000072,
+        "like": 12600379
+      },
+      {
+        "buff": 84100017,
+        "id": 10000094,
+        "like": 12600381
+      },
+      {
+        "buff": 84100013,
+        "id": 10000145,
+        "like": 12600377
+      }
+    ],
+    "iconBuffDesLCZ": "UI/HomeKeepFastFood/IconBuffLCZ",
+    "numBuffDesLCZ": 80601567,
+    "tipBuffDesLCZ": 80601572,
+    "speed": [
+      {
+        "id": 84100002,
+        "weight": 1
+      },
+      {
+        "id": 84100018,
+        "weight": 1
+      }
+    ],
+    "battleBuffList": [
+      {
+        "id": 84100059,
+        "weight": 1
+      },
+      {
+        "id": 84100067,
+        "weight": 1
+      },
+      {
+        "id": 84100060,
+        "weight": 1
+      },
+      {
+        "id": 84100065,
+        "weight": 1
+      },
+      {
+        "id": 84100061,
+        "weight": 1
+      },
+      {
+        "id": 84100062,
+        "weight": 1
+      },
+      {
+        "id": 84100069,
+        "weight": 1
+      },
+      {
+        "id": 84100063,
+        "weight": 1
+      },
+      {
+        "id": 84100058,
+        "weight": 1
+      },
+      {
+        "id": 84100068,
+        "weight": 1
+      },
+      {
+        "id": 84100057,
+        "weight": 1
+      },
+      {
+        "id": 84100066,
+        "weight": 1
+      },
+      {
+        "id": 84100064,
+        "weight": 1
+      }
+    ],
+    "foodPrefab": "Home/Prefabs/Ramen",
+    "playerAni": [
+      {
+        "animation": 80300205
+      },
+      {
+        "animation": 80300205
+      }
+    ],
+    "isPickFood": false,
+    "foodName": "",
+    "npcList": [],
+    "performFurnitureList": [],
+    "bgmPlay": -1
+  },
+  {
+    "id": 83300046,
+    "idCN": "拉面店/团队餐/黑松露拉面",
+    "mod": "炸鸡店套餐",
+    "isInformalData": false,
+    "name": "黑松露拉面",
+    "foodImagePath": "Item/Food/Ramen/TeamHeisongluRamen",
+    "foodSettlementImagePath": "UI/HomeKeepFastFood/Settlement/HeisongluRamen",
+    "des": "只有葱和海鲜汤，海鲜汤由虾，柴鱼等熬制而成",
+    "trust": 30,
+    "PriceIndex": 1.37,
+    "mealTypeNum": 5,
+    "cost": [
+      {
+        "id": 11400001,
+        "num": 660
+      }
+    ],
+    "foodRes": "Home/Furniture/3D/Prefabs/SingleLowCombo",
+    "iconBuffDesMember": "UI/HomeKeepFastFood/IconTrust",
+    "numBuffDesMember": 80601566,
+    "tipBuffDesMember": 80601571,
+    "memberTrust": [
+      {
+        "buff": 84100015,
+        "id": 10000059,
+        "like": 12600379
+      },
+      {
+        "buff": 84100015,
+        "id": 10000069,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000054,
+        "like": 12600380
+      },
+      {
+        "buff": 84100016,
+        "id": 10000004,
+        "like": 12600380
+      },
+      {
+        "buff": 84100013,
+        "id": 10000352,
+        "like": 12600377
+      },
+      {
+        "buff": 84100013,
+        "id": 10000298,
+        "like": 12600377
+      },
+      {
+        "buff": 84100014,
+        "id": 10000055,
+        "like": 12600378
+      },
+      {
+        "buff": 84100015,
+        "id": 10000068,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000335,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000063,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000071,
+        "like": 12600380
+      },
+      {
+        "buff": 84100013,
+        "id": 10000153,
+        "like": 12600377
+      },
+      {
+        "buff": 84100016,
+        "id": 10000111,
+        "like": 12600380
+      },
+      {
+        "buff": 84100017,
+        "id": 10000060,
+        "like": 12600381
+      },
+      {
+        "buff": 84100017,
+        "id": 10000414,
+        "like": 12600381
+      },
+      {
+        "buff": 84100015,
+        "id": 10000409,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000062,
+        "like": 12600380
+      },
+      {
+        "buff": 84100014,
+        "id": 10000110,
+        "like": 12600378
+      },
+      {
+        "buff": 84100015,
+        "id": 10000160,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000134,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000157,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000025,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000389,
+        "like": 12600379
+      },
+      {
+        "buff": 84100017,
+        "id": 10000300,
+        "like": 12600381
+      },
+      {
+        "buff": 84100017,
+        "id": 10000065,
+        "like": 12600381
+      },
+      {
+        "buff": 84100015,
+        "id": 10000156,
+        "like": 12600379
+      },
+      {
+        "buff": 84100017,
+        "id": 10000154,
+        "like": 12600381
+      },
+      {
+        "buff": 84100016,
+        "id": 10000095,
+        "like": 12600380
+      },
+      {
+        "buff": 84100013,
+        "id": 10000408,
+        "like": 12600377
+      },
+      {
+        "buff": 84100013,
+        "id": 10000064,
+        "like": 12600377
+      },
+      {
+        "buff": 84100015,
+        "id": 10000047,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000299,
+        "like": 12600380
+      },
+      {
+        "buff": 84100013,
+        "id": 10000170,
+        "like": 12600377
+      },
+      {
+        "buff": 84100016,
+        "id": 10000027,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000388,
+        "like": 12600379
+      },
+      {
+        "buff": 84100013,
+        "id": 10000051,
+        "like": 12600377
+      },
+      {
+        "buff": 84100016,
+        "id": 10000387,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000112,
+        "like": 12600379
+      },
+      {
+        "buff": 84100015,
+        "id": 10000053,
+        "like": 12600379
+      },
+      {
+        "buff": 84100013,
+        "id": 10000101,
+        "like": 12600377
+      },
+      {
+        "buff": 84100015,
+        "id": 10000124,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000139,
+        "like": 12600380
+      },
+      {
+        "buff": 84100017,
+        "id": 10000739,
+        "like": 12600381
+      },
+      {
+        "buff": 84100015,
+        "id": 10000032,
+        "like": 12600379
+      },
+      {
+        "buff": 84100014,
+        "id": 10000035,
+        "like": 12600378
+      },
+      {
+        "buff": 84100014,
+        "id": 10000031,
+        "like": 12600378
+      },
+      {
+        "buff": 84100014,
+        "id": 10000034,
+        "like": 12600378
+      },
+      {
+        "buff": 84100014,
+        "id": 10000052,
+        "like": 12600378
+      },
+      {
+        "buff": 84100017,
+        "id": 10000412,
+        "like": 12600381
+      },
+      {
+        "buff": 84100017,
+        "id": 10000297,
+        "like": 12600381
+      },
+      {
+        "buff": 84100015,
+        "id": 10000072,
+        "like": 12600379
+      },
+      {
+        "buff": 84100017,
+        "id": 10000094,
+        "like": 12600381
+      },
+      {
+        "buff": 84100013,
+        "id": 10000145,
+        "like": 12600377
+      }
+    ],
+    "iconBuffDesLCZ": "UI/HomeKeepFastFood/IconBuffLCZ",
+    "numBuffDesLCZ": 80601567,
+    "tipBuffDesLCZ": 80601572,
+    "speed": [
+      {
+        "id": 84100002,
+        "weight": 1
+      },
+      {
+        "id": 84100018,
+        "weight": 1
+      }
+    ],
+    "battleBuffList": [
+      {
+        "id": 84100059,
+        "weight": 1
+      },
+      {
+        "id": 84100067,
+        "weight": 1
+      },
+      {
+        "id": 84100060,
+        "weight": 1
+      },
+      {
+        "id": 84100065,
+        "weight": 1
+      },
+      {
+        "id": 84100061,
+        "weight": 1
+      },
+      {
+        "id": 84100062,
+        "weight": 1
+      },
+      {
+        "id": 84100069,
+        "weight": 1
+      },
+      {
+        "id": 84100063,
+        "weight": 1
+      },
+      {
+        "id": 84100058,
+        "weight": 1
+      },
+      {
+        "id": 84100068,
+        "weight": 1
+      },
+      {
+        "id": 84100057,
+        "weight": 1
+      },
+      {
+        "id": 84100066,
+        "weight": 1
+      },
+      {
+        "id": 84100064,
+        "weight": 1
+      }
+    ],
+    "foodPrefab": "Home/Prefabs/Ramen",
+    "playerAni": [
+      {
+        "animation": 80300205
+      },
+      {
+        "animation": 80300205
+      },
+      {
+        "animation": 80300205
+      },
+      {
+        "animation": 80300205
+      },
+      {
+        "animation": 80300205
+      },
+      {
+        "animation": 80300205
+      }
+    ],
+    "isPickFood": false,
+    "foodName": "",
+    "npcList": [],
+    "performFurnitureList": [],
+    "bgmPlay": -1
+  },
+  {
+    "id": 83300047,
+    "idCN": "拉面店/单人餐/海鲜拉面",
+    "mod": "炸鸡店套餐",
+    "isInformalData": false,
+    "name": "海鲜拉面",
+    "foodImagePath": "Item/Food/Ramen/SingleHaixianRamen",
+    "foodSettlementImagePath": "UI/HomeKeepFastFood/Settlement/HaixianRamen",
+    "des": "只有葱和海鲜汤，海鲜汤由虾，柴鱼等熬制而成",
+    "trust": 30,
+    "PriceIndex": 1.37,
+    "mealTypeNum": 1,
+    "cost": [
+      {
+        "id": 11400001,
+        "num": 660
+      }
+    ],
+    "foodRes": "Home/Furniture/3D/Prefabs/SingleLowCombo",
+    "iconBuffDesMember": "UI/HomeKeepFastFood/IconTrust",
+    "numBuffDesMember": 80601566,
+    "tipBuffDesMember": 80601571,
+    "memberTrust": [
+      {
+        "buff": 84100015,
+        "id": 10000059,
+        "like": 12600379
+      },
+      {
+        "buff": 84100015,
+        "id": 10000069,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000054,
+        "like": 12600380
+      },
+      {
+        "buff": 84100016,
+        "id": 10000004,
+        "like": 12600380
+      },
+      {
+        "buff": 84100013,
+        "id": 10000352,
+        "like": 12600377
+      },
+      {
+        "buff": 84100013,
+        "id": 10000298,
+        "like": 12600377
+      },
+      {
+        "buff": 84100014,
+        "id": 10000055,
+        "like": 12600378
+      },
+      {
+        "buff": 84100015,
+        "id": 10000068,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000335,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000063,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000071,
+        "like": 12600380
+      },
+      {
+        "buff": 84100013,
+        "id": 10000153,
+        "like": 12600377
+      },
+      {
+        "buff": 84100016,
+        "id": 10000111,
+        "like": 12600380
+      },
+      {
+        "buff": 84100017,
+        "id": 10000060,
+        "like": 12600381
+      },
+      {
+        "buff": 84100017,
+        "id": 10000414,
+        "like": 12600381
+      },
+      {
+        "buff": 84100015,
+        "id": 10000409,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000062,
+        "like": 12600380
+      },
+      {
+        "buff": 84100014,
+        "id": 10000110,
+        "like": 12600378
+      },
+      {
+        "buff": 84100015,
+        "id": 10000160,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000134,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000157,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000025,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000389,
+        "like": 12600379
+      },
+      {
+        "buff": 84100017,
+        "id": 10000300,
+        "like": 12600381
+      },
+      {
+        "buff": 84100017,
+        "id": 10000065,
+        "like": 12600381
+      },
+      {
+        "buff": 84100015,
+        "id": 10000156,
+        "like": 12600379
+      },
+      {
+        "buff": 84100017,
+        "id": 10000154,
+        "like": 12600381
+      },
+      {
+        "buff": 84100016,
+        "id": 10000095,
+        "like": 12600380
+      },
+      {
+        "buff": 84100013,
+        "id": 10000408,
+        "like": 12600377
+      },
+      {
+        "buff": 84100013,
+        "id": 10000064,
+        "like": 12600377
+      },
+      {
+        "buff": 84100015,
+        "id": 10000047,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000299,
+        "like": 12600380
+      },
+      {
+        "buff": 84100013,
+        "id": 10000170,
+        "like": 12600377
+      },
+      {
+        "buff": 84100016,
+        "id": 10000027,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000388,
+        "like": 12600379
+      },
+      {
+        "buff": 84100013,
+        "id": 10000051,
+        "like": 12600377
+      },
+      {
+        "buff": 84100016,
+        "id": 10000387,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000112,
+        "like": 12600379
+      },
+      {
+        "buff": 84100015,
+        "id": 10000053,
+        "like": 12600379
+      },
+      {
+        "buff": 84100013,
+        "id": 10000101,
+        "like": 12600377
+      },
+      {
+        "buff": 84100015,
+        "id": 10000124,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000139,
+        "like": 12600380
+      },
+      {
+        "buff": 84100017,
+        "id": 10000739,
+        "like": 12600381
+      },
+      {
+        "buff": 84100015,
+        "id": 10000032,
+        "like": 12600379
+      },
+      {
+        "buff": 84100014,
+        "id": 10000035,
+        "like": 12600378
+      },
+      {
+        "buff": 84100014,
+        "id": 10000031,
+        "like": 12600378
+      },
+      {
+        "buff": 84100014,
+        "id": 10000034,
+        "like": 12600378
+      },
+      {
+        "buff": 84100014,
+        "id": 10000052,
+        "like": 12600378
+      },
+      {
+        "buff": 84100017,
+        "id": 10000412,
+        "like": 12600381
+      },
+      {
+        "buff": 84100017,
+        "id": 10000297,
+        "like": 12600381
+      },
+      {
+        "buff": 84100015,
+        "id": 10000072,
+        "like": 12600379
+      },
+      {
+        "buff": 84100017,
+        "id": 10000094,
+        "like": 12600381
+      },
+      {
+        "buff": 84100013,
+        "id": 10000145,
+        "like": 12600377
+      }
+    ],
+    "iconBuffDesLCZ": "UI/HomeKeepFastFood/IconBuffLCZ",
+    "numBuffDesLCZ": 80601567,
+    "tipBuffDesLCZ": 80601572,
+    "speed": [
+      {
+        "id": 84100002,
+        "weight": 1
+      },
+      {
+        "id": 84100018,
+        "weight": 1
+      }
+    ],
+    "battleBuffList": [
+      {
+        "id": 84100059,
+        "weight": 1
+      },
+      {
+        "id": 84100067,
+        "weight": 1
+      },
+      {
+        "id": 84100060,
+        "weight": 1
+      },
+      {
+        "id": 84100065,
+        "weight": 1
+      },
+      {
+        "id": 84100061,
+        "weight": 1
+      },
+      {
+        "id": 84100062,
+        "weight": 1
+      },
+      {
+        "id": 84100069,
+        "weight": 1
+      },
+      {
+        "id": 84100063,
+        "weight": 1
+      },
+      {
+        "id": 84100058,
+        "weight": 1
+      },
+      {
+        "id": 84100068,
+        "weight": 1
+      },
+      {
+        "id": 84100057,
+        "weight": 1
+      },
+      {
+        "id": 84100066,
+        "weight": 1
+      },
+      {
+        "id": 84100064,
+        "weight": 1
+      }
+    ],
+    "foodPrefab": "Home/Prefabs/Ramen",
+    "playerAni": [
+      {
+        "animation": 80300205
+      },
+      {
+        "animation": 80300205
+      }
+    ],
+    "isPickFood": false,
+    "foodName": "",
+    "npcList": [],
+    "performFurnitureList": [],
+    "bgmPlay": -1
+  },
+  {
+    "id": 83300048,
+    "idCN": "拉面店/团队餐/海鲜拉面",
+    "mod": "炸鸡店套餐",
+    "isInformalData": false,
+    "name": "海鲜拉面",
+    "foodImagePath": "Item/Food/Ramen/TeamHaixianRamen",
+    "foodSettlementImagePath": "UI/HomeKeepFastFood/Settlement/HaixianRamen",
+    "des": "只有葱和海鲜汤，海鲜汤由虾，柴鱼等熬制而成",
+    "trust": 30,
+    "PriceIndex": 1.37,
+    "mealTypeNum": 5,
+    "cost": [
+      {
+        "id": 11400001,
+        "num": 660
+      }
+    ],
+    "foodRes": "Home/Furniture/3D/Prefabs/SingleLowCombo",
+    "iconBuffDesMember": "UI/HomeKeepFastFood/IconTrust",
+    "numBuffDesMember": 80601566,
+    "tipBuffDesMember": 80601571,
+    "memberTrust": [
+      {
+        "buff": 84100015,
+        "id": 10000059,
+        "like": 12600379
+      },
+      {
+        "buff": 84100015,
+        "id": 10000069,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000054,
+        "like": 12600380
+      },
+      {
+        "buff": 84100016,
+        "id": 10000004,
+        "like": 12600380
+      },
+      {
+        "buff": 84100013,
+        "id": 10000352,
+        "like": 12600377
+      },
+      {
+        "buff": 84100013,
+        "id": 10000298,
+        "like": 12600377
+      },
+      {
+        "buff": 84100014,
+        "id": 10000055,
+        "like": 12600378
+      },
+      {
+        "buff": 84100015,
+        "id": 10000068,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000335,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000063,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000071,
+        "like": 12600380
+      },
+      {
+        "buff": 84100013,
+        "id": 10000153,
+        "like": 12600377
+      },
+      {
+        "buff": 84100016,
+        "id": 10000111,
+        "like": 12600380
+      },
+      {
+        "buff": 84100017,
+        "id": 10000060,
+        "like": 12600381
+      },
+      {
+        "buff": 84100017,
+        "id": 10000414,
+        "like": 12600381
+      },
+      {
+        "buff": 84100015,
+        "id": 10000409,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000062,
+        "like": 12600380
+      },
+      {
+        "buff": 84100014,
+        "id": 10000110,
+        "like": 12600378
+      },
+      {
+        "buff": 84100015,
+        "id": 10000160,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000134,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000157,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000025,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000389,
+        "like": 12600379
+      },
+      {
+        "buff": 84100017,
+        "id": 10000300,
+        "like": 12600381
+      },
+      {
+        "buff": 84100017,
+        "id": 10000065,
+        "like": 12600381
+      },
+      {
+        "buff": 84100015,
+        "id": 10000156,
+        "like": 12600379
+      },
+      {
+        "buff": 84100017,
+        "id": 10000154,
+        "like": 12600381
+      },
+      {
+        "buff": 84100016,
+        "id": 10000095,
+        "like": 12600380
+      },
+      {
+        "buff": 84100013,
+        "id": 10000408,
+        "like": 12600377
+      },
+      {
+        "buff": 84100013,
+        "id": 10000064,
+        "like": 12600377
+      },
+      {
+        "buff": 84100015,
+        "id": 10000047,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000299,
+        "like": 12600380
+      },
+      {
+        "buff": 84100013,
+        "id": 10000170,
+        "like": 12600377
+      },
+      {
+        "buff": 84100016,
+        "id": 10000027,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000388,
+        "like": 12600379
+      },
+      {
+        "buff": 84100013,
+        "id": 10000051,
+        "like": 12600377
+      },
+      {
+        "buff": 84100016,
+        "id": 10000387,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000112,
+        "like": 12600379
+      },
+      {
+        "buff": 84100015,
+        "id": 10000053,
+        "like": 12600379
+      },
+      {
+        "buff": 84100013,
+        "id": 10000101,
+        "like": 12600377
+      },
+      {
+        "buff": 84100015,
+        "id": 10000124,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000139,
+        "like": 12600380
+      },
+      {
+        "buff": 84100017,
+        "id": 10000739,
+        "like": 12600381
+      },
+      {
+        "buff": 84100015,
+        "id": 10000032,
+        "like": 12600379
+      },
+      {
+        "buff": 84100014,
+        "id": 10000035,
+        "like": 12600378
+      },
+      {
+        "buff": 84100014,
+        "id": 10000031,
+        "like": 12600378
+      },
+      {
+        "buff": 84100014,
+        "id": 10000034,
+        "like": 12600378
+      },
+      {
+        "buff": 84100014,
+        "id": 10000052,
+        "like": 12600378
+      },
+      {
+        "buff": 84100017,
+        "id": 10000412,
+        "like": 12600381
+      },
+      {
+        "buff": 84100017,
+        "id": 10000297,
+        "like": 12600381
+      },
+      {
+        "buff": 84100015,
+        "id": 10000072,
+        "like": 12600379
+      },
+      {
+        "buff": 84100017,
+        "id": 10000094,
+        "like": 12600381
+      },
+      {
+        "buff": 84100013,
+        "id": 10000145,
+        "like": 12600377
+      }
+    ],
+    "iconBuffDesLCZ": "UI/HomeKeepFastFood/IconBuffLCZ",
+    "numBuffDesLCZ": 80601567,
+    "tipBuffDesLCZ": 80601572,
+    "speed": [
+      {
+        "id": 84100002,
+        "weight": 1
+      },
+      {
+        "id": 84100018,
+        "weight": 1
+      }
+    ],
+    "battleBuffList": [
+      {
+        "id": 84100059,
+        "weight": 1
+      },
+      {
+        "id": 84100067,
+        "weight": 1
+      },
+      {
+        "id": 84100060,
+        "weight": 1
+      },
+      {
+        "id": 84100065,
+        "weight": 1
+      },
+      {
+        "id": 84100061,
+        "weight": 1
+      },
+      {
+        "id": 84100062,
+        "weight": 1
+      },
+      {
+        "id": 84100069,
+        "weight": 1
+      },
+      {
+        "id": 84100063,
+        "weight": 1
+      },
+      {
+        "id": 84100058,
+        "weight": 1
+      },
+      {
+        "id": 84100068,
+        "weight": 1
+      },
+      {
+        "id": 84100057,
+        "weight": 1
+      },
+      {
+        "id": 84100066,
+        "weight": 1
+      },
+      {
+        "id": 84100064,
+        "weight": 1
+      }
+    ],
+    "foodPrefab": "Home/Prefabs/Ramen",
+    "playerAni": [
+      {
+        "animation": 80300205
+      },
+      {
+        "animation": 80300205
+      },
+      {
+        "animation": 80300205
+      },
+      {
+        "animation": 80300205
+      },
+      {
+        "animation": 80300205
+      },
+      {
+        "animation": 80300205
+      }
+    ],
+    "isPickFood": false,
+    "foodName": "",
+    "npcList": [],
+    "performFurnitureList": [],
+    "bgmPlay": -1
+  },
+  {
+    "id": 83300049,
+    "idCN": "拉面店/单人餐/丸子拉面",
+    "mod": "炸鸡店套餐",
+    "isInformalData": false,
+    "name": "丸子拉面",
+    "foodImagePath": "Item/Food/Ramen/SingleWanziRamen",
+    "foodSettlementImagePath": "UI/HomeKeepFastFood/Settlement/WanziRamen",
+    "des": "只有葱和海鲜汤，海鲜汤由虾，柴鱼等熬制而成",
+    "trust": 30,
+    "PriceIndex": 1.37,
+    "mealTypeNum": 1,
+    "cost": [
+      {
+        "id": 11400001,
+        "num": 660
+      }
+    ],
+    "foodRes": "Home/Furniture/3D/Prefabs/SingleLowCombo",
+    "iconBuffDesMember": "UI/HomeKeepFastFood/IconTrust",
+    "numBuffDesMember": 80601566,
+    "tipBuffDesMember": 80601571,
+    "memberTrust": [
+      {
+        "buff": 84100015,
+        "id": 10000059,
+        "like": 12600379
+      },
+      {
+        "buff": 84100015,
+        "id": 10000069,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000054,
+        "like": 12600380
+      },
+      {
+        "buff": 84100016,
+        "id": 10000004,
+        "like": 12600380
+      },
+      {
+        "buff": 84100013,
+        "id": 10000352,
+        "like": 12600377
+      },
+      {
+        "buff": 84100013,
+        "id": 10000298,
+        "like": 12600377
+      },
+      {
+        "buff": 84100014,
+        "id": 10000055,
+        "like": 12600378
+      },
+      {
+        "buff": 84100015,
+        "id": 10000068,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000335,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000063,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000071,
+        "like": 12600380
+      },
+      {
+        "buff": 84100013,
+        "id": 10000153,
+        "like": 12600377
+      },
+      {
+        "buff": 84100016,
+        "id": 10000111,
+        "like": 12600380
+      },
+      {
+        "buff": 84100017,
+        "id": 10000060,
+        "like": 12600381
+      },
+      {
+        "buff": 84100017,
+        "id": 10000414,
+        "like": 12600381
+      },
+      {
+        "buff": 84100015,
+        "id": 10000409,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000062,
+        "like": 12600380
+      },
+      {
+        "buff": 84100014,
+        "id": 10000110,
+        "like": 12600378
+      },
+      {
+        "buff": 84100015,
+        "id": 10000160,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000134,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000157,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000025,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000389,
+        "like": 12600379
+      },
+      {
+        "buff": 84100017,
+        "id": 10000300,
+        "like": 12600381
+      },
+      {
+        "buff": 84100017,
+        "id": 10000065,
+        "like": 12600381
+      },
+      {
+        "buff": 84100015,
+        "id": 10000156,
+        "like": 12600379
+      },
+      {
+        "buff": 84100017,
+        "id": 10000154,
+        "like": 12600381
+      },
+      {
+        "buff": 84100016,
+        "id": 10000095,
+        "like": 12600380
+      },
+      {
+        "buff": 84100013,
+        "id": 10000408,
+        "like": 12600377
+      },
+      {
+        "buff": 84100013,
+        "id": 10000064,
+        "like": 12600377
+      },
+      {
+        "buff": 84100015,
+        "id": 10000047,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000299,
+        "like": 12600380
+      },
+      {
+        "buff": 84100013,
+        "id": 10000170,
+        "like": 12600377
+      },
+      {
+        "buff": 84100016,
+        "id": 10000027,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000388,
+        "like": 12600379
+      },
+      {
+        "buff": 84100013,
+        "id": 10000051,
+        "like": 12600377
+      },
+      {
+        "buff": 84100016,
+        "id": 10000387,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000112,
+        "like": 12600379
+      },
+      {
+        "buff": 84100015,
+        "id": 10000053,
+        "like": 12600379
+      },
+      {
+        "buff": 84100013,
+        "id": 10000101,
+        "like": 12600377
+      },
+      {
+        "buff": 84100015,
+        "id": 10000124,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000139,
+        "like": 12600380
+      },
+      {
+        "buff": 84100017,
+        "id": 10000739,
+        "like": 12600381
+      },
+      {
+        "buff": 84100015,
+        "id": 10000032,
+        "like": 12600379
+      },
+      {
+        "buff": 84100014,
+        "id": 10000035,
+        "like": 12600378
+      },
+      {
+        "buff": 84100014,
+        "id": 10000031,
+        "like": 12600378
+      },
+      {
+        "buff": 84100014,
+        "id": 10000034,
+        "like": 12600378
+      },
+      {
+        "buff": 84100014,
+        "id": 10000052,
+        "like": 12600378
+      },
+      {
+        "buff": 84100017,
+        "id": 10000412,
+        "like": 12600381
+      },
+      {
+        "buff": 84100017,
+        "id": 10000297,
+        "like": 12600381
+      },
+      {
+        "buff": 84100015,
+        "id": 10000072,
+        "like": 12600379
+      },
+      {
+        "buff": 84100017,
+        "id": 10000094,
+        "like": 12600381
+      },
+      {
+        "buff": 84100013,
+        "id": 10000145,
+        "like": 12600377
+      }
+    ],
+    "iconBuffDesLCZ": "UI/HomeKeepFastFood/IconBuffLCZ",
+    "numBuffDesLCZ": 80601567,
+    "tipBuffDesLCZ": 80601572,
+    "speed": [
+      {
+        "id": 84100002,
+        "weight": 1
+      },
+      {
+        "id": 84100018,
+        "weight": 1
+      }
+    ],
+    "battleBuffList": [
+      {
+        "id": 84100053,
+        "weight": 1
+      },
+      {
+        "id": 84100049,
+        "weight": 1
+      },
+      {
+        "id": 84100052,
+        "weight": 1
+      },
+      {
+        "id": 84100050,
+        "weight": 1
+      },
+      {
+        "id": 84100051,
+        "weight": 1
+      }
+    ],
+    "foodPrefab": "Home/Prefabs/Ramen",
+    "playerAni": [
+      {
+        "animation": 80300205
+      },
+      {
+        "animation": 80300205
+      }
+    ],
+    "isPickFood": false,
+    "foodName": "",
+    "npcList": [],
+    "performFurnitureList": [],
+    "bgmPlay": -1
+  },
+  {
+    "id": 83300050,
+    "idCN": "拉面店/团队餐/丸子拉面",
+    "mod": "炸鸡店套餐",
+    "isInformalData": false,
+    "name": "丸子拉面",
+    "foodImagePath": "Item/Food/Ramen/TeamWanziRamen",
+    "foodSettlementImagePath": "UI/HomeKeepFastFood/Settlement/WanziRamen",
+    "des": "只有葱和海鲜汤，海鲜汤由虾，柴鱼等熬制而成",
+    "trust": 30,
+    "PriceIndex": 1.37,
+    "mealTypeNum": 5,
+    "cost": [
+      {
+        "id": 11400001,
+        "num": 660
+      }
+    ],
+    "foodRes": "Home/Furniture/3D/Prefabs/SingleLowCombo",
+    "iconBuffDesMember": "UI/HomeKeepFastFood/IconTrust",
+    "numBuffDesMember": 80601566,
+    "tipBuffDesMember": 80601571,
+    "memberTrust": [
+      {
+        "buff": 84100015,
+        "id": 10000059,
+        "like": 12600379
+      },
+      {
+        "buff": 84100015,
+        "id": 10000069,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000054,
+        "like": 12600380
+      },
+      {
+        "buff": 84100016,
+        "id": 10000004,
+        "like": 12600380
+      },
+      {
+        "buff": 84100013,
+        "id": 10000352,
+        "like": 12600377
+      },
+      {
+        "buff": 84100013,
+        "id": 10000298,
+        "like": 12600377
+      },
+      {
+        "buff": 84100014,
+        "id": 10000055,
+        "like": 12600378
+      },
+      {
+        "buff": 84100015,
+        "id": 10000068,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000335,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000063,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000071,
+        "like": 12600380
+      },
+      {
+        "buff": 84100013,
+        "id": 10000153,
+        "like": 12600377
+      },
+      {
+        "buff": 84100016,
+        "id": 10000111,
+        "like": 12600380
+      },
+      {
+        "buff": 84100017,
+        "id": 10000060,
+        "like": 12600381
+      },
+      {
+        "buff": 84100017,
+        "id": 10000414,
+        "like": 12600381
+      },
+      {
+        "buff": 84100015,
+        "id": 10000409,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000062,
+        "like": 12600380
+      },
+      {
+        "buff": 84100014,
+        "id": 10000110,
+        "like": 12600378
+      },
+      {
+        "buff": 84100015,
+        "id": 10000160,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000134,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000157,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000025,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000389,
+        "like": 12600379
+      },
+      {
+        "buff": 84100017,
+        "id": 10000300,
+        "like": 12600381
+      },
+      {
+        "buff": 84100017,
+        "id": 10000065,
+        "like": 12600381
+      },
+      {
+        "buff": 84100015,
+        "id": 10000156,
+        "like": 12600379
+      },
+      {
+        "buff": 84100017,
+        "id": 10000154,
+        "like": 12600381
+      },
+      {
+        "buff": 84100016,
+        "id": 10000095,
+        "like": 12600380
+      },
+      {
+        "buff": 84100013,
+        "id": 10000408,
+        "like": 12600377
+      },
+      {
+        "buff": 84100013,
+        "id": 10000064,
+        "like": 12600377
+      },
+      {
+        "buff": 84100015,
+        "id": 10000047,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000299,
+        "like": 12600380
+      },
+      {
+        "buff": 84100013,
+        "id": 10000170,
+        "like": 12600377
+      },
+      {
+        "buff": 84100016,
+        "id": 10000027,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000388,
+        "like": 12600379
+      },
+      {
+        "buff": 84100013,
+        "id": 10000051,
+        "like": 12600377
+      },
+      {
+        "buff": 84100016,
+        "id": 10000387,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000112,
+        "like": 12600379
+      },
+      {
+        "buff": 84100015,
+        "id": 10000053,
+        "like": 12600379
+      },
+      {
+        "buff": 84100013,
+        "id": 10000101,
+        "like": 12600377
+      },
+      {
+        "buff": 84100015,
+        "id": 10000124,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000139,
+        "like": 12600380
+      },
+      {
+        "buff": 84100017,
+        "id": 10000739,
+        "like": 12600381
+      },
+      {
+        "buff": 84100015,
+        "id": 10000032,
+        "like": 12600379
+      },
+      {
+        "buff": 84100014,
+        "id": 10000035,
+        "like": 12600378
+      },
+      {
+        "buff": 84100014,
+        "id": 10000031,
+        "like": 12600378
+      },
+      {
+        "buff": 84100014,
+        "id": 10000034,
+        "like": 12600378
+      },
+      {
+        "buff": 84100014,
+        "id": 10000052,
+        "like": 12600378
+      },
+      {
+        "buff": 84100017,
+        "id": 10000412,
+        "like": 12600381
+      },
+      {
+        "buff": 84100017,
+        "id": 10000297,
+        "like": 12600381
+      },
+      {
+        "buff": 84100015,
+        "id": 10000072,
+        "like": 12600379
+      },
+      {
+        "buff": 84100017,
+        "id": 10000094,
+        "like": 12600381
+      },
+      {
+        "buff": 84100013,
+        "id": 10000145,
+        "like": 12600377
+      }
+    ],
+    "iconBuffDesLCZ": "UI/HomeKeepFastFood/IconBuffLCZ",
+    "numBuffDesLCZ": 80601567,
+    "tipBuffDesLCZ": 80601572,
+    "speed": [
+      {
+        "id": 84100002,
+        "weight": 1
+      },
+      {
+        "id": 84100018,
+        "weight": 1
+      }
+    ],
+    "battleBuffList": [
+      {
+        "id": 84100053,
+        "weight": 1
+      },
+      {
+        "id": 84100049,
+        "weight": 1
+      },
+      {
+        "id": 84100052,
+        "weight": 1
+      },
+      {
+        "id": 84100050,
+        "weight": 1
+      },
+      {
+        "id": 84100051,
+        "weight": 1
+      }
+    ],
+    "foodPrefab": "Home/Prefabs/Ramen",
+    "playerAni": [
+      {
+        "animation": 80300205
+      },
+      {
+        "animation": 80300205
+      },
+      {
+        "animation": 80300205
+      },
+      {
+        "animation": 80300205
+      },
+      {
+        "animation": 80300205
+      },
+      {
+        "animation": 80300205
+      }
+    ],
+    "isPickFood": false,
+    "foodName": "",
+    "npcList": [],
+    "performFurnitureList": [],
+    "bgmPlay": -1
+  },
+  {
+    "id": 83300051,
+    "idCN": "拉面店/单人餐/海味饭团",
+    "mod": "炸鸡店套餐",
+    "isInformalData": false,
+    "name": "海味饭团",
+    "foodImagePath": "Item/Food/Ramen/SingleHaiweiFantuan",
+    "foodSettlementImagePath": "UI/HomeKeepFastFood/Settlement/HaiweiFantuan",
+    "des": "只有葱和海鲜汤，海鲜汤由虾，柴鱼等熬制而成",
+    "trust": 30,
+    "PriceIndex": 1.37,
+    "mealTypeNum": 1,
+    "cost": [
+      {
+        "id": 11400001,
+        "num": 660
+      }
+    ],
+    "foodRes": "Home/Furniture/3D/Prefabs/SingleLowCombo",
+    "iconBuffDesMember": "UI/HomeKeepFastFood/IconTrust",
+    "numBuffDesMember": 80601566,
+    "tipBuffDesMember": 80601571,
+    "memberTrust": [
+      {
+        "buff": 84100015,
+        "id": 10000059,
+        "like": 12600379
+      },
+      {
+        "buff": 84100015,
+        "id": 10000069,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000054,
+        "like": 12600380
+      },
+      {
+        "buff": 84100016,
+        "id": 10000004,
+        "like": 12600380
+      },
+      {
+        "buff": 84100013,
+        "id": 10000352,
+        "like": 12600377
+      },
+      {
+        "buff": 84100013,
+        "id": 10000298,
+        "like": 12600377
+      },
+      {
+        "buff": 84100014,
+        "id": 10000055,
+        "like": 12600378
+      },
+      {
+        "buff": 84100015,
+        "id": 10000068,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000335,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000063,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000071,
+        "like": 12600380
+      },
+      {
+        "buff": 84100013,
+        "id": 10000153,
+        "like": 12600377
+      },
+      {
+        "buff": 84100016,
+        "id": 10000111,
+        "like": 12600380
+      },
+      {
+        "buff": 84100017,
+        "id": 10000060,
+        "like": 12600381
+      },
+      {
+        "buff": 84100017,
+        "id": 10000414,
+        "like": 12600381
+      },
+      {
+        "buff": 84100015,
+        "id": 10000409,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000062,
+        "like": 12600380
+      },
+      {
+        "buff": 84100014,
+        "id": 10000110,
+        "like": 12600378
+      },
+      {
+        "buff": 84100015,
+        "id": 10000160,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000134,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000157,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000025,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000389,
+        "like": 12600379
+      },
+      {
+        "buff": 84100017,
+        "id": 10000300,
+        "like": 12600381
+      },
+      {
+        "buff": 84100017,
+        "id": 10000065,
+        "like": 12600381
+      },
+      {
+        "buff": 84100015,
+        "id": 10000156,
+        "like": 12600379
+      },
+      {
+        "buff": 84100017,
+        "id": 10000154,
+        "like": 12600381
+      },
+      {
+        "buff": 84100016,
+        "id": 10000095,
+        "like": 12600380
+      },
+      {
+        "buff": 84100013,
+        "id": 10000408,
+        "like": 12600377
+      },
+      {
+        "buff": 84100013,
+        "id": 10000064,
+        "like": 12600377
+      },
+      {
+        "buff": 84100015,
+        "id": 10000047,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000299,
+        "like": 12600380
+      },
+      {
+        "buff": 84100013,
+        "id": 10000170,
+        "like": 12600377
+      },
+      {
+        "buff": 84100016,
+        "id": 10000027,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000388,
+        "like": 12600379
+      },
+      {
+        "buff": 84100013,
+        "id": 10000051,
+        "like": 12600377
+      },
+      {
+        "buff": 84100016,
+        "id": 10000387,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000112,
+        "like": 12600379
+      },
+      {
+        "buff": 84100015,
+        "id": 10000053,
+        "like": 12600379
+      },
+      {
+        "buff": 84100013,
+        "id": 10000101,
+        "like": 12600377
+      },
+      {
+        "buff": 84100015,
+        "id": 10000124,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000139,
+        "like": 12600380
+      },
+      {
+        "buff": 84100017,
+        "id": 10000739,
+        "like": 12600381
+      },
+      {
+        "buff": 84100015,
+        "id": 10000032,
+        "like": 12600379
+      },
+      {
+        "buff": 84100014,
+        "id": 10000035,
+        "like": 12600378
+      },
+      {
+        "buff": 84100014,
+        "id": 10000031,
+        "like": 12600378
+      },
+      {
+        "buff": 84100014,
+        "id": 10000034,
+        "like": 12600378
+      },
+      {
+        "buff": 84100014,
+        "id": 10000052,
+        "like": 12600378
+      },
+      {
+        "buff": 84100017,
+        "id": 10000412,
+        "like": 12600381
+      },
+      {
+        "buff": 84100017,
+        "id": 10000297,
+        "like": 12600381
+      },
+      {
+        "buff": 84100015,
+        "id": 10000072,
+        "like": 12600379
+      },
+      {
+        "buff": 84100017,
+        "id": 10000094,
+        "like": 12600381
+      },
+      {
+        "buff": 84100013,
+        "id": 10000145,
+        "like": 12600377
+      }
+    ],
+    "iconBuffDesLCZ": "UI/HomeKeepFastFood/IconBuffLCZ",
+    "numBuffDesLCZ": 80601567,
+    "tipBuffDesLCZ": 80601572,
+    "speed": [
+      {
+        "id": 84100002,
+        "weight": 1
+      },
+      {
+        "id": 84100018,
+        "weight": 1
+      }
+    ],
+    "battleBuffList": [
+      {
+        "id": 84100055,
+        "weight": 1
+      },
+      {
+        "id": 84100056,
+        "weight": 1
+      },
+      {
+        "id": 84100054,
+        "weight": 1
+      }
+    ],
+    "foodPrefab": "Home/Prefabs/Ramen",
+    "playerAni": [
+      {
+        "animation": 80300205
+      },
+      {
+        "animation": 80300205
+      }
+    ],
+    "isPickFood": false,
+    "foodName": "",
+    "npcList": [],
+    "performFurnitureList": [],
+    "bgmPlay": -1
+  },
+  {
+    "id": 83300052,
+    "idCN": "拉面店/团队餐/海味饭团",
+    "mod": "炸鸡店套餐",
+    "isInformalData": false,
+    "name": "海味饭团",
+    "foodImagePath": "Item/Food/Ramen/TeamHaiweiFantuan",
+    "foodSettlementImagePath": "UI/HomeKeepFastFood/Settlement/HaiweiFantuan",
+    "des": "只有葱和海鲜汤，海鲜汤由虾，柴鱼等熬制而成",
+    "trust": 30,
+    "PriceIndex": 1.37,
+    "mealTypeNum": 5,
+    "cost": [
+      {
+        "id": 11400001,
+        "num": 660
+      }
+    ],
+    "foodRes": "Home/Furniture/3D/Prefabs/SingleLowCombo",
+    "iconBuffDesMember": "UI/HomeKeepFastFood/IconTrust",
+    "numBuffDesMember": 80601566,
+    "tipBuffDesMember": 80601571,
+    "memberTrust": [
+      {
+        "buff": 84100015,
+        "id": 10000059,
+        "like": 12600379
+      },
+      {
+        "buff": 84100015,
+        "id": 10000069,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000054,
+        "like": 12600380
+      },
+      {
+        "buff": 84100016,
+        "id": 10000004,
+        "like": 12600380
+      },
+      {
+        "buff": 84100013,
+        "id": 10000352,
+        "like": 12600377
+      },
+      {
+        "buff": 84100013,
+        "id": 10000298,
+        "like": 12600377
+      },
+      {
+        "buff": 84100014,
+        "id": 10000055,
+        "like": 12600378
+      },
+      {
+        "buff": 84100015,
+        "id": 10000068,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000335,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000063,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000071,
+        "like": 12600380
+      },
+      {
+        "buff": 84100013,
+        "id": 10000153,
+        "like": 12600377
+      },
+      {
+        "buff": 84100016,
+        "id": 10000111,
+        "like": 12600380
+      },
+      {
+        "buff": 84100017,
+        "id": 10000060,
+        "like": 12600381
+      },
+      {
+        "buff": 84100017,
+        "id": 10000414,
+        "like": 12600381
+      },
+      {
+        "buff": 84100015,
+        "id": 10000409,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000062,
+        "like": 12600380
+      },
+      {
+        "buff": 84100014,
+        "id": 10000110,
+        "like": 12600378
+      },
+      {
+        "buff": 84100015,
+        "id": 10000160,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000134,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000157,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000025,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000389,
+        "like": 12600379
+      },
+      {
+        "buff": 84100017,
+        "id": 10000300,
+        "like": 12600381
+      },
+      {
+        "buff": 84100017,
+        "id": 10000065,
+        "like": 12600381
+      },
+      {
+        "buff": 84100015,
+        "id": 10000156,
+        "like": 12600379
+      },
+      {
+        "buff": 84100017,
+        "id": 10000154,
+        "like": 12600381
+      },
+      {
+        "buff": 84100016,
+        "id": 10000095,
+        "like": 12600380
+      },
+      {
+        "buff": 84100013,
+        "id": 10000408,
+        "like": 12600377
+      },
+      {
+        "buff": 84100013,
+        "id": 10000064,
+        "like": 12600377
+      },
+      {
+        "buff": 84100015,
+        "id": 10000047,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000299,
+        "like": 12600380
+      },
+      {
+        "buff": 84100013,
+        "id": 10000170,
+        "like": 12600377
+      },
+      {
+        "buff": 84100016,
+        "id": 10000027,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000388,
+        "like": 12600379
+      },
+      {
+        "buff": 84100013,
+        "id": 10000051,
+        "like": 12600377
+      },
+      {
+        "buff": 84100016,
+        "id": 10000387,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000112,
+        "like": 12600379
+      },
+      {
+        "buff": 84100015,
+        "id": 10000053,
+        "like": 12600379
+      },
+      {
+        "buff": 84100013,
+        "id": 10000101,
+        "like": 12600377
+      },
+      {
+        "buff": 84100015,
+        "id": 10000124,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000139,
+        "like": 12600380
+      },
+      {
+        "buff": 84100017,
+        "id": 10000739,
+        "like": 12600381
+      },
+      {
+        "buff": 84100015,
+        "id": 10000032,
+        "like": 12600379
+      },
+      {
+        "buff": 84100014,
+        "id": 10000035,
+        "like": 12600378
+      },
+      {
+        "buff": 84100014,
+        "id": 10000031,
+        "like": 12600378
+      },
+      {
+        "buff": 84100014,
+        "id": 10000034,
+        "like": 12600378
+      },
+      {
+        "buff": 84100014,
+        "id": 10000052,
+        "like": 12600378
+      },
+      {
+        "buff": 84100017,
+        "id": 10000412,
+        "like": 12600381
+      },
+      {
+        "buff": 84100017,
+        "id": 10000297,
+        "like": 12600381
+      },
+      {
+        "buff": 84100015,
+        "id": 10000072,
+        "like": 12600379
+      },
+      {
+        "buff": 84100017,
+        "id": 10000094,
+        "like": 12600381
+      },
+      {
+        "buff": 84100013,
+        "id": 10000145,
+        "like": 12600377
+      }
+    ],
+    "iconBuffDesLCZ": "UI/HomeKeepFastFood/IconBuffLCZ",
+    "numBuffDesLCZ": 80601567,
+    "tipBuffDesLCZ": 80601572,
+    "speed": [
+      {
+        "id": 84100002,
+        "weight": 1
+      },
+      {
+        "id": 84100018,
+        "weight": 1
+      }
+    ],
+    "battleBuffList": [
+      {
+        "id": 84100055,
+        "weight": 1
+      },
+      {
+        "id": 84100056,
+        "weight": 1
+      },
+      {
+        "id": 84100054,
+        "weight": 1
+      }
+    ],
+    "foodPrefab": "Home/Prefabs/Ramen",
+    "playerAni": [
+      {
+        "animation": 80300205
+      },
+      {
+        "animation": 80300205
+      },
+      {
+        "animation": 80300205
+      },
+      {
+        "animation": 80300205
+      },
+      {
+        "animation": 80300205
+      },
+      {
+        "animation": 80300205
+      }
+    ],
+    "isPickFood": false,
+    "foodName": "",
+    "npcList": [],
+    "performFurnitureList": [],
+    "bgmPlay": -1
+  },
+  {
+    "id": 83300053,
+    "idCN": "拉面店/单人餐/天妇罗乌冬",
+    "mod": "炸鸡店套餐",
+    "isInformalData": false,
+    "name": "天妇罗乌冬",
+    "foodImagePath": "Item/Food/Ramen/SingleTianfuluoUdon",
+    "foodSettlementImagePath": "UI/HomeKeepFastFood/Settlement/TianfuluoUdon",
+    "des": "只有葱和海鲜汤，海鲜汤由虾，柴鱼等熬制而成",
+    "trust": 30,
+    "PriceIndex": 1.37,
+    "mealTypeNum": 1,
+    "cost": [
+      {
+        "id": 11400001,
+        "num": 660
+      }
+    ],
+    "foodRes": "Home/Furniture/3D/Prefabs/SingleLowCombo",
+    "iconBuffDesMember": "UI/HomeKeepFastFood/IconTrust",
+    "numBuffDesMember": 80601566,
+    "tipBuffDesMember": 80601571,
+    "memberTrust": [
+      {
+        "buff": 84100015,
+        "id": 10000059,
+        "like": 12600379
+      },
+      {
+        "buff": 84100015,
+        "id": 10000069,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000054,
+        "like": 12600380
+      },
+      {
+        "buff": 84100016,
+        "id": 10000004,
+        "like": 12600380
+      },
+      {
+        "buff": 84100013,
+        "id": 10000352,
+        "like": 12600377
+      },
+      {
+        "buff": 84100013,
+        "id": 10000298,
+        "like": 12600377
+      },
+      {
+        "buff": 84100014,
+        "id": 10000055,
+        "like": 12600378
+      },
+      {
+        "buff": 84100015,
+        "id": 10000068,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000335,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000063,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000071,
+        "like": 12600380
+      },
+      {
+        "buff": 84100013,
+        "id": 10000153,
+        "like": 12600377
+      },
+      {
+        "buff": 84100016,
+        "id": 10000111,
+        "like": 12600380
+      },
+      {
+        "buff": 84100017,
+        "id": 10000060,
+        "like": 12600381
+      },
+      {
+        "buff": 84100017,
+        "id": 10000414,
+        "like": 12600381
+      },
+      {
+        "buff": 84100015,
+        "id": 10000409,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000062,
+        "like": 12600380
+      },
+      {
+        "buff": 84100014,
+        "id": 10000110,
+        "like": 12600378
+      },
+      {
+        "buff": 84100015,
+        "id": 10000160,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000134,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000157,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000025,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000389,
+        "like": 12600379
+      },
+      {
+        "buff": 84100017,
+        "id": 10000300,
+        "like": 12600381
+      },
+      {
+        "buff": 84100017,
+        "id": 10000065,
+        "like": 12600381
+      },
+      {
+        "buff": 84100015,
+        "id": 10000156,
+        "like": 12600379
+      },
+      {
+        "buff": 84100017,
+        "id": 10000154,
+        "like": 12600381
+      },
+      {
+        "buff": 84100016,
+        "id": 10000095,
+        "like": 12600380
+      },
+      {
+        "buff": 84100013,
+        "id": 10000408,
+        "like": 12600377
+      },
+      {
+        "buff": 84100013,
+        "id": 10000064,
+        "like": 12600377
+      },
+      {
+        "buff": 84100015,
+        "id": 10000047,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000299,
+        "like": 12600380
+      },
+      {
+        "buff": 84100013,
+        "id": 10000170,
+        "like": 12600377
+      },
+      {
+        "buff": 84100016,
+        "id": 10000027,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000388,
+        "like": 12600379
+      },
+      {
+        "buff": 84100013,
+        "id": 10000051,
+        "like": 12600377
+      },
+      {
+        "buff": 84100016,
+        "id": 10000387,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000112,
+        "like": 12600379
+      },
+      {
+        "buff": 84100015,
+        "id": 10000053,
+        "like": 12600379
+      },
+      {
+        "buff": 84100013,
+        "id": 10000101,
+        "like": 12600377
+      },
+      {
+        "buff": 84100015,
+        "id": 10000124,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000139,
+        "like": 12600380
+      },
+      {
+        "buff": 84100017,
+        "id": 10000739,
+        "like": 12600381
+      },
+      {
+        "buff": 84100015,
+        "id": 10000032,
+        "like": 12600379
+      },
+      {
+        "buff": 84100014,
+        "id": 10000035,
+        "like": 12600378
+      },
+      {
+        "buff": 84100014,
+        "id": 10000031,
+        "like": 12600378
+      },
+      {
+        "buff": 84100014,
+        "id": 10000034,
+        "like": 12600378
+      },
+      {
+        "buff": 84100014,
+        "id": 10000052,
+        "like": 12600378
+      },
+      {
+        "buff": 84100017,
+        "id": 10000412,
+        "like": 12600381
+      },
+      {
+        "buff": 84100017,
+        "id": 10000297,
+        "like": 12600381
+      },
+      {
+        "buff": 84100015,
+        "id": 10000072,
+        "like": 12600379
+      },
+      {
+        "buff": 84100017,
+        "id": 10000094,
+        "like": 12600381
+      },
+      {
+        "buff": 84100013,
+        "id": 10000145,
+        "like": 12600377
+      }
+    ],
+    "iconBuffDesLCZ": "UI/HomeKeepFastFood/IconBuffLCZ",
+    "numBuffDesLCZ": 80601567,
+    "tipBuffDesLCZ": 80601572,
+    "speed": [
+      {
+        "id": 84100002,
+        "weight": 1
+      },
+      {
+        "id": 84100018,
+        "weight": 1
+      }
+    ],
+    "battleBuffList": [
+      {
+        "id": 84100077,
+        "weight": 1
+      },
+      {
+        "id": 84100072,
+        "weight": 1
+      },
+      {
+        "id": 84100071,
+        "weight": 1
+      },
+      {
+        "id": 84100076,
+        "weight": 1
+      },
+      {
+        "id": 84100070,
+        "weight": 1
+      },
+      {
+        "id": 84100073,
+        "weight": 1
+      },
+      {
+        "id": 84100074,
+        "weight": 1
+      },
+      {
+        "id": 84100075,
+        "weight": 1
+      }
+    ],
+    "foodPrefab": "Home/Prefabs/Ramen",
+    "playerAni": [
+      {
+        "animation": 80300205
+      },
+      {
+        "animation": 80300205
+      }
+    ],
+    "isPickFood": false,
+    "foodName": "",
+    "npcList": [],
+    "performFurnitureList": [],
+    "bgmPlay": -1
+  },
+  {
+    "id": 83300054,
+    "idCN": "拉面店/团队餐/天妇罗乌冬",
+    "mod": "炸鸡店套餐",
+    "isInformalData": false,
+    "name": "天妇罗乌冬",
+    "foodImagePath": "Item/Food/Ramen/TeamTianfuluoUdon",
+    "foodSettlementImagePath": "UI/HomeKeepFastFood/Settlement/TianfuluoUdon",
+    "des": "只有葱和海鲜汤，海鲜汤由虾，柴鱼等熬制而成",
+    "trust": 30,
+    "PriceIndex": 1.37,
+    "mealTypeNum": 5,
+    "cost": [
+      {
+        "id": 11400001,
+        "num": 660
+      }
+    ],
+    "foodRes": "Home/Furniture/3D/Prefabs/SingleLowCombo",
+    "iconBuffDesMember": "UI/HomeKeepFastFood/IconTrust",
+    "numBuffDesMember": 80601566,
+    "tipBuffDesMember": 80601571,
+    "memberTrust": [
+      {
+        "buff": 84100015,
+        "id": 10000059,
+        "like": 12600379
+      },
+      {
+        "buff": 84100015,
+        "id": 10000069,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000054,
+        "like": 12600380
+      },
+      {
+        "buff": 84100016,
+        "id": 10000004,
+        "like": 12600380
+      },
+      {
+        "buff": 84100013,
+        "id": 10000352,
+        "like": 12600377
+      },
+      {
+        "buff": 84100013,
+        "id": 10000298,
+        "like": 12600377
+      },
+      {
+        "buff": 84100014,
+        "id": 10000055,
+        "like": 12600378
+      },
+      {
+        "buff": 84100015,
+        "id": 10000068,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000335,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000063,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000071,
+        "like": 12600380
+      },
+      {
+        "buff": 84100013,
+        "id": 10000153,
+        "like": 12600377
+      },
+      {
+        "buff": 84100016,
+        "id": 10000111,
+        "like": 12600380
+      },
+      {
+        "buff": 84100017,
+        "id": 10000060,
+        "like": 12600381
+      },
+      {
+        "buff": 84100017,
+        "id": 10000414,
+        "like": 12600381
+      },
+      {
+        "buff": 84100015,
+        "id": 10000409,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000062,
+        "like": 12600380
+      },
+      {
+        "buff": 84100014,
+        "id": 10000110,
+        "like": 12600378
+      },
+      {
+        "buff": 84100015,
+        "id": 10000160,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000134,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000157,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000025,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000389,
+        "like": 12600379
+      },
+      {
+        "buff": 84100017,
+        "id": 10000300,
+        "like": 12600381
+      },
+      {
+        "buff": 84100017,
+        "id": 10000065,
+        "like": 12600381
+      },
+      {
+        "buff": 84100015,
+        "id": 10000156,
+        "like": 12600379
+      },
+      {
+        "buff": 84100017,
+        "id": 10000154,
+        "like": 12600381
+      },
+      {
+        "buff": 84100016,
+        "id": 10000095,
+        "like": 12600380
+      },
+      {
+        "buff": 84100013,
+        "id": 10000408,
+        "like": 12600377
+      },
+      {
+        "buff": 84100013,
+        "id": 10000064,
+        "like": 12600377
+      },
+      {
+        "buff": 84100015,
+        "id": 10000047,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000299,
+        "like": 12600380
+      },
+      {
+        "buff": 84100013,
+        "id": 10000170,
+        "like": 12600377
+      },
+      {
+        "buff": 84100016,
+        "id": 10000027,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000388,
+        "like": 12600379
+      },
+      {
+        "buff": 84100013,
+        "id": 10000051,
+        "like": 12600377
+      },
+      {
+        "buff": 84100016,
+        "id": 10000387,
+        "like": 12600380
+      },
+      {
+        "buff": 84100015,
+        "id": 10000112,
+        "like": 12600379
+      },
+      {
+        "buff": 84100015,
+        "id": 10000053,
+        "like": 12600379
+      },
+      {
+        "buff": 84100013,
+        "id": 10000101,
+        "like": 12600377
+      },
+      {
+        "buff": 84100015,
+        "id": 10000124,
+        "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10000139,
+        "like": 12600380
+      },
+      {
+        "buff": 84100017,
+        "id": 10000739,
+        "like": 12600381
+      },
+      {
+        "buff": 84100015,
+        "id": 10000032,
+        "like": 12600379
+      },
+      {
+        "buff": 84100014,
+        "id": 10000035,
+        "like": 12600378
+      },
+      {
+        "buff": 84100014,
+        "id": 10000031,
+        "like": 12600378
+      },
+      {
+        "buff": 84100014,
+        "id": 10000034,
+        "like": 12600378
+      },
+      {
+        "buff": 84100014,
+        "id": 10000052,
+        "like": 12600378
+      },
+      {
+        "buff": 84100017,
+        "id": 10000412,
+        "like": 12600381
+      },
+      {
+        "buff": 84100017,
+        "id": 10000297,
+        "like": 12600381
+      },
+      {
+        "buff": 84100015,
+        "id": 10000072,
+        "like": 12600379
+      },
+      {
+        "buff": 84100017,
+        "id": 10000094,
+        "like": 12600381
+      },
+      {
+        "buff": 84100013,
+        "id": 10000145,
+        "like": 12600377
+      }
+    ],
+    "iconBuffDesLCZ": "UI/HomeKeepFastFood/IconBuffLCZ",
+    "numBuffDesLCZ": 80601567,
+    "tipBuffDesLCZ": 80601572,
+    "speed": [
+      {
+        "id": 84100002,
+        "weight": 1
+      },
+      {
+        "id": 84100018,
+        "weight": 1
+      }
+    ],
+    "battleBuffList": [
+      {
+        "id": 84100077,
+        "weight": 1
+      },
+      {
+        "id": 84100072,
+        "weight": 1
+      },
+      {
+        "id": 84100071,
+        "weight": 1
+      },
+      {
+        "id": 84100076,
+        "weight": 1
+      },
+      {
+        "id": 84100070,
+        "weight": 1
+      },
+      {
+        "id": 84100073,
+        "weight": 1
+      },
+      {
+        "id": 84100074,
+        "weight": 1
+      },
+      {
+        "id": 84100075,
+        "weight": 1
+      }
+    ],
+    "foodPrefab": "Home/Prefabs/Ramen",
+    "playerAni": [
+      {
+        "animation": 80300205
+      },
+      {
+        "animation": 80300205
+      },
+      {
+        "animation": 80300205
+      },
+      {
+        "animation": 80300205
+      },
       {
         "animation": 80300205
       },
