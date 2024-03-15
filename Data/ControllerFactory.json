@@ -12879,8 +12879,12 @@
         "rangeSN": -10000
       }
     ],
-    "isInvisibleBeforeShowUp": false,
-    "showupSkillList": [],
+    "isInvisibleBeforeShowUp": true,
+    "showupSkillList": [
+      {
+        "actionId": 10102730
+      }
+    ],
     "skillLoopDelayFrame": 360,
     "shapeShiftList": [],
     "commandList": [],
@@ -12897,5 +12901,58 @@
     "isSkillDelay": false,
     "minDelay": 120,
     "maxDelay": 360
+  },
+  {
+    "id": 10300315,
+    "idCN": "敌方/000角色/铁盟/静流共振2",
+    "mod": "卡牌AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": -1,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10102692
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10102691,
+        "activeFrame": 360,
+        "activeTime": 6.0,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10102690,
+        "activeFrame": 900,
+        "activeTime": 15.0,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10102691,
+        "activeFrame": 1320,
+        "activeTime": 22.0,
+        "rangeSN": -10000
+      }
+    ],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [],
+    "skillLoopDelayFrame": 360,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": true,
+    "energySkillList": [
+      {
+        "actionId": 10102688,
+        "isClearEnergy": true,
+        "rangeSN": -10000
+      }
+    ],
+    "energyRestorePerFrameSN": 320,
+    "isSkillDelay": true,
+    "minDelay": 60,
+    "maxDelay": 180
   }
 ]

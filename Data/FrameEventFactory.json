@@ -6404,11 +6404,28 @@
     "idCN": "我方/45装备/固定词条/雷球",
     "mod": "子弹事件",
     "isInformalData": false,
-    "buffId": 10405465,
+    "buffId": -1,
     "bulletId": 11200297,
     "targetType": "CurrentTarget",
     "offSetX_SN": 0,
-    "offSetZ_SN": 0
+    "offSetZ_SN": 0,
+    "isUseTargetFilter": false,
+    "targetFilterType": "Ally",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 0,
+    "attributeType": "HpMax",
+    "condition": "Max",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 0
   },
   {
     "id": 10501192,
@@ -19043,5 +19060,19 @@
     "filterPosition": "DefaultPos",
     "isAimSelf": false,
     "targetCount": 0
+  },
+  {
+    "id": 10501891,
+    "idCN": "敌方/000角色/铁盟/静流/共振1",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10409098
+  },
+  {
+    "id": 10501892,
+    "idCN": "敌方/000角色/铁盟/静流/觉醒1",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10409040
   }
 ]
