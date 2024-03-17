@@ -1,0 +1,1 @@
+RegProperty("HomeTemplateFactory", {})

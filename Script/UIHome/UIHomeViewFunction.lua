@@ -1,0 +1,2 @@
+local ViewFunction = {}
+return ViewFunction
