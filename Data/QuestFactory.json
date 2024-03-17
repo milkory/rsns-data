@@ -70971,8 +70971,11 @@
     "mod": "活动任务",
     "isInformalData": false,
     "name": "阶段1",
-    "story": "【红茶战争】期间，成功交易60箱【红茶】",
+    "story": "【红茶战争】期间，成功交易30箱【红茶】",
     "describe": "",
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
     "questType": "Activity",
     "sort": 99,
     "isSwitchUI": false,
@@ -70983,26 +70986,34 @@
         "val": "82900046"
       }
     ],
-    "num": 60,
+    "num": 30,
     "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "parentQuest": -1,
+    "childQuestList": [],
     "rewardsList": [
+      {
+        "id": 11400231,
+        "num": 100
+      },
       {
         "id": 11400005,
         "num": 50
-      },
-      {
-        "id": 11400045,
-        "num": 2
       }
     ],
     "startStation": -1,
     "endStationList": [],
+    "client": -1,
+    "chapterId": -1,
+    "playerLevel": 1,
     "nextQuest": [],
     "changeCityStateList": [],
     "isEvent": false,
     "isOverwriteEvent": false,
     "eventList": [],
     "environmentList": [],
+    "traceList": [],
     "isTime": true,
     "startTime": "2024-01-01 00:00:00",
     "endTime": "2024-04-01 00:00:00",
@@ -71035,7 +71046,7 @@
     ],
     "num": 80000,
     "islockAddProgress": false,
-    "isAutoComplete": true,
+    "isAutoComplete": false,
     "checkComplete": false,
     "parentQuest": -1,
     "childQuestList": [],
@@ -71097,7 +71108,7 @@
     ],
     "num": 200000,
     "islockAddProgress": false,
-    "isAutoComplete": true,
+    "isAutoComplete": false,
     "checkComplete": false,
     "parentQuest": -1,
     "childQuestList": [],
@@ -71140,9 +71151,6 @@
     "name": "成就3",
     "story": "累计利润达到",
     "describe": "",
-    "isShowProgress": false,
-    "isShowUnlock": false,
-    "isShowAchieveProgress": false,
     "questType": "Activity",
     "sort": 99,
     "isSwitchUI": false,
@@ -71159,10 +71167,6 @@
     ],
     "num": 500000,
     "islockAddProgress": false,
-    "isAutoComplete": true,
-    "checkComplete": false,
-    "parentQuest": -1,
-    "childQuestList": [],
     "rewardsList": [
       {
         "id": 11400231,
@@ -71173,7 +71177,234 @@
         "num": 1
       },
       {
-        "id": 11400082,
+        "id": 86300001,
+        "num": 1
+      }
+    ],
+    "startStation": -1,
+    "endStationList": [],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "2024-01-01 00:00:00",
+    "endTime": "2024-04-01 00:00:00",
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "client": -1,
+    "chapterId": -1,
+    "playerLevel": 1,
+    "traceList": [],
+    "rewardsCard": 11400082
+  },
+  {
+    "id": 81000089,
+    "idCN": "活动/红茶战争/个人阶段奖励/阶段2",
+    "mod": "活动任务",
+    "isInformalData": false,
+    "name": "阶段2",
+    "story": "【红茶战争】期间，成功交易60箱【红茶】",
+    "describe": "",
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "questType": "Activity",
+    "sort": 99,
+    "isSwitchUI": false,
+    "switchUI": "UI/",
+    "conditionList": [
+      {
+        "key": "sellItem",
+        "val": "82900046"
+      }
+    ],
+    "num": 60,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400231,
+        "num": 100
+      },
+      {
+        "id": 11400005,
+        "num": 50
+      }
+    ],
+    "startStation": -1,
+    "endStationList": [],
+    "client": -1,
+    "chapterId": -1,
+    "playerLevel": 1,
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "traceList": [],
+    "isTime": true,
+    "startTime": "2024-01-01 00:00:00",
+    "endTime": "2024-04-01 00:00:00",
+    "rewardsCard": -1
+  },
+  {
+    "id": 81000092,
+    "idCN": "活动/红茶战争/个人阶段奖励/阶段3",
+    "mod": "活动任务",
+    "isInformalData": false,
+    "name": "阶段3",
+    "story": "【红茶战争】期间，成功交易90箱【红茶】",
+    "describe": "",
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "questType": "Activity",
+    "sort": 99,
+    "isSwitchUI": false,
+    "switchUI": "UI/",
+    "conditionList": [
+      {
+        "key": "sellItem",
+        "val": "82900046"
+      }
+    ],
+    "num": 90,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400231,
+        "num": 100
+      },
+      {
+        "id": 11400005,
+        "num": 50
+      }
+    ],
+    "startStation": -1,
+    "endStationList": [],
+    "client": -1,
+    "chapterId": -1,
+    "playerLevel": 1,
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "traceList": [],
+    "isTime": true,
+    "startTime": "2024-01-01 00:00:00",
+    "endTime": "2024-04-01 00:00:00",
+    "rewardsCard": -1
+  },
+  {
+    "id": 81000105,
+    "idCN": "活动/红茶战争/个人阶段奖励/阶段4",
+    "mod": "活动任务",
+    "isInformalData": false,
+    "name": "阶段4",
+    "story": "【红茶战争】期间，成功交易150箱【红茶】",
+    "describe": "",
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "questType": "Activity",
+    "sort": 99,
+    "isSwitchUI": false,
+    "switchUI": "UI/",
+    "conditionList": [
+      {
+        "key": "sellItem",
+        "val": "82900046"
+      }
+    ],
+    "num": 150,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400231,
+        "num": 100
+      },
+      {
+        "id": 11400005,
+        "num": 50
+      }
+    ],
+    "startStation": -1,
+    "endStationList": [],
+    "client": -1,
+    "chapterId": -1,
+    "playerLevel": 1,
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "traceList": [],
+    "isTime": true,
+    "startTime": "2024-01-01 00:00:00",
+    "endTime": "2024-04-01 00:00:00",
+    "rewardsCard": -1
+  },
+  {
+    "id": 81000106,
+    "idCN": "活动/红茶战争/个人阶段奖励/阶段5",
+    "mod": "活动任务",
+    "isInformalData": false,
+    "name": "阶段5",
+    "story": "【红茶战争】期间，成功交易240箱【红茶】",
+    "describe": "",
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "questType": "Activity",
+    "sort": 99,
+    "isSwitchUI": false,
+    "switchUI": "UI/",
+    "conditionList": [
+      {
+        "key": "sellItem",
+        "val": "82900046"
+      }
+    ],
+    "num": 240,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400231,
+        "num": 100
+      },
+      {
+        "id": 11400005,
+        "num": 50
+      },
+      {
+        "id": 86300001,
         "num": 1
       }
     ],
@@ -71189,186 +71420,6 @@
     "eventList": [],
     "environmentList": [],
     "traceList": [],
-    "isTime": false,
-    "startTime": "2024-01-01 00:00:00",
-    "endTime": "2024-04-01 00:00:00",
-    "rewardsCard": 11400082
-  },
-  {
-    "id": 81000089,
-    "idCN": "活动/红茶战争/个人阶段奖励/阶段2",
-    "mod": "活动任务",
-    "isInformalData": false,
-    "name": "阶段1",
-    "story": "【红茶战争】期间，成功交易150箱【红茶】",
-    "describe": "",
-    "questType": "Activity",
-    "sort": 99,
-    "isSwitchUI": false,
-    "switchUI": "UI/",
-    "conditionList": [
-      {
-        "key": "sellItem",
-        "val": "82900046"
-      }
-    ],
-    "num": 150,
-    "islockAddProgress": false,
-    "rewardsList": [
-      {
-        "id": 11400005,
-        "num": 50
-      },
-      {
-        "id": 11400045,
-        "num": 2
-      }
-    ],
-    "startStation": -1,
-    "endStationList": [],
-    "nextQuest": [],
-    "changeCityStateList": [],
-    "isEvent": false,
-    "isOverwriteEvent": false,
-    "eventList": [],
-    "environmentList": [],
-    "isTime": true,
-    "startTime": "2024-01-01 00:00:00",
-    "endTime": "2024-04-01 00:00:00",
-    "rewardsCard": -1
-  },
-  {
-    "id": 81000092,
-    "idCN": "活动/红茶战争/个人阶段奖励/阶段3",
-    "mod": "活动任务",
-    "isInformalData": false,
-    "name": "阶段1",
-    "story": "【红茶战争】期间，成功交易300箱【红茶】",
-    "describe": "",
-    "questType": "Activity",
-    "sort": 99,
-    "isSwitchUI": false,
-    "switchUI": "UI/",
-    "conditionList": [
-      {
-        "key": "sellItem",
-        "val": "82900046"
-      }
-    ],
-    "num": 300,
-    "islockAddProgress": false,
-    "rewardsList": [
-      {
-        "id": 11400005,
-        "num": 50
-      },
-      {
-        "id": 11400045,
-        "num": 2
-      },
-      {
-        "id": 11400057,
-        "num": 1
-      }
-    ],
-    "startStation": -1,
-    "endStationList": [],
-    "nextQuest": [],
-    "changeCityStateList": [],
-    "isEvent": false,
-    "isOverwriteEvent": false,
-    "eventList": [],
-    "environmentList": [],
-    "isTime": true,
-    "startTime": "2024-01-01 00:00:00",
-    "endTime": "2024-04-01 00:00:00",
-    "rewardsCard": -1
-  },
-  {
-    "id": 81000105,
-    "idCN": "活动/红茶战争/个人阶段奖励/阶段4",
-    "mod": "活动任务",
-    "isInformalData": false,
-    "name": "阶段1",
-    "story": "【红茶战争】期间，成功交易600箱【红茶】",
-    "describe": "",
-    "questType": "Activity",
-    "sort": 99,
-    "isSwitchUI": false,
-    "switchUI": "UI/",
-    "conditionList": [
-      {
-        "key": "sellItem",
-        "val": "82900046"
-      }
-    ],
-    "num": 600,
-    "islockAddProgress": false,
-    "rewardsList": [
-      {
-        "id": 11400005,
-        "num": 50
-      },
-      {
-        "id": 11400045,
-        "num": 2
-      }
-    ],
-    "startStation": -1,
-    "endStationList": [],
-    "nextQuest": [],
-    "changeCityStateList": [],
-    "isEvent": false,
-    "isOverwriteEvent": false,
-    "eventList": [],
-    "environmentList": [],
-    "isTime": true,
-    "startTime": "2024-01-01 00:00:00",
-    "endTime": "2024-04-01 00:00:00",
-    "rewardsCard": -1
-  },
-  {
-    "id": 81000106,
-    "idCN": "活动/红茶战争/个人阶段奖励/阶段5",
-    "mod": "活动任务",
-    "isInformalData": false,
-    "name": "阶段1",
-    "story": "【红茶战争】期间，成功交易1500箱【红茶】",
-    "describe": "",
-    "questType": "Activity",
-    "sort": 99,
-    "isSwitchUI": false,
-    "switchUI": "UI/",
-    "conditionList": [
-      {
-        "key": "sellItem",
-        "val": "82900046"
-      }
-    ],
-    "num": 1500,
-    "islockAddProgress": false,
-    "rewardsList": [
-      {
-        "id": 11400005,
-        "num": 100
-      },
-      {
-        "id": 11400045,
-        "num": 2
-      },
-      {
-        "id": 11400046,
-        "num": 1
-      }
-    ],
-    "startStation": -1,
-    "endStationList": [],
-    "nextQuest": [],
-    "changeCityStateList": [],
-    "isEvent": false,
-    "isOverwriteEvent": false,
-    "eventList": [],
-    "environmentList": [],
     "isTime": true,
     "startTime": "2024-01-01 00:00:00",
     "endTime": "2024-04-01 00:00:00",
@@ -71380,8 +71431,11 @@
     "mod": "活动任务",
     "isInformalData": false,
     "name": "阶段1",
-    "story": "【红茶战争】期间，【红茶】总销量达到3000000箱",
+    "story": "【红茶战争】期间，【红茶】总销量达到12000000箱",
     "describe": "",
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
     "questType": "Activity",
     "sort": 99,
     "isSwitchUI": false,
@@ -71396,26 +71450,38 @@
         "val": "0"
       }
     ],
-    "num": 3000000,
+    "num": 12000000,
     "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "parentQuest": -1,
+    "childQuestList": [],
     "rewardsList": [
       {
-        "id": 11400005,
-        "num": 50
+        "id": 11400231,
+        "num": 100
       },
       {
-        "id": 11400045,
-        "num": 2
+        "id": 11400066,
+        "num": 1
+      },
+      {
+        "id": 11400067,
+        "num": 1
       }
     ],
     "startStation": -1,
     "endStationList": [],
+    "client": -1,
+    "chapterId": -1,
+    "playerLevel": 1,
     "nextQuest": [],
     "changeCityStateList": [],
     "isEvent": false,
     "isOverwriteEvent": false,
     "eventList": [],
     "environmentList": [],
+    "traceList": [],
     "isTime": true,
     "startTime": "2024-01-01 00:00:00",
     "endTime": "2024-04-01 00:00:00",
@@ -71426,9 +71492,12 @@
     "idCN": "活动/红茶战争/全服阶段奖励/阶段2",
     "mod": "活动任务",
     "isInformalData": false,
-    "name": "阶段1",
-    "story": "【红茶战争】期间，【红茶】总销量达到7500000箱",
+    "name": "阶段2",
+    "story": "【红茶战争】期间，【红茶】总销量达到24000000箱",
     "describe": "",
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
     "questType": "Activity",
     "sort": 99,
     "isSwitchUI": false,
@@ -71443,26 +71512,38 @@
         "val": "0"
       }
     ],
-    "num": 7500000,
+    "num": 24000000,
     "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "parentQuest": -1,
+    "childQuestList": [],
     "rewardsList": [
       {
-        "id": 11400005,
-        "num": 50
+        "id": 11400231,
+        "num": 100
       },
       {
-        "id": 11400045,
-        "num": 2
+        "id": 11400066,
+        "num": 1
+      },
+      {
+        "id": 11400067,
+        "num": 1
       }
     ],
     "startStation": -1,
     "endStationList": [],
+    "client": -1,
+    "chapterId": -1,
+    "playerLevel": 1,
     "nextQuest": [],
     "changeCityStateList": [],
     "isEvent": false,
     "isOverwriteEvent": false,
     "eventList": [],
     "environmentList": [],
+    "traceList": [],
     "isTime": true,
     "startTime": "2024-01-01 00:00:00",
     "endTime": "2024-04-01 00:00:00",
@@ -71473,9 +71554,12 @@
     "idCN": "活动/红茶战争/全服阶段奖励/阶段3",
     "mod": "活动任务",
     "isInformalData": false,
-    "name": "阶段1",
-    "story": "【红茶战争】期间，【红茶】总销量达到15000000箱",
+    "name": "阶段3",
+    "story": "【红茶战争】期间，【红茶】总销量达到60000000箱",
     "describe": "",
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
     "questType": "Activity",
     "sort": 99,
     "isSwitchUI": false,
@@ -71490,26 +71574,38 @@
         "val": "0"
       }
     ],
-    "num": 15000000,
+    "num": 60000000,
     "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "parentQuest": -1,
+    "childQuestList": [],
     "rewardsList": [
       {
-        "id": 11400005,
-        "num": 50
+        "id": 11400231,
+        "num": 100
       },
       {
-        "id": 11400045,
-        "num": 2
+        "id": 11400066,
+        "num": 1
+      },
+      {
+        "id": 86300001,
+        "num": 1
       }
     ],
     "startStation": -1,
     "endStationList": [],
+    "client": -1,
+    "chapterId": -1,
+    "playerLevel": 1,
     "nextQuest": [],
     "changeCityStateList": [],
     "isEvent": false,
     "isOverwriteEvent": false,
     "eventList": [],
     "environmentList": [],
+    "traceList": [],
     "isTime": true,
     "startTime": "2024-01-01 00:00:00",
     "endTime": "2024-04-01 00:00:00",
@@ -71520,9 +71616,12 @@
     "idCN": "活动/红茶战争/全服阶段奖励/阶段4",
     "mod": "活动任务",
     "isInformalData": false,
-    "name": "阶段1",
-    "story": "【红茶战争】期间，【红茶】总销量达到30000000箱",
+    "name": "阶段4",
+    "story": "【红茶战争】期间，【红茶】总销量达到120000000箱",
     "describe": "",
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
     "questType": "Activity",
     "sort": 99,
     "isSwitchUI": false,
@@ -71537,26 +71636,38 @@
         "val": "0"
       }
     ],
-    "num": 30000000,
+    "num": 120000000,
     "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "parentQuest": -1,
+    "childQuestList": [],
     "rewardsList": [
       {
-        "id": 11400005,
-        "num": 50
+        "id": 11400231,
+        "num": 100
       },
       {
-        "id": 11400045,
-        "num": 2
+        "id": 11400066,
+        "num": 1
+      },
+      {
+        "id": 11400067,
+        "num": 1
       }
     ],
     "startStation": -1,
     "endStationList": [],
+    "client": -1,
+    "chapterId": -1,
+    "playerLevel": 1,
     "nextQuest": [],
     "changeCityStateList": [],
     "isEvent": false,
     "isOverwriteEvent": false,
     "eventList": [],
     "environmentList": [],
+    "traceList": [],
     "isTime": true,
     "startTime": "2024-01-01 00:00:00",
     "endTime": "2024-04-01 00:00:00",
@@ -71567,9 +71678,12 @@
     "idCN": "活动/红茶战争/全服阶段奖励/阶段5",
     "mod": "活动任务",
     "isInformalData": false,
-    "name": "阶段1",
-    "story": "【红茶战争】期间，【红茶】总销量达到75000000箱",
+    "name": "阶段5",
+    "story": "【红茶战争】期间，【红茶】总销量达到240000000箱",
     "describe": "",
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
     "questType": "Activity",
     "sort": 99,
     "isSwitchUI": false,
@@ -71584,26 +71698,38 @@
         "val": "0"
       }
     ],
-    "num": 75000000,
+    "num": 240000000,
     "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "parentQuest": -1,
+    "childQuestList": [],
     "rewardsList": [
       {
-        "id": 11400005,
+        "id": 11400231,
         "num": 100
       },
       {
-        "id": 11400045,
-        "num": 2
+        "id": 11400066,
+        "num": 1
+      },
+      {
+        "id": 11400067,
+        "num": 1
       }
     ],
     "startStation": -1,
     "endStationList": [],
+    "client": -1,
+    "chapterId": -1,
+    "playerLevel": 1,
     "nextQuest": [],
     "changeCityStateList": [],
     "isEvent": false,
     "isOverwriteEvent": false,
     "eventList": [],
     "environmentList": [],
+    "traceList": [],
     "isTime": true,
     "startTime": "2024-01-01 00:00:00",
     "endTime": "2024-04-01 00:00:00",
@@ -71636,7 +71762,7 @@
     ],
     "num": 20000,
     "islockAddProgress": false,
-    "isAutoComplete": true,
+    "isAutoComplete": false,
     "checkComplete": false,
     "parentQuest": -1,
     "childQuestList": [],
@@ -71698,7 +71824,7 @@
     ],
     "num": 50000,
     "islockAddProgress": false,
-    "isAutoComplete": true,
+    "isAutoComplete": false,
     "checkComplete": false,
     "parentQuest": -1,
     "childQuestList": [],
@@ -71741,9 +71867,6 @@
     "name": "成就6",
     "story": "单笔利润达到",
     "describe": "",
-    "isShowProgress": false,
-    "isShowUnlock": false,
-    "isShowAchieveProgress": false,
     "questType": "Activity",
     "sort": 99,
     "isSwitchUI": false,
@@ -71760,10 +71883,6 @@
     ],
     "num": 100000,
     "islockAddProgress": false,
-    "isAutoComplete": true,
-    "checkComplete": false,
-    "parentQuest": -1,
-    "childQuestList": [],
     "rewardsList": [
       {
         "id": 11400231,
@@ -71774,25 +71893,32 @@
         "num": 1
       },
       {
-        "id": 11400082,
+        "id": 86300001,
         "num": 1
       }
     ],
     "startStation": -1,
     "endStationList": [],
-    "client": -1,
-    "chapterId": -1,
-    "playerLevel": 1,
     "nextQuest": [],
     "changeCityStateList": [],
     "isEvent": false,
     "isOverwriteEvent": false,
     "eventList": [],
     "environmentList": [],
-    "traceList": [],
     "isTime": false,
     "startTime": "2024-01-01 00:00:00",
     "endTime": "2024-04-01 00:00:00",
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "client": -1,
+    "chapterId": -1,
+    "playerLevel": 1,
+    "traceList": [],
     "rewardsCard": 11400233
   },
   {
@@ -71818,7 +71944,7 @@
     ],
     "num": 1,
     "islockAddProgress": false,
-    "isAutoComplete": true,
+    "isAutoComplete": false,
     "checkComplete": false,
     "parentQuest": -1,
     "childQuestList": [],
@@ -71861,9 +71987,6 @@
     "name": "击败鼹鼠",
     "story": "击败【鼹鼠】",
     "describe": "",
-    "isShowProgress": false,
-    "isShowUnlock": false,
-    "isShowAchieveProgress": false,
     "questType": "Activity",
     "sort": 99,
     "isSwitchUI": false,
@@ -71876,35 +71999,38 @@
     ],
     "num": 1,
     "islockAddProgress": false,
-    "isAutoComplete": true,
-    "checkComplete": false,
-    "parentQuest": -1,
-    "childQuestList": [],
     "rewardsList": [
       {
         "id": 11400231,
         "num": 200
       },
       {
-        "id": 11400082,
+        "id": 86300001,
         "num": 1
       }
     ],
     "startStation": -1,
     "endStationList": [],
-    "client": -1,
-    "chapterId": -1,
-    "playerLevel": 1,
     "nextQuest": [],
     "changeCityStateList": [],
     "isEvent": false,
     "isOverwriteEvent": false,
     "eventList": [],
     "environmentList": [],
-    "traceList": [],
     "isTime": false,
     "startTime": "2024-01-01 00:00:00",
     "endTime": "2024-04-01 00:00:00",
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "client": -1,
+    "chapterId": -1,
+    "playerLevel": 1,
+    "traceList": [],
     "rewardsCard": 11400234
   },
   {
@@ -71915,9 +72041,6 @@
     "name": "击败混厄石芝",
     "story": "击败【混厄石芝】",
     "describe": "",
-    "isShowProgress": false,
-    "isShowUnlock": false,
-    "isShowAchieveProgress": false,
     "questType": "Activity",
     "sort": 99,
     "isSwitchUI": false,
@@ -71930,10 +72053,6 @@
     ],
     "num": 1,
     "islockAddProgress": false,
-    "isAutoComplete": true,
-    "checkComplete": false,
-    "parentQuest": -1,
-    "childQuestList": [],
     "rewardsList": [
       {
         "id": 11400231,
@@ -71944,35 +72063,42 @@
         "num": 100
       },
       {
-        "id": 11400082,
+        "id": 86300001,
         "num": 1
       }
     ],
     "startStation": -1,
     "endStationList": [],
-    "client": -1,
-    "chapterId": -1,
-    "playerLevel": 1,
     "nextQuest": [],
     "changeCityStateList": [],
     "isEvent": false,
     "isOverwriteEvent": false,
     "eventList": [],
     "environmentList": [],
-    "traceList": [],
     "isTime": false,
     "startTime": "2024-01-01 00:00:00",
     "endTime": "2024-04-01 00:00:00",
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "client": -1,
+    "chapterId": -1,
+    "playerLevel": 1,
+    "traceList": [],
     "rewardsCard": 11400235
   },
   {
     "id": 81000594,
-    "idCN": "活动/红茶战争/主线/1.前往修格里城商会",
+    "idCN": "活动/红茶战争/主线/1.废弃",
     "mod": "活动任务",
     "isInformalData": false,
-    "name": "[活动]主线1",
-    "story": "从修格里商会的NPC墨伊拉处得知修格里本地出现了一个新的红茶供应商，准备推广他们全新培育和制作的红茶，现在买入红茶是史上最低价。",
-    "describe": "前往修格里城商会了解情况",
+    "name": "[活动]前往商会了解情况",
+    "story": "科伦巴商会发来的邮件让人很在意，前往修格里城的商会向负责人墨伊拉咨询一下吧。",
+    "describe": "前往修格里城商会",
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
@@ -72043,9 +72169,9 @@
     "idCN": "活动/红茶战争/主线/2.完成一次红茶交易",
     "mod": "活动任务",
     "isInformalData": false,
-    "name": "[活动]主线2",
-    "story": "完成的是采购还是卖红茶？先按完成一次订单处理，跑下流程。",
-    "describe": "完成一个订单任务",
+    "name": "[活动]新世代红茶",
+    "story": "身为科伦巴商会的列车长，将这款全新的红茶向整个大陆推广吧。",
+    "describe": "完成一次新世代红茶贸易",
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
@@ -72055,8 +72181,8 @@
     "switchUI": "UI/",
     "conditionList": [
       {
-        "key": "finishOrder",
-        "val": "0"
+        "key": "sellItem",
+        "val": "82900046"
       }
     ],
     "num": 1,
@@ -72092,9 +72218,9 @@
     "idCN": "活动/红茶战争/支线/EV1-Z1",
     "mod": "活动任务",
     "isInformalData": false,
-    "name": "[活动]对话（EV1-Z1）",
-    "story": "帝国三傻发现了茶叶不太对劲但又好像没发现。",
-    "describe": "对话（EV1-Z1）",
+    "name": "[活动]熟悉的味道",
+    "story": "奶茶店的三位客人觉得新品的味道很熟悉……",
+    "describe": "前往修格里城海豹奶茶店",
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
@@ -72147,7 +72273,7 @@
     ],
     "isTime": false,
     "startTime": "",
-    "endTime": "2024-03-10 00:00:00",
+    "endTime": "2024-03-21 23:59:59",
     "rewardsCard": -1
   },
   {
@@ -72155,9 +72281,9 @@
     "idCN": "活动/红茶战争/支线/EV1-Z2",
     "mod": "活动任务",
     "isInformalData": false,
-    "name": "[活动]对话（EV1-Z2）",
-    "story": "阿尔喀娜、夏洛蒂在和女仆讨论茶叶的问题但是好像在说谜语。",
-    "describe": "对话（EV1-Z2）",
+    "name": "[活动]不祥的气息",
+    "story": "花鸟市场的几人对新世代红茶有些自己的想法。",
+    "describe": "前往修格里城花鸟市场",
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
@@ -72216,7 +72342,7 @@
     ],
     "isTime": false,
     "startTime": "",
-    "endTime": "2024-03-10 00:00:00",
+    "endTime": "2024-03-21 23:59:59",
     "rewardsCard": -1
   },
   {
@@ -72224,9 +72350,9 @@
     "idCN": "活动/红茶战争/支线/EV1-Z3",
     "mod": "活动任务",
     "isInformalData": false,
-    "name": "[活动]对话（EV1-Z3）",
-    "story": "卡塔斯似乎在进行什么调查但是中了大头贴机陷阱。",
-    "describe": "对话（EV1-Z3）",
+    "name": "[活动]饥饿的追踪者",
+    "story": "一名追踪某物的少女陷入了窘境。",
+    "describe": "前往修格里城KEEP炸鸡店",
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
@@ -72279,7 +72405,7 @@
     ],
     "isTime": false,
     "startTime": "",
-    "endTime": "2024-03-10 00:00:00",
+    "endTime": "2024-03-21 23:59:59",
     "rewardsCard": -1
   },
   {
@@ -72287,9 +72413,9 @@
     "idCN": "活动/红茶战争/支线/EV1-Z4",
     "mod": "活动任务",
     "isInformalData": false,
-    "name": "[活动]对话（EV1-Z4）",
-    "story": "闻笙匆匆离开，亚莉奈诱惑玩家只要一个吻就告诉玩家闻笙要去干什么。",
-    "describe": "对话（EV1-Z4）",
+    "name": "[活动]阴影中的调查",
+    "story": "黑月似乎在调查什么，要问问亚莉奈吗？",
+    "describe": "前往修格里城休息区",
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
@@ -72348,7 +72474,7 @@
     ],
     "isTime": false,
     "startTime": "",
-    "endTime": "2024-03-10 00:00:00",
+    "endTime": "2024-03-21 23:59:59",
     "rewardsCard": -1
   },
   {
@@ -72356,9 +72482,9 @@
     "idCN": "活动/红茶战争/主线/6.城市地图-战斗",
     "mod": "活动任务",
     "isInformalData": false,
-    "name": "[活动]主线6",
-    "story": "列车长发现了弗兰和艾略特的异样，本来只是怀疑，但是看到遥极度OOC地抱着兜兜蹭就再次确定肯定出问题了，但问题出在哪里？虽然有了猜测但是此时的列车长没有轻易下定论。\r七号自由港后准备卸货但是其他乘员都没法工作了只能列车长自己上，结果发现站台上铁盟其他工作人员也少了很多。从工作人员处听说一天前这里发生了一场闹剧。",
-    "describe": "城市地图",
+    "name": "[活动]不速之客",
+    "story": "抵挡住古怪少女的袭击。",
+    "describe": "应对神秘的敌人",
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
@@ -72423,9 +72549,9 @@
     "idCN": "活动/红茶战争/主线/4.七号自由港",
     "mod": "活动任务",
     "isInformalData": false,
-    "name": "[活动]主线4",
-    "story": "列车长发现了弗兰和艾略特的异样，本来只是怀疑，但是看到遥极度OOC地抱着兜兜蹭就再次确定肯定出问题了，但问题出在哪里？虽然有了猜测但是此时的列车长没有轻易下定论。\r七号自由港后准备卸货但是其他乘员都没法工作了只能列车长自己上，结果发现站台上铁盟其他工作人员也少了很多。从工作人员处听说一天前这里发生了一场闹剧。",
-    "describe": "七号自由港遥",
+    "name": "[活动]前往铁安局",
+    "story": "七号自由港的铁安局发来了请求支援的邮件，有必要去看看发生了什么。",
+    "describe": "前往七号自由港铁安局",
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
@@ -72490,9 +72616,9 @@
     "idCN": "活动/红茶战争/主线/5.铁安局-战斗",
     "mod": "活动任务",
     "isInformalData": false,
-    "name": "[活动]主线5",
-    "story": "",
-    "describe": "七号自由港-铁安局",
+    "name": "[活动]阻碍",
+    "story": "居然在铁安局门口闹事，不能放任不管。",
+    "describe": "打倒闹事的人",
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
@@ -72563,9 +72689,9 @@
     "idCN": "活动/红茶战争/主线/3.喝茶",
     "mod": "活动任务",
     "isInformalData": false,
-    "name": "[活动]主线3",
-    "story": "在完成第一次交易后，莉薇娅出于好奇泡了红茶给大家喝，所有乘员都喝了，除了莉薇娅列车长以外的人都觉得很香很好喝，莉薇娅表示是很熟悉的味道但并没有其他人那种上瘾一般的感觉，奇怪的是列车长也没感觉，但看其他人的反应能理解这个红茶为什么会这么受欢迎。",
-    "describe": "修格里城莉薇娅",
+    "name": "[活动]尝尝看吧",
+    "story": "莉薇娅出于好奇为大家泡了红茶……要尝尝看吗？",
+    "describe": "与莉薇娅对话",
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
@@ -72642,9 +72768,9 @@
     "idCN": "活动/红茶战争/主线/7.修格里商会",
     "mod": "活动任务",
     "isInformalData": false,
-    "name": "[活动]主线7",
-    "story": "回到了修格里的商会询问墨伊拉相关问题。本来担心墨伊拉会不配合，但是意外地她却很好说话地提供了供货方的货源情报，他们的总部似乎不在城内，但是出城的话实时跟踪可能会打草惊蛇，但是墨伊拉给出的情报称他们今晚会来取这段时间的铁盟币，列车长想到一个办法，把波克士放进箱子里反追踪定位。",
-    "describe": "修格里商会",
+    "name": "[活动]调查货源",
+    "story": "从卡塔斯口中得知了新世代红茶的古怪之处，有必要找知情人了解情况。",
+    "describe": "前往修格里城商会",
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
@@ -72715,9 +72841,9 @@
     "idCN": "活动/红茶战争/主线/8.调查货源",
     "mod": "活动任务",
     "isInformalData": false,
-    "name": "[活动]主线8",
-    "story": "到了夜晚果然一群打扮低调的人前来取钱，列车长通过实时监控定位到了工厂的位置。列车长将情况通报给了铁安局，自己先行出发了。",
-    "describe": "修格里商会",
+    "name": "[活动]追踪信号",
+    "story": "根据信号追踪红茶制造商的列车，找到生产红茶的地址。",
+    "describe": "追踪红茶制造商",
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
@@ -72788,9 +72914,9 @@
     "idCN": "活动/红茶战争/主线/9.货源地-战斗",
     "mod": "活动任务",
     "isInformalData": false,
-    "name": "[活动]主线9",
-    "story": "地图上出现新的临时停靠地点——货源地，列车长表示出发。",
-    "describe": "黑茶厂副本",
+    "name": "[活动]揭开真相",
+    "story": "新世代红茶的真相就在这里，是时候一探究竟了。",
+    "describe": "调查地下茶厂",
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
@@ -72812,12 +72938,7 @@
     "childQuestList": [],
     "rewardsList": [],
     "startStation": 83000001,
-    "endStationList": [
-      {
-        "id": 83000029,
-        "weight": 10
-      }
-    ],
+    "endStationList": [],
     "client": 82600358,
     "chapterId": -1,
     "playerLevel": 1,
@@ -72849,9 +72970,9 @@
     "idCN": "活动/红茶战争/主线/10七号自由港",
     "mod": "活动任务",
     "isInformalData": false,
-    "name": "[活动]主线10",
-    "story": "几天后我们再次来到七号自由港，铁安局在组织销毁茶叶。在大家的讨论中听到了关于“本来的修格里红茶就足够好喝”之类的对话。\r遇到了阿尔拉纳，帝国人稍微聊了聊帝国的事。揭开帝国神秘面纱的一角。\r阿尔喀娜表示如果我们哪一天要去帝国她很乐意给我们做向导，我们约定在不久的将来在曼杜斯花园见。",
-    "describe": "七号自由港卡塔斯",
+    "name": "[活动]奇妙的邂逅",
+    "story": "在七号自由港遇到了一名奇妙的女孩，从她口中得知了关于帝国的故事……",
+    "describe": "前往七号自由港",
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
@@ -72922,9 +73043,9 @@
     "idCN": "活动/红茶战争/主线/11.后日谈",
     "mod": "活动任务",
     "isInformalData": false,
-    "name": "[活动]主线11",
-    "story": "后日谈",
-    "describe": "修格里城卡塔斯",
+    "name": "[活动]重逢",
+    "story": "与卡塔斯再会时，看到了她与众不同的全新装扮。",
+    "describe": "前往修格里城",
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
@@ -72985,9 +73106,9 @@
     "idCN": "活动/红茶战争/支线/EV1-Z5",
     "mod": "活动任务",
     "isInformalData": false,
-    "name": "[活动]对话（EV1-Z5）",
-    "story": "墨伊拉姐妹俩的对话，嘴硬心软的妹妹因为担心姐姐才向我们提供情报。",
-    "describe": "对话（EV1-Z5）",
+    "name": "[活动]不坦率的姐妹",
+    "story": "事情落幕后，来到奶茶店的两姐妹。",
+    "describe": "前往七号自由港海豹奶茶店",
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
@@ -73048,9 +73169,9 @@
     "idCN": "活动/红茶战争/支线/EV1-Z6",
     "mod": "活动任务",
     "isInformalData": false,
-    "name": "[活动]对话（EV1-Z6）",
-    "story": "亚莉奈会告诉你一个有趣的情报，闻笙最近抓到了一个“小老鼠”并且准备带去给鹭先生处置",
-    "describe": "对话（EV1-Z6）",
+    "name": "[活动]调查的真相",
+    "story": "从亚莉奈口中得知了黑月行动的原因。",
+    "describe": "前往修格里城休息区",
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
@@ -73110,6 +73231,611 @@
     "isTime": false,
     "startTime": "",
     "endTime": "",
+    "rewardsCard": -1
+  },
+  {
+    "id": 81000611,
+    "idCN": "商会任务/修格里城/采购11-测试1",
+    "mod": "订单",
+    "isInformalData": false,
+    "name": "采购·招牌红茶",
+    "story": "修格里的红茶是畅销产品，请采购30箱红茶至%s售卖。",
+    "describe": "请采购30箱红茶至%s售卖。",
+    "isShowProgress": true,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "questType": "Home",
+    "sort": 0,
+    "isSwitchUI": true,
+    "switchUI": "UI/",
+    "conditionList": [],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": true,
+    "giveUp": true,
+    "rewardsList": [
+      {
+        "id": 11400001,
+        "num": 20400
+      },
+      {
+        "id": 11400106,
+        "num": 30
+      }
+    ],
+    "reputationList": [
+      {
+        "id": 11400056,
+        "num": 30
+      }
+    ],
+    "startStation": 83000001,
+    "endStationList": [
+      {
+        "id": 83000020,
+        "weight": 10
+      }
+    ],
+    "client": 82600081,
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "isInitQuest": false,
+    "questId": -1,
+    "development": 0,
+    "investment": 0,
+    "trainLevel": 17,
+    "cocQuestType": "Buy",
+    "goodsList": [
+      {
+        "id": 82900046,
+        "num": 30
+      }
+    ],
+    "cityList": [],
+    "passengerList": [],
+    "timeLimit": -1.0,
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "traceList": []
+  },
+  {
+    "id": 81000612,
+    "idCN": "商会任务/修格里城/采购11-测试2",
+    "mod": "订单",
+    "isInformalData": false,
+    "name": "采购·招牌红茶",
+    "story": "修格里的红茶是畅销产品，请采购30箱红茶至%s售卖。",
+    "describe": "请采购30箱红茶至%s售卖。",
+    "isShowProgress": true,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "questType": "Home",
+    "sort": 0,
+    "isSwitchUI": true,
+    "switchUI": "UI/",
+    "conditionList": [],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": true,
+    "giveUp": true,
+    "rewardsList": [
+      {
+        "id": 11400001,
+        "num": 20400
+      },
+      {
+        "id": 11400106,
+        "num": 30
+      }
+    ],
+    "reputationList": [
+      {
+        "id": 11400056,
+        "num": 30
+      }
+    ],
+    "startStation": 83000001,
+    "endStationList": [
+      {
+        "id": 83000029,
+        "weight": 10
+      }
+    ],
+    "client": 82600081,
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "isInitQuest": false,
+    "questId": -1,
+    "development": 0,
+    "investment": 0,
+    "trainLevel": 17,
+    "cocQuestType": "Buy",
+    "goodsList": [
+      {
+        "id": 82900046,
+        "num": 30
+      }
+    ],
+    "cityList": [],
+    "passengerList": [],
+    "timeLimit": -1.0,
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "traceList": []
+  },
+  {
+    "id": 81000613,
+    "idCN": "商会任务/修格里城/采购11-测试3",
+    "mod": "订单",
+    "isInformalData": false,
+    "name": "采购·招牌红茶",
+    "story": "修格里的红茶是畅销产品，请采购30箱红茶至%s售卖。",
+    "describe": "请采购30箱红茶至%s售卖。",
+    "isShowProgress": true,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "questType": "Home",
+    "sort": 0,
+    "isSwitchUI": true,
+    "switchUI": "UI/",
+    "conditionList": [],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": true,
+    "giveUp": true,
+    "rewardsList": [
+      {
+        "id": 11400001,
+        "num": 20400
+      },
+      {
+        "id": 11400106,
+        "num": 30
+      }
+    ],
+    "reputationList": [
+      {
+        "id": 11400056,
+        "num": 30
+      }
+    ],
+    "startStation": 83000001,
+    "endStationList": [
+      {
+        "id": 83000003,
+        "weight": 10
+      }
+    ],
+    "client": 82600081,
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "isInitQuest": false,
+    "questId": -1,
+    "development": 0,
+    "investment": 0,
+    "trainLevel": 17,
+    "cocQuestType": "Buy",
+    "goodsList": [
+      {
+        "id": 82900046,
+        "num": 30
+      }
+    ],
+    "cityList": [],
+    "passengerList": [],
+    "timeLimit": -1.0,
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "traceList": []
+  },
+  {
+    "id": 81000614,
+    "idCN": "商会任务/修格里城/采购11-测试4",
+    "mod": "订单",
+    "isInformalData": false,
+    "name": "采购·招牌红茶",
+    "story": "修格里的红茶是畅销产品，请采购30箱红茶至%s售卖。",
+    "describe": "请采购30箱红茶至%s售卖。",
+    "isShowProgress": true,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "questType": "Home",
+    "sort": 0,
+    "isSwitchUI": true,
+    "switchUI": "UI/",
+    "conditionList": [],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": true,
+    "giveUp": true,
+    "rewardsList": [
+      {
+        "id": 11400001,
+        "num": 20400
+      },
+      {
+        "id": 11400106,
+        "num": 30
+      }
+    ],
+    "reputationList": [
+      {
+        "id": 11400056,
+        "num": 30
+      }
+    ],
+    "startStation": 83000001,
+    "endStationList": [
+      {
+        "id": 83000004,
+        "weight": 10
+      }
+    ],
+    "client": 82600081,
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "isInitQuest": false,
+    "questId": -1,
+    "development": 0,
+    "investment": 0,
+    "trainLevel": 17,
+    "cocQuestType": "Buy",
+    "goodsList": [
+      {
+        "id": 82900046,
+        "num": 30
+      }
+    ],
+    "cityList": [],
+    "passengerList": [],
+    "timeLimit": -1.0,
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "traceList": []
+  },
+  {
+    "id": 81000615,
+    "idCN": "商会任务/修格里城/采购11-测试5",
+    "mod": "订单",
+    "isInformalData": false,
+    "name": "采购·招牌红茶",
+    "story": "修格里的红茶是畅销产品，请采购30箱红茶至%s售卖。",
+    "describe": "请采购30箱红茶至%s售卖。",
+    "isShowProgress": true,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "questType": "Home",
+    "sort": 0,
+    "isSwitchUI": true,
+    "switchUI": "UI/",
+    "conditionList": [],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": true,
+    "giveUp": true,
+    "rewardsList": [
+      {
+        "id": 11400001,
+        "num": 20400
+      },
+      {
+        "id": 11400106,
+        "num": 30
+      }
+    ],
+    "reputationList": [
+      {
+        "id": 11400056,
+        "num": 30
+      }
+    ],
+    "startStation": 83000001,
+    "endStationList": [
+      {
+        "id": 83000026,
+        "weight": 10
+      }
+    ],
+    "client": 82600081,
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "isInitQuest": false,
+    "questId": -1,
+    "development": 0,
+    "investment": 0,
+    "trainLevel": 17,
+    "cocQuestType": "Buy",
+    "goodsList": [
+      {
+        "id": 82900046,
+        "num": 30
+      }
+    ],
+    "cityList": [],
+    "passengerList": [],
+    "timeLimit": -1.0,
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "traceList": []
+  },
+  {
+    "id": 81000616,
+    "idCN": "活动/红茶战争/个人阶段奖励/阶段6",
+    "mod": "活动任务",
+    "isInformalData": false,
+    "name": "阶段6",
+    "story": "【红茶战争】期间，成功交易390箱【红茶】",
+    "describe": "",
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "questType": "Activity",
+    "sort": 99,
+    "isSwitchUI": false,
+    "switchUI": "UI/",
+    "conditionList": [
+      {
+        "key": "sellItem",
+        "val": "82900046"
+      }
+    ],
+    "num": 390,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400231,
+        "num": 100
+      },
+      {
+        "id": 11400005,
+        "num": 50
+      }
+    ],
+    "startStation": -1,
+    "endStationList": [],
+    "client": -1,
+    "chapterId": -1,
+    "playerLevel": 1,
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "traceList": [],
+    "isTime": true,
+    "startTime": "2024-01-01 00:00:00",
+    "endTime": "2024-04-01 00:00:00",
+    "rewardsCard": -1
+  },
+  {
+    "id": 81000617,
+    "idCN": "活动/红茶战争/个人阶段奖励/阶段7",
+    "mod": "活动任务",
+    "isInformalData": false,
+    "name": "阶段7",
+    "story": "【红茶战争】期间，成功交易630箱【红茶】",
+    "describe": "",
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "questType": "Activity",
+    "sort": 99,
+    "isSwitchUI": false,
+    "switchUI": "UI/",
+    "conditionList": [
+      {
+        "key": "sellItem",
+        "val": "82900046"
+      }
+    ],
+    "num": 630,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400231,
+        "num": 100
+      },
+      {
+        "id": 11400005,
+        "num": 50
+      }
+    ],
+    "startStation": -1,
+    "endStationList": [],
+    "client": -1,
+    "chapterId": -1,
+    "playerLevel": 1,
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "traceList": [],
+    "isTime": true,
+    "startTime": "2024-01-01 00:00:00",
+    "endTime": "2024-04-01 00:00:00",
+    "rewardsCard": -1
+  },
+  {
+    "id": 81000618,
+    "idCN": "活动/红茶战争/个人阶段奖励/阶段8",
+    "mod": "活动任务",
+    "isInformalData": false,
+    "name": "阶段8",
+    "story": "【红茶战争】期间，成功交易1020箱【红茶】",
+    "describe": "",
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "questType": "Activity",
+    "sort": 99,
+    "isSwitchUI": false,
+    "switchUI": "UI/",
+    "conditionList": [
+      {
+        "key": "sellItem",
+        "val": "82900046"
+      }
+    ],
+    "num": 1020,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400231,
+        "num": 100
+      },
+      {
+        "id": 11400005,
+        "num": 50
+      }
+    ],
+    "startStation": -1,
+    "endStationList": [],
+    "client": -1,
+    "chapterId": -1,
+    "playerLevel": 1,
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "traceList": [],
+    "isTime": true,
+    "startTime": "2024-01-01 00:00:00",
+    "endTime": "2024-04-01 00:00:00",
+    "rewardsCard": -1
+  },
+  {
+    "id": 81000619,
+    "idCN": "活动/红茶战争/个人阶段奖励/阶段9",
+    "mod": "活动任务",
+    "isInformalData": false,
+    "name": "阶段9",
+    "story": "【红茶战争】期间，成功交易1650箱【红茶】",
+    "describe": "",
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "questType": "Activity",
+    "sort": 99,
+    "isSwitchUI": false,
+    "switchUI": "UI/",
+    "conditionList": [
+      {
+        "key": "sellItem",
+        "val": "82900046"
+      }
+    ],
+    "num": 1650,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400231,
+        "num": 100
+      },
+      {
+        "id": 11400005,
+        "num": 50
+      }
+    ],
+    "startStation": -1,
+    "endStationList": [],
+    "client": -1,
+    "chapterId": -1,
+    "playerLevel": 1,
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "traceList": [],
+    "isTime": true,
+    "startTime": "2024-01-01 00:00:00",
+    "endTime": "2024-04-01 00:00:00",
+    "rewardsCard": -1
+  },
+  {
+    "id": 81000620,
+    "idCN": "活动/红茶战争/个人阶段奖励/阶段10",
+    "mod": "活动任务",
+    "isInformalData": false,
+    "name": "阶段10",
+    "story": "【红茶战争】期间，成功交易2670箱【红茶】",
+    "describe": "",
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "questType": "Activity",
+    "sort": 99,
+    "isSwitchUI": false,
+    "switchUI": "UI/",
+    "conditionList": [
+      {
+        "key": "sellItem",
+        "val": "82900046"
+      }
+    ],
+    "num": 2670,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400231,
+        "num": 100
+      },
+      {
+        "id": 11400005,
+        "num": 50
+      }
+    ],
+    "startStation": -1,
+    "endStationList": [],
+    "client": -1,
+    "chapterId": -1,
+    "playerLevel": 1,
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "traceList": [],
+    "isTime": true,
+    "startTime": "2024-01-01 00:00:00",
+    "endTime": "2024-04-01 00:00:00",
     "rewardsCard": -1
   }
 ]

@@ -105,8 +105,7 @@
     "equipmentBag": 2000,
     "itemBag": 1000,
     "materialBag": 1000,
-    "furnitureBag": 1000,
-    "pluginBag": 200,
+    "furnitureBag": 2000,
     "playerHeadList": [
       {
         "playerHeadPath": "UI\\Common\\PlayerHead\\A_01"
@@ -1938,6 +1937,15 @@
       },
       {
         "id": 81000606
+      },
+      {
+        "id": 81000590
+      },
+      {
+        "id": 81000591
+      },
+      {
+        "id": 81000592
       }
     ],
     "passByChapterId": [],
@@ -2220,6 +2228,15 @@
       },
       {
         "id": 81000053
+      },
+      {
+        "id": 81000587
+      },
+      {
+        "id": 81000588
+      },
+      {
+        "id": 81000589
       }
     ],
     "addProfit": [
@@ -2318,6 +2335,15 @@
       },
       {
         "id": 81000460
+      },
+      {
+        "id": 81000087
+      },
+      {
+        "id": 81000090
+      },
+      {
+        "id": 81000091
       }
     ],
     "addWeight": [
@@ -2531,9 +2557,6 @@
       },
       {
         "id": 81000531
-      },
-      {
-        "id": 81000595
       }
     ],
     "solicitCustomer": [
@@ -6246,6 +6269,10 @@
       {
         "key": "环境_迷障森林",
         "value": "<color=#D1BF53>迷障森林 ：</color>"
+      },
+      {
+        "key": "环境_震宇环流",
+        "value": "<color=#D1BF53>震宇环流 ：</color>"
       },
       {
         "key": "霸体",
@@ -11750,34 +11777,6 @@
         "guideNO": 241
       },
       {
-        "guideId": 20900131,
-        "guideNO": 251
-      },
-      {
-        "guideId": 20900195,
-        "guideNO": 251
-      },
-      {
-        "guideId": 20900198,
-        "guideNO": 252
-      },
-      {
-        "guideId": 20900205,
-        "guideNO": 252
-      },
-      {
-        "guideId": 20900200,
-        "guideNO": 253
-      },
-      {
-        "guideId": 20900208,
-        "guideNO": 253
-      },
-      {
-        "guideId": 20900202,
-        "guideNO": 254
-      },
-      {
         "guideId": 20900209,
         "guideNO": 254
       },
@@ -11892,10 +11891,6 @@
       {
         "guideId": 20900190,
         "guideNO": 341
-      },
-      {
-        "guideId": 20900237,
-        "guideNO": 343
       },
       {
         "guideId": 20900206,
@@ -16676,7 +16671,7 @@
         "endTime": "2024-04-07 00:00:00",
         "id": 86000001,
         "name": 80602404,
-        "png": "UI/Gacha/BG/First_tab",
+        "png": "UI/Activity/Tab/tab_black",
         "sort": 1,
         "startTime": "2024-01-01 00:00:00",
         "tag": 12601071
@@ -16690,7 +16685,8 @@
         "startTime": "2024-01-01 00:00:00",
         "tag": 12601070
       }
-    ]
+    ],
+    "questList": []
   },
   {
     "id": 99900057,
@@ -16789,6 +16785,61 @@
       {
         "adress": "http://soli-reso.com",
         "name": "PC"
+      }
+    ]
+  },
+  {
+    "id": 99900064,
+    "idCN": "大世界/波克士行驶辅助",
+    "mod": "行驶辅助配置",
+    "isInformalData": false,
+    "nameEN": "DriveSetupConfig",
+    "autoBuyRoadLv": 30,
+    "autoBuyRoadPath": "UI/MainUI/map_icon_driveSetup3",
+    "autoBuyRoadUnLock": [
+      {
+        "id": 11400004,
+        "num": 20
+      },
+      {
+        "id": 11400001,
+        "num": 200000
+      }
+    ],
+    "autoRushLv": 32,
+    "autoRushPath": "UI/MainUI/map_icon_driveSetup4",
+    "autoRushUnLock": [
+      {
+        "id": 11400004,
+        "num": 50
+      },
+      {
+        "id": 11400001,
+        "num": 500000
+      }
+    ],
+    "autoStrikeLv": 34,
+    "autoStrikePath": "UI/MainUI/map_icon_driveSetup2",
+    "aautoStrikeUnLock": [
+      {
+        "id": 11400004,
+        "num": 100
+      },
+      {
+        "id": 11400001,
+        "num": 1000000
+      }
+    ],
+    "autoFightLv": 36,
+    "autoFightPath": "UI/MainUI/map_icon_driveSetup1",
+    "autoFightUnLock": [
+      {
+        "id": 11400004,
+        "num": 200
+      },
+      {
+        "id": 11400001,
+        "num": 2000000
       }
     ]
   }

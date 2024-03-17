@@ -79,7 +79,6 @@
     "uiPath": "UI/Home/HomeSafe/HomeSafe",
     "bgPath": "UI/Dialog/Back/RPOC1",
     "bgColor": "FFFFFF",
-    "buildingIcon": "",
     "stationId": 83000020,
     "npcId": 83700005,
     "favorability": false,
@@ -170,7 +169,8 @@
     "shareLevelNumMax": 10,
     "changeRefreshTime": 10,
     "returnCoefficient": 0.7,
-    "exchangeBuildId": 84400022
+    "exchangeBuildId": 84400022,
+    "buildingIcon": ""
   },
   {
     "id": 84400008,
@@ -616,12 +616,16 @@
     "idCN": "垃圾站/荒原站",
     "mod": "垃圾站",
     "isInformalData": false,
+    "name": "",
+    "firstPlotId": -1,
     "uiPath": "UI/RubbishStation/RubbishStation",
     "bgPath": "UI/Dialog/Back/MobilePlatform_N",
     "bgColor": "FFFFFF",
     "stationId": 83000003,
     "npcId": 83700058,
     "favorability": false,
+    "helpId": -1,
+    "rankId": -1,
     "integralCoefficient": 2000,
     "integralRewardList": [
       {
@@ -1359,32 +1363,31 @@
     "idCN": "商会/修格里城",
     "mod": "商会",
     "isInformalData": false,
-    "name": "",
+    "name": "商会",
     "firstPlotId": -1,
     "uiPath": "",
     "bgPath": "",
     "bgColor": "FFFFFF",
-    "buildingIcon": "",
-    "stationId": -1,
+    "stationId": 83000001,
     "npcId": -1,
     "favorability": false,
     "helpId": -1,
     "rankId": -1,
     "initCOCQuestList": [],
-    "cocStoreList": []
+    "cocStoreList": [],
+    "buildingIcon": ""
   },
   {
     "id": 84400028,
     "idCN": "休息区/修格里城",
     "mod": "酒吧",
     "isInformalData": false,
-    "name": "",
+    "name": "休息区",
     "firstPlotId": -1,
     "uiPath": "",
     "bgPath": "",
     "bgColor": "FFFFFF",
-    "buildingIcon": "",
-    "stationId": -1,
+    "stationId": 83000001,
     "npcId": -1,
     "favorability": false,
     "helpId": -1,
@@ -1392,6 +1395,7 @@
     "limitNum": 3,
     "drinkCost": [],
     "barStoreList": [],
-    "drinkVideo": ""
+    "drinkVideo": "",
+    "buildingIcon": ""
   }
 ]
