@@ -67,6 +67,7 @@ function LoginHelper.ReqInfoAndIndex(args)
     index.timestamp = TimeTool.UnixTimeStamp() - PlayerData.serverTimeOffset
     index.platform = platform
     index.autoLogin = 0
+    index.deviceId = DeviceHelper.GetDeviceId()
     index:SetCallback(function(res4)
       print("[Login]LoginHelper.ReqEnterGame OnRecv Index json=" .. res4)
       local json4 = Json.decode(res4)

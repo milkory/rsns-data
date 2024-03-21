@@ -144,6 +144,7 @@ RegMod("ItemFactory", {
   "资料道具",
   "战令道具",
   "议价道具",
+  "收集卡随机包",
   "活动纪念卡"
 })
 RegMod("SkillLvUpFactory", {
@@ -250,7 +251,8 @@ RegMod("TagFactory", {
   "列车武装",
   "CDK兑换码",
   "敌人定位标签",
-  "敌人强度标签"
+  "敌人强度标签",
+  "收集卡牌类型"
 })
 RegMod("PictureFactory", {
   "基础插图"
@@ -300,7 +302,8 @@ RegMod("NPCFactory", {
   "宠物店",
   "垃圾站",
   "作战中心",
-  "兑换站"
+  "兑换站",
+  "活动"
 })
 RegMod("DictionaryFactory", {"卡牌", "词缀"})
 RegMod("HomeSkillFactory", {
@@ -339,7 +342,8 @@ RegMod("ListFactory", {
   "角色换装动画"
 })
 RegMod("PassageFactory", {
-  "基础乘客"
+  "基础乘客",
+  "唯一乘客"
 })
 RegMod("RankFactory", {"默认"})
 RegMod("BuildingFactory", {
@@ -398,4 +402,7 @@ RegMod("ActivityListFactory", {
 })
 RegMod("CollectionCardFactory", {
   "活动纪念卡"
+})
+RegMod("CollectionCardPackFactory", {
+  "基础卡包"
 })

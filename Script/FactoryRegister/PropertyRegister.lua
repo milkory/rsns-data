@@ -127,7 +127,9 @@ require("FactoryRegister/Propertys/COCListFactory")
 require("FactoryRegister/Propertys/ActivityFactory")
 require("FactoryRegister/Propertys/ActivityListFactory")
 require("FactoryRegister/Propertys/CollectionCardFactory")
+require("FactoryRegister/Propertys/CollectionCardPackFactory")
 require("FactoryRegister/Propertys/SigninFactory")
 require("FactoryRegister/Propertys/MapNeedleFactory")
+require("FactoryRegister/Propertys/EffectFactory")
 factoryDic = nil
 buffer = nil

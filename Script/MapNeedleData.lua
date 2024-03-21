@@ -42,7 +42,7 @@ function MapNeedleData.ResetData()
 end
 
 function MapNeedleData.CheckQuest(questId)
-  return PlayerData:IsHaveQuest(questId)
+  return PlayerData.GetQuestState(questId) == EnumDefine.EQuestState.UnFinish
 end
 
 function MapNeedleData.CheckItem(itemId, num)

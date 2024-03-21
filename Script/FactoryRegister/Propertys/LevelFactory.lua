@@ -252,8 +252,8 @@ RegProperty("LevelFactory", {
   {
     name = "saleLevelType",
     type = "Enum",
-    des = "关卡类型||Default:默认,Mainline:主线,Side:铁安局支线,Daily:铁安局随机,Reward:铁安局悬赏,Devil:魔窟,Line:线路拦路,LineClick:常规点击,pollute:污染拦路,twig:厄枝,buoy:浮标,World:世界BOSS,Core:核心关卡,Combat:作战中心,Test:试车场",
-    arg0 = "Default#Mainline#Side#Daily#Weekly#Reward#Devil#Line#LineClick#pollute#twig#buoy#World#Core#Combat#Test",
+    des = "关卡类型||Default:默认,Mainline:主线,Activity:活动,Side:铁安局支线,Daily:铁安局随机,Reward:铁安局悬赏,Devil:魔窟,Line:线路拦路,LineClick:常规点击,pollute:污染拦路,twig:厄枝,buoy:浮标,World:世界BOSS,Core:核心关卡,Combat:作战中心,Test:试车场",
+    arg0 = "Default#Mainline#Activity#Side#Daily#Weekly#Reward#Devil#Line#LineClick#pollute#twig#buoy#World#Core#Combat#Test",
     arg1 = "Default"
   },
   {

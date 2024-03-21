@@ -276,6 +276,12 @@ local Enum = {
     All = "",
     Elites = 12601047,
     Boss = 12601048
+  },
+  EQuestState = {
+    UnFinish = 0,
+    Finish = 1,
+    Receive = 2,
+    Lock = 3
   }
 }
 return Enum

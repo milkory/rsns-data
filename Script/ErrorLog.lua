@@ -6,6 +6,8 @@ local ErrorFrame
 local HandleList = {}
 local GameSetting = {}
 local UIList = {}
+local clickMax = 50
+local protocolMax = 30
 
 function ErrorLog.AddClickLog(frame, callbackname)
   local position = CS.UnityEngine.Input.mousePosition
@@ -15,7 +17,7 @@ function ErrorLog.AddClickLog(frame, callbackname)
     x = math.floor(position.x),
     y = math.floor(position.y)
   })
-  if table.count(UIList) > 10 then
+  if table.count(UIList) > clickMax then
     table.remove(UIList, 1)
   end
   ErrorLog.UIList = Json.encode(UIList)
@@ -23,7 +25,7 @@ end
 
 function ErrorLog.AddProtocolLog(frame, protocolname)
   table.insert(ProtocolList, {f = frame, n = protocolname})
-  if table.count(ProtocolList) > 10 then
+  if table.count(ProtocolList) > protocolMax then
     table.remove(ProtocolList, 1)
   end
 end

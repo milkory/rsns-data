@@ -797,6 +797,11 @@ local CityMap = {
   },
   Group_TopRight = {
     self = nil,
+    Btn_ActivityNew = {
+      self = nil,
+      Txt_Name = nil,
+      Img_Remind = {self = nil, Txt_Num = nil}
+    },
     Btn_Activity = {
       self = nil,
       Txt_Name = nil,

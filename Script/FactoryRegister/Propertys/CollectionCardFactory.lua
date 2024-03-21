@@ -1,15 +1,16 @@
 RegProperty("CollectionCardFactory", {
   {
     name = "name",
-    type = "String",
+    type = "StringT",
     des = "名称",
     arg0 = ""
   },
   {
-    name = "viewId",
+    name = "englishName",
     type = "String",
-    des = "视图",
-    arg0 = ""
+    des = "英文名",
+    arg0 = "",
+    pyIgnore = true
   },
   {
     name = "quality",
@@ -19,17 +20,17 @@ RegProperty("CollectionCardFactory", {
     arg1 = ""
   },
   {
-    name = "cardType",
-    type = "Enum",
-    des = "类型",
-    arg0 = "列车长卡#角色卡#支援者卡#怪物卡#道具卡#能量卡",
-    arg1 = ""
+    name = "cardTypeId",
+    type = "Factory",
+    des = "类型id",
+    arg0 = "TagFactory",
+    arg1 = "收集卡牌类型"
   },
   {
     name = "specialAnimation",
     type = "Enum",
-    des = "特殊工艺",
-    arg0 = "金闪#蓝闪",
+    des = "特殊工艺||Gold:金闪,Blue:蓝闪,None:无",
+    arg0 = "Gold#Blue#None",
     arg1 = ""
   },
   {
@@ -38,6 +39,12 @@ RegProperty("CollectionCardFactory", {
     des = "描述",
     arg0 = "",
     pyIgnore = true
+  },
+  {
+    name = "getMethod",
+    type = "TextT",
+    des = "获取方式",
+    arg0 = ""
   },
   {
     name = "iconPath",
@@ -55,74 +62,10 @@ RegProperty("CollectionCardFactory", {
     arg1 = "100|100"
   },
   {
-    name = "",
-    type = "SysLine",
-    des = "是否限时"
-  },
-  {
-    name = "isTimeLimited",
-    type = "Bool",
-    des = "获得是否有时间限制，勾选有默认没有",
-    arg0 = "False"
-  },
-  {
-    name = "startTime",
-    type = "String",
-    des = "开始时间",
-    arg0 = ""
-  },
-  {
-    name = "endTime",
-    type = "String",
-    des = "结束时间",
-    arg0 = ""
-  },
-  {
-    name = "",
-    type = "SysLine",
-    des = "是否为卡包首卡"
-  },
-  {
-    name = "isWhole",
-    type = "Bool",
-    des = "获取条件是否为收集卡包其余卡，默认不是",
-    arg0 = "False"
-  },
-  {
-    name = "preconditionsList",
-    type = "Array",
-    des = "前置卡列表",
-    detail = "id"
-  },
-  {
-    name = "id",
+    name = "correspondingPack",
     type = "Factory",
-    des = "前置卡id",
-    arg0 = "CollectionCardFactory"
-  },
-  {name = "end"},
-  {
-    name = "",
-    type = "SysLine",
-    des = "卡包套图及偏移"
-  },
-  {
-    name = "packViewPng",
-    type = "Png",
-    des = "卡包中图标",
-    arg0 = "",
-    arg1 = "100|100"
-  },
-  {
-    name = "packViewX",
-    type = "Double",
-    des = "X轴偏移",
-    arg0 = "0"
-  },
-  {
-    name = "pageViewY",
-    type = "Double",
-    des = "Y轴偏移",
-    arg0 = "0"
+    des = "所属卡包",
+    arg0 = "CollectionCardPackFactory",
+    arg1 = "基础卡包"
   }
 })

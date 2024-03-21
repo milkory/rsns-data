@@ -45,6 +45,7 @@ local ViewFunction = {
   end,
   MainUI_Group_Common_SoftMask_HomeMap_Group_HomeMap_Group_CommonTopLeft_Btn_Return_Click = function(btn, str)
     MapController:ShowDetailMap(false)
+    View.self:Confirm()
   end,
   MainUI_Group_Common_SoftMask_HomeMap_Group_HomeMap_Group_CommonTopLeft_Btn_Home_Click = function(btn, str)
     MapController:ShowDetailMap(false)
@@ -642,6 +643,9 @@ local ViewFunction = {
   MainUI_Group_Common_Group_TopRight_Btn_Activity_Click = function(btn, str)
     UIManager:Open("UI/SignIn/SignIn")
   end,
+  MainUI_Group_Common_Group_TopRight_Btn_ActivityNew_Click = function(btn, str)
+    UIManager:Open("UI/Activity/ActivityMain")
+  end,
   MainUI_Group_Common_Group_Event_Group_Back_Btn_Fight_Click = function(btn, str)
     Controller.BackFunction()
   end,
@@ -662,8 +666,6 @@ local ViewFunction = {
   end,
   MainUI_Group_Common_Group_TopLeft_Group_Buff_Img_BuffBattle_Btn__Click = function(btn, str)
     DataModel.ShowHomeBuffTips()
-  end,
-  MainUI_Group_Common_Group_TopRight_Btn_ActivityNew_Click = function(btn, str)
   end,
   MainUI_Btn_AdBoard_Click = function(btn, str)
     local a, b = PlayerData:OpenStoreCondition()

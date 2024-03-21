@@ -6,7 +6,7 @@ function module.CheckQuestEnd()
   if questTraceInfo[1] ~= nil then
     local info = questTraceInfo[1]
     local curTime = TimeUtil:GetServerTimeStamp()
-    if info.endTime ~= -1 and curTime >= info.endTime then
+    if info.endTime ~= -1 and curTime >= info.endTime or not QuestProcess.CheckQuestTime(info.id) then
       PlayerData:RemoveQuestTrace()
       return nil
     end
@@ -120,6 +120,7 @@ function module.SetQuestTrace(element)
 end
 
 function module.AcceptQuest(questId)
+  QuestProcess.AcceptQuest(questId)
   local questTraceInfo = PlayerData:GetQuestTrace()
   if questTraceInfo == nil or #questTraceInfo == 0 then
     PlayerData:DeletePlayerPrefs("QuestRed" .. questId)
@@ -162,6 +163,7 @@ function module.AcceptQuest(questId)
 end
 
 function module.CancelQuest(questId)
+  QuestProcess.CancelQuest(questId)
   questId = tonumber(questId)
   local questTraceInfo = PlayerData:GetQuestTrace()
   if questTraceInfo[1] ~= nil then
@@ -177,9 +179,10 @@ end
 local findMainQuest = function()
   local quests = PlayerData.ServerData.quests.mq_quests
   for k, v in pairs(quests) do
-    if v.recv == 0 and v.unlock == 1 then
+    local id = tonumber(k)
+    if v.recv == 0 and v.unlock == 1 and QuestProcess.CheckQuestTime(id) and QuestProcess.CheckQuestPreQuestComplete(id) then
       local t = {}
-      t.id = tonumber(k)
+      t.id = id
       t.endTime = -1
       return t
     end
@@ -189,9 +192,10 @@ end
 local findSideQuest = function()
   local quests = PlayerData.ServerData.quests.branch_quests
   for k, v in pairs(quests) do
-    if v.recv == 0 and v.unlock == 1 then
+    local id = tonumber(k)
+    if v.recv == 0 and v.unlock == 1 and QuestProcess.CheckQuestTime(id) and QuestProcess.CheckQuestPreQuestComplete(id) then
       local t = {}
-      t.id = tonumber(k)
+      t.id = id
       t.endTime = -1
       return t
     end
@@ -301,6 +305,7 @@ end
 
 function module.CompleteQuestOne(questId)
   questId = tonumber(questId)
+  QuestProcess.CompleteQuest(questId)
   local questTraceInfo = PlayerData:GetQuestTrace()
   if questTraceInfo[1] ~= nil then
     local info = questTraceInfo[1]
@@ -328,6 +333,7 @@ function module.CompleteQuest(questIds)
     local info = questTraceInfo[1]
     for k, v in pairs(questIds) do
       local questId = tonumber(v)
+      QuestProcess.CompleteQuest(questId)
       if info.id == questId then
         local t = AutoSetQuestTrace(questId)
         ListenerManager.Broadcast(ListenerManager.Enum.CompleteQuestInQuestTrace, questId)
@@ -367,7 +373,7 @@ local GetViewNode = function(url, nodePathStr)
       local next
       if nextNum then
         nextNum = false
-        local num = tonumber(string.sub(v2, #v2))
+        local num = tonumber(string.sub(v2, #v2 - 1))
         next = node[num + 1]
       else
         next = node[v2]
@@ -676,6 +682,14 @@ function module.AddOpenPanelCallBack()
   cacheQuestIdsInfo = {}
   curQuestTrace = {}
   local questTrace = PlayerData:GetQuestTrace()
+  if questTrace[1] ~= nil then
+    local info = questTrace[1]
+    local curTime = TimeUtil:GetServerTimeStamp()
+    if info.endTime ~= -1 and curTime >= info.endTime or not QuestProcess.CheckQuestTime(info.id) then
+      PlayerData:RemoveQuestTrace()
+      questTrace = {}
+    end
+  end
   for k, v in pairs(questTrace) do
     local isOk = PlayerData:IsHaveQuest(v.id, {
       "mq_quests",

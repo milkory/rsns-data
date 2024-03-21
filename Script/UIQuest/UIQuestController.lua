@@ -8,6 +8,7 @@ function Controller:RequestAllQuest()
   View.ScrollView_QuestList.self:SetActive(false)
   Net:SendProto("quest.list", function(json)
     PlayerData.ServerData.quests = json.quests
+    QuestProcess.UpdateCacheQuest(true)
     DataModel.InitAllQuests(json.quests)
     View.ScrollView_QuestList.Viewport.Content.ScrollGrid_COCQuest.self:SetHeight(DataModel.ConstChildElementHeight)
     View.ScrollView_QuestList.Viewport.Content.ScrollGrid_MainQuest.self:SetHeight(DataModel.ConstChildElementHeight)
@@ -15,6 +16,28 @@ function Controller:RequestAllQuest()
     View.ScrollView_QuestList.self:SetActive(true)
     Controller:FirstShow()
   end, EnumDefine.QuestListDefine.All)
+end
+
+local autoSelectQuest = function(questId)
+  local questCA = PlayerData:GetFactoryData(questId, "QuestFactory")
+  if questCA == nil then
+    return false
+  end
+  local type = DataModel.QuestType[questCA.questType]
+  for k, v in pairs(DataModel.AllQuests[type]) do
+    local id = v.id
+    if questId == id then
+      local mergeIdx = DataModel.GetMergeIdx(type, k)
+      if type == DataModel.QuestType.Order then
+        Controller:ShowOrderDetailInfo(mergeIdx)
+      else
+        Controller:ShowDetailInfo(mergeIdx)
+      end
+      Controller:SelectMainTitle(type, nil, true)
+      return true
+    end
+  end
+  return false
 end
 
 function Controller:FirstShow()
@@ -36,23 +59,11 @@ function Controller:FirstShow()
   Controller:RefreshMainTitleNewState(DataModel.QuestType.Home)
   Controller:RefreshMainTitleNewState(DataModel.QuestType.Order)
   View.Group_Info.self:SetActive(false)
-  if DataModel.QuestTrace ~= nil then
-    local traceId = DataModel.QuestTrace.id
-    local questCA = PlayerData:GetFactoryData(traceId, "QuestFactory")
-    local type = DataModel.QuestType[questCA.questType]
-    for k, v in pairs(DataModel.AllQuests[type]) do
-      local id = v.id
-      if traceId == id then
-        local mergeIdx = DataModel.GetMergeIdx(type, k)
-        if type == DataModel.QuestType.Order then
-          Controller:ShowOrderDetailInfo(mergeIdx)
-        else
-          Controller:ShowDetailInfo(mergeIdx)
-        end
-        Controller:SelectMainTitle(type, nil, true)
-        return
-      end
-    end
+  if DataModel.Data and DataModel.Data.questId and autoSelectQuest(DataModel.Data.questId) then
+    return
+  end
+  if DataModel.QuestTrace ~= nil and autoSelectQuest(DataModel.QuestTrace.id) then
+    return
   end
   local type = DataModel.QuestType.Main
   if #DataModel.AllQuests[type] > 0 then

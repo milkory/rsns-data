@@ -26,11 +26,39 @@ function Controller:Init()
   Controller:ShowNPCTalk(DataModel.NPCDialogEnum.enterText)
   HomeCommon.SetReputationElement(View.Group_Reputation, DataModel.StationId)
   self:RefreshBtnExchange()
+  Controller:CheckQuestProcess()
+end
+
+function Controller:CheckQuestProcess()
+  local params = {}
+  params.url = View.self.url
+  local status = {
+    Current = "Chapter",
+    squadIndex = PlayerData.BattleInfo.squadIndex,
+    hasOpenThreeView = false
+  }
+  local t = {}
+  t.buildingId = DataModel.BuildingId
+  status.extraUIParamData = t
+  params.status = status
+  DataModel.CacheEventList = QuestProcess.CheckEventOpen(DataModel.BuildingId, params)
+  local count = #DataModel.CacheEventList
+  if 0 < count then
+    QuestProcess.AddQuestCallBack(View.self.url, Controller.CheckQuestProcess)
+    if count == 1 then
+      local questCA = PlayerData:GetFactoryData(DataModel.CacheEventList[1].questId)
+      View.Group_Main.Btn_Talk.Txt_Name:SetText(questCA.name)
+    else
+    end
+  else
+    View.Group_Main.Btn_Talk.Txt_Name:SetText(GetText(80602502))
+  end
 end
 
 function Controller:BackInit()
   View.Group_Quest.self:SetActive(false)
   View.Group_Store.self:SetActive(false)
+  View.Group_Main:SetActive(true)
   View.Img_BG:SetSprite(DataModel.BgPath)
   View.Img_BG:SetColor("#" .. DataModel.BgColor)
   local stationConfig = PlayerData:GetFactoryData(DataModel.StationId, "HomeStationFactory")
@@ -40,6 +68,7 @@ function Controller:BackInit()
   local HomeCommon = require("Common/HomeCommon")
   HomeCommon.SetReputationElement(View.Group_Reputation, DataModel.StationId)
   self:RefreshBtnExchange()
+  Controller:CheckQuestProcess()
 end
 
 function Controller:ReturnToMain()
@@ -338,6 +367,12 @@ function Controller:RefreshStoreCoin()
 end
 
 function Controller:ShowNPCTalk(dialogEnum)
+  if dialogEnum == DataModel.NPCDialogEnum.talkText and QuestProcess.CheckTalkDo(DataModel.CacheEventList, View, DataModel.BuildingId, function()
+    View.Group_Main:SetActive(true)
+  end) then
+    View.Group_Main:SetActive(false)
+    return
+  end
   local npcConfig = PlayerData:GetFactoryData(DataModel.NpcId, "NPCFactory")
   local textTable = npcConfig[dialogEnum]
   if textTable == nil then

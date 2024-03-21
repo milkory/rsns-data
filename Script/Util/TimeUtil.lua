@@ -107,7 +107,13 @@ end
 function Time:GetLocalTimeZone()
   local now = os.time()
   local diffTime = os.difftime(now, os.time(os.date("!*t", now)))
-  return diffTime / 3600
+  local timeZone, temp = math.modf(diffTime / 3600)
+  if 0.9999 < temp then
+    timeZone = timeZone + 1
+  elseif temp < -0.9999 then
+    timeZone = timeZone - 1
+  end
+  return timeZone
 end
 
 function Time:GetMailCommonDesc(second)
@@ -191,6 +197,23 @@ function Time:GetFutureTime(futureDays, hour)
     minute = newDate.minute,
     second = newDate.second
   })
+end
+
+function Time:GetFutureTimeByTimeZone(futureDays, hour)
+  local curTimestamp = PlayerData:GetSeverTime()
+  local dayTimestamp = 86400
+  local newTime = curTimestamp + dayTimestamp * futureDays
+  local newDate = os.date("*t", newTime)
+  newTime = os.time({
+    year = newDate.year,
+    month = newDate.month,
+    day = newDate.day,
+    hour = hour,
+    minute = newDate.minute,
+    second = newDate.second
+  })
+  newTime = newTime - (PlayerData.TimeZone - self:GetLocalTimeZone() + (newDate.isdst and -1 or 0)) * 3600
+  return newTime
 end
 
 function Time:GetStandardTime(timeTable)

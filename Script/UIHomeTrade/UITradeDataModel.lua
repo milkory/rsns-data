@@ -32,6 +32,8 @@ local DataModel = {
   AllGoodsBuyLimitUp = 0,
   AllSpeGoodsBuyLimitUp = 0,
   TaxCuts = 0,
+  ActivityGoodsBuyLimitUp = {},
+  ActivityTaxCuts = {},
   FirstBargainBuy = 0,
   FirstBargainSale = 0,
   AfterBargainFailBuy = 0,
@@ -99,6 +101,14 @@ function DataModel.InitHomeSkillData()
   DataModel.TaxCuts = PlayerData:GetHomeSkillIncrease(EnumDefine.HomeSkillEnum.TaxCuts, DataModel.StationId)
   DataModel.FirstBargainBuy = PlayerData:GetHomeSkillIncrease(EnumDefine.HomeSkillEnum.FirstBargain)
   DataModel.AllSpeGoodsBuyLimitUp = PlayerData:GetHomeSkillIncrease(EnumDefine.HomeSkillEnum.AddSpecQty, DataModel.StationId)
+  DataModel.ActivityGoodsBuyLimitUp = PlayerData:GetActivityBuff(EnumDefine.HomeSkillEnum.AddQty, DataModel.StationId)
+  if DataModel.ActivityGoodsBuyLimitUp == 0 then
+    DataModel.ActivityGoodsBuyLimitUp = {}
+  end
+  DataModel.ActivityTaxCuts = PlayerData:GetActivityBuff(EnumDefine.HomeSkillEnum.TaxCuts)
+  if DataModel.ActivityTaxCuts == 0 then
+    DataModel.ActivityTaxCuts = {}
+  end
   DataModel.FirstBargainSale = DataModel.FirstBargainBuy
   DataModel.AfterBargainFailBuy = 0
   DataModel.AfterBargainFailSale = 0
@@ -253,6 +263,7 @@ function DataModel.RefreshSellList(subTemp)
     t.percent = t.price / listCA.price
     t.trend = v.trend
     local up = (DataModel.GoodsBuyLimitUp[t.goodsId] or 0) + (DataModel.GoodsBuyLimitUp.all or 0) + DataModel.AllGoodsBuyLimitUp
+    up = up + (DataModel.ActivityGoodsBuyLimitUp[t.goodsId] or 0) + (DataModel.ActivityGoodsBuyLimitUp.all or 0)
     if t.isSpecial then
       up = up + DataModel.AllSpeGoodsBuyLimitUp
     end
@@ -396,8 +407,9 @@ function DataModel.GetCanBuyOrSaleMaxNum(info, showTips)
       end
       return 0
     end
-    local remainCoin = DataModel.GetMoney() - DataModel.TempCurCost * (1 + DataModel.GetTax())
-    local remainCoinNum = math.floor(remainCoin / (1 + DataModel.GetTax()) / info.newPrice)
+    local remainCoin = DataModel.GetMoney() - MainDataModel.NumRound(DataModel.TempCurCost * (1 + DataModel.GetTax()) + DataModel.GetActivityGoodsTax())
+    local newPrice = info.newPrice * (1 + DataModel.GetTax() + (DataModel.ActivityTaxCuts[info.goodsId] or 0))
+    local remainCoinNum = math.floor(remainCoin / newPrice)
     if remainCoinNum <= 0 then
       if showTips then
         CommonTips.OpenTips(80600539)
@@ -694,6 +706,36 @@ function DataModel.GetBargainBuffParam(enum)
   end
   if DataModel.BargainBuff.type == enum then
     return DataModel.BargainBuff.param
+  end
+  return 0
+end
+
+function DataModel.GetActivityGoodsTax()
+  if DataModel.ActivityTaxCuts then
+    local tax = 0
+    if DataModel.CurTradeType == DataModel.TradeType.Buy then
+      for goodsId, param in pairs(DataModel.ActivityTaxCuts) do
+        for k, v in pairs(DataModel.TempGoodsList) do
+          local info = DataModel.IdToDetailInfo[v.id]
+          if info.goodsId == goodsId then
+            tax = tax + v.num * info.newPrice * param
+          end
+        end
+      end
+    else
+      for goodsId, param in pairs(DataModel.ActivityTaxCuts) do
+        for k, v in pairs(DataModel.TempGoodsList) do
+          local info = DataModel.IdToDetailInfo[v.id]
+          if info.goodsId == goodsId then
+            local profit = v.num * (info.newPrice - info.avgPrice)
+            if 0 < profit then
+              tax = tax + profit * param
+            end
+          end
+        end
+      end
+    end
+    return tax
   end
   return 0
 end

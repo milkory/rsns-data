@@ -8,6 +8,12 @@ function PosClickHandler.OnSpecialCharacterTouch(id)
   if "UI/HomeBubble/InteractiveIcon/FastFood" == id then
     local Controller = require("UICityStore/UICityStoreDataModel")
     Controller:FastFoodClick()
+  elseif tonumber(id) ~= nil then
+    local idx = tonumber(id)
+    local DataModel = require("UICityStore/UICityStoreDataModel")
+    if idx <= #DataModel.CacheEventList then
+      DataModel.CacheEventList[idx]:action()
+    end
   end
 end
 

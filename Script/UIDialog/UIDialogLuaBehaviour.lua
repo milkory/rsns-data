@@ -126,33 +126,36 @@ local Luabehaviour = {
         if findKey ~= "" and not next(DataModel.ReviewList) then
           do
             local questCA = PlayerData:GetFactoryData(questId, "QuestFactory")
-            Net:SendProto("quest.recv_rewards", function(json)
-              PlayerData.ServerData.quests[findKey][tostring(questId)] = nil
-              if json.current_quests ~= nil then
-                for k, v in pairs(json.current_quests) do
-                  questCA = PlayerData:GetFactoryData(k, "QuestFactory")
-                  local serverKey = ""
-                  if questCA.questType == "Main" then
-                    serverKey = "mq_quests"
-                  elseif questCA.questType == "Side" then
-                    serverKey = "branch_quests"
-                  end
-                  if serverKey ~= "" then
-                    PlayerData.ServerData.quests[serverKey][k] = v
-                  end
-                  if v.recv == 0 and v.unlock == 1 then
-                    QuestTrace.AcceptQuest(k)
+            local serverQuest = PlayerData.ServerData.quests[findKey][tostring(questId)]
+            if serverQuest ~= nil and not (0 < serverQuest.recv) then
+              Net:SendProto("quest.recv_rewards", function(json)
+                PlayerData.ServerData.quests[findKey][tostring(questId)] = nil
+                if json.current_quests ~= nil then
+                  for k, v in pairs(json.current_quests) do
+                    questCA = PlayerData:GetFactoryData(k, "QuestFactory")
+                    local serverKey = ""
+                    if questCA.questType == "Main" then
+                      serverKey = "mq_quests"
+                    elseif questCA.questType == "Side" then
+                      serverKey = "branch_quests"
+                    end
+                    if serverKey ~= "" then
+                      PlayerData.ServerData.quests[serverKey][k] = v
+                    end
+                    if v.recv == 0 and v.unlock == 1 then
+                      QuestTrace.AcceptQuest(k)
+                    end
                   end
                 end
-              end
-              GuideManager:CompleteQuestCallBack({
-                [1] = questId
-              })
-              QuestTrace.CompleteQuestOne(questId)
-              CommonTips.OpenQuestsCompleteTip({
-                [1] = questId
-              })
-            end, questId)
+                GuideManager:CompleteQuestCallBack({
+                  [1] = questId
+                })
+                QuestTrace.CompleteQuestOne(questId)
+                CommonTips.OpenQuestsCompleteTip({
+                  [1] = questId
+                })
+              end, questId)
+            end
           end
         end
       end

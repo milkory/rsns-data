@@ -109,14 +109,23 @@ function Controller:RefreshBatchMoney(num)
     View.Group_Batch.Group_Panel.Group_Price.Txt_Type:SetText(GetText(typeTxtId))
     local showTotal = 0
     if isBuy then
-      showTotal = DataModel.NumRound((TradeDataModel.TempCurCost + curBuyPrice) * (1 + TradeDataModel.GetTax()))
+      local activityTax = (TradeDataModel.ActivityTaxCuts[DataModel.BatchInfo.goodsId] or 0) * curBuyPrice
+      showTotal = DataModel.NumRound((TradeDataModel.TempCurCost + curBuyPrice) * (1 + TradeDataModel.GetTax()) + activityTax + TradeDataModel.GetActivityGoodsTax())
     else
       local totalSale = TradeDataModel.TempCurTotalSalePrice + curBuyPrice
       local totalAvg = TradeDataModel.TempCurAvgCost + DataModel.BatchInfo.avgPrice * num
       local profit = totalSale - totalAvg
       local tax = 0
       if 0 < profit then
-        tax = DataModel.NumRound(profit * TradeDataModel.GetTax())
+        local activityTax = TradeDataModel.ActivityTaxCuts[DataModel.BatchInfo.goodsId] or 0
+        if activityTax ~= 0 then
+          activityTax = activityTax * (DataModel.BatchInfo.newPrice - DataModel.BatchInfo.avgPrice) * num
+        end
+        local newProfit = profit * TradeDataModel.GetTax() + activityTax + TradeDataModel.GetActivityGoodsTax()
+        if newProfit < 0 then
+          newProfit = 0
+        end
+        tax = DataModel.NumRound(newProfit)
       end
       showTotal = totalSale - tax
     end

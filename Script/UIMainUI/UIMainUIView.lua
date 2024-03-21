@@ -612,7 +612,7 @@ local MainUI = {
               Txt_Num = nil
             }
           },
-          Btn_BuyRush = {
+          Btn_Trailer = {
             self = nil,
             Txt_Title = nil,
             Img_Icon = nil,
@@ -622,7 +622,7 @@ local MainUI = {
               Txt_Num = nil
             }
           },
-          Btn_Trailer = {
+          Btn_BuyRush = {
             self = nil,
             Txt_Title = nil,
             Img_Icon = nil,
@@ -635,12 +635,7 @@ local MainUI = {
           Btn_DriveSetup = {
             self = nil,
             Txt_Title = nil,
-            Img_Icon = nil,
-            Group_Num = {
-              self = nil,
-              Img_ = nil,
-              Txt_Num = nil
-            }
+            Img_Icon = nil
           }
         },
         Group_Energy = {

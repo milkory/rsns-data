@@ -971,6 +971,12 @@ end
 Protocol["hero.read"] = function(roleId)
   return {roleId = roleId}
 end
+Protocol["hero.open_resonance"] = function(hid, hStatus)
+  return {r_status = hStatus, hid = hid}
+end
+Protocol["hero.open_awake"] = function(hid, hStatus)
+  return {a_status = hStatus, hid = hid}
+end
 Protocol["book.read_enemy"] = function(enemyId)
   return {enemyId = enemyId}
 end
@@ -986,6 +992,18 @@ Protocol["recruit.records"] = function(tagId, pageSize, pageNum)
     pageSize = pageSize,
     pageNum = pageNum
   }
+end
+Protocol["main.participate"] = function(activityId)
+  return {activityId = activityId}
+end
+Protocol["main.red"] = function(activityId)
+  return {activityId = activityId}
+end
+Protocol["book.top_card"] = function(packId)
+  return {packId = packId}
+end
+Protocol["main.recv_activity"] = function(activityId, questId)
+  return {qid = questId, activityId = activityId}
 end
 Protocol["home.unlock_drive_setup"] = function(setUpType)
   return {setUpType = setUpType}

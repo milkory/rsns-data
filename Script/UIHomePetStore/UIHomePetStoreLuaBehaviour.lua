@@ -4,11 +4,16 @@ local Controller = require("UIHomePetStore/UIHomePetStoreController")
 local ViewFunction = require("UIHomePetStore/UIHomePetStoreViewFunction")
 local Luabehaviour = {
   serialize = function()
+    if DataModel.CacheInitParams then
+      return Json.encode(DataModel.CacheInitParams)
+    end
   end,
   deserialize = function(initParams)
     if initParams ~= nil then
       local t = Json.decode(initParams)
+      DataModel.CacheInitParams = t
       DataModel.StationId = t.stationId
+      DataModel.BuildingId = t.buildingId
       DataModel.NpcId = t.npcId
       DataModel.BgPath = t.bgPath
       DataModel.BgColor = t.bgColor or "FFFFFF"
@@ -31,6 +36,7 @@ local Luabehaviour = {
   enable = function()
   end,
   disenable = function()
+    QuestProcess.RemoveQuestCallBack(View.self.url)
   end
 }
 return {

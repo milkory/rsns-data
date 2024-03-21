@@ -178,6 +178,15 @@ function CommonTips.OpenShowItem(parms, yesFuc, titleStr)
     UIManager:Open("UI/ShowCharacter/ShowCharacter", Json.encode(list), function()
       UIManager:Open("UI/Common/ShowItem", Json.encode({rewards = parms, title = titleStr}))
     end, nil, false, true)
+  elseif parms.card_pack and 0 < table.count(parms.card_pack) then
+    local cardId = 86200002
+    for i, v in pairs(parms.card_pack) do
+      cardId = i
+      break
+    end
+    UIManager:Open("UI/CollectionCard/CardDrawing", Json.encode({cardId = cardId}), function()
+      UIManager:Open("UI/Common/ShowItem", Json.encode({rewards = parms, title = titleStr}))
+    end, nil, false, false)
   else
     UIManager:Open("UI/Common/ShowItem", Json.encode({rewards = parms, title = titleStr}), yesFuc)
   end
@@ -282,6 +291,10 @@ function CommonTips.OpenPreRewardDetailTips(id, row, showGetWay)
   if type == "PhotoTips" then
     CommonTips.OpenPhotoItemTips(id)
   end
+  if type == "CardTips" then
+    local cardId = tonumber(id)
+    UIManager:Open("UI/CollectionCard/CollectionCard_Tips", Json.encode({cardId = cardId}))
+  end
 end
 
 local StoryItemConfig = {
@@ -337,6 +350,24 @@ function CommonTips.OpenRewardDetail(id, row)
   end
   if type == "SkinViewTips" then
     CommonTips.OpenSkinViewTips({id = id, isSkinView = true})
+  end
+  if type == "CardTips" then
+    local cardId = tonumber(id)
+    UIManager:Open("UI/CollectionCard/CollectionCard_Tips", Json.encode({cardId = cardId}))
+  end
+  if type == "CardPackTips" then
+    CommonTips.OpenItem({
+      itemId = id,
+      type = EnumDefine.OpenTip.NoDepot
+    })
+  end
+  if type == "HomeWeapon" then
+    local weaponUid
+    if row then
+      weaponUid = row.uid
+    end
+    local data = {id = id, weaponUid = weaponUid}
+    UIManager:Open("UI/Trainfactory/Weapon/Group_TrainWeaponItem", Json.encode(data))
   end
 end
 
@@ -1043,6 +1074,11 @@ function CommonTips.OpenNoteBook(bookIndex)
   t.dataTab = cfg.dataTab
   t.bookIndex = bookIndex
   UIManager:Open("UI/Notebook/Notebook", Json.encode(t))
+end
+
+function CommonTips.OpenHelp(helpId)
+  local data = {helpId = helpId}
+  UIManager:Open("UI/Common/Group_Help", Json.encode(data))
 end
 
 return CommonTips

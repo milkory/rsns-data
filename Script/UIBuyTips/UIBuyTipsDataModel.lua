@@ -11,10 +11,10 @@ DataModel.EnumBtnType = {
 }
 local SetFurniture = function(element, data, isDetail)
   element:SetActive(true)
-  element.Txt_Name:SetText(data.commoditData.commodityName)
-  element.Img_Mask.Img_Item:SetSprite(data.commoditData.commodityView)
+  element.Txt_Name:SetText(DataModel.commoditCA.commodityName)
+  element.Img_Mask.Img_Item:SetSprite(DataModel.commoditCA.commodityView)
   View.Txt_Name:SetActive(false)
-  local item = data.commoditData.commodityItemList[1]
+  local item = DataModel.commoditCA.commodityItemList[1]
   if item then
     local itemCA = PlayerData:GetFactoryData(item.id)
     if itemCA.plantScores then
@@ -49,19 +49,21 @@ local SetFurniture = function(element, data, isDetail)
     end
   end
 end
-local SetItem = function(element, data, isDetail)
+local SetItem = function(element)
+  local data = DataModel.commoditCA
   element:SetActive(true)
   element.Txt_Num:SetActive(true)
-  element.Txt_Num:SetText(data.commoditData.commodityNum or 1)
-  element.Img_Bottom:SetSprite(UIConfig.BottomConfig[data.qualityInt])
-  element.Img_Item:SetSprite(data.image)
-  element.Img_Mask:SetSprite(UIConfig.MaskConfig[data.qualityInt])
+  element.Txt_Num:SetText(data.commodityNum or 1)
   element.Img_Time:SetActive(false)
   element.Group_EType:SetActive(false)
-  local commodity = data.commoditData.commodityItemList[1]
+  local commodity = data.commodityItemList[1]
   local factoryName = DataManager:GetFactoryNameById(commodity.id)
+  local itemCA = PlayerData:GetFactoryData(commodity.id)
   View.Txt_Name:SetActive(true)
-  View.Txt_Name:SetText(data.name)
+  View.Txt_Name:SetText(itemCA.name)
+  element.Img_Item:SetSprite(itemCA.iconPath)
+  element.Img_Bottom:SetSprite(UIConfig.BottomConfig[data.qualityInt + 1])
+  element.Img_Mask:SetSprite(UIConfig.MaskConfig[data.qualityInt + 1])
   if factoryName == "EquipmentFactory" then
     local detailData = PlayerData:GetFactoryData(commodity.id)
     element.Group_EType:SetActive(true)
@@ -70,18 +72,29 @@ local SetItem = function(element, data, isDetail)
     element.Group_EType.Img_IconBg:SetSprite(UIConfig.EquipmentTypeMarkBg[detailData.qualityInt])
   end
 end
+local SetData = function(data)
+  DataModel.CommoditData = data
+  if data.id then
+    DataModel.commoditCA = PlayerData:GetFactoryData(data.id)
+  end
+  if data.commoditData and data.commoditData.id then
+    DataModel.commoditCA = PlayerData:GetFactoryData(data.commoditData.id)
+  end
+  DataModel.ShopCA = PlayerData:GetFactoryData(data.shopid)
+end
 
 function DataModel:OpenBuyTips(isOpen, data)
   if isOpen then
-    DataModel.CommoditData = data
-    DataModel.isConfig = PlayerData:GetStoreBuyTipsConfig(DataModel.CommoditData.commoditData.commodityItemList[1].id)
-    DataModel.moneyList = DataModel.CommoditData.commoditData.moneyList[1]
+    SetData(data)
+    DataModel.isConfig = PlayerData:GetStoreBuyTipsConfig(DataModel.commoditCA.commodityItemList[1].id)
+    DataModel.moneyList = DataModel.commoditCA.moneyList[1]
+    local commoditCA = DataModel.commoditCA
     local moneyList = DataModel.moneyList
     local moneyNum = moneyList == nil and 0 or moneyList.moneyNum
     local moneyID = moneyList == nil and 0 or moneyList.moneyID
     local curHaveMoneyNum = PlayerData:GetGoodsById(moneyID).num
     local now_max = 0
-    if DataModel.CommoditData.commoditData.isChange and 0 < DataModel.moneyList.correspondPrice then
+    if commoditCA.isChange and 0 < DataModel.moneyList.correspondPrice then
       local listCA = PlayerData:GetFactoryData(DataModel.moneyList.correspondPrice, "ListFactory")
       local priceLength = #listCA.priceList
       for i = (DataModel.CommoditData.py_cnt or 0) + 1, priceLength do
@@ -101,12 +114,12 @@ function DataModel:OpenBuyTips(isOpen, data)
     if now_max < 1 then
       now_max = 1
     end
-    if DataModel.CommoditData.commoditData and DataModel.CommoditData.commoditData.oneTimeMax then
-      local min = math.min(DataModel.CommoditData.commoditData.oneTimeMax, now_max)
+    if commoditCA and commoditCA.oneTimeMax then
+      local min = math.min(commoditCA.oneTimeMax, now_max)
       now_max = min
     end
-    if DataModel.CommoditData.commoditData.purchase == true then
-      local min = math.min(DataModel.CommoditData.commoditData.purchaseNum, now_max)
+    if commoditCA.purchase == true then
+      local min = math.min(commoditCA.purchaseNum, now_max)
       now_max = min
     end
     if data.residue and data.residue ~= "" then
@@ -119,9 +132,17 @@ function DataModel:OpenBuyTips(isOpen, data)
     View.Img_Furniture.self:SetActive(false)
     View.Group_Item.self:SetActive(false)
     if DataModel.isConfig == true then
-      SetFurniture(View.Img_Furniture, data)
+      SetFurniture(View.Img_Furniture)
     else
-      SetItem(View.Group_Item, data)
+      local CommonItem = require("Common/BtnItem")
+      CommonItem:SetItem(View.Group_Item, {
+        id = commoditCA.commodityItemList[1].id,
+        num = commoditCA.commodityNum
+      })
+      local commodity = commoditCA.commodityItemList[1]
+      local itemCA = PlayerData:GetFactoryData(commodity.id)
+      View.Txt_Name:SetActive(true)
+      View.Txt_Name:SetText(itemCA.name or itemCA.SkinName)
     end
     View.Group_Slider.Slider_Value:SetMinAndMaxValue(1, data.residue)
     if data.residue == 1 then
@@ -149,7 +170,7 @@ local SetNum = function(maxNum)
   View.Group_Slider.Group_Num.Txt_Possess:SetText(maxNum)
   local moneyNum = DataModel.moneyList and DataModel.moneyList.moneyNum or 0
   local price = num * moneyNum
-  if DataModel.CommoditData.commoditData.isChange and 0 < DataModel.moneyList.correspondPrice then
+  if DataModel.commoditCA.isChange and 0 < DataModel.moneyList.correspondPrice then
     local buyCount = DataModel.CommoditData.py_cnt or 0
     local listCA = PlayerData:GetFactoryData(DataModel.moneyList.correspondPrice, "ListFactory")
     price = 0
@@ -171,11 +192,11 @@ local SetNum = function(maxNum)
   if price > PlayerData:GetGoodsById(DataModel.moneyList.moneyID).num then
     View.Group_Gold.Txt_Num:SetColor("#FF0808")
   end
-  if DataModel.CommoditData.commoditData.monetaryView == "" or DataModel.CommoditData.commoditData.monetaryView == nil then
+  if DataModel.commoditCA.monetaryView == "" or DataModel.commoditCA.monetaryView == nil then
     View.Group_Gold.Img_:SetActive(false)
   else
     View.Group_Gold.Img_:SetActive(true)
-    View.Group_Gold.Img_:SetSprite(DataModel.CommoditData.commoditData.monetaryView)
+    View.Group_Gold.Img_:SetSprite(DataModel.commoditCA.monetaryView)
   end
 end
 
@@ -220,32 +241,29 @@ function DataModel:BuyCommodit()
     local callback = function()
       CommonTips.OpenStoreBuy()
     end
-    if moneyID == 11400001 then
-      CommonTips.OpenTips(80600129)
-    end
+    local moneyName = PlayerData:GetFactoryData(moneyID).name
     if moneyID == 11400005 then
       CommonTips.OnPrompt(80600147, "确认", "取消", callback)
-    end
-    if moneyID == 11400020 then
-      CommonTips.OnPrompt(80600240)
-    end
-    if moneyID == 11400017 then
-      CommonTips.OpenTips(80600464)
-    end
-    if moneyID == 11400100 then
+    elseif moneyID == 11400100 then
       local ca = PlayerData:GetFactoryData(moneyID, DataManager:GetFactoryNameById(moneyID))
       CommonTips.OpenTips(string.format(GetText(80601070), ca.name))
+    else
+      CommonTips.OpenTips(string.format(GetText(80601070), moneyName))
     end
   else
     local callback = function(json)
       if moneyID == 11400100 then
         PlayerData:RefreshUseItems({
-          [moneyID] = money
+          [moneyID] = math.ceil(DataModel.currentNum)
+        })
+      else
+        PlayerData:RefreshUseItems({
+          [moneyID] = math.ceil(DataModel.currentNum) * (DataModel.moneyList.moneyNum or 0)
         })
       end
       UIManager:GoBack(false)
     end
-    if DataModel.CommoditData.storeType == "Regular" then
+    if DataModel.ShopCA.storeType == "Regular" then
       Net:SendProto("shop.buy", function(json)
         self:OnBuySuccess({json = json})
         local row = json.reward
@@ -255,7 +273,7 @@ function DataModel:BuyCommodit()
         if not DataModel.CommoditData.noShowReward then
           CommonTips.OpenShowItem(json.reward)
         end
-      end, tostring(DataModel.CommoditData.shopid), DataModel.CommoditData.index, math.ceil(DataModel.currentNum), DataModel.CommoditData.commoditData.id)
+      end, tostring(DataModel.CommoditData.shopid), DataModel.CommoditData.index, math.ceil(DataModel.currentNum), DataModel.commoditCA.id)
     else
       if DataModel.CommoditData.type and DataModel.CommoditData.type == "role" then
         Net:SendProto("shop.buy", function(json)

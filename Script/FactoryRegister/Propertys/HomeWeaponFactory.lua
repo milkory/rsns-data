@@ -6,6 +6,19 @@ RegProperty("HomeWeaponFactory", {
     arg0 = ""
   },
   {
+    name = "effectType",
+    type = "Enum",
+    des = "特效类型|0-无特效状态，1-大世界常态加载，2-UI替换，3-timeline加载，4-点击喇叭加载",
+    arg0 = "0#1#2#3#4",
+    arg1 = "0"
+  },
+  {
+    name = "effectTypeEffect",
+    type = "Factory",
+    des = "特殊特效",
+    arg0 = "EffectFactory"
+  },
+  {
     name = "specialEffects",
     type = "Path",
     des = "特效路径",

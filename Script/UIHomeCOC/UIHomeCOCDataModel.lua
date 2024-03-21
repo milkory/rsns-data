@@ -1,5 +1,6 @@
 local DataModel = {
   StationId = 0,
+  BuildingId = 0,
   NpcId = 0,
   BgPath = "",
   BgColor = "FFFFFF",
@@ -33,7 +34,8 @@ local DataModel = {
     Buy = 80602118,
     Send = 80602117,
     Passenger = 80602119
-  }
+  },
+  CacheEventList = {}
 }
 
 function DataModel.Init()

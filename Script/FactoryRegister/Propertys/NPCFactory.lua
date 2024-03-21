@@ -65,7 +65,7 @@ RegProperty("NPCFactory", {
     name = "enterText",
     type = "Array",
     des = "打开界面",
-    detail = "id#weight#reputation"
+    detail = "id#weight#reputation#activityId#startTime#endTime"
   },
   {
     name = "id",
@@ -84,13 +84,31 @@ RegProperty("NPCFactory", {
     type = "Int",
     des = "所需声望等级",
     arg0 = "0"
+  },
+  {
+    name = "activityId",
+    type = "Factory",
+    des = "在活动期间显示|活动ID",
+    arg0 = "ActivityFactory"
+  },
+  {
+    name = "startTime",
+    type = "String",
+    des = "开始时间|与活动时间互斥",
+    arg0 = ""
+  },
+  {
+    name = "endTime",
+    type = "String",
+    des = "结束时间|与活动时间互斥",
+    arg0 = ""
   },
   {name = "end"},
   {
     name = "talkText",
     type = "Array",
     des = "交谈",
-    detail = "id#weight#reputation"
+    detail = "id#weight#reputation#activityId#startTime#endTime"
   },
   {
     name = "id",
@@ -109,6 +127,24 @@ RegProperty("NPCFactory", {
     type = "Int",
     des = "所需声望等级",
     arg0 = "0"
+  },
+  {
+    name = "activityId",
+    type = "Factory",
+    des = "在活动期间显示|活动ID",
+    arg0 = "ActivityFactory"
+  },
+  {
+    name = "startTime",
+    type = "String",
+    des = "开始时间|与活动时间互斥",
+    arg0 = ""
+  },
+  {
+    name = "endTime",
+    type = "String",
+    des = "结束时间|与活动时间互斥",
+    arg0 = ""
   },
   {name = "end"},
   {

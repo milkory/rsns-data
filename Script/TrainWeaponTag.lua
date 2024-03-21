@@ -42,7 +42,7 @@ local GetResult = function(param, initValue)
     value = math.floor(initValue * param[1] + 0.5)
   end
   if param[2] then
-    if 1 < param[2] then
+    if 1 <= param[2] then
       value = value + math.floor(param[2] + 0.5)
     else
       value = value + param[2]
@@ -353,6 +353,21 @@ function TrainWeaponTag.GetTrainLight()
     end
   end
   return 0
+end
+
+function TrainWeaponTag.GetTrainEffect()
+  local path = {}
+  local train_accessories = PlayerData:GetHomeInfo().train_pendant
+  for k, v in pairs(train_accessories) do
+    if v ~= "" then
+      local serverBatteryData = PlayerData:GetBattery()[v]
+      local weaponCA = PlayerData:GetFactoryData(serverBatteryData.id, "HomeWeaponFactory")
+      if weaponCA.effectType == "1" then
+        table.insert(path, weaponCA.effectTypeEffect)
+      end
+    end
+  end
+  return path
 end
 
 function TrainWeaponTag.IsWeaponedById(id)

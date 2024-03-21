@@ -1399,11 +1399,39 @@ local ViewFunction = {
   end,
   CharacterInfo_Group_TabSkill_Group_CommonTopLeft_Btn_Home_Click = function(btn, str)
   end,
-  CharacterInfo_Group_TabSkill_Group_CommonTopLeft_Btn_Help_Click = function(btn, str)
-  end,
   CharacterInfo_Group_TabSkill_Group_CommonTopLeft_Btn_Menu_Click = function(btn, str)
   end,
+  CharacterInfo_Group_TabSkill_Group_CommonTopLeft_Btn_Help_Click = function(btn, str)
+  end,
   CharacterInfo_Group_SkillCheck_Group_CommonTopLeft_Btn_Menu_Click = function(btn, str)
+  end,
+  CharacterInfo_Group_TabAwake_Group_TalentLock_Btn_Off_Click = function(btn, str)
+    local hStatus = PlayerData:IsRoleAwakeLock(DataModel.RoleCA.id) and 0 or 1
+    PlayerData:SetRoleAwakeLock(DataModel.RoleCA.id, hStatus, function()
+      AwakeLoader:Load(nil, true)
+      BtnController:SetSkillList()
+    end)
+  end,
+  CharacterInfo_Group_TabAwake_Group_TalentLock_Btn_On_Click = function(btn, str)
+    local hStatus = PlayerData:IsRoleAwakeLock(DataModel.RoleCA.id) and 0 or 1
+    PlayerData:SetRoleAwakeLock(DataModel.RoleCA.id, hStatus, function()
+      AwakeLoader:Load(nil, true)
+      BtnController:SetSkillList()
+    end)
+  end,
+  CharacterInfo_Group_TabResonance_Group_TalentLock_Btn_Off_Click = function(btn, str)
+    local hStatus = PlayerData:IsRoleResonanceLock(DataModel.RoleCA.id) and 0 or 1
+    PlayerData:SetRoleResonanceLock(DataModel.RoleCA.id, hStatus, function()
+      ResonanceLoader:Refresh(true)
+      BtnController:SetSkillList()
+    end)
+  end,
+  CharacterInfo_Group_TabResonance_Group_TalentLock_Btn_On_Click = function(btn, str)
+    local hStatus = PlayerData:IsRoleResonanceLock(DataModel.RoleCA.id) and 0 or 1
+    PlayerData:SetRoleResonanceLock(DataModel.RoleCA.id, hStatus, function()
+      ResonanceLoader:Refresh(true)
+      BtnController:SetSkillList()
+    end)
   end,
   CharacterInfo_Group_CommonTopLeft_Group_Help_Group_window_Group_tabList_ScrollGrid_list_SetGrid = function(element, elementIndex)
   end,

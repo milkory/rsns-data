@@ -101,11 +101,24 @@ function Controller.RefreshMain()
     View.Group_Show.Txt_EndTime:SetActive(false)
   end
   View.Group_Show.Txt_Name:SetText(data.name)
-  View.Group_Show.ScrollView_Describe.Viewport.Txt_Describe:SetText(data.des or data.describe)
-  View.Group_Show.Img_Icon:SetSprite(data.tipsPath)
-  if DataModel.isHomeGoods then
-    View.Group_Show.Img_Icon:SetSprite(data.imagePath)
+  local des = ""
+  local tipsPath = ""
+  if factoryName == "CollectionCardPackFactory" then
+    des = data.itemDes
+    tipsPath = data.itemTipsPath
+    View.Group_Show.Group_Num:SetActive(false)
+    View.Group_Show.Img_Quality:SetActive(false)
+  else
+    View.Group_Show.Group_Num:SetActive(true)
+    View.Group_Show.Img_Quality:SetActive(true)
+    des = data.des or data.describe
+    tipsPath = data.tipsPath
+    if DataModel.isHomeGoods then
+      tipsPath = data.imagePath
+    end
   end
+  View.Group_Show.ScrollView_Describe.Viewport.Txt_Describe:SetText(des)
+  View.Group_Show.Img_Icon:SetSprite(tipsPath)
   if data.qualityInt ~= nil then
     View.Group_Show.Img_Rarity:SetSprite(UIConfig.TipConfig[data.qualityInt + 1])
     View.Group_Show.Img_Quality:SetSprite(UIConfig.ItemTipQuality[data.qualityInt + 1])
@@ -114,7 +127,6 @@ function Controller.RefreshMain()
     View.Group_Show.Img_Quality:SetSprite(UIConfig.ItemTipQuality[data.rarityInt + 1])
   end
   View.Group_Show.Img_Rarity:SetActive(true)
-  View.Group_Show.Img_Quality:SetActive(true)
   View.Group_Show.Group_Num.Txt_Num:SetText(DataModel.ItemInfo.num)
   if DataModel.ItemInfo.num == 0 then
     View.Group_Convert.self:SetActive(false)

@@ -902,6 +902,20 @@ local CharacterInfo = {
       Txt_E = nil,
       Img_RedPoint = nil
     },
+    Group_TalentLock = {
+      self = nil,
+      Img_WhitePanel = nil,
+      Btn_Off = {
+        self = nil,
+        Txt_T = nil,
+        Img_Icon = nil
+      },
+      Btn_On = {
+        self = nil,
+        Txt_T = nil,
+        Img_Icon = nil
+      }
+    },
     Group_Icon1 = {
       self = nil,
       Img_Base = nil,

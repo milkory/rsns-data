@@ -28,7 +28,7 @@ RegProperty("MailFactory", {
     name = "id",
     type = "Factory",
     des = "物品",
-    arg0 = "ItemFactory#SourceMaterialFactory#EquipmentFactory#UnitFactory#HomeCharacterSkinFactory#ProfilePhotoFactory"
+    arg0 = "ItemFactory#SourceMaterialFactory#EquipmentFactory#UnitFactory#HomeCharacterSkinFactory#ProfilePhotoFactory#UnitViewFactory#HomeFurnitureFactory"
   },
   {
     name = "num",
@@ -62,6 +62,13 @@ RegProperty("MailFactory", {
     type = "Int",
     des = "结束等级",
     arg0 = "100"
+  },
+  {
+    mod = "补偿邮件",
+    name = "questId",
+    type = "Factory",
+    des = "完成任务",
+    arg0 = "QuestFactory"
   },
   {
     mod = "补偿邮件",

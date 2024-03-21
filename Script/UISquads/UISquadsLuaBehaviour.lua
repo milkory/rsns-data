@@ -136,14 +136,14 @@ local Luabehaviour = {
       end
       View.Btn_Start.Group_Clarity.Txt_Num:SetText("-" .. costEnergyNum)
     end
-    DataModel.homeSafeData = nil
+    DataModel.extraUIParamData = nil
     if status ~= nil then
-      if status.homeSafeData then
-        DataModel.homeSafeData = status.homeSafeData
+      if status.extraUIParamData then
+        DataModel.extraUIParamData = status.extraUIParamData
         if PlayerData.Last_Chapter_Parms == nil then
           PlayerData.Last_Chapter_Parms = {}
         end
-        for k, v in pairs(status.homeSafeData) do
+        for k, v in pairs(status.extraUIParamData) do
           PlayerData.Last_Chapter_Parms[k] = v
         end
       end

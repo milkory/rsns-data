@@ -1,5 +1,6 @@
 local DataModel = {
   StationId = 0,
+  BuildingId = 0,
   NpcId = 0,
   BgPath = "",
   BgColor = "FFFFFF",
@@ -21,7 +22,8 @@ local DataModel = {
   DrinkInfo = 0,
   DrinkCurCount = 0,
   DrinkIdx = 0,
-  CacheOpenStore = {}
+  CacheOpenStore = {},
+  CacheEventList = {}
 }
 
 function DataModel.InitShopData(idx)

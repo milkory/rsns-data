@@ -84,15 +84,43 @@ function Controller:Init(first)
     View.Group_Main.Btn_XS.Img_Rep:SetActive(false)
     View.Group_Main.Btn_XS.self:SetBtnInteractable(true)
   end
+  View.Group_Main.self:SetActive(true)
   if first then
     Controller:ShowNPCTalk(DataModel.NPCDialogEnum.enterText)
-    View.Group_Main.self:SetActive(true)
     View.Group_Level.self:SetActive(false)
     View.Group_XS.self:SetActive(false)
     View.Group_Report.self:SetActive(false)
   end
   Controller:RefreshRedPoint()
   Controller:RefreshBtnExchange()
+  Controller:CheckQuestProcess()
+end
+
+function Controller:CheckQuestProcess()
+  local params = {}
+  params.url = View.self.url
+  local status = {
+    Current = "Chapter",
+    squadIndex = PlayerData.BattleInfo.squadIndex,
+    hasOpenThreeView = false
+  }
+  local t = {}
+  t.buildingId = DataModel.BuildingId
+  t.isCityMapIn = DataModel.IsCityMapIn
+  status.extraUIParamData = t
+  params.status = status
+  DataModel.CacheEventList = QuestProcess.CheckEventOpen(DataModel.BuildingId, params)
+  local count = #DataModel.CacheEventList
+  if 0 < count then
+    QuestProcess.AddQuestCallBack(View.self.url, Controller.CheckQuestProcess)
+    if count == 1 then
+      local questCA = PlayerData:GetFactoryData(DataModel.CacheEventList[1].questId)
+      View.Group_Main.Btn_Talk.Txt_:SetText(questCA.name)
+    else
+    end
+  else
+    View.Group_Main.Btn_Talk.Txt_:SetText(GetText(80602502))
+  end
 end
 
 function Controller:RefreshBtnExchange()
@@ -258,6 +286,12 @@ function Controller:SetNPC()
 end
 
 function Controller:ShowNPCTalk(dialogEnum)
+  if dialogEnum == DataModel.NPCDialogEnum.talkText and QuestProcess.CheckTalkDo(DataModel.CacheEventList, View, DataModel.BuildingId, function()
+    View.Group_Main:SetActive(true)
+  end) then
+    View.Group_Main:SetActive(false)
+    return
+  end
   local npcConfig = PlayerData:GetFactoryData(DataModel.NpcId, "NPCFactory")
   local textTable = npcConfig[dialogEnum]
   if textTable == nil then
@@ -590,7 +624,7 @@ function Controller:ClickBattle(str)
     t.buildingId = DataModel.BuildingId
     t.isCityMapIn = DataModel.IsCityMapIn
     t.autoShowLevel = 1
-    status.homeSafeData = t
+    status.extraUIParamData = t
     PlayerData.BattleInfo.battleStageId = levelId
     PlayerData.BattleCallBackPage = "UI/Home/HomeSafe/HomeSafe"
     UIManager:Open("UI/Squads/Squads", Json.encode(status))

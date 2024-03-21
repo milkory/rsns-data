@@ -1,4 +1,6 @@
-local DataModel = {}
+local DataModel = {
+  CacheEventList = {}
+}
 
 function DataModel.FastFoodClick()
   if DataModel.forbidReturn then

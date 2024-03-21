@@ -45,8 +45,8 @@ RegProperty("QuestFactory", {
   {
     name = "questType",
     type = "Enum",
-    des = "任务类型||Main:主线任务,Side:支线任务,Daily:日常任务,Weekly:周常任务,Home:商会任务,Achieve:成就,Order:交货任务,Monthly:月任务,Activity:活动任务",
-    arg0 = "Main#Side#Daily#Weekly#Home#Achieve#Order#Monthly#Activity",
+    des = "任务类型||Main:主线任务,Side:支线任务,Daily:日常任务,Weekly:周常任务,Home:商会任务,Achieve:成就,Order:交货任务,Monthly:月任务,Activity:活动任务,ActivityAchieve:活动成就",
+    arg0 = "Main#Side#Daily#Weekly#Home#Achieve#Order#Monthly#Activity#ActivityAchieve",
     arg1 = "Main"
   },
   {
@@ -71,6 +71,19 @@ RegProperty("QuestFactory", {
     pyIgnore = true
   },
   {
+    mod = "活动任务",
+    name = "",
+    type = "SysLine",
+    des = "前置条件"
+  },
+  {
+    mod = "活动任务",
+    name = "preQuestId",
+    type = "Factory",
+    des = "前置任务",
+    arg0 = "QuestFactory"
+  },
+  {
     mod = "",
     name = "",
     type = "SysLine",
@@ -85,8 +98,8 @@ RegProperty("QuestFactory", {
   {
     name = "key",
     type = "Enum",
-    des = "条件|任务完成条件，可以组合使用|levelId:完成指定关卡,levelType:完成指定类型关卡0主线6治安,dialog:剧情对话,levelGrade:关卡达到指定评分,cityId:进入指定车站或限定任务车站,gacha:抽卡,safeSideLevelList:指定治安池中支线关卡,roleGrade:角色等级,buyItem:商店购买指定道具,trainLength:列车节数,coachType:车厢类型,questId:任务ID,sellItem:出售道具,allServer:全服数据",
-    arg0 = "levelId#chapterId#levelType#levelGrade#upOperation#itemCost#dayLog#energyCost#skillUp#useCharacterComplete#useCharacterHurt#useShield#dizziness#cure#cardColor#XuanShang#ZhiAn#beatAnyEnemy#beatBoss#discard#characterNum#camp#getEnergy#dialog#onceProfit#addProfit#addWeight#addPeople#addDrinkNum#cityId#invest#travel#finishOrder#solicitCustomer#priceDownWin#priceUpWin#gainFans#trade#gacha#anyStore#safeSideLevelList#roleGrade#buyItem#trainLength#coachType#questId#sellItem#allServer",
+    des = "条件|任务完成条件，可以组合使用|levelId:完成指定关卡,levelType:完成指定类型关卡0主线6治安,dialog:剧情对话,levelGrade:关卡达到指定评分,cityId:进入指定车站或限定任务车站,gacha:抽卡,safeSideLevelList:指定治安池中支线关卡,roleGrade:角色等级,buyItem:商店购买指定道具,trainLength:列车节数,coachType:车厢类型,questId:任务ID,sellItem:出售道具,allServer:全服数据,sellItemAddProfit:出售道具累计利润,sellItemOnceProfit:出售道具单笔利润,shopId:指定商店",
+    arg0 = "levelId#chapterId#levelType#levelGrade#upOperation#itemCost#dayLog#energyCost#skillUp#useCharacterComplete#useCharacterHurt#useShield#dizziness#cure#cardColor#XuanShang#ZhiAn#beatAnyEnemy#beatBoss#discard#characterNum#camp#getEnergy#dialog#onceProfit#addProfit#addWeight#addPeople#addDrinkNum#cityId#invest#travel#finishOrder#solicitCustomer#priceDownWin#priceUpWin#gainFans#trade#gacha#anyStore#safeSideLevelList#roleGrade#buyItem#trainLength#coachType#questId#sellItem#allServer#sellItemAddProfit#sellItemOnceProfit#shopId",
     arg1 = "levelId"
   },
   {
@@ -180,7 +193,7 @@ RegProperty("QuestFactory", {
     name = "id",
     type = "Factory",
     des = "物品",
-    arg0 = "ItemFactory#SourceMaterialFactory#EquipmentFactory#UnitFactory#HomeGoodsFactory#HomeFurnitureFactory#FridgeItemFactory#HomeCharacterSkinFactory#HomeWeaponFactory"
+    arg0 = "ItemFactory#SourceMaterialFactory#EquipmentFactory#UnitFactory#HomeGoodsFactory#HomeFurnitureFactory#FridgeItemFactory#HomeCharacterSkinFactory#HomeWeaponFactory#CollectionCardPackFactory"
   },
   {
     name = "num",
@@ -326,7 +339,7 @@ RegProperty("QuestFactory", {
     mod = "基础任务,活动任务",
     name = "chapterId",
     type = "Factory",
-    des = "主线章节id",
+    des = "主线关卡id",
     arg0 = "LevelFactory"
   },
   {
@@ -379,6 +392,24 @@ RegProperty("QuestFactory", {
     type = "Int",
     des = "状态ID",
     arg0 = "0"
+  },
+  {name = "end"},
+  {
+    name = "",
+    type = "SysLine",
+    des = "完成后发送邮件"
+  },
+  {
+    name = "mailList",
+    type = "Array",
+    des = "邮件列表",
+    detail = "id"
+  },
+  {
+    name = "id",
+    type = "Factory",
+    des = "邮件",
+    arg0 = "MailFactory"
   },
   {name = "end"},
   {
@@ -659,31 +690,84 @@ RegProperty("QuestFactory", {
     arg0 = "False"
   },
   {
+    mod = "活动任务",
+    name = "activityId",
+    type = "Factory",
+    des = "读取活动时间|活动ID",
+    arg0 = "ActivityFactory"
+  },
+  {
     mod = "活动任务,基础任务",
     name = "startTime",
     type = "String",
-    des = "开始时间",
+    des = "开始时间|与活动时间互斥",
     arg0 = ""
   },
   {
     mod = "活动任务,基础任务",
     name = "endTime",
     type = "String",
-    des = "结束时间",
+    des = "结束时间|与活动时间互斥",
     arg0 = ""
   },
   {
     mod = "活动任务",
     name = "",
     type = "SysLine",
-    des = "纪念卡"
+    des = "成就解锁条件"
   },
   {
     mod = "活动任务",
-    name = "rewardsCard",
+    name = "preQuest",
+    type = "Array",
+    des = "前置任务",
+    detail = "id"
+  },
+  {
+    name = "id",
     type = "Factory",
-    des = "奖励纪念卡",
-    arg0 = "ItemFactory",
-    arg1 = "活动纪念卡"
+    des = "任务id",
+    arg0 = "QuestFactory",
+    arg1 = "基础任务"
+  },
+  {name = "end"},
+  {
+    mod = "活动任务",
+    name = "preLevel",
+    type = "Array",
+    des = "前置关卡",
+    detail = "id"
+  },
+  {
+    name = "id",
+    type = "Factory",
+    des = "关卡id",
+    arg0 = "LevelFactory",
+    arg1 = "基础关卡"
+  },
+  {name = "end"},
+  {
+    name = "",
+    type = "SysLine",
+    des = "对应活动"
+  },
+  {
+    name = "correspondActivity",
+    type = "Factory",
+    des = "对应活动",
+    arg0 = "ActivityFactory"
+  },
+  {
+    mod = "活动任务",
+    name = "",
+    type = "SysLine",
+    des = "激活Buff"
+  },
+  {
+    mod = "活动任务",
+    name = "buffActivate",
+    type = "Factory",
+    des = "激活Buff",
+    arg0 = "HomeBuffFactory"
   }
 })

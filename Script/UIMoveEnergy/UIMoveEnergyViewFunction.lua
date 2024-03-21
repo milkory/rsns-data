@@ -78,23 +78,16 @@ local ViewFunction = {
   end,
   MoveEnergy_Img_BG_Group_Pick_Group_BarStore_Btn_Use_Click = function(btn, str)
     local info = DataModel.restAreaInfo
-    if info.buildingId > 0 then
-      local buildingCA = PlayerData:GetFactoryData(info.buildingId, "BuildingFactory")
-      UIManager:Open(buildingCA.uiPath, Json.encode({
-        buildingId = info.buildingId,
-        isCityMapIn = true
-      }))
-    else
-      local t = {}
-      t.stationId = DataModel.StationId
-      t.npcId = info.npcId
-      t.bgPath = info.bgPath
-      t.bgColor = info.bgColor
-      t.isCityMapIn = true
-      t.name = info.name
-      t.textId = info.textId
-      UIManager:Open(info.uiPath, Json.encode(t))
-    end
+    local t = {}
+    t.stationId = DataModel.StationId
+    t.npcId = info.npcId
+    t.bgPath = info.bgPath
+    t.bgColor = info.bgColor
+    t.isCityMapIn = true
+    t.name = info.name
+    t.buildingId = info.buildingId
+    t.textId = info.textId
+    UIManager:Open(info.uiPath, Json.encode(t))
   end,
   MoveEnergy_Img_BG_Group_Pick_Group_BarStore_Btn_NotUse_Click = function(btn, str)
   end,

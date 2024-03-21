@@ -5,7 +5,7 @@ local ViewFunction = {
     UIManager:GoBack(false)
   end,
   BuyTips_Group_Item_Btn_Item_Click = function(btn, str)
-    local a = DataModel.CommoditData.commoditData.commodityItemList[1]
+    local a = DataModel.commoditCA.commodityItemList[1]
     if a.id and a.id ~= "" then
       CommonTips.OpenPreRewardDetailTips(a.id)
     end

@@ -13,8 +13,35 @@ function Controller:Init()
   View.Img_Backgroud:SetSprite(DataModel.BgPath)
   View.Img_Backgroud:SetColor(DataModel.BgColor)
   Controller:InitNPC()
+  Controller:CheckQuestProcess()
   local stationCA = PlayerData:GetFactoryData(DataModel.StationId, "HomeStationFactory")
   View.Group_Main.Group_NpcInfo.Group_Dingwei.Txt_Station:SetText(stationCA.name)
+end
+
+function Controller:CheckQuestProcess()
+  local params = {}
+  params.url = View.self.url
+  local status = {
+    Current = "Chapter",
+    squadIndex = PlayerData.BattleInfo.squadIndex,
+    hasOpenThreeView = false
+  }
+  local t = {}
+  t.buildingId = DataModel.BuildingId
+  status.extraUIParamData = t
+  params.status = status
+  DataModel.CacheEventList = QuestProcess.CheckEventOpen(DataModel.BuildingId, params)
+  local count = #DataModel.CacheEventList
+  if 0 < count then
+    QuestProcess.AddQuestCallBack(View.self.url, Controller.CheckQuestProcess)
+    if count == 1 then
+      local questCA = PlayerData:GetFactoryData(DataModel.CacheEventList[1].questId)
+      View.Group_Main.Btn_Talk.Txt_:SetText(questCA.name)
+    else
+    end
+  else
+    View.Group_Main.Btn_Talk.Txt_:SetText(GetText(80602502))
+  end
 end
 
 function Controller:OpenDrink()
@@ -520,6 +547,12 @@ function Controller:InitNPC()
 end
 
 function Controller:ShowNPCTalk(dialogEnum)
+  if dialogEnum == DataModel.NPCDialogEnum.talkText and QuestProcess.CheckTalkDo(DataModel.CacheEventList, View, DataModel.BuildingId, function()
+    View.Group_Main:SetActive(true)
+  end) then
+    View.Group_Main:SetActive(false)
+    return
+  end
   local npcConfig = PlayerData:GetFactoryData(DataModel.NpcId, "NPCFactory")
   local textTable = npcConfig[dialogEnum]
   if textTable == nil then

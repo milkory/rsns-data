@@ -1,7 +1,7 @@
 RegProperty("ActivityFactory", {
   {
     name = "name",
-    type = "String",
+    type = "StringT",
     des = "活动名称",
     arg0 = "",
     pyIgnore = true
@@ -50,6 +50,17 @@ RegProperty("ActivityFactory", {
     pyIgnore = true
   },
   {
+    name = "参加类型",
+    type = "SysLine",
+    des = ""
+  },
+  {
+    name = "isJoin",
+    type = "Bool",
+    des = "活动是否需要参加",
+    arg0 = "False"
+  },
+  {
     name = "参加限制",
     type = "SysLine",
     des = ""
@@ -86,6 +97,42 @@ RegProperty("ActivityFactory", {
   {
     name = "",
     type = "SysLine",
+    des = "奖励预览"
+  },
+  {
+    name = "rewardPreviewList",
+    type = "Array",
+    des = "预览物品",
+    detail = "id"
+  },
+  {
+    name = "id",
+    type = "Factory",
+    des = "物品id",
+    arg0 = "ItemFactory#SourceMaterialFactory#EquipmentFactory#UnitFactory#FridgeItemFactory#HomeFurnitureFactory#PetFactory#ProfilePhotoFactory#HomeCharacterSkinFactory#HomeWeaponFactory#UnitViewFactory"
+  },
+  {name = "end"},
+  {
+    name = "",
+    type = "SysLine",
+    des = "活动商店"
+  },
+  {
+    name = "activityStoreList",
+    type = "Array",
+    des = "活动开启商店",
+    detail = "id"
+  },
+  {
+    name = "id",
+    type = "Factory",
+    des = "开启商店",
+    arg0 = "StoreFactory"
+  },
+  {name = "end"},
+  {
+    name = "",
+    type = "SysLine",
     des = ""
   },
   {
@@ -104,21 +151,22 @@ RegProperty("ActivityFactory", {
   },
   {
     mod = "红茶活动",
+    name = "joinQuestId",
+    type = "Factory",
+    des = "参与触发任务",
+    arg0 = "QuestFactory"
+  },
+  {
+    mod = "红茶活动",
     name = "sequenceList",
     type = "Array",
     des = "序幕列表",
-    detail = "putTime#name#questId"
+    detail = "startTime#questId#skipId"
   },
   {
-    name = "putTime",
-    type = "Int",
-    des = "顺延时间（小时",
-    arg0 = "72"
-  },
-  {
-    name = "name",
+    name = "startTime",
     type = "String",
-    des = "名称",
+    des = "开启时间",
     arg0 = ""
   },
   {
@@ -127,12 +175,25 @@ RegProperty("ActivityFactory", {
     des = "前置任务",
     arg0 = "QuestFactory"
   },
+  {
+    name = "skipId",
+    type = "Factory",
+    des = "跳转部分",
+    arg0 = "ListFactory"
+  },
   {name = "end"},
   {
     mod = "红茶活动",
     name = "",
     type = "SysLine",
     des = "采购任务"
+  },
+  {
+    mod = "红茶活动",
+    name = "isChangeCOCQuest",
+    type = "Bool",
+    des = "修改商会任务",
+    arg0 = "True"
   },
   {
     mod = "红茶活动",
@@ -172,6 +233,13 @@ RegProperty("ActivityFactory", {
     name = "",
     type = "SysLine",
     des = "活动行情"
+  },
+  {
+    mod = "红茶活动",
+    name = "isChangeQuotation",
+    type = "Bool",
+    des = "修改交易所行情",
+    arg0 = "True"
   },
   {
     mod = "红茶活动",
@@ -246,10 +314,10 @@ RegProperty("ActivityFactory", {
   },
   {
     mod = "红茶活动",
-    name = "achievementTypeList",
+    name = "tradeTypeList",
     type = "Array",
-    des = "成就种类列表",
-    detail = "typeId"
+    des = "贸易成就种类列表",
+    detail = "typeId#typeEnum#seriesName#targetNum#icon"
   },
   {
     name = "typeId",
@@ -257,6 +325,78 @@ RegProperty("ActivityFactory", {
     des = "种类",
     arg0 = "ListFactory",
     arg1 = "活动相关"
+  },
+  {
+    name = "typeEnum",
+    type = "Enum",
+    des = "成就类型||addProfit:累计利润,onceProfit:单笔最高",
+    arg0 = "addProfit#onceProfit",
+    arg1 = ","
+  },
+  {
+    name = "seriesName",
+    type = "StringT",
+    des = "种类名称",
+    arg0 = ""
+  },
+  {
+    name = "targetNum",
+    type = "Int",
+    des = "目标数量",
+    arg0 = "1"
+  },
+  {
+    name = "icon",
+    type = "Png",
+    des = "种类大图标",
+    arg0 = "",
+    arg1 = "100|100",
+    pyIgnore = true
+  },
+  {name = "end"},
+  {
+    mod = "红茶活动",
+    name = "battleList",
+    type = "Array",
+    des = "作战成就列表",
+    detail = "missionId#lockDes#commonBg#lockedBg#icon"
+  },
+  {
+    name = "missionId",
+    type = "Factory",
+    des = "成就id",
+    arg0 = "QuestFactory",
+    arg1 = "活动任务"
+  },
+  {
+    name = "lockDes",
+    type = "StringT",
+    des = "前置条件提示",
+    arg0 = ""
+  },
+  {
+    name = "commonBg",
+    type = "Png",
+    des = "正常成就背景",
+    arg0 = "",
+    arg1 = "100|100",
+    pyIgnore = true
+  },
+  {
+    name = "lockedBg",
+    type = "Png",
+    des = "锁定时成就背景",
+    arg0 = "",
+    arg1 = "100|100",
+    pyIgnore = true
+  },
+  {
+    name = "icon",
+    type = "Png",
+    des = "作战成就图标",
+    arg0 = "",
+    arg1 = "100|100",
+    pyIgnore = true
   },
   {name = "end"},
   {
@@ -270,10 +410,10 @@ RegProperty("ActivityFactory", {
     name = "ServerProgressList",
     type = "Array",
     des = "全服阶段任务列表",
-    detail = "Id#buff"
+    detail = "id#buff#buyNum#buyPng#revenueNum#revenuePng#buyIcon#revenueIcon"
   },
   {
-    name = "Id",
+    name = "id",
     type = "Factory",
     des = "任务",
     arg0 = "QuestFactory",
@@ -286,20 +426,86 @@ RegProperty("ActivityFactory", {
     arg0 = "HomeBuffFactory",
     arg1 = "活动buff"
   },
+  {
+    name = "buyNum",
+    type = "Int",
+    des = "买入数值",
+    arg0 = "1",
+    pyIgnore = true
+  },
+  {
+    name = "buyPng",
+    type = "Png",
+    des = "买入buff图标",
+    arg0 = "",
+    arg1 = "116|106",
+    pyIgnore = true
+  },
+  {
+    name = "buyIcon",
+    type = "Png",
+    des = "买入图标",
+    arg0 = "",
+    arg1 = "116|106",
+    pyIgnore = true
+  },
+  {
+    name = "revenueNum",
+    type = "Int",
+    des = "税收数值",
+    arg0 = "1",
+    pyIgnore = true
+  },
+  {
+    name = "revenuePng",
+    type = "Png",
+    des = "税收buff图标",
+    arg0 = "",
+    arg1 = "116|106",
+    pyIgnore = true
+  },
+  {
+    name = "revenueIcon",
+    type = "Png",
+    des = "税收图标",
+    arg0 = "",
+    arg1 = "116|106",
+    pyIgnore = true
+  },
   {name = "end"},
   {
     mod = "红茶活动",
     name = "PersonalProgressList",
     type = "Array",
     des = "个人阶段任务列表",
-    detail = "Id"
+    detail = "id"
   },
   {
-    name = "Id",
+    name = "id",
     type = "Factory",
     des = "任务",
     arg0 = "QuestFactory",
     arg1 = "活动任务"
   },
-  {name = "end"}
+  {name = "end"},
+  {
+    name = "",
+    type = "SysLine",
+    des = "收集卡包"
+  },
+  {
+    name = "activityCardPack",
+    type = "Factory",
+    des = "活动卡包",
+    arg0 = "CollectionCardPackFactory",
+    arg1 = "基础卡包"
+  },
+  {
+    mod = "红茶活动",
+    name = "activityGoods",
+    type = "Factory",
+    des = "活动商品",
+    arg0 = "HomeGoodsFactory",
+    arg1 = "基础货物"
+  }
 })

@@ -5,7 +5,7 @@ local TradeDataModel = require("UIHome/UIHomeTradeDataModel")
 local MapDataModel = require("UIHome/UIHomeMapDataModel")
 local MapController = require("UIHome/UIHomeMapController")
 local TradeController = require("UIHome/UIHomeTradeController")
-local Controller = {}
+local Controller = {isInitEffect = false}
 local isHide = false
 
 function Controller:Init()
@@ -1525,21 +1525,12 @@ function Controller.FuncActive()
   funcTable[110] = function(active)
   end
   funcTable[118] = function(active)
-    local SignInfo = PlayerData:GetLocalSignInfo()
-    View.Group_Common.Group_TopRight.Btn_Activity.Img_Remind.self:SetActive(false)
     View.Group_Common.Group_TopRight.Btn_Activity:SetActive(false)
-    if SignInfo ~= nil then
-      View.Group_Common.Group_TopRight.Btn_Activity:SetActive(true)
-      local totalDays = SignInfo.totalDays
-      local id = SignInfo.id
-      local severData = PlayerData:GetSignInfo()[tostring(id)]
-      if severData and severData.status == 0 then
-        View.Group_Common.Group_TopRight.Btn_Activity.Img_Remind.self:SetActive(true)
-        if severData.count == totalDays then
-          View.Group_Common.Group_TopRight.Btn_Activity.Img_Remind.self:SetActive(false)
-        end
-      end
-    end
+  end
+  funcTable[120] = function(active)
+    View.Group_Common.Group_TopRight.Btn_ActivityNew:SetActive(true)
+    local ActivityMainDataModel = require("UIActivityMain/UIActivityMainDataModel")
+    View.Group_Common.Group_TopRight.Btn_ActivityNew.Img_Remind:SetActive(ActivityMainDataModel.GetMainAllRedState())
   end
   local funcViewShow = function(activeTable)
     for k, v in pairs(funcTable) do
@@ -1881,6 +1872,29 @@ function Controller:InitCheDengLight()
   end
 end
 
+function Controller:InitTrainEffect()
+  Controller.isInitEffect = true
+  local Trains = CS.FRef.getProperty(TrainManager.TrainCtrl, "Trains")
+  if Trains == nil or Trains.Count == 0 then
+    return
+  end
+  local path = TrainWeaponTag.GetTrainEffect()
+  for i, v in pairs(path) do
+    if 0 < v then
+      local effect = EffectFactory:Produce(v)
+      local eventCA = PlayerData:GetFactoryData(v, "EffectFactory")
+      if effect then
+        local particleSys = CS.FRef.getProperty(effect, "particleSys")
+        particleSys.transform:SetParent(Trains[0].Skin.view.transform)
+        particleSys.transform.localPosition = Vector3(eventCA.offsetX, eventCA.offsetY, eventCA.offsetZ)
+        particleSys.transform.localScale = Vector3(eventCA.scaleX, eventCA.scaleY, eventCA.scaleZ or 0)
+        particleSys.transform.localEulerAngles = Vector3(eventCA.eularX, eventCA.eularY, eventCA.eularZ)
+        effect:PlayParticle()
+      end
+    end
+  end
+end
+
 function Controller:OpenLight(isOpen)
   local state = PlayerData:GetPlayerPrefs("int", "huoCheLight")
   local now_State
@@ -2099,9 +2113,6 @@ function Controller.MainLineEventShow(eventId, isShow, isPrepareStrike)
         local lv = DataModel.GetTrainEventLv() or 0
         lv = MathEx.roundToDecimalPlaces(lv)
         Group_Fight.BtnPolygon_Fight.Txt_Lv:SetText(string.format(GetText(80601819), lv))
-        local eventCA = PlayerData:GetFactoryData(DataModel.TrainEventId)
-        local levelId = eventCA.levelId
-        local levelCA = PlayerData:GetFactoryData(levelId)
         local DataController = require("UISquads/UISquadsDataController")
         local currentSquad = {}
         local numSquad = 0
@@ -2119,6 +2130,7 @@ function Controller.MainLineEventShow(eventId, isShow, isPrepareStrike)
           table.insert(currentSquad, temp)
         end
         local curSquad = DataController:GetRoleDataList(currentSquad)
+        print_r(curSquad)
         local index = -1
         for k, v in pairs(curSquad) do
           if tonumber(v.unitId) == tonumber(PlayerData.ServerData.squad[currentIndex].header) then
@@ -2129,6 +2141,123 @@ function Controller.MainLineEventShow(eventId, isShow, isPrepareStrike)
           local row = curSquad[index]
           table.remove(curSquad, index)
           table.insert(curSquad, 1, row)
+        end
+        local eventCA = PlayerData:GetFactoryData(DataModel.TrainEventId)
+        local levelId = eventCA.levelId
+        local levelCA = PlayerData:GetFactoryData(levelId)
+        local callBack = function()
+          local levelType = 1
+          local minEnemyLevel = 1
+          local enemyLevel
+          local minLevel = 1
+          local lineEnemyRn = -1
+          local lineWeatherIdList = {}
+          local lineWeatherRateSN = -1
+          local lineInfo = DataModel.CurrLineInfo
+          if lineInfo ~= nil then
+            minLevel = lineInfo.enemyLevelMin
+            lineEnemyRn = lineInfo.LineEnemyRn
+            lineWeatherRateSN = lineInfo.LineWeatherRate
+            for i = 1, #lineInfo.LineWeatherList do
+              lineWeatherIdList[i] = lineInfo.LineWeatherList[i].LineWTid
+            end
+          end
+          lineWeatherRateSN = lineWeatherRateSN * SafeMath.safeNumberTime
+          local bgId = levelCA.bgIdList[math.random(1, #levelCA.bgIdList)].id
+          local areaId
+          local enemyWaveStr = ""
+          if PlayerData.TempCache.AreaId ~= nil then
+            areaId = PlayerData.TempCache.AreaId
+          elseif DataModel.TrainEventAreaId ~= nil and DataModel.TrainEventAreaId > 0 then
+            areaId = DataModel.TrainEventAreaId
+          end
+          local isForward = TrainManager.TrainCtrl.FirstTrain.CurrInfo.isForward
+          local stationId = isForward and lineInfo.station02 or lineInfo.station01
+          local stationInfo = PlayerData:GetHomeInfo().station_info
+          local lineEvents
+          if stationInfo ~= nil and stationInfo.line_events then
+            lineEvents = stationInfo.line_events
+          end
+          local events
+          if lineEvents ~= nil and lineEvents[tostring(stationId)] then
+            events = lineEvents[tostring(stationId)].events
+          end
+          if events ~= nil then
+            for i = 1, #events do
+              if events[i].id == tostring(DataModel.TrainEventId) then
+                if enemyLevel == nil and events[i].lv ~= nil then
+                  enemyLevel = events[i].lv
+                end
+                if events[i].waves == nil then
+                  break
+                end
+                for j = 1, #events[i].waves do
+                  if 3 < j then
+                    goto lbl_136
+                  end
+                  if enemyWaveStr ~= "" then
+                    enemyWaveStr = enemyWaveStr .. ","
+                  end
+                  enemyWaveStr = enemyWaveStr .. events[i].waves[j]
+                end
+                break
+              end
+            end
+          end
+          ::lbl_136::
+          minEnemyLevel = enemyLevel or minLevel
+          local enemyLevelOffset = 0
+          local secondWeatherList = {}
+          local secondWeatherRateSN = -1
+          if levelCA.saleLevelType ~= "pollute" and levelCA.saleLevelType ~= "twig" and levelCA.saleLevelType ~= "buoy" or areaId == nil then
+          else
+            repeat
+              do
+                local polluteData = PlayerData.pollute_areas[tostring(areaId)]
+                local polluteNum = -1
+                if polluteData and polluteData.po_curIndex ~= nil then
+                  polluteNum = math.ceil(polluteData.po_curIndex)
+                end
+                local areaCA = PlayerData:GetFactoryData(areaId)
+                if areaCA then
+                  local polluteLvList = areaCA.polluteLvList[polluteNum + 1]
+                  if polluteLvList then
+                    minEnemyLevel = polluteLvList.polluteLvMin
+                  end
+                  if polluteLvList ~= nil or levelCA.saleLevelType == "pollute" then
+                    for i = 1, #areaCA.RnWtList do
+                      secondWeatherList[#secondWeatherList + 1] = areaCA.RnWtList[i].RnWtId
+                    end
+                    secondWeatherRateSN = areaCA.polluteWeatherRate * SafeMath.safeNumberTime
+                    break -- pseudo-goto
+                  end
+                end
+              end
+            until true
+          end
+          local secondWeatherCount = secondWeatherList ~= nil and #secondWeatherList or 0
+          local trainWeaponParam = TrainWeaponTag.GetWeaponTagAttributes(EnumDefine.TrainWeaponTagEnum.TrainBattleBuff)
+          local weaponSkillList = ""
+          for i = 1, #trainWeaponParam do
+            local skillData = PlayerData:GetFactoryData(trainWeaponParam[i].weaponSkillId)
+            if skillData ~= nil and PlayerData:CheckTrainWeaponCondition(skillData.buffType, {areaId = areaId}) and skillData.skillBuff ~= nil and 0 < skillData.skillBuff then
+              weaponSkillList = weaponSkillList .. skillData.skillBuff .. ":" .. trainWeaponParam[i].lv + 1
+            end
+            if weaponSkillList ~= "" and i ~= #trainWeaponParam then
+              weaponSkillList = weaponSkillList .. ","
+            end
+          end
+          local homeBuff = PlayerData:GetCurStationStoreBuff(EnumDefine.HomeSkillEnum.HomeBattleBuff)
+          local curTime = TimeUtil:GetServerTimeStamp()
+          if homeBuff ~= nil and curTime < homeBuff.endTime then
+            local buffCA = PlayerData:GetFactoryData(homeBuff.id, "HomeBuffFactory")
+            if weaponSkillList ~= "" then
+              weaponSkillList = weaponSkillList .. ","
+            end
+            weaponSkillList = weaponSkillList .. buffCA.battleBuff .. ":1"
+          end
+          local StartBattle = require("UISquads/View_StartBattle")
+          StartBattle:StartBattle(levelId, levelType, curSquad, currentIndex, nil, false, DataModel.TrainEventId, nil, nil, nil, minEnemyLevel, 1, bgId, enemyLevel, lineEnemyRn, lineWeatherIdList, lineWeatherRateSN, enemyLevelOffset, secondWeatherList, secondWeatherRateSN, secondWeatherCount, enemyWaveStr, weaponSkillList)
         end
         if event.isMain then
           View.self:PlayAnim("BattleStart")
@@ -2150,10 +2279,8 @@ function Controller.MainLineEventShow(eventId, isShow, isPrepareStrike)
               else
                 Controller.ShowRoleTip(false)
                 Group_Event.self:SetActive(false)
-                local levelType = 1
-                local StartBattle = require("UISquads/View_StartBattle")
                 PlayerData.BattleCallBackPage = ""
-                StartBattle:StartBattle(levelId, levelType, curSquad, 1, nil, false, DataModel.TrainEventId)
+                callBack()
               end
             else
               View.self:PlayAnim("BattleStart")
@@ -2174,10 +2301,8 @@ function Controller.MainLineEventShow(eventId, isShow, isPrepareStrike)
               else
                 Controller.ShowRoleTip(false)
                 Group_Event.self:SetActive(false)
-                local levelType = 1
-                local StartBattle = require("UISquads/View_StartBattle")
                 PlayerData.BattleCallBackPage = ""
-                StartBattle:StartBattle(levelId, levelType, curSquad, 1, nil, false, DataModel.TrainEventId)
+                callBack()
               end
             else
               View.self:PlayAnim("BattleStart")
@@ -2194,10 +2319,8 @@ function Controller.MainLineEventShow(eventId, isShow, isPrepareStrike)
               else
                 Controller.ShowRoleTip(false)
                 Group_Event.self:SetActive(false)
-                local levelType = 1
-                local StartBattle = require("UISquads/View_StartBattle")
                 PlayerData.BattleCallBackPage = ""
-                StartBattle:StartBattle(levelId, levelType, curSquad, 1, nil, false, DataModel.TrainEventId)
+                callBack()
               end
             else
               View.self:PlayAnim("BattleStart")
@@ -2258,6 +2381,7 @@ function Controller.SpendMoneyBuyRoad(isAuto)
         Controller:RunBtnState(true)
         Controller.BackShow(true)
         TradeDataModel.StateEnter = EnumDefine.TrainStateEnter.Refresh
+        Controller.Drive()
       end)
     end, DataModel.TrainEventId)
   else

@@ -5,7 +5,7 @@ local module = {
   Init = function(self)
     UICache = {}
   end,
-  Load = function(self, RoleData)
+  Load = function(self, RoleData, isUpdate)
     if _Assert(UICache, {
       roleId = DataModel.RoleData.id,
       breakLevel = DataModel.RoleData.awake_lv
@@ -33,11 +33,36 @@ local module = {
       Group_TabAwake.Group_BK.self:SetActive(true)
       Group_TabAwake.Group_BK.Group_Current.Txt_BK:SetText("觉醒 " .. DataModel.RoleData.awake_lv)
       Group_TabAwake.Group_BK.Group_Next.Txt_BK:SetText("觉醒 " .. DataModel.RoleData.awake_lv + 1)
+      Group_TabAwake.Group_TalentLock:SetActive(false)
+      Group_TabAwake.Group_Icon1.Group_SkillIcon5.SpineNode_TalentLock:SetActive(false)
     else
       Group_TabAwake.StaticGrid_Item.grid.self:SetActive(false)
       Group_TabAwake.Group_BK.self:SetActive(false)
       Group_TabAwake.Group_Max.self:SetActive(true)
       Group_TabAwake.Btn_BK:SetActive(false)
+      Group_TabAwake.Group_TalentLock:SetActive(true)
+      Group_TabAwake.Group_Icon1.Group_SkillIcon5.SpineNode_TalentLock:SetActive(false)
+      local isAwLock = PlayerData:IsRoleAwakeLock(ca.id)
+      if isAwLock then
+        Group_TabAwake.Group_TalentLock:SelectPlayAnim("")
+        Group_TabAwake.Group_Icon1.Group_SkillIcon5.SpineNode_TalentLock:SetActive(true)
+        if isUpdate then
+          Group_TabAwake.Group_Icon1.Group_SkillIcon5.SpineNode_TalentLock:SetAction("juexing_suo01", false, true)
+          Group_TabAwake.Group_TalentLock:SelectPlayAnim("TalentLockOff")
+        else
+          Group_TabAwake.Group_Icon1.Group_SkillIcon5.SpineNode_TalentLock:SetAction("juexing_suo02", false, true)
+          Group_TabAwake.Group_TalentLock:SelectPlayAnim("TalentLockOffStay")
+        end
+      else
+        Group_TabAwake.Group_TalentLock:SelectPlayAnim("")
+        if isUpdate then
+          Group_TabAwake.Group_Icon1.Group_SkillIcon5.SpineNode_TalentLock:SetActive(true)
+          Group_TabAwake.Group_Icon1.Group_SkillIcon5.SpineNode_TalentLock:SetAction("juexing_suo03", false, true)
+          Group_TabAwake.Group_TalentLock:SelectPlayAnim("TalentLockOn")
+        else
+          Group_TabAwake.Group_TalentLock:SelectPlayAnim("TalentLockOnStay")
+        end
+      end
     end
     local Group_Icon1 = Group_TabAwake.Group_Icon1
     for i = 1, 5 do

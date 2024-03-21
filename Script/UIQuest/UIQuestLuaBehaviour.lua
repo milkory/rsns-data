@@ -6,6 +6,9 @@ local Luabehaviour = {
   serialize = function()
   end,
   deserialize = function(initParams)
+    if initParams ~= nil then
+      DataModel.Data = Json.decode(initParams)
+    end
     local questTrace = PlayerData:GetQuestTrace()
     DataModel.LastSelectBtn = nil
     DataModel.QuestTrace = questTrace[1]
@@ -19,6 +22,7 @@ local Luabehaviour = {
   end,
   ondestroy = function()
     DataModel.LastShowScroll = nil
+    DataModel.Data = nil
   end,
   enable = function()
   end,

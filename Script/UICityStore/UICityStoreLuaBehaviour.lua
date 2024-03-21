@@ -1,13 +1,23 @@
 local View = require("UICityStore/UICityStoreView")
 local DataModel = require("UICityStore/UICityStoreDataModel")
+local Controller = require("UICityStore/UICityStoreController")
 local ViewFunction = require("UICityStore/UICityStoreViewFunction")
 local Timer = require("Common/Timer")
+local ClearCacheEventList = function()
+  for i, v in ipairs(DataModel.CacheEventList) do
+    local character = HomeStationStoreManager:GetCharacterById(v.homeQId)
+    if character ~= nil then
+      HomeStationStoreManager:RecycleCustom(character)
+    end
+  end
+  DataModel.CacheEventList = {}
+end
 local Luabehaviour = {
   serialize = function()
-    return {
+    return Json.encode({
       StationId = DataModel.StationId,
       PlaceId = DataModel.PlaceId
-    }
+    })
   end,
   deserialize = function(initParams)
     if initParams ~= nil then
@@ -45,6 +55,7 @@ local Luabehaviour = {
         View.timer:Start()
       end
       View.Group_CommonTopLeft.Btn_Help:SetActive(DataModel.PlaceId ~= "81500007")
+      Controller:CheckQuestProcess()
     end
   end,
   awake = function()
@@ -64,6 +75,7 @@ local Luabehaviour = {
   enable = function()
   end,
   disenable = function()
+    QuestProcess.RemoveQuestCallBack(View.self.url)
     if View.timer then
       View.timer:Stop()
     end

@@ -3,6 +3,7 @@ local UIPath = {
   UIPrompt = "UI/Common/Prompt/Prompt",
   UIGuide = "UI/Guidance/Guidance",
   UIShowCharacter = "UI/ShowCharacter/ShowCharacter",
-  UIHomeReputation = "UI/HomeReputation/HomeReputation"
+  UIHomeReputation = "UI/HomeReputation/HomeReputation",
+  TalkPlus = "UI/Common/TalkPlus"
 }
 return UIPath

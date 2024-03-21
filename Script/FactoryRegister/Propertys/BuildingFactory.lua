@@ -1,9 +1,17 @@
 RegProperty("BuildingFactory", {
   {
     name = "name",
-    type = "String",
+    type = "StringT",
     des = "建筑名称",
     arg0 = "",
+    pyIgnore = true
+  },
+  {
+    name = "buildingIconPath",
+    type = "Png",
+    des = "建筑Logo",
+    arg0 = "",
+    arg1 = "100|100",
     pyIgnore = true
   },
   {
@@ -25,14 +33,6 @@ RegProperty("BuildingFactory", {
     des = "背景图片",
     arg0 = "",
     arg1 = "216|100",
-    pyIgnore = true
-  },
-  {
-    name = "buildingIcon",
-    type = "Png",
-    des = "建筑图片",
-    arg0 = "",
-    arg1 = "160|160",
     pyIgnore = true
   },
   {
@@ -74,6 +74,57 @@ RegProperty("BuildingFactory", {
     des = "排行榜功能",
     arg0 = "RankFactory"
   },
+  {
+    name = "eventList",
+    type = "Array",
+    des = "交谈事件列表",
+    detail = "questId#eventType#eventId#startTime#endTime#activityId",
+    pyIgnore = true
+  },
+  {
+    name = "questId",
+    type = "Factory",
+    des = "拥有任务|解锁未完成",
+    arg0 = "QuestFactory",
+    pyIgnore = true
+  },
+  {
+    name = "eventType",
+    type = "Enum",
+    des = "事件类型||Dialog:剧情,Level:关卡",
+    arg0 = "Dialog#Level",
+    arg1 = "Dialog",
+    pyIgnore = true
+  },
+  {
+    name = "eventId",
+    type = "Factory",
+    des = "事件ID",
+    arg0 = "ParagraphFactory#LevelFactory",
+    pyIgnore = true
+  },
+  {
+    name = "activityId",
+    type = "Factory",
+    des = "在活动期间显示|活动ID",
+    arg0 = "ActivityFactory",
+    pyIgnore = true
+  },
+  {
+    name = "startTime",
+    type = "String",
+    des = "开始时间|与活动时间互斥",
+    arg0 = "",
+    pyIgnore = true
+  },
+  {
+    name = "endTime",
+    type = "String",
+    des = "结束时间|与活动时间互斥",
+    arg0 = "",
+    pyIgnore = true
+  },
+  {name = "end", pyIgnore = true},
   {
     name = "",
     type = "SysLine",

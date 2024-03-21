@@ -36,6 +36,7 @@ function Controller:ReloadTrainSkin()
     local homeController = require("UIMainUI/UIMainUIController")
     homeController.InitTrain(false)
     homeController:InitCheDengLight()
+    homeController:InitTrainEffect()
   end
 end
 

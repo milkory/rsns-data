@@ -1,4 +1,5 @@
 local DataModel = {
+  Data = nil,
   QuestType = {
     Main = 1,
     Home = 2,
@@ -16,6 +17,19 @@ local DataModel = {
   QuestTrace = nil,
   ConstChildElementHeight = 420
 }
+local CheckQuestShow = function(id)
+  local questCA = PlayerData:GetFactoryData(id, "QuestFactory")
+  if questCA.parentQuest and questCA.parentQuest > 0 then
+    return false
+  end
+  if not QuestProcess.CheckQuestTime(id) then
+    return false
+  end
+  if not QuestProcess.CheckQuestPreQuestComplete(id) then
+    return false
+  end
+  return true
+end
 
 function DataModel.InitAllQuests(quests)
   DataModel.AllQuests = {}
@@ -84,6 +98,7 @@ function DataModel.InitAllQuests(quests)
             local localType = DataModel.QuestType[questCA.questType]
             local t = {}
             t.id = id
+            t.sort = questCA.sort
             if questCA.timeLimit ~= nil and questCA.timeLimit ~= -1 then
               t.endTime = v2.time + questCA.timeLimit * 3600
             else
@@ -112,10 +127,11 @@ function DataModel.InitAllQuests(quests)
         if questCA == nil then
           error("任务id:" .. id .. "不存在本地配置表,请检查配置")
         end
-        if questCA.parentQuest == -1 and v1.recv == 0 and v1.unlock == 1 then
+        if CheckQuestShow(id) and questCA.parentQuest == -1 and v1.recv == 0 and v1.unlock == 1 then
           local localType = DataModel.QuestType[questCA.questType]
           local t = {}
           t.id = id
+          t.sort = questCA.sort
           t.endTime = -1
           if #questCA.endStationList > 0 then
             t.endStation = questCA.endStationList[1].id
@@ -163,9 +179,16 @@ function DataModel.InitAllQuests(quests)
       isAllRed = isAllRed or isTypeRed
     end
   end
-  table.sort(DataModel.AllQuests[DataModel.QuestType.Order], function(a, b)
-    return a.sort > b.sort
-  end)
+  for k, v in pairs(DataModel.AllQuests) do
+    table.sort(v, function(a, b)
+      if a.sort > b.sort then
+        return true
+      elseif a.sort < b.sort then
+        return false
+      end
+      return a.id < b.id
+    end)
+  end
 end
 
 function DataModel.GetMergeIdx(type, childIdx)

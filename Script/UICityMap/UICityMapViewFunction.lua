@@ -3,7 +3,7 @@ local DataModel = require("UICityMap/UICityMapDataModel")
 local Controller = require("UICityMap/UICityMapController")
 local ViewFunction = {
   CityMap_Group_CommonTopLeft_Btn_Return_Click = function(btn, str)
-    UIManager:GoHome()
+    Controller:ClickReturn()
   end,
   CityMap_Group_CommonTopLeft_Btn_Home_Click = function(btn, str)
     UIManager:GoHome()
@@ -18,8 +18,8 @@ local ViewFunction = {
     local pos = View.ScrollView_Map.Img_BG.transform.position
     local posX = pos.x
     local posY = pos.y
-    homeCommon.ClickReputationBtn(DataModel.StationId, posX, posY, function()
-      homeCommon.SetReputationElement(View.Group_Reputation, DataModel.StationId)
+    homeCommon.ClickReputationBtn(DataModel.stationId, posX, posY, function()
+      homeCommon.SetReputationElement(View.Group_Reputation, DataModel.stationId)
     end)
   end,
   CityMap_Group_Navigation_Btn_Quest_Click = function(btn, str)
@@ -232,8 +232,11 @@ local ViewFunction = {
     row.ConstructMaxNum = DataModel.ConstructMaxNum
     row.ConstructNowNum = DataModel.ConstructNowNum
     row.Index_Construct = DataModel.Index_Construct
-    row.stationId = DataModel.StationId
+    row.stationId = DataModel.stationId
     CommonTips.OpenConstructStage(row)
+  end,
+  CityMap_Group_TopRight_Btn_ActivityNew_Click = function(btn, str)
+    UIManager:Open("UI/Activity/ActivityMain")
   end,
   CityMap_Group_CommonTopLeft_Group_Help_Group_window_Group_tabList_ScrollGrid_list_SetGrid = function(element, elementIndex)
   end

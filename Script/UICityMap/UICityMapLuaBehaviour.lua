@@ -18,13 +18,25 @@ local RefreshSelf = function()
 end
 local Luabehaviour = {
   serialize = function()
+    local t = {}
+    if DataModel.initParams then
+      t = DataModel.initParams
+    end
+    if DataModel.cityMapId then
+      t.cityMapId = DataModel.cityMapId
+    end
+    return Json.encode(t)
   end,
   deserialize = function(initParams)
     if initParams ~= nil then
       local t = Json.decode(initParams)
+      DataModel.initParams = t
       if t.stationId ~= nil then
-        DataModel.StationId = t.stationId
+        DataModel.stationId = t.stationId
       end
+      DataModel.cityMapId = t.cityMapId or 0
+    else
+      DataModel.initParams = nil
     end
     Controller:PlayBgm()
     View.self:PlayAnim("In")

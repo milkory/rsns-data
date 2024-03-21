@@ -339,15 +339,18 @@ function PlayerData:UpdateQuestData(data)
           table.insert(newAcceptLevels, t)
         end
         serverData[k1] = v1
-        if 0 < v1.recv then
-          table.insert(completeLevels, k1)
-        elseif v1.unlock == 1 and oldData ~= nil and oldData.pcnt < v1.pcnt then
-          local t = {}
-          t.id = tonumber(k1)
-          t.oldPcnt = oldData.pcnt
-          t.newPcnt = v1.pcnt
-          t.isNew = false
-          table.insert(pcntUpdateLevels, t)
+        local questCA = PlayerData:GetFactoryData(k1, "QuestFactory")
+        if questCA.questType ~= "ActivityAchieve" then
+          if 0 < v1.recv then
+            table.insert(completeLevels, k1)
+          elseif v1.unlock == 1 and oldData ~= nil and oldData.pcnt < v1.pcnt then
+            local t = {}
+            t.id = tonumber(k1)
+            t.oldPcnt = oldData.pcnt
+            t.newPcnt = v1.pcnt
+            t.isNew = false
+            table.insert(pcntUpdateLevels, t)
+          end
         end
       end
     end
@@ -547,6 +550,28 @@ function PlayerData:GetRoleById(id)
     return {}
   end
   return self.ServerData.roles[tostring(id)] or {}
+end
+
+function PlayerData:SetRoleResonanceLock(id, isLock, cb)
+  Net:SendProto("hero.open_resonance", function(json)
+    self:GetRoleById(id).resonance_ss = isLock
+    cb()
+  end, id, isLock)
+end
+
+function PlayerData:IsRoleResonanceLock(id)
+  return tonumber(self:GetRoleById(id).resonance_ss) == 1
+end
+
+function PlayerData:SetRoleAwakeLock(id, isLock, cb)
+  Net:SendProto("hero.open_awake", function(json)
+    self:GetRoleById(id).awake_ss = isLock
+    cb()
+  end, id, isLock)
+end
+
+function PlayerData:IsRoleAwakeLock(id)
+  return tonumber(self:GetRoleById(id).awake_ss) == 1
 end
 
 function PlayerData:GetEnemyById(id)
@@ -763,6 +788,9 @@ function PlayerData:GetGoodsById(id)
   end
   if self.ServerData.food_material[strId] then
     return self.ServerData.food_material[strId]
+  end
+  if self.ServerData.books.card_pack[strId] then
+    return self.ServerData.books.card_pack[strId]
   end
   if self.ServerData.user_home_info ~= nil and self.ServerData.user_home_info.warehouse[strId] then
     return self.ServerData.user_home_info.warehouse[strId]
@@ -1384,6 +1412,10 @@ function PlayerData:RefreshSound(sound)
   self.ServerData.sound = sound
 end
 
+function PlayerData:RefreshCardPack(cardPack)
+  self.ServerData.books.card_pack = cardPack
+end
+
 function PlayerData:RefreshConstruction(construction)
   if PlayerData:GetHomeInfo().station_info.stop_info[1] == nil then
     return
@@ -1470,6 +1502,24 @@ end
 
 function PlayerData:RefreshGotWord(data)
   self.gotWord = data
+end
+
+function PlayerData:RefreshRechargeGoods(shopId, id, buyNum)
+  local recharge = PlayerData.RechargeGoods[tostring(shopId)]
+  local list = {}
+  list.num = buyNum or 1
+  if recharge then
+    if recharge[tostring(id)] then
+      local num = recharge[tostring(id)].num + 1
+      list.num = num
+      recharge[tostring(id)].num = num
+    else
+      recharge[tostring(id)] = list
+    end
+  else
+    PlayerData.RechargeGoods[tostring(shopId)] = {}
+    PlayerData.RechargeGoods[tostring(shopId)][tostring(id)] = list
+  end
 end
 
 function PlayerData:RefreshReputation(reputation)
@@ -1759,6 +1809,7 @@ local conf_type = {
   [110] = "SkinViewTips",
   [114] = "ItemTips",
   [117] = "ItemTips",
+  [403] = "ItemTips",
   [118] = "EquipTips",
   [100] = "CharacterTips",
   [813] = "FurnitureTips",
@@ -1768,7 +1819,9 @@ local conf_type = {
   [829] = "GoodsTips",
   [850] = "FridgeItemTips",
   [855] = "DressTips",
-  [826] = "PhotoTips"
+  [826] = "PhotoTips",
+  [862] = "CardTips",
+  [863] = "CardPackTips"
 }
 
 function PlayerData:GetRewardType(id)
@@ -2706,12 +2759,17 @@ function PlayerData:GetSignInfo()
 end
 
 function PlayerData:GetLocalSignInfo()
-  local activeSigninList = PlayerData:GetFactoryData(99900006).activeSigninList
+  local activeList = PlayerData:GetFactoryData(99900059).activeList
   local sign_ca
-  for k, v in pairs(activeSigninList) do
-    sign_ca = PlayerData:GetFactoryData(v.activeSigninId)
-    if PlayerData:GetSignInfo()[tostring(v.activeSigninId)] and sign_ca.startTime ~= "" and TimeUtil:IsActive(sign_ca.startTime, sign_ca.endTime) then
-      return sign_ca
+  for k, v in pairs(activeList) do
+    print_r(v, "12601071")
+    local tagCA = PlayerData:GetFactoryData(v.tag)
+    local activeCA = PlayerData:GetFactoryData(v.id)
+    if tagCA.tagName == "七日签到" then
+      sign_ca = PlayerData:GetFactoryData(activeCA.signinId)
+      if PlayerData:GetSignInfo()[tostring(activeCA.signinId)] and sign_ca.startTime ~= "" and TimeUtil:IsActive(sign_ca.startTime, sign_ca.endTime) then
+        return sign_ca
+      end
     end
   end
   return nil
@@ -2954,6 +3012,103 @@ function PlayerData:HomeSkillLevelUp(roleId)
   end
 end
 
+function PlayerData:RefreshActivityBuffByServerQuest(server_quests, force)
+  if server_quests == nil or table.count(server_quests) == 0 then
+    PlayerData.ServerData.act_buff = {}
+    PlayerData.ServerData.server_quests = {}
+    return
+  end
+  local oldQuests = PlayerData.ServerData.server_quests or {}
+  if force then
+    oldQuests = {}
+    PlayerData.ServerData.act_buff = {}
+  end
+  PlayerData.ServerData.server_quests = server_quests or {}
+  local cloneQuest = Clone(PlayerData.ServerData.server_quests)
+  if PlayerData.ServerData.act_buff == nil then
+    PlayerData.ServerData.act_buff = {}
+  end
+  local skillsServerData = PlayerData.ServerData.act_buff
+  for k, v in pairs(oldQuests) do
+    local newQuestInfo = cloneQuest[k]
+    if newQuestInfo ~= nil then
+      if 0 < v.recv then
+        cloneQuest[k] = nil
+      elseif 0 >= newQuestInfo.recv then
+        cloneQuest[k] = nil
+      end
+    end
+  end
+  if table.count(cloneQuest) == 0 then
+    return
+  end
+  local addValue = function(t, ca)
+    if t[ca.buffType] == nil then
+      t[ca.buffType] = {}
+    end
+    if t[ca.buffType].temp == nil then
+      t[ca.buffType].temp = {}
+    end
+    local value1, value2 = math.modf(ca.param)
+    local absValue2 = math.abs(value2)
+    if absValue2 + 1.0E-4 >= 1 then
+      if 0 < value2 then
+        value1 = value1 + 1
+      else
+        value1 = value1 - 1
+      end
+    elseif absValue2 - 1.0E-4 <= 0 then
+    else
+      value1 = value1 + value2
+    end
+    local endTime = -1
+    if ca.endTime ~= nil and ca.endTime ~= "" then
+      endTime = TimeUtil:TimeStamp(ca.endTime)
+    end
+    if t[ca.buffType].temp[tostring(ca.id)] == nil then
+      t[ca.buffType].temp[tostring(ca.id)] = {param = value1, deadline = endTime}
+    else
+      t[ca.buffType].temp[tostring(ca.id)].param = t[ca.buffType].temp[tostring(ca.id)].param
+    end
+  end
+  for k, v in pairs(cloneQuest) do
+    if v.recv > 0 then
+      local questCA = PlayerData:GetFactoryData(k)
+      if questCA.buffActivate and 0 < questCA.buffActivate then
+        local homeSkillCA = PlayerData:GetFactoryData(questCA.buffActivate, "HomeSkillFactory")
+        if homeSkillCA.goodsList ~= nil and 0 < #homeSkillCA.goodsList then
+          for k1, v1 in pairs(homeSkillCA.goodsList) do
+            local goodsInfo = skillsServerData[tostring(v1.id)]
+            if goodsInfo == nil then
+              goodsInfo = {}
+              skillsServerData[tostring(v1.id)] = goodsInfo
+            end
+            if homeSkillCA.city ~= nil and 0 < homeSkillCA.city then
+              local cityInfo = goodsInfo[tostring(homeSkillCA.city)]
+              if cityInfo == nil then
+                cityInfo = {}
+                goodsInfo[tostring(homeSkillCA.city)] = cityInfo
+              end
+              addValue(cityInfo, homeSkillCA)
+            else
+              addValue(goodsInfo, homeSkillCA)
+            end
+          end
+        elseif homeSkillCA.city ~= nil and 0 < homeSkillCA.city then
+          local cityInfo = skillsServerData[tostring(homeSkillCA.city)]
+          if cityInfo == nil then
+            cityInfo = {}
+            skillsServerData[tostring(homeSkillCA.city)] = cityInfo
+          end
+          addValue(cityInfo, homeSkillCA)
+        else
+          addValue(skillsServerData, homeSkillCA)
+        end
+      end
+    end
+  end
+end
+
 function PlayerData:GetHomeSkillIncrease(enum, confirmStationId, confirmGoodsId)
   local skillsServerData = PlayerData.ServerData.home_skills
   if enum == EnumDefine.HomeSkillEnum.AddQty then
@@ -3048,6 +3203,110 @@ function PlayerData:GetHomeSkillIncrease(enum, confirmStationId, confirmGoodsId)
     local val = skillsServerData[enum]
     if val ~= nil and val.forever ~= nil then
       return val.forever.param or 0
+    end
+  end
+  return 0
+end
+
+function PlayerData:GetActivityBuff(enum, confirmStationId, confirmGoodsId)
+  local skillsServerData = PlayerData.ServerData.act_buff
+  if skillsServerData == nil then
+    return 0
+  end
+  local curTime = TimeUtil:GetServerTimeStamp()
+  local getTempValue = function(temp)
+    if temp == nil then
+      return 0
+    end
+    local param = 0
+    for k, v in pairs(temp) do
+      if curTime < v.deadline then
+        param = v.param + param
+      end
+    end
+    return param
+  end
+  if enum == EnumDefine.HomeSkillEnum.AddQty then
+    local goodsTable = {}
+    for k, v in pairs(skillsServerData) do
+      if k == enum then
+        goodsTable.all = (goodsTable.all or 0) + getTempValue(v.temp)
+      else
+        local id = tonumber(k)
+        if id ~= nil then
+          local factoryName = DataManager:GetFactoryNameById(id)
+          if factoryName == "HomeGoodsFactory" then
+            for k1, v1 in pairs(v) do
+              if k1 == enum then
+                if goodsTable[id] == nil then
+                  goodsTable[id] = 0
+                end
+                goodsTable[id] = goodsTable[id] + getTempValue(v1.temp)
+              elseif tonumber(k1) == confirmStationId then
+                local val = v1[enum]
+                if val ~= nil then
+                  if goodsTable[id] == nil then
+                    goodsTable[id] = 0
+                  end
+                  goodsTable[id] = goodsTable[id] + getTempValue(val.temp)
+                end
+              end
+            end
+          elseif factoryName == "HomeStationFactory" and id == confirmStationId then
+            local val = v[enum]
+            if val ~= nil then
+              goodsTable.all = (goodsTable.all or 0) + getTempValue(val.temp)
+            end
+          end
+        end
+      end
+    end
+    if confirmGoodsId ~= nil then
+      local value1 = goodsTable.all or 0
+      local value2 = goodsTable[confirmGoodsId] or 0
+      return value1 + value2
+    else
+      return goodsTable
+    end
+  elseif enum == EnumDefine.HomeSkillEnum.AddSpecQty then
+    local allValue = 0
+    local t = skillsServerData[enum]
+    if t then
+      allValue = allValue + getTempValue(t.temp)
+    end
+    if confirmStationId then
+      t = skillsServerData[tostring(confirmStationId)]
+      if t and t[enum] then
+        allValue = allValue + getTempValue(t[enum].temp)
+      end
+    end
+    return allValue
+  elseif enum == EnumDefine.HomeSkillEnum.TaxCuts then
+    local cityTable = {}
+    for k, v in pairs(skillsServerData) do
+      if k == enum then
+        cityTable.all = getTempValue(v.temp)
+      else
+        local id = tonumber(k)
+        if id ~= nil then
+          local val = v[enum]
+          if val ~= nil then
+            cityTable[id] = getTempValue(val.temp)
+          end
+        end
+      end
+    end
+    if confirmStationId ~= nil then
+      local value1 = cityTable.all or 0
+      local value2 = cityTable[confirmStationId] or 0
+      return value1 + value2
+    else
+      return cityTable
+    end
+  else
+    local val = skillsServerData[enum]
+    if val ~= nil then
+      return getTempValue(val.temp)
     end
   end
   return 0
@@ -3301,6 +3560,73 @@ function PlayerData.IsQuestComplete(questId)
   return false
 end
 
+function PlayerData.GetQuestState(questId)
+  local questCA = PlayerData:GetFactoryData(questId, "QuestFactory")
+  local keyTable = {}
+  if questCA.preQuest then
+    for i, v in pairs(questCA.preQuest) do
+      local preState = PlayerData.GetQuestState(v.id)
+      if preState == EnumDefine.EQuestState.Lock or preState == EnumDefine.EQuestState.UnFinish then
+        return EnumDefine.EQuestState.Lock
+      end
+    end
+  end
+  if questCA.preLevel then
+    for i, v in pairs(questCA.preLevel) do
+      if not PlayerData:GetLevelPass(v.id) then
+        return EnumDefine.EQuestState.Lock
+      end
+    end
+  end
+  if questCA.questType == "Activity" then
+    table.insert(keyTable, "activity_quests")
+    table.insert(keyTable, "server_quests")
+  elseif questCA.questType == "ActivityAchieve" then
+    table.insert(keyTable, "activity_achieve")
+  elseif questCA.questType == "Main" then
+    table.insert(keyTable, "mq_quests")
+  elseif questCA.questType == "Side" then
+    table.insert(keyTable, "branch_quests")
+  end
+  for i, key in pairs(keyTable) do
+    if key == "server_quests" then
+      local serverData = PlayerData.ServerData[key]
+      if serverData and serverData[tostring(questId)] then
+        if serverData[tostring(questId)].recv > 0 then
+          local activityData = PlayerData:GetActivityData(questCA.correspondActivity)
+          if activityData and activityData.ser_qid[tostring(questId)] and activityData.ser_qid[tostring(questId)] == 1 then
+            return EnumDefine.EQuestState.Receive
+          end
+          return EnumDefine.EQuestState.Finish
+        else
+          return EnumDefine.EQuestState.UnFinish
+        end
+      end
+    else
+      local serverData = PlayerData.ServerData.quests[key]
+      if serverData and serverData[tostring(questId)] then
+        if serverData[tostring(questId)].recv > 0 then
+          return EnumDefine.EQuestState.Receive
+        end
+        if serverData[tostring(questId)].pcnt >= questCA.num then
+          return EnumDefine.EQuestState.Finish
+        else
+          return EnumDefine.EQuestState.UnFinish
+        end
+      end
+    end
+  end
+  return EnumDefine.EQuestState.Lock
+end
+
+function PlayerData.RefreshServerQuests(serverData)
+  if serverData then
+    for k, v in pairs(serverData) do
+      PlayerData.ServerData.server_quests[k] = v
+    end
+  end
+end
+
 function PlayerData:ClearLua(preName)
   TrainManager:TravelOver()
   local TradeDataModel = require("UIHome/UIHomeTradeDataModel")
@@ -3308,6 +3634,7 @@ function PlayerData:ClearLua(preName)
   local MainDataModel = require("UIMainUI/UIMainUIDataModel")
   MainDataModel.InitModel()
   QuestTrace.ClearQuestTraceInfo()
+  QuestProcess.Clear()
   local DialogBoxDataModel = require("UIDialogBox_Tip/UIDialogBox_TipDataModel")
   DialogBoxDataModel.InitModel()
   ListenerManager.ClearAllListener()
@@ -3373,7 +3700,16 @@ function PlayerData:GetCardDes(id, isInit)
   if isInit then
     skill = DataManager:GetUnitCard(id, 0, 0)
   else
-    skill = DataManager:GetUnitCard(id, role.awake_lv or 1, role.resonance_lv or 1)
+    local awakeLv = role.awake_lv or 1
+    local resonanceLv = role.resonance_lv or 1
+    local roleCA = self:GetFactoryData(id)
+    if roleCA.talentList ~= nil and resonanceLv == #roleCA.talentList and self:IsRoleResonanceLock(id) then
+      resonanceLv = resonanceLv - 1
+    end
+    if roleCA.breakthroughList ~= nil and awakeLv == #roleCA.breakthroughList - 1 and self:IsRoleAwakeLock(id) then
+      awakeLv = awakeLv - 1
+    end
+    skill = DataManager:GetUnitCard(id, awakeLv, resonanceLv)
   end
   local skillList = Json.decode(skill)
   return skillList.cards
@@ -4608,6 +4944,52 @@ function PlayerData:RefreshChapterSeverData()
       end
     end
   end
+end
+
+function PlayerData:GetActivityAct(activityId)
+  if activityId and PlayerData.ServerData.all_activities.ing and PlayerData.ServerData.all_activities.ing[tostring(activityId)] then
+    return PlayerData.ServerData.all_activities.ing[tostring(activityId)].act == 1
+  end
+  return false
+end
+
+function PlayerData:RefreshActivityData(activityId, activityData)
+  if PlayerData.ServerData.all_activities and PlayerData.ServerData.all_activities.ing then
+    PlayerData.ServerData.all_activities.ing[tostring(activityId)] = activityData
+  end
+end
+
+function PlayerData:GetActivityData(activityId)
+  if PlayerData.ServerData.all_activities and PlayerData.ServerData.all_activities.ing then
+    return PlayerData.ServerData.all_activities.ing[tostring(activityId)]
+  end
+  return nil
+end
+
+function PlayerData.RefreshCardsData(serverData)
+  local data = serverData and serverData.card_pack
+  if not data then
+    return
+  end
+  for k, v in pairs(data) do
+    PlayerData.ServerData.books.card_pack[k] = v
+  end
+end
+
+function PlayerData:GetSignInfoRedState()
+  local SignInfo = PlayerData:GetLocalSignInfo()
+  if SignInfo ~= nil then
+    local totalDays = SignInfo.totalDays
+    local id = SignInfo.id
+    local severData = PlayerData:GetSignInfo()[tostring(id)]
+    if severData and severData.status == 0 then
+      if severData.count == totalDays then
+        return false
+      end
+      return true
+    end
+  end
+  return false
 end
 
 return PlayerData

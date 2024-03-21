@@ -279,6 +279,15 @@ function DataModel:Init()
       end
     end
   end
+  for i = 1, #skillCA.tagOutsideList do
+    if i + #other_tagList <= 6 then
+      table.insert(other_tagList, {
+        tagId = skillCA.tagOutsideList[i].tagId
+      })
+    else
+      break
+    end
+  end
   if other_tagList and 0 < table.count(other_tagList) then
     for i = 1, table.count(other_tagList) do
       local v = other_tagList[i]

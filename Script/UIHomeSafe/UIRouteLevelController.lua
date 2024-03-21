@@ -195,7 +195,7 @@ local Battle = function(level_key, level_id, battle_json)
   t.buildingId = DataModel.BuildingId
   t.isCityMapIn = DataModel.IsCityMapIn
   t.autoShowLevel = 3
-  status.homeSafeData = t
+  status.extraUIParamData = t
   PlayerData.BattleInfo.battleStageId = tonumber(level_id)
   PlayerData.BattleCallBackPage = "UI/Home/HomeSafe/HomeSafe"
   UIManager:Open("UI/Squads/Squads", Json.encode(status))

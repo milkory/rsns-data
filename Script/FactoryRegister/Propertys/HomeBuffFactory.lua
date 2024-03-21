@@ -1,7 +1,7 @@
 RegProperty("HomeBuffFactory", {
   {
     name = "name",
-    type = "String",
+    type = "StringT",
     des = "技能名",
     arg0 = ""
   },
@@ -105,7 +105,7 @@ RegProperty("HomeBuffFactory", {
   },
   {
     mod = "活动buff",
-    name = "ActivityBuffType",
+    name = "buffType",
     type = "Enum",
     des = "Buff类型||AddQty:增加买入数量,TaxCuts:减少税收",
     arg0 = "AddQty#TaxCuts",

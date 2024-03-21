@@ -142,13 +142,11 @@ function Controller:SetPolluteLines()
         end
       end
     end
-  end
-  for k, v in pairs(PlayerData.pollute_areas) do
-    local homeLineCA = PlayerData:GetFactoryData(k)
-    local x = homeLineCA.polluteX
-    local y = homeLineCA.polluteY
-    local icon
     if v.po_curIndex ~= nil then
+      local homeLineCA = PlayerData:GetFactoryData(k)
+      local x = homeLineCA.polluteX
+      local y = homeLineCA.polluteY
+      local icon
       local po_curIndex = math.ceil(v.po_curIndex)
       if po_curIndex ~= 0 then
         if po_curIndex <= 3 then
@@ -262,16 +260,11 @@ function Controller:ReSizeMapToView()
   View.Group_Common.SoftMask_HomeMap.Group_HomeMap.self.Rect.sizeDelta = size
 end
 
-function Controller:ClickBtn(btn)
-  local name = btn.transform:GetChild(0).name
-  local id = string.sub(name, #DataModel.UIStationPreName + 1, #name)
+local InnerClickStation = function(id)
+  DataModel.CurSelectedId = id
   local stationCA = PlayerData:GetFactoryData(id, "HomeStationFactory")
-  if DataModel.CurSelectedId == tonumber(id) then
-    return
-  end
-  DataModel.CurSelectedId = tonumber(id)
   View.Group_Common.SoftMask_HomeMap.Group_HomeMap.ScrollView_Map.Viewport.Content.Img_Selected:SetActive(true)
-  View.Group_Common.SoftMask_HomeMap.Group_HomeMap.ScrollView_Map.Viewport.Content.Img_Selected:SetPosition(btn.transform.position)
+  View.Group_Common.SoftMask_HomeMap.Group_HomeMap.ScrollView_Map.Viewport.Content.Img_Selected:SetAnchoredPosition(Vector2(stationCA.x, stationCA.y))
   View.Group_Common.SoftMask_HomeMap.Group_HomeMap.Group_StationInfo.self:SetActive(false)
   View.Group_Common.SoftMask_HomeMap.Group_HomeMap.Group_StationInfo.self:SetActive(true)
   View.Group_Common.SoftMask_HomeMap.Group_HomeMap.Group_StationInfo.Group_Info.Group_Station.Txt_Name:SetText(stationCA.name)
@@ -325,8 +318,8 @@ function Controller:ClickBtn(btn)
   View.Group_Common.SoftMask_HomeMap.Group_HomeMap.Group_StationInfo.Btn_Trailer.self:SetActive(not isTravel and DataModel.CurSelectedId ~= TradeDataModel.EndCity and isUnlock)
   View.Group_Common.SoftMask_HomeMap.Group_HomeMap.Group_StationInfo.Btn_BuyRush.self:SetActive(not isTravel and DataModel.CurSelectedId ~= TradeDataModel.EndCity and isUnlock)
   View.Group_Common.SoftMask_HomeMap.Group_HomeMap.Group_StationInfo.Btn_DriveSetup.self:SetActive(not isTravel and DataModel.CurSelectedId ~= TradeDataModel.EndCity and isUnlock)
-  self:RefreshAcceNum()
-  self:RefreshTrailerNum()
+  Controller:RefreshAcceNum()
+  Controller:RefreshTrailerNum()
   View.Group_Common.SoftMask_HomeMap.Group_HomeMap.Group_StationInfo.Img_Ban.self:SetActive(isTravel)
   View.Group_Common.SoftMask_HomeMap.Group_HomeMap.Group_StationInfo.Img_Lock.self:SetActive(not isTravel and not isUnlock)
   if isBanStop then
@@ -341,6 +334,15 @@ function Controller:ClickBtn(btn)
       View.Group_Common.SoftMask_HomeMap.Group_HomeMap.Group_StationInfo.Img_Lock.Txt_Condition:SetText(stationCA.banStopTips)
     end
   end
+end
+
+function Controller:ClickBtn(btn)
+  local name = btn.transform:GetChild(0).name
+  local id = string.sub(name, #DataModel.UIStationPreName + 1, #name)
+  if DataModel.CurSelectedId == tonumber(id) then
+    return
+  end
+  InnerClickStation(tonumber(id))
 end
 
 function Controller:RefreshAcceNum()
@@ -484,7 +486,7 @@ function Controller:CalcTravelLineWaypoints(travelStations)
   end
 end
 
-function Controller:ShowDetailMap(isShow, isFirst)
+function Controller:ShowDetailMap(isShow, isFirst, compleleCb, isActivite)
   local curServerGuideNo = PlayerData:GetUserInfo().newbie_step
   local guideConfig = PlayerData:GetFactoryData(99900035, "ConfigFactory")
   if isShow and curServerGuideNo < 999 and not guideConfig.skipGuide then
@@ -552,7 +554,7 @@ function Controller:ShowDetailMap(isShow, isFirst)
     DataModel.CurSelectedId = 0
     local homeCommon = require("Common/HomeCommon")
     homeCommon.TimeCheckRefreshStationInfo()
-    View.self:PlayAnim("Out", function()
+    local refreshCommon = function()
       DataModel.HomeMapType = 2
       commonShow(isShow)
       View.Group_Common.Btn_HideUI:SetActive(false)
@@ -571,8 +573,19 @@ function Controller:ShowDetailMap(isShow, isFirst)
       View.Group_Common.SoftMask_HomeMap.self:ResetAllManaged()
       Controller:SetPolluteLines()
       Controller:RefreshMapNeedleIcon()
-      View.self:PlayAnim("MapIn")
-    end)
+      View.self:PlayAnim("MapIn", function()
+        if compleleCb then
+          compleleCb()
+        end
+      end)
+    end
+    if isActivite then
+      refreshCommon()
+    else
+      View.self:PlayAnim("Out", function()
+        refreshCommon()
+      end)
+    end
   else
     local hideDo = function()
       DataModel.HomeMapType = 1
@@ -589,6 +602,9 @@ function Controller:ShowDetailMap(isShow, isFirst)
         local MainUIController = require("UIMainUI/UIMainUIController")
         MainUIController.ShowCoachQuickJump(false)
         MainUIController.ShowManagerTool(false)
+        if compleleCb then
+          compleleCb()
+        end
       end)
     end
     if isSameState then
@@ -601,6 +617,17 @@ function Controller:ShowDetailMap(isShow, isFirst)
   end
   View.Group_Common.SoftMask_HomeMap.Group_HomeMap.Group_StationInfo.self:SetActive(false)
   View.Group_Common.SoftMask_HomeMap.Group_HomeMap.ScrollView_Map.Viewport.Content.Img_Selected:SetActive(false)
+end
+
+function Controller:AutoToClickStation(stationId, isActivite)
+  local cb = function()
+    local scrollViewObj = View.Group_Common.SoftMask_HomeMap.Group_HomeMap.ScrollView_Map.self.gameObject
+    local scrollView = scrollViewObj:GetComponent(typeof(CS.Seven.UIScrollView))
+    local ca = PlayerData:GetFactoryData(stationId)
+    scrollView.ScrollRect.content:GetComponent(typeof(CS.Seven.UIGroup)):SetAnchoredPosition(Vector2(-ca.x, -ca.y))
+    InnerClickStation(stationId)
+  end
+  Controller:ShowDetailMap(true, false, cb, isActivite)
 end
 
 function Controller:RefreshViewToTrain()

@@ -52,4 +52,5 @@ GameMgrs = require("Logic/GameMgrs")
 TrainWeaponTag = require("TrainWeaponTag")
 HomeFurnitureCollection = require("HomeFurnitureCollection")
 CharacterUtil = require("CharacterUtil")
+QuestProcess = require("Common/QuestProcess")
 return 1

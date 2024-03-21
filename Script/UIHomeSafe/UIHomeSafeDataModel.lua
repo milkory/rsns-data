@@ -21,7 +21,8 @@ local DataModel = {
     talkText = "talkText",
     levelListText = "levelListText",
     enterOfferText = "enterOfferText"
-  }
+  },
+  CacheEventList = {}
 }
 
 function DataModel.GetEnergy()

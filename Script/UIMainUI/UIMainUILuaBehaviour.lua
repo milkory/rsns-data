@@ -119,11 +119,13 @@ local Luabehaviour = {
     local forceShowPosterGirl = false
     if initParams ~= nil then
       local data = Json.decode(initParams)
-      if data.ShowPosterGirl ~= nil and DataModel.isPosterGirlShow then
-        forceShowPosterGirl = data.ShowPosterGirl
-      end
-      if data.IsGoHomeCoach ~= nil then
-        DataModel.IsGoHomeCoach = true
+      if data then
+        if data.ShowPosterGirl ~= nil and DataModel.isPosterGirlShow then
+          forceShowPosterGirl = data.ShowPosterGirl
+        end
+        if data.IsGoHomeCoach ~= nil then
+          DataModel.IsGoHomeCoach = true
+        end
       end
     end
     DataModel.CurFrame = 0
@@ -178,9 +180,13 @@ local Luabehaviour = {
         guideId = PlayerData:GetUserInfo().newbie_step
       end
       if 5 < guideId then
+        Controller.isInitEffect = false
         TradeDataModel.SetTrainMode(function()
           View.Group_Common.Group_Position.self:SetActive(TradeDataModel.GetInTravel())
           Controller:InitCheDengLight()
+          if Controller.isInitEffect == false then
+            Controller:InitTrainEffect()
+          end
           Controller.SetTrainBreakEffect()
           PlayerData:GetPolluteTurntable()
           if TrainManager.CurrTrainState == TrainState.Event then

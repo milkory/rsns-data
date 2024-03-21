@@ -15,8 +15,17 @@ function GetPlayerRoleData(roleId)
   roleInfo.unitViewId = roleData.current_skin[1]
   roleInfo.lv = roleData.lv
   roleInfo.breakthroughLv = 0
-  roleInfo.awakeLv = roleData.awake_lv
-  roleInfo.resonanceLv = roleData.resonance_lv
+  local roleCA = PlayerData:GetFactoryData(roleId)
+  local awakeLv = roleData.awake_lv or 1
+  if awakeLv == #roleCA.breakthroughList - 1 and PlayerData:IsRoleAwakeLock(roleId) then
+    awakeLv = awakeLv - 1
+  end
+  roleInfo.awakeLv = awakeLv
+  local resonanceLv = roleData.resonance_lv or 1
+  if resonanceLv == #roleCA.talentList and PlayerData:IsRoleResonanceLock(roleId) then
+    resonanceLv = resonanceLv - 1
+  end
+  roleInfo.resonanceLv = resonanceLv
   roleInfo.resonanceStage = 0
   if roleData.trust_lv == nil then
     roleInfo.trustLv = 0

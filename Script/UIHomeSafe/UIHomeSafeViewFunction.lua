@@ -104,7 +104,7 @@ local ViewFunction = {
       t.buildingId = DataModel.BuildingId
       t.isCityMapIn = DataModel.IsCityMapIn
       t.autoShowLevel = 2
-      status.homeSafeData = t
+      status.extraUIParamData = t
       PlayerData.BattleInfo.battleStageId = levelId
       PlayerData.BattleCallBackPage = "UI/Home/HomeSafe/HomeSafe"
       UIManager:Open("UI/Squads/Squads", Json.encode(status))

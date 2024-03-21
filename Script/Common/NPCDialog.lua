@@ -21,6 +21,29 @@ local getDetailText = function(info)
   end
   return text
 end
+local checkTimeLimit = function(info)
+  local startTime = info.startTime or ""
+  local endTime = info.endTime or ""
+  if info.activityId and info.activityId > 0 then
+    local activityCA = PlayerData:GetFactoryData(info.activityId)
+    startTime = activityCA.startTime or ""
+    endTime = activityCA.endTime or ""
+  end
+  local curTime = PlayerData:GetSeverTime()
+  if startTime ~= "" then
+    local timeStamp = TimeUtil:TimeStamp(startTime)
+    if curTime < timeStamp then
+      return false
+    end
+  end
+  if endTime ~= "" then
+    local timeStamp = TimeUtil:TimeStamp(endTime)
+    if curTime > timeStamp then
+      return false
+    end
+  end
+  return true
+end
 local module = {}
 
 function module.SetNPC(element, id, enum, specifiedUrl)
@@ -123,6 +146,13 @@ function module.SetNPCText(element, txtTable, tableName)
   dialogGroup.listId = 0
   dialogGroup.curIdx = 0
   local totalWeight = 0
+  local tempTxtTable = txtTable
+  txtTable = {}
+  for i, info in ipairs(tempTxtTable) do
+    if checkTimeLimit(info) then
+      table.insert(txtTable, info)
+    end
+  end
   for k, v in pairs(txtTable) do
     if not v.isHide then
       totalWeight = totalWeight + v.weight

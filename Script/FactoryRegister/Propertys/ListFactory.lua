@@ -1,5 +1,33 @@
 RegProperty("ListFactory", {
   {
+    mod = "活动跳转相关",
+    name = "skipStationStart",
+    type = "Factory",
+    des = "跳转城市（开始）",
+    arg0 = "HomeStationFactory"
+  },
+  {
+    mod = "活动跳转相关",
+    name = "skipQuestList",
+    type = "Array",
+    des = "任务跳转列表",
+    detail = "id"
+  },
+  {
+    name = "id",
+    type = "Factory",
+    des = "任务跳转",
+    arg0 = "QuestFactory"
+  },
+  {name = "end"},
+  {
+    mod = "活动跳转相关",
+    name = "skipStationEnd",
+    type = "Factory",
+    des = "跳转城市（结束）",
+    arg0 = "HomeStationFactory"
+  },
+  {
     mod = "通用奖励",
     name = "rewardList",
     type = "Array",
@@ -17,6 +45,44 @@ RegProperty("ListFactory", {
     type = "Int",
     des = "数量",
     arg0 = "1"
+  },
+  {name = "end"},
+  {
+    mod = "插针小地图坐标",
+    name = "needleInMapList",
+    type = "Array",
+    des = "插针列表",
+    detail = "id#mapIconPath#iconPosy#iconPosx"
+  },
+  {
+    name = "id",
+    type = "Factory",
+    des = "大地图插针",
+    arg0 = "MapNeedleFactory"
+  },
+  {
+    mod = "大世界剧情插针",
+    name = "iconPosx",
+    type = "Double",
+    des = "UI坐标X",
+    arg0 = "0",
+    pyIgnore = true
+  },
+  {
+    mod = "大世界剧情插针",
+    name = "iconPosy",
+    type = "Double",
+    des = "UI坐标Y",
+    arg0 = "0",
+    pyIgnore = true
+  },
+  {
+    mod = "大世界剧情插针",
+    name = "mapIconPath",
+    type = "String",
+    des = "地图图标素材",
+    arg0 = "",
+    pyIgnore = true
   },
   {name = "end"},
   {
@@ -793,7 +859,7 @@ RegProperty("ListFactory", {
     name = "id",
     type = "Factory",
     des = "物品ID",
-    arg0 = "ItemFactory#SourceMaterialFactory#EquipmentFactory#ListFactory#HomeWeaponFactory"
+    arg0 = "ItemFactory#SourceMaterialFactory#EquipmentFactory#ListFactory#HomeWeaponFactory#HomeFurnitureFactory"
   },
   {
     name = "percent",
@@ -1133,7 +1199,7 @@ RegProperty("ListFactory", {
     name = "cityNPCList",
     type = "Array",
     des = "城市功能入口",
-    detail = "dev#questId#iconPath#name#x#y#func#btnType#uiPath#modelPath#npcId#bgPath#stationPlace#dialogId#dungeonId#levelId#textId#isLock#isSpecial#isInstance#effectPath",
+    detail = "dev#questId#isOnlyHave#iconPath#name#x#y#func#btnType#uiPath#modelPath#npcId#bgPath#stationPlace#dialogId#dungeonId#levelId#textId#isLock#isSpecial#isInstance#effectPath#startTime#endTime#activityId#metaId#exitId",
     pyIgnore = true
   },
   {
@@ -1158,10 +1224,54 @@ RegProperty("ListFactory", {
     pyIgnore = true
   },
   {
+    name = "isSpecial",
+    type = "Bool",
+    des = "特殊按钮",
+    arg0 = "false",
+    pyIgnore = true
+  },
+  {
+    name = "isInstance",
+    type = "Bool",
+    des = "副本",
+    arg0 = "false",
+    pyIgnore = true
+  },
+  {
+    name = "iconPath",
+    type = "Png",
+    des = "按钮图标",
+    arg0 = "",
+    arg1 = "100|100",
+    pyIgnore = true
+  },
+  {
+    name = "nameIconPath",
+    type = "Png",
+    des = "名字图标",
+    arg0 = "",
+    arg1 = "50|50",
+    pyIgnore = true
+  },
+  {
+    name = "effectPath",
+    type = "String",
+    des = "特效",
+    arg0 = "UI/UIEffect/particle/UI_city/UI_cityBtn_01/UI_cityBtn_01",
+    pyIgnore = true
+  },
+  {
     name = "questId",
     type = "Factory",
-    des = "拥有任务时显示",
+    des = "显示任务",
     arg0 = "QuestFactory",
+    pyIgnore = true
+  },
+  {
+    name = "isOnlyHave",
+    type = "Bool",
+    des = "仅拥有任务时显示|解锁且未完成",
+    arg0 = "True",
     pyIgnore = true
   },
   {
@@ -1169,6 +1279,27 @@ RegProperty("ListFactory", {
     type = "Int",
     des = "解锁发展度",
     arg0 = "0",
+    pyIgnore = true
+  },
+  {
+    name = "activityId",
+    type = "Factory",
+    des = "在活动期间显示|活动ID,如果为拥有任务时显示，读取任务时间",
+    arg0 = "ActivityFactory",
+    pyIgnore = true
+  },
+  {
+    name = "startTime",
+    type = "String",
+    des = "开始时间|与活动时间互斥",
+    arg0 = "",
+    pyIgnore = true
+  },
+  {
+    name = "endTime",
+    type = "String",
+    des = "结束时间|与活动时间互斥",
+    arg0 = "",
     pyIgnore = true
   },
   {
@@ -1181,8 +1312,8 @@ RegProperty("ListFactory", {
   {
     name = "func",
     type = "Enum",
-    des = "功能||OpenUI:打开界面,OpenScene:打开店铺,OpenDialog:播放剧情,OpenDungeon:进入副本,OpenLevel:进入关卡,Tips:显示提示,OpenBuilding:打开建筑,OpenLevelDetail:打开关卡详情",
-    arg0 = "OpenUI#OpenScene#OpenDialog#OpenDungeon#OpenLevel#Tips#OpenBuilding",
+    des = "功能||OpenUI:打开界面,OpenScene:打开店铺,OpenDialog:播放剧情,OpenDungeon:进入副本,OpenLevel:进入关卡,Tips:显示提示,OpenBuilding:打开建筑,OpenLevelDetail:打开关卡详情,OpenCityMap:打开城市地图",
+    arg0 = "OpenUI#OpenScene#OpenDialog#OpenDungeon#OpenLevel#Tips#OpenBuilding#OpenCityMap",
     arg1 = "OpenUI",
     pyIgnore = true
   },
@@ -1244,47 +1375,17 @@ RegProperty("ListFactory", {
     pyIgnore = true
   },
   {
+    name = "metaId",
+    type = "Factory",
+    des = "功能对应metaID",
+    arg0 = "ListFactory",
+    pyIgnore = true
+  },
+  {
     name = "textId",
     type = "Factory",
     des = "提示文本",
     arg0 = "TextFactory",
-    pyIgnore = true
-  },
-  {
-    name = "isSpecial",
-    type = "Bool",
-    des = "特殊按钮",
-    arg0 = "false",
-    pyIgnore = true
-  },
-  {
-    name = "isInstance",
-    type = "Bool",
-    des = "副本",
-    arg0 = "false",
-    pyIgnore = true
-  },
-  {
-    name = "iconPath",
-    type = "Png",
-    des = "按钮图标",
-    arg0 = "",
-    arg1 = "100|100",
-    pyIgnore = true
-  },
-  {
-    name = "nameIconPath",
-    type = "Png",
-    des = "名字图标",
-    arg0 = "",
-    arg1 = "50|50",
-    pyIgnore = true
-  },
-  {
-    name = "effectPath",
-    type = "String",
-    des = "特效",
-    arg0 = "UI/UIEffect/particle/UI_city/UI_cityBtn_01/UI_cityBtn_01",
     pyIgnore = true
   },
   {
@@ -1317,6 +1418,14 @@ RegProperty("ListFactory", {
     type = "Bool",
     des = "显示建设进度",
     arg0 = "False",
+    pyIgnore = true
+  },
+  {
+    mod = "城市地图",
+    name = "exitId",
+    type = "Factory",
+    des = "返回哪里",
+    arg0 = "HomeStationFactory",
     pyIgnore = true
   },
   {
@@ -1879,7 +1988,14 @@ RegProperty("ListFactory", {
     name = "passageTypeList",
     type = "Array",
     des = "乘客招收构成",
-    detail = "id#weight"
+    detail = "isOnly#id#weight"
+  },
+  {
+    mod = "传单地点",
+    name = "isOnly",
+    type = "Bool",
+    des = "是否唯一",
+    arg0 = "False"
   },
   {
     mod = "传单地点",
@@ -1902,6 +2018,13 @@ RegProperty("ListFactory", {
     type = "Array",
     des = "招收乘客标签",
     detail = "id#weight"
+  },
+  {
+    mod = "传单地点",
+    name = "isOnly",
+    type = "Bool",
+    des = "是否唯一",
+    arg0 = "False"
   },
   {
     name = "id",
@@ -3229,7 +3352,7 @@ RegProperty("ListFactory", {
     name = "achievementList",
     type = "Array",
     des = "活动成就列表",
-    detail = "id"
+    detail = "id#icon#englishPic"
   },
   {
     name = "id",
@@ -3237,6 +3360,22 @@ RegProperty("ListFactory", {
     des = "活动成就",
     arg0 = "QuestFactory",
     arg1 = "活动任务"
+  },
+  {
+    name = "icon",
+    type = "Png",
+    des = "贸易成就图标",
+    arg0 = "",
+    arg1 = "100|100",
+    pyIgnore = true
+  },
+  {
+    name = "englishPic",
+    type = "Png",
+    des = "英文装饰",
+    arg0 = "",
+    arg1 = "100|100",
+    pyIgnore = true
   },
   {name = "end"},
   {

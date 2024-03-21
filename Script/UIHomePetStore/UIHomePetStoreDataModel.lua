@@ -1,5 +1,7 @@
 local DataModel = {
+  CacheInitParams = nil,
   StationId = 0,
+  BuildingId = 0,
   NpcId = 0,
   BgPath = "",
   BgColor = "",
@@ -49,7 +51,8 @@ local DataModel = {
   BuyPetUId = "",
   CanSaleList = {},
   ShopIdToRecycle = {},
-  TypeToShopId = {}
+  TypeToShopId = {},
+  CacheEventList = {}
 }
 
 function DataModel.InitShopData()

@@ -223,7 +223,7 @@ end
 
 function Controller:RefreshTempBuyBottomShow()
   View.Group_Trade.Group_Buy.Txt_Tax:SetText(string.format("%.1f%%", DataModel.GetTax() * 100))
-  View.Group_Trade.Group_Buy.Group_Price.Txt_Num:SetText(MainDataModel.NumRound(DataModel.TempCurCost * (1 + DataModel.GetTax())))
+  View.Group_Trade.Group_Buy.Group_Price.Txt_Num:SetText(MainDataModel.NumRound(DataModel.TempCurCost * (1 + DataModel.GetTax()) + DataModel.GetActivityGoodsTax()))
   local oriSpace = MainDataModel.NumCeilPrecision(DataModel.CurUseSpace)
   local curUseSpace = MainDataModel.NumCeilPrecision(DataModel.TempCurSpace)
   if curUseSpace == 0 then
@@ -401,7 +401,7 @@ function Controller:ConfirmBuy()
     CommonTips.OpenTips(80600774)
     return
   end
-  if MainDataModel.NumRound(DataModel.TempCurCost * (1 + DataModel.GetTax())) > DataModel.GetMoney() then
+  if MainDataModel.NumRound(DataModel.TempCurCost * (1 + DataModel.GetTax()) + DataModel.GetActivityGoodsTax()) > DataModel.GetMoney() then
     CommonTips.OpenTips(80600539)
     return
   end
@@ -432,7 +432,7 @@ function Controller:ConfirmBuy()
     local tradeConfig = PlayerData:GetFactoryData(99900062, "ConfigFactory")
     local completeInfo = {}
     completeInfo.tax = DataModel.GetTax()
-    completeInfo.taxPrice = MainDataModel.NumRound(DataModel.TempCurCost * completeInfo.tax)
+    completeInfo.taxPrice = MainDataModel.NumRound(DataModel.TempCurCost * completeInfo.tax + DataModel.GetActivityGoodsTax())
     completeInfo.totalPrice = completeInfo.taxPrice + DataModel.TempCurCost
     completeInfo.rep = completeInfo.taxPrice / tradeConfig.taxConvertRep
     completeInfo.repLv = PlayerData:GetHomeInfo().stations[tostring(stationId)].rep_lv
@@ -531,7 +531,12 @@ function Controller:RefreshTempSaleBottomShow()
   View.Group_Trade.Group_Sell.Group_Profit.Txt_Num:SetColor(color)
   local showText = DataModel.TempCurTotalSalePrice
   if DataModel.TempCurProfit > 0 then
-    showText = DataModel.TempCurTotalSalePrice - MainDataModel.NumRound(DataModel.TempCurProfit * DataModel.GetTax())
+    local activityTax = DataModel.GetActivityGoodsTax()
+    local newTax = DataModel.TempCurProfit * DataModel.GetTax() + activityTax
+    if newTax < 0 then
+      newTax = 0
+    end
+    showText = DataModel.TempCurTotalSalePrice - MainDataModel.NumRound(newTax)
   end
   View.Group_Trade.Group_Sell.Group_Price.Txt_Num:SetText(showText)
   local oriSpace = MainDataModel.NumCeilPrecision(DataModel.CurUseSpace)
@@ -626,6 +631,21 @@ function Controller:ConfirmSale()
     end
   end
   Net:SendProto("station.sell", function(json)
+    if json.activities then
+      for activityId, activityData in pairs(json.activities) do
+        PlayerData:RefreshActivityData(activityId, activityData)
+      end
+    end
+    if json.act_buff then
+      DataModel.ActivityGoodsBuyLimitUp = PlayerData:GetActivityBuff(EnumDefine.HomeSkillEnum.AddQty, DataModel.StationId)
+      if DataModel.ActivityGoodsBuyLimitUp == 0 then
+        DataModel.ActivityGoodsBuyLimitUp = {}
+      end
+      DataModel.ActivityTaxCuts = PlayerData:GetActivityBuff(EnumDefine.HomeSkillEnum.TaxCuts)
+      if DataModel.ActivityTaxCuts == 0 then
+        DataModel.ActivityTaxCuts = {}
+      end
+    end
     if json.goods_price ~= nil then
       DataModel.GoodsPriceWave(json.goods_price)
       priceWaveCb()
@@ -690,7 +710,11 @@ function Controller:ConfirmSale()
     completeInfo.tradeLv = PlayerData:GetHomeInfo().trade_lv
     completeInfo.taxPrice = 0
     if 0 < completeInfo.profit then
-      completeInfo.taxPrice = MainDataModel.NumRound(completeInfo.profit * completeInfo.tax)
+      local tax = completeInfo.profit * completeInfo.tax + DataModel.GetActivityGoodsTax()
+      if tax < 0 then
+        tax = 0
+      end
+      completeInfo.taxPrice = MainDataModel.NumRound(tax)
     end
     completeInfo.totalPrice = DataModel.TempCurTotalSalePrice - completeInfo.taxPrice
     if 0 < completeInfo.profit then

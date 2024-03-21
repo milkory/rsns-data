@@ -615,7 +615,10 @@ function DataModel.SetTrainMode(callback)
     SafeReleaseScene(true)
   end
   MainManager:SetTrainMode(DataModel.GetInTravel(), DataModel.GetInTravel() and "TrainMap" or MainDataModel.CurShowSceneInfo.stationScene, DataModel.DelayPer, function()
-    PlayerData.canAuto = 1
+    HomeView.self:StartC(LuaUtil.cs_generator(function()
+      coroutine.yield(CS.UnityEngine.WaitForSeconds(2))
+      PlayerData.canAuto = 1
+    end))
     MainManager:SetTrainViewFilter(DataModel.DelayPer, false)
     MapSessionManager:ClearGlobalNeedles()
     DataModel.ClearGloabalNeedls()
@@ -632,6 +635,8 @@ function DataModel.SetTrainMode(callback)
     else
       if (not (DataModel.StateEnter ~= EnumDefine.TrainStateEnter.FirstLogin and DataModel.StateEnter ~= EnumDefine.TrainStateEnter.DriveNew or TrainManager.IsRunning) or DataModel.StateEnter == EnumDefine.TrainStateEnter.BattleFinish) and not PlayerData.TempCache.SendArrive and not PlayerData.GetIsTest() then
         TrainManager:ChangeBasicState(DataModel.TrainState, DataModel.Index, DataModel.RemainDis, DataModel.CurrSpeed, DataModel.TargetSpeed)
+        local mainController = require("UIMainUI/UIMainUIController")
+        mainController:InitTrainEffect()
         if DataModel.StateEnter == EnumDefine.TrainStateEnter.BattleFinish then
           DataModel.StateEnter = EnumDefine.TrainStateEnter.DriveNew
         end

@@ -43,6 +43,17 @@ local module = {
       itemView.Img_Item:SetSprite(caData.iconPath)
       itemView.Img_Bottom:SetSprite(UIConfig.BottomConfig[quality_int])
       itemView.Img_Mask:SetSprite(UIConfig.MaskConfig[quality_int])
+    elseif factoryName == "CollectionCardPackFactory" then
+      itemView.Group_Effect:SetActive(false)
+      itemView.Img_Mask:SetActive(false)
+      itemView.Img_Item:SetSprite(caData.itemIconPath)
+      itemView.Img_Bottom:SetSprite(caData.backPic)
+    elseif factoryName == "CollectionCardFactory" then
+      itemView.Group_Effect:SetActive(false)
+      itemView.Img_Mask:SetActive(false)
+      itemView.Img_Item:SetSprite(caData.tipsPath)
+      local cardPackCfg = PlayerData:GetFactoryData(caData.correspondingPack, "CollectionCardPackFactory")
+      itemView.Img_Bottom:SetSprite(cardPackCfg.backPic)
     else
       itemView.Img_Item:SetSprite(caData.iconPath or caData.imagePath)
       itemView.Img_Bottom:SetSprite(UIConfig.BottomConfig[quality_int])

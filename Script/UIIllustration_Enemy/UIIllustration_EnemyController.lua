@@ -131,8 +131,6 @@ end
 function Controller:RefreshData()
   DataModel.NowShowList = DataModel.EnumSideIndex[DataModel.RightIndex]
   Controller:SortRefreshData()
-  print_r(DataModel.SortState.currentDown)
-  print_r(DataModel.SortShowList)
   DataModel.Element = {}
   if DataModel.isFirst then
     View.Group_Card.NewScrollGrid_EnemyCard.grid.self:StartC(LuaUtil.cs_generator(function()

@@ -3591,6 +3591,48 @@ RegProperty("ConfigFactory", {
   },
   {name = "end"},
   {
+    mod = "任务完成类型表",
+    name = "sellItem",
+    type = "Array",
+    des = "卖出指定货物",
+    detail = "id"
+  },
+  {
+    name = "id",
+    type = "Factory",
+    des = "任务ID",
+    arg0 = "QuestFactory"
+  },
+  {name = "end"},
+  {
+    mod = "任务完成类型表",
+    name = "sellItemServer",
+    type = "Array",
+    des = "全服卖出指定货物",
+    detail = "id"
+  },
+  {
+    name = "id",
+    type = "Factory",
+    des = "任务ID",
+    arg0 = "QuestFactory"
+  },
+  {name = "end"},
+  {
+    mod = "任务完成类型表",
+    name = "sellItemProfit",
+    type = "Array",
+    des = "卖出指定货物统计利润",
+    detail = "id"
+  },
+  {
+    name = "id",
+    type = "Factory",
+    des = "任务ID",
+    arg0 = "QuestFactory"
+  },
+  {name = "end"},
+  {
     mod = "日常任务表",
     name = "questNum",
     type = "Int",
@@ -4015,7 +4057,7 @@ RegProperty("ConfigFactory", {
   },
   {
     name = "name",
-    type = "String",
+    type = "StringT",
     des = "标签名称"
   },
   {
@@ -4372,7 +4414,7 @@ RegProperty("ConfigFactory", {
   },
   {
     name = "firstName",
-    type = "StringT",
+    type = "String",
     des = "姓氏",
     arg0 = ""
   },
@@ -4386,7 +4428,7 @@ RegProperty("ConfigFactory", {
   },
   {
     name = "secondName",
-    type = "StringT",
+    type = "String",
     des = "名字",
     arg0 = ""
   },
@@ -4697,7 +4739,7 @@ RegProperty("ConfigFactory", {
   {
     mod = "枚举配置",
     name = "id",
-    type = "String",
+    type = "StringT",
     des = "途径名",
     arg0 = ""
   },
@@ -5695,7 +5737,7 @@ RegProperty("ConfigFactory", {
   },
   {
     name = "name",
-    type = "String",
+    type = "StringT",
     des = "类型名称",
     arg0 = ""
   },
@@ -5729,7 +5771,7 @@ RegProperty("ConfigFactory", {
   },
   {
     name = "name",
-    type = "String",
+    type = "StringT",
     des = "类型名称",
     arg0 = ""
   },
@@ -6026,7 +6068,7 @@ RegProperty("ConfigFactory", {
   },
   {
     name = "name",
-    type = "String",
+    type = "StringT",
     des = "功能名",
     arg0 = "",
     pyIgnore = true

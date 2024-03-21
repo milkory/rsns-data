@@ -82,6 +82,7 @@ local Luabehaviour = {
   enable = function()
   end,
   disenable = function()
+    QuestProcess.RemoveQuestCallBack(View.self.url)
   end
 }
 return {

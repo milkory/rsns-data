@@ -2,11 +2,16 @@ local View = require("UICityMap/UICityMapView")
 local DataModel = require("UICityMap/UICityMapDataModel")
 local HomeCommon = require("Common/HomeCommon")
 local Controller = {}
+local OpenCityMapDo = function(info)
+  DataModel.cityMapId = info.metaId
+  Controller:Init()
+  View.self:PlayAnim("In")
+end
 local CheckInvestLock = function(isShowTip)
   if isShowTip == nil then
     isShowTip = true
   end
-  local stationId = DataModel.StationId
+  local stationId = DataModel.stationId
   local stationCA = PlayerData:GetFactoryData(stationId)
   if stationCA.attachedToCity > 0 then
     stationId = stationCA.attachedToCity
@@ -26,7 +31,7 @@ local InitShowConstruct = function(stationCA)
   DataModel.ConstructMaxNum = 0
   DataModel.ConstructNowNum = 0
   DataModel.ConstructNowCA = {}
-  local StationList = PlayerData:GetHomeInfo().stations[tostring(DataModel.StationId)]
+  local StationList = PlayerData:GetHomeInfo().stations[tostring(DataModel.stationId)]
   DataModel.StationState = StationList.state
   for k, v in pairs(StationList.construction) do
     DataModel.ConstructNowNum = DataModel.ConstructNowNum + v.proportion
@@ -39,7 +44,7 @@ local InitShowConstruct = function(stationCA)
     construction_count = i
     if row.state and row.state ~= -1 and DataModel.ConstructNowNum >= DataModel.ConstructMaxNum and DataModel.StationState < row.state then
       DataModel.StationState = row.state
-      PlayerData:GetHomeInfo().stations[tostring(DataModel.StationId)].state = row.state
+      PlayerData:GetHomeInfo().stations[tostring(DataModel.stationId)].state = row.state
     end
     if DataModel.ConstructNowNum <= DataModel.ConstructMaxNum then
       break
@@ -76,10 +81,10 @@ local RefreshMissIonRed = function()
 end
 
 function Controller:Init()
-  local stationCA = PlayerData:GetFactoryData(DataModel.StationId, "HomeStationFactory")
-  local curStationDevData = PlayerData:GetHomeInfo().dev_degree[tostring(DataModel.StationId)]
-  local stateInfo = HomeCommon.GetCityStateInfo(DataModel.StationId)
-  local listCA = PlayerData:GetFactoryData(stateInfo.cityMapId, "ListFactory")
+  local stationCA = PlayerData:GetFactoryData(DataModel.stationId, "HomeStationFactory")
+  local curStationDevData = PlayerData:GetHomeInfo().dev_degree[tostring(DataModel.stationId)]
+  local cityMapId = DataModel.GetCurCityMapId()
+  local listCA = PlayerData:GetFactoryData(cityMapId, "ListFactory")
   View.ScrollView_Map.Viewport.Group_BG.self:SetAnchoredPosition(Vector2(listCA.offsetX, listCA.offsetY))
   View.Group_City.Txt_Name:SetText(stationCA.name)
   View.Group_City.Txt_NameEN:SetText(stationCA.nameEN)
@@ -104,50 +109,66 @@ function Controller:Init()
       local checkShow = true
       local info = listCA.cityNPCList[i]
       if info ~= nil then
-        element.self:SetAnchoredPosition(Vector2(info.x, info.y))
-        local curDegree = curStationDevData.dev_degree or 0
-        checkShow = checkShow and curDegree >= info.dev
-        if 0 < info.questId and checkShow then
-          checkShow = PlayerData:IsHaveQuest(info.questId)
+        local isOnlyHave = info.isOnlyHave
+        if isOnlyHave == nil then
+          isOnlyHave = true
+        end
+        if 0 < info.questId and isOnlyHave then
+          checkShow = checkShow and QuestProcess.CheckQuestTime(info.questId)
+          checkShow = checkShow and QuestProcess.CheckQuestPreQuestComplete(info.questId)
+        else
+          checkShow = checkShow and QuestProcess.CheckTime(info.activityId, info.startTime, info.endTime)
         end
         if checkShow then
-          local checkShowSpecial = info.func ~= "" and 0 < info.dialogId
-          checkShowSpecial = checkShowSpecial and PlayerData:GetPlayerPrefs("int", "Dialog" .. info.dialogId) == 0
-          if info.isSpecial == false then
-            element.Btn_Build.self:SetActive(true)
-            element.Btn_Special.self:SetActive(false)
-            element.Btn_Build.Group_Anim.Img_BuildMask:SetActive(not info.isInstance)
-            element.Btn_Build.Group_Anim.Img_InstanceMask:SetActive(info.isInstance)
-            element.Btn_Build.Group_Anim.Img_Mask.Img_Icon:SetSprite(info.iconPath)
-            element.Btn_Build.Group_Anim.Group_Name.Txt_Name:SetText(info.name)
-            element.Btn_Build.Group_Anim.Group_Name.Img_Icon:SetSprite(info.nameIconPath)
-            element.Btn_Build.Group_Anim.Group_Effect.self:SetActive(not info.isLock)
-            if not info.isLock then
-              if info.isInstance then
-                element.Btn_Build.Group_Anim.Group_Effect.Group_Instance:SetDynamicGameObject(info.effectPath, 0, 0)
-              else
-                element.Btn_Build.Group_Anim.Group_Effect.Group_Build:SetDynamicGameObject(info.effectPath, 0, 0)
+          element.self:SetAnchoredPosition(Vector2(info.x, info.y))
+          local curDegree = curStationDevData.dev_degree or 0
+          checkShow = checkShow and curDegree >= info.dev
+          if 0 < info.questId then
+            if isOnlyHave then
+              checkShow = checkShow and PlayerData:IsHaveQuest(info.questId)
+            else
+              checkShow = checkShow and PlayerData.IsQuestComplete(info.questId)
+            end
+          end
+          if checkShow then
+            local checkShowSpecial = info.func ~= "" and 0 < info.dialogId
+            checkShowSpecial = checkShowSpecial and PlayerData:GetPlayerPrefs("int", "Dialog" .. info.dialogId) == 0
+            if info.isSpecial == false then
+              element.Btn_Build.self:SetActive(true)
+              element.Btn_Special.self:SetActive(false)
+              element.Btn_Build.Group_Anim.Img_BuildMask:SetActive(not info.isInstance)
+              element.Btn_Build.Group_Anim.Img_InstanceMask:SetActive(info.isInstance)
+              element.Btn_Build.Group_Anim.Img_Mask.Img_Icon:SetSprite(info.iconPath)
+              element.Btn_Build.Group_Anim.Group_Name.Txt_Name:SetText(info.name)
+              element.Btn_Build.Group_Anim.Group_Name.Img_Icon:SetSprite(info.nameIconPath)
+              element.Btn_Build.Group_Anim.Group_Effect.self:SetActive(not info.isLock)
+              if not info.isLock then
+                if info.isInstance then
+                  element.Btn_Build.Group_Anim.Group_Effect.Group_Instance:SetDynamicGameObject(info.effectPath, 0, 0)
+                else
+                  element.Btn_Build.Group_Anim.Group_Effect.Group_Build:SetDynamicGameObject(info.effectPath, 0, 0)
+                end
               end
+              element.Btn_Build.self:SetClickParam(i)
+              local isShowRed = false
+              if info.btnType == "HomeSafe" or info.btnType == "RubbishStation" then
+                isShowRed = RedPointNodeStr.IsHaveRed(info.btnType)
+              end
+              element.Btn_Build.Group_Anim.Img_RedPoint:SetActive(isShowRed)
+              local curLock = false
+              if info.btnType == "HomeInvest" then
+                curLock = CheckInvestLock(false)
+              end
+              element.Btn_Build.Group_Anim.Img_Lock.self:SetActive(info.isLock or curLock)
+            else
+              element.Btn_Build.self:SetActive(false)
+              element.Btn_Special.self:SetActive(true)
+              element.Btn_Special.Group_Anim.Img_Special:SetSprite(info.iconPath)
+              element.Btn_Special.Group_Anim.Group_Name.Txt_Name:SetText(info.name)
+              element.Btn_Special.Group_Anim.Group_Name.Img_Icon:SetSprite(info.nameIconPath)
+              element.Btn_Special.self:SetClickParam(i)
+              element.Btn_Special.Group_Anim.Img_Tip:SetActive(checkShowSpecial)
             end
-            element.Btn_Build.self:SetClickParam(i)
-            local isShowRed = false
-            if info.btnType == "HomeSafe" or info.btnType == "RubbishStation" then
-              isShowRed = RedPointNodeStr.IsHaveRed(info.btnType)
-            end
-            element.Btn_Build.Group_Anim.Img_RedPoint:SetActive(isShowRed)
-            local curLock = false
-            if info.btnType == "HomeInvest" then
-              curLock = CheckInvestLock(false)
-            end
-            element.Btn_Build.Group_Anim.Img_Lock.self:SetActive(info.isLock or curLock)
-          else
-            element.Btn_Build.self:SetActive(false)
-            element.Btn_Special.self:SetActive(true)
-            element.Btn_Special.Group_Anim.Img_Special:SetSprite(info.iconPath)
-            element.Btn_Special.Group_Anim.Group_Name.Txt_Name:SetText(info.name)
-            element.Btn_Special.Group_Anim.Group_Name.Img_Icon:SetSprite(info.nameIconPath)
-            element.Btn_Special.self:SetClickParam(i)
-            element.Btn_Special.Group_Anim.Img_Tip:SetActive(checkShowSpecial)
           end
         end
       end
@@ -155,20 +176,30 @@ function Controller:Init()
     end
   end
   View.Group_Reputation.self:SetActive(listCA.isShowRep)
-  if HomeCommon.GetCurLvRepData(DataModel.StationId) ~= nil then
-    HomeCommon.SetReputationElement(View.Group_Reputation, DataModel.StationId)
+  if HomeCommon.GetCurLvRepData(DataModel.stationId) ~= nil then
+    HomeCommon.SetReputationElement(View.Group_Reputation, DataModel.stationId)
   end
   RefreshMissIonRed()
   QuestTrace.SetQuestTrace(View.Group_Navigation)
 end
 
 function Controller:ClickBtn(idx)
-  local stateInfo = HomeCommon.GetCityStateInfo(DataModel.StationId)
-  local listCA = PlayerData:GetFactoryData(stateInfo.cityMapId, "ListFactory")
+  local cityMapId = DataModel.GetCurCityMapId()
+  local listCA = PlayerData:GetFactoryData(cityMapId, "ListFactory")
   local info = listCA.cityNPCList[idx]
   local detailDo
   local isPlayOut = true
   if info ~= nil then
+    local checkTime = true
+    if info.questId > 0 then
+      checkTime = QuestProcess.CheckQuestTime(info.questId)
+    else
+      checkTime = QuestProcess.CheckTime(info.activityId, info.startTime, info.endTime)
+    end
+    if not checkTime then
+      CommonTips.OpenTips(80602659)
+      return
+    end
     if info.func == "OpenUI" then
       local isReturn = false
       if info.btnType == "HomeInvest" then
@@ -181,7 +212,8 @@ function Controller:ClickBtn(idx)
         function detailDo()
           local t = {}
           
-          t.stationId = DataModel.StationId
+          t.stationId = DataModel.stationId
+          t.buildingId = info.buildingId
           t.npcId = info.npcId
           t.bgPath = info.bgPath
           t.bgColor = info.bgColor
@@ -209,7 +241,7 @@ function Controller:ClickBtn(idx)
         local c = PlayerData:GetFactoryData(stationPlace.serverId, "HomeCharacterFactory")
         HomeStationStoreManager:CreateSpeicalCharacter(stationPlace.serverId, 0, 0, c.interactiveIconPath)
         UIManager:Open("UI/CityStore/CityStore", Json.encode({
-          StationId = tostring(DataModel.StationId),
+          StationId = tostring(DataModel.stationId),
           PlaceId = tostring(info.stationPlace)
         }))
         local sound = SoundManager:CreateSound(stationPlace.bgm)
@@ -233,7 +265,8 @@ function Controller:ClickBtn(idx)
         status.startNew = true
         status.GoBackUI = "UI/CityMap/CityMap"
         local t = {}
-        t.stationId = DataModel.StationId
+        t.stationId = DataModel.stationId
+        t.cityMapId = DataModel.cityMapId
         status.GoBackUIParam = Json.encode(t)
         PlayerData.Last_Chapter_Parms = status
         PlayerData.BattleCallBackPage = "UI/InsZone/InsZone"
@@ -252,11 +285,12 @@ function Controller:ClickBtn(idx)
         local status = {
           Current = "Chapter",
           squadIndex = PlayerData.BattleInfo.squadIndex,
-          hasOpenThreeView = false,
-          stationId = DataModel.StationId,
-          npcId = DataModel.NpcId,
-          bgPath = DataModel.BgPath
+          hasOpenThreeView = false
         }
+        local t = {}
+        t.stationId = DataModel.stationId
+        t.cityMapId = DataModel.cityMapId
+        status.extraUIParamData = t
         PlayerData.BattleInfo.battleStageId = levelId
         PlayerData.BattleCallBackPage = "UI/CityMap/CityMap"
         UIManager:Open("UI/Squads/Squads", Json.encode(status))
@@ -272,6 +306,8 @@ function Controller:ClickBtn(idx)
         }))
         PlayerData:TryPlayPlotByParagraphID(buildingCA.firstPlotId)
       end
+    elseif info.func == "OpenCityMap" then
+      detailDo = OpenCityMapDo
     end
   end
   if detailDo then
@@ -283,10 +319,10 @@ function Controller:ClickBtn(idx)
     end
     if isPlayOut then
       View.self:PlayAnim("Out", function()
-        detailDo()
+        detailDo(info)
       end)
     else
-      detailDo()
+      detailDo(info)
     end
   end
 end
@@ -362,21 +398,12 @@ function Controller:FuncActive()
     View.Group_TopRight.Btn_Squads.self:SetActive(active)
   end
   funcTable[118] = function(active)
-    local SignInfo = PlayerData:GetLocalSignInfo()
-    View.Group_TopRight.Btn_Activity.Img_Remind.self:SetActive(false)
     View.Group_TopRight.Btn_Activity:SetActive(false)
-    if SignInfo ~= nil then
-      View.Group_TopRight.Btn_Activity:SetActive(true)
-      local totalDays = SignInfo.totalDays
-      local id = SignInfo.id
-      local severData = PlayerData:GetSignInfo()[tostring(id)]
-      if severData and severData.status == 0 then
-        View.Group_TopRight.Btn_Activity.Img_Remind.self:SetActive(true)
-        if severData.count == totalDays then
-          View.Group_TopRight.Btn_Activity.Img_Remind.self:SetActive(false)
-        end
-      end
-    end
+  end
+  funcTable[120] = function(active)
+    View.Group_TopRight.Btn_ActivityNew:SetActive(true)
+    local ActivityMainDataModel = require("UIActivityMain/UIActivityMainDataModel")
+    View.Group_TopRight.Btn_ActivityNew.Img_Remind:SetActive(ActivityMainDataModel.GetMainAllRedState())
   end
   local funcViewShow = function(activeTable)
     for k, v in pairs(funcTable) do
@@ -390,12 +417,33 @@ end
 function Controller:PlayBgm()
   local bgm = SoundManager:GetBgmSource()
   if bgm.name == "Empty" then
-    local info = HomeCommon.GetCurShowSceneInfo(DataModel.StationId)
+    local info = HomeCommon.GetCurShowSceneInfo(DataModel.stationId)
     local sound = SoundManager:CreateSound(info.bgmId)
     if sound ~= nil then
       sound:Play()
     end
   end
+end
+
+function Controller:ClickReturn()
+  if DataModel.cityMapId and DataModel.cityMapId > 0 then
+    local ca = PlayerData:GetFactoryData(DataModel.cityMapId)
+    local exitId = ca.exitId
+    if 0 < exitId then
+      local factoryName = DataManager:GetFactoryNameById(exitId)
+      if factoryName == "HomeStationFactory" then
+        DataModel.cityMapId = 0
+      else
+        DataModel.cityMapId = exitId
+      end
+      View.self:PlayAnim("Out", function()
+        Controller:Init()
+        View.self:PlayAnim("In")
+      end)
+      return
+    end
+  end
+  UIManager:GoHome()
 end
 
 return Controller

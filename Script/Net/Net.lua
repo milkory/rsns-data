@@ -175,6 +175,9 @@ function Net.Callback(response, cb, failCb, protocol)
     if json.shops then
       PlayerData:RefreshShops(json.shops)
     end
+    if json.server_quests then
+      PlayerData:RefreshActivityBuffByServerQuest(json.server_quests, protocol == nil)
+    end
     if json.recharge_goods then
       PlayerData.RechargeGoods = json.recharge_goods
     end
@@ -232,6 +235,9 @@ function Net.Callback(response, cb, failCb, protocol)
       if json.books.sound then
         PlayerData:RefreshSound(books.sound)
       end
+      if json.books.card_pack then
+        PlayerData:RefreshCardPack(books.card_pack)
+      end
     end
     if json.construction then
       PlayerData:RefreshConstruction(json.construction)
@@ -241,6 +247,9 @@ function Net.Callback(response, cb, failCb, protocol)
     end
     if json.update_quests then
       PlayerData:UpdateQuestData(json.update_quests)
+    end
+    if json.server_quests then
+      PlayerData.RefreshServerQuests(json.server_quests)
     end
     if json.pollute_areas then
       PlayerData:RefrshPolluteLines(json.pollute_areas)

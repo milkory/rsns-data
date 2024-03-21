@@ -180,6 +180,7 @@ function DataModel.CharacterLoad(id, isSkin2)
         if receptionistData.state2Overturn == true then
           Group_CharacterSkin.Group_Spine.SpineSecondMode_Character:SetLocalScale(Vector3(-1, 1, 1))
         end
+        DataModel.Spine2PosX = receptionistData.spine2X
       else
         SetMissingConfig(isSpine2, receptionistData)
         View.Img_Bg.Group_Left.Group_Bottom.Img_Live2dBg:SetActive(false)
@@ -215,7 +216,6 @@ function DataModel.CharacterLoad(id, isSkin2)
     Group_CharacterSkin.Group_Character.Img_Character:SetLocalPosition(Vector3(-275 + receptionistData.offsetX, receptionistData.offsetY, 0))
     Group_CharacterSkin.Group_Character2.Img_Character2:SetLocalPosition(Vector3(receptionistData.offsetX2, receptionistData.offsetY2, 0))
     Group_CharacterSkin.Group_Character.Img_Character:SetLocalScale(Vector3(receptionistData.offsetScale, receptionistData.offsetScale, receptionistData.offsetScale))
-    DataModel.Spine2PosX = posX + DataModel.InfoInitPos.x
   end
   DataModel.NowSkin = {}
   DataModel.NowSkin.portraitId = tonumber(id)

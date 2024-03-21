@@ -9,6 +9,7 @@ local Luabehaviour = {
     if initParams ~= nil and initParams ~= "" then
       status = Json.decode(initParams)
     end
+    DataModel.stepClose = 0
     DataModel.Data = PlayerData:SortShowItem(status.rewards)
     if table.count(DataModel.Data) <= 15 then
       View.ScrollGrid_Items.self:SetEnable(false)
@@ -47,6 +48,10 @@ local Luabehaviour = {
   start = function()
   end,
   update = function()
+    DataModel.stepClose = DataModel.stepClose + 1
+    if DataModel.stepClose > DataModel.timeClose then
+      ViewFunction.ShowItem_Btn_OK_Click()
+    end
   end,
   ondestroy = function()
   end

@@ -6,6 +6,7 @@ local Luabehaviour = {
   serialize = function()
     local t = {}
     t.stationId = DataModel.StationId
+    t.buildingId = DataModel.BuildingId
     t.npcId = DataModel.NpcId
     t.bgPath = DataModel.BgPath
     t.noInit = true
@@ -15,6 +16,7 @@ local Luabehaviour = {
     if initParams ~= nil then
       local t = Json.decode(initParams)
       DataModel.StationId = t.stationId
+      DataModel.BuildingId = t.buildingId
       DataModel.NpcId = t.npcId
       DataModel.BgPath = t.bgPath
       DataModel.BgColor = t.bgColor or "FFFFFF"
@@ -31,6 +33,9 @@ local Luabehaviour = {
     Controller:TimeAutoRefresh()
   end,
   ondestroy = function()
+  end,
+  disenable = function()
+    QuestProcess.RemoveQuestCallBack(View.self.url)
   end
 }
 return {
