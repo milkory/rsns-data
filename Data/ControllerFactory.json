@@ -9620,20 +9620,7 @@
       }
     ],
     "normalAttackCritID": -1,
-    "skillList": [
-      {
-        "actionId": 10101045,
-        "activeFrame": 180,
-        "activeTime": 3.0,
-        "rangeSN": -10000
-      },
-      {
-        "actionId": 10101049,
-        "activeFrame": 600,
-        "activeTime": 10.0,
-        "rangeSN": -10000
-      }
-    ],
+    "skillList": [],
     "isInvisibleBeforeShowUp": true,
     "showupSkillList": [
       {
@@ -9644,14 +9631,8 @@
     "shapeShiftList": [],
     "commandList": [],
     "enemySkillList": [],
-    "isUseEnergy": true,
-    "energySkillList": [
-      {
-        "actionId": 10101050,
-        "isClearEnergy": true,
-        "rangeSN": -10000
-      }
-    ],
+    "isUseEnergy": false,
+    "energySkillList": [],
     "energyRestorePerFrameSN": 320,
     "isSkillDelay": true,
     "minDelay": 120,
@@ -12717,8 +12698,14 @@
     "skillList": [
       {
         "actionId": 10102592,
-        "activeFrame": 480,
-        "activeTime": 8.0,
+        "activeFrame": 360,
+        "activeTime": 6.0,
+        "rangeSN": 240000
+      },
+      {
+        "actionId": 10102593,
+        "activeFrame": 1440,
+        "activeTime": 24.0,
         "rangeSN": 240000
       }
     ],
@@ -12735,12 +12722,12 @@
     "isUseEnergy": true,
     "energySkillList": [
       {
-        "actionId": 10102593,
+        "actionId": 10102601,
         "isClearEnergy": true,
         "rangeSN": -10000
       }
     ],
-    "energyRestorePerFrameSN": 450,
+    "energyRestorePerFrameSN": 190,
     "isSkillDelay": false,
     "minDelay": 120,
     "maxDelay": 360

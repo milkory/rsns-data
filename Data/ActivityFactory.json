@@ -11,15 +11,74 @@
     "npcId": 83700053,
     "helpId": 80301725,
     "voiceActivity": -1,
-    "questId": 81000025,
+    "isJoin": true,
+    "questId": 81001139,
     "isTime": true,
-    "startTime": "2024-01-01 00:00:00",
-    "endTime": "2024-04-01 00:00:00",
-    "joinPlotId": 20700039,
-    "sequenceList": [
-      {},
-      {}
+    "startTime": "2024-03-21 15:00:00",
+    "endTime": "2024-04-11 00:00:00",
+    "rewardPreviewList": [
+      {
+        "id": 11000292
+      },
+      {
+        "id": 11400005
+      },
+      {
+        "id": 11400007
+      },
+      {
+        "id": 83100043
+      },
+      {
+        "id": 11400048
+      },
+      {
+        "id": 11700122
+      },
+      {
+        "id": 11400045
+      },
+      {
+        "id": 11700100
+      },
+      {
+        "id": 85000002
+      },
+      {
+        "id": 83100042
+      },
+      {
+        "id": 11400217
+      },
+      {
+        "id": 11400062
+      },
+      {
+        "id": 11400067
+      },
+      {
+        "id": 11400063
+      }
     ],
+    "activityStoreList": [
+      {
+        "id": 40300055
+      }
+    ],
+    "joinPlotId": 20700039,
+    "joinQuestId": 81000595,
+    "sequenceList": [
+      {
+        "skipId": 80301685,
+        "startTime": "2024-03-21 15:00:00"
+      },
+      {
+        "questId": 81000603,
+        "skipId": 80301686,
+        "startTime": "2024-03-22 15:00:00"
+      }
+    ],
+    "isChangeCOCQuest": true,
     "stationList": [
       {
         "endTime": "",
@@ -28,59 +87,143 @@
         "stationId": 83000001
       }
     ],
+    "isChangeQuotation": true,
     "goodsList": [
       {
         "buyQuotationMax": 0.9,
-        "buyQuotationMin": 0.75,
+        "buyQuotationMin": 0.5,
         "buyStationList": 86100001,
-        "endTime": "",
         "goodsId": 82900046,
-        "sellQuotationMax": 1.35,
+        "sellQuotationMax": 1.5,
         "sellQuotationMin": 1.1,
-        "sellStationList": 86100002,
-        "startTime": ""
+        "sellStationList": 86100002
+      }
+    ],
+    "tradeTypeList": [
+      {
+        "icon": "UI/Activity/BlackTea/Mission/Box_Lump",
+        "seriesName": "当前交易红茶累计利润",
+        "targetNum": 1000000,
+        "typeEnum": "addProfit",
+        "typeId": 80301477
+      },
+      {
+        "icon": "UI/Activity/BlackTea/Mission/Box_Single",
+        "seriesName": "当前交易红茶单笔最高利润",
+        "targetNum": 250000,
+        "typeEnum": "onceProfit",
+        "typeId": 80300020
+      }
+    ],
+    "battleList": [
+      {
+        "commonBg": "UI/Activity/BlackTea/Mission/Battle1",
+        "icon": "UI/Activity/BlackTea/Mission/Icon_Factory",
+        "lockDes": "未开放",
+        "lockedBg": "UI/Activity/BlackTea/Mission/Battle1_Locked",
+        "missionId": 81000590
+      },
+      {
+        "commonBg": "UI/Activity/BlackTea/Mission/Battle2",
+        "icon": "UI/Activity/BlackTea/Mission/Icon_Mob",
+        "lockDes": "未开放",
+        "lockedBg": "UI/Activity/BlackTea/Mission/Battle2_Locked",
+        "missionId": 81000591
+      },
+      {
+        "commonBg": "UI/Activity/BlackTea/Mission/Battle3",
+        "icon": "UI/Activity/BlackTea/Mission/Icon_Wilds",
+        "lockDes": "未开放",
+        "lockedBg": "UI/Activity/BlackTea/Mission/Battle3_Locked",
+        "missionId": 81000592
       }
     ],
     "ServerProgressList": [
       {
-        "buff": -1
+        "buff": -1,
+        "buyIcon": "UI/Activity/BlackTea/Stage/icon_num0",
+        "buyNum": 0,
+        "buyPng": "UI/Activity/BlackTea/Main/icon_buy_not",
+        "id": 81000582,
+        "revenueIcon": "UI/Activity/BlackTea/Stage/icon_tax0",
+        "revenueNum": 0,
+        "revenuePng": "UI/Activity/BlackTea/Main/icon_revenue_not"
       },
       {
-        "buff": 84100026
+        "buff": 84100026,
+        "buyIcon": "UI/Activity/BlackTea/Stage/icon_num0",
+        "buyNum": 0,
+        "buyPng": "UI/Activity/BlackTea/Main/icon_buy_not",
+        "id": 81000583,
+        "revenueIcon": "UI/Activity/BlackTea/BuffTips/icon_tax1",
+        "revenueNum": 3,
+        "revenuePng": "UI/Activity/BlackTea/Main/icon_revenue_1"
       },
       {
-        "buff": 84100028
+        "buff": 84100028,
+        "buyIcon": "UI/Activity/BlackTea/BuffTips/icon_num1",
+        "buyNum": 30,
+        "buyPng": "UI/Activity/BlackTea/Main/icon_buy_1",
+        "id": 81000584,
+        "revenueIcon": "UI/Activity/BlackTea/BuffTips/icon_tax1",
+        "revenueNum": 3,
+        "revenuePng": "UI/Activity/BlackTea/Main/icon_revenue_1"
       },
       {
-        "buff": 84100027
+        "buff": 84100027,
+        "buyIcon": "UI/Activity/BlackTea/BuffTips/icon_num1",
+        "buyNum": 30,
+        "buyPng": "UI/Activity/BlackTea/Main/icon_buy_1",
+        "id": 81000585,
+        "revenueIcon": "UI/Activity/BlackTea/BuffTips/icon_tax2",
+        "revenueNum": 5,
+        "revenuePng": "UI/Activity/BlackTea/Main/icon_revenue_2"
       },
       {
-        "buff": 84100029
+        "buff": 84100029,
+        "buyIcon": "UI/Activity/BlackTea/BuffTips/icon_num2",
+        "buyNum": 50,
+        "buyPng": "UI/Activity/BlackTea/Main/icon_buy_2",
+        "id": 81000586,
+        "revenueIcon": "UI/Activity/BlackTea/BuffTips/icon_tax2",
+        "revenueNum": 5,
+        "revenuePng": "UI/Activity/BlackTea/Main/icon_revenue_2"
       }
     ],
     "PersonalProgressList": [
-      {},
-      {},
-      {},
-      {},
-      {},
-      {},
-      {},
-      {},
-      {},
-      {}
-    ],
-    "achievementTypeList": [
       {
-        "typeId": 80301477
+        "id": 81000088
       },
       {
-        "typeId": 80300020
+        "id": 81000089
       },
       {
-        "typeId": 80300022
+        "id": 81000092
+      },
+      {
+        "id": 81000105
+      },
+      {
+        "id": 81000106
+      },
+      {
+        "id": 81000616
+      },
+      {
+        "id": 81000617
+      },
+      {
+        "id": 81000618
+      },
+      {
+        "id": 81000619
+      },
+      {
+        "id": 81000620
       }
-    ]
+    ],
+    "activityCardPack": 86300001,
+    "activityGoods": 82900046
   },
   {
     "id": 86000003,
@@ -94,10 +237,13 @@
     "npcId": -1,
     "helpId": -1,
     "voiceActivity": -1,
+    "isJoin": false,
     "questId": -1,
     "isTime": false,
     "startTime": "2024-01-01 00:00:00",
     "endTime": "2030-01-01 00:00:00",
+    "rewardPreviewList": [],
+    "activityStoreList": [],
     "signinId": 40100003
   }
 ]

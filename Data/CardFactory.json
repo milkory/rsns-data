@@ -197,7 +197,7 @@
     "idCN": "00原版/03三星/朱利安/S",
     "mod": "基础卡牌",
     "isInformalData": false,
-    "name": "援护射击",
+    "name": "火力掩护",
     "isCutIn": true,
     "isNoCD": false,
     "isUseInHand": false,
@@ -240,7 +240,8 @@
       }
     ],
     "tagOutsideList": [],
-    "deriveCardList": []
+    "deriveCardList": [],
+    "cardAIActionList": []
   },
   {
     "id": 10600034,
@@ -1612,7 +1613,7 @@
     "cost_SN": 50000,
     "inhandBuffId": -1,
     "inhandOverBuffId": -1,
-    "startBuffId": 10401662,
+    "startBuffId": 10400721,
     "discardBuffId": -1,
     "discardBySkillBuffId": -1,
     "banishBuffId": -1,
@@ -1643,7 +1644,8 @@
       }
     ],
     "tagOutsideList": [],
-    "deriveCardList": []
+    "deriveCardList": [],
+    "cardAIActionList": []
   },
   {
     "id": 10600106,
@@ -2811,7 +2813,7 @@
     "idCN": "00原版/05五星/多萝西/A",
     "mod": "基础卡牌",
     "isInformalData": false,
-    "name": "莱德宝贝",
+    "name": "莱格宝宝",
     "isCutIn": false,
     "isNoCD": false,
     "isUseInHand": false,
@@ -2913,7 +2915,7 @@
     "idCN": "00原版/05五星/多萝西/A共振4",
     "mod": "基础卡牌",
     "isInformalData": false,
-    "name": "莱德爆爆",
+    "name": "莱格爆爆",
     "isCutIn": false,
     "isNoCD": false,
     "isUseInHand": false,
@@ -3338,6 +3340,7 @@
     "mod": "基础卡牌",
     "isInformalData": false,
     "name": "磁弦脉冲",
+    "isCutIn": false,
     "isNoCD": false,
     "isUseInHand": false,
     "isNotDiscard": false,
@@ -3351,7 +3354,7 @@
     "cost_SN": 10000,
     "inhandBuffId": -1,
     "inhandOverBuffId": -1,
-    "startBuffId": 10407359,
+    "startBuffId": 10409142,
     "discardBuffId": -1,
     "discardBySkillBuffId": -1,
     "banishBuffId": -1,
@@ -3379,7 +3382,8 @@
       }
     ],
     "tagOutsideList": [],
-    "deriveCardList": []
+    "deriveCardList": [],
+    "cardAIActionList": []
   },
   {
     "id": 10600051,
@@ -4128,7 +4132,7 @@
     "cardType": "Normal",
     "sameCardGroupId": -1,
     "actionId": 10100076,
-    "cost_SN": 30000,
+    "cost_SN": 20000,
     "inhandBuffId": -1,
     "inhandOverBuffId": -1,
     "startBuffId": 10404988,
@@ -4165,8 +4169,10 @@
     "mod": "基础卡牌",
     "isInformalData": false,
     "name": "祈愿",
+    "isCutIn": false,
     "isNoCD": false,
     "isUseInHand": false,
+    "isNotDiscard": false,
     "iconPath": "RolePlus\\Valentine\\skillicon\\B",
     "backPath": "",
     "roleImgPath": "",
@@ -4177,7 +4183,7 @@
     "cost_SN": 30000,
     "inhandBuffId": -1,
     "inhandOverBuffId": -1,
-    "startBuffId": 10403084,
+    "startBuffId": 10405195,
     "discardBuffId": -1,
     "discardBySkillBuffId": -1,
     "banishBuffId": -1,
@@ -4187,6 +4193,8 @@
     "disappearEffectId": 11100047,
     "appearEffectId": 11100046,
     "createEffectId": 11100106,
+    "destroyEffectId": -1,
+    "createTweenDelay": 30,
     "isCostX": false,
     "tagList": [
       {
@@ -4200,7 +4208,8 @@
       }
     ],
     "tagOutsideList": [],
-    "deriveCardList": []
+    "deriveCardList": [],
+    "cardAIActionList": []
   },
   {
     "id": 10600099,
@@ -4996,8 +5005,10 @@
     "mod": "基础卡牌",
     "isInformalData": false,
     "name": "棒喝",
+    "isCutIn": false,
     "isNoCD": false,
     "isUseInHand": false,
+    "isNotDiscard": false,
     "iconPath": "RolePlus\\Achiwa\\skillicon\\A",
     "backPath": "",
     "roleImgPath": "",
@@ -5005,7 +5016,7 @@
     "cardType": "Normal",
     "sameCardGroupId": -1,
     "actionId": 10101131,
-    "cost_SN": 30000,
+    "cost_SN": 20000,
     "inhandBuffId": -1,
     "inhandOverBuffId": -1,
     "startBuffId": 10406432,
@@ -5018,6 +5029,8 @@
     "disappearEffectId": 11100047,
     "appearEffectId": 11100046,
     "createEffectId": 11100106,
+    "destroyEffectId": -1,
+    "createTweenDelay": 30,
     "isCostX": false,
     "tagList": [
       {
@@ -5034,7 +5047,8 @@
       }
     ],
     "tagOutsideList": [],
-    "deriveCardList": []
+    "deriveCardList": [],
+    "cardAIActionList": []
   },
   {
     "id": 10600163,
@@ -5558,8 +5572,10 @@
     "mod": "基础卡牌",
     "isInformalData": false,
     "name": "破岚",
+    "isCutIn": false,
     "isNoCD": false,
     "isUseInHand": false,
+    "isNotDiscard": false,
     "iconPath": "RolePlus\\Jerboa\\skillicon\\A",
     "backPath": "",
     "roleImgPath": "",
@@ -5580,6 +5596,8 @@
     "disappearEffectId": 11100047,
     "appearEffectId": 11100046,
     "createEffectId": 11100106,
+    "destroyEffectId": -1,
+    "createTweenDelay": 30,
     "isCostX": false,
     "tagList": [
       {
@@ -5593,7 +5611,8 @@
       }
     ],
     "tagOutsideList": [],
-    "deriveCardList": []
+    "deriveCardList": [],
+    "cardAIActionList": []
   },
   {
     "id": 10600203,
@@ -7029,7 +7048,7 @@
     "backPath": "",
     "roleImgPath": "RolePlus/Katas/Half_S-3",
     "color": "Red",
-    "cardType": "Derive",
+    "cardType": "UseOnce",
     "sameCardGroupId": -1,
     "actionId": 10100592,
     "cost_SN": 50000,
@@ -7063,7 +7082,8 @@
       }
     ],
     "tagOutsideList": [],
-    "deriveCardList": []
+    "deriveCardList": [],
+    "cardAIActionList": []
   },
   {
     "id": 10600141,
@@ -7281,7 +7301,7 @@
     "cost_SN": 50000,
     "inhandBuffId": -1,
     "inhandOverBuffId": -1,
-    "startBuffId": 10404004,
+    "startBuffId": 10401749,
     "discardBuffId": -1,
     "discardBySkillBuffId": -1,
     "banishBuffId": -1,
@@ -7312,7 +7332,8 @@
       }
     ],
     "tagOutsideList": [],
-    "deriveCardList": []
+    "deriveCardList": [],
+    "cardAIActionList": []
   },
   {
     "id": 10600252,
@@ -11873,7 +11894,7 @@
     "deriveCardList": [],
     "cardAIActionList": [
       {
-        "actionId": 96300002,
+        "actionId": 96300003,
         "conditionId": -1,
         "weight": 1
       }

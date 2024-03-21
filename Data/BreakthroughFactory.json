@@ -1008,15 +1008,17 @@
         "num": 1
       }
     ],
-    "skillList": [
-      {
-        "skillId": 12300591
-      }
-    ],
+    "skillList": [],
     "tempdesc": "【弹射】次数+2",
     "desc": "<color=#FF6666>【弹射】</color>次数+2",
     "skillChangeList": [],
-    "skillParamOffsetList": []
+    "skillParamOffsetList": [
+      {
+        "skillId": -1,
+        "tag": "catapultTimes",
+        "value_SN": 20000
+      }
+    ]
   },
   {
     "id": 12100093,
@@ -3919,8 +3921,8 @@
         "skillId": 12300654
       }
     ],
-    "tempdesc": "使用【祈愿】后，将手牌中的黑卡【灰烬】转化为【元素核·火】",
-    "desc": "使用【祈愿】后，将手牌中的黑卡【灰烬】转化为【元素核·火】",
+    "tempdesc": "使用【星火】后，将手牌中的黑卡【灰烬】转化为【元素核·火】",
+    "desc": "使用【星火】后，将手牌中的黑卡【灰烬】转化为【元素核·火】",
     "skillChangeList": [],
     "skillParamOffsetList": []
   },
@@ -4301,8 +4303,8 @@
         "skillId": 12300587
       }
     ],
-    "tempdesc": "使用【彩虹瓶】后，有25%概率再来一瓶",
-    "desc": "使用【彩虹瓶】后，有25%概率再来一瓶",
+    "tempdesc": "使用【彩虹瓶】后，有30%概率再来一瓶",
+    "desc": "使用【彩虹瓶】后，有30%概率再来一瓶",
     "skillChangeList": [],
     "skillParamOffsetList": []
   },
@@ -8208,17 +8210,17 @@
       },
       {
         "skillId": 12300450,
-        "tag": "B",
-        "value_SN": 1000
+        "tag": "C",
+        "value_SN": 10000
+      },
+      {
+        "skillId": 12300450,
+        "tag": "E",
+        "value_SN": 5000
       },
       {
         "skillId": 12300433,
         "tag": "A",
-        "value_SN": 30000
-      },
-      {
-        "skillId": 12300433,
-        "tag": "B",
         "value_SN": 20000
       },
       {
@@ -8229,6 +8231,11 @@
       {
         "skillId": -1,
         "tag": "HunShuiT",
+        "value_SN": 600000
+      },
+      {
+        "skillId": -1,
+        "tag": "SiLieT",
         "value_SN": 600000
       }
     ]
@@ -9570,7 +9577,13 @@
     "tempdesc": "【普通攻击】增强为：同时使用2把高斯手枪射击",
     "desc": "【普通攻击】增强为：同时使用2把高斯手枪射击",
     "skillChangeList": [],
-    "skillParamOffsetList": []
+    "skillParamOffsetList": [
+      {
+        "skillId": 12301163,
+        "tag": "A",
+        "value_SN": 60000
+      }
+    ]
   },
   {
     "id": 12100404,

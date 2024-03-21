@@ -516,25 +516,46 @@
   },
   {
     "id": 11200094,
-    "idCN": "我方/03星/黛丝莉/普攻子弹",
-    "mod": "追踪",
+    "idCN": "我方/03星/黛丝莉/普攻",
+    "mod": "地面直线弹",
     "isInformalData": false,
     "bulletViewId": 11300086,
     "speedX_SN": 6500,
     "disappearEffectList": [],
+    "appearEffectList": [],
     "effectID": -1,
-    "hitSoundId": 30000192
+    "hitSoundId": 30000192,
+    "scaleTag": "",
+    "durationMin": 1,
+    "damageRadius_SN": 5000,
+    "isFixedPosition": false,
+    "xOffSetStart_SN": 0,
+    "xOffSet_SN": 0,
+    "yOffSetStart_SN": 10000,
+    "yOffSet_SN": 10000,
+    "zOffSetStart_SN": 0,
+    "zOffSet_SN": 0,
+    "groundEffectList": [],
+    "isGroundEffectUseHitTimes": false,
+    "groundSoundId": -1,
+    "isGroundSoundUseHitTimes": false,
+    "envBuffId": -1,
+    "hitTimes": 0,
+    "hitTimesCustomTag": "",
+    "intervalFrame": 0,
+    "isDoBuffOnly": false,
+    "isHitTargetOnly": true
   },
   {
     "id": 11200097,
-    "idCN": "我方/05星/夏洛蒂/剑气1",
+    "idCN": "我方/05星/夏洛蒂/基础/剑气1",
     "mod": "冲击波",
     "isInformalData": false,
-    "bulletViewId": 11300090,
+    "bulletViewId": 11300091,
     "speedX_SN": 4000,
     "disappearEffectList": [
       {
-        "effectId": 11102077
+        "effectId": 11102083
       }
     ],
     "appearEffectList": [],
@@ -2654,56 +2675,6 @@
     "hitSoundId": 30000745
   },
   {
-    "id": 11200148,
-    "idCN": "我方/03星/黛丝莉/A子弹01偏上",
-    "mod": "地面直线弹",
-    "isInformalData": false,
-    "bulletViewId": 11300128,
-    "speedX_SN": 6500,
-    "disappearEffectList": [],
-    "appearEffectList": [],
-    "effectID": -1,
-    "hitSoundId": -1,
-    "scaleTag": "",
-    "durationMin": 1,
-    "damageRadius_SN": 5000,
-    "isFixedPosition": false,
-    "xOffSetStart_SN": 3000,
-    "xOffSet_SN": -6000,
-    "yOffSetStart_SN": 18000,
-    "yOffSet_SN": 3000,
-    "zOffSetStart_SN": 0,
-    "zOffSet_SN": 0,
-    "groundEffectList": [],
-    "isGroundEffectUseHitTimes": false,
-    "groundSoundId": -1,
-    "isGroundSoundUseHitTimes": false,
-    "envBuffId": -1,
-    "hitTimes": 0,
-    "hitTimesCustomTag": "",
-    "intervalFrame": 0,
-    "isDoBuffOnly": false,
-    "isHitTargetOnly": true
-  },
-  {
-    "id": 11200095,
-    "idCN": "我方/03星/黛丝莉/A弹射",
-    "mod": "镭射",
-    "bulletViewId": 11300088,
-    "speedX_SN": 1,
-    "disappearEffectList": [],
-    "effectID": -1,
-    "hitSoundId": 30000194,
-    "hitEffect": 11101739,
-    "totalFrame": 20,
-    "dontBindOwner": true,
-    "hitFrameList": [
-      {
-        "hitFrame": 12
-      }
-    ]
-  },
-  {
     "id": 11200149,
     "idCN": "我方/03星/黛丝莉/B熊射击子弹",
     "mod": "镭射",
@@ -4597,38 +4568,6 @@
     "hitFrameList": []
   },
   {
-    "id": 11200247,
-    "idCN": "我方/03星/黛丝莉/普攻追踪旋转上",
-    "mod": "追踪旋转",
-    "isInformalData": false,
-    "bulletViewId": 11300086,
-    "speedX_SN": 6500,
-    "disappearEffectList": [],
-    "effectID": -1,
-    "hitSoundId": 30000192,
-    "minAngle": 6,
-    "maxAngle": 6,
-    "frameRotation_SN": 6000,
-    "incrementRotation_SN": 200,
-    "speedVector_SN": 6500
-  },
-  {
-    "id": 11200248,
-    "idCN": "我方/03星/黛丝莉/普攻追踪旋转下",
-    "mod": "追踪旋转",
-    "isInformalData": false,
-    "bulletViewId": 11300086,
-    "speedX_SN": 6500,
-    "disappearEffectList": [],
-    "effectID": -1,
-    "hitSoundId": 30000192,
-    "minAngle": -6,
-    "maxAngle": -6,
-    "frameRotation_SN": 6000,
-    "incrementRotation_SN": 200,
-    "speedVector_SN": 6500
-  },
-  {
     "id": 11200240,
     "idCN": "敌方/07升构塔/BOSS_TScorpion/技能1子弹",
     "mod": "抛物线",
@@ -6272,8 +6211,9 @@
     "mod": "追踪",
     "isInformalData": false,
     "bulletViewId": 11300226,
-    "speedX_SN": 5000,
+    "speedX_SN": 3000,
     "disappearEffectList": [],
+    "appearEffectList": [],
     "effectID": -1,
     "hitSoundId": -1,
     "scaleTag": ""
@@ -8214,7 +8154,7 @@
     "mod": "镭射",
     "isInformalData": false,
     "bulletViewId": 11300088,
-    "speedX_SN": 1,
+    "speedX_SN": 1000,
     "disappearEffectList": [],
     "appearEffectList": [],
     "effectID": -1,
@@ -9317,18 +9257,8 @@
     "isHitTargetOnly": false
   },
   {
-    "id": 11200384,
-    "idCN": "我方/03星/黛丝莉/A子弹02中",
-    "mod": "追踪",
-    "bulletViewId": 11300128,
-    "speedX_SN": 6500,
-    "disappearEffectList": [],
-    "effectID": -1,
-    "hitSoundId": 30000193
-  },
-  {
     "id": 11200385,
-    "idCN": "我方/03星/黛丝莉/A子弹03偏下",
+    "idCN": "我方/03星/黛丝莉/A子弹",
     "mod": "地面直线弹",
     "isInformalData": false,
     "bulletViewId": 11300128,
@@ -9336,15 +9266,15 @@
     "disappearEffectList": [],
     "appearEffectList": [],
     "effectID": -1,
-    "hitSoundId": -1,
+    "hitSoundId": 30000193,
     "scaleTag": "",
     "durationMin": 1,
     "damageRadius_SN": 5000,
     "isFixedPosition": false,
-    "xOffSetStart_SN": 3000,
-    "xOffSet_SN": -6000,
-    "yOffSetStart_SN": 12000,
-    "yOffSet_SN": -3000,
+    "xOffSetStart_SN": 0,
+    "xOffSet_SN": 0,
+    "yOffSetStart_SN": 10000,
+    "yOffSet_SN": 10000,
     "zOffSetStart_SN": 0,
     "zOffSet_SN": 0,
     "groundEffectList": [],
@@ -10041,5 +9971,51 @@
     "intervalFrame": 0,
     "isDoBuffOnly": false,
     "isHitTargetOnly": true
+  },
+  {
+    "id": 11200134,
+    "idCN": "我方/05星/夏洛蒂/蔚蓝时分/剑气1",
+    "mod": "冲击波",
+    "isInformalData": false,
+    "bulletViewId": 11300091,
+    "speedX_SN": 4000,
+    "disappearEffectList": [
+      {
+        "effectId": 11102077
+      }
+    ],
+    "appearEffectList": [],
+    "effectID": -1,
+    "hitSoundId": -1,
+    "scaleTag": "",
+    "durationFrame": 60,
+    "xlSN": -10000,
+    "xrSN": 10000,
+    "intervalFrame": 0,
+    "bRepeated": false,
+    "reentrantCount": 0,
+    "rangeSpeedY_SN": 0,
+    "rangeShakeFrame": 0
+  },
+  {
+    "id": 11200095,
+    "idCN": "我方/03星/黛丝莉/A弹射",
+    "mod": "镭射",
+    "isInformalData": false,
+    "bulletViewId": 11300088,
+    "speedX_SN": 1000,
+    "disappearEffectList": [],
+    "appearEffectList": [],
+    "effectID": -1,
+    "hitSoundId": 30002464,
+    "scaleTag": "",
+    "hitEffect": 11101739,
+    "totalFrame": 20,
+    "dontBindOwner": true,
+    "hitFrameList": [
+      {
+        "hitFrame": 15
+      }
+    ]
   }
 ]
