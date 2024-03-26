@@ -1562,7 +1562,7 @@
     "mod": "功能家具",
     "isInformalData": false,
     "name": "大型智能水族箱",
-    "describe": "大型智能水族箱，恒温除菌，定时投食，解放双手，实现养鱼自由！",
+    "describe": "大型智能水族箱，恒温除菌，定时投食，解放双手，实现养鱼自由！\\n饲养在内的水族，水族评分+10%",
     "iconPath": "Item\\Furniture\\Small\\c_dszx",
     "rarity": "Blue",
     "isDefault": false,
@@ -1666,7 +1666,7 @@
     "mod": "功能家具",
     "isInformalData": false,
     "name": "全车厢沉浸式水族箱",
-    "describe": "海角城特制的沉浸式水族箱，一旦安装就不可移动，饲养大型鱼类也绰绰有余，豪华程度足以让每位乘客惊叹。缺点是可能引起患有深海恐惧症的乘客的不适。",
+    "describe": "海角城特制的沉浸式水族箱，一旦安装就不可移动，饲养大型鱼类也绰绰有余，豪华程度足以让每位乘客惊叹。缺点是可能引起患有深海恐惧症的乘客的不适。\\n饲养在内的水族，水族评分+20%",
     "iconPath": "Item\\Furniture\\Small\\c_cjsszx",
     "rarity": "Golden",
     "isDefault": false,
@@ -1777,7 +1777,7 @@
     "mod": "功能家具",
     "isInformalData": false,
     "name": "堆叠式植物培养舱",
-    "describe": "植物培养舱，有了它你就可以用自己种植的蔬菜烹饪了。",
+    "describe": "植物培养舱，有了它你就可以用自己种植的蔬菜烹饪了。\\n种植在内的绿植，绿植评分+10%",
     "iconPath": "Item\\Furniture\\Small\\c_zwpyc",
     "rarity": "White",
     "isDefault": false,
@@ -1820,12 +1820,15 @@
     "yinuooutput": 0,
     "addPassengerCapacity": 0,
     "setfares": -1,
+    "seatPrice": 0,
     "upgrade": -1,
     "lastgrade": -1,
     "upgradeCostList": [],
     "functionType": 12600187,
     "manufactureType": -1,
+    "FurnitureSkillList": [],
     "interfaceUrl": "UI/Home_plant/PlantEdition",
+    "PictureUrl": "",
     "formulaGroup": [],
     "isShowBubble": true,
     "interfaceName": "培养",
@@ -1869,7 +1872,8 @@
     "maxFood": 0,
     "maxPetNum": 0,
     "trustUp": 0,
-    "FridgeNum": 0
+    "FridgeNum": 0,
+    "ElectricPlus": 0
   },
   {
     "id": 81300136,
@@ -1877,7 +1881,7 @@
     "mod": "功能家具",
     "isInformalData": false,
     "name": "海豹牌大头贴自助机",
-    "describe": "无人自助，即拍即取，因可爱的外观尤其受女性欢迎，有不少消费者喜欢把备份贴在机器自带的照片墙上留念。",
+    "describe": "无人自助，即拍即取，因可爱的外观尤其受女性欢迎，有不少消费者喜欢把备份贴在机器自带的照片墙上留念。\\n所在车厢乘客收益+10%，同名家具限1次",
     "iconPath": "Item\\Furniture\\Small\\c_dtt",
     "rarity": "White",
     "isDefault": false,
@@ -1916,12 +1920,19 @@
     "yinuooutput": 0,
     "addPassengerCapacity": 0,
     "setfares": -1,
+    "seatPrice": 0,
     "upgrade": -1,
     "lastgrade": -1,
     "upgradeCostList": [],
     "functionType": -1,
     "manufactureType": -1,
+    "FurnitureSkillList": [
+      {
+        "id": 85800023
+      }
+    ],
     "interfaceUrl": "UI/HomeSticker/HomeSticker",
+    "PictureUrl": "",
     "formulaGroup": [],
     "isShowBubble": true,
     "interfaceName": "拍照",
@@ -1965,7 +1976,8 @@
     "maxFood": 0,
     "maxPetNum": 0,
     "trustUp": 0,
-    "FridgeNum": 0
+    "FridgeNum": 0,
+    "ElectricPlus": 0
   },
   {
     "id": 81300137,
@@ -2225,7 +2237,7 @@
     "mod": "基础家具",
     "isInformalData": false,
     "name": "列车用浴池",
-    "describe": "奔波的旅途中，谁能拒绝泡洗个热水澡呢？现代化的设施配上一点原始复古的装饰，为您驱除一天的疲惫。",
+    "describe": "奔波的旅途中，谁能拒绝泡洗个热水澡呢？现代化的设施配上一点原始复古的装饰，为您驱除一天的疲惫。\\n所在车厢乘客收益+5%，同名家具限1次",
     "iconPath": "Item\\Furniture\\Small\\c_yc",
     "rarity": "White",
     "isDefault": false,
@@ -3212,7 +3224,7 @@
     "mod": "基础家具",
     "isInformalData": false,
     "name": "公共电话机",
-    "describe": "投币式公共电话机，在黑月通讯网络覆盖不好的地方更接近摆设。",
+    "describe": "投币式公共电话机，在黑月通讯网络覆盖不好的地方更接近摆设。\\n所在车厢乘客收益+1%，同名家具限1次",
     "iconPath": "Item\\Furniture\\Small\\GYDHJ1",
     "rarity": "White",
     "isDefault": false,
@@ -3610,7 +3622,7 @@
     "mod": "基础家具",
     "isInformalData": false,
     "name": "自动贩卖机",
-    "describe": "守口如瓶波克士绝对不会告诉你这是列车长工资回收计划的一部分。",
+    "describe": "守口如瓶波克士绝对不会告诉你这是列车长工资回收计划的一部分。\\n所在车厢乘客收益+1%，同名家具限1次",
     "iconPath": "Item\\Furniture\\Small\\c_fmj1",
     "rarity": "White",
     "isDefault": false,
@@ -5055,7 +5067,7 @@
     "mod": "功能家具",
     "isInformalData": false,
     "name": "投币望远镜",
-    "describe": "投币式望远镜，可以清楚地看到沃德山顶的草……要试试看吗？",
+    "describe": "投币式望远镜，可以清楚地看到沃德山顶的草……要试试看吗？\\n所在车厢乘客收益+1%，同名家具限1次",
     "iconPath": "Item\\Furniture\\Small\\Telescope",
     "rarity": "White",
     "isDefault": false,
@@ -5343,7 +5355,7 @@
     "mod": "功能家具",
     "isInformalData": false,
     "name": "猫厕所",
-    "describe": "有可爱外观的猫厕所，聪明的猫猫会自己学会用。",
+    "describe": "有可爱外观的猫厕所，聪明的猫猫会自己学会用。\\n所在车厢宠物评分+1%",
     "iconPath": "Item\\Furniture\\Small\\maowo_02",
     "rarity": "White",
     "isDefault": false,
@@ -5447,7 +5459,7 @@
     "mod": "功能家具",
     "isInformalData": false,
     "name": "仙人掌猫厕所",
-    "describe": "仙人掌猫厕所，别担心，这上面没有真的刺！",
+    "describe": "仙人掌猫厕所，别担心，这上面没有真的刺！\\n所在车厢宠物评分+1%",
     "iconPath": "Item\\Furniture\\Small\\maowo_01",
     "rarity": "White",
     "isDefault": false,
@@ -5551,7 +5563,7 @@
     "mod": "功能家具",
     "isInformalData": false,
     "name": "万圣节限定猫厕所",
-    "describe": "万圣节限定装扮的猫厕所，买到就是赚到。",
+    "describe": "万圣节限定装扮的猫厕所，买到就是赚到。\\n所在车厢宠物评分+2%",
     "iconPath": "Item\\Furniture\\Small\\maowo_03",
     "rarity": "White",
     "isDefault": false,
@@ -6999,7 +7011,7 @@
     "mod": "基础家具",
     "isInformalData": false,
     "name": "自动贩卖机",
-    "describe": "寄托着使用者的期盼的自动贩售机，增加了更多饮料种类。",
+    "describe": "寄托着使用者的期盼的自动贩售机，增加了更多饮料种类。\\n所在车厢乘客收益+2%，同名家具限1次",
     "iconPath": "Item\\Furniture\\Small\\c_fmj2",
     "rarity": "White",
     "isDefault": false,
@@ -7049,6 +7061,9 @@
     ],
     "FurnitureSkillList": [
       {
+        "id": 85800004
+      },
+      {
         "id": 85800005
       }
     ],
@@ -7089,7 +7104,7 @@
     "mod": "基础家具",
     "isInformalData": false,
     "name": "自动贩卖机",
-    "describe": "汇集了市面上最受欢迎的饮料的自动贩售机，在列车上往往备受好评。",
+    "describe": "汇集了市面上最受欢迎的饮料的自动贩售机，在列车上往往备受好评。\\n所在车厢乘客收益+3%，同名家具限1次",
     "iconPath": "Item\\Furniture\\Small\\c_fmj3",
     "rarity": "White",
     "isDefault": false,
@@ -7133,6 +7148,12 @@
     "lastgrade": -1,
     "upgradeCostList": [],
     "FurnitureSkillList": [
+      {
+        "id": 85800004
+      },
+      {
+        "id": 85800005
+      },
       {
         "id": 85800006
       }
@@ -8017,7 +8038,7 @@
     "mod": "基础家具",
     "isInformalData": false,
     "name": "公共电话机",
-    "describe": "加装了黑月天线的投币式公共电话机，信号得到了大幅增强，一分钱一分货。",
+    "describe": "加装了黑月天线的投币式公共电话机，信号得到了大幅增强，一分钱一分货。\\n所在车厢乘客收益+2%，同名家具限1次",
     "iconPath": "Item\\Furniture\\Small\\GYDHJ2",
     "rarity": "White",
     "isDefault": false,
@@ -8067,6 +8088,9 @@
     ],
     "FurnitureSkillList": [
       {
+        "id": 85800010
+      },
+      {
         "id": 85800011
       }
     ],
@@ -8107,7 +8131,7 @@
     "mod": "基础家具",
     "isInformalData": false,
     "name": "公共电话机",
-    "describe": "加装了阿妮塔专线的公共电话机，据说再偏远的地区也能接收到信号，当然顺利通话的前提是对面的信号和你的一样好。",
+    "describe": "加装了阿妮塔专线的公共电话机，据说再偏远的地区也能接收到信号，当然顺利通话的前提是对面的信号和你的一样好。\\n所在车厢乘客收益+3%，同名家具限1次",
     "iconPath": "Item\\Furniture\\Small\\GYDHJ3",
     "rarity": "White",
     "isDefault": false,
@@ -8152,6 +8176,12 @@
     "upgradeCostList": [],
     "FurnitureSkillList": [
       {
+        "id": 85800010
+      },
+      {
+        "id": 85800011
+      },
+      {
         "id": 85800012
       }
     ],
@@ -8192,7 +8222,7 @@
     "mod": "功能家具",
     "isInformalData": false,
     "name": "投币望远镜",
-    "describe": "加装了增倍镜的望远镜，能观赏更远距离的风景。",
+    "describe": "加装了增倍镜的望远镜，能观赏更远距离的风景。\\n所在车厢乘客收益+2%，同名家具限1次",
     "iconPath": "Item\\Furniture\\Small\\Telescope",
     "rarity": "White",
     "isDefault": false,
@@ -8243,6 +8273,9 @@
     "functionType": -1,
     "manufactureType": -1,
     "FurnitureSkillList": [
+      {
+        "id": 85800007
+      },
       {
         "id": 85800008
       }
@@ -8301,7 +8334,7 @@
     "mod": "功能家具",
     "isInformalData": false,
     "name": "投币望远镜",
-    "describe": "加装了高清镜片的望远镜，角度合适的话，能看清临近城市街道上行人衣物的花纹。（不会有人真的那么做的吧？）",
+    "describe": "加装了高清镜片的望远镜，角度合适的话，能看清临近城市街道上行人衣物的花纹。（不会有人真的那么做的吧？）\\n所在车厢乘客收益+3%，同名家具限1次",
     "iconPath": "Item\\Furniture\\Small\\Telescope",
     "rarity": "White",
     "isDefault": false,
@@ -8347,6 +8380,12 @@
     "functionType": -1,
     "manufactureType": -1,
     "FurnitureSkillList": [
+      {
+        "id": 85800007
+      },
+      {
+        "id": 85800008
+      },
       {
         "id": 85800009
       }
@@ -9252,6 +9291,7 @@
     ],
     "functionType": 12600199,
     "manufactureType": -1,
+    "FurnitureSkillList": [],
     "interfaceUrl": "UI/Home/NewHomeLive",
     "PictureUrl": "",
     "formulaGroup": [],
@@ -9297,7 +9337,8 @@
     "maxFood": 0,
     "maxPetNum": 0,
     "trustUp": 3,
-    "FridgeNum": 0
+    "FridgeNum": 0,
+    "ElectricPlus": 0
   },
   {
     "id": 81300103,
@@ -11643,7 +11684,7 @@
     "posTypes": [],
     "pickAble": false,
     "hasCollision": true,
-    "autoAddCollider": true,
+    "autoAddCollider": false,
     "place": "Floor",
     "type": 12600204,
     "sortingLayer": "Default",
@@ -11871,7 +11912,7 @@
     "mod": "基础家具",
     "isInformalData": false,
     "name": "宠物摇摇乐",
-    "describe": "优质布料搭配新型工艺，耐玩的宠物摇摇乐。",
+    "describe": "优质布料搭配新型工艺，耐玩的宠物摇摇乐。\\n所在车厢宠物评分+1%",
     "iconPath": "Item\\Furniture\\Small\\PetChair01",
     "rarity": "White",
     "isDefault": false,
@@ -11956,7 +11997,7 @@
     "mod": "基础家具",
     "isInformalData": false,
     "name": "宠物藤编摇床",
-    "describe": "天然原料制作，纯手工编织，清新自然的宠物快乐窝。",
+    "describe": "天然原料制作，纯手工编织，清新自然的宠物快乐窝。\\n所在车厢宠物评分+1%",
     "iconPath": "Item\\Furniture\\Small\\PetChair02",
     "rarity": "White",
     "isDefault": false,
@@ -12041,7 +12082,7 @@
     "mod": "基础家具",
     "isInformalData": false,
     "name": "宠物跑步机",
-    "describe": "新款宠用跑步机，让宠物在封闭空间内得到更多的运动机会，可以有效防止宠物因精力过剩而拆家。",
+    "describe": "新款宠用跑步机，让宠物在封闭空间内得到更多的运动机会，可以有效防止宠物因精力过剩而拆家。\\n所在车厢宠物评分+2%",
     "iconPath": "Item\\Furniture\\Small\\PetTreadmill",
     "rarity": "White",
     "isDefault": false,
@@ -12284,7 +12325,7 @@
     "mod": "基础家具",
     "isInformalData": false,
     "name": "闪耀露蕾蒂站姿",
-    "describe": "黑月游乐城与大头贴机合作的露蕾蒂玩偶，可通过大头贴机兑换。等身大小，闪闪发亮的微笑似乎能带来美梦。",
+    "describe": "黑月游乐城与大头贴机合作的露蕾蒂玩偶，可通过大头贴机兑换。等身大小，闪闪发亮的微笑似乎能带来美梦。\\n所在车厢乘客收益+3%，同名家具限1次",
     "iconPath": "Item/Furniture/Small/lunalady_stand_1",
     "rarity": "Golden",
     "isDefault": false,
@@ -12329,7 +12370,7 @@
     "upgradeCostList": [],
     "FurnitureSkillList": [
       {
-        "id": 85800019
+        "id": 85800021
       }
     ],
     "interfaceUrl": "",
@@ -13113,7 +13154,7 @@
     "autoAddCollider": true,
     "place": "Wall",
     "type": 12600341,
-    "sortingLayer": "Default",
+    "sortingLayer": "Decorate",
     "x": 4,
     "z": 1,
     "y": 5,
@@ -24213,7 +24254,7 @@
     "mod": "基础家具",
     "isInformalData": false,
     "name": "闪耀露蕾蒂坐姿",
-    "describe": "黑月游乐城与大头贴机合作的露蕾蒂玩偶，可通过大头贴机兑换。等身大小，闪闪发亮的微笑似乎能带来美梦。",
+    "describe": "黑月游乐城与大头贴机合作的露蕾蒂玩偶，可通过大头贴机兑换。等身大小，闪闪发亮的微笑似乎能带来美梦。\\n所在车厢乘客收益+3%，同名家具限1次",
     "iconPath": "Item/Furniture/Small/lunalady_sit_1",
     "rarity": "Golden",
     "isDefault": false,
@@ -24258,7 +24299,7 @@
     "upgradeCostList": [],
     "FurnitureSkillList": [
       {
-        "id": 85800019
+        "id": 85800022
       }
     ],
     "interfaceUrl": "",
@@ -24298,7 +24339,7 @@
     "mod": "基础家具",
     "isInformalData": false,
     "name": "露蕾蒂坐姿",
-    "describe": "黑月游乐城与大头贴机合作的露蕾蒂玩偶，可通过大头贴机兑换。等身大小，闪闪发亮的微笑似乎能带来美梦。",
+    "describe": "黑月游乐城与大头贴机合作的露蕾蒂玩偶，可通过大头贴机兑换。等身大小，闪闪发亮的微笑似乎能带来美梦。\\n所在车厢乘客收益+3%，同名家具限1次",
     "iconPath": "Item/Furniture/Small/lunalady_sit_0",
     "rarity": "Purple",
     "isDefault": false,
@@ -24343,7 +24384,7 @@
     "upgradeCostList": [],
     "FurnitureSkillList": [
       {
-        "id": 85800019
+        "id": 85800020
       }
     ],
     "interfaceUrl": "",
@@ -24383,7 +24424,7 @@
     "mod": "基础家具",
     "isInformalData": false,
     "name": "露蕾蒂站姿",
-    "describe": "黑月游乐城与大头贴机合作的露蕾蒂玩偶，可通过大头贴机兑换。等身大小，闪闪发亮的微笑似乎能带来美梦。",
+    "describe": "黑月游乐城与大头贴机合作的露蕾蒂玩偶，可通过大头贴机兑换。等身大小，闪闪发亮的微笑似乎能带来美梦。\\n所在车厢乘客收益+3%，同名家具限1次",
     "iconPath": "Item/Furniture/Small/lunalady_stand_0",
     "rarity": "Purple",
     "isDefault": false,
@@ -24761,7 +24802,7 @@
     "autoAddCollider": true,
     "place": "Wall",
     "type": 12600341,
-    "sortingLayer": "Default",
+    "sortingLayer": "Decorate",
     "x": 4,
     "z": 1,
     "y": 5,
@@ -24777,7 +24818,7 @@
     "beStored": true,
     "SkinList": [],
     "tipsPath": "Item\\Furniture\\Big\\Chongdianxiang",
-    "Level": 1,
+    "Level": 2,
     "comfort": 40,
     "plantScores": 0,
     "fishScores": 0,
@@ -24874,7 +24915,7 @@
     "autoAddCollider": true,
     "place": "Wall",
     "type": 12600341,
-    "sortingLayer": "Default",
+    "sortingLayer": "Decorate",
     "x": 4,
     "z": 1,
     "y": 5,
@@ -24890,7 +24931,7 @@
     "beStored": true,
     "SkinList": [],
     "tipsPath": "Item\\Furniture\\Big\\Chongdianxiang",
-    "Level": 1,
+    "Level": 3,
     "comfort": 60,
     "plantScores": 0,
     "fishScores": 0,
@@ -27149,12 +27190,12 @@
     "SkinList": [],
     "tipsPath": "Item\\Furniture\\Big\\DDSJ",
     "Level": 1,
-    "comfort": 18,
+    "comfort": 150,
     "plantScores": 0,
     "fishScores": 0,
     "petScores": 0,
     "foodScores": 0,
-    "playScores": 54,
+    "playScores": 150,
     "medicalScores": 0,
     "electricCost": 0,
     "wasteoutput": 0,
