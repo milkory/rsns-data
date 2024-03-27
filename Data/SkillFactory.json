@@ -15223,7 +15223,7 @@
       {
         "skillRateA_SN": 390000,
         "skillRateB_SN": 2600000,
-        "skillRateC_SN": 0,
+        "skillRateC_SN": 1300000,
         "skillRateD_SN": 0,
         "skillRateE_SN": 0,
         "skillRateF_SN": 0,
@@ -28084,15 +28084,15 @@
     "name": "",
     "iconPath": "",
     "attriDetialList": [],
-    "tempdescription": "全场不论敌我，触发【引雷】时，回复自身0.5%生命值",
-    "description": "全场不论敌我，触发<color=#FFB800>【引雷】</color>时，回复自身0.5%生命值",
+    "tempdescription": "全场不论敌我，触发【引雷】时，回复自身0.4%生命值",
+    "description": "全场不论敌我，触发<color=#FFB800>【引雷】</color>时，回复自身0.4%生命值",
     "levelUpDescription": "",
     "tempdetailDescription": "",
     "detailDescription": "",
     "desParamList": [],
     "skillParamList": [
       {
-        "skillRateA_SN": 50,
+        "skillRateA_SN": 40,
         "skillRateB_SN": 0,
         "skillRateC_SN": 0,
         "skillRateD_SN": 0,
@@ -34462,8 +34462,8 @@
     "tempdescription": "切换成高斯步枪射击，对路径内敌方目标造成2段伤害\\n同时触发【引雷】",
     "description": "切换成高斯步枪射击，对路径内敌方目标造成2段伤害\\n同时触发<color=#FFB800>【引雷】</color>",
     "levelUpDescription": "",
-    "tempdetailDescription": "伤害：每段1200%",
-    "detailDescription": "伤害：每段1200%",
+    "tempdetailDescription": "伤害：每段1500%",
+    "detailDescription": "伤害：每段1500%",
     "desParamList": [
       {
         "isPercent": true,
@@ -34472,7 +34472,7 @@
     ],
     "skillParamList": [
       {
-        "skillRateA_SN": 120000,
+        "skillRateA_SN": 150000,
         "skillRateB_SN": 0,
         "skillRateC_SN": 0,
         "skillRateD_SN": 0,
@@ -34568,8 +34568,8 @@
     "tempdescription": "对敌方全体全弹发射：\\n【普通攻击】高速连射，并将牌库和弃牌区的【电掣】和【雷厉】全部打出\\n同时触发【引雷】",
     "description": "对敌方全体全弹发射：\\n【普通攻击】高速连射，并将牌库和弃牌区的【电掣】和【雷厉】全部打出\\n同时触发<color=#FFB800>【引雷】</color>",
     "levelUpDescription": "",
-    "tempdetailDescription": "伤害：【普通攻击】每段200%；【电掣】每段1200%；【雷厉】每段400%",
-    "detailDescription": "伤害：【普通攻击】每段200%；【电掣】每段1200%；【雷厉】每段400%",
+    "tempdetailDescription": "伤害：【普通攻击】每段200%；【电掣】每段1500%；【雷厉】每段400%",
+    "detailDescription": "伤害：【普通攻击】每段200%；【电掣】每段1500%；【雷厉】每段400%",
     "desParamList": [],
     "skillParamList": [
       {
@@ -55949,7 +55949,7 @@
   },
   {
     "id": 12300508,
-    "idCN": "06敌方/劫掠者/劫掠王/被动劫掠",
+    "idCN": "06敌方/劫掠者/劫掠王/被动1劫掠",
     "mod": "被动技能",
     "isInformalData": false,
     "name": "",
@@ -56517,6 +56517,74 @@
     "buffId": 10409178,
     "temptypeStr": "被动",
     "typeStr": "被动",
+    "typeColor": "Orange",
+    "CommonNum": 1.0,
+    "floatNum": 1,
+    "ExSkillList": [],
+    "specialTagList": []
+  },
+  {
+    "id": 12300879,
+    "idCN": "06敌方/劫掠者/劫掠王/被动2不灭的火种",
+    "mod": "被动技能",
+    "isInformalData": false,
+    "name": "",
+    "iconPath": "",
+    "attriDetialList": [],
+    "tempdescription": "",
+    "description": "",
+    "levelUpDescription": "",
+    "tempdetailDescription": "",
+    "detailDescription": "",
+    "desParamList": [
+      {
+        "isPercent": false,
+        "param": "a"
+      }
+    ],
+    "skillParamList": [],
+    "attributeList": [],
+    "tagId": -1,
+    "tagRemoveList": [],
+    "tagFilterList": [],
+    "tagFilterType": "And",
+    "buffId": 10409296,
+    "temptypeStr": "",
+    "typeStr": "",
+    "typeColor": "Orange",
+    "CommonNum": 1.0,
+    "floatNum": 1,
+    "ExSkillList": [],
+    "specialTagList": []
+  },
+  {
+    "id": 12300880,
+    "idCN": "06敌方/桦树生物/暴君/被动1替换控制",
+    "mod": "被动技能",
+    "isInformalData": false,
+    "name": "",
+    "iconPath": "",
+    "attriDetialList": [],
+    "tempdescription": "",
+    "description": "",
+    "levelUpDescription": "",
+    "tempdetailDescription": "",
+    "detailDescription": "",
+    "desParamList": [
+      {
+        "isPercent": false,
+        "param": "a"
+      }
+    ],
+    "skillParamList": [],
+    "attributeList": [],
+    "tagId": -1,
+    "tagRemoveList": [],
+    "tagFilterList": [],
+    "tagFilterType": "And",
+    "buffId": 10409298,
+    "temptypeStr": "",
+    "typeStr": "",
     "typeColor": "Orange",
     "CommonNum": 1.0,
     "floatNum": 1,
