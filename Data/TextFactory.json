@@ -4092,7 +4092,7 @@
     "idCN": "治安/7号自由港/交谈/交谈4",
     "mod": "UI文本",
     "isInformalData": false,
-    "text": "铁盟食堂的1号窗口永远是排队的人最多，因为那个窗口专门出售铁盟A套餐，那可是所有套餐当之无愧的性价比之王。"
+    "text": "铁盟食堂的1号窗口永远排队的人最多，因为那个窗口专门出售铁盟A套餐，那可是所有套餐当之无愧的性价比之王。"
   },
   {
     "id": 80600647,
@@ -5528,7 +5528,7 @@
     "idCN": "NPC对话/交易所/图浩/卖出/出售页签/出售页签1",
     "mod": "NPC对话",
     "isInformalData": false,
-    "text": "来来来，今天咱这大力欢迎<color=#b45e01>{goods}</color>啊！",
+    "text": "来来来，今天咱这大力欢迎<color=#b45e01>{goods}</color>。",
     "isReplace": true,
     "replaceType": "Rise",
     "playerNameString": "{playername}",
@@ -5590,7 +5590,13 @@
     "idCN": "NPC对话/交易所/图浩/议价/抬价成功/抬价成功1",
     "mod": "NPC对话",
     "isInformalData": false,
-    "text": "多出来的，就当对你未来的投资了！"
+    "text": "多出来的，就当是对你未来的投资了！",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
   },
   {
     "id": 80600851,
@@ -5727,7 +5733,7 @@
     "idCN": "NPC对话/交易所/图浩/交谈/交易行情/交易行情1",
     "mod": "NPC对话",
     "isInformalData": false,
-    "text": "你有<color=#b45e01>{goods}</color>吗？这个在<color=#b45e01>{station}</color>卖得相当好。",
+    "text": "<color=#b45e01>{goods}</color>你有吗？这个在<color=#b45e01>{station}</color>卖得相当好。",
     "isReplace": true,
     "replaceType": "SellSuddenRise",
     "playerNameString": "{playername}",
@@ -11225,7 +11231,7 @@
     "idCN": "NPC对话/交易所/括卓/打开交易所/寒暄3",
     "mod": "NPC对话",
     "isInformalData": false,
-    "text": "跑的够勤的，我见过的列车长可多了，看你的样子是倒真能干出什么名堂的。",
+    "text": "跑得够勤的，我见过的列车长可多了，看你的样子倒像是真能干出什么名堂的。",
     "isReplace": false,
     "replaceType": "PlayerName",
     "playerNameString": "{playername}",
@@ -11277,7 +11283,7 @@
     "idCN": "NPC对话/交易所/括卓/交谈/交易行情/交易行情1",
     "mod": "NPC对话",
     "isInformalData": false,
-    "text": "听说<color=#b45e01>{station}</color>的一家稳定供货商不干了，最近<color=#b45e01>{goods}</color>在那里都成抢手货了。",
+    "text": "听说<color=#b45e01>{station}</color>一家稳定供货商不干了，最近<color=#b45e01>{goods}</color>在那里都成抢手货了。",
     "isReplace": true,
     "replaceType": "SellSuddenRise",
     "playerNameString": "{playername}",
@@ -11550,7 +11556,7 @@
     "idCN": "NPC对话/交易所/括卓/议价/抬价失败/抬价失败1",
     "mod": "NPC对话",
     "isInformalData": false,
-    "text": "我已经是看在咱们的交情份上给的价格了。",
+    "text": "我已经是看在咱们的交情的份上给的价格了。",
     "isReplace": false,
     "replaceType": "PlayerName",
     "playerNameString": "{playername}",
@@ -18233,7 +18239,7 @@
     "idCN": "NPC对话/作战中心/拉妲/打开建筑/文本3",
     "mod": "NPC对话",
     "isInformalData": false,
-    "text": "你看上去好像……有点怕我？其实我没有看上去那么……不好接触。有什么需要帮助的事，可以和我聊聊。",
+    "text": "你看上去好像……有点怕我？其实我没有看上去那么不好接触。有什么需要帮助的事，可以和我聊聊。",
     "isReplace": false,
     "replaceType": "PlayerName",
     "playerNameString": "{playername}",
@@ -31508,7 +31514,7 @@
     "idCN": "NPC对话/交易所/括卓/交谈/家族故事/家族故事3",
     "mod": "NPC对话",
     "isInformalData": false,
-    "text": "年纪大了就好吃点甜的。年轻人，你晓得哪里能买那个什么，红色包装的巧克力吗？",
+    "text": "年纪大了就好吃点甜的。年轻人，你晓得哪里能买到那个什么，红色包装的巧克力吗？",
     "isReplace": false,
     "replaceType": "PlayerName",
     "playerNameString": "{playername}",
@@ -46862,6 +46868,13 @@
     "text": "牌库  %d张"
   },
   {
+    "id": 80606293,
+    "idCN": "商会/跨天",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "订单已刷新"
+  },
+  {
     "id": 80606294,
     "idCN": "2预制体/Store/Btn_RightButtom/文案1",
     "mod": "UI文本",
@@ -50682,5 +50695,222 @@
     "mod": "UI文本",
     "isInformalData": false,
     "text": "前往商店"
+  },
+  {
+    "id": 80606867,
+    "idCN": "车站/建设活动完成",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "完成<color=#FEC032>%s</color>全服活动"
+  },
+  {
+    "id": 80606868,
+    "idCN": "车站/道具获得",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "获得道具<color=#FEC032>%s</color>开启"
+  },
+  {
+    "id": 80606840,
+    "idCN": "收集卡牌/总收集度",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "总收集度"
+  },
+  {
+    "id": 80606841,
+    "idCN": "收集卡牌/卡册模式",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "卡册模式"
+  },
+  {
+    "id": 80606842,
+    "idCN": "收集卡牌/列表模式",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "列表模式"
+  },
+  {
+    "id": 80606843,
+    "idCN": "收集卡牌/卡牌收集",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "卡牌收集"
+  },
+  {
+    "id": 80606844,
+    "idCN": "2预制体/ChapterSelect/ChapterSelect/文案1",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "前往考核"
+  },
+  {
+    "id": 80606845,
+    "idCN": "2预制体/ChapterSelect/ChapterSelect/文案2",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "奖励领取"
+  },
+  {
+    "id": 80606846,
+    "idCN": "2预制体/ChapterSelect/ChapterSelect/文案3",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "未开放"
+  },
+  {
+    "id": 80606847,
+    "idCN": "2预制体/ChapterSelect/ChapterSelect/文案4",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "未开放"
+  },
+  {
+    "id": 80606848,
+    "idCN": "2预制体/ChapterSelect/ChapterSelect/文案5",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "未开放"
+  },
+  {
+    "id": 80606849,
+    "idCN": "2预制体/ChapterSelect/ChapterSelect/文案6",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "未开放"
+  },
+  {
+    "id": 80606850,
+    "idCN": "2预制体/ChapterSelect/ChapterSelect/文案7",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "未开放"
+  },
+  {
+    "id": 80606851,
+    "idCN": "2预制体/ChapterSelect/ChapterSelect/文案8",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "未开放"
+  },
+  {
+    "id": 80606852,
+    "idCN": "2预制体/ChapterSelect/ChapterSelect/文案9",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "主线"
+  },
+  {
+    "id": 80606853,
+    "idCN": "2预制体/ChapterSelect/ChapterSelect/文案10",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "主线"
+  },
+  {
+    "id": 80606854,
+    "idCN": "2预制体/ChapterSelect/ChapterSelect/文案11",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "资源"
+  },
+  {
+    "id": 80606855,
+    "idCN": "2预制体/ChapterSelect/ChapterSelect/文案12",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "资源"
+  },
+  {
+    "id": 80606856,
+    "idCN": "2预制体/ChapterSelect/ChapterSelect/文案13",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "活动"
+  },
+  {
+    "id": 80606857,
+    "idCN": "2预制体/ChapterSelect/ChapterSelect/文案14",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "活动"
+  },
+  {
+    "id": 80606858,
+    "idCN": "2预制体/ChapterSelect/ChapterSelect/文案15",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "限时"
+  },
+  {
+    "id": 80606859,
+    "idCN": "2预制体/ChapterSelect/ChapterSelect/文案16",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "限时"
+  },
+  {
+    "id": 80606860,
+    "idCN": "2预制体/ChapterSelect/ChapterSelect/文案17",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "限时"
+  },
+  {
+    "id": 80606861,
+    "idCN": "2预制体/ChapterSelect/ChapterSelect/文案18",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "考核奖励"
+  },
+  {
+    "id": 80606862,
+    "idCN": "2预制体/ChapterSelect/Group_ChapterList/文案1",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "章节进度"
+  },
+  {
+    "id": 80606863,
+    "idCN": "2预制体/ChapterSelect/Group_ChapterList/文案2",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "需要前置章节通关才可开启"
+  },
+  {
+    "id": 80606864,
+    "idCN": "2预制体/ChapterSelect/Group_ChapterList/文案3",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "进入章节"
+  },
+  {
+    "id": 80606865,
+    "idCN": "2预制体/ChapterSelect/Group_Item/文案1",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "限时"
+  },
+  {
+    "id": 80606866,
+    "idCN": "1预制体/EngineCore/BreakTips/文案4",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "等级上限提升"
+  },
+  {
+    "id": 80606869,
+    "idCN": "家园/床/车厢无空间",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "家具摆放过于密集，乘员无法进入该车厢"
+  },
+  {
+    "id": 80606870,
+    "idCN": "家园/床/车厢无有效空间",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "车厢状态需要刷新，请离开车厢后重新进入"
   }
 ]

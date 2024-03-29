@@ -1379,5 +1379,53 @@
     "paramHelp": "",
     "returnType": "bool",
     "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rgetp currentCore\rset $core\r\rif\r\tgetp currentCard\r\tif\r\t\tgetp cardProperty\r\t\tset $cardProperty\r\t\tget $core\r\t\tgetp teamData\r\t\tgetp cardSystem\r\t\tgetp leaderCard\r\t\tif $cardProperty eq leaderCard\r\t\t\tret $true\r\t\tendif\r\tendif\rendif\r\r\rret $false"
+  },
+  {
+    "id": 60000116,
+    "idCN": "主线/第四章剧情对话3",
+    "mod": "逻辑脚本",
+    "isInformalData": false,
+    "debug": true,
+    "memo": "第四章剧情对话3",
+    "paramHelp": "",
+    "returnType": "int",
+    "scriptPath": "GGScript/MainLine4",
+    "scriptLabel": "main"
+  },
+  {
+    "id": 60000117,
+    "idCN": "主线/第四章4-3",
+    "mod": "逻辑脚本",
+    "isInformalData": false,
+    "debug": true,
+    "memo": "第四章4-3",
+    "paramHelp": "",
+    "returnType": "int",
+    "scriptPath": "GGScript/MainLine4-3",
+    "scriptLabel": "main"
+  },
+  {
+    "id": 60000118,
+    "idCN": "主线/第四章4-4",
+    "mod": "逻辑脚本",
+    "isInformalData": false,
+    "debug": true,
+    "memo": "第四章4-4",
+    "paramHelp": "",
+    "returnType": "int",
+    "scriptPath": "GGScript/MainLine4-4",
+    "scriptLabel": "main"
+  },
+  {
+    "id": 60000119,
+    "idCN": "主线/第四章4-5",
+    "mod": "逻辑脚本",
+    "isInformalData": false,
+    "debug": true,
+    "memo": "第四章4-5",
+    "paramHelp": "",
+    "returnType": "int",
+    "scriptPath": "GGScript/MainLine4-5",
+    "scriptLabel": "main"
   }
 ]

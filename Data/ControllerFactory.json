@@ -12855,14 +12855,14 @@
     "skillList": [
       {
         "actionId": 10102719,
-        "activeFrame": 120,
-        "activeTime": 2.0,
+        "activeFrame": 480,
+        "activeTime": 8.0,
         "rangeSN": -10000
       },
       {
         "actionId": 10102727,
-        "activeFrame": 480,
-        "activeTime": 8.0,
+        "activeFrame": 1440,
+        "activeTime": 24.0,
         "rangeSN": -10000
       }
     ],
@@ -12872,7 +12872,7 @@
         "actionId": 10102730
       }
     ],
-    "skillLoopDelayFrame": 360,
+    "skillLoopDelayFrame": 760,
     "shapeShiftList": [],
     "commandList": [],
     "enemySkillList": [],
@@ -13159,20 +13159,20 @@
     "skillList": [
       {
         "actionId": 10102719,
-        "activeFrame": 120,
-        "activeTime": 2.0,
+        "activeFrame": 180,
+        "activeTime": 3.0,
         "rangeSN": -10000
       },
       {
         "actionId": 10102727,
-        "activeFrame": 480,
-        "activeTime": 8.0,
+        "activeFrame": 780,
+        "activeTime": 13.0,
         "rangeSN": -10000
       }
     ],
     "isInvisibleBeforeShowUp": false,
     "showupSkillList": [],
-    "skillLoopDelayFrame": 360,
+    "skillLoopDelayFrame": 480,
     "shapeShiftList": [],
     "commandList": [],
     "enemySkillList": [],
@@ -13185,7 +13185,45 @@
       }
     ],
     "energyRestorePerFrameSN": 560,
-    "isSkillDelay": false,
+    "isSkillDelay": true,
+    "minDelay": 60,
+    "maxDelay": 120
+  },
+  {
+    "id": 10300329,
+    "idCN": "敌方/03劫掠者/劫掠者·执火·换色",
+    "mod": "基础AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10102789
+      },
+      {
+        "actionID": 10102790
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10102788,
+        "activeFrame": 240,
+        "activeTime": 3.0,
+        "rangeSN": 120000
+      }
+    ],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [],
+    "skillLoopDelayFrame": 720,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
+    "isSkillDelay": true,
     "minDelay": 120,
     "maxDelay": 360
   }
