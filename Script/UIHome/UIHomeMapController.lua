@@ -190,9 +190,9 @@ function Controller:RefreshMapNeedleIcon()
     local lineCA = PlayerData:GetFactoryData(lineId, "ListFactory")
     for _, v in pairs(lineCA.mapNeedleList) do
       local needleCA = PlayerData:GetFactoryData(v.id, "MapNeedleFactory")
-      if needleCA.isShowUI and MapNeedleData.CheckNeedleUnLock(v.id) then
+      if needleCA.isShowUI then
         local obj = DataModel.NeedleList and DataModel.NeedleList[v.id]
-        local show = not needleCA.justOnce or not MapNeedleData.CompletedNeedleList[v.id]
+        local show = MapNeedleData.CheckNeedleShow(v.id)
         if obj then
           if not show then
             Object.Destroy(obj)
@@ -202,6 +202,17 @@ function Controller:RefreshMapNeedleIcon()
           obj = Controller:SetSingleNeedleState(v.id, true, tonumber(needleCA.icon_x), tonumber(needleCA.icon_y))
           obj.transform:Find("Img_Icon").transform:GetComponent(typeof(CS.Seven.UIImg)):SetSprite(needleCA.iconPath)
         end
+      end
+    end
+  end
+end
+
+function Controller:UpdateMapNeedleIcon()
+  if DataModel.NeedleList then
+    for needleId, obj in pairs(DataModel.NeedleList) do
+      if not MapNeedleData.CheckNeedleShow(needleId) then
+        Object.Destroy(obj)
+        DataModel.NeedleList[needleId] = nil
       end
     end
   end
@@ -353,6 +364,19 @@ end
 function Controller:RefreshTrailerNum()
   local max = PlayerData.GetMaxTrailerNum()
   local currNum = PlayerData:GetHomeInfo().req_back_num
+  local currMonthRemainNum = PlayerData:GetHomeInfo().monthly_req_back_num
+  currNum = currNum + currMonthRemainNum
+  local currTime = TimeUtil:GetServerTimeStamp()
+  if next(PlayerData.ServerData.monthly_card) ~= nil then
+    for i, v in pairs(PlayerData.ServerData.monthly_card) do
+      local deadline = v.deadline
+      print_r(deadline)
+      if currTime < deadline then
+        local maxMonth = PlayerData:GetFactoryData(99900060, "ConfigFactory").trailerMonthCardMax
+        max = max + maxMonth
+      end
+    end
+  end
   View.Group_Common.SoftMask_HomeMap.Group_HomeMap.Group_StationInfo.Btn_Trailer.Group_Num.Txt_Num:SetText(currNum .. "/" .. max)
 end
 

@@ -167,7 +167,7 @@
     "name": "拉普拉斯协议",
     "viewId": -1,
     "quality": "Golden",
-    "des": "<size=25><color=#FFB800>角色招募时所需必要道具。</color></size>\\n黑月向合作伙伴提供的“演算装置”。据说它能通过与位于未知地点的黑月集团的“超级电脑”联通，为使用者精准推演出即将出现在列车上的乘员的“车票”。",
+    "des": "<size=25><color=#FFB800>角色招募时所需必要道具。</color></size>\\n黑月向合作伙伴提供的通讯协议。据说它能通过与位于未知地点的黑月集团的超级电脑联通，为使用者精准推演出即将出现在列车上的乘员。",
     "iconPath": "Item\\item\\Small\\onepull",
     "tipsPath": "Item\\item\\Big\\onepull",
     "buyPath": "Item\\item\\Small\\onepull",
@@ -9843,27 +9843,6 @@
     "drawing": 84900035
   },
   {
-    "id": 11400082,
-    "idCN": "收集卡/红茶战争",
-    "mod": "收集卡随机包",
-    "isInformalData": false,
-    "name": "纪念卡包·红茶战争",
-    "viewId": -1,
-    "quality": "Blue",
-    "des": "“红茶战争”活动期间发售的纪念卡包。获得后可从中抽取一张尚未获得的纪念卡牌。",
-    "iconPath": "",
-    "tipsPath": "",
-    "buyPath": "",
-    "textIcon": "",
-    "sort": 0,
-    "isNotDisplayInBag": true,
-    "isShowNum": false,
-    "endTime": "",
-    "saletype": "NotSale",
-    "rewardList": [],
-    "Getway": []
-  },
-  {
     "id": 11400229,
     "idCN": "列车皮肤道具/妮蔻拉主题痛车方案",
     "mod": "基础道具",
@@ -9892,5 +9871,64 @@
         "funcId": 100
       }
     ]
+  },
+  {
+    "id": 11400082,
+    "idCN": "宠物/布偶猫",
+    "mod": "可使用道具",
+    "isInformalData": false,
+    "name": "布偶猫的外出背包",
+    "viewId": -1,
+    "quality": "Golden",
+    "useType": "Fixed",
+    "numRequired": 1,
+    "isBatch": false,
+    "exchangeList": [
+      {
+        "itemId": 83400014,
+        "num": 1,
+        "weight": 1
+      }
+    ],
+    "des": "“好伙伴”牌宠物背包，材料轻便，结构坚固，能够有效从外界的种种危险中保护你的宠物，方便与其一同旅行。",
+    "iconPath": "Item/item/Small/PetBag",
+    "tipsPath": "Item/item/Big/PetBag",
+    "buyPath": "",
+    "textIcon": "",
+    "sort": 0,
+    "isNotDisplayInBag": false,
+    "isShowNum": true,
+    "batchUsetype": "Other",
+    "useLimitNum": 10,
+    "isTiredItem": false,
+    "containEquipment": false,
+    "isCompose": false,
+    "isDrinkItem": false,
+    "drinkNum": 3,
+    "isBattlePassItem": false,
+    "BattlePassType": "Low",
+    "breakPath": "Item/Pet/Small/Buoumao",
+    "uiPath": "",
+    "endTime": "",
+    "limitedTime": 0,
+    "saletype": "NotSale",
+    "rewardList": [],
+    "Getway": [
+      {
+        "DisplayName": "修格里城-花鸟市场",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": -1
+      },
+      {
+        "DisplayName": "环游手册",
+        "FromLevel": -1,
+        "UIName": "UI/BP_Quest/BattlePass_Quest",
+        "Way3": "",
+        "funcId": 100
+      }
+    ],
+    "gettipstype": "Pet"
   }
 ]

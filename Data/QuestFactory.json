@@ -870,7 +870,7 @@
   },
   {
     "id": 81000022,
-    "idCN": "主线/EP4/4-01-临时-对话",
+    "idCN": "主线/EP4/999临时-对话（废弃）",
     "mod": "基础任务",
     "isInformalData": false,
     "name": "EP4-1",
@@ -1011,6 +1011,7 @@
         "state": 2
       }
     ],
+    "mailList": [],
     "isEvent": false,
     "isOverwriteEvent": false,
     "eventList": [],
@@ -1031,7 +1032,8 @@
     ],
     "isTime": false,
     "startTime": "",
-    "endTime": ""
+    "endTime": "",
+    "correspondActivity": -1
   },
   {
     "id": 81000024,
@@ -1188,9 +1190,9 @@
     "idCN": "主线/EP4/4-04-对话",
     "mod": "基础任务",
     "isInformalData": false,
-    "name": "EP4-4",
-    "story": "星花发现了黑8拥有强化桦树生物的功能，但是对于列车长的特殊\r情况还没有头绪。此时妮蔻拉来到了研究所。",
-    "describe": "与7号自由港的妮蔻拉对话",
+    "name": "意外的帮手",
+    "story": "突然出现的神秘女性似乎是可以为我们解决问题的人，不妨和她谈谈。",
+    "describe": "在7号自由港与妮蔻拉对话",
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
@@ -1212,7 +1214,11 @@
     "childQuestList": [],
     "rewardsList": [
       {
-        "id": 11400001,
+        "id": 11400067,
+        "num": 1
+      },
+      {
+        "id": 11400071,
         "num": 1
       }
     ],
@@ -1232,6 +1238,12 @@
       },
       {
         "id": 81001204
+      },
+      {
+        "id": 81001205
+      },
+      {
+        "id": 81000040
       }
     ],
     "changeCityStateList": [],
@@ -1266,7 +1278,7 @@
     "isInformalData": false,
     "name": "道别",
     "story": "在曼德矿场与大家道别。",
-    "describe": "将大家送回曼德矿场",
+    "describe": "回到曼德矿场与莉薇娅对话",
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
@@ -1308,6 +1320,7 @@
         "state": 0
       }
     ],
+    "mailList": [],
     "isEvent": false,
     "isOverwriteEvent": false,
     "eventList": [],
@@ -1328,7 +1341,8 @@
     ],
     "isTime": false,
     "startTime": "",
-    "endTime": ""
+    "endTime": "",
+    "correspondActivity": -1
   },
   {
     "id": 81000028,
@@ -1657,6 +1671,7 @@
       }
     ],
     "changeCityStateList": [],
+    "mailList": [],
     "isEvent": false,
     "isOverwriteEvent": true,
     "eventList": [],
@@ -1673,7 +1688,11 @@
         "traceId": 80301269,
         "uiPath": "UI/MainUI/MainUI"
       }
-    ]
+    ],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
   },
   {
     "id": 81000035,
@@ -1988,8 +2007,8 @@
     "idCN": "主线/EP4/4-03-父任务",
     "mod": "基础任务",
     "isInformalData": false,
-    "name": "EP4-3",
-    "story": "星花表示愿意帮助列车长，同时表明自己就是之前引开鲸鱼的人。",
+    "name": "必要的求证",
+    "story": "星花对我们面临的困境似乎有些头绪，配合她的行动也许能解决问题。",
     "describe": "帮助7号自由港的星花收集实验数据",
     "isShowProgress": true,
     "isShowUnlock": false,
@@ -2006,7 +2025,7 @@
     "parentQuest": -1,
     "childQuestList": [
       {
-        "id": 81000032
+        "id": 81001206
       },
       {
         "id": 81000038
@@ -2014,8 +2033,12 @@
     ],
     "rewardsList": [
       {
-        "id": 11400001,
-        "num": 1
+        "id": 11400005,
+        "num": 50
+      },
+      {
+        "id": 11400056,
+        "num": 100
       }
     ],
     "startStation": 83000020,
@@ -2025,7 +2048,7 @@
         "weight": 10
       }
     ],
-    "client": 82600293,
+    "client": 82600030,
     "chapterId": -1,
     "playerLevel": 1,
     "nextQuest": [
@@ -2052,7 +2075,7 @@
     "isInformalData": false,
     "name": "EP4-5-3",
     "story": "星花将列车长等人引荐给妮蔻拉，妮蔻拉同意帮忙，但是列车长需要帮忙载她去数据中心。\\n限制行车路线，需求7号自由港出发！",
-    "describe": "由7号自由港前往澄明数据中心",
+    "describe": "经由7号自由港驶向澄明数据中心",
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
@@ -33873,8 +33896,8 @@
     "idCN": "主线/EP4/4-02-到站",
     "mod": "基础任务",
     "isInformalData": false,
-    "name": "EP4-2",
-    "story": "得到静流的消息，大家打算在逮捕令正式下来前搜集自己清白的证据。几人联络安菲娅咨询，安菲娅告诉他们可以去7号自由港的阿妮塔研究所。",
+    "name": "寻求帮助",
+    "story": "根据安菲娅的指点，前往七号自由港向她的老师寻求帮助。",
     "describe": "前往7号自由港",
     "isShowProgress": false,
     "isShowUnlock": false,
@@ -33897,7 +33920,11 @@
     "childQuestList": [],
     "rewardsList": [
       {
-        "id": 11400001,
+        "id": 11400005,
+        "num": 50
+      },
+      {
+        "id": 11400071,
         "num": 1
       }
     ],
@@ -33908,7 +33935,7 @@
         "weight": 10
       }
     ],
-    "client": 82600008,
+    "client": 82600376,
     "chapterId": -1,
     "playerLevel": 1,
     "nextQuest": [
@@ -33916,7 +33943,7 @@
         "id": 81000039
       },
       {
-        "id": 81000032
+        "id": 81001206
       }
     ],
     "changeCityStateList": [],
@@ -64635,9 +64662,9 @@
     "idCN": "主线/EP4/4-06-对话",
     "mod": "基础任务",
     "isInformalData": false,
-    "name": "EP4-6",
-    "story": "有惊无险到达后，妮蔻拉给列车长等人布置任务，交给列车长测试仪器，要求大家配合她指示去数据中心各处搜集必要的数据样本。",
-    "describe": "与澄明数据中心的妮蔻拉对话",
+    "name": "准备工作",
+    "story": "对于接下来的行动，妮蔻拉好像有事要交代。",
+    "describe": "在澄明数据中心与妮蔻拉对话",
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
@@ -64659,7 +64686,7 @@
     "childQuestList": [],
     "rewardsList": [
       {
-        "id": 11400001,
+        "id": 11400066,
         "num": 1
       }
     ],
@@ -64705,12 +64732,12 @@
   },
   {
     "id": 81001146,
-    "idCN": "主线/EP4/4-07-1-对话-可以不给奖励",
+    "idCN": "主线/EP4/4-07-1-对话-无奖励",
     "mod": "基础任务",
     "isInformalData": false,
-    "name": "EP4-07-1",
-    "story": "艾略特观察了一下数据中心的状况，提议在行动时乔装打扮一番，避免被铁盟抓住。",
-    "describe": "与澄明数据中心的艾略特对话",
+    "name": "提议",
+    "story": "为了行动顺利，艾略特有一点小建议。",
+    "describe": "在澄明数据中心与艾略特对话",
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
@@ -64776,8 +64803,8 @@
     "idCN": "主线/EP4/4-07-2-对话",
     "mod": "基础任务",
     "isInformalData": false,
-    "name": "EP4-07-2",
-    "story": "艾略特发现了一家风格独特的服装店，提议去那里买衣服。",
+    "name": "角色扮演",
+    "story": "根据艾略特的介绍，在瞳仁服装店可以买到适合的衣服。",
     "describe": "前往澄明数据中心瞳仁服装店",
     "isShowProgress": false,
     "isShowUnlock": false,
@@ -64800,8 +64827,8 @@
     "childQuestList": [],
     "rewardsList": [
       {
-        "id": 11400001,
-        "num": 1
+        "id": 11400005,
+        "num": 50
       }
     ],
     "startStation": 83000029,
@@ -64854,7 +64881,7 @@
     "isInformalData": false,
     "name": "EP4-08",
     "story": "大家对于调查中时不时来骚扰的黑月感到疑惑，就在大家又要被纠缠的时候，有过一面之缘的飞鸟现身为他们解围，并且劝说他们别太信任妮蔻拉。",
-    "describe": "与澄明数据中心的飞鸟对话",
+    "describe": "在澄明数据中心与飞鸟对话",
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
@@ -65612,7 +65639,7 @@
   },
   {
     "id": 81000032,
-    "idCN": "子任务/EP4/4-03-1-战斗",
+    "idCN": "主线/废弃/不能动1",
     "mod": "基础任务",
     "isInformalData": false,
     "name": "EP4-3",
@@ -65680,12 +65707,12 @@
   },
   {
     "id": 81001157,
-    "idCN": "主线/EP4/4-01-正版",
+    "idCN": "主线/EP4/4-01-对话",
     "mod": "基础任务",
     "isInformalData": false,
-    "name": "未完待续",
-    "story": "故事尚未完结，丰富的支线任务正在等您探索，列车长的冒险旅途才刚刚开始！",
-    "describe": "主线未完待续，支线任务等您探索",
+    "name": "告一段落",
+    "story": "结束淘金乐园的旅程后，让列车组在曼德矿场稍作整顿。",
+    "describe": "回到曼德矿场与莉薇娅对话",
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
@@ -65693,32 +65720,63 @@
     "sort": 0,
     "isSwitchUI": true,
     "switchUI": "UI/",
-    "conditionList": [],
+    "conditionList": [
+      {
+        "key": "dialog",
+        "val": "0"
+      }
+    ],
     "num": 1,
     "islockAddProgress": false,
-    "isAutoComplete": true,
+    "isAutoComplete": false,
     "checkComplete": false,
     "parentQuest": -1,
     "childQuestList": [],
     "rewardsList": [
       {
-        "id": 11400001,
+        "id": 11400066,
+        "num": 1
+      },
+      {
+        "id": 11400071,
         "num": 1
       }
     ],
-    "startStation": -1,
-    "endStationList": [],
+    "startStation": 83000004,
+    "endStationList": [
+      {
+        "id": 83000053,
+        "weight": 10
+      }
+    ],
     "client": 82600002,
     "chapterId": -1,
     "playerLevel": 1,
-    "nextQuest": [],
+    "nextQuest": [
+      {
+        "id": 81000639
+      }
+    ],
     "changeCityStateList": [],
     "mailList": [],
     "isEvent": false,
     "isOverwriteEvent": false,
     "eventList": [],
     "environmentList": [],
-    "traceList": [],
+    "traceList": [
+      {
+        "apiListId": 80301077,
+        "btnListId": 80300920,
+        "traceId": 80301269,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 80301119,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
     "isTime": false,
     "startTime": "",
     "endTime": "",
@@ -75702,7 +75760,7 @@
     "isInformalData": false,
     "name": "EP4-7",
     "story": "星花将列车长等人引荐给妮蔻拉，妮蔻拉同意帮忙，但是列车长需要帮忙载她去数据中心。\\n\\n限制行车路线：需要从7号自由港出发！",
-    "describe": "由7号自由港前往澄明数据中心",
+    "describe": "经由7号自由港驶向澄明数据中心",
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
@@ -75758,9 +75816,9 @@
     "idCN": "主线/EP4/4-05-父任务",
     "mod": "基础任务",
     "isInformalData": false,
-    "name": "EP4-5",
-    "story": "星花将列车长等人引荐给妮蔻拉，妮蔻拉同意帮忙，但是列车长需要帮忙载她去数据中心。\\n\\n任务限制行车路线，需由7号自由港出发！",
-    "describe": "由7号自由港前往澄明数据中心（限制行车路线）",
+    "name": "报酬",
+    "story": "作为妮蔻拉帮助我们的回报，我们需要先把她送往澄明数据中心。\\n\\n任务限制行车路线，需由7号自由港出发！",
+    "describe": "经由7号自由港驶向澄明数据中心",
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
@@ -75790,8 +75848,12 @@
     ],
     "rewardsList": [
       {
-        "id": 11400001,
-        "num": 1
+        "id": 11400005,
+        "num": 50
+      },
+      {
+        "id": 11400056,
+        "num": 100
       }
     ],
     "startStation": 83000020,
@@ -75831,8 +75893,8 @@
     "idCN": "主线/EP4/4-08-父任务",
     "mod": "基础任务",
     "isInformalData": false,
-    "name": "EP4-8",
-    "story": "在数据中心调查",
+    "name": "搜集数据",
+    "story": "根据妮蔻拉的嘱咐，在澄明数据中心搜集数据。",
     "describe": "在澄明数据中心调查线索",
     "isShowProgress": true,
     "isShowUnlock": false,
@@ -75863,8 +75925,12 @@
     ],
     "rewardsList": [
       {
-        "id": 11400001,
-        "num": 1
+        "id": 11400005,
+        "num": 50
+      },
+      {
+        "id": 11400056,
+        "num": 100
       }
     ],
     "startStation": 83000020,
@@ -75899,9 +75965,9 @@
     "idCN": "主线/EP4/4-09-战斗",
     "mod": "基础任务",
     "isInformalData": false,
-    "name": "EP4-09",
-    "story": "大家回到无垠号与妮蔻拉碰头，向对方汇报情况。妮蔻拉再次拉着列车长一起整理思绪，然后初步得出现实稳定装置的异常与列车长无关这一结论。列车长也不由得开始怀疑雷比斯的用心。",
-    "describe": "与澄明数据中心的妮蔻拉对话",
+    "name": "任务报告",
+    "story": "我们已经完成了妮蔻拉布置的任务，先回无垠号向她汇报吧。",
+    "describe": "在澄明数据中心与妮蔻拉对话",
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
@@ -75923,8 +75989,8 @@
     "childQuestList": [],
     "rewardsList": [
       {
-        "id": 11400001,
-        "num": 1
+        "id": 11400005,
+        "num": 50
       }
     ],
     "startStation": 83000029,
@@ -75934,12 +76000,12 @@
         "weight": 10
       }
     ],
-    "client": 82600008,
+    "client": 82600293,
     "chapterId": -1,
     "playerLevel": 1,
     "nextQuest": [
       {
-        "id": 81001197
+        "id": 81000593
       }
     ],
     "changeCityStateList": [],
@@ -75969,12 +76035,12 @@
   },
   {
     "id": 81001197,
-    "idCN": "主线/EP4/4-10-战斗",
+    "idCN": "主线/EP4/4-10-战斗-下半",
     "mod": "基础任务",
     "isInformalData": false,
     "name": "EP4-10",
     "story": "大家决定接受柯娜的帮助，这时妮蔻拉却告诉他们需要处理数据库和桦树生物的事情。",
-    "describe": "与澄明数据中心的柯娜对话",
+    "describe": "在澄明数据中心与柯娜对话",
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
@@ -76157,7 +76223,7 @@
     "isInformalData": false,
     "name": "气泡1",
     "story": "艾略特观察了一下数据中心的状况，提议在行动时乔装打扮一番，避免被铁盟抓住。",
-    "describe": "与澄明数据中心的艾略特对话",
+    "describe": "在澄明数据中心与艾略特对话",
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
@@ -76225,7 +76291,7 @@
     "isInformalData": false,
     "name": "气泡1",
     "story": "艾略特观察了一下数据中心的状况，提议在行动时乔装打扮一番，避免被铁盟抓住。",
-    "describe": "与澄明数据中心的艾略特对话",
+    "describe": "在澄明数据中心与艾略特对话",
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
@@ -76293,7 +76359,7 @@
     "isInformalData": false,
     "name": "气泡1",
     "story": "艾略特观察了一下数据中心的状况，提议在行动时乔装打扮一番，避免被铁盟抓住。",
-    "describe": "与澄明数据中心的艾略特对话",
+    "describe": "在澄明数据中心与艾略特对话",
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
@@ -76407,7 +76473,7 @@
     "isInformalData": false,
     "name": "EP4-5-1",
     "story": "星花将列车长等人引荐给妮蔻拉，妮蔻拉同意帮忙，但是列车长需要帮忙载她去数据中心。\\n限制行车路线，需求7号自由港出发！",
-    "describe": "由7号自由港前往澄明数据中心",
+    "describe": "经由7号自由港驶向澄明数据中心",
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
@@ -76438,11 +76504,7 @@
     "client": 82600293,
     "chapterId": -1,
     "playerLevel": 1,
-    "nextQuest": [
-      {
-        "id": 81001205
-      }
-    ],
+    "nextQuest": [],
     "changeCityStateList": [],
     "mailList": [],
     "isEvent": false,
@@ -76469,7 +76531,7 @@
     "isInformalData": false,
     "name": "EP4-5-2",
     "story": "星花将列车长等人引荐给妮蔻拉，妮蔻拉同意帮忙，但是列车长需要帮忙载她去数据中心。\\n限制行车路线，需求7号自由港出发！",
-    "describe": "由7号自由港前往澄明数据中心",
+    "describe": "经由7号自由港驶向澄明数据中心",
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
@@ -76500,9 +76562,108 @@
     "client": 82600293,
     "chapterId": -1,
     "playerLevel": 1,
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "traceList": [
+      {
+        "apiListId": 80301077,
+        "btnListId": 80300920,
+        "traceId": 80301269,
+        "uiPath": "UI/MainUI/MainUI"
+      }
+    ],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81000593,
+    "idCN": "主线/EP4/4-10-未完待续",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "未完待续",
+    "story": "故事尚未完结，丰富的支线任务正在等您探索，列车长的冒险旅途才刚刚开始！",
+    "describe": "主线未完待续，支线任务等您探索",
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "questType": "Main",
+    "sort": 0,
+    "isSwitchUI": true,
+    "switchUI": "UI/",
+    "conditionList": [],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [],
+    "startStation": -1,
+    "endStationList": [],
+    "client": 82600002,
+    "chapterId": -1,
+    "playerLevel": 1,
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "traceList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81001206,
+    "idCN": "子任务/EP4/4-03-1-战斗新",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "EP4-3",
+    "story": "星花表示愿意帮助列车长，同时表明自己就是之前引开鲸鱼的人。",
+    "describe": "在7号自由港与星花对话",
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "questType": "Side",
+    "sort": 0,
+    "isSwitchUI": false,
+    "switchUI": "UI/",
+    "conditionList": [
+      {
+        "key": "levelId",
+        "val": "20100476"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": true,
+    "checkComplete": false,
+    "parentQuest": 81000039,
+    "childQuestList": [],
+    "rewardsList": [],
+    "startStation": 83000020,
+    "endStationList": [
+      {
+        "id": 83000020,
+        "weight": 10
+      }
+    ],
+    "client": 82600030,
+    "chapterId": -1,
+    "playerLevel": 1,
     "nextQuest": [
       {
-        "id": 81000040
+        "id": 81000038
       }
     ],
     "changeCityStateList": [],
@@ -76517,6 +76678,12 @@
         "btnListId": 80300920,
         "traceId": 80301269,
         "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 80301760,
+        "uiPath": "UI/CityMap/CityMap"
       }
     ],
     "isTime": false,

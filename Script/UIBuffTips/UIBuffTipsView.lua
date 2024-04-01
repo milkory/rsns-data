@@ -57,24 +57,37 @@ local BuffTips = {
     Group_Bar = {
       self = nil,
       Txt_Title = nil,
-      Img_01 = nil,
       Group_Num = {
         self = nil,
         Txt_Num = nil,
         Txt_01 = nil
       },
-      Img_Slider = {self = nil, Img_Bar = nil},
-      StaticGrid_Buff = {
+      Group_RightTxt = {
         self = nil,
-        grid = {
+        Group_Next = {
           self = nil,
-          Img_BG = nil,
-          Img_ON = nil,
-          Txt_Num = nil
+          Txt_Title = nil,
+          Group_Num = {
+            self = nil,
+            Txt_Num = nil,
+            Txt_01 = nil
+          }
+        },
+        Group_Max = {self = nil, Txt_Title = nil}
+      },
+      Img_Slider = {self = nil, Img_Bar = nil},
+      Img_left = nil,
+      Group_NextStage = {
+        self = nil,
+        Group_Max = {self = nil, Img_Icon = nil},
+        Group_Next = {
+          self = nil,
+          Img_Icon = {self = nil, Txt_Level = nil}
         }
       }
     },
-    Btn_Check = {self = nil, Txt_01 = nil}
+    Btn_Check = {self = nil, Txt_01 = nil},
+    Img_Eng = nil
   }
 }
 return BuffTips

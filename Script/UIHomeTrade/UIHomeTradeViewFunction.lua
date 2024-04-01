@@ -17,17 +17,19 @@ local ViewFunction = {
   end,
   HomeTrade_Group_CommonTopLeft_Btn_Return_Click = function(btn, str)
     if View.Group_Trade.self.IsActive then
-      Controller:ReturnToMain(true)
+      TradeController:ReturnToMain(true)
     elseif View.Group_Warehouse.self.IsActive then
-      WarehouseController:ReturnToMain(false)
+      WarehouseController:ReturnToMain()
     else
       UIManager:GoBack()
     end
   end,
   HomeTrade_Group_CommonTopLeft_Btn_Home_Click = function(btn, str)
-    if not Controller:OutTradePreCheck(function()
-      UIManager:GoHome()
-    end) then
+    if View.Group_Trade.self.IsActive then
+      TradeController:GoHome()
+    elseif View.Group_Warehouse.self.IsActive then
+      WarehouseController:GoHome()
+    else
       UIManager:GoHome()
     end
   end,

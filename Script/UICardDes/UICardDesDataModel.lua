@@ -13,10 +13,13 @@ function DataModel:Init()
   Group_LeaderCondition.self:SetActive(false)
   local Group_Skill = View.Group_Skill.Group_Content.Group_UP.Group_Skill
   Group_Skill.Txt_Des_Leader:SetText("")
+  local Leader_Space = 0
   if CA.leaderCardConditionDesc ~= nil and CA.leaderCardConditionDesc ~= "" then
     local tagCA = PlayerData:GetFactoryData(80600356)
     if tagCA.text ~= "" and DataModel.data.isLeaderCard == 1 then
       Group_Skill.Txt_Des_Leader:SetText(tagCA.text .. CA.leaderCardConditionDesc)
+      Leader_Space = Group_Skill.Txt_Des_Leader:GetHeight() + 15
+      Group_Skill.Txt_Des_Leader:SetHeight()
     end
   end
   local textId = 0
@@ -188,6 +191,7 @@ function DataModel:Init()
   local Skill_Space = Group_Skill.Txt_Des:GetHeight()
   Group_Skill.Txt_Des:SetHeight()
   Group_Skill.Txt_Des.Rect.sizeDelta.y = Skill_Space
+  Group_Skill.Txt_Des.transform.localPosition = Vector3(-70, -80 - Leader_Space, 0)
   local Group_Cost = View.Group_Skill.Group_Content.Group_UP.Group_Cost
   Group_Cost.Txt_CostNum:SetText("")
   Group_Cost.Txt_Cost:SetText("")
@@ -240,15 +244,14 @@ function DataModel:Init()
       allSpace = allSpace + lastSpace
     end
   end
-  local finishSpace = space + allSpace + Skill_Space
+  local finishSpace = space + allSpace + Skill_Space + Leader_Space
   View.Group_Skill.Img_Bg:SetImgWidthAndHeight(700, bgHight + finishSpace)
   View.Group_Skill.Img_Glass:SetImgWidthAndHeight(700, bgHight + finishSpace)
-  View.Group_Skill.Group_Content.Group_UP.transform.localPosition = Vector3(0, baseUPy + finishSpace, 0)
   local donwY = finishSpace - Skill_Space + space * 2
   if donwY < baseDowny then
     donwY = baseDowny
   end
-  View.Group_Skill.Group_Content.Group_DownTag.transform.localPosition = Vector3(View.Group_Skill.Group_Content.Group_DownTag.transform.localPosition.x, donwY + baseDowny, 0)
+  View.Group_Skill.Group_Content.Group_DownTag.transform.localPosition = Vector3(0, -180 - Skill_Space - Leader_Space - 15, 0)
   local initY = 0
   for i = 0, 6 do
     local obj = "Group_" .. i

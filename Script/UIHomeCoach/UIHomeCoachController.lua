@@ -347,7 +347,6 @@ function Controller:CloseDesign()
   liveDataModel.InitLiveFurData()
   liveController.InitSleep()
   local emergencyDataModel = require("UIHomeEmergency/UIHomeEmergencyDataModel")
-  emergencyDataModel.InitEmergencyFurData()
   emergencyDataModel.InitEmergency()
   local homeFoodController = require("UIHomeFood/UIHomeFoodController")
   homeFoodController.InitFoodCook()
@@ -531,7 +530,7 @@ function Controller:OnSpecialFurnitureClick(pos, uid, cid)
       if CityStoreDataModel.forbidReturn ~= true then
         UIManager:Open("UI/HomeSticker/HomeSticker", Json.encode(t))
       end
-    elseif cid == 81300160 or cid == 81300002 or cid == 81300179 then
+    elseif cid == 81300160 or cid == 81300002 or cid == 81300179 or cid == 81300296 then
       CityStoreDataModel:FastFoodClick()
     end
     if cid == 81300289 then
@@ -704,10 +703,6 @@ function Controller:InitEnvironment()
 end
 
 function Controller:DoDecorate(callback)
-  local checkComplete, powerCost = DataModel.PreCheckHomeDecorate()
-  if not checkComplete then
-    return
-  end
   local roomJson = HomeManager:GetRoomJson(DataModel.roomIndex)
   if roomJson == DataModel.revertJson then
     callback()
@@ -731,7 +726,7 @@ function Controller:DoDecorate(callback)
   end
   Net:SendProto("home.decorate", function(json)
     PlayerData.TempCache.BeginDecorateTimeStamp = curTime
-    PlayerData:GetHomeInfo().electric_used = powerCost
+    PlayerData:GetHomeInfo().electric_used = DataModel.powerCostRecordChange
     DataModel.revertJson = roomJson
     local cacheOldUsedFur = {}
     for i, v in ipairs(DataModel.revertData) do
@@ -753,12 +748,15 @@ function Controller:DoDecorate(callback)
     end
     for k, v in pairs(addFurTable) do
       HomeFurnitureCollection.FurDecorate(u_cid, k)
+      PlayerData.RefreshFurSkillData(serverFurniture[k])
     end
     for k, v in pairs(cacheOldUsedFur) do
+      PlayerData.RefreshFurSkillData(serverFurniture[k], true)
       serverFurniture[k].u_cid = ""
       DataModel.GeneralHandleFurnitureServerData(serverFurniture[k])
       HomeFurnitureCollection.FurRemove(u_cid, k)
     end
+    mainUIDataModel.RefreshData(PlayerData.ServerData.user_home_info.coach)
     callback()
     CommonTips.OpenTips(80600209)
   end, roomStr, serverIdx, duration)

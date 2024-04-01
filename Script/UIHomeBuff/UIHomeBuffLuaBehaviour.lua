@@ -13,14 +13,10 @@ local Luabehaviour = {
       DataModel.stationStoreBuff = data.stationStoreBuff
       DataModel.battleBuff = data.battleBuff
       local groupTips = View.Group_Tips
-      DataModel.buffNum = 0
       DataModel:RefreshBuffGroup(groupTips.Group_Drink, DataModel.drinkBuff)
       DataModel:RefreshBuffGroup(groupTips.Group_Food, DataModel.stationStoreBuff)
       DataModel:RefreshBuffGroup(groupTips.Group_Battle, DataModel.battleBuff)
       DataModel:RefreshBuffGroup(groupTips.Group_Bargain, DataModel.bargainBuff)
-      groupTips.Img_Separate1:SetActive(DataModel.buffNum >= 2)
-      groupTips.Img_Separate2:SetActive(DataModel.buffNum >= 3)
-      groupTips.Img_Separate3:SetActive(DataModel.buffNum >= 4)
       groupTips.self:SetAnchoredPosition(Vector2(data.posX, data.posY))
     end
   end,
@@ -39,8 +35,14 @@ local Luabehaviour = {
       DataModel.stationStoreBuff = nil
       groupTips.Group_Food.self:SetActive(false)
     end
+    if DataModel.battleBuff and curTime >= DataModel.battleBuff.endTime then
+      DataModel.battleBuff = nil
+      groupTips.Group_Battle.self:SetActive(false)
+    end
     groupTips.Img_Separate1:SetActive(DataModel.drinkBuff ~= nil and DataModel.stationStoreBuff ~= nil)
-    if DataModel.drinkBuff == nil and DataModel.stationStoreBuff == nil and DataModel.bargainBuff == nil then
+    groupTips.Img_Separate2:SetActive(DataModel.stationStoreBuff ~= nil and DataModel.battleBuff ~= nil)
+    groupTips.Img_Separate3:SetActive(DataModel.battleBuff ~= nil and DataModel.bargainBuff ~= nil)
+    if DataModel.drinkBuff == nil and DataModel.stationStoreBuff == nil and DataModel.bargainBuff == nil and DataModel.battleBuff == nil then
       UIManager:CloseTip("UI/Common/HomeBuff")
       return
     end

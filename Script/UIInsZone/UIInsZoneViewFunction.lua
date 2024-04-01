@@ -14,6 +14,7 @@ local ViewFunction = {
         local MainController = require("UIMainUI/UIMainUIController")
         local MainDataModel = require("UIMainUI/UIMainUIDataModel")
         Net:SendProto("station.arrive", function(json)
+          MainDataModel.justArrived = true
           TradeDataModel.EndCity = TradeDataModel.StartCity
           PlayerData.FreeCameraIndex = 1
           PlayerData:GetHomeInfo().station_info = json.station_info

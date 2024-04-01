@@ -470,9 +470,13 @@ function DataModel.CalcCurrentCharacter()
   local step = math.ceil(rolesCount / divCount)
   local stepRecord = 1
   for i = 2, roomCount do
+    local needInRoles = DataModel.GetNeedInRoles(i)
     local str = ""
+    for i, roleId in pairs(needInRoles) do
+      str = str .. roleId .. ":[false,false],"
+    end
     for j = stepRecord, stepRecord + step - 1 do
-      if t[j] ~= nil then
+      if t[j] ~= nil and not needInRoles[t[j]] then
         str = str .. t[j] .. ":[false,false],"
       end
     end
@@ -480,6 +484,23 @@ function DataModel.CalcCurrentCharacter()
     str = "{" .. str .. "}"
     DataModel.characterData[i] = str
   end
+end
+
+function DataModel.GetNeedInRoles(roomIndex)
+  local needInRoles = {}
+  local u_cid = PlayerData.ServerData.user_home_info.coach_template[roomIndex]
+  for i, v in pairs(PlayerData:GetHomeInfo().furniture) do
+    if v.u_cid == u_cid and v.roles then
+      for _, roleId in pairs(v.roles) do
+        if roleId ~= "" then
+          local unitCA = PlayerData:GetFactoryData(roleId, "UnitFactory")
+          needInRoles[unitCA.homeCharacter] = unitCA.homeCharacter
+          break
+        end
+      end
+    end
+  end
+  return needInRoles
 end
 
 function DataModel.CalcCurrentPet()

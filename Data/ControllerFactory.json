@@ -11922,18 +11922,6 @@
         "activeFrame": 608,
         "activeTime": 1.0,
         "rangeSN": 240000
-      },
-      {
-        "actionId": 10102552,
-        "activeFrame": 1036,
-        "activeTime": 1.0,
-        "rangeSN": 240000
-      },
-      {
-        "actionId": 10102553,
-        "activeFrame": 1486,
-        "activeTime": 1.0,
-        "rangeSN": 240000
       }
     ],
     "isInvisibleBeforeShowUp": false,
@@ -11942,9 +11930,15 @@
     "shapeShiftList": [],
     "commandList": [],
     "enemySkillList": [],
-    "isUseEnergy": false,
-    "energySkillList": [],
-    "energyRestorePerFrameSN": 0,
+    "isUseEnergy": true,
+    "energySkillList": [
+      {
+        "actionId": 10102552,
+        "isClearEnergy": true,
+        "rangeSN": -10000
+      }
+    ],
+    "energyRestorePerFrameSN": 560,
     "isSkillDelay": true,
     "minDelay": 120,
     "maxDelay": 360
@@ -13087,17 +13081,36 @@
       }
     ],
     "normalAttackCritID": -1,
-    "skillList": [],
+    "skillList": [
+      {
+        "actionId": 10102771,
+        "activeFrame": 480,
+        "activeTime": 8.0,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10102762,
+        "activeFrame": 1080,
+        "activeTime": 18.0,
+        "rangeSN": -10000
+      }
+    ],
     "isInvisibleBeforeShowUp": false,
     "showupSkillList": [],
-    "skillLoopDelayFrame": 440,
+    "skillLoopDelayFrame": 780,
     "shapeShiftList": [],
     "commandList": [],
     "enemySkillList": [],
     "isUseEnergy": true,
-    "energySkillList": [],
+    "energySkillList": [
+      {
+        "actionId": 10102772,
+        "isClearEnergy": true,
+        "rangeSN": -10000
+      }
+    ],
     "energyRestorePerFrameSN": 320,
-    "isSkillDelay": true,
+    "isSkillDelay": false,
     "minDelay": 120,
     "maxDelay": 360
   },
@@ -13159,20 +13172,20 @@
     "skillList": [
       {
         "actionId": 10102719,
-        "activeFrame": 180,
-        "activeTime": 3.0,
+        "activeFrame": 360,
+        "activeTime": 6.0,
         "rangeSN": -10000
       },
       {
         "actionId": 10102727,
-        "activeFrame": 780,
-        "activeTime": 13.0,
+        "activeFrame": 960,
+        "activeTime": 16.0,
         "rangeSN": -10000
       }
     ],
     "isInvisibleBeforeShowUp": false,
     "showupSkillList": [],
-    "skillLoopDelayFrame": 480,
+    "skillLoopDelayFrame": 600,
     "shapeShiftList": [],
     "commandList": [],
     "enemySkillList": [],
@@ -13223,6 +13236,144 @@
     "isUseEnergy": false,
     "energySkillList": [],
     "energyRestorePerFrameSN": 0,
+    "isSkillDelay": true,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300332,
+    "idCN": "敌方/99化物/宝箱小狗",
+    "mod": "基础AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10102796
+      },
+      {
+        "actionID": 10102799
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10102801,
+        "activeFrame": 120,
+        "activeTime": 2.0,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10102802,
+        "activeFrame": 480,
+        "activeTime": 8.0,
+        "rangeSN": -10000
+      }
+    ],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [],
+    "skillLoopDelayFrame": 360,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300335,
+    "idCN": "敌方/03劫掠者/劫掠者·执剑·换色",
+    "mod": "基础AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10102786
+      },
+      {
+        "actionID": 10102806
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10102785,
+        "activeFrame": 120,
+        "activeTime": 8.0,
+        "rangeSN": 40000
+      }
+    ],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [],
+    "skillLoopDelayFrame": 720,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
+    "isSkillDelay": true,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300337,
+    "idCN": "敌方/000角色/黑月/马吉拉-觉醒1",
+    "mod": "基础AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10102763
+      },
+      {
+        "actionID": 10102764
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10102771,
+        "activeFrame": 480,
+        "activeTime": 8.0,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10102762,
+        "activeFrame": 860,
+        "activeTime": 14.3333,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10102771,
+        "activeFrame": 1240,
+        "activeTime": 20.6667,
+        "rangeSN": -10000
+      }
+    ],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [],
+    "skillLoopDelayFrame": 240,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": true,
+    "energySkillList": [
+      {
+        "actionId": 10102772,
+        "isClearEnergy": true,
+        "rangeSN": -10000
+      }
+    ],
+    "energyRestorePerFrameSN": 370,
     "isSkillDelay": true,
     "minDelay": 120,
     "maxDelay": 360

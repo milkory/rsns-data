@@ -103,7 +103,9 @@ function Controller:DoUpGrade()
       HomeManager:UpGradeFurniture(-1, DataModel.curFurUfid, furCA.upgrade)
     end
     local serverData = PlayerData:GetHomeInfo().furniture[DataModel.curFurUfid]
+    PlayerData.RefreshFurSkillData(serverData, true)
     serverData.id = tostring(furCA.upgrade)
+    PlayerData.RefreshFurSkillData(serverData)
     if UIManager:GetPanel("UI/MainUI/MainUI").IsActive then
       local UIMainUIView = require("UIMainUI/UIMainUIView")
       UIMainUIView.Group_Common.Group_TopLeft.Btn_Gold.Txt_Num:SetText(PlayerData:GetUserInfo().gold)

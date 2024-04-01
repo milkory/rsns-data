@@ -50,7 +50,9 @@ local DataModel = {
   MainRushEffectPath = "UI/UIEffect/particle/UI_mainRush/UI_mainRush",
   TrainStrikeEffectPath = "UI/UIEffect/particle/UI_train_strike/UI_train_strike",
   WarningEffectPath = "UI/UIEffect/particle/UI_Warning/UI_Warning_Particle",
-  MaxDashBoardSpeed = 240
+  MaxDashBoardSpeed = 240,
+  RushServerTime = 0,
+  justArrived = false
 }
 
 function DataModel.InitModel()

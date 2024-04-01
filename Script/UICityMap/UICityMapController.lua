@@ -7,6 +7,9 @@ local OpenCityMapDo = function(info)
   Controller:Init()
   View.self:PlayAnim("In")
 end
+local guideDo = function(info)
+  GuideManager:ExecuteClientOnlyGuide(info.metaId)
+end
 local CheckInvestLock = function(isShowTip)
   if isShowTip == nil then
     isShowTip = true
@@ -308,6 +311,9 @@ function Controller:ClickBtn(idx)
       end
     elseif info.func == "OpenCityMap" then
       detailDo = OpenCityMapDo
+    elseif info.func == "Guide" then
+      isPlayOut = false
+      detailDo = guideDo
     end
   end
   if detailDo then
@@ -378,7 +384,9 @@ function Controller:FuncActive()
   funcTable[100] = function(active)
     View.Group_TopRight.Btn_Mission.self:SetActive(active)
     if active then
-      View.Group_TopRight.Btn_Mission.self:SetActive(TimeUtil:LastTime(PlayerData:GetFactoryData(82500002).PassEndTime) >= 0)
+      local initConfig = PlayerData:GetFactoryData(99900007, "ConfigFactory")
+      local battlePass = PlayerData:GetFactoryData(initConfig.BattlePassId, "BattlePassFactory")
+      View.Group_TopRight.Btn_Mission.self:SetActive(TimeUtil:IsActive(battlePass.PassStartTime, battlePass.PassEndTime))
     end
   end
   funcTable[101] = function(active)

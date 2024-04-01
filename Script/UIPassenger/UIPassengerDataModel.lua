@@ -47,6 +47,9 @@ function DataModel.CreatePassenger(psgUid, psgData)
   local furIndex = this.GetPsgFurIndex(psgUid, psgData)
   local roomIdx = this.GetPsgFurRoomIndex(psgData.u_fid)
   if furIndex ~= -1 and roomIdx ~= -1 then
+    if not PosClickHandler.GetRoomIsHaveEmptyTile(roomIdx) then
+      return nil
+    end
     return HomeCharacterManager:CreatePassengerCharacter(psgUid, tonumber(passengerCA.homePassage), psgData.u_fid, furIndex - 1, roomIdx - 1), furIndex
   end
   return nil

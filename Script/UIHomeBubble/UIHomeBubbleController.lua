@@ -23,10 +23,9 @@ function Controller:Init()
   height = height + (0 < furCA.plantScores and 40 or 0)
   View.Group_Panel.Img_Glass.Img_BubbleBG.Group_List.Group_Attribute4.self:SetActive(0 < furCA.plantScores)
   View.Group_Panel.Img_Glass.Img_BubbleBG.Group_List.Group_Attribute4.Txt_Scores:SetText(furCA.plantScores)
-  local petScores = furCA.petScores
+  local petScores = PlayerData.GetFurPetScoreWithAllBuff(DataModel.curFurUfid)
   if DataModel.curFurServerInfo.house then
     for k, v in pairs(DataModel.curFurServerInfo.house.pets) do
-      petScores = petScores + PlayerData.GetPetScores(v)
       local petInfo = PlayerData:GetHomeInfo().pet[v]
       if petInfo then
         local ca = PlayerData:GetFactoryData(petInfo.id)
@@ -37,11 +36,10 @@ function Controller:Init()
   height = height + (0 < petScores and 40 or 0)
   View.Group_Panel.Img_Glass.Img_BubbleBG.Group_List.Group_Attribute5.self:SetActive(0 < petScores)
   View.Group_Panel.Img_Glass.Img_BubbleBG.Group_List.Group_Attribute5.Txt_Scores:SetText(petScores)
-  local fishScores = furCA.fishScores
+  local fishScores = PlayerData.GetFurFishScoresWithAllBuff(DataModel.curFurUfid)
   if DataModel.curFurServerInfo.water ~= nil and DataModel.curFurServerInfo.water.fishes ~= nil then
     for k, v in pairs(DataModel.curFurServerInfo.water.fishes) do
       local ca = PlayerData:GetFactoryData(k)
-      fishScores = fishScores + ca.fishScores * v
       innerWasteOut = innerWasteOut + ca.fishGarbage * v
     end
   end

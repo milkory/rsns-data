@@ -54,7 +54,7 @@ local Luabehaviour = {
         end)
         View.timer:Start()
       end
-      View.Group_CommonTopLeft.Btn_Help:SetActive(DataModel.PlaceId ~= "81500007")
+      View.Group_CommonTopLeft.Btn_Help:SetActive(DataModel.PlaceId ~= "81500007" and DataModel.PlaceId ~= "81500008")
       Controller:CheckQuestProcess()
     end
   end,

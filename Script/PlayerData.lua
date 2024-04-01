@@ -642,14 +642,15 @@ function PlayerData:CountRoleAttributeById(id, skill1Lv, skill2Lv, skill3Lv, lv,
       ""
     }
   end
-  local unitAttriStr = DataManager:GetUnitBaseAttributeLua(id, skill1Lv, skill2Lv, skill3Lv, lv, awakeLv, resonanceLevel, trustLv, role.equips[1] ~= "" and role.equips[1] and PlayerData:GetEquipById(role.equips[1]).id or -1, role.equips[1] ~= "" and PlayerData:GetEquipById(role.equips[1]).lv or 1, role.equips[1] ~= "" and PlayerData:GetEquipById(role.equips[1]).random_affix["0"] and PlayerData:GetEquipById(role.equips[1]).random_affix["0"].id or -1, role.equips[1] ~= "" and PlayerData:GetEquipById(role.equips[1]).random_affix["0"] and -1 < PlayerData:GetEquipById(role.equips[1]).random_affix["0"].value and PlayerData:GetEquipById(role.equips[1]).random_affix["0"].value * 10000 or 0, role.equips[1] ~= "" and PlayerData:GetEquipById(role.equips[1]).random_affix["1"] and PlayerData:GetEquipById(role.equips[1]).random_affix["1"].id or -1, role.equips[1] ~= "" and PlayerData:GetEquipById(role.equips[1]).random_affix["1"] and -1 < PlayerData:GetEquipById(role.equips[1]).random_affix["1"].value and PlayerData:GetEquipById(role.equips[1]).random_affix["1"].value * 10000 or 0, role.equips[1] ~= "" and PlayerData:GetEquipById(role.equips[1]).random_affix["2"] and PlayerData:GetEquipById(role.equips[1]).random_affix["2"].id or -1, role.equips[1] ~= "" and PlayerData:GetEquipById(role.equips[1]).random_affix["2"] and -1 < PlayerData:GetEquipById(role.equips[1]).random_affix["2"].value and PlayerData:GetEquipById(role.equips[1]).random_affix["2"].value * 10000 or 0, role.equips[1] ~= "" and PlayerData:GetEquipById(role.equips[1]).random_affix["3"] and PlayerData:GetEquipById(role.equips[1]).random_affix["3"].id or -1, role.equips[1] ~= "" and PlayerData:GetEquipById(role.equips[1]).random_affix["3"] and -1 < PlayerData:GetEquipById(role.equips[1]).random_affix["3"].value and PlayerData:GetEquipById(role.equips[1]).random_affix["3"].value * 10000 or 0, role.equips[1] ~= "" and PlayerData:GetEquipById(role.equips[1]).random_affix["4"] and PlayerData:GetEquipById(role.equips[1]).random_affix["4"].id or -1, role.equips[1] ~= "" and PlayerData:GetEquipById(role.equips[1]).random_affix["4"] and -1 < PlayerData:GetEquipById(role.equips[1]).random_affix["4"].value and PlayerData:GetEquipById(role.equips[1]).random_affix["4"].value * 10000 or 0, role.equips[1] ~= "" and PlayerData:GetEquipById(role.equips[1]).random_affix["5"] and PlayerData:GetEquipById(role.equips[1]).random_affix["5"].id or -1, role.equips[1] ~= "" and PlayerData:GetEquipById(role.equips[1]).random_affix["5"] and -1 < PlayerData:GetEquipById(role.equips[1]).random_affix["5"].value and PlayerData:GetEquipById(role.equips[1]).random_affix["5"].value * 10000 or 0, role.equips[2] ~= "" and role.equips[2] and PlayerData:GetEquipById(role.equips[2]).id or -1, role.equips[2] ~= "" and PlayerData:GetEquipById(role.equips[2]).lv or 1, role.equips[2] ~= "" and PlayerData:GetEquipById(role.equips[2]).random_affix["0"] and PlayerData:GetEquipById(role.equips[2]).random_affix["0"].id or -1, role.equips[2] ~= "" and PlayerData:GetEquipById(role.equips[2]).random_affix["0"] and -1 < PlayerData:GetEquipById(role.equips[2]).random_affix["0"].value and PlayerData:GetEquipById(role.equips[2]).random_affix["0"].value * 10000 or 0, role.equips[2] ~= "" and PlayerData:GetEquipById(role.equips[2]).random_affix["1"] and PlayerData:GetEquipById(role.equips[2]).random_affix["1"].id or -1, role.equips[2] ~= "" and PlayerData:GetEquipById(role.equips[2]).random_affix["1"] and -1 < PlayerData:GetEquipById(role.equips[2]).random_affix["1"].value and PlayerData:GetEquipById(role.equips[2]).random_affix["1"].value * 10000 or 0, role.equips[2] ~= "" and PlayerData:GetEquipById(role.equips[2]).random_affix["2"] and PlayerData:GetEquipById(role.equips[2]).random_affix["2"].id or -1, role.equips[2] ~= "" and PlayerData:GetEquipById(role.equips[2]).random_affix["2"] and -1 < PlayerData:GetEquipById(role.equips[2]).random_affix["2"].value and PlayerData:GetEquipById(role.equips[2]).random_affix["2"].value * 10000 or 0, role.equips[2] ~= "" and PlayerData:GetEquipById(role.equips[2]).random_affix["3"] and PlayerData:GetEquipById(role.equips[2]).random_affix["3"].id or -1, role.equips[2] ~= "" and PlayerData:GetEquipById(role.equips[2]).random_affix["3"] and -1 < PlayerData:GetEquipById(role.equips[2]).random_affix["3"].value and PlayerData:GetEquipById(role.equips[2]).random_affix["3"].value * 10000 or 0, role.equips[2] ~= "" and PlayerData:GetEquipById(role.equips[2]).random_affix["4"] and PlayerData:GetEquipById(role.equips[2]).random_affix["4"].id or -1, role.equips[2] ~= "" and PlayerData:GetEquipById(role.equips[2]).random_affix["4"] and -1 < PlayerData:GetEquipById(role.equips[2]).random_affix["4"].value and PlayerData:GetEquipById(role.equips[2]).random_affix["4"].value * 10000 or 0, role.equips[2] ~= "" and PlayerData:GetEquipById(role.equips[2]).random_affix["5"] and PlayerData:GetEquipById(role.equips[2]).random_affix["5"].id or -1, role.equips[2] ~= "" and PlayerData:GetEquipById(role.equips[2]).random_affix["5"] and -1 < PlayerData:GetEquipById(role.equips[2]).random_affix["5"].value and PlayerData:GetEquipById(role.equips[2]).random_affix["5"].value * 10000 or 0, role.equips[3] ~= "" and role.equips[3] and PlayerData:GetEquipById(role.equips[3]).id or -1, role.equips[3] ~= "" and PlayerData:GetEquipById(role.equips[3]).lv or 1, role.equips[3] ~= "" and PlayerData:GetEquipById(role.equips[3]).random_affix["0"] and PlayerData:GetEquipById(role.equips[3]).random_affix["0"].id or -1, role.equips[3] ~= "" and PlayerData:GetEquipById(role.equips[3]).random_affix["0"] and -1 < PlayerData:GetEquipById(role.equips[3]).random_affix["0"].value and PlayerData:GetEquipById(role.equips[3]).random_affix["0"].value * 10000 or 0, role.equips[3] ~= "" and PlayerData:GetEquipById(role.equips[3]).random_affix["1"] and PlayerData:GetEquipById(role.equips[3]).random_affix["1"].id or -1, role.equips[3] ~= "" and PlayerData:GetEquipById(role.equips[3]).random_affix["1"] and -1 < PlayerData:GetEquipById(role.equips[3]).random_affix["1"].value and PlayerData:GetEquipById(role.equips[3]).random_affix["1"].value * 10000 or 0, role.equips[3] ~= "" and PlayerData:GetEquipById(role.equips[3]).random_affix["2"] and PlayerData:GetEquipById(role.equips[3]).random_affix["2"].id or -1, role.equips[3] ~= "" and PlayerData:GetEquipById(role.equips[3]).random_affix["2"] and -1 < PlayerData:GetEquipById(role.equips[3]).random_affix["2"].value and PlayerData:GetEquipById(role.equips[3]).random_affix["2"].value * 10000 or 0, role.equips[3] ~= "" and PlayerData:GetEquipById(role.equips[3]).random_affix["3"] and PlayerData:GetEquipById(role.equips[3]).random_affix["3"].id or -1, role.equips[3] ~= "" and PlayerData:GetEquipById(role.equips[3]).random_affix["3"] and -1 < PlayerData:GetEquipById(role.equips[3]).random_affix["3"].value and PlayerData:GetEquipById(role.equips[3]).random_affix["3"].value * 10000 or 0, role.equips[3] ~= "" and PlayerData:GetEquipById(role.equips[3]).random_affix["4"] and PlayerData:GetEquipById(role.equips[3]).random_affix["4"].id or -1, role.equips[3] ~= "" and PlayerData:GetEquipById(role.equips[3]).random_affix["4"] and -1 < PlayerData:GetEquipById(role.equips[3]).random_affix["4"].value and PlayerData:GetEquipById(role.equips[3]).random_affix["4"].value * 10000 or 0, role.equips[3] ~= "" and PlayerData:GetEquipById(role.equips[3]).random_affix["5"] and PlayerData:GetEquipById(role.equips[3]).random_affix["5"].id or -1, role.equips[3] ~= "" and PlayerData:GetEquipById(role.equips[3]).random_affix["5"] and -1 < PlayerData:GetEquipById(role.equips[3]).random_affix["5"].value and PlayerData:GetEquipById(role.equips[3]).random_affix["5"].value * 10000 or 0)
+  local unitAttriStr = DataManager:GetUnitBaseAttributeLua(id, skill1Lv, skill2Lv, skill3Lv, lv, awakeLv, resonanceLevel, trustLv, role.equips[1] ~= "" and role.equips[1] and tonumber(PlayerData:GetEquipById(role.equips[1]).id) or -1, role.equips[1] ~= "" and PlayerData:GetEquipById(role.equips[1]).lv or 1, role.equips[1] ~= "" and PlayerData:GetEquipById(role.equips[1]).random_affix["0"] and tonumber(PlayerData:GetEquipById(role.equips[1]).random_affix["0"].id) or -1, role.equips[1] ~= "" and PlayerData:GetEquipById(role.equips[1]).random_affix["0"] and -1 < PlayerData:GetEquipById(role.equips[1]).random_affix["0"].value and PlayerData:GetEquipById(role.equips[1]).random_affix["0"].value * 10000 or 0, role.equips[1] ~= "" and PlayerData:GetEquipById(role.equips[1]).random_affix["1"] and tonumber(PlayerData:GetEquipById(role.equips[1]).random_affix["1"].id) or -1, role.equips[1] ~= "" and PlayerData:GetEquipById(role.equips[1]).random_affix["1"] and -1 < PlayerData:GetEquipById(role.equips[1]).random_affix["1"].value and PlayerData:GetEquipById(role.equips[1]).random_affix["1"].value * 10000 or 0, role.equips[1] ~= "" and PlayerData:GetEquipById(role.equips[1]).random_affix["2"] and tonumber(PlayerData:GetEquipById(role.equips[1]).random_affix["2"].id) or -1, role.equips[1] ~= "" and PlayerData:GetEquipById(role.equips[1]).random_affix["2"] and -1 < PlayerData:GetEquipById(role.equips[1]).random_affix["2"].value and PlayerData:GetEquipById(role.equips[1]).random_affix["2"].value * 10000 or 0, role.equips[1] ~= "" and PlayerData:GetEquipById(role.equips[1]).random_affix["3"] and tonumber(PlayerData:GetEquipById(role.equips[1]).random_affix["3"].id) or -1, role.equips[1] ~= "" and PlayerData:GetEquipById(role.equips[1]).random_affix["3"] and -1 < PlayerData:GetEquipById(role.equips[1]).random_affix["3"].value and PlayerData:GetEquipById(role.equips[1]).random_affix["3"].value * 10000 or 0, role.equips[1] ~= "" and PlayerData:GetEquipById(role.equips[1]).random_affix["4"] and tonumber(PlayerData:GetEquipById(role.equips[1]).random_affix["4"].id) or -1, role.equips[1] ~= "" and PlayerData:GetEquipById(role.equips[1]).random_affix["4"] and -1 < PlayerData:GetEquipById(role.equips[1]).random_affix["4"].value and PlayerData:GetEquipById(role.equips[1]).random_affix["4"].value * 10000 or 0, role.equips[1] ~= "" and PlayerData:GetEquipById(role.equips[1]).random_affix["5"] and tonumber(PlayerData:GetEquipById(role.equips[1]).random_affix["5"].id) or -1, role.equips[1] ~= "" and PlayerData:GetEquipById(role.equips[1]).random_affix["5"] and -1 < PlayerData:GetEquipById(role.equips[1]).random_affix["5"].value and PlayerData:GetEquipById(role.equips[1]).random_affix["5"].value * 10000 or 0, role.equips[2] ~= "" and role.equips[2] and tonumber(PlayerData:GetEquipById(role.equips[2]).id) or -1, role.equips[2] ~= "" and PlayerData:GetEquipById(role.equips[2]).lv or 1, role.equips[2] ~= "" and PlayerData:GetEquipById(role.equips[2]).random_affix["0"] and tonumber(PlayerData:GetEquipById(role.equips[2]).random_affix["0"].id) or -1, role.equips[2] ~= "" and PlayerData:GetEquipById(role.equips[2]).random_affix["0"] and -1 < PlayerData:GetEquipById(role.equips[2]).random_affix["0"].value and PlayerData:GetEquipById(role.equips[2]).random_affix["0"].value * 10000 or 0, role.equips[2] ~= "" and PlayerData:GetEquipById(role.equips[2]).random_affix["1"] and tonumber(PlayerData:GetEquipById(role.equips[2]).random_affix["1"].id) or -1, role.equips[2] ~= "" and PlayerData:GetEquipById(role.equips[2]).random_affix["1"] and -1 < PlayerData:GetEquipById(role.equips[2]).random_affix["1"].value and PlayerData:GetEquipById(role.equips[2]).random_affix["1"].value * 10000 or 0, role.equips[2] ~= "" and PlayerData:GetEquipById(role.equips[2]).random_affix["2"] and tonumber(PlayerData:GetEquipById(role.equips[2]).random_affix["2"].id) or -1, role.equips[2] ~= "" and PlayerData:GetEquipById(role.equips[2]).random_affix["2"] and -1 < PlayerData:GetEquipById(role.equips[2]).random_affix["2"].value and PlayerData:GetEquipById(role.equips[2]).random_affix["2"].value * 10000 or 0, role.equips[2] ~= "" and PlayerData:GetEquipById(role.equips[2]).random_affix["3"] and tonumber(PlayerData:GetEquipById(role.equips[2]).random_affix["3"].id) or -1, role.equips[2] ~= "" and PlayerData:GetEquipById(role.equips[2]).random_affix["3"] and -1 < PlayerData:GetEquipById(role.equips[2]).random_affix["3"].value and PlayerData:GetEquipById(role.equips[2]).random_affix["3"].value * 10000 or 0, role.equips[2] ~= "" and PlayerData:GetEquipById(role.equips[2]).random_affix["4"] and tonumber(PlayerData:GetEquipById(role.equips[2]).random_affix["4"].id) or -1, role.equips[2] ~= "" and PlayerData:GetEquipById(role.equips[2]).random_affix["4"] and -1 < PlayerData:GetEquipById(role.equips[2]).random_affix["4"].value and PlayerData:GetEquipById(role.equips[2]).random_affix["4"].value * 10000 or 0, role.equips[2] ~= "" and PlayerData:GetEquipById(role.equips[2]).random_affix["5"] and tonumber(PlayerData:GetEquipById(role.equips[2]).random_affix["5"].id) or -1, role.equips[2] ~= "" and PlayerData:GetEquipById(role.equips[2]).random_affix["5"] and -1 < PlayerData:GetEquipById(role.equips[2]).random_affix["5"].value and PlayerData:GetEquipById(role.equips[2]).random_affix["5"].value * 10000 or 0, role.equips[3] ~= "" and role.equips[3] and tonumber(PlayerData:GetEquipById(role.equips[3]).id) or -1, role.equips[3] ~= "" and PlayerData:GetEquipById(role.equips[3]).lv or 1, role.equips[3] ~= "" and PlayerData:GetEquipById(role.equips[3]).random_affix["0"] and tonumber(PlayerData:GetEquipById(role.equips[3]).random_affix["0"].id) or -1, role.equips[3] ~= "" and PlayerData:GetEquipById(role.equips[3]).random_affix["0"] and -1 < PlayerData:GetEquipById(role.equips[3]).random_affix["0"].value and PlayerData:GetEquipById(role.equips[3]).random_affix["0"].value * 10000 or 0, role.equips[3] ~= "" and PlayerData:GetEquipById(role.equips[3]).random_affix["1"] and tonumber(PlayerData:GetEquipById(role.equips[3]).random_affix["1"].id) or -1, role.equips[3] ~= "" and PlayerData:GetEquipById(role.equips[3]).random_affix["1"] and -1 < PlayerData:GetEquipById(role.equips[3]).random_affix["1"].value and PlayerData:GetEquipById(role.equips[3]).random_affix["1"].value * 10000 or 0, role.equips[3] ~= "" and PlayerData:GetEquipById(role.equips[3]).random_affix["2"] and tonumber(PlayerData:GetEquipById(role.equips[3]).random_affix["2"].id) or -1, role.equips[3] ~= "" and PlayerData:GetEquipById(role.equips[3]).random_affix["2"] and -1 < PlayerData:GetEquipById(role.equips[3]).random_affix["2"].value and PlayerData:GetEquipById(role.equips[3]).random_affix["2"].value * 10000 or 0, role.equips[3] ~= "" and PlayerData:GetEquipById(role.equips[3]).random_affix["3"] and tonumber(PlayerData:GetEquipById(role.equips[3]).random_affix["3"].id) or -1, role.equips[3] ~= "" and PlayerData:GetEquipById(role.equips[3]).random_affix["3"] and -1 < PlayerData:GetEquipById(role.equips[3]).random_affix["3"].value and PlayerData:GetEquipById(role.equips[3]).random_affix["3"].value * 10000 or 0, role.equips[3] ~= "" and PlayerData:GetEquipById(role.equips[3]).random_affix["4"] and tonumber(PlayerData:GetEquipById(role.equips[3]).random_affix["4"].id) or -1, role.equips[3] ~= "" and PlayerData:GetEquipById(role.equips[3]).random_affix["4"] and -1 < PlayerData:GetEquipById(role.equips[3]).random_affix["4"].value and PlayerData:GetEquipById(role.equips[3]).random_affix["4"].value * 10000 or 0, role.equips[3] ~= "" and PlayerData:GetEquipById(role.equips[3]).random_affix["5"] and tonumber(PlayerData:GetEquipById(role.equips[3]).random_affix["5"].id) or -1, role.equips[3] ~= "" and PlayerData:GetEquipById(role.equips[3]).random_affix["5"] and -1 < PlayerData:GetEquipById(role.equips[3]).random_affix["5"].value and PlayerData:GetEquipById(role.equips[3]).random_affix["5"].value * 10000 or 0)
   local unitBaseAttribute = Split(unitAttriStr, "#")
   local index = 1
-  local tHp = LuaSafeMath.SafeNumToInt(tonumber(unitBaseAttribute[index]))
+  local petProp = PlayerData:GetRolePetProperty(id)
+  local tHp = LuaSafeMath.SafeNumToInt(tonumber(unitBaseAttribute[index])) + petProp.hp
   index = index + 1
-  local tDef = LuaSafeMath.SafeNumToInt(tonumber(unitBaseAttribute[index]))
+  local tDef = LuaSafeMath.SafeNumToInt(tonumber(unitBaseAttribute[index])) + petProp.def
   index = index + 1
-  local tAtk = LuaSafeMath.SafeNumToInt(tonumber(unitBaseAttribute[index]))
+  local tAtk = LuaSafeMath.SafeNumToInt(tonumber(unitBaseAttribute[index])) + petProp.atk
   index = index + 1
   local tCri = LuaSafeMath.SafeNumToFloat(tonumber(unitBaseAttribute[index]))
   index = index + 1
@@ -1633,6 +1634,26 @@ function PlayerData:RefreshStationInfo(station_info)
   PlayerData:GetHomeInfo().station_info = station_info
 end
 
+function PlayerData:GetBoxIdByDistance(sid, distance)
+  local stationInfo = self:GetHomeInfo().station_info
+  if stationInfo ~= nil and stationInfo.line_events ~= nil and stationInfo.line_events[sid] ~= nil and stationInfo.line_events[sid].box_events ~= nil then
+    for i, v in ipairs(stationInfo.line_events[sid].box_events) do
+      if v.distance == distance then
+        return v.id, i
+      end
+    end
+  end
+  return nil
+end
+
+function PlayerData:GetBoxDistanceByIndex(sid, index)
+  local stationInfo = self:GetHomeInfo().station_info
+  if stationInfo ~= nil and stationInfo.line_events ~= nil and stationInfo.line_events[sid] ~= nil and stationInfo.line_events[sid].box_events ~= nil and stationInfo.line_events[sid].box_events[index] ~= nil then
+    return stationInfo.line_events[sid].box_events[index].distance
+  end
+  return nil
+end
+
 function PlayerData:RefreshDisplayTrain(display_train)
   PlayerData:GetHomeInfo().display_train = display_train
 end
@@ -1980,13 +2001,15 @@ local RefreshStamp = function(id, num)
   if ca.mod == "通行证道具" then
     local battlePassGrade = ca.battlePassGrade
     local points = battlePassGrade * num
-    local intervalPoint = PlayerData:GetFactoryData(82500002).Points
+    local initConfig = PlayerData:GetFactoryData(99900007, "ConfigFactory")
+    local battlePass = PlayerData:GetFactoryData(initConfig.BattlePassId, "BattlePassFactory")
+    local intervalPoint = battlePass.Points
     local now_lv = PlayerData:GetBattlePass().pass_level
     local now_point = PlayerData:GetBattlePass().points
     local a, b = ChangeStampPoint(now_lv, now_point, intervalPoint, points)
     PlayerData:GetBattlePass().points = a
     PlayerData:GetBattlePass().pass_level = b
-    if b > PlayerData:GetFactoryData(82500002).LevelLimit then
+    if b > battlePass.LevelLimit then
       PlayerData:GetBattlePass().points = intervalPoint
       PlayerData:GetBattlePass().pass_level = PlayerData:GetBattlePass().pass_level
     end
@@ -3419,7 +3442,7 @@ function PlayerData:GetCurStationStoreBuff(enum, enum2)
       local info = serverData[enum]
       if info and info.temp then
         for k, v in pairs(info.temp) do
-          if v.obtain == "food" then
+          if v.obtain == "food" or v.obtain == "battle" then
             if curTime >= v.deadline then
               serverData[enum].temp[k] = nil
               break
@@ -3464,7 +3487,7 @@ function PlayerData:SetStationStoreBuff(serverDrinkInfo, buffKey)
     end
   else
     for k, v in pairs(serverDrinkInfo.temp) do
-      if v.obtain == "food" then
+      if v.obtain == "food" or v.obtain == "battle" then
         local buffInfo = {}
         buffInfo.id = k
         buffInfo.endTime = v.deadline
@@ -3650,7 +3673,9 @@ function PlayerData:GetBattlePassRedState()
     row.count_3 = false
     local count_1_1 = table.count(PlayerData:GetBattlePass().point_reward)
     local now_lv = PlayerData:GetBattlePass().pass_level
-    local max_lv = PlayerData:GetFactoryData(82500002).LevelLimit
+    local initConfig = PlayerData:GetFactoryData(99900007, "ConfigFactory")
+    local battlePass = PlayerData:GetFactoryData(initConfig.BattlePassId, "BattlePassFactory")
+    local max_lv = battlePass.LevelLimit
     if count_1_1 < max_lv and 0 < count_1_1 then
       if count_1_1 < now_lv then
         row.count_1 = true
@@ -4108,7 +4133,7 @@ function PlayerData.GetMaxElectric()
   for i = 1, slotNum do
     curElectric = curElectric + electricConfig.buyElectricList[i].electric
   end
-  return math.floor(curElectric * (1 + PlayerData:GetHomeSkillIncrease(EnumDefine.HomeSkillEnum.RiseElectricLimited)) + 0.5)
+  return math.floor(curElectric * (1 + PlayerData:GetHomeSkillIncrease(EnumDefine.HomeSkillEnum.RiseElectricLimited)) + 0.5) + math.floor(PlayerData.GetFurSkillBuff(EnumDefine.HomeSkillEnum.RiseElectricMax))
 end
 
 function PlayerData.GetStationCurrentGoodsNum(stationId)
@@ -4402,22 +4427,6 @@ function PlayerData.ShowCMD(key)
     end
   end
   return false
-end
-
-function PlayerData.GetPetScores(uid)
-  local petScoresConfig = PlayerData:GetFactoryData(99900022).petScoresConfig
-  local petInfo = PlayerData:GetHomeInfo().pet[uid]
-  local scores = 0
-  if petInfo then
-    scores = PlayerData:GetFactoryData(petInfo.id).petBaseScore
-    for i, v in ipairs(petScoresConfig) do
-      if petInfo.lv < v.level then
-        break
-      end
-      scores = scores + v.scores
-    end
-  end
-  return scores
 end
 
 function PlayerData.GetMaxFuelNum()
@@ -4990,6 +4999,202 @@ function PlayerData:GetSignInfoRedState()
     end
   end
   return false
+end
+
+function PlayerData.GetFurSkillBuff(skillName)
+  local addNum = 0
+  if skillName == EnumDefine.HomeSkillEnum.RiseElectricMax then
+    local skillsData = PlayerData.ServerData.user_home_info.f_skills or {}
+    local data = skillsData[skillName] or {}
+    local skills = data.train or {}
+    for skillId, num in pairs(skills) do
+      local skillCA = PlayerData:GetFactoryData(skillId, "HomeFurnitureSkillFactory")
+      if skillCA.isOnly then
+        addNum = addNum + skillCA.param
+      else
+        addNum = addNum + skillCA.param * num
+      end
+    end
+  end
+  return addNum
+end
+
+function PlayerData.GetFurAllSkillBuff(furData, skillType)
+  if skillType == EnumDefine.EFurSkillRangeType.Furniture then
+    local furBuff = {}
+    local furCA = PlayerData:GetFactoryData(furData.id, "HomeFurnitureFactory")
+    if furCA.FurnitureSkillList then
+      for i, v in pairs(furCA.FurnitureSkillList) do
+        local skillCA = PlayerData:GetFactoryData(v.id, "HomeFurnitureSkillFactory")
+        if skillCA.SkillRange == "Furniture" then
+          local addNum = furBuff[skillCA.SkillType] or 0
+          addNum = addNum + skillCA.param
+          furBuff[skillCA.SkillType] = addNum
+        end
+      end
+    end
+    return furBuff
+  end
+  local skillsData = PlayerData.ServerData.user_home_info.f_skills or {}
+  if skillType == EnumDefine.EFurSkillRangeType.Carriage then
+    local carriageBuff = {}
+    for skillName, data in pairs(skillsData) do
+      local carriageSkillData = data[furData.u_cid]
+      if carriageSkillData then
+        for skillId, skillNum in pairs(carriageSkillData) do
+          if 0 < skillNum then
+            local skillCA = PlayerData:GetFactoryData(skillId, "HomeFurnitureSkillFactory")
+            local addNum = carriageBuff[skillName] or 0
+            if skillCA.isOnly then
+              addNum = addNum + skillCA.param
+            else
+              addNum = addNum + skillCA.param * skillNum
+            end
+            carriageBuff[skillName] = addNum
+          end
+        end
+      end
+    end
+    return carriageBuff
+  end
+  if skillType == EnumDefine.EFurSkillRangeType.Train then
+    local trainBuff = {}
+    for skillName, data in pairs(skillsData) do
+      local allCarriageSkillData = data.train
+      if allCarriageSkillData then
+        for skillId, skillNum in pairs(allCarriageSkillData) do
+          if 0 < skillNum then
+            local skillCA = PlayerData:GetFactoryData(skillId, "HomeFurnitureSkillFactory")
+            local addNum = trainBuff[skillName] or 0
+            if skillCA.isOnly then
+              addNum = addNum + skillCA.param
+            else
+              addNum = addNum + skillCA.param * skillNum
+            end
+            trainBuff[skillName] = addNum
+          end
+        end
+      end
+    end
+    return trainBuff
+  end
+  return {}
+end
+
+function PlayerData.GetFurFishScoresWithAllBuff(ufid)
+  local furData = PlayerData.ServerData.user_home_info.furniture[ufid]
+  if not furData then
+    return 0
+  end
+  local furCA = PlayerData:GetFactoryData(furData.id, "HomeFurnitureFactory")
+  local buffName = EnumDefine.HomeSkillEnum.AddFishScores
+  local furBuff = PlayerData.GetFurAllSkillBuff(furData, EnumDefine.EFurSkillRangeType.Furniture)
+  local furBuffAdd = furBuff[buffName] or 0
+  local carriageBuff = PlayerData.GetFurAllSkillBuff(furData, EnumDefine.EFurSkillRangeType.Carriage)
+  local carriageBuffAdd = carriageBuff[buffName] or 0
+  local trainBuff = PlayerData.GetFurAllSkillBuff(furData, EnumDefine.EFurSkillRangeType.Train)
+  local trainBuffAdd = trainBuff[buffName] or 0
+  local homeBuffAdd = PlayerData:GetHomeSkillIncrease(buffName)
+  local furFishScores = furCA.fishScores * (1 + carriageBuffAdd + trainBuffAdd + homeBuffAdd)
+  local creatureFishScores = 0
+  if furData.water and furData.water.fishes then
+    for k, v in pairs(furData.water.fishes) do
+      local ca = PlayerData:GetFactoryData(k)
+      local fishScores = ca.fishScores * (1 + furBuffAdd + carriageBuffAdd + trainBuffAdd + homeBuffAdd)
+      creatureFishScores = creatureFishScores + fishScores * v
+    end
+  end
+  local str = ClearFollowZero(furFishScores + creatureFishScores)
+  return tonumber(str) or 0
+end
+
+function PlayerData.GetFurPetScoreWithAllBuff(ufid)
+  local furData = PlayerData.ServerData.user_home_info.furniture[ufid]
+  if not furData then
+    return 0
+  end
+  local PetInfoData = require("UIPetInfo/UIPetInfoDataModel")
+  local furCA = PlayerData:GetFactoryData(furData.id, "HomeFurnitureFactory")
+  local buffName = EnumDefine.HomeSkillEnum.AddPetScores
+  local carriageBuff = PlayerData.GetFurAllSkillBuff(furData, EnumDefine.EFurSkillRangeType.Carriage)
+  local carriageBuffAdd = carriageBuff[buffName] or 0
+  local trainBuff = PlayerData.GetFurAllSkillBuff(furData, EnumDefine.EFurSkillRangeType.Train)
+  local trainBuffAdd = trainBuff[buffName] or 0
+  local homeBuffAdd = PlayerData:GetHomeSkillIncrease(buffName)
+  local furPetScores = furCA.petScores * (1 + carriageBuffAdd + trainBuffAdd + homeBuffAdd)
+  local creaturePetScores = 0
+  if furData.house and furData.house.pets then
+    for k, v in pairs(furData.house.pets) do
+      local petInfo = PlayerData:GetHomeInfo().pet[v]
+      if petInfo then
+        creaturePetScores = creaturePetScores + PetInfoData.CalPetScores(petInfo)
+      end
+    end
+  end
+  local str = ClearFollowZero(furPetScores + creaturePetScores)
+  return tonumber(str) or 0
+end
+
+function PlayerData.RefreshFurSkillData(furData, remove)
+  PlayerData.ServerData.user_home_info.f_skills = PlayerData.ServerData.user_home_info.f_skills or {}
+  local skillData = PlayerData.ServerData.user_home_info.f_skills
+  local furCA = PlayerData:GetFactoryData(furData.id, "HomeFurnitureFactory")
+  if furCA.FurnitureSkillList then
+    for i, v in pairs(furCA.FurnitureSkillList) do
+      local skillCA = PlayerData:GetFactoryData(v.id, "HomeFurnitureSkillFactory")
+      skillData[skillCA.SkillType] = skillData[skillCA.SkillType] or {}
+      local data
+      if skillCA.SkillRange == EnumDefine.EFurSkillRangeType.Train then
+        skillData[skillCA.SkillType].train = skillData[skillCA.SkillType].train or {}
+        data = skillData[skillCA.SkillType].train
+      elseif skillCA.SkillRange == EnumDefine.EFurSkillRangeType.Carriage then
+        skillData[skillCA.SkillType][furData.u_cid] = skillData[skillCA.SkillType][furData.u_cid] or {}
+        data = skillData[skillCA.SkillType][furData.u_cid]
+      end
+      if data then
+        if skillCA.isOnly then
+          if remove then
+            data[tostring(v.id)] = 0
+          else
+            data[tostring(v.id)] = 1
+          end
+        elseif remove then
+          local skillNum = data[tostring(v.id)] or 0
+          if 0 < skillNum then
+            data[tostring(v.id)] = skillNum - 1
+          end
+        else
+          local skillNum = data[tostring(v.id)] or 0
+          data[tostring(v.id)] = skillNum + 1
+        end
+      end
+    end
+  end
+end
+
+function PlayerData:GetRolePetProperty(roleId)
+  local pet = PlayerData:GetRoleById(roleId).u_pet
+  local petAtk = 0
+  local petDef = 0
+  local petHP = 0
+  if pet ~= nil and pet ~= "" then
+    local petInfo = PlayerData:GetHomeInfo().pet[pet]
+    if petInfo and petInfo.role_id ~= "" then
+      for i = 1, #petInfo.buff_list do
+        local buffCA = PlayerData:GetFactoryData(petInfo.buff_list[i])
+        if buffCA ~= nil then
+          petAtk = petAtk + buffCA.atkNum
+          petDef = petDef + buffCA.defNum
+          petHP = petHP + buffCA.hpNum
+        end
+      end
+    end
+  end
+  return {
+    atk = petAtk,
+    def = petDef,
+    hp = petHP
+  }
 end
 
 return PlayerData

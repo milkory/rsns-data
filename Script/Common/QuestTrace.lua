@@ -775,10 +775,11 @@ function module.ClearQuestTraceInfo()
 end
 
 function module.AddRedNodeData(questId)
-  local questCA = PlayerData:GetFactoryData(questId)
-  if questCA.parentQuest and questCA.parentQuest > 0 then
+  questId = tonumber(questId)
+  if not QuestProcess.CheckQuestShow(questId) then
     return false
   end
+  local questCA = PlayerData:GetFactoryData(questId)
   local redNodeName
   if questCA.questType == "Main" then
     redNodeName = RedpointTree.NodeNames.QuestMain

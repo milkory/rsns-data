@@ -408,7 +408,7 @@ RegProperty("ExtractFactory", {
   {
     mod = "抽角色配置",
     name = "name",
-    type = "String",
+    type = "StringT",
     des = "卡池名",
     arg0 = "",
     pyIgnore = true
@@ -441,7 +441,7 @@ RegProperty("ExtractFactory", {
   {
     mod = "抽角色配置",
     name = "tabName",
-    type = "String",
+    type = "StringT",
     des = "页签名",
     arg0 = "",
     pyIgnore = true

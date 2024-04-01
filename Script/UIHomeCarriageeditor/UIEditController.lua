@@ -362,6 +362,7 @@ function Controller:SaveEdit(cb)
     for k, v in pairs(DataModel.coachInfo) do
       table.insert(t, v.uid)
     end
+    Controller.RefreshFurSkillData(t)
     PlayerData:GetHomeInfo().coach_template = t
     DataModel.UsePreset()
     Controller:RefreshSaveEditShow(false)
@@ -372,6 +373,45 @@ function Controller:SaveEdit(cb)
     end
     CommonTips.OpenTips(80601801)
   end, DataModel.curPresetIdx - 1, str)
+end
+
+function Controller.RefreshFurSkillData(newCoaches)
+  local addCoach = {}
+  for _, v in pairs(newCoaches) do
+    local find = false
+    for _, v1 in pairs(PlayerData:GetHomeInfo().coach_template) do
+      if v1 == v then
+        find = true
+        break
+      end
+    end
+    if not find then
+      addCoach[v] = v
+    end
+  end
+  for i, v in pairs(PlayerData:GetFurniture()) do
+    if addCoach[v.u_cid] then
+      PlayerData.RefreshFurSkillData(v)
+    end
+  end
+  local removeCoach = {}
+  for _, v in pairs(PlayerData:GetHomeInfo().coach_template) do
+    local find = false
+    for _, v1 in pairs(newCoaches) do
+      if v1 == v then
+        find = true
+        break
+      end
+    end
+    if not find then
+      removeCoach[v] = v
+    end
+  end
+  for i, v in pairs(PlayerData:GetFurniture()) do
+    if removeCoach[v.u_cid] then
+      PlayerData.RefreshFurSkillData(v, true)
+    end
+  end
 end
 
 function Controller:BeginDrag(isCoachBag, idx)
@@ -669,6 +709,15 @@ function Controller:ClickBuildCoach(isBuilding)
 end
 
 function Controller:ConfirmGetCoach()
+  local maxCoachSpace = PlayerData:GetHomeInfo().max_coach_space
+  local curSpace = 0
+  for k, v in pairs(DataModel.coachBagInfo) do
+    curSpace = curSpace + #v
+  end
+  if maxCoachSpace <= curSpace then
+    CommonTips.OpenTips(80601270)
+    return
+  end
   Net:SendProto("home.get_coach", function(json)
     json.reward.furniture = nil
     PlayerData:GetHomeInfo().building = {}

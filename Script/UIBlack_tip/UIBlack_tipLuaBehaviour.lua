@@ -11,7 +11,7 @@ local Luabehaviour = {
     local hour = dt.hour < 10 and "0" .. dt.hour or dt.hour
     local min = 10 > dt.min and "0" .. dt.min or dt.min
     View.Txt_Time:SetText(hour .. ":" .. min)
-    local name = PlayerData:GetFactoryData(PlayerData:GetHomeInfo().station_info.stop_info[1]).name
+    local name = PlayerData:GetFactoryData(PlayerData:GetHomeInfo().station_info.sid).name
     View.Txt_city:SetText(name)
   end,
   awake = function()

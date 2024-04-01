@@ -6102,6 +6102,13 @@ RegProperty("ConfigFactory", {
     pyIgnore = true
   },
   {
+    name = "playerLevel",
+    type = "Int",
+    des = "解锁列车长等级",
+    arg0 = "0",
+    pyIgnore = true
+  },
+  {
     name = "isShow",
     type = "Bool",
     des = "显示展示界面",
@@ -6965,6 +6972,33 @@ RegProperty("ConfigFactory", {
     type = "Int",
     des = "单位价格",
     arg0 = "10"
+  },
+  {
+    name = "dis",
+    type = "Double",
+    des = "单位距离",
+    arg0 = "100"
+  },
+  {name = "end", pyIgnore = true},
+  {
+    mod = "铁盟拖车",
+    name = "trailerMonthCardMax",
+    type = "Int",
+    des = "月卡每日最大",
+    arg0 = "4"
+  },
+  {
+    mod = "铁盟拖车",
+    name = "trailerMonthCardCost",
+    type = "Array",
+    des = "月卡额外拖车",
+    detail = "price#dis"
+  },
+  {
+    name = "price",
+    type = "Int",
+    des = "单位价格",
+    arg0 = "0"
   },
   {
     name = "dis",

@@ -22,7 +22,7 @@ function model.GobackFunction()
   if DataModel.GoBackUI ~= nil then
     UIManager:Open(DataModel.GoBackUI, DataModel.GoBackUIParam)
   else
-    UIManager:GoBack()
+    MapNeedleData.GoBack()
   end
   DataModel.GoBackUI = nil
   DataModel.GoBackUIParam = nil
@@ -31,7 +31,7 @@ end
 function model.GoHomeFunction()
   DataModel.GoBackUI = nil
   DataModel.GoBackUIParam = nil
-  UIManager:GoHome()
+  MapNeedleData.GoHome()
 end
 
 local tweenTime = 1

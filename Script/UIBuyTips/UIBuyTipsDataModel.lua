@@ -254,7 +254,7 @@ function DataModel:BuyCommodit()
     local callback = function(json)
       if moneyID == 11400100 then
         PlayerData:RefreshUseItems({
-          [moneyID] = math.ceil(DataModel.currentNum)
+          [moneyID] = math.ceil(DataModel.currentNum) * (moneyNum or 0)
         })
       else
         PlayerData:RefreshUseItems({

@@ -1427,5 +1427,16 @@
     "returnType": "int",
     "scriptPath": "GGScript/MainLine4-5",
     "scriptLabel": "main"
+  },
+  {
+    "id": 60000120,
+    "idCN": "正式版-地图支线/拉面店有店面版",
+    "mod": "执行LUA脚本",
+    "isInformalData": false,
+    "debug": true,
+    "memo": "请作者添加注释，否则影响维护稳定性",
+    "paramHelp": "",
+    "returnType": "int",
+    "script": "local MainController = require(\"UIMainUI/UIMainUIController\")\rMainController.ImmediatelyStop()\rMapNeedleData.OpenStore($param0)"
   }
 ]

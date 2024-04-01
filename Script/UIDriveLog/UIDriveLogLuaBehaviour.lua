@@ -63,11 +63,11 @@ local Luabehaviour = {
     local item3 = View.Group_TrainInfo.ScrollView_.Viewport.Content.Img_Bg3
     item3.Group_Left.Group_Comfortable.Txt_2:SetText(DataModel.comfortScore)
     item3.Group_Left.Group_Delicous.Txt_2:SetText(DataModel.foodScore)
-    item3.Group_Left.Group_Pet.Txt_2:SetText(DataModel.petScore)
+    item3.Group_Left.Group_Pet.Txt_2:SetText(ClearFollowZero(DataModel.petScore))
     item3.Group_Left.Group_Plant.Txt_2:SetText(DataModel.plantScore)
     item3.Group_Right.Group_Clean.Txt_2:SetText(DataModel.clearScore)
     item3.Group_Right.Group_Happiness.Txt_2:SetText(DataModel.entScore)
-    item3.Group_Right.Group_Fish.Txt_2:SetText(DataModel.fishScore)
+    item3.Group_Right.Group_Fish.Txt_2:SetText(ClearFollowZero(DataModel.fishScore))
     item3.Group_Right.Group_Medical.Txt_2:SetText(DataModel.medicalScore)
     local item4 = View.Group_TrainInfo.ScrollView_.Viewport.Content.Img_Bg4
     item4.Group_CurrentLoad.Img_BarBot.Img_BarTop:SetFilledImgAmount(DataModel.nowGoodsNum / DataModel.totalGoods)

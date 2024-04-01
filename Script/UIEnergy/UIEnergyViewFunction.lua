@@ -64,6 +64,7 @@ local EnterExchangePanel = function()
   View.Group_Page2.Group_Tip:SetActive(not IsSimlator)
   View.Group_Page2.Group_Des.Txt_Des:SetText(exInfocontet)
   View.Group_Page2.Group_Des.Group_ItemEnergy.Img_Bottom:SetSprite(UIConfig.BottomConfig[quality])
+  View.Group_Page2.Group_Des.Group_ItemEnergy.Img_Mask:SetSprite(UIConfig.MaskConfig[quality])
   View.Group_Page2.Group_Des.Group_ItemEnergy.Img_Item:SetSprite(iconPath)
   local sliderValue = 1
   if DataModel.maxNum == 1 then

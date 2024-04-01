@@ -200,6 +200,14 @@ RegProperty("FoodFactory", {
   },
   {name = "end"},
   {
+    name = "battleBuffImagePath",
+    type = "Png",
+    des = "战斗buff类型",
+    arg0 = "",
+    arg1 = "130|130",
+    pyIgnore = true
+  },
+  {
     mod = "炸鸡店套餐",
     name = "",
     type = "SysLine",

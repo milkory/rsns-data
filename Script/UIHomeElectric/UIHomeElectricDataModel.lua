@@ -47,7 +47,7 @@ end
 function DataModel.GetTotalElectric()
   local electricConfig = PlayerData:GetFactoryData(99900023, "ConfigFactory")
   local curElectric = electricConfig.electricList[DataModel.curLv].electric
-  return math.floor((curElectric + DataModel.GetSlotElectric()) * (1 + PlayerData:GetHomeSkillIncrease(EnumDefine.HomeSkillEnum.RiseElectricLimited)))
+  return math.floor((curElectric + DataModel.GetSlotElectric()) * (1 + PlayerData:GetHomeSkillIncrease(EnumDefine.HomeSkillEnum.RiseElectricLimited))) + PlayerData.GetFurSkillBuff(EnumDefine.HomeSkillEnum.RiseElectricMax)
 end
 
 return DataModel

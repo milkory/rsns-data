@@ -6,19 +6,36 @@ local Luabehaviour = {
   end,
   deserialize = function(initParams)
     local distance = tonumber(initParams)
-    local max = PlayerData.GetMaxTrailerNum()
     local currRemainNum = PlayerData:GetHomeInfo().req_back_num
-    View.Group_Times.Txt_Times:SetText(currRemainNum)
-    local trailerCost = PlayerData:GetFactoryData(99900060, "ConfigFactory").trailerCost
-    local currIndex = max - currRemainNum + 1
-    if currIndex < 1 or currIndex > #trailerCost then
-      currIndex = 1
+    local currMonthRemainNum = PlayerData:GetHomeInfo().monthly_req_back_num
+    local currAllRemainNum = currRemainNum + currMonthRemainNum
+    View.Group_Times.Txt_Times:SetText(currAllRemainNum)
+    local unit
+    if 0 < currMonthRemainNum then
+      local max = PlayerData:GetFactoryData(99900060, "ConfigFactory").trailerMonthCardMax
+      local trailerMonthCardCost = PlayerData:GetFactoryData(99900060, "ConfigFactory").trailerMonthCardCost
+      local currIndex = max - currMonthRemainNum + 1
+      if currIndex < 1 or currIndex > #trailerMonthCardCost then
+        currIndex = 1
+      end
+      unit = trailerMonthCardCost[currIndex]
+    elseif 0 < currRemainNum then
+      local max = PlayerData.GetMaxTrailerNum()
+      local trailerCost = PlayerData:GetFactoryData(99900060, "ConfigFactory").trailerCost
+      local currIndex = max - currRemainNum + 1
+      if currIndex < 1 or currIndex > #trailerCost then
+        currIndex = 1
+      end
+      unit = trailerCost[currIndex]
     end
-    local unit = trailerCost[currIndex]
-    local cost = math.floor(distance / unit.dis * unit.price + 0.5)
-    View.Group_Price.Txt_Price:SetText(unit.price)
-    View.Group_Free.self:SetActive(cost == 0)
-    View.Group_Cost.Txt_Cost:SetText(cost)
+    if unit ~= nil then
+      local cost = math.floor(distance / unit.dis * unit.price + 0.5)
+      View.Group_Price.Txt_Price:SetText(unit.price)
+      View.Group_Free.self:SetActive(cost == 0)
+      View.Group_Cost.Txt_Cost:SetText(cost)
+    else
+      CommonTips.OpenTips(80602289)
+    end
   end,
   awake = function()
   end,

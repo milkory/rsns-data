@@ -99,7 +99,6 @@ function DataModel.InitHomeSkillData()
   DataModel.AddRiseRange = PlayerData:GetHomeSkillIncrease(EnumDefine.HomeSkillEnum.RiseRange)
   DataModel.GoodsBuyLimitUp = PlayerData:GetHomeSkillIncrease(EnumDefine.HomeSkillEnum.AddQty, DataModel.StationId)
   DataModel.TaxCuts = PlayerData:GetHomeSkillIncrease(EnumDefine.HomeSkillEnum.TaxCuts, DataModel.StationId)
-  DataModel.FirstBargainBuy = PlayerData:GetHomeSkillIncrease(EnumDefine.HomeSkillEnum.FirstBargain)
   DataModel.AllSpeGoodsBuyLimitUp = PlayerData:GetHomeSkillIncrease(EnumDefine.HomeSkillEnum.AddSpecQty, DataModel.StationId)
   DataModel.ActivityGoodsBuyLimitUp = PlayerData:GetActivityBuff(EnumDefine.HomeSkillEnum.AddQty, DataModel.StationId)
   if DataModel.ActivityGoodsBuyLimitUp == 0 then
@@ -109,7 +108,6 @@ function DataModel.InitHomeSkillData()
   if DataModel.ActivityTaxCuts == 0 then
     DataModel.ActivityTaxCuts = {}
   end
-  DataModel.FirstBargainSale = DataModel.FirstBargainBuy
   DataModel.AfterBargainFailBuy = 0
   DataModel.AfterBargainFailSale = 0
   DataModel.CalcDrinkBuffData()
@@ -567,9 +565,11 @@ function DataModel.ConfirmBargain(isSuccess, quota)
     if isBuy then
       DataModel.CurCityGoodsInfo.b_quota = quota
       DataModel.BargainSuccessRateIndex = DataModel.BargainSuccessRateIndex + 1
+      DataModel.AfterBargainFailBuy = 0
     else
       DataModel.CurCityGoodsInfo.r_quota = quota
       DataModel.RiseSuccessRateIndex = DataModel.RiseSuccessRateIndex + 1
+      DataModel.AfterBargainFailSale = 0
     end
   else
     local afterBargainFailParam = PlayerData:GetHomeSkillIncrease(EnumDefine.HomeSkillEnum.AfterBargainFail)

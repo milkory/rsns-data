@@ -32,3 +32,13 @@ function ReverseTable(tab)
   end
   return tmp
 end
+
+function ListContainsValue(list, value)
+  assert(list ~= nil and value ~= nil, "数据错误！")
+  for i, v in ipairs(list) do
+    if v == value then
+      return true
+    end
+  end
+  return false
+end

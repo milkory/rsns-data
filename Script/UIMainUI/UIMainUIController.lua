@@ -434,6 +434,30 @@ function Controller:RefreshEffect(receptionistData)
     View.Group_Common.Group_PosterGirl.SpineAnimation_CharacterEffect:SetLocalScale(Vector3(100, 100, 1))
     View.Group_Common.Group_PosterGirl.SpineAnimation_CharacterEffect:SetAction("effect_click", false, true)
   end
+  if not DataModel.showSpine2 then
+    local live2D = PlayerData:GetPlayerPrefs("int", DataModel.roleId .. "live2d")
+    local clickAnimationList = receptionistData.clickAnimationList
+    if live2D ~= 1 and clickAnimationList and table.count(clickAnimationList) > 0 then
+      local weightIndex = {}
+      local totalWeight = 0
+      for i, v in ipairs(clickAnimationList) do
+        totalWeight = totalWeight + v.weight
+        table.insert(weightIndex, v.weight)
+      end
+      local random_num = math.random() * totalWeight
+      local sum = 0
+      for i, weight in ipairs(weightIndex) do
+        sum = sum + weight
+        if random_num <= sum then
+          local randomAnim = clickAnimationList[i]
+          if randomAnim then
+            View.Group_Common.Group_PosterGirl.SpineAnimation_Character:SetAction(randomAnim.name, false, true)
+          end
+          break
+        end
+      end
+    end
+  end
 end
 
 function Controller:RefreshReceptionistData(roleId, showSpine2)
@@ -498,6 +522,8 @@ function Controller:RefreshReceptionistData(roleId, showSpine2)
     end
     View.Group_Common.Group_PosterGirl.Group_CharacterIMG.Img_Character:SetNativeSize()
   end
+  View.Group_Common.Group_PosterGirl.Btn_ChangeAnimation:SetActive(not isSpine2)
+  View.Group_Common.Group_PosterGirl.Btn_ChangeAnimation2:SetActive(isSpine2)
 end
 
 function Controller:ExitTo(uiName, param, callback)
@@ -900,6 +926,10 @@ function Controller.GoToNewCity(stationId, callback, isTrailer)
     end
     local drive = function()
       local getInTravel = TradeDataModel.GetInTravel()
+      local internal = CS.FRef.getProperty(TrainManager, "InternalTrainManager")
+      CS.FRef.setProperty(internal.EventCtrl.LevelCtrl, "_isEvent", false)
+      local tradeDataModel = require("UIHome/UIHomeTradeDataModel")
+      tradeDataModel.lastStopDistance = -1
       Net:SendProto(isTrailer and "station.req_back" or "station.drive", function(json)
         if isTrailer then
           PlayerData:GetHomeInfo().req_back_num = PlayerData:GetHomeInfo().req_back_num - 1
@@ -1281,6 +1311,18 @@ function Controller:RandomPlayRoleSound(forceSound)
       View.Group_Common.Img_DialogBox:SetActive(false)
       View.sound = nil
     end))
+    if DataModel.showSpine2 then
+      local unit = PlayerData:GetRoleById(DataModel.roleId)
+      local viewId = unit and unit.current_skin[1] or PlayerData:GetFactoryData(DataModel.roleId, "UnitFactory").viewId
+      local viewCA = PlayerData:GetFactoryData(viewId, "UnitViewFactory")
+      if viewCA.spine2X ~= 0 then
+        View.Group_Common.Img_DialogBox:SetAnchoredPositionX(-570 - viewCA.spine2X)
+      else
+        View.Group_Common.Img_DialogBox:SetAnchoredPositionX(-670)
+      end
+    else
+      View.Group_Common.Img_DialogBox:SetAnchoredPositionX(-670)
+    end
   end
 end
 
@@ -1494,7 +1536,10 @@ function Controller.FuncActive()
   funcTable[100] = function(active)
     View.Group_Common.Group_TopRight.Btn_Mission.self:SetActive(active)
     if active then
-      View.Group_Common.Group_TopRight.Btn_Mission.self:SetActive(TimeUtil:LastTime(PlayerData:GetFactoryData(82500002).PassEndTime) >= 0)
+      local initConfig = PlayerData:GetFactoryData(99900007, "ConfigFactory")
+      local battlePass = PlayerData:GetFactoryData(initConfig.BattlePassId, "BattlePassFactory")
+      print_r(battlePass, "battlePass.PassEndTime")
+      View.Group_Common.Group_TopRight.Btn_Mission.self:SetActive(TimeUtil:IsActive(battlePass.PassStartTime, battlePass.PassEndTime))
     end
   end
   funcTable[101] = function(active)
@@ -1831,13 +1876,15 @@ function Controller.Rush()
         View.Group_OutSide.Group_Running.Btn_Accelerate.Group_Ing.Group_RushBuyBtn:SetActive(false)
         View.Group_OutSide.Group_Running.Btn_Accelerate.Group_On:SetActive(false)
         View.Group_OutSide.Group_Running.Btn_Accelerate.Group_Off:SetActive(true)
-        DataModel.SetRushNumber()
-        DataModel.SetRushRemainTime()
-        Controller.SetRushState(true)
         local ca = PlayerData:GetFactoryData(99900054).trainCameraList
         local row = ca[PlayerData.FreeCameraIndex]
         local tempTime = TrainWeaponTag.GetWeaponTagAttributes(EnumDefine.TrainWeaponTagEnum.RiseRushUseTime)[2] or 0
-        TrainManager:Rush(TradeDataModel.Speed, TradeDataModel.Speed + PlayerData:GetHomeInfo().readiness.fuel.acc_speed, PlayerData:GetHomeInfo().readiness.fuel.acc_time + tempTime, row.isRushView, row.fieldView)
+        local totalTime = PlayerData:GetHomeInfo().readiness.fuel.acc_time + tempTime
+        DataModel.SetRushNumber()
+        DataModel.SetRushRemainTime(totalTime)
+        Controller.SetRushState(true)
+        DataModel.RushServerTime = totalTime + TimeUtil:GetServerTimeStamp()
+        TrainManager:Rush(TradeDataModel.Speed, TradeDataModel.Speed + PlayerData:GetHomeInfo().readiness.fuel.acc_speed, totalTime, row.isRushView, row.fieldView)
         Controller.ChangeDriveBtnState()
       end
       Net:SendProto("station.accelerate", function(json)
@@ -2586,6 +2633,7 @@ function Controller.BackFunction()
   local cfg = PlayerData:GetFactoryData(TradeDataModel.StartCity)
   CommonTips.OnPrompt(string.format(GetText(80601505), cfg.name), "80600068", "80600067", function()
     Net:SendProto("station.arrive", function(json)
+      DataModel.justArrived = true
       TradeDataModel.EndCity = TradeDataModel.StartCity
       PlayerData.FreeCameraIndex = 1
       PlayerData:GetHomeInfo().station_info = json.station_info
@@ -2618,6 +2666,15 @@ function Controller.BackFunction()
       MapNeedleData.ResetData()
     end, TradeDataModel.StartCity, 2)
   end, nil)
+end
+
+function Controller.StopPosterGirlAudioSource()
+  View.timer:Pause()
+  if View.sound and View.sound.audioSource then
+    View.sound:Stop()
+    View.Group_Common.Img_DialogBox:SetActive(false)
+    DataModel.soundEndTime = 0
+  end
 end
 
 return Controller

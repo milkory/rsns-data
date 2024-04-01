@@ -151,7 +151,7 @@ function module.CheckQuestPreQuestComplete(questId)
     if questCA == nil then
       return false
     end
-    if questCA.preQuestId and 0 < questCA.preQuestId then
+    if (questCA.questType == "Main" or questCA.questType == "Side") and questCA.preQuestId and 0 < questCA.preQuestId then
       local strPreId = tostring(questCA.preQuestId)
       local mainQuest = PlayerData.ServerData.quests.mq_quests
       local preQuestInfo = mainQuest[strPreId]
@@ -190,13 +190,13 @@ end
 function module.CheckTime(activityId, startTime, endTime)
   local innerCheckTime = function(innerStartTime, innerEndTime)
     local curTime = TimeUtil:GetServerTimeStamp()
-    if innerStartTime ~= "" then
+    if innerStartTime ~= nil and innerStartTime ~= "" then
       local startTimeStamp = TimeUtil:TimeStamp(innerStartTime)
       if curTime < startTimeStamp then
         return false
       end
     end
-    if innerEndTime == "" then
+    if innerEndTime == nil or innerEndTime == "" then
       return true
     else
       local endTimeStamp = TimeUtil:TimeStamp(innerEndTime)
@@ -237,6 +237,20 @@ function module.CheckTalkDo(eventList, parentView, buildingId, returnDo)
     return true
   end
   return false
+end
+
+function module.CheckQuestShow(id)
+  local questCA = PlayerData:GetFactoryData(id, "QuestFactory")
+  if questCA.parentQuest and questCA.parentQuest > 0 then
+    return false
+  end
+  if not QuestProcess.CheckQuestTime(id) then
+    return false
+  end
+  if not QuestProcess.CheckQuestPreQuestComplete(id) then
+    return false
+  end
+  return true
 end
 
 function module.Clear()

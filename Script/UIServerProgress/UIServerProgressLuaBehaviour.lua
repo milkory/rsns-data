@@ -6,10 +6,8 @@ local Luabehaviour = {
   serialize = function()
   end,
   deserialize = function(initParams)
-    Net:SendProto("quest.list", function(Json)
-      DataModel.InitData()
-      Controller.RefreshServerStage()
-    end, 6)
+    DataModel.InitData()
+    Controller.RefreshServerStage()
   end,
   awake = function()
   end,

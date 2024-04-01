@@ -1413,8 +1413,6 @@ local ViewFunction = {
       end)
     end
   end,
-  Squads_Group_ProvingGround_Group_Challenge_Group_Reward_Btn_Item_Click = function(btn, str)
-  end,
   Squads_Group_ProvingGround_Group_Challenge_Group_Reward_StaticGrid_Reward_SetGrid = function(element, elementIndex)
     local info = DataModel.ChallengeInfo[DataModel.curShowIdx]
     local reward = info.firstPassAward[elementIndex]
@@ -1720,6 +1718,14 @@ local ViewFunction = {
   end,
   Squads_Group_CardYard_Group_CardDesCharacter_Btn_Close_Click = function(btn, str)
     DataModel.CloseCardDes()
+  end,
+  Squads_Group_CardYard_Open_Btn_BattleBuff_Click = function(btn, str)
+    View.Group_BuffTips.self:SetActive(true)
+  end,
+  Squads_Group_BuffTips_Btn__Click = function(btn, str)
+    View.Group_BuffTips.self:SetActive(false)
+  end,
+  Squads_Group_ProvingGround_Group_Challenge_Group_Reward_Btn_Item_Click = function(btn, str)
   end,
   Squads_Group_CardYard_CardDesCharacter_Btn_Close_Click = function(btn, str)
   end,

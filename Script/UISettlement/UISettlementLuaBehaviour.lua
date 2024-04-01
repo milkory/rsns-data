@@ -473,7 +473,7 @@ local RefreshBattleVictoryResultPage = function()
     local endExp = PlayerData:GetMaxExp()
     victory_left.Group_Core.Group_Record.Img_EXPPB:SetFilledImgAmount(PlayerData:GetUserInfo().exp / endExp)
     victory_left.Group_Core.Group_Record.Txt_Num:SetText(string.format(GetText(coreCA.settlementNum), new_coreNum))
-    victory_left.Group_Core.Group_Record.Txt_Num.Img_New:SetActive(old_coreLv < new_coreNum)
+    victory_left.Group_Core.Group_Record.Txt_Num.Img_New:SetActive(old_coreNum < new_coreNum)
     victory_left.Group_Core.Group_Record.Txt_Time:SetText(os.date("%Y-%m-%d %H:%M", TimeUtil:GetServerTimeStamp()))
     victory_left.Group_Core.Group_Record.Group_LV.Txt_Num:SetText(PlayerData:GetPlayerLevel())
   end

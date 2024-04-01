@@ -386,7 +386,7 @@ end
 
 function Controller:ConfirmBuy()
   local completeCb = function(info)
-    MainController:ReturnToMain()
+    Controller:ReturnToMain()
     MainController:ShowNPCTalk(MainDataModel.NPCDialogEnum.buySuccessText)
     Controller:ShowSettlement(info, DataModel.TradeType.Buy)
   end
@@ -604,7 +604,7 @@ end
 function Controller:ConfirmSale()
   local completeCb = function()
     Controller:RefreshTradeLv()
-    MainController:ReturnToMain()
+    Controller:ReturnToMain()
     MainController:ShowNPCTalk(MainDataModel.NPCDialogEnum.sellSuccessText)
   end
   local priceWaveCb = function()
@@ -831,9 +831,13 @@ function Controller:ShowBargainOrRiseTips(type)
   local tradeExpConfig = PlayerData:GetFactoryData(99900016, "ConfigFactory")
   local tradeLv = PlayerData.ServerData.user_home_info.trade_lv or 1
   local tradeInfo = tradeExpConfig.expList[tradeLv]
+  local firstBargain = 0
   if showBuy then
+    if DataModel.CurCityGoodsInfo.b_num == 0 then
+      firstBargain = PlayerData:GetHomeSkillIncrease(EnumDefine.HomeSkillEnum.FirstBargain)
+    end
     totalRange = tradeConfig.bargainMax
-    successRate = successRate + DataModel.AddBargainSuccessRate + DataModel.FirstBargainBuy + DataModel.AfterBargainFailBuy
+    successRate = successRate + DataModel.AddBargainSuccessRate + firstBargain + DataModel.AfterBargainFailBuy
     onceRange = tradeInfo.bargainRange + DataModel.AddBargainRange
     local rateInfo = tradeConfig.bargainSuccessRateList[DataModel.BargainSuccessRateIndex]
     successRate = successRate + rateInfo.rate
@@ -846,8 +850,11 @@ function Controller:ShowBargainOrRiseTips(type)
     txt2 = 80600592
     txt3 = 80600593
     txt4 = 80600594
+    if DataModel.CurCityGoodsInfo.r_num == 0 then
+      firstBargain = PlayerData:GetHomeSkillIncrease(EnumDefine.HomeSkillEnum.FirstBargain)
+    end
     totalRange = tradeConfig.riseMax
-    successRate = successRate + DataModel.AddRiseSuccessRate + DataModel.FirstBargainSale + DataModel.AfterBargainFailSale
+    successRate = successRate + DataModel.AddRiseSuccessRate + firstBargain + DataModel.AfterBargainFailSale
     onceRange = tradeInfo.riseRange + DataModel.AddRiseRange
     local rateInfo = tradeConfig.riseSuccessRateList[DataModel.RiseSuccessRateIndex]
     successRate = successRate + rateInfo.rate
@@ -1023,6 +1030,53 @@ function Controller:ShowBargainBuffTip(isShow)
   end
   if View.Group_Trade ~= nil and View.Group_Trade.Group_NpcInfoL ~= nil then
     View.Group_Trade.Group_NpcInfoL.Group_Buff.Btn_Bargain:SetActive(isShow)
+  end
+end
+
+function Controller:OutTradePreCheck(cb)
+  if MainDataModel.IsTradeOpen then
+    local isQuota = DataModel.CurCityGoodsInfo.b_quota ~= 0 or DataModel.CurCityGoodsInfo.r_quota ~= 0
+    local textId
+    if DataModel.BargainBuff ~= nil then
+      if isQuota then
+        textId = 80602318
+      else
+        textId = 80602317
+      end
+    elseif isQuota then
+      textId = 80600682
+    end
+    if textId then
+      CommonTips.OnPrompt(textId, nil, nil, function()
+        cb()
+      end, nil, nil, nil, nil, {showDanger = true})
+      return true
+    end
+  end
+  return false
+end
+
+function Controller:ReturnToMain(isShowPrompt)
+  local cb = function()
+    View.Group_Trade.self:SetActive(false)
+    View.Group_Main.self:SetActive(true)
+    DataModel.CurTradeType = 0
+    DataModel.BargainBuff = nil
+    MainDataModel.IsTradeOpen = false
+    Controller:ShowQuestInfoChild(false)
+    View.self:PlayAnim("Main")
+  end
+  if isShowPrompt and Controller:OutTradePreCheck(cb) then
+    return
+  end
+  cb()
+end
+
+function Controller:GoHome()
+  if not Controller:OutTradePreCheck(function()
+    UIManager:GoHome()
+  end) then
+    UIManager:GoHome()
   end
 end
 

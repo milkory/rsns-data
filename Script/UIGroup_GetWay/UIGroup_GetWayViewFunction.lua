@@ -44,9 +44,13 @@ local ViewFunction = {
         end)
         return
       end
-      if UIpath == "UI/BP_Quest/BattlePass_Quest" and TimeUtil:LastTime(PlayerData:GetFactoryData(82500002).PassEndTime) < 0 then
-        CommonTips.OpenTips(80602313)
-        return
+      if UIpath == "UI/BP_Quest/BattlePass_Quest" then
+        local initConfig = PlayerData:GetFactoryData(99900007, "ConfigFactory")
+        local battlePass = PlayerData:GetFactoryData(initConfig.BattlePassId, "BattlePassFactory")
+        if TimeUtil:LastTime(battlePass.PassEndTime) < 0 then
+          CommonTips.OpenTips(80602313)
+          return
+        end
       end
       UIManager:Open(UIpath)
     end

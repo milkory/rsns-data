@@ -209,7 +209,14 @@ function DataModel.RefreshFurRoleData(roleId)
 end
 
 function DataModel.InitEmergency()
-  for ufid, furnitureInfo in pairs(DataModel.emergencyFurData) do
+  local emergencyFurData = {}
+  for k, v in pairs(PlayerData:GetHomeInfo().furniture) do
+    local furCA = PlayerData:GetFactoryData(v.id, "HomeFurnitureFactory")
+    if furCA.functionType == 12600296 and v.roles then
+      emergencyFurData[k] = v
+    end
+  end
+  for ufid, furnitureInfo in pairs(emergencyFurData) do
     for index, roleId in ipairs(furnitureInfo.roles) do
       if roleId ~= "" then
         local unitCA = PlayerData:GetFactoryData(roleId, "UnitFactory")

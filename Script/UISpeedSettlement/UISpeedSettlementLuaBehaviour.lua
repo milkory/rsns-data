@@ -7,16 +7,12 @@ local Luabehaviour = {
   deserialize = function(initParams)
     local params = Json.decode(initParams)
     DataModel.bgmId = params.bgmId
-    local buff
-    local mealCA = PlayerData:GetFactoryData(params.mealId)
-    if #mealCA.speed > 0 then
-      buff = PlayerData:GetCurStationStoreBuff(PlayerData.GetCurTrainBuffType())
-    else
-      buff = PlayerData:GetCurStationStoreBuff(EnumDefine.HomeSkillEnum.HomeBattleBuff)
-    end
+    DataModel.hasSpeed = params.hasSpeed
+    DataModel.hasBattle = params.hasBattle
+    DataModel.mealId = params.mealId
+    local buff = PlayerData:GetCurStationStoreBuff(PlayerData.GetCurTrainBuffType())
     local buffCA = PlayerData:GetFactoryData(buff.id, "HomeBuffFactory")
-    local desc
-    desc = buffCA.desc
+    local desc = buffCA.desc
     if buffCA.buffType ~= EnumDefine.HomeSkillEnum.HomeBattleBuff and buff.param ~= nil then
       desc = string.format(desc, math.floor(buff.param * 100))
     end

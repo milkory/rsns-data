@@ -928,16 +928,6 @@ local ViewFunction = {
       }
     }
     local tRoleDataList = UISquadDataController:GetRoleDataList(idList)
-    tRoleDataList[1].e1s1Id = -1
-    tRoleDataList[1].e1s2Id = -1
-    tRoleDataList[1].e1s3Id = -1
-    tRoleDataList[1].e1s4Id = -1
-    tRoleDataList[1].e2s1Id = -1
-    tRoleDataList[1].e2s2Id = -1
-    tRoleDataList[1].e2s3Id = -1
-    tRoleDataList[1].e2s4Id = -1
-    tRoleDataList[1].equip1Id = -1
-    tRoleDataList[1].equip2Id = -1
     StartBattle:StartBattleTest(PlayerData:GetFactoryData(99900001, "ConfigFactory").testLevelId, tRoleDataList)
   end,
   CharacterInfo_Group_TabInfo_Btn_Trust_Click = function(btn, str)

@@ -19,15 +19,15 @@ function Controller:Init(index)
   DataModel.ClosePageList = {}
   DataModel.LeftList = {}
   for k, v in pairs(ActivityCA) do
+    local activeCA = PlayerData:GetFactoryData(v.id, "ActivityFactory")
     if TimeUtil:IsActive(v.startTime, v.endTime) then
-      local activeCA = PlayerData:GetFactoryData(v.id)
       local tagCA = PlayerData:GetFactoryData(v.tag)
       local row = v
       row.tagCA = tagCA
       row.activeCA = activeCA
       table.insert(DataModel.LeftList, row)
-      table.insert(DataModel.ClosePageList, activeCA.showUI)
     end
+    table.insert(DataModel.ClosePageList, activeCA.showUI)
   end
   View.Group_List.ScrollGrid_List.grid.self:SetDataCount(table.count(DataModel.LeftList))
   View.Group_List.ScrollGrid_List.grid.self:RefreshAllElement()
@@ -257,7 +257,7 @@ function Controller:RefreshPlot()
   DataModel.Plot2NowQuestId = nil
   local Group_Plot = View.Group_BlackTea.Group_Join.Group_Plot
   Group_Plot.self:SetActive(true)
-  if TimeUtil:IsActive(DataModel.LeftActivityCA.startTime, DataModel.LeftActivityCA.endTime) then
+  if TimeUtil:IsActive(DataModel.ActivityCA.startTime, DataModel.ActivityCA.endTime) then
     Group_Plot.Group_Finish.self:SetActive(false)
     local sequenceList = DataModel.ActivityCA.sequenceList
     Group_Plot.Group_Plot1.self:SetActive(sequenceList[1])
@@ -286,7 +286,7 @@ function Controller:RefreshPlot()
                   DataModel.Plot1Type = DataModel.PlotType.Quest
                   break
                 end
-                if PlayerData.GetQuestState(v.id) == EnumDefine.EQuestState.Finish then
+                if Controller:QuestIsFinish(v.id) then
                   finishCount = finishCount + 1
                 end
               end
@@ -331,7 +331,7 @@ function Controller:RefreshPlot()
                   DataModel.Plot2Type = DataModel.PlotType.Quest
                   break
                 end
-                if PlayerData.GetQuestState(v.id) == EnumDefine.EQuestState.Finish then
+                if Controller:QuestIsFinish(v.id) then
                   finishCount = finishCount + 1
                 end
               end
@@ -389,7 +389,7 @@ function Controller:RefreshQuest()
 end
 
 function Controller:RefreshBuff()
-  if TimeUtil:IsActive(DataModel.LeftActivityCA.startTime, DataModel.LeftActivityCA.endTime) == false then
+  if TimeUtil:IsActive(DataModel.ActivityCA.startTime, DataModel.ActivityCA.endTime) == false then
     return
   end
   local StageInfo = ServerProgressDataModel.GetCurStageInfo()
@@ -454,43 +454,43 @@ function Controller:Open_Group_BlackTea(row)
   Group_BlackTea.Group_NotJoin.Group_Add.Group_Finish.self:SetActive(false)
   Group_BlackTea.Group_NotJoin.Group_Preview.self:SetActive(false)
   if row.activeCA.isTime == true then
+    Group_BlackTea.Group_NotJoin.self:SetActive(true)
+    Group_BlackTea.Group_NotJoin.Group_Add.self:SetActive(true)
+    if row.activeCA.rewardPreviewList and table.count(row.activeCA.rewardPreviewList) > 0 then
+      DataModel.NotJoinReward = {}
+      for k, v in pairs(row.activeCA.rewardPreviewList) do
+        table.insert(DataModel.NotJoinReward, v)
+      end
+      Group_BlackTea.Group_NotJoin.Group_Preview.self:SetActive(true)
+      Group_BlackTea.Group_NotJoin.Group_Preview.ScrollGrid_Reward.grid.self:SetDataCount(table.count(row.activeCA.rewardPreviewList))
+      Group_BlackTea.Group_NotJoin.Group_Preview.ScrollGrid_Reward.grid.self:RefreshAllElement()
+    end
+    local timeStart = TimeUtil:GetTimeTable(row.activeCA.startTime)
+    local timeEnd = TimeUtil:GetTimeTable(row.activeCA.endTime)
+    local a_1 = timeStart.year .. "/" .. timeStart.month .. "/" .. timeStart.day
+    local b_1 = timeStart.hour .. ":" .. timeStart.minute
+    local a_2 = timeEnd.year .. "/" .. timeEnd.month .. "/" .. timeEnd.day
+    local b_2 = timeEnd.hour .. ":" .. timeEnd.minute
+    local str = string.format(GetText(80602405), a_1, b_1, a_2, b_2)
+    View.Group_BlackTea.Group_Time.Txt_EndTime:SetText(str)
+    Group_BlackTea.Group_Time.self:SetActive(true)
+    local isAdd = PlayerData:GetActivityAct(row.id)
     if TimeUtil:IsActive(row.activeCA.startTime, row.activeCA.endTime) then
-      Group_BlackTea.Group_Time.self:SetActive(true)
-      local timeStart = TimeUtil:GetTimeTable(row.activeCA.startTime)
-      local timeEnd = TimeUtil:GetTimeTable(row.activeCA.endTime)
-      local a_1 = timeStart.year .. "/" .. timeStart.month .. "/" .. timeStart.day
-      local b_1 = timeStart.hour .. ":" .. timeStart.minute
-      local a_2 = timeEnd.year .. "/" .. timeEnd.month .. "/" .. timeEnd.day
-      local b_2 = timeEnd.hour .. ":" .. timeEnd.minute
-      local str = string.format(GetText(80602405), a_1, b_1, a_2, b_2)
-      View.Group_BlackTea.Group_Time.Txt_EndTime:SetText(str)
-      Group_BlackTea.Group_NotJoin.self:SetActive(true)
       local lastTime = TimeUtil:LastTime(row.activeCA.endTime)
       local time = TimeUtil:SecondToTable(lastTime)
-      local isAdd = PlayerData:GetActivityAct(row.id)
       if isAdd == false then
-        Group_BlackTea.Group_NotJoin.Group_Add.self:SetActive(true)
-        if row.activeCA.rewardPreviewList and table.count(row.activeCA.rewardPreviewList) > 0 then
-          DataModel.NotJoinReward = {}
-          for k, v in pairs(row.activeCA.rewardPreviewList) do
-            table.insert(DataModel.NotJoinReward, v)
-          end
-          Group_BlackTea.Group_NotJoin.Group_Preview.self:SetActive(true)
-          Group_BlackTea.Group_NotJoin.Group_Preview.ScrollGrid_Reward.grid.self:SetDataCount(table.count(row.activeCA.rewardPreviewList))
-          Group_BlackTea.Group_NotJoin.Group_Preview.ScrollGrid_Reward.grid.self:RefreshAllElement()
-        end
         if row.activeCA.questId ~= -1 and Controller:QuestIsFinish(row.activeCA.questId) == false then
           DataModel.BlackTeaType = DataModel.BlackTeaTypeList.Lock
           Group_BlackTea.Group_NotJoin.Group_Add.Group_Quest.self:SetActive(true)
           local questCA = PlayerData:GetFactoryData(row.activeCA.questId)
           Group_BlackTea.Group_NotJoin.Group_Add.Group_Quest.Txt_Quest:SetText(string.format(GetText(80602424), questCA.name))
-          if time.day > 0 then
+          if 0 < time.day then
             Group_BlackTea.Group_NotJoin.Group_Add.Group_Quest.Txt_Time:SetText(string.format(GetText(80602586), time.day))
           end
           return
         end
         Group_BlackTea.Group_NotJoin.Group_Add.Group_Can.self:SetActive(true)
-        if time.day > 0 then
+        if 0 < time.day then
           Group_BlackTea.Group_NotJoin.Group_Add.Group_Can.Txt_Time:SetText(string.format(GetText(80602586), time.day))
         end
         DataModel.BlackTeaType = DataModel.BlackTeaTypeList.NotEnabled
@@ -500,10 +500,19 @@ function Controller:Open_Group_BlackTea(row)
     else
       Group_BlackTea.Group_NotJoin.self:SetActive(true)
       if TimeUtil:IsActive(row.startTime, row.endTime) then
-        Group_BlackTea.Group_NotJoin.Group_Add.Group_Finish.self:SetActive(true)
-        local lastTime = TimeUtil:LastTime(row.endTime)
-        local time = TimeUtil:SecondToTable(lastTime)
-        Group_BlackTea.Group_NotJoin.Group_Add.Group_Finish.Txt_Time:SetText(TimeUtil:GetCommonDesc(time))
+        if isAdd == false then
+          Group_BlackTea.Group_NotJoin.Group_Add.Group_Finish.self:SetActive(true)
+          local lastTime = TimeUtil:LastTime(row.endTime)
+          local time = TimeUtil:SecondToTable(lastTime)
+          if 0 < time.day then
+            Group_BlackTea.Group_NotJoin.Group_Add.Group_Finish.Txt_Time:SetText(string.format(GetText(80602423), time.day, time.hour))
+          else
+            Group_BlackTea.Group_NotJoin.Group_Add.Group_Finish.Txt_Time:SetText(string.format(GetText(80602689), time.hour, time.minute))
+          end
+        else
+          Group_BlackTea.Group_NotJoin.self:SetActive(false)
+          Controller:RefreshBlackTeaJoinPage()
+        end
       else
         Group_BlackTea.Group_NotJoin.Group_Add.Group_Finish.Txt_Time:SetText("")
       end

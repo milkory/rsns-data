@@ -207,50 +207,22 @@ function Controller:ConfirmExpand()
   end, DataModel.BuySpaceNum)
 end
 
+function Controller:InnerReturnToMain()
+  View.Group_Warehouse.self:SetActive(false)
+  View.Group_Main.self:SetActive(true)
+  View.self:PlayAnim("Main")
+end
+
 function Controller:ReturnToMain()
-  local storageArr = ""
-  local getArr = ""
-  for k, v in pairs(DataModel.ChangeGoods) do
-    local str = ""
-    if 0 < v then
-      if storageArr ~= "" then
-        str = str .. ","
-      end
-      str = str .. "\"" .. k .. "\"" .. ":" .. v
-      storageArr = storageArr .. str
-    elseif v < 0 then
-      if getArr ~= "" then
-        str = str .. ","
-      end
-      str = str .. "\"" .. k .. "\"" .. ":" .. -v
-      getArr = getArr .. str
-    end
-  end
-  if storageArr == "" and getArr == "" then
-    MainController:ReturnToMain(false)
-    return
-  end
-  Net:SendProto("station.deal_with_goods", function(json)
-    for k, v in pairs(DataModel.ChangeGoods) do
-      local warehouseGoods = PlayerData:GetGoods()[tostring(k)]
-      local stationId = tostring(MainDataModel.StationId)
-      if 0 < v then
-        warehouseGoods.num = warehouseGoods.num - v
-        if warehouseGoods.stations == nil then
-          warehouseGoods.stations = {}
-          warehouseGoods.stations[stationId] = 0
-        end
-        if warehouseGoods.stations[stationId] == nil then
-          warehouseGoods.stations[stationId] = 0
-        end
-        warehouseGoods.stations[stationId] = warehouseGoods.stations[stationId] + v
-      elseif v < 0 then
-        warehouseGoods.num = warehouseGoods.num - v
-        warehouseGoods.stations[stationId] = warehouseGoods.stations[stationId] + v
-      end
-    end
-    MainController:ReturnToMain(false)
-  end, storageArr, getArr)
+  DataModel.DealWithGoods(function()
+    Controller.InnerReturnToMain(self)
+  end)
+end
+
+function Controller:GoHome()
+  DataModel.DealWithGoods(function()
+    UIManager:GoHome()
+  end)
 end
 
 return Controller

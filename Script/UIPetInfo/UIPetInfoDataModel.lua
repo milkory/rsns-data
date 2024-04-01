@@ -8,6 +8,18 @@ local CalPetScores = function(petInfo)
     end
     scores = scores + v.scores
   end
+  if petInfo.u_fid and petInfo.u_fid ~= "" then
+    local buffName = EnumDefine.HomeSkillEnum.AddPetScores
+    local furData = PlayerData:GetFurniture()[petInfo.u_fid]
+    local furBuff = PlayerData.GetFurAllSkillBuff(furData, EnumDefine.EFurSkillRangeType.Furniture)
+    local furBuffAdd = furBuff[buffName] or 0
+    local carriageBuff = PlayerData.GetFurAllSkillBuff(furData, EnumDefine.EFurSkillRangeType.Carriage)
+    local carriageBuffAdd = carriageBuff[buffName] or 0
+    local trainBuff = PlayerData.GetFurAllSkillBuff(furData, EnumDefine.EFurSkillRangeType.Train)
+    local trainBuffAdd = trainBuff[buffName] or 0
+    local homeBuffAdd = PlayerData:GetHomeSkillIncrease(buffName)
+    scores = scores * (1 + furBuffAdd + carriageBuffAdd + trainBuffAdd + homeBuffAdd)
+  end
   return scores
 end
 

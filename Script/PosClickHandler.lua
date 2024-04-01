@@ -229,11 +229,28 @@ end
 
 function PosClickHandler.GetRoomIsHaveEmptyTile(roomIdx)
   local room = HomeManager:GetRoom(roomIdx - 1)
-  local floorMap = room.floorMap
-  if floorMap:GetEmptyTile() == nil then
-    return false
+  local floorMap
+  if room then
+    floorMap = room.floorMap
   end
-  return true
+  if floorMap then
+    local maxX = room.ca.CoachX
+    local maxZ = room.ca.CoachZ
+    local limitNum = 4
+    local count = 0
+    for i = 0, maxX - 1 do
+      for j = 0, maxZ - 1 do
+        local tile = floorMap:GetTileVO(i, j)
+        if tile and tile:isEmpty() then
+          count = count + 1
+          if limitNum < count then
+            return true
+          end
+        end
+      end
+    end
+  end
+  return false
 end
 
 return PosClickHandler

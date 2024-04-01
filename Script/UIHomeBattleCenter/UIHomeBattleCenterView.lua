@@ -220,7 +220,6 @@ local HomeBattleCenter = {
               Img_Type01 = nil,
               Img_Type02 = nil,
               Img_Time = {self = nil, Txt_ = nil},
-              Img_Effect = nil,
               Group_EType = {
                 self = nil,
                 Img_IconBg = nil,
@@ -234,7 +233,8 @@ local HomeBattleCenter = {
               Group_Extra = {
                 self = nil,
                 Img_bg = {self = nil, Txt_txt = nil}
-              }
+              },
+              Group_Effect = nil
             },
             Group_First = {
               self = nil,
@@ -356,7 +356,6 @@ local HomeBattleCenter = {
             Img_Type01 = nil,
             Img_Type02 = nil,
             Img_Time = {self = nil, Txt_ = nil},
-            Img_Effect = nil,
             Group_EType = {
               self = nil,
               Img_IconBg = nil,
@@ -370,7 +369,8 @@ local HomeBattleCenter = {
             Group_Extra = {
               self = nil,
               Img_bg = {self = nil, Txt_txt = nil}
-            }
+            },
+            Group_Effect = nil
           },
           Txt_Name = nil,
           Group_Num = {
@@ -455,7 +455,7 @@ local HomeBattleCenter = {
       Group_UpTips = {
         self = nil,
         Btn_ = nil,
-        Img_ = nil,
+        Img_Di = nil,
         Img_ = nil,
         Img_ = nil,
         Img_ = nil,
@@ -485,7 +485,6 @@ local HomeBattleCenter = {
               Img_Type01 = nil,
               Img_Type02 = nil,
               Img_Time = {self = nil, Txt_ = nil},
-              Img_Effect = nil,
               Group_EType = {
                 self = nil,
                 Img_IconBg = nil,
@@ -499,7 +498,8 @@ local HomeBattleCenter = {
               Group_Extra = {
                 self = nil,
                 Img_bg = {self = nil, Txt_txt = nil}
-              }
+              },
+              Group_Effect = nil
             }
           }
         }
@@ -575,7 +575,6 @@ local HomeBattleCenter = {
                 Img_Type01 = nil,
                 Img_Type02 = nil,
                 Img_Time = {self = nil, Txt_ = nil},
-                Img_Effect = nil,
                 Group_EType = {
                   self = nil,
                   Img_IconBg = nil,
@@ -589,7 +588,8 @@ local HomeBattleCenter = {
                 Group_Extra = {
                   self = nil,
                   Img_bg = {self = nil, Txt_txt = nil}
-                }
+                },
+                Group_Effect = nil
               },
               Group_Cost = {
                 self = nil,
@@ -621,7 +621,6 @@ local HomeBattleCenter = {
                 Img_Type01 = nil,
                 Img_Type02 = nil,
                 Img_Time = {self = nil, Txt_ = nil},
-                Img_Effect = nil,
                 Group_EType = {
                   self = nil,
                   Img_IconBg = nil,
@@ -635,7 +634,8 @@ local HomeBattleCenter = {
                 Group_Extra = {
                   self = nil,
                   Img_bg = {self = nil, Txt_txt = nil}
-                }
+                },
+                Group_Effect = nil
               },
               Group_Cost = {
                 self = nil,
@@ -667,7 +667,6 @@ local HomeBattleCenter = {
                 Img_Type01 = nil,
                 Img_Type02 = nil,
                 Img_Time = {self = nil, Txt_ = nil},
-                Img_Effect = nil,
                 Group_EType = {
                   self = nil,
                   Img_IconBg = nil,
@@ -681,7 +680,8 @@ local HomeBattleCenter = {
                 Group_Extra = {
                   self = nil,
                   Img_bg = {self = nil, Txt_txt = nil}
-                }
+                },
+                Group_Effect = nil
               },
               Group_Cost = {
                 self = nil,
@@ -760,7 +760,7 @@ local HomeBattleCenter = {
     },
     Group_1 = {
       self = nil,
-      Img_ = nil,
+      Img_ = {self = nil, Txt_Title = nil},
       ScrollGrid_List = {
         self = nil,
         grid = {
@@ -930,7 +930,6 @@ local HomeBattleCenter = {
               Img_Type01 = nil,
               Img_Type02 = nil,
               Img_Time = {self = nil, Txt_ = nil},
-              Img_Effect = nil,
               Group_EType = {
                 self = nil,
                 Img_IconBg = nil,
@@ -944,7 +943,8 @@ local HomeBattleCenter = {
               Group_Extra = {
                 self = nil,
                 Img_bg = {self = nil, Txt_txt = nil}
-              }
+              },
+              Group_Effect = nil
             }
           }
         }
@@ -1602,6 +1602,7 @@ local HomeBattleCenter = {
             self = nil,
             Img_Icon = nil,
             Txt_Title = nil,
+            Txt_Max = nil,
             Group_num = {
               self = nil,
               Txt_Num = nil,
@@ -1612,6 +1613,7 @@ local HomeBattleCenter = {
             self = nil,
             Img_Icon = nil,
             Txt_Title = nil,
+            Txt_Max = nil,
             Group_num = {
               self = nil,
               Txt_Num = nil,
@@ -1623,6 +1625,7 @@ local HomeBattleCenter = {
             self = nil,
             Img_Icon = nil,
             Txt_Title = nil,
+            Txt_Max = nil,
             Group_num = {
               self = nil,
               Txt_Num = nil,
@@ -1634,6 +1637,7 @@ local HomeBattleCenter = {
             self = nil,
             Img_Icon = nil,
             Txt_Title = nil,
+            Txt_Max = nil,
             Group_num = {
               self = nil,
               Txt_Num = nil,

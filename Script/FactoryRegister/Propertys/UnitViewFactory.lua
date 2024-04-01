@@ -165,6 +165,35 @@ RegProperty("UnitViewFactory", {
     pyIgnore = true
   },
   {
+    name = "clickAnimationList",
+    type = "Array",
+    des = "点击动画列表",
+    detail = "name#weight#needAlphaChange",
+    pyIgnore = true
+  },
+  {
+    name = "name",
+    type = "String",
+    des = "动画名称",
+    arg0 = "click",
+    pyIgnore = true
+  },
+  {
+    name = "weight",
+    type = "Int",
+    des = "权重",
+    arg0 = "1",
+    pyIgnore = true
+  },
+  {
+    name = "needAlphaChange",
+    type = "Bool",
+    des = "需要过渡",
+    arg0 = "False",
+    pyIgnore = true
+  },
+  {name = "end", pyIgnore = true},
+  {
     mod = "",
     name = "",
     type = "SysLine",

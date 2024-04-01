@@ -34,6 +34,8 @@ function PlotCheckBox:Finish(index)
       else
         info = ParseParagraphScript():Parse(path, plotCA["parg_" .. index])
       end
+      print_r(info)
+      print_r(info.plotBaseCAs)
       for k, v in pairs(info.plotBaseCAs) do
         plotList[k] = v
       end

@@ -26,6 +26,26 @@ local ViewFunction = {
           return
         end
       end
+      local curPower = PlayerData.GetMaxElectric()
+      if furniture and furniture.u_cid ~= "" then
+        local skillData = PlayerData.ServerData.user_home_info.f_skills
+        local furCA = PlayerData:GetFactoryData(furniture.id, "HomeFurnitureFactory")
+        if furCA.FurnitureSkillList then
+          for i, v in pairs(furCA.FurnitureSkillList) do
+            local skillCA = PlayerData:GetFactoryData(v.id, "HomeFurnitureSkillFactory")
+            if skillCA.SkillRange == EnumDefine.EFurSkillRangeType.Train and skillCA.SkillType == EnumDefine.HomeSkillEnum.RiseElectricMax then
+              local skills = skillData[skillCA.SkillType] and skillData[skillCA.SkillType].train
+              if skills and skills[tostring(v.id)] then
+                curPower = curPower - skillCA.param
+              end
+            end
+          end
+        end
+        if curPower < DataModel.powerCostRecordChange then
+          CommonTips.OpenTips(80602115)
+          return
+        end
+      end
     end
     local furUfids = HomeManager:RemoveSelectFurniture(DataModel.roomIndex)
     if furUfids == "" or furUfids == nil then

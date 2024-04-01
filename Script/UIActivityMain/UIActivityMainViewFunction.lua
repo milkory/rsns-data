@@ -57,23 +57,23 @@ local ViewFunction = {
     UIManager:Open("UI/Activity/BlackTea/ActivityAchievement")
   end,
   ActivityMain_Group_BlackTea_Group_Join_Group_StageAll_Btn__Click = function(btn, str)
-    UIManager:Open("UI/Activity/BlackTea/ServerProgress")
+    Net:SendProto("quest.list", function(Json)
+      UIManager:Open("UI/Activity/BlackTea/ServerProgress")
+    end, 6)
   end,
   ActivityMain_Group_BlackTea_Group_Join_Group_StageOne_Btn__Click = function(btn, str)
-    UIManager:Open("UI/Activity/BlackTea/PersonalProgress")
+    Net:SendProto("quest.list", function(Json)
+      UIManager:Open("UI/Activity/BlackTea/PersonalProgress")
+    end, 6)
   end,
   ActivityMain_Group_BlackTea_Group_Join_Group_Store_Btn__Click = function(btn, str)
     local parms = {}
     parms.activityId = DataModel.LeftActivityCA.id
     parms.shopId = DataModel.ActivityCA.activityStoreList[1].id
     parms.ca = PlayerData:GetFactoryData(parms.shopId)
-    if PlayerData.ServerData.shops == nil then
-      Net:SendProto("shop.info", function(json)
-        UIManager:Open("UI/Activity/BlackTea/ActiveStore", Json.encode(parms))
-      end)
-    else
+    Net:SendProto("shop.info", function(json)
       UIManager:Open("UI/Activity/BlackTea/ActiveStore", Json.encode(parms))
-    end
+    end)
   end,
   ActivityMain_Group_BlackTea_Group_Join_Group_Coin_Btn_GoldCoin_Click = function(btn, str)
     CommonTips.OpenRewardDetail(DataModel.CoinId)

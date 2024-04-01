@@ -2,6 +2,7 @@ local View = require("UIDialogReview/UIDialogReviewView")
 local DataModel = require("UIDialogReview/UIDialogReviewDataModel")
 local ViewFunction = require("UIDialogReview/UIDialogReviewViewFunction")
 local customSV = require("Common/CustomSV")
+local DialogDataModel = require("UIDialog/UIDialogDataModel")
 local Luabehaviour = {
   serialize = function()
   end,
@@ -19,6 +20,10 @@ local Luabehaviour = {
     View.CustomScrollGrid_LOG.self:UpdateGridWidthOrHeight(height)
     View.myCustomSV:RefreshData(DataModel.dialog_content, View.CustomScrollGrid_LOG.self.viewportCount)
     View.myCustomSV:RefreshAllElementToBottom(View.CustomScrollGrid_LOG.self.scrollRect)
+    DataModel.isAutoPlay = DialogDataModel.isAuto
+    if DataModel.isAutoPlay then
+      DialogDataModel.isAuto = false
+    end
   end,
   awake = function()
     View.myCustomSV = customSV.New(View.CustomScrollGrid_LOG.grid, true, function(element, index)
@@ -83,6 +88,7 @@ local Luabehaviour = {
   enable = function()
   end,
   disenable = function()
+    DialogDataModel.isAuto = DataModel.isAutoPlay
   end
 }
 return {

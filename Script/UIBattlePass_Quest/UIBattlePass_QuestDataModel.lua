@@ -88,10 +88,15 @@ function DataModel.InitCommonData()
   QuestData.maxPoint = maxPoint
   PassData.maxPoint = maxPoint
   Group.Group_Top.Img_BarBottom:SetActive(true)
-  Group.Group_Top.Img_BarTop:SetFilledImgAmount(DataModel.Data.exp / maxPoint)
-  Group.Group_Top.Txt_Exp:SetText(DataModel.Data.exp .. "/" .. maxPoint)
+  if DataModel.IsMaxLv then
+    Group.Group_Top.Img_BarTop:SetFilledImgAmount(1)
+    Group.Group_Top.Txt_Exp:SetText(maxPoint .. "/" .. maxPoint)
+  else
+    Group.Group_Top.Img_BarTop:SetFilledImgAmount(DataModel.Data.exp / maxPoint)
+    Group.Group_Top.Txt_Exp:SetText(DataModel.Data.exp .. "/" .. maxPoint)
+  end
   Group.Group_Top.Btn_PayForLevelUp.self:SetActive(true)
-  if PlayerData:GetBattlePass().pass_level >= PlayerData:GetFactoryData(82500002).LevelLimit then
+  if PlayerData:GetBattlePass().pass_level >= DataModel.CA.LevelLimit then
     Group.Group_Top.Btn_PayForLevelUp.self:SetActive(false)
   end
   Group.Group_Top.Img_LevelBg:SetSprite(DataModel.CA.topicIcon)
@@ -99,8 +104,13 @@ end
 
 function DataModel.AddData()
   DataModel.Data = {}
+  DataModel.IsMaxLv = false
   local battlePass = PlayerData:GetBattlePass()
   DataModel.Data.lv = battlePass.pass_level
+  if battlePass.pass_level >= DataModel.CA.LevelLimit then
+    DataModel.IsMaxLv = true
+    DataModel.Data.lv = DataModel.CA.LevelLimit
+  end
   DataModel.Data.exp = battlePass.points
 end
 
@@ -189,7 +199,8 @@ end
 
 function DataModel.Init()
   View.self:PlayAnim("BP")
-  DataModel.CA = PlayerData:GetFactoryData(82500002)
+  local initConfig = PlayerData:GetFactoryData(99900007, "ConfigFactory")
+  DataModel.CA = PlayerData:GetFactoryData(initConfig.BattlePassId, "BattlePassFactory")
   DataModel.BuyCAList = {
     [0] = "82100009",
     [1] = "82100018",
@@ -358,8 +369,8 @@ function DataModel.BuyBp(index)
   local callback = function(json)
     CommonTips.OpenTips(80601249)
     PlayerData:GetBattlePass().pass_type = index + 1
-    if typeIndex == 1 and PlayerData:GetBattlePass().pass_level > PlayerData:GetFactoryData(82500002).LevelLimit then
-      PlayerData:GetBattlePass().pass_level = PlayerData:GetFactoryData(82500002).LevelLimit
+    if typeIndex == 1 and PlayerData:GetBattlePass().pass_level > DataModel.CA.LevelLimit then
+      PlayerData:GetBattlePass().pass_level = DataModel.CA.LevelLimit
     end
     CommonTips.OpenShowItem(json.reward)
     RefreshBuyTypePage()

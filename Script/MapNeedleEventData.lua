@@ -71,8 +71,8 @@ function MapNeedleEventData.IsLoginChangeNeedleEventScene()
   local MapDataModel = require("UIHome/UIHomeMapDataModel")
   MapDataModel.InitLineInfo()
   local remainDis = 0
-  if 0 < station_info.stop_info[2] then
-    remainDis = 0 < station_info.stop_info[2] and tonumber(station_info.stop_info[2]) or 0
+  if 0 < station_info.status then
+    remainDis = 0 < station_info.status and tonumber(station_info.status) or 0
   else
     remainDis = 0 < arriveStations[#arriveStations].time - curTime and (arriveStations[#arriveStations].time - curTime) * this.GetServerSpeed() / speedRatio or 0
   end
@@ -111,6 +111,8 @@ function MapNeedleEventData.IsLoginChangeNeedleEventScene()
       if eventCA.loginInvoke then
         local distance = string.format("%.2f", eventRemainDis)
         Net:SendProto("station.stop", function(json)
+          local tradeDataModel = require("UIHome/UIHomeTradeDataModel")
+          tradeDataModel.lastStopDistance = tradeDataModel.GetRemainDistanceStop()
         end, tostring(path[pathIndex].endStationId), distance)
       end
       return eventCA.loginInvoke

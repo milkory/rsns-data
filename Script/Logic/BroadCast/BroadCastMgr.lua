@@ -105,8 +105,15 @@ function BroadCastMgr:ReqServerBroadCast()
   end)
 end
 
+function BroadCastMgr:IsFuncUsable()
+  if FuncUnlockHelper.IsFuncUnlock(FuncUnlockConst.FUNCID_BROADCAST) then
+    return true
+  end
+  return false
+end
+
 function BroadCastMgr:OnMainUIEnable()
-  if GuideHelper.IsInForceGuide() then
+  if not self:IsFuncUsable() then
     return
   end
   if not self.isStartTimer then

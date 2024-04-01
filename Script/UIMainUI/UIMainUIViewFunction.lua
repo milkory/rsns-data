@@ -13,9 +13,13 @@ local ViewFunction = {
       View.Group_Common.Group_PosterGirl.SpineAnimation_Character:SetAction("idle", true, true)
     end)
     if isClick == true then
-      local viewId = PlayerData:GetFactoryData(DataModel.roleId, "UnitFactory").viewId
-      local receptionistData = PlayerData:GetFactoryData(viewId, "UnitViewFactory")
-      Controller:RefreshEffect(receptionistData)
+      local unit = PlayerData:GetRoleById(DataModel.roleId)
+      local viewId = unit and unit.current_skin[1] or PlayerData:GetFactoryData(DataModel.roleId, "UnitFactory").viewId
+      local live2D = PlayerData:GetPlayerPrefs("int", DataModel.roleId .. "live2d")
+      if live2D ~= 1 then
+        local receptionistData = PlayerData:GetFactoryData(viewId, "UnitViewFactory")
+        Controller:RefreshEffect(receptionistData)
+      end
     end
     if PlayerData:GetHomeInfo().station_info.is_arrived == 2 or PlayerData:GetHomeInfo().station_info.is_arrived == 0 then
       Controller:RandomPlayRoleSound()
@@ -219,6 +223,7 @@ local ViewFunction = {
   end,
   MainUI_Group_Common_Btn_Enter_Click = function(btn, str)
     Net:SendProto("station.arrive", function(json)
+      DataModel.justArrived = true
       PlayerData:GetHomeInfo().station_info = json.station_info
       DataModel.GetCurShowSceneInfo()
       TrainCameraManager:SetPostProcessing(1, DataModel.CurShowSceneInfo.postProcessingPath)
@@ -394,6 +399,7 @@ local ViewFunction = {
     end
   end,
   MainUI_Group_Common_Group_MB_BtnPolygon_Adjutant_Click = function(btn, str)
+    Controller.StopPosterGirlAudioSource()
     if PlayerData.TempCache.MainUIShowState == DataModel.UIShowEnum.OutSide then
       View.self:PlayAnim("OToA")
     elseif PlayerData.TempCache.MainUIShowState == DataModel.UIShowEnum.Coach then
@@ -402,12 +408,7 @@ local ViewFunction = {
     Controller:SwitchTab(DataModel.UIShowEnum.Adjutant, true)
   end,
   MainUI_Group_Common_Group_MB_BtnPolygon_OutSide_Click = function(btn, str)
-    View.timer:Pause()
-    if View.sound and View.sound.audioSource then
-      View.sound:Stop()
-      View.Group_Common.Img_DialogBox:SetActive(false)
-      DataModel.soundEndTime = 0
-    end
+    Controller.StopPosterGirlAudioSource()
     if DataModel.CurSceneName == DataModel.SceneNameEnum.Main then
       if PlayerData.TempCache.MainUIShowState == DataModel.UIShowEnum.Adjutant then
         View.self:PlayAnim("AToO")
@@ -430,12 +431,7 @@ local ViewFunction = {
     if not funcCommon.FuncActiveCheck(106, true) then
       return
     end
-    View.timer:Pause()
-    if View.sound and View.sound.audioSource then
-      View.sound:Stop()
-      View.Group_Common.Img_DialogBox:SetActive(false)
-      DataModel.soundEndTime = 0
-    end
+    Controller.StopPosterGirlAudioSource()
     if DataModel.CurSceneName == DataModel.SceneNameEnum.Home then
       if PlayerData.TempCache.MainUIShowState == DataModel.UIShowEnum.Adjutant then
         View.self:PlayAnim("AToC")
@@ -688,6 +684,11 @@ local ViewFunction = {
   end,
   MainUI_Group_Common_SoftMask_HomeMap_Group_HomeMap_Group_StationInfo_Btn_DriveSetup_Click = function(btn, str)
     UIManager:Open("UI/MainUI/DriveSetup")
+  end,
+  MainUI_Group_Common_Group_PosterGirl_Btn_ChangeAnimation2_Click = function(btn, str)
+    if PlayerData:GetHomeInfo().station_info.is_arrived == 2 or PlayerData:GetHomeInfo().station_info.is_arrived == 0 then
+      Controller:RandomPlayRoleSound()
+    end
   end,
   MainUI_Group_Common_Group_BroadCast_Group_BG_Group_Upper_Group_TopRight_Btn_Close_Click = function(btn, str)
   end,

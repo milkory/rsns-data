@@ -5,10 +5,9 @@ local Controller = {}
 function Controller:Init()
   DataModel.extractCA = PlayerData:GetFactoryData(DataModel.param.id)
   local tagCA = PlayerData:GetFactoryData(DataModel.extractCA.protectTag)
-  DataModel.tagName = tagCA.tagName
   DataModel.maxPageNum = 100000
   DataModel.gachaRecordTable = {}
-  View.Group_Record.Img_Tips.Txt_Tips:SetText(GetText(80602390))
+  View.Group_Record.Img_Tips.Txt_Tips:SetText(tagCA.recordTips)
   Controller:Select(DataModel.SelectType.ViewDetail, true)
 end
 
@@ -31,7 +30,7 @@ function Controller:Select(type, force)
 end
 
 function Controller:ShowViewDetail()
-  local extract = PlayerData:GetFactoryData(DataModel.param.id, "ExtractFactory").details
+  local extract = DataModel.extractCA.details
   View.ScrollView_Details.Viewport.Txt_Details:SetText(extract)
   View.ScrollView_Details:SetVerticalNormalizedPosition(1)
 end
@@ -92,7 +91,14 @@ function Controller:ShowRecordElement(element, elementIndex)
     end
     element.Txt_Character:SetText(unitCA.name)
     element.Txt_Character:SetColor(color)
-    element.Txt_TagName:SetText(DataModel.tagName)
+    local name
+    if info.card_id and info.card_id ~= "" then
+      local ca = PlayerData:GetFactoryData(info.card_id)
+      name = ca.name
+    else
+      name = GetText(80605604)
+    end
+    element.Txt_TagName:SetText(name)
     element.Txt_Time:SetText(os.date("%Y-%m-%d %H:%M:%S", info.obtain_time))
   end
 end

@@ -219,6 +219,7 @@ local MainUI = {
       Group_Character = {self = nil, Sprite_Character = nil},
       Group_CharacterIMG = {self = nil, Img_Character = nil},
       Btn_ChangeAnimation = nil,
+      Btn_ChangeAnimation2 = nil,
       Btn_Change = {
         self = nil,
         Txt_T = nil,

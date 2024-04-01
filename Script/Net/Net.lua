@@ -127,6 +127,12 @@ function Net.Callback(response, cb, failCb, protocol)
     if json.monthly_card then
       PlayerData.ServerData.monthly_card = json.monthly_card
     end
+    if json.req_back_num then
+      PlayerData:GetHomeInfo().req_back_num = json.req_back_num
+    end
+    if json.monthly_req_back_num then
+      PlayerData:GetHomeInfo().monthly_req_back_num = json.monthly_req_back_num
+    end
     if json.consumables then
       PlayerData:RemoveRewardServer(json.consumables)
     end

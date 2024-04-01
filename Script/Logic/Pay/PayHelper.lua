@@ -1,5 +1,7 @@
 local PayHelper = {}
 PayGV = require("Logic/Pay/PayGV")
+WxPayHelper = require("Logic/Pay/Wx/WxPayHelper")
+PayIapMgr = require("Logic/Pay/PayIapMgr")
 PayHelper.EPayPlatform = {
   Default = 0,
   IOS = 1,
@@ -22,6 +24,7 @@ function PayHelper.InitCsMgr()
     print("[Pay]Start Init PayMgr")
     CS.PayLuaface.InitMgr(list:GetCsList())
   end
+  WxPayHelper.Init()
 end
 
 function PayHelper.CSPayLuaface()
@@ -77,13 +80,18 @@ function PayHelper.Buy(productId, cb, uiParams)
           SdkHelper.CloseWaiting()
           return
         end
-        Net:SendProto("pay.ios_charge_refresh", function(json)
+        local transactionId = PayIapMgr:GetTransactionId()
+        local cbSuccess = function(json)
+          SdkHelper.CloseWaiting()
           SdkReporter.TrackBuySuccess(out_trade_no, payAmount, "applepay", productId, productName)
-          PayHelper.ReqQueryOID(out_trade_no, function(json)
-            SdkHelper.CloseWaiting()
-            pcall(cb, json)
-          end, args)
-        end, msg, out_trade_no)
+          PayIapMgr:ConfirmPendingPurchase()
+          pcall(cb, json)
+        end
+        local cbFail = function(json)
+          SdkHelper.CloseWaiting()
+          PayIapMgr:OnIosChargeRefreshFailed(json)
+        end
+        Net:SendProto("pay.ios_charge_refresh", cbSuccess, msg, out_trade_no, transactionId, cbFail)
       end)
     end, productId, shpoId)
   end
@@ -100,9 +108,6 @@ function PayHelper.BuyWithAndroid(productId, cb, uiParams)
 end
 
 function PayHelper.ValidateBuy(str, cb)
-  Net:SendProto("pay.ios_charge_refresh", function(json)
-    pcall(cb, json)
-  end, str)
 end
 
 function PayHelper.CallAndroidPaySdk(productId, cb)
@@ -121,6 +126,7 @@ function PayHelper.ReqPayOrder(productId, cb, args)
   local payAmount = args.payAmount
   local shopId = args.shopId
   local currencyType = PayHelper.GetCurrencyTypeStr()
+  local channelFlag = WxPayHelper.GetChannelFlag()
   if PayGV.IsCurPayTypeAlipay() then
     print_r("[Pay]sendproto pay.order_str")
     Net:SendProto("pay.order_str", function(json)
@@ -169,7 +175,7 @@ function PayHelper.ReqPayOrder(productId, cb, args)
         SdkReporter.TrackBuySuccess(out_trade_no, payAmount, "weixin", productId)
         PayHelper.ReqQueryOID(out_trade_no, cb, args)
       end, prepayid, noncestr, timestamp, sign)
-    end, productId, shopId)
+    end, productId, shopId, channelFlag)
   end
 end
 

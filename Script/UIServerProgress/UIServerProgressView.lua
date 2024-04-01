@@ -3,6 +3,14 @@ local ServerProgress = {
   Img_BG = nil,
   Img_downBG = nil,
   Img_topBG = nil,
+  Group_TopTip = {
+    self = nil,
+    Img_BG = {
+      self = nil,
+      Img_Icon = nil,
+      Txt_00 = nil
+    }
+  },
   Group_TopLeft = {
     self = nil,
     Img_Server = nil,
@@ -27,7 +35,11 @@ local ServerProgress = {
       Group_Dessert = nil,
       Btn_Buff = nil
     },
-    Txt_Stage = {self = nil, Txt_Num = nil},
+    Txt_Stage = {
+      self = nil,
+      Txt_Num = nil,
+      Txt_Max = nil
+    },
     Txt_TitleTop = nil,
     Group_Sum = {
       self = nil,
@@ -48,6 +60,22 @@ local ServerProgress = {
         Img_Icon = nil,
         Txt_Des = nil,
         Txt_State = nil
+      }
+    },
+    Group_ShowNum = {
+      self = nil,
+      Group_Present = {
+        self = nil,
+        Txt_Title = nil,
+        Txt_Num = nil
+      },
+      Group_Next = {
+        self = nil,
+        Group_Num = {
+          self = nil,
+          Txt_Title = nil,
+          Txt_Num = nil
+        }
       }
     }
   },

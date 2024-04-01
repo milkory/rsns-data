@@ -30,7 +30,7 @@ local UpdatePetInfo = function()
     View.Group_NowSelect.Group_CommonInfo.Group_Feeder:SetActive(false)
     View.Group_NowSelect.Group_CommonInfo.Group_Feeder.Txt_:SetText()
   end
-  View.Group_NowSelect.Group_CommonInfo.Group_Score.Txt_Num:SetText(PetInfoData.CalPetScores(data))
+  View.Group_NowSelect.Group_CommonInfo.Group_Score.Txt_Num:SetText(ClearFollowZero(PetInfoData.CalPetScores(data)))
 end
 local RefreshPetList = function()
   View.ScrollGrid_Pet_List.grid.self:SetDataCount(#DataModel.sortData)

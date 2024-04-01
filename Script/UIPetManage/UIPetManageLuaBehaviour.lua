@@ -23,6 +23,34 @@ local Luabehaviour = {
     View.Group_Pets.Group_TopRight.Btn_Screen.Img_Select:SetActive(false)
     DataModel.Img_Select = View.Group_Pets.Group_TopRight.Btn_Love.Img_Select
     View.Screen_Filter:SetActive(false)
+    local newPetBuff = {}
+    local petIds = ""
+    for k, v in pairs(DataModel.petFurList) do
+      local petList = v.pets or {}
+      for k, v in pairs(petList) do
+        local petInfo = PlayerData:GetHomeInfo().pet[v]
+        if petInfo and petInfo.role_id ~= "" then
+          local petBuffCount = petInfo.lv - 7
+          local nowBuffCount = #petInfo.buff_list
+          if 0 < petBuffCount - nowBuffCount then
+            newPetBuff[v] = petBuffCount - nowBuffCount
+            if petIds == "" then
+              petIds = v
+            else
+              petIds = petIds .. "," .. v
+            end
+          end
+        end
+      end
+    end
+    if next(newPetBuff) then
+      Net:SendProto("pet.info", function(json)
+        for k, v in pairs(json.pet) do
+          PlayerData:GetHomeInfo().pet[k] = v
+        end
+        UIManager:Open("UI/HomePet/Screen_GetTies", Json.encode(newPetBuff))
+      end, petIds)
+    end
   end,
   awake = function()
   end,

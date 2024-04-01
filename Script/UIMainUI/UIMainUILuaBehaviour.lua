@@ -276,9 +276,7 @@ local Luabehaviour = {
       HomeCoachDataModel.CalcCurrentPet()
       HomeCoachDataModel.RemoveNoEmptyRoomCharacter()
       HomeCharacterManager:CreateAll(HomeCoachDataModel.characterData, HomeCoachDataModel.petData)
-      liveDataModel.InitLiveFurData()
       liveController.InitSleep()
-      emergencyDataModel.InitEmergencyFurData()
       emergencyDataModel.InitEmergency()
       local passengerDataModel = require("UIPassenger/UIPassengerDataModel")
       passengerDataModel.CreateHomePassenger()
@@ -436,6 +434,7 @@ local Luabehaviour = {
     end
     Controller.SpineBgFollow()
     AutoUseBullet()
+    MapController:UpdateMapNeedleIcon()
   end,
   ondestroy = function()
     DataModel.roleId = ""

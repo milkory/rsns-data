@@ -18,6 +18,9 @@ local ViewFunction = {
     if info.buff > 0 then
       local buffCfg = PlayerData:GetFactoryData(info.buff, "HomeBuffFactory")
       element.Img_BG.Group_HomeSkill.Txt_Des:SetText(buffCfg.desc)
+      local stageInfo = DataModel.GetStageInfo(questCfg.num)
+      local txt = string.format(GetText(80602520), stageInfo.index)
+      element.Img_BG.Group_HomeSkill.Txt_01:SetText(txt)
     end
     element.Img_BG.Btn_Award:SetClickParam(elementIndex)
     element.Img_BG.StaticGrid_RewardList.grid.self:SetParentParam(elementIndex)

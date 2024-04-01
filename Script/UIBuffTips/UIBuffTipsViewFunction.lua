@@ -9,11 +9,6 @@ local ViewFunction = {
     element.Group_State.Img_ON:SetActive(buffActive)
     element.Group_State.Img_Off:SetActive(DataModel.curStageIndex < info.stageIndex)
   end,
-  BuffTips_Group_Bar_Group_Bar_StaticGrid_Buff_SetGrid = function(element, elementIndex)
-    local info = DataModel.allBuffStage[elementIndex]
-    element.Txt_Num:SetText(info.stageIndex)
-    element.Img_ON:SetActive(info.stageIndex <= DataModel.curStageIndex)
-  end,
   BuffTips_Group_Bar_Btn_Check_Click = function(btn, str)
     if UIManager:IsPanelOpened("UI/Activity/BlackTea/ServerProgress") then
       View.self:CloseUI()

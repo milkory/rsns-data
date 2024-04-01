@@ -339,6 +339,7 @@ function Train.RushLeave()
   local MainDataModel = require("UIMainUI/UIMainUIDataModel")
   MainDataModel.SetWeaponRushDuration(0)
   MainDataModel.SetIsWeaponRushShow(false)
+  mainController.WeaponRush()
   mainController.WeaponRushOver()
 end
 
@@ -357,24 +358,53 @@ function Train.Box(sid, boxId, index, isAuto)
       return
     end
   end
-  if isSend == true then
+  if Train.WaitPickUpBoxList == nil then
+    Train.WaitPickUpBoxList = {}
+  end
+  local strSID = tostring(sid)
+  if Train.LastSID ~= strSID then
+    if Train.LastSID ~= nil then
+      Train.WaitPickUpBoxList[Train.LastSID] = nil
+    end
+    Train.LastSID = strSID
+    Train.CanSendPickBox = true
+    TimerHelper.Start("PickUpBoxUpdate", 0.02, Train.SendNet_PickBox)
+  end
+  if Train.WaitPickUpBoxList[strSID] == nil then
+    Train.WaitPickUpBoxList[strSID] = {}
+  end
+  local distance = PlayerData:GetBoxDistanceByIndex(strSID, index + 1)
+  if distance == nil or ListContainsValue(Train.WaitPickUpBoxList[strSID], distance) then
     return
   end
-  isSend = true
-  if not isClick then
-    Net:SendProto("events.happen", function(json)
-      print_r(json)
-      isSend = false
-      UIManager:Open("UI/MainUI/BoxGet", Json.encode(json.reward))
-      TrainManager:DeleteBoxByIndex(index)
-      local mainController = require("UIMainUI/UIMainUIController")
-      mainController.SetSpeedAddShow()
-      isClick = false
-    end, boxId, sid, index, function()
-      isClick = false
-      isSend = false
-    end)
+  table.insert(Train.WaitPickUpBoxList[strSID], distance)
+  return
+end
+
+function Train.SendNet_PickBox()
+  if not Train.CanSendPickBox or Train.LastSID == nil or #Train.WaitPickUpBoxList[Train.LastSID] == 0 then
+    return
   end
+  local distance = Train.WaitPickUpBoxList[Train.LastSID][1]
+  local boxId, index = PlayerData:GetBoxIdByDistance(Train.LastSID, distance)
+  local sid = tonumber(Train.LastSID)
+  if sid == nil or boxId == nil or index == nil then
+    return
+  end
+  Train.CanSendPickBox = false
+  index = index - 1
+  Net:SendProto("events.happen", function(json)
+    print_r(json)
+    UIManager:Open("UI/MainUI/BoxGet", Json.encode(json.reward))
+    TrainManager:DeleteBoxByIndex(index)
+    local mainController = require("UIMainUI/UIMainUIController")
+    mainController.SetSpeedAddShow()
+    table.remove(Train.WaitPickUpBoxList[Train.LastSID], 1)
+    Train.CanSendPickBox = true
+  end, boxId, sid, index, function()
+    table.remove(Train.WaitPickUpBoxList[Train.LastSID], 1)
+    Train.CanSendPickBox = true
+  end)
 end
 
 function Train.KeyDrive()
@@ -465,6 +495,7 @@ function Train.TrailerStop()
   Net:SendProto("station.arrive", function(json)
     PlayerData:GetHomeInfo().station_info = json.station_info
     PlayerData.TempCache.IsTrailer = true
+    MainDataModel.justArrived = true
     MainDataModel.GetCurShowSceneInfo(MainDataModel.TrailerCityId)
     TradeDataModel.CurStayCity = MainDataModel.TrailerCityId
     TradeDataModel.EndCity = TradeDataModel.CurStayCity

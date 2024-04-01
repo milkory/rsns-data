@@ -15,11 +15,11 @@ local UpdataData = function(self)
         local furCA = PlayerData:GetFactoryData(tempfurniture.id)
         DataModel.comfortScore = DataModel.comfortScore + (furCA.comfort or 0)
         DataModel.foodScore = DataModel.foodScore + (furCA.foodScores or 0)
-        DataModel.petScore = DataModel.petScore + (furCA.petScores or 0)
+        DataModel.petScore = DataModel.petScore + PlayerData.GetFurPetScoreWithAllBuff(v1.id)
         DataModel.plantScore = DataModel.plantScore + (furCA.plantScores or 0)
         DataModel.clearScore = 999
         DataModel.entScore = DataModel.entScore + (furCA.playScores or 0)
-        DataModel.fishScore = DataModel.fishScore + (furCA.fishScores or 0)
+        DataModel.fishScore = DataModel.fishScore + PlayerData.GetFurFishScoresWithAllBuff(v1.id)
         DataModel.medicalScore = DataModel.medicalScore + (furCA.medicalScores or 0)
         DataModel.bedNum = DataModel.bedNum + (furCA.characterNum or 0)
         DataModel.createGold = DataModel.createGold + (furCA.yinuooutput or 0)
@@ -35,12 +35,6 @@ local UpdataData = function(self)
           totalGenerate = totalGenerate * (1 - 0.1 * (#tempfurniture.space.creatures - 1)) / (totalTime / 3600)
           DataModel.createGland = DataModel.createGland + totalGenerate
         end
-        if tempfurniture.water ~= nil and tempfurniture.water.fishes ~= nil then
-          for k, v in pairs(tempfurniture.water.fishes) do
-            local ca = PlayerData:GetFactoryData(k)
-            DataModel.fishScore = DataModel.fishScore + ca.fishScores * v
-          end
-        end
       end
     end
   end
@@ -48,11 +42,6 @@ local UpdataData = function(self)
     if PlayerData:GetFactoryData(k).mod == "基础货物" then
       DataModel.tradeGoodNum = DataModel.tradeGoodNum + v.num
     end
-  end
-  local petData = PlayerData:GetHomeInfo().pet
-  for k, v in pairs(petData) do
-    DataModel.petScore = DataModel.petScore + PetInfoData.CalPetScores(v)
-    DataModel.petNum = DataModel.petNum + 1
   end
   for i, v in pairs(PlayerData.ServerData.user_home_info.furniture) do
     local furCA = PlayerData:GetFactoryData(v.id, "HomeFurnitureFactory")
@@ -66,14 +55,10 @@ local UpdataData = function(self)
   end
   local addValue = PlayerData:GetHomeSkillIncrease(EnumDefine.HomeSkillEnum.AddComfort)
   DataModel.comfortScore = math.floor(DataModel.comfortScore * (1 + addValue))
-  addValue = PlayerData:GetHomeSkillIncrease(EnumDefine.HomeSkillEnum.AddPetScores)
-  DataModel.petScore = math.floor(DataModel.petScore * (1 + addValue))
   addValue = PlayerData:GetHomeSkillIncrease(EnumDefine.HomeSkillEnum.AddPlantScores)
   DataModel.plantScore = math.floor(DataModel.plantScore * (1 + addValue))
   addValue = PlayerData:GetHomeSkillIncrease(EnumDefine.HomeSkillEnum.AddFoodScores)
   DataModel.foodScore = math.floor(DataModel.foodScore * (1 + addValue))
-  addValue = PlayerData:GetHomeSkillIncrease(EnumDefine.HomeSkillEnum.AddFishScores)
-  DataModel.fishScore = math.floor(DataModel.fishScore * (1 + addValue))
   addValue = PlayerData:GetHomeSkillIncrease(EnumDefine.HomeSkillEnum.AddPlayScores)
   DataModel.entScore = math.floor(DataModel.entScore * (1 + addValue))
   addValue = PlayerData:GetHomeSkillIncrease(EnumDefine.HomeSkillEnum.AddMedicalScores)

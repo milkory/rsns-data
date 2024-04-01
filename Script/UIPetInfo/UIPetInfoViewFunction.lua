@@ -1,6 +1,19 @@
 local View = require("UIPetInfo/UIPetInfoView")
 local DataModel = require("UIPetInfo/UIPetInfoDataModel")
 local CommonItem = require("Common/BtnItem")
+local UpdateTieInfo = function()
+  local bufferList = PlayerData:GetHomeInfo().pet[DataModel.pet_uid].buff_list
+  for i = 1, 3 do
+    local contentInfo = ""
+    if bufferList[i] then
+      local tiesName = PlayerData:GetFactoryData(bufferList[i]).tiesName
+      contentInfo = string.format(GetText(80605796), i, tiesName)
+    else
+      contentInfo = string.format(GetText(80602691), i, i + 7)
+    end
+    View.Group_PetInfo.Group_Feeder["Group_Tie" .. i].Txt_:SetText(contentInfo)
+  end
+end
 local UpdatePetInfo = function()
   local pet_uid = DataModel.petList[DataModel.selectIndex]
   local data = PlayerData:GetHomeInfo().pet[pet_uid]
@@ -52,6 +65,7 @@ local UpdatePetInfo = function()
   View.Group_Name.Txt_:SetText(name)
   View.Group_PetInfo.Group_CommonInfo.Group_FeedDays.Txt_:SetText(string.format(GetText(80601048), data.live_cnt or 0))
   View.Group_PetInfo.Btn_Feed.Txt_:SetText(string.format(GetText(80601071), DataModel.feedMax - data.feed, DataModel.feedMax))
+  UpdateTieInfo()
 end
 local ViewFunction = {
   PetInfo_Group_CommonTopLeft_Btn_Return_Click = function(btn, str)
@@ -165,13 +179,17 @@ local ViewFunction = {
     local num = 1
     local param = id .. ":" .. num
     local petInfo = PlayerData:GetHomeInfo().pet[DataModel.petList[DataModel.selectIndex]]
+    local addLove = PlayerData:GetFactoryData(id).addLove * (1 + PlayerData:GetHomeSkillIncrease(EnumDefine.HomeSkillEnum.RisePetLoveGains))
+    if foodData.extraAdd == 1 then
+      addLove = addLove * DataModel.extraAdd
+    end
+    addLove = math.floor(addLove + 1.0E-4)
+    if petInfo.lv == 7 and petInfo.role_id == "" and petInfo.favor + addLove >= DataModel.lvFavorMax then
+      CommonTips.OpenTips(GetText(80606031))
+      return
+    end
     if petInfo.feed < DataModel.feedMax then
-      Net:SendProto("pet.feed", function()
-        local addLove = PlayerData:GetFactoryData(id).addLove * (1 + PlayerData:GetHomeSkillIncrease(EnumDefine.HomeSkillEnum.RisePetLoveGains))
-        if foodData.extraAdd == 1 then
-          addLove = addLove * DataModel.extraAdd
-        end
-        addLove = math.floor(addLove + 1.0E-4)
+      Net:SendProto("pet.feed", function(json)
         petInfo.feed = petInfo.feed + 1
         petInfo.favor = petInfo.favor + addLove
         if petInfo.favor >= DataModel.lvFavorMax then
@@ -227,6 +245,17 @@ local ViewFunction = {
         View.Group_PetView.Group_Pet.SpineAnimation_:SetAction(ani_name, false, true, function()
           View.Group_PetView.Group_Pet.SpineAnimation_:SetAction(DataModel.GetPetAniName(1), true)
         end)
+        local nowPetInfo = json.pet[DataModel.pet_uid]
+        local count = 0
+        for k, v in pairs(nowPetInfo.buff_list) do
+          if petInfo.buff_list[k] == nil then
+            count = count + 1
+          end
+        end
+        if 0 < count then
+          petInfo.buff_list = nowPetInfo.buff_list
+          UpdateTieInfo()
+        end
       end, DataModel.pet_uid, param)
     else
       CommonTips.OpenTips(80601050)
@@ -243,6 +272,7 @@ local ViewFunction = {
         end)
       end
     end
-  end
+  end,
+  UpdateTieInfo = UpdateTieInfo
 }
 return ViewFunction

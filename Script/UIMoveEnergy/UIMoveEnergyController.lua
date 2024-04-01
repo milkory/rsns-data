@@ -277,6 +277,9 @@ function Controller:SetNumPage(isOpen)
     local index = self._curIndex
     local item = DataModel.itemList[index]
     groupDes.Group_ItemEnergy.Img_Item:SetSprite(item.iconPath)
+    local cfg = PlayerData:GetFactoryData(item.id)
+    groupDes.Group_ItemEnergy.Img_Bottom:SetSprite(UIConfig.BottomConfig[cfg.qualityInt + 1])
+    groupDes.Group_ItemEnergy.Img_Mask:SetSprite(UIConfig.MaskConfig[cfg.qualityInt + 1])
     groupDes.Txt_TitleMoney:SetText(item.name)
     local isDiamond = item.id == 11400005
     groupPage2.Group_Tip:SetActive(false)

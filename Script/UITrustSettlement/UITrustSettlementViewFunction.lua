@@ -6,13 +6,20 @@ local ViewFunction = {
       return
     end
     UIManager:GoBack(false)
-    if PlayerData:GetCurTrainBuffType() ~= nil then
+    local mealCA = PlayerData:GetFactoryData(DataModel.mealId)
+    if #mealCA.speed > 0 then
       UIManager:Open("UI/HomeKeepFastFood/SpeedSettlement", Json.encode({
+        bgmId = DataModel.bgmId,
+        mealId = DataModel.mealId,
+        hasBattle = 0 < #mealCA.battleBuffList
+      }))
+    elseif 0 < #mealCA.battleBuffList then
+      UIManager:Open("UI/HomeKeepFastFood/BattleSettlement", Json.encode({
         bgmId = DataModel.bgmId,
         mealId = DataModel.mealId
       }))
     else
-      if DataModel.bgmId and DataModel.bgmId > 0 then
+      if DataModel.bgmId and 0 < DataModel.bgmId then
         local sound = SoundManager:CreateSound(DataModel.bgmId)
         if sound ~= nil then
           sound:Play()

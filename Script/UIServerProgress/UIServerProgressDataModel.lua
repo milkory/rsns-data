@@ -45,6 +45,11 @@ function DataModel.InitData()
 end
 
 function DataModel.GetCurStageInfo()
+  local curNum = DataModel.GetCurNum()
+  return DataModel.GetStageInfo(curNum)
+end
+
+function DataModel.GetNextStageInfo()
   local info = {
     index = 0,
     cfg = {}
@@ -54,19 +59,44 @@ function DataModel.GetCurStageInfo()
   local allStage = activityCfg.ServerProgressList or {}
   for i, v in ipairs(allStage) do
     local questCfg = PlayerData:GetFactoryData(v.id, "QuestFactory")
-    if curNum >= questCfg.num then
+    if curNum < questCfg.num then
+      info.cfg = v
+      info.index = i
+      break
+    end
+    if i == #allStage then
+      info.cfg = v
+      info.index = i
+    end
+  end
+  if info.index == 1 and 0 >= info.cfg.buff then
+    info.index = 0
+  end
+  return info
+end
+
+function DataModel.GetStageInfo(num)
+  local info = {
+    index = 0,
+    cfg = {}
+  }
+  local activityCfg = PlayerData:GetFactoryData(86000001, "ActivityFactory")
+  local allStage = activityCfg.ServerProgressList or {}
+  for i, v in ipairs(allStage) do
+    local questCfg = PlayerData:GetFactoryData(v.id, "QuestFactory")
+    if num >= questCfg.num then
       info.cfg = v
       info.index = i
     else
       if i == 1 then
         info.cfg = v
-        info.index = 0
-        if 0 < v.buff then
-          info.index = i
-        end
+        info.index = i
       end
       break
     end
+  end
+  if info.index == 1 and 0 >= info.cfg.buff then
+    info.index = 0
   end
   return info
 end

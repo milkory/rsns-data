@@ -81,9 +81,9 @@ end
 function HomeUpdateHandler.IsReachStation(stationId)
   local station_info = PlayerData:GetHomeInfo().station_info
   if station_info ~= nil then
-    local stop_info = station_info.stop_info
-    if stop_info ~= nil and stop_info[2] == -1 then
-      local curStayId = tonumber(stop_info[1])
+    local status = station_info.status
+    if status ~= nil and station_info.status == -1 then
+      local curStayId = tonumber(station_info.sid)
       if curStayId == stationId then
         return true
       end

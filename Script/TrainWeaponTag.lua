@@ -36,6 +36,17 @@ local WeaponTag2Enum = {
   [12601072] = EnumDefine.TrainWeaponTagEnum.AddBalloonSR,
   [12600710] = EnumDefine.TrainWeaponTagEnum.GoodsOverVal
 }
+local polluteTag2Enum = {
+  [12600352] = EnumDefine.TrainWeaponTagEnum.AddColoudness,
+  [12600353] = EnumDefine.TrainWeaponTagEnum.AddColoudness
+}
+local nonPolluteTag2Enum = {
+  [12600355] = EnumDefine.TrainWeaponTagEnum.AddDeterrence
+}
+local nonBasePercentTag = {
+  [12600831] = 1,
+  [12600353] = 1
+}
 local GetResult = function(param, initValue)
   local value = 0
   if param[1] then
@@ -56,29 +67,47 @@ end
 local HandleOneAttributes = function(weaponSkillId, lv, tagId, calValue, typeParam)
   local tagEnum = WeaponTag2Enum[tagId]
   local param = {0, 0}
-  if calValue then
-    param = TrainWeaponTag[tagEnum].param
-  end
   if typeParam == nil then
-    typeParam = {0, 0}
+    typeParam = {
+      0,
+      0,
+      0
+    }
   end
-  if calValue then
-    if tagEnum == EnumDefine.TrainWeaponTagEnum.TrainAddSpeedBuff then
-      table.insert(param, weaponSkillId)
-      return
+  if tagEnum then
+    if calValue then
+      param = TrainWeaponTag[tagEnum].param
     end
-    if tagEnum == EnumDefine.TrainWeaponTagEnum.AutoPickGoods then
-      TrainWeaponTag[tagEnum].param = true
-      return
+    if calValue then
+      if tagEnum == EnumDefine.TrainWeaponTagEnum.TrainAddSpeedBuff then
+        table.insert(param, weaponSkillId)
+        return
+      end
+      if tagEnum == EnumDefine.TrainWeaponTagEnum.AutoPickGoods then
+        TrainWeaponTag[tagEnum].param = true
+        return
+      end
+      if tagEnum == EnumDefine.TrainWeaponTagEnum.TrainBattleBuff then
+        local data = {
+          tagId = tagId,
+          weaponSkillId = weaponSkillId,
+          lv = lv
+        }
+        table.insert(param, data)
+        return
+      end
     end
-    if tagEnum == EnumDefine.TrainWeaponTagEnum.TrainBattleBuff then
-      local data = {
-        tagId = tagId,
-        weaponSkillId = weaponSkillId,
-        lv = lv
-      }
-      table.insert(param, data)
-      return
+  end
+  if tagEnum == nil then
+    tagEnum = polluteTag2Enum[tagId]
+    if tagEnum then
+      param = TrainWeaponTag.polluteTag[tagEnum].param
+    end
+  end
+  if tagEnum == nil then
+    tagEnum = nonPolluteTag2Enum[tagId]
+    if tagEnum then
+      param = TrainWeaponTag.nonPolluteTag[tagEnum].param
     end
   end
   local ca = PlayerData:GetFactoryData(weaponSkillId)
@@ -95,7 +124,7 @@ local HandleOneAttributes = function(weaponSkillId, lv, tagId, calValue, typePar
         valueA = (ca.aNumMinP + lv * ca.aUpgradeRangeP) * ca.aCommonNumP
       end
       local value = valueA * param1 / 100
-      if tagId == 12600831 then
+      if nonBasePercentTag[tagId] then
         param[3] = param[3] + value
         typeParam[3] = typeParam[3] + value
       else
@@ -122,6 +151,12 @@ function TrainWeaponTag.CalOneweaponAttributes(weaponId, lv, typeStr)
     local weaponSkillId = v.id
     local tagId = PlayerData:GetFactoryData(weaponSkillId).entryTag
     local TagAttributes = TrainWeaponTag[WeaponTag2Enum[tagId]]
+    if TagAttributes == nil then
+      TagAttributes = TrainWeaponTag.polluteTag[polluteTag2Enum[tagId]]
+    end
+    if TagAttributes == nil then
+      TagAttributes = TrainWeaponTag.nonPolluteTag[nonPolluteTag2Enum[tagId]]
+    end
     if TagAttributes then
       if typeStr then
         typeParam = TagAttributes[typeStr]
@@ -134,6 +169,12 @@ function TrainWeaponTag.CalOneweaponAttributes(weaponId, lv, typeStr)
     local weaponSkillId = v.id
     local tagId = PlayerData:GetFactoryData(weaponSkillId).entryTag
     local TagAttributes = TrainWeaponTag[WeaponTag2Enum[tagId]]
+    if TagAttributes == nil then
+      TagAttributes = TrainWeaponTag.polluteTag[polluteTag2Enum[tagId]]
+    end
+    if TagAttributes == nil then
+      TagAttributes = TrainWeaponTag.nonPolluteTag[nonPolluteTag2Enum[tagId]]
+    end
     if TagAttributes then
       if typeStr then
         typeParam = TagAttributes[typeStr]
@@ -211,6 +252,30 @@ function TrainWeaponTag.CalTrainWeaponAllAttributes()
       }
     end
   end
+  if TrainWeaponTag.polluteTag == nil then
+    TrainWeaponTag.polluteTag = {}
+  end
+  for k, v in pairs(polluteTag2Enum) do
+    TrainWeaponTag.polluteTag[v] = {
+      param = {
+        0,
+        0,
+        0
+      }
+    }
+  end
+  if TrainWeaponTag.nonPolluteTag == nil then
+    TrainWeaponTag.nonPolluteTag = {}
+  end
+  for k, v in pairs(nonPolluteTag2Enum) do
+    TrainWeaponTag.nonPolluteTag[v] = {
+      param = {
+        0,
+        0,
+        0
+      }
+    }
+  end
   local train_pendant = PlayerData:GetHomeInfo().train_pendant
   for k, v in pairs(train_pendant) do
     if v ~= "" then
@@ -245,6 +310,12 @@ end
 function TrainWeaponTag.GetWeaponTagAttributes(enum, initValue, specialType)
   local value = 0
   local TagAttributes = TrainWeaponTag[enum]
+  if TagAttributes == nil then
+    TagAttributes = TrainWeaponTag.polluteTag[enum]
+  end
+  if TagAttributes == nil then
+    TagAttributes = TrainWeaponTag.nonPolluteTag[enum]
+  end
   if TagAttributes then
     if initValue == nil then
       if specialType then
@@ -256,7 +327,30 @@ function TrainWeaponTag.GetWeaponTagAttributes(enum, initValue, specialType)
     if specialType then
       value = GetResult(TagAttributes[specialType], initValue)
     else
-      value = GetResult(TagAttributes.param, initValue)
+      local param = TagAttributes.param
+      local TradeDataModel = require("UIHome/UIHomeTradeDataModel")
+      local isTravel = TradeDataModel.GetIsTravel()
+      if isTravel then
+        local pollute = TrainWeaponTag.LineInPollute()
+        if pollute then
+          local TagAttributes = TrainWeaponTag.polluteTag[enum]
+          if TagAttributes then
+            param = Clone(param)
+            for i, v in ipairs(TagAttributes.param) do
+              param[i] = param[i] + v
+            end
+          end
+        else
+          local TagAttributes = TrainWeaponTag.nonPolluteTag[enum]
+          if TagAttributes then
+            param = Clone(param)
+            for i, v in ipairs(TagAttributes.param) do
+              param[i] = param[i] + v
+            end
+          end
+        end
+      end
+      value = GetResult(param, initValue)
     end
   end
   return value
@@ -370,6 +464,31 @@ function TrainWeaponTag.GetTrainEffect()
   return path
 end
 
+function TrainWeaponTag.GetTrainTimelineList()
+  local path = {}
+  local train_pendant = PlayerData:GetHomeInfo().train_pendant
+  for k, v in pairs(train_pendant) do
+    if v ~= "" then
+      local serverBatteryData = PlayerData:GetBattery()[v]
+      local weaponCA = PlayerData:GetFactoryData(serverBatteryData.id, "HomeWeaponFactory")
+      if weaponCA.effectType == "3" then
+        table.insert(path, weaponCA.timeLineEffect)
+      end
+    end
+  end
+  local train_accessories = PlayerData:GetHomeInfo().train_accessories
+  for k, v in pairs(train_accessories) do
+    if v ~= "" then
+      local serverBatteryData = PlayerData:GetBattery()[v]
+      local weaponCA = PlayerData:GetFactoryData(serverBatteryData.id, "HomeWeaponFactory")
+      if weaponCA.effectType == "3" then
+        table.insert(path, weaponCA.timeLineEffect)
+      end
+    end
+  end
+  return path
+end
+
 function TrainWeaponTag.IsWeaponedById(id)
   id = tonumber(id)
   local train_pendant = PlayerData:GetHomeInfo().train_pendant
@@ -399,6 +518,45 @@ function TrainWeaponTag.IsWeaponedById(id)
           return true
         end
       end
+    end
+  end
+  return false
+end
+
+local LineInPollute = function(lineId)
+  local polluteInfo = PlayerData.pollute_areas or {}
+  for k, v in pairs(polluteInfo) do
+    if v.po_curIndex then
+      local homeLineCA = PlayerData:GetFactoryData(k)
+      local lineList = homeLineCA.LineList or {}
+      for k1, v2 in pairs(lineList) do
+        if v2.id == lineId then
+          return true
+        end
+      end
+    end
+  end
+  return false
+end
+
+function TrainWeaponTag.LineInPollute()
+  local TradeDataModel = require("UIHome/UIHomeTradeDataModel")
+  local isTravel = TradeDataModel.GetIsTravel()
+  if isTravel == false then
+    return false
+  end
+  local MapDataModel = require("UIHome/UIHomeMapDataModel")
+  local stationList = TradeDataModel.GetDriveLine(PlayerData:GetHomeInfo().station_info)
+  local lineList = {}
+  local stationCount = #stationList - 1
+  for i = 1, stationCount do
+    local lineId = MapDataModel.AllStationPathRecord[stationList[i].id][stationList[i + 1].id].id
+    table.insert(lineList, lineId)
+  end
+  for k, v in pairs(lineList) do
+    local pullute = LineInPollute(v)
+    if pullute then
+      return true
     end
   end
   return false

@@ -205,9 +205,6 @@ function Controller.CharacterLiveIn(roleId)
   View.Group_CharacterList:SetActive(false)
   this.RefreshWaste()
   this.RefreshLivePanel()
-  local furniture = PlayerData:GetHomeInfo().furniture[DataModel.curFurUfid]
-  Net:SendProto("home.rec_coach_waste", function(json)
-  end, furniture.u_cid)
   local liveRoleData = {}
   local furnitureData = PlayerData:GetHomeInfo().furniture[DataModel.curFurUfid]
   local canLiveInNum = PlayerData:GetFactoryData(furnitureData.id, "HomeFurnitureFactory").characterNum
@@ -242,7 +239,19 @@ function Controller.CharacterLiveIn(roleId)
 end
 
 function Controller.InitSleep()
-  for ufid, furnitureInfo in pairs(DataModel.liveFurData) do
+  local liveFurData = {}
+  for k, v in pairs(PlayerData:GetHomeInfo().furniture) do
+    local furCA = PlayerData:GetFactoryData(v.id, "HomeFurnitureFactory")
+    if furCA.functionType == 12600199 and furCA.characterNum > 0 and v.roles then
+      for _, roleId in pairs(v.roles) do
+        if roleId ~= "" then
+          liveFurData[k] = v
+          break
+        end
+      end
+    end
+  end
+  for ufid, furnitureInfo in pairs(liveFurData) do
     for index, roleId in pairs(furnitureInfo.roles) do
       if roleId ~= "" and not DataModel.IsInEmergency(roleId) then
         local remainTime = PlayerData:GetRoleRemainSleepTime(roleId)

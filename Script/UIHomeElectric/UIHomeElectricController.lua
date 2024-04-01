@@ -90,7 +90,7 @@ function Controller:InitDLPanel()
   local lvMax = #electricConfig.electricList
   local isMax = DataModel.curLv == lvMax
   View.Group_DL.Txt_AllGrade:SetText(DataModel.curLv - 1)
-  local totalElectric = DataModel.GetTotalElectric()
+  local totalElectric = PlayerData:GetMaxElectric()
   View.Group_DL.Txt_AllNum:SetText(string.format(GetText(80600327), totalElectric))
   View.Group_DL.Txt_AllCost:SetText(PlayerData:GetHomeInfo().electric_used)
   local curElectricPercent = DataModel.curCostElectric / totalElectric
@@ -161,7 +161,7 @@ function Controller:RefreshElectricBuyPanel()
   local curInstanllIdx = DataModel.slotInstallCount + 1
   local electricConfig = PlayerData:GetFactoryData(99900023, "ConfigFactory")
   local info = electricConfig.buyElectricList[curInstanllIdx]
-  local curElectric = DataModel.GetTotalElectric()
+  local curElectric = PlayerData:GetMaxElectric()
   View.Group_ElectricBuy.Txt_AddElectricNumNow:SetText(math.floor(curElectric * (1 + PlayerData:GetHomeSkillIncrease(EnumDefine.HomeSkillEnum.RiseElectricLimited))))
   View.Group_ElectricBuy.Txt_AddElectricNum:SetText(math.floor((curElectric + info.electric) * (1 + PlayerData:GetHomeSkillIncrease(EnumDefine.HomeSkillEnum.RiseElectricLimited))))
   View.Group_ElectricBuy.Txt_AddBuyNumNow:SetText(DataModel.slotInstallCount)

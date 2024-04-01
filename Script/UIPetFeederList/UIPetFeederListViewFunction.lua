@@ -7,6 +7,11 @@ local BindFeeder = function(data, roleId, u_pet)
     if pet.role_id and pet.role_id ~= "" then
       PlayerData:GetRoleById(pet.role_id).u_pet = ""
     end
+    if pet.lv > 7 and pet.role_id ~= "" then
+      pet.lv = 7
+      pet.buff_list = {}
+      pet.favor = 0
+    end
     pet.role_id = roleId
     PlayerData:GetRoleById(data.roleId).u_pet = u_pet
     UIManager:GoBack()
@@ -99,7 +104,7 @@ local ViewFunction = {
       u_pet = ""
       roleId = ""
     end
-    if petInfo.lv > 7 then
+    if petInfo.lv > 7 and petInfo.role_id ~= "" then
       if u_pet ~= data.u_pet then
         roleName = PlayerData:GetFactoryData(petInfo.role_id).name
       end

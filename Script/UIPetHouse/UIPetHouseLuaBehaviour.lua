@@ -23,6 +23,31 @@ local Luabehaviour = {
     HomeManager:CamFocusToFurniture(DataModel.ufid, v3, furCA.checkCameraTime, false, furCA.focusCamMove, function()
     end)
     View.Group_ChangeName:SetActive(false)
+    local newPetBuff = {}
+    local petIds = ""
+    for k, v in pairs(DataModel.petList) do
+      local petInfo = PlayerData:GetHomeInfo().pet[v]
+      if petInfo and petInfo.role_id ~= "" then
+        local petBuffCount = petInfo.lv - 7
+        local nowBuffCount = #petInfo.buff_list
+        if 0 < petBuffCount - nowBuffCount then
+          newPetBuff[v] = petBuffCount - nowBuffCount
+          if petIds == "" then
+            petIds = v
+          else
+            petIds = petIds .. "," .. v
+          end
+        end
+      end
+    end
+    if next(newPetBuff) then
+      Net:SendProto("pet.info", function(json)
+        for k, v in pairs(json.pet) do
+          PlayerData:GetHomeInfo().pet[k] = v
+        end
+        UIManager:Open("UI/HomePet/Screen_GetTies", Json.encode(newPetBuff))
+      end, petIds)
+    end
   end,
   awake = function()
   end,

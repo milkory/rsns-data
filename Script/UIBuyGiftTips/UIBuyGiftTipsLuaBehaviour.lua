@@ -60,15 +60,24 @@ local Init = function()
     View.Group_Moon.Group_Time.self:SetActive(false)
     if PlayerData.ServerData.monthly_card and PlayerData.ServerData.monthly_card["11400018"] then
       local t = PlayerData.ServerData.monthly_card["11400018"]
-      if t.reward_date == nil or t.reward_date == "" then
-        t.reward_date = os.date("%Y-%m-%d %H:%M:%S", TimeUtil:GetFutureTime(0, 6))
+      local diff = 0
+      if t.reward_ts then
+        if t.reward_ts <= t.deadline then
+          diff = t.deadline - t.reward_ts
+        end
+      else
+        if t.reward_date == nil or t.reward_date == "" then
+          t.reward_date = os.date("%Y-%m-%d %H:%M:%S", TimeUtil:GetFutureTime(0, 6))
+        end
+        local lastTime = os.time(TimeUtil:GetTimeTable(t.reward_date))
+        if lastTime <= t.deadline then
+          diff = t.deadline - lastTime
+        end
       end
-      local lastTime = os.time(TimeUtil:GetTimeTable(t.reward_date))
-      if lastTime <= t.deadline then
-        local diff = t.deadline - lastTime
+      if 0 < diff then
         local time = TimeUtil:SecondToTable(diff)
         View.Group_Moon.Group_Time.self:SetActive(true)
-        View.Group_Moon.Group_Time.Txt_Time:SetText(string.format(GetText(80601102), time.day))
+        View.Group_Moon.Group_Time.Txt_Time:SetText(string.format(GetText(80601102), time.day - 1))
       end
     end
     local Content = View.Group_Moon.ScrollView_List.Viewport.Content

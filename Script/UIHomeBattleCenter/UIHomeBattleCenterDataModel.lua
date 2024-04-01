@@ -642,7 +642,7 @@ function DataModel:ShowTicketProfit(state)
   if state and self.curStage then
     View.Group_Ticket.Group_TicketProfit.Group_information.Group_profit.Img_today.Img_jinbi.Txt_num:SetText(self.park.ticket)
     View.Group_Ticket.Group_TicketProfit.Group_information.Group_profit.Img_nextday.Img_jinbi.Txt_num:SetText(self.StationCA.added)
-    View.Group_Ticket.Group_TicketProfit.Group_information.Group_profit.Img_tax.Txt_num:SetText(DataModel.GetSaveDecimalString((self.park.tax < 0 and 0 or self.park.tax) * 100) .. "%")
+    View.Group_Ticket.Group_TicketProfit.Group_information.Group_profit.Img_tax.Txt_num:SetText(ClearFollowZero((self.park.tax < 0 and 0 or self.park.tax) * 100) .. "%")
     local curDay = PlayerData:GetFactoryData(self.StationId, "HomeStationFactory").travelDay
     View.Group_Ticket.Group_TicketProfit.Group_title.Img_fate.Txt_num1:SetText(math.floor(curDay / 10))
     View.Group_Ticket.Group_TicketProfit.Group_title.Img_fate.Txt_num2:SetText(curDay % 10)
@@ -651,9 +651,9 @@ function DataModel:ShowTicketProfit(state)
     local baseDivide = self.StationCA.divide
     local maxDivide = self.StationCA.maxDivide
     View.Group_Ticket.Group_TicketProfit.Group_information.Group_circle.Group_maximum.Txt_:SetText(string.format("最大值%.0f%%", maxDivide * 100))
-    View.Group_Ticket.Group_TicketProfit.Group_information.Img_divide.Txt_num:SetText(DataModel.GetSaveDecimalString(self.park.divide * 100) .. "%")
-    View.Group_Ticket.Group_TicketProfit.Group_information.Group_circle.Group_original.Txt_num:SetText(DataModel.GetSaveDecimalString(baseDivide * 100) .. "%")
-    View.Group_Ticket.Group_TicketProfit.Group_information.Group_circle.Group_added.Txt_num:SetText(DataModel.GetSaveDecimalString((self.park.divide - baseDivide) * 100) .. "%")
+    View.Group_Ticket.Group_TicketProfit.Group_information.Img_divide.Txt_num:SetText(ClearFollowZero(self.park.divide * 100) .. "%")
+    View.Group_Ticket.Group_TicketProfit.Group_information.Group_circle.Group_original.Txt_num:SetText(ClearFollowZero(baseDivide * 100) .. "%")
+    View.Group_Ticket.Group_TicketProfit.Group_information.Group_circle.Group_added.Txt_num:SetText(ClearFollowZero((self.park.divide - baseDivide) * 100) .. "%")
     View.Group_Ticket.Group_TicketProfit.Group_information.Group_circle.Group_original.Img_original:SetFilledImgAmount(baseDivide / maxDivide)
     View.Group_Ticket.Group_TicketProfit.Group_information.Group_circle.Group_added.Img_added:SetFilledImgAmount((self.park.divide - baseDivide) / maxDivide)
     View.Group_Ticket.Group_TicketProfit.Group_information.Group_circle.Group_added.Img_added.transform.localRotation = Quaternion.Euler(0, 0, 360 * baseDivide / maxDivide)
@@ -713,23 +713,74 @@ function DataModel:ShowInvestment(state)
   end
   local stationCA = PlayerData:GetFactoryData(self.StationId, "HomeStationFactory")
   View.Group_Ticket.Group_Investment.Group_information.Group_grossInvestment.Txt_num:SetText(self.park.gold)
-  View.Group_Ticket.Group_Investment.Group_information.Group_divide.Txt_num:SetText(DataModel.GetSaveDecimalString((self.park.divide - stationCA.divide) * 100) .. "%")
+  View.Group_Ticket.Group_Investment.Group_information.Group_divide.Txt_num:SetText(ClearFollowZero((self.park.divide - stationCA.divide) * 100) .. "%")
   local tax = 0
   if self.park.tax >= stationCA.tax then
     tax = self.park.tax - stationCA.tax
   else
     tax = math.abs(self.park.tax - stationCA.tax) > stationCA.tax and -stationCA.tax or self.park.tax - stationCA.tax
   end
-  View.Group_Ticket.Group_Investment.Group_information.Group_tax.Txt_num:SetText(DataModel.GetSaveDecimalString(tax * 100) .. "%")
+  View.Group_Ticket.Group_Investment.Group_information.Group_tax.Txt_num:SetText(ClearFollowZero(tax * 100) .. "%")
   View.Group_Ticket.Group_Investment.Group_information.Group_ticket.Txt_num:SetText(self.park.ticket - stationCA.parkTicket)
   View.Group_Ticket.Group_Investment.Img_investmenticon.Txt_investmentTime:SetText(string.format("剩余投资次数:%d", self.park.investmentNum))
   View.Group_Ticket.Group_Investment.ScrollGrid_List.grid.self:SetDataCount(table.count(self.park.pond))
   View.Group_Ticket.Group_Investment.ScrollGrid_List.grid.self:RefreshAllElement()
 end
 
-function DataModel.GetSaveDecimalString(num)
-  local a = string.format("%0.4f", num)
-  return a:gsub("(%.%d*[1-9])0+$", "%1"):gsub("%.0*$", "")
+function DataModel.IsInvestTipsShow(pondId)
+  local time = PlayerData:GetPlayerPrefs("int", "ParkInvest")
+  if time == 0 or time < PlayerData:GetSeverTime() then
+    local pondCfg = PlayerData:GetFactoryData(pondId, "PondFactory")
+    local addConstructNum = 0
+    if pondCfg.build and pondCfg.build[1] then
+      addConstructNum = pondCfg.build[1].num
+    end
+    local constructMax = addConstructNum ~= 0 and PlayerData:GetConstructionProportion(DataModel.StationId) >= DataModel.curStage.constructNum
+    if constructMax then
+      return 80602598
+    end
+    local ticketMax = pondCfg.ticket ~= 0 and DataModel.park.ticket >= DataModel.park.maxTicket
+    if ticketMax then
+      return 80602599
+    end
+    local taxMax = pondCfg.tax ~= 0 and 0 >= DataModel.park.tax
+    if taxMax then
+      return 80602600
+    end
+    local divideMax = pondCfg.divide ~= 0 and DataModel.park.divide >= DataModel.StationCA.maxDivide
+    if divideMax then
+      return 80602601
+    end
+  end
+  return 0
+end
+
+function DataModel.IsInvestTipsShow(pondId)
+  local time = PlayerData:GetPlayerPrefs("int", "ParkInvest")
+  if time == 0 or time < PlayerData:GetSeverTime() then
+    local pondCfg = PlayerData:GetFactoryData(pondId, "PondFactory")
+    local addConstructNum = 0
+    if pondCfg.build and pondCfg.build[1] then
+      addConstructNum = pondCfg.build[1].num
+    end
+    local constructMax = addConstructNum ~= 0 and PlayerData:GetConstructionProportion(DataModel.StationId) >= DataModel.curStage.constructNum
+    if constructMax then
+      return 80602598
+    end
+    local ticketMax = pondCfg.ticket ~= 0 and DataModel.park.ticket >= DataModel.park.maxTicket
+    if ticketMax then
+      return 80602599
+    end
+    local taxMax = pondCfg.tax ~= 0 and 0 >= DataModel.park.tax
+    if taxMax then
+      return 80602600
+    end
+    local divideMax = pondCfg.divide ~= 0 and DataModel.park.divide >= DataModel.StationCA.maxDivide
+    if divideMax then
+      return 80602601
+    end
+  end
+  return 0
 end
 
 function DataModel:OpenConstructStage()

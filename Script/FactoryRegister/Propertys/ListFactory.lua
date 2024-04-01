@@ -1312,8 +1312,8 @@ RegProperty("ListFactory", {
   {
     name = "func",
     type = "Enum",
-    des = "功能||OpenUI:打开界面,OpenScene:打开店铺,OpenDialog:播放剧情,OpenDungeon:进入副本,OpenLevel:进入关卡,Tips:显示提示,OpenBuilding:打开建筑,OpenLevelDetail:打开关卡详情,OpenCityMap:打开城市地图",
-    arg0 = "OpenUI#OpenScene#OpenDialog#OpenDungeon#OpenLevel#Tips#OpenBuilding#OpenCityMap",
+    des = "功能||OpenUI:打开界面,OpenScene:打开店铺,OpenDialog:播放剧情,OpenDungeon:进入副本,OpenLevel:进入关卡,Tips:显示提示,OpenBuilding:打开建筑,OpenLevelDetail:打开关卡详情,OpenCityMap:打开城市地图,Guide:执行引导",
+    arg0 = "OpenUI#OpenScene#OpenDialog#OpenDungeon#OpenLevel#Tips#OpenBuilding#OpenCityMap#Guide",
     arg1 = "OpenUI",
     pyIgnore = true
   },
@@ -1378,7 +1378,7 @@ RegProperty("ListFactory", {
     name = "metaId",
     type = "Factory",
     des = "功能对应metaID",
-    arg0 = "ListFactory",
+    arg0 = "ListFactory#GuideFactory",
     pyIgnore = true
   },
   {

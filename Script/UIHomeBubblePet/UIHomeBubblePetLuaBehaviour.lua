@@ -1,6 +1,7 @@
 local View = require("UIHomeBubblePet/UIHomeBubblePetView")
 local DataModel = require("UIHomeBubblePet/UIHomeBubblePetDataModel")
 local ViewFunction = require("UIHomeBubblePet/UIHomeBubblePetViewFunction")
+local PetInfoData = require("UIPetInfo/UIPetInfoDataModel")
 local Luabehaviour = {
   serialize = function()
   end,
@@ -25,7 +26,9 @@ local Luabehaviour = {
         local name = petData.name ~= "" and petData.name or PlayerData:GetFactoryData(petData.id, "PetFactory").petName
         View.Group_Panel.Img_BubbleBG.Group_Title.Txt_Title:SetText(name)
         View.Group_Panel.Img_BubbleBG.Group_List.Group_Attribute1.Group_Level.Txt_Scores:SetText(petData.lv)
-        View.Group_Panel.Img_BubbleBG.Group_List.Group_Attribute2.Txt_Scores:SetText("+" .. PlayerData.GetPetScores(DataModel.uId))
+        local petInfo = PlayerData:GetHomeInfo().pet[DataModel.uId]
+        local scores = ClearFollowZero(PetInfoData.CalPetScores(petInfo))
+        View.Group_Panel.Img_BubbleBG.Group_List.Group_Attribute2.Txt_Scores:SetText("+" .. scores)
       end
     end
   end,

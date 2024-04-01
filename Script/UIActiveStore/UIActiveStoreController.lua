@@ -52,10 +52,12 @@ function Controller:Init(isFirst)
         coroutine.yield(CS.UnityEngine.WaitForEndOfFrame())
         View.Group_Right.NewScrollGrid_CommodityList.grid.self:SetDataCount(table.count(DataModel.StoreList))
         View.Group_Right.NewScrollGrid_CommodityList.grid.self:RefreshAllElement()
+        View.Group_Right.NewScrollGrid_CommodityList.grid.self:MoveToTop()
       end))
     else
       View.Group_Right.NewScrollGrid_CommodityList.grid.self:SetDataCount(table.count(DataModel.StoreList))
       View.Group_Right.NewScrollGrid_CommodityList.grid.self:RefreshAllElement()
+      View.Group_Right.NewScrollGrid_CommodityList.grid.self:MoveToTop()
     end
   else
     print_r("策划缺少配置StoreCA.shopList")

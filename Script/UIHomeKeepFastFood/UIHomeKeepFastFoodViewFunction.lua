@@ -716,12 +716,11 @@ local ViewFunction = {
     local cfg = PlayerData:GetFactoryData(data[elementIndex].id)
     element.Img_Food:SetSprite(cfg.foodImagePath)
     element.Txt_Title:SetText(cfg.name)
-    element.Txt_Title:SetText(cfg.name)
-    element.Img_BGPicked.Txt_Des:SetText(cfg.des)
-    element.Img_BGUnpicked.Txt_Des:SetText(cfg.des)
+    element.Img_Picked.Group_Price.Txt_Num:SetText(cfg.cost[1].num)
     element.Group_Price.Txt_Num:SetText(cfg.cost[1].num)
     element.Btn_:SetClickParam(elementIndex)
-    element.Img_BGPicked:SetActive(DataModel.selectIndex == elementIndex)
+    element.Img_Picked:SetActive(DataModel.selectIndex == elementIndex)
+    element.Img_Type:SetSprite(cfg.battleBuffImagePath)
   end,
   HomeKeepFastFood_ScrollGrid_Ramen_Group_Item_Btn__Click = function(btn, str)
     if DataModel.selectIndex == nil then

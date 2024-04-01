@@ -24,7 +24,8 @@ local DataModel = {
   EndTime = 0,
   StateEnter = EnumDefine.TrainStateEnter.None,
   CurrDriveDistance = 0,
-  DisplayTrainState = DisplayTrainState.None
+  DisplayTrainState = DisplayTrainState.None,
+  lastStopDistance = -1
 }
 
 function DataModel.InitModel()
@@ -85,7 +86,7 @@ end
 
 function DataModel.GetCurrTravelDis()
   if DataModel.GetInTravel() then
-    if PlayerData:GetHomeInfo().station_info.stop_info[2] ~= -1 and PlayerData:GetHomeInfo().station_info.stop_info[2] ~= -2 then
+    if PlayerData:GetHomeInfo().station_info.status ~= -1 and PlayerData:GetHomeInfo().station_info.status ~= -2 then
       DataModel.CurrDriveDistance = DataModel.TravelTotalDistance - TrainManager.RemainDistance + PlayerData:GetHomeInfo().drive_distance
       return DataModel.TravelTotalDistance - TrainManager.RemainDistance + PlayerData:GetHomeInfo().drive_distance
     end
@@ -137,8 +138,15 @@ function DataModel.RefreshDisplayTrainInfo(stateEnter)
         if TrainManager.DisplayTrainCtrl.CarLength == 0 then
           TrainManager.DisplayTrainCtrl.CarLength = -1
         end
-        TrainManager:NextPlayerDisplayTrainEnv(allData)
-        DataModel.DisplayTrainState = DisplayTrainState.AddSpeed
+        local internal = CS.FRef.getProperty(TrainManager, "InternalTrainManager")
+        if internal.DisplayTrainCtrl.Owner.InnerTrainCtrl.FirstTrain.PathIndex < internal.DisplayTrainCtrl.Owner.PathInfos.Count then
+          print_r("pathIndex:" .. internal.DisplayTrainCtrl.Owner.InnerTrainCtrl.FirstTrain.PathIndex .. ",PathInfo.Count:" .. internal.DisplayTrainCtrl.Owner.PathInfos.Count)
+          TrainManager:NextPlayerDisplayTrainEnv(allData)
+          DataModel.DisplayTrainState = DisplayTrainState.AddSpeed
+        else
+          print_r("展示列车数组越界数组越界,pathIndex:" .. internal.DisplayTrainCtrl.Owner.InnerTrainCtrl.FirstTrain.PathIndex .. ",PathInfo.Count:" .. internal.DisplayTrainCtrl.Owner.PathInfos.Count)
+          DataModel.DisplayTrainState = DisplayTrainState.None
+        end
       else
         DataModel.DisplayTrainState = DisplayTrainState.None
       end
@@ -266,6 +274,28 @@ function DataModel.IsReturn()
   end
 end
 
+function DataModel.RefreshRushStatus()
+  if DataModel.GetInTravel() == false then
+    return
+  end
+  if DataModel.TrainState ~= TrainState.Rush then
+    return
+  end
+  local UIMainUIDataModelTemp = require("UIMainUI/UIMainUIDataModel")
+  local remainTime = UIMainUIDataModelTemp.RushServerTime - TimeUtil:GetServerTimeStamp()
+  if remainTime < 0 then
+    remainTime = 0
+  end
+  local internal = CS.FRef.getProperty(TrainManager, "InternalTrainManager")
+  local curFsm = CS.FRef.getProperty(internal.InnerTrainCtrl.StateCtrl, "CurrFsm")
+  local rushFsm = CS.FRef.getProperty(curFsm, "_currState")
+  local passTime = CS.FRef.getProperty(rushFsm, "_passTime")
+  if passTime == nil then
+    return
+  end
+  CS.FRef.setProperty(rushFsm, "_passTime", remainTime)
+end
+
 function DataModel.Refresh3DTravelInfoNew(stateEnter, isAstern)
   local station_info = PlayerData:GetHomeInfo().station_info
   local curTime = TimeUtil:GetServerTimeStamp()
@@ -309,7 +339,7 @@ function DataModel.Refresh3DTravelInfoNew(stateEnter, isAstern)
     elseif targetSpeed > currSpeed then
       trainState = TrainState.AddSpeed
     end
-  elseif station_info.stop_info[2] == -1 then
+  elseif station_info.status == -1 then
     DataModel.CurStayCity = tonumber(station_info.stop_info[1])
     DataModel.EndCity = DataModel.CurStayCity
     trainState = TrainState.None
@@ -425,11 +455,97 @@ function DataModel.GetServerSpeed()
   return speed
 end
 
+function DataModel.GetStartDriveTime()
+  local station_info = PlayerData:GetHomeInfo().station_info
+  if station_info.speed_status == nil or station_info.speed_status[1] == nil or station_info.speed_status[1][1] == nil then
+    return 0
+  end
+  return station_info.speed_status[1][1]
+end
+
+function DataModel.GetRemainDistance()
+  local curTime = TimeUtil:GetServerTimeStamp()
+  local remainDis = DataModel.GetRemainDistanceStop(curTime) or -1
+  if 0 <= remainDis then
+    return remainDis
+  else
+    remainDis = DataModel.GetRemainDistanceRun(curTime)
+    return remainDis
+  end
+end
+
+function DataModel.GetRemainDistanceStop(time)
+  if (time or 0) >= DataModel.EndTime then
+    return 0
+  end
+  local total = 0
+  for i = #DataModel.Path, 1, -1 do
+    total = total + DataModel.Path[i].length
+  end
+  local station_info = PlayerData:GetHomeInfo().station_info
+  if station_info.stop_info == nil or station_info.stop_info[2] == nil or station_info.stop_info[1] == nil or station_info.stop_info[1] == "" then
+    return -1
+  end
+  local curStation = tonumber(station_info.stop_info[1])
+  local remains = 0
+  for i = 1, #DataModel.Path do
+    if DataModel.Path[i].targetId ~= curStation then
+      remains = remains + DataModel.Path[i].length
+    else
+      remains = remains + (DataModel.Path[i].length - station_info.stop_info[2])
+    end
+  end
+  remains = total - remains
+  return remains
+end
+
+function DataModel.GetRemainDistanceRun(time)
+  if time >= DataModel.EndTime then
+    return 0
+  end
+  local station_info = PlayerData:GetHomeInfo().station_info
+  local speedRatio = DataModel.SpeedRatio or PlayerData:GetFactoryData(99900014, "ConfigFactory").speedRatio
+  local distance = 0
+  local total = 0
+  for i = #DataModel.Path, 1, -1 do
+    total = total + DataModel.Path[i].length
+  end
+  if station_info.passed ~= nil then
+    total = total - station_info.passed
+  end
+  local currIndex
+  if station_info.speed_status and table.count(station_info.speed_status) ~= 0 then
+    table.sort(station_info.speed_status, function(a, b)
+      if a[1] < b[1] then
+        return true
+      end
+      return false
+    end)
+    local spCnt = #station_info.speed_status
+    for i = 1, #station_info.speed_status - 1 do
+      if time > station_info.speed_status[i][1] and time >= station_info.speed_status[i + 1][1] then
+        distance = distance + station_info.speed_status[i][2] * (station_info.speed_status[i + 1][1] - station_info.speed_status[i][1]) / speedRatio
+      elseif time >= station_info.speed_status[i][1] and time <= station_info.speed_status[i + 1][1] then
+        distance = distance + station_info.speed_status[i][2] * (time - station_info.speed_status[i][1]) / speedRatio
+        currIndex = i
+        break
+      end
+    end
+    if time >= station_info.speed_status[spCnt][1] then
+      currIndex = spCnt
+      distance = distance + station_info.speed_status[spCnt][2] * (time - station_info.speed_status[spCnt][1]) / speedRatio
+    end
+    if currIndex == nil then
+      distance = distance + station_info.speed_status[1][2] * (time - station_info.speed_status[1][1]) / speedRatio
+    end
+  else
+    distance = 0
+  end
+  return total - distance < 0 and 0 or total - distance, currIndex or 0
+end
+
 function DataModel.GetPath(stateEnter)
   local station_info = PlayerData:GetHomeInfo().station_info
-  local curTime = TimeUtil:GetServerTimeStamp()
-  local speedRatio = DataModel.SpeedRatio or PlayerData:GetFactoryData(99900014, "ConfigFactory").speedRatio
-  local remainDis = DataModel.DistanceToLastStation ~= 0 and DataModel.DistanceToLastStation or (0 > DataModel.EndTime - curTime and 0 or DataModel.EndTime - curTime) * DataModel.Speed / speedRatio
   local index = 0
   local count = #DataModel.DriveLine
   if stateEnter ~= EnumDefine.TrainStateEnter.Refresh and stateEnter ~= EnumDefine.TrainStateEnter.ApplicationQuit and stateEnter ~= EnumDefine.TrainStateEnter.BattleFinish then
@@ -489,6 +605,12 @@ function DataModel.GetPath(stateEnter)
         lineId = lineId
       })
     end
+  end
+  local remainDis = 0
+  if DataModel.DistanceToLastStation ~= 0 then
+    remainDis = DataModel.DistanceToLastStation
+  else
+    remainDis = DataModel.GetRemainDistance()
   end
   for i = #DataModel.Path, 1, -1 do
     local length = DataModel.Path[i].length
@@ -632,6 +754,17 @@ function DataModel.SetTrainMode(callback)
       end
       TrainCameraManager:SetPostProcessing(1, MainDataModel.CurShowSceneInfo.postProcessingPath)
       FixAdBoard()
+      local MainDataModel = require("UIMainUI/UIMainUIDataModel")
+      if MainDataModel.justArrived == true then
+        local path = TrainWeaponTag.GetTrainTimelineList()
+        for i, v in pairs(path) do
+          if 0 < v then
+            local timeLine = require("Common/TimeLine")
+            timeLine.LoadTimeLine(v)
+          end
+        end
+        MainDataModel.justArrived = false
+      end
     else
       if (not (DataModel.StateEnter ~= EnumDefine.TrainStateEnter.FirstLogin and DataModel.StateEnter ~= EnumDefine.TrainStateEnter.DriveNew or TrainManager.IsRunning) or DataModel.StateEnter == EnumDefine.TrainStateEnter.BattleFinish) and not PlayerData.TempCache.SendArrive and not PlayerData.GetIsTest() then
         TrainManager:ChangeBasicState(DataModel.TrainState, DataModel.Index, DataModel.RemainDis, DataModel.CurrSpeed, DataModel.TargetSpeed)

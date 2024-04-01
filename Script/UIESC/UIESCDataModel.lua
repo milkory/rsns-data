@@ -23,7 +23,9 @@ function DataModel.InitFuncShowList()
       t.prefab = v.prefab
       t.param = v.param
       table.insert(DataModel.FuncShowList, t)
-      if v.name == "环游手册" and TimeUtil:LastTime(PlayerData:GetFactoryData(82500002).PassEndTime) < 0 then
+      local initConfig = PlayerData:GetFactoryData(99900007, "ConfigFactory")
+      local battlePass = PlayerData:GetFactoryData(initConfig.BattlePassId, "BattlePassFactory")
+      if v.name == "环游手册" and not TimeUtil:IsActive(battlePass.PassStartTime, battlePass.PassEndTime) then
         table.remove(DataModel.FuncShowList, table.count(DataModel.FuncShowList))
       end
       local isNotChannelDefault = SdkHelper.IsNotChannelDefault()

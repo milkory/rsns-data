@@ -103,9 +103,9 @@ function DataModel:OnCostListSetGrid(element, elementIndex)
   local commodityCA = PlayerData:GetFactoryData(commodityId)
   local costId = commodityCA.moneyList[elementIndex].moneyID
   local costNum = commodityCA.moneyList[elementIndex].moneyNum
-  element.Group_Num.Txt_Num2:SetText(PlayerData:TransitionNum(costNum))
+  element.Group_Num.Txt_Num2:SetText(PlayerData:NumToFormatString(costNum, 1))
   local hasNum = PlayerData:GetGoodsById(costId).num
-  element.Group_Num.Txt_Num1:SetText(PlayerData:TransitionNum(hasNum))
+  element.Group_Num.Txt_Num1:SetText(PlayerData:NumToFormatString(hasNum, 1))
   if costNum > hasNum then
     DataModel.isEnough = false
     element.Group_Num.Txt_Num1:SetColor("#FF0000")
@@ -198,7 +198,6 @@ function DataModel:RefreshCommondityInfo()
         if group then
           group:SetActive(true)
           local entryCA = PlayerData:GetFactoryData(growUpEntryList[i].id)
-          group.Txt_Name:SetText(entryCA.name)
           local desStr = entryCA.text
           local paramA
           if entryCA.aTypeInt == 1 then
@@ -224,7 +223,9 @@ function DataModel:RefreshCommondityInfo()
           else
             paramB = entryCA.bNumMin * entryCA.bCommonNum
           end
-          group.Txt_Entry:SetText(string.format(desStr, PlayerData:GetPreciseDecimalFloor(paramA, 2), PlayerData:GetPreciseDecimalFloor(paramB, 2)))
+          local txtFormat = GetText(80603024)
+          local desStr = string.format(desStr, PlayerData:GetPreciseDecimalFloor(paramA, 2), PlayerData:GetPreciseDecimalFloor(paramB, 2))
+          group.Txt_Entry:SetText(string.format(txtFormat, entryCA.name, desStr))
         end
       end
       for i = #growUpEntryList + 1, content.Group_SpecialTitle.Group_SpecialEntry.self.transform.childCount do

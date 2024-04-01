@@ -161,6 +161,27 @@ local Luabehaviour = {
     if MapNeedleEventData.event then
       View.Group_CommonTopLeft.Btn_Home:SetActive(false)
     end
+    local buff = PlayerData:GetCurStationStoreBuff(EnumDefine.HomeSkillEnum.HomeBattleBuff)
+    DataModel.ramenBuff = buff
+    if buff ~= nil then
+      local buffCA = PlayerData:GetFactoryData(buff.id, "HomeBuffFactory")
+      local name = buffCA.name
+      View.Group_BuffTips.Group_Des.Group_Battle.Txt_Tips1:SetText(name)
+      local desc = buffCA.desc
+      local skillCA = PlayerData:GetFactoryData(buffCA.battleBuff, "SkillFactory")
+      if skillCA ~= nil then
+        desc = skillCA.description
+        local skillParam = skillCA.desParamList[1]
+        if skillParam ~= nil then
+          if skillParam.isPercent then
+            desc = string.format(desc, PlayerData:GetPreciseDecimalFloor(skillParam.param * 100, 1))
+          else
+            desc = string.format(desc, PlayerData:GetPreciseDecimalFloor(skillParam.param, 1))
+          end
+        end
+      end
+      View.Group_BuffTips.Group_Des.Group_Battle.Txt_Dec:SetText(string.format(GetText(80606871), desc))
+    end
   end,
   awake = function()
     DataModel.playAni = true
@@ -168,6 +189,32 @@ local Luabehaviour = {
   start = function()
   end,
   update = function()
+    local buff = DataModel.ramenBuff
+    if buff ~= nil then
+      View.Group_CardYard_Open.Btn_BattleBuff.self:SetActive(true)
+      if buff.endTime and buff.endTime > 0 then
+        View.Group_CardYard_Open.Btn_BattleBuff.Txt_:SetActive(true)
+        View.Group_BuffTips.Group_Des.Group_Battle.Img_1:SetActive(true)
+        View.Group_BuffTips.Group_Des.Group_Battle.Img_:SetActive(true)
+        View.Group_BuffTips.Group_Des.Group_Battle.Txt_Time:SetActive(true)
+        local remainTime = buff.endTime - TimeUtil:GetServerTimeStamp()
+        if 0 < remainTime then
+          local timeStr = string.format(GetText(80600773), math.ceil(remainTime / 60))
+          View.Group_CardYard_Open.Btn_BattleBuff.Txt_:SetText(timeStr)
+          View.Group_BuffTips.Group_Des.Group_Battle.Txt_Time:SetText(timeStr)
+        else
+          DataModel.ramenBuff = nil
+        end
+      else
+        View.Group_CardYard_Open.Btn_BattleBuff.Txt_:SetActive(false)
+        View.Group_BuffTips.Group_Des.Group_Battle.Img_1:SetActive(false)
+        View.Group_BuffTips.Group_Des.Group_Battle.Img_:SetActive(false)
+        View.Group_BuffTips.Group_Des.Group_Battle.Txt_Time:SetActive(false)
+      end
+    else
+      View.Group_CardYard_Open.Btn_BattleBuff.self:SetActive(false)
+      View.Group_BuffTips.self:SetActive(false)
+    end
   end,
   ondestroy = function()
     DataController:ClearGridProperty(View.StaticGrid_List.grid)

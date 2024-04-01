@@ -7,7 +7,11 @@ function PlotChangeBg:Ctor()
 end
 
 function PlotChangeBg:OnStart(ca)
-  local bgRes = ca.bgResUrl
+  local pathList = string.split(ca.bgResUrl, "|")
+  local bgRes = pathList[1]
+  if DataModel.isBoy == false and pathList[2] and pathList[2] ~= "" then
+    bgRes = pathList[2]
+  end
   local spineUrl = ca.spineUrl
   if spineUrl == nil or spineUrl == "" then
     View.Group_Shake.SpineAnimation_BG:SetActive(false)

@@ -133,10 +133,10 @@ RegProperty("TagFactory", {
     name = "ties",
     type = "Array",
     des = "羁绊",
-    detail = "tiesName#weight"
+    detail = "id#weight"
   },
   {
-    name = "tiesName",
+    name = "id",
     type = "Factory",
     des = "羁绊名",
     arg0 = "TagFactory#ListFactory"
@@ -334,6 +334,14 @@ RegProperty("TagFactory", {
     name = "tagName",
     type = "String",
     des = "名称",
+    arg0 = "",
+    pyIgnore = true
+  },
+  {
+    mod = "卡池大保底",
+    name = "recordTips",
+    type = "TextT",
+    des = "招募记录说明",
     arg0 = "",
     pyIgnore = true
   },

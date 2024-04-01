@@ -351,6 +351,21 @@ function CommonTips.OpenRewardDetail(id, row)
   if type == "SkinViewTips" then
     CommonTips.OpenSkinViewTips({id = id, isSkinView = true})
   end
+  if type == "FridgeItemTips" then
+    CommonTips.OpenItem({
+      itemId = id,
+      type = EnumDefine.OpenTip.NoDepot
+    })
+  end
+  if type == "FurnitureTips" then
+    CommonTips.OpenFurnitureTip(id, 0)
+  end
+  if type == "DressTips" then
+    CommonTips.OpenDressTips(id)
+  end
+  if type == "PhotoTips" then
+    CommonTips.OpenPhotoItemTips(id)
+  end
   if type == "CardTips" then
     local cardId = tonumber(id)
     UIManager:Open("UI/CollectionCard/CollectionCard_Tips", Json.encode({cardId = cardId}))

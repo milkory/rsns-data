@@ -42,6 +42,13 @@ function MapNeedleData.ResetData()
 end
 
 function MapNeedleData.CheckQuest(questId)
+  local questCA = PlayerData:GetFactoryData(questId, "QuestFactory")
+  if questCA.activityId and questCA.activityId > 0 then
+    local activityCfg = PlayerData:GetFactoryData(questCA.activityId, "ActivityFactory")
+    if not TimeUtil:IsActive(activityCfg.startTime, activityCfg.endTime) then
+      return false
+    end
+  end
   return PlayerData.GetQuestState(questId) == EnumDefine.EQuestState.UnFinish
 end
 
@@ -217,9 +224,21 @@ end
 
 function MapNeedleData.GoHome()
   if MapSessionManager.currentSession then
+    local mainDataModel = require("UIMainUI/UIMainUIDataModel")
+    mainDataModel.SetCamera(PlayerData.FreeCameraIndex)
     MapSessionManager:GobackToMainScene()
   else
     UIManager:GoHome()
+  end
+end
+
+function MapNeedleData.GoBack()
+  if MapSessionManager.currentSession then
+    local mainDataModel = require("UIMainUI/UIMainUIDataModel")
+    mainDataModel.SetCamera(PlayerData.FreeCameraIndex)
+    MapSessionManager:Goback()
+  else
+    UIManager:GoBack()
   end
 end
 

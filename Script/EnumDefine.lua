@@ -137,6 +137,7 @@ local Enum = {
     RiseFliersSaveLimited = "RiseFliersSaveLimited",
     ReduceEscapeEnergy = "ReduceEscapeEnergy",
     RiseElectricLimited = "RiseElectricLimited",
+    RiseElectricMax = "RiseElectricMax",
     RiseDurabilityLimited = "RiseDurabilityLimited",
     RiseRushLimited = "RiseRushLimited",
     RiseSpaceLimited = "RiseSpaceLimited",
@@ -282,6 +283,11 @@ local Enum = {
     Finish = 1,
     Receive = 2,
     Lock = 3
+  },
+  EFurSkillRangeType = {
+    Furniture = "Furniture",
+    Carriage = "Carriage",
+    Train = "Train"
   }
 }
 return Enum

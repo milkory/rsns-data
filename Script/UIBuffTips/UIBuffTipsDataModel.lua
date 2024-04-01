@@ -17,7 +17,7 @@ function DataModel.InitData()
     DataModel.finalTargetNum = PlayerData:GetFactoryData(id, "QuestFactory").num
   end
   for i, v in ipairs(allStage) do
-    if 0 < v.buff or 1 < i and 0 < allStage[i - 1].buff then
+    if 0 < v.buff then
       local t = {}
       t.stageCfg = v
       t.stageIndex = i

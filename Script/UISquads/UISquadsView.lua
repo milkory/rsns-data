@@ -174,6 +174,11 @@ local Squads = {
       Txt_Num = nil,
       Txt_Line = nil,
       Txt_Unit = nil
+    },
+    Btn_BattleBuff = {
+      self = nil,
+      Txt_ = nil,
+      Img_icon = nil
     }
   },
   Group_CommonTopLeft = {
@@ -275,6 +280,23 @@ local Squads = {
       },
       Img_Remind = nil,
       Img_Selected = nil
+    }
+  },
+  Group_BuffTips = {
+    self = nil,
+    Btn_ = nil,
+    Group_Des = {
+      self = nil,
+      Img_ = nil,
+      Group_Battle = {
+        self = nil,
+        Img_Btm = nil,
+        Img_ = nil,
+        Img_1 = nil,
+        Txt_Tips1 = nil,
+        Txt_Dec = nil,
+        Txt_Time = nil
+      }
     }
   },
   Group_Slot = {
@@ -787,11 +809,7 @@ local Squads = {
     self = nil,
     Img_EffectMask = nil,
     Btn_Close = {self = nil, Img_ = nil},
-    Img_Mask = {
-      self = nil,
-      Img_B = nil,
-      Img_BG = nil
-    },
+    Img_Mask = {self = nil, Img_B = nil},
     InputField_ChangeName = {
       self = nil,
       Placeholder = nil,
@@ -1260,8 +1278,8 @@ local Squads = {
   },
   Group_ProvingGround = {
     self = nil,
-    Img_Blur = nil,
-    Img_Mask = nil,
+    Img_BG = nil,
+    Img_Btm = {self = nil, Img_T = nil},
     Group_EnemyDetail = {
       self = nil,
       Img_Mask = nil,
@@ -1270,9 +1288,12 @@ local Squads = {
       Group_Details = {
         self = nil,
         Txt_Name = nil,
+        Img_Title = nil,
+        Txt_Title = nil,
         Group_Des = {self = nil, Txt_battleDes = nil},
-        Txt_T = nil,
-        Img_Line = nil
+        Img_Line = nil,
+        Txt_NameEN = nil,
+        Img_Desc = nil
       },
       Group_Blank = nil
     },
@@ -1306,24 +1327,18 @@ local Squads = {
       },
       Img_RightArrow = nil,
       Img_LeftArrow = nil,
-      Txt_T = nil,
-      Img_T = nil
+      Img_S = {
+        self = nil,
+        Txt_ = nil,
+        Img_ = nil
+      }
     },
     Group_Challenge = {
       self = nil,
-      Btn_Start = {
-        self = nil,
-        Spine_Btn = nil,
-        Txt_ = nil
-      },
+      Btn_Start = {self = nil, Txt_ = nil},
       Group_Reward = {
         self = nil,
         Img_B = nil,
-        Img_Btm = nil,
-        Btn_Item = nil,
-        Txt_X = nil,
-        Txt_Num = nil,
-        Img_TBG = {self = nil, Txt_F = nil},
         Txt_R = nil,
         StaticGrid_Reward = {
           self = nil,
@@ -1344,7 +1359,6 @@ local Squads = {
               Img_Type01 = nil,
               Img_Type02 = nil,
               Img_Time = {self = nil, Txt_ = nil},
-              Img_Effect = nil,
               Group_EType = {
                 self = nil,
                 Img_IconBg = nil,
@@ -1358,7 +1372,8 @@ local Squads = {
               Group_Extra = {
                 self = nil,
                 Img_bg = {self = nil, Txt_txt = nil}
-              }
+              },
+              Group_Effect = nil
             },
             Img_Seleted = {self = nil, Img_ = nil},
             Img_Null = nil
@@ -1381,7 +1396,6 @@ local Squads = {
             Img_Type01 = nil,
             Img_Type02 = nil,
             Img_Time = {self = nil, Txt_ = nil},
-            Img_Effect = nil,
             Group_EType = {
               self = nil,
               Img_IconBg = nil,
@@ -1395,7 +1409,8 @@ local Squads = {
             Group_Extra = {
               self = nil,
               Img_bg = {self = nil, Txt_txt = nil}
-            }
+            },
+            Group_Effect = nil
           },
           Img_Seleted = {self = nil, Img_ = nil},
           Img_Null = nil
@@ -1403,6 +1418,7 @@ local Squads = {
       },
       Img_Received = nil
     },
+    Img_Title = {self = nil, Txt_ = nil},
     Group_CommonTopLeft = {
       self = nil,
       Btn_Return = nil,

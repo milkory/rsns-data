@@ -565,6 +565,8 @@ local ViewFunction = {
       UIMainUIDataModel.RefreshData(PlayerData.ServerData.user_home_info.coach)
       local HomeMapDataModel = require("UIHome/UIHomeMapDataModel")
       HomeMapDataModel.InitLineInfo()
+      local TradeDataModel = require("UIHome/UIHomeTradeDataModel")
+      TradeDataModel.lastStopDistance = TradeDataModel.GetRemainDistanceStop()
       if UseGSDK then
         local info = PlayerData:GetGameUploadInfo()
         GSDKManager:EnterGameUpload(info.RoleName, info.RoleLevel, info.Balance, info.Chapter)

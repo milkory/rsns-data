@@ -17,19 +17,6 @@ local DataModel = {
   QuestTrace = nil,
   ConstChildElementHeight = 420
 }
-local CheckQuestShow = function(id)
-  local questCA = PlayerData:GetFactoryData(id, "QuestFactory")
-  if questCA.parentQuest and questCA.parentQuest > 0 then
-    return false
-  end
-  if not QuestProcess.CheckQuestTime(id) then
-    return false
-  end
-  if not QuestProcess.CheckQuestPreQuestComplete(id) then
-    return false
-  end
-  return true
-end
 
 function DataModel.InitAllQuests(quests)
   DataModel.AllQuests = {}
@@ -127,7 +114,7 @@ function DataModel.InitAllQuests(quests)
         if questCA == nil then
           error("任务id:" .. id .. "不存在本地配置表,请检查配置")
         end
-        if CheckQuestShow(id) and questCA.parentQuest == -1 and v1.recv == 0 and v1.unlock == 1 then
+        if QuestProcess.CheckQuestShow(id) and questCA.parentQuest == -1 and v1.recv == 0 and v1.unlock == 1 then
           local localType = DataModel.QuestType[questCA.questType]
           local t = {}
           t.id = id

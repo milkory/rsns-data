@@ -898,8 +898,13 @@ end
 Protocol["pay.create_oid"] = function(productId, shopId)
   return {productId = productId, shopId = shopId}
 end
-Protocol["pay.ios_charge_refresh"] = function(receipt, out_trade_no)
-  return {receipt = receipt, out_trade_no = out_trade_no}
+Protocol["pay.ios_charge_refresh"] = function(receipt, out_trade_no, transactionId, failCb)
+  return {
+    receipt = receipt,
+    out_trade_no = out_trade_no,
+    transactionId = transactionId,
+    failCb = failCb
+  }
 end
 Protocol["pay.order_str"] = function(productId, shopId)
   return {productId = productId, shopId = shopId}
@@ -907,8 +912,15 @@ end
 Protocol["pay.query_oid"] = function(out_trade_no)
   return {out_trade_no = out_trade_no}
 end
-Protocol["pay.wx_order_str"] = function(productId, shopId)
-  return {productId = productId, shopId = shopId}
+Protocol["pay.wx_query_appid"] = function(channelFg)
+  return {channelFg = channelFg}
+end
+Protocol["pay.wx_order_str"] = function(productId, shopId, channelFg)
+  return {
+    productId = productId,
+    shopId = shopId,
+    channelFg = channelFg
+  }
 end
 Protocol["home.make_train_weapon"] = function(trainWeaponId, coachWeaponId)
   return {trainWeaponId = trainWeaponId, coachWeaponId = coachWeaponId}
@@ -1007,5 +1019,8 @@ Protocol["main.recv_activity"] = function(activityId, questId)
 end
 Protocol["home.unlock_drive_setup"] = function(setUpType)
   return {setUpType = setUpType}
+end
+Protocol["pet.info"] = function(petIds)
+  return {petIds = petIds}
 end
 return Protocol

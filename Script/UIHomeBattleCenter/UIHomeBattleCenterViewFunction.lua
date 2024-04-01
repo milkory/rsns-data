@@ -825,12 +825,12 @@ local ViewFunction = {
       obj.transform:Find("Txt_reward"):GetComponent(typeof(CS.Seven.UITxt)):SetText(reward.num .. rewardItemCfg.name)
     end
     local divideStr = tostring(pondCfg.divide * 100)
-    element.Img_bottom.Group_Reward.Group_RewardOther.Txt_Divide:SetActive(0 < pondCfg.divide)
-    element.Img_bottom.Group_Reward.Group_RewardOther.Txt_Divide:SetText("获得" .. DataModel.GetSaveDecimalString(pondCfg.divide * 100) .. "%奖励分成")
-    element.Img_bottom.Group_Reward.Group_RewardOther.Txt_Rate:SetActive(0 < math.abs(pondCfg.tax))
-    element.Img_bottom.Group_Reward.Group_RewardOther.Txt_Rate:SetText("获得" .. DataModel.GetSaveDecimalString(pondCfg.tax * 100) .. "%税率奖励")
-    element.Img_bottom.Group_Reward.Group_RewardOther.Txt_Ticket:SetActive(0 < pondCfg.ticket)
-    element.Img_bottom.Group_Reward.Group_RewardOther.Txt_Ticket:SetText(string.format("获得%d票价奖励", pondCfg.ticket))
+    element.Img_bottom.Group_Reward.Group_RewardOther.Txt_Divide:SetActive(pondCfg.divide ~= 0)
+    element.Img_bottom.Group_Reward.Group_RewardOther.Txt_Divide:SetText("获得" .. ClearFollowZero(pondCfg.divide * 100) .. "%分成提高奖励")
+    element.Img_bottom.Group_Reward.Group_RewardOther.Txt_Rate:SetActive(pondCfg.tax ~= 0)
+    element.Img_bottom.Group_Reward.Group_RewardOther.Txt_Rate:SetText("获得" .. ClearFollowZero(pondCfg.tax * 100) .. "%税率减少奖励")
+    element.Img_bottom.Group_Reward.Group_RewardOther.Txt_Ticket:SetActive(pondCfg.ticket ~= 0)
+    element.Img_bottom.Group_Reward.Group_RewardOther.Txt_Ticket:SetText(string.format("获得%d票价提升奖励", pondCfg.ticket))
   end,
   HomeBattleCenter_Group_Ticket_Group_Investment_ScrollGrid_List_Group_pond_Img_bottom_Btn_inverstment_Click = function(btn, str)
     if DataModel.park.investmentNum == 0 then
@@ -841,27 +841,31 @@ local ViewFunction = {
       Net:SendProto("station.donate", function(json)
         local pondCfg = PlayerData:GetFactoryData(DataModel.park.pond[tonumber(str)], "PondFactory")
         DataModel:DonateRefreshParkInfo(pondCfg)
-        local buildReward = false
-        if pondCfg.build then
-          for i, v in ipairs(pondCfg.build) do
-            if v.id == 11400075 then
-              View.Group_Ticket.Group_StageReward.Group_InvestReward.Group_Up.Group_build.Group_num.Txt_Num:SetText(v.num)
-              View.Group_Ticket.Group_StageReward.Group_InvestReward.Group_Up.Group_build.Group_num.Img_UP.transform.localScale = v.num > 0 and Vector3(1, 1, 1) or Vector3(1, -1, 1)
-              buildReward = true
-              break
-            end
-          end
-        end
-        View.Group_Ticket.Group_StageReward.Group_InvestReward.Group_Up.Group_build:SetActive(buildReward)
-        View.Group_Ticket.Group_StageReward.Group_InvestReward.Group_Up.Group_Divide.Group_num.Txt_Num:SetText(DataModel.GetSaveDecimalString(pondCfg.divide * 100) .. "%")
+        local constructMax = PlayerData:GetConstructionProportion(DataModel.StationId) >= DataModel.curStage.constructNum
+        local ticketMax = DataModel.park.ticket >= DataModel.park.maxTicket
+        local taxMax = DataModel.park.tax <= 0
+        local divideMax = DataModel.park.divide >= DataModel.StationCA.maxDivide
+        local constructNum = pondCfg.build[1] and pondCfg.build[1].num or 0
+        View.Group_Ticket.Group_StageReward.Group_InvestReward.Group_Up.Group_build:SetActive(constructNum ~= 0)
+        View.Group_Ticket.Group_StageReward.Group_InvestReward.Group_Up.Group_build.Group_num:SetActive(not constructMax)
+        View.Group_Ticket.Group_StageReward.Group_InvestReward.Group_Up.Group_build.Txt_Max:SetActive(constructMax)
+        View.Group_Ticket.Group_StageReward.Group_InvestReward.Group_Up.Group_build.Group_num.Txt_Num:SetText(constructNum)
+        View.Group_Ticket.Group_StageReward.Group_InvestReward.Group_Up.Group_build.Group_num.Img_UP.transform.localScale = 0 < constructNum and Vector3(1, 1, 1) or Vector3(1, -1, 1)
+        View.Group_Ticket.Group_StageReward.Group_InvestReward.Group_Up.Group_Divide:SetActive(pondCfg.divide ~= 0)
+        View.Group_Ticket.Group_StageReward.Group_InvestReward.Group_Up.Group_Divide.Group_num:SetActive(not divideMax)
+        View.Group_Ticket.Group_StageReward.Group_InvestReward.Group_Up.Group_Divide.Txt_Max:SetActive(divideMax)
+        View.Group_Ticket.Group_StageReward.Group_InvestReward.Group_Up.Group_Divide.Group_num.Txt_Num:SetText(ClearFollowZero(pondCfg.divide * 100) .. "%")
         View.Group_Ticket.Group_StageReward.Group_InvestReward.Group_Up.Group_Divide.Group_num.Img_UP.transform.localScale = 0 < pondCfg.divide and Vector3(1, 1, 1) or Vector3(1, -1, 1)
-        View.Group_Ticket.Group_StageReward.Group_InvestReward.Group_Up.Group_Divide:SetActive(0 < math.abs(pondCfg.divide))
-        View.Group_Ticket.Group_StageReward.Group_InvestReward.Group_Up.Group_Rate.Group_num.Txt_Num:SetText(DataModel.GetSaveDecimalString(pondCfg.tax * 100) .. "%")
-        View.Group_Ticket.Group_StageReward.Group_InvestReward.Group_Up.Group_Rate.Group_num.Img_UP.transform.localScale = 0 < pondCfg.tax and Vector3(1, 1, 1) or Vector3(1, -1, 1)
-        View.Group_Ticket.Group_StageReward.Group_InvestReward.Group_Up.Group_Rate:SetActive(0 < math.abs(pondCfg.tax))
+        View.Group_Ticket.Group_StageReward.Group_InvestReward.Group_Up.Group_Rate:SetActive(pondCfg.tax ~= 0)
+        View.Group_Ticket.Group_StageReward.Group_InvestReward.Group_Up.Group_Rate.Group_num:SetActive(not taxMax)
+        View.Group_Ticket.Group_StageReward.Group_InvestReward.Group_Up.Group_Rate.Txt_Max:SetActive(taxMax)
+        View.Group_Ticket.Group_StageReward.Group_InvestReward.Group_Up.Group_Rate.Group_num.Txt_Num:SetText(ClearFollowZero(pondCfg.tax * 100) .. "%")
+        View.Group_Ticket.Group_StageReward.Group_InvestReward.Group_Up.Group_Rate.Group_num.Img_UP.transform.localScale = pondCfg.tax > 0 and Vector3(1, 1, 1) or Vector3(1, -1, 1)
+        View.Group_Ticket.Group_StageReward.Group_InvestReward.Group_Up.Group_Ticket:SetActive(pondCfg.ticket ~= 0)
+        View.Group_Ticket.Group_StageReward.Group_InvestReward.Group_Up.Group_Ticket.Group_num:SetActive(not ticketMax)
+        View.Group_Ticket.Group_StageReward.Group_InvestReward.Group_Up.Group_Ticket.Txt_Max:SetActive(ticketMax)
         View.Group_Ticket.Group_StageReward.Group_InvestReward.Group_Up.Group_Ticket.Group_num.Txt_Num:SetText(pondCfg.ticket)
-        View.Group_Ticket.Group_StageReward.Group_InvestReward.Group_Up.Group_Ticket:SetActive(0 < math.abs(pondCfg.ticket))
-        View.Group_Ticket.Group_StageReward.Group_InvestReward.Group_Up.Group_Ticket.Group_num.Img_UP.transform.localScale = 0 < pondCfg.ticket and Vector3(1, 1, 1) or Vector3(1, -1, 1)
+        View.Group_Ticket.Group_StageReward.Group_InvestReward.Group_Up.Group_Ticket.Group_num.Img_UP.transform.localScale = pondCfg.ticket > 0 and Vector3(1, 1, 1) or Vector3(1, -1, 1)
         View.Group_Ticket.Group_StageReward:SetActive(true)
         View.Group_Ticket.Group_StageReward.Group_InvestReward:SetActive(false)
         View.Group_Ticket.Group_StageReward.Group_InvestReward:SetActive(true)
@@ -870,15 +874,9 @@ local ViewFunction = {
         DataModel:RefreshBySelectType(2)
       end, tonumber(str) - 1)
     end
-    local pondCfg = PlayerData:GetFactoryData(DataModel.park.pond[tonumber(str)], "PondFactory")
-    if DataModel.park.ticket >= DataModel.park.maxTicket then
-      CommonTips.OnPrompt(80602067, nil, nil, function()
-        callback()
-      end)
-    elseif DataModel.park.ticket + pondCfg.ticket >= DataModel.park.maxTicket then
-      CommonTips.OnPrompt(80602067, nil, nil, function()
-        callback()
-      end)
+    local txtId = DataModel.IsInvestTipsShow(DataModel.park.pond[tonumber(str)])
+    if 0 < txtId then
+      UIManager:Open("UI/HomeBattleCenter/Group_InvestTip", Json.encode({txtId = txtId}), callback)
     else
       callback()
     end

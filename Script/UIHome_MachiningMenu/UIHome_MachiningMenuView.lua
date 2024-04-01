@@ -8,14 +8,6 @@ local Home_MachiningMenu = {
     Txt_1 = nil,
     Img_Icon = nil
   },
-  Img_Bar = {
-    self = nil,
-    Txt_1 = nil,
-    Txt_Num = nil,
-    Txt_2 = nil,
-    Txt_3 = nil,
-    Img_4 = nil
-  },
   ScrollGrid_Furniture = {
     self = nil,
     grid = {
@@ -32,22 +24,14 @@ local Home_MachiningMenu = {
       Img_RedPoint = nil,
       Group_Able = {
         self = nil,
-        Img_Bubble = {
+        Btn_Goto = {
           self = nil,
-          Btn_Upgrade = {
-            self = nil,
-            Img_icon = nil,
-            Txt_1 = nil
-          },
-          Btn_Goto = {
-            self = nil,
-            Img_icon = nil,
-            Txt_1 = nil
-          }
+          Img_icon = nil,
+          Txt_1 = nil
         },
-        Btn_Control = {
+        Btn_Upgrade = {
           self = nil,
-          Img_Icon = nil,
+          Img_icon = nil,
           Txt_1 = nil
         }
       },

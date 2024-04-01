@@ -3,7 +3,7 @@ local DataModel = {}
 DataModel.allProductFur = {}
 DataModel.curHaveProductFur = {}
 DataModel.curHave = 0
-DataModel.curSelectIndex = nil
+DataModel.selectUpgradeIndex = nil
 DataModel.furCtrs = {}
 
 function DataModel.SetJsonData(json)
@@ -14,7 +14,7 @@ function DataModel.InitData()
   DataModel.curHaveProductFur = {}
   DataModel.curHave = 0
   DataModel.furCtrs = {}
-  DataModel.curSelectIndex = nil
+  DataModel.selectUpgradeIndex = nil
   local config = PlayerData:GetFactoryData(99900063, "ConfigFactory")
   local productFunType = {}
   for i, v in pairs(config.productionFurnitureList) do
@@ -56,20 +56,20 @@ function DataModel.InitData()
 end
 
 function DataModel.RefreshAfterUpgrade()
-  if not DataModel.curSelectIndex then
+  if not DataModel.selectUpgradeIndex then
     return
   end
-  local oldData = DataModel.allProductFur[DataModel.curSelectIndex]
+  local oldData = DataModel.allProductFur[DataModel.selectUpgradeIndex]
   if oldData and oldData.productData then
-    local element = DataModel.furCtrs[DataModel.curSelectIndex]
+    local element = DataModel.furCtrs[DataModel.selectUpgradeIndex]
     local furId = oldData.productData.furData.id
     local furCA = PlayerData:GetFactoryData(furId, "HomeFurnitureFactory")
     element.Group_LV.Txt_Num:SetText(furCA.Level)
+    element.Group_Able.Btn_Upgrade:SetActive(furCA.upgrade > 0)
   end
 end
 
 function DataModel.RefreshOnShow()
-  View.Img_Bar.Txt_Num:SetText(DataModel.curHave)
   local totalNum = table.count(DataModel.allProductFur)
   View.ScrollGrid_Furniture.grid.self:SetDataCount(totalNum)
   View.ScrollGrid_Furniture.grid.self:RefreshAllElement()

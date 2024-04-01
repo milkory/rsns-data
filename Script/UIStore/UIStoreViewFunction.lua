@@ -855,7 +855,9 @@ local ViewFunction = {
     end
     if row.type == "SkipPage" then
       if row.otherUI ~= "" then
-        if row.name == "环游手册" and TimeUtil:LastTime(PlayerData:GetFactoryData(82500002).PassEndTime) < 0 then
+        local initConfig = PlayerData:GetFactoryData(99900007, "ConfigFactory")
+        local battlePass = PlayerData:GetFactoryData(initConfig.BattlePassId, "BattlePassFactory")
+        if row.name == "环游手册" and TimeUtil:LastTime(battlePass.PassEndTime) < 0 then
           CommonTips.OpenTips(80602313)
           return
         end
@@ -1020,15 +1022,24 @@ local ViewFunction = {
       Btn_Item.Group_Bottom.Btn_Help:SetActive(true)
       if PlayerData.ServerData.monthly_card and PlayerData.ServerData.monthly_card["11400018"] then
         local t = PlayerData.ServerData.monthly_card["11400018"]
-        if TimeUtil:GetServerTimeStamp() <= t.deadline then
+        local diff = 0
+        if t.reward_ts then
+          if t.reward_ts <= t.deadline then
+            diff = t.deadline - t.reward_ts
+          end
+        else
           if t.reward_date == nil or t.reward_date == "" then
             t.reward_date = os.date("%Y-%m-%d %H:%M:%S", TimeUtil:GetFutureTime(0, 6))
           end
-          local lastTime = TimeUtil:GetTimeTable(t.reward_date)
-          local diff = t.deadline - os.time(lastTime)
+          local lastTime = os.time(TimeUtil:GetTimeTable(t.reward_date))
+          if lastTime <= t.deadline then
+            diff = t.deadline - lastTime
+          end
+        end
+        if 0 < diff then
           local time = TimeUtil:SecondToTable(diff)
           Btn_Item.Group_Bottom.Group_residueTime:SetActive(true)
-          Btn_Item.Group_Bottom.Group_residueTime.Txt_residueTime:SetText(string.format(GetText(80601102), time.day))
+          Btn_Item.Group_Bottom.Group_residueTime.Txt_residueTime:SetText(string.format(GetText(80601102), time.day - 1))
         end
       end
     end
@@ -1363,12 +1374,21 @@ local ViewFunction = {
       Btn_Item.Group_Bottom.Btn_Help:SetActive(true)
       if PlayerData.ServerData.monthly_card and PlayerData.ServerData.monthly_card["11400018"] then
         local t = PlayerData.ServerData.monthly_card["11400018"]
-        if TimeUtil:GetServerTimeStamp() <= t.deadline then
+        local diff = 0
+        if t.reward_ts then
+          if t.reward_ts <= t.deadline then
+            diff = t.deadline - t.reward_ts
+          end
+        else
           if t.reward_date == nil or t.reward_date == "" then
             t.reward_date = os.date("%Y-%m-%d %H:%M:%S", TimeUtil:GetFutureTime(0, 6))
           end
-          local lastTime = TimeUtil:GetTimeTable(t.reward_date)
-          local diff = t.deadline - os.time(lastTime)
+          local lastTime = os.time(TimeUtil:GetTimeTable(t.reward_date))
+          if lastTime <= t.deadline then
+            diff = t.deadline - lastTime
+          end
+        end
+        if 0 < diff then
           local time = TimeUtil:SecondToTable(diff)
           Btn_Item.Group_Bottom.Group_residueTime:SetActive(true)
           Btn_Item.Group_Bottom.Group_residueTime.Txt_residueTime:SetText(string.format(GetText(80601102), time.day))

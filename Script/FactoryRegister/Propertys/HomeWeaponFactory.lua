@@ -26,6 +26,13 @@ RegProperty("HomeWeaponFactory", {
     pyIgnore = true
   },
   {
+    name = "timeLineEffect",
+    type = "Factory",
+    des = "TimeLine",
+    arg0 = "TimeLineFactory",
+    pyIgnore = true
+  },
+  {
     name = "XEffects",
     type = "Double",
     des = "特效X轴坐标",

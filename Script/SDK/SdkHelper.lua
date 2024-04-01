@@ -5,6 +5,7 @@ SdkReporter = require("SDK/SdkReporter")
 TrackingIO2Reporter = require("SDK/Track/TrackingIO2Reporter")
 JuLiangEngineHelper = require("SDK/Track/JuLiangEngineReporter")
 RateHelper = require("SDK/Rate/RateHelper")
+DeepLinkMgr = require("SDK/DeepLink/DeepLinkMgr")
 SdkHelper.IsNotifyed = false
 
 function SdkHelper.Init()
@@ -167,6 +168,11 @@ function SdkHelper.GetChannelType()
   return CS.GameSdkLuaface.GetChannelType()
 end
 
+function SdkHelper.GetChannelFlag()
+  local r, flag = CommonHelper.SafeCallCsFunc(CS.GameSdkLuaface.CurChannelIDLower)
+  return flag or "official"
+end
+
 function SdkHelper.IsNotChannelDefault()
   return SdkHelper.GetChannelType() ~= SdkConst.ChannelType.Default
 end
@@ -188,6 +194,11 @@ end
 
 function SdkHelper.CloseWaiting()
   UIManager:CloseTip("UI/Common/SDKWaiting")
+end
+
+function SdkHelper.GetPackageName()
+  local a, b = CommonHelper.SafeCallCsFunc(CS.GameSdkLuaface.GetPackageName)
+  return b or ""
 end
 
 SdkHelper.Init()

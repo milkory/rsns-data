@@ -205,6 +205,17 @@ function NumThousandsSplit(num, saveDecimalNum)
   return result
 end
 
+function ClearFollowZero(num, saveDecimalNum)
+  if not saveDecimalNum then
+    saveDecimalNum = 1
+  elseif 3 < saveDecimalNum then
+    saveDecimalNum = 3
+  end
+  local format = "%." .. saveDecimalNum .. "f"
+  local str = string.format(format, num)
+  return str:gsub("(%.%d*[1-9])0+$", "%1"):gsub("%.0*$", "")
+end
+
 seven_mt = {
   __index = function(t, key)
     if t.self then

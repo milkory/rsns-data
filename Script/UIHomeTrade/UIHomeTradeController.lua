@@ -151,47 +151,6 @@ function Controller:ConfirmBatchClick()
   View.Group_Batch.self:SetActive(false)
 end
 
-function Controller:OutTradePreCheck(cb)
-  if DataModel.IsTradeOpen then
-    local isQuota = TradeDataModel.CurCityGoodsInfo.b_quota ~= 0 or TradeDataModel.CurCityGoodsInfo.r_quota ~= 0
-    local textId
-    if TradeDataModel.BargainBuff ~= nil then
-      if isQuota then
-        textId = 80602318
-      else
-        textId = 80602317
-      end
-    elseif isQuota then
-      textId = 80600682
-    end
-    if textId then
-      CommonTips.OnPrompt(textId, nil, nil, function()
-        cb()
-      end, nil, nil, nil, nil, {showDanger = true})
-      return true
-    end
-  end
-  return false
-end
-
-function Controller:ReturnToMain(isShowPrompt)
-  local cb = function()
-    View.Group_Trade.self:SetActive(false)
-    View.Group_Warehouse.self:SetActive(false)
-    View.Group_Main.self:SetActive(true)
-    TradeDataModel.CurTradeType = 0
-    TradeDataModel.BargainBuff = nil
-    DataModel.IsTradeOpen = false
-    local TradeController = require("UIHomeTrade/UITradeController")
-    TradeController:ShowQuestInfoChild(false)
-    View.self:PlayAnim("Main")
-  end
-  if isShowPrompt and Controller:OutTradePreCheck(cb) then
-    return
-  end
-  cb()
-end
-
 function Controller:RefreshItem(info, element)
   local show
   if info.info then

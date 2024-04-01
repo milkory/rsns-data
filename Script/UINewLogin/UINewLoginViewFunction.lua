@@ -308,6 +308,10 @@ local ViewFunction = {
     if VaildPassword(password) == false then
       return
     end
+    if PlayerPrefs.GetInt("IsAgree") ~= 1 then
+      PopTips(80601758)
+      return
+    end
     local phoneLogin = ProtocolFactory:CreateProtocol(ProtocolType.PhoneLogin)
     phoneLogin.username = phoneId
     phoneLogin.password = View.Group_NewLoginAndJoin.Group_Login2.InputField_PassWord:GetText()
@@ -349,6 +353,10 @@ local ViewFunction = {
     end
     local password = View.Group_NewLoginAndJoin.Group_Join.InputField_PassWord:GetText() or ""
     if VaildPassword(password) == false then
+      return
+    end
+    if PlayerPrefs.GetInt("IsAgree") ~= 1 then
+      PopTips(80601758)
       return
     end
     local phoneRegister = ProtocolFactory:CreateProtocol(ProtocolType.PhoneRegister)
