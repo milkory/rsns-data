@@ -365,6 +365,13 @@
     ],
     "effectList": [
       {
+        "effectId": 11100247,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 4,
+        "triggerTime_SN": 667
+      },
+      {
         "effectId": 11104912,
         "offsetX": 0.0,
         "offsetY": 0.0,
@@ -1894,7 +1901,14 @@
     ],
     "effectList": [
       {
-        "effectId": 11104913,
+        "effectId": 11100250,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 4,
+        "triggerTime_SN": 667
+      },
+      {
+        "effectId": 11104912,
         "offsetX": 0.0,
         "offsetY": 0.0,
         "triggerFrame": 4,
@@ -2041,7 +2055,14 @@
     ],
     "effectList": [
       {
-        "effectId": 11104914,
+        "effectId": 11100251,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 4,
+        "triggerTime_SN": 667
+      },
+      {
+        "effectId": 11104912,
         "offsetX": 0.0,
         "offsetY": 0.0,
         "triggerFrame": 4,
@@ -9959,17 +9980,28 @@
     "isLoop": false,
     "aniTime_SN": 10833,
     "totalFrame": 65,
+    "customFrameTag": "",
     "frameChanged": false,
-    "frameEventList": [],
+    "frameEventList": [
+      {
+        "frameEventId": 10500441,
+        "hHalf_SN": 0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      }
+    ],
     "effectList": [],
     "soundList": [],
     "isYChange": false,
     "offsetYList": [],
     "speed_SN": 0,
+    "speedY_SN": 0,
     "keyFrameList": [],
     "isSetSortingOrder": false,
-    "sortingOrder": 0,
-    "speedY_SN": 0
+    "sortingOrder": 0
   },
   {
     "id": 10200647,
@@ -124097,7 +124129,14 @@
     ],
     "effectList": [
       {
-        "effectId": 11104913,
+        "effectId": 11100250,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 4,
+        "triggerTime_SN": 667
+      },
+      {
+        "effectId": 11104912,
         "offsetX": 0.0,
         "offsetY": 0.0,
         "triggerFrame": 4,
@@ -124960,7 +124999,14 @@
     ],
     "effectList": [
       {
-        "effectId": 11104914,
+        "effectId": 11100251,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 4,
+        "triggerTime_SN": 667
+      },
+      {
+        "effectId": 11104912,
         "offsetX": 0.0,
         "offsetY": 0.0,
         "triggerFrame": 4,
@@ -125144,6 +125190,13 @@
       }
     ],
     "effectList": [
+      {
+        "effectId": 11100247,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 4,
+        "triggerTime_SN": 667
+      },
       {
         "effectId": 11104912,
         "offsetX": 0.0,
@@ -140568,7 +140621,7 @@
   },
   {
     "id": 10203194,
-    "idCN": "敌方/99化物/宝箱小狗/技能2",
+    "idCN": "敌方/99化物/宝箱小狗/技能2_1",
     "mod": "基础状态",
     "isInformalData": false,
     "actionLevel": "NormalSkill",
@@ -140578,9 +140631,17 @@
     "aniTime_SN": 17500,
     "totalFrame": 105,
     "customFrameTag": "",
-    "frameChanged": false,
+    "frameChanged": true,
     "frameEventList": [],
-    "effectList": [],
+    "effectList": [
+      {
+        "effectId": 11101638,
+        "offsetX": 2.5,
+        "offsetY": 2.3,
+        "triggerFrame": 30,
+        "triggerTime_SN": 5000
+      }
+    ],
     "soundList": [],
     "isYChange": false,
     "offsetYList": [],
@@ -140980,6 +141041,77 @@
     "frameChanged": false,
     "frameEventList": [],
     "effectList": [],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203206,
+    "idCN": "敌方/99化物/宝箱小狗/技能2_2",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "NormalSkill",
+    "viewId": 11000310,
+    "aniName": "skill_02_02",
+    "isLoop": false,
+    "aniTime_SN": 30000,
+    "totalFrame": 180,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [],
+    "effectList": [
+      {
+        "effectId": 11101662,
+        "offsetX": 0.0,
+        "offsetY": 1.7,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11101738,
+        "offsetX": 1.9,
+        "offsetY": 2.8,
+        "triggerFrame": 140,
+        "triggerTime_SN": 23333
+      }
+    ],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203207,
+    "idCN": "敌方/99化物/宝箱小狗/技能2_3",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "NormalSkill",
+    "viewId": 11000310,
+    "aniName": "skill_02_03",
+    "isLoop": false,
+    "aniTime_SN": 13333,
+    "totalFrame": 80,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [],
+    "effectList": [
+      {
+        "effectId": 11101743,
+        "offsetX": 2.5,
+        "offsetY": 2.3,
+        "triggerFrame": 25,
+        "triggerTime_SN": 4167
+      }
+    ],
     "soundList": [],
     "isYChange": false,
     "offsetYList": [],
