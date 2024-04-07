@@ -870,12 +870,12 @@
   },
   {
     "id": 81000022,
-    "idCN": "主线/EP4/999临时-对话（废弃）",
+    "idCN": "主线/EP4/4-10-对话-临时",
     "mod": "基础任务",
     "isInformalData": false,
-    "name": "EP4-1",
-    "story": "回到曼德矿场，列车组稍作休息。这个时候列车组收到了来自静流的联络，得知自己使用黑8的事情被添油加醋传了出去，铁盟高层正在为此开会，有可能要逮捕列车长。",
-    "describe": "回到曼德矿场与莉薇娅对话",
+    "name": "EP4-10",
+    "story": "名为柯娜的女子是莉薇娅的旧识，大家也才知道刚才的袭击是一场误会。在柯娜的调解下，双方握手言和。柯娜也与莉薇娅开始叙旧。",
+    "describe": "在澄明数据中心与柯娜对话",
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
@@ -901,19 +901,19 @@
         "num": 1
       }
     ],
-    "startStation": 83000004,
+    "startStation": 83000029,
     "endStationList": [
       {
-        "id": 83000053,
+        "id": 83000029,
         "weight": 10
       }
     ],
-    "client": 82600008,
+    "client": 82600003,
     "chapterId": -1,
     "playerLevel": 1,
     "nextQuest": [
       {
-        "id": 81000639
+        "id": 81001197
       }
     ],
     "changeCityStateList": [],
@@ -932,7 +932,7 @@
       {
         "apiListId": -1,
         "btnListId": -1,
-        "traceId": 80301119,
+        "traceId": 80301776,
         "uiPath": "UI/CityMap/CityMap"
       }
     ],
@@ -76035,10 +76035,10 @@
   },
   {
     "id": 81001197,
-    "idCN": "主线/EP4/4-10-战斗-下半",
+    "idCN": "主线/EP4/4-11-战斗-下半",
     "mod": "基础任务",
     "isInformalData": false,
-    "name": "EP4-10",
+    "name": "EP4-11",
     "story": "大家决定接受柯娜的帮助，这时妮蔻拉却告诉他们需要处理数据库和桦树生物的事情。",
     "describe": "在澄明数据中心与柯娜对话",
     "isShowProgress": false,
@@ -76073,12 +76073,12 @@
         "weight": 10
       }
     ],
-    "client": 82600008,
+    "client": 82600003,
     "chapterId": -1,
     "playerLevel": 1,
     "nextQuest": [
       {
-        "id": 81001198
+        "id": 81001207
       }
     ],
     "changeCityStateList": [],
@@ -76097,7 +76097,7 @@
       {
         "apiListId": -1,
         "btnListId": -1,
-        "traceId": 80301776,
+        "traceId": 80301777,
         "uiPath": "UI/CityMap/CityMap"
       }
     ],
@@ -76108,13 +76108,13 @@
   },
   {
     "id": 81001198,
-    "idCN": "主线/EP4/4-11-副本-父任务",
+    "idCN": "主线/EP4/4-13-副本-父任务",
     "mod": "基础任务",
     "isInformalData": false,
-    "name": "EP4-11",
+    "name": "EP4-13",
     "story": "众人来到了数据库，发现是黑月的人入侵了此处。",
     "describe": "击败澄明数据中心数据库的入侵者",
-    "isShowProgress": false,
+    "isShowProgress": true,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
     "questType": "Main",
@@ -76122,12 +76122,22 @@
     "isSwitchUI": false,
     "switchUI": "UI/",
     "conditionList": [],
-    "num": 1,
+    "num": 3,
     "islockAddProgress": true,
     "isAutoComplete": true,
     "checkComplete": false,
     "parentQuest": -1,
-    "childQuestList": [],
+    "childQuestList": [
+      {
+        "id": 81001209
+      },
+      {
+        "id": 81001210
+      },
+      {
+        "id": 81001211
+      }
+    ],
     "rewardsList": [
       {
         "id": 11400001,
@@ -76141,12 +76151,12 @@
         "weight": 10
       }
     ],
-    "client": 82600008,
+    "client": 82600293,
     "chapterId": -1,
     "playerLevel": 1,
     "nextQuest": [
       {
-        "id": 81001199
+        "id": 81001208
       }
     ],
     "changeCityStateList": [],
@@ -76155,7 +76165,20 @@
     "isOverwriteEvent": false,
     "eventList": [],
     "environmentList": [],
-    "traceList": [],
+    "traceList": [
+      {
+        "apiListId": 80301077,
+        "btnListId": 80300920,
+        "traceId": 80301269,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 80301779,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
     "isTime": false,
     "startTime": "",
     "endTime": "",
@@ -76163,13 +76186,13 @@
   },
   {
     "id": 81001199,
-    "idCN": "主线/EP4/4-12-副本-父任务",
+    "idCN": "主线/EP4/4-15-副本-父任务",
     "mod": "基础任务",
     "isInformalData": false,
-    "name": "EP4-12",
-    "story": "大家决定接受柯娜的帮助，这时妮蔻拉却告诉他们需要处理数据库和桦树生物的事情。",
-    "describe": "澄明数据中心周边副本",
-    "isShowProgress": false,
+    "name": "EP4-15",
+    "story": "大家发现，数据中心城外聚集了大量军阀，而他们的目标似乎是无\r垠号。",
+    "describe": "击败澄明数据中心周边军阀",
+    "isShowProgress": true,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
     "questType": "Main",
@@ -76177,12 +76200,25 @@
     "isSwitchUI": false,
     "switchUI": "UI/",
     "conditionList": [],
-    "num": 1,
+    "num": 4,
     "islockAddProgress": true,
     "isAutoComplete": true,
     "checkComplete": false,
     "parentQuest": -1,
-    "childQuestList": [],
+    "childQuestList": [
+      {
+        "id": 81001213
+      },
+      {
+        "id": 81001214
+      },
+      {
+        "id": 81001215
+      },
+      {
+        "id": 81001215
+      }
+    ],
     "rewardsList": [
       {
         "id": 11400001,
@@ -76686,6 +76722,637 @@
         "uiPath": "UI/CityMap/CityMap"
       }
     ],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81001207,
+    "idCN": "主线/EP4/4-12-对话",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "EP4-12",
+    "story": "列车长回到无垠号，接收书面证明。意外发现妮蔻拉就是无垠号发\r动机的制造者，兴奋地与对方交流，彼此亲近了不少。这个时候，妮蔻拉收到地下数据库被入侵的通知，于是让列车长一同去帮忙。",
+    "describe": "在澄明数据中心与妮蔻拉对话",
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "questType": "Main",
+    "sort": 0,
+    "isSwitchUI": true,
+    "switchUI": "UI/",
+    "conditionList": [
+      {
+        "key": "dialog",
+        "val": "0"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400001,
+        "num": 1
+      }
+    ],
+    "startStation": 83000029,
+    "endStationList": [
+      {
+        "id": 83000029,
+        "weight": 10
+      }
+    ],
+    "client": 82600293,
+    "chapterId": -1,
+    "playerLevel": 1,
+    "nextQuest": [
+      {
+        "id": 81001198
+      },
+      {
+        "id": 81001209
+      },
+      {
+        "id": 81001210
+      },
+      {
+        "id": 81001211
+      }
+    ],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "traceList": [
+      {
+        "apiListId": 80301077,
+        "btnListId": 80300920,
+        "traceId": 80301269,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 80301778,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81001208,
+    "idCN": "主线/EP4/4-14-1-对话-无奖励",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "EP4-14-1",
+    "story": "柯娜想要把莉薇娅带回帝国，遭到了莉薇娅的拒绝。",
+    "describe": "在澄明数据中心与妮蔻拉对话",
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "questType": "Main",
+    "sort": 0,
+    "isSwitchUI": true,
+    "switchUI": "UI/",
+    "conditionList": [
+      {
+        "key": "dialog",
+        "val": "0"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [],
+    "startStation": 83000029,
+    "endStationList": [
+      {
+        "id": 83000029,
+        "weight": 10
+      }
+    ],
+    "client": 82600293,
+    "chapterId": -1,
+    "playerLevel": 1,
+    "nextQuest": [
+      {
+        "id": 81001212
+      }
+    ],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "traceList": [
+      {
+        "apiListId": 80301077,
+        "btnListId": 80300920,
+        "traceId": 80301269,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 80301498,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81001209,
+    "idCN": "子任务/EP4/4-13-1-战斗",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "",
+    "story": "",
+    "describe": "",
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "questType": "Side",
+    "sort": 0,
+    "isSwitchUI": false,
+    "switchUI": "UI/",
+    "conditionList": [
+      {
+        "key": "levelId",
+        "val": "20100497"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": true,
+    "checkComplete": false,
+    "parentQuest": 81001198,
+    "childQuestList": [],
+    "rewardsList": [],
+    "startStation": 83000029,
+    "endStationList": [
+      {
+        "id": 83000029,
+        "weight": 10
+      }
+    ],
+    "client": 82600293,
+    "chapterId": -1,
+    "playerLevel": 1,
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "traceList": [
+      {
+        "apiListId": 80301077,
+        "btnListId": 80300920,
+        "traceId": 80301269,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 80301779,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81001210,
+    "idCN": "子任务/EP4/4-13-2-战斗",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "",
+    "story": "",
+    "describe": "",
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "questType": "Side",
+    "sort": 0,
+    "isSwitchUI": false,
+    "switchUI": "UI/",
+    "conditionList": [
+      {
+        "key": "levelId",
+        "val": "20100498"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": true,
+    "checkComplete": false,
+    "parentQuest": 81001198,
+    "childQuestList": [],
+    "rewardsList": [],
+    "startStation": 83000029,
+    "endStationList": [
+      {
+        "id": 83000029,
+        "weight": 10
+      }
+    ],
+    "client": 82600293,
+    "chapterId": -1,
+    "playerLevel": 1,
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "traceList": [
+      {
+        "apiListId": 80301077,
+        "btnListId": 80300920,
+        "traceId": 80301269,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 80301779,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81001211,
+    "idCN": "子任务/EP4/4-13-3-战斗",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "",
+    "story": "",
+    "describe": "",
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "questType": "Side",
+    "sort": 0,
+    "isSwitchUI": false,
+    "switchUI": "UI/",
+    "conditionList": [
+      {
+        "key": "levelId",
+        "val": "20100499"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": true,
+    "checkComplete": false,
+    "parentQuest": 81001198,
+    "childQuestList": [],
+    "rewardsList": [],
+    "startStation": 83000029,
+    "endStationList": [
+      {
+        "id": 83000029,
+        "weight": 10
+      }
+    ],
+    "client": 82600293,
+    "chapterId": -1,
+    "playerLevel": 1,
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "traceList": [
+      {
+        "apiListId": 80301077,
+        "btnListId": 80300920,
+        "traceId": 80301269,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 80301779,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81001212,
+    "idCN": "主线/EP4/4-14-2-对话",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "EP4-14-2",
+    "story": "所有人在服装店汇合，柯娜表示想要列车长帮忙载她们离开数据中\r心前往荒原站。马吉拉也想去修格里城，列车长答应了她们的请求。",
+    "describe": "前往澄明数据中心瞳仁服装店",
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "questType": "Main",
+    "sort": 0,
+    "isSwitchUI": true,
+    "switchUI": "UI/",
+    "conditionList": [
+      {
+        "key": "dialog",
+        "val": "0"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400001,
+        "num": 1
+      }
+    ],
+    "startStation": 83000029,
+    "endStationList": [
+      {
+        "id": 83000029,
+        "weight": 10
+      }
+    ],
+    "client": 82600026,
+    "chapterId": -1,
+    "playerLevel": 1,
+    "nextQuest": [
+      {
+        "id": 81001199
+      },
+      {
+        "id": 81001213
+      },
+      {
+        "id": 81001214
+      },
+      {
+        "id": 81001215
+      },
+      {
+        "id": 81001216
+      }
+    ],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "traceList": [
+      {
+        "apiListId": 80301077,
+        "btnListId": 80300920,
+        "traceId": 80301269,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 80301537,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81001213,
+    "idCN": "子任务/EP4/4-15-1-战斗",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "",
+    "story": "",
+    "describe": "",
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "questType": "Side",
+    "sort": 0,
+    "isSwitchUI": false,
+    "switchUI": "UI/",
+    "conditionList": [
+      {
+        "key": "levelId",
+        "val": "20100499"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": true,
+    "checkComplete": false,
+    "parentQuest": 81001199,
+    "childQuestList": [],
+    "rewardsList": [],
+    "startStation": 83000029,
+    "endStationList": [
+      {
+        "id": 83000029,
+        "weight": 10
+      }
+    ],
+    "client": 82600293,
+    "chapterId": -1,
+    "playerLevel": 1,
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "traceList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81001214,
+    "idCN": "子任务/EP4/4-15-2-战斗",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "",
+    "story": "",
+    "describe": "",
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "questType": "Side",
+    "sort": 0,
+    "isSwitchUI": false,
+    "switchUI": "UI/",
+    "conditionList": [
+      {
+        "key": "levelId",
+        "val": "20100499"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": true,
+    "checkComplete": false,
+    "parentQuest": 81001199,
+    "childQuestList": [],
+    "rewardsList": [],
+    "startStation": 83000029,
+    "endStationList": [
+      {
+        "id": 83000029,
+        "weight": 10
+      }
+    ],
+    "client": 82600293,
+    "chapterId": -1,
+    "playerLevel": 1,
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "traceList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81001215,
+    "idCN": "子任务/EP4/4-15-3-战斗",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "",
+    "story": "",
+    "describe": "",
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "questType": "Side",
+    "sort": 0,
+    "isSwitchUI": false,
+    "switchUI": "UI/",
+    "conditionList": [
+      {
+        "key": "levelId",
+        "val": "20100499"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": true,
+    "checkComplete": false,
+    "parentQuest": 81001199,
+    "childQuestList": [],
+    "rewardsList": [],
+    "startStation": 83000029,
+    "endStationList": [
+      {
+        "id": 83000029,
+        "weight": 10
+      }
+    ],
+    "client": 82600293,
+    "chapterId": -1,
+    "playerLevel": 1,
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "traceList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81001216,
+    "idCN": "子任务/EP4/4-15-4-战斗",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "",
+    "story": "",
+    "describe": "",
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "questType": "Side",
+    "sort": 0,
+    "isSwitchUI": false,
+    "switchUI": "UI/",
+    "conditionList": [
+      {
+        "key": "levelId",
+        "val": "20100499"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": true,
+    "checkComplete": false,
+    "parentQuest": 81001199,
+    "childQuestList": [],
+    "rewardsList": [],
+    "startStation": 83000029,
+    "endStationList": [
+      {
+        "id": 83000029,
+        "weight": 10
+      }
+    ],
+    "client": 82600293,
+    "chapterId": -1,
+    "playerLevel": 1,
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "traceList": [],
     "isTime": false,
     "startTime": "",
     "endTime": "",

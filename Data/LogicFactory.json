@@ -1378,7 +1378,7 @@
     "memo": "判断当前卡牌是否是队长技",
     "paramHelp": "",
     "returnType": "bool",
-    "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rgetp currentCore\rset $core\r\rif\r\tgetp currentCard\r\tif\r\t\tgetp cardProperty\r\t\tset $cardProperty\r\t\tget $core\r\t\tgetp teamData\r\t\tgetp cardSystem\r\t\tgetp leaderCard\r\t\tif $cardProperty eq leaderCard\r\t\t\tret $true\r\t\tendif\r\tendif\rendif\r\r\rret $false"
+    "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rgetp currentCore\rset $core\r\rif\r\tgetp currentCard\r\tif\r\t\tgetp cardProperty\r\t\tset $cardProperty\r\t\tgetp isLeaderCard\r\t\tif \r\t\t\tret $true\r\t\tendif\r\tendif\rendif\r\r\rret $false"
   },
   {
     "id": 60000116,
@@ -1438,5 +1438,16 @@
     "paramHelp": "",
     "returnType": "int",
     "script": "local MainController = require(\"UIMainUI/UIMainUIController\")\rMainController.ImmediatelyStop()\rMapNeedleData.OpenStore($param0)"
+  },
+  {
+    "id": 60000115,
+    "idCN": "卡牌/功能节点/是手牌得意技",
+    "mod": "执行GS脚本",
+    "isInformalData": false,
+    "debug": false,
+    "memo": "判断当前卡牌是否是手牌得意技",
+    "paramHelp": "",
+    "returnType": "bool",
+    "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rgetp currentCore\rset $core\r\rif\r\tgetp currentCard\r\tif\r\t\tgetp cardProperty\r\t\tset $cardProperty\r\t\tgetp isLeaderCard\r\t\tif \r\t\t\tret $false\r\t\tendif\r\t\tget $cardProperty\r\t\tgetp card\r\t\tif\r\t\t\tgetp isLeaderCard\r\t\t\tif\r\t\t\t\tret $true\r\t\t\tendif\r\t\tendif\r\tendif\rendif\r\r\rret $false"
   }
 ]
