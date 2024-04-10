@@ -618,7 +618,7 @@
   },
   {
     "id": 10800059,
-    "idCN": "复合/索玛-cd35斩裂减5",
+    "idCN": "复合/索玛-cd35斩裂崩坏减5",
     "mod": "玩家修改Buff层数",
     "isInformalData": false,
     "progressMax": 35,
@@ -626,7 +626,7 @@
     "isPositive": true,
     "isNegative": false,
     "isTimeProg": true,
-    "progAddNum": 4
+    "progAddNum": 5
   },
   {
     "id": 10800060,
@@ -869,57 +869,39 @@
   },
   {
     "id": 10800081,
-    "idCN": "复合/柯娜-cd20用蓝减5",
-    "mod": "使用指定Tag卡牌",
+    "idCN": "复合/柯娜-cd20护盾减3",
+    "mod": "玩家修改Buff层数",
     "isInformalData": false,
     "progressMax": 20,
-    "tagList": [
-      {
-        "tagId": 12600009
-      }
-    ],
-    "tagType": "And",
-    "reverseTagList": [],
-    "reverseTagType": "And",
-    "isContinue": false,
+    "buffFO": 10409553,
+    "isPositive": true,
+    "isNegative": false,
     "isTimeProg": true,
-    "progAddNum": 5
+    "progAddNum": 3
   },
   {
     "id": 10800082,
-    "idCN": "复合/柯娜-cd25用蓝减5",
-    "mod": "使用指定Tag卡牌",
+    "idCN": "复合/柯娜-cd25护盾减3",
+    "mod": "玩家修改Buff层数",
     "isInformalData": false,
     "progressMax": 25,
-    "tagList": [
-      {
-        "tagId": 12600009
-      }
-    ],
-    "tagType": "And",
-    "reverseTagList": [],
-    "reverseTagType": "And",
-    "isContinue": false,
+    "buffFO": 10409553,
+    "isPositive": true,
+    "isNegative": false,
     "isTimeProg": true,
-    "progAddNum": 5
+    "progAddNum": 3
   },
   {
     "id": 10800083,
-    "idCN": "复合/柯娜-cd30用红减5",
-    "mod": "使用指定Tag卡牌",
+    "idCN": "复合/柯娜-cd30护盾减3红卡减6",
+    "mod": "玩家修改Buff层数",
     "isInformalData": false,
     "progressMax": 30,
-    "tagList": [
-      {
-        "tagId": 12600145
-      }
-    ],
-    "tagType": "And",
-    "reverseTagList": [],
-    "reverseTagType": "And",
-    "isContinue": false,
+    "buffFO": 10409564,
+    "isPositive": true,
+    "isNegative": false,
     "isTimeProg": true,
-    "progAddNum": 5
+    "progAddNum": 3
   },
   {
     "id": 10800047,
@@ -1028,15 +1010,21 @@
     "progAddNum": 5
   },
   {
-    "id": 10800044,
-    "idCN": "复合/亚莉奈-cd35异常减5",
-    "mod": "玩家修改Buff层数",
+    "id": 10800073,
+    "idCN": "用Tag卡/6次爆炸物",
+    "mod": "使用指定Tag卡牌",
     "isInformalData": false,
-    "progressMax": 35,
-    "buffFO": -1,
-    "isPositive": false,
-    "isNegative": false,
-    "isTimeProg": true,
-    "progAddNum": 0
+    "progressMax": 5,
+    "tagList": [
+      {
+        "tagId": 12600057
+      }
+    ],
+    "tagType": "Or",
+    "reverseTagList": [],
+    "reverseTagType": "And",
+    "isContinue": false,
+    "isTimeProg": false,
+    "progAddNum": 1
   }
 ]

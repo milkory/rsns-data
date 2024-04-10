@@ -1108,7 +1108,11 @@
         "skillId": 12300084
       }
     ],
-    "noUpgradeSkillList": [],
+    "noUpgradeSkillList": [
+      {
+        "skillId": 12300176
+      }
+    ],
     "equipmentSlotList": [
       {
         "tagID": 12600155
@@ -6411,13 +6415,13 @@
         "num": 1
       }
     ],
-    "actionStandID": 10100882,
-    "actionMoveID": 10100883,
-    "actionAttackedID": 10100884,
-    "actionAttackedBackID": 10100885,
+    "actionStandID": -1,
+    "actionMoveID": -1,
+    "actionAttackedID": -1,
+    "actionAttackedBackID": -1,
     "actionKnockUpID": -1,
-    "actionStunID": 10100886,
-    "actionDeadID": 10100887,
+    "actionStunID": -1,
+    "actionDeadID": -1,
     "actionVictoryID": -1,
     "hitPointX_SN": 0,
     "hitPointY_SN": 15000,
@@ -7850,6 +7854,7 @@
     "controllerId": 10300086,
     "bulletControllerList": [],
     "isBoss": false,
+    "bossHpTemp": -1,
     "isDeadNotDisappear": false,
     "isFly": false,
     "originFlyYSN": 0,
@@ -7891,7 +7896,7 @@
     "isImmuneAlly": true,
     "isImmuneEnemy": true,
     "ownerDeadAddBuffID": -1,
-    "deadAddBuffToOwner": -1,
+    "deadAddBuffToOwner": 10409503,
     "fightEndBuffId": -1,
     "hitPointX_SN": 0,
     "hitPointY_SN": 4500,
@@ -7899,7 +7904,8 @@
     "hitAreaY_SN": 4500,
     "hitAreaHalfWidth_SN": 2500,
     "hitAreaHalfHeight_SN": 4500,
-    "safeInformation": ""
+    "safeInformation": "",
+    "unitInformation": ""
   },
   {
     "id": 10000348,
@@ -7952,7 +7958,7 @@
     "isImmuneAlly": true,
     "isImmuneEnemy": true,
     "ownerDeadAddBuffID": -1,
-    "deadAddBuffToOwner": -1,
+    "deadAddBuffToOwner": 10409503,
     "fightEndBuffId": -1,
     "hitPointX_SN": 0,
     "hitPointY_SN": 0,
@@ -9795,13 +9801,13 @@
         "num": 1
       }
     ],
-    "actionStandID": 10101281,
-    "actionMoveID": 10101282,
+    "actionStandID": -1,
+    "actionMoveID": -1,
     "actionAttackedID": -1,
-    "actionAttackedBackID": 10101284,
+    "actionAttackedBackID": -1,
     "actionKnockUpID": -1,
-    "actionStunID": 10101285,
-    "actionDeadID": 10101286,
+    "actionStunID": -1,
+    "actionDeadID": -1,
     "actionVictoryID": -1,
     "hitPointX_SN": 0,
     "hitPointY_SN": 15000,
@@ -9837,6 +9843,7 @@
     "totalCardNum": 1,
     "skillMin": 5,
     "homeCharacter": 70000017,
+    "stationStoreCharacter": -1,
     "gotoBed": true,
     "isDoctor": false,
     "medicalPoint": 0,
@@ -15054,7 +15061,7 @@
     "hitAreaHalfHeight_SN": 20000,
     "battleDes": "",
     "safeInformation": "全副武装的劫掠者，使用钉锤，蓄力后对地面释放锤击，能使范围内敌人陷入眩晕。",
-    "unitInformation": "全副武装的暴徒。使用大剑劈砍敌人，经过改装的臂甲可以强力地控制住敌人，使其动弹不得。",
+    "unitInformation": "全副武装的劫掠者，体型健硕，双手持握长柄钉锤，仅从外观上就能感受到危险，蓄力后对地面释放的锤击能让所有靠近的敌人遭受强烈的震荡伤害并眩晕。",
     "enemyDrop": [],
     "abilityList": [
       {
@@ -16864,7 +16871,7 @@
     "hitAreaHalfHeight_SN": 20000,
     "battleDes": "",
     "safeInformation": "全副武装的劫掠者，使用大剑。臂甲可以对敌人起控制效果。",
-    "unitInformation": "全副武装的暴徒。使用大剑劈砍敌人，经过改装的臂甲可以强力地控制住敌人，使其动弹不得。",
+    "unitInformation": "全副武装的劫掠者。使用大剑劈砍敌人，经过改装的臂甲可以强力地控制住敌人，使其动弹不得。",
     "enemyDrop": [],
     "abilityList": [
       {
@@ -16996,8 +17003,9 @@
     "hitAreaY_SN": 20000,
     "hitAreaHalfWidth_SN": 10000,
     "hitAreaHalfHeight_SN": 20000,
+    "battleDes": "",
     "safeInformation": "全副武装的劫掠者，能够使用与闪电有关的升构能力。",
-    "unitInformation": "全副武装的暴徒，是暴徒中难得一见的升构者。未持有武器，但可以使用升构能力发起攻击，其升构能力的现实塑造表现为闪电。",
+    "unitInformation": "全副武装的劫掠者，是劫掠者中难得一见的升构者。未持有武器，但可以使用升构能力发起攻击，其升构能力的现实塑造表现为闪电。",
     "enemyDrop": [],
     "abilityList": [
       {
@@ -18399,8 +18407,9 @@
     "hitAreaY_SN": 20000,
     "hitAreaHalfWidth_SN": 15000,
     "hitAreaHalfHeight_SN": 20000,
+    "battleDes": "",
     "safeInformation": "全副武装的劫掠者，火焰喷枪的特殊之处在于能够锁定被眩晕的敌人集中喷射火焰。",
-    "unitInformation": "全副武装的暴徒，体型健硕，以能喷射火焰的喷枪作为主要武器。非法改装后的喷枪可以短暂锁定在原地眩晕的敌人，释放镭射火柱，对于非眩晕状态的敌人则因难以锁定无法生效。",
+    "unitInformation": "全副武装的劫掠者，体型健硕，以能喷射火焰的喷枪作为主要武器。非法改装后的喷枪可以短暂锁定在原地眩晕的敌人，释放镭射火柱，对于非眩晕状态的敌人则因难以锁定无法生效。",
     "enemyDrop": [],
     "abilityList": [
       {
@@ -20594,8 +20603,8 @@
     "hitAreaHalfWidth_SN": 15000,
     "hitAreaHalfHeight_SN": 20000,
     "battleDes": "",
-    "safeInformation": "",
-    "unitInformation": "地联时代遗留下来的全功能移动工程平台，从设计到制造风格都彰显着旧时代产物的气质。集铲运、平整、开路、破碎、切割、起吊、挖掘、构筑等功能为一体，且在设计上对于各个地形都有良好的适应性，故而在大部分的大型工程作业中都能见到它。\r进入铁盟主导时代后，大部分工程平台仍被应用于多个场合，但也有少部分因各种原因被遗弃或者转手。其中一座移动工程平台落入了某位富有野心的拾荒者手中。他为其加装了收集来的各式防御兵器，使其成为了名副其实的移动要塞。这位驾驶者还为它取了个“动听”又“响亮”的大名——“荒原帝王号”。当然，本档案中将其记录为“穿击动力甲”。",
+    "safeInformation": "荒原王汤姆的座驾。使用充能装甲枪械对目标进行射击并击晕，还能在造成我方角色破盾后使用钻头攻击，对我方单体目标附加重伤效果。",
+    "unitInformation": "地联时代遗留下来的全功能工程辅助动力甲，从设计到制造风格都彰显着旧时代产物的气质。进入铁盟主导时代后，部分动力甲仍被应用于多个场合，但也有少部分因各种原因被遗弃或者转卖。其中一具动力甲落入了某位富有野心的拾荒者手中。这位驾驶者还为它取了个动听又响亮的大名——“荒原帝王号”。当然，本档案中将其记录为“穿击动力甲”。\\n使用充能装甲枪械对目标进行射击导致击晕；还能首先射击造成我方角色破盾，随后使用钻头对我方单体目标附加重伤效果。",
     "enemyDrop": [
       {
         "id": 11700179
@@ -27223,6 +27232,7 @@
     "controllerId": 10300078,
     "bulletControllerList": [],
     "isBoss": false,
+    "bossHpTemp": -1,
     "isDeadNotDisappear": false,
     "isFly": false,
     "originFlyYSN": 0,
@@ -27264,7 +27274,7 @@
     "isImmuneAlly": true,
     "isImmuneEnemy": true,
     "ownerDeadAddBuffID": -1,
-    "deadAddBuffToOwner": -1,
+    "deadAddBuffToOwner": 10409503,
     "fightEndBuffId": -1,
     "hitPointX_SN": 0,
     "hitPointY_SN": 4500,
@@ -27272,7 +27282,8 @@
     "hitAreaY_SN": 4500,
     "hitAreaHalfWidth_SN": 2500,
     "hitAreaHalfHeight_SN": 4500,
-    "safeInformation": ""
+    "safeInformation": "",
+    "unitInformation": ""
   },
   {
     "id": 10000099,
@@ -32521,14 +32532,14 @@
     "actionDeadID": 10101060,
     "actionVictoryID": -1,
     "hitPointX_SN": 0,
-    "hitPointY_SN": 20000,
+    "hitPointY_SN": 28000,
     "hitAreaX_SN": 0,
     "hitAreaY_SN": 20000,
     "hitAreaHalfWidth_SN": 15000,
     "hitAreaHalfHeight_SN": 20000,
     "battleDes": "",
     "safeInformation": "能释放庞大能量对敌人造成负能伤害，在沙尘中时能够与环境共振，免疫所有负面效果。",
-    "unitInformation": "拥有动物骨架般诡异的外形的大型桦树生物，拥有动物骨架般诡异的外形。无论是行动造成的冲击还是自体内释放出的庞大能量都让它比起一般桦树生物更加危险。当它在漫天沙尘中行动时则会更加难缠，它可以与环境形成强大的共振，免疫所有的负面效果。",
+    "unitInformation": "拥有动物骨架般诡异的外形的大型桦树生物，无论是行动造成的冲击还是自体内释放出的庞大能量都让它比起一般桦树生物更加危险。\\n能对我方角色造成负能伤害。当它在漫天沙尘中行动时，可以与环境形成强大的共振，免疫所有的负面效果，但此能力会在雨雪天气失效。能够通过类似蜕壳的方式隐形并脱身，原躯壳在爆炸后形成1只骸骨桦树生物。进入轰击模式时，会对随机目标发动负能炮击。",
     "enemyDrop": [
       {
         "id": 11700172
@@ -34573,6 +34584,9 @@
       },
       {
         "skillId": 12301472
+      },
+      {
+        "skillId": 12300239
       }
     ],
     "hp_SN": 80000000,
@@ -35762,8 +35776,9 @@
     "hitAreaY_SN": 30000,
     "hitAreaHalfWidth_SN": 40000,
     "hitAreaHalfHeight_SN": 50000,
-    "safeInformation": "能造成冻结、枷锁和晕眩等多种负面效果，会不断释放“龙威”，减少所受伤害。召唤出的冰川能同时对多个目标构成威胁。",
-    "unitInformation": "名为骨龙，但实际上与“龙”毫无关联的大型桦树生物，外甲呈现出某种幻想生物骨架的形态。可以控制与自身形态类似的幻影，其共鸣腔中传出的咆哮响彻天际。当直面它时，恐怕人人都会理解为何称其为龙——它的吐息与威压，的确同那些虚构故事中的龙无异。",
+    "battleDes": "",
+    "safeInformation": "进行强大冰属性攻击的海龙桦树生物。能造成冻结、枷锁和晕眩等多种负面效果，会不断释放“龙威”，减少所受伤害。召唤出的冰川能同时对多个目标构成威胁。",
+    "unitInformation": "名为骨龙，但实际上与“龙”毫无关联的大型桦树生物，外甲呈现出某种幻想生物骨架的形态。可以控制与自身形态类似的幻影，其共鸣腔中传出的咆哮响彻天际。当直面它时，恐怕人人都会理解为何称其为龙——它的吐息与威压，的确同那些虚构故事中的龙无异。\\n能造成【冻结】、【枷锁】和【禁锢】等多种负面效果，会不断释放“龙威”，减少所受伤害。召唤出的冰川能同时对多个目标构成威胁，并以一定概率附加【冻结】；能以强大的攻击造成【护盾击碎】效果。",
     "enemyDrop": [
       {
         "id": 11700202
@@ -36501,7 +36516,7 @@
     ],
     "enemyType": 12601046,
     "enemyCamp": 12601044,
-    "enemyBookId": 10000250
+    "enemyBookId": 10000249
   },
   {
     "id": 10000250,
@@ -41649,6 +41664,7 @@
     "hitAreaY_SN": 15000,
     "hitAreaHalfWidth_SN": 10000,
     "hitAreaHalfHeight_SN": 15000,
+    "battleDes": "",
     "safeInformation": "植物般的美丽桦树生物，解放核心后会进行高强度光束攻击。",
     "unitInformation": "",
     "enemyDrop": [
@@ -42462,8 +42478,8 @@
     "hitAreaHalfWidth_SN": 15000,
     "hitAreaHalfHeight_SN": 20000,
     "battleDes": "",
-    "safeInformation": "全副武装的劫掠者，火焰喷枪的特殊之处在于能够锁定被眩晕的敌人集中喷射火焰。",
-    "unitInformation": "全副武装的暴徒，体型健硕，以能喷射火焰的喷枪作为主要武器。非法改装后的喷枪可以短暂锁定在原地眩晕的敌人，释放镭射火柱，对于非眩晕状态的敌人则因难以锁定无法生效。",
+    "safeInformation": "",
+    "unitInformation": "",
     "enemyDrop": [],
     "abilityList": [
       {
@@ -43942,7 +43958,7 @@
     "EnglishName": "",
     "viewId": 11000290,
     "skinList": [],
-    "sideId": 12600920,
+    "sideId": 12600921,
     "controllerId": 10300169,
     "bulletControllerList": [],
     "isBoss": true,
@@ -44011,19 +44027,19 @@
     ],
     "talentList": [
       {
-        "talentId": 12800292
+        "talentId": 12800470
       },
       {
-        "talentId": 12800293
+        "talentId": 12800471
       },
       {
-        "talentId": 12800294
+        "talentId": 12800467
       },
       {
-        "talentId": 12800295
+        "talentId": 12800468
       },
       {
-        "talentId": 12800296
+        "talentId": 12800469
       }
     ],
     "rewardList": [],
@@ -44050,7 +44066,7 @@
     "resistanceList": [],
     "enemyType": 12601048,
     "enemyCamp": 12601044,
-    "enemyBookId": -1
+    "enemyBookId": 10000217
   },
   {
     "id": 10000208,
@@ -45473,7 +45489,7 @@
   },
   {
     "id": 10000227,
-    "idCN": "桦树生物/BOSS/混厄石芝",
+    "idCN": "桦树生物/BOSS/7-混厄石芝",
     "mod": "敌方角色",
     "isInformalData": false,
     "name": "混厄石芝",
@@ -45602,7 +45618,7 @@
     "hitAreaHalfHeight_SN": 15000,
     "battleDes": "",
     "safeInformation": "山野桦树生物中极度强大的个体，能够影响人类的精神，施加【灼心】【狂暴】等效果。其护甲具有防御和反弹攻击作用，在其进入防御姿态时需格外注意。",
-    "unitInformation": "外形奇异的桦树生物，其反弹伤害的能力得益于那身近似于拼凑而成的护甲。为此强大个体命名时，研究者们似乎对最新发布的桦树生物命名规则产生了一些争议……有概率反弹伤害，每触发一次都会使自身防御力下降、攻击力提升，此效果最高叠加十层。攻击会造成【斩裂】、【灼心】、【打断】效果。技能“躁乱波纹”有概率在施加负能伤害的同时施加【狂暴】效果并根据狂暴单位数量吸取我方费用进行充能，如施加【狂暴】失败则会改为施加【混乱】效果。能够蜷缩防御，防御期间每受到一次伤害都会对我方全部单位造成一次负能伤害并施加【崩坏】。",
+    "unitInformation": "外形奇异的桦树生物，其反弹伤害的能力得益于那身近似于拼凑而成的护甲。为此强大个体命名时，研究者们似乎对最新发布的桦树生物命名规则产生了一些争议……\\n攻击会造成【斩裂】、【灼心】、【打断】等效果。技能“躁乱波纹”有概率在施加负能伤害的同时施加【狂暴】效果，并根据狂暴单位数量吸取我方费用进行充能，如施加【狂暴】失败则会改为施加【混乱】效果。能够蜷缩防御，防御期间有概率反弹伤害，且每受到一定次数伤害就会累积怒气，每层怒气均会使其自身防御力下降、攻击力提升。怒气积累一定层数或防御时间结束后，根据怒气层数，对我方全部单位造成一次负能伤害并施加【重伤】。",
     "enemyDrop": [
       {
         "id": 11700189
@@ -47557,7 +47573,7 @@
     "idCN": "敌方/03劫掠者/劫掠王BOSS",
     "mod": "敌方角色",
     "isInformalData": false,
-    "name": "劫掠者首领",
+    "name": "劫掠统帅",
     "EnglishName": "",
     "viewId": 11000305,
     "skinList": [],
@@ -47854,7 +47870,7 @@
   },
   {
     "id": 10000257,
-    "idCN": "桦树生物/BOSS/混厄石芝-活动",
+    "idCN": "桦树生物/BOSS/7-混厄石芝-活动",
     "mod": "敌方角色",
     "isInformalData": false,
     "name": "混厄石芝",
@@ -47951,19 +47967,19 @@
     ],
     "talentList": [
       {
-        "talentId": 12800292
+        "talentId": 12800470
       },
       {
-        "talentId": 12800293
+        "talentId": 12800471
       },
       {
-        "talentId": 12800294
+        "talentId": 12800467
       },
       {
-        "talentId": 12800295
+        "talentId": 12800468
       },
       {
-        "talentId": 12800296
+        "talentId": 12800469
       }
     ],
     "rewardList": [],
@@ -47982,8 +47998,8 @@
     "hitAreaHalfWidth_SN": 40000,
     "hitAreaHalfHeight_SN": 15000,
     "battleDes": "",
-    "safeInformation": "山野桦树生物中极度强大的个体，能够影响人类的精神，施加【灼心】【狂暴】等效果。其护甲具有防御和反弹攻击作用，在其进入防御姿态时需格外注意。",
-    "unitInformation": "外形奇异的桦树生物，其反弹伤害的能力得益于那身近似于拼凑而成的护甲。为此强大个体命名时，研究者们似乎对最新发布的桦树生物命名规则产生了一些争议……有概率反弹伤害，每触发一次都会使自身防御力下降、攻击力提升，此效果最高叠加十层。攻击会造成【斩裂】、【灼心】、【打断】效果。技能“躁乱波纹”有概率在施加负能伤害的同时施加【狂暴】效果并根据狂暴单位数量吸取我方费用进行充能，如施加【狂暴】失败则会改为施加【混乱】效果。能够蜷缩防御，防御期间每受到一次伤害都会对我方全部单位造成一次负能伤害并施加【崩坏】。",
+    "safeInformation": "",
+    "unitInformation": "",
     "enemyDrop": [],
     "abilityList": [
       {
@@ -48420,27 +48436,12 @@
     "hitAreaHalfWidth_SN": 10000,
     "hitAreaHalfHeight_SN": 20000,
     "battleDes": "",
-    "safeInformation": "全副武装的劫掠者，能够使用与闪电有关的升构能力。",
-    "unitInformation": "全副武装的暴徒，是暴徒中难得一见的升构者。未持有武器，但可以使用升构能力发起攻击，其升构能力的现实塑造表现为闪电。",
+    "safeInformation": "",
+    "unitInformation": "",
     "enemyDrop": [],
-    "abilityList": [
-      {
-        "id": 12600923
-      }
-    ],
-    "weaknessList": [
-      {
-        "id": 12600993
-      }
-    ],
-    "resistanceList": [
-      {
-        "id": 12600962
-      },
-      {
-        "id": 12600991
-      }
-    ],
+    "abilityList": [],
+    "weaknessList": [],
+    "resistanceList": [],
     "enemyType": 12601047,
     "enemyCamp": 12601045,
     "enemyBookId": 10000457
@@ -48554,27 +48555,12 @@
     "hitAreaHalfWidth_SN": 10000,
     "hitAreaHalfHeight_SN": 20000,
     "battleDes": "",
-    "safeInformation": "全副武装的劫掠者，使用钉锤，蓄力后对地面释放锤击，能使范围内敌人陷入眩晕。",
-    "unitInformation": "全副武装的暴徒。使用大剑劈砍敌人，经过改装的臂甲可以强力地控制住敌人，使其动弹不得。",
+    "safeInformation": "",
+    "unitInformation": "",
     "enemyDrop": [],
-    "abilityList": [
-      {
-        "id": 12600936
-      },
-      {
-        "id": 12600929
-      }
-    ],
-    "weaknessList": [
-      {
-        "id": 12600993
-      }
-    ],
-    "resistanceList": [
-      {
-        "id": 12600962
-      }
-    ],
+    "abilityList": [],
+    "weaknessList": [],
+    "resistanceList": [],
     "enemyType": 12601047,
     "enemyCamp": 12601045,
     "enemyBookId": 10000438
@@ -48828,27 +48814,12 @@
     "hitAreaHalfWidth_SN": 15000,
     "hitAreaHalfHeight_SN": 20000,
     "battleDes": "",
-    "safeInformation": "全副武装的劫掠者，火焰喷枪的特殊之处在于能够锁定被眩晕的敌人集中喷射火焰。",
-    "unitInformation": "全副武装的暴徒，体型健硕，以能喷射火焰的喷枪作为主要武器。非法改装后的喷枪可以短暂锁定在原地眩晕的敌人，释放镭射火柱，对于非眩晕状态的敌人则因难以锁定无法生效。",
+    "safeInformation": "",
+    "unitInformation": "",
     "enemyDrop": [],
-    "abilityList": [
-      {
-        "id": 12600930
-      }
-    ],
-    "weaknessList": [
-      {
-        "id": 12600993
-      }
-    ],
-    "resistanceList": [
-      {
-        "id": 12600989
-      },
-      {
-        "id": 12600962
-      }
-    ],
+    "abilityList": [],
+    "weaknessList": [],
+    "resistanceList": [],
     "enemyType": 12601047,
     "enemyCamp": 12601045,
     "enemyBookId": 10000002
@@ -49085,34 +49056,22 @@
     "hitAreaHalfWidth_SN": 15000,
     "hitAreaHalfHeight_SN": 20000,
     "battleDes": "",
-    "safeInformation": "全副武装的劫掠者，使用大剑。臂甲可以对敌人起控制效果。",
-    "unitInformation": "全副武装的暴徒。使用大剑劈砍敌人，经过改装的臂甲可以强力地控制住敌人，使其动弹不得。",
+    "safeInformation": "",
+    "unitInformation": "",
     "enemyDrop": [],
-    "abilityList": [
-      {
-        "id": 12600929
-      }
-    ],
-    "weaknessList": [
-      {
-        "id": 12600993
-      }
-    ],
-    "resistanceList": [
-      {
-        "id": 12600962
-      }
-    ],
+    "abilityList": [],
+    "weaknessList": [],
+    "resistanceList": [],
     "enemyType": 12601047,
     "enemyCamp": 12601045,
     "enemyBookId": 10000456
   },
   {
     "id": 10000266,
-    "idCN": "桦树生物/BOSS/6-双头凛川骨龙-头2",
+    "idCN": "桦树生物/BOSS/6-裂首骨龙-头2",
     "mod": "敌方角色",
     "isInformalData": false,
-    "name": "双头凛川骨龙",
+    "name": "裂首骨龙",
     "EnglishName": "",
     "viewId": 11000312,
     "skinList": [],
@@ -49243,8 +49202,8 @@
     "hitAreaHalfWidth_SN": 40000,
     "hitAreaHalfHeight_SN": 50000,
     "battleDes": "",
-    "safeInformation": "能造成冻结、枷锁和晕眩等多种负面效果，会不断释放“龙威”，减少所受伤害。召唤出的冰川能同时对多个目标构成威胁。",
-    "unitInformation": "名为骨龙，但实际上与“龙”毫无关联的大型桦树生物，外甲呈现出某种幻想生物骨架的形态。可以控制与自身形态类似的幻影，其共鸣腔中传出的咆哮响彻天际。当直面它时，恐怕人人都会理解为何称其为龙——它的吐息与威压，的确同那些虚构故事中的龙无异。",
+    "safeInformation": "",
+    "unitInformation": "",
     "enemyDrop": [
       {
         "id": 11700202
@@ -49312,14 +49271,14 @@
     ],
     "enemyType": 12601048,
     "enemyCamp": 12601044,
-    "enemyBookId": 10000121
+    "enemyBookId": -1
   },
   {
     "id": 10000267,
-    "idCN": "桦树生物/BOSS/6-双头凛川骨龙-头1",
+    "idCN": "桦树生物/BOSS/6-裂首骨龙-头1",
     "mod": "敌方角色",
     "isInformalData": false,
-    "name": "双头凛川骨龙",
+    "name": "裂首骨龙",
     "EnglishName": "",
     "viewId": 11000267,
     "skinList": [],
@@ -49459,8 +49418,8 @@
     "hitAreaHalfWidth_SN": 40000,
     "hitAreaHalfHeight_SN": 50000,
     "battleDes": "",
-    "safeInformation": "能造成冻结、枷锁和晕眩等多种负面效果，会不断释放“龙威”，减少所受伤害。召唤出的冰川能同时对多个目标构成威胁。",
-    "unitInformation": "名为骨龙，但实际上与“龙”毫无关联的大型桦树生物，外甲呈现出某种幻想生物骨架的形态。可以控制与自身形态类似的幻影，其共鸣腔中传出的咆哮响彻天际。当直面它时，恐怕人人都会理解为何称其为龙——它的吐息与威压，的确同那些虚构故事中的龙无异。",
+    "safeInformation": "进行强大冰属性攻击的海龙桦树生物，骨龙的亚种。能造成冻结、枷锁和晕眩等多种负面效果，会不断释放“龙威”，减少所受伤害。召唤出的冰川能同时对多个目标构成威胁。攻击频率与强度极高。",
+    "unitInformation": "凛川骨龙的亚种，成因不明。有学者认为此种桦树生物是由单体的凛川骨龙分裂而来，也有学者认为这实际上是复数只骨龙在互相吞噬的过程中形成了嵌合体。\\n能造成【冻结】、【枷锁】和【禁锢】等多种负面效果，会不断释放“龙威”，减少所受伤害。召唤出的冰川能同时对多个目标构成威胁，并以一定概率附加【冻结】；能以强大的攻击造成【护盾击碎】效果。相比凛川骨龙来说，攻击频率更高，对人类的威胁也更大。",
     "enemyDrop": [
       {
         "id": 11700202
@@ -49528,19 +49487,19 @@
     ],
     "enemyType": 12601048,
     "enemyCamp": 12601044,
-    "enemyBookId": 10000121
+    "enemyBookId": 10000267
   },
   {
     "id": 10000268,
-    "idCN": "敌方/06深眠者/锁魂人BOSS",
+    "idCN": "敌方/06深眠者/祸链囚徒BOSS",
     "mod": "敌方角色",
     "isInformalData": false,
-    "name": "锁魂人",
+    "name": "祸链囚徒",
     "EnglishName": "",
-    "viewId": 11000107,
+    "viewId": 11000314,
     "skinList": [],
     "sideId": 12600910,
-    "controllerId": 10300100,
+    "controllerId": 10300341,
     "bulletControllerList": [],
     "isBoss": true,
     "bossHpTemp": 90100010,
@@ -49556,20 +49515,17 @@
       },
       {
         "tagId": 12600278
+      },
+      {
+        "tagId": 12601080
       }
     ],
     "passiveSkillList": [
       {
-        "skillId": 12301506
+        "skillId": 12300152
       },
       {
-        "skillId": 12301371
-      },
-      {
-        "skillId": 12301428
-      },
-      {
-        "skillId": 12301474
+        "skillId": 12300016
       }
     ],
     "hp_SN": 1440000000,
@@ -49584,7 +49540,7 @@
     "skillList": [],
     "noUpgradeSkillList": [],
     "equipmentSlotList": [],
-    "growthId": 12000282,
+    "growthId": 12000366,
     "growthTagList": [
       {
         "growthTagId": 12000353
@@ -49633,19 +49589,19 @@
       }
     ],
     "rewardList": [],
-    "actionStandID": 10101038,
-    "actionMoveID": 10101038,
-    "actionAttackedID": 10101021,
-    "actionAttackedBackID": 10101027,
+    "actionStandID": 10102825,
+    "actionMoveID": 10102826,
+    "actionAttackedID": 10102835,
+    "actionAttackedBackID": 10102635,
     "actionKnockUpID": -1,
-    "actionStunID": 10101231,
-    "actionDeadID": 10101024,
+    "actionStunID": 10102831,
+    "actionDeadID": 10102827,
     "actionVictoryID": -1,
     "hitPointX_SN": 0,
     "hitPointY_SN": 15000,
     "hitAreaX_SN": 0,
     "hitAreaY_SN": 10000,
-    "hitAreaHalfWidth_SN": 5000,
+    "hitAreaHalfWidth_SN": 15000,
     "hitAreaHalfHeight_SN": 10000,
     "battleDes": "",
     "safeInformation": "在荒原上的搁浅货轮上游荡的深眠者，已经开始进一步深眠化，十分危险，但似乎并没有主动攻击人类的意思。",
@@ -49687,6 +49643,586 @@
     ],
     "enemyType": 12601048,
     "enemyCamp": 12600237,
-    "enemyBookId": 10000193
+    "enemyBookId": 10000268
+  },
+  {
+    "id": 10000270,
+    "idCN": "00我方/04四星/海因里希",
+    "mod": "玩家角色",
+    "isInformalData": false,
+    "name": "海因里希",
+    "EnglishName": "Heinrich",
+    "viewId": 11000316,
+    "skinList": [
+      {
+        "unitViewId": 11000316
+      }
+    ],
+    "sideId": 12600027,
+    "controllerId": 10300342,
+    "bulletControllerList": [],
+    "isBoss": false,
+    "bossHpTemp": -1,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      }
+    ],
+    "passiveSkillList": [],
+    "hp_SN": 80000000,
+    "def_SN": 790000,
+    "atk_SN": 780000,
+    "atkSpeed_SN": 1000000,
+    "luck_SN": 0,
+    "line": 1,
+    "subLine": 130,
+    "isUseCustomCostRestore": false,
+    "costRestorePerFrame_SN": 22,
+    "costRestore_SN": 1340,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "fourStar",
+    "allSkillList": [],
+    "skillList": [
+      {
+        "num": 3,
+        "skillId": 12300148
+      },
+      {
+        "num": 1,
+        "skillId": 12300149
+      },
+      {
+        "num": 1,
+        "skillId": 12300150
+      }
+    ],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [
+      {
+        "tagID": 12600155
+      },
+      {
+        "tagID": 12600161
+      },
+      {
+        "tagID": 12600162
+      }
+    ],
+    "growthId": 12000367,
+    "growthTagList": [],
+    "skillLvUpList": [],
+    "breakthroughList": [
+      {
+        "breakthroughId": 12100553
+      },
+      {
+        "breakthroughId": 12100554
+      },
+      {
+        "breakthroughId": 12100556
+      },
+      {
+        "breakthroughId": 12100555
+      },
+      {
+        "breakthroughId": 12100551
+      },
+      {
+        "breakthroughId": 12100552
+      }
+    ],
+    "awakeList": [
+      {
+        "awakeId": 12200251
+      },
+      {
+        "awakeId": 12200252
+      },
+      {
+        "awakeId": 12200253
+      },
+      {
+        "awakeId": 12200254
+      },
+      {
+        "awakeId": 12200249
+      },
+      {
+        "awakeId": 12200250
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800242
+      },
+      {
+        "talentId": 12800243
+      },
+      {
+        "talentId": 12800244
+      },
+      {
+        "talentId": 12800245
+      },
+      {
+        "talentId": 12800241
+      }
+    ],
+    "rewardList": [
+      {
+        "id": 11700041,
+        "num": 1
+      }
+    ],
+    "actionStandID": 10102845,
+    "actionMoveID": 10102846,
+    "actionAttackedID": 10102843,
+    "actionAttackedBackID": 10102844,
+    "actionKnockUpID": -1,
+    "actionStunID": 10102848,
+    "actionDeadID": 10102847,
+    "actionVictoryID": 10102733,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 15000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 10000,
+    "hitAreaHalfWidth_SN": 5000,
+    "hitAreaHalfHeight_SN": 10000,
+    "decomposeRewardList": [
+      {
+        "id": 11400017,
+        "num": 3
+      }
+    ],
+    "isSpine2": 1,
+    "homeSkillList": [
+      {
+        "id": 83900102,
+        "nextIndex": 0,
+        "resonanceLv": 1
+      },
+      {
+        "id": 83900033,
+        "nextIndex": 3,
+        "resonanceLv": 4
+      },
+      {
+        "id": 83900054,
+        "nextIndex": -1,
+        "resonanceLv": 5
+      }
+    ],
+    "totalCost": 16,
+    "totalCardNum": 5,
+    "skillMin": 5,
+    "homeCharacter": 70000138,
+    "stationStoreCharacter": -1,
+    "gotoBed": true,
+    "isDoctor": false,
+    "medicalPoint": 0,
+    "WasteCoefficient": 1.0,
+    "FoodList": [],
+    "ProfilePhotoList": [
+      {
+        "id": 82600377,
+        "weight": 95
+      },
+      {
+        "id": 82600378,
+        "weight": 15
+      },
+      {
+        "id": 82600379,
+        "weight": 95
+      },
+      {
+        "id": 82600380,
+        "weight": 95
+      }
+    ],
+    "classifyList": [],
+    "fileList": [
+      {
+        "file": 80300035
+      }
+    ],
+    "age": 0,
+    "gender": "",
+    "birthday": "1月1日",
+    "height": "150",
+    "birthplace": "",
+    "ability": "",
+    "identity": "",
+    "basic": "",
+    "ResumeList": [],
+    "StoryList": [],
+    "CvName": "",
+    "getCharacter": "",
+    "safeInformation": "",
+    "unitInformation": ""
+  },
+  {
+    "id": 10000269,
+    "idCN": "桦树生物/荒古/雷暴虫",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "雷暴虫",
+    "EnglishName": "",
+    "viewId": 11000317,
+    "skinList": [],
+    "sideId": 12601084,
+    "controllerId": 10300340,
+    "bulletControllerList": [],
+    "isBoss": false,
+    "bossHpTemp": -1,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12601085
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12300183
+      }
+    ],
+    "hp_SN": 110000000,
+    "def_SN": 570000,
+    "atk_SN": 630000,
+    "atkSpeed_SN": 500000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000368,
+    "growthTagList": [
+      {
+        "growthTagId": 12000112
+      },
+      {
+        "growthTagId": 12000097
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800292
+      },
+      {
+        "talentId": 12800293
+      },
+      {
+        "talentId": 12800294
+      },
+      {
+        "talentId": 12800295
+      },
+      {
+        "talentId": 12800296
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10102871,
+    "actionMoveID": 10102870,
+    "actionAttackedID": 10102867,
+    "actionAttackedBackID": 10102868,
+    "actionKnockUpID": -1,
+    "actionStunID": 10102863,
+    "actionDeadID": 10102869,
+    "actionVictoryID": -1,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 15000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 15000,
+    "hitAreaHalfWidth_SN": 11000,
+    "hitAreaHalfHeight_SN": 15000,
+    "battleDes": "",
+    "safeInformation": "",
+    "unitInformation": "",
+    "enemyDrop": [],
+    "abilityList": [
+      {
+        "id": 12600936
+      },
+      {
+        "id": 12600923
+      }
+    ],
+    "weaknessList": [],
+    "resistanceList": [],
+    "enemyType": 12601046,
+    "enemyCamp": 12601044,
+    "enemyBookId": -1
+  },
+  {
+    "id": 10000273,
+    "idCN": "桦树生物/BOSS/逆纹桦树生物",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "逆纹桦树生物",
+    "EnglishName": "",
+    "viewId": 11000319,
+    "skinList": [],
+    "sideId": 12600921,
+    "controllerId": 10300361,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": 90100008,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600278
+      }
+    ],
+    "passiveSkillList": [],
+    "hp_SN": 300000000,
+    "def_SN": 600000,
+    "atk_SN": 600000,
+    "atkSpeed_SN": 1000000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000371,
+    "growthTagList": [
+      {
+        "growthTagId": 12000353
+      },
+      {
+        "growthTagId": 12000060
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800470
+      },
+      {
+        "talentId": 12800471
+      },
+      {
+        "talentId": 12800467
+      },
+      {
+        "talentId": 12800468
+      },
+      {
+        "talentId": 12800469
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10102879,
+    "actionMoveID": 10102880,
+    "actionAttackedID": 10102885,
+    "actionAttackedBackID": 10102878,
+    "actionKnockUpID": -1,
+    "actionStunID": 10102876,
+    "actionDeadID": 10102877,
+    "actionVictoryID": -1,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 15000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 15000,
+    "hitAreaHalfWidth_SN": 10000,
+    "hitAreaHalfHeight_SN": 15000,
+    "battleDes": "",
+    "safeInformation": "以爪击和突刺攻击为主的桦树生物，能同时对多个目标发起近程攻击",
+    "unitInformation": "更具威胁性的桦树生物，需要至少小队级别的武装才可能正面对抗。躯干呈螺旋状，没有硬质外甲，攻击以突刺和爪击为主，攻击性强，但较易击倒。",
+    "enemyDrop": [],
+    "abilityList": [],
+    "weaknessList": [],
+    "resistanceList": [],
+    "enemyType": 12601048,
+    "enemyCamp": 12601044,
+    "enemyBookId": 10000273
+  },
+  {
+    "id": 10000272,
+    "idCN": "桦树生物/荒古/雷小球",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "雷小球",
+    "EnglishName": "",
+    "viewId": 11000318,
+    "skinList": [],
+    "sideId": 12601084,
+    "controllerId": 10300360,
+    "bulletControllerList": [],
+    "isBoss": false,
+    "bossHpTemp": -1,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      }
+    ],
+    "passiveSkillList": [],
+    "hp_SN": 110000000,
+    "def_SN": 570000,
+    "atk_SN": 630000,
+    "atkSpeed_SN": 500000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000370,
+    "growthTagList": [
+      {
+        "growthTagId": 12000112
+      },
+      {
+        "growthTagId": 12000097
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800292
+      },
+      {
+        "talentId": 12800293
+      },
+      {
+        "talentId": 12800294
+      },
+      {
+        "talentId": 12800295
+      },
+      {
+        "talentId": 12800296
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10102875,
+    "actionMoveID": 10102873,
+    "actionAttackedID": 10102873,
+    "actionAttackedBackID": 10102873,
+    "actionKnockUpID": -1,
+    "actionStunID": 10102874,
+    "actionDeadID": 10102872,
+    "actionVictoryID": -1,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 15000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 15000,
+    "hitAreaHalfWidth_SN": 4000,
+    "hitAreaHalfHeight_SN": 15000,
+    "battleDes": "",
+    "safeInformation": "",
+    "unitInformation": "",
+    "enemyDrop": [],
+    "abilityList": [
+      {
+        "id": 12600928
+      }
+    ],
+    "weaknessList": [],
+    "resistanceList": [],
+    "enemyType": 12601046,
+    "enemyCamp": 12601044,
+    "enemyBookId": -1
   }
 ]

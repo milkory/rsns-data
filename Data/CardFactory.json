@@ -874,7 +874,7 @@
     "discardBuffId": -1,
     "discardBySkillBuffId": -1,
     "banishBuffId": -1,
-    "atkAreaType": "Self",
+    "atkAreaType": "AllAlly",
     "atkAreaColor": "Green",
     "targetColor": "HealTest",
     "disappearEffectId": 11100047,
@@ -888,6 +888,9 @@
         "tagId": 12600007
       },
       {
+        "tagId": 12600309
+      },
+      {
         "tagId": 12600073
       }
     ],
@@ -899,7 +902,8 @@
       {
         "SkillId": 12300245
       }
-    ]
+    ],
+    "cardAIActionList": []
   },
   {
     "id": 10600081,
@@ -2020,13 +2024,14 @@
     "mod": "无动作卡",
     "isInformalData": false,
     "name": "震波",
+    "isCutIn": false,
     "isNoCD": false,
     "isUseInHand": false,
     "isNotDiscard": false,
-    "iconPath": "RolePlus\\02Common\\skillicon\\ZhenBo",
+    "iconPath": "RolePlus\\02Common\\skillicon\\ZhenBo-red",
     "backPath": "",
     "roleImgPath": "",
-    "color": "Purple",
+    "color": "Red",
     "cardType": "Derive",
     "sameCardGroupId": -1,
     "cost_SN": 0,
@@ -2042,10 +2047,12 @@
     "disappearEffectId": 11100047,
     "appearEffectId": 11100046,
     "createEffectId": 11100106,
+    "destroyEffectId": -1,
+    "createTweenDelay": 30,
     "isCostX": false,
     "tagList": [
       {
-        "tagId": 12600073
+        "tagId": 12600145
       },
       {
         "tagId": 12600149
@@ -2053,11 +2060,13 @@
     ],
     "tagOutsideList": [],
     "deriveCardList": [],
+    "cardAIActionList": [],
     "distance_SN": 0,
     "radius_SN": 240000,
     "isUseTargetFilter": false,
     "targetType": "Enemy",
     "targetTagList": [],
+    "tagType": "And",
     "halfWidth_SN": 0,
     "attributeType": "HpMax",
     "condition": "Max",
@@ -3106,7 +3115,7 @@
     "discardBuffId": -1,
     "discardBySkillBuffId": -1,
     "banishBuffId": -1,
-    "atkAreaType": "Self",
+    "atkAreaType": "AllAlly",
     "atkAreaColor": "Green",
     "targetColor": "HealTest",
     "disappearEffectId": 11100047,
@@ -3127,7 +3136,8 @@
       }
     ],
     "tagOutsideList": [],
-    "deriveCardList": []
+    "deriveCardList": [],
+    "cardAIActionList": []
   },
   {
     "id": 10600037,
@@ -8740,7 +8750,7 @@
   },
   {
     "id": 10600045,
-    "idCN": "00原版/05五星/马吉拉/A共振4",
+    "idCN": "00原版/05五星/马吉拉/A共振2",
     "mod": "基础卡牌",
     "isInformalData": false,
     "name": "汲取",
@@ -8787,7 +8797,7 @@
   },
   {
     "id": 10600046,
-    "idCN": "00原版/05五星/马吉拉/B共振2",
+    "idCN": "00原版/05五星/马吉拉/B共振4",
     "mod": "基础卡牌",
     "isInformalData": false,
     "name": "禁果",
@@ -14241,7 +14251,7 @@
     "cardType": "Normal",
     "sameCardGroupId": -1,
     "actionId": 10101062,
-    "cost_SN": 30000,
+    "cost_SN": 20000,
     "inhandBuffId": -1,
     "inhandOverBuffId": -1,
     "startBuffId": -1,
@@ -14358,10 +14368,7 @@
         "tagId": 12600287
       },
       {
-        "tagId": 12600275
-      },
-      {
-        "tagId": 12600087
+        "tagId": 12600082
       }
     ],
     "tagOutsideList": [],
@@ -17842,7 +17849,7 @@
     "cardType": "Normal",
     "sameCardGroupId": -1,
     "actionId": 10101239,
-    "cost_SN": 30000,
+    "cost_SN": 20000,
     "inhandBuffId": -1,
     "inhandOverBuffId": -1,
     "startBuffId": -1,
@@ -18101,6 +18108,153 @@
     "tagList": [
       {
         "tagId": 12600145
+      }
+    ],
+    "tagOutsideList": [],
+    "deriveCardList": [],
+    "cardAIActionList": []
+  },
+  {
+    "id": 10600359,
+    "idCN": "00原版/04四星/海因里希/B",
+    "mod": "基础卡牌",
+    "isInformalData": false,
+    "name": "爆破支援",
+    "isCutIn": false,
+    "isNoCD": false,
+    "isUseInHand": false,
+    "isNotDiscard": false,
+    "iconPath": "RolePlus\\Heinrich\\skillicon\\B",
+    "backPath": "",
+    "roleImgPath": "",
+    "color": "Yellow",
+    "cardType": "Normal",
+    "sameCardGroupId": -1,
+    "actionId": 10102839,
+    "cost_SN": 30000,
+    "inhandBuffId": -1,
+    "inhandOverBuffId": -1,
+    "startBuffId": 10409531,
+    "discardBuffId": -1,
+    "discardBySkillBuffId": -1,
+    "banishBuffId": -1,
+    "atkAreaType": "Self",
+    "atkAreaColor": "Green",
+    "targetColor": "HealTest",
+    "disappearEffectId": 11100047,
+    "appearEffectId": 11100046,
+    "createEffectId": 11100106,
+    "destroyEffectId": -1,
+    "createTweenDelay": 30,
+    "isCostX": false,
+    "tagList": [
+      {
+        "tagId": 12600146
+      }
+    ],
+    "tagOutsideList": [],
+    "deriveCardList": [],
+    "cardAIActionList": []
+  },
+  {
+    "id": 10600361,
+    "idCN": "00原版/04四星/海因里希/S",
+    "mod": "基础卡牌",
+    "isInformalData": false,
+    "name": "集束炸弹",
+    "isCutIn": true,
+    "isNoCD": false,
+    "isUseInHand": false,
+    "isNotDiscard": false,
+    "iconPath": "RolePlus\\Heinrich\\skillicon\\S",
+    "backPath": "",
+    "roleImgPath": "",
+    "color": "Red",
+    "cardType": "Normal",
+    "sameCardGroupId": -1,
+    "actionId": 10102838,
+    "cost_SN": 40000,
+    "inhandBuffId": -1,
+    "inhandOverBuffId": -1,
+    "startBuffId": -1,
+    "discardBuffId": -1,
+    "discardBySkillBuffId": -1,
+    "banishBuffId": -1,
+    "atkAreaType": "VariableArea",
+    "atkAreaColor": "Yellow",
+    "targetColor": "AttackTest",
+    "disappearEffectId": 11100047,
+    "appearEffectId": 11100046,
+    "createEffectId": 11100106,
+    "destroyEffectId": -1,
+    "createTweenDelay": 30,
+    "isCostX": false,
+    "tagList": [
+      {
+        "tagId": 12600007
+      },
+      {
+        "tagId": 12600145
+      },
+      {
+        "tagId": 12600466
+      },
+      {
+        "tagId": 12600057
+      }
+    ],
+    "tagOutsideList": [],
+    "deriveCardList": [],
+    "cardAIActionList": []
+  },
+  {
+    "id": 10600362,
+    "idCN": "00原版/04四星/海因里希/A",
+    "mod": "基础卡牌",
+    "isInformalData": false,
+    "name": "战术手雷",
+    "isCutIn": false,
+    "isNoCD": false,
+    "isUseInHand": false,
+    "isNotDiscard": false,
+    "iconPath": "RolePlus\\Heinrich\\skillicon\\A",
+    "backPath": "",
+    "roleImgPath": "",
+    "color": "Red",
+    "cardType": "Normal",
+    "sameCardGroupId": -1,
+    "actionId": 10102837,
+    "cost_SN": 20000,
+    "inhandBuffId": -1,
+    "inhandOverBuffId": -1,
+    "startBuffId": -1,
+    "discardBuffId": -1,
+    "discardBySkillBuffId": -1,
+    "banishBuffId": -1,
+    "atkAreaType": "TargetArea",
+    "atkAreaColor": "Yellow",
+    "targetColor": "AttackTest",
+    "disappearEffectId": 11100047,
+    "appearEffectId": 11100046,
+    "createEffectId": 11100106,
+    "destroyEffectId": -1,
+    "createTweenDelay": 30,
+    "isCostX": false,
+    "tagList": [
+      {
+        "tagId": 12600145
+      },
+      {
+        "tagId": 12600271
+      },
+      {
+        "tagId": 12600206
+      },
+      {
+        "tagId": 12600019
+      },
+      {
+        "tagId": 12600057
       }
     ],
     "tagOutsideList": [],

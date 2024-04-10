@@ -105,7 +105,7 @@
     "equipmentBag": 2000,
     "itemBag": 1000,
     "materialBag": 1000,
-    "furnitureBag": 2000,
+    "furnitureBag": 5000,
     "playerHeadList": [
       {
         "playerHeadPath": "UI\\Common\\PlayerHead\\A_01"
@@ -4945,7 +4945,7 @@
     "CoachY": 8,
     "passagewayList": [
       {
-        "z": 7
+        "z": 5
       }
     ],
     "CameraY": 3.1,
@@ -11675,10 +11675,6 @@
         "guideNO": 111
       },
       {
-        "guideId": 20900152,
-        "guideNO": 111
-      },
-      {
         "guideId": 20900177,
         "guideNO": 113
       },
@@ -13233,6 +13229,13 @@
         "name": "行车日志",
         "param": "",
         "prefab": "UI/PlotReview/PlotReview"
+      },
+      {
+        "funcId": 117,
+        "icon": "UI/MainUI/main_icon_booklet",
+        "name": "联应之钥",
+        "param": "",
+        "prefab": "UI/CollectionCard/CardBooklet"
       }
     ],
     "mileageMax": 99999999,
@@ -14312,7 +14315,7 @@
     "polluteQuestId": -1,
     "polluteMin": 1,
     "polluteMax": 3,
-    "pollutePlayerNum": 40000,
+    "pollutePlayerNum": 50000,
     "polluteAreaList": [
       {
         "id": 84600001,
@@ -17456,6 +17459,15 @@
         "sort": 2,
         "startTime": "2024-03-21 15:00:00",
         "tag": 12601071
+      },
+      {
+        "endTime": "",
+        "id": 86000002,
+        "name": 80606880,
+        "png": "UI/Activity/Tab/tab_black",
+        "sort": 3,
+        "startTime": "2024-04-18 15:00:00",
+        "tag": 12600158
       }
     ],
     "questList": []
@@ -17637,6 +17649,18 @@
       {
         "id": 11400001,
         "num": 2000000
+      }
+    ]
+  },
+  {
+    "id": 99900065,
+    "idCN": "收集卡包配置",
+    "mod": "收集卡包配置",
+    "isInformalData": false,
+    "nameEN": "CollectionCardConfig",
+    "cardPackList": [
+      {
+        "id": 86300001
       }
     ]
   }

@@ -759,15 +759,15 @@
     "eventList": [],
     "createQuestList": [
       {
-        "id": 80300715,
+        "id": 80300038,
         "repCondition": 0
       },
       {
-        "id": 80300716,
+        "id": 80300132,
         "repCondition": 0
       },
       {
-        "id": 80300717,
+        "id": 80300247,
         "repCondition": 1
       }
     ],
@@ -777,7 +777,50 @@
     "tagOffPath": "UI/Home/HomeSafe/Level/tag_off",
     "expelBgPath": "UI/Home/HomeSafe/Level/di_level",
     "offerPrestige": 5,
-    "offerQuestList": [],
+    "offerQuestList": [
+      {
+        "bossId": 10000456,
+        "id": 20100734,
+        "isRepetition": true,
+        "weight": 1
+      },
+      {
+        "bossId": 10000255,
+        "id": 20100735,
+        "isRepetition": true,
+        "weight": 1
+      },
+      {
+        "bossId": 10000174,
+        "id": 20100736,
+        "isRepetition": true,
+        "weight": 1
+      },
+      {
+        "bossId": 10000121,
+        "id": 20100739,
+        "isRepetition": true,
+        "weight": 1
+      },
+      {
+        "bossId": 10000267,
+        "id": 20100741,
+        "isRepetition": true,
+        "weight": 1
+      },
+      {
+        "bossId": 10000186,
+        "id": 20100744,
+        "isRepetition": true,
+        "weight": 1
+      },
+      {
+        "bossId": 10000268,
+        "id": 20100746,
+        "isRepetition": true,
+        "weight": 1
+      }
+    ],
     "shareLevelNumMax": 10,
     "changeRefreshTime": 10,
     "returnCoefficient": 0.7,
@@ -1446,29 +1489,111 @@
     "mod": "兑换站",
     "isInformalData": false,
     "name": "",
-    "buildingIconPath": "UI/Home/BarStore/icon_rest",
+    "buildingIconPath": "",
     "firstPlotId": -1,
-    "uiPath": "",
-    "bgPath": "",
+    "uiPath": "UI/ExchangeStation/ExchangeStation",
+    "bgPath": "UI/Dialog/Back2/Office_HJJD",
     "bgColor": "FFFFFF",
     "stationId": 83000020,
-    "npcId": -1,
+    "npcId": 83700057,
     "favorability": false,
     "helpId": -1,
     "rankId": -1,
+    "correspondingActivity": 86000002,
     "eventList": [],
     "playerLevel": 0,
-    "exchangeOpenPageList": [],
+    "exchangeOpenPageList": [
+      {
+        "icon": "UI/HomeCOC/coc_icon_quest",
+        "isStore": false,
+        "isTalk": false,
+        "name": "运输订单",
+        "showUI": "Group_OrderList",
+        "uiPath": ""
+      },
+      {
+        "icon": "UI/Home/HomeSafe/jiaotan",
+        "isStore": false,
+        "isTalk": true,
+        "name": "交谈",
+        "showUI": ""
+      }
+    ],
     "exchangeStoreList": [],
     "exchangeWeaponList": [],
     "isShowConstruct": false,
     "isShowReputation": false,
     "exchangeName": "",
-    "buildingPath": "",
+    "buildingPath": "UI/ExchangeStation/icon_exchange",
     "exchangePath": "",
     "pagePath": "",
     "bottomPath": "",
     "exchangeAffirmPath": "",
-    "exchangeCompletePath": ""
+    "exchangeCompletePath": "",
+    "orderNumMax": 6,
+    "orderNumMin": 4,
+    "activityOrderList": [
+      {
+        "id": 11400001,
+        "limitNum": -1,
+        "onceNum": 100000,
+        "rewardId": 80301816
+      },
+      {
+        "id": 82900004,
+        "limitNum": 2,
+        "onceNum": 1,
+        "rewardId": 80301817
+      },
+      {
+        "id": 82900040,
+        "limitNum": 1,
+        "onceNum": 1,
+        "rewardId": 80301818
+      },
+      {
+        "id": 82900011,
+        "limitNum": 1,
+        "onceNum": 1,
+        "rewardId": 80301819
+      },
+      {
+        "id": 82900081,
+        "limitNum": 1,
+        "onceNum": 1,
+        "rewardId": 80301820
+      },
+      {
+        "id": 82900001,
+        "limitNum": 1,
+        "onceNum": 1,
+        "rewardId": 80301821
+      }
+    ],
+    "orderTitle": 80606899,
+    "orderDes": 80606900,
+    "orderBgPath": "UI/ExchangeStation/Order/bg_title",
+    "constructionLevelList": [
+      {
+        "bossId": 10000103,
+        "id": 20100733
+      },
+      {
+        "bossId": 10000244,
+        "id": 20100747
+      },
+      {
+        "bossId": 10000144,
+        "id": 20100748
+      },
+      {
+        "bossId": 10000227,
+        "id": 20100728
+      },
+      {
+        "bossId": 10000267,
+        "id": 20100730
+      }
+    ]
   }
 ]
