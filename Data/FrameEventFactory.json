@@ -15942,34 +15942,6 @@
     "buffId": 10408165
   },
   {
-    "id": 10501177,
-    "idCN": "敌方/13毛绒会/疯熊/技能2炽地子弹",
-    "mod": "子弹事件",
-    "isInformalData": false,
-    "buffId": 10401936,
-    "bulletId": 11200382,
-    "targetType": "CurrentTarget",
-    "offSetX_SN": 0,
-    "offSetZ_SN": 0,
-    "isUseTargetFilter": false,
-    "targetFilterType": "Ally",
-    "targetTagList": [],
-    "tagType": "And",
-    "halfWidth_SN": 0,
-    "attributeType": "HpMax",
-    "condition": "Max",
-    "numberType": "Number",
-    "number_SN": 0,
-    "buffTypeFO": -1,
-    "buffFO": -1,
-    "buffJudgeType": "Greater",
-    "buffLevel": 0,
-    "filterStance": "DeafaultStance",
-    "filterPosition": "DefaultPos",
-    "isAimSelf": false,
-    "targetCount": 0
-  },
-  {
     "id": 10501176,
     "idCN": "敌方/13毛绒会/疯熊/技能2",
     "mod": "子弹事件",
@@ -20351,10 +20323,10 @@
   },
   {
     "id": 10501991,
-    "idCN": "敌方/02桦树/BOSS/逆纹桦树生物/普攻2",
+    "idCN": "敌方/02桦树/BOSS/逆纹桦树生物/普攻2治疗",
     "mod": "给自己上BUFF",
     "isInformalData": false,
-    "buffId": 10406379
+    "buffId": 10409631
   },
   {
     "id": 10501992,
@@ -20391,5 +20363,47 @@
     "mod": "给自己上BUFF",
     "isInformalData": false,
     "buffId": 10409628
+  },
+  {
+    "id": 10501995,
+    "idCN": "敌方/02桦树/BOSS/逆纹桦树生物/普攻2加精力",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10402616
+  },
+  {
+    "id": 10501996,
+    "idCN": "敌方/02桦树/BOSS/逆纹桦树生物/技能1加精力",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10403082
+  },
+  {
+    "id": 10501997,
+    "idCN": "敌方/02桦树/BOSS/逆纹桦树生物/技能2",
+    "mod": "子弹事件",
+    "isInformalData": false,
+    "buffId": 10406379,
+    "bulletId": 11200406,
+    "targetType": "CurrentTarget",
+    "offSetX_SN": 0,
+    "offSetZ_SN": 0,
+    "isUseTargetFilter": false,
+    "targetFilterType": "Ally",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 0,
+    "attributeType": "HpMax",
+    "condition": "Max",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 0
   }
 ]

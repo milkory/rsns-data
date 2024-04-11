@@ -3693,9 +3693,11 @@
         "plotID": 20600445
       }
     ],
+    "plotListGril": [],
     "completeQuest": -1,
     "isAuto": false,
-    "showBtnList": false
+    "showBtnList": false,
+    "triggerQuest": -1
   },
   {
     "id": 20700321,
@@ -3773,6 +3775,9 @@
     "nextParagraph": 20700032,
     "hideEnvCamera": true,
     "plotList": [
+      {
+        "plotID": 20600445
+      },
       {
         "plotID": 20602348
       },
@@ -5180,7 +5185,7 @@
     "pattern": "剧本",
     "girlPath": "",
     "girlPattern": "",
-    "completeQuest": 81000594,
+    "completeQuest": -1,
     "isAuto": false,
     "showBtnList": false,
     "triggerQuest": -1
@@ -5691,28 +5696,6 @@
     "triggerQuest": -1
   },
   {
-    "id": 20700193,
-    "idCN": "主线流程/隐藏界面/TL掘金机器人1",
-    "mod": "段落",
-    "isInformalData": false,
-    "outline": "",
-    "isBanSkip": true,
-    "isGoBack": true,
-    "isUploadingServe": false,
-    "nextParagraph": 20700324,
-    "hideEnvCamera": true,
-    "plotList": [
-      {
-        "plotID": 20600445
-      }
-    ],
-    "plotListGril": [],
-    "completeQuest": -1,
-    "isAuto": false,
-    "showBtnList": false,
-    "triggerQuest": -1
-  },
-  {
     "id": 20700194,
     "idCN": "Ep4/对话1",
     "mod": "段落脚本",
@@ -5821,7 +5804,7 @@
     "isBanSkip": false,
     "isGoBack": true,
     "isUploadingServe": true,
-    "nextParagraph": 20700301,
+    "nextParagraph": 20700283,
     "hideEnvCamera": true,
     "path": "story\\Ep4\\EP4-6",
     "pattern": "剧本",
@@ -6085,6 +6068,9 @@
     "hideEnvCamera": true,
     "plotList": [
       {
+        "plotID": 20600296
+      },
+      {
         "plotID": 20600966
       }
     ],
@@ -6127,10 +6113,13 @@
     "outline": "",
     "isBanSkip": true,
     "isGoBack": false,
-    "isUploadingServe": false,
-    "nextParagraph": -1,
+    "isUploadingServe": true,
+    "nextParagraph": 20700347,
     "hideEnvCamera": true,
     "plotList": [
+      {
+        "plotID": 20600296
+      },
       {
         "plotID": 20600968
       }
@@ -6148,35 +6137,16 @@
     "isInformalData": false,
     "outline": "",
     "isBanSkip": true,
-    "isGoBack": false,
-    "isUploadingServe": false,
-    "nextParagraph": -1,
-    "hideEnvCamera": true,
-    "plotList": [
-      {
-        "plotID": 20600969
-      }
-    ],
-    "plotListGril": [],
-    "completeQuest": -1,
-    "isAuto": false,
-    "showBtnList": false,
-    "triggerQuest": -1
-  },
-  {
-    "id": 20700301,
-    "idCN": "主线流程/隐藏界面/EP4/TL1",
-    "mod": "段落",
-    "isInformalData": false,
-    "outline": "",
-    "isBanSkip": true,
     "isGoBack": true,
-    "isUploadingServe": false,
-    "nextParagraph": 20700283,
+    "isUploadingServe": true,
+    "nextParagraph": 20700348,
     "hideEnvCamera": true,
     "plotList": [
       {
         "plotID": 20600296
+      },
+      {
+        "plotID": 20600969
       }
     ],
     "plotListGril": [],
@@ -6371,7 +6341,7 @@
     "mod": "段落脚本",
     "isInformalData": false,
     "outline": "袭击你们的人居然是卡塔斯，就在战斗无法收场的时候，一名陌生女性出手制止了你们。莉薇娅居然认识那个人……？",
-    "isBanSkip": false,
+    "isBanSkip": true,
     "isGoBack": false,
     "isUploadingServe": true,
     "nextParagraph": 20700335,
@@ -6391,7 +6361,7 @@
     "mod": "段落脚本",
     "isInformalData": false,
     "outline": "袭击你们的人居然是卡塔斯，就在战斗无法收场的时候，一名陌生女性出手制止了你们。莉薇娅居然认识那个人……？",
-    "isBanSkip": false,
+    "isBanSkip": true,
     "isGoBack": false,
     "isUploadingServe": true,
     "nextParagraph": 20700336,
@@ -6434,9 +6404,9 @@
     "isBanSkip": false,
     "isGoBack": false,
     "isUploadingServe": true,
-    "nextParagraph": 20700338,
+    "nextParagraph": 20700285,
     "hideEnvCamera": true,
-    "path": "story\\Ep4\\EP4-18",
+    "path": "story\\Ep4\\EP4-18-1",
     "pattern": "剧本",
     "girlPath": "",
     "girlPattern": "",
@@ -6494,9 +6464,9 @@
     "isBanSkip": false,
     "isGoBack": false,
     "isUploadingServe": true,
-    "nextParagraph": 20700341,
+    "nextParagraph": 20700300,
     "hideEnvCamera": true,
-    "path": "story\\Ep4\\EP4-21",
+    "path": "story\\Ep4\\EP4-21-1",
     "pattern": "剧本",
     "girlPath": "",
     "girlPattern": "",
@@ -6636,7 +6606,7 @@
     "isUploadingServe": true,
     "nextParagraph": 20700338,
     "hideEnvCamera": true,
-    "path": "story\\Ep4\\EP4-18",
+    "path": "story\\Ep4\\EP4-18-2",
     "pattern": "剧本",
     "girlPath": "",
     "girlPattern": "",
@@ -6676,7 +6646,27 @@
     "isUploadingServe": true,
     "nextParagraph": 20700341,
     "hideEnvCamera": true,
-    "path": "story\\Ep4\\EP4-21",
+    "path": "story\\Ep4\\EP4-21-2",
+    "pattern": "剧本",
+    "girlPath": "",
+    "girlPattern": "",
+    "completeQuest": -1,
+    "isAuto": false,
+    "showBtnList": false,
+    "triggerQuest": -1
+  },
+  {
+    "id": 20700350,
+    "idCN": "活动2期-我造我路/对话EV1-1",
+    "mod": "段落脚本",
+    "isInformalData": false,
+    "outline": "从商会的墨伊拉小姐那里了解到了修格里为推广最新款红茶而举办的活动详情之后，你们决定参加。",
+    "isBanSkip": false,
+    "isGoBack": true,
+    "isUploadingServe": true,
+    "nextParagraph": -1,
+    "hideEnvCamera": true,
+    "path": "story/Hongchazhanzheng/EV1-1",
     "pattern": "剧本",
     "girlPath": "",
     "girlPattern": "",
