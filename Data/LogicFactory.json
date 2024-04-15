@@ -1449,5 +1449,17 @@
     "paramHelp": "",
     "returnType": "bool",
     "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rgetp currentCore\rset $core\r\rif\r\tgetp currentCard\r\tif\r\t\tgetp cardProperty\r\t\tset $cardProperty\r\t\tgetp isLeaderCard\r\t\tif \r\t\t\tret $false\r\t\tendif\r\t\tget $cardProperty\r\t\tgetp card\r\t\tif\r\t\t\tgetp isLeaderCard\r\t\t\tif\r\t\t\t\tret $true\r\t\t\tendif\r\t\tendif\r\tendif\rendif\r\r\rret $false"
+  },
+  {
+    "id": 60000121,
+    "idCN": "主线/数据中心",
+    "mod": "逻辑脚本",
+    "isInformalData": false,
+    "debug": true,
+    "memo": "数据中心",
+    "paramHelp": "",
+    "returnType": "int",
+    "scriptPath": "GGScript/MainLine4-12",
+    "scriptLabel": "main"
   }
 ]

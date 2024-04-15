@@ -13398,26 +13398,26 @@
     "skillList": [
       {
         "actionId": 10102817,
-        "activeFrame": 180,
-        "activeTime": 1.0,
+        "activeFrame": 360,
+        "activeTime": 6.0,
         "rangeSN": 240000
       },
       {
         "actionId": 10102816,
-        "activeFrame": 390,
-        "activeTime": 1.0,
+        "activeFrame": 800,
+        "activeTime": 13.3333,
         "rangeSN": 240000
       },
       {
         "actionId": 10102818,
-        "activeFrame": 690,
-        "activeTime": 1.0,
+        "activeFrame": 1440,
+        "activeTime": 24.0,
         "rangeSN": 240000
       },
       {
         "actionId": 10102817,
-        "activeFrame": 1020,
-        "activeTime": 1.0,
+        "activeFrame": 1960,
+        "activeTime": 32.6667,
         "rangeSN": 240000
       }
     ],
@@ -13440,9 +13440,9 @@
       }
     ],
     "energyRestorePerFrameSN": 220,
-    "isSkillDelay": false,
-    "minDelay": 120,
-    "maxDelay": 360
+    "isSkillDelay": true,
+    "minDelay": 300,
+    "maxDelay": 480
   },
   {
     "id": 10300339,
@@ -13700,6 +13700,168 @@
     "isUseEnergy": false,
     "energySkillList": [],
     "energyRestorePerFrameSN": 900,
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300364,
+    "idCN": "敌方/000角色/学会/约书亚",
+    "mod": "基础AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": -1,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10102909
+      },
+      {
+        "actionID": 10102910
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10102899,
+        "activeFrame": 360,
+        "activeTime": 6.0,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10102898,
+        "activeFrame": 720,
+        "activeTime": 12.0,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10102900,
+        "activeFrame": 1200,
+        "activeTime": 20.0,
+        "rangeSN": -10000
+      }
+    ],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [],
+    "skillLoopDelayFrame": 480,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": true,
+    "energySkillList": [
+      {
+        "actionId": 10102906,
+        "isClearEnergy": true,
+        "rangeSN": -10000
+      }
+    ],
+    "energyRestorePerFrameSN": 0,
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300362,
+    "idCN": "敌方/13毛绒会/幻熊",
+    "mod": "基础AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10102897
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10102888,
+        "activeFrame": 220,
+        "activeTime": 1.0,
+        "rangeSN": 120000
+      },
+      {
+        "actionId": 10102911,
+        "activeFrame": 546,
+        "activeTime": 1.0,
+        "rangeSN": 120000
+      },
+      {
+        "actionId": 10102888,
+        "activeFrame": 736,
+        "activeTime": 1.0,
+        "rangeSN": 120000
+      }
+    ],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [],
+    "skillLoopDelayFrame": 216,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 450,
+    "isSkillDelay": true,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300365,
+    "idCN": "我方/05五星/苔妮",
+    "mod": "卡牌AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": -1,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10102912
+      },
+      {
+        "actionID": 10102913
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [],
+    "skillLoopDelayFrame": 1,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300366,
+    "idCN": "敌方/000角色/学会/苏恩",
+    "mod": "基础AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": -1,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10102924
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [],
+    "skillLoopDelayFrame": 1,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
     "isSkillDelay": false,
     "minDelay": 120,
     "maxDelay": 360

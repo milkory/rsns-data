@@ -3132,7 +3132,7 @@
     "isInformalData": false,
     "name": "原型临界不测兵器",
     "quality": "Orange",
-    "des": "学会在桦树世界里得到的未知文明制造的远古兵器，能够射出引力子，拥有黑洞合并一般破坏力。经过学会的改装变得能够被人类使用。理论上来说，如果能复制其原理并制造一个功率更大的版本，甚至连地卫二都能被彻底摧毁。\\n【此装备唯一】",
+    "des": "学会在桦树空间里得到的未知文明制造的远古兵器，能够射出引力子，拥有黑洞合并一般破坏力。经过学会的改装变得能够被人类使用。理论上来说，如果能复制其原理并制造一个功率更大的版本，甚至连地卫二都能被彻底摧毁。\\n【此装备唯一】",
     "attack_SN": 470000,
     "healthPoint_SN": 0,
     "defence_SN": 0,
@@ -6069,7 +6069,7 @@
     "idCN": "测试装备/测试武器",
     "mod": "基础装备",
     "isInformalData": false,
-    "name": "测试",
+    "name": "测试武器",
     "quality": "Orange",
     "des": "",
     "attack_SN": 0,
@@ -6101,18 +6101,13 @@
     "des": "",
     "attack_SN": 0,
     "healthPoint_SN": 99990000,
-    "defence_SN": 99990000,
+    "defence_SN": 0,
     "growthId": -1,
     "SetId": -1,
     "equipTagId": 12600155,
     "campTagId": -1,
     "skillList": [],
-    "randomSkillList": [
-      {
-        "skillId": 80300039,
-        "weight": 1
-      }
-    ],
+    "randomSkillList": [],
     "disappearSkillList": [],
     "iconPath": "Item\\weapon\\Anita\\Small\\01",
     "tipsPath": "Item\\weapon\\Anita\\Big\\01",
@@ -6125,7 +6120,7 @@
     "isInformalData": false,
     "name": "炽焰侵蚀者",
     "quality": "Golden",
-    "des": "由帝国首屈一指的工匠世家卡特莫斯家族应帝国骑士团要求打造的兵刃，它在擅长暗艺法术的战斗者手中时能够大放异彩。",
+    "des": "与追求暗艺和奇异火花的派系不同，制作这把武器的人认为让普通人也能使用魔法的力量才是正道。这件装备即便在普通人手里，也能发挥巨大威力。",
     "attack_SN": 370000,
     "healthPoint_SN": 0,
     "defence_SN": 0,
@@ -6296,6 +6291,45 @@
     "Getway": [
       {
         "DisplayName": "阿妮塔战备工厂-伊尔-兑换",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": -1
+      }
+    ]
+  },
+  {
+    "id": 11800007,
+    "idCN": "黑月装备/橙/武器/靡草龙雀",
+    "mod": "基础装备",
+    "isInformalData": false,
+    "name": "靡草龙雀",
+    "quality": "Orange",
+    "des": "黑月收藏的一件来自神秘东方的古物，从其斩断万物的特性到保存方法，在帝国人看来毫无疑问都属于魔法，但这类魔法的起源和原理都与曼度斯的魔法不同，其中的秘密也许只有黑月知道。\\n【此装备唯一】",
+    "attack_SN": 490000,
+    "healthPoint_SN": 0,
+    "defence_SN": 0,
+    "growthId": 12000375,
+    "SetId": -1,
+    "equipTagId": 12600155,
+    "campTagId": 12600023,
+    "skillList": [
+      {
+        "skillId": 12300061
+      }
+    ],
+    "randomSkillList": [
+      {
+        "skillId": 80301401,
+        "weight": 1
+      }
+    ],
+    "disappearSkillList": [],
+    "iconPath": "Item\\weapon\\Heiyue\\Small\\17",
+    "tipsPath": "Item\\weapon\\Heiyue\\Big\\17",
+    "Getway": [
+      {
+        "DisplayName": "修格里城-塞西尔-兑换",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",

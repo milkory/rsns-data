@@ -1116,7 +1116,7 @@
       {
         "skillId": 12300110,
         "tag": "A",
-        "value_SN": 120000
+        "value_SN": 180000
       }
     ]
   },
@@ -1216,8 +1216,8 @@
         "skillId": 12300728
       }
     ],
-    "tempdesc": "使用黄卡后，有50%概率从弃牌区回收1张【灾月】加入手牌",
-    "desc": "使用黄卡后，有50%概率从弃牌区回收1张【灾月】加入手牌",
+    "tempdesc": "使用黄卡，绿卡，蓝卡或紫卡后，有50%概率从弃牌区回收1张【灾月】加入手牌",
+    "desc": "使用黄卡，绿卡，蓝卡或紫卡后，有50%概率从弃牌区回收1张【灾月】加入手牌",
     "skillChangeList": [],
     "skillParamOffsetList": []
   },
@@ -12134,7 +12134,7 @@
     "mod": "基础突破",
     "isInformalData": false,
     "name": "胡闹攻势",
-    "path": "RolePlus\\00Gift\\Circular\\kaizhanshike",
+    "path": "RolePlus\\00Gift\\Circular\\HuNaoGongShi",
     "attriDetialList": [],
     "attributeList": [],
     "materialList": [
@@ -12182,7 +12182,7 @@
     "mod": "基础突破",
     "isInformalData": false,
     "name": "迎击",
-    "path": "RolePlus\\00Gift\\Circular\\jianyi",
+    "path": "RolePlus\\00Gift\\Circular\\YingJi",
     "attriDetialList": [],
     "attributeList": [],
     "materialList": [
@@ -12230,7 +12230,7 @@
     "mod": "基础突破",
     "isInformalData": false,
     "name": "混乱攻势",
-    "path": "RolePlus\\00Gift\\Circular\\yubo",
+    "path": "RolePlus\\00Gift\\Circular\\HunLuanGongShi",
     "attriDetialList": [],
     "attributeList": [],
     "materialList": [
@@ -12633,6 +12633,234 @@
     "skillList": [],
     "tempdesc": "【集束炸弹】弹药数+1",
     "desc": "【集束炸弹】弹药数+1",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100557,
+    "idCN": "05五星/苔妮/觉醒3-强韧",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "强韧",
+    "path": "RolePlus\\00Gift\\Circular\\QiangRen",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 1000000
+      }
+    ],
+    "materialList": [
+      {
+        "itemId": 11700043,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "防御力+100",
+    "desc": "防御力+100",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100558,
+    "idCN": "05五星/苔妮/觉醒4-斗志",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "斗志",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 1000000
+      }
+    ],
+    "materialList": [
+      {
+        "itemId": 11700043,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "攻击力+100",
+    "desc": "攻击力+100",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100559,
+    "idCN": "05五星/苔妮/觉醒5-冰裂",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "冰裂",
+    "path": "RolePlus\\00Gift\\Circular\\BingLie",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700043,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12301603
+      }
+    ],
+    "tempdesc": "每次造成【冰封】时，同时触发【重伤】",
+    "desc": "每次造成<color=#7AB2FF>【冰封】</color>时，同时触发<color=#FF6666>【重伤】</color>",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100560,
+    "idCN": "05五星/苔妮/觉醒0",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "",
+    "path": "",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700034,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "",
+    "desc": "",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100561,
+    "idCN": "05五星/苔妮/觉醒1-磁冷",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "磁冷",
+    "path": "RolePlus\\00Gift\\Circular\\CiLeng",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700043,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "自身造成【冰封】的概率+10%",
+    "desc": "自身造成<color=#7AB2FF>【冰封】</color>的概率+10%",
+    "skillChangeList": [],
+    "skillParamOffsetList": [
+      {
+        "skillId": -1,
+        "tag": "FreezePR",
+        "value_SN": 1000
+      }
+    ]
+  },
+  {
+    "id": 12100562,
+    "idCN": "05五星/苔妮/觉醒2-星阵",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "星阵",
+    "path": "RolePlus\\00Gift\\Circular\\XingZheng",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700043,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12301602
+      }
+    ],
+    "tempdesc": "每次有2费及以上卡牌从弃牌区回收时，回复1点费用",
+    "desc": "每次有2费及以上卡牌从弃牌区回收时，回复1点费用",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100540,
+    "idCN": "01敌方/学会/约书亚/觉醒5",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "",
+    "path": "",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [],
+    "skillList": [
+      {
+        "skillId": 12300430
+      }
+    ],
+    "tempdesc": "",
+    "desc": "",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100548,
+    "idCN": "01敌方/学会/约书亚/觉醒1",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "",
+    "path": "",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [],
+    "skillList": [
+      {
+        "skillId": 12301594
+      }
+    ],
+    "tempdesc": "",
+    "desc": "",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100563,
+    "idCN": "01敌方/学会/约书亚/觉醒2",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "",
+    "path": "",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [],
+    "skillList": [
+      {
+        "skillId": 12300441
+      }
+    ],
+    "tempdesc": "",
+    "desc": "",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100564,
+    "idCN": "01敌方/学会/约书亚/觉醒0",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "",
+    "path": "",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [],
+    "skillList": [],
+    "tempdesc": "",
+    "desc": "",
     "skillChangeList": [],
     "skillParamOffsetList": []
   }
