@@ -11366,7 +11366,7 @@
   },
   {
     "id": 10300277,
-    "idCN": "敌方/13毛绒会/恐兔",
+    "idCN": "敌方/13毛绒会/恐兔/普通",
     "mod": "基础AI",
     "isInformalData": false,
     "targetInvisibleEffectId": 11102488,
@@ -11374,31 +11374,43 @@
     "effectOffsetY": 0.0,
     "actionList": [
       {
-        "actionID": 10102464
+        "actionID": 10102463
       },
       {
-        "actionID": 10102463
+        "actionID": 10102464
       }
     ],
     "normalAttackCritID": -1,
     "skillList": [
       {
+        "actionId": 10102467,
+        "activeFrame": 320,
+        "activeTime": 1.0,
+        "rangeSN": 240000
+      },
+      {
         "actionId": 10102465,
-        "activeFrame": 120,
-        "activeTime": 2.0,
-        "rangeSN": -10000
+        "activeFrame": 510,
+        "activeTime": 1.0,
+        "rangeSN": 240000
+      },
+      {
+        "actionId": 10102467,
+        "activeFrame": 788,
+        "activeTime": 1.0,
+        "rangeSN": 240000
       }
     ],
     "isInvisibleBeforeShowUp": false,
     "showupSkillList": [],
-    "skillLoopDelayFrame": 398,
+    "skillLoopDelayFrame": 120,
     "shapeShiftList": [],
     "commandList": [],
     "enemySkillList": [],
     "isUseEnergy": false,
     "energySkillList": [],
     "energyRestorePerFrameSN": 450,
-    "isSkillDelay": false,
+    "isSkillDelay": true,
     "minDelay": 120,
     "maxDelay": 360
   },
@@ -13434,12 +13446,22 @@
     "isUseEnergy": true,
     "energySkillList": [
       {
+        "actionId": 10102955,
+        "isClearEnergy": true,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10102956,
+        "isClearEnergy": true,
+        "rangeSN": -10000
+      },
+      {
         "actionId": 10102819,
         "isClearEnergy": true,
         "rangeSN": -10000
       }
     ],
-    "energyRestorePerFrameSN": 220,
+    "energyRestorePerFrameSN": 450,
     "isSkillDelay": true,
     "minDelay": 300,
     "maxDelay": 480
@@ -13496,7 +13518,7 @@
         "actionId": 10102833
       }
     ],
-    "skillLoopDelayFrame": 0,
+    "skillLoopDelayFrame": 360,
     "shapeShiftList": [],
     "commandList": [],
     "enemySkillList": [],
@@ -13534,9 +13556,6 @@
     "actionList": [
       {
         "actionID": 10102840
-      },
-      {
-        "actionID": 10102841
       }
     ],
     "normalAttackCritID": -1,
@@ -13639,7 +13658,7 @@
   {
     "id": 10300361,
     "idCN": "敌方/02桦树/BOSS/逆纹桦树生物",
-    "mod": "基础AI",
+    "mod": "BOSSAI",
     "isInformalData": false,
     "targetInvisibleEffectId": 11102488,
     "effectOffsetX": 0.0,
@@ -13863,6 +13882,194 @@
     "energySkillList": [],
     "energyRestorePerFrameSN": 0,
     "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300367,
+    "idCN": "敌方/02桦树/BOSS/涡旋之眼",
+    "mod": "BOSSAI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10102943
+      },
+      {
+        "actionID": 10102945
+      },
+      {
+        "actionID": 10102953
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10102947,
+        "activeFrame": 120,
+        "activeTime": 2.0,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10102949,
+        "activeFrame": 430,
+        "activeTime": 7.1667,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10102947,
+        "activeFrame": 650,
+        "activeTime": 10.8333,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10102950,
+        "activeFrame": 950,
+        "activeTime": 15.8333,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10102947,
+        "activeFrame": 1170,
+        "activeTime": 19.5,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10102951,
+        "activeFrame": 1480,
+        "activeTime": 24.6667,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10102947,
+        "activeFrame": 1960,
+        "activeTime": 32.6667,
+        "rangeSN": -10000
+      }
+    ],
+    "isInvisibleBeforeShowUp": true,
+    "showupSkillList": [
+      {
+        "actionId": 10102954
+      }
+    ],
+    "skillLoopDelayFrame": 680,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": true,
+    "energySkillList": [
+      {
+        "actionId": 10102952,
+        "isClearEnergy": true,
+        "rangeSN": -10000
+      }
+    ],
+    "energyRestorePerFrameSN": 370,
+    "isSkillDelay": true,
+    "minDelay": 360,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300363,
+    "idCN": "敌方/13毛绒会/恐兔/癫狂",
+    "mod": "基础AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10102463
+      },
+      {
+        "actionID": 10102464
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10102467,
+        "activeFrame": 360,
+        "activeTime": 1.0,
+        "rangeSN": 240000
+      }
+    ],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [],
+    "skillLoopDelayFrame": 210,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 450,
+    "isSkillDelay": true,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300368,
+    "idCN": "敌方/02桦树/BOSS/涡旋之眼测试",
+    "mod": "BOSSAI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10102943
+      },
+      {
+        "actionID": 10102945
+      },
+      {
+        "actionID": 10102953
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10102946,
+        "activeFrame": 120,
+        "activeTime": 2.0,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10102947,
+        "activeFrame": 300,
+        "activeTime": 5.0,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10102948,
+        "activeFrame": 430,
+        "activeTime": 7.1667,
+        "rangeSN": -10000
+      }
+    ],
+    "isInvisibleBeforeShowUp": true,
+    "showupSkillList": [
+      {
+        "actionId": 10102954
+      }
+    ],
+    "skillLoopDelayFrame": 300,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": true,
+    "energySkillList": [
+      {
+        "actionId": 10102952,
+        "isClearEnergy": true,
+        "rangeSN": -10000
+      }
+    ],
+    "energyRestorePerFrameSN": 1000,
+    "isSkillDelay": true,
     "minDelay": 120,
     "maxDelay": 360
   }

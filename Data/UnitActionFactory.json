@@ -284,7 +284,7 @@
         "timesSource": "FixedValue"
       }
     ],
-    "backShakeFrame": -1
+    "backShakeFrame": 30
   },
   {
     "id": 10100112,
@@ -1088,7 +1088,7 @@
         "timesSource": "FixedValue"
       }
     ],
-    "backShakeFrame": -1
+    "backShakeFrame": 30
   },
   {
     "id": 10100268,
@@ -1136,7 +1136,7 @@
         "timesSource": "FixedValue"
       }
     ],
-    "backShakeFrame": -1
+    "backShakeFrame": 30
   },
   {
     "id": 10100269,
@@ -35225,7 +35225,7 @@
         "timesSource": "FixedValue"
       }
     ],
-    "backShakeFrame": -1
+    "backShakeFrame": 30
   },
   {
     "id": 10101626,
@@ -74128,7 +74128,8 @@
         "timesRate_SN": 10000,
         "timesSource": "CurrentHp"
       }
-    ]
+    ],
+    "backShakeFrame": -1
   },
   {
     "id": 10102237,
@@ -95533,7 +95534,7 @@
     "isCharge": false,
     "isSkill": false,
     "actionLevel": "NormalAttack",
-    "isUseTargetFilter": false,
+    "isUseTargetFilter": true,
     "targetType": "Enemy",
     "targetTagList": [],
     "tagType": "And",
@@ -95549,12 +95550,12 @@
     "filterStance": "DeafaultStance",
     "filterPosition": "DefaultPos",
     "isAimSelf": false,
-    "targetCount": 99,
-    "distance_SN": 30000,
+    "targetCount": 1,
+    "distance_SN": 15000,
     "radius_SN": 0,
     "damageHitBuffList": [],
     "healHitBuffList": [],
-    "cdFrame": 120,
+    "cdFrame": 70,
     "isUseBigNumber": false,
     "stateIdList": [
       {
@@ -95596,7 +95597,7 @@
     "radius_SN": 0,
     "damageHitBuffList": [],
     "healHitBuffList": [],
-    "cdFrame": 120,
+    "cdFrame": 40,
     "isUseBigNumber": false,
     "stateIdList": [
       {
@@ -95617,7 +95618,7 @@
     "isCharge": false,
     "isSkill": false,
     "actionLevel": "NormalSkill",
-    "isUseTargetFilter": false,
+    "isUseTargetFilter": true,
     "targetType": "Enemy",
     "targetTagList": [],
     "tagType": "And",
@@ -95633,8 +95634,8 @@
     "filterStance": "DeafaultStance",
     "filterPosition": "DefaultPos",
     "isAimSelf": false,
-    "targetCount": 99,
-    "distance_SN": 40000,
+    "targetCount": 1,
+    "distance_SN": 240000,
     "radius_SN": 0,
     "damageHitBuffList": [],
     "healHitBuffList": [],
@@ -95680,7 +95681,7 @@
     "radius_SN": 0,
     "damageHitBuffList": [],
     "healHitBuffList": [],
-    "cdFrame": 120,
+    "cdFrame": 40,
     "isUseBigNumber": false,
     "stateIdList": [
       {
@@ -95722,7 +95723,7 @@
     "radius_SN": 0,
     "damageHitBuffList": [],
     "healHitBuffList": [],
-    "cdFrame": 120,
+    "cdFrame": 188,
     "isUseBigNumber": false,
     "stateIdList": [
       {
@@ -95764,7 +95765,7 @@
     "radius_SN": 0,
     "damageHitBuffList": [],
     "healHitBuffList": [],
-    "cdFrame": 120,
+    "cdFrame": 80,
     "isUseBigNumber": false,
     "stateIdList": [
       {
@@ -95806,7 +95807,7 @@
     "radius_SN": 0,
     "damageHitBuffList": [],
     "healHitBuffList": [],
-    "cdFrame": 120,
+    "cdFrame": 36,
     "isUseBigNumber": false,
     "stateIdList": [
       {
@@ -95848,7 +95849,7 @@
     "radius_SN": 0,
     "damageHitBuffList": [],
     "healHitBuffList": [],
-    "cdFrame": 120,
+    "cdFrame": 80,
     "isUseBigNumber": false,
     "stateIdList": [
       {
@@ -95890,7 +95891,7 @@
     "radius_SN": 0,
     "damageHitBuffList": [],
     "healHitBuffList": [],
-    "cdFrame": 120,
+    "cdFrame": 100,
     "isUseBigNumber": false,
     "stateIdList": [
       {
@@ -95911,7 +95912,7 @@
     "isCharge": false,
     "isSkill": false,
     "actionLevel": "NormalAttack",
-    "isUseTargetFilter": false,
+    "isUseTargetFilter": true,
     "targetType": "Enemy",
     "targetTagList": [],
     "tagType": "And",
@@ -95927,12 +95928,12 @@
     "filterStance": "DeafaultStance",
     "filterPosition": "DefaultPos",
     "isAimSelf": false,
-    "targetCount": 99,
-    "distance_SN": 30000,
+    "targetCount": 1,
+    "distance_SN": 15000,
     "radius_SN": 0,
     "damageHitBuffList": [],
     "healHitBuffList": [],
-    "cdFrame": 120,
+    "cdFrame": 90,
     "isUseBigNumber": false,
     "stateIdList": [
       {
@@ -111901,7 +111902,7 @@
   },
   {
     "id": 10102819,
-    "idCN": "敌方/02桦树/BOSS/双头凛川骨龙/头1技能4",
+    "idCN": "敌方/02桦树/BOSS/双头凛川骨龙/头1技能4-3",
     "mod": "基础动作",
     "isInformalData": false,
     "isCharge": false,
@@ -112138,7 +112139,7 @@
     "radius_SN": 0,
     "damageHitBuffList": [],
     "healHitBuffList": [],
-    "cdFrame": 160,
+    "cdFrame": 50,
     "isUseBigNumber": false,
     "stateIdList": [
       {
@@ -112160,7 +112161,7 @@
     "isSkill": false,
     "actionLevel": "SpecialSkill",
     "isUseTargetFilter": true,
-    "targetType": "OnlyTeam2",
+    "targetType": "OnlyTeam1",
     "targetTagList": [],
     "tagType": "And",
     "halfWidth_SN": 990000,
@@ -112176,11 +112177,11 @@
     "filterPosition": "DefaultPos",
     "isAimSelf": false,
     "targetCount": 99,
-    "distance_SN": 473000,
+    "distance_SN": 70000,
     "radius_SN": 0,
     "damageHitBuffList": [],
     "healHitBuffList": [],
-    "cdFrame": 114,
+    "cdFrame": 156,
     "isUseBigNumber": false,
     "stateIdList": [
       {
@@ -112222,7 +112223,7 @@
     "radius_SN": 0,
     "damageHitBuffList": [],
     "healHitBuffList": [],
-    "cdFrame": 114,
+    "cdFrame": 120,
     "isUseBigNumber": false,
     "stateIdList": [
       {
@@ -112264,7 +112265,7 @@
     "radius_SN": 0,
     "damageHitBuffList": [],
     "healHitBuffList": [],
-    "cdFrame": 114,
+    "cdFrame": 100,
     "isUseBigNumber": false,
     "stateIdList": [
       {
@@ -112306,7 +112307,7 @@
     "radius_SN": 0,
     "damageHitBuffList": [],
     "healHitBuffList": [],
-    "cdFrame": 114,
+    "cdFrame": 140,
     "isUseBigNumber": false,
     "stateIdList": [
       {
@@ -112327,8 +112328,8 @@
     "isCharge": false,
     "isSkill": false,
     "actionLevel": "SpecialSkill",
-    "isUseTargetFilter": false,
-    "targetType": "Enemy",
+    "isUseTargetFilter": true,
+    "targetType": "OnlyTeam1",
     "targetTagList": [],
     "tagType": "And",
     "halfWidth_SN": 990000,
@@ -112343,12 +112344,12 @@
     "filterStance": "DeafaultStance",
     "filterPosition": "DefaultPos",
     "isAimSelf": false,
-    "targetCount": 99,
-    "distance_SN": 50000,
+    "targetCount": 1,
+    "distance_SN": 240000,
     "radius_SN": 0,
     "damageHitBuffList": [],
     "healHitBuffList": [],
-    "cdFrame": 114,
+    "cdFrame": 162,
     "isUseBigNumber": false,
     "stateIdList": [
       {
@@ -112370,8 +112371,12 @@
     "isSkill": false,
     "actionLevel": "SpecialSkill",
     "isUseTargetFilter": true,
-    "targetType": "Self",
-    "targetTagList": [],
+    "targetType": "OnlyTeam1",
+    "targetTagList": [
+      {
+        "tagId": 12600246
+      }
+    ],
     "tagType": "And",
     "halfWidth_SN": 990000,
     "attributeType": "HpMax",
@@ -112385,12 +112390,12 @@
     "filterStance": "DeafaultStance",
     "filterPosition": "DefaultPos",
     "isAimSelf": false,
-    "targetCount": 1,
-    "distance_SN": 600000,
+    "targetCount": 99,
+    "distance_SN": 240000,
     "radius_SN": 0,
     "damageHitBuffList": [],
     "healHitBuffList": [],
-    "cdFrame": 114,
+    "cdFrame": 191,
     "isUseBigNumber": false,
     "stateIdList": [
       {
@@ -112401,11 +112406,11 @@
         "timesSource": "CurrentHp"
       },
       {
-        "bPlayTimes": false,
-        "customDataTag": "",
+        "bPlayTimes": true,
+        "customDataTag": "s03times",
         "stateId": 10203228,
         "timesRate_SN": 10000,
-        "timesSource": "FixedValue"
+        "timesSource": "CustomData"
       },
       {
         "bPlayTimes": false,
@@ -112442,11 +112447,11 @@
     "filterPosition": "DefaultPos",
     "isAimSelf": false,
     "targetCount": 99,
-    "distance_SN": 80000,
+    "distance_SN": 40000,
     "radius_SN": 0,
     "damageHitBuffList": [],
     "healHitBuffList": [],
-    "cdFrame": 88,
+    "cdFrame": 94,
     "isUseBigNumber": false,
     "stateIdList": [
       {
@@ -112488,7 +112493,7 @@
     "radius_SN": 0,
     "damageHitBuffList": [],
     "healHitBuffList": [],
-    "cdFrame": 160,
+    "cdFrame": 120,
     "isUseBigNumber": false,
     "stateIdList": [
       {
@@ -112530,7 +112535,7 @@
     "radius_SN": 0,
     "damageHitBuffList": [],
     "healHitBuffList": [],
-    "cdFrame": 88,
+    "cdFrame": 170,
     "isUseBigNumber": false,
     "stateIdList": [
       {
@@ -112572,7 +112577,7 @@
     "radius_SN": 0,
     "damageHitBuffList": [],
     "healHitBuffList": [],
-    "cdFrame": 88,
+    "cdFrame": 280,
     "isUseBigNumber": false,
     "stateIdList": [
       {
@@ -112594,10 +112599,14 @@
     "isSkill": false,
     "actionLevel": "NormalAttack",
     "isUseTargetFilter": true,
-    "targetType": "Enemy",
-    "targetTagList": [],
+    "targetType": "OnlyTeam1",
+    "targetTagList": [
+      {
+        "tagId": 12600246
+      }
+    ],
     "tagType": "And",
-    "halfWidth_SN": 240000,
+    "halfWidth_SN": 990000,
     "attributeType": "HpMax",
     "condition": "All",
     "numberType": "Number",
@@ -112609,12 +112618,12 @@
     "filterStance": "DeafaultStance",
     "filterPosition": "DefaultPos",
     "isAimSelf": false,
-    "targetCount": 5,
+    "targetCount": 99,
     "distance_SN": 240000,
     "radius_SN": 0,
     "damageHitBuffList": [],
     "healHitBuffList": [],
-    "cdFrame": 84,
+    "cdFrame": 129,
     "isUseBigNumber": false,
     "stateIdList": [
       {
@@ -112656,7 +112665,7 @@
     "radius_SN": 0,
     "damageHitBuffList": [],
     "healHitBuffList": [],
-    "cdFrame": 160,
+    "cdFrame": 50,
     "isUseBigNumber": false,
     "stateIdList": [
       {
@@ -112702,7 +112711,7 @@
     "radius_SN": 240000,
     "damageHitBuffList": [],
     "healHitBuffList": [],
-    "cdFrame": 114,
+    "cdFrame": 126,
     "isUseBigNumber": false,
     "stateIdList": [
       {
@@ -112744,7 +112753,7 @@
     "radius_SN": 0,
     "damageHitBuffList": [],
     "healHitBuffList": [],
-    "cdFrame": 160,
+    "cdFrame": 120,
     "isUseBigNumber": false,
     "stateIdList": [
       {
@@ -112766,7 +112775,7 @@
     "isSkill": false,
     "actionLevel": "SpecialSkill",
     "isUseTargetFilter": true,
-    "targetType": "OnlyTeam2",
+    "targetType": "OnlyTeam1",
     "targetTagList": [],
     "tagType": "And",
     "halfWidth_SN": 990000,
@@ -112782,11 +112791,11 @@
     "filterPosition": "DefaultPos",
     "isAimSelf": false,
     "targetCount": 99,
-    "distance_SN": 473000,
+    "distance_SN": 70000,
     "radius_SN": 0,
     "damageHitBuffList": [],
     "healHitBuffList": [],
-    "cdFrame": 114,
+    "cdFrame": 156,
     "isUseBigNumber": false,
     "stateIdList": [
       {
@@ -112828,7 +112837,7 @@
     "radius_SN": 0,
     "damageHitBuffList": [],
     "healHitBuffList": [],
-    "cdFrame": 114,
+    "cdFrame": 162,
     "isUseBigNumber": false,
     "stateIdList": [
       {
@@ -112874,7 +112883,7 @@
     "radius_SN": 240000,
     "damageHitBuffList": [],
     "healHitBuffList": [],
-    "cdFrame": 114,
+    "cdFrame": 126,
     "isUseBigNumber": false,
     "stateIdList": [
       {
@@ -112896,8 +112905,12 @@
     "isSkill": false,
     "actionLevel": "SpecialSkill",
     "isUseTargetFilter": true,
-    "targetType": "Self",
-    "targetTagList": [],
+    "targetType": "OnlyTeam1",
+    "targetTagList": [
+      {
+        "tagId": 12600246
+      }
+    ],
     "tagType": "And",
     "halfWidth_SN": 990000,
     "attributeType": "HpMax",
@@ -112916,7 +112929,7 @@
     "radius_SN": 0,
     "damageHitBuffList": [],
     "healHitBuffList": [],
-    "cdFrame": 114,
+    "cdFrame": 191,
     "isUseBigNumber": false,
     "stateIdList": [
       {
@@ -112927,11 +112940,11 @@
         "timesSource": "CurrentHp"
       },
       {
-        "bPlayTimes": false,
-        "customDataTag": "",
+        "bPlayTimes": true,
+        "customDataTag": "s03times",
         "stateId": 10203254,
         "timesRate_SN": 10000,
-        "timesSource": "FixedValue"
+        "timesSource": "CustomData"
       },
       {
         "bPlayTimes": false,
@@ -112972,7 +112985,7 @@
     "radius_SN": 0,
     "damageHitBuffList": [],
     "healHitBuffList": [],
-    "cdFrame": 88,
+    "cdFrame": 66,
     "isUseBigNumber": false,
     "stateIdList": [
       {
@@ -113010,11 +113023,11 @@
     "filterPosition": "DefaultPos",
     "isAimSelf": false,
     "targetCount": 99,
-    "distance_SN": 240000,
+    "distance_SN": 40000,
     "radius_SN": 0,
     "damageHitBuffList": [],
     "healHitBuffList": [],
-    "cdFrame": 88,
+    "cdFrame": 94,
     "isUseBigNumber": false,
     "stateIdList": [
       {
@@ -113035,9 +113048,13 @@
     "isCharge": false,
     "isSkill": false,
     "actionLevel": "NormalAttack",
-    "isUseTargetFilter": false,
-    "targetType": "Enemy",
-    "targetTagList": [],
+    "isUseTargetFilter": true,
+    "targetType": "OnlyTeam1",
+    "targetTagList": [
+      {
+        "tagId": 12600246
+      }
+    ],
     "tagType": "And",
     "halfWidth_SN": 990000,
     "attributeType": "HpMax",
@@ -113051,12 +113068,12 @@
     "filterStance": "DeafaultStance",
     "filterPosition": "DefaultPos",
     "isAimSelf": false,
-    "targetCount": 99,
-    "distance_SN": 40000,
+    "targetCount": 1,
+    "distance_SN": 240000,
     "radius_SN": 0,
     "damageHitBuffList": [],
     "healHitBuffList": [],
-    "cdFrame": 84,
+    "cdFrame": 128,
     "isUseBigNumber": false,
     "stateIdList": [
       {
@@ -113098,7 +113115,7 @@
     "radius_SN": 0,
     "damageHitBuffList": [],
     "healHitBuffList": [],
-    "cdFrame": 114,
+    "cdFrame": 140,
     "isUseBigNumber": false,
     "stateIdList": [
       {
@@ -113140,7 +113157,7 @@
     "radius_SN": 0,
     "damageHitBuffList": [],
     "healHitBuffList": [],
-    "cdFrame": 114,
+    "cdFrame": 100,
     "isUseBigNumber": false,
     "stateIdList": [
       {
@@ -113182,7 +113199,7 @@
     "radius_SN": 0,
     "damageHitBuffList": [],
     "healHitBuffList": [],
-    "cdFrame": 114,
+    "cdFrame": 120,
     "isUseBigNumber": false,
     "stateIdList": [
       {
@@ -113224,7 +113241,7 @@
     "radius_SN": 0,
     "damageHitBuffList": [],
     "healHitBuffList": [],
-    "cdFrame": 160,
+    "cdFrame": 50,
     "isUseBigNumber": false,
     "stateIdList": [
       {
@@ -113266,7 +113283,7 @@
     "radius_SN": 0,
     "damageHitBuffList": [],
     "healHitBuffList": [],
-    "cdFrame": 160,
+    "cdFrame": 50,
     "isUseBigNumber": false,
     "stateIdList": [
       {
@@ -113445,7 +113462,7 @@
         "timesSource": "FixedValue"
       }
     ],
-    "backShakeFrame": 0
+    "backShakeFrame": 40
   },
   {
     "id": 10102838,
@@ -113494,7 +113511,7 @@
         "timesSource": "FixedValue"
       }
     ],
-    "backShakeFrame": 0
+    "backShakeFrame": 30
   },
   {
     "id": 10102839,
@@ -113536,7 +113553,7 @@
         "timesSource": "FixedValue"
       }
     ],
-    "backShakeFrame": 0
+    "backShakeFrame": 50
   },
   {
     "id": 10102840,
@@ -113574,48 +113591,6 @@
         "bPlayTimes": false,
         "customDataTag": "",
         "stateId": 10203237,
-        "timesRate_SN": 10000,
-        "timesSource": "FixedValue"
-      }
-    ],
-    "backShakeFrame": -1
-  },
-  {
-    "id": 10102841,
-    "idCN": "我方/04四星/海因里希/普攻2",
-    "mod": "基础动作",
-    "isInformalData": false,
-    "isCharge": false,
-    "isSkill": false,
-    "actionLevel": "NormalAttack",
-    "isUseTargetFilter": false,
-    "targetType": "Enemy",
-    "targetTagList": [],
-    "tagType": "And",
-    "halfWidth_SN": 0,
-    "attributeType": "HpMax",
-    "condition": "All",
-    "numberType": "Number",
-    "number_SN": 0,
-    "buffTypeFO": -1,
-    "buffFO": -1,
-    "buffJudgeType": "Greater",
-    "buffLevel": 0,
-    "filterStance": "DeafaultStance",
-    "filterPosition": "DefaultPos",
-    "isAimSelf": false,
-    "targetCount": 0,
-    "distance_SN": 30000,
-    "radius_SN": 0,
-    "damageHitBuffList": [],
-    "healHitBuffList": [],
-    "cdFrame": 84,
-    "isUseBigNumber": false,
-    "stateIdList": [
-      {
-        "bPlayTimes": false,
-        "customDataTag": "",
-        "stateId": 10203239,
         "timesRate_SN": 10000,
         "timesSource": "FixedValue"
       }
@@ -115951,7 +115926,7 @@
         "timesSource": "FixedValue"
       }
     ],
-    "backShakeFrame": 20
+    "backShakeFrame": -1
   },
   {
     "id": 10102915,
@@ -117083,5 +117058,950 @@
       }
     ],
     "backShakeFrame": 60
+  },
+  {
+    "id": 10102938,
+    "idCN": "敌方/02桦树/BOSS/涡旋之眼/昏迷",
+    "mod": "基础动作",
+    "isInformalData": false,
+    "isCharge": false,
+    "isSkill": false,
+    "actionLevel": "System",
+    "isUseTargetFilter": false,
+    "targetType": "Enemy",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 990000,
+    "attributeType": "HpMax",
+    "condition": "All",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 99,
+    "distance_SN": 470000,
+    "radius_SN": 0,
+    "damageHitBuffList": [],
+    "healHitBuffList": [],
+    "cdFrame": 160,
+    "isUseBigNumber": false,
+    "stateIdList": [
+      {
+        "bPlayTimes": false,
+        "customDataTag": "",
+        "stateId": 10203346,
+        "timesRate_SN": 10000,
+        "timesSource": "FixedValue"
+      }
+    ],
+    "backShakeFrame": -1
+  },
+  {
+    "id": 10102939,
+    "idCN": "敌方/02桦树/BOSS/涡旋之眼/死亡",
+    "mod": "基础动作",
+    "isInformalData": false,
+    "isCharge": false,
+    "isSkill": false,
+    "actionLevel": "System",
+    "isUseTargetFilter": false,
+    "targetType": "Enemy",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 990000,
+    "attributeType": "HpMax",
+    "condition": "All",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 99,
+    "distance_SN": 470000,
+    "radius_SN": 0,
+    "damageHitBuffList": [],
+    "healHitBuffList": [],
+    "cdFrame": 80,
+    "isUseBigNumber": false,
+    "stateIdList": [
+      {
+        "bPlayTimes": false,
+        "customDataTag": "",
+        "stateId": 10203349,
+        "timesRate_SN": 10000,
+        "timesSource": "FixedValue"
+      }
+    ],
+    "backShakeFrame": -1
+  },
+  {
+    "id": 10102940,
+    "idCN": "敌方/02桦树/BOSS/涡旋之眼/受击1",
+    "mod": "基础动作",
+    "isInformalData": false,
+    "isCharge": false,
+    "isSkill": false,
+    "actionLevel": "Hit",
+    "isUseTargetFilter": false,
+    "targetType": "Enemy",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 990000,
+    "attributeType": "HpMax",
+    "condition": "All",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 99,
+    "distance_SN": 470000,
+    "radius_SN": 0,
+    "damageHitBuffList": [],
+    "healHitBuffList": [],
+    "cdFrame": 40,
+    "isUseBigNumber": false,
+    "stateIdList": [
+      {
+        "bPlayTimes": false,
+        "customDataTag": "",
+        "stateId": 10203350,
+        "timesRate_SN": 10000,
+        "timesSource": "FixedValue"
+      }
+    ],
+    "backShakeFrame": -1
+  },
+  {
+    "id": 10102941,
+    "idCN": "敌方/02桦树/BOSS/涡旋之眼/站立",
+    "mod": "基础动作",
+    "isInformalData": false,
+    "isCharge": false,
+    "isSkill": false,
+    "actionLevel": "Stand",
+    "isUseTargetFilter": false,
+    "targetType": "Enemy",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 990000,
+    "attributeType": "HpMax",
+    "condition": "All",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 99,
+    "distance_SN": 470000,
+    "radius_SN": 0,
+    "damageHitBuffList": [],
+    "healHitBuffList": [],
+    "cdFrame": 120,
+    "isUseBigNumber": false,
+    "stateIdList": [
+      {
+        "bPlayTimes": false,
+        "customDataTag": "",
+        "stateId": 10203347,
+        "timesRate_SN": 10000,
+        "timesSource": "FixedValue"
+      }
+    ],
+    "backShakeFrame": -1
+  },
+  {
+    "id": 10102942,
+    "idCN": "敌方/02桦树/BOSS/涡旋之眼/受击2",
+    "mod": "基础动作",
+    "isInformalData": false,
+    "isCharge": false,
+    "isSkill": false,
+    "actionLevel": "Hit",
+    "isUseTargetFilter": false,
+    "targetType": "Enemy",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 990000,
+    "attributeType": "HpMax",
+    "condition": "All",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 99,
+    "distance_SN": 470000,
+    "radius_SN": 0,
+    "damageHitBuffList": [],
+    "healHitBuffList": [],
+    "cdFrame": 40,
+    "isUseBigNumber": false,
+    "stateIdList": [
+      {
+        "bPlayTimes": false,
+        "customDataTag": "",
+        "stateId": 10203351,
+        "timesRate_SN": 10000,
+        "timesSource": "FixedValue"
+      }
+    ],
+    "backShakeFrame": -1
+  },
+  {
+    "id": 10102943,
+    "idCN": "敌方/02桦树/BOSS/涡旋之眼/普攻2",
+    "mod": "基础动作",
+    "isInformalData": false,
+    "isCharge": false,
+    "isSkill": false,
+    "actionLevel": "NormalAttack",
+    "isUseTargetFilter": true,
+    "targetType": "Enemy",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 990000,
+    "attributeType": "HpMax",
+    "condition": "All",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 99,
+    "distance_SN": 80000,
+    "radius_SN": 0,
+    "damageHitBuffList": [],
+    "healHitBuffList": [],
+    "cdFrame": 90,
+    "isUseBigNumber": false,
+    "stateIdList": [
+      {
+        "bPlayTimes": false,
+        "customDataTag": "",
+        "stateId": 10203353,
+        "timesRate_SN": 10000,
+        "timesSource": "FixedValue"
+      }
+    ],
+    "backShakeFrame": -1
+  },
+  {
+    "id": 10102944,
+    "idCN": "敌方/02桦树/BOSS/涡旋之眼/移动",
+    "mod": "基础动作",
+    "isInformalData": false,
+    "isCharge": false,
+    "isSkill": false,
+    "actionLevel": "Move",
+    "isUseTargetFilter": false,
+    "targetType": "Enemy",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 990000,
+    "attributeType": "HpMax",
+    "condition": "All",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 99,
+    "distance_SN": 470000,
+    "radius_SN": 0,
+    "damageHitBuffList": [],
+    "healHitBuffList": [],
+    "cdFrame": 120,
+    "isUseBigNumber": false,
+    "stateIdList": [
+      {
+        "bPlayTimes": false,
+        "customDataTag": "",
+        "stateId": 10203348,
+        "timesRate_SN": 10000,
+        "timesSource": "FixedValue"
+      }
+    ],
+    "backShakeFrame": -1
+  },
+  {
+    "id": 10102945,
+    "idCN": "敌方/02桦树/BOSS/涡旋之眼/普攻1",
+    "mod": "基础动作",
+    "isInformalData": false,
+    "isCharge": false,
+    "isSkill": false,
+    "actionLevel": "NormalAttack",
+    "isUseTargetFilter": true,
+    "targetType": "Enemy",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 990000,
+    "attributeType": "HpMax",
+    "condition": "All",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 99,
+    "distance_SN": 240000,
+    "radius_SN": 0,
+    "damageHitBuffList": [],
+    "healHitBuffList": [],
+    "cdFrame": 90,
+    "isUseBigNumber": false,
+    "stateIdList": [
+      {
+        "bPlayTimes": false,
+        "customDataTag": "",
+        "stateId": 10203352,
+        "timesRate_SN": 10000,
+        "timesSource": "FixedValue"
+      }
+    ],
+    "backShakeFrame": -1
+  },
+  {
+    "id": 10102946,
+    "idCN": "敌方/02桦树/BOSS/涡旋之眼/技能1冰",
+    "mod": "基础动作",
+    "isInformalData": false,
+    "isCharge": false,
+    "isSkill": false,
+    "actionLevel": "NormalSkill",
+    "isUseTargetFilter": true,
+    "targetType": "Enemy",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 990000,
+    "attributeType": "HpMax",
+    "condition": "All",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 5,
+    "distance_SN": 240000,
+    "radius_SN": 0,
+    "damageHitBuffList": [],
+    "healHitBuffList": [],
+    "cdFrame": 158,
+    "isUseBigNumber": false,
+    "stateIdList": [
+      {
+        "bPlayTimes": false,
+        "customDataTag": "",
+        "stateId": 10203356,
+        "timesRate_SN": 10000,
+        "timesSource": "FixedValue"
+      }
+    ],
+    "backShakeFrame": -1
+  },
+  {
+    "id": 10102947,
+    "idCN": "敌方/02桦树/BOSS/涡旋之眼/技能1火",
+    "mod": "基础动作",
+    "isInformalData": false,
+    "isCharge": false,
+    "isSkill": false,
+    "actionLevel": "NormalSkill",
+    "isUseTargetFilter": true,
+    "targetType": "Enemy",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 990000,
+    "attributeType": "HpMax",
+    "condition": "All",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 5,
+    "distance_SN": 240000,
+    "radius_SN": 0,
+    "damageHitBuffList": [],
+    "healHitBuffList": [],
+    "cdFrame": 180,
+    "isUseBigNumber": false,
+    "stateIdList": [
+      {
+        "bPlayTimes": false,
+        "customDataTag": "",
+        "stateId": 10203355,
+        "timesRate_SN": 10000,
+        "timesSource": "FixedValue"
+      }
+    ],
+    "backShakeFrame": -1
+  },
+  {
+    "id": 10102948,
+    "idCN": "敌方/02桦树/BOSS/涡旋之眼/技能1雷",
+    "mod": "基础动作",
+    "isInformalData": false,
+    "isCharge": false,
+    "isSkill": false,
+    "actionLevel": "NormalSkill",
+    "isUseTargetFilter": true,
+    "targetType": "Enemy",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 990000,
+    "attributeType": "HpMax",
+    "condition": "All",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 5,
+    "distance_SN": 240000,
+    "radius_SN": 0,
+    "damageHitBuffList": [],
+    "healHitBuffList": [],
+    "cdFrame": 158,
+    "isUseBigNumber": false,
+    "stateIdList": [
+      {
+        "bPlayTimes": false,
+        "customDataTag": "",
+        "stateId": 10203354,
+        "timesRate_SN": 10000,
+        "timesSource": "FixedValue"
+      }
+    ],
+    "backShakeFrame": -1
+  },
+  {
+    "id": 10102949,
+    "idCN": "敌方/02桦树/BOSS/涡旋之眼/技能4",
+    "mod": "基础动作",
+    "isInformalData": false,
+    "isCharge": false,
+    "isSkill": false,
+    "actionLevel": "NormalSkill",
+    "isUseTargetFilter": true,
+    "targetType": "Enemy",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 990000,
+    "attributeType": "HpMax",
+    "condition": "All",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 10,
+    "distance_SN": 240000,
+    "radius_SN": 0,
+    "damageHitBuffList": [],
+    "healHitBuffList": [],
+    "cdFrame": 91,
+    "isUseBigNumber": false,
+    "stateIdList": [
+      {
+        "bPlayTimes": false,
+        "customDataTag": "",
+        "stateId": 10203357,
+        "timesRate_SN": 10000,
+        "timesSource": "FixedValue"
+      }
+    ],
+    "backShakeFrame": -1
+  },
+  {
+    "id": 10102950,
+    "idCN": "敌方/02桦树/BOSS/涡旋之眼/技能5",
+    "mod": "基础动作",
+    "isInformalData": false,
+    "isCharge": false,
+    "isSkill": false,
+    "actionLevel": "NormalSkill",
+    "isUseTargetFilter": true,
+    "targetType": "Enemy",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 990000,
+    "attributeType": "HpMax",
+    "condition": "All",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 10,
+    "distance_SN": 240000,
+    "radius_SN": 0,
+    "damageHitBuffList": [],
+    "healHitBuffList": [],
+    "cdFrame": 95,
+    "isUseBigNumber": false,
+    "stateIdList": [
+      {
+        "bPlayTimes": false,
+        "customDataTag": "",
+        "stateId": 10203362,
+        "timesRate_SN": 10000,
+        "timesSource": "FixedValue"
+      }
+    ],
+    "backShakeFrame": -1
+  },
+  {
+    "id": 10102951,
+    "idCN": "敌方/02桦树/BOSS/涡旋之眼/技能6",
+    "mod": "基础动作",
+    "isInformalData": false,
+    "isCharge": false,
+    "isSkill": false,
+    "actionLevel": "NormalSkill",
+    "isUseTargetFilter": false,
+    "targetType": "Enemy",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 990000,
+    "attributeType": "HpMax",
+    "condition": "All",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 10,
+    "distance_SN": 240000,
+    "radius_SN": 0,
+    "damageHitBuffList": [],
+    "healHitBuffList": [],
+    "cdFrame": 198,
+    "isUseBigNumber": false,
+    "stateIdList": [
+      {
+        "bPlayTimes": false,
+        "customDataTag": "",
+        "stateId": 10203363,
+        "timesRate_SN": 10000,
+        "timesSource": "FixedValue"
+      }
+    ],
+    "backShakeFrame": -1
+  },
+  {
+    "id": 10102952,
+    "idCN": "敌方/02桦树/BOSS/涡旋之眼/技能7均衡",
+    "mod": "基础动作",
+    "isInformalData": false,
+    "isCharge": false,
+    "isSkill": false,
+    "actionLevel": "NormalSkill",
+    "isUseTargetFilter": false,
+    "targetType": "Enemy",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 990000,
+    "attributeType": "HpMax",
+    "condition": "All",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 10,
+    "distance_SN": 240000,
+    "radius_SN": 0,
+    "damageHitBuffList": [],
+    "healHitBuffList": [],
+    "cdFrame": 180,
+    "isUseBigNumber": false,
+    "stateIdList": [
+      {
+        "bPlayTimes": false,
+        "customDataTag": "",
+        "stateId": 10203364,
+        "timesRate_SN": 10000,
+        "timesSource": "FixedValue"
+      }
+    ],
+    "backShakeFrame": -1
+  },
+  {
+    "id": 10102953,
+    "idCN": "敌方/02桦树/BOSS/涡旋之眼/普攻3",
+    "mod": "基础动作",
+    "isInformalData": false,
+    "isCharge": false,
+    "isSkill": false,
+    "actionLevel": "NormalAttack",
+    "isUseTargetFilter": true,
+    "targetType": "Enemy",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 990000,
+    "attributeType": "HpMax",
+    "condition": "All",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 99,
+    "distance_SN": 240000,
+    "radius_SN": 0,
+    "damageHitBuffList": [],
+    "healHitBuffList": [],
+    "cdFrame": 90,
+    "isUseBigNumber": false,
+    "stateIdList": [
+      {
+        "bPlayTimes": false,
+        "customDataTag": "",
+        "stateId": 10203361,
+        "timesRate_SN": 10000,
+        "timesSource": "FixedValue"
+      }
+    ],
+    "backShakeFrame": -1
+  },
+  {
+    "id": 10102954,
+    "idCN": "敌方/02桦树/BOSS/涡旋之眼/出场",
+    "mod": "基础动作",
+    "isInformalData": false,
+    "isCharge": false,
+    "isSkill": false,
+    "actionLevel": "System",
+    "isUseTargetFilter": false,
+    "targetType": "Enemy",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 990000,
+    "attributeType": "HpMax",
+    "condition": "All",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 99,
+    "distance_SN": 470000,
+    "radius_SN": 0,
+    "damageHitBuffList": [],
+    "healHitBuffList": [],
+    "cdFrame": 120,
+    "isUseBigNumber": false,
+    "stateIdList": [
+      {
+        "bPlayTimes": false,
+        "customDataTag": "",
+        "stateId": 10203365,
+        "timesRate_SN": 10000,
+        "timesSource": "FixedValue"
+      }
+    ],
+    "backShakeFrame": -1
+  },
+  {
+    "id": 10102937,
+    "idCN": "敌方/13毛绒会/恐兔/普攻1Pro",
+    "mod": "基础动作",
+    "isInformalData": false,
+    "isCharge": false,
+    "isSkill": false,
+    "actionLevel": "NormalAttack",
+    "isUseTargetFilter": true,
+    "targetType": "Enemy",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 990000,
+    "attributeType": "HpMax",
+    "condition": "All",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 1,
+    "distance_SN": 15000,
+    "radius_SN": 0,
+    "damageHitBuffList": [],
+    "healHitBuffList": [],
+    "cdFrame": 54,
+    "isUseBigNumber": false,
+    "stateIdList": [
+      {
+        "bPlayTimes": false,
+        "customDataTag": "",
+        "stateId": 10203341,
+        "timesRate_SN": 10000,
+        "timesSource": "CurrentHp"
+      },
+      {
+        "bPlayTimes": true,
+        "customDataTag": "",
+        "stateId": 10203342,
+        "timesRate_SN": 50000,
+        "timesSource": "FixedValue"
+      },
+      {
+        "bPlayTimes": false,
+        "customDataTag": "",
+        "stateId": 10203343,
+        "timesRate_SN": 10000,
+        "timesSource": "CurrentHp"
+      }
+    ],
+    "backShakeFrame": -1
+  },
+  {
+    "id": 10102841,
+    "idCN": "我方/04四星/海因里希/S共振5",
+    "mod": "基础动作",
+    "isInformalData": false,
+    "isCharge": false,
+    "isSkill": false,
+    "actionLevel": "SpecialSkill",
+    "isUseTargetFilter": true,
+    "targetType": "Enemy",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 0,
+    "attributeType": "HpMax",
+    "condition": "All",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 0,
+    "distance_SN": 240000,
+    "radius_SN": 60000,
+    "damageHitBuffList": [],
+    "healHitBuffList": [],
+    "cdFrame": 164,
+    "isUseBigNumber": false,
+    "stateIdList": [
+      {
+        "bPlayTimes": false,
+        "customDataTag": "",
+        "stateId": 10203236,
+        "timesRate_SN": 10000,
+        "timesSource": "FixedValue"
+      },
+      {
+        "bPlayTimes": false,
+        "customDataTag": "",
+        "stateId": 10203239,
+        "timesRate_SN": 10000,
+        "timesSource": "FixedValue"
+      }
+    ],
+    "backShakeFrame": 30
+  },
+  {
+    "id": 10102955,
+    "idCN": "敌方/02桦树/BOSS/双头凛川骨龙/头1技能4-1",
+    "mod": "基础动作",
+    "isInformalData": false,
+    "isCharge": false,
+    "isSkill": false,
+    "actionLevel": "SpecialSkill",
+    "isUseTargetFilter": true,
+    "targetType": "Enemy",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 990000,
+    "attributeType": "HpMax",
+    "condition": "Max",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "MiddleRow",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 99,
+    "distance_SN": 240000,
+    "radius_SN": 0,
+    "damageHitBuffList": [],
+    "healHitBuffList": [],
+    "cdFrame": 300,
+    "isUseBigNumber": false,
+    "stateIdList": [
+      {
+        "bPlayTimes": false,
+        "customDataTag": "",
+        "stateId": 10203366,
+        "timesRate_SN": 10000,
+        "timesSource": "FixedValue"
+      }
+    ],
+    "backShakeFrame": -1
+  },
+  {
+    "id": 10102956,
+    "idCN": "敌方/02桦树/BOSS/双头凛川骨龙/头1技能4-2",
+    "mod": "基础动作",
+    "isInformalData": false,
+    "isCharge": false,
+    "isSkill": false,
+    "actionLevel": "SpecialSkill",
+    "isUseTargetFilter": true,
+    "targetType": "Enemy",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 990000,
+    "attributeType": "HpMax",
+    "condition": "Max",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 99,
+    "distance_SN": 240000,
+    "radius_SN": 0,
+    "damageHitBuffList": [],
+    "healHitBuffList": [],
+    "cdFrame": 300,
+    "isUseBigNumber": false,
+    "stateIdList": [
+      {
+        "bPlayTimes": false,
+        "customDataTag": "",
+        "stateId": 10203367,
+        "timesRate_SN": 10000,
+        "timesSource": "FixedValue"
+      }
+    ],
+    "backShakeFrame": -1
+  },
+  {
+    "id": 10102957,
+    "idCN": "敌方/02桦树/BOSS/涡旋之眼/被动2元素汲取",
+    "mod": "基础动作",
+    "isInformalData": false,
+    "isCharge": false,
+    "isSkill": false,
+    "actionLevel": "NormalSkill",
+    "isUseTargetFilter": true,
+    "targetType": "Enemy",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 990000,
+    "attributeType": "HpMax",
+    "condition": "All",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 10,
+    "distance_SN": 240000,
+    "radius_SN": 0,
+    "damageHitBuffList": [],
+    "healHitBuffList": [],
+    "cdFrame": 180,
+    "isUseBigNumber": false,
+    "stateIdList": [
+      {
+        "bPlayTimes": false,
+        "customDataTag": "",
+        "stateId": 10203358,
+        "timesRate_SN": 10000,
+        "timesSource": "FixedValue"
+      }
+    ],
+    "backShakeFrame": -1
   }
 ]

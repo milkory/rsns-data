@@ -45,8 +45,8 @@
     "isInformalData": false,
     "x": 0.0,
     "y": 0.0,
-    "w": -10.0,
-    "h": -10.0,
+    "w": -500.0,
+    "h": -500.0,
     "left": 2,
     "top": 2,
     "alpha": 0.7,
@@ -2957,9 +2957,9 @@
     "isInformalData": false,
     "x": 0.0,
     "y": 0.0,
-    "w": -10.0,
+    "w": -500.0,
     "h": -10.0,
-    "left": 2,
+    "left": -500,
     "top": 2,
     "alpha": 0.0,
     "isShowFinger": false
@@ -6076,8 +6076,8 @@
     "isInformalData": false,
     "x": 0.0,
     "y": 0.0,
-    "w": -10.0,
-    "h": -10.0,
+    "w": -500.0,
+    "h": -500.0,
     "left": 2,
     "top": 2,
     "alpha": 1.0,
@@ -8126,9 +8126,10 @@
     "isInformalData": false,
     "x": 0.0,
     "y": -297.0,
-    "text": "列、列车长！那就不用了吧！！",
+    "text": "列、列车长！这就不用了吧！！",
     "isDoTween": true,
     "speed": 0.02,
+    "soundId": -1,
     "pfp": "UI/Guidance/PFP/Livia2_14",
     "isWaitClick": true,
     "left": 2,
@@ -10747,7 +10748,7 @@
     "isInformalData": false,
     "x": 0.0,
     "y": 0.0,
-    "text": "基于商会优惠新政，<color=#b45e01>首次建造</color>车厢时可以<color=#b45e01>减免80%</color>费用呢。",
+    "text": "基于商会优惠新政，<color=#b45e01>首次建造</color>车厢时可以<color=#b45e01>减免80%</color>的费用呢。",
     "isDoTween": true,
     "speed": 0.02,
     "soundId": -1,
@@ -11606,9 +11607,10 @@
     "isInformalData": false,
     "x": 0.0,
     "y": -297.0,
-    "text": "列车长，如果合理使用<color=#b45e01>【进货采买书】</color>可加量交易特产品的话应该能很快战胜西蒙。",
+    "text": "列车长，如果合理使用<color=#b45e01>【进货采买书】</color>加量交易特产品的话应该能很快战胜西蒙。",
     "isDoTween": true,
     "speed": 0.02,
+    "soundId": -1,
     "pfp": "UI/Guidance/PFP/Livia2_7",
     "isWaitClick": false,
     "left": 2,
@@ -13463,5 +13465,67 @@
     "mod": "对话",
     "isInformalData": false,
     "paragraphId": 20700284
+  },
+  {
+    "id": 81101041,
+    "idCN": "通用/条件跳转/编组未激活",
+    "mod": "IFELSE跳转",
+    "isInformalData": false,
+    "isLoop": false,
+    "trueLabel": -1,
+    "falseLabel": 81100653,
+    "keyList": [
+      {
+        "compareType": "EQ",
+        "key": "IsActivated",
+        "num": 0.0,
+        "uiPath": "UI/Trainfactory/HomeCarriageeditor",
+        "val": "Btn_editselect"
+      }
+    ]
+  },
+  {
+    "id": 81101042,
+    "idCN": "通用/条件跳转/整备界面激活",
+    "mod": "IFELSE跳转",
+    "isInformalData": false,
+    "isLoop": false,
+    "trueLabel": -1,
+    "falseLabel": 81100651,
+    "keyList": [
+      {
+        "compareType": "EQ",
+        "key": "IsActivated",
+        "num": 1.0,
+        "uiPath": "UI/Trainfactory/HomeCarriageeditor",
+        "val": ""
+      }
+    ]
+  },
+  {
+    "id": 81101043,
+    "idCN": "EP2/整备/车厢编成/高亮",
+    "mod": "指定UI高亮",
+    "isInformalData": false,
+    "uiPath": "UI/Trainfactory/HomeCarriageeditor",
+    "nodeType": "Fixed",
+    "nodeName": "Group_Edit.Btn_EditMode",
+    "mId": -1,
+    "delay": false,
+    "w": 262.0,
+    "h": 84.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0,
+    "alpha": 0.0,
+    "isShowFinger": true
+  },
+  {
+    "id": 81101044,
+    "idCN": "EP2/整备/车厢编成/点击",
+    "mod": "点击按钮",
+    "isInformalData": false,
+    "panelName": "UI/Trainfactory/HomeCarriageeditor",
+    "btnName": "HomeCarriageeditor_Group_Edit_Btn_EditMode_Click",
+    "autoCompletedTime": -1.0
   }
 ]

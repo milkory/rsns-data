@@ -93,7 +93,16 @@
     "favorability": false,
     "helpId": -1,
     "rankId": -1,
+    "correspondingActivity": -1,
     "eventList": [
+      {
+        "activityId": 86000002,
+        "endTime": "",
+        "eventId": 20700350,
+        "eventType": "Dialog",
+        "questId": 81001217,
+        "startTime": ""
+      },
       {
         "activityId": 86000001,
         "endTime": "",
@@ -756,6 +765,7 @@
     "favorability": false,
     "helpId": -1,
     "rankId": -1,
+    "correspondingActivity": -1,
     "eventList": [],
     "createQuestList": [
       {
@@ -772,7 +782,7 @@
       }
     ],
     "triggerPlot": -1,
-    "triggerQuest": 81000475,
+    "triggerQuest": -1,
     "tagOnPath": "UI/Home/HomeSafe/Level/tag_on",
     "tagOffPath": "UI/Home/HomeSafe/Level/tag_off",
     "expelBgPath": "UI/Home/HomeSafe/Level/di_level",
@@ -824,7 +834,7 @@
     "shareLevelNumMax": 10,
     "changeRefreshTime": 10,
     "returnCoefficient": 0.7,
-    "exchangeBuildId": -1
+    "exchangeBuildId": 84400022
   },
   {
     "id": 84400015,
@@ -1460,6 +1470,7 @@
     "favorability": false,
     "helpId": -1,
     "rankId": -1,
+    "correspondingActivity": -1,
     "eventList": [
       {
         "activityId": -1,
@@ -1488,8 +1499,8 @@
     "idCN": "活动/建设活动",
     "mod": "兑换站",
     "isInformalData": false,
-    "name": "",
-    "buildingIconPath": "",
+    "name": "工程援助中心",
+    "buildingIconPath": "UI/ExchangeStation/icon_exchange",
     "firstPlotId": -1,
     "uiPath": "UI/ExchangeStation/ExchangeStation",
     "bgPath": "UI/Dialog/Back2/Office_HJJD",
@@ -1500,9 +1511,42 @@
     "helpId": -1,
     "rankId": -1,
     "correspondingActivity": 86000002,
-    "eventList": [],
+    "eventList": [
+      {
+        "activityId": 86000002,
+        "endTime": "",
+        "eventId": 20700192,
+        "eventType": "Dialog",
+        "questId": 81001221,
+        "startTime": ""
+      },
+      {
+        "activityId": 86000002,
+        "endTime": "",
+        "eventId": 20700352,
+        "eventType": "Dialog",
+        "questId": 81001219,
+        "startTime": ""
+      },
+      {
+        "activityId": 86000002,
+        "endTime": "",
+        "eventId": 20700351,
+        "eventType": "Dialog",
+        "questId": 81001220,
+        "startTime": ""
+      }
+    ],
     "playerLevel": 0,
     "exchangeOpenPageList": [
+      {
+        "icon": "UI/Home/HomeSafe/icon_quzhu",
+        "isStore": false,
+        "isTalk": false,
+        "name": "清缴任务",
+        "showUI": "",
+        "uiPath": "UI/BuildLevel/BuildLevel"
+      },
       {
         "icon": "UI/HomeCOC/coc_icon_quest",
         "isStore": false,
@@ -1530,69 +1574,154 @@
     "bottomPath": "",
     "exchangeAffirmPath": "",
     "exchangeCompletePath": "",
-    "orderNumMax": 6,
-    "orderNumMin": 4,
+    "orderNumMax": 14,
+    "orderNumMin": 14,
     "activityOrderList": [
       {
         "id": 11400001,
-        "limitNum": -1,
+        "limitNum": 10,
         "onceNum": 100000,
         "rewardId": 80301816
       },
       {
-        "id": 82900004,
-        "limitNum": 2,
-        "onceNum": 1,
+        "id": 82900084,
+        "limitNum": 10,
+        "onceNum": 24,
         "rewardId": 80301817
       },
       {
-        "id": 82900040,
-        "limitNum": 1,
-        "onceNum": 1,
+        "id": 82900060,
+        "limitNum": 10,
+        "onceNum": 36,
         "rewardId": 80301818
       },
       {
-        "id": 82900011,
-        "limitNum": 1,
-        "onceNum": 1,
+        "id": 82900087,
+        "limitNum": 10,
+        "onceNum": 30,
         "rewardId": 80301819
       },
       {
-        "id": 82900081,
-        "limitNum": 1,
-        "onceNum": 1,
+        "id": 82900090,
+        "limitNum": 10,
+        "onceNum": 45,
         "rewardId": 80301820
       },
       {
-        "id": 82900001,
-        "limitNum": 1,
-        "onceNum": 1,
+        "id": 82900085,
+        "limitNum": 10,
+        "onceNum": 72,
         "rewardId": 80301821
+      },
+      {
+        "id": 82900088,
+        "limitNum": 10,
+        "onceNum": 36,
+        "rewardId": 80301893
+      },
+      {
+        "id": 82900157,
+        "limitNum": 10,
+        "onceNum": 37,
+        "rewardId": 80301894
+      },
+      {
+        "id": 82900089,
+        "limitNum": 10,
+        "onceNum": 47,
+        "rewardId": 80301895
+      },
+      {
+        "id": 82900173,
+        "limitNum": 10,
+        "onceNum": 11,
+        "rewardId": 80301896
+      },
+      {
+        "id": 82900181,
+        "limitNum": 10,
+        "onceNum": 11,
+        "rewardId": 80301897
+      },
+      {
+        "id": 82900174,
+        "limitNum": 10,
+        "onceNum": 18,
+        "rewardId": 80301898
+      },
+      {
+        "id": 82900009,
+        "limitNum": 10,
+        "onceNum": 29,
+        "rewardId": 80301899
+      },
+      {
+        "id": 82900010,
+        "limitNum": 10,
+        "onceNum": 37,
+        "rewardId": 80301900
       }
     ],
     "orderTitle": 80606899,
     "orderDes": 80606900,
     "orderBgPath": "UI/ExchangeStation/Order/bg_title",
+    "levelIconPath": "UI/BuildLevel/icon_construction_1",
+    "buildLevelName": 80606912,
     "constructionLevelList": [
       {
+        "allConstruction": 0,
         "bossId": 10000103,
-        "id": 20100733
+        "conditionId": -1,
+        "icon": "UI/BuildLevel/icon_type_1",
+        "id": 20100733,
+        "levelPng": "UI/BuildLevel/Icon/icon_level_1",
+        "levelPngLock": "UI/BuildLevel/Icon/icon_lock_1",
+        "levelX": -723.0,
+        "levelY": 248.0
       },
       {
+        "allConstruction": 0,
         "bossId": 10000244,
-        "id": 20100747
+        "conditionId": -1,
+        "icon": "UI/BuildLevel/icon_type_1",
+        "id": 20100747,
+        "levelPng": "UI/BuildLevel/Icon/icon_level_2",
+        "levelPngLock": "UI/BuildLevel/Icon/icon_lock_2",
+        "levelX": 57.0,
+        "levelY": 248.0
       },
       {
+        "allConstruction": 0,
         "bossId": 10000144,
-        "id": 20100748
+        "conditionId": -1,
+        "icon": "UI/BuildLevel/icon_type_1",
+        "id": 20100748,
+        "levelPng": "UI/BuildLevel/Icon/icon_level_3",
+        "levelPngLock": "UI/BuildLevel/Icon/icon_lock_3",
+        "levelX": -725.9,
+        "levelY": -161.5
       },
       {
-        "bossId": 10000227,
-        "id": 20100728
+        "allConstruction": 0,
+        "bossId": 10000255,
+        "conditionId": -1,
+        "icon": "UI/BuildLevel/icon_type_2",
+        "id": 20100728,
+        "levelPng": "UI/BuildLevel/Icon/icon_level_4",
+        "levelPngLock": "UI/BuildLevel/Icon/icon_lock_4",
+        "levelX": 83.0,
+        "levelY": -225.0
       },
       {
+        "allConstruction": 0,
         "bossId": 10000267,
-        "id": 20100730
+        "conditionId": -1,
+        "icon": "UI/BuildLevel/icon_type_1",
+        "id": 20100730,
+        "levelPng": "UI/BuildLevel/Icon/icon_level_5",
+        "levelPngLock": "UI/BuildLevel/Icon/icon_lock_5",
+        "levelX": -335.0,
+        "levelY": 45.0
       }
     ]
   }

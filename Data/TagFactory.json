@@ -11611,7 +11611,7 @@
     "icon": "",
     "sideName": "化物",
     "nameEnglish": "Metaplasia",
-    "iconPath": "UI/Common/Enemy/SideIcon/MoleGang"
+    "iconPath": "UI/Common/Enemy/SideIcon/Metaplasia"
   },
   {
     "id": 12600891,
@@ -11832,6 +11832,16 @@
     "detail": ""
   },
   {
+    "id": 12601098,
+    "idCN": "阵营标签/敌人类别/化物",
+    "mod": "阵营",
+    "isInformalData": false,
+    "icon": "",
+    "sideName": "化物",
+    "nameEnglish": "",
+    "iconPath": "EnemyPlus/BossIcon/boss_huawu_white"
+  },
+  {
     "id": 12601099,
     "idCN": "战斗/词缀/05五星/苔妮/共振1-凝星",
     "mod": "标签",
@@ -11858,6 +11868,19 @@
     "detail": "使用【磁飞轮】后，本场战斗【磁飞轮】的攻击段数+1，限12次"
   },
   {
+    "id": 12601101,
+    "idCN": "战斗/词缀/05五星/苔妮/觉醒5-冰裂",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "RolePlus\\Tennie\\Face",
+    "tagName": "冰裂",
+    "tagID": 0,
+    "isShowDetail": true,
+    "temptagNameRichText": "冰裂",
+    "tagNameRichText": "冰裂",
+    "detail": "每次造成【冰封】时，同时触发【重伤】"
+  },
+  {
     "id": 12601102,
     "idCN": "战斗/词缀/05五星/苔妮/共振5-霜星",
     "mod": "标签",
@@ -11871,16 +11894,154 @@
     "detail": "全场不论敌我，每次触发【冰封】时，获得0.3点费用"
   },
   {
-    "id": 12601101,
-    "idCN": "战斗/词缀/05五星/苔妮/觉醒5-冰裂",
+    "id": 12601103,
+    "idCN": "活动标签/活动签到",
+    "mod": "标签",
+    "isInformalData": true,
+    "icon": "",
+    "tagName": "活动签到",
+    "tagID": 0,
+    "isShowDetail": false,
+    "temptagNameRichText": "",
+    "tagNameRichText": "",
+    "detail": ""
+  },
+  {
+    "id": 12601104,
+    "idCN": "战斗/最高费卡",
+    "mod": "标签",
+    "icon": "",
+    "tagName": "B+",
+    "tagID": 0,
+    "isShowDetail": false,
+    "temptagNameRichText": "",
+    "tagNameRichText": "",
+    "detail": ""
+  },
+  {
+    "id": 12601105,
+    "idCN": "战斗/词缀/05五星/海因里希/共振2-突击",
     "mod": "标签",
     "isInformalData": false,
-    "icon": "RolePlus\\Tennie\\Face",
-    "tagName": "冰裂",
+    "icon": "RolePlus/Heinrich/Face",
+    "tagName": "突击",
     "tagID": 0,
     "isShowDetail": true,
-    "temptagNameRichText": "冰裂",
-    "tagNameRichText": "冰裂",
-    "detail": "每次造成【冰封】时，同时触发【重伤】"
+    "temptagNameRichText": "突击",
+    "tagNameRichText": "突击",
+    "detail": "使用【战术手雷】或【集束炸弹】后，【普通攻击】攻击速度提高至最大，持续6秒"
+  },
+  {
+    "id": 12601106,
+    "idCN": "战斗/词缀/05五星/海因里希/共振5-爆破专家",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "RolePlus/Heinrich/Face",
+    "tagName": "爆破专家",
+    "tagID": 0,
+    "isShowDetail": true,
+    "temptagNameRichText": "爆破专家",
+    "tagNameRichText": "爆破专家",
+    "detail": "【集束炸弹】的爆炸范围增大，同时触发【崩坏】"
+  },
+  {
+    "id": 12601107,
+    "idCN": "战斗/角色技能/05/海因里希/A",
+    "mod": "标签",
+    "tagName": "A",
+    "tagID": 0,
+    "isShowDetail": false,
+    "temptagNameRichText": "",
+    "tagNameRichText": "",
+    "detail": ""
+  },
+  {
+    "id": 12601108,
+    "idCN": "战斗/角色技能/05/海因里希/S",
+    "mod": "标签",
+    "tagName": "A",
+    "tagID": 0,
+    "isShowDetail": false,
+    "temptagNameRichText": "",
+    "tagNameRichText": "",
+    "detail": ""
+  },
+  {
+    "id": 12601109,
+    "idCN": "战斗/词缀/05五星/海因里希/觉醒2-附加弹仓",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "RolePlus/Heinrich/Face",
+    "tagName": "附加弹仓",
+    "tagID": 0,
+    "isShowDetail": true,
+    "temptagNameRichText": "附加弹仓",
+    "tagNameRichText": "附加弹仓",
+    "detail": "【集束炸弹】弹药数+1"
+  },
+  {
+    "id": 12601110,
+    "idCN": "战斗/词缀/05五星/海因里希/觉醒5-连环爆破",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "RolePlus/Heinrich/Face",
+    "tagName": "连环爆破",
+    "tagID": 0,
+    "isShowDetail": true,
+    "temptagNameRichText": "连环爆破",
+    "tagNameRichText": "连环爆破",
+    "detail": "使用【爆破支援】后，下1张带有【爆炸物】词条的卡牌额外打出1次"
+  },
+  {
+    "id": 12601111,
+    "idCN": "敌方/机制标签/涡旋之眼/元素亲和冰",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "UI/CardTag/ZiBao",
+    "tagName": "元素亲和·冰",
+    "tagID": 0,
+    "isShowDetail": true,
+    "temptagNameRichText": "元素亲和·冰",
+    "tagNameRichText": "元素亲和·冰",
+    "detail": ""
+  },
+  {
+    "id": 12601112,
+    "idCN": "敌方/机制标签/涡旋之眼/元素亲和火",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "UI/CardTag/ZiBao",
+    "tagName": "元素亲和·火",
+    "tagID": 0,
+    "isShowDetail": true,
+    "temptagNameRichText": "元素亲和·火",
+    "tagNameRichText": "元素亲和·火",
+    "detail": ""
+  },
+  {
+    "id": 12601113,
+    "idCN": "敌方/机制标签/涡旋之眼/元素亲和雷",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "UI/CardTag/ZiBao",
+    "tagName": "元素亲和·雷",
+    "tagID": 0,
+    "isShowDetail": true,
+    "temptagNameRichText": "元素亲和·雷",
+    "tagNameRichText": "元素亲和·雷",
+    "detail": ""
+  },
+  {
+    "id": 12601114,
+    "idCN": "敌方/筛选标签/元素亲和",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "",
+    "tagName": "元素亲和",
+    "tagID": 0,
+    "isShowDetail": false,
+    "temptagNameRichText": "",
+    "tagNameRichText": "",
+    "detail": ""
   }
 ]
