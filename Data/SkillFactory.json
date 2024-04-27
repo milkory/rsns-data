@@ -1900,8 +1900,8 @@
     "desParamList": [],
     "skillParamList": [
       {
-        "skillRateA_SN": 360000,
-        "skillRateB_SN": 120000,
+        "skillRateA_SN": 120000,
+        "skillRateB_SN": 360000,
         "skillRateC_SN": 0,
         "skillRateD_SN": 0,
         "skillRateE_SN": 0,
@@ -11510,34 +11510,6 @@
     "specialTagList": []
   },
   {
-    "id": 12300088,
-    "idCN": "01共振/强手",
-    "mod": "被动技能",
-    "isInformalData": false,
-    "name": "",
-    "iconPath": "",
-    "attriDetialList": [],
-    "tempdescription": "",
-    "description": "",
-    "levelUpDescription": "",
-    "tempdetailDescription": "",
-    "detailDescription": "",
-    "desParamList": [],
-    "skillParamList": [],
-    "attributeList": [],
-    "tagId": -1,
-    "tagFilterList": [],
-    "tagFilterType": "And",
-    "buffId": 10403778,
-    "temptypeStr": "",
-    "typeStr": "",
-    "typeColor": "Orange",
-    "CommonNum": 1.0,
-    "floatNum": 1,
-    "ExSkillList": [],
-    "specialTagList": []
-  },
-  {
     "id": 12300089,
     "idCN": "01共振/求生",
     "mod": "被动技能",
@@ -16532,12 +16504,9 @@
     "desParamList": [],
     "skillParamList": [],
     "attributeList": [],
-    "tagId": 12600590,
-    "tagFilterList": [
-      {
-        "tagId": 12600069
-      }
-    ],
+    "tagId": -1,
+    "tagRemoveList": [],
+    "tagFilterList": [],
     "tagFilterType": "Or",
     "buffId": 10404653,
     "temptypeStr": "",
@@ -24480,28 +24449,28 @@
   },
   {
     "id": 12300072,
-    "idCN": "00原版/05五星/约书亚/S",
+    "idCN": "00原版/05五星/约书亚/S-0",
     "mod": "主动技能",
     "isInformalData": false,
-    "name": "启示",
-    "iconPath": "RolePlus\\Joshua\\skillicon\\S",
+    "name": "预示",
+    "iconPath": "RolePlus\\Joshua\\skillicon\\S-0",
     "attriDetialList": [],
-    "tempdescription": "消耗所有费用，每点费用对随机敌方造成1段伤害\\n每段伤害有#r概率生成1张【暗艺】加入手牌\\n费用消耗越多伤害越高",
-    "description": "消耗所有费用，每点费用对随机敌方造成1段伤害\\n每段伤害有#r概率生成1张【暗艺】加入手牌\\n费用消耗越多伤害越高",
+    "tempdescription": "对敌方目标造成#r段伤害并【弹射】\\n使用【暗艺】后，本场战斗段数+2\\n使用【暗艺】触发特殊效果【至暗时刻】时，获得13点费用，可超出费用上限，同时生成1张【启示】加入手牌",
+    "description": "对敌方目标造成#r段伤害并<color=#FF6666>【弹射】</color>\\n使用【暗艺】后，本场战斗段数+2\\n使用【暗艺】触发特殊效果【至暗时刻】时，获得13点费用，可超出费用上限，同时生成1张【启示】加入手牌",
     "levelUpDescription": "",
-    "tempdetailDescription": "伤害：每段2000%",
-    "detailDescription": "伤害：每段2000%",
+    "tempdetailDescription": "伤害：每段1000%",
+    "detailDescription": "伤害：每段1000%",
     "desParamList": [
       {
-        "isPercent": true,
+        "isPercent": false,
         "param": "B"
       }
     ],
     "skillParamList": [
       {
-        "skillRateA_SN": 200000,
-        "skillRateB_SN": 1000,
-        "skillRateC_SN": 150,
+        "skillRateA_SN": 100000,
+        "skillRateB_SN": 130000,
+        "skillRateC_SN": 0,
         "skillRateD_SN": 0,
         "skillRateE_SN": 0,
         "skillRateF_SN": 0,
@@ -24522,11 +24491,11 @@
     "leaderCardEnableBuffId": -1,
     "leaderCardConditionList": [
       {
-        "leaderCardConditionFO": 10800071
+        "leaderCardConditionFO": 10800084
       }
     ],
-    "templeaderCardConditionDesc": "当前费用大于9点",
-    "leaderCardConditionDesc": "当前费用大于9点",
+    "templeaderCardConditionDesc": "使用13点费用",
+    "leaderCardConditionDesc": "使用13点费用",
     "temptypeStr": "战术",
     "typeStr": "战术",
     "typeColor": "Orange",
@@ -24534,7 +24503,7 @@
     "floatNum": 1,
     "ExSkillList": [
       {
-        "ExSkillName": 12300420
+        "ExSkillName": 12301615
       }
     ],
     "specialTagList": []
@@ -24689,9 +24658,13 @@
     "skillParamList": [],
     "attributeList": [],
     "tagId": 12600598,
+    "tagRemoveList": [],
     "tagFilterList": [
       {
         "tagId": 12600426
+      },
+      {
+        "tagId": 12601116
       }
     ],
     "tagFilterType": "Or",
@@ -27266,15 +27239,15 @@
     "name": "",
     "iconPath": "",
     "attriDetialList": [],
-    "tempdescription": "使用【队长技】后，下1张紫卡伤害提高30%",
-    "description": "使用【队长技】后，下1张紫卡伤害提高30%",
+    "tempdescription": "使用【队长技】后，下1张紫卡伤害提高50%",
+    "description": "使用【队长技】后，下1张紫卡伤害提高50%",
     "levelUpDescription": "",
     "tempdetailDescription": "",
     "detailDescription": "",
     "desParamList": [],
     "skillParamList": [
       {
-        "skillRateA_SN": 3000,
+        "skillRateA_SN": 5000,
         "skillRateB_SN": 0,
         "skillRateC_SN": 0,
         "skillRateD_SN": 0,
@@ -27290,6 +27263,7 @@
     ],
     "attributeList": [],
     "tagId": -1,
+    "tagRemoveList": [],
     "tagFilterList": [],
     "tagFilterType": "And",
     "buffId": 10401110,
@@ -27298,7 +27272,8 @@
     "typeColor": "Orange",
     "CommonNum": 1.0,
     "floatNum": 1,
-    "ExSkillList": []
+    "ExSkillList": [],
+    "specialTagList": []
   },
   {
     "id": 12300742,
@@ -27394,7 +27369,7 @@
   },
   {
     "id": 12300692,
-    "idCN": "11固定词条/装备/ANITA装备/空间切线",
+    "idCN": "11固定词条/01备用/队长技生成新星",
     "mod": "被动技能",
     "isInformalData": false,
     "name": "",
@@ -27966,14 +27941,14 @@
   },
   {
     "id": 12301030,
-    "idCN": "11固定词条/01备用/悔恨之钩",
+    "idCN": "11固定词条/装备/ANITA装备/空间切线",
     "mod": "被动技能",
     "isInformalData": false,
     "name": "",
     "iconPath": "",
     "attriDetialList": [],
-    "tempdescription": "使用【弃牌】指令弃牌时，额外抽1张牌",
-    "description": "使用【弃牌】指令弃牌时，额外抽1张牌",
+    "tempdescription": "开局额外抽1张牌，优先自身得意技能牌",
+    "description": "开局额外抽1张牌，优先自身得意技能牌",
     "levelUpDescription": "",
     "tempdetailDescription": "",
     "detailDescription": "",
@@ -27996,14 +27971,17 @@
     ],
     "attributeList": [],
     "tagId": -1,
+    "tagRemoveList": [],
     "tagFilterList": [],
     "tagFilterType": "And",
-    "buffId": 10405656,
+    "buffId": 10409993,
     "temptypeStr": "",
     "typeStr": "",
     "typeColor": "Orange",
     "CommonNum": 1.0,
-    "ExSkillList": []
+    "floatNum": 1,
+    "ExSkillList": [],
+    "specialTagList": []
   },
   {
     "id": 12301031,
@@ -48164,7 +48142,7 @@
     "iconPath": "",
     "attriDetialList": [],
     "tempdescription": "每次自身造成【斩裂】时，自身攻击力提高0.5%，可叠加",
-    "description": "每次自身造成【斩裂】时，自身攻击力提高0.5%，可叠加",
+    "description": "每次自身造成<color=#FF6666>【斩裂】</color>时，自身攻击力提高0.5%，可叠加",
     "levelUpDescription": "",
     "tempdetailDescription": "",
     "detailDescription": "",
@@ -51606,9 +51584,22 @@
     "desParamList": [],
     "skillParamList": [],
     "attributeList": [],
-    "tagId": -1,
+    "tagId": 12601123,
     "tagRemoveList": [],
-    "tagFilterList": [],
+    "tagFilterList": [
+      {
+        "tagId": 12600285
+      },
+      {
+        "tagId": 12600286
+      },
+      {
+        "tagId": 12600287
+      },
+      {
+        "tagId": 12600288
+      }
+    ],
     "tagFilterType": "Or",
     "buffId": 10408811,
     "temptypeStr": "",
@@ -51635,9 +51626,13 @@
     "desParamList": [],
     "skillParamList": [],
     "attributeList": [],
-    "tagId": -1,
+    "tagId": 12601122,
     "tagRemoveList": [],
-    "tagFilterList": [],
+    "tagFilterList": [
+      {
+        "tagId": 12600074
+      }
+    ],
     "tagFilterType": "Or",
     "buffId": 10408814,
     "temptypeStr": "",
@@ -51693,9 +51688,16 @@
     "desParamList": [],
     "skillParamList": [],
     "attributeList": [],
-    "tagId": -1,
+    "tagId": 12601124,
     "tagRemoveList": [],
-    "tagFilterList": [],
+    "tagFilterList": [
+      {
+        "tagId": 12600285
+      },
+      {
+        "tagId": 12600287
+      }
+    ],
     "tagFilterType": "Or",
     "buffId": 10408780,
     "temptypeStr": "",
@@ -58953,15 +58955,15 @@
     "name": "",
     "iconPath": "",
     "attriDetialList": [],
-    "tempdescription": "每生成1个【护盾】，自身攻击力+0.3%，可叠加，已有【护盾】叠加除外",
-    "description": "每生成1个【护盾】，自身攻击力+0.3%，可叠加，已有【护盾】叠加除外",
+    "tempdescription": "每生成1个【护盾】，自身攻击力+0.5%，可叠加，已有【护盾】叠加除外",
+    "description": "每生成1个【护盾】，自身攻击力+0.5%，可叠加，已有【护盾】叠加除外",
     "levelUpDescription": "",
     "tempdetailDescription": "",
     "detailDescription": "",
     "desParamList": [],
     "skillParamList": [
       {
-        "skillRateA_SN": 30,
+        "skillRateA_SN": 50,
         "skillRateB_SN": 0,
         "skillRateC_SN": 0,
         "skillRateD_SN": 0,
@@ -59041,8 +59043,8 @@
     "name": "",
     "iconPath": "",
     "attriDetialList": [],
-    "tempdescription": "每次使用【暗艺】后，本场战斗【暗艺】的伤害提高13%，可叠加",
-    "description": "每次使用【暗艺】后，本场战斗【暗艺】的伤害提高13%，可叠加",
+    "tempdescription": "每次使用【暗艺】后，本场战斗【暗艺】和【至暗时刻】的伤害提高13%，可叠加",
+    "description": "每次使用【暗艺】后，本场战斗【暗艺】和【至暗时刻】的伤害提高13%，可叠加",
     "levelUpDescription": "",
     "tempdetailDescription": "",
     "detailDescription": "",
@@ -59276,12 +59278,12 @@
     "tempdescription": "使敌方全体【冰封】，对敌方全体造成12段伤害\\n同时触发【引雷】\\n从弃牌区回收2张牌自身技能牌加入手牌",
     "description": "使敌方全体<color=#7AB2FF>【冰封】</color>，对敌方全体造成12段伤害\\n同时触发<color=#FFB800>【引雷】</color>\\n从弃牌区回收2张牌自身技能牌加入手牌",
     "levelUpDescription": "",
-    "tempdetailDescription": "伤害：每段800%",
-    "detailDescription": "伤害：每段800%",
+    "tempdetailDescription": "伤害：每段700%",
+    "detailDescription": "伤害：每段700%",
     "desParamList": [],
     "skillParamList": [
       {
-        "skillRateA_SN": 80000,
+        "skillRateA_SN": 70000,
         "skillRateB_SN": 0,
         "skillRateC_SN": 0,
         "skillRateD_SN": 0,
@@ -59307,8 +59309,8 @@
         "leaderCardConditionFO": 10800078
       }
     ],
-    "templeaderCardConditionDesc": "使用带有【引雷】或【冻结】词条的卡牌7次",
-    "leaderCardConditionDesc": "使用带有<color=#FFB800>【引雷】</color>或<color=#7AB2FF>【冻结】</color>词条的卡牌7次",
+    "templeaderCardConditionDesc": "使用带有【引雷】或【冻结】词条的卡牌6次",
+    "leaderCardConditionDesc": "使用带有<color=#FFB800>【引雷】</color>或<color=#7AB2FF>【冻结】</color>词条的卡牌6次",
     "temptypeStr": "",
     "typeStr": "",
     "typeColor": "Orange",
@@ -59978,7 +59980,7 @@
     "tagRemoveList": [],
     "tagFilterList": [
       {
-        "tagId": 12600057
+        "tagId": 12601121
       }
     ],
     "tagFilterType": "Or",
@@ -60173,6 +60175,251 @@
     "buffId": 10409979,
     "temptypeStr": "",
     "typeStr": "",
+    "typeColor": "Orange",
+    "CommonNum": 1.0,
+    "floatNum": 1,
+    "ExSkillList": [],
+    "specialTagList": []
+  },
+  {
+    "id": 12301615,
+    "idCN": "00原版/05五星/约书亚/S-1",
+    "mod": "主动技能",
+    "isInformalData": false,
+    "name": "启示",
+    "iconPath": "RolePlus\\Joshua\\skillicon\\S-1",
+    "attriDetialList": [],
+    "tempdescription": "消耗所有费用，每点费用对随机敌方造成2段伤害\\n每段伤害有#r概率生成1张【暗艺】加入手牌\\n费用消耗越多伤害越高\\n离手后【销毁】\\n此卡被丢弃时，生成1张【暗艺】加入手牌",
+    "description": "消耗所有费用，每点费用对随机敌方造成2段伤害\\n每段伤害有#r概率生成1张【暗艺】加入手牌\\n费用消耗越多伤害越高\\n离手后【销毁】\\n此卡被丢弃时，生成1张【暗艺】加入手牌",
+    "levelUpDescription": "",
+    "tempdetailDescription": "伤害：每段1300%",
+    "detailDescription": "伤害：每段1300%",
+    "desParamList": [
+      {
+        "isPercent": true,
+        "param": "B"
+      }
+    ],
+    "skillParamList": [
+      {
+        "skillRateA_SN": 130000,
+        "skillRateB_SN": 1000,
+        "skillRateC_SN": 200,
+        "skillRateD_SN": 0,
+        "skillRateE_SN": 0,
+        "skillRateF_SN": 0,
+        "skillRateG_SN": 0,
+        "skillRateH_SN": 0,
+        "skillRateI_SN": 0,
+        "skillRateJ_SN": 0,
+        "skillRateL_SN": 0,
+        "skillRateT_SN": 0
+      }
+    ],
+    "attributeList": [],
+    "tagId": -1,
+    "tagRemoveList": [],
+    "tagFilterList": [],
+    "tagFilterType": "And",
+    "cardID": 10600367,
+    "leaderCardEnableBuffId": -1,
+    "leaderCardConditionList": [],
+    "templeaderCardConditionDesc": "",
+    "leaderCardConditionDesc": "",
+    "temptypeStr": "战术",
+    "typeStr": "战术",
+    "typeColor": "Orange",
+    "CommonNum": 1.0,
+    "floatNum": 1,
+    "ExSkillList": [
+      {
+        "ExSkillName": 12300420
+      }
+    ],
+    "specialTagList": []
+  },
+  {
+    "id": 12301616,
+    "idCN": "00原版/05五星/约书亚/被动",
+    "mod": "被动技能",
+    "isInformalData": false,
+    "name": "",
+    "iconPath": "",
+    "attriDetialList": [],
+    "tempdescription": "",
+    "description": "",
+    "levelUpDescription": "",
+    "tempdetailDescription": "",
+    "detailDescription": "",
+    "desParamList": [],
+    "skillParamList": [],
+    "attributeList": [],
+    "tagId": -1,
+    "tagRemoveList": [],
+    "tagFilterList": [],
+    "tagFilterType": "Or",
+    "buffId": 10408653,
+    "temptypeStr": "",
+    "typeStr": "",
+    "typeColor": "Orange",
+    "CommonNum": 1.0,
+    "floatNum": 1,
+    "ExSkillList": [],
+    "specialTagList": []
+  },
+  {
+    "id": 12301617,
+    "idCN": "00原版/05五星/约书亚/共振2-渴求",
+    "mod": "被动技能",
+    "isInformalData": false,
+    "name": "",
+    "iconPath": "",
+    "attriDetialList": [],
+    "tempdescription": "",
+    "description": "",
+    "levelUpDescription": "",
+    "tempdetailDescription": "",
+    "detailDescription": "",
+    "desParamList": [],
+    "skillParamList": [],
+    "attributeList": [],
+    "tagId": 12601119,
+    "tagRemoveList": [],
+    "tagFilterList": [
+      {
+        "tagId": 12600037
+      }
+    ],
+    "tagFilterType": "Or",
+    "buffId": 10405277,
+    "temptypeStr": "",
+    "typeStr": "",
+    "typeColor": "Orange",
+    "CommonNum": 1.0,
+    "floatNum": 1,
+    "ExSkillList": [],
+    "specialTagList": []
+  },
+  {
+    "id": 12301486,
+    "idCN": "11固定词条/01备用/开局抽得意技能",
+    "mod": "被动技能",
+    "isInformalData": false,
+    "name": "",
+    "iconPath": "",
+    "attriDetialList": [],
+    "tempdescription": "开局额外抽1张牌，优先自身得意技能牌",
+    "description": "开局额外抽1张牌，优先自身得意技能牌",
+    "levelUpDescription": "",
+    "tempdetailDescription": "",
+    "detailDescription": "",
+    "desParamList": [],
+    "skillParamList": [
+      {
+        "skillRateA_SN": 10000,
+        "skillRateB_SN": 0,
+        "skillRateC_SN": 0,
+        "skillRateD_SN": 0,
+        "skillRateE_SN": 0,
+        "skillRateF_SN": 0,
+        "skillRateG_SN": 0,
+        "skillRateH_SN": 0,
+        "skillRateI_SN": 0,
+        "skillRateJ_SN": 0,
+        "skillRateL_SN": 0,
+        "skillRateT_SN": 0
+      }
+    ],
+    "attributeList": [],
+    "tagId": -1,
+    "tagRemoveList": [],
+    "tagFilterList": [],
+    "tagFilterType": "And",
+    "buffId": 10409993,
+    "temptypeStr": "",
+    "typeStr": "",
+    "typeColor": "Orange",
+    "CommonNum": 1.0,
+    "floatNum": 1,
+    "ExSkillList": [],
+    "specialTagList": []
+  },
+  {
+    "id": 12301618,
+    "idCN": "06敌方/劫掠者/劫掠王/被动0火海",
+    "mod": "被动技能",
+    "isInformalData": false,
+    "name": "",
+    "iconPath": "",
+    "attriDetialList": [],
+    "tempdescription": "",
+    "description": "",
+    "levelUpDescription": "",
+    "tempdetailDescription": "",
+    "detailDescription": "",
+    "desParamList": [
+      {
+        "isPercent": false,
+        "param": "a"
+      }
+    ],
+    "skillParamList": [],
+    "attributeList": [],
+    "tagId": -1,
+    "tagRemoveList": [],
+    "tagFilterList": [],
+    "tagFilterType": "And",
+    "buffId": 10409297,
+    "temptypeStr": "",
+    "typeStr": "",
+    "typeColor": "Orange",
+    "CommonNum": 1.0,
+    "floatNum": 1,
+    "ExSkillList": [],
+    "specialTagList": []
+  },
+  {
+    "id": 12300088,
+    "idCN": "00原版/05五星/夏洛蒂/A觉醒5",
+    "mod": "主动技能",
+    "isInformalData": false,
+    "name": "灾月",
+    "iconPath": "RolePlus\\Charlotte\\skillicon\\A",
+    "attriDetialList": [],
+    "tempdescription": "释放1道穿透敌方的剑气波\\n对敌方全体造成1段伤害并【斩裂】",
+    "description": "释放1道<color=#FF6666>穿透</color>敌方的剑气波\\n对敌方全体造成1段伤害并<color=#FF6666>【斩裂】</color>",
+    "levelUpDescription": "",
+    "tempdetailDescription": "伤害：1200%",
+    "detailDescription": "伤害：1200%",
+    "desParamList": [],
+    "skillParamList": [
+      {
+        "skillRateA_SN": 300000,
+        "skillRateB_SN": 0,
+        "skillRateC_SN": 0,
+        "skillRateD_SN": 0,
+        "skillRateE_SN": 0,
+        "skillRateF_SN": 0,
+        "skillRateG_SN": 0,
+        "skillRateH_SN": 0,
+        "skillRateI_SN": 0,
+        "skillRateJ_SN": 0,
+        "skillRateL_SN": 0,
+        "skillRateT_SN": 0
+      }
+    ],
+    "attributeList": [],
+    "tagId": -1,
+    "tagRemoveList": [],
+    "tagFilterList": [],
+    "tagFilterType": "And",
+    "cardID": 10600368,
+    "leaderCardEnableBuffId": -1,
+    "leaderCardConditionList": [],
+    "templeaderCardConditionDesc": "",
+    "leaderCardConditionDesc": "",
+    "temptypeStr": "负能 充能",
+    "typeStr": "负能 充能",
     "typeColor": "Orange",
     "CommonNum": 1.0,
     "floatNum": 1,

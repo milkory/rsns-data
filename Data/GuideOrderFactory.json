@@ -1,29 +1,21 @@
 [
   {
     "id": 81100005,
-    "idCN": "测试/测试-提示",
-    "mod": "提示",
-    "x": -100.0,
-    "y": 200.0,
-    "text": "<color=#ff0000ff>提示测试</color>"
-  },
-  {
-    "id": 81100006,
-    "idCN": "测试/测试-相机",
-    "mod": "相机",
+    "idCN": "EP1/条件跳转/抽卡/等待获得道具关闭",
+    "mod": "IFELSE跳转",
     "isInformalData": false,
-    "cameraType": -1,
-    "moveCam": true,
-    "clickCam": true
-  },
-  {
-    "id": 81100008,
-    "idCN": "测试/测试-指定位置高亮",
-    "mod": "指定位置高亮",
-    "x": 0.0,
-    "y": 0.0,
-    "w": 1600.0,
-    "h": 800.0
+    "isLoop": true,
+    "trueLabel": -1,
+    "falseLabel": -1,
+    "keyList": [
+      {
+        "compareType": "EQ",
+        "key": "IsActivated",
+        "num": 0.0,
+        "uiPath": "UI/Common/ShowItem",
+        "val": ""
+      }
+    ]
   },
   {
     "id": 81100026,
@@ -307,7 +299,8 @@
     "idCN": "通用/跳过1个引导序号",
     "mod": "更新引导序号",
     "isInformalData": false,
-    "skipOrderIdNum": 1
+    "skipOrderIdNum": 1,
+    "isChangesOrder": false
   },
   {
     "id": 81100201,
@@ -1854,7 +1847,7 @@
     "idCN": "首次进入/02休息区",
     "mod": "保存面板触发引导序号",
     "isInformalData": false,
-    "apiName": "",
+    "apiName": "quest.recv_rewards",
     "guideNo": 2
   },
   {
@@ -2911,22 +2904,6 @@
     "autoCompletedTime": -1.0
   },
   {
-    "id": 81100539,
-    "idCN": "通用/条件跳转/编队4人",
-    "mod": "IFELSE跳转",
-    "isInformalData": false,
-    "trueLabel": -1,
-    "falseLabel": 81100651,
-    "keyList": [
-      {
-        "compareType": "EQ",
-        "key": "HeroNumInSquads",
-        "num": 4.0,
-        "val": "0"
-      }
-    ]
-  },
-  {
     "id": 81100540,
     "idCN": "通用/帧事件/电力/升级弹窗",
     "mod": "等待帧事件触发",
@@ -3021,22 +2998,6 @@
     "alpha": 0.7
   },
   {
-    "id": 81100547,
-    "idCN": "通用/条件跳转/拥有18个工具箱",
-    "mod": "IFELSE跳转",
-    "isInformalData": false,
-    "trueLabel": -1,
-    "falseLabel": 81100651,
-    "keyList": [
-      {
-        "compareType": "EQ",
-        "key": "GoodsNum",
-        "num": 18.0,
-        "val": "82900091"
-      }
-    ]
-  },
-  {
     "id": 81100548,
     "idCN": "通用/隐藏界面/副本",
     "mod": "对话",
@@ -3096,22 +3057,6 @@
     "btnName": "HomeTrade_Group_Main_Btn_Sell_Click"
   },
   {
-    "id": 81100554,
-    "idCN": "通用/条件跳转/拥有工具箱>0",
-    "mod": "IFELSE跳转",
-    "isInformalData": false,
-    "trueLabel": -1,
-    "falseLabel": 81100653,
-    "keyList": [
-      {
-        "compareType": "GT",
-        "key": "GoodsNum",
-        "num": 0.0,
-        "val": "82900091"
-      }
-    ]
-  },
-  {
     "id": 81100555,
     "idCN": "EP1/交易所/卖工具箱/点击",
     "mod": "点击按钮",
@@ -3157,7 +3102,7 @@
   },
   {
     "id": 81100559,
-    "idCN": "通用/条件跳转/抬价次数=2",
+    "idCN": "EP1/条件跳转/交易所/抬价次数等于2",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "isLoop": false,
@@ -3260,28 +3205,11 @@
     ]
   },
   {
-    "id": 81100567,
-    "idCN": "通用/条件跳转/可以购买工具箱",
+    "id": 81100568,
+    "idCN": "EP1/条件跳转/交易所/砍价次数等于2",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "isLoop": false,
-    "trueLabel": -1,
-    "falseLabel": 81100651,
-    "keyList": [
-      {
-        "compareType": "GT",
-        "key": "GoodsCanBuy",
-        "num": 0.0,
-        "uiPath": "",
-        "val": "84700395"
-      }
-    ]
-  },
-  {
-    "id": 81100568,
-    "idCN": "通用/条件跳转/砍价次数=2",
-    "mod": "IFELSE跳转",
-    "isInformalData": false,
     "trueLabel": -1,
     "falseLabel": 81100651,
     "keyList": [
@@ -3384,7 +3312,7 @@
   },
   {
     "id": 81100604,
-    "idCN": "通用/条件跳转/疲劳值等于0",
+    "idCN": "EP1/条件跳转/休息区/疲劳值等于0",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "isLoop": false,
@@ -3865,9 +3793,10 @@
   },
   {
     "id": 81100306,
-    "idCN": "通用/条件跳转/试练场激活",
+    "idCN": "EP1/条件跳转/编队/试练场激活",
     "mod": "IFELSE跳转",
     "isInformalData": false,
+    "isLoop": false,
     "trueLabel": -1,
     "falseLabel": 81100651,
     "keyList": [
@@ -3890,7 +3819,7 @@
   },
   {
     "id": 81100308,
-    "idCN": "通用/条件跳转/声望按钮激活",
+    "idCN": "EP1/条件跳转/声望按钮激活",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "isLoop": false,
@@ -4116,59 +4045,8 @@
     "isInformalData": false
   },
   {
-    "id": 81100291,
-    "idCN": "通用/条件跳转/工具箱索引=1",
-    "mod": "IFELSE跳转",
-    "isInformalData": false,
-    "trueLabel": -1,
-    "falseLabel": 81100651,
-    "keyList": [
-      {
-        "compareType": "EQ",
-        "key": "GoodsIndex",
-        "num": 1.0,
-        "uiPath": "",
-        "val": "82900054"
-      }
-    ]
-  },
-  {
-    "id": 81100389,
-    "idCN": "通用/条件跳转/工具箱索引=2",
-    "mod": "IFELSE跳转",
-    "isInformalData": false,
-    "trueLabel": -1,
-    "falseLabel": 81100651,
-    "keyList": [
-      {
-        "compareType": "EQ",
-        "key": "GoodsIndex",
-        "num": 1.0,
-        "uiPath": "",
-        "val": "82900054"
-      }
-    ]
-  },
-  {
-    "id": 81100569,
-    "idCN": "通用/条件跳转/工具箱索引=3",
-    "mod": "IFELSE跳转",
-    "isInformalData": false,
-    "trueLabel": -1,
-    "falseLabel": 81100651,
-    "keyList": [
-      {
-        "compareType": "EQ",
-        "key": "GoodsIndex",
-        "num": 1.0,
-        "uiPath": "",
-        "val": "82900054"
-      }
-    ]
-  },
-  {
     "id": 81100570,
-    "idCN": "通用/条件跳转/任务奖励激活-成功",
+    "idCN": "通用/条件跳转/任务奖励/任务奖励激活-成功",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "isLoop": false,
@@ -4436,7 +4314,7 @@
   },
   {
     "id": 81100022,
-    "idCN": "通用/条件跳转/编队保存完成",
+    "idCN": "EP1/条件跳转/编队/保存完成",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "isLoop": true,
@@ -4649,7 +4527,7 @@
   },
   {
     "id": 81100041,
-    "idCN": "通用/条件跳转/男列车长",
+    "idCN": "通用/条件跳转/性别/男列车长",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "isLoop": false,
@@ -4667,7 +4545,7 @@
   },
   {
     "id": 81100042,
-    "idCN": "通用/条件跳转/女列车长",
+    "idCN": "通用/条件跳转/性别/女列车长",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "isLoop": false,
@@ -5056,34 +4934,8 @@
     "paragraphId": 20700102
   },
   {
-    "id": 81100107,
-    "idCN": "首次进入/15入住",
-    "mod": "保存面板触发引导序号",
-    "isInformalData": false,
-    "apiName": "",
-    "guideNo": 15
-  },
-  {
-    "id": 81100110,
-    "idCN": "通用/条件跳转/贸易等级15",
-    "mod": "IFELSE跳转",
-    "isInformalData": false,
-    "isLoop": false,
-    "trueLabel": -1,
-    "falseLabel": 81100651,
-    "keyList": [
-      {
-        "compareType": "EQ",
-        "key": "TradeLv",
-        "num": 15.0,
-        "uiPath": "",
-        "val": "0"
-      }
-    ]
-  },
-  {
     "id": 81100112,
-    "idCN": "通用/条件跳转/有加速",
+    "idCN": "EP1/条件跳转/有加速",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "isLoop": false,
@@ -5212,14 +5064,6 @@
     "isInformalData": false,
     "furnitureId": 81300121,
     "moveTime": 0.0
-  },
-  {
-    "id": 81100124,
-    "idCN": "首次进入/16装扮",
-    "mod": "保存面板触发引导序号",
-    "isInformalData": false,
-    "apiName": "",
-    "guideNo": 16
   },
   {
     "id": 81100125,
@@ -5529,36 +5373,18 @@
     ]
   },
   {
-    "id": 81100081,
-    "idCN": "EP1/条件跳转/交易所支线完成",
-    "mod": "IFELSE跳转",
-    "isInformalData": false,
-    "isLoop": false,
-    "trueLabel": 81100651,
-    "falseLabel": -1,
-    "keyList": [
-      {
-        "compareType": "EQ",
-        "key": "QuestCompleted",
-        "num": 1.0,
-        "uiPath": "",
-        "val": "81000715"
-      }
-    ]
-  },
-  {
     "id": 81100084,
-    "idCN": "EP1/条件跳转/休息区任务完成",
+    "idCN": "EP1/条件跳转/休息区任务未完成",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "isLoop": false,
-    "trueLabel": 81100651,
-    "falseLabel": -1,
+    "trueLabel": -1,
+    "falseLabel": 81100651,
     "keyList": [
       {
         "compareType": "EQ",
         "key": "QuestCompleted",
-        "num": 1.0,
+        "num": 0.0,
         "uiPath": "",
         "val": "81000713"
       }
@@ -5572,7 +5398,7 @@
   },
   {
     "id": 81100086,
-    "idCN": "通用/条件跳转/任务奖励激活-失败",
+    "idCN": "通用/条件跳转/任务奖励/任务奖励激活-失败",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "isLoop": false,
@@ -5636,42 +5462,6 @@
     "autoCompletedTime": -1.0
   },
   {
-    "id": 81100165,
-    "idCN": "通用/条件跳转/编队2人",
-    "mod": "IFELSE跳转",
-    "isInformalData": false,
-    "isLoop": false,
-    "trueLabel": 81100650,
-    "falseLabel": -1,
-    "keyList": [
-      {
-        "compareType": "EQ",
-        "key": "HeroNumInSquads",
-        "num": 2.0,
-        "uiPath": "",
-        "val": "0"
-      }
-    ]
-  },
-  {
-    "id": 81100170,
-    "idCN": "通用/条件跳转/编队3人",
-    "mod": "IFELSE跳转",
-    "isInformalData": false,
-    "isLoop": false,
-    "trueLabel": -1,
-    "falseLabel": 81100651,
-    "keyList": [
-      {
-        "compareType": "EQ",
-        "key": "HeroNumInSquads",
-        "num": 3.0,
-        "uiPath": "",
-        "val": "0"
-      }
-    ]
-  },
-  {
     "id": 81100173,
     "idCN": "EP1/编队/选择角色/点击队员3号位",
     "mod": "点击按钮",
@@ -5703,24 +5493,6 @@
     "uiPath": "UI/Squads/Squads",
     "isInit": true,
     "childNodePath": "Group_Detail"
-  },
-  {
-    "id": 81100181,
-    "idCN": "通用/条件跳转/编队队长3号位",
-    "mod": "IFELSE跳转",
-    "isInformalData": false,
-    "isLoop": false,
-    "trueLabel": 81100077,
-    "falseLabel": -1,
-    "keyList": [
-      {
-        "compareType": "EQ",
-        "key": "CaptainNumber",
-        "num": 3.0,
-        "uiPath": "",
-        "val": "0"
-      }
-    ]
   },
   {
     "id": 81100083,
@@ -5761,24 +5533,6 @@
     "mod": "对话",
     "isInformalData": false,
     "paragraphId": 20700075
-  },
-  {
-    "id": 81100057,
-    "idCN": "通用/条件跳转/编队队长5号位",
-    "mod": "IFELSE跳转",
-    "isInformalData": false,
-    "isLoop": false,
-    "trueLabel": 81100077,
-    "falseLabel": -1,
-    "keyList": [
-      {
-        "compareType": "EQ",
-        "key": "CaptainNumber",
-        "num": 5.0,
-        "uiPath": "",
-        "val": "0"
-      }
-    ]
   },
   {
     "id": 81100182,
@@ -5870,24 +5624,6 @@
     "left": 2,
     "top": 2,
     "autoCompletedTime": -1.0
-  },
-  {
-    "id": 81100191,
-    "idCN": "通用/条件跳转/升级界面关闭",
-    "mod": "IFELSE跳转",
-    "isInformalData": false,
-    "isLoop": true,
-    "trueLabel": -1,
-    "falseLabel": -1,
-    "keyList": [
-      {
-        "compareType": "EQ",
-        "key": "IsActivated",
-        "num": 0.0,
-        "uiPath": "UI/Squads/Squads",
-        "val": "Group_Detail"
-      }
-    ]
   },
   {
     "id": 81100204,
@@ -6018,7 +5754,7 @@
   },
   {
     "id": 81100230,
-    "idCN": "通用/条件跳转/抽卡视频打开",
+    "idCN": "EP1/条件跳转/抽卡/视频打开",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "isLoop": true,
@@ -6053,7 +5789,7 @@
   },
   {
     "id": 81100329,
-    "idCN": "通用/条件跳转/编队少于5人",
+    "idCN": "EP1/条件跳转/编队/少于5人",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "isLoop": false,
@@ -6450,44 +6186,8 @@
     "isShowFinger": true
   },
   {
-    "id": 81100588,
-    "idCN": "通用/条件跳转/疲劳值小于等于285",
-    "mod": "IFELSE跳转",
-    "isInformalData": false,
-    "isLoop": false,
-    "trueLabel": -1,
-    "falseLabel": 81100651,
-    "keyList": [
-      {
-        "compareType": "LE",
-        "key": "HomeEnergy",
-        "num": 285.0,
-        "uiPath": "",
-        "val": "0"
-      }
-    ]
-  },
-  {
-    "id": 81100589,
-    "idCN": "通用/条件跳转/剩余载货量大于0",
-    "mod": "IFELSE跳转",
-    "isInformalData": false,
-    "isLoop": false,
-    "trueLabel": -1,
-    "falseLabel": 81100651,
-    "keyList": [
-      {
-        "compareType": "GT",
-        "key": "RemainingLoadage",
-        "num": 0.0,
-        "uiPath": "",
-        "val": "0"
-      }
-    ]
-  },
-  {
     "id": 81100298,
-    "idCN": "通用/条件跳转/到达修格里",
+    "idCN": "EP1/条件跳转/到达修格里",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "isLoop": true,
@@ -6505,7 +6205,7 @@
   },
   {
     "id": 81100590,
-    "idCN": "通用/条件跳转/莉薇娅小于7级",
+    "idCN": "EP1//条件跳转/共振/莉薇娅小于7级",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "isLoop": false,
@@ -6917,24 +6617,6 @@
     "left": 2,
     "top": 2,
     "autoCompletedTime": -1.0
-  },
-  {
-    "id": 81100676,
-    "idCN": "通用/条件跳转/贸易等级25",
-    "mod": "IFELSE跳转",
-    "isInformalData": false,
-    "isLoop": false,
-    "trueLabel": -1,
-    "falseLabel": 81100651,
-    "keyList": [
-      {
-        "compareType": "EQ",
-        "key": "TradeLv",
-        "num": 25.0,
-        "uiPath": "",
-        "val": "0"
-      }
-    ]
   },
   {
     "id": 81100677,
@@ -8158,42 +7840,6 @@
     "eventString": "HomeSticker"
   },
   {
-    "id": 81100762,
-    "idCN": "通用/条件跳转/工具箱可购买",
-    "mod": "IFELSE跳转",
-    "isInformalData": false,
-    "isLoop": false,
-    "trueLabel": -1,
-    "falseLabel": 81100651,
-    "keyList": [
-      {
-        "compareType": "GT",
-        "key": "GoodsCanBuy",
-        "num": 0.0,
-        "uiPath": "",
-        "val": "84700395"
-      }
-    ]
-  },
-  {
-    "id": 81100763,
-    "idCN": "通用/条件跳转/红茶可购买",
-    "mod": "IFELSE跳转",
-    "isInformalData": false,
-    "isLoop": false,
-    "trueLabel": -1,
-    "falseLabel": 81100651,
-    "keyList": [
-      {
-        "compareType": "GT",
-        "key": "GoodsCanBuy",
-        "num": 0.0,
-        "uiPath": "",
-        "val": "84700154"
-      }
-    ]
-  },
-  {
     "id": 81100764,
     "idCN": "EP1/交易所/货物/高亮2号位",
     "mod": "指定UI高亮",
@@ -8402,24 +8048,6 @@
     "autoCompletedTime": -1.0
   },
   {
-    "id": 81100781,
-    "idCN": "EP1/条件跳转/升级弹窗激活",
-    "mod": "IFELSE跳转",
-    "isInformalData": false,
-    "isLoop": false,
-    "trueLabel": -1,
-    "falseLabel": 81100590,
-    "keyList": [
-      {
-        "compareType": "EQ",
-        "key": "IsActivated",
-        "num": 1.0,
-        "uiPath": "UI/CharacterInfo/Group_TabLevelUp",
-        "val": "Btn_BG"
-      }
-    ]
-  },
-  {
     "id": 81100782,
     "idCN": "EP1/条件跳转/升级弹窗关闭",
     "mod": "IFELSE跳转",
@@ -8439,7 +8067,7 @@
   },
   {
     "id": 81100783,
-    "idCN": "通用/条件跳转/莉薇娅大于等于7级",
+    "idCN": "EP1//条件跳转/共振/莉薇娅大于等于7级",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "isLoop": false,
@@ -8898,7 +8526,7 @@
   },
   {
     "id": 81100821,
-    "idCN": "EP1/条件跳转/主界面激活",
+    "idCN": "通用/条件跳转/主界面激活",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "isLoop": false,
@@ -9256,7 +8884,7 @@
   },
   {
     "id": 81100806,
-    "idCN": "通用/条件跳转/莉薇娅在编队中",
+    "idCN": "EP1/条件跳转/编队/莉薇娅在编队中",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "isLoop": false,
@@ -9269,24 +8897,6 @@
         "num": 1.0,
         "uiPath": "",
         "val": "10000055"
-      }
-    ]
-  },
-  {
-    "id": 81100808,
-    "idCN": "通用/条件跳转/编队队长不在3号位",
-    "mod": "IFELSE跳转",
-    "isInformalData": false,
-    "isLoop": false,
-    "trueLabel": -1,
-    "falseLabel": 81100651,
-    "keyList": [
-      {
-        "compareType": "NE",
-        "key": "CaptainNumber",
-        "num": 3.0,
-        "uiPath": "",
-        "val": "0"
       }
     ]
   },
@@ -9326,7 +8936,7 @@
   },
   {
     "id": 81100423,
-    "idCN": "通用/条件跳转/开始战斗激活",
+    "idCN": "EP1/条件跳转/编队/开始战斗激活",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "isLoop": false,
@@ -9492,7 +9102,7 @@
   },
   {
     "id": 81100158,
-    "idCN": "通用/条件跳转/编队队长不在4号位",
+    "idCN": "EP1/条件跳转/编队/队长不在4号位",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "isLoop": false,
@@ -9687,7 +9297,7 @@
   },
   {
     "id": 81100494,
-    "idCN": "通用/条件跳转/编队进入动画播完",
+    "idCN": "EP1/条件跳转/编队/进入动画播完",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "isLoop": true,
@@ -9705,7 +9315,7 @@
   },
   {
     "id": 81100043,
-    "idCN": "通用/条件跳转/编队队长设置成功4号位",
+    "idCN": "EP1/条件跳转/编队/队长设置成功4号位",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "isLoop": true,
@@ -9738,26 +9348,8 @@
     "params": "{\"hasOpenThreeView\":false,\"extraUIParamData\":{\"stationId\":83000003,\"cityMapId\":0},\"Current\":\"Chapter\",\"levelId\":20100081,\"callbackPage\":\"\"}"
   },
   {
-    "id": 81100095,
-    "idCN": "通用/条件跳转/主界面激活",
-    "mod": "IFELSE跳转",
-    "isInformalData": false,
-    "isLoop": false,
-    "trueLabel": -1,
-    "falseLabel": 81100651,
-    "keyList": [
-      {
-        "compareType": "EQ",
-        "key": "IsActivated",
-        "num": 1.0,
-        "uiPath": "UI/MainUI/MainUI",
-        "val": ""
-      }
-    ]
-  },
-  {
     "id": 81100096,
-    "idCN": "EP1/条件跳转/城市地图激活",
+    "idCN": "通用/条件跳转/城市地图激活",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "isLoop": false,
@@ -9977,7 +9569,7 @@
   },
   {
     "id": 81100528,
-    "idCN": "通用/条件跳转/强化激活",
+    "idCN": "EP1/条件跳转/装备/强化激活",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "isLoop": false,
@@ -9995,7 +9587,7 @@
   },
   {
     "id": 81100621,
-    "idCN": "通用/条件跳转/装备激活",
+    "idCN": "EP1/条件跳转/装备/装备激活",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "isLoop": false,
@@ -10088,24 +9680,6 @@
     "isShowFinger": false
   },
   {
-    "id": 81100825,
-    "idCN": "通用/条件跳转/平均等级小于7",
-    "mod": "IFELSE跳转",
-    "isInformalData": false,
-    "isLoop": false,
-    "trueLabel": -1,
-    "falseLabel": 81100651,
-    "keyList": [
-      {
-        "compareType": "LT",
-        "key": "AverageLevel",
-        "num": 7.0,
-        "uiPath": "",
-        "val": "0"
-      }
-    ]
-  },
-  {
     "id": 81100826,
     "idCN": "支线/休息区/拉普拉斯协议1",
     "mod": "对话",
@@ -10152,7 +9726,7 @@
   },
   {
     "id": 81100148,
-    "idCN": "通用/条件跳转/获得道具界面激活",
+    "idCN": "通用/条件跳转/休息区/获得道具界面激活",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "isLoop": false,
@@ -10170,7 +9744,7 @@
   },
   {
     "id": 81100259,
-    "idCN": "通用/条件跳转/获得道具界面关闭",
+    "idCN": "通用/条件跳转/休息区/获得道具界面关闭",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "isLoop": true,
@@ -10188,7 +9762,7 @@
   },
   {
     "id": 81100260,
-    "idCN": "通用/条件跳转/任务奖励-关闭",
+    "idCN": "通用/条件跳转/任务奖励/任务奖励-关闭",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "isLoop": true,
@@ -10206,7 +9780,7 @@
   },
   {
     "id": 81100261,
-    "idCN": "通用/条件跳转/任务进度激活",
+    "idCN": "通用/条件跳转/任务奖励/任务进度激活",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "isLoop": false,
@@ -10224,7 +9798,7 @@
   },
   {
     "id": 81100428,
-    "idCN": "通用/条件跳转/任务进度关闭",
+    "idCN": "通用/条件跳转/任务奖励/任务进度关闭",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "isLoop": true,
@@ -10241,86 +9815,14 @@
     ]
   },
   {
-    "id": 81100832,
-    "idCN": "EP1/条件跳转/任务奖励激活2",
-    "mod": "IFELSE跳转",
-    "isInformalData": false,
-    "isLoop": false,
-    "trueLabel": -1,
-    "falseLabel": 81100653,
-    "keyList": [
-      {
-        "compareType": "EQ",
-        "key": "IsActivated",
-        "num": 1.0,
-        "uiPath": "UI/Common/QuestComplete",
-        "val": "Img_Blur"
-      }
-    ]
-  },
-  {
     "id": 81100833,
     "idCN": "通用/标签/失败3",
     "mod": "标签",
     "isInformalData": false
   },
   {
-    "id": 81100834,
-    "idCN": "通用/条件跳转/平均等级小于8",
-    "mod": "IFELSE跳转",
-    "isInformalData": false,
-    "isLoop": false,
-    "trueLabel": -1,
-    "falseLabel": 81100651,
-    "keyList": [
-      {
-        "compareType": "LT",
-        "key": "AverageLevel",
-        "num": 8.0,
-        "uiPath": "",
-        "val": "0"
-      }
-    ]
-  },
-  {
-    "id": 81100835,
-    "idCN": "通用/条件跳转/平均等级小于9",
-    "mod": "IFELSE跳转",
-    "isInformalData": false,
-    "isLoop": false,
-    "trueLabel": -1,
-    "falseLabel": 81100651,
-    "keyList": [
-      {
-        "compareType": "LT",
-        "key": "AverageLevel",
-        "num": 9.0,
-        "uiPath": "",
-        "val": "0"
-      }
-    ]
-  },
-  {
-    "id": 81100837,
-    "idCN": "通用/条件跳转/菲妮娅小于11级",
-    "mod": "IFELSE跳转",
-    "isInformalData": false,
-    "isLoop": false,
-    "trueLabel": -1,
-    "falseLabel": 81100651,
-    "keyList": [
-      {
-        "compareType": "LT",
-        "key": "CharacterLv",
-        "num": 11.0,
-        "uiPath": "",
-        "val": "10000300"
-      }
-    ]
-  },
-  {
     "id": 81100838,
-    "idCN": "通用/条件跳转/菲妮娅在编队中",
+    "idCN": "EP1/条件跳转/菲妮娅在编队中",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "isLoop": false,
@@ -10344,24 +9846,6 @@
     "panelName": "UI/Squads/Squads",
     "btnName": "Squads_Group_Detail_Btn_LevelUp_Click",
     "autoCompletedTime": 5.0
-  },
-  {
-    "id": 81100841,
-    "idCN": "通用/条件跳转/叶珏小于11级",
-    "mod": "IFELSE跳转",
-    "isInformalData": false,
-    "isLoop": false,
-    "trueLabel": -1,
-    "falseLabel": 81100651,
-    "keyList": [
-      {
-        "compareType": "LT",
-        "key": "CharacterLv",
-        "num": 11.0,
-        "uiPath": "",
-        "val": "10000335"
-      }
-    ]
   },
   {
     "id": 81100842,
@@ -10389,7 +9873,7 @@
   },
   {
     "id": 81100844,
-    "idCN": "通用/条件跳转/电力小于1级",
+    "idCN": "EP1/条件跳转/电力/电力小于1级",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "isLoop": false,
@@ -10407,7 +9891,7 @@
   },
   {
     "id": 81100845,
-    "idCN": "通用/条件跳转/电力大于等于10级",
+    "idCN": "EP1/条件跳转/电力/电力大于等于10级",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "isLoop": false,
@@ -10425,7 +9909,7 @@
   },
   {
     "id": 81100846,
-    "idCN": "通用/条件跳转/电力升级弹窗关闭",
+    "idCN": "EP1/条件跳转/电力/电力升级弹窗关闭",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "isLoop": true,
@@ -10500,7 +9984,7 @@
   },
   {
     "id": 81100852,
-    "idCN": "通用/条件跳转/铁安局激活",
+    "idCN": "EP2/条件跳转/铁安局激活",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "isLoop": false,
@@ -10513,24 +9997,6 @@
         "num": 1.0,
         "uiPath": "UI/Home/HomeSafe/HomeSafe",
         "val": ""
-      }
-    ]
-  },
-  {
-    "id": 81100861,
-    "idCN": "通用/条件跳转/叶珏在编队中",
-    "mod": "IFELSE跳转",
-    "isInformalData": false,
-    "isLoop": false,
-    "trueLabel": -1,
-    "falseLabel": 81100651,
-    "keyList": [
-      {
-        "compareType": "EQ",
-        "key": "IsInSquads",
-        "num": 1.0,
-        "uiPath": "",
-        "val": "10000300"
       }
     ]
   },
@@ -10563,13 +10029,6 @@
     "paragraphId": 20700146
   },
   {
-    "id": 81100865,
-    "idCN": "支线/安菲娅/荒原站",
-    "mod": "对话",
-    "isInformalData": false,
-    "paragraphId": 20700328
-  },
-  {
     "id": 81100866,
     "idCN": "支线/安菲娅/铁安局",
     "mod": "对话",
@@ -10594,7 +10053,7 @@
   },
   {
     "id": 81100870,
-    "idCN": "通用/条件跳转/电力升级打开",
+    "idCN": "EP1/条件跳转/电力/电力升级打开",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "isLoop": true,
@@ -10619,7 +10078,7 @@
   },
   {
     "id": 81100872,
-    "idCN": "通用/条件跳转/2-09任务进度",
+    "idCN": "EP2/条件跳转/任务/特殊商店任务进度",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "isLoop": false,
@@ -10637,7 +10096,7 @@
   },
   {
     "id": 81100873,
-    "idCN": "通用/条件跳转/等待角色信息打开",
+    "idCN": "EP1/条件跳转/等待角色信息打开",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "isLoop": true,
@@ -10790,7 +10249,7 @@
   },
   {
     "id": 81100886,
-    "idCN": "通用/条件跳转/未建造过",
+    "idCN": "EP3/条件跳转/整备/未建造过",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "isLoop": false,
@@ -10815,13 +10274,6 @@
     "guideNo": 11
   },
   {
-    "id": 81100887,
-    "idCN": "支线/约书亚/萨特酒馆",
-    "mod": "对话",
-    "isInformalData": false,
-    "paragraphId": 20700157
-  },
-  {
     "id": 81100888,
     "idCN": "EP1/抽卡/确认/高亮-透明",
     "mod": "指定UI高亮",
@@ -10837,55 +10289,10 @@
     "isShowFinger": false
   },
   {
-    "id": 81100889,
-    "idCN": "通用/条件跳转/临时判断安菲娅-成功",
-    "mod": "IFELSE跳转",
-    "isInformalData": false,
-    "isLoop": false,
-    "trueLabel": -1,
-    "falseLabel": 81100923,
-    "keyList": [
-      {
-        "compareType": "EQ",
-        "key": "QuestCompleted",
-        "num": 0.0,
-        "uiPath": "",
-        "val": "81000577"
-      }
-    ]
-  },
-  {
     "id": 81100890,
-    "idCN": "首次进入/12雷比斯-消失了",
-    "mod": "保存面板触发引导序号",
-    "isInformalData": false,
-    "apiName": "",
-    "guideNo": 12
-  },
-  {
-    "id": 81100891,
-    "idCN": "通用/条件跳转/临时判断雷比斯-成功",
-    "mod": "IFELSE跳转",
-    "isInformalData": false,
-    "isLoop": false,
-    "trueLabel": -1,
-    "falseLabel": 81100921,
-    "keyList": [
-      {
-        "compareType": "EQ",
-        "key": "QuestCompleted",
-        "num": 0.0,
-        "uiPath": "",
-        "val": "81000023"
-      }
-    ]
-  },
-  {
-    "id": 81100892,
-    "idCN": "支线/雷比斯/荒原站",
-    "mod": "对话",
-    "isInformalData": false,
-    "paragraphId": 20700158
+    "idCN": "EP1/标签/休息区进度小于2",
+    "mod": "标签",
+    "isInformalData": false
   },
   {
     "id": 81100893,
@@ -10918,26 +10325,8 @@
     "isActive": true
   },
   {
-    "id": 81100897,
-    "idCN": "通用/条件跳转/在车厢里",
-    "mod": "IFELSE跳转",
-    "isInformalData": false,
-    "isLoop": false,
-    "trueLabel": -1,
-    "falseLabel": 81100651,
-    "keyList": [
-      {
-        "compareType": "EQ",
-        "key": "IsActivated",
-        "num": 1.0,
-        "uiPath": "UI/MainUI/MainUI",
-        "val": "Group_Coach"
-      }
-    ]
-  },
-  {
     "id": 81100899,
-    "idCN": "通用/条件跳转/任务奖励-打开",
+    "idCN": "通用/条件跳转/任务奖励/任务奖励-打开",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "isLoop": true,
@@ -11061,7 +10450,7 @@
   },
   {
     "id": 81100907,
-    "idCN": "通用/条件跳转/材料出售-打开",
+    "idCN": "EP3/条件跳转/材料出售-打开",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "isLoop": true,
@@ -11265,52 +10654,14 @@
     "isShowFinger": false
   },
   {
-    "id": 81100921,
-    "idCN": "通用/条件跳转/临时判断雷比斯-失败",
-    "mod": "IFELSE跳转",
-    "isInformalData": false,
-    "isLoop": false,
-    "trueLabel": -1,
-    "falseLabel": 81100651,
-    "keyList": [
-      {
-        "compareType": "EQ",
-        "key": "QuestCompleted",
-        "num": 1.0,
-        "uiPath": "",
-        "val": "81000023"
-      }
-    ]
-  },
-  {
     "id": 81100922,
-    "idCN": "首次进入/12雷比斯",
-    "mod": "保存面板触发引导序号",
-    "isInformalData": false,
-    "apiName": "plot.note",
-    "guideNo": 12
-  },
-  {
-    "id": 81100923,
-    "idCN": "通用/条件跳转/临时判断安菲娅-失败",
-    "mod": "IFELSE跳转",
-    "isInformalData": false,
-    "isLoop": false,
-    "trueLabel": -1,
-    "falseLabel": 81100651,
-    "keyList": [
-      {
-        "compareType": "EQ",
-        "key": "QuestCompleted",
-        "num": 1.0,
-        "uiPath": "",
-        "val": "81000577"
-      }
-    ]
+    "idCN": "EP1/标签/休息区任务未完成",
+    "mod": "标签",
+    "isInformalData": false
   },
   {
     "id": 81100867,
-    "idCN": "通用/条件跳转/开车界面激活",
+    "idCN": "EP1/条件跳转/开车界面激活",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "isLoop": true,
@@ -11335,7 +10686,7 @@
   },
   {
     "id": 81100926,
-    "idCN": "通用/条件跳转/商会任务容错",
+    "idCN": "EP1//条件跳转/商会任务未完成",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "isLoop": false,
@@ -11360,7 +10711,7 @@
   },
   {
     "id": 81100928,
-    "idCN": "通用/条件跳转/前往修格里容错",
+    "idCN": "EP1/条件跳转/前往修格里容错",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "isLoop": false,
@@ -11378,7 +10729,7 @@
   },
   {
     "id": 81100939,
-    "idCN": "通用/条件跳转/能源保障未完成",
+    "idCN": "EP3/条件跳转/能源保障未完成",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "isLoop": false,
@@ -11396,7 +10747,7 @@
   },
   {
     "id": 81100940,
-    "idCN": "通用/条件跳转/货运准备未完成",
+    "idCN": "EP3/条件跳转/货运准备未完成",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "isLoop": false,
@@ -11414,7 +10765,7 @@
   },
   {
     "id": 81100941,
-    "idCN": "通用/条件跳转/扩建列车未完成",
+    "idCN": "EP3/条件跳转/扩建列车未完成",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "isLoop": false,
@@ -11456,7 +10807,7 @@
   },
   {
     "id": 81100944,
-    "idCN": "通用/条件跳转/编队队长不在1号位",
+    "idCN": "EP1/条件跳转/编队/队长不在1号位",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "isLoop": false,
@@ -11474,7 +10825,7 @@
   },
   {
     "id": 81100945,
-    "idCN": "通用/条件跳转/黑月商店-打开",
+    "idCN": "EP1/条件跳转/休息区/黑月商店-打开",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "isLoop": true,
@@ -11568,7 +10919,7 @@
   },
   {
     "id": 81100957,
-    "idCN": "通用/条件跳转/使用道具-打开",
+    "idCN": "EP1/条件跳转/交易所/使用道具-打开",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "isLoop": true,
@@ -11709,7 +11060,7 @@
   },
   {
     "id": 81100802,
-    "idCN": "通用/条件跳转/议价弹窗关闭",
+    "idCN": "EP1/条件跳转/交易所/议价弹窗关闭",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "isLoop": true,
@@ -11727,7 +11078,7 @@
   },
   {
     "id": 81100809,
-    "idCN": "通用/条件跳转/议价弹窗打开",
+    "idCN": "EP1/条件跳转/交易所/议价弹窗打开",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "isLoop": true,
@@ -11758,24 +11109,6 @@
     "mod": "对话",
     "isInformalData": false,
     "paragraphId": 20700117
-  },
-  {
-    "id": 81100948,
-    "idCN": "通用/条件跳转/拥有矿场完成的商会任务",
-    "mod": "IFELSE跳转",
-    "isInformalData": false,
-    "isLoop": false,
-    "trueLabel": -1,
-    "falseLabel": 81100651,
-    "keyList": [
-      {
-        "compareType": "EQ",
-        "key": "IsHaveCOCQuest",
-        "num": 1.0,
-        "uiPath": "",
-        "val": "83000053"
-      }
-    ]
   },
   {
     "id": 81100949,
@@ -11988,7 +11321,7 @@
   },
   {
     "id": 81100970,
-    "idCN": "通用/条件跳转/菲妮娅不在编队中",
+    "idCN": "EP1/条件跳转/菲妮娅不在编队中",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "isLoop": false,
@@ -12020,7 +11353,7 @@
   },
   {
     "id": 81100972,
-    "idCN": "通用/条件跳转/编队没人",
+    "idCN": "EP1/条件跳转/编队/人数没人",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "isLoop": false,
@@ -12038,7 +11371,7 @@
   },
   {
     "id": 81100973,
-    "idCN": "通用/条件跳转/编队没人2",
+    "idCN": "EP1/条件跳转/编队/人数没人2",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "isLoop": false,
@@ -12056,7 +11389,7 @@
   },
   {
     "id": 81100974,
-    "idCN": "通用/条件跳转/编队1人",
+    "idCN": "EP1/条件跳转/编队/人数1人",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "isLoop": false,
@@ -12074,7 +11407,7 @@
   },
   {
     "id": 81100975,
-    "idCN": "通用/条件跳转/编队1人2",
+    "idCN": "EP1/条件跳转/编队/人数1人2",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "isLoop": false,
@@ -12091,26 +11424,8 @@
     ]
   },
   {
-    "id": 81100172,
-    "idCN": "通用/条件跳转/有装备",
-    "mod": "IFELSE跳转",
-    "isInformalData": false,
-    "isLoop": false,
-    "trueLabel": -1,
-    "falseLabel": 81100833,
-    "keyList": [
-      {
-        "compareType": "EQ",
-        "key": "IsActivated",
-        "num": 1.0,
-        "uiPath": "UI/Squads/Squads",
-        "val": "Group_Detail.Group_Equip.StaticGrid_Equip.Group_Equipment_002.Group_Equipment"
-      }
-    ]
-  },
-  {
     "id": 81100641,
-    "idCN": "通用/条件跳转/前往修格里容错2",
+    "idCN": "EP1/条件跳转/前往修格里容错2",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "isLoop": false,
@@ -12135,7 +11450,7 @@
   },
   {
     "id": 81100976,
-    "idCN": "通用/条件跳转/特殊的商店未完成",
+    "idCN": "EP2/条件跳转/任务/特殊的商店未完成",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "isLoop": false,
@@ -12153,7 +11468,7 @@
   },
   {
     "id": 81100978,
-    "idCN": "通用/条件跳转/地下通道进度",
+    "idCN": "EP1/条件跳转/地下通道进度",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "isLoop": false,
@@ -12178,7 +11493,7 @@
   },
   {
     "id": 81100979,
-    "idCN": "通用/条件跳转/地下通道未完成",
+    "idCN": "EP1//条件跳转/任务/地下通道未完成",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "isLoop": false,
@@ -12196,7 +11511,7 @@
   },
   {
     "id": 81100981,
-    "idCN": "通用/条件跳转/判断角色信息未打开",
+    "idCN": "EP1/条件跳转/角色信息未打开",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "isLoop": false,
@@ -12214,7 +11529,7 @@
   },
   {
     "id": 81100980,
-    "idCN": "通用/条件跳转/无装备",
+    "idCN": "EP1/条件跳转/装备/无装备",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "isLoop": false,
@@ -12232,7 +11547,7 @@
   },
   {
     "id": 81100982,
-    "idCN": "通用/条件跳转/等待角色界面打开",
+    "idCN": "EP1/条件跳转/等待角色界面打开",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "isLoop": true,
@@ -12250,7 +11565,7 @@
   },
   {
     "id": 81100983,
-    "idCN": "EP1/条件跳转/城市地图激活2",
+    "idCN": "通用/条件跳转/城市地图激活2",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "isLoop": false,
@@ -12309,7 +11624,7 @@
   },
   {
     "id": 81100001,
-    "idCN": "通用/条件跳转/叶珏不是队长",
+    "idCN": "EP1/条件跳转/叶珏不是队长",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "isLoop": false,
@@ -12327,7 +11642,7 @@
   },
   {
     "id": 81100003,
-    "idCN": "通用/条件跳转/等待设置叶珏队长成功",
+    "idCN": "EP1/条件跳转/等待设置叶珏队长成功",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "isLoop": true,
@@ -12345,7 +11660,7 @@
   },
   {
     "id": 81100004,
-    "idCN": "通用/条件跳转/扩展激活",
+    "idCN": "EP1/条件跳转/交易所/仓库扩展激活",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "isLoop": false,
@@ -13468,7 +12783,7 @@
   },
   {
     "id": 81101041,
-    "idCN": "通用/条件跳转/编组未激活",
+    "idCN": "EP3/条件跳转/整备/编组未激活",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "isLoop": false,
@@ -13486,7 +12801,7 @@
   },
   {
     "id": 81101042,
-    "idCN": "通用/条件跳转/整备界面激活",
+    "idCN": "EP3/条件跳转/整备/整备界面激活",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "isLoop": false,
@@ -13527,5 +12842,81 @@
     "panelName": "UI/Trainfactory/HomeCarriageeditor",
     "btnName": "HomeCarriageeditor_Group_Edit_Btn_EditMode_Click",
     "autoCompletedTime": -1.0
+  },
+  {
+    "id": 81101045,
+    "idCN": "EP1/条件跳转/休息区/逛逛进度等于2",
+    "mod": "IFELSE跳转",
+    "isInformalData": false,
+    "isLoop": false,
+    "trueLabel": -1,
+    "falseLabel": 81100890,
+    "keyList": [
+      {
+        "compareType": "EQ",
+        "key": "QuestProgress",
+        "num": 2.0,
+        "uiPath": "",
+        "val": "81001149"
+      }
+    ]
+  },
+  {
+    "id": 81101046,
+    "idCN": "通用/条件跳转/跳到/跳转1",
+    "mod": "IFELSE跳转",
+    "isInformalData": false,
+    "isLoop": false,
+    "trueLabel": 81101047,
+    "falseLabel": -1,
+    "keyList": []
+  },
+  {
+    "id": 81101047,
+    "idCN": "通用/标签/跳转1",
+    "mod": "标签",
+    "isInformalData": false
+  },
+  {
+    "id": 81101048,
+    "idCN": "通用/标签/跳转2",
+    "mod": "标签",
+    "isInformalData": false
+  },
+  {
+    "id": 81101049,
+    "idCN": "通用/条件跳转/跳到/失败1",
+    "mod": "IFELSE跳转",
+    "isInformalData": false,
+    "isLoop": false,
+    "trueLabel": 81100651,
+    "falseLabel": -1,
+    "keyList": []
+  },
+  {
+    "id": 81101050,
+    "idCN": "EP1/条件跳转/休息区任务已完成",
+    "mod": "IFELSE跳转",
+    "isInformalData": false,
+    "isLoop": false,
+    "trueLabel": -1,
+    "falseLabel": 81100922,
+    "keyList": [
+      {
+        "compareType": "EQ",
+        "key": "QuestCompleted",
+        "num": 1.0,
+        "uiPath": "",
+        "val": "81000713"
+      }
+    ]
+  },
+  {
+    "id": 81101051,
+    "idCN": "首次进入/02休息区容错",
+    "mod": "保存面板触发引导序号",
+    "isInformalData": false,
+    "apiName": "",
+    "guideNo": 2
   }
 ]

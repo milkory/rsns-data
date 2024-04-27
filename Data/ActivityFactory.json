@@ -318,7 +318,7 @@
     "isJoin": true,
     "questId": 81001199,
     "isTime": false,
-    "startTime": "2024-05-25 15:00:00",
+    "startTime": "2024-04-25 15:00:00",
     "endTime": "",
     "rewardEndTime": "",
     "rewardPreviewList": [
@@ -356,6 +356,9 @@
         "id": 11400217
       },
       {
+        "id": 11700078
+      },
+      {
         "id": 11700161
       },
       {
@@ -375,33 +378,23 @@
     "allConstructionList": [
       {
         "construction": 100000000,
-        "id": 80301801,
-        "questId": -1,
-        "tipsId": -1
+        "id": 80301801
       },
       {
         "construction": 200000000,
-        "id": 80301812,
-        "questId": -1,
-        "tipsId": -1
+        "id": 80301812
       },
       {
         "construction": 400000000,
-        "id": 80301813,
-        "questId": -1,
-        "tipsId": -1
+        "id": 80301813
       },
       {
         "construction": 600000000,
-        "id": 80301814,
-        "questId": -1,
-        "tipsId": -1
+        "id": 80301814
       },
       {
         "construction": 800000000,
-        "id": 80301815,
-        "questId": -1,
-        "tipsId": -1
+        "id": 80301815
       },
       {
         "construction": 1000000000,
@@ -492,12 +485,12 @@
     ],
     "constructionEndList": [
       {
-        "id": 11400007,
-        "num": 3
-      },
-      {
         "id": 11400005,
         "num": 300
+      },
+      {
+        "id": 81300273,
+        "num": 1
       },
       {
         "id": 81300352,
@@ -508,10 +501,6 @@
       {
         "icon": "UI/Activity/Construction/AnitaRocketBase/Main/Icon/gangcai",
         "id": 82900084
-      },
-      {
-        "icon": "Item/Goods/Small/mandegongjuxiang",
-        "id": 82900091
       },
       {
         "icon": "UI/Activity/Construction/AnitaRocketBase/Main/Icon/gangjing",
@@ -565,5 +554,127 @@
     "skipStationStart": 83000020,
     "skipStationEnd": 83000010,
     "activityCardPack": 86300003
+  },
+  {
+    "id": 86000004,
+    "idCN": "常驻/列车执照",
+    "mod": "列车执照",
+    "isInformalData": false,
+    "name": "列车执照",
+    "showUI": "Group_LevelReward",
+    "bgPath": "",
+    "bgColor": "FFFFFF",
+    "npcId": 83700053,
+    "helpId": 80301725,
+    "voiceActivity": -1,
+    "correspondingCity": [],
+    "correspondingBuild": [],
+    "isJoin": false,
+    "questId": -1,
+    "isTime": false,
+    "startTime": "2024-03-21 15:00:00",
+    "endTime": "2024-04-11 00:00:00",
+    "rewardEndTime": "",
+    "rewardPreviewList": [],
+    "activityStoreList": [],
+    "joinPlotId": 20700039,
+    "joinQuestId": 81000595,
+    "activityCardPack": 86300001,
+    "levelReward": 99900051,
+    "activityRankList": []
+  },
+  {
+    "id": 86000008,
+    "idCN": "活动签到/火箭基地建设活动签到",
+    "mod": "活动签到",
+    "isInformalData": false,
+    "name": "我造我路",
+    "showUI": "Group_ActivitySignIn",
+    "bgPath": "UI/Activity/Construction/SignIn/BG/BG",
+    "bgColor": "FFFFFF",
+    "npcId": -1,
+    "helpId": -1,
+    "voiceActivity": -1,
+    "correspondingCity": [],
+    "correspondingBuild": [],
+    "isJoin": false,
+    "questId": -1,
+    "isTime": true,
+    "startTime": "2024-04-25 05:00:00",
+    "endTime": "2024-05-06 04:59:00",
+    "rewardEndTime": "2024-05-06 04:59:00",
+    "rewardPreviewList": [],
+    "activityStoreList": [],
+    "joinPlotId": -1,
+    "joinQuestId": -1,
+    "signinId": 40100005,
+    "activityCardPack": -1,
+    "signIcon": "UI/Activity/Construction/SignIn/Title/Icon-Title",
+    "timeLineColor": "895711",
+    "titleColor": "F5EFE8",
+    "daySignedColor": "F0F7FF",
+    "daySignColor": "FEDEAB",
+    "dayAligningType": "4",
+    "signedBG": "UI/Activity/Construction/SignIn/BG/BG-Signed",
+    "signBG": "UI/Activity/Construction/SignIn/BG/BG-Sign",
+    "claimedIcon": "UI/Activity/Construction/SignIn/BG/Icon-Claimed",
+    "unClaimedIcon": "UI/Activity/Construction/SignIn/BG/Icon-Unclaimed",
+    "notTimeBtn": "UI/Activity/Construction/SignIn/Btn-Bottom/Icon-NotTime",
+    "signBtn": "UI/Activity/Construction/SignIn/Btn-Bottom/Icon-Sign",
+    "signedBtn": "UI/Activity/Construction/SignIn/Btn-Bottom/Icon-Signed",
+    "notTimeBottom": "UI/Activity/Construction/SignIn/Btn-Bottom/Btn-NotTime",
+    "signBottom": "UI/Activity/Construction/SignIn/Btn-Bottom/Btn-Sign",
+    "signedBottom": "UI/Activity/Construction/SignIn/Btn-Bottom/Btn-Signed",
+    "signMask": "UI/Activity/Construction/SignIn/BG/Mask-Signed",
+    "rewardBG": "UI/Activity/Construction/SignIn/BG/BG-Item",
+    "rewardSBG": "UI/Activity/Construction/SignIn/BG/BG-ItemSign",
+    "activityRankList": []
+  },
+  {
+    "id": 86000006,
+    "idCN": "活动签到/黄金周活动签到",
+    "mod": "活动签到",
+    "isInformalData": false,
+    "name": "黄金周",
+    "showUI": "Group_ActivitySignIn",
+    "bgPath": "UI/Activity/GoldenWeek/SignIn/bg/bg",
+    "bgColor": "FFFFFF",
+    "npcId": -1,
+    "helpId": -1,
+    "voiceActivity": -1,
+    "correspondingCity": [],
+    "correspondingBuild": [],
+    "isJoin": false,
+    "questId": -1,
+    "isTime": true,
+    "startTime": "2024-04-25 05:00:00",
+    "endTime": "2024-05-07 04:59:00",
+    "rewardEndTime": "2024-05-14 04:59:00",
+    "rewardPreviewList": [],
+    "activityStoreList": [],
+    "joinPlotId": -1,
+    "joinQuestId": -1,
+    "signinId": 40100006,
+    "activityCardPack": -1,
+    "signIcon": "UI/Activity/GoldenWeek/SignIn/Icon-Title",
+    "timeLineColor": "D2784C",
+    "titleColor": "F5EFE8",
+    "daySignedColor": "F0F7FF",
+    "daySignColor": "FFFFFF",
+    "dayAligningType": "3",
+    "signedBG": "UI/Activity/GoldenWeek/SignIn/bg/BG-Signed",
+    "signBG": "UI/Activity/GoldenWeek/SignIn/bg/BG-Sign",
+    "claimedIcon": "UI/Activity/GoldenWeek/SignIn/bg/Icon-Claimed",
+    "unClaimedIcon": "UI/Activity/GoldenWeek/SignIn/bg/Icon-Unclaimed",
+    "notTimeBtn": "UI/Activity/GoldenWeek/SignIn/Bottom/Icon-NotTime",
+    "signBtn": "UI/Activity/GoldenWeek/SignIn/Bottom/Icon-Sign",
+    "signedBtn": "UI/Activity/GoldenWeek/SignIn/Bottom/Icon-Signed",
+    "notTimeBottom": "UI/Activity/GoldenWeek/SignIn/Bottom/Btn-NotTime",
+    "signBottom": "UI/Activity/GoldenWeek/SignIn/Bottom/Btn-Sign",
+    "signedBottom": "UI/Activity/GoldenWeek/SignIn/Bottom/Btn-Signed",
+    "signMask": "",
+    "rewardBG": "UI/Activity/GoldenWeek/SignIn/bg/BG-ItemSign",
+    "rewardSBG": "UI/Activity/GoldenWeek/SignIn/bg/BG-ItemSign",
+    "activityRankList": []
   }
 ]

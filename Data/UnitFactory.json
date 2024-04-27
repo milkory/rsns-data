@@ -5572,6 +5572,7 @@
     "totalCardNum": 5,
     "skillMin": 5,
     "homeCharacter": 70000008,
+    "stationStoreCharacter": -1,
     "gotoBed": true,
     "isDoctor": false,
     "medicalPoint": 0,
@@ -21018,6 +21019,9 @@
     "skinList": [
       {
         "unitViewId": 11000091
+      },
+      {
+        "unitViewId": 11000313
       }
     ],
     "sideId": 12600031,
@@ -21037,10 +21041,13 @@
       },
       {
         "tagId": 12600067
+      },
+      {
+        "tagId": 12601118
       }
     ],
     "passiveSkillList": [],
-    "hp_SN": 80000000,
+    "hp_SN": 84000000,
     "def_SN": 840000,
     "atk_SN": 840000,
     "atkSpeed_SN": 1000000,
@@ -21060,7 +21067,7 @@
         "skillId": 12300055
       },
       {
-        "num": 1,
+        "num": 2,
         "skillId": 12300056
       },
       {
@@ -21068,7 +21075,11 @@
         "skillId": 12300072
       }
     ],
-    "noUpgradeSkillList": [],
+    "noUpgradeSkillList": [
+      {
+        "skillId": 12301616
+      }
+    ],
     "equipmentSlotList": [
       {
         "tagID": 12600155
@@ -21188,6 +21199,7 @@
     "totalCardNum": 5,
     "skillMin": 5,
     "homeCharacter": 70000042,
+    "stationStoreCharacter": -1,
     "gotoBed": true,
     "isDoctor": false,
     "medicalPoint": 0,
@@ -21714,7 +21726,6 @@
     "hitAreaY_SN": 9000,
     "hitAreaHalfWidth_SN": 10000,
     "hitAreaHalfHeight_SN": 9000,
-    "battleDes": "",
     "safeInformation": "如同背负着结晶的巨大爬虫一般，相比一般桦树生物攻击手段比较单一，但是自爆的时候会释放危险的能量。",
     "unitInformation": "小型桦树生物，通常多只或成群出现，缺少一般有效攻击方式，但会通过自爆方式进行攻击。爆炸后释放的能量对人类的伤害极大。",
     "enemyDrop": [
@@ -28617,6 +28628,9 @@
     "skinList": [
       {
         "unitViewId": 11000195
+      },
+      {
+        "unitViewId": 11000325
       }
     ],
     "sideId": 12600027,
@@ -29513,6 +29527,7 @@
     "hitAreaY_SN": 10000,
     "hitAreaHalfWidth_SN": 5000,
     "hitAreaHalfHeight_SN": 10000,
+    "battleDes": "",
     "safeInformation": "力量得到强化的深眠者。防御效果大幅提升，近乎无敌；盾牌的威胁范围进一步增加。",
     "unitInformation": "“深眠者”……如果还能这样称呼她的话。各项数值上已经超越了迄今为止所有有记录的“深眠者”。异变不仅仅局限于面具，四肢都隐约可见木质的增生和纹理，再度提升的各项能力让她的攻势更为狂暴。不间断的呓语如同死神在耳边呼唤，使得对抗者的精神和肉体都遭受着折磨。",
     "enemyDrop": [
@@ -45677,7 +45692,7 @@
     "hitAreaHalfHeight_SN": 15000,
     "battleDes": "",
     "safeInformation": "山野桦树生物中极度强大的个体，能够影响人类的精神，施加【灼心】【狂暴】等效果。其护甲具有防御和反弹攻击作用，在其进入防御姿态时需格外注意。",
-    "unitInformation": "外形奇异的桦树生物，其反弹伤害的能力得益于那身近似于拼凑而成的护甲。为此强大个体命名时，研究者们似乎对最新发布的桦树生物命名规则产生了一些争议……\\n攻击会造成【斩裂】、【灼心】、【打断】等效果。技能“躁乱波纹”有概率在施加负能伤害的同时施加【狂暴】效果，并根据狂暴单位数量吸取我方费用进行充能，如施加【狂暴】失败则会改为施加【混乱】效果。能够蜷缩防御，防御期间每受到一定次数伤害就会累积怒气，每层怒气均会使其自身防御力下降、攻击力提升。怒气积累一定层数或防御时间结束后，根据怒气层数，对我方全部单位造成一次负能伤害并施加【重伤】。",
+    "unitInformation": "外形奇异的桦树生物，其反弹伤害的能力得益于那身近似于拼凑而成的护甲。为此强大个体命名时，研究者们似乎对最新发布的桦树生物命名规则产生了一些争议……\\n攻击会造成【斩裂】、【灼心】、【打断】等效果。技能“躁乱波纹”有概率在施加负能伤害的同时触发【狂暴】或【混乱】，并根据【狂暴】单位的数量吸取我方费用进行充能。能够蜷缩防御，防御期间每受到一定次数伤害将会积累怒气，每层怒气均会使其自身防御力下降、攻击力提升。当怒气积累到一定层数或蜷缩防御时间结束后，根据怒气层数，对我方全体造成一次负能伤害同时触发【重伤】。",
     "enemyDrop": [
       {
         "id": 11700189
@@ -47667,13 +47682,22 @@
         "skillId": 12301411
       },
       {
-        "skillId": 12301428
+        "skillId": 12301431
+      },
+      {
+        "skillId": 12301410
       },
       {
         "skillId": 12301369
       },
       {
-        "skillId": 12301439
+        "skillId": 12301432
+      },
+      {
+        "skillId": 12301413
+      },
+      {
+        "skillId": 12301618
       },
       {
         "skillId": 12300508
@@ -47682,7 +47706,7 @@
         "skillId": 12300879
       }
     ],
-    "hp_SN": 1640000000,
+    "hp_SN": 1650000000,
     "def_SN": 650000,
     "atk_SN": 800000,
     "atkSpeed_SN": 800000,
@@ -47759,7 +47783,7 @@
     "hitAreaHalfHeight_SN": 20000,
     "battleDes": "",
     "safeInformation": "劫掠者的头领，以多功能轮锯作为武器。能造成电磁和火焰伤害，伴有多种负面效果。战斗意志顽强，濒死时触发【不灭的火种】。",
-    "unitInformation": "劫掠者团伙的首领，装备了精良的外部装甲，具有强烈的战斗意志。与其他劫掠者相比，他的武装程度更为夸张，可以说是武装到了牙缝儿。使用的武器是由阿妮塔出品的桦石开采装置改造而来。以多功能轮锯作为主要攻击手段，能对多个目标造成物理伤害。轮锯高速运转时能发射冲击弹，对我方全体角色造成电磁伤害，并出发引雷效果；当将轮锯作为近距离武器使用时，能对范围内我方角色造成火焰伤害并造成击飞，并有概率造成点燃效果。\\n【不灭的火种】：当其濒死时，触发无敌效果，回复所有体力，并对整个场景造成【火海】，免疫控制且技能触发加快，但处于此状态时将每秒按比率损失体力。该效果至多触发三次，每次回复的体力按比递减。",
+    "unitInformation": "劫掠者团伙的首领，装备了精良的外部装甲，具有强烈的战斗意志。与其他劫掠者相比，他的武装程度更为夸张，可以说是武装到了牙缝儿。使用的武器是由阿妮塔出品的桦石开采装置改造而来。以多功能轮锯作为主要攻击手段，能对多个目标造成物理伤害。轮锯高速运转时能发射冲击弹，对我方全体角色造成电磁伤害，同时触发【引雷】；当将轮锯作为近距离武器使用时，能对范围内我方角色造成火焰伤害并【击飞】，同时有概率触发【点燃】。\\n【不灭的火种】：濒死时【无敌】并回复自身全部生命值，同时对全场造成【火海】。处于此状态时，驱散并免疫控制效果且技能释放频率加快，同时每秒损失自身生命值。该效果至多触发3次，每次回复的生命值递减。",
     "enemyDrop": [],
     "abilityList": [
       {
@@ -47787,6 +47811,9 @@
     "weaknessList": [
       {
         "id": 12600993
+      },
+      {
+        "id": 12600974
       }
     ],
     "resistanceList": [
@@ -48393,10 +48420,10 @@
   },
   {
     "id": 10000261,
-    "idCN": "敌方/03劫掠者/劫掠者·执电·换色",
+    "idCN": "敌方/03劫掠者/劫掠者·掌火",
     "mod": "敌方角色",
     "isInformalData": false,
-    "name": "劫掠者·执电",
+    "name": "劫掠者·掌火",
     "EnglishName": "",
     "viewId": 11000027,
     "skinList": [],
@@ -48424,7 +48451,7 @@
         "skillId": 12301428
       },
       {
-        "skillId": 12300445
+        "skillId": 12301242
       }
     ],
     "hp_SN": 135000000,
@@ -48503,22 +48530,37 @@
     "hitAreaHalfWidth_SN": 10000,
     "hitAreaHalfHeight_SN": 20000,
     "battleDes": "",
-    "safeInformation": "",
-    "unitInformation": "",
+    "safeInformation": "全副武装的劫掠者，是劫掠者中难得一见的升构者，其升构能力表现为火焰。未持有武器，但可以使用升构能力发起攻击。",
+    "unitInformation": "全副武装的劫掠者，能够使用与火焰有关的升构能力。",
     "enemyDrop": [],
-    "abilityList": [],
-    "weaknessList": [],
-    "resistanceList": [],
+    "abilityList": [
+      {
+        "id": 12600930
+      }
+    ],
+    "weaknessList": [
+      {
+        "id": 12600993
+      }
+    ],
+    "resistanceList": [
+      {
+        "id": 12600962
+      },
+      {
+        "id": 12600989
+      }
+    ],
     "enemyType": 12601047,
     "enemyCamp": 12601045,
     "enemyBookId": 10000457
   },
   {
     "id": 10000260,
-    "idCN": "敌方/03劫掠者/劫掠者·执锤·换色",
+    "idCN": "敌方/03劫掠者/劫掠者·掌锤",
     "mod": "敌方角色",
     "isInformalData": false,
-    "name": "劫掠者·执锤",
+    "name": "劫掠者·掌锤",
     "EnglishName": "",
     "viewId": 11000019,
     "skinList": [],
@@ -48544,6 +48586,9 @@
       },
       {
         "skillId": 12301428
+      },
+      {
+        "skillId": 12300445
       }
     ],
     "hp_SN": 165000000,
@@ -48622,12 +48667,30 @@
     "hitAreaHalfWidth_SN": 10000,
     "hitAreaHalfHeight_SN": 20000,
     "battleDes": "",
-    "safeInformation": "",
-    "unitInformation": "",
+    "safeInformation": "全副武装的劫掠者，体型健硕，双手持握长柄钉锤，造成电磁伤害。蓄力后对附带电流的锤击能让所有靠近的敌人遭受强烈的震荡并眩晕。",
+    "unitInformation": "全副武装的劫掠者，以电磁伤害为主要攻击手段，能造成范围击晕效果。",
     "enemyDrop": [],
-    "abilityList": [],
-    "weaknessList": [],
-    "resistanceList": [],
+    "abilityList": [
+      {
+        "id": 12600936
+      },
+      {
+        "id": 12600923
+      }
+    ],
+    "weaknessList": [
+      {
+        "id": 12600993
+      }
+    ],
+    "resistanceList": [
+      {
+        "id": 12600962
+      },
+      {
+        "id": 12600991
+      }
+    ],
     "enemyType": 12601047,
     "enemyCamp": 12601045,
     "enemyBookId": 10000438
@@ -48771,10 +48834,10 @@
   },
   {
     "id": 10000263,
-    "idCN": "敌方/03劫掠者/劫掠者·执火·换色",
+    "idCN": "敌方/03劫掠者/劫掠者·掌冰",
     "mod": "敌方角色",
     "isInformalData": false,
-    "name": "劫掠者·执火",
+    "name": "劫掠者·掌冰",
     "EnglishName": "",
     "viewId": 11000309,
     "skinList": [],
@@ -48802,7 +48865,7 @@
         "skillId": 12301428
       },
       {
-        "skillId": 12301242
+        "skillId": 12301426
       }
     ],
     "hp_SN": 150000000,
@@ -48881,12 +48944,27 @@
     "hitAreaHalfWidth_SN": 15000,
     "hitAreaHalfHeight_SN": 20000,
     "battleDes": "",
-    "safeInformation": "",
-    "unitInformation": "",
+    "safeInformation": "全副武装的劫掠者，体型健硕，以改装后能喷射冰冻气流的喷枪作为主要武器。非法改装后的喷枪可以短暂锁定在原地眩晕的敌人，释放镭射火柱，对于非眩晕状态的敌人则因难以锁定而无法生效。",
+    "unitInformation": "全副武装的劫掠者，持用冰冻喷枪。能够锁定被眩晕的敌人集中喷射火焰。",
     "enemyDrop": [],
-    "abilityList": [],
-    "weaknessList": [],
-    "resistanceList": [],
+    "abilityList": [
+      {
+        "id": 12600927
+      }
+    ],
+    "weaknessList": [
+      {
+        "id": 12600993
+      }
+    ],
+    "resistanceList": [
+      {
+        "id": 12600992
+      },
+      {
+        "id": 12600962
+      }
+    ],
     "enemyType": 12601047,
     "enemyCamp": 12601045,
     "enemyBookId": 10000002
@@ -49016,10 +49094,10 @@
   },
   {
     "id": 10000265,
-    "idCN": "敌方/03劫掠者/劫掠者·执剑·换色",
+    "idCN": "敌方/03劫掠者/劫掠者·掌剑",
     "mod": "敌方角色",
     "isInformalData": false,
-    "name": "劫掠者·执剑",
+    "name": "劫掠者·掌剑",
     "EnglishName": "",
     "viewId": 11000032,
     "skinList": [],
@@ -49045,6 +49123,9 @@
       },
       {
         "skillId": 12301428
+      },
+      {
+        "skillId": 12300445
       }
     ],
     "hp_SN": 150000000,
@@ -49123,12 +49204,30 @@
     "hitAreaHalfWidth_SN": 15000,
     "hitAreaHalfHeight_SN": 20000,
     "battleDes": "",
-    "safeInformation": "",
-    "unitInformation": "",
+    "safeInformation": "全副武装的劫掠者。在大剑上附加了喷火装置，能够造成火焰伤害。经过改装的臂甲可以强力地控制住敌人，使其动弹不得。",
+    "unitInformation": "全副武装的劫掠者，使用会造成火焰伤害的大剑。臂甲可以对敌人起到控制效果。",
     "enemyDrop": [],
-    "abilityList": [],
-    "weaknessList": [],
-    "resistanceList": [],
+    "abilityList": [
+      {
+        "id": 12600929
+      },
+      {
+        "id": 12600923
+      }
+    ],
+    "weaknessList": [
+      {
+        "id": 12600993
+      }
+    ],
+    "resistanceList": [
+      {
+        "id": 12600991
+      },
+      {
+        "id": 12600962
+      }
+    ],
     "enemyType": 12601047,
     "enemyCamp": 12601045,
     "enemyBookId": 10000456
@@ -49181,7 +49280,7 @@
         "skillId": 12301446
       },
       {
-        "skillId": 12301432
+        "skillId": 12301370
       },
       {
         "skillId": 12301368
@@ -49289,7 +49388,7 @@
     "isInformalData": false,
     "name": "裂首骨龙",
     "EnglishName": "Amphi-Archaeodraco",
-    "viewId": 11000267,
+    "viewId": 11000312,
     "skinList": [],
     "sideId": 12600919,
     "controllerId": 10300338,
@@ -49333,7 +49432,7 @@
         "skillId": 12301446
       },
       {
-        "skillId": 12301432
+        "skillId": 12301370
       },
       {
         "skillId": 12301368
@@ -49471,6 +49570,9 @@
         "id": 12601002
       },
       {
+        "id": 12600978
+      },
+      {
         "id": 12600993
       }
     ],
@@ -49492,9 +49594,6 @@
       },
       {
         "id": 12600969
-      },
-      {
-        "id": 12600989
       }
     ],
     "enemyType": 12601048,
@@ -49538,11 +49637,29 @@
       },
       {
         "skillId": 12300016
+      },
+      {
+        "skillId": 12301506
+      },
+      {
+        "skillId": 12300936
+      },
+      {
+        "skillId": 12301367
+      },
+      {
+        "skillId": 12301369
+      },
+      {
+        "skillId": 12301371
+      },
+      {
+        "skillId": 12301413
       }
     ],
-    "hp_SN": 1440000000,
-    "def_SN": 720000,
-    "atk_SN": 720000,
+    "hp_SN": 2400000000,
+    "def_SN": 800000,
+    "atk_SN": 800000,
     "atkSpeed_SN": 1000000,
     "luck_SN": 0,
     "spName": "",
@@ -49634,20 +49751,44 @@
     ],
     "abilityList": [
       {
-        "id": 12601010
+        "id": 12600924
       },
       {
-        "id": 12601005
+        "id": 12600929
+      },
+      {
+        "id": 12600936
+      },
+      {
+        "id": 12600939
+      },
+      {
+        "id": 12600906
+      },
+      {
+        "id": 12600941
+      },
+      {
+        "id": 12600949
       }
     ],
     "weaknessList": [
       {
         "id": 12600978
+      },
+      {
+        "id": 12600988
       }
     ],
     "resistanceList": [
       {
         "id": 12600972
+      },
+      {
+        "id": 12600990
+      },
+      {
+        "id": 12600991
       },
       {
         "id": 12600992
@@ -49906,6 +50047,9 @@
       },
       {
         "tagId": 12601085
+      },
+      {
+        "tagId": 12601115
       }
     ],
     "passiveSkillList": [
@@ -49986,7 +50130,7 @@
     "hitPointY_SN": 15000,
     "hitAreaX_SN": 0,
     "hitAreaY_SN": 15000,
-    "hitAreaHalfWidth_SN": 11000,
+    "hitAreaHalfWidth_SN": 8000,
     "hitAreaHalfHeight_SN": 15000,
     "battleDes": "",
     "safeInformation": "",
@@ -50266,7 +50410,7 @@
       }
     ],
     "passiveSkillList": [],
-    "hp_SN": 80000000,
+    "hp_SN": 84000000,
     "def_SN": 840000,
     "atk_SN": 840000,
     "atkSpeed_SN": 1000000,
@@ -50497,7 +50641,7 @@
         "unitViewId": 11000322
       }
     ],
-    "sideId": 12600026,
+    "sideId": 12600035,
     "controllerId": 10300365,
     "bulletControllerList": [],
     "isBoss": false,
@@ -50630,7 +50774,7 @@
     "actionKnockUpID": -1,
     "actionStunID": 10102842,
     "actionDeadID": 10102732,
-    "actionVictoryID": 10102911,
+    "actionVictoryID": 10102921,
     "hitPointX_SN": 0,
     "hitPointY_SN": 15000,
     "hitAreaX_SN": 0,
@@ -50643,20 +50787,20 @@
         "num": 10
       }
     ],
-    "isSpine2": 0,
+    "isSpine2": 1,
     "homeSkillList": [
       {
-        "id": 83900122,
+        "id": 83900086,
         "nextIndex": 3,
         "resonanceLv": 1
       },
       {
-        "id": 83900076,
+        "id": 83900002,
         "nextIndex": 0,
         "resonanceLv": 4
       },
       {
-        "id": 83900123,
+        "id": 83900163,
         "nextIndex": -1,
         "resonanceLv": 5
       }
@@ -50672,7 +50816,7 @@
     "WasteCoefficient": 1.0,
     "FoodList": [
       {
-        "id": -1,
+        "id": 83300002,
         "letter": "哎呀做饭太麻烦了！弄熟就差不多行了吧！",
         "weight": 1
       }
@@ -50702,14 +50846,18 @@
       }
     ],
     "age": 0,
-    "gender": "",
-    "birthday": "1月1日",
-    "height": "150",
-    "birthplace": "",
-    "ability": "",
-    "identity": "",
+    "gender": "女",
+    "birthday": "3月3日",
+    "height": "165cm",
+    "birthplace": "贡露城",
+    "ability": "无",
+    "identity": "园丁·列车武装技师",
     "basic": "",
-    "ResumeList": [],
+    "ResumeList": [
+      {
+        "des": "只要是经常出入曼德矿场的列车武装工厂的人，都会对这位金色头发的女孩儿有点印象。对于灰头土脸的列车技师来说过于惹眼的金色长发，明艳的挑染、夸张前卫的服装风格，清亮的大嗓门儿……这些鲜明的特征让苔妮成为了列车武器工厂的招牌。但与此同时，她也是这儿的头号技术员。只要一声呼唤，她就会从堆积如山的工具和半成品中出现，为拜访此处的列车长排忧解难。"
+      }
+    ],
     "StoryList": [],
     "CvName": "",
     "getCharacter": "",
@@ -51001,5 +51149,239 @@
     "enemyType": 12601048,
     "enemyCamp": 12601044,
     "enemyBookId": 10000278
+  },
+  {
+    "id": 10000279,
+    "idCN": "桦树生物/荒古/雷竿虫",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "雷竿虫",
+    "EnglishName": "",
+    "viewId": 11000327,
+    "skinList": [],
+    "sideId": 12601084,
+    "controllerId": 10300369,
+    "bulletControllerList": [],
+    "isBoss": false,
+    "bossHpTemp": -1,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      }
+    ],
+    "passiveSkillList": [],
+    "hp_SN": 110000000,
+    "def_SN": 570000,
+    "atk_SN": 630000,
+    "atkSpeed_SN": 500000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000378,
+    "growthTagList": [
+      {
+        "growthTagId": 12000112
+      },
+      {
+        "growthTagId": 12000097
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800292
+      },
+      {
+        "talentId": 12800293
+      },
+      {
+        "talentId": 12800294
+      },
+      {
+        "talentId": 12800295
+      },
+      {
+        "talentId": 12800296
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10102958,
+    "actionMoveID": 10102967,
+    "actionAttackedID": 10102964,
+    "actionAttackedBackID": 10102965,
+    "actionKnockUpID": -1,
+    "actionStunID": 10102960,
+    "actionDeadID": 10102966,
+    "actionVictoryID": -1,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 15000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 15000,
+    "hitAreaHalfWidth_SN": 11000,
+    "hitAreaHalfHeight_SN": 8000,
+    "battleDes": "",
+    "safeInformation": "",
+    "unitInformation": "",
+    "enemyDrop": [],
+    "abilityList": [
+      {
+        "id": 12600923
+      }
+    ],
+    "weaknessList": [],
+    "resistanceList": [],
+    "enemyType": 12601046,
+    "enemyCamp": 12601044,
+    "enemyBookId": -1
+  },
+  {
+    "id": 10000280,
+    "idCN": "桦树生物/荒古/雷球母",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "雷球母",
+    "EnglishName": "",
+    "viewId": 11000328,
+    "skinList": [],
+    "sideId": 12601084,
+    "controllerId": 10300370,
+    "bulletControllerList": [],
+    "isBoss": false,
+    "bossHpTemp": -1,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12601085
+      },
+      {
+        "tagId": 12601117
+      }
+    ],
+    "passiveSkillList": [],
+    "hp_SN": 110000000,
+    "def_SN": 570000,
+    "atk_SN": 630000,
+    "atkSpeed_SN": 500000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000379,
+    "growthTagList": [
+      {
+        "growthTagId": 12000112
+      },
+      {
+        "growthTagId": 12000097
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800292
+      },
+      {
+        "talentId": 12800293
+      },
+      {
+        "talentId": 12800294
+      },
+      {
+        "talentId": 12800295
+      },
+      {
+        "talentId": 12800296
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10102970,
+    "actionMoveID": 10102979,
+    "actionAttackedID": 10102976,
+    "actionAttackedBackID": 10102977,
+    "actionKnockUpID": -1,
+    "actionStunID": 10102971,
+    "actionDeadID": 10102978,
+    "actionVictoryID": -1,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 15000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 15000,
+    "hitAreaHalfWidth_SN": 15000,
+    "hitAreaHalfHeight_SN": 8000,
+    "battleDes": "",
+    "safeInformation": "",
+    "unitInformation": "",
+    "enemyDrop": [],
+    "abilityList": [],
+    "weaknessList": [],
+    "resistanceList": [],
+    "enemyType": 12601046,
+    "enemyCamp": 12601044,
+    "enemyBookId": -1
   }
 ]

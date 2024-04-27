@@ -3365,7 +3365,7 @@
   },
   {
     "id": 80600546,
-    "idCN": "00NPC对话/交易所/符游/打开交易所/寒暄1",
+    "idCN": "00NPC对话/交易所/符游/进入交易所/寒暄1",
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "就算你的穿搭看起来不怎么样，但作为科伦巴商会的成员，可以享受3个点的税收优惠！可要感谢这座城市与科伦巴之间的合作关系。",
@@ -3378,7 +3378,7 @@
   },
   {
     "id": 80600547,
-    "idCN": "00NPC对话/交易所/符游/打开交易所/寒暄2",
+    "idCN": "00NPC对话/交易所/符游/进入交易所/寒暄2",
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "我不反感和列车长做生意，因为四处奔波的你们总比普通人有见识些。"
@@ -3495,7 +3495,13 @@
     "idCN": "00NPC对话/交易所/符游/卖出/出售页签/出售页签1",
     "mod": "NPC对话",
     "isInformalData": false,
-    "text": "我很乐意见识一下你能带来什么好东西。"
+    "text": "我很乐意见识一下你能带来什么好东西。",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
   },
   {
     "id": 80600561,
@@ -3554,28 +3560,28 @@
   },
   {
     "id": 80600568,
-    "idCN": "00NPC对话/交易所/符游/打开交易所/寒暄3",
+    "idCN": "00NPC对话/交易所/符游/进入交易所/寒暄3",
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "你在七号自由港的活跃我也有所耳闻，继续好好干吧。"
   },
   {
     "id": 80600569,
-    "idCN": "00NPC对话/交易所/符游/打开交易所/寒暄4",
+    "idCN": "00NPC对话/交易所/符游/进入交易所/寒暄4",
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "欢迎，就算是在我的投资生涯中，和你的交易也绝对称得上成功。"
   },
   {
     "id": 80600570,
-    "idCN": "00NPC对话/交易所/符游/打开交易所/寒暄5",
+    "idCN": "00NPC对话/交易所/符游/进入交易所/寒暄5",
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "你的名气在这里几乎是无人不知，我猜在别的城市你也干得不错。"
   },
   {
     "id": 80600571,
-    "idCN": "00NPC对话/交易所/符游/打开交易所/寒暄6",
+    "idCN": "00NPC对话/交易所/符游/进入交易所/寒暄6",
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "也许你的眼界已经超过我了？我可期待着你能给我见识些有趣的东西。"
@@ -3585,21 +3591,39 @@
     "idCN": "00NPC对话/交易所/幼浅/交谈/家族故事/家族故事1",
     "mod": "NPC对话",
     "isInformalData": false,
-    "text": "……咳，列车长，根据你的行驶路线来说，之后大概率会经过贡露城吧？"
+    "text": "……咳，列车长，根据你的行驶路线来说，之后大概率会经过贡露城吧？",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
   },
   {
     "id": 80600573,
     "idCN": "00NPC对话/交易所/幼浅/交谈/家族故事/家族故事2",
     "mod": "NPC对话",
     "isInformalData": false,
-    "text": "你要是去了贡露城，也去一趟那里的交易所吧。什么？你这话说的，怎么能叫惦记你的钱呢！"
+    "text": "你要是去了贡露城，也去一趟那里的交易所吧。什么？你这话说的，怎么能叫惦记你的钱呢！",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
   },
   {
     "id": 80600574,
     "idCN": "00NPC对话/交易所/幼浅/交谈/家族故事/家族故事3",
     "mod": "NPC对话",
     "isInformalData": false,
-    "text": "不过是……嗯，那儿的老板娘和我是从小一起长大的朋友，咱这不是关心朋友的近况么。"
+    "text": "不过是……嗯，那儿的老板娘和我是从小一起长大的朋友，咱这不是关心朋友的近况么。",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
   },
   {
     "id": 80600453,
@@ -5205,59 +5229,107 @@
   },
   {
     "id": 80600761,
-    "idCN": "00NPC对话/交易所/幼浅/打开交易所/寒暄1",
+    "idCN": "00NPC对话/交易所/幼浅/进入交易所/寒暄1",
     "mod": "NPC对话",
     "isInformalData": false,
-    "text": "客人您一进门我就知道，今天是个适合做买卖的好日子。"
+    "text": "客人您一进门我就知道，今天是个适合做买卖的好日子。",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
   },
   {
     "id": 80600762,
-    "idCN": "00NPC对话/交易所/幼浅/打开交易所/寒暄2",
+    "idCN": "00NPC对话/交易所/幼浅/进入交易所/寒暄2",
     "mod": "NPC对话",
     "isInformalData": false,
-    "text": "看我手上这指环，不错吧？尽管多看几眼，这成色可不多见。"
+    "text": "看我手上这指环，不错吧？尽管多看几眼，这成色可不多见。",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
   },
   {
     "id": 80600763,
-    "idCN": "00NPC对话/交易所/幼浅/打开交易所/寒暄3",
+    "idCN": "00NPC对话/交易所/幼浅/进入交易所/寒暄3",
     "mod": "NPC对话",
     "isInformalData": false,
-    "text": "你来了？我进了些好货，就特别给你先看吧！"
+    "text": "你来了？我进了些好货，就特别给你先看吧！",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
   },
   {
     "id": 80600764,
-    "idCN": "00NPC对话/交易所/幼浅/打开交易所/寒暄4",
+    "idCN": "00NPC对话/交易所/幼浅/进入交易所/寒暄4",
     "mod": "NPC对话",
     "isInformalData": false,
-    "text": "你这段时间可是相当活跃啊，有关你的事情我听得耳朵都快起茧子了。"
+    "text": "你这段时间可是相当活跃啊，有关你的事情我听得耳朵都快起茧子了。",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
   },
   {
     "id": 80600766,
-    "idCN": "00NPC对话/交易所/幼浅/打开交易所/寒暄5",
+    "idCN": "00NPC对话/交易所/幼浅/进入交易所/寒暄5",
     "mod": "NPC对话",
     "isInformalData": false,
-    "text": "哎哟，咱们的大忙人来了？看你忙得脚不沾地，要不要坐下喝点茶？"
+    "text": "哎哟，咱们的大忙人来了？看你忙得脚不沾地，要不要坐下喝点茶？",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
   },
   {
     "id": 80600802,
-    "idCN": "00NPC对话/交易所/幼浅/打开交易所/寒暄6",
+    "idCN": "00NPC对话/交易所/幼浅/进入交易所/寒暄6",
     "mod": "NPC对话",
     "isInformalData": false,
-    "text": "平时多亏了你照顾我的生意，有什么我帮得上忙的？"
+    "text": "平时多亏了你照顾我的生意，有什么我帮得上忙的？",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
   },
   {
     "id": 80600803,
     "idCN": "00NPC对话/交易所/幼浅/交谈/站点限定情报/情报1",
     "mod": "NPC对话",
     "isInformalData": false,
-    "text": "说到修格里那就少不了要提他们的家电，听说连希斯·戴维家里用的电视机都是修格里出产的。"
+    "text": "说到修格里那就少不了要提他们的家电，听说连希斯·戴维家里用的电视机都是修格里出产的。",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
   },
   {
     "id": 80600804,
     "idCN": "00NPC对话/交易所/幼浅/交谈/站点限定情报/情报2",
     "mod": "NPC对话",
     "isInformalData": false,
-    "text": "最近修格里的农产品协会正在讨论是否要制定新的土豆出口标准……我已经闻到了商机的味道。"
+    "text": "最近修格里的农产品协会正在讨论是否要制定新的土豆出口标准……我已经闻到了商机的味道。",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
   },
   {
     "id": 80600805,
@@ -5332,7 +5404,7 @@
     "playerNameString": "{playername}",
     "stationString": "{station}",
     "goodsString": "{goods}",
-    "noDataString": "一切买卖我都欢迎，买卖买卖，有买就有卖——这次你打算给我看点什么好东西？"
+    "noDataString": "......"
   },
   {
     "id": 80600814,
@@ -5400,46 +5472,47 @@
     "replaceType": "Rise",
     "playerNameString": "{playername}",
     "stationString": "{station}",
-    "goodsString": "{goods}"
+    "goodsString": "{goods}",
+    "noDataString": "一切买卖我都欢迎，买卖买卖，有买就有卖——这次你打算给我看点什么好东西？"
   },
   {
     "id": 80600823,
-    "idCN": "00NPC对话/交易所/图浩/打开交易所/寒暄1",
+    "idCN": "00NPC对话/交易所/图浩/进入交易所/寒暄1",
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "欢迎欢迎，这位列车长！来买点什么吧！"
   },
   {
     "id": 80600824,
-    "idCN": "00NPC对话/交易所/图浩/打开交易所/寒暄2",
+    "idCN": "00NPC对话/交易所/图浩/进入交易所/寒暄2",
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "咱身上可能有点机油味，别介意哈！经常鼓捣那些玩意在所难免。"
   },
   {
     "id": 80600825,
-    "idCN": "00NPC对话/交易所/图浩/打开交易所/寒暄3",
+    "idCN": "00NPC对话/交易所/图浩/进入交易所/寒暄3",
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "正好，我折腾了个厉害的新家伙，交易之前要不先来看看？"
   },
   {
     "id": 80600826,
-    "idCN": "00NPC对话/交易所/图浩/打开交易所/寒暄4",
+    "idCN": "00NPC对话/交易所/图浩/进入交易所/寒暄4",
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "看你那么卖力，咱也不能落下，一定要准备一个让你大吃一惊的道具出来。"
   },
   {
     "id": 80600827,
-    "idCN": "00NPC对话/交易所/图浩/打开交易所/寒暄5",
+    "idCN": "00NPC对话/交易所/图浩/进入交易所/寒暄5",
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "看来你的工作相当顺利，正巧，咱的研发进程也是如此。"
   },
   {
     "id": 80600828,
-    "idCN": "00NPC对话/交易所/图浩/打开交易所/寒暄6",
+    "idCN": "00NPC对话/交易所/图浩/进入交易所/寒暄6",
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "看到你如今的成功，就证明咱当初果然慧眼如炬，哈哈！研发成果？那个还是先别问了……"
@@ -5504,7 +5577,13 @@
     "idCN": "00NPC对话/交易所/图浩/买入/购买页签/购买页签2",
     "mod": "NPC对话",
     "isInformalData": false,
-    "text": "咱可不会干以次充好的事情，那不是自砸招牌么！"
+    "text": "咱可不会干以次充好的事情，那不是自砸招牌么！",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
   },
   {
     "id": 80600837,
@@ -5682,7 +5761,13 @@
     "idCN": "00NPC对话/交易所/幼浅/采购券使用/采购券使用1",
     "mod": "NPC对话",
     "isInformalData": false,
-    "text": "面对您这样大气的客人，我当然没有把商品藏着掖着的理由！"
+    "text": "面对您这样大气的客人，我当然没有把商品藏着掖着的理由！",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
   },
   {
     "id": 80600859,
@@ -5795,14 +5880,14 @@
   },
   {
     "id": 80600871,
-    "idCN": "00NPC对话/交易所/符渝/打开交易所/寒暄1",
+    "idCN": "00NPC对话/交易所/符渝/进入交易所/寒暄1",
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "贵安，今天的天气相当美丽不是吗？对人家来说，只要有生意做的日子就是美丽的好日子。"
   },
   {
     "id": 80600872,
-    "idCN": "00NPC对话/交易所/符渝/打开交易所/寒暄2",
+    "idCN": "00NPC对话/交易所/符渝/进入交易所/寒暄2",
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "虽然人家的追求者确实很多，但是与其来搭讪，我更希望你能和我谈谈商业话题。"
@@ -6015,14 +6100,14 @@
   },
   {
     "id": 80600900,
-    "idCN": "00NPC对话/交易所/包浮/打开交易所/寒暄1",
+    "idCN": "00NPC对话/交易所/包浮/进入交易所/寒暄1",
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "客人您一进门我就知道，今天是个适合做买卖的好日子。"
   },
   {
     "id": 80600901,
-    "idCN": "00NPC对话/交易所/包浮/打开交易所/寒暄2",
+    "idCN": "00NPC对话/交易所/包浮/进入交易所/寒暄2",
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "分不清楚我和我的兄弟？你仔细看看，我脸上是不是看起来更加水润？"
@@ -6153,7 +6238,13 @@
     "idCN": "00NPC对话/交易所/包浮/卖出/出售页签/出售页签1",
     "mod": "NPC对话",
     "isInformalData": false,
-    "text": "一切买卖我都欢迎，买卖买卖，有买就有卖——这次你打算给我看点什么好东西？"
+    "text": "一切买卖我都欢迎，买卖买卖，有买就有卖——这次你打算给我看点什么好东西？",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
   },
   {
     "id": 80600917,
@@ -7570,7 +7661,7 @@
   },
   {
     "id": 80601106,
-    "idCN": "00NPC对话/交易所/幼浅/打开仓库/打开仓库1",
+    "idCN": "00NPC对话/交易所/交易所学徒/进入仓库/打开仓库1",
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "列车长，这是你的私人仓库区域",
@@ -7671,7 +7762,7 @@
   },
   {
     "id": 80601118,
-    "idCN": "00NPC对话/交易所/交易所学徒/打开交易所/寒暄1",
+    "idCN": "00NPC对话/交易所/交易所学徒/进入交易所/寒暄1",
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "欢迎光临，有什么能帮到您的？",
@@ -7684,7 +7775,7 @@
   },
   {
     "id": 80601120,
-    "idCN": "00NPC对话/交易所/交易所学徒/打开交易所/寒暄3",
+    "idCN": "00NPC对话/交易所/交易所学徒/进入交易所/寒暄3",
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "您来的正是时候，眼下的货可都是最好的！",
@@ -7697,7 +7788,7 @@
   },
   {
     "id": 80601119,
-    "idCN": "00NPC对话/交易所/交易所学徒/打开交易所/寒暄2",
+    "idCN": "00NPC对话/交易所/交易所学徒/进入交易所/寒暄2",
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "想看点什么？我来给您介绍下吧？",
@@ -7710,7 +7801,7 @@
   },
   {
     "id": 80601121,
-    "idCN": "00NPC对话/交易所/交易所学徒/打开交易所/寒暄4",
+    "idCN": "00NPC对话/交易所/交易所学徒/进入交易所/寒暄4",
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "最近还顺利吧？您的事在这周围可都传遍啦。",
@@ -7723,7 +7814,7 @@
   },
   {
     "id": 80601122,
-    "idCN": "00NPC对话/交易所/交易所学徒/打开交易所/寒暄5",
+    "idCN": "00NPC对话/交易所/交易所学徒/进入交易所/寒暄5",
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "哎呀，列车长，想喝点什么？别客气，生意还要托您关照。",
@@ -7736,7 +7827,7 @@
   },
   {
     "id": 80601123,
-    "idCN": "00NPC对话/交易所/交易所学徒/打开交易所/寒暄6",
+    "idCN": "00NPC对话/交易所/交易所学徒/进入交易所/寒暄6",
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "您的光临简直让我们这蓬荜生辉，还有什么需要的我来帮您留意。",
@@ -11219,7 +11310,7 @@
   },
   {
     "id": 80601534,
-    "idCN": "00NPC对话/交易所/括卓/打开交易所/寒暄1",
+    "idCN": "00NPC对话/交易所/括卓/进入交易所/寒暄1",
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "你好，年轻人，能走进来说明你眼光不错，毕竟我这里卖的东西在别处可买不到。",
@@ -11232,7 +11323,7 @@
   },
   {
     "id": 80601535,
-    "idCN": "00NPC对话/交易所/括卓/打开交易所/寒暄2",
+    "idCN": "00NPC对话/交易所/括卓/进入交易所/寒暄2",
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "是新面孔啊，多瞧瞧多看看，我这里可都是些高科技玩意，准能让你长见识。",
@@ -11245,7 +11336,7 @@
   },
   {
     "id": 80601536,
-    "idCN": "00NPC对话/交易所/括卓/打开交易所/寒暄3",
+    "idCN": "00NPC对话/交易所/括卓/进入交易所/寒暄3",
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "跑得够勤的，我见过的列车长可多了，看你的样子倒像是真能干出什么名堂的。",
@@ -11258,7 +11349,7 @@
   },
   {
     "id": 80601537,
-    "idCN": "00NPC对话/交易所/括卓/打开交易所/寒暄4",
+    "idCN": "00NPC对话/交易所/括卓/进入交易所/寒暄4",
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "这么说，最近小有名气的就是你吧？很有我年轻时候的劲头嘛。多光顾这里的话，我不介意传授你一点做生意的经验。",
@@ -11271,7 +11362,7 @@
   },
   {
     "id": 80601538,
-    "idCN": "00NPC对话/交易所/括卓/打开交易所/寒暄5",
+    "idCN": "00NPC对话/交易所/括卓/进入交易所/寒暄5",
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "是你啊，有阵子不见了，其他地方有什么新鲜东西吗？说来听听？作为回报，我可以给你些特别优惠。",
@@ -11284,7 +11375,7 @@
   },
   {
     "id": 80601539,
-    "idCN": "00NPC对话/交易所/括卓/打开交易所/寒暄6",
+    "idCN": "00NPC对话/交易所/括卓/进入交易所/寒暄6",
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "诶呦，贵客登门啦。不着急，先坐下来尝尝这个巧克力奶吧，独家配方，别人想要也没有！",
@@ -12638,7 +12729,7 @@
   },
   {
     "id": 80601671,
-    "idCN": "00NPC对话/交易所/冲天/打开交易所/寒暄1",
+    "idCN": "00NPC对话/交易所/冲天/进入交易所/寒暄1",
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "这儿原本的店主休养去了，我暂时帮忙看店几天——若有不周，请勿见怪。尽管停下脚步慢慢看吧。",
@@ -12651,7 +12742,7 @@
   },
   {
     "id": 80601672,
-    "idCN": "00NPC对话/交易所/冲天/打开交易所/寒暄2",
+    "idCN": "00NPC对话/交易所/冲天/进入交易所/寒暄2",
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "这儿原本的店主休养去了，我暂时帮忙看店几天——若有不周，请勿见怪。尽管停下脚步慢慢看吧。",
@@ -12664,7 +12755,7 @@
   },
   {
     "id": 80601673,
-    "idCN": "00NPC对话/交易所/冲天/打开交易所/寒暄3",
+    "idCN": "00NPC对话/交易所/冲天/进入交易所/寒暄3",
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "这儿原本的店主休养去了，我暂时帮忙看店几天——若有不周，请勿见怪。尽管停下脚步慢慢看吧。",
@@ -12677,7 +12768,7 @@
   },
   {
     "id": 80601674,
-    "idCN": "00NPC对话/交易所/冲天/打开交易所/寒暄4",
+    "idCN": "00NPC对话/交易所/冲天/进入交易所/寒暄4",
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "这儿原本的店主休养去了，我暂时帮忙看店几天——若有不周，请勿见怪。尽管停下脚步慢慢看吧。",
@@ -12690,7 +12781,7 @@
   },
   {
     "id": 80601675,
-    "idCN": "00NPC对话/交易所/冲天/打开交易所/寒暄5",
+    "idCN": "00NPC对话/交易所/冲天/进入交易所/寒暄5",
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "这儿原本的店主休养去了，我暂时帮忙看店几天——若有不周，请勿见怪。尽管停下脚步慢慢看吧。",
@@ -12703,7 +12794,7 @@
   },
   {
     "id": 80601676,
-    "idCN": "00NPC对话/交易所/冲天/打开交易所/寒暄6",
+    "idCN": "00NPC对话/交易所/冲天/进入交易所/寒暄6",
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "这儿原本的店主休养去了，我暂时帮忙看店几天——若有不周，请勿见怪。尽管停下脚步慢慢看吧。",
@@ -12725,7 +12816,7 @@
     "playerNameString": "{playername}",
     "stationString": "{station}",
     "goodsString": "{goods}",
-    "noDataString": "美食、流行、奢侈品……这可是一座非常适合有格调的淑女享受生活的城市。"
+    "noDataString": "这个地方啊，从前可是阿妮塔航天研究的中心。可要是说实验成功，估计还有很长的路要走……"
   },
   {
     "id": 80601678,
@@ -12738,7 +12829,7 @@
     "playerNameString": "{playername}",
     "stationString": "{station}",
     "goodsString": "{goods}",
-    "noDataString": "美食、流行、奢侈品……这可是一座非常适合有格调的淑女享受生活的城市。"
+    "noDataString": "我在这里就是图个清静。实验场太吵？呵呵，我说的是人间纷纷扰扰……"
   },
   {
     "id": 80601680,
@@ -12772,12 +12863,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "<color=#b45e01>{goods}</color>今日打折，要进货不妨优先考虑。",
-    "isReplace": false,
+    "isReplace": true,
     "replaceType": "Drop",
     "playerNameString": "{playername}",
     "stationString": "{station}",
     "goodsString": "{goods}",
-    "noDataString": "......"
+    "noDataString": "总会有你中意的货，今天不买，明天也迟早会买，那不如趁现在就买。"
   },
   {
     "id": 80601683,
@@ -12863,12 +12954,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "你手头有<color=#b45e01>{goods}</color>的话可以考虑出手给我，我可以给你比平时更好的价格。",
-    "isReplace": false,
+    "isReplace": true,
     "replaceType": "Rise",
     "playerNameString": "{playername}",
     "stationString": "{station}",
     "goodsString": "{goods}",
-    "noDataString": "......"
+    "noDataString": "放心吧，不论是什么，总能有点价值的。"
   },
   {
     "id": 80601690,
@@ -16456,7 +16547,7 @@
   },
   {
     "id": 80602127,
-    "idCN": "00NPC对话/交易所/富子/打开交易所/寒暄1",
+    "idCN": "00NPC对话/交易所/富子/进入交易所/寒暄1",
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "您好，妾身名为富子，此地的商会负责人……有何贵干？",
@@ -16469,7 +16560,7 @@
   },
   {
     "id": 80602128,
-    "idCN": "00NPC对话/交易所/富子/打开交易所/寒暄2",
+    "idCN": "00NPC对话/交易所/富子/进入交易所/寒暄2",
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "在各个商会之间的人里，可很难见到您这样的人。您一定会成大器的。",
@@ -16482,7 +16573,7 @@
   },
   {
     "id": 80602129,
-    "idCN": "00NPC对话/交易所/富子/打开交易所/寒暄3",
+    "idCN": "00NPC对话/交易所/富子/进入交易所/寒暄3",
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "哎，可真想找空闲休息一下。不过既然列车长来了，妾身即使不休息也没什么……",
@@ -16495,7 +16586,7 @@
   },
   {
     "id": 80602130,
-    "idCN": "00NPC对话/交易所/富子/打开交易所/寒暄4",
+    "idCN": "00NPC对话/交易所/富子/进入交易所/寒暄4",
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "有您常来以后，这儿就变得热闹多了。",
@@ -16508,7 +16599,7 @@
   },
   {
     "id": 80602131,
-    "idCN": "00NPC对话/交易所/富子/打开交易所/寒暄5",
+    "idCN": "00NPC对话/交易所/富子/进入交易所/寒暄5",
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "您早已是我重要的生意伙伴了，以后可千万要多照拂妾身的生意呀。",
@@ -16521,7 +16612,7 @@
   },
   {
     "id": 80602132,
-    "idCN": "00NPC对话/交易所/富子/打开交易所/寒暄6",
+    "idCN": "00NPC对话/交易所/富子/进入交易所/寒暄6",
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "妾身能获得现在这番成就，全是沾您的福气啦。",
@@ -17174,7 +17265,7 @@
   },
   {
     "id": 80602190,
-    "idCN": "00NPC对话/交易所/幼浅/打开交易所/寒暄7",
+    "idCN": "00NPC对话/交易所/幼浅/进入交易所/寒暄7",
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "不瞒你说，咱这特产品利润高的吓人，行情来的时候，使用【进货采买书】加量补仓特产品的话要不了多久就能和我一样有钱。真的！！！",
@@ -17187,7 +17278,7 @@
   },
   {
     "id": 80602191,
-    "idCN": "00NPC对话/交易所/交易所学徒/打开交易所/寒暄7",
+    "idCN": "00NPC对话/交易所/交易所学徒/进入交易所/寒暄7",
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "老板吩咐我让您多多购买特产，合理使用【进货采买书】加量交易特产品的话应该能快速积累财富吧。",
@@ -17200,7 +17291,7 @@
   },
   {
     "id": 80602192,
-    "idCN": "00NPC对话/交易所/图浩/打开交易所/寒暄7",
+    "idCN": "00NPC对话/交易所/图浩/进入交易所/寒暄7",
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "咱们这的特产【曼德工具箱】那可是远近闻名呐，行情好的时候要不用【进货采买书】多倒腾点？",
@@ -17213,7 +17304,7 @@
   },
   {
     "id": 80602193,
-    "idCN": "00NPC对话/交易所/符游/打开交易所/寒暄7",
+    "idCN": "00NPC对话/交易所/符游/进入交易所/寒暄7",
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "我听说有列车长倒腾我们这的【桦石发财树】一夜暴富了。不过这玩意产量可不多啊。",
@@ -50725,7 +50816,7 @@
     "idCN": "车站/道具获得",
     "mod": "UI文本",
     "isInformalData": false,
-    "text": "获得道具<color=#FEC032>%s</color>开启"
+    "text": "获得<color=#FEC032>%s</color>开启"
   },
   {
     "id": 80606840,
@@ -51145,7 +51236,7 @@
     "idCN": "排行榜/排行榜截止",
     "mod": "UI文本",
     "isInformalData": false,
-    "text": "建设排行榜5月10号 5点截止"
+    "text": "该排行榜5月15号 5点截止"
   },
   {
     "id": 80606904,
@@ -51526,5 +51617,1029 @@
     "mod": "UI文本",
     "isInformalData": false,
     "text": "本月剩余挑战次数：%d次"
+  },
+  {
+    "id": 80606940,
+    "idCN": "00NPC对话/活动/沃斯托克/打开建筑/文本1",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "太好了！有人来给我们帮忙了！你一定是来帮忙的，对吧？",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80606941,
+    "idCN": "00NPC对话/活动/沃斯托克/交谈/文本1",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "7号自由港虽然好，但我还是想快点回去继续做研究啊。所以列车长，帮帮我们发射中心吧——",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80606942,
+    "idCN": "00NPC对话/活动/沃斯托克/交谈/文本2",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "嗯……发射中心是个什么样的地方？不算很新，不算很先进，但绝对绝对很有趣！要和我一起去看看吗，列车长？",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80606943,
+    "idCN": "00NPC对话/活动/沃斯托克/交谈/文本3",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "我所从事的研究是航天学——你说航天学不存在了？不存在了又怎么样！我还是在研究啊！",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80606944,
+    "idCN": "00NPC对话/活动/沃斯托克/交谈/文本4",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "篝火城也有好的地方，比如能随时去饮料店买靛红五月的各种饮料……哎，可惜货架上没有梨味汽水。时代真是在变化呀……啊！",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80606945,
+    "idCN": "00NPC对话/活动/沃斯托克/交谈/文本5",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "不知道我那个研究无线电的朋友现在又跑到了哪里……要是她能来帮忙做指挥调度工作，说不定重建会快得多呢？",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80606946,
+    "idCN": "00NPC对话/活动/沃斯托克/进入交货/文本1",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "欸？！原来你真的是来参加建设计划的！我太开心啦——之前也没有不指望你的意思哦！",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80606947,
+    "idCN": "00NPC对话/活动/沃斯托克/交货成功/文本1",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "我就说嘛！这位看起来就很可靠的列车长肯定会帮忙的！好，接下来也要继续支持我们哦！",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80606948,
+    "idCN": "00NPC对话/活动/星花/打开建筑/文本1",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "呀呼！又见面啦，无垠号的列车长~还是说，现在应该叫你“发射中心大桥援建人”更好呢？",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80606949,
+    "idCN": "00NPC对话/活动/星花/交谈/文本1",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "和桦树空间探索不同，建设工作总是要和人打交道……但变数倒也不比桦树空间里的少。毕竟我就是临时被沃斯托克拜托说要在这儿值班……",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80606950,
+    "idCN": "00NPC对话/活动/星花/交谈/文本2",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "这段时间听说了不少关于你的传闻，看来你逐渐成为一名成熟可靠的列车长了呢。就保持这个势头吧，加油哦！",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80606951,
+    "idCN": "00NPC对话/活动/星花/交谈/文本3",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "好久没逛街了，等下班后我要去商业区逛逛，买点儿东西。你要不要和我一起呀？",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80606952,
+    "idCN": "00NPC对话/活动/星花/交谈/文本4",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "工地的灰尘真是对头发不好。唔，等苔妮来了，我要和她交流一下护发秘诀。",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80606953,
+    "idCN": "00NPC对话/活动/星花/交谈/文本5",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "发射中心附近的形态场其实不太适合频繁的火箭实验。不过他们好像不打算放弃，甚至还有一套完善的应对计划……没理由不帮这样的人一把，对吧？尤其是在能得到回报的情况下。",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80606954,
+    "idCN": "00NPC对话/活动/星花/进入交货/文本1",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "我也会尽力给你提供技术援助的，放心吧！",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80606955,
+    "idCN": "00NPC对话/活动/星花/交货成功/文本1",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "检查完了，没有问题！谢谢你带来货物。那么下一个安排什么好呢……",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80606956,
+    "idCN": "00NPC对话/铁安局/季卡/打开建筑/文本1",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "你好！我是季卡！铁安局局长？不在这里哦，他出去了，我只是一名小小的售票员……你说资料上的局长照片就是我？嘿嘿，被你发现啦。",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80606957,
+    "idCN": "00NPC对话/铁安局/季卡/打开建筑/文本2",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "这下我不会跟你乱开玩笑了！我保证，我们家族对列车长超友好的！",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80606958,
+    "idCN": "00NPC对话/铁安局/季卡/打开建筑/文本3",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "貂亚人也能在铁安局工作的，别见外。我觉得我算是铁安局里很努力的类型哦！",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80606959,
+    "idCN": "00NPC对话/铁安局/季卡/打开建筑/文本4",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "呀，我刚刚接到通讯，说是大桥又被桦树生物阻断了！——嘿嘿，逗你玩儿的，最近我们可是加强了桦树生物动向监测呢。",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80606960,
+    "idCN": "00NPC对话/铁安局/季卡/打开建筑/文本5",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "嗯……嗯嗯……（嗅嗅）最近有了您常来帮忙，这里的空气都清新多了。多谢啦，{playername}！",
+    "isReplace": true,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80606961,
+    "idCN": "00NPC对话/铁安局/季卡/打开建筑/文本6",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "列车长，您最近的表现值得我的敬意……嘿咻——敬礼！",
+    "isReplace": true,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80606962,
+    "idCN": "00NPC对话/铁安局/季卡/浏览任务/文本1",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "要看看有什么能干的活儿吗？",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80606963,
+    "idCN": "00NPC对话/铁安局/季卡/浏览任务/文本2",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "你能来帮忙简直太好了！这里从前一直是没什么人的站点，说实话挺无聊的……",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80606964,
+    "idCN": "00NPC对话/铁安局/季卡/浏览任务/文本3",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "如果你能常来的话，大桥的安全应该也不用担心了吧。",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80606965,
+    "idCN": "00NPC对话/铁安局/季卡/交谈/文本1",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "哇啊！我刚从桌底下钻出来，怎么外面又一阵乒铃乓啷轰隆轰隆的？！又是在做什么实验呀！",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80606966,
+    "idCN": "00NPC对话/铁安局/季卡/交谈/文本2",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "我的工作还挺闲的，有桦树生物就打，打不过的话就让大家都回来避难躲着呗……但现在呢，没桦树生物，就要学会找点事做。走，我们去看看卢米娜在干嘛，吓吓她去。",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80606967,
+    "idCN": "00NPC对话/铁安局/季卡/交谈/文本3",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "你要不要吃海盐冰棍儿？味道很清爽的！还是海豹奶茶店前几年的限定款呢，我把活动结束后的积压产品全部买下来，存在沃斯托克的前沿技术冷库里咯。她同意了的！",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80606968,
+    "idCN": "00NPC对话/铁安局/季卡/交谈/文本4",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "我是在地联快完蛋那会儿在北边出生的！一个小村里的人给我起了名字，意思是“星星”。不知道那个村子现在怎么样了，查记录也没查到，唔唔……",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80606969,
+    "idCN": "活动/黄金七天乐/访谈",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "访谈"
+  },
+  {
+    "id": 80606970,
+    "idCN": "活动/黄金七天乐/交易所",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "交易所"
+  },
+  {
+    "id": 80606971,
+    "idCN": "活动/黄金七天乐/客运",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "客运"
+  },
+  {
+    "id": 80606972,
+    "idCN": "活动/黄金七天乐/素材回收",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "素材回收"
+  },
+  {
+    "id": 80606973,
+    "idCN": "活动/黄金七天乐/价格行情",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "价格行情波动范围"
+  },
+  {
+    "id": 80606975,
+    "idCN": "00NPC对话/交易所/冲天/交谈/稀少交易品",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "好像哪儿的新奇东西好卖，叫什么来着……对了，<color=#b45e01>{goods}</color>。你进货了吗？让我看看！",
+    "isReplace": true,
+    "replaceType": "RareGoods",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "我其实不太能理解来七号自由港买列车模型当纪念品带回去的行为，不过这个确实卖得不错。"
+  },
+  {
+    "id": 80606976,
+    "idCN": "00NPC对话/交易所/冲天/交谈/站点限定情报/情报1",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "这个地方啊，从前可是阿妮塔航天研究的中心。可要是说实验成功，估计还有很长的路要走……",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80606977,
+    "idCN": "00NPC对话/交易所/冲天/交谈/站点限定情报/情报2",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "我在这里就是图个清静。实验场太吵？呵呵，我说的是人间纷纷扰扰……",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80606978,
+    "idCN": "00NPC对话/交易所/冲天/交谈/家族故事/家族故事1",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "啊呀，不知道符渝那孩子最近过得好不好。她不会亏着自己，我知道，可……哎。",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80606979,
+    "idCN": "00NPC对话/交易所/冲天/交谈/家族故事/家族故事2",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "我现在最想见到的场面，是我们一大家子能和和气气坐在一起吃顿饭。",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80606980,
+    "idCN": "00NPC对话/交易所/冲天/交谈/家族故事/家族故事3",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "最近天气不好，括卓那老家伙肯定又要叫着腰疼腿疼了。叫他锻炼，他也不听，只会在屋里待着。",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80606981,
+    "idCN": "00NPC对话/交易所/冲天/进入仓库/打开仓库1",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "仓库的风水也很重要的，你要是不介意，我给你俩摆件摆上。",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80606982,
+    "idCN": "00NPC对话/交易所/富子/进入仓库/打开仓库1",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "您该不会想在仓库里小睡一觉吧？呵呵，只是开玩笑。",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80606983,
+    "idCN": "00NPC对话/交易所/括卓/进入仓库/打开仓库1",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "年轻人要学会有舍有得……",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80606984,
+    "idCN": "00NPC对话/交易所/图浩/进入仓库/打开仓库1",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "你尽管看，只要你提，我能用货把你这仓库都给装满了！",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80606985,
+    "idCN": "00NPC对话/交易所/幼浅/进入仓库/打开仓库1",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "让货物流转起来才是生财之道，别囤着了。",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80606986,
+    "idCN": "00NPC对话/交易所/符游/进入仓库/打开仓库1",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "打算把仓库清理出来好从我这进货是吧？欢迎！",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80606987,
+    "idCN": "00NPC对话/交易所/冲天/交谈/特产情报/情报1",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "咱们这儿的<color=#b45e01>蜂窝防热烧蚀材料</color>可好使了，你不整点儿？",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80606988,
+    "idCN": "00NPC对话/交易所/冲天/交谈/特产情报/情报2",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "咱们这儿的<color=#b45e01>高导热陶瓷</color>可好使了，你不整点儿？",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80606989,
+    "idCN": "00NPC对话/交易所/冲天/交谈/特产情报/情报3",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "咱们这儿的<color=#b45e01>航天半导体</color>可好使了，你不整点儿？",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80606990,
+    "idCN": "00NPC对话/交易所/冲天/交谈/特产情报/情报4",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "咱们这儿的<color=#b45e01>太阳电池阵</color>可好使了，你不整点儿？",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80606991,
+    "idCN": "00NPC对话/交易所/富子/交谈/特产情报/情报1",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "澄明数据中心的<color=#b45e01>扬声器</color>最近在各地都很畅销呢。",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80606992,
+    "idCN": "00NPC对话/交易所/富子/交谈/特产情报/情报2",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "澄明数据中心的<color=#b45e01>银矿石</color>最近在各地都很畅销呢。",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80606993,
+    "idCN": "00NPC对话/交易所/富子/交谈/特产情报/情报3",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "澄明数据中心的<color=#b45e01>游戏机</color>最近在各地都很畅销呢。",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80606994,
+    "idCN": "00NPC对话/交易所/富子/交谈/特产情报/情报4",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "澄明数据中心的<color=#b45e01>游戏卡带</color>最近在各地都很畅销呢。",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80606974,
+    "idCN": "活动/黄金七天乐/素材回收高价倍率",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "素材回收高价倍率"
+  },
+  {
+    "id": 80606995,
+    "idCN": "活动/黄金七天乐/倍",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "倍"
+  },
+  {
+    "id": 80606996,
+    "idCN": "活动/黄金七天乐/活动详情",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "活动详情"
+  },
+  {
+    "id": 80606998,
+    "idCN": "市政厅/发射中心/进入/进入2",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "欸？上次说的话是开玩笑的。无论如何我都不会把发射基地的管理权限拱手让人的，毕竟这是我最心爱的地方嘛！不过还是欢迎你常来！"
+  },
+  {
+    "id": 80606999,
+    "idCN": "市政厅/发射中心/进入/进入3",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "好困啊今天……昨天熬太晚了我都不记得我睡了多久。但是我还是会好好工作的，嗯嗯，嗯……（睡着的呼吸声）"
+  },
+  {
+    "id": 80607000,
+    "idCN": "市政厅/发射中心/进入/进入5",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "谢谢你协助我——们的工作！我觉得你是个非常优秀的列车长哦，真的真的。"
+  },
+  {
+    "id": 80607002,
+    "idCN": "市政厅/发射中心/成功投资/成功投资1",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "所有给我们提供了资金援助的人，名字都会刻在发射中心的感谢纪念碑上哦！"
+  },
+  {
+    "id": 80607003,
+    "idCN": "市政厅/发射中心/成功投资/成功投资2",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "哇哦，你这气势好像在说多加一个零也不是问题一样！"
+  },
+  {
+    "id": 80606997,
+    "idCN": "市政厅/发射中心/进入/进入1",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "哟呵！初次见面初次见面，我是沃斯托克，算是这里的……呃，头目吧！只要打倒我和身后的大家伙就可以掌管这个地方了！来吧冒险者！"
+  },
+  {
+    "id": 80607001,
+    "idCN": "市政厅/发射中心/进入/进入6",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "你又来啦！太好了，我这里有最新的试验成果，你要不拿去看看？作为交换，我也想看看你的行车记录！"
+  },
+  {
+    "id": 80607004,
+    "idCN": "市政厅/发射中心/成功投资/成功投资3",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "当列车长居然这么赚吗，还是说你特别有经商头脑？可惜我们这里的家伙们只会花钱。"
+  },
+  {
+    "id": 80607005,
+    "idCN": "市政厅/发射中心/成功投资/成功投资4",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "也许我们可以考虑开发更多对投资者的优待政策，比如把写有你们名字的铭牌发送到外太空……"
+  },
+  {
+    "id": 80607006,
+    "idCN": "市政厅/发射中心/成功投资/成功投资5",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "要是以后我们成功发现了新的卫星，就用你的名字命名吧？"
+  },
+  {
+    "id": 80607007,
+    "idCN": "市政厅/发射中心/投资金额不足",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "难免会有这样尴尬的时候，我懂！好在咱俩都熟了，要是在超市里买了一大堆东西却没带够钱那才是真的尴尬……",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80607008,
+    "idCN": "市政厅/发射中心/交谈/交谈1",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "你刚刚去过商会那边了吗？卢米娜没有被工作欺负得偷偷关起门来哭吧？嗯嗯，虽然她经常这样……但是还是要关心一下嘛！"
+  },
+  {
+    "id": 80607009,
+    "idCN": "市政厅/发射中心/交谈/交谈2",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "我小时候住的地方附近有一个大广场，那里立着各种各样的雕像……啊，我这具外骨骼装甲就是仿制那时看见的一座雕像设计的。那可是我梦想的源头！"
+  },
+  {
+    "id": 80607010,
+    "idCN": "市政厅/发射中心/交谈/交谈3",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "阿妮塔的航天部门现在除了老研究员就是我啦——当然不是说我要当头子的意思！只是想说这个行业特别特别缺少新鲜血液——"
+  },
+  {
+    "id": 80607011,
+    "idCN": "市政厅/发射中心/交谈/交谈4",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "无论情况如何，我都不会轻言放弃。那个，毕竟我是这里的“地区首领”嘛！啊哈哈哈哈开玩笑的，你没有被带进什么现实扭曲电子游戏里。"
+  },
+  {
+    "id": 80607012,
+    "idCN": "市政厅/发射中心/交谈/交谈5",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "……会建成的。一定。……啊，没事没事，只是我的自言自语罢了！要和我一起去冷库里偷吃冰棍吗？"
+  },
+  {
+    "id": 80607013,
+    "idCN": "市政厅/发射中心/交谈/交谈6",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "你什么时候能和靛红五月建立合作关系呀？我就是问问，绝、对、没有让你变成专职汽水运输员的意思！"
+  },
+  {
+    "id": 80607014,
+    "idCN": "市政厅/发射中心/交谈/交谈7",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "啊……层出不穷的桦树生物……假如总部对我们的投资也能这样源源不绝该有多好！"
+  },
+  {
+    "id": 80607015,
+    "idCN": "市政厅/发射中心/交谈/交谈8",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "辛苦了！跑了很久吧！要不要来瓶梨味汽水？"
+  },
+  {
+    "id": 80607016,
+    "idCN": "市政厅/发射中心/进入/进入4",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "辛苦啦，路上一定很累吧！喏，那边有休息处，你去睡一下呗。"
+  },
+  {
+    "id": 80607020,
+    "idCN": "00NPC对话/交易所/图浩/交谈/特产情报/情报1",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "别觉得曼德矿场看上去荒凉，<color=#b45e01>曼德工具箱</color>绝对称得上热门商品。",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80607021,
+    "idCN": "00NPC对话/交易所/图浩/交谈/特产情报/情报2",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "别觉得曼德矿场看上去荒凉，<color=#b45e01>钛矿石</color>绝对称得上热门商品。",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80607022,
+    "idCN": "00NPC对话/交易所/图浩/交谈/特产情报/情报3",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "别觉得曼德矿场看上去荒凉，<color=#b45e01>铁轨用特种钢材</color>绝对称得上热门商品。",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80607023,
+    "idCN": "00NPC对话/交易所/图浩/交谈/特产情报/情报4",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "别觉得曼德矿场看上去荒凉，<color=#b45e01>图形加速卡</color>绝对称得上热门商品。",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80607017,
+    "idCN": "帮助/活动帮助/黄金七天乐/帮助标题",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "黄金七天乐"
+  },
+  {
+    "id": 80607018,
+    "idCN": "帮助/活动帮助/黄金七天乐/活动说明",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "“我们的路，我们自己造！”\r\\n\r阿妮塔发射中心预备再次向外界开放，列车长，请协助铁盟与阿妮塔一起重建通往发射中心的铁路吧！\r\\n\r\\n\r玩法内容\r\\n\r西大陆风波平息 发射中心通车预备\r\\n\r西大陆的风波在列车长的见证下，至少在明面上已经逐渐平息。因种种原因曾经不再对外开放的阿妮塔发射中心即将重见天日。但是，在此之前，必须要完成发射中心大桥的重新建设……阿妮塔员工“沃斯托克”现身“七号自由港”，向列车长发起委托。\r\\n\r\\n\r接取指定任务 提升大桥建设度\r\\n\r完成沃斯托克发布的任务，可以提升大桥的建设度。\r运输订单任务：向大桥建设计划运送各项紧缺物资，获得奖励，提升建设度。\r威胁清缴任务：清缴对大桥建设造成威胁的怪物，获得奖励，提升建设度。\r\\n\r\\n\r推进全服进度 合力开启新城市\r\\n\r“我造我路1期”玩法设置了全服建设进度与个人建设进度。\r\\n\r当全服建设进度完成时，全新城市站点“阿妮塔发射中心”将会开启。列车长达成个人建设进度的最后一个阶段，得到“发射中心大桥通行券”后，即可正式造访。\r\\n\r\\n\r建设最光荣 活跃列车长榜上有名\r\\n\r为鼓励列车长踊跃参与建设计划，阿妮塔将会统计所有列车长的建设进度，并予以公示表彰。\r\\n\r\\n\r建设奖励\r\\n\r推进个人建设进度，列车长可获得模拟星辰、莫比乌斯环、“我造我路1期”卡包、桦石、星云物质等奖励。在个人建设进度完成后，列车长可获得“发射中心大桥通行证”。\r\\n\r全服建设进度推进后，列车长可获得赴命奖章、绝命奖章·金、“我造我路1期”卡包、一般武器改造凭证、特殊武器改造许可、黑月采购券等奖励。"
+  },
+  {
+    "id": 80607019,
+    "idCN": "帮助/活动帮助/黄金七天乐/活动说明页签",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "活动导览"
+  },
+  {
+    "id": 80607024,
+    "idCN": "00通用/载货量不足",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "载货量不足，无法领取"
+  },
+  {
+    "id": 80607025,
+    "idCN": "00通用/建筑-限时（天小时）",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "<size=34>%d</size>天<size=34>%d</size>小时"
+  },
+  {
+    "id": 80607026,
+    "idCN": "00通用/建筑-限时（小时分钟）",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "<size=34>%d</size>小时<size=34>%d</size>分钟"
+  },
+  {
+    "id": 80607027,
+    "idCN": "活动总览/页签名/黄金周签到",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "黄金周签到"
+  },
+  {
+    "id": 80607028,
+    "idCN": "活动/黄金七天乐/新闻标题/day1",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "黄金价格再创历史新高 淘金乐园迎来第二春"
+  },
+  {
+    "id": 80607029,
+    "idCN": "活动/黄金七天乐/新闻标题/day2",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "多列淘金乐园班车便当售罄 游客表示饭太难吃"
+  },
+  {
+    "id": 80607030,
+    "idCN": "活动/黄金七天乐/新闻标题/day4",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "劫匪横行引人忧 出行安全不能忘"
+  },
+  {
+    "id": 80607031,
+    "idCN": "活动/黄金七天乐/新闻标题/day5",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "多地频繁巷战人心惶惶 水族竟成疗愈秘方"
+  },
+  {
+    "id": 80607032,
+    "idCN": "活动/黄金七天乐/新闻标题/day6",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "为美好旅途留下回忆 纪念品销售空前火爆"
+  },
+  {
+    "id": 80607033,
+    "idCN": "活动/黄金七天乐/滚动小新闻/day1",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "靛红五月推出巧克力黄金系列新包装，各大超市零食区堆出“小金山”。    淘金乐园负责人表示已对乐园设施进行全面升级应对客潮，欢迎大家前来游玩体验。    【今日点歌】卡莲小姐为“魅力无限的小静流”点播一首《把你放在心上》，希望对方别忘了周末和自己一起逛街。"
+  },
+  {
+    "id": 80607034,
+    "idCN": "活动/黄金七天乐/滚动小新闻/day2",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "买金需谨慎，一男子通过网络购买纪念金币，到手后发现是金币巧克力。    一富豪要求定制全金列车，座椅也要纯金打造，技术部门：目前列车内饰只有马桶支持该要求。    【今日点歌】匿名先生为“我唯一的宿敌”点播一首《命中注定》，希望对方不要再已读不回自己的邮件。"
+  },
+  {
+    "id": 80607035,
+    "idCN": "活动/黄金七天乐/滚动小新闻/day3",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "一神秘黑色女子因其容貌与某知名刑侦剧内罪犯过于相似，在黑月游乐场被误认为可疑人士。    乘客投诉某列车车厢内摆满各色梅花无处下脚，该列车的列车长声称因为梅花比较便宜。    【今日点歌】加丽娜小姐和达莉娅小姐为CBCRR23全体列车组成员点播一首《给你的信》，我们最近过得很好，你们也要加油哦！"
+  },
+  {
+    "id": 80607036,
+    "idCN": "活动/黄金七天乐/滚动小新闻/day4",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "【寻人消息】寻找失散同伴，对方为金发帝国籍年轻女性，可能处于饥饿状态较危险，喊“米莉”会有反应。有消息者请与本人联系。    老人投诉列车加速太快引发身体不适，然而接受采访时表示下次还会乘坐，反正没真的出事。    【今日点歌】我是你亲大哥先生为CBCRR23的列车长点播一首《长兄如父》，点歌功能真有趣啊！不过我更想和你见面！"
+  },
+  {
+    "id": 80607037,
+    "idCN": "活动/黄金七天乐/滚动小新闻/day5",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "淘金乐园出现一神秘女子，游客误以为是乞丐，不料对方只要饭不要钱，狂吃被丢弃盒饭无人敢阻止。    针对近日来多地发生的爆炸事件，铁盟表示系执法人员正常开展工作所致，并未出现人员伤亡。    【今日点歌】你的亚莉奈小姐为CBCRR23的列车长点播一首《一直在你身边》，留言因相关规定不予播放。"
+  },
+  {
+    "id": 80607038,
+    "idCN": "活动/黄金七天乐/滚动小新闻/day6",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "某儿童去淘金乐园旅游后吵着要长大要当掘金机器人，为证明自身挖掘能力在公园刨坑不料输给狗。    Ten Rounds新作发布会筹备中，称将有重磅消息发布，引发粉丝讨论热潮。    【今日点歌】图浩先生为符渝小姐点播一首《爱你就像呼吸一样简单》，拜托了，和咱一起出去吃次饭吧！一次就好！"
+  },
+  {
+    "id": 80607039,
+    "idCN": "活动/黄金七天乐/滚动小新闻/day7",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "澄明数据中心都市传说成为近期热门话题，吸引众多都市传说爱好者前来探险。    真诚为你，使命必达，科伦巴商会热烈欢迎各位有能之士的加入，有意向者请投递简历。    【今日点歌】铁山实验小学的小朋友们为全体列车长点播一首《谢谢》，感谢所有奔波在铁道上的列车长们为大家带来了一个美好的假期。"
   }
 ]
