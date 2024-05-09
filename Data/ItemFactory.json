@@ -10066,8 +10066,8 @@
     "buyPath": "",
     "textIcon": "",
     "sort": 0,
-    "isNotDisplayInBag": false,
     "isShowNum": true,
+    "isNotDisplayInBag": false,
     "useLimitNum": 10,
     "endTime": "",
     "saletype": "NotSale",
@@ -10083,13 +10083,13 @@
     "viewId": -1,
     "quality": "Golden",
     "des": "多萝西明媚而跳脱的形象极大地激发了设计师的灵感，为无垠号增加一些活泼的风味似乎是个不错的主意。",
-    "iconPath": "Item\\item\\Small\\Topic_Nikoula",
-    "tipsPath": "Item\\item\\Big\\Topic_Nikoula",
+    "iconPath": "Item\\item\\Small\\Topic_Duoluoxi",
+    "tipsPath": "Item\\item\\Big\\Topic_Duoluoxi",
     "buyPath": "",
     "textIcon": "",
     "sort": 0,
-    "isNotDisplayInBag": false,
     "isShowNum": true,
+    "isNotDisplayInBag": false,
     "useLimitNum": 10,
     "endTime": "",
     "saletype": "NotSale",
@@ -10118,14 +10118,20 @@
     "buyPath": "",
     "textIcon": "",
     "sort": 0,
-    "isNotDisplayInBag": false,
     "isShowNum": true,
+    "isNotDisplayInBag": false,
     "useLimitNum": 10,
     "endTime": "",
     "saletype": "NotSale",
     "rewardList": [],
     "Getway": [
-      {}
+      {
+        "DisplayName": "商城",
+        "FromLevel": -1,
+        "UIName": "UI/Store/Store",
+        "Way3": "",
+        "funcId": -1
+      }
     ]
   },
   {
@@ -10155,6 +10161,95 @@
         "UIName": "",
         "Way3": "",
         "funcId": -1
+      }
+    ]
+  },
+  {
+    "id": 11400256,
+    "idCN": "宠物/白猫",
+    "mod": "可使用道具",
+    "isInformalData": false,
+    "name": "白猫的外出背包",
+    "viewId": -1,
+    "quality": "Golden",
+    "useType": "Fixed",
+    "numRequired": 1,
+    "isBatch": false,
+    "exchangeList": [
+      {
+        "itemId": 83400015,
+        "num": 1,
+        "weight": 1
+      }
+    ],
+    "des": "“好伙伴”牌宠物背包，材料轻便，结构坚固，能够有效从外界的种种危险中保护你的宠物，方便与其一同旅行。",
+    "iconPath": "Item/item/Small/PetBag",
+    "tipsPath": "Item/item/Big/PetBag",
+    "buyPath": "",
+    "textIcon": "",
+    "breakPath": "Item/Pet/Small/Baimao",
+    "sort": 0,
+    "isShowNum": true,
+    "isNotDisplayInBag": false,
+    "isCompose": false,
+    "containEquipment": false,
+    "batchUsetype": "Other",
+    "useLimitNum": 10,
+    "isTiredItem": false,
+    "isDrinkItem": false,
+    "drinkNum": 3,
+    "isBattlePassItem": false,
+    "BattlePassType": "Low",
+    "uiPath": "",
+    "endTime": "",
+    "limitedTime": 0,
+    "saletype": "NotSale",
+    "rewardList": [],
+    "Getway": [
+      {
+        "DisplayName": "修格里城-花鸟市场",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": -1
+      },
+      {
+        "DisplayName": "环游手册",
+        "FromLevel": -1,
+        "UIName": "UI/BP_Quest/BattlePass_Quest",
+        "Way3": "",
+        "funcId": 100
+      }
+    ],
+    "gettipstype": "Pet"
+  },
+  {
+    "id": 11400252,
+    "idCN": "列车皮肤道具/01通行证/苔妮主题痛车方案",
+    "mod": "基础道具",
+    "isInformalData": false,
+    "name": "苔妮主题痛车方案",
+    "viewId": -1,
+    "quality": "Golden",
+    "des": "以苔妮的形象为主题而设计的无垠号车身涂装，居然没有出现大量小熊元素。",
+    "iconPath": "Item\\item\\Small\\Topic_Taini",
+    "tipsPath": "Item\\item\\Big\\Topic_Taini",
+    "buyPath": "",
+    "textIcon": "",
+    "sort": 0,
+    "isShowNum": true,
+    "isNotDisplayInBag": false,
+    "useLimitNum": 10,
+    "endTime": "",
+    "saletype": "NotSale",
+    "rewardList": [],
+    "Getway": [
+      {
+        "DisplayName": "环游手册",
+        "FromLevel": -1,
+        "UIName": "UI/BP_Quest/BattlePass_Quest",
+        "Way3": "",
+        "funcId": 100
       }
     ]
   }
