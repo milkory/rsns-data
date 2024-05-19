@@ -1214,8 +1214,8 @@
     "path": "RolePlus\\00Gift\\Square\\dandaoxue",
     "attriDetialList": [],
     "attributeList": [],
-    "tempdesc": "【锁定狙击】有30%概率不消耗费用",
-    "desc": "【锁定狙击】有30%概率不消耗费用",
+    "tempdesc": "伊洛娜的狙击有20%概率伤害加倍",
+    "desc": "伊洛娜的狙击有20%概率伤害加倍",
     "awakeLv": 2,
     "skillList": [
       {
@@ -1270,23 +1270,23 @@
   },
   {
     "id": 12800103,
-    "idCN": "00原版/05五星/伊洛娜/共振4-无形",
+    "idCN": "00原版/05五星/伊洛娜/共振4-连续锁定",
     "mod": "基础天赋",
     "isInformalData": false,
-    "path": "RolePlus\\00Gift\\Square\\wuxing",
+    "path": "RolePlus\\00Gift\\Square\\LianXuSuoDing",
     "attriDetialList": [],
     "attributeList": [],
-    "tempdesc": "【隐形】的持续时间延长2秒",
-    "desc": "<color=#7AB2FF>【隐形】</color>的持续时间延长2秒",
+    "tempdesc": "使用【锁定狙击】后，从牌库将1张【锁定狙击】加入手牌",
+    "desc": "使用【锁定狙击】后，从牌库将1张【锁定狙击】加入手牌",
     "awakeLv": 5,
     "skillList": [
       {
-        "skillId": 12300386
+        "skillId": 12300882
       }
     ],
     "skillChangeList": [],
     "skillParamOffsetList": [],
-    "name": "无形"
+    "name": "连续锁定"
   },
   {
     "id": 12800104,
@@ -1711,8 +1711,8 @@
     "path": "RolePlus\\00Gift\\Square\\jingxi",
     "attriDetialList": [],
     "attributeList": [],
-    "tempdesc": "【普通攻击】有15%概率将1个【链爆雷】抛向敌方区域",
-    "desc": "【普通攻击】有15%概率将1个【链爆雷】抛向敌方区域",
+    "tempdesc": "使用【莱格爆爆】后，有30%概率从牌库或弃牌区将1张【Bingo!】加入手牌，且费用变为0",
+    "desc": "使用【莱格爆爆】后，有30%概率从牌库或弃牌区将1张【Bingo!】加入手牌，且费用变为0",
     "awakeLv": 3,
     "skillList": [
       {
@@ -1753,16 +1753,15 @@
     "path": "RolePlus\\00Gift\\Square\\baobaobaobao",
     "attriDetialList": [],
     "attributeList": [],
-    "tempdesc": "将【莱格宝宝】升级为【莱格爆爆】",
-    "desc": "将【莱格宝宝】升级为【莱格爆爆】",
+    "tempdesc": "【莱格爆爆】被丢弃入弃牌区时，视为使用\\n【莱格爆爆】被正常使用时，【弃牌】指令冷却缩短5秒",
+    "desc": "【莱格爆爆】被丢弃入弃牌区时，视为使用\\n【莱格爆爆】被正常使用时，【弃牌】指令冷却缩短5秒",
     "awakeLv": 5,
-    "skillList": [],
-    "skillChangeList": [
+    "skillList": [
       {
-        "newSkillId": 12300026,
-        "oldSkillId": 12300017
+        "skillId": 12300017
       }
     ],
+    "skillChangeList": [],
     "skillParamOffsetList": [],
     "name": "宝宝爆爆"
   },
@@ -2022,8 +2021,8 @@
     "path": "RolePlus\\00Gift\\Square\\YuXue",
     "attriDetialList": [],
     "attributeList": [],
-    "tempdesc": "【血噬】增强为：\\n献祭当前生命值的50%，释放内心的猛兽，使武器【巨噬斧】的攻击范围增大\\n自身攻击力和防御力+15%，可叠加\\n使用后【血噬】转化为【血吼】",
-    "desc": "【血噬】增强为：\\n献祭当前生命值的50%，释放内心的猛兽，使武器【巨噬斧】的攻击范围增大\\n自身攻击力和防御力+15%，可叠加\\n使用后【血噬】转化为【血吼】",
+    "tempdesc": "【血噬】增强为：\\n献祭当前生命值的#r，释放内心的猛兽，使武器【巨噬斧】的攻击范围增大\\n自身攻击力和防御力+15%，可叠加\\n同时生成3张【暗艺】加入手牌\\n使用后【血噬】转化为【血吼】",
+    "desc": "【血噬】增强为：\\n献祭当前生命值的#r，释放内心的猛兽，使武器【巨噬斧】的攻击范围增大\\n自身攻击力和防御力+15%，可叠加\\n同时生成3张【暗艺】加入手牌\\n使用后【血噬】转化为【血吼】",
     "awakeLv": 2,
     "skillList": [],
     "skillChangeList": [
@@ -4723,16 +4722,15 @@
     "path": "RolePlus\\00Gift\\Golden\\ZaiJianYongBao",
     "attriDetialList": [],
     "attributeList": [],
-    "tempdesc": "【大暴走】增强为：\\n抽3张牌，优先红卡\\n基于抽到卡牌的费用之和，将等量的【链爆雷】抛向敌方区域\\n同时将手牌中的【莱格爆爆】直接打出\\n【链爆雷】为【爆炸物】，当附近有爆炸时激活引爆",
-    "desc": "【大暴走】增强为：\\n抽3张牌，优先红卡\\n基于抽到卡牌的费用之和，将等量的【链爆雷】抛向敌方区域\\n同时将手牌中的【莱格爆爆】直接打出\\n【链爆雷】为【爆炸物】，当附近有爆炸时激活引爆",
+    "tempdesc": "使用【弃牌】指令弃牌时，基于弃牌数量将等量的【链爆雷】抛向敌方区域",
+    "desc": "使用【弃牌】指令弃牌时，基于弃牌数量将等量的【链爆雷】抛向敌方区域",
     "awakeLv": 6,
-    "skillList": [],
-    "skillChangeList": [
+    "skillList": [
       {
-        "newSkillId": 12300277,
-        "oldSkillId": 12300025
+        "skillId": 12300277
       }
     ],
+    "skillChangeList": [],
     "skillParamOffsetList": [],
     "name": "再见拥抱！"
   },
@@ -5897,15 +5895,16 @@
     "path": "RolePlus\\00Gift\\Square\\ZhenLei",
     "attriDetialList": [],
     "attributeList": [],
-    "tempdesc": "使用【“惊蛰”】后，自身【普通攻击】的攻击速度提高至最大，同时触发【引雷】，持续6秒",
-    "desc": "使用【“惊蛰”】后，自身【普通攻击】的攻击速度提高至最大，同时触发<color=#FFB800>【引雷】</color>，持续6秒",
+    "tempdesc": "【“惊蛰”】增强为：\\n迅雷一击，对敌方造成1段伤害，同时触发【落雷】和【炽地】\\n使用后，生成1个【天火】",
+    "desc": "【“惊蛰”】增强为：\\n迅雷一击，对敌方造成1段伤害，同时触发<color=#FFB800>【落雷】</color>和<color=#FF6666>【炽地】</color>\\n使用后，生成1个【天火】",
     "awakeLv": 2,
-    "skillList": [
+    "skillList": [],
+    "skillChangeList": [
       {
-        "skillId": 12300401
+        "newSkillId": 12301609,
+        "oldSkillId": 12301104
       }
     ],
-    "skillChangeList": [],
     "skillParamOffsetList": [],
     "name": "震雷"
   },
@@ -5917,8 +5916,8 @@
     "path": "RolePlus\\00Gift\\Square\\QingMing",
     "attriDetialList": [],
     "attributeList": [],
-    "tempdesc": "每次生成【天火】时，回复自身5%生命值",
-    "desc": "每次生成【天火】时，回复自身5%生命值",
+    "tempdesc": "每次生成【天火】时，回复自身3%生命值",
+    "desc": "每次生成【天火】时，回复自身3%生命值",
     "awakeLv": 3,
     "skillList": [
       {
@@ -6729,8 +6728,8 @@
     "path": "RolePlus\\00Gift\\Golden\\FenXin",
     "attriDetialList": [],
     "attributeList": [],
-    "tempdesc": "【燃爆】造成的伤害提高20%",
-    "desc": "<color=#FF6666>【燃爆】</color>造成的伤害提高20%",
+    "tempdesc": "打出红卡后，生成1个【天火】",
+    "desc": "打出红卡后，生成1个【天火】",
     "awakeLv": 6,
     "skillList": [
       {
@@ -8900,8 +8899,8 @@
     "path": "RolePlus\\00Gift\\Golden\\BaoPoZhuanJia",
     "attriDetialList": [],
     "attributeList": [],
-    "tempdesc": "【集束炸弹】的爆炸范围增大，同时触发【崩坏】",
-    "desc": "【集束炸弹】的爆炸范围增大，同时触发<color=#FF6666>【崩坏】</color>",
+    "tempdesc": "【集束炸弹】的爆炸范围增大，同时触发【破盾】和【崩坏】",
+    "desc": "【集束炸弹】的爆炸范围增大，同时触发<color=#FF6666>【破盾】</color>和<color=#FF6666>【崩坏】</color>",
     "awakeLv": 6,
     "skillList": [],
     "skillChangeList": [
@@ -8935,14 +8934,14 @@
   },
   {
     "id": 12800243,
-    "idCN": "00原版/04四星/海因里希/共振2-突击",
+    "idCN": "00原版/04四星/海因里希/共振2-稳健",
     "mod": "基础天赋",
     "isInformalData": false,
-    "path": "RolePlus\\00Gift\\Square\\TuJi",
+    "path": "RolePlus\\00Gift\\Square\\XingMu",
     "attriDetialList": [],
     "attributeList": [],
-    "tempdesc": "使用【战术手雷】或【集束炸弹】后，【普通攻击】攻击速度提高至最大，持续6秒",
-    "desc": "使用【战术手雷】或【集束炸弹】后，【普通攻击】攻击速度提高至最大，持续6秒",
+    "tempdesc": "使用【爆破支援】后，使我方全体获得【护盾】，持续10秒\\n【护盾】的耐久为自身防御力的1000%",
+    "desc": "使用【爆破支援】后，使我方全体获得【护盾】，持续10秒\\n【护盾】的耐久为自身防御力的1000%",
     "awakeLv": 3,
     "skillList": [
       {
@@ -8951,7 +8950,7 @@
     ],
     "skillChangeList": [],
     "skillParamOffsetList": [],
-    "name": "突击"
+    "name": "稳健"
   },
   {
     "id": 12800244,
@@ -8983,8 +8982,8 @@
     "path": "RolePlus\\00Gift\\Square\\ShengCunFaZe",
     "attriDetialList": [],
     "attributeList": [],
-    "tempdesc": "每次造成击杀时，自身回复10%生命值",
-    "desc": "每次造成击杀时，自身回复10%生命值",
+    "tempdesc": "【战术手雷】被丢弃入弃牌区时，视为使用\\n使用【战术手雷】后，回复自身10%生命值",
+    "desc": "【战术手雷】被丢弃入弃牌区时，视为使用\\n使用【战术手雷】后，回复自身10%生命值",
     "awakeLv": 5,
     "skillList": [
       {

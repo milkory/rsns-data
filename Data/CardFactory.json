@@ -5,6 +5,7 @@
     "mod": "基础卡牌",
     "isInformalData": false,
     "name": "能量泡泡糖",
+    "isCutIn": false,
     "isNoCD": false,
     "isUseInHand": false,
     "isNotDiscard": false,
@@ -40,7 +41,14 @@
       }
     ],
     "tagOutsideList": [],
-    "deriveCardList": []
+    "deriveCardList": [],
+    "cardAIActionList": [
+      {
+        "actionId": 96300001,
+        "conditionId": -1,
+        "weight": 2
+      }
+    ]
   },
   {
     "id": 10600005,
@@ -1049,6 +1057,7 @@
     "mod": "基础卡牌",
     "isInformalData": false,
     "name": "家虎",
+    "isCutIn": false,
     "isNoCD": false,
     "isUseInHand": false,
     "isNotDiscard": false,
@@ -1087,7 +1096,14 @@
       }
     ],
     "tagOutsideList": [],
-    "deriveCardList": []
+    "deriveCardList": [],
+    "cardAIActionList": [
+      {
+        "actionId": 96300001,
+        "conditionId": -1,
+        "weight": 2
+      }
+    ]
   },
   {
     "id": 10600090,
@@ -1820,7 +1836,14 @@
       }
     ],
     "tagOutsideList": [],
-    "deriveCardList": []
+    "deriveCardList": [],
+    "cardAIActionList": [
+      {
+        "actionId": 96300001,
+        "conditionId": -1,
+        "weight": -2
+      }
+    ]
   },
   {
     "id": 10600114,
@@ -1910,10 +1933,10 @@
     "isCostX": false,
     "tagList": [
       {
-        "tagId": 12600314
+        "tagId": 12600007
       },
       {
-        "tagId": 12600007
+        "tagId": 12600314
       },
       {
         "tagId": 12600149
@@ -1929,7 +1952,8 @@
       }
     ],
     "tagOutsideList": [],
-    "deriveCardList": []
+    "deriveCardList": [],
+    "cardAIActionList": []
   },
   {
     "id": 10600154,
@@ -2023,7 +2047,13 @@
     ],
     "tagOutsideList": [],
     "deriveCardList": [],
-    "cardAIActionList": [],
+    "cardAIActionList": [
+      {
+        "actionId": 96300001,
+        "conditionId": -1,
+        "weight": 2
+      }
+    ],
     "distance_SN": 0,
     "radius_SN": 240000,
     "isUseTargetFilter": false,
@@ -2137,6 +2167,9 @@
       },
       {
         "tagId": 12600146
+      },
+      {
+        "tagId": 12600057
       }
     ],
     "tagOutsideList": [],
@@ -2191,17 +2224,22 @@
       },
       {
         "tagId": 12600210
+      },
+      {
+        "tagId": 12600057
       }
     ],
     "tagOutsideList": [],
-    "deriveCardList": []
+    "deriveCardList": [],
+    "cardAIActionList": []
   },
   {
     "id": 10600170,
-    "idCN": "00原版/05五星/伊洛娜/A",
+    "idCN": "00原版/05五星/伊洛娜/A-0",
     "mod": "基础卡牌",
     "isInformalData": false,
     "name": "锁定狙击",
+    "isCutIn": false,
     "isNoCD": false,
     "isUseInHand": false,
     "isNotDiscard": false,
@@ -2212,10 +2250,10 @@
     "cardType": "Normal",
     "sameCardGroupId": -1,
     "actionId": 10100746,
-    "cost_SN": 20000,
+    "cost_SN": 10000,
     "inhandBuffId": -1,
-    "inhandOverBuffId": 10405204,
-    "startBuffId": -1,
+    "inhandOverBuffId": -1,
+    "startBuffId": 10410073,
     "discardBuffId": -1,
     "discardBySkillBuffId": -1,
     "banishBuffId": -1,
@@ -2237,7 +2275,8 @@
       }
     ],
     "tagOutsideList": [],
-    "deriveCardList": []
+    "deriveCardList": [],
+    "cardAIActionList": []
   },
   {
     "id": 10600173,
@@ -2259,7 +2298,7 @@
     "cost_SN": 40000,
     "inhandBuffId": -1,
     "inhandOverBuffId": -1,
-    "startBuffId": -1,
+    "startBuffId": 10410064,
     "discardBuffId": -1,
     "discardBySkillBuffId": -1,
     "banishBuffId": -1,
@@ -2287,7 +2326,8 @@
       }
     ],
     "tagOutsideList": [],
-    "deriveCardList": []
+    "deriveCardList": [],
+    "cardAIActionList": []
   },
   {
     "id": 10600174,
@@ -2346,8 +2386,10 @@
     "mod": "基础卡牌",
     "isInformalData": false,
     "name": "灵蝶环舞",
+    "isCutIn": false,
     "isNoCD": false,
     "isUseInHand": false,
+    "isNotDiscard": false,
     "iconPath": "RolePlus\\Arcana\\skillicon\\B",
     "backPath": "",
     "roleImgPath": "",
@@ -2368,6 +2410,8 @@
     "disappearEffectId": 11100047,
     "appearEffectId": 11100046,
     "createEffectId": 11100106,
+    "destroyEffectId": -1,
+    "createTweenDelay": 30,
     "isCostX": false,
     "tagList": [
       {
@@ -2378,7 +2422,14 @@
       }
     ],
     "tagOutsideList": [],
-    "deriveCardList": []
+    "deriveCardList": [],
+    "cardAIActionList": [
+      {
+        "actionId": 96300001,
+        "conditionId": -1,
+        "weight": 2
+      }
+    ]
   },
   {
     "id": 10600176,
@@ -2758,54 +2809,6 @@
     "deriveCardList": []
   },
   {
-    "id": 10600012,
-    "idCN": "00原版/05五星/多萝西/A",
-    "mod": "基础卡牌",
-    "isInformalData": false,
-    "name": "莱格宝宝",
-    "isCutIn": false,
-    "isNoCD": false,
-    "isUseInHand": false,
-    "isNotDiscard": false,
-    "iconPath": "RolePlus\\Dorothy\\skillicon\\A-0",
-    "backPath": "",
-    "roleImgPath": "",
-    "color": "Red",
-    "cardType": "Normal",
-    "sameCardGroupId": -1,
-    "actionId": 10100385,
-    "cost_SN": 30000,
-    "inhandBuffId": -1,
-    "inhandOverBuffId": -1,
-    "startBuffId": -1,
-    "discardBuffId": -1,
-    "discardBySkillBuffId": -1,
-    "banishBuffId": -1,
-    "atkAreaType": "Single",
-    "atkAreaColor": "Yellow",
-    "targetColor": "AttackTest",
-    "disappearEffectId": 11100047,
-    "appearEffectId": 11100046,
-    "createEffectId": 11100106,
-    "destroyEffectId": -1,
-    "createTweenDelay": 30,
-    "isCostX": false,
-    "tagList": [
-      {
-        "tagId": 12600104
-      },
-      {
-        "tagId": 12600145
-      },
-      {
-        "tagId": 12600057
-      }
-    ],
-    "tagOutsideList": [],
-    "deriveCardList": [],
-    "cardAIActionList": []
-  },
-  {
     "id": 10600013,
     "idCN": "00原版/05五星/多萝西/S",
     "mod": "基础卡牌",
@@ -2825,7 +2828,7 @@
     "cost_SN": 50000,
     "inhandBuffId": -1,
     "inhandOverBuffId": -1,
-    "startBuffId": 10401465,
+    "startBuffId": 10401391,
     "discardBuffId": -1,
     "discardBySkillBuffId": -1,
     "banishBuffId": -1,
@@ -2853,11 +2856,12 @@
       }
     ],
     "tagOutsideList": [],
-    "deriveCardList": []
+    "deriveCardList": [],
+    "cardAIActionList": []
   },
   {
     "id": 10600017,
-    "idCN": "00原版/05五星/多萝西/A共振4",
+    "idCN": "00原版/05五星/多萝西/A",
     "mod": "基础卡牌",
     "isInformalData": false,
     "name": "莱格爆爆",
@@ -2865,7 +2869,7 @@
     "isNoCD": false,
     "isUseInHand": false,
     "isNotDiscard": false,
-    "iconPath": "RolePlus\\Dorothy\\skillicon\\A-1",
+    "iconPath": "RolePlus\\Dorothy\\skillicon\\A",
     "backPath": "",
     "roleImgPath": "",
     "color": "Red",
@@ -2875,8 +2879,8 @@
     "cost_SN": 30000,
     "inhandBuffId": -1,
     "inhandOverBuffId": -1,
-    "startBuffId": -1,
-    "discardBuffId": -1,
+    "startBuffId": 10401595,
+    "discardBuffId": 10402945,
     "discardBySkillBuffId": -1,
     "banishBuffId": -1,
     "atkAreaType": "Single",
@@ -3823,8 +3827,10 @@
     "mod": "基础卡牌",
     "isInformalData": false,
     "name": "能量豆",
+    "isCutIn": false,
     "isNoCD": false,
     "isUseInHand": false,
+    "isNotDiscard": false,
     "iconPath": "RolePlus\\Rachel\\skillicon\\B-1",
     "backPath": "",
     "roleImgPath": "",
@@ -3845,6 +3851,8 @@
     "disappearEffectId": 11100047,
     "appearEffectId": 11100046,
     "createEffectId": 11100106,
+    "destroyEffectId": -1,
+    "createTweenDelay": 30,
     "isCostX": false,
     "tagList": [
       {
@@ -3852,7 +3860,14 @@
       }
     ],
     "tagOutsideList": [],
-    "deriveCardList": []
+    "deriveCardList": [],
+    "cardAIActionList": [
+      {
+        "actionId": 96300001,
+        "conditionId": -1,
+        "weight": 2
+      }
+    ]
   },
   {
     "id": 10600025,
@@ -4527,14 +4542,14 @@
     "iconPath": "RolePlus\\Dorothy\\skillicon\\B",
     "backPath": "",
     "roleImgPath": "",
-    "color": "Purple",
+    "color": "Red",
     "cardType": "Normal",
     "sameCardGroupId": -1,
     "actionId": 10100386,
-    "cost_SN": 40000,
+    "cost_SN": 30000,
     "inhandBuffId": -1,
     "inhandOverBuffId": -1,
-    "startBuffId": -1,
+    "startBuffId": 10400428,
     "discardBuffId": -1,
     "discardBySkillBuffId": -1,
     "banishBuffId": -1,
@@ -4549,17 +4564,18 @@
     "isCostX": false,
     "tagList": [
       {
-        "tagId": 12600057
-      },
-      {
-        "tagId": 12600073
-      },
-      {
         "tagId": 12600498
+      },
+      {
+        "tagId": 12600145
+      },
+      {
+        "tagId": 12600057
       }
     ],
     "tagOutsideList": [],
-    "deriveCardList": []
+    "deriveCardList": [],
+    "cardAIActionList": []
   },
   {
     "id": 10600128,
@@ -6445,7 +6461,14 @@
       }
     ],
     "tagOutsideList": [],
-    "deriveCardList": []
+    "deriveCardList": [],
+    "cardAIActionList": [
+      {
+        "actionId": 96300001,
+        "conditionId": -1,
+        "weight": -2
+      }
+    ]
   },
   {
     "id": 10600237,
@@ -6944,7 +6967,7 @@
     "cost_SN": 50000,
     "inhandBuffId": -1,
     "inhandOverBuffId": -1,
-    "startBuffId": -1,
+    "startBuffId": 10410246,
     "discardBuffId": -1,
     "discardBySkillBuffId": -1,
     "banishBuffId": -1,
@@ -6959,9 +6982,6 @@
     "isCostX": false,
     "tagList": [
       {
-        "tagId": 12600007
-      },
-      {
         "tagId": 12600088
       },
       {
@@ -6969,6 +6989,9 @@
       },
       {
         "tagId": 12600145
+      },
+      {
+        "tagId": 12601159
       }
     ],
     "tagOutsideList": [],
@@ -7166,10 +7189,14 @@
       },
       {
         "tagId": 12600210
+      },
+      {
+        "tagId": 12600057
       }
     ],
     "tagOutsideList": [],
-    "deriveCardList": []
+    "deriveCardList": [],
+    "cardAIActionList": []
   },
   {
     "id": 10600049,
@@ -7518,7 +7545,13 @@
     ],
     "tagOutsideList": [],
     "deriveCardList": [],
-    "cardAIActionList": []
+    "cardAIActionList": [
+      {
+        "actionId": 96300001,
+        "conditionId": -1,
+        "weight": 2
+      }
+    ]
   },
   {
     "id": 10600044,
@@ -7526,8 +7559,10 @@
     "mod": "无动作卡",
     "isInformalData": false,
     "name": "元素核·火",
+    "isCutIn": false,
     "isNoCD": false,
     "isUseInHand": false,
+    "isNotDiscard": false,
     "iconPath": "RolePlus\\02Common\\skillicon\\YuanSuHeHuo",
     "backPath": "",
     "roleImgPath": "",
@@ -7547,6 +7582,8 @@
     "disappearEffectId": 11100047,
     "appearEffectId": 11100046,
     "createEffectId": 11100106,
+    "destroyEffectId": -1,
+    "createTweenDelay": 30,
     "isCostX": false,
     "tagList": [
       {
@@ -7564,11 +7601,19 @@
     ],
     "tagOutsideList": [],
     "deriveCardList": [],
+    "cardAIActionList": [
+      {
+        "actionId": 96300001,
+        "conditionId": -1,
+        "weight": 2
+      }
+    ],
     "distance_SN": 0,
     "radius_SN": 0,
     "isUseTargetFilter": true,
     "targetType": "Every",
     "targetTagList": [],
+    "tagType": "And",
     "halfWidth_SN": 0,
     "attributeType": "生命值上限",
     "condition": "All",
@@ -7756,7 +7801,7 @@
     "idCN": "04测试/绿卡",
     "mod": "无动作卡",
     "isInformalData": false,
-    "name": "绿卡",
+    "name": "",
     "isCutIn": false,
     "isNoCD": false,
     "isUseInHand": false,
@@ -7790,6 +7835,7 @@
     ],
     "tagOutsideList": [],
     "deriveCardList": [],
+    "cardAIActionList": [],
     "distance_SN": 20000,
     "radius_SN": 0,
     "isUseTargetFilter": false,
@@ -7815,7 +7861,7 @@
     "idCN": "04测试/红卡",
     "mod": "无动作卡",
     "isInformalData": false,
-    "name": "红卡",
+    "name": "",
     "isCutIn": false,
     "isNoCD": false,
     "isUseInHand": false,
@@ -7849,6 +7895,7 @@
     ],
     "tagOutsideList": [],
     "deriveCardList": [],
+    "cardAIActionList": [],
     "distance_SN": 20000,
     "radius_SN": 0,
     "isUseTargetFilter": false,
@@ -7874,7 +7921,7 @@
     "idCN": "04测试/黑卡",
     "mod": "无动作卡",
     "isInformalData": false,
-    "name": "黑卡",
+    "name": "",
     "isCutIn": false,
     "isNoCD": false,
     "isUseInHand": false,
@@ -7908,6 +7955,7 @@
     ],
     "tagOutsideList": [],
     "deriveCardList": [],
+    "cardAIActionList": [],
     "distance_SN": 20000,
     "radius_SN": 0,
     "isUseTargetFilter": false,
@@ -7933,7 +7981,7 @@
     "idCN": "04测试/蓝卡",
     "mod": "无动作卡",
     "isInformalData": false,
-    "name": "蓝卡",
+    "name": "",
     "isCutIn": false,
     "isNoCD": false,
     "isUseInHand": false,
@@ -7967,6 +8015,7 @@
     ],
     "tagOutsideList": [],
     "deriveCardList": [],
+    "cardAIActionList": [],
     "distance_SN": 20000,
     "radius_SN": 0,
     "isUseTargetFilter": false,
@@ -7992,7 +8041,7 @@
     "idCN": "04测试/黄卡",
     "mod": "无动作卡",
     "isInformalData": false,
-    "name": "黄卡",
+    "name": "",
     "isCutIn": false,
     "isNoCD": false,
     "isUseInHand": false,
@@ -8026,6 +8075,7 @@
     ],
     "tagOutsideList": [],
     "deriveCardList": [],
+    "cardAIActionList": [],
     "distance_SN": 20000,
     "radius_SN": 0,
     "isUseTargetFilter": false,
@@ -9075,6 +9125,7 @@
     "mod": "无动作卡",
     "isInformalData": false,
     "name": "元素核·电",
+    "isCutIn": false,
     "isNoCD": false,
     "isUseInHand": false,
     "isNotDiscard": false,
@@ -9107,6 +9158,13 @@
     ],
     "tagOutsideList": [],
     "deriveCardList": [],
+    "cardAIActionList": [
+      {
+        "actionId": 96300001,
+        "conditionId": -1,
+        "weight": 2
+      }
+    ],
     "distance_SN": 0,
     "radius_SN": 0,
     "isUseTargetFilter": true,
@@ -9133,8 +9191,10 @@
     "mod": "无动作卡",
     "isInformalData": false,
     "name": "元素核·冰",
+    "isCutIn": false,
     "isNoCD": false,
     "isUseInHand": false,
+    "isNotDiscard": false,
     "iconPath": "RolePlus\\02Common\\skillicon\\YuanSuHeBing",
     "backPath": "",
     "roleImgPath": "",
@@ -9154,6 +9214,8 @@
     "disappearEffectId": 11100047,
     "appearEffectId": 11100046,
     "createEffectId": 11100106,
+    "destroyEffectId": -1,
+    "createTweenDelay": 30,
     "isCostX": false,
     "tagList": [
       {
@@ -9174,11 +9236,19 @@
     ],
     "tagOutsideList": [],
     "deriveCardList": [],
+    "cardAIActionList": [
+      {
+        "actionId": 96300001,
+        "conditionId": -1,
+        "weight": 2
+      }
+    ],
     "distance_SN": 0,
     "radius_SN": 0,
     "isUseTargetFilter": true,
     "targetType": "Every",
     "targetTagList": [],
+    "tagType": "And",
     "halfWidth_SN": 0,
     "attributeType": "生命值上限",
     "condition": "All",
@@ -9895,6 +9965,7 @@
     "mod": "无动作卡",
     "isInformalData": false,
     "name": "金9",
+    "isCutIn": false,
     "isNoCD": false,
     "isUseInHand": false,
     "isNotDiscard": false,
@@ -9930,6 +10001,13 @@
     ],
     "tagOutsideList": [],
     "deriveCardList": [],
+    "cardAIActionList": [
+      {
+        "actionId": 96300001,
+        "conditionId": -1,
+        "weight": 2
+      }
+    ],
     "distance_SN": 0,
     "radius_SN": 0,
     "isUseTargetFilter": false,
@@ -10893,7 +10971,13 @@
     ],
     "tagOutsideList": [],
     "deriveCardList": [],
-    "cardAIActionList": []
+    "cardAIActionList": [
+      {
+        "actionId": 96300001,
+        "conditionId": -1,
+        "weight": 2
+      }
+    ]
   },
   {
     "id": 10600291,
@@ -11065,7 +11149,13 @@
     ],
     "tagOutsideList": [],
     "deriveCardList": [],
-    "cardAIActionList": []
+    "cardAIActionList": [
+      {
+        "actionId": 96300001,
+        "conditionId": -1,
+        "weight": 2
+      }
+    ]
   },
   {
     "id": 10600284,
@@ -11685,56 +11775,6 @@
       },
       {
         "tagId": 12600493
-      }
-    ],
-    "tagOutsideList": [],
-    "deriveCardList": []
-  },
-  {
-    "id": 10600119,
-    "idCN": "00原版/05五星/多萝西/S共振5",
-    "mod": "基础卡牌",
-    "isInformalData": false,
-    "name": "大暴走",
-    "isCutIn": true,
-    "isNoCD": false,
-    "isUseInHand": false,
-    "isNotDiscard": false,
-    "iconPath": "RolePlus\\Dorothy\\skillicon\\S",
-    "backPath": "",
-    "roleImgPath": "",
-    "color": "Yellow",
-    "cardType": "Normal",
-    "sameCardGroupId": -1,
-    "actionId": 10100321,
-    "cost_SN": 50000,
-    "inhandBuffId": -1,
-    "inhandOverBuffId": -1,
-    "startBuffId": 10401465,
-    "discardBuffId": -1,
-    "discardBySkillBuffId": -1,
-    "banishBuffId": -1,
-    "atkAreaType": "Direction",
-    "atkAreaColor": "Yellow",
-    "targetColor": "AttackTest",
-    "disappearEffectId": 11100047,
-    "appearEffectId": 11100046,
-    "createEffectId": 11100106,
-    "destroyEffectId": -1,
-    "createTweenDelay": 30,
-    "isCostX": false,
-    "tagList": [
-      {
-        "tagId": 12600107
-      },
-      {
-        "tagId": 12600007
-      },
-      {
-        "tagId": 12600146
-      },
-      {
-        "tagId": 12600057
       }
     ],
     "tagOutsideList": [],
@@ -12573,6 +12613,9 @@
       },
       {
         "tagId": 12600496
+      },
+      {
+        "tagId": 12600057
       }
     ],
     "tagOutsideList": [
@@ -12619,6 +12662,9 @@
     "tagList": [
       {
         "tagId": 12600146
+      },
+      {
+        "tagId": 12600057
       }
     ],
     "tagOutsideList": [
@@ -12670,13 +12716,16 @@
         "tagId": 12600145
       },
       {
-        "tagId": 12600206
+        "tagId": 12600207
+      },
+      {
+        "tagId": 12600216
       },
       {
         "tagId": 12600208
       },
       {
-        "tagId": 12600210
+        "tagId": 12600057
       }
     ],
     "tagOutsideList": [
@@ -13526,7 +13575,14 @@
       }
     ],
     "tagOutsideList": [],
-    "deriveCardList": []
+    "deriveCardList": [],
+    "cardAIActionList": [
+      {
+        "actionId": 96300001,
+        "conditionId": -1,
+        "weight": 2
+      }
+    ]
   },
   {
     "id": 10600332,
@@ -13578,7 +13634,7 @@
       {
         "actionId": 96300003,
         "conditionId": -1,
-        "weight": 1
+        "weight": 2
       }
     ]
   },
@@ -13588,6 +13644,7 @@
     "mod": "基础卡牌",
     "isInformalData": false,
     "name": "魔力泉",
+    "isCutIn": false,
     "isNoCD": false,
     "isUseInHand": false,
     "isNotDiscard": false,
@@ -13611,6 +13668,8 @@
     "disappearEffectId": 11100047,
     "appearEffectId": 11100046,
     "createEffectId": 11100106,
+    "destroyEffectId": -1,
+    "createTweenDelay": 30,
     "isCostX": false,
     "tagList": [
       {
@@ -13618,7 +13677,14 @@
       }
     ],
     "tagOutsideList": [],
-    "deriveCardList": []
+    "deriveCardList": [],
+    "cardAIActionList": [
+      {
+        "actionId": 96300001,
+        "conditionId": -1,
+        "weight": 2
+      }
+    ]
   },
   {
     "id": 10600334,
@@ -13664,7 +13730,7 @@
       {
         "actionId": 96300003,
         "conditionId": -1,
-        "weight": 1
+        "weight": 2
       }
     ]
   },
@@ -14159,7 +14225,7 @@
     "cost_SN": 20000,
     "inhandBuffId": -1,
     "inhandOverBuffId": -1,
-    "startBuffId": -1,
+    "startBuffId": 10409822,
     "discardBuffId": -1,
     "discardBySkillBuffId": -1,
     "banishBuffId": -1,
@@ -14249,10 +14315,10 @@
     "cardType": "Normal",
     "sameCardGroupId": -1,
     "actionId": 10101143,
-    "cost_SN": 30000,
+    "cost_SN": 10000,
     "inhandBuffId": -1,
     "inhandOverBuffId": -1,
-    "startBuffId": -1,
+    "startBuffId": 10403620,
     "discardBuffId": -1,
     "discardBySkillBuffId": -1,
     "banishBuffId": -1,
@@ -17119,7 +17185,13 @@
     ],
     "tagOutsideList": [],
     "deriveCardList": [],
-    "cardAIActionList": []
+    "cardAIActionList": [
+      {
+        "actionId": 96300001,
+        "conditionId": -1,
+        "weight": 2
+      }
+    ]
   },
   {
     "id": 10600350,
@@ -17164,7 +17236,13 @@
     ],
     "tagOutsideList": [],
     "deriveCardList": [],
-    "cardAIActionList": []
+    "cardAIActionList": [
+      {
+        "actionId": 96300001,
+        "conditionId": -1,
+        "weight": 2
+      }
+    ]
   },
   {
     "id": 10600351,
@@ -17215,7 +17293,13 @@
     ],
     "tagOutsideList": [],
     "deriveCardList": [],
-    "cardAIActionList": []
+    "cardAIActionList": [
+      {
+        "actionId": 96300001,
+        "conditionId": -1,
+        "weight": 2
+      }
+    ]
   },
   {
     "id": 10600352,
@@ -17260,7 +17344,13 @@
     ],
     "tagOutsideList": [],
     "deriveCardList": [],
-    "cardAIActionList": []
+    "cardAIActionList": [
+      {
+        "actionId": 96300001,
+        "conditionId": -1,
+        "weight": 2
+      }
+    ]
   },
   {
     "id": 10600353,
@@ -17618,11 +17708,11 @@
     "iconPath": "RolePlus\\02Common\\skillicon\\AnYi",
     "backPath": "",
     "roleImgPath": "",
-    "color": "Red",
+    "color": "Purple",
     "cardType": "Normal",
     "sameCardGroupId": -1,
     "cost_SN": 20000,
-    "inhandBuffId": 10404065,
+    "inhandBuffId": -1,
     "inhandOverBuffId": -1,
     "startBuffId": 10401075,
     "discardBuffId": -1,
@@ -17639,7 +17729,7 @@
     "isCostX": false,
     "tagList": [
       {
-        "tagId": 12600145
+        "tagId": 12600073
       },
       {
         "tagId": 12600074
@@ -17676,7 +17766,7 @@
   },
   {
     "id": 10600086,
-    "idCN": "00原版/05五星/索玛/S强化",
+    "idCN": "00原版/05五星/索玛/S大范围",
     "mod": "基础卡牌",
     "isInformalData": false,
     "name": "血之冠",
@@ -17727,7 +17817,7 @@
   },
   {
     "id": 10600243,
-    "idCN": "00原版/05五星/索玛/A强化",
+    "idCN": "00原版/05五星/索玛/A大范围",
     "mod": "基础卡牌",
     "isInformalData": false,
     "name": "血牙",
@@ -17745,7 +17835,7 @@
     "cost_SN": 20000,
     "inhandBuffId": -1,
     "inhandOverBuffId": -1,
-    "startBuffId": -1,
+    "startBuffId": 10409822,
     "discardBuffId": -1,
     "discardBySkillBuffId": -1,
     "banishBuffId": -1,
@@ -17793,7 +17883,7 @@
     "cost_SN": 50000,
     "inhandBuffId": -1,
     "inhandOverBuffId": -1,
-    "startBuffId": 10408771,
+    "startBuffId": 10409851,
     "discardBuffId": -1,
     "discardBySkillBuffId": -1,
     "banishBuffId": -1,
@@ -18046,11 +18136,20 @@
       },
       {
         "tagId": 12601121
+      },
+      {
+        "tagId": 12600057
       }
     ],
     "tagOutsideList": [],
     "deriveCardList": [],
-    "cardAIActionList": []
+    "cardAIActionList": [
+      {
+        "actionId": 96300001,
+        "conditionId": -1,
+        "weight": 2
+      }
+    ]
   },
   {
     "id": 10600361,
@@ -18093,7 +18192,7 @@
         "tagId": 12600145
       },
       {
-        "tagId": 12600466
+        "tagId": 12600149
       },
       {
         "tagId": 12600057
@@ -18126,8 +18225,8 @@
     "cost_SN": 20000,
     "inhandBuffId": -1,
     "inhandOverBuffId": -1,
-    "startBuffId": -1,
-    "discardBuffId": -1,
+    "startBuffId": 10410059,
+    "discardBuffId": 10410058,
     "discardBySkillBuffId": -1,
     "banishBuffId": -1,
     "atkAreaType": "TargetArea",
@@ -18144,10 +18243,7 @@
         "tagId": 12600145
       },
       {
-        "tagId": 12600271
-      },
-      {
-        "tagId": 12600206
+        "tagId": 12600128
       },
       {
         "tagId": 12600019
@@ -18357,13 +18453,16 @@
         "tagId": 12600145
       },
       {
-        "tagId": 12600466
+        "tagId": 12600149
       },
       {
         "tagId": 12600057
       },
       {
         "tagId": 12601108
+      },
+      {
+        "tagId": 12600466
       },
       {
         "tagId": 12600082
@@ -18472,6 +18571,112 @@
     "tagOutsideList": [
       {
         "tagId": 12600590
+      }
+    ],
+    "deriveCardList": [],
+    "cardAIActionList": []
+  },
+  {
+    "id": 10600012,
+    "idCN": "00原版/05五星/伊洛娜/A-1",
+    "mod": "基础卡牌",
+    "isInformalData": false,
+    "name": "锁定狙击",
+    "isCutIn": false,
+    "isNoCD": false,
+    "isUseInHand": false,
+    "isNotDiscard": false,
+    "iconPath": "RolePlus\\Ilona\\skillicon\\A",
+    "backPath": "",
+    "roleImgPath": "",
+    "color": "Red",
+    "cardType": "Normal",
+    "sameCardGroupId": -1,
+    "actionId": 10100037,
+    "cost_SN": 10000,
+    "inhandBuffId": -1,
+    "inhandOverBuffId": -1,
+    "startBuffId": 10410073,
+    "discardBuffId": -1,
+    "discardBySkillBuffId": -1,
+    "banishBuffId": -1,
+    "atkAreaType": "Single",
+    "atkAreaColor": "Yellow",
+    "targetColor": "AttackTest",
+    "disappearEffectId": 11100047,
+    "appearEffectId": 11100046,
+    "createEffectId": 11100106,
+    "destroyEffectId": -1,
+    "createTweenDelay": 30,
+    "isCostX": false,
+    "tagList": [
+      {
+        "tagId": 12600134
+      },
+      {
+        "tagId": 12600145
+      },
+      {
+        "tagId": 12600057
+      }
+    ],
+    "tagOutsideList": [],
+    "deriveCardList": [],
+    "cardAIActionList": []
+  },
+  {
+    "id": 10600119,
+    "idCN": "00原版/05五星/达斯廷/A共振1",
+    "mod": "基础卡牌",
+    "isInformalData": false,
+    "name": "“惊蛰”",
+    "isCutIn": false,
+    "isNoCD": false,
+    "isUseInHand": false,
+    "isNotDiscard": false,
+    "iconPath": "RolePlus\\Dustin\\skillicon\\A",
+    "backPath": "",
+    "roleImgPath": "",
+    "color": "Red",
+    "cardType": "Normal",
+    "sameCardGroupId": -1,
+    "actionId": 10100393,
+    "cost_SN": 20000,
+    "inhandBuffId": -1,
+    "inhandOverBuffId": -1,
+    "startBuffId": -1,
+    "discardBuffId": -1,
+    "discardBySkillBuffId": -1,
+    "banishBuffId": -1,
+    "atkAreaType": "Direction",
+    "atkAreaColor": "Yellow",
+    "targetColor": "AttackTest",
+    "disappearEffectId": 11100047,
+    "appearEffectId": 11100046,
+    "createEffectId": 11100106,
+    "destroyEffectId": -1,
+    "createTweenDelay": 30,
+    "isCostX": false,
+    "tagList": [
+      {
+        "tagId": 12600145
+      },
+      {
+        "tagId": 12600271
+      },
+      {
+        "tagId": 12600207
+      },
+      {
+        "tagId": 12600496
+      },
+      {
+        "tagId": 12600057
+      }
+    ],
+    "tagOutsideList": [
+      {
+        "tagId": 12600223
       }
     ],
     "deriveCardList": [],

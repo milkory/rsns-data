@@ -139,19 +139,21 @@
   },
   {
     "id": 10800022,
-    "idCN": "复合/多萝西-cd30爆炸物减3",
-    "mod": "累计入手卡牌数量",
+    "idCN": "复合/多萝西-cd30爆炸物减5",
+    "mod": "使用指定Tag卡牌",
     "isInformalData": false,
-    "isTimeProg": true,
-    "progAddNum": 3,
     "progressMax": 30,
-    "isOnlyDeck": true,
     "tagList": [
       {
         "tagId": 12600057
       }
     ],
-    "tagType": "And"
+    "tagType": "Or",
+    "reverseTagList": [],
+    "reverseTagType": "And",
+    "isContinue": false,
+    "isTimeProg": true,
+    "progAddNum": 5
   },
   {
     "id": 10800023,
@@ -432,16 +434,16 @@
   },
   {
     "id": 10800035,
-    "idCN": "复合/伊洛娜-cd30抽A减10",
+    "idCN": "复合/伊洛娜-cd30抽红减4",
     "mod": "累计入手卡牌数量",
     "isInformalData": false,
     "isTimeProg": true,
-    "progAddNum": 10,
-    "progressMax": 30,
+    "progAddNum": 4,
+    "progressMax": 32,
     "isOnlyDeck": false,
     "tagList": [
       {
-        "tagId": 12600134
+        "tagId": 12600145
       }
     ],
     "tagType": "And"
@@ -505,15 +507,10 @@
   },
   {
     "id": 10800040,
-    "idCN": "复合/奈弥-cd30混乱减5",
-    "mod": "玩家修改Buff层数",
+    "idCN": "cd/奈弥-cd30",
+    "mod": "等待秒数",
     "isInformalData": false,
-    "progressMax": 30,
-    "buffFO": 10402107,
-    "isPositive": true,
-    "isNegative": false,
-    "isTimeProg": true,
-    "progAddNum": 5
+    "progressMax": 30
   },
   {
     "id": 10800046,
@@ -561,11 +558,15 @@
   },
   {
     "id": 10800053,
-    "idCN": "自身层数/8天火",
-    "mod": "队长Buff层数",
+    "idCN": "施加层数/达斯廷-生成8天火",
+    "mod": "玩家修改Buff层数",
     "isInformalData": false,
     "progressMax": 8,
-    "buffFO": 10406154
+    "buffFO": 10410322,
+    "isPositive": true,
+    "isNegative": false,
+    "isTimeProg": false,
+    "progAddNum": 1
   },
   {
     "id": 10800054,
@@ -626,15 +627,21 @@
   },
   {
     "id": 10800059,
-    "idCN": "复合/索玛-cd35斩裂崩坏减5",
-    "mod": "玩家修改Buff层数",
+    "idCN": "用Tag卡/索玛-cd35暗艺减10",
+    "mod": "使用指定Tag卡牌",
     "isInformalData": false,
     "progressMax": 35,
-    "buffFO": 10408799,
-    "isPositive": true,
-    "isNegative": false,
+    "tagList": [
+      {
+        "tagId": 12600074
+      }
+    ],
+    "tagType": "Or",
+    "reverseTagList": [],
+    "reverseTagType": "And",
+    "isContinue": false,
     "isTimeProg": true,
-    "progAddNum": 5
+    "progAddNum": 10
   },
   {
     "id": 10800060,
@@ -1019,21 +1026,19 @@
   },
   {
     "id": 10800073,
-    "idCN": "用Tag卡/5次爆炸物",
-    "mod": "使用指定Tag卡牌",
+    "idCN": "牌库抽卡/8爆炸物",
+    "mod": "累计入手卡牌数量",
     "isInformalData": false,
-    "progressMax": 5,
+    "isTimeProg": false,
+    "progAddNum": 1,
+    "progressMax": 8,
+    "isOnlyDeck": true,
     "tagList": [
       {
         "tagId": 12600057
       }
     ],
-    "tagType": "Or",
-    "reverseTagList": [],
-    "reverseTagType": "And",
-    "isContinue": false,
-    "isTimeProg": false,
-    "progAddNum": 1
+    "tagType": "Or"
   },
   {
     "id": 10800078,

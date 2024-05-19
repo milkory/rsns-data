@@ -17,7 +17,7 @@
     "bmRockItemId": 11400005,
     "energyItemId": 11400006,
     "resonanceSourceMaterialList": [],
-    "roleLevelMax": 60,
+    "roleLevelMax": 65,
     "mainChapter": [],
     "scoreRankComparison": [
       {
@@ -54,6 +54,38 @@
       },
       {
         "defaultSquadName": "第四编队",
+        "unlockLevelId": -1
+      },
+      {
+        "defaultSquadName": "第五编队",
+        "unlockLevelId": -1
+      },
+      {
+        "defaultSquadName": "第六编队",
+        "unlockLevelId": -1
+      },
+      {
+        "defaultSquadName": "第七编队",
+        "unlockLevelId": -1
+      },
+      {
+        "defaultSquadName": "第八编队",
+        "unlockLevelId": -1
+      },
+      {
+        "defaultSquadName": "第九编队",
+        "unlockLevelId": -1
+      },
+      {
+        "defaultSquadName": "第十编队",
+        "unlockLevelId": -1
+      },
+      {
+        "defaultSquadName": "第十一编队",
+        "unlockLevelId": -1
+      },
+      {
+        "defaultSquadName": "第十二编队",
         "unlockLevelId": -1
       }
     ],
@@ -105,7 +137,7 @@
     "equipmentBag": 2000,
     "itemBag": 1000,
     "materialBag": 1000,
-    "furnitureBag": 5000,
+    "furnitureBag": 3000,
     "playerHeadList": [
       {
         "playerHeadPath": "UI\\Common\\PlayerHead\\A_01"
@@ -533,7 +565,9 @@
     "gradeUp": -1,
     "repLevelUp": -1,
     "TradeLevelUp": -1,
-    "PlotTextChange": 30000002
+    "PlotTextChange": 30000002,
+    "coreSelect": 30003395,
+    "coreRotate": 30003394
   },
   {
     "id": 99900003,
@@ -1268,7 +1302,42 @@
         "EnergyMax": 238,
         "homeEnergyMax": 712,
         "levelUpEnergy": 60,
-        "levelUpExp": 940,
+        "levelUpExp": 1040,
+        "reduceHomeEnergy": 60
+      },
+      {
+        "EnergyMax": 240,
+        "homeEnergyMax": 720,
+        "levelUpEnergy": 60,
+        "levelUpExp": 1180,
+        "reduceHomeEnergy": 60
+      },
+      {
+        "EnergyMax": 242,
+        "homeEnergyMax": 728,
+        "levelUpEnergy": 60,
+        "levelUpExp": 1340,
+        "reduceHomeEnergy": 60
+      },
+      {
+        "EnergyMax": 244,
+        "homeEnergyMax": 736,
+        "levelUpEnergy": 60,
+        "levelUpExp": 1520,
+        "reduceHomeEnergy": 60
+      },
+      {
+        "EnergyMax": 246,
+        "homeEnergyMax": 744,
+        "levelUpEnergy": 60,
+        "levelUpExp": 1720,
+        "reduceHomeEnergy": 60
+      },
+      {
+        "EnergyMax": 248,
+        "homeEnergyMax": 752,
+        "levelUpEnergy": 60,
+        "levelUpExp": 1940,
         "reduceHomeEnergy": 60
       }
     ]
@@ -2004,6 +2073,15 @@
       },
       {
         "id": 81000111
+      },
+      {
+        "id": 81000159
+      },
+      {
+        "id": 81000160
+      },
+      {
+        "id": 81000161
       }
     ],
     "passByChapterId": [],
@@ -7822,7 +7900,7 @@
     "mod": "贸易经验表",
     "isInformalData": false,
     "nameEN": "TradeExpConfig",
-    "levelMax": 60,
+    "levelMax": 65,
     "expList": [
       {
         "bargainRange": 0.031,
@@ -9689,7 +9767,7 @@
     "mod": "装备配置",
     "isInformalData": false,
     "nameEN": "EquipmentConfig",
-    "equipMaxLv": 60,
+    "equipMaxLv": 65,
     "ChangeNum": 999,
     "LevelNum": 10,
     "EquipPresetsNum": 3,
@@ -10025,6 +10103,31 @@
         "EnergyMax": 348775,
         "levelUpEnergy": 269500,
         "levelUpExp": 26950
+      },
+      {
+        "EnergyMax": 375725,
+        "levelUpEnergy": 283500,
+        "levelUpExp": 28350
+      },
+      {
+        "EnergyMax": 404075,
+        "levelUpEnergy": 297500,
+        "levelUpExp": 29750
+      },
+      {
+        "EnergyMax": 433825,
+        "levelUpEnergy": 311500,
+        "levelUpExp": 31150
+      },
+      {
+        "EnergyMax": 464975,
+        "levelUpEnergy": 325500,
+        "levelUpExp": 32550
+      },
+      {
+        "EnergyMax": 497525,
+        "levelUpEnergy": 339500,
+        "levelUpExp": 33950
       }
     ]
   },
@@ -10334,6 +10437,31 @@
         "EnergyMax": 249125,
         "levelUpEnergy": 192500,
         "levelUpExp": 19250
+      },
+      {
+        "EnergyMax": 268375,
+        "levelUpEnergy": 202500,
+        "levelUpExp": 20250
+      },
+      {
+        "EnergyMax": 288625,
+        "levelUpEnergy": 212500,
+        "levelUpExp": 21250
+      },
+      {
+        "EnergyMax": 309875,
+        "levelUpEnergy": 222500,
+        "levelUpExp": 22250
+      },
+      {
+        "EnergyMax": 332125,
+        "levelUpEnergy": 232500,
+        "levelUpExp": 23250
+      },
+      {
+        "EnergyMax": 355375,
+        "levelUpEnergy": 242500,
+        "levelUpExp": 24250
       }
     ]
   },
@@ -10643,6 +10771,31 @@
         "EnergyMax": 149475,
         "levelUpEnergy": 115500,
         "levelUpExp": 11550
+      },
+      {
+        "EnergyMax": 161025,
+        "levelUpEnergy": 121500,
+        "levelUpExp": 12150
+      },
+      {
+        "EnergyMax": 173175,
+        "levelUpEnergy": 127500,
+        "levelUpExp": 12750
+      },
+      {
+        "EnergyMax": 185925,
+        "levelUpEnergy": 133500,
+        "levelUpExp": 13350
+      },
+      {
+        "EnergyMax": 199275,
+        "levelUpEnergy": 139500,
+        "levelUpExp": 13950
+      },
+      {
+        "EnergyMax": 213225,
+        "levelUpEnergy": 145500,
+        "levelUpExp": 14550
       }
     ]
   },
@@ -10952,6 +11105,31 @@
         "EnergyMax": 548085,
         "levelUpEnergy": 423500,
         "levelUpExp": 42350
+      },
+      {
+        "EnergyMax": 590435,
+        "levelUpEnergy": 445500,
+        "levelUpExp": 44550
+      },
+      {
+        "EnergyMax": 634985,
+        "levelUpEnergy": 467500,
+        "levelUpExp": 46750
+      },
+      {
+        "EnergyMax": 681735,
+        "levelUpEnergy": 489500,
+        "levelUpExp": 48950
+      },
+      {
+        "EnergyMax": 730685,
+        "levelUpEnergy": 511500,
+        "levelUpExp": 51150
+      },
+      {
+        "EnergyMax": 781835,
+        "levelUpEnergy": 533500,
+        "levelUpExp": 53350
       }
     ]
   },
@@ -11261,6 +11439,31 @@
         "EnergyMax": 996500,
         "levelUpEnergy": 770000,
         "levelUpExp": 77000
+      },
+      {
+        "EnergyMax": 1073500,
+        "levelUpEnergy": 810000,
+        "levelUpExp": 81000
+      },
+      {
+        "EnergyMax": 1154500,
+        "levelUpEnergy": 850000,
+        "levelUpExp": 85000
+      },
+      {
+        "EnergyMax": 1239500,
+        "levelUpEnergy": 890000,
+        "levelUpExp": 89000
+      },
+      {
+        "EnergyMax": 1328500,
+        "levelUpEnergy": 930000,
+        "levelUpExp": 93000
+      },
+      {
+        "EnergyMax": 1421500,
+        "levelUpEnergy": 970000,
+        "levelUpExp": 97000
       }
     ]
   },
@@ -12583,10 +12786,6 @@
         "quotation": 1.0
       },
       {
-        "probability": 0.0,
-        "quotation": 1.0
-      },
-      {
         "probability": 0.1,
         "quotation": 0.99
       },
@@ -12829,11 +13028,87 @@
         "quotation": 1.11
       },
       {
-        "probability": 1.0,
+        "probability": 0.15,
         "quotation": 1.1
       },
       {
+        "probability": 0.1,
+        "quotation": 1.09
+      },
+      {
+        "probability": 0.1,
+        "quotation": 1.08
+      },
+      {
+        "probability": 0.1,
+        "quotation": 1.07
+      },
+      {
+        "probability": 0.1,
+        "quotation": 1.06
+      },
+      {
+        "probability": 0.1,
+        "quotation": 1.05
+      },
+      {
+        "probability": 0.05,
+        "quotation": 1.04
+      },
+      {
+        "probability": 0.05,
+        "quotation": 1.03
+      },
+      {
+        "probability": 0.05,
+        "quotation": 1.02
+      },
+      {
+        "probability": 0.05,
+        "quotation": 1.01
+      },
+      {
         "probability": 1.0,
+        "quotation": 1.0
+      },
+      {
+        "probability": 0.05,
+        "quotation": 0.99
+      },
+      {
+        "probability": 0.05,
+        "quotation": 0.98
+      },
+      {
+        "probability": 0.05,
+        "quotation": 0.97
+      },
+      {
+        "probability": 0.05,
+        "quotation": 0.96
+      },
+      {
+        "probability": 0.1,
+        "quotation": 0.95
+      },
+      {
+        "probability": 0.1,
+        "quotation": 0.94
+      },
+      {
+        "probability": 0.1,
+        "quotation": 0.93
+      },
+      {
+        "probability": 0.1,
+        "quotation": 0.92
+      },
+      {
+        "probability": 0.1,
+        "quotation": 0.91
+      },
+      {
+        "probability": 0.15,
         "quotation": 0.9
       },
       {
@@ -14386,35 +14661,35 @@
     "polluteQuestId": -1,
     "polluteMin": 2,
     "polluteMax": 3,
-    "pollutePlayerNum": 40000,
+    "pollutePlayerNum": 30000,
     "polluteAreaList": [
       {
         "id": 84600001,
-        "weight": 13
+        "weight": 10
       },
       {
         "id": 84600002,
-        "weight": 20
+        "weight": 15
       },
       {
         "id": 84600003,
-        "weight": 13
+        "weight": 10
       },
       {
         "id": 84600008,
-        "weight": 13
+        "weight": 10
       },
       {
         "id": 84600006,
-        "weight": 6
+        "weight": 10
       },
       {
         "id": 84600007,
-        "weight": 12
+        "weight": 15
       },
       {
         "id": 84600005,
-        "weight": 15
+        "weight": 10
       },
       {
         "id": 84600004,
@@ -15503,23 +15778,23 @@
         "quotation": 1.45
       },
       {
-        "probability": 0.5,
+        "probability": 0.45,
         "quotation": 1.44
       },
       {
-        "probability": 0.4,
+        "probability": 0.45,
         "quotation": 1.43
       },
       {
-        "probability": 0.4,
+        "probability": 0.45,
         "quotation": 1.42
       },
       {
-        "probability": 0.4,
+        "probability": 0.45,
         "quotation": 1.41
       },
       {
-        "probability": 0.4,
+        "probability": 0.45,
         "quotation": 1.4
       },
       {
@@ -15531,35 +15806,35 @@
         "quotation": 1.38
       },
       {
-        "probability": 0.3,
+        "probability": 0.4,
         "quotation": 1.37
       },
       {
-        "probability": 0.3,
+        "probability": 0.4,
         "quotation": 1.36
       },
       {
-        "probability": 0.3,
+        "probability": 0.4,
         "quotation": 1.35
       },
       {
-        "probability": 0.3,
+        "probability": 0.35,
         "quotation": 1.34
       },
       {
-        "probability": 0.3,
+        "probability": 0.35,
         "quotation": 1.33
       },
       {
-        "probability": 0.3,
+        "probability": 0.35,
         "quotation": 1.32
       },
       {
-        "probability": 0.3,
+        "probability": 0.35,
         "quotation": 1.31
       },
       {
-        "probability": 0.3,
+        "probability": 0.35,
         "quotation": 1.3
       },
       {
@@ -15583,123 +15858,203 @@
         "quotation": 1.25
       },
       {
-        "probability": 0.3,
+        "probability": 0.25,
         "quotation": 1.24
       },
       {
-        "probability": 0.3,
+        "probability": 0.25,
         "quotation": 1.23
       },
       {
-        "probability": 0.4,
+        "probability": 0.25,
         "quotation": 1.22
       },
       {
-        "probability": 0.4,
+        "probability": 0.25,
         "quotation": 1.21
       },
       {
-        "probability": 0.4,
+        "probability": 0.25,
         "quotation": 1.2
       },
       {
-        "probability": 0.4,
+        "probability": 0.2,
         "quotation": 1.19
       },
       {
-        "probability": 0.4,
+        "probability": 0.2,
         "quotation": 1.18
       },
       {
-        "probability": 0.4,
+        "probability": 0.2,
         "quotation": 1.17
       },
       {
-        "probability": 0.5,
+        "probability": 0.2,
         "quotation": 1.16
       },
       {
-        "probability": 0.5,
+        "probability": 0.2,
         "quotation": 1.15
       },
       {
-        "probability": 0.5,
+        "probability": 0.15,
         "quotation": 1.14
       },
       {
-        "probability": 0.5,
+        "probability": 0.15,
         "quotation": 1.13
       },
       {
-        "probability": 0.5,
+        "probability": 0.15,
         "quotation": 1.12
       },
       {
-        "probability": 0.5,
+        "probability": 0.15,
         "quotation": 1.11
       },
       {
-        "probability": 1.0,
+        "probability": 0.15,
         "quotation": 1.1
       },
       {
-        "probability": 1.0,
+        "probability": 0.1,
+        "quotation": 1.09
+      },
+      {
+        "probability": 0.1,
+        "quotation": 1.08
+      },
+      {
+        "probability": 0.1,
+        "quotation": 1.07
+      },
+      {
+        "probability": 0.1,
+        "quotation": 1.06
+      },
+      {
+        "probability": 0.1,
+        "quotation": 1.05
+      },
+      {
+        "probability": 0.05,
+        "quotation": 1.04
+      },
+      {
+        "probability": 0.05,
+        "quotation": 1.03
+      },
+      {
+        "probability": 0.05,
+        "quotation": 1.02
+      },
+      {
+        "probability": 0.05,
+        "quotation": 1.01
+      },
+      {
+        "probability": 0.0,
+        "quotation": 1.0
+      },
+      {
+        "probability": 0.0,
+        "quotation": 1.0
+      },
+      {
+        "probability": 0.05,
+        "quotation": 0.99
+      },
+      {
+        "probability": 0.05,
+        "quotation": 0.98
+      },
+      {
+        "probability": 0.05,
+        "quotation": 0.97
+      },
+      {
+        "probability": 0.05,
+        "quotation": 0.96
+      },
+      {
+        "probability": 0.1,
+        "quotation": 0.95
+      },
+      {
+        "probability": 0.1,
+        "quotation": 0.94
+      },
+      {
+        "probability": 0.1,
+        "quotation": 0.93
+      },
+      {
+        "probability": 0.1,
+        "quotation": 0.92
+      },
+      {
+        "probability": 0.1,
+        "quotation": 0.91
+      },
+      {
+        "probability": 0.15,
         "quotation": 0.9
       },
       {
-        "probability": 0.5,
+        "probability": 0.15,
         "quotation": 0.89
       },
       {
-        "probability": 0.5,
+        "probability": 0.15,
         "quotation": 0.88
       },
       {
-        "probability": 0.5,
+        "probability": 0.15,
         "quotation": 0.87
       },
       {
-        "probability": 0.5,
+        "probability": 0.15,
         "quotation": 0.86
       },
       {
-        "probability": 0.5,
+        "probability": 0.2,
         "quotation": 0.85
       },
       {
-        "probability": 0.5,
+        "probability": 0.2,
         "quotation": 0.84
       },
       {
-        "probability": 0.4,
+        "probability": 0.2,
         "quotation": 0.83
       },
       {
-        "probability": 0.4,
+        "probability": 0.2,
         "quotation": 0.82
       },
       {
-        "probability": 0.4,
+        "probability": 0.2,
         "quotation": 0.81
       },
       {
-        "probability": 0.4,
+        "probability": 0.25,
         "quotation": 0.8
       },
       {
-        "probability": 0.4,
+        "probability": 0.25,
         "quotation": 0.79
       },
       {
-        "probability": 0.4,
+        "probability": 0.25,
         "quotation": 0.78
       },
       {
-        "probability": 0.3,
+        "probability": 0.25,
         "quotation": 0.77
       },
       {
-        "probability": 0.3,
+        "probability": 0.25,
         "quotation": 0.76
       },
       {
@@ -15723,35 +16078,35 @@
         "quotation": 0.71
       },
       {
-        "probability": 0.3,
+        "probability": 0.35,
         "quotation": 0.7
       },
       {
-        "probability": 0.3,
+        "probability": 0.35,
         "quotation": 0.69
       },
       {
-        "probability": 0.3,
+        "probability": 0.35,
         "quotation": 0.68
       },
       {
-        "probability": 0.3,
+        "probability": 0.35,
         "quotation": 0.67
       },
       {
-        "probability": 0.3,
+        "probability": 0.35,
         "quotation": 0.66
       },
       {
-        "probability": 0.3,
+        "probability": 0.4,
         "quotation": 0.65
       },
       {
-        "probability": 0.3,
+        "probability": 0.4,
         "quotation": 0.64
       },
       {
-        "probability": 0.3,
+        "probability": 0.4,
         "quotation": 0.63
       },
       {
@@ -15763,23 +16118,23 @@
         "quotation": 0.61
       },
       {
-        "probability": 0.4,
+        "probability": 0.45,
         "quotation": 0.6
       },
       {
-        "probability": 0.4,
+        "probability": 0.45,
         "quotation": 0.59
       },
       {
-        "probability": 0.4,
+        "probability": 0.45,
         "quotation": 0.58
       },
       {
-        "probability": 0.4,
+        "probability": 0.45,
         "quotation": 0.57
       },
       {
-        "probability": 0.5,
+        "probability": 0.45,
         "quotation": 0.56
       },
       {
@@ -16010,23 +16365,23 @@
         "quotation": 1.45
       },
       {
-        "probability": 0.5,
+        "probability": 0.45,
         "quotation": 1.44
       },
       {
-        "probability": 0.4,
+        "probability": 0.45,
         "quotation": 1.43
       },
       {
-        "probability": 0.4,
+        "probability": 0.45,
         "quotation": 1.42
       },
       {
-        "probability": 0.4,
+        "probability": 0.45,
         "quotation": 1.41
       },
       {
-        "probability": 0.4,
+        "probability": 0.45,
         "quotation": 1.4
       },
       {
@@ -16038,35 +16393,35 @@
         "quotation": 1.38
       },
       {
-        "probability": 0.3,
+        "probability": 0.4,
         "quotation": 1.37
       },
       {
-        "probability": 0.3,
+        "probability": 0.4,
         "quotation": 1.36
       },
       {
-        "probability": 0.3,
+        "probability": 0.4,
         "quotation": 1.35
       },
       {
-        "probability": 0.3,
+        "probability": 0.35,
         "quotation": 1.34
       },
       {
-        "probability": 0.3,
+        "probability": 0.35,
         "quotation": 1.33
       },
       {
-        "probability": 0.3,
+        "probability": 0.35,
         "quotation": 1.32
       },
       {
-        "probability": 0.3,
+        "probability": 0.35,
         "quotation": 1.31
       },
       {
-        "probability": 0.3,
+        "probability": 0.35,
         "quotation": 1.3
       },
       {
@@ -16090,123 +16445,203 @@
         "quotation": 1.25
       },
       {
-        "probability": 0.3,
+        "probability": 0.25,
         "quotation": 1.24
       },
       {
-        "probability": 0.3,
+        "probability": 0.25,
         "quotation": 1.23
       },
       {
-        "probability": 0.4,
+        "probability": 0.25,
         "quotation": 1.22
       },
       {
-        "probability": 0.4,
+        "probability": 0.25,
         "quotation": 1.21
       },
       {
-        "probability": 0.4,
+        "probability": 0.25,
         "quotation": 1.2
       },
       {
-        "probability": 0.4,
+        "probability": 0.2,
         "quotation": 1.19
       },
       {
-        "probability": 0.4,
+        "probability": 0.2,
         "quotation": 1.18
       },
       {
-        "probability": 0.4,
+        "probability": 0.2,
         "quotation": 1.17
       },
       {
-        "probability": 0.5,
+        "probability": 0.2,
         "quotation": 1.16
       },
       {
-        "probability": 0.5,
+        "probability": 0.2,
         "quotation": 1.15
       },
       {
-        "probability": 0.5,
+        "probability": 0.15,
         "quotation": 1.14
       },
       {
-        "probability": 0.5,
+        "probability": 0.15,
         "quotation": 1.13
       },
       {
-        "probability": 0.5,
+        "probability": 0.15,
         "quotation": 1.12
       },
       {
-        "probability": 0.5,
+        "probability": 0.15,
         "quotation": 1.11
       },
       {
-        "probability": 1.0,
+        "probability": 0.15,
         "quotation": 1.1
       },
       {
-        "probability": 1.0,
+        "probability": 0.1,
+        "quotation": 1.09
+      },
+      {
+        "probability": 0.1,
+        "quotation": 1.08
+      },
+      {
+        "probability": 0.1,
+        "quotation": 1.07
+      },
+      {
+        "probability": 0.1,
+        "quotation": 1.06
+      },
+      {
+        "probability": 0.1,
+        "quotation": 1.05
+      },
+      {
+        "probability": 0.05,
+        "quotation": 1.04
+      },
+      {
+        "probability": 0.05,
+        "quotation": 1.03
+      },
+      {
+        "probability": 0.05,
+        "quotation": 1.02
+      },
+      {
+        "probability": 0.05,
+        "quotation": 1.01
+      },
+      {
+        "probability": 0.0,
+        "quotation": 1.0
+      },
+      {
+        "probability": 0.0,
+        "quotation": 1.0
+      },
+      {
+        "probability": 0.05,
+        "quotation": 0.99
+      },
+      {
+        "probability": 0.05,
+        "quotation": 0.98
+      },
+      {
+        "probability": 0.05,
+        "quotation": 0.97
+      },
+      {
+        "probability": 0.05,
+        "quotation": 0.96
+      },
+      {
+        "probability": 0.1,
+        "quotation": 0.95
+      },
+      {
+        "probability": 0.1,
+        "quotation": 0.94
+      },
+      {
+        "probability": 0.1,
+        "quotation": 0.93
+      },
+      {
+        "probability": 0.1,
+        "quotation": 0.92
+      },
+      {
+        "probability": 0.1,
+        "quotation": 0.91
+      },
+      {
+        "probability": 0.15,
         "quotation": 0.9
       },
       {
-        "probability": 0.5,
+        "probability": 0.15,
         "quotation": 0.89
       },
       {
-        "probability": 0.5,
+        "probability": 0.15,
         "quotation": 0.88
       },
       {
-        "probability": 0.5,
+        "probability": 0.15,
         "quotation": 0.87
       },
       {
-        "probability": 0.5,
+        "probability": 0.15,
         "quotation": 0.86
       },
       {
-        "probability": 0.5,
+        "probability": 0.2,
         "quotation": 0.85
       },
       {
-        "probability": 0.5,
+        "probability": 0.2,
         "quotation": 0.84
       },
       {
-        "probability": 0.4,
+        "probability": 0.2,
         "quotation": 0.83
       },
       {
-        "probability": 0.4,
+        "probability": 0.2,
         "quotation": 0.82
       },
       {
-        "probability": 0.4,
+        "probability": 0.2,
         "quotation": 0.81
       },
       {
-        "probability": 0.4,
+        "probability": 0.25,
         "quotation": 0.8
       },
       {
-        "probability": 0.4,
+        "probability": 0.25,
         "quotation": 0.79
       },
       {
-        "probability": 0.4,
+        "probability": 0.25,
         "quotation": 0.78
       },
       {
-        "probability": 0.3,
+        "probability": 0.25,
         "quotation": 0.77
       },
       {
-        "probability": 0.3,
+        "probability": 0.25,
         "quotation": 0.76
       },
       {
@@ -16230,35 +16665,35 @@
         "quotation": 0.71
       },
       {
-        "probability": 0.3,
+        "probability": 0.35,
         "quotation": 0.7
       },
       {
-        "probability": 0.3,
+        "probability": 0.35,
         "quotation": 0.69
       },
       {
-        "probability": 0.3,
+        "probability": 0.35,
         "quotation": 0.68
       },
       {
-        "probability": 0.3,
+        "probability": 0.35,
         "quotation": 0.67
       },
       {
-        "probability": 0.3,
+        "probability": 0.35,
         "quotation": 0.66
       },
       {
-        "probability": 0.3,
+        "probability": 0.4,
         "quotation": 0.65
       },
       {
-        "probability": 0.3,
+        "probability": 0.4,
         "quotation": 0.64
       },
       {
-        "probability": 0.3,
+        "probability": 0.4,
         "quotation": 0.63
       },
       {
@@ -16270,23 +16705,23 @@
         "quotation": 0.61
       },
       {
-        "probability": 0.4,
+        "probability": 0.45,
         "quotation": 0.6
       },
       {
-        "probability": 0.4,
+        "probability": 0.45,
         "quotation": 0.59
       },
       {
-        "probability": 0.4,
+        "probability": 0.45,
         "quotation": 0.58
       },
       {
-        "probability": 0.4,
+        "probability": 0.45,
         "quotation": 0.57
       },
       {
-        "probability": 0.5,
+        "probability": 0.45,
         "quotation": 0.56
       },
       {
@@ -16333,66 +16768,52 @@
     "standing": 20,
     "hardSeat": [
       {
-        "level": 1,
         "price": 40
       },
       {
-        "level": 2,
-        "price": 60
-      },
-      {
-        "level": 3,
         "price": 80
       },
       {
-        "level": 4,
-        "price": 100
+        "price": 120
       },
       {
-        "level": 5,
-        "price": 120
+        "price": 160
+      },
+      {
+        "price": 200
       }
     ],
     "bunkBed": [
       {
-        "level": 1,
         "price": 80
       },
       {
-        "level": 2,
-        "price": 120
+        "price": 160
       },
       {
-        "level": 3,
-        "price": 160
+        "price": 240
       }
     ],
     "sleepingBerth": [
       {
-        "level": 1,
         "price": 120
       },
       {
-        "level": 2,
-        "price": 160
+        "price": 200
       },
       {
-        "level": 3,
-        "price": 200
+        "price": 280
       }
     ],
     "doubleQueenBed": [
       {
-        "level": 1,
         "price": 160
       },
       {
-        "level": 2,
-        "price": 200
+        "price": 240
       },
       {
-        "level": 3,
-        "price": 240
+        "price": 320
       }
     ],
     "workdayNum": 50,
@@ -17540,6 +17961,7 @@
       {
         "endTime": "2030-01-01 00:00:00",
         "id": 86000003,
+        "isCompleteBottom": true,
         "name": 80602403,
         "png": "UI/Activity/Tab/tab_sign",
         "sort": 1,
@@ -17577,6 +17999,7 @@
       {
         "endTime": "",
         "id": 86000004,
+        "isCompleteBottom": false,
         "name": 80606888,
         "png": "UI/Activity/Tab/tab_level",
         "sort": 5,
@@ -17602,9 +18025,23 @@
         "sort": 7,
         "startTime": "2024-05-01 05:00:00",
         "tag": 12601103
+      },
+      {
+        "endTime": "",
+        "id": 86000010,
+        "isCompleteBottom": false,
+        "name": 80600437,
+        "png": "UI/Activity/Tab/Tab_GoldenWeek",
+        "sort": 8,
+        "startTime": "2030-06-15 05:00:00",
+        "tag": 12601150
       }
     ],
-    "questList": []
+    "questList": [
+      {
+        "id": 81000112
+      }
+    ]
   },
   {
     "id": 99900057,
@@ -17832,7 +18269,7 @@
         "nodePath": "M_Map_window_drive",
         "posX": 0.0,
         "posY": 0.8,
-        "posZ": -11.0,
+        "posZ": -12.0,
         "rotX": -3.0,
         "rotY": 180.0
       },

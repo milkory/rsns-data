@@ -100,7 +100,11 @@
         "skillId": 12300024
       }
     ],
-    "noUpgradeSkillList": [],
+    "noUpgradeSkillList": [
+      {
+        "skillId": 12300972
+      }
+    ],
     "equipmentSlotList": [
       {
         "tagID": 12600155
@@ -286,6 +290,7 @@
     "controllerId": 10300014,
     "bulletControllerList": [],
     "isBoss": false,
+    "bossHpTemp": -1,
     "isDeadNotDisappear": false,
     "isFly": false,
     "originFlyYSN": 0,
@@ -335,7 +340,8 @@
     "hitAreaY_SN": 12500,
     "hitAreaHalfWidth_SN": 25000,
     "hitAreaHalfHeight_SN": 12500,
-    "safeInformation": ""
+    "safeInformation": "",
+    "unitInformation": ""
   },
   {
     "id": 10000025,
@@ -2149,6 +2155,7 @@
     "totalCardNum": 5,
     "skillMin": 5,
     "homeCharacter": 70000006,
+    "stationStoreCharacter": -1,
     "gotoBed": true,
     "isDoctor": true,
     "medicalPoint": 84,
@@ -3862,11 +3869,11 @@
     "allSkillList": [],
     "skillList": [
       {
-        "num": 3,
+        "num": 4,
         "skillId": 12300298
       },
       {
-        "num": 1,
+        "num": 2,
         "skillId": 12300299
       },
       {
@@ -3994,6 +4001,7 @@
     "totalCardNum": 5,
     "skillMin": 5,
     "homeCharacter": 70000013,
+    "stationStoreCharacter": -1,
     "gotoBed": true,
     "isDoctor": false,
     "medicalPoint": 0,
@@ -5430,7 +5438,7 @@
     "passiveSkillList": [],
     "hp_SN": 66000000,
     "def_SN": 630000,
-    "atk_SN": 860000,
+    "atk_SN": 870000,
     "atkSpeed_SN": 1000000,
     "luck_SN": 0,
     "line": 3,
@@ -5445,7 +5453,7 @@
     "skillList": [
       {
         "num": 3,
-        "skillId": 12300017
+        "skillId": 12300026
       },
       {
         "num": 1,
@@ -5456,7 +5464,11 @@
         "skillId": 12300025
       }
     ],
-    "noUpgradeSkillList": [],
+    "noUpgradeSkillList": [
+      {
+        "skillId": 12300881
+      }
+    ],
     "equipmentSlotList": [
       {
         "tagID": 12600155
@@ -7859,71 +7871,6 @@
     "FoodList": [],
     "ProfilePhotoList": [],
     "safeInformation": ""
-  },
-  {
-    "id": 10000336,
-    "idCN": "00我方/09召唤物/多萝西莱格宝宝",
-    "mod": "召唤物",
-    "isInformalData": false,
-    "name": "莱格宝宝",
-    "EnglishName": "",
-    "viewId": 11000077,
-    "sideId": -1,
-    "controllerId": 10300086,
-    "bulletControllerList": [],
-    "isBoss": false,
-    "bossHpTemp": -1,
-    "isDeadNotDisappear": false,
-    "isFly": false,
-    "originFlyYSN": 0,
-    "randomOffsetFlyYSN": 0,
-    "flyOnStraight": false,
-    "tagList": [
-      {
-        "tagId": 12600139
-      },
-      {
-        "tagId": 12600166
-      },
-      {
-        "tagId": 12600463
-      },
-      {
-        "tagId": 12600057
-      }
-    ],
-    "passiveSkillList": [],
-    "hp_SN": 10000,
-    "def_SN": 0,
-    "atk_SN": 0,
-    "atkSpeed_SN": 0,
-    "luck_SN": 0,
-    "line": 0,
-    "subLine": 0,
-    "costRestore_SN": 0,
-    "actionStandID": 10100392,
-    "actionMoveID": 10100391,
-    "actionAttackedID": 10100391,
-    "actionAttackedBackID": 10100391,
-    "actionKnockUpID": -1,
-    "actionStunID": 10100391,
-    "actionDeadID": 10100495,
-    "actionVictoryID": -1,
-    "isNeutral": false,
-    "isCantBeHit": true,
-    "isImmuneAlly": true,
-    "isImmuneEnemy": true,
-    "ownerDeadAddBuffID": -1,
-    "deadAddBuffToOwner": 10409503,
-    "fightEndBuffId": -1,
-    "hitPointX_SN": 0,
-    "hitPointY_SN": 4500,
-    "hitAreaX_SN": 0,
-    "hitAreaY_SN": 4500,
-    "hitAreaHalfWidth_SN": 2500,
-    "hitAreaHalfHeight_SN": 4500,
-    "safeInformation": "",
-    "unitInformation": ""
   },
   {
     "id": 10000348,
@@ -12583,6 +12530,7 @@
     "hitAreaY_SN": 15000,
     "hitAreaHalfWidth_SN": 80000,
     "hitAreaHalfHeight_SN": 15000,
+    "battleDes": "",
     "safeInformation": "",
     "unitInformation": "",
     "enemyDrop": [],
@@ -14839,6 +14787,7 @@
     "hitAreaY_SN": 15000,
     "hitAreaHalfWidth_SN": 10000,
     "hitAreaHalfHeight_SN": 15000,
+    "battleDes": "",
     "safeInformation": "用棒球棍攻击的暴徒。",
     "unitInformation": "穿着简易防护装备的暴徒，使用棒球棍进行攻击，威胁度较低。",
     "enemyDrop": [],
@@ -14962,6 +14911,7 @@
     "hitAreaY_SN": 15000,
     "hitAreaHalfWidth_SN": 10000,
     "hitAreaHalfHeight_SN": 15000,
+    "battleDes": "",
     "safeInformation": "举着防爆盾的暴徒，主要起掩护同伴的作用。",
     "unitInformation": "穿着简易防护装备的暴徒，使用破旧的防爆盾，为背后的同伴进行掩护。",
     "enemyDrop": [],
@@ -15215,6 +15165,7 @@
     "hitAreaY_SN": 15000,
     "hitAreaHalfWidth_SN": 10000,
     "hitAreaHalfHeight_SN": 15000,
+    "battleDes": "",
     "safeInformation": "用消防斧攻击的暴徒。",
     "unitInformation": "穿着简易防护装备的暴徒，以手斧作为武器，近身时会造成一定威胁。",
     "enemyDrop": [],
@@ -15338,6 +15289,7 @@
     "hitAreaY_SN": 15000,
     "hitAreaHalfWidth_SN": 10000,
     "hitAreaHalfHeight_SN": 15000,
+    "battleDes": "",
     "safeInformation": "用改装过的狙击步枪攻击的暴徒。小心远处！",
     "unitInformation": "穿着简易防护装备的暴徒，持有自行改造的步枪，通常会在远处进行狙击，能造成高额伤害。",
     "enemyDrop": [],
@@ -16331,6 +16283,9 @@
     "weaknessList": [
       {
         "id": 12600996
+      },
+      {
+        "id": 12600993
       }
     ],
     "resistanceList": [
@@ -16478,6 +16433,12 @@
     "weaknessList": [
       {
         "id": 12600996
+      },
+      {
+        "id": 12601002
+      },
+      {
+        "id": 12600993
       }
     ],
     "resistanceList": [
@@ -16646,6 +16607,9 @@
       },
       {
         "id": 12601002
+      },
+      {
+        "id": 12600993
       }
     ],
     "resistanceList": [
@@ -17617,6 +17581,9 @@
       },
       {
         "id": 12600972
+      },
+      {
+        "id": 12600962
       }
     ],
     "enemyType": 12601048,
@@ -19110,11 +19077,7 @@
         "id": 12601002
       }
     ],
-    "resistanceList": [
-      {
-        "id": 12600992
-      }
-    ],
+    "resistanceList": [],
     "enemyType": 12601047,
     "enemyCamp": 12601044,
     "enemyBookId": 10000011
@@ -19986,7 +19949,8 @@
     "hitAreaY_SN": 15000,
     "hitAreaHalfWidth_SN": 10000,
     "hitAreaHalfHeight_SN": 15000,
-    "safeInformation": "拥有坚实外甲的普通桦树生物。",
+    "battleDes": "",
+    "safeInformation": "",
     "unitInformation": "",
     "enemyDrop": [
       {
@@ -20558,7 +20522,7 @@
         "skillId": 12301371
       },
       {
-        "skillId": 12301413
+        "skillId": 12301367
       },
       {
         "skillId": 12301472
@@ -21824,6 +21788,9 @@
         "skillId": 12300936
       },
       {
+        "skillId": 12301367
+      },
+      {
         "skillId": 12301472
       }
     ],
@@ -21902,6 +21869,7 @@
     "hitAreaY_SN": 35000,
     "hitAreaHalfWidth_SN": 35000,
     "hitAreaHalfHeight_SN": 35000,
+    "battleDes": "",
     "safeInformation": "繁衍和统领着毒爆虫们的女王，不仅破坏力和攻击范围远超一般个体，还能召唤大量子嗣进行自爆攻击。",
     "unitInformation": "毒爆虫中无论是实力与体型都十分巨大的个体，是繁衍和统领着毒爆虫们的女王。最显著的特征是能够召唤成群的毒爆虫，进行范围较大的集体攻击。",
     "enemyDrop": [
@@ -21931,6 +21899,9 @@
     ],
     "weaknessList": [
       {
+        "id": 12600996
+      },
+      {
         "id": 12600978
       },
       {
@@ -21944,9 +21915,6 @@
       }
     ],
     "resistanceList": [
-      {
-        "id": 12600992
-      },
       {
         "id": 12600972
       }
@@ -22097,6 +22065,9 @@
     "weaknessList": [
       {
         "id": 12600978
+      },
+      {
+        "id": 12600988
       }
     ],
     "resistanceList": [
@@ -23565,7 +23536,11 @@
         "skillId": 12300137
       }
     ],
-    "noUpgradeSkillList": [],
+    "noUpgradeSkillList": [
+      {
+        "skillId": 12301097
+      }
+    ],
     "equipmentSlotList": [
       {
         "tagID": 12600155
@@ -24140,6 +24115,7 @@
     "hitAreaY_SN": 15000,
     "hitAreaHalfWidth_SN": 10000,
     "hitAreaHalfHeight_SN": 15000,
+    "battleDes": "",
     "safeInformation": "外形类似植物的桦树生物，外甲能够聚拢形成护盾，保护自身；蓄能后可以释放波纹状扩散的念动力攻击。",
     "unitInformation": "更具威胁性的桦树生物，需要至少小队级别的武装才可能正面对抗。形态与部分植物相似，通常造成念动伤害，也能驱动瓣叶在自身前方聚集成护盾，作为防御措施。能够在蓄能后释放波纹状扩散的念动力攻击，影响范围内的目标。",
     "enemyDrop": [
@@ -24161,6 +24137,9 @@
     "weaknessList": [
       {
         "id": 12600978
+      },
+      {
+        "id": 12600988
       }
     ],
     "resistanceList": [
@@ -24289,6 +24268,7 @@
     "hitAreaY_SN": 15000,
     "hitAreaHalfWidth_SN": 10000,
     "hitAreaHalfHeight_SN": 15000,
+    "battleDes": "",
     "safeInformation": "外形类似海生珊瑚的桦树生物，能散发粉末状物质、对其中目标持续产生影响，还能制造火焰。",
     "unitInformation": "头部形态与珊瑚相似的桦树生物。其攻击方式主要分为两种：其一是散发粉末状物质，对身处其中的目标造成持续影响；其二是范围较大的火焰伤害，蓄能时间越长，制造的火焰越强。",
     "enemyDrop": [
@@ -24307,6 +24287,9 @@
     "weaknessList": [
       {
         "id": 12600978
+      },
+      {
+        "id": 12600988
       }
     ],
     "resistanceList": [
@@ -24435,6 +24418,7 @@
     "hitAreaY_SN": 15000,
     "hitAreaHalfWidth_SN": 10000,
     "hitAreaHalfHeight_SN": 15000,
+    "battleDes": "",
     "safeInformation": "外形类似鸟类的桦树生物，头部外甲能够展开。充能完成后会对范围内目标造成负能伤害。",
     "unitInformation": "形态与鸟类相似的桦树生物，由其特殊性质而命名为“渡鸦”，头部外甲能够发光。大部分攻击方式威胁较小，但在完成长时间充能后可以对大范围敌人造成负能伤害。当它处于空中悬浮状态时，需要特别注意其充能状况。",
     "enemyDrop": [
@@ -24456,6 +24440,9 @@
     "weaknessList": [
       {
         "id": 12600978
+      },
+      {
+        "id": 12600988
       }
     ],
     "resistanceList": [
@@ -24599,11 +24586,17 @@
     "weaknessList": [
       {
         "id": 12600978
+      },
+      {
+        "id": 12600988
       }
     ],
     "resistanceList": [
       {
         "id": 12600965
+      },
+      {
+        "id": 12600968
       }
     ],
     "enemyType": 12601046,
@@ -24721,6 +24714,7 @@
     "hitAreaY_SN": 15000,
     "hitAreaHalfWidth_SN": 10000,
     "hitAreaHalfHeight_SN": 15000,
+    "battleDes": "",
     "safeInformation": "外形类似鸟类的桦树生物，头部外甲有类似眼睛的结构。会对范围内目标造成负能伤害。",
     "unitInformation": "形态与鸟类相似的桦树生物，对单体和集体均能造成一定威胁。头部周围的“眼睛”会发出光芒，被其凝视的人会受到负能伤害并且动弹不得，需要小心其攻击预兆。",
     "enemyDrop": [
@@ -24739,6 +24733,9 @@
     "weaknessList": [
       {
         "id": 12600978
+      },
+      {
+        "id": 12600988
       }
     ],
     "resistanceList": [
@@ -25182,7 +25179,7 @@
         "skillId": 12301506
       },
       {
-        "skillId": 12301428
+        "skillId": 12301367
       }
     ],
     "hp_SN": 280000000,
@@ -25260,6 +25257,7 @@
     "hitAreaY_SN": 15000,
     "hitAreaHalfWidth_SN": 10000,
     "hitAreaHalfHeight_SN": 15000,
+    "battleDes": "",
     "safeInformation": "出现于形态污染严重地区的深眠者，能对武器附加火焰伤害，并造成急燃。",
     "unitInformation": "多出现于形态污染严重地区的深眠者。已被解构的身体部分重新长出，形成类似短刀的型态。能够以附有火焰的短刀迅速对目标进行劈砍，还会对单目标造成极大的火焰属性伤害，造成急燃。",
     "enemyDrop": [
@@ -25328,7 +25326,10 @@
         "skillId": 12301506
       },
       {
-        "skillId": 12301428
+        "skillId": 12301367
+      },
+      {
+        "skillId": 12301369
       },
       {
         "skillId": 12300897
@@ -25481,7 +25482,7 @@
         "skillId": 12301426
       },
       {
-        "skillId": 12301428
+        "skillId": 12301367
       }
     ],
     "hp_SN": 140000000,
@@ -25559,6 +25560,7 @@
     "hitAreaY_SN": 15000,
     "hitAreaHalfWidth_SN": 10000,
     "hitAreaHalfHeight_SN": 15000,
+    "battleDes": "",
     "safeInformation": "出现于形态污染严重地区的深眠者。能发动冰霜属性攻击并造成冻结效果。还会为其他敌人恢复体力、减少所受伤害。",
     "unitInformation": "多出现于形态污染严重地区的深眠者。即使变成现在的外形，仍以帮助同伴为己任。通常攻击会造成冰霜伤害并附加冻结效果，此外还会为其他深眠者恢复体力、使用力场来减少同伴受到的伤害。",
     "enemyDrop": [
@@ -25627,7 +25629,7 @@
         "skillId": 12301434
       },
       {
-        "skillId": 12301428
+        "skillId": 12301367
       }
     ],
     "hp_SN": 160000000,
@@ -25705,6 +25707,7 @@
     "hitAreaY_SN": 15000,
     "hitAreaHalfWidth_SN": 10000,
     "hitAreaHalfHeight_SN": 15000,
+    "battleDes": "",
     "safeInformation": "出现于形态污染严重地区的深眠者，能发动秘法属性的攻击，也能禁锢一定范围内目标行动。",
     "unitInformation": "多出现于形态污染严重地区的深眠者。其人类外形没有受到太大影响，但内在早已完全变质，尤其是已经灰败的双手。以秘法属性攻击为主，能够在较远距离对目标造成伤害，也能禁锢一定范围内目标的行动。",
     "enemyDrop": [
@@ -26983,6 +26986,9 @@
     "weaknessList": [
       {
         "id": 12600996
+      },
+      {
+        "id": 12600993
       }
     ],
     "resistanceList": [
@@ -27130,6 +27136,9 @@
     "weaknessList": [
       {
         "id": 12600996
+      },
+      {
+        "id": 12600993
       }
     ],
     "resistanceList": [
@@ -27274,6 +27283,9 @@
     "weaknessList": [
       {
         "id": 12600996
+      },
+      {
+        "id": 12600993
       }
     ],
     "resistanceList": [
@@ -28199,6 +28211,7 @@
     "hitAreaY_SN": 20000,
     "hitAreaHalfWidth_SN": 10000,
     "hitAreaHalfHeight_SN": 20000,
+    "battleDes": "",
     "safeInformation": "普通的掘金机器人，能造成电磁与物理伤害。受到过量伤害时会获得护盾并陷入瘫痪。",
     "unitInformation": "运输作业用小型辅助机BOI3号，是由阿妮塔与前地联联合开发的仿生技工系列机器人的早期型号。因被大量投入淘金工作而被昵称为“掘金机器人”。",
     "enemyDrop": [
@@ -28226,6 +28239,9 @@
     "weaknessList": [
       {
         "id": 12600996
+      },
+      {
+        "id": 12600993
       }
     ],
     "resistanceList": [
@@ -28366,6 +28382,7 @@
     "hitAreaY_SN": 20000,
     "hitAreaHalfWidth_SN": 10000,
     "hitAreaHalfHeight_SN": 20000,
+    "battleDes": "",
     "safeInformation": "普通的掘金机器人，能造成电磁与物理伤害。受到过量伤害时会获得护盾并陷入瘫痪。",
     "unitInformation": "运输作业用小型辅助机BOI3号，是由阿妮塔与前地联联合开发的仿生技工系列机器人的早期型号。因被大量投入淘金工作而被昵称为“掘金机器人”。",
     "enemyDrop": [
@@ -28387,6 +28404,9 @@
     "weaknessList": [
       {
         "id": 12600996
+      },
+      {
+        "id": 12600993
       }
     ],
     "resistanceList": [
@@ -29388,8 +29408,8 @@
     "hitAreaHalfWidth_SN": 5000,
     "hitAreaHalfHeight_SN": 10000,
     "battleDes": "",
-    "safeInformation": "深眠者。战斗力惊人，为其同伴生成护盾，也能对我方造成秘法和伤害。",
-    "unitInformation": "深眠者，只是向“她”投去眼神都会让人浑身战栗。无论是可怖的外表、巨大化的盾牌还是持续不断的低语，都给人以极大的压迫感。在现在已知的深眠者中也可以说是执念深重的恐怖对手。其近似升构者的战斗风格也令人不愿深思。",
+    "safeInformation": "",
+    "unitInformation": "",
     "enemyDrop": [
       {
         "id": 11700077
@@ -29555,8 +29575,8 @@
     "hitAreaHalfWidth_SN": 5000,
     "hitAreaHalfHeight_SN": 10000,
     "battleDes": "",
-    "safeInformation": "力量得到强化的深眠者。防御效果大幅提升，近乎无敌；盾牌的威胁范围进一步增加。",
-    "unitInformation": "“深眠者”……如果还能这样称呼她的话。各项数值上已经超越了迄今为止所有有记录的“深眠者”。异变不仅仅局限于面具，四肢都隐约可见木质的增生和纹理，再度提升的各项能力让她的攻势更为狂暴。不间断的呓语如同死神在耳边呼唤，使得对抗者的精神和肉体都遭受着折磨。",
+    "safeInformation": "",
+    "unitInformation": "",
     "enemyDrop": [
       {
         "id": 11700077
@@ -29572,16 +29592,8 @@
       }
     ],
     "abilityList": [],
-    "weaknessList": [
-      {
-        "id": 12600978
-      }
-    ],
-    "resistanceList": [
-      {
-        "id": 12600972
-      }
-    ],
+    "weaknessList": [],
+    "resistanceList": [],
     "enemyType": 12601048,
     "enemyCamp": 12600237,
     "enemyBookId": 10000115
@@ -30120,15 +30132,40 @@
         "id": 11700080
       }
     ],
-    "abilityList": [],
+    "abilityList": [
+      {
+        "id": 12600906
+      },
+      {
+        "id": 12600939
+      }
+    ],
     "weaknessList": [
       {
         "id": 12600978
+      },
+      {
+        "id": 12601008
       }
     ],
     "resistanceList": [
       {
         "id": 12600972
+      },
+      {
+        "id": 12600992
+      },
+      {
+        "id": 12600968
+      },
+      {
+        "id": 12600956
+      },
+      {
+        "id": 12600965
+      },
+      {
+        "id": 12600962
       }
     ],
     "enemyType": 12601048,
@@ -30999,6 +31036,7 @@
     "hitAreaY_SN": 15000,
     "hitAreaHalfWidth_SN": 10000,
     "hitAreaHalfHeight_SN": 15000,
+    "battleDes": "",
     "safeInformation": "身体结构复杂的桦树生物，具有多种攻击手段。受到威胁时会钻入地面恢复体力并制造小型黾蝽集群，向目标发动自爆式攻击。",
     "unitInformation": "更具威胁性的桦树生物，需要至少小队级别的武装才可能正面对抗。具有复杂的护甲和身体结构，攻击方式多样。在被激怒时会进入狂暴状态，行动速度将获得极大提升。通过钻入地面的方式恢复体力，并且会在地底制造小型黾蝽集群，向目标发动极为危险的自爆式攻击。",
     "enemyDrop": [
@@ -31026,6 +31064,9 @@
     "weaknessList": [
       {
         "id": 12600978
+      },
+      {
+        "id": 12600988
       }
     ],
     "resistanceList": [
@@ -31145,7 +31186,8 @@
     "hitAreaY_SN": 9000,
     "hitAreaHalfWidth_SN": 10000,
     "hitAreaHalfHeight_SN": 9000,
-    "safeInformation": "植物般的美丽桦树生物，解放核心后会进行高强度光束攻击。",
+    "battleDes": "",
+    "safeInformation": "",
     "unitInformation": "",
     "enemyDrop": [
       {
@@ -31274,7 +31316,8 @@
     "hitAreaY_SN": 9000,
     "hitAreaHalfWidth_SN": 10000,
     "hitAreaHalfHeight_SN": 9000,
-    "safeInformation": "植物般的美丽桦树生物，解放核心后会进行高强度光束攻击。",
+    "battleDes": "",
+    "safeInformation": "",
     "unitInformation": "",
     "enemyDrop": [
       {
@@ -31400,7 +31443,8 @@
     "hitAreaY_SN": 9000,
     "hitAreaHalfWidth_SN": 10000,
     "hitAreaHalfHeight_SN": 9000,
-    "safeInformation": "植物般的美丽桦树生物，解放核心后会进行高强度光束攻击。",
+    "battleDes": "",
+    "safeInformation": "",
     "unitInformation": "",
     "enemyDrop": [
       {
@@ -31846,6 +31890,7 @@
     "hitAreaY_SN": 15000,
     "hitAreaHalfWidth_SN": 15000,
     "hitAreaHalfHeight_SN": 15000,
+    "battleDes": "",
     "safeInformation": "夏尔的左膀右臂，名为朱迪的大鹅。不仅仅是一只可爱的宠物而已，能在战场上发挥出恐怖的实力。",
     "unitInformation": "被夏尔称呼为朱迪的大鹅。除了种族天赋自带的啄技外，也掌握了一些令人感叹林子大了什么鹅都会有的特殊技能——虽然主要是因为夏尔的升构能力。杀伤力比农村用来看家护院的同类还要恐怖。\r尽量别惹它，也别惹它的主人。",
     "enemyDrop": [],
@@ -31859,17 +31904,11 @@
       },
       {
         "id": 12601002
-      },
-      {
-        "id": 12600993
       }
     ],
     "resistanceList": [
       {
         "id": 12600992
-      },
-      {
-        "id": 12600972
       }
     ],
     "enemyType": 12601048,
@@ -32316,12 +32355,17 @@
     "controllerId": 10300184,
     "bulletControllerList": [],
     "isBoss": false,
+    "bossHpTemp": -1,
     "isDeadNotDisappear": false,
     "isFly": false,
     "originFlyYSN": 0,
     "randomOffsetFlyYSN": 0,
     "flyOnStraight": false,
-    "tagList": [],
+    "tagList": [
+      {
+        "tagId": 12600139
+      }
+    ],
     "passiveSkillList": [],
     "hp_SN": 10000,
     "def_SN": 0,
@@ -32352,7 +32396,8 @@
     "hitAreaY_SN": 12500,
     "hitAreaHalfWidth_SN": 25000,
     "hitAreaHalfHeight_SN": 12500,
-    "safeInformation": ""
+    "safeInformation": "",
+    "unitInformation": ""
   },
   {
     "id": 10000103,
@@ -33456,11 +33501,19 @@
     "viewId": 11000133,
     "sideId": -1,
     "controllerId": 10300193,
+    "bulletControllerList": [],
     "isBoss": false,
+    "bossHpTemp": -1,
     "isDeadNotDisappear": false,
     "isFly": false,
     "originFlyYSN": 0,
-    "tagList": [],
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "tagList": [
+      {
+        "tagId": 12600139
+      }
+    ],
     "passiveSkillList": [],
     "hp_SN": 10000,
     "def_SN": 0,
@@ -33491,7 +33544,8 @@
     "hitAreaY_SN": 12500,
     "hitAreaHalfWidth_SN": 25000,
     "hitAreaHalfHeight_SN": 12500,
-    "safeInformation": ""
+    "safeInformation": "",
+    "unitInformation": ""
   },
   {
     "id": 10000162,
@@ -33519,9 +33573,6 @@
       },
       {
         "tagId": 12600278
-      },
-      {
-        "tagId": 12601127
       }
     ],
     "passiveSkillList": [
@@ -33617,7 +33668,7 @@
     "hitPointY_SN": 20000,
     "hitAreaX_SN": 0,
     "hitAreaY_SN": 20000,
-    "hitAreaHalfWidth_SN": 10000,
+    "hitAreaHalfWidth_SN": 15000,
     "hitAreaHalfHeight_SN": 20000,
     "battleDes": "",
     "safeInformation": "武技精湛的黑月成员。攻击造成的引雷效果能够有效地吸引敌方注意力。出色的防御力让他十分难缠。",
@@ -33636,6 +33687,12 @@
     "abilityList": [
       {
         "id": 12600923
+      },
+      {
+        "id": 12600929
+      },
+      {
+        "id": 12600936
       }
     ],
     "weaknessList": [
@@ -34770,7 +34827,7 @@
     "hitAreaHalfWidth_SN": 15000,
     "hitAreaHalfHeight_SN": 20000,
     "battleDes": "",
-    "safeInformation": "能释放庞大能量对敌人造成负能伤害，在沙尘中时可以与环境共振免疫所有的负面伤害。",
+    "safeInformation": "",
     "unitInformation": "",
     "enemyDrop": [
       {
@@ -34904,6 +34961,7 @@
     "hitAreaY_SN": 15000,
     "hitAreaHalfWidth_SN": 10000,
     "hitAreaHalfHeight_SN": 15000,
+    "battleDes": "",
     "safeInformation": "身着阿妮塔制服的深眠者，能够在防御蓄力后造成负能伤害。可以治愈自身并消除自身的负面状态。",
     "unitInformation": "身着阿妮塔能源公司制服的深眠者，或许曾是有志于桦树空间探索之人。手持重型盾牌与锤子，有出色的防护与恢复能力。浑身上下缠绕的绷带状组织似乎是其恢复能力的主要发挥途径，需要特别注意其状态。",
     "enemyDrop": [
@@ -34932,7 +34990,7 @@
         "id": 12600972
       },
       {
-        "id": 12600992
+        "id": 12600962
       }
     ],
     "enemyType": 12601047,
@@ -35050,6 +35108,7 @@
     "hitAreaY_SN": 15000,
     "hitAreaHalfWidth_SN": 10000,
     "hitAreaHalfHeight_SN": 15000,
+    "battleDes": "",
     "safeInformation": "身着阿妮塔制服的深眠者，攻击造成物理或负能伤害。部分攻击会造成斩裂效果。",
     "unitInformation": "身着阿妮塔能源公司制服的深眠者，或许曾是有志于桦树空间探索之人。将简朴但实用的手斧作为劈砍武器使用，有时也会发起回旋式攻击，对一定范围内目标造成负能伤害。似乎还能用斧子抛起并借力斩裂地面。",
     "enemyDrop": [
@@ -35081,7 +35140,7 @@
         "id": 12600972
       },
       {
-        "id": 12600992
+        "id": 12600962
       }
     ],
     "enemyType": 12601047,
@@ -35529,6 +35588,12 @@
       },
       {
         "id": 12600972
+      },
+      {
+        "id": 12600989
+      },
+      {
+        "id": 12600962
       }
     ],
     "enemyType": 12601047,
@@ -35737,6 +35802,9 @@
       },
       {
         "id": 12600956
+      },
+      {
+        "id": 12600990
       }
     ],
     "enemyType": 12601048,
@@ -36098,7 +36166,7 @@
     "hitAreaHalfWidth_SN": 15000,
     "hitAreaHalfHeight_SN": 20000,
     "battleDes": "",
-    "safeInformation": "能造成冻结、枷锁和晕眩等多种负面效果，会不断释放“龙威”，减少所受伤害。召唤出的冰川会对多个我方角色构成威胁。",
+    "safeInformation": "",
     "unitInformation": "",
     "enemyDrop": [
       {
@@ -36473,6 +36541,12 @@
       },
       {
         "id": 12600969
+      },
+      {
+        "id": 12600989
+      },
+      {
+        "id": 12600962
       }
     ],
     "enemyType": 12601046,
@@ -36626,6 +36700,15 @@
       },
       {
         "id": 12600969
+      },
+      {
+        "id": 12600972
+      },
+      {
+        "id": 12600962
+      },
+      {
+        "id": 12600989
       }
     ],
     "enemyType": 12601046,
@@ -36752,6 +36835,7 @@
     "hitAreaY_SN": 23100,
     "hitAreaHalfWidth_SN": 20000,
     "hitAreaHalfHeight_SN": 15000,
+    "battleDes": "",
     "safeInformation": "倚仗水域而生的桦树生物，喷吐泡沫进行攻击。泡沫能造成伤害和冻结效果，也可为其他敌人分担伤害。拥有将我方冻结目标转为混乱状态的能力。",
     "unitInformation": "倚仗潮湿环境以及水域而生的桦树生物，采用喷吐泡沫的方式进行攻击。泡沫能在造成伤害以及冻结效果后分裂为数个，进一步对其他目标造成伤害以及冻结效果；也能为敌方其他目标进行回复，并附加一次伤害免疫效果。能从胸腔中制造出小型桦树生物集群，将身上存在冻结效果的我方角色转为混乱状态。",
     "enemyDrop": [
@@ -36781,6 +36865,15 @@
       },
       {
         "id": 12600969
+      },
+      {
+        "id": 12600972
+      },
+      {
+        "id": 12600989
+      },
+      {
+        "id": 12600962
       }
     ],
     "enemyType": 12601047,
@@ -36955,6 +37048,9 @@
       },
       {
         "id": 12600972
+      },
+      {
+        "id": 12600962
       }
     ],
     "enemyType": 12601048,
@@ -36973,12 +37069,16 @@
     "controllerId": 10300096,
     "bulletControllerList": [],
     "isBoss": false,
+    "bossHpTemp": -1,
     "isDeadNotDisappear": false,
     "isFly": true,
     "originFlyYSN": 5000,
     "randomOffsetFlyYSN": 0,
     "flyOnStraight": false,
     "tagList": [
+      {
+        "tagId": 12600139
+      },
       {
         "tagId": 12600246
       }
@@ -37013,7 +37113,8 @@
     "hitAreaY_SN": 9000,
     "hitAreaHalfWidth_SN": 10000,
     "hitAreaHalfHeight_SN": 9000,
-    "safeInformation": ""
+    "safeInformation": "",
+    "unitInformation": ""
   },
   {
     "id": 10000193,
@@ -37054,7 +37155,7 @@
         "skillId": 12301371
       },
       {
-        "skillId": 12301428
+        "skillId": 12301367
       },
       {
         "skillId": 12301474
@@ -37281,7 +37382,8 @@
     "hitAreaY_SN": 10000,
     "hitAreaHalfWidth_SN": 5000,
     "hitAreaHalfHeight_SN": 10000,
-    "safeInformation": "在荒原上的搁浅货轮上游荡的深眠者，已经开始进一步深眠化，十分危险，但似乎并没有主动攻击人类的意思。",
+    "battleDes": "",
+    "safeInformation": "",
     "unitInformation": "",
     "enemyDrop": [
       {
@@ -37301,7 +37403,8 @@
     "weaknessList": [],
     "resistanceList": [],
     "enemyType": 12601048,
-    "enemyCamp": 12600237
+    "enemyCamp": 12600237,
+    "enemyBookId": -1
   },
   {
     "id": 10000194,
@@ -37407,7 +37510,8 @@
     "hitAreaY_SN": 10000,
     "hitAreaHalfWidth_SN": 5000,
     "hitAreaHalfHeight_SN": 10000,
-    "safeInformation": "在荒原上的搁浅货轮上游荡的深眠者，已经开始进一步深眠化，十分危险，但似乎并没有主动攻击人类的意思。",
+    "battleDes": "",
+    "safeInformation": "",
     "unitInformation": "",
     "enemyDrop": [
       {
@@ -37427,7 +37531,8 @@
     "weaknessList": [],
     "resistanceList": [],
     "enemyType": 12601048,
-    "enemyCamp": 12600237
+    "enemyCamp": 12600237,
+    "enemyBookId": -1
   },
   {
     "id": 10000195,
@@ -37469,9 +37574,6 @@
       },
       {
         "skillId": 12301371
-      },
-      {
-        "skillId": 12301428
       },
       {
         "skillId": 12301474
@@ -37809,7 +37911,7 @@
     "hitAreaY_SN": 15000,
     "hitAreaHalfWidth_SN": 10000,
     "hitAreaHalfHeight_SN": 15000,
-    "safeInformation": "坚固的路障，破坏后才能继续前进。",
+    "safeInformation": "",
     "unitInformation": ""
   },
   {
@@ -39063,7 +39165,7 @@
     "hitAreaHalfWidth_SN": 30000,
     "hitAreaHalfHeight_SN": 20000,
     "battleDes": "",
-    "safeInformation": "两人一组搭档行动的暴徒，一边高速行驶一边高速扫射，也能投掷燃烧瓶。",
+    "safeInformation": "",
     "unitInformation": "",
     "enemyDrop": [
       {
@@ -41789,7 +41891,7 @@
     "hitAreaHalfWidth_SN": 10000,
     "hitAreaHalfHeight_SN": 15000,
     "battleDes": "",
-    "safeInformation": "植物般的美丽桦树生物，解放核心后会进行高强度光束攻击。",
+    "safeInformation": "",
     "unitInformation": "",
     "enemyDrop": [
       {
@@ -42059,7 +42161,7 @@
     "hitAreaHalfWidth_SN": 10000,
     "hitAreaHalfHeight_SN": 15000,
     "battleDes": "",
-    "safeInformation": "费奇号上的深眠者，能发动秘法属性的攻击，也能禁锢一定范围内目标行动。",
+    "safeInformation": "",
     "unitInformation": "",
     "enemyDrop": [
       {
@@ -42742,7 +42844,7 @@
     "hitAreaHalfWidth_SN": 15000,
     "hitAreaHalfHeight_SN": 15000,
     "battleDes": "",
-    "safeInformation": "穿着自制外置装甲的暴徒，是队伍中的主力。遇到危险时能收起电锯、展开护盾进行防御，并呼叫小型无人机空投炸药清场。",
+    "safeInformation": "",
     "unitInformation": "",
     "enemyDrop": [
       {
@@ -42767,7 +42869,7 @@
         "id": 12600962
       }
     ],
-    "enemyType": 12601048,
+    "enemyType": 12601047,
     "enemyCamp": 12601045,
     "enemyBookId": 10000450
   },
@@ -44963,7 +45065,7 @@
     "hitAreaHalfWidth_SN": 10000,
     "hitAreaHalfHeight_SN": 15000,
     "battleDes": "",
-    "safeInformation": "植物般的美丽桦树生物，解放核心后会进行高强度光束攻击。",
+    "safeInformation": "",
     "unitInformation": "",
     "enemyDrop": [
       {
@@ -45388,8 +45490,8 @@
     "hitAreaHalfWidth_SN": 15000,
     "hitAreaHalfHeight_SN": 20000,
     "battleDes": "",
-    "safeInformation": "神出鬼没的沙盗团成员，能够对我方造成点燃和撕裂伤害。",
-    "unitInformation": "戴着厚重防晒面具的沙盗团成员，在荒原与沙漠地区神出鬼没，谁也不知道他们是怎么做到的。能从远距离投掷手斧进行攻击，能对我方造成点燃和撕裂伤害。",
+    "safeInformation": "",
+    "unitInformation": "",
     "enemyDrop": [],
     "abilityList": [
       {
@@ -45618,8 +45720,8 @@
     "hitAreaY_SN": 30000,
     "hitAreaHalfWidth_SN": 90000,
     "hitAreaHalfHeight_SN": 15000,
-    "safeInformation": "在被恐怖分子们“回收”以后被改造成了高效且强力的兵器，原本用于清障的多功能前臂现在已脱离了原本的功能，在战斗方面具备了更大的杀伤性。",
-    "unitInformation": "地联在篝火城计划初期为了更方便地铺设轨道而设计的大型清障工程车，在轨道上可以进行高效率作业，紧急情况下也可以脱离轨道运转，只是性能会受到影响。\r在被恐怖分子们“回收”以后被改造成了高效且强力的兵器，原本用于清障的多功能前臂现在已脱离了原本的功能，在战斗方面具备了更大的杀伤性。"
+    "safeInformation": "",
+    "unitInformation": ""
   },
   {
     "id": 10000227,
@@ -45859,7 +45961,7 @@
     "passiveSkillList": [],
     "hp_SN": 264000000,
     "def_SN": 630000,
-    "atk_SN": 860000,
+    "atk_SN": 870000,
     "atkSpeed_SN": 1000000,
     "luck_SN": 0,
     "spName": "",
@@ -46040,8 +46142,8 @@
     "hitAreaY_SN": 20000,
     "hitAreaHalfWidth_SN": 10000,
     "hitAreaHalfHeight_SN": 20000,
-    "safeInformation": "普通的掘金机器人，能造成电磁与物理伤害。受到过量伤害时会获得护盾并陷入瘫痪。",
-    "unitInformation": "运输作业用小型辅助机BOI3号，是由阿妮塔与前地联联合开发的仿生技工系列机器人的早期型号。因被大量投入淘金工作而被昵称为“掘金机器人”。"
+    "safeInformation": "",
+    "unitInformation": ""
   },
   {
     "id": 10000230,
@@ -46121,8 +46223,8 @@
     "hitAreaY_SN": 20000,
     "hitAreaHalfWidth_SN": 10000,
     "hitAreaHalfHeight_SN": 20000,
-    "safeInformation": "普通的掘金机器人，能造成电磁与物理伤害。受到过量伤害时会获得护盾并陷入瘫痪。",
-    "unitInformation": "运输作业用小型辅助机BOI3号，是由阿妮塔与前地联联合开发的仿生技工系列机器人的早期型号。因被大量投入淘金工作而被昵称为“掘金机器人”。"
+    "safeInformation": "",
+    "unitInformation": ""
   },
   {
     "id": 10000231,
@@ -46400,8 +46502,8 @@
     "hitAreaY_SN": 20000,
     "hitAreaHalfWidth_SN": 30000,
     "hitAreaHalfHeight_SN": 20000,
-    "safeInformation": "两人一组搭档行动的暴徒，一边高速行驶一边高速扫射，也能投掷燃烧瓶。",
-    "unitInformation": "驾驶着改装过的吉普车，以驾驶员和机枪手两人一组的搭档形式进行战斗的暴徒。除了在高速行驶时用机枪扫射外，也能投掷燃烧瓶，算是较为棘手的敌人。"
+    "safeInformation": "",
+    "unitInformation": ""
   },
   {
     "id": 10000235,
@@ -47138,7 +47240,7 @@
     "passiveSkillList": [],
     "hp_SN": 1320000000,
     "def_SN": 630000,
-    "atk_SN": 860000,
+    "atk_SN": 870000,
     "atkSpeed_SN": 1000000,
     "luck_SN": 0,
     "spName": "",
@@ -47892,6 +47994,9 @@
       },
       {
         "id": 12600989
+      },
+      {
+        "id": 12600990
       }
     ],
     "enemyType": 12601048,
@@ -48007,8 +48112,8 @@
     "hitAreaHalfWidth_SN": 10000,
     "hitAreaHalfHeight_SN": 15000,
     "battleDes": "",
-    "safeInformation": "用棒球棍攻击的暴徒。",
-    "unitInformation": "穿着简易防护装备的暴徒，使用棒球棍进行攻击，威胁度较低。",
+    "safeInformation": "",
+    "unitInformation": "",
     "enemyDrop": [],
     "abilityList": [
       {
@@ -48600,8 +48705,8 @@
     "hitAreaHalfWidth_SN": 10000,
     "hitAreaHalfHeight_SN": 20000,
     "battleDes": "",
-    "safeInformation": "全副武装的劫掠者，是劫掠者中难得一见的升构者，其升构能力表现为火焰。未持有武器，但可以使用升构能力发起攻击。",
-    "unitInformation": "全副武装的劫掠者，能够使用与火焰有关的升构能力。",
+    "safeInformation": "",
+    "unitInformation": "",
     "enemyDrop": [],
     "abilityList": [
       {
@@ -48737,8 +48842,8 @@
     "hitAreaHalfWidth_SN": 10000,
     "hitAreaHalfHeight_SN": 20000,
     "battleDes": "",
-    "safeInformation": "全副武装的劫掠者，体型健硕，双手持握长柄钉锤，造成电磁伤害。蓄力后对附带电流的锤击能让所有靠近的敌人遭受强烈的震荡并眩晕。",
-    "unitInformation": "全副武装的劫掠者，以电磁伤害为主要攻击手段，能造成范围击晕效果。",
+    "safeInformation": "",
+    "unitInformation": "",
     "enemyDrop": [],
     "abilityList": [
       {
@@ -49014,8 +49119,8 @@
     "hitAreaHalfWidth_SN": 15000,
     "hitAreaHalfHeight_SN": 20000,
     "battleDes": "",
-    "safeInformation": "全副武装的劫掠者，体型健硕，以改装后能喷射冰冻气流的喷枪作为主要武器。非法改装后的喷枪可以短暂锁定在原地眩晕的敌人，释放镭射火柱，对于非眩晕状态的敌人则因难以锁定而无法生效。",
-    "unitInformation": "全副武装的劫掠者，持用冰冻喷枪。能够锁定被眩晕的敌人集中喷射火焰。",
+    "safeInformation": "",
+    "unitInformation": "",
     "enemyDrop": [],
     "abilityList": [
       {
@@ -49141,8 +49246,8 @@
     "hitAreaHalfWidth_SN": 10000,
     "hitAreaHalfHeight_SN": 15000,
     "battleDes": "",
-    "safeInformation": "同时持有棒球棍与手斧的暴徒，可以灵活切换武器。",
-    "unitInformation": "穿着简易防护装备的暴徒，双手分别持握着棒球棍和手斧，战斗时会灵活选择其中一种武器发起攻势，是较为棘手的敌人。",
+    "safeInformation": "",
+    "unitInformation": "",
     "enemyDrop": [],
     "abilityList": [
       {
@@ -49160,7 +49265,7 @@
     "resistanceList": [],
     "enemyType": 12601047,
     "enemyCamp": 12601045,
-    "enemyBookId": 10000444
+    "enemyBookId": 10000264
   },
   {
     "id": 10000265,
@@ -49274,8 +49379,8 @@
     "hitAreaHalfWidth_SN": 15000,
     "hitAreaHalfHeight_SN": 20000,
     "battleDes": "",
-    "safeInformation": "全副武装的劫掠者。在大剑上附加了喷火装置，能够造成火焰伤害。经过改装的臂甲可以强力地控制住敌人，使其动弹不得。",
-    "unitInformation": "全副武装的劫掠者，使用会造成火焰伤害的大剑。臂甲可以对敌人起到控制效果。",
+    "safeInformation": "",
+    "unitInformation": "",
     "enemyDrop": [],
     "abilityList": [
       {
@@ -49917,7 +50022,7 @@
     ],
     "passiveSkillList": [],
     "hp_SN": 80000000,
-    "def_SN": 790000,
+    "def_SN": 820000,
     "atk_SN": 780000,
     "atkSpeed_SN": 1000000,
     "luck_SN": 0,
@@ -50045,17 +50150,17 @@
     "isSpine2": 1,
     "homeSkillList": [
       {
-        "id": 83900102,
-        "nextIndex": 0,
+        "id": 83900087,
+        "nextIndex": 3,
         "resonanceLv": 1
       },
       {
-        "id": 83900033,
-        "nextIndex": 3,
+        "id": 83900005,
+        "nextIndex": 0,
         "resonanceLv": 4
       },
       {
-        "id": 83900054,
+        "id": 83900088,
         "nextIndex": -1,
         "resonanceLv": 5
       }
@@ -50069,15 +50174,17 @@
     "isDoctor": false,
     "medicalPoint": 0,
     "WasteCoefficient": 1.0,
-    "FoodList": [],
+    "FoodList": [
+      {
+        "id": 83300014,
+        "letter": "是简单的家常做法，能填饱肚子。趁热吃。",
+        "weight": 1
+      }
+    ],
     "ProfilePhotoList": [
       {
         "id": 82600377,
         "weight": 95
-      },
-      {
-        "id": 82600378,
-        "weight": 15
       },
       {
         "id": 82600379,
@@ -50086,6 +50193,10 @@
       {
         "id": 82600380,
         "weight": 95
+      },
+      {
+        "id": 82600378,
+        "weight": 15
       }
     ],
     "classifyList": [],
@@ -50095,17 +50206,21 @@
       }
     ],
     "age": 0,
-    "gender": "",
-    "birthday": "1月1日",
-    "height": "150",
-    "birthplace": "",
-    "ability": "",
-    "identity": "",
+    "gender": "男",
+    "birthday": "9月28日",
+    "height": "185cm",
+    "birthplace": "今七号自由港旧址",
+    "ability": "无查询权限",
+    "identity": "铁盟·修格里城铁安局负责人",
     "basic": "",
-    "ResumeList": [],
+    "ResumeList": [
+      {
+        "des": "在拜访修格里城的铁安局之前，认识海因里希的最快途径是指着那张著名的铁盟征兵宣传广告问“天啊，那是谁？！”。这个问题能得到的回答多种多样，有人会告诉你那是修格里城铁安局的负责人，有人会说他是旧时代的战争英雄、真正的士兵。但假如你有机会和这名模范人物面对面，就能发现他并没有任何偶像光环在身。他会对任何需要帮助的人表现出一名军人的克制和友善，提供一切他职责范围内的帮助。"
+      }
+    ],
     "StoryList": [],
     "CvName": "",
-    "getCharacter": "",
+    "getCharacter": "我是海因里希，修格里的铁安局负责人，于无垠号上临时驻留。就我们之间的信赖关系而言，相信不需要更多介绍了。",
     "safeInformation": "",
     "unitInformation": ""
   },
@@ -51228,8 +51343,8 @@
     "hitAreaHalfWidth_SN": 40000,
     "hitAreaHalfHeight_SN": 40000,
     "battleDes": "",
-    "safeInformation": "以火焰类型攻击为主的原始桦树生物，能力强大。",
-    "unitInformation": "具有强大威胁性的桦树生物，原始桦树生物的高级生命形态。需要至少小队级别的武装才可能正面对抗。以火焰类型的攻击为主，能点燃我方乘员并且提升自身火焰伤害；也能创造大范围的燃烧地面，对范围内的我方角色造成持续伤害。",
+    "safeInformation": "",
+    "unitInformation": "",
     "enemyDrop": [],
     "abilityList": [],
     "weaknessList": [],
@@ -51471,5 +51586,2834 @@
     "enemyType": 12601046,
     "enemyCamp": 12601044,
     "enemyBookId": -1
+  },
+  {
+    "id": 10000281,
+    "idCN": "爬塔/人形单位/劫掠者·执锯-3",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "劫掠者·执锯",
+    "EnglishName": "Looter-in-Chief",
+    "viewId": 11000305,
+    "skinList": [],
+    "sideId": 12600907,
+    "controllerId": 10300314,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": 90100011,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600278
+      },
+      {
+        "tagId": 12601075
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301411
+      },
+      {
+        "skillId": 12301431
+      },
+      {
+        "skillId": 12301410
+      },
+      {
+        "skillId": 12301369
+      },
+      {
+        "skillId": 12301432
+      },
+      {
+        "skillId": 12301413
+      },
+      {
+        "skillId": 12301618
+      },
+      {
+        "skillId": 12300508
+      },
+      {
+        "skillId": 12300879
+      },
+      {
+        "skillId": 12300975
+      },
+      {
+        "skillId": 12300976
+      },
+      {
+        "skillId": 12301597
+      }
+    ],
+    "hp_SN": 1650000000,
+    "def_SN": 650000,
+    "atk_SN": 800000,
+    "atkSpeed_SN": 800000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000358,
+    "growthTagList": [
+      {
+        "growthTagId": 12000353
+      },
+      {
+        "growthTagId": 12000060
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800292
+      },
+      {
+        "talentId": 12800293
+      },
+      {
+        "talentId": 12800294
+      },
+      {
+        "talentId": 12800295
+      },
+      {
+        "talentId": 12800296
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10102723,
+    "actionMoveID": 10102721,
+    "actionAttackedID": 10102722,
+    "actionAttackedBackID": 10102724,
+    "actionKnockUpID": -1,
+    "actionStunID": 10102720,
+    "actionDeadID": 10102725,
+    "actionVictoryID": -1,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 30000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 25000,
+    "hitAreaHalfWidth_SN": 25000,
+    "hitAreaHalfHeight_SN": 20000,
+    "battleDes": "",
+    "safeInformation": "劫掠者的头领，以多功能轮锯作为武器。能造成电磁和火焰伤害，伴有多种负面效果。战斗意志顽强，濒死时触发【不灭的火种】。",
+    "unitInformation": "劫掠者团伙的首领，装备了精良的外部装甲，具有强烈的战斗意志。与其他劫掠者相比，他的武装程度更为夸张，可以说是武装到了牙缝儿。使用的武器是由阿妮塔出品的桦石开采装置改造而来。以多功能轮锯作为主要攻击手段，能对多个目标造成物理伤害。轮锯高速运转时能发射冲击弹，对我方全体角色造成电磁伤害，同时触发【引雷】；当将轮锯作为近距离武器使用时，能对范围内我方角色造成火焰伤害并【击飞】，同时有概率触发【点燃】。\\n【不灭的火种】：濒死时【无敌】并回复自身全部生命值，同时对全场造成【火海】。处于此状态时，驱散并免疫控制效果且技能释放频率加快，同时每秒损失自身生命值。该效果至多触发3次，每次回复的生命值递减。",
+    "enemyDrop": [
+      {
+        "id": 11700050
+      }
+    ],
+    "abilityList": [
+      {
+        "id": 12600930
+      },
+      {
+        "id": 12600904
+      },
+      {
+        "id": 12600903
+      },
+      {
+        "id": 12600923
+      },
+      {
+        "id": 12600925
+      },
+      {
+        "id": 12600934
+      },
+      {
+        "id": 12600944
+      }
+    ],
+    "weaknessList": [
+      {
+        "id": 12600993
+      },
+      {
+        "id": 12600974
+      }
+    ],
+    "resistanceList": [
+      {
+        "id": 12600962
+      },
+      {
+        "id": 12600991
+      },
+      {
+        "id": 12600989
+      }
+    ],
+    "enemyType": 12601048,
+    "enemyCamp": 12601045,
+    "enemyBookId": 10000255
+  },
+  {
+    "id": 10000284,
+    "idCN": "爬塔/桦树生物/鸣爆虫母-3",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "鸣爆虫母",
+    "EnglishName": "",
+    "viewId": 11000175,
+    "skinList": [],
+    "sideId": 12601006,
+    "controllerId": 10300371,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": 90100008,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600278
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301370
+      },
+      {
+        "skillId": 12301368
+      },
+      {
+        "skillId": 12301372
+      },
+      {
+        "skillId": 12301411
+      },
+      {
+        "skillId": 12300936
+      },
+      {
+        "skillId": 12301367
+      },
+      {
+        "skillId": 12301472
+      },
+      {
+        "skillId": 12300974
+      },
+      {
+        "skillId": 12300978
+      }
+    ],
+    "hp_SN": 1200000000,
+    "def_SN": 600000,
+    "atk_SN": 600000,
+    "atkSpeed_SN": 1000000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000093,
+    "growthTagList": [
+      {
+        "growthTagId": 12000353
+      },
+      {
+        "growthTagId": 12000060
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800470
+      },
+      {
+        "talentId": 12800471
+      },
+      {
+        "talentId": 12800467
+      },
+      {
+        "talentId": 12800468
+      },
+      {
+        "talentId": 12800469
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10101792,
+    "actionMoveID": 10101793,
+    "actionAttackedID": 10101794,
+    "actionAttackedBackID": 10101795,
+    "actionKnockUpID": -1,
+    "actionStunID": 10101796,
+    "actionDeadID": 10101797,
+    "actionVictoryID": -1,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 35000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 35000,
+    "hitAreaHalfWidth_SN": 35000,
+    "hitAreaHalfHeight_SN": 35000,
+    "battleDes": "",
+    "safeInformation": "繁衍和统领着毒爆虫们的女王，不仅破坏力和攻击范围远超一般个体，还能召唤大量子嗣进行自爆攻击。",
+    "unitInformation": "毒爆虫中无论是实力与体型都十分巨大的个体，是繁衍和统领着毒爆虫们的女王。最显著的特征是能够召唤成群的毒爆虫，进行范围较大的集体攻击。",
+    "enemyDrop": [
+      {
+        "id": 11700164
+      },
+      {
+        "id": 11700170
+      },
+      {
+        "id": 11700169
+      },
+      {
+        "id": 11700171
+      }
+    ],
+    "abilityList": [
+      {
+        "id": 12601005
+      },
+      {
+        "id": 12600949
+      },
+      {
+        "id": 12601007
+      }
+    ],
+    "weaknessList": [
+      {
+        "id": 12600996
+      },
+      {
+        "id": 12600978
+      },
+      {
+        "id": 12601002
+      },
+      {
+        "id": 12600993
+      },
+      {
+        "id": 12600988
+      }
+    ],
+    "resistanceList": [
+      {
+        "id": 12600972
+      }
+    ],
+    "enemyType": 12601048,
+    "enemyCamp": 12601044,
+    "enemyBookId": 10000040
+  },
+  {
+    "id": 10000283,
+    "idCN": "爬塔/桦树生物/鸣爆虫母-2",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "鸣爆虫母",
+    "EnglishName": "",
+    "viewId": 11000175,
+    "skinList": [],
+    "sideId": 12601006,
+    "controllerId": 10300371,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": 90100008,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600278
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301370
+      },
+      {
+        "skillId": 12301368
+      },
+      {
+        "skillId": 12301372
+      },
+      {
+        "skillId": 12301411
+      },
+      {
+        "skillId": 12300936
+      },
+      {
+        "skillId": 12301367
+      },
+      {
+        "skillId": 12301472
+      },
+      {
+        "skillId": 12300974
+      }
+    ],
+    "hp_SN": 1200000000,
+    "def_SN": 600000,
+    "atk_SN": 600000,
+    "atkSpeed_SN": 1000000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000093,
+    "growthTagList": [
+      {
+        "growthTagId": 12000353
+      },
+      {
+        "growthTagId": 12000060
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800470
+      },
+      {
+        "talentId": 12800471
+      },
+      {
+        "talentId": 12800467
+      },
+      {
+        "talentId": 12800468
+      },
+      {
+        "talentId": 12800469
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10101792,
+    "actionMoveID": 10101793,
+    "actionAttackedID": 10101794,
+    "actionAttackedBackID": 10101795,
+    "actionKnockUpID": -1,
+    "actionStunID": 10101796,
+    "actionDeadID": 10101797,
+    "actionVictoryID": -1,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 35000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 35000,
+    "hitAreaHalfWidth_SN": 35000,
+    "hitAreaHalfHeight_SN": 35000,
+    "battleDes": "",
+    "safeInformation": "繁衍和统领着毒爆虫们的女王，不仅破坏力和攻击范围远超一般个体，还能召唤大量子嗣进行自爆攻击。",
+    "unitInformation": "毒爆虫中无论是实力与体型都十分巨大的个体，是繁衍和统领着毒爆虫们的女王。最显著的特征是能够召唤成群的毒爆虫，进行范围较大的集体攻击。",
+    "enemyDrop": [
+      {
+        "id": 11700164
+      },
+      {
+        "id": 11700170
+      },
+      {
+        "id": 11700169
+      },
+      {
+        "id": 11700171
+      }
+    ],
+    "abilityList": [
+      {
+        "id": 12601005
+      },
+      {
+        "id": 12600949
+      },
+      {
+        "id": 12601007
+      }
+    ],
+    "weaknessList": [
+      {
+        "id": 12600996
+      },
+      {
+        "id": 12600978
+      },
+      {
+        "id": 12601002
+      },
+      {
+        "id": 12600993
+      },
+      {
+        "id": 12600988
+      }
+    ],
+    "resistanceList": [
+      {
+        "id": 12600972
+      }
+    ],
+    "enemyType": 12601048,
+    "enemyCamp": 12601044,
+    "enemyBookId": 10000040
+  },
+  {
+    "id": 10000282,
+    "idCN": "爬塔/桦树生物/鸣爆虫母-1",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "鸣爆虫母",
+    "EnglishName": "",
+    "viewId": 11000175,
+    "skinList": [],
+    "sideId": 12601006,
+    "controllerId": 10300094,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": 90100008,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600278
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301370
+      },
+      {
+        "skillId": 12301368
+      },
+      {
+        "skillId": 12301372
+      },
+      {
+        "skillId": 12301411
+      },
+      {
+        "skillId": 12300936
+      },
+      {
+        "skillId": 12301367
+      },
+      {
+        "skillId": 12301472
+      },
+      {
+        "skillId": 12300974
+      }
+    ],
+    "hp_SN": 1200000000,
+    "def_SN": 600000,
+    "atk_SN": 600000,
+    "atkSpeed_SN": 1000000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000093,
+    "growthTagList": [
+      {
+        "growthTagId": 12000353
+      },
+      {
+        "growthTagId": 12000060
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800470
+      },
+      {
+        "talentId": 12800471
+      },
+      {
+        "talentId": 12800467
+      },
+      {
+        "talentId": 12800468
+      },
+      {
+        "talentId": 12800469
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10101792,
+    "actionMoveID": 10101793,
+    "actionAttackedID": 10101794,
+    "actionAttackedBackID": 10101795,
+    "actionKnockUpID": -1,
+    "actionStunID": 10101796,
+    "actionDeadID": 10101797,
+    "actionVictoryID": -1,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 35000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 35000,
+    "hitAreaHalfWidth_SN": 35000,
+    "hitAreaHalfHeight_SN": 35000,
+    "battleDes": "",
+    "safeInformation": "繁衍和统领着毒爆虫们的女王，不仅破坏力和攻击范围远超一般个体，还能召唤大量子嗣进行自爆攻击。",
+    "unitInformation": "毒爆虫中无论是实力与体型都十分巨大的个体，是繁衍和统领着毒爆虫们的女王。最显著的特征是能够召唤成群的毒爆虫，进行范围较大的集体攻击。",
+    "enemyDrop": [
+      {
+        "id": 11700164
+      },
+      {
+        "id": 11700170
+      },
+      {
+        "id": 11700169
+      },
+      {
+        "id": 11700171
+      }
+    ],
+    "abilityList": [
+      {
+        "id": 12601005
+      },
+      {
+        "id": 12600949
+      },
+      {
+        "id": 12601007
+      }
+    ],
+    "weaknessList": [
+      {
+        "id": 12600996
+      },
+      {
+        "id": 12600978
+      },
+      {
+        "id": 12601002
+      },
+      {
+        "id": 12600993
+      },
+      {
+        "id": 12600988
+      }
+    ],
+    "resistanceList": [
+      {
+        "id": 12600972
+      }
+    ],
+    "enemyType": 12601048,
+    "enemyCamp": 12601044,
+    "enemyBookId": 10000040
+  },
+  {
+    "id": 10000285,
+    "idCN": "爬塔/人形单位/劫掠者·执锯-2",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "劫掠者·执锯",
+    "EnglishName": "Looter-in-Chief",
+    "viewId": 11000305,
+    "skinList": [],
+    "sideId": 12600907,
+    "controllerId": 10300314,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": 90100011,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600278
+      },
+      {
+        "tagId": 12601075
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301411
+      },
+      {
+        "skillId": 12301431
+      },
+      {
+        "skillId": 12301410
+      },
+      {
+        "skillId": 12301369
+      },
+      {
+        "skillId": 12301432
+      },
+      {
+        "skillId": 12301413
+      },
+      {
+        "skillId": 12301618
+      },
+      {
+        "skillId": 12300508
+      },
+      {
+        "skillId": 12300879
+      },
+      {
+        "skillId": 12300975
+      },
+      {
+        "skillId": 12300976
+      }
+    ],
+    "hp_SN": 1650000000,
+    "def_SN": 650000,
+    "atk_SN": 800000,
+    "atkSpeed_SN": 800000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000358,
+    "growthTagList": [
+      {
+        "growthTagId": 12000353
+      },
+      {
+        "growthTagId": 12000060
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800292
+      },
+      {
+        "talentId": 12800293
+      },
+      {
+        "talentId": 12800294
+      },
+      {
+        "talentId": 12800295
+      },
+      {
+        "talentId": 12800296
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10102723,
+    "actionMoveID": 10102721,
+    "actionAttackedID": 10102722,
+    "actionAttackedBackID": 10102724,
+    "actionKnockUpID": -1,
+    "actionStunID": 10102720,
+    "actionDeadID": 10102725,
+    "actionVictoryID": -1,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 30000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 25000,
+    "hitAreaHalfWidth_SN": 25000,
+    "hitAreaHalfHeight_SN": 20000,
+    "battleDes": "",
+    "safeInformation": "劫掠者的头领，以多功能轮锯作为武器。能造成电磁和火焰伤害，伴有多种负面效果。战斗意志顽强，濒死时触发【不灭的火种】。",
+    "unitInformation": "劫掠者团伙的首领，装备了精良的外部装甲，具有强烈的战斗意志。与其他劫掠者相比，他的武装程度更为夸张，可以说是武装到了牙缝儿。使用的武器是由阿妮塔出品的桦石开采装置改造而来。以多功能轮锯作为主要攻击手段，能对多个目标造成物理伤害。轮锯高速运转时能发射冲击弹，对我方全体角色造成电磁伤害，同时触发【引雷】；当将轮锯作为近距离武器使用时，能对范围内我方角色造成火焰伤害并【击飞】，同时有概率触发【点燃】。\\n【不灭的火种】：濒死时【无敌】并回复自身全部生命值，同时对全场造成【火海】。处于此状态时，驱散并免疫控制效果且技能释放频率加快，同时每秒损失自身生命值。该效果至多触发3次，每次回复的生命值递减。",
+    "enemyDrop": [
+      {
+        "id": 11700050
+      }
+    ],
+    "abilityList": [
+      {
+        "id": 12600930
+      },
+      {
+        "id": 12600904
+      },
+      {
+        "id": 12600903
+      },
+      {
+        "id": 12600923
+      },
+      {
+        "id": 12600925
+      },
+      {
+        "id": 12600934
+      },
+      {
+        "id": 12600944
+      }
+    ],
+    "weaknessList": [
+      {
+        "id": 12600993
+      },
+      {
+        "id": 12600974
+      }
+    ],
+    "resistanceList": [
+      {
+        "id": 12600962
+      },
+      {
+        "id": 12600991
+      },
+      {
+        "id": 12600989
+      }
+    ],
+    "enemyType": 12601048,
+    "enemyCamp": 12601045,
+    "enemyBookId": 10000255
+  },
+  {
+    "id": 10000286,
+    "idCN": "爬塔/人形单位/劫掠者·执锯-1",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "劫掠者·执锯",
+    "EnglishName": "Looter-in-Chief",
+    "viewId": 11000305,
+    "skinList": [],
+    "sideId": 12600907,
+    "controllerId": 10300314,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": 90100011,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600278
+      },
+      {
+        "tagId": 12601075
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301411
+      },
+      {
+        "skillId": 12301431
+      },
+      {
+        "skillId": 12301410
+      },
+      {
+        "skillId": 12301369
+      },
+      {
+        "skillId": 12301432
+      },
+      {
+        "skillId": 12301413
+      },
+      {
+        "skillId": 12301618
+      },
+      {
+        "skillId": 12300508
+      },
+      {
+        "skillId": 12300879
+      },
+      {
+        "skillId": 12300975
+      }
+    ],
+    "hp_SN": 1650000000,
+    "def_SN": 650000,
+    "atk_SN": 800000,
+    "atkSpeed_SN": 800000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000358,
+    "growthTagList": [
+      {
+        "growthTagId": 12000353
+      },
+      {
+        "growthTagId": 12000060
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800292
+      },
+      {
+        "talentId": 12800293
+      },
+      {
+        "talentId": 12800294
+      },
+      {
+        "talentId": 12800295
+      },
+      {
+        "talentId": 12800296
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10102723,
+    "actionMoveID": 10102721,
+    "actionAttackedID": 10102722,
+    "actionAttackedBackID": 10102724,
+    "actionKnockUpID": -1,
+    "actionStunID": 10102720,
+    "actionDeadID": 10102725,
+    "actionVictoryID": -1,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 30000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 25000,
+    "hitAreaHalfWidth_SN": 25000,
+    "hitAreaHalfHeight_SN": 20000,
+    "battleDes": "",
+    "safeInformation": "劫掠者的头领，以多功能轮锯作为武器。能造成电磁和火焰伤害，伴有多种负面效果。战斗意志顽强，濒死时触发【不灭的火种】。",
+    "unitInformation": "劫掠者团伙的首领，装备了精良的外部装甲，具有强烈的战斗意志。与其他劫掠者相比，他的武装程度更为夸张，可以说是武装到了牙缝儿。使用的武器是由阿妮塔出品的桦石开采装置改造而来。以多功能轮锯作为主要攻击手段，能对多个目标造成物理伤害。轮锯高速运转时能发射冲击弹，对我方全体角色造成电磁伤害，同时触发【引雷】；当将轮锯作为近距离武器使用时，能对范围内我方角色造成火焰伤害并【击飞】，同时有概率触发【点燃】。\\n【不灭的火种】：濒死时【无敌】并回复自身全部生命值，同时对全场造成【火海】。处于此状态时，驱散并免疫控制效果且技能释放频率加快，同时每秒损失自身生命值。该效果至多触发3次，每次回复的生命值递减。",
+    "enemyDrop": [
+      {
+        "id": 11700050
+      }
+    ],
+    "abilityList": [
+      {
+        "id": 12600930
+      },
+      {
+        "id": 12600904
+      },
+      {
+        "id": 12600903
+      },
+      {
+        "id": 12600923
+      },
+      {
+        "id": 12600925
+      },
+      {
+        "id": 12600934
+      },
+      {
+        "id": 12600944
+      }
+    ],
+    "weaknessList": [
+      {
+        "id": 12600993
+      },
+      {
+        "id": 12600974
+      }
+    ],
+    "resistanceList": [
+      {
+        "id": 12600962
+      },
+      {
+        "id": 12600991
+      },
+      {
+        "id": 12600989
+      }
+    ],
+    "enemyType": 12601048,
+    "enemyCamp": 12601045,
+    "enemyBookId": 10000255
+  },
+  {
+    "id": 10000291,
+    "idCN": "爬塔/机械单位/伐木重机-1",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "伐木重机",
+    "EnglishName": "",
+    "viewId": 11000277,
+    "skinList": [],
+    "sideId": 12600913,
+    "controllerId": 10300372,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": 90100009,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600278
+      },
+      {
+        "tagId": 12600011
+      },
+      {
+        "tagId": 12601127
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301411
+      },
+      {
+        "skillId": 12301371
+      },
+      {
+        "skillId": 12301410
+      },
+      {
+        "skillId": 12301433
+      },
+      {
+        "skillId": 12301472
+      },
+      {
+        "skillId": 12300897
+      },
+      {
+        "skillId": 12300977
+      }
+    ],
+    "hp_SN": 2048000000,
+    "def_SN": 760000,
+    "atk_SN": 840000,
+    "atkSpeed_SN": 1000000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000342,
+    "growthTagList": [
+      {
+        "growthTagId": 12000353
+      },
+      {
+        "growthTagId": 12000060
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800470
+      },
+      {
+        "talentId": 12800471
+      },
+      {
+        "talentId": 12800467
+      },
+      {
+        "talentId": 12800468
+      },
+      {
+        "talentId": 12800469
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10102426,
+    "actionMoveID": 10102421,
+    "actionAttackedID": 10102423,
+    "actionAttackedBackID": 10102419,
+    "actionKnockUpID": -1,
+    "actionStunID": 10102420,
+    "actionDeadID": 10102422,
+    "actionVictoryID": -1,
+    "hitPointX_SN": 10000,
+    "hitPointY_SN": 15000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 15000,
+    "hitAreaHalfWidth_SN": 50000,
+    "hitAreaHalfHeight_SN": 15000,
+    "battleDes": "",
+    "safeInformation": "旧式作业用机械，会喷射寒气造成冰冻伤害，并造成冻结效果。防御会随时间逐步降低，但伤害得到提升。",
+    "unitInformation": "无论从时代还是环境角度考虑都不应该出现在此地的作业用机械。\r这架伐木机械应该是曾经服役于“北方阵线”的型号。虽只是伐木机械，但其破坏力不可小觑；另外，其上加装的降温模块似乎有些出力过猛，因此经常出现锯末和冰屑同飞的效果。在“北阵”解散多年后的现在，北方阵线的机械现身于此的原因，还是个谜。",
+    "enemyDrop": [
+      {
+        "id": 11700179
+      },
+      {
+        "id": 11700180
+      },
+      {
+        "id": 11700183
+      },
+      {
+        "id": 11700184
+      },
+      {
+        "id": 11700185
+      },
+      {
+        "id": 11700186
+      }
+    ],
+    "abilityList": [
+      {
+        "id": 12600948
+      },
+      {
+        "id": 12600927
+      }
+    ],
+    "weaknessList": [
+      {
+        "id": 12600993
+      }
+    ],
+    "resistanceList": [
+      {
+        "id": 12600992
+      },
+      {
+        "id": 12600972
+      },
+      {
+        "id": 12600962
+      }
+    ],
+    "enemyType": 12601048,
+    "enemyCamp": 12600221,
+    "enemyBookId": 10000252
+  },
+  {
+    "id": 10000292,
+    "idCN": "爬塔/机械单位/伐木重机-2",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "伐木重机",
+    "EnglishName": "",
+    "viewId": 11000277,
+    "skinList": [],
+    "sideId": 12600913,
+    "controllerId": 10300372,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": 90100009,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600278
+      },
+      {
+        "tagId": 12600011
+      },
+      {
+        "tagId": 12601127
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301411
+      },
+      {
+        "skillId": 12301371
+      },
+      {
+        "skillId": 12301410
+      },
+      {
+        "skillId": 12301433
+      },
+      {
+        "skillId": 12301472
+      },
+      {
+        "skillId": 12300897
+      },
+      {
+        "skillId": 12300977
+      },
+      {
+        "skillId": 12300981
+      }
+    ],
+    "hp_SN": 2048000000,
+    "def_SN": 760000,
+    "atk_SN": 840000,
+    "atkSpeed_SN": 1000000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000342,
+    "growthTagList": [
+      {
+        "growthTagId": 12000353
+      },
+      {
+        "growthTagId": 12000060
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800470
+      },
+      {
+        "talentId": 12800471
+      },
+      {
+        "talentId": 12800467
+      },
+      {
+        "talentId": 12800468
+      },
+      {
+        "talentId": 12800469
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10102426,
+    "actionMoveID": 10102421,
+    "actionAttackedID": 10102423,
+    "actionAttackedBackID": 10102419,
+    "actionKnockUpID": -1,
+    "actionStunID": 10102420,
+    "actionDeadID": 10102422,
+    "actionVictoryID": -1,
+    "hitPointX_SN": 10000,
+    "hitPointY_SN": 15000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 15000,
+    "hitAreaHalfWidth_SN": 50000,
+    "hitAreaHalfHeight_SN": 15000,
+    "battleDes": "",
+    "safeInformation": "旧式作业用机械，会喷射寒气造成冰冻伤害，并造成冻结效果。防御会随时间逐步降低，但伤害得到提升。",
+    "unitInformation": "无论从时代还是环境角度考虑都不应该出现在此地的作业用机械。\r这架伐木机械应该是曾经服役于“北方阵线”的型号。虽只是伐木机械，但其破坏力不可小觑；另外，其上加装的降温模块似乎有些出力过猛，因此经常出现锯末和冰屑同飞的效果。在“北阵”解散多年后的现在，北方阵线的机械现身于此的原因，还是个谜。",
+    "enemyDrop": [
+      {
+        "id": 11700179
+      },
+      {
+        "id": 11700180
+      },
+      {
+        "id": 11700183
+      },
+      {
+        "id": 11700184
+      },
+      {
+        "id": 11700185
+      },
+      {
+        "id": 11700186
+      }
+    ],
+    "abilityList": [
+      {
+        "id": 12600948
+      },
+      {
+        "id": 12600927
+      }
+    ],
+    "weaknessList": [
+      {
+        "id": 12600993
+      }
+    ],
+    "resistanceList": [
+      {
+        "id": 12600992
+      },
+      {
+        "id": 12600972
+      },
+      {
+        "id": 12600962
+      }
+    ],
+    "enemyType": 12601048,
+    "enemyCamp": 12600221,
+    "enemyBookId": 10000252
+  },
+  {
+    "id": 10000295,
+    "idCN": "爬塔/机械单位/伐木重机-3",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "伐木重机",
+    "EnglishName": "",
+    "viewId": 11000277,
+    "skinList": [],
+    "sideId": 12600913,
+    "controllerId": 10300372,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": 90100009,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600278
+      },
+      {
+        "tagId": 12600011
+      },
+      {
+        "tagId": 12601127
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301411
+      },
+      {
+        "skillId": 12301371
+      },
+      {
+        "skillId": 12301410
+      },
+      {
+        "skillId": 12301433
+      },
+      {
+        "skillId": 12301472
+      },
+      {
+        "skillId": 12300897
+      },
+      {
+        "skillId": 12300977
+      },
+      {
+        "skillId": 12300981
+      },
+      {
+        "skillId": 12300982
+      }
+    ],
+    "hp_SN": 2048000000,
+    "def_SN": 760000,
+    "atk_SN": 840000,
+    "atkSpeed_SN": 1000000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000342,
+    "growthTagList": [
+      {
+        "growthTagId": 12000353
+      },
+      {
+        "growthTagId": 12000060
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800470
+      },
+      {
+        "talentId": 12800471
+      },
+      {
+        "talentId": 12800467
+      },
+      {
+        "talentId": 12800468
+      },
+      {
+        "talentId": 12800469
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10102426,
+    "actionMoveID": 10102421,
+    "actionAttackedID": 10102423,
+    "actionAttackedBackID": 10102419,
+    "actionKnockUpID": -1,
+    "actionStunID": 10102420,
+    "actionDeadID": 10102422,
+    "actionVictoryID": -1,
+    "hitPointX_SN": 10000,
+    "hitPointY_SN": 15000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 15000,
+    "hitAreaHalfWidth_SN": 50000,
+    "hitAreaHalfHeight_SN": 15000,
+    "battleDes": "",
+    "safeInformation": "旧式作业用机械，会喷射寒气造成冰冻伤害，并造成冻结效果。防御会随时间逐步降低，但伤害得到提升。",
+    "unitInformation": "无论从时代还是环境角度考虑都不应该出现在此地的作业用机械。\r这架伐木机械应该是曾经服役于“北方阵线”的型号。虽只是伐木机械，但其破坏力不可小觑；另外，其上加装的降温模块似乎有些出力过猛，因此经常出现锯末和冰屑同飞的效果。在“北阵”解散多年后的现在，北方阵线的机械现身于此的原因，还是个谜。",
+    "enemyDrop": [
+      {
+        "id": 11700179
+      },
+      {
+        "id": 11700180
+      },
+      {
+        "id": 11700183
+      },
+      {
+        "id": 11700184
+      },
+      {
+        "id": 11700185
+      },
+      {
+        "id": 11700186
+      }
+    ],
+    "abilityList": [
+      {
+        "id": 12600948
+      },
+      {
+        "id": 12600927
+      }
+    ],
+    "weaknessList": [
+      {
+        "id": 12600993
+      }
+    ],
+    "resistanceList": [
+      {
+        "id": 12600992
+      },
+      {
+        "id": 12600972
+      },
+      {
+        "id": 12600962
+      }
+    ],
+    "enemyType": 12601048,
+    "enemyCamp": 12600221,
+    "enemyBookId": 10000252
+  },
+  {
+    "id": 10000287,
+    "idCN": "爬塔/桦树生物/寒潮浮囊体-1",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "寒潮浮囊体",
+    "EnglishName": "Blizzard Pneumatophore",
+    "viewId": 11000227,
+    "skinList": [],
+    "sideId": 12600920,
+    "controllerId": 10300190,
+    "bulletControllerList": [
+      {
+        "controllerId": 13400004
+      }
+    ],
+    "isBoss": true,
+    "bossHpTemp": 90100008,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600278
+      },
+      {
+        "tagId": 12601127
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301371
+      },
+      {
+        "skillId": 12301368
+      },
+      {
+        "skillId": 12301472
+      },
+      {
+        "skillId": 12300979
+      }
+    ],
+    "hp_SN": 1400000000,
+    "def_SN": 700000,
+    "atk_SN": 700000,
+    "atkSpeed_SN": 1000000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000325,
+    "growthTagList": [
+      {
+        "growthTagId": 12000353
+      },
+      {
+        "growthTagId": 12000060
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800470
+      },
+      {
+        "talentId": 12800471
+      },
+      {
+        "talentId": 12800467
+      },
+      {
+        "talentId": 12800468
+      },
+      {
+        "talentId": 12800469
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10102142,
+    "actionMoveID": 10102144,
+    "actionAttackedID": 10102140,
+    "actionAttackedBackID": 10102141,
+    "actionKnockUpID": -1,
+    "actionStunID": 10102215,
+    "actionDeadID": 10102216,
+    "actionVictoryID": -1,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 30000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 15000,
+    "hitAreaHalfWidth_SN": 10000,
+    "hitAreaHalfHeight_SN": 15000,
+    "battleDes": "",
+    "safeInformation": "拥有改变周围气候，使环境变得寒冷的能力。并对敌人不断施加冰冻伤害和晕眩效果。随生命值降低提升防御力。",
+    "unitInformation": "完美的不完整球体。像是皮球一样弹跳着出现，像是气球一样舒展开触手、漂浮于空中，瑰丽的桦树生物。特殊的桦树腺体使其拥有了迅速降低周围气温的能力，甚至能使附近的范围内下起暴雪。虽然十分美丽，但带来的只有寒冷，如同闪耀于雪中的霓虹灯。",
+    "enemyDrop": [
+      {
+        "id": 11700163
+      },
+      {
+        "id": 11700166
+      },
+      {
+        "id": 11700167
+      },
+      {
+        "id": 11700168
+      }
+    ],
+    "abilityList": [
+      {
+        "id": 12600927
+      }
+    ],
+    "weaknessList": [
+      {
+        "id": 12601002
+      }
+    ],
+    "resistanceList": [
+      {
+        "id": 12600992
+      }
+    ],
+    "enemyType": 12601048,
+    "enemyCamp": 12601044,
+    "enemyBookId": 10000103
+  },
+  {
+    "id": 10000288,
+    "idCN": "爬塔/桦树生物/寒潮浮囊体-2",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "寒潮浮囊体",
+    "EnglishName": "Blizzard Pneumatophore",
+    "viewId": 11000227,
+    "skinList": [],
+    "sideId": 12600920,
+    "controllerId": 10300190,
+    "bulletControllerList": [
+      {
+        "controllerId": 13400004
+      }
+    ],
+    "isBoss": true,
+    "bossHpTemp": 90100008,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600278
+      },
+      {
+        "tagId": 12601127
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301371
+      },
+      {
+        "skillId": 12301368
+      },
+      {
+        "skillId": 12301472
+      },
+      {
+        "skillId": 12300979
+      },
+      {
+        "skillId": 12300980
+      }
+    ],
+    "hp_SN": 1400000000,
+    "def_SN": 700000,
+    "atk_SN": 700000,
+    "atkSpeed_SN": 1000000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000325,
+    "growthTagList": [
+      {
+        "growthTagId": 12000353
+      },
+      {
+        "growthTagId": 12000060
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800470
+      },
+      {
+        "talentId": 12800471
+      },
+      {
+        "talentId": 12800467
+      },
+      {
+        "talentId": 12800468
+      },
+      {
+        "talentId": 12800469
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10102142,
+    "actionMoveID": 10102144,
+    "actionAttackedID": 10102140,
+    "actionAttackedBackID": 10102141,
+    "actionKnockUpID": -1,
+    "actionStunID": 10102215,
+    "actionDeadID": 10102216,
+    "actionVictoryID": -1,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 30000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 15000,
+    "hitAreaHalfWidth_SN": 10000,
+    "hitAreaHalfHeight_SN": 15000,
+    "battleDes": "",
+    "safeInformation": "拥有改变周围气候，使环境变得寒冷的能力。并对敌人不断施加冰冻伤害和晕眩效果。随生命值降低提升防御力。",
+    "unitInformation": "完美的不完整球体。像是皮球一样弹跳着出现，像是气球一样舒展开触手、漂浮于空中，瑰丽的桦树生物。特殊的桦树腺体使其拥有了迅速降低周围气温的能力，甚至能使附近的范围内下起暴雪。虽然十分美丽，但带来的只有寒冷，如同闪耀于雪中的霓虹灯。",
+    "enemyDrop": [
+      {
+        "id": 11700163
+      },
+      {
+        "id": 11700166
+      },
+      {
+        "id": 11700167
+      },
+      {
+        "id": 11700168
+      }
+    ],
+    "abilityList": [
+      {
+        "id": 12600927
+      }
+    ],
+    "weaknessList": [
+      {
+        "id": 12601002
+      }
+    ],
+    "resistanceList": [
+      {
+        "id": 12600992
+      }
+    ],
+    "enemyType": 12601048,
+    "enemyCamp": 12601044,
+    "enemyBookId": 10000103
+  },
+  {
+    "id": 10000290,
+    "idCN": "爬塔/桦树生物/寒潮浮囊体-3",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "寒潮浮囊体",
+    "EnglishName": "Blizzard Pneumatophore",
+    "viewId": 11000227,
+    "skinList": [],
+    "sideId": 12600920,
+    "controllerId": 10300086,
+    "bulletControllerList": [
+      {
+        "controllerId": 13400004
+      }
+    ],
+    "isBoss": true,
+    "bossHpTemp": 90100008,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600278
+      },
+      {
+        "tagId": 12601127
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301371
+      },
+      {
+        "skillId": 12301368
+      },
+      {
+        "skillId": 12301472
+      },
+      {
+        "skillId": 12300979
+      },
+      {
+        "skillId": 12300980
+      }
+    ],
+    "hp_SN": 1400000000,
+    "def_SN": 700000,
+    "atk_SN": 700000,
+    "atkSpeed_SN": 1000000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000325,
+    "growthTagList": [
+      {
+        "growthTagId": 12000353
+      },
+      {
+        "growthTagId": 12000060
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800470
+      },
+      {
+        "talentId": 12800471
+      },
+      {
+        "talentId": 12800467
+      },
+      {
+        "talentId": 12800468
+      },
+      {
+        "talentId": 12800469
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10102142,
+    "actionMoveID": 10102144,
+    "actionAttackedID": 10102140,
+    "actionAttackedBackID": 10102141,
+    "actionKnockUpID": -1,
+    "actionStunID": 10102215,
+    "actionDeadID": 10102216,
+    "actionVictoryID": -1,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 30000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 15000,
+    "hitAreaHalfWidth_SN": 10000,
+    "hitAreaHalfHeight_SN": 15000,
+    "battleDes": "",
+    "safeInformation": "拥有改变周围气候，使环境变得寒冷的能力。并对敌人不断施加冰冻伤害和晕眩效果。随生命值降低提升防御力。",
+    "unitInformation": "完美的不完整球体。像是皮球一样弹跳着出现，像是气球一样舒展开触手、漂浮于空中，瑰丽的桦树生物。特殊的桦树腺体使其拥有了迅速降低周围气温的能力，甚至能使附近的范围内下起暴雪。虽然十分美丽，但带来的只有寒冷，如同闪耀于雪中的霓虹灯。",
+    "enemyDrop": [
+      {
+        "id": 11700163
+      },
+      {
+        "id": 11700166
+      },
+      {
+        "id": 11700167
+      },
+      {
+        "id": 11700168
+      }
+    ],
+    "abilityList": [
+      {
+        "id": 12600927
+      }
+    ],
+    "weaknessList": [
+      {
+        "id": 12601002
+      }
+    ],
+    "resistanceList": [
+      {
+        "id": 12600992
+      }
+    ],
+    "enemyType": 12601048,
+    "enemyCamp": 12601044,
+    "enemyBookId": 10000103
+  },
+  {
+    "id": 10000296,
+    "idCN": "爬塔/桦树生物/昏恶巨象-1",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "昏恶巨象",
+    "EnglishName": "Mammoth Chaos",
+    "viewId": 11000228,
+    "skinList": [],
+    "sideId": 12600918,
+    "controllerId": 10300191,
+    "bulletControllerList": [
+      {
+        "controllerId": 13400006
+      }
+    ],
+    "isBoss": true,
+    "bossHpTemp": 90100008,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600278
+      },
+      {
+        "tagId": 12601127
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301371
+      },
+      {
+        "skillId": 12301413
+      },
+      {
+        "skillId": 12301433
+      },
+      {
+        "skillId": 12301418
+      },
+      {
+        "skillId": 12301423
+      },
+      {
+        "skillId": 12301421
+      },
+      {
+        "skillId": 12300936
+      },
+      {
+        "skillId": 12301370
+      },
+      {
+        "skillId": 12301472
+      },
+      {
+        "skillId": 12300295
+      },
+      {
+        "skillId": 12300992
+      }
+    ],
+    "hp_SN": 1800000000,
+    "def_SN": 880000,
+    "atk_SN": 800000,
+    "atkSpeed_SN": 1000000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000252,
+    "growthTagList": [
+      {
+        "growthTagId": 12000353
+      },
+      {
+        "growthTagId": 12000060
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800470
+      },
+      {
+        "talentId": 12800471
+      },
+      {
+        "talentId": 12800467
+      },
+      {
+        "talentId": 12800468
+      },
+      {
+        "talentId": 12800469
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10102220,
+    "actionMoveID": 10102217,
+    "actionAttackedID": 10102222,
+    "actionAttackedBackID": 10102226,
+    "actionKnockUpID": -1,
+    "actionStunID": 10102228,
+    "actionDeadID": 10102219,
+    "actionVictoryID": -1,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 27000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 20000,
+    "hitAreaHalfWidth_SN": 35000,
+    "hitAreaHalfHeight_SN": 20000,
+    "battleDes": "",
+    "safeInformation": "能够造成近程物理伤害与范围秘法伤害，并施加诅咒和破盾的效果。随生命值降低提升秘法伤害。",
+    "unitInformation": "极易暴怒的超大体型桦树生物。外甲结构异常复杂，材质比大部分桦树生物都更为坚固。即使在未被激怒的状态下，它的撞击和踩踏也能产生极大威胁；被激怒后，它会以狂暴状态进行攻击，成为无法阻挡的敌人。其头部的角状外甲能够凝聚秘法能量，对敌方造成多种不利效果，甚至可以在不直接接触的情况下令人陷入昏厥。",
+    "enemyDrop": [
+      {
+        "id": 11700189
+      },
+      {
+        "id": 11700196
+      },
+      {
+        "id": 11700198
+      },
+      {
+        "id": 11700199
+      }
+    ],
+    "abilityList": [
+      {
+        "id": 12600936
+      },
+      {
+        "id": 12600906
+      },
+      {
+        "id": 12600932
+      },
+      {
+        "id": 12600941
+      },
+      {
+        "id": 12600929
+      },
+      {
+        "id": 12600925
+      }
+    ],
+    "weaknessList": [
+      {
+        "id": 12600978
+      },
+      {
+        "id": 12600988
+      }
+    ],
+    "resistanceList": [
+      {
+        "id": 12600992
+      },
+      {
+        "id": 12600972
+      },
+      {
+        "id": 12600965
+      },
+      {
+        "id": 12600968
+      },
+      {
+        "id": 12600956
+      },
+      {
+        "id": 12600990
+      }
+    ],
+    "enemyType": 12601048,
+    "enemyCamp": 12601044,
+    "enemyBookId": 10000244
+  },
+  {
+    "id": 10000303,
+    "idCN": "爬塔/桦树生物/昏恶巨象-2",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "昏恶巨象",
+    "EnglishName": "Mammoth Chaos",
+    "viewId": 11000228,
+    "skinList": [],
+    "sideId": 12600918,
+    "controllerId": 10300191,
+    "bulletControllerList": [
+      {
+        "controllerId": 13400006
+      }
+    ],
+    "isBoss": true,
+    "bossHpTemp": 90100008,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600278
+      },
+      {
+        "tagId": 12601127
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301371
+      },
+      {
+        "skillId": 12301413
+      },
+      {
+        "skillId": 12301433
+      },
+      {
+        "skillId": 12301418
+      },
+      {
+        "skillId": 12301423
+      },
+      {
+        "skillId": 12301421
+      },
+      {
+        "skillId": 12300936
+      },
+      {
+        "skillId": 12301370
+      },
+      {
+        "skillId": 12301472
+      },
+      {
+        "skillId": 12300295
+      },
+      {
+        "skillId": 12300992
+      },
+      {
+        "skillId": 12301006
+      }
+    ],
+    "hp_SN": 1800000000,
+    "def_SN": 880000,
+    "atk_SN": 800000,
+    "atkSpeed_SN": 1000000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000252,
+    "growthTagList": [
+      {
+        "growthTagId": 12000353
+      },
+      {
+        "growthTagId": 12000060
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800470
+      },
+      {
+        "talentId": 12800471
+      },
+      {
+        "talentId": 12800467
+      },
+      {
+        "talentId": 12800468
+      },
+      {
+        "talentId": 12800469
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10102220,
+    "actionMoveID": 10102217,
+    "actionAttackedID": 10102222,
+    "actionAttackedBackID": 10102226,
+    "actionKnockUpID": -1,
+    "actionStunID": 10102228,
+    "actionDeadID": 10102219,
+    "actionVictoryID": -1,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 27000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 20000,
+    "hitAreaHalfWidth_SN": 35000,
+    "hitAreaHalfHeight_SN": 20000,
+    "battleDes": "",
+    "safeInformation": "能够造成近程物理伤害与范围秘法伤害，并施加诅咒和破盾的效果。随生命值降低提升秘法伤害。",
+    "unitInformation": "极易暴怒的超大体型桦树生物。外甲结构异常复杂，材质比大部分桦树生物都更为坚固。即使在未被激怒的状态下，它的撞击和踩踏也能产生极大威胁；被激怒后，它会以狂暴状态进行攻击，成为无法阻挡的敌人。其头部的角状外甲能够凝聚秘法能量，对敌方造成多种不利效果，甚至可以在不直接接触的情况下令人陷入昏厥。",
+    "enemyDrop": [
+      {
+        "id": 11700189
+      },
+      {
+        "id": 11700196
+      },
+      {
+        "id": 11700198
+      },
+      {
+        "id": 11700199
+      }
+    ],
+    "abilityList": [
+      {
+        "id": 12600936
+      },
+      {
+        "id": 12600906
+      },
+      {
+        "id": 12600932
+      },
+      {
+        "id": 12600941
+      },
+      {
+        "id": 12600929
+      },
+      {
+        "id": 12600925
+      }
+    ],
+    "weaknessList": [
+      {
+        "id": 12600978
+      },
+      {
+        "id": 12600988
+      }
+    ],
+    "resistanceList": [
+      {
+        "id": 12600992
+      },
+      {
+        "id": 12600972
+      },
+      {
+        "id": 12600965
+      },
+      {
+        "id": 12600968
+      },
+      {
+        "id": 12600956
+      },
+      {
+        "id": 12600990
+      }
+    ],
+    "enemyType": 12601048,
+    "enemyCamp": 12601044,
+    "enemyBookId": 10000244
+  },
+  {
+    "id": 10000304,
+    "idCN": "爬塔/桦树生物/昏恶巨象-3",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "昏恶巨象",
+    "EnglishName": "Mammoth Chaos",
+    "viewId": 11000228,
+    "skinList": [],
+    "sideId": 12600918,
+    "controllerId": 10300373,
+    "bulletControllerList": [
+      {
+        "controllerId": 13400006
+      }
+    ],
+    "isBoss": true,
+    "bossHpTemp": 90100008,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600278
+      },
+      {
+        "tagId": 12601127
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301371
+      },
+      {
+        "skillId": 12301413
+      },
+      {
+        "skillId": 12301433
+      },
+      {
+        "skillId": 12301418
+      },
+      {
+        "skillId": 12301423
+      },
+      {
+        "skillId": 12301421
+      },
+      {
+        "skillId": 12300936
+      },
+      {
+        "skillId": 12301370
+      },
+      {
+        "skillId": 12301472
+      },
+      {
+        "skillId": 12300295
+      },
+      {
+        "skillId": 12300992
+      },
+      {
+        "skillId": 12301006
+      }
+    ],
+    "hp_SN": 1800000000,
+    "def_SN": 880000,
+    "atk_SN": 800000,
+    "atkSpeed_SN": 1000000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000252,
+    "growthTagList": [
+      {
+        "growthTagId": 12000353
+      },
+      {
+        "growthTagId": 12000060
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800470
+      },
+      {
+        "talentId": 12800471
+      },
+      {
+        "talentId": 12800467
+      },
+      {
+        "talentId": 12800468
+      },
+      {
+        "talentId": 12800469
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10102220,
+    "actionMoveID": 10102217,
+    "actionAttackedID": 10102222,
+    "actionAttackedBackID": 10102226,
+    "actionKnockUpID": -1,
+    "actionStunID": 10102228,
+    "actionDeadID": 10102219,
+    "actionVictoryID": -1,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 27000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 20000,
+    "hitAreaHalfWidth_SN": 35000,
+    "hitAreaHalfHeight_SN": 20000,
+    "battleDes": "",
+    "safeInformation": "能够造成近程物理伤害与范围秘法伤害，并施加诅咒和破盾的效果。随生命值降低提升秘法伤害。",
+    "unitInformation": "极易暴怒的超大体型桦树生物。外甲结构异常复杂，材质比大部分桦树生物都更为坚固。即使在未被激怒的状态下，它的撞击和踩踏也能产生极大威胁；被激怒后，它会以狂暴状态进行攻击，成为无法阻挡的敌人。其头部的角状外甲能够凝聚秘法能量，对敌方造成多种不利效果，甚至可以在不直接接触的情况下令人陷入昏厥。",
+    "enemyDrop": [
+      {
+        "id": 11700189
+      },
+      {
+        "id": 11700196
+      },
+      {
+        "id": 11700198
+      },
+      {
+        "id": 11700199
+      }
+    ],
+    "abilityList": [
+      {
+        "id": 12600936
+      },
+      {
+        "id": 12600906
+      },
+      {
+        "id": 12600932
+      },
+      {
+        "id": 12600941
+      },
+      {
+        "id": 12600929
+      },
+      {
+        "id": 12600925
+      }
+    ],
+    "weaknessList": [
+      {
+        "id": 12600978
+      },
+      {
+        "id": 12600988
+      }
+    ],
+    "resistanceList": [
+      {
+        "id": 12600992
+      },
+      {
+        "id": 12600972
+      },
+      {
+        "id": 12600965
+      },
+      {
+        "id": 12600968
+      },
+      {
+        "id": 12600956
+      },
+      {
+        "id": 12600990
+      }
+    ],
+    "enemyType": 12601048,
+    "enemyCamp": 12601044,
+    "enemyBookId": 10000244
   }
 ]

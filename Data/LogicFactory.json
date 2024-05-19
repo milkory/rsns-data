@@ -1434,10 +1434,10 @@
     "mod": "执行LUA脚本",
     "isInformalData": false,
     "debug": true,
-    "memo": "请作者添加注释，否则影响维护稳定性",
+    "memo": "打开拉面店场景和UI",
     "paramHelp": "",
     "returnType": "int",
-    "script": "local MainController = require(\"UIMainUI/UIMainUIController\")\rMainController.ImmediatelyStop()\rMapNeedleData.OpenStore($param0)"
+    "script": "local MainController = require(\"UIMainUI/UIMainUIController\")\rMainController.ImmediatelyStop()\rMapNeedleData.OpenStore(81500008)"
   },
   {
     "id": 60000115,
@@ -1497,5 +1497,16 @@
     "returnType": "int",
     "scriptPath": "GGScript/lieshou3",
     "scriptLabel": "main"
+  },
+  {
+    "id": 60000122,
+    "idCN": "LUA/打开UI",
+    "mod": "执行LUA脚本",
+    "isInformalData": false,
+    "debug": true,
+    "memo": "打开拉面店场景和UI",
+    "paramHelp": "",
+    "returnType": "int",
+    "script": "local MainController = require(\"UIMainUI/UIMainUIController\")\rMainController.ImmediatelyStop()\rMapNeedleData.OpenStore($param0)"
   }
 ]
