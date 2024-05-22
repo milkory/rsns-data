@@ -4212,20 +4212,7 @@
     "isShowDetail": true,
     "temptagNameRichText": "流转",
     "tagNameRichText": "流转",
-    "detail": "每有1张黑卡被生成时，生成1个【天火】"
-  },
-  {
-    "id": 12600539,
-    "idCN": "战斗/词缀/04四星/达斯廷/共振1-震雷",
-    "mod": "标签",
-    "isInformalData": false,
-    "icon": "RolePlus\\Dustin\\Face",
-    "tagName": "震雷",
-    "tagID": 0,
-    "isShowDetail": true,
-    "temptagNameRichText": "震雷",
-    "tagNameRichText": "震雷",
-    "detail": "使用【“惊蛰”】后，自身【普通攻击】的攻击速度提高至最大，同时触发【引雷】，持续6秒"
+    "detail": "每有1张黑卡或【暗艺】被生成时，生成1个【天火】"
   },
   {
     "id": 12600540,
@@ -7909,7 +7896,7 @@
     "isShowDetail": true,
     "temptagNameRichText": "星脉",
     "tagNameRichText": "星脉",
-    "detail": "使用任意紫卡后，抽1张牌，优先【寻梦】或【食梦】，限1次"
+    "detail": "使用任意紫卡后，抽1张牌，优先【寻梦】或【食梦】，限1次\\n抽到的卡牌下1次使用所费费用-1"
   },
   {
     "id": 12600774,
@@ -7922,7 +7909,7 @@
     "isShowDetail": true,
     "temptagNameRichText": "祈梦",
     "tagNameRichText": "祈梦",
-    "detail": "使用【食梦】后，从弃牌区回收1张牌加入手牌，优先紫卡"
+    "detail": "使用【食梦】后，从弃牌区回收1张牌加入手牌，优先紫卡\\n抽到的卡牌下1次使用所费费用-1"
   },
   {
     "id": 12600265,
@@ -11426,7 +11413,7 @@
     "isShowDetail": true,
     "temptagNameRichText": "天火",
     "tagNameRichText": "天火",
-    "detail": "释放后，对范围内敌方造成1段伤害，同时触发【引雷】和【点燃】\\n【天火】为【爆炸物】\\n【天火】数量达到32个以上时，超出的【天火】会自动释放"
+    "detail": "释放后，对范围内敌方造成1段伤害，同时触发【引雷】和【点燃】\\n【天火】为【爆炸物】\\n【天火】数量达到18个以上时，新生成的【天火】会自动释放"
   },
   {
     "id": 12600894,
@@ -12367,7 +12354,56 @@
     "isShowDetail": true,
     "temptagNameRichText": "法执",
     "tagNameRichText": "法执",
-    "detail": "打出黄卡后，生成1个【天火】"
+    "detail": "打出或丢弃黄卡后，生成1个【天火】"
+  },
+  {
+    "id": 12601160,
+    "idCN": "阵营标签/敌人/未知",
+    "mod": "阵营",
+    "isInformalData": false,
+    "icon": "",
+    "sideName": "未知",
+    "nameEnglish": "Wilds C.R.",
+    "iconPath": "UI/Common/Enemy/SideIcon/Wilds_Chaos_Remain"
+  },
+  {
+    "id": 12601162,
+    "idCN": "敌方/机制标签/永生者/永燃",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "UI/CardTag/ZhuoXin",
+    "tagName": "永燃",
+    "tagID": 0,
+    "isShowDetail": true,
+    "temptagNameRichText": "永燃",
+    "tagNameRichText": "永燃",
+    "detail": ""
+  },
+  {
+    "id": 12601163,
+    "idCN": "敌方/机制标签/永生者/熄灭",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "UI/CardTag/ZhuoXin",
+    "tagName": "熄灭",
+    "tagID": 0,
+    "isShowDetail": true,
+    "temptagNameRichText": "熄灭",
+    "tagNameRichText": "熄灭",
+    "detail": ""
+  },
+  {
+    "id": 12601164,
+    "idCN": "敌方/筛选标签/永生者",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "",
+    "tagName": "永生者",
+    "tagID": 0,
+    "isShowDetail": false,
+    "temptagNameRichText": "",
+    "tagNameRichText": "",
+    "detail": ""
   },
   {
     "id": 12601158,
@@ -12398,5 +12434,54 @@
     "icon": "",
     "typeName": "测试用",
     "iconPath": "UI/Prison/Manage/SewingIcon"
+  },
+  {
+    "id": 12601132,
+    "idCN": "武装词条/战斗相关/16火焰伤害增强",
+    "mod": "列车武装",
+    "isInformalData": false,
+    "icon": "",
+    "entryName": "火焰之力",
+    "entryDes": "",
+    "addNum": true
+  },
+  {
+    "id": 12600539,
+    "idCN": "活动标签/关卡挑战活动",
+    "mod": "标签",
+    "isInformalData": true,
+    "icon": "",
+    "tagName": "关卡挑战活动",
+    "tagID": 0,
+    "isShowDetail": false,
+    "temptagNameRichText": "",
+    "tagNameRichText": "",
+    "detail": ""
+  },
+  {
+    "id": 12601165,
+    "idCN": "敌方/机制标签/永生者/免控",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "UI/CardTag/ZhuoXin",
+    "tagName": "免控",
+    "tagID": 0,
+    "isShowDetail": false,
+    "temptagNameRichText": "",
+    "tagNameRichText": "",
+    "detail": ""
+  },
+  {
+    "id": 12601166,
+    "idCN": "战斗/词缀/05五星/马吉拉/觉醒5-锁",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "RolePlus\\Margiela\\Face",
+    "tagName": "锁",
+    "tagID": 0,
+    "isShowDetail": true,
+    "temptagNameRichText": "锁",
+    "tagNameRichText": "锁",
+    "detail": "使用【奇异火花】后，生成1张【果核】加入手牌\\n自身免疫【枷锁】和【禁锢】效果"
   }
 ]

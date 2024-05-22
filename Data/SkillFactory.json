@@ -197,8 +197,8 @@
     "name": "炎跃斩",
     "iconPath": "RolePlus\\Katas\\skillicon\\A",
     "attriDetialList": [],
-    "tempdescription": "对范围内敌方造成1段伤害并【击晕】，同时触发【点燃】和【斩裂】\\n从牌库或弃牌区将1张【链之间】加入手牌\\n若自身为队长时，则使队长技能冷却缩短10秒",
-    "description": "对范围内敌方造成1段伤害并<color=#FF6666>【击晕】</color>，同时触发<color=#FF6666>【点燃】</color>和<color=#FF6666>【斩裂】</color>\\n从牌库或弃牌区将1张【链之间】加入手牌\\n若自身为队长时，则使队长技能冷却缩短10秒",
+    "tempdescription": "对范围内敌方造成1段伤害并【击晕】，同时触发【炽地】和【斩裂】\\n从牌库或弃牌区将1张【链之间】加入手牌\\n若自身为队长时，则使队长技能冷却缩短10秒",
+    "description": "对范围内敌方造成1段伤害并<color=#FF6666>【击晕】</color>，同时触发<color=#FF6666>【炽地】</color>和<color=#FF6666>【斩裂】</color>\\n从牌库或弃牌区将1张【链之间】加入手牌\\n若自身为队长时，则使队长技能冷却缩短10秒",
     "levelUpDescription": "",
     "tempdetailDescription": "伤害：3000%",
     "detailDescription": "伤害：3000%",
@@ -417,19 +417,19 @@
     "tempdescription": "向目标区域释放无底之核，对范围内敌方造成#r段伤害",
     "description": "向目标区域释放无底之核，对范围内敌方造成#r段伤害",
     "levelUpDescription": "",
-    "tempdetailDescription": "伤害：每段1500%",
-    "detailDescription": "伤害：每段1500%",
+    "tempdetailDescription": "伤害：每段1800%",
+    "detailDescription": "伤害：每段1800%",
     "desParamList": [
       {
         "isPercent": false,
-        "param": "C"
+        "param": "B"
       }
     ],
     "skillParamList": [
       {
-        "skillRateA_SN": 150000,
-        "skillRateB_SN": 150000,
-        "skillRateC_SN": 50000,
+        "skillRateA_SN": 180000,
+        "skillRateB_SN": 50000,
+        "skillRateC_SN": 0,
         "skillRateD_SN": 0,
         "skillRateE_SN": 0,
         "skillRateF_SN": 0,
@@ -9197,8 +9197,8 @@
     "name": "心魔",
     "iconPath": "EnemyPlus/card/xinmo",
     "attriDetialList": [],
-    "tempdescription": "驱散此卡牌持有者身上的【心魔】此卡源自敌方的扰乱，使用后【销毁】",
-    "description": "驱散此卡牌持有者身上的【心魔】此卡源自敌方的扰乱，使用后【销毁】",
+    "tempdescription": "驱散此卡牌持有者身上的【心魔】\\n此卡源自敌方的扰乱，使用后【销毁】",
+    "description": "驱散此卡牌持有者身上的【心魔】\\n此卡源自敌方的扰乱，使用后【销毁】",
     "levelUpDescription": "",
     "tempdetailDescription": "",
     "detailDescription": "",
@@ -16818,8 +16818,13 @@
     "desParamList": [],
     "skillParamList": [],
     "attributeList": [],
-    "tagId": -1,
-    "tagFilterList": [],
+    "tagId": 12601166,
+    "tagRemoveList": [],
+    "tagFilterList": [
+      {
+        "tagId": 12600200
+      }
+    ],
     "tagFilterType": "Or",
     "buffId": 10404638,
     "temptypeStr": "",
@@ -22297,8 +22302,8 @@
     "name": "",
     "iconPath": "",
     "attriDetialList": [],
-    "tempdescription": "自身带有【爆炸物】词条的卡牌，造成的伤害提高%s%%，可叠加",
-    "description": "自身带有【爆炸物】词条的卡牌，造成的伤害提高%s%%，可叠加",
+    "tempdescription": "自身【爆炸物】造成的伤害提高%s%%，可叠加",
+    "description": "自身【爆炸物】造成的伤害提高%s%%，可叠加",
     "levelUpDescription": "",
     "tempdetailDescription": "",
     "detailDescription": "",
@@ -22309,7 +22314,7 @@
     "tagRemoveList": [],
     "tagFilterList": [],
     "tagFilterType": "And",
-    "buffId": 10405973,
+    "buffId": 10410378,
     "maxAttrSN": 1000,
     "minAttrSN": 500,
     "digitSN": 100,
@@ -26408,35 +26413,6 @@
     ],
     "tagFilterType": "Or",
     "buffId": 10405702,
-    "temptypeStr": "",
-    "typeStr": "",
-    "typeColor": "Orange",
-    "CommonNum": 1.0,
-    "floatNum": 1,
-    "ExSkillList": [],
-    "specialTagList": []
-  },
-  {
-    "id": 12300384,
-    "idCN": "02觉醒/爆炸艺术",
-    "mod": "被动技能",
-    "isInformalData": false,
-    "name": "",
-    "iconPath": "",
-    "attriDetialList": [],
-    "tempdescription": "",
-    "description": "",
-    "levelUpDescription": "",
-    "tempdetailDescription": "",
-    "detailDescription": "",
-    "desParamList": [],
-    "skillParamList": [],
-    "attributeList": [],
-    "tagId": -1,
-    "tagRemoveList": [],
-    "tagFilterList": [],
-    "tagFilterType": "And",
-    "buffId": 10403083,
     "temptypeStr": "",
     "typeStr": "",
     "typeColor": "Orange",
@@ -31553,11 +31529,11 @@
     "name": "“惊蛰”",
     "iconPath": "RolePlus\\Dustin\\skillicon\\A",
     "attriDetialList": [],
-    "tempdescription": "迅雷一击，对敌方造成1段伤害，同时触发【落雷】\\n使用后，生成1个【天火】\\n【天火】为【爆炸物】",
-    "description": "迅雷一击，对敌方造成1段伤害，同时触发<color=#FFB800>【落雷】</color>\\n使用后，生成1个【天火】\\n【天火】为【爆炸物】",
+    "tempdescription": "迅雷一击，对敌方造成1段伤害并【击晕】，同时触发【轰雷】\\n使用后，生成1个【天火】\\n【天火】为【爆炸物】",
+    "description": "迅雷一击，对敌方造成1段伤害并<color=#FF6666>【击晕】</color>，同时触发<color=#FFB800>【轰雷】</color>\\n使用后，生成1个【天火】\\n【天火】为【爆炸物】",
     "levelUpDescription": "",
-    "tempdetailDescription": "伤害：2400%",
-    "detailDescription": "伤害：2400%",
+    "tempdetailDescription": "伤害：2000%",
+    "detailDescription": "伤害：2000%",
     "desParamList": [
       {
         "isPercent": true,
@@ -31566,7 +31542,7 @@
     ],
     "skillParamList": [
       {
-        "skillRateA_SN": 240000,
+        "skillRateA_SN": 200000,
         "skillRateB_SN": 0,
         "skillRateC_SN": 0,
         "skillRateD_SN": 0,
@@ -31606,8 +31582,8 @@
     "name": "“谷雨”",
     "iconPath": "RolePlus\\Dustin\\skillicon\\B",
     "attriDetialList": [],
-    "tempdescription": "使下1张卡所需费用变成0\\n当下1张卡打出时，生成该卡所缩短费用数等量的【天火】\\n【天火】为【爆炸物】",
-    "description": "使下1张卡所需费用变成0\\n当下1张卡打出时，生成该卡所缩短费用数等量的【天火】\\n【天火】为【爆炸物】",
+    "tempdescription": "使下1张卡所需费用变成0\\n当下1张卡打出时，生成该卡原费用数等量的【天火】\\n此卡被丢弃时，生成1个【天火】\\n【天火】为【爆炸物】",
+    "description": "使下1张卡所需费用变成0\\n当下1张卡打出时，生成该卡原费用数等量的【天火】\\n此卡被丢弃时，生成1个【天火】\\n【天火】为【爆炸物】",
     "levelUpDescription": "",
     "tempdetailDescription": "",
     "detailDescription": "",
@@ -31654,15 +31630,15 @@
     "name": "流火",
     "iconPath": "RolePlus\\Dustin\\skillicon\\S",
     "attriDetialList": [],
-    "tempdescription": "向随机敌方释放所有的【天火】\\n【销毁】手牌中的所有黑卡和【元素核·火】，每消耗1张对随机敌人造成【炽地】\\n向敌方场地释放1个【流火】，对敌方全体造成1段伤害，同时触发【燎原】和【燃爆】\\n使用后，生成2张黑卡【灰烬】加入手牌\\n【天火】和【流火】为【爆炸物】",
-    "description": "向随机敌方释放所有的【天火】\\n【销毁】手牌中的所有黑卡和【元素核·火】，每消耗1张对随机敌人造成<color=#FF6666>【炽地】</color>\\n向敌方场地释放1个【流火】，对敌方全体造成1段伤害，同时触发<color=#FF6666>【燎原】</color>和<color=#FF6666>【燃爆】</color>\\n使用后，生成2张黑卡【灰烬】加入手牌\\n【天火】和【流火】为【爆炸物】",
+    "tempdescription": "向随机敌方释放所有的【天火】\\n【销毁】手牌中的所有黑卡和【元素核·火】，每消耗1张对随机敌人造成【炽地】\\n向敌方场地释放1个【流火】，对敌方全体造成1段伤害，同时触发【燎原】和【燃爆】\\n使用后，生成1张黑卡【灰烬】加入手牌\\n【天火】和【流火】为【爆炸物】",
+    "description": "向随机敌方释放所有的【天火】\\n【销毁】手牌中的所有黑卡和【元素核·火】，每消耗1张对随机敌人造成<color=#FF6666>【炽地】</color>\\n向敌方场地释放1个【流火】，对敌方全体造成1段伤害，同时触发<color=#FF6666>【燎原】</color>和<color=#FF6666>【燃爆】</color>\\n使用后，生成1张黑卡【灰烬】加入手牌\\n【天火】和【流火】为【爆炸物】",
     "levelUpDescription": "",
-    "tempdetailDescription": "伤害：【天火】1000%；【流火】4000%",
-    "detailDescription": "伤害：【天火】1000%；【流火】4000%",
+    "tempdetailDescription": "伤害：【天火】900%；【流火】3600%",
+    "detailDescription": "伤害：【天火】900%；【流火】3600%",
     "desParamList": [],
     "skillParamList": [
       {
-        "skillRateA_SN": 400000,
+        "skillRateA_SN": 360000,
         "skillRateB_SN": 0,
         "skillRateC_SN": 0,
         "skillRateD_SN": 0,
@@ -31688,8 +31664,8 @@
         "leaderCardConditionFO": 10800053
       }
     ],
-    "templeaderCardConditionDesc": "生成8个【天火】",
-    "leaderCardConditionDesc": "生成8个【天火】",
+    "templeaderCardConditionDesc": "生成9个【天火】",
+    "leaderCardConditionDesc": "生成9个【天火】",
     "temptypeStr": "战术 负能伤害",
     "typeStr": "战术 负能伤害",
     "typeColor": "Orange",
@@ -32129,12 +32105,9 @@
     "desParamList": [],
     "skillParamList": [],
     "attributeList": [],
-    "tagId": 12600539,
-    "tagFilterList": [
-      {
-        "tagId": 12600496
-      }
-    ],
+    "tagId": -1,
+    "tagRemoveList": [],
+    "tagFilterList": [],
     "tagFilterType": "Or",
     "buffId": 10405458,
     "temptypeStr": "",
@@ -32230,7 +32203,7 @@
       }
     ],
     "tagFilterType": "Or",
-    "buffId": 10400481,
+    "buffId": 10410362,
     "temptypeStr": "",
     "typeStr": "",
     "typeColor": "Orange",
@@ -32256,9 +32229,13 @@
     "skillParamList": [],
     "attributeList": [],
     "tagId": 12600538,
+    "tagRemoveList": [],
     "tagFilterList": [
       {
         "tagId": 12600037
+      },
+      {
+        "tagId": 12600074
       }
     ],
     "tagFilterType": "Or",
@@ -33392,8 +33369,8 @@
     "name": "魔力泉",
     "iconPath": "RolePlus\\Verlaine\\skillicon\\B-4",
     "attriDetialList": [],
-    "tempdescription": "*“就看见那么大一池子水，还发光！”*\\n每秒获得0.075点费用，可叠加，上限6次\\n使用后【销毁】",
-    "description": "<color=#666><i>“就看见那么大一池子水，还发光！”</i></color>\\n每秒获得0.075点费用，可叠加，上限6次\\n使用后【销毁】",
+    "tempdescription": "*“就看见那么大一池子水，还发光！”*\\n每秒获得#r点费用，可叠加，上限6次\\n使用后【销毁】",
+    "description": "<color=#666><i>“就看见那么大一池子水，还发光！”</i></color>\\n每秒获得#r点费用，可叠加，上限6次\\n使用后【销毁】",
     "levelUpDescription": "",
     "tempdetailDescription": "",
     "detailDescription": "",
@@ -33401,15 +33378,11 @@
       {
         "isPercent": false,
         "param": "A"
-      },
-      {
-        "isPercent": false,
-        "param": "B"
       }
     ],
     "skillParamList": [
       {
-        "skillRateA_SN": 750,
+        "skillRateA_SN": 800,
         "skillRateB_SN": 0,
         "skillRateC_SN": 0,
         "skillRateD_SN": 0,
@@ -33449,15 +33422,20 @@
     "name": "星梦缘",
     "iconPath": "RolePlus\\Verlaine\\skillicon\\B-5",
     "attriDetialList": [],
-    "tempdescription": "*“不如把你埋在土里，明年就可以收获一树的小星星！”*\\n对我方目标释放治愈法术，每秒回复目标0.75%生命值，可叠加，上限6次\\n使用后【销毁】",
-    "description": "<color=#666><i>“不如把你埋在土里，明年就可以收获一树的小星星！”</i></color>\\n对我方目标释放治愈法术，每秒回复目标0.75%生命值，可叠加，上限6次\\n使用后【销毁】",
+    "tempdescription": "*“不如把你埋在土里，明年就可以收获一树的小星星！”*\\n对我方目标释放治愈法术，每秒回复目标#r生命值，可叠加，上限6次\\n使用后【销毁】",
+    "description": "<color=#666><i>“不如把你埋在土里，明年就可以收获一树的小星星！”</i></color>\\n对我方目标释放治愈法术，每秒回复目标#r生命值，可叠加，上限6次\\n使用后【销毁】",
     "levelUpDescription": "",
     "tempdetailDescription": "",
     "detailDescription": "",
-    "desParamList": [],
+    "desParamList": [
+      {
+        "isPercent": true,
+        "param": "A"
+      }
+    ],
     "skillParamList": [
       {
-        "skillRateA_SN": 75,
+        "skillRateA_SN": 80,
         "skillRateB_SN": 0,
         "skillRateC_SN": 0,
         "skillRateD_SN": 0,
@@ -34774,8 +34752,8 @@
     "name": "",
     "iconPath": "",
     "attriDetialList": [],
-    "tempdescription": "自身带有【爆炸物】词条的卡牌，造成的伤害提高10%，可叠加",
-    "description": "自身带有【爆炸物】词条的卡牌，造成的伤害提高10%，可叠加",
+    "tempdescription": "自身【爆炸物】造成的伤害提高10%，可叠加",
+    "description": "自身【爆炸物】造成的伤害提高10%，可叠加",
     "levelUpDescription": "",
     "tempdetailDescription": "",
     "detailDescription": "",
@@ -34801,7 +34779,7 @@
     "tagRemoveList": [],
     "tagFilterList": [],
     "tagFilterType": "And",
-    "buffId": 10406448,
+    "buffId": 10410376,
     "temptypeStr": "",
     "typeStr": "",
     "typeColor": "Orange",
@@ -43136,7 +43114,7 @@
   },
   {
     "id": 12301409,
-    "idCN": "06敌方/桦树生物/尘鸣游鳞/被动沙暴驱散",
+    "idCN": "06敌方/02桦树生物/尘鸣游鳞/被动沙暴驱散",
     "mod": "被动技能",
     "isInformalData": false,
     "name": "",
@@ -46100,7 +46078,7 @@
   },
   {
     "id": 12301474,
-    "idCN": "06敌方/深眠者/妈妈/光效",
+    "idCN": "06敌方/06深眠者/妈妈/光效",
     "mod": "被动技能",
     "isInformalData": false,
     "name": "",
@@ -49269,7 +49247,7 @@
   },
   {
     "id": 12300206,
-    "idCN": "06敌方/毛绒会/狂象专属失稳",
+    "idCN": "06敌方/13毛绒会/狂象专属失稳",
     "mod": "被动技能",
     "isInformalData": false,
     "name": "",
@@ -49368,7 +49346,7 @@
   },
   {
     "id": 12300207,
-    "idCN": "06敌方/毛绒会/通用失稳",
+    "idCN": "06敌方/13毛绒会/通用失稳",
     "mod": "被动技能",
     "isInformalData": false,
     "name": "",
@@ -49893,7 +49871,7 @@
   },
   {
     "id": 12300225,
-    "idCN": "06敌方/桦树生物/管胞体桦树生物/周期标记",
+    "idCN": "06敌方/02桦树生物/管胞体桦树生物/周期标记",
     "mod": "被动技能",
     "isInformalData": false,
     "name": "",
@@ -50442,7 +50420,7 @@
   },
   {
     "id": 12300265,
-    "idCN": "06敌方/桦树生物/原始桦树生物/始祖庇护",
+    "idCN": "06敌方/02桦树生物/原始桦树生物/始祖庇护",
     "mod": "被动技能",
     "isInformalData": false,
     "name": "",
@@ -50717,7 +50695,7 @@
   },
   {
     "id": 12300295,
-    "idCN": "06敌方/桦树生物/昏恶巨象/被动1护盾",
+    "idCN": "06敌方/02桦树生物/昏恶巨象/被动1护盾",
     "mod": "被动技能",
     "isInformalData": false,
     "name": "",
@@ -52271,7 +52249,7 @@
   },
   {
     "id": 12300365,
-    "idCN": "06敌方/桦树生物/凛川骨龙/变形触发",
+    "idCN": "06敌方/02桦树生物/凛川骨龙/变形触发",
     "mod": "被动技能",
     "isInformalData": false,
     "name": "",
@@ -52300,7 +52278,7 @@
   },
   {
     "id": 12300371,
-    "idCN": "06敌方/桦树生物/混厄石芝/狂暴领域",
+    "idCN": "06敌方/02桦树生物/混厄石芝/狂暴领域",
     "mod": "被动技能",
     "isInformalData": false,
     "name": "",
@@ -55633,7 +55611,7 @@
   },
   {
     "id": 12300508,
-    "idCN": "06敌方/劫掠者/劫掠王/被动1劫掠",
+    "idCN": "06敌方/03劫掠者/劫掠王/被动1劫掠",
     "mod": "被动技能",
     "isInformalData": false,
     "name": "",
@@ -55972,7 +55950,7 @@
   },
   {
     "id": 12300871,
-    "idCN": "06敌方/鼹鼠帮/鼹鼠/召唤物自杀",
+    "idCN": "06敌方/05鼹鼠帮/鼹鼠/召唤物自杀",
     "mod": "被动技能",
     "isInformalData": false,
     "name": "",
@@ -56209,7 +56187,7 @@
   },
   {
     "id": 12300879,
-    "idCN": "06敌方/劫掠者/劫掠王/被动2不灭的火种",
+    "idCN": "06敌方/03劫掠者/劫掠王/被动2不灭的火种",
     "mod": "被动技能",
     "isInformalData": false,
     "name": "",
@@ -56243,7 +56221,7 @@
   },
   {
     "id": 12300880,
-    "idCN": "06敌方/桦树生物/暴君/被动1替换控制",
+    "idCN": "06敌方/02桦树生物/暴君/被动1替换控制",
     "mod": "被动技能",
     "isInformalData": false,
     "name": "",
@@ -59157,7 +59135,7 @@
   },
   {
     "id": 12301546,
-    "idCN": "06敌方/桦树生物/双头凛川骨龙/变形触发",
+    "idCN": "06敌方/02桦树生物/双头凛川骨龙/变形触发",
     "mod": "被动技能",
     "isInformalData": false,
     "name": "",
@@ -59350,7 +59328,7 @@
   },
   {
     "id": 12300183,
-    "idCN": "06敌方/桦树生物/雷暴虫/不屈",
+    "idCN": "06敌方/02桦树生物/雷暴虫/不屈",
     "mod": "被动技能",
     "isInformalData": false,
     "name": "",
@@ -59384,7 +59362,7 @@
   },
   {
     "id": 12300152,
-    "idCN": "06敌方/深眠者/祸链囚徒/被动1锁魂",
+    "idCN": "06敌方/06深眠者/祸链囚徒/被动1锁魂",
     "mod": "被动技能",
     "isInformalData": false,
     "name": "",
@@ -59418,7 +59396,7 @@
   },
   {
     "id": 12300016,
-    "idCN": "06敌方/深眠者/祸链囚徒/被动2噬魂",
+    "idCN": "06敌方/06深眠者/祸链囚徒/被动2噬魂",
     "mod": "被动技能",
     "isInformalData": false,
     "name": "",
@@ -59700,7 +59678,7 @@
   },
   {
     "id": 12300249,
-    "idCN": "06敌方/桦树生物/双头凛川骨龙/最终伤害降低",
+    "idCN": "06敌方/02桦树生物/双头凛川骨龙/最终伤害降低",
     "mod": "被动技能",
     "isInformalData": false,
     "name": "",
@@ -60085,7 +60063,7 @@
   },
   {
     "id": 12301596,
-    "idCN": "06敌方/桦树生物/双头凛川骨龙/最终伤害降低2",
+    "idCN": "06敌方/02桦树生物/双头凛川骨龙/最终伤害降低2",
     "mod": "被动技能",
     "isInformalData": false,
     "name": "",
@@ -60304,7 +60282,7 @@
   },
   {
     "id": 12301604,
-    "idCN": "06敌方/毛绒会/恐兔专属失稳",
+    "idCN": "06敌方/13毛绒会/恐兔专属失稳",
     "mod": "被动技能",
     "isInformalData": false,
     "name": "",
@@ -60627,7 +60605,7 @@
   },
   {
     "id": 12301613,
-    "idCN": "06敌方/桦树生物/涡旋之眼/元素亲和",
+    "idCN": "06敌方/02桦树生物/涡旋之眼/元素亲和",
     "mod": "被动技能",
     "isInformalData": false,
     "name": "",
@@ -60853,7 +60831,7 @@
   },
   {
     "id": 12301618,
-    "idCN": "06敌方/劫掠者/劫掠王/被动0火海",
+    "idCN": "06敌方/03劫掠者/劫掠王/被动0火海",
     "mod": "被动技能",
     "isInformalData": false,
     "name": "",
@@ -61030,7 +61008,7 @@
     "tagRemoveList": [],
     "tagFilterList": [],
     "tagFilterType": "Or",
-    "buffId": 10405963,
+    "buffId": 10403450,
     "temptypeStr": "",
     "typeStr": "",
     "typeColor": "Orange",
@@ -61209,7 +61187,7 @@
   },
   {
     "id": 12301597,
-    "idCN": "06敌方/劫掠者/劫掠王/00爬塔3",
+    "idCN": "06敌方/爬塔/人形单位/劫掠王/增幅3",
     "mod": "被动技能",
     "isInformalData": false,
     "name": "",
@@ -61243,7 +61221,7 @@
   },
   {
     "id": 12300975,
-    "idCN": "06敌方/劫掠者/劫掠王/00爬塔1",
+    "idCN": "06敌方/爬塔/人形单位/劫掠王/增幅1",
     "mod": "被动技能",
     "isInformalData": false,
     "name": "",
@@ -61355,7 +61333,7 @@
   },
   {
     "id": 12300976,
-    "idCN": "06敌方/劫掠者/劫掠王/00爬塔2",
+    "idCN": "06敌方/爬塔/人形单位/劫掠王/增幅2",
     "mod": "被动技能",
     "isInformalData": false,
     "name": "",
@@ -61389,7 +61367,7 @@
   },
   {
     "id": 12300977,
-    "idCN": "06敌方/军阀/伐木重机/00爬塔1",
+    "idCN": "06敌方/爬塔/机械单位/增幅1",
     "mod": "被动技能",
     "isInformalData": false,
     "name": "",
@@ -61423,7 +61401,7 @@
   },
   {
     "id": 12300981,
-    "idCN": "06敌方/军阀/伐木重机/00爬塔2",
+    "idCN": "06敌方/爬塔/机械单位/增幅2",
     "mod": "被动技能",
     "isInformalData": false,
     "name": "",
@@ -61457,7 +61435,7 @@
   },
   {
     "id": 12300982,
-    "idCN": "06敌方/军阀/伐木重机/00爬塔3",
+    "idCN": "06敌方/爬塔/机械单位/增幅3",
     "mod": "被动技能",
     "isInformalData": false,
     "name": "",
@@ -61565,11 +61543,11 @@
     "name": "“惊蛰”",
     "iconPath": "RolePlus\\Dustin\\skillicon\\A",
     "attriDetialList": [],
-    "tempdescription": "迅雷一击，对敌方造成1段伤害，同时触发【落雷】和【炽地】\\n使用后，生成1个【天火】\\n【天火】为【爆炸物】",
-    "description": "迅雷一击，对敌方造成1段伤害，同时触发<color=#FFB800>【落雷】</color>和<color=#FF6666>【炽地】</color>\\n使用后，生成1个【天火】\\n【天火】为【爆炸物】",
+    "tempdescription": "迅雷一击，对敌方造成1段伤害并【击晕】，同时触发【轰雷】和【炽地】\\n使用后，生成1个【天火】\\n【天火】为【爆炸物】",
+    "description": "迅雷一击，对敌方造成1段伤害并<color=#FF6666>【击晕】</color>，同时触发<color=#FFB800>【轰雷】</color>和<color=#FF6666>【炽地】</color>\\n使用后，生成1个【天火】\\n【天火】为【爆炸物】",
     "levelUpDescription": "",
-    "tempdetailDescription": "伤害：2400%",
-    "detailDescription": "伤害：2400%",
+    "tempdetailDescription": "伤害：2000%",
+    "detailDescription": "伤害：2000%",
     "desParamList": [
       {
         "isPercent": true,
@@ -61578,7 +61556,7 @@
     ],
     "skillParamList": [
       {
-        "skillRateA_SN": 240000,
+        "skillRateA_SN": 200000,
         "skillRateB_SN": 0,
         "skillRateC_SN": 0,
         "skillRateD_SN": 0,
@@ -61790,8 +61768,8 @@
     "specialTagList": []
   },
   {
-    "id": 12301028,
-    "idCN": "00原版/05五星/卡塔斯/觉醒5-怒火",
+    "id": 12300984,
+    "idCN": "06敌方/爬塔/桦树生物/凛川骨龙/增幅2伤害回复",
     "mod": "被动技能",
     "isInformalData": false,
     "name": "",
@@ -61802,18 +61780,19 @@
     "levelUpDescription": "",
     "tempdetailDescription": "",
     "detailDescription": "",
-    "desParamList": [],
-    "skillParamList": [],
-    "attributeList": [],
-    "tagId": 12601158,
-    "tagRemoveList": [],
-    "tagFilterList": [
+    "desParamList": [
       {
-        "tagId": 12601159
+        "isPercent": false,
+        "param": "a"
       }
     ],
-    "tagFilterType": "Or",
-    "buffId": 10410244,
+    "skillParamList": [],
+    "attributeList": [],
+    "tagId": -1,
+    "tagRemoveList": [],
+    "tagFilterList": [],
+    "tagFilterType": "And",
+    "buffId": 10410268,
     "temptypeStr": "",
     "typeStr": "",
     "typeColor": "Orange",
@@ -61852,6 +61831,68 @@
     "specialTagList": []
   },
   {
+    "id": 12301153,
+    "idCN": "11固定词条/装备/学会装备/断火之剑II",
+    "mod": "被动技能",
+    "isInformalData": false,
+    "name": "",
+    "iconPath": "",
+    "attriDetialList": [],
+    "tempdescription": "使用【元素核·火】后，下1张带有【点燃】/【炽地】/【燎原】/【火海】词条的红卡伤害提高100%，可叠加",
+    "description": "使用【元素核·火】后，下1张带有【点燃】/【炽地】/【燎原】/【火海】词条的红卡伤害提高100%，可叠加",
+    "levelUpDescription": "",
+    "tempdetailDescription": "",
+    "detailDescription": "",
+    "desParamList": [],
+    "skillParamList": [],
+    "attributeList": [],
+    "tagId": -1,
+    "tagRemoveList": [],
+    "tagFilterList": [],
+    "tagFilterType": "And",
+    "buffId": 10410307,
+    "temptypeStr": "",
+    "typeStr": "",
+    "typeColor": "Orange",
+    "CommonNum": 1.0,
+    "floatNum": 1,
+    "ExSkillList": [],
+    "specialTagList": []
+  },
+  {
+    "id": 12301028,
+    "idCN": "00原版/05五星/卡塔斯/觉醒5-怒火",
+    "mod": "被动技能",
+    "isInformalData": false,
+    "name": "",
+    "iconPath": "",
+    "attriDetialList": [],
+    "tempdescription": "",
+    "description": "",
+    "levelUpDescription": "",
+    "tempdetailDescription": "",
+    "detailDescription": "",
+    "desParamList": [],
+    "skillParamList": [],
+    "attributeList": [],
+    "tagId": 12601158,
+    "tagRemoveList": [],
+    "tagFilterList": [
+      {
+        "tagId": 12601159
+      }
+    ],
+    "tagFilterType": "Or",
+    "buffId": 10410244,
+    "temptypeStr": "",
+    "typeStr": "",
+    "typeColor": "Orange",
+    "CommonNum": 1.0,
+    "floatNum": 1,
+    "ExSkillList": [],
+    "specialTagList": []
+  },
+  {
     "id": 12301143,
     "idCN": "11固定词条/装备/学会装备/断火之剑",
     "mod": "被动技能",
@@ -61881,26 +61922,317 @@
     "specialTagList": []
   },
   {
-    "id": 12301153,
-    "idCN": "11固定词条/装备/学会装备/断火之剑II",
+    "id": 12301189,
+    "idCN": "06敌方/爬塔/人形单位/鼹鼠/增幅1",
     "mod": "被动技能",
     "isInformalData": false,
     "name": "",
     "iconPath": "",
     "attriDetialList": [],
-    "tempdescription": "使用【元素核·火】后，下1张带有【点燃】/【炽地】/【燎原】/【火海】词条的红卡伤害提高100%，可叠加",
-    "description": "使用【元素核·火】后，下1张带有【点燃】/【炽地】/【燎原】/【火海】词条的红卡伤害提高100%，可叠加",
+    "tempdescription": "",
+    "description": "",
     "levelUpDescription": "",
     "tempdetailDescription": "",
     "detailDescription": "",
-    "desParamList": [],
+    "desParamList": [
+      {
+        "isPercent": false,
+        "param": "a"
+      }
+    ],
     "skillParamList": [],
     "attributeList": [],
     "tagId": -1,
     "tagRemoveList": [],
     "tagFilterList": [],
     "tagFilterType": "And",
-    "buffId": 10410307,
+    "buffId": 10410255,
+    "temptypeStr": "",
+    "typeStr": "",
+    "typeColor": "Orange",
+    "CommonNum": 1.0,
+    "floatNum": 1,
+    "ExSkillList": [],
+    "specialTagList": []
+  },
+  {
+    "id": 12301142,
+    "idCN": "06敌方/98未知/永生者/被动0回精力",
+    "mod": "被动技能",
+    "isInformalData": false,
+    "name": "",
+    "iconPath": "",
+    "attriDetialList": [],
+    "tempdescription": "",
+    "description": "",
+    "levelUpDescription": "",
+    "tempdetailDescription": "",
+    "detailDescription": "",
+    "desParamList": [
+      {
+        "isPercent": false,
+        "param": "a"
+      }
+    ],
+    "skillParamList": [],
+    "attributeList": [],
+    "tagId": -1,
+    "tagRemoveList": [],
+    "tagFilterList": [],
+    "tagFilterType": "And",
+    "buffId": 10410240,
+    "temptypeStr": "",
+    "typeStr": "",
+    "typeColor": "Orange",
+    "CommonNum": 1.0,
+    "floatNum": 1,
+    "ExSkillList": [],
+    "specialTagList": []
+  },
+  {
+    "id": 12301241,
+    "idCN": "13武装词条/天火/火焰伤害增加",
+    "mod": "被动技能",
+    "isInformalData": false,
+    "name": "",
+    "iconPath": "",
+    "attriDetialList": [],
+    "tempdescription": "自身造成的【点燃】，【炽地】，【燎原】和【火海】的每秒燃烧伤害+50%，可叠加",
+    "description": "自身造成的<color=#FF6666>【点燃】</color>，<color=#FF6666>【炽地】</color>，<color=#FF6666>【燎原】</color>和<color=#FF6666>【火海】</color>的每秒燃烧伤害+50%，可叠加",
+    "levelUpDescription": "",
+    "tempdetailDescription": "",
+    "detailDescription": "",
+    "desParamList": [],
+    "skillParamList": [
+      {
+        "skillRateA_SN": 5000,
+        "skillRateB_SN": 0,
+        "skillRateC_SN": 0,
+        "skillRateD_SN": 0,
+        "skillRateE_SN": 0,
+        "skillRateF_SN": 0,
+        "skillRateG_SN": 0,
+        "skillRateH_SN": 0,
+        "skillRateI_SN": 0,
+        "skillRateJ_SN": 0,
+        "skillRateL_SN": 0,
+        "skillRateT_SN": 0
+      }
+    ],
+    "attributeList": [],
+    "tagId": -1,
+    "tagRemoveList": [],
+    "tagFilterList": [],
+    "tagFilterType": "And",
+    "buffId": 10410351,
+    "temptypeStr": "",
+    "typeStr": "",
+    "typeColor": "Orange",
+    "CommonNum": 100.0,
+    "floatNum": 0,
+    "ExSkillList": [],
+    "specialTagList": [
+      {
+        "specialTag": 12600206
+      }
+    ]
+  },
+  {
+    "id": 12301533,
+    "idCN": "06敌方/爬塔/人形单位/无明火/增幅3",
+    "mod": "被动技能",
+    "isInformalData": false,
+    "name": "",
+    "iconPath": "",
+    "attriDetialList": [],
+    "tempdescription": "",
+    "description": "",
+    "levelUpDescription": "",
+    "tempdetailDescription": "",
+    "detailDescription": "",
+    "desParamList": [
+      {
+        "isPercent": false,
+        "param": "a"
+      }
+    ],
+    "skillParamList": [],
+    "attributeList": [],
+    "tagId": -1,
+    "tagRemoveList": [],
+    "tagFilterList": [],
+    "tagFilterType": "And",
+    "buffId": 10410384,
+    "temptypeStr": "",
+    "typeStr": "",
+    "typeColor": "Orange",
+    "CommonNum": 1.0,
+    "floatNum": 1,
+    "ExSkillList": [],
+    "specialTagList": []
+  },
+  {
+    "id": 12301532,
+    "idCN": "06敌方/爬塔/人形单位/无明火/增幅2",
+    "mod": "被动技能",
+    "isInformalData": false,
+    "name": "",
+    "iconPath": "",
+    "attriDetialList": [],
+    "tempdescription": "",
+    "description": "",
+    "levelUpDescription": "",
+    "tempdetailDescription": "",
+    "detailDescription": "",
+    "desParamList": [
+      {
+        "isPercent": false,
+        "param": "a"
+      }
+    ],
+    "skillParamList": [],
+    "attributeList": [],
+    "tagId": -1,
+    "tagRemoveList": [],
+    "tagFilterList": [],
+    "tagFilterType": "And",
+    "buffId": 10410383,
+    "temptypeStr": "",
+    "typeStr": "",
+    "typeColor": "Orange",
+    "CommonNum": 1.0,
+    "floatNum": 1,
+    "ExSkillList": [],
+    "specialTagList": []
+  },
+  {
+    "id": 12301505,
+    "idCN": "06敌方/爬塔/人形单位/无明火/增幅1",
+    "mod": "被动技能",
+    "isInformalData": false,
+    "name": "",
+    "iconPath": "",
+    "attriDetialList": [],
+    "tempdescription": "",
+    "description": "",
+    "levelUpDescription": "",
+    "tempdetailDescription": "",
+    "detailDescription": "",
+    "desParamList": [
+      {
+        "isPercent": false,
+        "param": "a"
+      }
+    ],
+    "skillParamList": [],
+    "attributeList": [],
+    "tagId": -1,
+    "tagRemoveList": [],
+    "tagFilterList": [],
+    "tagFilterType": "And",
+    "buffId": 10410382,
+    "temptypeStr": "",
+    "typeStr": "",
+    "typeColor": "Orange",
+    "CommonNum": 1.0,
+    "floatNum": 1,
+    "ExSkillList": [],
+    "specialTagList": []
+  },
+  {
+    "id": 12301245,
+    "idCN": "06敌方/通用/体型缩小0.5",
+    "mod": "被动技能",
+    "isInformalData": false,
+    "name": "缩放",
+    "iconPath": "",
+    "attriDetialList": [],
+    "tempdescription": "",
+    "description": "",
+    "levelUpDescription": "",
+    "tempdetailDescription": "",
+    "detailDescription": "",
+    "desParamList": [
+      {
+        "isPercent": false,
+        "param": "a"
+      }
+    ],
+    "skillParamList": [],
+    "attributeList": [],
+    "tagId": -1,
+    "tagRemoveList": [],
+    "tagFilterList": [],
+    "tagFilterType": "And",
+    "buffId": 10410317,
+    "temptypeStr": "",
+    "typeStr": "",
+    "typeColor": "Orange",
+    "CommonNum": 1.0,
+    "floatNum": 1,
+    "ExSkillList": [],
+    "specialTagList": []
+  },
+  {
+    "id": 12300384,
+    "idCN": "06敌方/98未知/永生者/被动1免控",
+    "mod": "被动技能",
+    "isInformalData": false,
+    "name": "",
+    "iconPath": "",
+    "attriDetialList": [],
+    "tempdescription": "",
+    "description": "",
+    "levelUpDescription": "",
+    "tempdetailDescription": "",
+    "detailDescription": "",
+    "desParamList": [
+      {
+        "isPercent": false,
+        "param": "a"
+      }
+    ],
+    "skillParamList": [],
+    "attributeList": [],
+    "tagId": -1,
+    "tagRemoveList": [],
+    "tagFilterList": [],
+    "tagFilterType": "And",
+    "buffId": 10410398,
+    "temptypeStr": "",
+    "typeStr": "",
+    "typeColor": "Orange",
+    "CommonNum": 1.0,
+    "floatNum": 1,
+    "ExSkillList": [],
+    "specialTagList": []
+  },
+  {
+    "id": 12301534,
+    "idCN": "06敌方/爬塔/人形单位/鼹鼠重机/增幅2",
+    "mod": "被动技能",
+    "isInformalData": false,
+    "name": "",
+    "iconPath": "",
+    "attriDetialList": [],
+    "tempdescription": "",
+    "description": "",
+    "levelUpDescription": "",
+    "tempdetailDescription": "",
+    "detailDescription": "",
+    "desParamList": [
+      {
+        "isPercent": false,
+        "param": "a"
+      }
+    ],
+    "skillParamList": [],
+    "attributeList": [],
+    "tagId": -1,
+    "tagRemoveList": [],
+    "tagFilterList": [],
+    "tagFilterType": "And",
+    "buffId": 10410393,
     "temptypeStr": "",
     "typeStr": "",
     "typeColor": "Orange",

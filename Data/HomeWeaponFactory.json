@@ -1610,7 +1610,7 @@
     "idCN": "01撞角/02-3金-分解冲击碾",
     "mod": "车厢撞角",
     "isInformalData": false,
-    "cannonModel": "Environment\\Prefab\\Map_train_blank_QZ\\Map_train_blank_QZ_01",
+    "cannonModel": "Environment/Prefab/Map_Train_Weapon/Map_Train_Weapon_14",
     "hp": 1536,
     "power": 448,
     "hpLoss": 0,
@@ -2018,7 +2018,7 @@
     "idCN": "01撞角/01-3金-昏恶撞角",
     "mod": "车厢撞角",
     "isInformalData": false,
-    "cannonModel": "Environment\\Prefab\\Map_train_blank_QZ\\Map_train_blank_QZ_03",
+    "cannonModel": "Environment/Prefab/Map_Train_Weapon/Map_Train_Weapon_13",
     "hp": 1600,
     "power": 480,
     "hpLoss": 0,
@@ -2222,7 +2222,7 @@
     "idCN": "01撞角/03-3金-尖啸破坏铲",
     "mod": "车厢撞角",
     "isInformalData": false,
-    "cannonModel": "Environment\\Prefab\\Map_train_blank_QZ\\Map_train_blank_QZ_02",
+    "cannonModel": "Environment/Prefab/Map_Train_Weapon/Map_Train_Weapon_15",
     "hp": 1440,
     "power": 400,
     "hpLoss": 0,
@@ -2387,8 +2387,8 @@
         "list": 80301446
       }
     ],
-    "imagePath": "Item/TrainWeapon/small/gaoqiangdupohuaichan",
-    "tipsPath": "Item/TrainWeapon/big/gaoqiangdupohuaichan",
+    "imagePath": "Item/TrainWeapon/small/jianxiaopohuaichan",
+    "tipsPath": "Item/TrainWeapon/big/jianxiaopohuaichan",
     "configWinPercent": 0.08,
     "configNumMin": 0.7,
     "configNumMax": 1.0,
@@ -6626,7 +6626,14 @@
     "isInformalData": false,
     "cannonModel": "",
     "name": "高塔纹章",
+    "effectStyleType": "none",
+    "effectType": "0",
+    "effectTypeEffect": -1,
     "specialEffects": "",
+    "timeLineEffect": -1,
+    "XEffects": 0.0,
+    "YEffects": 0.0,
+    "ZEffects": 0.0,
     "isCost": true,
     "des": "带有基底桦树生物瑟普拉索达力量的纹章。其力量能使损坏的物体复原。",
     "createDes": "",
@@ -6755,8 +6762,8 @@
         "list": 80301447
       }
     ],
-    "imagePath": "Item/TrainWeapon/small/A1",
-    "tipsPath": "Item/TrainWeapon/big/A1",
+    "imagePath": "Item/TrainWeapon/small/gaotawenzhang",
+    "tipsPath": "Item/TrainWeapon/big/gaotawenzhang",
     "TrainWeaponMakeUp": [],
     "goldCost": 10000,
     "Getway": []
@@ -7798,8 +7805,8 @@
         "list": 80301446
       }
     ],
-    "imagePath": "Item/TrainWeapon/small/A1",
-    "tipsPath": "Item/TrainWeapon/big/A1",
+    "imagePath": "Item/TrainWeapon/small/xuannaoyaogun",
+    "tipsPath": "Item/TrainWeapon/big/xuannaoyaogun",
     "TrainWeaponMakeUp": [],
     "goldCost": 10000,
     "Getway": []
@@ -7947,8 +7954,8 @@
         "list": 80301444
       }
     ],
-    "imagePath": "Item/TrainWeapon/small/A1",
-    "tipsPath": "Item/TrainWeapon/big/A1",
+    "imagePath": "Item/TrainWeapon/small/yuxingzhisheng",
+    "tipsPath": "Item/TrainWeapon/big/yuxingzhisheng",
     "TrainWeaponMakeUp": [],
     "goldCost": 10000,
     "Getway": []
@@ -8538,7 +8545,14 @@
     "isInformalData": false,
     "cannonModel": "",
     "name": "URO涂装",
+    "effectStyleType": "none",
+    "effectType": "0",
+    "effectTypeEffect": -1,
     "specialEffects": "",
+    "timeLineEffect": -1,
+    "XEffects": 0.0,
+    "YEffects": 0.0,
+    "ZEffects": 0.0,
     "isCost": true,
     "des": "使用桦树生物制作的一种涂料，能使你看起来亦真亦幻，从而化身为不明铁路物体。迷信的拾荒者和劫匪将视你为都市传说中的幽灵列车而不敢近身。",
     "createDes": "",
@@ -8664,8 +8678,8 @@
         "list": 80301446
       }
     ],
-    "imagePath": "Item/TrainWeapon/small/A1",
-    "tipsPath": "Item/TrainWeapon/big/A1",
+    "imagePath": "Item/TrainWeapon/small/UROtuzhuang",
+    "tipsPath": "Item/TrainWeapon/big/UROtuzhuang",
     "TrainWeaponMakeUp": [],
     "goldCost": 10000,
     "Getway": []
@@ -11034,5 +11048,154 @@
     "isFirst": false,
     "WeaponLow": 83100029,
     "WeaponTired": 10.0
+  },
+  {
+    "id": 83100005,
+    "idCN": "03车灯/3金/天火",
+    "mod": "车厢配件",
+    "isInformalData": false,
+    "cannonModel": "",
+    "name": "天火",
+    "effectStyleType": "lightList",
+    "effectType": "0",
+    "effectTypeEffect": 11105427,
+    "specialEffects": "Environment/MapEffect/Particle/Prefabs/CD_Yxyd_World_Light",
+    "timeLineEffect": -1,
+    "XEffects": 0.0,
+    "YEffects": 0.81,
+    "ZEffects": -4.273,
+    "isCost": true,
+    "des": "学会御险枢纽常用的伺服念珠，加装照明设备以后能够当作车灯使用。 体积虽小，但飞行速度却能轻易跟上列车的行驶速度。",
+    "createDes": "",
+    "quality": "Golden",
+    "typeWeapon": 12600388,
+    "weaponType": "Development",
+    "normalEntryList": [
+      {
+        "id": 85100169
+      }
+    ],
+    "growUpEntryList": [
+      {
+        "id": 85100246
+      },
+      {
+        "id": 85100245
+      },
+      {
+        "id": 85100247
+      }
+    ],
+    "randomSkillNum": 0,
+    "randomSkillList": [],
+    "coreList": [
+      {
+        "id": 85300004,
+        "level": 27
+      },
+      {
+        "id": 85300001,
+        "level": 36
+      },
+      {
+        "id": 85300005,
+        "level": 0
+      },
+      {
+        "id": 85300006,
+        "level": 0
+      },
+      {
+        "id": 85300002,
+        "level": 0
+      }
+    ],
+    "materialList": [
+      {
+        "level": 0,
+        "list": 80301389
+      },
+      {
+        "level": 1,
+        "list": 80301389
+      },
+      {
+        "level": 2,
+        "list": 80301389
+      },
+      {
+        "level": 3,
+        "list": 80301389
+      },
+      {
+        "level": 4,
+        "list": 80301389
+      },
+      {
+        "level": 5,
+        "list": 80301389
+      },
+      {
+        "level": 6,
+        "list": 80301389
+      },
+      {
+        "level": 7,
+        "list": 80301389
+      },
+      {
+        "level": 8,
+        "list": 80301389
+      },
+      {
+        "level": 9,
+        "list": 80301389
+      },
+      {
+        "level": 10,
+        "list": 80301446
+      },
+      {
+        "level": 11,
+        "list": 80301446
+      },
+      {
+        "level": 12,
+        "list": 80301446
+      },
+      {
+        "level": 13,
+        "list": 80301446
+      },
+      {
+        "level": 14,
+        "list": 80301446
+      },
+      {
+        "level": 15,
+        "list": 80301446
+      },
+      {
+        "level": 16,
+        "list": 80301446
+      },
+      {
+        "level": 17,
+        "list": 80301446
+      },
+      {
+        "level": 18,
+        "list": 80301446
+      },
+      {
+        "level": 19,
+        "list": 80301446
+      }
+    ],
+    "imagePath": "Item/TrainWeapon/small/tianhuo",
+    "tipsPath": "Item/TrainWeapon/big/tianhuo",
+    "TrainWeaponMakeUp": [],
+    "goldCost": 10000,
+    "Getway": []
   }
 ]

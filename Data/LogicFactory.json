@@ -1500,13 +1500,24 @@
   },
   {
     "id": 60000122,
-    "idCN": "LUA/打开UI",
+    "idCN": "LUA/打开店铺UI",
     "mod": "执行LUA脚本",
     "isInformalData": false,
     "debug": true,
     "memo": "打开拉面店场景和UI",
-    "paramHelp": "",
+    "paramHelp": "店铺ID",
     "returnType": "int",
-    "script": "local MainController = require(\"UIMainUI/UIMainUIController\")\rMainController.ImmediatelyStop()\rMapNeedleData.OpenStore($param0)"
+    "script": "local MapEventController = require(\"UIMapSession/Controller_MapEventController\")\rMapEventController.OpenStore($param0)"
+  },
+  {
+    "id": 60000125,
+    "idCN": "LUA/段落是否播放过",
+    "mod": "执行LUA脚本",
+    "isInformalData": false,
+    "debug": true,
+    "memo": "段落是否播放过的检查",
+    "paramHelp": "剧情ID",
+    "returnType": "bool",
+    "script": "return PlayerData.plot_paragraph[tostring($param0)] ~= nil"
   }
 ]
