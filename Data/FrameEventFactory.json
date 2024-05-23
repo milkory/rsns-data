@@ -1355,6 +1355,13 @@
     "offSetZ_SN": 0
   },
   {
+    "id": 10500346,
+    "idCN": "我方/35地面/炽地-自身X偏移4",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10401676
+  },
+  {
     "id": 10500355,
     "idCN": "我方/25通用/震动/x_-0.3_1_2",
     "mod": "给自己上BUFF",
@@ -4603,6 +4610,34 @@
     "mod": "给自己上BUFF",
     "isInformalData": false,
     "buffId": 10404719
+  },
+  {
+    "id": 10501060,
+    "idCN": "我方/35地面/炽地-当前目标X偏移4",
+    "mod": "子弹事件",
+    "isInformalData": false,
+    "buffId": 10406379,
+    "bulletId": 11200045,
+    "targetType": "CurrentTarget",
+    "offSetX_SN": 0,
+    "offSetZ_SN": 0,
+    "isUseTargetFilter": false,
+    "targetFilterType": "Ally",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 0,
+    "attributeType": "HpMax",
+    "condition": "Max",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 0
   },
   {
     "id": 10500006,
@@ -22237,19 +22272,104 @@
     "targetType": "CurrentTarget"
   },
   {
-    "id": 10502110,
-    "idCN": "爬塔/人形单位/无明火/技能1周期击晕",
-    "mod": "添加Buff",
+    "id": 10502103,
+    "idCN": "爬塔/人形单位/鼹鼠/普攻1",
+    "mod": "子弹事件",
     "isInformalData": false,
-    "buffId": 10410371,
-    "targetType": "CurrentTarget"
+    "buffId": 10410343,
+    "bulletId": 11200366,
+    "targetType": "Random",
+    "offSetX_SN": 0,
+    "offSetZ_SN": 0,
+    "isUseTargetFilter": false,
+    "targetFilterType": "Ally",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 0,
+    "attributeType": "HpMax",
+    "condition": "Max",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 0
   },
   {
-    "id": 10502111,
-    "idCN": "爬塔/人形单位/无明火/技能1减伤",
+    "id": 10502104,
+    "idCN": "爬塔/人形单位/鼹鼠/普攻1被动1",
+    "mod": "子弹事件",
+    "isInformalData": false,
+    "buffId": 10410344,
+    "bulletId": 11200366,
+    "targetType": "Random",
+    "offSetX_SN": 0,
+    "offSetZ_SN": 0,
+    "isUseTargetFilter": false,
+    "targetFilterType": "Ally",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 0,
+    "attributeType": "HpMax",
+    "condition": "Max",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 0
+  },
+  {
+    "id": 10502106,
+    "idCN": "爬塔/人形单位/鼹鼠/普攻检测",
     "mod": "给自己上BUFF",
     "isInformalData": false,
-    "buffId": 10410372
+    "buffId": 10410346
+  },
+  {
+    "id": 10502105,
+    "idCN": "爬塔/人形单位/鼹鼠/增幅3普攻检测",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10410345
+  },
+  {
+    "id": 10502107,
+    "idCN": "爬塔/人形单位/鼹鼠/技能2召唤",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10410350
+  },
+  {
+    "id": 10502108,
+    "idCN": "爬塔/人形单位/鼹鼠/技能3召唤",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10410368
+  },
+  {
+    "id": 10502109,
+    "idCN": "敌方/05鼹鼠帮/突击车暴徒/增幅3鼹鼠技能冲撞",
+    "mod": "攻击事件",
+    "isInformalData": false,
+    "buffId": 10410375,
+    "hitSoundID": -1
+  },
+  {
+    "id": 10502116,
+    "idCN": "敌方/05鼹鼠帮/鼹鼠重机/增幅3鼹鼠技能冲撞",
+    "mod": "攻击事件",
+    "isInformalData": false,
+    "buffId": 10410377,
+    "hitSoundID": -1
   },
   {
     "id": 10502112,
@@ -22312,12 +22432,35 @@
     "hitSoundID": -1
   },
   {
-    "id": 10502103,
-    "idCN": "爬塔/人形单位/鼹鼠/普攻1",
+    "id": 10502110,
+    "idCN": "爬塔/人形单位/无明火/技能1周期击晕",
+    "mod": "添加Buff",
+    "isInformalData": false,
+    "buffId": 10410371,
+    "targetType": "CurrentTarget"
+  },
+  {
+    "id": 10502111,
+    "idCN": "爬塔/人形单位/无明火/技能1减伤",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10410372
+  },
+  {
+    "id": 10502118,
+    "idCN": "爬塔/人形单位/鼹鼠重机/普攻",
+    "mod": "攻击事件",
+    "isInformalData": false,
+    "buffId": 10410392,
+    "hitSoundID": -1
+  },
+  {
+    "id": 10502122,
+    "idCN": "爬塔/人形单位/鼹鼠重机/技能3",
     "mod": "子弹事件",
     "isInformalData": false,
-    "buffId": 10410343,
-    "bulletId": 11200366,
+    "buffId": 10410402,
+    "bulletId": 11200434,
     "targetType": "Random",
     "offSetX_SN": 0,
     "offSetZ_SN": 0,
@@ -22340,13 +22483,13 @@
     "targetCount": 0
   },
   {
-    "id": 10502104,
-    "idCN": "爬塔/人形单位/鼹鼠/普攻1被动1",
+    "id": 10502123,
+    "idCN": "爬塔/人形单位/鼹鼠重机/技能6",
     "mod": "子弹事件",
     "isInformalData": false,
-    "buffId": 10410344,
-    "bulletId": 11200366,
-    "targetType": "Random",
+    "buffId": 10410406,
+    "bulletId": 11200111,
+    "targetType": "OneEach",
     "offSetX_SN": 0,
     "offSetZ_SN": 0,
     "isUseTargetFilter": false,
@@ -22366,50 +22509,6 @@
     "filterPosition": "DefaultPos",
     "isAimSelf": false,
     "targetCount": 0
-  },
-  {
-    "id": 10502105,
-    "idCN": "爬塔/人形单位/鼹鼠/增幅3普攻检测",
-    "mod": "给自己上BUFF",
-    "isInformalData": false,
-    "buffId": 10410345
-  },
-  {
-    "id": 10502106,
-    "idCN": "爬塔/人形单位/鼹鼠/普攻检测",
-    "mod": "给自己上BUFF",
-    "isInformalData": false,
-    "buffId": 10410346
-  },
-  {
-    "id": 10502109,
-    "idCN": "敌方/05鼹鼠帮/突击车暴徒/增幅3鼹鼠技能冲撞",
-    "mod": "攻击事件",
-    "isInformalData": false,
-    "buffId": 10410375,
-    "hitSoundID": -1
-  },
-  {
-    "id": 10502107,
-    "idCN": "爬塔/人形单位/鼹鼠/技能2召唤",
-    "mod": "给自己上BUFF",
-    "isInformalData": false,
-    "buffId": 10410350
-  },
-  {
-    "id": 10502108,
-    "idCN": "爬塔/人形单位/鼹鼠/技能3召唤",
-    "mod": "给自己上BUFF",
-    "isInformalData": false,
-    "buffId": 10410368
-  },
-  {
-    "id": 10502116,
-    "idCN": "敌方/05鼹鼠帮/鼹鼠重机/增幅3鼹鼠技能冲撞",
-    "mod": "攻击事件",
-    "isInformalData": false,
-    "buffId": 10410377,
-    "hitSoundID": -1
   },
   {
     "id": 10502119,
@@ -22417,6 +22516,36 @@
     "mod": "给自己上BUFF",
     "isInformalData": false,
     "buffId": 10410397
+  },
+  {
+    "id": 10502126,
+    "idCN": "爬塔/桦树生物/裂首骨龙/头1切头2技能4",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10410411
+  },
+  {
+    "id": 10502127,
+    "idCN": "爬塔/桦树生物/裂首骨龙/头2释放技能4",
+    "mod": "添加Buff",
+    "isInformalData": false,
+    "buffId": 10410413,
+    "targetType": "CurrentTarget"
+  },
+  {
+    "id": 10502128,
+    "idCN": "爬塔/桦树生物/裂首骨龙/出场召唤头2",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10410419
+  },
+  {
+    "id": 10502129,
+    "idCN": "爬塔/桦树生物/裂首骨龙/头1伤害回复",
+    "mod": "添加Buff",
+    "isInformalData": false,
+    "buffId": 10410415,
+    "targetType": "CurrentTarget"
   },
   {
     "id": 10502120,
@@ -22452,104 +22581,5 @@
     "mod": "给自己上BUFF",
     "isInformalData": false,
     "buffId": 10410381
-  },
-  {
-    "id": 10502123,
-    "idCN": "爬塔/人形单位/鼹鼠重机/技能6",
-    "mod": "子弹事件",
-    "isInformalData": false,
-    "buffId": 10410406,
-    "bulletId": 11200111,
-    "targetType": "OneEach",
-    "offSetX_SN": 0,
-    "offSetZ_SN": 0,
-    "isUseTargetFilter": false,
-    "targetFilterType": "Ally",
-    "targetTagList": [],
-    "tagType": "And",
-    "halfWidth_SN": 0,
-    "attributeType": "HpMax",
-    "condition": "Max",
-    "numberType": "Number",
-    "number_SN": 0,
-    "buffTypeFO": -1,
-    "buffFO": -1,
-    "buffJudgeType": "Greater",
-    "buffLevel": 0,
-    "filterStance": "DeafaultStance",
-    "filterPosition": "DefaultPos",
-    "isAimSelf": false,
-    "targetCount": 0
-  },
-  {
-    "id": 10502122,
-    "idCN": "爬塔/人形单位/鼹鼠重机/技能3",
-    "mod": "子弹事件",
-    "isInformalData": false,
-    "buffId": 10410402,
-    "bulletId": 11200434,
-    "targetType": "Random",
-    "offSetX_SN": 0,
-    "offSetZ_SN": 0,
-    "isUseTargetFilter": false,
-    "targetFilterType": "Ally",
-    "targetTagList": [],
-    "tagType": "And",
-    "halfWidth_SN": 0,
-    "attributeType": "HpMax",
-    "condition": "Max",
-    "numberType": "Number",
-    "number_SN": 0,
-    "buffTypeFO": -1,
-    "buffFO": -1,
-    "buffJudgeType": "Greater",
-    "buffLevel": 0,
-    "filterStance": "DeafaultStance",
-    "filterPosition": "DefaultPos",
-    "isAimSelf": false,
-    "targetCount": 0
-  },
-  {
-    "id": 10502118,
-    "idCN": "爬塔/人形单位/鼹鼠重机/普攻",
-    "mod": "攻击事件",
-    "isInformalData": false,
-    "buffId": 10410392,
-    "hitSoundID": -1
-  },
-  {
-    "id": 10500346,
-    "idCN": "我方/35地面/炽地-自身X偏移4",
-    "mod": "给自己上BUFF",
-    "isInformalData": false,
-    "buffId": 10401676
-  },
-  {
-    "id": 10501060,
-    "idCN": "我方/35地面/炽地-当前目标X偏移4",
-    "mod": "子弹事件",
-    "isInformalData": false,
-    "buffId": 10406379,
-    "bulletId": 11200045,
-    "targetType": "CurrentTarget",
-    "offSetX_SN": 0,
-    "offSetZ_SN": 0,
-    "isUseTargetFilter": false,
-    "targetFilterType": "Ally",
-    "targetTagList": [],
-    "tagType": "And",
-    "halfWidth_SN": 0,
-    "attributeType": "HpMax",
-    "condition": "Max",
-    "numberType": "Number",
-    "number_SN": 0,
-    "buffTypeFO": -1,
-    "buffFO": -1,
-    "buffJudgeType": "Greater",
-    "buffLevel": 0,
-    "filterStance": "DeafaultStance",
-    "filterPosition": "DefaultPos",
-    "isAimSelf": false,
-    "targetCount": 0
   }
 ]

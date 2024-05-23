@@ -2972,6 +2972,41 @@
     ]
   },
   {
+    "id": 11200045,
+    "idCN": "地面/炽地-X偏移4",
+    "mod": "抛物线",
+    "isInformalData": false,
+    "bulletViewId": 11300008,
+    "speedX_SN": 120000,
+    "disappearEffectList": [],
+    "appearEffectList": [],
+    "effectID": -1,
+    "hitSoundId": -1,
+    "scaleTag": "",
+    "ySpeedStart_SN": 1000,
+    "ySpeedOffSet_SN": 0,
+    "isAddSpeedZ": false,
+    "durationMin": 1,
+    "damageRadius_SN": 0,
+    "isFixedPosition": false,
+    "xOffSetStart_SN": 40000,
+    "xOffSet_SN": 0,
+    "yOffSetStart_SN": 0,
+    "yOffSet_SN": 0,
+    "zOffSetStart_SN": 0,
+    "zOffSet_SN": 0,
+    "groundEffectList": [],
+    "isGroundEffectUseHitTimes": false,
+    "groundSoundId": -1,
+    "isGroundSoundUseHitTimes": false,
+    "envBuffId": 10401936,
+    "hitTimes": 1,
+    "hitTimesCustomTag": "",
+    "intervalFrame": 1,
+    "isDoBuffOnly": false,
+    "isHitTargetOnly": false
+  },
+  {
     "id": 11200060,
     "idCN": "地面/炽地",
     "mod": "抛物线",
@@ -4979,7 +5014,7 @@
     "mod": "抛物线",
     "isInformalData": false,
     "bulletViewId": 11300191,
-    "speedX_SN": 2000,
+    "speedX_SN": 4500,
     "disappearEffectList": [],
     "appearEffectList": [],
     "effectID": 11104585,
@@ -11080,6 +11115,45 @@
     "isHitTargetOnly": false
   },
   {
+    "id": 11200434,
+    "idCN": "敌方/05鼹鼠帮/鼹鼠重机/爬塔用技能3子弹",
+    "mod": "抛物线",
+    "isInformalData": false,
+    "bulletViewId": 11300093,
+    "speedX_SN": 2500,
+    "disappearEffectList": [],
+    "appearEffectList": [],
+    "effectID": -1,
+    "hitSoundId": -1,
+    "scaleTag": "",
+    "ySpeedStart_SN": 0,
+    "ySpeedOffSet_SN": 0,
+    "isAddSpeedZ": false,
+    "durationMin": 1,
+    "damageRadius_SN": 5000,
+    "isFixedPosition": false,
+    "xOffSetStart_SN": -10000,
+    "xOffSet_SN": 7500,
+    "yOffSetStart_SN": 0,
+    "yOffSet_SN": 0,
+    "zOffSetStart_SN": -10000,
+    "zOffSet_SN": 20000,
+    "groundEffectList": [
+      {
+        "effectId": 11100634
+      }
+    ],
+    "isGroundEffectUseHitTimes": false,
+    "groundSoundId": -1,
+    "isGroundSoundUseHitTimes": false,
+    "envBuffId": -1,
+    "hitTimes": 0,
+    "hitTimesCustomTag": "",
+    "intervalFrame": 1,
+    "isDoBuffOnly": false,
+    "isHitTargetOnly": true
+  },
+  {
     "id": 11200435,
     "idCN": "敌方/000角色/马吉拉/A治疗子弹",
     "mod": "镭射",
@@ -11094,25 +11168,6 @@
     "hitFrameList": [
       {
         "hitFrame": 24
-      }
-    ]
-  },
-  {
-    "id": 11200436,
-    "idCN": "敌方/000角色/马吉拉/A",
-    "mod": "镭射",
-    "isInformalData": false,
-    "bulletViewId": 11300008,
-    "speedX_SN": 10000,
-    "disappearEffectList": [],
-    "effectID": -1,
-    "hitSoundId": -1,
-    "hitEffect": 11101722,
-    "totalFrame": 71,
-    "dontBindOwner": false,
-    "hitFrameList": [
-      {
-        "hitFrame": 1
       }
     ]
   },
@@ -11164,6 +11219,25 @@
     "intervalFrame": 20,
     "isDoBuffOnly": false,
     "isHitTargetOnly": false
+  },
+  {
+    "id": 11200436,
+    "idCN": "敌方/000角色/马吉拉/A",
+    "mod": "镭射",
+    "isInformalData": false,
+    "bulletViewId": 11300008,
+    "speedX_SN": 10000,
+    "disappearEffectList": [],
+    "effectID": -1,
+    "hitSoundId": -1,
+    "hitEffect": 11101722,
+    "totalFrame": 71,
+    "dontBindOwner": false,
+    "hitFrameList": [
+      {
+        "hitFrame": 1
+      }
+    ]
   },
   {
     "id": 11200439,
@@ -11271,80 +11345,6 @@
     "hitTimes": 1,
     "hitTimesCustomTag": "hitTime",
     "intervalFrame": 20,
-    "isDoBuffOnly": false,
-    "isHitTargetOnly": false
-  },
-  {
-    "id": 11200434,
-    "idCN": "敌方/05鼹鼠帮/鼹鼠重机/爬塔用技能3子弹",
-    "mod": "抛物线",
-    "isInformalData": false,
-    "bulletViewId": 11300093,
-    "speedX_SN": 2500,
-    "disappearEffectList": [],
-    "appearEffectList": [],
-    "effectID": -1,
-    "hitSoundId": -1,
-    "scaleTag": "",
-    "ySpeedStart_SN": 0,
-    "ySpeedOffSet_SN": 0,
-    "isAddSpeedZ": false,
-    "durationMin": 1,
-    "damageRadius_SN": 5000,
-    "isFixedPosition": false,
-    "xOffSetStart_SN": -10000,
-    "xOffSet_SN": 7500,
-    "yOffSetStart_SN": 0,
-    "yOffSet_SN": 0,
-    "zOffSetStart_SN": -10000,
-    "zOffSet_SN": 20000,
-    "groundEffectList": [
-      {
-        "effectId": 11100634
-      }
-    ],
-    "isGroundEffectUseHitTimes": false,
-    "groundSoundId": -1,
-    "isGroundSoundUseHitTimes": false,
-    "envBuffId": -1,
-    "hitTimes": 0,
-    "hitTimesCustomTag": "",
-    "intervalFrame": 1,
-    "isDoBuffOnly": false,
-    "isHitTargetOnly": true
-  },
-  {
-    "id": 11200045,
-    "idCN": "地面/炽地-X偏移4",
-    "mod": "抛物线",
-    "isInformalData": false,
-    "bulletViewId": 11300008,
-    "speedX_SN": 120000,
-    "disappearEffectList": [],
-    "appearEffectList": [],
-    "effectID": -1,
-    "hitSoundId": -1,
-    "scaleTag": "",
-    "ySpeedStart_SN": 1000,
-    "ySpeedOffSet_SN": 0,
-    "isAddSpeedZ": false,
-    "durationMin": 1,
-    "damageRadius_SN": 0,
-    "isFixedPosition": false,
-    "xOffSetStart_SN": 40000,
-    "xOffSet_SN": 0,
-    "yOffSetStart_SN": 0,
-    "yOffSet_SN": 0,
-    "zOffSetStart_SN": 0,
-    "zOffSet_SN": 0,
-    "groundEffectList": [],
-    "isGroundEffectUseHitTimes": false,
-    "groundSoundId": -1,
-    "isGroundSoundUseHitTimes": false,
-    "envBuffId": 10401936,
-    "hitTimes": 1,
-    "hitTimesCustomTag": "",
-    "intervalFrame": 1,
     "isDoBuffOnly": false,
     "isHitTargetOnly": false
   }
