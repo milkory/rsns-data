@@ -1025,9 +1025,12 @@
     "shapeShiftList": [],
     "commandList": [],
     "enemySkillList": [],
-    "isUseEnergy": false,
+    "isUseEnergy": true,
     "energySkillList": [],
-    "energyRestorePerFrameSN": 0
+    "energyRestorePerFrameSN": 0,
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
   },
   {
     "id": 10300195,
@@ -14721,33 +14724,23 @@
     "targetInvisibleEffectId": 11102488,
     "effectOffsetX": 0.0,
     "effectOffsetY": 0.0,
-    "actionList": [
-      {
-        "actionID": 10102983
-      }
-    ],
+    "actionList": [],
     "normalAttackCritID": -1,
     "skillList": [
       {
-        "actionId": 10102980,
-        "activeFrame": 240,
-        "activeTime": 4.0,
-        "rangeSN": -10000
-      },
-      {
         "actionId": 10102981,
-        "activeFrame": 500,
-        "activeTime": 8.3333,
+        "activeFrame": 0,
+        "activeTime": 0.0,
         "rangeSN": -10000
       }
     ],
     "isInvisibleBeforeShowUp": false,
     "showupSkillList": [],
-    "skillLoopDelayFrame": 300,
+    "skillLoopDelayFrame": 0,
     "shapeShiftList": [],
     "commandList": [],
     "enemySkillList": [],
-    "isUseEnergy": true,
+    "isUseEnergy": false,
     "energySkillList": [
       {
         "actionId": 10102982,
@@ -15350,5 +15343,99 @@
     "isSkillDelay": true,
     "minDelay": 300,
     "maxDelay": 480
+  },
+  {
+    "id": 10300391,
+    "idCN": "敌方/02桦树/BOSS/玫瑰粉钻骨龙-头",
+    "mod": "BOSSAI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10103024
+      },
+      {
+        "actionID": 10103025
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10103021,
+        "activeFrame": 180,
+        "activeTime": 1.0,
+        "rangeSN": 240000
+      },
+      {
+        "actionId": 10103020,
+        "activeFrame": 390,
+        "activeTime": 1.0,
+        "rangeSN": 240000
+      },
+      {
+        "actionId": 10103022,
+        "activeFrame": 690,
+        "activeTime": 1.0,
+        "rangeSN": 240000
+      },
+      {
+        "actionId": 10103021,
+        "activeFrame": 1020,
+        "activeTime": 1.0,
+        "rangeSN": 240000
+      }
+    ],
+    "isInvisibleBeforeShowUp": true,
+    "showupSkillList": [
+      {
+        "actionId": 10103018
+      }
+    ],
+    "skillLoopDelayFrame": 390,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": true,
+    "energySkillList": [
+      {
+        "actionId": 10103023,
+        "isClearEnergy": true,
+        "rangeSN": -10000
+      }
+    ],
+    "energyRestorePerFrameSN": 220,
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300392,
+    "idCN": "敌方/02桦树/BOSS/玫瑰粉钻骨龙-尾",
+    "mod": "BOSSAI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [],
+    "normalAttackCritID": -1,
+    "skillList": [],
+    "isInvisibleBeforeShowUp": true,
+    "showupSkillList": [
+      {
+        "actionId": 10103031
+      }
+    ],
+    "skillLoopDelayFrame": 1440,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 220,
+    "isSkillDelay": true,
+    "minDelay": 120,
+    "maxDelay": 360
   }
 ]
