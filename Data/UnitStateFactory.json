@@ -2656,12 +2656,14 @@
     "id": 10200364,
     "idCN": "敌方/08军阀/蝎型机械体/站立状态1",
     "mod": "基础状态",
+    "isInformalData": false,
     "actionLevel": "Stand",
     "viewId": 11000046,
     "aniName": "stand",
     "isLoop": false,
     "aniTime_SN": 13333,
     "totalFrame": 80,
+    "customFrameTag": "",
     "frameChanged": false,
     "frameEventList": [],
     "effectList": [],
@@ -2669,10 +2671,10 @@
     "isYChange": false,
     "offsetYList": [],
     "speed_SN": 0,
+    "speedY_SN": 0,
     "keyFrameList": [],
     "isSetSortingOrder": false,
-    "sortingOrder": -50000,
-    "speedY_SN": 0
+    "sortingOrder": -50000
   },
   {
     "id": 10200365,
@@ -68631,15 +68633,15 @@
   },
   {
     "id": 10202109,
-    "idCN": "我方/05五星/亚莉奈/B",
+    "idCN": "我方/05五星/亚莉奈/B（短",
     "mod": "基础状态",
     "isInformalData": false,
     "actionLevel": "NormalSkill",
     "viewId": 11000144,
     "aniName": "skill_02",
     "isLoop": false,
-    "aniTime_SN": 27000,
-    "totalFrame": 162,
+    "aniTime_SN": 12167,
+    "totalFrame": 73,
     "customFrameTag": "",
     "frameChanged": false,
     "frameEventList": [
@@ -68664,8 +68666,8 @@
       {
         "frameEventId": 10501328,
         "hHalf_SN": 0,
-        "triggerFrame": 112,
-        "triggerTime_SN": 18667,
+        "triggerFrame": 22,
+        "triggerTime_SN": 3667,
         "wHalf_SN": 0,
         "x_SN": 4200,
         "y_SN": 15000
@@ -68673,8 +68675,8 @@
       {
         "frameEventId": 10501328,
         "hHalf_SN": 0,
-        "triggerFrame": 118,
-        "triggerTime_SN": 19667,
+        "triggerFrame": 28,
+        "triggerTime_SN": 4667,
         "wHalf_SN": 0,
         "x_SN": 4200,
         "y_SN": 15000
@@ -68682,8 +68684,8 @@
       {
         "frameEventId": 10501577,
         "hHalf_SN": 0,
-        "triggerFrame": 124,
-        "triggerTime_SN": 20667,
+        "triggerFrame": 34,
+        "triggerTime_SN": 5667,
         "wHalf_SN": 0,
         "x_SN": 4200,
         "y_SN": 15000
@@ -68755,8 +68757,8 @@
     "viewId": 11000144,
     "aniName": "preskl_03",
     "isLoop": false,
-    "aniTime_SN": 13333,
-    "totalFrame": 80,
+    "aniTime_SN": 4500,
+    "totalFrame": 27,
     "customFrameTag": "",
     "frameChanged": false,
     "frameEventList": [
@@ -68782,8 +68784,8 @@
         "effectId": 11103157,
         "offsetX": 0.0,
         "offsetY": 1.5,
-        "triggerFrame": 22,
-        "triggerTime_SN": 3667
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
       }
     ],
     "soundList": [
@@ -68792,8 +68794,8 @@
       },
       {
         "soundId": 30001786,
-        "triggerFrame": 25,
-        "triggerTime_SN": 4167
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
       }
     ],
     "isYChange": false,
@@ -68806,18 +68808,45 @@
   },
   {
     "id": 10202111,
-    "idCN": "我方/05五星/亚莉奈/S1",
+    "idCN": "我方/05五星/亚莉奈/S1（短",
     "mod": "基础状态",
     "isInformalData": false,
     "actionLevel": "SpecialSkill",
     "viewId": 11000144,
     "aniName": "skill_03",
     "isLoop": false,
-    "aniTime_SN": 53333,
-    "totalFrame": 320,
+    "aniTime_SN": 15167,
+    "totalFrame": 91,
     "customFrameTag": "",
     "frameChanged": false,
     "frameEventList": [
+      {
+        "frameEventId": 10500613,
+        "hHalf_SN": 0,
+        "triggerFrame": 26,
+        "triggerTime_SN": 4333,
+        "wHalf_SN": 0,
+        "x_SN": -45000,
+        "y_SN": 15200
+      },
+      {
+        "frameEventId": 10500613,
+        "hHalf_SN": 0,
+        "triggerFrame": 36,
+        "triggerTime_SN": 6000,
+        "wHalf_SN": 0,
+        "x_SN": -45000,
+        "y_SN": 15200
+      },
+      {
+        "frameEventId": 10500613,
+        "hHalf_SN": 0,
+        "triggerFrame": 53,
+        "triggerTime_SN": 8833,
+        "wHalf_SN": 0,
+        "x_SN": -39000,
+        "y_SN": 16400
+      },
       {
         "frameEventId": 10500614,
         "hHalf_SN": 0,
@@ -68828,19 +68857,37 @@
         "y_SN": 0
       },
       {
-        "frameEventId": 10500035,
+        "frameEventId": 10500612,
         "hHalf_SN": 0,
-        "triggerFrame": 65,
-        "triggerTime_SN": 10833,
+        "triggerFrame": 50,
+        "triggerTime_SN": 8333,
         "wHalf_SN": 0,
         "x_SN": 0,
         "y_SN": 0
       },
       {
-        "frameEventId": 10500612,
+        "frameEventId": 10501821,
         "hHalf_SN": 0,
-        "triggerFrame": 65,
-        "triggerTime_SN": 10833,
+        "triggerFrame": 50,
+        "triggerTime_SN": 8333,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501242,
+        "hHalf_SN": 0,
+        "triggerFrame": 50,
+        "triggerTime_SN": 8333,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501820,
+        "hHalf_SN": 0,
+        "triggerFrame": 50,
+        "triggerTime_SN": 8333,
         "wHalf_SN": 0,
         "x_SN": 0,
         "y_SN": 0
@@ -68848,92 +68895,20 @@
       {
         "frameEventId": 10500617,
         "hHalf_SN": 0,
-        "triggerFrame": 83,
-        "triggerTime_SN": 13833,
+        "triggerFrame": 60,
+        "triggerTime_SN": 10000,
         "wHalf_SN": 0,
         "x_SN": 0,
         "y_SN": 0
       },
       {
-        "frameEventId": 10500612,
+        "frameEventId": 10500035,
         "hHalf_SN": 0,
-        "triggerFrame": 83,
-        "triggerTime_SN": 13833,
+        "triggerFrame": 60,
+        "triggerTime_SN": 10000,
         "wHalf_SN": 0,
         "x_SN": 0,
         "y_SN": 0
-      },
-      {
-        "frameEventId": 10500612,
-        "hHalf_SN": 0,
-        "triggerFrame": 97,
-        "triggerTime_SN": 16167,
-        "wHalf_SN": 0,
-        "x_SN": 0,
-        "y_SN": 0
-      },
-      {
-        "frameEventId": 10500612,
-        "hHalf_SN": 0,
-        "triggerFrame": 117,
-        "triggerTime_SN": 19500,
-        "wHalf_SN": 0,
-        "x_SN": 0,
-        "y_SN": 0
-      },
-      {
-        "frameEventId": 10500612,
-        "hHalf_SN": 0,
-        "triggerFrame": 130,
-        "triggerTime_SN": 21667,
-        "wHalf_SN": 0,
-        "x_SN": 0,
-        "y_SN": 0
-      },
-      {
-        "frameEventId": 10500612,
-        "hHalf_SN": 0,
-        "triggerFrame": 155,
-        "triggerTime_SN": 25833,
-        "wHalf_SN": 0,
-        "x_SN": 0,
-        "y_SN": 0
-      },
-      {
-        "frameEventId": 10500612,
-        "hHalf_SN": 0,
-        "triggerFrame": 177,
-        "triggerTime_SN": 29500,
-        "wHalf_SN": 0,
-        "x_SN": 0,
-        "y_SN": 0
-      },
-      {
-        "frameEventId": 10500613,
-        "hHalf_SN": 0,
-        "triggerFrame": 170,
-        "triggerTime_SN": 28333,
-        "wHalf_SN": 0,
-        "x_SN": -45000,
-        "y_SN": 15200
-      },
-      {
-        "frameEventId": 10500613,
-        "hHalf_SN": 0,
-        "triggerFrame": 180,
-        "triggerTime_SN": 30000,
-        "wHalf_SN": 0,
-        "x_SN": -45000,
-        "y_SN": 15200
-      },
-      {
-        "frameEventId": 10500613,
-        "hHalf_SN": 0,
-        "triggerFrame": 197,
-        "triggerTime_SN": 32833,
-        "wHalf_SN": 0,
-        "x_SN": -39000,
-        "y_SN": 16400
       }
     ],
     "effectList": [
@@ -68941,47 +68916,32 @@
         "effectId": 11104944,
         "offsetX": 0.0,
         "offsetY": 1.5,
-        "triggerFrame": 40,
-        "triggerTime_SN": 6667
+        "triggerFrame": 24,
+        "triggerTime_SN": 4000
       },
       {
         "effectId": 11105283,
         "offsetX": -3.5,
         "offsetY": 0.0,
-        "triggerFrame": 170,
-        "triggerTime_SN": 28333
+        "triggerFrame": 26,
+        "triggerTime_SN": 4333
       }
     ],
     "soundList": [
       {
-        "soundId": 30002755,
-        "triggerFrame": 45,
-        "triggerTime_SN": 7500
-      },
-      {
         "soundId": 30002756,
-        "triggerFrame": 150,
-        "triggerTime_SN": 25000
-      },
-      {
-        "soundId": 30002757,
-        "triggerFrame": 70,
-        "triggerTime_SN": 11667
-      },
-      {
-        "soundId": 30002758,
-        "triggerFrame": 145,
-        "triggerTime_SN": 24167
-      },
-      {
-        "soundId": 30002759,
-        "triggerFrame": 120,
-        "triggerTime_SN": 20000
+        "triggerFrame": 6,
+        "triggerTime_SN": 1000
       },
       {
         "soundId": 30002760,
         "triggerFrame": 40,
         "triggerTime_SN": 6667
+      },
+      {
+        "soundId": 30002755,
+        "triggerFrame": 45,
+        "triggerTime_SN": 7500
       }
     ],
     "isYChange": false,
@@ -74576,11 +74536,20 @@
         "y_SN": 0
       },
       {
-        "frameEventId": 10500318,
+        "frameEventId": 10502132,
         "hHalf_SN": 10000,
         "triggerFrame": 84,
         "triggerTime_SN": 14000,
         "wHalf_SN": 240000,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10500318,
+        "hHalf_SN": 0,
+        "triggerFrame": 84,
+        "triggerTime_SN": 14000,
+        "wHalf_SN": 0,
         "x_SN": 0,
         "y_SN": 0
       }
@@ -90919,15 +90888,6 @@
         "wHalf_SN": 20000,
         "x_SN": 20000,
         "y_SN": 10000
-      },
-      {
-        "frameEventId": 10501821,
-        "hHalf_SN": 0,
-        "triggerFrame": 44,
-        "triggerTime_SN": 7333,
-        "wHalf_SN": 0,
-        "x_SN": 0,
-        "y_SN": 0
       }
     ],
     "effectList": [
@@ -90973,7 +90933,7 @@
   },
   {
     "id": 10201374,
-    "idCN": "我方/05五星/索玛/bsB-1",
+    "idCN": "我方/05五星/索玛/bsB",
     "mod": "基础状态",
     "isInformalData": false,
     "actionLevel": "NormalSkill",
@@ -91002,15 +90962,6 @@
         "wHalf_SN": 40000,
         "x_SN": 40000,
         "y_SN": 10000
-      },
-      {
-        "frameEventId": 10501242,
-        "hHalf_SN": 0,
-        "triggerFrame": 1,
-        "triggerTime_SN": 0,
-        "wHalf_SN": 0,
-        "x_SN": 0,
-        "y_SN": 0
       }
     ],
     "effectList": [
@@ -91092,7 +91043,7 @@
   },
   {
     "id": 10201375,
-    "idCN": "我方/05五星/索玛/B-0",
+    "idCN": "我方/05五星/索玛/S-0",
     "mod": "基础状态",
     "isInformalData": false,
     "actionLevel": "NormalSkill",
@@ -91164,7 +91115,7 @@
   },
   {
     "id": 10201376,
-    "idCN": "我方/05五星/索玛/S0",
+    "idCN": "我方/05五星/索玛/S-1_00",
     "mod": "基础状态",
     "isInformalData": false,
     "actionLevel": "SpecialSkill",
@@ -91234,7 +91185,7 @@
   },
   {
     "id": 10201377,
-    "idCN": "我方/05五星/索玛/S1",
+    "idCN": "我方/05五星/索玛/S-1_01",
     "mod": "基础状态",
     "isInformalData": false,
     "actionLevel": "SpecialSkill",
@@ -91642,15 +91593,6 @@
         "wHalf_SN": 40000,
         "x_SN": 40000,
         "y_SN": 10000
-      },
-      {
-        "frameEventId": 10501242,
-        "hHalf_SN": 0,
-        "triggerFrame": 1,
-        "triggerTime_SN": 0,
-        "wHalf_SN": 0,
-        "x_SN": 0,
-        "y_SN": 0
       }
     ],
     "effectList": [
@@ -91696,7 +91638,7 @@
   },
   {
     "id": 10201393,
-    "idCN": "我方/05五星/索玛/bsS0",
+    "idCN": "我方/05五星/索玛/bsS-1_00",
     "mod": "基础状态",
     "isInformalData": false,
     "actionLevel": "NormalSkill",
@@ -91764,7 +91706,7 @@
   },
   {
     "id": 10201394,
-    "idCN": "我方/05五星/索玛/bsS1",
+    "idCN": "我方/05五星/索玛/bsS-1_01",
     "mod": "基础状态",
     "isInformalData": false,
     "actionLevel": "NormalSkill",
@@ -132594,35 +132536,35 @@
   },
   {
     "id": 10202944,
-    "idCN": "我方/05五星/索玛/B-0共振1",
+    "idCN": "我方/05五星/索玛/B",
     "mod": "基础状态",
     "isInformalData": false,
     "actionLevel": "NormalSkill",
     "viewId": 11000014,
-    "aniName": "skill_02",
+    "aniName": "BS_skill_02",
     "isLoop": false,
-    "aniTime_SN": 22167,
-    "totalFrame": 133,
+    "aniTime_SN": 15833,
+    "totalFrame": 95,
     "customFrameTag": "",
     "frameChanged": false,
     "frameEventList": [
       {
-        "frameEventId": 10500302,
+        "frameEventId": 10500182,
         "hHalf_SN": 0,
-        "triggerFrame": 1,
-        "triggerTime_SN": 0,
+        "triggerFrame": 30,
+        "triggerTime_SN": 5000,
         "wHalf_SN": 0,
         "x_SN": 0,
         "y_SN": 0
       },
       {
-        "frameEventId": 10501820,
-        "hHalf_SN": 0,
-        "triggerFrame": 40,
-        "triggerTime_SN": 6667,
-        "wHalf_SN": 0,
-        "x_SN": 0,
-        "y_SN": 0
+        "frameEventId": 10501784,
+        "hHalf_SN": 10000,
+        "triggerFrame": 30,
+        "triggerTime_SN": 5000,
+        "wHalf_SN": 40000,
+        "x_SN": 40000,
+        "y_SN": 10000
       }
     ],
     "effectList": [
@@ -132630,30 +132572,68 @@
         "effectId": 11100114
       },
       {
-        "effectId": 11100195,
-        "offsetX": 0.0,
-        "offsetY": 0.0,
-        "triggerFrame": 40,
-        "triggerTime_SN": 6667
+        "effectId": 11104058
       },
       {
-        "effectId": 11100198,
+        "effectId": 11101340,
         "offsetX": 0.0,
         "offsetY": 0.0,
-        "triggerFrame": 40,
-        "triggerTime_SN": 6667
+        "triggerFrame": 10,
+        "triggerTime_SN": 1667
       },
       {
-        "effectId": 11104057,
+        "effectId": 11104059,
+        "offsetX": 1.0,
+        "offsetY": 0.0,
+        "triggerFrame": 25,
+        "triggerTime_SN": 4167
+      },
+      {
+        "effectId": 11100215,
         "offsetX": 0.0,
         "offsetY": 0.0,
-        "triggerFrame": 40,
-        "triggerTime_SN": 6667
+        "triggerFrame": 25,
+        "triggerTime_SN": 4167
+      },
+      {
+        "effectId": 11100216,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 25,
+        "triggerTime_SN": 4167
+      },
+      {
+        "effectId": 11104062,
+        "offsetX": 2.2,
+        "offsetY": 1.3,
+        "triggerFrame": 25,
+        "triggerTime_SN": 4167
+      },
+      {
+        "effectId": 11104061,
+        "offsetX": 2.2,
+        "offsetY": 1.6,
+        "triggerFrame": 25,
+        "triggerTime_SN": 4167
+      },
+      {
+        "effectId": 11105375,
+        "offsetX": 2.2,
+        "offsetY": 1.6,
+        "triggerFrame": 25,
+        "triggerTime_SN": 4167
+      },
+      {
+        "effectId": 11104056,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 30,
+        "triggerTime_SN": 5000
       }
     ],
     "soundList": [
       {
-        "soundId": 30003460
+        "soundId": 30003257
       }
     ],
     "isYChange": false,
@@ -155228,6 +155208,1410 @@
     "frameEventList": [],
     "effectList": [],
     "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203462,
+    "idCN": "爬塔/桦树生物/尘鸣游鳞/技能2_3",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "NormalSkill",
+    "viewId": 11000246,
+    "aniName": "skill_02_03",
+    "isLoop": false,
+    "aniTime_SN": 10000,
+    "totalFrame": 60,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10501683,
+        "hHalf_SN": 0,
+        "triggerFrame": 50,
+        "triggerTime_SN": 8333,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      }
+    ],
+    "effectList": [],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203463,
+    "idCN": "爬塔/人形单位/荒原王/普攻",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "NormalAttack",
+    "viewId": 11000102,
+    "aniName": "attack_01",
+    "isLoop": false,
+    "aniTime_SN": 11666,
+    "totalFrame": 70,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10502130,
+        "hHalf_SN": 20000,
+        "triggerFrame": 34,
+        "triggerTime_SN": 6000,
+        "wHalf_SN": 20000,
+        "x_SN": 40000,
+        "y_SN": 10000
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11101243,
+        "offsetX": 2.31,
+        "offsetY": 2.34,
+        "triggerFrame": 32,
+        "triggerTime_SN": 7180
+      }
+    ],
+    "soundList": [
+      {
+        "soundId": 30000629,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      }
+    ],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203464,
+    "idCN": "爬塔/人形单位/荒原王/普攻2",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "NormalAttack",
+    "viewId": 11000102,
+    "aniName": "attack_02",
+    "isLoop": false,
+    "aniTime_SN": 11666,
+    "totalFrame": 70,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10502131,
+        "hHalf_SN": 20000,
+        "triggerFrame": 30,
+        "triggerTime_SN": 5167,
+        "wHalf_SN": 30000,
+        "x_SN": 50000,
+        "y_SN": 10000
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11101245,
+        "offsetX": 2.81,
+        "offsetY": 2.59,
+        "triggerFrame": 30,
+        "triggerTime_SN": 5000
+      }
+    ],
+    "soundList": [
+      {
+        "soundId": 30000629,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      }
+    ],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203472,
+    "idCN": "爬塔/机械单位/金子小姐/技能2",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "NormalSkill",
+    "viewId": 11000184,
+    "aniName": "skill_02",
+    "isLoop": false,
+    "aniTime_SN": 55000,
+    "totalFrame": 330,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10501587,
+        "hHalf_SN": 0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501468,
+        "hHalf_SN": 15000,
+        "triggerFrame": 65,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 120000,
+        "x_SN": 120000,
+        "y_SN": 15000
+      },
+      {
+        "frameEventId": 10501469,
+        "hHalf_SN": 0,
+        "triggerFrame": 65,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501469,
+        "hHalf_SN": 0,
+        "triggerFrame": 65,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501470,
+        "hHalf_SN": 0,
+        "triggerFrame": 260,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10500069,
+        "hHalf_SN": 0,
+        "triggerFrame": 329,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11103478,
+        "offsetX": 1.5,
+        "offsetY": 1.8,
+        "triggerFrame": 62,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11103479,
+        "offsetX": 1.0,
+        "offsetY": 2.4,
+        "triggerFrame": 260,
+        "triggerTime_SN": 0
+      }
+    ],
+    "soundList": [
+      {
+        "soundId": 30000814,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      }
+    ],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203474,
+    "idCN": "爬塔/机械单位/蝎型机械体/技能2状态2",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "SpecialSkill",
+    "viewId": 11000046,
+    "aniName": "skill_02_02",
+    "isLoop": false,
+    "aniTime_SN": 21667,
+    "totalFrame": 130,
+    "customFrameTag": "",
+    "frameChanged": true,
+    "frameEventList": [
+      {
+        "frameEventId": 10502133,
+        "hHalf_SN": 0,
+        "triggerFrame": 4,
+        "triggerTime_SN": 667,
+        "wHalf_SN": 0,
+        "x_SN": -26199,
+        "y_SN": 54700
+      },
+      {
+        "frameEventId": 10502133,
+        "hHalf_SN": 0,
+        "triggerFrame": 18,
+        "triggerTime_SN": 3005,
+        "wHalf_SN": 0,
+        "x_SN": -24998,
+        "y_SN": 53099
+      },
+      {
+        "frameEventId": 10502133,
+        "hHalf_SN": 0,
+        "triggerFrame": 32,
+        "triggerTime_SN": 5343,
+        "wHalf_SN": 0,
+        "x_SN": -23799,
+        "y_SN": 51600
+      },
+      {
+        "frameEventId": 10502133,
+        "hHalf_SN": 0,
+        "triggerFrame": 46,
+        "triggerTime_SN": 7681,
+        "wHalf_SN": 0,
+        "x_SN": -27999,
+        "y_SN": 54500
+      },
+      {
+        "frameEventId": 10502133,
+        "hHalf_SN": 0,
+        "triggerFrame": 60,
+        "triggerTime_SN": 10019,
+        "wHalf_SN": 0,
+        "x_SN": -26999,
+        "y_SN": 53000
+      },
+      {
+        "frameEventId": 10502133,
+        "hHalf_SN": 0,
+        "triggerFrame": 74,
+        "triggerTime_SN": 12357,
+        "wHalf_SN": 0,
+        "x_SN": -25599,
+        "y_SN": 51400
+      },
+      {
+        "frameEventId": 10502133,
+        "hHalf_SN": 0,
+        "triggerFrame": 88,
+        "triggerTime_SN": 14695,
+        "wHalf_SN": 0,
+        "x_SN": -29799,
+        "y_SN": 54500
+      },
+      {
+        "frameEventId": 10502133,
+        "hHalf_SN": 0,
+        "triggerFrame": 102,
+        "triggerTime_SN": 17033,
+        "wHalf_SN": 0,
+        "x_SN": -28799,
+        "y_SN": 53099
+      },
+      {
+        "frameEventId": 10502133,
+        "hHalf_SN": 0,
+        "triggerFrame": 116,
+        "triggerTime_SN": 19371,
+        "wHalf_SN": 0,
+        "x_SN": -27599,
+        "y_SN": 51300
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11100324,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11101506,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      }
+    ],
+    "soundList": [
+      {
+        "soundId": 30000578,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      }
+    ],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203475,
+    "idCN": "爬塔/机械单位/蝎型机械体/技能2状态1",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "SpecialSkill",
+    "viewId": 11000046,
+    "aniName": "skill_02_01",
+    "isLoop": false,
+    "aniTime_SN": 18666,
+    "totalFrame": 112,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [],
+    "effectList": [
+      {
+        "effectId": 11100322,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      }
+    ],
+    "soundList": [
+      {
+        "soundId": 30000592,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      }
+    ],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203476,
+    "idCN": "爬塔/机械单位/蝎型机械体/技能2状态3",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "SpecialSkill",
+    "viewId": 11000046,
+    "aniName": "skill_02_03",
+    "isLoop": false,
+    "aniTime_SN": 6666,
+    "totalFrame": 40,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [],
+    "effectList": [],
+    "soundList": [
+      {
+        "soundId": 30000591,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      }
+    ],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203479,
+    "idCN": "爬塔/机械单位/蝎型机械体/技能1",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "NormalSkill",
+    "viewId": 11000046,
+    "aniName": "skill_01_01",
+    "isLoop": false,
+    "aniTime_SN": 26666,
+    "totalFrame": 160,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10500201,
+        "hHalf_SN": 10100,
+        "triggerFrame": 81,
+        "triggerTime_SN": 13526,
+        "wHalf_SN": 37500,
+        "x_SN": 26000,
+        "y_SN": 10100
+      },
+      {
+        "frameEventId": 10502134,
+        "hHalf_SN": 0,
+        "triggerFrame": 159,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11100320,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 80,
+        "triggerTime_SN": 13359
+      },
+      {
+        "effectId": 11101500,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 80,
+        "triggerTime_SN": 13333
+      }
+    ],
+    "soundList": [
+      {
+        "soundId": 30000576,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      },
+      {
+        "soundId": 30000593,
+        "triggerFrame": 80,
+        "triggerTime_SN": 0
+      }
+    ],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203480,
+    "idCN": "爬塔/机械单位/蝎型机械体/技能3不屈",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "NormalSkill",
+    "viewId": 11000046,
+    "aniName": "skill_01_02",
+    "isLoop": false,
+    "aniTime_SN": 40000,
+    "totalFrame": 240,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10500202,
+        "hHalf_SN": 12100,
+        "triggerFrame": 125,
+        "triggerTime_SN": 20874,
+        "wHalf_SN": 50000,
+        "x_SN": 18500,
+        "y_SN": 11800
+      },
+      {
+        "frameEventId": 10502134,
+        "hHalf_SN": 0,
+        "triggerFrame": 239,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11100321,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 125,
+        "triggerTime_SN": 20874
+      },
+      {
+        "effectId": 11101499,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 125,
+        "triggerTime_SN": 20833
+      }
+    ],
+    "soundList": [
+      {
+        "soundId": 30000577,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      },
+      {
+        "soundId": 30000595,
+        "triggerFrame": 125,
+        "triggerTime_SN": 0
+      }
+    ],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203481,
+    "idCN": "爬塔/机械单位/蝎型机械体/技能4-2",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "System",
+    "viewId": 11000046,
+    "aniName": "anime02_02",
+    "isLoop": false,
+    "aniTime_SN": 53333,
+    "totalFrame": 320,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10500310,
+        "hHalf_SN": 0,
+        "triggerFrame": 199,
+        "triggerTime_SN": 33167,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10500310,
+        "hHalf_SN": 0,
+        "triggerFrame": 219,
+        "triggerTime_SN": 36500,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10500310,
+        "hHalf_SN": 0,
+        "triggerFrame": 179,
+        "triggerTime_SN": 29833,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10500310,
+        "hHalf_SN": 0,
+        "triggerFrame": 189,
+        "triggerTime_SN": 31500,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10500310,
+        "hHalf_SN": 0,
+        "triggerFrame": 209,
+        "triggerTime_SN": 34833,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10500310,
+        "hHalf_SN": 0,
+        "triggerFrame": 155,
+        "triggerTime_SN": 25833,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10500310,
+        "hHalf_SN": 0,
+        "triggerFrame": 165,
+        "triggerTime_SN": 27500,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10500310,
+        "hHalf_SN": 0,
+        "triggerFrame": 170,
+        "triggerTime_SN": 28333,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10500310,
+        "hHalf_SN": 0,
+        "triggerFrame": 195,
+        "triggerTime_SN": 32500,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10500310,
+        "hHalf_SN": 0,
+        "triggerFrame": 204,
+        "triggerTime_SN": 34000,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10500310,
+        "hHalf_SN": 0,
+        "triggerFrame": 185,
+        "triggerTime_SN": 30833,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10500955,
+        "hHalf_SN": 20000,
+        "triggerFrame": 162,
+        "triggerTime_SN": 27000,
+        "wHalf_SN": 20000,
+        "x_SN": 60000,
+        "y_SN": 20000
+      },
+      {
+        "frameEventId": 10500955,
+        "hHalf_SN": 20000,
+        "triggerFrame": 168,
+        "triggerTime_SN": 28000,
+        "wHalf_SN": 20000,
+        "x_SN": 70000,
+        "y_SN": 20000
+      },
+      {
+        "frameEventId": 10500955,
+        "hHalf_SN": 20000,
+        "triggerFrame": 174,
+        "triggerTime_SN": 29000,
+        "wHalf_SN": 20000,
+        "x_SN": 80000,
+        "y_SN": 20000
+      },
+      {
+        "frameEventId": 10500955,
+        "hHalf_SN": 20000,
+        "triggerFrame": 180,
+        "triggerTime_SN": 30000,
+        "wHalf_SN": 20000,
+        "x_SN": 90000,
+        "y_SN": 20000
+      },
+      {
+        "frameEventId": 10500955,
+        "hHalf_SN": 20000,
+        "triggerFrame": 186,
+        "triggerTime_SN": 31000,
+        "wHalf_SN": 20000,
+        "x_SN": 100000,
+        "y_SN": 20000
+      },
+      {
+        "frameEventId": 10500955,
+        "hHalf_SN": 20000,
+        "triggerFrame": 192,
+        "triggerTime_SN": 32000,
+        "wHalf_SN": 20000,
+        "x_SN": 110000,
+        "y_SN": 20000
+      },
+      {
+        "frameEventId": 10500955,
+        "hHalf_SN": 20000,
+        "triggerFrame": 198,
+        "triggerTime_SN": 33000,
+        "wHalf_SN": 20000,
+        "x_SN": 120000,
+        "y_SN": 20000
+      },
+      {
+        "frameEventId": 10500955,
+        "hHalf_SN": 20000,
+        "triggerFrame": 204,
+        "triggerTime_SN": 34000,
+        "wHalf_SN": 20000,
+        "x_SN": 130000,
+        "y_SN": 20000
+      },
+      {
+        "frameEventId": 10502134,
+        "hHalf_SN": 0,
+        "triggerFrame": 319,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11100344,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11100829,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 164,
+        "triggerTime_SN": 27333
+      },
+      {
+        "effectId": 11100115,
+        "offsetX": 6.0,
+        "offsetY": 0.0,
+        "triggerFrame": 160,
+        "triggerTime_SN": 26667
+      },
+      {
+        "effectId": 11100339,
+        "offsetX": 6.0,
+        "offsetY": 0.0,
+        "triggerFrame": 160,
+        "triggerTime_SN": 26667
+      },
+      {
+        "effectId": 11100115,
+        "offsetX": 7.0,
+        "offsetY": 0.0,
+        "triggerFrame": 166,
+        "triggerTime_SN": 27667
+      },
+      {
+        "effectId": 11100339,
+        "offsetX": 7.0,
+        "offsetY": 0.0,
+        "triggerFrame": 166,
+        "triggerTime_SN": 27667
+      },
+      {
+        "effectId": 11100115,
+        "offsetX": 8.0,
+        "offsetY": 0.0,
+        "triggerFrame": 172,
+        "triggerTime_SN": 28667
+      },
+      {
+        "effectId": 11100339,
+        "offsetX": 8.0,
+        "offsetY": 0.0,
+        "triggerFrame": 172,
+        "triggerTime_SN": 28667
+      },
+      {
+        "effectId": 11100115,
+        "offsetX": 9.0,
+        "offsetY": 0.0,
+        "triggerFrame": 178,
+        "triggerTime_SN": 29667
+      },
+      {
+        "effectId": 11100339,
+        "offsetX": 9.0,
+        "offsetY": 0.0,
+        "triggerFrame": 178,
+        "triggerTime_SN": 29667
+      },
+      {
+        "effectId": 11100115,
+        "offsetX": 10.0,
+        "offsetY": 0.0,
+        "triggerFrame": 184,
+        "triggerTime_SN": 30667
+      },
+      {
+        "effectId": 11100339,
+        "offsetX": 10.0,
+        "offsetY": 0.0,
+        "triggerFrame": 184,
+        "triggerTime_SN": 30667
+      },
+      {
+        "effectId": 11100116,
+        "offsetX": 11.0,
+        "offsetY": 0.0,
+        "triggerFrame": 190,
+        "triggerTime_SN": 31667
+      },
+      {
+        "effectId": 11100343,
+        "offsetX": 11.0,
+        "offsetY": 0.0,
+        "triggerFrame": 190,
+        "triggerTime_SN": 31667
+      },
+      {
+        "effectId": 11100115,
+        "offsetX": 12.0,
+        "offsetY": 0.0,
+        "triggerFrame": 196,
+        "triggerTime_SN": 32667
+      },
+      {
+        "effectId": 11100339,
+        "offsetX": 12.0,
+        "offsetY": 0.0,
+        "triggerFrame": 196,
+        "triggerTime_SN": 32667
+      },
+      {
+        "effectId": 11100116,
+        "offsetX": 13.0,
+        "offsetY": 0.0,
+        "triggerFrame": 202,
+        "triggerTime_SN": 33667
+      },
+      {
+        "effectId": 11100343,
+        "offsetX": 13.0,
+        "offsetY": 0.0,
+        "triggerFrame": 202,
+        "triggerTime_SN": 33667
+      }
+    ],
+    "soundList": [
+      {
+        "soundId": 30000014,
+        "triggerFrame": 130,
+        "triggerTime_SN": 0
+      }
+    ],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203482,
+    "idCN": "爬塔/机械单位/蝎型机械体/增幅3技能2状态3",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "SpecialSkill",
+    "viewId": 11000046,
+    "aniName": "skill_02_03",
+    "isLoop": false,
+    "aniTime_SN": 6666,
+    "totalFrame": 40,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10502134,
+        "hHalf_SN": 0,
+        "triggerFrame": 39,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      }
+    ],
+    "effectList": [],
+    "soundList": [
+      {
+        "soundId": 30000591,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      }
+    ],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203471,
+    "idCN": "我方/05五星/索玛/衔接_狂暴姿态结束",
+    "mod": "过渡状态",
+    "isInformalData": false,
+    "actionLevel": "System",
+    "viewId": 11000014,
+    "aniName": "BS_return",
+    "isLoop": false,
+    "aniTime_SN": 15167,
+    "totalFrame": 91,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [],
+    "effectList": [],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0,
+    "previousActionList": [
+      {
+        "actionID": 10101239
+      },
+      {
+        "actionID": 10101143
+      },
+      {
+        "actionID": 10102634
+      },
+      {
+        "actionID": 10101240
+      },
+      {
+        "actionID": 10101245
+      },
+      {
+        "actionID": 10101238
+      },
+      {
+        "actionID": 10102589
+      },
+      {
+        "actionID": 10101241
+      },
+      {
+        "actionID": 10101242
+      },
+      {
+        "actionID": 10101243
+      },
+      {
+        "actionID": 10101246
+      },
+      {
+        "actionID": 10103043
+      }
+    ]
+  },
+  {
+    "id": 10203477,
+    "idCN": "我方/05五星/索玛/bsS-0",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "NormalSkill",
+    "viewId": 11000014,
+    "aniName": "skill_02",
+    "isLoop": false,
+    "aniTime_SN": 22167,
+    "totalFrame": 133,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10500302,
+        "hHalf_SN": 0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10500450,
+        "hHalf_SN": 0,
+        "triggerFrame": 40,
+        "triggerTime_SN": 6667,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11100114
+      },
+      {
+        "effectId": 11100195,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 40,
+        "triggerTime_SN": 6667
+      },
+      {
+        "effectId": 11100198,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 40,
+        "triggerTime_SN": 6667
+      },
+      {
+        "effectId": 11104057,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 40,
+        "triggerTime_SN": 6667
+      }
+    ],
+    "soundList": [
+      {
+        "soundId": 30003460
+      }
+    ],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203478,
+    "idCN": "我方/05五星/索玛/bs移动",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "Move",
+    "viewId": 11000014,
+    "aniName": "run",
+    "isLoop": false,
+    "aniTime_SN": 10833,
+    "totalFrame": 65,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [],
+    "effectList": [],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 1000,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203483,
+    "idCN": "我方/05五星/亚莉奈/S1",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "SpecialSkill",
+    "viewId": 11000144,
+    "aniName": "skill_03",
+    "isLoop": false,
+    "aniTime_SN": 53500,
+    "totalFrame": 321,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10500614,
+        "hHalf_SN": 0,
+        "triggerFrame": 50,
+        "triggerTime_SN": 8333,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10500035,
+        "hHalf_SN": 0,
+        "triggerFrame": 65,
+        "triggerTime_SN": 10833,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501822,
+        "hHalf_SN": 0,
+        "triggerFrame": 65,
+        "triggerTime_SN": 10833,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10500617,
+        "hHalf_SN": 0,
+        "triggerFrame": 83,
+        "triggerTime_SN": 13833,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501822,
+        "hHalf_SN": 0,
+        "triggerFrame": 83,
+        "triggerTime_SN": 13833,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501822,
+        "hHalf_SN": 0,
+        "triggerFrame": 97,
+        "triggerTime_SN": 16167,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501822,
+        "hHalf_SN": 0,
+        "triggerFrame": 117,
+        "triggerTime_SN": 19500,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501822,
+        "hHalf_SN": 0,
+        "triggerFrame": 130,
+        "triggerTime_SN": 21667,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501822,
+        "hHalf_SN": 0,
+        "triggerFrame": 155,
+        "triggerTime_SN": 25833,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501822,
+        "hHalf_SN": 0,
+        "triggerFrame": 177,
+        "triggerTime_SN": 29500,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10500613,
+        "hHalf_SN": 0,
+        "triggerFrame": 170,
+        "triggerTime_SN": 28333,
+        "wHalf_SN": 0,
+        "x_SN": -45000,
+        "y_SN": 15200
+      },
+      {
+        "frameEventId": 10500613,
+        "hHalf_SN": 0,
+        "triggerFrame": 180,
+        "triggerTime_SN": 30000,
+        "wHalf_SN": 0,
+        "x_SN": -45000,
+        "y_SN": 15200
+      },
+      {
+        "frameEventId": 10500613,
+        "hHalf_SN": 0,
+        "triggerFrame": 197,
+        "triggerTime_SN": 32833,
+        "wHalf_SN": 0,
+        "x_SN": -39000,
+        "y_SN": 16400
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11104944,
+        "offsetX": 0.0,
+        "offsetY": 1.5,
+        "triggerFrame": 40,
+        "triggerTime_SN": 6667
+      },
+      {
+        "effectId": 11105283,
+        "offsetX": -3.5,
+        "offsetY": 0.0,
+        "triggerFrame": 170,
+        "triggerTime_SN": 28333
+      }
+    ],
+    "soundList": [
+      {
+        "soundId": 30002755,
+        "triggerFrame": 45,
+        "triggerTime_SN": 7500
+      },
+      {
+        "soundId": 30002756,
+        "triggerFrame": 150,
+        "triggerTime_SN": 25000
+      },
+      {
+        "soundId": 30002757,
+        "triggerFrame": 70,
+        "triggerTime_SN": 11667
+      },
+      {
+        "soundId": 30002758,
+        "triggerFrame": 145,
+        "triggerTime_SN": 24167
+      },
+      {
+        "soundId": 30002759,
+        "triggerFrame": 120,
+        "triggerTime_SN": 20000
+      },
+      {
+        "soundId": 30002760,
+        "triggerFrame": 40,
+        "triggerTime_SN": 6667
+      }
+    ],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203485,
+    "idCN": "我方/05五星/亚莉奈/B",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "NormalSkill",
+    "viewId": 11000144,
+    "aniName": "skill_02",
+    "isLoop": false,
+    "aniTime_SN": 27167,
+    "totalFrame": 163,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10501317,
+        "hHalf_SN": 0,
+        "triggerFrame": 0,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501250,
+        "hHalf_SN": 0,
+        "triggerFrame": 46,
+        "triggerTime_SN": 7667,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501328,
+        "hHalf_SN": 0,
+        "triggerFrame": 112,
+        "triggerTime_SN": 18667,
+        "wHalf_SN": 0,
+        "x_SN": 4200,
+        "y_SN": 15000
+      },
+      {
+        "frameEventId": 10501328,
+        "hHalf_SN": 0,
+        "triggerFrame": 118,
+        "triggerTime_SN": 19667,
+        "wHalf_SN": 0,
+        "x_SN": 4200,
+        "y_SN": 15000
+      },
+      {
+        "frameEventId": 10501577,
+        "hHalf_SN": 0,
+        "triggerFrame": 124,
+        "triggerTime_SN": 20667,
+        "wHalf_SN": 0,
+        "x_SN": 4200,
+        "y_SN": 15000
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11103132,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 0,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11104715,
+        "offsetX": 0.0,
+        "offsetY": 1.5,
+        "triggerFrame": 0,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11103089,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 6,
+        "triggerTime_SN": 1000
+      },
+      {
+        "effectId": 11104707,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 6,
+        "triggerTime_SN": 1000
+      },
+      {
+        "effectId": 11103105,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 112,
+        "triggerTime_SN": 18667
+      }
+    ],
+    "soundList": [
+      {
+        "soundId": 30001784,
+        "triggerFrame": 14,
+        "triggerTime_SN": 3000
+      },
+      {
+        "soundId": 30001785,
+        "triggerFrame": 126,
+        "triggerTime_SN": 4000
+      }
+    ],
     "isYChange": false,
     "offsetYList": [],
     "speed_SN": 0,

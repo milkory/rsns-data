@@ -109,7 +109,7 @@
     "mod": "治安中心",
     "isInformalData": false,
     "name": "朱利安",
-    "spineUrl": "Spine/Portrait/LH_Julian/LH_Julian_SkeletonData",
+    "spineUrl": "Spine/Dialogue/LH_Julian_dialogue/LH_Julian_dialogue_SkeletonData",
     "spineOffsetX": 76.0,
     "spineOffsetY": -1180.0,
     "spineScale": 1.0,
@@ -2704,7 +2704,7 @@
     "mod": "治安中心",
     "isInformalData": false,
     "name": "甘雅",
-    "spineUrl": "Spine/Portrait/LH_Ganya/LH_Ganya_SkeletonData",
+    "spineUrl": "Spine/Dialogue/LH_Ganya_dialogue/LH_Ganya_dialogue_SkeletonData",
     "spineOffsetX": 101.0,
     "spineOffsetY": -1136.0,
     "spineScale": 1.0,
@@ -4914,10 +4914,10 @@
     "mod": "作战中心",
     "isInformalData": false,
     "name": "妮蔻拉",
-    "spineUrl": "Spine/Portrait/LH_Nicola/LH_Nicola_SkeletonData",
-    "spineOffsetX": 150.0,
-    "spineOffsetY": -1225.0,
-    "spineScale": 1.0,
+    "spineUrl": "Spine/Dialogue/LH_Nicola_dialogue/LH_Nicola_dialogue_SkeletonData",
+    "spineOffsetX": 110.0,
+    "spineOffsetY": -1450.0,
+    "spineScale": 1.2,
     "resUrl": "",
     "offsetX": 160.0,
     "offsetY": -459.0,
@@ -6028,10 +6028,10 @@
     "mod": "兑换站",
     "isInformalData": false,
     "name": "多萝西",
-    "spineUrl": "Spine/Portrait/LH_Dorothy/LH_Dorothy_SkeletonData",
+    "spineUrl": "Spine/Dialogue/LH_Dorothy_dialogue/LH_Dorothy_dialogue_SkeletonData",
     "spineOffsetX": 50.0,
     "spineOffsetY": -1200.0,
-    "spineScale": 1.0,
+    "spineScale": 0.5,
     "resUrl": "",
     "offsetX": 160.0,
     "offsetY": -220.0,
@@ -6096,6 +6096,8 @@
     ],
     "UseItem": [],
     "ItemText": [],
+    "tabOrderText": [],
+    "orderSuccessText": [],
     "enterExchangeText": [
       {
         "id": 80602358,
@@ -6379,7 +6381,7 @@
     "mod": "兑换站",
     "isInformalData": false,
     "name": "约书亚",
-    "spineUrl": "Spine/Portrait/LH_Joshua/LH_Joshua_SkeletonData",
+    "spineUrl": "Spine/Dialogue/LH_Joshua_dialogue/LH_Joshua_dialogue_SkeletonData",
     "spineOffsetX": 122.0,
     "spineOffsetY": -1158.0,
     "spineScale": 1.0,
@@ -6422,6 +6424,8 @@
     ],
     "UseItem": [],
     "ItemText": [],
+    "tabOrderText": [],
+    "orderSuccessText": [],
     "enterExchangeText": [
       {
         "id": 80602121,
@@ -7002,7 +7006,7 @@
     "mod": "兑换站",
     "isInformalData": false,
     "name": "卡洛琳",
-    "spineUrl": "Spine/Portrait/LH_Caroline/LH_Caroline_SkeletonData",
+    "spineUrl": "Spine/Dialogue/LH_Caroline_dialogue/LH_Caroline_dialogue_SkeletonData",
     "spineOffsetX": 50.0,
     "spineOffsetY": -1200.0,
     "spineScale": 1.0,
@@ -7045,6 +7049,8 @@
     ],
     "UseItem": [],
     "ItemText": [],
+    "tabOrderText": [],
+    "orderSuccessText": [],
     "enterExchangeText": [
       {
         "id": 80602373,
@@ -8952,6 +8958,22 @@
         "reputation": 0,
         "startTime": "",
         "weight": 10
+      },
+      {
+        "activityId": -1,
+        "endTime": "",
+        "id": 80607139,
+        "reputation": 0,
+        "startTime": "",
+        "weight": 10
+      },
+      {
+        "activityId": -1,
+        "endTime": "",
+        "id": 80606968,
+        "reputation": 0,
+        "startTime": "",
+        "weight": 10
       }
     ],
     "UseItem": [],
@@ -9066,7 +9088,7 @@
     "mod": "兑换站",
     "isInformalData": false,
     "name": "星花",
-    "spineUrl": "Spine/Portrait/LH_Stella/LH_Stella_SkeletonData",
+    "spineUrl": "Spine/Dialogue/LH_Stella_dialogue/LH_Stella_dialogue_SkeletonData",
     "spineOffsetX": 27.0,
     "spineOffsetY": -1230.0,
     "spineScale": 1.0,
@@ -9222,13 +9244,13 @@
     "mod": "活动",
     "isInformalData": false,
     "name": "摩尔",
-    "spineUrl": "Spine/NPC/LH_Watcher/LH_Watcher_SkeletonData",
+    "spineUrl": "",
     "spineOffsetX": 50.0,
     "spineOffsetY": -840.0,
     "spineScale": 0.8,
-    "resUrl": "",
-    "offsetX": 92.0,
-    "offsetY": -190.0,
+    "resUrl": "NPC/Activity/Watcher",
+    "offsetX": 55.0,
+    "offsetY": -455.0,
     "enterText": [
       {
         "activityId": -1,
@@ -9305,5 +9327,23 @@
         "weight": 10
       }
     ]
+  },
+  {
+    "id": 83700030,
+    "idCN": "活动/游戏促销节-富子",
+    "mod": "活动",
+    "isInformalData": false,
+    "name": "富子",
+    "spineUrl": "Spine/NPC/LH_Fuzi/LH_Fuzi_SkeletonData",
+    "spineOffsetX": -59.0,
+    "spineOffsetY": -517.0,
+    "spineScale": 0.8,
+    "resUrl": "",
+    "offsetX": 92.0,
+    "offsetY": -190.0,
+    "enterText": [],
+    "talkText": [],
+    "UseItem": [],
+    "ItemText": []
   }
 ]

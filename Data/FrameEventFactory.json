@@ -10155,7 +10155,7 @@
   },
   {
     "id": 10500450,
-    "idCN": "我方/05五星/索玛/B-0",
+    "idCN": "我方/05五星/索玛/S-0强化",
     "mod": "给自己上BUFF",
     "isInformalData": false,
     "buffId": 10402392
@@ -12044,11 +12044,31 @@
   },
   {
     "id": 10500612,
-    "idCN": "我方/05五星/亚莉奈/S伤害",
-    "mod": "添加Buff",
+    "idCN": "我方/05五星/亚莉奈/S伤害7段",
+    "mod": "子弹事件",
     "isInformalData": false,
-    "buffId": 10405807,
-    "targetType": "CurrentTarget"
+    "buffId": 10404632,
+    "bulletId": 11200055,
+    "targetType": "CurrentTarget",
+    "offSetX_SN": 0,
+    "offSetZ_SN": 0,
+    "isUseTargetFilter": false,
+    "targetFilterType": "Ally",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 0,
+    "attributeType": "HpMax",
+    "condition": "Max",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 0
   },
   {
     "id": 10500613,
@@ -17210,7 +17230,7 @@
   },
   {
     "id": 10501783,
-    "idCN": "我方/05五星/索玛/A斩裂",
+    "idCN": "我方/05五星/索玛/A攻击事件",
     "mod": "攻击事件",
     "isInformalData": false,
     "buffId": 10405641,
@@ -17218,7 +17238,7 @@
   },
   {
     "id": 10501784,
-    "idCN": "我方/05五星/索玛/B-1",
+    "idCN": "我方/05五星/索玛/B攻击事件",
     "mod": "攻击事件",
     "isInformalData": false,
     "buffId": 10405642,
@@ -17226,7 +17246,7 @@
   },
   {
     "id": 10501785,
-    "idCN": "我方/05五星/索玛/S禁锢",
+    "idCN": "我方/05五星/索玛/S-1禁锢",
     "mod": "攻击事件",
     "isInformalData": false,
     "buffId": 10405643,
@@ -17718,32 +17738,10 @@
   },
   {
     "id": 10501819,
-    "idCN": "我方/05五星/索玛/S吸血",
+    "idCN": "我方/05五星/索玛/S-1吸血",
     "mod": "攻击事件",
     "isInformalData": false,
     "buffId": 10408774,
-    "hitSoundID": -1
-  },
-  {
-    "id": 10501820,
-    "idCN": "我方/05五星/索玛/共振1B-0",
-    "mod": "给自己上BUFF",
-    "isInformalData": false,
-    "buffId": 10408777
-  },
-  {
-    "id": 10501821,
-    "idCN": "我方/05五星/索玛/共振5判断触发半径2",
-    "mod": "给自己上BUFF",
-    "isInformalData": false,
-    "buffId": 10408795
-  },
-  {
-    "id": 10501822,
-    "idCN": "我方/05五星/索玛/共振5攻击",
-    "mod": "攻击事件",
-    "isInformalData": false,
-    "buffId": 10408790,
     "hitSoundID": -1
   },
   {
@@ -19845,13 +19843,6 @@
     "targetType": "CurrentTarget"
   },
   {
-    "id": 10501242,
-    "idCN": "我方/05五星/索玛/共振5判断触发半径4",
-    "mod": "给自己上BUFF",
-    "isInformalData": false,
-    "buffId": 10409496
-  },
-  {
     "id": 10501896,
     "idCN": "我方/05五星/柯娜/S-0加攻防",
     "mod": "添加Buff",
@@ -21852,10 +21843,10 @@
   },
   {
     "id": 10500182,
-    "idCN": "我方/05五星/索玛/B-1扣自身血量",
+    "idCN": "我方/05五星/索玛/B扣除生命值",
     "mod": "给自己上BUFF",
     "isInformalData": false,
-    "buffId": 10410125
+    "buffId": 10402362
   },
   {
     "id": 10500565,
@@ -21866,11 +21857,10 @@
   },
   {
     "id": 10500318,
-    "idCN": "我方/05五星/达斯廷/S燃爆",
-    "mod": "攻击事件",
+    "idCN": "我方/05五星/达斯廷/S燃爆结算炽地燎原",
+    "mod": "给自己上BUFF",
     "isInformalData": false,
-    "buffId": 10406359,
-    "hitSoundID": -1
+    "buffId": 10406359
   },
   {
     "id": 10501463,
@@ -22616,5 +22606,163 @@
     "mod": "给自己上BUFF",
     "isInformalData": false,
     "buffId": 10410381
+  },
+  {
+    "id": 10501683,
+    "idCN": "爬塔/桦树生物/尘鸣游鳞/技能2",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10410439
+  },
+  {
+    "id": 10502130,
+    "idCN": "爬塔/人形单位/荒原王/普攻",
+    "mod": "攻击事件",
+    "isInformalData": false,
+    "buffId": 10406682,
+    "hitSoundID": -1
+  },
+  {
+    "id": 10502131,
+    "idCN": "爬塔/人形单位/荒原王/普攻2",
+    "mod": "攻击事件",
+    "isInformalData": false,
+    "buffId": 10406683,
+    "hitSoundID": -1
+  },
+  {
+    "id": 10502132,
+    "idCN": "我方/05五星/达斯廷/S燃爆结算点燃",
+    "mod": "攻击事件",
+    "isInformalData": false,
+    "buffId": 10410467,
+    "hitSoundID": -1
+  },
+  {
+    "id": 10501242,
+    "idCN": "我方/05五星/亚莉奈/S音效命中4斧子裂地后撤",
+    "mod": "子弹事件",
+    "isInformalData": false,
+    "buffId": 10402148,
+    "bulletId": 11200445,
+    "targetType": "CurrentTarget",
+    "offSetX_SN": 0,
+    "offSetZ_SN": 0,
+    "isUseTargetFilter": false,
+    "targetFilterType": "Ally",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 0,
+    "attributeType": "HpMax",
+    "condition": "Max",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 0
+  },
+  {
+    "id": 10501820,
+    "idCN": "我方/05五星/亚莉奈/S音效命中6斧子上捞后撤",
+    "mod": "子弹事件",
+    "isInformalData": false,
+    "buffId": 10403481,
+    "bulletId": 11200446,
+    "targetType": "CurrentTarget",
+    "offSetX_SN": 0,
+    "offSetZ_SN": 0,
+    "isUseTargetFilter": false,
+    "targetFilterType": "Ally",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 0,
+    "attributeType": "HpMax",
+    "condition": "Max",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 0
+  },
+  {
+    "id": 10501821,
+    "idCN": "我方/05五星/亚莉奈/S音效命中3斧子落地加二连",
+    "mod": "子弹事件",
+    "isInformalData": false,
+    "buffId": 10403620,
+    "bulletId": 11200444,
+    "targetType": "CurrentTarget",
+    "offSetX_SN": 0,
+    "offSetZ_SN": 0,
+    "isUseTargetFilter": false,
+    "targetFilterType": "Ally",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 0,
+    "attributeType": "HpMax",
+    "condition": "Max",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 0
+  },
+  {
+    "id": 10502134,
+    "idCN": "爬塔/机械单位/蝎型机械体/增幅3",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10410490
+  },
+  {
+    "id": 10502133,
+    "idCN": "爬塔/机械单位/蝎型机械体/技能2",
+    "mod": "子弹事件",
+    "isInformalData": false,
+    "buffId": 10410486,
+    "bulletId": 11200061,
+    "targetType": "Random",
+    "offSetX_SN": 0,
+    "offSetZ_SN": 0,
+    "isUseTargetFilter": false,
+    "targetFilterType": "Ally",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 0,
+    "attributeType": "HpMax",
+    "condition": "Max",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 0
+  },
+  {
+    "id": 10501822,
+    "idCN": "我方/05五星/亚莉奈/S伤害1段",
+    "mod": "添加Buff",
+    "isInformalData": false,
+    "buffId": 10404632,
+    "targetType": "CurrentTarget"
   }
 ]

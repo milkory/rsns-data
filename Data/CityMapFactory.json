@@ -816,13 +816,18 @@
       },
       {
         "id": 86400127,
-        "x": -136.0,
-        "y": -267.0
+        "x": -132.0,
+        "y": -326.0
       },
       {
         "id": 86400128,
         "x": -158.0,
         "y": 18.0
+      },
+      {
+        "id": 86400212,
+        "x": -348.0,
+        "y": 75.0
       },
       {
         "id": 86400006,
@@ -831,43 +836,38 @@
       },
       {
         "id": 86400012,
-        "x": -578.0,
-        "y": 69.0
+        "x": 262.0,
+        "y": -165.0
       },
       {
         "id": 86400198,
-        "x": -578.0,
-        "y": 69.0
+        "x": 262.0,
+        "y": -165.0
       },
       {
         "id": 86400206,
-        "x": -578.0,
-        "y": 69.0
+        "x": 262.0,
+        "y": -165.0
       },
       {
         "id": 86400207,
-        "x": -470.0,
-        "y": 178.0
+        "x": 431.0,
+        "y": -255.0
       },
       {
         "id": 86400016,
-        "x": -578.0,
-        "y": 69.0
+        "x": 262.0,
+        "y": -165.0
       },
       {
         "id": 86400208,
-        "x": 242.0,
-        "y": -230.0
+        "x": 431.0,
+        "y": -255.0
       },
       {
         "id": 86400209,
-        "x": 242.0,
-        "y": -230.0
-      },
-      {
-        "id": 86400210,
-        "x": -348.0,
-        "y": 75.0
+        "x": 431.0,
+        "y": -255.0
       }
     ],
     "isShowRep": true,
@@ -4197,7 +4197,13 @@
     "activityId": -1,
     "startTime": "",
     "endTime": "",
-    "displayConditionsList": [],
+    "displayConditionsList": [
+      {
+        "condition": "NoQuesting",
+        "mId": 81000209,
+        "val": 0
+      }
+    ],
     "unlockConditionsList": [
       {
         "condition": "REPLV",
@@ -4278,7 +4284,7 @@
     "dungeonId": -1,
     "levelId": -1,
     "textId": -1,
-    "npcId": 83700014,
+    "npcId": 83700038,
     "bgPath": "UI/Dialog/Back/RestArea",
     "bgColor": "FFFFFF"
   },
@@ -4814,7 +4820,7 @@
     "name": "数据库",
     "isSpecial": false,
     "isInstance": true,
-    "iconPath": "NPC/InsZone/dixia",
+    "iconPath": "NPC/Story/SJK",
     "nameIconPath": "UI/CityMap/citymap_icon_battlezone",
     "effectPath": "UI/UIEffect/particle/UI_city/UI_dungeonBtn_01/UI_dungeonBtn_04_1",
     "animLoop": "UI_CityBtn_01_Loop",
@@ -7631,7 +7637,7 @@
     "idCN": "03气泡/C4澄明数据中心S0/澄明异闻奇谈/EV2-3",
     "mod": "气泡",
     "isInformalData": false,
-    "name": "瓦伦汀",
+    "name": "知识集市",
     "isSpecial": false,
     "isInstance": false,
     "iconPath": "RolePlus/Valentine/Face",
@@ -7639,7 +7645,7 @@
     "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
     "animLoop": "UI_CityBtn_01_Loop",
     "animOut": "UI_CityBtn_01_Out",
-    "activityId": -1,
+    "activityId": 86000009,
     "startTime": "",
     "endTime": "",
     "displayConditionsList": [
@@ -7673,12 +7679,12 @@
     "name": "公寓外围",
     "isSpecial": false,
     "isInstance": false,
-    "iconPath": "NPC/InsZone/blacktea",
+    "iconPath": "NPC/Story/YJGY",
     "nameIconPath": "",
     "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
     "animLoop": "UI_CityBtn_01_Loop",
     "animOut": "UI_CityBtn_01_Out",
-    "activityId": -1,
+    "activityId": 86000009,
     "startTime": "",
     "endTime": "",
     "displayConditionsList": [
@@ -7709,15 +7715,15 @@
     "idCN": "03气泡/C4澄明数据中心S0/澄明异闻奇谈/EV2-5",
     "mod": "气泡",
     "isInformalData": false,
-    "name": "达斯廷",
+    "name": "莉薇娅",
     "isSpecial": false,
     "isInstance": false,
-    "iconPath": "RolePlus/Dustin/Face",
+    "iconPath": "RolePlus/Livia/Face",
     "nameIconPath": "",
     "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
     "animLoop": "UI_CityBtn_01_Loop",
     "animOut": "UI_CityBtn_01_Out",
-    "activityId": -1,
+    "activityId": 86000009,
     "startTime": "",
     "endTime": "",
     "displayConditionsList": [
@@ -7756,7 +7762,7 @@
     "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
     "animLoop": "UI_CityBtn_01_Loop",
     "animOut": "UI_CityBtn_01_Out",
-    "activityId": -1,
+    "activityId": 86000009,
     "startTime": "",
     "endTime": "",
     "displayConditionsList": [
@@ -7789,13 +7795,13 @@
     "isInformalData": false,
     "name": "远见公寓",
     "isSpecial": false,
-    "isInstance": false,
-    "iconPath": "NPC/InsZone/blacktea",
+    "isInstance": true,
+    "iconPath": "NPC/Story/YJGY",
     "nameIconPath": "UI/CityMap/citymap_icon_battlezone",
-    "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
+    "effectPath": "UI/UIEffect/particle/UI_city/UI_dungeonBtn_01/UI_dungeonBtn_04_1",
     "animLoop": "UI_CityBtn_01_Loop",
     "animOut": "UI_CityBtn_01_Out",
-    "activityId": -1,
+    "activityId": 86000009,
     "startTime": "",
     "endTime": "",
     "displayConditionsList": [
@@ -7814,7 +7820,7 @@
     "buildingId": -1,
     "stationPlace": -1,
     "dialogId": -1,
-    "dungeonId": 20200006,
+    "dungeonId": 20200004,
     "levelId": -1,
     "textId": -1,
     "npcId": -1,
@@ -7829,12 +7835,12 @@
     "name": "公寓外围",
     "isSpecial": false,
     "isInstance": false,
-    "iconPath": "NPC/InsZone/blacktea",
+    "iconPath": "NPC/Story/YJGY",
     "nameIconPath": "",
     "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
     "animLoop": "UI_CityBtn_01_Loop",
     "animOut": "UI_CityBtn_01_Out",
-    "activityId": -1,
+    "activityId": 86000009,
     "startTime": "",
     "endTime": "",
     "displayConditionsList": [
@@ -7868,12 +7874,12 @@
     "name": "数据库入口",
     "isSpecial": false,
     "isInstance": false,
-    "iconPath": "NPC/InsZone/blacktea",
+    "iconPath": "NPC/Story/YJGY",
     "nameIconPath": "UI/CityMap/citymap_icon_battlezone",
     "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
     "animLoop": "UI_CityBtn_01_Loop",
     "animOut": "UI_CityBtn_01_Out",
-    "activityId": -1,
+    "activityId": 86000009,
     "startTime": "",
     "endTime": "",
     "displayConditionsList": [
@@ -7907,12 +7913,12 @@
     "name": "永生者“莉薇娅”",
     "isSpecial": false,
     "isInstance": false,
-    "iconPath": "RolePlus/Livia/Face",
+    "iconPath": "NPC/Story/Livia_Boss",
     "nameIconPath": "UI/CityMap/citymap_icon_battlezone",
     "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
     "animLoop": "UI_CityBtn_01_Loop",
     "animOut": "UI_CityBtn_01_Out",
-    "activityId": -1,
+    "activityId": 86000009,
     "startTime": "",
     "endTime": "",
     "displayConditionsList": [
@@ -7933,45 +7939,6 @@
     "dialogId": -1,
     "dungeonId": -1,
     "levelId": 20100796,
-    "textId": -1,
-    "npcId": -1,
-    "bgPath": "",
-    "bgColor": "FFFFFF"
-  },
-  {
-    "id": 86400210,
-    "idCN": "03气泡/C4澄明数据中心S0/澄明异闻奇谈/EV2-18",
-    "mod": "气泡",
-    "isInformalData": false,
-    "name": "索玛",
-    "isSpecial": false,
-    "isInstance": false,
-    "iconPath": "RolePlus/Sommer/Face",
-    "nameIconPath": "",
-    "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
-    "animLoop": "UI_CityBtn_01_Loop",
-    "animOut": "UI_CityBtn_01_Out",
-    "activityId": -1,
-    "startTime": "",
-    "endTime": "",
-    "displayConditionsList": [
-      {
-        "condition": "Questing",
-        "mId": 81000218,
-        "val": 0
-      }
-    ],
-    "unlockConditionsList": [],
-    "isLock": false,
-    "func": "OpenDialog",
-    "btnType": "Other",
-    "mId": -1,
-    "uiPath": "",
-    "buildingId": -1,
-    "stationPlace": -1,
-    "dialogId": 20700382,
-    "dungeonId": -1,
-    "levelId": -1,
     "textId": -1,
     "npcId": -1,
     "bgPath": "",
@@ -8013,6 +7980,45 @@
     "levelId": -1,
     "textId": -1,
     "npcId": 83700043,
+    "bgPath": "",
+    "bgColor": "FFFFFF"
+  },
+  {
+    "id": 86400212,
+    "idCN": "03气泡/C4澄明数据中心S0/澄明异闻奇谈/EV2-2",
+    "mod": "气泡",
+    "isInformalData": false,
+    "name": "摩尔",
+    "isSpecial": false,
+    "isInstance": false,
+    "iconPath": "NPC/CMSJZX/CityHall",
+    "nameIconPath": "",
+    "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
+    "animLoop": "UI_CityBtn_01_Loop",
+    "animOut": "UI_CityBtn_01_Out",
+    "activityId": 86000009,
+    "startTime": "",
+    "endTime": "",
+    "displayConditionsList": [
+      {
+        "condition": "Questing",
+        "mId": 81000209,
+        "val": 0
+      }
+    ],
+    "unlockConditionsList": [],
+    "isLock": false,
+    "func": "OpenDialog",
+    "btnType": "Other",
+    "mId": -1,
+    "uiPath": "",
+    "buildingId": -1,
+    "stationPlace": -1,
+    "dialogId": 20700366,
+    "dungeonId": -1,
+    "levelId": -1,
+    "textId": -1,
+    "npcId": -1,
     "bgPath": "",
     "bgColor": "FFFFFF"
   }
