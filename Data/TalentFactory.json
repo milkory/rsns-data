@@ -2021,10 +2021,14 @@
     "path": "RolePlus\\00Gift\\Square\\YuXue",
     "attriDetialList": [],
     "attributeList": [],
-    "tempdesc": "【血噬】增强为：\\n献祭当前生命值的#r，释放内心的猛兽，使武器【巨噬斧】的攻击范围增大\\n自身攻击力和防御力+15%，可叠加\\n同时生成3张【暗艺】加入手牌\\n使用后【血噬】转化为【血吼】",
+    "tempdesc": "使用【血噬】后，生成1张【暗艺】加入手牌\\n同时使自身攻击力和防御力+13%，上限39%",
     "desc": "【血噬】增强为：\\n献祭当前生命值的#r，释放内心的猛兽，使武器【巨噬斧】的攻击范围增大\\n自身攻击力和防御力+15%，可叠加\\n同时生成3张【暗艺】加入手牌\\n使用后【血噬】转化为【血吼】",
     "awakeLv": 2,
-    "skillList": [],
+    "skillList": [
+      {
+        "skillId": 12301620
+      }
+    ],
     "skillChangeList": [],
     "skillParamOffsetList": [],
     "name": "浴血"
@@ -2040,7 +2044,11 @@
     "tempdesc": "生命值低于50%时，受到的最终伤害降低10%\\n生命值低于20%时，受到的最终伤害降低20%",
     "desc": "生命值低于50%时，受到的最终伤害降低10%\\n生命值低于20%时，受到的最终伤害降低20%",
     "awakeLv": 3,
-    "skillList": [],
+    "skillList": [
+      {
+        "skillId": 12300135
+      }
+    ],
     "skillChangeList": [],
     "skillParamOffsetList": [],
     "name": "底力"
@@ -2069,19 +2077,23 @@
   },
   {
     "id": 12800129,
-    "idCN": "00原版/05五星/索玛/共振4-熟练",
+    "idCN": "00原版/05五星/索玛/共振4-灵犀",
     "mod": "基础天赋",
     "isInformalData": false,
-    "path": "RolePlus\\00Gift\\Square\\ShuLian",
+    "path": "RolePlus\\00Gift\\Square\\LingXi",
     "attriDetialList": [],
     "attributeList": [],
-    "tempdesc": "【血噬】所需费用变为0",
-    "desc": "【血噬】所需费用变为0",
+    "tempdesc": "开局的前5张手牌中，必有1张【血噬】\\n若自身为队长时，则开局可直接使用队长技能",
+    "desc": "开局的前5张手牌中，必有1张【血噬】\\n若自身为队长时，则开局可直接使用队长技能",
     "awakeLv": 5,
-    "skillList": [],
+    "skillList": [
+      {
+        "skillId": 12300358
+      }
+    ],
     "skillChangeList": [],
     "skillParamOffsetList": [],
-    "name": "熟练"
+    "name": "灵犀"
   },
   {
     "id": 12800130,
@@ -4673,10 +4685,14 @@
     "path": "RolePlus\\00Gift\\Golden\\JingJiShiYue",
     "attriDetialList": [],
     "attributeList": [],
-    "tempdesc": "生命值低于50%时，使用【血牙】和【血吼】后，释放黑荆棘吸取敌方生命值",
-    "desc": "生命值低于50%时，使用【血牙】和【血吼】后，释放黑荆棘吸取敌方生命值",
+    "tempdesc": "濒死时，释放黑荆棘吸取敌方生命值，限3次",
+    "desc": "濒死时，释放黑荆棘吸取敌方生命值，限3次",
     "awakeLv": 6,
-    "skillList": [],
+    "skillList": [
+      {
+        "skillId": 12300228
+      }
+    ],
     "skillChangeList": [],
     "skillParamOffsetList": [],
     "name": "荆棘誓约"
