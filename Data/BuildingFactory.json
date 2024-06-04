@@ -952,6 +952,7 @@
     "mod": "兑换站",
     "isInformalData": false,
     "name": "",
+    "buildingIconPath": "",
     "firstPlotId": -1,
     "uiPath": "UI/ExchangeStation/ExchangeStation",
     "bgPath": "UI/Dialog/Back/street-day2",
@@ -961,6 +962,8 @@
     "favorability": false,
     "helpId": -1,
     "rankId": -1,
+    "correspondingActivity": -1,
+    "eventList": [],
     "playerLevel": 0,
     "exchangeOpenPageList": [
       {
@@ -983,6 +986,7 @@
         "id": 40300017
       }
     ],
+    "exchangeWeaponList": [],
     "isShowConstruct": false,
     "isShowReputation": false,
     "exchangeName": "交换清单",
@@ -991,7 +995,16 @@
     "pagePath": "UI/HomeBattleCenter/Exchange/di_heiyue",
     "bottomPath": "UI/HomeBattleCenter/Exchange/di_group_heiyue",
     "exchangeAffirmPath": "UI/HomeBattleCenter/Exchange/btn_exchange_xuehui",
-    "exchangeCompletePath": "UI/HomeBattleCenter/Exchange/btn_complete_xuehui"
+    "exchangeCompletePath": "UI/HomeBattleCenter/Exchange/btn_complete_xuehui",
+    "orderNumMax": 6,
+    "orderNumMin": 4,
+    "activityOrderList": [],
+    "orderTitle": -1,
+    "orderDes": -1,
+    "orderBgPath": "",
+    "levelIconPath": "",
+    "buildLevelName": -1,
+    "constructionLevelList": []
   },
   {
     "id": 84400018,
@@ -1091,6 +1104,7 @@
     "mod": "兑换站",
     "isInformalData": false,
     "name": "",
+    "buildingIconPath": "",
     "firstPlotId": -1,
     "uiPath": "UI/ExchangeStation/ExchangeStation",
     "bgPath": "UI/Dialog/Back/Anita_Office",
@@ -1100,6 +1114,8 @@
     "favorability": false,
     "helpId": -1,
     "rankId": -1,
+    "correspondingActivity": -1,
+    "eventList": [],
     "playerLevel": 0,
     "exchangeOpenPageList": [
       {
@@ -1127,12 +1143,21 @@
     "isShowConstruct": false,
     "isShowReputation": false,
     "exchangeName": "赴命奖章兑换",
-    "buildingPath": "UI/ExchangeStation/icon_exchange_heiyue",
+    "buildingPath": "UI/Home/HomeSafe/icon_safe",
     "exchangePath": "UI/HomeBattleCenter/Exchange/icon_tiemeng",
     "pagePath": "UI/HomeBattleCenter/Exchange/di_tiemeng",
     "bottomPath": "UI/HomeBattleCenter/Exchange/di_group_tiemeng",
     "exchangeAffirmPath": "UI/HomeBattleCenter/Exchange/btn_exchange_tiemeng",
-    "exchangeCompletePath": "UI/HomeBattleCenter/Exchange/btn_complete_xuehui"
+    "exchangeCompletePath": "UI/HomeBattleCenter/Exchange/btn_complete_xuehui",
+    "orderNumMax": 6,
+    "orderNumMin": 4,
+    "activityOrderList": [],
+    "orderTitle": -1,
+    "orderDes": -1,
+    "orderBgPath": "",
+    "levelIconPath": "",
+    "buildLevelName": -1,
+    "constructionLevelList": []
   },
   {
     "id": 84400022,
@@ -1140,6 +1165,7 @@
     "mod": "兑换站",
     "isInformalData": false,
     "name": "铁安局",
+    "buildingIconPath": "",
     "firstPlotId": -1,
     "uiPath": "UI/ExchangeStation/ExchangeStation",
     "bgPath": "",
@@ -1149,14 +1175,17 @@
     "favorability": false,
     "helpId": -1,
     "rankId": -1,
+    "correspondingActivity": -1,
+    "eventList": [],
     "playerLevel": 20,
     "exchangeOpenPageList": [
       {
         "icon": "UI/HomeBattleCenter/icon_exchange",
         "isStore": true,
         "isTalk": false,
-        "name": "交换",
-        "showUI": "Group_Exchange"
+        "name": "赴命奖章兑换",
+        "showUI": "Group_Exchange",
+        "uiPath": ""
       },
       {
         "icon": "UI/Home/HomeSafe/jiaotan",
@@ -1180,7 +1209,16 @@
     "pagePath": "UI/HomeBattleCenter/Exchange/di_tiemeng",
     "bottomPath": "UI/HomeBattleCenter/Exchange/di_group_tiemeng",
     "exchangeAffirmPath": "UI/HomeBattleCenter/Exchange/btn_exchange_1",
-    "exchangeCompletePath": "UI/HomeBattleCenter/Exchange/btn_complete_xuehui"
+    "exchangeCompletePath": "UI/HomeBattleCenter/Exchange/btn_complete_xuehui",
+    "orderNumMax": 6,
+    "orderNumMin": 4,
+    "activityOrderList": [],
+    "orderTitle": -1,
+    "orderDes": -1,
+    "orderBgPath": "",
+    "levelIconPath": "",
+    "buildLevelName": -1,
+    "constructionLevelList": []
   },
   {
     "id": 84400023,
@@ -1188,6 +1226,7 @@
     "mod": "兑换站",
     "isInformalData": false,
     "name": "商会",
+    "buildingIconPath": "",
     "firstPlotId": -1,
     "uiPath": "UI/ExchangeStation/ExchangeStation",
     "bgPath": "",
@@ -1197,14 +1236,17 @@
     "favorability": false,
     "helpId": -1,
     "rankId": -1,
+    "correspondingActivity": -1,
+    "eventList": [],
     "playerLevel": 0,
     "exchangeOpenPageList": [
       {
         "icon": "UI/HomeBattleCenter/icon_exchange",
         "isStore": true,
         "isTalk": false,
-        "name": "交换",
-        "showUI": "Group_Exchange"
+        "name": "里程点数兑换",
+        "showUI": "Group_Exchange",
+        "uiPath": ""
       },
       {
         "icon": "UI/Home/HomeSafe/jiaotan",
@@ -1228,7 +1270,16 @@
     "pagePath": "UI/HomeBattleCenter/Exchange/di_coc",
     "bottomPath": "UI/HomeBattleCenter/Exchange/di_group_coc",
     "exchangeAffirmPath": "UI/HomeBattleCenter/Exchange/btn_exchange_xuehui",
-    "exchangeCompletePath": "UI/HomeBattleCenter/Exchange/btn_complete_xuehui"
+    "exchangeCompletePath": "UI/HomeBattleCenter/Exchange/btn_complete_xuehui",
+    "orderNumMax": 6,
+    "orderNumMin": 4,
+    "activityOrderList": [],
+    "orderTitle": -1,
+    "orderDes": -1,
+    "orderBgPath": "",
+    "levelIconPath": "",
+    "buildLevelName": -1,
+    "constructionLevelList": []
   },
   {
     "id": 84400003,
@@ -16589,6 +16640,67 @@
     "bottomPath": "UI/HomeBattleCenter/Exchange/di_group_xuehui",
     "exchangeAffirmPath": "UI/HomeBattleCenter/Exchange/btn_exchange_xuehui",
     "exchangeCompletePath": "UI/HomeBattleCenter/Exchange/btn_complete_xuehui",
+    "orderNumMax": 6,
+    "orderNumMin": 4,
+    "activityOrderList": [],
+    "orderTitle": -1,
+    "orderDes": -1,
+    "orderBgPath": "",
+    "levelIconPath": "",
+    "buildLevelName": -1,
+    "constructionLevelList": []
+  },
+  {
+    "id": 84400135,
+    "idCN": "兑换站/7号自由港-伊利亚德",
+    "mod": "兑换站",
+    "isInformalData": false,
+    "name": "",
+    "buildingIconPath": "",
+    "firstPlotId": -1,
+    "uiPath": "UI/ExchangeStation/ExchangeStation",
+    "bgPath": "UI/Dialog/Back2/Office_XES",
+    "bgColor": "FFFFFF",
+    "stationId": 83000020,
+    "npcId": 83700065,
+    "favorability": false,
+    "helpId": -1,
+    "rankId": -1,
+    "correspondingActivity": -1,
+    "eventList": [],
+    "playerLevel": 0,
+    "exchangeOpenPageList": [
+      {
+        "icon": "UI/HomeBattleCenter/icon_exchange",
+        "isStore": true,
+        "isTalk": false,
+        "name": "兑换计划",
+        "showUI": "Group_Exchange",
+        "uiPath": ""
+      },
+      {
+        "icon": "UI/Home/HomeSafe/jiaotan",
+        "isStore": false,
+        "isTalk": true,
+        "name": "交谈",
+        "showUI": ""
+      }
+    ],
+    "exchangeStoreList": [
+      {
+        "id": 40300064
+      }
+    ],
+    "exchangeWeaponList": [],
+    "isShowConstruct": false,
+    "isShowReputation": false,
+    "exchangeName": "形而上粒子研究所兑换计划",
+    "buildingPath": "UI/ExchangeStation/icon_exchange",
+    "exchangePath": "UI/HomeBattleCenter/Exchange/huangyuan_icon",
+    "pagePath": "UI/HomeBattleCenter/Exchange/di",
+    "bottomPath": "UI/HomeBattleCenter/Exchange/huangyuan_group_bg",
+    "exchangeAffirmPath": "UI/HomeBattleCenter/Exchange/exchange_can",
+    "exchangeCompletePath": "UI/HomeBattleCenter/Exchange/exchange_not",
     "orderNumMax": 6,
     "orderNumMin": 4,
     "activityOrderList": [],

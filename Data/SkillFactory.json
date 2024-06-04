@@ -5069,15 +5069,15 @@
     "name": "血牙",
     "iconPath": "RolePlus\\Sommer\\skillicon\\A",
     "attriDetialList": [],
-    "tempdescription": "巨力挥击，对面前范围内敌方造成1段伤害并【斩裂】\\n使用后，有50%概率生成1张【暗艺】加入手牌",
-    "description": "巨力挥击，对面前范围内敌方造成1段伤害并<color=#FF6666>【斩裂】</color>\\n使用后，有50%概率生成1张【暗艺】加入手牌",
+    "tempdescription": "巨力挥击，对面前范围内敌方造成1段伤害并【斩裂】，同时触发【击晕】和【崩坏】\\n同时从牌库或弃牌区将1张【血吼】加入手牌",
+    "description": "巨力挥击，对面前范围内敌方造成1段伤害并<color=#FF6666>【斩裂】</color>，同时触发<color=#FF6666>【击晕】</color>和<color=#FF6666>【崩坏】</color>\\n同时从牌库或弃牌区将1张【血吼】加入手牌",
     "levelUpDescription": "",
-    "tempdetailDescription": "伤害：3000%",
-    "detailDescription": "伤害：3000%",
+    "tempdetailDescription": "伤害：5000%",
+    "detailDescription": "伤害：5000%",
     "desParamList": [],
     "skillParamList": [
       {
-        "skillRateA_SN": 300000,
+        "skillRateA_SN": 500000,
         "skillRateB_SN": 0,
         "skillRateC_SN": 0,
         "skillRateD_SN": 0,
@@ -5106,11 +5106,7 @@
     "typeColor": "Orange",
     "CommonNum": 1.0,
     "floatNum": 1,
-    "ExSkillList": [
-      {
-        "ExSkillName": 12300420
-      }
-    ],
+    "ExSkillList": [],
     "specialTagList": []
   },
   {
@@ -5142,8 +5138,8 @@
         "leaderCardConditionFO": 10800059
       }
     ],
-    "templeaderCardConditionDesc": "冷却时间30秒，每次使用红卡，冷却缩短5秒；每次使用【暗艺】，冷却缩短10秒",
-    "leaderCardConditionDesc": "冷却时间30秒，每次使用红卡，冷却缩短5秒；每次使用【暗艺】，冷却缩短10秒",
+    "templeaderCardConditionDesc": "冷却时间30秒，每次使用红卡，冷却缩短5秒；每【销毁】1张【暗艺】，冷却缩短5秒",
+    "leaderCardConditionDesc": "冷却时间30秒，每次使用红卡，冷却缩短5秒；每【销毁】1张【暗艺】，冷却缩短5秒",
     "temptypeStr": "",
     "typeStr": "",
     "typeColor": "Orange",
@@ -5152,9 +5148,6 @@
     "ExSkillList": [
       {
         "ExSkillName": 12300093
-      },
-      {
-        "ExSkillName": 12300470
       }
     ],
     "specialTagList": []
@@ -5167,8 +5160,8 @@
     "name": "血吼",
     "iconPath": "RolePlus\\Sommer\\skillicon\\B-1",
     "attriDetialList": [],
-    "tempdescription": "献祭自身10%生命值，怒击地面，对面前范围内敌方造成1段伤害并【崩坏】\\n使用后，有50%概率生成1张【暗艺】加入手牌",
-    "description": "献祭自身10%生命值，怒击地面，对面前范围内敌方造成1段伤害并<color=#FF6666>【崩坏】</color>\\n使用后，有50%概率生成1张【暗艺】加入手牌",
+    "tempdescription": "献祭当前生命值的20%，怒击地面，对面前范围内敌方造成1段伤害并【斩裂】\\n使用后，有50%概率生成1张【暗艺】加入手牌",
+    "description": "献祭当前生命值的20%，怒击地面，对面前范围内敌方造成1段伤害并<color=#FF6666>【斩裂】</color>\\n使用后，有50%概率生成1张【暗艺】加入手牌",
     "levelUpDescription": "",
     "tempdetailDescription": "伤害：5000%",
     "detailDescription": "伤害：5000%",
@@ -5219,15 +5212,15 @@
     "name": "血之冠",
     "iconPath": "RolePlus\\Sommer\\skillicon\\S",
     "attriDetialList": [],
-    "tempdescription": "向目标区域全力一击，对范围内敌方造成1段伤害并【禁锢】\\n从血池涌出大量黑荆棘吸取敌方生命值\\n使用后，生成1张黑卡【负能】加入手牌\\n使用后【血之冠】转化为【血噬】",
-    "description": "向目标区域全力一击，对范围内敌方造成1段伤害并<color=#B383FF>【禁锢】</color>\\n从血池涌出大量黑荆棘吸取敌方生命值\\n使用后，生成1张黑卡【负能】加入手牌\\n使用后【血之冠】转化为【血噬】",
+    "tempdescription": "献祭当前生命值的50%，同时【销毁】手牌中所有的【暗艺】，向目标区域全力一击，对范围内敌方造成1段伤害并【斩裂】，每【销毁】1张【暗艺】伤害提高20%\\n从血池涌出大量黑荆棘吸取敌方生命值并【禁锢】\\n同时生成1张黑卡【负能】加入手牌\\n使用后【血之冠】转化为【血噬】",
+    "description": "献祭当前生命值的50%，同时【销毁】手牌中所有的【暗艺】，向目标区域全力一击，对范围内敌方造成1段伤害并<color=#FF6666>【斩裂】</color>，每【销毁】1张【暗艺】伤害提高20%\\n从血池涌出大量黑荆棘吸取敌方生命值并<color=#B383FF>【禁锢】</color>\\n同时生成1张黑卡【负能】加入手牌\\n使用后【血之冠】转化为【血噬】",
     "levelUpDescription": "",
-    "tempdetailDescription": "伤害：7000%×1；2000%×1",
-    "detailDescription": "伤害：7000%×1；2000%×1",
+    "tempdetailDescription": "伤害：6500%×1；2000%×1",
+    "detailDescription": "伤害：6500%×1；2000%×1",
     "desParamList": [],
     "skillParamList": [
       {
-        "skillRateA_SN": 700000,
+        "skillRateA_SN": 650000,
         "skillRateB_SN": 200000,
         "skillRateC_SN": 0,
         "skillRateD_SN": 0,
@@ -5253,14 +5246,18 @@
         "leaderCardConditionFO": 10800059
       }
     ],
-    "templeaderCardConditionDesc": "冷却时间30秒，每次使用红卡，冷却缩短5秒；每次使用【暗艺】，冷却缩短10秒",
-    "leaderCardConditionDesc": "冷却时间30秒，每次使用红卡，冷却缩短5秒；每次使用【暗艺】，冷却缩短10秒",
+    "templeaderCardConditionDesc": "冷却时间30秒，每次使用红卡，冷却缩短5秒；每【销毁】1张【暗艺】，冷却缩短5秒",
+    "leaderCardConditionDesc": "冷却时间30秒，每次使用红卡，冷却缩短5秒；每【销毁】1张【暗艺】，冷却缩短5秒",
     "temptypeStr": "",
     "typeStr": "",
     "typeColor": "Orange",
     "CommonNum": 1.0,
     "floatNum": 1,
-    "ExSkillList": [],
+    "ExSkillList": [
+      {
+        "ExSkillName": 12300470
+      }
+    ],
     "specialTagList": []
   },
   {
@@ -8043,8 +8040,8 @@
     "tempdescription": "献祭自身10%生命值，摇动【绯烬琉璃】，对范围内敌方造成1段伤害，同时触发【枷锁】和【炽地】\\n使用后，有#r概率生成1张【暗艺】加入手牌",
     "description": "献祭自身10%生命值，摇动【绯烬琉璃】，对范围内敌方造成1段伤害，同时触发<color=#B383FF>【枷锁】</color>和<color=#FF6666>【炽地】</color>\\n使用后，有#r概率生成1张【暗艺】加入手牌",
     "levelUpDescription": "",
-    "tempdetailDescription": "伤害：4000%",
-    "detailDescription": "伤害：4000%",
+    "tempdetailDescription": "伤害：5000%",
+    "detailDescription": "伤害：5000%",
     "desParamList": [
       {
         "isPercent": true,
@@ -8053,7 +8050,7 @@
     ],
     "skillParamList": [
       {
-        "skillRateA_SN": 400000,
+        "skillRateA_SN": 500000,
         "skillRateB_SN": 5000,
         "skillRateC_SN": 0,
         "skillRateD_SN": 0,
@@ -9621,7 +9618,7 @@
         "leaderCardConditionFO": 10800085
       }
     ],
-    "templeaderCardConditionDesc": "冷却时间30秒，每次使用带有<color=#7AB2FF>【冻结】</color>词条的卡牌，冷却缩短5秒",
+    "templeaderCardConditionDesc": "冷却时间30秒，每次使用带有【冻结】词条的卡牌，冷却缩短5秒",
     "leaderCardConditionDesc": "冷却时间30秒，每次使用带有<color=#7AB2FF>【冻结】</color>词条的卡牌，冷却缩短5秒",
     "temptypeStr": "",
     "typeStr": "",
@@ -14874,8 +14871,8 @@
     "tempdescription": "献祭自身10%生命值，摇动【绯烬琉璃】，对范围内敌方造成1段伤害，同时触发【枷锁】，【炽地】和【诅咒】\\n使用后，生成1张【暗艺】加入手牌",
     "description": "献祭自身10%生命值，摇动【绯烬琉璃】，对范围内敌方造成1段伤害，同时触发<color=#B383FF>【枷锁】</color>，<color=#FF6666>【炽地】</color>和<color=#B383FF>【诅咒】</color>\\n使用后，生成1张【暗艺】加入手牌",
     "levelUpDescription": "",
-    "tempdetailDescription": "伤害：4000%",
-    "detailDescription": "伤害：4000%",
+    "tempdetailDescription": "伤害：5000%",
+    "detailDescription": "伤害：5000%",
     "desParamList": [
       {
         "isPercent": true,
@@ -14884,7 +14881,7 @@
     ],
     "skillParamList": [
       {
-        "skillRateA_SN": 400000,
+        "skillRateA_SN": 500000,
         "skillRateB_SN": 0,
         "skillRateC_SN": 0,
         "skillRateD_SN": 0,
@@ -27043,14 +27040,11 @@
     "desParamList": [],
     "skillParamList": [],
     "attributeList": [],
-    "tagId": 12600593,
-    "tagFilterList": [
-      {
-        "tagId": 12600499
-      }
-    ],
+    "tagId": -1,
+    "tagRemoveList": [],
+    "tagFilterList": [],
     "tagFilterType": "Or",
-    "buffId": 10405949,
+    "buffId": 10410564,
     "temptypeStr": "",
     "typeStr": "",
     "typeColor": "Orange",
@@ -51922,7 +51916,7 @@
     "tagRemoveList": [],
     "tagFilterList": [],
     "tagFilterType": "Or",
-    "buffId": 10409612,
+    "buffId": 10410561,
     "temptypeStr": "",
     "typeStr": "",
     "typeColor": "Orange",
@@ -51955,7 +51949,7 @@
       }
     ],
     "tagFilterType": "Or",
-    "buffId": 10408811,
+    "buffId": 10410591,
     "temptypeStr": "",
     "typeStr": "",
     "typeColor": "Orange",
@@ -52028,7 +52022,7 @@
   },
   {
     "id": 12300228,
-    "idCN": "00原版/05五星/索玛/共振5-荆棘誓约",
+    "idCN": "00原版/05五星/索玛/共振1-荆棘誓约",
     "mod": "被动技能",
     "isInformalData": false,
     "name": "",
@@ -62488,7 +62482,7 @@
   },
   {
     "id": 12301620,
-    "idCN": "00原版/05五星/索玛/共振1-浴血",
+    "idCN": "00原版/05五星/索玛/共振5-浴血",
     "mod": "被动技能",
     "isInformalData": false,
     "name": "",
@@ -65553,6 +65547,122 @@
     "tagFilterList": [],
     "tagFilterType": "And",
     "buffId": 10410532,
+    "temptypeStr": "",
+    "typeStr": "",
+    "typeColor": "Orange",
+    "CommonNum": 1.0,
+    "floatNum": 1,
+    "ExSkillList": [],
+    "specialTagList": []
+  },
+  {
+    "id": 12301682,
+    "idCN": "13武装词条/磁气悬挂/磁导",
+    "mod": "被动技能",
+    "isInformalData": false,
+    "name": "",
+    "iconPath": "",
+    "attriDetialList": [],
+    "tempdescription": "我方全体【引雷】触发概率+5%，可叠加",
+    "description": "我方全体【引雷】触发概率+5%，可叠加",
+    "levelUpDescription": "",
+    "tempdetailDescription": "",
+    "detailDescription": "",
+    "desParamList": [],
+    "skillParamList": [
+      {
+        "skillRateA_SN": 500,
+        "skillRateB_SN": 0,
+        "skillRateC_SN": 0,
+        "skillRateD_SN": 0,
+        "skillRateE_SN": 0,
+        "skillRateF_SN": 0,
+        "skillRateG_SN": 0,
+        "skillRateH_SN": 0,
+        "skillRateI_SN": 0,
+        "skillRateJ_SN": 0,
+        "skillRateL_SN": 0,
+        "skillRateT_SN": 0
+      }
+    ],
+    "attributeList": [],
+    "tagId": -1,
+    "tagRemoveList": [],
+    "tagFilterList": [],
+    "tagFilterType": "And",
+    "buffId": 10410385,
+    "temptypeStr": "",
+    "typeStr": "",
+    "typeColor": "Orange",
+    "CommonNum": 100.0,
+    "floatNum": 0,
+    "ExSkillList": [],
+    "specialTagList": [
+      {
+        "specialTag": 12600210
+      }
+    ]
+  },
+  {
+    "id": 12301683,
+    "idCN": "06敌方/爬塔/深眠者/深眠者·沉溺/增幅2",
+    "mod": "被动技能",
+    "isInformalData": false,
+    "name": "",
+    "iconPath": "",
+    "attriDetialList": [],
+    "tempdescription": "",
+    "description": "",
+    "levelUpDescription": "",
+    "tempdetailDescription": "",
+    "detailDescription": "",
+    "desParamList": [
+      {
+        "isPercent": false,
+        "param": "a"
+      }
+    ],
+    "skillParamList": [],
+    "attributeList": [],
+    "tagId": -1,
+    "tagRemoveList": [],
+    "tagFilterList": [],
+    "tagFilterType": "And",
+    "buffId": 10410552,
+    "temptypeStr": "",
+    "typeStr": "",
+    "typeColor": "Orange",
+    "CommonNum": 1.0,
+    "floatNum": 1,
+    "ExSkillList": [],
+    "specialTagList": []
+  },
+  {
+    "id": 12301684,
+    "idCN": "06敌方/爬塔/深眠者/深眠者·沉溺/增幅3",
+    "mod": "被动技能",
+    "isInformalData": false,
+    "name": "",
+    "iconPath": "",
+    "attriDetialList": [],
+    "tempdescription": "",
+    "description": "",
+    "levelUpDescription": "",
+    "tempdetailDescription": "",
+    "detailDescription": "",
+    "desParamList": [
+      {
+        "isPercent": false,
+        "param": "a"
+      }
+    ],
+    "skillParamList": [],
+    "attributeList": [],
+    "tagId": -1,
+    "tagRemoveList": [],
+    "tagFilterList": [],
+    "tagFilterType": "And",
+    "buffId": 10410576,
     "temptypeStr": "",
     "typeStr": "",
     "typeColor": "Orange",
