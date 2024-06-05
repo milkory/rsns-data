@@ -2264,7 +2264,11 @@
     "actionLevel": "NormalSkill",
     "isUseTargetFilter": true,
     "targetType": "Ally",
-    "targetTagList": [],
+    "targetTagList": [
+      {
+        "tagId": 12600246
+      }
+    ],
     "tagType": "And",
     "halfWidth_SN": 240000,
     "attributeType": "CurrentHp",
@@ -5243,7 +5247,11 @@
     "actionLevel": "NormalSkill",
     "isUseTargetFilter": true,
     "targetType": "Ally",
-    "targetTagList": [],
+    "targetTagList": [
+      {
+        "tagId": 12600246
+      }
+    ],
     "tagType": "And",
     "halfWidth_SN": 240000,
     "attributeType": "HpMax",
@@ -8241,7 +8249,7 @@
     "isSkill": true,
     "actionLevel": "SpecialSkill",
     "isUseTargetFilter": true,
-    "targetType": "Every",
+    "targetType": "Enemy",
     "targetTagList": [],
     "tagType": "And",
     "halfWidth_SN": 240000,
@@ -8256,9 +8264,9 @@
     "filterStance": "DeafaultStance",
     "filterPosition": "DefaultPos",
     "isAimSelf": false,
-    "targetCount": 0,
-    "distance_SN": 0,
-    "radius_SN": 240000,
+    "targetCount": 30,
+    "distance_SN": 240000,
+    "radius_SN": 0,
     "damageHitBuffList": [],
     "healHitBuffList": [],
     "cdFrame": 164,
@@ -14905,9 +14913,12 @@
     "targetTagList": [
       {
         "tagId": 12600067
+      },
+      {
+        "tagId": 12600246
       }
     ],
-    "tagType": "And",
+    "tagType": "Or",
     "halfWidth_SN": 240000,
     "attributeType": "HpMax",
     "condition": "All",
@@ -15756,7 +15767,11 @@
     "actionLevel": "NormalSkill",
     "isUseTargetFilter": false,
     "targetType": "Ally",
-    "targetTagList": [],
+    "targetTagList": [
+      {
+        "tagId": 12600246
+      }
+    ],
     "tagType": "And",
     "halfWidth_SN": 0,
     "attributeType": "HpMax",
@@ -15798,7 +15813,11 @@
     "actionLevel": "NormalSkill",
     "isUseTargetFilter": false,
     "targetType": "Ally",
-    "targetTagList": [],
+    "targetTagList": [
+      {
+        "tagId": 12600246
+      }
+    ],
     "tagType": "And",
     "halfWidth_SN": 0,
     "attributeType": "HpMax",
@@ -31354,7 +31373,11 @@
     "actionLevel": "SpecialSkill",
     "isUseTargetFilter": true,
     "targetType": "Ally",
-    "targetTagList": [],
+    "targetTagList": [
+      {
+        "tagId": 12600246
+      }
+    ],
     "tagType": "And",
     "halfWidth_SN": 240000,
     "attributeType": "HpMax",
@@ -35571,7 +35594,7 @@
     "isSkill": true,
     "actionLevel": "NormalSkill",
     "isUseTargetFilter": true,
-    "targetType": "Every",
+    "targetType": "Enemy",
     "targetTagList": [],
     "tagType": "And",
     "halfWidth_SN": 0,
@@ -37780,7 +37803,11 @@
     "actionLevel": "NormalSkill",
     "isUseTargetFilter": true,
     "targetType": "Ally",
-    "targetTagList": [],
+    "targetTagList": [
+      {
+        "tagId": 12600246
+      }
+    ],
     "tagType": "And",
     "halfWidth_SN": 240000,
     "attributeType": "HpMax",
@@ -44218,7 +44245,11 @@
     "actionLevel": "NormalSkill",
     "isUseTargetFilter": true,
     "targetType": "Ally",
-    "targetTagList": [],
+    "targetTagList": [
+      {
+        "tagId": 12600246
+      }
+    ],
     "tagType": "And",
     "halfWidth_SN": 0,
     "attributeType": "CurrentHp",
@@ -46635,7 +46666,11 @@
     "actionLevel": "SpecialSkill",
     "isUseTargetFilter": true,
     "targetType": "Ally",
-    "targetTagList": [],
+    "targetTagList": [
+      {
+        "tagId": 12600246
+      }
+    ],
     "tagType": "And",
     "halfWidth_SN": 240000,
     "attributeType": "HpMax",
@@ -52641,8 +52676,8 @@
     "isCharge": false,
     "isSkill": true,
     "actionLevel": "NormalSkill",
-    "isUseTargetFilter": true,
-    "targetType": "Ally",
+    "isUseTargetFilter": false,
+    "targetType": "Self",
     "targetTagList": [],
     "tagType": "And",
     "halfWidth_SN": 0,
@@ -53042,8 +53077,8 @@
     "isCharge": false,
     "isSkill": true,
     "actionLevel": "NormalSkill",
-    "isUseTargetFilter": true,
-    "targetType": "Ally",
+    "isUseTargetFilter": false,
+    "targetType": "Self",
     "targetTagList": [],
     "tagType": "And",
     "halfWidth_SN": 0,
@@ -57149,7 +57184,11 @@
     "actionLevel": "NormalSkill",
     "isUseTargetFilter": true,
     "targetType": "Ally",
-    "targetTagList": [],
+    "targetTagList": [
+      {
+        "tagId": 12600246
+      }
+    ],
     "tagType": "And",
     "halfWidth_SN": 240000,
     "attributeType": "HpMax",
@@ -96000,7 +96039,7 @@
     "isSkill": true,
     "actionLevel": "SpecialSkill",
     "isUseTargetFilter": true,
-    "targetType": "Every",
+    "targetType": "Enemy",
     "targetTagList": [],
     "tagType": "And",
     "halfWidth_SN": 240000,
@@ -96015,9 +96054,9 @@
     "filterStance": "DeafaultStance",
     "filterPosition": "DefaultPos",
     "isAimSelf": false,
-    "targetCount": 12,
+    "targetCount": 30,
     "distance_SN": 240000,
-    "radius_SN": 240000,
+    "radius_SN": 0,
     "damageHitBuffList": [],
     "healHitBuffList": [],
     "cdFrame": 164,

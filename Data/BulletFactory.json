@@ -348,7 +348,7 @@
   },
   {
     "id": 11200057,
-    "idCN": "我方/03星/马吉拉/普攻",
+    "idCN": "我方/03星/马吉拉/原版/普攻",
     "mod": "追踪",
     "bulletViewId": 11300060,
     "speedX_SN": 4000,
@@ -358,7 +358,7 @@
   },
   {
     "id": 11200059,
-    "idCN": "我方/03星/马吉拉/A",
+    "idCN": "我方/03星/马吉拉/原版/A",
     "mod": "镭射",
     "isInformalData": false,
     "bulletViewId": 11300008,
@@ -374,49 +374,6 @@
         "hitFrame": 1
       }
     ]
-  },
-  {
-    "id": 11200062,
-    "idCN": "我方/20引导/Katas/引导火圈",
-    "mod": "冲击波",
-    "isInformalData": false,
-    "bulletViewId": 11300055,
-    "speedX_SN": 4000,
-    "disappearEffectList": [],
-    "effectID": -1,
-    "hitSoundId": -1,
-    "durationFrame": 60,
-    "xlSN": -9999,
-    "xrSN": 10000,
-    "intervalFrame": 4,
-    "bRepeated": true
-  },
-  {
-    "id": 11200063,
-    "idCN": "我方/20引导/Margiela/引导子弹",
-    "mod": "抛物线",
-    "bulletViewId": 11300008,
-    "speedX_SN": 20000,
-    "durationMin": 1,
-    "damageRadius_SN": 26500,
-    "xOffSet_SN": 0,
-    "zOffSet_SN": 0,
-    "xOffSetStart_SN": 0,
-    "zOffSetStart_SN": 0,
-    "hitTimes": 5,
-    "intervalFrame": 10,
-    "disappearEffectList": [],
-    "groundEffectList": [
-      {
-        "effectId": 11100363
-      }
-    ],
-    "isDoBuffOnly": false,
-    "effectID": -1,
-    "hitSoundId": -1,
-    "ySpeedStart_SN": 500,
-    "ySpeedOffSet_SN": 1500,
-    "groundSoundId": -1
   },
   {
     "id": 11200069,
@@ -1503,7 +1460,7 @@
   },
   {
     "id": 11200070,
-    "idCN": "我方/03星/马吉拉/S黑洞持续",
+    "idCN": "我方/03星/马吉拉/原版/S黑洞持续",
     "mod": "抛物线",
     "isInformalData": false,
     "bulletViewId": 11300008,
@@ -2624,7 +2581,7 @@
   },
   {
     "id": 11200007,
-    "idCN": "我方/03星/马吉拉/A治疗子弹",
+    "idCN": "我方/03星/马吉拉/原版/A治疗子弹",
     "mod": "镭射",
     "bulletViewId": 11300062,
     "speedX_SN": 10000,
@@ -4518,7 +4475,7 @@
   },
   {
     "id": 11200245,
-    "idCN": "我方/03星/卡莱雅/普攻",
+    "idCN": "我方/03星/卡莱雅/原版/普攻",
     "mod": "追踪",
     "isInformalData": false,
     "bulletViewId": 11300169,
@@ -4529,7 +4486,7 @@
   },
   {
     "id": 11200246,
-    "idCN": "我方/03星/卡莱雅/普攻射线",
+    "idCN": "我方/03星/卡莱雅/原版/普攻射线",
     "mod": "镭射",
     "isInformalData": false,
     "bulletViewId": 11300170,
@@ -7044,7 +7001,7 @@
   },
   {
     "id": 11200354,
-    "idCN": "我方/03星/卡莱雅/A召唤子弹",
+    "idCN": "我方/03星/卡莱雅/原版/A召唤子弹",
     "mod": "抛物线",
     "isInformalData": false,
     "bulletViewId": 11300248,
@@ -11582,5 +11539,53 @@
     "intervalFrame": 1,
     "isDoBuffOnly": false,
     "isHitTargetOnly": false
+  },
+  {
+    "id": 11200447,
+    "idCN": "我方/03星/卡莱雅/真心珍藏/A召唤子弹",
+    "mod": "抛物线",
+    "isInformalData": false,
+    "bulletViewId": 11300269,
+    "speedX_SN": 4500,
+    "disappearEffectList": [],
+    "appearEffectList": [],
+    "effectID": -1,
+    "hitSoundId": -1,
+    "scaleTag": "",
+    "ySpeedStart_SN": 500,
+    "ySpeedOffSet_SN": 0,
+    "isAddSpeedZ": false,
+    "durationMin": 30,
+    "damageRadius_SN": 5000,
+    "isFixedPosition": true,
+    "xOffSetStart_SN": -40000,
+    "xOffSet_SN": 80000,
+    "yOffSetStart_SN": 45000,
+    "yOffSet_SN": 0,
+    "zOffSetStart_SN": 0,
+    "zOffSet_SN": 0,
+    "groundEffectList": [],
+    "isGroundEffectUseHitTimes": false,
+    "groundSoundId": -1,
+    "isGroundSoundUseHitTimes": false,
+    "envBuffId": 10405747,
+    "hitTimes": 0,
+    "hitTimesCustomTag": "",
+    "intervalFrame": 1,
+    "isDoBuffOnly": true,
+    "isHitTargetOnly": false
+  },
+  {
+    "id": 11200063,
+    "idCN": "我方/03星/马吉拉/瞩目时刻/普攻",
+    "mod": "追踪",
+    "isInformalData": false,
+    "bulletViewId": 11300271,
+    "speedX_SN": 4000,
+    "disappearEffectList": [],
+    "appearEffectList": [],
+    "effectID": -1,
+    "hitSoundId": 30000085,
+    "scaleTag": ""
   }
 ]

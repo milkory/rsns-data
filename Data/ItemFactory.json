@@ -3807,11 +3807,11 @@
     "des": "铁盟发放给列车长们的奖章，小巧精致，用于感谢他们为维护行车沿线安全作出的巨大贡献。这些奖章还可以在铁盟兑换一些实用的物品助力列车长们维持活跃的表现。\r\\n赴命奖章主要通过清剿行车沿线的野外桦树生物，以及击败铁安局悬赏任务强敌获得。",
     "iconPath": "Item/item/Small/fumingjiangzhang",
     "tipsPath": "Item/item/Big/fumingjiangzhang",
-    "buyPath": "",
+    "buyPath": "Item/item/Small/fumingjiangzhang",
     "textIcon": "",
     "sort": 0,
-    "isNotDisplayInBag": false,
     "isShowNum": true,
+    "isNotDisplayInBag": false,
     "useLimitNum": 10,
     "endTime": "",
     "saletype": "NotSale",
@@ -5013,11 +5013,11 @@
     "des": "完成科伦巴商会订单所获得的里程点数，可用于商会里程点商店兑换物资。",
     "iconPath": "Item/item/Small/Mileage",
     "tipsPath": "Item/item/Big/Mileage",
-    "buyPath": "",
+    "buyPath": "Item/item/Small/Mileage",
     "textIcon": "",
     "sort": 0,
-    "isNotDisplayInBag": true,
     "isShowNum": true,
+    "isNotDisplayInBag": true,
     "useLimitNum": 10,
     "endTime": "",
     "saletype": "NotSale",
@@ -5849,11 +5849,11 @@
     "des": "铁盟发放给精英列车长的奖章，精雕细刻，用于表彰他们在应对混响浮标的高危行动中出类拔萃的表现。这些奖章还可以在铁盟兑换更多实用的物品成为精英列车长们的助力。\r\\n绝命奖章主要通过清剿行车沿线的混响浮标获得。",
     "iconPath": "Item/item/Small/fumingjiangzhang2",
     "tipsPath": "Item/item/Big/fumingjiangzhang2",
-    "buyPath": "",
+    "buyPath": "Item/item/Small/fumingjiangzhang2",
     "textIcon": "",
     "sort": 0,
-    "isNotDisplayInBag": false,
     "isShowNum": true,
+    "isNotDisplayInBag": false,
     "useLimitNum": 10,
     "endTime": "",
     "saletype": "NotSale",
@@ -6897,7 +6897,7 @@
     "des": "完成科伦巴商会“我造我路”建设计划所获得的建设点数，可用于商会里程点商店兑换物资。",
     "iconPath": "Item/item/Small/jianshedian",
     "tipsPath": "Item/item/Big/jianshedian",
-    "buyPath": "",
+    "buyPath": "Item/item/Small/jianshedian",
     "textIcon": "",
     "sort": 0,
     "isShowNum": true,
@@ -7010,7 +7010,7 @@
     "idCN": "装备道具/自坍缩胶卷/弃牌回血",
     "mod": "装备道具",
     "isInformalData": false,
-    "name": "自坍缩胶卷",
+    "name": "自坍缩胶卷-弃牌回血",
     "viewId": -1,
     "quality": "Golden",
     "des": "经过特殊技术手段处理后的胶片，能够显像出物体的形态场坍缩后的影像，按特定步骤使用后可以影响物体形态场，常被用于固定装备具备的使用特性。由最新技术制造，使用后能指定保留装备已有的特性。\\n\\n使用后，获得装备词缀：<color=#FFB800>每丢弃1张卡牌，恢复自身x%生命值，可叠加</color>",
@@ -7042,14 +7042,15 @@
       }
     ],
     "campType": -1,
-    "EquipItemType": 12600395
+    "EquipItemType": 12600395,
+    "numMax": false
   },
   {
     "id": 11400258,
     "idCN": "装备道具/自坍缩胶卷/暗艺吸血",
     "mod": "装备道具",
     "isInformalData": false,
-    "name": "自坍缩胶卷",
+    "name": "自坍缩胶卷-暗艺吸血",
     "viewId": -1,
     "quality": "Golden",
     "des": "经过特殊技术手段处理后的胶片，能够显像出物体的形态场坍缩后的影像，按特定步骤使用后可以影响物体形态场，常被用于固定装备具备的使用特性。由最新技术制造，使用后能指定保留装备已有的特性。\\n\\n使用后，获得装备词缀：<color=#FFB800>将【暗艺】造成伤害的x%回复自身生命值，可叠加</color>",
@@ -7081,14 +7082,15 @@
       }
     ],
     "campType": -1,
-    "EquipItemType": 12600395
+    "EquipItemType": 12600395,
+    "numMax": false
   },
   {
     "id": 11400259,
     "idCN": "装备道具/自坍缩胶卷/引雷概率",
     "mod": "装备道具",
     "isInformalData": false,
-    "name": "自坍缩胶卷",
+    "name": "自坍缩胶卷-引雷概率",
     "viewId": -1,
     "quality": "Golden",
     "des": "经过特殊技术手段处理后的胶片，能够显像出物体的形态场坍缩后的影像，按特定步骤使用后可以影响物体形态场，常被用于固定装备具备的使用特性。由最新技术制造，使用后能指定保留装备已有的特性。\\n\\n使用后，获得装备词缀：<color=#FFB800>自身造成的【引雷】触发概率+x%，可叠加</color>",
@@ -7120,14 +7122,15 @@
       }
     ],
     "campType": -1,
-    "EquipItemType": 12600395
+    "EquipItemType": 12600395,
+    "numMax": false
   },
   {
     "id": 11400260,
     "idCN": "装备道具/自坍缩胶卷/自红卡加攻",
     "mod": "装备道具",
     "isInformalData": false,
-    "name": "自坍缩胶卷",
+    "name": "自坍缩胶卷-自身红卡加攻",
     "viewId": -1,
     "quality": "Golden",
     "des": "经过特殊技术手段处理后的胶片，能够显像出物体的形态场坍缩后的影像，按特定步骤使用后可以影响物体形态场，常被用于固定装备具备的使用特性。由最新技术制造，使用后能指定保留装备已有的特性。\\n\\n使用后，获得装备词缀：<color=#FFB800>每次使用自身红卡后，自身攻击力+x%，可叠加</color>",
@@ -7159,14 +7162,15 @@
       }
     ],
     "campType": -1,
-    "EquipItemType": 12600395
+    "EquipItemType": 12600395,
+    "numMax": false
   },
   {
     "id": 11400261,
     "idCN": "装备道具/自坍缩胶卷/队长技回费",
     "mod": "装备道具",
     "isInformalData": false,
-    "name": "自坍缩胶卷",
+    "name": "自坍缩胶卷-队长技回费",
     "viewId": -1,
     "quality": "Golden",
     "des": "经过特殊技术手段处理后的胶片，能够显像出物体的形态场坍缩后的影像，按特定步骤使用后可以影响物体形态场，常被用于固定装备具备的使用特性。由最新技术制造，使用后能指定保留装备已有的特性。\\n\\n使用后，获得装备词缀：<color=#FFB800>使用【队长技】时，获得x点费用，可叠加</color>",
@@ -7198,7 +7202,8 @@
       }
     ],
     "campType": -1,
-    "EquipItemType": 12600395
+    "EquipItemType": 12600395,
+    "numMax": false
   },
   {
     "id": 11400262,
@@ -7453,7 +7458,7 @@
     "idCN": "装备道具/自坍缩胶卷/燃爆伤害+",
     "mod": "装备道具",
     "isInformalData": false,
-    "name": "自坍缩胶卷",
+    "name": "自坍缩胶卷-燃爆增伤",
     "viewId": -1,
     "quality": "Golden",
     "des": "经过特殊技术手段处理后的胶片，能够显像出物体的形态场坍缩后的影像，按特定步骤使用后可以影响物体形态场，常被用于固定装备具备的使用特性。由最新技术制造，使用后能指定保留装备已有的特性。\\n\\n使用后，获得装备词缀：<color=#FFB800>自身造成的【急燃】和【燃爆】造成的伤害提高x%，可叠加</color>",
@@ -7485,7 +7490,7 @@
     "idCN": "装备道具/自坍缩胶卷/燃烧伤害+",
     "mod": "装备道具",
     "isInformalData": false,
-    "name": "自坍缩胶卷",
+    "name": "自坍缩胶卷-燃烧增伤",
     "viewId": -1,
     "quality": "Golden",
     "des": "经过特殊技术手段处理后的胶片，能够显像出物体的形态场坍缩后的影像，按特定步骤使用后可以影响物体形态场，常被用于固定装备具备的使用特性。由最新技术制造，使用后能指定保留装备已有的特性。\\n\\n使用后，获得装备词缀：<color=#FFB800>自身造成的【点燃】，【炽地】，【燎原】和【火海】的每秒燃烧伤害+x%，可叠加</color>",
@@ -7517,7 +7522,7 @@
     "idCN": "装备道具/自坍缩胶卷/队长技加攻",
     "mod": "装备道具",
     "isInformalData": false,
-    "name": "自坍缩胶卷",
+    "name": "自坍缩胶卷-队长技加攻",
     "viewId": -1,
     "quality": "Golden",
     "des": "经过特殊技术手段处理后的胶片，能够显像出物体的形态场坍缩后的影像，按特定步骤使用后可以影响物体形态场，常被用于固定装备具备的使用特性。由最新技术制造，使用后能指定保留装备已有的特性。\\n\\n使用后，获得装备词缀：<color=#FFB800>使用【队长技】时，自身攻击力+x%，可叠加</color>",
@@ -7571,7 +7576,7 @@
     "idCN": "装备道具/自坍缩胶卷/燃烧延长+",
     "mod": "装备道具",
     "isInformalData": false,
-    "name": "自坍缩胶卷",
+    "name": "自坍缩胶卷-燃烧延长",
     "viewId": -1,
     "quality": "Golden",
     "des": "经过特殊技术手段处理后的胶片，能够显像出物体的形态场坍缩后的影像，按特定步骤使用后可以影响物体形态场，常被用于固定装备具备的使用特性。由最新技术制造，使用后能指定保留装备已有的特性。\\n\\n使用后，获得装备词缀：<color=#FFB800>自身造成的【点燃】，【炽地】、【燎原】和【火海】持续时间延长x秒，可叠加</color>",
@@ -7603,7 +7608,7 @@
     "idCN": "装备道具/自坍缩胶卷/生成暗艺回血",
     "mod": "装备道具",
     "isInformalData": false,
-    "name": "自坍缩胶卷",
+    "name": "自坍缩胶卷-生成暗艺回血",
     "viewId": -1,
     "quality": "Golden",
     "des": "经过特殊技术手段处理后的胶片，能够显像出物体的形态场坍缩后的影像，按特定步骤使用后可以影响物体形态场，常被用于固定装备具备的使用特性。由最新技术制造，使用后能指定保留装备已有的特性。\\n\\n使用后，获得装备词缀：<color=#FFB800>生成【暗艺】时，回复自身x%生命值，可叠加</color>",
@@ -7635,7 +7640,7 @@
     "idCN": "装备道具/自坍缩胶卷/生成黑卡回血",
     "mod": "装备道具",
     "isInformalData": false,
-    "name": "自坍缩胶卷",
+    "name": "自坍缩胶卷-生成黑卡回血",
     "viewId": -1,
     "quality": "Golden",
     "des": "经过特殊技术手段处理后的胶片，能够显像出物体的形态场坍缩后的影像，按特定步骤使用后可以影响物体形态场，常被用于固定装备具备的使用特性。由最新技术制造，使用后能指定保留装备已有的特性。\\n\\n使用后，获得装备词缀：<color=#FFB800>生成黑卡时，回复自身x%生命值，可叠加</color>",
@@ -7667,7 +7672,7 @@
     "idCN": "装备道具/自坍缩胶卷/开局回费",
     "mod": "装备道具",
     "isInformalData": false,
-    "name": "自坍缩胶卷",
+    "name": "自坍缩胶卷-开局回费",
     "viewId": -1,
     "quality": "Golden",
     "des": "经过特殊技术手段处理后的胶片，能够显像出物体的形态场坍缩后的影像，按特定步骤使用后可以影响物体形态场，常被用于固定装备具备的使用特性。由最新技术制造，使用后能指定保留装备已有的特性。\\n\\n使用后，获得装备词缀：<color=#FFB800>开局额外获得x点费用，可叠加</color>",
@@ -7699,7 +7704,7 @@
     "idCN": "装备道具/自坍缩胶卷/爆炸增伤",
     "mod": "装备道具",
     "isInformalData": false,
-    "name": "自坍缩胶卷",
+    "name": "自坍缩胶卷--爆炸增伤",
     "viewId": -1,
     "quality": "Golden",
     "des": "经过特殊技术手段处理后的胶片，能够显像出物体的形态场坍缩后的影像，按特定步骤使用后可以影响物体形态场，常被用于固定装备具备的使用特性。由最新技术制造，使用后能指定保留装备已有的特性。\\n\\n使用后，获得装备词缀：<color=#FFB800>自身【爆炸物】造成的伤害提高x%，可叠加</color>",
@@ -7731,7 +7736,7 @@
     "idCN": "装备道具/自坍缩胶卷/斩裂增伤",
     "mod": "装备道具",
     "isInformalData": false,
-    "name": "自坍缩胶卷",
+    "name": "自坍缩胶卷-斩裂增伤",
     "viewId": -1,
     "quality": "Golden",
     "des": "经过特殊技术手段处理后的胶片，能够显像出物体的形态场坍缩后的影像，按特定步骤使用后可以影响物体形态场，常被用于固定装备具备的使用特性。由最新技术制造，使用后能指定保留装备已有的特性。\\n\\n使用后，获得装备词缀：<color=#FFB800>自身造成的【斩裂】伤害提高x%，可叠加</color>",
@@ -8023,7 +8028,7 @@
     "idCN": "装备道具/自坍缩胶卷/引雷增伤",
     "mod": "装备道具",
     "isInformalData": false,
-    "name": "自坍缩胶卷",
+    "name": "自坍缩胶卷-引雷增伤",
     "viewId": -1,
     "quality": "Golden",
     "des": "经过特殊技术手段处理后的胶片，能够显像出物体的形态场坍缩后的影像，按特定步骤使用后可以影响物体形态场，常被用于固定装备具备的使用特性。由最新技术制造，使用后能指定保留装备已有的特性。\\n\\n使用后，获得装备词缀：<color=#FFB800>自身造成的【引雷】，【落雷】，【轰雷】和【轰顶】的落雷伤害+x%，可叠加</color>",
@@ -8253,10 +8258,10 @@
   },
   {
     "id": 11400135,
-    "idCN": "0资源道具/方块碎片",
+    "idCN": "活动代币/学会立方体/方块碎片",
     "mod": "基础道具",
     "isInformalData": false,
-    "name": "铁盟币",
+    "name": "方块碎片",
     "viewId": -1,
     "quality": "Golden",
     "des": "铁盟发行的能源本位货币，也被戏称为“电票”。",
@@ -8370,5 +8375,187 @@
     "saletype": "NotSale",
     "rewardList": [],
     "Getway": []
+  },
+  {
+    "id": 11400138,
+    "idCN": "1抽卡道具/自坍缩协议",
+    "mod": "可使用道具",
+    "isInformalData": false,
+    "name": "自坍缩协议",
+    "viewId": -1,
+    "quality": "Golden",
+    "useType": "Chosen",
+    "numRequired": 1,
+    "isBatch": false,
+    "exchangeList": [],
+    "des": "<size=25><color=#FFB800>可以从列表内自选一个自坍缩胶卷。</color></size>",
+    "iconPath": "Item\\item\\Small\\onepull4",
+    "tipsPath": "Item\\item\\Big\\onepull4",
+    "buyPath": "",
+    "textIcon": "",
+    "breakPath": "",
+    "sort": 0,
+    "isShowNum": true,
+    "isNotDisplayInBag": false,
+    "isCompose": false,
+    "containEquipment": false,
+    "batchUsetype": "Other",
+    "useLimitNum": 10,
+    "isTiredItem": false,
+    "isDrinkItem": false,
+    "drinkNum": 3,
+    "isBattlePassItem": false,
+    "BattlePassType": "Low",
+    "uiPath": "UI/SelectItem/SelectItem",
+    "endTime": "",
+    "limitedTime": 0,
+    "saletype": "NotSale",
+    "rewardList": [],
+    "Getway": [
+      {
+        "DisplayName": "商城",
+        "FromLevel": -1,
+        "UIName": "UI/Store/Store",
+        "Way3": "",
+        "funcId": -1
+      }
+    ],
+    "gettipstype": "Default"
+  },
+  {
+    "id": 11400139,
+    "idCN": "活动代币/学会立方体/骰子",
+    "mod": "基础道具",
+    "isInformalData": false,
+    "name": "骰子",
+    "viewId": -1,
+    "quality": "Golden",
+    "des": "铁盟发行的能源本位货币，也被戏称为“电票”。",
+    "iconPath": "Item/item/Small/gold",
+    "tipsPath": "Item/item/Big/gold",
+    "buyPath": "UI/Common/yinuo",
+    "textIcon": "Gold",
+    "sort": 0,
+    "isShowNum": true,
+    "isNotDisplayInBag": false,
+    "useLimitNum": 10,
+    "endTime": "",
+    "saletype": "NotSale",
+    "rewardList": [],
+    "Getway": [
+      {
+        "DisplayName": "主线及支线任务",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": ""
+      },
+      {
+        "DisplayName": "交易所贸易",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": ""
+      },
+      {
+        "DisplayName": "商会订单",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": ""
+      },
+      {
+        "DisplayName": "铁安局任务",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": ""
+      },
+      {
+        "DisplayName": "城际自由客运",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": -1
+      },
+      {
+        "DisplayName": "素材回收",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": -1
+      },
+      {
+        "DisplayName": "荒原站-垃圾回收",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": -1
+      }
+    ]
+  },
+  {
+    "id": 11400140,
+    "idCN": "活动代币/学会立方体/自选骰子",
+    "mod": "基础道具",
+    "isInformalData": false,
+    "name": "自选骰子",
+    "viewId": -1,
+    "quality": "Golden",
+    "des": "铁盟发行的能源本位货币，也被戏称为“电票”。",
+    "iconPath": "Item/item/Small/gold",
+    "tipsPath": "Item/item/Big/gold",
+    "buyPath": "UI/Common/yinuo",
+    "textIcon": "Gold",
+    "sort": 0,
+    "isShowNum": true,
+    "isNotDisplayInBag": false,
+    "useLimitNum": 10,
+    "endTime": "",
+    "saletype": "NotSale",
+    "rewardList": [],
+    "Getway": [
+      {
+        "DisplayName": "主线及支线任务",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": ""
+      },
+      {
+        "DisplayName": "交易所贸易",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": ""
+      },
+      {
+        "DisplayName": "商会订单",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": ""
+      },
+      {
+        "DisplayName": "铁安局任务",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": ""
+      },
+      {
+        "DisplayName": "城际自由客运",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": -1
+      },
+      {
+        "DisplayName": "素材回收",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": -1
+      },
+      {
+        "DisplayName": "荒原站-垃圾回收",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": -1
+      }
+    ]
   }
 ]
