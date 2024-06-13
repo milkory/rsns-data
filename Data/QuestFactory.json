@@ -67719,6 +67719,7 @@
         "weight": 10
       }
     ],
+    "isAutoTrace": false,
     "traceList": [
       {
         "apiListId": 86500038,
@@ -67729,7 +67730,7 @@
       {
         "apiListId": -1,
         "btnListId": -1,
-        "traceId": 86500016,
+        "traceId": 86500074,
         "uiPath": "UI/CityMap/CityMap"
       }
     ],
@@ -67800,6 +67801,7 @@
         "weight": 10
       }
     ],
+    "isAutoTrace": false,
     "traceList": [
       {
         "apiListId": 86500038,
@@ -67878,6 +67880,7 @@
         "weight": 10
       }
     ],
+    "isAutoTrace": false,
     "traceList": [
       {
         "apiListId": 86500038,
@@ -67956,6 +67959,7 @@
         "weight": 10
       }
     ],
+    "isAutoTrace": false,
     "traceList": [
       {
         "apiListId": 86500038,
@@ -68234,6 +68238,7 @@
         "weight": 10
       }
     ],
+    "isAutoTrace": false,
     "traceList": [],
     "isSwitchUI": true,
     "switchUI": "",
@@ -68248,13 +68253,13 @@
     "parentQuest": -1,
     "childQuestList": [
       {
-        "id": 81000159
+        "id": 81000315
       },
       {
-        "id": 81000160
+        "id": 81000316
       },
       {
-        "id": 81000161
+        "id": 81000317
       }
     ],
     "rewardsList": [
@@ -71115,5 +71120,675 @@
     "correspondActivity": -1,
     "buffActivate": -1,
     "showType": "Txt"
+  },
+  {
+    "id": 81000309,
+    "idCN": "逸闻任务/多萝西（新功能用）/ARC1-1",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "【逸闻】与莉薇娅对话",
+    "describe": "在修格里城与莉薇娅对话",
+    "story": "在修格里城停靠，接听来自朱利安的联络。",
+    "questType": "Anecdote",
+    "sort": 11,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "client": 82600014,
+    "startStation": 83000001,
+    "endStationList": [
+      {
+        "id": 83000001,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": false,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500015,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": true,
+    "switchUI": "",
+    "preQuestId": 81001139,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "dialog",
+        "val": "0"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400066,
+        "num": 1
+      },
+      {
+        "id": 11400071,
+        "num": 1
+      }
+    ],
+    "nextQuest": [
+      {
+        "id": 81000113
+      }
+    ],
+    "changeCityStateList": [
+      {
+        "id": 83000026,
+        "state": 2
+      }
+    ],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81000310,
+    "idCN": "逸闻任务/多萝西（新功能用）/ARC1-2",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "【逸闻】前往铁盟哨站",
+    "describe": "前往铁盟哨站哨站管理局与拉妲交谈",
+    "story": "完成朱利安委托的工作，前往铁盟哨站。",
+    "questType": "Anecdote",
+    "sort": 11,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "client": 82600014,
+    "startStation": 83000001,
+    "endStationList": [
+      {
+        "id": 83000026,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": false,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500074,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": true,
+    "switchUI": "",
+    "preQuestId": 81000309,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "dialog",
+        "val": "0"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400067,
+        "num": 1
+      },
+      {
+        "id": 11400071,
+        "num": 1
+      }
+    ],
+    "nextQuest": [
+      {
+        "id": 81000162
+      },
+      {
+        "id": 81000159
+      }
+    ],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81000311,
+    "idCN": "逸闻任务/多萝西（新功能用）/ARC1-3-1-父任务",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "【逸闻】寻找多萝西",
+    "describe": "击败铁盟哨站的不法分子",
+    "story": "爆炸声的方位可能就是多萝西所在的位置，尽快前去查看情况。",
+    "questType": "Anecdote",
+    "sort": 11,
+    "isShowProgress": true,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "client": 82600388,
+    "startStation": 83000026,
+    "endStationList": [
+      {
+        "id": 83000026,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": false,
+    "traceList": [],
+    "isSwitchUI": true,
+    "switchUI": "",
+    "preQuestId": 81000310,
+    "startLevel": 0,
+    "conditionList": [],
+    "num": 3,
+    "islockAddProgress": false,
+    "isAutoComplete": true,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "parentQuest": -1,
+    "childQuestList": [
+      {
+        "id": 81000159
+      },
+      {
+        "id": 81000160
+      },
+      {
+        "id": 81000161
+      }
+    ],
+    "rewardsList": [
+      {
+        "id": 11400005,
+        "num": 100
+      }
+    ],
+    "nextQuest": [
+      {
+        "id": 81000152
+      }
+    ],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81000312,
+    "idCN": "逸闻任务/多萝西（新功能用）/ARC1-3-2",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "【逸闻】与多萝西对话",
+    "describe": "与铁盟哨站的多萝西对话",
+    "story": "询问多萝西事情的缘由。",
+    "questType": "Anecdote",
+    "sort": 11,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "client": 82600023,
+    "startStation": 83000026,
+    "endStationList": [
+      {
+        "id": 83000026,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": false,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500018,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": true,
+    "switchUI": "",
+    "preQuestId": 81000311,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "dialog",
+        "val": "0"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400047,
+        "num": 1
+      },
+      {
+        "id": 11400069,
+        "num": 5
+      }
+    ],
+    "nextQuest": [
+      {
+        "id": 81000153
+      }
+    ],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81000313,
+    "idCN": "逸闻任务/多萝西（新功能用）/ARC1-4",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "【逸闻】陪多萝西关禁闭",
+    "describe": "与铁盟哨站禁闭室的多萝西对话",
+    "story": "考虑到朱利安此前私下的请求，前去禁闭室探望多萝西。",
+    "questType": "Anecdote",
+    "sort": 11,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "client": 82600023,
+    "startStation": 83000026,
+    "endStationList": [
+      {
+        "id": 83000026,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": false,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500019,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": true,
+    "switchUI": "",
+    "preQuestId": 81000312,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "dialog",
+        "val": "0"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400047,
+        "num": 1
+      },
+      {
+        "id": 11400069,
+        "num": 5
+      }
+    ],
+    "nextQuest": [
+      {
+        "id": 81000158
+      }
+    ],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81000314,
+    "idCN": "逸闻任务/多萝西（新功能用）/ARC1-5",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "【逸闻】与海因里希对话",
+    "describe": "与铁盟哨站禁闭室外的海因里希对话",
+    "story": "与离开禁闭室时偶遇的海因里希打招呼。",
+    "questType": "Anecdote",
+    "sort": 11,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "client": 82600381,
+    "startStation": 83000026,
+    "endStationList": [
+      {
+        "id": 83000026,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": false,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500020,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": true,
+    "switchUI": "",
+    "preQuestId": 81000313,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "dialog",
+        "val": "0"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400007,
+        "num": 1
+      }
+    ],
+    "nextQuest": [],
+    "changeCityStateList": [
+      {
+        "id": 83000026,
+        "state": 0
+      }
+    ],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81000315,
+    "idCN": "子任务/逸闻任务/多萝西（新功能用）/ARC1-3-1-1",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "",
+    "describe": "",
+    "story": "",
+    "questType": "Side",
+    "sort": 11,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "client": 82600388,
+    "startStation": 83000026,
+    "endStationList": [
+      {
+        "id": 83000026,
+        "weight": 10
+      }
+    ],
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500021,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": true,
+    "switchUI": "",
+    "preQuestId": -1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "levelId",
+        "val": "20100775"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": true,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "parentQuest": 81000162,
+    "childQuestList": [],
+    "rewardsList": [],
+    "nextQuest": [
+      {
+        "id": 81000160
+      }
+    ],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81000316,
+    "idCN": "子任务/逸闻任务/多萝西（新功能用）/ARC1-3-1-2",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "",
+    "describe": "",
+    "story": "",
+    "questType": "Side",
+    "sort": 11,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "client": -1,
+    "startStation": 83000026,
+    "endStationList": [
+      {
+        "id": 83000026,
+        "weight": 10
+      }
+    ],
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500022,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": true,
+    "switchUI": "",
+    "preQuestId": -1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "levelId",
+        "val": "20100776"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": true,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "parentQuest": 81000162,
+    "childQuestList": [],
+    "rewardsList": [],
+    "nextQuest": [
+      {
+        "id": 81000161
+      }
+    ],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81000317,
+    "idCN": "子任务/逸闻任务/多萝西（新功能用）/ARC1-3-1-3",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "",
+    "describe": "",
+    "story": "",
+    "questType": "Side",
+    "sort": 11,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "client": -1,
+    "startStation": 83000026,
+    "endStationList": [
+      {
+        "id": 83000026,
+        "weight": 10
+      }
+    ],
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500045,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": true,
+    "switchUI": "",
+    "preQuestId": -1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "levelId",
+        "val": "20100777"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": true,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "parentQuest": 81000162,
+    "childQuestList": [],
+    "rewardsList": [],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
   }
 ]

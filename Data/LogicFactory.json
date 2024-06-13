@@ -1519,5 +1519,39 @@
     "paramHelp": "剧情ID",
     "returnType": "bool",
     "script": "return PlayerData.plot_paragraph[tostring($param0)] ~= nil"
+  },
+  {
+    "id": 60000130,
+    "idCN": "卡牌/功能节点/卡牌可使用/释放者未被禁锢",
+    "mod": "执行GS脚本",
+    "isInformalData": false,
+    "debug": false,
+    "memo": "检测卡牌使用者上是否有传入的buff。\r全都没有返回true",
+    "paramHelp": "buff0\rbuff1\rbuff2\rbuff3\rbuff4\rbuff5",
+    "returnType": "bool",
+    "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rgetp currentCore\rset $core\r\rif\r\tget $core currentCard\r\tset $card\r\tif\r\t\tgetp owner\r\t\tset $owner\r\t\tif\r\t\t\tgetp buffSystem\r\t\t\tset $buffSystem\r\t\t\tcgf GetSpecialLink \"CardViewBanUse\"\r            set $buffLink\r\t\t\tif\r                get $buffLink count\r                set $buffCount\r                if $buffCount gt 0\r\t\t\t\t\tret $false\r                endif\r\t\t\tendif\r\t\tendif\r\tendif\rendif\r\rret $true"
+  },
+  {
+    "id": 60000131,
+    "idCN": "卡牌/功能节点/卡牌可使用/卡牌未被禁锢",
+    "mod": "执行GS脚本",
+    "isInformalData": false,
+    "debug": false,
+    "memo": "检测卡牌上是否有传入的buff。\r全都没有返回true",
+    "paramHelp": "buff0\rbuff1\rbuff2\rbuff3\rbuff4\rbuff5",
+    "returnType": "bool",
+    "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rgetp currentCore\rset $core\r\rif\r\tget $core currentCard\r\tset $card\r\tif\r\t\tgetp cardProperty\r\t\tset $property\r\t\tif\r\t\t\tgetp buffSystem\r\t\t\tset $buffSystem\r\t\t\tcgf GetSpecialLink \"CardViewBanUse\"\r            set $buffLink\r\t\t\tif\r                get $buffLink count\r                set $buffCount\r                if $buffCount gt 0\r\t\t\t\t\tret $false\r                endif\r\t\t\tendif\r\t\tendif\r\tendif\rendif\r\rret $true"
+  },
+  {
+    "id": 60000132,
+    "idCN": "卡牌/寻找自身",
+    "mod": "逻辑脚本",
+    "isInformalData": false,
+    "debug": true,
+    "memo": "见产品名称",
+    "paramHelp": "",
+    "returnType": "int",
+    "scriptPath": "GGScript/60000132",
+    "scriptLabel": "main"
   }
 ]

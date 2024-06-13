@@ -217,6 +217,12 @@
         "name": "服装专柜",
         "pngNotSelect": "UI/Store/skin",
         "pngSelect": "UI/Store/Select_skin"
+      },
+      {
+        "id": 80302554,
+        "name": "涂装车间",
+        "pngNotSelect": "UI/Store/Select_trainskin",
+        "pngSelect": "UI/Store/Select_trainskin"
       }
     ],
     "homeStoreList": [],
@@ -13905,6 +13911,13 @@
         "name": "联应之钥",
         "param": "",
         "prefab": "UI/CollectionCard/CardBooklet"
+      },
+      {
+        "funcId": 122,
+        "icon": "UI/DailyAttendance/dailyAttendanceIcon",
+        "name": "月签",
+        "param": "",
+        "prefab": "UI/DailyAttendance/DailyAttendance"
       }
     ],
     "mileageMax": 99999999,
@@ -14318,6 +14331,16 @@
         "name": "播报",
         "playerLevel": 16,
         "quest": 81001139,
+        "tips": -1
+      },
+      {
+        "funcId": 122,
+        "guideId": 0,
+        "iconPath": "UI/DailyAttendance/Icon-DailyAttendance",
+        "isShow": false,
+        "name": "月签",
+        "playerLevel": 0,
+        "quest": -1,
         "tips": -1
       }
     ]
@@ -17891,7 +17914,7 @@
         "earning": 5.8
       }
     ],
-    "demandBasics": 0.2,
+    "demandBasics": 0.3,
     "demandOut": 1.5,
     "tickerDistance": 5000,
     "animatorTime": 4,
@@ -19790,7 +19813,7 @@
         "id": 86000010,
         "isCompleteBottom": false,
         "name": 80600437,
-        "png": "UI/Activity/Tab/Tab_GoldenWeek",
+        "png": "UI/Activity/Tab/tab_eventWeek",
         "showUI": "UI/Activity/GoldenWeek/Group_EventWeek",
         "sort": 8,
         "startTime": "2030-06-15 05:00:00",
@@ -19806,6 +19829,17 @@
         "sort": 10,
         "startTime": "2024-06-01 05:00:00",
         "tag": 12601173
+      },
+      {
+        "endTime": "2024-06-27 04:59:00",
+        "id": 86000013,
+        "isCompleteBottom": false,
+        "name": 80607257,
+        "png": "UI/Activity/Tab/tab_EarlySummer",
+        "showUI": "",
+        "sort": 11,
+        "startTime": "2024-06-13 05:00:00",
+        "tag": 12601103
       }
     ],
     "questList": [

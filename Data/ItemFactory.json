@@ -5172,6 +5172,13 @@
         "funcId": -1
       },
       {
+        "DisplayName": "铁安局悬赏任务",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": -1
+      },
+      {
         "DisplayName": "铁盟赴命奖章兑换商店",
         "FromLevel": -1,
         "UIName": "",
@@ -7330,13 +7337,13 @@
   },
   {
     "id": 11400266,
-    "idCN": "2一般道具/爬塔券",
+    "idCN": "2一般道具/爬塔券空白录像带",
     "mod": "基础道具",
     "isInformalData": false,
     "name": "空白录像带",
     "viewId": -1,
     "quality": "Blue",
-    "des": "使用后能增加交易所的交易品购买量。",
+    "des": "一卷看似普通的空白录像带，在普通的播放装置中无法播放。交由特殊的对象进行处理后可以进行指定数据的收集与刻录。\\n【消耗空白录像带可以挑战虚演刻录】",
     "iconPath": "Item/item/Small/kongbailuxiangdai",
     "tipsPath": "Item/item/Big/kongbailuxiangdai",
     "buyPath": "",
@@ -7348,7 +7355,15 @@
     "endTime": "",
     "saletype": "NotSale",
     "rewardList": [],
-    "Getway": []
+    "Getway": [
+      {
+        "DisplayName": "黑月商店",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": -1
+      }
+    ]
   },
   {
     "id": 11400112,
@@ -7381,8 +7396,8 @@
     "viewId": -1,
     "quality": "Purple",
     "des": "获得后会增加整顿中心的经验值",
-    "iconPath": "",
-    "tipsPath": "",
+    "iconPath": "Item/item/Small/prisonExp",
+    "tipsPath": "Item/item/Big/prisonExp",
     "buyPath": "",
     "textIcon": "",
     "sort": 0,
@@ -7560,7 +7575,7 @@
     "des": "整顿中心生产获得的工票，可用于整顿中心商店兑换物资。",
     "iconPath": "Item/item/Small/prisonDian",
     "tipsPath": "Item/item/Big/prisonDian",
-    "buyPath": "Item/item/Small/prisonDian",
+    "buyPath": "Item/item/prisonDian",
     "textIcon": "",
     "sort": 0,
     "isShowNum": false,
@@ -8557,5 +8572,69 @@
         "funcId": -1
       }
     ]
+  },
+  {
+    "id": 11400143,
+    "idCN": "装备道具/自坍缩胶卷/暗艺增伤",
+    "mod": "装备道具",
+    "isInformalData": false,
+    "name": "自坍缩胶卷-暗艺增伤",
+    "viewId": -1,
+    "quality": "Golden",
+    "des": "经过特殊技术手段处理后的胶片，能够显像出物体的形态场坍缩后的影像，按特定步骤使用后可以影响物体形态场，常被用于固定装备具备的使用特性。由最新技术制造，使用后能指定保留装备已有的特性。\\n\\n使用后，获得装备词缀：<color=#FFB800>【暗艺】造成的伤害提高x%，可叠加</color>",
+    "iconPath": "Item\\item\\Small\\zitansuojiaojuan",
+    "tipsPath": "Item\\item\\Big\\zitansuojiaojuan",
+    "buyPath": "",
+    "textIcon": "",
+    "sort": 1,
+    "isShowNum": true,
+    "isNotDisplayInBag": false,
+    "briefText": "使用后，获得装备词缀：<color=#FFB800>【暗艺】造成的伤害提高x%，可叠加</color>",
+    "endTime": "",
+    "saletype": "NotSale",
+    "rewardList": [],
+    "Getway": [],
+    "Experiencevalue": 0,
+    "EntryItemList": [
+      {
+        "Entry": 12300835,
+        "Weight": 1
+      }
+    ],
+    "campType": -1,
+    "EquipItemType": 12600395,
+    "numMax": false
+  },
+  {
+    "id": 11400144,
+    "idCN": "装备道具/自坍缩胶卷/攻击力提高",
+    "mod": "装备道具",
+    "isInformalData": false,
+    "name": "自坍缩胶卷-攻击力提高",
+    "viewId": -1,
+    "quality": "Golden",
+    "des": "经过特殊技术手段处理后的胶片，能够显像出物体的形态场坍缩后的影像，按特定步骤使用后可以影响物体形态场，常被用于固定装备具备的使用特性。由最新技术制造，使用后能指定保留装备已有的特性。\\n\\n使用后，获得装备词缀：<color=#FFB800>自身攻击力+x，可叠加</color>",
+    "iconPath": "Item\\item\\Small\\zitansuojiaojuan",
+    "tipsPath": "Item\\item\\Big\\zitansuojiaojuan",
+    "buyPath": "",
+    "textIcon": "",
+    "sort": 1,
+    "isShowNum": true,
+    "isNotDisplayInBag": false,
+    "briefText": "使用后，获得装备词缀：<color=#FFB800>自身攻击力+x，可叠加</color>",
+    "endTime": "",
+    "saletype": "NotSale",
+    "rewardList": [],
+    "Getway": [],
+    "Experiencevalue": 0,
+    "EntryItemList": [
+      {
+        "Entry": 12300776,
+        "Weight": 1
+      }
+    ],
+    "campType": -1,
+    "EquipItemType": 12600395,
+    "numMax": false
   }
 ]
