@@ -11149,10 +11149,10 @@
   {
     "id": 10501597,
     "idCN": "敌方/02桦树/BOSS/凛川骨龙/被动1",
-    "mod": "攻击事件",
+    "mod": "添加Buff",
     "isInformalData": false,
     "buffId": 10407056,
-    "hitSoundID": -1
+    "targetType": "Random"
   },
   {
     "id": 10501598,
@@ -15916,22 +15916,6 @@
     "targetType": "CurrentTarget"
   },
   {
-    "id": 10501706,
-    "idCN": "敌方/试炼场/沙包人/05通用机制/灼心触发",
-    "mod": "添加Buff",
-    "isInformalData": false,
-    "buffId": 10400020,
-    "targetType": "CurrentTarget"
-  },
-  {
-    "id": 10501707,
-    "idCN": "敌方/试炼场/沙包人/05通用机制/冻结冰封",
-    "mod": "添加Buff",
-    "isInformalData": false,
-    "buffId": 10407085,
-    "targetType": "CurrentTarget"
-  },
-  {
     "id": 10501708,
     "idCN": "敌方/核心/雷暴波克士/普攻1",
     "mod": "攻击事件",
@@ -19749,9 +19733,10 @@
   {
     "id": 10501960,
     "idCN": "敌方/02桦树/BOSS/双头凛川骨龙/头1切头2被动1",
-    "mod": "给自己上BUFF",
+    "mod": "添加Buff",
     "isInformalData": false,
-    "buffId": 10409455
+    "buffId": 10409455,
+    "targetType": "Random"
   },
   {
     "id": 10501961,
@@ -22860,5 +22845,117 @@
     "filterPosition": "DefaultPos",
     "isAimSelf": false,
     "targetCount": 0
+  },
+  {
+    "id": 10500929,
+    "idCN": "敌方/02桦树/BOSS/暴君/技能4冲击波",
+    "mod": "子弹事件",
+    "isInformalData": false,
+    "buffId": 10409752,
+    "bulletId": 11200449,
+    "targetType": "CurrentTarget",
+    "offSetX_SN": 0,
+    "offSetZ_SN": 0,
+    "isUseTargetFilter": false,
+    "targetFilterType": "Ally",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 0,
+    "attributeType": "HpMax",
+    "condition": "Max",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 0
+  },
+  {
+    "id": 10501085,
+    "idCN": "敌方/02桦树/BOSS/暴君/技能4销毁卡牌",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10409744
+  },
+  {
+    "id": 10502150,
+    "idCN": "敌方/02桦树/BOSS/暴君/技能4增伤",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10408813
+  },
+  {
+    "id": 10502151,
+    "idCN": "敌方/02桦树/BOSS/暴君/技能4驱散增伤",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10409705
+  },
+  {
+    "id": 10502152,
+    "idCN": "敌方/02桦树/BOSS/暴君/出场挂雷环境效果",
+    "mod": "添加Buff",
+    "isInformalData": false,
+    "buffId": 10409146,
+    "targetType": "Random"
+  },
+  {
+    "id": 10502143,
+    "idCN": "我方/04四星/莉薇娅/S-4伤害",
+    "mod": "攻击事件",
+    "isInformalData": false,
+    "buffId": 10410646,
+    "hitSoundID": -1
+  },
+  {
+    "id": 10502153,
+    "idCN": "敌方/09沙盗团/夏尔/技能5伤害击飞",
+    "mod": "攻击事件",
+    "isInformalData": false,
+    "buffId": 10410653,
+    "hitSoundID": -1
+  },
+  {
+    "id": 10502149,
+    "idCN": "敌方/09沙盗团/夏尔/技能5召唤",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10410648
+  },
+  {
+    "id": 10502012,
+    "idCN": "敌方/09沙盗团/夏尔/技能5伤害",
+    "mod": "攻击事件",
+    "isInformalData": false,
+    "buffId": 10410649,
+    "hitSoundID": -1
+  },
+  {
+    "id": 10502154,
+    "idCN": "敌方/试炼场/沙包人/05通用机制/变萌",
+    "mod": "添加Buff",
+    "isInformalData": false,
+    "buffId": 10404291,
+    "targetType": "CurrentTarget"
+  },
+  {
+    "id": 10502155,
+    "idCN": "敌方/试炼场/沙包人/05通用机制/冰封",
+    "mod": "添加Buff",
+    "isInformalData": false,
+    "buffId": 10410658,
+    "targetType": "CurrentTarget"
+  },
+  {
+    "id": 10502156,
+    "idCN": "敌方/试炼场/沙包人/05通用机制/致盲",
+    "mod": "添加Buff",
+    "isInformalData": false,
+    "buffId": 10410660,
+    "targetType": "CurrentTarget"
   }
 ]

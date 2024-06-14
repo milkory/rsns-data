@@ -3477,7 +3477,7 @@
   },
   {
     "id": 10300011,
-    "idCN": "敌方/沙包人/打断",
+    "idCN": "敌方/沙包人/控制/打断",
     "mod": "基础AI",
     "isInformalData": false,
     "targetInvisibleEffectId": 11102488,
@@ -3573,7 +3573,7 @@
   },
   {
     "id": 10300012,
-    "idCN": "敌方/沙包人/眩晕",
+    "idCN": "敌方/沙包人/控制/击晕",
     "mod": "基础AI",
     "isInformalData": false,
     "targetInvisibleEffectId": 11102488,
@@ -4108,7 +4108,7 @@
   },
   {
     "id": 10300038,
-    "idCN": "敌方/沙包人/禁锢",
+    "idCN": "敌方/沙包人/控制/禁锢",
     "mod": "基础AI",
     "isInformalData": false,
     "targetInvisibleEffectId": 11102488,
@@ -4140,7 +4140,7 @@
   },
   {
     "id": 10300037,
-    "idCN": "敌方/沙包人/枷锁",
+    "idCN": "敌方/沙包人/控制/枷锁",
     "mod": "基础AI",
     "isInformalData": false,
     "targetInvisibleEffectId": 11102488,
@@ -6036,8 +6036,8 @@
       },
       {
         "actionId": 10101967,
-        "activeFrame": 660,
-        "activeTime": 11.0,
+        "activeFrame": 960,
+        "activeTime": 16.0,
         "rangeSN": 60000
       }
     ],
@@ -8911,12 +8911,6 @@
         "activeFrame": 690,
         "activeTime": 1.0,
         "rangeSN": 240000
-      },
-      {
-        "actionId": 10102318,
-        "activeFrame": 1020,
-        "activeTime": 1.0,
-        "rangeSN": 240000
       }
     ],
     "isInvisibleBeforeShowUp": true,
@@ -8925,7 +8919,7 @@
         "actionId": 10102316
       }
     ],
-    "skillLoopDelayFrame": 390,
+    "skillLoopDelayFrame": 480,
     "shapeShiftList": [],
     "commandList": [],
     "enemySkillList": [],
@@ -11181,7 +11175,7 @@
   },
   {
     "id": 10300281,
-    "idCN": "敌方/沙包人/击飞",
+    "idCN": "敌方/沙包人/控制/击飞",
     "mod": "基础AI",
     "isInformalData": false,
     "targetInvisibleEffectId": 11102488,
@@ -11216,7 +11210,7 @@
   },
   {
     "id": 10300282,
-    "idCN": "敌方/沙包人/击退",
+    "idCN": "敌方/沙包人/控制/击退",
     "mod": "基础AI",
     "isInformalData": false,
     "targetInvisibleEffectId": 11102488,
@@ -15766,7 +15760,11 @@
     "targetInvisibleEffectId": 11102488,
     "effectOffsetX": 0.0,
     "effectOffsetY": 0.0,
-    "actionList": [],
+    "actionList": [
+      {
+        "actionID": 10103056
+      }
+    ],
     "normalAttackCritID": -1,
     "skillList": [
       {
@@ -15972,6 +15970,251 @@
     "isInvisibleBeforeShowUp": false,
     "showupSkillList": [],
     "skillLoopDelayFrame": 1,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300407,
+    "idCN": "敌方/沙包人/控制/变萌",
+    "mod": "基础AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10103060,
+        "activeFrame": 50,
+        "activeTime": 0.8333,
+        "rangeSN": -10000
+      }
+    ],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [
+      {
+        "actionId": 10100384
+      }
+    ],
+    "skillLoopDelayFrame": 300,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300408,
+    "idCN": "敌方/沙包人/控制/冰封",
+    "mod": "基础AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10103061,
+        "activeFrame": 50,
+        "activeTime": 0.8333,
+        "rangeSN": -10000
+      }
+    ],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [
+      {
+        "actionId": 10100384
+      }
+    ],
+    "skillLoopDelayFrame": 300,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300409,
+    "idCN": "敌方/沙包人/控制/冻结",
+    "mod": "基础AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10101465,
+        "activeFrame": 50,
+        "activeTime": 0.8333,
+        "rangeSN": -10000
+      }
+    ],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [
+      {
+        "actionId": 10100384
+      }
+    ],
+    "skillLoopDelayFrame": 300,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300410,
+    "idCN": "敌方/沙包人/控制/昏睡",
+    "mod": "基础AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10101987,
+        "activeFrame": 50,
+        "activeTime": 0.8333,
+        "rangeSN": -10000
+      }
+    ],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [
+      {
+        "actionId": 10100384
+      }
+    ],
+    "skillLoopDelayFrame": 300,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300411,
+    "idCN": "敌方/沙包人/控制/混乱",
+    "mod": "基础AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10102484,
+        "activeFrame": 50,
+        "activeTime": 0.8333,
+        "rangeSN": -10000
+      }
+    ],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [
+      {
+        "actionId": 10100384
+      }
+    ],
+    "skillLoopDelayFrame": 300,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300412,
+    "idCN": "敌方/沙包人/控制/致盲",
+    "mod": "基础AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10100594,
+        "activeFrame": 50,
+        "activeTime": 0.8333,
+        "rangeSN": -10000
+      }
+    ],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [
+      {
+        "actionId": 10100384
+      }
+    ],
+    "skillLoopDelayFrame": 300,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300413,
+    "idCN": "敌方/沙包人/控制/诅咒",
+    "mod": "基础AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10100039,
+        "activeFrame": 50,
+        "activeTime": 0.8333,
+        "rangeSN": -10000
+      }
+    ],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [
+      {
+        "actionId": 10100384
+      }
+    ],
+    "skillLoopDelayFrame": 300,
     "shapeShiftList": [],
     "commandList": [],
     "enemySkillList": [],
