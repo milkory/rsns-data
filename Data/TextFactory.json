@@ -30760,7 +30760,7 @@
     "idCN": "1预制体/Dictionary/Dictionary/文案23",
     "mod": "UI文本",
     "isInformalData": false,
-    "text": "开局费用数：<color=#FFFFFF>5点</color>"
+    "text": "开局费用数：<color=#FFFFFF>4点</color>"
   },
   {
     "id": 80603784,
@@ -30858,7 +30858,7 @@
     "idCN": "1预制体/Dictionary/Dictionary/文案37",
     "mod": "UI文本",
     "isInformalData": false,
-    "text": "开局费用数：<color=#FFFFFF>5点</color>"
+    "text": "开局费用数：<color=#FFFFFF>4点</color>"
   },
   {
     "id": 80603798,
@@ -54909,11 +54909,39 @@
     "text": "已完成"
   },
   {
+    "id": 80607067,
+    "idCN": "图鉴/逸闻/任务中断",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "任务中断"
+  },
+  {
+    "id": 80607068,
+    "idCN": "帮助/逸闻帮助/逸闻帮助标题",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "逸闻帮助"
+  },
+  {
+    "id": 80607069,
+    "idCN": "帮助/逸闻帮助/逸闻帮助内容",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "“乘员逸闻”是与特定乘员有关的个人故事。要开启乘员逸闻，需满足两个条件：无进行中的逸闻任务，并完成前置主线任务。\\n\r正在进行中的逸闻任务可在本界面中止。中止后，可开启新的乘员逸闻或继续其他中止的逸闻任务。\\n\r中止时，会记录当前最近的节点，继续时可从该节点读取。但如果中止在多场连续战斗之间，将不会保存战斗进度，读取后需重新进行战斗。\\n\r完成逸闻后，可选择已完成的逸闻，点击回顾按钮或前往行车日志页面，回顾逸闻剧情。"
+  },
+  {
     "id": 80607070,
     "idCN": "图鉴/逸闻/其他逸闻占用",
     "mod": "UI文本",
     "isInformalData": false,
     "text": "其他逸闻占用"
+  },
+  {
+    "id": 80607071,
+    "idCN": "帮助/逸闻帮助/逸闻帮助页签",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "逸闻帮助"
   },
   {
     "id": 80602030,
@@ -56370,20 +56398,6 @@
     "text": "澄明清凉补给签到"
   },
   {
-    "id": 80607067,
-    "idCN": "图鉴/逸闻/任务中断",
-    "mod": "UI文本",
-    "isInformalData": false,
-    "text": "任务中断"
-  },
-  {
-    "id": 80607261,
-    "idCN": "图鉴/逸闻/其他逸闻进行中",
-    "mod": "UI文本",
-    "isInformalData": false,
-    "text": "其他逸闻进行中"
-  },
-  {
     "id": 80607259,
     "idCN": "活动/通用/买入",
     "mod": "UI文本",
@@ -56398,25 +56412,11 @@
     "text": "卖出"
   },
   {
-    "id": 80607068,
-    "idCN": "帮助/逸闻帮助/逸闻帮助标题",
+    "id": 80607266,
+    "idCN": "道具/赠送者",
     "mod": "UI文本",
     "isInformalData": false,
-    "text": "逸闻帮助"
-  },
-  {
-    "id": 80607069,
-    "idCN": "帮助/逸闻帮助/逸闻帮助内容",
-    "mod": "UI文本",
-    "isInformalData": false,
-    "text": "商会帮助"
-  },
-  {
-    "id": 80607071,
-    "idCN": "帮助/逸闻帮助/逸闻帮助页签",
-    "mod": "UI文本",
-    "isInformalData": false,
-    "text": "逸闻帮助"
+    "text": "赠送者：%s"
   },
   {
     "id": 80607258,
@@ -56424,6 +56424,13 @@
     "mod": "UI文本",
     "isInformalData": false,
     "text": "虚演刻录"
+  },
+  {
+    "id": 80607261,
+    "idCN": "图鉴/逸闻/其他逸闻进行中",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "其他逸闻进行中"
   },
   {
     "id": 80607262,
@@ -56452,5 +56459,418 @@
     "mod": "UI文本",
     "isInformalData": false,
     "text": "设施"
+  },
+  {
+    "id": 80607095,
+    "idCN": "图鉴/逸闻/开启进度",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "开启进度"
+  },
+  {
+    "id": 80607267,
+    "idCN": "活动/通用/每周新闻提示",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "前往"
+  },
+  {
+    "id": 80607268,
+    "idCN": "00NPC对话/黑月订单站/黑月工作人员/进入/进入1",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "您好，期待今日与您的交易顺利。",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80607269,
+    "idCN": "00NPC对话/黑月订单站/黑月工作人员/打开交货/文本1",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "若对订单有任何疑问，我将为您详细解释。",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80607270,
+    "idCN": "00NPC对话/黑月订单站/黑月工作人员/成功交付/文本1",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "您还是那么准时，希望我们能继续维持长期稳定的合作关系。",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80607271,
+    "idCN": "00NPC对话/黑月订单站/黑月工作人员/交谈/文本1",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "我只是黑月中再普通不过的一名成员，像我这样的人在黑月要多少有多少。",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80607272,
+    "idCN": "00NPC对话/黑月订单站/黑月工作人员/交谈/文本2",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "以我的权限无法告知您什么信息……听说您与亚莉奈大人、宵月大人、闻笙大人等都有来往，比起我，他们一定能给您更有价值的东西。",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80607273,
+    "idCN": "00NPC对话/黑月订单站/黑月工作人员/交谈/文本3",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "我很荣幸能得到这次外派机会，您的工作能力哪怕在黑月中也是出类拔萃，相信无论是鹭大人还是歌德大人都很愿意将您收入麾下。",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80607274,
+    "idCN": "00NPC对话/黑月订单站/黑月工作人员/交谈/文本4",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "我的名字……？不，那种事情不重要。不过，您可以用您喜欢的方式称呼我。",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80607275,
+    "idCN": "00NPC对话/黑月订单站/黑月工作人员/交谈/文本5",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "宵月大人一直是如此优雅和美丽……是否做到像苍叶大人这样强大，才有资格随侍在她身侧呢……",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80607276,
+    "idCN": "00NPC对话/武装商店/小麦/打开建筑/文本1",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "欢迎光临！您看要吃些什……呃，抱歉，在家里打工习惯了还没改过来！嘿嘿，您要选购些什么，尽管叫我就好！",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80607277,
+    "idCN": "00NPC对话/武装商店/小麦/打开建筑/文本2",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "列车长，您又来啦！上次都忘记自我介绍了，我是小麦！还是之前那样，要什么叫我就好——",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80607278,
+    "idCN": "00NPC对话/武装商店/小麦/打开建筑/文本3",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "今天屋子里好闷……哈啊……哎！列车长！没有偷懒哦，我刚刚在纳凉！",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80607279,
+    "idCN": "00NPC对话/武装商店/小麦/打开建筑/文本4",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "虽然之前见过很多次面，但好像一直没有多说些话的机会……嘿嘿，能和您成为朋友就太好啦。",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80607280,
+    "idCN": "00NPC对话/武装商店/小麦/打开建筑/文本5",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "感觉列车长的工作很有趣！如果能和您一起在列车上工作，应该很有意思吧……",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80607281,
+    "idCN": "00NPC对话/武装商店/小麦/打开建筑/文本6",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "喏！这是铁盟拖车的特别预约券！您一直照顾我这里的生意，我想找个方法报答您——只要打上面的通讯号码，我随叫随到！",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80607282,
+    "idCN": "00NPC对话/武装商店/小麦/进入兑换/文本1",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "您看，有什么想要的吗？",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80607283,
+    "idCN": "00NPC对话/武装商店/小麦/进入兑换/文本2",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "感觉人类真厉害啊……不过我听说，很多亚人拒绝使用人类的高科技装备，为什么呢？",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80607284,
+    "idCN": "00NPC对话/武装商店/小麦/进入兑换/文本3",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "虽然没法给您打折，但我可以帮忙介绍介绍！",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80607285,
+    "idCN": "00NPC对话/武装商店/小麦/进入兑换/文本4",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "比起厉害的武器，应该是适合的武器更重要。嗯，我听前辈们都这么说！",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80607286,
+    "idCN": "00NPC对话/武装商店/小麦/进入兑换/文本5",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "说起来，这里好像有件什么装备被拿去作为实验品了来着……",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80607287,
+    "idCN": "00NPC对话/武装商店/小麦/成功兑换/文本1",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "来咯！这是您选购的装备，已经请帕拉笛小姐的机器人帮您搬运到车上啦！",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80607288,
+    "idCN": "00NPC对话/武装商店/小麦/成功兑换/文本2",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "您真是好眼光，这件装备的评价一向很好呢！",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80607289,
+    "idCN": "00NPC对话/武装商店/小麦/成功兑换/文本3",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "请让乘员在工作范围内规范安全使用！啊，我只是在读规范上的说明……我相信列车长不会拿去乱用的啦！",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80607290,
+    "idCN": "00NPC对话/武装商店/小麦/成功兑换/文本4",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "好香……列车长您今天吃了什么好吃的……啊，这、这是工作时间对吧！不好意思！我走神了列车长！",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80607291,
+    "idCN": "00NPC对话/武装商店/小麦/交谈/文本1",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "在这里工作挺好的，大家都很照顾我！但大家老和我说注意安全、小心不要走火……唔，我都是正规士兵了，怎么大家还是不放心我？",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80607292,
+    "idCN": "00NPC对话/武装商店/小麦/交谈/文本2",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "大部分时候我都在开拖车……来这儿值班，只是偶尔。前辈说让我们注意安全驾驶，但我一直可注意安全啦！我还是去年的铁盟模范驾驶员！",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80607293,
+    "idCN": "00NPC对话/武装商店/小麦/交谈/文本3",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "前几天我去拍了铁盟的亚人士兵宣传照。照出来看着还挺威风的……不知道家里人会不会看见做好的海报呢？",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80607294,
+    "idCN": "00NPC对话/武装商店/小麦/交谈/文本4",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "我家在岚心城开饭馆。等您有空去岚心城的时候，一定要去我家吃点儿东西！最好、最好带上我，我可以给您打折——",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80607295,
+    "idCN": "00NPC对话/武装商店/小麦/交谈/文本5",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "要是有机会去您的列车上上值班就好了！我一直坐在前头的拖车里，都没看过无垠号里面什么样……",
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......"
+  },
+  {
+    "id": 80607296,
+    "idCN": "监狱/承包相关/新车间承包条件",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "新车间承包条件：整顿中心等级达到Lv%d"
+  },
+  {
+    "id": 80607297,
+    "idCN": "监狱/承包相关/新车间条件不足提示",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "未达到承包条件，无法承包新车间"
+  },
+  {
+    "id": 80607298,
+    "idCN": "监狱/承包相关/可承包车间",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "可承包%d间新车间！"
+  },
+  {
+    "id": 80607299,
+    "idCN": "监狱/承包相关/支付保证金",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "是否消耗 <color=#FFB800>%d</color> %s 补充保证金？"
+  },
+  {
+    "id": 80607300,
+    "idCN": "监狱/承包相关/保证金已满提示",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "当前保证金已满，无需补充。"
   }
 ]
