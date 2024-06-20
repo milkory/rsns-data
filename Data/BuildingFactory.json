@@ -16712,6 +16712,67 @@
     "constructionLevelList": []
   },
   {
+    "id": 84400085,
+    "idCN": "兑换站/爬塔",
+    "mod": "兑换站",
+    "isInformalData": false,
+    "name": "",
+    "buildingIconPath": "",
+    "firstPlotId": -1,
+    "uiPath": "UI/ExchangeStation/ExchangeStation",
+    "bgPath": "",
+    "bgColor": "FFFFFF",
+    "stationId": -1,
+    "npcId": -1,
+    "favorability": false,
+    "helpId": -1,
+    "rankId": -1,
+    "correspondingActivity": -1,
+    "eventList": [],
+    "playerLevel": 20,
+    "exchangeOpenPageList": [
+      {
+        "icon": "UI/HomeBattleCenter/icon_exchange",
+        "isStore": true,
+        "isTalk": false,
+        "name": "刻录凭证兑换",
+        "showUI": "Group_Exchange",
+        "uiPath": ""
+      },
+      {
+        "icon": "UI/Home/HomeSafe/jiaotan",
+        "isStore": false,
+        "isTalk": true,
+        "name": "交谈",
+        "showUI": ""
+      }
+    ],
+    "exchangeStoreList": [
+      {
+        "id": 40300071
+      }
+    ],
+    "exchangeWeaponList": [],
+    "isShowConstruct": false,
+    "isShowReputation": false,
+    "exchangeName": "刻录凭证兑换",
+    "buildingPath": "UI/Home/HomeSafe/icon_safe",
+    "exchangePath": "UI/HomeBattleCenter/Exchange/icon_tiemeng",
+    "pagePath": "UI/HomeBattleCenter/Exchange/di_tiemeng",
+    "bottomPath": "UI/HomeBattleCenter/Exchange/di_group_tiemeng",
+    "exchangeAffirmPath": "UI/HomeBattleCenter/Exchange/btn_exchange_tiemeng",
+    "exchangeCompletePath": "UI/HomeBattleCenter/Exchange/btn_complete_xuehui",
+    "orderNumMax": 6,
+    "orderNumMin": 4,
+    "activityOrderList": [],
+    "orderTitle": -1,
+    "orderDes": -1,
+    "orderBgPath": "",
+    "levelIconPath": "",
+    "buildLevelName": -1,
+    "constructionLevelList": []
+  },
+  {
     "id": 84400084,
     "idCN": "列车武装/云岫桥基地-小麦",
     "mod": "兑换站",
@@ -16720,7 +16781,7 @@
     "buildingIconPath": "",
     "firstPlotId": -1,
     "uiPath": "UI/ExchangeStation/ExchangeStation",
-    "bgPath": "UI/Dialog/Back/Weapon_Factory",
+    "bgPath": "UI/Dialog/Back2/PROC_YXQ",
     "bgColor": "FFFFFF",
     "stationId": 83000017,
     "npcId": 83700085,
@@ -16754,17 +16815,9 @@
         "icon": "UI/Common/icon_weaponstore",
         "isStore": false,
         "isTalk": false,
-        "name": "铁盟列车科技",
+        "name": "铁盟列车装备库",
         "showUI": "",
         "uiPath": "UI/WeaponStore/WeaponStore"
-      },
-      {
-        "icon": "UI/HomeBattleCenter/icon_exchange",
-        "isStore": true,
-        "isTalk": false,
-        "name": "多萝西的秘密武器",
-        "showUI": "Group_Exchange",
-        "uiPath": ""
       },
       {
         "icon": "UI/Home/HomeSafe/jiaotan",
@@ -16774,14 +16827,10 @@
         "showUI": ""
       }
     ],
-    "exchangeStoreList": [
-      {
-        "id": 40300047
-      }
-    ],
+    "exchangeStoreList": [],
     "exchangeWeaponList": [
       {
-        "id": 40300043
+        "id": 40300072
       }
     ],
     "isShowConstruct": true,

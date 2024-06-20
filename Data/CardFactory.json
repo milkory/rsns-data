@@ -16653,6 +16653,7 @@
     "mod": "基础卡牌",
     "isInformalData": false,
     "name": "震撼弹",
+    "isCutIn": false,
     "isNoCD": false,
     "isUseInHand": false,
     "isNotDiscard": false,
@@ -16698,7 +16699,8 @@
         "tagId": 12600508
       }
     ],
-    "deriveCardList": []
+    "deriveCardList": [],
+    "cardAIActionList": []
   },
   {
     "id": 10600254,
@@ -17623,7 +17625,7 @@
     "iconPath": "RolePlus/Shire/skillicon/S",
     "backPath": "",
     "roleImgPath": "",
-    "color": "Red",
+    "color": "Purple",
     "cardType": "Normal",
     "sameCardGroupId": -1,
     "actionId": 10102714,
@@ -17648,16 +17650,34 @@
         "tagId": 12600007
       },
       {
-        "tagId": 12600145
-      },
-      {
-        "tagId": 12600269
+        "tagId": 12600073
       },
       {
         "tagId": 12600244
       },
       {
         "tagId": 12600082
+      },
+      {
+        "tagId": 12600269
+      },
+      {
+        "tagId": 12600090
+      },
+      {
+        "tagId": 12600053
+      },
+      {
+        "tagId": 12600245
+      },
+      {
+        "tagId": 12600150
+      },
+      {
+        "tagId": 12600272
+      },
+      {
+        "tagId": 12601265
       }
     ],
     "tagOutsideList": [],
@@ -17677,7 +17697,7 @@
     "iconPath": "RolePlus/Shire/skillicon/B",
     "backPath": "",
     "roleImgPath": "",
-    "color": "Purple",
+    "color": "Red",
     "cardType": "Normal",
     "sameCardGroupId": -1,
     "actionId": 10102715,
@@ -17688,9 +17708,9 @@
     "discardBuffId": -1,
     "discardBySkillBuffId": -1,
     "banishBuffId": -1,
-    "atkAreaType": "VariableArea",
+    "atkAreaType": "TargetArea",
     "atkAreaColor": "Yellow",
-    "targetColor": "AttackTest",
+    "targetColor": "HealAndAttackTest",
     "disappearEffectId": 11100047,
     "appearEffectId": 11100046,
     "createEffectId": 11100106,
@@ -17699,13 +17719,19 @@
     "isCostX": false,
     "tagList": [
       {
-        "tagId": 12600073
+        "tagId": 12600145
       },
       {
         "tagId": 12600269
       },
       {
         "tagId": 12600244
+      },
+      {
+        "tagId": 12600057
+      },
+      {
+        "tagId": 12601263
       }
     ],
     "tagOutsideList": [],
@@ -17725,7 +17751,7 @@
     "iconPath": "RolePlus/Shire/skillicon/A",
     "backPath": "",
     "roleImgPath": "",
-    "color": "Red",
+    "color": "Purple",
     "cardType": "Normal",
     "sameCardGroupId": -1,
     "actionId": 10102716,
@@ -17747,10 +17773,16 @@
     "isCostX": false,
     "tagList": [
       {
-        "tagId": 12600145
+        "tagId": 12600073
       },
       {
-        "tagId": 12600082
+        "tagId": 12600053
+      },
+      {
+        "tagId": 12600090
+      },
+      {
+        "tagId": 12601262
       }
     ],
     "tagOutsideList": [],
@@ -17771,10 +17803,10 @@
     "backPath": "",
     "roleImgPath": "",
     "color": "Red",
-    "cardType": "Normal",
+    "cardType": "UseOnce",
     "sameCardGroupId": -1,
     "actionId": 10102729,
-    "cost_SN": 50000,
+    "cost_SN": 0,
     "inhandBuffId": -1,
     "inhandOverBuffId": -1,
     "startBuffId": -1,
@@ -17793,6 +17825,15 @@
     "tagList": [
       {
         "tagId": 12600145
+      },
+      {
+        "tagId": 12600244
+      },
+      {
+        "tagId": 12600269
+      },
+      {
+        "tagId": 12601264
       }
     ],
     "tagOutsideList": [],

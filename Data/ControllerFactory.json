@@ -14911,7 +14911,7 @@
     "shapeShiftList": [
       {
         "controllerID": 10300385,
-        "hpPercentSN": 5000
+        "hpPercentSN": 7000
       }
     ],
     "commandList": [],
@@ -14973,7 +14973,12 @@
       }
     ],
     "skillLoopDelayFrame": 540,
-    "shapeShiftList": [],
+    "shapeShiftList": [
+      {
+        "controllerID": 10300415,
+        "hpPercentSN": 3000
+      }
+    ],
     "commandList": [],
     "enemySkillList": [],
     "isUseEnergy": false,
@@ -15033,7 +15038,7 @@
     "shapeShiftList": [
       {
         "controllerID": 10300387,
-        "hpPercentSN": 5000
+        "hpPercentSN": 8000
       }
     ],
     "commandList": [],
@@ -15097,7 +15102,12 @@
       }
     ],
     "skillLoopDelayFrame": 540,
-    "shapeShiftList": [],
+    "shapeShiftList": [
+      {
+        "controllerID": 10300416,
+        "hpPercentSN": 5000
+      }
+    ],
     "commandList": [],
     "enemySkillList": [],
     "isUseEnergy": false,
@@ -15762,21 +15772,27 @@
     "effectOffsetY": 0.0,
     "actionList": [
       {
-        "actionID": 10103056
+        "actionID": 10103051
       }
     ],
     "normalAttackCritID": -1,
     "skillList": [
       {
-        "actionId": 10103059,
+        "actionId": 10103057,
         "activeFrame": 240,
         "activeTime": 4.0,
         "rangeSN": -10000
       },
       {
-        "actionId": 10103054,
+        "actionId": 10103059,
         "activeFrame": 480,
         "activeTime": 8.0,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10103054,
+        "activeFrame": 720,
+        "activeTime": 12.0,
         "rangeSN": -10000
       }
     ],
@@ -15798,7 +15814,7 @@
         "rangeSN": -10000
       }
     ],
-    "energyRestorePerFrameSN": 850,
+    "energyRestorePerFrameSN": 500,
     "isSkillDelay": false,
     "minDelay": 360,
     "maxDelay": 360
@@ -15813,11 +15829,30 @@
     "effectOffsetY": 0.0,
     "actionList": [
       {
-        "actionID": 10103056
+        "actionID": 10103051
       }
     ],
     "normalAttackCritID": -1,
-    "skillList": [],
+    "skillList": [
+      {
+        "actionId": 10102923,
+        "activeFrame": 240,
+        "activeTime": 4.0,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10102936,
+        "activeFrame": 480,
+        "activeTime": 8.0,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10103069,
+        "activeFrame": 720,
+        "activeTime": 12.0,
+        "rangeSN": -10000
+      }
+    ],
     "isInvisibleBeforeShowUp": true,
     "showupSkillList": [],
     "skillLoopDelayFrame": 680,
@@ -15827,12 +15862,12 @@
     "isUseEnergy": true,
     "energySkillList": [
       {
-        "actionId": 10103062,
+        "actionId": 10103070,
         "isClearEnergy": true,
         "rangeSN": -10000
       }
     ],
-    "energyRestorePerFrameSN": 370,
+    "energyRestorePerFrameSN": 550,
     "isSkillDelay": false,
     "minDelay": 360,
     "maxDelay": 360
@@ -15847,15 +15882,21 @@
     "effectOffsetY": 0.0,
     "actionList": [
       {
-        "actionID": 10103056
+        "actionID": 10103051
       }
     ],
     "normalAttackCritID": -1,
     "skillList": [
       {
-        "actionId": 10103059,
+        "actionId": 10103057,
         "activeFrame": 240,
         "activeTime": 4.0,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10103059,
+        "activeFrame": 480,
+        "activeTime": 8.0,
         "rangeSN": -10000
       },
       {
@@ -16224,5 +16265,236 @@
     "isSkillDelay": false,
     "minDelay": 120,
     "maxDelay": 360
+  },
+  {
+    "id": 10300414,
+    "idCN": "我方/50召唤物/夏尔的朱迪",
+    "mod": "基础AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": -1,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10103071
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [],
+    "isInvisibleBeforeShowUp": true,
+    "showupSkillList": [
+      {
+        "actionId": 10103075
+      }
+    ],
+    "skillLoopDelayFrame": 120,
+    "shapeShiftList": [],
+    "commandList": [
+      {
+        "actionID": 10103076
+      },
+      {
+        "actionID": 10103077
+      },
+      {
+        "actionID": 10103078
+      }
+    ],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300415,
+    "idCN": "爬塔/人形单位/鼹鼠重机三阶段-4",
+    "mod": "BOSSAI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10103005
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10100577,
+        "activeFrame": 180,
+        "activeTime": 3.0059
+      },
+      {
+        "actionId": 10103007,
+        "activeFrame": 360,
+        "activeTime": 6.0,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10100577,
+        "activeFrame": 790,
+        "activeTime": 13.1929
+      },
+      {
+        "actionId": 10100587,
+        "activeFrame": 960,
+        "activeTime": 16.0319,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10100578,
+        "activeFrame": 1440,
+        "activeTime": 24.0
+      }
+    ],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [
+      {
+        "actionId": 10100586
+      }
+    ],
+    "skillLoopDelayFrame": 540,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
+    "isSkillDelay": true,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300416,
+    "idCN": "爬塔/人形单位/鼹鼠重机三阶段-5",
+    "mod": "BOSSAI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10103005
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10103008,
+        "activeFrame": 180,
+        "activeTime": 3.0059,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10103007,
+        "activeFrame": 360,
+        "activeTime": 6.0,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10103008,
+        "activeFrame": 790,
+        "activeTime": 13.1929,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10103009,
+        "activeFrame": 960,
+        "activeTime": 16.0319,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10100578,
+        "activeFrame": 1440,
+        "activeTime": 24.0
+      }
+    ],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [
+      {
+        "actionId": 10100586
+      }
+    ],
+    "skillLoopDelayFrame": 540,
+    "shapeShiftList": [
+      {
+        "controllerID": 10300417,
+        "hpPercentSN": 3000
+      }
+    ],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
+    "isSkillDelay": true,
+    "minDelay": 120,
+    "maxDelay": 240
+  },
+  {
+    "id": 10300417,
+    "idCN": "爬塔/人形单位/鼹鼠重机四阶段-5",
+    "mod": "BOSSAI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10103005
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10103008,
+        "activeFrame": 180,
+        "activeTime": 3.0059,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10103007,
+        "activeFrame": 360,
+        "activeTime": 6.0,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10103008,
+        "activeFrame": 790,
+        "activeTime": 13.1929,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10103009,
+        "activeFrame": 960,
+        "activeTime": 16.0319,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10100578,
+        "activeFrame": 1440,
+        "activeTime": 24.0
+      }
+    ],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [
+      {
+        "actionId": 10100586
+      }
+    ],
+    "skillLoopDelayFrame": 540,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
+    "isSkillDelay": true,
+    "minDelay": 120,
+    "maxDelay": 240
   }
 ]

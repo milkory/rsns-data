@@ -8588,25 +8588,35 @@
   },
   {
     "id": 40300062,
-    "idCN": "3家具/监狱/生产设备",
-    "mod": "家具商店",
+    "idCN": "11监狱/云岫桥/兑换商店",
+    "mod": "商店",
     "isInformalData": false,
-    "storeName": "设备",
+    "storeName": "兑换商店",
     "unlockConditions": false,
     "conditions": -1,
+    "maxShopNum": 0,
+    "autoRefresh": false,
+    "refreshTimeList": [],
+    "moneyList": [],
+    "freeRefreshNum": 0,
     "pngSelect": "UI/Home/HomeStore/home_select",
     "pngNotSelect": "UI/Home/HomeStore/home_unselect",
     "shopList": [
       {
-        "id": 40200715,
+        "id": 40200843,
         "weight": 1
       }
     ],
     "storeType": "Regular",
+    "TextLockId": -1,
     "showUI": "Group_DiamondStore",
+    "commodityFixedList": [],
+    "isRecordTimes": false,
+    "rewardList": [],
+    "isStationRefresh": false,
     "capacityType": [
       {
-        "id": 12600321
+        "id": 12600325
       }
     ],
     "refreshType": "Daily",
@@ -8617,12 +8627,12 @@
   },
   {
     "id": 40300063,
-    "idCN": "3家具/监狱/家具",
+    "idCN": "11监狱/云岫桥/采购设备",
     "mod": "家具商店",
     "isInformalData": false,
-    "storeName": "家具",
+    "storeName": "采购设备",
     "unlockConditions": false,
-    "conditions": 80400008,
+    "conditions": -1,
     "pngSelect": "UI/Home/HomeStore/home_select",
     "pngNotSelect": "UI/Home/HomeStore/home_unselect",
     "shopList": [
@@ -8832,5 +8842,48 @@
         "id": 11400236
       }
     ]
+  },
+  {
+    "id": 40300072,
+    "idCN": "5列车武装商店/云岫桥基地-小麦",
+    "mod": "商店",
+    "isInformalData": false,
+    "storeName": "铁盟列车装备库",
+    "unlockConditions": false,
+    "conditions": -1,
+    "maxShopNum": 20,
+    "autoRefresh": false,
+    "refreshTimeList": [],
+    "moneyList": [],
+    "freeRefreshNum": 0,
+    "pngSelect": "UI/Home/BarStore/zongbu_select",
+    "pngNotSelect": "UI/Home/BarStore/zongbu",
+    "shopList": [
+      {
+        "id": 40200014,
+        "weight": 1
+      },
+      {
+        "id": 40200521,
+        "weight": 1
+      },
+      {
+        "id": 40200297,
+        "weight": 1
+      }
+    ],
+    "storeType": "Regular",
+    "TextLockId": -1,
+    "showUI": "Group_DiamondStore",
+    "commodityFixedList": [],
+    "isRecordTimes": false,
+    "rewardList": [],
+    "isStationRefresh": false,
+    "capacityType": [],
+    "refreshType": "Monthly",
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "currencyShow": []
   }
 ]

@@ -14141,7 +14141,7 @@
   },
   {
     "id": 99900046,
-    "idCN": "剧情回顾表",
+    "idCN": "行车日志/主线剧情回顾表",
     "mod": "剧情回顾列表",
     "isInformalData": false,
     "nameEN": "PlotListConfig",
@@ -15050,6 +15050,10 @@
       {
         "id": 84600004,
         "weight": 999
+      },
+      {
+        "id": 84600009,
+        "weight": 10
       }
     ],
     "isClickPollute": true,
@@ -19816,7 +19820,7 @@
         "png": "UI/Activity/Tab/tab_eventWeek",
         "showUI": "UI/Activity/GoldenWeek/Group_EventWeek",
         "sort": 8,
-        "startTime": "2030-06-15 05:00:00",
+        "startTime": "2024-07-15 05:00:00",
         "tag": 12601150
       },
       {
@@ -20227,8 +20231,8 @@
       },
       {
         "id": 86000010,
-        "passengerIcon": "UI/Common/coc_icon_ing",
-        "recycleId": "UI/Common/coc_icon_ing"
+        "passengerIcon": "UI/Activity/GoldenWeek/EventPng/eventWeek_tag",
+        "recycleId": "UI/Activity/GoldenWeek/EventPng/eventWeek_tag"
       },
       {
         "id": 86000011,
@@ -20238,8 +20242,87 @@
     ]
   },
   {
+    "id": 99900076,
+    "idCN": "周边危险度",
+    "mod": "周边危险度",
+    "isInformalData": false,
+    "nameEN": "DangerConfig",
+    "dangerList": [
+      {
+        "cityDanger": "UI/CityMap/citymap_btm_d1",
+        "dangerText": "轻微失稳",
+        "mainDanger": "UI/MainUI/map_btm_d1",
+        "mainSelected": "UI/MainUI/DL_Effect/map_btm_color_D1",
+        "sColor": "41FFE5"
+      },
+      {
+        "cityDanger": "UI/CityMap/citymap_btm_d1",
+        "dangerText": "轻微失稳",
+        "mainDanger": "UI/MainUI/map_btm_d1",
+        "mainSelected": "UI/MainUI/DL_Effect/map_btm_color_D1",
+        "sColor": "41FFE5"
+      },
+      {
+        "cityDanger": "UI/CityMap/citymap_btm_d2",
+        "dangerText": "低度危险",
+        "mainDanger": "UI/MainUI/map_btm_d2",
+        "mainSelected": "UI/MainUI/DL_Effect/map_btm_color_D2",
+        "sColor": "BDFF41"
+      },
+      {
+        "cityDanger": "UI/CityMap/citymap_btm_d2",
+        "dangerText": "低度危险",
+        "mainDanger": "UI/MainUI/map_btm_d2",
+        "mainSelected": "UI/MainUI/DL_Effect/map_btm_color_D2",
+        "sColor": "BDFF41"
+      },
+      {
+        "cityDanger": "UI/CityMap/citymap_btm_d3",
+        "dangerText": "中度危险",
+        "mainDanger": "UI/MainUI/map_btm_d3",
+        "mainSelected": "UI/MainUI/DL_Effect/map_btm_color_D3",
+        "sColor": "FFB800"
+      },
+      {
+        "cityDanger": "UI/CityMap/citymap_btm_d3",
+        "dangerText": "中度危险",
+        "mainDanger": "UI/MainUI/map_btm_d3",
+        "mainSelected": "UI/MainUI/DL_Effect/map_btm_color_D3",
+        "sColor": "FFB800"
+      },
+      {
+        "cityDanger": "UI/CityMap/citymap_btm_d4",
+        "dangerText": "高度危险",
+        "mainDanger": "UI/MainUI/map_btm_d4",
+        "mainSelected": "UI/MainUI/DL_Effect/map_btm_color_D4",
+        "sColor": "FF8341"
+      },
+      {
+        "cityDanger": "UI/CityMap/citymap_btm_d4",
+        "dangerText": "高度危险",
+        "mainDanger": "UI/MainUI/map_btm_d4",
+        "mainSelected": "UI/MainUI/DL_Effect/map_btm_color_D4",
+        "sColor": "FF8341"
+      },
+      {
+        "cityDanger": "UI/CityMap/citymap_btm_d5",
+        "dangerText": "极度危险",
+        "mainDanger": "UI/MainUI/map_btm_d5",
+        "mainSelected": "UI/MainUI/DL_Effect/map_btm_color_D5",
+        "sColor": "D63A3A"
+      },
+      {
+        "cityDanger": "UI/CityMap/citymap_btm_d5",
+        "dangerText": "极度危险",
+        "mainDanger": "UI/MainUI/map_btm_d5",
+        "mainSelected": "UI/MainUI/DL_Effect/map_btm_color_D5",
+        "sColor": "D63A3A"
+      }
+    ]
+  },
+  {
     "id": 99900077,
-    "idCN": "活动剧情回顾表",
+    "idCN": "行车日志/活动剧情回顾表",
     "mod": "剧情回顾列表",
     "isInformalData": false,
     "nameEN": "PlotListConfig",
