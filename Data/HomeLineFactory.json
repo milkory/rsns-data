@@ -1976,7 +1976,7 @@
   },
   {
     "id": 82700011,
-    "idCN": "新城市表/20-发电站-跨海大桥",
+    "idCN": "新城市表/19-发电站-跨海大桥",
     "mod": "基础线路",
     "isInformalData": false,
     "lineMsg": [
@@ -2156,7 +2156,7 @@
   },
   {
     "id": 82700012,
-    "idCN": "新城市表/17-海角城-发电站",
+    "idCN": "新城市表/18-海角城-发电站",
     "mod": "基础线路",
     "isInformalData": false,
     "lineMsg": [
@@ -3341,7 +3341,7 @@
   },
   {
     "id": 82700018,
-    "idCN": "新城市表/19-海角城-跨海大桥",
+    "idCN": "新城市表/20-海角城-跨海大桥",
     "mod": "基础线路",
     "isInformalData": false,
     "lineMsg": [
@@ -3376,6 +3376,7 @@
     "enemyLevelMin": 38,
     "boxMin": 0,
     "boxMax": 0,
+    "boxPolluteNum": 0.5,
     "boxList": [],
     "AreaTipList": [],
     "AttractionList": [],
@@ -3852,13 +3853,13 @@
   },
   {
     "id": 82700023,
-    "idCN": "新城市表/21荒原站-云岫桥基地",
+    "idCN": "新城市表/17荒原站-云岫桥基地",
     "mod": "基础线路",
     "isInformalData": false,
     "lineMsg": [
       {
         "id": 90500032,
-        "lineMax": 4537.787,
+        "lineMax": 6788.039,
         "lineMin": 0.0
       }
     ],
@@ -3867,28 +3868,377 @@
     "lineQuestList": [],
     "station01": 83000003,
     "station02": 83000017,
-    "distance": 4537.787,
+    "distance": 6788.039,
     "sceneGroup": 70400003,
     "bgmId": 30001274,
     "bgmId2": -1,
     "playerLevel": 0,
     "questId": -1,
     "specifiedLevelId": -1,
-    "lineLevelList": [],
-    "triggerNumMin": 0,
-    "triggerNumMax": 1,
-    "lineBgList": [],
-    "LineEnemyLv": 1,
-    "LineEnemyLvRan": 0,
-    "LineEnemyRn": 0,
-    "LineWeatherRate": 0,
-    "LineWeatherList": [],
+    "lineLevelList": [
+      {
+        "distance": 925,
+        "id": 80302432,
+        "weight": 1
+      },
+      {
+        "distance": 1225,
+        "id": 80302430,
+        "weight": 1
+      },
+      {
+        "distance": 1605,
+        "id": 80302432,
+        "weight": 1
+      },
+      {
+        "distance": 1980,
+        "id": 80302433,
+        "weight": 1
+      },
+      {
+        "distance": 2400,
+        "id": 80302432,
+        "weight": 1
+      },
+      {
+        "distance": 2885,
+        "id": 80302430,
+        "weight": 1
+      },
+      {
+        "distance": 3225,
+        "id": 80303323,
+        "weight": 1
+      }
+    ],
+    "triggerNumMin": 1,
+    "triggerNumMax": 2,
+    "lineBgList": [
+      {
+        "LineBgid": 20000026,
+        "distance0": 250
+      },
+      {
+        "LineBgid": 20000007,
+        "distance0": 500
+      },
+      {
+        "LineBgid": 20000023,
+        "distance0": 1000
+      },
+      {
+        "LineBgid": 20000014,
+        "distance0": 1500
+      },
+      {
+        "LineBgid": 20000022,
+        "distance0": 2000
+      },
+      {
+        "LineBgid": 20000023,
+        "distance0": 3000
+      }
+    ],
+    "LineEnemyLv": 40,
+    "LineEnemyLvRan": 2,
+    "LineEnemyRn": 4,
+    "LineWeatherRate": 5000,
+    "LineWeatherList": [
+      {
+        "LineWTid": 50000003
+      },
+      {
+        "LineWTid": 50000009
+      },
+      {
+        "LineWTid": 50000010
+      },
+      {
+        "LineWTid": 50000002
+      },
+      {
+        "LineWTid": 50000017
+      },
+      {
+        "LineWTid": 50000018
+      },
+      {
+        "LineWTid": 50000019
+      }
+    ],
     "eventHpRatio": 1.0,
-    "enemyLevelMin": 1,
-    "boxMin": 0,
-    "boxMax": 0,
+    "enemyLevelMin": 38,
+    "boxMin": 3,
+    "boxMax": 6,
     "boxPolluteNum": 0.5,
-    "boxList": [],
+    "boxList": [
+      {
+        "distance": 500,
+        "id": 82800025,
+        "weight": 1
+      },
+      {
+        "distance": 550,
+        "id": 82800025,
+        "weight": 1
+      },
+      {
+        "distance": 600,
+        "id": 82800025,
+        "weight": 1
+      },
+      {
+        "distance": 650,
+        "id": 82800025,
+        "weight": 1
+      },
+      {
+        "distance": 700,
+        "id": 82800025,
+        "weight": 1
+      },
+      {
+        "distance": 750,
+        "id": 82800025,
+        "weight": 1
+      },
+      {
+        "distance": 800,
+        "id": 82800025,
+        "weight": 1
+      },
+      {
+        "distance": 850,
+        "id": 82800025,
+        "weight": 1
+      },
+      {
+        "distance": 900,
+        "id": 82800025,
+        "weight": 1
+      },
+      {
+        "distance": 950,
+        "id": 82800025,
+        "weight": 1
+      },
+      {
+        "distance": 1000,
+        "id": 82800025,
+        "weight": 1
+      },
+      {
+        "distance": 1050,
+        "id": 82800025,
+        "weight": 1
+      },
+      {
+        "distance": 1300,
+        "id": 82800025,
+        "weight": 1
+      },
+      {
+        "distance": 1350,
+        "id": 82800025,
+        "weight": 1
+      },
+      {
+        "distance": 1400,
+        "id": 82800025,
+        "weight": 1
+      },
+      {
+        "distance": 1450,
+        "id": 82800025,
+        "weight": 1
+      },
+      {
+        "distance": 1500,
+        "id": 82800025,
+        "weight": 1
+      },
+      {
+        "distance": 1550,
+        "id": 82800025,
+        "weight": 1
+      },
+      {
+        "distance": 1800,
+        "id": 82800025,
+        "weight": 1
+      },
+      {
+        "distance": 1850,
+        "id": 82800025,
+        "weight": 1
+      },
+      {
+        "distance": 1900,
+        "id": 82800025,
+        "weight": 1
+      },
+      {
+        "distance": 1950,
+        "id": 82800025,
+        "weight": 1
+      },
+      {
+        "distance": 2000,
+        "id": 82800025,
+        "weight": 1
+      },
+      {
+        "distance": 2050,
+        "id": 82800025,
+        "weight": 1
+      },
+      {
+        "distance": 2100,
+        "id": 82800025,
+        "weight": 1
+      },
+      {
+        "distance": 2150,
+        "id": 82800025,
+        "weight": 1
+      },
+      {
+        "distance": 2200,
+        "id": 82800025,
+        "weight": 1
+      },
+      {
+        "distance": 2250,
+        "id": 82800025,
+        "weight": 1
+      },
+      {
+        "distance": 2300,
+        "id": 82800025,
+        "weight": 1
+      },
+      {
+        "distance": 2350,
+        "id": 82800025,
+        "weight": 1
+      },
+      {
+        "distance": 2400,
+        "id": 82800025,
+        "weight": 1
+      },
+      {
+        "distance": 2450,
+        "id": 82800025,
+        "weight": 1
+      },
+      {
+        "distance": 2500,
+        "id": 82800025,
+        "weight": 1
+      },
+      {
+        "distance": 2550,
+        "id": 82800025,
+        "weight": 1
+      },
+      {
+        "distance": 2600,
+        "id": 82800025,
+        "weight": 1
+      },
+      {
+        "distance": 2650,
+        "id": 82800025,
+        "weight": 1
+      },
+      {
+        "distance": 2700,
+        "id": 82800025,
+        "weight": 1
+      },
+      {
+        "distance": 2750,
+        "id": 82800025,
+        "weight": 1
+      },
+      {
+        "distance": 2800,
+        "id": 82800025,
+        "weight": 1
+      },
+      {
+        "distance": 2850,
+        "id": 82800025,
+        "weight": 1
+      },
+      {
+        "distance": 2900,
+        "id": 82800025,
+        "weight": 1
+      },
+      {
+        "distance": 2950,
+        "id": 82800025,
+        "weight": 1
+      },
+      {
+        "distance": 3000,
+        "id": 82800025,
+        "weight": 1
+      },
+      {
+        "distance": 3050,
+        "id": 82800025,
+        "weight": 1
+      },
+      {
+        "distance": 3100,
+        "id": 82800025,
+        "weight": 1
+      },
+      {
+        "distance": 3150,
+        "id": 82800025,
+        "weight": 1
+      },
+      {
+        "distance": 3200,
+        "id": 82800025,
+        "weight": 1
+      },
+      {
+        "distance": 3250,
+        "id": 82800025,
+        "weight": 1
+      },
+      {
+        "distance": 3300,
+        "id": 82800025,
+        "weight": 1
+      },
+      {
+        "distance": 3350,
+        "id": 82800025,
+        "weight": 1
+      },
+      {
+        "distance": 3400,
+        "id": 82800025,
+        "weight": 1
+      },
+      {
+        "distance": 3450,
+        "id": 82800025,
+        "weight": 1
+      },
+      {
+        "distance": 3500,
+        "id": 82800025,
+        "weight": 1
+      }
+    ],
     "AreaTipList": [
       {
         "disMax": 880,
@@ -10810,7 +11160,7 @@
   },
   {
     "id": 82700020,
-    "idCN": "新城市表/18-海角城-汇流塔",
+    "idCN": "新城市表/21-海角城-汇流塔",
     "mod": "基础线路",
     "isInformalData": false,
     "lineMsg": [

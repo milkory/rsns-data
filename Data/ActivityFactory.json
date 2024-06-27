@@ -14,6 +14,7 @@
     "correspondingCity": [],
     "correspondingBuild": [],
     "isJoin": true,
+    "isOnly": -1,
     "questId": 81001139,
     "unlockTips": 80600439,
     "isTime": true,
@@ -97,10 +98,12 @@
         "buyQuotationMax": 0.9,
         "buyQuotationMin": 0.5,
         "buyStationList": 86100001,
+        "endTime": "",
         "goodsId": 82900046,
         "sellQuotationMax": 1.5,
         "sellQuotationMin": 1.1,
-        "sellStationList": 86100002
+        "sellStationList": 86100002,
+        "startTime": ""
       }
     ],
     "tradeTypeList": [
@@ -266,6 +269,7 @@
         "id": 81000620
       }
     ],
+    "city": -1,
     "activityCardPack": 86300001,
     "activityGoods": 82900046
   },
@@ -855,6 +859,10 @@
         "startTime": "2024-05-07 05:00:00"
       }
     ],
+    "city": -1,
+    "activityTriggerList": [],
+    "priceSeatList": [],
+    "gradeIncomeList": [],
     "activityCardPack": -1
   },
   {
@@ -959,7 +967,7 @@
     "bgPath": "",
     "bgColor": "FFFFFF",
     "npcId": 83700060,
-    "helpId": 80301725,
+    "helpId": 80301938,
     "voiceActivity": 30001074,
     "correspondingCity": [],
     "correspondingBuild": [],
@@ -968,13 +976,14 @@
     "questId": -1,
     "unlockTips": -1,
     "isTime": false,
-    "startTime": "2024-07-15 05:00:00",
+    "startTime": "2024-06-28 05:00:00",
     "endTime": "",
     "rewardEndTime": "",
     "rewardPreviewList": [],
     "activityStoreList": [],
     "joinPlotId": -1,
     "joinQuestId": -1,
+    "city": -1,
     "activityCardPack": -1,
     "eventType": "week",
     "eventRandomWeek": [
@@ -1153,7 +1162,7 @@
         "circleText": 80607226,
         "eventText": 80607224,
         "id": 86100055,
-        "npcId": 83700060,
+        "npcId": 83700078,
         "titleText": 80607225,
         "tvBgPng": "UI/Activity/GoldenWeek/Main/BG_Main",
         "weight": 1
@@ -1554,6 +1563,18 @@
         "startTime": "2024-06-01 05:00:00"
       }
     ],
+    "city": -1,
+    "activityTriggerList": [
+      {}
+    ],
+    "priceSeatList": [
+      {
+        "id": 84100159
+      }
+    ],
+    "gradeIncomeList": [
+      {}
+    ],
     "activityCardPack": -1
   },
   {
@@ -1680,6 +1701,41 @@
     "activityStoreList": [],
     "joinPlotId": -1,
     "joinQuestId": -1,
+    "activityCardPack": -1,
+    "eventType": "week",
+    "eventRandomWeek": []
+  },
+  {
+    "id": 86000014,
+    "idCN": "常驻/逸闻",
+    "mod": "常驻事件活动",
+    "isInformalData": false,
+    "name": "乘员逸闻",
+    "showUI": "UI/Activity/Anecdote/AnecdoteActivity",
+    "bgPath": "",
+    "bgColor": "FFFFFF",
+    "npcId": -1,
+    "helpId": -1,
+    "voiceActivity": 30002382,
+    "correspondingCity": [
+      {
+        "id": 83000029
+      }
+    ],
+    "correspondingBuild": [],
+    "isJoin": false,
+    "isOnly": -1,
+    "questId": -1,
+    "unlockTips": -1,
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "rewardEndTime": "",
+    "rewardPreviewList": [],
+    "activityStoreList": [],
+    "joinPlotId": -1,
+    "joinQuestId": -1,
+    "city": -1,
     "activityCardPack": -1,
     "eventType": "week",
     "eventRandomWeek": []

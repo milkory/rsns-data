@@ -4729,11 +4729,16 @@
     "effectID": -1,
     "hitSoundId": -1,
     "scaleTag": "",
-    "hitEffect": 11102367,
-    "totalFrame": 30,
-    "dontBindOwner": false,
+    "hitEffect": -1,
+    "totalFrame": 60,
+    "dontBindOwner": true,
     "hitFrameList": [
-      {}
+      {
+        "hitFrame": 5
+      },
+      {
+        "hitFrame": 35
+      }
     ]
   },
   {
@@ -7524,41 +7529,6 @@
     "intervalFrame": 0,
     "isDoBuffOnly": false,
     "isHitTargetOnly": false
-  },
-  {
-    "id": 11200188,
-    "idCN": "我方/03星/伊尔/404治疗抛物线",
-    "mod": "抛物线",
-    "isInformalData": false,
-    "bulletViewId": 11300008,
-    "speedX_SN": 120000,
-    "disappearEffectList": [],
-    "appearEffectList": [],
-    "effectID": -1,
-    "hitSoundId": -1,
-    "scaleTag": "",
-    "ySpeedStart_SN": 0,
-    "ySpeedOffSet_SN": 0,
-    "isAddSpeedZ": false,
-    "durationMin": 1,
-    "damageRadius_SN": 5000,
-    "isFixedPosition": false,
-    "xOffSetStart_SN": 0,
-    "xOffSet_SN": 0,
-    "yOffSetStart_SN": 0,
-    "yOffSet_SN": 0,
-    "zOffSetStart_SN": 0,
-    "zOffSet_SN": 0,
-    "groundEffectList": [],
-    "isGroundEffectUseHitTimes": false,
-    "groundSoundId": -1,
-    "isGroundSoundUseHitTimes": false,
-    "envBuffId": -1,
-    "hitTimes": 0,
-    "hitTimesCustomTag": "",
-    "intervalFrame": 60,
-    "isDoBuffOnly": false,
-    "isHitTargetOnly": true
   },
   {
     "id": 11200263,
@@ -11574,7 +11544,7 @@
     "mod": "镭射",
     "isInformalData": false,
     "bulletViewId": 11300272,
-    "speedX_SN": 3000,
+    "speedX_SN": 1500,
     "disappearEffectList": [],
     "appearEffectList": [],
     "effectID": -1,
@@ -11585,7 +11555,7 @@
     "dontBindOwner": false,
     "hitFrameList": [
       {
-        "hitFrame": 30
+        "hitFrame": 10
       }
     ]
   },
@@ -11799,13 +11769,13 @@
     "mod": "抛物线",
     "isInformalData": false,
     "bulletViewId": 11300275,
-    "speedX_SN": 2500,
+    "speedX_SN": 5000,
     "disappearEffectList": [],
     "appearEffectList": [],
     "effectID": -1,
     "hitSoundId": -1,
     "scaleTag": "",
-    "ySpeedStart_SN": 3000,
+    "ySpeedStart_SN": 1500,
     "ySpeedOffSet_SN": 0,
     "isAddSpeedZ": false,
     "durationMin": 30,
@@ -11817,7 +11787,17 @@
     "yOffSet_SN": 0,
     "zOffSetStart_SN": 0,
     "zOffSet_SN": 0,
-    "groundEffectList": [],
+    "groundEffectList": [
+      {
+        "effectId": 11105747
+      },
+      {
+        "effectId": 11105755
+      },
+      {
+        "effectId": 11105756
+      }
+    ],
     "isGroundEffectUseHitTimes": false,
     "groundSoundId": -1,
     "isGroundSoundUseHitTimes": false,
@@ -11833,14 +11813,14 @@
     "idCN": "我方/05星/夏尔/A子弹",
     "mod": "抛物线",
     "isInformalData": false,
-    "bulletViewId": 11300008,
-    "speedX_SN": 120000,
+    "bulletViewId": 11300280,
+    "speedX_SN": 5000,
     "disappearEffectList": [],
     "appearEffectList": [],
     "effectID": -1,
     "hitSoundId": -1,
     "scaleTag": "",
-    "ySpeedStart_SN": 3000,
+    "ySpeedStart_SN": 0,
     "ySpeedOffSet_SN": 0,
     "isAddSpeedZ": false,
     "durationMin": 0,
@@ -11852,7 +11832,17 @@
     "yOffSet_SN": 0,
     "zOffSetStart_SN": 0,
     "zOffSet_SN": 0,
-    "groundEffectList": [],
+    "groundEffectList": [
+      {
+        "effectId": 11104918
+      },
+      {
+        "effectId": 11105046
+      },
+      {
+        "effectId": 11105756
+      }
+    ],
     "isGroundEffectUseHitTimes": false,
     "groundSoundId": -1,
     "isGroundSoundUseHitTimes": false,
@@ -11869,7 +11859,7 @@
     "mod": "抛物线",
     "isInformalData": false,
     "bulletViewId": 11300197,
-    "speedX_SN": 5000,
+    "speedX_SN": 40000,
     "disappearEffectList": [],
     "appearEffectList": [],
     "effectID": 11101204,
@@ -11878,7 +11868,7 @@
     "ySpeedStart_SN": 8000,
     "ySpeedOffSet_SN": -16000,
     "isAddSpeedZ": false,
-    "durationMin": 12,
+    "durationMin": 0,
     "damageRadius_SN": 0,
     "isFixedPosition": false,
     "xOffSetStart_SN": 0,
@@ -11913,7 +11903,7 @@
   },
   {
     "id": 11200460,
-    "idCN": "我方/05星/夏尔/bot治疗",
+    "idCN": "我方/05星/夏尔/bot共振2治疗弹",
     "mod": "抛物线",
     "isInformalData": false,
     "bulletViewId": 11300277,
@@ -11948,18 +11938,18 @@
   },
   {
     "id": 11200461,
-    "idCN": "我方/05星/夏尔/bot伤害玉米弹",
+    "idCN": "我方/05星/夏尔/bot共振4伤害玉米弹",
     "mod": "抛物线",
     "isInformalData": false,
     "bulletViewId": 11300279,
-    "speedX_SN": 4000,
+    "speedX_SN": 6500,
     "disappearEffectList": [],
     "appearEffectList": [],
     "effectID": -1,
     "hitSoundId": -1,
     "scaleTag": "",
-    "ySpeedStart_SN": 4000,
-    "ySpeedOffSet_SN": -8000,
+    "ySpeedStart_SN": 2000,
+    "ySpeedOffSet_SN": -4000,
     "isAddSpeedZ": false,
     "durationMin": 20,
     "damageRadius_SN": 0,
@@ -11980,5 +11970,183 @@
     "intervalFrame": 0,
     "isDoBuffOnly": false,
     "isHitTargetOnly": true
+  },
+  {
+    "id": 11200462,
+    "idCN": "我方/05星/夏尔/C摩托车队",
+    "mod": "冲击波",
+    "isInformalData": false,
+    "bulletViewId": 11300008,
+    "speedX_SN": 2500,
+    "disappearEffectList": [],
+    "appearEffectList": [],
+    "effectID": -1,
+    "hitSoundId": -1,
+    "scaleTag": "",
+    "durationFrame": 180,
+    "xlSN": -5000,
+    "xrSN": 5000,
+    "intervalFrame": 0,
+    "bRepeated": false,
+    "reentrantCount": 0,
+    "rangeSpeedY_SN": 0,
+    "rangeShakeFrame": 0
+  },
+  {
+    "id": 11200463,
+    "idCN": "敌方/09沙盗团/夏尔/车队子弹",
+    "mod": "冲击波",
+    "isInformalData": false,
+    "bulletViewId": 11300008,
+    "speedX_SN": 4000,
+    "disappearEffectList": [],
+    "appearEffectList": [],
+    "effectID": -1,
+    "hitSoundId": -1,
+    "scaleTag": "",
+    "durationFrame": 180,
+    "xlSN": -10000,
+    "xrSN": 10000,
+    "intervalFrame": 5,
+    "bRepeated": false,
+    "reentrantCount": 0,
+    "rangeSpeedY_SN": 0,
+    "rangeShakeFrame": 0
+  },
+  {
+    "id": 11200188,
+    "idCN": "敌方/98未知/永生者/技能1子弹",
+    "mod": "抛物线",
+    "isInformalData": false,
+    "bulletViewId": 11300008,
+    "speedX_SN": 100000,
+    "disappearEffectList": [],
+    "appearEffectList": [],
+    "effectID": -1,
+    "hitSoundId": -1,
+    "scaleTag": "",
+    "ySpeedStart_SN": 2000,
+    "ySpeedOffSet_SN": 4000,
+    "isAddSpeedZ": false,
+    "durationMin": 10,
+    "damageRadius_SN": 240000,
+    "isFixedPosition": true,
+    "xOffSetStart_SN": 0,
+    "xOffSet_SN": -60000,
+    "yOffSetStart_SN": 0,
+    "yOffSet_SN": 0,
+    "zOffSetStart_SN": 0,
+    "zOffSet_SN": 0,
+    "groundEffectList": [
+      {
+        "effectId": 11105787
+      }
+    ],
+    "isGroundEffectUseHitTimes": false,
+    "groundSoundId": -1,
+    "isGroundSoundUseHitTimes": false,
+    "envBuffId": -1,
+    "hitTimes": 1,
+    "hitTimesCustomTag": "",
+    "intervalFrame": 0,
+    "isDoBuffOnly": false,
+    "isHitTargetOnly": false
+  },
+  {
+    "id": 11200464,
+    "idCN": "我方/05星/安菲娅/bot子弹",
+    "mod": "追踪",
+    "isInformalData": false,
+    "bulletViewId": 11300043,
+    "speedX_SN": 1000,
+    "disappearEffectList": [],
+    "appearEffectList": [],
+    "effectID": -1,
+    "hitSoundId": -1,
+    "scaleTag": ""
+  },
+  {
+    "id": 11200465,
+    "idCN": "我方/03星/安菲娅/S召唤子弹",
+    "mod": "抛物线",
+    "isInformalData": false,
+    "bulletViewId": 11300139,
+    "speedX_SN": 120000,
+    "disappearEffectList": [],
+    "appearEffectList": [],
+    "effectID": -1,
+    "hitSoundId": -1,
+    "scaleTag": "",
+    "ySpeedStart_SN": 0,
+    "ySpeedOffSet_SN": 0,
+    "isAddSpeedZ": false,
+    "durationMin": 1,
+    "damageRadius_SN": 0,
+    "isFixedPosition": false,
+    "xOffSetStart_SN": 0,
+    "xOffSet_SN": 0,
+    "yOffSetStart_SN": 0,
+    "yOffSet_SN": 0,
+    "zOffSetStart_SN": 0,
+    "zOffSet_SN": 30000,
+    "groundEffectList": [
+      {
+        "effectId": 11101921
+      }
+    ],
+    "isGroundEffectUseHitTimes": false,
+    "groundSoundId": -1,
+    "isGroundSoundUseHitTimes": false,
+    "envBuffId": 10410955,
+    "hitTimes": 0,
+    "hitTimesCustomTag": "",
+    "intervalFrame": 1,
+    "isDoBuffOnly": true,
+    "isHitTargetOnly": false
+  },
+  {
+    "id": 11200466,
+    "idCN": "装备/鹅制发射器/纷纷扰扰弹",
+    "mod": "抛物线",
+    "isInformalData": false,
+    "bulletViewId": 11300275,
+    "speedX_SN": 5000,
+    "disappearEffectList": [],
+    "appearEffectList": [],
+    "effectID": -1,
+    "hitSoundId": -1,
+    "scaleTag": "",
+    "ySpeedStart_SN": 1500,
+    "ySpeedOffSet_SN": 0,
+    "isAddSpeedZ": false,
+    "durationMin": 30,
+    "damageRadius_SN": 20000,
+    "isFixedPosition": false,
+    "xOffSetStart_SN": 0,
+    "xOffSet_SN": 0,
+    "yOffSetStart_SN": 15000,
+    "yOffSet_SN": 0,
+    "zOffSetStart_SN": 0,
+    "zOffSet_SN": 0,
+    "groundEffectList": [
+      {
+        "effectId": 11105747
+      },
+      {
+        "effectId": 11105755
+      },
+      {
+        "effectId": 11105756
+      }
+    ],
+    "isGroundEffectUseHitTimes": false,
+    "groundSoundId": -1,
+    "isGroundSoundUseHitTimes": false,
+    "envBuffId": -1,
+    "hitTimes": 1,
+    "hitTimesCustomTag": "",
+    "intervalFrame": 0,
+    "isDoBuffOnly": false,
+    "isHitTargetOnly": false
   }
 ]

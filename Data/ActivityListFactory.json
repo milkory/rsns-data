@@ -314,21 +314,31 @@
     "isInformalData": false,
     "goodsList": [
       {
-        "buyQuotationMax": 1.35,
-        "buyQuotationMin": 0.8,
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": -1,
         "goodsId": 82900170,
-        "sellQuotationMax": 1.35,
-        "sellQuotationMin": 0.8,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100092
       },
       {
-        "buyQuotationMax": 1.35,
-        "buyQuotationMin": 0.8,
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": -1,
         "goodsId": 82900102,
-        "sellQuotationMax": 1.35,
-        "sellQuotationMin": 0.8,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100092
       }
     ],
@@ -350,7 +360,8 @@
     "activityPassengerList": [
       {
         "activityPond": 85600074,
-        "activityPondNum": 0.5,
+        "activityPondNumMax": 0.7,
+        "activityPondNumMin": 0.3,
         "cityId": 83000004,
         "desc": "淘金乐园接待旅客量增加"
       }
@@ -366,12 +377,23 @@
         "id": 84100121
       }
     ],
+    "city": 83000004,
     "activityTriggerList": [
       {
         "id": 84100152
       },
       {
         "id": 84100153
+      }
+    ],
+    "priceSeatList": [
+      {
+        "id": 84100160
+      }
+    ],
+    "gradeIncomeList": [
+      {
+        "id": 84100158
       }
     ]
   },
@@ -382,33 +404,87 @@
     "isInformalData": false,
     "goodsList": [
       {
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100084,
         "goodsId": 82900163,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100083
       },
       {
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100071,
         "goodsId": 82900005,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100072
       },
       {
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100071,
         "goodsId": 82900006,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100072
       },
       {
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100071,
         "goodsId": 82900008,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100072
       },
       {
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100076,
         "goodsId": 82900030,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100075
       },
       {
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100076,
         "goodsId": 82900147,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100075
       }
     ],
@@ -419,6 +495,8 @@
     "activityPassengerList": [
       {
         "activityPond": 85600074,
+        "activityPondNumMax": 0.7,
+        "activityPondNumMin": 0.3,
         "cityId": 83000003,
         "desc": "荒原站接待旅客量增加"
       }
@@ -428,12 +506,23 @@
         "id": 84100150
       }
     ],
+    "city": 83000003,
     "activityTriggerList": [
       {
         "id": 84100152
       },
       {
         "id": 84100153
+      }
+    ],
+    "priceSeatList": [
+      {
+        "id": 84100160
+      }
+    ],
+    "gradeIncomeList": [
+      {
+        "id": 84100158
       }
     ]
   },
@@ -444,21 +533,31 @@
     "isInformalData": false,
     "goodsList": [
       {
-        "buyQuotationMax": 1.35,
-        "buyQuotationMin": 0.8,
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100079,
         "goodsId": 82900083,
-        "sellQuotationMax": 1.35,
-        "sellQuotationMin": 0.8,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100080
       },
       {
-        "buyQuotationMax": 1.35,
-        "buyQuotationMin": 0.8,
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100067,
         "goodsId": 82900159,
-        "sellQuotationMax": 1.35,
-        "sellQuotationMin": 0.8,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100068
       }
     ],
@@ -480,7 +579,8 @@
     "activityPassengerList": [
       {
         "activityPond": 85600074,
-        "activityPondNum": 0.5,
+        "activityPondNumMax": 0.7,
+        "activityPondNumMin": 0.3,
         "cityId": 83000020,
         "desc": "七号自由港接待旅客量增加"
       }
@@ -493,6 +593,7 @@
         "id": 84100120
       }
     ],
+    "city": 83000020,
     "activityTriggerList": [
       {
         "id": 84100152
@@ -500,7 +601,9 @@
       {
         "id": 84100153
       }
-    ]
+    ],
+    "priceSeatList": [],
+    "gradeIncomeList": []
   },
   {
     "id": 86100018,
@@ -509,57 +612,87 @@
     "isInformalData": false,
     "goodsList": [
       {
-        "buyQuotationMax": 1.35,
-        "buyQuotationMin": 0.8,
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100079,
         "goodsId": 82900081,
-        "sellQuotationMax": 1.35,
-        "sellQuotationMin": 0.8,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100080
       },
       {
-        "buyQuotationMax": 1.35,
-        "buyQuotationMin": 0.8,
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100090,
         "goodsId": 82900025,
-        "sellQuotationMax": 1.35,
-        "sellQuotationMin": 0.8,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100089
       },
       {
-        "buyQuotationMax": 1.35,
-        "buyQuotationMin": 0.8,
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100090,
         "goodsId": 82900028,
-        "sellQuotationMax": 1.35,
-        "sellQuotationMin": 0.8,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100089
       },
       {
-        "buyQuotationMax": 1.35,
-        "buyQuotationMin": 0.8,
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100090,
         "goodsId": 82900027,
-        "sellQuotationMax": 1.35,
-        "sellQuotationMin": 0.8,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100089
       },
       {
-        "buyQuotationMax": 1.35,
-        "buyQuotationMin": 0.8,
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": -1,
         "goodsId": 82900186,
-        "sellQuotationMax": 1.35,
-        "sellQuotationMin": 0.8,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100092
       },
       {
-        "buyQuotationMax": 1.35,
-        "buyQuotationMin": 0.8,
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": -1,
         "goodsId": 82900187,
-        "sellQuotationMax": 1.35,
-        "sellQuotationMin": 0.8,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100092
       }
     ],
@@ -581,7 +714,8 @@
     "activityPassengerList": [
       {
         "activityPond": 85600074,
-        "activityPondNum": 0.0,
+        "activityPondNumMax": 0.7,
+        "activityPondNumMin": 0.3,
         "cityId": 83000002,
         "desc": "提高招揽到高级乘客的概率"
       }
@@ -594,11 +728,14 @@
         "id": 84100143
       }
     ],
+    "city": -1,
     "activityTriggerList": [
       {
         "id": 84100153
       }
-    ]
+    ],
+    "priceSeatList": [],
+    "gradeIncomeList": []
   },
   {
     "id": 86100021,
@@ -804,28 +941,73 @@
     "isInformalData": false,
     "goodsList": [
       {
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100067,
         "goodsId": 82900046,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100068
       },
       {
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100067,
         "goodsId": 82900048,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100068
       },
       {
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": -1,
         "goodsId": 82900188,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100092
       },
       {
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": -1,
         "goodsId": 82900109,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100092
       },
       {
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": -1,
         "goodsId": 82900189,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100092
       }
     ],
@@ -836,6 +1018,8 @@
     "activityPassengerList": [
       {
         "activityPond": 85600074,
+        "activityPondNumMax": 0.7,
+        "activityPondNumMin": 0.3,
         "cityId": 83000001,
         "desc": "修格里城接待旅客量增加"
       }
@@ -851,12 +1035,23 @@
         "id": 84100142
       }
     ],
+    "city": 83000001,
     "activityTriggerList": [
       {
         "id": 84100152
       },
       {
         "id": 84100153
+      }
+    ],
+    "priceSeatList": [
+      {
+        "id": 84100160
+      }
+    ],
+    "gradeIncomeList": [
+      {
+        "id": 84100158
       }
     ]
   },
@@ -867,12 +1062,17 @@
     "isInformalData": false,
     "goodsList": [
       {
-        "buyQuotationMax": 1.35,
-        "buyQuotationMin": 0.8,
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100079,
         "goodsId": 82900031,
-        "sellQuotationMax": 1.35,
-        "sellQuotationMin": 0.8,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100080
       }
     ],
@@ -883,6 +1083,8 @@
     "activityPassengerList": [
       {
         "activityPond": 85600074,
+        "activityPondNumMax": 0.7,
+        "activityPondNumMin": 0.3,
         "cityId": 83000020,
         "desc": "七号自由港接待旅客量增加"
       }
@@ -895,12 +1097,19 @@
         "id": 84100124
       }
     ],
+    "city": 83000020,
     "activityTriggerList": [
       {
         "id": 84100152
       },
       {
         "id": 84100153
+      }
+    ],
+    "priceSeatList": [],
+    "gradeIncomeList": [
+      {
+        "id": 84100128
       }
     ]
   },
@@ -911,66 +1120,101 @@
     "isInformalData": false,
     "goodsList": [
       {
-        "buyQuotationMax": 1.35,
-        "buyQuotationMin": 0.8,
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100085,
         "goodsId": 82900184,
-        "sellQuotationMax": 1.35,
-        "sellQuotationMin": 0.8,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100086
       },
       {
-        "buyQuotationMax": 1.35,
-        "buyQuotationMin": 0.8,
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100085,
         "goodsId": 82900179,
-        "sellQuotationMax": 1.35,
-        "sellQuotationMin": 0.8,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100086
       },
       {
-        "buyQuotationMax": 1.35,
-        "buyQuotationMin": 0.8,
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100085,
         "goodsId": 82900180,
-        "sellQuotationMax": 1.35,
-        "sellQuotationMin": 0.8,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100086
       },
       {
-        "buyQuotationMax": 1.35,
-        "buyQuotationMin": 0.8,
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100085,
         "goodsId": 82900199,
-        "sellQuotationMax": 1.35,
-        "sellQuotationMin": 0.8,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100086
       },
       {
-        "buyQuotationMax": 1.35,
-        "buyQuotationMin": 0.8,
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100085,
         "goodsId": 82900182,
-        "sellQuotationMax": 1.35,
-        "sellQuotationMin": 0.8,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100086
       },
       {
-        "buyQuotationMax": 1.35,
-        "buyQuotationMin": 0.8,
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100085,
         "goodsId": 82900183,
-        "sellQuotationMax": 1.35,
-        "sellQuotationMin": 0.8,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100086
       },
       {
-        "buyQuotationMax": 1.35,
-        "buyQuotationMin": 0.8,
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100085,
         "goodsId": 82900185,
-        "sellQuotationMax": 1.35,
-        "sellQuotationMin": 0.8,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100086
       }
     ],
@@ -992,7 +1236,8 @@
     "activityPassengerList": [
       {
         "activityPond": 85600074,
-        "activityPondNum": 0.5,
+        "activityPondNumMax": 0.7,
+        "activityPondNumMin": 0.3,
         "cityId": 83000010,
         "desc": "阿妮塔发射中心接待旅客量增加"
       }
@@ -1008,12 +1253,23 @@
         "id": 84100124
       }
     ],
+    "city": 83000010,
     "activityTriggerList": [
       {
         "id": 84100152
       },
       {
         "id": 84100153
+      }
+    ],
+    "priceSeatList": [
+      {
+        "id": 84100160
+      }
+    ],
+    "gradeIncomeList": [
+      {
+        "id": 84100159
       }
     ]
   },
@@ -1024,66 +1280,101 @@
     "isInformalData": false,
     "goodsList": [
       {
-        "buyQuotationMax": 1.35,
-        "buyQuotationMin": 0.8,
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100091,
         "goodsId": 82900007,
-        "sellQuotationMax": 1.35,
-        "sellQuotationMin": 0.8,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100093
       },
       {
-        "buyQuotationMax": 1.35,
-        "buyQuotationMin": 0.8,
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100069,
         "goodsId": 82900164,
-        "sellQuotationMax": 1.35,
-        "sellQuotationMin": 0.8,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100070
       },
       {
-        "buyQuotationMax": 1.35,
-        "buyQuotationMin": 0.8,
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100069,
         "goodsId": 82900168,
-        "sellQuotationMax": 1.35,
-        "sellQuotationMin": 0.8,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100070
       },
       {
-        "buyQuotationMax": 1.35,
-        "buyQuotationMin": 0.8,
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100069,
         "goodsId": 82900166,
-        "sellQuotationMax": 1.35,
-        "sellQuotationMin": 0.8,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100070
       },
       {
-        "buyQuotationMax": 1.35,
-        "buyQuotationMin": 0.8,
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100069,
         "goodsId": 82900167,
-        "sellQuotationMax": 1.35,
-        "sellQuotationMin": 0.8,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100070
       },
       {
-        "buyQuotationMax": 1.35,
-        "buyQuotationMin": 0.8,
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100084,
         "goodsId": 82900172,
-        "sellQuotationMax": 1.35,
-        "sellQuotationMin": 0.8,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100083
       },
       {
-        "buyQuotationMax": 1.35,
-        "buyQuotationMin": 0.8,
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100084,
         "goodsId": 82900171,
-        "sellQuotationMax": 1.35,
-        "sellQuotationMin": 0.8,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100083
       }
     ],
@@ -1105,7 +1396,8 @@
     "activityPassengerList": [
       {
         "activityPond": 85600074,
-        "activityPondNum": 0.5,
+        "activityPondNumMax": 0.7,
+        "activityPondNumMin": 0.3,
         "cityId": 83000026,
         "desc": "铁盟哨站接待旅客量增加"
       }
@@ -1121,12 +1413,23 @@
         "id": 84100124
       }
     ],
+    "city": 83000026,
     "activityTriggerList": [
       {
         "id": 84100152
       },
       {
         "id": 84100153
+      }
+    ],
+    "priceSeatList": [
+      {
+        "id": 84100160
+      }
+    ],
+    "gradeIncomeList": [
+      {
+        "id": 84100157
       }
     ]
   },
@@ -1137,21 +1440,31 @@
     "isInformalData": false,
     "goodsList": [
       {
-        "buyQuotationMax": 1.35,
-        "buyQuotationMin": 0.8,
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100076,
         "goodsId": 82900015,
-        "sellQuotationMax": 1.35,
-        "sellQuotationMin": 0.8,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100075
       },
       {
-        "buyQuotationMax": 1.35,
-        "buyQuotationMin": 0.8,
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100077,
         "goodsId": 82900146,
-        "sellQuotationMax": 1.35,
-        "sellQuotationMin": 0.8,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100078
       }
     ],
@@ -1162,7 +1475,8 @@
     "activityPassengerList": [
       {
         "activityPond": 85600074,
-        "activityPondNum": 0.5,
+        "activityPondNumMax": 0.7,
+        "activityPondNumMin": 0.3,
         "cityId": 83000053,
         "desc": "曼德矿场接待旅客量增加"
       }
@@ -1175,12 +1489,23 @@
         "id": 84100121
       }
     ],
+    "city": 83000053,
     "activityTriggerList": [
       {
         "id": 84100152
       },
       {
         "id": 84100153
+      }
+    ],
+    "priceSeatList": [
+      {
+        "id": 84100160
+      }
+    ],
+    "gradeIncomeList": [
+      {
+        "id": 84100158
       }
     ]
   },
@@ -1191,39 +1516,59 @@
     "isInformalData": false,
     "goodsList": [
       {
-        "buyQuotationMax": 1.35,
-        "buyQuotationMin": 0.8,
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100067,
         "goodsId": 82900198,
-        "sellQuotationMax": 1.35,
-        "sellQuotationMin": 0.8,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100068
       },
       {
-        "buyQuotationMax": 1.35,
-        "buyQuotationMin": 0.8,
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100067,
         "goodsId": 82900088,
-        "sellQuotationMax": 1.35,
-        "sellQuotationMin": 0.8,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100068
       },
       {
-        "buyQuotationMax": 1.35,
-        "buyQuotationMin": 0.8,
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100071,
         "goodsId": 82900009,
-        "sellQuotationMax": 1.35,
-        "sellQuotationMin": 0.8,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100072
       },
       {
-        "buyQuotationMax": 1.35,
-        "buyQuotationMin": 0.8,
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100071,
         "goodsId": 82900010,
-        "sellQuotationMax": 1.35,
-        "sellQuotationMin": 0.8,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100072
       }
     ],
@@ -1234,7 +1579,8 @@
     "activityPassengerList": [
       {
         "activityPond": 85600074,
-        "activityPondNum": 0.5,
+        "activityPondNumMax": 0.7,
+        "activityPondNumMin": 0.3,
         "cityId": 83000053,
         "desc": "曼德矿场接待旅客量增加"
       }
@@ -1250,12 +1596,23 @@
         "id": 84100120
       }
     ],
+    "city": 83000053,
     "activityTriggerList": [
       {
         "id": 84100152
       },
       {
         "id": 84100153
+      }
+    ],
+    "priceSeatList": [
+      {
+        "id": 84100160
+      }
+    ],
+    "gradeIncomeList": [
+      {
+        "id": 84100159
       }
     ]
   },
@@ -1266,39 +1623,59 @@
     "isInformalData": false,
     "goodsList": [
       {
-        "buyQuotationMax": 1.35,
-        "buyQuotationMin": 0.8,
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100084,
         "goodsId": 82900181,
-        "sellQuotationMax": 1.35,
-        "sellQuotationMin": 0.8,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100083
       },
       {
-        "buyQuotationMax": 1.35,
-        "buyQuotationMin": 0.8,
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100069,
         "goodsId": 82900162,
-        "sellQuotationMax": 1.35,
-        "sellQuotationMin": 0.8,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100070
       },
       {
-        "buyQuotationMax": 1.35,
-        "buyQuotationMin": 0.8,
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100067,
         "goodsId": 82900086,
-        "sellQuotationMax": 1.35,
-        "sellQuotationMin": 0.8,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100068
       },
       {
-        "buyQuotationMax": 1.35,
-        "buyQuotationMin": 0.8,
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": -1,
         "goodsId": 82900170,
-        "sellQuotationMax": 1.35,
-        "sellQuotationMin": 0.8,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100092
       }
     ],
@@ -1309,7 +1686,8 @@
     "activityPassengerList": [
       {
         "activityPond": 85600074,
-        "activityPondNum": 0.5,
+        "activityPondNumMax": 0.7,
+        "activityPondNumMin": 0.3,
         "cityId": 83000026,
         "desc": "铁盟哨站接待旅客量增加"
       }
@@ -1322,12 +1700,23 @@
         "id": 84100124
       }
     ],
+    "city": 83000026,
     "activityTriggerList": [
       {
         "id": 84100152
       },
       {
         "id": 84100153
+      }
+    ],
+    "priceSeatList": [
+      {
+        "id": 84100160
+      }
+    ],
+    "gradeIncomeList": [
+      {
+        "id": 84100157
       }
     ]
   },
@@ -1338,39 +1727,59 @@
     "isInformalData": false,
     "goodsList": [
       {
-        "buyQuotationMax": 1.35,
-        "buyQuotationMin": 0.8,
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100067,
         "goodsId": 82900084,
-        "sellQuotationMax": 1.35,
-        "sellQuotationMin": 0.8,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100068
       },
       {
-        "buyQuotationMax": 1.35,
-        "buyQuotationMin": 0.8,
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100067,
         "goodsId": 82900060,
-        "sellQuotationMax": 1.35,
-        "sellQuotationMin": 0.8,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100068
       },
       {
-        "buyQuotationMax": 1.35,
-        "buyQuotationMin": 0.8,
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100076,
         "goodsId": 82900089,
-        "sellQuotationMax": 1.35,
-        "sellQuotationMin": 0.8,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100075
       },
       {
-        "buyQuotationMax": 1.35,
-        "buyQuotationMin": 0.8,
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100067,
         "goodsId": 82900085,
-        "sellQuotationMax": 1.35,
-        "sellQuotationMin": 0.8,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100068
       }
     ],
@@ -1381,6 +1790,8 @@
     "activityPassengerList": [
       {
         "activityPond": 85600074,
+        "activityPondNumMax": 0.7,
+        "activityPondNumMin": 0.3,
         "cityId": 83000053,
         "desc": "曼德矿场接待旅客量增加"
       }
@@ -1396,6 +1807,7 @@
         "id": 84100142
       }
     ],
+    "city": 83000053,
     "activityTriggerList": [
       {
         "id": 84100152
@@ -1403,7 +1815,9 @@
       {
         "id": 84100153
       }
-    ]
+    ],
+    "priceSeatList": [],
+    "gradeIncomeList": []
   },
   {
     "id": 86100045,
@@ -1412,21 +1826,31 @@
     "isInformalData": false,
     "goodsList": [
       {
-        "buyQuotationMax": 1.35,
-        "buyQuotationMin": 0.8,
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100067,
         "goodsId": 82900087,
-        "sellQuotationMax": 1.35,
-        "sellQuotationMin": 0.8,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100068
       },
       {
-        "buyQuotationMax": 1.35,
-        "buyQuotationMin": 0.8,
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100067,
         "goodsId": 82900090,
-        "sellQuotationMax": 1.35,
-        "sellQuotationMin": 0.8,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100068
       }
     ],
@@ -1448,7 +1872,8 @@
     "activityPassengerList": [
       {
         "activityPond": 85600074,
-        "activityPondNum": 0.5,
+        "activityPondNumMax": 0.7,
+        "activityPondNumMin": 0.3,
         "cityId": 83000053,
         "desc": "曼德矿场接待旅客量增加"
       }
@@ -1464,12 +1889,26 @@
         "id": 84100120
       }
     ],
+    "city": 83000053,
     "activityTriggerList": [
       {
         "id": 84100152
       },
       {
         "id": 84100153
+      }
+    ],
+    "priceSeatList": [
+      {
+        "id": 84100160
+      }
+    ],
+    "gradeIncomeList": [
+      {
+        "id": 84100128
+      },
+      {
+        "id": 84100159
       }
     ]
   },
@@ -1480,57 +1919,87 @@
     "isInformalData": false,
     "goodsList": [
       {
-        "buyQuotationMax": 1.35,
-        "buyQuotationMin": 0.8,
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100079,
         "goodsId": 82900032,
-        "sellQuotationMax": 1.35,
-        "sellQuotationMin": 0.8,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100080
       },
       {
-        "buyQuotationMax": 1.35,
-        "buyQuotationMin": 0.8,
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100082,
         "goodsId": 82900141,
-        "sellQuotationMax": 1.35,
-        "sellQuotationMin": 0.8,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100081
       },
       {
-        "buyQuotationMax": 1.35,
-        "buyQuotationMin": 0.8,
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100082,
         "goodsId": 82900140,
-        "sellQuotationMax": 1.35,
-        "sellQuotationMin": 0.8,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100081
       },
       {
-        "buyQuotationMax": 1.35,
-        "buyQuotationMin": 0.8,
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100082,
         "goodsId": 82900143,
-        "sellQuotationMax": 1.35,
-        "sellQuotationMin": 0.8,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100081
       },
       {
-        "buyQuotationMax": 1.35,
-        "buyQuotationMin": 0.8,
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100082,
         "goodsId": 82900144,
-        "sellQuotationMax": 1.35,
-        "sellQuotationMin": 0.8,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100081
       },
       {
-        "buyQuotationMax": 1.35,
-        "buyQuotationMin": 0.8,
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100082,
         "goodsId": 82900145,
-        "sellQuotationMax": 1.35,
-        "sellQuotationMin": 0.8,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100081
       }
     ],
@@ -1552,7 +2021,8 @@
     "activityPassengerList": [
       {
         "activityPond": 85600074,
-        "activityPondNum": 0.5,
+        "activityPondNumMax": 0.7,
+        "activityPondNumMin": 0.3,
         "cityId": 83000014,
         "desc": "阿妮塔能源研究所接待旅客量增加"
       }
@@ -1565,6 +2035,7 @@
         "id": 84100120
       }
     ],
+    "city": 83000014,
     "activityTriggerList": [
       {
         "id": 84100152
@@ -1572,7 +2043,13 @@
       {
         "id": 84100153
       }
-    ]
+    ],
+    "priceSeatList": [
+      {
+        "id": 84100160
+      }
+    ],
+    "gradeIncomeList": []
   },
   {
     "id": 86100047,
@@ -1581,21 +2058,31 @@
     "isInformalData": false,
     "goodsList": [
       {
-        "buyQuotationMax": 1.35,
-        "buyQuotationMin": 0.8,
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100069,
         "goodsId": 82900169,
-        "sellQuotationMax": 1.35,
-        "sellQuotationMin": 0.8,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100070
       },
       {
-        "buyQuotationMax": 1.35,
-        "buyQuotationMin": 0.8,
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100085,
         "goodsId": 82900183,
-        "sellQuotationMax": 1.35,
-        "sellQuotationMin": 0.8,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100086
       }
     ],
@@ -1606,6 +2093,8 @@
     "activityPassengerList": [
       {
         "activityPond": 85600074,
+        "activityPondNumMax": 0.7,
+        "activityPondNumMin": 0.3,
         "cityId": 83000026,
         "desc": "铁盟哨站接待旅客量增加"
       }
@@ -1618,12 +2107,23 @@
         "id": 84100121
       }
     ],
+    "city": 83000026,
     "activityTriggerList": [
       {
         "id": 84100152
       },
       {
         "id": 84100153
+      }
+    ],
+    "priceSeatList": [
+      {
+        "id": 84100160
+      }
+    ],
+    "gradeIncomeList": [
+      {
+        "id": 84100158
       }
     ]
   },
@@ -1634,33 +2134,87 @@
     "isInformalData": false,
     "goodsList": [
       {
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100067,
         "goodsId": 82900044,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100068
       },
       {
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100077,
         "goodsId": 82900154,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100078
       },
       {
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100077,
         "goodsId": 82900137,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100078
       },
       {
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100077,
         "goodsId": 82900136,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100078
       },
       {
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100090,
         "goodsId": 82900079,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100089
       },
       {
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100079,
         "goodsId": 82900083,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100080
       }
     ],
@@ -1682,6 +2236,8 @@
     "activityPassengerList": [
       {
         "activityPond": 85600074,
+        "activityPondNumMax": 0.7,
+        "activityPondNumMin": 0.3,
         "cityId": 83000029,
         "desc": "澄明数据中心接待旅客量增加"
       }
@@ -1694,12 +2250,23 @@
         "id": 84100124
       }
     ],
+    "city": 83000029,
     "activityTriggerList": [
       {
         "id": 84100152
       },
       {
         "id": 84100153
+      }
+    ],
+    "priceSeatList": [
+      {
+        "id": 84100160
+      }
+    ],
+    "gradeIncomeList": [
+      {
+        "id": 84100158
       }
     ]
   },
@@ -1710,48 +2277,73 @@
     "isInformalData": false,
     "goodsList": [
       {
-        "buyQuotationMax": 1.35,
-        "buyQuotationMin": 0.8,
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100077,
         "goodsId": 82900153,
-        "sellQuotationMax": 1.35,
-        "sellQuotationMin": 0.8,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100078
       },
       {
-        "buyQuotationMax": 1.35,
-        "buyQuotationMin": 0.8,
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100077,
         "goodsId": 82900152,
-        "sellQuotationMax": 1.35,
-        "sellQuotationMin": 0.8,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100078
       },
       {
-        "buyQuotationMax": 1.35,
-        "buyQuotationMin": 0.8,
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100067,
         "goodsId": 82900159,
-        "sellQuotationMax": 1.35,
-        "sellQuotationMin": 0.8,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100068
       },
       {
-        "buyQuotationMax": 1.35,
-        "buyQuotationMin": 0.8,
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100077,
         "goodsId": 82900154,
-        "sellQuotationMax": 1.35,
-        "sellQuotationMin": 0.8,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100078
       },
       {
-        "buyQuotationMax": 1.35,
-        "buyQuotationMin": 0.8,
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100067,
         "goodsId": 82900044,
-        "sellQuotationMax": 1.35,
-        "sellQuotationMin": 0.8,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100068
       }
     ],
@@ -1773,7 +2365,8 @@
     "activityPassengerList": [
       {
         "activityPond": 85600074,
-        "activityPondNum": 0.5,
+        "activityPondNumMax": 0.7,
+        "activityPondNumMin": 0.3,
         "cityId": 83000029,
         "desc": "澄明数据中心接待旅客量增加"
       }
@@ -1786,6 +2379,7 @@
         "id": 84100124
       }
     ],
+    "city": 83000029,
     "activityTriggerList": [
       {
         "id": 84100152
@@ -1793,7 +2387,9 @@
       {
         "id": 84100153
       }
-    ]
+    ],
+    "priceSeatList": [],
+    "gradeIncomeList": []
   },
   {
     "id": 86100033,
@@ -1802,8 +2398,17 @@
     "isInformalData": false,
     "goodsList": [
       {
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100079,
         "goodsId": 82900001,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100080
       }
     ],
@@ -1814,6 +2419,8 @@
     "activityPassengerList": [
       {
         "activityPond": 85600074,
+        "activityPondNumMax": 0.7,
+        "activityPondNumMin": 0.3,
         "cityId": 83000020,
         "desc": "七号自由港接待旅客量增加"
       }
@@ -1829,12 +2436,23 @@
         "id": 84100120
       }
     ],
+    "city": 83000020,
     "activityTriggerList": [
       {
         "id": 84100152
       },
       {
         "id": 84100153
+      }
+    ],
+    "priceSeatList": [
+      {
+        "id": 84100160
+      }
+    ],
+    "gradeIncomeList": [
+      {
+        "id": 84100128
       }
     ]
   },
@@ -1845,30 +2463,45 @@
     "isInformalData": false,
     "goodsList": [
       {
-        "buyQuotationMax": 1.35,
-        "buyQuotationMin": 0.8,
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100067,
         "goodsId": 82900043,
-        "sellQuotationMax": 1.35,
-        "sellQuotationMin": 0.8,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100068
       },
       {
-        "buyQuotationMax": 1.35,
-        "buyQuotationMin": 0.8,
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100067,
         "goodsId": 82900045,
-        "sellQuotationMax": 1.35,
-        "sellQuotationMin": 0.8,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100068
       },
       {
-        "buyQuotationMax": 1.35,
-        "buyQuotationMin": 0.8,
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100069,
         "goodsId": 82900169,
-        "sellQuotationMax": 1.35,
-        "sellQuotationMin": 0.8,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100070
       }
     ],
@@ -1890,7 +2523,8 @@
     "activityPassengerList": [
       {
         "activityPond": 85600074,
-        "activityPondNum": 0.5,
+        "activityPondNumMax": 0.7,
+        "activityPondNumMin": 0.3,
         "cityId": 83000001,
         "desc": "修格里接待旅客量增加"
       }
@@ -1909,12 +2543,23 @@
         "id": 84100124
       }
     ],
+    "city": 83000001,
     "activityTriggerList": [
       {
         "id": 84100152
       },
       {
         "id": 84100153
+      }
+    ],
+    "priceSeatList": [
+      {
+        "id": 84100160
+      }
+    ],
+    "gradeIncomeList": [
+      {
+        "id": 84100159
       }
     ]
   },
@@ -1925,34 +2570,74 @@
     "isInformalData": false,
     "goodsList": [
       {
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100079,
         "goodsId": 82900032,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100080
       },
       {
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100084,
         "goodsId": 82900174,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100083
       },
       {
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100084,
         "goodsId": 82900176,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100083
       },
       {
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100084,
         "goodsId": 82900177,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100083
       },
       {
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100067,
         "goodsId": 82900091,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100068
-      },
-      {
-        "buyStationList": 86100090,
-        "goodsId": 82900079,
-        "sellStationList": 86100089
       }
     ],
     "recycleCityList": [
@@ -1973,6 +2658,8 @@
     "activityPassengerList": [
       {
         "activityPond": 85600074,
+        "activityPondNumMax": 0.7,
+        "activityPondNumMin": 0.3,
         "cityId": 83000012,
         "desc": "阿妮塔战备工厂接待旅客量增加"
       }
@@ -1988,12 +2675,19 @@
         "id": 84100120
       }
     ],
+    "city": 83000012,
     "activityTriggerList": [
       {
         "id": 84100152
       },
       {
         "id": 84100153
+      }
+    ],
+    "priceSeatList": [],
+    "gradeIncomeList": [
+      {
+        "id": 84100157
       }
     ]
   },
@@ -2004,48 +2698,73 @@
     "isInformalData": false,
     "goodsList": [
       {
-        "buyQuotationMax": 1.35,
-        "buyQuotationMin": 0.8,
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100084,
         "goodsId": 82900172,
-        "sellQuotationMax": 1.35,
-        "sellQuotationMin": 0.8,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100083
       },
       {
-        "buyQuotationMax": 1.35,
-        "buyQuotationMin": 0.8,
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100084,
         "goodsId": 82900173,
-        "sellQuotationMax": 1.35,
-        "sellQuotationMin": 0.8,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100083
       },
       {
-        "buyQuotationMax": 1.35,
-        "buyQuotationMin": 0.8,
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100084,
         "goodsId": 82900175,
-        "sellQuotationMax": 1.35,
-        "sellQuotationMin": 0.8,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100083
       },
       {
-        "buyQuotationMax": 1.35,
-        "buyQuotationMin": 0.8,
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100076,
         "goodsId": 82900157,
-        "sellQuotationMax": 1.35,
-        "sellQuotationMin": 0.8,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100075
       },
       {
-        "buyQuotationMax": 1.35,
-        "buyQuotationMin": 0.8,
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": -1,
         "goodsId": 82900102,
-        "sellQuotationMax": 1.35,
-        "sellQuotationMin": 0.8,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100092
       }
     ],
@@ -2067,7 +2786,8 @@
     "activityPassengerList": [
       {
         "activityPond": 85600074,
-        "activityPondNum": 0.5,
+        "activityPondNumMax": 0.7,
+        "activityPondNumMin": 0.3,
         "cityId": 83000012,
         "desc": "阿妮塔战备工厂接待旅客量增加"
       }
@@ -2083,12 +2803,23 @@
         "id": 84100120
       }
     ],
+    "city": 83000012,
     "activityTriggerList": [
       {
         "id": 84100152
       },
       {
         "id": 84100153
+      }
+    ],
+    "priceSeatList": [
+      {
+        "id": 84100160
+      }
+    ],
+    "gradeIncomeList": [
+      {
+        "id": 84100159
       }
     ]
   },
@@ -2099,28 +2830,73 @@
     "isInformalData": false,
     "goodsList": [
       {
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100077,
         "goodsId": 82900155,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100078
       },
       {
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100079,
         "goodsId": 82900082,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100080
       },
       {
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100085,
         "goodsId": 82900178,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100086
       },
       {
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100077,
         "goodsId": 82900135,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100078
       },
       {
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100082,
         "goodsId": 82900142,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100081
       }
     ],
@@ -2131,6 +2907,8 @@
     "activityPassengerList": [
       {
         "activityPond": 85600074,
+        "activityPondNumMax": 0.7,
+        "activityPondNumMin": 0.3,
         "cityId": 83000029,
         "desc": "澄明数据中心接待旅客量增加"
       }
@@ -2146,6 +2924,7 @@
         "id": 84100142
       }
     ],
+    "city": 83000029,
     "activityTriggerList": [
       {
         "id": 84100152
@@ -2153,7 +2932,9 @@
       {
         "id": 84100153
       }
-    ]
+    ],
+    "priceSeatList": [],
+    "gradeIncomeList": []
   },
   {
     "id": 86100039,
@@ -2162,39 +2943,59 @@
     "isInformalData": false,
     "goodsList": [
       {
-        "buyQuotationMax": 1.35,
-        "buyQuotationMin": 0.8,
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100087,
         "goodsId": 82900023,
-        "sellQuotationMax": 1.35,
-        "sellQuotationMin": 0.8,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100088
       },
       {
-        "buyQuotationMax": 1.35,
-        "buyQuotationMin": 0.8,
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100087,
         "goodsId": 82900021,
-        "sellQuotationMax": 1.35,
-        "sellQuotationMin": 0.8,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100088
       },
       {
-        "buyQuotationMax": 1.35,
-        "buyQuotationMin": 0.8,
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100087,
         "goodsId": 82900017,
-        "sellQuotationMax": 1.35,
-        "sellQuotationMin": 0.8,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100088
       },
       {
-        "buyQuotationMax": 1.35,
-        "buyQuotationMin": 0.8,
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100087,
         "goodsId": 82900016,
-        "sellQuotationMax": 1.35,
-        "sellQuotationMin": 0.8,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100088
       }
     ],
@@ -2216,7 +3017,8 @@
     "activityPassengerList": [
       {
         "activityPond": 85600074,
-        "activityPondNum": 0.5,
+        "activityPondNumMax": 0.7,
+        "activityPondNumMin": 0.3,
         "cityId": 83000052,
         "desc": "提高招揽到高级乘客的概率"
       }
@@ -2232,6 +3034,7 @@
         "id": 84100120
       }
     ],
+    "city": -1,
     "activityTriggerList": [
       {
         "id": 84100152
@@ -2239,6 +3042,12 @@
       {
         "id": 84100153
       }
+    ],
+    "priceSeatList": [
+      {}
+    ],
+    "gradeIncomeList": [
+      {}
     ]
   },
   {
@@ -2248,21 +3057,31 @@
     "isInformalData": false,
     "goodsList": [
       {
-        "buyQuotationMax": 1.35,
-        "buyQuotationMin": 0.8,
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": -1,
         "goodsId": 82900132,
-        "sellQuotationMax": 1.35,
-        "sellQuotationMin": 0.8,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": -1
       },
       {
-        "buyQuotationMax": 1.35,
-        "buyQuotationMin": 0.8,
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": -1,
         "goodsId": 82900133,
-        "sellQuotationMax": 1.35,
-        "sellQuotationMin": 0.8,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": -1
       }
     ],
@@ -2284,7 +3103,8 @@
     "activityPassengerList": [
       {
         "activityPond": 85600074,
-        "activityPondNum": 0.5,
+        "activityPondNumMax": 0.7,
+        "activityPondNumMin": 0.3,
         "cityId": 83000006,
         "desc": "提高招揽到高级乘客的概率"
       }
@@ -2300,6 +3120,7 @@
         "id": 84100142
       }
     ],
+    "city": -1,
     "activityTriggerList": [
       {
         "id": 84100152
@@ -2307,7 +3128,9 @@
       {
         "id": 84100153
       }
-    ]
+    ],
+    "priceSeatList": [],
+    "gradeIncomeList": []
   },
   {
     "id": 86100041,
@@ -2333,7 +3156,6 @@
     "activityPassengerList": [
       {
         "activityPond": 85600074,
-        "activityPondNum": 0.5,
         "cityId": 83000004,
         "desc": "招揽到高级乘客概率提高1倍"
       }
@@ -2349,6 +3171,7 @@
         "id": 84100142
       }
     ],
+    "city": -1,
     "activityTriggerList": [
       {
         "id": 84100152
@@ -2356,7 +3179,9 @@
       {
         "id": 84100153
       }
-    ]
+    ],
+    "priceSeatList": [],
+    "gradeIncomeList": []
   },
   {
     "id": 86100042,
@@ -2365,48 +3190,129 @@
     "isInformalData": false,
     "goodsList": [
       {
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": -1,
         "goodsId": 82900170,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100092
       },
       {
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": -1,
         "goodsId": 82900102,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100092
       },
       {
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100076,
         "goodsId": 82900015,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100075
       },
       {
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100069,
         "goodsId": 82900164,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100070
       },
       {
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100091,
         "goodsId": 82900007,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100093
       },
       {
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100069,
         "goodsId": 82900168,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100070
       },
       {
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100069,
         "goodsId": 82900169,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100070
       },
       {
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100076,
         "goodsId": 82900147,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100075
       },
       {
+        "buyQuotationMaxDown": 1.0,
+        "buyQuotationMaxUp": 1.2,
+        "buyQuotationMinDown": 0.5,
+        "buyQuotationMinUp": 0.65,
         "buyStationList": 86100076,
         "goodsId": 82900030,
+        "reversalProbability": 86100096,
+        "sellQuotationMaxDown": 1.35,
+        "sellQuotationMaxUp": 1.5,
+        "sellQuotationMinDown": 0.8,
+        "sellQuotationMinUp": 0.95,
         "sellStationList": 86100075
       }
     ],
@@ -2438,6 +3344,7 @@
         "id": 84100142
       }
     ],
+    "city": -1,
     "activityTriggerList": [
       {
         "id": 84100152
@@ -2445,7 +3352,9 @@
       {
         "id": 84100153
       }
-    ]
+    ],
+    "priceSeatList": [],
+    "gradeIncomeList": []
   },
   {
     "id": 86100052,
@@ -2471,7 +3380,6 @@
     "activityPassengerList": [
       {
         "activityPond": 85600074,
-        "activityPondNum": 0.5,
         "cityId": 83000004,
         "desc": "招揽到高级乘客概率提高1倍"
       }
@@ -2487,6 +3395,7 @@
         "id": 84100142
       }
     ],
+    "city": -1,
     "activityTriggerList": [
       {
         "id": 84100152
@@ -2494,7 +3403,9 @@
       {
         "id": 84100153
       }
-    ]
+    ],
+    "priceSeatList": [],
+    "gradeIncomeList": []
   },
   {
     "id": 86100044,
@@ -3342,6 +4253,1166 @@
       },
       {
         "id": 83000012
+      }
+    ]
+  },
+  {
+    "id": 86100020,
+    "idCN": "活动行情/游戏促销节",
+    "mod": "行情反转概率表",
+    "isInformalData": false,
+    "activityBuyVal": 0.85,
+    "activityBuyList": [
+      {
+        "probability": 1.0,
+        "quotation": 1.05
+      },
+      {
+        "probability": 0.35,
+        "quotation": 1.04
+      },
+      {
+        "probability": 0.35,
+        "quotation": 1.03
+      },
+      {
+        "probability": 0.35,
+        "quotation": 1.02
+      },
+      {
+        "probability": 0.35,
+        "quotation": 1.01
+      },
+      {
+        "probability": 0.35,
+        "quotation": 1.0
+      },
+      {
+        "probability": 0.3,
+        "quotation": 0.99
+      },
+      {
+        "probability": 0.3,
+        "quotation": 0.98
+      },
+      {
+        "probability": 0.3,
+        "quotation": 0.97
+      },
+      {
+        "probability": 0.3,
+        "quotation": 0.96
+      },
+      {
+        "probability": 0.3,
+        "quotation": 0.95
+      },
+      {
+        "probability": 0.2,
+        "quotation": 0.94
+      },
+      {
+        "probability": 0.2,
+        "quotation": 0.93
+      },
+      {
+        "probability": 0.2,
+        "quotation": 0.92
+      },
+      {
+        "probability": 0.2,
+        "quotation": 0.91
+      },
+      {
+        "probability": 0.2,
+        "quotation": 0.9
+      },
+      {
+        "probability": 0.1,
+        "quotation": 0.89
+      },
+      {
+        "probability": 0.1,
+        "quotation": 0.88
+      },
+      {
+        "probability": 0.1,
+        "quotation": 0.87
+      },
+      {
+        "probability": 0.1,
+        "quotation": 0.86
+      },
+      {
+        "probability": 0.0,
+        "quotation": 0.85
+      },
+      {
+        "probability": 0.1,
+        "quotation": 0.84
+      },
+      {
+        "probability": 0.1,
+        "quotation": 0.83
+      },
+      {
+        "probability": 0.1,
+        "quotation": 0.82
+      },
+      {
+        "probability": 0.1,
+        "quotation": 0.81
+      },
+      {
+        "probability": 0.2,
+        "quotation": 0.8
+      },
+      {
+        "probability": 0.2,
+        "quotation": 0.79
+      },
+      {
+        "probability": 0.2,
+        "quotation": 0.78
+      },
+      {
+        "probability": 0.2,
+        "quotation": 0.77
+      },
+      {
+        "probability": 0.2,
+        "quotation": 0.76
+      },
+      {
+        "probability": 0.3,
+        "quotation": 0.75
+      },
+      {
+        "probability": 0.3,
+        "quotation": 0.74
+      },
+      {
+        "probability": 0.3,
+        "quotation": 0.73
+      },
+      {
+        "probability": 0.3,
+        "quotation": 0.72
+      },
+      {
+        "probability": 0.3,
+        "quotation": 0.71
+      },
+      {
+        "probability": 0.35,
+        "quotation": 0.7
+      },
+      {
+        "probability": 0.35,
+        "quotation": 0.69
+      },
+      {
+        "probability": 0.35,
+        "quotation": 0.68
+      },
+      {
+        "probability": 0.35,
+        "quotation": 0.67
+      },
+      {
+        "probability": 0.35,
+        "quotation": 0.66
+      },
+      {
+        "probability": 1.0,
+        "quotation": 0.65
+      }
+    ],
+    "activitySellVal": 1.15,
+    "activitySellList": [
+      {
+        "probability": 1.0,
+        "quotation": 1.35
+      },
+      {
+        "probability": 0.35,
+        "quotation": 1.34
+      },
+      {
+        "probability": 0.35,
+        "quotation": 1.33
+      },
+      {
+        "probability": 0.35,
+        "quotation": 1.32
+      },
+      {
+        "probability": 0.35,
+        "quotation": 1.31
+      },
+      {
+        "probability": 0.35,
+        "quotation": 1.3
+      },
+      {
+        "probability": 0.3,
+        "quotation": 1.29
+      },
+      {
+        "probability": 0.3,
+        "quotation": 1.28
+      },
+      {
+        "probability": 0.3,
+        "quotation": 1.27
+      },
+      {
+        "probability": 0.3,
+        "quotation": 1.26
+      },
+      {
+        "probability": 0.3,
+        "quotation": 1.25
+      },
+      {
+        "probability": 0.2,
+        "quotation": 1.24
+      },
+      {
+        "probability": 0.2,
+        "quotation": 1.23
+      },
+      {
+        "probability": 0.2,
+        "quotation": 1.22
+      },
+      {
+        "probability": 0.2,
+        "quotation": 1.21
+      },
+      {
+        "probability": 0.2,
+        "quotation": 1.2
+      },
+      {
+        "probability": 0.1,
+        "quotation": 1.19
+      },
+      {
+        "probability": 0.1,
+        "quotation": 1.18
+      },
+      {
+        "probability": 0.1,
+        "quotation": 1.17
+      },
+      {
+        "probability": 0.1,
+        "quotation": 1.16
+      },
+      {
+        "probability": 0.0,
+        "quotation": 1.15
+      },
+      {
+        "probability": 0.1,
+        "quotation": 1.14
+      },
+      {
+        "probability": 0.1,
+        "quotation": 1.13
+      },
+      {
+        "probability": 0.1,
+        "quotation": 1.12
+      },
+      {
+        "probability": 0.1,
+        "quotation": 1.11
+      },
+      {
+        "probability": 0.2,
+        "quotation": 1.1
+      },
+      {
+        "probability": 0.2,
+        "quotation": 1.09
+      },
+      {
+        "probability": 0.2,
+        "quotation": 1.08
+      },
+      {
+        "probability": 0.2,
+        "quotation": 1.07
+      },
+      {
+        "probability": 0.2,
+        "quotation": 1.06
+      },
+      {
+        "probability": 0.3,
+        "quotation": 1.05
+      },
+      {
+        "probability": 0.3,
+        "quotation": 1.04
+      },
+      {
+        "probability": 0.3,
+        "quotation": 1.03
+      },
+      {
+        "probability": 0.3,
+        "quotation": 1.02
+      },
+      {
+        "probability": 0.3,
+        "quotation": 1.01
+      },
+      {
+        "probability": 0.35,
+        "quotation": 1.0
+      },
+      {
+        "probability": 0.35,
+        "quotation": 0.99
+      },
+      {
+        "probability": 0.35,
+        "quotation": 0.98
+      },
+      {
+        "probability": 0.35,
+        "quotation": 0.97
+      },
+      {
+        "probability": 0.35,
+        "quotation": 0.96
+      },
+      {
+        "probability": 1.0,
+        "quotation": 0.95
+      }
+    ]
+  },
+  {
+    "id": 86100096,
+    "idCN": "活动行情/每周事件",
+    "mod": "行情反转概率表",
+    "isInformalData": false,
+    "activityBuyVal": 1.0,
+    "activityBuyList": [
+      {
+        "probability": 1.0,
+        "quotation": 1.5
+      },
+      {
+        "probability": 0.5,
+        "quotation": 1.49
+      },
+      {
+        "probability": 0.5,
+        "quotation": 1.48
+      },
+      {
+        "probability": 0.5,
+        "quotation": 1.47
+      },
+      {
+        "probability": 0.5,
+        "quotation": 1.46
+      },
+      {
+        "probability": 0.5,
+        "quotation": 1.45
+      },
+      {
+        "probability": 0.5,
+        "quotation": 1.44
+      },
+      {
+        "probability": 0.45,
+        "quotation": 1.43
+      },
+      {
+        "probability": 0.45,
+        "quotation": 1.42
+      },
+      {
+        "probability": 0.45,
+        "quotation": 1.41
+      },
+      {
+        "probability": 0.45,
+        "quotation": 1.4
+      },
+      {
+        "probability": 0.45,
+        "quotation": 1.39
+      },
+      {
+        "probability": 0.45,
+        "quotation": 1.38
+      },
+      {
+        "probability": 0.4,
+        "quotation": 1.37
+      },
+      {
+        "probability": 0.4,
+        "quotation": 1.36
+      },
+      {
+        "probability": 0.4,
+        "quotation": 1.35
+      },
+      {
+        "probability": 0.4,
+        "quotation": 1.34
+      },
+      {
+        "probability": 0.4,
+        "quotation": 1.33
+      },
+      {
+        "probability": 0.4,
+        "quotation": 1.32
+      },
+      {
+        "probability": 0.35,
+        "quotation": 1.31
+      },
+      {
+        "probability": 0.35,
+        "quotation": 1.3
+      },
+      {
+        "probability": 0.35,
+        "quotation": 1.29
+      },
+      {
+        "probability": 0.35,
+        "quotation": 1.28
+      },
+      {
+        "probability": 0.35,
+        "quotation": 1.27
+      },
+      {
+        "probability": 0.35,
+        "quotation": 1.26
+      },
+      {
+        "probability": 0.3,
+        "quotation": 1.25
+      },
+      {
+        "probability": 0.3,
+        "quotation": 1.24
+      },
+      {
+        "probability": 0.3,
+        "quotation": 1.23
+      },
+      {
+        "probability": 0.3,
+        "quotation": 1.22
+      },
+      {
+        "probability": 0.3,
+        "quotation": 1.21
+      },
+      {
+        "probability": 0.3,
+        "quotation": 1.2
+      },
+      {
+        "probability": 0.25,
+        "quotation": 1.19
+      },
+      {
+        "probability": 0.25,
+        "quotation": 1.18
+      },
+      {
+        "probability": 0.25,
+        "quotation": 1.17
+      },
+      {
+        "probability": 0.25,
+        "quotation": 1.16
+      },
+      {
+        "probability": 0.25,
+        "quotation": 1.15
+      },
+      {
+        "probability": 0.25,
+        "quotation": 1.14
+      },
+      {
+        "probability": 0.2,
+        "quotation": 1.13
+      },
+      {
+        "probability": 0.2,
+        "quotation": 1.12
+      },
+      {
+        "probability": 0.2,
+        "quotation": 1.11
+      },
+      {
+        "probability": 0.2,
+        "quotation": 1.1
+      },
+      {
+        "probability": 0.2,
+        "quotation": 1.09
+      },
+      {
+        "probability": 0.2,
+        "quotation": 1.08
+      },
+      {
+        "probability": 0.15,
+        "quotation": 1.07
+      },
+      {
+        "probability": 0.15,
+        "quotation": 1.06
+      },
+      {
+        "probability": 0.15,
+        "quotation": 1.05
+      },
+      {
+        "probability": 0.15,
+        "quotation": 1.04
+      },
+      {
+        "probability": 0.15,
+        "quotation": 1.03
+      },
+      {
+        "probability": 0.15,
+        "quotation": 1.02
+      },
+      {
+        "probability": 0.15,
+        "quotation": 1.01
+      },
+      {
+        "probability": 0.0,
+        "quotation": 1.0
+      },
+      {
+        "probability": 0.15,
+        "quotation": 0.99
+      },
+      {
+        "probability": 0.15,
+        "quotation": 0.98
+      },
+      {
+        "probability": 0.15,
+        "quotation": 0.97
+      },
+      {
+        "probability": 0.15,
+        "quotation": 0.96
+      },
+      {
+        "probability": 0.15,
+        "quotation": 0.95
+      },
+      {
+        "probability": 0.15,
+        "quotation": 0.94
+      },
+      {
+        "probability": 0.15,
+        "quotation": 0.93
+      },
+      {
+        "probability": 0.2,
+        "quotation": 0.92
+      },
+      {
+        "probability": 0.2,
+        "quotation": 0.91
+      },
+      {
+        "probability": 0.2,
+        "quotation": 0.9
+      },
+      {
+        "probability": 0.2,
+        "quotation": 0.89
+      },
+      {
+        "probability": 0.2,
+        "quotation": 0.88
+      },
+      {
+        "probability": 0.2,
+        "quotation": 0.87
+      },
+      {
+        "probability": 0.25,
+        "quotation": 0.86
+      },
+      {
+        "probability": 0.25,
+        "quotation": 0.85
+      },
+      {
+        "probability": 0.25,
+        "quotation": 0.84
+      },
+      {
+        "probability": 0.25,
+        "quotation": 0.83
+      },
+      {
+        "probability": 0.25,
+        "quotation": 0.82
+      },
+      {
+        "probability": 0.25,
+        "quotation": 0.81
+      },
+      {
+        "probability": 0.3,
+        "quotation": 0.8
+      },
+      {
+        "probability": 0.3,
+        "quotation": 0.79
+      },
+      {
+        "probability": 0.3,
+        "quotation": 0.78
+      },
+      {
+        "probability": 0.3,
+        "quotation": 0.77
+      },
+      {
+        "probability": 0.3,
+        "quotation": 0.76
+      },
+      {
+        "probability": 0.3,
+        "quotation": 0.75
+      },
+      {
+        "probability": 0.35,
+        "quotation": 0.74
+      },
+      {
+        "probability": 0.35,
+        "quotation": 0.73
+      },
+      {
+        "probability": 0.35,
+        "quotation": 0.72
+      },
+      {
+        "probability": 0.35,
+        "quotation": 0.71
+      },
+      {
+        "probability": 0.35,
+        "quotation": 0.7
+      },
+      {
+        "probability": 0.35,
+        "quotation": 0.69
+      },
+      {
+        "probability": 0.4,
+        "quotation": 0.68
+      },
+      {
+        "probability": 0.4,
+        "quotation": 0.67
+      },
+      {
+        "probability": 0.4,
+        "quotation": 0.66
+      },
+      {
+        "probability": 0.4,
+        "quotation": 0.65
+      },
+      {
+        "probability": 0.4,
+        "quotation": 0.64
+      },
+      {
+        "probability": 0.4,
+        "quotation": 0.63
+      },
+      {
+        "probability": 0.45,
+        "quotation": 0.62
+      },
+      {
+        "probability": 0.45,
+        "quotation": 0.61
+      },
+      {
+        "probability": 0.45,
+        "quotation": 0.6
+      },
+      {
+        "probability": 0.45,
+        "quotation": 0.59
+      },
+      {
+        "probability": 0.45,
+        "quotation": 0.58
+      },
+      {
+        "probability": 0.45,
+        "quotation": 0.57
+      },
+      {
+        "probability": 0.5,
+        "quotation": 0.56
+      },
+      {
+        "probability": 0.5,
+        "quotation": 0.55
+      },
+      {
+        "probability": 0.5,
+        "quotation": 0.54
+      },
+      {
+        "probability": 0.5,
+        "quotation": 0.53
+      },
+      {
+        "probability": 0.5,
+        "quotation": 0.52
+      },
+      {
+        "probability": 0.5,
+        "quotation": 0.51
+      },
+      {
+        "probability": 1.0,
+        "quotation": 0.5
+      }
+    ],
+    "activitySellVal": 1.0,
+    "activitySellList": [
+      {
+        "probability": 1.0,
+        "quotation": 1.5
+      },
+      {
+        "probability": 0.5,
+        "quotation": 1.49
+      },
+      {
+        "probability": 0.5,
+        "quotation": 1.48
+      },
+      {
+        "probability": 0.5,
+        "quotation": 1.47
+      },
+      {
+        "probability": 0.5,
+        "quotation": 1.46
+      },
+      {
+        "probability": 0.5,
+        "quotation": 1.45
+      },
+      {
+        "probability": 0.5,
+        "quotation": 1.44
+      },
+      {
+        "probability": 0.45,
+        "quotation": 1.43
+      },
+      {
+        "probability": 0.45,
+        "quotation": 1.42
+      },
+      {
+        "probability": 0.45,
+        "quotation": 1.41
+      },
+      {
+        "probability": 0.45,
+        "quotation": 1.4
+      },
+      {
+        "probability": 0.45,
+        "quotation": 1.39
+      },
+      {
+        "probability": 0.45,
+        "quotation": 1.38
+      },
+      {
+        "probability": 0.4,
+        "quotation": 1.37
+      },
+      {
+        "probability": 0.4,
+        "quotation": 1.36
+      },
+      {
+        "probability": 0.4,
+        "quotation": 1.35
+      },
+      {
+        "probability": 0.4,
+        "quotation": 1.34
+      },
+      {
+        "probability": 0.4,
+        "quotation": 1.33
+      },
+      {
+        "probability": 0.4,
+        "quotation": 1.32
+      },
+      {
+        "probability": 0.35,
+        "quotation": 1.31
+      },
+      {
+        "probability": 0.35,
+        "quotation": 1.3
+      },
+      {
+        "probability": 0.35,
+        "quotation": 1.29
+      },
+      {
+        "probability": 0.35,
+        "quotation": 1.28
+      },
+      {
+        "probability": 0.35,
+        "quotation": 1.27
+      },
+      {
+        "probability": 0.35,
+        "quotation": 1.26
+      },
+      {
+        "probability": 0.3,
+        "quotation": 1.25
+      },
+      {
+        "probability": 0.3,
+        "quotation": 1.24
+      },
+      {
+        "probability": 0.3,
+        "quotation": 1.23
+      },
+      {
+        "probability": 0.3,
+        "quotation": 1.22
+      },
+      {
+        "probability": 0.3,
+        "quotation": 1.21
+      },
+      {
+        "probability": 0.3,
+        "quotation": 1.2
+      },
+      {
+        "probability": 0.25,
+        "quotation": 1.19
+      },
+      {
+        "probability": 0.25,
+        "quotation": 1.18
+      },
+      {
+        "probability": 0.25,
+        "quotation": 1.17
+      },
+      {
+        "probability": 0.25,
+        "quotation": 1.16
+      },
+      {
+        "probability": 0.25,
+        "quotation": 1.15
+      },
+      {
+        "probability": 0.25,
+        "quotation": 1.14
+      },
+      {
+        "probability": 0.2,
+        "quotation": 1.13
+      },
+      {
+        "probability": 0.2,
+        "quotation": 1.12
+      },
+      {
+        "probability": 0.2,
+        "quotation": 1.11
+      },
+      {
+        "probability": 0.2,
+        "quotation": 1.1
+      },
+      {
+        "probability": 0.2,
+        "quotation": 1.09
+      },
+      {
+        "probability": 0.2,
+        "quotation": 1.08
+      },
+      {
+        "probability": 0.15,
+        "quotation": 1.07
+      },
+      {
+        "probability": 0.15,
+        "quotation": 1.06
+      },
+      {
+        "probability": 0.15,
+        "quotation": 1.05
+      },
+      {
+        "probability": 0.15,
+        "quotation": 1.04
+      },
+      {
+        "probability": 0.15,
+        "quotation": 1.03
+      },
+      {
+        "probability": 0.15,
+        "quotation": 1.02
+      },
+      {
+        "probability": 0.15,
+        "quotation": 1.01
+      },
+      {
+        "probability": 0.0,
+        "quotation": 1.0
+      },
+      {
+        "probability": 0.15,
+        "quotation": 0.99
+      },
+      {
+        "probability": 0.15,
+        "quotation": 0.98
+      },
+      {
+        "probability": 0.15,
+        "quotation": 0.97
+      },
+      {
+        "probability": 0.15,
+        "quotation": 0.96
+      },
+      {
+        "probability": 0.15,
+        "quotation": 0.95
+      },
+      {
+        "probability": 0.15,
+        "quotation": 0.94
+      },
+      {
+        "probability": 0.15,
+        "quotation": 0.93
+      },
+      {
+        "probability": 0.2,
+        "quotation": 0.92
+      },
+      {
+        "probability": 0.2,
+        "quotation": 0.91
+      },
+      {
+        "probability": 0.2,
+        "quotation": 0.9
+      },
+      {
+        "probability": 0.2,
+        "quotation": 0.89
+      },
+      {
+        "probability": 0.2,
+        "quotation": 0.88
+      },
+      {
+        "probability": 0.2,
+        "quotation": 0.87
+      },
+      {
+        "probability": 0.25,
+        "quotation": 0.86
+      },
+      {
+        "probability": 0.25,
+        "quotation": 0.85
+      },
+      {
+        "probability": 0.25,
+        "quotation": 0.84
+      },
+      {
+        "probability": 0.25,
+        "quotation": 0.83
+      },
+      {
+        "probability": 0.25,
+        "quotation": 0.82
+      },
+      {
+        "probability": 0.25,
+        "quotation": 0.81
+      },
+      {
+        "probability": 0.3,
+        "quotation": 0.8
+      },
+      {
+        "probability": 0.3,
+        "quotation": 0.79
+      },
+      {
+        "probability": 0.3,
+        "quotation": 0.78
+      },
+      {
+        "probability": 0.3,
+        "quotation": 0.77
+      },
+      {
+        "probability": 0.3,
+        "quotation": 0.76
+      },
+      {
+        "probability": 0.3,
+        "quotation": 0.75
+      },
+      {
+        "probability": 0.35,
+        "quotation": 0.74
+      },
+      {
+        "probability": 0.35,
+        "quotation": 0.73
+      },
+      {
+        "probability": 0.35,
+        "quotation": 0.72
+      },
+      {
+        "probability": 0.35,
+        "quotation": 0.71
+      },
+      {
+        "probability": 0.35,
+        "quotation": 0.7
+      },
+      {
+        "probability": 0.35,
+        "quotation": 0.69
+      },
+      {
+        "probability": 0.4,
+        "quotation": 0.68
+      },
+      {
+        "probability": 0.4,
+        "quotation": 0.67
+      },
+      {
+        "probability": 0.4,
+        "quotation": 0.66
+      },
+      {
+        "probability": 0.4,
+        "quotation": 0.65
+      },
+      {
+        "probability": 0.4,
+        "quotation": 0.64
+      },
+      {
+        "probability": 0.4,
+        "quotation": 0.63
+      },
+      {
+        "probability": 0.45,
+        "quotation": 0.62
+      },
+      {
+        "probability": 0.45,
+        "quotation": 0.61
+      },
+      {
+        "probability": 0.45,
+        "quotation": 0.6
+      },
+      {
+        "probability": 0.45,
+        "quotation": 0.59
+      },
+      {
+        "probability": 0.45,
+        "quotation": 0.58
+      },
+      {
+        "probability": 0.45,
+        "quotation": 0.57
+      },
+      {
+        "probability": 0.5,
+        "quotation": 0.56
+      },
+      {
+        "probability": 0.5,
+        "quotation": 0.55
+      },
+      {
+        "probability": 0.5,
+        "quotation": 0.54
+      },
+      {
+        "probability": 0.5,
+        "quotation": 0.53
+      },
+      {
+        "probability": 0.5,
+        "quotation": 0.52
+      },
+      {
+        "probability": 0.5,
+        "quotation": 0.51
+      },
+      {
+        "probability": 1.0,
+        "quotation": 0.5
       }
     ]
   }

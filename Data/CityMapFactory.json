@@ -333,6 +333,26 @@
         "id": 86400088,
         "x": -770.0,
         "y": 30.0
+      },
+      {
+        "id": 86400220,
+        "x": -16.0,
+        "y": -234.0
+      },
+      {
+        "id": 86400222,
+        "x": 145.0,
+        "y": 330.0
+      },
+      {
+        "id": 86400221,
+        "x": 145.0,
+        "y": 330.0
+      },
+      {
+        "id": 86400223,
+        "x": 145.0,
+        "y": 330.0
       }
     ],
     "isShowRep": true,
@@ -1168,6 +1188,11 @@
         "id": 86400211,
         "x": -100.0,
         "y": -124.0
+      },
+      {
+        "id": 86400219,
+        "x": -393.0,
+        "y": 0.0
       }
     ],
     "isShowRep": true,
@@ -1238,6 +1263,11 @@
         "id": 86400164,
         "x": 661.0,
         "y": -124.0
+      },
+      {
+        "id": 86400219,
+        "x": 217.0,
+        "y": 42.0
       }
     ],
     "isShowRep": false,
@@ -1283,6 +1313,11 @@
         "id": 86400169,
         "x": 230.0,
         "y": -200.0
+      },
+      {
+        "id": 86400219,
+        "x": 0.0,
+        "y": -288.0
       }
     ],
     "isShowRep": false,
@@ -1336,13 +1371,18 @@
       },
       {
         "id": 86400174,
-        "x": 178.0,
+        "x": 250.0,
         "y": -312.0
       },
       {
         "id": 86400175,
         "x": -250.0,
         "y": -268.0
+      },
+      {
+        "id": 86400219,
+        "x": 10.0,
+        "y": -160.0
       }
     ],
     "isShowRep": false,
@@ -3918,7 +3958,7 @@
     "displayConditionsList": [
       {
         "condition": "QuestComplete",
-        "mId": 81000711,
+        "mId": 81000015,
         "val": 0
       }
     ],
@@ -5736,7 +5776,7 @@
     "unlockConditionsList": [],
     "isLock": false,
     "func": "OpenUI",
-    "btnType": "Other",
+    "btnType": "BattleCenter",
     "mId": -1,
     "uiPath": "UI/HomeBattleCenter/HomeBattleCenter",
     "buildingId": -1,
@@ -6459,7 +6499,7 @@
     "unlockConditionsList": [],
     "isLock": false,
     "func": "OpenUI",
-    "btnType": "Other",
+    "btnType": "BattleCenter",
     "mId": -1,
     "uiPath": "UI/HomeBattleCenter/HomeBattleCenter",
     "buildingId": 84400132,
@@ -6549,12 +6589,16 @@
     "iconPath": "NPC/TJLY/CityHall",
     "nameIconPath": "UI/CityMap/citymap_icon_cityhall_t2",
     "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
+    "animLoop": "UI_CityBtn_01_Loop",
+    "animOut": "UI_CityBtn_01_Out",
     "activityId": -1,
     "startTime": "",
     "endTime": "",
+    "displayConditionsList": [],
+    "unlockConditionsList": [],
     "isLock": false,
     "func": "OpenUI",
-    "btnType": "Other",
+    "btnType": "BattleCenter",
     "mId": -1,
     "uiPath": "UI/HomeBattleCenter/HomeBattleCenter",
     "buildingId": -1,
@@ -7010,12 +7054,16 @@
     "iconPath": "RolePlus/Betty/Face",
     "nameIconPath": "UI/CityMap/citymap_icon_centre",
     "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
+    "animLoop": "UI_CityBtn_01_Loop",
+    "animOut": "UI_CityBtn_01_Out",
     "activityId": -1,
     "startTime": "",
     "endTime": "",
+    "displayConditionsList": [],
+    "unlockConditionsList": [],
     "isLock": false,
     "func": "OpenUI",
-    "btnType": "Other",
+    "btnType": "BattleCenter",
     "mId": -1,
     "uiPath": "UI/HomeBattleCenter/HomeBattleCenter",
     "buildingId": -1,
@@ -7110,7 +7158,7 @@
     "unlockConditionsList": [],
     "isLock": false,
     "func": "OpenUI",
-    "btnType": "Other",
+    "btnType": "BattleCenter",
     "mId": -1,
     "uiPath": "UI/HomeBattleCenter/HomeBattleCenter",
     "buildingId": -1,
@@ -7521,8 +7569,8 @@
       },
       {
         "id": 86400202,
-        "x": -200.0,
-        "y": 95.0
+        "x": -450.0,
+        "y": 304.0
       },
       {
         "id": 86400178,
@@ -7531,8 +7579,8 @@
       },
       {
         "id": 86400025,
-        "x": -333.0,
-        "y": -132.0
+        "x": -450.0,
+        "y": 304.0
       }
     ],
     "isShowRep": true,
@@ -8231,7 +8279,7 @@
     "unlockConditionsList": [],
     "isLock": false,
     "func": "OpenUI",
-    "btnType": "Other",
+    "btnType": "BattleCenter",
     "mId": -1,
     "uiPath": "UI/HomeBattleCenter/HomeBattleCenter",
     "buildingId": -1,
@@ -8275,6 +8323,201 @@
     "textId": -1,
     "npcId": -1,
     "bgPath": "UI/Dialog/Back2/PROC_YXQ",
+    "bgColor": "FFFFFF"
+  },
+  {
+    "id": 86400223,
+    "idCN": "03气泡/C2修格里城S0/03逸闻/夏尔5",
+    "mod": "气泡",
+    "isInformalData": false,
+    "name": "夏尔",
+    "isSpecial": false,
+    "isInstance": false,
+    "iconPath": "RolePlus/Shire/Face",
+    "nameIconPath": "",
+    "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
+    "animLoop": "UI_CityBtn_01_Loop",
+    "animOut": "UI_CityBtn_01_Out",
+    "activityId": -1,
+    "startTime": "",
+    "endTime": "",
+    "displayConditionsList": [
+      {
+        "condition": "Questing",
+        "mId": 81000873,
+        "val": 0
+      }
+    ],
+    "unlockConditionsList": [],
+    "isLock": false,
+    "func": "OpenDialog",
+    "btnType": "Other",
+    "mId": -1,
+    "uiPath": "",
+    "buildingId": -1,
+    "stationPlace": -1,
+    "dialogId": 20700104,
+    "dungeonId": -1,
+    "levelId": -1,
+    "textId": -1,
+    "npcId": -1,
+    "bgPath": "",
+    "bgColor": "FFFFFF"
+  },
+  {
+    "id": 86400222,
+    "idCN": "03气泡/C2修格里城S0/03逸闻/夏尔3",
+    "mod": "气泡",
+    "isInformalData": false,
+    "name": "夏尔",
+    "isSpecial": false,
+    "isInstance": false,
+    "iconPath": "RolePlus/Shire/Face",
+    "nameIconPath": "",
+    "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
+    "animLoop": "UI_CityBtn_01_Loop",
+    "animOut": "UI_CityBtn_01_Out",
+    "activityId": -1,
+    "startTime": "",
+    "endTime": "",
+    "displayConditionsList": [
+      {
+        "condition": "Questing",
+        "mId": 81000872,
+        "val": 0
+      }
+    ],
+    "unlockConditionsList": [],
+    "isLock": false,
+    "func": "OpenDialog",
+    "btnType": "Other",
+    "mId": -1,
+    "uiPath": "",
+    "buildingId": -1,
+    "stationPlace": -1,
+    "dialogId": 20700099,
+    "dungeonId": -1,
+    "levelId": -1,
+    "textId": -1,
+    "npcId": -1,
+    "bgPath": "",
+    "bgColor": "FFFFFF"
+  },
+  {
+    "id": 86400221,
+    "idCN": "03气泡/C2修格里城S0/03逸闻/夏尔4",
+    "mod": "气泡",
+    "isInformalData": false,
+    "name": "夏尔",
+    "isSpecial": false,
+    "isInstance": false,
+    "iconPath": "RolePlus/Shire/Face",
+    "nameIconPath": "UI/CityMap/citymap_icon_battlezone",
+    "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
+    "animLoop": "UI_CityBtn_01_Loop",
+    "animOut": "UI_CityBtn_01_Out",
+    "activityId": -1,
+    "startTime": "",
+    "endTime": "",
+    "displayConditionsList": [
+      {
+        "condition": "Questing",
+        "mId": 81000853,
+        "val": 0
+      }
+    ],
+    "unlockConditionsList": [],
+    "isLock": false,
+    "func": "OpenLevel",
+    "btnType": "Other",
+    "mId": -1,
+    "uiPath": "",
+    "buildingId": -1,
+    "stationPlace": -1,
+    "dialogId": -1,
+    "dungeonId": -1,
+    "levelId": 20100855,
+    "textId": -1,
+    "npcId": -1,
+    "bgPath": "",
+    "bgColor": "FFFFFF"
+  },
+  {
+    "id": 86400220,
+    "idCN": "03气泡/C2修格里城S0/03逸闻/夏尔2",
+    "mod": "气泡",
+    "isInformalData": false,
+    "name": "夏尔",
+    "isSpecial": false,
+    "isInstance": false,
+    "iconPath": "RolePlus/Shire/Face",
+    "nameIconPath": "",
+    "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
+    "animLoop": "UI_CityBtn_01_Loop",
+    "animOut": "UI_CityBtn_01_Out",
+    "activityId": -1,
+    "startTime": "",
+    "endTime": "",
+    "displayConditionsList": [
+      {
+        "condition": "Questing",
+        "mId": 81000852,
+        "val": 0
+      }
+    ],
+    "unlockConditionsList": [],
+    "isLock": false,
+    "func": "OpenDialog",
+    "btnType": "Other",
+    "mId": -1,
+    "uiPath": "",
+    "buildingId": -1,
+    "stationPlace": -1,
+    "dialogId": 20700098,
+    "dungeonId": -1,
+    "levelId": -1,
+    "textId": -1,
+    "npcId": -1,
+    "bgPath": "",
+    "bgColor": "FFFFFF"
+  },
+  {
+    "id": 86400219,
+    "idCN": "03气泡/T1荒原站S0/03逸闻/夏尔1",
+    "mod": "气泡",
+    "isInformalData": false,
+    "name": "夏尔",
+    "isSpecial": false,
+    "isInstance": false,
+    "iconPath": "RolePlus/Shire/Face",
+    "nameIconPath": "UI/CityMap/citymap_icon_battlezone",
+    "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
+    "animLoop": "UI_CityBtn_01_Loop",
+    "animOut": "UI_CityBtn_01_Out",
+    "activityId": -1,
+    "startTime": "",
+    "endTime": "",
+    "displayConditionsList": [
+      {
+        "condition": "Questing",
+        "mId": 81000850,
+        "val": 0
+      }
+    ],
+    "unlockConditionsList": [],
+    "isLock": false,
+    "func": "OpenLevel",
+    "btnType": "Other",
+    "mId": -1,
+    "uiPath": "",
+    "buildingId": -1,
+    "stationPlace": -1,
+    "dialogId": -1,
+    "dungeonId": -1,
+    "levelId": 20100854,
+    "textId": -1,
+    "npcId": -1,
+    "bgPath": "",
     "bgColor": "FFFFFF"
   }
 ]

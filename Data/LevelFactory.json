@@ -4695,7 +4695,7 @@
     ],
     "weatherRateSN": 0,
     "weatherList": [],
-    "weatherId": 50000011,
+    "weatherId": -1,
     "bgmId": 30000879,
     "guildanceListZero": [],
     "isEnemyLvEquilsPlayer": false,
@@ -4731,6 +4731,8 @@
     "dropListNew": [],
     "dropTableList": [],
     "shareList": [],
+    "stageList": [],
+    "equalList": [],
     "maxScore": 500,
     "maxScoreList": [
       {
@@ -4789,7 +4791,11 @@
     "loadingTips": "",
     "rewardCoefficientMax": 0.7,
     "rewardCoefficientMin": 0.3,
-    "caseTimeLimit": 7
+    "caseTimeLimit": 7,
+    "isBanAutoBattle": false,
+    "correspondingActivity": -1,
+    "limitBattleType": "Forever",
+    "limitNum": -1
   },
   {
     "id": 20100037,
@@ -126471,25 +126477,17 @@
     "enemyBookId": -1,
     "firstPassAward": [
       {
-        "itemId": 11400056,
-        "num": 100
+        "itemId": 11400145,
+        "num": 10
       },
       {
         "itemId": 11400005,
-        "num": 50
-      },
-      {
-        "itemId": 11700080,
-        "num": 1
+        "num": 20
       }
     ],
     "perfectAward": [],
     "dropListNew": [],
-    "dropTableList": [
-      {
-        "listId": 80303127
-      }
-    ],
+    "dropTableList": [],
     "shareList": [],
     "stageList": [],
     "equalList": [],
@@ -126639,25 +126637,17 @@
     "enemyBookId": -1,
     "firstPassAward": [
       {
-        "itemId": 11400056,
-        "num": 100
+        "itemId": 11400145,
+        "num": 10
       },
       {
         "itemId": 11400005,
-        "num": 50
-      },
-      {
-        "itemId": 11700171,
-        "num": 1
+        "num": 20
       }
     ],
     "perfectAward": [],
     "dropListNew": [],
-    "dropTableList": [
-      {
-        "listId": 80303131
-      }
-    ],
+    "dropTableList": [],
     "shareList": [],
     "stageList": [],
     "equalList": [],
@@ -126792,25 +126782,17 @@
     "enemyBookId": -1,
     "firstPassAward": [
       {
-        "itemId": 11400056,
-        "num": 100
+        "itemId": 11400145,
+        "num": 10
       },
       {
         "itemId": 11400005,
-        "num": 50
-      },
-      {
-        "itemId": 11700182,
-        "num": 1
+        "num": 20
       }
     ],
     "perfectAward": [],
     "dropListNew": [],
-    "dropTableList": [
-      {
-        "listId": 80303135
-      }
-    ],
+    "dropTableList": [],
     "shareList": [],
     "stageList": [],
     "equalList": [],
@@ -126945,25 +126927,17 @@
     "enemyBookId": -1,
     "firstPassAward": [
       {
-        "itemId": 11400056,
-        "num": 100
+        "itemId": 11400145,
+        "num": 10
       },
       {
         "itemId": 11400005,
-        "num": 50
-      },
-      {
-        "itemId": 11700182,
-        "num": 1
+        "num": 20
       }
     ],
     "perfectAward": [],
     "dropListNew": [],
-    "dropTableList": [
-      {
-        "listId": 80303144
-      }
-    ],
+    "dropTableList": [],
     "shareList": [],
     "stageList": [],
     "equalList": [],
@@ -127104,25 +127078,17 @@
     "enemyBookId": -1,
     "firstPassAward": [
       {
-        "itemId": 11400056,
-        "num": 100
+        "itemId": 11400145,
+        "num": 10
       },
       {
         "itemId": 11400005,
-        "num": 50
-      },
-      {
-        "itemId": 11700175,
-        "num": 1
+        "num": 20
       }
     ],
     "perfectAward": [],
     "dropListNew": [],
-    "dropTableList": [
-      {
-        "listId": 80303138
-      }
-    ],
+    "dropTableList": [],
     "shareList": [],
     "stageList": [],
     "equalList": [],
@@ -132700,7 +132666,7 @@
   },
   {
     "id": 20100806,
-    "idCN": "12爬塔关卡/01期/01鼹鼠重机/关卡1",
+    "idCN": "12爬塔关卡/常驻/01鼹鼠重机/关卡1",
     "mod": "基础关卡",
     "isInformalData": false,
     "isMainChapter": false,
@@ -132711,7 +132677,7 @@
     "extraEnergy": 5,
     "bgIdList": [
       {
-        "id": 20000040
+        "id": 20000063
       }
     ],
     "weatherRateSN": 0,
@@ -132734,15 +132700,24 @@
     "bgResUrl": "",
     "insZoneBGMId": -1,
     "bossId": 10000452,
-    "description": "",
-    "levelName": "",
+    "description": "在被恐怖分子们“回收”以后被改造成了高效且强力的兵器，原本用于清障的多功能前臂现在已脱离了原本的功能，在战斗方面具备了更大的杀伤性。",
+    "levelName": "鼹鼠重机",
     "levelChapter": "",
     "playerLevel": 1,
     "playerLevelMax": 9999,
     "specifiedLevelLogical": false,
     "specifiedLevelList": [],
     "enemyBookId": -1,
-    "firstPassAward": [],
+    "firstPassAward": [
+      {
+        "itemId": 11400145,
+        "num": 10
+      },
+      {
+        "itemId": 11400005,
+        "num": 20
+      }
+    ],
     "perfectAward": [],
     "dropListNew": [],
     "dropTableList": [],
@@ -132814,7 +132789,7 @@
   },
   {
     "id": 20100807,
-    "idCN": "12爬塔关卡/01期/01鼹鼠重机/关卡2",
+    "idCN": "12爬塔关卡/常驻/01鼹鼠重机/关卡2",
     "mod": "基础关卡",
     "isInformalData": false,
     "isMainChapter": false,
@@ -132825,7 +132800,7 @@
     "extraEnergy": 5,
     "bgIdList": [
       {
-        "id": 20000040
+        "id": 20000063
       }
     ],
     "weatherRateSN": 0,
@@ -132848,15 +132823,24 @@
     "bgResUrl": "",
     "insZoneBGMId": -1,
     "bossId": 10000452,
-    "description": "",
-    "levelName": "",
+    "description": "在被恐怖分子们“回收”以后被改造成了高效且强力的兵器，原本用于清障的多功能前臂现在已脱离了原本的功能，在战斗方面具备了更大的杀伤性。",
+    "levelName": "鼹鼠重机",
     "levelChapter": "",
     "playerLevel": 1,
     "playerLevelMax": 9999,
     "specifiedLevelLogical": false,
     "specifiedLevelList": [],
     "enemyBookId": -1,
-    "firstPassAward": [],
+    "firstPassAward": [
+      {
+        "itemId": 11400145,
+        "num": 10
+      },
+      {
+        "itemId": 11400005,
+        "num": 20
+      }
+    ],
     "perfectAward": [],
     "dropListNew": [],
     "dropTableList": [],
@@ -132928,7 +132912,7 @@
   },
   {
     "id": 20100808,
-    "idCN": "12爬塔关卡/01期/01鼹鼠重机/关卡3",
+    "idCN": "12爬塔关卡/常驻/01鼹鼠重机/关卡3",
     "mod": "基础关卡",
     "isInformalData": false,
     "isMainChapter": false,
@@ -132939,7 +132923,7 @@
     "extraEnergy": 5,
     "bgIdList": [
       {
-        "id": 20000040
+        "id": 20000063
       }
     ],
     "weatherRateSN": 0,
@@ -132962,15 +132946,24 @@
     "bgResUrl": "",
     "insZoneBGMId": -1,
     "bossId": 10000452,
-    "description": "",
-    "levelName": "",
+    "description": "在被恐怖分子们“回收”以后被改造成了高效且强力的兵器，原本用于清障的多功能前臂现在已脱离了原本的功能，在战斗方面具备了更大的杀伤性。",
+    "levelName": "鼹鼠重机",
     "levelChapter": "",
     "playerLevel": 1,
     "playerLevelMax": 9999,
     "specifiedLevelLogical": false,
     "specifiedLevelList": [],
     "enemyBookId": -1,
-    "firstPassAward": [],
+    "firstPassAward": [
+      {
+        "itemId": 11400145,
+        "num": 10
+      },
+      {
+        "itemId": 11400005,
+        "num": 20
+      }
+    ],
     "perfectAward": [],
     "dropListNew": [],
     "dropTableList": [],
@@ -133042,7 +133035,7 @@
   },
   {
     "id": 20100809,
-    "idCN": "12爬塔关卡/01期/01鼹鼠重机/关卡4",
+    "idCN": "12爬塔关卡/常驻/01鼹鼠重机/关卡4",
     "mod": "基础关卡",
     "isInformalData": false,
     "isMainChapter": false,
@@ -133053,7 +133046,7 @@
     "extraEnergy": 5,
     "bgIdList": [
       {
-        "id": 20000040
+        "id": 20000063
       }
     ],
     "weatherRateSN": 0,
@@ -133076,15 +133069,24 @@
     "bgResUrl": "",
     "insZoneBGMId": -1,
     "bossId": 10000452,
-    "description": "",
-    "levelName": "",
+    "description": "在被恐怖分子们“回收”以后被改造成了高效且强力的兵器，原本用于清障的多功能前臂现在已脱离了原本的功能，在战斗方面具备了更大的杀伤性。",
+    "levelName": "鼹鼠重机",
     "levelChapter": "",
     "playerLevel": 1,
     "playerLevelMax": 9999,
     "specifiedLevelLogical": false,
     "specifiedLevelList": [],
     "enemyBookId": -1,
-    "firstPassAward": [],
+    "firstPassAward": [
+      {
+        "itemId": 11400145,
+        "num": 10
+      },
+      {
+        "itemId": 11400005,
+        "num": 20
+      }
+    ],
     "perfectAward": [],
     "dropListNew": [],
     "dropTableList": [],
@@ -133156,7 +133158,7 @@
   },
   {
     "id": 20100810,
-    "idCN": "12爬塔关卡/01期/01鼹鼠重机/关卡5",
+    "idCN": "12爬塔关卡/常驻/01鼹鼠重机/关卡5",
     "mod": "基础关卡",
     "isInformalData": false,
     "isMainChapter": false,
@@ -133167,7 +133169,7 @@
     "extraEnergy": 5,
     "bgIdList": [
       {
-        "id": 20000040
+        "id": 20000063
       }
     ],
     "weatherRateSN": 0,
@@ -133190,15 +133192,24 @@
     "bgResUrl": "",
     "insZoneBGMId": -1,
     "bossId": 10000452,
-    "description": "",
-    "levelName": "",
+    "description": "在被恐怖分子们“回收”以后被改造成了高效且强力的兵器，原本用于清障的多功能前臂现在已脱离了原本的功能，在战斗方面具备了更大的杀伤性。",
+    "levelName": "鼹鼠重机",
     "levelChapter": "",
     "playerLevel": 1,
     "playerLevelMax": 9999,
     "specifiedLevelLogical": false,
     "specifiedLevelList": [],
     "enemyBookId": -1,
-    "firstPassAward": [],
+    "firstPassAward": [
+      {
+        "itemId": 11400145,
+        "num": 10
+      },
+      {
+        "itemId": 11400005,
+        "num": 20
+      }
+    ],
     "perfectAward": [],
     "dropListNew": [],
     "dropTableList": [],
@@ -133270,7 +133281,7 @@
   },
   {
     "id": 20100811,
-    "idCN": "12爬塔关卡/01期/02荒原王/关卡1",
+    "idCN": "12爬塔关卡/常驻/02荒原王/关卡1",
     "mod": "基础关卡",
     "isInformalData": false,
     "isMainChapter": false,
@@ -133304,15 +133315,24 @@
     "bgResUrl": "",
     "insZoneBGMId": -1,
     "bossId": 10000026,
-    "description": "",
-    "levelName": "",
+    "description": "荒原王汤姆的座驾。使用充能装甲枪械对目标进行射击并击晕，还能在造成我方角色破盾后使用钻头攻击，对我方单体目标附加重伤效果。",
+    "levelName": "穿击动力甲",
     "levelChapter": "",
     "playerLevel": 1,
     "playerLevelMax": 9999,
     "specifiedLevelLogical": false,
     "specifiedLevelList": [],
     "enemyBookId": -1,
-    "firstPassAward": [],
+    "firstPassAward": [
+      {
+        "itemId": 11400145,
+        "num": 10
+      },
+      {
+        "itemId": 11400005,
+        "num": 20
+      }
+    ],
     "perfectAward": [],
     "dropListNew": [],
     "dropTableList": [],
@@ -133384,7 +133404,7 @@
   },
   {
     "id": 20100812,
-    "idCN": "12爬塔关卡/01期/04深眠者·迷梦黑妈/关卡1",
+    "idCN": "12爬塔关卡/常驻/04深眠者·迷梦黑妈/关卡1",
     "mod": "基础关卡",
     "isInformalData": false,
     "isMainChapter": false,
@@ -133395,7 +133415,7 @@
     "extraEnergy": 5,
     "bgIdList": [
       {
-        "id": 20000040
+        "id": 20000076
       }
     ],
     "weatherRateSN": 0,
@@ -133418,15 +133438,24 @@
     "bgResUrl": "",
     "insZoneBGMId": -1,
     "bossId": 10000195,
-    "description": "",
-    "levelName": "",
+    "description": "莫名令人感到熟悉的深眠者。通过附加”心魔共鸣”并引爆的方式造成伤害，能制造幻影与本体一同行动。",
+    "levelName": "深眠者·迷梦",
     "levelChapter": "",
     "playerLevel": 1,
     "playerLevelMax": 9999,
     "specifiedLevelLogical": false,
     "specifiedLevelList": [],
     "enemyBookId": -1,
-    "firstPassAward": [],
+    "firstPassAward": [
+      {
+        "itemId": 11400145,
+        "num": 10
+      },
+      {
+        "itemId": 11400005,
+        "num": 20
+      }
+    ],
     "perfectAward": [],
     "dropListNew": [],
     "dropTableList": [],
@@ -133498,7 +133527,7 @@
   },
   {
     "id": 20100813,
-    "idCN": "12爬塔关卡/01期/05寒潮浮囊体/关卡1",
+    "idCN": "12爬塔关卡/常驻/05寒潮浮囊体/关卡1",
     "mod": "基础关卡",
     "isInformalData": false,
     "isMainChapter": false,
@@ -133509,12 +133538,12 @@
     "extraEnergy": 5,
     "bgIdList": [
       {
-        "id": 20000040
+        "id": 20000047
       }
     ],
     "weatherRateSN": 0,
     "weatherList": [],
-    "weatherId": -1,
+    "weatherId": 50000002,
     "bgmId": 30002601,
     "guildanceListZero": [],
     "isEnemyLvEquilsPlayer": false,
@@ -133532,15 +133561,24 @@
     "bgResUrl": "",
     "insZoneBGMId": -1,
     "bossId": 10000103,
-    "description": "",
-    "levelName": "",
+    "description": "拥有改变周围气候，使环境变得寒冷的能力。并对敌人不断施加冰冻伤害和晕眩效果。随生命值降低提升防御力。",
+    "levelName": "寒潮浮囊体",
     "levelChapter": "",
     "playerLevel": 1,
     "playerLevelMax": 9999,
     "specifiedLevelLogical": false,
     "specifiedLevelList": [],
     "enemyBookId": -1,
-    "firstPassAward": [],
+    "firstPassAward": [
+      {
+        "itemId": 11400145,
+        "num": 10
+      },
+      {
+        "itemId": 11400005,
+        "num": 20
+      }
+    ],
     "perfectAward": [],
     "dropListNew": [],
     "dropTableList": [],
@@ -133612,7 +133650,7 @@
   },
   {
     "id": 20100814,
-    "idCN": "12爬塔关卡/01期/03鸣爆虫母/关卡1",
+    "idCN": "12爬塔关卡/常驻/03鸣爆虫母/关卡1",
     "mod": "基础关卡",
     "isInformalData": false,
     "isMainChapter": false,
@@ -133623,7 +133661,7 @@
     "extraEnergy": 5,
     "bgIdList": [
       {
-        "id": 20000040
+        "id": 20000046
       }
     ],
     "weatherRateSN": 0,
@@ -133646,15 +133684,24 @@
     "bgResUrl": "",
     "insZoneBGMId": -1,
     "bossId": 10000040,
-    "description": "",
-    "levelName": "",
+    "description": "繁衍和统领着毒爆虫们的女王，不仅破坏力和攻击范围远超一般个体，还能召唤大量子嗣进行自爆攻击。",
+    "levelName": "鸣爆虫母",
     "levelChapter": "",
     "playerLevel": 1,
     "playerLevelMax": 9999,
     "specifiedLevelLogical": false,
     "specifiedLevelList": [],
     "enemyBookId": -1,
-    "firstPassAward": [],
+    "firstPassAward": [
+      {
+        "itemId": 11400145,
+        "num": 10
+      },
+      {
+        "itemId": 11400005,
+        "num": 20
+      }
+    ],
     "perfectAward": [],
     "dropListNew": [],
     "dropTableList": [],
@@ -133726,7 +133773,7 @@
   },
   {
     "id": 20100815,
-    "idCN": "12爬塔关卡/01期/05寒潮浮囊体/关卡2",
+    "idCN": "12爬塔关卡/常驻/05寒潮浮囊体/关卡2",
     "mod": "基础关卡",
     "isInformalData": false,
     "isMainChapter": false,
@@ -133737,12 +133784,12 @@
     "extraEnergy": 5,
     "bgIdList": [
       {
-        "id": 20000040
+        "id": 20000047
       }
     ],
     "weatherRateSN": 0,
     "weatherList": [],
-    "weatherId": -1,
+    "weatherId": 50000002,
     "bgmId": 30002601,
     "guildanceListZero": [],
     "isEnemyLvEquilsPlayer": false,
@@ -133760,15 +133807,24 @@
     "bgResUrl": "",
     "insZoneBGMId": -1,
     "bossId": 10000103,
-    "description": "",
-    "levelName": "",
+    "description": "拥有改变周围气候，使环境变得寒冷的能力。并对敌人不断施加冰冻伤害和晕眩效果。随生命值降低提升防御力。",
+    "levelName": "寒潮浮囊体",
     "levelChapter": "",
     "playerLevel": 1,
     "playerLevelMax": 9999,
     "specifiedLevelLogical": false,
     "specifiedLevelList": [],
     "enemyBookId": -1,
-    "firstPassAward": [],
+    "firstPassAward": [
+      {
+        "itemId": 11400145,
+        "num": 10
+      },
+      {
+        "itemId": 11400005,
+        "num": 20
+      }
+    ],
     "perfectAward": [],
     "dropListNew": [],
     "dropTableList": [],
@@ -133840,7 +133896,7 @@
   },
   {
     "id": 20100816,
-    "idCN": "12爬塔关卡/01期/05寒潮浮囊体/关卡3",
+    "idCN": "12爬塔关卡/常驻/05寒潮浮囊体/关卡3",
     "mod": "基础关卡",
     "isInformalData": false,
     "isMainChapter": false,
@@ -133851,12 +133907,12 @@
     "extraEnergy": 5,
     "bgIdList": [
       {
-        "id": 20000040
+        "id": 20000047
       }
     ],
     "weatherRateSN": 0,
     "weatherList": [],
-    "weatherId": -1,
+    "weatherId": 50000017,
     "bgmId": 30002601,
     "guildanceListZero": [],
     "isEnemyLvEquilsPlayer": false,
@@ -133874,15 +133930,24 @@
     "bgResUrl": "",
     "insZoneBGMId": -1,
     "bossId": 10000103,
-    "description": "",
-    "levelName": "",
+    "description": "拥有改变周围气候，使环境变得寒冷的能力。并对敌人不断施加冰冻伤害和晕眩效果。随生命值降低提升防御力。",
+    "levelName": "寒潮浮囊体",
     "levelChapter": "",
     "playerLevel": 1,
     "playerLevelMax": 9999,
     "specifiedLevelLogical": false,
     "specifiedLevelList": [],
     "enemyBookId": -1,
-    "firstPassAward": [],
+    "firstPassAward": [
+      {
+        "itemId": 11400145,
+        "num": 10
+      },
+      {
+        "itemId": 11400005,
+        "num": 20
+      }
+    ],
     "perfectAward": [],
     "dropListNew": [],
     "dropTableList": [],
@@ -133954,7 +134019,7 @@
   },
   {
     "id": 20100817,
-    "idCN": "12爬塔关卡/01期/05寒潮浮囊体/关卡4",
+    "idCN": "12爬塔关卡/常驻/05寒潮浮囊体/关卡4",
     "mod": "基础关卡",
     "isInformalData": false,
     "isMainChapter": false,
@@ -133965,12 +134030,12 @@
     "extraEnergy": 5,
     "bgIdList": [
       {
-        "id": 20000040
+        "id": 20000047
       }
     ],
     "weatherRateSN": 0,
     "weatherList": [],
-    "weatherId": -1,
+    "weatherId": 50000018,
     "bgmId": 30002601,
     "guildanceListZero": [],
     "isEnemyLvEquilsPlayer": false,
@@ -133983,20 +134048,32 @@
     "enemyWaveList": [
       {
         "enemyWaveId": 21101483
+      },
+      {
+        "enemyWaveId": 21101530
       }
     ],
     "bgResUrl": "",
     "insZoneBGMId": -1,
     "bossId": 10000103,
-    "description": "",
-    "levelName": "",
+    "description": "拥有改变周围气候，使环境变得寒冷的能力。并对敌人不断施加冰冻伤害和晕眩效果。随生命值降低提升防御力。",
+    "levelName": "寒潮浮囊体",
     "levelChapter": "",
     "playerLevel": 1,
     "playerLevelMax": 9999,
     "specifiedLevelLogical": false,
     "specifiedLevelList": [],
     "enemyBookId": -1,
-    "firstPassAward": [],
+    "firstPassAward": [
+      {
+        "itemId": 11400145,
+        "num": 10
+      },
+      {
+        "itemId": 11400005,
+        "num": 20
+      }
+    ],
     "perfectAward": [],
     "dropListNew": [],
     "dropTableList": [],
@@ -134068,7 +134145,7 @@
   },
   {
     "id": 20100818,
-    "idCN": "12爬塔关卡/01期/05寒潮浮囊体/关卡5",
+    "idCN": "12爬塔关卡/常驻/05寒潮浮囊体/关卡5",
     "mod": "基础关卡",
     "isInformalData": false,
     "isMainChapter": false,
@@ -134079,12 +134156,12 @@
     "extraEnergy": 5,
     "bgIdList": [
       {
-        "id": 20000040
+        "id": 20000047
       }
     ],
     "weatherRateSN": 0,
     "weatherList": [],
-    "weatherId": -1,
+    "weatherId": 50000018,
     "bgmId": 30002601,
     "guildanceListZero": [],
     "isEnemyLvEquilsPlayer": false,
@@ -134097,20 +134174,35 @@
     "enemyWaveList": [
       {
         "enemyWaveId": 21101484
+      },
+      {
+        "enemyWaveId": 21101531
+      },
+      {
+        "enemyWaveId": 21101532
       }
     ],
     "bgResUrl": "",
     "insZoneBGMId": -1,
     "bossId": 10000103,
-    "description": "",
-    "levelName": "",
+    "description": "拥有改变周围气候，使环境变得寒冷的能力。并对敌人不断施加冰冻伤害和晕眩效果。随生命值降低提升防御力。",
+    "levelName": "寒潮浮囊体",
     "levelChapter": "",
     "playerLevel": 1,
     "playerLevelMax": 9999,
     "specifiedLevelLogical": false,
     "specifiedLevelList": [],
     "enemyBookId": -1,
-    "firstPassAward": [],
+    "firstPassAward": [
+      {
+        "itemId": 11400145,
+        "num": 10
+      },
+      {
+        "itemId": 11400005,
+        "num": 20
+      }
+    ],
     "perfectAward": [],
     "dropListNew": [],
     "dropTableList": [],
@@ -134182,7 +134274,7 @@
   },
   {
     "id": 20100819,
-    "idCN": "12爬塔关卡/01期/02荒原王/关卡2",
+    "idCN": "12爬塔关卡/常驻/02荒原王/关卡2",
     "mod": "基础关卡",
     "isInformalData": false,
     "isMainChapter": false,
@@ -134216,15 +134308,24 @@
     "bgResUrl": "",
     "insZoneBGMId": -1,
     "bossId": 10000026,
-    "description": "",
-    "levelName": "",
+    "description": "荒原王汤姆的座驾。使用充能装甲枪械对目标进行射击并击晕，还能在造成我方角色破盾后使用钻头攻击，对我方单体目标附加重伤效果。",
+    "levelName": "穿击动力甲",
     "levelChapter": "",
     "playerLevel": 1,
     "playerLevelMax": 9999,
     "specifiedLevelLogical": false,
     "specifiedLevelList": [],
     "enemyBookId": -1,
-    "firstPassAward": [],
+    "firstPassAward": [
+      {
+        "itemId": 11400145,
+        "num": 10
+      },
+      {
+        "itemId": 11400005,
+        "num": 20
+      }
+    ],
     "perfectAward": [],
     "dropListNew": [],
     "dropTableList": [],
@@ -134296,7 +134397,7 @@
   },
   {
     "id": 20100820,
-    "idCN": "12爬塔关卡/01期/02荒原王/关卡3",
+    "idCN": "12爬塔关卡/常驻/02荒原王/关卡3",
     "mod": "基础关卡",
     "isInformalData": false,
     "isMainChapter": false,
@@ -134330,15 +134431,24 @@
     "bgResUrl": "",
     "insZoneBGMId": -1,
     "bossId": 10000026,
-    "description": "",
-    "levelName": "",
+    "description": "荒原王汤姆的座驾。使用充能装甲枪械对目标进行射击并击晕，还能在造成我方角色破盾后使用钻头攻击，对我方单体目标附加重伤效果。",
+    "levelName": "穿击动力甲",
     "levelChapter": "",
     "playerLevel": 1,
     "playerLevelMax": 9999,
     "specifiedLevelLogical": false,
     "specifiedLevelList": [],
     "enemyBookId": -1,
-    "firstPassAward": [],
+    "firstPassAward": [
+      {
+        "itemId": 11400145,
+        "num": 10
+      },
+      {
+        "itemId": 11400005,
+        "num": 20
+      }
+    ],
     "perfectAward": [],
     "dropListNew": [],
     "dropTableList": [],
@@ -134410,7 +134520,7 @@
   },
   {
     "id": 20100821,
-    "idCN": "12爬塔关卡/01期/02荒原王/关卡4",
+    "idCN": "12爬塔关卡/常驻/02荒原王/关卡4",
     "mod": "基础关卡",
     "isInformalData": false,
     "isMainChapter": false,
@@ -134444,15 +134554,24 @@
     "bgResUrl": "",
     "insZoneBGMId": -1,
     "bossId": 10000026,
-    "description": "",
-    "levelName": "",
+    "description": "荒原王汤姆的座驾。使用充能装甲枪械对目标进行射击并击晕，还能在造成我方角色破盾后使用钻头攻击，对我方单体目标附加重伤效果。",
+    "levelName": "穿击动力甲",
     "levelChapter": "",
     "playerLevel": 1,
     "playerLevelMax": 9999,
     "specifiedLevelLogical": false,
     "specifiedLevelList": [],
     "enemyBookId": -1,
-    "firstPassAward": [],
+    "firstPassAward": [
+      {
+        "itemId": 11400145,
+        "num": 10
+      },
+      {
+        "itemId": 11400005,
+        "num": 20
+      }
+    ],
     "perfectAward": [],
     "dropListNew": [],
     "dropTableList": [],
@@ -134524,7 +134643,7 @@
   },
   {
     "id": 20100822,
-    "idCN": "12爬塔关卡/01期/02荒原王/关卡5",
+    "idCN": "12爬塔关卡/常驻/02荒原王/关卡5",
     "mod": "基础关卡",
     "isInformalData": false,
     "isMainChapter": false,
@@ -134558,15 +134677,24 @@
     "bgResUrl": "",
     "insZoneBGMId": -1,
     "bossId": 10000026,
-    "description": "",
-    "levelName": "",
+    "description": "荒原王汤姆的座驾。使用充能装甲枪械对目标进行射击并击晕，还能在造成我方角色破盾后使用钻头攻击，对我方单体目标附加重伤效果。",
+    "levelName": "穿击动力甲",
     "levelChapter": "",
     "playerLevel": 1,
     "playerLevelMax": 9999,
     "specifiedLevelLogical": false,
     "specifiedLevelList": [],
     "enemyBookId": -1,
-    "firstPassAward": [],
+    "firstPassAward": [
+      {
+        "itemId": 11400145,
+        "num": 10
+      },
+      {
+        "itemId": 11400005,
+        "num": 20
+      }
+    ],
     "perfectAward": [],
     "dropListNew": [],
     "dropTableList": [],
@@ -134638,7 +134766,7 @@
   },
   {
     "id": 20100823,
-    "idCN": "12爬塔关卡/01期/03鸣爆虫母/关卡2",
+    "idCN": "12爬塔关卡/常驻/03鸣爆虫母/关卡2",
     "mod": "基础关卡",
     "isInformalData": false,
     "isMainChapter": false,
@@ -134649,7 +134777,7 @@
     "extraEnergy": 5,
     "bgIdList": [
       {
-        "id": 20000040
+        "id": 20000046
       }
     ],
     "weatherRateSN": 0,
@@ -134672,15 +134800,24 @@
     "bgResUrl": "",
     "insZoneBGMId": -1,
     "bossId": 10000040,
-    "description": "",
-    "levelName": "",
+    "description": "繁衍和统领着毒爆虫们的女王，不仅破坏力和攻击范围远超一般个体，还能召唤大量子嗣进行自爆攻击。",
+    "levelName": "鸣爆虫母",
     "levelChapter": "",
     "playerLevel": 1,
     "playerLevelMax": 9999,
     "specifiedLevelLogical": false,
     "specifiedLevelList": [],
     "enemyBookId": -1,
-    "firstPassAward": [],
+    "firstPassAward": [
+      {
+        "itemId": 11400145,
+        "num": 10
+      },
+      {
+        "itemId": 11400005,
+        "num": 20
+      }
+    ],
     "perfectAward": [],
     "dropListNew": [],
     "dropTableList": [],
@@ -134752,7 +134889,7 @@
   },
   {
     "id": 20100824,
-    "idCN": "12爬塔关卡/01期/03鸣爆虫母/关卡3",
+    "idCN": "12爬塔关卡/常驻/03鸣爆虫母/关卡3",
     "mod": "基础关卡",
     "isInformalData": false,
     "isMainChapter": false,
@@ -134763,7 +134900,7 @@
     "extraEnergy": 5,
     "bgIdList": [
       {
-        "id": 20000040
+        "id": 20000046
       }
     ],
     "weatherRateSN": 0,
@@ -134786,15 +134923,24 @@
     "bgResUrl": "",
     "insZoneBGMId": -1,
     "bossId": 10000040,
-    "description": "",
-    "levelName": "",
+    "description": "繁衍和统领着毒爆虫们的女王，不仅破坏力和攻击范围远超一般个体，还能召唤大量子嗣进行自爆攻击。",
+    "levelName": "鸣爆虫母",
     "levelChapter": "",
     "playerLevel": 1,
     "playerLevelMax": 9999,
     "specifiedLevelLogical": false,
     "specifiedLevelList": [],
     "enemyBookId": -1,
-    "firstPassAward": [],
+    "firstPassAward": [
+      {
+        "itemId": 11400145,
+        "num": 10
+      },
+      {
+        "itemId": 11400005,
+        "num": 20
+      }
+    ],
     "perfectAward": [],
     "dropListNew": [],
     "dropTableList": [],
@@ -134866,7 +135012,7 @@
   },
   {
     "id": 20100825,
-    "idCN": "12爬塔关卡/01期/03鸣爆虫母/关卡4",
+    "idCN": "12爬塔关卡/常驻/03鸣爆虫母/关卡4",
     "mod": "基础关卡",
     "isInformalData": false,
     "isMainChapter": false,
@@ -134877,7 +135023,7 @@
     "extraEnergy": 5,
     "bgIdList": [
       {
-        "id": 20000040
+        "id": 20000046
       }
     ],
     "weatherRateSN": 0,
@@ -134895,20 +135041,32 @@
     "enemyWaveList": [
       {
         "enemyWaveId": 21101487
+      },
+      {
+        "enemyWaveId": 21101527
       }
     ],
     "bgResUrl": "",
     "insZoneBGMId": -1,
     "bossId": 10000040,
-    "description": "",
-    "levelName": "",
+    "description": "繁衍和统领着毒爆虫们的女王，不仅破坏力和攻击范围远超一般个体，还能召唤大量子嗣进行自爆攻击。",
+    "levelName": "鸣爆虫母",
     "levelChapter": "",
     "playerLevel": 1,
     "playerLevelMax": 9999,
     "specifiedLevelLogical": false,
     "specifiedLevelList": [],
     "enemyBookId": -1,
-    "firstPassAward": [],
+    "firstPassAward": [
+      {
+        "itemId": 11400145,
+        "num": 10
+      },
+      {
+        "itemId": 11400005,
+        "num": 20
+      }
+    ],
     "perfectAward": [],
     "dropListNew": [],
     "dropTableList": [],
@@ -134980,7 +135138,7 @@
   },
   {
     "id": 20100826,
-    "idCN": "12爬塔关卡/01期/03鸣爆虫母/关卡5",
+    "idCN": "12爬塔关卡/常驻/03鸣爆虫母/关卡5",
     "mod": "基础关卡",
     "isInformalData": false,
     "isMainChapter": false,
@@ -134991,7 +135149,7 @@
     "extraEnergy": 5,
     "bgIdList": [
       {
-        "id": 20000040
+        "id": 20000046
       }
     ],
     "weatherRateSN": 0,
@@ -135009,20 +135167,35 @@
     "enemyWaveList": [
       {
         "enemyWaveId": 21101489
+      },
+      {
+        "enemyWaveId": 21101528
+      },
+      {
+        "enemyWaveId": 21101529
       }
     ],
     "bgResUrl": "",
     "insZoneBGMId": -1,
     "bossId": 10000040,
-    "description": "",
-    "levelName": "",
+    "description": "繁衍和统领着毒爆虫们的女王，不仅破坏力和攻击范围远超一般个体，还能召唤大量子嗣进行自爆攻击。",
+    "levelName": "鸣爆虫母",
     "levelChapter": "",
     "playerLevel": 1,
     "playerLevelMax": 9999,
     "specifiedLevelLogical": false,
     "specifiedLevelList": [],
     "enemyBookId": -1,
-    "firstPassAward": [],
+    "firstPassAward": [
+      {
+        "itemId": 11400145,
+        "num": 10
+      },
+      {
+        "itemId": 11400005,
+        "num": 20
+      }
+    ],
     "perfectAward": [],
     "dropListNew": [],
     "dropTableList": [],
@@ -135094,7 +135267,7 @@
   },
   {
     "id": 20100827,
-    "idCN": "12爬塔关卡/01期/04深眠者·迷梦黑妈/关卡2",
+    "idCN": "12爬塔关卡/常驻/04深眠者·迷梦黑妈/关卡2",
     "mod": "基础关卡",
     "isInformalData": false,
     "isMainChapter": false,
@@ -135105,7 +135278,7 @@
     "extraEnergy": 5,
     "bgIdList": [
       {
-        "id": 20000040
+        "id": 20000076
       }
     ],
     "weatherRateSN": 0,
@@ -135128,15 +135301,24 @@
     "bgResUrl": "",
     "insZoneBGMId": -1,
     "bossId": 10000195,
-    "description": "",
-    "levelName": "",
+    "description": "莫名令人感到熟悉的深眠者。通过附加”心魔共鸣”并引爆的方式造成伤害，能制造幻影与本体一同行动。",
+    "levelName": "深眠者·迷梦",
     "levelChapter": "",
     "playerLevel": 1,
     "playerLevelMax": 9999,
     "specifiedLevelLogical": false,
     "specifiedLevelList": [],
     "enemyBookId": -1,
-    "firstPassAward": [],
+    "firstPassAward": [
+      {
+        "itemId": 11400145,
+        "num": 10
+      },
+      {
+        "itemId": 11400005,
+        "num": 20
+      }
+    ],
     "perfectAward": [],
     "dropListNew": [],
     "dropTableList": [],
@@ -135208,7 +135390,7 @@
   },
   {
     "id": 20100828,
-    "idCN": "12爬塔关卡/01期/04深眠者·迷梦黑妈/关卡3",
+    "idCN": "12爬塔关卡/常驻/04深眠者·迷梦黑妈/关卡3",
     "mod": "基础关卡",
     "isInformalData": false,
     "isMainChapter": false,
@@ -135219,12 +135401,12 @@
     "extraEnergy": 5,
     "bgIdList": [
       {
-        "id": 20000040
+        "id": 20000076
       }
     ],
     "weatherRateSN": 0,
     "weatherList": [],
-    "weatherId": -1,
+    "weatherId": 50000028,
     "bgmId": 30000858,
     "guildanceListZero": [],
     "isEnemyLvEquilsPlayer": false,
@@ -135242,15 +135424,24 @@
     "bgResUrl": "",
     "insZoneBGMId": -1,
     "bossId": 10000195,
-    "description": "",
-    "levelName": "",
+    "description": "莫名令人感到熟悉的深眠者。通过附加”心魔共鸣”并引爆的方式造成伤害，能制造幻影与本体一同行动。",
+    "levelName": "深眠者·迷梦",
     "levelChapter": "",
     "playerLevel": 1,
     "playerLevelMax": 9999,
     "specifiedLevelLogical": false,
     "specifiedLevelList": [],
     "enemyBookId": -1,
-    "firstPassAward": [],
+    "firstPassAward": [
+      {
+        "itemId": 11400145,
+        "num": 10
+      },
+      {
+        "itemId": 11400005,
+        "num": 20
+      }
+    ],
     "perfectAward": [],
     "dropListNew": [],
     "dropTableList": [],
@@ -135322,7 +135513,7 @@
   },
   {
     "id": 20100829,
-    "idCN": "12爬塔关卡/01期/04深眠者·迷梦黑妈/关卡4",
+    "idCN": "12爬塔关卡/常驻/04深眠者·迷梦黑妈/关卡4",
     "mod": "基础关卡",
     "isInformalData": false,
     "isMainChapter": false,
@@ -135333,12 +135524,12 @@
     "extraEnergy": 5,
     "bgIdList": [
       {
-        "id": 20000040
+        "id": 20000076
       }
     ],
     "weatherRateSN": 0,
     "weatherList": [],
-    "weatherId": -1,
+    "weatherId": 50000029,
     "bgmId": 30000858,
     "guildanceListZero": [],
     "isEnemyLvEquilsPlayer": false,
@@ -135356,15 +135547,24 @@
     "bgResUrl": "",
     "insZoneBGMId": -1,
     "bossId": 10000195,
-    "description": "",
-    "levelName": "",
+    "description": "莫名令人感到熟悉的深眠者。通过附加”心魔共鸣”并引爆的方式造成伤害，能制造幻影与本体一同行动。",
+    "levelName": "深眠者·迷梦",
     "levelChapter": "",
     "playerLevel": 1,
     "playerLevelMax": 9999,
     "specifiedLevelLogical": false,
     "specifiedLevelList": [],
     "enemyBookId": -1,
-    "firstPassAward": [],
+    "firstPassAward": [
+      {
+        "itemId": 11400145,
+        "num": 10
+      },
+      {
+        "itemId": 11400005,
+        "num": 20
+      }
+    ],
     "perfectAward": [],
     "dropListNew": [],
     "dropTableList": [],
@@ -135436,7 +135636,7 @@
   },
   {
     "id": 20100830,
-    "idCN": "12爬塔关卡/01期/04深眠者·迷梦黑妈/关卡5",
+    "idCN": "12爬塔关卡/常驻/04深眠者·迷梦黑妈/关卡5",
     "mod": "基础关卡",
     "isInformalData": false,
     "isMainChapter": false,
@@ -135447,12 +135647,12 @@
     "extraEnergy": 5,
     "bgIdList": [
       {
-        "id": 20000040
+        "id": 20000076
       }
     ],
     "weatherRateSN": 0,
     "weatherList": [],
-    "weatherId": -1,
+    "weatherId": 50000030,
     "bgmId": 30000858,
     "guildanceListZero": [],
     "isEnemyLvEquilsPlayer": false,
@@ -135470,15 +135670,24 @@
     "bgResUrl": "",
     "insZoneBGMId": -1,
     "bossId": 10000195,
-    "description": "",
-    "levelName": "",
+    "description": "莫名令人感到熟悉的深眠者。通过附加”心魔共鸣”并引爆的方式造成伤害，能制造幻影与本体一同行动。",
+    "levelName": "深眠者·迷梦",
     "levelChapter": "",
     "playerLevel": 1,
     "playerLevelMax": 9999,
     "specifiedLevelLogical": false,
     "specifiedLevelList": [],
     "enemyBookId": -1,
-    "firstPassAward": [],
+    "firstPassAward": [
+      {
+        "itemId": 11400145,
+        "num": 10
+      },
+      {
+        "itemId": 11400005,
+        "num": 20
+      }
+    ],
     "perfectAward": [],
     "dropListNew": [],
     "dropTableList": [],
@@ -136395,15 +136604,24 @@
     "bgResUrl": "",
     "insZoneBGMId": -1,
     "bossId": -1,
-    "description": "",
-    "levelName": "",
+    "description": "常有拾荒者在整顿中心外游荡，试图回收一些没有被运走的废弃物资，但这种侵占行为是非法的。请协助我们的工作，赶走他们。",
+    "levelName": "敲敲打打1",
     "levelChapter": "",
     "playerLevel": 0,
     "playerLevelMax": 9999,
     "specifiedLevelLogical": false,
     "specifiedLevelList": [],
     "enemyBookId": -1,
-    "firstPassAward": [],
+    "firstPassAward": [
+      {
+        "itemId": 11400056,
+        "num": 50
+      },
+      {
+        "itemId": 11400005,
+        "num": 50
+      }
+    ],
     "perfectAward": [],
     "dropListNew": [],
     "dropTableList": [],
@@ -136525,15 +136743,24 @@
     "bgResUrl": "",
     "insZoneBGMId": -1,
     "bossId": -1,
-    "description": "",
-    "levelName": "",
+    "description": "常有拾荒者在整顿中心外游荡，试图回收一些没有被运走的废弃物资，但这种侵占行为是非法的。请协助我们的工作，赶走他们。",
+    "levelName": "敲敲打打2",
     "levelChapter": "",
     "playerLevel": 0,
     "playerLevelMax": 9999,
     "specifiedLevelLogical": false,
     "specifiedLevelList": [],
     "enemyBookId": -1,
-    "firstPassAward": [],
+    "firstPassAward": [
+      {
+        "itemId": 11400056,
+        "num": 50
+      },
+      {
+        "itemId": 11400005,
+        "num": 50
+      }
+    ],
     "perfectAward": [],
     "dropListNew": [],
     "dropTableList": [],
@@ -136654,16 +136881,25 @@
     ],
     "bgResUrl": "",
     "insZoneBGMId": -1,
-    "bossId": -1,
-    "description": "",
-    "levelName": "",
+    "bossId": 10000026,
+    "description": "为了防止拾荒者对废弃物资进行进一步侵占，请协助我们抓捕并调查拾荒者的头目。",
+    "levelName": "有效打击",
     "levelChapter": "",
     "playerLevel": 0,
     "playerLevelMax": 9999,
     "specifiedLevelLogical": false,
     "specifiedLevelList": [],
     "enemyBookId": -1,
-    "firstPassAward": [],
+    "firstPassAward": [
+      {
+        "itemId": 11400056,
+        "num": 50
+      },
+      {
+        "itemId": 11400005,
+        "num": 50
+      }
+    ],
     "perfectAward": [],
     "dropListNew": [],
     "dropTableList": [],
@@ -136785,15 +137021,24 @@
     "bgResUrl": "",
     "insZoneBGMId": -1,
     "bossId": -1,
-    "description": "",
-    "levelName": "",
+    "description": "沙盗团的成员们近日出现在了云岫桥附近，请前去同他们交涉，必要时可以使用武力进行驱逐。",
+    "levelName": "沙盗劫狱1",
     "levelChapter": "",
     "playerLevel": 0,
     "playerLevelMax": 9999,
     "specifiedLevelLogical": false,
     "specifiedLevelList": [],
     "enemyBookId": -1,
-    "firstPassAward": [],
+    "firstPassAward": [
+      {
+        "itemId": 11400056,
+        "num": 50
+      },
+      {
+        "itemId": 11400005,
+        "num": 50
+      }
+    ],
     "perfectAward": [],
     "dropListNew": [],
     "dropTableList": [],
@@ -136915,15 +137160,24 @@
     "bgResUrl": "",
     "insZoneBGMId": -1,
     "bossId": -1,
-    "description": "",
-    "levelName": "",
+    "description": "沙盗团的成员们近日出现在了云岫桥附近，请前去同他们交涉，必要时可以使用武力进行驱逐。",
+    "levelName": "沙盗劫狱2",
     "levelChapter": "",
     "playerLevel": 0,
     "playerLevelMax": 9999,
     "specifiedLevelLogical": false,
     "specifiedLevelList": [],
     "enemyBookId": -1,
-    "firstPassAward": [],
+    "firstPassAward": [
+      {
+        "itemId": 11400056,
+        "num": 50
+      },
+      {
+        "itemId": 11400005,
+        "num": 50
+      }
+    ],
     "perfectAward": [],
     "dropListNew": [],
     "dropTableList": [],
@@ -137038,16 +137292,25 @@
     ],
     "bgResUrl": "",
     "insZoneBGMId": -1,
-    "bossId": -1,
-    "description": "",
-    "levelName": "",
+    "bossId": 10000086,
+    "description": "沙盗团趁动物囚犯放风的时看守不备，将他们的鹅带走了！请把这只大鹅抓回来！",
+    "levelName": "朱迪营救行动",
     "levelChapter": "",
     "playerLevel": 0,
     "playerLevelMax": 9999,
     "specifiedLevelLogical": false,
     "specifiedLevelList": [],
     "enemyBookId": -1,
-    "firstPassAward": [],
+    "firstPassAward": [
+      {
+        "itemId": 11400056,
+        "num": 50
+      },
+      {
+        "itemId": 11400005,
+        "num": 50
+      }
+    ],
     "perfectAward": [],
     "dropListNew": [],
     "dropTableList": [],
@@ -137169,15 +137432,24 @@
     "bgResUrl": "",
     "insZoneBGMId": -1,
     "bossId": -1,
-    "description": "",
-    "levelName": "",
+    "description": "我们收到情报，有一伙实力强大的劫掠者正在谋划进攻整顿中心。请协助本站的抓捕和调查行动。",
+    "levelName": "劫掠者抓捕1",
     "levelChapter": "",
     "playerLevel": 0,
     "playerLevelMax": 9999,
     "specifiedLevelLogical": false,
     "specifiedLevelList": [],
     "enemyBookId": -1,
-    "firstPassAward": [],
+    "firstPassAward": [
+      {
+        "itemId": 11400056,
+        "num": 50
+      },
+      {
+        "itemId": 11400005,
+        "num": 50
+      }
+    ],
     "perfectAward": [],
     "dropListNew": [],
     "dropTableList": [],
@@ -137299,15 +137571,24 @@
     "bgResUrl": "",
     "insZoneBGMId": -1,
     "bossId": -1,
-    "description": "",
-    "levelName": "",
+    "description": "我们收到情报，有一伙实力强大的劫掠者正在谋划进攻整顿中心。请协助本站的抓捕和调查行动。",
+    "levelName": "劫掠者抓捕2",
     "levelChapter": "",
     "playerLevel": 0,
     "playerLevelMax": 9999,
     "specifiedLevelLogical": false,
     "specifiedLevelList": [],
     "enemyBookId": -1,
-    "firstPassAward": [],
+    "firstPassAward": [
+      {
+        "itemId": 11400056,
+        "num": 50
+      },
+      {
+        "itemId": 11400005,
+        "num": 50
+      }
+    ],
     "perfectAward": [],
     "dropListNew": [],
     "dropTableList": [],
@@ -137423,15 +137704,24 @@
     "bgResUrl": "",
     "insZoneBGMId": -1,
     "bossId": -1,
-    "description": "",
-    "levelName": "",
+    "description": "我们顺利找到了其中领头的劫掠者之一，希望能从他口中多问出一些情报。",
+    "levelName": "劫掠者抓捕·精英",
     "levelChapter": "",
     "playerLevel": 0,
     "playerLevelMax": 9999,
     "specifiedLevelLogical": false,
     "specifiedLevelList": [],
     "enemyBookId": -1,
-    "firstPassAward": [],
+    "firstPassAward": [
+      {
+        "itemId": 11400056,
+        "num": 50
+      },
+      {
+        "itemId": 11400005,
+        "num": 50
+      }
+    ],
     "perfectAward": [],
     "dropListNew": [],
     "dropTableList": [],
@@ -137552,16 +137842,25 @@
     ],
     "bgResUrl": "",
     "insZoneBGMId": -1,
-    "bossId": -1,
-    "description": "",
-    "levelName": "",
+    "bossId": 10000255,
+    "description": "我们已经确定了劫掠者头目所在的位置，请协助这场抓捕行动收网。情况想必会十分危险，请一定小心。",
+    "levelName": "抓捕收网",
     "levelChapter": "",
     "playerLevel": 0,
     "playerLevelMax": 9999,
     "specifiedLevelLogical": false,
     "specifiedLevelList": [],
     "enemyBookId": -1,
-    "firstPassAward": [],
+    "firstPassAward": [
+      {
+        "itemId": 11400056,
+        "num": 50
+      },
+      {
+        "itemId": 11400005,
+        "num": 50
+      }
+    ],
     "perfectAward": [],
     "dropListNew": [],
     "dropTableList": [],
@@ -137617,6 +137916,1025 @@
     "constructLimit": 0,
     "cityId": 83000017,
     "buildingId": -1,
+    "itemDemand": [],
+    "levelDemand": [],
+    "CorrespondingList": -1,
+    "sort": 99,
+    "loadingPng": "",
+    "loadingTips": "",
+    "rewardCoefficientMax": 0.7,
+    "rewardCoefficientMin": 0.3,
+    "caseTimeLimit": 7,
+    "isBanAutoBattle": false,
+    "correspondingActivity": -1,
+    "limitBattleType": "Forever",
+    "limitNum": -1
+  },
+  {
+    "id": 20100848,
+    "idCN": "12爬塔关卡/常驻/06夏尔/关卡2",
+    "mod": "基础关卡",
+    "isInformalData": false,
+    "isMainChapter": false,
+    "chapterId": -1,
+    "skipBattleRestricted": false,
+    "energyStart": 0,
+    "energyEnd": 20,
+    "extraEnergy": 5,
+    "bgIdList": [
+      {
+        "id": 20000019
+      }
+    ],
+    "weatherRateSN": 0,
+    "weatherList": [],
+    "weatherId": -1,
+    "bgmId": 30000526,
+    "guildanceListZero": [],
+    "isEnemyLvEquilsPlayer": false,
+    "enemyLvOffset": 0,
+    "adaptLvSN": 1,
+    "isCustomDifficulty": false,
+    "extraLevelOffset": 0,
+    "recomGrade": 50,
+    "expelNum": 0,
+    "enemyWaveList": [
+      {
+        "enemyWaveId": 21101526
+      }
+    ],
+    "bgResUrl": "",
+    "insZoneBGMId": -1,
+    "bossId": 10000086,
+    "description": "名为夏尔的沙盗团成员，与外表完全不同，是一名十分难对付的升构者。身边形影不离的大鹅是她的好搭档。",
+    "levelName": "夏尔",
+    "levelChapter": "",
+    "playerLevel": 1,
+    "playerLevelMax": 9999,
+    "specifiedLevelLogical": false,
+    "specifiedLevelList": [],
+    "enemyBookId": -1,
+    "firstPassAward": [
+      {
+        "itemId": 11400145,
+        "num": 10
+      },
+      {
+        "itemId": 11400005,
+        "num": 20
+      }
+    ],
+    "perfectAward": [],
+    "dropListNew": [],
+    "dropTableList": [],
+    "shareList": [],
+    "stageList": [],
+    "equalList": [],
+    "maxScore": 500,
+    "maxScoreList": [
+      {
+        "gradeLine": 400
+      },
+      {
+        "gradeLine": 300
+      },
+      {
+        "gradeLine": 200
+      },
+      {
+        "gradeLine": 100
+      },
+      {
+        "gradeLine": 0
+      }
+    ],
+    "levelRoleList": [],
+    "roleNumOffSet": 0,
+    "isUseScript": false,
+    "isUseLevelRole": false,
+    "isAlwaysWin": false,
+    "timeLimit": 0,
+    "paragraphId": -1,
+    "levelBuffList": [],
+    "mvpType": "TotalDamage",
+    "minRoleNum": 5,
+    "characterExp": 200,
+    "playerExp": 20,
+    "time": 0,
+    "difficulty": "Normal",
+    "rating": 1,
+    "mainBgPath": "",
+    "pictureList": [],
+    "musicList": [],
+    "videoList": [],
+    "enemyBookList": [],
+    "mailList": [],
+    "changeCityStateList": [],
+    "unlockQuestList": [],
+    "saleLevelType": "Tower",
+    "levelCoreId": -1,
+    "levelBgType": "Hua",
+    "levelStar": "OneStar",
+    "reputation": 0,
+    "constructLimit": 0,
+    "cityId": -1,
+    "buildingId": -1,
+    "itemDemand": [],
+    "levelDemand": [],
+    "CorrespondingList": -1,
+    "sort": 99,
+    "loadingPng": "",
+    "loadingTips": "",
+    "rewardCoefficientMax": 0.7,
+    "rewardCoefficientMin": 0.3,
+    "caseTimeLimit": 7,
+    "isBanAutoBattle": false,
+    "correspondingActivity": -1,
+    "limitBattleType": "Forever",
+    "limitNum": -1
+  },
+  {
+    "id": 20100849,
+    "idCN": "12爬塔关卡/常驻/06夏尔/关卡4",
+    "mod": "基础关卡",
+    "isInformalData": false,
+    "isMainChapter": false,
+    "chapterId": -1,
+    "skipBattleRestricted": false,
+    "energyStart": 0,
+    "energyEnd": 20,
+    "extraEnergy": 5,
+    "bgIdList": [
+      {
+        "id": 20000019
+      }
+    ],
+    "weatherRateSN": 0,
+    "weatherList": [],
+    "weatherId": -1,
+    "bgmId": 30000526,
+    "guildanceListZero": [],
+    "isEnemyLvEquilsPlayer": false,
+    "enemyLvOffset": 0,
+    "adaptLvSN": 1,
+    "isCustomDifficulty": false,
+    "extraLevelOffset": 0,
+    "recomGrade": 65,
+    "expelNum": 0,
+    "enemyWaveList": [
+      {
+        "enemyWaveId": 21101522
+      }
+    ],
+    "bgResUrl": "",
+    "insZoneBGMId": -1,
+    "bossId": 10000086,
+    "description": "名为夏尔的沙盗团成员，与外表完全不同，是一名十分难对付的升构者。身边形影不离的大鹅是她的好搭档。",
+    "levelName": "夏尔",
+    "levelChapter": "",
+    "playerLevel": 1,
+    "playerLevelMax": 9999,
+    "specifiedLevelLogical": false,
+    "specifiedLevelList": [],
+    "enemyBookId": -1,
+    "firstPassAward": [
+      {
+        "itemId": 11400145,
+        "num": 10
+      },
+      {
+        "itemId": 11400005,
+        "num": 20
+      }
+    ],
+    "perfectAward": [],
+    "dropListNew": [],
+    "dropTableList": [],
+    "shareList": [],
+    "stageList": [],
+    "equalList": [],
+    "maxScore": 500,
+    "maxScoreList": [
+      {
+        "gradeLine": 400
+      },
+      {
+        "gradeLine": 300
+      },
+      {
+        "gradeLine": 200
+      },
+      {
+        "gradeLine": 100
+      },
+      {
+        "gradeLine": 0
+      }
+    ],
+    "levelRoleList": [],
+    "roleNumOffSet": 0,
+    "isUseScript": false,
+    "isUseLevelRole": false,
+    "isAlwaysWin": false,
+    "timeLimit": 0,
+    "paragraphId": -1,
+    "levelBuffList": [],
+    "mvpType": "TotalDamage",
+    "minRoleNum": 5,
+    "characterExp": 200,
+    "playerExp": 20,
+    "time": 0,
+    "difficulty": "Normal",
+    "rating": 1,
+    "mainBgPath": "",
+    "pictureList": [],
+    "musicList": [],
+    "videoList": [],
+    "enemyBookList": [],
+    "mailList": [],
+    "changeCityStateList": [],
+    "unlockQuestList": [],
+    "saleLevelType": "Tower",
+    "levelCoreId": -1,
+    "levelBgType": "Hua",
+    "levelStar": "OneStar",
+    "reputation": 0,
+    "constructLimit": 0,
+    "cityId": -1,
+    "buildingId": -1,
+    "itemDemand": [],
+    "levelDemand": [],
+    "CorrespondingList": -1,
+    "sort": 99,
+    "loadingPng": "",
+    "loadingTips": "",
+    "rewardCoefficientMax": 0.7,
+    "rewardCoefficientMin": 0.3,
+    "caseTimeLimit": 7,
+    "isBanAutoBattle": false,
+    "correspondingActivity": -1,
+    "limitBattleType": "Forever",
+    "limitNum": -1
+  },
+  {
+    "id": 20100850,
+    "idCN": "12爬塔关卡/常驻/06夏尔/关卡5",
+    "mod": "基础关卡",
+    "isInformalData": false,
+    "isMainChapter": false,
+    "chapterId": -1,
+    "skipBattleRestricted": false,
+    "energyStart": 0,
+    "energyEnd": 20,
+    "extraEnergy": 5,
+    "bgIdList": [
+      {
+        "id": 20000019
+      }
+    ],
+    "weatherRateSN": 0,
+    "weatherList": [],
+    "weatherId": -1,
+    "bgmId": 30000526,
+    "guildanceListZero": [],
+    "isEnemyLvEquilsPlayer": false,
+    "enemyLvOffset": 0,
+    "adaptLvSN": 1,
+    "isCustomDifficulty": false,
+    "extraLevelOffset": 0,
+    "recomGrade": 70,
+    "expelNum": 0,
+    "enemyWaveList": [
+      {
+        "enemyWaveId": 21101523
+      }
+    ],
+    "bgResUrl": "",
+    "insZoneBGMId": -1,
+    "bossId": 10000086,
+    "description": "名为夏尔的沙盗团成员，与外表完全不同，是一名十分难对付的升构者。身边形影不离的大鹅是她的好搭档。",
+    "levelName": "夏尔",
+    "levelChapter": "",
+    "playerLevel": 1,
+    "playerLevelMax": 9999,
+    "specifiedLevelLogical": false,
+    "specifiedLevelList": [],
+    "enemyBookId": -1,
+    "firstPassAward": [
+      {
+        "itemId": 11400145,
+        "num": 10
+      },
+      {
+        "itemId": 11400005,
+        "num": 20
+      }
+    ],
+    "perfectAward": [],
+    "dropListNew": [],
+    "dropTableList": [],
+    "shareList": [],
+    "stageList": [],
+    "equalList": [],
+    "maxScore": 500,
+    "maxScoreList": [
+      {
+        "gradeLine": 400
+      },
+      {
+        "gradeLine": 300
+      },
+      {
+        "gradeLine": 200
+      },
+      {
+        "gradeLine": 100
+      },
+      {
+        "gradeLine": 0
+      }
+    ],
+    "levelRoleList": [],
+    "roleNumOffSet": 0,
+    "isUseScript": false,
+    "isUseLevelRole": false,
+    "isAlwaysWin": false,
+    "timeLimit": 0,
+    "paragraphId": -1,
+    "levelBuffList": [],
+    "mvpType": "TotalDamage",
+    "minRoleNum": 5,
+    "characterExp": 200,
+    "playerExp": 20,
+    "time": 0,
+    "difficulty": "Normal",
+    "rating": 1,
+    "mainBgPath": "",
+    "pictureList": [],
+    "musicList": [],
+    "videoList": [],
+    "enemyBookList": [],
+    "mailList": [],
+    "changeCityStateList": [],
+    "unlockQuestList": [],
+    "saleLevelType": "Tower",
+    "levelCoreId": -1,
+    "levelBgType": "Hua",
+    "levelStar": "OneStar",
+    "reputation": 0,
+    "constructLimit": 0,
+    "cityId": -1,
+    "buildingId": -1,
+    "itemDemand": [],
+    "levelDemand": [],
+    "CorrespondingList": -1,
+    "sort": 99,
+    "loadingPng": "",
+    "loadingTips": "",
+    "rewardCoefficientMax": 0.7,
+    "rewardCoefficientMin": 0.3,
+    "caseTimeLimit": 7,
+    "isBanAutoBattle": false,
+    "correspondingActivity": -1,
+    "limitBattleType": "Forever",
+    "limitNum": -1
+  },
+  {
+    "id": 20100851,
+    "idCN": "12爬塔关卡/常驻/06夏尔/关卡1",
+    "mod": "基础关卡",
+    "isInformalData": false,
+    "isMainChapter": false,
+    "chapterId": -1,
+    "skipBattleRestricted": false,
+    "energyStart": 0,
+    "energyEnd": 20,
+    "extraEnergy": 5,
+    "bgIdList": [
+      {
+        "id": 20000019
+      }
+    ],
+    "weatherRateSN": 0,
+    "weatherList": [],
+    "weatherId": -1,
+    "bgmId": 30000526,
+    "guildanceListZero": [],
+    "isEnemyLvEquilsPlayer": false,
+    "enemyLvOffset": 0,
+    "adaptLvSN": 1,
+    "isCustomDifficulty": false,
+    "extraLevelOffset": 0,
+    "recomGrade": 40,
+    "expelNum": 0,
+    "enemyWaveList": [
+      {
+        "enemyWaveId": 21101524
+      }
+    ],
+    "bgResUrl": "",
+    "insZoneBGMId": -1,
+    "bossId": 10000086,
+    "description": "名为夏尔的沙盗团成员，与外表完全不同，是一名十分难对付的升构者。身边形影不离的大鹅是她的好搭档。",
+    "levelName": "夏尔",
+    "levelChapter": "",
+    "playerLevel": 1,
+    "playerLevelMax": 9999,
+    "specifiedLevelLogical": false,
+    "specifiedLevelList": [],
+    "enemyBookId": -1,
+    "firstPassAward": [
+      {
+        "itemId": 11400145,
+        "num": 10
+      },
+      {
+        "itemId": 11400005,
+        "num": 20
+      }
+    ],
+    "perfectAward": [],
+    "dropListNew": [],
+    "dropTableList": [],
+    "shareList": [],
+    "stageList": [],
+    "equalList": [],
+    "maxScore": 500,
+    "maxScoreList": [
+      {
+        "gradeLine": 400
+      },
+      {
+        "gradeLine": 300
+      },
+      {
+        "gradeLine": 200
+      },
+      {
+        "gradeLine": 100
+      },
+      {
+        "gradeLine": 0
+      }
+    ],
+    "levelRoleList": [],
+    "roleNumOffSet": 0,
+    "isUseScript": false,
+    "isUseLevelRole": false,
+    "isAlwaysWin": false,
+    "timeLimit": 0,
+    "paragraphId": -1,
+    "levelBuffList": [],
+    "mvpType": "TotalDamage",
+    "minRoleNum": 5,
+    "characterExp": 200,
+    "playerExp": 20,
+    "time": 0,
+    "difficulty": "Normal",
+    "rating": 1,
+    "mainBgPath": "",
+    "pictureList": [],
+    "musicList": [],
+    "videoList": [],
+    "enemyBookList": [],
+    "mailList": [],
+    "changeCityStateList": [],
+    "unlockQuestList": [],
+    "saleLevelType": "Tower",
+    "levelCoreId": -1,
+    "levelBgType": "Hua",
+    "levelStar": "OneStar",
+    "reputation": 0,
+    "constructLimit": 0,
+    "cityId": -1,
+    "buildingId": -1,
+    "itemDemand": [],
+    "levelDemand": [],
+    "CorrespondingList": -1,
+    "sort": 99,
+    "loadingPng": "",
+    "loadingTips": "",
+    "rewardCoefficientMax": 0.7,
+    "rewardCoefficientMin": 0.3,
+    "caseTimeLimit": 7,
+    "isBanAutoBattle": false,
+    "correspondingActivity": -1,
+    "limitBattleType": "Forever",
+    "limitNum": -1
+  },
+  {
+    "id": 20100852,
+    "idCN": "12爬塔关卡/常驻/06夏尔/关卡3",
+    "mod": "基础关卡",
+    "isInformalData": false,
+    "isMainChapter": false,
+    "chapterId": -1,
+    "skipBattleRestricted": false,
+    "energyStart": 0,
+    "energyEnd": 20,
+    "extraEnergy": 5,
+    "bgIdList": [
+      {
+        "id": 20000019
+      }
+    ],
+    "weatherRateSN": 0,
+    "weatherList": [],
+    "weatherId": -1,
+    "bgmId": 30000526,
+    "guildanceListZero": [],
+    "isEnemyLvEquilsPlayer": false,
+    "enemyLvOffset": 0,
+    "adaptLvSN": 1,
+    "isCustomDifficulty": false,
+    "extraLevelOffset": 0,
+    "recomGrade": 60,
+    "expelNum": 0,
+    "enemyWaveList": [
+      {
+        "enemyWaveId": 21101525
+      }
+    ],
+    "bgResUrl": "",
+    "insZoneBGMId": -1,
+    "bossId": 10000086,
+    "description": "名为夏尔的沙盗团成员，与外表完全不同，是一名十分难对付的升构者。身边形影不离的大鹅是她的好搭档。",
+    "levelName": "夏尔",
+    "levelChapter": "",
+    "playerLevel": 1,
+    "playerLevelMax": 9999,
+    "specifiedLevelLogical": false,
+    "specifiedLevelList": [],
+    "enemyBookId": -1,
+    "firstPassAward": [
+      {
+        "itemId": 11400145,
+        "num": 10
+      },
+      {
+        "itemId": 11400005,
+        "num": 20
+      }
+    ],
+    "perfectAward": [],
+    "dropListNew": [],
+    "dropTableList": [],
+    "shareList": [],
+    "stageList": [],
+    "equalList": [],
+    "maxScore": 500,
+    "maxScoreList": [
+      {
+        "gradeLine": 400
+      },
+      {
+        "gradeLine": 300
+      },
+      {
+        "gradeLine": 200
+      },
+      {
+        "gradeLine": 100
+      },
+      {
+        "gradeLine": 0
+      }
+    ],
+    "levelRoleList": [],
+    "roleNumOffSet": 0,
+    "isUseScript": false,
+    "isUseLevelRole": false,
+    "isAlwaysWin": false,
+    "timeLimit": 0,
+    "paragraphId": -1,
+    "levelBuffList": [],
+    "mvpType": "TotalDamage",
+    "minRoleNum": 5,
+    "characterExp": 200,
+    "playerExp": 20,
+    "time": 0,
+    "difficulty": "Normal",
+    "rating": 1,
+    "mainBgPath": "",
+    "pictureList": [],
+    "musicList": [],
+    "videoList": [],
+    "enemyBookList": [],
+    "mailList": [],
+    "changeCityStateList": [],
+    "unlockQuestList": [],
+    "saleLevelType": "Tower",
+    "levelCoreId": -1,
+    "levelBgType": "Hua",
+    "levelStar": "OneStar",
+    "reputation": 0,
+    "constructLimit": 0,
+    "cityId": -1,
+    "buildingId": -1,
+    "itemDemand": [],
+    "levelDemand": [],
+    "CorrespondingList": -1,
+    "sort": 99,
+    "loadingPng": "",
+    "loadingTips": "",
+    "rewardCoefficientMax": 0.7,
+    "rewardCoefficientMin": 0.3,
+    "caseTimeLimit": 7,
+    "isBanAutoBattle": false,
+    "correspondingActivity": -1,
+    "limitBattleType": "Forever",
+    "limitNum": -1
+  },
+  {
+    "id": 20100853,
+    "idCN": "测试/敌方角色测/测试驱散练功",
+    "mod": "基础关卡",
+    "isInformalData": false,
+    "isMainChapter": false,
+    "chapterId": -1,
+    "skipBattleRestricted": false,
+    "energyStart": 0,
+    "energyEnd": 10,
+    "extraEnergy": 5,
+    "bgIdList": [
+      {
+        "id": 20000036
+      }
+    ],
+    "weatherRateSN": 0,
+    "weatherList": [],
+    "weatherId": -1,
+    "bgmId": -1,
+    "guildanceListZero": [],
+    "isEnemyLvEquilsPlayer": false,
+    "enemyLvOffset": 0,
+    "adaptLvSN": 1,
+    "isCustomDifficulty": false,
+    "extraLevelOffset": 3,
+    "recomGrade": 0,
+    "expelNum": 0,
+    "enemyWaveList": [
+      {
+        "enemyWaveId": 21101533
+      },
+      {
+        "enemyWaveId": 21100098
+      }
+    ],
+    "bgResUrl": "",
+    "insZoneBGMId": -1,
+    "bossId": -1,
+    "description": "",
+    "levelName": "",
+    "levelChapter": "",
+    "playerLevel": 0,
+    "playerLevelMax": 9999,
+    "specifiedLevelLogical": false,
+    "specifiedLevelList": [],
+    "enemyBookId": -1,
+    "firstPassAward": [],
+    "perfectAward": [],
+    "dropListNew": [],
+    "dropTableList": [],
+    "shareList": [],
+    "stageList": [],
+    "equalList": [],
+    "maxScore": 2600,
+    "maxScoreList": [],
+    "levelRoleList": [],
+    "roleNumOffSet": 0,
+    "isUseScript": false,
+    "isUseLevelRole": false,
+    "isAlwaysWin": false,
+    "timeLimit": 0,
+    "paragraphId": -1,
+    "levelBuffList": [],
+    "mvpType": "TotalDamage",
+    "minRoleNum": 5,
+    "characterExp": 0,
+    "playerExp": 0,
+    "time": 360,
+    "difficulty": "Normal",
+    "rating": 1,
+    "mainBgPath": "",
+    "pictureList": [],
+    "musicList": [],
+    "videoList": [],
+    "enemyBookList": [],
+    "mailList": [],
+    "changeCityStateList": [],
+    "unlockQuestList": [],
+    "saleLevelType": "Default",
+    "levelCoreId": -1,
+    "levelBgType": "Normal",
+    "levelStar": "OneStar",
+    "reputation": 1,
+    "constructLimit": 0,
+    "cityId": -1,
+    "buildingId": -1,
+    "itemDemand": [],
+    "levelDemand": [],
+    "CorrespondingList": -1,
+    "sort": 99,
+    "loadingPng": "",
+    "loadingTips": "",
+    "rewardCoefficientMax": 0.7,
+    "rewardCoefficientMin": 0.3,
+    "caseTimeLimit": 7,
+    "isBanAutoBattle": false,
+    "correspondingActivity": -1,
+    "limitBattleType": "Forever",
+    "limitNum": -1
+  },
+  {
+    "id": 20100854,
+    "idCN": "13逸闻任务/帝国/夏尔/01",
+    "mod": "基础关卡",
+    "isInformalData": false,
+    "isMainChapter": false,
+    "chapterId": -1,
+    "skipBattleRestricted": false,
+    "energyStart": 0,
+    "energyEnd": 0,
+    "extraEnergy": 5,
+    "bgIdList": [
+      {
+        "id": 20000026
+      }
+    ],
+    "weatherRateSN": 10000,
+    "weatherList": [
+      {
+        "weatherId": 50000003
+      },
+      {
+        "weatherId": 50000009
+      }
+    ],
+    "weatherId": -1,
+    "bgmId": 30000526,
+    "guildanceListZero": [],
+    "isEnemyLvEquilsPlayer": false,
+    "enemyLvOffset": 0,
+    "adaptLvSN": 1,
+    "isCustomDifficulty": false,
+    "extraLevelOffset": 2,
+    "recomGrade": 21,
+    "expelNum": 0,
+    "enemyWaveList": [
+      {
+        "enemyWaveId": 21101534
+      }
+    ],
+    "bgResUrl": "",
+    "insZoneBGMId": -1,
+    "bossId": -1,
+    "description": "",
+    "levelName": "",
+    "levelChapter": "",
+    "playerLevel": 1,
+    "playerLevelMax": 9999,
+    "specifiedLevelLogical": false,
+    "specifiedLevelList": [],
+    "enemyBookId": -1,
+    "firstPassAward": [
+      {
+        "itemId": 11400001,
+        "num": 50000
+      },
+      {
+        "itemId": 11700122,
+        "num": 3
+      },
+      {
+        "itemId": 11700100,
+        "num": 2
+      },
+      {
+        "itemId": 11700121,
+        "num": 5
+      },
+      {
+        "itemId": 11700084,
+        "num": 3
+      },
+      {
+        "itemId": 11700050,
+        "num": 1
+      },
+      {
+        "itemId": 11700004,
+        "num": 5
+      }
+    ],
+    "perfectAward": [],
+    "dropListNew": [],
+    "dropTableList": [],
+    "shareList": [],
+    "stageList": [],
+    "equalList": [],
+    "maxScore": 500,
+    "maxScoreList": [
+      {
+        "gradeLine": 400
+      },
+      {
+        "gradeLine": 300
+      },
+      {
+        "gradeLine": 200
+      },
+      {
+        "gradeLine": 100
+      },
+      {
+        "gradeLine": 0
+      }
+    ],
+    "levelRoleList": [],
+    "roleNumOffSet": 0,
+    "isUseScript": false,
+    "isUseLevelRole": false,
+    "isAlwaysWin": false,
+    "timeLimit": 0,
+    "paragraphId": 20700096,
+    "levelBuffList": [],
+    "mvpType": "TotalDamage",
+    "minRoleNum": 5,
+    "characterExp": 200,
+    "playerExp": 20,
+    "time": 0,
+    "difficulty": "Normal",
+    "rating": 1,
+    "mainBgPath": "",
+    "pictureList": [],
+    "musicList": [],
+    "videoList": [],
+    "enemyBookList": [],
+    "mailList": [],
+    "changeCityStateList": [],
+    "unlockQuestList": [],
+    "saleLevelType": "twig",
+    "levelCoreId": -1,
+    "levelBgType": "Normal",
+    "levelStar": "ThreeStar",
+    "reputation": 0,
+    "constructLimit": 0,
+    "cityId": 83000001,
+    "buildingId": 84400008,
+    "itemDemand": [],
+    "levelDemand": [],
+    "CorrespondingList": -1,
+    "sort": 99,
+    "loadingPng": "",
+    "loadingTips": "",
+    "rewardCoefficientMax": 0.7,
+    "rewardCoefficientMin": 0.3,
+    "caseTimeLimit": 7,
+    "isBanAutoBattle": false,
+    "correspondingActivity": -1,
+    "limitBattleType": "Forever",
+    "limitNum": -1
+  },
+  {
+    "id": 20100855,
+    "idCN": "13逸闻任务/帝国/夏尔/02",
+    "mod": "基础关卡",
+    "isInformalData": false,
+    "isMainChapter": false,
+    "chapterId": -1,
+    "skipBattleRestricted": false,
+    "energyStart": 0,
+    "energyEnd": 0,
+    "extraEnergy": 5,
+    "bgIdList": [
+      {
+        "id": 20000006
+      }
+    ],
+    "weatherRateSN": 10000,
+    "weatherList": [
+      {
+        "weatherId": 50000003
+      },
+      {
+        "weatherId": 50000009
+      }
+    ],
+    "weatherId": -1,
+    "bgmId": 30000526,
+    "guildanceListZero": [],
+    "isEnemyLvEquilsPlayer": false,
+    "enemyLvOffset": 0,
+    "adaptLvSN": 1,
+    "isCustomDifficulty": false,
+    "extraLevelOffset": 2,
+    "recomGrade": 21,
+    "expelNum": 0,
+    "enemyWaveList": [
+      {
+        "enemyWaveId": 21101535
+      },
+      {
+        "enemyWaveId": 21101536
+      }
+    ],
+    "bgResUrl": "",
+    "insZoneBGMId": -1,
+    "bossId": -1,
+    "description": "",
+    "levelName": "",
+    "levelChapter": "",
+    "playerLevel": 1,
+    "playerLevelMax": 9999,
+    "specifiedLevelLogical": false,
+    "specifiedLevelList": [],
+    "enemyBookId": -1,
+    "firstPassAward": [
+      {
+        "itemId": 11400001,
+        "num": 50000
+      },
+      {
+        "itemId": 11700122,
+        "num": 3
+      },
+      {
+        "itemId": 11700100,
+        "num": 2
+      },
+      {
+        "itemId": 11700121,
+        "num": 5
+      },
+      {
+        "itemId": 11700084,
+        "num": 3
+      },
+      {
+        "itemId": 11700050,
+        "num": 1
+      },
+      {
+        "itemId": 11700004,
+        "num": 5
+      }
+    ],
+    "perfectAward": [],
+    "dropListNew": [],
+    "dropTableList": [],
+    "shareList": [],
+    "stageList": [],
+    "equalList": [],
+    "maxScore": 500,
+    "maxScoreList": [
+      {
+        "gradeLine": 400
+      },
+      {
+        "gradeLine": 300
+      },
+      {
+        "gradeLine": 200
+      },
+      {
+        "gradeLine": 100
+      },
+      {
+        "gradeLine": 0
+      }
+    ],
+    "levelRoleList": [],
+    "roleNumOffSet": 0,
+    "isUseScript": false,
+    "isUseLevelRole": false,
+    "isAlwaysWin": false,
+    "timeLimit": 0,
+    "paragraphId": 20700100,
+    "levelBuffList": [],
+    "mvpType": "TotalDamage",
+    "minRoleNum": 5,
+    "characterExp": 200,
+    "playerExp": 20,
+    "time": 0,
+    "difficulty": "Normal",
+    "rating": 1,
+    "mainBgPath": "",
+    "pictureList": [],
+    "musicList": [],
+    "videoList": [],
+    "enemyBookList": [],
+    "mailList": [],
+    "changeCityStateList": [],
+    "unlockQuestList": [],
+    "saleLevelType": "twig",
+    "levelCoreId": -1,
+    "levelBgType": "Normal",
+    "levelStar": "ThreeStar",
+    "reputation": 0,
+    "constructLimit": 0,
+    "cityId": 83000001,
+    "buildingId": 84400008,
     "itemDemand": [],
     "levelDemand": [],
     "CorrespondingList": -1,

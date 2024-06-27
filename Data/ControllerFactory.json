@@ -6583,11 +6583,7 @@
     "targetInvisibleEffectId": -1,
     "effectOffsetX": 0.0,
     "effectOffsetY": 0.0,
-    "actionList": [
-      {
-        "actionID": 10102357
-      }
-    ],
+    "actionList": [],
     "normalAttackCritID": -1,
     "skillList": [
       {
@@ -6608,9 +6604,6 @@
     "commandList": [
       {
         "actionID": 10102047
-      },
-      {
-        "actionID": 10101988
       }
     ],
     "enemySkillList": [],
@@ -10489,7 +10482,7 @@
     "effectOffsetY": 0.0,
     "actionList": [
       {
-        "actionID": 10102357
+        "actionID": 10103083
       }
     ],
     "normalAttackCritID": -1,
@@ -14180,7 +14173,7 @@
         "rangeSN": -10000
       }
     ],
-    "energyRestorePerFrameSN": 220,
+    "energyRestorePerFrameSN": 270,
     "isSkillDelay": true,
     "minDelay": 120,
     "maxDelay": 360
@@ -14241,7 +14234,7 @@
   },
   {
     "id": 10300086,
-    "idCN": "爬塔/桦树生物/寒潮浮囊体-5",
+    "idCN": "爬塔/桦树生物/寒潮浮囊体一阶段-5",
     "mod": "BOSSAI",
     "isInformalData": false,
     "targetInvisibleEffectId": 11102488,
@@ -14285,7 +14278,7 @@
         "rangeSN": -10000
       }
     ],
-    "energyRestorePerFrameSN": 250,
+    "energyRestorePerFrameSN": 320,
     "isSkillDelay": true,
     "minDelay": 120,
     "maxDelay": 360
@@ -15476,9 +15469,15 @@
     "shapeShiftList": [],
     "commandList": [],
     "enemySkillList": [],
-    "isUseEnergy": false,
-    "energySkillList": [],
-    "energyRestorePerFrameSN": 0,
+    "isUseEnergy": true,
+    "energySkillList": [
+      {
+        "actionId": 10103080,
+        "isClearEnergy": true,
+        "rangeSN": -10000
+      }
+    ],
+    "energyRestorePerFrameSN": 560,
     "isSkillDelay": true,
     "minDelay": 120,
     "maxDelay": 360
@@ -15520,9 +15519,15 @@
     "shapeShiftList": [],
     "commandList": [],
     "enemySkillList": [],
-    "isUseEnergy": false,
-    "energySkillList": [],
-    "energyRestorePerFrameSN": 0,
+    "isUseEnergy": true,
+    "energySkillList": [
+      {
+        "actionId": 10103080,
+        "isClearEnergy": true,
+        "rangeSN": -10000
+      }
+    ],
+    "energyRestorePerFrameSN": 560,
     "isSkillDelay": true,
     "minDelay": 120,
     "maxDelay": 360
@@ -15564,9 +15569,15 @@
     "shapeShiftList": [],
     "commandList": [],
     "enemySkillList": [],
-    "isUseEnergy": false,
-    "energySkillList": [],
-    "energyRestorePerFrameSN": 0,
+    "isUseEnergy": true,
+    "energySkillList": [
+      {
+        "actionId": 10103080,
+        "isClearEnergy": true,
+        "rangeSN": -10000
+      }
+    ],
+    "energyRestorePerFrameSN": 560,
     "isSkillDelay": true,
     "minDelay": 120,
     "maxDelay": 360
@@ -15772,7 +15783,7 @@
     "effectOffsetY": 0.0,
     "actionList": [
       {
-        "actionID": 10103051
+        "actionID": 10103056
       }
     ],
     "normalAttackCritID": -1,
@@ -15882,7 +15893,7 @@
     "effectOffsetY": 0.0,
     "actionList": [
       {
-        "actionID": 10103051
+        "actionID": 10103056
       }
     ],
     "normalAttackCritID": -1,
@@ -16287,17 +16298,11 @@
         "actionId": 10103075
       }
     ],
-    "skillLoopDelayFrame": 120,
+    "skillLoopDelayFrame": 0,
     "shapeShiftList": [],
     "commandList": [
       {
         "actionID": 10103076
-      },
-      {
-        "actionID": 10103077
-      },
-      {
-        "actionID": 10103078
       }
     ],
     "enemySkillList": [],
@@ -16496,5 +16501,438 @@
     "isSkillDelay": true,
     "minDelay": 120,
     "maxDelay": 240
+  },
+  {
+    "id": 10300406,
+    "idCN": "爬塔/桦树生物/寒潮浮囊体一阶段-4",
+    "mod": "BOSSAI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10101550
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10102138,
+        "activeFrame": 780,
+        "activeTime": 13.0,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10102137,
+        "activeFrame": 120,
+        "activeTime": 2.0,
+        "rangeSN": -10000
+      }
+    ],
+    "isInvisibleBeforeShowUp": true,
+    "showupSkillList": [
+      {
+        "actionId": 10101547
+      }
+    ],
+    "skillLoopDelayFrame": 1080,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": true,
+    "energySkillList": [
+      {
+        "actionId": 10102139,
+        "isClearEnergy": true,
+        "rangeSN": -10000
+      }
+    ],
+    "energyRestorePerFrameSN": 280,
+    "isSkillDelay": true,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300420,
+    "idCN": "爬塔/桦树生物/寒潮浮囊体二阶段-4",
+    "mod": "BOSSAI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10101550
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10102138,
+        "activeFrame": 780,
+        "activeTime": 13.0,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10102137,
+        "activeFrame": 120,
+        "activeTime": 2.0,
+        "rangeSN": -10000
+      }
+    ],
+    "isInvisibleBeforeShowUp": true,
+    "showupSkillList": [
+      {
+        "actionId": 10103082
+      }
+    ],
+    "skillLoopDelayFrame": 1080,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": true,
+    "energySkillList": [
+      {
+        "actionId": 10102139,
+        "isClearEnergy": true,
+        "rangeSN": -10000
+      }
+    ],
+    "energyRestorePerFrameSN": 250,
+    "isSkillDelay": true,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300421,
+    "idCN": "爬塔/桦树生物/寒潮浮囊体二阶段-5",
+    "mod": "BOSSAI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10101550
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10102138,
+        "activeFrame": 780,
+        "activeTime": 13.0,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10102137,
+        "activeFrame": 120,
+        "activeTime": 2.0,
+        "rangeSN": -10000
+      }
+    ],
+    "isInvisibleBeforeShowUp": true,
+    "showupSkillList": [
+      {
+        "actionId": 10103082
+      }
+    ],
+    "skillLoopDelayFrame": 1080,
+    "shapeShiftList": [
+      {
+        "controllerID": 10300422,
+        "hpPercentSN": 2000
+      }
+    ],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": true,
+    "energySkillList": [
+      {
+        "actionId": 10100497,
+        "isClearEnergy": true,
+        "rangeSN": -10000
+      }
+    ],
+    "energyRestorePerFrameSN": 250,
+    "isSkillDelay": true,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300422,
+    "idCN": "爬塔/桦树生物/寒潮浮囊体三阶段-5",
+    "mod": "BOSSAI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10101550
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10102138,
+        "activeFrame": 780,
+        "activeTime": 13.0,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10102137,
+        "activeFrame": 120,
+        "activeTime": 2.0,
+        "rangeSN": -10000
+      }
+    ],
+    "isInvisibleBeforeShowUp": true,
+    "showupSkillList": [
+      {
+        "actionId": 10103082
+      }
+    ],
+    "skillLoopDelayFrame": 1080,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": true,
+    "energySkillList": [
+      {
+        "actionId": 10100497,
+        "isClearEnergy": true,
+        "rangeSN": -10000
+      }
+    ],
+    "energyRestorePerFrameSN": 250,
+    "isSkillDelay": true,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300418,
+    "idCN": "爬塔/人形单位/夏尔-4",
+    "mod": "BOSSAI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10101326
+      },
+      {
+        "actionID": 10101329
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10101333,
+        "activeFrame": 480,
+        "activeTime": 8.0,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10101331,
+        "activeFrame": 1080,
+        "activeTime": 18.0,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10102110,
+        "activeFrame": 1680,
+        "activeTime": 28.0,
+        "rangeSN": -10000
+      }
+    ],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [],
+    "skillLoopDelayFrame": 720,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": true,
+    "energySkillList": [
+      {
+        "actionId": 10103079,
+        "isClearEnergy": true,
+        "rangeSN": -10000
+      }
+    ],
+    "energyRestorePerFrameSN": 250,
+    "isSkillDelay": true,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300419,
+    "idCN": "爬塔/人形单位/夏尔-5",
+    "mod": "BOSSAI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10101326
+      },
+      {
+        "actionID": 10101329
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10101333,
+        "activeFrame": 480,
+        "activeTime": 8.0,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10101331,
+        "activeFrame": 1080,
+        "activeTime": 18.0,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10102110,
+        "activeFrame": 1680,
+        "activeTime": 28.0,
+        "rangeSN": -10000
+      }
+    ],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [],
+    "skillLoopDelayFrame": 720,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": true,
+    "energySkillList": [
+      {
+        "actionId": 10102111,
+        "isClearEnergy": true,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10103079,
+        "isClearEnergy": true,
+        "rangeSN": -10000
+      }
+    ],
+    "energyRestorePerFrameSN": 280,
+    "isSkillDelay": true,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300424,
+    "idCN": "我方/50召唤物/安菲娅的克鲁索",
+    "mod": "基础AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": -1,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10103084,
+        "activeFrame": 1,
+        "activeTime": 1.0,
+        "rangeSN": -10000
+      }
+    ],
+    "isInvisibleBeforeShowUp": true,
+    "showupSkillList": [
+      {
+        "actionId": 10103077
+      }
+    ],
+    "skillLoopDelayFrame": 600,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300425,
+    "idCN": "我方/05五星/安菲娅",
+    "mod": "卡牌AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": -1,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10101522
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [],
+    "skillLoopDelayFrame": 1,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300426,
+    "idCN": "爬塔/桦树生物/鸣爆虫母-5",
+    "mod": "BOSSAI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10100834
+      },
+      {
+        "actionID": 10101798
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10101134,
+        "activeFrame": 1200,
+        "activeTime": 16.0,
+        "rangeSN": -10000
+      }
+    ],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [],
+    "skillLoopDelayFrame": 600,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": true,
+    "energySkillList": [
+      {
+        "actionId": 10101800,
+        "isClearEnergy": true,
+        "rangeSN": -10000
+      }
+    ],
+    "energyRestorePerFrameSN": 320,
+    "isSkillDelay": true,
+    "minDelay": 120,
+    "maxDelay": 360
   }
 ]
