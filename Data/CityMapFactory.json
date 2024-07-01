@@ -341,8 +341,8 @@
       },
       {
         "id": 86400222,
-        "x": 145.0,
-        "y": 330.0
+        "x": -16.0,
+        "y": -234.0
       },
       {
         "id": 86400221,
@@ -1425,19 +1425,49 @@
     "offsetY": 0.0,
     "bubbleList": [
       {
-        "id": 86400176,
-        "x": 11.0,
-        "y": 325.0
-      },
-      {
         "id": 86400177,
         "x": -600.0,
         "y": 290.0
       },
       {
+        "id": 86400176,
+        "x": 11.0,
+        "y": 325.0
+      },
+      {
+        "id": 86400087,
+        "x": -410.0,
+        "y": -150.0
+      },
+      {
+        "id": 86400203,
+        "x": -410.0,
+        "y": -150.0
+      },
+      {
+        "id": 86400204,
+        "x": -410.0,
+        "y": -150.0
+      },
+      {
+        "id": 86400098,
+        "x": -410.0,
+        "y": -150.0
+      },
+      {
+        "id": 86400202,
+        "x": -450.0,
+        "y": 304.0
+      },
+      {
         "id": 86400178,
         "x": 557.0,
         "y": -53.0
+      },
+      {
+        "id": 86400025,
+        "x": -450.0,
+        "y": 304.0
       }
     ],
     "isShowRep": true,
@@ -6528,7 +6558,33 @@
     "activityId": -1,
     "startTime": "",
     "endTime": "",
-    "displayConditionsList": [],
+    "displayConditionsList": [
+      {
+        "condition": "NoQuesting",
+        "mId": 81000113,
+        "val": 0
+      },
+      {
+        "condition": "NoQuesting",
+        "mId": 81000162,
+        "val": 0
+      },
+      {
+        "condition": "NoQuesting",
+        "mId": 81000152,
+        "val": 0
+      },
+      {
+        "condition": "NoQuesting",
+        "mId": 81000153,
+        "val": 0
+      },
+      {
+        "condition": "NoQuesting",
+        "mId": 81000158,
+        "val": 0
+      }
+    ],
     "unlockConditionsList": [],
     "isLock": false,
     "func": "OpenBuilding",
@@ -7353,7 +7409,7 @@
   },
   {
     "id": 86400088,
-    "idCN": "03气泡/C2修格里城S0/03逸闻/多萝西-1",
+    "idCN": "03气泡/C2修格里城S0/03逸闻/多萝西1",
     "mod": "气泡",
     "isInformalData": false,
     "name": "莉薇娅",
@@ -7542,6 +7598,11 @@
     "offsetX": 0.0,
     "offsetY": 0.0,
     "bubbleList": [
+      {
+        "id": 86400177,
+        "x": -600.0,
+        "y": 290.0
+      },
       {
         "id": 86400176,
         "x": 11.0,
@@ -8326,86 +8387,8 @@
     "bgColor": "FFFFFF"
   },
   {
-    "id": 86400223,
-    "idCN": "03气泡/C2修格里城S0/03逸闻/夏尔5",
-    "mod": "气泡",
-    "isInformalData": false,
-    "name": "夏尔",
-    "isSpecial": false,
-    "isInstance": false,
-    "iconPath": "RolePlus/Shire/Face",
-    "nameIconPath": "",
-    "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
-    "animLoop": "UI_CityBtn_01_Loop",
-    "animOut": "UI_CityBtn_01_Out",
-    "activityId": -1,
-    "startTime": "",
-    "endTime": "",
-    "displayConditionsList": [
-      {
-        "condition": "Questing",
-        "mId": 81000873,
-        "val": 0
-      }
-    ],
-    "unlockConditionsList": [],
-    "isLock": false,
-    "func": "OpenDialog",
-    "btnType": "Other",
-    "mId": -1,
-    "uiPath": "",
-    "buildingId": -1,
-    "stationPlace": -1,
-    "dialogId": 20700104,
-    "dungeonId": -1,
-    "levelId": -1,
-    "textId": -1,
-    "npcId": -1,
-    "bgPath": "",
-    "bgColor": "FFFFFF"
-  },
-  {
-    "id": 86400222,
-    "idCN": "03气泡/C2修格里城S0/03逸闻/夏尔3",
-    "mod": "气泡",
-    "isInformalData": false,
-    "name": "夏尔",
-    "isSpecial": false,
-    "isInstance": false,
-    "iconPath": "RolePlus/Shire/Face",
-    "nameIconPath": "",
-    "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
-    "animLoop": "UI_CityBtn_01_Loop",
-    "animOut": "UI_CityBtn_01_Out",
-    "activityId": -1,
-    "startTime": "",
-    "endTime": "",
-    "displayConditionsList": [
-      {
-        "condition": "Questing",
-        "mId": 81000872,
-        "val": 0
-      }
-    ],
-    "unlockConditionsList": [],
-    "isLock": false,
-    "func": "OpenDialog",
-    "btnType": "Other",
-    "mId": -1,
-    "uiPath": "",
-    "buildingId": -1,
-    "stationPlace": -1,
-    "dialogId": 20700099,
-    "dungeonId": -1,
-    "levelId": -1,
-    "textId": -1,
-    "npcId": -1,
-    "bgPath": "",
-    "bgColor": "FFFFFF"
-  },
-  {
-    "id": 86400221,
-    "idCN": "03气泡/C2修格里城S0/03逸闻/夏尔4",
+    "id": 86400219,
+    "idCN": "03气泡/T1荒原站S0/03逸闻/夏尔1",
     "mod": "气泡",
     "isInformalData": false,
     "name": "夏尔",
@@ -8422,7 +8405,7 @@
     "displayConditionsList": [
       {
         "condition": "Questing",
-        "mId": 81000853,
+        "mId": 81000850,
         "val": 0
       }
     ],
@@ -8436,7 +8419,7 @@
     "stationPlace": -1,
     "dialogId": -1,
     "dungeonId": -1,
-    "levelId": 20100855,
+    "levelId": 20100854,
     "textId": -1,
     "npcId": -1,
     "bgPath": "",
@@ -8482,11 +8465,11 @@
     "bgColor": "FFFFFF"
   },
   {
-    "id": 86400219,
-    "idCN": "03气泡/T1荒原站S0/03逸闻/夏尔1",
+    "id": 86400221,
+    "idCN": "03气泡/C2修格里城S0/03逸闻/夏尔4",
     "mod": "气泡",
     "isInformalData": false,
-    "name": "夏尔",
+    "name": "黑月大酒店",
     "isSpecial": false,
     "isInstance": false,
     "iconPath": "RolePlus/Shire/Face",
@@ -8500,7 +8483,7 @@
     "displayConditionsList": [
       {
         "condition": "Questing",
-        "mId": 81000850,
+        "mId": 81000853,
         "val": 0
       }
     ],
@@ -8514,7 +8497,85 @@
     "stationPlace": -1,
     "dialogId": -1,
     "dungeonId": -1,
-    "levelId": 20100854,
+    "levelId": 20100855,
+    "textId": -1,
+    "npcId": -1,
+    "bgPath": "",
+    "bgColor": "FFFFFF"
+  },
+  {
+    "id": 86400222,
+    "idCN": "03气泡/C2修格里城S0/03逸闻/夏尔3",
+    "mod": "气泡",
+    "isInformalData": false,
+    "name": "夏尔",
+    "isSpecial": false,
+    "isInstance": false,
+    "iconPath": "RolePlus/Shire/Face",
+    "nameIconPath": "",
+    "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
+    "animLoop": "UI_CityBtn_01_Loop",
+    "animOut": "UI_CityBtn_01_Out",
+    "activityId": -1,
+    "startTime": "",
+    "endTime": "",
+    "displayConditionsList": [
+      {
+        "condition": "Questing",
+        "mId": 81000872,
+        "val": 0
+      }
+    ],
+    "unlockConditionsList": [],
+    "isLock": false,
+    "func": "OpenDialog",
+    "btnType": "Other",
+    "mId": -1,
+    "uiPath": "",
+    "buildingId": -1,
+    "stationPlace": -1,
+    "dialogId": 20700099,
+    "dungeonId": -1,
+    "levelId": -1,
+    "textId": -1,
+    "npcId": -1,
+    "bgPath": "",
+    "bgColor": "FFFFFF"
+  },
+  {
+    "id": 86400223,
+    "idCN": "03气泡/C2修格里城S0/03逸闻/夏尔5",
+    "mod": "气泡",
+    "isInformalData": false,
+    "name": "夏尔",
+    "isSpecial": false,
+    "isInstance": false,
+    "iconPath": "RolePlus/Shire/Face",
+    "nameIconPath": "",
+    "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
+    "animLoop": "UI_CityBtn_01_Loop",
+    "animOut": "UI_CityBtn_01_Out",
+    "activityId": -1,
+    "startTime": "",
+    "endTime": "",
+    "displayConditionsList": [
+      {
+        "condition": "Questing",
+        "mId": 81000873,
+        "val": 0
+      }
+    ],
+    "unlockConditionsList": [],
+    "isLock": false,
+    "func": "OpenDialog",
+    "btnType": "Other",
+    "mId": -1,
+    "uiPath": "",
+    "buildingId": -1,
+    "stationPlace": -1,
+    "dialogId": 20700104,
+    "dungeonId": -1,
+    "levelId": -1,
     "textId": -1,
     "npcId": -1,
     "bgPath": "",

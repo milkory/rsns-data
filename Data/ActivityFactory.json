@@ -311,10 +311,11 @@
     "bgColor": "FFFFFF",
     "npcId": 83700053,
     "helpId": 80300305,
-    "voiceActivity": 30002373,
+    "voiceActivity": 30001412,
     "correspondingCity": [],
     "correspondingBuild": [],
     "isJoin": true,
+    "isOnly": -1,
     "questId": 81001199,
     "unlockTips": 80600475,
     "isTime": false,
@@ -553,6 +554,7 @@
     ],
     "skipStationStart": 83000020,
     "skipStationEnd": 83000010,
+    "city": -1,
     "activityCardPack": 86300003
   },
   {
@@ -966,7 +968,7 @@
     "showUI": "Group_EventWeek",
     "bgPath": "",
     "bgColor": "FFFFFF",
-    "npcId": 83700060,
+    "npcId": 83700088,
     "helpId": 80301938,
     "voiceActivity": 30001074,
     "correspondingCity": [],
@@ -1628,7 +1630,7 @@
   {
     "id": 86000005,
     "idCN": "常驻/虚演刻录",
-    "mod": "常驻事件活动",
+    "mod": "通用活动",
     "isInformalData": false,
     "name": "虚演刻录",
     "showUI": "",
@@ -1636,7 +1638,7 @@
     "bgColor": "FFFFFF",
     "npcId": -1,
     "helpId": -1,
-    "voiceActivity": -1,
+    "voiceActivity": 30005017,
     "correspondingCity": [
       {
         "id": 83000029
@@ -1701,14 +1703,13 @@
     "activityStoreList": [],
     "joinPlotId": -1,
     "joinQuestId": -1,
-    "activityCardPack": -1,
-    "eventType": "week",
-    "eventRandomWeek": []
+    "city": -1,
+    "activityCardPack": -1
   },
   {
     "id": 86000014,
     "idCN": "常驻/逸闻",
-    "mod": "常驻事件活动",
+    "mod": "通用活动",
     "isInformalData": false,
     "name": "乘员逸闻",
     "showUI": "UI/Activity/Anecdote/AnecdoteActivity",
@@ -1717,18 +1718,14 @@
     "npcId": -1,
     "helpId": -1,
     "voiceActivity": 30002382,
-    "correspondingCity": [
-      {
-        "id": 83000029
-      }
-    ],
+    "correspondingCity": [],
     "correspondingBuild": [],
     "isJoin": false,
     "isOnly": -1,
     "questId": -1,
     "unlockTips": -1,
     "isTime": false,
-    "startTime": "",
+    "startTime": "2024-07-01 12:00:00",
     "endTime": "",
     "rewardEndTime": "",
     "rewardPreviewList": [],
@@ -1736,8 +1733,6 @@
     "joinPlotId": -1,
     "joinQuestId": -1,
     "city": -1,
-    "activityCardPack": -1,
-    "eventType": "week",
-    "eventRandomWeek": []
+    "activityCardPack": -1
   }
 ]
