@@ -1553,5 +1553,16 @@
     "returnType": "int",
     "scriptPath": "GGScript/60000132",
     "scriptLabel": "main"
+  },
+  {
+    "id": 60000124,
+    "idCN": "卡牌/设置当前AI卡牌",
+    "mod": "执行GS脚本",
+    "isInformalData": false,
+    "debug": true,
+    "memo": "见产品名称",
+    "paramHelp": "",
+    "returnType": "int",
+    "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rgetp currentCore\rset $core\r\rif\r    get $core _currentAction\r\tset $action\r      \r     get $core currentCard\t\r     set $c\r\t\r    get $action card\r    set $curCard\r\r    get $core\r\tsetp currentCard $curCard\r\r     get $core currentCard\t\r     set $c\rendif\r\rret $true"
   }
 ]

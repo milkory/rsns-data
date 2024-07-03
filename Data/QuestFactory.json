@@ -16526,6 +16526,7 @@
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
+    "isAnecdote": false,
     "client": 82600004,
     "startStation": 83000001,
     "endStationList": [
@@ -16534,6 +16535,7 @@
         "weight": 10
       }
     ],
+    "isAutoTrace": false,
     "traceList": [
       {
         "apiListId": 86500038,
@@ -16551,6 +16553,7 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -16563,6 +16566,8 @@
     "isAutoComplete": true,
     "checkComplete": false,
     "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
     "parentQuest": -1,
     "childQuestList": [],
     "rewardsList": [
@@ -16582,6 +16587,39 @@
     "nextQuest": [
       {
         "id": 81000016
+      },
+      {
+        "id": 81000846
+      },
+      {
+        "id": 81000579
+      },
+      {
+        "id": 81000580
+      },
+      {
+        "id": 81000581
+      },
+      {
+        "id": 81000633
+      },
+      {
+        "id": 81000753
+      },
+      {
+        "id": 81000754
+      },
+      {
+        "id": 81000755
+      },
+      {
+        "id": 81000756
+      },
+      {
+        "id": 81000757
+      },
+      {
+        "id": 81000758
       }
     ],
     "changeCityStateList": [],
@@ -26537,15 +26575,42 @@
     "mod": "基础任务",
     "isInformalData": false,
     "name": "美梦的终曲",
-    "story": "是时候该从过去的梦中醒来了……",
     "describe": "制止淘金乐园的金子小姐",
+    "story": "是时候该从过去的梦中醒来了……",
+    "questType": "Main",
+    "sort": 0,
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
-    "questType": "Main",
-    "sort": 0,
+    "isAnecdote": false,
+    "client": 82600002,
+    "startStation": 83000004,
+    "endStationList": [
+      {
+        "id": 83000004,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": false,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500054,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
     "isSwitchUI": false,
     "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
     "conditionList": [
       {
         "key": "levelId",
@@ -26556,6 +26621,9 @@
     "islockAddProgress": false,
     "isAutoComplete": true,
     "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
     "parentQuest": -1,
     "childQuestList": [],
     "rewardsList": [
@@ -26572,17 +26640,42 @@
         "num": 50
       }
     ],
-    "startStation": 83000004,
-    "endStationList": [
-      {
-        "id": 83000004,
-        "weight": 10
-      }
-    ],
-    "client": 82600002,
     "nextQuest": [
       {
         "id": 81000037
+      },
+      {
+        "id": 81000437
+      },
+      {
+        "id": 81000438
+      },
+      {
+        "id": 81000439
+      },
+      {
+        "id": 81000555
+      },
+      {
+        "id": 81000556
+      },
+      {
+        "id": 81000568
+      },
+      {
+        "id": 81000569
+      },
+      {
+        "id": 81000570
+      },
+      {
+        "id": 81000571
+      },
+      {
+        "id": 81000572
+      },
+      {
+        "id": 81000573
       }
     ],
     "changeCityStateList": [
@@ -26596,20 +26689,6 @@
     "isOverwriteEvent": false,
     "eventList": [],
     "environmentList": [],
-    "traceList": [
-      {
-        "apiListId": 86500038,
-        "btnListId": 86500036,
-        "traceId": 86500029,
-        "uiPath": "UI/MainUI/MainUI"
-      },
-      {
-        "apiListId": -1,
-        "btnListId": -1,
-        "traceId": 86500054,
-        "uiPath": "UI/CityMap/CityMap"
-      }
-    ],
     "isTime": false,
     "startTime": "",
     "endTime": "",
@@ -40066,8 +40145,8 @@
     "isShowProgress": true,
     "isShowUnlock": false,
     "isShowAchieveProgress": true,
-    "isSwitchUI": false,
-    "switchUI": "",
+    "isAnecdote": false,
+    "client": 82600297,
     "startStation": 83000053,
     "endStationList": [
       {
@@ -40075,9 +40154,12 @@
         "weight": 10
       }
     ],
-    "client": 82600297,
+    "isAutoTrace": false,
     "traceList": [],
+    "isSwitchUI": false,
+    "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -40089,6 +40171,9 @@
     "islockAddProgress": false,
     "isAutoComplete": true,
     "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
     "parentQuest": -1,
     "childQuestList": [],
     "rewardsList": [
@@ -40112,6 +40197,39 @@
     "nextQuest": [
       {
         "id": 81000578
+      },
+      {
+        "id": 81000367
+      },
+      {
+        "id": 81000368
+      },
+      {
+        "id": 81000369
+      },
+      {
+        "id": 81000370
+      },
+      {
+        "id": 81000371
+      },
+      {
+        "id": 81000372
+      },
+      {
+        "id": 81000373
+      },
+      {
+        "id": 81000374
+      },
+      {
+        "id": 81000375
+      },
+      {
+        "id": 81000376
+      },
+      {
+        "id": 81000377
       }
     ],
     "changeCityStateList": [
@@ -50843,15 +50961,15 @@
     "mod": "基础任务",
     "isInformalData": false,
     "name": "能源保障",
-    "describe": "升级电力等级到10级",
+    "describe": "将电力等级升级至10级",
     "story": "要想装配新的车厢，提高运输能力，目前列车组的电力系统亟需强化。\\n\\n可以通过【中控仪表】或【整备列车-改装】进入电力系统。",
     "questType": "Main",
     "sort": 0,
     "isShowProgress": true,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
-    "isSwitchUI": false,
-    "switchUI": "",
+    "isAnecdote": false,
+    "client": 82600010,
     "startStation": 83000053,
     "endStationList": [
       {
@@ -50859,15 +50977,28 @@
         "weight": 10
       }
     ],
-    "client": 82600010,
-    "traceList": [],
+    "isAutoTrace": false,
+    "traceList": [
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500097,
+        "uiPath": "UI/MainUI/MainUI"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [],
     "num": 10,
     "islockAddProgress": true,
     "isAutoComplete": true,
     "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
     "parentQuest": -1,
     "childQuestList": [],
     "rewardsList": [
@@ -50883,6 +51014,12 @@
     "nextQuest": [
       {
         "id": 81001153
+      },
+      {
+        "id": 81000874
+      },
+      {
+        "id": 81000879
       }
     ],
     "changeCityStateList": [],
@@ -67803,7 +67940,7 @@
     "mod": "基础任务",
     "isInformalData": false,
     "name": "【逸闻】与多萝西对话",
-    "describe": "与铁盟哨站的多萝西对话",
+    "describe": "在铁盟哨站与多萝西对话",
     "story": "询问多萝西事情的缘由。",
     "questType": "Side",
     "sort": 11,
@@ -67837,6 +67974,7 @@
     "isSwitchUI": true,
     "switchUI": "",
     "preQuestId": 81000162,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -67883,7 +68021,7 @@
     "mod": "基础任务",
     "isInformalData": false,
     "name": "【逸闻】陪多萝西关禁闭",
-    "describe": "与铁盟哨站禁闭室的多萝西对话",
+    "describe": "在铁盟哨站禁闭室与多萝西对话",
     "story": "考虑到朱利安此前私下的请求，前去禁闭室探望多萝西。",
     "questType": "Side",
     "sort": 11,
@@ -67917,6 +68055,7 @@
     "isSwitchUI": true,
     "switchUI": "",
     "preQuestId": 81000152,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -67963,7 +68102,7 @@
     "mod": "基础任务",
     "isInformalData": false,
     "name": "【逸闻】与海因里希对话",
-    "describe": "与铁盟哨站禁闭室外的海因里希对话",
+    "describe": "在铁盟哨站禁闭室外与海因里希对话",
     "story": "与离开禁闭室时偶遇的海因里希打招呼。",
     "questType": "Side",
     "sort": 11,
@@ -67997,6 +68136,7 @@
     "isSwitchUI": true,
     "switchUI": "",
     "preQuestId": 81000153,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -72535,13 +72675,14 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 21,
     "startLevel": 0,
     "conditionList": [],
     "num": 10,
     "islockAddProgress": true,
-    "isAutoComplete": true,
+    "isAutoComplete": false,
     "checkComplete": false,
-    "isShowReceive": false,
+    "isShowReceive": true,
     "parentQuest": -1,
     "childQuestList": [
       {
@@ -72633,6 +72774,7 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -72643,8 +72785,10 @@
     "num": 1,
     "islockAddProgress": true,
     "isAutoComplete": true,
-    "checkComplete": false,
+    "checkComplete": true,
     "isShowReceive": false,
+    "isRefreshProgress": true,
+    "refreshType": "Level",
     "parentQuest": 81000367,
     "childQuestList": [],
     "rewardsList": [],
@@ -72700,6 +72844,7 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -72710,8 +72855,10 @@
     "num": 1,
     "islockAddProgress": true,
     "isAutoComplete": true,
-    "checkComplete": false,
+    "checkComplete": true,
     "isShowReceive": false,
+    "isRefreshProgress": true,
+    "refreshType": "Level",
     "parentQuest": 81000367,
     "childQuestList": [],
     "rewardsList": [],
@@ -72767,6 +72914,7 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -72777,8 +72925,10 @@
     "num": 1,
     "islockAddProgress": true,
     "isAutoComplete": true,
-    "checkComplete": false,
+    "checkComplete": true,
     "isShowReceive": false,
+    "isRefreshProgress": true,
+    "refreshType": "Level",
     "parentQuest": 81000367,
     "childQuestList": [],
     "rewardsList": [],
@@ -72834,6 +72984,7 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -72844,8 +72995,10 @@
     "num": 1,
     "islockAddProgress": true,
     "isAutoComplete": true,
-    "checkComplete": false,
+    "checkComplete": true,
     "isShowReceive": false,
+    "isRefreshProgress": true,
+    "refreshType": "Level",
     "parentQuest": 81000367,
     "childQuestList": [],
     "rewardsList": [],
@@ -72901,6 +73054,7 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -72911,8 +73065,10 @@
     "num": 1,
     "islockAddProgress": true,
     "isAutoComplete": true,
-    "checkComplete": false,
+    "checkComplete": true,
     "isShowReceive": false,
+    "isRefreshProgress": true,
+    "refreshType": "Level",
     "parentQuest": 81000367,
     "childQuestList": [],
     "rewardsList": [],
@@ -72968,6 +73124,7 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -72978,8 +73135,10 @@
     "num": 1,
     "islockAddProgress": true,
     "isAutoComplete": true,
-    "checkComplete": false,
+    "checkComplete": true,
     "isShowReceive": false,
+    "isRefreshProgress": true,
+    "refreshType": "Level",
     "parentQuest": 81000367,
     "childQuestList": [],
     "rewardsList": [],
@@ -73035,6 +73194,7 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -73045,8 +73205,10 @@
     "num": 1,
     "islockAddProgress": true,
     "isAutoComplete": true,
-    "checkComplete": false,
+    "checkComplete": true,
     "isShowReceive": false,
+    "isRefreshProgress": true,
+    "refreshType": "Level",
     "parentQuest": 81000367,
     "childQuestList": [],
     "rewardsList": [],
@@ -73102,6 +73264,7 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -73112,8 +73275,10 @@
     "num": 1,
     "islockAddProgress": true,
     "isAutoComplete": true,
-    "checkComplete": false,
+    "checkComplete": true,
     "isShowReceive": false,
+    "isRefreshProgress": true,
+    "refreshType": "Level",
     "parentQuest": 81000367,
     "childQuestList": [],
     "rewardsList": [],
@@ -73169,6 +73334,7 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -73179,8 +73345,10 @@
     "num": 1,
     "islockAddProgress": true,
     "isAutoComplete": true,
-    "checkComplete": false,
+    "checkComplete": true,
     "isShowReceive": false,
+    "isRefreshProgress": true,
+    "refreshType": "Level",
     "parentQuest": 81000367,
     "childQuestList": [],
     "rewardsList": [],
@@ -73236,6 +73404,7 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -73246,8 +73415,10 @@
     "num": 1,
     "islockAddProgress": true,
     "isAutoComplete": true,
-    "checkComplete": false,
+    "checkComplete": true,
     "isShowReceive": false,
+    "isRefreshProgress": true,
+    "refreshType": "Level",
     "parentQuest": 81000367,
     "childQuestList": [],
     "rewardsList": [],
@@ -73290,13 +73461,14 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 26,
     "startLevel": 0,
     "conditionList": [],
     "num": 10,
     "islockAddProgress": true,
-    "isAutoComplete": true,
+    "isAutoComplete": false,
     "checkComplete": false,
-    "isShowReceive": false,
+    "isShowReceive": true,
     "parentQuest": -1,
     "childQuestList": [
       {
@@ -73388,6 +73560,7 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -73398,8 +73571,10 @@
     "num": 1,
     "islockAddProgress": true,
     "isAutoComplete": true,
-    "checkComplete": false,
+    "checkComplete": true,
     "isShowReceive": false,
+    "isRefreshProgress": true,
+    "refreshType": "Level",
     "parentQuest": 81000437,
     "childQuestList": [],
     "rewardsList": [],
@@ -73455,6 +73630,7 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -73465,8 +73641,10 @@
     "num": 1,
     "islockAddProgress": true,
     "isAutoComplete": true,
-    "checkComplete": false,
+    "checkComplete": true,
     "isShowReceive": false,
+    "isRefreshProgress": true,
+    "refreshType": "Level",
     "parentQuest": 81000437,
     "childQuestList": [],
     "rewardsList": [],
@@ -73522,6 +73700,7 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -73532,8 +73711,10 @@
     "num": 1,
     "islockAddProgress": true,
     "isAutoComplete": true,
-    "checkComplete": false,
+    "checkComplete": true,
     "isShowReceive": false,
+    "isRefreshProgress": true,
+    "refreshType": "Level",
     "parentQuest": 81000437,
     "childQuestList": [],
     "rewardsList": [],
@@ -73589,6 +73770,7 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -73599,8 +73781,10 @@
     "num": 1,
     "islockAddProgress": true,
     "isAutoComplete": true,
-    "checkComplete": false,
+    "checkComplete": true,
     "isShowReceive": false,
+    "isRefreshProgress": true,
+    "refreshType": "Level",
     "parentQuest": 81000437,
     "childQuestList": [],
     "rewardsList": [],
@@ -73656,6 +73840,7 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -73666,8 +73851,10 @@
     "num": 1,
     "islockAddProgress": true,
     "isAutoComplete": true,
-    "checkComplete": false,
+    "checkComplete": true,
     "isShowReceive": false,
+    "isRefreshProgress": true,
+    "refreshType": "Level",
     "parentQuest": 81000437,
     "childQuestList": [],
     "rewardsList": [],
@@ -73723,6 +73910,7 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -73733,8 +73921,10 @@
     "num": 1,
     "islockAddProgress": true,
     "isAutoComplete": true,
-    "checkComplete": false,
+    "checkComplete": true,
     "isShowReceive": false,
+    "isRefreshProgress": true,
+    "refreshType": "Level",
     "parentQuest": 81000437,
     "childQuestList": [],
     "rewardsList": [],
@@ -73790,6 +73980,7 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -73800,8 +73991,10 @@
     "num": 1,
     "islockAddProgress": true,
     "isAutoComplete": true,
-    "checkComplete": false,
+    "checkComplete": true,
     "isShowReceive": false,
+    "isRefreshProgress": true,
+    "refreshType": "Level",
     "parentQuest": 81000437,
     "childQuestList": [],
     "rewardsList": [],
@@ -73857,6 +74050,7 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -73867,8 +74061,10 @@
     "num": 1,
     "islockAddProgress": true,
     "isAutoComplete": true,
-    "checkComplete": false,
+    "checkComplete": true,
     "isShowReceive": false,
+    "isRefreshProgress": true,
+    "refreshType": "Level",
     "parentQuest": 81000437,
     "childQuestList": [],
     "rewardsList": [],
@@ -73924,6 +74120,7 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -73934,8 +74131,10 @@
     "num": 1,
     "islockAddProgress": true,
     "isAutoComplete": true,
-    "checkComplete": false,
+    "checkComplete": true,
     "isShowReceive": false,
+    "isRefreshProgress": true,
+    "refreshType": "Level",
     "parentQuest": 81000437,
     "childQuestList": [],
     "rewardsList": [],
@@ -73991,6 +74190,7 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -74001,8 +74201,10 @@
     "num": 1,
     "islockAddProgress": true,
     "isAutoComplete": true,
-    "checkComplete": false,
+    "checkComplete": true,
     "isShowReceive": false,
+    "isRefreshProgress": true,
+    "refreshType": "Level",
     "parentQuest": 81000437,
     "childQuestList": [],
     "rewardsList": [],
@@ -74058,6 +74260,7 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -74068,8 +74271,10 @@
     "num": 1,
     "islockAddProgress": true,
     "isAutoComplete": true,
-    "checkComplete": false,
+    "checkComplete": true,
     "isShowReceive": false,
+    "isRefreshProgress": true,
+    "refreshType": "Level",
     "parentQuest": 81000846,
     "childQuestList": [],
     "rewardsList": [],
@@ -74125,6 +74330,7 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -74135,8 +74341,10 @@
     "num": 1,
     "islockAddProgress": true,
     "isAutoComplete": true,
-    "checkComplete": false,
+    "checkComplete": true,
     "isShowReceive": false,
+    "isRefreshProgress": true,
+    "refreshType": "Level",
     "parentQuest": 81000846,
     "childQuestList": [],
     "rewardsList": [],
@@ -74192,6 +74400,7 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -74202,8 +74411,10 @@
     "num": 1,
     "islockAddProgress": true,
     "isAutoComplete": true,
-    "checkComplete": false,
+    "checkComplete": true,
     "isShowReceive": false,
+    "isRefreshProgress": true,
+    "refreshType": "Level",
     "parentQuest": 81000846,
     "childQuestList": [],
     "rewardsList": [],
@@ -74259,6 +74470,7 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -74269,8 +74481,10 @@
     "num": 1,
     "islockAddProgress": true,
     "isAutoComplete": true,
-    "checkComplete": false,
+    "checkComplete": true,
     "isShowReceive": false,
+    "isRefreshProgress": true,
+    "refreshType": "Level",
     "parentQuest": 81000846,
     "childQuestList": [],
     "rewardsList": [],
@@ -74326,6 +74540,7 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -74336,8 +74551,10 @@
     "num": 1,
     "islockAddProgress": true,
     "isAutoComplete": true,
-    "checkComplete": false,
+    "checkComplete": true,
     "isShowReceive": false,
+    "isRefreshProgress": true,
+    "refreshType": "Level",
     "parentQuest": 81000846,
     "childQuestList": [],
     "rewardsList": [],
@@ -74393,6 +74610,7 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -74403,8 +74621,10 @@
     "num": 1,
     "islockAddProgress": true,
     "isAutoComplete": true,
-    "checkComplete": false,
+    "checkComplete": true,
     "isShowReceive": false,
+    "isRefreshProgress": true,
+    "refreshType": "Level",
     "parentQuest": 81000846,
     "childQuestList": [],
     "rewardsList": [],
@@ -74460,6 +74680,7 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -74470,8 +74691,10 @@
     "num": 1,
     "islockAddProgress": true,
     "isAutoComplete": true,
-    "checkComplete": false,
+    "checkComplete": true,
     "isShowReceive": false,
+    "isRefreshProgress": true,
+    "refreshType": "Level",
     "parentQuest": 81000846,
     "childQuestList": [],
     "rewardsList": [],
@@ -74527,6 +74750,7 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -74537,8 +74761,10 @@
     "num": 1,
     "islockAddProgress": true,
     "isAutoComplete": true,
-    "checkComplete": false,
+    "checkComplete": true,
     "isShowReceive": false,
+    "isRefreshProgress": true,
+    "refreshType": "Level",
     "parentQuest": 81000846,
     "childQuestList": [],
     "rewardsList": [],
@@ -74594,6 +74820,7 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -74604,8 +74831,10 @@
     "num": 1,
     "islockAddProgress": true,
     "isAutoComplete": true,
-    "checkComplete": false,
+    "checkComplete": true,
     "isShowReceive": false,
+    "isRefreshProgress": true,
+    "refreshType": "Level",
     "parentQuest": 81000846,
     "childQuestList": [],
     "rewardsList": [],
@@ -74661,6 +74890,7 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -74671,8 +74901,10 @@
     "num": 1,
     "islockAddProgress": true,
     "isAutoComplete": true,
-    "checkComplete": false,
+    "checkComplete": true,
     "isShowReceive": false,
+    "isRefreshProgress": true,
+    "refreshType": "Level",
     "parentQuest": 81000846,
     "childQuestList": [],
     "rewardsList": [],
@@ -74728,6 +74960,7 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -74738,8 +74971,10 @@
     "num": 1,
     "islockAddProgress": true,
     "isAutoComplete": true,
-    "checkComplete": false,
+    "checkComplete": true,
     "isShowReceive": false,
+    "isRefreshProgress": true,
+    "refreshType": "Level",
     "parentQuest": 81000847,
     "childQuestList": [],
     "rewardsList": [],
@@ -74795,6 +75030,7 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -74805,8 +75041,10 @@
     "num": 1,
     "islockAddProgress": true,
     "isAutoComplete": true,
-    "checkComplete": false,
+    "checkComplete": true,
     "isShowReceive": false,
+    "isRefreshProgress": true,
+    "refreshType": "Level",
     "parentQuest": 81000847,
     "childQuestList": [],
     "rewardsList": [],
@@ -74862,6 +75100,7 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -74872,8 +75111,10 @@
     "num": 1,
     "islockAddProgress": true,
     "isAutoComplete": true,
-    "checkComplete": false,
+    "checkComplete": true,
     "isShowReceive": false,
+    "isRefreshProgress": true,
+    "refreshType": "Level",
     "parentQuest": 81000847,
     "childQuestList": [],
     "rewardsList": [],
@@ -74929,6 +75170,7 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -74939,8 +75181,10 @@
     "num": 1,
     "islockAddProgress": true,
     "isAutoComplete": true,
-    "checkComplete": false,
+    "checkComplete": true,
     "isShowReceive": false,
+    "isRefreshProgress": true,
+    "refreshType": "Level",
     "parentQuest": 81000847,
     "childQuestList": [],
     "rewardsList": [],
@@ -74996,6 +75240,7 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -75006,8 +75251,10 @@
     "num": 1,
     "islockAddProgress": true,
     "isAutoComplete": true,
-    "checkComplete": false,
+    "checkComplete": true,
     "isShowReceive": false,
+    "isRefreshProgress": true,
+    "refreshType": "Level",
     "parentQuest": 81000847,
     "childQuestList": [],
     "rewardsList": [],
@@ -75063,6 +75310,7 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -75073,8 +75321,10 @@
     "num": 1,
     "islockAddProgress": true,
     "isAutoComplete": true,
-    "checkComplete": false,
+    "checkComplete": true,
     "isShowReceive": false,
+    "isRefreshProgress": true,
+    "refreshType": "Level",
     "parentQuest": 81000847,
     "childQuestList": [],
     "rewardsList": [],
@@ -75130,6 +75380,7 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -75140,8 +75391,10 @@
     "num": 1,
     "islockAddProgress": true,
     "isAutoComplete": true,
-    "checkComplete": false,
+    "checkComplete": true,
     "isShowReceive": false,
+    "isRefreshProgress": true,
+    "refreshType": "Level",
     "parentQuest": 81000847,
     "childQuestList": [],
     "rewardsList": [],
@@ -75197,6 +75450,7 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -75207,8 +75461,10 @@
     "num": 1,
     "islockAddProgress": true,
     "isAutoComplete": true,
-    "checkComplete": false,
+    "checkComplete": true,
     "isShowReceive": false,
+    "isRefreshProgress": true,
+    "refreshType": "Level",
     "parentQuest": 81000847,
     "childQuestList": [],
     "rewardsList": [],
@@ -75264,6 +75520,7 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -75274,8 +75531,10 @@
     "num": 1,
     "islockAddProgress": true,
     "isAutoComplete": true,
-    "checkComplete": false,
+    "checkComplete": true,
     "isShowReceive": false,
+    "isRefreshProgress": true,
+    "refreshType": "Level",
     "parentQuest": 81000847,
     "childQuestList": [],
     "rewardsList": [],
@@ -75331,6 +75590,7 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -75341,8 +75601,10 @@
     "num": 1,
     "islockAddProgress": true,
     "isAutoComplete": true,
-    "checkComplete": false,
+    "checkComplete": true,
     "isShowReceive": false,
+    "isRefreshProgress": true,
+    "refreshType": "Level",
     "parentQuest": 81000847,
     "childQuestList": [],
     "rewardsList": [],
@@ -75398,6 +75660,7 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -75408,8 +75671,10 @@
     "num": 1,
     "islockAddProgress": true,
     "isAutoComplete": true,
-    "checkComplete": false,
+    "checkComplete": true,
     "isShowReceive": false,
+    "isRefreshProgress": true,
+    "refreshType": "Level",
     "parentQuest": 81000848,
     "childQuestList": [],
     "rewardsList": [],
@@ -75465,6 +75730,7 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -75475,8 +75741,10 @@
     "num": 1,
     "islockAddProgress": true,
     "isAutoComplete": true,
-    "checkComplete": false,
+    "checkComplete": true,
     "isShowReceive": false,
+    "isRefreshProgress": true,
+    "refreshType": "Level",
     "parentQuest": 81000848,
     "childQuestList": [],
     "rewardsList": [],
@@ -75532,6 +75800,7 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -75542,8 +75811,10 @@
     "num": 1,
     "islockAddProgress": true,
     "isAutoComplete": true,
-    "checkComplete": false,
+    "checkComplete": true,
     "isShowReceive": false,
+    "isRefreshProgress": true,
+    "refreshType": "Level",
     "parentQuest": 81000848,
     "childQuestList": [],
     "rewardsList": [],
@@ -75599,6 +75870,7 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -75609,8 +75881,10 @@
     "num": 1,
     "islockAddProgress": true,
     "isAutoComplete": true,
-    "checkComplete": false,
+    "checkComplete": true,
     "isShowReceive": false,
+    "isRefreshProgress": true,
+    "refreshType": "Level",
     "parentQuest": 81000848,
     "childQuestList": [],
     "rewardsList": [],
@@ -75666,6 +75940,7 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -75676,8 +75951,10 @@
     "num": 1,
     "islockAddProgress": true,
     "isAutoComplete": true,
-    "checkComplete": false,
+    "checkComplete": true,
     "isShowReceive": false,
+    "isRefreshProgress": true,
+    "refreshType": "Level",
     "parentQuest": 81000848,
     "childQuestList": [],
     "rewardsList": [],
@@ -75733,6 +76010,7 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -75743,8 +76021,10 @@
     "num": 1,
     "islockAddProgress": true,
     "isAutoComplete": true,
-    "checkComplete": false,
+    "checkComplete": true,
     "isShowReceive": false,
+    "isRefreshProgress": true,
+    "refreshType": "Level",
     "parentQuest": 81000848,
     "childQuestList": [],
     "rewardsList": [],
@@ -75800,6 +76080,7 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -75810,8 +76091,10 @@
     "num": 1,
     "islockAddProgress": true,
     "isAutoComplete": true,
-    "checkComplete": false,
+    "checkComplete": true,
     "isShowReceive": false,
+    "isRefreshProgress": true,
+    "refreshType": "Level",
     "parentQuest": 81000848,
     "childQuestList": [],
     "rewardsList": [],
@@ -75867,6 +76150,7 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -75877,8 +76161,10 @@
     "num": 1,
     "islockAddProgress": true,
     "isAutoComplete": true,
-    "checkComplete": false,
+    "checkComplete": true,
     "isShowReceive": false,
+    "isRefreshProgress": true,
+    "refreshType": "Level",
     "parentQuest": 81000848,
     "childQuestList": [],
     "rewardsList": [],
@@ -75934,6 +76220,7 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -75944,8 +76231,10 @@
     "num": 1,
     "islockAddProgress": true,
     "isAutoComplete": true,
-    "checkComplete": false,
+    "checkComplete": true,
     "isShowReceive": false,
+    "isRefreshProgress": true,
+    "refreshType": "Level",
     "parentQuest": 81000848,
     "childQuestList": [],
     "rewardsList": [],
@@ -76001,6 +76290,7 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -76011,8 +76301,10 @@
     "num": 1,
     "islockAddProgress": true,
     "isAutoComplete": true,
-    "checkComplete": false,
+    "checkComplete": true,
     "isShowReceive": false,
+    "isRefreshProgress": true,
+    "refreshType": "Level",
     "parentQuest": 81000848,
     "childQuestList": [],
     "rewardsList": [],
@@ -76068,6 +76360,7 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -76080,6 +76373,8 @@
     "isAutoComplete": true,
     "checkComplete": false,
     "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
     "parentQuest": 81000849,
     "childQuestList": [],
     "rewardsList": [],
@@ -76135,6 +76430,7 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -76147,6 +76443,8 @@
     "isAutoComplete": true,
     "checkComplete": false,
     "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
     "parentQuest": 81000849,
     "childQuestList": [],
     "rewardsList": [],
@@ -76202,6 +76500,7 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -76214,6 +76513,8 @@
     "isAutoComplete": true,
     "checkComplete": false,
     "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
     "parentQuest": 81000849,
     "childQuestList": [],
     "rewardsList": [],
@@ -76269,6 +76570,7 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -76281,6 +76583,8 @@
     "isAutoComplete": true,
     "checkComplete": false,
     "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
     "parentQuest": 81000849,
     "childQuestList": [],
     "rewardsList": [],
@@ -76336,6 +76640,7 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -76348,6 +76653,8 @@
     "isAutoComplete": true,
     "checkComplete": false,
     "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
     "parentQuest": 81000849,
     "childQuestList": [],
     "rewardsList": [],
@@ -76403,6 +76710,7 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -76415,6 +76723,8 @@
     "isAutoComplete": true,
     "checkComplete": false,
     "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
     "parentQuest": 81000849,
     "childQuestList": [],
     "rewardsList": [],
@@ -76470,6 +76780,7 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -76482,6 +76793,8 @@
     "isAutoComplete": true,
     "checkComplete": false,
     "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
     "parentQuest": 81000849,
     "childQuestList": [],
     "rewardsList": [],
@@ -76537,6 +76850,7 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -76549,6 +76863,8 @@
     "isAutoComplete": true,
     "checkComplete": false,
     "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
     "parentQuest": 81000849,
     "childQuestList": [],
     "rewardsList": [],
@@ -76604,6 +76920,7 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -76616,6 +76933,8 @@
     "isAutoComplete": true,
     "checkComplete": false,
     "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
     "parentQuest": 81000849,
     "childQuestList": [],
     "rewardsList": [],
@@ -76671,6 +76990,7 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -76683,6 +77003,8 @@
     "isAutoComplete": true,
     "checkComplete": false,
     "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
     "parentQuest": 81000849,
     "childQuestList": [],
     "rewardsList": [],
@@ -76725,13 +77047,14 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 36,
     "startLevel": 0,
     "conditionList": [],
     "num": 10,
     "islockAddProgress": true,
-    "isAutoComplete": true,
+    "isAutoComplete": false,
     "checkComplete": false,
-    "isShowReceive": false,
+    "isShowReceive": true,
     "parentQuest": -1,
     "childQuestList": [
       {
@@ -76810,13 +77133,14 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 20,
     "startLevel": 0,
     "conditionList": [],
     "num": 10,
     "islockAddProgress": true,
-    "isAutoComplete": true,
+    "isAutoComplete": false,
     "checkComplete": false,
-    "isShowReceive": false,
+    "isShowReceive": true,
     "parentQuest": -1,
     "childQuestList": [
       {
@@ -76895,13 +77219,14 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 41,
     "startLevel": 0,
     "conditionList": [],
     "num": 10,
     "islockAddProgress": true,
-    "isAutoComplete": true,
+    "isAutoComplete": false,
     "checkComplete": false,
-    "isShowReceive": false,
+    "isShowReceive": true,
     "parentQuest": -1,
     "childQuestList": [
       {
@@ -76980,13 +77305,16 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 100,
     "startLevel": 0,
     "conditionList": [],
     "num": 10,
     "islockAddProgress": true,
-    "isAutoComplete": true,
+    "isAutoComplete": false,
     "checkComplete": false,
-    "isShowReceive": false,
+    "isShowReceive": true,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
     "parentQuest": -1,
     "childQuestList": [
       {
@@ -77044,7 +77372,7 @@
     "mod": "基础任务",
     "isInformalData": false,
     "name": "【逸闻】小小沙盗的邀请",
-    "describe": "与荒原站的夏尔对话",
+    "describe": "在荒原站与夏尔对话",
     "story": "按照神秘消息的要求去见夏尔，看看她有什么鬼点子。",
     "questType": "Side",
     "sort": 11,
@@ -77078,6 +77406,7 @@
     "isSwitchUI": true,
     "switchUI": "",
     "preQuestId": 81001139,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -77120,7 +77449,7 @@
     "mod": "基础任务",
     "isInformalData": false,
     "name": "【逸闻】在修格里逛逛",
-    "describe": "与修格里城的夏尔对话",
+    "describe": "在修格里城与夏尔对话",
     "story": "在修格里城逛逛，带夏尔置办一身新行头。",
     "questType": "Side",
     "sort": 11,
@@ -77154,6 +77483,7 @@
     "isSwitchUI": true,
     "switchUI": "",
     "preQuestId": 81000850,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -77276,7 +77606,7 @@
     "mod": "基础任务",
     "isInformalData": false,
     "name": "【逸闻】纠结的夏尔",
-    "describe": "与修格里城的夏尔对话",
+    "describe": "在修格里城与夏尔对话",
     "story": "穿上新衣服的夏尔似乎有了些新的苦恼，和她聊聊吧。",
     "questType": "Side",
     "sort": 11,
@@ -77310,6 +77640,7 @@
     "isSwitchUI": true,
     "switchUI": "",
     "preQuestId": 81000852,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -77352,7 +77683,7 @@
     "mod": "基础任务",
     "isInformalData": false,
     "name": "【逸闻】平凡的每一天",
-    "describe": "与修格里城的夏尔对话",
+    "describe": "在修格里城与夏尔对话",
     "story": "离开酒店，解开夏尔的心结。",
     "questType": "Side",
     "sort": 11,
@@ -77386,6 +77717,7 @@
     "isSwitchUI": true,
     "switchUI": "",
     "preQuestId": 81000853,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -77428,7 +77760,7 @@
     "mod": "基础任务",
     "isInformalData": false,
     "name": "能源保障2",
-    "describe": "升级电力等级到20级",
+    "describe": "将电力等级升级至20级",
     "story": "要想装配新的车厢，提高运输能力，目前列车组的电力系统亟需强化。\\n\\n可以通过【中控仪表】或【整备列车-改装】进入电力系统。",
     "questType": "Side",
     "sort": 0,
@@ -77445,10 +77777,18 @@
       }
     ],
     "isAutoTrace": false,
-    "traceList": [],
+    "traceList": [
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500097,
+        "uiPath": "UI/MainUI/MainUI"
+      }
+    ],
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [],
     "num": 20,
@@ -77456,6 +77796,8 @@
     "isAutoComplete": true,
     "checkComplete": false,
     "isShowReceive": true,
+    "isRefreshProgress": true,
+    "refreshType": "Electric",
     "parentQuest": -1,
     "childQuestList": [],
     "rewardsList": [
@@ -77486,7 +77828,7 @@
     "mod": "基础任务",
     "isInformalData": false,
     "name": "能源保障3",
-    "describe": "升级电力等级到30级",
+    "describe": "将电力等级升级至30级",
     "story": "要想装配新的车厢，提高运输能力，目前列车组的电力系统亟需强化。\\n\\n可以通过【中控仪表】或【整备列车-改装】进入电力系统。",
     "questType": "Side",
     "sort": 0,
@@ -77503,10 +77845,18 @@
       }
     ],
     "isAutoTrace": false,
-    "traceList": [],
+    "traceList": [
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500097,
+        "uiPath": "UI/MainUI/MainUI"
+      }
+    ],
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [],
     "num": 30,
@@ -77514,6 +77864,8 @@
     "isAutoComplete": true,
     "checkComplete": false,
     "isShowReceive": true,
+    "isRefreshProgress": true,
+    "refreshType": "Electric",
     "parentQuest": -1,
     "childQuestList": [],
     "rewardsList": [
@@ -77544,7 +77896,7 @@
     "mod": "基础任务",
     "isInformalData": false,
     "name": "能源保障4",
-    "describe": "升级电力等级到40级",
+    "describe": "将电力等级升级至40级",
     "story": "要想装配新的车厢，提高运输能力，目前列车组的电力系统亟需强化。\\n\\n可以通过【中控仪表】或【整备列车-改装】进入电力系统。",
     "questType": "Side",
     "sort": 0,
@@ -77561,10 +77913,18 @@
       }
     ],
     "isAutoTrace": false,
-    "traceList": [],
+    "traceList": [
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500097,
+        "uiPath": "UI/MainUI/MainUI"
+      }
+    ],
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [],
     "num": 40,
@@ -77572,6 +77932,8 @@
     "isAutoComplete": true,
     "checkComplete": false,
     "isShowReceive": true,
+    "isRefreshProgress": true,
+    "refreshType": "Electric",
     "parentQuest": -1,
     "childQuestList": [],
     "rewardsList": [
@@ -77602,7 +77964,7 @@
     "mod": "基础任务",
     "isInformalData": false,
     "name": "能源保障5",
-    "describe": "升级电力等级到50级",
+    "describe": "将电力等级升级至50级",
     "story": "要想装配新的车厢，提高运输能力，目前列车组的电力系统亟需强化。\\n\\n可以通过【中控仪表】或【整备列车-改装】进入电力系统。",
     "questType": "Side",
     "sort": 0,
@@ -77619,10 +77981,18 @@
       }
     ],
     "isAutoTrace": false,
-    "traceList": [],
+    "traceList": [
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500097,
+        "uiPath": "UI/MainUI/MainUI"
+      }
+    ],
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [],
     "num": 50,
@@ -77630,6 +78000,8 @@
     "isAutoComplete": true,
     "checkComplete": false,
     "isShowReceive": true,
+    "isRefreshProgress": true,
+    "refreshType": "Electric",
     "parentQuest": -1,
     "childQuestList": [],
     "rewardsList": [
@@ -77660,7 +78032,7 @@
     "mod": "基础任务",
     "isInformalData": false,
     "name": "能源保障6",
-    "describe": "升级电力等级到60级",
+    "describe": "将电力等级升级至60级",
     "story": "要想装配新的车厢，提高运输能力，目前列车组的电力系统亟需强化。\\n\\n可以通过【中控仪表】或【整备列车-改装】进入电力系统。",
     "questType": "Side",
     "sort": 0,
@@ -77677,10 +78049,18 @@
       }
     ],
     "isAutoTrace": false,
-    "traceList": [],
+    "traceList": [
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500097,
+        "uiPath": "UI/MainUI/MainUI"
+      }
+    ],
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [],
     "num": 60,
@@ -77688,6 +78068,715 @@
     "isAutoComplete": true,
     "checkComplete": false,
     "isShowReceive": true,
+    "isRefreshProgress": true,
+    "refreshType": "Electric",
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400005,
+        "num": 50
+      }
+    ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81000879,
+    "idCN": "支线/核心/01超载1",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "制造的基石·超载1",
+    "describe": "将超载核心升级至10级",
+    "story": "列车的核心类型和等级会影响行车的方方面面，请升级列车的超载核心。",
+    "questType": "Side",
+    "sort": 0,
+    "isShowProgress": true,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "client": 82600010,
+    "startStation": 83000053,
+    "endStationList": [
+      {
+        "id": 83000053,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": false,
+    "traceList": [
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500097,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500098,
+        "uiPath": "UI/Home/HomeElectric"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "coreId",
+        "val": "85300004"
+      }
+    ],
+    "num": 10,
+    "islockAddProgress": true,
+    "isAutoComplete": true,
+    "checkComplete": false,
+    "isShowReceive": true,
+    "isRefreshProgress": true,
+    "refreshType": "Core",
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400005,
+        "num": 50
+      }
+    ],
+    "nextQuest": [
+      {
+        "id": 81000880
+      },
+      {
+        "id": 81000882
+      }
+    ],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81000880,
+    "idCN": "支线/核心/01超载2",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "制造的基石·超载2",
+    "describe": "将超载核心升级至20级",
+    "story": "列车的核心类型和等级会影响行车的方方面面，请升级列车的超载核心。",
+    "questType": "Side",
+    "sort": 0,
+    "isShowProgress": true,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "client": 82600010,
+    "startStation": 83000053,
+    "endStationList": [
+      {
+        "id": 83000053,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": false,
+    "traceList": [
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500097,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500098,
+        "uiPath": "UI/Home/HomeElectric"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "coreId",
+        "val": "85300004"
+      }
+    ],
+    "num": 20,
+    "islockAddProgress": true,
+    "isAutoComplete": true,
+    "checkComplete": false,
+    "isShowReceive": true,
+    "isRefreshProgress": true,
+    "refreshType": "Core",
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400005,
+        "num": 50
+      }
+    ],
+    "nextQuest": [
+      {
+        "id": 81000881
+      }
+    ],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81000881,
+    "idCN": "支线/核心/01超载3",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "制造的基石·超载3",
+    "describe": "将超载核心升级至30级",
+    "story": "列车的核心类型和等级会影响行车的方方面面，请升级列车的超载核心。",
+    "questType": "Side",
+    "sort": 0,
+    "isShowProgress": true,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "client": 82600010,
+    "startStation": 83000053,
+    "endStationList": [
+      {
+        "id": 83000053,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": false,
+    "traceList": [
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500097,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500098,
+        "uiPath": "UI/Home/HomeElectric"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "coreId",
+        "val": "85300004"
+      }
+    ],
+    "num": 30,
+    "islockAddProgress": true,
+    "isAutoComplete": true,
+    "checkComplete": false,
+    "isShowReceive": true,
+    "isRefreshProgress": true,
+    "refreshType": "Core",
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400005,
+        "num": 50
+      }
+    ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81000882,
+    "idCN": "支线/核心/02熔炉1",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "制造的基石·熔炉1",
+    "describe": "将熔炉核心升级至10级",
+    "story": "列车的核心类型和等级会影响行车的方方面面，请升级列车的熔炉核心。",
+    "questType": "Side",
+    "sort": 0,
+    "isShowProgress": true,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "client": 82600010,
+    "startStation": 83000053,
+    "endStationList": [
+      {
+        "id": 83000053,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": false,
+    "traceList": [
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500097,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500098,
+        "uiPath": "UI/Home/HomeElectric"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "coreId",
+        "val": "85300001"
+      }
+    ],
+    "num": 10,
+    "islockAddProgress": true,
+    "isAutoComplete": true,
+    "checkComplete": false,
+    "isShowReceive": true,
+    "isRefreshProgress": true,
+    "refreshType": "Core",
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400005,
+        "num": 50
+      }
+    ],
+    "nextQuest": [
+      {
+        "id": 81000883
+      },
+      {
+        "id": 81000885
+      }
+    ],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81000883,
+    "idCN": "支线/核心/02熔炉2",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "制造的基石·熔炉2",
+    "describe": "将熔炉核心升级至20级",
+    "story": "列车的核心类型和等级会影响行车的方方面面，请升级列车的熔炉核心。",
+    "questType": "Side",
+    "sort": 0,
+    "isShowProgress": true,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "client": 82600010,
+    "startStation": 83000053,
+    "endStationList": [
+      {
+        "id": 83000053,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": false,
+    "traceList": [
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500097,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500098,
+        "uiPath": "UI/Home/HomeElectric"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "coreId",
+        "val": "85300001"
+      }
+    ],
+    "num": 20,
+    "islockAddProgress": true,
+    "isAutoComplete": true,
+    "checkComplete": false,
+    "isShowReceive": true,
+    "isRefreshProgress": true,
+    "refreshType": "Core",
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400005,
+        "num": 50
+      }
+    ],
+    "nextQuest": [
+      {
+        "id": 81000884
+      }
+    ],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81000884,
+    "idCN": "支线/核心/02熔炉3",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "制造的基石·熔炉3",
+    "describe": "将熔炉核心升级至30级",
+    "story": "列车的核心类型和等级会影响行车的方方面面，请升级列车的熔炉核心。",
+    "questType": "Side",
+    "sort": 0,
+    "isShowProgress": true,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "client": 82600010,
+    "startStation": 83000053,
+    "endStationList": [
+      {
+        "id": 83000053,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": false,
+    "traceList": [
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500097,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500098,
+        "uiPath": "UI/Home/HomeElectric"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "coreId",
+        "val": "85300001"
+      }
+    ],
+    "num": 30,
+    "islockAddProgress": true,
+    "isAutoComplete": true,
+    "checkComplete": false,
+    "isShowReceive": true,
+    "isRefreshProgress": true,
+    "refreshType": "Core",
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400005,
+        "num": 50
+      }
+    ],
+    "nextQuest": [
+      {}
+    ],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81000885,
+    "idCN": "支线/核心/03冷凝1",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "制造的基石·冷凝1",
+    "describe": "将冷凝核心升级至10级",
+    "story": "列车的核心类型和等级会影响行车的方方面面，请升级列车的冷凝核心。",
+    "questType": "Side",
+    "sort": 0,
+    "isShowProgress": true,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "client": 82600010,
+    "startStation": 83000053,
+    "endStationList": [
+      {
+        "id": 83000053,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": false,
+    "traceList": [
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500097,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500098,
+        "uiPath": "UI/Home/HomeElectric"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "coreId",
+        "val": "85300005"
+      }
+    ],
+    "num": 10,
+    "islockAddProgress": true,
+    "isAutoComplete": true,
+    "checkComplete": false,
+    "isShowReceive": true,
+    "isRefreshProgress": true,
+    "refreshType": "Core",
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400005,
+        "num": 50
+      }
+    ],
+    "nextQuest": [
+      {
+        "id": 81000902
+      }
+    ],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81000902,
+    "idCN": "支线/核心/03冷凝2",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "制造的基石·冷凝2",
+    "describe": "将冷凝核心升级至20级",
+    "story": "列车的核心类型和等级会影响行车的方方面面，请升级列车的冷凝核心。",
+    "questType": "Side",
+    "sort": 0,
+    "isShowProgress": true,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "client": 82600010,
+    "startStation": 83000053,
+    "endStationList": [
+      {
+        "id": 83000053,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": false,
+    "traceList": [
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500097,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500098,
+        "uiPath": "UI/Home/HomeElectric"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "coreId",
+        "val": "85300005"
+      }
+    ],
+    "num": 20,
+    "islockAddProgress": true,
+    "isAutoComplete": true,
+    "checkComplete": false,
+    "isShowReceive": true,
+    "isRefreshProgress": true,
+    "refreshType": "Core",
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400005,
+        "num": 50
+      }
+    ],
+    "nextQuest": [
+      {
+        "id": 81000903
+      }
+    ],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81000903,
+    "idCN": "支线/核心/03冷凝3",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "制造的基石·冷凝3",
+    "describe": "将冷凝核心升级至30级",
+    "story": "列车的核心类型和等级会影响行车的方方面面，请升级列车的冷凝核心。",
+    "questType": "Side",
+    "sort": 0,
+    "isShowProgress": true,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "client": 82600010,
+    "startStation": 83000053,
+    "endStationList": [
+      {
+        "id": 83000053,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": false,
+    "traceList": [
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500097,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500098,
+        "uiPath": "UI/Home/HomeElectric"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "coreId",
+        "val": "85300005"
+      }
+    ],
+    "num": 30,
+    "islockAddProgress": true,
+    "isAutoComplete": true,
+    "checkComplete": false,
+    "isShowReceive": true,
+    "isRefreshProgress": true,
+    "refreshType": "Core",
     "parentQuest": -1,
     "childQuestList": [],
     "rewardsList": [
