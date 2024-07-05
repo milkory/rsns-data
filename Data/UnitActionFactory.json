@@ -1705,26 +1705,42 @@
     "id": 10100354,
     "idCN": "敌方/08军阀/蝎型机械体/信标/站立",
     "mod": "基础动作",
-    "actionLevel": "Move",
-    "distance_SN": 0,
-    "stateIdList": [
-      {
-        "stateId": 10200400,
-        "bPlayTimes": false,
-        "timesSource": "FixedValue",
-        "timesRate_SN": 10000
-      }
-    ],
-    "cdFrame": 100,
+    "isInformalData": false,
+    "isCharge": false,
+    "isSkill": false,
+    "actionLevel": "Stand",
+    "isUseTargetFilter": false,
     "targetType": "Self",
-    "radius_SN": 0,
-    "isUseBigNumber": false,
+    "targetTagList": [],
+    "tagType": "And",
     "halfWidth_SN": 0,
     "attributeType": "HpMax",
     "condition": "Max",
     "numberType": "Number",
     "number_SN": 0,
-    "targetCount": 0
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 0,
+    "distance_SN": 0,
+    "radius_SN": 0,
+    "damageHitBuffList": [],
+    "healHitBuffList": [],
+    "cdFrame": 100,
+    "isUseBigNumber": false,
+    "stateIdList": [
+      {
+        "bPlayTimes": false,
+        "stateId": 10200400,
+        "timesRate_SN": 10000,
+        "timesSource": "FixedValue"
+      }
+    ],
+    "backShakeFrame": -1
   },
   {
     "id": 10100355,
@@ -5857,28 +5873,42 @@
     "id": 10100559,
     "idCN": "敌方/01暴徒/霰弹枪/受击",
     "mod": "基础动作",
-    "actionLevel": "System",
-    "distance_SN": 20000,
-    "stateIdList": [
-      {
-        "stateId": 10200632,
-        "bPlayTimes": false,
-        "timesSource": "FixedValue",
-        "timesRate_SN": 10000
-      }
-    ],
-    "cdFrame": 40,
-    "targetType": "",
-    "radius_SN": 0,
-    "isUseBigNumber": false,
+    "isInformalData": false,
+    "isCharge": false,
+    "isSkill": false,
+    "actionLevel": "Hit",
+    "isUseTargetFilter": false,
+    "targetType": "Ally",
     "targetTagList": [],
+    "tagType": "And",
     "halfWidth_SN": 0,
     "attributeType": "HpMax",
     "condition": "Max",
     "numberType": "Number",
     "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
     "targetCount": 0,
-    "isUseTargetFilter": false
+    "distance_SN": 20000,
+    "radius_SN": 0,
+    "damageHitBuffList": [],
+    "healHitBuffList": [],
+    "cdFrame": 40,
+    "isUseBigNumber": false,
+    "stateIdList": [
+      {
+        "bPlayTimes": false,
+        "stateId": 10200632,
+        "timesRate_SN": 10000,
+        "timesSource": "FixedValue"
+      }
+    ],
+    "backShakeFrame": -1
   },
   {
     "id": 10100560,
@@ -7527,28 +7557,42 @@
     "id": 10100671,
     "idCN": "敌方/01暴徒/霰弹枪/受击鞠躬",
     "mod": "基础动作",
-    "actionLevel": "System",
-    "distance_SN": 20000,
-    "stateIdList": [
-      {
-        "stateId": 10200784,
-        "bPlayTimes": false,
-        "timesSource": "FixedValue",
-        "timesRate_SN": 10000
-      }
-    ],
-    "cdFrame": 40,
-    "targetType": "",
-    "radius_SN": 0,
-    "isUseBigNumber": false,
+    "isInformalData": false,
+    "isCharge": false,
+    "isSkill": false,
+    "actionLevel": "Hit",
+    "isUseTargetFilter": false,
+    "targetType": "Ally",
     "targetTagList": [],
+    "tagType": "And",
     "halfWidth_SN": 0,
     "attributeType": "HpMax",
     "condition": "Max",
     "numberType": "Number",
     "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
     "targetCount": 0,
-    "isUseTargetFilter": false
+    "distance_SN": 20000,
+    "radius_SN": 0,
+    "damageHitBuffList": [],
+    "healHitBuffList": [],
+    "cdFrame": 40,
+    "isUseBigNumber": false,
+    "stateIdList": [
+      {
+        "bPlayTimes": false,
+        "stateId": 10200784,
+        "timesRate_SN": 10000,
+        "timesSource": "FixedValue"
+      }
+    ],
+    "backShakeFrame": -1
   },
   {
     "id": 10100677,
@@ -16615,7 +16659,7 @@
     "isInformalData": false,
     "isCharge": false,
     "isSkill": false,
-    "actionLevel": "Move",
+    "actionLevel": "Stand",
     "isUseTargetFilter": false,
     "targetType": "Enemy",
     "targetTagList": [],
@@ -22643,38 +22687,6 @@
       }
     ],
     "backShakeFrame": -1
-  },
-  {
-    "id": 10101081,
-    "idCN": "敌方/02桦树/浮游/坚实桦树生物/光环",
-    "mod": "基础动作",
-    "actionLevel": "System",
-    "isUseTargetFilter": true,
-    "targetType": "Self",
-    "targetTagList": [],
-    "halfWidth_SN": 0,
-    "attributeType": "HpMax",
-    "condition": "Max",
-    "numberType": "Number",
-    "number_SN": 0,
-    "buffTypeFO": -1,
-    "buffFO": -1,
-    "buffJudgeType": "Greater",
-    "buffLevel": 0,
-    "targetCount": 0,
-    "distance_SN": 20000,
-    "radius_SN": 0,
-    "cdFrame": 1,
-    "isUseBigNumber": false,
-    "stateIdList": [
-      {
-        "bPlayTimes": false,
-        "customDataTag": "",
-        "stateId": -1,
-        "timesRate_SN": 10000,
-        "timesSource": "FixedValue"
-      }
-    ]
   },
   {
     "id": 10101056,
@@ -28974,10 +28986,14 @@
     "id": 10101315,
     "idCN": "敌方/09沙盗团/夏尔/昏迷",
     "mod": "基础动作",
+    "isInformalData": false,
+    "isCharge": false,
+    "isSkill": false,
     "actionLevel": "System",
     "isUseTargetFilter": false,
     "targetType": "Ally",
     "targetTagList": [],
+    "tagType": "And",
     "halfWidth_SN": 0,
     "attributeType": "HpMax",
     "condition": "Max",
@@ -28987,9 +29003,14 @@
     "buffFO": -1,
     "buffJudgeType": "Greater",
     "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
     "targetCount": 0,
     "distance_SN": 20000,
     "radius_SN": 0,
+    "damageHitBuffList": [],
+    "healHitBuffList": [],
     "cdFrame": 400,
     "isUseBigNumber": false,
     "stateIdList": [
@@ -29000,7 +29021,8 @@
         "timesRate_SN": 10000,
         "timesSource": "CurrentHp"
       }
-    ]
+    ],
+    "backShakeFrame": -1
   },
   {
     "id": 10101316,
@@ -29545,56 +29567,6 @@
       }
     ],
     "backShakeFrame": -1
-  },
-  {
-    "id": 10101332,
-    "idCN": "敌方/09沙盗团/夏尔/终结技狂欢",
-    "mod": "基础动作",
-    "isInformalData": false,
-    "isCharge": false,
-    "actionLevel": "System",
-    "isUseTargetFilter": true,
-    "targetType": "Ally",
-    "targetTagList": [
-      {
-        "tagId": 12600032
-      }
-    ],
-    "halfWidth_SN": 990000,
-    "attributeType": "HpMax",
-    "condition": "All",
-    "numberType": "Number",
-    "number_SN": 0,
-    "buffTypeFO": -1,
-    "buffFO": -1,
-    "buffJudgeType": "Greater",
-    "buffLevel": 0,
-    "filterStance": "DeafaultStance",
-    "filterPosition": "DefaultPos",
-    "isAimSelf": false,
-    "targetCount": 99,
-    "distance_SN": 473000,
-    "radius_SN": 0,
-    "damageHitBuffList": [],
-    "healHitBuffList": [],
-    "cdFrame": 490,
-    "isUseBigNumber": false,
-    "stateIdList": [
-      {
-        "bPlayTimes": false,
-        "customDataTag": "",
-        "stateId": -1,
-        "timesRate_SN": 10000,
-        "timesSource": "CurrentHp"
-      },
-      {
-        "bPlayTimes": false,
-        "customDataTag": "",
-        "stateId": -1,
-        "timesRate_SN": 10000,
-        "timesSource": "CurrentHp"
-      }
-    ]
   },
   {
     "id": 10101333,
@@ -46802,7 +46774,7 @@
     "isInformalData": false,
     "isCharge": false,
     "isSkill": false,
-    "actionLevel": "NormalAttack",
+    "actionLevel": "NormalSkill",
     "isUseTargetFilter": false,
     "targetType": "Enemy",
     "targetTagList": [],
@@ -46834,7 +46806,8 @@
         "timesRate_SN": 10000,
         "timesSource": "FixedValue"
       }
-    ]
+    ],
+    "backShakeFrame": -1
   },
   {
     "id": 10101057,
@@ -59506,10 +59479,12 @@
     "mod": "基础动作",
     "isInformalData": false,
     "isCharge": false,
-    "actionLevel": "NormalAttack",
+    "isSkill": false,
+    "actionLevel": "NormalSkill",
     "isUseTargetFilter": false,
     "targetType": "Enemy",
     "targetTagList": [],
+    "tagType": "And",
     "halfWidth_SN": 0,
     "attributeType": "HpMax",
     "condition": "Max",
@@ -59537,7 +59512,8 @@
         "timesRate_SN": 10000,
         "timesSource": "FixedValue"
       }
-    ]
+    ],
+    "backShakeFrame": -1
   },
   {
     "id": 10102062,
@@ -59545,10 +59521,12 @@
     "mod": "基础动作",
     "isInformalData": false,
     "isCharge": false,
-    "actionLevel": "NormalAttack",
+    "isSkill": false,
+    "actionLevel": "NormalSkill",
     "isUseTargetFilter": false,
     "targetType": "Enemy",
     "targetTagList": [],
+    "tagType": "And",
     "halfWidth_SN": 0,
     "attributeType": "HpMax",
     "condition": "Max",
@@ -59576,7 +59554,8 @@
         "timesRate_SN": 10000,
         "timesSource": "FixedValue"
       }
-    ]
+    ],
+    "backShakeFrame": -1
   },
   {
     "id": 10102064,
@@ -59626,10 +59605,12 @@
     "mod": "基础动作",
     "isInformalData": false,
     "isCharge": false,
-    "actionLevel": "NormalAttack",
+    "isSkill": false,
+    "actionLevel": "NormalSkill",
     "isUseTargetFilter": false,
     "targetType": "Enemy",
     "targetTagList": [],
+    "tagType": "And",
     "halfWidth_SN": 0,
     "attributeType": "HpMax",
     "condition": "Max",
@@ -59657,7 +59638,8 @@
         "timesRate_SN": 10000,
         "timesSource": "FixedValue"
       }
-    ]
+    ],
+    "backShakeFrame": -1
   },
   {
     "id": 10102068,
@@ -80395,7 +80377,7 @@
     "isInformalData": false,
     "isCharge": false,
     "isSkill": false,
-    "actionLevel": "NormalAttack",
+    "actionLevel": "NormalSkill",
     "isUseTargetFilter": false,
     "targetType": "Enemy",
     "targetTagList": [],
@@ -80427,7 +80409,8 @@
         "timesRate_SN": 10000,
         "timesSource": "FixedValue"
       }
-    ]
+    ],
+    "backShakeFrame": -1
   },
   {
     "id": 10102379,
@@ -80557,7 +80540,7 @@
     "isInformalData": false,
     "isCharge": false,
     "isSkill": true,
-    "actionLevel": "NormalSkill",
+    "actionLevel": "SpecialSkill",
     "isUseTargetFilter": false,
     "targetType": "Self",
     "targetTagList": [],
@@ -83892,7 +83875,7 @@
     "isInformalData": false,
     "isCharge": false,
     "isSkill": true,
-    "actionLevel": "NormalSkill",
+    "actionLevel": "SpecialSkill",
     "isUseTargetFilter": false,
     "targetType": "Enemy",
     "targetTagList": [],
@@ -90028,7 +90011,7 @@
     "isInformalData": false,
     "isCharge": false,
     "isSkill": false,
-    "actionLevel": "NormalAttack",
+    "actionLevel": "NormalSkill",
     "isUseTargetFilter": false,
     "targetType": "Self",
     "targetTagList": [],
@@ -90060,7 +90043,8 @@
         "timesRate_SN": 10000,
         "timesSource": "CurrentHp"
       }
-    ]
+    ],
+    "backShakeFrame": -1
   },
   {
     "id": 10101033,
