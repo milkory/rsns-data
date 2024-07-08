@@ -5067,6 +5067,7 @@
     "totalCardNum": 1,
     "skillMin": 5,
     "homeCharacter": 70000034,
+    "stationStoreCharacter": -1,
     "gotoBed": true,
     "isDoctor": false,
     "medicalPoint": 0,
@@ -5074,6 +5075,7 @@
     "FoodList": [],
     "ProfilePhotoList": [],
     "classifyList": [],
+    "careerList": [],
     "fileList": [
       {
         "file": 80301559
@@ -5082,6 +5084,8 @@
     "age": 0,
     "gender": "",
     "birthday": "3月23日",
+    "birthdayCake": -1,
+    "birthdayMessage": "",
     "height": "165cm",
     "birthplace": "篝火城",
     "ability": "",
@@ -7061,6 +7065,7 @@
       }
     ],
     "classifyList": [],
+    "careerList": [],
     "fileList": [
       {
         "file": 80301579
@@ -9760,6 +9765,7 @@
     "FoodList": [],
     "ProfilePhotoList": [],
     "classifyList": [],
+    "careerList": [],
     "fileList": [
       {
         "file": 80301571
@@ -9768,6 +9774,8 @@
     "age": 0,
     "gender": "",
     "birthday": "8月8日",
+    "birthdayCake": -1,
+    "birthdayMessage": "",
     "height": "192cm",
     "birthplace": "曼杜斯帝国",
     "ability": "",
@@ -10613,6 +10621,7 @@
       }
     ],
     "classifyList": [],
+    "careerList": [],
     "fileList": [
       {
         "file": 80301577
@@ -12383,6 +12392,7 @@
       }
     ],
     "classifyList": [],
+    "careerList": [],
     "fileList": [
       {
         "file": 80301582
@@ -12579,6 +12589,7 @@
     "totalCardNum": 1,
     "skillMin": 5,
     "homeCharacter": 70000170,
+    "stationStoreCharacter": -1,
     "gotoBed": true,
     "isDoctor": false,
     "medicalPoint": 0,
@@ -12586,6 +12597,7 @@
     "FoodList": [],
     "ProfilePhotoList": [],
     "classifyList": [],
+    "careerList": [],
     "fileList": [
       {
         "file": 80301572
@@ -12594,6 +12606,8 @@
     "age": 0,
     "gender": "",
     "birthday": "12月2日",
+    "birthdayCake": -1,
+    "birthdayMessage": "",
     "height": "47cm",
     "birthplace": "某工厂",
     "ability": "",
@@ -12783,6 +12797,7 @@
     "FoodList": [],
     "ProfilePhotoList": [],
     "classifyList": [],
+    "careerList": [],
     "fileList": [
       {
         "file": 80301075
@@ -12791,6 +12806,8 @@
     "age": 0,
     "gender": "",
     "birthday": "12月2日",
+    "birthdayCake": -1,
+    "birthdayMessage": "",
     "height": "47cm",
     "birthplace": "某工厂",
     "ability": "",
@@ -24376,6 +24393,7 @@
       }
     ],
     "classifyList": [],
+    "careerList": [],
     "fileList": [
       {
         "file": 80301581
@@ -28044,6 +28062,9 @@
       },
       {
         "skillId": 12301472
+      },
+      {
+        "skillId": 12301746
       }
     ],
     "hp_SN": 1500000000,
@@ -62368,7 +62389,7 @@
   },
   {
     "id": 10000356,
-    "idCN": "桦树生物/BOSS/暴君",
+    "idCN": "桦树生物/BOSS/8-冥霆仪者",
     "mod": "敌方角色",
     "isInformalData": false,
     "name": "冥霆仪者",
@@ -66436,18 +66457,6 @@
     "tagList": [],
     "passiveSkillList": [
       {
-        "skillId": 12301432
-      },
-      {
-        "skillId": 12301369
-      },
-      {
-        "skillId": 12301367
-      },
-      {
-        "skillId": 12301409
-      },
-      {
         "skillId": 12301509
       },
       {
@@ -66470,14 +66479,7 @@
     "noUpgradeSkillList": [],
     "equipmentSlotList": [],
     "growthId": 12000326,
-    "growthTagList": [
-      {
-        "growthTagId": 12000353
-      },
-      {
-        "growthTagId": 12000060
-      }
-    ],
+    "growthTagList": [],
     "skillLvUpList": [],
     "breakthroughList": [],
     "awakeList": [
@@ -66836,6 +66838,287 @@
     "enemyType": 12601048,
     "enemyCamp": 12601044,
     "enemyBookId": 10000144,
+    "prisonerDrop": []
+  },
+  {
+    "id": 10000396,
+    "idCN": "爬塔/桦树生物/召唤物/潜沙甲",
+    "mod": "召唤物",
+    "isInformalData": false,
+    "name": "潜沙甲",
+    "EnglishName": "",
+    "viewId": 11000248,
+    "sideId": 12600922,
+    "controllerId": 10300207,
+    "bulletControllerList": [],
+    "isBoss": false,
+    "bossHpTemp": -1,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600295
+      },
+      {
+        "tagId": 12600659
+      }
+    ],
+    "passiveSkillList": [],
+    "hp_SN": 120000000,
+    "def_SN": 700000,
+    "atk_SN": 650000,
+    "atkSpeed_SN": 500000,
+    "luck_SN": 0,
+    "line": 0,
+    "subLine": 0,
+    "costRestore_SN": 0,
+    "actionStandID": 10102099,
+    "actionMoveID": 10101743,
+    "actionAttackedID": 10101735,
+    "actionAttackedBackID": 10101736,
+    "actionKnockUpID": -1,
+    "actionStunID": 10101283,
+    "actionDeadID": 10101739,
+    "actionVictoryID": -1,
+    "isNeutral": false,
+    "isCantBeHit": false,
+    "isImmuneAlly": false,
+    "isImmuneEnemy": false,
+    "ownerDeadAddBuffID": -1,
+    "deadAddBuffToOwner": -1,
+    "fightEndBuffId": -1,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 15000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 15000,
+    "hitAreaHalfWidth_SN": 20000,
+    "hitAreaHalfHeight_SN": 15000,
+    "safeInformation": "",
+    "unitInformation": ""
+  },
+  {
+    "id": 10000397,
+    "idCN": "爬塔/桦树生物/召唤物/钻沙虫",
+    "mod": "召唤物",
+    "isInformalData": false,
+    "name": "钻沙虫",
+    "EnglishName": "",
+    "viewId": 11000247,
+    "sideId": 12600922,
+    "controllerId": 10300206,
+    "bulletControllerList": [],
+    "isBoss": false,
+    "bossHpTemp": -1,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600295
+      },
+      {
+        "tagId": 12600659
+      }
+    ],
+    "passiveSkillList": [],
+    "hp_SN": 90000000,
+    "def_SN": 700000,
+    "atk_SN": 600000,
+    "atkSpeed_SN": 500000,
+    "luck_SN": 0,
+    "line": 0,
+    "subLine": 0,
+    "costRestore_SN": 0,
+    "actionStandID": 10102246,
+    "actionMoveID": 10102245,
+    "actionAttackedID": 10102242,
+    "actionAttackedBackID": 10102243,
+    "actionKnockUpID": -1,
+    "actionStunID": 10102238,
+    "actionDeadID": 10102244,
+    "actionVictoryID": -1,
+    "isNeutral": false,
+    "isCantBeHit": false,
+    "isImmuneAlly": false,
+    "isImmuneEnemy": false,
+    "ownerDeadAddBuffID": -1,
+    "deadAddBuffToOwner": -1,
+    "fightEndBuffId": -1,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 15000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 15000,
+    "hitAreaHalfWidth_SN": 20000,
+    "hitAreaHalfHeight_SN": 15000,
+    "safeInformation": "",
+    "unitInformation": ""
+  },
+  {
+    "id": 10000399,
+    "idCN": "敌方/06深眠者/深眠者柯娜",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "深眠者柯娜",
+    "EnglishName": "",
+    "viewId": 11000376,
+    "skinList": [],
+    "sideId": 12600910,
+    "controllerId": -1,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": 90100010,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600278
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301506
+      },
+      {
+        "skillId": 12301434
+      },
+      {
+        "skillId": 12301428
+      }
+    ],
+    "hp_SN": 320000000,
+    "def_SN": 600000,
+    "atk_SN": 720000,
+    "atkSpeed_SN": 1000000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000388,
+    "growthTagList": [
+      {
+        "growthTagId": 12000112
+      },
+      {
+        "growthTagId": 12000097
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800292
+      },
+      {
+        "talentId": 12800293
+      },
+      {
+        "talentId": 12800294
+      },
+      {
+        "talentId": 12800295
+      },
+      {
+        "talentId": 12800296
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10103081,
+    "actionMoveID": 10103081,
+    "actionAttackedID": 10103089,
+    "actionAttackedBackID": 10103088,
+    "actionKnockUpID": -1,
+    "actionStunID": 10103090,
+    "actionDeadID": 10103087,
+    "actionVictoryID": -1,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 15000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 15000,
+    "hitAreaHalfWidth_SN": 10000,
+    "hitAreaHalfHeight_SN": 15000,
+    "battleDes": "",
+    "safeInformation": "",
+    "unitInformation": "",
+    "enemyDrop": [
+      {
+        "id": 11700077
+      },
+      {
+        "id": 11700147
+      },
+      {
+        "id": 11700079
+      },
+      {
+        "id": 11700080
+      }
+    ],
+    "abilityList": [
+      {
+        "id": 12600906
+      },
+      {
+        "id": 12600939
+      }
+    ],
+    "weaknessList": [
+      {
+        "id": 12600978
+      }
+    ],
+    "resistanceList": [
+      {
+        "id": 12600972
+      },
+      {
+        "id": 12600965
+      }
+    ],
+    "enemyType": 12601048,
+    "enemyCamp": 12600237,
+    "enemyBookId": 10000399,
     "prisonerDrop": []
   }
 ]
