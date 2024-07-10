@@ -52852,6 +52852,9 @@
     "skinList": [
       {
         "unitViewId": 11000322
+      },
+      {
+        "unitViewId": 11000371
       }
     ],
     "sideId": 12600035,
@@ -53089,6 +53092,9 @@
     "fileList": [
       {
         "file": 80300304
+      },
+      {
+        "file": 80302192
       }
     ],
     "age": 0,
@@ -62534,6 +62540,9 @@
       },
       {
         "tagId": 12601261
+      },
+      {
+        "tagId": 12601200
       }
     ],
     "passiveSkillList": [
@@ -62547,7 +62556,7 @@
         "skillId": 12301411
       }
     ],
-    "hp_SN": 3000000000,
+    "hp_SN": 12000000000,
     "def_SN": 800000,
     "atk_SN": 800000,
     "atkSpeed_SN": 500000,
@@ -66086,6 +66095,8 @@
     "age": 0,
     "gender": "",
     "birthday": "1月1日",
+    "birthdayMonth": "1",
+    "birthdayDay": "1",
     "birthdayCake": -1,
     "birthdayMessage": "",
     "height": "150",
@@ -66967,68 +66978,6 @@
     "prisonerDrop": []
   },
   {
-    "id": 10000396,
-    "idCN": "爬塔/桦树生物/召唤物/潜沙甲",
-    "mod": "召唤物",
-    "isInformalData": false,
-    "name": "潜沙甲",
-    "EnglishName": "",
-    "viewId": 11000248,
-    "sideId": 12600922,
-    "controllerId": 10300207,
-    "bulletControllerList": [],
-    "isBoss": false,
-    "bossHpTemp": -1,
-    "isDeadNotDisappear": false,
-    "isFly": false,
-    "originFlyYSN": 0,
-    "randomOffsetFlyYSN": 0,
-    "flyOnStraight": false,
-    "tagList": [
-      {
-        "tagId": 12600246
-      },
-      {
-        "tagId": 12600295
-      },
-      {
-        "tagId": 12600659
-      }
-    ],
-    "passiveSkillList": [],
-    "hp_SN": 120000000,
-    "def_SN": 700000,
-    "atk_SN": 650000,
-    "atkSpeed_SN": 500000,
-    "luck_SN": 0,
-    "line": 0,
-    "subLine": 0,
-    "costRestore_SN": 0,
-    "actionStandID": 10102099,
-    "actionMoveID": 10101743,
-    "actionAttackedID": 10101735,
-    "actionAttackedBackID": 10101736,
-    "actionKnockUpID": -1,
-    "actionStunID": 10101283,
-    "actionDeadID": 10101739,
-    "actionVictoryID": -1,
-    "isNeutral": false,
-    "isCantBeHit": false,
-    "isImmuneAlly": false,
-    "isImmuneEnemy": false,
-    "ownerDeadAddBuffID": -1,
-    "deadAddBuffToOwner": -1,
-    "fightEndBuffId": -1,
-    "hitPointX_SN": 0,
-    "hitPointY_SN": 15000,
-    "hitAreaX_SN": 0,
-    "hitAreaY_SN": 15000,
-    "hitAreaHalfWidth_SN": 20000,
-    "hitAreaHalfHeight_SN": 15000,
-    "safeInformation": "",
-    "unitInformation": ""
-  },
-  {
     "id": 10000397,
     "idCN": "爬塔/桦树生物/召唤物/钻沙虫",
     "mod": "召唤物",
@@ -67073,6 +67022,68 @@
     "actionKnockUpID": -1,
     "actionStunID": 10102238,
     "actionDeadID": 10102244,
+    "actionVictoryID": -1,
+    "isNeutral": false,
+    "isCantBeHit": false,
+    "isImmuneAlly": false,
+    "isImmuneEnemy": false,
+    "ownerDeadAddBuffID": -1,
+    "deadAddBuffToOwner": -1,
+    "fightEndBuffId": -1,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 15000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 15000,
+    "hitAreaHalfWidth_SN": 20000,
+    "hitAreaHalfHeight_SN": 15000,
+    "safeInformation": "",
+    "unitInformation": ""
+  },
+  {
+    "id": 10000396,
+    "idCN": "爬塔/桦树生物/召唤物/潜沙甲",
+    "mod": "召唤物",
+    "isInformalData": false,
+    "name": "潜沙甲",
+    "EnglishName": "",
+    "viewId": 11000248,
+    "sideId": 12600922,
+    "controllerId": 10300207,
+    "bulletControllerList": [],
+    "isBoss": false,
+    "bossHpTemp": -1,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600295
+      },
+      {
+        "tagId": 12600659
+      }
+    ],
+    "passiveSkillList": [],
+    "hp_SN": 120000000,
+    "def_SN": 700000,
+    "atk_SN": 650000,
+    "atkSpeed_SN": 500000,
+    "luck_SN": 0,
+    "line": 0,
+    "subLine": 0,
+    "costRestore_SN": 0,
+    "actionStandID": 10102099,
+    "actionMoveID": 10101743,
+    "actionAttackedID": 10101735,
+    "actionAttackedBackID": 10101736,
+    "actionKnockUpID": -1,
+    "actionStunID": 10101283,
+    "actionDeadID": 10101739,
     "actionVictoryID": -1,
     "isNeutral": false,
     "isCantBeHit": false,

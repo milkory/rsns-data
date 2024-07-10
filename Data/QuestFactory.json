@@ -72135,7 +72135,7 @@
     "mod": "订单",
     "isInformalData": false,
     "name": "货运·道路畅通",
-    "describe": "请运送31箱钢筋混凝土至%s。",
+    "describe": "请运送31箱钢筋混凝土轨枕至%s。",
     "story": "列车轨道年久失修，已经严重影响通行啦，我们需要大量的钢筋混凝土轨枕修补轨道。请运送31箱钢筋混凝土轨枕至%s。",
     "questType": "Home",
     "sort": 0,
@@ -72165,6 +72165,8 @@
     "num": 1,
     "islockAddProgress": false,
     "isAutoComplete": true,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
     "giveUp": true,
     "rewardsList": [
       {
@@ -78994,7 +78996,7 @@
     "rewardsList": [
       {
         "id": 11400005,
-        "num": 50
+        "num": 10
       }
     ],
     "nextQuest": [],
@@ -79056,7 +79058,7 @@
     "rewardsList": [
       {
         "id": 11400005,
-        "num": 50
+        "num": 20
       }
     ],
     "nextQuest": [],
@@ -79118,7 +79120,7 @@
     "rewardsList": [
       {
         "id": 11400005,
-        "num": 50
+        "num": 30
       }
     ],
     "nextQuest": [],
@@ -79157,7 +79159,12 @@
     "preQuestId": -1,
     "preLv": 1,
     "startLevel": 0,
-    "conditionList": [],
+    "conditionList": [
+      {
+        "key": "equipmentLv",
+        "val": "0"
+      }
+    ],
     "num": 1,
     "islockAddProgress": false,
     "isAutoComplete": true,
@@ -79211,7 +79218,408 @@
     "startLevel": 0,
     "conditionList": [
       {
-        "key": "finishOrder",
+        "key": "equipmentLv",
+        "val": "0"
+      }
+    ],
+    "num": 10,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400036,
+        "num": 1
+      }
+    ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81000954,
+    "idCN": "逸闻任务/亚莉奈/ARC4-1",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "【逸闻】特别的日子",
+    "describe": "在修格里城休息区与亚莉奈交谈",
+    "story": "去修格里城见亚莉奈吧，今天她也在那里等你。",
+    "questType": "Side",
+    "sort": 11,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": true,
+    "client": 82600174,
+    "startStation": 83000001,
+    "endStationList": [
+      {
+        "id": 83000001,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": true,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500004,
+        "uiPath": "UI/CityMap/CityMap"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500025,
+        "uiPath": "UI/Home/BarStore/BarStore"
+      }
+    ],
+    "isSwitchUI": true,
+    "switchUI": "",
+    "preQuestId": 81001139,
+    "preLv": 1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "dialog",
+        "val": "0"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400066,
+        "num": 1
+      },
+      {
+        "id": 11400071,
+        "num": 1
+      }
+    ],
+    "nextQuest": [
+      {
+        "id": 81000955
+      }
+    ],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81000955,
+    "idCN": "逸闻任务/亚莉奈/ARC4-2",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "【逸闻】不会哭泣的黑羊",
+    "describe": "在修格里城休息区与亚莉奈交谈",
+    "story": "亚莉奈陷入了回忆之中。",
+    "questType": "Side",
+    "sort": 11,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": true,
+    "client": 82600174,
+    "startStation": 83000001,
+    "endStationList": [
+      {
+        "id": 83000001,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": true,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500004,
+        "uiPath": "UI/CityMap/CityMap"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500025,
+        "uiPath": "UI/Home/BarStore/BarStore"
+      }
+    ],
+    "isSwitchUI": true,
+    "switchUI": "",
+    "preQuestId": 81000954,
+    "preLv": 1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "dialog",
+        "val": "0"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400067,
+        "num": 1
+      }
+    ],
+    "nextQuest": [
+      {
+        "id": 81000956
+      }
+    ],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81000956,
+    "idCN": "逸闻任务/亚莉奈/ARC4-3",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "【逸闻】恶意的旋涡",
+    "describe": "在修格里城休息区与亚莉奈交谈",
+    "story": "在亚莉奈的回忆中出现的那个人是……？",
+    "questType": "Side",
+    "sort": 11,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": true,
+    "client": 82600174,
+    "startStation": 83000001,
+    "endStationList": [
+      {
+        "id": 83000001,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": true,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500004,
+        "uiPath": "UI/CityMap/CityMap"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500025,
+        "uiPath": "UI/Home/BarStore/BarStore"
+      }
+    ],
+    "isSwitchUI": true,
+    "switchUI": "",
+    "preQuestId": 81000955,
+    "preLv": 1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "dialog",
+        "val": "0"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400066,
+        "num": 1
+      }
+    ],
+    "nextQuest": [
+      {
+        "id": 81000957
+      }
+    ],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81000957,
+    "idCN": "逸闻任务/亚莉奈/ARC4-4",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "【逸闻】美丽新世界",
+    "describe": "在修格里城休息区与亚莉奈交谈",
+    "story": "自此，她迎来了美丽的新世界。",
+    "questType": "Side",
+    "sort": 11,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": true,
+    "client": 82600174,
+    "startStation": 83000001,
+    "endStationList": [
+      {
+        "id": 83000001,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": true,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500004,
+        "uiPath": "UI/CityMap/CityMap"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500025,
+        "uiPath": "UI/Home/BarStore/BarStore"
+      }
+    ],
+    "isSwitchUI": true,
+    "switchUI": "",
+    "preQuestId": 81000956,
+    "preLv": 1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "dialog",
+        "val": "0"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400007,
+        "num": 1
+      },
+      {
+        "id": 11400141,
+        "num": 1
+      }
+    ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81000958,
+    "idCN": "通行证周常/升级5次列车武装",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "周常任务",
+    "describe": "升级5次列车武装",
+    "story": "",
+    "questType": "Weekly",
+    "sort": 20,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "client": -1,
+    "startStation": -1,
+    "endStationList": [],
+    "isAutoTrace": false,
+    "traceList": [],
+    "isSwitchUI": true,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "equipmentLv",
         "val": "0"
       }
     ],
