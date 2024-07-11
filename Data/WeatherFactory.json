@@ -9,9 +9,8 @@
   {
     "id": 50000002,
     "idCN": "天气/雪/01雪",
-    "mod": "雪",
+    "mod": "特效天气",
     "isInformalData": false,
-    "resUrl": "Weather\\Snow\\SnowOn3DScene",
     "combinePath": "Snow1",
     "intervalFrame": 15,
     "buffId": 10400251,
@@ -31,22 +30,12 @@
         "text": "<color=#ffffff>雪：</color><color=#cd8c00>【引雷】</color><color=#adadad>概率</color><color=#cd8c00>-3%</color>"
       }
     ],
-    "snowLevel": [
-      {
-        "EmissionPosX": 0.0,
-        "alpha": 0,
-        "fogRate": 0,
-        "fogSpeedMax": 0.0,
-        "fogSpeedMin": 0.0,
-        "invalidParticle": "Side",
-        "mainVelocityMax": 1.0,
-        "mainVelocityMin": 0.5,
-        "noiseStrength": 0.1,
-        "rate": 12,
-        "sideVelocityMax": 0.0,
-        "sideVelocityMin": 0.0
-      }
-    ],
+    "startEffectId": -1,
+    "endEffectId": -1,
+    "effectId": 11105851,
+    "offsetXSN": 0,
+    "offsetYSN": 0,
+    "offsetZSN": 0,
     "WeatherType": "FirstGroup"
   },
   {
@@ -419,9 +408,8 @@
   {
     "id": 50000017,
     "idCN": "天气/雪/02大雪",
-    "mod": "雪",
+    "mod": "特效天气",
     "isInformalData": false,
-    "resUrl": "Weather\\Snow\\SnowOn3DScene",
     "combinePath": "Snow2",
     "intervalFrame": 15,
     "buffId": 10400793,
@@ -441,30 +429,19 @@
         "text": "<color=#ffffff>大雪：</color><color=#cd8c00>【引雷】</color><color=#adadad>概率</color><color=#cd8c00>-6%</color>"
       }
     ],
-    "snowLevel": [
-      {
-        "EmissionPosX": -5.0,
-        "alpha": 30,
-        "fogRate": 10,
-        "fogSpeedMax": 3.5,
-        "fogSpeedMin": 2.0,
-        "invalidParticle": "Front",
-        "mainVelocityMax": 3.0,
-        "mainVelocityMin": 1.0,
-        "noiseStrength": 0.3,
-        "rate": 12,
-        "sideVelocityMax": 5.0,
-        "sideVelocityMin": 3.0
-      }
-    ],
+    "startEffectId": -1,
+    "endEffectId": -1,
+    "effectId": 11105850,
+    "offsetXSN": 0,
+    "offsetYSN": 0,
+    "offsetZSN": 0,
     "WeatherType": "FirstGroup"
   },
   {
     "id": 50000018,
     "idCN": "天气/雪/03暴雪",
-    "mod": "雪",
+    "mod": "特效天气",
     "isInformalData": false,
-    "resUrl": "Weather\\Snow\\SnowOn3DScene",
     "combinePath": "Snow3",
     "intervalFrame": 15,
     "buffId": 10400794,
@@ -484,22 +461,12 @@
         "text": "<color=#ffffff>暴雪：</color><color=#cd8c00>【引雷】</color><color=#adadad>概率</color><color=#cd8c00>-9%</color>"
       }
     ],
-    "snowLevel": [
-      {
-        "EmissionPosX": -10.0,
-        "alpha": 120,
-        "fogRate": 12,
-        "fogSpeedMax": 7.0,
-        "fogSpeedMin": 4.0,
-        "invalidParticle": "Front",
-        "mainVelocityMax": 5.0,
-        "mainVelocityMin": 3.0,
-        "noiseStrength": 0.5,
-        "rate": 24,
-        "sideVelocityMax": 9.0,
-        "sideVelocityMin": 6.0
-      }
-    ],
+    "startEffectId": -1,
+    "endEffectId": -1,
+    "effectId": 11104935,
+    "offsetXSN": 0,
+    "offsetYSN": 0,
+    "offsetZSN": 0,
     "WeatherType": "FirstGroup"
   },
   {
@@ -962,7 +929,7 @@
     "effectId": 11101696,
     "buffId": 10403956,
     "isSkill": true,
-    "interval": 300,
+    "interval": 600,
     "duration": 7200,
     "radiusSN": 240000,
     "environIconPath": "UI/Battle/Environment/Icon/SeismicCirculation",
@@ -1049,6 +1016,27 @@
     "interval": 120,
     "duration": 600,
     "radiusSN": 30000,
+    "environIconPath": "",
+    "tempenvironName": "",
+    "environName": "",
+    "tempenvironDetail": "",
+    "environDetail": "",
+    "isTipTrigger": false,
+    "WeatherType": "FirstGroup"
+  },
+  {
+    "id": 50000011,
+    "idCN": "地面/02敌方/淘金乐园/金子小姐/增幅3扫雷区域",
+    "mod": "基础环境",
+    "isInformalData": false,
+    "startEffectId": -1,
+    "endEffectId": 11105703,
+    "effectId": 11102493,
+    "buffId": 10411248,
+    "isSkill": true,
+    "interval": 15,
+    "duration": 720,
+    "radiusSN": 40000,
     "environIconPath": "",
     "tempenvironName": "",
     "environName": "",

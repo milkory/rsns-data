@@ -202,19 +202,19 @@
       },
       {
         "id": 80300003,
-        "name": "园丁专柜",
+        "name": "桦石专柜",
         "pngNotSelect": "UI/Store/yuandingzhuangui",
         "pngSelect": "UI/Store/Select_yuandingzhuangui"
       },
       {
         "id": 80300323,
-        "name": "后勤礼包",
+        "name": "特惠礼包",
         "pngNotSelect": "UI/Store/libao",
         "pngSelect": "UI/Store/Select_libao"
       },
       {
         "id": 80301713,
-        "name": "服装专柜",
+        "name": "限定服装",
         "pngNotSelect": "UI/Store/skin",
         "pngSelect": "UI/Store/Select_skin"
       },
@@ -18373,6 +18373,7 @@
         "textId": -1
       }
     ],
+    "extraWarehouse": 11400235,
     "extraQuotation": 0.01,
     "quotationThresholdList": [
       {
@@ -19903,9 +19904,14 @@
         "price": 0
       }
     ],
-    "trailerMonthCardMax": 1,
+    "trailerMonthCardMax": 2,
     "trailerMonthCardCost": [
-      {}
+      {},
+      {
+        "dis": 100.0,
+        "mileage": 0,
+        "price": 0
+      }
     ]
   },
   {
@@ -20604,6 +20610,17 @@
         "spineX": -444.5,
         "spineY": -16.5,
         "startTime": "2024-07-01 11:00:00"
+      },
+      {
+        "anecdoteName": "白色佳人",
+        "brief": "今夜，亚莉奈在“荚蒾”等待着你。她的微笑、她调配的饮品，以及手中的“白色佳人”，一如既往。",
+        "characterId": 10000051,
+        "faceUrl": "UI/Quest/Anecdote/Images/Arina",
+        "id": 81000954,
+        "plotReviewId": 20601194,
+        "spineX": 0.0,
+        "spineY": 0.0,
+        "startTime": "2024-07-11 12:00:00"
       }
     ]
   }
