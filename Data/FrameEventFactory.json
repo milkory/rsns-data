@@ -8520,13 +8520,10 @@
   {
     "id": 10501460,
     "idCN": "敌方/10淘金乐园/金子小姐/技能1",
-    "mod": "子弹事件",
+    "mod": "添加Buff",
     "isInformalData": false,
     "buffId": 10403354,
-    "bulletId": 11200296,
-    "targetType": "OneEach",
-    "offSetX_SN": 0,
-    "offSetZ_SN": 0
+    "targetType": "OneEach"
   },
   {
     "id": 10501461,
@@ -23981,5 +23978,92 @@
     "filterPosition": "DefaultPos",
     "isAimSelf": false,
     "targetCount": 0
+  },
+  {
+    "id": 10502213,
+    "idCN": "爬塔/机械单位/金子小姐/增幅5循环生成子弹",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10411242
+  },
+  {
+    "id": 10502210,
+    "idCN": "爬塔/机械单位/金子小姐/增幅5火箭拳子弹",
+    "mod": "子弹事件",
+    "isInformalData": false,
+    "buffId": 10411243,
+    "bulletId": 11200478,
+    "targetType": "CurrentTarget",
+    "offSetX_SN": 0,
+    "offSetZ_SN": 0,
+    "isUseTargetFilter": true,
+    "targetFilterType": "OnlyTeam1",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 0,
+    "attributeType": "HpMax",
+    "condition": "Max",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 99
+  },
+  {
+    "id": 10502209,
+    "idCN": "爬塔/机械单位/金子小姐/增幅5生成火箭拳子弹",
+    "mod": "子弹事件",
+    "isInformalData": false,
+    "buffId": 10400328,
+    "bulletId": 11200477,
+    "targetType": "CurrentTarget",
+    "offSetX_SN": 0,
+    "offSetZ_SN": 0,
+    "isUseTargetFilter": false,
+    "targetFilterType": "Self",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 0,
+    "attributeType": "HpMax",
+    "condition": "Max",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 1
+  },
+  {
+    "id": 10502216,
+    "idCN": "我方/05五星/安菲娅/A-3禁锢循环伤害",
+    "mod": "攻击事件",
+    "isInformalData": false,
+    "buffId": 10411269,
+    "hitSoundID": -1
+  },
+  {
+    "id": 10502215,
+    "idCN": "我方/05五星/安菲娅/A-2伤害崩坏昏睡",
+    "mod": "攻击事件",
+    "isInformalData": false,
+    "buffId": 10411268,
+    "hitSoundID": -1
+  },
+  {
+    "id": 10502214,
+    "idCN": "我方/05五星/安菲娅/A-1无敌狂暴受击回费",
+    "mod": "添加Buff",
+    "isInformalData": false,
+    "buffId": 10411267,
+    "targetType": "CurrentTarget"
   }
 ]

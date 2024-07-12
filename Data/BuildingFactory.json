@@ -974,6 +974,14 @@
         "showUI": "Group_Exchange"
       },
       {
+        "icon": "UI/HomeTrade/trade_icon_sell",
+        "isStore": false,
+        "isTalk": false,
+        "name": "素材回收",
+        "showUI": "Group_Sale",
+        "uiPath": "UI/HomeBattleCenter/HomeBattleCenter"
+      },
+      {
         "icon": "UI/Home/HomeSafe/jiaotan",
         "isStore": false,
         "isTalk": true,
@@ -1458,6 +1466,7 @@
     "mod": "兑换站",
     "isInformalData": false,
     "name": "",
+    "buildingIconPath": "",
     "firstPlotId": -1,
     "uiPath": "UI/ExchangeStation/ExchangeStation",
     "bgPath": "UI/Dialog/Back/Weapon_Factory3",
@@ -1467,6 +1476,8 @@
     "favorability": false,
     "helpId": -1,
     "rankId": -1,
+    "correspondingActivity": -1,
+    "eventList": [],
     "playerLevel": 0,
     "exchangeOpenPageList": [
       {
@@ -1484,6 +1495,14 @@
         "name": "阿妮塔能源科技",
         "showUI": "Group_Exchange",
         "uiPath": ""
+      },
+      {
+        "icon": "UI/HomeTrade/trade_icon_sell",
+        "isStore": false,
+        "isTalk": false,
+        "name": "素材回收",
+        "showUI": "Group_Sale",
+        "uiPath": "UI/HomeBattleCenter/HomeBattleCenter"
       },
       {
         "icon": "UI/Home/HomeSafe/jiaotan",
@@ -1511,7 +1530,16 @@
     "pagePath": "UI/HomeBattleCenter/Exchange/di",
     "bottomPath": "UI/HomeBattleCenter/Exchange/huangyuan_group_bg",
     "exchangeAffirmPath": "UI/HomeBattleCenter/Exchange/exchange_can",
-    "exchangeCompletePath": "UI/HomeBattleCenter/Exchange/exchange_not"
+    "exchangeCompletePath": "UI/HomeBattleCenter/Exchange/exchange_not",
+    "orderNumMax": 6,
+    "orderNumMin": 4,
+    "activityOrderList": [],
+    "orderTitle": -1,
+    "orderDes": -1,
+    "orderBgPath": "",
+    "levelIconPath": "",
+    "buildLevelName": -1,
+    "constructionLevelList": []
   },
   {
     "id": 84400027,
