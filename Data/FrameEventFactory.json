@@ -23583,34 +23583,13 @@
   {
     "id": 10501456,
     "idCN": "我方/05五星/安菲娅/S召唤bot",
-    "mod": "子弹事件",
+    "mod": "给自己上BUFF",
     "isInformalData": false,
-    "buffId": 10406379,
-    "bulletId": 11200465,
-    "targetType": "CurrentTarget",
-    "offSetX_SN": 0,
-    "offSetZ_SN": 0,
-    "isUseTargetFilter": false,
-    "targetFilterType": "Ally",
-    "targetTagList": [],
-    "tagType": "And",
-    "halfWidth_SN": 0,
-    "attributeType": "HpMax",
-    "condition": "Max",
-    "numberType": "Number",
-    "number_SN": 0,
-    "buffTypeFO": -1,
-    "buffFO": -1,
-    "buffJudgeType": "Greater",
-    "buffLevel": 0,
-    "filterStance": "DeafaultStance",
-    "filterPosition": "DefaultPos",
-    "isAimSelf": false,
-    "targetCount": 0
+    "buffId": 10410955
   },
   {
     "id": 10501609,
-    "idCN": "我方/05五星/安菲娅/bot自杀",
+    "idCN": "我方/05五星/安菲娅/bot设置存活时间",
     "mod": "给自己上BUFF",
     "isInformalData": false,
     "buffId": 10410959
@@ -23980,6 +23959,30 @@
     "targetCount": 0
   },
   {
+    "id": 10502214,
+    "idCN": "我方/05五星/安菲娅/A-1无敌狂暴受击回费",
+    "mod": "添加Buff",
+    "isInformalData": false,
+    "buffId": 10411267,
+    "targetType": "CurrentTarget"
+  },
+  {
+    "id": 10502215,
+    "idCN": "我方/05五星/安菲娅/A-2伤害崩坏昏睡",
+    "mod": "攻击事件",
+    "isInformalData": false,
+    "buffId": 10411268,
+    "hitSoundID": -1
+  },
+  {
+    "id": 10502216,
+    "idCN": "我方/05五星/安菲娅/A-3禁锢循环伤害",
+    "mod": "攻击事件",
+    "isInformalData": false,
+    "buffId": 10411269,
+    "hitSoundID": -1
+  },
+  {
     "id": 10502213,
     "idCN": "爬塔/机械单位/金子小姐/增幅5循环生成子弹",
     "mod": "给自己上BUFF",
@@ -24043,27 +24046,31 @@
     "targetCount": 1
   },
   {
-    "id": 10502216,
-    "idCN": "我方/05五星/安菲娅/A-3禁锢循环伤害",
-    "mod": "攻击事件",
+    "id": 10502217,
+    "idCN": "爬塔/未知/火箭炮台/技能1",
+    "mod": "子弹事件",
     "isInformalData": false,
-    "buffId": 10411269,
-    "hitSoundID": -1
-  },
-  {
-    "id": 10502215,
-    "idCN": "我方/05五星/安菲娅/A-2伤害崩坏昏睡",
-    "mod": "攻击事件",
-    "isInformalData": false,
-    "buffId": 10411268,
-    "hitSoundID": -1
-  },
-  {
-    "id": 10502214,
-    "idCN": "我方/05五星/安菲娅/A-1无敌狂暴受击回费",
-    "mod": "添加Buff",
-    "isInformalData": false,
-    "buffId": 10411267,
-    "targetType": "CurrentTarget"
+    "buffId": 10406379,
+    "bulletId": 11200479,
+    "targetType": "Random",
+    "offSetX_SN": 0,
+    "offSetZ_SN": 0,
+    "isUseTargetFilter": false,
+    "targetFilterType": "Ally",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 0,
+    "attributeType": "HpMax",
+    "condition": "Max",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 0
   }
 ]
