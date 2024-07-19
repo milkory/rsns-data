@@ -3867,11 +3867,12 @@
   },
   {
     "id": 81100018,
-    "idCN": "通用/打开界面/铁安局-七号自由港",
-    "mod": "打开面板",
+    "idCN": "EP1/休息区/返回/点击",
+    "mod": "点击按钮",
     "isInformalData": false,
-    "panelName": "UI/Home/HomeSafe/HomeSafe",
-    "params": "{\"stationId\":83000020,\"npcId\":83700016,\"bgPath\":\"UI/Dialog/Back/RPOC2\", \"autoShowLevel\":1}"
+    "panelName": "UI/Home/BarStore/BarStore",
+    "btnName": "BarStore_Group_CommonTopLeft_Btn_Return_Click",
+    "autoCompletedTime": -1.0
   },
   {
     "id": 81100019,
@@ -3941,12 +3942,20 @@
   },
   {
     "id": 81100023,
-    "idCN": "EP1/铁安局/前往作战/点击-自动完成",
-    "mod": "点击按钮",
+    "idCN": "EP1/休息区/返回/高亮",
+    "mod": "指定UI高亮",
     "isInformalData": false,
-    "panelName": "UI/Home/HomeSafe/HomeSafe",
-    "btnName": "HomeSafe_Group_Level_ScrollGrid_Level_Group_Item_Img_BG_Group_TZ_Btn_QW_Click",
-    "autoCompletedTime": 5.0
+    "uiPath": "UI/Home/BarStore/BarStore",
+    "nodeType": "Fixed",
+    "nodeName": "Group_CommonTopLeft.Btn_Return",
+    "mId": -1,
+    "delay": false,
+    "w": 212.0,
+    "h": 82.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0,
+    "alpha": 0.7,
+    "isShowFinger": true
   },
   {
     "id": 81100024,
@@ -4172,10 +4181,10 @@
   },
   {
     "id": 81100044,
-    "idCN": "EP1/完成任务/子任务-铁安局",
-    "mod": "完成任务",
+    "idCN": "通用/帧事件/休息区/返回",
+    "mod": "等待帧事件触发",
     "isInformalData": false,
-    "questId": 81000714
+    "eventString": "DrinkOut"
   },
   {
     "id": 81100045,

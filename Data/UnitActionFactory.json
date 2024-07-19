@@ -15660,7 +15660,7 @@
     "isCharge": false,
     "isSkill": true,
     "actionLevel": "NormalSkill",
-    "isUseTargetFilter": false,
+    "isUseTargetFilter": true,
     "targetType": "Ally",
     "targetTagList": [
       {
@@ -15681,7 +15681,7 @@
     "filterPosition": "DefaultPos",
     "isAimSelf": false,
     "targetCount": 0,
-    "distance_SN": 240000,
+    "distance_SN": 0,
     "radius_SN": 15000,
     "damageHitBuffList": [],
     "healHitBuffList": [],
@@ -15706,7 +15706,7 @@
     "isCharge": false,
     "isSkill": true,
     "actionLevel": "NormalSkill",
-    "isUseTargetFilter": false,
+    "isUseTargetFilter": true,
     "targetType": "Ally",
     "targetTagList": [
       {
@@ -15727,7 +15727,7 @@
     "filterPosition": "DefaultPos",
     "isAimSelf": false,
     "targetCount": 0,
-    "distance_SN": 240000,
+    "distance_SN": 0,
     "radius_SN": 15000,
     "damageHitBuffList": [],
     "healHitBuffList": [],
@@ -125400,48 +125400,6 @@
     "backShakeFrame": -1
   },
   {
-    "id": 10102357,
-    "idCN": "我方/05五星/安菲娅/bot移动",
-    "mod": "基础动作",
-    "isInformalData": false,
-    "isCharge": false,
-    "isSkill": false,
-    "actionLevel": "Move",
-    "isUseTargetFilter": false,
-    "targetType": "Enemy",
-    "targetTagList": [],
-    "tagType": "And",
-    "halfWidth_SN": 0,
-    "attributeType": "HpMax",
-    "condition": "Max",
-    "numberType": "Number",
-    "number_SN": 0,
-    "buffTypeFO": -1,
-    "buffFO": -1,
-    "buffJudgeType": "Greater",
-    "buffLevel": 0,
-    "filterStance": "DeafaultStance",
-    "filterPosition": "DefaultPos",
-    "isAimSelf": false,
-    "targetCount": 0,
-    "distance_SN": 0,
-    "radius_SN": 0,
-    "damageHitBuffList": [],
-    "healHitBuffList": [],
-    "cdFrame": 91,
-    "isUseBigNumber": false,
-    "stateIdList": [
-      {
-        "bPlayTimes": false,
-        "customDataTag": "",
-        "stateId": 10203510,
-        "timesRate_SN": 10000,
-        "timesSource": "FixedValue"
-      }
-    ],
-    "backShakeFrame": -1
-  },
-  {
     "id": 10103078,
     "idCN": "我方/05五星/安菲娅/S",
     "mod": "基础动作",
@@ -125508,7 +125466,7 @@
     "radius_SN": 0,
     "damageHitBuffList": [],
     "healHitBuffList": [],
-    "cdFrame": 91,
+    "cdFrame": 15,
     "isUseBigNumber": false,
     "stateIdList": [
       {
@@ -125517,9 +125475,6 @@
         "stateId": 10203508,
         "timesRate_SN": 10000,
         "timesSource": "FixedValue"
-      },
-      {
-        "stateId": 10203516
       }
     ],
     "backShakeFrame": -1
@@ -125833,7 +125788,7 @@
     "radius_SN": 0,
     "damageHitBuffList": [],
     "healHitBuffList": [],
-    "cdFrame": 80,
+    "cdFrame": 120,
     "isUseBigNumber": false,
     "stateIdList": [
       {
@@ -125875,7 +125830,7 @@
     "radius_SN": 0,
     "damageHitBuffList": [],
     "healHitBuffList": [],
-    "cdFrame": 90,
+    "cdFrame": 252,
     "isUseBigNumber": false,
     "stateIdList": [
       {
@@ -125884,6 +125839,20 @@
         "stateId": 10203538,
         "timesRate_SN": 10000,
         "timesSource": "CurrentHp"
+      },
+      {
+        "bPlayTimes": false,
+        "customDataTag": "",
+        "stateId": 10203580,
+        "timesRate_SN": 10000,
+        "timesSource": "FixedValue"
+      },
+      {
+        "bPlayTimes": false,
+        "customDataTag": "",
+        "stateId": 10203581,
+        "timesRate_SN": 10000,
+        "timesSource": "FixedValue"
       }
     ],
     "backShakeFrame": -1
@@ -125917,7 +125886,7 @@
     "radius_SN": 0,
     "damageHitBuffList": [],
     "healHitBuffList": [],
-    "cdFrame": 90,
+    "cdFrame": 140,
     "isUseBigNumber": false,
     "stateIdList": [
       {
@@ -125959,7 +125928,7 @@
     "radius_SN": 0,
     "damageHitBuffList": [],
     "healHitBuffList": [],
-    "cdFrame": 280,
+    "cdFrame": 204,
     "isUseBigNumber": false,
     "stateIdList": [
       {
@@ -126001,7 +125970,7 @@
     "radius_SN": 0,
     "damageHitBuffList": [],
     "healHitBuffList": [],
-    "cdFrame": 80,
+    "cdFrame": 120,
     "isUseBigNumber": false,
     "stateIdList": [
       {
@@ -126043,7 +126012,7 @@
     "radius_SN": 0,
     "damageHitBuffList": [],
     "healHitBuffList": [],
-    "cdFrame": 32,
+    "cdFrame": 80,
     "isUseBigNumber": false,
     "stateIdList": [
       {
@@ -126085,7 +126054,7 @@
     "radius_SN": 0,
     "damageHitBuffList": [],
     "healHitBuffList": [],
-    "cdFrame": 80,
+    "cdFrame": 160,
     "isUseBigNumber": false,
     "stateIdList": [
       {
@@ -126127,7 +126096,7 @@
     "radius_SN": 0,
     "damageHitBuffList": [],
     "healHitBuffList": [],
-    "cdFrame": 88,
+    "cdFrame": 120,
     "isUseBigNumber": false,
     "stateIdList": [
       {
@@ -126169,7 +126138,7 @@
     "radius_SN": 0,
     "damageHitBuffList": [],
     "healHitBuffList": [],
-    "cdFrame": 88,
+    "cdFrame": 116,
     "isUseBigNumber": false,
     "stateIdList": [
       {
@@ -126211,7 +126180,7 @@
     "radius_SN": 0,
     "damageHitBuffList": [],
     "healHitBuffList": [],
-    "cdFrame": 90,
+    "cdFrame": 120,
     "isUseBigNumber": false,
     "stateIdList": [
       {
@@ -126375,7 +126344,7 @@
     "filterPosition": "DefaultPos",
     "isAimSelf": false,
     "targetCount": 0,
-    "distance_SN": 35000,
+    "distance_SN": 55000,
     "radius_SN": 0,
     "damageHitBuffList": [],
     "healHitBuffList": [],
@@ -126417,7 +126386,7 @@
     "filterPosition": "DefaultPos",
     "isAimSelf": false,
     "targetCount": 0,
-    "distance_SN": 35000,
+    "distance_SN": 55000,
     "radius_SN": 0,
     "damageHitBuffList": [],
     "healHitBuffList": [],
@@ -126886,7 +126855,7 @@
   },
   {
     "id": 10103132,
-    "idCN": "爬塔/未知/火箭炮台/站立",
+    "idCN": "爬塔/未知/自走哨戒炮/站立",
     "mod": "基础动作",
     "isInformalData": false,
     "isCharge": false,
@@ -126928,7 +126897,7 @@
   },
   {
     "id": 10103133,
-    "idCN": "爬塔/未知/火箭炮台/昏迷",
+    "idCN": "爬塔/未知/自走哨戒炮/昏迷",
     "mod": "基础动作",
     "isInformalData": false,
     "isCharge": false,
@@ -126970,7 +126939,7 @@
   },
   {
     "id": 10103134,
-    "idCN": "爬塔/未知/火箭炮台/技能1",
+    "idCN": "爬塔/未知/自走哨戒炮/技能1",
     "mod": "基础动作",
     "isInformalData": false,
     "isCharge": false,
@@ -127012,7 +126981,7 @@
   },
   {
     "id": 10103135,
-    "idCN": "爬塔/未知/火箭炮台/受击1",
+    "idCN": "爬塔/未知/自走哨戒炮/受击1",
     "mod": "基础动作",
     "isInformalData": false,
     "isCharge": false,
@@ -127054,7 +127023,7 @@
   },
   {
     "id": 10103136,
-    "idCN": "爬塔/未知/火箭炮台/受击2",
+    "idCN": "爬塔/未知/自走哨戒炮/受击2",
     "mod": "基础动作",
     "isInformalData": false,
     "isCharge": false,
@@ -127096,7 +127065,7 @@
   },
   {
     "id": 10103137,
-    "idCN": "爬塔/未知/火箭炮台/死亡",
+    "idCN": "爬塔/未知/自走哨戒炮/死亡",
     "mod": "基础动作",
     "isInformalData": false,
     "isCharge": false,
@@ -127132,6 +127101,363 @@
         "stateId": 10203571,
         "timesRate_SN": 10000,
         "timesSource": "CurrentHp"
+      }
+    ],
+    "backShakeFrame": -1
+  },
+  {
+    "id": 10103138,
+    "idCN": "爬塔/未知/自走哨戒炮/增幅5技能1",
+    "mod": "基础动作",
+    "isInformalData": false,
+    "isCharge": false,
+    "isSkill": true,
+    "actionLevel": "NormalSkill",
+    "isUseTargetFilter": true,
+    "targetType": "Enemy",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 990000,
+    "attributeType": "HpMax",
+    "condition": "All",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 99,
+    "distance_SN": 240000,
+    "radius_SN": 0,
+    "damageHitBuffList": [],
+    "healHitBuffList": [],
+    "cdFrame": 140,
+    "isUseBigNumber": false,
+    "stateIdList": [
+      {
+        "bPlayTimes": false,
+        "customDataTag": "",
+        "stateId": 10203572,
+        "timesRate_SN": 10000,
+        "timesSource": "FixedValue"
+      }
+    ],
+    "backShakeFrame": -1
+  },
+  {
+    "id": 10103131,
+    "idCN": "我方/05五星/安菲娅/bot站立",
+    "mod": "基础动作",
+    "isInformalData": false,
+    "isCharge": false,
+    "isSkill": false,
+    "actionLevel": "Stand",
+    "isUseTargetFilter": false,
+    "targetType": "Enemy",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 0,
+    "attributeType": "HpMax",
+    "condition": "Max",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 0,
+    "distance_SN": 0,
+    "radius_SN": 0,
+    "damageHitBuffList": [],
+    "healHitBuffList": [],
+    "cdFrame": 91,
+    "isUseBigNumber": false,
+    "stateIdList": [
+      {
+        "bPlayTimes": false,
+        "customDataTag": "",
+        "stateId": 10203554,
+        "timesRate_SN": 10000,
+        "timesSource": "FixedValue"
+      }
+    ],
+    "backShakeFrame": -1
+  },
+  {
+    "id": 10103139,
+    "idCN": "敌方/000角色/园丁/叶珏/A",
+    "mod": "基础动作",
+    "isInformalData": false,
+    "isCharge": false,
+    "isSkill": true,
+    "actionLevel": "NormalSkill",
+    "isUseTargetFilter": false,
+    "targetType": "Enemy",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 0,
+    "attributeType": "HpMax",
+    "condition": "All",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 0,
+    "distance_SN": 200000,
+    "radius_SN": 0,
+    "damageHitBuffList": [],
+    "healHitBuffList": [],
+    "cdFrame": 104,
+    "isUseBigNumber": false,
+    "stateIdList": [
+      {
+        "bPlayTimes": true,
+        "customDataTag": "B",
+        "stateId": 10203565,
+        "timesRate_SN": 10000,
+        "timesSource": "CustomData"
+      },
+      {
+        "bPlayTimes": false,
+        "customDataTag": "",
+        "stateId": 10203565,
+        "timesRate_SN": 10000,
+        "timesSource": "FixedValue"
+      }
+    ],
+    "backShakeFrame": 30
+  },
+  {
+    "id": 10103140,
+    "idCN": "敌方/000角色/园丁/叶珏/A共振5",
+    "mod": "基础动作",
+    "isInformalData": false,
+    "isCharge": false,
+    "isSkill": true,
+    "actionLevel": "NormalSkill",
+    "isUseTargetFilter": false,
+    "targetType": "Enemy",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 0,
+    "attributeType": "HpMax",
+    "condition": "All",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 0,
+    "distance_SN": 200000,
+    "radius_SN": 0,
+    "damageHitBuffList": [],
+    "healHitBuffList": [],
+    "cdFrame": 104,
+    "isUseBigNumber": false,
+    "stateIdList": [
+      {
+        "bPlayTimes": true,
+        "customDataTag": "B",
+        "stateId": 10203573,
+        "timesRate_SN": 10000,
+        "timesSource": "CustomData"
+      },
+      {
+        "bPlayTimes": false,
+        "customDataTag": "",
+        "stateId": 10203573,
+        "timesRate_SN": 10000,
+        "timesSource": "FixedValue"
+      }
+    ],
+    "backShakeFrame": 30
+  },
+  {
+    "id": 10103141,
+    "idCN": "敌方/000角色/园丁/叶珏/B",
+    "mod": "基础动作",
+    "isInformalData": false,
+    "isCharge": false,
+    "isSkill": true,
+    "actionLevel": "NormalSkill",
+    "isUseTargetFilter": true,
+    "targetType": "OnlyTeam2",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 120000,
+    "attributeType": "HpMax",
+    "condition": "All",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 1,
+    "distance_SN": 120000,
+    "radius_SN": 120000,
+    "damageHitBuffList": [],
+    "healHitBuffList": [],
+    "cdFrame": 121,
+    "isUseBigNumber": false,
+    "stateIdList": [
+      {
+        "bPlayTimes": false,
+        "customDataTag": "",
+        "stateId": 10203574,
+        "timesRate_SN": 10000,
+        "timesSource": "FixedValue"
+      }
+    ],
+    "backShakeFrame": 30
+  },
+  {
+    "id": 10103142,
+    "idCN": "敌方/000角色/园丁/叶珏/B共振4",
+    "mod": "基础动作",
+    "isInformalData": false,
+    "isCharge": false,
+    "isSkill": true,
+    "actionLevel": "NormalSkill",
+    "isUseTargetFilter": true,
+    "targetType": "OnlyTeam2",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 120000,
+    "attributeType": "HpMax",
+    "condition": "All",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 1,
+    "distance_SN": 120000,
+    "radius_SN": 120000,
+    "damageHitBuffList": [],
+    "healHitBuffList": [],
+    "cdFrame": 121,
+    "isUseBigNumber": false,
+    "stateIdList": [
+      {
+        "bPlayTimes": false,
+        "customDataTag": "",
+        "stateId": 10203575,
+        "timesRate_SN": 10000,
+        "timesSource": "FixedValue"
+      }
+    ],
+    "backShakeFrame": 30
+  },
+  {
+    "id": 10103143,
+    "idCN": "敌方/000角色/园丁/叶珏/S",
+    "mod": "基础动作",
+    "isInformalData": false,
+    "isCharge": false,
+    "isSkill": true,
+    "actionLevel": "SpecialSkill",
+    "isUseTargetFilter": true,
+    "targetType": "Every",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 240000,
+    "attributeType": "HpMax",
+    "condition": "All",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 60,
+    "distance_SN": 0,
+    "radius_SN": 240000,
+    "damageHitBuffList": [],
+    "healHitBuffList": [],
+    "cdFrame": 314,
+    "isUseBigNumber": false,
+    "stateIdList": [
+      {
+        "bPlayTimes": false,
+        "customDataTag": "",
+        "stateId": 10203576,
+        "timesRate_SN": 10000,
+        "timesSource": "FixedValue"
+      },
+      {
+        "bPlayTimes": false,
+        "customDataTag": "",
+        "stateId": 10203577,
+        "timesRate_SN": 10000,
+        "timesSource": "FixedValue"
+      }
+    ],
+    "backShakeFrame": 50
+  },
+  {
+    "id": 10103144,
+    "idCN": "敌方/000角色/园丁/叶珏/普攻1",
+    "mod": "基础动作",
+    "isInformalData": false,
+    "isCharge": false,
+    "isSkill": false,
+    "actionLevel": "NormalAttack",
+    "isUseTargetFilter": false,
+    "targetType": "Enemy",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 0,
+    "attributeType": "HpMax",
+    "condition": "All",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 0,
+    "distance_SN": 75000,
+    "radius_SN": 0,
+    "damageHitBuffList": [],
+    "healHitBuffList": [],
+    "cdFrame": 90,
+    "isUseBigNumber": false,
+    "stateIdList": [
+      {
+        "bPlayTimes": false,
+        "customDataTag": "",
+        "stateId": 10203578,
+        "timesRate_SN": 10000,
+        "timesSource": "FixedValue"
       }
     ],
     "backShakeFrame": -1

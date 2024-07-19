@@ -50594,20 +50594,44 @@
     "mod": "基础任务",
     "isInformalData": false,
     "name": "随便逛逛",
+    "describe": "依照指示在修格里城随便逛逛",
     "story": "在修格里城随便逛逛。",
-    "describe": "在修格里城随便逛逛",
+    "questType": "Main",
+    "sort": 0,
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
-    "questType": "Main",
-    "sort": 0,
+    "isAnecdote": false,
+    "client": 82600002,
+    "startStation": 83000001,
+    "endStationList": [
+      {
+        "id": 83000001,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": false,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      }
+    ],
     "isSwitchUI": false,
     "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
     "conditionList": [],
     "num": 3,
     "islockAddProgress": false,
     "isAutoComplete": true,
     "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
     "parentQuest": -1,
     "childQuestList": [
       {
@@ -50626,14 +50650,6 @@
         "num": 50
       }
     ],
-    "startStation": 83000001,
-    "endStationList": [
-      {
-        "id": 83000001,
-        "weight": 10
-      }
-    ],
-    "client": 82600002,
     "nextQuest": [
       {
         "id": 81000014
@@ -50650,14 +50666,6 @@
     "isOverwriteEvent": false,
     "eventList": [],
     "environmentList": [],
-    "traceList": [
-      {
-        "apiListId": 86500038,
-        "btnListId": 86500036,
-        "traceId": 86500029,
-        "uiPath": "UI/MainUI/MainUI"
-      }
-    ],
     "isTime": false,
     "startTime": "",
     "endTime": "",
@@ -51421,7 +51429,7 @@
     "switchUI": "",
     "preQuestId": -1,
     "preLv": 1,
-    "startLevel": 0,
+    "startLevel": 28,
     "conditionList": [
       {
         "key": "dialog",
@@ -61434,7 +61442,7 @@
     "switchUI": "",
     "preQuestId": -1,
     "preLv": 1,
-    "startLevel": 28,
+    "startLevel": 0,
     "conditionList": [],
     "num": 4,
     "islockAddProgress": false,

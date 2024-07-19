@@ -16839,7 +16839,7 @@
     "actionList": [],
     "normalAttackCritID": -1,
     "skillList": [],
-    "isInvisibleBeforeShowUp": true,
+    "isInvisibleBeforeShowUp": false,
     "showupSkillList": [
       {
         "actionId": 10103077
@@ -17091,7 +17091,11 @@
     "normalAttackCritID": -1,
     "skillList": [],
     "isInvisibleBeforeShowUp": true,
-    "showupSkillList": [],
+    "showupSkillList": [
+      {
+        "actionId": 10103111
+      }
+    ],
     "skillLoopDelayFrame": 360,
     "shapeShiftList": [],
     "commandList": [],
@@ -17105,7 +17109,7 @@
   },
   {
     "id": 10300431,
-    "idCN": "爬塔/未知/火箭炮台",
+    "idCN": "爬塔/机械单位/自走哨戒炮",
     "mod": "基础AI",
     "isInformalData": false,
     "targetInvisibleEffectId": 11102488,
@@ -17117,19 +17121,72 @@
       {
         "actionId": 10103134,
         "activeFrame": 120,
-        "activeTime": 1.0,
+        "activeTime": 2.0,
         "rangeSN": 240000
       }
     ],
     "isInvisibleBeforeShowUp": false,
     "showupSkillList": [],
-    "skillLoopDelayFrame": 740,
+    "skillLoopDelayFrame": 1380,
     "shapeShiftList": [],
     "commandList": [],
     "enemySkillList": [],
     "isUseEnergy": false,
     "energySkillList": [],
     "energyRestorePerFrameSN": 0,
+    "isSkillDelay": true,
+    "minDelay": 180,
+    "maxDelay": 180
+  },
+  {
+    "id": 10300430,
+    "idCN": "敌方/000角色/园丁/叶珏",
+    "mod": "基础AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10103144
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10103139,
+        "activeFrame": 270,
+        "activeTime": 1.0,
+        "rangeSN": 240000
+      },
+      {
+        "actionId": 10103139,
+        "activeFrame": 880,
+        "activeTime": 14.6667,
+        "rangeSN": 240000
+      },
+      {
+        "actionId": 10103141,
+        "activeFrame": 1320,
+        "activeTime": 22.0,
+        "rangeSN": 240000
+      }
+    ],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [],
+    "skillLoopDelayFrame": 360,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": true,
+    "energySkillList": [
+      {
+        "actionId": 10103143,
+        "isClearEnergy": true,
+        "rangeSN": 240000
+      }
+    ],
+    "energyRestorePerFrameSN": 370,
     "isSkillDelay": false,
     "minDelay": 120,
     "maxDelay": 360
