@@ -1546,7 +1546,7 @@
     "isInformalData": false,
     "debug": false,
     "memo": "检测卡牌使用者上是否有传入的buff。\r全都没有返回true",
-    "paramHelp": "buff0\rbuff1\rbuff2\rbuff3\rbuff4\rbuff5",
+    "paramHelp": "",
     "returnType": "bool",
     "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rgetp currentCore\rset $core\r\rif\r\tget $core currentCard\r\tset $card\r\tif\r\t\tgetp owner\r\t\tset $owner\r\t\tif\r\t\t\tgetp buffSystem\r\t\t\tset $buffSystem\r\t\t\tcgf GetSpecialLink \"CardViewBanUse\"\r            set $buffLink\r\t\t\tif\r                get $buffLink count\r                set $buffCount\r                if $buffCount gt 0\r\t\t\t\t\tret $false\r                endif\r\t\t\tendif\r\t\tendif\r\tendif\rendif\r\rret $true"
   },
@@ -1557,7 +1557,7 @@
     "isInformalData": false,
     "debug": false,
     "memo": "检测卡牌上是否有传入的buff。\r全都没有返回true",
-    "paramHelp": "buff0\rbuff1\rbuff2\rbuff3\rbuff4\rbuff5",
+    "paramHelp": "",
     "returnType": "bool",
     "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rgetp currentCore\rset $core\r\rif\r\tget $core currentCard\r\tset $card\r\tif\r\t\tgetp cardProperty\r\t\tset $property\r\t\tif\r\t\t\tgetp buffSystem\r\t\t\tset $buffSystem\r\t\t\tcgf GetSpecialLink \"CardViewBanUse\"\r            set $buffLink\r\t\t\tif\r                get $buffLink count\r                set $buffCount\r                if $buffCount gt 0\r\t\t\t\t\tret $false\r                endif\r\t\t\tendif\r\t\tendif\r\tendif\rendif\r\rret $true"
   },
@@ -1594,5 +1594,27 @@
     "paramHelp": "",
     "returnType": "int",
     "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rgetp rtUnitList\rset $rtUnitList\r\rif\r\tget $rtUnitList Count\r\tset $count\r\tfor $i 1 $count \r\t\tsub $count $i\r\t\tset $idx\r\t\tget $rtUnitList $idx\r\t\tset $curUnit\r\t\tgetp isCantBeHit\r\t\tset $isCantBeHit\r\r\t\tif \r\t\t\tcallWith $rtUnitList Remove $curUnit\r\t\tendif\r\tendfor\rendif\r\rret $true"
+  },
+  {
+    "id": 60000134,
+    "idCN": "LUA/拉面店/等级限制",
+    "mod": "执行LUA脚本",
+    "isInformalData": false,
+    "debug": false,
+    "memo": "玩家等级达到进入店铺的要求",
+    "paramHelp": "店铺id",
+    "returnType": "bool",
+    "script": "local stationPlace = PlayerData:GetFactoryData($param0, \"HomeStationPlaceFactory\")\rreturn PlayerData:GetUserInfo().lv < stationPlace.levelOpen"
+  },
+  {
+    "id": 60000135,
+    "idCN": "LUA/拉面店/等级不足文本提示",
+    "mod": "执行LUA脚本",
+    "isInformalData": false,
+    "debug": false,
+    "memo": "等级不足提示",
+    "paramHelp": "店铺id",
+    "returnType": "bool",
+    "script": "local stationPlace = PlayerData:GetFactoryData($param0, \"HomeStationPlaceFactory\")\rCommonTips.OpenTips(string.format(GetText(stationPlace.lockedTip), stationPlace.levelOpen))"
   }
 ]

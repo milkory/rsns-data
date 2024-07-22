@@ -23545,14 +23545,15 @@
     "idCN": "我方/05五星/安菲娅/S召唤bot",
     "mod": "给自己上BUFF",
     "isInformalData": false,
-    "buffId": 10410955
+    "buffId": 10411412
   },
   {
     "id": 10501609,
-    "idCN": "我方/05五星/安菲娅/bot设置存活时间",
-    "mod": "给自己上BUFF",
+    "idCN": "我方/05五星/安菲娅/A-3伤害",
+    "mod": "攻击事件",
     "isInformalData": false,
-    "buffId": 10411287
+    "buffId": 10411270,
+    "hitSoundID": -1
   },
   {
     "id": 10502140,
@@ -23956,10 +23957,10 @@
   },
   {
     "id": 10502216,
-    "idCN": "我方/05五星/安菲娅/A-3禁锢循环伤害",
+    "idCN": "我方/05五星/安菲娅/A-3禁锢",
     "mod": "攻击事件",
     "isInformalData": false,
-    "buffId": 10411269,
+    "buffId": 10404637,
     "hitSoundID": -1
   },
   {
@@ -24342,6 +24343,100 @@
     "mod": "添加Buff",
     "isInformalData": false,
     "buffId": 10411403,
+    "targetType": "OneEach"
+  },
+  {
+    "id": 10502235,
+    "idCN": "敌方/06深眠者/深眠者柯娜/普攻1",
+    "mod": "攻击事件",
+    "isInformalData": false,
+    "buffId": 10411425,
+    "hitSoundID": -1
+  },
+  {
+    "id": 10502236,
+    "idCN": "敌方/06深眠者/深眠者柯娜/普攻2",
+    "mod": "子弹事件",
+    "isInformalData": false,
+    "buffId": 10411429,
+    "bulletId": 11200480,
+    "targetType": "Random",
+    "offSetX_SN": 0,
+    "offSetZ_SN": 0,
+    "isUseTargetFilter": false,
+    "targetFilterType": "Ally",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 0,
+    "attributeType": "HpMax",
+    "condition": "Max",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 0
+  },
+  {
+    "id": 10502237,
+    "idCN": "敌方/06深眠者/深眠者柯娜/技能1",
+    "mod": "子弹事件",
+    "isInformalData": false,
+    "buffId": 10411430,
+    "bulletId": 11200481,
+    "targetType": "CurrentTarget",
+    "offSetX_SN": 0,
+    "offSetZ_SN": 0,
+    "isUseTargetFilter": false,
+    "targetFilterType": "Ally",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 0,
+    "attributeType": "HpMax",
+    "condition": "Max",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 0
+  },
+  {
+    "id": 10502239,
+    "idCN": "敌方/06深眠者/深眠者柯娜/技能1延迟生效",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10411437
+  },
+  {
+    "id": 10502233,
+    "idCN": "我方/05五星/安菲娅/bot出场",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10411404
+  },
+  {
+    "id": 10502234,
+    "idCN": "我方/05五星/安菲娅/bot死亡爆炸",
+    "mod": "攻击事件",
+    "isInformalData": false,
+    "buffId": 10411410,
+    "hitSoundID": -1
+  },
+  {
+    "id": 10502238,
+    "idCN": "我方/05五星/安菲娅/bot召回敌方",
+    "mod": "添加Buff",
+    "isInformalData": false,
+    "buffId": 10410968,
     "targetType": "OneEach"
   }
 ]

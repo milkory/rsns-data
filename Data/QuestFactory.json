@@ -913,18 +913,19 @@
   },
   {
     "id": 81000022,
-    "idCN": "主线/EP5/4-10-对话-只能改对话",
+    "idCN": "主线/EP5/5-01-临时",
     "mod": "基础任务",
     "isInformalData": false,
-    "name": "未完待续",
-    "describe": "",
-    "story": "",
+    "name": "5-1",
+    "describe": "数据中心铁安局",
+    "story": "列车长与妮蔻拉一同来到铁安局解决了冤罪事件，并且就柯娜失踪的事情进行商谈，海因里希前来问候列车长，并且告诉了列车长一些内情。",
     "questType": "Main",
     "sort": 0,
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
-    "client": 82600003,
+    "isAnecdote": false,
+    "client": 82600293,
     "startStation": 83000029,
     "endStationList": [
       {
@@ -950,6 +951,7 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -962,17 +964,19 @@
     "isAutoComplete": false,
     "checkComplete": false,
     "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
     "parentQuest": -1,
     "childQuestList": [],
     "rewardsList": [
       {
-        "id": 11400005,
+        "id": 11400001,
         "num": 50
       }
     ],
     "nextQuest": [
       {
-        "id": 81001197
+        "id": 81000163
       }
     ],
     "changeCityStateList": [],
@@ -1093,8 +1097,8 @@
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
-    "isSwitchUI": false,
-    "switchUI": "",
+    "isAnecdote": false,
+    "client": 82600018,
     "startStation": 83000053,
     "endStationList": [
       {
@@ -1102,7 +1106,7 @@
         "weight": 10
       }
     ],
-    "client": 82600018,
+    "isAutoTrace": false,
     "traceList": [
       {
         "apiListId": 86500038,
@@ -1111,7 +1115,10 @@
         "uiPath": "UI/MainUI/MainUI"
       }
     ],
+    "isSwitchUI": false,
+    "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -1123,6 +1130,9 @@
     "islockAddProgress": false,
     "isAutoComplete": true,
     "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
     "parentQuest": -1,
     "childQuestList": [],
     "rewardsList": [
@@ -1418,8 +1428,8 @@
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
-    "isSwitchUI": false,
-    "switchUI": "",
+    "isAnecdote": false,
+    "client": 82600002,
     "startStation": 83000053,
     "endStationList": [
       {
@@ -1427,7 +1437,7 @@
         "weight": 10
       }
     ],
-    "client": 82600002,
+    "isAutoTrace": false,
     "traceList": [
       {
         "apiListId": 86500038,
@@ -1442,7 +1452,10 @@
         "uiPath": "UI/CityMap/CityMap"
       }
     ],
+    "isSwitchUI": false,
+    "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -1454,6 +1467,9 @@
     "islockAddProgress": false,
     "isAutoComplete": false,
     "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
     "parentQuest": -1,
     "childQuestList": [],
     "rewardsList": [
@@ -20813,15 +20829,24 @@
     "mod": "基础任务",
     "isInformalData": false,
     "name": "诡谲寒潮",
-    "story": "桦树生物的活动严重扰乱了修格里城周遭的气象，唯有查明问题的源头才能阻止灾害进一步扩大。这就前往修格里城至七号自由港路段中的观测站附近探查一番吧！",
     "describe": "前往寻找寒潮浮囊体",
+    "story": "桦树生物的活动严重扰乱了修格里城周遭的气象，唯有查明问题的源头才能阻止灾害进一步扩大。这就前往修格里城至七号自由港路段中的观测站附近探查一番吧！",
+    "questType": "Side",
+    "sort": 5,
     "isShowProgress": false,
     "isShowUnlock": true,
     "isShowAchieveProgress": false,
-    "questType": "Side",
-    "sort": 5,
+    "isAnecdote": false,
+    "client": 82600304,
+    "startStation": 83000001,
+    "endStationList": [],
+    "isAutoTrace": false,
+    "traceList": [],
     "isSwitchUI": true,
     "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
     "conditionList": [
       {
         "key": "levelId",
@@ -20832,6 +20857,9 @@
     "islockAddProgress": false,
     "isAutoComplete": true,
     "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
     "parentQuest": -1,
     "childQuestList": [],
     "rewardsList": [
@@ -20848,20 +20876,21 @@
         "num": 20000
       }
     ],
-    "startStation": 83000001,
-    "endStationList": [],
-    "client": 82600304,
     "nextQuest": [
       {
         "id": 81000663
       }
     ],
     "changeCityStateList": [],
+    "mailList": [],
     "isEvent": false,
     "isOverwriteEvent": false,
     "eventList": [],
     "environmentList": [],
-    "traceList": []
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
   },
   {
     "id": 81000473,
@@ -28326,15 +28355,48 @@
     "mod": "基础任务",
     "isInformalData": false,
     "name": "必要的考核",
-    "story": "完成申请铁盟治安协力资格证所需的全部考核。",
     "describe": "考取铁盟治安协力资格证",
+    "story": "完成申请铁盟治安协力资格证所需的全部考核。",
+    "questType": "Main",
+    "sort": 0,
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
-    "questType": "Main",
-    "sort": 0,
+    "isAnecdote": false,
+    "client": 82600002,
+    "startStation": 83000020,
+    "endStationList": [
+      {
+        "id": 83000020,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": false,
+    "traceList": [
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500033,
+        "uiPath": "UI/CityMap/CityMap"
+      },
+      {
+        "apiListId": 86500039,
+        "btnListId": -1,
+        "traceId": 86500023,
+        "uiPath": "UI/Home/HomeSafe/HomeSafe"
+      }
+    ],
     "isSwitchUI": false,
     "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
     "conditionList": [
       {
         "key": "levelId",
@@ -28345,16 +28407,19 @@
     "islockAddProgress": false,
     "isAutoComplete": true,
     "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
     "parentQuest": -1,
     "childQuestList": [],
     "rewardsList": [
       {
         "id": 11400005,
-        "num": 100
+        "num": 50
       },
       {
         "id": 11400056,
-        "num": 100
+        "num": 50
       },
       {
         "id": 11400049,
@@ -28365,14 +28430,6 @@
         "num": 1
       }
     ],
-    "startStation": 83000020,
-    "endStationList": [
-      {
-        "id": 83000020,
-        "weight": 10
-      }
-    ],
-    "client": 82600002,
     "nextQuest": [
       {
         "id": 81000001
@@ -28396,26 +28453,6 @@
       {
         "idLine": 82700055,
         "idMsg": 90500018
-      }
-    ],
-    "traceList": [
-      {
-        "apiListId": -1,
-        "btnListId": -1,
-        "traceId": 86500029,
-        "uiPath": "UI/MainUI/MainUI"
-      },
-      {
-        "apiListId": -1,
-        "btnListId": -1,
-        "traceId": 86500033,
-        "uiPath": "UI/CityMap/CityMap"
-      },
-      {
-        "apiListId": 86500039,
-        "btnListId": -1,
-        "traceId": 86500023,
-        "uiPath": "UI/Home/HomeSafe/HomeSafe"
       }
     ],
     "isTime": false,
@@ -49885,6 +49922,7 @@
     "isShowProgress": true,
     "isShowUnlock": true,
     "isShowAchieveProgress": false,
+    "isAnecdote": false,
     "client": 82600174,
     "startStation": 83000001,
     "endStationList": [
@@ -49893,6 +49931,7 @@
         "weight": 10
       }
     ],
+    "isAutoTrace": false,
     "traceList": [
       {
         "apiListId": 86500038,
@@ -49916,6 +49955,7 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -49932,13 +49972,11 @@
     "isAutoComplete": true,
     "checkComplete": false,
     "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
     "parentQuest": -1,
     "childQuestList": [],
     "rewardsList": [
-      {
-        "id": 11400005,
-        "num": 50
-      },
       {
         "id": 85000002,
         "num": 1
@@ -62064,7 +62102,7 @@
   },
   {
     "id": 81001203,
-    "idCN": "主线/EP5/5-01",
+    "idCN": "主线/EP5/5-01-正式",
     "mod": "基础任务",
     "isInformalData": false,
     "name": "未完待续",
@@ -79836,6 +79874,1396 @@
         "num": 50
       }
     ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81000163,
+    "idCN": "主线/EP5/5-02",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "5-02",
+    "describe": "数据中心城内",
+    "story": "列车长与众人汇合，大家打算分头寻找柯娜的下落，妮蔻拉去解决反制力场，列车长前往荒原站调查海因里希所说的事情。",
+    "questType": "Main",
+    "sort": 0,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "client": 82600293,
+    "startStation": 83000029,
+    "endStationList": [
+      {
+        "id": 83000029,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": false,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500066,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "dialog",
+        "val": "0"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400001,
+        "num": 50
+      }
+    ],
+    "nextQuest": [
+      {
+        "id": 81000309
+      },
+      {
+        "id": 81000965
+      }
+    ],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81000309,
+    "idCN": "主线/EP5/5-03-父任务-战斗",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "5-03",
+    "describe": "荒原站",
+    "story": "大家在思考事情的可疑之处。",
+    "questType": "Main",
+    "sort": 0,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "client": 82600293,
+    "startStation": 83000029,
+    "endStationList": [
+      {
+        "id": 83000029,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": false,
+    "traceList": [],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
+    "conditionList": [],
+    "num": 5,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "parentQuest": -1,
+    "childQuestList": [
+      {
+        "id": 81000965
+      },
+      {
+        "id": 81000966
+      },
+      {
+        "id": 81000967
+      },
+      {
+        "id": 81000968
+      },
+      {
+        "id": 81000969
+      }
+    ],
+    "rewardsList": [
+      {
+        "id": 11400001,
+        "num": 50
+      }
+    ],
+    "nextQuest": [
+      {
+        "id": 81000310
+      }
+    ],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81000310,
+    "idCN": "主线/EP5/5-04",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "5-04",
+    "describe": "荒原站",
+    "story": "在安菲娅的建议下，大家前往阿妮塔发射中心。",
+    "questType": "Main",
+    "sort": 0,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "client": 82600293,
+    "startStation": 83000029,
+    "endStationList": [
+      {
+        "id": 83000029,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": false,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500066,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "dialog",
+        "val": "0"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400001,
+        "num": 50
+      }
+    ],
+    "nextQuest": [
+      {
+        "id": 81000311
+      }
+    ],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81000311,
+    "idCN": "主线/EP5/5-05",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "5-05",
+    "describe": "战备工厂车站",
+    "story": "大家来到发射中心，得知了关于费尔德里奇号的过往。",
+    "questType": "Main",
+    "sort": 0,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "client": 82600293,
+    "startStation": 83000029,
+    "endStationList": [
+      {
+        "id": 83000029,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": false,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500066,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "dialog",
+        "val": "0"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400001,
+        "num": 50
+      }
+    ],
+    "nextQuest": [
+      {
+        "id": 81000312
+      }
+    ],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81000312,
+    "idCN": "主线/EP5/5-06-战斗",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "5-06",
+    "describe": "战备工厂车站",
+    "story": "抵达战备工厂。",
+    "questType": "Main",
+    "sort": 0,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "client": 82600293,
+    "startStation": 83000029,
+    "endStationList": [
+      {
+        "id": 83000029,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": false,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500066,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "dialog",
+        "val": "0"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400001,
+        "num": 50
+      }
+    ],
+    "nextQuest": [
+      {
+        "id": 81000313
+      }
+    ],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81000313,
+    "idCN": "主线/EP5/5-07-战斗",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "5-07",
+    "describe": "战备工厂城内",
+    "story": "列车长发觉安菲娅对武器军火也很有造诣，于是又询问了对方一些关于摆渡船的知识。安菲娅表示这方面卡莱雅更专业，打算带大家走时，收到了铁盟的联络。",
+    "questType": "Main",
+    "sort": 0,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "client": 82600293,
+    "startStation": 83000029,
+    "endStationList": [
+      {
+        "id": 83000029,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": false,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500066,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "dialog",
+        "val": "0"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400001,
+        "num": 50
+      }
+    ],
+    "nextQuest": [
+      {
+        "id": 81000314
+      }
+    ],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81000314,
+    "idCN": "主线/EP5/5-08",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "5-08",
+    "describe": "战备工厂城内",
+    "story": "伊利亚德解释了来意以及自己此前被故意调走的事情，指出事件背后有人谋划。",
+    "questType": "Main",
+    "sort": 0,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "client": 82600293,
+    "startStation": 83000029,
+    "endStationList": [
+      {
+        "id": 83000029,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": false,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500066,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "dialog",
+        "val": "0"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400001,
+        "num": 50
+      }
+    ],
+    "nextQuest": [
+      {
+        "id": 81000315
+      }
+    ],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81000315,
+    "idCN": "主线/EP5/5-09-战斗",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "5-09",
+    "describe": "战备工厂城内",
+    "story": "列车长在工厂内找到安菲娅，她为了排解情绪，正在使用武器的测试系统。",
+    "questType": "Main",
+    "sort": 0,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "client": 82600293,
+    "startStation": 83000029,
+    "endStationList": [
+      {
+        "id": 83000029,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": false,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500066,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "dialog",
+        "val": "0"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400001,
+        "num": 50
+      }
+    ],
+    "nextQuest": [
+      {
+        "id": 81000316
+      }
+    ],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81000316,
+    "idCN": "主线/EP5/5-10",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "5-10",
+    "describe": "实验室外",
+    "story": "安菲娅诉说自己的过去，这给了列车长一些灵感，想要去找伊利亚德求证真伪。",
+    "questType": "Main",
+    "sort": 0,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "client": 82600293,
+    "startStation": 83000029,
+    "endStationList": [
+      {
+        "id": 83000029,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": false,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500066,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "dialog",
+        "val": "0"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400001,
+        "num": 50
+      }
+    ],
+    "nextQuest": [
+      {
+        "id": 81000317
+      }
+    ],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81000317,
+    "idCN": "主线/EP5/5-11",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "5-11",
+    "describe": "实验室外",
+    "story": "列车长告诉莉薇娅自己的猜想，两人一起询问伊利亚德，伊利亚德虽无法直接给他们机密文件，但是给了两人一些提示。根据提示，大家决定前往能源研究所。",
+    "questType": "Main",
+    "sort": 0,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "client": 82600293,
+    "startStation": 83000029,
+    "endStationList": [
+      {
+        "id": 83000029,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": false,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500066,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "dialog",
+        "val": "0"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400001,
+        "num": 50
+      }
+    ],
+    "nextQuest": [
+      {
+        "id": 81000962
+      }
+    ],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81000962,
+    "idCN": "主线/EP5/5-12-父任务-战斗",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "5-12",
+    "describe": "实验室外",
+    "story": "准备出发时，安菲娅请求与列车长等人同行。",
+    "questType": "Main",
+    "sort": 0,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "client": 82600293,
+    "startStation": 83000029,
+    "endStationList": [
+      {
+        "id": 83000029,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": false,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500066,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "dialog",
+        "val": "0"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400001,
+        "num": 50
+      }
+    ],
+    "nextQuest": [
+      {
+        "id": 81000963
+      }
+    ],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81000963,
+    "idCN": "主线/EP5/5-13",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "5-13",
+    "describe": "战备工厂周边",
+    "story": "众人在路中间发现了晕倒的柯娜，赶紧停车。就在大家准备把柯娜挪上车，驱赶周围的桦树生物。",
+    "questType": "Main",
+    "sort": 0,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "client": 82600293,
+    "startStation": 83000029,
+    "endStationList": [
+      {
+        "id": 83000029,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": false,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500066,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "dialog",
+        "val": "0"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400001,
+        "num": 50
+      }
+    ],
+    "nextQuest": [
+      {
+        "id": 81000964
+      }
+    ],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81000964,
+    "idCN": "主线/EP5/5-14",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "5-14",
+    "describe": "七号自由港城内",
+    "story": "一行人得到妥善安置，伊利亚德告诉了列车长剩余的真相，柯娜清醒后也被列车长打动，决定以后默默守护两人。",
+    "questType": "Main",
+    "sort": 0,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "client": 82600293,
+    "startStation": 83000029,
+    "endStationList": [
+      {
+        "id": 83000029,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": false,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500066,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "dialog",
+        "val": "0"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400001,
+        "num": 50
+      }
+    ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81000965,
+    "idCN": "主线/EP5/5-03-子任务/战斗1",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "",
+    "describe": "",
+    "story": "",
+    "questType": "Side",
+    "sort": 0,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "client": -1,
+    "startStation": 83000020,
+    "endStationList": [
+      {
+        "id": 83000020,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": false,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500057,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "levelId",
+        "val": "20100904"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": true,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "parentQuest": 81000309,
+    "childQuestList": [],
+    "rewardsList": [],
+    "nextQuest": [
+      {
+        "id": 81000966
+      }
+    ],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81000966,
+    "idCN": "主线/EP5/5-03-子任务/战斗2",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "",
+    "describe": "",
+    "story": "",
+    "questType": "Side",
+    "sort": 0,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "client": -1,
+    "startStation": 83000020,
+    "endStationList": [
+      {
+        "id": 83000020,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": false,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500057,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "levelId",
+        "val": "20100905"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": true,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "parentQuest": 81000309,
+    "childQuestList": [],
+    "rewardsList": [],
+    "nextQuest": [
+      {
+        "id": 81000967
+      }
+    ],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81000967,
+    "idCN": "主线/EP5/5-03-子任务/战斗3",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "",
+    "describe": "",
+    "story": "",
+    "questType": "Side",
+    "sort": 0,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "client": -1,
+    "startStation": 83000020,
+    "endStationList": [
+      {
+        "id": 83000020,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": false,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500057,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "levelId",
+        "val": "20100906"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": true,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "parentQuest": 81000309,
+    "childQuestList": [],
+    "rewardsList": [],
+    "nextQuest": [
+      {
+        "id": 81000968
+      }
+    ],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81000968,
+    "idCN": "主线/EP5/5-03-子任务/战斗4",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "",
+    "describe": "",
+    "story": "",
+    "questType": "Side",
+    "sort": 0,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "client": -1,
+    "startStation": 83000020,
+    "endStationList": [
+      {
+        "id": 83000020,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": false,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500057,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "levelId",
+        "val": "20100907"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": true,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "parentQuest": 81000309,
+    "childQuestList": [],
+    "rewardsList": [],
+    "nextQuest": [
+      {
+        "id": 81000969
+      }
+    ],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81000969,
+    "idCN": "主线/EP5/5-03-子任务/战斗5",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "",
+    "describe": "",
+    "story": "",
+    "questType": "Side",
+    "sort": 0,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "client": -1,
+    "startStation": 83000020,
+    "endStationList": [
+      {
+        "id": 83000020,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": false,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500057,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "levelId",
+        "val": "20100908"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": true,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "parentQuest": 81000309,
+    "childQuestList": [],
+    "rewardsList": [],
     "nextQuest": [],
     "changeCityStateList": [],
     "mailList": [],

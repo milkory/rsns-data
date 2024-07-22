@@ -21708,13 +21708,7 @@
     "frameChanged": false,
     "frameEventList": [],
     "effectList": [],
-    "soundList": [
-      {
-        "soundId": 30000128,
-        "triggerFrame": 2,
-        "triggerTime_SN": 0
-      }
-    ],
+    "soundList": [],
     "isYChange": false,
     "offsetYList": [],
     "speed_SN": 0,
@@ -53326,8 +53320,8 @@
     "viewId": 11000050,
     "aniName": "cheer",
     "isLoop": false,
-    "aniTime_SN": 73333,
-    "totalFrame": 440,
+    "aniTime_SN": 73500,
+    "totalFrame": 441,
     "customFrameTag": "",
     "frameChanged": false,
     "frameEventList": [],
@@ -159412,12 +159406,47 @@
     "viewId": 11000367,
     "aniName": "skill_03_01",
     "isLoop": false,
-    "aniTime_SN": 167,
-    "totalFrame": 1,
+    "aniTime_SN": 833,
+    "totalFrame": 5,
     "customFrameTag": "",
     "frameChanged": true,
-    "frameEventList": [],
-    "effectList": [],
+    "frameEventList": [
+      {
+        "frameEventId": 10502238
+      },
+      {
+        "frameEventId": 10502234,
+        "hHalf_SN": 20000,
+        "triggerFrame": 3,
+        "triggerTime_SN": 500,
+        "wHalf_SN": 2000000,
+        "x_SN": 0,
+        "y_SN": 0
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11105915,
+        "offsetX": 0.0,
+        "offsetY": 3.5,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11105916,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11105925,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      }
+    ],
     "soundList": [],
     "isYChange": false,
     "offsetYList": [],
@@ -160348,12 +160377,37 @@
     "viewId": 11000376,
     "aniName": "skill_01",
     "isLoop": false,
-    "aniTime_SN": 23333,
-    "totalFrame": 140,
+    "aniTime_SN": 40000,
+    "totalFrame": 240,
     "customFrameTag": "",
-    "frameChanged": false,
-    "frameEventList": [],
-    "effectList": [],
+    "frameChanged": true,
+    "frameEventList": [
+      {
+        "frameEventId": 10502237,
+        "hHalf_SN": 0,
+        "triggerFrame": 195,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": -70100,
+        "y_SN": 2000
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11105926,
+        "offsetX": -5.0,
+        "offsetY": 0.0,
+        "triggerFrame": 60,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11105905,
+        "offsetX": -4.52,
+        "offsetY": 0.0,
+        "triggerFrame": 69,
+        "triggerTime_SN": 0
+      }
+    ],
     "soundList": [],
     "isYChange": false,
     "offsetYList": [],
@@ -160400,8 +160454,26 @@
     "totalFrame": 116,
     "customFrameTag": "",
     "frameChanged": false,
-    "frameEventList": [],
-    "effectList": [],
+    "frameEventList": [
+      {
+        "frameEventId": 10502235,
+        "hHalf_SN": 10000,
+        "triggerFrame": 47,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 27000,
+        "x_SN": 27000,
+        "y_SN": 10000
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11105902,
+        "offsetX": 1.1,
+        "offsetY": 2.0,
+        "triggerFrame": 41,
+        "triggerTime_SN": 0
+      }
+    ],
     "soundList": [],
     "isYChange": false,
     "offsetYList": [],
@@ -160552,7 +160624,17 @@
     "totalFrame": 120,
     "customFrameTag": "",
     "frameChanged": false,
-    "frameEventList": [],
+    "frameEventList": [
+      {
+        "frameEventId": 10502236,
+        "hHalf_SN": 0,
+        "triggerFrame": 71,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": -6900,
+        "y_SN": 62900
+      }
+    ],
     "effectList": [],
     "soundList": [],
     "isYChange": false,
@@ -160672,6 +160754,13 @@
         "effectId": 11100114
       },
       {
+        "effectId": 11105924,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      },
+      {
         "effectId": 11105871,
         "offsetX": 1.0,
         "offsetY": 0.2,
@@ -160696,6 +160785,20 @@
         "effectId": 11105872,
         "offsetX": 3.5,
         "offsetY": 3.1,
+        "triggerFrame": 39,
+        "triggerTime_SN": 6500
+      },
+      {
+        "effectId": 11105922,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 39,
+        "triggerTime_SN": 6500
+      },
+      {
+        "effectId": 11101699,
+        "offsetX": 3.5,
+        "offsetY": 3.4,
         "triggerFrame": 39,
         "triggerTime_SN": 6500
       }
@@ -160736,6 +160839,13 @@
     "effectList": [
       {
         "effectId": 11100114
+      },
+      {
+        "effectId": 11105918,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
       },
       {
         "effectId": 11105882,
@@ -160971,6 +161081,13 @@
         "effectId": 11100114
       },
       {
+        "effectId": 11105918,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      },
+      {
         "effectId": 11105870,
         "offsetX": -0.32,
         "offsetY": 2.32,
@@ -160996,10 +161113,10 @@
     "viewId": 11000369,
     "aniName": "skill_03",
     "isLoop": false,
-    "aniTime_SN": 17500,
-    "totalFrame": 105,
+    "aniTime_SN": 6667,
+    "totalFrame": 40,
     "customFrameTag": "",
-    "frameChanged": false,
+    "frameChanged": true,
     "frameEventList": [
       {
         "frameEventId": 10500302
@@ -161024,13 +161141,6 @@
         "offsetY": 0.0,
         "triggerFrame": 20,
         "triggerTime_SN": 3333
-      },
-      {
-        "effectId": 11105893,
-        "offsetX": 0.0,
-        "offsetY": 0.0,
-        "triggerFrame": 30,
-        "triggerTime_SN": 5000
       }
     ],
     "soundList": [],
@@ -161088,15 +161198,15 @@
         "effectId": 11105890,
         "offsetX": 0.72,
         "offsetY": 1.52,
-        "triggerFrame": 20,
-        "triggerTime_SN": 3333
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
       },
       {
         "effectId": 11105889,
         "offsetX": 0.72,
         "offsetY": 1.52,
-        "triggerFrame": 35,
-        "triggerTime_SN": 5833
+        "triggerFrame": 40,
+        "triggerTime_SN": 6667
       }
     ],
     "soundList": [],
@@ -161178,11 +161288,63 @@
         "wHalf_SN": 120000,
         "x_SN": 120000,
         "y_SN": 10000
+      },
+      {
+        "frameEventId": 10501609,
+        "hHalf_SN": 10000,
+        "triggerFrame": 45,
+        "triggerTime_SN": 7500,
+        "wHalf_SN": 120000,
+        "x_SN": 120000,
+        "y_SN": 10000
+      },
+      {
+        "frameEventId": 10501609,
+        "hHalf_SN": 10000,
+        "triggerFrame": 55,
+        "triggerTime_SN": 9167,
+        "wHalf_SN": 120000,
+        "x_SN": 120000,
+        "y_SN": 10000
+      },
+      {
+        "frameEventId": 10501609,
+        "hHalf_SN": 10000,
+        "triggerFrame": 65,
+        "triggerTime_SN": 10833,
+        "wHalf_SN": 120000,
+        "x_SN": 120000,
+        "y_SN": 10000
+      },
+      {
+        "frameEventId": 10501609,
+        "hHalf_SN": 10000,
+        "triggerFrame": 75,
+        "triggerTime_SN": 12500,
+        "wHalf_SN": 120000,
+        "x_SN": 120000,
+        "y_SN": 10000
+      },
+      {
+        "frameEventId": 10501609,
+        "hHalf_SN": 10000,
+        "triggerFrame": 85,
+        "triggerTime_SN": 14167,
+        "wHalf_SN": 120000,
+        "x_SN": 120000,
+        "y_SN": 10000
       }
     ],
     "effectList": [
       {
         "effectId": 11100114
+      },
+      {
+        "effectId": 11105919,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
       },
       {
         "effectId": 11105840,
@@ -161204,6 +161366,41 @@
         "offsetY": 3.0,
         "triggerFrame": 44,
         "triggerTime_SN": 7333
+      },
+      {
+        "effectId": 11105920,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 45,
+        "triggerTime_SN": 7500
+      },
+      {
+        "effectId": 11105920,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 55,
+        "triggerTime_SN": 9167
+      },
+      {
+        "effectId": 11105920,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 65,
+        "triggerTime_SN": 10833
+      },
+      {
+        "effectId": 11105920,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 75,
+        "triggerTime_SN": 12500
+      },
+      {
+        "effectId": 11105920,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 85,
+        "triggerTime_SN": 14167
       }
     ],
     "soundList": [],
@@ -161440,22 +161637,10 @@
     "frameChanged": true,
     "frameEventList": [
       {
-        "frameEventId": 10501609,
-        "hHalf_SN": 0,
-        "triggerFrame": 2,
-        "triggerTime_SN": 333,
-        "wHalf_SN": 0,
-        "x_SN": 0,
-        "y_SN": 0
+        "frameEventId": 10502233
       },
       {
-        "frameEventId": 10501361,
-        "hHalf_SN": 0,
-        "triggerFrame": 2,
-        "triggerTime_SN": 333,
-        "wHalf_SN": 0,
-        "x_SN": 0,
-        "y_SN": 0
+        "frameEventId": 10501361
       }
     ],
     "effectList": [],
@@ -162603,6 +162788,55 @@
     "frameChanged": false,
     "frameEventList": [],
     "effectList": [],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203582,
+    "idCN": "敌方/06深眠者/深眠者柯娜/技能1延迟生效版",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "NormalSkill",
+    "viewId": 11000376,
+    "aniName": "skill_01",
+    "isLoop": false,
+    "aniTime_SN": 23333,
+    "totalFrame": 140,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10502239,
+        "hHalf_SN": 0,
+        "triggerFrame": 139,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11105926,
+        "offsetX": -5.0,
+        "offsetY": 0.0,
+        "triggerFrame": 60,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11105905,
+        "offsetX": -4.52,
+        "offsetY": 0.0,
+        "triggerFrame": 69,
+        "triggerTime_SN": 0
+      }
+    ],
     "soundList": [],
     "isYChange": false,
     "offsetYList": [],
