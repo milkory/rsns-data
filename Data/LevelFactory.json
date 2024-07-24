@@ -14190,7 +14190,7 @@
     "adaptLvSN": 1,
     "isCustomDifficulty": true,
     "extraLevelOffset": 2,
-    "recomGrade": 15,
+    "recomGrade": 18,
     "expelNum": 0,
     "randWaveLimit": 2,
     "randWaveMinLimit": 2,
@@ -15354,7 +15354,7 @@
     "adaptLvSN": 1,
     "isCustomDifficulty": true,
     "extraLevelOffset": 2,
-    "recomGrade": 20,
+    "recomGrade": 23,
     "expelNum": 0,
     "randWaveLimit": 1,
     "randWaveMinLimit": 1,
@@ -15465,9 +15465,13 @@
     "rewardCoefficientMin": 0.3,
     "caseTimeLimit": 7,
     "isBanAutoBattle": false,
+    "isDisplayLeaderBoard": false,
     "correspondingActivity": -1,
     "limitBattleType": "Forever",
-    "limitNum": -1
+    "limitNum": -1,
+    "itemCost": [],
+    "firstPassAwardS": [],
+    "timeReward": []
   },
   {
     "id": 20100233,
@@ -15685,7 +15689,7 @@
     "adaptLvSN": 1,
     "isCustomDifficulty": true,
     "extraLevelOffset": 2,
-    "recomGrade": 12,
+    "recomGrade": 15,
     "expelNum": 0,
     "randWaveLimit": 2,
     "randWaveMinLimit": 2,
@@ -128559,7 +128563,7 @@
   },
   {
     "id": 20100723,
-    "idCN": "03作战中心/04铁盟哨站/关卡11",
+    "idCN": "03作战中心/04铁盟哨站/关卡11重机鼹鼠",
     "mod": "作战中心",
     "isInformalData": false,
     "isMainChapter": false,
@@ -128611,9 +128615,9 @@
     ],
     "bgResUrl": "",
     "insZoneBGMId": -1,
-    "bossId": -1,
-    "description": "",
-    "levelName": "",
+    "bossId": 10000067,
+    "description": "那群鬼鬼祟祟的鼹鼠帮成员又开着鼹鼠重机出动了，请帮忙前去探查他们的行踪，必要时可以使用武力进行自卫。",
+    "levelName": "暴力鼹鼠帮",
     "levelChapter": "",
     "playerLevel": 1,
     "playerLevelMax": 9999,
@@ -128724,7 +128728,7 @@
   },
   {
     "id": 20100727,
-    "idCN": "03作战中心/04铁盟哨站/关卡12",
+    "idCN": "03作战中心/04铁盟哨站/关卡12黑月角色",
     "mod": "作战中心",
     "isInformalData": false,
     "isMainChapter": false,
@@ -128754,7 +128758,7 @@
       }
     ],
     "weatherId": -1,
-    "bgmId": 30001050,
+    "bgmId": 30000914,
     "guildanceListZero": [],
     "isEnemyLvEquilsPlayer": false,
     "enemyLvOffset": 0,
@@ -128777,8 +128781,8 @@
     "bgResUrl": "",
     "insZoneBGMId": -1,
     "bossId": -1,
-    "description": "",
-    "levelName": "",
+    "description": "我们接到内部人士线报，黑月的一位高层人士正带着手下在这附近四处游荡。出发应对时务必注意安全。",
+    "levelName": "可疑动向调查",
     "levelChapter": "",
     "playerLevel": 1,
     "playerLevelMax": 9999,
@@ -128889,7 +128893,7 @@
   },
   {
     "id": 20100729,
-    "idCN": "03作战中心/04铁盟哨站/关卡13鼹鼠",
+    "idCN": "03作战中心/04铁盟哨站/关卡13铁盟角色",
     "mod": "作战中心",
     "isInformalData": false,
     "isMainChapter": false,
@@ -128919,7 +128923,7 @@
       }
     ],
     "weatherId": -1,
-    "bgmId": 30001050,
+    "bgmId": 30000879,
     "guildanceListZero": [],
     "isEnemyLvEquilsPlayer": false,
     "enemyLvOffset": 0,
@@ -128931,13 +128935,16 @@
     "enemyWaveList": [
       {
         "enemyWaveId": 21101367
+      },
+      {
+        "enemyWaveId": 21101634
       }
     ],
     "bgResUrl": "",
     "insZoneBGMId": -1,
     "bossId": -1,
-    "description": "",
-    "levelName": "",
+    "description": "铁盟举办的大型实战演习吸引了士兵们争相报名，而分组的同僚似乎有意将与列车长相识的士兵们安排在了同一队伍。列车长也来参与演习吧。",
+    "levelName": "实战演习",
     "levelChapter": "",
     "playerLevel": 1,
     "playerLevelMax": 9999,
@@ -129048,7 +129055,7 @@
   },
   {
     "id": 20100768,
-    "idCN": "03作战中心/04铁盟哨站/关卡14朱利安五人组",
+    "idCN": "03作战中心/04铁盟哨站/关卡14MOM虫母",
     "mod": "作战中心",
     "isInformalData": false,
     "isMainChapter": false,
@@ -129078,7 +129085,7 @@
       }
     ],
     "weatherId": -1,
-    "bgmId": 30000078,
+    "bgmId": 30002599,
     "guildanceListZero": [],
     "isEnemyLvEquilsPlayer": false,
     "enemyLvOffset": 0,
@@ -129090,13 +129097,19 @@
     "enemyWaveList": [
       {
         "enemyWaveId": 21101368
+      },
+      {
+        "enemyWaveId": 21101626
+      },
+      {
+        "enemyWaveId": 21101627
       }
     ],
     "bgResUrl": "",
     "insZoneBGMId": -1,
-    "bossId": -1,
-    "description": "",
-    "levelName": "",
+    "bossId": 10000040,
+    "description": "深眠者与桦树生物的组合总是难以对付，好好考虑它们的弱点，分别击破吧。",
+    "levelName": "噩梦与爆虫",
     "levelChapter": "",
     "playerLevel": 1,
     "playerLevelMax": 9999,
@@ -129207,7 +129220,7 @@
   },
   {
     "id": 20100772,
-    "idCN": "03作战中心/04铁盟哨站/关卡15伊洛娜五人组",
+    "idCN": "03作战中心/04铁盟哨站/关卡15MOM寒潮",
     "mod": "作战中心",
     "isInformalData": false,
     "isMainChapter": false,
@@ -129237,7 +129250,7 @@
       }
     ],
     "weatherId": -1,
-    "bgmId": 30000078,
+    "bgmId": 30002601,
     "guildanceListZero": [],
     "isEnemyLvEquilsPlayer": false,
     "enemyLvOffset": 0,
@@ -129249,13 +129262,19 @@
     "enemyWaveList": [
       {
         "enemyWaveId": 21101370
+      },
+      {
+        "enemyWaveId": 21101628
+      },
+      {
+        "enemyWaveId": 21101629
       }
     ],
     "bgResUrl": "",
     "insZoneBGMId": -1,
-    "bossId": -1,
-    "description": "",
-    "levelName": "",
+    "bossId": 10000103,
+    "description": "深眠者与桦树生物的组合总是难以对付，好好考虑它们的弱点，分别击破吧。",
+    "levelName": "噩梦与霓虹",
     "levelChapter": "",
     "playerLevel": 1,
     "playerLevelMax": 9999,
@@ -129366,7 +129385,7 @@
   },
   {
     "id": 20100767,
-    "idCN": "03作战中心/04铁盟哨站/关卡16多萝西五人组",
+    "idCN": "03作战中心/04铁盟哨站/关卡16MOM尘鸣",
     "mod": "作战中心",
     "isInformalData": false,
     "isMainChapter": false,
@@ -129396,7 +129415,7 @@
       }
     ],
     "weatherId": -1,
-    "bgmId": 30000078,
+    "bgmId": 30002598,
     "guildanceListZero": [],
     "isEnemyLvEquilsPlayer": false,
     "enemyLvOffset": 0,
@@ -129408,13 +129427,19 @@
     "enemyWaveList": [
       {
         "enemyWaveId": 21101371
+      },
+      {
+        "enemyWaveId": 21101630
+      },
+      {
+        "enemyWaveId": 21101631
       }
     ],
     "bgResUrl": "",
     "insZoneBGMId": -1,
-    "bossId": -1,
-    "description": "",
-    "levelName": "",
+    "bossId": 10000144,
+    "description": "深眠者与桦树生物的组合总是难以对付，好好考虑它们的弱点，分别击破吧。",
+    "levelName": "噩梦与尘沙",
     "levelChapter": "",
     "playerLevel": 1,
     "playerLevelMax": 9999,
@@ -129525,7 +129550,7 @@
   },
   {
     "id": 20100770,
-    "idCN": "03作战中心/04铁盟哨站/关卡17",
+    "idCN": "03作战中心/04铁盟哨站/关卡17虫母寒潮",
     "mod": "作战中心",
     "isInformalData": false,
     "isMainChapter": false,
@@ -129555,7 +129580,7 @@
       }
     ],
     "weatherId": -1,
-    "bgmId": 30000914,
+    "bgmId": 30002601,
     "guildanceListZero": [],
     "isEnemyLvEquilsPlayer": false,
     "enemyLvOffset": 0,
@@ -129577,9 +129602,9 @@
     ],
     "bgResUrl": "",
     "insZoneBGMId": -1,
-    "bossId": -1,
-    "description": "",
-    "levelName": "",
+    "bossId": 10000103,
+    "description": "哨站的责任不仅是维护治安，其中也包括了为过路车辆发布合适的怪物预警的职责。我们现已播放桦树生物警报，请列车长尽快前往目标地点，击败造成附近环境不安定的桦树生物。",
+    "levelName": "寒潮爆虫预警",
     "levelChapter": "",
     "playerLevel": 1,
     "playerLevelMax": 9999,
@@ -129690,7 +129715,7 @@
   },
   {
     "id": 20100773,
-    "idCN": "03作战中心/04铁盟哨站/关卡18",
+    "idCN": "03作战中心/04铁盟哨站/关卡18虫母尘鸣",
     "mod": "作战中心",
     "isInformalData": false,
     "isMainChapter": false,
@@ -129720,7 +129745,7 @@
       }
     ],
     "weatherId": -1,
-    "bgmId": 30000914,
+    "bgmId": 30002598,
     "guildanceListZero": [],
     "isEnemyLvEquilsPlayer": false,
     "enemyLvOffset": 0,
@@ -129742,9 +129767,9 @@
     ],
     "bgResUrl": "",
     "insZoneBGMId": -1,
-    "bossId": -1,
-    "description": "",
-    "levelName": "",
+    "bossId": 10000144,
+    "description": "哨站的责任不仅是维护治安，其中也包括了为过路车辆发布合适的怪物预警的职责。我们现已播放桦树生物警报，请列车长尽快前往目标地点，击败造成附近环境不安定的桦树生物。",
+    "levelName": "爬行类预警",
     "levelChapter": "",
     "playerLevel": 1,
     "playerLevelMax": 9999,
@@ -129855,7 +129880,7 @@
   },
   {
     "id": 20100771,
-    "idCN": "03作战中心/04铁盟哨站/关卡19镇雷鸣",
+    "idCN": "03作战中心/04铁盟哨站/关卡19寒潮尘鸣",
     "mod": "作战中心",
     "isInformalData": false,
     "isMainChapter": false,
@@ -129885,7 +129910,7 @@
       }
     ],
     "weatherId": -1,
-    "bgmId": 30002606,
+    "bgmId": 30002598,
     "guildanceListZero": [],
     "isEnemyLvEquilsPlayer": false,
     "enemyLvOffset": 0,
@@ -129897,13 +129922,19 @@
     "enemyWaveList": [
       {
         "enemyWaveId": 21101380
+      },
+      {
+        "enemyWaveId": 21101632
+      },
+      {
+        "enemyWaveId": 21101633
       }
     ],
     "bgResUrl": "",
     "insZoneBGMId": -1,
-    "bossId": -1,
-    "description": "",
-    "levelName": "",
+    "bossId": 10000144,
+    "description": "哨站的责任不仅是维护治安，其中也包括了为过路车辆发布合适的怪物预警的职责。我们现已播放桦树生物警报，请列车长尽快前往目标地点，击败造成附近环境不安定的桦树生物。",
+    "levelName": "沙漠寒潮预警",
     "levelChapter": "",
     "playerLevel": 1,
     "playerLevelMax": 9999,
@@ -130014,7 +130045,7 @@
   },
   {
     "id": 20100774,
-    "idCN": "03作战中心/04铁盟哨站/关卡20双BOSS",
+    "idCN": "03作战中心/04铁盟哨站/关卡20虫母寒潮尘鸣",
     "mod": "作战中心",
     "isInformalData": false,
     "isMainChapter": false,
@@ -130044,7 +130075,7 @@
       }
     ],
     "weatherId": -1,
-    "bgmId": 30002606,
+    "bgmId": 30002598,
     "guildanceListZero": [],
     "isEnemyLvEquilsPlayer": false,
     "enemyLvOffset": 0,
@@ -130066,9 +130097,9 @@
     ],
     "bgResUrl": "",
     "insZoneBGMId": -1,
-    "bossId": -1,
-    "description": "",
-    "levelName": "",
+    "bossId": 10000144,
+    "description": "哨站的责任不仅是维护治安，其中也包括了为过路车辆发布合适的怪物预警的职责。我们现已播放桦树生物警报，请列车长尽快前往目标地点，击败造成附近环境不安定的桦树生物。",
+    "levelName": "复杂险情预警",
     "levelChapter": "",
     "playerLevel": 1,
     "playerLevelMax": 9999,
@@ -146478,7 +146509,7 @@
     "isUseLevelRole": false,
     "isAlwaysWin": false,
     "timeLimit": 0,
-    "paragraphId": -1,
+    "paragraphId": 20700393,
     "levelBuffList": [],
     "mvpType": "TotalDamage",
     "minRoleNum": 5,
@@ -146655,7 +146686,7 @@
     "isUseLevelRole": false,
     "isAlwaysWin": false,
     "timeLimit": 0,
-    "paragraphId": -1,
+    "paragraphId": 20700394,
     "levelBuffList": [],
     "mvpType": "TotalDamage",
     "minRoleNum": 5,
@@ -146880,7 +146911,7 @@
     "extraEnergy": 0,
     "bgIdList": [
       {
-        "id": 20000006
+        "id": 20000087
       }
     ],
     "weatherRateSN": 0,
@@ -147001,7 +147032,7 @@
     "isUseLevelRole": false,
     "isAlwaysWin": false,
     "timeLimit": 0,
-    "paragraphId": -1,
+    "paragraphId": 20700396,
     "levelBuffList": [],
     "mvpType": "TotalDamage",
     "minRoleNum": 5,
@@ -147057,7 +147088,7 @@
     "extraEnergy": 0,
     "bgIdList": [
       {
-        "id": 20000006
+        "id": 20000087
       }
     ],
     "weatherRateSN": 0,
@@ -147234,7 +147265,7 @@
     "extraEnergy": 0,
     "bgIdList": [
       {
-        "id": 20000006
+        "id": 20000087
       }
     ],
     "weatherRateSN": 0,
@@ -147492,7 +147523,7 @@
     "isUseLevelRole": false,
     "isAlwaysWin": false,
     "timeLimit": 0,
-    "paragraphId": -1,
+    "paragraphId": 20700397,
     "levelBuffList": [],
     "mvpType": "TotalDamage",
     "minRoleNum": 5,

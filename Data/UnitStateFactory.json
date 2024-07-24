@@ -160298,7 +160298,7 @@
     "idCN": "敌方/06深眠者/深眠者柯娜/技能3_1",
     "mod": "基础状态",
     "isInformalData": false,
-    "actionLevel": "NormalSkill",
+    "actionLevel": "SpecialSkill",
     "viewId": 11000376,
     "aniName": "skill_03_01",
     "isLoop": false,
@@ -160306,8 +160306,51 @@
     "totalFrame": 106,
     "customFrameTag": "",
     "frameChanged": false,
-    "frameEventList": [],
-    "effectList": [],
+    "frameEventList": [
+      {
+        "frameEventId": 10500329,
+        "hHalf_SN": 0,
+        "triggerFrame": 45,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10500349,
+        "hHalf_SN": 0,
+        "triggerFrame": 104,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10502244,
+        "hHalf_SN": 0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11105912,
+        "offsetX": 0.7,
+        "offsetY": 0.0,
+        "triggerFrame": 85,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11100937,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 86,
+        "triggerTime_SN": 0
+      }
+    ],
     "soundList": [],
     "isYChange": false,
     "offsetYList": [],
@@ -160430,8 +160473,47 @@
     "totalFrame": 120,
     "customFrameTag": "",
     "frameChanged": false,
-    "frameEventList": [],
-    "effectList": [],
+    "frameEventList": [
+      {
+        "frameEventId": 10502242,
+        "hHalf_SN": 10000,
+        "triggerFrame": 66,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 240000,
+        "x_SN": 0,
+        "y_SN": 10000
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11105908,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 6,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11105909,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 51,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11100521,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 67,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11100937,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 67,
+        "triggerTime_SN": 0
+      }
+    ],
     "soundList": [],
     "isYChange": false,
     "offsetYList": [],
@@ -162754,7 +162836,7 @@
     "idCN": "敌方/06深眠者/深眠者柯娜/技能3_3",
     "mod": "基础状态",
     "isInformalData": false,
-    "actionLevel": "NormalSkill",
+    "actionLevel": "SpecialSkill",
     "viewId": 11000376,
     "aniName": "skill_03_03",
     "isLoop": false,
@@ -162778,7 +162860,7 @@
     "idCN": "敌方/06深眠者/深眠者柯娜/技能3_2",
     "mod": "基础状态",
     "isInformalData": false,
-    "actionLevel": "NormalSkill",
+    "actionLevel": "SpecialSkill",
     "viewId": 11000376,
     "aniName": "skill_03_02",
     "isLoop": false,
@@ -162835,6 +162917,153 @@
         "offsetY": 0.0,
         "triggerFrame": 69,
         "triggerTime_SN": 0
+      }
+    ],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203510,
+    "idCN": "爬塔/人形单位/无名火/技能4",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "SpecialSkill",
+    "viewId": 11000203,
+    "aniName": "skill_03_03",
+    "isLoop": false,
+    "aniTime_SN": 27000,
+    "totalFrame": 162,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10501422,
+        "hHalf_SN": 15000,
+        "triggerFrame": 12,
+        "triggerTime_SN": 2000,
+        "wHalf_SN": 40000,
+        "x_SN": 40000,
+        "y_SN": 15000
+      },
+      {
+        "frameEventId": 10501421,
+        "hHalf_SN": 15000,
+        "triggerFrame": 20,
+        "triggerTime_SN": 3333,
+        "wHalf_SN": 40000,
+        "x_SN": 40000,
+        "y_SN": 15000
+      },
+      {
+        "frameEventId": 10501421,
+        "hHalf_SN": 15000,
+        "triggerFrame": 40,
+        "triggerTime_SN": 6667,
+        "wHalf_SN": 40000,
+        "x_SN": 40000,
+        "y_SN": 15000
+      },
+      {
+        "frameEventId": 10501422,
+        "hHalf_SN": 15000,
+        "triggerFrame": 43,
+        "triggerTime_SN": 7167,
+        "wHalf_SN": 40000,
+        "x_SN": 40000,
+        "y_SN": 15000
+      },
+      {
+        "frameEventId": 10501421,
+        "hHalf_SN": 15000,
+        "triggerFrame": 58,
+        "triggerTime_SN": 9667,
+        "wHalf_SN": 40000,
+        "x_SN": 40000,
+        "y_SN": 15000
+      },
+      {
+        "frameEventId": 10501422,
+        "hHalf_SN": 15000,
+        "triggerFrame": 64,
+        "triggerTime_SN": 10667,
+        "wHalf_SN": 40000,
+        "x_SN": 40000,
+        "y_SN": 15000
+      },
+      {
+        "frameEventId": 10502113,
+        "hHalf_SN": 20000,
+        "triggerFrame": 122,
+        "triggerTime_SN": 20333,
+        "wHalf_SN": 40000,
+        "x_SN": 40000,
+        "y_SN": 20000
+      },
+      {
+        "frameEventId": 10502243,
+        "hHalf_SN": 20000,
+        "triggerFrame": 141,
+        "triggerTime_SN": 23500,
+        "wHalf_SN": 40000,
+        "x_SN": 40000,
+        "y_SN": 20000
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11103406,
+        "offsetX": 2.15,
+        "offsetY": 3.14,
+        "triggerFrame": 15,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11103407,
+        "offsetX": 2.07,
+        "offsetY": 3.61,
+        "triggerFrame": 40,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11103408,
+        "offsetX": 3.22,
+        "offsetY": 2.62,
+        "triggerFrame": 57,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11100258,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 18,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11100258,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 42,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11100258,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 60,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11103374,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 136,
+        "triggerTime_SN": 22667
       }
     ],
     "soundList": [],
