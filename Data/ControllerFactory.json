@@ -12302,7 +12302,7 @@
   {
     "id": 10300303,
     "idCN": "敌方/000角色/铁盟/卡莲",
-    "mod": "卡牌AI",
+    "mod": "基础AI",
     "isInformalData": false,
     "targetInvisibleEffectId": -1,
     "effectOffsetX": 0.0,
@@ -12361,7 +12361,7 @@
   {
     "id": 10300298,
     "idCN": "敌方/000角色/铁盟/朱利安",
-    "mod": "卡牌AI",
+    "mod": "基础AI",
     "isInformalData": false,
     "targetInvisibleEffectId": -1,
     "effectOffsetX": 0.0,
@@ -12408,7 +12408,7 @@
   {
     "id": 10300304,
     "idCN": "敌方/000角色/铁盟/雷火",
-    "mod": "卡牌AI",
+    "mod": "基础AI",
     "isInformalData": false,
     "targetInvisibleEffectId": -1,
     "effectOffsetX": 0.0,
@@ -12692,7 +12692,7 @@
   {
     "id": 10300311,
     "idCN": "敌方/000角色/铁盟/瑞秋",
-    "mod": "卡牌AI",
+    "mod": "基础AI",
     "isInformalData": false,
     "targetInvisibleEffectId": -1,
     "effectOffsetX": 0.0,
@@ -12748,7 +12748,7 @@
   {
     "id": 10300310,
     "idCN": "敌方/000角色/铁盟/静流",
-    "mod": "卡牌AI",
+    "mod": "基础AI",
     "isInformalData": false,
     "targetInvisibleEffectId": -1,
     "effectOffsetX": 0.0,
@@ -12849,7 +12849,7 @@
   {
     "id": 10300315,
     "idCN": "敌方/000角色/铁盟/静流共振2",
-    "mod": "卡牌AI",
+    "mod": "基础AI",
     "isInformalData": false,
     "targetInvisibleEffectId": -1,
     "effectOffsetX": 0.0,
@@ -17092,13 +17092,13 @@
     "normalAttackCritID": -1,
     "skillList": [
       {
-        "actionId": 10103112,
+        "actionId": 10103176,
         "activeFrame": 180,
         "activeTime": 1.0,
         "rangeSN": 240000
       },
       {
-        "actionId": 10103114,
+        "actionId": 10103145,
         "activeFrame": 540,
         "activeTime": 1.0,
         "rangeSN": 240000
@@ -17274,22 +17274,91 @@
     "effectOffsetY": 0.0,
     "actionList": [
       {
-        "actionID": 10102840
+        "actionID": 10103152
       }
     ],
     "normalAttackCritID": -1,
-    "skillList": [],
+    "skillList": [
+      {
+        "actionId": 10103154,
+        "activeFrame": 243,
+        "activeTime": 1.0,
+        "rangeSN": 240000
+      },
+      {
+        "actionId": 10103155,
+        "activeFrame": 624,
+        "activeTime": 1.0,
+        "rangeSN": 240000
+      }
+    ],
     "isInvisibleBeforeShowUp": false,
     "showupSkillList": [],
-    "skillLoopDelayFrame": 1,
+    "skillLoopDelayFrame": 300,
     "shapeShiftList": [],
     "commandList": [],
     "enemySkillList": [],
-    "isUseEnergy": false,
-    "energySkillList": [],
-    "energyRestorePerFrameSN": 0,
+    "isUseEnergy": true,
+    "energySkillList": [
+      {
+        "actionId": 10103156,
+        "isClearEnergy": true,
+        "rangeSN": -10000
+      }
+    ],
+    "energyRestorePerFrameSN": 370,
     "isSkillDelay": false,
     "minDelay": 120,
     "maxDelay": 360
+  },
+  {
+    "id": 10300435,
+    "idCN": "敌方/000角色/铁盟/甘雅BOSS",
+    "mod": "BOSSAI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": -1,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10103165
+      },
+      {
+        "actionID": 10103170
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10103171,
+        "activeFrame": 120,
+        "activeTime": 2.0,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10103164,
+        "activeFrame": 240,
+        "activeTime": 4.0,
+        "rangeSN": -10000
+      }
+    ],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [],
+    "skillLoopDelayFrame": 600,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": true,
+    "energySkillList": [
+      {
+        "actionId": 10103161,
+        "isClearEnergy": true,
+        "rangeSN": -10000
+      }
+    ],
+    "energyRestorePerFrameSN": 1000,
+    "isSkillDelay": true,
+    "minDelay": 60,
+    "maxDelay": 180
   }
 ]

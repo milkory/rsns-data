@@ -913,12 +913,12 @@
   },
   {
     "id": 81000022,
-    "idCN": "主线/EP5/5-01-临时",
+    "idCN": "主线/EP5下/5-01-临时",
     "mod": "基础任务",
     "isInformalData": false,
-    "name": "5-1",
+    "name": "澄清",
     "describe": "前往澄明数据中心铁安局与莱卡吉亚交谈",
-    "story": "列车长与妮蔻拉一同来到铁安局解决了冤罪事件，并且就柯娜失踪的事情进行商谈，海因里希前来问候列车长，并且告诉了列车长一些内情。",
+    "story": "在妮蔻拉的陪同下前往铁安局为自己洗脱罪名。",
     "questType": "Main",
     "sort": 0,
     "isShowProgress": false,
@@ -970,8 +970,12 @@
     "childQuestList": [],
     "rewardsList": [
       {
-        "id": 11400001,
-        "num": 50
+        "id": 11400066,
+        "num": 1
+      },
+      {
+        "id": 11400071,
+        "num": 1
       }
     ],
     "nextQuest": [
@@ -61829,6 +61833,7 @@
     "isShowProgress": true,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
+    "isAnecdote": false,
     "client": 82600293,
     "startStation": 83000029,
     "endStationList": [
@@ -61837,10 +61842,12 @@
         "weight": 10
       }
     ],
+    "isAutoTrace": false,
     "traceList": [],
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [],
     "num": 4,
@@ -61848,6 +61855,8 @@
     "isAutoComplete": true,
     "checkComplete": false,
     "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
     "parentQuest": -1,
     "childQuestList": [
       {
@@ -62102,34 +62111,76 @@
   },
   {
     "id": 81001203,
-    "idCN": "主线/EP5/5-01-正式",
+    "idCN": "主线/EP5/5-01",
     "mod": "基础任务",
     "isInformalData": false,
-    "name": "未完待续",
-    "describe": "主线未完待续，支线任务等您探索",
-    "story": "故事尚未完结，丰富的支线任务正在等您探索，列车长的冒险旅途才刚刚开始！",
+    "name": "澄清",
+    "describe": "前往澄明数据中心铁安局与莱卡吉亚交谈",
+    "story": "在妮蔻拉的陪同下前往铁安局为自己洗脱罪名。",
     "questType": "Main",
     "sort": 0,
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
-    "client": 82600002,
-    "startStation": -1,
-    "endStationList": [],
-    "traceList": [],
+    "isAnecdote": false,
+    "client": 82600293,
+    "startStation": 83000029,
+    "endStationList": [
+      {
+        "id": 83000029,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": false,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500100,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
-    "conditionList": [],
+    "conditionList": [
+      {
+        "key": "dialog",
+        "val": "0"
+      }
+    ],
     "num": 1,
     "islockAddProgress": false,
     "isAutoComplete": false,
     "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
     "parentQuest": -1,
     "childQuestList": [],
-    "rewardsList": [],
-    "nextQuest": [],
+    "rewardsList": [
+      {
+        "id": 11400066,
+        "num": 1
+      },
+      {
+        "id": 11400071,
+        "num": 1
+      }
+    ],
+    "nextQuest": [
+      {
+        "id": 81000163
+      }
+    ],
     "changeCityStateList": [],
     "mailList": [],
     "isEvent": false,
@@ -79891,9 +79942,9 @@
     "idCN": "主线/EP5/5-02",
     "mod": "基础任务",
     "isInformalData": false,
-    "name": "5-02",
+    "name": "搜寻",
     "describe": "在澄明数据中心与莉薇娅对话",
-    "story": "列车长与众人汇合，大家打算分头寻找柯娜的下落，妮蔻拉去解决反制力场，列车长前往荒原站调查海因里希所说的事情。",
+    "story": "将现有的情报与大家分享，寻找柯娜的下落。",
     "questType": "Main",
     "sort": 0,
     "isShowProgress": false,
@@ -79945,8 +79996,8 @@
     "childQuestList": [],
     "rewardsList": [
       {
-        "id": 11400001,
-        "num": 50
+        "id": 11400067,
+        "num": 1
       }
     ],
     "nextQuest": [
@@ -79973,16 +80024,16 @@
     "idCN": "主线/EP5/5-03-父任务-战斗",
     "mod": "基础任务",
     "isInformalData": false,
-    "name": "5-03",
-    "describe": "消灭荒原站的桦树生物",
-    "story": "大家在思考事情的可疑之处。",
+    "name": "开路",
+    "describe": "消灭荒原站出现的桦树生物",
+    "story": "将出现在荒原站的桦树生物打倒。",
     "questType": "Main",
     "sort": 0,
     "isShowProgress": true,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
     "isAnecdote": false,
-    "client": 82600002,
+    "client": 82600005,
     "startStation": 83000003,
     "endStationList": [
       {
@@ -80016,7 +80067,7 @@
     ],
     "rewardsList": [
       {
-        "id": 11400001,
+        "id": 11400005,
         "num": 50
       }
     ],
@@ -80044,9 +80095,9 @@
     "idCN": "主线/EP5/5-06",
     "mod": "基础任务",
     "isInformalData": false,
-    "name": "5-06",
+    "name": "专业人士",
     "describe": "与荒原站阿妮塔观测站的安菲娅交谈",
-    "story": "在安菲娅的建议下，大家前往阿妮塔发射中心。",
+    "story": "将澄明数据中心的经历告知安菲娅，寻求找到柯娜的方法。",
     "questType": "Main",
     "sort": 0,
     "isShowProgress": false,
@@ -80098,8 +80149,12 @@
     "childQuestList": [],
     "rewardsList": [
       {
-        "id": 11400001,
-        "num": 50
+        "id": 11400066,
+        "num": 1
+      },
+      {
+        "id": 11400071,
+        "num": 1
       }
     ],
     "nextQuest": [
@@ -80123,9 +80178,9 @@
     "idCN": "主线/EP5/5-07",
     "mod": "基础任务",
     "isInformalData": false,
-    "name": "5-07",
+    "name": "摆渡船",
     "describe": "前往阿妮塔发射中心与安菲娅对话",
-    "story": "大家来到发射中心，得知了关于费尔德里奇号的过往。",
+    "story": "前往摆渡船诞生的发射中心，了解核心的锚定技术。",
     "questType": "Main",
     "sort": 0,
     "isShowProgress": false,
@@ -80177,8 +80232,12 @@
     "childQuestList": [],
     "rewardsList": [
       {
-        "id": 11400001,
+        "id": 11400005,
         "num": 50
+      },
+      {
+        "id": 11400071,
+        "num": 1
       }
     ],
     "nextQuest": [
@@ -80202,9 +80261,9 @@
     "idCN": "主线/EP5/5-09-父任务-战斗",
     "mod": "基础任务",
     "isInformalData": false,
-    "name": "5-09",
+    "name": "武器测试",
     "describe": "测试对桦树生物武器",
-    "story": "见列车长好奇桦树生物，安菲娅带领大家来到工厂内部参观和测试对桦树生物武器。",
+    "story": "参观工厂内部，参与内部的实验测试。",
     "questType": "Main",
     "sort": 0,
     "isShowProgress": true,
@@ -80245,7 +80304,7 @@
     ],
     "rewardsList": [
       {
-        "id": 11400001,
+        "id": 11400005,
         "num": 50
       }
     ],
@@ -80273,9 +80332,9 @@
     "idCN": "主线/EP5/5-10-父任务-战斗",
     "mod": "基础任务",
     "isInformalData": false,
-    "name": "5-10",
+    "name": "生路",
     "describe": "消灭来袭的桦树生物",
-    "story": "众人来到战备工厂入口，没见到铁盟的人，却遭到了桦树生物的袭\r击。",
+    "story": "打倒桦树生物，找到突破包围的方法。",
     "questType": "Main",
     "sort": 0,
     "isShowProgress": true,
@@ -80319,7 +80378,7 @@
     ],
     "rewardsList": [
       {
-        "id": 11400001,
+        "id": 11400005,
         "num": 50
       }
     ],
@@ -80344,9 +80403,9 @@
     "idCN": "主线/EP5/5-11",
     "mod": "基础任务",
     "isInformalData": false,
-    "name": "5-11",
+    "name": "指点迷津",
     "describe": "在阿妮塔战备工厂与伊利亚德对话",
-    "story": "伊利亚德解释了来意以及自己此前被故意调走的事情，指出事件背后有人谋划。",
+    "story": "与伊利亚德交谈，挖掘一系列事件背后的真相。",
     "questType": "Main",
     "sort": 0,
     "isShowProgress": false,
@@ -80398,8 +80457,8 @@
     "childQuestList": [],
     "rewardsList": [
       {
-        "id": 11400001,
-        "num": 50
+        "id": 11400067,
+        "num": 1
       }
     ],
     "nextQuest": [
@@ -80426,9 +80485,9 @@
     "idCN": "主线/EP5/5-12-父任务-战斗",
     "mod": "基础任务",
     "isInformalData": false,
-    "name": "5-12",
-    "describe": "在阿妮塔战备工厂与安菲娅对话",
-    "story": "列车长在工厂内找到安菲娅，她为了排解情绪，正在使用武器的测试系统。",
+    "name": "孤独的孩子",
+    "describe": "协助安菲娅测试武器",
+    "story": "在战备工厂内找到安菲娅，寻找合适的时机与她谈话。",
     "questType": "Main",
     "sort": 0,
     "isShowProgress": true,
@@ -80469,8 +80528,12 @@
     ],
     "rewardsList": [
       {
-        "id": 11400001,
-        "num": 50
+        "id": 11400005,
+        "num": 100
+      },
+      {
+        "id": 11400056,
+        "num": 100
       }
     ],
     "nextQuest": [
@@ -81136,9 +81199,9 @@
     "idCN": "主线/EP5/5-05-战斗",
     "mod": "基础任务",
     "isInformalData": false,
-    "name": "5-05",
+    "name": "去向",
     "describe": "迎战寒潮浮囊体",
-    "story": "几人迎战寒潮浮囊体。",
+    "story": "打倒最后的桦树生物，查清异常状况的真相。",
     "questType": "Main",
     "sort": 0,
     "isShowProgress": false,
@@ -81190,8 +81253,12 @@
     "childQuestList": [],
     "rewardsList": [
       {
-        "id": 11400001,
+        "id": 11400005,
         "num": 50
+      },
+      {
+        "id": 11400056,
+        "num": 100
       }
     ],
     "nextQuest": [
@@ -81215,9 +81282,9 @@
     "idCN": "主线/EP5/5-08-战斗",
     "mod": "基础任务",
     "isInformalData": false,
-    "name": "5-08",
+    "name": "战备工厂",
     "describe": "在阿妮塔战备工厂与安菲娅对话",
-    "story": "抵达战备工厂。",
+    "story": "在安菲娅的帮助下拜访阿妮塔战备工厂。",
     "questType": "Main",
     "sort": 0,
     "isShowProgress": false,
@@ -81269,8 +81336,12 @@
     "childQuestList": [],
     "rewardsList": [
       {
-        "id": 11400001,
+        "id": 11400005,
         "num": 50
+      },
+      {
+        "id": 11400071,
+        "num": 1
       }
     ],
     "nextQuest": [
@@ -81803,9 +81874,9 @@
     "idCN": "主线/EP5/5-04-父任务-战斗",
     "mod": "基础任务",
     "isInformalData": false,
-    "name": "5-04",
+    "name": "调查荒原",
     "describe": "协助调查荒原站的桦树生物",
-    "story": "列车长从安菲娅口中得知了一些异常，协助调查荒原站的桦树生物。",
+    "story": "与安菲娅同行，调查荒原站桦树生物的异常之处。",
     "questType": "Main",
     "sort": 0,
     "isShowProgress": true,
@@ -81846,7 +81917,7 @@
     ],
     "rewardsList": [
       {
-        "id": 11400001,
+        "id": 11400005,
         "num": 50
       }
     ],
