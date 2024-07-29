@@ -76475,14 +76475,14 @@
       },
       {
         "effectId": 11103400,
-        "offsetX": 3.1,
+        "offsetX": 0.0,
         "offsetY": 0.0,
         "triggerFrame": 70,
         "triggerTime_SN": 12190
       },
       {
         "effectId": 11103400,
-        "offsetX": 3.1,
+        "offsetX": 0.0,
         "offsetY": 0.0,
         "triggerFrame": 140,
         "triggerTime_SN": 24214
@@ -152523,7 +152523,7 @@
     "frameChanged": false,
     "frameEventList": [
       {
-        "frameEventId": 10501421,
+        "frameEventId": 10502276,
         "hHalf_SN": 15000,
         "triggerFrame": 18,
         "triggerTime_SN": 3000,
@@ -152532,16 +152532,43 @@
         "y_SN": 15000
       },
       {
-        "frameEventId": 10501422,
+        "frameEventId": 10502249,
         "hHalf_SN": 15000,
-        "triggerFrame": 42,
-        "triggerTime_SN": 7000,
+        "triggerFrame": 21,
+        "triggerTime_SN": 3500,
         "wHalf_SN": 40000,
         "x_SN": 40000,
         "y_SN": 15000
       },
       {
-        "frameEventId": 10501423,
+        "frameEventId": 10502252,
+        "hHalf_SN": 15000,
+        "triggerFrame": 41,
+        "triggerTime_SN": 6833,
+        "wHalf_SN": 40000,
+        "x_SN": 40000,
+        "y_SN": 15000
+      },
+      {
+        "frameEventId": 10502277,
+        "hHalf_SN": 15000,
+        "triggerFrame": 43,
+        "triggerTime_SN": 7167,
+        "wHalf_SN": 40000,
+        "x_SN": 40000,
+        "y_SN": 15000
+      },
+      {
+        "frameEventId": 10502278,
+        "hHalf_SN": 15000,
+        "triggerFrame": 59,
+        "triggerTime_SN": 9833,
+        "wHalf_SN": 40000,
+        "x_SN": 40000,
+        "y_SN": 15000
+      },
+      {
+        "frameEventId": 10502248,
         "hHalf_SN": 15000,
         "triggerFrame": 64,
         "triggerTime_SN": 10667,
@@ -152608,6 +152635,20 @@
         "offsetY": 0.0,
         "triggerFrame": 136,
         "triggerTime_SN": 22667
+      },
+      {
+        "effectId": 11105993,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 145,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11105992,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 145,
+        "triggerTime_SN": 0
       }
     ],
     "soundList": [],
@@ -160272,7 +160313,15 @@
     "customFrameTag": "",
     "frameChanged": false,
     "frameEventList": [],
-    "effectList": [],
+    "effectList": [
+      {
+        "effectId": 11105994,
+        "offsetX": -1.6,
+        "offsetY": 1.2,
+        "triggerFrame": 110,
+        "triggerTime_SN": 0
+      }
+    ],
     "soundList": [],
     "isYChange": false,
     "offsetYList": [],
@@ -161813,22 +161862,15 @@
     "idCN": "我方/05五星/安菲娅/bot出场",
     "mod": "基础状态",
     "isInformalData": false,
-    "actionLevel": "NormalSkill",
+    "actionLevel": "System",
     "viewId": 11000367,
     "aniName": "skill_03_01",
-    "isLoop": true,
-    "aniTime_SN": 500,
-    "totalFrame": 3,
+    "isLoop": false,
+    "aniTime_SN": 167,
+    "totalFrame": 1,
     "customFrameTag": "",
     "frameChanged": true,
-    "frameEventList": [
-      {
-        "frameEventId": 10502233
-      },
-      {
-        "frameEventId": 10501361
-      }
-    ],
+    "frameEventList": [],
     "effectList": [],
     "soundList": [],
     "isYChange": false,
@@ -164590,6 +164632,37 @@
         "wHalf_SN": 0,
         "x_SN": 0,
         "y_SN": 0
+      }
+    ],
+    "effectList": [],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203555,
+    "idCN": "我方/05五星/安菲娅/bot吞噬",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "NormalSkill",
+    "viewId": 11000367,
+    "aniName": "skill_03_01",
+    "isLoop": true,
+    "aniTime_SN": 500,
+    "totalFrame": 3,
+    "customFrameTag": "",
+    "frameChanged": true,
+    "frameEventList": [
+      {
+        "frameEventId": 10502233
+      },
+      {
+        "frameEventId": 10501361
       }
     ],
     "effectList": [],

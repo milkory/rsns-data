@@ -3878,17 +3878,17 @@
     "isSpine2": 0,
     "homeSkillList": [
       {
-        "id": 83900091,
+        "id": 83900076,
         "nextIndex": 3,
         "resonanceLv": 1
       },
       {
-        "id": 83900115,
+        "id": 83900130,
         "nextIndex": 0,
         "resonanceLv": 4
       },
       {
-        "id": 83900092,
+        "id": 83900164,
         "nextIndex": -1,
         "resonanceLv": 5
       }
@@ -3914,6 +3914,8 @@
     "age": 0,
     "gender": "",
     "birthday": "1月1日",
+    "birthdayMonth": "1",
+    "birthdayDay": "1",
     "birthdayCake": -1,
     "birthdayMessage": "",
     "height": "150",
@@ -9389,6 +9391,9 @@
     "skinList": [
       {
         "unitViewId": 11000115
+      },
+      {
+        "unitViewId": 11000377
       }
     ],
     "sideId": 12600031,
@@ -9630,6 +9635,8 @@
     "age": 0,
     "gender": "女",
     "birthday": "9月9日",
+    "birthdayMonth": "9",
+    "birthdayDay": "9",
     "birthdayCake": 11400127,
     "birthdayMessage": "“度假胜地”纯天然原料定制蛋糕 贡露城制作  当日达 邮费寄付",
     "height": "167cm",
@@ -9646,9 +9653,7 @@
     "CvName": "",
     "getCharacter": "我是学会的冯里奈。被派遣至此协助工作……那个，听说这边可以按时下班，是真的吗……？",
     "safeInformation": "",
-    "unitInformation": "",
-    "birthdayMonth": "9",
-    "birthdayDay": "9"
+    "unitInformation": ""
   },
   {
     "id": 10000391,
@@ -30993,7 +30998,7 @@
     ],
     "enemyType": 12601048,
     "enemyCamp": 12600237,
-    "enemyBookId": 10000114,
+    "enemyBookId": -1,
     "prisonerDrop": []
   },
   {
@@ -31153,7 +31158,7 @@
     "resistanceList": [],
     "enemyType": 12601048,
     "enemyCamp": 12600237,
-    "enemyBookId": 10000115,
+    "enemyBookId": -1,
     "prisonerDrop": []
   },
   {
@@ -66253,6 +66258,9 @@
     "skinList": [
       {
         "unitViewId": 11000369
+      },
+      {
+        "unitViewId": 11000370
       }
     ],
     "sideId": 12600035,
@@ -66462,6 +66470,10 @@
       {
         "file": 80303519,
         "skinId": -1
+      },
+      {
+        "file": 80303520,
+        "skinId": 11000370
       }
     ],
     "age": 0,
@@ -67244,7 +67256,11 @@
     "skinList": [],
     "sideId": 12600910,
     "controllerId": 10300423,
-    "bulletControllerList": [],
+    "bulletControllerList": [
+      {
+        "controllerId": 13400010
+      }
+    ],
     "isBoss": true,
     "bossHpTemp": 90100010,
     "isDeadNotDisappear": false,
@@ -67276,11 +67292,14 @@
       },
       {
         "skillId": 12301747
+      },
+      {
+        "skillId": 12301780
       }
     ],
-    "hp_SN": 320000000,
-    "def_SN": 600000,
-    "atk_SN": 720000,
+    "hp_SN": 1650000000,
+    "def_SN": 650000,
+    "atk_SN": 800000,
     "atkSpeed_SN": 1000000,
     "luck_SN": 0,
     "spName": "",
@@ -67351,7 +67370,7 @@
     "hitPointY_SN": 30000,
     "hitAreaX_SN": 0,
     "hitAreaY_SN": 30000,
-    "hitAreaHalfWidth_SN": 14000,
+    "hitAreaHalfWidth_SN": 13000,
     "hitAreaHalfHeight_SN": 30000,
     "battleDes": "",
     "safeInformation": "",
