@@ -3768,13 +3768,16 @@
     "allSkillList": [],
     "skillList": [
       {
-        "num": 3
+        "num": 2,
+        "skillId": 12300242
       },
       {
-        "num": 1
+        "num": 2,
+        "skillId": 12300243
       },
       {
-        "num": 2
+        "num": 1,
+        "skillId": 12300244
       }
     ],
     "noUpgradeSkillList": [],
@@ -3855,14 +3858,14 @@
         "num": 1
       }
     ],
-    "actionStandID": 10100654,
-    "actionMoveID": 10100656,
-    "actionAttackedID": 10100655,
-    "actionAttackedBackID": 10100659,
+    "actionStandID": 10103188,
+    "actionMoveID": 10103178,
+    "actionAttackedID": 10103175,
+    "actionAttackedBackID": 10103177,
     "actionKnockUpID": -1,
-    "actionStunID": 10100653,
-    "actionDeadID": 10100652,
-    "actionVictoryID": -1,
+    "actionStunID": 10103179,
+    "actionDeadID": 10103180,
+    "actionVictoryID": 10103181,
     "hitPointX_SN": 0,
     "hitPointY_SN": 15000,
     "hitAreaX_SN": 0,
@@ -6533,6 +6536,7 @@
     "controllerId": 10300115,
     "bulletControllerList": [],
     "isBoss": false,
+    "bossHpTemp": -1,
     "isDeadNotDisappear": false,
     "isFly": false,
     "originFlyYSN": 0,
@@ -6596,19 +6600,22 @@
     ],
     "awakeList": [
       {
-        "awakeId": 12200171
+        "awakeId": 12200197
       },
       {
-        "awakeId": 12200172
+        "awakeId": 12200198
       },
       {
-        "awakeId": 12200173
+        "awakeId": 12200199
       },
       {
-        "awakeId": 12200174
+        "awakeId": 12200200
       },
       {
-        "awakeId": 12200175
+        "awakeId": 12200201
+      },
+      {
+        "awakeId": 12200361
       }
     ],
     "talentList": [
@@ -6640,14 +6647,30 @@
     "hitAreaY_SN": 10000,
     "hitAreaHalfWidth_SN": 5000,
     "hitAreaHalfHeight_SN": 10000,
+    "decomposeRewardList": [],
+    "isSpine2": 1,
+    "homeSkillList": [],
     "totalCost": 1,
     "totalCardNum": 1,
-    "isSpine2": 1,
+    "skillMin": 5,
+    "homeCharacter": -1,
+    "stationStoreCharacter": -1,
+    "gotoBed": true,
+    "isDoctor": false,
+    "medicalPoint": 0,
+    "WasteCoefficient": 1.0,
+    "FoodList": [],
+    "ProfilePhotoList": [],
     "classifyList": [],
+    "careerList": [],
     "fileList": [],
     "age": 0,
     "gender": "",
     "birthday": "1月1日",
+    "birthdayMonth": "1",
+    "birthdayDay": "1",
+    "birthdayCake": -1,
+    "birthdayMessage": "",
     "height": "151cm",
     "birthplace": "",
     "ability": "",
@@ -6657,15 +6680,8 @@
     "StoryList": [],
     "CvName": "",
     "getCharacter": "",
-    "skillMin": 5,
-    "homeCharacter": -1,
-    "gotoBed": true,
-    "isDoctor": false,
-    "WasteCoefficient": 1.0,
-    "homeSkillList": [],
-    "FoodList": [],
-    "ProfilePhotoList": [],
-    "safeInformation": ""
+    "safeInformation": "",
+    "unitInformation": ""
   },
   {
     "id": 10000170,
@@ -12934,6 +12950,7 @@
     "controllerId": 10300234,
     "bulletControllerList": [],
     "isBoss": false,
+    "bossHpTemp": -1,
     "isDeadNotDisappear": false,
     "isFly": false,
     "originFlyYSN": 0,
@@ -13008,19 +13025,22 @@
     ],
     "awakeList": [
       {
-        "awakeId": 12200227
+        "awakeId": 12200197
       },
       {
-        "awakeId": 12200228
+        "awakeId": 12200198
       },
       {
-        "awakeId": 12200229
+        "awakeId": 12200199
       },
       {
-        "awakeId": 12200230
+        "awakeId": 12200200
       },
       {
-        "awakeId": 12200231
+        "awakeId": 12200201
+      },
+      {
+        "awakeId": 12200361
       }
     ],
     "talentList": [
@@ -13069,6 +13089,7 @@
     "totalCardNum": 1,
     "skillMin": 5,
     "homeCharacter": -1,
+    "stationStoreCharacter": -1,
     "gotoBed": true,
     "isDoctor": false,
     "medicalPoint": 0,
@@ -13076,6 +13097,7 @@
     "FoodList": [],
     "ProfilePhotoList": [],
     "classifyList": [],
+    "careerList": [],
     "fileList": [
       {
         "file": 80301600
@@ -13084,6 +13106,10 @@
     "age": 0,
     "gender": "",
     "birthday": "12月2日",
+    "birthdayMonth": "1",
+    "birthdayDay": "1",
+    "birthdayCake": -1,
+    "birthdayMessage": "",
     "height": "47cm",
     "birthplace": "某工厂",
     "ability": "",
@@ -13097,7 +13123,8 @@
     "StoryList": [],
     "CvName": "",
     "getCharacter": "正在进行对象识别……无垠号列车长，评级为：普通，正在切换行动模式。",
-    "safeInformation": ""
+    "safeInformation": "",
+    "unitInformation": ""
   },
   {
     "id": 10000125,
@@ -53173,22 +53200,22 @@
     ],
     "awakeList": [
       {
-        "awakeId": 12200207
+        "awakeId": 12200403
       },
       {
-        "awakeId": 12200208
+        "awakeId": 12200404
       },
       {
-        "awakeId": 12200209
+        "awakeId": 12200408
       },
       {
-        "awakeId": 12200210
+        "awakeId": 12200405
       },
       {
-        "awakeId": 12200211
+        "awakeId": 12200406
       },
       {
-        "awakeId": 12200370
+        "awakeId": 12200407
       }
     ],
     "talentList": [
@@ -53232,7 +53259,8 @@
     "resistanceList": [],
     "enemyType": -1,
     "enemyCamp": -1,
-    "enemyBookId": -1
+    "enemyBookId": -1,
+    "prisonerDrop": []
   },
   {
     "id": 10000278,

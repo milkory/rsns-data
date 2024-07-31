@@ -1616,5 +1616,29 @@
     "paramHelp": "店铺id",
     "returnType": "bool",
     "script": "local stationPlace = PlayerData:GetFactoryData($param0, \"HomeStationPlaceFactory\")\rCommonTips.OpenTips(string.format(GetText(stationPlace.lockedTip), stationPlace.levelOpen))"
+  },
+  {
+    "id": 60000136,
+    "idCN": "主线/剧情5-14战前",
+    "mod": "逻辑脚本",
+    "isInformalData": false,
+    "debug": false,
+    "memo": "5-14战前",
+    "paramHelp": "",
+    "returnType": "int",
+    "scriptPath": "GGScript/MainPlot5-14",
+    "scriptLabel": "main"
+  },
+  {
+    "id": 60000137,
+    "idCN": "主线/剧情5-15",
+    "mod": "逻辑脚本",
+    "isInformalData": false,
+    "debug": false,
+    "memo": "5-15",
+    "paramHelp": "",
+    "returnType": "int",
+    "scriptPath": "GGScript/MainPlot5-15",
+    "scriptLabel": "main"
   }
 ]
