@@ -3187,6 +3187,8 @@
     "age": 0,
     "gender": "女",
     "birthday": "11月12日",
+    "birthdayMonth": "11",
+    "birthdayDay": "12",
     "birthdayCake": 11400126,
     "birthdayMessage": "骑士屋特制蛋糕，请用！虽然我只负责了用樱桃点缀的部分，但买来的蛋糕应该味道还不错……？",
     "height": "165cm",
@@ -3203,9 +3205,7 @@
     "CvName": "",
     "getCharacter": "你好，我是夏洛蒂，现在在地表经营“骑士万事屋”。请多指教。",
     "safeInformation": "",
-    "unitInformation": "",
-    "birthdayMonth": "11",
-    "birthdayDay": "12"
+    "unitInformation": ""
   },
   {
     "id": 10000071,
@@ -3750,7 +3750,14 @@
     "randomOffsetFlyYSN": 0,
     "flyOnStraight": false,
     "classifyTagList": [],
-    "tagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600067
+      }
+    ],
     "passiveSkillList": [],
     "hp_SN": 85000000,
     "def_SN": 830000,
@@ -30994,7 +31001,7 @@
     "hitAreaHalfHeight_SN": 10000,
     "battleDes": "",
     "safeInformation": "",
-    "unitInformation": "",
+    "unitInformation": "深眠者，只是向“她”投去眼神都会让人浑身战栗。无论是可怖的外表、巨大化的盾牌还是持续不断的低语，都给人以极大的压迫感。在现在已知的深眠者中也可以说是执念深重的恐怖对手。\\n战斗风格似曾相识。她违背的，究竟是在何时许下的誓言？",
     "enemyDrop": [
       {
         "id": 11700077
@@ -31151,7 +31158,7 @@
     "hitAreaHalfHeight_SN": 10000,
     "battleDes": "",
     "safeInformation": "",
-    "unitInformation": "",
+    "unitInformation": "“深眠者”……如果还能这样称呼她的话。各项数值上已经超越了迄今为止所有有记录的“深眠者”。异变不仅仅局限于面具，四肢都隐约可见木质的增生和纹理，再度提升的各项能力让她的攻势更为狂暴。不间断的呓语如同死神在耳边呼唤，使得对抗者的精神和肉体都遭受着折磨。\\n即使舍弃曾经的一切也要得到的东西，对她来说是什么？",
     "enemyDrop": [
       {
         "id": 11700077
@@ -67427,7 +67434,7 @@
     "hitAreaHalfHeight_SN": 30000,
     "battleDes": "",
     "safeInformation": "",
-    "unitInformation": "",
+    "unitInformation": "躯体出现高程度异化，战斗能力得到极大增幅的深眠者。在过去的某个时刻，她是我们的朋友柯娜，而现在她只是一具抛弃了所有过往、奔赴更高存在的躯壳。誓言不再重要，守护不再重要，“她”亦不再重要。\\n会为我方施加“庇护”，但“庇护”也会增强其部分技能的效果。以造成全体伤害的技能为主要攻击手段。",
     "enemyDrop": [
       {
         "id": 11700077
@@ -67444,15 +67451,27 @@
     ],
     "abilityList": [
       {
-        "id": 12600906
+        "id": 12600933
       },
       {
-        "id": 12600939
+        "id": 12601007
+      },
+      {
+        "id": 12600923
+      },
+      {
+        "id": 12600930
+      },
+      {
+        "id": 12600927
       }
     ],
     "weaknessList": [
       {
         "id": 12600978
+      },
+      {
+        "id": 12601008
       }
     ],
     "resistanceList": [
@@ -67461,6 +67480,15 @@
       },
       {
         "id": 12600965
+      },
+      {
+        "id": 12600956
+      },
+      {
+        "id": 12600968
+      },
+      {
+        "id": 12600992
       }
     ],
     "enemyType": 12601048,
@@ -70105,6 +70133,456 @@
     "enemyType": 12601048,
     "enemyCamp": 12600221,
     "enemyBookId": 10000252,
+    "prisonerDrop": []
+  },
+  {
+    "id": 10000422,
+    "idCN": "爬塔/角色改/夏洛蒂BOSS",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "夏洛蒂",
+    "EnglishName": "Charlotte",
+    "viewId": 11000064,
+    "skinList": [],
+    "sideId": 12600026,
+    "controllerId": 10300437,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": -1,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600067
+      },
+      {
+        "tagId": 12600013
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301519
+      },
+      {
+        "skillId": 12301415
+      },
+      {
+        "skillId": 12301814
+      },
+      {
+        "skillId": 12301810
+      },
+      {
+        "skillId": 12300246
+      },
+      {
+        "skillId": 12301812
+      },
+      {
+        "skillId": 12301813
+      },
+      {
+        "skillId": 12301821
+      },
+      {
+        "skillId": 12301816
+      }
+    ],
+    "hp_SN": 1660000000,
+    "def_SN": 790000,
+    "atk_SN": 810000,
+    "atkSpeed_SN": 500000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "FiveStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000395,
+    "growthTagList": [
+      {
+        "growthTagId": 12000354
+      },
+      {
+        "growthTagId": 12000106
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [
+      {
+        "breakthroughId": 12100507
+      },
+      {
+        "breakthroughId": 12100503
+      },
+      {
+        "breakthroughId": 12100504
+      },
+      {
+        "breakthroughId": 12100098
+      },
+      {
+        "breakthroughId": 12100099
+      },
+      {
+        "breakthroughId": 12100505
+      }
+    ],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800477
+      },
+      {
+        "talentId": 12800478
+      },
+      {
+        "talentId": 12800476
+      },
+      {
+        "talentId": 12800480
+      },
+      {
+        "talentId": 12800481
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10102497,
+    "actionMoveID": 10102501,
+    "actionAttackedID": 10102503,
+    "actionAttackedBackID": 10102506,
+    "actionKnockUpID": -1,
+    "actionStunID": 10102504,
+    "actionDeadID": 10100219,
+    "actionVictoryID": 10102499,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 15000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 10000,
+    "hitAreaHalfWidth_SN": 5000,
+    "hitAreaHalfHeight_SN": 10000,
+    "battleDes": "",
+    "safeInformation": "",
+    "unitInformation": "",
+    "enemyDrop": [],
+    "abilityList": [],
+    "weaknessList": [],
+    "resistanceList": [],
+    "enemyType": -1,
+    "enemyCamp": -1,
+    "enemyBookId": -1,
+    "prisonerDrop": []
+  },
+  {
+    "id": 10000448,
+    "idCN": "爬塔/角色改/菲妮娅BOSS",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "菲妮娅",
+    "EnglishName": "",
+    "viewId": 11000139,
+    "skinList": [],
+    "sideId": 12600031,
+    "controllerId": 10300276,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": -1,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600067
+      }
+    ],
+    "passiveSkillList": [],
+    "hp_SN": 272000000,
+    "def_SN": 640000,
+    "atk_SN": 720000,
+    "atkSpeed_SN": 1000000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "fourStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000304,
+    "growthTagList": [
+      {
+        "growthTagId": 12000354
+      },
+      {
+        "growthTagId": 12000106
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [
+      {
+        "breakthroughId": 12100278
+      },
+      {
+        "breakthroughId": 12100298
+      },
+      {
+        "breakthroughId": 12100299
+      },
+      {
+        "breakthroughId": 12100281
+      },
+      {
+        "breakthroughId": 12100282
+      },
+      {
+        "breakthroughId": 12100157
+      }
+    ],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800068
+      },
+      {
+        "talentId": 12800268
+      },
+      {
+        "talentId": 12800188
+      },
+      {
+        "talentId": 12800294
+      },
+      {
+        "talentId": 12800269
+      }
+    ],
+    "rewardList": [
+      {
+        "id": 11700024,
+        "num": 1
+      }
+    ],
+    "actionStandID": 10101410,
+    "actionMoveID": 10101411,
+    "actionAttackedID": 10101412,
+    "actionAttackedBackID": 10101413,
+    "actionKnockUpID": -1,
+    "actionStunID": 10101414,
+    "actionDeadID": 10101415,
+    "actionVictoryID": -1,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 15000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 10000,
+    "hitAreaHalfWidth_SN": 5000,
+    "hitAreaHalfHeight_SN": 10000,
+    "battleDes": "",
+    "safeInformation": "菲妮娅保证会掌握下手轻重的，作为御敌枢纽的新星，她有这样的实力。",
+    "unitInformation": "",
+    "enemyDrop": [],
+    "abilityList": [],
+    "weaknessList": [],
+    "resistanceList": [],
+    "enemyType": 12601047,
+    "enemyCamp": 12601045,
+    "enemyBookId": -1,
+    "prisonerDrop": []
+  },
+  {
+    "id": 10000453,
+    "idCN": "爬塔/角色改/薇尔岚BOSS",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "薇尔岚",
+    "EnglishName": "",
+    "viewId": 11000141,
+    "skinList": [],
+    "sideId": 12600026,
+    "controllerId": 10300118,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": -1,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600067
+      },
+      {
+        "tagId": 12600506
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12300278
+      },
+      {
+        "skillId": 12301822
+      },
+      {
+        "skillId": 12301823
+      },
+      {
+        "skillId": 12301824
+      }
+    ],
+    "hp_SN": 1500000000,
+    "def_SN": 780000,
+    "atk_SN": 820000,
+    "atkSpeed_SN": 1000000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "FiveStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000396,
+    "growthTagList": [],
+    "skillLvUpList": [],
+    "breakthroughList": [
+      {
+        "breakthroughId": 12100280
+      },
+      {
+        "breakthroughId": 12100509
+      },
+      {
+        "breakthroughId": 12100510
+      },
+      {
+        "breakthroughId": 12100287
+      },
+      {
+        "breakthroughId": 12100288
+      },
+      {
+        "breakthroughId": 12100511
+      }
+    ],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800204
+      },
+      {
+        "talentId": 12800479
+      },
+      {
+        "talentId": 12800476
+      },
+      {
+        "talentId": 12800202
+      },
+      {
+        "talentId": 12800203
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10102530,
+    "actionMoveID": 10102534,
+    "actionAttackedID": 10102537,
+    "actionAttackedBackID": 10102529,
+    "actionKnockUpID": -1,
+    "actionStunID": 10102533,
+    "actionDeadID": 10102536,
+    "actionVictoryID": 10102522,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 15000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 10000,
+    "hitAreaHalfWidth_SN": 5000,
+    "hitAreaHalfHeight_SN": 10000,
+    "battleDes": "",
+    "safeInformation": "",
+    "unitInformation": "",
+    "enemyDrop": [],
+    "abilityList": [],
+    "weaknessList": [],
+    "resistanceList": [],
+    "enemyType": -1,
+    "enemyCamp": -1,
+    "enemyBookId": -1,
     "prisonerDrop": []
   }
 ]

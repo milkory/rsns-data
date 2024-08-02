@@ -608,7 +608,7 @@
   },
   {
     "id": 86500030,
-    "idCN": "01任务追踪/主界面/活动插针",
+    "idCN": "01任务追踪/主界面/地下茶厂",
     "mod": "任务追踪",
     "isInformalData": false,
     "stateList": [
@@ -3263,6 +3263,69 @@
       {
         "bubbleType": "Other",
         "mId": 86400239,
+        "nodePath": "ScrollView_Map.Viewport.Group_BG.Group_Build%s.Btn_Build.Group_Anim",
+        "note": "",
+        "offsetX": 40,
+        "offsetY": 82,
+        "prefab": "UI/Common/Group_Track",
+        "stateNo": 1,
+        "tipsType": "BubbleId"
+      }
+    ],
+    "keyList": [
+      {
+        "factoryVal": -1,
+        "intVal": 1,
+        "key": "IsInEndStation",
+        "stringVal": ""
+      }
+    ]
+  },
+  {
+    "id": 86500118,
+    "idCN": "01任务追踪/主界面/战备工厂周边",
+    "mod": "任务追踪",
+    "isInformalData": false,
+    "stateList": [
+      {
+        "nodePath": "Btn_Launch",
+        "note": "不在目的地-导航按钮",
+        "offsetX": -101,
+        "offsetY": 74,
+        "prefab": "UI/Common/Group_Track",
+        "stateNo": 0,
+        "tipsType": "Config"
+      },
+      {
+        "bubbleType": "Other",
+        "mId": -1,
+        "nodePath": "Group_Common.SoftMask_HomeMap.Group_HomeMap.ScrollView_Map.Viewport.Content.ScrollGrid_Station.Viewport.Grid.Group_Item_016.Btn_S1",
+        "note": "小地图-目标车站",
+        "offsetX": -15,
+        "offsetY": -60,
+        "prefab": "UI/Common/Group_Track_Map",
+        "stateNo": 1,
+        "tipsType": "EndStation"
+      }
+    ],
+    "keyList": [
+      {
+        "factoryVal": -1,
+        "intVal": 1,
+        "key": "IsActivated",
+        "stringVal": "Group_Common.SoftMask_HomeMap.Group_MapActive"
+      }
+    ]
+  },
+  {
+    "id": 86500119,
+    "idCN": "01任务追踪/城市地图/7号自由港/EP5/对话32伊利亚德",
+    "mod": "任务追踪",
+    "isInformalData": false,
+    "stateList": [
+      {
+        "bubbleType": "Other",
+        "mId": 86400240,
         "nodePath": "ScrollView_Map.Viewport.Group_BG.Group_Build%s.Btn_Build.Group_Anim",
         "note": "",
         "offsetX": 40,

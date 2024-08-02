@@ -505,7 +505,7 @@
         "id": 85300002
       }
     ],
-    "NoticeAddress": "https://eden-notice.oss-cn-hangzhou.aliyuncs.com/notice_sc_test.html",
+    "NoticeAddress": "https://eden-notice.oss-cn-hangzhou.aliyuncs.com/notice_sc.html",
     "limitTimes": 9,
     "maxTimes": 30,
     "BlockTime": 900,
@@ -14748,7 +14748,7 @@
       },
       {
         "ChapterList": 20601273,
-        "questId": 81000315
+        "questId": 81000962
       }
     ]
   },
@@ -20314,6 +20314,14 @@
         "cName": "车载炼矿机",
         "engName": "Rough chaos stone refiner",
         "id": 12600383
+      },
+      {
+        "GetWay": "7号自由港-伊利亚德-兑换",
+        "UIName": "UI/Home_MachiningLathe/Metaphys/Home_Metaphys",
+        "bgPath": "UI/Home_MachiningMenu/Assets/MachiningMenu_bg_Metaphys",
+        "cName": "形而上三一仪",
+        "engName": "Metaphysical trinity analyzer",
+        "id": 12600193
       }
     ]
   },
@@ -20336,6 +20344,17 @@
         "tag": 12601070
       },
       {
+        "endTime": "2024-08-20 00:00:00",
+        "id": 86000001,
+        "isCompleteBottom": false,
+        "name": 80602404,
+        "png": "UI/Activity/Tab/tab_black",
+        "showUI": "",
+        "sort": 7,
+        "startTime": "2024-07-30 10:00:00",
+        "tag": 12601071
+      },
+      {
         "endTime": "",
         "id": 86000005,
         "isCompleteBottom": false,
@@ -20345,6 +20364,17 @@
         "sort": 2,
         "startTime": "2024-07-01 12:00:00",
         "tag": 12601209
+      },
+      {
+        "endTime": "",
+        "id": 86000010,
+        "isCompleteBottom": false,
+        "name": 80600437,
+        "png": "UI/Activity/Tab/tab_eventWeek",
+        "showUI": "UI/Activity/GoldenWeek/Group_EventWeek",
+        "sort": 6,
+        "startTime": "2024-06-28 05:00:00",
+        "tag": 12601150
       },
       {
         "endTime": "",
@@ -20378,28 +20408,6 @@
         "sort": 5,
         "startTime": "2024-05-01 05:00:00",
         "tag": 12601103
-      },
-      {
-        "endTime": "",
-        "id": 86000010,
-        "isCompleteBottom": false,
-        "name": 80600437,
-        "png": "UI/Activity/Tab/tab_eventWeek",
-        "showUI": "UI/Activity/GoldenWeek/Group_EventWeek",
-        "sort": 6,
-        "startTime": "2024-06-28 05:00:00",
-        "tag": 12601150
-      },
-      {
-        "endTime": "2024-08-20 00:00:00",
-        "id": 86000001,
-        "isCompleteBottom": false,
-        "name": 80602404,
-        "png": "UI/Activity/Tab/tab_black",
-        "showUI": "",
-        "sort": 7,
-        "startTime": "2024-07-30 10:00:00",
-        "tag": 12601071
       },
       {
         "endTime": "2024-07-07 00:00:00",
@@ -21005,6 +21013,39 @@
         "spineX": 0.0,
         "spineY": 0.0,
         "startTime": "2024-07-11 12:00:00"
+      }
+    ]
+  },
+  {
+    "id": 99900066,
+    "idCN": "行车日志/0类型表",
+    "mod": "剧情回顾类型",
+    "isInformalData": false,
+    "nameEN": "PlotListConfig",
+    "typeList": [
+      {
+        "bgPath": "UI/PlotReview/MainStory",
+        "decoArrayPath": "UI/PlotReview/Effect/image/Tuxing_4_Orange_0",
+        "decoLinePath": "UI/PlotReview/Effect/image/Tuxing_4_Orange_1",
+        "reviewId": 99900046,
+        "typeName": "主线剧情",
+        "typeNameEn": "Main Story"
+      },
+      {
+        "bgPath": "UI/PlotReview/EventStory",
+        "decoArrayPath": "UI/PlotReview/Effect/image/Tuxing_2_Blue_0",
+        "decoLinePath": "UI/PlotReview/Effect/image/Tuxing_2_Blue_1",
+        "reviewId": 99900077,
+        "typeName": "活动剧情",
+        "typeNameEn": "Event Story"
+      },
+      {
+        "bgPath": "UI/PlotReview/MemberStory",
+        "decoArrayPath": "UI/PlotReview/Effect/image/Tuxing_3_Red_0",
+        "decoLinePath": "UI/PlotReview/Effect/image/Tuxing_3_Red_1",
+        "reviewId": 99900078,
+        "typeName": "乘员逸闻",
+        "typeNameEn": "Crewmember Anecdote"
       }
     ]
   }
