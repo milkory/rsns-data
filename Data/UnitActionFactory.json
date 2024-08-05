@@ -125263,7 +125263,7 @@
     "radius_SN": 0,
     "damageHitBuffList": [],
     "healHitBuffList": [],
-    "cdFrame": 20,
+    "cdFrame": 122,
     "isUseBigNumber": false,
     "stateIdList": [
       {
@@ -129413,6 +129413,48 @@
         "stateId": 10203625,
         "timesRate_SN": 10000,
         "timesSource": "FixedValue"
+      }
+    ],
+    "backShakeFrame": -1
+  },
+  {
+    "id": 10103192,
+    "idCN": "敌方/06深眠者/远祖的果报/bs站立",
+    "mod": "基础动作",
+    "isInformalData": false,
+    "isCharge": false,
+    "isSkill": false,
+    "actionLevel": "Stand",
+    "isUseTargetFilter": false,
+    "targetType": "Enemy",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 990000,
+    "attributeType": "HpMax",
+    "condition": "All",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 99,
+    "distance_SN": 240000,
+    "radius_SN": 0,
+    "damageHitBuffList": [],
+    "healHitBuffList": [],
+    "cdFrame": 160,
+    "isUseBigNumber": false,
+    "stateIdList": [
+      {
+        "bPlayTimes": false,
+        "customDataTag": "",
+        "stateId": 10203611,
+        "timesRate_SN": 10000,
+        "timesSource": "CurrentHp"
       }
     ],
     "backShakeFrame": -1
