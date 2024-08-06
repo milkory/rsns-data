@@ -61726,6 +61726,10 @@
       {
         "id": 11400056,
         "num": 100
+      },
+      {
+        "id": 81300339,
+        "num": 1
       }
     ],
     "nextQuest": [
@@ -61762,6 +61766,7 @@
     "isShowProgress": true,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
+    "isAnecdote": false,
     "client": 82600293,
     "startStation": 83000020,
     "endStationList": [
@@ -61770,16 +61775,21 @@
         "weight": 10
       }
     ],
+    "isAutoTrace": false,
     "traceList": [],
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [],
     "num": 4,
     "islockAddProgress": false,
     "isAutoComplete": true,
     "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
     "parentQuest": -1,
     "childQuestList": [
       {
@@ -61803,6 +61813,10 @@
       {
         "id": 11400056,
         "num": 100
+      },
+      {
+        "id": 81300337,
+        "num": 1
       }
     ],
     "nextQuest": [
@@ -63016,6 +63030,7 @@
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
+    "isAnecdote": false,
     "client": 82600002,
     "startStation": 83000029,
     "endStationList": [
@@ -63024,6 +63039,7 @@
         "weight": 10
       }
     ],
+    "isAutoTrace": false,
     "traceList": [
       {
         "apiListId": 86500038,
@@ -63041,6 +63057,7 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -63052,11 +63069,18 @@
     "islockAddProgress": false,
     "isAutoComplete": false,
     "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
     "parentQuest": -1,
     "childQuestList": [],
     "rewardsList": [
       {
         "id": 11400067,
+        "num": 1
+      },
+      {
+        "id": 81300338,
         "num": 1
       }
     ],
@@ -80857,7 +80881,7 @@
     "mod": "基础任务",
     "isInformalData": false,
     "name": "始作俑者",
-    "describe": "通关阿妮塔战备工厂周边副本",
+    "describe": "清除阿妮塔战备工厂南部周边的威胁",
     "story": "打倒面前的一系列阻碍。",
     "questType": "Main",
     "sort": 0,
@@ -81073,8 +81097,8 @@
     "mod": "基础任务",
     "isInformalData": false,
     "name": "真相之旅",
-    "describe": "经由阿妮塔战备工厂驶向阿妮塔能源研究所",
-    "story": "前往阿妮塔能源研究所，探寻真相。",
+    "describe": "在前往阿妮塔能源研究所的途中清除威胁",
+    "story": "确保经由阿妮塔战备工厂前往阿妮塔能源研究所的途中没有威胁。",
     "questType": "Main",
     "sort": 0,
     "isShowProgress": false,
@@ -86148,6 +86172,397 @@
       {
         "id": 11400045,
         "num": 5
+      }
+    ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81001319,
+    "idCN": "活动/夏活/支线/任务1",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "【活动】任务1",
+    "describe": "前往海角城与xx对话",
+    "story": "梅迪奇通知列车组前往海角城接取海岛度假村开拓任务。",
+    "questType": "Side",
+    "sort": 12,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "client": 82600296,
+    "startStation": 83000002,
+    "endStationList": [
+      {
+        "id": 83000002,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": true,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500092,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "dialog",
+        "val": "0"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400001,
+        "num": 50
+      }
+    ],
+    "nextQuest": [
+      {
+        "id": 81001320
+      }
+    ],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81001320,
+    "idCN": "活动/夏活/支线/任务2",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "【活动】任务2",
+    "describe": "在海角城商会与xx交谈",
+    "story": "到达海角城，一些见面和介绍，准备前往商会",
+    "questType": "Side",
+    "sort": 12,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "client": 82600296,
+    "startStation": 83000002,
+    "endStationList": [
+      {
+        "id": 83000002,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": true,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500092,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "dialog",
+        "val": "0"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400001,
+        "num": 50
+      }
+    ],
+    "nextQuest": [
+      {
+        "id": 81001321
+      }
+    ],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81001321,
+    "idCN": "活动/夏活/支线/任务3",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "【活动】任务3",
+    "describe": "在海角城铁安局与卡莲交谈",
+    "story": "与商会同僚对话，并且听说了蜃息岛的传说。由同僚引荐去见海角城的负责人。",
+    "questType": "Side",
+    "sort": 12,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "client": 82600296,
+    "startStation": 83000002,
+    "endStationList": [
+      {
+        "id": 83000002,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": true,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500092,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "dialog",
+        "val": "0"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400001,
+        "num": 50
+      }
+    ],
+    "nextQuest": [
+      {
+        "id": 81001322
+      }
+    ],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81001322,
+    "idCN": "活动/夏活/支线/任务4",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "【活动】任务4",
+    "describe": "在海角城市政厅与xx交谈",
+    "story": "从卡莲这里听说静流休假的消息。",
+    "questType": "Side",
+    "sort": 12,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "client": 82600296,
+    "startStation": 83000002,
+    "endStationList": [
+      {
+        "id": 83000002,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": true,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500092,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "dialog",
+        "val": "0"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400001,
+        "num": 50
+      }
+    ],
+    "nextQuest": [
+      {
+        "id": 81001323
+      }
+    ],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81001323,
+    "idCN": "活动/夏活/支线/任务5",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "【活动】任务5",
+    "describe": "在海角城与莉薇娅对话",
+    "story": "在市政厅得知了具体工作事项和西蒙提前一步的消息，做好准备后去码头坐船去蜃息岛。",
+    "questType": "Side",
+    "sort": 12,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "client": 82600002,
+    "startStation": 83000002,
+    "endStationList": [
+      {
+        "id": 83000002,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": true,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500092,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "dialog",
+        "val": "0"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400001,
+        "num": 50
       }
     ],
     "nextQuest": [],

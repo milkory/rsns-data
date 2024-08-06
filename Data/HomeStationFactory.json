@@ -5090,9 +5090,9 @@
     "maxDivide": 0.35,
     "added": 0,
     "travelDay": 1,
-    "travelDayPond": 85600119,
+    "travelDayPond": -1,
     "intervalTime": 6,
-    "visitorNumPond": 85600118,
+    "visitorNumPond": -1,
     "tax": 0.05,
     "investTime": 1.0,
     "constructStageList": [
@@ -5135,6 +5135,17 @@
     "order": 0,
     "cityLeafletList": [],
     "cityLeafletLest": [],
+    "trainList": [],
+    "recommendNum": 0,
+    "kmCostList": [
+      {
+        "id": 11400001,
+        "num": 50
+      }
+    ],
+    "onhookCoefficient": 1.0,
+    "trainHelpChat": 20700069,
+    "prisonId": -1,
     "isPublicize": true,
     "PublicizeList": [
       {
@@ -5146,18 +5157,7 @@
       {
         "id": 85600115
       }
-    ],
-    "trainList": [],
-    "recommendNum": 0,
-    "kmCostList": [
-      {
-        "id": 11400001,
-        "num": 50
-      }
-    ],
-    "onhookCoefficient": 1.0,
-    "trainHelpChat": 20700069,
-    "prisonId": -1
+    ]
   },
   {
     "id": 83000003,
@@ -7090,8 +7090,6 @@
         "id": 80300307
       }
     ],
-    "isPublicize": false,
-    "PublicizeList": [],
     "trainList": [],
     "recommendNum": 0,
     "kmCostList": [
@@ -7102,7 +7100,9 @@
     ],
     "onhookCoefficient": 1.0,
     "trainHelpChat": 20700007,
-    "prisonId": -1
+    "prisonId": -1,
+    "isPublicize": false,
+    "PublicizeList": []
   },
   {
     "id": 83000005,
