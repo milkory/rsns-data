@@ -5933,7 +5933,7 @@
       }
     ],
     "tagType": "And",
-    "halfWidth_SN": 240000,
+    "halfWidth_SN": 2000000,
     "attributeType": "HpMax",
     "condition": "All",
     "numberType": "Number",
@@ -15034,7 +15034,7 @@
       }
     ],
     "tagType": "And",
-    "halfWidth_SN": 240000,
+    "halfWidth_SN": 2000000,
     "attributeType": "HpMax",
     "condition": "All",
     "numberType": "Number",
@@ -25122,5 +25122,55 @@
     "filterPosition": "DefaultPos",
     "isAimSelf": false,
     "targetCount": 0
+  },
+  {
+    "id": 10502293,
+    "idCN": "敌方/11黑月/镇雷鸣/技能4记录次数",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10411739
+  },
+  {
+    "id": 10502294,
+    "idCN": "敌方/11黑月/镇雷鸣/技能4伤害",
+    "mod": "攻击事件",
+    "isInformalData": false,
+    "buffId": 10411735,
+    "hitSoundID": -1
+  },
+  {
+    "id": 10502295,
+    "idCN": "敌方/11黑月/镇雷鸣/技能4选定目标",
+    "mod": "子弹事件",
+    "isInformalData": false,
+    "buffId": 10411740,
+    "bulletId": 11200009,
+    "targetType": "Random",
+    "offSetX_SN": 0,
+    "offSetZ_SN": 0,
+    "isUseTargetFilter": false,
+    "targetFilterType": "Ally",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 0,
+    "attributeType": "HpMax",
+    "condition": "Max",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 0
+  },
+  {
+    "id": 10502296,
+    "idCN": "敌方/11黑月/镇雷鸣/技能4切换收尾",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10411745
   }
 ]
