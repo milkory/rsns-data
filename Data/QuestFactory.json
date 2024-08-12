@@ -39883,7 +39883,7 @@
   },
   {
     "id": 81000912,
-    "idCN": "废弃/支线/剧情/EP1黑月支线",
+    "idCN": "子任务/活动/夏活/副本1",
     "mod": "基础任务",
     "isInformalData": false,
     "name": "",
@@ -39894,23 +39894,26 @@
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
-    "client": 82600002,
-    "startStation": 83000001,
+    "isAnecdote": false,
+    "client": -1,
+    "startStation": -1,
     "endStationList": [
       {
-        "id": 83000001,
+        "id": 83000002,
         "weight": 10
       }
     ],
+    "isAutoTrace": false,
     "traceList": [],
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
-        "key": "dialog",
-        "val": "0"
+        "key": "levelId",
+        "val": "20100342"
       }
     ],
     "num": 1,
@@ -39918,7 +39921,9 @@
     "isAutoComplete": false,
     "checkComplete": false,
     "isShowReceive": false,
-    "parentQuest": -1,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "parentQuest": 81001341,
     "childQuestList": [],
     "rewardsList": [],
     "nextQuest": [],
@@ -39935,7 +39940,7 @@
   },
   {
     "id": 81000913,
-    "idCN": "废弃/支线/剧情/EP1学会支线",
+    "idCN": "子任务/活动/夏活/副本2",
     "mod": "基础任务",
     "isInformalData": false,
     "name": "",
@@ -39946,23 +39951,26 @@
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
-    "client": 82600002,
-    "startStation": 83000001,
+    "isAnecdote": false,
+    "client": -1,
+    "startStation": -1,
     "endStationList": [
       {
-        "id": 83000001,
+        "id": 83000002,
         "weight": 10
       }
     ],
+    "isAutoTrace": false,
     "traceList": [],
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
-        "key": "dialog",
-        "val": "0"
+        "key": "levelId",
+        "val": "20100343"
       }
     ],
     "num": 1,
@@ -39970,7 +39978,9 @@
     "isAutoComplete": false,
     "checkComplete": false,
     "isShowReceive": false,
-    "parentQuest": -1,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "parentQuest": 81001341,
     "childQuestList": [],
     "rewardsList": [],
     "nextQuest": [],
@@ -86219,7 +86229,7 @@
       {
         "apiListId": -1,
         "btnListId": -1,
-        "traceId": 86500092,
+        "traceId": 86500125,
         "uiPath": "UI/CityMap/CityMap"
       }
     ],
@@ -86456,7 +86466,7 @@
       {
         "apiListId": -1,
         "btnListId": -1,
-        "traceId": 86500122,
+        "traceId": 86500126,
         "uiPath": "UI/CityMap/CityMap"
       }
     ],
@@ -86535,7 +86545,7 @@
       {
         "apiListId": -1,
         "btnListId": -1,
-        "traceId": 86500092,
+        "traceId": 86500127,
         "uiPath": "UI/CityMap/CityMap"
       }
     ],
@@ -86565,6 +86575,1598 @@
         "num": 50
       }
     ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81001324,
+    "idCN": "活动/夏活/支线/任务6",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "【活动】任务6",
+    "describe": "前往蜃息岛",
+    "story": "点击“海岛入口”，第一次进入海岛地图",
+    "questType": "Side",
+    "sort": 12,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "client": 82600002,
+    "startStation": 83000002,
+    "endStationList": [
+      {
+        "id": 83000002,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": true,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500124,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "dialog",
+        "val": "0"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400001,
+        "num": 50
+      }
+    ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81001325,
+    "idCN": "活动/夏活/支线/任务7-装扮",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "【活动】任务7",
+    "describe": "购买并放置一个小屋",
+    "story": "介绍小屋升级的重要性，解锁、购买、放置家具",
+    "questType": "Side",
+    "sort": 12,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "client": 82600002,
+    "startStation": 83000002,
+    "endStationList": [
+      {
+        "id": 83000002,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": true,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500124,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "furnitureId",
+        "val": "81300418"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": true,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400001,
+        "num": 50
+      }
+    ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81001326,
+    "idCN": "活动/夏活/支线/任务8",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "【活动】任务8",
+    "describe": "购买并放置一个冷饮柜",
+    "story": "",
+    "questType": "Side",
+    "sort": 12,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "client": 82600002,
+    "startStation": 83000002,
+    "endStationList": [
+      {
+        "id": 83000002,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": true,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500124,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "furnitureId",
+        "val": "81300424"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": true,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400001,
+        "num": 50
+      }
+    ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81001327,
+    "idCN": "活动/夏活/支线/任务9-战斗",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "【活动】任务9",
+    "describe": "教训捣乱的客人",
+    "story": "",
+    "questType": "Side",
+    "sort": 12,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "client": 82600002,
+    "startStation": 83000002,
+    "endStationList": [
+      {
+        "id": 83000002,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": true,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500124,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "levelId",
+        "val": "20100336"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": true,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400001,
+        "num": 50
+      }
+    ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81001328,
+    "idCN": "活动/夏活/支线/任务10",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "【活动】任务10",
+    "describe": "将小屋升级到LV2",
+    "story": "",
+    "questType": "Side",
+    "sort": 12,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "client": 82600002,
+    "startStation": 83000002,
+    "endStationList": [
+      {
+        "id": 83000002,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": true,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500124,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "furnitureId",
+        "val": "81300419"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": true,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400001,
+        "num": 50
+      }
+    ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81001329,
+    "idCN": "活动/夏活/支线/任务11-装扮",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "【活动】任务11",
+    "describe": "购买并放置一个刨冰机",
+    "story": "",
+    "questType": "Side",
+    "sort": 12,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "client": 82600002,
+    "startStation": 83000002,
+    "endStationList": [
+      {
+        "id": 83000002,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": true,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500124,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "furnitureId",
+        "val": "81300425"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": true,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400001,
+        "num": 50
+      }
+    ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81001330,
+    "idCN": "活动/夏活/支线/任务12",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "【活动】任务12",
+    "describe": "将小屋升级到LV3",
+    "story": "",
+    "questType": "Side",
+    "sort": 12,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "client": 82600002,
+    "startStation": 83000002,
+    "endStationList": [
+      {
+        "id": 83000002,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": true,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500124,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "furnitureId",
+        "val": "81300420"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": true,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400001,
+        "num": 50
+      }
+    ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81001331,
+    "idCN": "活动/夏活/支线/任务13-装扮",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "【活动】任务13",
+    "describe": "购买并放置一个西瓜摊",
+    "story": "",
+    "questType": "Side",
+    "sort": 12,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "client": 82600002,
+    "startStation": 83000002,
+    "endStationList": [
+      {
+        "id": 83000002,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": true,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500124,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "furnitureId",
+        "val": "81300426"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": true,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400001,
+        "num": 50
+      }
+    ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81001332,
+    "idCN": "活动/夏活/支线/任务14-战斗",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "【活动】任务14",
+    "describe": "打倒来袭者",
+    "story": "",
+    "questType": "Side",
+    "sort": 12,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "client": 82600002,
+    "startStation": 83000002,
+    "endStationList": [
+      {
+        "id": 83000002,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": true,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500124,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "levelId",
+        "val": "20100337"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": true,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400001,
+        "num": 50
+      }
+    ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81001333,
+    "idCN": "活动/夏活/支线/任务15",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "【活动】任务15",
+    "describe": "将小屋升级到LV4",
+    "story": "",
+    "questType": "Side",
+    "sort": 12,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "client": 82600002,
+    "startStation": 83000002,
+    "endStationList": [
+      {
+        "id": 83000002,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": true,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500124,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "furnitureId",
+        "val": "81300421"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": true,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400001,
+        "num": 50
+      }
+    ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81001334,
+    "idCN": "活动/夏活/支线/任务16-装扮",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "【活动】任务16",
+    "describe": "购买并放置一个炒面摊",
+    "story": "",
+    "questType": "Side",
+    "sort": 12,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "client": 82600002,
+    "startStation": 83000002,
+    "endStationList": [
+      {
+        "id": 83000002,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": true,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500124,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "furnitureId",
+        "val": "81300429"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": true,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400001,
+        "num": 50
+      }
+    ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81001335,
+    "idCN": "活动/夏活/支线/任务17",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "【活动】任务17",
+    "describe": "将小屋升级到LV5",
+    "story": "",
+    "questType": "Side",
+    "sort": 12,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "client": 82600002,
+    "startStation": 83000002,
+    "endStationList": [
+      {
+        "id": 83000002,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": true,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500124,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "furnitureId",
+        "val": "81300422"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": true,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400001,
+        "num": 50
+      }
+    ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81001336,
+    "idCN": "活动/夏活/支线/任务18-装扮",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "【活动】任务18",
+    "describe": "购买并放置一个纪念品摊",
+    "story": "",
+    "questType": "Side",
+    "sort": 12,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "client": 82600002,
+    "startStation": 83000002,
+    "endStationList": [
+      {
+        "id": 83000002,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": true,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500124,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "furnitureId",
+        "val": "81300430"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": true,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400001,
+        "num": 50
+      }
+    ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81001337,
+    "idCN": "活动/夏活/支线/任务19-战斗",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "【活动】任务19",
+    "describe": "与来袭者对峙",
+    "story": "",
+    "questType": "Side",
+    "sort": 12,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "client": 82600002,
+    "startStation": 83000002,
+    "endStationList": [
+      {
+        "id": 83000002,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": true,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500124,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "levelId",
+        "val": "20100338"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": true,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400001,
+        "num": 50
+      }
+    ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81001338,
+    "idCN": "活动/夏活/支线/任务20",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "【活动】任务20",
+    "describe": "将小屋升级到LV6",
+    "story": "",
+    "questType": "Side",
+    "sort": 12,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "client": 82600002,
+    "startStation": 83000002,
+    "endStationList": [
+      {
+        "id": 83000002,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": true,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500124,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "furnitureId",
+        "val": "81300430"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": true,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400001,
+        "num": 50
+      }
+    ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81001339,
+    "idCN": "活动/夏活/支线/任务23",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "【活动】任务23",
+    "describe": "与丽桑德拉对话",
+    "story": "、",
+    "questType": "Side",
+    "sort": 12,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "client": 82600002,
+    "startStation": 83000002,
+    "endStationList": [
+      {
+        "id": 83000002,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": true,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500124,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "dialog",
+        "val": "0"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": true,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400001,
+        "num": 50
+      }
+    ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81001340,
+    "idCN": "活动/夏活/支线/任务21-战斗",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "【活动】任务21",
+    "describe": "追击敌人",
+    "story": "",
+    "questType": "Side",
+    "sort": 12,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "client": 82600002,
+    "startStation": 83000002,
+    "endStationList": [
+      {
+        "id": 83000002,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": true,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500124,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "levelId",
+        "val": "20100339"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": true,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400001,
+        "num": 50
+      }
+    ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81001341,
+    "idCN": "活动/夏活/支线/任务22-副本",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "【活动】任务22",
+    "describe": "迎战神秘深眠者",
+    "story": "",
+    "questType": "Side",
+    "sort": 12,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "client": 82600002,
+    "startStation": 83000002,
+    "endStationList": [
+      {
+        "id": 83000002,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": true,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500124,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
+    "conditionList": [],
+    "num": 6,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "parentQuest": -1,
+    "childQuestList": [
+      {
+        "id": 81000912
+      },
+      {
+        "id": 81000913
+      },
+      {
+        "id": 81001342
+      },
+      {
+        "id": 81001343
+      },
+      {
+        "id": 81001344
+      },
+      {
+        "id": 81001345
+      }
+    ],
+    "rewardsList": [
+      {
+        "id": 11400001,
+        "num": 50
+      }
+    ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81001342,
+    "idCN": "子任务/活动/夏活/副本3",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "",
+    "describe": "",
+    "story": "",
+    "questType": "Side",
+    "sort": 0,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "client": -1,
+    "startStation": -1,
+    "endStationList": [
+      {
+        "id": 83000002,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": false,
+    "traceList": [],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "levelId",
+        "val": "20100344"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "parentQuest": 81001341,
+    "childQuestList": [],
+    "rewardsList": [],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81001343,
+    "idCN": "子任务/活动/夏活/副本4",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "",
+    "describe": "",
+    "story": "",
+    "questType": "Side",
+    "sort": 0,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "client": -1,
+    "startStation": -1,
+    "endStationList": [
+      {
+        "id": 83000002,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": false,
+    "traceList": [],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "levelId",
+        "val": "20100347"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "parentQuest": 81001341,
+    "childQuestList": [],
+    "rewardsList": [],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81001344,
+    "idCN": "子任务/活动/夏活/副本5",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "",
+    "describe": "",
+    "story": "",
+    "questType": "Side",
+    "sort": 0,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "client": -1,
+    "startStation": -1,
+    "endStationList": [
+      {
+        "id": 83000002,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": false,
+    "traceList": [],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "levelId",
+        "val": "20100348"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "parentQuest": 81001341,
+    "childQuestList": [],
+    "rewardsList": [],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81001345,
+    "idCN": "子任务/活动/夏活/副本6",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "",
+    "describe": "",
+    "story": "",
+    "questType": "Side",
+    "sort": 0,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "client": -1,
+    "startStation": -1,
+    "endStationList": [
+      {
+        "id": 83000002,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": false,
+    "traceList": [],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "levelId",
+        "val": "20100349"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "parentQuest": 81001341,
+    "childQuestList": [],
+    "rewardsList": [],
     "nextQuest": [],
     "changeCityStateList": [],
     "mailList": [],

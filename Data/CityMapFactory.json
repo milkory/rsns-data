@@ -1036,27 +1036,27 @@
     "isInformalData": false,
     "bgList": [
       {
-        "bgPath": "UI/Dialog/Back/City_XGLC_1",
+        "bgPath": "UI/Dialog/Back3/City_HJC_1",
         "changeTime": "05:30:00",
         "effectListId": 86400056
       },
       {
-        "bgPath": "UI/Dialog/Back/City_XGLC_2",
+        "bgPath": "UI/Dialog/Back3/City_HJC_2",
         "changeTime": "10:00:00",
         "effectListId": 86400056
       },
       {
-        "bgPath": "UI/Dialog/Back/City_XGLC_3",
+        "bgPath": "UI/Dialog/Back3/City_HJC_3",
         "changeTime": "14:30:00",
         "effectListId": 86400056
       },
       {
-        "bgPath": "UI/Dialog/Back/City_XGLC_4",
+        "bgPath": "UI/Dialog/Back3/City_HJC_4",
         "changeTime": "17:30:00",
         "effectListId": 86400058
       },
       {
-        "bgPath": "UI/Dialog/Back/City_XGLC_5",
+        "bgPath": "UI/Dialog/Back3/City_HJC_5",
         "changeTime": "19:30:00",
         "effectListId": 86400058
       }
@@ -1068,11 +1068,6 @@
         "id": 86400142,
         "x": -565.0,
         "y": 254.0
-      },
-      {
-        "id": 86400144,
-        "x": -333.0,
-        "y": 150.0
       },
       {
         "id": 86400145,
@@ -1095,18 +1090,13 @@
         "y": -242.0
       },
       {
-        "id": 86400214,
-        "x": 597.0,
-        "y": -230.0
-      },
-      {
         "id": 86400244,
         "x": -723.0,
         "y": 50.0
       },
       {
         "id": 86400245,
-        "x": 17.0,
+        "x": 217.0,
         "y": -242.0
       }
     ],
@@ -5553,7 +5543,7 @@
     "levelId": -1,
     "textId": -1,
     "npcId": 83700026,
-    "bgPath": "UI/Dialog/Back/7stFreePort",
+    "bgPath": "UI/Dialog/Back3/HJC_COC",
     "bgColor": "FFFFFF"
   },
   {
@@ -5630,7 +5620,7 @@
     "name": "市政厅",
     "isSpecial": false,
     "isInstance": false,
-    "iconPath": "NPC/XGLC/CityHall",
+    "iconPath": "NPC/HJC/CityHall",
     "nameIconPath": "UI/CityMap/citymap_icon_cityhall",
     "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
     "animLoop": "UI_CityBtn_01_Loop",
@@ -5638,6 +5628,7 @@
     "activityId": -1,
     "startTime": "",
     "endTime": "",
+    "displayConditionsList": [],
     "unlockConditionsList": [
       {
         "condition": "REPLV",
@@ -5657,7 +5648,7 @@
     "levelId": -1,
     "textId": -1,
     "npcId": 83700018,
-    "bgPath": "UI/Dialog/Back/office-night",
+    "bgPath": "UI/Dialog/Back3/HJC_Office",
     "bgColor": "FFFFFF"
   },
   {
@@ -5690,7 +5681,7 @@
     "levelId": -1,
     "textId": -1,
     "npcId": 83700020,
-    "bgPath": "UI/Dialog/Back/RPOC2",
+    "bgPath": "UI/Dialog/Back3/HJC_PROC",
     "bgColor": "FFFFFF"
   },
   {
@@ -9447,7 +9438,7 @@
     "levelId": -1,
     "textId": -1,
     "npcId": 83700019,
-    "bgPath": "UI/Dialog/Back/RPOC2",
+    "bgPath": "UI/Dialog/Back3/HJC_PROC",
     "bgColor": "FFFFFF"
   },
   {
@@ -9481,7 +9472,7 @@
     "uiPath": "",
     "buildingId": -1,
     "stationPlace": -1,
-    "dialogId": -1,
+    "dialogId": 20700431,
     "dungeonId": -1,
     "levelId": -1,
     "textId": -1,
@@ -9491,13 +9482,52 @@
   },
   {
     "id": 86400245,
-    "idCN": "03气泡/C6海角城S0/夏活/任务6",
+    "idCN": "03气泡/C6海角城S0/夏活/任务5",
     "mod": "气泡",
     "isInformalData": false,
     "name": "莉薇娅",
     "isSpecial": false,
     "isInstance": false,
     "iconPath": "RolePlus/Livia/Face",
+    "nameIconPath": "",
+    "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
+    "animLoop": "UI_CityBtn_01_Loop",
+    "animOut": "UI_CityBtn_01_Out",
+    "activityId": -1,
+    "startTime": "",
+    "endTime": "",
+    "displayConditionsList": [
+      {
+        "condition": "Questing",
+        "mId": 81001323,
+        "val": 0
+      }
+    ],
+    "unlockConditionsList": [],
+    "isLock": false,
+    "func": "OpenDialog",
+    "btnType": "Other",
+    "mId": -1,
+    "uiPath": "",
+    "buildingId": -1,
+    "stationPlace": -1,
+    "dialogId": 20700435,
+    "dungeonId": -1,
+    "levelId": -1,
+    "textId": -1,
+    "npcId": -1,
+    "bgPath": "",
+    "bgColor": "FFFFFF"
+  },
+  {
+    "id": 86400246,
+    "idCN": "03气泡/C6海角城S0/夏活/任务4",
+    "mod": "气泡",
+    "isInformalData": false,
+    "name": "市政厅",
+    "isSpecial": false,
+    "isInstance": false,
+    "iconPath": "NPC/HJC/CityHall",
     "nameIconPath": "",
     "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
     "animLoop": "UI_CityBtn_01_Loop",
@@ -9520,7 +9550,7 @@
     "uiPath": "",
     "buildingId": -1,
     "stationPlace": -1,
-    "dialogId": -1,
+    "dialogId": 20700433,
     "dungeonId": -1,
     "levelId": -1,
     "textId": -1,
