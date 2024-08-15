@@ -1796,8 +1796,8 @@
         "skillId": 12301832
       }
     ],
-    "tempdesc": "对生命值低于20%的敌方，造成的最终伤害提高50%",
-    "desc": "对生命值低于20%的敌方，造成的最终伤害提高50%",
+    "tempdesc": "对生命值低于30%的敌方，造成的最终伤害提高50%",
+    "desc": "对生命值低于30%的敌方，造成的最终伤害提高50%",
     "skillChangeList": [],
     "skillParamOffsetList": []
   },
@@ -1900,8 +1900,8 @@
         "skillId": 12301830
       }
     ],
-    "tempdesc": "【暗艺】和【至暗时刻】造成的最终伤害提高26%",
-    "desc": "【暗艺】和【至暗时刻】造成的最终伤害提高26%",
+    "tempdesc": "【星落】余震的震波造成的伤害加倍",
+    "desc": "【星落】余震的震波造成的伤害加倍",
     "skillChangeList": [],
     "skillParamOffsetList": []
   },
@@ -5921,8 +5921,8 @@
         "skillId": 12301490
       }
     ],
-    "tempdesc": "自身造成的【昏睡】持续时间延长2秒",
-    "desc": "自身造成的<color=#B383FF>【昏睡】</color>持续时间延长2秒",
+    "tempdesc": "自身造成的【昏睡】持续时间延长2秒\\n【星期一】在场时，使处于【昏睡】状态的我方，每秒攻击力+1%，上限50%",
+    "desc": "自身造成的<color=#B383FF>【昏睡】</color>持续时间延长2秒\\n【星期一】在场时，使处于<color=#B383FF>【昏睡】</color>状态的我方，每秒攻击力+1%，上限50%",
     "skillChangeList": [],
     "skillParamOffsetList": []
   },
@@ -9389,12 +9389,12 @@
     "attriDetialList": [],
     "attributeList": [
       {
-        "attributeType": "Def",
+        "attributeType": "Atk",
         "numType": "Number",
         "num_SN": 500000
       },
       {
-        "attributeType": "Atk",
+        "attributeType": "Def",
         "numType": "Number",
         "num_SN": 500000
       }
@@ -13370,7 +13370,7 @@
     ],
     "skillList": [],
     "tempdesc": "静流的攻击对目标造成【湿润】状态\\n使目标受到的电磁伤害增加20%\\n使目标造成的火焰伤害降低20%\\n使目标被【冰封】的概率+10%",
-    "desc": "",
+    "desc": "静流的攻击对目标造成【湿润】状态\\n使目标受到的电磁伤害增加20%\\n使目标造成的火焰伤害降低20%\\n使目标被<color=#7AB2FF>【冰封】</color>的概率+10%",
     "skillChangeList": [],
     "skillParamOffsetList": []
   },
@@ -13397,7 +13397,7 @@
     ],
     "skillList": [],
     "tempdesc": "防御力+100",
-    "desc": "",
+    "desc": "防御力+100",
     "skillChangeList": [],
     "skillParamOffsetList": []
   },
@@ -13424,7 +13424,7 @@
     ],
     "skillList": [],
     "tempdesc": "攻击力+100",
-    "desc": "",
+    "desc": "攻击力+100",
     "skillChangeList": [],
     "skillParamOffsetList": []
   },
@@ -13445,7 +13445,7 @@
     ],
     "skillList": [],
     "tempdesc": "每次使用【连涌】后，使我方全体【狂暴】",
-    "desc": "",
+    "desc": "每次使用【连涌】后，使我方全体<color=#FF6666>【狂暴】</color>",
     "skillChangeList": [],
     "skillParamOffsetList": []
   },
@@ -13487,6 +13487,232 @@
     ],
     "skillList": [],
     "tempdesc": "开局静流摆出胜利剪刀手姿势，对整片战斗场景进行1次留影\\n记录当前的费用和手牌数量，生成1张【夏日回忆】加入牌库",
+    "desc": "开局静流摆出胜利剪刀手姿势，对整片战斗场景进行1次留影\\n记录当前的费用和手牌数量，生成1张【夏日回忆】加入牌库",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100594,
+    "idCN": "50测试/测试单位/觉0",
+    "mod": "基础突破",
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700096,
+        "num": 1
+      }
+    ],
+    "desc": "",
+    "tempdesc": ""
+  },
+  {
+    "id": 12100595,
+    "idCN": "50测试/测试单位/觉1",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "充能",
+    "path": "RolePlus\\00Gift\\Circular\\ChongNeng",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700096,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "自身【护盾】消失时，回复自身10%生命值",
+    "desc": "自身【护盾】消失时，回复自身10%生命值",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100596,
+    "idCN": "50测试/测试单位/觉2",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "后盾",
+    "path": "RolePlus\\00Gift\\Circular\\HouDun",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700096,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "【绝对胜利】增强为：\\n飞身跳跃持盾重击地面，对范围内敌方造成1段伤害并【崩坏】\\n使我方全体获得【护盾】，持续10秒，【护盾】的耐久为自身防御力的2000%",
+    "desc": "【绝对胜利】增强为：\\n飞身跳跃持盾重击地面，对范围内敌方造成1段伤害并<color=#FF6666>【崩坏】</color>\\n使我方全体获得【护盾】，持续10秒，【护盾】的耐久为自身防御力的2000%",
+    "skillChangeList": [
+      {
+        "newSkillId": 12300682,
+        "oldSkillId": 12300316
+      }
+    ],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100597,
+    "idCN": "50测试/测试单位/觉3",
+    "mod": "基础突破",
+    "name": "强韧",
+    "path": "RolePlus\\00Gift\\Circular\\QiangRen",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 600000
+      }
+    ],
+    "materialList": [
+      {
+        "itemId": 11700096,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "防御力+60",
+    "desc": "防御力+60"
+  },
+  {
+    "id": 12100598,
+    "idCN": "50测试/测试单位/觉5",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "强心脏",
+    "path": "RolePlus\\00Gift\\Circular\\QiangXinZang",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700096,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "自身【护盾】，【无敌】或【隐形】的持续时间延长2秒",
+    "desc": "自身【护盾】，<color=#7AB2FF>【无敌】</color>或<color=#7AB2FF>【隐形】</color>的持续时间延长2秒",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100599,
+    "idCN": "50测试/测试单位/觉4",
+    "mod": "基础突破",
+    "name": "斗志",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 600000
+      }
+    ],
+    "materialList": [
+      {
+        "itemId": 11700096,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "攻击力+60",
+    "desc": "攻击力+60"
+  },
+  {
+    "id": 12100600,
+    "idCN": "01敌方/学会/冯里奈/觉醒1-吸能",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "",
+    "path": "",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [],
+    "skillList": [
+      {
+        "skillId": 12301858
+      }
+    ],
+    "tempdesc": "",
+    "desc": "",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100601,
+    "idCN": "01敌方/学会/冯里奈/觉醒2-禁锢",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "",
+    "path": "",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [],
+    "skillList": [],
+    "tempdesc": "",
+    "desc": "",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100602,
+    "idCN": "01敌方/学会/冯里奈/觉醒3-强韧",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "",
+    "path": "",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 800000
+      }
+    ],
+    "materialList": [],
+    "skillList": [],
+    "tempdesc": "",
+    "desc": "",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100603,
+    "idCN": "01敌方/学会/冯里奈/觉醒4-斗志",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "",
+    "path": "",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 800000
+      }
+    ],
+    "materialList": [],
+    "skillList": [],
+    "tempdesc": "",
+    "desc": "",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100604,
+    "idCN": "01敌方/学会/冯里奈/觉醒5-流转",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "",
+    "path": "",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [],
+    "skillList": [],
+    "tempdesc": "",
     "desc": "",
     "skillChangeList": [],
     "skillParamOffsetList": []

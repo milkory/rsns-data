@@ -655,8 +655,8 @@
     "path": "RolePlus\\00Gift\\Square\\LiXue",
     "attriDetialList": [],
     "attributeList": [],
-    "tempdesc": "将【暗艺】造成伤害的26%，回复自身生命值",
-    "desc": "将【暗艺】造成伤害的26%，回复自身生命值",
+    "tempdesc": "将自身造成伤害的13%，回复自身生命值",
+    "desc": "将自身造成伤害的13%，回复自身生命值",
     "awakeLv": 2,
     "skillList": [
       {
@@ -9638,7 +9638,7 @@
     "attriDetialList": [],
     "attributeList": [],
     "tempdesc": "使用【盛夏泡影】后，使我方全体回复5%生命值\\n驱散场上的【炎热】/【酷热】/【炙热】天气\\n同时驱散我方场上的【炽地】/【燎原】/【火海】",
-    "desc": "使用自身技能牌时<color=#7AB2FF>【霸体】</color>2秒",
+    "desc": "使用【盛夏泡影】后，使我方全体回复5%生命值\\n驱散场上的【炎热】/【酷热】/【炙热】天气\\n同时驱散我方场上的<color=#FF6666>【炽地】</color>/<color=#FF6666>【燎原】</color>/<color=#FF6666>【火海】</color>",
     "awakeLv": 3,
     "skillList": [],
     "skillChangeList": [],
@@ -9654,7 +9654,7 @@
     "attriDetialList": [],
     "attributeList": [],
     "tempdesc": "【海滨之花】增强为：\\n抽2张牌\\n每抽到1张红卡，使我方全体【普通攻击】伤害提高25%，可叠加\\n每抽到1张蓝卡，使我方全体防御力+3%，可叠加\\n每抽到1张黄卡，抽1张牌\\n每抽到1张绿卡，回收1张牌\\n每抽到1张紫卡，获得1点费用",
-    "desc": "使用【无尽】或【无厌】后，下1张【暗艺】不消耗费用",
+    "desc": "【海滨之花】增强为：\\n抽2张牌\\n每抽到1张红卡，使我方全体【普通攻击】伤害提高25%，可叠加\\n每抽到1张蓝卡，使我方全体防御力+3%，可叠加\\n每抽到1张黄卡，抽1张牌\\n每抽到1张绿卡，回收1张牌\\n每抽到1张紫卡，获得1点费用",
     "awakeLv": 6,
     "skillList": [],
     "skillChangeList": [],
@@ -9670,10 +9670,15 @@
     "attriDetialList": [],
     "attributeList": [],
     "tempdesc": "【连涌】增强为：\\n抽1张牌\\n若费用为奇数，本场战斗【普通攻击】射出的弹药数+1，可叠加\\n若费用为偶数，本场战斗【普通攻击】射出的弹药数+2，可叠加\\n同时水枪进入连点模式，持续6秒\\n持续期间，【普通攻击】射出的弹药数量翻倍\\n同时将【普通攻击】切换至选中的目标\\n对我方目标使用时，【普通攻击】射出的每颗水弹治疗我方目标0.5%生命值，同时驱散目标身上的【点燃】",
-    "desc": "每秒自身攻击力+0.5%，上限50%",
+    "desc": "【连涌】增强为：\\n抽1张牌\\n若费用为奇数，本场战斗【普通攻击】射出的弹药数+1，可叠加\\n若费用为偶数，本场战斗【普通攻击】射出的弹药数+2，可叠加\\n同时水枪进入连点模式，持续6秒\\n持续期间，【普通攻击】射出的弹药数量翻倍\\n同时将【普通攻击】切换至选中的目标\\n对我方目标使用时，【普通攻击】射出的每颗水弹治疗我方目标0.5%生命值，同时驱散目标身上的<color=#FF6666>【点燃】</color>",
     "awakeLv": 5,
     "skillList": [],
-    "skillChangeList": [],
+    "skillChangeList": [
+      {
+        "newSkillId": 12301839,
+        "oldSkillId": 12301838
+      }
+    ],
     "skillParamOffsetList": [],
     "name": "愈流"
   },
@@ -9708,11 +9713,204 @@
     "attriDetialList": [],
     "attributeList": [],
     "tempdesc": "【连涌】增强为：\\n抽1张牌\\n若费用为奇数，本场战斗【普通攻击】射出的弹药数+1，可叠加\\n若费用为偶数，本场战斗【普通攻击】射出的弹药数+2，可叠加\\n同时水枪进入连点模式，持续6秒\\n持续期间，【普通攻击】射出的弹药数量翻倍\\n同时将【普通攻击】切换至选中的目标",
-    "desc": "",
+    "desc": "【连涌】增强为：\\n抽1张牌\\n若费用为奇数，本场战斗【普通攻击】射出的弹药数+1，可叠加\\n若费用为偶数，本场战斗【普通攻击】射出的弹药数+2，可叠加\\n同时水枪进入连点模式，持续6秒\\n持续期间，【普通攻击】射出的弹药数量翻倍\\n同时将【普通攻击】切换至选中的目标",
     "awakeLv": 2,
+    "skillList": [],
+    "skillChangeList": [
+      {
+        "newSkillId": 12301839,
+        "oldSkillId": 12301834
+      }
+    ],
+    "skillParamOffsetList": [],
+    "name": "珠连"
+  },
+  {
+    "id": 12800291,
+    "idCN": "50测试/测试单位/振3",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "RolePlus\\00Gift\\Square\\shengji",
+    "attriDetialList": [],
+    "attributeList": [],
+    "tempdesc": "A替换替换为振3",
+    "desc": "A替换替换为振3",
+    "awakeLv": 4,
+    "skillList": [],
+    "skillChangeList": [
+      {
+        "newSkillId": 12301851,
+        "oldSkillId": 12301850
+      },
+      {
+        "newSkillId": 12301851,
+        "oldSkillId": 12301852
+      },
+      {
+        "newSkillId": 12301851,
+        "oldSkillId": 12301852
+      }
+    ],
+    "skillParamOffsetList": [],
+    "name": "生机"
+  },
+  {
+    "id": 12800307,
+    "idCN": "50测试/测试单位/振4",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "RolePlus\\00Gift\\Square\\TuanJie",
+    "attriDetialList": [],
+    "attributeList": [],
+    "tempdesc": "我方全体存活时，受到的最终伤害降低10%",
+    "desc": "我方全体存活时，受到的最终伤害降低10%",
+    "awakeLv": 5,
     "skillList": [],
     "skillChangeList": [],
     "skillParamOffsetList": [],
-    "name": "珠连"
+    "name": "团结"
+  },
+  {
+    "id": 12800484,
+    "idCN": "50测试/测试单位/振2",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "RolePlus\\00Gift\\Square\\zhongji",
+    "attriDetialList": [],
+    "attributeList": [],
+    "tempdesc": "A替换替换为振2",
+    "desc": "A替换替换为振2",
+    "awakeLv": 3,
+    "skillList": [],
+    "skillChangeList": [
+      {
+        "newSkillId": 12301850,
+        "oldSkillId": 12301852
+      }
+    ],
+    "skillParamOffsetList": [],
+    "name": "重击"
+  },
+  {
+    "id": 12800485,
+    "idCN": "50测试/测试单位/振1",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "RolePlus\\00Gift\\Square\\LianXuZuoZhan",
+    "attriDetialList": [],
+    "attributeList": [],
+    "tempdesc": "A技能加半径",
+    "desc": "A技能加半径",
+    "awakeLv": 2,
+    "skillList": [
+      {
+        "skillId": 12301848
+      }
+    ],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": "连续作战"
+  },
+  {
+    "id": 12800486,
+    "idCN": "01敌方/学会/冯里奈/共振1-先机",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "",
+    "attriDetialList": [],
+    "attributeList": [],
+    "tempdesc": "",
+    "desc": "",
+    "awakeLv": 2,
+    "skillList": [
+      {
+        "skillId": 12301854
+      }
+    ],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": ""
+  },
+  {
+    "id": 12800487,
+    "idCN": "01敌方/学会/冯里奈/共振2-反制",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "",
+    "attriDetialList": [],
+    "attributeList": [],
+    "tempdesc": "",
+    "desc": "",
+    "awakeLv": 3,
+    "skillList": [
+      {
+        "skillId": 12301855
+      }
+    ],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": ""
+  },
+  {
+    "id": 12800488,
+    "idCN": "01敌方/学会/冯里奈/共振3-生机",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "HpMax",
+        "numType": "Percent",
+        "num_SN": 1000
+      }
+    ],
+    "tempdesc": "",
+    "desc": "",
+    "awakeLv": 4,
+    "skillList": [],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": ""
+  },
+  {
+    "id": 12800489,
+    "idCN": "01敌方/学会/冯里奈/共振4-耐力",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "",
+    "attriDetialList": [],
+    "attributeList": [],
+    "tempdesc": "",
+    "desc": "",
+    "awakeLv": 5,
+    "skillList": [
+      {
+        "skillId": 12301856
+      }
+    ],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": ""
+  },
+  {
+    "id": 12800490,
+    "idCN": "01敌方/学会/冯里奈/共振5-雷比斯之“超改造”",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "",
+    "attriDetialList": [],
+    "attributeList": [],
+    "tempdesc": "",
+    "desc": "",
+    "awakeLv": 6,
+    "skillList": [
+      {
+        "skillId": 12301857
+      }
+    ],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": ""
   }
 ]

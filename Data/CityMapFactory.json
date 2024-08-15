@@ -1038,27 +1038,27 @@
       {
         "bgPath": "UI/Dialog/Back3/City_HJC_1",
         "changeTime": "05:30:00",
-        "effectListId": 86400056
+        "effectListId": 86400247
       },
       {
         "bgPath": "UI/Dialog/Back3/City_HJC_2",
         "changeTime": "10:00:00",
-        "effectListId": 86400056
+        "effectListId": 86400248
       },
       {
         "bgPath": "UI/Dialog/Back3/City_HJC_3",
         "changeTime": "14:30:00",
-        "effectListId": 86400056
+        "effectListId": 86400249
       },
       {
         "bgPath": "UI/Dialog/Back3/City_HJC_4",
         "changeTime": "17:30:00",
-        "effectListId": 86400058
+        "effectListId": 86400250
       },
       {
         "bgPath": "UI/Dialog/Back3/City_HJC_5",
         "changeTime": "19:30:00",
-        "effectListId": 86400058
+        "effectListId": 86400251
       }
     ],
     "offsetX": 0.0,
@@ -1093,6 +1093,11 @@
         "id": 86400244,
         "x": -723.0,
         "y": 50.0
+      },
+      {
+        "id": 86400246,
+        "x": 159.0,
+        "y": -60.0
       },
       {
         "id": 86400245,
@@ -5536,7 +5541,7 @@
     "btnType": "HomeCOC",
     "mId": -1,
     "uiPath": "UI/HomeCOC/HomeCOC",
-    "buildingId": -1,
+    "buildingId": 84400106,
     "stationPlace": -1,
     "dialogId": -1,
     "dungeonId": -1,
@@ -5628,7 +5633,13 @@
     "activityId": -1,
     "startTime": "",
     "endTime": "",
-    "displayConditionsList": [],
+    "displayConditionsList": [
+      {
+        "condition": "NoQuesting",
+        "mId": 81001322,
+        "val": 0
+      }
+    ],
     "unlockConditionsList": [
       {
         "condition": "REPLV",
@@ -9437,7 +9448,7 @@
     "dungeonId": -1,
     "levelId": -1,
     "textId": -1,
-    "npcId": 83700019,
+    "npcId": 83700091,
     "bgPath": "UI/Dialog/Back3/HJC_PROC",
     "bgColor": "FFFFFF"
   },
@@ -9538,7 +9549,7 @@
     "displayConditionsList": [
       {
         "condition": "Questing",
-        "mId": 81001319,
+        "mId": 81001322,
         "val": 0
       }
     ],
@@ -9550,12 +9561,72 @@
     "uiPath": "",
     "buildingId": -1,
     "stationPlace": -1,
-    "dialogId": 20700433,
+    "dialogId": 20700434,
     "dungeonId": -1,
     "levelId": -1,
     "textId": -1,
     "npcId": -1,
     "bgPath": "",
     "bgColor": "FFFFFF"
+  },
+  {
+    "id": 86400247,
+    "idCN": "02地图特效/海角城/01",
+    "mod": "地图特效",
+    "isInformalData": false,
+    "effectList": [
+      {
+        "effectPath": "UI/UIEffect/particle/UI_city/UI_city_01/UI_city_HJC_01",
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": 86400248,
+    "idCN": "02地图特效/海角城/02",
+    "mod": "地图特效",
+    "isInformalData": false,
+    "effectList": [
+      {
+        "effectPath": "UI/UIEffect/particle/UI_city/UI_city_01/UI_city_HJC_02",
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": 86400249,
+    "idCN": "02地图特效/海角城/03",
+    "mod": "地图特效",
+    "isInformalData": false,
+    "effectList": [
+      {
+        "effectPath": "UI/UIEffect/particle/UI_city/UI_city_01/UI_city_HJC_03",
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": 86400250,
+    "idCN": "02地图特效/海角城/04",
+    "mod": "地图特效",
+    "isInformalData": false,
+    "effectList": [
+      {
+        "effectPath": "UI/UIEffect/particle/UI_city/UI_city_01/UI_city_HJC_04",
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": 86400251,
+    "idCN": "02地图特效/海角城/05",
+    "mod": "地图特效",
+    "isInformalData": false,
+    "effectList": [
+      {
+        "effectPath": "UI/UIEffect/particle/UI_city/UI_city_01/UI_city_HJC_05",
+        "weight": 1
+      }
+    ]
   }
 ]
