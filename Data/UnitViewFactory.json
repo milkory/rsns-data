@@ -17097,9 +17097,11 @@
     "character": 10000032,
     "SkinName": "默认",
     "quality": "Golden",
+    "ownExclusiveVoice": false,
     "isSpine2": 1,
     "SkinDesc": "妮蔻拉的默认形态",
     "HomeresDir": "Home/Character/Dorm_Betty/Dorm_Betty_SkeletonData",
+    "singleUrl": "",
     "GetWay": "0",
     "offsetX": 2.0,
     "offsetY": -457.0,
@@ -17112,6 +17114,11 @@
     "spineY": 0.0,
     "spineScale": 1.0,
     "squadsHalf1": "RolePlus/Betty/Squads_Half1",
+    "extraSpineList": [],
+    "clickEffectLayer": "Front",
+    "frontFixEffectUrl": "",
+    "bottomFixEffectUrl": "",
+    "clickHideFixEffect": "None",
     "SpineBackground": "",
     "SpineBGX": 0.0,
     "SpineBGY": 0.0,
@@ -17138,6 +17145,7 @@
     "iconPath": "",
     "tipsPath": "",
     "ProfilePhotoList": [],
+    "skinBattlePass": -1,
     "bookHalf": "",
     "bookFull": "",
     "bookX": 0.0,
@@ -17145,7 +17153,7 @@
   },
   {
     "id": 11000234,
-    "idCN": "我方/50召唤物/妮蔻拉606",
+    "idCN": "我方/50召唤物/妮蔻拉606/原版",
     "mod": "Spine",
     "isInformalData": false,
     "hpBarOffsetX": 0.0,
@@ -27003,10 +27011,6 @@
       {
         "changeEffectId": 11105696,
         "effectId": 11101287
-      },
-      {
-        "changeEffectId": 11105698,
-        "effectId": 11104935
       }
     ],
     "exchangeBulletList": [
@@ -32259,7 +32263,7 @@
     "hpBarOffsetY": 3.0,
     "battleTagOffsetX": 0.0,
     "battleTagOffsetY": 3.0,
-    "resDir": "Role\\Nicola\\Nicola_SkeletonData",
+    "resDir": "Role/Nicola_Summer/Nicola_Summer_SkeletonData",
     "shadowID": 11100346,
     "shadowScale": 0.5,
     "userSpecialShadow": false,
@@ -32280,8 +32284,54 @@
     "spineUrl": "Spine/Portrait/LH_Nicola_Summer/LH_Nicola_Summer_SkeletonData",
     "clickEffectUrl": "",
     "plotResList": [],
-    "exchangeEffectList": [],
-    "exchangeBulletList": [],
+    "exchangeEffectList": [
+      {
+        "changeEffectId": 11104900,
+        "effectId": 11105192
+      },
+      {
+        "changeEffectId": 11106141,
+        "effectId": 11103173
+      },
+      {
+        "changeEffectId": 11106214,
+        "effectId": 11104717
+      },
+      {
+        "changeEffectId": 11106133,
+        "effectId": 11104724
+      },
+      {
+        "changeEffectId": 11106119,
+        "effectId": 11104729
+      },
+      {
+        "changeEffectId": 11106122,
+        "effectId": 11104730
+      },
+      {
+        "changeEffectId": 11106112,
+        "effectId": 11104718
+      },
+      {
+        "changeEffectId": 11106099,
+        "effectId": 11104722
+      },
+      {
+        "changeEffectId": 11106227,
+        "effectId": 11101287
+      }
+    ],
+    "exchangeBulletList": [
+      {
+        "bulletId": 11200325,
+        "changeBulletId": 11200491
+      },
+      {
+        "bulletId": 11200230,
+        "changeBulletId": 11200493
+      }
+    ],
     "character": 10000032,
     "SkinName": "是，船长",
     "quality": "Golden",
@@ -32313,11 +32363,11 @@
     "SpineBGScale": 1.273,
     "State2Name": "是，船长-共振",
     "State2Desc": "",
-    "State2Face": "RolePlus/Betty/State2_Face",
+    "State2Face": "RolePlus/Betty/Summer/State2_Face",
     "State2Gacha": "",
-    "State2Res": "RolePlus/Betty/State2_Full",
-    "State2RoleListRes": "RolePlus/Betty/State2_Half",
-    "squadsHalf2": "RolePlus/Betty/Squads_Half2",
+    "State2Res": "RolePlus/Betty/Summer/State2_Full",
+    "State2RoleListRes": "RolePlus/Betty/Summer/State2_Half",
+    "squadsHalf2": "RolePlus/Betty/Summer/Squads_Half2",
     "gachaSpine2Url": "Spine/Portrait/LH_Nicola_sp/LH_Nicola_sp_SkeletonData",
     "spine2Url": "RoleU3D/LH_Nicola_sp/LH_Nicola_sp",
     "gachaPerformUrl": "",
@@ -32348,7 +32398,7 @@
     "hpBarOffsetY": 3.0,
     "battleTagOffsetX": 0.0,
     "battleTagOffsetY": 3.0,
-    "resDir": "Role/Arina_Skin_Private_vacation/Arina_Skin_Private_vacation_SkeletonData",
+    "resDir": "Role/Arina_Summer/Arina_Summer_SkeletonData",
     "shadowID": 11100346,
     "shadowScale": 0.5,
     "userSpecialShadow": false,
@@ -32388,7 +32438,92 @@
         "plotResUrl": "RolePlus/Arina/Arina_proud"
       }
     ],
-    "exchangeEffectList": [],
+    "exchangeEffectList": [
+      {
+        "changeEffectId": 11106124,
+        "effectId": 11104715
+      },
+      {
+        "changeEffectId": 11106127,
+        "effectId": 11104707
+      },
+      {
+        "changeEffectId": 11106135,
+        "effectId": 11103089
+      },
+      {
+        "changeEffectId": 11106092,
+        "effectId": 11103090
+      },
+      {
+        "changeEffectId": 11106134,
+        "effectId": 11101810
+      },
+      {
+        "changeEffectId": 11106104,
+        "effectId": 11103124
+      },
+      {
+        "changeEffectId": 11106190,
+        "effectId": 11101693
+      },
+      {
+        "changeEffectId": 11106193,
+        "effectId": 11105220
+      },
+      {
+        "changeEffectId": 11106198,
+        "effectId": 11105221
+      },
+      {
+        "changeEffectId": 11106176,
+        "effectId": 11105224
+      },
+      {
+        "changeEffectId": 11106091,
+        "effectId": 11105283
+      },
+      {
+        "changeEffectId": 11106183,
+        "effectId": 11104688
+      },
+      {
+        "changeEffectId": 11106155,
+        "effectId": 11103157
+      },
+      {
+        "changeEffectId": 11106213,
+        "effectId": 11104944
+      },
+      {
+        "changeEffectId": 11106093,
+        "effectId": 11103120
+      },
+      {
+        "changeEffectId": 11106102,
+        "effectId": 11105226
+      },
+      {
+        "changeEffectId": 11106161,
+        "effectId": 11103105
+      },
+      {
+        "changeEffectId": 11106199,
+        "effectId": 11103086
+      },
+      {
+        "changeEffectId": 11106202,
+        "effectId": 11100182
+      },
+      {
+        "changeEffectId": 11106194,
+        "effectId": 11101239
+      },
+      {
+        "changeEffectId": 11106177,
+        "effectId": 11103539
+      }
+    ],
     "exchangeBulletList": [],
     "character": 10000051,
     "SkinName": "趁着醉意",
@@ -32698,11 +32833,11 @@
     "effectScale": 1.0,
     "gachaVoice": 30000827,
     "mainUIVoice": 30000826,
-    "face": "RolePlus/Flan/Face",
-    "gacha": "RolePlus/Flan/Gacha",
-    "resUrl": "RolePlus/Flan/Full",
-    "roleListResUrl": "RolePlus/Flan/Half",
-    "spineUrl": "Spine/Portrait/LH_Flan/LH_Flan_SkeletonData",
+    "face": "RolePlus/Flan/summer/Face",
+    "gacha": "RolePlus/Flan/summer/Gacha",
+    "resUrl": "RolePlus/Flan/summer/Full",
+    "roleListResUrl": "RolePlus/Flan/summer/Half",
+    "spineUrl": "Spine/Portrait/LH_Flan_Skin_Summer/LH_Flan_Summer_SkeletonData",
     "clickEffectUrl": "",
     "plotResList": [
       {
@@ -32732,9 +32867,9 @@
     "HomeresDir": "Home\\Character\\Dorm_Flan\\Dorm_Flan_SkeletonData",
     "singleUrl": "",
     "GetWay": "-1",
-    "offsetX": 0.0,
-    "offsetY": -315.0,
-    "offsetScale": 1.0,
+    "offsetX": 56.0,
+    "offsetY": -69.0,
+    "offsetScale": 0.74,
     "offsetX2": 0.0,
     "offsetY2": 0.0,
     "squadsX": 0.0,
@@ -32742,7 +32877,7 @@
     "spineX": 0.0,
     "spineY": 0.0,
     "spineScale": 1.0,
-    "squadsHalf1": "RolePlus/Flan/Squads_Half1",
+    "squadsHalf1": "RolePlus/Flan/summer/Squads_Half1",
     "extraSpineList": [],
     "clickEffectLayer": "Front",
     "frontFixEffectUrl": "",
@@ -33094,10 +33229,10 @@
     "effectScale": 1.0,
     "gachaVoice": -1,
     "mainUIVoice": -1,
-    "face": "RolePlus/SummerShizuru/Face",
-    "gacha": "RolePlus/SummerShizuru/Gacha",
-    "resUrl": "RolePlus/SummerShizuru/Full",
-    "roleListResUrl": "RolePlus/SummerShizuru/Half",
+    "face": "RolePlus/Shizuru_Summer/Face",
+    "gacha": "RolePlus/Shizuru_Summer/Gacha",
+    "resUrl": "RolePlus/Shizuru_Summer/Full",
+    "roleListResUrl": "RolePlus/Shizuru_Summer/Half",
     "spineUrl": "Spine/Portrait/LH_SummerShizuru/LH_SummerShizuru_SkeletonData",
     "clickEffectUrl": "",
     "plotResList": [],
@@ -33107,14 +33242,14 @@
     "SkinName": "默认",
     "quality": "Golden",
     "ownExclusiveVoice": false,
-    "isSpine2": 0,
-    "SkinDesc": "",
+    "isSpine2": 1,
+    "SkinDesc": "静流·逐夏的默认形态",
     "HomeresDir": "Home\\Character\\Dorm_SummerShizuru\\Dorm_SummerShizuru_SkeletonData",
     "singleUrl": "",
     "GetWay": "0",
-    "offsetX": -49.0,
-    "offsetY": -713.0,
-    "offsetScale": 1.0,
+    "offsetX": 89.0,
+    "offsetY": -353.0,
+    "offsetScale": 0.94,
     "offsetX2": 0.0,
     "offsetY2": 0.0,
     "squadsX": 0.0,
@@ -33122,7 +33257,7 @@
     "spineX": 0.0,
     "spineY": 0.0,
     "spineScale": 1.0,
-    "squadsHalf1": "RolePlus/SummerShizuru/Squads_Half1",
+    "squadsHalf1": "RolePlus/Shizuru_Summer/Squads_Half1",
     "extraSpineList": [],
     "clickEffectLayer": "Front",
     "frontFixEffectUrl": "",
@@ -33133,12 +33268,12 @@
     "SpineBGY": 0.0,
     "SpineBGScale": 0.01,
     "State2Name": "共振形态",
-    "State2Desc": "埃兹拉的共振形态",
-    "State2Face": "RolePlus/SummerShizuru/State2_Face",
+    "State2Desc": "静流·逐夏的共振形态",
+    "State2Face": "RolePlus/Shizuru_Summer/State2_Face",
     "State2Gacha": "",
-    "State2Res": "RolePlus/SummerShizuru/State2_Full",
-    "State2RoleListRes": "RolePlus/SummerShizuru/State2_Half",
-    "squadsHalf2": "RolePlus/SummerShizuru/Squads_Half2",
+    "State2Res": "RolePlus/Shizuru_Summer/State2_Full",
+    "State2RoleListRes": "RolePlus/Shizuru_Summer/State2_Half",
+    "squadsHalf2": "RolePlus/Shizuru_Summer/Squads_Half2",
     "gachaSpine2Url": "Spine/Portrait/LH_SummerShizuru_sp/LH_SummerShizuru_sp_SkeletonData",
     "spine2Url": "RoleU3D/LH_SummerShizuru_sp/LH_SummerShizuru_sp",
     "gachaPerformUrl": "",
@@ -33149,6 +33284,109 @@
     "spine2X": 133.7,
     "spine2Y": 0.0,
     "profilePhotoID": 82600490,
+    "State2profilePhotoID": -1,
+    "rewardList": [],
+    "iconPath": "",
+    "tipsPath": "",
+    "ProfilePhotoList": [],
+    "skinBattlePass": -1,
+    "bookHalf": "",
+    "bookFull": "",
+    "bookX": 0.0,
+    "bookY": 0.0
+  },
+  {
+    "id": 11000391,
+    "idCN": "我方/50召唤物/妮蔻拉606/是船长",
+    "mod": "Spine",
+    "isInformalData": false,
+    "hpBarOffsetX": 0.0,
+    "hpBarOffsetY": 3.0,
+    "battleTagOffsetX": 0.0,
+    "battleTagOffsetY": 3.0,
+    "resDir": "Role\\Nicola_bot\\Nicola_bot_SkeletonData",
+    "shadowID": 11100540,
+    "shadowScale": 0.5,
+    "userSpecialShadow": false,
+    "shadowOffsetY": 0.0,
+    "shadowOffsetZ": 0.0,
+    "useSpecialBeHitColor": false,
+    "r": 255,
+    "g": 255,
+    "b": 255,
+    "a": 255,
+    "effectScale": 1.0,
+    "gachaVoice": -1,
+    "mainUIVoice": -1,
+    "face": "",
+    "gacha": "",
+    "resUrl": "",
+    "roleListResUrl": "",
+    "spineUrl": "",
+    "clickEffectUrl": "",
+    "plotResList": [],
+    "exchangeEffectList": [
+      {
+        "changeEffectId": 11106144,
+        "effectId": 11104726
+      },
+      {
+        "changeEffectId": 11106145,
+        "effectId": 11104728
+      }
+    ],
+    "exchangeBulletList": [
+      {
+        "bulletId": 11200331,
+        "changeBulletId": 11200492
+      }
+    ],
+    "character": -1,
+    "SkinName": "",
+    "quality": "White",
+    "ownExclusiveVoice": false,
+    "isSpine2": 1,
+    "SkinDesc": "",
+    "HomeresDir": "",
+    "singleUrl": "",
+    "GetWay": "0",
+    "offsetX": 0.0,
+    "offsetY": 0.0,
+    "offsetScale": 1.0,
+    "offsetX2": 0.0,
+    "offsetY2": 0.0,
+    "squadsX": 0.0,
+    "squadsY": 0.0,
+    "spineX": 0.0,
+    "spineY": 0.0,
+    "spineScale": 1.0,
+    "squadsHalf1": "",
+    "extraSpineList": [],
+    "clickEffectLayer": "Front",
+    "frontFixEffectUrl": "",
+    "bottomFixEffectUrl": "",
+    "clickHideFixEffect": "None",
+    "SpineBackground": "",
+    "SpineBGX": 0.0,
+    "SpineBGY": 0.0,
+    "SpineBGScale": 0.01,
+    "State2Name": "",
+    "State2Desc": "",
+    "State2Face": "",
+    "State2Gacha": "",
+    "State2Res": "",
+    "State2RoleListRes": "",
+    "squadsHalf2": "",
+    "gachaSpine2Url": "",
+    "spine2Url": "",
+    "gachaPerformUrl": "",
+    "spine2EffectUrl": "",
+    "spine2BgUrl": "",
+    "state2Overturn": false,
+    "spine2Scale": 125.0,
+    "spine2X": 0.0,
+    "spine2Y": 0.0,
+    "profilePhotoID": -1,
     "State2profilePhotoID": -1,
     "rewardList": [],
     "iconPath": "",

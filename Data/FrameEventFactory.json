@@ -3197,8 +3197,9 @@
     "id": 10500264,
     "idCN": "敌方/06深眠者/深眠者·迷梦/普攻1",
     "mod": "攻击事件",
+    "isInformalData": false,
     "buffId": 10403444,
-    "hitSoundID": -1
+    "hitSoundID": 30005305
   },
   {
     "id": 10500354,
@@ -3206,7 +3207,7 @@
     "mod": "攻击事件",
     "isInformalData": false,
     "buffId": 10403509,
-    "hitSoundID": -1
+    "hitSoundID": 30005306
   },
   {
     "id": 10500964,
@@ -7724,7 +7725,7 @@
     "mod": "攻击事件",
     "isInformalData": false,
     "buffId": 10403139,
-    "hitSoundID": -1
+    "hitSoundID": 30005307
   },
   {
     "id": 10500965,
@@ -7740,7 +7741,7 @@
     "mod": "攻击事件",
     "isInformalData": false,
     "buffId": 10403511,
-    "hitSoundID": -1
+    "hitSoundID": 30005308
   },
   {
     "id": 10500609,
@@ -19922,7 +19923,7 @@
     "mod": "攻击事件",
     "isInformalData": false,
     "buffId": 10409570,
-    "hitSoundID": -1
+    "hitSoundID": 30005288
   },
   {
     "id": 10501984,
@@ -19930,7 +19931,7 @@
     "mod": "攻击事件",
     "isInformalData": false,
     "buffId": 10409581,
-    "hitSoundID": -1
+    "hitSoundID": 30005285
   },
   {
     "id": 10501971,
@@ -20124,7 +20125,7 @@
     "mod": "攻击事件",
     "isInformalData": false,
     "buffId": 10409482,
-    "hitSoundID": -1
+    "hitSoundID": 30005282
   },
   {
     "id": 10501993,
@@ -22974,7 +22975,7 @@
     "mod": "攻击事件",
     "isInformalData": false,
     "buffId": 10410667,
-    "hitSoundID": -1
+    "hitSoundID": 30005258
   },
   {
     "id": 10502157,
@@ -22990,7 +22991,7 @@
     "mod": "攻击事件",
     "isInformalData": false,
     "buffId": 10410679,
-    "hitSoundID": -1
+    "hitSoundID": 30005251
   },
   {
     "id": 10502159,
@@ -23548,7 +23549,7 @@
     "mod": "攻击事件",
     "isInformalData": false,
     "buffId": 10408786,
-    "hitSoundID": -1
+    "hitSoundID": 30005059
   },
   {
     "id": 10502192,
@@ -23556,7 +23557,7 @@
     "mod": "攻击事件",
     "isInformalData": false,
     "buffId": 10408788,
-    "hitSoundID": -1
+    "hitSoundID": 30005127
   },
   {
     "id": 10502193,
@@ -23571,7 +23572,7 @@
     "mod": "攻击事件",
     "isInformalData": false,
     "buffId": 10411164,
-    "hitSoundID": -1
+    "hitSoundID": 30005059
   },
   {
     "id": 10502195,
@@ -23579,7 +23580,7 @@
     "mod": "攻击事件",
     "isInformalData": false,
     "buffId": 10411165,
-    "hitSoundID": -1
+    "hitSoundID": 30005127
   },
   {
     "id": 10502139,
@@ -25014,7 +25015,7 @@
     "mod": "攻击事件",
     "isInformalData": false,
     "buffId": 10411627,
-    "hitSoundID": -1
+    "hitSoundID": 30005134
   },
   {
     "id": 10502287,
@@ -25062,7 +25063,7 @@
     "mod": "攻击事件",
     "isInformalData": false,
     "buffId": 10411657,
-    "hitSoundID": -1
+    "hitSoundID": 30005136
   },
   {
     "id": 10502289,
@@ -25086,7 +25087,7 @@
     "mod": "攻击事件",
     "isInformalData": false,
     "buffId": 10411660,
-    "hitSoundID": -1
+    "hitSoundID": 30005138
   },
   {
     "id": 10502292,
@@ -25261,15 +25262,15 @@
     "isInformalData": false,
     "buffId": 10411828,
     "bulletId": 11200009,
-    "targetType": "Random",
+    "targetType": "CurrentTarget",
     "offSetX_SN": 0,
     "offSetZ_SN": 0,
-    "isUseTargetFilter": false,
-    "targetFilterType": "Ally",
+    "isUseTargetFilter": true,
+    "targetFilterType": "Enemy",
     "targetTagList": [],
     "tagType": "And",
-    "halfWidth_SN": 0,
-    "attributeType": "HpMax",
+    "halfWidth_SN": 240000,
+    "attributeType": "Atk",
     "condition": "Max",
     "numberType": "Number",
     "number_SN": 0,
@@ -25280,7 +25281,7 @@
     "filterStance": "DeafaultStance",
     "filterPosition": "DefaultPos",
     "isAimSelf": false,
-    "targetCount": 0
+    "targetCount": 1
   },
   {
     "id": 10502309,
@@ -25367,5 +25368,13 @@
     "mod": "给自己上BUFF",
     "isInformalData": false,
     "buffId": 10411878
+  },
+  {
+    "id": 10502321,
+    "idCN": "敌方/000角色/园丁/妮蔻拉/组合技-A",
+    "mod": "攻击事件",
+    "isInformalData": false,
+    "buffId": 10411897,
+    "hitSoundID": -1
   }
 ]

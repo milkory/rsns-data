@@ -58820,16 +58820,41 @@
     "mod": "活动任务",
     "isInformalData": false,
     "name": "【活动】不速之客",
-    "story": "抵挡住古怪少女的袭击。",
     "describe": "与7号自由港的卡塔斯交谈",
+    "story": "抵挡住古怪少女的袭击。",
+    "questType": "Main",
+    "sort": 10,
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
-    "questType": "Main",
-    "sort": 10,
+    "client": 82600033,
+    "startStation": 83000020,
+    "endStationList": [
+      {
+        "id": 83000020,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": false,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500131,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
     "isSwitchUI": true,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
     "conditionList": [
       {
         "key": "levelId",
@@ -58840,6 +58865,9 @@
     "islockAddProgress": false,
     "isAutoComplete": true,
     "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
     "parentQuest": -1,
     "childQuestList": [],
     "rewardsList": [
@@ -58852,14 +58880,6 @@
         "num": 1
       }
     ],
-    "startStation": 83000020,
-    "endStationList": [
-      {
-        "id": 83000020,
-        "weight": 10
-      }
-    ],
-    "client": 82600033,
     "nextQuest": [
       {
         "id": 81000604
@@ -58871,20 +58891,6 @@
     "isOverwriteEvent": false,
     "eventList": [],
     "environmentList": [],
-    "traceList": [
-      {
-        "apiListId": 86500038,
-        "btnListId": 86500036,
-        "traceId": 86500029,
-        "uiPath": "UI/MainUI/MainUI"
-      },
-      {
-        "apiListId": -1,
-        "btnListId": -1,
-        "traceId": 86500011,
-        "uiPath": "UI/CityMap/CityMap"
-      }
-    ],
     "isTime": false,
     "activityId": 86000001,
     "startTime": "",
@@ -58892,7 +58898,8 @@
     "preQuest": [],
     "preLevel": [],
     "correspondActivity": -1,
-    "buffActivate": -1
+    "buffActivate": -1,
+    "showType": "Txt"
   },
   {
     "id": 81000601,
@@ -58987,16 +58994,47 @@
     "mod": "活动任务",
     "isInformalData": false,
     "name": "【活动】阻碍",
-    "story": "居然在铁安局门口闹事，不能放任不管。",
     "describe": "与7号自由港铁安局的朱利安交谈",
+    "story": "居然在铁安局门口闹事，不能放任不管。",
+    "questType": "Main",
+    "sort": 10,
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
-    "questType": "Main",
-    "sort": 10,
+    "client": 82600008,
+    "startStation": 83000020,
+    "endStationList": [
+      {
+        "id": 83000020,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": false,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500077,
+        "uiPath": "UI/CityMap/CityMap"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500025,
+        "uiPath": "UI/Home/HomeSafe/HomeSafe"
+      }
+    ],
     "isSwitchUI": true,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
     "conditionList": [
       {
         "key": "levelId",
@@ -59007,6 +59045,9 @@
     "islockAddProgress": false,
     "isAutoComplete": true,
     "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
     "parentQuest": -1,
     "childQuestList": [],
     "rewardsList": [
@@ -59019,14 +59060,6 @@
         "num": 1
       }
     ],
-    "startStation": 83000020,
-    "endStationList": [
-      {
-        "id": 83000020,
-        "weight": 10
-      }
-    ],
-    "client": 82600008,
     "nextQuest": [
       {
         "id": 81000600
@@ -59038,6 +59071,38 @@
     "isOverwriteEvent": false,
     "eventList": [],
     "environmentList": [],
+    "isTime": false,
+    "activityId": 86000001,
+    "startTime": "",
+    "endTime": "",
+    "preQuest": [],
+    "preLevel": [],
+    "correspondActivity": -1,
+    "buffActivate": -1,
+    "showType": "Txt"
+  },
+  {
+    "id": 81000603,
+    "idCN": "活动/红茶战争/主线/3.喝茶",
+    "mod": "活动任务",
+    "isInformalData": false,
+    "name": "【活动】尝尝看吧",
+    "describe": "前往修格里城与莉薇娅对话",
+    "story": "莉薇娅出于好奇为大家泡了红茶……要尝尝看吗？",
+    "questType": "Main",
+    "sort": 10,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "client": 82600008,
+    "startStation": 83000001,
+    "endStationList": [
+      {
+        "id": 83000001,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": false,
     "traceList": [
       {
         "apiListId": 86500038,
@@ -59048,41 +59113,15 @@
       {
         "apiListId": -1,
         "btnListId": -1,
-        "traceId": 86500007,
+        "traceId": 86500128,
         "uiPath": "UI/CityMap/CityMap"
-      },
-      {
-        "apiListId": -1,
-        "btnListId": -1,
-        "traceId": 86500025,
-        "uiPath": "UI/Home/HomeSafe/HomeSafe"
       }
     ],
-    "isTime": false,
-    "activityId": 86000001,
-    "startTime": "",
-    "endTime": "",
-    "preQuest": [],
-    "preLevel": [],
-    "correspondActivity": -1,
-    "buffActivate": -1
-  },
-  {
-    "id": 81000603,
-    "idCN": "活动/红茶战争/主线/3.喝茶",
-    "mod": "活动任务",
-    "isInformalData": false,
-    "name": "【活动】尝尝看吧",
-    "story": "莉薇娅出于好奇为大家泡了红茶……要尝尝看吗？",
-    "describe": "前往修格里城与莉薇娅对话",
-    "isShowProgress": false,
-    "isShowUnlock": false,
-    "isShowAchieveProgress": false,
-    "questType": "Main",
-    "sort": 10,
     "isSwitchUI": true,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
     "conditionList": [
       {
         "key": "dialog",
@@ -59093,6 +59132,9 @@
     "islockAddProgress": false,
     "isAutoComplete": false,
     "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
     "parentQuest": -1,
     "childQuestList": [],
     "rewardsList": [
@@ -59105,14 +59147,6 @@
         "num": 1
       }
     ],
-    "startStation": 83000001,
-    "endStationList": [
-      {
-        "id": 83000001,
-        "weight": 10
-      }
-    ],
-    "client": 82600008,
     "nextQuest": [
       {
         "id": 81000601
@@ -59136,6 +59170,38 @@
     "isOverwriteEvent": false,
     "eventList": [],
     "environmentList": [],
+    "isTime": false,
+    "activityId": 86000001,
+    "startTime": "",
+    "endTime": "",
+    "preQuest": [],
+    "preLevel": [],
+    "correspondActivity": -1,
+    "buffActivate": -1,
+    "showType": "Txt"
+  },
+  {
+    "id": 81000604,
+    "idCN": "活动/红茶战争/主线/7.修格里商会",
+    "mod": "活动任务",
+    "isInformalData": false,
+    "name": "【活动】调查货源",
+    "describe": "前往修格里城商会与墨伊拉交谈",
+    "story": "从卡塔斯口中得知了新世代红茶的古怪之处，有必要找知情人了解情况。",
+    "questType": "Main",
+    "sort": 10,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "client": 82600033,
+    "startStation": 83000020,
+    "endStationList": [
+      {
+        "id": 83000001,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": false,
     "traceList": [
       {
         "apiListId": 86500038,
@@ -59146,35 +59212,21 @@
       {
         "apiListId": -1,
         "btnListId": -1,
-        "traceId": 86500011,
+        "traceId": 86500040,
         "uiPath": "UI/CityMap/CityMap"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500025,
+        "uiPath": "UI/HomeCOC/HomeCOC"
       }
     ],
-    "isTime": false,
-    "activityId": 86000001,
-    "startTime": "",
-    "endTime": "",
-    "preQuest": [],
-    "preLevel": [],
-    "correspondActivity": -1,
-    "buffActivate": -1
-  },
-  {
-    "id": 81000604,
-    "idCN": "活动/红茶战争/主线/7.修格里商会",
-    "mod": "活动任务",
-    "isInformalData": false,
-    "name": "【活动】调查货源",
-    "story": "从卡塔斯口中得知了新世代红茶的古怪之处，有必要找知情人了解情况。",
-    "describe": "前往修格里城商会与墨伊拉交谈",
-    "isShowProgress": false,
-    "isShowUnlock": false,
-    "isShowAchieveProgress": false,
-    "questType": "Main",
-    "sort": 10,
     "isSwitchUI": true,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
     "conditionList": [
       {
         "key": "dialog",
@@ -59185,6 +59237,9 @@
     "islockAddProgress": false,
     "isAutoComplete": false,
     "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
     "parentQuest": -1,
     "childQuestList": [],
     "rewardsList": [
@@ -59197,14 +59252,6 @@
         "num": 1
       }
     ],
-    "startStation": 83000020,
-    "endStationList": [
-      {
-        "id": 83000001,
-        "weight": 10
-      }
-    ],
-    "client": 82600033,
     "nextQuest": [
       {
         "id": 81000605
@@ -59216,6 +59263,38 @@
     "isOverwriteEvent": false,
     "eventList": [],
     "environmentList": [],
+    "isTime": false,
+    "activityId": 86000001,
+    "startTime": "",
+    "endTime": "",
+    "preQuest": [],
+    "preLevel": [],
+    "correspondActivity": -1,
+    "buffActivate": -1,
+    "showType": "Txt"
+  },
+  {
+    "id": 81000605,
+    "idCN": "活动/红茶战争/主线/8.调查货源",
+    "mod": "活动任务",
+    "isInformalData": false,
+    "name": "【活动】追踪信号",
+    "describe": "再次与墨伊拉交谈",
+    "story": "根据信号追踪红茶制造商的列车，找到生产红茶的地址。",
+    "questType": "Main",
+    "sort": 10,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "client": 82600033,
+    "startStation": 83000001,
+    "endStationList": [
+      {
+        "id": 83000001,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": false,
     "traceList": [
       {
         "apiListId": 86500038,
@@ -59226,7 +59305,7 @@
       {
         "apiListId": -1,
         "btnListId": -1,
-        "traceId": 86500002,
+        "traceId": 86500120,
         "uiPath": "UI/CityMap/CityMap"
       },
       {
@@ -59236,31 +59315,11 @@
         "uiPath": "UI/HomeCOC/HomeCOC"
       }
     ],
-    "isTime": false,
-    "activityId": 86000001,
-    "startTime": "",
-    "endTime": "",
-    "preQuest": [],
-    "preLevel": [],
-    "correspondActivity": -1,
-    "buffActivate": -1
-  },
-  {
-    "id": 81000605,
-    "idCN": "活动/红茶战争/主线/8.调查货源",
-    "mod": "活动任务",
-    "isInformalData": false,
-    "name": "【活动】追踪信号",
-    "story": "根据信号追踪红茶制造商的列车，找到生产红茶的地址。",
-    "describe": "再次与墨伊拉交谈",
-    "isShowProgress": false,
-    "isShowUnlock": false,
-    "isShowAchieveProgress": false,
-    "questType": "Main",
-    "sort": 10,
     "isSwitchUI": true,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
     "conditionList": [
       {
         "key": "dialog",
@@ -59271,6 +59330,9 @@
     "islockAddProgress": false,
     "isAutoComplete": false,
     "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
     "parentQuest": -1,
     "childQuestList": [],
     "rewardsList": [
@@ -59283,14 +59345,6 @@
         "num": 1
       }
     ],
-    "startStation": 83000001,
-    "endStationList": [
-      {
-        "id": 83000001,
-        "weight": 10
-      }
-    ],
-    "client": 82600033,
     "nextQuest": [
       {
         "id": 81000606
@@ -59302,26 +59356,6 @@
     "isOverwriteEvent": false,
     "eventList": [],
     "environmentList": [],
-    "traceList": [
-      {
-        "apiListId": 86500038,
-        "btnListId": 86500036,
-        "traceId": 86500029,
-        "uiPath": "UI/MainUI/MainUI"
-      },
-      {
-        "apiListId": -1,
-        "btnListId": -1,
-        "traceId": 86500002,
-        "uiPath": "UI/CityMap/CityMap"
-      },
-      {
-        "apiListId": -1,
-        "btnListId": -1,
-        "traceId": 86500025,
-        "uiPath": "UI/HomeCOC/HomeCOC"
-      }
-    ],
     "isTime": false,
     "activityId": 86000001,
     "startTime": "",
@@ -59329,7 +59363,8 @@
     "preQuest": [],
     "preLevel": [],
     "correspondActivity": -1,
-    "buffActivate": -1
+    "buffActivate": -1,
+    "showType": "Txt"
   },
   {
     "id": 81000606,
@@ -59411,16 +59446,41 @@
     "mod": "活动任务",
     "isInformalData": false,
     "name": "【活动】奇妙的邂逅",
-    "story": "在7号自由港遇到了一名奇妙的女孩，从她口中得知了关于帝国的故事……",
     "describe": "前往7号自由港与阿尔喀娜对话",
+    "story": "在7号自由港遇到了一名奇妙的女孩，从她口中得知了关于帝国的故事……",
+    "questType": "Main",
+    "sort": 10,
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
-    "questType": "Main",
-    "sort": 10,
+    "client": 82600169,
+    "startStation": 83000020,
+    "endStationList": [
+      {
+        "id": 83000020,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": false,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500132,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
     "isSwitchUI": true,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
     "conditionList": [
       {
         "key": "dialog",
@@ -59431,6 +59491,9 @@
     "islockAddProgress": false,
     "isAutoComplete": false,
     "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
     "parentQuest": -1,
     "childQuestList": [],
     "rewardsList": [
@@ -59443,14 +59506,6 @@
         "num": 1
       }
     ],
-    "startStation": 83000020,
-    "endStationList": [
-      {
-        "id": 83000020,
-        "weight": 10
-      }
-    ],
-    "client": 82600169,
     "nextQuest": [
       {
         "id": 81000608
@@ -59472,6 +59527,38 @@
     "isOverwriteEvent": false,
     "eventList": [],
     "environmentList": [],
+    "isTime": false,
+    "activityId": 86000001,
+    "startTime": "",
+    "endTime": "",
+    "preQuest": [],
+    "preLevel": [],
+    "correspondActivity": -1,
+    "buffActivate": -1,
+    "showType": "Txt"
+  },
+  {
+    "id": 81000608,
+    "idCN": "活动/红茶战争/主线/11.后日谈",
+    "mod": "活动任务",
+    "isInformalData": false,
+    "name": "【活动】重逢",
+    "describe": "前往修格里城与卡塔斯对话",
+    "story": "与卡塔斯再会时，看到了她与众不同的全新装扮。",
+    "questType": "Main",
+    "sort": 10,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "client": 82600362,
+    "startStation": 83000001,
+    "endStationList": [
+      {
+        "id": 83000001,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": false,
     "traceList": [
       {
         "apiListId": 86500038,
@@ -59482,35 +59569,15 @@
       {
         "apiListId": -1,
         "btnListId": -1,
-        "traceId": 86500012,
+        "traceId": 86500129,
         "uiPath": "UI/CityMap/CityMap"
       }
     ],
-    "isTime": false,
-    "activityId": 86000001,
-    "startTime": "",
-    "endTime": "",
-    "preQuest": [],
-    "preLevel": [],
-    "correspondActivity": -1,
-    "buffActivate": -1
-  },
-  {
-    "id": 81000608,
-    "idCN": "活动/红茶战争/主线/11.后日谈",
-    "mod": "活动任务",
-    "isInformalData": false,
-    "name": "【活动】重逢",
-    "story": "与卡塔斯再会时，看到了她与众不同的全新装扮。",
-    "describe": "前往修格里城与卡塔斯对话",
-    "isShowProgress": false,
-    "isShowUnlock": false,
-    "isShowAchieveProgress": false,
-    "questType": "Main",
-    "sort": 10,
     "isSwitchUI": true,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
     "conditionList": [
       {
         "key": "dialog",
@@ -59521,6 +59588,9 @@
     "islockAddProgress": false,
     "isAutoComplete": false,
     "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
     "parentQuest": -1,
     "childQuestList": [],
     "rewardsList": [
@@ -59533,14 +59603,6 @@
         "num": 1
       }
     ],
-    "startStation": 83000001,
-    "endStationList": [
-      {
-        "id": 83000001,
-        "weight": 10
-      }
-    ],
-    "client": 82600362,
     "nextQuest": [],
     "changeCityStateList": [],
     "mailList": [],
@@ -59548,20 +59610,6 @@
     "isOverwriteEvent": false,
     "eventList": [],
     "environmentList": [],
-    "traceList": [
-      {
-        "apiListId": 86500038,
-        "btnListId": 86500036,
-        "traceId": 86500029,
-        "uiPath": "UI/MainUI/MainUI"
-      },
-      {
-        "apiListId": -1,
-        "btnListId": -1,
-        "traceId": 86500012,
-        "uiPath": "UI/CityMap/CityMap"
-      }
-    ],
     "isTime": false,
     "activityId": 86000001,
     "startTime": "",
@@ -59569,7 +59617,8 @@
     "preQuest": [],
     "preLevel": [],
     "correspondActivity": -1,
-    "buffActivate": -1
+    "buffActivate": -1,
+    "showType": "Txt"
   },
   {
     "id": 81000609,
@@ -87762,7 +87811,7 @@
     ],
     "nextQuest": [
       {
-        "id": 81001340
+        "id": 81001354
       }
     ],
     "changeCityStateList": [],
@@ -87778,10 +87827,10 @@
   },
   {
     "id": 81001339,
-    "idCN": "活动/夏活/支线/任务25",
+    "idCN": "活动/夏活/支线/任务26",
     "mod": "基础任务",
     "isInformalData": false,
-    "name": "【活动】25",
+    "name": "【活动】26",
     "describe": "与丽桑德拉对话",
     "story": "、",
     "questType": "Side",
@@ -87853,11 +87902,11 @@
   },
   {
     "id": 81001340,
-    "idCN": "活动/夏活/支线/任务23-战斗",
+    "idCN": "活动/夏活/支线/任务24-战斗",
     "mod": "基础任务",
     "isInformalData": false,
-    "name": "【活动】23",
-    "describe": "追击敌人",
+    "name": "【活动】24",
+    "describe": "迎战神秘深眠者",
     "story": "",
     "questType": "Side",
     "sort": 12,
@@ -87932,11 +87981,11 @@
   },
   {
     "id": 81001341,
-    "idCN": "活动/夏活/支线/任务24-副本",
+    "idCN": "活动/夏活/支线/任务25-副本",
     "mod": "基础任务",
     "isInformalData": false,
-    "name": "【活动】24",
-    "describe": "迎战神秘深眠者",
+    "name": "【活动】25",
+    "describe": "追击敌人",
     "story": "",
     "questType": "Side",
     "sort": 12,
@@ -88720,5 +88769,149 @@
     "startTime": "",
     "endTime": "",
     "correspondActivity": -1
+  },
+  {
+    "id": 81001354,
+    "idCN": "活动/夏活/支线/任务23",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "【活动】23",
+    "describe": "解锁门口沙滩区域",
+    "story": "",
+    "questType": "Side",
+    "sort": 12,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "client": 82600002,
+    "startStation": 83000002,
+    "endStationList": [
+      {
+        "id": 83000002,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": true,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500124,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "dialog",
+        "val": "0"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": true,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400001,
+        "num": 50
+      }
+    ],
+    "nextQuest": [
+      {
+        "id": 81001340
+      }
+    ],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1
+  },
+  {
+    "id": 81001286,
+    "idCN": "活动/回归/测试1",
+    "mod": "活动任务",
+    "isInformalData": false,
+    "name": "成就1",
+    "describe": "累计利润达到20W",
+    "story": "累计利润达到20w",
+    "questType": "Activity",
+    "sort": 99,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "client": -1,
+    "startStation": -1,
+    "endStationList": [],
+    "isAutoTrace": false,
+    "traceList": [],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "sellItemAddProfit",
+        "val": "0"
+      }
+    ],
+    "num": 200000,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400066,
+        "num": 1
+      },
+      {
+        "id": 11400063,
+        "num": 1
+      }
+    ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "activityId": -1,
+    "startTime": "2024-07-30 10:00:00",
+    "endTime": "2024-08-20 00:00:00",
+    "preQuest": [],
+    "preLevel": [],
+    "correspondActivity": 86000017,
+    "buffActivate": -1,
+    "showType": "Txt"
   }
 ]
