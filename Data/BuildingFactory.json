@@ -17394,33 +17394,16 @@
     "buildingIconPath": "",
     "firstPlotId": -1,
     "uiPath": "UI/ExchangeStation/ExchangeStation",
-    "bgPath": "",
+    "bgPath": "UI/Island_Task/bg",
     "bgColor": "FFFFFF",
     "stationId": -1,
-    "npcId": -1,
-    "favorability": false,
+    "npcId": 83700092,
     "helpId": -1,
     "rankId": -1,
     "correspondingActivity": -1,
     "eventList": [],
     "playerLevel": 0,
-    "exchangeOpenPageList": [
-      {
-        "icon": "UI/HomeBattleCenter/icon_exchange",
-        "isStore": true,
-        "isTalk": false,
-        "name": "兑换计划",
-        "showUI": "Group_Exchange",
-        "uiPath": ""
-      },
-      {
-        "icon": "UI/Home/HomeSafe/jiaotan",
-        "isStore": false,
-        "isTalk": true,
-        "name": "交谈",
-        "showUI": ""
-      }
-    ],
+    "exchangeOpenPageList": [],
     "exchangeStoreList": [
       {
         "id": 40300066
@@ -17429,7 +17412,7 @@
     "exchangeWeaponList": [],
     "isShowConstruct": false,
     "isShowReputation": true,
-    "exchangeName": "里程点数兑换",
+    "exchangeName": "海岛兑换",
     "buildingPath": "UI/Common/Common_icon_camp_2",
     "exchangePath": "UI/HomeBattleCenter/Exchange/icon_coc",
     "pagePath": "UI/HomeBattleCenter/Exchange/di_coc",
@@ -17444,7 +17427,8 @@
     "orderBgPath": "",
     "levelIconPath": "",
     "buildLevelName": -1,
-    "constructionLevelList": []
+    "constructionLevelList": [],
+    "favorability": false
   },
   {
     "id": 84400087,
@@ -17454,12 +17438,11 @@
     "name": "海岛管理局",
     "buildingIconPath": "",
     "firstPlotId": -1,
-    "uiPath": "",
-    "bgPath": "",
+    "uiPath": "UI/HomeCOC/HomeCOCShop",
+    "bgPath": "UI/Island_Task/bg",
     "bgColor": "FFFFFF",
     "stationId": -1,
-    "npcId": -1,
-    "favorability": false,
+    "npcId": 83700092,
     "helpId": -1,
     "rankId": -1,
     "correspondingActivity": -1,
@@ -17479,7 +17462,8 @@
       {
         "id": 40300069
       }
-    ]
+    ],
+    "favorability": false
   },
   {
     "id": 84400105,
@@ -17489,12 +17473,11 @@
     "name": "海岛管理局",
     "buildingIconPath": "UI/HomeCOC/coc_icon_logo",
     "firstPlotId": -1,
-    "uiPath": "",
-    "bgPath": "",
+    "uiPath": "UI/HomeCOC/HomeCOC",
+    "bgPath": "UI/Island_Task/bg",
     "bgColor": "FFFFFF",
     "stationId": -1,
-    "npcId": -1,
-    "favorability": false,
+    "npcId": 83700092,
     "helpId": -1,
     "rankId": -1,
     "correspondingActivity": -1,
@@ -17502,19 +17485,27 @@
     "openPageList": [
       {
         "btnType": "Exchange",
-        "icon": "",
+        "icon": "UI/HomeBattleCenter/icon_exchange",
         "name": "兑换中心",
         "reputation": 1,
         "showUI": ""
       },
       {
         "btnType": "Store",
-        "icon": "",
+        "icon": "UI/HomeCOC/coc_icon_furniture",
         "name": "家具商店",
         "reputation": 1,
         "showUI": ""
+      },
+      {
+        "btnType": "Talk",
+        "icon": "UI/Home/HomeSafe/jiaotan",
+        "name": "交谈",
+        "reputation": 1,
+        "showUI": ""
       }
-    ]
+    ],
+    "favorability": false
   },
   {
     "id": 84400106,

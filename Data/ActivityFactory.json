@@ -1744,7 +1744,7 @@
     "idCN": "活动签到/夏活签到",
     "mod": "活动签到",
     "isInformalData": false,
-    "name": "开拓！",
+    "name": "开拓!",
     "showUI": "Group_ActivitySignIn",
     "bgPath": "UI/Activity/ActivitySignIn/Sunmmer/BG",
     "bgColor": "FFFFFF",
@@ -1759,8 +1759,8 @@
     "unlockTips": -1,
     "isTime": true,
     "startTime": "2024-08-29 05:00:00",
-    "endTime": "2024-09-03 04:59:00",
-    "rewardEndTime": "2024-09-10 04:59:00",
+    "endTime": "2024-09-05 04:59:00",
+    "rewardEndTime": "2024-09-12 04:59:00",
     "replicateNum": 1,
     "isClearCurrency": false,
     "clearCurrencyList": [],
@@ -1769,7 +1769,7 @@
     "activityStoreList": [],
     "joinPlotId": -1,
     "joinQuestId": -1,
-    "signinId": 40100009,
+    "signinId": 40100011,
     "city": -1,
     "activityCardPack": -1,
     "signIcon": "",
@@ -1785,19 +1785,22 @@
     "notTimeBtn": "UI/Activity/ActivitySignIn/Sunmmer/Icon-SignIn",
     "signBtn": "UI/Activity/ActivitySignIn/Sunmmer/Icon-SignIn",
     "signedBtn": "UI/Activity/ActivitySignIn/Sunmmer/Icon-Signed",
-    "notTimeBottom": "UI/Activity/ActivitySignIn/Sunmmer/Btn-SignIn",
+    "notTimeBottom": "UI/Activity/ActivitySignIn/Sunmmer/Btn-Sign",
     "signBottom": "UI/Activity/ActivitySignIn/Sunmmer/Btn-SignIn",
     "signedBottom": "UI/Activity/ActivitySignIn/Sunmmer/Btn-Signed",
     "signMask": "",
     "rewardBG": "UI/Activity/ActivitySignIn/Sunmmer/Signed-ItemBG",
     "rewardSBG": "UI/Activity/ActivitySignIn/Sunmmer/SignIn-ItemBG",
+    "rewardNotBG": "UI/Activity/ActivitySignIn/Sunmmer/SignIn-ItemBG",
     "isNew": true,
     "setType": "1",
     "unSignInColor": "FFFFFF",
     "signColor": "FFFFFF",
     "signedColor": "FFFFFF",
-    "signTitleAbove": 80607784,
-    "signTitleBottom": 80607800
+    "signTitleAboveC": 80607784,
+    "signTitleBottomC": 80607800,
+    "signTitleAboveE": -1,
+    "signTitleBottomE": -1
   },
   {
     "id": 86000016,
@@ -1809,7 +1812,7 @@
     "bgPath": "",
     "bgColor": "FFFFFF",
     "npcId": -1,
-    "helpId": -1,
+    "helpId": 80300305,
     "voiceActivity": 30002382,
     "correspondingCity": [],
     "correspondingBuild": [],
@@ -1909,8 +1912,12 @@
     "endTime": "2030-01-01 00:00:00",
     "rewardEndTime": "",
     "replicateNum": 1,
-    "isClearCurrency": false,
-    "clearCurrencyList": [],
+    "isClearCurrency": true,
+    "clearCurrencyList": [
+      {
+        "id": 11400213
+      }
+    ],
     "allScheduleRefreshTime": 60,
     "rewardPreviewList": [],
     "activityStoreList": [],
@@ -1923,8 +1930,191 @@
     "returnSignIn": 40100010,
     "returnTask": [
       {
-        "task": 81001286
+        "num": 1,
+        "task": 81001361
+      },
+      {
+        "num": 1,
+        "task": 81001362
+      },
+      {
+        "num": 1,
+        "task": 81001363
+      },
+      {
+        "num": 1,
+        "task": 81001364
+      },
+      {
+        "num": 1,
+        "task": 81001365
+      },
+      {
+        "num": 1,
+        "task": 81001372
+      },
+      {
+        "num": 1,
+        "task": 81001373
+      },
+      {
+        "num": 1,
+        "task": 81001374
+      },
+      {
+        "num": 1,
+        "task": 81001387
+      },
+      {
+        "num": 1,
+        "task": 81001389
+      },
+      {
+        "num": 1,
+        "task": 81001385
+      },
+      {
+        "num": 1,
+        "task": 81001386
+      },
+      {
+        "num": 1,
+        "task": 81001375
+      },
+      {
+        "num": 1,
+        "task": 81001376
+      },
+      {
+        "num": 1,
+        "task": 81001377
+      },
+      {
+        "num": 1,
+        "task": 81001378
+      },
+      {
+        "num": 1,
+        "task": 81001366
+      },
+      {
+        "num": 1,
+        "task": 81001367
+      },
+      {
+        "num": 1,
+        "task": 81001368
+      },
+      {
+        "num": 1,
+        "task": 81001379
+      },
+      {
+        "num": 1,
+        "task": 81001380
+      },
+      {
+        "num": 1,
+        "task": 81001381
+      },
+      {
+        "num": 1,
+        "task": 81001393
+      },
+      {
+        "num": 1,
+        "task": 81001394
+      },
+      {
+        "num": 1,
+        "task": 81001382
+      },
+      {
+        "num": 1,
+        "task": 81001383
+      },
+      {
+        "num": 1,
+        "task": 81001384
+      },
+      {
+        "num": 1,
+        "task": 81001395
+      },
+      {
+        "num": 1,
+        "task": 81001396
+      },
+      {
+        "num": 1,
+        "task": 81001397
+      },
+      {
+        "num": 1,
+        "task": 81001390
+      },
+      {
+        "num": 1,
+        "task": 81001391
+      },
+      {
+        "num": 1,
+        "task": 81001392
+      },
+      {
+        "num": 1,
+        "task": 81001369
+      },
+      {
+        "num": 1,
+        "task": 81001370
+      },
+      {
+        "num": 1,
+        "task": 81001371
       }
-    ]
+    ],
+    "returnTaskRewards": [
+      {
+        "num": 20,
+        "rewards": 80303672
+      },
+      {
+        "num": 40,
+        "rewards": 80303673
+      },
+      {
+        "num": 60,
+        "rewards": 80303674
+      },
+      {
+        "num": 80,
+        "rewards": 80303675
+      },
+      {
+        "num": 100,
+        "rewards": 80303676
+      }
+    ],
+    "returnBuffList": [
+      {
+        "buff": 84100163
+      },
+      {
+        "buff": 84100162
+      },
+      {
+        "buff": 84100134
+      }
+    ],
+    "returnNewsList": [
+      {
+        "id": 86000002,
+        "newsBG": "UI/Activity/Regression/News/ConstructionOne/BG",
+        "newsIcon": "UI/Activity/Regression/News/ConstructionOne/Icon_Construction",
+        "newsTitle": "UI/Activity/Regression/News/ConstructionOne/Icon_Title"
+      }
+    ],
+    "returnEmail": 80303677
   }
 ]
