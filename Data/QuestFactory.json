@@ -28315,6 +28315,7 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [
       {
@@ -28327,6 +28328,8 @@
     "isAutoComplete": true,
     "checkComplete": false,
     "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
     "parentQuest": -1,
     "childQuestList": [],
     "rewardsList": [
@@ -61782,7 +61785,7 @@
     "rewardsList": [
       {
         "id": 11400005,
-        "num": 50
+        "num": 100
       },
       {
         "id": 11400056,
@@ -61869,7 +61872,7 @@
     "rewardsList": [
       {
         "id": 11400005,
-        "num": 50
+        "num": 100
       },
       {
         "id": 11400056,
@@ -62053,6 +62056,7 @@
     "isShowProgress": true,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
+    "isAnecdote": false,
     "client": 82600293,
     "startStation": 83000029,
     "endStationList": [
@@ -62061,16 +62065,21 @@
         "weight": 10
       }
     ],
+    "isAutoTrace": false,
     "traceList": [],
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
     "conditionList": [],
     "num": 3,
     "islockAddProgress": true,
     "isAutoComplete": true,
     "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
     "parentQuest": -1,
     "childQuestList": [
       {
@@ -62086,7 +62095,11 @@
     "rewardsList": [
       {
         "id": 11400005,
-        "num": 50
+        "num": 100
+      },
+      {
+        "id": 11400056,
+        "num": 100
       }
     ],
     "nextQuest": [
@@ -62112,7 +62125,7 @@
     "isInformalData": false,
     "name": "出城",
     "describe": "击退在澄明数据中心东部聚集的军阀",
-    "story": "离开澄明数据中心，将伙伴们送往目的地。",
+    "story": "军阀已在导航地图中标记，位于澄明数据中心东部行车段，从澄明数据中心出发前往修格里城的行车途中可以发现。离开澄明数据中心，将伙伴们送往目的地。",
     "questType": "Main",
     "sort": 0,
     "isShowProgress": true,
@@ -80481,7 +80494,7 @@
     "isInformalData": false,
     "name": "摆渡船",
     "describe": "前往阿妮塔发射中心与安菲娅对话",
-    "story": "前往摆渡船诞生的发射中心，了解核心的锚定技术。",
+    "story": "前往摆渡船诞生的发射中心，了解核心的锚定技术。需前往7号自由港完成“我造我路”大桥建设工程，获得【发射中心大桥通行证】才可前往发射中心。",
     "questType": "Main",
     "sort": 0,
     "isShowProgress": false,
@@ -81158,8 +81171,8 @@
     "mod": "基础任务",
     "isInformalData": false,
     "name": "真相之旅",
-    "describe": "在前往阿妮塔能源研究所的途中清除威胁",
-    "story": "确保经由阿妮塔战备工厂前往阿妮塔能源研究所的途中没有威胁。",
+    "describe": "清除阿妮塔战备工厂南部行车途中的威胁",
+    "story": "威胁已在导航地图中标记，位于阿妮塔战备工厂南部行车段，从阿妮塔战备工厂出发前往阿妮塔能源研究所的行车途中可以发现。",
     "questType": "Main",
     "sort": 0,
     "isShowProgress": false,

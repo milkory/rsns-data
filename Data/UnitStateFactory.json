@@ -43767,12 +43767,14 @@
     "id": 10201665,
     "idCN": "敌方/05鼹鼠帮/突击车暴徒/技能3",
     "mod": "基础状态",
+    "isInformalData": false,
     "actionLevel": "System",
     "viewId": 11000088,
     "aniName": "skill_03",
     "isLoop": false,
     "aniTime_SN": 53333,
     "totalFrame": 320,
+    "customFrameTag": "",
     "frameChanged": false,
     "frameEventList": [
       {
@@ -43856,10 +43858,10 @@
     "isYChange": false,
     "offsetYList": [],
     "speed_SN": 0,
+    "speedY_SN": 0,
     "keyFrameList": [],
     "isSetSortingOrder": false,
-    "sortingOrder": 0,
-    "speedY_SN": 0
+    "sortingOrder": 0
   },
   {
     "id": 10201666,
@@ -115763,15 +115765,6 @@
     "frameChanged": false,
     "frameEventList": [
       {
-        "frameEventId": 10500302,
-        "hHalf_SN": 0,
-        "triggerFrame": 1,
-        "triggerTime_SN": 0,
-        "wHalf_SN": 0,
-        "x_SN": 0,
-        "y_SN": 0
-      },
-      {
         "frameEventId": 10501286,
         "hHalf_SN": 0,
         "triggerFrame": 48,
@@ -153580,15 +153573,6 @@
       {
         "frameEventId": 10500395,
         "hHalf_SN": 15000,
-        "triggerFrame": 245,
-        "triggerTime_SN": 41749,
-        "wHalf_SN": 40000,
-        "x_SN": 110000,
-        "y_SN": 15000
-      },
-      {
-        "frameEventId": 10500395,
-        "hHalf_SN": 15000,
         "triggerFrame": 250,
         "triggerTime_SN": 41749,
         "wHalf_SN": 40000,
@@ -153625,25 +153609,7 @@
       {
         "frameEventId": 10500395,
         "hHalf_SN": 15000,
-        "triggerFrame": 270,
-        "triggerTime_SN": 45089,
-        "wHalf_SN": 40000,
-        "x_SN": 110000,
-        "y_SN": 15000
-      },
-      {
-        "frameEventId": 10500395,
-        "hHalf_SN": 15000,
         "triggerFrame": 275,
-        "triggerTime_SN": 46759,
-        "wHalf_SN": 40000,
-        "x_SN": 110000,
-        "y_SN": 15000
-      },
-      {
-        "frameEventId": 10500395,
-        "hHalf_SN": 15000,
-        "triggerFrame": 280,
         "triggerTime_SN": 46759,
         "wHalf_SN": 40000,
         "x_SN": 110000,
@@ -166849,14 +166815,28 @@
     "viewId": 11000378,
     "aniName": "skill_02",
     "isLoop": false,
-    "aniTime_SN": 13500,
-    "totalFrame": 81,
+    "aniTime_SN": 13333,
+    "totalFrame": 80,
     "customFrameTag": "",
     "frameChanged": false,
     "frameEventList": [],
     "effectList": [
       {
         "effectId": 11100114
+      },
+      {
+        "effectId": 11106159,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11106139,
+        "offsetX": -0.26,
+        "offsetY": 3.24,
+        "triggerFrame": 30,
+        "triggerTime_SN": 5000
       }
     ],
     "soundList": [],
@@ -166877,8 +166857,8 @@
     "viewId": 11000378,
     "aniName": "skill_03",
     "isLoop": false,
-    "aniTime_SN": 21833,
-    "totalFrame": 131,
+    "aniTime_SN": 21667,
+    "totalFrame": 130,
     "customFrameTag": "",
     "frameChanged": false,
     "frameEventList": [
@@ -166890,9 +166870,40 @@
         "wHalf_SN": 0,
         "x_SN": 0,
         "y_SN": 0
+      },
+      {
+        "frameEventId": 10502336,
+        "hHalf_SN": 0,
+        "triggerFrame": 56,
+        "triggerTime_SN": 9333,
+        "wHalf_SN": 0,
+        "x_SN": 6800,
+        "y_SN": 34300
       }
     ],
-    "effectList": [],
+    "effectList": [
+      {
+        "effectId": 11106149,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11104900,
+        "offsetX": 0.0,
+        "offsetY": 1.5,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11106154,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 16,
+        "triggerTime_SN": 2667
+      }
+    ],
     "soundList": [],
     "isYChange": false,
     "offsetYList": [],
@@ -166911,8 +166922,8 @@
     "viewId": 11000378,
     "aniName": "stun",
     "isLoop": false,
-    "aniTime_SN": 20000,
-    "totalFrame": 120,
+    "aniTime_SN": 26833,
+    "totalFrame": 161,
     "customFrameTag": "",
     "frameChanged": false,
     "frameEventList": [],
@@ -166928,15 +166939,15 @@
   },
   {
     "id": 10203653,
-    "idCN": "我方/05五星/泳装静流/普攻_双持",
+    "idCN": "我方/05五星/泳装静流/普攻_子弹_双持",
     "mod": "基础状态",
     "isInformalData": false,
     "actionLevel": "NormalAttack",
     "viewId": 11000378,
     "aniName": "attack_02",
     "isLoop": false,
-    "aniTime_SN": 5167,
-    "totalFrame": 31,
+    "aniTime_SN": 2667,
+    "totalFrame": 16,
     "customFrameTag": "",
     "frameChanged": false,
     "frameEventList": [
@@ -166952,14 +166963,29 @@
       {
         "frameEventId": 10502307,
         "hHalf_SN": 0,
-        "triggerFrame": 15,
-        "triggerTime_SN": 2500,
+        "triggerFrame": 11,
+        "triggerTime_SN": 1833,
         "wHalf_SN": 0,
         "x_SN": 800,
         "y_SN": 15400
       }
     ],
-    "effectList": [],
+    "effectList": [
+      {
+        "effectId": 11106226,
+        "offsetX": 1.25,
+        "offsetY": 1.79,
+        "triggerFrame": 3,
+        "triggerTime_SN": 500
+      },
+      {
+        "effectId": 11106226,
+        "offsetX": 0.49,
+        "offsetY": 1.47,
+        "triggerFrame": 11,
+        "triggerTime_SN": 1833
+      }
+    ],
     "soundList": [],
     "isYChange": false,
     "offsetYList": [],
@@ -167002,14 +167028,47 @@
     "viewId": 11000378,
     "aniName": "skill_01",
     "isLoop": false,
-    "aniTime_SN": 13500,
-    "totalFrame": 81,
+    "aniTime_SN": 13333,
+    "totalFrame": 80,
     "customFrameTag": "",
     "frameChanged": false,
-    "frameEventList": [],
+    "frameEventList": [
+      {
+        "frameEventId": 10502333,
+        "hHalf_SN": 0,
+        "triggerFrame": 60,
+        "triggerTime_SN": 10000,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10502334,
+        "hHalf_SN": 0,
+        "triggerFrame": 61,
+        "triggerTime_SN": 10167,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      }
+    ],
     "effectList": [
       {
         "effectId": 11100114
+      },
+      {
+        "effectId": 11106159,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11106148,
+        "offsetX": 0.0,
+        "offsetY": 1.7,
+        "triggerFrame": 30,
+        "triggerTime_SN": 5000
       }
     ],
     "soundList": [],
@@ -167091,40 +167150,6 @@
     "customFrameTag": "",
     "frameChanged": false,
     "frameEventList": [],
-    "effectList": [],
-    "soundList": [],
-    "isYChange": false,
-    "offsetYList": [],
-    "speed_SN": 0,
-    "speedY_SN": 0,
-    "keyFrameList": [],
-    "isSetSortingOrder": false,
-    "sortingOrder": 0
-  },
-  {
-    "id": 10203652,
-    "idCN": "我方/05五星/泳装静流/普攻_单持",
-    "mod": "基础状态",
-    "isInformalData": false,
-    "actionLevel": "NormalAttack",
-    "viewId": 11000378,
-    "aniName": "attack_01",
-    "isLoop": false,
-    "aniTime_SN": 10167,
-    "totalFrame": 61,
-    "customFrameTag": "",
-    "frameChanged": false,
-    "frameEventList": [
-      {
-        "frameEventId": 10502307,
-        "hHalf_SN": 0,
-        "triggerFrame": 26,
-        "triggerTime_SN": 4333,
-        "wHalf_SN": 0,
-        "x_SN": 10000,
-        "y_SN": 17000
-      }
-    ],
     "effectList": [],
     "soundList": [],
     "isYChange": false,
@@ -168804,21 +168829,35 @@
   },
   {
     "id": 10203670,
-    "idCN": "我方/05五星/泳装静流/觉醒2_剪刀手",
+    "idCN": "我方/05五星/泳装静流/共振5_剪刀手",
     "mod": "基础状态",
     "isInformalData": false,
     "actionLevel": "NormalSkill",
     "viewId": 11000378,
     "aniName": "skill_04",
     "isLoop": false,
-    "aniTime_SN": 6833,
-    "totalFrame": 41,
+    "aniTime_SN": 6667,
+    "totalFrame": 40,
     "customFrameTag": "",
     "frameChanged": false,
-    "frameEventList": [],
+    "frameEventList": [
+      {
+        "frameEventId": 10502345,
+        "hHalf_SN": 0,
+        "triggerFrame": 35,
+        "triggerTime_SN": 5833,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      }
+    ],
     "effectList": [
       {
-        "effectId": 11100114
+        "effectId": 11106220,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 25,
+        "triggerTime_SN": 4167
       }
     ],
     "soundList": [],
@@ -168839,14 +168878,25 @@
     "viewId": 11000378,
     "aniName": "skill_05",
     "isLoop": false,
-    "aniTime_SN": 6833,
-    "totalFrame": 41,
+    "aniTime_SN": 6667,
+    "totalFrame": 40,
     "customFrameTag": "",
     "frameChanged": false,
-    "frameEventList": [],
+    "frameEventList": [
+      {
+        "frameEventId": 10502346
+      }
+    ],
     "effectList": [
       {
         "effectId": 11100114
+      },
+      {
+        "effectId": 11106150,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
       }
     ],
     "soundList": [],
@@ -168912,6 +168962,1631 @@
         "triggerTime_SN": 0
       }
     ],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203696,
+    "idCN": "敌方/14学会/学会驻守者/普攻1",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "NormalAttack",
+    "viewId": 11000393,
+    "aniName": "attack_01",
+    "isLoop": false,
+    "aniTime_SN": 11666,
+    "totalFrame": 70,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10502332,
+        "hHalf_SN": 10000,
+        "triggerFrame": 21,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 25000,
+        "x_SN": 25000,
+        "y_SN": 10000
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11102922,
+        "offsetX": 0.13,
+        "offsetY": 1.52,
+        "triggerFrame": 20,
+        "triggerTime_SN": 0
+      }
+    ],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203697,
+    "idCN": "敌方/14学会/学会驻守者/普攻2",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "NormalAttack",
+    "viewId": 11000393,
+    "aniName": "attack_02",
+    "isLoop": false,
+    "aniTime_SN": 21000,
+    "totalFrame": 126,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10502337,
+        "hHalf_SN": 0,
+        "triggerFrame": 40,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 30000,
+        "y_SN": 20000
+      },
+      {
+        "frameEventId": 10502340,
+        "hHalf_SN": 0,
+        "triggerFrame": 50,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 38000,
+        "y_SN": 18000
+      },
+      {
+        "frameEventId": 10502338,
+        "hHalf_SN": 0,
+        "triggerFrame": 70,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 21000,
+        "y_SN": 24000
+      },
+      {
+        "frameEventId": 10502339,
+        "hHalf_SN": 0,
+        "triggerFrame": 90,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 18000,
+        "y_SN": 19000
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11103012,
+        "offsetX": 0.66,
+        "offsetY": 2.0,
+        "triggerFrame": 38,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11103021,
+        "offsetX": -1.15,
+        "offsetY": 2.0,
+        "triggerFrame": 46,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11103111,
+        "offsetX": 3.0,
+        "offsetY": -1.35,
+        "triggerFrame": 55,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11104711,
+        "offsetX": 1.05,
+        "offsetY": 4.2,
+        "triggerFrame": 86,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11104708,
+        "offsetX": 1.43,
+        "offsetY": 2.43,
+        "triggerFrame": 86,
+        "triggerTime_SN": 0
+      }
+    ],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203698,
+    "idCN": "敌方/14学会/学会驻守者/受击1",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "Hit",
+    "viewId": 11000393,
+    "aniName": "injure_01",
+    "isLoop": false,
+    "aniTime_SN": 6666,
+    "totalFrame": 40,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [],
+    "effectList": [],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203699,
+    "idCN": "敌方/14学会/学会驻守者/受击2",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "Hit",
+    "viewId": 11000393,
+    "aniName": "injure_02",
+    "isLoop": false,
+    "aniTime_SN": 6666,
+    "totalFrame": 40,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [],
+    "effectList": [],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203700,
+    "idCN": "敌方/14学会/学会驻守者/死亡",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "System",
+    "viewId": 11000393,
+    "aniName": "dead",
+    "isLoop": false,
+    "aniTime_SN": 11666,
+    "totalFrame": 70,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [],
+    "effectList": [
+      {
+        "effectId": 11100082,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 4174
+      }
+    ],
+    "soundList": [
+      {
+        "soundId": 30002979,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      },
+      {
+        "soundId": 30003000,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      }
+    ],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203701,
+    "idCN": "敌方/14学会/学会驻守者/移动",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "Move",
+    "viewId": 11000393,
+    "aniName": "run",
+    "isLoop": false,
+    "aniTime_SN": 6000,
+    "totalFrame": 36,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [],
+    "effectList": [],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 2000,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203702,
+    "idCN": "敌方/14学会/学会驻守者/站立",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "Stand",
+    "viewId": 11000393,
+    "aniName": "stand",
+    "isLoop": false,
+    "aniTime_SN": 13333,
+    "totalFrame": 80,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [],
+    "effectList": [],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203703,
+    "idCN": "敌方/14学会/学会驻守者/技能1_1",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "NormalSkill",
+    "viewId": 11000393,
+    "aniName": "skill_01_01",
+    "isLoop": false,
+    "aniTime_SN": 9333,
+    "totalFrame": 56,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10501587,
+        "hHalf_SN": 0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10502343,
+        "hHalf_SN": 0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      }
+    ],
+    "effectList": [],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203704,
+    "idCN": "敌方/14学会/学会驻守者/技能1_2",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "NormalSkill",
+    "viewId": 11000393,
+    "aniName": "skill_01_02",
+    "isLoop": false,
+    "aniTime_SN": 2666,
+    "totalFrame": 16,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10502342,
+        "hHalf_SN": 10000,
+        "triggerFrame": 4,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 20000,
+        "x_SN": 20000,
+        "y_SN": 10000
+      },
+      {
+        "frameEventId": 10502342,
+        "hHalf_SN": 10000,
+        "triggerFrame": 12,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 20000,
+        "x_SN": 20000,
+        "y_SN": 10000
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11106232,
+        "offsetX": 2.17,
+        "offsetY": 2.2,
+        "triggerFrame": 2,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11106232,
+        "offsetX": 1.6,
+        "offsetY": 2.5,
+        "triggerFrame": 10,
+        "triggerTime_SN": 0
+      }
+    ],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203705,
+    "idCN": "敌方/14学会/学会驻守者/技能1_3",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "NormalSkill",
+    "viewId": 11000393,
+    "aniName": "skill_01_03",
+    "isLoop": false,
+    "aniTime_SN": 3666,
+    "totalFrame": 22,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10500069,
+        "hHalf_SN": 0,
+        "triggerFrame": 20,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      }
+    ],
+    "effectList": [],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203706,
+    "idCN": "敌方/14学会/学会驻守者/被动技能1_1",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "NormalSkill",
+    "viewId": 11000393,
+    "aniName": "skill_02_01",
+    "isLoop": false,
+    "aniTime_SN": 8333,
+    "totalFrame": 50,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10502344,
+        "hHalf_SN": 0,
+        "triggerFrame": 49,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11106234,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 49,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11106235,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 49,
+        "triggerTime_SN": 0
+      }
+    ],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203707,
+    "idCN": "敌方/14学会/学会驻守者/被动技能1_2",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "NormalSkill",
+    "viewId": 11000393,
+    "aniName": "skill_02_02",
+    "isLoop": false,
+    "aniTime_SN": 15000,
+    "totalFrame": 90,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [],
+    "effectList": [
+      {
+        "effectId": 11106234,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 89,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11106235,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 89,
+        "triggerTime_SN": 0
+      }
+    ],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203681,
+    "idCN": "敌方/000角色/学会/瓦伦汀/站立",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "Stand",
+    "viewId": 11000047,
+    "aniName": "stand",
+    "isLoop": false,
+    "aniTime_SN": 20000,
+    "totalFrame": 120,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [],
+    "effectList": [],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203682,
+    "idCN": "敌方/000角色/学会/瓦伦汀/移动",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "Move",
+    "viewId": 11000047,
+    "aniName": "run",
+    "isLoop": false,
+    "aniTime_SN": 5333,
+    "totalFrame": 32,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [],
+    "effectList": [],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 1000,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203683,
+    "idCN": "敌方/000角色/学会/瓦伦汀/受击1",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "Hit",
+    "viewId": 11000047,
+    "aniName": "injure01",
+    "isLoop": false,
+    "aniTime_SN": 6666,
+    "totalFrame": 40,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [],
+    "effectList": [],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203684,
+    "idCN": "敌方/000角色/学会/瓦伦汀/普攻2",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "NormalAttack",
+    "viewId": 11000047,
+    "aniName": "attack_02",
+    "isLoop": false,
+    "aniTime_SN": 14333,
+    "totalFrame": 86,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10500208,
+        "hHalf_SN": 0,
+        "triggerFrame": 36,
+        "triggerTime_SN": 6167,
+        "wHalf_SN": 0,
+        "x_SN": 20000,
+        "y_SN": 15000
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11100062,
+        "offsetX": 1.7,
+        "offsetY": 1.5,
+        "triggerFrame": 36,
+        "triggerTime_SN": 6178
+      }
+    ],
+    "soundList": [
+      {
+        "soundId": 30000396,
+        "triggerFrame": 30,
+        "triggerTime_SN": 5000
+      }
+    ],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203685,
+    "idCN": "敌方/000角色/学会/瓦伦汀/受击2",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "Hit",
+    "viewId": 11000047,
+    "aniName": "injure02",
+    "isLoop": false,
+    "aniTime_SN": 6666,
+    "totalFrame": 40,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [],
+    "effectList": [],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203686,
+    "idCN": "敌方/000角色/学会/瓦伦汀/S1共振5",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "SpecialSkill",
+    "viewId": 11000047,
+    "aniName": "skill_03",
+    "isLoop": false,
+    "aniTime_SN": 12333,
+    "totalFrame": 74,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10500146,
+        "hHalf_SN": 10000,
+        "triggerFrame": 12,
+        "triggerTime_SN": 2000,
+        "wHalf_SN": 240000,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501187,
+        "hHalf_SN": 0,
+        "triggerFrame": 30,
+        "triggerTime_SN": 5000,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501173,
+        "hHalf_SN": 0,
+        "triggerFrame": 73,
+        "triggerTime_SN": 12167,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11100550,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 4,
+        "triggerTime_SN": 2000
+      },
+      {
+        "effectId": 11100200,
+        "offsetX": 1.26,
+        "offsetY": 1.48,
+        "triggerFrame": 0,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11102497,
+        "offsetX": 1.26,
+        "offsetY": 1.48,
+        "triggerFrame": 0,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11102504,
+        "offsetX": 1.26,
+        "offsetY": 1.48,
+        "triggerFrame": 0,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11100080,
+        "offsetX": 1.26,
+        "offsetY": 1.48,
+        "triggerFrame": 0,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11101377,
+        "offsetX": 1.26,
+        "offsetY": 1.48,
+        "triggerFrame": 0,
+        "triggerTime_SN": 0
+      }
+    ],
+    "soundList": [
+      {
+        "soundId": 30001333,
+        "triggerFrame": 1,
+        "triggerTime_SN": 167
+      }
+    ],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203687,
+    "idCN": "敌方/000角色/学会/瓦伦汀/A",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "NormalSkill",
+    "viewId": 11000047,
+    "aniName": "skill_01",
+    "isLoop": false,
+    "aniTime_SN": 20000,
+    "totalFrame": 120,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10500144,
+        "hHalf_SN": 0,
+        "triggerFrame": 62,
+        "triggerTime_SN": 10333,
+        "wHalf_SN": 0,
+        "x_SN": 13000,
+        "y_SN": 11000
+      },
+      {
+        "frameEventId": 10500144,
+        "hHalf_SN": 0,
+        "triggerFrame": 62,
+        "triggerTime_SN": 10333,
+        "wHalf_SN": 0,
+        "x_SN": 13000,
+        "y_SN": 11000
+      },
+      {
+        "frameEventId": 10500144,
+        "hHalf_SN": 0,
+        "triggerFrame": 62,
+        "triggerTime_SN": 10333,
+        "wHalf_SN": 0,
+        "x_SN": 13000,
+        "y_SN": 11000
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11100114
+      },
+      {
+        "effectId": 11102501,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11102490,
+        "offsetX": 1.0,
+        "offsetY": 1.25,
+        "triggerFrame": 38,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11102491,
+        "offsetX": 1.0,
+        "offsetY": 1.25,
+        "triggerFrame": 62,
+        "triggerTime_SN": 0
+      }
+    ],
+    "soundList": [
+      {
+        "soundId": 30000398,
+        "triggerFrame": 39,
+        "triggerTime_SN": 0
+      }
+    ],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203689,
+    "idCN": "敌方/000角色/学会/瓦伦汀/死亡",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "System",
+    "viewId": 11000047,
+    "aniName": "dead",
+    "isLoop": false,
+    "aniTime_SN": 13333,
+    "totalFrame": 80,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [],
+    "effectList": [
+      {
+        "effectId": 11100082,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 25,
+        "triggerTime_SN": 4174
+      }
+    ],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203690,
+    "idCN": "敌方/000角色/学会/瓦伦汀/B",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "NormalSkill",
+    "viewId": 11000047,
+    "aniName": "skill_02",
+    "isLoop": false,
+    "aniTime_SN": 25000,
+    "totalFrame": 150,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10500878,
+        "hHalf_SN": 0,
+        "triggerFrame": 83,
+        "triggerTime_SN": 13833,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10500011,
+        "hHalf_SN": 0,
+        "triggerFrame": 83,
+        "triggerTime_SN": 13833,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11100114
+      },
+      {
+        "effectId": 11102499,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11100136,
+        "offsetX": 0.8,
+        "offsetY": 1.4,
+        "triggerFrame": 46,
+        "triggerTime_SN": 7667
+      },
+      {
+        "effectId": 11102494,
+        "offsetX": 0.8,
+        "offsetY": 1.4,
+        "triggerFrame": 46,
+        "triggerTime_SN": 7667
+      },
+      {
+        "effectId": 11102495,
+        "offsetX": 0.8,
+        "offsetY": 1.4,
+        "triggerFrame": 46,
+        "triggerTime_SN": 7667
+      },
+      {
+        "effectId": 11102496,
+        "offsetX": 0.8,
+        "offsetY": 1.4,
+        "triggerFrame": 80,
+        "triggerTime_SN": 13333
+      },
+      {
+        "effectId": 11102497,
+        "offsetX": 0.8,
+        "offsetY": 1.4,
+        "triggerFrame": 80,
+        "triggerTime_SN": 13333
+      },
+      {
+        "effectId": 11102504,
+        "offsetX": 0.8,
+        "offsetY": 1.4,
+        "triggerFrame": 80,
+        "triggerTime_SN": 13333
+      },
+      {
+        "effectId": 11100080,
+        "offsetX": 0.8,
+        "offsetY": 1.4,
+        "triggerFrame": 80,
+        "triggerTime_SN": 13333
+      },
+      {
+        "effectId": 11101377,
+        "offsetX": 0.8,
+        "offsetY": 1.4,
+        "triggerFrame": 80,
+        "triggerTime_SN": 13333
+      },
+      {
+        "effectId": 11102500,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 80,
+        "triggerTime_SN": 13333
+      }
+    ],
+    "soundList": [
+      {
+        "soundId": 30000402,
+        "triggerFrame": 43,
+        "triggerTime_SN": 5833
+      }
+    ],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203691,
+    "idCN": "敌方/000角色/学会/瓦伦汀/S0",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "SpecialSkill",
+    "viewId": 11000047,
+    "aniName": "preskl_03",
+    "isLoop": false,
+    "aniTime_SN": 12666,
+    "totalFrame": 76,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10500302,
+        "hHalf_SN": 0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11102490,
+        "offsetX": 1.26,
+        "offsetY": 1.48,
+        "triggerFrame": 52,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11101480,
+        "offsetX": 1.26,
+        "offsetY": 1.48,
+        "triggerFrame": 42,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11102503,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 42,
+        "triggerTime_SN": 0
+      }
+    ],
+    "soundList": [
+      {
+        "soundId": 30000803,
+        "triggerFrame": 10,
+        "triggerTime_SN": 0
+      },
+      {
+        "soundId": 30000403,
+        "triggerFrame": 52,
+        "triggerTime_SN": 9000
+      }
+    ],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203692,
+    "idCN": "敌方/000角色/学会/瓦伦汀/S1",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "SpecialSkill",
+    "viewId": 11000047,
+    "aniName": "skill_03",
+    "isLoop": false,
+    "aniTime_SN": 12333,
+    "totalFrame": 74,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10500146,
+        "hHalf_SN": 10000,
+        "triggerFrame": 12,
+        "triggerTime_SN": 2000,
+        "wHalf_SN": 240000,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501149,
+        "hHalf_SN": 0,
+        "triggerFrame": 30,
+        "triggerTime_SN": 5000,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501173,
+        "hHalf_SN": 0,
+        "triggerFrame": 73,
+        "triggerTime_SN": 12167,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11100550,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 4,
+        "triggerTime_SN": 2000
+      },
+      {
+        "effectId": 11100200,
+        "offsetX": 1.26,
+        "offsetY": 1.48,
+        "triggerFrame": 0,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11102497,
+        "offsetX": 1.26,
+        "offsetY": 1.48,
+        "triggerFrame": 0,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11102504,
+        "offsetX": 1.26,
+        "offsetY": 1.48,
+        "triggerFrame": 0,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11100080,
+        "offsetX": 1.26,
+        "offsetY": 1.48,
+        "triggerFrame": 0,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11101377,
+        "offsetX": 1.26,
+        "offsetY": 1.48,
+        "triggerFrame": 0,
+        "triggerTime_SN": 0
+      }
+    ],
+    "soundList": [
+      {
+        "soundId": 30001333,
+        "triggerFrame": 4,
+        "triggerTime_SN": 2000
+      }
+    ],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203693,
+    "idCN": "敌方/000角色/学会/瓦伦汀/庆祝",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "System",
+    "viewId": 11000047,
+    "aniName": "cheer",
+    "isLoop": false,
+    "aniTime_SN": 73333,
+    "totalFrame": 440,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [],
+    "effectList": [],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203688,
+    "idCN": "敌方/000角色/学会/瓦伦汀/昏迷",
+    "mod": "基础状态",
+    "actionLevel": "System",
+    "viewId": 11000047,
+    "aniName": "stun",
+    "isLoop": false,
+    "aniTime_SN": 10167,
+    "totalFrame": 61,
+    "frameChanged": false,
+    "frameEventList": [],
+    "effectList": [],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0,
+    "speedY_SN": 0
+  },
+  {
+    "id": 10203712,
+    "idCN": "爬塔/角色改/妮蔻拉/普攻1",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "NormalAttack",
+    "viewId": 11000233,
+    "aniName": "attack_01",
+    "isLoop": false,
+    "aniTime_SN": 10000,
+    "totalFrame": 60,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10502341,
+        "hHalf_SN": 0,
+        "triggerFrame": 20,
+        "triggerTime_SN": 3333,
+        "wHalf_SN": 0,
+        "x_SN": 18300,
+        "y_SN": 15900
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11104718,
+        "offsetX": 1.83,
+        "offsetY": 1.5,
+        "triggerFrame": 20,
+        "triggerTime_SN": 3333
+      }
+    ],
+    "soundList": [
+      {
+        "soundId": 30002221,
+        "triggerFrame": 20,
+        "triggerTime_SN": 3333
+      }
+    ],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203713,
+    "idCN": "爬塔/角色改/妮蔻拉/普攻2",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "NormalAttack",
+    "viewId": 11000233,
+    "aniName": "attack_02",
+    "isLoop": false,
+    "aniTime_SN": 10000,
+    "totalFrame": 60,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10502341,
+        "hHalf_SN": 0,
+        "triggerFrame": 20,
+        "triggerTime_SN": 3333,
+        "wHalf_SN": 0,
+        "x_SN": 18300,
+        "y_SN": 15900
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11104718,
+        "offsetX": 1.83,
+        "offsetY": 1.58,
+        "triggerFrame": 20,
+        "triggerTime_SN": 3333
+      }
+    ],
+    "soundList": [
+      {
+        "soundId": 30002221,
+        "triggerFrame": 20,
+        "triggerTime_SN": 3333
+      }
+    ],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203714,
+    "idCN": "爬塔/角色改/妮蔻拉/双发普攻",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "NormalAttack",
+    "viewId": 11000233,
+    "aniName": "attack_03",
+    "isLoop": false,
+    "aniTime_SN": 6000,
+    "totalFrame": 36,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10502341,
+        "hHalf_SN": 0,
+        "triggerFrame": 12,
+        "triggerTime_SN": 2000,
+        "wHalf_SN": 0,
+        "x_SN": 14700,
+        "y_SN": 16400
+      },
+      {
+        "frameEventId": 10502341,
+        "hHalf_SN": 0,
+        "triggerFrame": 19,
+        "triggerTime_SN": 3167,
+        "wHalf_SN": 0,
+        "x_SN": 15800,
+        "y_SN": 12300
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11104718,
+        "offsetX": 1.83,
+        "offsetY": 1.58,
+        "triggerFrame": 12,
+        "triggerTime_SN": 2000
+      },
+      {
+        "effectId": 11104718,
+        "offsetX": 1.83,
+        "offsetY": 1.58,
+        "triggerFrame": 19,
+        "triggerTime_SN": 3167
+      }
+    ],
+    "soundList": [
+      {
+        "soundId": 30002221,
+        "triggerFrame": 12,
+        "triggerTime_SN": 2000
+      },
+      {
+        "soundId": 30002221,
+        "triggerFrame": 19,
+        "triggerTime_SN": 3167
+      }
+    ],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203694,
+    "idCN": "敌方/14学会/学会驻守者/昏迷",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "System",
+    "viewId": 11000393,
+    "aniName": "stun",
+    "isLoop": false,
+    "aniTime_SN": 20000,
+    "totalFrame": 120,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [],
+    "effectList": [],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203680,
+    "idCN": "敌方/000角色/学会/瓦伦汀/普攻1",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "NormalAttack",
+    "viewId": 11000047,
+    "aniName": "attack_01",
+    "isLoop": false,
+    "aniTime_SN": 13333,
+    "totalFrame": 80,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10500208,
+        "hHalf_SN": 0,
+        "triggerFrame": 32,
+        "triggerTime_SN": 5333,
+        "wHalf_SN": 0,
+        "x_SN": 13000,
+        "y_SN": 11000
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11100062,
+        "offsetX": 1.1,
+        "offsetY": 1.05,
+        "triggerFrame": 32,
+        "triggerTime_SN": 0
+      }
+    ],
+    "soundList": [
+      {
+        "soundId": 30000396,
+        "triggerFrame": 30,
+        "triggerTime_SN": 5000
+      }
+    ],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203695,
+    "idCN": "敌方/14学会/学会驻守者/被动技能1_2_2",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "NormalSkill",
+    "viewId": 11000393,
+    "aniName": "skill_02_02",
+    "isLoop": false,
+    "aniTime_SN": 15000,
+    "totalFrame": 90,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [],
+    "effectList": [],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203708,
+    "idCN": "敌方/14学会/学会驻守者/被动技能1_3",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "NormalSkill",
+    "viewId": 11000393,
+    "aniName": "skill_02_03",
+    "isLoop": false,
+    "aniTime_SN": 6666,
+    "totalFrame": 40,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [],
+    "effectList": [],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203709,
+    "idCN": "我方/05五星/泳装静流/普攻_子弹_单持",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "NormalAttack",
+    "viewId": 11000378,
+    "aniName": "attack_01_02",
+    "isLoop": false,
+    "aniTime_SN": 1000,
+    "totalFrame": 6,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10502307,
+        "hHalf_SN": 0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 167,
+        "wHalf_SN": 0,
+        "x_SN": 10000,
+        "y_SN": 17000
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11106226,
+        "offsetX": 1.3,
+        "offsetY": 1.88,
+        "triggerFrame": 1,
+        "triggerTime_SN": 167
+      }
+    ],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203711,
+    "idCN": "我方/05五星/泳装静流/普攻_水球_单持",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "NormalAttack",
+    "viewId": 11000378,
+    "aniName": "attack_01_02",
+    "isLoop": false,
+    "aniTime_SN": 1000,
+    "totalFrame": 6,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10502322,
+        "hHalf_SN": 0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 167,
+        "wHalf_SN": 0,
+        "x_SN": 10000,
+        "y_SN": 17000
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11106226,
+        "offsetX": 1.3,
+        "offsetY": 1.88,
+        "triggerFrame": 1,
+        "triggerTime_SN": 167
+      }
+    ],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203725,
+    "idCN": "我方/05五星/泳装静流/普攻_水球_双持",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "NormalAttack",
+    "viewId": 11000378,
+    "aniName": "attack_02",
+    "isLoop": false,
+    "aniTime_SN": 2667,
+    "totalFrame": 16,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10502322,
+        "hHalf_SN": 0,
+        "triggerFrame": 3,
+        "triggerTime_SN": 500,
+        "wHalf_SN": 0,
+        "x_SN": 10000,
+        "y_SN": 17000
+      },
+      {
+        "frameEventId": 10502322,
+        "hHalf_SN": 0,
+        "triggerFrame": 11,
+        "triggerTime_SN": 1833,
+        "wHalf_SN": 0,
+        "x_SN": 800,
+        "y_SN": 15400
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11106226,
+        "offsetX": 1.25,
+        "offsetY": 1.79,
+        "triggerFrame": 3,
+        "triggerTime_SN": 500
+      },
+      {
+        "effectId": 11106226,
+        "offsetX": 0.49,
+        "offsetY": 1.47,
+        "triggerFrame": 11,
+        "triggerTime_SN": 1833
+      }
+    ],
+    "soundList": [],
     "isYChange": false,
     "offsetYList": [],
     "speed_SN": 0,

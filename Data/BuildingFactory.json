@@ -17391,19 +17391,28 @@
     "mod": "兑换站",
     "isInformalData": false,
     "name": "海岛管理局",
-    "buildingIconPath": "",
+    "buildingIconPath": "UI/Common/Common_icon_camp_8",
     "firstPlotId": -1,
     "uiPath": "UI/ExchangeStation/ExchangeStation",
-    "bgPath": "UI/Island_Task/bg",
+    "bgPath": "UI/Building/Shop_Island/BG",
     "bgColor": "FFFFFF",
-    "stationId": -1,
+    "stationId": 83000002,
     "npcId": 83700092,
     "helpId": -1,
     "rankId": -1,
     "correspondingActivity": -1,
     "eventList": [],
     "playerLevel": 0,
-    "exchangeOpenPageList": [],
+    "exchangeOpenPageList": [
+      {
+        "icon": "UI/HomeBattleCenter/icon_exchange",
+        "isStore": true,
+        "isTalk": false,
+        "name": "兑换中心",
+        "showUI": "Group_Exchange",
+        "uiPath": ""
+      }
+    ],
     "exchangeStoreList": [
       {
         "id": 40300066
@@ -17413,7 +17422,7 @@
     "isShowConstruct": false,
     "isShowReputation": true,
     "exchangeName": "海岛兑换",
-    "buildingPath": "UI/Common/Common_icon_camp_2",
+    "buildingPath": "UI/Common/Common_icon_camp_8",
     "exchangePath": "UI/HomeBattleCenter/Exchange/icon_coc",
     "pagePath": "UI/HomeBattleCenter/Exchange/di_coc",
     "bottomPath": "UI/HomeBattleCenter/Exchange/di_group_coc",
@@ -17432,16 +17441,16 @@
   },
   {
     "id": 84400087,
-    "idCN": "家具商店/海岛管理局",
+    "idCN": "活动商店/海岛管理局",
     "mod": "商店",
     "isInformalData": false,
     "name": "海岛管理局",
-    "buildingIconPath": "",
+    "buildingIconPath": "UI/Common/Common_icon_camp_8",
     "firstPlotId": -1,
-    "uiPath": "UI/HomeCOC/HomeCOCShop",
-    "bgPath": "UI/Island_Task/bg",
+    "uiPath": "UI/Building/BuildingShop",
+    "bgPath": "UI/Building/Shop_Island/BG",
     "bgColor": "FFFFFF",
-    "stationId": -1,
+    "stationId": 83000002,
     "npcId": 83700092,
     "helpId": -1,
     "rankId": -1,
@@ -17467,16 +17476,16 @@
   },
   {
     "id": 84400105,
-    "idCN": "海岛/管理局",
+    "idCN": "动态建筑/海岛管理局",
     "mod": "动态建筑",
     "isInformalData": false,
     "name": "海岛管理局",
-    "buildingIconPath": "UI/HomeCOC/coc_icon_logo",
+    "buildingIconPath": "UI/Common/Common_icon_camp_8",
     "firstPlotId": -1,
-    "uiPath": "UI/HomeCOC/HomeCOC",
+    "uiPath": "UI/Building/BuildingList",
     "bgPath": "UI/Island_Task/bg",
     "bgColor": "FFFFFF",
-    "stationId": -1,
+    "stationId": 83000002,
     "npcId": 83700092,
     "helpId": -1,
     "rankId": -1,
@@ -17484,24 +17493,23 @@
     "eventList": [],
     "openPageList": [
       {
-        "btnType": "Exchange",
         "icon": "UI/HomeBattleCenter/icon_exchange",
         "name": "兑换中心",
-        "reputation": 1,
         "showUI": ""
       },
       {
-        "btnType": "Store",
         "icon": "UI/HomeCOC/coc_icon_furniture",
         "name": "家具商店",
-        "reputation": 1,
         "showUI": ""
       },
       {
-        "btnType": "Talk",
+        "icon": "UI/HomeBattleCenter/icon_exchange",
+        "name": "营运收益",
+        "showUI": "UI/ParkRevenue/Group_Income"
+      },
+      {
         "icon": "UI/Home/HomeSafe/jiaotan",
         "name": "交谈",
-        "reputation": 1,
         "showUI": ""
       }
     ],

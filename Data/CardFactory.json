@@ -1616,7 +1616,7 @@
     "idCN": "00原版/05五星/夏洛蒂/S",
     "mod": "基础卡牌",
     "isInformalData": false,
-    "name": "狱炎斩",
+    "name": "狱月",
     "isCutIn": true,
     "isNoCD": false,
     "isUseInHand": false,
@@ -1659,7 +1659,8 @@
       }
     ],
     "tagOutsideList": [],
-    "deriveCardList": []
+    "deriveCardList": [],
+    "cardAIActionList": []
   },
   {
     "id": 10600107,
@@ -19263,7 +19264,7 @@
     "isNoCD": false,
     "isUseInHand": false,
     "isNotDiscard": false,
-    "iconPath": "RolePlus\\SummerShizuru\\skillicon\\A",
+    "iconPath": "RolePlus/Shizuru_Summer/skillicon/A",
     "backPath": "",
     "roleImgPath": "",
     "color": "Yellow",
@@ -19273,91 +19274,7 @@
     "cost_SN": 20000,
     "inhandBuffId": -1,
     "inhandOverBuffId": -1,
-    "startBuffId": -1,
-    "discardBuffId": -1,
-    "discardBySkillBuffId": -1,
-    "banishBuffId": -1,
-    "atkAreaType": "Single",
-    "atkAreaColor": "Yellow",
-    "targetColor": "AttackTest",
-    "disappearEffectId": 11100047,
-    "appearEffectId": 11100046,
-    "createEffectId": 11100106,
-    "destroyEffectId": -1,
-    "createTweenDelay": 30,
-    "isCostX": false,
-    "tagList": [
-      {
-        "tagId": 12600146
-      }
-    ],
-    "tagOutsideList": [],
-    "deriveCardList": [],
-    "cardAIActionList": []
-  },
-  {
-    "id": 10600378,
-    "idCN": "00原版/05五星/泳装静流/A_振1",
-    "mod": "基础卡牌",
-    "isInformalData": false,
-    "name": "连涌_振1",
-    "isCutIn": false,
-    "isNoCD": false,
-    "isUseInHand": false,
-    "isNotDiscard": false,
-    "iconPath": "RolePlus\\SummerShizuru\\skillicon\\A",
-    "backPath": "",
-    "roleImgPath": "",
-    "color": "Yellow",
-    "cardType": "Normal",
-    "sameCardGroupId": -1,
-    "actionId": 10103190,
-    "cost_SN": 20000,
-    "inhandBuffId": -1,
-    "inhandOverBuffId": -1,
-    "startBuffId": -1,
-    "discardBuffId": -1,
-    "discardBySkillBuffId": -1,
-    "banishBuffId": -1,
-    "atkAreaType": "Single",
-    "atkAreaColor": "Yellow",
-    "targetColor": "AttackTest",
-    "disappearEffectId": 11100047,
-    "appearEffectId": 11100046,
-    "createEffectId": 11100106,
-    "destroyEffectId": -1,
-    "createTweenDelay": 30,
-    "isCostX": false,
-    "tagList": [
-      {
-        "tagId": 12600146
-      }
-    ],
-    "tagOutsideList": [],
-    "deriveCardList": [],
-    "cardAIActionList": []
-  },
-  {
-    "id": 10600379,
-    "idCN": "00原版/05五星/泳装静流/A_振4",
-    "mod": "基础卡牌",
-    "isInformalData": false,
-    "name": "连涌_振4",
-    "isCutIn": false,
-    "isNoCD": false,
-    "isUseInHand": false,
-    "isNotDiscard": false,
-    "iconPath": "RolePlus\\SummerShizuru\\skillicon\\A",
-    "backPath": "",
-    "roleImgPath": "",
-    "color": "Yellow",
-    "cardType": "Normal",
-    "sameCardGroupId": -1,
-    "actionId": 10103190,
-    "cost_SN": 20000,
-    "inhandBuffId": -1,
-    "inhandOverBuffId": -1,
-    "startBuffId": -1,
+    "startBuffId": 10412014,
     "discardBuffId": -1,
     "discardBySkillBuffId": -1,
     "banishBuffId": -1,
@@ -19375,7 +19292,100 @@
         "tagId": 12600146
       },
       {
+        "tagId": 12601365
+      }
+    ],
+    "tagOutsideList": [],
+    "deriveCardList": [],
+    "cardAIActionList": []
+  },
+  {
+    "id": 10600378,
+    "idCN": "00原版/05五星/泳装静流/A_共振1",
+    "mod": "基础卡牌",
+    "isInformalData": false,
+    "name": "连涌",
+    "isCutIn": false,
+    "isNoCD": false,
+    "isUseInHand": false,
+    "isNotDiscard": false,
+    "iconPath": "RolePlus/Shizuru_Summer/skillicon/A",
+    "backPath": "",
+    "roleImgPath": "",
+    "color": "Yellow",
+    "cardType": "Normal",
+    "sameCardGroupId": -1,
+    "actionId": 10103190,
+    "cost_SN": 20000,
+    "inhandBuffId": -1,
+    "inhandOverBuffId": -1,
+    "startBuffId": 10412015,
+    "discardBuffId": -1,
+    "discardBySkillBuffId": -1,
+    "banishBuffId": -1,
+    "atkAreaType": "Single",
+    "atkAreaColor": "Yellow",
+    "targetColor": "AttackTest",
+    "disappearEffectId": 11100047,
+    "appearEffectId": 11100046,
+    "createEffectId": 11100106,
+    "destroyEffectId": -1,
+    "createTweenDelay": 30,
+    "isCostX": false,
+    "tagList": [
+      {
+        "tagId": 12600146
+      },
+      {
+        "tagId": 12601365
+      }
+    ],
+    "tagOutsideList": [],
+    "deriveCardList": [],
+    "cardAIActionList": []
+  },
+  {
+    "id": 10600379,
+    "idCN": "00原版/05五星/泳装静流/A_共振4",
+    "mod": "基础卡牌",
+    "isInformalData": false,
+    "name": "连涌",
+    "isCutIn": false,
+    "isNoCD": false,
+    "isUseInHand": false,
+    "isNotDiscard": false,
+    "iconPath": "RolePlus/Shizuru_Summer/skillicon/A",
+    "backPath": "",
+    "roleImgPath": "",
+    "color": "Yellow",
+    "cardType": "Normal",
+    "sameCardGroupId": -1,
+    "actionId": 10103230,
+    "cost_SN": 20000,
+    "inhandBuffId": -1,
+    "inhandOverBuffId": -1,
+    "startBuffId": 10412015,
+    "discardBuffId": -1,
+    "discardBySkillBuffId": -1,
+    "banishBuffId": -1,
+    "atkAreaType": "Single",
+    "atkAreaColor": "Yellow",
+    "targetColor": "HealAndAttackTest",
+    "disappearEffectId": 11100047,
+    "appearEffectId": 11100046,
+    "createEffectId": 11100106,
+    "destroyEffectId": -1,
+    "createTweenDelay": 30,
+    "isCostX": false,
+    "tagList": [
+      {
+        "tagId": 12600146
+      },
+      {
         "tagId": 12600206
+      },
+      {
+        "tagId": 12601365
       }
     ],
     "tagOutsideList": [],
@@ -19387,12 +19397,12 @@
     "idCN": "00原版/05五星/泳装静流/B",
     "mod": "基础卡牌",
     "isInformalData": false,
-    "name": "连涌",
+    "name": "海滨之花",
     "isCutIn": false,
     "isNoCD": false,
     "isUseInHand": false,
     "isNotDiscard": false,
-    "iconPath": "RolePlus\\SummerShizuru\\skillicon\\A",
+    "iconPath": "RolePlus/Shizuru_Summer/skillicon/B",
     "backPath": "",
     "roleImgPath": "",
     "color": "Yellow",
@@ -19402,7 +19412,7 @@
     "cost_SN": 30000,
     "inhandBuffId": -1,
     "inhandOverBuffId": -1,
-    "startBuffId": -1,
+    "startBuffId": 10411986,
     "discardBuffId": -1,
     "discardBySkillBuffId": -1,
     "banishBuffId": -1,
@@ -19418,6 +19428,9 @@
     "tagList": [
       {
         "tagId": 12600146
+      },
+      {
+        "tagId": 12601366
       }
     ],
     "tagOutsideList": [],
@@ -19429,12 +19442,12 @@
     "idCN": "00原版/05五星/泳装静流/S",
     "mod": "基础卡牌",
     "isInformalData": false,
-    "name": "连涌",
+    "name": "盛夏泡影",
     "isCutIn": true,
     "isNoCD": false,
     "isUseInHand": false,
     "isNotDiscard": false,
-    "iconPath": "RolePlus\\SummerShizuru\\skillicon\\A",
+    "iconPath": "RolePlus/Shizuru_Summer/skillicon/S",
     "backPath": "",
     "roleImgPath": "",
     "color": "Yellow",
@@ -19466,6 +19479,15 @@
       },
       {
         "tagId": 12600146
+      },
+      {
+        "tagId": 12600057
+      },
+      {
+        "tagId": 12600007
+      },
+      {
+        "tagId": 12601367
       }
     ],
     "tagOutsideList": [],
@@ -19477,18 +19499,18 @@
     "idCN": "00原版/05五星/泳装静流/C",
     "mod": "基础卡牌",
     "isInformalData": false,
-    "name": "连涌",
+    "name": "夏日回忆",
     "isCutIn": false,
     "isNoCD": false,
     "isUseInHand": false,
     "isNotDiscard": false,
-    "iconPath": "RolePlus\\SummerShizuru\\skillicon\\A",
+    "iconPath": "RolePlus/Shizuru_Summer/skillicon/C",
     "backPath": "",
     "roleImgPath": "",
     "color": "Purple",
     "cardType": "UseOnce",
     "sameCardGroupId": -1,
-    "actionId": 10103213,
+    "actionId": 10103269,
     "cost_SN": 0,
     "inhandBuffId": -1,
     "inhandOverBuffId": -1,
@@ -19516,15 +19538,15 @@
   },
   {
     "id": 10600383,
-    "idCN": "00原版/05五星/泳装静流/B_振5",
+    "idCN": "00原版/05五星/泳装静流/B_觉醒1",
     "mod": "基础卡牌",
     "isInformalData": false,
-    "name": "连涌",
+    "name": "海滨之花",
     "isCutIn": false,
     "isNoCD": false,
     "isUseInHand": false,
     "isNotDiscard": false,
-    "iconPath": "RolePlus\\SummerShizuru\\skillicon\\A",
+    "iconPath": "RolePlus/Shizuru_Summer/skillicon/B",
     "backPath": "",
     "roleImgPath": "",
     "color": "Yellow",
@@ -19534,7 +19556,7 @@
     "cost_SN": 30000,
     "inhandBuffId": -1,
     "inhandOverBuffId": -1,
-    "startBuffId": -1,
+    "startBuffId": 10412012,
     "discardBuffId": -1,
     "discardBySkillBuffId": -1,
     "banishBuffId": -1,
@@ -19550,6 +19572,9 @@
     "tagList": [
       {
         "tagId": 12600146
+      },
+      {
+        "tagId": 12601366
       }
     ],
     "tagOutsideList": [],

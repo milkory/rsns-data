@@ -232,7 +232,7 @@
     "icon": "UI/Common/Common_icon_camp_1",
     "sideName": "黑月锁链",
     "nameEnglish": "",
-    "iconPath": ""
+    "iconPath": "UI/Common/Enemy/SideIcon/camp_1"
   },
   {
     "id": 12600025,
@@ -242,7 +242,7 @@
     "icon": "UI/Common/Common_icon_camp_2",
     "sideName": "科伦巴商会",
     "nameEnglish": "",
-    "iconPath": ""
+    "iconPath": "UI/Common/Enemy/SideIcon/camp_2"
   },
   {
     "id": 12600026,
@@ -252,7 +252,7 @@
     "icon": "UI/Common/Common_icon_camp_3",
     "sideName": "曼杜斯帝国",
     "nameEnglish": "",
-    "iconPath": "UI/Common/Common_icon_camp_3"
+    "iconPath": "UI/Common/Enemy/SideIcon/camp_3"
   },
   {
     "id": 12600027,
@@ -262,7 +262,7 @@
     "icon": "UI/Common/Common_icon_camp_4",
     "sideName": "环大陆铁道联盟",
     "nameEnglish": "",
-    "iconPath": ""
+    "iconPath": "UI/Common/Enemy/SideIcon/camp_4"
   },
   {
     "id": 12600031,
@@ -272,7 +272,7 @@
     "icon": "UI/Common/Common_icon_camp_5",
     "sideName": "索思学会",
     "nameEnglish": "",
-    "iconPath": ""
+    "iconPath": "UI/Common/Enemy/SideIcon/camp_5"
   },
   {
     "id": 12600035,
@@ -282,7 +282,7 @@
     "icon": "UI/Common/Common_icon_camp_6",
     "sideName": "“园丁”",
     "nameEnglish": "",
-    "iconPath": ""
+    "iconPath": "UI/Common/Enemy/SideIcon/camp_6"
   },
   {
     "id": 12600037,
@@ -14141,7 +14141,7 @@
     "icon": "UI/Common/Common_icon_camp_7",
     "sideName": "混沌海",
     "nameEnglish": "",
-    "iconPath": ""
+    "iconPath": "UI/Common/Enemy/SideIcon/camp_7"
   },
   {
     "id": 12601301,
@@ -14438,13 +14438,13 @@
   },
   {
     "id": 12601336,
-    "idCN": "车厢类型/08海岛区域",
+    "idCN": "车厢类型/08海岛区域-管理局",
     "mod": "车厢类型",
     "isInformalData": false,
-    "icon": "UI/Trainfactory/Edit/CarriageType/weapon",
+    "icon": "",
     "typeName": "海岛区域",
-    "carriageIcon": "UI/Trainfactory/Second/BuildWindows/Special",
-    "skipJumpIcon": "",
+    "carriageIcon": "",
+    "skipJumpIcon": "UI/Playground/island_icon_room_s2",
     "stopCarriage": false
   },
   {
@@ -14668,6 +14668,146 @@
     "isInformalData": true,
     "icon": "",
     "tagName": "回归活动",
+    "tagID": 0,
+    "isShowDetail": false,
+    "temptagNameRichText": "",
+    "tagNameRichText": "",
+    "detail": ""
+  },
+  {
+    "id": 12601357,
+    "idCN": "阵营标签/敌人/学会",
+    "mod": "阵营",
+    "isInformalData": false,
+    "icon": "UI/Common/Common_icon_camp_5",
+    "sideName": "索思学会",
+    "nameEnglish": "Source Citadel",
+    "iconPath": "UI/Common/Enemy/SideIcon/Source_Citadel"
+  },
+  {
+    "id": 12601358,
+    "idCN": "战斗/词缀/05五星/泳装静流/共振2_清凉",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "RolePlus/Shizuru_Summer/Face",
+    "tagName": "清凉",
+    "tagID": 0,
+    "isShowDetail": true,
+    "temptagNameRichText": "清凉",
+    "tagNameRichText": "清凉",
+    "detail": "使用【盛夏泡影】后，使我方全体回复5%生命值\\n驱散场上的【炎热】/【酷热】/【炙热】天气\\n同时驱散我方场上的【炽地】/【燎原】/【火海】"
+  },
+  {
+    "id": 12601359,
+    "idCN": "战斗/词缀/05五星/泳装静流/觉醒2_狂潮",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "RolePlus/Shizuru_Summer/Face",
+    "tagName": "狂潮",
+    "tagID": 0,
+    "isShowDetail": true,
+    "temptagNameRichText": "狂潮",
+    "tagNameRichText": "狂潮",
+    "detail": "每次使用【连涌】后，使我方全体【狂暴】"
+  },
+  {
+    "id": 12601360,
+    "idCN": "武装词条/战斗相关/18昏睡时间延长",
+    "mod": "列车武装",
+    "isInformalData": false,
+    "icon": "",
+    "entryName": "长眠",
+    "entryDes": "",
+    "addNum": true
+  },
+  {
+    "id": 12601361,
+    "idCN": "武装词条/战斗相关/19开局敌方枷锁",
+    "mod": "列车武装",
+    "isInformalData": false,
+    "icon": "",
+    "entryName": "警戒",
+    "entryDes": "",
+    "addNum": true
+  },
+  {
+    "id": 12601362,
+    "idCN": "武装词条/战斗相关/20开局敌方禁锢",
+    "mod": "列车武装",
+    "isInformalData": false,
+    "icon": "",
+    "entryName": "禁锢",
+    "entryDes": "",
+    "addNum": true
+  },
+  {
+    "id": 12601363,
+    "idCN": "武装词条/战斗相关/21前排免疫打断",
+    "mod": "列车武装",
+    "isInformalData": false,
+    "icon": "",
+    "entryName": "坚毅",
+    "entryDes": "",
+    "addNum": true
+  },
+  {
+    "id": 12601364,
+    "idCN": "武装词条/战斗相关/22受到伤害降低",
+    "mod": "列车武装",
+    "isInformalData": false,
+    "icon": "",
+    "entryName": "铁骨",
+    "entryDes": "",
+    "addNum": true
+  },
+  {
+    "id": 12601368,
+    "idCN": "车厢类型/08海岛区域-扩展",
+    "mod": "车厢类型",
+    "isInformalData": false,
+    "icon": "",
+    "typeName": "海岛区域",
+    "carriageIcon": "",
+    "skipJumpIcon": "UI/Playground/island_icon_room_s",
+    "stopCarriage": false
+  },
+  {
+    "id": 12601369,
+    "idCN": "武装词条/谐响减少",
+    "mod": "列车武装",
+    "isInformalData": false,
+    "icon": "",
+    "entryName": "谐响减少",
+    "entryDes": "",
+    "addNum": false
+  },
+  {
+    "id": 12601367,
+    "idCN": "战斗/角色技能/05/泳装静流/S",
+    "mod": "标签",
+    "tagName": "A",
+    "tagID": 0,
+    "isShowDetail": false,
+    "temptagNameRichText": "",
+    "tagNameRichText": "",
+    "detail": ""
+  },
+  {
+    "id": 12601366,
+    "idCN": "战斗/角色技能/05/泳装静流/B",
+    "mod": "标签",
+    "tagName": "A",
+    "tagID": 0,
+    "isShowDetail": false,
+    "temptagNameRichText": "",
+    "tagNameRichText": "",
+    "detail": ""
+  },
+  {
+    "id": 12601365,
+    "idCN": "战斗/角色技能/05/泳装静流/A",
+    "mod": "标签",
+    "tagName": "A",
     "tagID": 0,
     "isShowDetail": false,
     "temptagNameRichText": "",

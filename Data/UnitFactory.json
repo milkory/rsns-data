@@ -9435,6 +9435,8 @@
     "age": 0,
     "gender": "男",
     "birthday": "11月22日",
+    "birthdayMonth": "11",
+    "birthdayDay": "22",
     "birthdayCake": 11400126,
     "birthdayMessage": "在常去的那家巧克力专门店买的。谢谢你一直对我很好，以后我还会带其他谢礼回来的。",
     "height": "181cm",
@@ -9451,9 +9453,7 @@
     "CvName": "",
     "getCharacter": "闻笙，奉鹭先生之命与你同行。唔，你的气味……不，别在意。",
     "safeInformation": "",
-    "unitInformation": "",
-    "birthdayMonth": "11",
-    "birthdayDay": "22"
+    "unitInformation": ""
   },
   {
     "id": 10000389,
@@ -29580,7 +29580,7 @@
         "skillId": 12301411
       }
     ],
-    "hp_SN": 2048000000,
+    "hp_SN": 1664000000,
     "def_SN": 640000,
     "atk_SN": 800000,
     "atkSpeed_SN": 800000,
@@ -29711,7 +29711,8 @@
     "enemyType": 12601048,
     "enemyCamp": 12600221,
     "enemyBookId": 10000106,
-    "prisonerDrop": []
+    "prisonerDrop": [],
+    "enemySkillList": []
   },
   {
     "id": 10000107,
@@ -39964,6 +39965,7 @@
     "controllerId": 10300245,
     "bulletControllerList": [],
     "isBoss": false,
+    "bossHpTemp": -1,
     "isDeadNotDisappear": false,
     "isFly": true,
     "originFlyYSN": 35000,
@@ -40010,7 +40012,8 @@
     "hitAreaY_SN": 12500,
     "hitAreaHalfWidth_SN": 25000,
     "hitAreaHalfHeight_SN": 12500,
-    "safeInformation": ""
+    "safeInformation": "",
+    "unitInformation": ""
   },
   {
     "id": 10000093,
@@ -49603,9 +49606,6 @@
       },
       {
         "unitViewId": 11000364
-      },
-      {
-        "unitViewId": 11000385
       }
     ],
     "sideId": 12601172,
@@ -60322,7 +60322,7 @@
         "skillId": 12301255
       }
     ],
-    "hp_SN": 2048000000,
+    "hp_SN": 1664000000,
     "def_SN": 640000,
     "atk_SN": 800000,
     "atkSpeed_SN": 800000,
@@ -60407,7 +60407,8 @@
     "enemyType": 12601048,
     "enemyCamp": 12600221,
     "enemyBookId": 10000106,
-    "prisonerDrop": []
+    "prisonerDrop": [],
+    "enemySkillList": []
   },
   {
     "id": 10000333,
@@ -60469,7 +60470,7 @@
         "skillId": 12301256
       }
     ],
-    "hp_SN": 2048000000,
+    "hp_SN": 1664000000,
     "def_SN": 640000,
     "atk_SN": 800000,
     "atkSpeed_SN": 800000,
@@ -60554,7 +60555,8 @@
     "enemyType": 12601048,
     "enemyCamp": 12600221,
     "enemyBookId": 10000106,
-    "prisonerDrop": []
+    "prisonerDrop": [],
+    "enemySkillList": []
   },
   {
     "id": 10000334,
@@ -60623,7 +60625,7 @@
         "skillId": 12301257
       }
     ],
-    "hp_SN": 2048000000,
+    "hp_SN": 1664000000,
     "def_SN": 640000,
     "atk_SN": 800000,
     "atkSpeed_SN": 800000,
@@ -60708,7 +60710,8 @@
     "enemyType": 12601048,
     "enemyCamp": 12600221,
     "enemyBookId": 10000106,
-    "prisonerDrop": []
+    "prisonerDrop": [],
+    "enemySkillList": []
   },
   {
     "id": 10000337,
@@ -66733,6 +66736,9 @@
       },
       {
         "tagId": 12601300
+      },
+      {
+        "tagId": 12600246
       }
     ],
     "passiveSkillList": [],
@@ -67711,7 +67717,7 @@
         "skillId": 12301253
       }
     ],
-    "hp_SN": 2048000000,
+    "hp_SN": 1664000000,
     "def_SN": 640000,
     "atk_SN": 800000,
     "atkSpeed_SN": 800000,
@@ -67796,7 +67802,8 @@
     "enemyType": 12601048,
     "enemyCamp": 12600221,
     "enemyBookId": 10000106,
-    "prisonerDrop": []
+    "prisonerDrop": [],
+    "enemySkillList": []
   },
   {
     "id": 10000400,
@@ -67852,7 +67859,7 @@
         "skillId": 12301254
       }
     ],
-    "hp_SN": 2048000000,
+    "hp_SN": 1664000000,
     "def_SN": 640000,
     "atk_SN": 800000,
     "atkSpeed_SN": 800000,
@@ -67937,7 +67944,8 @@
     "enemyType": 12601048,
     "enemyCamp": 12600221,
     "enemyBookId": 10000106,
-    "prisonerDrop": []
+    "prisonerDrop": [],
+    "enemySkillList": []
   },
   {
     "id": 10000402,
@@ -71560,7 +71568,7 @@
     "mod": "玩家角色",
     "isInformalData": false,
     "name": "静流·逐夏",
-    "EnglishName": "Shizuru the summer chaser",
+    "EnglishName": "Shizuruthesummerchaser",
     "viewId": 11000378,
     "skinList": [
       {
@@ -71586,13 +71594,17 @@
         "tagId": 12600653
       }
     ],
-    "passiveSkillList": [],
-    "hp_SN": 70000000,
-    "def_SN": 740000,
-    "atk_SN": 760000,
+    "passiveSkillList": [
+      {
+        "skillId": 12301869
+      }
+    ],
+    "hp_SN": 74000000,
+    "def_SN": 780000,
+    "atk_SN": 800000,
     "atkSpeed_SN": 1000000,
     "luck_SN": 0,
-    "line": 1,
+    "line": 2,
     "subLine": 143,
     "isUseCustomCostRestore": false,
     "costRestorePerFrame_SN": 22,
@@ -71716,17 +71728,17 @@
     "isSpine2": 1,
     "homeSkillList": [
       {
-        "id": 83900122,
+        "id": 83900165,
         "nextIndex": 3,
         "resonanceLv": 1
       },
       {
-        "id": 83900076,
+        "id": 83900107,
         "nextIndex": 0,
         "resonanceLv": 4
       },
       {
-        "id": 83900123,
+        "id": 83900166,
         "nextIndex": -1,
         "resonanceLv": 5
       }
@@ -71775,7 +71787,8 @@
     ],
     "fileList": [
       {
-        "file": 80303597
+        "file": 80303597,
+        "skinId": -1
       }
     ],
     "age": 0,
@@ -73335,7 +73348,7 @@
     "viewId": 11000233,
     "skinList": [],
     "sideId": 12600035,
-    "controllerId": 10300087,
+    "controllerId": 10300444,
     "bulletControllerList": [],
     "isBoss": true,
     "bossHpTemp": 90100011,
@@ -73383,6 +73396,9 @@
       },
       {
         "skillId": 12301868
+      },
+      {
+        "skillId": 12301643
       }
     ],
     "hp_SN": 1440000000,
@@ -73491,5 +73507,1749 @@
     "enemyBookId": -1,
     "prisonerDrop": [],
     "enemySkillList": []
+  },
+  {
+    "id": 10000480,
+    "idCN": "敌方/000角色/学会/瓦伦汀（未完成）",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "瓦伦汀",
+    "EnglishName": "Valentine",
+    "viewId": 11000047,
+    "skinList": [
+      {
+        "unitViewId": 11000047
+      }
+    ],
+    "sideId": 12600031,
+    "controllerId": 10300197,
+    "bulletControllerList": [],
+    "isBoss": false,
+    "bossHpTemp": -1,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600067
+      }
+    ],
+    "passiveSkillList": [],
+    "hp_SN": 66000000,
+    "def_SN": 670000,
+    "atk_SN": 760000,
+    "atkSpeed_SN": 1000000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "fourStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000399,
+    "growthTagList": [],
+    "skillLvUpList": [],
+    "breakthroughList": [
+      {
+        "breakthroughId": 12100205
+      },
+      {
+        "breakthroughId": 12100206
+      },
+      {
+        "breakthroughId": 12100207
+      },
+      {
+        "breakthroughId": 12100208
+      },
+      {
+        "breakthroughId": 12100209
+      },
+      {
+        "breakthroughId": 12100210
+      }
+    ],
+    "awakeList": [
+      {
+        "awakeId": 12200182
+      },
+      {
+        "awakeId": 12200183
+      },
+      {
+        "awakeId": 12200184
+      },
+      {
+        "awakeId": 12200185
+      },
+      {
+        "awakeId": 12200186
+      },
+      {
+        "awakeId": 12200339
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800130
+      },
+      {
+        "talentId": 12800131
+      },
+      {
+        "talentId": 12800132
+      },
+      {
+        "talentId": 12800133
+      },
+      {
+        "talentId": 12800195
+      }
+    ],
+    "rewardList": [
+      {
+        "id": 11700019,
+        "num": 1
+      }
+    ],
+    "actionStandID": 10100876,
+    "actionMoveID": 10100877,
+    "actionAttackedID": 10100878,
+    "actionAttackedBackID": 10100879,
+    "actionKnockUpID": -1,
+    "actionStunID": 10100880,
+    "actionDeadID": 10100881,
+    "actionVictoryID": 10101749,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 15000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 10000,
+    "hitAreaHalfWidth_SN": 5000,
+    "hitAreaHalfHeight_SN": 10000,
+    "battleDes": "",
+    "safeInformation": "",
+    "unitInformation": "",
+    "enemyDrop": [],
+    "abilityList": [],
+    "weaknessList": [],
+    "resistanceList": [],
+    "enemyType": -1,
+    "enemyCamp": -1,
+    "enemyBookId": -1,
+    "prisonerDrop": [],
+    "enemySkillList": []
+  },
+  {
+    "id": 10000481,
+    "idCN": "爬塔/角色改/妮蔻拉-4",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "妮蔻拉",
+    "EnglishName": "Nicola",
+    "viewId": 11000233,
+    "skinList": [],
+    "sideId": 12600035,
+    "controllerId": 10300444,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": 90100011,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600067
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301413
+      },
+      {
+        "skillId": 12301371
+      },
+      {
+        "skillId": 12301367
+      },
+      {
+        "skillId": 12301440
+      },
+      {
+        "skillId": 12301424
+      },
+      {
+        "skillId": 12301864
+      },
+      {
+        "skillId": 12301865
+      },
+      {
+        "skillId": 12301866
+      },
+      {
+        "skillId": 12301867
+      },
+      {
+        "skillId": 12301873
+      }
+    ],
+    "hp_SN": 1440000000,
+    "def_SN": 700000,
+    "atk_SN": 900000,
+    "atkSpeed_SN": 1000000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "FiveStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000061,
+    "growthTagList": [
+      {
+        "growthTagId": 12000354
+      },
+      {
+        "growthTagId": 12000106
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [
+      {
+        "breakthroughId": 12100489
+      },
+      {
+        "breakthroughId": 12100488
+      },
+      {
+        "breakthroughId": 12100490
+      },
+      {
+        "breakthroughId": 12100491
+      },
+      {
+        "breakthroughId": 12100492
+      },
+      {
+        "breakthroughId": 12100493
+      }
+    ],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800458
+      },
+      {
+        "talentId": 12800459
+      },
+      {
+        "talentId": 12800460
+      },
+      {
+        "talentId": 12800461
+      },
+      {
+        "talentId": 12800462
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10101252,
+    "actionMoveID": 10101253,
+    "actionAttackedID": 10101254,
+    "actionAttackedBackID": 10101284,
+    "actionKnockUpID": -1,
+    "actionStunID": 10101285,
+    "actionDeadID": 10101286,
+    "actionVictoryID": 10101287,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 15000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 10000,
+    "hitAreaHalfWidth_SN": 5000,
+    "hitAreaHalfHeight_SN": 10000,
+    "battleDes": "",
+    "safeInformation": "阿妮塔能源公司下属能源研究所代理所长，她引以为傲的发明足以让她将大部分桦树生物都不放在眼里。",
+    "unitInformation": "",
+    "enemyDrop": [],
+    "abilityList": [],
+    "weaknessList": [],
+    "resistanceList": [],
+    "enemyType": 12601048,
+    "enemyCamp": 12601045,
+    "enemyBookId": -1,
+    "prisonerDrop": [],
+    "enemySkillList": []
+  },
+  {
+    "id": 10000482,
+    "idCN": "爬塔/角色改/妮蔻拉-3",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "妮蔻拉",
+    "EnglishName": "Nicola",
+    "viewId": 11000233,
+    "skinList": [],
+    "sideId": 12600035,
+    "controllerId": 10300444,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": 90100011,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600067
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301413
+      },
+      {
+        "skillId": 12301371
+      },
+      {
+        "skillId": 12301367
+      },
+      {
+        "skillId": 12301440
+      },
+      {
+        "skillId": 12301424
+      },
+      {
+        "skillId": 12301864
+      },
+      {
+        "skillId": 12301865
+      },
+      {
+        "skillId": 12301866
+      },
+      {
+        "skillId": 12301872
+      }
+    ],
+    "hp_SN": 1440000000,
+    "def_SN": 700000,
+    "atk_SN": 900000,
+    "atkSpeed_SN": 1000000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "FiveStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000061,
+    "growthTagList": [
+      {
+        "growthTagId": 12000354
+      },
+      {
+        "growthTagId": 12000106
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [
+      {
+        "breakthroughId": 12100489
+      },
+      {
+        "breakthroughId": 12100488
+      },
+      {
+        "breakthroughId": 12100490
+      },
+      {
+        "breakthroughId": 12100491
+      },
+      {
+        "breakthroughId": 12100492
+      },
+      {
+        "breakthroughId": 12100493
+      }
+    ],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800458
+      },
+      {
+        "talentId": 12800459
+      },
+      {
+        "talentId": 12800460
+      },
+      {
+        "talentId": 12800461
+      },
+      {
+        "talentId": 12800462
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10101252,
+    "actionMoveID": 10101253,
+    "actionAttackedID": 10101254,
+    "actionAttackedBackID": 10101284,
+    "actionKnockUpID": -1,
+    "actionStunID": 10101285,
+    "actionDeadID": 10101286,
+    "actionVictoryID": 10101287,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 15000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 10000,
+    "hitAreaHalfWidth_SN": 5000,
+    "hitAreaHalfHeight_SN": 10000,
+    "battleDes": "",
+    "safeInformation": "阿妮塔能源公司下属能源研究所代理所长，她引以为傲的发明足以让她将大部分桦树生物都不放在眼里。",
+    "unitInformation": "",
+    "enemyDrop": [],
+    "abilityList": [],
+    "weaknessList": [],
+    "resistanceList": [],
+    "enemyType": 12601048,
+    "enemyCamp": 12601045,
+    "enemyBookId": -1,
+    "prisonerDrop": [],
+    "enemySkillList": []
+  },
+  {
+    "id": 10000483,
+    "idCN": "爬塔/角色改/妮蔻拉-2",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "妮蔻拉",
+    "EnglishName": "Nicola",
+    "viewId": 11000233,
+    "skinList": [],
+    "sideId": 12600035,
+    "controllerId": 10300444,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": 90100011,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600067
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301413
+      },
+      {
+        "skillId": 12301371
+      },
+      {
+        "skillId": 12301367
+      },
+      {
+        "skillId": 12301440
+      },
+      {
+        "skillId": 12301424
+      },
+      {
+        "skillId": 12301864
+      },
+      {
+        "skillId": 12301865
+      },
+      {
+        "skillId": 12301650
+      }
+    ],
+    "hp_SN": 1440000000,
+    "def_SN": 700000,
+    "atk_SN": 900000,
+    "atkSpeed_SN": 1000000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "FiveStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000061,
+    "growthTagList": [
+      {
+        "growthTagId": 12000354
+      },
+      {
+        "growthTagId": 12000106
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [
+      {
+        "breakthroughId": 12100489
+      },
+      {
+        "breakthroughId": 12100488
+      },
+      {
+        "breakthroughId": 12100490
+      },
+      {
+        "breakthroughId": 12100491
+      },
+      {
+        "breakthroughId": 12100492
+      },
+      {
+        "breakthroughId": 12100493
+      }
+    ],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800458
+      },
+      {
+        "talentId": 12800459
+      },
+      {
+        "talentId": 12800460
+      },
+      {
+        "talentId": 12800461
+      },
+      {
+        "talentId": 12800462
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10101252,
+    "actionMoveID": 10101253,
+    "actionAttackedID": 10101254,
+    "actionAttackedBackID": 10101284,
+    "actionKnockUpID": -1,
+    "actionStunID": 10101285,
+    "actionDeadID": 10101286,
+    "actionVictoryID": 10101287,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 15000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 10000,
+    "hitAreaHalfWidth_SN": 5000,
+    "hitAreaHalfHeight_SN": 10000,
+    "battleDes": "",
+    "safeInformation": "阿妮塔能源公司下属能源研究所代理所长，她引以为傲的发明足以让她将大部分桦树生物都不放在眼里。",
+    "unitInformation": "",
+    "enemyDrop": [],
+    "abilityList": [],
+    "weaknessList": [],
+    "resistanceList": [],
+    "enemyType": 12601048,
+    "enemyCamp": 12601045,
+    "enemyBookId": -1,
+    "prisonerDrop": [],
+    "enemySkillList": []
+  },
+  {
+    "id": 10000484,
+    "idCN": "爬塔/角色改/妮蔻拉-1",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "妮蔻拉",
+    "EnglishName": "Nicola",
+    "viewId": 11000233,
+    "skinList": [],
+    "sideId": 12600035,
+    "controllerId": 10300444,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": 90100011,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600067
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301413
+      },
+      {
+        "skillId": 12301371
+      },
+      {
+        "skillId": 12301367
+      },
+      {
+        "skillId": 12301440
+      },
+      {
+        "skillId": 12301424
+      },
+      {
+        "skillId": 12301864
+      },
+      {
+        "skillId": 12301871
+      }
+    ],
+    "hp_SN": 1440000000,
+    "def_SN": 700000,
+    "atk_SN": 900000,
+    "atkSpeed_SN": 1000000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "FiveStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000061,
+    "growthTagList": [
+      {
+        "growthTagId": 12000354
+      },
+      {
+        "growthTagId": 12000106
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [
+      {
+        "breakthroughId": 12100489
+      },
+      {
+        "breakthroughId": 12100488
+      },
+      {
+        "breakthroughId": 12100490
+      },
+      {
+        "breakthroughId": 12100491
+      },
+      {
+        "breakthroughId": 12100492
+      },
+      {
+        "breakthroughId": 12100493
+      }
+    ],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800458
+      },
+      {
+        "talentId": 12800459
+      },
+      {
+        "talentId": 12800460
+      },
+      {
+        "talentId": 12800461
+      },
+      {
+        "talentId": 12800462
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10101252,
+    "actionMoveID": 10101253,
+    "actionAttackedID": 10101254,
+    "actionAttackedBackID": 10101284,
+    "actionKnockUpID": -1,
+    "actionStunID": 10101285,
+    "actionDeadID": 10101286,
+    "actionVictoryID": 10101287,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 15000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 10000,
+    "hitAreaHalfWidth_SN": 5000,
+    "hitAreaHalfHeight_SN": 10000,
+    "battleDes": "",
+    "safeInformation": "阿妮塔能源公司下属能源研究所代理所长，她引以为傲的发明足以让她将大部分桦树生物都不放在眼里。",
+    "unitInformation": "",
+    "enemyDrop": [],
+    "abilityList": [],
+    "weaknessList": [],
+    "resistanceList": [],
+    "enemyType": 12601048,
+    "enemyCamp": 12601045,
+    "enemyBookId": -1,
+    "prisonerDrop": [],
+    "enemySkillList": []
+  },
+  {
+    "id": 10000478,
+    "idCN": "敌方/14学会/学会驻守者",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "学会驻守者",
+    "EnglishName": "",
+    "viewId": 11000393,
+    "skinList": [],
+    "sideId": 12601357,
+    "controllerId": 10300439,
+    "bulletControllerList": [],
+    "isBoss": false,
+    "bossHpTemp": -1,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301876
+      }
+    ],
+    "hp_SN": 200000000,
+    "def_SN": 650000,
+    "atk_SN": 750000,
+    "atkSpeed_SN": 800000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000400,
+    "growthTagList": [
+      {
+        "growthTagId": 12000112
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800292
+      },
+      {
+        "talentId": 12800293
+      },
+      {
+        "talentId": 12800294
+      },
+      {
+        "talentId": 12800295
+      },
+      {
+        "talentId": 12800296
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10103265,
+    "actionMoveID": 10103264,
+    "actionAttackedID": 10103261,
+    "actionAttackedBackID": 10103262,
+    "actionKnockUpID": -1,
+    "actionStunID": 10103243,
+    "actionDeadID": 10103263,
+    "actionVictoryID": -1,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 20000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 20000,
+    "hitAreaHalfWidth_SN": 18000,
+    "hitAreaHalfHeight_SN": 20000,
+    "battleDes": "",
+    "safeInformation": "“毛绒会”成员，熊型毛绒玩偶。会使用冲锋枪对敌人造成高频率伤害，榴弹爆炸后会给地面附加炽地效果。",
+    "unitInformation": "“毛绒会”成员，乍一看非常恐怖的巨型毛绒玩偶，知道装在壳子里的是人以后恐怖程度倍增。\r庞大的毛绒身躯里似乎隐藏着许多隐蔽口袋，里面装着机关枪、子弹、榴弹发射器等等丰富得惊人的武器库存，头上的金属圈也许寓意着会把敌人给物理地送至天堂。为了凸显可爱，连榴弹发射器弹药爆炸后的烟尘形状也经过特别设计，会让人燃起来。",
+    "enemyDrop": [],
+    "abilityList": [],
+    "weaknessList": [],
+    "resistanceList": [],
+    "enemyType": 12601047,
+    "enemyCamp": 12601045,
+    "enemyBookId": 10000150,
+    "prisonerDrop": []
+  },
+  {
+    "id": 10000487,
+    "idCN": "敌方/000角色/学会/丽桑德拉（未完成）",
+    "mod": "玩家角色",
+    "isInformalData": false,
+    "name": "丽桑德拉",
+    "EnglishName": "Lissandra",
+    "viewId": 11000078,
+    "skinList": [
+      {
+        "unitViewId": 11000078
+      }
+    ],
+    "sideId": 12600031,
+    "controllerId": 10300108,
+    "bulletControllerList": [],
+    "isBoss": false,
+    "bossHpTemp": -1,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600067
+      }
+    ],
+    "passiveSkillList": [],
+    "hp_SN": 85000000,
+    "def_SN": 830000,
+    "atk_SN": 910000,
+    "atkSpeed_SN": 1000000,
+    "luck_SN": 0,
+    "line": 1,
+    "subLine": 905,
+    "isUseCustomCostRestore": false,
+    "costRestorePerFrame_SN": 22,
+    "costRestore_SN": 1340,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "FiveStar",
+    "allSkillList": [],
+    "skillList": [
+      {
+        "num": 2,
+        "skillId": 12300242
+      },
+      {
+        "num": 1,
+        "skillId": 12300243
+      },
+      {
+        "num": 1,
+        "skillId": 12300244
+      }
+    ],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [
+      {
+        "tagID": 12600155
+      },
+      {
+        "tagID": 12600161
+      },
+      {
+        "tagID": 12600162
+      }
+    ],
+    "growthId": 12000013,
+    "growthTagList": [],
+    "skillLvUpList": [],
+    "breakthroughList": [
+      {
+        "breakthroughId": 12100143
+      },
+      {
+        "breakthroughId": 12100144
+      },
+      {
+        "breakthroughId": 12100145
+      },
+      {
+        "breakthroughId": 12100146
+      },
+      {
+        "breakthroughId": 12100147
+      },
+      {
+        "breakthroughId": 12100148
+      }
+    ],
+    "awakeList": [
+      {
+        "awakeId": 12200197
+      },
+      {
+        "awakeId": 12200198
+      },
+      {
+        "awakeId": 12200199
+      },
+      {
+        "awakeId": 12200200
+      },
+      {
+        "awakeId": 12200201
+      },
+      {
+        "awakeId": 12200361
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800054
+      },
+      {
+        "talentId": 12800063
+      },
+      {
+        "talentId": 12800056
+      },
+      {
+        "talentId": 12800057
+      },
+      {
+        "talentId": 12800321
+      }
+    ],
+    "rewardList": [
+      {
+        "id": 11700082,
+        "num": 1
+      }
+    ],
+    "actionStandID": 10103188,
+    "actionMoveID": 10103178,
+    "actionAttackedID": 10103175,
+    "actionAttackedBackID": 10103177,
+    "actionKnockUpID": -1,
+    "actionStunID": 10103179,
+    "actionDeadID": 10103180,
+    "actionVictoryID": 10103181,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 15000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 10000,
+    "hitAreaHalfWidth_SN": 5000,
+    "hitAreaHalfHeight_SN": 10000,
+    "decomposeRewardList": [
+      {
+        "id": 11400017,
+        "num": 10
+      }
+    ],
+    "isSpine2": 1,
+    "homeSkillList": [
+      {
+        "id": 83900076,
+        "nextIndex": 3,
+        "resonanceLv": 1
+      },
+      {
+        "id": 83900130,
+        "nextIndex": 0,
+        "resonanceLv": 4
+      },
+      {
+        "id": 83900164,
+        "nextIndex": -1,
+        "resonanceLv": 5
+      }
+    ],
+    "totalCost": 1,
+    "totalCardNum": 1,
+    "skillMin": 5,
+    "homeCharacter": 70000049,
+    "stationStoreCharacter": -1,
+    "gotoBed": true,
+    "isDoctor": false,
+    "medicalPoint": 0,
+    "WasteCoefficient": 1.0,
+    "FoodList": [
+      {
+        "id": 83300011,
+        "letter": "无需在意味蕾一时的感受，确保你的身体获得了所需所求。",
+        "weight": 1
+      }
+    ],
+    "ProfilePhotoList": [
+      {
+        "id": 82600491,
+        "weight": 95
+      },
+      {
+        "id": 82600492,
+        "weight": 95
+      },
+      {
+        "id": 82600493,
+        "weight": 95
+      },
+      {
+        "id": 82600494,
+        "weight": 15
+      }
+    ],
+    "classifyList": [
+      {
+        "des": 12601215
+      },
+      {
+        "des": 12601216
+      },
+      {
+        "des": 12601217
+      },
+      {
+        "des": 12601221
+      },
+      {
+        "des": 12601219
+      },
+      {
+        "des": 12601223
+      },
+      {
+        "des": 12601224
+      },
+      {
+        "des": 12601227
+      }
+    ],
+    "careerList": [
+      {
+        "des": 12601211
+      }
+    ],
+    "fileList": [
+      {
+        "file": 80301576
+      }
+    ],
+    "age": 0,
+    "gender": "女",
+    "birthday": "1月14日",
+    "birthdayMonth": "1",
+    "birthdayDay": "14",
+    "birthdayCake": 11400127,
+    "birthdayMessage": "我从篝火城的甜品店购得了这份礼物。不足以表达更多情感，但很适合与友人们一同分享。",
+    "height": "172cm",
+    "birthplace": "曼杜斯帝国",
+    "ability": "暂无相关资料",
+    "identity": "索思学会·御敌枢纽名誉先导",
+    "basic": "",
+    "ResumeList": [
+      {
+        "des": "关于丽桑德拉的过去，学会并没有很明确的记载，只有被置于学会藏书深处的残破书卷中，对丽桑德拉有着零星的记录。\r而任何关于丽桑德拉的有迹可循的皆是近些年的事情了，但这位可以清楚地道出学会伊始的存在无可厚非的被认为是早期学会的成员之一。\r作为与被称作英雄的达斯廷有一战之力的丽桑德拉是学会为了某些特殊情况而留下的杀手锏，学会给予了她与达斯廷最大限度的自由和尊重。\r作为有关心理学的课程的研究者同时她同时也是一名导师，秉承着实践出真知的理念长期漫步于各大篝火城之中，可以说是大众最为熟知的几位学会成员之一。\r在学会中，丽桑德拉的行为被认为是较达斯廷的仁慈更具有人性的，另一种对于学会理念的特殊解读。"
+      }
+    ],
+    "StoryList": [],
+    "CvName": "",
+    "getCharacter": "我是丽桑德拉。光辉也好，黝黯也罢，只要您的信念坚定，我终将会抵达您的身畔。",
+    "safeInformation": "",
+    "unitInformation": ""
+  },
+  {
+    "id": 10000488,
+    "idCN": "敌方/000角色/学会/参宿一（未完成）",
+    "mod": "玩家角色",
+    "isInformalData": false,
+    "name": "参宿一",
+    "EnglishName": "Alnitak",
+    "viewId": 11000208,
+    "skinList": [
+      {
+        "unitViewId": 11000208
+      }
+    ],
+    "sideId": 12600031,
+    "controllerId": 10300154,
+    "bulletControllerList": [],
+    "isBoss": false,
+    "bossHpTemp": -1,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600011
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301126
+      }
+    ],
+    "hp_SN": 70000000,
+    "def_SN": 600000,
+    "atk_SN": 500000,
+    "atkSpeed_SN": 1000000,
+    "luck_SN": 0,
+    "line": 1,
+    "subLine": 990,
+    "isUseCustomCostRestore": false,
+    "costRestorePerFrame_SN": 22,
+    "costRestore_SN": 1340,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "threeStar",
+    "allSkillList": [],
+    "skillList": [
+      {
+        "num": 2,
+        "skillId": 12301114
+      },
+      {
+        "num": 2,
+        "skillId": 12301115
+      },
+      {
+        "num": 1,
+        "skillId": 12301116
+      }
+    ],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [
+      {
+        "tagID": 12600155
+      },
+      {
+        "tagID": 12600161
+      },
+      {
+        "tagID": 12600162
+      }
+    ],
+    "growthId": 12000095,
+    "growthTagList": [],
+    "skillLvUpList": [],
+    "breakthroughList": [
+      {
+        "breakthroughId": 12100452
+      },
+      {
+        "breakthroughId": 12100453
+      },
+      {
+        "breakthroughId": 12100454
+      },
+      {
+        "breakthroughId": 12100455
+      },
+      {
+        "breakthroughId": 12100456
+      },
+      {
+        "breakthroughId": 12100457
+      }
+    ],
+    "awakeList": [
+      {
+        "awakeId": 12200161
+      },
+      {
+        "awakeId": 12200162
+      },
+      {
+        "awakeId": 12200163
+      },
+      {
+        "awakeId": 12200164
+      },
+      {
+        "awakeId": 12200165
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800430
+      },
+      {
+        "talentId": 12800431
+      },
+      {
+        "talentId": 12800432
+      },
+      {
+        "talentId": 12800433
+      }
+    ],
+    "rewardList": [
+      {
+        "id": 11700133,
+        "num": 1
+      }
+    ],
+    "actionStandID": 10102068,
+    "actionMoveID": 10102069,
+    "actionAttackedID": 10102070,
+    "actionAttackedBackID": 10102071,
+    "actionKnockUpID": -1,
+    "actionStunID": 10102072,
+    "actionDeadID": 10102073,
+    "actionVictoryID": 10102074,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 15000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 10000,
+    "hitAreaHalfWidth_SN": 5000,
+    "hitAreaHalfHeight_SN": 10000,
+    "decomposeRewardList": [
+      {
+        "id": 11400017,
+        "num": 1
+      }
+    ],
+    "isSpine2": 0,
+    "homeSkillList": [
+      {
+        "id": 83900098,
+        "nextIndex": 0,
+        "resonanceLv": 1
+      },
+      {
+        "id": 83900063,
+        "nextIndex": 0,
+        "resonanceLv": 4
+      }
+    ],
+    "totalCost": 16,
+    "totalCardNum": 5,
+    "skillMin": 5,
+    "homeCharacter": 70000165,
+    "stationStoreCharacter": -1,
+    "gotoBed": true,
+    "isDoctor": false,
+    "medicalPoint": 0,
+    "WasteCoefficient": 1.0,
+    "FoodList": [],
+    "ProfilePhotoList": [],
+    "classifyList": [],
+    "careerList": [],
+    "fileList": [
+      {
+        "file": 80301071
+      }
+    ],
+    "age": 0,
+    "gender": "",
+    "birthday": "3月27日",
+    "birthdayCake": -1,
+    "birthdayMessage": "",
+    "height": "149cm",
+    "birthplace": "篝火城",
+    "ability": "",
+    "identity": "黑月职工",
+    "basic": "",
+    "ResumeList": [],
+    "StoryList": [],
+    "CvName": "",
+    "getCharacter": "哼哼哼！咱是山岚，忍界未来的女王就是咱，敬请见证吧！哈哈哈！",
+    "safeInformation": "",
+    "unitInformation": "",
+    "birthdayMonth": "3",
+    "birthdayDay": "27"
+  },
+  {
+    "id": 10000486,
+    "idCN": "敌方/000角色/学会/达斯廷（未完成）",
+    "mod": "玩家角色",
+    "isInformalData": false,
+    "name": "达斯廷",
+    "EnglishName": "Dustin",
+    "viewId": 11000198,
+    "skinList": [
+      {
+        "unitViewId": 11000198
+      }
+    ],
+    "sideId": 12600031,
+    "controllerId": 10300142,
+    "bulletControllerList": [
+      {
+        "controllerId": 13400003
+      }
+    ],
+    "isBoss": false,
+    "bossHpTemp": -1,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      }
+    ],
+    "passiveSkillList": [],
+    "hp_SN": 90000000,
+    "def_SN": 810000,
+    "atk_SN": 810000,
+    "atkSpeed_SN": 1000000,
+    "luck_SN": 0,
+    "line": 1,
+    "subLine": 910,
+    "isUseCustomCostRestore": false,
+    "costRestorePerFrame_SN": 22,
+    "costRestore_SN": 1340,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "FiveStar",
+    "allSkillList": [],
+    "skillList": [
+      {
+        "num": 4,
+        "skillId": 12301104
+      },
+      {
+        "num": 1,
+        "skillId": 12301105
+      },
+      {
+        "num": 1,
+        "skillId": 12301106
+      }
+    ],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [
+      {
+        "tagID": 12600155
+      },
+      {
+        "tagID": 12600161
+      },
+      {
+        "tagID": 12600162
+      }
+    ],
+    "growthId": 12000094,
+    "growthTagList": [],
+    "skillLvUpList": [],
+    "breakthroughList": [
+      {
+        "breakthroughId": 12100439
+      },
+      {
+        "breakthroughId": 12100372
+      },
+      {
+        "breakthroughId": 12100373
+      },
+      {
+        "breakthroughId": 12100374
+      },
+      {
+        "breakthroughId": 12100375
+      },
+      {
+        "breakthroughId": 12100376
+      }
+    ],
+    "awakeList": [
+      {
+        "awakeId": 12200197
+      },
+      {
+        "awakeId": 12200198
+      },
+      {
+        "awakeId": 12200199
+      },
+      {
+        "awakeId": 12200200
+      },
+      {
+        "awakeId": 12200201
+      },
+      {
+        "awakeId": 12200361
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800364
+      },
+      {
+        "talentId": 12800375
+      },
+      {
+        "talentId": 12800376
+      },
+      {
+        "talentId": 12800369
+      },
+      {
+        "talentId": 12800420
+      }
+    ],
+    "rewardList": [
+      {
+        "id": 11700124,
+        "num": 1
+      }
+    ],
+    "actionStandID": 10101990,
+    "actionMoveID": 10101992,
+    "actionAttackedID": 10101993,
+    "actionAttackedBackID": 10101994,
+    "actionKnockUpID": -1,
+    "actionStunID": 10101995,
+    "actionDeadID": 10101996,
+    "actionVictoryID": 10101997,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 15000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 10000,
+    "hitAreaHalfWidth_SN": 5000,
+    "hitAreaHalfHeight_SN": 10000,
+    "decomposeRewardList": [
+      {
+        "id": 11400017,
+        "num": 10
+      }
+    ],
+    "isSpine2": 1,
+    "homeSkillList": [
+      {
+        "id": 83900089,
+        "nextIndex": 3,
+        "resonanceLv": 1
+      },
+      {
+        "id": 83900076,
+        "nextIndex": 0,
+        "resonanceLv": 4
+      },
+      {
+        "id": 83900090,
+        "nextIndex": -1,
+        "resonanceLv": 5
+      }
+    ],
+    "totalCost": 15,
+    "totalCardNum": 6,
+    "skillMin": 5,
+    "homeCharacter": 70000009,
+    "stationStoreCharacter": -1,
+    "gotoBed": true,
+    "isDoctor": true,
+    "medicalPoint": 90,
+    "WasteCoefficient": 1.0,
+    "FoodList": [
+      {
+        "id": 83300019,
+        "letter": "这是那两个孩子都很喜欢的餐点。趁此机会，休息片刻吧。"
+      }
+    ],
+    "ProfilePhotoList": [
+      {
+        "id": 82600274,
+        "weight": 95
+      }
+    ],
+    "classifyList": [
+      {
+        "des": 12601216
+      },
+      {
+        "des": 12601217
+      },
+      {
+        "des": 12601221
+      },
+      {
+        "des": 12601218
+      },
+      {
+        "des": 12601219
+      },
+      {
+        "des": 12601226
+      },
+      {
+        "des": 12601225
+      }
+    ],
+    "careerList": [
+      {
+        "des": 12601213
+      }
+    ],
+    "fileList": [
+      {
+        "file": 80301553
+      }
+    ],
+    "age": 0,
+    "gender": "男",
+    "birthday": "1月20日",
+    "birthdayCake": 11400126,
+    "birthdayMessage": "虽然我的身体已经无法再摄入食物，但希望你们能开开心心地分享这个蛋糕。",
+    "height": "198cm",
+    "birthplace": "铁山城",
+    "ability": "燎原",
+    "identity": "索思学会·战斗先导",
+    "basic": "",
+    "ResumeList": [
+      {
+        "des": "学会的核心人物，御敌枢纽先导——达斯廷。如果仅从外观判断，很难断定他是否还能被称为“人”。他的四肢、皮肤乃至部分器官都被机械结构代替，仅剩下部分特征尚能证明其人类身份。如果说万事背后皆有原因，那么他付出如此之大的代价仍要活着、仍要战斗的原因，就是为了创造一个能让“孩子们”安心生活的世界——为此，他能忍受任何代价与苦难，只为引导、伴随他所爱的孩子们，走向未来。"
+      }
+    ],
+    "StoryList": [],
+    "CvName": "",
+    "getCharacter": "我是索思学会的达斯廷，向世人揭示希望即是我的使命。今后请多多关照，列车长。",
+    "safeInformation": "",
+    "unitInformation": "",
+    "birthdayMonth": "1",
+    "birthdayDay": "20"
+  },
+  {
+    "id": 10000485,
+    "idCN": "敌方/14学会/学会引导者",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "学会驻守者",
+    "EnglishName": "",
+    "viewId": 11000177,
+    "skinList": [],
+    "sideId": 12601357,
+    "controllerId": 10300434,
+    "bulletControllerList": [],
+    "isBoss": false,
+    "bossHpTemp": -1,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      }
+    ],
+    "passiveSkillList": [],
+    "hp_SN": 200000000,
+    "def_SN": 650000,
+    "atk_SN": 750000,
+    "atkSpeed_SN": 800000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000401,
+    "growthTagList": [
+      {
+        "growthTagId": 12000112
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800292
+      },
+      {
+        "talentId": 12800293
+      },
+      {
+        "talentId": 12800294
+      },
+      {
+        "talentId": 12800295
+      },
+      {
+        "talentId": 12800296
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10103265,
+    "actionMoveID": 10103264,
+    "actionAttackedID": 10103261,
+    "actionAttackedBackID": 10103262,
+    "actionKnockUpID": -1,
+    "actionStunID": 10103243,
+    "actionDeadID": 10103263,
+    "actionVictoryID": -1,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 20000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 20000,
+    "hitAreaHalfWidth_SN": 18000,
+    "hitAreaHalfHeight_SN": 20000,
+    "battleDes": "",
+    "safeInformation": "“毛绒会”成员，熊型毛绒玩偶。会使用冲锋枪对敌人造成高频率伤害，榴弹爆炸后会给地面附加炽地效果。",
+    "unitInformation": "“毛绒会”成员，乍一看非常恐怖的巨型毛绒玩偶，知道装在壳子里的是人以后恐怖程度倍增。\r庞大的毛绒身躯里似乎隐藏着许多隐蔽口袋，里面装着机关枪、子弹、榴弹发射器等等丰富得惊人的武器库存，头上的金属圈也许寓意着会把敌人给物理地送至天堂。为了凸显可爱，连榴弹发射器弹药爆炸后的烟尘形状也经过特别设计，会让人燃起来。",
+    "enemyDrop": [],
+    "abilityList": [],
+    "weaknessList": [],
+    "resistanceList": [],
+    "enemyType": 12601047,
+    "enemyCamp": 12601045,
+    "enemyBookId": 10000150,
+    "prisonerDrop": []
   }
 ]

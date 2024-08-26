@@ -2614,7 +2614,7 @@
     "idCN": "角色/cost",
     "mod": "UI文本",
     "isInformalData": false,
-    "text": "COST  <size=40>%s</size>"
+    "text": "COST <size=40>%s</size>"
   },
   {
     "id": 80600454,
@@ -38338,7 +38338,7 @@
     "idCN": "1预制体/HomeBattleCenter/HomeBattleCenter1/文案90",
     "mod": "UI文本",
     "isInformalData": false,
-    "text": "剩余投资次数：0/1"
+    "text": "剩余投资次数：%d"
   },
   {
     "id": 80604853,
@@ -54423,7 +54423,7 @@
     "idCN": "2预制体/Prison/PurchaseOrder/文案5",
     "mod": "UI文本",
     "isInformalData": false,
-    "text": "采购所需时间"
+    "text": "本单计划数量"
   },
   {
     "id": 80600222,
@@ -56456,7 +56456,7 @@
   },
   {
     "id": 80607265,
-    "idCN": "游乐场/0预制体/设施",
+    "idCN": "2预制体/Playground/Playground/设施",
     "mod": "UI文本",
     "isInformalData": false,
     "text": "设施"
@@ -60984,7 +60984,7 @@
     "idCN": "活动/海岛活动/事项一览",
     "mod": "UI文本",
     "isInformalData": false,
-    "text": "沙滩排球"
+    "text": "事项一览"
   },
   {
     "id": 80607775,
@@ -61103,21 +61103,21 @@
     "idCN": "活动/海岛活动/活动卡收集",
     "mod": "UI文本",
     "isInformalData": false,
-    "text": "<size=68><color=#73C8FF>%d</color></size>/%d"
+    "text": "<size=68>%d</size>/%d"
   },
   {
     "id": 80607796,
     "idCN": "活动/海岛活动/禁止进入",
     "mod": "UI文本",
     "isInformalData": false,
-    "text": "完成\"%s\"后开启"
+    "text": "完成活动支线\"%s\"后开启"
   },
   {
     "id": 80607797,
     "idCN": "活动/海岛活动/倒计时",
     "mod": "UI文本",
     "isInformalData": false,
-    "text": "限时 剩余：%d:%d:%d"
+    "text": "%d天   %d:%d后关闭"
   },
   {
     "id": 80607798,
@@ -61489,5 +61489,264 @@
     "mod": "UI文本",
     "isInformalData": false,
     "text": "剩余时间"
+  },
+  {
+    "id": 80607861,
+    "idCN": "游乐场/2营收/0通用文本/票价奖励",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "获得%s票价奖励"
+  },
+  {
+    "id": 80607862,
+    "idCN": "游乐场/2营收/0通用文本/分成奖励",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "获得%s分成奖励"
+  },
+  {
+    "id": 80607864,
+    "idCN": "游乐场/2营收/0通用文本/税率奖励",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "获得%s税率奖励"
+  },
+  {
+    "id": 80607852,
+    "idCN": "2预制体/Playground/Playground/事项一览",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "事项一览"
+  },
+  {
+    "id": 80607853,
+    "idCN": "2预制体/Playground/Playground/拜访",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "拜  访"
+  },
+  {
+    "id": 80607854,
+    "idCN": "2预制体/Playground/Playground/导航",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "导  航"
+  },
+  {
+    "id": 80607855,
+    "idCN": "2预制体/Playground/Playground/装修",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "装  修"
+  },
+  {
+    "id": 80607856,
+    "idCN": "2预制体/Playground/Playground/扩建",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "扩 建"
+  },
+  {
+    "id": 80607857,
+    "idCN": "2预制体/Playground/Playground/宣传",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "宣 传"
+  },
+  {
+    "id": 80607858,
+    "idCN": "沙滩排球/比赛模式时间/活动时间-小时分",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "%d小时%d分钟"
+  },
+  {
+    "id": 80607859,
+    "idCN": "沙滩排球/比赛模式时间/活动时间-天小时",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "%d天%d小时"
+  },
+  {
+    "id": 80607860,
+    "idCN": "沙滩排球/每日奖励次数",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "本日剩余奖励次数   %d/%d"
+  },
+  {
+    "id": 80607863,
+    "idCN": "沙滩排球/每日剩余奖励次数不足",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "本日奖励次数已用完"
+  },
+  {
+    "id": 80607865,
+    "idCN": "回归/菜单/阶段奖励物品",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "阶段奖励物品"
+  },
+  {
+    "id": 80607867,
+    "idCN": "监狱/原料订单/立即完成订单二次确认",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "消耗%d{%s}，立即完成订单"
+  },
+  {
+    "id": 80607866,
+    "idCN": "2预制体/MainUI/TrailerSpeedAdd/文案1",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "拖车时速"
+  },
+  {
+    "id": 80607868,
+    "idCN": "2预制体/MainUI/TrailerSpeedAdd/文案2",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "额外次数"
+  },
+  {
+    "id": 80607869,
+    "idCN": "2预制体/Playground/Playground/小岛跳转",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "小岛跳转"
+  },
+  {
+    "id": 80607870,
+    "idCN": "1预制体/Home/BarStore/文案33",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "每日5:00恢复当地喝一杯次数"
+  },
+  {
+    "id": 80607871,
+    "idCN": "监狱/原料订单/持有数量",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "持有数量：%d"
+  },
+  {
+    "id": 80607872,
+    "idCN": "监狱/原料订单/按钮/加速采购",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "加速采购"
+  },
+  {
+    "id": 80607873,
+    "idCN": "监狱/原料订单/稀有度",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "稀有度"
+  },
+  {
+    "id": 80607874,
+    "idCN": "监狱/原料订单/采购中",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "采购中"
+  },
+  {
+    "id": 80607875,
+    "idCN": "2预制体/Prison/PurchaseOrder/文案11",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "消耗时间"
+  },
+  {
+    "id": 80607876,
+    "idCN": "2预制体/Prison/PurchaseOrder/文案12",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "本单采购数量"
+  },
+  {
+    "id": 80607877,
+    "idCN": "2预制体/Prison/PurchaseOrder/文案13",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "剩余时间"
+  },
+  {
+    "id": 80607878,
+    "idCN": "2预制体/Prison/PurchaseOrder/文案14",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "本单完成数量"
+  },
+  {
+    "id": 80607880,
+    "idCN": "2预制体/Prison/PurchaseOrder/文案15",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "%s订单"
+  },
+  {
+    "id": 80608114,
+    "idCN": "游乐场/0提示/扩建-数量上限",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "海岛规模已达上限"
+  },
+  {
+    "id": 80608115,
+    "idCN": "游乐场/0提示/扩建-等级不足",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "海岛等级不足"
+  },
+  {
+    "id": 80608116,
+    "idCN": "游乐场/0提示/扩建-等级需求",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "需求：海岛LV%d"
+  },
+  {
+    "id": 80608117,
+    "idCN": "2预制体/Playground/Playground/debuff",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "帮助文本"
+  },
+  {
+    "id": 80607879,
+    "idCN": "监狱/建筑/升级/电力值上限",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "电力值上限"
+  },
+  {
+    "id": 80608118,
+    "idCN": "监狱/建筑/升级/可上阵囚犯数量",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "可上阵囚犯数量"
+  },
+  {
+    "id": 80608119,
+    "idCN": "监狱/建筑/升级/解锁新配方",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "解锁新配方"
+  },
+  {
+    "id": 80608120,
+    "idCN": "监狱/批量制造/空缺",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "空缺"
+  },
+  {
+    "id": 80608121,
+    "idCN": "监狱/批量制造/机器等级",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "%s LV %d"
   }
 ]
