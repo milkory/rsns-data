@@ -707,7 +707,7 @@
   },
   {
     "id": 20000044,
-    "idCN": "海角城-沿路北",
+    "idCN": "海角城-发电站沿路风车夜晚",
     "mod": "3D场景",
     "isInformalData": false,
     "resStr": "S_HJC_N",
@@ -716,7 +716,8 @@
     "loopGameObjectName": "输入要循环的GameObject的路径",
     "loopGameObjectWidth": 0.0,
     "moveSpeed": 0.0,
-    "blendList": []
+    "blendList": [],
+    "forbidWeatherList": []
   },
   {
     "id": 20000045,
@@ -786,7 +787,7 @@
   },
   {
     "id": 20000050,
-    "idCN": "发电站-沿路南废墟",
+    "idCN": "发电站-沿路南山坡",
     "mod": "3D场景",
     "isInformalData": false,
     "resStr": "S_FDZ_S",
@@ -1798,7 +1799,7 @@
   },
   {
     "id": 20000089,
-    "idCN": "海角城-沿路桥面",
+    "idCN": "海角城-北门桥面",
     "mod": "3D场景",
     "isInformalData": false,
     "resStr": "S_HJC_03",
@@ -1812,7 +1813,7 @@
   },
   {
     "id": 20000096,
-    "idCN": "海角城-沿路山林",
+    "idCN": "海角城-北门瀑布",
     "mod": "3D场景",
     "isInformalData": false,
     "resStr": "S_HJC_SL",
@@ -1826,7 +1827,7 @@
   },
   {
     "id": 20000097,
-    "idCN": "海角城-沿路钢架桥",
+    "idCN": "海角城-汇流塔沿路钢架桥",
     "mod": "3D场景",
     "isInformalData": false,
     "resStr": "S_HJC_DQ",
@@ -2051,6 +2052,90 @@
       },
       {
         "weatherId": 50000018
+      }
+    ]
+  },
+  {
+    "id": 20000107,
+    "idCN": "夏活/廊道1",
+    "mod": "3D场景",
+    "isInformalData": false,
+    "resStr": "S_XH_ZL_01",
+    "shakeList": [],
+    "isLoop": false,
+    "loopGameObjectName": "输入要循环的GameObject的路径",
+    "loopGameObjectWidth": 0.0,
+    "moveSpeed": 0.0,
+    "blendList": [],
+    "forbidWeatherList": [
+      {
+        "weatherId": 50000002
+      },
+      {
+        "weatherId": 50000017
+      },
+      {
+        "weatherId": 50000018
+      },
+      {
+        "weatherId": 50000003
+      },
+      {
+        "weatherId": 50000009
+      },
+      {
+        "weatherId": 50000010
+      },
+      {
+        "weatherId": 50000019
+      },
+      {
+        "weatherId": 50000020
+      },
+      {
+        "weatherId": 50000022
+      }
+    ]
+  },
+  {
+    "id": 20000108,
+    "idCN": "夏活/廊道2",
+    "mod": "3D场景",
+    "isInformalData": false,
+    "resStr": "S_XH_ZL_02",
+    "shakeList": [],
+    "isLoop": false,
+    "loopGameObjectName": "输入要循环的GameObject的路径",
+    "loopGameObjectWidth": 0.0,
+    "moveSpeed": 0.0,
+    "blendList": [],
+    "forbidWeatherList": [
+      {
+        "weatherId": 50000002
+      },
+      {
+        "weatherId": 50000017
+      },
+      {
+        "weatherId": 50000018
+      },
+      {
+        "weatherId": 50000003
+      },
+      {
+        "weatherId": 50000009
+      },
+      {
+        "weatherId": 50000010
+      },
+      {
+        "weatherId": 50000019
+      },
+      {
+        "weatherId": 50000020
+      },
+      {
+        "weatherId": 50000022
       }
     ]
   }

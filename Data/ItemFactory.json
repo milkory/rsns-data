@@ -1335,7 +1335,7 @@
     "exchangeList": [
       {
         "itemId": 11400039,
-        "num": 840,
+        "num": 900,
         "weight": 1
       }
     ],
@@ -11316,12 +11316,12 @@
     "name": "形而上粒子合成法",
     "viewId": -1,
     "quality": "Purple",
-    "des": "记录了<color=#FFB800>仙人掌能量棒棒糖</color>制作流程的文件，使用后能够在【形而上三一仪】上将<color=#FFB800>桦树原质</color>，<color=#FFB800>深眠精华</color>以及<color=#FFB800>噪音髓液</color>合成制成<color=#FFB800>形而上粒子</color>。",
+    "des": "记录了<color=#FFB800>形而上粒子</color>制作流程的文件，使用后能够在【形而上三一仪】上将<color=#FFB800>桦树原质</color>，<color=#FFB800>深眠精华</color>以及<color=#FFB800>噪音髓液</color>合成制成<color=#FFB800>形而上粒子</color>。",
     "iconPath": "Item/item/Small/Book_Metaphys",
     "tipsPath": "Item/item/Big/Book_Metaphys",
     "buyPath": "",
     "textIcon": "",
-    "breakPath": "Item\\item\\Small\\NengLiangBang",
+    "breakPath": "Item/item/Small/xingershanglizi",
     "sort": 0,
     "isShowNum": true,
     "isNotDisplayInBag": false,
@@ -11329,7 +11329,7 @@
     "saletype": "NotSale",
     "rewardList": [],
     "Getway": [],
-    "drawing": -1,
+    "drawing": 84900090,
     "techPoints": 100
   },
   {
@@ -11556,7 +11556,7 @@
         "weight": 1
       }
     ],
-    "des": "<size=25><color=#FFB800>可以从列表内自选一件装备。</color></size>",
+    "des": "<size=25><color=#FFB800>可以从列表内自选一件SSR装备。</color></size>",
     "iconPath": "Item\\item\\Small\\zixuanzhuangbeixiang",
     "tipsPath": "Item\\item\\Big\\zixuanzhuangbeixiang",
     "buyPath": "",
@@ -11750,7 +11750,7 @@
   },
   {
     "id": 11400212,
-    "idCN": "活动代币/海岛活动",
+    "idCN": "活动代币/海岛活动-贝币",
     "mod": "基础道具",
     "isInformalData": false,
     "name": "贝币",
@@ -11800,6 +11800,154 @@
     "saletype": "NotSale",
     "rewardList": [],
     "Getway": [],
+    "techPoints": 100
+  },
+  {
+    "id": 11400216,
+    "idCN": "5制造书/形而上三一仪/星云物质合成法",
+    "mod": "图纸道具",
+    "isInformalData": false,
+    "name": "星云物质合成法",
+    "viewId": -1,
+    "quality": "Golden",
+    "des": "记录了<color=#FFB800>星云物质</color>制作流程的文件，使用后能够在【形而上三一仪】上将<color=#FFB800>原始思维</color>，<color=#FFB800>数字化思维</color>以及<color=#FFB800>桦树腺体</color>合成制成<color=#FFB800>星云物质</color>。",
+    "iconPath": "Item/item/Small/Book_Metaphys",
+    "tipsPath": "Item/item/Big/Book_Metaphys",
+    "buyPath": "",
+    "textIcon": "",
+    "breakPath": "Item\\item\\Small\\Exp_SSR_Small",
+    "sort": 0,
+    "isShowNum": true,
+    "isNotDisplayInBag": false,
+    "endTime": "",
+    "saletype": "NotSale",
+    "rewardList": [],
+    "Getway": [
+      {
+        "DisplayName": "7号自由港-伊利亚德-兑换",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": -1
+      }
+    ],
+    "drawing": 84900099,
+    "techPoints": 100
+  },
+  {
+    "id": 11400214,
+    "idCN": "宠物/小洋裙白鸭",
+    "mod": "可使用道具",
+    "isInformalData": false,
+    "name": "小洋裙白鸭的外出背包",
+    "viewId": -1,
+    "quality": "Golden",
+    "useType": "Fixed",
+    "numRequired": 1,
+    "isBatch": false,
+    "exchangeList": [
+      {
+        "itemId": 83400030,
+        "num": 1,
+        "weight": 1
+      }
+    ],
+    "des": "“好伙伴”牌宠物背包，材料轻便，结构坚固，能够有效从外界的种种危险中保护你的宠物，方便与其一同旅行。",
+    "iconPath": "Item/item/Small/PetBag",
+    "tipsPath": "Item/item/Big/PetBag",
+    "buyPath": "",
+    "textIcon": "",
+    "breakPath": "Item/Pet/Small/xiaoyangqunbaiya",
+    "sort": 0,
+    "isShowNum": true,
+    "isNotDisplayInBag": false,
+    "isCompose": false,
+    "containEquipment": false,
+    "batchUsetype": "Other",
+    "useLimitNum": 10,
+    "isTiredItem": false,
+    "isDrinkItem": false,
+    "drinkNum": 3,
+    "isBattlePassItem": false,
+    "BattlePassType": "Low",
+    "uiPath": "",
+    "plotAfter": -1,
+    "endTime": "",
+    "limitedTime": 0,
+    "saletype": "NotSale",
+    "rewardList": [],
+    "Getway": [
+      {
+        "DisplayName": "环游手册",
+        "FromLevel": -1,
+        "UIName": "UI/BP_Quest/BattlePass_Quest",
+        "Way3": "",
+        "funcId": 100
+      }
+    ],
+    "gettipstype": "Pet",
+    "techPoints": 100
+  },
+  {
+    "id": 11400215,
+    "idCN": "列车皮肤道具/01通行证/静流·逐夏主题痛车方案",
+    "mod": "基础道具",
+    "isInformalData": false,
+    "name": "静流·逐夏主题痛车方案",
+    "viewId": -1,
+    "quality": "Golden",
+    "des": "以静流度假时的形象为原型，贴合无垠号车身构思的痛车外观设计方案。“什么？把我印在车上！？不，这么做有点……”虽然本人看上去有些困扰，但拼尽全力说服后，她还是松口了。",
+    "iconPath": "Item\\item\\Small\\Topic_Jingliu",
+    "tipsPath": "Item\\item\\Big\\Topic_Jingliu",
+    "buyPath": "",
+    "textIcon": "",
+    "sort": 0,
+    "isShowNum": true,
+    "isNotDisplayInBag": false,
+    "useLimitNum": 10,
+    "endTime": "",
+    "saletype": "NotSale",
+    "rewardList": [],
+    "Getway": [
+      {
+        "DisplayName": "环游手册",
+        "FromLevel": -1,
+        "UIName": "UI/BP_Quest/BattlePass_Quest",
+        "Way3": "",
+        "funcId": 100
+      }
+    ],
+    "techPoints": 100
+  },
+  {
+    "id": 11400218,
+    "idCN": "活动代币/海岛活动-资材券",
+    "mod": "基础道具",
+    "isInformalData": false,
+    "name": "资材券",
+    "viewId": -1,
+    "quality": "Purple",
+    "des": "鲨伯特交给你的贝壳形状代币，仅能在海岛上的各处设施使用。闪闪发光的样子让人想起夏日的海面……难道这其实是他亲自收集的贝壳？",
+    "iconPath": "Item/item/Small/activity01",
+    "tipsPath": "Item/item/Big/activity01",
+    "buyPath": "Item/item/activity01",
+    "textIcon": "",
+    "sort": 0,
+    "isShowNum": true,
+    "isNotDisplayInBag": true,
+    "useLimitNum": 10,
+    "endTime": "",
+    "saletype": "NotSale",
+    "rewardList": [],
+    "Getway": [
+      {
+        "DisplayName": "“海岛度假物语”活动",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": -1
+      }
+    ],
     "techPoints": 100
   }
 ]

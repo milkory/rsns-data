@@ -1979,7 +1979,7 @@
   },
   {
     "id": 82700011,
-    "idCN": "新城市表/19-发电站-跨海大桥",
+    "idCN": "新城市表/20-发电站-跨海大桥",
     "mod": "基础线路",
     "isInformalData": false,
     "lineMsg": [
@@ -2183,13 +2183,28 @@
     "specifiedLevelId": -1,
     "lineLevelList": [
       {
+        "distance": 900,
+        "id": 80302607,
+        "weight": 1
+      },
+      {
+        "distance": 1200,
+        "id": 80303720,
+        "weight": 1
+      },
+      {
         "distance": 1500,
         "id": 80302607,
         "weight": 1
       },
       {
-        "distance": 2000,
+        "distance": 1800,
         "id": 80302607,
+        "weight": 1
+      },
+      {
+        "distance": 2100,
+        "id": 80303720,
         "weight": 1
       },
       {
@@ -2198,73 +2213,113 @@
         "weight": 1
       },
       {
-        "distance": 2800,
-        "id": 80302607,
-        "weight": 1
-      },
-      {
-        "distance": 3100,
-        "id": 80303335,
-        "weight": 1
-      },
-      {
-        "distance": 3500,
-        "id": 80303335,
-        "weight": 1
-      },
-      {
-        "distance": 4000,
-        "id": 80302607,
-        "weight": 1
-      },
-      {
-        "distance": 4700,
+        "distance": 2700,
         "id": 80303720,
         "weight": 1
       },
       {
-        "distance": 5375,
+        "distance": 3000,
         "id": 80302607,
         "weight": 1
       },
       {
-        "distance": 6125,
-        "id": 80303335,
+        "distance": 3300,
+        "id": 80303791,
         "weight": 1
       },
       {
-        "distance": 6450,
-        "id": 80303335,
-        "weight": 2
-      },
-      {
-        "distance": 6750,
+        "distance": 3600,
         "id": 80302607,
         "weight": 1
       },
       {
-        "distance": 7050,
+        "distance": 3900,
         "id": 80303720,
         "weight": 1
       },
       {
-        "distance": 7350,
-        "id": 80303336,
-        "weight": 2
+        "distance": 4200,
+        "id": 80302607,
+        "weight": 1
       },
       {
-        "distance": 7650,
+        "distance": 4500,
         "id": 80303720,
         "weight": 1
       },
       {
-        "distance": 7950,
-        "id": 80303336,
+        "distance": 4800,
+        "id": 80303791,
         "weight": 1
       },
       {
-        "distance": 8250,
-        "id": 80303336,
+        "distance": 5100,
+        "id": 80303720,
+        "weight": 1
+      },
+      {
+        "distance": 5400,
+        "id": 80302607,
+        "weight": 1
+      },
+      {
+        "distance": 5700,
+        "id": 80303792,
+        "weight": 1
+      },
+      {
+        "distance": 6000,
+        "id": 80302607,
+        "weight": 1
+      },
+      {
+        "distance": 6300,
+        "id": 80303791,
+        "weight": 1
+      },
+      {
+        "distance": 6600,
+        "id": 80302607,
+        "weight": 1
+      },
+      {
+        "distance": 6900,
+        "id": 80303720,
+        "weight": 1
+      },
+      {
+        "distance": 7200,
+        "id": 80303791,
+        "weight": 1
+      },
+      {
+        "distance": 7500,
+        "id": 80303720,
+        "weight": 1
+      },
+      {
+        "distance": 7800,
+        "id": 80303792,
+        "weight": 1
+      },
+      {
+        "distance": 8100,
+        "id": 80303791,
+        "weight": 1
+      },
+      {
+        "distance": 8400,
+        "id": 80303791,
+        "weight": 1
+      },
+      {
+        "distance": 8700,
+        "id": 80303720,
+        "weight": 1
+      },
+      {
+        "distance": 9000,
+        "id": 80303791,
         "weight": 1
       }
     ],
@@ -2272,15 +2327,35 @@
     "triggerNumMax": 3,
     "lineBgList": [
       {
+        "LineBgid": 20000088,
+        "distance0": 500
+      },
+      {
         "LineBgid": 20000089,
-        "distance0": 4400
+        "distance0": 1000
       },
       {
         "LineBgid": 20000096,
+        "distance0": 4500
+      },
+      {
+        "LineBgid": 20000044,
+        "distance0": 5500
+      },
+      {
+        "LineBgid": 20000050,
+        "distance0": 7000
+      },
+      {
+        "LineBgid": 20000074,
+        "distance0": 9250
+      },
+      {
+        "LineBgid": 20000067,
         "distance0": 9608
       }
     ],
-    "LineEnemyLv": 40,
+    "LineEnemyLv": 42,
     "LineEnemyLvRan": 2,
     "LineEnemyRn": 4,
     "LineWeatherRate": 5000,
@@ -2305,7 +2380,7 @@
       }
     ],
     "eventHpRatio": 1.0,
-    "enemyLevelMin": 38,
+    "enemyLevelMin": 40,
     "boxMin": 4,
     "boxMax": 8,
     "boxPolluteNum": 0.5,
@@ -2322,7 +2397,13 @@
         "id": 80601266
       }
     ],
-    "AttractionList": [],
+    "AttractionList": [
+      {
+        "disMax": 2220,
+        "disMin": 1220,
+        "id": 20700421
+      }
+    ],
     "areaList": [],
     "cityList": [],
     "wayPointList": [
@@ -3440,7 +3521,7 @@
   },
   {
     "id": 82700018,
-    "idCN": "新城市表/20-海角城-跨海大桥",
+    "idCN": "新城市表/21-海角城-跨海大桥",
     "mod": "基础线路",
     "isInformalData": false,
     "lineMsg": [
@@ -11347,7 +11428,7 @@
   },
   {
     "id": 82700020,
-    "idCN": "新城市表/21-海角城-汇流塔",
+    "idCN": "新城市表/19-海角城-汇流塔",
     "mod": "基础线路",
     "isInformalData": false,
     "lineMsg": [
@@ -11395,8 +11476,8 @@
     "triggerNumMax": 1,
     "lineBgList": [
       {
-        "LineBgid": 20000044,
-        "distance0": 1500
+        "LineBgid": 20000088,
+        "distance0": 500
       },
       {
         "LineBgid": 20000097,

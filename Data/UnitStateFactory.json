@@ -43767,14 +43767,12 @@
     "id": 10201665,
     "idCN": "敌方/05鼹鼠帮/突击车暴徒/技能3",
     "mod": "基础状态",
-    "isInformalData": false,
     "actionLevel": "System",
     "viewId": 11000088,
     "aniName": "skill_03",
     "isLoop": false,
     "aniTime_SN": 53333,
     "totalFrame": 320,
-    "customFrameTag": "",
     "frameChanged": false,
     "frameEventList": [
       {
@@ -43858,10 +43856,10 @@
     "isYChange": false,
     "offsetYList": [],
     "speed_SN": 0,
-    "speedY_SN": 0,
     "keyFrameList": [],
     "isSetSortingOrder": false,
-    "sortingOrder": 0
+    "sortingOrder": 0,
+    "speedY_SN": 0
   },
   {
     "id": 10201666,
@@ -92342,13 +92340,6 @@
         "triggerTime_SN": 0
       },
       {
-        "effectId": 11101286,
-        "offsetX": 0.0,
-        "offsetY": 1.3,
-        "triggerFrame": 1,
-        "triggerTime_SN": 0
-      },
-      {
         "effectId": 11103849,
         "offsetX": 0.0,
         "offsetY": 0.0,
@@ -115784,13 +115775,6 @@
       }
     ],
     "effectList": [
-      {
-        "effectId": 11101286,
-        "offsetX": 0.0,
-        "offsetY": 1.3,
-        "triggerFrame": 1,
-        "triggerTime_SN": 0
-      },
       {
         "effectId": 11105192,
         "offsetX": 0.0,
@@ -166807,48 +166791,6 @@
     "sortingOrder": 0
   },
   {
-    "id": 10203649,
-    "idCN": "我方/05五星/泳装静流/B",
-    "mod": "基础状态",
-    "isInformalData": false,
-    "actionLevel": "NormalSkill",
-    "viewId": 11000378,
-    "aniName": "skill_02",
-    "isLoop": false,
-    "aniTime_SN": 13333,
-    "totalFrame": 80,
-    "customFrameTag": "",
-    "frameChanged": false,
-    "frameEventList": [],
-    "effectList": [
-      {
-        "effectId": 11100114
-      },
-      {
-        "effectId": 11106159,
-        "offsetX": 0.0,
-        "offsetY": 0.0,
-        "triggerFrame": 1,
-        "triggerTime_SN": 0
-      },
-      {
-        "effectId": 11106139,
-        "offsetX": -0.26,
-        "offsetY": 3.24,
-        "triggerFrame": 30,
-        "triggerTime_SN": 5000
-      }
-    ],
-    "soundList": [],
-    "isYChange": false,
-    "offsetYList": [],
-    "speed_SN": 0,
-    "speedY_SN": 0,
-    "keyFrameList": [],
-    "isSetSortingOrder": false,
-    "sortingOrder": 0
-  },
-  {
     "id": 10203650,
     "idCN": "我方/05五星/泳装静流/S",
     "mod": "基础状态",
@@ -166857,16 +166799,16 @@
     "viewId": 11000378,
     "aniName": "skill_03",
     "isLoop": false,
-    "aniTime_SN": 21667,
-    "totalFrame": 130,
+    "aniTime_SN": 8000,
+    "totalFrame": 48,
     "customFrameTag": "",
     "frameChanged": false,
     "frameEventList": [
       {
         "frameEventId": 10500302,
         "hHalf_SN": 0,
-        "triggerFrame": 1,
-        "triggerTime_SN": 0,
+        "triggerFrame": 48,
+        "triggerTime_SN": 8000,
         "wHalf_SN": 0,
         "x_SN": 0,
         "y_SN": 0
@@ -166874,8 +166816,8 @@
       {
         "frameEventId": 10502336,
         "hHalf_SN": 0,
-        "triggerFrame": 56,
-        "triggerTime_SN": 9333,
+        "triggerFrame": 48,
+        "triggerTime_SN": 8000,
         "wHalf_SN": 0,
         "x_SN": 6800,
         "y_SN": 34300
@@ -166897,14 +166839,32 @@
         "triggerTime_SN": 0
       },
       {
-        "effectId": 11106154,
+        "effectId": 11106167,
         "offsetX": 0.0,
         "offsetY": 0.0,
-        "triggerFrame": 16,
-        "triggerTime_SN": 2667
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11106162,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
       }
     ],
-    "soundList": [],
+    "soundList": [
+      {
+        "soundId": 30005382,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      },
+      {
+        "soundId": 30005384,
+        "triggerFrame": 27,
+        "triggerTime_SN": 4500
+      }
+    ],
     "isYChange": false,
     "offsetYList": [],
     "speed_SN": 0,
@@ -166946,16 +166906,16 @@
     "viewId": 11000378,
     "aniName": "attack_02",
     "isLoop": false,
-    "aniTime_SN": 2667,
-    "totalFrame": 16,
+    "aniTime_SN": 2833,
+    "totalFrame": 17,
     "customFrameTag": "",
     "frameChanged": false,
     "frameEventList": [
       {
         "frameEventId": 10502307,
         "hHalf_SN": 0,
-        "triggerFrame": 3,
-        "triggerTime_SN": 500,
+        "triggerFrame": 2,
+        "triggerTime_SN": 333,
         "wHalf_SN": 0,
         "x_SN": 10000,
         "y_SN": 17000
@@ -166963,8 +166923,8 @@
       {
         "frameEventId": 10502307,
         "hHalf_SN": 0,
-        "triggerFrame": 11,
-        "triggerTime_SN": 1833,
+        "triggerFrame": 10,
+        "triggerTime_SN": 1667,
         "wHalf_SN": 0,
         "x_SN": 800,
         "y_SN": 15400
@@ -166973,20 +166933,31 @@
     "effectList": [
       {
         "effectId": 11106226,
-        "offsetX": 1.25,
-        "offsetY": 1.79,
-        "triggerFrame": 3,
-        "triggerTime_SN": 500
+        "offsetX": 1.16,
+        "offsetY": 1.64,
+        "triggerFrame": 2,
+        "triggerTime_SN": 333
       },
       {
         "effectId": 11106226,
-        "offsetX": 0.49,
+        "offsetX": 0.48,
         "offsetY": 1.47,
-        "triggerFrame": 11,
-        "triggerTime_SN": 1833
+        "triggerFrame": 10,
+        "triggerTime_SN": 1667
       }
     ],
-    "soundList": [],
+    "soundList": [
+      {
+        "soundId": 30005389,
+        "triggerFrame": 2,
+        "triggerTime_SN": 333
+      },
+      {
+        "soundId": 30005389,
+        "triggerFrame": 10,
+        "triggerTime_SN": 1667
+      }
+    ],
     "isYChange": false,
     "offsetYList": [],
     "speed_SN": 0,
@@ -167028,16 +166999,16 @@
     "viewId": 11000378,
     "aniName": "skill_01",
     "isLoop": false,
-    "aniTime_SN": 13333,
-    "totalFrame": 80,
+    "aniTime_SN": 5000,
+    "totalFrame": 30,
     "customFrameTag": "",
     "frameChanged": false,
     "frameEventList": [
       {
         "frameEventId": 10502333,
         "hHalf_SN": 0,
-        "triggerFrame": 60,
-        "triggerTime_SN": 10000,
+        "triggerFrame": 30,
+        "triggerTime_SN": 5000,
         "wHalf_SN": 0,
         "x_SN": 0,
         "y_SN": 0
@@ -167045,8 +167016,8 @@
       {
         "frameEventId": 10502334,
         "hHalf_SN": 0,
-        "triggerFrame": 61,
-        "triggerTime_SN": 10167,
+        "triggerFrame": 30,
+        "triggerTime_SN": 5000,
         "wHalf_SN": 0,
         "x_SN": 0,
         "y_SN": 0
@@ -167067,11 +167038,17 @@
         "effectId": 11106148,
         "offsetX": 0.0,
         "offsetY": 1.7,
-        "triggerFrame": 30,
-        "triggerTime_SN": 5000
+        "triggerFrame": 6,
+        "triggerTime_SN": 1000
       }
     ],
-    "soundList": [],
+    "soundList": [
+      {
+        "soundId": 30005235,
+        "triggerFrame": 6,
+        "triggerTime_SN": 1000
+      }
+    ],
     "isYChange": false,
     "offsetYList": [],
     "speed_SN": 0,
@@ -167289,13 +167266,13 @@
     "viewId": 11000115,
     "aniName": "skill_01_01_01",
     "isLoop": true,
-    "aniTime_SN": 16666,
-    "totalFrame": 100,
-    "customFrameTag": "finalGeDangT",
+    "aniTime_SN": 60000,
+    "totalFrame": 360,
+    "customFrameTag": "",
     "frameChanged": true,
     "frameEventList": [
       {
-        "frameEventId": 10501542,
+        "frameEventId": 10502314,
         "hHalf_SN": 0,
         "triggerFrame": 1,
         "triggerTime_SN": 0,
@@ -167325,6 +167302,15 @@
         "frameEventId": 10502317,
         "hHalf_SN": 0,
         "triggerFrame": 1,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10502360,
+        "hHalf_SN": 0,
+        "triggerFrame": 2,
         "triggerTime_SN": 0,
         "wHalf_SN": 0,
         "x_SN": 0,
@@ -167464,7 +167450,7 @@
     "frameChanged": false,
     "frameEventList": [
       {
-        "frameEventId": 10500745,
+        "frameEventId": 10502376,
         "hHalf_SN": 0,
         "triggerFrame": 21,
         "triggerTime_SN": 3500,
@@ -167512,7 +167498,7 @@
     "frameChanged": false,
     "frameEventList": [
       {
-        "frameEventId": 10500745,
+        "frameEventId": 10502376,
         "hHalf_SN": 0,
         "triggerFrame": 23,
         "triggerTime_SN": 3833,
@@ -167851,16 +167837,7 @@
     "frameChanged": false,
     "frameEventList": [
       {
-        "frameEventId": 10500947,
-        "hHalf_SN": 0,
-        "triggerFrame": 10,
-        "triggerTime_SN": 1667,
-        "wHalf_SN": 0,
-        "x_SN": 0,
-        "y_SN": 0
-      },
-      {
-        "frameEventId": 10500034,
+        "frameEventId": 10502358,
         "hHalf_SN": 10000,
         "triggerFrame": 10,
         "triggerTime_SN": 1667,
@@ -167918,7 +167895,7 @@
     "frameChanged": false,
     "frameEventList": [
       {
-        "frameEventId": 10500880,
+        "frameEventId": 10502352,
         "hHalf_SN": 10000,
         "triggerFrame": 15,
         "triggerTime_SN": 2500,
@@ -167927,10 +167904,19 @@
         "y_SN": 10000
       },
       {
-        "frameEventId": 10501181,
+        "frameEventId": 10502354,
         "hHalf_SN": 0,
         "triggerFrame": 15,
         "triggerTime_SN": 2500,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10502355,
+        "hHalf_SN": 0,
+        "triggerFrame": 15,
+        "triggerTime_SN": 0,
         "wHalf_SN": 0,
         "x_SN": 0,
         "y_SN": 0
@@ -168027,17 +168013,7 @@
     "totalFrame": 16,
     "customFrameTag": "",
     "frameChanged": false,
-    "frameEventList": [
-      {
-        "frameEventId": 10502314,
-        "hHalf_SN": 0,
-        "triggerFrame": 1,
-        "triggerTime_SN": 0,
-        "wHalf_SN": 0,
-        "x_SN": 0,
-        "y_SN": 0
-      }
-    ],
+    "frameEventList": [],
     "effectList": [
       {
         "effectId": 11100114
@@ -168108,6 +168084,15 @@
         "frameEventId": 10502319,
         "hHalf_SN": 0,
         "triggerFrame": 1,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10502363,
+        "hHalf_SN": 0,
+        "triggerFrame": 2,
         "triggerTime_SN": 0,
         "wHalf_SN": 0,
         "x_SN": 0,
@@ -168860,7 +168845,13 @@
         "triggerTime_SN": 4167
       }
     ],
-    "soundList": [],
+    "soundList": [
+      {
+        "soundId": 30005387,
+        "triggerFrame": 25,
+        "triggerTime_SN": 4167
+      }
+    ],
     "isYChange": false,
     "offsetYList": [],
     "speed_SN": 0,
@@ -168899,7 +168890,11 @@
         "triggerTime_SN": 0
       }
     ],
-    "soundList": [],
+    "soundList": [
+      {
+        "soundId": 30005381
+      }
+    ],
     "isYChange": false,
     "offsetYList": [],
     "speed_SN": 0,
@@ -169558,7 +169553,7 @@
     "frameChanged": false,
     "frameEventList": [
       {
-        "frameEventId": 10500208,
+        "frameEventId": 10502329,
         "hHalf_SN": 0,
         "triggerFrame": 36,
         "triggerTime_SN": 6167,
@@ -169630,7 +169625,7 @@
     "frameChanged": false,
     "frameEventList": [
       {
-        "frameEventId": 10500146,
+        "frameEventId": 10502361,
         "hHalf_SN": 10000,
         "triggerFrame": 12,
         "triggerTime_SN": 2000,
@@ -169639,7 +169634,7 @@
         "y_SN": 0
       },
       {
-        "frameEventId": 10501187,
+        "frameEventId": 10502320,
         "hHalf_SN": 0,
         "triggerFrame": 30,
         "triggerTime_SN": 5000,
@@ -169648,7 +169643,16 @@
         "y_SN": 0
       },
       {
-        "frameEventId": 10501173,
+        "frameEventId": 10502362,
+        "hHalf_SN": 0,
+        "triggerFrame": 73,
+        "triggerTime_SN": 12167,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10502357,
         "hHalf_SN": 0,
         "triggerFrame": 73,
         "triggerTime_SN": 12167,
@@ -169731,7 +169735,7 @@
     "frameChanged": false,
     "frameEventList": [
       {
-        "frameEventId": 10500144,
+        "frameEventId": 10502327,
         "hHalf_SN": 0,
         "triggerFrame": 62,
         "triggerTime_SN": 10333,
@@ -169740,7 +169744,7 @@
         "y_SN": 11000
       },
       {
-        "frameEventId": 10500144,
+        "frameEventId": 10502327,
         "hHalf_SN": 0,
         "triggerFrame": 62,
         "triggerTime_SN": 10333,
@@ -169749,13 +169753,31 @@
         "y_SN": 11000
       },
       {
-        "frameEventId": 10500144,
+        "frameEventId": 10502327,
         "hHalf_SN": 0,
         "triggerFrame": 62,
         "triggerTime_SN": 10333,
         "wHalf_SN": 0,
         "x_SN": 13000,
         "y_SN": 11000
+      },
+      {
+        "frameEventId": 10502353,
+        "hHalf_SN": 0,
+        "triggerFrame": 62,
+        "triggerTime_SN": 10333,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10502357,
+        "hHalf_SN": 0,
+        "triggerFrame": 62,
+        "triggerTime_SN": 10333,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
       }
     ],
     "effectList": [
@@ -169846,7 +169868,7 @@
     "frameChanged": false,
     "frameEventList": [
       {
-        "frameEventId": 10500878,
+        "frameEventId": 10502331,
         "hHalf_SN": 0,
         "triggerFrame": 83,
         "triggerTime_SN": 13833,
@@ -169855,7 +169877,25 @@
         "y_SN": 0
       },
       {
-        "frameEventId": 10500011,
+        "frameEventId": 10502330,
+        "hHalf_SN": 0,
+        "triggerFrame": 83,
+        "triggerTime_SN": 13833,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10502357,
+        "hHalf_SN": 0,
+        "triggerFrame": 83,
+        "triggerTime_SN": 13833,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10502359,
         "hHalf_SN": 0,
         "triggerFrame": 83,
         "triggerTime_SN": 13833,
@@ -170036,7 +170076,7 @@
     "frameChanged": false,
     "frameEventList": [
       {
-        "frameEventId": 10500146,
+        "frameEventId": 10502328,
         "hHalf_SN": 10000,
         "triggerFrame": 12,
         "triggerTime_SN": 2000,
@@ -170045,7 +170085,7 @@
         "y_SN": 0
       },
       {
-        "frameEventId": 10501149,
+        "frameEventId": 10502325,
         "hHalf_SN": 0,
         "triggerFrame": 30,
         "triggerTime_SN": 5000,
@@ -170054,7 +170094,16 @@
         "y_SN": 0
       },
       {
-        "frameEventId": 10501173,
+        "frameEventId": 10502326,
+        "hHalf_SN": 0,
+        "triggerFrame": 73,
+        "triggerTime_SN": 12167,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10502357,
         "hHalf_SN": 0,
         "triggerFrame": 73,
         "triggerTime_SN": 12167,
@@ -170372,7 +170421,7 @@
     "frameChanged": false,
     "frameEventList": [
       {
-        "frameEventId": 10500208,
+        "frameEventId": 10502329,
         "hHalf_SN": 0,
         "triggerFrame": 32,
         "triggerTime_SN": 5333,
@@ -170460,18 +170509,18 @@
     "isInformalData": false,
     "actionLevel": "NormalAttack",
     "viewId": 11000378,
-    "aniName": "attack_01_02",
+    "aniName": "attack_01",
     "isLoop": false,
-    "aniTime_SN": 1000,
-    "totalFrame": 6,
+    "aniTime_SN": 8333,
+    "totalFrame": 50,
     "customFrameTag": "",
     "frameChanged": false,
     "frameEventList": [
       {
         "frameEventId": 10502307,
         "hHalf_SN": 0,
-        "triggerFrame": 1,
-        "triggerTime_SN": 167,
+        "triggerFrame": 26,
+        "triggerTime_SN": 4333,
         "wHalf_SN": 0,
         "x_SN": 10000,
         "y_SN": 17000
@@ -170482,8 +170531,94 @@
         "effectId": 11106226,
         "offsetX": 1.3,
         "offsetY": 1.88,
-        "triggerFrame": 1,
-        "triggerTime_SN": 167
+        "triggerFrame": 26,
+        "triggerTime_SN": 4333
+      }
+    ],
+    "soundList": [
+      {
+        "soundId": 30005389,
+        "triggerFrame": 26,
+        "triggerTime_SN": 4333
+      }
+    ],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203716,
+    "idCN": "敌方/14学会/学会引导者/昏迷",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "System",
+    "viewId": 11000177,
+    "aniName": "stun",
+    "isLoop": false,
+    "aniTime_SN": 20000,
+    "totalFrame": 120,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [],
+    "effectList": [],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203717,
+    "idCN": "敌方/14学会/学会引导者/技能1",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "NormalSkill",
+    "viewId": 11000177,
+    "aniName": "skill_01",
+    "isLoop": false,
+    "aniTime_SN": 20000,
+    "totalFrame": 120,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10502350,
+        "hHalf_SN": 0,
+        "triggerFrame": 90,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11106245,
+        "offsetX": 0.22,
+        "offsetY": 2.5,
+        "triggerFrame": 8,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11106246,
+        "offsetX": 0.15,
+        "offsetY": 2.25,
+        "triggerFrame": 45,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11106247,
+        "offsetX": 0.0,
+        "offsetY": 2.5,
+        "triggerFrame": 45,
+        "triggerTime_SN": 0
       }
     ],
     "soundList": [],
@@ -170496,36 +170631,245 @@
     "sortingOrder": 0
   },
   {
-    "id": 10203711,
-    "idCN": "我方/05五星/泳装静流/普攻_水球_单持",
+    "id": 10203718,
+    "idCN": "敌方/14学会/学会引导者/普攻1",
     "mod": "基础状态",
     "isInformalData": false,
     "actionLevel": "NormalAttack",
-    "viewId": 11000378,
-    "aniName": "attack_01_02",
+    "viewId": 11000177,
+    "aniName": "attack_01",
     "isLoop": false,
-    "aniTime_SN": 1000,
-    "totalFrame": 6,
+    "aniTime_SN": 15000,
+    "totalFrame": 90,
     "customFrameTag": "",
     "frameChanged": false,
     "frameEventList": [
       {
-        "frameEventId": 10502322,
+        "frameEventId": 10502349,
         "hHalf_SN": 0,
-        "triggerFrame": 1,
-        "triggerTime_SN": 167,
+        "triggerFrame": 37,
+        "triggerTime_SN": 0,
         "wHalf_SN": 0,
-        "x_SN": 10000,
-        "y_SN": 17000
+        "x_SN": 3300,
+        "y_SN": 18500
       }
     ],
     "effectList": [
       {
-        "effectId": 11106226,
-        "offsetX": 1.3,
-        "offsetY": 1.88,
+        "effectId": 11106236,
+        "offsetX": 0.63,
+        "offsetY": 1.76,
         "triggerFrame": 1,
-        "triggerTime_SN": 167
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11106237,
+        "offsetX": 0.475,
+        "offsetY": 1.9,
+        "triggerFrame": 36,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11106238,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 36,
+        "triggerTime_SN": 0
+      }
+    ],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203719,
+    "idCN": "敌方/14学会/学会引导者/受击1",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "Hit",
+    "viewId": 11000177,
+    "aniName": "injure_01",
+    "isLoop": false,
+    "aniTime_SN": 6666,
+    "totalFrame": 40,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [],
+    "effectList": [],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203720,
+    "idCN": "敌方/14学会/学会引导者/受击2",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "Hit",
+    "viewId": 11000177,
+    "aniName": "injure_02",
+    "isLoop": false,
+    "aniTime_SN": 6666,
+    "totalFrame": 40,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [],
+    "effectList": [],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203721,
+    "idCN": "敌方/14学会/学会引导者/死亡",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "System",
+    "viewId": 11000177,
+    "aniName": "dead",
+    "isLoop": false,
+    "aniTime_SN": 13333,
+    "totalFrame": 80,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [],
+    "effectList": [
+      {
+        "effectId": 11104792,
+        "offsetX": 0.0,
+        "offsetY": 1.8,
+        "triggerFrame": 1,
+        "triggerTime_SN": 4174
+      },
+      {
+        "effectId": 11104828,
+        "offsetX": 0.0,
+        "offsetY": 0.1,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      }
+    ],
+    "soundList": [
+      {
+        "soundId": 30002979,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      },
+      {
+        "soundId": 30003000,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      }
+    ],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203722,
+    "idCN": "敌方/14学会/学会引导者/移动",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "Move",
+    "viewId": 11000177,
+    "aniName": "run",
+    "isLoop": false,
+    "aniTime_SN": 20000,
+    "totalFrame": 120,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [],
+    "effectList": [],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 2000,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203723,
+    "idCN": "敌方/14学会/学会引导者/站立",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "Stand",
+    "viewId": 11000177,
+    "aniName": "stand",
+    "isLoop": false,
+    "aniTime_SN": 26666,
+    "totalFrame": 160,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [],
+    "effectList": [],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203724,
+    "idCN": "敌方/14学会/学会引导者/技能2",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "NormalSkill",
+    "viewId": 11000177,
+    "aniName": "skill_02",
+    "isLoop": false,
+    "aniTime_SN": 35000,
+    "totalFrame": 210,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10502351,
+        "hHalf_SN": 0,
+        "triggerFrame": 70,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11106241,
+        "offsetX": 0.26,
+        "offsetY": 0.17,
+        "triggerFrame": 30,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11106242,
+        "offsetX": -0.8,
+        "offsetY": 0.0,
+        "triggerFrame": 31,
+        "triggerTime_SN": 0
       }
     ],
     "soundList": [],
@@ -170544,18 +170888,18 @@
     "isInformalData": false,
     "actionLevel": "NormalAttack",
     "viewId": 11000378,
-    "aniName": "attack_02",
+    "aniName": "attack_04",
     "isLoop": false,
-    "aniTime_SN": 2667,
-    "totalFrame": 16,
+    "aniTime_SN": 2833,
+    "totalFrame": 17,
     "customFrameTag": "",
     "frameChanged": false,
     "frameEventList": [
       {
         "frameEventId": 10502322,
         "hHalf_SN": 0,
-        "triggerFrame": 3,
-        "triggerTime_SN": 500,
+        "triggerFrame": 2,
+        "triggerTime_SN": 333,
         "wHalf_SN": 0,
         "x_SN": 10000,
         "y_SN": 17000
@@ -170572,24 +170916,1443 @@
     ],
     "effectList": [
       {
-        "effectId": 11106226,
-        "offsetX": 1.25,
-        "offsetY": 1.79,
-        "triggerFrame": 3,
-        "triggerTime_SN": 500
+        "effectId": 11106160,
+        "offsetX": 0.7,
+        "offsetY": 2.23,
+        "triggerFrame": 2,
+        "triggerTime_SN": 333
       },
       {
-        "effectId": 11106226,
-        "offsetX": 0.49,
-        "offsetY": 1.47,
+        "effectId": 11106160,
+        "offsetX": 0.09,
+        "offsetY": 1.77,
         "triggerFrame": 11,
         "triggerTime_SN": 1833
+      }
+    ],
+    "soundList": [
+      {
+        "soundId": 30005389,
+        "triggerFrame": 2,
+        "triggerTime_SN": 333
+      },
+      {
+        "soundId": 30005385,
+        "triggerFrame": 7,
+        "triggerTime_SN": 1167
+      },
+      {
+        "soundId": 30005389,
+        "triggerFrame": 11,
+        "triggerTime_SN": 1833
+      },
+      {
+        "soundId": 30005385,
+        "triggerFrame": 16,
+        "triggerTime_SN": 2667
+      }
+    ],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203711,
+    "idCN": "我方/05五星/泳装静流/普攻_水球_单持",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "NormalAttack",
+    "viewId": 11000378,
+    "aniName": "attack_03",
+    "isLoop": false,
+    "aniTime_SN": 8333,
+    "totalFrame": 50,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10502322,
+        "hHalf_SN": 0,
+        "triggerFrame": 26,
+        "triggerTime_SN": 4333,
+        "wHalf_SN": 0,
+        "x_SN": 9500,
+        "y_SN": 26000
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11106160,
+        "offsetX": 0.82,
+        "offsetY": 2.37,
+        "triggerFrame": 26,
+        "triggerTime_SN": 4333
+      }
+    ],
+    "soundList": [
+      {
+        "soundId": 30005389,
+        "triggerFrame": 26,
+        "triggerTime_SN": 4333
+      },
+      {
+        "soundId": 30005385,
+        "triggerFrame": 30,
+        "triggerTime_SN": 5000
+      }
+    ],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203740,
+    "idCN": "敌方/000角色/学会/参宿一/A",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "NormalSkill",
+    "viewId": 11000208,
+    "aniName": "skill_01",
+    "isLoop": false,
+    "aniTime_SN": 15000,
+    "totalFrame": 90,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10502371,
+        "hHalf_SN": 10000,
+        "triggerFrame": 28,
+        "triggerTime_SN": 4667,
+        "wHalf_SN": 25000,
+        "x_SN": 25000,
+        "y_SN": 10000
+      },
+      {
+        "frameEventId": 10502372,
+        "hHalf_SN": 10000,
+        "triggerFrame": 42,
+        "triggerTime_SN": 7000,
+        "wHalf_SN": 25000,
+        "x_SN": 25000,
+        "y_SN": 10000
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11105039,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11100114,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11101734,
+        "offsetX": 1.0,
+        "offsetY": 3.0,
+        "triggerFrame": 22,
+        "triggerTime_SN": 3667
+      },
+      {
+        "effectId": 11101260,
+        "offsetX": 1.0,
+        "offsetY": 2.5,
+        "triggerFrame": 42,
+        "triggerTime_SN": 7000
       }
     ],
     "soundList": [],
     "isYChange": false,
     "offsetYList": [],
     "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203741,
+    "idCN": "敌方/000角色/学会/参宿一/B",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "NormalSkill",
+    "viewId": 11000208,
+    "aniName": "skill_02",
+    "isLoop": false,
+    "aniTime_SN": 12666,
+    "totalFrame": 76,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10502373,
+        "hHalf_SN": 0,
+        "triggerFrame": 38,
+        "triggerTime_SN": 6333,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501492,
+        "hHalf_SN": 0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10502379,
+        "hHalf_SN": 0,
+        "triggerFrame": 39,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11105041,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11100114,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11106252,
+        "offsetX": 2.0,
+        "offsetY": 2.5,
+        "triggerFrame": 38,
+        "triggerTime_SN": 6333
+      }
+    ],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203742,
+    "idCN": "敌方/000角色/学会/参宿一/S0",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "SpecialSkill",
+    "viewId": 11000208,
+    "aniName": "preskl_03",
+    "isLoop": false,
+    "aniTime_SN": 9333,
+    "totalFrame": 56,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10500302,
+        "hHalf_SN": 0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11105042,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11105190,
+        "offsetX": 0.0,
+        "offsetY": 1.5,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      }
+    ],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203743,
+    "idCN": "敌方/000角色/学会/参宿一/S1",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "SpecialSkill",
+    "viewId": 11000208,
+    "aniName": "skill_03",
+    "isLoop": false,
+    "aniTime_SN": 17333,
+    "totalFrame": 104,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10502380,
+        "hHalf_SN": 10000,
+        "triggerFrame": 25,
+        "triggerTime_SN": 4333,
+        "wHalf_SN": 30000,
+        "x_SN": 30000,
+        "y_SN": 10000
+      },
+      {
+        "frameEventId": 10502381,
+        "hHalf_SN": 10000,
+        "triggerFrame": 25,
+        "triggerTime_SN": 4333,
+        "wHalf_SN": 30000,
+        "x_SN": 30000,
+        "y_SN": 10000
+      },
+      {
+        "frameEventId": 10502375,
+        "hHalf_SN": 10000,
+        "triggerFrame": 26,
+        "triggerTime_SN": 4333,
+        "wHalf_SN": 30000,
+        "x_SN": 30000,
+        "y_SN": 10000
+      },
+      {
+        "frameEventId": 10502383,
+        "hHalf_SN": 0,
+        "triggerFrame": 26,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10502382,
+        "hHalf_SN": 0,
+        "triggerFrame": 27,
+        "triggerTime_SN": 4500,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11101265,
+        "offsetX": 0.0,
+        "offsetY": 3.0,
+        "triggerFrame": 24,
+        "triggerTime_SN": 4000
+      },
+      {
+        "effectId": 11106254,
+        "offsetX": 4.0,
+        "offsetY": 0.0,
+        "triggerFrame": 26,
+        "triggerTime_SN": 4333
+      }
+    ],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203744,
+    "idCN": "敌方/000角色/学会/参宿一/昏迷",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "System",
+    "viewId": 11000208,
+    "aniName": "stun",
+    "isLoop": false,
+    "aniTime_SN": 20000,
+    "totalFrame": 120,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [],
+    "effectList": [],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203745,
+    "idCN": "敌方/000角色/学会/参宿一/普攻1",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "NormalAttack",
+    "viewId": 11000208,
+    "aniName": "attack01",
+    "isLoop": false,
+    "aniTime_SN": 10666,
+    "totalFrame": 64,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10502377,
+        "hHalf_SN": 0,
+        "triggerFrame": 30,
+        "triggerTime_SN": 5000,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11105034,
+        "offsetX": 2.5,
+        "offsetY": 1.5,
+        "triggerFrame": 28,
+        "triggerTime_SN": 4667
+      }
+    ],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203746,
+    "idCN": "敌方/000角色/学会/参宿一/普攻2",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "NormalAttack",
+    "viewId": 11000208,
+    "aniName": "attack02",
+    "isLoop": false,
+    "aniTime_SN": 11333,
+    "totalFrame": 68,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10502378,
+        "hHalf_SN": 0,
+        "triggerFrame": 25,
+        "triggerTime_SN": 4167,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11105033,
+        "offsetX": 0.0,
+        "offsetY": 2.0,
+        "triggerFrame": 24,
+        "triggerTime_SN": 4000
+      }
+    ],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203747,
+    "idCN": "敌方/000角色/学会/参宿一/庆祝",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "System",
+    "viewId": 11000208,
+    "aniName": "cheer",
+    "isLoop": false,
+    "aniTime_SN": 130000,
+    "totalFrame": 779,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [],
+    "effectList": [],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203748,
+    "idCN": "敌方/000角色/学会/参宿一/受击1",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "Hit",
+    "viewId": 11000208,
+    "aniName": "injure01",
+    "isLoop": false,
+    "aniTime_SN": 6666,
+    "totalFrame": 40,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [],
+    "effectList": [],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203749,
+    "idCN": "敌方/000角色/学会/参宿一/受击2",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "Hit",
+    "viewId": 11000208,
+    "aniName": "injure02",
+    "isLoop": false,
+    "aniTime_SN": 6666,
+    "totalFrame": 40,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [],
+    "effectList": [],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203750,
+    "idCN": "敌方/000角色/学会/参宿一/死亡",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "System",
+    "viewId": 11000208,
+    "aniName": "dead",
+    "isLoop": false,
+    "aniTime_SN": 13333,
+    "totalFrame": 80,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [],
+    "effectList": [
+      {
+        "effectId": 11100082,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      }
+    ],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203751,
+    "idCN": "敌方/000角色/学会/参宿一/移动",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "Move",
+    "viewId": 11000208,
+    "aniName": "run",
+    "isLoop": false,
+    "aniTime_SN": 5333,
+    "totalFrame": 32,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [],
+    "effectList": [],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 1000,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203752,
+    "idCN": "敌方/000角色/学会/参宿一/站立",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "Stand",
+    "viewId": 11000208,
+    "aniName": "stand",
+    "isLoop": false,
+    "aniTime_SN": 40000,
+    "totalFrame": 240,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [],
+    "effectList": [],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203753,
+    "idCN": "敌方/000角色/学会/参宿一/B-觉醒2",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "NormalSkill",
+    "viewId": 11000208,
+    "aniName": "skill_02",
+    "isLoop": false,
+    "aniTime_SN": 12666,
+    "totalFrame": 76,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10502374,
+        "hHalf_SN": 0,
+        "triggerFrame": 38,
+        "triggerTime_SN": 6333,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501492,
+        "hHalf_SN": 0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10502379,
+        "hHalf_SN": 0,
+        "triggerFrame": 39,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11105041,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11100114,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11106252,
+        "offsetX": 2.0,
+        "offsetY": 2.5,
+        "triggerFrame": 38,
+        "triggerTime_SN": 6333
+      }
+    ],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203715,
+    "idCN": "敌方/000角色/学会/丽桑德拉/普攻1",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "NormalAttack",
+    "viewId": 11000078,
+    "aniName": "attack_01",
+    "isLoop": false,
+    "aniTime_SN": 12500,
+    "totalFrame": 75,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10502366,
+        "hHalf_SN": 0,
+        "triggerFrame": 20,
+        "triggerTime_SN": 3333,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11105941,
+        "offsetX": 0.0,
+        "offsetY": 1.5,
+        "triggerFrame": 18,
+        "triggerTime_SN": 3000
+      }
+    ],
+    "soundList": [
+      {
+        "soundId": 30005233,
+        "triggerFrame": 18,
+        "triggerTime_SN": 3000
+      }
+    ],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203726,
+    "idCN": "敌方/000角色/学会/丽桑德拉/死亡",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "System",
+    "viewId": 11000078,
+    "aniName": "dead",
+    "isLoop": false,
+    "aniTime_SN": 13500,
+    "totalFrame": 81,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [],
+    "effectList": [
+      {
+        "effectId": 11100082,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      }
+    ],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203727,
+    "idCN": "敌方/000角色/学会/丽桑德拉/庆祝",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "System",
+    "viewId": 11000078,
+    "aniName": "cheer",
+    "isLoop": false,
+    "aniTime_SN": 63500,
+    "totalFrame": 381,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [],
+    "effectList": [],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203728,
+    "idCN": "敌方/000角色/学会/丽桑德拉/B",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "NormalSkill",
+    "viewId": 11000078,
+    "aniName": "skill_02",
+    "isLoop": false,
+    "aniTime_SN": 11333,
+    "totalFrame": 68,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [],
+    "effectList": [
+      {
+        "effectId": 11100114
+      },
+      {
+        "effectId": 11106054,
+        "offsetX": 0.7,
+        "offsetY": 1.3,
+        "triggerFrame": 30,
+        "triggerTime_SN": 5000
+      }
+    ],
+    "soundList": [
+      {
+        "soundId": 30005236,
+        "triggerFrame": 28,
+        "triggerTime_SN": 4667
+      }
+    ],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203729,
+    "idCN": "敌方/000角色/学会/丽桑德拉/站立",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "Stand",
+    "viewId": 11000078,
+    "aniName": "stand",
+    "isLoop": false,
+    "aniTime_SN": 13500,
+    "totalFrame": 81,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [],
+    "effectList": [],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203730,
+    "idCN": "敌方/000角色/学会/丽桑德拉/A-1",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "NormalSkill",
+    "viewId": 11000078,
+    "aniName": "skill_01_02",
+    "isLoop": false,
+    "aniTime_SN": 16667,
+    "totalFrame": 100,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10502368,
+        "hHalf_SN": 0,
+        "triggerFrame": 40,
+        "triggerTime_SN": 6667,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11100114
+      },
+      {
+        "effectId": 11106025,
+        "offsetX": 1.5,
+        "offsetY": 3.0,
+        "triggerFrame": 35,
+        "triggerTime_SN": 5833
+      },
+      {
+        "effectId": 11106026,
+        "offsetX": 3.0,
+        "offsetY": 0.2,
+        "triggerFrame": 40,
+        "triggerTime_SN": 6667
+      },
+      {
+        "effectId": 11106028,
+        "offsetX": 3.0,
+        "offsetY": 0.2,
+        "triggerFrame": 40,
+        "triggerTime_SN": 6667
+      },
+      {
+        "effectId": 11106029,
+        "offsetX": 3.0,
+        "offsetY": 0.2,
+        "triggerFrame": 40,
+        "triggerTime_SN": 6667
+      },
+      {
+        "effectId": 11106070,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11106071,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 40,
+        "triggerTime_SN": 6667
+      }
+    ],
+    "soundList": [
+      {
+        "soundId": 30005228,
+        "triggerFrame": 24,
+        "triggerTime_SN": 4000
+      }
+    ],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203731,
+    "idCN": "敌方/000角色/学会/丽桑德拉/S下落",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "SpecialSkill",
+    "viewId": 11000078,
+    "aniName": "skill_03_02",
+    "isLoop": false,
+    "aniTime_SN": 15167,
+    "totalFrame": 91,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10502367,
+        "hHalf_SN": 10000,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 240000,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10502370,
+        "hHalf_SN": 10000,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 240000,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10502370,
+        "hHalf_SN": 10000,
+        "triggerFrame": 9,
+        "triggerTime_SN": 1500,
+        "wHalf_SN": 240000,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10502370,
+        "hHalf_SN": 10000,
+        "triggerFrame": 21,
+        "triggerTime_SN": 3500,
+        "wHalf_SN": 240000,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10502370,
+        "hHalf_SN": 10000,
+        "triggerFrame": 30,
+        "triggerTime_SN": 5000,
+        "wHalf_SN": 240000,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10502370,
+        "hHalf_SN": 10000,
+        "triggerFrame": 39,
+        "triggerTime_SN": 6500,
+        "wHalf_SN": 240000,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10502370,
+        "hHalf_SN": 10000,
+        "triggerFrame": 51,
+        "triggerTime_SN": 8500,
+        "wHalf_SN": 240000,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10502370,
+        "hHalf_SN": 10000,
+        "triggerFrame": 60,
+        "triggerTime_SN": 10000,
+        "wHalf_SN": 240000,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10502365,
+        "hHalf_SN": 0,
+        "triggerFrame": 60,
+        "triggerTime_SN": 10000,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11106075,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11106056,
+        "offsetX": 1.0,
+        "offsetY": 0.0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11106057,
+        "offsetX": 1.7,
+        "offsetY": 0.0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11106058,
+        "offsetX": 1.7,
+        "offsetY": 0.0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11106059,
+        "offsetX": 1.7,
+        "offsetY": 0.0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11106073,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11106076,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 9,
+        "triggerTime_SN": 1500
+      },
+      {
+        "effectId": 11106076,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 21,
+        "triggerTime_SN": 3500
+      },
+      {
+        "effectId": 11106076,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 30,
+        "triggerTime_SN": 5000
+      },
+      {
+        "effectId": 11106076,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 39,
+        "triggerTime_SN": 6500
+      },
+      {
+        "effectId": 11106076,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 51,
+        "triggerTime_SN": 8500
+      },
+      {
+        "effectId": 11106076,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 60,
+        "triggerTime_SN": 10000
+      }
+    ],
+    "soundList": [
+      {
+        "soundId": 30005241,
+        "triggerFrame": 5,
+        "triggerTime_SN": 833
+      },
+      {
+        "soundId": 30005248,
+        "triggerFrame": 5,
+        "triggerTime_SN": 833
+      }
+    ],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203732,
+    "idCN": "敌方/000角色/学会/丽桑德拉/受击1",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "Hit",
+    "viewId": 11000078,
+    "aniName": "injure_01",
+    "isLoop": false,
+    "aniTime_SN": 6666,
+    "totalFrame": 40,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [],
+    "effectList": [],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203733,
+    "idCN": "敌方/000角色/学会/丽桑德拉/普攻2",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "NormalAttack",
+    "viewId": 11000078,
+    "aniName": "attack_02",
+    "isLoop": false,
+    "aniTime_SN": 11333,
+    "totalFrame": 68,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10502366,
+        "hHalf_SN": 0,
+        "triggerFrame": 20,
+        "triggerTime_SN": 3333,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11105970,
+        "offsetX": 0.0,
+        "offsetY": 0.2,
+        "triggerFrame": 16,
+        "triggerTime_SN": 2667
+      }
+    ],
+    "soundList": [
+      {
+        "soundId": 30005234,
+        "triggerFrame": 18,
+        "triggerTime_SN": 3000
+      }
+    ],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203736,
+    "idCN": "敌方/000角色/学会/丽桑德拉/昏迷",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "System",
+    "viewId": 11000078,
+    "aniName": "stun",
+    "isLoop": false,
+    "aniTime_SN": 20167,
+    "totalFrame": 121,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [],
+    "effectList": [],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203738,
+    "idCN": "敌方/000角色/学会/丽桑德拉/A-2",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "NormalSkill",
+    "viewId": 11000078,
+    "aniName": "skill_01_03",
+    "isLoop": false,
+    "aniTime_SN": 18500,
+    "totalFrame": 111,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10502369,
+        "hHalf_SN": 10000,
+        "triggerFrame": 38,
+        "triggerTime_SN": 6333,
+        "wHalf_SN": 20000,
+        "x_SN": 20000,
+        "y_SN": 10000
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11100114
+      },
+      {
+        "effectId": 11106030,
+        "offsetX": -1.8,
+        "offsetY": 3.0,
+        "triggerFrame": 6,
+        "triggerTime_SN": 1000
+      },
+      {
+        "effectId": 11106070,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11106072,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 38,
+        "triggerTime_SN": 6333
+      }
+    ],
+    "soundList": [
+      {
+        "soundId": 30005230,
+        "triggerFrame": 20,
+        "triggerTime_SN": 3333
+      },
+      {
+        "soundId": 30005231,
+        "triggerFrame": 38,
+        "triggerTime_SN": 6333
+      }
+    ],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203739,
+    "idCN": "敌方/000角色/学会/丽桑德拉/S起跳",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "SpecialSkill",
+    "viewId": 11000078,
+    "aniName": "skill_03_01",
+    "isLoop": false,
+    "aniTime_SN": 7500,
+    "totalFrame": 45,
+    "customFrameTag": "",
+    "frameChanged": true,
+    "frameEventList": [],
+    "effectList": [
+      {
+        "effectId": 11106074,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11105092,
+        "offsetX": -0.84,
+        "offsetY": 2.0,
+        "triggerFrame": 10,
+        "triggerTime_SN": 1667
+      },
+      {
+        "effectId": 11106055,
+        "offsetX": 1.25,
+        "offsetY": 1.5,
+        "triggerFrame": 10,
+        "triggerTime_SN": 1667
+      }
+    ],
+    "soundList": [
+      {
+        "soundId": 30002965,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      },
+      {
+        "soundId": 30005246,
+        "triggerFrame": 24,
+        "triggerTime_SN": 4000
+      },
+      {
+        "soundId": 30005237
+      }
+    ],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203734,
+    "idCN": "敌方/000角色/学会/丽桑德拉/受击2",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "Hit",
+    "viewId": 11000078,
+    "aniName": "injure_02",
+    "isLoop": false,
+    "aniTime_SN": 6666,
+    "totalFrame": 40,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [],
+    "effectList": [],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203735,
+    "idCN": "敌方/000角色/学会/丽桑德拉/移动",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "Move",
+    "viewId": 11000078,
+    "aniName": "run",
+    "isLoop": false,
+    "aniTime_SN": 6833,
+    "totalFrame": 41,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [],
+    "effectList": [],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 1000,
     "speedY_SN": 0,
     "keyFrameList": [],
     "isSetSortingOrder": false,

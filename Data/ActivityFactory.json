@@ -966,16 +966,23 @@
     "correspondingCity": [],
     "correspondingBuild": [],
     "isJoin": false,
+    "isOnly": -1,
     "questId": -1,
+    "unlockTips": -1,
     "isTime": true,
     "startTime": "2024-05-01 05:00:00",
     "endTime": "2024-05-08 04:59:00",
     "rewardEndTime": "2024-05-15 04:59:00",
+    "replicateNum": 1,
+    "isClearCurrency": false,
+    "clearCurrencyList": [],
+    "allScheduleRefreshTime": 60,
     "rewardPreviewList": [],
     "activityStoreList": [],
     "joinPlotId": -1,
     "joinQuestId": -1,
     "signinId": 40100006,
+    "city": -1,
     "activityCardPack": -1,
     "signIcon": "UI/Activity/GoldenWeek/SignIn/Icon-Title",
     "timeLineColor": "D2784C",
@@ -995,7 +1002,17 @@
     "signedBottom": "UI/Activity/GoldenWeek/SignIn/Bottom/Btn-Signed",
     "signMask": "",
     "rewardBG": "UI/Activity/GoldenWeek/SignIn/bg/BG-ItemSign",
-    "rewardSBG": "UI/Activity/GoldenWeek/SignIn/bg/BG-ItemSign"
+    "rewardSBG": "UI/Activity/GoldenWeek/SignIn/bg/BG-ItemSign",
+    "rewardNotBG": "",
+    "isNew": false,
+    "setType": ",",
+    "unSignInColor": "FFFFFF",
+    "signColor": "FFFFFF",
+    "signedColor": "FFFFFF",
+    "signTitleAboveC": -1,
+    "signTitleBottomC": -1,
+    "signTitleAboveE": -1,
+    "signTitleBottomE": -1
   },
   {
     "id": 86000010,
@@ -1811,21 +1828,28 @@
     "idCN": "常驻/海岛活动",
     "mod": "夏日活动",
     "isInformalData": false,
-    "name": "乘员逸闻",
+    "name": "",
     "showUI": "UI/Activity/Summer/IslandActivity/IslandActivity",
     "bgPath": "",
     "bgColor": "FFFFFF",
     "npcId": -1,
-    "helpId": 80300305,
-    "voiceActivity": 30002382,
+    "helpId": 80303793,
+    "voiceActivity": 30005390,
     "correspondingCity": [],
-    "correspondingBuild": [],
+    "correspondingBuild": [
+      {
+        "id": 84400087
+      },
+      {
+        "id": -1
+      }
+    ],
     "isJoin": true,
     "isOnly": -1,
     "questId": 81000962,
     "unlockTips": 80607836,
     "isTime": false,
-    "startTime": "2024-08-29 12:00:00",
+    "startTime": "2024-09-05 12:00:00",
     "endTime": "",
     "rewardEndTime": "",
     "replicateNum": 1,
@@ -1887,7 +1911,7 @@
     "PersonalProgressList": [],
     "city": -1,
     "levelQuestLimit": 81001328,
-    "levelEndTime": "2024-09-29 12:00:00",
+    "levelEndTime": "",
     "correspondingScene": 87300002,
     "correspondingFurniture": 81300437,
     "correspondingConfig": 99900067,
@@ -1933,150 +1957,42 @@
     "continueTime": 10,
     "returnSignIn": 40100010,
     "returnTask": [
-      {
-        "num": 1,
-        "task": 81001361
-      },
-      {
-        "num": 1,
-        "task": 81001362
-      },
-      {
-        "num": 1,
-        "task": 81001363
-      },
-      {
-        "num": 1,
-        "task": 81001364
-      },
-      {
-        "num": 1,
-        "task": 81001365
-      },
-      {
-        "num": 1,
-        "task": 81001372
-      },
-      {
-        "num": 1,
-        "task": 81001373
-      },
-      {
-        "num": 1,
-        "task": 81001374
-      },
-      {
-        "num": 1,
-        "task": 81001387
-      },
-      {
-        "num": 1,
-        "task": 81001389
-      },
-      {
-        "num": 1,
-        "task": 81001385
-      },
-      {
-        "num": 1,
-        "task": 81001386
-      },
-      {
-        "num": 1,
-        "task": 81001375
-      },
-      {
-        "num": 1,
-        "task": 81001376
-      },
-      {
-        "num": 1,
-        "task": 81001377
-      },
-      {
-        "num": 1,
-        "task": 81001378
-      },
-      {
-        "num": 1,
-        "task": 81001366
-      },
-      {
-        "num": 1,
-        "task": 81001367
-      },
-      {
-        "num": 1,
-        "task": 81001368
-      },
-      {
-        "num": 1,
-        "task": 81001379
-      },
-      {
-        "num": 1,
-        "task": 81001380
-      },
-      {
-        "num": 1,
-        "task": 81001381
-      },
-      {
-        "num": 1,
-        "task": 81001393
-      },
-      {
-        "num": 1,
-        "task": 81001394
-      },
-      {
-        "num": 1,
-        "task": 81001382
-      },
-      {
-        "num": 1,
-        "task": 81001383
-      },
-      {
-        "num": 1,
-        "task": 81001384
-      },
-      {
-        "num": 1,
-        "task": 81001395
-      },
-      {
-        "num": 1,
-        "task": 81001396
-      },
-      {
-        "num": 1,
-        "task": 81001397
-      },
-      {
-        "num": 1,
-        "task": 81001390
-      },
-      {
-        "num": 1,
-        "task": 81001391
-      },
-      {
-        "num": 1,
-        "task": 81001392
-      },
-      {
-        "num": 1,
-        "task": 81001369
-      },
-      {
-        "num": 1,
-        "task": 81001370
-      },
-      {
-        "num": 1,
-        "task": 81001371
-      }
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {}
     ],
     "returnTaskRewards": [
       {
@@ -2101,15 +2017,9 @@
       }
     ],
     "returnBuffList": [
-      {
-        "buff": 84100163
-      },
-      {
-        "buff": 84100162
-      },
-      {
-        "buff": 84100134
-      }
+      {},
+      {},
+      {}
     ],
     "returnNewsList": [
       {

@@ -487,7 +487,6 @@
     "bgColor": "FFFFFF",
     "stationId": 83000002,
     "npcId": 83700091,
-    "favorability": false,
     "helpId": -1,
     "rankId": -1,
     "correspondingActivity": -1,
@@ -517,7 +516,7 @@
       }
     ],
     "triggerPlot": -1,
-    "triggerQuest": -1,
+    "triggerQuest": 81001401,
     "tagOnPath": "UI/Home/HomeSafe/Level/tag_on",
     "tagOffPath": "UI/Home/HomeSafe/Level/tag_off",
     "expelBgPath": "UI/Home/HomeSafe/Level/di_level",
@@ -526,7 +525,8 @@
     "shareLevelNumMax": 10,
     "changeRefreshTime": 10,
     "returnCoefficient": 0.7,
-    "exchangeBuildId": 84400022
+    "exchangeBuildId": 84400022,
+    "favorability": false
   },
   {
     "id": 84400012,
@@ -803,7 +803,6 @@
     "bgColor": "FFFFFF",
     "stationId": 83000010,
     "npcId": 83700056,
-    "favorability": false,
     "helpId": -1,
     "rankId": -1,
     "correspondingActivity": -1,
@@ -875,7 +874,8 @@
     "shareLevelNumMax": 10,
     "changeRefreshTime": 10,
     "returnCoefficient": 0.7,
-    "exchangeBuildId": 84400022
+    "exchangeBuildId": 84400022,
+    "favorability": false
   },
   {
     "id": 84400015,
@@ -17397,7 +17397,7 @@
     "bgPath": "UI/Building/Shop_Island/BG",
     "bgColor": "FFFFFF",
     "stationId": 83000002,
-    "npcId": 83700092,
+    "npcId": 83700093,
     "helpId": -1,
     "rankId": -1,
     "correspondingActivity": -1,
@@ -17420,7 +17420,7 @@
     ],
     "exchangeWeaponList": [],
     "isShowConstruct": false,
-    "isShowReputation": true,
+    "isShowReputation": false,
     "exchangeName": "海岛兑换",
     "buildingPath": "UI/Common/Common_icon_camp_8",
     "exchangePath": "UI/HomeBattleCenter/Exchange/icon_coc",
@@ -17505,7 +17505,7 @@
       {
         "icon": "UI/HomeBattleCenter/icon_exchange",
         "name": "营运收益",
-        "showUI": "UI/ParkRevenue/Group_Income"
+        "showUI": ""
       },
       {
         "icon": "UI/Home/HomeSafe/jiaotan",
