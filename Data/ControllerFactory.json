@@ -18048,7 +18048,7 @@
   {
     "id": 10300446,
     "idCN": "敌方/000角色/学会/参宿一",
-    "mod": "卡牌AI",
+    "mod": "基础AI",
     "isInformalData": false,
     "targetInvisibleEffectId": -1,
     "effectOffsetX": 0.0,
@@ -18160,6 +18160,167 @@
     ],
     "energyRestorePerFrameSN": 220,
     "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300449,
+    "idCN": "敌方/000角色/学会/达斯廷",
+    "mod": "卡牌AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": -1,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10103314
+      },
+      {
+        "actionID": 10103315
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10103309,
+        "activeFrame": 242,
+        "activeTime": 1.0,
+        "rangeSN": 30000
+      },
+      {
+        "actionId": 10103311,
+        "activeFrame": 542,
+        "activeTime": 1.0,
+        "rangeSN": 240000
+      }
+    ],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [],
+    "skillLoopDelayFrame": 219,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": true,
+    "energySkillList": [
+      {
+        "actionId": 10103312,
+        "isClearEnergy": true,
+        "rangeSN": 240000
+      }
+    ],
+    "energyRestorePerFrameSN": 370,
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300450,
+    "idCN": "深渊/02期/寒潮浮囊体-4",
+    "mod": "BOSSAI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10101550
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10102137,
+        "activeFrame": 240,
+        "activeTime": 4.0,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10102138,
+        "activeFrame": 960,
+        "activeTime": 16.0,
+        "rangeSN": -10000
+      }
+    ],
+    "isInvisibleBeforeShowUp": true,
+    "showupSkillList": [
+      {
+        "actionId": 10101547
+      }
+    ],
+    "skillLoopDelayFrame": 1080,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": true,
+    "energySkillList": [
+      {
+        "actionId": 10100497,
+        "isClearEnergy": true,
+        "rangeSN": -10000
+      }
+    ],
+    "energyRestorePerFrameSN": 320,
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300451,
+    "idCN": "深渊/02期/尘鸣游鳞-4",
+    "mod": "BOSSAI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10101401
+      },
+      {
+        "actionID": 10101398
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10101548,
+        "activeFrame": 480,
+        "activeTime": 8.0,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10101454,
+        "activeFrame": 960,
+        "activeTime": 16.0,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10101548,
+        "activeFrame": 1960,
+        "activeTime": 32.6667,
+        "rangeSN": -10000
+      }
+    ],
+    "isInvisibleBeforeShowUp": true,
+    "showupSkillList": [
+      {
+        "actionId": 10101233
+      }
+    ],
+    "skillLoopDelayFrame": 950,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": true,
+    "energySkillList": [
+      {
+        "actionId": 10103105,
+        "isClearEnergy": true,
+        "rangeSN": -10000
+      }
+    ],
+    "energyRestorePerFrameSN": 250,
+    "isSkillDelay": true,
     "minDelay": 120,
     "maxDelay": 360
   }

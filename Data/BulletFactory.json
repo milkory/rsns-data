@@ -2346,7 +2346,7 @@
   },
   {
     "id": 11200170,
-    "idCN": "我方/03星/菲妮娅/A半径2",
+    "idCN": "我方/03星/菲妮娅/原版/A半径2",
     "mod": "抛物线",
     "isInformalData": false,
     "bulletViewId": 11300008,
@@ -2371,6 +2371,15 @@
     "groundEffectList": [
       {
         "effectId": 11102516
+      },
+      {
+        "effectId": 11100345
+      },
+      {
+        "effectId": 11101699
+      },
+      {
+        "effectId": 11102529
       }
     ],
     "isGroundEffectUseHitTimes": false,
@@ -3357,7 +3366,7 @@
   },
   {
     "id": 11200202,
-    "idCN": "我方/03星/菲妮娅/普攻子弹",
+    "idCN": "我方/03星/菲妮娅/原版/普攻子弹",
     "mod": "追踪",
     "isInformalData": false,
     "bulletViewId": 11300118,
@@ -8991,7 +9000,7 @@
   },
   {
     "id": 11200389,
-    "idCN": "我方/03星/菲妮娅/A半径3",
+    "idCN": "我方/03星/菲妮娅/原版/A半径3",
     "mod": "抛物线",
     "isInformalData": false,
     "bulletViewId": 11300008,
@@ -9016,6 +9025,15 @@
     "groundEffectList": [
       {
         "effectId": 11102516
+      },
+      {
+        "effectId": 11100345
+      },
+      {
+        "effectId": 11101699
+      },
+      {
+        "effectId": 11102529
       }
     ],
     "isGroundEffectUseHitTimes": false,
@@ -13256,5 +13274,79 @@
     "intervalFrame": 0,
     "isDoBuffOnly": false,
     "isHitTargetOnly": false
+  },
+  {
+    "id": 11200505,
+    "idCN": "敌方/000角色/学会/达斯廷/天火子弹-悬浮",
+    "mod": "悬浮",
+    "isInformalData": false,
+    "disappearEffectList": [],
+    "appearEffectList": [
+      {
+        "effectId": 11106265
+      }
+    ],
+    "effectID": -1,
+    "hitSoundId": -1,
+    "scaleTag": "",
+    "suspendView": 11300190,
+    "frameEvent": 10502391,
+    "isForever": true,
+    "durationFrame": 1,
+    "isActive": true,
+    "showSoundId": 30002556,
+    "controllerIndex": 1
+  },
+  {
+    "id": 11200506,
+    "idCN": "敌方/000角色/学会/达斯廷/天火子弹-发射",
+    "mod": "抛物线",
+    "isInformalData": false,
+    "bulletViewId": 11300191,
+    "speedX_SN": 4500,
+    "disappearEffectList": [],
+    "appearEffectList": [],
+    "effectID": 11104585,
+    "hitSoundId": -1,
+    "scaleTag": "",
+    "ySpeedStart_SN": 2000,
+    "ySpeedOffSet_SN": 1000,
+    "isAddSpeedZ": false,
+    "durationMin": 1,
+    "damageRadius_SN": 20000,
+    "isFixedPosition": false,
+    "xOffSetStart_SN": 0,
+    "xOffSet_SN": 0,
+    "yOffSetStart_SN": 0,
+    "yOffSet_SN": 0,
+    "zOffSetStart_SN": 0,
+    "zOffSet_SN": 0,
+    "groundEffectList": [
+      {
+        "effectId": 11106266
+      }
+    ],
+    "isGroundEffectUseHitTimes": false,
+    "groundSoundId": 30002563,
+    "isGroundSoundUseHitTimes": false,
+    "envBuffId": 10412330,
+    "hitTimes": 1,
+    "hitTimesCustomTag": "",
+    "intervalFrame": 1,
+    "isDoBuffOnly": false,
+    "isHitTargetOnly": false
+  },
+  {
+    "id": 11200507,
+    "idCN": "我方/03星/菲妮娅/海的女儿/普攻子弹",
+    "mod": "追踪",
+    "isInformalData": false,
+    "bulletViewId": 11300306,
+    "speedX_SN": 1400,
+    "disappearEffectList": [],
+    "appearEffectList": [],
+    "effectID": 11106175,
+    "hitSoundId": 30001190,
+    "scaleTag": ""
   }
 ]
