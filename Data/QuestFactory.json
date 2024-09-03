@@ -1496,7 +1496,8 @@
     "isTime": false,
     "startTime": "",
     "endTime": "",
-    "correspondActivity": -1
+    "correspondActivity": -1,
+    "returnNum": 1
   },
   {
     "id": 81000029,
@@ -21086,7 +21087,8 @@
     "isOverwriteEvent": false,
     "eventList": [],
     "environmentList": [],
-    "correspondActivity": -1
+    "correspondActivity": -1,
+    "returnNum": 1
   },
   {
     "id": 81000477,
@@ -54815,25 +54817,41 @@
     "mod": "基础任务",
     "isInformalData": false,
     "name": "日常任务",
-    "story": "",
     "describe": "在休息区的黑月商店购买1次桦石",
+    "story": "",
+    "questType": "Daily",
+    "sort": 20,
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
-    "questType": "Daily",
-    "sort": 20,
+    "isAnecdote": false,
+    "client": -1,
+    "startStation": -1,
+    "endStationList": [],
+    "isAutoTrace": false,
+    "traceList": [],
     "isSwitchUI": true,
     "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
     "conditionList": [
       {
         "key": "buyItem",
         "val": "11400005"
+      },
+      {
+        "key": "shopId",
+        "val": "40300012"
       }
     ],
     "num": 1,
     "islockAddProgress": false,
     "isAutoComplete": false,
     "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
     "parentQuest": -1,
     "childQuestList": [],
     "rewardsList": [
@@ -54842,16 +54860,18 @@
         "num": 2
       }
     ],
-    "startStation": -1,
-    "endStationList": [],
-    "client": -1,
     "nextQuest": [],
     "changeCityStateList": [],
+    "mailList": [],
     "isEvent": false,
     "isOverwriteEvent": false,
     "eventList": [],
     "environmentList": [],
-    "traceList": []
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1,
+    "returnNum": 1
   },
   {
     "id": 81000055,
@@ -86043,7 +86063,7 @@
     "isInformalData": false,
     "name": "特别竞赛·金箔",
     "describe": "制造100个金箔并卖出获得利润",
-    "story": "哼哼，本少爷已经掌握了最新最强的金箔压制技术……一定能比你先卖出100张金箔！\r\\n【金箔可以在交易所卖出】",
+    "story": "哼哼，本少爷已经掌握了最新最强的金箔压制技术……一定能比你先卖出100张金箔！\r\n\\n【金箔可以在交易所卖出】",
     "questType": "Side",
     "sort": 0,
     "isShowProgress": true,
@@ -86099,7 +86119,7 @@
     "isInformalData": false,
     "name": "特别竞赛·镀金零件",
     "describe": "制造100个镀金零件并出售获得收益",
-    "story": "可恶，你居然也想到制作金箔来提升列车组收益……不过本少爷已经想到了新的致胜之法！我要去淘金乐园向那些机器人提供100个镀金零件！\r\\n【镀金零件可以在淘金乐园的金子小姐处出售】",
+    "story": "可恶，你居然也想到制作金箔来提升列车组收益……不过本少爷已经想到了新的致胜之法！我要去淘金乐园向那些机器人提供100个镀金零件！\r\n\\n【镀金零件可以在淘金乐园的金子小姐处出售】",
     "questType": "Side",
     "sort": 0,
     "isShowProgress": true,
@@ -86155,7 +86175,7 @@
     "isInformalData": false,
     "name": "特别竞赛·纯金线材",
     "describe": "制造100个纯金线材并卖出获得利润",
-    "story": "虽然在之前的竞赛里输给你了……但我可不会甘居人后！想证明实力的话，就来和我竞争纯金线材的出货量吧！有本事就卖出100个！\r\\n【纯金线材可以在交易所卖出】",
+    "story": "虽然在之前的竞赛里输给你了……但我可不会甘居人后！想证明实力的话，就来和我竞争纯金线材的出货量吧！有本事就卖出100个！\r\n\\n【纯金线材可以在交易所卖出】",
     "questType": "Side",
     "sort": 0,
     "isShowProgress": true,
@@ -86211,7 +86231,7 @@
     "isInformalData": false,
     "name": "特别竞赛·纯金零件",
     "describe": "制造100个纯金零件并出售获得收益",
-    "story": "……真是败给你了……但我可不会这么轻易认输！就用最高级的纯金零件来一决胜负吧，比比谁能先向那个金子机器人卖出100个纯金零件！\r\\n【纯金零件可以在淘金乐园的金子小姐处出售】",
+    "story": "……真是败给你了……但我可不会这么轻易认输！就用最高级的纯金零件来一决胜负吧，比比谁能先向那个金子机器人卖出100个纯金零件！\r\n\\n【纯金零件可以在淘金乐园的金子小姐处出售】",
     "questType": "Side",
     "sort": 0,
     "isShowProgress": true,
@@ -86274,7 +86294,7 @@
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
     "isAnecdote": false,
-    "client": 82600002,
+    "client": 82600474,
     "startStation": 83000002,
     "endStationList": [
       {
@@ -86337,7 +86357,8 @@
     "isTime": false,
     "startTime": "",
     "endTime": "",
-    "correspondActivity": -1
+    "correspondActivity": -1,
+    "returnNum": 1
   },
   {
     "id": 81001320,
@@ -86353,7 +86374,7 @@
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
     "isAnecdote": false,
-    "client": 82600296,
+    "client": 82600002,
     "startStation": 83000002,
     "endStationList": [
       {
@@ -86416,7 +86437,8 @@
     "isTime": false,
     "startTime": "",
     "endTime": "",
-    "correspondActivity": -1
+    "correspondActivity": -1,
+    "returnNum": 1
   },
   {
     "id": 81001321,
@@ -86432,7 +86454,7 @@
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
     "isAnecdote": false,
-    "client": 82600015,
+    "client": 82600546,
     "startStation": 83000002,
     "endStationList": [
       {
@@ -86495,7 +86517,8 @@
     "isTime": false,
     "startTime": "",
     "endTime": "",
-    "correspondActivity": -1
+    "correspondActivity": -1,
+    "returnNum": 1
   },
   {
     "id": 81001322,
@@ -86511,7 +86534,7 @@
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
     "isAnecdote": false,
-    "client": 82600296,
+    "client": 82600015,
     "startStation": 83000002,
     "endStationList": [
       {
@@ -86574,7 +86597,8 @@
     "isTime": false,
     "startTime": "",
     "endTime": "",
-    "correspondActivity": -1
+    "correspondActivity": -1,
+    "returnNum": 1
   },
   {
     "id": 81001323,
@@ -86653,7 +86677,8 @@
     "isTime": false,
     "startTime": "",
     "endTime": "",
-    "correspondActivity": -1
+    "correspondActivity": -1,
+    "returnNum": 1
   },
   {
     "id": 81001324,
@@ -86718,11 +86743,7 @@
         "num": 50
       }
     ],
-    "nextQuest": [
-      {
-        "id": 81001325
-      }
-    ],
+    "nextQuest": [],
     "changeCityStateList": [],
     "mailList": [],
     "isEvent": false,
@@ -86732,7 +86753,8 @@
     "isTime": false,
     "startTime": "",
     "endTime": "",
-    "correspondActivity": -1
+    "correspondActivity": -1,
+    "returnNum": 1
   },
   {
     "id": 81001325,
@@ -86811,15 +86833,16 @@
     "isTime": false,
     "startTime": "",
     "endTime": "",
-    "correspondActivity": -1
+    "correspondActivity": -1,
+    "returnNum": 1
   },
   {
     "id": 81001326,
-    "idCN": "活动/夏活/支线/任务8",
+    "idCN": "活动/夏活/支线/任务8-装扮",
     "mod": "基础任务",
     "isInformalData": false,
     "name": "【活动】任务8",
-    "describe": "购买并放置一个冷饮柜",
+    "describe": "购买并放置一个标准告示牌",
     "story": "",
     "questType": "Side",
     "sort": 12,
@@ -86845,7 +86868,7 @@
     "conditionList": [
       {
         "key": "furnitureId",
-        "val": "81300424"
+        "val": "81300411"
       }
     ],
     "num": 1,
@@ -86877,7 +86900,8 @@
     "isTime": false,
     "startTime": "",
     "endTime": "",
-    "correspondActivity": -1
+    "correspondActivity": -1,
+    "returnNum": 1
   },
   {
     "id": 81001327,
@@ -86943,11 +86967,12 @@
     "isTime": false,
     "startTime": "",
     "endTime": "",
-    "correspondActivity": -1
+    "correspondActivity": -1,
+    "returnNum": 1
   },
   {
     "id": 81001328,
-    "idCN": "活动/夏活/支线/任务12",
+    "idCN": "活动/夏活/支线/任务12-升级",
     "mod": "基础任务",
     "isInformalData": false,
     "name": "【活动】12",
@@ -87009,7 +87034,8 @@
     "isTime": false,
     "startTime": "",
     "endTime": "",
-    "correspondActivity": -1
+    "correspondActivity": -1,
+    "returnNum": 1
   },
   {
     "id": 81001329,
@@ -87017,7 +87043,7 @@
     "mod": "基础任务",
     "isInformalData": false,
     "name": "【活动】13",
-    "describe": "购买并放置一个刨冰机",
+    "describe": "购买并放置一个西瓜摊",
     "story": "",
     "questType": "Side",
     "sort": 12,
@@ -87043,7 +87069,7 @@
     "conditionList": [
       {
         "key": "furnitureId",
-        "val": "81300425"
+        "val": "81300426"
       }
     ],
     "num": 1,
@@ -87075,11 +87101,12 @@
     "isTime": false,
     "startTime": "",
     "endTime": "",
-    "correspondActivity": -1
+    "correspondActivity": -1,
+    "returnNum": 1
   },
   {
     "id": 81001330,
-    "idCN": "活动/夏活/支线/任务14",
+    "idCN": "活动/夏活/支线/任务14-升级",
     "mod": "基础任务",
     "isInformalData": false,
     "name": "【活动】14",
@@ -87141,7 +87168,8 @@
     "isTime": false,
     "startTime": "",
     "endTime": "",
-    "correspondActivity": -1
+    "correspondActivity": -1,
+    "returnNum": 1
   },
   {
     "id": 81001331,
@@ -87149,7 +87177,7 @@
     "mod": "基础任务",
     "isInformalData": false,
     "name": "【活动】15",
-    "describe": "购买并放置一个西瓜摊",
+    "describe": "购买并放置一个冰淇淋摊",
     "story": "",
     "questType": "Side",
     "sort": 12,
@@ -87175,7 +87203,7 @@
     "conditionList": [
       {
         "key": "furnitureId",
-        "val": "81300426"
+        "val": "81300428"
       }
     ],
     "num": 1,
@@ -87207,7 +87235,8 @@
     "isTime": false,
     "startTime": "",
     "endTime": "",
-    "correspondActivity": -1
+    "correspondActivity": -1,
+    "returnNum": 1
   },
   {
     "id": 81001332,
@@ -87273,11 +87302,12 @@
     "isTime": false,
     "startTime": "",
     "endTime": "",
-    "correspondActivity": -1
+    "correspondActivity": -1,
+    "returnNum": 1
   },
   {
     "id": 81001333,
-    "idCN": "活动/夏活/支线/任务17",
+    "idCN": "活动/夏活/支线/任务17-升级",
     "mod": "基础任务",
     "isInformalData": false,
     "name": "【活动】17",
@@ -87339,7 +87369,8 @@
     "isTime": false,
     "startTime": "",
     "endTime": "",
-    "correspondActivity": -1
+    "correspondActivity": -1,
+    "returnNum": 1
   },
   {
     "id": 81001334,
@@ -87373,7 +87404,7 @@
     "conditionList": [
       {
         "key": "furnitureId",
-        "val": "81300429"
+        "val": "81300427"
       }
     ],
     "num": 1,
@@ -87405,11 +87436,12 @@
     "isTime": false,
     "startTime": "",
     "endTime": "",
-    "correspondActivity": -1
+    "correspondActivity": -1,
+    "returnNum": 1
   },
   {
     "id": 81001335,
-    "idCN": "活动/夏活/支线/任务19",
+    "idCN": "活动/夏活/支线/任务19-升级",
     "mod": "基础任务",
     "isInformalData": false,
     "name": "【活动】19",
@@ -87471,7 +87503,8 @@
     "isTime": false,
     "startTime": "",
     "endTime": "",
-    "correspondActivity": -1
+    "correspondActivity": -1,
+    "returnNum": 1
   },
   {
     "id": 81001336,
@@ -87479,7 +87512,7 @@
     "mod": "基础任务",
     "isInformalData": false,
     "name": "【活动】20",
-    "describe": "购买并放置一个纪念品摊",
+    "describe": "购买并放置一个饮料摊",
     "story": "",
     "questType": "Side",
     "sort": 12,
@@ -87537,7 +87570,8 @@
     "isTime": false,
     "startTime": "",
     "endTime": "",
-    "correspondActivity": -1
+    "correspondActivity": -1,
+    "returnNum": 1
   },
   {
     "id": 81001337,
@@ -87603,11 +87637,12 @@
     "isTime": false,
     "startTime": "",
     "endTime": "",
-    "correspondActivity": -1
+    "correspondActivity": -1,
+    "returnNum": 1
   },
   {
     "id": 81001338,
-    "idCN": "活动/夏活/支线/任务22",
+    "idCN": "活动/夏活/支线/任务22-升级",
     "mod": "基础任务",
     "isInformalData": false,
     "name": "【活动】22",
@@ -87669,7 +87704,8 @@
     "isTime": false,
     "startTime": "",
     "endTime": "",
-    "correspondActivity": -1
+    "correspondActivity": -1,
+    "returnNum": 1
   },
   {
     "id": 81001339,
@@ -87731,7 +87767,8 @@
     "isTime": false,
     "startTime": "",
     "endTime": "",
-    "correspondActivity": -1
+    "correspondActivity": -1,
+    "returnNum": 1
   },
   {
     "id": 81001340,
@@ -87797,7 +87834,8 @@
     "isTime": false,
     "startTime": "",
     "endTime": "",
-    "correspondActivity": -1
+    "correspondActivity": -1,
+    "returnNum": 1
   },
   {
     "id": 81001341,
@@ -87877,7 +87915,8 @@
     "isTime": false,
     "startTime": "",
     "endTime": "",
-    "correspondActivity": -1
+    "correspondActivity": -1,
+    "returnNum": 1
   },
   {
     "id": 81001342,
@@ -88471,7 +88510,7 @@
     ],
     "nextQuest": [
       {
-        "id": 81001353
+        "id": 81001327
       }
     ],
     "changeCityStateList": [],
@@ -88483,15 +88522,16 @@
     "isTime": false,
     "startTime": "",
     "endTime": "",
-    "correspondActivity": -1
+    "correspondActivity": -1,
+    "returnNum": 1
   },
   {
     "id": 81001353,
-    "idCN": "活动/夏活/支线/任务10",
+    "idCN": "活动/夏活/支线/任务10-废弃",
     "mod": "基础任务",
     "isInformalData": false,
     "name": "【活动】10",
-    "describe": "购买并放置一个冷饮柜",
+    "describe": "",
     "story": "",
     "questType": "Side",
     "sort": 12,
@@ -88549,7 +88589,8 @@
     "isTime": false,
     "startTime": "",
     "endTime": "",
-    "correspondActivity": -1
+    "correspondActivity": -1,
+    "returnNum": 1
   },
   {
     "id": 81001286,
@@ -88614,7 +88655,8 @@
     "preLevel": [],
     "correspondActivity": 86000017,
     "buffActivate": -1,
-    "showType": "Txt"
+    "showType": "Txt",
+    "returnNum": 10
   },
   {
     "id": 81001355,
@@ -88659,6 +88701,14 @@
       {
         "id": 11400001,
         "num": 50
+      },
+      {
+        "id": 11400267,
+        "num": 100
+      },
+      {
+        "id": 86300004,
+        "num": 1
       }
     ],
     "nextQuest": [
@@ -88675,15 +88725,16 @@
     "isTime": false,
     "startTime": "",
     "endTime": "",
-    "correspondActivity": -1
+    "correspondActivity": -1,
+    "returnNum": 1
   },
   {
     "id": 81001354,
-    "idCN": "活动/夏活/支线/任务23",
+    "idCN": "活动/夏活/支线/任务23-装扮",
     "mod": "基础任务",
     "isInformalData": false,
     "name": "【活动】23",
-    "describe": "解锁门口沙滩区域",
+    "describe": "购买并一个纪念品摊",
     "story": "",
     "questType": "Side",
     "sort": 12,
@@ -88708,8 +88759,8 @@
     "startLevel": 0,
     "conditionList": [
       {
-        "key": "dialog",
-        "val": "0"
+        "key": "furnitureId",
+        "val": "81300430"
       }
     ],
     "num": 1,
@@ -88741,7 +88792,8 @@
     "isTime": false,
     "startTime": "",
     "endTime": "",
-    "correspondActivity": -1
+    "correspondActivity": -1,
+    "returnNum": 1
   },
   {
     "id": 81001357,
@@ -88798,7 +88850,8 @@
     "isTime": false,
     "startTime": "",
     "endTime": "",
-    "correspondActivity": -1
+    "correspondActivity": -1,
+    "returnNum": 1
   },
   {
     "id": 81001356,
@@ -88855,7 +88908,8 @@
     "isTime": false,
     "startTime": "",
     "endTime": "",
-    "correspondActivity": -1
+    "correspondActivity": -1,
+    "returnNum": 1
   },
   {
     "id": 81001358,
@@ -88912,7 +88966,8 @@
     "isTime": false,
     "startTime": "",
     "endTime": "",
-    "correspondActivity": -1
+    "correspondActivity": -1,
+    "returnNum": 1
   },
   {
     "id": 81001359,
@@ -88969,7 +89024,8 @@
     "isTime": false,
     "startTime": "",
     "endTime": "",
-    "correspondActivity": -1
+    "correspondActivity": -1,
+    "returnNum": 1
   },
   {
     "id": 81001360,
@@ -89026,7 +89082,8 @@
     "isTime": false,
     "startTime": "",
     "endTime": "",
-    "correspondActivity": -1
+    "correspondActivity": -1,
+    "returnNum": 1
   },
   {
     "id": 81001388,
@@ -89087,7 +89144,8 @@
     "isTime": false,
     "startTime": "",
     "endTime": "",
-    "correspondActivity": -1
+    "correspondActivity": -1,
+    "returnNum": 1
   },
   {
     "id": 81001398,
@@ -89148,7 +89206,8 @@
     "isTime": false,
     "startTime": "",
     "endTime": "",
-    "correspondActivity": -1
+    "correspondActivity": -1,
+    "returnNum": 1
   },
   {
     "id": 81001399,
@@ -89209,7 +89268,8 @@
     "isTime": false,
     "startTime": "",
     "endTime": "",
-    "correspondActivity": -1
+    "correspondActivity": -1,
+    "returnNum": 1
   },
   {
     "id": 81001400,
@@ -89270,7 +89330,8 @@
     "isTime": false,
     "startTime": "",
     "endTime": "",
-    "correspondActivity": -1
+    "correspondActivity": -1,
+    "returnNum": 1
   },
   {
     "id": 81001361,
@@ -89314,6 +89375,14 @@
       {
         "id": 11400213,
         "num": 2
+      },
+      {
+        "id": 11700083,
+        "num": 2
+      },
+      {
+        "id": 11700150,
+        "num": 2
       }
     ],
     "nextQuest": [],
@@ -89331,7 +89400,8 @@
     "preLevel": [],
     "correspondActivity": 86000017,
     "buffActivate": -1,
-    "showType": "Txt"
+    "showType": "Txt",
+    "returnNum": 2
   },
   {
     "id": 81001362,
@@ -89375,6 +89445,14 @@
       {
         "id": 11400213,
         "num": 3
+      },
+      {
+        "id": 11700083,
+        "num": 2
+      },
+      {
+        "id": 11700150,
+        "num": 2
       }
     ],
     "nextQuest": [],
@@ -89392,7 +89470,8 @@
     "preLevel": [],
     "correspondActivity": 86000017,
     "buffActivate": -1,
-    "showType": "Txt"
+    "showType": "Txt",
+    "returnNum": 3
   },
   {
     "id": 81001363,
@@ -89436,6 +89515,14 @@
       {
         "id": 11400213,
         "num": 4
+      },
+      {
+        "id": 11700083,
+        "num": 2
+      },
+      {
+        "id": 11700150,
+        "num": 2
       }
     ],
     "nextQuest": [],
@@ -89453,7 +89540,8 @@
     "preLevel": [],
     "correspondActivity": 86000017,
     "buffActivate": -1,
-    "showType": "Txt"
+    "showType": "Txt",
+    "returnNum": 4
   },
   {
     "id": 81001364,
@@ -89497,6 +89585,14 @@
       {
         "id": 11400213,
         "num": 5
+      },
+      {
+        "id": 11700083,
+        "num": 2
+      },
+      {
+        "id": 11700150,
+        "num": 2
       }
     ],
     "nextQuest": [],
@@ -89514,7 +89610,8 @@
     "preLevel": [],
     "correspondActivity": 86000017,
     "buffActivate": -1,
-    "showType": "Txt"
+    "showType": "Txt",
+    "returnNum": 5
   },
   {
     "id": 81001365,
@@ -89558,6 +89655,14 @@
       {
         "id": 11400213,
         "num": 5
+      },
+      {
+        "id": 11400217,
+        "num": 1
+      },
+      {
+        "id": 11700150,
+        "num": 2
       }
     ],
     "nextQuest": [],
@@ -89575,7 +89680,8 @@
     "preLevel": [],
     "correspondActivity": 86000017,
     "buffActivate": -1,
-    "showType": "Txt"
+    "showType": "Txt",
+    "returnNum": 5
   },
   {
     "id": 81001366,
@@ -89614,6 +89720,14 @@
       {
         "id": 11400213,
         "num": 1
+      },
+      {
+        "id": 11700083,
+        "num": 2
+      },
+      {
+        "id": 11700150,
+        "num": 2
       }
     ],
     "nextQuest": [],
@@ -89631,7 +89745,8 @@
     "preLevel": [],
     "correspondActivity": 86000017,
     "buffActivate": -1,
-    "showType": "Txt"
+    "showType": "Txt",
+    "returnNum": 1
   },
   {
     "id": 81001367,
@@ -89670,6 +89785,14 @@
       {
         "id": 11400213,
         "num": 3
+      },
+      {
+        "id": 11700083,
+        "num": 2
+      },
+      {
+        "id": 11700150,
+        "num": 2
       }
     ],
     "nextQuest": [],
@@ -89687,7 +89810,8 @@
     "preLevel": [],
     "correspondActivity": 86000017,
     "buffActivate": -1,
-    "showType": "Txt"
+    "showType": "Txt",
+    "returnNum": 3
   },
   {
     "id": 81001368,
@@ -89726,6 +89850,14 @@
       {
         "id": 11400213,
         "num": 5
+      },
+      {
+        "id": 11400217,
+        "num": 1
+      },
+      {
+        "id": 11700150,
+        "num": 2
       }
     ],
     "nextQuest": [],
@@ -89743,7 +89875,8 @@
     "preLevel": [],
     "correspondActivity": 86000017,
     "buffActivate": -1,
-    "showType": "Txt"
+    "showType": "Txt",
+    "returnNum": 5
   },
   {
     "id": 81001369,
@@ -89787,6 +89920,14 @@
       {
         "id": 11400213,
         "num": 1
+      },
+      {
+        "id": 11700083,
+        "num": 2
+      },
+      {
+        "id": 11700150,
+        "num": 2
       }
     ],
     "nextQuest": [],
@@ -89804,7 +89945,8 @@
     "preLevel": [],
     "correspondActivity": 86000017,
     "buffActivate": -1,
-    "showType": "Txt"
+    "showType": "Txt",
+    "returnNum": 1
   },
   {
     "id": 81001370,
@@ -89848,6 +89990,14 @@
       {
         "id": 11400213,
         "num": 2
+      },
+      {
+        "id": 11700083,
+        "num": 2
+      },
+      {
+        "id": 11700150,
+        "num": 2
       }
     ],
     "nextQuest": [],
@@ -89865,7 +90015,8 @@
     "preLevel": [],
     "correspondActivity": 86000017,
     "buffActivate": -1,
-    "showType": "Txt"
+    "showType": "Txt",
+    "returnNum": 2
   },
   {
     "id": 81001371,
@@ -89909,127 +90060,13 @@
       {
         "id": 11400213,
         "num": 3
-      }
-    ],
-    "nextQuest": [],
-    "changeCityStateList": [],
-    "mailList": [],
-    "isEvent": false,
-    "isOverwriteEvent": false,
-    "eventList": [],
-    "environmentList": [],
-    "isTime": false,
-    "activityId": -1,
-    "startTime": "",
-    "endTime": "",
-    "preQuest": [],
-    "preLevel": [],
-    "correspondActivity": 86000017,
-    "buffActivate": -1,
-    "showType": "Txt"
-  },
-  {
-    "id": 81001372,
-    "idCN": "活动/回归/购买桦石1",
-    "mod": "活动任务",
-    "isInformalData": false,
-    "name": "购买桦石",
-    "describe": "在休息区的黑月商店购买1次桦石",
-    "story": "在休息区的黑月商店购买1次桦石",
-    "questType": "Activity",
-    "sort": 99,
-    "isShowProgress": false,
-    "isShowUnlock": false,
-    "isShowAchieveProgress": false,
-    "client": -1,
-    "startStation": -1,
-    "endStationList": [],
-    "isAutoTrace": false,
-    "traceList": [],
-    "isSwitchUI": false,
-    "switchUI": "",
-    "preQuestId": -1,
-    "preLv": 1,
-    "startLevel": 0,
-    "conditionList": [
+      },
       {
-        "key": "buyItem",
-        "val": "11400005"
-      }
-    ],
-    "num": 1,
-    "islockAddProgress": false,
-    "isAutoComplete": false,
-    "checkComplete": false,
-    "isShowReceive": false,
-    "isRefreshProgress": false,
-    "refreshType": "Level",
-    "parentQuest": -1,
-    "childQuestList": [],
-    "rewardsList": [
-      {
-        "id": 11400213,
+        "id": 11400217,
         "num": 1
-      }
-    ],
-    "nextQuest": [],
-    "changeCityStateList": [],
-    "mailList": [],
-    "isEvent": false,
-    "isOverwriteEvent": false,
-    "eventList": [],
-    "environmentList": [],
-    "isTime": false,
-    "activityId": -1,
-    "startTime": "",
-    "endTime": "",
-    "preQuest": [],
-    "preLevel": [],
-    "correspondActivity": 86000017,
-    "buffActivate": -1,
-    "showType": "Txt"
-  },
-  {
-    "id": 81001373,
-    "idCN": "活动/回归/购买桦石2",
-    "mod": "活动任务",
-    "isInformalData": false,
-    "name": "购买桦石",
-    "describe": "在休息区的黑月商店购买2次桦石",
-    "story": "在休息区的黑月商店购买2次桦石",
-    "questType": "Activity",
-    "sort": 99,
-    "isShowProgress": false,
-    "isShowUnlock": false,
-    "isShowAchieveProgress": false,
-    "client": -1,
-    "startStation": -1,
-    "endStationList": [],
-    "isAutoTrace": false,
-    "traceList": [],
-    "isSwitchUI": false,
-    "switchUI": "",
-    "preQuestId": -1,
-    "preLv": 1,
-    "startLevel": 0,
-    "conditionList": [
+      },
       {
-        "key": "buyItem",
-        "val": "11400005"
-      }
-    ],
-    "num": 2,
-    "islockAddProgress": false,
-    "isAutoComplete": false,
-    "checkComplete": false,
-    "isShowReceive": false,
-    "isRefreshProgress": false,
-    "refreshType": "Level",
-    "parentQuest": -1,
-    "childQuestList": [],
-    "rewardsList": [
-      {
-        "id": 11400213,
+        "id": 11700150,
         "num": 2
       }
     ],
@@ -90048,16 +90085,17 @@
     "preLevel": [],
     "correspondActivity": 86000017,
     "buffActivate": -1,
-    "showType": "Txt"
+    "showType": "Txt",
+    "returnNum": 3
   },
   {
-    "id": 81001374,
-    "idCN": "活动/回归/购买桦石3",
+    "id": 81001372,
+    "idCN": "活动/回归/购买桦石1",
     "mod": "活动任务",
     "isInformalData": false,
     "name": "购买桦石",
-    "describe": "在休息区的黑月商店购买3次桦石",
-    "story": "在休息区的黑月商店购买3次桦石",
+    "describe": "在休息区的黑月商店购买60桦石",
+    "story": "在休息区的黑月商店购买60桦石",
     "questType": "Activity",
     "sort": 99,
     "isShowProgress": false,
@@ -90077,9 +90115,13 @@
       {
         "key": "buyItem",
         "val": "11400005"
+      },
+      {
+        "key": "shopId",
+        "val": "40300012"
       }
     ],
-    "num": 3,
+    "num": 60,
     "islockAddProgress": false,
     "isAutoComplete": false,
     "checkComplete": false,
@@ -90091,7 +90133,15 @@
     "rewardsList": [
       {
         "id": 11400213,
-        "num": 3
+        "num": 1
+      },
+      {
+        "id": 11700083,
+        "num": 2
+      },
+      {
+        "id": 11700150,
+        "num": 2
       }
     ],
     "nextQuest": [],
@@ -90109,7 +90159,156 @@
     "preLevel": [],
     "correspondActivity": 86000017,
     "buffActivate": -1,
-    "showType": "Txt"
+    "showType": "Txt",
+    "returnNum": 1
+  },
+  {
+    "id": 81001373,
+    "idCN": "活动/回归/购买桦石2",
+    "mod": "活动任务",
+    "isInformalData": false,
+    "name": "购买桦石",
+    "describe": "在休息区的黑月商店购买120桦石",
+    "story": "在休息区的黑月商店购买120桦石",
+    "questType": "Activity",
+    "sort": 99,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "client": -1,
+    "startStation": -1,
+    "endStationList": [],
+    "isAutoTrace": false,
+    "traceList": [],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "buyItem",
+        "val": "11400005"
+      },
+      {
+        "key": "shopId",
+        "val": "40300012"
+      }
+    ],
+    "num": 120,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400213,
+        "num": 2
+      },
+      {
+        "id": 11700083,
+        "num": 2
+      },
+      {
+        "id": 11700150,
+        "num": 2
+      }
+    ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "activityId": -1,
+    "startTime": "",
+    "endTime": "",
+    "preQuest": [],
+    "preLevel": [],
+    "correspondActivity": 86000017,
+    "buffActivate": -1,
+    "showType": "Txt",
+    "returnNum": 2
+  },
+  {
+    "id": 81001374,
+    "idCN": "活动/回归/购买桦石3",
+    "mod": "活动任务",
+    "isInformalData": false,
+    "name": "购买桦石",
+    "describe": "在休息区的黑月商店购买180桦石",
+    "story": "在休息区的黑月商店购买180桦石",
+    "questType": "Activity",
+    "sort": 99,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "client": -1,
+    "startStation": -1,
+    "endStationList": [],
+    "isAutoTrace": false,
+    "traceList": [],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "buyItem",
+        "val": "11400005"
+      },
+      {
+        "key": "shopId",
+        "val": "40300012"
+      }
+    ],
+    "num": 180,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400213,
+        "num": 3
+      },
+      {
+        "id": 11400217,
+        "num": 1
+      },
+      {
+        "id": 11700150,
+        "num": 2
+      }
+    ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "activityId": -1,
+    "startTime": "",
+    "endTime": "",
+    "preQuest": [],
+    "preLevel": [],
+    "correspondActivity": 86000017,
+    "buffActivate": -1,
+    "showType": "Txt",
+    "returnNum": 3
   },
   {
     "id": 81001375,
@@ -90153,6 +90352,14 @@
       {
         "id": 11400213,
         "num": 2
+      },
+      {
+        "id": 11700083,
+        "num": 3
+      },
+      {
+        "id": 11700150,
+        "num": 3
       }
     ],
     "nextQuest": [],
@@ -90170,7 +90377,8 @@
     "preLevel": [],
     "correspondActivity": 86000017,
     "buffActivate": -1,
-    "showType": "Txt"
+    "showType": "Txt",
+    "returnNum": 2
   },
   {
     "id": 81001376,
@@ -90214,6 +90422,14 @@
       {
         "id": 11400213,
         "num": 3
+      },
+      {
+        "id": 11700083,
+        "num": 3
+      },
+      {
+        "id": 11700150,
+        "num": 3
       }
     ],
     "nextQuest": [],
@@ -90231,7 +90447,8 @@
     "preLevel": [],
     "correspondActivity": 86000017,
     "buffActivate": -1,
-    "showType": "Txt"
+    "showType": "Txt",
+    "returnNum": 3
   },
   {
     "id": 81001377,
@@ -90275,6 +90492,14 @@
       {
         "id": 11400213,
         "num": 5
+      },
+      {
+        "id": 11700083,
+        "num": 3
+      },
+      {
+        "id": 11700150,
+        "num": 3
       }
     ],
     "nextQuest": [],
@@ -90292,7 +90517,8 @@
     "preLevel": [],
     "correspondActivity": 86000017,
     "buffActivate": -1,
-    "showType": "Txt"
+    "showType": "Txt",
+    "returnNum": 5
   },
   {
     "id": 81001378,
@@ -90336,6 +90562,14 @@
       {
         "id": 11400213,
         "num": 6
+      },
+      {
+        "id": 11400217,
+        "num": 1
+      },
+      {
+        "id": 11700150,
+        "num": 3
       }
     ],
     "nextQuest": [],
@@ -90353,7 +90587,8 @@
     "preLevel": [],
     "correspondActivity": 86000017,
     "buffActivate": -1,
-    "showType": "Txt"
+    "showType": "Txt",
+    "returnNum": 6
   },
   {
     "id": 81001379,
@@ -90397,6 +90632,14 @@
       {
         "id": 11400213,
         "num": 3
+      },
+      {
+        "id": 11700083,
+        "num": 2
+      },
+      {
+        "id": 11700150,
+        "num": 2
       }
     ],
     "nextQuest": [],
@@ -90414,7 +90657,8 @@
     "preLevel": [],
     "correspondActivity": 86000017,
     "buffActivate": -1,
-    "showType": "Txt"
+    "showType": "Txt",
+    "returnNum": 3
   },
   {
     "id": 81001380,
@@ -90458,6 +90702,14 @@
       {
         "id": 11400213,
         "num": 5
+      },
+      {
+        "id": 11700083,
+        "num": 2
+      },
+      {
+        "id": 11700150,
+        "num": 2
       }
     ],
     "nextQuest": [],
@@ -90475,7 +90727,8 @@
     "preLevel": [],
     "correspondActivity": 86000017,
     "buffActivate": -1,
-    "showType": "Txt"
+    "showType": "Txt",
+    "returnNum": 5
   },
   {
     "id": 81001381,
@@ -90519,6 +90772,14 @@
       {
         "id": 11400213,
         "num": 7
+      },
+      {
+        "id": 11400217,
+        "num": 1
+      },
+      {
+        "id": 11700150,
+        "num": 2
       }
     ],
     "nextQuest": [],
@@ -90536,7 +90797,8 @@
     "preLevel": [],
     "correspondActivity": 86000017,
     "buffActivate": -1,
-    "showType": "Txt"
+    "showType": "Txt",
+    "returnNum": 7
   },
   {
     "id": 81001382,
@@ -90575,6 +90837,14 @@
       {
         "id": 11400213,
         "num": 3
+      },
+      {
+        "id": 11700083,
+        "num": 2
+      },
+      {
+        "id": 11700150,
+        "num": 2
       }
     ],
     "nextQuest": [],
@@ -90592,7 +90862,8 @@
     "preLevel": [],
     "correspondActivity": 86000017,
     "buffActivate": -1,
-    "showType": "Txt"
+    "showType": "Txt",
+    "returnNum": 3
   },
   {
     "id": 81001383,
@@ -90631,6 +90902,14 @@
       {
         "id": 11400213,
         "num": 5
+      },
+      {
+        "id": 11700083,
+        "num": 2
+      },
+      {
+        "id": 11700150,
+        "num": 2
       }
     ],
     "nextQuest": [],
@@ -90648,7 +90927,8 @@
     "preLevel": [],
     "correspondActivity": 86000017,
     "buffActivate": -1,
-    "showType": "Txt"
+    "showType": "Txt",
+    "returnNum": 5
   },
   {
     "id": 81001384,
@@ -90687,6 +90967,14 @@
       {
         "id": 11400213,
         "num": 10
+      },
+      {
+        "id": 11400217,
+        "num": 1
+      },
+      {
+        "id": 11700150,
+        "num": 2
       }
     ],
     "nextQuest": [],
@@ -90704,7 +90992,8 @@
     "preLevel": [],
     "correspondActivity": 86000017,
     "buffActivate": -1,
-    "showType": "Txt"
+    "showType": "Txt",
+    "returnNum": 10
   },
   {
     "id": 81001385,
@@ -90748,6 +91037,14 @@
       {
         "id": 11400213,
         "num": 2
+      },
+      {
+        "id": 11700083,
+        "num": 3
+      },
+      {
+        "id": 11700150,
+        "num": 3
       }
     ],
     "nextQuest": [],
@@ -90765,7 +91062,8 @@
     "preLevel": [],
     "correspondActivity": 86000017,
     "buffActivate": -1,
-    "showType": "Txt"
+    "showType": "Txt",
+    "returnNum": 2
   },
   {
     "id": 81001386,
@@ -90809,6 +91107,14 @@
       {
         "id": 11400213,
         "num": 2
+      },
+      {
+        "id": 11700083,
+        "num": 2
+      },
+      {
+        "id": 11700150,
+        "num": 2
       }
     ],
     "nextQuest": [],
@@ -90826,7 +91132,8 @@
     "preLevel": [],
     "correspondActivity": 86000017,
     "buffActivate": -1,
-    "showType": "Txt"
+    "showType": "Txt",
+    "returnNum": 2
   },
   {
     "id": 81001387,
@@ -90870,6 +91177,14 @@
       {
         "id": 11400213,
         "num": 5
+      },
+      {
+        "id": 11700083,
+        "num": 2
+      },
+      {
+        "id": 11700150,
+        "num": 2
       }
     ],
     "nextQuest": [],
@@ -90887,7 +91202,8 @@
     "preLevel": [],
     "correspondActivity": 86000017,
     "buffActivate": -1,
-    "showType": "Txt"
+    "showType": "Txt",
+    "returnNum": 5
   },
   {
     "id": 81001389,
@@ -90931,6 +91247,14 @@
       {
         "id": 11400213,
         "num": 8
+      },
+      {
+        "id": 11700083,
+        "num": 2
+      },
+      {
+        "id": 11700150,
+        "num": 2
       }
     ],
     "nextQuest": [],
@@ -90948,7 +91272,8 @@
     "preLevel": [],
     "correspondActivity": 86000017,
     "buffActivate": -1,
-    "showType": "Txt"
+    "showType": "Txt",
+    "returnNum": 8
   },
   {
     "id": 81001390,
@@ -90992,6 +91317,14 @@
       {
         "id": 11400213,
         "num": 2
+      },
+      {
+        "id": 11700083,
+        "num": 2
+      },
+      {
+        "id": 11700150,
+        "num": 2
       }
     ],
     "nextQuest": [],
@@ -91009,7 +91342,8 @@
     "preLevel": [],
     "correspondActivity": 86000017,
     "buffActivate": -1,
-    "showType": "Txt"
+    "showType": "Txt",
+    "returnNum": 2
   },
   {
     "id": 81001391,
@@ -91053,6 +91387,14 @@
       {
         "id": 11400213,
         "num": 5
+      },
+      {
+        "id": 11700083,
+        "num": 2
+      },
+      {
+        "id": 11700150,
+        "num": 2
       }
     ],
     "nextQuest": [],
@@ -91070,7 +91412,8 @@
     "preLevel": [],
     "correspondActivity": 86000017,
     "buffActivate": -1,
-    "showType": "Txt"
+    "showType": "Txt",
+    "returnNum": 5
   },
   {
     "id": 81001397,
@@ -91114,6 +91457,14 @@
       {
         "id": 11400213,
         "num": 4
+      },
+      {
+        "id": 11400217,
+        "num": 1
+      },
+      {
+        "id": 11700150,
+        "num": 2
       }
     ],
     "nextQuest": [],
@@ -91131,7 +91482,8 @@
     "preLevel": [],
     "correspondActivity": 86000017,
     "buffActivate": -1,
-    "showType": "Txt"
+    "showType": "Txt",
+    "returnNum": 4
   },
   {
     "id": 81001396,
@@ -91175,6 +91527,14 @@
       {
         "id": 11400213,
         "num": 3
+      },
+      {
+        "id": 11700083,
+        "num": 2
+      },
+      {
+        "id": 11700150,
+        "num": 2
       }
     ],
     "nextQuest": [],
@@ -91192,7 +91552,8 @@
     "preLevel": [],
     "correspondActivity": 86000017,
     "buffActivate": -1,
-    "showType": "Txt"
+    "showType": "Txt",
+    "returnNum": 3
   },
   {
     "id": 81001395,
@@ -91236,6 +91597,14 @@
       {
         "id": 11400213,
         "num": 2
+      },
+      {
+        "id": 11700083,
+        "num": 2
+      },
+      {
+        "id": 11700150,
+        "num": 2
       }
     ],
     "nextQuest": [],
@@ -91253,7 +91622,8 @@
     "preLevel": [],
     "correspondActivity": 86000017,
     "buffActivate": -1,
-    "showType": "Txt"
+    "showType": "Txt",
+    "returnNum": 2
   },
   {
     "id": 81001394,
@@ -91297,6 +91667,14 @@
       {
         "id": 11400213,
         "num": 5
+      },
+      {
+        "id": 11700083,
+        "num": 2
+      },
+      {
+        "id": 11700150,
+        "num": 2
       }
     ],
     "nextQuest": [],
@@ -91314,7 +91692,8 @@
     "preLevel": [],
     "correspondActivity": 86000017,
     "buffActivate": -1,
-    "showType": "Txt"
+    "showType": "Txt",
+    "returnNum": 5
   },
   {
     "id": 81001393,
@@ -91358,6 +91737,14 @@
       {
         "id": 11400213,
         "num": 3
+      },
+      {
+        "id": 11700083,
+        "num": 2
+      },
+      {
+        "id": 11700150,
+        "num": 2
       }
     ],
     "nextQuest": [],
@@ -91375,7 +91762,8 @@
     "preLevel": [],
     "correspondActivity": 86000017,
     "buffActivate": -1,
-    "showType": "Txt"
+    "showType": "Txt",
+    "returnNum": 3
   },
   {
     "id": 81001392,
@@ -91419,6 +91807,14 @@
       {
         "id": 11400213,
         "num": 10
+      },
+      {
+        "id": 11400217,
+        "num": 1
+      },
+      {
+        "id": 11700150,
+        "num": 2
       }
     ],
     "nextQuest": [],
@@ -91436,7 +91832,8 @@
     "preLevel": [],
     "correspondActivity": 86000017,
     "buffActivate": -1,
-    "showType": "Txt"
+    "showType": "Txt",
+    "returnNum": 10
   },
   {
     "id": 81001401,
@@ -91500,7 +91897,8 @@
     "isTime": false,
     "startTime": "",
     "endTime": "",
-    "correspondActivity": -1
+    "correspondActivity": -1,
+    "returnNum": 1
   },
   {
     "id": 81001402,
@@ -91564,7 +91962,8 @@
     "isTime": false,
     "startTime": "",
     "endTime": "",
-    "correspondActivity": -1
+    "correspondActivity": -1,
+    "returnNum": 1
   },
   {
     "id": 81001403,
@@ -91624,7 +92023,8 @@
     "isTime": false,
     "startTime": "",
     "endTime": "",
-    "correspondActivity": -1
+    "correspondActivity": -1,
+    "returnNum": 1
   },
   {
     "id": 81001404,
@@ -91685,27 +92085,28 @@
     "isTime": false,
     "startTime": "",
     "endTime": "",
-    "correspondActivity": -1
+    "correspondActivity": -1,
+    "returnNum": 1
   },
   {
     "id": 81001405,
     "idCN": "支线/铁安局系列/P_HJC_1",
     "mod": "基础任务",
     "isInformalData": false,
-    "name": "1",
-    "describe": "于7号自由港铁安局累计完成第一序列驱逐任务",
-    "story": "总有一些对现状心存不满的人开始制造麻烦，好在他们的威胁性并不算太大。",
+    "name": "海滨之梦",
+    "describe": "于海角城铁安局累计完成第一序列驱逐任务",
+    "story": "附近地区的深眠者开始了周期性活跃，请协助铁安局击退他们，减轻它们对城市的威胁。",
     "questType": "Side",
     "sort": 5,
     "isShowProgress": true,
     "isShowUnlock": true,
     "isShowAchieveProgress": true,
     "isAnecdote": false,
-    "client": 82600302,
-    "startStation": 83000020,
+    "client": 82600018,
+    "startStation": 83000002,
     "endStationList": [
       {
-        "id": 83000020,
+        "id": 83000002,
         "weight": 10
       }
     ],
@@ -91732,7 +92133,7 @@
     "conditionList": [
       {
         "key": "safeSideLevelList",
-        "val": "80300667"
+        "val": "80300715"
       }
     ],
     "num": 10,
@@ -91750,8 +92151,8 @@
         "num": 1
       },
       {
-        "id": 82900031,
-        "num": 7
+        "id": 82900024,
+        "num": 8
       },
       {
         "id": 11400063,
@@ -91768,27 +92169,28 @@
     "isTime": false,
     "startTime": "",
     "endTime": "",
-    "correspondActivity": -1
+    "correspondActivity": -1,
+    "returnNum": 1
   },
   {
     "id": 81001406,
     "idCN": "支线/铁安局系列/P_HJC_2",
     "mod": "基础任务",
     "isInformalData": false,
-    "name": "2",
-    "describe": "于7号自由港铁安局累计完成第一序列驱逐任务",
-    "story": "总有一些对现状心存不满的人开始制造麻烦，好在他们的威胁性并不算太大。",
+    "name": "不及掩耳",
+    "describe": "于海角城铁安局累计完成第二序列驱逐任务",
+    "story": "这些行动迅速的荒古桦树生物总会随着潮水一同在海岸上活动，请前去击退它们。",
     "questType": "Side",
     "sort": 5,
     "isShowProgress": true,
     "isShowUnlock": true,
     "isShowAchieveProgress": true,
     "isAnecdote": false,
-    "client": 82600302,
-    "startStation": 83000020,
+    "client": 82600018,
+    "startStation": 83000002,
     "endStationList": [
       {
-        "id": 83000020,
+        "id": 83000002,
         "weight": 10
       }
     ],
@@ -91815,7 +92217,7 @@
     "conditionList": [
       {
         "key": "safeSideLevelList",
-        "val": "80300667"
+        "val": "80300716"
       }
     ],
     "num": 10,
@@ -91833,8 +92235,8 @@
         "num": 1
       },
       {
-        "id": 82900031,
-        "num": 7
+        "id": 82900024,
+        "num": 8
       },
       {
         "id": 11400063,
@@ -91851,27 +92253,28 @@
     "isTime": false,
     "startTime": "",
     "endTime": "",
-    "correspondActivity": -1
+    "correspondActivity": -1,
+    "returnNum": 1
   },
   {
     "id": 81001407,
     "idCN": "支线/铁安局系列/P_HJC_3",
     "mod": "基础任务",
     "isInformalData": false,
-    "name": "3",
-    "describe": "于7号自由港铁安局累计完成第一序列驱逐任务",
-    "story": "总有一些对现状心存不满的人开始制造麻烦，好在他们的威胁性并不算太大。",
+    "name": "学以致用",
+    "describe": "于海角城铁安局累计完成第三序列驱逐任务",
+    "story": "为了提升海角城铁安局的综合应对能力，铁盟和学会的部分成员举办了联合战斗演习。",
     "questType": "Side",
     "sort": 5,
     "isShowProgress": true,
     "isShowUnlock": true,
     "isShowAchieveProgress": true,
     "isAnecdote": false,
-    "client": 82600302,
-    "startStation": 83000020,
+    "client": 82600018,
+    "startStation": 83000002,
     "endStationList": [
       {
-        "id": 83000020,
+        "id": 83000002,
         "weight": 10
       }
     ],
@@ -91898,7 +92301,7 @@
     "conditionList": [
       {
         "key": "safeSideLevelList",
-        "val": "80300667"
+        "val": "80300717"
       }
     ],
     "num": 10,
@@ -91916,8 +92319,8 @@
         "num": 1
       },
       {
-        "id": 82900031,
-        "num": 7
+        "id": 82900024,
+        "num": 8
       },
       {
         "id": 11400063,
@@ -91934,6 +92337,7 @@
     "isTime": false,
     "startTime": "",
     "endTime": "",
-    "correspondActivity": -1
+    "correspondActivity": -1,
+    "returnNum": 1
   }
 ]

@@ -13305,10 +13305,16 @@
         "skillId": 12301883
       }
     ],
-    "tempdesc": "静流的攻击对目标造成【湿润】状态\\n使目标受到的电磁伤害增加20%\\n使目标造成的火焰伤害降低20%\\n使目标被【冰封】的概率+10%",
-    "desc": "静流的攻击对目标造成【湿润】状态\\n使目标受到的电磁伤害增加20%\\n使目标造成的火焰伤害降低20%\\n使目标被<color=#7AB2FF>【冰封】</color>的概率+10%",
+    "tempdesc": "本场战斗【普通攻击】射出的弹药数+1\\n静流的水弹对目标造成【湿润】状态\\n使目标受到的电磁伤害增加20%\\n使目标造成的火焰伤害降低20%\\n使目标被【冰封】的概率+10%",
+    "desc": "本场战斗【普通攻击】射出的弹药数+\\n静流的水弹对目标造成【湿润】状态\\n使目标受到的电磁伤害增加20%\\n使目标造成的火焰伤害降低20%\\n使目标被<color=#7AB2FF>【冰封】</color>的概率+10%",
     "skillChangeList": [],
-    "skillParamOffsetList": []
+    "skillParamOffsetList": [
+      {
+        "skillId": -1,
+        "tag": "attackBullets",
+        "value_SN": 10000
+      }
+    ]
   },
   {
     "id": 12100588,
@@ -14045,6 +14051,56 @@
     ],
     "tempdesc": "",
     "desc": "",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100618,
+    "idCN": "05五星/妮蔻拉/觉醒5-独狼_新",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "独狼",
+    "path": "RolePlus\\00Gift\\Circular\\dulang",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700144,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12301169
+      }
+    ],
+    "tempdesc": "引雷概率越高，造成的最终伤害越高，最高50%\\n当场上只有妮蔻拉存活时，攻击力和防御力额外+150\\n同时抓满手牌，优先自身技能牌\\n若自身为队长时，立刻激活【队长技】",
+    "desc": "引雷概率越高，造成的最终伤害越高，最高50%\\n当场上只有妮蔻拉存活时，攻击力和防御力额外+150\\n同时抓满手牌，优先自身技能牌\\n若自身为队长时，立刻激活【队长技】",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100619,
+    "idCN": "05五星/安菲娅/觉醒5-肆行_独立乘区",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "肆行",
+    "path": "RolePlus\\00Gift\\Circular\\SiXing",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700030,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12301921
+      }
+    ],
+    "tempdesc": "使我方全体【普通攻击】伤害加倍",
+    "desc": "使我方全体【普通攻击】伤害加倍",
     "skillChangeList": [],
     "skillParamOffsetList": []
   }

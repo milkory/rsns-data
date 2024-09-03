@@ -1105,6 +1105,11 @@
         "y": -120.0
       },
       {
+        "id": 86400254,
+        "x": -790.0,
+        "y": -120.0
+      },
+      {
         "id": 86400243,
         "x": -768.0,
         "y": 235.0
@@ -8381,10 +8386,10 @@
   },
   {
     "id": 86400210,
-    "idCN": "03气泡/C6海角城S0/01建筑/海岛入口",
+    "idCN": "03气泡/C6海角城S0/01建筑/海岛入口-开发用",
     "mod": "气泡",
     "isInformalData": false,
-    "name": "前往蜃息岛",
+    "name": "前往蜃息岛-开发用",
     "isSpecial": false,
     "isInstance": false,
     "iconPath": "NPC/HJC/Island",
@@ -8395,7 +8400,13 @@
     "activityId": -1,
     "startTime": "",
     "endTime": "",
-    "displayConditionsList": [],
+    "displayConditionsList": [
+      {
+        "condition": "QuestIncomplete",
+        "mId": 81001323,
+        "val": 0
+      }
+    ],
     "unlockConditionsList": [],
     "isLock": false,
     "func": "OpenPlayground",
@@ -9585,7 +9596,7 @@
     "isSpecial": false,
     "isInstance": false,
     "iconPath": "NPC/HJC/CityHall",
-    "nameIconPath": "",
+    "nameIconPath": "UI/CityMap/citymap_icon_cityhall",
     "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
     "animLoop": "UI_CityBtn_01_Loop",
     "animOut": "UI_CityBtn_01_Out",
@@ -9674,5 +9685,44 @@
         "weight": 1
       }
     ]
+  },
+  {
+    "id": 86400254,
+    "idCN": "03气泡/C6海角城S0/01建筑/海岛入口-正式",
+    "mod": "气泡",
+    "isInformalData": false,
+    "name": "前往蜃息岛",
+    "isSpecial": false,
+    "isInstance": false,
+    "iconPath": "NPC/HJC/Island",
+    "nameIconPath": "",
+    "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
+    "animLoop": "UI_CityBtn_01_Loop",
+    "animOut": "UI_CityBtn_01_Out",
+    "activityId": -1,
+    "startTime": "",
+    "endTime": "",
+    "displayConditionsList": [
+      {
+        "condition": "QuestComplete",
+        "mId": 81001323,
+        "val": 0
+      }
+    ],
+    "unlockConditionsList": [],
+    "isLock": false,
+    "func": "OpenPlayground",
+    "btnType": "Other",
+    "mId": 87300002,
+    "uiPath": "",
+    "buildingId": -1,
+    "stationPlace": -1,
+    "dialogId": -1,
+    "dungeonId": -1,
+    "levelId": -1,
+    "textId": -1,
+    "npcId": -1,
+    "bgPath": "",
+    "bgColor": "FFFFFF"
   }
 ]
