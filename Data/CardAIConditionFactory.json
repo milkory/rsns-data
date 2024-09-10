@@ -68,7 +68,7 @@
   },
   {
     "id": 96200010,
-    "idCN": "手牌数大于",
+    "idCN": "选择操作/手牌数大于x",
     "mod": "手牌数大于",
     "isInformalData": false,
     "isInvert": false
@@ -213,5 +213,41 @@
     "isInformalData": false,
     "isInvert": false,
     "logicId": 60000131
+  },
+  {
+    "id": 96200028,
+    "idCN": "选择操作/有队友生命值小于x",
+    "mod": "队伍中有人的属性满足条件",
+    "isInformalData": false,
+    "isInvert": true,
+    "targetType": "Ally",
+    "attributeType": "CurrentHp",
+    "condition": "Less",
+    "numberType": "PercentDown",
+    "number_SN": 10000
+  },
+  {
+    "id": 96200029,
+    "idCN": "选择操作/当前费用小于x",
+    "mod": "费用不少于",
+    "isInformalData": false,
+    "isInvert": true,
+    "costNum": 0
+  },
+  {
+    "id": 96200030,
+    "idCN": "选择操作/当前费用大于等于x",
+    "mod": "费用不少于",
+    "isInformalData": false,
+    "isInvert": false,
+    "costNum": 0
+  },
+  {
+    "id": 96200031,
+    "idCN": "选择操作/手牌数小于等于x",
+    "mod": "手牌数大于",
+    "isInformalData": false,
+    "isInvert": true,
+    "cardNum": 0
   }
 ]

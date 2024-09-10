@@ -5,6 +5,7 @@
     "mod": "获得类",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "传递类的完全限定名，只能从当前Assembly和UnityEngine获得",
     "paramHelp": "完全限定名",
     "returnType": "object",
@@ -16,6 +17,7 @@
     "mod": "表达式",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "从寄存器当前对象获得其属性",
     "paramHelp": "属性名称",
     "returnType": "object",
@@ -27,6 +29,7 @@
     "mod": "顺序执行",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "测试用的逻辑，没有实际作用",
     "paramHelp": "",
     "returnType": "object",
@@ -47,6 +50,7 @@
     "mod": "赋值",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "为当前寄存器内容修改属性",
     "paramHelp": "属性名称\r值",
     "returnType": "object",
@@ -60,6 +64,7 @@
     "mod": "调用方法",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "无参数地调用当前寄存器内对象的方法",
     "paramHelp": "方法名",
     "returnType": "object",
@@ -73,6 +78,7 @@
     "mod": "表达式",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "有参数地调用当前寄存器内对象的方法，参数用逗号分隔",
     "paramHelp": "方法名\r参数",
     "returnType": "object",
@@ -84,6 +90,7 @@
     "mod": "顺序执行",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "从CBus获得对应的工厂",
     "paramHelp": "",
     "returnType": "object",
@@ -112,6 +119,7 @@
     "mod": "顺序执行",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "从CBus获得对应的服务",
     "paramHelp": "",
     "returnType": "object",
@@ -140,6 +148,7 @@
     "mod": "顺序执行",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "获得特定名称的GameObject",
     "paramHelp": "获得对象名",
     "returnType": "object",
@@ -168,6 +177,7 @@
     "mod": "顺序执行",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "测试用的逻辑，没有实际作用",
     "paramHelp": "",
     "returnType": "object",
@@ -179,6 +189,7 @@
     "mod": "条件执行",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "通用的if语句",
     "paramHelp": "条件\r为真时表达式\r为假时表达式",
     "returnType": "object",
@@ -192,6 +203,7 @@
     "mod": "表达式",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "结束脚本或者逻辑块",
     "paramHelp": "",
     "returnType": "object",
@@ -215,6 +227,7 @@
     "mod": "条件执行",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "脚本用，简单跳转",
     "paramHelp": "条件\r为真时表达式",
     "returnType": "object",
@@ -228,6 +241,7 @@
     "mod": "执行LUA脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "结束脚本或者逻辑块",
     "paramHelp": "",
     "returnType": "int",
@@ -239,6 +253,7 @@
     "mod": "获得类",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "测试用的逻辑，没有实际作用",
     "paramHelp": "",
     "returnType": "object",
@@ -250,10 +265,12 @@
     "mod": "执行GS脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "通用单位排序",
     "paramHelp": "",
     "returnType": "int",
-    "script": "main:\rcreateArray \"a\" \"bb\" \"dddd\" \"ccc\"\rset $arr\r\rselect\rgt $__it.Length 1\rsort max\rget $__it Length\rendSelect\r\recho\r\rend"
+    "script": "main:\rcreateArray \"a\" \"bb\" \"dddd\" \"ccc\"\rset $arr\r\rselect\rgt $__it.Length 1\rsort max\rget $__it Length\rendSelect\r\recho\r\rend",
+    "cacheAsGMF": true
   },
   {
     "id": 60000018,
@@ -261,11 +278,13 @@
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "测试用的逻辑，没有实际作用",
     "paramHelp": "",
     "returnType": "object",
     "scriptPath": "GGScript/testScript2",
-    "scriptLabel": "main"
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   },
   {
     "id": 60000019,
@@ -273,6 +292,7 @@
     "mod": "顺序执行",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "测试用的逻辑，没有实际作用",
     "paramHelp": "",
     "returnType": "object",
@@ -293,11 +313,13 @@
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "测试用的逻辑，没有实际作用",
     "paramHelp": "",
     "returnType": "object",
     "scriptPath": "GGScript/testScript3",
-    "scriptLabel": "main"
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   },
   {
     "id": 60000023,
@@ -316,11 +338,13 @@
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "找到血量最少单位并返回",
     "paramHelp": "",
     "returnType": "int",
     "scriptPath": "GGScript/60000024",
-    "scriptLabel": "main"
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   },
   {
     "id": 60000030,
@@ -328,10 +352,12 @@
     "mod": "执行GS脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "将军测试",
     "paramHelp": "",
     "returnType": "int",
-    "script": "main:\rgetc CBus\rgetp Instance\rcgf GetManager \"MapSessionManager\"\rcgf GobackToMainScene\rret \"break\""
+    "script": "main:\rgetc CBus\rgetp Instance\rcgf GetManager \"MapSessionManager\"\rcgf GobackToMainScene\rret \"break\"",
+    "cacheAsGMF": true
   },
   {
     "id": 60000031,
@@ -339,11 +365,13 @@
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "测试用的逻辑，没有实际作用",
     "paramHelp": "",
     "returnType": "object",
     "scriptPath": "GGScript/mineLeft",
-    "scriptLabel": "main"
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   },
   {
     "id": 60000033,
@@ -351,10 +379,12 @@
     "mod": "执行GS脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "离开事件并且返回火车时候，FLAG会被删除",
     "paramHelp": "FLAG名\r值表达式",
     "returnType": "object",
-    "script": "main:\rgetc CBus\rgetp Instance\rcgf GetManager \"MapSessionManager\"\rgetp sessionFlagObj\rsetp $__param0 $__param1\recho \"设置了临时FLAG：\"+$__param0+\" = \"+$__param1\rend"
+    "script": "main:\rgetc CBus\rgetp Instance\rcgf GetManager \"MapSessionManager\"\rgetp sessionFlagObj\rsetp $__param0 $__param1\recho \"设置了临时FLAG：\"+$__param0+\" = \"+$__param1\rend",
+    "cacheAsGMF": true
   },
   {
     "id": 60000034,
@@ -362,10 +392,12 @@
     "mod": "执行GS脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "离开事件并且返回火车时候，FLAG会被删除",
     "paramHelp": "FLAG名",
     "returnType": "object",
-    "script": "main:\rgetc CBus\rgetp Instance\rcgf GetManager \"MapSessionManager\"\rgetp sessionFlagObj\rgetp $__param0\rjudgeNot\rget 0\rendJudge\recho \"读取了临时FLAG：\"+$__param0+\" = \"+$reg\rend"
+    "script": "main:\rgetc CBus\rgetp Instance\rcgf GetManager \"MapSessionManager\"\rgetp sessionFlagObj\rgetp $__param0\rjudgeNot\rget 0\rendJudge\recho \"读取了临时FLAG：\"+$__param0+\" = \"+$reg\rend",
+    "cacheAsGMF": true
   },
   {
     "id": 60000035,
@@ -373,10 +405,12 @@
     "mod": "执行GS脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "离开事件并且返回火车时候，FLAG会被删除，这是一个调试逻辑，输出所有临时旗",
     "paramHelp": "",
     "returnType": "object",
-    "script": "main:\rgetc CBus\rgetp Instance\rcgf GetManager \"MapSessionManager\"\rgetp sessionFlagObj\recho\rend"
+    "script": "main:\rgetc CBus\rgetp Instance\rcgf GetManager \"MapSessionManager\"\rgetp sessionFlagObj\recho\rend",
+    "cacheAsGMF": true
   },
   {
     "id": 60000036,
@@ -384,10 +418,12 @@
     "mod": "执行GS脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "退出游戏时，FLAG会被删除，\r只能设置字符串或者数字，\r这是一个调试逻辑，输出所有前台旗",
     "paramHelp": "",
     "returnType": "object",
-    "script": "main:\rgetc CBus\rgetp Instance\rcgf GetManager \"MapSessionManager\"\rgetp globalFlagObj\recho\rend"
+    "script": "main:\rgetc CBus\rgetp Instance\rcgf GetManager \"MapSessionManager\"\rgetp globalFlagObj\recho\rend",
+    "cacheAsGMF": true
   },
   {
     "id": 60000037,
@@ -395,10 +431,12 @@
     "mod": "执行GS脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "退出游戏时，FLAG会被删除，\r只能设置字符串或者数字",
     "paramHelp": "FLAG名\r值表达式",
     "returnType": "object",
-    "script": "main:\rgetc CBus\rgetp Instance\rcgf GetManager \"MapSessionManager\"\rcgf SetGlobalFlag $__param0 $__param1\recho \"设置了前台FLAG：\"+$__param0+\" = \"+$__param1\rend"
+    "script": "main:\rgetc CBus\rgetp Instance\rcgf GetManager \"MapSessionManager\"\rcgf SetGlobalFlag $__param0 $__param1\recho \"设置了前台FLAG：\"+$__param0+\" = \"+$__param1\rend",
+    "cacheAsGMF": true
   },
   {
     "id": 60000038,
@@ -406,10 +444,12 @@
     "mod": "执行GS脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "退出游戏时，FLAG会被删除，\r只能设置字符串或者数字",
     "paramHelp": "FLAG名",
     "returnType": "object",
-    "script": "main:\rgetc CBus\rgetp Instance\rcgf GetManager \"MapSessionManager\"\rgetp globalFlagObj\rgetp $__param0\rjudgeNot\rget 0\rendJudge\recho \"读取了前台FLAG：\"+$__param0+\" = \"+$reg\rend"
+    "script": "main:\rgetc CBus\rgetp Instance\rcgf GetManager \"MapSessionManager\"\rgetp globalFlagObj\rgetp $__param0\rjudgeNot\rget 0\rendJudge\recho \"读取了前台FLAG：\"+$__param0+\" = \"+$reg\rend",
+    "cacheAsGMF": true
   },
   {
     "id": 60000028,
@@ -417,11 +457,13 @@
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "流云测试",
     "paramHelp": "",
     "returnType": "int",
     "scriptPath": "GGScript/liuyunTest",
-    "scriptLabel": "main"
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   },
   {
     "id": 60000029,
@@ -429,11 +471,13 @@
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "遗迹剧情",
     "paramHelp": "",
     "returnType": "int",
     "scriptPath": "GGScript/liuyunTest",
-    "scriptLabel": "main"
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   },
   {
     "id": 60000032,
@@ -441,11 +485,13 @@
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "灯塔剧情",
     "paramHelp": "",
     "returnType": "int",
     "scriptPath": "GGScript/liuyunTest2",
-    "scriptLabel": "main"
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   },
   {
     "id": 60000040,
@@ -453,10 +499,12 @@
     "mod": "执行GS脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "将军测试",
     "paramHelp": "",
     "returnType": "int",
-    "script": "main:\recho 123\rret 123"
+    "script": "main:\recho 123\rret 123",
+    "cacheAsGMF": true
   },
   {
     "id": 60000041,
@@ -464,10 +512,12 @@
     "mod": "执行GS脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "显示当前场景全部插针",
     "paramHelp": "",
     "returnType": "int",
-    "script": "main:\rgetc CBus Instance\rcgf GetManager MapSessionManager\rgetp currentSession\rset $session\r\rjudge\rget $session\rcgf SetNeddleVisible -1 $true\rset $rt\rendJudge\r\rret $rt"
+    "script": "main:\rgetc CBus Instance\rcgf GetManager MapSessionManager\rgetp currentSession\rset $session\r\rjudge\rget $session\rcgf SetNeddleVisible -1 $true\rset $rt\rendJudge\r\rret $rt",
+    "cacheAsGMF": true
   },
   {
     "id": 60000042,
@@ -475,10 +525,12 @@
     "mod": "执行GS脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "显示单个插针，如果插针不存在返回false否则返回true",
     "paramHelp": "插针序号0起",
     "returnType": "int",
-    "script": "main:\rgetc CBus Instance\rcgf GetManager MapSessionManager\rgetp currentSession\rset $session\r\rjudge\rget $session\rcgf SetNeddleVisible $__param0 $true\rset $rt\rendJudge\r\rret $rt"
+    "script": "main:\rgetc CBus Instance\rcgf GetManager MapSessionManager\rgetp currentSession\rset $session\r\rjudge\rget $session\rcgf SetNeddleVisible $__param0 $true\rset $rt\rendJudge\r\rret $rt",
+    "cacheAsGMF": true
   },
   {
     "id": 60000043,
@@ -486,10 +538,12 @@
     "mod": "执行GS脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "显示单个插针，如果插针不存在返回false否则返回true",
     "paramHelp": "插针序号0起",
     "returnType": "int",
-    "script": "main:\rgetc CBus Instance\rcgf GetManager MapSessionManager\rgetp currentSession\rset $session\r\rjudge\rget $session\rcgf SetNeddleVisible $__param0 $false\rset $rt\rendJudge\r\rret $rt"
+    "script": "main:\rgetc CBus Instance\rcgf GetManager MapSessionManager\rgetp currentSession\rset $session\r\rjudge\rget $session\rcgf SetNeddleVisible $__param0 $false\rset $rt\rendJudge\r\rret $rt",
+    "cacheAsGMF": true
   },
   {
     "id": 60000044,
@@ -497,10 +551,12 @@
     "mod": "执行GS脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "隐藏当前场景全部插针",
     "paramHelp": "",
     "returnType": "int",
-    "script": "main:\rgetc CBus Instance\rcgf GetManager MapSessionManager\rgetp currentSession\rset $session\r\rjudge\rget $session\rcgf SetNeddleVisible -1 $false\rset $rt\rendJudge\r\rret $rt"
+    "script": "main:\rgetc CBus Instance\rcgf GetManager MapSessionManager\rgetp currentSession\rset $session\r\rjudge\rget $session\rcgf SetNeddleVisible -1 $false\rset $rt\rendJudge\r\rret $rt",
+    "cacheAsGMF": true
   },
   {
     "id": 60000045,
@@ -508,10 +564,12 @@
     "mod": "执行GS脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "返回当前内存",
     "paramHelp": "",
     "returnType": "double",
-    "script": "main:\r\rgetc \"UnityEngine.Profiling.Profiler\"\rcgf GetTotalAllocatedMemoryLong\r\rend"
+    "script": "main:\r\rgetc \"UnityEngine.Profiling.Profiler\"\rcgf GetTotalAllocatedMemoryLong\r\rend",
+    "cacheAsGMF": true
   },
   {
     "id": 60000046,
@@ -519,10 +577,12 @@
     "mod": "执行GS脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "将1024写成1K，以此推类，方便查看",
     "paramHelp": "",
     "returnType": "string",
-    "script": "main:\r\rgetc \"as3.generalMVC.ui.utils.ObjectUtils\"\rset $utils\rcallWith $utils getSizeString $this.reg\r\rend"
+    "script": "main:\r\rgetc \"as3.generalMVC.ui.utils.ObjectUtils\"\rset $utils\rcallWith $utils getSizeString $this.reg\r\rend",
+    "cacheAsGMF": true
   },
   {
     "id": 60000050,
@@ -530,6 +590,7 @@
     "mod": "执行LUA脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "测试用的逻辑，没有实际作用",
     "paramHelp": "",
     "returnType": "object",
@@ -541,11 +602,13 @@
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "流云测试",
     "paramHelp": "",
     "returnType": "int",
     "scriptPath": "GGScript/tiaotiaoTest",
-    "scriptLabel": "main"
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   },
   {
     "id": 60000049,
@@ -553,11 +616,13 @@
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "迢迢测试",
     "paramHelp": "",
     "returnType": "int",
     "scriptPath": "GGScript/tiaotiaoTest2",
-    "scriptLabel": "main"
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   },
   {
     "id": 60000052,
@@ -565,11 +630,13 @@
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "迢迢测试",
     "paramHelp": "",
     "returnType": "int",
     "scriptPath": "GGScript/tiaotiaoTest3",
-    "scriptLabel": "main"
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   },
   {
     "id": 60000051,
@@ -577,10 +644,12 @@
     "mod": "执行GS脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "传入单位列表，返回hp最少单位",
     "paramHelp": "单位列表",
     "returnType": "object",
-    "script": "main:\rget $__param0 0\rset $tmp\r\rfor $i 1 $__param0.Count\rget $__param0  $i\rset $unit\rcallWith $unit._property GetHpPercentSN\rset $hp1\rcallWith $tmp._property GetHpPercentSN\rset $hp2\r\rif $hp1 lt $hp2\rset $tmp $unit\rendif\r\rendFor\r\rret $tmp"
+    "script": "main:\rget $__param0 0\rset $tmp\r\rfor $i 1 $__param0.Count\rget $__param0  $i\rset $unit\rcallWith $unit._property GetHpPercentSN\rset $hp1\rcallWith $tmp._property GetHpPercentSN\rset $hp2\r\rif $hp1 lt $hp2\rset $tmp $unit\rendif\r\rendFor\r\rret $tmp",
+    "cacheAsGMF": true
   },
   {
     "id": 60000053,
@@ -588,10 +657,12 @@
     "mod": "执行GS脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "使指定名称的GameObject播放指定动画并且设置激活状态",
     "paramHelp": "对象名称\r激活状态\r动画名称",
     "returnType": "object",
-    "script": "main:\rgetc \"UnityEngine.GameObject\"\rcgf \"Find\" $__param0\rset $go\rcgf \"GetComponent\" Animator\rcgf \"Play\" $__param2\rget $go\rcgf \"SetActive\"  $__param1\rend"
+    "script": "main:\rgetc \"UnityEngine.GameObject\"\rcgf \"Find\" $__param0\rset $go\rcgf \"GetComponent\" Animator\rcgf \"Play\" $__param2\rget $go\rcgf \"SetActive\"  $__param1\rend",
+    "cacheAsGMF": true
   },
   {
     "id": 60000054,
@@ -599,11 +670,13 @@
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "测试用的逻辑，没有实际作用",
     "paramHelp": "",
     "returnType": "object",
     "scriptPath": "GGScript/testPlayScript",
-    "scriptLabel": "main"
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   },
   {
     "id": 60000055,
@@ -611,6 +684,7 @@
     "mod": "执行LUA脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "结束脚本或者逻辑块",
     "paramHelp": "插针序号\r坐标X\r坐标Y",
     "returnType": "int",
@@ -655,11 +729,13 @@
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "迢迢测试",
     "paramHelp": "",
     "returnType": "int",
     "scriptPath": "GGScript/tiaotiaoTest4",
-    "scriptLabel": "main"
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   },
   {
     "id": 60000022,
@@ -667,11 +743,13 @@
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "迢迢测试",
     "paramHelp": "",
     "returnType": "int",
     "scriptPath": "GGScript/tiaotiaoTest5",
-    "scriptLabel": "main"
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   },
   {
     "id": 60000025,
@@ -679,11 +757,13 @@
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "迢迢测试",
     "paramHelp": "",
     "returnType": "int",
     "scriptPath": "GGScript/tiaotiaoTest6",
-    "scriptLabel": "main"
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   },
   {
     "id": 60000026,
@@ -691,11 +771,13 @@
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "迢迢测试",
     "paramHelp": "",
     "returnType": "int",
     "scriptPath": "GGScript/tiaotiaoTest7",
-    "scriptLabel": "main"
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   },
   {
     "id": 60000027,
@@ -703,11 +785,13 @@
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "迢迢测试",
     "paramHelp": "",
     "returnType": "int",
     "scriptPath": "GGScript/tiaotiaoTest8",
-    "scriptLabel": "main"
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   },
   {
     "id": 60000064,
@@ -715,11 +799,13 @@
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "迢迢测试",
     "paramHelp": "",
     "returnType": "int",
     "scriptPath": "GGScript/tiaotiaoZhixian1",
-    "scriptLabel": "main"
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   },
   {
     "id": 60000068,
@@ -727,11 +813,13 @@
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "迢迢测试",
     "paramHelp": "",
     "returnType": "int",
     "scriptPath": "GGScript/tiaotiaoZhixian4",
-    "scriptLabel": "main"
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   },
   {
     "id": 60000069,
@@ -739,11 +827,13 @@
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "迢迢测试",
     "paramHelp": "",
     "returnType": "int",
     "scriptPath": "GGScript/tiaotiaoZhixian2",
-    "scriptLabel": "main"
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   },
   {
     "id": 60000070,
@@ -751,11 +841,13 @@
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "迢迢测试",
     "paramHelp": "",
     "returnType": "int",
     "scriptPath": "GGScript/tiaotiaoZhixian3",
-    "scriptLabel": "main"
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   },
   {
     "id": 60000066,
@@ -763,11 +855,13 @@
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "迢迢测试",
     "paramHelp": "",
     "returnType": "int",
     "scriptPath": "GGScript/tiaotiaoZhixian5",
-    "scriptLabel": "main"
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   },
   {
     "id": 60000071,
@@ -775,11 +869,13 @@
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "迢迢测试",
     "paramHelp": "",
     "returnType": "int",
     "scriptPath": "GGScript/tiaotiaoZhixian6",
-    "scriptLabel": "main"
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   },
   {
     "id": 60000063,
@@ -787,11 +883,13 @@
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "迢迢测试",
     "paramHelp": "",
     "returnType": "int",
     "scriptPath": "GGScript/tiaotiaoZhixian7",
-    "scriptLabel": "main"
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   },
   {
     "id": 60000065,
@@ -799,11 +897,13 @@
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "迢迢测试",
     "paramHelp": "",
     "returnType": "int",
     "scriptPath": "GGScript/tiaotiaoZhixian8",
-    "scriptLabel": "main"
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   },
   {
     "id": 60000067,
@@ -811,11 +911,13 @@
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "迢迢测试",
     "paramHelp": "",
     "returnType": "int",
     "scriptPath": "GGScript/tiaotiaoZhixian9",
-    "scriptLabel": "main"
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   },
   {
     "id": 60000039,
@@ -823,11 +925,13 @@
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "迢迢测试",
     "paramHelp": "",
     "returnType": "int",
     "scriptPath": "GGScript/tiaotiaoZhixian14",
-    "scriptLabel": "main"
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   },
   {
     "id": 60000061,
@@ -835,11 +939,13 @@
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "迢迢测试",
     "paramHelp": "",
     "returnType": "int",
     "scriptPath": "GGScript/tiaotiaoZhixian15",
-    "scriptLabel": "main"
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   },
   {
     "id": 60000072,
@@ -847,11 +953,13 @@
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "迢迢测试",
     "paramHelp": "",
     "returnType": "int",
     "scriptPath": "GGScript/tiaotiaoZhixian16",
-    "scriptLabel": "main"
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   },
   {
     "id": 60000048,
@@ -859,11 +967,13 @@
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "进退维谷1",
     "paramHelp": "",
     "returnType": "int",
     "scriptPath": "GGScript/zoneTest1",
-    "scriptLabel": "main"
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   },
   {
     "id": 60000056,
@@ -871,11 +981,13 @@
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "进退维谷2",
     "paramHelp": "",
     "returnType": "int",
     "scriptPath": "GGScript/zoneTest2",
-    "scriptLabel": "main"
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   },
   {
     "id": 60000073,
@@ -883,11 +995,13 @@
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "迢迢测试",
     "paramHelp": "",
     "returnType": "int",
     "scriptPath": "GGScript/tiaotiaoZhixian18",
-    "scriptLabel": "main"
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   },
   {
     "id": 60000057,
@@ -895,11 +1009,13 @@
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "进退维谷3",
     "paramHelp": "",
     "returnType": "int",
     "scriptPath": "GGScript/zoneTest3",
-    "scriptLabel": "main"
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   },
   {
     "id": 60000074,
@@ -907,11 +1023,13 @@
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "迢迢测试",
     "paramHelp": "",
     "returnType": "int",
     "scriptPath": "GGScript/tiaotiaoZhixian17",
-    "scriptLabel": "main"
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   },
   {
     "id": 60000075,
@@ -919,11 +1037,13 @@
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "迢迢测试",
     "paramHelp": "",
     "returnType": "int",
     "scriptPath": "GGScript/tiaotiaoZhixian19",
-    "scriptLabel": "main"
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   },
   {
     "id": 60000076,
@@ -931,11 +1051,13 @@
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "诡谲寒潮1",
     "paramHelp": "",
     "returnType": "int",
     "scriptPath": "GGScript/zoneTestG1",
-    "scriptLabel": "main"
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   },
   {
     "id": 60000077,
@@ -943,11 +1065,13 @@
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "诡谲寒潮2",
     "paramHelp": "",
     "returnType": "int",
     "scriptPath": "GGScript/zoneTestG2",
-    "scriptLabel": "main"
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   },
   {
     "id": 60000081,
@@ -955,11 +1079,13 @@
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "源源不绝3",
     "paramHelp": "",
     "returnType": "int",
     "scriptPath": "GGScript/zoneTestY3",
-    "scriptLabel": "main"
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   },
   {
     "id": 60000079,
@@ -967,11 +1093,13 @@
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "源源不绝1",
     "paramHelp": "",
     "returnType": "int",
     "scriptPath": "GGScript/zoneTestY1",
-    "scriptLabel": "main"
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   },
   {
     "id": 60000078,
@@ -979,11 +1107,13 @@
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "诡谲寒潮3",
     "paramHelp": "",
     "returnType": "int",
     "scriptPath": "GGScript/zoneTestG3",
-    "scriptLabel": "main"
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   },
   {
     "id": 60000080,
@@ -991,11 +1121,13 @@
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "源源不绝2",
     "paramHelp": "",
     "returnType": "int",
     "scriptPath": "GGScript/zoneTestY2",
-    "scriptLabel": "main"
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   },
   {
     "id": 60000082,
@@ -1003,6 +1135,7 @@
     "mod": "执行LUA脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "结束脚本或者逻辑块",
     "paramHelp": "任务Id",
     "returnType": "int",
@@ -1014,11 +1147,13 @@
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "迢迢测试",
     "paramHelp": "",
     "returnType": "int",
     "scriptPath": "GGScript/tiaotiaoZhixian18",
-    "scriptLabel": "main"
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   },
   {
     "id": 60000083,
@@ -1026,11 +1161,13 @@
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "迢迢测试",
     "paramHelp": "",
     "returnType": "int",
     "scriptPath": "GGScript/tiaotiaoZhixian20",
-    "scriptLabel": "main"
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   },
   {
     "id": 60000084,
@@ -1038,11 +1175,13 @@
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "迢迢测试",
     "paramHelp": "",
     "returnType": "int",
     "scriptPath": "GGScript/tiaotiaoZhixian21",
-    "scriptLabel": "main"
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   },
   {
     "id": 60000062,
@@ -1050,6 +1189,7 @@
     "mod": "执行LUA脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "结束脚本或者逻辑块",
     "paramHelp": "场景名称\rUI路径\rUI参数",
     "returnType": "int",
@@ -1061,11 +1201,13 @@
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "迢迢测试",
     "paramHelp": "",
     "returnType": "int",
     "scriptPath": "GGScript/tiaotiaoZhixian22",
-    "scriptLabel": "main"
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   },
   {
     "id": 60000086,
@@ -1073,11 +1215,13 @@
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "迢迢测试",
     "paramHelp": "",
     "returnType": "int",
     "scriptPath": "GGScript/tiaotiaoZhixian23",
-    "scriptLabel": "main"
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   },
   {
     "id": 60000088,
@@ -1085,11 +1229,13 @@
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "迢迢测试",
     "paramHelp": "",
     "returnType": "int",
     "scriptPath": "GGScript/tiaotiaoZhixian24",
-    "scriptLabel": "main"
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   },
   {
     "id": 60000091,
@@ -1097,11 +1243,13 @@
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "迢迢测试",
     "paramHelp": "",
     "returnType": "int",
     "scriptPath": "GGScript/tiaotiaoZhixian24",
-    "scriptLabel": "main"
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   },
   {
     "id": 60000092,
@@ -1109,11 +1257,13 @@
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "迢迢测试",
     "paramHelp": "",
     "returnType": "int",
     "scriptPath": "GGScript/tiaotiaochazhen1",
-    "scriptLabel": "main"
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   },
   {
     "id": 60000093,
@@ -1121,11 +1271,13 @@
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "迢迢测试",
     "paramHelp": "",
     "returnType": "int",
     "scriptPath": "GGScript/tiaotiaochazhen2",
-    "scriptLabel": "main"
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   },
   {
     "id": 60000090,
@@ -1133,11 +1285,13 @@
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "test",
     "paramHelp": "",
     "returnType": "int",
     "scriptPath": "GGScript/zoneTest",
-    "scriptLabel": "main"
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   },
   {
     "id": 60000089,
@@ -1145,11 +1299,13 @@
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "障碍重重1",
     "paramHelp": "",
     "returnType": "int",
     "scriptPath": "GGScript/tiaotiaoZhixian25",
-    "scriptLabel": "main"
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   },
   {
     "id": 60000094,
@@ -1157,11 +1313,13 @@
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "障碍重重2",
     "paramHelp": "",
     "returnType": "int",
     "scriptPath": "GGScript/tiaotiaoZhixian26",
-    "scriptLabel": "main"
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   },
   {
     "id": 60000095,
@@ -1169,11 +1327,13 @@
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "障碍重重3",
     "paramHelp": "",
     "returnType": "int",
     "scriptPath": "GGScript/tiaotiaoZhixian27",
-    "scriptLabel": "main"
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   },
   {
     "id": 60000096,
@@ -1181,11 +1341,13 @@
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "迢迢测试",
     "paramHelp": "",
     "returnType": "int",
     "scriptPath": "GGScript/tiaotiaoTest9",
-    "scriptLabel": "main"
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   },
   {
     "id": 60000097,
@@ -1193,11 +1355,13 @@
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "迢迢测试",
     "paramHelp": "",
     "returnType": "int",
     "scriptPath": "GGScript/tiaotiaoTest10",
-    "scriptLabel": "main"
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   },
   {
     "id": 60000098,
@@ -1205,11 +1369,13 @@
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "迢迢测试",
     "paramHelp": "",
     "returnType": "int",
     "scriptPath": "GGScript/tiaotiaoTest11",
-    "scriptLabel": "main"
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   },
   {
     "id": 60000099,
@@ -1217,11 +1383,13 @@
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "第三章1",
     "paramHelp": "",
     "returnType": "int",
     "scriptPath": "GGScript/MainLine3-1",
-    "scriptLabel": "main"
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   },
   {
     "id": 60000100,
@@ -1229,11 +1397,13 @@
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "第三章2",
     "paramHelp": "",
     "returnType": "int",
     "scriptPath": "GGScript/MainLine3-2",
-    "scriptLabel": "main"
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   },
   {
     "id": 60000101,
@@ -1265,11 +1435,13 @@
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "见产品名称",
     "paramHelp": "",
     "returnType": "int",
     "scriptPath": "GGScript/60000106",
-    "scriptLabel": "main"
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   },
   {
     "id": 60000107,
@@ -1289,11 +1461,13 @@
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "见产品名称",
     "paramHelp": "",
     "returnType": "int",
     "scriptPath": "GGScript/60000108",
-    "scriptLabel": "main"
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   },
   {
     "id": 60000109,
@@ -1301,11 +1475,13 @@
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "第二章1",
     "paramHelp": "",
     "returnType": "int",
     "scriptPath": "GGScript/MainLine2-1",
-    "scriptLabel": "main"
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   },
   {
     "id": 60000102,
@@ -1313,10 +1489,12 @@
     "mod": "执行GS脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "检测卡牌上是否有传入的buff。\r全都没有返回true",
     "paramHelp": "buff0\rbuff1\rbuff2\rbuff3\rbuff4\rbuff5",
     "returnType": "bool",
-    "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rgetp currentCore\rset $core\r\rif\r\tget $core currentCard\r\tset $card\r\tif\r\t\tgetp cardProperty\r\t\tset $property\r\t\tif\r\t\t\tgetp buffSystem\t\r\t\t\tset $buffSystem\r\t\t\tget $__param0\r\t\t\tset $buffId\r\t\t\tif\r\t\t\t\tget $buffSystem\r\t\t\t\tcgf GetBuffLevel $buffId\r\t\t\t\tset $lv\r\t\t\t\tif\r\t\t\t\t\tret $false\r\t\t\t\tendif\r\t\t\tendif\t\r\t\t\tget $__param1\r\t\t\tset $buffId\r\t\t\tif\r\t\t\t\tget $buffSystem\r\t\t\t\tcgf GetBuffLevel $buffId\r\t\t\t\tset $lv\r\t\t\t\tif\r\t\t\t\t\tret $false\r\t\t\t\tendif\r\t\t\tendif\t\r\t\t\tget $__param2\r\t\t\tset $buffId\r\t\t\tif\r\t\t\t\tget $buffSystem\r\t\t\t\tcgf GetBuffLevel $buffId\r\t\t\t\tset $lv\r\t\t\t\tif\r\t\t\t\t\tret $false\r\t\t\t\tendif\r\t\t\tendif\t\r\t\t\tget $__param3\r\t\t\tset $buffId\r\t\t\tif\r\t\t\t\tget $buffSystem\r\t\t\t\tcgf GetBuffLevel $buffId\r\t\t\t\tset $lv\r\t\t\t\tif\r\t\t\t\t\tret $false\r\t\t\t\tendif\r\t\t\tendif\t\r\t\t\tget $__param4\r\t\t\tset $buffId\r\t\t\tif\r\t\t\t\tget $buffSystem\r\t\t\t\tcgf GetBuffLevel $buffId\r\t\t\t\tset $lv\r\t\t\t\tif\r\t\t\t\t\tret $false\r\t\t\t\tendif\r\t\t\tendif\t\r\t\t\tget $__param5\r\t\t\tset $buffId\r\t\t\tif\r\t\t\t\tget $buffSystem\r\t\t\t\tcgf GetBuffLevel $buffId\r\t\t\t\tset $lv\r\t\t\t\tif\r\t\t\t\t\tret $false\r\t\t\t\tendif\r\t\t\tendif\r\t\tendif\r\tendif\rendif\r\rret $true"
+    "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rgetp currentCore\rset $core\r\rif\r\tget $core currentCard\r\tset $card\r\tif\r\t\tgetp cardProperty\r\t\tset $property\r\t\tif\r\t\t\tgetp buffSystem\t\r\t\t\tset $buffSystem\r\t\t\tget $__param0\r\t\t\tset $buffId\r\t\t\tif\r\t\t\t\tget $buffSystem\r\t\t\t\tcgf GetBuffLevel $buffId\r\t\t\t\tset $lv\r\t\t\t\tif\r\t\t\t\t\tret $false\r\t\t\t\tendif\r\t\t\tendif\t\r\t\t\tget $__param1\r\t\t\tset $buffId\r\t\t\tif\r\t\t\t\tget $buffSystem\r\t\t\t\tcgf GetBuffLevel $buffId\r\t\t\t\tset $lv\r\t\t\t\tif\r\t\t\t\t\tret $false\r\t\t\t\tendif\r\t\t\tendif\t\r\t\t\tget $__param2\r\t\t\tset $buffId\r\t\t\tif\r\t\t\t\tget $buffSystem\r\t\t\t\tcgf GetBuffLevel $buffId\r\t\t\t\tset $lv\r\t\t\t\tif\r\t\t\t\t\tret $false\r\t\t\t\tendif\r\t\t\tendif\t\r\t\t\tget $__param3\r\t\t\tset $buffId\r\t\t\tif\r\t\t\t\tget $buffSystem\r\t\t\t\tcgf GetBuffLevel $buffId\r\t\t\t\tset $lv\r\t\t\t\tif\r\t\t\t\t\tret $false\r\t\t\t\tendif\r\t\t\tendif\t\r\t\t\tget $__param4\r\t\t\tset $buffId\r\t\t\tif\r\t\t\t\tget $buffSystem\r\t\t\t\tcgf GetBuffLevel $buffId\r\t\t\t\tset $lv\r\t\t\t\tif\r\t\t\t\t\tret $false\r\t\t\t\tendif\r\t\t\tendif\t\r\t\t\tget $__param5\r\t\t\tset $buffId\r\t\t\tif\r\t\t\t\tget $buffSystem\r\t\t\t\tcgf GetBuffLevel $buffId\r\t\t\t\tset $lv\r\t\t\t\tif\r\t\t\t\t\tret $false\r\t\t\t\tendif\r\t\t\tendif\r\t\tendif\r\tendif\rendif\r\rret $true",
+    "cacheAsGMF": true
   },
   {
     "id": 60000103,
@@ -1382,11 +1560,13 @@
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "红茶",
     "paramHelp": "",
     "returnType": "int",
     "scriptPath": "GGScript/Hongcha",
-    "scriptLabel": "main"
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   },
   {
     "id": 60000114,
@@ -1405,11 +1585,13 @@
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "第四章剧情对话3",
     "paramHelp": "",
     "returnType": "int",
     "scriptPath": "GGScript/MainLine4",
-    "scriptLabel": "main"
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   },
   {
     "id": 60000117,
@@ -1417,11 +1599,13 @@
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "第四章4-3",
     "paramHelp": "",
     "returnType": "int",
     "scriptPath": "GGScript/MainLine4-3",
-    "scriptLabel": "main"
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   },
   {
     "id": 60000118,
@@ -1429,11 +1613,13 @@
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "第四章4-4",
     "paramHelp": "",
     "returnType": "int",
     "scriptPath": "GGScript/MainLine4-4",
-    "scriptLabel": "main"
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   },
   {
     "id": 60000119,
@@ -1441,11 +1627,13 @@
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "第四章4-5",
     "paramHelp": "",
     "returnType": "int",
     "scriptPath": "GGScript/MainLine4-5",
-    "scriptLabel": "main"
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   },
   {
     "id": 60000120,
@@ -1453,6 +1641,7 @@
     "mod": "执行LUA脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "打开拉面店场景和UI",
     "paramHelp": "",
     "returnType": "int",
@@ -1475,11 +1664,13 @@
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "数据中心",
     "paramHelp": "",
     "returnType": "int",
     "scriptPath": "GGScript/MainLine4-12",
-    "scriptLabel": "main"
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   },
   {
     "id": 60000127,
@@ -1487,11 +1678,13 @@
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "裂首震鸣1",
     "paramHelp": "",
     "returnType": "int",
     "scriptPath": "GGScript/lieshou1",
-    "scriptLabel": "main"
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   },
   {
     "id": 60000128,
@@ -1499,11 +1692,13 @@
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "裂首震鸣2",
     "paramHelp": "",
     "returnType": "int",
     "scriptPath": "GGScript/lieshou2",
-    "scriptLabel": "main"
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   },
   {
     "id": 60000129,
@@ -1511,11 +1706,13 @@
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "裂首震鸣3",
     "paramHelp": "",
     "returnType": "int",
     "scriptPath": "GGScript/lieshou3",
-    "scriptLabel": "main"
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   },
   {
     "id": 60000122,
@@ -1523,6 +1720,7 @@
     "mod": "执行LUA脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "打开拉面店场景和UI",
     "paramHelp": "店铺ID",
     "returnType": "int",
@@ -1534,6 +1732,7 @@
     "mod": "执行LUA脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "段落是否播放过的检查",
     "paramHelp": "剧情ID",
     "returnType": "bool",
@@ -1545,10 +1744,12 @@
     "mod": "执行GS脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "检测卡牌使用者上是否有传入的buff。\r全都没有返回true",
     "paramHelp": "",
     "returnType": "bool",
-    "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rgetp currentCore\rset $core\r\rif\r\tget $core currentCard\r\tset $card\r\tif\r\t\tgetp owner\r\t\tset $owner\r\t\tif\r\t\t\tgetp buffSystem\r\t\t\tset $buffSystem\r\t\t\tcgf GetSpecialLink \"CardViewBanUse\"\r            set $buffLink\r\t\t\tif\r                get $buffLink count\r                set $buffCount\r                if $buffCount gt 0\r\t\t\t\t\tret $false\r                endif\r\t\t\tendif\r\t\tendif\r\tendif\rendif\r\rret $true"
+    "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rgetp currentCore\rset $core\r\rif\r\tget $core currentCard\r\tset $card\r\tif\r\t\tgetp owner\r\t\tset $owner\r\t\tif\r\t\t\tgetp buffSystem\r\t\t\tset $buffSystem\r\t\t\tcgf GetSpecialLink \"CardViewBanUse\"\r            set $buffLink\r\t\t\tif\r                get $buffLink count\r                set $buffCount\r                if $buffCount gt 0\r\t\t\t\t\tret $false\r                endif\r\t\t\tendif\r\t\tendif\r\tendif\rendif\r\rret $true",
+    "cacheAsGMF": true
   },
   {
     "id": 60000131,
@@ -1556,10 +1757,12 @@
     "mod": "执行GS脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "检测卡牌上是否有传入的buff。\r全都没有返回true",
     "paramHelp": "",
     "returnType": "bool",
-    "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rgetp currentCore\rset $core\r\rif\r\tget $core currentCard\r\tset $card\r\tif\r\t\tgetp cardProperty\r\t\tset $property\r\t\tif\r\t\t\tgetp buffSystem\r\t\t\tset $buffSystem\r\t\t\tcgf GetSpecialLink \"CardViewBanUse\"\r            set $buffLink\r\t\t\tif\r                get $buffLink count\r                set $buffCount\r                if $buffCount gt 0\r\t\t\t\t\tret $false\r                endif\r\t\t\tendif\r\t\tendif\r\tendif\rendif\r\rret $true"
+    "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rgetp currentCore\rset $core\r\rif\r\tget $core currentCard\r\tset $card\r\tif\r\t\tgetp cardProperty\r\t\tset $property\r\t\tif\r\t\t\tgetp buffSystem\r\t\t\tset $buffSystem\r\t\t\tcgf GetSpecialLink \"CardViewBanUse\"\r            set $buffLink\r\t\t\tif\r                get $buffLink count\r                set $buffCount\r                if $buffCount gt 0\r\t\t\t\t\tret $false\r                endif\r\t\t\tendif\r\t\tendif\r\tendif\rendif\r\rret $true",
+    "cacheAsGMF": true
   },
   {
     "id": 60000132,
@@ -1579,10 +1782,12 @@
     "mod": "执行GS脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "见产品名称",
     "paramHelp": "",
     "returnType": "int",
-    "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rgetp currentCore\rset $core\r\rif\r    get $core _currentAction\r\tset $action\r      \r     get $core currentCard\t\r     set $c\r\t\r    get $action card\r    set $curCard\r\r    get $core\r\tsetp currentCard $curCard\r\r     get $core currentCard\t\r     set $c\rendif\r\rret $true"
+    "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rgetp currentCore\rset $core\r\rif\r    get $core _currentAction\r\tset $action\r      \r     get $core currentCard\t\r     set $c\r\t\r    get $action card\r    set $curCard\r\r    get $core\r\tsetp currentCard $curCard\r\r     get $core currentCard\t\r     set $c\rendif\r\rret $true",
+    "cacheAsGMF": true
   },
   {
     "id": 60000126,
@@ -1590,10 +1795,12 @@
     "mod": "执行GS脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "见产品名称",
     "paramHelp": "",
     "returnType": "int",
-    "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rgetp rtUnitList\rset $rtUnitList\r\rif\r\tget $rtUnitList Count\r\tset $count\r\tfor $i 1 $count \r\t\tsub $count $i\r\t\tset $idx\r\t\tget $rtUnitList $idx\r\t\tset $curUnit\r\t\tgetp isCantBeHit\r\t\tset $isCantBeHit\r\r\t\tif \r\t\t\tcallWith $rtUnitList Remove $curUnit\r\t\tendif\r\tendfor\rendif\r\rret $true"
+    "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rgetp rtUnitList\rset $rtUnitList\r\rif\r\tget $rtUnitList Count\r\tset $count\r\tfor $i 1 $count \r\t\tsub $count $i\r\t\tset $idx\r\t\tget $rtUnitList $idx\r\t\tset $curUnit\r\t\tgetp isCantBeHit\r\t\tset $isCantBeHit\r\r\t\tif \r\t\t\tcallWith $rtUnitList Remove $curUnit\r\t\tendif\r\tendfor\rendif\r\rret $true",
+    "cacheAsGMF": true
   },
   {
     "id": 60000134,
@@ -1604,7 +1811,8 @@
     "memo": "玩家等级达到进入店铺的要求",
     "paramHelp": "店铺id",
     "returnType": "bool",
-    "script": "local stationPlace = PlayerData:GetFactoryData($param0, \"HomeStationPlaceFactory\")\rreturn PlayerData:GetUserInfo().lv < stationPlace.levelOpen"
+    "script": "local stationPlace = PlayerData:GetFactoryData($param0, \"HomeStationPlaceFactory\")\rreturn PlayerData:GetUserInfo().lv < stationPlace.levelOpen",
+    "autoRecycle": false
   },
   {
     "id": 60000135,
@@ -1615,7 +1823,8 @@
     "memo": "等级不足提示",
     "paramHelp": "店铺id",
     "returnType": "bool",
-    "script": "local stationPlace = PlayerData:GetFactoryData($param0, \"HomeStationPlaceFactory\")\rCommonTips.OpenTips(string.format(GetText(stationPlace.lockedTip), stationPlace.levelOpen))"
+    "script": "local stationPlace = PlayerData:GetFactoryData($param0, \"HomeStationPlaceFactory\")\rCommonTips.OpenTips(string.format(GetText(stationPlace.lockedTip), stationPlace.levelOpen))",
+    "autoRecycle": false
   },
   {
     "id": 60000136,
@@ -1623,11 +1832,13 @@
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "5-14战前",
     "paramHelp": "",
     "returnType": "int",
     "scriptPath": "GGScript/MainPlot5-14",
-    "scriptLabel": "main"
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   },
   {
     "id": 60000137,
@@ -1635,10 +1846,54 @@
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
+    "autoRecycle": false,
     "memo": "5-15",
     "paramHelp": "",
     "returnType": "int",
     "scriptPath": "GGScript/MainPlot5-15",
-    "scriptLabel": "main"
+    "scriptLabel": "main",
+    "cacheAsGMF": true
+  },
+  {
+    "id": 60000123,
+    "idCN": "魔窟插针/冥霆终仪1",
+    "mod": "逻辑脚本",
+    "isInformalData": false,
+    "debug": false,
+    "autoRecycle": false,
+    "memo": "冥霆终仪1",
+    "paramHelp": "",
+    "returnType": "int",
+    "scriptPath": "GGScript/MingTing",
+    "scriptLabel": "main",
+    "cacheAsGMF": true
+  },
+  {
+    "id": 60000133,
+    "idCN": "魔窟插针/冥霆终仪2",
+    "mod": "逻辑脚本",
+    "isInformalData": false,
+    "debug": false,
+    "autoRecycle": false,
+    "memo": "冥霆终仪2",
+    "paramHelp": "",
+    "returnType": "int",
+    "scriptPath": "GGScript/MingTing2",
+    "scriptLabel": "main",
+    "cacheAsGMF": true
+  },
+  {
+    "id": 60000138,
+    "idCN": "魔窟插针/冥霆终仪3",
+    "mod": "逻辑脚本",
+    "isInformalData": false,
+    "debug": false,
+    "autoRecycle": false,
+    "memo": "冥霆终仪3",
+    "paramHelp": "",
+    "returnType": "int",
+    "scriptPath": "GGScript/MingTing3",
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   }
 ]

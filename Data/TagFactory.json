@@ -7842,12 +7842,12 @@
   },
   {
     "id": 12600695,
-    "idCN": "卡池大保底/03真限定卡池",
+    "idCN": "卡池大保底/03真限定卡池-静流",
     "mod": "卡池大保底",
     "isInformalData": false,
     "icon": "",
     "tagName": "特设招募",
-    "recordTips": "可在本页面查询最近6个月【特设招募】的招募记录。招募记录存在1分钟左右延迟，若无记录请稍后重新打开。"
+    "recordTips": "可在本页面查询最近6个月【向阳处的思恋-静流·逐夏】的招募记录。招募记录存在1分钟左右延迟，若无记录请稍后重新打开。"
   },
   {
     "id": 12600772,
@@ -10746,7 +10746,9 @@
     "icon": "",
     "enemyTypeName": "小怪",
     "enemyCardUrl": "UI/Book/Enemy_Illustration/Card_Base",
-    "strengthText": "一般敌对目标"
+    "strengthText": "一般敌对目标",
+    "prisonerRarity": "UI/Prison/PrisonerList/RarityBase",
+    "probabilityParam": 1.0
   },
   {
     "id": 12601047,
@@ -10756,7 +10758,9 @@
     "icon": "",
     "enemyTypeName": "精英",
     "enemyCardUrl": "UI/Book/Enemy_Illustration/Card_Elites",
-    "strengthText": "精英敌对目标"
+    "strengthText": "精英敌对目标",
+    "prisonerRarity": "UI/Prison/PrisonerList/RarityElites",
+    "probabilityParam": 0.75
   },
   {
     "id": 12601048,
@@ -10766,7 +10770,9 @@
     "icon": "",
     "enemyTypeName": "BOSS",
     "enemyCardUrl": "UI/Book/Enemy_Illustration/Card_Boss",
-    "strengthText": "强大敌对目标"
+    "strengthText": "强大敌对目标",
+    "prisonerRarity": "UI/Prison/PrisonerList/RarityBoss",
+    "probabilityParam": 0.5
   },
   {
     "id": 12601049,
@@ -11462,28 +11468,32 @@
     "idCN": "收集卡牌/列车长卡",
     "mod": "收集卡牌类型",
     "isInformalData": false,
-    "icon": "Item/CollectionCard/CommonIcon/Me"
+    "icon": "Item/CollectionCard/CommonIcon/Me",
+    "cardTypeName": "列车长卡"
   },
   {
     "id": 12600896,
     "idCN": "收集卡牌/角色卡",
     "mod": "收集卡牌类型",
     "isInformalData": false,
-    "icon": "Item/CollectionCard/CommonIcon/Character"
+    "icon": "Item/CollectionCard/CommonIcon/Character",
+    "cardTypeName": "角色卡"
   },
   {
     "id": 12600897,
     "idCN": "收集卡牌/支援者卡",
     "mod": "收集卡牌类型",
     "isInformalData": false,
-    "icon": "Item/CollectionCard/CommonIcon/Npc"
+    "icon": "Item/CollectionCard/CommonIcon/Npc",
+    "cardTypeName": "支援者卡"
   },
   {
     "id": 12600898,
     "idCN": "收集卡牌/怪物卡",
     "mod": "收集卡牌类型",
     "isInformalData": false,
-    "icon": "Item/CollectionCard/CommonIcon/Enemy"
+    "icon": "Item/CollectionCard/CommonIcon/Enemy",
+    "cardTypeName": "怪物卡"
   },
   {
     "id": 12600893,
@@ -12305,91 +12315,118 @@
     "idCN": "监狱/囚犯性格/暴戾",
     "mod": "囚犯性格",
     "isInformalData": true,
-    "icon": "UI/Prison/PrisonerList/Personality/Baoli"
+    "icon": "UI/Prison/PrisonerList/Personality/Baoli",
+    "prisonerPersonalityName": "暴戾",
+    "prisonerPersonalityDesc": "这名囚犯非常易怒，容易与他人发生摩擦，需多加关注。"
   },
   {
     "id": 12601133,
     "idCN": "监狱/囚犯性格/执拗",
     "mod": "囚犯性格",
     "isInformalData": true,
-    "icon": "UI/Prison/PrisonerList/Personality/Zhiniu"
+    "icon": "UI/Prison/PrisonerList/Personality/Zhiniu",
+    "prisonerPersonalityName": "执拗",
+    "prisonerPersonalityDesc": "这名囚犯一有空就拿着勺子比划，虽暂无违规举动，但仍需注意。"
   },
   {
     "id": 12601134,
     "idCN": "监狱/囚犯性格/叛逆",
     "mod": "囚犯性格",
     "isInformalData": true,
-    "icon": "UI/Prison/PrisonerList/Personality/Panni"
+    "icon": "UI/Prison/PrisonerList/Personality/Panni",
+    "prisonerPersonalityName": "叛逆",
+    "prisonerPersonalityDesc": "这名囚犯心思活跃、不服管教，喜欢撺掇他人，需重点关注。"
   },
   {
     "id": 12601135,
     "idCN": "监狱/囚犯性格/胆小",
     "mod": "囚犯性格",
     "isInformalData": true,
-    "icon": "UI/Prison/PrisonerList/Personality/Danxiao"
+    "icon": "UI/Prison/PrisonerList/Personality/Danxiao",
+    "prisonerPersonalityName": "胆小",
+    "prisonerPersonalityDesc": "这名囚犯总是唯唯诺诺，被人欺负也不敢反抗。"
   },
   {
     "id": 12601137,
     "idCN": "监狱/囚犯性格/懒惰",
     "mod": "囚犯性格",
     "isInformalData": true,
-    "icon": "UI/Prison/PrisonerList/Personality/Landuo"
+    "icon": "UI/Prison/PrisonerList/Personality/Landuo",
+    "prisonerPersonalityName": "懒惰",
+    "prisonerPersonalityDesc": "这名囚犯一抓到机会就偷懒怠工，建议多加督促。"
   },
   {
     "id": 12601138,
     "idCN": "监狱/囚犯性格/贪婪",
     "mod": "囚犯性格",
     "isInformalData": true,
-    "icon": "UI/Prison/PrisonerList/Personality/Tanlan"
+    "icon": "UI/Prison/PrisonerList/Personality/Tanlan",
+    "prisonerPersonalityName": "贪婪",
+    "prisonerPersonalityDesc": "这名囚犯对财富抱有极强的欲望，有可能做出偷窃行为，建议严加看管。"
   },
   {
     "id": 12601139,
     "idCN": "监狱/囚犯性格/孤僻",
     "mod": "囚犯性格",
     "isInformalData": true,
-    "icon": "UI/Prison/PrisonerList/Personality/Gupi"
+    "icon": "UI/Prison/PrisonerList/Personality/Gupi",
+    "prisonerPersonalityName": "孤僻",
+    "prisonerPersonalityDesc": "这名囚犯不喜欢与他人交往，更喜欢独立活动或思考。"
   },
   {
     "id": 12601140,
     "idCN": "监狱/囚犯性格/贪吃",
     "mod": "囚犯性格",
     "isInformalData": true,
-    "icon": "UI/Prison/PrisonerList/Personality/Tanchi"
+    "icon": "UI/Prison/PrisonerList/Personality/Tanchi",
+    "prisonerPersonalityName": "贪吃",
+    "prisonerPersonalityDesc": "这名囚犯对食物的热爱超乎常人，进食后工作效率暴增！"
   },
   {
     "id": 12601144,
     "idCN": "监狱/车间组长/包工头",
     "mod": "车间组长",
     "isInformalData": true,
-    "icon": ""
+    "icon": "",
+    "monitorJobName": "包工头",
+    "buffId": 84100131
   },
   {
     "id": 12601145,
     "idCN": "监狱/车间组长/质量主管",
     "mod": "车间组长",
     "isInformalData": true,
-    "icon": ""
+    "icon": "",
+    "monitorJobName": "质量主管",
+    "buffId": 84100133
   },
   {
     "id": 12601146,
     "idCN": "监狱/车间组长/安全主管",
     "mod": "车间组长",
     "isInformalData": true,
-    "icon": ""
+    "icon": "",
+    "monitorJobName": "安全主管",
+    "buffId": 84100139
   },
   {
     "id": 12601147,
     "idCN": "监狱/车间组长/人力资源经理",
     "mod": "车间组长",
     "isInformalData": true,
-    "icon": ""
+    "icon": "",
+    "monitorJobName": "人力资源经理",
+    "buffId": 84100126
   },
   {
     "id": 12601148,
     "idCN": "监狱/囚犯特长/纺织",
     "mod": "囚犯特长",
     "isInformalData": true,
-    "icon": ""
+    "icon": "",
+    "prisonerSpeciality": "纺织",
+    "buffId": 84100129,
+    "formulaType": 12601354
   },
   {
     "id": 12601149,
@@ -12856,56 +12893,104 @@
     "idCN": "监狱/囚犯性格羁绊/越狱",
     "mod": "囚犯性格羁绊",
     "isInformalData": true,
-    "icon": ""
+    "icon": "",
+    "prisonerPersonalityFetterName": "越狱",
+    "prisonerPersonalityFetterDesc": "在囚犯牢房的海报后发现一个通往下水道的大洞，而囚犯则不知所踪……",
+    "buffId": 84100125,
+    "occurrenceProbability": 1.0,
+    "score": -100.0,
+    "buffParam": 14.0
   },
   {
     "id": 12601141,
     "idCN": "监狱/囚犯性格羁绊/争执",
     "mod": "囚犯性格羁绊",
     "isInformalData": true,
-    "icon": ""
+    "icon": "",
+    "prisonerPersonalityFetterName": "争执",
+    "prisonerPersonalityFetterDesc": "一名囚犯在用餐时段因其他囚犯离席时先迈左脚，将菜盘扣在了对方的脸上。",
+    "buffId": 84100125,
+    "occurrenceProbability": 1.0,
+    "score": -15.0,
+    "buffParam": 3.0
   },
   {
     "id": 12601142,
     "idCN": "监狱/囚犯性格羁绊/闹事",
     "mod": "囚犯性格羁绊",
     "isInformalData": true,
-    "icon": ""
+    "icon": "",
+    "prisonerPersonalityFetterName": "闹事",
+    "prisonerPersonalityFetterDesc": "在个别囚犯的煽动下，部分囚犯起哄闹事，要求减刑或提高待遇。",
+    "buffId": 84100125,
+    "occurrenceProbability": 1.0,
+    "score": -30.0,
+    "buffParam": 7.0
   },
   {
     "id": 12601143,
     "idCN": "监狱/囚犯性格羁绊/霸凌",
     "mod": "囚犯性格羁绊",
     "isInformalData": true,
-    "icon": ""
+    "icon": "",
+    "prisonerPersonalityFetterName": "霸凌",
+    "prisonerPersonalityFetterDesc": "个别囚犯在放风时间被刻意针对，遭到多名囚犯的欺凌，心情沮丧。",
+    "buffId": 84100125,
+    "occurrenceProbability": 1.0,
+    "score": -20.0,
+    "buffParam": 5.0
   },
   {
     "id": 12601188,
     "idCN": "监狱/囚犯性格羁绊/偷懒",
     "mod": "囚犯性格羁绊",
     "isInformalData": true,
-    "icon": ""
+    "icon": "",
+    "prisonerPersonalityFetterName": "偷懒",
+    "prisonerPersonalityFetterDesc": "在工作车间中传来了不合时宜的鼾声，声音来源似乎是几名喜欢偷懒的囚犯。",
+    "buffId": 84100136,
+    "occurrenceProbability": 1.0,
+    "score": -10.0,
+    "buffParam": 2.0
   },
   {
     "id": 12601189,
     "idCN": "监狱/囚犯性格羁绊/顺手牵羊",
     "mod": "囚犯性格羁绊",
     "isInformalData": true,
-    "icon": ""
+    "icon": "",
+    "prisonerPersonalityFetterName": "顺手牵羊",
+    "prisonerPersonalityFetterDesc": "监狱的马桶刷已经连续丢失了三把，最终都在几名囚犯的床底下找到了。",
+    "buffId": 84100125,
+    "occurrenceProbability": 1.0,
+    "score": -25.0,
+    "buffParam": 2.0
   },
   {
     "id": 12601190,
     "idCN": "监狱/囚犯性格羁绊/独来独往",
     "mod": "囚犯性格羁绊",
     "isInformalData": true,
-    "icon": ""
+    "icon": "",
+    "prisonerPersonalityFetterName": "独来独往",
+    "prisonerPersonalityFetterDesc": "该囚犯避开了监狱里的纷争，独自一人默默工作着。",
+    "buffId": 84100136,
+    "occurrenceProbability": 1.0,
+    "score": 10.0,
+    "buffParam": 4.0
   },
   {
     "id": 12601191,
     "idCN": "监狱/囚犯性格羁绊/心无杂念",
     "mod": "囚犯性格羁绊",
     "isInformalData": true,
-    "icon": ""
+    "icon": "",
+    "prisonerPersonalityFetterName": "心无杂念",
+    "prisonerPersonalityFetterDesc": "因为在今天吃到了加餐，囚犯工作时干劲十足，效率与平日里判若两人。",
+    "buffId": 84100136,
+    "occurrenceProbability": 1.0,
+    "score": 50.0,
+    "buffParam": 1.8
   },
   {
     "id": 12601192,
@@ -12975,7 +13060,10 @@
     "idCN": "监狱/囚犯特长/缝补",
     "mod": "囚犯特长",
     "isInformalData": true,
-    "icon": ""
+    "icon": "",
+    "prisonerSpeciality": "缝补",
+    "buffId": 84100127,
+    "formulaType": 12601353
   },
   {
     "id": 12600593,
@@ -13378,49 +13466,75 @@
     "idCN": "监狱/囚犯性格羁绊/奋发图强",
     "mod": "囚犯性格羁绊",
     "isInformalData": true,
-    "icon": ""
+    "icon": "",
+    "prisonerPersonalityFetterName": "奋发图强",
+    "prisonerPersonalityFetterDesc": "“好好改造，重新做人！”在几名个性积极的囚犯带动下，不少囚犯燃起了对未来的希望，热火朝天地工作着。",
+    "buffId": 84100136,
+    "occurrenceProbability": 1.0,
+    "score": 30.0,
+    "buffParam": 1.5
   },
   {
     "id": 12601241,
     "idCN": "监狱/囚犯性格/热情",
     "mod": "囚犯性格",
     "isInformalData": true,
-    "icon": ""
+    "icon": "",
+    "prisonerPersonalityName": "热情",
+    "prisonerPersonalityDesc": "这名囚犯对生活抱有美好的期待，这份热情总是可以感染其他人。"
   },
   {
     "id": 12601240,
     "idCN": "监狱/囚犯性格/幽默",
     "mod": "囚犯性格",
     "isInformalData": true,
-    "icon": ""
+    "icon": "",
+    "prisonerPersonalityName": "幽默",
+    "prisonerPersonalityDesc": "这名囚犯是整顿中心的开心果，总是逗得众人哈哈大笑。"
   },
   {
     "id": 12601239,
     "idCN": "监狱/囚犯性格/冲动",
     "mod": "囚犯性格",
     "isInformalData": true,
-    "icon": ""
+    "icon": "",
+    "prisonerPersonalityName": "冲动",
+    "prisonerPersonalityDesc": "这名囚犯做事前缺乏理性思考，凭感情或冲动行事，思考不考虑后果。"
   },
   {
     "id": 12601238,
     "idCN": "监狱/囚犯性格/消极",
     "mod": "囚犯性格",
     "isInformalData": true,
-    "icon": ""
+    "icon": "",
+    "prisonerPersonalityName": "消极",
+    "prisonerPersonalityDesc": "这名囚犯总是情绪很低落，对什么事都提不起兴趣。"
   },
   {
     "id": 12601237,
     "idCN": "监狱/囚犯性格羁绊/干劲十足",
     "mod": "囚犯性格羁绊",
     "isInformalData": true,
-    "icon": ""
+    "icon": "",
+    "prisonerPersonalityFetterName": "干劲十足",
+    "prisonerPersonalityFetterDesc": "欢声笑语间，囚犯们的工作效率也大大增长，虽然他们讲的笑话听上去不是很体面。",
+    "buffId": 84100136,
+    "occurrenceProbability": 1.0,
+    "score": 20.0,
+    "buffParam": 1.3
   },
   {
     "id": 12601236,
     "idCN": "监狱/囚犯性格羁绊/装腔作势",
     "mod": "囚犯性格羁绊",
     "isInformalData": true,
-    "icon": ""
+    "icon": "",
+    "prisonerPersonalityFetterName": "装腔作势",
+    "prisonerPersonalityFetterDesc": "最近有人在囚犯中鼓吹一种理论，那就是“不必真的干活，装装样子就行了”。",
+    "buffId": 84100136,
+    "occurrenceProbability": 1.0,
+    "score": -5.0,
+    "buffParam": 4.0
   },
   {
     "id": 12601235,
@@ -13834,7 +13948,7 @@
     "invest": "C",
     "investName": "入门投资·心意",
     "investIcon": "UI/HomeBattleCenter/icon_a",
-    "investEffect": ""
+    "investEffect": "UI_leyuan_Icon_Sunmmer_rumen3"
   },
   {
     "id": 12601280,
@@ -13889,7 +14003,7 @@
     "invest": "C",
     "investName": "入门投资·心意",
     "investIcon": "UI/HomeBattleCenter/icon_a",
-    "investEffect": ""
+    "investEffect": "UI_leyuan_Icon_Sunmmer_fushu3"
   },
   {
     "id": 12601285,
@@ -13944,7 +14058,7 @@
     "invest": "C",
     "investName": "入门投资·心意",
     "investIcon": "UI/HomeBattleCenter/icon_a",
-    "investEffect": ""
+    "investEffect": "UI_leyuan_Icon_Sunmmer_fanrong3"
   },
   {
     "id": 12601290,
@@ -13977,7 +14091,7 @@
     "invest": "C",
     "investName": "入门投资·心意",
     "investIcon": "UI/HomeBattleCenter/icon_a",
-    "investEffect": ""
+    "investEffect": "UI_leyuan_Icon_Sunmmer_jianfeng2"
   },
   {
     "id": 12601293,
@@ -13988,7 +14102,7 @@
     "invest": "C",
     "investName": "入门投资·心意",
     "investIcon": "UI/HomeBattleCenter/icon_a",
-    "investEffect": ""
+    "investEffect": "UI_leyuan_Icon_Sunmmer_jianfeng2"
   },
   {
     "id": 12601294,
@@ -13999,7 +14113,7 @@
     "invest": "C",
     "investName": "入门投资·心意",
     "investIcon": "UI/HomeBattleCenter/icon_a",
-    "investEffect": ""
+    "investEffect": "UI_leyuan_Icon_Sunmmer_jianfeng3"
   },
   {
     "id": 12601270,
@@ -14352,6 +14466,116 @@
     "detail": ""
   },
   {
+    "id": 12601317,
+    "idCN": "监狱/囚犯自然生病/炎症",
+    "mod": "囚犯疾病",
+    "isInformalData": true,
+    "icon": "UI/Prison/PrisonRoom/Res/MedicalRoom/MedicalRoom_yanzheng",
+    "prisonerIll": "炎症",
+    "naturalHealthDecline": 10,
+    "naturalHealthReply": 8,
+    "eventHealthReply": 0
+  },
+  {
+    "id": 12601318,
+    "idCN": "监狱/囚犯自然生病/感染",
+    "mod": "囚犯疾病",
+    "isInformalData": true,
+    "icon": "UI/Prison/PrisonRoom/Res/MedicalRoom/MedicalRoom_ganran",
+    "prisonerIll": "病3",
+    "naturalHealthDecline": 15,
+    "naturalHealthReply": 12,
+    "eventHealthReply": 0
+  },
+  {
+    "id": 12601319,
+    "idCN": "监狱/囚犯自然生病/高热",
+    "mod": "囚犯疾病",
+    "isInformalData": true,
+    "icon": "UI/Prison/PrisonRoom/Res/MedicalRoom/MedicalRoom_gaore",
+    "prisonerIll": "高热",
+    "naturalHealthDecline": 20,
+    "naturalHealthReply": 15,
+    "eventHealthReply": 0
+  },
+  {
+    "id": 12601320,
+    "idCN": "监狱/囚犯自然生病/休克",
+    "mod": "囚犯疾病",
+    "isInformalData": true,
+    "icon": "UI/Prison/PrisonRoom/Res/MedicalRoom/MedicalRoom_xiuke",
+    "prisonerIll": "病5",
+    "naturalHealthDecline": 25,
+    "naturalHealthReply": 20,
+    "eventHealthReply": 0
+  },
+  {
+    "id": 12601321,
+    "idCN": "监狱/囚犯事件生病/挫伤",
+    "mod": "囚犯疾病",
+    "isInformalData": true,
+    "icon": "UI/Prison/PrisonRoom/Res/MedicalRoom/MedicalRoom_cuoshang",
+    "prisonerIll": "挫伤",
+    "naturalHealthDecline": 0,
+    "naturalHealthReply": 0,
+    "eventHealthReply": 4
+  },
+  {
+    "id": 12601322,
+    "idCN": "监狱/囚犯自然生病/感冒",
+    "mod": "囚犯疾病",
+    "isInformalData": true,
+    "icon": "UI/Prison/PrisonRoom/Res/MedicalRoom/MedicalRoom_ganmao",
+    "prisonerIll": "感冒",
+    "naturalHealthDecline": 5,
+    "naturalHealthReply": 4,
+    "eventHealthReply": 0
+  },
+  {
+    "id": 12601324,
+    "idCN": "监狱/囚犯事件生病/血肿",
+    "mod": "囚犯疾病",
+    "isInformalData": true,
+    "icon": "UI/Prison/PrisonRoom/Res/MedicalRoom/MedicalRoom_xuezhong",
+    "prisonerIll": "血肿",
+    "naturalHealthDecline": 0,
+    "naturalHealthReply": 0,
+    "eventHealthReply": 8
+  },
+  {
+    "id": 12601325,
+    "idCN": "监狱/囚犯事件生病/脱位",
+    "mod": "囚犯疾病",
+    "isInformalData": true,
+    "icon": "UI/Prison/PrisonRoom/Res/MedicalRoom/MedicalRoom_tuowei",
+    "prisonerIll": "关节错位",
+    "naturalHealthDecline": 0,
+    "naturalHealthReply": 0,
+    "eventHealthReply": 12
+  },
+  {
+    "id": 12601326,
+    "idCN": "监狱/囚犯事件生病/骨折",
+    "mod": "囚犯疾病",
+    "isInformalData": true,
+    "icon": "UI/Prison/PrisonRoom/Res/MedicalRoom/MedicalRoom_guzhe",
+    "prisonerIll": "骨折",
+    "naturalHealthDecline": 0,
+    "naturalHealthReply": 0,
+    "eventHealthReply": 15
+  },
+  {
+    "id": 12601327,
+    "idCN": "监狱/囚犯事件生病/出血",
+    "mod": "囚犯疾病",
+    "isInformalData": true,
+    "icon": "UI/Prison/PrisonRoom/Res/MedicalRoom/MedicalRoom_chuxue",
+    "prisonerIll": "出血",
+    "naturalHealthDecline": 0,
+    "naturalHealthReply": 0,
+    "eventHealthReply": 20
+  },
+  {
     "id": 12601297,
     "idCN": "战斗/衍生卡",
     "mod": "标签",
@@ -14438,6 +14662,7 @@
     "typeName": "海岛区域",
     "carriageIcon": "",
     "skipJumpIcon": "UI/Playground/island_icon_room_s2",
+    "skipJumpIcon2": "UI/Playground/island_icon_room_us2",
     "stopCarriage": false
   },
   {
@@ -14562,6 +14787,36 @@
     "temptagNameRichText": "",
     "tagNameRichText": "",
     "detail": ""
+  },
+  {
+    "id": 12601347,
+    "idCN": "监狱/生产设备/缝纫机",
+    "mod": "监狱家具",
+    "isInformalData": true,
+    "icon": "",
+    "formulaTypeList": [
+      {
+        "id": 12601353
+      },
+      {
+        "id": 12601354
+      }
+    ]
+  },
+  {
+    "id": 12601348,
+    "idCN": "监狱/生产设备/测试用",
+    "mod": "监狱家具",
+    "isInformalData": true,
+    "icon": "",
+    "formulaTypeList": [
+      {
+        "id": 12601353
+      },
+      {
+        "id": 12601354
+      }
+    ]
   },
   {
     "id": 12601349,
@@ -14818,6 +15073,7 @@
     "typeName": "海岛区域",
     "carriageIcon": "",
     "skipJumpIcon": "UI/Playground/island_icon_room_s",
+    "skipJumpIcon2": "UI/Playground/island_icon_room_us",
     "stopCarriage": false
   },
   {
@@ -14827,32 +15083,6 @@
     "isInformalData": false,
     "icon": "",
     "tagName": "",
-    "tagID": 0,
-    "isShowDetail": false,
-    "temptagNameRichText": "",
-    "tagNameRichText": "",
-    "detail": ""
-  },
-  {
-    "id": 12601373,
-    "idCN": "监狱/生产类型/最近",
-    "mod": "标签",
-    "isInformalData": true,
-    "icon": "UI/Prison/PrisonerProduction/ResNew/PrisonProduction_icon_zuijin",
-    "tagName": "布料",
-    "tagID": 0,
-    "isShowDetail": false,
-    "temptagNameRichText": "",
-    "tagNameRichText": "",
-    "detail": ""
-  },
-  {
-    "id": 12601372,
-    "idCN": "监狱/生产类型/全部",
-    "mod": "标签",
-    "isInformalData": true,
-    "icon": "UI/Prison/PrisonerProduction/ResNew/PrisonProduction_icon_all",
-    "tagName": "布料",
     "tagID": 0,
     "isShowDetail": false,
     "temptagNameRichText": "",
@@ -14872,6 +15102,278 @@
     "idCN": "监狱/囚犯性格/细致",
     "mod": "囚犯性格",
     "isInformalData": true,
-    "icon": ""
+    "icon": "",
+    "prisonerPersonalityName": "细致",
+    "prisonerPersonalityDesc": "这名囚犯干活专心致志，引得其他囚犯纷纷效仿。"
+  },
+  {
+    "id": 12601201,
+    "idCN": "武装词条/乘客收益提升",
+    "mod": "列车武装",
+    "isInformalData": false,
+    "icon": "",
+    "entryName": "尊享服务",
+    "entryDes": "乘客收益提升",
+    "addNum": true
+  },
+  {
+    "id": 12601376,
+    "idCN": "列车皮肤/亚莉奈",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "",
+    "tagName": "亚莉奈",
+    "tagID": 0,
+    "isShowDetail": false,
+    "temptagNameRichText": "",
+    "tagNameRichText": "",
+    "detail": ""
+  },
+  {
+    "id": 12601377,
+    "idCN": "列车皮肤/妮蔻拉",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "",
+    "tagName": "妮蔻拉",
+    "tagID": 0,
+    "isShowDetail": false,
+    "temptagNameRichText": "",
+    "tagNameRichText": "",
+    "detail": ""
+  },
+  {
+    "id": 12601378,
+    "idCN": "列车皮肤/多萝西",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "",
+    "tagName": "多萝西",
+    "tagID": 0,
+    "isShowDetail": false,
+    "temptagNameRichText": "",
+    "tagNameRichText": "",
+    "detail": ""
+  },
+  {
+    "id": 12601379,
+    "idCN": "列车皮肤/苔妮",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "",
+    "tagName": "苔妮",
+    "tagID": 0,
+    "isShowDetail": false,
+    "temptagNameRichText": "",
+    "tagNameRichText": "",
+    "detail": ""
+  },
+  {
+    "id": 12601382,
+    "idCN": "列车皮肤/静流逐夏",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "",
+    "tagName": "静流逐夏",
+    "tagID": 0,
+    "isShowDetail": false,
+    "temptagNameRichText": "",
+    "tagNameRichText": "",
+    "detail": ""
+  },
+  {
+    "id": 12601380,
+    "idCN": "列车皮肤/索玛",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "",
+    "tagName": "索玛",
+    "tagID": 0,
+    "isShowDetail": false,
+    "temptagNameRichText": "",
+    "tagNameRichText": "",
+    "detail": ""
+  },
+  {
+    "id": 12601381,
+    "idCN": "列车皮肤/夏尔",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "",
+    "tagName": "夏尔",
+    "tagID": 0,
+    "isShowDetail": false,
+    "temptagNameRichText": "",
+    "tagNameRichText": "",
+    "detail": ""
+  },
+  {
+    "id": 12601383,
+    "idCN": "列车皮肤/默认",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "",
+    "tagName": "默认",
+    "tagID": 0,
+    "isShowDetail": false,
+    "temptagNameRichText": "",
+    "tagNameRichText": "",
+    "detail": ""
+  },
+  {
+    "id": 12601384,
+    "idCN": "列车皮肤/漆黑",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "",
+    "tagName": "漆黑",
+    "tagID": 0,
+    "isShowDetail": false,
+    "temptagNameRichText": "",
+    "tagNameRichText": "",
+    "detail": ""
+  },
+  {
+    "id": 12601386,
+    "idCN": "列车皮肤/青绿",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "",
+    "tagName": "青绿",
+    "tagID": 0,
+    "isShowDetail": false,
+    "temptagNameRichText": "",
+    "tagNameRichText": "",
+    "detail": ""
+  },
+  {
+    "id": 12601385,
+    "idCN": "列车皮肤/黄金",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "",
+    "tagName": "黄金",
+    "tagID": 0,
+    "isShowDetail": false,
+    "temptagNameRichText": "",
+    "tagNameRichText": "",
+    "detail": ""
+  },
+  {
+    "id": 12601387,
+    "idCN": "列车皮肤/暮光紫",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "",
+    "tagName": "暮光紫",
+    "tagID": 0,
+    "isShowDetail": false,
+    "temptagNameRichText": "",
+    "tagNameRichText": "",
+    "detail": ""
+  },
+  {
+    "id": 12601388,
+    "idCN": "列车皮肤/霞光红",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "",
+    "tagName": "霞光红",
+    "tagID": 0,
+    "isShowDetail": false,
+    "temptagNameRichText": "",
+    "tagNameRichText": "",
+    "detail": ""
+  },
+  {
+    "id": 12601389,
+    "idCN": "列车皮肤/火爆生意",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "",
+    "tagName": "火爆生意",
+    "tagID": 0,
+    "isShowDetail": false,
+    "temptagNameRichText": "",
+    "tagNameRichText": "",
+    "detail": ""
+  },
+  {
+    "id": 12601390,
+    "idCN": "列车皮肤/黑月-环大陆特急",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "",
+    "tagName": "黑月-环大陆特急",
+    "tagID": 0,
+    "isShowDetail": false,
+    "temptagNameRichText": "",
+    "tagNameRichText": "",
+    "detail": ""
+  },
+  {
+    "id": 12601391,
+    "idCN": "列车皮肤/余烬号",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "",
+    "tagName": "余烬号",
+    "tagID": 0,
+    "isShowDetail": false,
+    "temptagNameRichText": "",
+    "tagNameRichText": "",
+    "detail": ""
+  },
+  {
+    "id": 12601392,
+    "idCN": "列车皮肤/万里25B",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "",
+    "tagName": "万里25B",
+    "tagID": 0,
+    "isShowDetail": false,
+    "temptagNameRichText": "",
+    "tagNameRichText": "",
+    "detail": ""
+  },
+  {
+    "id": 12601393,
+    "idCN": "列车皮肤/鹏程62",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "",
+    "tagName": "鹏程62",
+    "tagID": 0,
+    "isShowDetail": false,
+    "temptagNameRichText": "",
+    "tagNameRichText": "",
+    "detail": ""
+  },
+  {
+    "id": 12601373,
+    "idCN": "监狱/加速道具/单个加速",
+    "mod": "标签",
+    "isInformalData": true,
+    "icon": "",
+    "tagName": "单个加速",
+    "tagID": 0,
+    "isShowDetail": false,
+    "temptagNameRichText": "",
+    "tagNameRichText": "",
+    "detail": ""
+  },
+  {
+    "id": 12601372,
+    "idCN": "监狱/加速道具/批量加速",
+    "mod": "标签",
+    "isInformalData": true,
+    "icon": "",
+    "tagName": "批量加速",
+    "tagID": 0,
+    "isShowDetail": false,
+    "temptagNameRichText": "",
+    "tagNameRichText": "",
+    "detail": ""
   }
 ]

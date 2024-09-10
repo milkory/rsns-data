@@ -11473,7 +11473,7 @@
     "isUseEnergy": false,
     "energySkillList": [],
     "energyRestorePerFrameSN": 450,
-    "isSkillDelay": false,
+    "isSkillDelay": true,
     "minDelay": 120,
     "maxDelay": 360
   },
@@ -14580,7 +14580,7 @@
         "rangeSN": -10000
       }
     ],
-    "energyRestorePerFrameSN": 220,
+    "energyRestorePerFrameSN": 330,
     "isSkillDelay": false,
     "minDelay": 120,
     "maxDelay": 360
@@ -15839,21 +15839,15 @@
     "normalAttackCritID": -1,
     "skillList": [
       {
-        "actionId": 10103057,
+        "actionId": 10103059,
         "activeFrame": 480,
         "activeTime": 8.0,
         "rangeSN": -10000
       },
       {
-        "actionId": 10103059,
-        "activeFrame": 1440,
-        "activeTime": 24.0,
-        "rangeSN": -10000
-      },
-      {
         "actionId": 10103054,
-        "activeFrame": 2340,
-        "activeTime": 39.0,
+        "activeFrame": 1080,
+        "activeTime": 18.0,
         "rangeSN": -10000
       }
     ],
@@ -15875,7 +15869,7 @@
         "rangeSN": -10000
       }
     ],
-    "energyRestorePerFrameSN": 320,
+    "energyRestorePerFrameSN": 560,
     "isSkillDelay": false,
     "minDelay": 360,
     "maxDelay": 360
@@ -15909,8 +15903,8 @@
       },
       {
         "actionId": 10103069,
-        "activeFrame": 2880,
-        "activeTime": 48.0,
+        "activeFrame": 2640,
+        "activeTime": 44.0,
         "rangeSN": -10000
       }
     ],
@@ -18325,6 +18319,62 @@
     ],
     "energyRestorePerFrameSN": 250,
     "isSkillDelay": true,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300452,
+    "idCN": "我方/05五星/雅莱",
+    "mod": "卡牌AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": -1,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10103327
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [],
+    "skillLoopDelayFrame": 1,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300453,
+    "idCN": "敌方/14学会/御险对策机械·艾尼",
+    "mod": "BOSSAI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10103335
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [],
+    "skillLoopDelayFrame": 210,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 450,
+    "isSkillDelay": false,
     "minDelay": 120,
     "maxDelay": 360
   }

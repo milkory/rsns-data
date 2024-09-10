@@ -17,7 +17,7 @@
     "bmRockItemId": 11400005,
     "energyItemId": 11400006,
     "resonanceSourceMaterialList": [],
-    "roleLevelMax": 70,
+    "roleLevelMax": 75,
     "mainChapter": [],
     "scoreRankComparison": [
       {
@@ -545,6 +545,10 @@
       {
         "PrefabUrl": "UI\\Login\\Login",
         "soundId": 30000850
+      },
+      {
+        "PrefabUrl": "UI/Playground/Playground",
+        "soundId": 30005390
       }
     ],
     "gaizhang": -1,
@@ -957,6 +961,7 @@
         "homeEnergyMax": 288,
         "levelUpEnergy": 30,
         "levelUpExp": 10,
+        "questListId": 80302651,
         "reduceHomeEnergy": 30
       },
       {
@@ -971,6 +976,7 @@
         "homeEnergyMax": 304,
         "levelUpEnergy": 30,
         "levelUpExp": 10,
+        "questListId": -1,
         "reduceHomeEnergy": 30
       },
       {
@@ -1041,6 +1047,7 @@
         "homeEnergyMax": 384,
         "levelUpEnergy": 50,
         "levelUpExp": 120,
+        "questListId": 80302186,
         "reduceHomeEnergy": 50
       },
       {
@@ -1048,6 +1055,7 @@
         "homeEnergyMax": 392,
         "levelUpEnergy": 50,
         "levelUpExp": 140,
+        "questListId": -1,
         "reduceHomeEnergy": 50
       },
       {
@@ -1111,6 +1119,7 @@
         "homeEnergyMax": 464,
         "levelUpEnergy": 60,
         "levelUpExp": 320,
+        "questListId": 80302187,
         "reduceHomeEnergy": 60
       },
       {
@@ -1118,6 +1127,7 @@
         "homeEnergyMax": 472,
         "levelUpEnergy": 60,
         "levelUpExp": 340,
+        "questListId": 80302190,
         "reduceHomeEnergy": 60
       },
       {
@@ -1125,6 +1135,7 @@
         "homeEnergyMax": 480,
         "levelUpEnergy": 60,
         "levelUpExp": 360,
+        "questListId": -1,
         "reduceHomeEnergy": 60
       },
       {
@@ -1146,6 +1157,7 @@
         "homeEnergyMax": 504,
         "levelUpEnergy": 60,
         "levelUpExp": 420,
+        "questListId": 80302189,
         "reduceHomeEnergy": 60
       },
       {
@@ -1181,6 +1193,7 @@
         "homeEnergyMax": 544,
         "levelUpEnergy": 60,
         "levelUpExp": 520,
+        "questListId": 80302188,
         "reduceHomeEnergy": 60
       },
       {
@@ -1188,6 +1201,7 @@
         "homeEnergyMax": 552,
         "levelUpEnergy": 60,
         "levelUpExp": 540,
+        "questListId": 80302191,
         "reduceHomeEnergy": 60
       },
       {
@@ -1195,6 +1209,7 @@
         "homeEnergyMax": 560,
         "levelUpEnergy": 60,
         "levelUpExp": 560,
+        "questListId": -1,
         "reduceHomeEnergy": 60
       },
       {
@@ -1202,6 +1217,7 @@
         "homeEnergyMax": 568,
         "levelUpEnergy": 60,
         "levelUpExp": 580,
+        "questListId": -1,
         "reduceHomeEnergy": 60
       },
       {
@@ -1377,6 +1393,7 @@
         "homeEnergyMax": 768,
         "levelUpEnergy": 60,
         "levelUpExp": 2440,
+        "questListId": -1,
         "reduceHomeEnergy": 60
       },
       {
@@ -1384,6 +1401,7 @@
         "homeEnergyMax": 776,
         "levelUpEnergy": 60,
         "levelUpExp": 2720,
+        "questListId": -1,
         "reduceHomeEnergy": 60
       },
       {
@@ -1391,6 +1409,7 @@
         "homeEnergyMax": 784,
         "levelUpEnergy": 60,
         "levelUpExp": 3020,
+        "questListId": -1,
         "reduceHomeEnergy": 60
       },
       {
@@ -1398,6 +1417,47 @@
         "homeEnergyMax": 792,
         "levelUpEnergy": 60,
         "levelUpExp": 3340,
+        "questListId": -1,
+        "reduceHomeEnergy": 60
+      },
+      {
+        "EnergyMax": 260,
+        "homeEnergyMax": 800,
+        "levelUpEnergy": 60,
+        "levelUpExp": 3680,
+        "questListId": -1,
+        "reduceHomeEnergy": 60
+      },
+      {
+        "EnergyMax": 262,
+        "homeEnergyMax": 808,
+        "levelUpEnergy": 60,
+        "levelUpExp": 4040,
+        "questListId": -1,
+        "reduceHomeEnergy": 60
+      },
+      {
+        "EnergyMax": 264,
+        "homeEnergyMax": 816,
+        "levelUpEnergy": 60,
+        "levelUpExp": 4420,
+        "questListId": -1,
+        "reduceHomeEnergy": 60
+      },
+      {
+        "EnergyMax": 266,
+        "homeEnergyMax": 824,
+        "levelUpEnergy": 60,
+        "levelUpExp": 4820,
+        "questListId": -1,
+        "reduceHomeEnergy": 60
+      },
+      {
+        "EnergyMax": 268,
+        "homeEnergyMax": 832,
+        "levelUpEnergy": 60,
+        "levelUpExp": 5240,
+        "questListId": -1,
         "reduceHomeEnergy": 60
       }
     ]
@@ -1589,6 +1649,17 @@
     "mod": "战斗配置",
     "isInformalData": false,
     "nameEN": "BattleConfig",
+    "attCtrlList": [
+      {
+        "isUseMax": true,
+        "isUseMin": false,
+        "name": "Atk",
+        "numMax": 21600,
+        "numMin": 0,
+        "type": "Percent"
+      }
+    ],
+    "isDotweenPause": false,
     "bossProgMutiple": 10,
     "maxRandomWaveCount": 3,
     "defaultBossHPTemp": 90100006,
@@ -1920,6 +1991,28 @@
     "playerCardAICoreId": 96000001,
     "defaultUseCardActionId": 96300001,
     "CardAILevelId": 20100006,
+    "preloadAssets": [
+      {
+        "isPrefab": false,
+        "preloadPath": "CommonEffect/Com/com_cardOne_01/com_cardOne_01_SkeletonData"
+      },
+      {
+        "isPrefab": false,
+        "preloadPath": "CommonEffect/kapai/kapai_TX01/kapai_TX01_SkeletonData"
+      },
+      {
+        "isPrefab": false,
+        "preloadPath": "CommonEffect/Buff02/Buff02_SkeletonData"
+      },
+      {
+        "isPrefab": false,
+        "preloadPath": "CommonEffect/Buff/Buff_SkeletonData"
+      },
+      {
+        "isPrefab": false,
+        "preloadPath": "CommonEffect/ZJJ/ZJJ_SkeletonData"
+      }
+    ],
     "specialIcon05": "UI/Battle/CardDes/anyi_count"
   },
   {
@@ -1945,9 +2038,6 @@
         "id": 81000536
       },
       {
-        "id": 81001357
-      },
-      {
         "id": 81001382
       },
       {
@@ -1955,6 +2045,54 @@
       },
       {
         "id": 81001384
+      },
+      {
+        "id": 81001357
+      },
+      {
+        "id": 81001471
+      },
+      {
+        "id": 81001472
+      },
+      {
+        "id": 81001473
+      },
+      {
+        "id": 81001474
+      },
+      {
+        "id": 81001475
+      },
+      {
+        "id": 81001476
+      },
+      {
+        "id": 81001477
+      },
+      {
+        "id": 81001358
+      },
+      {
+        "id": 81001478
+      },
+      {
+        "id": 81001479
+      },
+      {
+        "id": 81001480
+      },
+      {
+        "id": 81001481
+      },
+      {
+        "id": 81001482
+      },
+      {
+        "id": 81001483
+      },
+      {
+        "id": 81001484
       }
     ],
     "passAnyMainLevel": [],
@@ -2005,6 +2143,26 @@
       },
       {
         "id": 81001011
+      }
+    ],
+    "passAnyTowerLevel": [
+      {
+        "id": 81000906
+      },
+      {
+        "id": 81000905
+      },
+      {
+        "id": 81000904
+      },
+      {
+        "id": 81001366
+      },
+      {
+        "id": 81001367
+      },
+      {
+        "id": 81001368
       }
     ],
     "passBylevelId": [
@@ -2513,9 +2671,6 @@
         "id": 81001008
       },
       {
-        "id": 81001358
-      },
-      {
         "id": 81001352
       },
       {
@@ -2547,6 +2702,15 @@
       },
       {
         "id": 81001345
+      },
+      {
+        "id": 81001401
+      },
+      {
+        "id": 81001402
+      },
+      {
+        "id": 81001403
       }
     ],
     "passByChapterId": [],
@@ -2968,7 +3132,46 @@
         "id": 81000460
       },
       {
+        "id": 81001390
+      },
+      {
+        "id": 81001391
+      },
+      {
+        "id": 81001392
+      },
+      {
         "id": 81001359
+      },
+      {
+        "id": 81001485
+      },
+      {
+        "id": 81001494
+      },
+      {
+        "id": 81001486
+      },
+      {
+        "id": 81001487
+      },
+      {
+        "id": 81001488
+      },
+      {
+        "id": 81001489
+      },
+      {
+        "id": 81001490
+      },
+      {
+        "id": 81001491
+      },
+      {
+        "id": 81001492
+      },
+      {
+        "id": 81001493
       }
     ],
     "addWeight": [
@@ -3196,7 +3399,7 @@
         "id": 81001380
       },
       {
-        "id": 81001380
+        "id": 81001381
       }
     ],
     "solicitCustomer": [
@@ -3808,7 +4011,420 @@
         "id": 81000589
       }
     ],
-    "shopCostItem": []
+    "shopCostItem": [],
+    "coreLvUp": [
+      {
+        "id": 81000879
+      },
+      {
+        "id": 81000880
+      },
+      {
+        "id": 81000881
+      },
+      {
+        "id": 81000882
+      },
+      {
+        "id": 81000883
+      },
+      {
+        "id": 81000884
+      },
+      {
+        "id": 81000885
+      },
+      {
+        "id": 81000902
+      },
+      {
+        "id": 81000903
+      }
+    ],
+    "manufacture": [
+      {
+        "id": 81000907
+      },
+      {
+        "id": 81000910
+      },
+      {
+        "id": 81000911
+      },
+      {
+        "id": 81000948
+      }
+    ],
+    "strengthenEquipment": [
+      {
+        "id": 81000949
+      },
+      {
+        "id": 81000950
+      },
+      {
+        "id": 81000951
+      },
+      {
+        "id": 81000959
+      },
+      {
+        "id": 81000960
+      },
+      {
+        "id": 81000952
+      },
+      {
+        "id": 81000953
+      },
+      {
+        "id": 81001369
+      },
+      {
+        "id": 81001370
+      },
+      {
+        "id": 81001371
+      }
+    ],
+    "makeTrainWeapon": [
+      {
+        "id": 81000961
+      }
+    ],
+    "haveFurniture": [
+      {
+        "id": 81001328
+      },
+      {
+        "id": 81001330
+      },
+      {
+        "id": 81001333
+      },
+      {
+        "id": 81001335
+      },
+      {
+        "id": 81001338
+      },
+      {
+        "id": 81001355
+      },
+      {
+        "id": 81001356
+      },
+      {
+        "id": 81001410
+      },
+      {
+        "id": 81001419
+      },
+      {
+        "id": 81001420
+      },
+      {
+        "id": 81001421
+      },
+      {
+        "id": 81001422
+      },
+      {
+        "id": 81001423
+      },
+      {
+        "id": 81001424
+      },
+      {
+        "id": 81001425
+      },
+      {
+        "id": 81001426
+      },
+      {
+        "id": 81001427
+      },
+      {
+        "id": 81001428
+      },
+      {
+        "id": 81001411
+      },
+      {
+        "id": 81001429
+      },
+      {
+        "id": 81001430
+      },
+      {
+        "id": 81001431
+      },
+      {
+        "id": 81001432
+      },
+      {
+        "id": 81001433
+      },
+      {
+        "id": 81001434
+      },
+      {
+        "id": 81001435
+      },
+      {
+        "id": 81001436
+      },
+      {
+        "id": 81001437
+      },
+      {
+        "id": 81001438
+      },
+      {
+        "id": 81001412
+      },
+      {
+        "id": 81001439
+      },
+      {
+        "id": 81001440
+      },
+      {
+        "id": 81001441
+      },
+      {
+        "id": 81001442
+      },
+      {
+        "id": 81001443
+      },
+      {
+        "id": 81001444
+      },
+      {
+        "id": 81001445
+      },
+      {
+        "id": 81001446
+      },
+      {
+        "id": 81001447
+      },
+      {
+        "id": 81001448
+      },
+      {
+        "id": 81001413
+      },
+      {
+        "id": 81001449
+      },
+      {
+        "id": 81001450
+      },
+      {
+        "id": 81001451
+      },
+      {
+        "id": 81001452
+      },
+      {
+        "id": 81001453
+      },
+      {
+        "id": 81001454
+      },
+      {
+        "id": 81001455
+      },
+      {
+        "id": 81001456
+      },
+      {
+        "id": 81001457
+      },
+      {
+        "id": 81001458
+      },
+      {
+        "id": 81001414
+      },
+      {
+        "id": 81001459
+      },
+      {
+        "id": 81001460
+      },
+      {
+        "id": 81001461
+      },
+      {
+        "id": 81001462
+      },
+      {
+        "id": 81001463
+      },
+      {
+        "id": 81001464
+      },
+      {
+        "id": 81001465
+      },
+      {
+        "id": 81001466
+      },
+      {
+        "id": 81001467
+      },
+      {
+        "id": 81001468
+      },
+      {
+        "id": 81001415
+      },
+      {
+        "id": 81001469
+      },
+      {
+        "id": 81001470
+      },
+      {
+        "id": 81001416
+      },
+      {
+        "id": 81001417
+      },
+      {
+        "id": 81001418
+      }
+    ],
+    "addScore": [
+      {
+        "id": 81001400
+      },
+      {
+        "id": 81001514
+      },
+      {
+        "id": 81001515
+      },
+      {
+        "id": 81001516
+      },
+      {
+        "id": 81001517
+      },
+      {
+        "id": 81001518
+      },
+      {
+        "id": 81001398
+      },
+      {
+        "id": 81001504
+      },
+      {
+        "id": 81001505
+      },
+      {
+        "id": 81001506
+      },
+      {
+        "id": 81001507
+      },
+      {
+        "id": 81001508
+      },
+      {
+        "id": 81001388
+      },
+      {
+        "id": 81001499
+      },
+      {
+        "id": 81001500
+      },
+      {
+        "id": 81001501
+      },
+      {
+        "id": 81001502
+      },
+      {
+        "id": 81001503
+      },
+      {
+        "id": 81001399
+      },
+      {
+        "id": 81001509
+      },
+      {
+        "id": 81001510
+      },
+      {
+        "id": 81001511
+      },
+      {
+        "id": 81001512
+      },
+      {
+        "id": 81001513
+      }
+    ],
+    "haveArea": [
+      {
+        "id": 81001360
+      },
+      {
+        "id": 81001495
+      },
+      {
+        "id": 81001496
+      },
+      {
+        "id": 81001497
+      },
+      {
+        "id": 81001498
+      }
+    ],
+    "dialog": [
+      {
+        "id": 81000964
+      }
+    ],
+    "decorate": [
+      {
+        "id": 81001325
+      },
+      {
+        "id": 81001326
+      },
+      {
+        "id": 81001329
+      },
+      {
+        "id": 81001331
+      },
+      {
+        "id": 81001334
+      },
+      {
+        "id": 81001336
+      },
+      {
+        "id": 81001354
+      }
+    ],
+    "filmList": [
+      {
+        "id": 81001393
+      },
+      {
+        "id": 81001394
+      }
+    ]
   },
   {
     "id": 99900010,
@@ -6804,6 +7420,11 @@
       {
         "pic": "UI/Notebook/HelpBook/7"
       }
+    ],
+    "prisonMachineList": [
+      {
+        "id": 12601136
+      }
     ]
   },
   {
@@ -7062,6 +7683,37 @@
       },
       {
         "id": 12601172
+      }
+    ],
+    "prisonPersonalityNameList": [
+      {
+        "id": 12601087
+      },
+      {
+        "id": 12601140
+      },
+      {
+        "id": 12601135
+      },
+      {
+        "id": 12601139
+      },
+      {
+        "id": 12601137
+      },
+      {
+        "id": 12601134
+      },
+      {
+        "id": 12601138
+      },
+      {
+        "id": 12601133
+      }
+    ],
+    "prisonSpecialityList": [
+      {
+        "id": 12601148
       }
     ]
   },
@@ -8553,7 +9205,7 @@
     "mod": "贸易经验表",
     "isInformalData": false,
     "nameEN": "TradeExpConfig",
-    "levelMax": 70,
+    "levelMax": 75,
     "expList": [
       {
         "bargainRange": 0.031,
@@ -10699,6 +11351,18 @@
         "languageType": "jp",
         "translateResListId": 99800001
       }
+    ],
+    "soundList": [
+      {
+        "languageDetail": "中文",
+        "languageType": "zh",
+        "translateResListId": -1
+      },
+      {
+        "languageDetail": "日语",
+        "languageType": "jp",
+        "translateResListId": 99800001
+      }
     ]
   },
   {
@@ -10707,7 +11371,7 @@
     "mod": "装备配置",
     "isInformalData": false,
     "nameEN": "EquipmentConfig",
-    "equipMaxLv": 70,
+    "equipMaxLv": 75,
     "ChangeNum": 999,
     "LevelNum": 10,
     "EquipPresetsNum": 3,
@@ -11093,6 +11757,31 @@
         "EnergyMax": 681275,
         "levelUpEnergy": 409500,
         "levelUpExp": 40950
+      },
+      {
+        "EnergyMax": 722225,
+        "levelUpEnergy": 409500,
+        "levelUpExp": 40950
+      },
+      {
+        "EnergyMax": 763175,
+        "levelUpEnergy": 409500,
+        "levelUpExp": 40950
+      },
+      {
+        "EnergyMax": 804125,
+        "levelUpEnergy": 409500,
+        "levelUpExp": 40950
+      },
+      {
+        "EnergyMax": 845075,
+        "levelUpEnergy": 409500,
+        "levelUpExp": 40950
+      },
+      {
+        "EnergyMax": 886025,
+        "levelUpEnergy": 409500,
+        "levelUpExp": 40950
       }
     ]
   },
@@ -11450,6 +12139,31 @@
       },
       {
         "EnergyMax": 486625,
+        "levelUpEnergy": 292500,
+        "levelUpExp": 29250
+      },
+      {
+        "EnergyMax": 515875,
+        "levelUpEnergy": 292500,
+        "levelUpExp": 29250
+      },
+      {
+        "EnergyMax": 545125,
+        "levelUpEnergy": 292500,
+        "levelUpExp": 29250
+      },
+      {
+        "EnergyMax": 574375,
+        "levelUpEnergy": 292500,
+        "levelUpExp": 29250
+      },
+      {
+        "EnergyMax": 603625,
+        "levelUpEnergy": 292500,
+        "levelUpExp": 29250
+      },
+      {
+        "EnergyMax": 632875,
         "levelUpEnergy": 292500,
         "levelUpExp": 29250
       }
@@ -11811,6 +12525,31 @@
         "EnergyMax": 291975,
         "levelUpEnergy": 175500,
         "levelUpExp": 17550
+      },
+      {
+        "EnergyMax": 309525,
+        "levelUpEnergy": 175500,
+        "levelUpExp": 17550
+      },
+      {
+        "EnergyMax": 327075,
+        "levelUpEnergy": 175500,
+        "levelUpExp": 17550
+      },
+      {
+        "EnergyMax": 344625,
+        "levelUpEnergy": 175500,
+        "levelUpExp": 17550
+      },
+      {
+        "EnergyMax": 362175,
+        "levelUpEnergy": 175500,
+        "levelUpExp": 17550
+      },
+      {
+        "EnergyMax": 379725,
+        "levelUpEnergy": 175500,
+        "levelUpExp": 17550
       }
     ]
   },
@@ -12170,6 +12909,31 @@
         "EnergyMax": 1070585,
         "levelUpEnergy": 643500,
         "levelUpExp": 64350
+      },
+      {
+        "EnergyMax": 1134935,
+        "levelUpEnergy": 643500,
+        "levelUpExp": 64350
+      },
+      {
+        "EnergyMax": 1199285,
+        "levelUpEnergy": 643500,
+        "levelUpExp": 64350
+      },
+      {
+        "EnergyMax": 1263635,
+        "levelUpEnergy": 643500,
+        "levelUpExp": 64350
+      },
+      {
+        "EnergyMax": 1327985,
+        "levelUpEnergy": 643500,
+        "levelUpExp": 64350
+      },
+      {
+        "EnergyMax": 1392335,
+        "levelUpEnergy": 643500,
+        "levelUpExp": 64350
       }
     ]
   },
@@ -12527,6 +13291,31 @@
       },
       {
         "EnergyMax": 1946500,
+        "levelUpEnergy": 1170000,
+        "levelUpExp": 117000
+      },
+      {
+        "EnergyMax": 2063500,
+        "levelUpEnergy": 1170000,
+        "levelUpExp": 117000
+      },
+      {
+        "EnergyMax": 2180500,
+        "levelUpEnergy": 1170000,
+        "levelUpExp": 117000
+      },
+      {
+        "EnergyMax": 2297500,
+        "levelUpEnergy": 1170000,
+        "levelUpExp": 117000
+      },
+      {
+        "EnergyMax": 2414500,
+        "levelUpEnergy": 1170000,
+        "levelUpExp": 117000
+      },
+      {
+        "EnergyMax": 2531500,
         "levelUpEnergy": 1170000,
         "levelUpExp": 117000
       }
@@ -13761,6 +14550,7 @@
     "mod": "行情反转概率表",
     "isInformalData": false,
     "nameEN": "QuotationConfig",
+    "defaultVal": 1,
     "reversalProbabilityList": [
       {
         "probability": 1.0,
@@ -13927,305 +14717,126 @@
         "quotation": 0.8
       }
     ],
-    "activityReversalProbabilityList": [
+    "activityBuyVal": 0.85,
+    "activityBuyList": [
       {
         "probability": 1.0,
-        "quotation": 1.5
-      },
-      {
-        "probability": 0.5,
-        "quotation": 1.49
-      },
-      {
-        "probability": 0.5,
-        "quotation": 1.48
-      },
-      {
-        "probability": 0.5,
-        "quotation": 1.47
-      },
-      {
-        "probability": 0.5,
-        "quotation": 1.46
-      },
-      {
-        "probability": 0.5,
-        "quotation": 1.45
-      },
-      {
-        "probability": 0.45,
-        "quotation": 1.44
-      },
-      {
-        "probability": 0.45,
-        "quotation": 1.43
-      },
-      {
-        "probability": 0.45,
-        "quotation": 1.42
-      },
-      {
-        "probability": 0.45,
-        "quotation": 1.41
-      },
-      {
-        "probability": 0.45,
-        "quotation": 1.4
-      },
-      {
-        "probability": 0.4,
-        "quotation": 1.39
-      },
-      {
-        "probability": 0.4,
-        "quotation": 1.38
-      },
-      {
-        "probability": 0.4,
-        "quotation": 1.37
-      },
-      {
-        "probability": 0.4,
-        "quotation": 1.36
-      },
-      {
-        "probability": 1.0,
-        "quotation": 1.35
-      },
-      {
-        "probability": 0.35,
-        "quotation": 1.34
-      },
-      {
-        "probability": 0.35,
-        "quotation": 1.33
-      },
-      {
-        "probability": 0.35,
-        "quotation": 1.32
-      },
-      {
-        "probability": 0.35,
-        "quotation": 1.31
-      },
-      {
-        "probability": 0.35,
-        "quotation": 1.3
-      },
-      {
-        "probability": 0.3,
-        "quotation": 1.29
-      },
-      {
-        "probability": 0.3,
-        "quotation": 1.28
-      },
-      {
-        "probability": 0.3,
-        "quotation": 1.27
-      },
-      {
-        "probability": 0.3,
-        "quotation": 1.26
-      },
-      {
-        "probability": 0.3,
-        "quotation": 1.25
-      },
-      {
-        "probability": 0.25,
-        "quotation": 1.24
-      },
-      {
-        "probability": 0.25,
-        "quotation": 1.23
-      },
-      {
-        "probability": 0.25,
-        "quotation": 1.22
-      },
-      {
-        "probability": 0.25,
-        "quotation": 1.21
-      },
-      {
-        "probability": 0.25,
-        "quotation": 1.2
-      },
-      {
-        "probability": 0.2,
-        "quotation": 1.19
-      },
-      {
-        "probability": 0.2,
-        "quotation": 1.18
-      },
-      {
-        "probability": 0.2,
-        "quotation": 1.17
-      },
-      {
-        "probability": 0.2,
-        "quotation": 1.16
-      },
-      {
-        "probability": 0.2,
-        "quotation": 1.15
-      },
-      {
-        "probability": 0.15,
-        "quotation": 1.14
-      },
-      {
-        "probability": 0.15,
-        "quotation": 1.13
-      },
-      {
-        "probability": 0.15,
-        "quotation": 1.12
-      },
-      {
-        "probability": 0.15,
-        "quotation": 1.11
-      },
-      {
-        "probability": 0.15,
-        "quotation": 1.1
-      },
-      {
-        "probability": 0.1,
-        "quotation": 1.09
-      },
-      {
-        "probability": 0.1,
-        "quotation": 1.08
-      },
-      {
-        "probability": 0.1,
-        "quotation": 1.07
-      },
-      {
-        "probability": 0.1,
-        "quotation": 1.06
-      },
-      {
-        "probability": 0.5,
         "quotation": 1.05
       },
       {
-        "probability": 0.05,
+        "probability": 0.35,
         "quotation": 1.04
       },
       {
-        "probability": 0.05,
+        "probability": 0.35,
         "quotation": 1.03
       },
       {
-        "probability": 0.05,
+        "probability": 0.35,
         "quotation": 1.02
       },
       {
-        "probability": 0.05,
+        "probability": 0.35,
         "quotation": 1.01
       },
       {
-        "probability": 0.5,
+        "probability": 0.35,
         "quotation": 1.0
       },
       {
-        "probability": 0.05,
+        "probability": 0.3,
         "quotation": 0.99
       },
       {
-        "probability": 0.05,
+        "probability": 0.3,
         "quotation": 0.98
       },
       {
-        "probability": 0.05,
+        "probability": 0.3,
         "quotation": 0.97
       },
       {
-        "probability": 0.05,
+        "probability": 0.3,
         "quotation": 0.96
       },
       {
-        "probability": 0.5,
+        "probability": 0.3,
         "quotation": 0.95
       },
       {
-        "probability": 0.1,
+        "probability": 0.2,
         "quotation": 0.94
       },
       {
-        "probability": 0.1,
+        "probability": 0.2,
         "quotation": 0.93
       },
       {
-        "probability": 0.1,
+        "probability": 0.2,
         "quotation": 0.92
       },
       {
-        "probability": 0.1,
+        "probability": 0.2,
         "quotation": 0.91
       },
       {
-        "probability": 0.15,
+        "probability": 0.2,
         "quotation": 0.9
       },
       {
-        "probability": 0.15,
+        "probability": 0.1,
         "quotation": 0.89
       },
       {
-        "probability": 0.15,
+        "probability": 0.1,
         "quotation": 0.88
       },
       {
-        "probability": 0.15,
+        "probability": 0.1,
         "quotation": 0.87
       },
       {
-        "probability": 0.15,
+        "probability": 0.1,
         "quotation": 0.86
       },
       {
-        "probability": 0.2,
+        "probability": 0.0,
         "quotation": 0.85
       },
       {
-        "probability": 0.2,
+        "probability": 0.1,
         "quotation": 0.84
       },
       {
-        "probability": 0.2,
+        "probability": 0.1,
         "quotation": 0.83
       },
       {
-        "probability": 0.2,
+        "probability": 0.1,
         "quotation": 0.82
       },
       {
-        "probability": 0.2,
+        "probability": 0.1,
         "quotation": 0.81
       },
       {
-        "probability": 0.25,
+        "probability": 0.2,
         "quotation": 0.8
       },
       {
-        "probability": 0.25,
+        "probability": 0.2,
         "quotation": 0.79
       },
       {
-        "probability": 0.25,
+        "probability": 0.2,
         "quotation": 0.78
       },
       {
-        "probability": 0.25,
+        "probability": 0.2,
         "quotation": 0.77
       },
       {
-        "probability": 0.25,
+        "probability": 0.2,
         "quotation": 0.76
       },
       {
@@ -14271,66 +14882,173 @@
       {
         "probability": 1.0,
         "quotation": 0.65
+      }
+    ],
+    "activitySellVal": 1.15,
+    "activitySellList": [
+      {
+        "probability": 1.0,
+        "quotation": 1.35
       },
       {
-        "probability": 0.4,
-        "quotation": 0.64
+        "probability": 0.35,
+        "quotation": 1.34
       },
       {
-        "probability": 0.4,
-        "quotation": 0.63
+        "probability": 0.35,
+        "quotation": 1.33
       },
       {
-        "probability": 0.4,
-        "quotation": 0.62
+        "probability": 0.35,
+        "quotation": 1.32
       },
       {
-        "probability": 0.4,
-        "quotation": 0.61
+        "probability": 0.35,
+        "quotation": 1.31
       },
       {
-        "probability": 0.45,
-        "quotation": 0.6
+        "probability": 0.35,
+        "quotation": 1.3
       },
       {
-        "probability": 0.45,
-        "quotation": 0.59
+        "probability": 0.3,
+        "quotation": 1.29
       },
       {
-        "probability": 0.45,
-        "quotation": 0.58
+        "probability": 0.3,
+        "quotation": 1.28
       },
       {
-        "probability": 0.45,
-        "quotation": 0.57
+        "probability": 0.3,
+        "quotation": 1.27
       },
       {
-        "probability": 0.45,
-        "quotation": 0.56
+        "probability": 0.3,
+        "quotation": 1.26
       },
       {
-        "probability": 0.5,
-        "quotation": 0.55
+        "probability": 0.3,
+        "quotation": 1.25
       },
       {
-        "probability": 0.5,
-        "quotation": 0.54
+        "probability": 0.2,
+        "quotation": 1.24
       },
       {
-        "probability": 0.5,
-        "quotation": 0.53
+        "probability": 0.2,
+        "quotation": 1.23
       },
       {
-        "probability": 0.5,
-        "quotation": 0.52
+        "probability": 0.2,
+        "quotation": 1.22
       },
       {
-        "probability": 0.5,
-        "quotation": 0.51
+        "probability": 0.2,
+        "quotation": 1.21
+      },
+      {
+        "probability": 0.2,
+        "quotation": 1.2
+      },
+      {
+        "probability": 0.1,
+        "quotation": 1.19
+      },
+      {
+        "probability": 0.1,
+        "quotation": 1.18
+      },
+      {
+        "probability": 0.1,
+        "quotation": 1.17
+      },
+      {
+        "probability": 0.1,
+        "quotation": 1.16
+      },
+      {
+        "probability": 0.0,
+        "quotation": 1.15
+      },
+      {
+        "probability": 0.1,
+        "quotation": 1.14
+      },
+      {
+        "probability": 0.1,
+        "quotation": 1.13
+      },
+      {
+        "probability": 0.1,
+        "quotation": 1.12
+      },
+      {
+        "probability": 0.1,
+        "quotation": 1.11
+      },
+      {
+        "probability": 0.2,
+        "quotation": 1.1
+      },
+      {
+        "probability": 0.2,
+        "quotation": 1.09
+      },
+      {
+        "probability": 0.2,
+        "quotation": 1.08
+      },
+      {
+        "probability": 0.2,
+        "quotation": 1.07
+      },
+      {
+        "probability": 0.2,
+        "quotation": 1.06
+      },
+      {
+        "probability": 0.3,
+        "quotation": 1.05
+      },
+      {
+        "probability": 0.3,
+        "quotation": 1.04
+      },
+      {
+        "probability": 0.3,
+        "quotation": 1.03
+      },
+      {
+        "probability": 0.3,
+        "quotation": 1.02
+      },
+      {
+        "probability": 0.3,
+        "quotation": 1.01
+      },
+      {
+        "probability": 0.35,
+        "quotation": 1.0
+      },
+      {
+        "probability": 0.35,
+        "quotation": 0.99
+      },
+      {
+        "probability": 0.35,
+        "quotation": 0.98
+      },
+      {
+        "probability": 0.35,
+        "quotation": 0.97
+      },
+      {
+        "probability": 0.35,
+        "quotation": 0.96
       },
       {
         "probability": 1.0,
-        "quotation": 0.5
+        "quotation": 0.95
       }
     ]
   },
@@ -15218,6 +15936,84 @@
         "id": 41,
         "ui": "UI/CityMap/CityMap",
         "unlockQuest": -1
+      },
+      {
+        "guideId": 20900070,
+        "id": 51,
+        "ui": "UI/Playground/Playground",
+        "unlockQuest": -1
+      },
+      {
+        "guideId": 20900071,
+        "id": 52,
+        "ui": "UI/Playground/Playground",
+        "unlockQuest": -1
+      },
+      {
+        "guideId": 20900075,
+        "id": 53,
+        "ui": "UI/Playground/Playground",
+        "unlockQuest": -1
+      },
+      {
+        "guideId": 20900077,
+        "id": 54,
+        "ui": "UI/Playground/Playground",
+        "unlockQuest": -1
+      },
+      {
+        "guideId": 20900081,
+        "id": 55,
+        "ui": "UI/Playground/Playground",
+        "unlockQuest": -1
+      },
+      {
+        "guideId": 20900098,
+        "id": 56,
+        "ui": "UI/Playground/Playground",
+        "unlockQuest": -1
+      },
+      {
+        "guideId": 20900099,
+        "id": 57,
+        "ui": "UI/Playground/Playground",
+        "unlockQuest": -1
+      },
+      {
+        "guideId": 20900106,
+        "id": 59,
+        "ui": "UI/Playground/Playground",
+        "unlockQuest": -1
+      },
+      {
+        "guideId": 20900107,
+        "id": 60,
+        "ui": "UI/Playground/Playground",
+        "unlockQuest": -1
+      },
+      {
+        "guideId": 20900109,
+        "id": 61,
+        "ui": "UI/Playground/Playground",
+        "unlockQuest": -1
+      },
+      {
+        "guideId": 20900110,
+        "id": 62,
+        "ui": "UI/Playground/Playground",
+        "unlockQuest": -1
+      },
+      {
+        "guideId": 20900112,
+        "id": 64,
+        "ui": "UI/Playground/Playground",
+        "unlockQuest": -1
+      },
+      {
+        "guideId": 20900117,
+        "id": 65,
+        "ui": "UI/Playground/Playground",
+        "unlockQuest": -1
       }
     ]
   },
@@ -15756,7 +16552,7 @@
     "pollutePlyerLv": 21,
     "polluteQuestId": -1,
     "polluteMin": 2,
-    "polluteMax": 3,
+    "polluteMax": 4,
     "pollutePlayerNum": 20000,
     "polluteAreaList": [
       {
@@ -15794,6 +16590,10 @@
       {
         "id": 84600009,
         "weight": 0
+      },
+      {
+        "id": 84600010,
+        "weight": 999
       }
     ],
     "isClickPollute": true,
@@ -16859,416 +17659,6 @@
         "probability": 1.0,
         "quotation": 0.8
       }
-    ],
-    "activityReversalProbabilityList": [
-      {
-        "probability": 1.0,
-        "quotation": 1.5
-      },
-      {
-        "probability": 0.5,
-        "quotation": 1.49
-      },
-      {
-        "probability": 0.5,
-        "quotation": 1.48
-      },
-      {
-        "probability": 0.5,
-        "quotation": 1.47
-      },
-      {
-        "probability": 0.5,
-        "quotation": 1.46
-      },
-      {
-        "probability": 0.5,
-        "quotation": 1.45
-      },
-      {
-        "probability": 0.45,
-        "quotation": 1.44
-      },
-      {
-        "probability": 0.45,
-        "quotation": 1.43
-      },
-      {
-        "probability": 0.45,
-        "quotation": 1.42
-      },
-      {
-        "probability": 0.45,
-        "quotation": 1.41
-      },
-      {
-        "probability": 0.45,
-        "quotation": 1.4
-      },
-      {
-        "probability": 0.4,
-        "quotation": 1.39
-      },
-      {
-        "probability": 0.4,
-        "quotation": 1.38
-      },
-      {
-        "probability": 0.4,
-        "quotation": 1.37
-      },
-      {
-        "probability": 0.4,
-        "quotation": 1.36
-      },
-      {
-        "probability": 0.4,
-        "quotation": 1.35
-      },
-      {
-        "probability": 0.35,
-        "quotation": 1.34
-      },
-      {
-        "probability": 0.35,
-        "quotation": 1.33
-      },
-      {
-        "probability": 0.35,
-        "quotation": 1.32
-      },
-      {
-        "probability": 0.35,
-        "quotation": 1.31
-      },
-      {
-        "probability": 0.35,
-        "quotation": 1.3
-      },
-      {
-        "probability": 0.3,
-        "quotation": 1.29
-      },
-      {
-        "probability": 0.3,
-        "quotation": 1.28
-      },
-      {
-        "probability": 0.3,
-        "quotation": 1.27
-      },
-      {
-        "probability": 0.3,
-        "quotation": 1.26
-      },
-      {
-        "probability": 0.3,
-        "quotation": 1.25
-      },
-      {
-        "probability": 0.25,
-        "quotation": 1.24
-      },
-      {
-        "probability": 0.25,
-        "quotation": 1.23
-      },
-      {
-        "probability": 0.25,
-        "quotation": 1.22
-      },
-      {
-        "probability": 0.25,
-        "quotation": 1.21
-      },
-      {
-        "probability": 0.25,
-        "quotation": 1.2
-      },
-      {
-        "probability": 0.2,
-        "quotation": 1.19
-      },
-      {
-        "probability": 0.2,
-        "quotation": 1.18
-      },
-      {
-        "probability": 0.2,
-        "quotation": 1.17
-      },
-      {
-        "probability": 0.2,
-        "quotation": 1.16
-      },
-      {
-        "probability": 0.2,
-        "quotation": 1.15
-      },
-      {
-        "probability": 0.15,
-        "quotation": 1.14
-      },
-      {
-        "probability": 0.15,
-        "quotation": 1.13
-      },
-      {
-        "probability": 0.15,
-        "quotation": 1.12
-      },
-      {
-        "probability": 0.15,
-        "quotation": 1.11
-      },
-      {
-        "probability": 0.15,
-        "quotation": 1.1
-      },
-      {
-        "probability": 0.1,
-        "quotation": 1.09
-      },
-      {
-        "probability": 0.1,
-        "quotation": 1.08
-      },
-      {
-        "probability": 0.1,
-        "quotation": 1.07
-      },
-      {
-        "probability": 0.1,
-        "quotation": 1.06
-      },
-      {
-        "probability": 0.1,
-        "quotation": 1.05
-      },
-      {
-        "probability": 0.05,
-        "quotation": 1.04
-      },
-      {
-        "probability": 0.05,
-        "quotation": 1.03
-      },
-      {
-        "probability": 0.05,
-        "quotation": 1.02
-      },
-      {
-        "probability": 0.05,
-        "quotation": 1.01
-      },
-      {
-        "probability": 0.0,
-        "quotation": 1.0
-      },
-      {
-        "probability": 0.0,
-        "quotation": 1.0
-      },
-      {
-        "probability": 0.05,
-        "quotation": 0.99
-      },
-      {
-        "probability": 0.05,
-        "quotation": 0.98
-      },
-      {
-        "probability": 0.05,
-        "quotation": 0.97
-      },
-      {
-        "probability": 0.05,
-        "quotation": 0.96
-      },
-      {
-        "probability": 0.1,
-        "quotation": 0.95
-      },
-      {
-        "probability": 0.1,
-        "quotation": 0.94
-      },
-      {
-        "probability": 0.1,
-        "quotation": 0.93
-      },
-      {
-        "probability": 0.1,
-        "quotation": 0.92
-      },
-      {
-        "probability": 0.1,
-        "quotation": 0.91
-      },
-      {
-        "probability": 0.15,
-        "quotation": 0.9
-      },
-      {
-        "probability": 0.15,
-        "quotation": 0.89
-      },
-      {
-        "probability": 0.15,
-        "quotation": 0.88
-      },
-      {
-        "probability": 0.15,
-        "quotation": 0.87
-      },
-      {
-        "probability": 0.15,
-        "quotation": 0.86
-      },
-      {
-        "probability": 0.2,
-        "quotation": 0.85
-      },
-      {
-        "probability": 0.2,
-        "quotation": 0.84
-      },
-      {
-        "probability": 0.2,
-        "quotation": 0.83
-      },
-      {
-        "probability": 0.2,
-        "quotation": 0.82
-      },
-      {
-        "probability": 0.2,
-        "quotation": 0.81
-      },
-      {
-        "probability": 0.25,
-        "quotation": 0.8
-      },
-      {
-        "probability": 0.25,
-        "quotation": 0.79
-      },
-      {
-        "probability": 0.25,
-        "quotation": 0.78
-      },
-      {
-        "probability": 0.25,
-        "quotation": 0.77
-      },
-      {
-        "probability": 0.25,
-        "quotation": 0.76
-      },
-      {
-        "probability": 0.3,
-        "quotation": 0.75
-      },
-      {
-        "probability": 0.3,
-        "quotation": 0.74
-      },
-      {
-        "probability": 0.3,
-        "quotation": 0.73
-      },
-      {
-        "probability": 0.3,
-        "quotation": 0.72
-      },
-      {
-        "probability": 0.3,
-        "quotation": 0.71
-      },
-      {
-        "probability": 0.35,
-        "quotation": 0.7
-      },
-      {
-        "probability": 0.35,
-        "quotation": 0.69
-      },
-      {
-        "probability": 0.35,
-        "quotation": 0.68
-      },
-      {
-        "probability": 0.35,
-        "quotation": 0.67
-      },
-      {
-        "probability": 0.35,
-        "quotation": 0.66
-      },
-      {
-        "probability": 0.4,
-        "quotation": 0.65
-      },
-      {
-        "probability": 0.4,
-        "quotation": 0.64
-      },
-      {
-        "probability": 0.4,
-        "quotation": 0.63
-      },
-      {
-        "probability": 0.4,
-        "quotation": 0.62
-      },
-      {
-        "probability": 0.4,
-        "quotation": 0.61
-      },
-      {
-        "probability": 0.45,
-        "quotation": 0.6
-      },
-      {
-        "probability": 0.45,
-        "quotation": 0.59
-      },
-      {
-        "probability": 0.45,
-        "quotation": 0.58
-      },
-      {
-        "probability": 0.45,
-        "quotation": 0.57
-      },
-      {
-        "probability": 0.45,
-        "quotation": 0.56
-      },
-      {
-        "probability": 0.5,
-        "quotation": 0.55
-      },
-      {
-        "probability": 0.5,
-        "quotation": 0.54
-      },
-      {
-        "probability": 0.5,
-        "quotation": 0.53
-      },
-      {
-        "probability": 0.5,
-        "quotation": 0.52
-      },
-      {
-        "probability": 0.5,
-        "quotation": 0.51
-      },
-      {
-        "probability": 1.0,
-        "quotation": 0.5
-      }
     ]
   },
   {
@@ -17446,416 +17836,6 @@
         "probability": 1.0,
         "quotation": 0.8
       }
-    ],
-    "activityReversalProbabilityList": [
-      {
-        "probability": 1.0,
-        "quotation": 1.5
-      },
-      {
-        "probability": 0.5,
-        "quotation": 1.49
-      },
-      {
-        "probability": 0.5,
-        "quotation": 1.48
-      },
-      {
-        "probability": 0.5,
-        "quotation": 1.47
-      },
-      {
-        "probability": 0.5,
-        "quotation": 1.46
-      },
-      {
-        "probability": 0.5,
-        "quotation": 1.45
-      },
-      {
-        "probability": 0.45,
-        "quotation": 1.44
-      },
-      {
-        "probability": 0.45,
-        "quotation": 1.43
-      },
-      {
-        "probability": 0.45,
-        "quotation": 1.42
-      },
-      {
-        "probability": 0.45,
-        "quotation": 1.41
-      },
-      {
-        "probability": 0.45,
-        "quotation": 1.4
-      },
-      {
-        "probability": 0.4,
-        "quotation": 1.39
-      },
-      {
-        "probability": 0.4,
-        "quotation": 1.38
-      },
-      {
-        "probability": 0.4,
-        "quotation": 1.37
-      },
-      {
-        "probability": 0.4,
-        "quotation": 1.36
-      },
-      {
-        "probability": 0.4,
-        "quotation": 1.35
-      },
-      {
-        "probability": 0.35,
-        "quotation": 1.34
-      },
-      {
-        "probability": 0.35,
-        "quotation": 1.33
-      },
-      {
-        "probability": 0.35,
-        "quotation": 1.32
-      },
-      {
-        "probability": 0.35,
-        "quotation": 1.31
-      },
-      {
-        "probability": 0.35,
-        "quotation": 1.3
-      },
-      {
-        "probability": 0.3,
-        "quotation": 1.29
-      },
-      {
-        "probability": 0.3,
-        "quotation": 1.28
-      },
-      {
-        "probability": 0.3,
-        "quotation": 1.27
-      },
-      {
-        "probability": 0.3,
-        "quotation": 1.26
-      },
-      {
-        "probability": 0.3,
-        "quotation": 1.25
-      },
-      {
-        "probability": 0.25,
-        "quotation": 1.24
-      },
-      {
-        "probability": 0.25,
-        "quotation": 1.23
-      },
-      {
-        "probability": 0.25,
-        "quotation": 1.22
-      },
-      {
-        "probability": 0.25,
-        "quotation": 1.21
-      },
-      {
-        "probability": 0.25,
-        "quotation": 1.2
-      },
-      {
-        "probability": 0.2,
-        "quotation": 1.19
-      },
-      {
-        "probability": 0.2,
-        "quotation": 1.18
-      },
-      {
-        "probability": 0.2,
-        "quotation": 1.17
-      },
-      {
-        "probability": 0.2,
-        "quotation": 1.16
-      },
-      {
-        "probability": 0.2,
-        "quotation": 1.15
-      },
-      {
-        "probability": 0.15,
-        "quotation": 1.14
-      },
-      {
-        "probability": 0.15,
-        "quotation": 1.13
-      },
-      {
-        "probability": 0.15,
-        "quotation": 1.12
-      },
-      {
-        "probability": 0.15,
-        "quotation": 1.11
-      },
-      {
-        "probability": 0.15,
-        "quotation": 1.1
-      },
-      {
-        "probability": 0.1,
-        "quotation": 1.09
-      },
-      {
-        "probability": 0.1,
-        "quotation": 1.08
-      },
-      {
-        "probability": 0.1,
-        "quotation": 1.07
-      },
-      {
-        "probability": 0.1,
-        "quotation": 1.06
-      },
-      {
-        "probability": 0.1,
-        "quotation": 1.05
-      },
-      {
-        "probability": 0.05,
-        "quotation": 1.04
-      },
-      {
-        "probability": 0.05,
-        "quotation": 1.03
-      },
-      {
-        "probability": 0.05,
-        "quotation": 1.02
-      },
-      {
-        "probability": 0.05,
-        "quotation": 1.01
-      },
-      {
-        "probability": 0.0,
-        "quotation": 1.0
-      },
-      {
-        "probability": 0.0,
-        "quotation": 1.0
-      },
-      {
-        "probability": 0.05,
-        "quotation": 0.99
-      },
-      {
-        "probability": 0.05,
-        "quotation": 0.98
-      },
-      {
-        "probability": 0.05,
-        "quotation": 0.97
-      },
-      {
-        "probability": 0.05,
-        "quotation": 0.96
-      },
-      {
-        "probability": 0.1,
-        "quotation": 0.95
-      },
-      {
-        "probability": 0.1,
-        "quotation": 0.94
-      },
-      {
-        "probability": 0.1,
-        "quotation": 0.93
-      },
-      {
-        "probability": 0.1,
-        "quotation": 0.92
-      },
-      {
-        "probability": 0.1,
-        "quotation": 0.91
-      },
-      {
-        "probability": 0.15,
-        "quotation": 0.9
-      },
-      {
-        "probability": 0.15,
-        "quotation": 0.89
-      },
-      {
-        "probability": 0.15,
-        "quotation": 0.88
-      },
-      {
-        "probability": 0.15,
-        "quotation": 0.87
-      },
-      {
-        "probability": 0.15,
-        "quotation": 0.86
-      },
-      {
-        "probability": 0.2,
-        "quotation": 0.85
-      },
-      {
-        "probability": 0.2,
-        "quotation": 0.84
-      },
-      {
-        "probability": 0.2,
-        "quotation": 0.83
-      },
-      {
-        "probability": 0.2,
-        "quotation": 0.82
-      },
-      {
-        "probability": 0.2,
-        "quotation": 0.81
-      },
-      {
-        "probability": 0.25,
-        "quotation": 0.8
-      },
-      {
-        "probability": 0.25,
-        "quotation": 0.79
-      },
-      {
-        "probability": 0.25,
-        "quotation": 0.78
-      },
-      {
-        "probability": 0.25,
-        "quotation": 0.77
-      },
-      {
-        "probability": 0.25,
-        "quotation": 0.76
-      },
-      {
-        "probability": 0.3,
-        "quotation": 0.75
-      },
-      {
-        "probability": 0.3,
-        "quotation": 0.74
-      },
-      {
-        "probability": 0.3,
-        "quotation": 0.73
-      },
-      {
-        "probability": 0.3,
-        "quotation": 0.72
-      },
-      {
-        "probability": 0.3,
-        "quotation": 0.71
-      },
-      {
-        "probability": 0.35,
-        "quotation": 0.7
-      },
-      {
-        "probability": 0.35,
-        "quotation": 0.69
-      },
-      {
-        "probability": 0.35,
-        "quotation": 0.68
-      },
-      {
-        "probability": 0.35,
-        "quotation": 0.67
-      },
-      {
-        "probability": 0.35,
-        "quotation": 0.66
-      },
-      {
-        "probability": 0.4,
-        "quotation": 0.65
-      },
-      {
-        "probability": 0.4,
-        "quotation": 0.64
-      },
-      {
-        "probability": 0.4,
-        "quotation": 0.63
-      },
-      {
-        "probability": 0.4,
-        "quotation": 0.62
-      },
-      {
-        "probability": 0.4,
-        "quotation": 0.61
-      },
-      {
-        "probability": 0.45,
-        "quotation": 0.6
-      },
-      {
-        "probability": 0.45,
-        "quotation": 0.59
-      },
-      {
-        "probability": 0.45,
-        "quotation": 0.58
-      },
-      {
-        "probability": 0.45,
-        "quotation": 0.57
-      },
-      {
-        "probability": 0.45,
-        "quotation": 0.56
-      },
-      {
-        "probability": 0.5,
-        "quotation": 0.55
-      },
-      {
-        "probability": 0.5,
-        "quotation": 0.54
-      },
-      {
-        "probability": 0.5,
-        "quotation": 0.53
-      },
-      {
-        "probability": 0.5,
-        "quotation": 0.52
-      },
-      {
-        "probability": 0.5,
-        "quotation": 0.51
-      },
-      {
-        "probability": 1.0,
-        "quotation": 0.5
-      }
     ]
   },
   {
@@ -17933,6 +17913,7 @@
         "num": 300
       }
     ],
+    "standingNum": 16,
     "uiLadflet": "Item/item/Small/ChanDan",
     "leafletMax": 450,
     "setTypeNum": 4,
@@ -18688,6 +18669,33 @@
     "tvShowNum": 3,
     "magazineId": 80301326,
     "tvId": 80301327,
+    "starParameter": [
+      {
+        "id": 0.35
+      },
+      {
+        "id": 0.25
+      },
+      {
+        "id": 0.25
+      },
+      {
+        "id": 0.1
+      },
+      {
+        "id": 0.05
+      }
+    ],
+    "starSeat": [
+      {
+        "seat": 81300084
+      }
+    ],
+    "starPassenger": [
+      {
+        "seat": 84200055
+      }
+    ],
     "leafletEnd": [
       {
         "bubbleIcon": "UI/Flier/FlierMain/FlierMain_leaflet_icon",
@@ -18714,8 +18722,7 @@
         "endId": 80602320,
         "icon": "UI/Flier/FlierMain/FlierMain_tv_picture"
       }
-    ],
-    "stationNum": 0
+    ]
   },
   {
     "id": 99900062,
@@ -18906,6 +18913,7 @@
     ],
     "fastQuotationStart": "19:00:00",
     "fastQuotationEnd": "22:00:00",
+    "rareGoodsRatio": 0.075,
     "rareGoodsInitQMin": 1.0,
     "rareGoodsInitQMax": 1.1,
     "rareGoodsQuotationMin": 0.8,
@@ -20524,7 +20532,7 @@
         "png": "UI/Activity/Tab/tab_summer",
         "showUI": "UI/Activity/Summer/IslandActivity/IslandActivity",
         "sort": 0,
-        "startTime": "2024-09-12 12:00:00",
+        "startTime": "2024-09-10 05:00:00",
         "tag": 12601355
       },
       {
@@ -20647,6 +20655,17 @@
         "sort": 0,
         "startTime": "2024-08-29 05:00:00",
         "tag": 12601103
+      },
+      {
+        "endTime": "2030-01-01 00:00:00",
+        "id": 86000017,
+        "isCompleteBottom": false,
+        "name": 80607846,
+        "png": "UI/Activity/Regression/tab",
+        "showUI": "UI/Activity/Regression/Regression",
+        "sort": 15,
+        "startTime": "2024-01-01 00:00:00",
+        "tag": 12601356
       }
     ],
     "questList": []
@@ -20861,6 +20880,10 @@
       {
         "id": 86300002,
         "startTime": "2024-05-31 15:00:00"
+      },
+      {
+        "id": 86300004,
+        "startTime": "2024-09-09 15:00:00"
       }
     ]
   },
@@ -21056,7 +21079,16 @@
     "idCN": "引导/广告弹窗",
     "mod": "广告弹窗",
     "isInformalData": false,
-    "nameEN": "ADConfig"
+    "nameEN": "ADConfig",
+    "adList": [
+      {
+        "adPath": "UI/Store/Store_big_skin03",
+        "lv": 2,
+        "param": "",
+        "questId": 81000711,
+        "uiPath": "UI/Store/Store"
+      }
+    ]
   },
   {
     "id": 99900076,
@@ -21159,6 +21191,10 @@
       {
         "ChapterList": 20601199,
         "questId": -1
+      },
+      {
+        "ChapterList": 20601434,
+        "questId": -1
       }
     ]
   },
@@ -21208,11 +21244,267 @@
     ]
   },
   {
+    "id": 99900067,
+    "idCN": "活动/排球",
+    "mod": "排球配置",
+    "isInformalData": false,
+    "nameEN": "VolleyballConfig",
+    "playerData": [
+      {
+        "backLeftSide": -11.0,
+        "backRightSide": -4.0,
+        "downSide": -6.0,
+        "leftSide": -11.72,
+        "rightSide": -0.5,
+        "upSide": 6.0
+      },
+      {
+        "backLeftSide": 4.0,
+        "backRightSide": 11.0,
+        "downSide": -6.0,
+        "leftSide": 0.5,
+        "rightSide": 11.72,
+        "upSide": 6.0
+      }
+    ],
+    "scoreResPath": [
+      {
+        "resPath": "UI\\Battle\\CardArea\\Cost\\0"
+      },
+      {
+        "resPath": "UI\\Battle\\CardArea\\Cost\\1"
+      },
+      {
+        "resPath": "UI\\Battle\\CardArea\\Cost\\2"
+      },
+      {
+        "resPath": "UI\\Battle\\CardArea\\Cost\\3"
+      },
+      {
+        "resPath": "UI\\Battle\\CardArea\\Cost\\4"
+      },
+      {
+        "resPath": "UI\\Battle\\CardArea\\Cost\\5"
+      },
+      {
+        "resPath": "UI\\Battle\\CardArea\\Cost\\6"
+      },
+      {
+        "resPath": "UI\\Battle\\CardArea\\Cost\\7"
+      },
+      {
+        "resPath": "UI\\Battle\\CardArea\\Cost\\8"
+      },
+      {
+        "resPath": "UI\\Battle\\CardArea\\Cost\\9"
+      }
+    ],
+    "servePosData": [
+      {},
+      {
+        "posX": 13.0,
+        "posZ": 3.8,
+        "weight": 100
+      },
+      {
+        "posX": 13.0,
+        "posZ": -3.8,
+        "weight": 100
+      }
+    ],
+    "effectPath": "Volleyball/Prefab/fx_arms_001_hit",
+    "curRoleUIPath": "Volleyball/Prefab/curRole",
+    "ballPath": "Volleyball/Prefab/Ball",
+    "ballSpinePath": "Volleyball\\Spine\\volleyball_ball\\volleyball_ball_SkeletonData",
+    "gridPath": "Volleyball/Prefab/Item",
+    "teamScorePath": "Env/uiobj/soutp",
+    "parablaTime": 2.0,
+    "jumpXOffset": 2.5,
+    "passFriendBallMoveHeight": 15.0,
+    "passEnemyBallMoveHeight": 15.0,
+    "dirSpeed": 30.0,
+    "normalRotateSpeed": 360,
+    "skrikeRotateSpeed": 720,
+    "slidingRotateSpeed": 180,
+    "arriveRange": 0.1,
+    "netHeight": 4.0,
+    "strikeBallHeight": 5.0,
+    "passHitBallHeight": 2.0,
+    "slidingHitBallHeight": 1.0,
+    "hitLimitBallPersent": 0.5,
+    "blockBallPersent": 0.0,
+    "defaultViewFov": 50.0,
+    "defaultViewDis": 17.0,
+    "defaultViewAngle": 30.0,
+    "defaultViewPos": [
+      {
+        "x": 0.11,
+        "y": 1.921,
+        "z": 0.0
+      }
+    ],
+    "strikeViewFov": 50.0,
+    "strikeViewDis": 7.8,
+    "strikeViewAngle": 15.0,
+    "strikeViewPosY": 3.4,
+    "teamViewFov": 50.0,
+    "teamViewDis": 10.76,
+    "teamViewAngle": 38.0,
+    "teamViewPos": [
+      {
+        "x": -4.87,
+        "y": 2.4,
+        "z": -3.3
+      },
+      {
+        "x": 4.87,
+        "y": 2.4,
+        "z": -3.3
+      }
+    ],
+    "SoomthTimeAll2Half": 0.2,
+    "SoomthTimeHalf2All": 0.1,
+    "SoomthTimeSpike2All": 0.1,
+    "SoomthTimeAll2Spike": 0.2,
+    "SoomthTimeSpike2Half": 0.1,
+    "SoomthTimeHalf2Spike": 0.2,
+    "baseSize": 490.0,
+    "checkSize": 10.0,
+    "centerMissSize": 90.0,
+    "perfectRate": 220.0,
+    "goodRate": 310.0,
+    "commonRate": 460.0,
+    "lowRate": 490.0,
+    "scaleSpeed": 70.0,
+    "gridCenterPosX": 0.0,
+    "gridCenterPosY": 0.0,
+    "gridCenterPosZ": 0.0,
+    "gridSpriteSizeX": 500,
+    "gridSpriteSizeZ": 500,
+    "gridPixelsPreUnit": 100,
+    "gridWidth": [
+      {
+        "spacing": 0.15,
+        "width": 3.8
+      },
+      {
+        "spacing": 0.18,
+        "width": 3.84
+      },
+      {
+        "spacing": 0.0,
+        "width": 3.84
+      }
+    ],
+    "gridHeight": 3.81,
+    "winReowrd": [
+      {
+        "id": 11400268,
+        "num": 50,
+        "weight": 100
+      },
+      {
+        "id": 11400218,
+        "num": 1000,
+        "weight": 100
+      },
+      {
+        "id": 11400267,
+        "num": 20,
+        "weight": 100
+      }
+    ],
+    "loseReowrd": [
+      {
+        "id": 11400268,
+        "num": 20,
+        "weight": 100
+      },
+      {
+        "id": 11400218,
+        "num": 500,
+        "weight": 100
+      },
+      {
+        "id": 11400267,
+        "num": 10,
+        "weight": 100
+      }
+    ],
+    "startTime": "2024-08-20 12:00:00",
+    "endTime": "2024-10-8 00:00:00",
+    "rewardNum": 3,
+    "winCondition": 5,
+    "characterList": [
+      {
+        "id": 72200001
+      },
+      {
+        "id": 72200002
+      },
+      {
+        "id": 72200003
+      },
+      {
+        "id": 72200004
+      },
+      {
+        "id": 72200005
+      },
+      {
+        "id": 72200006
+      },
+      {
+        "id": 72200007
+      },
+      {
+        "id": 72200008
+      },
+      {
+        "id": 72200009
+      },
+      {
+        "id": 72200010
+      }
+    ]
+  },
+  {
     "id": 99900070,
     "idCN": "官方平台账号表",
     "mod": "官方账号",
     "isInformalData": false,
-    "nameEN": "OfficialAccountFollowConfig"
+    "nameEN": "OfficialAccountFollowConfig",
+    "officialAccountRewardList": [
+      {
+        "Email": 80800096,
+        "Name": "WeChat"
+      },
+      {
+        "Email": 80800095,
+        "Name": "weibo"
+      },
+      {
+        "Email": 80800094,
+        "Name": "taptap"
+      },
+      {
+        "Email": 80800097,
+        "Name": "bilibili"
+      },
+      {
+        "Email": 80800098,
+        "Name": "HaoYouKuaiBao"
+      },
+      {
+        "Email": 80800099,
+        "Name": "Little Red Book"
+      },
+      {
+        "Email": 80800100,
+        "Name": "Tiktok"
+      }
+    ],
+    "maxReceiveNum": 3
   },
   {
     "id": 99900066,

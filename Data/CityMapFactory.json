@@ -1100,34 +1100,34 @@
     "offsetY": 0.0,
     "bubbleList": [
       {
-        "id": 86400210,
-        "x": -790.0,
-        "y": -120.0
-      },
-      {
         "id": 86400254,
         "x": -790.0,
         "y": -120.0
       },
       {
         "id": 86400243,
-        "x": -768.0,
-        "y": 235.0
+        "x": -158.0,
+        "y": 185.0
+      },
+      {
+        "id": 86400146,
+        "x": -158.0,
+        "y": 185.0
       },
       {
         "id": 86400142,
-        "x": -376.0,
-        "y": 75.0
+        "x": 143.0,
+        "y": 326.0
       },
       {
         "id": 86400145,
-        "x": -150.0,
-        "y": 340.0
+        "x": -789.0,
+        "y": 356.0
       },
       {
         "id": 86400144,
-        "x": -38.0,
-        "y": -85.0
+        "x": -33.0,
+        "y": -80.0
       },
       {
         "id": 86400244,
@@ -1136,8 +1136,8 @@
       },
       {
         "id": 86400246,
-        "x": -150.0,
-        "y": 340.0
+        "x": -789.0,
+        "y": 356.0
       },
       {
         "id": 86400245,
@@ -1147,7 +1147,12 @@
       {
         "id": 86400143,
         "x": 600.0,
-        "y": 60.0
+        "y": 38.0
+      },
+      {
+        "id": 86400255,
+        "x": -580.0,
+        "y": 148.0
       }
     ],
     "isShowRep": true,
@@ -3341,12 +3346,14 @@
     "isInstance": false,
     "iconPath": "NPC/XGLC/Keep",
     "nameIconPath": "UI/CityMap/citymap_icon_fastfood",
+    "frontIconPath": "",
     "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
     "animLoop": "UI_CityBtn_01_Loop",
     "animOut": "UI_CityBtn_01_Out",
     "activityId": -1,
     "startTime": "",
     "endTime": "",
+    "displayConditionsList": [],
     "unlockConditionsList": [],
     "isLock": true,
     "func": "Tips",
@@ -4392,6 +4399,7 @@
     "isInstance": false,
     "iconPath": "RolePlus/Livia/Face",
     "nameIconPath": "",
+    "frontIconPath": "",
     "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
     "animLoop": "UI_CityBtn_01_Loop",
     "animOut": "UI_CityBtn_01_Out",
@@ -4405,13 +4413,7 @@
         "val": 0
       }
     ],
-    "unlockConditionsList": [
-      {
-        "condition": "LV",
-        "textId": 80606904,
-        "val": 28
-      }
-    ],
+    "unlockConditionsList": [],
     "isLock": false,
     "func": "OpenDialog",
     "btnType": "Other",
@@ -5678,6 +5680,7 @@
     "isInstance": false,
     "iconPath": "NPC/HJC/CityHall",
     "nameIconPath": "UI/CityMap/citymap_icon_cityhall",
+    "frontIconPath": "",
     "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
     "animLoop": "UI_CityBtn_01_Loop",
     "animOut": "UI_CityBtn_01_Out",
@@ -5723,13 +5726,20 @@
     "isInstance": false,
     "iconPath": "RolePlus/Shizuru/Face",
     "nameIconPath": "UI/CityMap/citymap_icon_police",
+    "frontIconPath": "",
     "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
     "animLoop": "UI_CityBtn_01_Loop",
     "animOut": "UI_CityBtn_01_Out",
     "activityId": -1,
     "startTime": "",
     "endTime": "",
-    "displayConditionsList": [],
+    "displayConditionsList": [
+      {
+        "condition": "QuestComplete",
+        "mId": 81001339,
+        "val": 0
+      }
+    ],
     "unlockConditionsList": [],
     "isLock": false,
     "func": "OpenBuilding",
@@ -8394,6 +8404,7 @@
     "isInstance": false,
     "iconPath": "NPC/HJC/Island",
     "nameIconPath": "",
+    "frontIconPath": "NPC/HJC/Island2",
     "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
     "animLoop": "UI_CityBtn_01_Loop",
     "animOut": "UI_CityBtn_01_Out",
@@ -9486,13 +9497,20 @@
     "isInstance": false,
     "iconPath": "RolePlus/Karen/Face",
     "nameIconPath": "UI/CityMap/citymap_icon_police",
+    "frontIconPath": "",
     "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
     "animLoop": "UI_CityBtn_01_Loop",
     "animOut": "UI_CityBtn_01_Out",
     "activityId": -1,
     "startTime": "",
     "endTime": "",
-    "displayConditionsList": [],
+    "displayConditionsList": [
+      {
+        "condition": "QuestIncomplete",
+        "mId": 81001339,
+        "val": 0
+      }
+    ],
     "unlockConditionsList": [],
     "isLock": false,
     "func": "OpenBuilding",
@@ -9519,6 +9537,7 @@
     "isInstance": false,
     "iconPath": "RolePlus/Livia/Face",
     "nameIconPath": "",
+    "frontIconPath": "",
     "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
     "animLoop": "UI_CityBtn_01_Loop",
     "animOut": "UI_CityBtn_01_Out",
@@ -9553,11 +9572,12 @@
     "idCN": "03气泡/C6海角城S0/夏活/任务5",
     "mod": "气泡",
     "isInformalData": false,
-    "name": "莉薇娅",
+    "name": "弗兰",
     "isSpecial": false,
     "isInstance": false,
-    "iconPath": "RolePlus/Livia/Face",
+    "iconPath": "RolePlus/Flan/Face",
     "nameIconPath": "",
+    "frontIconPath": "",
     "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
     "animLoop": "UI_CityBtn_01_Loop",
     "animOut": "UI_CityBtn_01_Out",
@@ -9597,6 +9617,7 @@
     "isInstance": false,
     "iconPath": "NPC/HJC/CityHall",
     "nameIconPath": "UI/CityMap/citymap_icon_cityhall",
+    "frontIconPath": "",
     "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
     "animLoop": "UI_CityBtn_01_Loop",
     "animOut": "UI_CityBtn_01_Out",
@@ -9696,7 +9717,8 @@
     "isInstance": false,
     "iconPath": "NPC/HJC/Island",
     "nameIconPath": "",
-    "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
+    "frontIconPath": "NPC/HJC/Island2",
+    "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/UI_SummerCityBtn_01",
     "animLoop": "UI_CityBtn_01_Loop",
     "animOut": "UI_CityBtn_01_Out",
     "activityId": -1,
@@ -9723,6 +9745,40 @@
     "textId": -1,
     "npcId": -1,
     "bgPath": "",
+    "bgColor": "FFFFFF"
+  },
+  {
+    "id": 86400255,
+    "idCN": "03气泡/C6海角城S0/01建筑/水族馆",
+    "mod": "气泡",
+    "isInformalData": false,
+    "name": "水族馆",
+    "isSpecial": false,
+    "isInstance": false,
+    "iconPath": "NPC/HJC/Aquarium",
+    "nameIconPath": "UI/CityMap/citymap_icon_szg",
+    "frontIconPath": "",
+    "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
+    "animLoop": "UI_CityBtn_01_Loop",
+    "animOut": "UI_CityBtn_01_Out",
+    "activityId": -1,
+    "startTime": "",
+    "endTime": "",
+    "displayConditionsList": [],
+    "unlockConditionsList": [],
+    "isLock": false,
+    "func": "OpenUI",
+    "btnType": "Other",
+    "mId": -1,
+    "uiPath": "UI/HomePetStore/Aquarium",
+    "buildingId": 84400108,
+    "stationPlace": -1,
+    "dialogId": -1,
+    "dungeonId": -1,
+    "levelId": -1,
+    "textId": -1,
+    "npcId": 83700094,
+    "bgPath": "UI/HomePetStore/BGAquarium",
     "bgColor": "FFFFFF"
   }
 ]

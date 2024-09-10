@@ -566,7 +566,8 @@
     "isPositive": true,
     "isNegative": false,
     "isTimeProg": false,
-    "progAddNum": 1
+    "progAddNum": 1,
+    "buffFoList": []
   },
   {
     "id": 10800054,
@@ -1107,6 +1108,7 @@
     "mod": "玩家修改Buff层数",
     "isInformalData": false,
     "progressMax": 30,
+    "buffFoList": [],
     "buffFO": 10410942,
     "isPositive": true,
     "isNegative": false,
@@ -1179,5 +1181,16 @@
     "isOnlyDeck": true,
     "tagList": [],
     "tagType": "Or"
+  },
+  {
+    "id": 10800089,
+    "idCN": "用指定卡/8次",
+    "mod": "使用卡牌次数",
+    "isInformalData": false,
+    "progressMax": 8,
+    "cardId": -1,
+    "condition": "Greater",
+    "cost_SN": -10000,
+    "isContinuous": false
   }
 ]

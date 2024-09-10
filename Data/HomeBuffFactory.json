@@ -1439,7 +1439,10 @@
     "name": "生产总量增加",
     "desc": "生产总量增加%d%%",
     "continueTime": -1,
-    "showIcon": ""
+    "showIcon": "",
+    "buffType": "OutputAdd",
+    "param": -1.0,
+    "paramList": []
   },
   {
     "id": 84100126,
@@ -1449,7 +1452,14 @@
     "name": "员工激励",
     "desc": "生产时间缩短<color=#0CB7E5>%d%%</color>",
     "continueTime": -1,
-    "showIcon": ""
+    "showIcon": "",
+    "buffType": "WorkingHoursDec",
+    "param": -1.0,
+    "paramList": [
+      {},
+      {},
+      {}
+    ]
   },
   {
     "id": 84100129,
@@ -1459,7 +1469,10 @@
     "name": "纺织类额外生产量增加",
     "desc": "纺织类额外生产量增加%d",
     "continueTime": -1,
-    "showIcon": ""
+    "showIcon": "",
+    "buffType": "ExtraOutputAdd",
+    "param": -1.0,
+    "formulaType": "Textile"
   },
   {
     "id": 84100131,
@@ -1469,7 +1482,14 @@
     "name": "工艺改进",
     "desc": "额外生产率增加<color=#0CB7E5>%d%%</color>",
     "continueTime": -1,
-    "showIcon": ""
+    "showIcon": "",
+    "buffType": "ExtraOutputAdd",
+    "param": -1.0,
+    "paramList": [
+      {},
+      {},
+      {}
+    ]
   },
   {
     "id": 84100133,
@@ -1479,7 +1499,14 @@
     "name": "质量监控",
     "desc": "生产成品增加<color=#0CB7E5>%d%%</color>",
     "continueTime": -1,
-    "showIcon": ""
+    "showIcon": "",
+    "buffType": "OutputAdd",
+    "param": -1.0,
+    "paramList": [
+      {},
+      {},
+      {}
+    ]
   },
   {
     "id": 84100139,
@@ -1489,7 +1516,10 @@
     "name": "安全督导",
     "desc": "意外发生率减少<color=#0CB7E5>%d%%</color>",
     "continueTime": -1,
-    "showIcon": ""
+    "showIcon": "",
+    "buffType": "AccidentRateDec",
+    "param": -1.0,
+    "paramList": []
   },
   {
     "id": 84100140,
@@ -1692,8 +1722,8 @@
     "desc": "活动期间传单增加1倍",
     "continueTime": 0,
     "showIcon": "",
-    "param": 1.0,
-    "leafletType": "LeafletBuffNum"
+    "buffType": "LeafletBuffNum",
+    "param": 1.0
   },
   {
     "id": 84100155,
@@ -1704,8 +1734,8 @@
     "desc": "活动期间传单增加150%倍",
     "continueTime": 0,
     "showIcon": "",
-    "param": 1.5,
-    "leafletType": "LeafletBuffNum"
+    "buffType": "LeafletBuffNum",
+    "param": 1.5
   },
   {
     "id": 84100125,
@@ -1715,7 +1745,10 @@
     "name": "刑期延长",
     "desc": "刑期延长%d天",
     "continueTime": -1,
-    "showIcon": ""
+    "showIcon": "",
+    "buffType": "TimeAdd",
+    "param": -1.0,
+    "paramList": []
   },
   {
     "id": 84100127,
@@ -1725,7 +1758,10 @@
     "name": "缝补类额外生产量增加",
     "desc": "缝补类额外生产量增加%d",
     "continueTime": -1,
-    "showIcon": ""
+    "showIcon": "",
+    "buffType": "ExtraOutputAdd",
+    "param": -1.0,
+    "formulaType": "Stitching"
   },
   {
     "id": 84100128,
