@@ -71569,7 +71569,7 @@
     "iconPath": "",
     "attriDetialList": [],
     "tempdescription": "自身造成的冰冻伤害提高%s%%，可叠加",
-    "description": "自身造成的冰<color=#7AB2FF>冻伤</color>害提高%s%%，可叠加",
+    "description": "自身造成的<color=#7AB2FF>冰冻</color>伤害提高%s%%，可叠加",
     "levelUpDescription": "",
     "tempdetailDescription": "",
     "detailDescription": "",
@@ -77758,6 +77758,222 @@
     "tagFilterList": [],
     "tagFilterType": "And",
     "buffId": 10412390,
+    "temptypeStr": "",
+    "typeStr": "",
+    "typeColor": "Orange",
+    "CommonNum": 1.0,
+    "floatNum": 1,
+    "ExSkillList": [],
+    "specialTagList": [],
+    "partList": [],
+    "campList": []
+  },
+  {
+    "id": 12301934,
+    "idCN": "00原版/05五星/伊索斯/A",
+    "mod": "主动技能",
+    "isInformalData": false,
+    "name": "知觉干预",
+    "iconPath": "RolePlus\\Ithos\\skillicon\\A",
+    "attriDetialList": [],
+    "tempdescription": "标记目标队友，每秒回复其#r生命值，持续#r秒\\n持续期间，目标队友受到的伤害降低#r\\n同时将【普通攻击】治疗的目标 切换至标记目标队友",
+    "description": "标记目标队友，每秒回复其#r生命值，持续#r秒\\n持续期间，目标队友受到的伤害降低#r\\n同时将【普通攻击】治疗的目标 切换至标记目标队友",
+    "levelUpDescription": "",
+    "tempdetailDescription": "",
+    "detailDescription": "",
+    "desParamList": [
+      {
+        "isPercent": true,
+        "param": "A"
+      },
+      {
+        "isPercent": false,
+        "param": "B"
+      },
+      {
+        "isPercent": true,
+        "param": "C"
+      }
+    ],
+    "skillParamList": [
+      {
+        "skillRateA_SN": 500,
+        "skillRateB_SN": 60000,
+        "skillRateC_SN": 5000,
+        "skillRateD_SN": 0,
+        "skillRateE_SN": 0,
+        "skillRateF_SN": 0,
+        "skillRateG_SN": 0,
+        "skillRateH_SN": 0,
+        "skillRateI_SN": 0,
+        "skillRateJ_SN": 0,
+        "skillRateL_SN": 0,
+        "skillRateT_SN": 3600000
+      }
+    ],
+    "attributeList": [],
+    "tagId": -1,
+    "tagRemoveList": [],
+    "tagFilterList": [],
+    "tagFilterType": "And",
+    "cardID": 10600394,
+    "leaderCardEnableBuffId": -1,
+    "leaderCardConditionList": [],
+    "templeaderCardConditionDesc": "",
+    "leaderCardConditionDesc": "",
+    "temptypeStr": "",
+    "typeStr": "",
+    "typeColor": "Orange",
+    "CommonNum": 1.0,
+    "floatNum": 1,
+    "ExSkillList": [],
+    "specialTagList": [],
+    "partList": [],
+    "campList": []
+  },
+  {
+    "id": 12301935,
+    "idCN": "00原版/05五星/伊索斯/B",
+    "mod": "主动技能",
+    "isInformalData": false,
+    "name": "药物促醒",
+    "iconPath": "RolePlus\\Ithos\\skillicon\\B",
+    "attriDetialList": [],
+    "tempdescription": "治疗我方目标，回复其#r生命值\\n同时驱散其受到的控制和伤害类特殊效果\\n使用后，从牌库将1张【药物促醒】加入手牌",
+    "description": "治疗我方目标，回复其#r生命值\\n同时驱散其受到的控制和伤害类特殊效果\\n使用后，从牌库将1张【药物促醒】加入手牌",
+    "levelUpDescription": "",
+    "tempdetailDescription": "",
+    "detailDescription": "",
+    "desParamList": [
+      {
+        "isPercent": true,
+        "param": "A"
+      }
+    ],
+    "skillParamList": [
+      {
+        "skillRateA_SN": 2500,
+        "skillRateB_SN": 0,
+        "skillRateC_SN": 0,
+        "skillRateD_SN": 0,
+        "skillRateE_SN": 0,
+        "skillRateF_SN": 0,
+        "skillRateG_SN": 0,
+        "skillRateH_SN": 0,
+        "skillRateI_SN": 0,
+        "skillRateJ_SN": 0,
+        "skillRateL_SN": 0,
+        "skillRateT_SN": 0
+      }
+    ],
+    "attributeList": [],
+    "tagId": -1,
+    "tagRemoveList": [],
+    "tagFilterList": [],
+    "tagFilterType": "And",
+    "cardID": 10600393,
+    "leaderCardEnableBuffId": -1,
+    "leaderCardConditionList": [],
+    "templeaderCardConditionDesc": "",
+    "leaderCardConditionDesc": "",
+    "temptypeStr": "",
+    "typeStr": "",
+    "typeColor": "Orange",
+    "CommonNum": 1.0,
+    "floatNum": 1,
+    "ExSkillList": [],
+    "specialTagList": [],
+    "partList": [],
+    "campList": []
+  },
+  {
+    "id": 12301936,
+    "idCN": "00原版/05五星/伊索斯/S",
+    "mod": "主动技能",
+    "isInformalData": false,
+    "name": "契约",
+    "iconPath": "RolePlus\\Ithos\\skillicon\\S",
+    "attriDetialList": [],
+    "tempdescription": "签订生命契约，持续#r秒\\n持续期间，任意队友濒死时，回复其#r生命值，同时献祭自身当前#r生命值",
+    "description": "签订生命契约，持续#r秒\\n持续期间，任意队友濒死时，回复其#r生命值，同时献祭自身当前#r生命值",
+    "levelUpDescription": "",
+    "tempdetailDescription": "",
+    "detailDescription": "",
+    "desParamList": [
+      {
+        "isPercent": false,
+        "param": "B"
+      },
+      {
+        "isPercent": true,
+        "param": "A"
+      },
+      {
+        "isPercent": true,
+        "param": "A"
+      }
+    ],
+    "skillParamList": [
+      {
+        "skillRateA_SN": 2000,
+        "skillRateB_SN": 100000,
+        "skillRateC_SN": 0,
+        "skillRateD_SN": 0,
+        "skillRateE_SN": 0,
+        "skillRateF_SN": 0,
+        "skillRateG_SN": 0,
+        "skillRateH_SN": 0,
+        "skillRateI_SN": 0,
+        "skillRateJ_SN": 0,
+        "skillRateL_SN": 0,
+        "skillRateT_SN": 6000000
+      }
+    ],
+    "attributeList": [],
+    "tagId": -1,
+    "tagRemoveList": [],
+    "tagFilterList": [],
+    "tagFilterType": "And",
+    "cardID": 10600392,
+    "leaderCardEnableBuffId": -1,
+    "leaderCardConditionList": [
+      {
+        "leaderCardConditionFO": 10800042
+      }
+    ],
+    "templeaderCardConditionDesc": "使用【弃牌】指令弃牌1次",
+    "leaderCardConditionDesc": "使用【弃牌】指令弃牌1次",
+    "temptypeStr": "",
+    "typeStr": "",
+    "typeColor": "Orange",
+    "CommonNum": 1.0,
+    "floatNum": 1,
+    "ExSkillList": [],
+    "specialTagList": [],
+    "partList": [],
+    "campList": []
+  },
+  {
+    "id": 12301937,
+    "idCN": "06敌方/14学会/御险对策机械·艾尼/被动2",
+    "mod": "被动技能",
+    "isInformalData": false,
+    "name": "",
+    "iconPath": "",
+    "attriDetialList": [],
+    "tempdescription": "",
+    "description": "",
+    "levelUpDescription": "",
+    "tempdetailDescription": "",
+    "detailDescription": "",
+    "desParamList": [],
+    "skillParamList": [],
+    "attributeList": [],
+    "tagId": -1,
+    "tagRemoveList": [],
+    "tagFilterList": [],
+    "tagFilterType": "And",
+    "buffId": 10412394,
     "temptypeStr": "",
     "typeStr": "",
     "typeColor": "Orange",
