@@ -5414,23 +5414,26 @@
     "tipsPath": "Item/item/Big/Book_Worktable",
     "buyPath": "",
     "textIcon": "",
-    "sort": 0,
-    "isNotDisplayInBag": false,
-    "isShowNum": true,
     "breakPath": "Item/Goods/Small/Shuichanzhenxuanlibao",
+    "sort": 0,
+    "isShowNum": true,
+    "isNotDisplayInBag": false,
     "endTime": "",
     "saletype": "NotSale",
     "rewardList": [],
     "Getway": [
       {
-        "DisplayName": "海角城-苏恩-兑换",
+        "DisplayName": "汇流塔-罗洁尔-兑换",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": -1
       }
     ],
-    "drawing": 84900023
+    "drawing": 84900023,
+    "techPoints": 100,
+    "isDisplayInMaterialWare": false,
+    "isDisplayInFinishedlWare": false
   },
   {
     "id": 11400220,
@@ -7999,7 +8002,9 @@
       }
     ],
     "gettipstype": "Default",
-    "techPoints": 100
+    "techPoints": 100,
+    "isDisplayInMaterialWare": false,
+    "isDisplayInFinishedlWare": false
   },
   {
     "id": 11400128,
@@ -11959,11 +11964,11 @@
     "des": "用于在海岛上进行设施建造的资材兑换券。和大家一起，开拓海岛！",
     "iconPath": "Item/item/Small/zicaiquan",
     "tipsPath": "Item/item/Big/zicaiquan",
-    "buyPath": "",
+    "buyPath": "Item/item/zicaiquan",
     "textIcon": "",
     "sort": 0,
-    "isShowNum": true,
-    "isNotDisplayInBag": true,
+    "isShowNum": false,
+    "isNotDisplayInBag": false,
     "useLimitNum": 10,
     "endTime": "",
     "saletype": "NotSale",
@@ -12323,11 +12328,11 @@
     "isDisplayInFinishedlWare": false
   },
   {
-    "id": 11400281,
-    "idCN": "6生日蛋糕/月饼(莉薇娅）",
+    "id": 11400286,
+    "idCN": "2一般道具/月饼-静流",
     "mod": "可使用道具",
     "isInformalData": false,
-    "name": "提拉米苏蛋糕",
+    "name": "静流手作月饼",
     "viewId": -1,
     "quality": "Golden",
     "useType": "Fixed",
@@ -12340,9 +12345,9 @@
         "weight": 1
       }
     ],
-    "des": "人气长盛不衰的提拉米苏蛋糕，苦涩与甜蜜回味兼具。“带我走吧”。使用后可以消除列车长60点疲劳值。",
-    "iconPath": "Item/item/Small/mooncake02",
-    "tipsPath": "Item/item/Big/mooncake02",
+    "des": "由静流制作的月饼，采用铁山城传统方法制作，和记忆中的味道一模一样。使用后可降低疲劳值。",
+    "iconPath": "Item/item/Small/mooncake_Shizuru",
+    "tipsPath": "Item/item/Big/mooncake_Shizuru",
     "buyPath": "",
     "textIcon": "",
     "breakPath": "",
@@ -12366,7 +12371,7 @@
     "rewardList": [],
     "Getway": [
       {
-        "DisplayName": "角色生日赠送",
+        "DisplayName": "月满金秋活动签到",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -12379,11 +12384,11 @@
     "isDisplayInFinishedlWare": false
   },
   {
-    "id": 11400282,
-    "idCN": "6生日蛋糕/月饼(静流）",
+    "id": 11400287,
+    "idCN": "2一般道具/月饼-莉薇娅",
     "mod": "可使用道具",
     "isInformalData": false,
-    "name": "提拉米苏蛋糕",
+    "name": "莉薇娅手作月饼",
     "viewId": -1,
     "quality": "Golden",
     "useType": "Fixed",
@@ -12391,14 +12396,14 @@
     "isBatch": true,
     "exchangeList": [
       {
-        "itemId": 11400039,
+        "itemId": 11400006,
         "num": 60,
         "weight": 1
       }
     ],
-    "des": "人气长盛不衰的提拉米苏蛋糕，苦涩与甜蜜回味兼具。“带我走吧”。使用后可以消除列车长60点疲劳值。",
-    "iconPath": "Item/item/Small/mooncake01",
-    "tipsPath": "Item/item/Big/mooncake01",
+    "des": "由莉薇娅制作的月饼，创新地将冰皮染成了粉色，内里是香甜的草莓果酱。尝起来不错！使用后可回复澄明度。",
+    "iconPath": "Item/item/Small/mooncake_Livia",
+    "tipsPath": "Item/item/Big/mooncake_Livia",
     "buyPath": "",
     "textIcon": "",
     "breakPath": "",
@@ -12407,7 +12412,7 @@
     "isNotDisplayInBag": false,
     "isCompose": false,
     "containEquipment": false,
-    "batchUsetype": "Tired",
+    "batchUsetype": "Energy",
     "useLimitNum": 10,
     "isTiredItem": false,
     "isDrinkItem": false,
@@ -12422,63 +12427,7 @@
     "rewardList": [],
     "Getway": [
       {
-        "DisplayName": "角色生日赠送",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": -1
-      }
-    ],
-    "gettipstype": "Default",
-    "techPoints": 100,
-    "isDisplayInMaterialWare": false,
-    "isDisplayInFinishedlWare": false
-  },
-  {
-    "id": 11400283,
-    "idCN": "6生日蛋糕/月饼(莉薇娅粉）",
-    "mod": "可使用道具",
-    "isInformalData": false,
-    "name": "提拉米苏蛋糕",
-    "viewId": -1,
-    "quality": "Golden",
-    "useType": "Fixed",
-    "numRequired": 1,
-    "isBatch": true,
-    "exchangeList": [
-      {
-        "itemId": 11400039,
-        "num": 60,
-        "weight": 1
-      }
-    ],
-    "des": "人气长盛不衰的提拉米苏蛋糕，苦涩与甜蜜回味兼具。“带我走吧”。使用后可以消除列车长60点疲劳值。",
-    "iconPath": "Item/item/Small/mooncake03",
-    "tipsPath": "Item/item/Big/mooncake03",
-    "buyPath": "",
-    "textIcon": "",
-    "breakPath": "",
-    "sort": 0,
-    "isShowNum": true,
-    "isNotDisplayInBag": false,
-    "isCompose": false,
-    "containEquipment": false,
-    "batchUsetype": "Tired",
-    "useLimitNum": 10,
-    "isTiredItem": false,
-    "isDrinkItem": false,
-    "drinkNum": 3,
-    "isBattlePassItem": false,
-    "BattlePassType": "Low",
-    "uiPath": "",
-    "plotAfter": -1,
-    "endTime": "",
-    "limitedTime": 0,
-    "saletype": "NotSale",
-    "rewardList": [],
-    "Getway": [
-      {
-        "DisplayName": "角色生日赠送",
+        "DisplayName": "月满金秋活动签到",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",

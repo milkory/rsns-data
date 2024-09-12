@@ -9116,8 +9116,8 @@
   },
   {
     "id": 10300224,
-    "idCN": "敌方/09沙盗团/夏尔非boss",
-    "mod": "基础AI",
+    "idCN": "深渊/03期/夏尔-4",
+    "mod": "BOSSAI",
     "isInformalData": false,
     "targetInvisibleEffectId": 11102488,
     "effectOffsetX": 0.0,
@@ -9134,8 +9134,8 @@
     "skillList": [
       {
         "actionId": 10101333,
-        "activeFrame": 420,
-        "activeTime": 7.0,
+        "activeFrame": 480,
+        "activeTime": 8.0,
         "rangeSN": -10000
       },
       {
@@ -9143,24 +9143,36 @@
         "activeFrame": 960,
         "activeTime": 16.0,
         "rangeSN": -10000
+      },
+      {
+        "actionId": 10102110,
+        "activeFrame": 1260,
+        "activeTime": 21.0,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10102111,
+        "activeFrame": 1960,
+        "activeTime": 32.6667,
+        "rangeSN": -10000
       }
     ],
     "isInvisibleBeforeShowUp": false,
     "showupSkillList": [],
-    "skillLoopDelayFrame": 800,
+    "skillLoopDelayFrame": 480,
     "shapeShiftList": [],
     "commandList": [],
     "enemySkillList": [],
     "isUseEnergy": true,
     "energySkillList": [
       {
-        "actionId": 10102112,
+        "actionId": 10103079,
         "isClearEnergy": true,
         "rangeSN": -10000
       }
     ],
-    "energyRestorePerFrameSN": 220,
-    "isSkillDelay": true,
+    "energyRestorePerFrameSN": 280,
+    "isSkillDelay": false,
     "minDelay": 120,
     "maxDelay": 360
   },
@@ -18369,25 +18381,56 @@
     "actionList": [
       {
         "actionID": 10103335
+      },
+      {
+        "actionID": 10103336
       }
     ],
     "normalAttackCritID": -1,
     "skillList": [
       {
-        "actionId": 10103342,
-        "activeFrame": 180,
+        "actionId": 10103337,
+        "activeFrame": 240,
+        "activeTime": 1.0,
+        "rangeSN": 240000
+      },
+      {
+        "actionId": 10103338,
+        "activeFrame": 740,
+        "activeTime": 1.0,
+        "rangeSN": 240000
+      },
+      {
+        "actionId": 10103338,
+        "activeFrame": 1250,
+        "activeTime": 1.0,
+        "rangeSN": 240000
+      },
+      {
+        "actionId": 10103337,
+        "activeFrame": 1640,
         "activeTime": 1.0,
         "rangeSN": 240000
       }
     ],
-    "isInvisibleBeforeShowUp": false,
-    "showupSkillList": [],
-    "skillLoopDelayFrame": 480,
+    "isInvisibleBeforeShowUp": true,
+    "showupSkillList": [
+      {
+        "actionId": 10103341
+      }
+    ],
+    "skillLoopDelayFrame": 20,
     "shapeShiftList": [],
     "commandList": [],
     "enemySkillList": [],
-    "isUseEnergy": false,
-    "energySkillList": [],
+    "isUseEnergy": true,
+    "energySkillList": [
+      {
+        "actionId": 10103339,
+        "isClearEnergy": true,
+        "rangeSN": 240000
+      }
+    ],
     "energyRestorePerFrameSN": 550,
     "isSkillDelay": false,
     "minDelay": 120,
@@ -18417,6 +18460,62 @@
     "isUseEnergy": false,
     "energySkillList": [],
     "energyRestorePerFrameSN": 0,
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300455,
+    "idCN": "深渊/03期/夏尔-3",
+    "mod": "BOSSAI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10101326
+      },
+      {
+        "actionID": 10101329
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10101333,
+        "activeFrame": 480,
+        "activeTime": 8.0,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10101331,
+        "activeFrame": 960,
+        "activeTime": 16.0,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10102110,
+        "activeFrame": 1260,
+        "activeTime": 21.0,
+        "rangeSN": -10000
+      }
+    ],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [],
+    "skillLoopDelayFrame": 480,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": true,
+    "energySkillList": [
+      {
+        "actionId": 10102111,
+        "isClearEnergy": true,
+        "rangeSN": -10000
+      }
+    ],
+    "energyRestorePerFrameSN": 280,
     "isSkillDelay": false,
     "minDelay": 120,
     "maxDelay": 360
