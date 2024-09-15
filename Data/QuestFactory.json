@@ -2266,25 +2266,39 @@
     "mod": "基础任务",
     "isInformalData": false,
     "name": "日常任务",
-    "story": "",
     "describe": "今日首次登录",
+    "story": "",
+    "questType": "Daily",
+    "questTab": "",
+    "completeTab": "",
+    "sort": 20,
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
-    "questType": "Daily",
-    "sort": 20,
+    "isAnecdote": false,
+    "client": -1,
+    "startStation": -1,
+    "endStationList": [],
+    "isAutoTrace": false,
+    "traceList": [],
     "isSwitchUI": true,
     "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
     "conditionList": [
       {
         "key": "dayLog",
-        "val": "0"
+        "val": "pass"
       }
     ],
     "num": 1,
     "islockAddProgress": false,
     "isAutoComplete": false,
     "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
     "parentQuest": -1,
     "childQuestList": [],
     "rewardsList": [
@@ -2293,16 +2307,19 @@
         "num": 1
       }
     ],
-    "startStation": -1,
-    "endStationList": [],
-    "client": -1,
     "nextQuest": [],
     "changeCityStateList": [],
+    "mailList": [],
     "isEvent": false,
     "isOverwriteEvent": false,
     "eventList": [],
     "environmentList": [],
-    "traceList": []
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1,
+    "returnNum": 1,
+    "dontShowMain": false
   },
   {
     "id": 81000096,
@@ -87793,6 +87810,10 @@
     "childQuestList": [],
     "rewardsList": [
       {
+        "id": 11400218,
+        "num": 10000
+      },
+      {
         "id": 11400212,
         "num": 20
       },
@@ -87821,7 +87842,7 @@
     "mod": "基础任务",
     "isInformalData": false,
     "name": "海岛建设计划",
-    "describe": "于管理局购买沙滩小屋并布置在海岛",
+    "describe": "<color=#FF6E79>于管理局购买沙滩小屋并布置在海岛</color>",
     "story": "",
     "questType": "Side",
     "questTab": "UI/Island_Task/Build1",
@@ -87912,7 +87933,7 @@
     "mod": "基础任务",
     "isInformalData": false,
     "name": "海岛建设计划",
-    "describe": "剧情-购买并放置一个标准告示牌",
+    "describe": "<color=#FF6E79>【剧情】购买并放置一个标准告示牌</color>",
     "story": "",
     "questType": "Side",
     "questTab": "UI/Island_Task/Build1",
@@ -87989,7 +88010,7 @@
     "mod": "基础任务",
     "isInformalData": false,
     "name": "教训捣乱的客人",
-    "describe": "剧情-教训捣乱的客人",
+    "describe": "<color=#FF6E79>【剧情】教训捣乱的客人</color>",
     "story": "",
     "questType": "Side",
     "questTab": "UI/Island_Task/Clear1",
@@ -88063,11 +88084,11 @@
     "mod": "基础任务",
     "isInformalData": false,
     "name": "剧情-将小屋升级到LV2",
-    "describe": "剧情-将小屋升级到LV2",
+    "describe": "<color=#FF6E79>【剧情】将小屋升级到LV2</color>",
     "story": "",
     "questType": "Side",
     "questTab": "UI/Island_Task/Build1",
-    "completeTab": "",
+    "completeTab": "UI/Island_Task/Build2",
     "sort": 12,
     "isShowProgress": false,
     "isShowUnlock": false,
@@ -88141,7 +88162,7 @@
     "mod": "基础任务",
     "isInformalData": false,
     "name": "海岛建设计划",
-    "describe": "剧情-购买并放置一个西瓜摊",
+    "describe": "<color=#FF6E79>【剧情】购买并放置一个西瓜摊</color>",
     "story": "",
     "questType": "Side",
     "questTab": "UI/Island_Task/Build1",
@@ -88215,11 +88236,11 @@
     "mod": "基础任务",
     "isInformalData": false,
     "name": "海岛建设计划",
-    "describe": "剧情-将小屋升级到LV3",
+    "describe": "<color=#FF6E79>【剧情】将小屋升级到LV3</color>",
     "story": "",
     "questType": "Side",
     "questTab": "UI/Island_Task/Build1",
-    "completeTab": "",
+    "completeTab": "UI/Island_Task/Build2",
     "sort": 12,
     "isShowProgress": false,
     "isShowUnlock": false,
@@ -88293,7 +88314,7 @@
     "mod": "基础任务",
     "isInformalData": false,
     "name": "海岛建设计划",
-    "describe": "剧情-购买并放置一个冰淇淋摊",
+    "describe": "<color=#FF6E79>【剧情】购买并放置一个冰淇淋摊</color>",
     "story": "",
     "questType": "Side",
     "questTab": "UI/Island_Task/Build1",
@@ -88367,7 +88388,7 @@
     "mod": "基础任务",
     "isInformalData": false,
     "name": "打倒来袭者",
-    "describe": "剧情-打倒来袭者",
+    "describe": "<color=#FF6E79>【剧情】打倒来袭者</color>",
     "story": "",
     "questType": "Side",
     "questTab": "UI/Island_Task/Clear1",
@@ -88441,11 +88462,11 @@
     "mod": "基础任务",
     "isInformalData": false,
     "name": "海岛建设计划",
-    "describe": "剧情-将小屋升级到LV4",
+    "describe": "<color=#FF6E79>【剧情】将小屋升级到LV4</color>",
     "story": "",
     "questType": "Side",
     "questTab": "UI/Island_Task/Build1",
-    "completeTab": "",
+    "completeTab": "UI/Island_Task/Build2",
     "sort": 12,
     "isShowProgress": false,
     "isShowUnlock": false,
@@ -88519,7 +88540,7 @@
     "mod": "基础任务",
     "isInformalData": false,
     "name": "海岛建设计划",
-    "describe": "剧情-购买并放置一个炒面摊",
+    "describe": "<color=#FF6E79>【剧情】购买并放置一个炒面摊</color>",
     "story": "",
     "questType": "Side",
     "questTab": "UI/Island_Task/Build1",
@@ -88593,11 +88614,11 @@
     "mod": "基础任务",
     "isInformalData": false,
     "name": "海岛建设计划",
-    "describe": "剧情-将小屋升级到LV5",
+    "describe": "<color=#FF6E79>【剧情】将小屋升级到LV5</color>",
     "story": "",
     "questType": "Side",
     "questTab": "UI/Island_Task/Build1",
-    "completeTab": "",
+    "completeTab": "UI/Island_Task/Build2",
     "sort": 12,
     "isShowProgress": false,
     "isShowUnlock": false,
@@ -88671,7 +88692,7 @@
     "mod": "基础任务",
     "isInformalData": false,
     "name": "海岛建设计划",
-    "describe": "剧情-购买并放置一个饮料摊",
+    "describe": "<color=#FF6E79>【剧情】购买并放置一个饮料摊</color>",
     "story": "",
     "questType": "Side",
     "questTab": "UI/Island_Task/Build1",
@@ -88745,7 +88766,7 @@
     "mod": "基础任务",
     "isInformalData": false,
     "name": "与来袭者对峙",
-    "describe": "剧情-与来袭者对峙",
+    "describe": "<color=#FF6E79>【剧情】与来袭者对峙</color>",
     "story": "",
     "questType": "Side",
     "questTab": "UI/Island_Task/Clear1",
@@ -88819,11 +88840,11 @@
     "mod": "基础任务",
     "isInformalData": false,
     "name": "海岛建设计划",
-    "describe": "剧情-将小屋升级到LV6",
+    "describe": "<color=#FF6E79>【剧情】将小屋升级到LV6</color>",
     "story": "",
     "questType": "Side",
     "questTab": "UI/Island_Task/Build1",
-    "completeTab": "",
+    "completeTab": "UI/Island_Task/Build2",
     "sort": 12,
     "isShowProgress": true,
     "isShowUnlock": false,
@@ -88897,7 +88918,7 @@
     "mod": "基础任务",
     "isInformalData": false,
     "name": "与丽桑德拉对话",
-    "describe": "剧情-与丽桑德拉对话",
+    "describe": "<color=#FF6E79>【剧情】与丽桑德拉对话</color>",
     "story": "去见那个在“梦”里出现的人",
     "questType": "Side",
     "questTab": "UI/Island_Task/Build1",
@@ -88967,7 +88988,7 @@
     "mod": "基础任务",
     "isInformalData": false,
     "name": "迎战神秘深眠者",
-    "describe": "剧情-迎战神秘深眠者",
+    "describe": "<color=#FF6E79>【剧情】迎战神秘深眠者</color>",
     "story": "",
     "questType": "Side",
     "questTab": "UI/Island_Task/Clear1",
@@ -89059,7 +89080,7 @@
     "mod": "基础任务",
     "isInformalData": false,
     "name": "追击敌人",
-    "describe": "剧情-追击敌人",
+    "describe": "<color=#FF6E79>【剧情】追击敌人</color>",
     "story": "",
     "questType": "Side",
     "questTab": "UI/Island_Task/Clear1",
@@ -89703,7 +89724,7 @@
     "mod": "基础任务",
     "isInformalData": false,
     "name": "打败桦树生物",
-    "describe": "剧情-打败桦树生物",
+    "describe": "<color=#FF6E79>【剧情】打败桦树生物</color>",
     "story": "",
     "questType": "Side",
     "questTab": "UI/Island_Task/Clear1",
@@ -89988,7 +90009,7 @@
     "mod": "基础任务",
     "isInformalData": false,
     "name": "海岛建设计划",
-    "describe": "剧情-购买并放置一个纪念品摊",
+    "describe": "<color=#FF6E79>【剧情】购买并放置一个纪念品摊</color>",
     "story": "",
     "questType": "Side",
     "questTab": "UI/Island_Task/Build1",
@@ -90753,7 +90774,7 @@
     "conditionList": [
       {
         "key": "dayLog",
-        "val": "0"
+        "val": "return"
       }
     ],
     "num": 1,
@@ -90825,7 +90846,7 @@
     "conditionList": [
       {
         "key": "dayLog",
-        "val": "0"
+        "val": "return"
       }
     ],
     "num": 2,
@@ -90897,7 +90918,7 @@
     "conditionList": [
       {
         "key": "dayLog",
-        "val": "0"
+        "val": "return"
       }
     ],
     "num": 3,
@@ -90969,7 +90990,7 @@
     "conditionList": [
       {
         "key": "dayLog",
-        "val": "0"
+        "val": "return"
       }
     ],
     "num": 4,
@@ -91041,7 +91062,7 @@
     "conditionList": [
       {
         "key": "dayLog",
-        "val": "0"
+        "val": "return"
       }
     ],
     "num": 5,

@@ -28058,6 +28058,7 @@
     "hitAreaY_SN": 20000,
     "hitAreaHalfWidth_SN": 15000,
     "hitAreaHalfHeight_SN": 20000,
+    "canOverMaxSpeed": false,
     "battleDes": "",
     "safeInformation": "以长枪进行远距离破盾攻击的拾荒者。",
     "unitInformation": "穿着醒目的红色运动服，戴着防冲击面具的拾荒者，由于手持长柄武器所以能从较远距离发起攻击。经过特殊处理的长枪能够破坏我方防御，附有破盾效果。",
@@ -28081,7 +28082,8 @@
         "id": 86700076,
         "weight": 1
       }
-    ]
+    ],
+    "enemySkillList": []
   },
   {
     "id": 10000073,
@@ -33753,6 +33755,7 @@
     "hitAreaY_SN": 15000,
     "hitAreaHalfWidth_SN": 15000,
     "hitAreaHalfHeight_SN": 15000,
+    "canOverMaxSpeed": false,
     "battleDes": "",
     "safeInformation": "夏尔的左膀右臂，名为朱迪的大鹅。不仅仅是一只可爱的宠物而已，能在战场上发挥出恐怖的实力。",
     "unitInformation": "被夏尔称呼为朱迪的大鹅。除了种族天赋自带的啄技外，也掌握了一些令人感叹林子大了什么鹅都会有的特殊技能——虽然主要是因为夏尔的升构能力。杀伤力比农村用来看家护院的同类还要恐怖。\r尽量别惹它，也别惹它的主人。",
@@ -33782,7 +33785,8 @@
         "id": 86700066,
         "weight": 1
       }
-    ]
+    ],
+    "enemySkillList": []
   },
   {
     "id": 10000139,
@@ -45432,7 +45436,12 @@
     "enemyType": 12601047,
     "enemyCamp": 12601045,
     "enemyBookId": 10000210,
-    "prisonerDrop": [],
+    "prisonerDrop": [
+      {
+        "id": 86700002,
+        "weight": 1
+      }
+    ],
     "enemySkillList": []
   },
   {
@@ -45584,7 +45593,12 @@
     "enemyType": 12601047,
     "enemyCamp": 12601045,
     "enemyBookId": 10000212,
-    "prisonerDrop": [],
+    "prisonerDrop": [
+      {
+        "id": 86700004,
+        "weight": 1
+      }
+    ],
     "enemySkillList": []
   },
   {
@@ -45974,7 +45988,12 @@
     "enemyType": 12601047,
     "enemyCamp": 12601045,
     "enemyBookId": 10000150,
-    "prisonerDrop": [],
+    "prisonerDrop": [
+      {
+        "id": 86700005,
+        "weight": 1
+      }
+    ],
     "enemySkillList": []
   },
   {
@@ -53273,7 +53292,12 @@
     "enemyType": 12601047,
     "enemyCamp": 12601045,
     "enemyBookId": 10000274,
-    "prisonerDrop": [],
+    "prisonerDrop": [
+      {
+        "id": 86700003,
+        "weight": 1
+      }
+    ],
     "enemySkillList": []
   },
   {
@@ -77977,10 +78001,10 @@
         "breakthroughId": 12100628
       },
       {
-        "breakthroughId": 12100631
+        "breakthroughId": 12100627
       },
       {
-        "breakthroughId": 12100627
+        "breakthroughId": 12100631
       },
       {
         "breakthroughId": 12100626
@@ -79483,5 +79507,205 @@
         "id": 80304011
       }
     ]
+  },
+  {
+    "id": 10000606,
+    "idCN": "敌方/03劫掠者/链锯剑复仇者BOSS",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "链锯剑复仇者",
+    "EnglishName": "Looter-in-Chief",
+    "viewId": 11000305,
+    "skinList": [],
+    "sideId": 12600907,
+    "controllerId": 10300314,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": 90100011,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600278
+      },
+      {
+        "tagId": 12601075
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301411
+      },
+      {
+        "skillId": 12301431
+      },
+      {
+        "skillId": 12301410
+      },
+      {
+        "skillId": 12301369
+      },
+      {
+        "skillId": 12301432
+      },
+      {
+        "skillId": 12301413
+      },
+      {
+        "skillId": 12301618
+      },
+      {
+        "skillId": 12300508
+      },
+      {
+        "skillId": 12300879
+      }
+    ],
+    "hp_SN": 1650000000,
+    "def_SN": 650000,
+    "atk_SN": 800000,
+    "atkSpeed_SN": 800000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000358,
+    "growthTagList": [
+      {
+        "growthTagId": 12000353
+      },
+      {
+        "growthTagId": 12000060
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800470
+      },
+      {
+        "talentId": 12800471
+      },
+      {
+        "talentId": 12800467
+      },
+      {
+        "talentId": 12800468
+      },
+      {
+        "talentId": 12800469
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10102723,
+    "actionMoveID": 10102721,
+    "actionAttackedID": 10102722,
+    "actionAttackedBackID": 10102724,
+    "actionKnockUpID": -1,
+    "actionStunID": 10102720,
+    "actionDeadID": 10102725,
+    "actionVictoryID": -1,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 30000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 25000,
+    "hitAreaHalfWidth_SN": 25000,
+    "hitAreaHalfHeight_SN": 20000,
+    "canOverMaxSpeed": false,
+    "battleDes": "",
+    "safeInformation": "劫掠者的头领，以多功能轮锯作为武器。能造成电磁和火焰伤害，伴有多种负面效果。战斗意志顽强，濒死时触发【不灭的火种】。",
+    "unitInformation": "劫掠者团伙的首领，装备了精良的外部装甲，具有强烈的战斗意志。与其他劫掠者相比，他的武装程度更为夸张，可以说是武装到了牙缝儿。使用的武器是由阿妮塔出品的桦石开采装置改造而来。以多功能轮锯作为主要攻击手段，能对多个目标造成物理伤害。轮锯高速运转时能发射冲击弹，对我方全体角色造成电磁伤害，同时触发【引雷】；当将轮锯作为近距离武器使用时，能对范围内我方角色造成火焰伤害并【击飞】，同时有概率触发【点燃】。\\n【不灭的火种】：濒死时【无敌】并回复自身全部生命值，同时对全场造成【火海】。处于此状态时，驱散并免疫控制效果且技能释放频率加快，同时每秒损失自身生命值。该效果至多触发3次，每次回复的生命值递减。",
+    "enemyDrop": [
+      {
+        "id": 11700050
+      }
+    ],
+    "abilityList": [
+      {
+        "id": 12600930
+      },
+      {
+        "id": 12600904
+      },
+      {
+        "id": 12600903
+      },
+      {
+        "id": 12600923
+      },
+      {
+        "id": 12600925
+      },
+      {
+        "id": 12600934
+      },
+      {
+        "id": 12600944
+      }
+    ],
+    "weaknessList": [
+      {
+        "id": 12600993
+      },
+      {
+        "id": 12600974
+      }
+    ],
+    "resistanceList": [
+      {
+        "id": 12600962
+      },
+      {
+        "id": 12600991
+      },
+      {
+        "id": 12600989
+      },
+      {
+        "id": 12600990
+      }
+    ],
+    "enemyType": 12601048,
+    "enemyCamp": 12601045,
+    "enemyBookId": 10000255,
+    "prisonerDrop": [
+      {
+        "id": 86700085,
+        "weight": 1
+      }
+    ],
+    "enemySkillList": []
   }
 ]

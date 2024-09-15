@@ -8914,7 +8914,7 @@
     "idCN": "00原版/05五星/伊索斯/共振1-缓释制剂",
     "mod": "基础天赋",
     "isInformalData": false,
-    "path": "RolePlus\\00Gift\\Square\\HuanShiYaoJi",
+    "path": "RolePlus\\00Gift\\Square\\HuanShiZhiJi",
     "attriDetialList": [],
     "attributeList": [],
     "tempdesc": "【知觉干预】和【契约】的持续时间延长2秒",
@@ -8922,7 +8922,28 @@
     "awakeLv": 2,
     "skillList": [],
     "skillChangeList": [],
-    "skillParamOffsetList": [],
+    "skillParamOffsetList": [
+      {
+        "skillId": 12301934,
+        "tag": "T",
+        "value_SN": 1200000
+      },
+      {
+        "skillId": 12301934,
+        "tag": "B",
+        "value_SN": 20000
+      },
+      {
+        "skillId": 12301936,
+        "tag": "T",
+        "value_SN": 1200000
+      },
+      {
+        "skillId": 12301936,
+        "tag": "B",
+        "value_SN": 20000
+      }
+    ],
     "name": "缓释制剂"
   },
   {
@@ -8936,8 +8957,17 @@
     "tempdesc": "【知觉干预】增强为：\\n标记目标队友，每秒回复其5%生命值，持续6秒\\n持续期间，目标队友受到的伤害降低50%\\n同时将【普通攻击】治疗的目标 切换至标记目标队友\\n目标队友下1张卡牌费用-1",
     "desc": "【知觉干预】增强为：\\n标记目标队友，每秒回复其5%生命值，持续6秒\\n持续期间，目标队友受到的伤害降低50%\\n同时将【普通攻击】治疗的目标 切换至标记目标队友\\n目标队友下1张卡牌费用-1",
     "awakeLv": 3,
-    "skillList": [],
-    "skillChangeList": [],
+    "skillList": [
+      {
+        "skillId": 12301940
+      }
+    ],
+    "skillChangeList": [
+      {
+        "newSkillId": 12301939,
+        "oldSkillId": 12301934
+      }
+    ],
     "skillParamOffsetList": [],
     "name": "知觉引导"
   },
@@ -8952,7 +8982,11 @@
     "tempdesc": "【契约】持续期间，我方全体受到的治疗量加倍",
     "desc": "【契约】持续期间，我方全体受到的治疗量加倍",
     "awakeLv": 6,
-    "skillList": [],
+    "skillList": [
+      {
+        "skillId": 12301942
+      }
+    ],
     "skillChangeList": [],
     "skillParamOffsetList": [],
     "name": "生息"
@@ -8968,7 +9002,11 @@
     "tempdesc": "每隔10秒触发1次，被【知觉干预】标记的目标队友受到攻击时，从牌库或弃牌区将1张【药物促醒】加入手牌",
     "desc": "每隔10秒触发1次，被【知觉干预】标记的目标队友受到攻击时，从牌库或弃牌区将1张【药物促醒】加入手牌",
     "awakeLv": 5,
-    "skillList": [],
+    "skillList": [
+      {
+        "skillId": 12301941
+      }
+    ],
     "skillChangeList": [],
     "skillParamOffsetList": [],
     "name": "靶向治疗"

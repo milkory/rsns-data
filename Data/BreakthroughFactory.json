@@ -14257,7 +14257,11 @@
         "num": 1
       }
     ],
-    "skillList": [],
+    "skillList": [
+      {
+        "skillId": 12301946
+      }
+    ],
     "tempdesc": "使自身【普通攻击】的治疗量加倍，并同时治疗自身",
     "desc": "使自身【普通攻击】的治疗量加倍，并同时治疗自身",
     "skillChangeList": [],
@@ -14265,17 +14269,17 @@
   },
   {
     "id": 12100627,
-    "idCN": "05五星/伊索斯/觉醒4-斗志",
+    "idCN": "05五星/伊索斯/觉醒3-药师",
     "mod": "基础突破",
     "isInformalData": false,
-    "name": "斗志",
-    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "name": "药师",
+    "path": "RolePlus\\00Gift\\Circular\\YaoShi",
     "attriDetialList": [],
     "attributeList": [
       {
-        "attributeType": "Atk",
-        "numType": "Number",
-        "num_SN": 1500000
+        "attributeType": "MakeHealUp",
+        "numType": "Percent",
+        "num_SN": 2000
       }
     ],
     "materialList": [
@@ -14285,8 +14289,8 @@
       }
     ],
     "skillList": [],
-    "tempdesc": "攻击力+150",
-    "desc": "攻击力+150",
+    "tempdesc": "治疗量+20%",
+    "desc": "治疗量+20%",
     "skillChangeList": [],
     "skillParamOffsetList": []
   },
@@ -14305,10 +14309,19 @@
         "num": 1
       }
     ],
-    "skillList": [],
-    "tempdesc": "【药物促醒】增强为：\\n治疗我方目标，回复其20%生命值\\n同时驱散其受到的控制和伤害类特殊效果\\n若目标生命值大于30%时，使目标攻击力+2%，可叠加\\n若目标生命值小于30%时，使目标防御力+2%，可叠加",
-    "desc": "【药物促醒】增强为：\\n治疗我方目标，回复其20%生命值\\n同时驱散其受到的控制和伤害类特殊效果\\n若目标生命值大于30%时，使目标攻击力+2%，可叠加\\n若目标生命值小于30%时，使目标防御力+2%，可叠加",
-    "skillChangeList": [],
+    "skillList": [
+      {
+        "skillId": 12301945
+      }
+    ],
+    "tempdesc": "【药物促醒】增强为：\\n治疗我方目标，回复其25%生命值\\n同时驱散其受到的控制和伤害类特殊效果\\n若目标生命值大于30%时，使目标攻击力+2%，可叠加\\n若目标生命值小于30%时，使目标防御力+2%，可叠加",
+    "desc": "【药物促醒】增强为：\\n治疗我方目标，回复其25%生命值\\n同时驱散其受到的控制和伤害类特殊效果\\n若目标生命值大于30%时，使目标攻击力+2%，可叠加\\n若目标生命值小于30%时，使目标防御力+2%，可叠加",
+    "skillChangeList": [
+      {
+        "newSkillId": 12301944,
+        "oldSkillId": 12301935
+      }
+    ],
     "skillParamOffsetList": []
   },
   {
@@ -14326,7 +14339,11 @@
         "num": 1
       }
     ],
-    "skillList": [],
+    "skillList": [
+      {
+        "skillId": 12301943
+      }
+    ],
     "tempdesc": "使用【队长技】时，回复我方全体3%生命值",
     "desc": "使用【队长技】时，回复我方全体3%生命值",
     "skillChangeList": [],
@@ -14355,7 +14372,7 @@
   },
   {
     "id": 12100631,
-    "idCN": "05五星/伊索斯/觉醒3-强韧",
+    "idCN": "05五星/伊索斯/觉醒4-强韧",
     "mod": "基础突破",
     "isInformalData": false,
     "name": "强韧",
