@@ -69774,7 +69774,7 @@
     "idCN": "监狱/建筑/假释室/聘用律师",
     "mod": "UI文本",
     "isInformalData": false,
-    "text": "是否消耗 <color=#FFB800>%d</color> %s 雇佣%s为假释律师？"
+    "text": "是否消耗{%s} <color=#FFB800>%d</color> %s 雇佣%s为假释律师？"
   },
   {
     "id": 80607601,
@@ -73149,10 +73149,10 @@
   },
   {
     "id": 80608216,
-    "idCN": "监狱/原料车间/车间剩余铁盟币",
+    "idCN": "监狱/原料车间/铁盟币存量",
     "mod": "UI文本",
     "isInformalData": false,
-    "text": "车间剩余铁盟币"
+    "text": "铁盟币存量"
   },
   {
     "id": 80608217,
@@ -75884,6 +75884,55 @@
     "text": "备注"
   },
   {
+    "id": 80608475,
+    "idCN": "导航手册/阶段未完成",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "当前阶段未完成"
+  },
+  {
+    "id": 80608476,
+    "idCN": "导航手册/阶段已领取",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "当前阶段奖励已领取"
+  },
+  {
+    "id": 80608504,
+    "idCN": "轮盘战斗/小贴士",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "小贴士：退出战斗也会消耗【空白录像带】"
+  },
+  {
+    "id": 80608505,
+    "idCN": "轮盘战斗/兑换商店",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "兑换商店"
+  },
+  {
+    "id": 80608506,
+    "idCN": "轮盘战斗/前往按钮",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "前往虚演空间"
+  },
+  {
+    "id": 80608507,
+    "idCN": "轮盘战斗/剧情按钮",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "观看剧情"
+  },
+  {
+    "id": 80607939,
+    "idCN": "1预制体/Depot/Depot/文案58",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "私人仓库"
+  },
+  {
     "id": 80608472,
     "idCN": "战斗/个人排行榜/通关记录",
     "mod": "UI文本",
@@ -75926,10 +75975,479 @@
     "text": "处理"
   },
   {
-    "id": 80607939,
-    "idCN": "1预制体/Depot/Depot/文案58",
+    "id": 80608480,
+    "idCN": "监狱/建筑/假释室/假释室",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "假释室"
+  },
+  {
+    "id": 80608481,
+    "idCN": "监狱/建筑/假释室/最低表现分",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "当前等级假释最低表现分：%d"
+  },
+  {
+    "id": 80608482,
+    "idCN": "监狱/车间/囚犯事件/tips",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "生产已完成，无需处理事件，请关闭后重试。"
+  },
+  {
+    "id": 80608483,
+    "idCN": "监狱/建筑/假释室/待假释囚犯",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "待假释囚犯"
+  },
+  {
+    "id": 80608484,
+    "idCN": "监狱/建筑/假释室/已达成释放条件",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "已达成释放条件"
+  },
+  {
+    "id": 80608491,
+    "idCN": "监狱/原料车间/电力消耗",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "电力消耗"
+  },
+  {
+    "id": 80608492,
+    "idCN": "监狱/原料车间/生产速度",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "生产速度"
+  },
+  {
+    "id": 80608493,
+    "idCN": "监狱/原料车间/单位每小时",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "%d/小时"
+  },
+  {
+    "id": 80608503,
+    "idCN": "监狱/原料车间/切换配方提示",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "切换配方将会销毁本次加工产物，是否确定切换？"
+  },
+  {
+    "id": 80608502,
+    "idCN": "监狱/原料车间/可领取",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "可领取"
+  },
+  {
+    "id": 80608501,
+    "idCN": "监狱/原料车间/终止",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "终止"
+  },
+  {
+    "id": 80608500,
+    "idCN": "监狱/原料车间/生产时间",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "生产时间"
+  },
+  {
+    "id": 80608499,
+    "idCN": "监狱/原料车间/产出数量",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "产出数量"
+  },
+  {
+    "id": 80608498,
+    "idCN": "监狱/原料车间/开始生产",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "开始生产"
+  },
+  {
+    "id": 80608497,
+    "idCN": "监狱/原料车间/预计生产时间",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "预计生产时间"
+  },
+  {
+    "id": 80608496,
+    "idCN": "监狱/原料车间/预计产出数量",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "预计产出数量"
+  },
+  {
+    "id": 80608495,
+    "idCN": "监狱/原料车间/铁盟币",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "{%s}%d"
+  },
+  {
+    "id": 80608494,
+    "idCN": "监狱/原料车间/每小时产生费用",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "每小时产生费用"
+  },
+  {
+    "id": 80608535,
+    "idCN": "轮盘战斗/清空队伍",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "清空队伍"
+  },
+  {
+    "id": 80608537,
+    "idCN": "轮盘战斗/切换队伍",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "切换队伍"
+  },
+  {
+    "id": 80608538,
+    "idCN": "轮盘战斗/敌人详情",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "敌人详情"
+  },
+  {
+    "id": 80608539,
+    "idCN": "轮盘战斗/开始深度演算",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "开始深度演算"
+  },
+  {
+    "id": 80608540,
+    "idCN": "轮盘战斗/首次通关",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "首次通关"
+  },
+  {
+    "id": 80608541,
+    "idCN": "轮盘战斗/无队员阵亡通关",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "无队员阵亡通关"
+  },
+  {
+    "id": 80608542,
+    "idCN": "轮盘战斗/角色列表",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "角色列表"
+  },
+  {
+    "id": 80608543,
+    "idCN": "轮盘战斗/编队列表",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "编队列表"
+  },
+  {
+    "id": 80608544,
+    "idCN": "轮盘战斗/应用",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "应用"
+  },
+  {
+    "id": 80608545,
+    "idCN": "轮盘战斗/深度演算",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "深度演算"
+  },
+  {
+    "id": 80608546,
+    "idCN": "轮盘战斗/前往深度演算",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "前往深度演算"
+  },
+  {
+    "id": 80608547,
+    "idCN": "轮盘战斗/刻录进度",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "刻录进度"
+  },
+  {
+    "id": 80608548,
+    "idCN": "轮盘战斗/刻录条件",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "作战达到S级评级视为完成"
+  },
+  {
+    "id": 80608549,
+    "idCN": "轮盘战斗/开始虚演刻录",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "开始虚演刻录"
+  },
+  {
+    "id": 80608550,
+    "idCN": "轮盘战斗/奖励",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "奖励"
+  },
+  {
+    "id": 80607937,
+    "idCN": "1预制体/Depot/Depot/文案59",
     "mod": "UI文本",
     "isInformalData": false,
     "text": "私人仓库"
+  },
+  {
+    "id": 80608485,
+    "idCN": "监狱/建筑/假释室/刑期",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "刑期:%d天"
+  },
+  {
+    "id": 80608486,
+    "idCN": "监狱/建筑/假释室/表现分",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "表现分:%d"
+  },
+  {
+    "id": 80608487,
+    "idCN": "监狱/建筑/假释室/未达成释放条件",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "未达成释放条件"
+  },
+  {
+    "id": 80608488,
+    "idCN": "监狱/建筑/假释室/添加律师",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "添加律师"
+  },
+  {
+    "id": 80608489,
+    "idCN": "监狱/建筑/假释室/表现分(不足)",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "表现分:<color=#B25858>%d</color>"
+  },
+  {
+    "id": 80608490,
+    "idCN": "监狱/建筑/假释室/服务能力",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "假释金系数提升%d"
+  },
+  {
+    "id": 80608508,
+    "idCN": "好友/确定要删除该好友？",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "确定要删除该好友？"
+  },
+  {
+    "id": 80608509,
+    "idCN": "监狱/建筑/假释室/律师费用",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "律师费用"
+  },
+  {
+    "id": 80608510,
+    "idCN": "监狱/建筑/假释室/服务费",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "+%%服务费/每人"
+  },
+  {
+    "id": 80608511,
+    "idCN": "监狱/建筑/假释室/服务期限剩余",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "服务期限剩余："
+  },
+  {
+    "id": 80608512,
+    "idCN": "监狱/建筑/假释室/服务期限剩余天数",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "%d天"
+  },
+  {
+    "id": 80608513,
+    "idCN": "监狱/牢房/牢房开启",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "新宿舍开启"
+  },
+  {
+    "id": 80608514,
+    "idCN": "监狱/承包相关/牢房合同内容",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "一、承包内容\\n\r\r\r\r整顿中心及生产车间的管理、生产及运营。\\n\r\r\r\r二、甲方的权利义务\\n\r\r\r\r1、甲方应根据乙方缴纳的资金，为乙方提供相应的生产资料<color=#cc6e0a>（包括囚犯宿舍1间、生活区域2块）</color>。\\n\r\r\r\r2、甲方需为乙方提供场地、水电、安全保卫。\\n\r\r\r\r3、甲方应在乙方进行管理、生产、销售等活动时，在遵守法律法规的情况下提供帮助。\\n\r\r\r\r4、甲方应根据法律法规，在乙方进行管理、生产、销售等活动时从旁监督，若乙方违反合同内容或法律法规，甲方有权回收整顿中心及生产车间的管理权限。\\n\r\r\r\r三、乙方的权利义务\\n\r\r\r\r1、乙方需向甲方缴纳200万铁盟币作为可运营车间租赁费用、300万铁盟币作为整顿中心运维成本，<color=#cc6e0a>共计500万铁盟币</color>作为承包费用。\\n\r\r\r\r2、乙方应按相关规定制定生产计划、展开生产和销售活动，接受甲方的监管。\\n\r\r\r\r3、乙方应按相关规定收容、管理罪犯，并按正规流程向甲方报备。\\n\r\r\r\r4、车间生产与销售产生的盈亏均由乙方负责。"
+  },
+  {
+    "id": 80608515,
+    "idCN": "监狱/建筑/假释室/聘用",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "聘用"
+  },
+  {
+    "id": 80608516,
+    "idCN": "监狱/牢房/已解锁床位",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "已解锁床位：%d/%d"
+  },
+  {
+    "id": 80608517,
+    "idCN": "监狱/牢房/牢房整体人口",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "宿舍入住总人口：%d/%d"
+  },
+  {
+    "id": 80608518,
+    "idCN": "监狱/牢房/解锁新生活区域",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "是否消耗{%s}%d解锁新生活区域？"
+  },
+  {
+    "id": 80608519,
+    "idCN": "监狱/牢房/已解锁生活区域",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "已解锁生活区域："
+  },
+  {
+    "id": 80608520,
+    "idCN": "监狱/牢房/下一区域可解锁条件",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "下一区域可解锁条件："
+  },
+  {
+    "id": 80608521,
+    "idCN": "监狱/牢房/下一区域可解锁条件内容",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "整顿中心LV%d"
+  },
+  {
+    "id": 80608522,
+    "idCN": "监狱/牢房/百分比",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "%d/%d"
+  },
+  {
+    "id": 80608523,
+    "idCN": "监狱/建筑/假释室/刷新",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "刷新"
+  },
+  {
+    "id": 80608524,
+    "idCN": "监狱/建筑/假释室/排序-剩余刑期",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "排序 / 剩余刑期"
+  },
+  {
+    "id": 80608525,
+    "idCN": "监狱/建筑/假释室/排序-表现分",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "排序 / 表现分"
+  },
+  {
+    "id": 80608526,
+    "idCN": "监狱/建筑/假释室/剩余刑期",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "剩余刑期"
+  },
+  {
+    "id": 80608527,
+    "idCN": "监狱/建筑/假释室/表现分-字",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "表现分"
+  },
+  {
+    "id": 80608528,
+    "idCN": "监狱/建筑/假释室/表现分计算规则",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "<color=#FFFFFF>表现良好的囚犯可以向列车长上缴假释金提前出狱。提升假释室等级可以提升假释最低表现分。</color>\r\r表现分计算规则：\r囚犯每工作1小时     5\r装腔作势     -5\r偷懒     -10\r争执     -15\r霸凌     -20\r顺手牵羊     -25\r闹事     -30\r越狱     -100\r独来独往     10\r干劲十足     20\r奋发图强     30\r心无杂念     50"
+  },
+  {
+    "id": 80608529,
+    "idCN": "监狱/建筑/假释室/假释金额",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "{%s}%d"
+  },
+  {
+    "id": 80608530,
+    "idCN": "监狱/建筑/假释室/扣除手续费",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "扣除服务费%d%"
+  },
+  {
+    "id": 80608531,
+    "idCN": "战斗/自动战斗/选择操作-直接释放",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "直接释放"
+  },
+  {
+    "id": 80608532,
+    "idCN": "战斗/自动战斗/选择操作-禁用此卡牌",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "禁用此卡牌"
+  },
+  {
+    "id": 80608533,
+    "idCN": "监狱/建筑/假释室/铁盟律师协会",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "铁盟律师协会"
+  },
+  {
+    "id": 80608534,
+    "idCN": "监狱/建筑/假释室/每日刷新时间",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "每日5：00刷新"
+  },
+  {
+    "id": 80608536,
+    "idCN": "轮盘战斗/爬塔描述",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "由摩尔改造后的虚演空间，置身其中时可不受现实条件限制，尽情与各种敌人进行模拟战斗。"
   }
 ]

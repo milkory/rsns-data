@@ -7335,18 +7335,18 @@
   },
   {
     "id": 11400262,
-    "idCN": "5制造书/监狱/测试-未确认",
+    "idCN": "5制造书/车载缝纫机/牛仔布织造法",
     "mod": "图纸道具",
     "isInformalData": false,
-    "name": "监狱测试制作书",
+    "name": "牛仔布织造法",
     "viewId": -1,
     "quality": "Blue",
-    "des": "记录了<color=#FFB800>桦树原质</color>萃取流程的文件，使用后能够在【阿妮塔萃取装置】上将<color=#FFB800>桦树腺体</color>萃取制成<color=#FFB800>桦树原质</color>。",
+    "des": "记录了<color=#FFB800>牛仔布</color>织造流程的文件，使用后能够在【车载缝纫机】上将<color=#FFB800>亚麻</color>织造制成<color=#FFB800>牛仔布</color>。",
     "iconPath": "Item/item/Small/Book_SewingMachine",
     "tipsPath": "Item/item/Big/Book_SewingMachine",
     "buyPath": "",
     "textIcon": "",
-    "breakPath": "Item/item/Small/huashu02",
+    "breakPath": "Item/Goods/Small/niuzaibu",
     "sort": 0,
     "isShowNum": true,
     "isNotDisplayInBag": false,
@@ -7355,14 +7355,18 @@
     "rewardList": [],
     "Getway": [
       {
-        "DisplayName": "阿妮塔萃取装置-初始",
+        "DisplayName": "车载缝纫机-初始",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": -1
       }
     ],
-    "drawing": 84900037
+    "drawing": 84900044,
+    "techPoints": 100,
+    "skinID": -1,
+    "isDisplayInMaterialWare": false,
+    "isDisplayInFinishedlWare": false
   },
   {
     "id": 11400263,
@@ -12491,6 +12495,41 @@
     ],
     "gettipstype": "Default",
     "techPoints": 100,
+    "isDisplayInMaterialWare": false,
+    "isDisplayInFinishedlWare": false
+  },
+  {
+    "id": 11400291,
+    "idCN": "5制造书/车载缝纫机/尼龙晴雨伞缝制法",
+    "mod": "图纸道具",
+    "isInformalData": false,
+    "name": "尼龙晴雨伞缝制法",
+    "viewId": -1,
+    "quality": "Blue",
+    "des": "记录了<color=#FFB800>尼龙晴雨伞</color>缝制流程的文件，使用后能够在【车载缝纫机】上将<color=#FFB800>尼龙布</color>和<color=#FFB800>缝纫工具包</color>缝制制成<color=#FFB800>尼龙晴雨伞</color>。",
+    "iconPath": "Item/item/Small/Book_SewingMachine",
+    "tipsPath": "Item/item/Big/Book_SewingMachine",
+    "buyPath": "",
+    "textIcon": "",
+    "breakPath": "Item/Goods/Small/nilongqingyusan",
+    "sort": 0,
+    "isShowNum": true,
+    "isNotDisplayInBag": false,
+    "endTime": "",
+    "saletype": "NotSale",
+    "rewardList": [],
+    "Getway": [
+      {
+        "DisplayName": "云岫桥基地-建设进度奖励",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": -1
+      }
+    ],
+    "drawing": 84900037,
+    "techPoints": 100,
+    "skinID": -1,
     "isDisplayInMaterialWare": false,
     "isDisplayInFinishedlWare": false
   }

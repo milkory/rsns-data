@@ -139152,51 +139152,6 @@
     "backShakeFrame": -1
   },
   {
-    "id": 10103324,
-    "idCN": "我方/05五星/雅莱/B",
-    "mod": "基础动作",
-    "isInformalData": false,
-    "isCharge": false,
-    "isSkill": true,
-    "actionLevel": "NormalSkill",
-    "isUseTargetFilter": false,
-    "isIgnoreInvisibleEnemy": true,
-    "targetType": "Self",
-    "targetTagList": [],
-    "tagType": "And",
-    "halfWidth_SN": 0,
-    "attributeType": "HpMax",
-    "condition": "Max",
-    "numberType": "Number",
-    "number_SN": 0,
-    "buffTypeFO": -1,
-    "buffFO": -1,
-    "buffJudgeType": "Greater",
-    "buffLevel": 0,
-    "filterStance": "DeafaultStance",
-    "filterPosition": "DefaultPos",
-    "isAimSelf": false,
-    "targetCount": 0,
-    "distance_SN": 0,
-    "radius_SN": 0,
-    "isCustomRadius": false,
-    "radiusTag": "",
-    "damageHitBuffList": [],
-    "healHitBuffList": [],
-    "cdFrame": 140,
-    "isUseBigNumber": false,
-    "stateIdList": [
-      {
-        "bPlayTimes": false,
-        "customDataTag": "",
-        "stateId": 10203773,
-        "timesRate_SN": 10000,
-        "timesSource": "FixedValue"
-      }
-    ],
-    "backShakeFrame": -1
-  },
-  {
     "id": 10103325,
     "idCN": "我方/05五星/雅莱/移动",
     "mod": "基础动作",
@@ -140542,55 +140497,6 @@
     "backShakeFrame": -1
   },
   {
-    "id": 10103356,
-    "idCN": "我方/05五星/伊索斯/B",
-    "mod": "基础动作",
-    "isInformalData": false,
-    "isCharge": false,
-    "isSkill": true,
-    "actionLevel": "NormalSkill",
-    "isUseTargetFilter": true,
-    "isIgnoreInvisibleEnemy": true,
-    "targetType": "Ally",
-    "targetTagList": [
-      {
-        "tagId": 12600246
-      }
-    ],
-    "tagType": "And",
-    "halfWidth_SN": 0,
-    "attributeType": "HpMax",
-    "condition": "Max",
-    "numberType": "Number",
-    "number_SN": 0,
-    "buffTypeFO": -1,
-    "buffFO": -1,
-    "buffJudgeType": "Greater",
-    "buffLevel": 0,
-    "filterStance": "DeafaultStance",
-    "filterPosition": "DefaultPos",
-    "isAimSelf": false,
-    "targetCount": 0,
-    "distance_SN": 0,
-    "radius_SN": 0,
-    "isCustomRadius": false,
-    "radiusTag": "",
-    "damageHitBuffList": [],
-    "healHitBuffList": [],
-    "cdFrame": 140,
-    "isUseBigNumber": false,
-    "stateIdList": [
-      {
-        "bPlayTimes": false,
-        "customDataTag": "",
-        "stateId": 10203800,
-        "timesRate_SN": 10000,
-        "timesSource": "FixedValue"
-      }
-    ],
-    "backShakeFrame": -1
-  },
-  {
     "id": 10103357,
     "idCN": "我方/05五星/伊索斯/A",
     "mod": "基础动作",
@@ -141174,6 +141080,100 @@
         "stateId": 10203814,
         "timesRate_SN": 10000,
         "timesSource": "CurrentHp"
+      }
+    ],
+    "backShakeFrame": -1
+  },
+  {
+    "id": 10103356,
+    "idCN": "我方/05五星/伊索斯/B",
+    "mod": "基础动作",
+    "isInformalData": false,
+    "isCharge": false,
+    "isSkill": true,
+    "actionLevel": "NormalSkill",
+    "isUseTargetFilter": true,
+    "isIgnoreInvisibleEnemy": true,
+    "targetType": "Ally",
+    "targetTagList": [
+      {
+        "tagId": 12600246
+      }
+    ],
+    "tagType": "And",
+    "halfWidth_SN": 0,
+    "attributeType": "HpMax",
+    "condition": "Max",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 0,
+    "distance_SN": 0,
+    "radius_SN": 0,
+    "isCustomRadius": false,
+    "radiusTag": "",
+    "damageHitBuffList": [],
+    "healHitBuffList": [],
+    "cdFrame": 140,
+    "isUseBigNumber": false,
+    "stateIdList": [
+      {
+        "bPlayTimes": false,
+        "customDataTag": "",
+        "stateId": 10203800,
+        "timesRate_SN": 10000,
+        "timesSource": "FixedValue"
+      }
+    ],
+    "backShakeFrame": -1
+  },
+  {
+    "id": 10103324,
+    "idCN": "我方/05五星/雅莱/B",
+    "mod": "基础动作",
+    "isInformalData": false,
+    "isCharge": false,
+    "isSkill": true,
+    "actionLevel": "NormalSkill",
+    "isUseTargetFilter": false,
+    "isIgnoreInvisibleEnemy": true,
+    "targetType": "Self",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 0,
+    "attributeType": "HpMax",
+    "condition": "Max",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 0,
+    "distance_SN": 0,
+    "radius_SN": 0,
+    "isCustomRadius": false,
+    "radiusTag": "",
+    "damageHitBuffList": [],
+    "healHitBuffList": [],
+    "cdFrame": 140,
+    "isUseBigNumber": false,
+    "stateIdList": [
+      {
+        "bPlayTimes": false,
+        "customDataTag": "",
+        "stateId": 10203773,
+        "timesRate_SN": 10000,
+        "timesSource": "FixedValue"
       }
     ],
     "backShakeFrame": -1
