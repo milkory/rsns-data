@@ -444,7 +444,7 @@
   },
   {
     "id": 83900028,
-    "idCN": "交易所/指定交易品买卖/（未实装）单晶硅和石墨烯",
+    "idCN": "交易所/指定交易品买卖/单晶硅和石墨烯",
     "mod": "增加可购买数量",
     "isInformalData": false,
     "name": "指定交易品买卖",
@@ -547,13 +547,13 @@
   },
   {
     "id": 83900036,
-    "idCN": "交易所/指定交易品买卖/（未实装）沙金",
+    "idCN": "交易所/指定交易品买卖/沙金",
     "mod": "增加可购买数量",
     "isInformalData": false,
     "name": "指定交易品买卖",
     "desc": "沙金可买入数量+%s%%",
     "tag": 1,
-    "sort": 0,
+    "sort": 301,
     "homeSkillType": "AddQty",
     "param": 0.2,
     "isReplace": true,
@@ -1030,13 +1030,13 @@
   },
   {
     "id": 83900058,
-    "idCN": "交易所/指定交易品买卖/（未实装）沙金+",
+    "idCN": "交易所/指定交易品买卖/沙金+",
     "mod": "增加可购买数量",
     "isInformalData": false,
     "name": "指定交易品买卖+",
     "desc": "沙金可买入数量+%s%%",
     "tag": 1,
-    "sort": 0,
+    "sort": 300,
     "homeSkillType": "AddQty",
     "param": 0.1,
     "isReplace": true,
@@ -2622,5 +2622,85 @@
         "id": 82900239
       }
     ]
+  },
+  {
+    "id": 83900167,
+    "idCN": "家园相关/评分/药理学",
+    "mod": "基础技能",
+    "isInformalData": false,
+    "name": "药理学",
+    "desc": "医疗评分+%s%%",
+    "tag": 3,
+    "sort": 0,
+    "homeSkillType": "AddMedicalScores",
+    "param": 0.05,
+    "isReplace": true,
+    "isPCT": true
+  },
+  {
+    "id": 83900168,
+    "idCN": "家园相关/评分/药理学+",
+    "mod": "基础技能",
+    "isInformalData": false,
+    "name": "药理学",
+    "desc": "医疗评分+%s%%",
+    "tag": 3,
+    "sort": 0,
+    "homeSkillType": "AddMedicalScores",
+    "param": 0.03,
+    "isReplace": true,
+    "isPCT": true
+  },
+  {
+    "id": 83900169,
+    "idCN": "交易所/指定交易品买卖/银矿石",
+    "mod": "增加可购买数量",
+    "isInformalData": false,
+    "name": "指定交易品买卖",
+    "desc": "银矿石可买入数量+%s%%",
+    "tag": 1,
+    "sort": 400,
+    "homeSkillType": "AddQty",
+    "param": 0.2,
+    "isReplace": true,
+    "isPCT": true,
+    "city": -1,
+    "goodsList": [
+      {
+        "id": 82900146
+      }
+    ]
+  },
+  {
+    "id": 83900170,
+    "idCN": "交易所/特产品买卖/汇流塔",
+    "mod": "增加可购买数量",
+    "isInformalData": false,
+    "name": "特产品买卖",
+    "desc": "汇流塔交易所特产品可买入数量+%s%%",
+    "tag": 1,
+    "sort": 919,
+    "homeSkillType": "AddSpecQty",
+    "param": 0.2,
+    "isReplace": true,
+    "isPCT": true,
+    "city": 83000030,
+    "goodsList": []
+  },
+  {
+    "id": 83900171,
+    "idCN": "交易所/特产品买卖/汇流塔+",
+    "mod": "增加可购买数量",
+    "isInformalData": false,
+    "name": "特产品买卖+",
+    "desc": "汇流塔交易所特产品可买入数量+%s%%",
+    "tag": 1,
+    "sort": 918,
+    "homeSkillType": "AddSpecQty",
+    "param": 0.1,
+    "isReplace": true,
+    "isPCT": true,
+    "city": 83000030,
+    "goodsList": []
   }
 ]

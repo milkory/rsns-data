@@ -46,6 +46,9 @@
       },
       {
         "unitViewId": 11000295
+      },
+      {
+        "unitViewId": 11000389
       }
     ],
     "sideId": 12600031,
@@ -24526,7 +24529,7 @@
     "passiveSkillList": [],
     "hp_SN": 72000000,
     "def_SN": 680000,
-    "atk_SN": 850000,
+    "atk_SN": 870000,
     "atkSpeed_SN": 1000000,
     "luck_SN": 0,
     "line": 2,
@@ -24664,7 +24667,7 @@
         "resonanceLv": 4
       },
       {
-        "id": 83900061,
+        "id": 83900060,
         "nextIndex": -1,
         "resonanceLv": 5
       }
@@ -28459,12 +28462,13 @@
     "actionStunID": 10101046,
     "actionDeadID": 10101051,
     "actionVictoryID": -1,
-    "hitPointX_SN": -30000,
+    "hitPointX_SN": 0,
     "hitPointY_SN": 20000,
-    "hitAreaX_SN": 15000,
+    "hitAreaX_SN": 0,
     "hitAreaY_SN": 15000,
-    "hitAreaHalfWidth_SN": 5000,
+    "hitAreaHalfWidth_SN": 13000,
     "hitAreaHalfHeight_SN": 15000,
+    "canOverMaxSpeed": false,
     "battleDes": "",
     "safeInformation": "“狂飙焚尽”，鼹鼠帮的老大。通过投掷燃烧瓶进行攻击，会使唤喽啰摆放地雷路障，还能呼唤车队前来进行干扰。",
     "unitInformation": "“狂飙焚尽”，鼹鼠帮的老大，一般带领着鼹鼠帮活跃于修格里城的地下区域。要说鼹鼠帮的特点，大概就是……\\n“行动时非常酷帅，还穿着满身大牌。噪音太响令人无奈，带着超强武器徘徊，别不把燃烧瓶当阻碍，否则就把你炸坏！”\\n“老大，为什么我们要用RAP形式自我介绍啊？”\\n“当然是因为酷了！蠢货！”\\n攻击方式是抛掷燃烧瓶造成伤害。此外，能够召唤鼹鼠帮喽啰加入战场，部分喽啰将携带会爆炸造成伤害的阔剑地雷。这就是修格里城第一帮派鼹鼠帮的实力！",
@@ -28508,7 +28512,8 @@
         "id": 86700071,
         "weight": 1
       }
-    ]
+    ],
+    "enemySkillList": []
   },
   {
     "id": 10000061,
@@ -39747,7 +39752,7 @@
     ],
     "hp_SN": 1440000000,
     "def_SN": 680000,
-    "atk_SN": 850000,
+    "atk_SN": 870000,
     "atkSpeed_SN": 1000000,
     "luck_SN": 0,
     "spName": "",
@@ -39844,6 +39849,7 @@
     "hitAreaY_SN": 10000,
     "hitAreaHalfWidth_SN": 5000,
     "hitAreaHalfHeight_SN": 10000,
+    "canOverMaxSpeed": false,
     "battleDes": "",
     "safeInformation": "狡黠的对手，在战场上更是强敌。“嘘……”",
     "unitInformation": "",
@@ -39854,7 +39860,8 @@
     "enemyType": 12601048,
     "enemyCamp": 12601045,
     "enemyBookId": -1,
-    "prisonerDrop": []
+    "prisonerDrop": [],
+    "enemySkillList": []
   },
   {
     "id": 10000041,
@@ -57221,7 +57228,7 @@
   },
   {
     "id": 10000311,
-    "idCN": "爬塔/人形单位/鼹鼠-3",
+    "idCN": "爬塔/人形单位/鼹鼠-5",
     "mod": "敌方角色",
     "isInformalData": false,
     "name": "鼹鼠",
@@ -57264,7 +57271,13 @@
         "skillId": 12301472
       },
       {
+        "skillId": 12301938
+      },
+      {
         "skillId": 12301189
+      },
+      {
+        "skillId": 12301802
       }
     ],
     "hp_SN": 1500000000,
@@ -57336,12 +57349,13 @@
     "actionStunID": 10101046,
     "actionDeadID": 10101051,
     "actionVictoryID": -1,
-    "hitPointX_SN": -30000,
+    "hitPointX_SN": 0,
     "hitPointY_SN": 20000,
-    "hitAreaX_SN": 15000,
+    "hitAreaX_SN": 0,
     "hitAreaY_SN": 15000,
     "hitAreaHalfWidth_SN": 5000,
     "hitAreaHalfHeight_SN": 15000,
+    "canOverMaxSpeed": false,
     "battleDes": "",
     "safeInformation": "",
     "unitInformation": "",
@@ -57352,11 +57366,12 @@
     "enemyType": 12601048,
     "enemyCamp": 12601045,
     "enemyBookId": 10000067,
-    "prisonerDrop": []
+    "prisonerDrop": [],
+    "enemySkillList": []
   },
   {
     "id": 10000310,
-    "idCN": "爬塔/人形单位/鼹鼠-2",
+    "idCN": "爬塔/人形单位/鼹鼠-4",
     "mod": "敌方角色",
     "isInformalData": false,
     "name": "鼹鼠",
@@ -57399,7 +57414,13 @@
         "skillId": 12301472
       },
       {
+        "skillId": 12301938
+      },
+      {
         "skillId": 12301189
+      },
+      {
+        "skillId": 12301634
       }
     ],
     "hp_SN": 1500000000,
@@ -57471,12 +57492,13 @@
     "actionStunID": 10101046,
     "actionDeadID": 10101051,
     "actionVictoryID": -1,
-    "hitPointX_SN": -30000,
+    "hitPointX_SN": 0,
     "hitPointY_SN": 20000,
-    "hitAreaX_SN": 15000,
+    "hitAreaX_SN": 0,
     "hitAreaY_SN": 15000,
-    "hitAreaHalfWidth_SN": 5000,
+    "hitAreaHalfWidth_SN": 13000,
     "hitAreaHalfHeight_SN": 15000,
+    "canOverMaxSpeed": false,
     "battleDes": "",
     "safeInformation": "",
     "unitInformation": "",
@@ -57487,11 +57509,12 @@
     "enemyType": 12601048,
     "enemyCamp": 12601045,
     "enemyBookId": 10000067,
-    "prisonerDrop": []
+    "prisonerDrop": [],
+    "enemySkillList": []
   },
   {
     "id": 10000309,
-    "idCN": "爬塔/人形单位/鼹鼠-1",
+    "idCN": "爬塔/人形单位/鼹鼠-3",
     "mod": "敌方角色",
     "isInformalData": false,
     "name": "鼹鼠",
@@ -57534,7 +57557,13 @@
         "skillId": 12301472
       },
       {
+        "skillId": 12301938
+      },
+      {
         "skillId": 12301189
+      },
+      {
+        "skillId": 12301801
       }
     ],
     "hp_SN": 1500000000,
@@ -57606,12 +57635,13 @@
     "actionStunID": 10101046,
     "actionDeadID": 10101051,
     "actionVictoryID": -1,
-    "hitPointX_SN": -30000,
+    "hitPointX_SN": 0,
     "hitPointY_SN": 20000,
-    "hitAreaX_SN": 15000,
+    "hitAreaX_SN": 0,
     "hitAreaY_SN": 15000,
-    "hitAreaHalfWidth_SN": 5000,
+    "hitAreaHalfWidth_SN": 13000,
     "hitAreaHalfHeight_SN": 15000,
+    "canOverMaxSpeed": false,
     "battleDes": "",
     "safeInformation": "",
     "unitInformation": "",
@@ -57622,7 +57652,8 @@
     "enemyType": 12601048,
     "enemyCamp": 12601045,
     "enemyBookId": 10000067,
-    "prisonerDrop": []
+    "prisonerDrop": [],
+    "enemySkillList": []
   },
   {
     "id": 10000312,
@@ -62646,7 +62677,7 @@
   },
   {
     "id": 10000347,
-    "idCN": "爬塔/深眠者/深眠者·沉溺-1",
+    "idCN": "爬塔/深眠者/深眠者·沉溺-3",
     "mod": "敌方角色",
     "isInformalData": false,
     "name": "深眠者·沉溺",
@@ -62654,7 +62685,7 @@
     "viewId": 11000206,
     "skinList": [],
     "sideId": 12600910,
-    "controllerId": 10300153,
+    "controllerId": 10300457,
     "bulletControllerList": [],
     "isBoss": true,
     "bossHpTemp": 90100010,
@@ -62689,22 +62720,25 @@
         "skillId": 12301441
       },
       {
-        "skillId": 12301367
-      },
-      {
         "skillId": 12301423
       },
       {
         "skillId": 12301421
       },
       {
-        "skillId": 12301418
-      },
-      {
         "skillId": 12301410
       },
       {
+        "skillId": 12301419
+      },
+      {
+        "skillId": 12301433
+      },
+      {
         "skillId": 12300239
+      },
+      {
+        "skillId": 12300966
       }
     ],
     "hp_SN": 1800000000,
@@ -62782,6 +62816,7 @@
     "hitAreaY_SN": 10000,
     "hitAreaHalfWidth_SN": 5000,
     "hitAreaHalfHeight_SN": 10000,
+    "canOverMaxSpeed": false,
     "battleDes": "",
     "safeInformation": "",
     "unitInformation": "",
@@ -62792,7 +62827,8 @@
     "enemyType": 12601048,
     "enemyCamp": 12600237,
     "enemyBookId": 10000119,
-    "prisonerDrop": []
+    "prisonerDrop": [],
+    "enemySkillList": []
   },
   {
     "id": 10000350,
@@ -62934,7 +62970,7 @@
   },
   {
     "id": 10000354,
-    "idCN": "爬塔/深眠者/深眠者·沉溺-2",
+    "idCN": "爬塔/深眠者/深眠者·沉溺-4",
     "mod": "敌方角色",
     "isInformalData": false,
     "name": "深眠者·沉溺",
@@ -62942,7 +62978,7 @@
     "viewId": 11000206,
     "skinList": [],
     "sideId": 12600910,
-    "controllerId": 10300153,
+    "controllerId": 10300457,
     "bulletControllerList": [],
     "isBoss": true,
     "bossHpTemp": 90100010,
@@ -62977,19 +63013,22 @@
         "skillId": 12301441
       },
       {
-        "skillId": 12301367
-      },
-      {
         "skillId": 12301423
       },
       {
         "skillId": 12301421
       },
       {
-        "skillId": 12301418
+        "skillId": 12301410
       },
       {
-        "skillId": 12301410
+        "skillId": 12301433
+      },
+      {
+        "skillId": 12301419
+      },
+      {
+        "skillId": 12300966
       },
       {
         "skillId": 12301683
@@ -63073,6 +63112,7 @@
     "hitAreaY_SN": 10000,
     "hitAreaHalfWidth_SN": 5000,
     "hitAreaHalfHeight_SN": 10000,
+    "canOverMaxSpeed": false,
     "battleDes": "",
     "safeInformation": "",
     "unitInformation": "",
@@ -63083,11 +63123,12 @@
     "enemyType": 12601048,
     "enemyCamp": 12600237,
     "enemyBookId": 10000119,
-    "prisonerDrop": []
+    "prisonerDrop": [],
+    "enemySkillList": []
   },
   {
     "id": 10000355,
-    "idCN": "爬塔/深眠者/深眠者·沉溺-3",
+    "idCN": "爬塔/深眠者/深眠者·沉溺-5",
     "mod": "敌方角色",
     "isInformalData": false,
     "name": "深眠者·沉溺",
@@ -63095,7 +63136,7 @@
     "viewId": 11000206,
     "skinList": [],
     "sideId": 12600910,
-    "controllerId": 10300153,
+    "controllerId": 10300457,
     "bulletControllerList": [],
     "isBoss": true,
     "bossHpTemp": 90100010,
@@ -63130,19 +63171,22 @@
         "skillId": 12301441
       },
       {
-        "skillId": 12301367
-      },
-      {
         "skillId": 12301423
       },
       {
         "skillId": 12301421
       },
       {
-        "skillId": 12301418
+        "skillId": 12301410
       },
       {
-        "skillId": 12301410
+        "skillId": 12301433
+      },
+      {
+        "skillId": 12301419
+      },
+      {
+        "skillId": 12300966
       },
       {
         "skillId": 12301683
@@ -63229,6 +63273,7 @@
     "hitAreaY_SN": 10000,
     "hitAreaHalfWidth_SN": 5000,
     "hitAreaHalfHeight_SN": 10000,
+    "canOverMaxSpeed": false,
     "battleDes": "",
     "safeInformation": "",
     "unitInformation": "",
@@ -63239,7 +63284,8 @@
     "enemyType": 12601048,
     "enemyCamp": 12600237,
     "enemyBookId": 10000119,
-    "prisonerDrop": []
+    "prisonerDrop": [],
+    "enemySkillList": []
   },
   {
     "id": 10000356,
@@ -77214,7 +77260,7 @@
         "unitViewId": 11000402
       }
     ],
-    "sideId": 12600026,
+    "sideId": 12600031,
     "controllerId": 10300452,
     "bulletControllerList": [],
     "isBoss": false,
@@ -77233,7 +77279,11 @@
         "tagId": 12600067
       }
     ],
-    "passiveSkillList": [],
+    "passiveSkillList": [
+      {
+        "skillId": 12301948
+      }
+    ],
     "hp_SN": 68000000,
     "def_SN": 780000,
     "atk_SN": 880000,
@@ -77364,17 +77414,17 @@
     "isSpine2": 0,
     "homeSkillList": [
       {
-        "id": 83900122,
+        "id": 83900170,
         "nextIndex": 3,
         "resonanceLv": 1
       },
       {
-        "id": 83900076,
+        "id": 83900041,
         "nextIndex": 0,
         "resonanceLv": 4
       },
       {
-        "id": 83900123,
+        "id": 83900171,
         "nextIndex": -1,
         "resonanceLv": 5
       }
@@ -77390,8 +77440,37 @@
     "WasteCoefficient": 1.0,
     "FoodList": [],
     "ProfilePhotoList": [],
-    "classifyList": [],
-    "careerList": [],
+    "classifyList": [
+      {
+        "des": 12601215
+      },
+      {
+        "des": 12601216
+      },
+      {
+        "des": 12601217
+      },
+      {
+        "des": 12601221
+      },
+      {
+        "des": 12601218
+      },
+      {
+        "des": 12601219
+      },
+      {
+        "des": 12601223
+      },
+      {
+        "des": 12601227
+      }
+    ],
+    "careerList": [
+      {
+        "des": 12601213
+      }
+    ],
     "fileList": [
       {
         "file": 80303807
@@ -77924,7 +78003,7 @@
         "unitViewId": 11000407
       }
     ],
-    "sideId": 12600026,
+    "sideId": 12600031,
     "controllerId": 10300454,
     "bulletControllerList": [],
     "isBoss": false,
@@ -77945,7 +78024,7 @@
     ],
     "passiveSkillList": [],
     "hp_SN": 88000000,
-    "def_SN": 800000,
+    "def_SN": 880000,
     "atk_SN": 800000,
     "atkSpeed_SN": 1000000,
     "luck_SN": 0,
@@ -78071,20 +78150,20 @@
         "num": 10
       }
     ],
-    "isSpine2": 0,
+    "isSpine2": 1,
     "homeSkillList": [
       {
-        "id": 83900122,
+        "id": 83900167,
         "nextIndex": 3,
         "resonanceLv": 1
       },
       {
-        "id": 83900076,
+        "id": 83900169,
         "nextIndex": 0,
         "resonanceLv": 4
       },
       {
-        "id": 83900123,
+        "id": 83900168,
         "nextIndex": -1,
         "resonanceLv": 5
       }
@@ -78098,35 +78177,81 @@
     "isDoctor": true,
     "medicalPoint": 99,
     "WasteCoefficient": 1.0,
-    "FoodList": [],
-    "ProfilePhotoList": [],
-    "classifyList": [],
-    "careerList": [],
+    "FoodList": [
+      {
+        "id": 83300002,
+        "letter": "理论上是可以吃的。",
+        "weight": 1
+      }
+    ],
+    "ProfilePhotoList": [
+      {
+        "id": 82600537,
+        "weight": 95
+      },
+      {
+        "id": 82600538,
+        "weight": 95
+      },
+      {
+        "id": 82600539,
+        "weight": 95
+      },
+      {
+        "id": 82600540,
+        "weight": 15
+      }
+    ],
+    "classifyList": [
+      {
+        "des": 12601215
+      },
+      {
+        "des": 12601216
+      },
+      {
+        "des": 12601217
+      },
+      {
+        "des": 12601221
+      },
+      {
+        "des": 12601219
+      },
+      {
+        "des": 12601223
+      }
+    ],
+    "careerList": [
+      {
+        "des": 12601214
+      }
+    ],
     "fileList": [
       {
         "file": 80303987
       }
     ],
     "age": 0,
-    "gender": "",
-    "birthday": "8月8日",
-    "birthdayMonth": "8",
-    "birthdayDay": "8",
-    "birthdayCake": -1,
-    "birthdayMessage": "",
-    "height": "192cm",
-    "birthplace": "曼杜斯帝国",
-    "ability": "",
-    "identity": "武器锻造师",
+    "gender": "男",
+    "birthday": "4月6日",
+    "birthdayMonth": "4",
+    "birthdayDay": "6",
+    "birthdayCake": 11400126,
+    "birthdayMessage": "黑巧克力被证实对维护人类的循环系统健康有一定益处。希望你平时多注意保持身体健康，少光顾医疗室为好。",
+    "height": "180cm",
+    "birthplace": "贡露城",
+    "ability": "感知遮蔽",
+    "identity": "索思学会·升构学派学者",
     "basic": "",
     "ResumeList": [
       {
-        "des": "\\n埃兹拉从小就为了成为一名优秀的帝国骑士而不断努力，等到了合适的年龄便前往帝国首都的骑士训练营。\r\n\\n因为长年累月不懈锻炼出的身体素质和身为混响者的强大力量，他很快如愿被录取。\r\n\\n然而凡事有利有弊，普通武器不足以承担他狂放的战斗风格，损耗得相当厉害。\r\n\\n为寻求坚固的武器，埃兹拉暂别骑士团的同僚，最终认为求人不如求己，干脆拜师学起了武器锻造的技艺。\r\n\\n他做事心无旁骛，总是一门心思投入其中，因此培养出了对武器锻造的热爱，技术也是突飞猛进。\r\n\\n当埃兹拉见识到来自地表的武器图纸后，深深为这种闻所未闻的技术所打动，决心前往地表寻求全新的突破。"
+        "des": "升构学派是索思学会中重要的学术派别。但和他们的同僚相比，升构学派的研究者们似乎在手段和主张上更为狂热——以世俗的标准来看，他们是不择手段的。身为升构学派学者，言行举止也谈不上热情友善，伊索斯人缘不好也就情有可原了。但是围绕着伊索斯的还有一些令人不安的传言：以亲人为实验素材的研究者，叛离世俗伦理的可怖杀人犯……他本人从未回应过这些指责。"
       }
     ],
     "StoryList": [],
     "CvName": "",
-    "getCharacter": "先说好，我干活的时候别来打扰我，懂了吗？",
+    "getCharacter": "我是伊索斯，你车上有很多值得采集的样本。不可以？无所谓，我总会争取到你的同意。",
     "safeInformation": "",
     "unitInformation": ""
   },
@@ -79703,6 +79828,590 @@
         "weight": 1
       }
     ],
+    "enemySkillList": []
+  },
+  {
+    "id": 10000635,
+    "idCN": "爬塔/人形单位/鼹鼠-1",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "鼹鼠",
+    "EnglishName": "",
+    "viewId": 11000276,
+    "skinList": [],
+    "sideId": 12600909,
+    "controllerId": 10300379,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": -1,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600278
+      },
+      {
+        "tagId": 12601127
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12300936
+      },
+      {
+        "skillId": 12301367
+      },
+      {
+        "skillId": 12301371
+      },
+      {
+        "skillId": 12301472
+      },
+      {
+        "skillId": 12301638
+      }
+    ],
+    "hp_SN": 1500000000,
+    "def_SN": 700000,
+    "atk_SN": 800000,
+    "atkSpeed_SN": 800000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000273,
+    "growthTagList": [
+      {
+        "growthTagId": 12000353
+      },
+      {
+        "growthTagId": 12000060
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800470
+      },
+      {
+        "talentId": 12800471
+      },
+      {
+        "talentId": 12800467
+      },
+      {
+        "talentId": 12800468
+      },
+      {
+        "talentId": 12800469
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10101044,
+    "actionMoveID": 10101047,
+    "actionAttackedID": 10101052,
+    "actionAttackedBackID": 10101053,
+    "actionKnockUpID": -1,
+    "actionStunID": 10101046,
+    "actionDeadID": 10101051,
+    "actionVictoryID": -1,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 20000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 15000,
+    "hitAreaHalfWidth_SN": 13000,
+    "hitAreaHalfHeight_SN": 15000,
+    "canOverMaxSpeed": false,
+    "battleDes": "",
+    "safeInformation": "",
+    "unitInformation": "",
+    "enemyDrop": [],
+    "abilityList": [],
+    "weaknessList": [],
+    "resistanceList": [],
+    "enemyType": 12601048,
+    "enemyCamp": 12601045,
+    "enemyBookId": 10000067,
+    "prisonerDrop": [],
+    "enemySkillList": []
+  },
+  {
+    "id": 10000636,
+    "idCN": "爬塔/人形单位/鼹鼠-2",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "鼹鼠",
+    "EnglishName": "",
+    "viewId": 11000276,
+    "skinList": [],
+    "sideId": 12600909,
+    "controllerId": 10300379,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": -1,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600278
+      },
+      {
+        "tagId": 12601127
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12300936
+      },
+      {
+        "skillId": 12301367
+      },
+      {
+        "skillId": 12301371
+      },
+      {
+        "skillId": 12301472
+      },
+      {
+        "skillId": 12301938
+      },
+      {
+        "skillId": 12301800
+      }
+    ],
+    "hp_SN": 1500000000,
+    "def_SN": 700000,
+    "atk_SN": 800000,
+    "atkSpeed_SN": 800000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000273,
+    "growthTagList": [
+      {
+        "growthTagId": 12000353
+      },
+      {
+        "growthTagId": 12000060
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800470
+      },
+      {
+        "talentId": 12800471
+      },
+      {
+        "talentId": 12800467
+      },
+      {
+        "talentId": 12800468
+      },
+      {
+        "talentId": 12800469
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10101044,
+    "actionMoveID": 10101047,
+    "actionAttackedID": 10101052,
+    "actionAttackedBackID": 10101053,
+    "actionKnockUpID": -1,
+    "actionStunID": 10101046,
+    "actionDeadID": 10101051,
+    "actionVictoryID": -1,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 20000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 15000,
+    "hitAreaHalfWidth_SN": 13000,
+    "hitAreaHalfHeight_SN": 15000,
+    "canOverMaxSpeed": false,
+    "battleDes": "",
+    "safeInformation": "",
+    "unitInformation": "",
+    "enemyDrop": [],
+    "abilityList": [],
+    "weaknessList": [],
+    "resistanceList": [],
+    "enemyType": 12601048,
+    "enemyCamp": 12601045,
+    "enemyBookId": 10000067,
+    "prisonerDrop": [],
+    "enemySkillList": []
+  },
+  {
+    "id": 10000637,
+    "idCN": "爬塔/深眠者/深眠者·沉溺-1",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "深眠者·沉溺",
+    "EnglishName": "",
+    "viewId": 11000206,
+    "skinList": [],
+    "sideId": 12600910,
+    "controllerId": 10300457,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": 90100010,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600278
+      },
+      {
+        "tagId": 12600473
+      },
+      {
+        "tagId": 12601127
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301506
+      },
+      {
+        "skillId": 12301511
+      },
+      {
+        "skillId": 12301441
+      },
+      {
+        "skillId": 12301367
+      },
+      {
+        "skillId": 12301423
+      },
+      {
+        "skillId": 12301421
+      },
+      {
+        "skillId": 12301418
+      },
+      {
+        "skillId": 12301410
+      },
+      {
+        "skillId": 12300239
+      }
+    ],
+    "hp_SN": 1800000000,
+    "def_SN": 760000,
+    "atk_SN": 900000,
+    "atkSpeed_SN": 1000000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000281,
+    "growthTagList": [
+      {
+        "growthTagId": 12000353
+      },
+      {
+        "growthTagId": 12000060
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800470
+      },
+      {
+        "talentId": 12800471
+      },
+      {
+        "talentId": 12800467
+      },
+      {
+        "talentId": 12800468
+      },
+      {
+        "talentId": 12800469
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10101337,
+    "actionMoveID": 10101338,
+    "actionAttackedID": 10101341,
+    "actionAttackedBackID": 10101342,
+    "actionKnockUpID": -1,
+    "actionStunID": 10101340,
+    "actionDeadID": 10101339,
+    "actionVictoryID": -1,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 15000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 10000,
+    "hitAreaHalfWidth_SN": 5000,
+    "hitAreaHalfHeight_SN": 10000,
+    "canOverMaxSpeed": false,
+    "battleDes": "",
+    "safeInformation": "",
+    "unitInformation": "",
+    "enemyDrop": [],
+    "abilityList": [],
+    "weaknessList": [],
+    "resistanceList": [],
+    "enemyType": 12601048,
+    "enemyCamp": 12600237,
+    "enemyBookId": 10000119,
+    "prisonerDrop": [],
+    "enemySkillList": []
+  },
+  {
+    "id": 10000638,
+    "idCN": "爬塔/深眠者/深眠者·沉溺-2",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "深眠者·沉溺",
+    "EnglishName": "",
+    "viewId": 11000206,
+    "skinList": [],
+    "sideId": 12600910,
+    "controllerId": 10300457,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": 90100010,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600278
+      },
+      {
+        "tagId": 12600473
+      },
+      {
+        "tagId": 12601127
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301506
+      },
+      {
+        "skillId": 12301511
+      },
+      {
+        "skillId": 12301441
+      },
+      {
+        "skillId": 12301367
+      },
+      {
+        "skillId": 12301423
+      },
+      {
+        "skillId": 12301421
+      },
+      {
+        "skillId": 12301418
+      },
+      {
+        "skillId": 12301410
+      },
+      {
+        "skillId": 12300239
+      },
+      {
+        "skillId": 12300966
+      }
+    ],
+    "hp_SN": 1800000000,
+    "def_SN": 760000,
+    "atk_SN": 900000,
+    "atkSpeed_SN": 1000000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000281,
+    "growthTagList": [
+      {
+        "growthTagId": 12000353
+      },
+      {
+        "growthTagId": 12000060
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800470
+      },
+      {
+        "talentId": 12800471
+      },
+      {
+        "talentId": 12800467
+      },
+      {
+        "talentId": 12800468
+      },
+      {
+        "talentId": 12800469
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10101337,
+    "actionMoveID": 10101338,
+    "actionAttackedID": 10101341,
+    "actionAttackedBackID": 10101342,
+    "actionKnockUpID": -1,
+    "actionStunID": 10101340,
+    "actionDeadID": 10101339,
+    "actionVictoryID": -1,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 15000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 10000,
+    "hitAreaHalfWidth_SN": 5000,
+    "hitAreaHalfHeight_SN": 10000,
+    "canOverMaxSpeed": false,
+    "battleDes": "",
+    "safeInformation": "",
+    "unitInformation": "",
+    "enemyDrop": [],
+    "abilityList": [],
+    "weaknessList": [],
+    "resistanceList": [],
+    "enemyType": 12601048,
+    "enemyCamp": 12600237,
+    "enemyBookId": 10000119,
+    "prisonerDrop": [],
     "enemySkillList": []
   }
 ]

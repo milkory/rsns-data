@@ -32132,8 +32132,8 @@
     "targetCount": 0,
     "distance_SN": 240000,
     "radius_SN": 20000,
-    "isCustomRadius": false,
-    "radiusTag": "",
+    "isCustomRadius": true,
+    "radiusTag": "C",
     "damageHitBuffList": [],
     "healHitBuffList": [],
     "cdFrame": 78,
@@ -32145,13 +32145,6 @@
         "stateId": 10201576,
         "timesRate_SN": 10000,
         "timesSource": "FixedValue"
-      },
-      {
-        "bPlayTimes": false,
-        "customDataTag": "",
-        "stateId": 10200674,
-        "timesRate_SN": 10000,
-        "timesSource": "CurrentHp"
       }
     ],
     "backShakeFrame": -1
@@ -36606,7 +36599,7 @@
   },
   {
     "id": 10101419,
-    "idCN": "我方/04四星/菲妮娅/A共振5",
+    "idCN": "我方/04四星/菲妮娅/A_振5",
     "mod": "基础动作",
     "isInformalData": false,
     "isCharge": false,
@@ -36632,8 +36625,8 @@
     "targetCount": 0,
     "distance_SN": 240000,
     "radius_SN": 20000,
-    "isCustomRadius": false,
-    "radiusTag": "",
+    "isCustomRadius": true,
+    "radiusTag": "C",
     "damageHitBuffList": [],
     "healHitBuffList": [],
     "cdFrame": 78,
@@ -36642,7 +36635,7 @@
       {
         "bPlayTimes": false,
         "customDataTag": "",
-        "stateId": 10201576,
+        "stateId": 10203773,
         "timesRate_SN": 10000,
         "timesSource": "FixedValue"
       }
@@ -61386,7 +61379,7 @@
   },
   {
     "id": 10102076,
-    "idCN": "我方/03三星/参宿一/B-两排敌",
+    "idCN": "我方/03三星/参宿一/B",
     "mod": "基础动作",
     "isInformalData": false,
     "isCharge": false,
@@ -61409,11 +61402,11 @@
     "filterStance": "DeafaultStance",
     "filterPosition": "DefaultPos",
     "isAimSelf": false,
-    "targetCount": 30,
+    "targetCount": 0,
     "distance_SN": 240000,
     "radius_SN": 40000,
-    "isCustomRadius": false,
-    "radiusTag": "",
+    "isCustomRadius": true,
+    "radiusTag": "B",
     "damageHitBuffList": [],
     "healHitBuffList": [],
     "cdFrame": 200,
@@ -65319,7 +65312,7 @@
   },
   {
     "id": 10102178,
-    "idCN": "我方/03三星/参宿一/B共振-两排敌我",
+    "idCN": "我方/03三星/参宿一/B_振1",
     "mod": "基础动作",
     "isInformalData": false,
     "isCharge": false,
@@ -65345,8 +65338,8 @@
     "targetCount": 0,
     "distance_SN": 240000,
     "radius_SN": 40000,
-    "isCustomRadius": false,
-    "radiusTag": "",
+    "isCustomRadius": true,
+    "radiusTag": "B",
     "damageHitBuffList": [],
     "healHitBuffList": [],
     "cdFrame": 200,
@@ -65406,96 +65399,6 @@
       }
     ],
     "backShakeFrame": -1
-  },
-  {
-    "id": 10102179,
-    "idCN": "我方/03三星/参宿一/B觉醒2-三排敌",
-    "mod": "基础动作",
-    "isInformalData": false,
-    "isCharge": false,
-    "isSkill": true,
-    "actionLevel": "NormalSkill",
-    "isUseTargetFilter": false,
-    "isIgnoreInvisibleEnemy": true,
-    "targetType": "Enemy",
-    "targetTagList": [],
-    "tagType": "And",
-    "halfWidth_SN": 0,
-    "attributeType": "CurrentHp",
-    "condition": "All",
-    "numberType": "Number",
-    "number_SN": 0,
-    "buffTypeFO": -1,
-    "buffFO": -1,
-    "buffJudgeType": "Greater",
-    "buffLevel": 0,
-    "filterStance": "DeafaultStance",
-    "filterPosition": "DefaultPos",
-    "isAimSelf": false,
-    "targetCount": 0,
-    "distance_SN": 240000,
-    "radius_SN": 60000,
-    "isCustomRadius": false,
-    "radiusTag": "",
-    "damageHitBuffList": [],
-    "healHitBuffList": [],
-    "cdFrame": 200,
-    "isUseBigNumber": false,
-    "stateIdList": [
-      {
-        "bPlayTimes": false,
-        "customDataTag": "",
-        "stateId": 10202363,
-        "timesRate_SN": 10000,
-        "timesSource": "CurrentHp"
-      }
-    ],
-    "backShakeFrame": 20
-  },
-  {
-    "id": 10102180,
-    "idCN": "我方/03三星/参宿一/B共振1觉醒2-三排敌我",
-    "mod": "基础动作",
-    "isInformalData": false,
-    "isCharge": false,
-    "isSkill": true,
-    "actionLevel": "NormalSkill",
-    "isUseTargetFilter": false,
-    "isIgnoreInvisibleEnemy": true,
-    "targetType": "Every",
-    "targetTagList": [],
-    "tagType": "And",
-    "halfWidth_SN": 0,
-    "attributeType": "CurrentHp",
-    "condition": "All",
-    "numberType": "Number",
-    "number_SN": 0,
-    "buffTypeFO": -1,
-    "buffFO": -1,
-    "buffJudgeType": "Greater",
-    "buffLevel": 0,
-    "filterStance": "DeafaultStance",
-    "filterPosition": "DefaultPos",
-    "isAimSelf": false,
-    "targetCount": 0,
-    "distance_SN": 240000,
-    "radius_SN": 60000,
-    "isCustomRadius": false,
-    "radiusTag": "",
-    "damageHitBuffList": [],
-    "healHitBuffList": [],
-    "cdFrame": 200,
-    "isUseBigNumber": false,
-    "stateIdList": [
-      {
-        "bPlayTimes": false,
-        "customDataTag": "",
-        "stateId": 10202476,
-        "timesRate_SN": 10000,
-        "timesSource": "CurrentHp"
-      }
-    ],
-    "backShakeFrame": 20
   },
   {
     "id": 10102181,
@@ -103988,103 +103891,6 @@
     "backShakeFrame": 20
   },
   {
-    "id": 10102567,
-    "idCN": "我方/04四星/菲妮娅/A觉醒2",
-    "mod": "基础动作",
-    "isInformalData": false,
-    "isCharge": false,
-    "isSkill": true,
-    "actionLevel": "NormalSkill",
-    "isUseTargetFilter": false,
-    "isIgnoreInvisibleEnemy": true,
-    "targetType": "Enemy",
-    "targetTagList": [],
-    "tagType": "And",
-    "halfWidth_SN": 0,
-    "attributeType": "HpMax",
-    "condition": "All",
-    "numberType": "Number",
-    "number_SN": 0,
-    "buffTypeFO": -1,
-    "buffFO": -1,
-    "buffJudgeType": "Greater",
-    "buffLevel": 0,
-    "filterStance": "DeafaultStance",
-    "filterPosition": "DefaultPos",
-    "isAimSelf": false,
-    "targetCount": 0,
-    "distance_SN": 240000,
-    "radius_SN": 30000,
-    "isCustomRadius": false,
-    "radiusTag": "",
-    "damageHitBuffList": [],
-    "healHitBuffList": [],
-    "cdFrame": 78,
-    "isUseBigNumber": false,
-    "stateIdList": [
-      {
-        "bPlayTimes": false,
-        "customDataTag": "",
-        "stateId": 10201577,
-        "timesRate_SN": 10000,
-        "timesSource": "FixedValue"
-      },
-      {
-        "bPlayTimes": false,
-        "customDataTag": "",
-        "stateId": 10200674,
-        "timesRate_SN": 10000,
-        "timesSource": "CurrentHp"
-      }
-    ],
-    "backShakeFrame": -1
-  },
-  {
-    "id": 10102568,
-    "idCN": "我方/04四星/菲妮娅/A觉醒2共振5",
-    "mod": "基础动作",
-    "isInformalData": false,
-    "isCharge": false,
-    "isSkill": true,
-    "actionLevel": "NormalSkill",
-    "isUseTargetFilter": false,
-    "isIgnoreInvisibleEnemy": true,
-    "targetType": "Enemy",
-    "targetTagList": [],
-    "tagType": "And",
-    "halfWidth_SN": 0,
-    "attributeType": "HpMax",
-    "condition": "All",
-    "numberType": "Number",
-    "number_SN": 0,
-    "buffTypeFO": -1,
-    "buffFO": -1,
-    "buffJudgeType": "Greater",
-    "buffLevel": 0,
-    "filterStance": "DeafaultStance",
-    "filterPosition": "DefaultPos",
-    "isAimSelf": false,
-    "targetCount": 0,
-    "distance_SN": 240000,
-    "radius_SN": 30000,
-    "isCustomRadius": false,
-    "radiusTag": "",
-    "damageHitBuffList": [],
-    "healHitBuffList": [],
-    "cdFrame": 78,
-    "isUseBigNumber": false,
-    "stateIdList": [
-      {
-        "bPlayTimes": false,
-        "customDataTag": "",
-        "stateId": 10201577,
-        "timesRate_SN": 10000,
-        "timesSource": "FixedValue"
-      }
-    ],
-    "backShakeFrame": -1
-  },
-  {
     "id": 10102569,
     "idCN": "敌方/09沙盗团/沙盗斧手/技能2-近战",
     "mod": "基础动作",
@@ -138953,7 +138759,7 @@
     "filterPosition": "DefaultPos",
     "isAimSelf": false,
     "targetCount": 0,
-    "distance_SN": 0,
+    "distance_SN": 240000,
     "radius_SN": 0,
     "isCustomRadius": false,
     "radiusTag": "",
@@ -139014,7 +138820,7 @@
         "timesSource": "FixedValue"
       }
     ],
-    "backShakeFrame": -1
+    "backShakeFrame": 40
   },
   {
     "id": 10103282,
@@ -139243,13 +139049,13 @@
   },
   {
     "id": 10103327,
-    "idCN": "我方/05五星/雅莱/普攻",
+    "idCN": "我方/05五星/雅莱/普攻02",
     "mod": "基础动作",
     "isInformalData": false,
     "isCharge": false,
     "isSkill": false,
     "actionLevel": "NormalAttack",
-    "isUseTargetFilter": false,
+    "isUseTargetFilter": true,
     "isIgnoreInvisibleEnemy": true,
     "targetType": "Enemy",
     "targetTagList": [],
@@ -139260,13 +139066,13 @@
     "numberType": "Number",
     "number_SN": 0,
     "buffTypeFO": -1,
-    "buffFO": -1,
+    "buffFO": 10412550,
     "buffJudgeType": "Greater",
     "buffLevel": 0,
     "filterStance": "DeafaultStance",
     "filterPosition": "DefaultPos",
     "isAimSelf": false,
-    "targetCount": 0,
+    "targetCount": 1,
     "distance_SN": 61000,
     "radius_SN": 0,
     "isCustomRadius": false,
@@ -139337,10 +139143,13 @@
     "mod": "基础动作",
     "isInformalData": false,
     "isCharge": false,
+    "isSkill": false,
     "actionLevel": "System",
     "isUseTargetFilter": false,
+    "isIgnoreInvisibleEnemy": true,
     "targetType": "Enemy",
     "targetTagList": [],
+    "tagType": "And",
     "halfWidth_SN": 0,
     "attributeType": "HpMax",
     "condition": "All",
@@ -139356,6 +139165,8 @@
     "targetCount": 0,
     "distance_SN": 0,
     "radius_SN": 0,
+    "isCustomRadius": false,
+    "radiusTag": "",
     "damageHitBuffList": [],
     "healHitBuffList": [],
     "cdFrame": 121,
@@ -139364,11 +139175,12 @@
       {
         "bPlayTimes": false,
         "customDataTag": "",
-        "stateId": 10202112,
+        "stateId": 10203778,
         "timesRate_SN": 10000,
         "timesSource": "FixedValue"
       }
-    ]
+    ],
+    "backShakeFrame": -1
   },
   {
     "id": 10103330,
@@ -139997,7 +139809,7 @@
         "timesSource": "FixedValue"
       }
     ],
-    "backShakeFrame": -1
+    "backShakeFrame": 30
   },
   {
     "id": 10103344,
@@ -140041,7 +139853,7 @@
         "timesSource": "FixedValue"
       }
     ],
-    "backShakeFrame": -1
+    "backShakeFrame": 30
   },
   {
     "id": 10103343,
@@ -140085,7 +139897,7 @@
         "timesSource": "FixedValue"
       }
     ],
-    "backShakeFrame": -1
+    "backShakeFrame": 30
   },
   {
     "id": 10103347,
@@ -141134,8 +140946,8 @@
     "backShakeFrame": -1
   },
   {
-    "id": 10103324,
-    "idCN": "我方/05五星/雅莱/B",
+    "id": 10103346,
+    "idCN": "爬塔/人形单位/鼹鼠/出场技能",
     "mod": "基础动作",
     "isInformalData": false,
     "isCharge": false,
@@ -141143,7 +140955,7 @@
     "actionLevel": "NormalSkill",
     "isUseTargetFilter": false,
     "isIgnoreInvisibleEnemy": true,
-    "targetType": "Self",
+    "targetType": "Ally",
     "targetTagList": [],
     "tagType": "And",
     "halfWidth_SN": 0,
@@ -141159,21 +140971,115 @@
     "filterPosition": "DefaultPos",
     "isAimSelf": false,
     "targetCount": 0,
-    "distance_SN": 0,
+    "distance_SN": 20000,
     "radius_SN": 0,
     "isCustomRadius": false,
     "radiusTag": "",
     "damageHitBuffList": [],
     "healHitBuffList": [],
-    "cdFrame": 140,
+    "cdFrame": 80,
     "isUseBigNumber": false,
     "stateIdList": [
       {
         "bPlayTimes": false,
         "customDataTag": "",
-        "stateId": 10203773,
+        "stateId": 10203790,
         "timesRate_SN": 10000,
         "timesSource": "FixedValue"
+      }
+    ],
+    "backShakeFrame": -1
+  },
+  {
+    "id": 10103324,
+    "idCN": "我方/05五星/雅莱/普攻01",
+    "mod": "基础动作",
+    "isInformalData": false,
+    "isCharge": false,
+    "isSkill": false,
+    "actionLevel": "NormalAttack",
+    "isUseTargetFilter": true,
+    "isIgnoreInvisibleEnemy": true,
+    "targetType": "Enemy",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 0,
+    "attributeType": "HpMax",
+    "condition": "All",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": 10412550,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 1,
+    "distance_SN": 61000,
+    "radius_SN": 0,
+    "isCustomRadius": false,
+    "radiusTag": "",
+    "damageHitBuffList": [],
+    "healHitBuffList": [],
+    "cdFrame": 81,
+    "isUseBigNumber": false,
+    "stateIdList": [
+      {
+        "bPlayTimes": false,
+        "customDataTag": "",
+        "stateId": 10203802,
+        "timesRate_SN": 10000,
+        "timesSource": "FixedValue"
+      }
+    ],
+    "backShakeFrame": -1
+  },
+  {
+    "id": 10102179,
+    "idCN": "爬塔/深眠者/深眠者·沉溺/出场",
+    "mod": "基础动作",
+    "isInformalData": false,
+    "isCharge": false,
+    "isSkill": false,
+    "actionLevel": "System",
+    "isUseTargetFilter": true,
+    "isIgnoreInvisibleEnemy": true,
+    "targetType": "Self",
+    "targetTagList": [
+      {
+        "tagId": 12600246
+      }
+    ],
+    "tagType": "And",
+    "halfWidth_SN": 990000,
+    "attributeType": "HpMax",
+    "condition": "All",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 99,
+    "distance_SN": 473000,
+    "radius_SN": 0,
+    "isCustomRadius": false,
+    "radiusTag": "",
+    "damageHitBuffList": [],
+    "healHitBuffList": [],
+    "cdFrame": 400,
+    "isUseBigNumber": false,
+    "stateIdList": [
+      {
+        "bPlayTimes": false,
+        "customDataTag": "",
+        "stateId": 10200674,
+        "timesRate_SN": 10000,
+        "timesSource": "CurrentHp"
       }
     ],
     "backShakeFrame": -1

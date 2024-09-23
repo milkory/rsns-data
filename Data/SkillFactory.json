@@ -8827,7 +8827,7 @@
       {
         "skillRateA_SN": 120000,
         "skillRateB_SN": 50000,
-        "skillRateC_SN": 0,
+        "skillRateC_SN": 20000,
         "skillRateD_SN": 0,
         "skillRateE_SN": 0,
         "skillRateF_SN": 0,
@@ -8859,7 +8859,9 @@
         "ExSkillName": 12300470
       }
     ],
-    "specialTagList": []
+    "specialTagList": [],
+    "partList": [],
+    "campList": []
   },
   {
     "id": 12300468,
@@ -11361,8 +11363,8 @@
     "name": "震波",
     "iconPath": "RolePlus\\02Common\\skillicon\\ZhenBo-red",
     "attriDetialList": [],
-    "tempdescription": "释放1个从天而降的重力震波，使敌方全体【击晕】\\n同时，使下一张红卡伤害提高30%，可叠加\\n离手后【销毁】",
-    "description": "释放1个从天而降的重力震波，使敌方全体<color=#FF6666>【击晕】</color>\\n同时，使下一张红卡伤害提高30%，可叠加\\n离手后【销毁】",
+    "tempdescription": "释放1个从天而降的重力震波，使敌方全体【击晕】\\n同时，使下一张红卡伤害提高50%，可叠加\\n离手后【销毁】",
+    "description": "释放1个从天而降的重力震波，使敌方全体<color=#FF6666>【击晕】</color>\\n同时，使下一张红卡伤害提高50%，可叠加\\n离手后【销毁】",
     "levelUpDescription": "",
     "tempdetailDescription": "",
     "detailDescription": "",
@@ -11370,7 +11372,7 @@
     "skillParamList": [
       {
         "skillRateA_SN": 0,
-        "skillRateB_SN": 3000,
+        "skillRateB_SN": 5000,
         "skillRateC_SN": 0,
         "skillRateD_SN": 0,
         "skillRateE_SN": 0,
@@ -12691,7 +12693,7 @@
       {
         "skillRateA_SN": 120000,
         "skillRateB_SN": 70000,
-        "skillRateC_SN": 0,
+        "skillRateC_SN": 20000,
         "skillRateD_SN": 0,
         "skillRateE_SN": 0,
         "skillRateF_SN": 0,
@@ -12723,7 +12725,9 @@
         "ExSkillName": 12300470
       }
     ],
-    "specialTagList": []
+    "specialTagList": [],
+    "partList": [],
+    "campList": []
   },
   {
     "id": 12300601,
@@ -27572,15 +27576,17 @@
         "leaderCardConditionFO": 10800039
       }
     ],
-    "templeaderCardConditionDesc": "冷却时间35秒，每次自身【隐形】，冷却缩短8秒",
-    "leaderCardConditionDesc": "冷却时间35秒，每次自身<color=#7AB2FF>【隐形】</color>，冷却缩短8秒",
+    "templeaderCardConditionDesc": "冷却时间30秒，每次自身【隐形】，冷却缩短8秒",
+    "leaderCardConditionDesc": "冷却时间30秒，每次自身<color=#7AB2FF>【隐形】</color>，冷却缩短8秒",
     "temptypeStr": "战术",
     "typeStr": "战术",
     "typeColor": "Orange",
     "CommonNum": 1.0,
     "floatNum": 1,
     "ExSkillList": [],
-    "specialTagList": []
+    "specialTagList": [],
+    "partList": [],
+    "campList": []
   },
   {
     "id": 12301005,
@@ -33836,7 +33842,7 @@
     "skillParamList": [
       {
         "skillRateA_SN": 300000,
-        "skillRateB_SN": 0,
+        "skillRateB_SN": 40000,
         "skillRateC_SN": 0,
         "skillRateD_SN": 0,
         "skillRateE_SN": 0,
@@ -33869,7 +33875,9 @@
         "ExSkillName": 12300748
       }
     ],
-    "specialTagList": []
+    "specialTagList": [],
+    "partList": [],
+    "campList": []
   },
   {
     "id": 12301116,
@@ -34436,20 +34444,23 @@
     "skillParamList": [],
     "attributeList": [],
     "tagId": 12600504,
+    "tagRemoveList": [],
     "tagFilterList": [
       {
         "tagId": 12600484
       }
     ],
     "tagFilterType": "Or",
-    "buffId": 10406625,
+    "buffId": 10406612,
     "temptypeStr": "",
     "typeStr": "",
     "typeColor": "Orange",
     "CommonNum": 1.0,
     "floatNum": 1,
     "ExSkillList": [],
-    "specialTagList": []
+    "specialTagList": [],
+    "partList": [],
+    "campList": []
   },
   {
     "id": 12300544,
@@ -34501,7 +34512,7 @@
     "skillParamList": [
       {
         "skillRateA_SN": 300000,
-        "skillRateB_SN": 0,
+        "skillRateB_SN": 40000,
         "skillRateC_SN": 0,
         "skillRateD_SN": 0,
         "skillRateE_SN": 0,
@@ -34534,7 +34545,9 @@
         "ExSkillName": 12300748
       }
     ],
-    "specialTagList": []
+    "specialTagList": [],
+    "partList": [],
+    "campList": []
   },
   {
     "id": 12300642,
@@ -34597,120 +34610,6 @@
     "specialTagList": []
   },
   {
-    "id": 12300966,
-    "idCN": "00原版/03三星/参宿一/B_觉2",
-    "mod": "主动技能",
-    "isInformalData": false,
-    "name": "煽风",
-    "iconPath": "RolePlus\\Alnitak\\skillicon\\B",
-    "attriDetialList": [],
-    "tempdescription": "挥舞【摩地之风】一扇，对范围内敌方造成1段伤害\\n将敌方目标身上【点燃】的持续时间延长3秒\\n将目标区域【炽地】和【燎原】的持续时间延长3秒\\n此卡【连环】",
-    "description": "挥舞【摩地之风】一扇，对范围内敌方造成1段伤害\\n将敌方目标身上<color=#FF6666>【点燃】</color>的持续时间延长3秒\\n将目标区域<color=#FF6666>【炽地】</color>和<color=#FF6666>【燎原】</color>的持续时间延长3秒\\n此卡【连环】",
-    "levelUpDescription": "",
-    "tempdetailDescription": "伤害：每段3000%（火焰）",
-    "detailDescription": "伤害：每段3000%（火焰）",
-    "desParamList": [
-      {
-        "isPercent": true,
-        "param": "A"
-      }
-    ],
-    "skillParamList": [
-      {
-        "skillRateA_SN": 300000,
-        "skillRateB_SN": 0,
-        "skillRateC_SN": 0,
-        "skillRateD_SN": 0,
-        "skillRateE_SN": 0,
-        "skillRateF_SN": 0,
-        "skillRateG_SN": 0,
-        "skillRateH_SN": 0,
-        "skillRateI_SN": 0,
-        "skillRateJ_SN": 0,
-        "skillRateL_SN": 0,
-        "skillRateT_SN": 0
-      }
-    ],
-    "attributeList": [],
-    "tagId": -1,
-    "tagRemoveList": [],
-    "tagFilterList": [],
-    "tagFilterType": "And",
-    "cardID": 10600322,
-    "leaderCardEnableBuffId": -1,
-    "leaderCardConditionList": [],
-    "templeaderCardConditionDesc": "",
-    "leaderCardConditionDesc": "",
-    "temptypeStr": "增益",
-    "typeStr": "增益",
-    "typeColor": "Orange",
-    "CommonNum": 1.0,
-    "floatNum": 1,
-    "ExSkillList": [
-      {
-        "ExSkillName": 12300748
-      }
-    ],
-    "specialTagList": []
-  },
-  {
-    "id": 12301127,
-    "idCN": "00原版/03三星/参宿一/B_振1觉2",
-    "mod": "主动技能",
-    "isInformalData": false,
-    "name": "煽风",
-    "iconPath": "RolePlus\\Alnitak\\skillicon\\B",
-    "attriDetialList": [],
-    "tempdescription": "挥舞【摩地之风】一扇，对范围内敌方造成1段伤害\\n将敌方目标身上【点燃】的持续时间延长3秒\\n将目标区域【炽地】和【燎原】的持续时间延长3秒\\n此卡【连环】",
-    "description": "挥舞【摩地之风】一扇，对范围内敌方造成1段伤害\\n将敌方目标身上<color=#FF6666>【点燃】</color>的持续时间延长3秒\\n将目标区域<color=#FF6666>【炽地】</color>和<color=#FF6666>【燎原】</color>的持续时间延长3秒\\n此卡【连环】",
-    "levelUpDescription": "",
-    "tempdetailDescription": "伤害：每段3000%（火焰）",
-    "detailDescription": "伤害：每段3000%（火焰）",
-    "desParamList": [
-      {
-        "isPercent": true,
-        "param": "A"
-      }
-    ],
-    "skillParamList": [
-      {
-        "skillRateA_SN": 300000,
-        "skillRateB_SN": 0,
-        "skillRateC_SN": 0,
-        "skillRateD_SN": 0,
-        "skillRateE_SN": 0,
-        "skillRateF_SN": 0,
-        "skillRateG_SN": 0,
-        "skillRateH_SN": 0,
-        "skillRateI_SN": 0,
-        "skillRateJ_SN": 0,
-        "skillRateL_SN": 0,
-        "skillRateT_SN": 0
-      }
-    ],
-    "attributeList": [],
-    "tagId": -1,
-    "tagRemoveList": [],
-    "tagFilterList": [],
-    "tagFilterType": "And",
-    "cardID": 10600323,
-    "leaderCardEnableBuffId": -1,
-    "leaderCardConditionList": [],
-    "templeaderCardConditionDesc": "",
-    "leaderCardConditionDesc": "",
-    "temptypeStr": "增益",
-    "typeStr": "增益",
-    "typeColor": "Orange",
-    "CommonNum": 1.0,
-    "floatNum": 1,
-    "ExSkillList": [
-      {
-        "ExSkillName": 12300748
-      }
-    ],
-    "specialTagList": []
-  },
-  {
     "id": 12301128,
     "idCN": "00原版/03三星/参宿一/觉醒2_东风",
     "mod": "被动技能",
@@ -34727,20 +34626,23 @@
     "skillParamList": [],
     "attributeList": [],
     "tagId": 12600569,
+    "tagRemoveList": [],
     "tagFilterList": [
       {
         "tagId": 12600484
       }
     ],
     "tagFilterType": "Or",
-    "buffId": 10406626,
+    "buffId": 10406623,
     "temptypeStr": "",
     "typeStr": "",
     "typeColor": "Orange",
     "CommonNum": 1.0,
     "floatNum": 1,
     "ExSkillList": [],
-    "specialTagList": []
+    "specialTagList": [],
+    "partList": [],
+    "campList": []
   },
   {
     "id": 12301129,
@@ -50358,7 +50260,7 @@
   },
   {
     "id": 12300001,
-    "idCN": "11固定词条/装备/学会装备/5费技能减1费",
+    "idCN": "11固定词条/装备/杂牌装备/113号没收物品",
     "mod": "被动技能",
     "isInformalData": false,
     "name": "",
@@ -52833,120 +52735,6 @@
     "CommonNum": 1.0,
     "floatNum": 1,
     "ExSkillList": [],
-    "specialTagList": []
-  },
-  {
-    "id": 12300291,
-    "idCN": "00原版/04四星/菲妮娅/A_觉醒2_振5",
-    "mod": "主动技能",
-    "isInformalData": false,
-    "name": "奔雷",
-    "iconPath": "RolePlus\\Fenia\\skillicon\\A",
-    "attriDetialList": [],
-    "tempdescription": "激活【御敌之雷】，向目标区域引发强大雷电，对范围内敌方造成#r段伤害，同时触发【引雷】\\n使用后，生成1张黑卡【负能】加入手牌",
-    "description": "激活【御敌之雷】，向目标区域引发强大雷电，对范围内敌方造成#r段伤害，同时触发<color=#FFB800>【引雷】</color>\\n使用后，生成1张黑卡【负能】加入手牌",
-    "levelUpDescription": "",
-    "tempdetailDescription": "伤害：每段1200%（电磁）",
-    "detailDescription": "伤害：每段1200%（电磁）",
-    "desParamList": [
-      {
-        "isPercent": false,
-        "param": "B"
-      }
-    ],
-    "skillParamList": [
-      {
-        "skillRateA_SN": 120000,
-        "skillRateB_SN": 70000,
-        "skillRateC_SN": 0,
-        "skillRateD_SN": 0,
-        "skillRateE_SN": 0,
-        "skillRateF_SN": 0,
-        "skillRateG_SN": 0,
-        "skillRateH_SN": 0,
-        "skillRateI_SN": 0,
-        "skillRateJ_SN": 0,
-        "skillRateL_SN": 0,
-        "skillRateT_SN": 0
-      }
-    ],
-    "attributeList": [],
-    "tagId": -1,
-    "tagRemoveList": [],
-    "tagFilterList": [],
-    "tagFilterType": "And",
-    "cardID": 10600001,
-    "leaderCardEnableBuffId": -1,
-    "leaderCardConditionList": [],
-    "templeaderCardConditionDesc": "",
-    "leaderCardConditionDesc": "",
-    "temptypeStr": "冲击",
-    "typeStr": "冲击",
-    "typeColor": "Orange",
-    "CommonNum": 1.0,
-    "floatNum": 1,
-    "ExSkillList": [
-      {
-        "ExSkillName": 12300470
-      }
-    ],
-    "specialTagList": []
-  },
-  {
-    "id": 12300317,
-    "idCN": "00原版/04四星/菲妮娅/A_觉2",
-    "mod": "主动技能",
-    "isInformalData": false,
-    "name": "奔雷",
-    "iconPath": "RolePlus\\Fenia\\skillicon\\A",
-    "attriDetialList": [],
-    "tempdescription": "激活【御敌之雷】，向目标区域引发强大雷电，对范围内敌方造成#r段伤害，同时触发【引雷】\\n使用后，自身被【击晕】并生成1张黑卡【负能】加入牌库",
-    "description": "激活【御敌之雷】，向目标区域引发强大雷电，对范围内敌方造成#r段伤害，同时触发<color=#FFB800>【引雷】</color>\\n使用后，自身被<color=#FF6666>【击晕】</color>并生成1张黑卡【负能】加入牌库",
-    "levelUpDescription": "",
-    "tempdetailDescription": "伤害：每段1200%（电磁）",
-    "detailDescription": "伤害：每段1200%（电磁）",
-    "desParamList": [
-      {
-        "isPercent": false,
-        "param": "B"
-      }
-    ],
-    "skillParamList": [
-      {
-        "skillRateA_SN": 120000,
-        "skillRateB_SN": 50000,
-        "skillRateC_SN": 0,
-        "skillRateD_SN": 0,
-        "skillRateE_SN": 0,
-        "skillRateF_SN": 0,
-        "skillRateG_SN": 0,
-        "skillRateH_SN": 0,
-        "skillRateI_SN": 0,
-        "skillRateJ_SN": 0,
-        "skillRateL_SN": 0,
-        "skillRateT_SN": 0
-      }
-    ],
-    "attributeList": [],
-    "tagId": -1,
-    "tagRemoveList": [],
-    "tagFilterList": [],
-    "tagFilterType": "And",
-    "cardID": 10600042,
-    "leaderCardEnableBuffId": -1,
-    "leaderCardConditionList": [],
-    "templeaderCardConditionDesc": "",
-    "leaderCardConditionDesc": "",
-    "temptypeStr": "冲击",
-    "typeStr": "冲击",
-    "typeColor": "Orange",
-    "CommonNum": 1.0,
-    "floatNum": 1,
-    "ExSkillList": [
-      {
-        "ExSkillName": 12300470
-      }
-    ],
     "specialTagList": []
   },
   {
@@ -63898,14 +63686,16 @@
     "tagRemoveList": [],
     "tagFilterList": [],
     "tagFilterType": "And",
-    "buffId": 10410255,
+    "buffId": 10412503,
     "temptypeStr": "",
     "typeStr": "",
     "typeColor": "Orange",
     "CommonNum": 1.0,
     "floatNum": 1,
     "ExSkillList": [],
-    "specialTagList": []
+    "specialTagList": [],
+    "partList": [],
+    "campList": []
   },
   {
     "id": 12301142,
@@ -77504,7 +77294,17 @@
     "typeColor": "Orange",
     "CommonNum": 1.0,
     "floatNum": 1,
-    "ExSkillList": [],
+    "ExSkillList": [
+      {
+        "ExSkillName": 12301929
+      },
+      {
+        "ExSkillName": 12301930
+      },
+      {
+        "ExSkillName": 12301931
+      }
+    ],
     "specialTagList": [],
     "partList": [],
     "campList": []
@@ -77558,23 +77358,32 @@
   },
   {
     "id": 12301929,
-    "idCN": "00原版/05五星/雅莱/C-1",
+    "idCN": "00原版/05五星/雅莱/C-1_冷静_蓝",
     "mod": "主动技能",
     "isInformalData": false,
     "name": "情绪-冷静",
     "iconPath": "RolePlus\\Jalhay\\skillicon\\C-1",
     "attriDetialList": [],
-    "tempdescription": "雅莱将攻击目标切换至选中的敌方，对其造成2段伤害并【禁锢】，同时使生命值最低的1名我方获得【护盾】，持续10秒\\n【护盾】的耐久为自身防御力的2000%\\n使用后【销毁】",
+    "tempdescription": "雅莱将攻击目标切换至选中的敌方，对其造成2段伤害并【禁锢】，同时使生命值最低的1名我方获得【护盾】，持续#r秒\\n【护盾】的耐久为自身防御力的#r\\n使用后【销毁】",
     "description": "雅莱将攻击目标切换至选中的敌方，对其造成2段伤害并<color=#B383FF>【禁锢】</color>，同时使生命值最低的1名我方获得【护盾】，持续10秒\\n【护盾】的耐久为自身防御力的2000%\\n使用后【销毁】",
     "levelUpDescription": "",
     "tempdetailDescription": "伤害：每段1000%（混响）",
     "detailDescription": "伤害：每段1000%（混响）",
-    "desParamList": [],
+    "desParamList": [
+      {
+        "isPercent": false,
+        "param": "B"
+      },
+      {
+        "isPercent": true,
+        "param": "C"
+      }
+    ],
     "skillParamList": [
       {
         "skillRateA_SN": 100000,
-        "skillRateB_SN": 0,
-        "skillRateC_SN": 0,
+        "skillRateB_SN": 100000,
+        "skillRateC_SN": 200000,
         "skillRateD_SN": 0,
         "skillRateE_SN": 0,
         "skillRateF_SN": 0,
@@ -77583,7 +77392,7 @@
         "skillRateI_SN": 0,
         "skillRateJ_SN": 0,
         "skillRateL_SN": 0,
-        "skillRateT_SN": 0
+        "skillRateT_SN": 6000000
       }
     ],
     "attributeList": [],
@@ -77608,7 +77417,7 @@
   },
   {
     "id": 12301930,
-    "idCN": "00原版/05五星/雅莱/C-2",
+    "idCN": "00原版/05五星/雅莱/C-2_欢欣_黄",
     "mod": "主动技能",
     "isInformalData": false,
     "name": "情绪-欢欣",
@@ -77658,7 +77467,7 @@
   },
   {
     "id": 12301931,
-    "idCN": "00原版/05五星/雅莱/C-3",
+    "idCN": "00原版/05五星/雅莱/C-3_愤怒_红",
     "mod": "主动技能",
     "isInformalData": false,
     "name": "情绪-愤怒",
@@ -77894,8 +77703,8 @@
     "name": "契约",
     "iconPath": "RolePlus\\Ithos\\skillicon\\S",
     "attriDetialList": [],
-    "tempdescription": "签订生命契约，持续#r秒\\n持续期间，任意队友濒死时，回复其#r生命值，同时献祭自身当前#r生命值\\n效果触发时，生成1张【暗艺】加入手牌",
-    "description": "签订生命契约，持续#r秒\\n持续期间，任意队友濒死时，回复其#r生命值，同时献祭自身当前#r生命值\\n效果触发时，生成1张【暗艺】加入手牌",
+    "tempdescription": "签订生命契约，持续#r秒\\n持续期间，任意队友濒死时，回复其#r生命值，同时献祭自身当前#r生命值\\n效果触发时，从牌库或弃牌区将1张【知觉干预】加入手牌",
+    "description": "签订生命契约，持续#r秒\\n持续期间，任意队友濒死时，回复其#r生命值，同时献祭自身当前#r生命值\\n效果触发时，从牌库或弃牌区将1张【知觉干预】加入手牌",
     "levelUpDescription": "",
     "tempdetailDescription": "",
     "detailDescription": "",
@@ -78424,10 +78233,164 @@
     "tagRemoveList": [],
     "tagFilterList": [],
     "tagFilterType": "Or",
-    "buffId": 10402375,
+    "buffId": 10412497,
     "temptypeStr": "",
     "typeStr": "",
     "typeColor": "Red",
+    "CommonNum": 1.0,
+    "floatNum": 1,
+    "ExSkillList": [],
+    "specialTagList": [],
+    "partList": [],
+    "campList": []
+  },
+  {
+    "id": 12301938,
+    "idCN": "06敌方/爬塔/人形单位/鼹鼠/增幅2",
+    "mod": "被动技能",
+    "isInformalData": false,
+    "name": "",
+    "iconPath": "",
+    "attriDetialList": [],
+    "tempdescription": "",
+    "description": "",
+    "levelUpDescription": "",
+    "tempdetailDescription": "",
+    "detailDescription": "",
+    "desParamList": [],
+    "skillParamList": [],
+    "attributeList": [],
+    "tagId": -1,
+    "tagRemoveList": [],
+    "tagFilterList": [],
+    "tagFilterType": "And",
+    "buffId": 10412508,
+    "temptypeStr": "",
+    "typeStr": "",
+    "typeColor": "Orange",
+    "CommonNum": 1.0,
+    "floatNum": 1,
+    "ExSkillList": [],
+    "specialTagList": [],
+    "partList": [],
+    "campList": []
+  },
+  {
+    "id": 12300317,
+    "idCN": "11固定词条/装备/杂牌装备/违禁工艺品",
+    "mod": "被动技能",
+    "isInformalData": false,
+    "name": "",
+    "iconPath": "",
+    "attriDetialList": [],
+    "tempdescription": "自身【普通攻击】伤害提高25%",
+    "description": "自身【普通攻击】伤害提高25%",
+    "levelUpDescription": "",
+    "tempdetailDescription": "",
+    "detailDescription": "",
+    "desParamList": [],
+    "skillParamList": [
+      {
+        "skillRateA_SN": 2500,
+        "skillRateB_SN": 0,
+        "skillRateC_SN": 0,
+        "skillRateD_SN": 0,
+        "skillRateE_SN": 0,
+        "skillRateF_SN": 0,
+        "skillRateG_SN": 0,
+        "skillRateH_SN": 0,
+        "skillRateI_SN": 0,
+        "skillRateJ_SN": 0,
+        "skillRateL_SN": 0,
+        "skillRateT_SN": 0
+      }
+    ],
+    "attributeList": [],
+    "tagId": -1,
+    "tagRemoveList": [],
+    "tagFilterList": [],
+    "tagFilterType": "And",
+    "buffId": 10406613,
+    "temptypeStr": "",
+    "typeStr": "",
+    "typeColor": "Orange",
+    "CommonNum": 1.0,
+    "floatNum": 1,
+    "ExSkillList": [],
+    "specialTagList": [],
+    "partList": [],
+    "campList": []
+  },
+  {
+    "id": 12300291,
+    "idCN": "11固定词条/装备/杂牌装备/抗拒从严",
+    "mod": "被动技能",
+    "isInformalData": false,
+    "name": "",
+    "iconPath": "",
+    "attriDetialList": [],
+    "tempdescription": "自身造成的火焰伤害提高15%",
+    "description": "自身造成的火焰伤害提高15%",
+    "levelUpDescription": "",
+    "tempdetailDescription": "",
+    "detailDescription": "",
+    "desParamList": [],
+    "skillParamList": [
+      {
+        "skillRateA_SN": 1500,
+        "skillRateB_SN": 0,
+        "skillRateC_SN": 0,
+        "skillRateD_SN": 0,
+        "skillRateE_SN": 0,
+        "skillRateF_SN": 0,
+        "skillRateG_SN": 0,
+        "skillRateH_SN": 0,
+        "skillRateI_SN": 0,
+        "skillRateJ_SN": 0,
+        "skillRateL_SN": 0,
+        "skillRateT_SN": 0
+      }
+    ],
+    "attributeList": [],
+    "tagId": -1,
+    "tagRemoveList": [],
+    "tagFilterList": [],
+    "tagFilterType": "And",
+    "buffId": 10405355,
+    "temptypeStr": "",
+    "typeStr": "",
+    "typeColor": "Orange",
+    "CommonNum": 1.0,
+    "floatNum": 1,
+    "ExSkillList": [],
+    "specialTagList": [],
+    "partList": [],
+    "campList": []
+  },
+  {
+    "id": 12300966,
+    "idCN": "06敌方/爬塔/深眠者/深眠者·沉溺/增幅2",
+    "mod": "被动技能",
+    "isInformalData": false,
+    "name": "",
+    "iconPath": "",
+    "attriDetialList": [],
+    "tempdescription": "",
+    "description": "",
+    "levelUpDescription": "",
+    "tempdetailDescription": "",
+    "detailDescription": "",
+    "desParamList": [],
+    "skillParamList": [],
+    "attributeList": [],
+    "tagId": -1,
+    "tagRemoveList": [],
+    "tagFilterList": [],
+    "tagFilterType": "And",
+    "buffId": 10412532,
+    "temptypeStr": "",
+    "typeStr": "",
+    "typeColor": "Orange",
     "CommonNum": 1.0,
     "floatNum": 1,
     "ExSkillList": [],

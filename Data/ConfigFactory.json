@@ -1520,7 +1520,7 @@
     "mod": "初始配置",
     "isInformalData": false,
     "nameEN": "InitConfig",
-    "initGold": 2023,
+    "initGold": 2024,
     "energyMax": 120,
     "energyExtraMax": 0,
     "nowEnergyMax": 9999,
@@ -1592,6 +1592,23 @@
       },
       {
         "id": 82500007
+      }
+    ],
+    "StageQuestConfig": [
+      {
+        "id": 80304015
+      },
+      {
+        "id": 80304016
+      },
+      {
+        "id": 80304019
+      },
+      {
+        "id": 80304017
+      },
+      {
+        "id": 80304018
       }
     ],
     "initFurnitureList": [],
@@ -7740,7 +7757,7 @@
         "id": 12601087
       },
       {
-        "id": 12601140
+        "id": 12601239
       },
       {
         "id": 12601135
@@ -7755,7 +7772,22 @@
         "id": 12601134
       },
       {
+        "id": 12601241
+      },
+      {
+        "id": 12601140
+      },
+      {
         "id": 12601138
+      },
+      {
+        "id": 12601375
+      },
+      {
+        "id": 12601238
+      },
+      {
+        "id": 12601240
       },
       {
         "id": 12601133
@@ -7764,6 +7796,9 @@
     "prisonSpecialityList": [
       {
         "id": 12601148
+      },
+      {
+        "id": 12601198
       }
     ]
   },
@@ -13625,10 +13660,6 @@
         "guideNO": 31
       },
       {
-        "guideId": 20900114,
-        "guideNO": 31
-      },
-      {
         "guideId": 20900019,
         "guideNO": 31
       },
@@ -13797,6 +13828,10 @@
         "guideNO": 103
       },
       {
+        "guideId": 20900126,
+        "guideNO": 103
+      },
+      {
         "guideId": 20900118,
         "guideNO": 104
       },
@@ -13806,10 +13841,6 @@
       },
       {
         "guideId": 20900130,
-        "guideNO": 104
-      },
-      {
-        "guideId": 20900083,
         "guideNO": 104
       },
       {
@@ -13855,6 +13886,10 @@
       {
         "guideId": 20900146,
         "guideNO": 113
+      },
+      {
+        "guideId": 20900114,
+        "guideNO": 116
       },
       {
         "guideId": 20900043,
@@ -14065,6 +14100,10 @@
         "guideNO": 254
       },
       {
+        "guideId": 20900083,
+        "guideNO": 254
+      },
+      {
         "guideId": 20900030,
         "guideNO": 260
       },
@@ -14142,6 +14181,10 @@
       },
       {
         "guideId": 20900153,
+        "guideNO": 317
+      },
+      {
+        "guideId": 20900045,
         "guideNO": 317
       },
       {
@@ -15916,7 +15959,7 @@
         "unlockQuest": -1
       },
       {
-        "guideId": 20900045,
+        "guideId": 20900060,
         "id": 8,
         "ui": "UI/HomePetStore/HomePetStore",
         "unlockQuest": -1
@@ -16635,7 +16678,7 @@
       },
       {
         "id": 84600004,
-        "weight": 999
+        "weight": 99
       },
       {
         "id": 84600009,
@@ -16643,7 +16686,7 @@
       },
       {
         "id": 84600010,
-        "weight": 999
+        "weight": 99
       }
     ],
     "isClickPollute": true,
@@ -21519,12 +21562,12 @@
     "loseReowrd": [
       {
         "id": 11400268,
-        "num": 20,
+        "num": 30,
         "weight": 100
       },
       {
         "id": 11400218,
-        "num": 500,
+        "num": 600,
         "weight": 100
       },
       {
@@ -21716,6 +21759,615 @@
       },
       {
         "id": 84400017
+      }
+    ]
+  },
+  {
+    "id": 99900173,
+    "idCN": "制造经验表",
+    "mod": "制造等级",
+    "isInformalData": false,
+    "nameEN": "MakeLvConfig",
+    "MachiningExpList": [
+      {
+        "AdditionalProbability": 0.101,
+        "LvUpExp": 10,
+        "MachiningLv": 1,
+        "TotalExp": 0
+      },
+      {
+        "AdditionalProbability": 0.102,
+        "LvUpExp": 20,
+        "MachiningLv": 2,
+        "TotalExp": 10
+      },
+      {
+        "AdditionalProbability": 0.103,
+        "LvUpExp": 20,
+        "MachiningLv": 3,
+        "TotalExp": 30
+      },
+      {
+        "AdditionalProbability": 0.104,
+        "LvUpExp": 30,
+        "MachiningLv": 4,
+        "TotalExp": 50
+      },
+      {
+        "AdditionalProbability": 0.105,
+        "LvUpExp": 50,
+        "MachiningLv": 5,
+        "TotalExp": 80
+      },
+      {
+        "AdditionalProbability": 0.106,
+        "LvUpExp": 70,
+        "MachiningLv": 6,
+        "TotalExp": 130
+      },
+      {
+        "AdditionalProbability": 0.107,
+        "LvUpExp": 90,
+        "MachiningLv": 7,
+        "TotalExp": 200
+      },
+      {
+        "AdditionalProbability": 0.108,
+        "LvUpExp": 110,
+        "MachiningLv": 8,
+        "TotalExp": 290
+      },
+      {
+        "AdditionalProbability": 0.109,
+        "LvUpExp": 130,
+        "MachiningLv": 9,
+        "TotalExp": 400
+      },
+      {
+        "AdditionalProbability": 0.11,
+        "LvUpExp": 160,
+        "MachiningLv": 10,
+        "TotalExp": 530
+      },
+      {
+        "AdditionalProbability": 0.111,
+        "LvUpExp": 190,
+        "MachiningLv": 11,
+        "TotalExp": 690
+      },
+      {
+        "AdditionalProbability": 0.112,
+        "LvUpExp": 220,
+        "MachiningLv": 12,
+        "TotalExp": 880
+      },
+      {
+        "AdditionalProbability": 0.113,
+        "LvUpExp": 250,
+        "MachiningLv": 13,
+        "TotalExp": 1100
+      },
+      {
+        "AdditionalProbability": 0.114,
+        "LvUpExp": 280,
+        "MachiningLv": 14,
+        "TotalExp": 1350
+      },
+      {
+        "AdditionalProbability": 0.115,
+        "LvUpExp": 310,
+        "MachiningLv": 15,
+        "TotalExp": 1630
+      },
+      {
+        "AdditionalProbability": 0.116,
+        "LvUpExp": 340,
+        "MachiningLv": 16,
+        "TotalExp": 1940
+      },
+      {
+        "AdditionalProbability": 0.117,
+        "LvUpExp": 370,
+        "MachiningLv": 17,
+        "TotalExp": 2280
+      },
+      {
+        "AdditionalProbability": 0.118,
+        "LvUpExp": 400,
+        "MachiningLv": 18,
+        "TotalExp": 2650
+      },
+      {
+        "AdditionalProbability": 0.119,
+        "LvUpExp": 430,
+        "MachiningLv": 19,
+        "TotalExp": 3050
+      },
+      {
+        "AdditionalProbability": 0.12,
+        "LvUpExp": 470,
+        "MachiningLv": 20,
+        "TotalExp": 3480
+      },
+      {
+        "AdditionalProbability": 0.121,
+        "LvUpExp": 510,
+        "MachiningLv": 21,
+        "TotalExp": 3950
+      },
+      {
+        "AdditionalProbability": 0.122,
+        "LvUpExp": 550,
+        "MachiningLv": 22,
+        "TotalExp": 4460
+      },
+      {
+        "AdditionalProbability": 0.123,
+        "LvUpExp": 590,
+        "MachiningLv": 23,
+        "TotalExp": 5010
+      },
+      {
+        "AdditionalProbability": 0.124,
+        "LvUpExp": 630,
+        "MachiningLv": 24,
+        "TotalExp": 5600
+      },
+      {
+        "AdditionalProbability": 0.125,
+        "LvUpExp": 670,
+        "MachiningLv": 25,
+        "TotalExp": 6230
+      },
+      {
+        "AdditionalProbability": 0.126,
+        "LvUpExp": 710,
+        "MachiningLv": 26,
+        "TotalExp": 6900
+      },
+      {
+        "AdditionalProbability": 0.127,
+        "LvUpExp": 750,
+        "MachiningLv": 27,
+        "TotalExp": 7610
+      },
+      {
+        "AdditionalProbability": 0.128,
+        "LvUpExp": 790,
+        "MachiningLv": 28,
+        "TotalExp": 8360
+      },
+      {
+        "AdditionalProbability": 0.129,
+        "LvUpExp": 830,
+        "MachiningLv": 29,
+        "TotalExp": 9150
+      },
+      {
+        "AdditionalProbability": 0.13,
+        "LvUpExp": 880,
+        "MachiningLv": 30,
+        "TotalExp": 9980
+      },
+      {
+        "AdditionalProbability": 0.131,
+        "LvUpExp": 940,
+        "MachiningLv": 31,
+        "TotalExp": 10860
+      },
+      {
+        "AdditionalProbability": 0.132,
+        "LvUpExp": 1010,
+        "MachiningLv": 32,
+        "TotalExp": 11800
+      },
+      {
+        "AdditionalProbability": 0.133,
+        "LvUpExp": 1090,
+        "MachiningLv": 33,
+        "TotalExp": 12810
+      },
+      {
+        "AdditionalProbability": 0.134,
+        "LvUpExp": 1180,
+        "MachiningLv": 34,
+        "TotalExp": 13900
+      },
+      {
+        "AdditionalProbability": 0.135,
+        "LvUpExp": 1280,
+        "MachiningLv": 35,
+        "TotalExp": 15080
+      },
+      {
+        "AdditionalProbability": 0.136,
+        "LvUpExp": 1390,
+        "MachiningLv": 36,
+        "TotalExp": 16360
+      },
+      {
+        "AdditionalProbability": 0.137,
+        "LvUpExp": 1510,
+        "MachiningLv": 37,
+        "TotalExp": 17750
+      },
+      {
+        "AdditionalProbability": 0.138,
+        "LvUpExp": 1640,
+        "MachiningLv": 38,
+        "TotalExp": 19260
+      },
+      {
+        "AdditionalProbability": 0.139,
+        "LvUpExp": 1780,
+        "MachiningLv": 39,
+        "TotalExp": 20900
+      },
+      {
+        "AdditionalProbability": 0.14,
+        "LvUpExp": 1930,
+        "MachiningLv": 40,
+        "TotalExp": 22680
+      },
+      {
+        "AdditionalProbability": 0.141,
+        "LvUpExp": 2090,
+        "MachiningLv": 41,
+        "TotalExp": 24610
+      },
+      {
+        "AdditionalProbability": 0.142,
+        "LvUpExp": 2260,
+        "MachiningLv": 42,
+        "TotalExp": 26700
+      },
+      {
+        "AdditionalProbability": 0.143,
+        "LvUpExp": 2440,
+        "MachiningLv": 43,
+        "TotalExp": 28960
+      },
+      {
+        "AdditionalProbability": 0.144,
+        "LvUpExp": 2630,
+        "MachiningLv": 44,
+        "TotalExp": 31400
+      },
+      {
+        "AdditionalProbability": 0.145,
+        "LvUpExp": 2830,
+        "MachiningLv": 45,
+        "TotalExp": 34030
+      },
+      {
+        "AdditionalProbability": 0.146,
+        "LvUpExp": 3040,
+        "MachiningLv": 46,
+        "TotalExp": 36860
+      },
+      {
+        "AdditionalProbability": 0.147,
+        "LvUpExp": 3260,
+        "MachiningLv": 47,
+        "TotalExp": 39900
+      },
+      {
+        "AdditionalProbability": 0.148,
+        "LvUpExp": 3490,
+        "MachiningLv": 48,
+        "TotalExp": 43160
+      },
+      {
+        "AdditionalProbability": 0.149,
+        "LvUpExp": 3730,
+        "MachiningLv": 49,
+        "TotalExp": 46650
+      },
+      {
+        "AdditionalProbability": 0.15,
+        "LvUpExp": 3980,
+        "MachiningLv": 50,
+        "TotalExp": 50380
+      },
+      {
+        "AdditionalProbability": 0.151,
+        "LvUpExp": 4240,
+        "MachiningLv": 51,
+        "TotalExp": 54360
+      },
+      {
+        "AdditionalProbability": 0.152,
+        "LvUpExp": 4510,
+        "MachiningLv": 52,
+        "TotalExp": 58600
+      },
+      {
+        "AdditionalProbability": 0.153,
+        "LvUpExp": 4790,
+        "MachiningLv": 53,
+        "TotalExp": 63110
+      },
+      {
+        "AdditionalProbability": 0.154,
+        "LvUpExp": 5080,
+        "MachiningLv": 54,
+        "TotalExp": 67900
+      },
+      {
+        "AdditionalProbability": 0.155,
+        "LvUpExp": 5380,
+        "MachiningLv": 55,
+        "TotalExp": 72980
+      },
+      {
+        "AdditionalProbability": 0.156,
+        "LvUpExp": 5690,
+        "MachiningLv": 56,
+        "TotalExp": 78360
+      },
+      {
+        "AdditionalProbability": 0.157,
+        "LvUpExp": 6010,
+        "MachiningLv": 57,
+        "TotalExp": 84050
+      },
+      {
+        "AdditionalProbability": 0.158,
+        "LvUpExp": 6340,
+        "MachiningLv": 58,
+        "TotalExp": 90060
+      },
+      {
+        "AdditionalProbability": 0.159,
+        "LvUpExp": 6680,
+        "MachiningLv": 59,
+        "TotalExp": 96400
+      },
+      {
+        "AdditionalProbability": 0.16,
+        "LvUpExp": 7030,
+        "MachiningLv": 60,
+        "TotalExp": 103080
+      },
+      {
+        "AdditionalProbability": 0.161,
+        "LvUpExp": 7390,
+        "MachiningLv": 61,
+        "TotalExp": 110110
+      },
+      {
+        "AdditionalProbability": 0.162,
+        "LvUpExp": 7760,
+        "MachiningLv": 62,
+        "TotalExp": 117500
+      },
+      {
+        "AdditionalProbability": 0.163,
+        "LvUpExp": 8140,
+        "MachiningLv": 63,
+        "TotalExp": 125260
+      },
+      {
+        "AdditionalProbability": 0.164,
+        "LvUpExp": 8530,
+        "MachiningLv": 64,
+        "TotalExp": 133400
+      },
+      {
+        "AdditionalProbability": 0.165,
+        "LvUpExp": 8930,
+        "MachiningLv": 65,
+        "TotalExp": 141930
+      },
+      {
+        "AdditionalProbability": 0.166,
+        "LvUpExp": 9340,
+        "MachiningLv": 66,
+        "TotalExp": 150860
+      },
+      {
+        "AdditionalProbability": 0.167,
+        "LvUpExp": 9760,
+        "MachiningLv": 67,
+        "TotalExp": 160200
+      },
+      {
+        "AdditionalProbability": 0.168,
+        "LvUpExp": 10190,
+        "MachiningLv": 68,
+        "TotalExp": 169960
+      },
+      {
+        "AdditionalProbability": 0.169,
+        "LvUpExp": 10630,
+        "MachiningLv": 69,
+        "TotalExp": 180150
+      },
+      {
+        "AdditionalProbability": 0.17,
+        "LvUpExp": 11080,
+        "MachiningLv": 70,
+        "TotalExp": 190780
+      },
+      {
+        "AdditionalProbability": 0.171,
+        "LvUpExp": 11540,
+        "MachiningLv": 71,
+        "TotalExp": 201860
+      },
+      {
+        "AdditionalProbability": 0.172,
+        "LvUpExp": 12010,
+        "MachiningLv": 72,
+        "TotalExp": 213400
+      },
+      {
+        "AdditionalProbability": 0.173,
+        "LvUpExp": 12490,
+        "MachiningLv": 73,
+        "TotalExp": 225410
+      },
+      {
+        "AdditionalProbability": 0.174,
+        "LvUpExp": 12980,
+        "MachiningLv": 74,
+        "TotalExp": 237900
+      },
+      {
+        "AdditionalProbability": 0.175,
+        "LvUpExp": 13480,
+        "MachiningLv": 75,
+        "TotalExp": 250880
+      },
+      {
+        "AdditionalProbability": 0.176,
+        "LvUpExp": 13990,
+        "MachiningLv": 76,
+        "TotalExp": 264360
+      },
+      {
+        "AdditionalProbability": 0.177,
+        "LvUpExp": 14510,
+        "MachiningLv": 77,
+        "TotalExp": 278350
+      },
+      {
+        "AdditionalProbability": 0.178,
+        "LvUpExp": 15040,
+        "MachiningLv": 78,
+        "TotalExp": 292860
+      },
+      {
+        "AdditionalProbability": 0.179,
+        "LvUpExp": 15580,
+        "MachiningLv": 79,
+        "TotalExp": 307900
+      },
+      {
+        "AdditionalProbability": 0.18,
+        "LvUpExp": 16130,
+        "MachiningLv": 80,
+        "TotalExp": 323480
+      },
+      {
+        "AdditionalProbability": 0.181,
+        "LvUpExp": 16690,
+        "MachiningLv": 81,
+        "TotalExp": 339610
+      },
+      {
+        "AdditionalProbability": 0.182,
+        "LvUpExp": 17260,
+        "MachiningLv": 82,
+        "TotalExp": 356300
+      },
+      {
+        "AdditionalProbability": 0.183,
+        "LvUpExp": 17840,
+        "MachiningLv": 83,
+        "TotalExp": 373560
+      },
+      {
+        "AdditionalProbability": 0.184,
+        "LvUpExp": 18430,
+        "MachiningLv": 84,
+        "TotalExp": 391400
+      },
+      {
+        "AdditionalProbability": 0.185,
+        "LvUpExp": 19030,
+        "MachiningLv": 85,
+        "TotalExp": 409830
+      },
+      {
+        "AdditionalProbability": 0.186,
+        "LvUpExp": 19640,
+        "MachiningLv": 86,
+        "TotalExp": 428860
+      },
+      {
+        "AdditionalProbability": 0.187,
+        "LvUpExp": 20260,
+        "MachiningLv": 87,
+        "TotalExp": 448500
+      },
+      {
+        "AdditionalProbability": 0.188,
+        "LvUpExp": 20890,
+        "MachiningLv": 88,
+        "TotalExp": 468760
+      },
+      {
+        "AdditionalProbability": 0.189,
+        "LvUpExp": 21530,
+        "MachiningLv": 89,
+        "TotalExp": 489650
+      },
+      {
+        "AdditionalProbability": 0.19,
+        "LvUpExp": 22180,
+        "MachiningLv": 90,
+        "TotalExp": 511180
+      },
+      {
+        "AdditionalProbability": 0.191,
+        "LvUpExp": 22840,
+        "MachiningLv": 91,
+        "TotalExp": 533360
+      },
+      {
+        "AdditionalProbability": 0.192,
+        "LvUpExp": 23510,
+        "MachiningLv": 92,
+        "TotalExp": 556200
+      },
+      {
+        "AdditionalProbability": 0.193,
+        "LvUpExp": 24190,
+        "MachiningLv": 93,
+        "TotalExp": 579710
+      },
+      {
+        "AdditionalProbability": 0.194,
+        "LvUpExp": 24880,
+        "MachiningLv": 94,
+        "TotalExp": 603900
+      },
+      {
+        "AdditionalProbability": 0.195,
+        "LvUpExp": 25580,
+        "MachiningLv": 95,
+        "TotalExp": 628780
+      },
+      {
+        "AdditionalProbability": 0.196,
+        "LvUpExp": 26290,
+        "MachiningLv": 96,
+        "TotalExp": 654360
+      },
+      {
+        "AdditionalProbability": 0.197,
+        "LvUpExp": 27010,
+        "MachiningLv": 97,
+        "TotalExp": 680650
+      },
+      {
+        "AdditionalProbability": 0.198,
+        "LvUpExp": 27740,
+        "MachiningLv": 98,
+        "TotalExp": 707660
+      },
+      {
+        "AdditionalProbability": 0.199,
+        "LvUpExp": 28480,
+        "MachiningLv": 99,
+        "TotalExp": 735400
+      },
+      {
+        "AdditionalProbability": 0.2,
+        "LvUpExp": 0,
+        "MachiningLv": 100,
+        "TotalExp": 763880
       }
     ]
   }

@@ -1497,7 +1497,7 @@
     "mod": "监狱相关",
     "isInformalData": false,
     "name": "质量监控",
-    "desc": "生产成品增加<color=#0CB7E5>%d%%</color>",
+    "desc": "生产成品增加<color=#0CB7E5>%d</color>",
     "continueTime": -1,
     "showIcon": "",
     "buffType": "OutputAdd",
@@ -1514,12 +1514,16 @@
     "mod": "监狱相关",
     "isInformalData": false,
     "name": "安全督导",
-    "desc": "意外发生率减少<color=#0CB7E5>%d%%</color>",
+    "desc": "生产违规事件减少<color=#0CB7E5>%d%%</color>",
     "continueTime": -1,
     "showIcon": "",
     "buffType": "AccidentRateDec",
     "param": -1.0,
-    "paramList": []
+    "paramList": [
+      {},
+      {},
+      {}
+    ]
   },
   {
     "id": 84100140,

@@ -72498,7 +72498,7 @@
   },
   {
     "id": 80608147,
-    "idCN": "监狱/车间导航/车间导航",
+    "idCN": "监狱/车间/主页按钮名/车间导航",
     "mod": "UI文本",
     "isInformalData": false,
     "text": "车间导航"
@@ -73194,7 +73194,7 @@
     "idCN": "海岛经营/垃圾站/2天未清理",
     "mod": "UI文本",
     "isInformalData": false,
-    "text": "已经两天未清理过垃圾了，海岛清洁度上限降低了%d%%"
+    "text": "已经超过两天未清理过垃圾了，海岛清洁度上限降低了%d%%"
   },
   {
     "id": 80607900,
@@ -74152,14 +74152,14 @@
   },
   {
     "id": 80608308,
-    "idCN": "监狱/车间/批量领取",
+    "idCN": "监狱/车间/主页按钮名/批量领取",
     "mod": "UI文本",
     "isInformalData": false,
-    "text": "批量领取"
+    "text": "全部领取"
   },
   {
     "id": 80608309,
-    "idCN": "监狱/车间/前往仓库",
+    "idCN": "监狱/车间/主页按钮名/前往仓库",
     "mod": "UI文本",
     "isInformalData": false,
     "text": "前往仓库"
@@ -74187,10 +74187,10 @@
   },
   {
     "id": 80608311,
-    "idCN": "监狱/车间/车间加速",
+    "idCN": "监狱/车间/主页按钮名/车间加速",
     "mod": "UI文本",
     "isInformalData": false,
-    "text": "车间加速"
+    "text": "全部加速"
   },
   {
     "id": 80608318,
@@ -75158,7 +75158,7 @@
   },
   {
     "id": 80608393,
-    "idCN": "好友/最近登录",
+    "idCN": "好友/登录/最近登录",
     "mod": "UI文本",
     "isInformalData": false,
     "text": "最近登录:"
@@ -76252,7 +76252,7 @@
     "idCN": "监狱/建筑/假释室/服务能力",
     "mod": "UI文本",
     "isInformalData": false,
-    "text": "假释金系数提升%d"
+    "text": "假释金系数提升%s"
   },
   {
     "id": 80608508,
@@ -76273,7 +76273,7 @@
     "idCN": "监狱/建筑/假释室/服务费",
     "mod": "UI文本",
     "isInformalData": false,
-    "text": "+%%服务费/每人"
+    "text": "+%d%%服务费/每人"
   },
   {
     "id": 80608511,
@@ -76413,7 +76413,7 @@
     "idCN": "监狱/建筑/假释室/扣除手续费",
     "mod": "UI文本",
     "isInformalData": false,
-    "text": "扣除服务费%d%"
+    "text": "扣除服务费%d%%"
   },
   {
     "id": 80608531,
@@ -76449,5 +76449,845 @@
     "mod": "UI文本",
     "isInformalData": false,
     "text": "由摩尔改造后的虚演空间，置身其中时可不受现实条件限制，尽情与各种敌人进行模拟战斗。"
+  },
+  {
+    "id": 80608551,
+    "idCN": "监狱/建筑/电力中心/解锁",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "电力中心LV%d"
+  },
+  {
+    "id": 80608552,
+    "idCN": "监狱/建筑/电力中心/安装电机1",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "安装电机"
+  },
+  {
+    "id": 80608553,
+    "idCN": "监狱/建筑/电力中心/电力中心",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "电力中心"
+  },
+  {
+    "id": 80608554,
+    "idCN": "监狱/建筑/电力中心/二次确认",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "是否消耗材料安装电机？"
+  },
+  {
+    "id": 80608567,
+    "idCN": "监狱/商店/整顿中心商店",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "整顿中心商店"
+  },
+  {
+    "id": 80608568,
+    "idCN": "监狱/商店/云岫桥基地",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "云岫桥基地"
+  },
+  {
+    "id": 80608569,
+    "idCN": "监狱/商店/不限次数",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "不限次数"
+  },
+  {
+    "id": 80608570,
+    "idCN": "监狱/商店/监狱等级",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "整顿中心等级"
+  },
+  {
+    "id": 80608571,
+    "idCN": "监狱/商店/研发中心",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "研发中心"
+  },
+  {
+    "id": 80608572,
+    "idCN": "监狱/商店/研发配方",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "研发配方"
+  },
+  {
+    "id": 80608573,
+    "idCN": "监狱/商店/兑换家具",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "兑换家具"
+  },
+  {
+    "id": 80608566,
+    "idCN": "战斗/自动战斗/导入-配队不一致",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "当前编队成员不一致，是否修改编队组成并应用此自动战斗配置？"
+  },
+  {
+    "id": 80608565,
+    "idCN": "战斗/自动战斗/导入-缺少角色",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "无法导入此自动战斗配置，缺少角色："
+  },
+  {
+    "id": 80608564,
+    "idCN": "战斗/自动战斗/导入-队长不一致",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "当前编队队长不一致，是否切换队长为%s，并应用配置？"
+  },
+  {
+    "id": 80608563,
+    "idCN": "战斗/自动战斗/导入-确认",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "是否导入此自动战斗配置？"
+  },
+  {
+    "id": 80608576,
+    "idCN": "好友/请输入",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "请输入"
+  },
+  {
+    "id": 80608577,
+    "idCN": "好友/只可输入数字",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "只可输入数字"
+  },
+  {
+    "id": 80608578,
+    "idCN": "好友/无法确认",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "无法确认"
+  },
+  {
+    "id": 80608579,
+    "idCN": "好友/登录/今天",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "今天"
+  },
+  {
+    "id": 80608580,
+    "idCN": "好友/登录/昨天",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "昨天"
+  },
+  {
+    "id": 80608581,
+    "idCN": "好友/信息/最高时速",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "最高时速:"
+  },
+  {
+    "id": 80608582,
+    "idCN": "好友/信息/总里程",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "总里程:"
+  },
+  {
+    "id": 80608583,
+    "idCN": "好友/信息/今日里程",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "今日里程:"
+  },
+  {
+    "id": 80608584,
+    "idCN": "好友/信息/贸易等级",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "贸易等级:"
+  },
+  {
+    "id": 80608585,
+    "idCN": "好友/信息/载货量",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "载货量:"
+  },
+  {
+    "id": 80608586,
+    "idCN": "好友/信息/今日利润",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "今日利润:"
+  },
+  {
+    "id": 80608587,
+    "idCN": "好友/信息/列车外观数量",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "列车外观数量:"
+  },
+  {
+    "id": 80608588,
+    "idCN": "好友/信息/乘员时装数量",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "乘员时装数量:"
+  },
+  {
+    "id": 80608589,
+    "idCN": "好友/信息/虚演积分",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "虚演积分:"
+  },
+  {
+    "id": 80608590,
+    "idCN": "好友/登录/x天前",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "%d天前"
+  },
+  {
+    "id": 80607940,
+    "idCN": "1预制体/CharacterInfo/ChangePosterGirl/文案13",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "随机助理"
+  },
+  {
+    "id": 80607941,
+    "idCN": "1预制体/CharacterInfo/ChoseSkin/文案1",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "确定"
+  },
+  {
+    "id": 80607942,
+    "idCN": "1预制体/Home/NewHomeLive/文案30",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "剩余%d时%d分"
+  },
+  {
+    "id": 80607943,
+    "idCN": "1预制体/Home/NewHomeLive/文案31",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "剩余%d时%d分"
+  },
+  {
+    "id": 80608591,
+    "idCN": "好友/登录/x年前",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "%d年前"
+  },
+  {
+    "id": 80608605,
+    "idCN": "好友/好友已满",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "好友已满"
+  },
+  {
+    "id": 80608556,
+    "idCN": "轮盘战斗/深渊奖励",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "深度演算奖励"
+  },
+  {
+    "id": 80608555,
+    "idCN": "轮盘战斗/深渊剩余时间",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "深度演算剩余时间"
+  },
+  {
+    "id": 80608557,
+    "idCN": "轮盘战斗/深渊奖励条件",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "演算进度达标，获取额外奖励"
+  },
+  {
+    "id": 80608558,
+    "idCN": "轮盘战斗/累计获得",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "累计获得"
+  },
+  {
+    "id": 80608561,
+    "idCN": "轮盘战斗/已领取",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "已领取"
+  },
+  {
+    "id": 80608604,
+    "idCN": "监狱/车间/无法设置组长",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "车间组长正在生产中，无法再设置组长。"
+  },
+  {
+    "id": 80608625,
+    "idCN": "好友/信息/虚演进程",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "虚演进程:"
+  },
+  {
+    "id": 80608626,
+    "idCN": "好友/信息/最高单笔利润",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "最高单笔利润:"
+  },
+  {
+    "id": 80608627,
+    "idCN": "好友/信息/乘员数量",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "乘员数量:"
+  },
+  {
+    "id": 80608592,
+    "idCN": "委派/委派数量",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "当前委托队伍 %d/%d"
+  },
+  {
+    "id": 80608593,
+    "idCN": "委派/英文数字",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "UNIT%d"
+  },
+  {
+    "id": 80608594,
+    "idCN": "委派/剩余时间",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "%.2d：%.2d：%.2d"
+  },
+  {
+    "id": 80608595,
+    "idCN": "委派/派遣时长",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "派遣时长 %dH"
+  },
+  {
+    "id": 80608596,
+    "idCN": "委派/中止委托",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "中止委拖并召回派遣队员？"
+  },
+  {
+    "id": 80608597,
+    "idCN": "委派/委托开始",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "委托开启"
+  },
+  {
+    "id": 80608598,
+    "idCN": "委派/角色数量不足",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "未上阵5位角色"
+  },
+  {
+    "id": 80608599,
+    "idCN": "委派/队列不足",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "当前队列不足"
+  },
+  {
+    "id": 80608601,
+    "idCN": "委派/队伍顺序",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "队伍%d"
+  },
+  {
+    "id": 80608602,
+    "idCN": "委派/不可选中",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "该队员正在执行其他委托"
+  },
+  {
+    "id": 80608603,
+    "idCN": "委派/结算时长",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "%dh"
+  },
+  {
+    "id": 80608600,
+    "idCN": "委派/角色等级",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "LV%d"
+  },
+  {
+    "id": 80608606,
+    "idCN": "战斗/自动战斗/导出-导出成功",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "已导出配置到剪贴板"
+  },
+  {
+    "id": 80608607,
+    "idCN": "战斗/自动战斗/导入-成功",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "导入配置成功"
+  },
+  {
+    "id": 80608608,
+    "idCN": "战斗/自动战斗/导入-缺少角色顿号",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "、"
+  },
+  {
+    "id": 80608610,
+    "idCN": "委派/一键领取",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "一键领取"
+  },
+  {
+    "id": 80608609,
+    "idCN": "委派/派遣委托",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "派遣委托"
+  },
+  {
+    "id": 80608611,
+    "idCN": "委派/进度总览",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "铁安局进度总览"
+  },
+  {
+    "id": 80608612,
+    "idCN": "委派/选择派遣时长",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "选择派遣时长"
+  },
+  {
+    "id": 80608613,
+    "idCN": "委派/派遣奖励",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "派遣奖励"
+  },
+  {
+    "id": 80608615,
+    "idCN": "委派/按钮/派遣",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "派遣"
+  },
+  {
+    "id": 80608616,
+    "idCN": "委派/按钮/领取",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "领取奖励"
+  },
+  {
+    "id": 80608614,
+    "idCN": "委派/按钮/召回",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "召回"
+  },
+  {
+    "id": 80608617,
+    "idCN": "委派/巡逻进行中",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "巡逻进行中"
+  },
+  {
+    "id": 80608619,
+    "idCN": "委派/推荐阵营",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "推荐阵营"
+  },
+  {
+    "id": 80608621,
+    "idCN": "委派/选择派遣人员",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "选择派遣人员"
+  },
+  {
+    "id": 80608618,
+    "idCN": "委派/巡逻完毕",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "已巡逻完毕"
+  },
+  {
+    "id": 80608620,
+    "idCN": "委派/练度提示",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "派遣推荐阵营及练度较高角色可增加委托奖励"
+  },
+  {
+    "id": 80608622,
+    "idCN": "委派/委托报告",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "委托报告"
+  },
+  {
+    "id": 80608623,
+    "idCN": "委派/报告时间",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "派遣时长"
+  },
+  {
+    "id": 80608624,
+    "idCN": "监狱/批量制造/配方未拥有",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "配方未拥有"
+  },
+  {
+    "id": 80607944,
+    "idCN": "1预制体/CharacterInfo/ChoseSkin/文案2",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "取消"
+  },
+  {
+    "id": 80607945,
+    "idCN": "1预制体/CharacterInfo/ChoseSkin/文案3",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "您已持有本皮肤，将转化为%d的桦石作为补偿"
+  },
+  {
+    "id": 80607946,
+    "idCN": "1预制体/CharacterInfo/ChoseSkin/文案4",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "是否确认兑换本皮肤？"
+  },
+  {
+    "id": 80607948,
+    "idCN": "导航手册/客运手册",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "客运手册"
+  },
+  {
+    "id": 80607947,
+    "idCN": "1预制体/CharacterInfo/ChoseSkin/文案5",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "回忆录-皮肤选择"
+  },
+  {
+    "id": 80607949,
+    "idCN": "导航手册/产业手册",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "产业手册"
+  },
+  {
+    "id": 80608657,
+    "idCN": "监狱/建筑/通用/效果2",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "额外生产概率提高%s%%"
+  },
+  {
+    "id": 80608656,
+    "idCN": "监狱/建筑/通用/卫生度效果1",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "囚犯生病概率下降%s%%"
+  },
+  {
+    "id": 80608655,
+    "idCN": "监狱/建筑/通用/服从度效果1",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "生产违规事件发生概率下降%s%%"
+  },
+  {
+    "id": 80608654,
+    "idCN": "监狱/建筑/通用/稳定度效果1",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "越狱事件发生概率下降%s%%"
+  },
+  {
+    "id": 80608653,
+    "idCN": "监狱/建筑/通用/安全度效果1",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "囚犯越狱成功率下降%s%%"
+  },
+  {
+    "id": 80608651,
+    "idCN": "监狱/建筑/电力中心/电力值",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "%d+%d"
+  },
+  {
+    "id": 80608650,
+    "idCN": "监狱/原料车间/已达上限",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "铁盟币预存已达上限"
+  },
+  {
+    "id": 80608649,
+    "idCN": "监狱/建筑/电力中心/其他设施",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "其他设施"
+  },
+  {
+    "id": 80608648,
+    "idCN": "监狱/车间/主页按钮名/订单",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "订单记录"
+  },
+  {
+    "id": 80608647,
+    "idCN": "监狱/车间/主页按钮名/上阵",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "车间编辑"
+  },
+  {
+    "id": 80608645,
+    "idCN": "监狱/建筑/假释室/假释字",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "假释"
+  },
+  {
+    "id": 80608646,
+    "idCN": "监狱/车间/主页按钮名/生产",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "生产"
+  },
+  {
+    "id": 80608644,
+    "idCN": "监狱/建筑/电力中心/点击安装成功",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "电机安装成功"
+  },
+  {
+    "id": 80608643,
+    "idCN": "监狱/建筑/电力中心/额外电力值",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "额外电力值"
+  },
+  {
+    "id": 80608642,
+    "idCN": "监狱/建筑/通用/可建造",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "可建造"
+  },
+  {
+    "id": 80608641,
+    "idCN": "淘金票价/提示/本月",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "本月"
+  },
+  {
+    "id": 80608640,
+    "idCN": "淘金票价/提示/投资额度",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "%s投资额度"
+  },
+  {
+    "id": 80608639,
+    "idCN": "淘金票价/提示/获得",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "获得"
+  },
+  {
+    "id": 80608559,
+    "idCN": "导航手册/战斗手册",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "战斗手册"
+  },
+  {
+    "id": 80608560,
+    "idCN": "导航手册/贸易手册",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "贸易手册"
+  },
+  {
+    "id": 80608562,
+    "idCN": "导航手册/制造手册",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "制造手册"
+  },
+  {
+    "id": 80608574,
+    "idCN": "乘客揽客/传单/目的地解锁",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "对应城市声望Lv%d解锁"
+  },
+  {
+    "id": 80608575,
+    "idCN": "乘客揽客/传单/数量",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "名"
+  },
+  {
+    "id": 80608628,
+    "idCN": "好友/宠物别墅为空",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "宠物别墅为空"
+  },
+  {
+    "id": 80608629,
+    "idCN": "1预制体/CharacterInfo/CharacterInfo/文案81",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "觉醒%d解锁"
+  },
+  {
+    "id": 80608630,
+    "idCN": "1预制体/CharacterInfo/CharacterInfo/文案82",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "无"
+  },
+  {
+    "id": 80608631,
+    "idCN": "监狱/建筑/假释室/假释金额文本",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "假释金额"
+  },
+  {
+    "id": 80608632,
+    "idCN": "乘客揽客/传单/本周剩余加印",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "本周剩余加印数量:%d/%d"
+  },
+  {
+    "id": 80608633,
+    "idCN": "游乐场/2营收/0通用文本/投资金额",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "投资%d%s"
+  },
+  {
+    "id": 80608634,
+    "idCN": "游乐场/2营收/0通用文本/剩余投资次数",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "剩余投资次数:%d"
+  },
+  {
+    "id": 80608635,
+    "idCN": "淘金票价/提示/月",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "月"
+  },
+  {
+    "id": 80608636,
+    "idCN": "淘金票价/提示/票价提升",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "获得%d票价提升奖励"
+  },
+  {
+    "id": 80608637,
+    "idCN": "淘金票价/提示/分成奖励",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "获得%s分成奖励"
+  },
+  {
+    "id": 80608638,
+    "idCN": "淘金票价/提示/税率奖励",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "获得%s税率奖励"
+  },
+  {
+    "id": 80607951,
+    "idCN": "帮助/活动帮助/沙滩排球/帮助标题",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "沙滩排球"
+  },
+  {
+    "id": 80607952,
+    "idCN": "帮助/活动帮助/沙滩排球/活动说明",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "海岛活力源，沙滩排球热！\r\r\\n\r\r\\n\r\r繁忙之余，和乘员们来一场酣畅淋漓的沙滩排球吧！\\n\r\r在排球场上，尽情释放热情、挥洒汗水，享受运动的无尽乐趣！\\n\r\r\\n\r\r【参与条件】\\n\r\r海岛等级达到5级解锁。\\n\r\r可以在海岛的设施【沙滩排球场】或活动界面的【沙滩排球】点击参加！\\n\r\r\\n\r\r【内容说明】\\n\r\r可以选择训练模式或比赛模式。\\n\r\r\\n\r\r训练模式：可以随时参加，磨炼对抗技巧，备战比赛模式。\\n\r\r\\n\r\r比赛模式：限时模式，每次参与会消耗每日的奖励次数，比赛结束会根据结果获取相应的奖励，参加前请谨慎考虑。\\n\r\r但不用紧张，每日可以在管理局兑换【沙滩比赛用球】，使用后可以获得奖励次数。\\n\r\r可以在比赛模式点击“+”号或在背包中使用道具。\\n\r\r\\n\r\r【玩法说明】\\n\r\r进入游戏后，玩家可以选择心仪的角色参加这次排球比赛。\\n\r\r\\n\r\r在双方选择完角色后会正式进入比赛，此时会根据随机的先后手决定先攻的一方。\\n\r\r\\n\r\r接球：当排球落入玩家的半场时，需要在球落地前点击排球落点的格子，让角色前往接球。\\n\r\r进攻：在玩家球权时，当球传到前场，接球的角色将触发扣球动作，和对方防守角色比拼力气，大于对方则进攻成功，获得胜利。\\n\r\r防守：在对方进攻时，角色将自动前往防守，和对方进攻角色比拼力气，大于对方则防守成功，获得球权。\\n\r\r救球：在排球即将落地时，角色前往落点会触发扑救动作试图救球，但扑救不是一定会成功的，请保持专注。\\n\r\r胜利/失败：先获得5分的一方将获得比赛的胜利。\\n\r\r\\n"
+  },
+  {
+    "id": 80607953,
+    "idCN": "帮助/活动帮助/沙滩排球/活动说明页签",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "玩法说明"
+  },
+  {
+    "id": 80607950,
+    "idCN": "监狱/建筑/通用/整顿中心等级",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "整顿中心等级"
   }
 ]

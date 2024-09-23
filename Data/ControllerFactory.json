@@ -14623,7 +14623,7 @@
     "isInvisibleBeforeShowUp": true,
     "showupSkillList": [
       {
-        "actionId": 10101133
+        "actionId": 10103346
       }
     ],
     "skillLoopDelayFrame": 1800,
@@ -14655,7 +14655,7 @@
     "isInvisibleBeforeShowUp": true,
     "showupSkillList": [
       {
-        "actionId": 10101133
+        "actionId": 10103346
       }
     ],
     "skillLoopDelayFrame": 1800,
@@ -14687,7 +14687,7 @@
     "isInvisibleBeforeShowUp": true,
     "showupSkillList": [
       {
-        "actionId": 10101133
+        "actionId": 10103346
       }
     ],
     "skillLoopDelayFrame": 1800,
@@ -15811,7 +15811,7 @@
   },
   {
     "id": 10300398,
-    "idCN": "爬塔/深眠者/深眠者·沉溺-5",
+    "idCN": "爬塔/深眠者/深眠者·沉溺-5复活",
     "mod": "BOSSAI",
     "isInformalData": false,
     "targetInvisibleEffectId": 11102488,
@@ -15829,16 +15829,35 @@
       }
     ],
     "normalAttackCritID": -1,
-    "skillList": [],
+    "skillList": [
+      {
+        "actionId": 10102057,
+        "activeFrame": 360,
+        "activeTime": 6.0,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10102058,
+        "activeFrame": 1080,
+        "activeTime": 18.0,
+        "rangeSN": -10000
+      }
+    ],
     "isInvisibleBeforeShowUp": false,
     "showupSkillList": [],
     "skillLoopDelayFrame": 750,
     "shapeShiftList": [],
     "commandList": [],
     "enemySkillList": [],
-    "isUseEnergy": false,
-    "energySkillList": [],
-    "energyRestorePerFrameSN": 0,
+    "isUseEnergy": true,
+    "energySkillList": [
+      {
+        "actionId": 10102059,
+        "isClearEnergy": true,
+        "rangeSN": -10000
+      }
+    ],
+    "energyRestorePerFrameSN": 220,
     "isSkillDelay": false,
     "minDelay": 120,
     "maxDelay": 360
@@ -18353,13 +18372,23 @@
     "actionList": [
       {
         "actionID": 10103327
+      },
+      {
+        "actionID": 10103327
       }
     ],
     "normalAttackCritID": -1,
-    "skillList": [],
+    "skillList": [
+      {
+        "actionId": 10103216,
+        "activeFrame": 1,
+        "activeTime": 1.0,
+        "rangeSN": -10000
+      }
+    ],
     "isInvisibleBeforeShowUp": false,
     "showupSkillList": [],
-    "skillLoopDelayFrame": 1,
+    "skillLoopDelayFrame": 180,
     "shapeShiftList": [],
     "commandList": [],
     "enemySkillList": [],
@@ -18517,6 +18546,120 @@
     ],
     "energyRestorePerFrameSN": 280,
     "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300456,
+    "idCN": "爬塔/深眠者/深眠者·沉溺-5",
+    "mod": "BOSSAI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10101343
+      },
+      {
+        "actionID": 10101345
+      },
+      {
+        "actionID": 10101344
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10102057,
+        "activeFrame": 360,
+        "activeTime": 6.0,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10102058,
+        "activeFrame": 1080,
+        "activeTime": 18.0,
+        "rangeSN": -10000
+      }
+    ],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [
+      {
+        "actionId": 10102179
+      }
+    ],
+    "skillLoopDelayFrame": 750,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": true,
+    "energySkillList": [
+      {
+        "actionId": 10102059,
+        "isClearEnergy": true,
+        "rangeSN": -10000
+      }
+    ],
+    "energyRestorePerFrameSN": 320,
+    "isSkillDelay": true,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300457,
+    "idCN": "爬塔/深眠者/深眠者·沉溺-1",
+    "mod": "BOSSAI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10101343
+      },
+      {
+        "actionID": 10101345
+      },
+      {
+        "actionID": 10101344
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10102057,
+        "activeFrame": 290,
+        "activeTime": 4.8333,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10102058,
+        "activeFrame": 690,
+        "activeTime": 11.5,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10102059,
+        "activeFrame": 1110,
+        "activeTime": 18.5,
+        "rangeSN": -10000
+      }
+    ],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [
+      {
+        "actionId": 10102179
+      }
+    ],
+    "skillLoopDelayFrame": 750,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
+    "isSkillDelay": true,
     "minDelay": 120,
     "maxDelay": 360
   }
