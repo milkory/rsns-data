@@ -23,7 +23,7 @@
     "voiceWillArrivePassenger": 30002665,
     "voiceArrive": 30002674,
     "voiceArrivePassenger": 30001971,
-    "voiceGetIn": 30002684,
+    "voiceGetIn": -1,
     "voiceGetInPassenger": -1,
     "defaultDevelop": 900000,
     "addDevelop": 9000,
@@ -1362,7 +1362,7 @@
     "voiceWillArrivePassenger": 30002662,
     "voiceArrive": 30002671,
     "voiceArrivePassenger": 30001951,
-    "voiceGetIn": 30002681,
+    "voiceGetIn": -1,
     "voiceGetInPassenger": -1,
     "defaultDevelop": 700000,
     "addDevelop": 7000,
@@ -2617,7 +2617,7 @@
     "voiceWillArrivePassenger": 30002660,
     "voiceArrive": 30002669,
     "voiceArrivePassenger": 30001949,
-    "voiceGetIn": 30002679,
+    "voiceGetIn": -1,
     "voiceGetInPassenger": -1,
     "defaultDevelop": 500000,
     "addDevelop": 5000,
@@ -6036,7 +6036,7 @@
     "voiceWillArrivePassenger": 30002659,
     "voiceArrive": 30002668,
     "voiceArrivePassenger": 30001942,
-    "voiceGetIn": 30002678,
+    "voiceGetIn": -1,
     "voiceGetInPassenger": -1,
     "defaultDevelop": 100000,
     "addDevelop": 1000,
@@ -7410,7 +7410,7 @@
     "voiceWillArrivePassenger": 30002663,
     "voiceArrive": 30002672,
     "voiceArrivePassenger": 30001963,
-    "voiceGetIn": 30002682,
+    "voiceGetIn": -1,
     "voiceGetInPassenger": -1,
     "defaultDevelop": 200000,
     "addDevelop": 2000,
@@ -9980,7 +9980,7 @@
     "voiceWillArrivePassenger": 30002658,
     "voiceArrive": 30002667,
     "voiceArrivePassenger": 30001948,
-    "voiceGetIn": 30002677,
+    "voiceGetIn": -1,
     "voiceGetInPassenger": -1,
     "defaultDevelop": 420000,
     "addDevelop": 4200,
@@ -12746,7 +12746,7 @@
     "voiceWillArrivePassenger": 30002661,
     "voiceArrive": 30002670,
     "voiceArrivePassenger": 30001950,
-    "voiceGetIn": 30002680,
+    "voiceGetIn": -1,
     "voiceGetInPassenger": -1,
     "defaultDevelop": 280000,
     "addDevelop": 2800,
@@ -14595,11 +14595,11 @@
         "id": 20100839
       },
       {
-        "difficulty": 3,
+        "difficulty": 1,
         "id": 20100840
       },
       {
-        "difficulty": 2,
+        "difficulty": 3,
         "id": 20100841
       },
       {
@@ -14619,7 +14619,7 @@
         "id": 20100845
       },
       {
-        "difficulty": 2,
+        "difficulty": 3,
         "id": 20100846
       },
       {
@@ -14710,10 +14710,22 @@
     "saleName": "素材回收清单",
     "materialRecycleList": [
       {
+        "id": 11400049
+      },
+      {
+        "id": 11400069
+      },
+      {
+        "id": 11700002
+      },
+      {
         "id": 11700038
       },
       {
-        "id": 11700184
+        "id": 11700050
+      },
+      {
+        "id": 11700051
       },
       {
         "id": 11700185
@@ -14725,10 +14737,25 @@
         "id": 11700186
       },
       {
-        "id": 11700002
+        "id": 11700184
       },
       {
-        "id": 11700050
+        "id": 11700053
+      },
+      {
+        "id": 11700052
+      },
+      {
+        "id": 11700027
+      },
+      {
+        "id": 11700165
+      },
+      {
+        "id": 11700008
+      },
+      {
+        "id": 11700003
       }
     ],
     "correspondingConstruction": 11400151,
@@ -18676,6 +18703,13 @@
         "showUI": "Group_Exchange"
       },
       {
+        "icon": "UI/HomeTrade/trade_icon_sell",
+        "isStore": false,
+        "isTalk": false,
+        "name": "素材回收",
+        "showUI": "Group_Sale"
+      },
+      {
         "icon": "UI/HomeCOC/coc_icon_quest",
         "isTalk": false,
         "name": "物资运输",
@@ -18853,11 +18887,60 @@
     "exchangeBottomPath": "UI/HomeBattleCenter/Exchange/di_group_tiemeng",
     "exchangeAffirmPath": "UI/HomeBattleCenter/Exchange/btn_exchange_tiemeng",
     "exchangeCompletePath": "UI/HomeBattleCenter/Exchange/btn_complete_xuehui",
-    "saleName": "",
-    "materialRecycleList": [],
+    "saleName": "素材回收清单",
+    "materialRecycleList": [
+      {
+        "id": 11400049
+      },
+      {
+        "id": 11400069
+      },
+      {
+        "id": 11700002
+      },
+      {
+        "id": 11700038
+      },
+      {
+        "id": 11700050
+      },
+      {
+        "id": 11700051
+      },
+      {
+        "id": 11700185
+      },
+      {
+        "id": 11700183
+      },
+      {
+        "id": 11700186
+      },
+      {
+        "id": 11700184
+      },
+      {
+        "id": 11700053
+      },
+      {
+        "id": 11700052
+      },
+      {
+        "id": 11700027
+      },
+      {
+        "id": 11700165
+      },
+      {
+        "id": 11700008
+      },
+      {
+        "id": 11700003
+      }
+    ],
     "correspondingConstruction": 11400054,
-    "saleBottomPath": "",
-    "saleHighPricePath": "",
+    "saleBottomPath": "UI/HomeBattleCenter/Exchange/di_element_tiemeng",
+    "saleHighPricePath": "UI/HomeBattleCenter/Exchange/bg_price_tiemeng",
     "petStoreList": [],
     "petRecycleStoreList": [],
     "keepSingleMealList": [],

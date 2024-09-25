@@ -358,6 +358,31 @@
         "id": 86400223,
         "x": 145.0,
         "y": 330.0
+      },
+      {
+        "id": 86400259,
+        "x": -16.0,
+        "y": -234.0
+      },
+      {
+        "id": 86400260,
+        "x": -16.0,
+        "y": -234.0
+      },
+      {
+        "id": 86400261,
+        "x": -16.0,
+        "y": -234.0
+      },
+      {
+        "id": 86400262,
+        "x": -16.0,
+        "y": -234.0
+      },
+      {
+        "id": 86400263,
+        "x": -16.0,
+        "y": -234.0
       }
     ],
     "isShowRep": true,
@@ -615,11 +640,6 @@
         "y": 150.0
       },
       {
-        "id": 86400088,
-        "x": -770.0,
-        "y": 30.0
-      },
-      {
         "id": 86400089,
         "x": -770.0,
         "y": 30.0
@@ -653,6 +673,31 @@
         "id": 86400223,
         "x": 145.0,
         "y": 330.0
+      },
+      {
+        "id": 86400259,
+        "x": -16.0,
+        "y": -234.0
+      },
+      {
+        "id": 86400260,
+        "x": -16.0,
+        "y": -234.0
+      },
+      {
+        "id": 86400261,
+        "x": -16.0,
+        "y": -234.0
+      },
+      {
+        "id": 86400262,
+        "x": -16.0,
+        "y": -234.0
+      },
+      {
+        "id": 86400263,
+        "x": -16.0,
+        "y": -234.0
       }
     ],
     "isShowRep": true,
@@ -4259,12 +4304,14 @@
     "isInstance": false,
     "iconPath": "RolePlus/Tennie/Face",
     "nameIconPath": "UI/CityMap/citymap_icon_factory",
+    "frontIconPath": "",
     "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
     "animLoop": "UI_CityBtn_01_Loop",
     "animOut": "UI_CityBtn_01_Out",
     "activityId": -1,
     "startTime": "",
     "endTime": "",
+    "displayConditionsList": [],
     "unlockConditionsList": [
       {
         "condition": "LV",
@@ -4277,7 +4324,7 @@
     "btnType": "Other",
     "mId": -1,
     "uiPath": "UI/Home/WeaponCreate",
-    "buildingId": -1,
+    "buildingId": 84400234,
     "stationPlace": -1,
     "dialogId": -1,
     "dungeonId": -1,
@@ -7595,6 +7642,7 @@
     "isInstance": false,
     "iconPath": "RolePlus/Livia/Face",
     "nameIconPath": "",
+    "frontIconPath": "",
     "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
     "animLoop": "UI_CityBtn_01_Loop",
     "animOut": "UI_CityBtn_01_Out",
@@ -9814,6 +9862,206 @@
     "buildingId": -1,
     "stationPlace": 81500008,
     "dialogId": -1,
+    "dungeonId": -1,
+    "levelId": -1,
+    "textId": -1,
+    "npcId": -1,
+    "bgPath": "",
+    "bgColor": "FFFFFF"
+  },
+  {
+    "id": 86400259,
+    "idCN": "03气泡/C2修格里城S0/03逸闻/卡洛琳1",
+    "mod": "气泡",
+    "isInformalData": false,
+    "name": "卡洛琳",
+    "isSpecial": false,
+    "isInstance": false,
+    "iconPath": "RolePlus/Caroline/Face",
+    "nameIconPath": "",
+    "frontIconPath": "",
+    "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
+    "animLoop": "UI_CityBtn_01_Loop",
+    "animOut": "UI_CityBtn_01_Out",
+    "activityId": -1,
+    "startTime": "",
+    "endTime": "",
+    "displayConditionsList": [
+      {
+        "condition": "Questing",
+        "mId": 81001531,
+        "val": 0
+      }
+    ],
+    "unlockConditionsList": [],
+    "isLock": false,
+    "func": "OpenDialog",
+    "btnType": "Other",
+    "mId": -1,
+    "uiPath": "",
+    "buildingId": -1,
+    "stationPlace": -1,
+    "dialogId": 20700419,
+    "dungeonId": -1,
+    "levelId": -1,
+    "textId": -1,
+    "npcId": -1,
+    "bgPath": "",
+    "bgColor": "FFFFFF"
+  },
+  {
+    "id": 86400260,
+    "idCN": "03气泡/C2修格里城S0/03逸闻/卡洛琳2",
+    "mod": "气泡",
+    "isInformalData": false,
+    "name": "卡洛琳",
+    "isSpecial": false,
+    "isInstance": false,
+    "iconPath": "RolePlus/Caroline/Face",
+    "nameIconPath": "",
+    "frontIconPath": "",
+    "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
+    "animLoop": "UI_CityBtn_01_Loop",
+    "animOut": "UI_CityBtn_01_Out",
+    "activityId": -1,
+    "startTime": "",
+    "endTime": "",
+    "displayConditionsList": [
+      {
+        "condition": "Questing",
+        "mId": 81001532,
+        "val": 0
+      }
+    ],
+    "unlockConditionsList": [],
+    "isLock": false,
+    "func": "OpenDialog",
+    "btnType": "Other",
+    "mId": -1,
+    "uiPath": "",
+    "buildingId": -1,
+    "stationPlace": -1,
+    "dialogId": 20700385,
+    "dungeonId": -1,
+    "levelId": -1,
+    "textId": -1,
+    "npcId": -1,
+    "bgPath": "",
+    "bgColor": "FFFFFF"
+  },
+  {
+    "id": 86400261,
+    "idCN": "03气泡/C2修格里城S0/03逸闻/卡洛琳3",
+    "mod": "气泡",
+    "isInformalData": false,
+    "name": "卡洛琳",
+    "isSpecial": false,
+    "isInstance": false,
+    "iconPath": "RolePlus/Caroline/Face",
+    "nameIconPath": "",
+    "frontIconPath": "",
+    "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
+    "animLoop": "UI_CityBtn_01_Loop",
+    "animOut": "UI_CityBtn_01_Out",
+    "activityId": -1,
+    "startTime": "",
+    "endTime": "",
+    "displayConditionsList": [
+      {
+        "condition": "Questing",
+        "mId": 81001533,
+        "val": 0
+      }
+    ],
+    "unlockConditionsList": [],
+    "isLock": false,
+    "func": "OpenDialog",
+    "btnType": "Other",
+    "mId": -1,
+    "uiPath": "",
+    "buildingId": -1,
+    "stationPlace": -1,
+    "dialogId": 20700386,
+    "dungeonId": -1,
+    "levelId": -1,
+    "textId": -1,
+    "npcId": -1,
+    "bgPath": "",
+    "bgColor": "FFFFFF"
+  },
+  {
+    "id": 86400262,
+    "idCN": "03气泡/C2修格里城S0/03逸闻/卡洛琳4",
+    "mod": "气泡",
+    "isInformalData": false,
+    "name": "卡洛琳",
+    "isSpecial": false,
+    "isInstance": false,
+    "iconPath": "RolePlus/Caroline/Face",
+    "nameIconPath": "",
+    "frontIconPath": "",
+    "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
+    "animLoop": "UI_CityBtn_01_Loop",
+    "animOut": "UI_CityBtn_01_Out",
+    "activityId": -1,
+    "startTime": "",
+    "endTime": "",
+    "displayConditionsList": [
+      {
+        "condition": "Questing",
+        "mId": 81001534,
+        "val": 0
+      }
+    ],
+    "unlockConditionsList": [],
+    "isLock": false,
+    "func": "OpenDialog",
+    "btnType": "Other",
+    "mId": -1,
+    "uiPath": "",
+    "buildingId": -1,
+    "stationPlace": -1,
+    "dialogId": 20700388,
+    "dungeonId": -1,
+    "levelId": -1,
+    "textId": -1,
+    "npcId": -1,
+    "bgPath": "",
+    "bgColor": "FFFFFF"
+  },
+  {
+    "id": 86400263,
+    "idCN": "03气泡/C2修格里城S0/03逸闻/卡洛琳5",
+    "mod": "气泡",
+    "isInformalData": false,
+    "name": "卡洛琳",
+    "isSpecial": false,
+    "isInstance": false,
+    "iconPath": "RolePlus/Caroline/Face",
+    "nameIconPath": "",
+    "frontIconPath": "",
+    "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
+    "animLoop": "UI_CityBtn_01_Loop",
+    "animOut": "UI_CityBtn_01_Out",
+    "activityId": -1,
+    "startTime": "",
+    "endTime": "",
+    "displayConditionsList": [
+      {
+        "condition": "Questing",
+        "mId": 81001535,
+        "val": 0
+      }
+    ],
+    "unlockConditionsList": [],
+    "isLock": false,
+    "func": "OpenDialog",
+    "btnType": "Other",
+    "mId": -1,
+    "uiPath": "",
+    "buildingId": -1,
+    "stationPlace": -1,
+    "dialogId": 20700389,
     "dungeonId": -1,
     "levelId": -1,
     "textId": -1,

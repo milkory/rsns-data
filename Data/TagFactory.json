@@ -13814,7 +13814,7 @@
     "tagID": 0,
     "isShowDetail": true,
     "temptagNameRichText": "打断免疫",
-    "tagNameRichText": "<color=#FF6666>打断免疫</color>",
+    "tagNameRichText": "<color=#FF6666>打断</color>免疫",
     "detail": ""
   },
   {
@@ -13840,7 +13840,7 @@
     "tagID": 0,
     "isShowDetail": true,
     "temptagNameRichText": "击飞",
-    "tagNameRichText": "<color=#FF6666>击飞免疫</color>",
+    "tagNameRichText": "<color=#FF6666>击飞</color>",
     "detail": ""
   },
   {
@@ -13853,7 +13853,7 @@
     "tagID": 0,
     "isShowDetail": true,
     "temptagNameRichText": "击退免疫",
-    "tagNameRichText": "<color=#FF6666>击退免疫</color>",
+    "tagNameRichText": "<color=#FF6666>击退</color>免疫",
     "detail": "取消目标当前攻击，并将目标向后方击退一段距离，对大型敌方无效"
   },
   {
@@ -14472,8 +14472,8 @@
     "isInformalData": true,
     "icon": "UI/Prison/PrisonRoom/Res/MedicalRoom/MedicalRoom_yanzheng",
     "prisonerIll": "炎症",
-    "naturalHealthDecline": 10,
-    "naturalHealthReply": 8,
+    "naturalHealthDecline": 0,
+    "naturalHealthReply": 15,
     "eventHealthReply": 0
   },
   {
@@ -14482,9 +14482,9 @@
     "mod": "囚犯疾病",
     "isInformalData": true,
     "icon": "UI/Prison/PrisonRoom/Res/MedicalRoom/MedicalRoom_ganran",
-    "prisonerIll": "病3",
-    "naturalHealthDecline": 15,
-    "naturalHealthReply": 12,
+    "prisonerIll": "感染",
+    "naturalHealthDecline": 0,
+    "naturalHealthReply": 20,
     "eventHealthReply": 0
   },
   {
@@ -14494,8 +14494,8 @@
     "isInformalData": true,
     "icon": "UI/Prison/PrisonRoom/Res/MedicalRoom/MedicalRoom_gaore",
     "prisonerIll": "高热",
-    "naturalHealthDecline": 20,
-    "naturalHealthReply": 15,
+    "naturalHealthDecline": 0,
+    "naturalHealthReply": 25,
     "eventHealthReply": 0
   },
   {
@@ -14504,9 +14504,9 @@
     "mod": "囚犯疾病",
     "isInformalData": true,
     "icon": "UI/Prison/PrisonRoom/Res/MedicalRoom/MedicalRoom_xiuke",
-    "prisonerIll": "病5",
-    "naturalHealthDecline": 25,
-    "naturalHealthReply": 20,
+    "prisonerIll": "休克",
+    "naturalHealthDecline": 0,
+    "naturalHealthReply": 30,
     "eventHealthReply": 0
   },
   {
@@ -14518,7 +14518,7 @@
     "prisonerIll": "挫伤",
     "naturalHealthDecline": 0,
     "naturalHealthReply": 0,
-    "eventHealthReply": 4
+    "eventHealthReply": 10
   },
   {
     "id": 12601322,
@@ -14527,8 +14527,8 @@
     "isInformalData": true,
     "icon": "UI/Prison/PrisonRoom/Res/MedicalRoom/MedicalRoom_ganmao",
     "prisonerIll": "感冒",
-    "naturalHealthDecline": 5,
-    "naturalHealthReply": 4,
+    "naturalHealthDecline": 0,
+    "naturalHealthReply": 10,
     "eventHealthReply": 0
   },
   {
@@ -14540,7 +14540,7 @@
     "prisonerIll": "血肿",
     "naturalHealthDecline": 0,
     "naturalHealthReply": 0,
-    "eventHealthReply": 8
+    "eventHealthReply": 20
   },
   {
     "id": 12601325,
@@ -14551,7 +14551,7 @@
     "prisonerIll": "关节错位",
     "naturalHealthDecline": 0,
     "naturalHealthReply": 0,
-    "eventHealthReply": 12
+    "eventHealthReply": 30
   },
   {
     "id": 12601326,
@@ -14562,7 +14562,7 @@
     "prisonerIll": "骨折",
     "naturalHealthDecline": 0,
     "naturalHealthReply": 0,
-    "eventHealthReply": 15
+    "eventHealthReply": 40
   },
   {
     "id": 12601327,
@@ -14573,7 +14573,7 @@
     "prisonerIll": "出血",
     "naturalHealthDecline": 0,
     "naturalHealthReply": 0,
-    "eventHealthReply": 20
+    "eventHealthReply": 50
   },
   {
     "id": 12601297,
@@ -15453,5 +15453,46 @@
     "entryName": "纪念车票",
     "entryDes": "",
     "addNum": true
+  },
+  {
+    "id": 12601403,
+    "idCN": "战斗/敌方卡牌",
+    "mod": "标签",
+    "icon": "",
+    "tagName": "B+",
+    "tagID": 0,
+    "isShowDetail": false,
+    "temptagNameRichText": "",
+    "tagNameRichText": "",
+    "detail": ""
+  },
+  {
+    "id": 12601405,
+    "idCN": "战斗/角色技能/05/雅莱/A",
+    "mod": "标签",
+    "tagName": "A",
+    "tagID": 0,
+    "temptagNameRichText": ""
+  },
+  {
+    "id": 12601406,
+    "idCN": "战斗/角色技能/05/雅莱/S",
+    "mod": "标签",
+    "tagName": "A",
+    "tagID": 0,
+    "temptagNameRichText": ""
+  },
+  {
+    "id": 12601407,
+    "idCN": "战斗/词缀/05五星/雅莱/觉醒2-狂澜",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "RolePlus\\Jalhay\\Face",
+    "tagName": "狂澜",
+    "tagID": 0,
+    "isShowDetail": true,
+    "temptagNameRichText": "狂澜",
+    "tagNameRichText": "狂澜",
+    "detail": "使用【精神风暴】后，持续6秒内，每打出1张牌，【伴生体】消耗10点精力值释放1次精神脉冲，对敌方全体造成1段伤害，同时使敌方全体防御力下降1%，可叠加"
   }
 ]
