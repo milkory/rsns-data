@@ -11171,7 +11171,7 @@
     "name": "帮帮券",
     "viewId": -1,
     "quality": "Purple",
-    "des": "由整顿中心负责人帕拉笛亲自签发的“监视机器人！帮帮我吧！”凭证，简称帮帮券。\r可用于加速监狱升级建造或加速囚犯的生产过程。",
+    "des": "由整顿中心负责人帕拉笛亲自签发的“监视机器人！帮帮我吧！”凭证，简称帮帮券。\r可用于单独加速普通囚犯的生产，可加速<color=#FFB800>30分钟</color>。",
     "iconPath": "Item/item/Small/bangbangquan",
     "tipsPath": "Item/item/Big/bangbangquan",
     "buyPath": "Item/item/prisonDian",
@@ -11184,7 +11184,10 @@
     "saletype": "NotSale",
     "rewardList": [],
     "Getway": [],
-    "techPoints": 100
+    "techPoints": 100,
+    "skinID": -1,
+    "isDisplayInMaterialWare": false,
+    "isDisplayInFinishedlWare": false
   },
   {
     "id": 11400205,
@@ -11194,7 +11197,7 @@
     "name": "超级帮帮券",
     "viewId": -1,
     "quality": "Purple",
-    "des": "由整顿中心负责人帕拉笛亲自签发的“超级监视机器人！帮帮我吧！”凭证，简称超级帮帮券。\r可用于加速监狱升级建造或加速囚犯的生产过程。",
+    "des": "由整顿中心负责人帕拉笛亲自签发的“超级监视机器人！帮帮我吧！”凭证，简称超级帮帮券。\r可用于加速监狱升级建造或批量加速车间的生产，可加速<color=#FFB800>15分钟</color>。",
     "iconPath": "Item/item/Small/chaojibangbangquan",
     "tipsPath": "Item/item/Big/chaojibangbangquan",
     "buyPath": "Item/item/prisonDian",
@@ -11207,7 +11210,10 @@
     "saletype": "NotSale",
     "rewardList": [],
     "Getway": [],
-    "techPoints": 100
+    "techPoints": 100,
+    "skinID": -1,
+    "isDisplayInMaterialWare": false,
+    "isDisplayInFinishedlWare": false
   },
   {
     "id": 11400113,
@@ -14550,6 +14556,41 @@
       }
     ],
     "drawing": 84900089,
+    "techPoints": 100,
+    "skinID": -1,
+    "isDisplayInMaterialWare": false,
+    "isDisplayInFinishedlWare": false
+  },
+  {
+    "id": 11400340,
+    "idCN": "5制造书/制造工作台/宝石工艺品制作宝典",
+    "mod": "图纸道具",
+    "isInformalData": false,
+    "name": "宝石工艺品制作宝典",
+    "viewId": -1,
+    "quality": "Golden",
+    "des": "记录了<color=#FFB800>宝石工艺品</color>制作流程的文件，使用后能够在【制造工作台】上将<color=#FFB800>玛瑙</color>、<color=#FFB800>绿松石</color>、<color=#FFB800>孔雀石</color>、<color=#FFB800>银矿石</color>以及<color=#FFB800>曼德工具箱</color>制作成<color=#FFB800>宝石工艺品</color>。",
+    "iconPath": "Item/item/Small/Book_Worktable",
+    "tipsPath": "Item/item/Big/Book_Worktable",
+    "buyPath": "",
+    "textIcon": "",
+    "breakPath": "Item/Goods/Small/baoshigongyiping",
+    "sort": 0,
+    "isShowNum": true,
+    "isNotDisplayInBag": false,
+    "endTime": "",
+    "saletype": "NotSale",
+    "rewardList": [],
+    "Getway": [
+      {
+        "DisplayName": "虚演刻录-兑换商店",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": -1
+      }
+    ],
+    "drawing": 84900081,
     "techPoints": 100,
     "skinID": -1,
     "isDisplayInMaterialWare": false,
