@@ -4227,14 +4227,16 @@
     "path": "RolePlus\\00Gift\\Square\\WuYing",
     "attriDetialList": [],
     "attributeList": [],
-    "tempdesc": "每次使用自身红卡后，使自身【隐形】，持续3秒",
-    "desc": "每次使用自身红卡后，使自身<color=#7AB2FF>【隐形】</color>，持续3秒",
+    "tempdesc": "每次使用自身技能牌后，使自身【隐形】，持续3秒",
+    "desc": "每次使用自身技能牌后，使自身<color=#7AB2FF>【隐形】</color>，持续3秒",
     "awakeLv": 2,
     "skillList": [
       {
         "skillId": 12301007
       }
     ],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
     "name": "无影"
   },
   {
@@ -4248,13 +4250,15 @@
     "tempdesc": "【隐形】的持续时间延长2秒",
     "desc": "<color=#7AB2FF>【隐形】</color>的持续时间延长2秒",
     "awakeLv": 3,
-    "skillList": [
+    "skillList": [],
+    "skillChangeList": [],
+    "skillParamOffsetList": [
       {
-        "skillId": 12300386
+        "skillId": -1,
+        "tag": "exYinXingT",
+        "value_SN": 1200000
       }
     ],
-    "skillChangeList": [],
-    "skillParamOffsetList": [],
     "name": "无形"
   },
   {
@@ -4283,8 +4287,8 @@
     "path": "RolePlus\\00Gift\\Golden\\XinYan",
     "attriDetialList": [],
     "attributeList": [],
-    "tempdesc": "使用【开眼】后，使自身【隐形】，同时下1张自身红卡必定触发【崩坏】",
-    "desc": "使用【开眼】后，使自身<color=#7AB2FF>【隐形】</color>，同时下1张自身红卡必定触发<color=#FF6666>【崩坏】</color>",
+    "tempdesc": "隼的【普通攻击】和【无常】追加【弹射】效果",
+    "desc": "隼的【普通攻击】和【无常】追加<color=#FF6666>【弹射】</color>效果",
     "awakeLv": 6,
     "skillList": [
       {
@@ -8858,8 +8862,8 @@
     "path": "RolePlus\\00Gift\\Square\\KanBuJianDePengYou",
     "attriDetialList": [],
     "attributeList": [],
-    "tempdesc": "【伴生体】拥有200点精力值上限，同时开始【普通攻击】\\n雅莱和【伴生体】每次攻击命中时获得1点精力值\\n每次获得卡牌时获得1点精力值\\n每点精力值使雅莱和【伴生体】的【普通攻击】伤害提高1%",
-    "desc": "【伴生体】拥有200点精力值上限，同时开始【普通攻击】\\n雅莱和【伴生体】每次攻击命中时获得1点精力值\\n每次获得卡牌时获得1点精力值\\n每点精力值使雅莱和【伴生体】的【普通攻击】伤害提高1%",
+    "tempdesc": "【伴生体】拥有200点精力值上限，同时开始【普通攻击】\\n雅莱和【伴生体】每次攻击命中时获得1点精力值\\n每次获得卡牌时获得2点精力值\\n每点精力值使雅莱和【伴生体】的【普通攻击】伤害提高1%",
+    "desc": "【伴生体】拥有200点精力值上限，同时开始【普通攻击】\\n雅莱和【伴生体】每次攻击命中时获得1点精力值\\n每次获得卡牌时获得2点精力值\\n每点精力值使雅莱和【伴生体】的【普通攻击】伤害提高1%",
     "awakeLv": 2,
     "skillList": [
       {
@@ -8868,7 +8872,7 @@
     ],
     "skillChangeList": [],
     "skillParamOffsetList": [],
-    "name": ""
+    "name": "“看不见的朋友”"
   },
   {
     "id": 12800509,
@@ -8888,7 +8892,7 @@
     ],
     "skillChangeList": [],
     "skillParamOffsetList": [],
-    "name": ""
+    "name": "馈赠"
   },
   {
     "id": 12800511,
@@ -8908,7 +8912,7 @@
     ],
     "skillChangeList": [],
     "skillParamOffsetList": [],
-    "name": ""
+    "name": "无瑕体"
   },
   {
     "id": 12800512,
@@ -8929,7 +8933,7 @@
       }
     ],
     "skillParamOffsetList": [],
-    "name": ""
+    "name": "精神压制"
   },
   {
     "id": 12800510,

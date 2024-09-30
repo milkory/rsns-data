@@ -467,7 +467,7 @@
   },
   {
     "id": 84400011,
-    "idCN": "01铁安局/海角城",
+    "idCN": "01铁安局/海角城-不能配NPC",
     "mod": "铁安局",
     "isInformalData": false,
     "name": "",
@@ -489,6 +489,24 @@
         "eventType": "Dialog",
         "isAuto": false,
         "questId": 81001321,
+        "startTime": ""
+      },
+      {
+        "activityId": -1,
+        "endTime": "",
+        "eventId": 20700480,
+        "eventType": "Dialog",
+        "isAuto": false,
+        "questId": 81001573,
+        "startTime": ""
+      },
+      {
+        "activityId": -1,
+        "endTime": "",
+        "eventId": 20101146,
+        "eventType": "Level",
+        "isAuto": false,
+        "questId": 81001575,
         "startTime": ""
       }
     ],
@@ -1646,7 +1664,7 @@
     "bgPath": "",
     "bgColor": "FFFFFF",
     "stationId": 83000001,
-    "npcId": -1,
+    "npcId": 83700014,
     "helpId": -1,
     "rankId": -1,
     "correspondingActivity": -1,
@@ -16826,6 +16844,7 @@
         "id": 80302555
       }
     ],
+    "orderPrison": 80302555,
     "refreshOrderPrisonTime": 300,
     "orderTimes": 8
   },
@@ -59244,5 +59263,66 @@
     ],
     "initCOCQuestList": [],
     "cocStoreList": []
+  },
+  {
+    "id": 84400235,
+    "idCN": "市政厅/海角城",
+    "mod": "动态建筑",
+    "isInformalData": false,
+    "name": "市政厅",
+    "buildingIconPath": "UI/Common/HomeInvest_shi_icon",
+    "firstPlotId": -1,
+    "uiPath": "",
+    "bgPath": "",
+    "bgColor": "FFFFFF",
+    "stationId": 83000002,
+    "npcId": 83700032,
+    "helpId": -1,
+    "rankId": -1,
+    "correspondingActivity": -1,
+    "eventList": [
+      {
+        "activityId": -1,
+        "endTime": "",
+        "eventId": 20700479,
+        "eventType": "Dialog",
+        "isAuto": false,
+        "questId": 81001572,
+        "startTime": ""
+      }
+    ],
+    "openPageList": []
+  },
+  {
+    "id": 84400236,
+    "idCN": "休息区/海角城",
+    "mod": "酒吧",
+    "isInformalData": false,
+    "name": "休息区",
+    "buildingIconPath": "UI/Home/BarStore/icon_rest",
+    "firstPlotId": -1,
+    "uiPath": "",
+    "bgPath": "",
+    "bgColor": "FFFFFF",
+    "stationId": 83000002,
+    "npcId": 83700004,
+    "helpId": -1,
+    "rankId": -1,
+    "correspondingActivity": -1,
+    "eventList": [
+      {
+        "activityId": -1,
+        "endTime": "",
+        "eventId": 20101145,
+        "eventType": "Level",
+        "isAuto": false,
+        "questId": 81001574,
+        "startTime": ""
+      }
+    ],
+    "limitNum": 3,
+    "drinkCost": [],
+    "barStoreList": [],
+    "drinkVideo": ""
   }
 ]

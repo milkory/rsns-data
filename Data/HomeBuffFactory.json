@@ -1456,23 +1456,56 @@
     "buffType": "WorkingHoursDec",
     "param": -1.0,
     "paramList": [
-      {},
-      {},
-      {}
-    ]
+      {
+        "probabilityParam": 0.05,
+        "programme": 1
+      },
+      {
+        "probabilityParam": 0.05,
+        "programme": 2
+      },
+      {
+        "probabilityParam": 0.05,
+        "programme": 4
+      },
+      {
+        "probabilityParam": 0.05,
+        "programme": 8
+      }
+    ],
+    "probabilityParamClient": 5.0
   },
   {
     "id": 84100129,
-    "idCN": "监狱Buff/特长buff/纺织",
+    "idCN": "监狱Buff/特长buff/剪裁",
     "mod": "囚犯特长",
     "isInformalData": false,
-    "name": "纺织类额外生产量增加",
-    "desc": "纺织类额外生产量增加%d",
+    "name": "纺织品额外生产率提高",
+    "desc": "纺织品额外生产率提高<color=#0CB7E5>%d%%</color>",
     "continueTime": -1,
     "showIcon": "",
     "buffType": "ExtraOutputAdd",
     "param": -1.0,
-    "formulaType": "Textile"
+    "formulaType": "Textile",
+    "paramList": [
+      {
+        "probabilityParam": 0.02,
+        "programme": 1
+      },
+      {
+        "probabilityParam": 0.02,
+        "programme": 2
+      },
+      {
+        "probabilityParam": 0.02,
+        "programme": 4
+      },
+      {
+        "probabilityParam": 0.02,
+        "programme": 8
+      }
+    ],
+    "probabilityParamClient": 2.0
   },
   {
     "id": 84100131,
@@ -1486,10 +1519,24 @@
     "buffType": "ExtraOutputAdd",
     "param": -1.0,
     "paramList": [
-      {},
-      {},
-      {}
-    ]
+      {
+        "probabilityParam": 0.03,
+        "programme": 1
+      },
+      {
+        "probabilityParam": 0.03,
+        "programme": 2
+      },
+      {
+        "probabilityParam": 0.03,
+        "programme": 4
+      },
+      {
+        "probabilityParam": 0.03,
+        "programme": 8
+      }
+    ],
+    "probabilityParamClient": 3.0
   },
   {
     "id": 84100133,
@@ -1497,16 +1544,30 @@
     "mod": "监狱相关",
     "isInformalData": false,
     "name": "质量监控",
-    "desc": "生产成品增加<color=#0CB7E5>%d</color>",
+    "desc": "额外生产率提高<color=#0CB7E5>%d%%</color>",
     "continueTime": -1,
     "showIcon": "",
-    "buffType": "OutputAdd",
+    "buffType": "ExtraOutputAdd",
     "param": -1.0,
     "paramList": [
-      {},
-      {},
-      {}
-    ]
+      {
+        "probabilityParam": 0.02,
+        "programme": 1
+      },
+      {
+        "probabilityParam": 0.02,
+        "programme": 2
+      },
+      {
+        "probabilityParam": 0.02,
+        "programme": 4
+      },
+      {
+        "probabilityParam": 0.02,
+        "programme": 8
+      }
+    ],
+    "probabilityParamClient": 2.0
   },
   {
     "id": 84100139,
@@ -1520,10 +1581,24 @@
     "buffType": "AccidentRateDec",
     "param": -1.0,
     "paramList": [
-      {},
-      {},
-      {}
-    ]
+      {
+        "probabilityParam": 5.0,
+        "programme": 1
+      },
+      {
+        "probabilityParam": 5.0,
+        "programme": 2
+      },
+      {
+        "probabilityParam": 5.0,
+        "programme": 4
+      },
+      {
+        "probabilityParam": 5.0,
+        "programme": 8
+      }
+    ],
+    "probabilityParamClient": 5.0
   },
   {
     "id": 84100140,
@@ -1756,16 +1831,35 @@
   },
   {
     "id": 84100127,
-    "idCN": "监狱Buff/特长buff/缝补",
+    "idCN": "监狱Buff/特长buff/织造",
     "mod": "囚犯特长",
     "isInformalData": false,
-    "name": "缝补类额外生产量增加",
-    "desc": "缝补类额外生产量增加%d",
+    "name": "布料额外生产率提高",
+    "desc": "布料额外生产率提高<color=#0CB7E5>%d%%</color>",
     "continueTime": -1,
     "showIcon": "",
     "buffType": "ExtraOutputAdd",
     "param": -1.0,
-    "formulaType": "Stitching"
+    "formulaType": "Stitching",
+    "paramList": [
+      {
+        "probabilityParam": 0.02,
+        "programme": 1
+      },
+      {
+        "probabilityParam": 0.02,
+        "programme": 2
+      },
+      {
+        "probabilityParam": 0.02,
+        "programme": 4
+      },
+      {
+        "probabilityParam": 0.02,
+        "programme": 8
+      }
+    ],
+    "probabilityParamClient": 2.0
   },
   {
     "id": 84100128,

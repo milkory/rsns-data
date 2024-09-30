@@ -5353,6 +5353,13 @@
         "funcId": -1
       },
       {
+        "DisplayName": "整顿中心-兑换商店",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": -1
+      },
+      {
         "DisplayName": "环游手册",
         "FromLevel": -1,
         "UIName": "UI/BP_Quest/BattlePass_Quest",
@@ -5628,20 +5635,21 @@
     "tipsPath": "Item/item/Big/PetBag",
     "buyPath": "",
     "textIcon": "",
+    "breakPath": "Item/Pet/Small/Jumao",
     "sort": 0,
-    "isNotDisplayInBag": false,
     "isShowNum": true,
+    "isNotDisplayInBag": false,
+    "isCompose": false,
+    "containEquipment": false,
     "batchUsetype": "Other",
     "useLimitNum": 10,
     "isTiredItem": false,
-    "containEquipment": false,
-    "isCompose": false,
     "isDrinkItem": false,
     "drinkNum": 3,
     "isBattlePassItem": false,
     "BattlePassType": "Low",
-    "breakPath": "Item/Pet/Small/Jumao",
     "uiPath": "",
+    "plotAfter": -1,
     "endTime": "",
     "limitedTime": 0,
     "saletype": "NotSale",
@@ -5662,7 +5670,11 @@
         "funcId": 100
       }
     ],
-    "gettipstype": "Pet"
+    "gettipstype": "Pet",
+    "techPoints": 100,
+    "skinID": -1,
+    "isDisplayInMaterialWare": false,
+    "isDisplayInFinishedlWare": false
   },
   {
     "id": 11400051,
@@ -7430,7 +7442,7 @@
   },
   {
     "id": 11400264,
-    "idCN": "监狱/通缉令",
+    "idCN": "整顿中心/通缉令",
     "mod": "基础道具",
     "isInformalData": false,
     "name": "通缉令",
@@ -7452,13 +7464,13 @@
   },
   {
     "id": 11400265,
-    "idCN": "监狱/逮捕令",
+    "idCN": "整顿中心/逮捕令",
     "mod": "基础道具",
     "isInformalData": false,
     "name": "逮捕令",
     "viewId": -1,
-    "quality": "Purple",
-    "des": "逮捕令",
+    "quality": "Blue",
+    "des": "铁盟颁发的逮捕令，用于逮捕囚犯。\\n在任意有人形单位的关卡作战结束后才可使用。\\n巨大体型，虚演刻录，试用关卡等除外。",
     "iconPath": "Item\\item\\Small\\daibuling",
     "tipsPath": "Item\\item\\Big\\daibuling",
     "buyPath": "",
@@ -7477,8 +7489,19 @@
         "UIName": "",
         "Way3": "",
         "funcId": -1
+      },
+      {
+        "DisplayName": "整顿中心-兑换商店",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": -1
       }
-    ]
+    ],
+    "techPoints": 100,
+    "skinID": -1,
+    "isDisplayInMaterialWare": false,
+    "isDisplayInFinishedlWare": false
   },
   {
     "id": 11400266,
@@ -11165,12 +11188,12 @@
   },
   {
     "id": 11400142,
-    "idCN": "监狱/帮帮券",
+    "idCN": "整顿中心/帮帮券",
     "mod": "基础道具",
     "isInformalData": false,
     "name": "帮帮券",
     "viewId": -1,
-    "quality": "Purple",
+    "quality": "Blue",
     "des": "由整顿中心负责人帕拉笛亲自签发的“监视机器人！帮帮我吧！”凭证，简称帮帮券。\r可用于单独加速普通囚犯的生产，可加速<color=#FFB800>30分钟</color>。",
     "iconPath": "Item/item/Small/bangbangquan",
     "tipsPath": "Item/item/Big/bangbangquan",
@@ -11183,7 +11206,15 @@
     "endTime": "",
     "saletype": "NotSale",
     "rewardList": [],
-    "Getway": [],
+    "Getway": [
+      {
+        "DisplayName": "整顿中心-兑换商店",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": -1
+      }
+    ],
     "techPoints": 100,
     "skinID": -1,
     "isDisplayInMaterialWare": false,
@@ -11191,13 +11222,13 @@
   },
   {
     "id": 11400205,
-    "idCN": "监狱/超级帮帮券",
+    "idCN": "整顿中心/超级帮帮券",
     "mod": "基础道具",
     "isInformalData": false,
     "name": "超级帮帮券",
     "viewId": -1,
     "quality": "Purple",
-    "des": "由整顿中心负责人帕拉笛亲自签发的“超级监视机器人！帮帮我吧！”凭证，简称超级帮帮券。\r可用于加速监狱升级建造或批量加速车间的生产，可加速<color=#FFB800>15分钟</color>。",
+    "des": "由整顿中心负责人帕拉笛亲自签发的“超级监视机器人！帮帮我吧！”凭证，简称超级帮帮券。\r可用于加速监狱升级建造或批量加速车间的生产，可加速<color=#FFB800>30分钟</color>。",
     "iconPath": "Item/item/Small/chaojibangbangquan",
     "tipsPath": "Item/item/Big/chaojibangbangquan",
     "buyPath": "Item/item/prisonDian",
@@ -11209,7 +11240,15 @@
     "endTime": "",
     "saletype": "NotSale",
     "rewardList": [],
-    "Getway": [],
+    "Getway": [
+      {
+        "DisplayName": "整顿中心-兑换商店",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": -1
+      }
+    ],
     "techPoints": 100,
     "skinID": -1,
     "isDisplayInMaterialWare": false,
@@ -12575,12 +12614,12 @@
     "name": "羽绒取制法",
     "viewId": -1,
     "quality": "Blue",
-    "des": "记录了<color=#FFB800>羽绒</color>织造流程的文件，使用后能够在【车载缝纫机】上将<color=#FFB800>鹅</color>织造制成<color=#FFB800>羽绒</color>。",
+    "des": "记录了<color=#FFB800>羽绒</color>织造流程的文件，使用后能够在【车载缝纫机】上将<color=#FFB800>鸭</color>取毛制成<color=#FFB800>羽绒</color>。",
     "iconPath": "Item/item/Small/Book_SewingMachine",
     "tipsPath": "Item/item/Big/Book_SewingMachine",
     "buyPath": "",
     "textIcon": "",
-    "breakPath": "Item/Goods/Small/yurong",
+    "breakPath": "Item/Goods/Small/yumao",
     "sort": 0,
     "isShowNum": true,
     "isNotDisplayInBag": false,
@@ -12589,7 +12628,7 @@
     "rewardList": [],
     "Getway": [
       {
-        "DisplayName": "云岫桥基地-整顿中心-研发",
+        "DisplayName": "云岫桥基地-整顿中心-研发中心LV5兑换",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -12610,7 +12649,7 @@
     "name": "羊毛取制法",
     "viewId": -1,
     "quality": "Purple",
-    "des": "记录了<color=#FFB800>羊毛</color>织造流程的文件，使用后能够在【车载缝纫机】上将<color=#FFB800>绵羊</color>织造制成<color=#FFB800>羊毛</color>。",
+    "des": "记录了<color=#FFB800>羊毛</color>织造流程的文件，使用后能够在【车载缝纫机】上将<color=#FFB800>绵羊</color>取毛制成<color=#FFB800>羊毛</color>。",
     "iconPath": "Item/item/Small/Book_SewingMachine",
     "tipsPath": "Item/item/Big/Book_SewingMachine",
     "buyPath": "",
@@ -12624,7 +12663,7 @@
     "rewardList": [],
     "Getway": [
       {
-        "DisplayName": "云岫桥基地-整顿中心-研发",
+        "DisplayName": "云岫桥基地-整顿中心-研发中心LV15兑换",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -12645,7 +12684,7 @@
     "name": "羊绒取制法",
     "viewId": -1,
     "quality": "Golden",
-    "des": "记录了<color=#FFB800>羊绒</color>织造流程的文件，使用后能够在【车载缝纫机】上将<color=#FFB800>山羊</color>织造制成<color=#FFB800>羊绒</color>。",
+    "des": "记录了<color=#FFB800>羊绒</color>织造流程的文件，使用后能够在【车载缝纫机】上将<color=#FFB800>山羊</color>取毛制成<color=#FFB800>羊绒</color>。",
     "iconPath": "Item/item/Small/Book_SewingMachine",
     "tipsPath": "Item/item/Big/Book_SewingMachine",
     "buyPath": "",
@@ -12694,7 +12733,7 @@
     "rewardList": [],
     "Getway": [
       {
-        "DisplayName": "云岫桥基地-整顿中心-研发",
+        "DisplayName": "云岫桥基地-整顿中心-研发中心LV4兑换",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -12729,7 +12768,7 @@
     "rewardList": [],
     "Getway": [
       {
-        "DisplayName": "云岫桥基地-整顿中心-研发",
+        "DisplayName": "云岫桥基地-整顿中心-研发中心LV2兑换",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -12764,7 +12803,7 @@
     "rewardList": [],
     "Getway": [
       {
-        "DisplayName": "云岫桥基地-整顿中心-研发",
+        "DisplayName": "云岫桥基地-整顿中心-研发中心LV6兑换",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -12799,7 +12838,7 @@
     "rewardList": [],
     "Getway": [
       {
-        "DisplayName": "云岫桥基地-整顿中心-研发",
+        "DisplayName": "云岫桥基地-整顿中心-研发中心LV8兑换",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -12834,7 +12873,7 @@
     "rewardList": [],
     "Getway": [
       {
-        "DisplayName": "云岫桥基地-整顿中心-研发",
+        "DisplayName": "云岫桥基地-整顿中心-研发中心LV24兑换",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -12869,7 +12908,7 @@
     "rewardList": [],
     "Getway": [
       {
-        "DisplayName": "云岫桥基地-整顿中心-研发",
+        "DisplayName": "云岫桥基地-整顿中心-研发中心LV10兑换",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -12939,7 +12978,7 @@
     "rewardList": [],
     "Getway": [
       {
-        "DisplayName": "云岫桥基地-整顿中心-研发",
+        "DisplayName": "云岫桥基地-整顿中心-研发中心LV32兑换",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -12974,7 +13013,7 @@
     "rewardList": [],
     "Getway": [
       {
-        "DisplayName": "云岫桥基地-整顿中心-研发",
+        "DisplayName": "云岫桥基地-整顿中心-研发中心LV3兑换",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -13079,7 +13118,7 @@
     "rewardList": [],
     "Getway": [
       {
-        "DisplayName": "云岫桥基地-整顿中心-研发",
+        "DisplayName": "云岫桥基地-整顿中心-研发中心LV12兑换",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -13114,7 +13153,7 @@
     "rewardList": [],
     "Getway": [
       {
-        "DisplayName": "云岫桥基地-整顿中心-研发",
+        "DisplayName": "云岫桥基地-整顿中心-研发中心LV20兑换",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -13149,7 +13188,7 @@
     "rewardList": [],
     "Getway": [
       {
-        "DisplayName": "云岫桥基地-整顿中心-研发",
+        "DisplayName": "云岫桥基地-整顿中心-研发中心LV16兑换",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -13184,7 +13223,7 @@
     "rewardList": [],
     "Getway": [
       {
-        "DisplayName": "云岫桥基地-整顿中心-研发",
+        "DisplayName": "云岫桥基地-整顿中心-研发中心LV18兑换",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -13219,7 +13258,7 @@
     "rewardList": [],
     "Getway": [
       {
-        "DisplayName": "云岫桥基地-整顿中心-研发",
+        "DisplayName": "云岫桥基地-整顿中心-研发中心LV28兑换",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -13254,7 +13293,7 @@
     "rewardList": [],
     "Getway": [
       {
-        "DisplayName": "云岫桥基地-整顿中心-研发",
+        "DisplayName": "云岫桥基地-整顿中心-研发中心LV21兑换",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -13289,7 +13328,7 @@
     "rewardList": [],
     "Getway": [
       {
-        "DisplayName": "云岫桥基地-整顿中心-研发",
+        "DisplayName": "云岫桥基地-整顿中心-研发中心LV22兑换",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -13324,7 +13363,7 @@
     "rewardList": [],
     "Getway": [
       {
-        "DisplayName": "云岫桥基地-整顿中心-研发",
+        "DisplayName": "云岫桥基地-整顿中心-研发中心LV30兑换",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -13359,7 +13398,7 @@
     "rewardList": [],
     "Getway": [
       {
-        "DisplayName": "云岫桥基地-整顿中心-研发",
+        "DisplayName": "云岫桥基地-整顿中心-研发中心LV34兑换",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -13394,7 +13433,7 @@
     "rewardList": [],
     "Getway": [
       {
-        "DisplayName": "云岫桥基地-整顿中心-研发",
+        "DisplayName": "云岫桥基地-整顿中心-研发中心LV38兑换",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -13429,7 +13468,7 @@
     "rewardList": [],
     "Getway": [
       {
-        "DisplayName": "云岫桥基地-整顿中心-研发",
+        "DisplayName": "云岫桥基地-整顿中心-研发中心LV46兑换",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -13464,7 +13503,7 @@
     "rewardList": [],
     "Getway": [
       {
-        "DisplayName": "云岫桥基地-整顿中心-研发",
+        "DisplayName": "云岫桥基地-整顿中心-研发中心LV26兑换",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -13499,7 +13538,7 @@
     "rewardList": [],
     "Getway": [
       {
-        "DisplayName": "云岫桥基地-整顿中心-研发",
+        "DisplayName": "云岫桥基地-整顿中心-研发中心LV36兑换",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -13534,7 +13573,7 @@
     "rewardList": [],
     "Getway": [
       {
-        "DisplayName": "云岫桥基地-整顿中心-研发",
+        "DisplayName": "云岫桥基地-整顿中心-研发中心LV37兑换",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -13569,7 +13608,7 @@
     "rewardList": [],
     "Getway": [
       {
-        "DisplayName": "云岫桥基地-整顿中心-研发",
+        "DisplayName": "云岫桥基地-整顿中心-研发中心LV50兑换",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -13604,7 +13643,7 @@
     "rewardList": [],
     "Getway": [
       {
-        "DisplayName": "云岫桥基地-整顿中心-研发",
+        "DisplayName": "云岫桥基地-整顿中心-研发中心LV44兑换",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -13639,7 +13678,7 @@
     "rewardList": [],
     "Getway": [
       {
-        "DisplayName": "云岫桥基地-整顿中心-研发",
+        "DisplayName": "云岫桥基地-整顿中心-研发中心LV48兑换",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -13674,7 +13713,7 @@
     "rewardList": [],
     "Getway": [
       {
-        "DisplayName": "云岫桥基地-整顿中心-研发",
+        "DisplayName": "云岫桥基地-整顿中心-研发中心LV52兑换",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -13709,7 +13748,7 @@
     "rewardList": [],
     "Getway": [
       {
-        "DisplayName": "云岫桥基地-整顿中心-研发",
+        "DisplayName": "云岫桥基地-整顿中心-研发中心LV54兑换",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -13744,7 +13783,7 @@
     "rewardList": [],
     "Getway": [
       {
-        "DisplayName": "云岫桥基地-整顿中心-研发",
+        "DisplayName": "云岫桥基地-整顿中心-研发中心LV56兑换",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -13805,7 +13844,7 @@
     "tipsPath": "Item/item/Big/Book_SewingMachine",
     "buyPath": "",
     "textIcon": "",
-    "breakPath": "Item/Goods/Small/lanxinmianfu",
+    "breakPath": "Item/Goods/Small/lanxinjinfu",
     "sort": 0,
     "isShowNum": true,
     "isNotDisplayInBag": false,
@@ -13814,7 +13853,7 @@
     "rewardList": [],
     "Getway": [
       {
-        "DisplayName": "云岫桥基地-整顿中心-研发",
+        "DisplayName": "云岫桥基地-整顿中心-研发中心LV60兑换",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -13849,7 +13888,7 @@
     "rewardList": [],
     "Getway": [
       {
-        "DisplayName": "云岫桥基地-整顿中心-研发",
+        "DisplayName": "云岫桥基地-整顿中心-研发中心LV58兑换",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -13884,7 +13923,7 @@
     "rewardList": [],
     "Getway": [
       {
-        "DisplayName": "云岫桥基地-整顿中心-研发",
+        "DisplayName": "云岫桥基地-整顿中心-研发中心LV42兑换",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -13919,7 +13958,7 @@
     "rewardList": [],
     "Getway": [
       {
-        "DisplayName": "云岫桥基地-整顿中心-研发",
+        "DisplayName": "云岫桥基地-整顿中心-研发中心LV40兑换",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -14093,7 +14132,7 @@
     "rewardList": [],
     "Getway": [
       {
-        "DisplayName": "云岫桥基地-整顿中心-研发",
+        "DisplayName": "云岫桥基地-整顿中心-研发中心LV3解锁",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -14128,7 +14167,7 @@
     "rewardList": [],
     "Getway": [
       {
-        "DisplayName": "云岫桥基地-整顿中心-研发",
+        "DisplayName": "云岫桥基地-整顿中心-研发中心LV13解锁",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -14163,7 +14202,7 @@
     "rewardList": [],
     "Getway": [
       {
-        "DisplayName": "云岫桥基地-整顿中心-研发",
+        "DisplayName": "云岫桥基地-整顿中心-研发中心LV23解锁",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -14198,7 +14237,7 @@
     "rewardList": [],
     "Getway": [
       {
-        "DisplayName": "云岫桥基地-整顿中心-研发",
+        "DisplayName": "云岫桥基地-整顿中心-研发中心LV33解锁",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -14233,7 +14272,7 @@
     "rewardList": [],
     "Getway": [
       {
-        "DisplayName": "云岫桥基地-整顿中心-研发",
+        "DisplayName": "云岫桥基地-整顿中心-研发中心LV43解锁",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -14248,7 +14287,7 @@
   },
   {
     "id": 11400345,
-    "idCN": "5制造书/车载缝纫机/原料配方/化纤-太空棉",
+    "idCN": "5制造书/车载缝纫机/原料配方/化纤-太空棉制造法",
     "mod": "图纸道具",
     "isInformalData": false,
     "name": "太空棉制造法",
@@ -14268,7 +14307,7 @@
     "rewardList": [],
     "Getway": [
       {
-        "DisplayName": "云岫桥基地-整顿中心-研发",
+        "DisplayName": "云岫桥基地-整顿中心-研发中心LV53解锁",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -14283,13 +14322,13 @@
   },
   {
     "id": 11400346,
-    "idCN": "5制造书/车载缝纫机/原料配方/植物-棉花制造法",
+    "idCN": "5制造书/车载缝纫机/原料配方/植物-棉花采制法",
     "mod": "图纸道具",
     "isInformalData": false,
-    "name": "棉花制造法",
+    "name": "棉花采制法",
     "viewId": -1,
     "quality": "Blue",
-    "des": "记录了<color=#FFB800>棉花</color>制造流程的文件，使用后能够在【植物纤维车间】中制造<color=#FFB800>棉花</color>。",
+    "des": "记录了<color=#FFB800>棉花</color>制造流程的文件，使用后能够在【植物纤维车间】中生产<color=#FFB800>棉花</color>。",
     "iconPath": "Item/item/Small/Book_SewingMachine",
     "tipsPath": "Item/item/Big/Book_SewingMachine",
     "buyPath": "",
@@ -14303,7 +14342,7 @@
     "rewardList": [],
     "Getway": [
       {
-        "DisplayName": "云岫桥基地-整顿中心-研发",
+        "DisplayName": "云岫桥基地-整顿中心-研发中心LV4解锁",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -14318,13 +14357,13 @@
   },
   {
     "id": 11400347,
-    "idCN": "5制造书/车载缝纫机/原料配方/植物-亚麻制造法",
+    "idCN": "5制造书/车载缝纫机/原料配方/植物-亚麻织造法",
     "mod": "图纸道具",
     "isInformalData": false,
-    "name": "亚麻制造法",
+    "name": "亚麻织造法",
     "viewId": -1,
     "quality": "Blue",
-    "des": "记录了<color=#FFB800>亚麻</color>制造流程的文件，使用后能够在【植物纤维车间】中制造<color=#FFB800>亚麻</color>。",
+    "des": "记录了<color=#FFB800>亚麻</color>制造流程的文件，使用后能够在【植物纤维车间】中生产<color=#FFB800>亚麻</color>。",
     "iconPath": "Item/item/Small/Book_SewingMachine",
     "tipsPath": "Item/item/Big/Book_SewingMachine",
     "buyPath": "",
@@ -14338,7 +14377,7 @@
     "rewardList": [],
     "Getway": [
       {
-        "DisplayName": "云岫桥基地-整顿中心-研发",
+        "DisplayName": "云岫桥基地-整顿中心-研发中心LV14解锁",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -14373,7 +14412,7 @@
     "rewardList": [],
     "Getway": [
       {
-        "DisplayName": "云岫桥基地-整顿中心-研发",
+        "DisplayName": "云岫桥基地-整顿中心-研发中心LV2解锁",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -14408,7 +14447,7 @@
     "rewardList": [],
     "Getway": [
       {
-        "DisplayName": "云岫桥基地-整顿中心-研发",
+        "DisplayName": "云岫桥基地-整顿中心-研发中心LV12解锁",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -14443,7 +14482,7 @@
     "rewardList": [],
     "Getway": [
       {
-        "DisplayName": "云岫桥基地-整顿中心-研发",
+        "DisplayName": "云岫桥基地-整顿中心-研发中心LV5解锁",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -14464,7 +14503,7 @@
     "name": "羊毛取制法",
     "viewId": -1,
     "quality": "Purple",
-    "des": "记录了<color=#FFB800>羊毛</color>取制流程的文件，使用后能够在【动物纤维车间】中制造<color=#FFB800>羽绒</color>。",
+    "des": "记录了<color=#FFB800>羊毛</color>取制流程的文件，使用后能够在【动物纤维车间】中生产<color=#FFB800>羽绒</color>。",
     "iconPath": "Item/item/Small/Book_SewingMachine",
     "tipsPath": "Item/item/Big/Book_SewingMachine",
     "buyPath": "",
@@ -14478,7 +14517,7 @@
     "rewardList": [],
     "Getway": [
       {
-        "DisplayName": "云岫桥基地-整顿中心-研发",
+        "DisplayName": "云岫桥基地-整顿中心-研发中心LV15解锁",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -14493,13 +14532,13 @@
   },
   {
     "id": 11400352,
-    "idCN": "5制造书/车载缝纫机/原料配方/动物-蚕丝制造法",
+    "idCN": "5制造书/车载缝纫机/原料配方/动物-蚕丝取制法",
     "mod": "图纸道具",
     "isInformalData": false,
-    "name": "蚕丝制造法",
+    "name": "蚕丝取制法",
     "viewId": -1,
     "quality": "Golden",
-    "des": "记录了<color=#FFB800>蚕丝</color>制造流程的文件，使用后能够在【动物纤维车间】中制造<color=#FFB800>蚕丝</color>。",
+    "des": "记录了<color=#FFB800>蚕丝</color>制造流程的文件，使用后能够在【动物纤维车间】中生产<color=#FFB800>蚕丝</color>。",
     "iconPath": "Item/item/Small/Book_SewingMachine",
     "tipsPath": "Item/item/Big/Book_SewingMachine",
     "buyPath": "",
@@ -14513,7 +14552,7 @@
     "rewardList": [],
     "Getway": [
       {
-        "DisplayName": "云岫桥基地-整顿中心-研发",
+        "DisplayName": "云岫桥基地-整顿中心-研发中心LV35解锁",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -14534,7 +14573,7 @@
     "name": "羊绒取制法",
     "viewId": -1,
     "quality": "Golden",
-    "des": "记录了<color=#FFB800>羊绒</color>取制流程的文件，使用后能够在【动物纤维车间】中制造<color=#FFB800>羊绒</color>。",
+    "des": "记录了<color=#FFB800>羊绒</color>取制流程的文件，使用后能够在【动物纤维车间】中生产<color=#FFB800>羊绒</color>。",
     "iconPath": "Item/item/Small/Book_SewingMachine",
     "tipsPath": "Item/item/Big/Book_SewingMachine",
     "buyPath": "",
@@ -14548,7 +14587,7 @@
     "rewardList": [],
     "Getway": [
       {
-        "DisplayName": "云岫桥基地-整顿中心-研发",
+        "DisplayName": "云岫桥基地-整顿中心-研发中心LV45解锁",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -14591,6 +14630,131 @@
       }
     ],
     "drawing": 84900081,
+    "techPoints": 100,
+    "skinID": -1,
+    "isDisplayInMaterialWare": false,
+    "isDisplayInFinishedlWare": false
+  },
+  {
+    "id": 11400283,
+    "idCN": "列车皮肤道具/01通行证/雅莱主题痛车方案",
+    "mod": "基础道具",
+    "isInformalData": false,
+    "name": "雅莱主题痛车方案",
+    "viewId": -1,
+    "quality": "Golden",
+    "des": "以雅莱的形象为原型，贴合无垠号车身构思的痛车外观设计方案。“总觉得有一种自己能够到达任何地方的感觉……我很喜欢。”“这不是很好玩吗？”两位对此都相当满意的样子。",
+    "iconPath": "Item\\item\\Small\\Topic_Yalai",
+    "tipsPath": "Item\\item\\Big\\Topic_Yalai",
+    "buyPath": "",
+    "textIcon": "",
+    "sort": 0,
+    "isShowNum": true,
+    "isNotDisplayInBag": false,
+    "useLimitNum": 10,
+    "endTime": "",
+    "saletype": "NotSale",
+    "rewardList": [],
+    "Getway": [
+      {
+        "DisplayName": "环游手册",
+        "FromLevel": -1,
+        "UIName": "UI/BP_Quest/BattlePass_Quest",
+        "Way3": "",
+        "funcId": 100
+      }
+    ],
+    "techPoints": 100,
+    "skinID": -1,
+    "isDisplayInMaterialWare": false,
+    "isDisplayInFinishedlWare": false
+  },
+  {
+    "id": 11400355,
+    "idCN": "宠物/僵尸红守宫",
+    "mod": "可使用道具",
+    "isInformalData": false,
+    "name": "僵尸红守宫的外出背包",
+    "viewId": -1,
+    "quality": "Golden",
+    "useType": "Fixed",
+    "numRequired": 1,
+    "isBatch": false,
+    "exchangeList": [
+      {
+        "itemId": 83400032,
+        "num": 1,
+        "weight": 1
+      }
+    ],
+    "des": "“好伙伴”牌宠物背包，材料轻便，结构坚固，能够有效从外界的种种危险中保护你的宠物，方便与其一同旅行。",
+    "iconPath": "Item/item/Small/PetBag",
+    "tipsPath": "Item/item/Big/PetBag",
+    "buyPath": "",
+    "textIcon": "",
+    "breakPath": "Item/Pet/Small/jiangshihongshougong",
+    "sort": 0,
+    "isShowNum": true,
+    "isNotDisplayInBag": false,
+    "isCompose": false,
+    "containEquipment": false,
+    "batchUsetype": "Other",
+    "useLimitNum": 10,
+    "isTiredItem": false,
+    "isDrinkItem": false,
+    "drinkNum": 3,
+    "isBattlePassItem": false,
+    "BattlePassType": "Low",
+    "uiPath": "",
+    "plotAfter": -1,
+    "endTime": "",
+    "limitedTime": 0,
+    "saletype": "NotSale",
+    "rewardList": [],
+    "Getway": [
+      {
+        "DisplayName": "环游手册",
+        "FromLevel": -1,
+        "UIName": "UI/BP_Quest/BattlePass_Quest",
+        "Way3": "",
+        "funcId": 100
+      }
+    ],
+    "gettipstype": "Pet",
+    "techPoints": 100,
+    "skinID": -1,
+    "isDisplayInMaterialWare": false,
+    "isDisplayInFinishedlWare": false
+  },
+  {
+    "id": 11400354,
+    "idCN": "列车皮肤道具/03兑换/铁盟主题痛车方案",
+    "mod": "基础道具",
+    "isInformalData": false,
+    "name": "蜜獾小队主题痛车方案",
+    "viewId": -1,
+    "quality": "Golden",
+    "des": "以蜜獾小队各位队员的形象为原型，贴合无垠号车身构思的痛车外观设计方案。据说在设计师出方案时多萝西睡过了头，因此最后只设计了三名队员的形象。",
+    "iconPath": "Item\\item\\Small\\Topic_bcrl",
+    "tipsPath": "Item\\item\\Big\\Topic_bcrl",
+    "buyPath": "",
+    "textIcon": "",
+    "sort": 0,
+    "isShowNum": true,
+    "isNotDisplayInBag": false,
+    "useLimitNum": 10,
+    "endTime": "",
+    "saletype": "NotSale",
+    "rewardList": [],
+    "Getway": [
+      {
+        "DisplayName": "整顿中心-兑换商店",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": -1
+      }
+    ],
     "techPoints": 100,
     "skinID": -1,
     "isDisplayInMaterialWare": false,

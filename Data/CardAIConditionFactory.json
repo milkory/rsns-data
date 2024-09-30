@@ -68,7 +68,7 @@
   },
   {
     "id": 96200010,
-    "idCN": "选择操作/手牌数大于x",
+    "idCN": "卡牌设置/保留手牌",
     "mod": "手牌数大于",
     "isInformalData": false,
     "isInvert": false
@@ -109,6 +109,9 @@
       },
       {
         "conditionId": 96200024
+      },
+      {
+        "conditionId": 96200032
       }
     ]
   },
@@ -231,7 +234,7 @@
     "idCN": "选择操作/当前费用小于x",
     "mod": "费用不少于",
     "isInformalData": false,
-    "isInvert": true,
+    "isInvert": false,
     "costNum": 0
   },
   {
@@ -239,7 +242,7 @@
     "idCN": "选择操作/当前费用大于等于x",
     "mod": "费用不少于",
     "isInformalData": false,
-    "isInvert": false,
+    "isInvert": true,
     "costNum": 0
   },
   {
@@ -247,7 +250,7 @@
     "idCN": "选择操作/手牌数小于等于x",
     "mod": "手牌数大于",
     "isInformalData": false,
-    "isInvert": true,
+    "isInvert": false,
     "cardNum": 0
   },
   {
@@ -255,12 +258,28 @@
     "idCN": "选择操作/敌方卡牌优先级",
     "mod": "卡牌Tag",
     "isInformalData": false,
-    "isInvert": true,
+    "isInvert": false,
     "tagList": [
       {
         "tagId": 12601403
       }
     ],
     "tagType": "Or"
+  },
+  {
+    "id": 96200026,
+    "idCN": "选择操作/手牌数大于",
+    "mod": "手牌数大于",
+    "isInformalData": false,
+    "isInvert": true,
+    "cardNum": 0
+  },
+  {
+    "id": 96200032,
+    "idCN": "Buff检测/卡牌未被禁用",
+    "mod": "GS脚本",
+    "isInformalData": false,
+    "isInvert": false,
+    "logicId": 60000141
   }
 ]

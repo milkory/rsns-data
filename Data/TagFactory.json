@@ -4739,16 +4739,16 @@
   },
   {
     "id": 12600583,
-    "idCN": "战斗/词缀/05五星/隼/觉醒2-暗艺",
+    "idCN": "战斗/词缀/05五星/隼/觉醒2-寸心",
     "mod": "标签",
     "isInformalData": false,
     "icon": "RolePlus\\Hayabusa\\Face",
-    "tagName": "暗艺",
+    "tagName": "寸心",
     "tagID": 0,
     "isShowDetail": true,
-    "temptagNameRichText": "暗艺",
-    "tagNameRichText": "暗艺",
-    "detail": "使用【无常】后，有50%概率生成1张【暗艺】加入手牌"
+    "temptagNameRichText": "寸心",
+    "tagNameRichText": "寸心",
+    "detail": "使用【队长技】或得意技能牌时，直接打出1次【无常】"
   },
   {
     "id": 12600584,
@@ -4761,7 +4761,7 @@
     "isShowDetail": true,
     "temptagNameRichText": "无影",
     "tagNameRichText": "无影",
-    "detail": "每次使用自身红卡后，使自身【隐形】，持续3秒"
+    "detail": "每次使用自身技能牌后，使自身【隐形】，持续3秒"
   },
   {
     "id": 12600585,
@@ -4774,7 +4774,7 @@
     "isShowDetail": true,
     "temptagNameRichText": "心眼",
     "tagNameRichText": "心眼",
-    "detail": "使用【开眼】后，使自身【隐形】，同时下1张自身红卡必定触发【崩坏】"
+    "detail": "隼的【普通攻击】和【无常】追加【弹射】效果"
   },
   {
     "id": 12600586,
@@ -8542,11 +8542,11 @@
   },
   {
     "id": 12600829,
-    "idCN": "武装词条/超额载客",
+    "idCN": "武装词条/囚犯载量",
     "mod": "列车武装",
     "isInformalData": false,
     "icon": "",
-    "entryName": "超额载客",
+    "entryName": "囚犯载量",
     "entryDes": "",
     "addNum": true
   },
@@ -12317,7 +12317,9 @@
     "isInformalData": true,
     "icon": "UI/Prison/PrisonerList/Personality/Baoli",
     "prisonerPersonalityName": "暴戾",
-    "prisonerPersonalityDesc": "这名囚犯非常易怒，容易与他人发生摩擦，需多加关注。"
+    "prisonerPersonalityDesc": "这名囚犯非常易怒，容易与他人发生摩擦，需多加关注。",
+    "trammels": true,
+    "halo": false
   },
   {
     "id": 12601133,
@@ -12326,7 +12328,9 @@
     "isInformalData": true,
     "icon": "UI/Prison/PrisonerList/Personality/Zhiniu",
     "prisonerPersonalityName": "执拗",
-    "prisonerPersonalityDesc": "这名囚犯一有空就拿着勺子比划，虽暂无违规举动，但仍需注意。"
+    "prisonerPersonalityDesc": "这名囚犯一有空就拿着勺子比划，虽暂无违规举动，但仍需注意。",
+    "trammels": true,
+    "halo": false
   },
   {
     "id": 12601134,
@@ -12335,7 +12339,9 @@
     "isInformalData": true,
     "icon": "UI/Prison/PrisonerList/Personality/Panni",
     "prisonerPersonalityName": "叛逆",
-    "prisonerPersonalityDesc": "这名囚犯心思活跃、不服管教，喜欢撺掇他人，需重点关注。"
+    "prisonerPersonalityDesc": "这名囚犯心思活跃、不服管教，喜欢撺掇他人，需重点关注。",
+    "trammels": true,
+    "halo": false
   },
   {
     "id": 12601135,
@@ -12344,7 +12350,9 @@
     "isInformalData": true,
     "icon": "UI/Prison/PrisonerList/Personality/Danxiao",
     "prisonerPersonalityName": "胆小",
-    "prisonerPersonalityDesc": "这名囚犯总是唯唯诺诺，被人欺负也不敢反抗。"
+    "prisonerPersonalityDesc": "这名囚犯总是唯唯诺诺，被人欺负也不敢反抗。",
+    "trammels": true,
+    "halo": false
   },
   {
     "id": 12601137,
@@ -12353,7 +12361,9 @@
     "isInformalData": true,
     "icon": "UI/Prison/PrisonerList/Personality/Landuo",
     "prisonerPersonalityName": "懒惰",
-    "prisonerPersonalityDesc": "这名囚犯一抓到机会就偷懒怠工，建议多加督促。"
+    "prisonerPersonalityDesc": "这名囚犯一抓到机会就偷懒怠工，建议多加督促。",
+    "trammels": false,
+    "halo": true
   },
   {
     "id": 12601138,
@@ -12362,7 +12372,9 @@
     "isInformalData": true,
     "icon": "UI/Prison/PrisonerList/Personality/Tanlan",
     "prisonerPersonalityName": "贪婪",
-    "prisonerPersonalityDesc": "这名囚犯对财富抱有极强的欲望，有可能做出偷窃行为，建议严加看管。"
+    "prisonerPersonalityDesc": "这名囚犯对财富抱有极强的欲望，有可能做出偷窃行为，建议严加看管。",
+    "trammels": true,
+    "halo": false
   },
   {
     "id": 12601139,
@@ -12371,7 +12383,9 @@
     "isInformalData": true,
     "icon": "UI/Prison/PrisonerList/Personality/Gupi",
     "prisonerPersonalityName": "孤僻",
-    "prisonerPersonalityDesc": "这名囚犯不喜欢与他人交往，更喜欢独立活动或思考。"
+    "prisonerPersonalityDesc": "这名囚犯不喜欢与他人交往，更喜欢独立活动或思考。",
+    "trammels": false,
+    "halo": true
   },
   {
     "id": 12601140,
@@ -12380,7 +12394,9 @@
     "isInformalData": true,
     "icon": "UI/Prison/PrisonerList/Personality/Tanchi",
     "prisonerPersonalityName": "贪吃",
-    "prisonerPersonalityDesc": "这名囚犯对食物的热爱超乎常人，进食后工作效率暴增！"
+    "prisonerPersonalityDesc": "这名囚犯对食物的热爱超乎常人，进食后工作效率暴增！",
+    "trammels": true,
+    "halo": false
   },
   {
     "id": 12601144,
@@ -12420,11 +12436,11 @@
   },
   {
     "id": 12601148,
-    "idCN": "监狱/囚犯特长/纺织",
+    "idCN": "监狱/囚犯特长/剪裁",
     "mod": "囚犯特长",
     "isInformalData": true,
     "icon": "UI/Prison/PrisonerList/Personality/IconFangzhi",
-    "prisonerSpeciality": "纺织",
+    "prisonerSpeciality": "剪裁",
     "buffId": 84100129,
     "formulaType": 12601354
   },
@@ -12896,10 +12912,19 @@
     "icon": "",
     "prisonerPersonalityFetterName": "越狱",
     "prisonerPersonalityFetterDesc": "在囚犯牢房的海报后发现一个通往下水道的大洞，而囚犯则不知所踪……",
+    "prisonerBuffDesc": "你发动所有警力将越狱囚犯成功截获，%s。",
     "buffId": 84100125,
+    "paramList": [],
+    "timeAdd": 13,
     "occurrenceProbability": 1.0,
     "score": -100.0,
-    "buffParam": 14.0
+    "prisonerEvent": [
+      {
+        "actionName": "prison_break1"
+      }
+    ],
+    "prisonerEventCombinationAcotionName": "",
+    "prisonerEventCombinationAcotionSpinePath": ""
   },
   {
     "id": 12601141,
@@ -12909,10 +12934,16 @@
     "icon": "",
     "prisonerPersonalityFetterName": "争执",
     "prisonerPersonalityFetterDesc": "一名囚犯在用餐时段因其他囚犯离席时先迈左脚，将菜盘扣在了对方的脸上。",
+    "prisonerBuffDesc": "你对产生争执的囚犯进行了严厉的处罚，%s。",
     "buffId": 84100125,
+    "paramList": [],
+    "timeAdd": 2,
     "occurrenceProbability": 1.0,
     "score": -15.0,
-    "buffParam": 3.0
+    "prisonerEvent": [],
+    "prisonerEventCombinationAcotionName": "fighting1",
+    "prisonerEventCombinationAcotionSpinePath": "Home/Prisoner/fighting/fighting_SkeletonData",
+    "sceneAnim": 70000244
   },
   {
     "id": 12601142,
@@ -12922,10 +12953,19 @@
     "icon": "",
     "prisonerPersonalityFetterName": "闹事",
     "prisonerPersonalityFetterDesc": "在个别囚犯的煽动下，部分囚犯起哄闹事，要求减刑或提高待遇。",
+    "prisonerBuffDesc": "你对闹事的囚犯进行镇压，%s。",
     "buffId": 84100125,
+    "paramList": [],
+    "timeAdd": 8,
     "occurrenceProbability": 1.0,
     "score": -30.0,
-    "buffParam": 7.0
+    "prisonerEvent": [
+      {
+        "actionName": "striking"
+      }
+    ],
+    "prisonerEventCombinationAcotionName": "",
+    "prisonerEventCombinationAcotionSpinePath": ""
   },
   {
     "id": 12601143,
@@ -12935,10 +12975,17 @@
     "icon": "",
     "prisonerPersonalityFetterName": "霸凌",
     "prisonerPersonalityFetterDesc": "个别囚犯在放风时间被刻意针对，遭到多名囚犯的欺凌，心情沮丧。",
+    "prisonerBuffDesc": "你对霸凌他人的囚犯进行了严厉的处罚，%s。",
     "buffId": 84100125,
+    "paramList": [],
+    "probabilityParamClient": 0.0,
+    "timeAdd": 3,
     "occurrenceProbability": 1.0,
     "score": -20.0,
-    "buffParam": 5.0
+    "prisonerEvent": [],
+    "prisonerEventCombinationAcotionName": "fighting1",
+    "prisonerEventCombinationAcotionSpinePath": "Home/Prisoner/fighting/fighting_SkeletonData",
+    "sceneAnim": 70000243
   },
   {
     "id": 12601188,
@@ -12948,10 +12995,38 @@
     "icon": "",
     "prisonerPersonalityFetterName": "偷懒",
     "prisonerPersonalityFetterDesc": "在工作车间中传来了不合时宜的鼾声，声音来源似乎是几名喜欢偷懒的囚犯。",
+    "prisonerBuffDesc": "你两眼一瞪，拍了拍该囚犯的工作台，%s。",
     "buffId": 84100136,
+    "paramList": [
+      {
+        "probabilityParam": 1.0,
+        "programme": 1
+      },
+      {
+        "probabilityParam": 2.0,
+        "programme": 2
+      },
+      {
+        "probabilityParam": 4.0,
+        "programme": 4
+      },
+      {
+        "probabilityParam": 8.0,
+        "programme": 8
+      }
+    ],
+    "probabilityParamClient": 0.0,
+    "timeAdd": 0,
     "occurrenceProbability": 1.0,
     "score": -10.0,
-    "buffParam": 2.0
+    "prisonerEvent": [
+      {
+        "actionName": "dozing"
+      }
+    ],
+    "prisonerEventCombinationAcotionName": "",
+    "prisonerEventCombinationAcotionSpinePath": "",
+    "sceneAnim": -1
   },
   {
     "id": 12601189,
@@ -12961,10 +13036,19 @@
     "icon": "",
     "prisonerPersonalityFetterName": "顺手牵羊",
     "prisonerPersonalityFetterDesc": "监狱的马桶刷已经连续丢失了三把，最终都在几名囚犯的床底下找到了。",
+    "prisonerBuffDesc": "你没收了这些囚犯的赃物，%s。",
     "buffId": 84100125,
+    "paramList": [],
+    "timeAdd": 5,
     "occurrenceProbability": 1.0,
     "score": -25.0,
-    "buffParam": 2.0
+    "prisonerEvent": [
+      {
+        "actionName": "steal2"
+      }
+    ],
+    "prisonerEventCombinationAcotionName": "",
+    "prisonerEventCombinationAcotionSpinePath": ""
   },
   {
     "id": 12601190,
@@ -12974,10 +13058,38 @@
     "icon": "",
     "prisonerPersonalityFetterName": "独来独往",
     "prisonerPersonalityFetterDesc": "该囚犯避开了监狱里的纷争，独自一人默默工作着。",
+    "prisonerBuffDesc": "你与该囚犯进行了心灵的沟通，%s。",
     "buffId": 84100136,
+    "paramList": [
+      {
+        "probabilityParam": 1.0,
+        "programme": 1
+      },
+      {
+        "probabilityParam": 2.0,
+        "programme": 2
+      },
+      {
+        "probabilityParam": 4.0,
+        "programme": 4
+      },
+      {
+        "probabilityParam": 8.0,
+        "programme": 8
+      }
+    ],
+    "probabilityParamClient": 0.0,
+    "timeAdd": 0,
     "occurrenceProbability": 1.0,
     "score": 10.0,
-    "buffParam": 4.0
+    "prisonerEvent": [
+      {
+        "actionName": "dozing"
+      }
+    ],
+    "prisonerEventCombinationAcotionName": "",
+    "prisonerEventCombinationAcotionSpinePath": "",
+    "sceneAnim": -1
   },
   {
     "id": 12601191,
@@ -12987,10 +13099,38 @@
     "icon": "",
     "prisonerPersonalityFetterName": "心无杂念",
     "prisonerPersonalityFetterDesc": "因为在今天吃到了加餐，囚犯工作时干劲十足，效率与平日里判若两人。",
+    "prisonerBuffDesc": "你走上前想加入，却发现他们哄笑着散开了，该囚犯及周围囚犯%s。",
     "buffId": 84100136,
+    "paramList": [
+      {
+        "probabilityParam": 2.0,
+        "programme": 2
+      },
+      {
+        "probabilityParam": 5.0,
+        "programme": 2
+      },
+      {
+        "probabilityParam": 10.0,
+        "programme": 4
+      },
+      {
+        "probabilityParam": 20.0,
+        "programme": 8
+      }
+    ],
+    "probabilityParamClient": 0.0,
+    "timeAdd": 0,
     "occurrenceProbability": 1.0,
     "score": 50.0,
-    "buffParam": 1.8
+    "prisonerEvent": [
+      {
+        "actionName": "work_sewing1"
+      }
+    ],
+    "prisonerEventCombinationAcotionName": "",
+    "prisonerEventCombinationAcotionSpinePath": "",
+    "sceneAnim": -1
   },
   {
     "id": 12601192,
@@ -13057,11 +13197,11 @@
   },
   {
     "id": 12601198,
-    "idCN": "监狱/囚犯特长/缝补",
+    "idCN": "监狱/囚犯特长/织造",
     "mod": "囚犯特长",
     "isInformalData": true,
     "icon": "UI/Prison/PrisonerList/Personality/IconFengren",
-    "prisonerSpeciality": "缝补",
+    "prisonerSpeciality": "织造",
     "buffId": 84100127,
     "formulaType": 12601353
   },
@@ -13469,10 +13609,38 @@
     "icon": "",
     "prisonerPersonalityFetterName": "奋发图强",
     "prisonerPersonalityFetterDesc": "“好好改造，重新做人！”在几名个性积极的囚犯带动下，不少囚犯燃起了对未来的希望，热火朝天地工作着。",
+    "prisonerBuffDesc": "你对积极的囚犯进行了嘉奖，该囚犯及周围囚犯%s。",
     "buffId": 84100136,
+    "paramList": [
+      {
+        "probabilityParam": 2.0,
+        "programme": 1
+      },
+      {
+        "probabilityParam": 4.0,
+        "programme": 2
+      },
+      {
+        "probabilityParam": 8.0,
+        "programme": 4
+      },
+      {
+        "probabilityParam": 16.0,
+        "programme": 8
+      }
+    ],
+    "probabilityParamClient": 0.0,
+    "timeAdd": 0,
     "occurrenceProbability": 1.0,
     "score": 30.0,
-    "buffParam": 1.5
+    "prisonerEvent": [
+      {
+        "actionName": "working_sewing1"
+      }
+    ],
+    "prisonerEventCombinationAcotionName": "",
+    "prisonerEventCombinationAcotionSpinePath": "",
+    "sceneAnim": -1
   },
   {
     "id": 12601241,
@@ -13481,7 +13649,9 @@
     "isInformalData": true,
     "icon": "",
     "prisonerPersonalityName": "热情",
-    "prisonerPersonalityDesc": "这名囚犯对生活抱有美好的期待，这份热情总是可以感染其他人。"
+    "prisonerPersonalityDesc": "这名囚犯对生活抱有美好的期待，这份热情总是可以感染其他人。",
+    "trammels": false,
+    "halo": true
   },
   {
     "id": 12601240,
@@ -13490,7 +13660,9 @@
     "isInformalData": true,
     "icon": "",
     "prisonerPersonalityName": "幽默",
-    "prisonerPersonalityDesc": "这名囚犯是整顿中心的开心果，总是逗得众人哈哈大笑。"
+    "prisonerPersonalityDesc": "这名囚犯是整顿中心的开心果，总是逗得众人哈哈大笑。",
+    "trammels": false,
+    "halo": true
   },
   {
     "id": 12601239,
@@ -13499,7 +13671,9 @@
     "isInformalData": true,
     "icon": "",
     "prisonerPersonalityName": "冲动",
-    "prisonerPersonalityDesc": "这名囚犯做事前缺乏理性思考，凭感情或冲动行事，思考不考虑后果。"
+    "prisonerPersonalityDesc": "这名囚犯做事前缺乏理性思考，凭感情或冲动行事，思考不考虑后果。",
+    "trammels": true,
+    "halo": false
   },
   {
     "id": 12601238,
@@ -13508,7 +13682,9 @@
     "isInformalData": true,
     "icon": "",
     "prisonerPersonalityName": "消极",
-    "prisonerPersonalityDesc": "这名囚犯总是情绪很低落，对什么事都提不起兴趣。"
+    "prisonerPersonalityDesc": "这名囚犯总是情绪很低落，对什么事都提不起兴趣。",
+    "trammels": true,
+    "halo": false
   },
   {
     "id": 12601237,
@@ -13518,10 +13694,38 @@
     "icon": "",
     "prisonerPersonalityFetterName": "干劲十足",
     "prisonerPersonalityFetterDesc": "欢声笑语间，囚犯们的工作效率也大大增长，虽然他们讲的笑话听上去不是很体面。",
+    "prisonerBuffDesc": "你走上前想加入，却发现他们哄笑着散开了，该囚犯及周围囚犯%s。",
     "buffId": 84100136,
+    "paramList": [
+      {
+        "probabilityParam": 1.0,
+        "programme": 1
+      },
+      {
+        "probabilityParam": 3.0,
+        "programme": 2
+      },
+      {
+        "probabilityParam": 6.0,
+        "programme": 4
+      },
+      {
+        "probabilityParam": 12.0,
+        "programme": 8
+      }
+    ],
+    "probabilityParamClient": 0.0,
+    "timeAdd": 0,
     "occurrenceProbability": 1.0,
     "score": 20.0,
-    "buffParam": 1.3
+    "prisonerEvent": [
+      {
+        "actionName": "working_sewing1"
+      }
+    ],
+    "prisonerEventCombinationAcotionName": "",
+    "prisonerEventCombinationAcotionSpinePath": "",
+    "sceneAnim": -1
   },
   {
     "id": 12601236,
@@ -13531,10 +13735,38 @@
     "icon": "",
     "prisonerPersonalityFetterName": "装腔作势",
     "prisonerPersonalityFetterDesc": "最近有人在囚犯中鼓吹一种理论，那就是“不必真的干活，装装样子就行了”。",
+    "prisonerBuffDesc": "你顺势整顿了监狱的作风，%s。",
     "buffId": 84100136,
+    "paramList": [
+      {
+        "probabilityParam": 0.0,
+        "programme": 1
+      },
+      {
+        "probabilityParam": 1.0,
+        "programme": 2
+      },
+      {
+        "probabilityParam": 2.0,
+        "programme": 4
+      },
+      {
+        "probabilityParam": 4.0,
+        "programme": 8
+      }
+    ],
+    "probabilityParamClient": 0.0,
+    "timeAdd": 0,
     "occurrenceProbability": 1.0,
     "score": -5.0,
-    "buffParam": 4.0
+    "prisonerEvent": [
+      {
+        "actionName": "work_sewing2"
+      }
+    ],
+    "prisonerEventCombinationAcotionName": "",
+    "prisonerEventCombinationAcotionSpinePath": "",
+    "sceneAnim": -1
   },
   {
     "id": 12601235,
@@ -14794,6 +15026,8 @@
     "mod": "监狱家具",
     "isInformalData": true,
     "icon": "",
+    "typeName": "缝纫机",
+    "iconPath": "UI/Prison/Manage/SewingIcon",
     "formulaTypeList": [
       {
         "id": 12601353
@@ -14809,6 +15043,8 @@
     "mod": "监狱家具",
     "isInformalData": true,
     "icon": "",
+    "typeName": "测试用",
+    "iconPath": "UI/Prison/Manage/Unproduced",
     "formulaTypeList": [
       {
         "id": 12601353
@@ -15104,7 +15340,9 @@
     "isInformalData": true,
     "icon": "",
     "prisonerPersonalityName": "细致",
-    "prisonerPersonalityDesc": "这名囚犯干活专心致志，引得其他囚犯纷纷效仿。"
+    "prisonerPersonalityDesc": "这名囚犯干活专心致志，引得其他囚犯纷纷效仿。",
+    "trammels": false,
+    "halo": true
   },
   {
     "id": 12601201,
@@ -15484,7 +15722,7 @@
   },
   {
     "id": 12601407,
-    "idCN": "战斗/词缀/05五星/雅莱/觉醒2-狂澜",
+    "idCN": "战斗/词缀/05五星/雅莱/觉醒1-狂澜",
     "mod": "标签",
     "isInformalData": false,
     "icon": "RolePlus\\Jalhay\\Face",
@@ -15494,5 +15732,60 @@
     "temptagNameRichText": "狂澜",
     "tagNameRichText": "狂澜",
     "detail": "使用【精神风暴】后，持续6秒内，每打出1张牌，【伴生体】消耗10点精力值释放1次精神脉冲，对敌方全体造成1段伤害，同时使敌方全体防御力下降1%，可叠加"
+  },
+  {
+    "id": 12601409,
+    "idCN": "收集卡牌/能量卡",
+    "mod": "收集卡牌类型",
+    "isInformalData": false,
+    "icon": "Item/CollectionCard/CommonIcon/Energy",
+    "cardTypeName": "能量卡"
+  },
+  {
+    "id": 12601408,
+    "idCN": "收集卡牌/道具卡",
+    "mod": "收集卡牌类型",
+    "isInformalData": false,
+    "icon": "Item/CollectionCard/CommonIcon/Props",
+    "cardTypeName": "道具卡"
+  },
+  {
+    "id": 12601410,
+    "idCN": "活动标签/整顿中心",
+    "mod": "标签",
+    "isInformalData": true,
+    "icon": "",
+    "tagName": "整顿中心",
+    "tagID": 0,
+    "isShowDetail": false,
+    "temptagNameRichText": "",
+    "tagNameRichText": "",
+    "detail": ""
+  },
+  {
+    "id": 12601411,
+    "idCN": "列车皮肤/铁盟三人组",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "",
+    "tagName": "铁盟三人组",
+    "tagID": 0,
+    "isShowDetail": false,
+    "temptagNameRichText": "",
+    "tagNameRichText": "",
+    "detail": ""
+  },
+  {
+    "id": 12601413,
+    "idCN": "列车皮肤/雅莱",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "",
+    "tagName": "雅莱",
+    "tagID": 0,
+    "isShowDetail": false,
+    "temptagNameRichText": "",
+    "tagNameRichText": "",
+    "detail": ""
   }
 ]

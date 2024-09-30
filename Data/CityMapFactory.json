@@ -123,6 +123,11 @@
         "id": 86400240,
         "x": 880.0,
         "y": 79.0
+      },
+      {
+        "id": 86400253,
+        "x": 140.0,
+        "y": 60.0
       }
     ],
     "isShowRep": true,
@@ -706,7 +711,7 @@
   },
   {
     "id": 86400013,
-    "idCN": "01城市地图/C3曼德矿场S0",
+    "idCN": "01城市地图/C3曼德矿场",
     "mod": "城市地图",
     "isInformalData": false,
     "bgList": [
@@ -786,6 +791,16 @@
       },
       {
         "id": 86400108,
+        "x": 140.0,
+        "y": 60.0
+      },
+      {
+        "id": 86400265,
+        "x": 140.0,
+        "y": 60.0
+      },
+      {
+        "id": 86400264,
         "x": 140.0,
         "y": 60.0
       }
@@ -1111,7 +1126,7 @@
   },
   {
     "id": 86400019,
-    "idCN": "01城市地图/C6海角城S0",
+    "idCN": "01城市地图/C6海角城",
     "mod": "城市地图",
     "isInformalData": false,
     "bgList": [
@@ -1203,6 +1218,31 @@
         "id": 86400256,
         "x": 676.0,
         "y": -108.0
+      },
+      {
+        "id": 86400266,
+        "x": -276.0,
+        "y": -130.0
+      },
+      {
+        "id": 86400268,
+        "x": -373.0,
+        "y": 71.0
+      },
+      {
+        "id": 86400252,
+        "x": -276.0,
+        "y": -130.0
+      },
+      {
+        "id": 86400269,
+        "x": -373.0,
+        "y": 71.0
+      },
+      {
+        "id": 86400270,
+        "x": -276.0,
+        "y": -130.0
       }
     ],
     "isShowRep": true,
@@ -2069,7 +2109,7 @@
   },
   {
     "id": 86400030,
-    "idCN": "01城市地图/黑月游乐城S0",
+    "idCN": "01城市地图/黑月游乐城",
     "mod": "城市地图",
     "isInformalData": false,
     "bgList": [
@@ -2096,6 +2136,7 @@
     ],
     "offsetX": 0.0,
     "offsetY": 0.0,
+    "bubbleList": [],
     "isShowRep": true,
     "isShowConstruct": false,
     "exitId": -1
@@ -2207,7 +2248,7 @@
   },
   {
     "id": 86400035,
-    "idCN": "01城市地图/岚心城S0",
+    "idCN": "01城市地图/岚心城",
     "mod": "城市地图",
     "isInformalData": false,
     "bgList": [
@@ -2234,6 +2275,7 @@
     ],
     "offsetX": 0.0,
     "offsetY": 0.0,
+    "bubbleList": [],
     "isShowRep": true,
     "isShowConstruct": false,
     "exitId": -1
@@ -5699,6 +5741,7 @@
     "isInstance": false,
     "iconPath": "RolePlus/Arina/Face",
     "nameIconPath": "UI/CityMap/citymap_icon_bar",
+    "frontIconPath": "",
     "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
     "animLoop": "UI_CityBtn_01_Loop",
     "animOut": "UI_CityBtn_01_Out",
@@ -5712,7 +5755,7 @@
     "btnType": "RestArea",
     "mId": -1,
     "uiPath": "UI/Home/BarStore/BarStore",
-    "buildingId": -1,
+    "buildingId": 84400236,
     "stationPlace": -1,
     "dialogId": -1,
     "dungeonId": -1,
@@ -5758,7 +5801,7 @@
     "btnType": "HomeInvest",
     "mId": -1,
     "uiPath": "UI/HomeInvest/HomeInvest",
-    "buildingId": -1,
+    "buildingId": 84400235,
     "stationPlace": -1,
     "dialogId": -1,
     "dungeonId": -1,
@@ -8529,8 +8572,9 @@
     "name": "交易所",
     "isSpecial": false,
     "isInstance": false,
-    "iconPath": "NPC/YXQ/TC",
+    "iconPath": "NPC/HYZ/Exchange",
     "nameIconPath": "UI/CityMap/citymap_icon_trade",
+    "frontIconPath": "",
     "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/UI_cityBtn_trade",
     "animLoop": "UI_CityBtn_01_Loop",
     "animOut": "UI_CityBtn_01_Out",
@@ -8550,7 +8594,7 @@
     "dungeonId": -1,
     "levelId": -1,
     "textId": -1,
-    "npcId": 83700084,
+    "npcId": 83700096,
     "bgPath": "UI/Dialog/Back2/Exchange_YXQ",
     "bgColor": "FFFFFF"
   },
@@ -10062,6 +10106,325 @@
     "buildingId": -1,
     "stationPlace": -1,
     "dialogId": 20700389,
+    "dungeonId": -1,
+    "levelId": -1,
+    "textId": -1,
+    "npcId": -1,
+    "bgPath": "",
+    "bgColor": "FFFFFF"
+  },
+  {
+    "id": 86400265,
+    "idCN": "03气泡/C3曼德矿场S0/02剧情/EP6-1",
+    "mod": "气泡",
+    "isInformalData": false,
+    "name": "6-1",
+    "isSpecial": false,
+    "isInstance": false,
+    "iconPath": "RolePlus/Livia/Face",
+    "nameIconPath": "",
+    "frontIconPath": "",
+    "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
+    "animLoop": "UI_CityBtn_01_Loop",
+    "animOut": "UI_CityBtn_01_Out",
+    "activityId": -1,
+    "startTime": "",
+    "endTime": "",
+    "displayConditionsList": [
+      {
+        "condition": "Questing",
+        "mId": 81000022,
+        "val": 0
+      }
+    ],
+    "unlockConditionsList": [],
+    "isLock": false,
+    "func": "OpenDialog",
+    "btnType": "Other",
+    "mId": -1,
+    "uiPath": "",
+    "buildingId": -1,
+    "stationPlace": -1,
+    "dialogId": 20700477,
+    "dungeonId": -1,
+    "levelId": -1,
+    "textId": -1,
+    "npcId": -1,
+    "bgPath": "",
+    "bgColor": "FFFFFF"
+  },
+  {
+    "id": 86400264,
+    "idCN": "03气泡/C3曼德矿场S0/02剧情/EP6-2",
+    "mod": "气泡",
+    "isInformalData": false,
+    "name": "6-2",
+    "isSpecial": false,
+    "isInstance": false,
+    "iconPath": "RolePlus/Eliot/Face",
+    "nameIconPath": "UI/CityMap/citymap_icon_battlezone",
+    "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
+    "animLoop": "UI_CityBtn_01_Loop",
+    "animOut": "UI_CityBtn_01_Out",
+    "activityId": -1,
+    "startTime": "",
+    "endTime": "",
+    "displayConditionsList": [
+      {
+        "condition": "Questing",
+        "mId": 81001571,
+        "val": 0
+      }
+    ],
+    "unlockConditionsList": [],
+    "isLock": false,
+    "func": "OpenLevel",
+    "btnType": "Other",
+    "mId": -1,
+    "uiPath": "",
+    "buildingId": -1,
+    "stationPlace": -1,
+    "dialogId": -1,
+    "dungeonId": -1,
+    "levelId": 20101144,
+    "textId": -1,
+    "npcId": -1,
+    "bgPath": "",
+    "bgColor": "FFFFFF",
+    "frontIconPath": ""
+  },
+  {
+    "id": 86400266,
+    "idCN": "03气泡/C6海角城S0/02剧情/EP6-7",
+    "mod": "气泡",
+    "isInformalData": false,
+    "name": "6-7",
+    "isSpecial": false,
+    "isInstance": false,
+    "iconPath": "RolePlus/Lissandra/Face",
+    "nameIconPath": "UI/CityMap/citymap_icon_battlezone",
+    "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
+    "animLoop": "UI_CityBtn_01_Loop",
+    "animOut": "UI_CityBtn_01_Out",
+    "activityId": -1,
+    "startTime": "",
+    "endTime": "",
+    "displayConditionsList": [
+      {
+        "condition": "Questing",
+        "mId": 81001576,
+        "val": 0
+      }
+    ],
+    "unlockConditionsList": [],
+    "isLock": false,
+    "func": "OpenLevel",
+    "btnType": "Other",
+    "mId": -1,
+    "uiPath": "",
+    "buildingId": -1,
+    "stationPlace": -1,
+    "dialogId": -1,
+    "dungeonId": -1,
+    "levelId": 20101147,
+    "textId": -1,
+    "npcId": -1,
+    "bgPath": "",
+    "bgColor": "FFFFFF",
+    "frontIconPath": ""
+  },
+  {
+    "id": 86400268,
+    "idCN": "03气泡/C6海角城S0/02剧情/EP6-8",
+    "mod": "气泡",
+    "isInformalData": false,
+    "name": "6-8",
+    "isSpecial": false,
+    "isInstance": false,
+    "iconPath": "RolePlus/Lissandra/Face",
+    "nameIconPath": "",
+    "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
+    "animLoop": "UI_CityBtn_01_Loop",
+    "animOut": "UI_CityBtn_01_Out",
+    "activityId": -1,
+    "startTime": "",
+    "endTime": "",
+    "displayConditionsList": [
+      {
+        "condition": "Questing",
+        "mId": 81001577,
+        "val": 0
+      }
+    ],
+    "unlockConditionsList": [],
+    "isLock": false,
+    "func": "OpenDialog",
+    "btnType": "Other",
+    "mId": -1,
+    "uiPath": "",
+    "buildingId": -1,
+    "stationPlace": -1,
+    "dialogId": 20700486,
+    "dungeonId": -1,
+    "levelId": -1,
+    "textId": -1,
+    "npcId": -1,
+    "bgPath": "",
+    "bgColor": "FFFFFF",
+    "frontIconPath": ""
+  },
+  {
+    "id": 86400252,
+    "idCN": "03气泡/C6海角城S0/02剧情/EP6-9",
+    "mod": "气泡",
+    "isInformalData": false,
+    "name": "6-9",
+    "isSpecial": false,
+    "isInstance": false,
+    "iconPath": "RolePlus/Flan/Face",
+    "nameIconPath": "UI/CityMap/citymap_icon_battlezone",
+    "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
+    "animLoop": "UI_CityBtn_01_Loop",
+    "animOut": "UI_CityBtn_01_Out",
+    "activityId": -1,
+    "startTime": "",
+    "endTime": "",
+    "displayConditionsList": [
+      {
+        "condition": "Questing",
+        "mId": 81001578,
+        "val": 0
+      }
+    ],
+    "unlockConditionsList": [],
+    "isLock": false,
+    "func": "OpenLevel",
+    "btnType": "Other",
+    "mId": -1,
+    "uiPath": "",
+    "buildingId": -1,
+    "stationPlace": -1,
+    "dialogId": -1,
+    "dungeonId": -1,
+    "levelId": 20101148,
+    "textId": -1,
+    "npcId": -1,
+    "bgPath": "",
+    "bgColor": "FFFFFF",
+    "frontIconPath": ""
+  },
+  {
+    "id": 86400269,
+    "idCN": "03气泡/C6海角城S0/02剧情/EP6-10",
+    "mod": "气泡",
+    "isInformalData": false,
+    "name": "6-10",
+    "isSpecial": false,
+    "isInstance": false,
+    "iconPath": "RolePlus/Ithos/Face",
+    "nameIconPath": "",
+    "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
+    "animLoop": "UI_CityBtn_01_Loop",
+    "animOut": "UI_CityBtn_01_Out",
+    "activityId": -1,
+    "startTime": "",
+    "endTime": "",
+    "displayConditionsList": [
+      {
+        "condition": "Questing",
+        "mId": 81001579,
+        "val": 0
+      }
+    ],
+    "unlockConditionsList": [],
+    "isLock": false,
+    "func": "OpenDialog",
+    "btnType": "Other",
+    "mId": -1,
+    "uiPath": "",
+    "buildingId": -1,
+    "stationPlace": -1,
+    "dialogId": 20700489,
+    "dungeonId": -1,
+    "levelId": -1,
+    "textId": -1,
+    "npcId": -1,
+    "bgPath": "",
+    "bgColor": "FFFFFF",
+    "frontIconPath": ""
+  },
+  {
+    "id": 86400270,
+    "idCN": "03气泡/C6海角城S0/02剧情/EP6-11",
+    "mod": "气泡",
+    "isInformalData": false,
+    "name": "6-11",
+    "isSpecial": false,
+    "isInstance": true,
+    "iconPath": "RolePlus/Raziel/Face",
+    "nameIconPath": "UI/CityMap/citymap_icon_battlezone",
+    "effectPath": "UI/UIEffect/particle/UI_city/UI_dungeonBtn_01/UI_dungeonBtn_04_1",
+    "animLoop": "UI_CityBtn_01_Loop",
+    "animOut": "UI_CityBtn_01_Out",
+    "activityId": -1,
+    "startTime": "",
+    "endTime": "",
+    "displayConditionsList": [
+      {
+        "condition": "Questing",
+        "mId": 81001580,
+        "val": 0
+      }
+    ],
+    "unlockConditionsList": [],
+    "isLock": false,
+    "func": "OpenDungeon",
+    "btnType": "Other",
+    "mId": -1,
+    "uiPath": "",
+    "buildingId": -1,
+    "stationPlace": -1,
+    "dialogId": -1,
+    "dungeonId": -1,
+    "levelId": -1,
+    "textId": -1,
+    "npcId": -1,
+    "bgPath": "",
+    "bgColor": "FFFFFF",
+    "frontIconPath": ""
+  },
+  {
+    "id": 86400253,
+    "idCN": "03气泡/C1七号自由港S0/02剧情/EP6-对话1奇奇",
+    "mod": "气泡",
+    "isInformalData": false,
+    "name": "奇奇",
+    "isSpecial": false,
+    "isInstance": false,
+    "iconPath": "NPC/HJC/CityHall",
+    "nameIconPath": "",
+    "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
+    "animLoop": "UI_CityBtn_01_Loop",
+    "animOut": "UI_CityBtn_01_Out",
+    "activityId": -1,
+    "startTime": "",
+    "endTime": "",
+    "displayConditionsList": [
+      {
+        "condition": "Questing",
+        "mId": 81000963,
+        "val": 0
+      }
+    ],
+    "unlockConditionsList": [],
+    "isLock": false,
+    "func": "OpenDialog",
+    "btnType": "Other",
+    "mId": -1,
+    "uiPath": "",
+    "buildingId": -1,
+    "stationPlace": -1,
+    "dialogId": 20700477,
     "dungeonId": -1,
     "levelId": -1,
     "textId": -1,
