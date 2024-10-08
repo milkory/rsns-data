@@ -1146,21 +1146,19 @@
         "skillId": 12300731
       }
     ],
-    "tempdesc": "【灾月】的伤害大幅提高，但所需费用+1",
-    "desc": "【灾月】的伤害大幅提高，但所需费用+1",
+    "tempdesc": "【灾月】造成2段伤害，但所需费用+1\\n【队长技】条件调整为：使用【灾月】2次",
+    "desc": "【灾月】造成2段伤害，但所需费用+1\\n【队长技】条件调整为：使用【灾月】2次",
     "skillChangeList": [
       {
         "newSkillId": 12300088,
         "oldSkillId": 12300110
+      },
+      {
+        "newSkillId": 12301960,
+        "oldSkillId": 12300112
       }
     ],
-    "skillParamOffsetList": [
-      {
-        "skillId": 12300112,
-        "tag": "A",
-        "value_SN": 240000
-      }
-    ]
+    "skillParamOffsetList": []
   },
   {
     "id": 12100097,
@@ -1261,8 +1259,8 @@
         "skillId": 12300728
       }
     ],
-    "tempdesc": "使用黄卡，绿卡，蓝卡或紫卡后，有50%概率从弃牌区回收1张【灾月】加入手牌",
-    "desc": "使用黄卡，绿卡，蓝卡或紫卡后，有50%概率从弃牌区回收1张【灾月】加入手牌",
+    "tempdesc": "使用黄卡/绿卡/蓝卡/紫卡后，有50%概率从弃牌区回收1张【灾月】加入手牌",
+    "desc": "使用黄卡/绿卡/蓝卡/紫卡后，有50%概率从弃牌区回收1张【灾月】加入手牌",
     "skillChangeList": [],
     "skillParamOffsetList": []
   },
@@ -7990,9 +7988,13 @@
         "num": 1
       }
     ],
-    "skillList": [],
-    "tempdesc": "所有分身造成的治疗量，伤害和负面效果持续时间提高20%",
-    "desc": "所有分身造成的治疗量，伤害和负面效果持续时间提高20%",
+    "skillList": [
+      {
+        "skillId": 12301169
+      }
+    ],
+    "tempdesc": "所有分身造成的治疗量，伤害和负面效果持续时间提高20%\\n同时红卡也可触发【相随】",
+    "desc": "所有分身造成的治疗量，伤害和负面效果持续时间提高20%\\n同时红卡也可触发【相随】",
     "skillChangeList": [],
     "skillParamOffsetList": [
       {
@@ -8111,8 +8113,8 @@
         "skillId": 12300686
       }
     ],
-    "tempdesc": "使用紫卡时，“黑莓”有50%概率出没，对敌方射出5把匕首并将造成伤害的50%治疗生命值最低的1名我方",
-    "desc": "使用紫卡时，“黑莓”有50%概率出没，对敌方射出5把匕首并将造成伤害的50%治疗生命值最低的1名我方",
+    "tempdesc": "使用紫卡或绿卡时，“黑莓”有50%概率出没，对敌方射出5把匕首并将造成伤害的50%治疗生命值最低的1名我方",
+    "desc": "使用紫卡或绿卡时，“黑莓”有50%概率出没，对敌方射出5把匕首并将造成伤害的50%治疗生命值最低的1名我方",
     "skillChangeList": [],
     "skillParamOffsetList": []
   },
@@ -9328,42 +9330,6 @@
     "skillList": [],
     "tempdesc": "防御力+150",
     "desc": "防御力+150",
-    "skillChangeList": [],
-    "skillParamOffsetList": []
-  },
-  {
-    "id": 12100406,
-    "idCN": "05五星/妮蔻拉/觉醒5-独狼",
-    "mod": "基础突破",
-    "isInformalData": false,
-    "name": "独狼",
-    "path": "RolePlus\\00Gift\\Circular\\dulang",
-    "attriDetialList": [],
-    "attributeList": [
-      {
-        "attributeType": "Atk",
-        "numType": "Number",
-        "num_SN": 500000
-      },
-      {
-        "attributeType": "Def",
-        "numType": "Number",
-        "num_SN": 500000
-      }
-    ],
-    "materialList": [
-      {
-        "itemId": 11700144,
-        "num": 1
-      }
-    ],
-    "skillList": [
-      {
-        "skillId": 12301169
-      }
-    ],
-    "tempdesc": "攻击力和防御力+50\\n当场上只有妮蔻拉存活时，攻击力和防御力额外+150\\n同时抓满手牌，优先自身技能牌\\n若自身为队长时，立刻激活【队长技】",
-    "desc": "攻击力和防御力+50\\n当场上只有妮蔻拉存活时，攻击力和防御力额外+150\\n同时抓满手牌，优先自身技能牌\\n若自身为队长时，立刻激活【队长技】",
     "skillChangeList": [],
     "skillParamOffsetList": []
   },
@@ -14072,7 +14038,7 @@
   },
   {
     "id": 12100618,
-    "idCN": "05五星/妮蔻拉/觉醒5-独狼_新",
+    "idCN": "05五星/妮蔻拉/觉醒5-独狼",
     "mod": "基础突破",
     "isInformalData": false,
     "name": "独狼",
@@ -14416,6 +14382,144 @@
     "materialList": [
       {
         "itemId": 11700222,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "防御力+150",
+    "desc": "防御力+150",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100633,
+    "idCN": "05五星/帕拉笛/觉醒0",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "",
+    "path": "",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700220,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "",
+    "desc": "",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100632,
+    "idCN": "05五星/帕拉笛/觉醒5-精神镇压",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "精神镇压",
+    "path": "RolePlus\\00Gift\\Circular\\JingShengYaPo",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700220,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "使处于【掌控】标记的目标，受到的伤害增加20%\\n每施加1层【掌控】标记，受到的伤害额外增加5%",
+    "desc": "使处于【掌控】标记的目标，受到的伤害增加20%\\n每施加1层【掌控】标记，受到的伤害额外增加5%",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100634,
+    "idCN": "05五星/帕拉笛/觉醒2-口香糖导弹",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "口香糖导弹",
+    "path": "RolePlus\\00Gift\\Circular\\KouXiangTangDaoDan",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700220,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "【A-2SO】每段射击的同时额外发射1枚【口香糖导弹】，对敌方造成1段伤害，同时触发【引雷】\\n【口香糖导弹】为【爆炸物】\\n【A-2SO】的射击技能包括【普通技能】和【高压镇暴】",
+    "desc": "【A-2SO】每段射击的同时额外发射1枚【口香糖导弹】，对敌方造成1段伤害，同时触发【引雷】\\n【口香糖导弹】为【爆炸物】\\n【A-2SO】的射击技能包括【普通技能】和【高压镇暴】",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100635,
+    "idCN": "05五星/帕拉笛/觉醒1-灵活部署",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "灵活部署",
+    "path": "RolePlus\\00Gift\\Circular\\LingHuoBuShu",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700220,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "每20秒触发1次，受到伤害时，若场上没有【铁幕】，从牌库或弃牌区将1张【铁幕】加入手牌",
+    "desc": "每20秒触发1次，受到伤害时，若场上没有【铁幕】，从牌库或弃牌区将1张【铁幕】加入手牌",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100636,
+    "idCN": "05五星/帕拉笛/觉醒3-斗志",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "斗志",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 1500000
+      }
+    ],
+    "materialList": [
+      {
+        "itemId": 11700220,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "攻击力+150",
+    "desc": "攻击力+150",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100637,
+    "idCN": "05五星/帕拉笛/觉醒4-强韧",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "强韧",
+    "path": "RolePlus\\00Gift\\Circular\\QiangRen",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 1500000
+      }
+    ],
+    "materialList": [
+      {
+        "itemId": 11700220,
         "num": 1
       }
     ],
