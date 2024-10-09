@@ -4854,7 +4854,10 @@
       }
     ],
     "gettipstype": "Default",
-    "techPoints": 100
+    "techPoints": 100,
+    "skinID": -1,
+    "isDisplayInMaterialWare": false,
+    "isDisplayInFinishedlWare": false
   },
   {
     "id": 11400069,
@@ -14084,17 +14087,47 @@
     "name": "贴纸兑换券",
     "viewId": -1,
     "quality": "Golden",
-    "useType": "Fixed",
+    "useType": "Chosen",
     "numRequired": 1,
     "isBatch": false,
     "exchangeList": [
-      {},
-      {},
-      {},
-      {},
-      {}
+      {
+        "itemId": 82600403,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "itemId": 82600446,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "itemId": 82600411,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "itemId": 82600475,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "itemId": 82600310,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "itemId": 82600327,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "itemId": 82600495,
+        "num": 1,
+        "weight": 1
+      }
     ],
-    "des": "<size=25><color=#FFB800>可以从以下头像中选择其一加入私人收藏。</color></size>\r\\n爆破艺术、饿鹅、好奇玛，桦事人，莉薇娅，约书汪，逐夏一瞥\r\\n\\n与环游手册一起发行的贴纸兑换券，寄回出版社后可以换取指定的精美贴纸，很受一些年龄较小的乘员的欢迎。",
+    "des": "<size=25><color=#FFB800>可以从以下头像中选择其一加入私人收藏。</color></size>\r\\n爆破艺术、饿鹅、好奇玛，桦事人，莉薇娅，约书汪，逐夏一瞥，自彼方莱\r\\n\\n与环游手册一起发行的贴纸兑换券，寄回出版社后可以换取指定的精美贴纸，很受一些年龄较小的乘员的欢迎。",
     "iconPath": "Item\\item\\Small\\onepull2",
     "tipsPath": "Item\\item\\Big\\onepull2",
     "buyPath": "Item\\item\\Small\\onepull2",
@@ -14106,13 +14139,92 @@
     "isCompose": false,
     "containEquipment": false,
     "batchUsetype": "Other",
-    "useLimitNum": 10,
+    "useLimitNum": 1,
+    "isTiredItem": false,
+    "isDrinkItem": false,
+    "drinkNum": 1,
+    "isBattlePassItem": false,
+    "BattlePassType": "Low",
+    "uiPath": "UI/SelectItem/SelectItem2/SelectItem2",
+    "plotAfter": -1,
+    "endTime": "",
+    "limitedTime": 0,
+    "saletype": "NotSale",
+    "rewardList": [],
+    "Getway": [],
+    "gettipstype": "Default",
+    "techPoints": 100,
+    "skinID": -1,
+    "isDisplayInMaterialWare": false,
+    "isDisplayInFinishedlWare": false
+  },
+  {
+    "id": 11400271,
+    "idCN": "自选道具/回忆录",
+    "mod": "可使用道具",
+    "isInformalData": false,
+    "name": "回忆录",
+    "viewId": -1,
+    "quality": "Golden",
+    "useType": "Chosen",
+    "numRequired": 1,
+    "isBatch": false,
+    "exchangeList": [
+      {
+        "itemId": 11000147,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "itemId": 11000308,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "itemId": 11000329,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "itemId": 11000332,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "itemId": 11000346,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "itemId": 11000377,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "itemId": 11000382,
+        "num": 1,
+        "weight": 1
+      }
+    ],
+    "des": "<size=25><color=#FFB800>可以从以下皮肤中自选一个加入乘员衣柜。</color></size>\r\\n菲尼亚-甜梦捕手、莉薇娅-晨光和煦、阿尔喀娜-乐园之夜、卡莱雅-真心珍藏、霖-神机、冯·里奈-摇曳夏日、菲尼亚-海的女儿、卡莱雅-飞跃浪花\r\\n\\n与环游手册一起发行的回忆录，内含往期环游手册精彩内容，非常受错过当期环游手册的列车长们的欢迎。",
+    "iconPath": "Item\\item\\Small\\onepull2",
+    "tipsPath": "Item\\item\\Big\\onepull2",
+    "buyPath": "Item\\item\\Small\\onepull2",
+    "textIcon": "",
+    "breakPath": "",
+    "sort": 0,
+    "isShowNum": true,
+    "isNotDisplayInBag": false,
+    "isCompose": false,
+    "containEquipment": false,
+    "batchUsetype": "Other",
+    "useLimitNum": 1,
     "isTiredItem": false,
     "isDrinkItem": false,
     "drinkNum": 3,
     "isBattlePassItem": false,
     "BattlePassType": "Low",
-    "uiPath": "UI/SelectItem/SelectItem2/SelectItem2",
+    "uiPath": "UI/Common/ChoseSkin/ChoseSkin",
     "plotAfter": -1,
     "endTime": "",
     "limitedTime": 0,

@@ -8751,6 +8751,14 @@
         "value": "<color=#FF6666>刹那明华 ：</color>"
       },
       {
+        "key": "环境_暗曜典式",
+        "value": "<color=#96CDCD>暗曜典式：</color>"
+      },
+      {
+        "key": "环境_闪灭典式",
+        "value": "<color=#D1BF53>闪灭典式：</color>"
+      },
+      {
         "key": "霸体",
         "value": "<color=#7AB2FF>霸体</color>"
       },
@@ -16240,6 +16248,13 @@
         "prefab": "UI/Quest/Quest"
       },
       {
+        "funcId": 124,
+        "icon": "UI/MainUI/main_icon_entrust",
+        "name": "委托",
+        "param": "",
+        "prefab": "UI/Entrust/Entrust"
+      },
+      {
         "funcId": 107,
         "icon": "UI/MainUI/main_icon_trainoverview",
         "name": "营运总览",
@@ -16628,8 +16643,12 @@
       {
         "funcId": 103,
         "guideId": 0,
+        "iconPath": "",
         "isShow": false,
-        "name": "仓库"
+        "name": "仓库",
+        "playerLevel": 0,
+        "quest": -1,
+        "tips": -1
       },
       {
         "funcId": 104,
@@ -16652,6 +16671,8 @@
         "iconPath": "UI/MainUI/main_icon_coach",
         "isShow": false,
         "name": "车厢",
+        "playerLevel": 0,
+        "quest": -1,
         "tips": 80601354
       },
       {
@@ -16688,15 +16709,22 @@
       {
         "funcId": 111,
         "guideId": 0,
+        "iconPath": "",
         "isShow": false,
-        "name": "任务"
+        "name": "任务",
+        "playerLevel": 0,
+        "quest": -1,
+        "tips": -1
       },
       {
         "funcId": 112,
         "guideId": 0,
         "iconPath": "",
         "isShow": false,
-        "name": "图鉴"
+        "name": "图鉴",
+        "playerLevel": 0,
+        "quest": -1,
+        "tips": -1
       },
       {
         "funcId": 113,
@@ -16711,15 +16739,19 @@
         "iconPath": "",
         "isShow": false,
         "name": "用户设置",
+        "playerLevel": 0,
         "quest": -1,
         "tips": -1
       },
       {
         "funcId": 115,
         "guideId": 0,
-        "iconPath": "null",
+        "iconPath": "",
         "isShow": false,
-        "name": "资料库"
+        "name": "资料库",
+        "playerLevel": 0,
+        "quest": -1,
+        "tips": -1
       },
       {
         "funcId": 116,
@@ -16774,6 +16806,16 @@
         "name": "月签",
         "playerLevel": 0,
         "quest": -1,
+        "tips": -1
+      },
+      {
+        "funcId": 124,
+        "guideId": 0,
+        "iconPath": "UI/MainUI/main_icon_entrust",
+        "isShow": false,
+        "name": "委托",
+        "playerLevel": 0,
+        "quest": 81001150,
         "tips": -1
       }
     ]
@@ -21572,17 +21614,6 @@
       },
       {
         "endTime": "",
-        "id": 86000002,
-        "isCompleteBottom": false,
-        "name": 80606880,
-        "png": "UI/Activity/Tab/tab_construction",
-        "showUI": "",
-        "sort": 10,
-        "startTime": "2024-04-25 15:00:00",
-        "tag": 12600158
-      },
-      {
-        "endTime": "",
         "id": 86000016,
         "isCompleteBottom": false,
         "name": 80607837,
@@ -21591,6 +21622,17 @@
         "sort": 0,
         "startTime": "2024-09-10 05:00:00",
         "tag": 12601355
+      },
+      {
+        "endTime": "",
+        "id": 86000002,
+        "isCompleteBottom": false,
+        "name": 80606880,
+        "png": "UI/Activity/Tab/tab_construction",
+        "showUI": "",
+        "sort": 10,
+        "startTime": "2024-04-25 15:00:00",
+        "tag": 12600158
       },
       {
         "endTime": "",
@@ -22660,6 +22702,7 @@
       }
     ],
     "recommendCoefficient": 0.05,
+    "levelCoefficient": 4.0,
     "gradeCoefficientSSR": 10,
     "resonanceCoefficientSSR": 50,
     "awakeCoefficientSSR": 100,
@@ -22690,6 +22733,28 @@
       },
       {
         "id": 84400011
+      }
+    ],
+    "characterSpeed": 1.0,
+    "idleTime": 2,
+    "triggerTimeMin": 3,
+    "triggerTimeMax": 6,
+    "actionList": [
+      {
+        "action": "dorm_happy_01",
+        "time": 2.667
+      },
+      {
+        "action": "dorm_happy_02",
+        "time": 1.333
+      },
+      {
+        "action": "dorm_happy_03",
+        "time": 2.0
+      },
+      {
+        "action": "dorm_stand",
+        "time": 2.666
       }
     ]
   },

@@ -11343,18 +11343,15 @@
   {
     "id": 81100707,
     "idCN": "EP3/制造工作台/制造加工/高亮",
-    "mod": "指定UI高亮",
+    "mod": "聚焦头像面板并高亮",
     "isInformalData": false,
-    "orderType": "UIFocus",
-    "uiPath": "UI/MainUI/ESC",
-    "nodeType": "Fixed",
-    "nodeName": "Group_Info.Btn_MoreInfo",
-    "mId": -1,
-    "delay": false,
-    "w": 190.0,
-    "h": 190.0,
-    "offsetX": 170.0,
-    "offsetY": -300.0,
+    "orderType": "FocusESC",
+    "funcId": 119,
+    "uiType": "ESC",
+    "w": 180.0,
+    "h": 180.0,
+    "offsetX": 80.0,
+    "offsetY": -70.0,
     "alpha": 0.7,
     "isShowFinger": false
   },
@@ -14335,5 +14332,24 @@
     "orderType": "SetPanel",
     "panelName": "UI/CharacterInfo/weapon/Group_Strengthen",
     "isActive": true
+  },
+  {
+    "id": 81100554,
+    "idCN": "EP2/条件跳转/任务/花鸟市场未完成",
+    "mod": "IFELSE跳转",
+    "isInformalData": false,
+    "orderType": "ConditionJumpIndex",
+    "isLoop": false,
+    "trueLabel": -1,
+    "falseLabel": 81100651,
+    "keyList": [
+      {
+        "compareType": "EQ",
+        "key": "QuestCompleted",
+        "num": 0.0,
+        "uiPath": "",
+        "val": "81000716"
+      }
+    ]
   }
 ]
