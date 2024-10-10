@@ -2229,14 +2229,14 @@
     "idCN": "作战中心/荒原站",
     "mod": "动态建筑",
     "isInformalData": false,
-    "name": "作战中心",
+    "name": "阿妮塔观测站",
     "buildingIconPath": "UI/HomeCOC/coc_icon_logo",
     "firstPlotId": -1,
     "uiPath": "",
     "bgPath": "",
     "bgColor": "FFFFFF",
     "stationId": 83000053,
-    "npcId": -1,
+    "npcId": 83700027,
     "helpId": -1,
     "rankId": -1,
     "correspondingActivity": -1,
@@ -16633,7 +16633,7 @@
     "bgPath": "",
     "bgColor": "FFFFFF",
     "stationId": 83000026,
-    "npcId": -1,
+    "npcId": 83700039,
     "helpId": -1,
     "rankId": -1,
     "correspondingActivity": -1,
@@ -59324,5 +59324,683 @@
     "drinkCost": [],
     "barStoreList": [],
     "drinkVideo": ""
+  },
+  {
+    "id": 84400107,
+    "idCN": "作战中心/汇流塔",
+    "mod": "动态建筑",
+    "isInformalData": false,
+    "name": "作战中心",
+    "buildingIconPath": "UI/HomeCOC/coc_icon_logo",
+    "firstPlotId": -1,
+    "uiPath": "",
+    "bgPath": "",
+    "bgColor": "FFFFFF",
+    "stationId": 83000030,
+    "npcId": 83700097,
+    "helpId": -1,
+    "rankId": -1,
+    "correspondingActivity": -1,
+    "eventList": [],
+    "openPageList": []
+  },
+  {
+    "id": 84400238,
+    "idCN": "兑换站/汇流塔-冯里奈",
+    "mod": "兑换站",
+    "isInformalData": false,
+    "name": "",
+    "buildingIconPath": "",
+    "firstPlotId": -1,
+    "uiPath": "UI/ExchangeStation/ExchangeStation",
+    "bgPath": "UI/Dialog/Back/street-day2",
+    "bgColor": "FFFFFF",
+    "stationId": 83000030,
+    "npcId": 83700098,
+    "helpId": -1,
+    "rankId": -1,
+    "correspondingActivity": -1,
+    "eventList": [],
+    "playerLevel": 0,
+    "exchangeOpenPageList": [
+      {
+        "icon": "UI/HomeBattleCenter/icon_exchange",
+        "isStore": true,
+        "isTalk": false,
+        "name": "交换",
+        "showUI": "Group_Exchange"
+      },
+      {
+        "icon": "UI/HomeTrade/trade_icon_sell",
+        "isStore": false,
+        "isTalk": false,
+        "name": "素材回收",
+        "showUI": "Group_Sale",
+        "uiPath": "UI/HomeBattleCenter/HomeBattleCenter"
+      },
+      {
+        "icon": "UI/Home/HomeSafe/jiaotan",
+        "isStore": false,
+        "isTalk": true,
+        "name": "交谈",
+        "showUI": ""
+      }
+    ],
+    "exchangeStoreList": [
+      {
+        "id": 40300017
+      }
+    ],
+    "exchangeWeaponList": [],
+    "isShowConstruct": false,
+    "isShowReputation": false,
+    "exchangeName": "交换清单",
+    "buildingPath": "UI/ExchangeStation/icon_exchange_heiyue",
+    "exchangePath": "UI/HomeBattleCenter/Exchange/icon_heiyue",
+    "pagePath": "UI/HomeBattleCenter/Exchange/di_heiyue",
+    "bottomPath": "UI/HomeBattleCenter/Exchange/di_group_heiyue",
+    "exchangeAffirmPath": "UI/HomeBattleCenter/Exchange/btn_exchange_xuehui",
+    "exchangeCompletePath": "UI/HomeBattleCenter/Exchange/btn_complete_xuehui",
+    "orderNumMax": 6,
+    "orderNumMin": 4,
+    "activityOrderList": [],
+    "orderTitle": -1,
+    "orderDes": -1,
+    "orderBgPath": "",
+    "levelIconPath": "",
+    "buildLevelName": -1,
+    "constructionLevelList": []
+  },
+  {
+    "id": 84400239,
+    "idCN": "00传单地点/云岫桥/1下客点报刊亭",
+    "mod": "传单地点",
+    "isInformalData": false,
+    "name": "",
+    "buildingIconPath": "",
+    "firstPlotId": -1,
+    "uiPath": "",
+    "bgPath": "",
+    "bgColor": "FFFFFF",
+    "stationId": -1,
+    "npcId": -1,
+    "helpId": -1,
+    "rankId": -1,
+    "correspondingActivity": -1,
+    "eventList": [],
+    "namePlace": "下客点报刊亭",
+    "placeType": 12601194,
+    "namePlaceIcon": "UI/Flier/map/yunxiuqiao/yunxiuqiao_xiakedian",
+    "PlaceDesc": 80607166,
+    "unlockPlace": 0,
+    "placeWeight": 1,
+    "passengerTypeList": [
+      {
+        "id": 84200023,
+        "weight": 35
+      },
+      {
+        "id": 84200024,
+        "weight": 35
+      },
+      {
+        "id": 84200057,
+        "weight": 35
+      },
+      {
+        "id": 84200058,
+        "weight": 35
+      },
+      {
+        "id": 84200008,
+        "weight": 35
+      },
+      {
+        "id": 84200009,
+        "weight": 35
+      },
+      {
+        "id": 84200010,
+        "weight": 35
+      },
+      {
+        "id": 84200011,
+        "weight": 35
+      },
+      {
+        "id": 84200033,
+        "weight": 35
+      },
+      {
+        "id": 84200020,
+        "weight": 35
+      },
+      {
+        "id": 84200004,
+        "weight": 35
+      },
+      {
+        "id": 84200019,
+        "weight": 35
+      },
+      {
+        "id": 84200003,
+        "weight": 11
+      },
+      {
+        "id": 84200005,
+        "weight": 11
+      },
+      {
+        "id": 84200006,
+        "weight": 11
+      },
+      {
+        "id": 84200007,
+        "weight": 11
+      },
+      {
+        "id": 84200012,
+        "weight": 11
+      },
+      {
+        "id": 84200013,
+        "weight": 11
+      },
+      {
+        "id": 84200014,
+        "weight": 11
+      },
+      {
+        "id": 84200015,
+        "weight": 11
+      },
+      {
+        "id": 84200016,
+        "weight": 11
+      },
+      {
+        "id": 84200017,
+        "weight": 11
+      },
+      {
+        "id": 84200018,
+        "weight": 11
+      },
+      {
+        "id": 84200059,
+        "weight": 54
+      },
+      {
+        "id": 84200051,
+        "weight": 54
+      },
+      {
+        "id": 84200052,
+        "weight": 54
+      },
+      {
+        "id": 84200053,
+        "weight": 54
+      },
+      {
+        "id": 84200042,
+        "weight": 11
+      },
+      {
+        "id": 84200022,
+        "weight": 11
+      },
+      {
+        "id": 84200021,
+        "weight": 11
+      },
+      {
+        "id": 84200054,
+        "weight": 54
+      },
+      {
+        "id": 84200025,
+        "weight": 25
+      },
+      {
+        "id": 84200056,
+        "weight": 25
+      },
+      {
+        "id": 84200047,
+        "weight": 25
+      },
+      {
+        "id": 84200026,
+        "weight": 25
+      },
+      {
+        "id": 84200001,
+        "weight": 25
+      },
+      {
+        "id": 84200002,
+        "weight": 25
+      }
+    ],
+    "passengerTagList": [
+      {
+        "id": 80300210,
+        "weight": 1
+      },
+      {
+        "id": 80300215,
+        "weight": 1
+      },
+      {
+        "id": 80300281,
+        "weight": 1
+      },
+      {
+        "id": 80301533,
+        "weight": 1
+      },
+      {
+        "id": 80300283,
+        "weight": 1
+      },
+      {
+        "id": 80300236,
+        "weight": 1
+      },
+      {
+        "id": 80300299,
+        "weight": 1
+      },
+      {
+        "id": 80300211,
+        "weight": 1
+      },
+      {
+        "id": 80300284,
+        "weight": 1
+      },
+      {
+        "id": 80300292,
+        "weight": 1
+      },
+      {
+        "id": 80300291,
+        "weight": 1
+      },
+      {
+        "id": 80300213,
+        "weight": 1
+      },
+      {
+        "id": 80300276,
+        "weight": 1
+      },
+      {
+        "id": 80300293,
+        "weight": 1
+      },
+      {
+        "id": 80300301,
+        "weight": 1
+      },
+      {
+        "id": 80301531,
+        "weight": 1
+      },
+      {
+        "id": 80300277,
+        "weight": 1
+      },
+      {
+        "id": 80300285,
+        "weight": 1
+      },
+      {
+        "id": 80300294,
+        "weight": 1
+      },
+      {
+        "id": 80300216,
+        "weight": 1
+      },
+      {
+        "id": 80300278,
+        "weight": 1
+      },
+      {
+        "id": 80300286,
+        "weight": 1
+      },
+      {
+        "id": 80300295,
+        "weight": 1
+      },
+      {
+        "id": 80300233,
+        "weight": 1
+      },
+      {
+        "id": 80300279,
+        "weight": 1
+      },
+      {
+        "id": 80300287,
+        "weight": 1
+      },
+      {
+        "id": 80300296,
+        "weight": 1
+      },
+      {
+        "id": 80300300,
+        "weight": 1
+      },
+      {
+        "id": 80300302,
+        "weight": 1
+      },
+      {
+        "id": 80300303,
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": 84400240,
+    "idCN": "00传单地点/云岫桥/2交易所",
+    "mod": "传单地点",
+    "isInformalData": false,
+    "name": "",
+    "buildingIconPath": "",
+    "firstPlotId": -1,
+    "uiPath": "",
+    "bgPath": "",
+    "bgColor": "FFFFFF",
+    "stationId": -1,
+    "npcId": -1,
+    "helpId": -1,
+    "rankId": -1,
+    "correspondingActivity": -1,
+    "eventList": [],
+    "namePlace": "交易所",
+    "placeType": 12601195,
+    "namePlaceIcon": "UI/Flier/map/yunxiuqiao/yunxiuqiao_bourse",
+    "PlaceDesc": 80607167,
+    "unlockPlace": 0,
+    "placeWeight": 1,
+    "passengerTypeList": [
+      {
+        "id": 84200023,
+        "weight": 35
+      },
+      {
+        "id": 84200024,
+        "weight": 35
+      },
+      {
+        "id": 84200057,
+        "weight": 35
+      },
+      {
+        "id": 84200058,
+        "weight": 35
+      },
+      {
+        "id": 84200008,
+        "weight": 35
+      },
+      {
+        "id": 84200009,
+        "weight": 35
+      },
+      {
+        "id": 84200010,
+        "weight": 35
+      },
+      {
+        "id": 84200011,
+        "weight": 35
+      },
+      {
+        "id": 84200033,
+        "weight": 35
+      },
+      {
+        "id": 84200020,
+        "weight": 35
+      },
+      {
+        "id": 84200004,
+        "weight": 35
+      },
+      {
+        "id": 84200019,
+        "weight": 35
+      },
+      {
+        "id": 84200003,
+        "weight": 11
+      },
+      {
+        "id": 84200005,
+        "weight": 11
+      },
+      {
+        "id": 84200006,
+        "weight": 11
+      },
+      {
+        "id": 84200007,
+        "weight": 11
+      },
+      {
+        "id": 84200012,
+        "weight": 11
+      },
+      {
+        "id": 84200013,
+        "weight": 11
+      },
+      {
+        "id": 84200014,
+        "weight": 11
+      },
+      {
+        "id": 84200015,
+        "weight": 11
+      },
+      {
+        "id": 84200016,
+        "weight": 11
+      },
+      {
+        "id": 84200017,
+        "weight": 11
+      },
+      {
+        "id": 84200018,
+        "weight": 11
+      },
+      {
+        "id": 84200059,
+        "weight": 54
+      },
+      {
+        "id": 84200051,
+        "weight": 54
+      },
+      {
+        "id": 84200052,
+        "weight": 54
+      },
+      {
+        "id": 84200053,
+        "weight": 54
+      },
+      {
+        "id": 84200042,
+        "weight": 11
+      },
+      {
+        "id": 84200022,
+        "weight": 11
+      },
+      {
+        "id": 84200021,
+        "weight": 11
+      },
+      {
+        "id": 84200054,
+        "weight": 54
+      },
+      {
+        "id": 84200025,
+        "weight": 25
+      },
+      {
+        "id": 84200056,
+        "weight": 25
+      },
+      {
+        "id": 84200047,
+        "weight": 25
+      },
+      {
+        "id": 84200026,
+        "weight": 25
+      },
+      {
+        "id": 84200001,
+        "weight": 25
+      },
+      {
+        "id": 84200002,
+        "weight": 25
+      }
+    ],
+    "passengerTagList": [
+      {
+        "id": 80300210,
+        "weight": 1
+      },
+      {
+        "id": 80300215,
+        "weight": 1
+      },
+      {
+        "id": 80300281,
+        "weight": 1
+      },
+      {
+        "id": 80301533,
+        "weight": 1
+      },
+      {
+        "id": 80300283,
+        "weight": 1
+      },
+      {
+        "id": 80300236,
+        "weight": 1
+      },
+      {
+        "id": 80300299,
+        "weight": 1
+      },
+      {
+        "id": 80300211,
+        "weight": 1
+      },
+      {
+        "id": 80300284,
+        "weight": 1
+      },
+      {
+        "id": 80300292,
+        "weight": 1
+      },
+      {
+        "id": 80300291,
+        "weight": 1
+      },
+      {
+        "id": 80300213,
+        "weight": 1
+      },
+      {
+        "id": 80300276,
+        "weight": 1
+      },
+      {
+        "id": 80300293,
+        "weight": 1
+      },
+      {
+        "id": 80300301,
+        "weight": 1
+      },
+      {
+        "id": 80301531,
+        "weight": 1
+      },
+      {
+        "id": 80300277,
+        "weight": 1
+      },
+      {
+        "id": 80300285,
+        "weight": 1
+      },
+      {
+        "id": 80300294,
+        "weight": 1
+      },
+      {
+        "id": 80300216,
+        "weight": 1
+      },
+      {
+        "id": 80300278,
+        "weight": 1
+      },
+      {
+        "id": 80300286,
+        "weight": 1
+      },
+      {
+        "id": 80300295,
+        "weight": 1
+      },
+      {
+        "id": 80300233,
+        "weight": 1
+      },
+      {
+        "id": 80300279,
+        "weight": 1
+      },
+      {
+        "id": 80300287,
+        "weight": 1
+      },
+      {
+        "id": 80300296,
+        "weight": 1
+      },
+      {
+        "id": 80300300,
+        "weight": 1
+      },
+      {
+        "id": 80300302,
+        "weight": 1
+      },
+      {
+        "id": 80300303,
+        "weight": 1
+      }
+    ]
   }
 ]
