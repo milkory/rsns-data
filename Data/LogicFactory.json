@@ -1922,5 +1922,18 @@
     "returnType": "bool",
     "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rgetp currentCore\rset $core\r\rif\r\tget $core currentCard\r\tset $card\r\tif\r\t\tgetp ca id\r\t\tset $id\r\t\t\r        get $core extraCardWeightDic\r        set $extraCardWeightDic\r\r        callWith $extraCardWeightDic ContainsKey $id\r        if\r            get $extraCardWeightDic $id\r            set $weight\r            if $weight lt 0\r                ret $false\r            endif\r        endif\r\tendif\rendif\r\rret $true",
     "cacheAsGMF": true
+  },
+  {
+    "id": 60000142,
+    "idCN": "卡牌/功能节点/卡牌可使用/卡牌未被禁止拖拽",
+    "mod": "执行GS脚本",
+    "isInformalData": false,
+    "debug": false,
+    "autoRecycle": false,
+    "memo": "检测卡牌上是否有传入的buff。\r全都没有返回true",
+    "paramHelp": "",
+    "returnType": "bool",
+    "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rgetp currentCore\rset $core\r\rif\r\tget $core currentCard\r\tset $card\r\tif\r\t\tgetp cardProperty\r\t\tset $property\r\t\tif\r\t\t\tgetp buffSystem\r\t\t\tset $buffSystem\r\t\t\tcgf GetSpecialLink \"CardViewBanDrag\"\r            set $buffLink\r\t\t\tif\r                get $buffLink count\r                set $buffCount\r                if $buffCount gt 0\r\t\t\t\t\tret $false\r                endif\r\t\t\tendif\r\t\tendif\r\tendif\rendif\r\rret $true",
+    "cacheAsGMF": true
   }
 ]

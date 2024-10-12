@@ -32926,12 +32926,14 @@
     "id": 10201286,
     "idCN": "敌方/01暴徒/棒斧/普攻1",
     "mod": "基础状态",
+    "isInformalData": false,
     "actionLevel": "NormalAttack",
     "viewId": 11000116,
     "aniName": "attack_01",
     "isLoop": false,
     "aniTime_SN": 13333,
     "totalFrame": 80,
+    "customFrameTag": "",
     "frameChanged": false,
     "frameEventList": [
       {
@@ -32949,7 +32951,7 @@
         "effectId": 11101066,
         "offsetX": 0.0,
         "offsetY": 0.0,
-        "triggerFrame": 0,
+        "triggerFrame": 33,
         "triggerTime_SN": 0
       }
     ],
@@ -32963,21 +32965,23 @@
     "isYChange": false,
     "offsetYList": [],
     "speed_SN": 0,
+    "speedY_SN": 0,
     "keyFrameList": [],
     "isSetSortingOrder": false,
-    "sortingOrder": 0,
-    "speedY_SN": 0
+    "sortingOrder": 0
   },
   {
     "id": 10201287,
     "idCN": "敌方/01暴徒/棒斧/普攻2",
     "mod": "基础状态",
+    "isInformalData": false,
     "actionLevel": "NormalAttack",
     "viewId": 11000116,
     "aniName": "attack_02",
     "isLoop": false,
     "aniTime_SN": 13333,
     "totalFrame": 80,
+    "customFrameTag": "",
     "frameChanged": false,
     "frameEventList": [
       {
@@ -32995,7 +32999,7 @@
         "effectId": 11101067,
         "offsetX": 0.0,
         "offsetY": 0.0,
-        "triggerFrame": 0,
+        "triggerFrame": 29,
         "triggerTime_SN": 0
       }
     ],
@@ -33009,10 +33013,10 @@
     "isYChange": false,
     "offsetYList": [],
     "speed_SN": 0,
+    "speedY_SN": 0,
     "keyFrameList": [],
     "isSetSortingOrder": false,
-    "sortingOrder": 0,
-    "speedY_SN": 0
+    "sortingOrder": 0
   },
   {
     "id": 10201288,
@@ -111638,7 +111642,7 @@
     "mod": "基础状态",
     "isInformalData": false,
     "actionLevel": "NormalSkill",
-    "viewId": 11000156,
+    "viewId": 11000416,
     "aniName": "skill_01_02",
     "isLoop": false,
     "aniTime_SN": 7667,
@@ -111736,7 +111740,7 @@
     "mod": "基础状态",
     "isInformalData": false,
     "actionLevel": "NormalSkill",
-    "viewId": 11000156,
+    "viewId": 11000416,
     "aniName": "skill_01_01",
     "isLoop": false,
     "aniTime_SN": 7667,
@@ -111860,7 +111864,7 @@
     "mod": "基础状态",
     "isInformalData": false,
     "actionLevel": "NormalSkill",
-    "viewId": 11000156,
+    "viewId": 11000416,
     "aniName": "skill_01_03",
     "isLoop": false,
     "aniTime_SN": 7667,
@@ -111962,7 +111966,7 @@
     "mod": "基础状态",
     "isInformalData": false,
     "actionLevel": "NormalSkill",
-    "viewId": 11000156,
+    "viewId": 11000416,
     "aniName": "skill_02_01",
     "isLoop": false,
     "aniTime_SN": 11666,
@@ -112074,7 +112078,7 @@
     "mod": "基础状态",
     "isInformalData": false,
     "actionLevel": "NormalSkill",
-    "viewId": 11000156,
+    "viewId": 11000416,
     "aniName": "skill_02_02",
     "isLoop": false,
     "aniTime_SN": 13333,
@@ -112108,7 +112112,7 @@
     "mod": "基础状态",
     "isInformalData": false,
     "actionLevel": "NormalSkill",
-    "viewId": 11000156,
+    "viewId": 11000416,
     "aniName": "skill_02_03",
     "isLoop": false,
     "aniTime_SN": 6666,
@@ -112132,7 +112136,7 @@
     "mod": "基础状态",
     "isInformalData": false,
     "actionLevel": "NormalSkill",
-    "viewId": 11000156,
+    "viewId": 11000416,
     "aniName": "stand",
     "isLoop": false,
     "aniTime_SN": 1669,
@@ -112166,7 +112170,7 @@
     "mod": "基础状态",
     "isInformalData": false,
     "actionLevel": "SpecialSkill",
-    "viewId": 11000156,
+    "viewId": 11000416,
     "aniName": "preskl_03",
     "isLoop": false,
     "aniTime_SN": 15000,
@@ -112267,7 +112271,7 @@
     "mod": "基础状态",
     "isInformalData": false,
     "actionLevel": "SpecialSkill",
-    "viewId": 11000156,
+    "viewId": 11000416,
     "aniName": "skill_03",
     "isLoop": false,
     "aniTime_SN": 16666,
@@ -173391,6 +173395,18 @@
         "wHalf_SN": 0,
         "x_SN": 0,
         "y_SN": 0
+      },
+      {
+        "customDataTag": "",
+        "excuteTimes": 10000,
+        "frameEventId": 10502486,
+        "hHalf_SN": 10000,
+        "timesSource": "FixedValue",
+        "triggerFrame": 38,
+        "triggerTime_SN": 6333,
+        "wHalf_SN": 240000,
+        "x_SN": 0,
+        "y_SN": 0
       }
     ],
     "effectList": [
@@ -175363,7 +175379,20 @@
     "totalFrame": 221,
     "customFrameTag": "",
     "frameChanged": false,
-    "frameEventList": [],
+    "frameEventList": [
+      {
+        "customDataTag": "",
+        "excuteTimes": 10000,
+        "frameEventId": 10502485,
+        "hHalf_SN": 0,
+        "timesSource": "FixedValue",
+        "triggerFrame": 50,
+        "triggerTime_SN": 8333,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      }
+    ],
     "effectList": [
       {
         "effectId": 11106429,
@@ -177252,7 +177281,7 @@
       {
         "effectId": 11106433,
         "offsetX": 0.0,
-        "offsetY": 0.0,
+        "offsetY": 3.0,
         "triggerFrame": 45,
         "triggerTime_SN": 7500
       },
@@ -177354,15 +177383,8 @@
         "effectId": 11106447,
         "offsetX": 0.0,
         "offsetY": 2.0,
-        "triggerFrame": 1,
-        "triggerTime_SN": 0
-      },
-      {
-        "effectId": 11106446,
-        "offsetX": 0.0,
-        "offsetY": 0.0,
-        "triggerFrame": 12,
-        "triggerTime_SN": 2000
+        "triggerFrame": 10,
+        "triggerTime_SN": 1667
       }
     ],
     "soundList": [],
@@ -178060,6 +178082,30 @@
         "wHalf_SN": 0,
         "x_SN": 0,
         "y_SN": 0
+      },
+      {
+        "customDataTag": "",
+        "excuteTimes": 10000,
+        "frameEventId": 10502484,
+        "hHalf_SN": 0,
+        "timesSource": "FixedValue",
+        "triggerFrame": 40,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "customDataTag": "",
+        "excuteTimes": 10000,
+        "frameEventId": 10501087,
+        "hHalf_SN": 0,
+        "timesSource": "FixedValue",
+        "triggerFrame": 100,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
       }
     ],
     "effectList": [
@@ -178730,6 +178776,18 @@
         "wHalf_SN": 0,
         "x_SN": 0,
         "y_SN": 0
+      },
+      {
+        "customDataTag": "",
+        "excuteTimes": 10000,
+        "frameEventId": 10502483,
+        "hHalf_SN": 0,
+        "timesSource": "FixedValue",
+        "triggerFrame": 100,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
       }
     ],
     "effectList": [
@@ -178888,6 +178946,108 @@
     "frameChanged": false,
     "frameEventList": [],
     "effectList": [],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203874,
+    "idCN": "敌方/000角色/黑月/隼/普攻1",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "NormalAttack",
+    "viewId": 11000416,
+    "aniName": "attack_01",
+    "isLoop": false,
+    "aniTime_SN": 15167,
+    "totalFrame": 91,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "customDataTag": "",
+        "excuteTimes": 10000,
+        "frameEventId": 10501192,
+        "hHalf_SN": 0,
+        "timesSource": "FixedValue",
+        "triggerFrame": 50,
+        "triggerTime_SN": 8333,
+        "wHalf_SN": 0,
+        "x_SN": 13400,
+        "y_SN": 9800
+      },
+      {
+        "customDataTag": "",
+        "excuteTimes": 10000,
+        "frameEventId": 10501192,
+        "hHalf_SN": 0,
+        "timesSource": "FixedValue",
+        "triggerFrame": 50,
+        "triggerTime_SN": 8333,
+        "wHalf_SN": 0,
+        "x_SN": 23600,
+        "y_SN": 15400
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11102814,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 49,
+        "triggerTime_SN": 8167
+      }
+    ],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203875,
+    "idCN": "敌方/000角色/黑月/隼/普攻2",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "NormalAttack",
+    "viewId": 11000416,
+    "aniName": "attack_02",
+    "isLoop": false,
+    "aniTime_SN": 12667,
+    "totalFrame": 76,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "customDataTag": "",
+        "excuteTimes": 10000,
+        "frameEventId": 10501192,
+        "hHalf_SN": 0,
+        "timesSource": "FixedValue",
+        "triggerFrame": 32,
+        "triggerTime_SN": 5333,
+        "wHalf_SN": 0,
+        "x_SN": 15900,
+        "y_SN": 11600
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11102816,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 31,
+        "triggerTime_SN": 5167
+      }
+    ],
     "soundList": [],
     "isYChange": false,
     "offsetYList": [],

@@ -11017,7 +11017,7 @@
     "orderType": "ConditionJumpIndex",
     "isLoop": false,
     "trueLabel": -1,
-    "falseLabel": 81100651,
+    "falseLabel": 81100653,
     "keyList": [
       {
         "compareType": "NE",
@@ -14351,5 +14351,105 @@
         "val": "81000716"
       }
     ]
+  },
+  {
+    "id": 81100571,
+    "idCN": "EP1/编队/鲸鱼/文本莉薇娅队长1-男-点击",
+    "mod": "提示",
+    "isInformalData": false,
+    "orderType": "Tip",
+    "x": 0.0,
+    "y": 297.0,
+    "text": "大家小心桦树生物，本次作战由莉薇娅担任队长。",
+    "isDoTween": true,
+    "speed": 0.02,
+    "soundId": -1,
+    "pfp": "UI/Guidance/PFP/PlayerM",
+    "isWaitClick": true,
+    "left": 2,
+    "top": 2,
+    "autoCompletedTime": -1.0
+  },
+  {
+    "id": 81100550,
+    "idCN": "EP1/编队/鲸鱼/文本莉薇娅队长1-女-点击",
+    "mod": "提示",
+    "isInformalData": false,
+    "orderType": "Tip",
+    "x": 0.0,
+    "y": 297.0,
+    "text": "大家小心桦树生物，本次作战由莉薇娅担任队长。",
+    "isDoTween": true,
+    "speed": 0.02,
+    "soundId": -1,
+    "pfp": "UI/Guidance/PFP/PlayerW",
+    "isWaitClick": true,
+    "left": 2,
+    "top": 2,
+    "autoCompletedTime": -1.0
+  },
+  {
+    "id": 81100572,
+    "idCN": "EP1/条件跳转/编队/队长在1号位",
+    "mod": "IFELSE跳转",
+    "isInformalData": false,
+    "orderType": "ConditionJumpIndex",
+    "isLoop": false,
+    "trueLabel": -1,
+    "falseLabel": 81100944,
+    "keyList": [
+      {
+        "compareType": "EQ",
+        "key": "CaptainNumber",
+        "num": 1.0,
+        "uiPath": "",
+        "val": "0"
+      }
+    ]
+  },
+  {
+    "id": 81100573,
+    "idCN": "通用/条件跳转/性别/女列车长2",
+    "mod": "IFELSE跳转",
+    "isInformalData": false,
+    "orderType": "ConditionJumpIndex",
+    "isLoop": false,
+    "trueLabel": 81100589,
+    "falseLabel": -1,
+    "keyList": [
+      {
+        "compareType": "EQ",
+        "key": "IsMale",
+        "num": 1.0,
+        "uiPath": "",
+        "val": "0"
+      }
+    ]
+  },
+  {
+    "id": 81100588,
+    "idCN": "通用/条件跳转/性别/男列车长2",
+    "mod": "IFELSE跳转",
+    "isInformalData": false,
+    "orderType": "ConditionJumpIndex",
+    "isLoop": false,
+    "trueLabel": -1,
+    "falseLabel": 81100573,
+    "keyList": [
+      {
+        "compareType": "EQ",
+        "key": "IsMale",
+        "num": 1.0,
+        "uiPath": "",
+        "val": "0"
+      }
+    ]
+  },
+  {
+    "id": 81100589,
+    "idCN": "通用/标签/女列车长结束2",
+    "mod": "标签",
+    "isInformalData": false,
+    "orderType": "Tag"
   }
 ]
