@@ -3226,6 +3226,7 @@
     "name": "如影随形",
     "skinDetail": "为亚莉奈量身打造的列车痛车涂装。大胆的配色与那张熟悉的脸庞相得益彰。请不要多想这个方案为何会出现在可选清单中，享受和她一起驰骋于铁道的旅途吧。",
     "skinTag": 12601376,
+    "wheelAnimatorPath": "",
     "thumbnail": "UI/Trainfactory/Edit/CarriageType/yalinai_head",
     "skinDisplay": "UI/Trainfactory/SkinDisplay/yalinai",
     "produceMaterialList": [
@@ -3377,6 +3378,7 @@
     "name": "如影随形",
     "skinDetail": "为亚莉奈量身打造的列车痛车涂装。大胆的配色与那张熟悉的脸庞相得益彰。请不要多想这个方案为何会出现在可选清单中，享受和她一起驰骋于铁道的旅途吧。",
     "skinTag": 12601376,
+    "wheelAnimatorPath": "",
     "thumbnail": "UI/Trainfactory/Edit/CarriageType/yalinai_normal",
     "skinDisplay": "UI/Trainfactory/SkinDisplay/yalinai",
     "produceMaterialList": [
@@ -4907,6 +4909,7 @@
     "name": "火爆生意",
     "skinDetail": "在不算遥远的过去，地联与阿妮塔曾计划探索木星，并为此投入了巨量的资源。在航天计划停摆后的现在，这些资源转为民用，“火爆生意”号列车应运而生。",
     "skinTag": 12601389,
+    "wheelAnimatorPath": "",
     "thumbnail": "UI/Trainfactory/Edit/CarriageType/huobao_normal",
     "skinDisplay": "UI/Trainfactory/SkinDisplay/huobaoshengyi",
     "produceMaterialList": [
@@ -4924,45 +4927,9 @@
     "jetEffect": -1,
     "jetList": [],
     "visualAngle": -1,
-    "lightList": [
-      {
-        "x": -0.036,
-        "xs": 0.3333,
-        "xx": 0.0,
-        "y": 0.86,
-        "ys": 0.3333,
-        "yx": 0.0,
-        "z": -4.3,
-        "zs": 0.3333,
-        "zx": 0.0
-      }
-    ],
-    "sonarList": [
-      {
-        "x": 0.0,
-        "xs": 1.0,
-        "xx": -90.0,
-        "y": 1.0,
-        "ys": 1.0,
-        "yx": 0.0,
-        "z": -3.97,
-        "zs": 1.0,
-        "zx": -90.0
-      }
-    ],
-    "runeList": [
-      {
-        "x": 0.0,
-        "xs": 0.34,
-        "xx": 0.0,
-        "y": 1.08,
-        "ys": 0.4,
-        "yx": 0.0,
-        "z": -4.292,
-        "zs": 0.25,
-        "zx": 0.0
-      }
-    ]
+    "lightList": [],
+    "sonarList": [],
+    "runeList": []
   },
   {
     "id": 70500078,
@@ -8577,6 +8544,7 @@
     "name": "余烬号",
     "skinDetail": "地卫二事件让火车事业发生了翻天覆地的变化，余烬号为致敬曾经的老式火车而设计。登上它时，是否会唤醒一些人对过去的记忆？余烬并未冷却，新焰正在燃烧。",
     "skinTag": 12601391,
+    "wheelAnimatorPath": "M_Map_Train_Steam/M_Map_Train_Steam_Dummy001",
     "thumbnail": "UI/Trainfactory/Edit/CarriageType/Steam_head",
     "skinDisplay": "UI/Trainfactory/SkinDisplay/zhengqi",
     "produceMaterialList": [
@@ -10453,7 +10421,7 @@
     "name": "光子力无限号",
     "skinDetail": "浑身上下充满了谜团的列车，据说以一种名为“超合金Z”的梦幻材料打造而成，车身坚不可摧。其动力源则是一种名为“光子力”的奇异能源，无论是阿妮塔科技还是索思学会对此都一无所知。虽然大家普遍认为这只是一种噱头，但是曾有人目击某位列车长在特殊条件下使驾驶室变形为飞行器……",
     "skinTag": 12601394,
-    "thumbnail": "UI/Trainfactory/Edit/CarriageType/Steam_head",
+    "thumbnail": "UI/Trainfactory/Edit/CarriageType/MoshenZ_head",
     "skinDisplay": "UI/Trainfactory/SkinDisplay/zhengqi",
     "produceMaterialList": [
       {
@@ -10468,10 +10436,10 @@
     "coachType": 12600165,
     "normalEntryList": [
       {
-        "id": 85100313
+        "id": 85100312
       },
       {
-        "id": 85100312
+        "id": 85100313
       }
     ],
     "jetEffect": 11105461,
@@ -10593,7 +10561,8 @@
         "zs": 0.25,
         "zx": 0.0
       }
-    ]
+    ],
+    "wheelAnimatorPath": ""
   },
   {
     "id": 70500149,
@@ -10620,7 +10589,7 @@
     ],
     "leftPointX": 0.0,
     "rightPointX": 0.0,
-    "skinSize": 9.9,
+    "skinSize": 7.2,
     "glassNames": [],
     "homeWeaponPosList": [
       {
@@ -10633,7 +10602,7 @@
     "name": "波士机器人号",
     "skinDetail": "由各种莫名其妙的零件以莫名其妙的方式组合而成的莫名其妙的列车，只有马力十分强劲。即使是学会的学者，在看到这辆列车的瞬间，也会因为无法理解它的结构而出现短暂的大脑宕机。很遗憾，这辆列车上面的头盔状护甲是不可拆卸的。",
     "skinTag": 12601414,
-    "thumbnail": "UI/Trainfactory/Edit/CarriageType/Steam_head",
+    "thumbnail": "UI/Trainfactory/Edit/CarriageType/Box_head",
     "skinDisplay": "UI/Trainfactory/SkinDisplay/zhengqi",
     "produceMaterialList": [
       {
@@ -10648,10 +10617,10 @@
     "coachType": 12600165,
     "normalEntryList": [
       {
-        "id": 85100313
+        "id": 85100258
       },
       {
-        "id": 85100312
+        "id": 85100257
       }
     ],
     "jetEffect": -1,
@@ -10659,13 +10628,24 @@
     "visualAngle": 99900058,
     "lightList": [
       {
-        "x": 0.0,
+        "x": -0.705,
         "xs": 0.3333,
         "xx": 0.0,
-        "y": 1.109,
+        "y": 0.398,
         "ys": 0.3333,
         "yx": 0.0,
-        "z": -4.765,
+        "z": -2.95,
+        "zs": 0.3333,
+        "zx": 0.0
+      },
+      {
+        "x": 0.705,
+        "xs": 0.3333,
+        "xx": 0.0,
+        "y": 0.398,
+        "ys": 0.3333,
+        "yx": 0.0,
+        "z": -2.95,
         "zs": 0.3333,
         "zx": 0.0
       }
@@ -10691,11 +10671,12 @@
         "y": 0.87,
         "ys": 0.4,
         "yx": 0.0,
-        "z": -5.272,
+        "z": -3.484,
         "zs": 0.25,
         "zx": 0.0
       }
-    ]
+    ],
+    "wheelAnimatorPath": ""
   },
   {
     "id": 70500150,
@@ -10735,8 +10716,9 @@
     "name": "光子力无限号",
     "skinDetail": "浑身上下充满了谜团的列车，据说以一种名为“超合金Z”的梦幻材料打造而成，车身坚不可摧。其动力源则是一种名为“光子力”的奇异能源，无论是阿妮塔科技还是索思学会对此都一无所知。虽然大家普遍认为这只是一种噱头，但是曾有人目击某位列车长在特殊条件下使驾驶室变形为飞行器……",
     "skinTag": 12601394,
-    "thumbnail": "UI/Trainfactory/Edit/CarriageType/Steam_head",
-    "skinDisplay": "UI/Trainfactory/SkinDisplay/zhengqi",
+    "wheelAnimatorPath": "",
+    "thumbnail": "UI/Trainfactory/Edit/CarriageType/MoshenZ_normal",
+    "skinDisplay": "UI/Trainfactory/SkinDisplay/moshenz",
     "produceMaterialList": [
       {
         "id": 11400357,
@@ -10752,45 +10734,9 @@
     "jetEffect": -1,
     "jetList": [],
     "visualAngle": -1,
-    "lightList": [
-      {
-        "x": -0.036,
-        "xs": 0.3333,
-        "xx": 0.0,
-        "y": 0.86,
-        "ys": 0.3333,
-        "yx": 0.0,
-        "z": -4.3,
-        "zs": 0.3333,
-        "zx": 0.0
-      }
-    ],
-    "sonarList": [
-      {
-        "x": 0.0,
-        "xs": 1.0,
-        "xx": -90.0,
-        "y": 1.0,
-        "ys": 1.0,
-        "yx": 0.0,
-        "z": -3.97,
-        "zs": 1.0,
-        "zx": -90.0
-      }
-    ],
-    "runeList": [
-      {
-        "x": 0.0,
-        "xs": 0.34,
-        "xx": 0.0,
-        "y": 1.08,
-        "ys": 0.4,
-        "yx": 0.0,
-        "z": -4.292,
-        "zs": 0.25,
-        "zx": 0.0
-      }
-    ]
+    "lightList": [],
+    "sonarList": [],
+    "runeList": []
   },
   {
     "id": 70500151,
@@ -10830,8 +10776,9 @@
     "name": "光子力无限号",
     "skinDetail": "浑身上下充满了谜团的列车，据说以一种名为“超合金Z”的梦幻材料打造而成，车身坚不可摧。其动力源则是一种名为“光子力”的奇异能源，无论是阿妮塔科技还是索思学会对此都一无所知。虽然大家普遍认为这只是一种噱头，但是曾有人目击某位列车长在特殊条件下使驾驶室变形为飞行器……",
     "skinTag": 12601394,
-    "thumbnail": "UI/Trainfactory/Edit/CarriageType/Steam_head",
-    "skinDisplay": "UI/Trainfactory/SkinDisplay/zhengqi",
+    "wheelAnimatorPath": "",
+    "thumbnail": "UI/Trainfactory/Edit/CarriageType/MoshenZ_passenger",
+    "skinDisplay": "UI/Trainfactory/SkinDisplay/moshenz",
     "produceMaterialList": [
       {
         "id": 11400357,
@@ -10925,8 +10872,9 @@
     "name": "光子力无限号",
     "skinDetail": "浑身上下充满了谜团的列车，据说以一种名为“超合金Z”的梦幻材料打造而成，车身坚不可摧。其动力源则是一种名为“光子力”的奇异能源，无论是阿妮塔科技还是索思学会对此都一无所知。虽然大家普遍认为这只是一种噱头，但是曾有人目击某位列车长在特殊条件下使驾驶室变形为飞行器……",
     "skinTag": 12601394,
-    "thumbnail": "UI/Trainfactory/Edit/CarriageType/Steam_head",
-    "skinDisplay": "UI/Trainfactory/SkinDisplay/zhengqi",
+    "wheelAnimatorPath": "",
+    "thumbnail": "UI/Trainfactory/Edit/CarriageType/MoshenZ_goods",
+    "skinDisplay": "UI/Trainfactory/SkinDisplay/moshenz",
     "produceMaterialList": [
       {
         "id": 11400357,
@@ -11007,7 +10955,7 @@
     ],
     "leftPointX": 0.0,
     "rightPointX": 0.0,
-    "skinSize": 8.8,
+    "skinSize": 8.3,
     "glassNames": [],
     "homeWeaponPosList": [
       {
@@ -11020,8 +10968,9 @@
     "name": "波士机器人号",
     "skinDetail": "由各种莫名其妙的零件以莫名其妙的方式组合而成的莫名其妙的列车，只有马力十分强劲。即使是学会的学者，在看到这辆列车的瞬间，也会因为无法理解它的结构而出现短暂的大脑宕机。很遗憾，这辆列车上面的头盔状护甲是不可拆卸的。",
     "skinTag": 12601414,
-    "thumbnail": "UI/Trainfactory/Edit/CarriageType/Steam_head",
-    "skinDisplay": "UI/Trainfactory/SkinDisplay/zhengqi",
+    "wheelAnimatorPath": "",
+    "thumbnail": "UI/Trainfactory/Edit/CarriageType/Box_normal",
+    "skinDisplay": "UI/Trainfactory/SkinDisplay/box",
     "produceMaterialList": [
       {
         "id": 11400358,
@@ -11037,45 +10986,9 @@
     "jetEffect": -1,
     "jetList": [],
     "visualAngle": -1,
-    "lightList": [
-      {
-        "x": -0.036,
-        "xs": 0.3333,
-        "xx": 0.0,
-        "y": 0.86,
-        "ys": 0.3333,
-        "yx": 0.0,
-        "z": -4.3,
-        "zs": 0.3333,
-        "zx": 0.0
-      }
-    ],
-    "sonarList": [
-      {
-        "x": 0.0,
-        "xs": 1.0,
-        "xx": -90.0,
-        "y": 1.0,
-        "ys": 1.0,
-        "yx": 0.0,
-        "z": -3.97,
-        "zs": 1.0,
-        "zx": -90.0
-      }
-    ],
-    "runeList": [
-      {
-        "x": 0.0,
-        "xs": 0.34,
-        "xx": 0.0,
-        "y": 1.08,
-        "ys": 0.4,
-        "yx": 0.0,
-        "z": -4.292,
-        "zs": 0.25,
-        "zx": 0.0
-      }
-    ]
+    "lightList": [],
+    "sonarList": [],
+    "runeList": []
   },
   {
     "id": 70500154,
@@ -11102,7 +11015,7 @@
     ],
     "leftPointX": 0.0,
     "rightPointX": 0.0,
-    "skinSize": 8.4,
+    "skinSize": 8.7,
     "glassNames": [],
     "homeWeaponPosList": [
       {
@@ -11115,8 +11028,9 @@
     "name": "波士机器人号",
     "skinDetail": "由各种莫名其妙的零件以莫名其妙的方式组合而成的莫名其妙的列车，只有马力十分强劲。即使是学会的学者，在看到这辆列车的瞬间，也会因为无法理解它的结构而出现短暂的大脑宕机。很遗憾，这辆列车上面的头盔状护甲是不可拆卸的。",
     "skinTag": 12601414,
-    "thumbnail": "UI/Trainfactory/Edit/CarriageType/Steam_head",
-    "skinDisplay": "UI/Trainfactory/SkinDisplay/zhengqi",
+    "wheelAnimatorPath": "",
+    "thumbnail": "UI/Trainfactory/Edit/CarriageType/Box_passenger",
+    "skinDisplay": "UI/Trainfactory/SkinDisplay/box",
     "produceMaterialList": [
       {
         "id": 11400358,
@@ -11197,7 +11111,7 @@
     ],
     "leftPointX": 0.0,
     "rightPointX": 0.0,
-    "skinSize": 7.52,
+    "skinSize": 8.5,
     "glassNames": [],
     "homeWeaponPosList": [
       {
@@ -11210,8 +11124,9 @@
     "name": "波士机器人号",
     "skinDetail": "由各种莫名其妙的零件以莫名其妙的方式组合而成的莫名其妙的列车，只有马力十分强劲。即使是学会的学者，在看到这辆列车的瞬间，也会因为无法理解它的结构而出现短暂的大脑宕机。很遗憾，这辆列车上面的头盔状护甲是不可拆卸的。",
     "skinTag": 12601414,
-    "thumbnail": "UI/Trainfactory/Edit/CarriageType/Steam_head",
-    "skinDisplay": "UI/Trainfactory/SkinDisplay/zhengqi",
+    "wheelAnimatorPath": "",
+    "thumbnail": "UI/Trainfactory/Edit/CarriageType/Box_goods",
+    "skinDisplay": "UI/Trainfactory/SkinDisplay/box",
     "produceMaterialList": [
       {
         "id": 11400358,
@@ -11266,5 +11181,225 @@
         "zx": 0.0
       }
     ]
+  },
+  {
+    "id": 70500156,
+    "idCN": "玩家用/05武装车厢/特殊付费皮/6魔神z",
+    "mod": "默认",
+    "isInformalData": false,
+    "dirtySkins": [
+      {
+        "dirtyPercent": 0.3,
+        "path": "Environment\\Model\\M_Map_Train\\M_Map_Train_Wepon_VeryDirty\\M_Map_Train_Wepon_VeryDirty"
+      },
+      {
+        "dirtyPercent": 0.6,
+        "path": "Environment\\Model\\M_Map_Train\\M_Map_Train_Wepon_Dirty\\M_Map_Train_Wepon_Dirty"
+      },
+      {
+        "dirtyPercent": 0.8,
+        "path": "Environment\\Model\\M_Map_Train\\M_Map_Train_Wepon_Clean\\M_Map_Train_Wepon_Clean"
+      },
+      {
+        "dirtyPercent": 1.0,
+        "path": "Environment\\Model\\M_Map_Train\\M_Map_Train_Wepon_Clean\\M_Map_Train_Wepon_Clean"
+      }
+    ],
+    "leftPointX": 0.0,
+    "rightPointX": 0.0,
+    "skinSize": 7.52,
+    "glassNames": [],
+    "homeWeaponPosList": [
+      {}
+    ],
+    "name": "光子力无限号",
+    "skinDetail": "浑身上下充满了谜团的列车，据说以一种名为“超合金Z”的梦幻材料打造而成，车身坚不可摧。其动力源则是一种名为“光子力”的奇异能源，无论是阿妮塔科技还是索思学会对此都一无所知。虽然大家普遍认为这只是一种噱头，但是曾有人目击某位列车长在特殊条件下使驾驶室变形为飞行器……",
+    "skinTag": 12601394,
+    "wheelAnimatorPath": "",
+    "thumbnail": "UI/Trainfactory/Edit/CarriageType/MoshenZ_weapon",
+    "skinDisplay": "UI/Trainfactory/SkinDisplay/moshenz",
+    "produceMaterialList": [
+      {
+        "id": 11400357,
+        "num": 1
+      }
+    ],
+    "techPoints": 100,
+    "skinItem": 11400357,
+    "skinStore": -1,
+    "coordinate": [],
+    "coachType": 12600142,
+    "normalEntryList": [],
+    "jetEffect": -1,
+    "jetList": [],
+    "visualAngle": -1,
+    "lightList": [],
+    "sonarList": [],
+    "runeList": []
+  },
+  {
+    "id": 70500157,
+    "idCN": "玩家用/05武装车厢/特殊付费皮/7波士",
+    "mod": "默认",
+    "isInformalData": false,
+    "dirtySkins": [
+      {
+        "dirtyPercent": 0.3,
+        "path": "Environment\\Model\\M_Map_Train\\M_Map_Train_Wepon_VeryDirty\\M_Map_Train_Wepon_VeryDirty"
+      },
+      {
+        "dirtyPercent": 0.6,
+        "path": "Environment\\Model\\M_Map_Train\\M_Map_Train_Wepon_Dirty\\M_Map_Train_Wepon_Dirty"
+      },
+      {
+        "dirtyPercent": 0.8,
+        "path": "Environment\\Model\\M_Map_Train\\M_Map_Train_Wepon_Clean\\M_Map_Train_Wepon_Clean"
+      },
+      {
+        "dirtyPercent": 1.0,
+        "path": "Environment\\Model\\M_Map_Train\\M_Map_Train_Wepon_Clean\\M_Map_Train_Wepon_Clean"
+      }
+    ],
+    "leftPointX": 0.0,
+    "rightPointX": 0.0,
+    "skinSize": 7.52,
+    "glassNames": [],
+    "homeWeaponPosList": [
+      {}
+    ],
+    "name": "波士机器人号",
+    "skinDetail": "由各种莫名其妙的零件以莫名其妙的方式组合而成的莫名其妙的列车，只有马力十分强劲。即使是学会的学者，在看到这辆列车的瞬间，也会因为无法理解它的结构而出现短暂的大脑宕机。很遗憾，这辆列车上面的头盔状护甲是不可拆卸的。",
+    "skinTag": 12601414,
+    "wheelAnimatorPath": "",
+    "thumbnail": "UI/Trainfactory/Edit/CarriageType/Box_weapon",
+    "skinDisplay": "UI/Trainfactory/SkinDisplay/box",
+    "produceMaterialList": [
+      {
+        "id": 11400358,
+        "num": 1
+      }
+    ],
+    "techPoints": 100,
+    "skinItem": 11400358,
+    "skinStore": -1,
+    "coordinate": [],
+    "coachType": 12600142,
+    "normalEntryList": [],
+    "jetEffect": -1,
+    "jetList": [],
+    "visualAngle": -1,
+    "lightList": [],
+    "sonarList": [],
+    "runeList": []
+  },
+  {
+    "id": 70500158,
+    "idCN": "玩家用/06平板车厢/特殊付费皮/6魔神Z",
+    "mod": "默认",
+    "isInformalData": false,
+    "dirtySkins": [
+      {
+        "dirtyPercent": 0.3,
+        "path": "Environment\\Model\\M_Map_Train\\M_Map_Train_Flat_VeryDirty\\M_Map_Train_Flat_VeryDirty"
+      },
+      {
+        "dirtyPercent": 0.6,
+        "path": "Environment\\Model\\M_Map_Train\\M_Map_Train_Flat_Dirty\\M_Map_Train_Flat_Dirty"
+      },
+      {
+        "dirtyPercent": 0.8,
+        "path": "Environment\\Model\\M_Map_Train\\M_Map_Train_Flat_Clean\\M_Map_Train_Flat_Clean"
+      },
+      {
+        "dirtyPercent": 1.0,
+        "path": "Environment\\Model\\M_Map_Train\\M_Map_Train_Flat_Clean\\M_Map_Train_Flat_Clean"
+      }
+    ],
+    "leftPointX": 0.0,
+    "rightPointX": 0.0,
+    "skinSize": 7.52,
+    "glassNames": [],
+    "homeWeaponPosList": [
+      {}
+    ],
+    "name": "光子力无限号",
+    "skinDetail": "浑身上下充满了谜团的列车，据说以一种名为“超合金Z”的梦幻材料打造而成，车身坚不可摧。其动力源则是一种名为“光子力”的奇异能源，无论是阿妮塔科技还是索思学会对此都一无所知。虽然大家普遍认为这只是一种噱头，但是曾有人目击某位列车长在特殊条件下使驾驶室变形为飞行器……",
+    "skinTag": 12601394,
+    "wheelAnimatorPath": "",
+    "thumbnail": "UI/Trainfactory/Edit/CarriageType/MoshenZ_empty",
+    "skinDisplay": "UI/Trainfactory/SkinDisplay/moshenz",
+    "produceMaterialList": [
+      {
+        "id": 11400357,
+        "num": 1
+      }
+    ],
+    "techPoints": 100,
+    "skinItem": 11400357,
+    "skinStore": -1,
+    "coordinate": [],
+    "coachType": 12600697,
+    "normalEntryList": [],
+    "jetEffect": -1,
+    "jetList": [],
+    "visualAngle": -1,
+    "lightList": [],
+    "sonarList": [],
+    "runeList": []
+  },
+  {
+    "id": 70500159,
+    "idCN": "玩家用/06平板车厢/特殊付费皮/7波士",
+    "mod": "默认",
+    "isInformalData": false,
+    "dirtySkins": [
+      {
+        "dirtyPercent": 0.3,
+        "path": "Environment\\Model\\M_Map_Train\\M_Map_Train_Flat_VeryDirty\\M_Map_Train_Flat_VeryDirty"
+      },
+      {
+        "dirtyPercent": 0.6,
+        "path": "Environment\\Model\\M_Map_Train\\M_Map_Train_Flat_Dirty\\M_Map_Train_Flat_Dirty"
+      },
+      {
+        "dirtyPercent": 0.8,
+        "path": "Environment\\Model\\M_Map_Train\\M_Map_Train_Flat_Clean\\M_Map_Train_Flat_Clean"
+      },
+      {
+        "dirtyPercent": 1.0,
+        "path": "Environment\\Model\\M_Map_Train\\M_Map_Train_Flat_Clean\\M_Map_Train_Flat_Clean"
+      }
+    ],
+    "leftPointX": 0.0,
+    "rightPointX": 0.0,
+    "skinSize": 7.52,
+    "glassNames": [],
+    "homeWeaponPosList": [
+      {}
+    ],
+    "name": "波士机器人号",
+    "skinDetail": "由各种莫名其妙的零件以莫名其妙的方式组合而成的莫名其妙的列车，只有马力十分强劲。即使是学会的学者，在看到这辆列车的瞬间，也会因为无法理解它的结构而出现短暂的大脑宕机。很遗憾，这辆列车上面的头盔状护甲是不可拆卸的。",
+    "skinTag": 12601414,
+    "wheelAnimatorPath": "",
+    "thumbnail": "UI/Trainfactory/Edit/CarriageType/Box_empty",
+    "skinDisplay": "UI/Trainfactory/SkinDisplay/box",
+    "produceMaterialList": [
+      {
+        "id": 11400358,
+        "num": 1
+      }
+    ],
+    "techPoints": 100,
+    "skinItem": 11400358,
+    "skinStore": -1,
+    "coordinate": [],
+    "coachType": 12600697,
+    "normalEntryList": [],
+    "jetEffect": -1,
+    "jetList": [],
+    "visualAngle": -1,
+    "lightList": [],
+    "sonarList": [],
+    "runeList": []
   }
 ]

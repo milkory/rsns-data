@@ -3920,12 +3920,16 @@
   },
   {
     "id": 83100034,
-    "idCN": "02火控/1蓝/飙车盒子",
+    "idCN": "02中控/1蓝/飙车盒子",
     "mod": "车厢配件",
     "isInformalData": false,
     "cannonModel": "",
     "name": "飙车盒子",
+    "effectStyleType": "none",
+    "effectType": "0",
+    "effectTypeEffect": -1,
     "specialEffects": "",
+    "timeLineEffect": -1,
     "XEffects": 0.0,
     "YEffects": 0.0,
     "ZEffects": 0.0,
@@ -3933,15 +3937,23 @@
     "des": "列车带武器干嘛？跑得快才是最重要的。这项改造把本该用于武器系统的能源全部分配给了引擎。",
     "createDes": "",
     "quality": "Blue",
+    "techPoints": 10,
     "typeWeapon": 12600297,
     "weaponType": "Development",
-    "normalEntryList": [],
+    "normalEntryList": [
+      {
+        "id": 85100093
+      }
+    ],
     "growUpEntryList": [
       {
-        "id": 85100094
+        "id": 85100314
       },
       {
-        "id": 85100100
+        "id": 85100315
+      },
+      {
+        "id": 85100316
       }
     ],
     "randomSkillNum": 0,
@@ -4054,7 +4066,15 @@
     "tipsPath": "Item/TrainWeapon/big/biaochehezi",
     "TrainWeaponMakeUp": [],
     "goldCost": 10000,
-    "Getway": []
+    "Getway": [
+      {
+        "DisplayName": "云岫桥基地-云岫桥军械库",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": -1
+      }
+    ]
   },
   {
     "id": 83100001,
@@ -6515,6 +6535,7 @@
     "des": "更稳固地固定货物，能增加列车安全运载的货物量。",
     "createDes": "",
     "quality": "Blue",
+    "techPoints": 10,
     "typeWeapon": 12600301,
     "weaponType": "Development",
     "normalEntryList": [
@@ -6659,7 +6680,7 @@
     "goldCost": 350000,
     "Getway": [
       {
-        "DisplayName": "曼德矿场-列车武器工厂",
+        "DisplayName": "铁盟哨站-铁盟军械库",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -9910,7 +9931,15 @@
     "tipsPath": "Item/TrainWeapon/big/huashushengwuzhuangjia",
     "TrainWeaponMakeUp": [],
     "goldCost": 10000,
-    "Getway": []
+    "Getway": [
+      {
+        "DisplayName": "汇流塔-异想构建室",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": -1
+      }
+    ]
   },
   {
     "id": 83100066,
@@ -10066,7 +10095,7 @@
   },
   {
     "id": 83100067,
-    "idCN": "02火控/2紫/飙车盒子专业版",
+    "idCN": "02中控/2紫/飙车盒子专业版",
     "mod": "车厢配件",
     "isInformalData": false,
     "cannonModel": "",
@@ -10208,7 +10237,7 @@
   },
   {
     "id": 83100068,
-    "idCN": "02火控/3金/飙车盒子极速版",
+    "idCN": "02中控/3金/飙车盒子极速版",
     "mod": "车厢配件",
     "isInformalData": false,
     "cannonModel": "",
@@ -10350,16 +10379,24 @@
   },
   {
     "id": 83100069,
-    "idCN": "02火控/4橙/玩命盒子",
+    "idCN": "02中控/4橙/玩命盒子",
     "mod": "车厢配件",
     "isInformalData": false,
     "cannonModel": "",
     "name": "玩命盒子",
+    "effectStyleType": "none",
+    "effectType": "0",
+    "effectTypeEffect": -1,
     "specialEffects": "",
+    "timeLineEffect": -1,
+    "XEffects": 0.0,
+    "YEffects": 0.0,
+    "ZEffects": 0.0,
     "isCost": true,
     "des": "油门到底，十死无归。你唯一的遗憾是铁轨上不能漂移。",
     "createDes": "",
     "quality": "Orange",
+    "techPoints": 10,
     "typeWeapon": 12600297,
     "weaponType": "Development",
     "normalEntryList": [],
@@ -10631,7 +10668,15 @@
     "tipsPath": "Item/TrainWeapon/big/xingtaichangjiasuqi",
     "TrainWeaponMakeUp": [],
     "goldCost": 10000,
-    "Getway": []
+    "Getway": [
+      {
+        "DisplayName": "汇流塔-异想构建室",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": -1
+      }
+    ]
   },
   {
     "id": 83100007,
@@ -12019,8 +12064,8 @@
         "list": 80301446
       }
     ],
-    "imagePath": "Item/TrainWeapon/small/ciqixuangua",
-    "tipsPath": "Item/TrainWeapon/big/ciqixuangua",
+    "imagePath": "Item/TrainWeapon/small/ciqixuanguanew",
+    "tipsPath": "Item/TrainWeapon/big/ciqixuanguanew",
     "TrainWeaponMakeUp": [],
     "goldCost": 0,
     "Getway": [

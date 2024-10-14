@@ -78971,14 +78971,36 @@
     "name": "洗脑",
     "iconPath": "RolePlus\\Paladi\\skillicon\\B",
     "attriDetialList": [],
-    "tempdescription": "帕拉笛对目标敌方进行洗脑，洗脑过程持续8秒，中途可以被敌方【打断】\\n洗脑完成后对目标施加1层【掌控】标记\\n若目标已有【掌控】标记，则洗脑过程时间减半\\n【掌控】每次使用自身技能牌有50%概率将目标当前动作强制切换为【普通攻击】\\n同时使目标攻击力和防御力下降2%，可叠加\\n每施加1层【掌控】标记，【掌控】触发概率提高10%",
-    "description": "帕拉笛对目标敌方进行洗脑，洗脑过程持续8秒，中途可以被敌方<color=#FF6666>【打断】</color>\\n洗脑完成后对目标施加1层【掌控】标记\\n若目标已有【掌控】标记，则洗脑过程时间减半\\n【掌控】每次使用自身技能牌有50%概率将目标当前动作强制切换为【普通攻击】\\n同时使目标攻击力和防御力下降2%，可叠加\\n每施加1层【掌控】标记，【掌控】触发概率提高10%",
+    "tempdescription": "帕拉笛对目标敌方进行洗脑，洗脑过程持续#r秒，中途可以被敌方【打断】\\n洗脑完成后对目标施加1层【掌控】标记\\n若目标已有【掌控】标记，则洗脑过程时间减半\\n【掌控】每次使用自身技能牌有50%概率将目标当前动作强制切换为【普通攻击】\\n同时使目标攻击力和防御力下降#r，可叠加\\n每施加1层【掌控】标记，【掌控】触发概率提高10%",
+    "description": "帕拉笛对目标敌方进行洗脑，洗脑过程持续#r秒，中途可以被敌方<color=#FF6666>【打断】</color>\\n洗脑完成后对目标施加1层【掌控】标记\\n若目标已有【掌控】标记，则洗脑过程时间减半\\n【掌控】每次使用自身技能牌有50%概率将目标当前动作强制切换为【普通攻击】\\n同时使目标攻击力和防御力下降#r，可叠加\\n每施加1层【掌控】标记，【掌控】触发概率提高10%",
     "levelUpDescription": "",
     "tempdetailDescription": "",
     "detailDescription": "",
-    "desParamList": [],
+    "desParamList": [
+      {
+        "isPercent": false,
+        "param": "A"
+      },
+      {
+        "isPercent": true,
+        "param": "B"
+      }
+    ],
     "skillParamList": [
-      {}
+      {
+        "skillRateA_SN": 80000,
+        "skillRateB_SN": 200,
+        "skillRateC_SN": 0,
+        "skillRateD_SN": 0,
+        "skillRateE_SN": 0,
+        "skillRateF_SN": 0,
+        "skillRateG_SN": 0,
+        "skillRateH_SN": 0,
+        "skillRateI_SN": 0,
+        "skillRateJ_SN": 0,
+        "skillRateL_SN": 0,
+        "skillRateT_SN": 4300000
+      }
     ],
     "attributeList": [],
     "tagId": -1,
@@ -79029,8 +79051,8 @@
         "leaderCardConditionFO": 10800091
       }
     ],
-    "templeaderCardConditionDesc": "冷却时间30秒，每次获得紫卡/蓝卡/绿卡，冷却缩短5秒；每次洗脑成功，冷却缩短10秒",
-    "leaderCardConditionDesc": "冷却时间30秒，每次获得紫卡/蓝卡/绿卡，冷却缩短5秒；每次洗脑成功，冷却缩短10秒",
+    "templeaderCardConditionDesc": "冷却时间30秒，每次使用红卡/蓝卡/黄卡，冷却缩短5秒；每次洗脑成功，冷却缩短10秒",
+    "leaderCardConditionDesc": "冷却时间30秒，每次使用红卡/蓝卡/黄卡，冷却缩短5秒；每次洗脑成功，冷却缩短10秒",
     "temptypeStr": "",
     "typeStr": "",
     "typeColor": "Orange",

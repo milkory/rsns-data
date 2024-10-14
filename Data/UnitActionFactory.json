@@ -142435,7 +142435,11 @@
     "isUseTargetFilter": true,
     "isIgnoreInvisibleEnemy": true,
     "targetType": "Enemy",
-    "targetTagList": [],
+    "targetTagList": [
+      {
+        "tagId": 12600246
+      }
+    ],
     "tagType": "And",
     "halfWidth_SN": 0,
     "attributeType": "HpMax",
@@ -142481,50 +142485,6 @@
       }
     ],
     "backShakeFrame": 40
-  },
-  {
-    "id": 10103394,
-    "idCN": "我方/05五星/帕拉笛/A",
-    "mod": "基础动作",
-    "isInformalData": false,
-    "isCharge": false,
-    "isSkill": true,
-    "actionLevel": "NormalSkill",
-    "isUseTargetFilter": false,
-    "isIgnoreInvisibleEnemy": true,
-    "targetType": "Ally",
-    "targetTagList": [],
-    "tagType": "And",
-    "halfWidth_SN": 0,
-    "attributeType": "HpMax",
-    "condition": "All",
-    "numberType": "Number",
-    "number_SN": 0,
-    "buffTypeFO": -1,
-    "buffFO": -1,
-    "buffJudgeType": "Greater",
-    "buffLevel": 0,
-    "filterStance": "DeafaultStance",
-    "filterPosition": "DefaultPos",
-    "isAimSelf": false,
-    "targetCount": 0,
-    "distance_SN": 0,
-    "radius_SN": 240000,
-    "isCustomRadius": false,
-    "radiusTag": "",
-    "damageHitBuffList": [],
-    "healHitBuffList": [],
-    "cdFrame": 52,
-    "isUseBigNumber": false,
-    "stateIdList": [
-      {
-        "bPlayTimes": false,
-        "stateId": 10203840,
-        "timesRate_SN": 10000,
-        "timesSource": "FixedValue"
-      }
-    ],
-    "backShakeFrame": -1
   },
   {
     "id": 10103395,
@@ -143651,6 +143611,51 @@
         "bPlayTimes": false,
         "customDataTag": "",
         "stateId": 10203875,
+        "timesRate_SN": 10000,
+        "timesSource": "FixedValue"
+      }
+    ],
+    "backShakeFrame": -1
+  },
+  {
+    "id": 10103394,
+    "idCN": "我方/05五星/帕拉笛/bot_A-2SO举手",
+    "mod": "基础动作",
+    "isInformalData": false,
+    "isCharge": false,
+    "isSkill": false,
+    "actionLevel": "NormalAttack",
+    "isUseTargetFilter": false,
+    "isIgnoreInvisibleEnemy": true,
+    "targetType": "Enemy",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 0,
+    "attributeType": "HpMax",
+    "condition": "All",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 0,
+    "distance_SN": 0,
+    "radius_SN": 0,
+    "isCustomRadius": false,
+    "radiusTag": "",
+    "damageHitBuffList": [],
+    "healHitBuffList": [],
+    "cdFrame": 30,
+    "isUseBigNumber": false,
+    "stateIdList": [
+      {
+        "bPlayTimes": false,
+        "customDataTag": "",
+        "stateId": 10203871,
         "timesRate_SN": 10000,
         "timesSource": "FixedValue"
       }
