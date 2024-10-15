@@ -530,7 +530,12 @@
     "BlockTime": 900,
     "maleSwitchVoice": 30001867,
     "femaleSwitchVoice": 30001868,
-    "extractTabX": 10.0
+    "extractTabX": 10.0,
+    "defaultConcealList": [
+      {
+        "id": 11400288
+      }
+    ]
   },
   {
     "id": 99900002,
@@ -2172,28 +2177,6 @@
         "id": 81001011
       }
     ],
-    "passAnyTowerLevel": [
-      {
-        "id": 81000906
-      },
-      {
-        "id": 81000905
-      },
-      {
-        "id": 81000904
-      },
-      {
-        "id": 81001366
-      },
-      {
-        "id": 81001367
-      },
-      {
-        "id": 81001368
-      }
-    ],
-    "passAnyTwigLevel": [],
-    "passAnyBuoyLevel": [],
     "passBylevelId": [
       {
         "id": 81000650
@@ -2778,17 +2761,18 @@
         "id": 81001844
       },
       {
-        "id": 81001530
+        "id": 81001845
       },
       {
-        "id": 81001856
+        "id": -1
       },
       {
-        "id": 81001867
+        "id": -1
       },
       {
-        "id": 81001884
-      }
+        "id": -1
+      },
+      {}
     ],
     "passByChapterId": [],
     "passBylevelIdAndGrade": [],
@@ -3409,22 +3393,22 @@
         "id": 81001138
       },
       {
-        "id": 81001899
+        "id": -1
       },
       {
-        "id": 81001900
+        "id": -1
       },
       {
-        "id": 81001903
+        "id": -1
       },
       {
-        "id": 81001904
+        "id": -1
       },
       {
-        "id": 81001907
+        "id": -1
       },
       {
-        "id": 81001908
+        "id": -1
       }
     ],
     "travel": [
@@ -3693,19 +3677,19 @@
         "id": 81001114
       },
       {
-        "id": 81001854
+        "id": -1
       },
       {
-        "id": 81001859
+        "id": -1
       },
       {
-        "id": 81001865
+        "id": -1
       },
       {
-        "id": 81001872
+        "id": -1
       },
       {
-        "id": 81001878
+        "id": -1
       }
     ],
     "resonance": [
@@ -3740,7 +3724,7 @@
         "id": 81001033
       },
       {
-        "id": 81001880
+        "id": -1
       }
     ],
     "awake": [
@@ -4124,25 +4108,47 @@
         "id": 81000589
       },
       {
-        "id": 81001887
+        "id": -1
       },
       {
-        "id": 81001888
+        "id": -1
       },
       {
-        "id": 81001891
+        "id": -1
       },
       {
-        "id": 81001892
+        "id": -1
       },
       {
-        "id": 81001895
+        "id": -1
       },
       {
-        "id": 81001896
+        "id": -1
       }
     ],
     "shopCostItem": [],
+    "passAnyTowerLevel": [
+      {
+        "id": 81000906
+      },
+      {
+        "id": 81000905
+      },
+      {
+        "id": 81000904
+      },
+      {
+        "id": 81001366
+      },
+      {
+        "id": 81001367
+      },
+      {
+        "id": 81001368
+      }
+    ],
+    "passAnyTwigLevel": [],
+    "passAnyBuoyLevel": [],
     "recycleMaterial": [],
     "coreLvUp": [
       {
@@ -22837,6 +22843,12 @@
     "gradeCoefficientN": 4,
     "resonanceCoefficientN": 20,
     "awakeCoefficientN": 40,
+    "weekDayCoefficient": 2.0,
+    "weekDayList": [
+      {
+        "day": 3
+      }
+    ],
     "openBuildingList": [
       {
         "id": 84400006
@@ -23502,7 +23514,24 @@
     "waitTime": 7,
     "fondleNum": 3,
     "reduceTiredNum": 10,
-    "isNumberOpen": true
+    "isNumberOpen": true,
+    "inviteLimit": 6,
+    "inviteRewardList": [
+      {
+        "id": 11400007,
+        "num": 1
+      },
+      {
+        "id": 11400068,
+        "num": 1
+      }
+    ],
+    "bindRewardList": [
+      {
+        "id": 11400007,
+        "num": 1
+      }
+    ]
   },
   {
     "id": 99900079,

@@ -19094,15 +19094,15 @@
     "normalAttackCritID": -1,
     "skillList": [
       {
-        "actionId": 10103361,
+        "actionId": 10103369,
         "activeFrame": 480,
         "activeTime": 8.0,
         "rangeSN": -10000
       },
       {
-        "actionId": 10103398,
-        "activeFrame": 1440,
-        "activeTime": 24.0,
+        "actionId": 10103361,
+        "activeFrame": 1280,
+        "activeTime": 21.3333,
         "rangeSN": -10000
       }
     ],
@@ -19112,7 +19112,7 @@
         "actionId": 10103364
       }
     ],
-    "skillLoopDelayFrame": 760,
+    "skillLoopDelayFrame": 360,
     "shapeShiftList": [],
     "commandList": [],
     "enemySkillList": [],
@@ -19131,7 +19131,7 @@
   },
   {
     "id": 10300473,
-    "idCN": "我方/50召唤物/帕拉笛A-2SO",
+    "idCN": "我方/50召唤物/帕拉笛bot01_A-2SO",
     "mod": "基础AI",
     "isInformalData": false,
     "targetInvisibleEffectId": -1,
@@ -19139,7 +19139,7 @@
     "effectOffsetY": 0.0,
     "actionList": [
       {
-        "actionID": 10101384
+        "actionID": 10103420
       }
     ],
     "normalAttackCritID": -1,
@@ -19147,14 +19147,14 @@
     "isInvisibleBeforeShowUp": true,
     "showupSkillList": [
       {
-        "actionId": 10101386
+        "actionId": 10103394
       }
     ],
     "skillLoopDelayFrame": 0,
     "shapeShiftList": [],
     "commandList": [
       {
-        "actionID": 10101385
+        "actionID": 10103421
       }
     ],
     "enemySkillList": [],
@@ -19321,8 +19321,8 @@
       },
       {
         "actionId": 10103418,
-        "activeFrame": 542,
-        "activeTime": 1.0,
+        "activeFrame": 960,
+        "activeTime": 16.0,
         "rangeSN": 240000
       }
     ],
@@ -19365,8 +19365,8 @@
       },
       {
         "actionId": 10103418,
-        "activeFrame": 542,
-        "activeTime": 1.0,
+        "activeFrame": 960,
+        "activeTime": 16.0,
         "rangeSN": 240000
       }
     ],
@@ -19377,6 +19377,98 @@
     "commandList": [],
     "enemySkillList": [],
     "isUseEnergy": true,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300474,
+    "idCN": "敌方/06深眠者/异嵌深眠者",
+    "mod": "基础AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10103428
+      },
+      {
+        "actionID": 10103429
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10103426,
+        "activeFrame": 150,
+        "activeTime": 1.0,
+        "rangeSN": 240000
+      },
+      {
+        "actionId": 10103426,
+        "activeFrame": 408,
+        "activeTime": 1.0,
+        "rangeSN": 240000
+      },
+      {
+        "actionId": 10103427,
+        "activeFrame": 560,
+        "activeTime": 1.0,
+        "rangeSN": 50000
+      }
+    ],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [],
+    "skillLoopDelayFrame": 284,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
+    "isSkillDelay": true,
+    "minDelay": 80,
+    "maxDelay": 150
+  },
+  {
+    "id": 10300475,
+    "idCN": "我方/50召唤物/帕拉笛bot02_A-1SO",
+    "mod": "基础AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": -1,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10103440
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [],
+    "isInvisibleBeforeShowUp": true,
+    "showupSkillList": [
+      {
+        "actionId": 10103422
+      }
+    ],
+    "skillLoopDelayFrame": 0,
+    "shapeShiftList": [],
+    "commandList": [
+      {
+        "actionID": 10103438
+      },
+      {
+        "actionID": 10103437
+      },
+      {
+        "actionID": 10103439
+      }
+    ],
+    "enemySkillList": [],
+    "isUseEnergy": false,
     "energySkillList": [],
     "energyRestorePerFrameSN": 0,
     "isSkillDelay": false,
