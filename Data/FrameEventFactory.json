@@ -12347,7 +12347,7 @@
   },
   {
     "id": 10500634,
-    "idCN": "我方/05五星/隼/S点燃枷锁禁锢",
+    "idCN": "我方/05五星/隼/S上debuff",
     "mod": "添加Buff",
     "isInformalData": false,
     "buffId": 10404211,
@@ -12384,7 +12384,7 @@
   },
   {
     "id": 10500639,
-    "idCN": "我方/05五星/隼/A_03黑砂羽_伤害灼心重伤",
+    "idCN": "我方/05五星/隼/A_03黑砂羽_伤害灼心点燃",
     "mod": "子弹事件",
     "isInformalData": false,
     "buffId": 10404212,
@@ -14435,7 +14435,7 @@
   },
   {
     "id": 10501349,
-    "idCN": "我方/15中立卡/元素核冰/治疗闻笙",
+    "idCN": "我方/15中立卡/元素核冰/闻笙_觉醒2治疗抽卡",
     "mod": "添加Buff",
     "isInformalData": false,
     "buffId": 10404458,
@@ -28176,19 +28176,11 @@
   },
   {
     "id": 10502488,
-    "idCN": "我方/05五星/帕拉笛/bot02_B降攻防",
+    "idCN": "我方/05五星/帕拉笛/bot01_B降攻防",
     "mod": "添加Buff",
     "isInformalData": false,
     "buffId": 10412893,
     "targetType": "OneEach"
-  },
-  {
-    "id": 10502487,
-    "idCN": "我方/05五星/帕拉笛/bot01_普攻",
-    "mod": "添加Buff",
-    "isInformalData": false,
-    "buffId": 10412924,
-    "targetType": "CurrentTarget"
   },
   {
     "id": 10502495,
@@ -28198,10 +28190,90 @@
     "buffId": 10412897
   },
   {
+    "id": 10502487,
+    "idCN": "我方/05五星/帕拉笛/bot02_普攻",
+    "mod": "添加Buff",
+    "isInformalData": false,
+    "buffId": 10412924,
+    "targetType": "CurrentTarget"
+  },
+  {
     "id": 10502497,
     "idCN": "敌方/15屠戮者/屠戮者·链锯/技能2",
     "mod": "给自己上BUFF",
     "isInformalData": false,
     "buffId": 10412753
+  },
+  {
+    "id": 10502498,
+    "idCN": "爬塔/桦树生物/混厄石芝/技能3切换至受击",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10412947
+  },
+  {
+    "id": 10502499,
+    "idCN": "爬塔/桦树生物/混厄石芝/技能3受击触发",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10412944
+  },
+  {
+    "id": 10502496,
+    "idCN": "我方/05五星/隼/A_01刹风_伤害",
+    "mod": "子弹事件",
+    "isInformalData": false,
+    "buffId": 10412949,
+    "bulletId": 11200242,
+    "targetType": "Random",
+    "offSetX_SN": 0,
+    "offSetZ_SN": 0,
+    "isUseTargetFilter": false,
+    "isIgnoreInvisibleEnemy": true,
+    "targetFilterType": "Ally",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 0,
+    "attributeType": "HpMax",
+    "condition": "Max",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 0
+  },
+  {
+    "id": 10502500,
+    "idCN": "我方/35地面/燎原-当前目标X偏移3",
+    "mod": "子弹事件",
+    "isInformalData": false,
+    "buffId": 10406379,
+    "bulletId": 11200530,
+    "targetType": "CurrentTarget",
+    "offSetX_SN": 0,
+    "offSetZ_SN": 0,
+    "isUseTargetFilter": false,
+    "isIgnoreInvisibleEnemy": true,
+    "targetFilterType": "Ally",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 0,
+    "attributeType": "HpMax",
+    "condition": "Max",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 0
   }
 ]

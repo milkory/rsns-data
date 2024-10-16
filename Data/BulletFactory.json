@@ -2400,6 +2400,7 @@
     "isInformalData": false,
     "bulletViewId": 11300165,
     "speedX_SN": 800,
+    "xSpeedOffSet_SN": 0,
     "disappearEffectList": [],
     "appearEffectList": [],
     "effectID": -1,
@@ -2409,6 +2410,8 @@
     "ySpeedOffSet_SN": 1000,
     "isAddSpeedZ": false,
     "durationMin": 30,
+    "isCustomRadius": false,
+    "customRadiusTag": "",
     "damageRadius_SN": 20000,
     "isFixedPosition": false,
     "xOffSetStart_SN": -20000,
@@ -2419,7 +2422,13 @@
     "zOffSet_SN": 10000,
     "groundEffectList": [
       {
-        "effectId": 11103055
+        "effectId": 11104895
+      },
+      {
+        "effectId": 11103062
+      },
+      {
+        "effectId": 11103122
       }
     ],
     "isGroundEffectUseHitTimes": false,
@@ -2514,6 +2523,7 @@
     "isInformalData": false,
     "bulletViewId": 11300165,
     "speedX_SN": 2500,
+    "xSpeedOffSet_SN": 0,
     "disappearEffectList": [],
     "appearEffectList": [],
     "effectID": -1,
@@ -2523,6 +2533,8 @@
     "ySpeedOffSet_SN": 1000,
     "isAddSpeedZ": false,
     "durationMin": 0,
+    "isCustomRadius": false,
+    "customRadiusTag": "",
     "damageRadius_SN": 15000,
     "isFixedPosition": false,
     "xOffSetStart_SN": -10000,
@@ -2533,7 +2545,10 @@
     "zOffSet_SN": 0,
     "groundEffectList": [
       {
-        "effectId": 11103058
+        "effectId": 11103057
+      },
+      {
+        "effectId": 11104894
       }
     ],
     "isGroundEffectUseHitTimes": false,
@@ -9029,13 +9044,18 @@
     "isInformalData": false,
     "bulletViewId": 11300165,
     "speedX_SN": 800,
+    "xSpeedOffSet_SN": 0,
     "disappearEffectList": [],
+    "appearEffectList": [],
     "effectID": -1,
     "hitSoundId": -1,
+    "scaleTag": "",
     "ySpeedStart_SN": 1500,
     "ySpeedOffSet_SN": 1000,
     "isAddSpeedZ": false,
     "durationMin": 30,
+    "isCustomRadius": false,
+    "customRadiusTag": "",
     "damageRadius_SN": 20000,
     "isFixedPosition": false,
     "xOffSetStart_SN": 0,
@@ -9046,7 +9066,13 @@
     "zOffSet_SN": 0,
     "groundEffectList": [
       {
-        "effectId": 11103055
+        "effectId": 11104895
+      },
+      {
+        "effectId": 11103062
+      },
+      {
+        "effectId": 11103122
       }
     ],
     "isGroundEffectUseHitTimes": false,
@@ -9101,6 +9127,7 @@
     "isInformalData": false,
     "bulletViewId": 11300165,
     "speedX_SN": 2500,
+    "xSpeedOffSet_SN": 0,
     "disappearEffectList": [],
     "appearEffectList": [],
     "effectID": -1,
@@ -9110,6 +9137,8 @@
     "ySpeedOffSet_SN": 1000,
     "isAddSpeedZ": false,
     "durationMin": 0,
+    "isCustomRadius": false,
+    "customRadiusTag": "",
     "damageRadius_SN": 15000,
     "isFixedPosition": false,
     "xOffSetStart_SN": -10000,
@@ -9120,7 +9149,10 @@
     "zOffSet_SN": 0,
     "groundEffectList": [
       {
-        "effectId": 11103058
+        "effectId": 11103057
+      },
+      {
+        "effectId": 11104894
       }
     ],
     "isGroundEffectUseHitTimes": false,
@@ -12751,6 +12783,7 @@
     "isInformalData": false,
     "bulletViewId": 11300297,
     "speedX_SN": 3000,
+    "xSpeedOffSet_SN": 0,
     "disappearEffectList": [
       {
         "effectId": 11102553
@@ -14049,12 +14082,12 @@
     "idCN": "敌方/15屠戮者/屠戮者·链锯/技能3子弹",
     "mod": "冲击波",
     "isInformalData": false,
-    "bulletViewId": 11300154,
+    "bulletViewId": 11300008,
     "speedX_SN": 3000,
     "xSpeedOffSet_SN": 0,
     "disappearEffectList": [],
     "appearEffectList": [],
-    "effectID": -1,
+    "effectID": 11106446,
     "hitSoundId": -1,
     "scaleTag": "",
     "durationFrame": 60,
@@ -14171,5 +14204,43 @@
     "reentrantCount": 0,
     "rangeSpeedY_SN": 0,
     "rangeShakeFrame": 0
+  },
+  {
+    "id": 11200530,
+    "idCN": "地面/燎原-X偏移3",
+    "mod": "抛物线",
+    "isInformalData": false,
+    "bulletViewId": 11300008,
+    "speedX_SN": 120000,
+    "xSpeedOffSet_SN": 0,
+    "disappearEffectList": [],
+    "appearEffectList": [],
+    "effectID": -1,
+    "hitSoundId": -1,
+    "scaleTag": "",
+    "ySpeedStart_SN": 1000,
+    "ySpeedOffSet_SN": 0,
+    "isAddSpeedZ": false,
+    "durationMin": 1,
+    "isCustomRadius": false,
+    "customRadiusTag": "",
+    "damageRadius_SN": 0,
+    "isFixedPosition": false,
+    "xOffSetStart_SN": 30000,
+    "xOffSet_SN": 0,
+    "yOffSetStart_SN": 0,
+    "yOffSet_SN": 0,
+    "zOffSetStart_SN": 0,
+    "zOffSet_SN": 0,
+    "groundEffectList": [],
+    "isGroundEffectUseHitTimes": false,
+    "groundSoundId": -1,
+    "isGroundSoundUseHitTimes": false,
+    "envBuffId": 10401928,
+    "hitTimes": 1,
+    "hitTimesCustomTag": "",
+    "intervalFrame": 1,
+    "isDoBuffOnly": false,
+    "isHitTargetOnly": false
   }
 ]
