@@ -2205,6 +2205,27 @@
         "id": 80608031
       }
     ],
+    "escapePrList": [
+      {
+        "prDaily": 0.01,
+        "prSuccessMax": 0.2,
+        "prSuccessMin": 0.1,
+        "rarity": 12601046
+      },
+      {
+        "prDaily": 0.02,
+        "prSuccessMax": 0.3,
+        "prSuccessMin": 0.2,
+        "rarity": 12601047
+      },
+      {
+        "prDaily": 0.05,
+        "prSuccessMax": 0.5,
+        "prSuccessMin": 0.3,
+        "rarity": 12601048
+      }
+    ],
+    "escapeLeaveMessage": [],
     "buyWarePrice": [
       {
         "id": 11400001,
@@ -2276,6 +2297,7 @@
       }
     ],
     "shortageBondNum": 0.2,
+    "supplyBondNum": 0.8,
     "addProcurementList": [
       {
         "addNum": 1,
@@ -2486,11 +2508,11 @@
     "characterList": [
       {
         "eventId": 12601143,
-        "weight": 10
+        "weight": 20
       },
       {
         "eventId": 12601236,
-        "weight": 40
+        "weight": 20
       },
       {
         "eventId": 12601191,
@@ -2498,7 +2520,7 @@
       },
       {
         "eventId": 12601142,
-        "weight": 20
+        "weight": 30
       },
       {
         "eventId": 12601189,
@@ -2510,11 +2532,11 @@
       },
       {
         "eventId": 12601188,
-        "weight": 30
+        "weight": 20
       },
       {
         "eventId": 12601141,
-        "weight": 20
+        "weight": 30
       },
       {
         "eventId": 12601237,
@@ -2527,6 +2549,52 @@
       {
         "eventId": 12601190,
         "weight": 10
+      }
+    ],
+    "characterHappenList": [
+      {
+        "eventId": 12601143,
+        "happenProbability": 1.0
+      },
+      {
+        "eventId": 12601236,
+        "happenProbability": 1.0
+      },
+      {
+        "eventId": 12601191,
+        "happenProbability": 1.0
+      },
+      {
+        "eventId": 12601142,
+        "happenProbability": 1.0
+      },
+      {
+        "eventId": 12601189,
+        "happenProbability": 1.0
+      },
+      {
+        "eventId": 12601124,
+        "happenProbability": 1.0
+      },
+      {
+        "eventId": 12601188,
+        "happenProbability": 1.0
+      },
+      {
+        "eventId": 12601141,
+        "happenProbability": 1.0
+      },
+      {
+        "eventId": 12601237,
+        "happenProbability": 1.0
+      },
+      {
+        "eventId": 12601242,
+        "happenProbability": 1.0
+      },
+      {
+        "eventId": 12601190,
+        "happenProbability": 1.0
       }
     ],
     "scoreAdd": 3,
@@ -3541,6 +3609,7 @@
         "num": 2500000
       }
     ],
+    "materialGetLimit": 1000,
     "workshopSpaceOccupyPower": 300,
     "cellSpaceOccupyPower": 200,
     "prisonBuyElectricList": [
@@ -3624,28 +3693,6 @@
         "consumeMaterial": 80303955,
         "extraPower": 1000
       }
-    ],
-    "escapePrList": [
-      {
-        "prDaily": 0.01,
-        "prSuccessMax": 0.2,
-        "prSuccessMin": 0.1,
-        "rarity": 12601046
-      },
-      {
-        "prDaily": 0.02,
-        "prSuccessMax": 0.3,
-        "prSuccessMin": 0.2,
-        "rarity": 12601047
-      },
-      {
-        "prDaily": 0.05,
-        "prSuccessMax": 0.5,
-        "prSuccessMin": 0.3,
-        "rarity": 12601048
-      }
-    ],
-    "escapeLeaveMessage": [],
-    "supplyBondNum": 0.8
+    ]
   }
 ]

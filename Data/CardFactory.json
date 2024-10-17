@@ -23620,7 +23620,7 @@
     "radius_SN": 0,
     "isUseTargetFilter": false,
     "isIgnoreInvisibleEnemy": true,
-    "targetType": "Ally",
+    "targetType": "Enemy",
     "targetTagList": [],
     "tagType": "And",
     "halfWidth_SN": 0,
@@ -23683,10 +23683,14 @@
     "cardAIActionList": [],
     "distance_SN": 0,
     "radius_SN": 240000,
-    "isUseTargetFilter": false,
+    "isUseTargetFilter": true,
     "isIgnoreInvisibleEnemy": true,
     "targetType": "Ally",
-    "targetTagList": [],
+    "targetTagList": [
+      {
+        "tagId": 12600246
+      }
+    ],
     "tagType": "And",
     "halfWidth_SN": 0,
     "attributeType": "HpMax",
