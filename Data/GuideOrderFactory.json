@@ -10104,7 +10104,13 @@
     "mod": "对话",
     "isInformalData": false,
     "orderType": "Dialog",
-    "paragraphId": 20700136
+    "paragraphId": 20700136,
+    "paramList": [
+      {
+        "paramEnum": "qid",
+        "paramVal": "81000713"
+      }
+    ]
   },
   {
     "id": 81100852,
@@ -14451,5 +14457,42 @@
     "mod": "标签",
     "isInformalData": false,
     "orderType": "Tag"
+  },
+  {
+    "id": 81100620,
+    "idCN": "首次进入/34休息区容错",
+    "mod": "保存面板触发引导序号",
+    "isInformalData": false,
+    "orderType": "SavePanelTriggerNo",
+    "apiName": "quest.recv_rewards",
+    "guideNo": 34
+  },
+  {
+    "id": 81100622,
+    "idCN": "EP1/抽卡/页签/高亮",
+    "mod": "指定UI高亮",
+    "isInformalData": false,
+    "orderType": "UIFocus",
+    "uiPath": "UI/Gacha/GachaNew",
+    "nodeType": "Fixed",
+    "nodeName": "ScrollGrid_Tab.Viewport.Grid.Group_Tab_001.Btn_Tab",
+    "mId": -1,
+    "delay": false,
+    "w": 266.0,
+    "h": 108.0,
+    "offsetX": 0.0,
+    "offsetY": 8.0,
+    "alpha": 0.7,
+    "isShowFinger": true
+  },
+  {
+    "id": 81100627,
+    "idCN": "EP1/抽卡/页签/点击",
+    "mod": "点击按钮",
+    "isInformalData": false,
+    "orderType": "ClickButton",
+    "panelName": "UI/Gacha/GachaNew",
+    "btnName": "GachaNew_ScrollGrid_Tab_Group_Tab_Btn_Tab_Click",
+    "autoCompletedTime": -1.0
   }
 ]

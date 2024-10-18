@@ -1011,9 +1011,9 @@
     "shapeShiftList": [],
     "commandList": [],
     "enemySkillList": [],
-    "isUseEnergy": false,
+    "isUseEnergy": true,
     "energySkillList": [],
-    "energyRestorePerFrameSN": 0,
+    "energyRestorePerFrameSN": 1000,
     "isSkillDelay": false,
     "minDelay": 120,
     "maxDelay": 360
@@ -19499,6 +19499,60 @@
     "isUseEnergy": false,
     "energySkillList": [],
     "energyRestorePerFrameSN": 0,
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300478,
+    "idCN": "爬塔/桦树生物/混厄石芝-1",
+    "mod": "BOSSAI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10102594
+      },
+      {
+        "actionID": 10102595
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10102592,
+        "activeFrame": 290,
+        "activeTime": 1.0,
+        "rangeSN": 240000
+      },
+      {
+        "actionId": 10102593,
+        "activeFrame": 1080,
+        "activeTime": 18.0,
+        "rangeSN": 240000
+      }
+    ],
+    "isInvisibleBeforeShowUp": true,
+    "showupSkillList": [
+      {
+        "actionId": 10102600
+      }
+    ],
+    "skillLoopDelayFrame": 396,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": true,
+    "energySkillList": [
+      {
+        "actionId": 10102601,
+        "isClearEnergy": true,
+        "rangeSN": -10000
+      }
+    ],
+    "energyRestorePerFrameSN": 560,
     "isSkillDelay": false,
     "minDelay": 120,
     "maxDelay": 360

@@ -2210,8 +2210,28 @@
         "id": 81001368
       }
     ],
-    "passAnyTwigLevel": [],
-    "passAnyBuoyLevel": [],
+    "passAnyTwigLevel": [
+      {
+        "id": 81001297
+      },
+      {
+        "id": 81001298
+      },
+      {
+        "id": 81001299
+      }
+    ],
+    "passAnyBuoyLevel": [
+      {
+        "id": 81001300
+      },
+      {
+        "id": 81001301
+      },
+      {
+        "id": 81001302
+      }
+    ],
     "passBylevelId": [
       {
         "id": 81000650
@@ -2944,9 +2964,6 @@
       }
     ],
     "enterCity": [
-      {
-        "id": 81000001
-      },
       {
         "id": 81000016
       },
@@ -4230,7 +4247,14 @@
       }
     ],
     "shopCostItem": [],
-    "recycleMaterial": [],
+    "recycleMaterial": [
+      {
+        "id": 81001316
+      },
+      {
+        "id": 81001318
+      }
+    ],
     "coreLvUp": [
       {
         "id": 81000879
@@ -4326,7 +4350,23 @@
         "id": 81000961
       }
     ],
-    "upGradeTrainWeapon": [],
+    "upGradeTrainWeapon": [
+      {
+        "id": 81000908
+      },
+      {
+        "id": 81000909
+      },
+      {
+        "id": 81001312
+      },
+      {
+        "id": 81001313
+      },
+      {
+        "id": 81001314
+      }
+    ],
     "haveFurniture": [
       {
         "id": 81001328
@@ -8795,6 +8835,9 @@
       },
       {
         "id": 12601160
+      },
+      {
+        "id": 12601428
       }
     ],
     "enemyStrengthEnumList": [
@@ -16991,7 +17034,8 @@
         "iconPath": "",
         "isShow": false,
         "name": "邮件",
-        "quest": 81000711,
+        "playerLevel": 0,
+        "quest": 81000673,
         "tips": 80601893
       },
       {
@@ -17179,6 +17223,12 @@
       {
         "guideId": 20900128,
         "id": 33,
+        "ui": "UI/Home/BarStore/BarStore",
+        "unlockQuest": -1
+      },
+      {
+        "guideId": 20900069,
+        "id": 34,
         "ui": "UI/Home/BarStore/BarStore",
         "unlockQuest": -1
       },
@@ -22325,9 +22375,13 @@
         "rotY": 180.0
       },
       {
+        "fieldView": 56.0,
+        "isCanMove": true,
+        "isRushView": true,
         "mainPosY": 2.7,
         "mainPosZ": -22.5,
         "name": "第一人称",
+        "nodePath": "",
         "posX": 0.0,
         "posY": 0.0,
         "posZ": -12.0,
@@ -23680,10 +23734,10 @@
     "idCN": "大世界/列车切换相机-魔神特供升高版",
     "mod": "列车相机",
     "isInformalData": false,
-    "nameEN": "TrainCameraHbsyConfig",
+    "nameEN": "TrainCameraMSZConfig",
     "trainCameraList": [
       {
-        "fieldView": 70.0,
+        "fieldView": 56.0,
         "isCanMove": true,
         "isRushView": true,
         "mainPosY": 2.7,
@@ -23691,7 +23745,7 @@
         "name": "默认车头正前方",
         "nodePath": "",
         "posX": 0.0,
-        "posY": 3.0,
+        "posY": 1.75,
         "posZ": 0.0,
         "rotX": -1.75,
         "rotY": 180.0
@@ -23711,7 +23765,6 @@
         "rotY": 180.0
       },
       {
-        "fieldView": 56.0,
         "isCanMove": false,
         "isRushView": false,
         "mainPosY": 2.7,
@@ -23725,7 +23778,6 @@
         "rotY": 90.0
       },
       {
-        "fieldView": 56.0,
         "isCanMove": false,
         "isRushView": false,
         "mainPosY": 2.7,
@@ -23739,7 +23791,7 @@
         "rotY": -90.0
       },
       {
-        "fieldView": 70.0,
+        "fieldView": 56.0,
         "isCanMove": true,
         "isRushView": true,
         "mainPosY": 2.7,
@@ -23747,15 +23799,19 @@
         "name": "默认车头正前方",
         "nodePath": "",
         "posX": 0.0,
-        "posY": 3.0,
+        "posY": 1.75,
         "posZ": 0.0,
         "rotX": -1.75,
         "rotY": 180.0
       },
       {
+        "fieldView": 56.0,
+        "isCanMove": true,
+        "isRushView": true,
         "mainPosY": 2.7,
         "mainPosZ": -22.5,
         "name": "第一人称",
+        "nodePath": "",
         "posX": 0.0,
         "posY": 0.0,
         "posZ": -12.0,
@@ -23763,13 +23819,9 @@
         "rotY": 180.0
       },
       {
-        "fieldView": 70.0,
-        "isCanMove": true,
-        "isRushView": true,
         "mainPosY": 2.7,
         "mainPosZ": -22.5,
         "name": "右斜侧车头方向",
-        "nodePath": "",
         "posX": 0.0,
         "posY": 0.0,
         "posZ": 0.0,
@@ -23777,7 +23829,6 @@
         "rotY": 150.0
       },
       {
-        "fieldView": 70.0,
         "isCanMove": true,
         "isRushView": true,
         "mainPosY": 2.7,
@@ -23791,13 +23842,9 @@
         "rotY": 90.0
       },
       {
-        "fieldView": 70.0,
-        "isCanMove": true,
-        "isRushView": true,
         "mainPosY": 3.42,
         "mainPosZ": -20.5,
         "name": "右斜侧车尾方向",
-        "nodePath": "",
         "posX": 0.0,
         "posY": 0.0,
         "posZ": 0.0,
@@ -23805,13 +23852,9 @@
         "rotY": 25.0
       },
       {
-        "fieldView": 56.0,
-        "isCanMove": true,
-        "isRushView": true,
         "mainPosY": 1.8,
         "mainPosZ": -25.0,
         "name": "正对车头",
-        "nodePath": "",
         "posX": 0.0,
         "posY": 0.0,
         "posZ": 0.0,
@@ -23819,13 +23862,9 @@
         "rotY": 0.0
       },
       {
-        "fieldView": 70.0,
-        "isCanMove": true,
-        "isRushView": true,
         "mainPosY": 3.42,
         "mainPosZ": -20.5,
         "name": "左斜侧车尾方向",
-        "nodePath": "",
         "posX": 0.0,
         "posY": 0.0,
         "posZ": 0.0,
@@ -23833,7 +23872,6 @@
         "rotY": -25.0
       },
       {
-        "fieldView": 70.0,
         "isCanMove": true,
         "isRushView": true,
         "mainPosY": 2.7,
@@ -23847,13 +23885,9 @@
         "rotY": -90.0
       },
       {
-        "fieldView": 70.0,
-        "isCanMove": true,
-        "isRushView": true,
         "mainPosY": 2.7,
         "mainPosZ": -22.5,
         "name": "左斜侧车头方向",
-        "nodePath": "",
         "posX": 0.0,
         "posY": 0.0,
         "posZ": 0.0,
@@ -24453,5 +24487,173 @@
         "Upwin": 0.15
       }
     ]
+  },
+  {
+    "id": 99900083,
+    "idCN": "大世界/列车切换相机-波士特用",
+    "mod": "列车相机",
+    "isInformalData": false,
+    "nameEN": "TrainCameraBoxConfig",
+    "trainCameraList": [
+      {
+        "fieldView": 56.0,
+        "isCanMove": true,
+        "isRushView": true,
+        "mainPosY": 2.7,
+        "mainPosZ": -22.5,
+        "name": "默认车头正前方",
+        "nodePath": "",
+        "posX": 0.0,
+        "posY": 1.75,
+        "posZ": 0.0,
+        "rotX": -1.75,
+        "rotY": 180.0
+      },
+      {
+        "fieldView": 56.0,
+        "isCanMove": false,
+        "isRushView": true,
+        "mainPosY": 2.7,
+        "mainPosZ": -19.5,
+        "name": "驾驶舱",
+        "nodePath": "M_Map_window_drive",
+        "posX": 0.0,
+        "posY": 0.8,
+        "posZ": -12.0,
+        "rotX": -3.0,
+        "rotY": 180.0
+      },
+      {
+        "isCanMove": false,
+        "isRushView": false,
+        "mainPosY": 2.7,
+        "mainPosZ": -22.5,
+        "name": "左侧车窗",
+        "nodePath": "M_Map_window_side",
+        "posX": 7.5,
+        "posY": 0.5,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 90.0
+      },
+      {
+        "isCanMove": false,
+        "isRushView": false,
+        "mainPosY": 2.7,
+        "mainPosZ": -22.5,
+        "name": "右侧车窗",
+        "nodePath": "M_Map_window_side",
+        "posX": -7.5,
+        "posY": 0.5,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": -90.0
+      },
+      {
+        "fieldView": 56.0,
+        "isCanMove": true,
+        "isRushView": true,
+        "mainPosY": 2.7,
+        "mainPosZ": -22.5,
+        "name": "默认车头正前方",
+        "nodePath": "",
+        "posX": 0.0,
+        "posY": 1.75,
+        "posZ": 0.0,
+        "rotX": -1.75,
+        "rotY": 180.0
+      },
+      {
+        "fieldView": 56.0,
+        "isCanMove": true,
+        "isRushView": true,
+        "mainPosY": 2.7,
+        "mainPosZ": -22.5,
+        "name": "第一人称",
+        "nodePath": "",
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": -12.0,
+        "rotX": 0.0,
+        "rotY": 180.0
+      },
+      {
+        "mainPosY": 2.7,
+        "mainPosZ": -22.5,
+        "name": "右斜侧车头方向",
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 150.0
+      },
+      {
+        "isCanMove": true,
+        "isRushView": true,
+        "mainPosY": 2.7,
+        "mainPosZ": -22.5,
+        "name": "右正侧",
+        "nodePath": "",
+        "posX": 0.0,
+        "posY": 0.8,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 90.0
+      },
+      {
+        "mainPosY": 3.42,
+        "mainPosZ": -20.5,
+        "name": "右斜侧车尾方向",
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": -4.0,
+        "rotY": 25.0
+      },
+      {
+        "mainPosY": 1.8,
+        "mainPosZ": -25.0,
+        "name": "正对车头",
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 14.0,
+        "rotY": 0.0
+      },
+      {
+        "mainPosY": 3.42,
+        "mainPosZ": -20.5,
+        "name": "左斜侧车尾方向",
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": -4.0,
+        "rotY": -25.0
+      },
+      {
+        "isCanMove": true,
+        "isRushView": true,
+        "mainPosY": 2.7,
+        "mainPosZ": -22.5,
+        "name": "左正侧",
+        "nodePath": "",
+        "posX": 0.0,
+        "posY": 0.8,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": -90.0
+      },
+      {
+        "mainPosY": 2.7,
+        "mainPosZ": -22.5,
+        "name": "左斜侧车头方向",
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": -150.0
+      }
+    ],
+    "lookSpeed": 1.5
   }
 ]
