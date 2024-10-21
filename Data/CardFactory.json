@@ -23538,7 +23538,7 @@
     "isNoCD": false,
     "isUseInHand": false,
     "isNotDiscard": false,
-    "iconPath": "RolePlus\\Paladi\\skillicon\\S",
+    "iconPath": "RolePlus/Paladi/skillicon/S",
     "backPath": "",
     "roleImgPath": "",
     "color": "Purple",
@@ -23563,17 +23563,27 @@
     "isCostX": false,
     "tagList": [
       {
+        "tagId": 12600007
+      },
+      {
+        "tagId": 12601431
+      },
+      {
         "tagId": 12600145
       },
       {
-        "tagId": 12600007
+        "tagId": 12600149
+      },
+      {
+        "tagId": 12600210
       }
     ],
     "tagOutsideList": [],
     "deriveCardList": [],
     "cardAIActionList": [],
     "ExCondList": [],
-    "ExActList": []
+    "ExActList": [],
+    "linkCardId": []
   },
   {
     "id": 10600322,
@@ -23586,7 +23596,7 @@
     "isNoCD": false,
     "isUseInHand": false,
     "isNotDiscard": false,
-    "iconPath": "RolePlus\\Paladi\\skillicon\\B",
+    "iconPath": "RolePlus/Paladi/skillicon/B",
     "backPath": "",
     "roleImgPath": "",
     "color": "Blue",
@@ -23611,6 +23621,9 @@
     "tagList": [
       {
         "tagId": 12600009
+      },
+      {
+        "tagId": 12600216
       }
     ],
     "tagOutsideList": [],
@@ -23638,7 +23651,11 @@
     "targetCount": 0,
     "ExCondList": [],
     "ExActList": [],
-    "linkCardId": []
+    "linkCardId": [
+      {
+        "Id": 10600396
+      }
+    ]
   },
   {
     "id": 10600323,
@@ -23651,7 +23668,7 @@
     "isNoCD": false,
     "isUseInHand": false,
     "isNotDiscard": false,
-    "iconPath": "RolePlus\\Paladi\\skillicon\\A",
+    "iconPath": "RolePlus/Paladi/skillicon/A",
     "backPath": "",
     "roleImgPath": "",
     "color": "Blue",
@@ -23676,6 +23693,9 @@
     "tagList": [
       {
         "tagId": 12600009
+      },
+      {
+        "tagId": 12601433
       }
     ],
     "tagOutsideList": [],
@@ -23691,6 +23711,74 @@
         "tagId": 12600246
       }
     ],
+    "tagType": "And",
+    "halfWidth_SN": 0,
+    "attributeType": "HpMax",
+    "condition": "Max",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 0,
+    "ExCondList": [],
+    "ExActList": [],
+    "linkCardId": []
+  },
+  {
+    "id": 10600396,
+    "idCN": "00原版/05五星/帕拉笛/B共振2",
+    "mod": "无动作卡",
+    "isInformalData": false,
+    "name": "火墙",
+    "isCutIn": false,
+    "isUseSingleTarget": false,
+    "isNoCD": false,
+    "isUseInHand": false,
+    "isNotDiscard": false,
+    "iconPath": "RolePlus/Paladi/skillicon/B",
+    "backPath": "",
+    "roleImgPath": "",
+    "color": "Blue",
+    "cardType": "Normal",
+    "sameCardGroupId": -1,
+    "cost_SN": 20000,
+    "inhandBuffId": -1,
+    "inhandOverBuffId": -1,
+    "startBuffId": 10413029,
+    "discardBuffId": -1,
+    "discardBySkillBuffId": -1,
+    "banishBuffId": -1,
+    "atkAreaType": "Direction",
+    "atkAreaColor": "Yellow",
+    "targetColor": "AttackTest",
+    "disappearEffectId": 11100047,
+    "appearEffectId": 11100046,
+    "createEffectId": 11100106,
+    "destroyEffectId": -1,
+    "createTweenDelay": 30,
+    "isCostX": false,
+    "tagList": [
+      {
+        "tagId": 12600009
+      },
+      {
+        "tagId": 12600216
+      }
+    ],
+    "tagOutsideList": [],
+    "deriveCardList": [],
+    "cardAIActionList": [],
+    "distance_SN": 240000,
+    "radius_SN": 0,
+    "isUseTargetFilter": false,
+    "isIgnoreInvisibleEnemy": true,
+    "targetType": "Enemy",
+    "targetTagList": [],
     "tagType": "And",
     "halfWidth_SN": 0,
     "attributeType": "HpMax",

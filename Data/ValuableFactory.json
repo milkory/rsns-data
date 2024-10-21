@@ -1043,7 +1043,7 @@
     "buyItemList": [],
     "superValue": 800,
     "purchase": true,
-    "purchaseNum": 2,
+    "purchaseNum": 3,
     "limitBuyType": "Weekly",
     "isTime": false,
     "startTime": "",
@@ -1056,7 +1056,7 @@
     "BattlePassLevel": 0,
     "isTriggerTime": false,
     "continueTime": 0,
-    "isRedPoint": false
+    "isRedPoint": true
   },
   {
     "id": 82100025,
@@ -4650,7 +4650,7 @@
     "superValue": 1000,
     "purchase": true,
     "purchaseNum": 2,
-    "limitBuyType": "Forever",
+    "limitBuyType": "Weekly",
     "isTime": false,
     "startTime": "2023-03-11 00:00:00",
     "endTime": "2023-04-11 00:00:00",
@@ -4784,7 +4784,7 @@
     "BattlePassLevel": 0,
     "isTriggerTime": false,
     "continueTime": 0,
-    "isRedPoint": false
+    "isRedPoint": true
   },
   {
     "id": 82100092,
@@ -5158,59 +5158,6 @@
     "isTriggerTime": false,
     "continueTime": 0,
     "isRedPoint": true
-  },
-  {
-    "id": 82100100,
-    "idCN": "04商业礼包/破天钻头礼包198",
-    "mod": "基础商品",
-    "isInformalData": false,
-    "costId": "lsns_20009",
-    "correspondStore": 40300008,
-    "correspondCharacter": -1,
-    "name": "破天钻头礼包",
-    "describe": "",
-    "isText": false,
-    "showType": "Normal",
-    "title": 80608861,
-    "des": 80608860,
-    "desColor": "#0f543f",
-    "tipsDesColor": "#ffffff",
-    "iconPath": "UI/Store/Store_gift_icon_43",
-    "buyPath": "UI/Common/BuyGiftTips/gift_type_33",
-    "isTips": true,
-    "rewardList": [
-      {
-        "id": 11400005,
-        "num": 1980
-      },
-      {
-        "id": 83100007,
-        "num": 1
-      }
-    ],
-    "isFirst": false,
-    "rewardFirstList": [],
-    "rewardFollowList": [],
-    "specialRewardList": [],
-    "buyType": "Money",
-    "value": 198.0,
-    "buyItemList": [],
-    "superValue": 800,
-    "purchase": true,
-    "purchaseNum": 1,
-    "limitBuyType": "Forever",
-    "isTime": false,
-    "startTime": "",
-    "endTime": "",
-    "isBuyCondition": false,
-    "gradeCondition": 0,
-    "ismonthCard": false,
-    "showList": [],
-    "isCharacterSkin": false,
-    "BattlePassLevel": 0,
-    "isTriggerTime": false,
-    "continueTime": 0,
-    "isRedPoint": false
   },
   {
     "id": 82100101,
@@ -7317,13 +7264,14 @@
         "num": 2880
       },
       {
-        "id": 11700221,
+        "id": 11700220,
         "num": 1
       }
     ],
     "isFirst": false,
     "rewardFirstList": [],
     "rewardFollowList": [],
+    "specialRewardList": [],
     "buyType": "Money",
     "value": 288.0,
     "buyItemList": [],
@@ -7748,6 +7696,116 @@
     "title": -1,
     "desColor": "",
     "tipsDesColor": "",
+    "isTriggerTime": false,
+    "continueTime": 0,
+    "isRedPoint": true
+  },
+  {
+    "id": 82100322,
+    "idCN": "888履历礼包/288履历礼包卡塔斯",
+    "mod": "基础商品",
+    "isInformalData": false,
+    "costId": "lsns_20009",
+    "correspondStore": 40300008,
+    "correspondCharacter": 10000004,
+    "name": "“暗耀斩钢”乘员履历礼包",
+    "describe": "",
+    "isText": false,
+    "showType": "Normal",
+    "title": 80608725,
+    "des": 80608726,
+    "desColor": "#684C92",
+    "tipsDesColor": "#684C92",
+    "iconPath": "UI/Store/Store_gift_icon_66",
+    "buyPath": "UI/Common/BuyGiftTips/gift_type_50",
+    "isTips": true,
+    "rewardList": [
+      {
+        "id": 11400005,
+        "num": 2880
+      },
+      {
+        "id": 11700069,
+        "num": 1
+      }
+    ],
+    "isFirst": false,
+    "rewardFirstList": [],
+    "rewardFollowList": [],
+    "specialRewardList": [],
+    "buyType": "Money",
+    "value": 288.0,
+    "buyItemList": [],
+    "superValue": 400,
+    "purchase": true,
+    "purchaseNum": 1,
+    "limitBuyType": "Forever",
+    "isTime": true,
+    "startTime": "2024-09-30 12:00:00",
+    "endTime": "2024-10-21 12:00:00",
+    "isBuyCondition": false,
+    "gradeCondition": 0,
+    "ismonthCard": false,
+    "showList": [],
+    "isCharacterSkin": false,
+    "BattlePassLevel": 0,
+    "isTriggerTime": false,
+    "continueTime": 0,
+    "isRedPoint": true
+  },
+  {
+    "id": 82100323,
+    "idCN": "03礼包/每日装备礼包",
+    "mod": "基础商品",
+    "isInformalData": false,
+    "costId": "lsns_20003",
+    "correspondStore": 40300008,
+    "correspondCharacter": -1,
+    "name": "每日装备礼包",
+    "describe": "",
+    "isText": false,
+    "showType": "Normal",
+    "title": -1,
+    "des": -1,
+    "desColor": "",
+    "tipsDesColor": "",
+    "iconPath": "UI/Store/Store_gift_icon_01",
+    "buyPath": "UI/Common/BuyGiftTips/gift_type_1",
+    "isTips": true,
+    "rewardList": [
+      {
+        "id": 11400087,
+        "num": 1
+      },
+      {
+        "id": 11400217,
+        "num": 1
+      },
+      {
+        "id": 11700150,
+        "num": 10
+      }
+    ],
+    "isFirst": false,
+    "rewardFirstList": [],
+    "rewardFollowList": [],
+    "specialRewardList": [],
+    "buyType": "Money",
+    "value": 6.0,
+    "buyItemList": [],
+    "superValue": 500,
+    "purchase": true,
+    "purchaseNum": 1,
+    "limitBuyType": "Daily",
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "isBuyCondition": false,
+    "gradeCondition": 0,
+    "ismonthCard": false,
+    "showList": [],
+    "isCharacterSkin": false,
+    "BattlePassLevel": 0,
     "isTriggerTime": false,
     "continueTime": 0,
     "isRedPoint": true

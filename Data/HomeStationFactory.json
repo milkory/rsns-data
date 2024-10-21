@@ -18999,10 +18999,10 @@
     "isOpen": false,
     "name": "汇流塔",
     "nameEN": "Confluence Tower",
-    "des": "索思学会在海角城附近设置的小型站点，外界多认为这是学会的重要补给据点之一。近年长期处于半封闭状态，仅对部分持有凭证的人开放。\\n<color=#b45e01>推荐等级：49级</color>",
+    "des": "索思学会在海角城附近设置的小型站点，外界多认为这是学会的重要补给据点之一。近年长期处于半封闭状态，仅对部分持有凭证的人开放。\\n<color=#b45e01>推荐等级：50级</color>",
     "dangerLevel": 8,
-    "attachedToCity": -1,
-    "force": -1,
+    "attachedToCity": 83000002,
+    "force": 12601432,
     "isShowRep": false,
     "sort": 0,
     "textArriveFirst": 80601108,
@@ -19021,7 +19021,7 @@
     "defaultDevelop": 0,
     "addDevelop": 0,
     "developUpperLimit": 0,
-    "playerLevel": 49,
+    "playerLevel": 50,
     "questId": -1,
     "specifiedLevelId": -1,
     "constructionActivityId": -1,
@@ -19063,7 +19063,14 @@
     "investList": [],
     "turntableId": -1,
     "turnExchangeBuildId": -1,
-    "tradeRankList": [],
+    "tradeRankList": [
+      {
+        "id": 84300002
+      },
+      {
+        "id": 84300001
+      }
+    ],
     "sellList": [
       {
         "id": 84704224
@@ -19676,8 +19683,8 @@
     "actionW": "nv1_1",
     "action2M": "nan2_2",
     "action2W": "nv1_2",
-    "isWarehouse": false,
-    "warehousePrestige": 1,
+    "isWarehouse": true,
+    "warehousePrestige": 6,
     "buyPrice": [
       {
         "id": 11400001,
@@ -19690,7 +19697,15 @@
         "num": 5
       }
     ],
-    "extraWarehouseList": [],
+    "extraWarehouseList": [
+      {
+        "addNum": 100,
+        "buyNum": 500,
+        "name": 80607530,
+        "reputation": 20,
+        "useNum": 5
+      }
+    ],
     "isCOC": false,
     "initCOCQuestList": [],
     "cocStoreList": [],
@@ -19701,7 +19716,7 @@
     "recoverItem": -1,
     "barStoreList": [],
     "drinkVideo": "Video/Bar/Drink_Bar",
-    "isHomeBattleCentre": false,
+    "isHomeBattleCentre": true,
     "openPageList": [
       {
         "icon": "UI/Home/HomeSafe/icon_quzhu",
@@ -19711,55 +19726,62 @@
         "showUI": "Group_Battle"
       },
       {
+        "icon": "UI/HomeCOC/coc_icon_quest",
+        "isStore": false,
+        "isTalk": false,
+        "name": "物资运输",
+        "showUI": "Group_Order"
+      },
+      {
         "icon": "UI/Home/HomeSafe/jiaotan",
         "isStore": false,
         "isTalk": true,
         "name": "交谈"
       }
     ],
-    "buildingIconPath": "",
-    "battleLevelName": "",
-    "battleIconPath": "",
+    "buildingIconPath": "UI/HomeBattleCenter/battle_icon",
+    "battleLevelName": "真理演绎",
+    "battleIconPath": "UI/HomeBattleCenter/icon",
     "battleLevelList": [
       {
-        "difficulty": 1,
-        "id": -1
+        "difficulty": 2,
+        "id": 87600027
       },
       {
-        "difficulty": 1,
-        "id": -1
+        "difficulty": 2,
+        "id": 87600028
       },
       {
-        "difficulty": 1,
-        "id": -1
+        "difficulty": 3,
+        "id": 87600029
       },
       {
-        "difficulty": 1,
-        "id": -1
+        "difficulty": 2,
+        "id": 87600030
       },
       {
-        "difficulty": 1,
-        "id": -1
+        "difficulty": 2,
+        "id": 87600031
       },
       {
-        "difficulty": 1,
-        "id": -1
+        "difficulty": 3,
+        "id": 87600032
       },
       {
-        "difficulty": 1,
-        "id": -1
+        "difficulty": 2,
+        "id": 87600033
       },
       {
-        "difficulty": 1,
-        "id": -1
+        "difficulty": 2,
+        "id": 87600034
       },
       {
-        "difficulty": 1,
-        "id": -1
+        "difficulty": 3,
+        "id": 87600035
       },
       {
-        "difficulty": 1,
-        "id": -1
+        "difficulty": 3,
+        "id": 87600036
       }
     ],
     "createOrderList": [
@@ -19785,7 +19807,7 @@
       }
     ],
     "refreshTime": 300,
-    "constructIconPath": "",
+    "constructIconPath": "UI/HomeBattleCenter/ConstructStage/construct_icon",
     "isPark": false,
     "parkId": -1,
     "parkTicket": 0,
@@ -19799,19 +19821,100 @@
     "visitorNumPond": -1,
     "tax": 0.0,
     "investTime": 0.0,
-    "constructStageList": [],
+    "constructStageList": [
+      {
+        "basisNum": 0,
+        "constructNum": 2000,
+        "desc": "作为索思学会的重要据点，汇流塔发展与地区稳定紧密相系。\r协助汇流塔扩建，让大海上增加一处人类的道标。",
+        "id": 80304397,
+        "name": "汇流塔扩建计划1期",
+        "nameBtn": "扩建计划1期",
+        "nameEN": "STATION CONSTRUCTION PLAN",
+        "overNum": 0,
+        "png": "UI/HomeBattleCenter/ConstructStage/yunxiu_bg",
+        "stagePng": "UI/HomeBattleCenter/ConstructStage/icon2",
+        "state": -1,
+        "upperNum": 0
+      },
+      {
+        "basisNum": 0,
+        "constructNum": 5000,
+        "desc": "作为索思学会的重要据点，汇流塔发展与地区稳定紧密相系。\r协助汇流塔扩建，让大海上增加一处人类的道标。",
+        "id": 80304399,
+        "name": "汇流塔扩建计划2期",
+        "nameBtn": "扩建计划2期",
+        "nameEN": "STATION CONSTRUCTION PLAN",
+        "overNum": 0,
+        "png": "UI/HomeBattleCenter/ConstructStage/yunxiu_bg",
+        "stagePng": "UI/HomeBattleCenter/ConstructStage/icon2",
+        "state": -1,
+        "upperNum": 0
+      }
+    ],
     "exchangeName": "",
     "exchangeStoreList": [],
-    "exchangeIconPath": "",
-    "exchangePagePath": "",
+    "exchangeIconPath": "UI/HomeBattleCenter/Exchange/icon_xuehui",
+    "exchangePagePath": "UI/HomeBattleCenter/Exchange/di_xuehui",
     "exchangeBottomPath": "",
     "exchangeAffirmPath": "",
     "exchangeCompletePath": "",
-    "saleName": "",
-    "materialRecycleList": [],
-    "correspondingConstruction": -1,
-    "saleBottomPath": "",
-    "saleHighPricePath": "",
+    "saleName": "素材回收清单",
+    "materialRecycleList": [
+      {
+        "id": 11700044
+      },
+      {
+        "id": 11700045
+      },
+      {
+        "id": 11700055
+      },
+      {
+        "id": 11700054
+      },
+      {
+        "id": 11700057
+      },
+      {
+        "id": 11700058
+      },
+      {
+        "id": 11700059
+      },
+      {
+        "id": 11700049
+      },
+      {
+        "id": 11700048
+      },
+      {
+        "id": 11700039
+      },
+      {
+        "id": 11700040
+      },
+      {
+        "id": 11700066
+      },
+      {
+        "id": 11700042
+      },
+      {
+        "id": 11700146
+      },
+      {
+        "id": 11700188
+      },
+      {
+        "id": 11700182
+      },
+      {
+        "id": 11700047
+      }
+    ],
+    "correspondingConstruction": 11400356,
+    "saleBottomPath": "UI/HomeBattleCenter/Exchange/di_element_xuehui",
+    "saleHighPricePath": "UI/HomeBattleCenter/Exchange/bg_xuehui",
     "petStoreList": [],
     "petRecycleStoreList": [],
     "keepSingleMealList": [],

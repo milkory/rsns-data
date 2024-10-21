@@ -230,7 +230,7 @@
         "y": -220.0
       },
       {
-        "id": 86400079,
+        "id": 86400282,
         "x": 396.0,
         "y": 25.0
       },
@@ -2145,27 +2145,27 @@
       {
         "bgPath": "UI/Dialog/Back3/City_HLT_1",
         "changeTime": "05:30:00",
-        "effectListId": -1
+        "effectListId": 86400283
       },
       {
         "bgPath": "UI/Dialog/Back3/City_HLT_2",
         "changeTime": "10:00:00",
-        "effectListId": -1
+        "effectListId": 86400284
       },
       {
         "bgPath": "UI/Dialog/Back3/City_HLT_3",
         "changeTime": "14:30:00",
-        "effectListId": -1
+        "effectListId": 86400285
       },
       {
         "bgPath": "UI/Dialog/Back3/City_HLT_4",
         "changeTime": "17:30:00",
-        "effectListId": -1
+        "effectListId": 86400286
       },
       {
         "bgPath": "UI/Dialog/Back3/City_HLT_5",
         "changeTime": "19:30:00",
-        "effectListId": -1
+        "effectListId": 86400287
       }
     ],
     "offsetX": 0.0,
@@ -2188,7 +2188,7 @@
       }
     ],
     "isShowRep": true,
-    "isShowConstruct": false,
+    "isShowConstruct": true,
     "exitId": -1
   },
   {
@@ -3523,10 +3523,21 @@
     "isInstance": false,
     "iconPath": "RolePlus/Julian/Face",
     "nameIconPath": "UI/CityMap/citymap_icon_police",
+    "frontIconPath": "",
     "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
+    "animLoop": "UI_CityBtn_01_Loop",
+    "animOut": "UI_CityBtn_01_Out",
     "activityId": -1,
     "startTime": "",
     "endTime": "",
+    "displayConditionsList": [
+      {
+        "condition": "QuestIncomplete",
+        "mId": 81000673,
+        "val": 0
+      }
+    ],
+    "unlockConditionsList": [],
     "isLock": false,
     "func": "OpenBuilding",
     "btnType": "HomeSafe",
@@ -10546,5 +10557,105 @@
     "npcId": 83700028,
     "bgPath": "UI/Dialog/Back3/HLT_Exchange",
     "bgColor": "FFFFFF"
+  },
+  {
+    "id": 86400282,
+    "idCN": "03气泡/C1七号自由港S1/01建筑/铁安局-剧情结束",
+    "mod": "气泡",
+    "isInformalData": false,
+    "name": "铁安局",
+    "isSpecial": false,
+    "isInstance": false,
+    "iconPath": "RolePlus/Julian/Face",
+    "nameIconPath": "UI/CityMap/citymap_icon_police",
+    "frontIconPath": "",
+    "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
+    "animLoop": "UI_CityBtn_01_Loop",
+    "animOut": "UI_CityBtn_01_Out",
+    "activityId": -1,
+    "startTime": "",
+    "endTime": "",
+    "displayConditionsList": [
+      {
+        "condition": "QuestComplete",
+        "mId": 81000673,
+        "val": 0
+      }
+    ],
+    "unlockConditionsList": [],
+    "isLock": true,
+    "func": "Tips",
+    "btnType": "HomeSafe",
+    "mId": -1,
+    "uiPath": "",
+    "buildingId": -1,
+    "stationPlace": -1,
+    "dialogId": -1,
+    "dungeonId": -1,
+    "levelId": -1,
+    "textId": 80601154,
+    "npcId": -1,
+    "bgPath": "UI/Dialog/Back/RPOC1",
+    "bgColor": "FFFFFF"
+  },
+  {
+    "id": 86400283,
+    "idCN": "02地图特效/汇流塔/01",
+    "mod": "地图特效",
+    "isInformalData": false,
+    "effectList": [
+      {
+        "effectPath": "UI/UIEffect/particle/UI_city/UI_city_01/UI_City_HLT_01",
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": 86400284,
+    "idCN": "02地图特效/汇流塔/02",
+    "mod": "地图特效",
+    "isInformalData": false,
+    "effectList": [
+      {
+        "effectPath": "UI/UIEffect/particle/UI_city/UI_city_01/UI_City_HLT_02",
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": 86400285,
+    "idCN": "02地图特效/汇流塔/03",
+    "mod": "地图特效",
+    "isInformalData": false,
+    "effectList": [
+      {
+        "effectPath": "UI/UIEffect/particle/UI_city/UI_city_01/UI_City_HLT_03",
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": 86400286,
+    "idCN": "02地图特效/汇流塔/04",
+    "mod": "地图特效",
+    "isInformalData": false,
+    "effectList": [
+      {
+        "effectPath": "UI/UIEffect/particle/UI_city/UI_city_01/UI_City_HLT_04",
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": 86400287,
+    "idCN": "02地图特效/汇流塔/05",
+    "mod": "地图特效",
+    "isInformalData": false,
+    "effectList": [
+      {
+        "effectPath": "UI/UIEffect/particle/UI_city/UI_city_01/UI_City_HLT_05",
+        "weight": 1
+      }
+    ]
   }
 ]

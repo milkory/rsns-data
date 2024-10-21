@@ -177332,7 +177332,7 @@
       {
         "customDataTag": "",
         "excuteTimes": 10000,
-        "frameEventId": 10502505,
+        "frameEventId": 10502513,
         "hHalf_SN": 0,
         "timesSource": "FixedValue",
         "triggerFrame": 1,
@@ -177344,11 +177344,35 @@
       {
         "customDataTag": "",
         "excuteTimes": 10000,
+        "frameEventId": 10502505,
+        "hHalf_SN": 0,
+        "timesSource": "FixedValue",
+        "triggerFrame": 3,
+        "triggerTime_SN": 500,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "customDataTag": "",
+        "excuteTimes": 10000,
+        "frameEventId": 10502508,
+        "hHalf_SN": 10000,
+        "timesSource": "FixedValue",
+        "triggerFrame": 18,
+        "triggerTime_SN": 3000,
+        "wHalf_SN": 240000,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "customDataTag": "",
+        "excuteTimes": 10000,
         "frameEventId": 10502488,
         "hHalf_SN": 0,
         "timesSource": "FixedValue",
-        "triggerFrame": 27,
-        "triggerTime_SN": 4500,
+        "triggerFrame": 18,
+        "triggerTime_SN": 3000,
         "wHalf_SN": 0,
         "x_SN": 0,
         "y_SN": 0
@@ -177359,14 +177383,32 @@
         "frameEventId": 10502507,
         "hHalf_SN": 0,
         "timesSource": "FixedValue",
-        "triggerFrame": 27,
-        "triggerTime_SN": 4500,
+        "triggerFrame": 87,
+        "triggerTime_SN": 14500,
         "wHalf_SN": 0,
         "x_SN": 0,
         "y_SN": 0
       }
     ],
-    "effectList": [],
+    "effectList": [
+      {
+        "effectId": 11104899,
+        "offsetX": 0.0,
+        "offsetY": 1.5,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11106492
+      },
+      {
+        "effectId": 11106493,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 120,
+        "triggerTime_SN": 20000
+      }
+    ],
     "soundList": [],
     "isYChange": false,
     "offsetYList": [],
@@ -177430,12 +177472,52 @@
     "viewId": 11000414,
     "aniName": "minion_skill_03_02",
     "isLoop": false,
-    "aniTime_SN": 2833,
-    "totalFrame": 17,
+    "aniTime_SN": 1000,
+    "totalFrame": 6,
     "customFrameTag": "",
-    "frameChanged": false,
-    "frameEventList": [],
-    "effectList": [],
+    "frameChanged": true,
+    "frameEventList": [
+      {
+        "customDataTag": "",
+        "excuteTimes": 10000,
+        "frameEventId": 10502512,
+        "hHalf_SN": 0,
+        "timesSource": "FixedValue",
+        "triggerFrame": 6,
+        "triggerTime_SN": 1000,
+        "wHalf_SN": 0,
+        "x_SN": 7000,
+        "y_SN": 7000
+      },
+      {
+        "customDataTag": "",
+        "excuteTimes": 10000,
+        "frameEventId": 10502511,
+        "hHalf_SN": 0,
+        "timesSource": "FixedValue",
+        "triggerFrame": 6,
+        "triggerTime_SN": 1000,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11106484,
+        "offsetX": 0.75,
+        "offsetY": 0.83,
+        "triggerFrame": 45,
+        "triggerTime_SN": 7500
+      },
+      {
+        "effectId": 11106484,
+        "offsetX": 0.75,
+        "offsetY": 0.83,
+        "triggerFrame": 55,
+        "triggerTime_SN": 9167
+      }
+    ],
     "soundList": [],
     "isYChange": false,
     "offsetYList": [],
@@ -179087,7 +179169,7 @@
     "soundList": [],
     "isYChange": false,
     "offsetYList": [],
-    "speed_SN": 1500,
+    "speed_SN": 1000,
     "speedY_SN": 0,
     "keyFrameList": [],
     "isSetSortingOrder": false,
@@ -179116,6 +179198,18 @@
         "triggerFrame": 45,
         "triggerTime_SN": 7500,
         "wHalf_SN": 0,
+        "x_SN": 7000,
+        "y_SN": 7000
+      },
+      {
+        "customDataTag": "",
+        "excuteTimes": 10000,
+        "frameEventId": 10502511,
+        "hHalf_SN": 0,
+        "timesSource": "FixedValue",
+        "triggerFrame": 45,
+        "triggerTime_SN": 7500,
+        "wHalf_SN": 0,
         "x_SN": 0,
         "y_SN": 0
       }
@@ -179127,6 +179221,13 @@
         "offsetY": 0.83,
         "triggerFrame": 45,
         "triggerTime_SN": 7500
+      },
+      {
+        "effectId": 11106484,
+        "offsetX": 0.75,
+        "offsetY": 0.83,
+        "triggerFrame": 55,
+        "triggerTime_SN": 9167
       }
     ],
     "soundList": [],
@@ -179728,8 +179829,8 @@
     "viewId": 11000418,
     "aniName": "minion_skill_03_02",
     "isLoop": false,
-    "aniTime_SN": 36833,
-    "totalFrame": 221,
+    "aniTime_SN": 20167,
+    "totalFrame": 121,
     "customFrameTag": "",
     "frameChanged": false,
     "frameEventList": [],
@@ -179738,22 +179839,85 @@
         "effectId": 11103082,
         "offsetX": 0.45,
         "offsetY": 2.5,
-        "triggerFrame": 27,
-        "triggerTime_SN": 4500
+        "triggerFrame": 18,
+        "triggerTime_SN": 3000
+      },
+      {
+        "effectId": 11103082,
+        "offsetX": 0.45,
+        "offsetY": 2.5,
+        "triggerFrame": 30,
+        "triggerTime_SN": 5000
+      },
+      {
+        "effectId": 11103082,
+        "offsetX": 0.45,
+        "offsetY": 2.5,
+        "triggerFrame": 42,
+        "triggerTime_SN": 7000
+      },
+      {
+        "effectId": 11103082,
+        "offsetX": 0.45,
+        "offsetY": 2.5,
+        "triggerFrame": 54,
+        "triggerTime_SN": 9000
+      },
+      {
+        "effectId": 11106500,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11106253,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 18,
+        "triggerTime_SN": 3000
       },
       {
         "effectId": 11106477,
         "offsetX": 0.45,
         "offsetY": 1.37,
-        "triggerFrame": 137,
-        "triggerTime_SN": 22833
+        "triggerFrame": 87,
+        "triggerTime_SN": 14500
+      },
+      {
+        "effectId": 11106477,
+        "offsetX": 0.45,
+        "offsetY": 1.37,
+        "triggerFrame": 99,
+        "triggerTime_SN": 16500
+      },
+      {
+        "effectId": 11106477,
+        "offsetX": 0.45,
+        "offsetY": 1.37,
+        "triggerFrame": 111,
+        "triggerTime_SN": 18500
+      },
+      {
+        "effectId": 11106477,
+        "offsetX": 0.45,
+        "offsetY": 1.37,
+        "triggerFrame": 120,
+        "triggerTime_SN": 20000
       },
       {
         "effectId": 11106479,
         "offsetX": 0.0,
         "offsetY": 0.0,
-        "triggerFrame": 137,
-        "triggerTime_SN": 22833
+        "triggerFrame": 87,
+        "triggerTime_SN": 14500
+      },
+      {
+        "effectId": 11106253,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 87,
+        "triggerTime_SN": 14500
       }
     ],
     "soundList": [],
@@ -179784,9 +179948,19 @@
         "effectId": 11100114
       },
       {
+        "effectId": 11106503
+      },
+      {
         "effectId": 11106491,
         "offsetX": 0.7,
         "offsetY": 0.7,
+        "triggerFrame": 15,
+        "triggerTime_SN": 2500
+      },
+      {
+        "effectId": 11106504,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
         "triggerFrame": 15,
         "triggerTime_SN": 2500
       }
@@ -179817,6 +179991,13 @@
     "effectList": [
       {
         "effectId": 11100114
+      },
+      {
+        "effectId": 11106456,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
       },
       {
         "effectId": 11106498,
@@ -179853,7 +180034,7 @@
     "soundList": [],
     "isYChange": false,
     "offsetYList": [],
-    "speed_SN": 1500,
+    "speed_SN": 1000,
     "speedY_SN": 0,
     "keyFrameList": [],
     "isSetSortingOrder": false,
@@ -179992,7 +180173,11 @@
     "frameEventList": [],
     "effectList": [
       {
-        "effectId": 11106490
+        "effectId": 11106490,
+        "offsetX": 0.0,
+        "offsetY": 2.0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
       }
     ],
     "soundList": [],
@@ -180026,11 +180211,18 @@
         "wHalf_SN": 0,
         "x_SN": 0,
         "y_SN": 0
+      },
+      {
+        "frameEventId": 10502509
       }
     ],
     "effectList": [
       {
-        "effectId": 11106488
+        "effectId": 11106488,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
       }
     ],
     "soundList": [],
@@ -180130,6 +180322,65 @@
         "offsetX": 0.0,
         "offsetY": 0.0,
         "triggerFrame": 5,
+        "triggerTime_SN": 0
+      }
+    ],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203872,
+    "idCN": "我方/05五星/帕拉笛/bot03_修复",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "NormalSkill",
+    "viewId": 11000421,
+    "aniName": "minion_stand",
+    "isLoop": false,
+    "aniTime_SN": 0,
+    "totalFrame": 1,
+    "customFrameTag": "",
+    "frameChanged": true,
+    "frameEventList": [
+      {
+        "customDataTag": "",
+        "excuteTimes": 10000,
+        "frameEventId": 10502503,
+        "hHalf_SN": 0,
+        "timesSource": "FixedValue",
+        "triggerFrame": 1,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11106485,
+        "offsetX": 0.0,
+        "offsetY": 2.0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11106499,
+        "offsetX": 0.0,
+        "offsetY": 2.0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11101172,
+        "offsetX": 0.0,
+        "offsetY": 2.0,
+        "triggerFrame": 1,
         "triggerTime_SN": 0
       }
     ],

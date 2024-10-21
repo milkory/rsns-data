@@ -1086,7 +1086,7 @@
   },
   {
     "id": 84400018,
-    "idCN": "列车武装/铁盟哨站-多萝西",
+    "idCN": "兑换站/铁盟哨站-多萝西",
     "mod": "兑换站",
     "isInformalData": false,
     "name": "",
@@ -1357,10 +1357,11 @@
   },
   {
     "id": 84400003,
-    "idCN": "列车武装/能源研究所-卡洛琳",
+    "idCN": "兑换站/能源研究所-卡洛琳",
     "mod": "兑换站",
     "isInformalData": false,
     "name": "",
+    "buildingIconPath": "",
     "firstPlotId": -1,
     "uiPath": "UI/ExchangeStation/ExchangeStation",
     "bgPath": "UI/Dialog/Back/Anita_OB",
@@ -1369,6 +1370,8 @@
     "npcId": 83700044,
     "helpId": -1,
     "rankId": -1,
+    "correspondingActivity": -1,
+    "eventList": [],
     "playerLevel": 0,
     "exchangeOpenPageList": [
       {
@@ -1413,11 +1416,20 @@
     "pagePath": "UI/HomeBattleCenter/Exchange/di",
     "bottomPath": "UI/HomeBattleCenter/Exchange/huangyuan_group_bg",
     "exchangeAffirmPath": "UI/HomeBattleCenter/Exchange/exchange_can",
-    "exchangeCompletePath": "UI/HomeBattleCenter/Exchange/exchange_not"
+    "exchangeCompletePath": "UI/HomeBattleCenter/Exchange/exchange_not",
+    "orderNumMax": 6,
+    "orderNumMin": 4,
+    "activityOrderList": [],
+    "orderTitle": -1,
+    "orderDes": -1,
+    "orderBgPath": "",
+    "levelIconPath": "",
+    "buildLevelName": -1,
+    "constructionLevelList": []
   },
   {
     "id": 84400024,
-    "idCN": "列车武装/淘金-掘金机器人",
+    "idCN": "兑换站/淘金-掘金机器人",
     "mod": "兑换站",
     "isInformalData": false,
     "name": "",
@@ -1477,7 +1489,7 @@
   },
   {
     "id": 84400025,
-    "idCN": "列车武装/阿妮塔战备工厂-伊尔",
+    "idCN": "兑换站/阿妮塔战备工厂-伊尔",
     "mod": "兑换站",
     "isInformalData": false,
     "name": "",
@@ -1537,7 +1549,7 @@
   },
   {
     "id": 84400026,
-    "idCN": "列车武装/发射科技中心-卡莱雅",
+    "idCN": "兑换站/发射科技中心-卡莱雅",
     "mod": "兑换站",
     "isInformalData": false,
     "name": "",
@@ -16922,7 +16934,7 @@
   },
   {
     "id": 84400084,
-    "idCN": "列车武装/云岫桥基地-小麦",
+    "idCN": "兑换站/云岫桥基地-小麦",
     "mod": "兑换站",
     "isInformalData": false,
     "name": "",
@@ -59365,7 +59377,7 @@
     "buildingIconPath": "",
     "firstPlotId": -1,
     "uiPath": "UI/ExchangeStation/ExchangeStation",
-    "bgPath": "UI/Dialog/Back/street-day2",
+    "bgPath": "UI/Dialog/Back3/HLT_Hub",
     "bgColor": "FFFFFF",
     "stationId": 83000030,
     "npcId": 83700098,
@@ -59376,11 +59388,20 @@
     "playerLevel": 0,
     "exchangeOpenPageList": [
       {
+        "icon": "UI/Common/icon_weaponstore",
+        "isStore": false,
+        "isTalk": false,
+        "name": "学会兵器构建",
+        "showUI": "",
+        "uiPath": "UI/WeaponStore/WeaponStore"
+      },
+      {
         "icon": "UI/HomeBattleCenter/icon_exchange",
         "isStore": true,
         "isTalk": false,
-        "name": "交换",
-        "showUI": "Group_Exchange"
+        "name": "异想汇流",
+        "showUI": "Group_Exchange",
+        "uiPath": ""
       },
       {
         "icon": "UI/HomeTrade/trade_icon_sell",
@@ -59400,17 +59421,21 @@
     ],
     "exchangeStoreList": [
       {
-        "id": 40300017
+        "id": 40300110
       }
     ],
-    "exchangeWeaponList": [],
+    "exchangeWeaponList": [
+      {
+        "id": 40300109
+      }
+    ],
     "isShowConstruct": false,
     "isShowReputation": false,
     "exchangeName": "交换清单",
-    "buildingPath": "UI/ExchangeStation/icon_exchange_heiyue",
-    "exchangePath": "UI/HomeBattleCenter/Exchange/icon_heiyue",
-    "pagePath": "UI/HomeBattleCenter/Exchange/di_heiyue",
-    "bottomPath": "UI/HomeBattleCenter/Exchange/di_group_heiyue",
+    "buildingPath": "UI/ExchangeStation/icon_exchange_xuehui",
+    "exchangePath": "UI/HomeBattleCenter/Exchange/icon_xuehui",
+    "pagePath": "UI/HomeBattleCenter/Exchange/di_xuehui",
+    "bottomPath": "UI/HomeBattleCenter/Exchange/di_group_xuehui",
     "exchangeAffirmPath": "UI/HomeBattleCenter/Exchange/btn_exchange_xuehui",
     "exchangeCompletePath": "UI/HomeBattleCenter/Exchange/btn_complete_xuehui",
     "orderNumMax": 6,

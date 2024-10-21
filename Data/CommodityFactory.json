@@ -31437,7 +31437,7 @@
     "monetaryView": "UI/Common/yinuo",
     "discountVariable": 0,
     "purchase": true,
-    "purchaseNum": 5,
+    "purchaseNum": 10,
     "firstGifts": false,
     "firstGiftsNum": 0,
     "commodityFunction": "",
@@ -31455,10 +31455,12 @@
     "stationCondition": -1,
     "repGradeCondition": 0,
     "gradeCondition": 0,
+    "furnitureCondition": -1,
     "gradeRefresh": 0,
     "isTriggerTime": false,
     "continueTime": 0,
-    "extraGiveList": []
+    "extraGiveList": [],
+    "prisonGradeCondition": 0
   },
   {
     "id": 40200512,
@@ -31511,7 +31513,7 @@
   },
   {
     "id": 40200513,
-    "idCN": "1黑月桦石商店/周-进货采买书列表",
+    "idCN": "1黑月桦石商店/日-进货采买书列表",
     "mod": "商品",
     "isInformalData": false,
     "commodityName": "进货采买书",
@@ -38004,10 +38006,12 @@
     "stationCondition": -1,
     "repGradeCondition": 0,
     "gradeCondition": 0,
+    "furnitureCondition": -1,
     "gradeRefresh": 0,
     "isTriggerTime": false,
     "continueTime": 0,
-    "extraGiveList": []
+    "extraGiveList": [],
+    "prisonGradeCondition": 0
   },
   {
     "id": 40200636,
@@ -40924,10 +40928,12 @@
     "stationCondition": -1,
     "repGradeCondition": 0,
     "gradeCondition": 0,
+    "furnitureCondition": -1,
     "gradeRefresh": 0,
     "isTriggerTime": false,
     "continueTime": 0,
-    "extraGiveList": []
+    "extraGiveList": [],
+    "prisonGradeCondition": 0
   },
   {
     "id": 40200711,
@@ -60007,7 +60013,7 @@
     "monetaryView": "UI/Common/yinuo",
     "discountVariable": 0,
     "purchase": true,
-    "purchaseNum": 20,
+    "purchaseNum": 24,
     "firstGifts": false,
     "firstGiftsNum": 0,
     "commodityFunction": "",
@@ -61092,7 +61098,7 @@
     "monetaryView": "Item\\item\\diamond",
     "discountVariable": 0,
     "purchase": true,
-    "purchaseNum": 10,
+    "purchaseNum": 48,
     "firstGifts": false,
     "firstGiftsNum": 0,
     "commodityFunction": "",
@@ -61368,6 +61374,126 @@
     "commodityFunction": "",
     "isChange": false,
     "oneTimeMax": 1,
+    "iconPath": "",
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "isRefresh": false,
+    "initTime": "",
+    "refreshDay": 10,
+    "limitBuyType": "Forever",
+    "isBuyCondition": false,
+    "stationCondition": -1,
+    "repGradeCondition": 0,
+    "gradeCondition": 0,
+    "furnitureCondition": -1,
+    "gradeRefresh": 0,
+    "isTriggerTime": false,
+    "continueTime": 0,
+    "extraGiveList": [],
+    "prisonGradeCondition": 0
+  },
+  {
+    "id": 40200444,
+    "idCN": "2NPC兑换/冯里奈/装备-金-星弧波纹",
+    "mod": "商品",
+    "isInformalData": false,
+    "commodityName": "星弧波纹",
+    "commodityView": "Item\\weapon\\Xuehui\\Small\\23",
+    "quality": "Golden",
+    "commodityItemList": [
+      {
+        "id": 11800031,
+        "num": 1
+      }
+    ],
+    "commodityNum": 1,
+    "moneyList": [
+      {
+        "correspondPrice": -1,
+        "moneyID": 11700219,
+        "moneyNum": 3
+      },
+      {
+        "correspondPrice": -1,
+        "moneyID": 11700055,
+        "moneyNum": 3
+      },
+      {
+        "correspondPrice": -1,
+        "moneyID": 11700058,
+        "moneyNum": 10
+      }
+    ],
+    "monetaryView": "UI/Common/yinuo",
+    "discountVariable": 0,
+    "purchase": true,
+    "purchaseNum": 1,
+    "firstGifts": false,
+    "firstGiftsNum": 0,
+    "commodityFunction": "",
+    "isChange": false,
+    "oneTimeMax": 10,
+    "iconPath": "",
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "isRefresh": false,
+    "initTime": "",
+    "refreshDay": 10,
+    "limitBuyType": "Forever",
+    "isBuyCondition": false,
+    "stationCondition": -1,
+    "repGradeCondition": 0,
+    "gradeCondition": 0,
+    "furnitureCondition": -1,
+    "gradeRefresh": 0,
+    "isTriggerTime": false,
+    "continueTime": 0,
+    "extraGiveList": [],
+    "prisonGradeCondition": 0
+  },
+  {
+    "id": 40200445,
+    "idCN": "2NPC兑换/冯里奈/装备-金-无限非概率护甲",
+    "mod": "商品",
+    "isInformalData": false,
+    "commodityName": "无限非概率护甲",
+    "commodityView": "Item\\weapon\\Xuehui\\Small\\22",
+    "quality": "Golden",
+    "commodityItemList": [
+      {
+        "id": 11800033,
+        "num": 1
+      }
+    ],
+    "commodityNum": 1,
+    "moneyList": [
+      {
+        "correspondPrice": -1,
+        "moneyID": 11700219,
+        "moneyNum": 3
+      },
+      {
+        "correspondPrice": -1,
+        "moneyID": 11700054,
+        "moneyNum": 3
+      },
+      {
+        "correspondPrice": -1,
+        "moneyID": 11700059,
+        "moneyNum": 10
+      }
+    ],
+    "monetaryView": "UI/Common/yinuo",
+    "discountVariable": 0,
+    "purchase": true,
+    "purchaseNum": 1,
+    "firstGifts": false,
+    "firstGiftsNum": 0,
+    "commodityFunction": "",
+    "isChange": false,
+    "oneTimeMax": 10,
     "iconPath": "",
     "isTime": false,
     "startTime": "",

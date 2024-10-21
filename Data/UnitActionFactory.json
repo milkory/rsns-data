@@ -143384,16 +143384,12 @@
     "isCharge": false,
     "isSkill": false,
     "actionLevel": "NormalAttack",
-    "isUseTargetFilter": true,
+    "isUseTargetFilter": false,
     "isIgnoreInvisibleEnemy": true,
-    "targetType": "Ally",
-    "targetTagList": [
-      {
-        "tagId": 12601429
-      }
-    ],
+    "targetType": "Enemy",
+    "targetTagList": [],
     "tagType": "And",
-    "halfWidth_SN": 240000,
+    "halfWidth_SN": 0,
     "attributeType": "HpMax",
     "condition": "All",
     "numberType": "Number",
@@ -143405,7 +143401,7 @@
     "filterStance": "DeafaultStance",
     "filterPosition": "DefaultPos",
     "isAimSelf": false,
-    "targetCount": 1,
+    "targetCount": 0,
     "distance_SN": 75000,
     "radius_SN": 0,
     "isCustomRadius": false,
@@ -143541,7 +143537,7 @@
     "filterPosition": "DefaultPos",
     "isAimSelf": false,
     "targetCount": 0,
-    "distance_SN": 0,
+    "distance_SN": 75000,
     "radius_SN": 0,
     "isCustomRadius": false,
     "radiusTag": "",
@@ -143551,10 +143547,10 @@
     "isUseBigNumber": false,
     "stateIdList": [
       {
-        "bPlayTimes": false,
+        "bPlayTimes": true,
         "customDataTag": "",
         "stateId": 10203846,
-        "timesRate_SN": 10000,
+        "timesRate_SN": 60000,
         "timesSource": "FixedValue"
       }
     ],
@@ -144662,6 +144658,51 @@
         "bPlayTimes": false,
         "customDataTag": "",
         "stateId": 10203895,
+        "timesRate_SN": 10000,
+        "timesSource": "FixedValue"
+      }
+    ],
+    "backShakeFrame": -1
+  },
+  {
+    "id": 10103445,
+    "idCN": "我方/05五星/帕拉笛/bot03_修复",
+    "mod": "基础动作",
+    "isInformalData": false,
+    "isCharge": false,
+    "isSkill": false,
+    "actionLevel": "System",
+    "isUseTargetFilter": false,
+    "isIgnoreInvisibleEnemy": true,
+    "targetType": "Enemy",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 0,
+    "attributeType": "HpMax",
+    "condition": "All",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 0,
+    "distance_SN": 0,
+    "radius_SN": 0,
+    "isCustomRadius": false,
+    "radiusTag": "",
+    "damageHitBuffList": [],
+    "healHitBuffList": [],
+    "cdFrame": 1,
+    "isUseBigNumber": false,
+    "stateIdList": [
+      {
+        "bPlayTimes": false,
+        "customDataTag": "",
+        "stateId": 10203872,
         "timesRate_SN": 10000,
         "timesSource": "FixedValue"
       }

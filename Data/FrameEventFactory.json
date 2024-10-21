@@ -10768,7 +10768,7 @@
     "idCN": "敌方/06深眠者/深眠者·迷痴/技能2",
     "mod": "给自己上BUFF",
     "isInformalData": false,
-    "buffId": 10403616
+    "buffId": 10412999
   },
   {
     "id": 10500916,
@@ -27529,7 +27529,7 @@
   },
   {
     "id": 10502448,
-    "idCN": "我方/05五星/帕拉笛/普攻",
+    "idCN": "我方/05五星/帕拉笛/普攻_帕拉笛",
     "mod": "子弹事件",
     "isInformalData": false,
     "buffId": 10412750,
@@ -27558,7 +27558,7 @@
   },
   {
     "id": 10502452,
-    "idCN": "我方/05五星/帕拉笛/觉醒2口香糖导弹",
+    "idCN": "我方/05五星/帕拉笛/觉醒2导弹命中",
     "mod": "子弹事件",
     "isInformalData": false,
     "buffId": 10412754,
@@ -28183,11 +28183,32 @@
   },
   {
     "id": 10502487,
-    "idCN": "我方/05五星/帕拉笛/bot02_普攻",
-    "mod": "添加Buff",
+    "idCN": "我方/05五星/帕拉笛/普攻_bot02",
+    "mod": "子弹事件",
     "isInformalData": false,
     "buffId": 10412924,
-    "targetType": "CurrentTarget"
+    "bulletId": 11200534,
+    "targetType": "CurrentTarget",
+    "offSetX_SN": 0,
+    "offSetZ_SN": 0,
+    "isUseTargetFilter": false,
+    "isIgnoreInvisibleEnemy": true,
+    "targetFilterType": "Ally",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 0,
+    "attributeType": "HpMax",
+    "condition": "Max",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 0
   },
   {
     "id": 10502497,
@@ -28270,7 +28291,7 @@
   },
   {
     "id": 10502504,
-    "idCN": "我方/05五星/帕拉笛/bot03_承伤光环",
+    "idCN": "我方/05五星/帕拉笛/A承伤光环",
     "mod": "给自己上BUFF",
     "isInformalData": false,
     "buffId": 10412961
@@ -28354,5 +28375,77 @@
     "filterPosition": "DefaultPos",
     "isAimSelf": false,
     "targetCount": 0
+  },
+  {
+    "id": 10502503,
+    "idCN": "我方/05五星/帕拉笛/bot03_修复",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10412996
+  },
+  {
+    "id": 10502508,
+    "idCN": "我方/05五星/帕拉笛/S击晕",
+    "mod": "攻击事件",
+    "isInformalData": false,
+    "buffId": 10400457,
+    "hitSoundID": -1
+  },
+  {
+    "id": 10502509,
+    "idCN": "我方/05五星/帕拉笛/bot03_共振1对前排对帕拉笛",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10413007
+  },
+  {
+    "id": 10502510,
+    "idCN": "我方/05五星/帕拉笛/bot03_共振1驱散帕拉笛霸体",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10413027
+  },
+  {
+    "id": 10502511,
+    "idCN": "我方/05五星/帕拉笛/觉醒2发射叠层",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10413049
+  },
+  {
+    "id": 10502512,
+    "idCN": "我方/05五星/帕拉笛/S扫射伤害",
+    "mod": "子弹事件",
+    "isInformalData": false,
+    "buffId": 10413052,
+    "bulletId": 11200534,
+    "targetType": "CurrentTarget",
+    "offSetX_SN": 0,
+    "offSetZ_SN": 0,
+    "isUseTargetFilter": false,
+    "isIgnoreInvisibleEnemy": true,
+    "targetFilterType": "Ally",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 0,
+    "attributeType": "HpMax",
+    "condition": "Max",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 0
+  },
+  {
+    "id": 10502513,
+    "idCN": "我方/05五星/帕拉笛/共振5召唤bot02",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10413058
   }
 ]
