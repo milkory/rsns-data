@@ -79126,14 +79126,36 @@
     "name": "铁幕",
     "iconPath": "RolePlus/Paladi/skillicon/A",
     "attriDetialList": [],
-    "tempdescription": "【A-1SO】展开【铁幕】为我方全体抵御伤害，【铁幕】的耐久值为帕拉笛最大生命值的50%\\n【铁幕】存在时，【普通攻击】转化为修理【铁幕】5%耐久值\\n【铁幕】的防御力等于帕拉迪的防御力\\n【A-1SO】为【机械单位】",
-    "description": "【A-1SO】展开【铁幕】为我方全体抵御伤害，【铁幕】的耐久值为帕拉笛最大生命值的50%\\n【铁幕】存在时，【普通攻击】转化为修理【铁幕】5%耐久值\\n【铁幕】的防御力等于帕拉迪的防御力\\n【A-1SO】为【机械单位】",
+    "tempdescription": "【A-1SO】展开【铁幕】为我方全体抵御伤害，【铁幕】的耐久值为帕拉笛最大生命值的#r\\n【铁幕】存在时，【普通攻击】转化为修理【铁幕】#r耐久值\\n【铁幕】的防御力等于帕拉迪的防御力，场上只能同时存在1个【铁幕】\\n【A-1SO】为【机械单位】",
+    "description": "【A-1SO】展开【铁幕】为我方全体抵御伤害，【铁幕】的耐久值为帕拉笛最大生命值的#r\\n【铁幕】存在时，【普通攻击】转化为修理【铁幕】#r耐久值\\n【铁幕】的防御力等于帕拉迪的防御力，场上只能同时存在1个【铁幕】\\n【A-1SO】为【机械单位】",
     "levelUpDescription": "",
     "tempdetailDescription": "",
     "detailDescription": "",
-    "desParamList": [],
+    "desParamList": [
+      {
+        "isPercent": true,
+        "param": "A"
+      },
+      {
+        "isPercent": true,
+        "param": "B"
+      }
+    ],
     "skillParamList": [
-      {}
+      {
+        "skillRateA_SN": 5000,
+        "skillRateB_SN": 400,
+        "skillRateC_SN": 0,
+        "skillRateD_SN": 0,
+        "skillRateE_SN": 0,
+        "skillRateF_SN": 0,
+        "skillRateG_SN": 0,
+        "skillRateH_SN": 0,
+        "skillRateI_SN": 0,
+        "skillRateJ_SN": 0,
+        "skillRateL_SN": 0,
+        "skillRateT_SN": 0
+      }
     ],
     "attributeList": [],
     "tagId": -1,
@@ -79163,14 +79185,36 @@
     "name": "火墙",
     "iconPath": "RolePlus/Paladi/skillicon/B",
     "attriDetialList": [],
-    "tempdescription": "【A-1SO】朝地面喷射汽油并点火，使敌方场地触发【燎原】并使敌方全体【精力值】下降10%\\n同时使敌方全体攻击力下降2%",
-    "description": "【A-1SO】朝地面喷射汽油并点火，使敌方场地触发<color=#FF6666>【燎原】</color>并使敌方全体【精力值】下降10%\\n同时使敌方全体攻击力下降2%",
+    "tempdescription": "【A-1SO】朝地面喷射汽油并点火，使敌方场地触发【燎原】并使敌方全体【精力值】下降#r\\n同时使敌方全体攻击力下降#r",
+    "description": "【A-1SO】朝地面喷射汽油并点火，使敌方场地触发<color=#FF6666>【燎原】</color>并使敌方全体【精力值】下降#r\\n同时使敌方全体攻击力下降#r",
     "levelUpDescription": "",
     "tempdetailDescription": "",
     "detailDescription": "",
-    "desParamList": [],
+    "desParamList": [
+      {
+        "isPercent": true,
+        "param": "A"
+      },
+      {
+        "isPercent": true,
+        "param": "B"
+      }
+    ],
     "skillParamList": [
-      {}
+      {
+        "skillRateA_SN": 300,
+        "skillRateB_SN": 200,
+        "skillRateC_SN": 0,
+        "skillRateD_SN": 0,
+        "skillRateE_SN": 0,
+        "skillRateF_SN": 0,
+        "skillRateG_SN": 0,
+        "skillRateH_SN": 0,
+        "skillRateI_SN": 0,
+        "skillRateJ_SN": 0,
+        "skillRateL_SN": 0,
+        "skillRateT_SN": 0
+      }
     ],
     "attributeList": [],
     "tagId": -1,
@@ -79204,7 +79248,7 @@
     "description": "帕拉笛吹哨，命令机器人进行高压镇暴\\n【A-1SO】释放声波波束，对敌方全体造成8段伤害并<color=#FF6666>【击晕】</color>\\n【A-1SO】释放高压电流，对敌方全体造成8段伤害，同时触发<color=#FFB800>【引雷】</color>\\n【A-1SO】和【A-2SO】为【机械单位】",
     "levelUpDescription": "",
     "tempdetailDescription": "伤害：500%（物理）×8；500%（电磁）×8",
-    "detailDescription": "",
+    "detailDescription": "伤害：500%（物理）×8；500%（电磁）×8",
     "desParamList": [],
     "skillParamList": [
       {
@@ -79657,8 +79701,8 @@
     "name": "",
     "iconPath": "",
     "attriDetialList": [],
-    "tempdescription": "普通攻击有5%概率触发【混乱】",
-    "description": "普通攻击有5%概率触发【混乱】",
+    "tempdescription": "使用3费及以上红卡时，使随机敌方目标受到治疗效果下降3%，上限75%，可叠加",
+    "description": "使用3费及以上红卡时，使随机敌方目标受到治疗效果下降3%，上限75%，可叠加",
     "levelUpDescription": "",
     "tempdetailDescription": "",
     "detailDescription": "",
@@ -80129,14 +80173,36 @@
     "name": "火墙",
     "iconPath": "RolePlus/Paladi/skillicon/B",
     "attriDetialList": [],
-    "tempdescription": "【A-1SO】朝地面喷射汽油并点火，使敌方场地触发【燎原】并使敌方全体【精力值】下降10%\\n同时使敌方全体攻击力和防御力下降2%",
-    "description": "【A-1SO】朝地面喷射汽油并点火，使敌方场地触发<color=#FF6666>【燎原】</color>并使敌方全体【精力值】下降10%\\n同时使敌方全体攻击力和防御力下降2%",
+    "tempdescription": "【A-1SO】朝地面喷射汽油并点火，使敌方场地触发【燎原】并使敌方全体【精力值】下降#r\\n同时使敌方全体攻击力和防御力下降#r",
+    "description": "【A-1SO】朝地面喷射汽油并点火，使敌方场地触发<color=#FF6666>【燎原】</color>并使敌方全体【精力值】下降#r\\n同时使敌方全体攻击力和防御力下降#r",
     "levelUpDescription": "",
     "tempdetailDescription": "",
     "detailDescription": "",
-    "desParamList": [],
+    "desParamList": [
+      {
+        "isPercent": true,
+        "param": "A"
+      },
+      {
+        "isPercent": true,
+        "param": "B"
+      }
+    ],
     "skillParamList": [
-      {}
+      {
+        "skillRateA_SN": 300,
+        "skillRateB_SN": 200,
+        "skillRateC_SN": 0,
+        "skillRateD_SN": 0,
+        "skillRateE_SN": 0,
+        "skillRateF_SN": 0,
+        "skillRateG_SN": 0,
+        "skillRateH_SN": 0,
+        "skillRateI_SN": 0,
+        "skillRateJ_SN": 0,
+        "skillRateL_SN": 0,
+        "skillRateT_SN": 0
+      }
     ],
     "attributeList": [],
     "tagId": -1,

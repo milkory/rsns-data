@@ -4299,6 +4299,9 @@
     "skinList": [
       {
         "unitViewId": 11000080
+      },
+      {
+        "unitViewId": 11000390
       }
     ],
     "sideId": 12600027,
@@ -8739,7 +8742,7 @@
   },
   {
     "id": 10000348,
-    "idCN": "00我方/09召唤物/多萝西链暴雷",
+    "idCN": "00我方/09召唤物/多萝西bot02_链暴雷",
     "mod": "召唤物",
     "isInformalData": false,
     "name": "链暴雷",
@@ -29203,7 +29206,7 @@
   },
   {
     "id": 10000097,
-    "idCN": "00我方/09召唤物/多萝西莱格爆爆",
+    "idCN": "00我方/09召唤物/多萝西bot01_莱格爆爆",
     "mod": "召唤物",
     "isInformalData": false,
     "name": "莱格爆爆",
@@ -29225,9 +29228,6 @@
       },
       {
         "tagId": 12600462
-      },
-      {
-        "tagId": 12600463
       },
       {
         "tagId": 12600057
@@ -29263,6 +29263,7 @@
     "hitAreaY_SN": 4500,
     "hitAreaHalfWidth_SN": 2500,
     "hitAreaHalfHeight_SN": 4500,
+    "canOverMaxSpeed": false,
     "safeInformation": "",
     "unitInformation": ""
   },
@@ -48796,9 +48797,6 @@
         "tagId": 12600139
       },
       {
-        "tagId": 12600166
-      },
-      {
         "tagId": 12600463
       },
       {
@@ -48839,6 +48837,7 @@
     "hitAreaY_SN": 4500,
     "hitAreaHalfWidth_SN": 2500,
     "hitAreaHalfHeight_SN": 4500,
+    "canOverMaxSpeed": false,
     "safeInformation": "",
     "unitInformation": ""
   },
@@ -75358,7 +75357,14 @@
     "battleDes": "",
     "safeInformation": "昴宿系列的守卫型机器人，以物理攻击作为主要攻击手段。生命值较低时会分摊队友伤害，如在分摊期间陷入濒死，将保持一段时间的待命状态再死亡。",
     "unitInformation": "昴宿系列的守卫型机器人，拥有强大的近距离镇暴能力。物理攻击是它的主要攻击手段。当其生命值低于一定数值时，会承担敌方全体所受的伤害；如在分担期间陷入濒死，将在原地待命一段时间后再死亡，待命期间不会攻击和释放技能。",
-    "enemyDrop": [],
+    "enemyDrop": [
+      {
+        "id": 11700217
+      },
+      {
+        "id": 11700218
+      }
+    ],
     "abilityList": [
       {
         "id": 12600925
@@ -75495,10 +75501,10 @@
         "talentId": 12800476
       },
       {
-        "talentId": 12800498
+        "talentId": 12800495
       },
       {
-        "talentId": 12800268
+        "talentId": 12800498
       }
     ],
     "rewardList": [],
@@ -75936,7 +75942,14 @@
     "battleDes": "",
     "safeInformation": "昴宿系列的哨戒型机器人。技能会造成弃牌效果，还会根据手牌数量按一定百分比给予全体伤害。",
     "unitInformation": "昴宿系列的哨戒型机器人，负责对敌人的性质作出迅速分析判断、进行初步的限制性攻击。技能会造成弃牌效果，还会根据手牌数量按一定百分比给予全体伤害。",
-    "enemyDrop": [],
+    "enemyDrop": [
+      {
+        "id": 11700217
+      },
+      {
+        "id": 11700218
+      }
+    ],
     "abilityList": [],
     "weaknessList": [
       {
@@ -76069,10 +76082,10 @@
         "talentId": 12800476
       },
       {
-        "talentId": 12800498
+        "talentId": 12800495
       },
       {
-        "talentId": 12800268
+        "talentId": 12800498
       }
     ],
     "rewardList": [],
@@ -78375,7 +78388,17 @@
     "battleDes": "",
     "safeInformation": "索思学会御险枢纽研发的大型对策机械，代号“艾尼”。能造成多种负面效果，还会按受到物理伤害的次数叠加减伤。每隔一定时间会清空我方全体的增益效果。",
     "unitInformation": "索思学会御险枢纽研发的大型对策机械，代号“艾尼”。由后半部上方的胶囊形状对策系统控制其行动，可接受远程指令。\\n装配多种特殊武器，能导致包括【击退】【禁锢】【枷锁】【混乱】在内的多种负面效果，还能通过火焰喷射装置对我方全体造成高额伤害。每受到一次物理伤害就会降低自身所受物理伤害，减伤达到上限后将强制丢弃我方手牌中全部红卡并重置减伤效果。另外，每隔一定时间会清除我方全体的增益效果。",
-    "enemyDrop": [],
+    "enemyDrop": [
+      {
+        "id": 11700217
+      },
+      {
+        "id": 11700218
+      },
+      {
+        "id": 11700226
+      }
+    ],
     "abilityList": [
       {
         "id": 12600935
@@ -83199,7 +83222,7 @@
         "skillId": 12301862
       },
       {
-        "num": 3,
+        "num": 2,
         "skillId": 12301863
       },
       {
@@ -83306,7 +83329,7 @@
         "num": 10
       }
     ],
-    "isSpine2": 0,
+    "isSpine2": 1,
     "homeSkillList": [
       {
         "id": 83900174,
@@ -85341,7 +85364,7 @@
     "isCantBeHit": true,
     "isImmuneAlly": false,
     "isImmuneEnemy": true,
-    "ownerDeadAddBuffID": -1,
+    "ownerDeadAddBuffID": 10413080,
     "deadAddBuffToOwner": -1,
     "fightEndBuffId": -1,
     "hitPointX_SN": 0,
@@ -85702,7 +85725,7 @@
     "isCantBeHit": true,
     "isImmuneAlly": false,
     "isImmuneEnemy": true,
-    "ownerDeadAddBuffID": -1,
+    "ownerDeadAddBuffID": 10413080,
     "deadAddBuffToOwner": -1,
     "fightEndBuffId": -1,
     "hitPointX_SN": 0,
@@ -86093,7 +86116,7 @@
     "isCantBeHit": false,
     "isImmuneAlly": false,
     "isImmuneEnemy": false,
-    "ownerDeadAddBuffID": -1,
+    "ownerDeadAddBuffID": 10413080,
     "deadAddBuffToOwner": 10413035,
     "fightEndBuffId": -1,
     "hitPointX_SN": 0,

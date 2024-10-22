@@ -59354,7 +59354,7 @@
     "idCN": "作战中心/汇流塔",
     "mod": "动态建筑",
     "isInformalData": false,
-    "name": "作战中心",
+    "name": "汇流之所",
     "buildingIconPath": "UI/HomeCOC/coc_icon_logo",
     "firstPlotId": -1,
     "uiPath": "",
@@ -59365,7 +59365,17 @@
     "helpId": -1,
     "rankId": -1,
     "correspondingActivity": -1,
-    "eventList": [],
+    "eventList": [
+      {
+        "activityId": -1,
+        "endTime": "",
+        "eventId": 20101176,
+        "eventType": "Level",
+        "isAuto": false,
+        "questId": 81001845,
+        "startTime": ""
+      }
+    ],
     "openPageList": []
   },
   {
@@ -61877,5 +61887,40 @@
     "changeRefreshTime": 10,
     "returnCoefficient": 0.7,
     "exchangeBuildId": 84400022
+  },
+  {
+    "id": 84400248,
+    "idCN": "交易所/修格里-幼浅",
+    "mod": "交易所",
+    "isInformalData": false,
+    "name": "交易所",
+    "buildingIconPath": "UI/HomeTrade/trade_icon_trade",
+    "firstPlotId": -1,
+    "uiPath": "",
+    "bgPath": "",
+    "bgColor": "FFFFFF",
+    "stationId": 83000001,
+    "npcId": 83700003,
+    "helpId": -1,
+    "rankId": -1,
+    "correspondingActivity": -1,
+    "eventList": [
+      {
+        "activityId": -1,
+        "endTime": "",
+        "eventId": 20700498,
+        "eventType": "Dialog",
+        "isAuto": false,
+        "questId": 81001959,
+        "startTime": ""
+      }
+    ],
+    "sellList": [],
+    "acquisitionList": [],
+    "isWarehouse": false,
+    "warehousePrestige": 1,
+    "buyPrice": [],
+    "buyReward": [],
+    "tradeRankList": []
   }
 ]
