@@ -3626,5 +3626,31 @@
     "questId": -1,
     "startTime": "2023-01-01 00:00:00",
     "endTime": "2024-10-26 00:00:00"
+  },
+  {
+    "id": 80800188,
+    "idCN": "固定模板/共享订单奖励-待定",
+    "mod": "基础邮件",
+    "isInformalData": false,
+    "title": "共享订单",
+    "content": "尊敬的列车长，您共享的订单【{quest}】，已经被玩家【{friend}】完成。这是您的奖励，请及时查收！",
+    "addresser": "科伦巴调度中心",
+    "rewards": [],
+    "containEquipment": false,
+    "keepDays": 15,
+    "addresserPath": ""
+  },
+  {
+    "id": 80800189,
+    "idCN": "固定模板/共享订单未完成-待定",
+    "mod": "基础邮件",
+    "isInformalData": false,
+    "title": "共享订单超时通知",
+    "content": "共享订单需要在每天5:00前完成，超时的订单已被系统回收。如果连续多次未完成共享订单，将会限制接取新的共享订单。",
+    "addresser": "科伦巴调度中心",
+    "rewards": [],
+    "containEquipment": false,
+    "keepDays": 7,
+    "addresserPath": ""
   }
 ]
