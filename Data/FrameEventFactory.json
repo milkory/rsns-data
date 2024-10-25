@@ -12121,7 +12121,7 @@
   },
   {
     "id": 10500595,
-    "idCN": "我方/05五星/妮蔻拉/606普攻后移动",
+    "idCN": "我方/05五星/妮蔻拉/606滑步",
     "mod": "给自己上BUFF",
     "isInformalData": false,
     "buffId": 10407878
@@ -22754,13 +22754,6 @@
     "buffId": 10410555
   },
   {
-    "id": 10502144,
-    "idCN": "我方/05五星/妮蔻拉/606刷新普攻间隔",
-    "mod": "给自己上BUFF",
-    "isInformalData": false,
-    "buffId": 10407879
-  },
-  {
     "id": 10502138,
     "idCN": "爬塔/深眠者/深眠者·迷梦/技能1",
     "mod": "添加Buff",
@@ -28543,5 +28536,49 @@
     "filterPosition": "DefaultPos",
     "isAimSelf": false,
     "targetCount": 0
+  },
+  {
+    "id": 10502521,
+    "idCN": "深渊/06期/卡塔斯/S崩坏",
+    "mod": "攻击事件",
+    "isInformalData": false,
+    "buffId": 10404228,
+    "hitSoundID": -1
+  },
+  {
+    "id": 10502522,
+    "idCN": "深渊/06期/卡塔斯/S-2伤害_远程",
+    "mod": "子弹事件",
+    "isInformalData": false,
+    "buffId": 10413127,
+    "bulletId": 11200049,
+    "targetType": "CurrentTarget",
+    "offSetX_SN": 0,
+    "offSetZ_SN": 0,
+    "isUseTargetFilter": false,
+    "isIgnoreInvisibleEnemy": true,
+    "targetFilterType": "Ally",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 0,
+    "attributeType": "HpMax",
+    "condition": "Max",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 0
+  },
+  {
+    "id": 10502523,
+    "idCN": "深渊/06期/卡塔斯/共振5回复精力",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10413128
   }
 ]

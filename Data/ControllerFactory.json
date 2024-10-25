@@ -8357,7 +8357,7 @@
   },
   {
     "id": 10300203,
-    "idCN": "我方/50召唤物/贝蒂606",
+    "idCN": "我方/50召唤物/妮蔻拉606",
     "mod": "基础AI",
     "isInformalData": false,
     "targetInvisibleEffectId": -1,
@@ -19598,6 +19598,74 @@
     "energySkillList": [],
     "energyRestorePerFrameSN": 0,
     "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300479,
+    "idCN": "深渊/06期/卡塔斯-4",
+    "mod": "基础AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10102470
+      },
+      {
+        "actionID": 10102479
+      },
+      {
+        "actionID": 10102471
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10102469,
+        "activeFrame": 360,
+        "activeTime": 6.0,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10102472,
+        "activeFrame": 720,
+        "activeTime": 12.0,
+        "rangeSN": -10000
+      }
+    ],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [],
+    "skillLoopDelayFrame": 960,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": true,
+    "energySkillList": [
+      {
+        "actionId": 10102478,
+        "isClearEnergy": true,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10102476,
+        "isClearEnergy": true,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10103463,
+        "isClearEnergy": true,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10103464,
+        "isClearEnergy": true,
+        "rangeSN": -10000
+      }
+    ],
+    "energyRestorePerFrameSN": 320,
+    "isSkillDelay": true,
     "minDelay": 120,
     "maxDelay": 360
   }

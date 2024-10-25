@@ -236,12 +236,16 @@
     "describe": "于修格里城铁安局完成2个驱逐任务",
     "story": "既然到了新城市的铁安局，带着新乘员试着赚取赏金吧。",
     "questType": "Main",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
     "sort": 0,
     "isShowProgress": true,
     "isShowUnlock": false,
     "isShowAchieveProgress": true,
-    "isSwitchUI": false,
-    "switchUI": "",
+    "isAnecdote": false,
+    "isFURNQuest": false,
+    "client": 82600002,
     "startStation": 83000001,
     "endStationList": [
       {
@@ -249,7 +253,7 @@
         "weight": 10
       }
     ],
-    "client": 82600002,
+    "isAutoTrace": false,
     "traceList": [
       {
         "apiListId": 86500038,
@@ -270,8 +274,14 @@
         "uiPath": "UI/Home/HomeSafe/HomeSafe"
       }
     ],
+    "isSwitchUI": false,
+    "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
     "startLevel": 0,
+    "startPrisonLevel": 0,
     "conditionList": [
       {
         "key": "cityId",
@@ -282,6 +292,10 @@
     "islockAddProgress": false,
     "isAutoComplete": true,
     "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
     "parentQuest": -1,
     "childQuestList": [],
     "rewardsList": [
@@ -325,7 +339,10 @@
     "isTime": false,
     "startTime": "",
     "endTime": "",
-    "correspondActivity": -1
+    "correspondActivity": -1,
+    "returnNum": 1,
+    "dontShowMain": false,
+    "IsPlotTask": false
   },
   {
     "id": 81000015,
@@ -1956,11 +1973,15 @@
     "describe": "在乐园管理中心与彼得·黄见面",
     "story": "夏尔说黄彼得在乐园管理中心等待，去见他吧。",
     "questType": "Main",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
     "sort": 0,
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
     "isAnecdote": false,
+    "isFURNQuest": false,
     "client": 82600093,
     "startStation": 83000004,
     "endStationList": [
@@ -1988,7 +2009,10 @@
     "switchUI": "",
     "preQuestId": -1,
     "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
     "startLevel": 0,
+    "startPrisonLevel": 0,
     "conditionList": [
       {
         "key": "dialog",
@@ -2035,6 +2059,9 @@
       },
       {
         "id": 81000910
+      },
+      {
+        "id": 81001315
       }
     ],
     "changeCityStateList": [],
@@ -2055,7 +2082,10 @@
     "isTime": false,
     "startTime": "",
     "endTime": "",
-    "correspondActivity": -1
+    "correspondActivity": -1,
+    "returnNum": 1,
+    "dontShowMain": false,
+    "IsPlotTask": false
   },
   {
     "id": 81000038,
@@ -2318,20 +2348,44 @@
     "mod": "订单",
     "isInformalData": false,
     "name": "货运·保密事项",
-    "story": "请将这件重要的物品交给曼德矿场的负责人彼得·黄。考虑到潜在的运输风险以及时间紧迫，请从第七区的地下通道前往目的地，我们已经为你的列车办理了临时通行许可。请运送1个荷塞委托的包裹至曼德矿场。",
     "describe": "运送神秘包裹至曼德矿场",
+    "story": "请将这件重要的物品交给曼德矿场的负责人彼得·黄。考虑到潜在的运输风险以及时间紧迫，请从第七区的地下通道前往目的地，我们已经为你的列车办理了临时通行许可。请运送1个荷塞委托的包裹至曼德矿场。",
+    "questType": "Home",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "sort": 0,
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
-    "questType": "Home",
-    "sort": 0,
+    "client": 82600080,
+    "startStation": 83000001,
+    "endStationList": [
+      {
+        "id": 83000053,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": false,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500031,
+        "uiPath": "UI/MainUI/MainUI"
+      }
+    ],
     "isSwitchUI": true,
     "switchUI": "",
     "conditionList": [],
     "num": 1,
     "islockAddProgress": false,
     "isAutoComplete": true,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
     "giveUp": false,
+    "isShare": false,
     "rewardsList": [
       {
         "id": 11400001,
@@ -2344,21 +2398,16 @@
         "num": 100
       }
     ],
-    "startStation": 83000001,
-    "endStationList": [
-      {
-        "id": 83000053,
-        "weight": 10
-      }
-    ],
-    "client": 82600080,
+    "friendRewardsList": [],
+    "sharerRewardsList": [],
     "nextQuest": [],
     "changeCityStateList": [],
+    "mailList": [],
     "isInitQuest": true,
+    "playerLevel": 0,
     "questId": -1,
     "development": 0,
     "investment": 0,
-    "playerLevel": 0,
     "cocQuestType": "Send",
     "goodsList": [
       {
@@ -2373,14 +2422,8 @@
     "isOverwriteEvent": false,
     "eventList": [],
     "environmentList": [],
-    "traceList": [
-      {
-        "apiListId": 86500038,
-        "btnListId": 86500036,
-        "traceId": 86500031,
-        "uiPath": "UI/MainUI/MainUI"
-      }
-    ]
+    "correspondActivity": -1,
+    "returnNum": 1
   },
   {
     "id": 81000098,
@@ -21553,6 +21596,8 @@
     "story": "在各类商店消费总计10000铁盟币（交易所除外）",
     "questType": "Achieve",
     "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
     "sort": 99,
     "startStation": -1,
     "endStationList": [],
@@ -22291,20 +22336,37 @@
     "mod": "订单",
     "isInformalData": false,
     "name": "采购·无敌受欢迎的曼德工具箱1",
-    "story": "本天才倾注心血研发的全新产品——曼德工具箱！无论价值还是实用性都是当之无愧的完美之作，想象不到有谁能拒绝它的魅力！请采购18箱曼德工具箱至%s的交易所售卖。",
     "describe": "采购18箱曼德工具箱至%s的交易所售卖",
+    "story": "本天才倾注心血研发的全新产品——曼德工具箱！无论价值还是实用性都是当之无愧的完美之作，想象不到有谁能拒绝它的魅力！请采购18箱曼德工具箱至%s的交易所售卖。",
+    "questType": "Home",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "sort": 0,
     "isShowProgress": true,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
-    "questType": "Home",
-    "sort": 0,
+    "client": 82600086,
+    "startStation": 83000053,
+    "endStationList": [
+      {
+        "id": 83000001,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": false,
+    "traceList": [],
     "isSwitchUI": true,
     "switchUI": "",
     "conditionList": [],
     "num": 1,
     "islockAddProgress": false,
     "isAutoComplete": true,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
     "giveUp": false,
+    "isShare": false,
     "rewardsList": [
       {
         "id": 11400045,
@@ -22321,21 +22383,16 @@
         "num": 25
       }
     ],
-    "startStation": 83000053,
-    "endStationList": [
-      {
-        "id": 83000001,
-        "weight": 10
-      }
-    ],
-    "client": 82600086,
+    "friendRewardsList": [],
+    "sharerRewardsList": [],
     "nextQuest": [],
     "changeCityStateList": [],
+    "mailList": [],
     "isInitQuest": true,
+    "playerLevel": 0,
     "questId": -1,
     "development": 0,
     "investment": 0,
-    "playerLevel": 0,
     "cocQuestType": "Buy",
     "goodsList": [
       {
@@ -22350,7 +22407,8 @@
     "isOverwriteEvent": false,
     "eventList": [],
     "environmentList": [],
-    "traceList": []
+    "correspondActivity": -1,
+    "returnNum": 1
   },
   {
     "id": 81000496,
@@ -31226,12 +31284,16 @@
     "describe": "",
     "story": "",
     "questType": "Side",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
     "sort": 0,
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
-    "isSwitchUI": false,
-    "switchUI": "",
+    "isAnecdote": false,
+    "isFURNQuest": false,
+    "client": 82600002,
     "startStation": 83000001,
     "endStationList": [
       {
@@ -31239,7 +31301,7 @@
         "weight": 10
       }
     ],
-    "client": 82600002,
+    "isAutoTrace": false,
     "traceList": [
       {
         "apiListId": 86500038,
@@ -31254,8 +31316,14 @@
         "uiPath": "UI/CityMap/CityMap"
       }
     ],
+    "isSwitchUI": false,
+    "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
     "startLevel": 0,
+    "startPrisonLevel": 0,
     "conditionList": [
       {
         "key": "dialog",
@@ -31266,6 +31334,10 @@
     "islockAddProgress": false,
     "isAutoComplete": true,
     "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
     "parentQuest": 81001149,
     "childQuestList": [],
     "rewardsList": [],
@@ -31279,7 +31351,10 @@
     "isTime": false,
     "startTime": "",
     "endTime": "",
-    "correspondActivity": -1
+    "correspondActivity": -1,
+    "returnNum": 1,
+    "dontShowMain": false,
+    "IsPlotTask": false
   },
   {
     "id": 81000714,
@@ -74241,11 +74316,15 @@
     "describe": "于荒原站完成10个作战计划",
     "story": "为了荒原地区的稳定！请在荒原站作战中心完成10个作战计划。",
     "questType": "Side",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
     "sort": 5,
     "isShowProgress": true,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
     "isAnecdote": false,
+    "isFURNQuest": false,
     "client": 82600376,
     "startStation": 83000003,
     "endStationList": [
@@ -74260,7 +74339,10 @@
     "switchUI": "",
     "preQuestId": -1,
     "preLv": 21,
+    "playgroundId": -1,
+    "playgroundLv": 0,
     "startLevel": 0,
+    "startPrisonLevel": 0,
     "conditionList": [],
     "num": 10,
     "islockAddProgress": true,
@@ -74269,6 +74351,7 @@
     "isShowReceive": true,
     "isRefreshProgress": false,
     "refreshType": "Level",
+    "addProgress": 0,
     "parentQuest": -1,
     "childQuestList": [
       {
@@ -74318,7 +74401,10 @@
     "isTime": false,
     "startTime": "",
     "endTime": "",
-    "correspondActivity": -1
+    "correspondActivity": -1,
+    "returnNum": 1,
+    "dontShowMain": false,
+    "IsPlotTask": false
   },
   {
     "id": 81000368,
@@ -78703,11 +78789,15 @@
     "describe": "于铁盟哨站完成10个作战计划",
     "story": "铁盟哨站是抵御敌人的最前线，请在铁盟哨站完成10个作战计划。",
     "questType": "Side",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
     "sort": 5,
     "isShowProgress": true,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
     "isAnecdote": false,
+    "isFURNQuest": false,
     "client": 82600388,
     "startStation": 83000026,
     "endStationList": [
@@ -78722,13 +78812,18 @@
     "switchUI": "",
     "preQuestId": -1,
     "preLv": 20,
+    "playgroundId": -1,
+    "playgroundLv": 0,
     "startLevel": 0,
+    "startPrisonLevel": 0,
     "conditionList": [],
     "num": 10,
     "islockAddProgress": true,
     "isAutoComplete": false,
     "checkComplete": false,
     "isShowReceive": true,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
     "parentQuest": -1,
     "childQuestList": [
       {
@@ -78768,7 +78863,41 @@
         "num": 1
       }
     ],
-    "nextQuest": [],
+    "nextQuest": [
+      {
+        "id": 81001276
+      },
+      {
+        "id": 81001277
+      },
+      {
+        "id": 81001278
+      },
+      {
+        "id": 81001279
+      },
+      {
+        "id": 81001280
+      },
+      {
+        "id": 81001281
+      },
+      {
+        "id": 81001282
+      },
+      {
+        "id": 81001283
+      },
+      {
+        "id": 81001284
+      },
+      {
+        "id": 81001285
+      },
+      {
+        "id": 81001274
+      }
+    ],
     "changeCityStateList": [],
     "mailList": [],
     "isEvent": false,
@@ -78778,7 +78907,10 @@
     "isTime": false,
     "startTime": "",
     "endTime": "",
-    "correspondActivity": -1
+    "correspondActivity": -1,
+    "returnNum": 1,
+    "dontShowMain": false,
+    "IsPlotTask": false
   },
   {
     "id": 81000848,
@@ -78789,11 +78921,15 @@
     "describe": "于阿妮塔战备工厂完成10个作战计划",
     "story": "战略重地不容侵扰，请在阿妮塔战备工厂完成10个作战计划。",
     "questType": "Side",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
     "sort": 5,
     "isShowProgress": true,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
     "isAnecdote": false,
+    "isFURNQuest": false,
     "client": 82600291,
     "startStation": 83000012,
     "endStationList": [
@@ -78808,13 +78944,19 @@
     "switchUI": "",
     "preQuestId": -1,
     "preLv": 41,
+    "playgroundId": -1,
+    "playgroundLv": 0,
     "startLevel": 0,
+    "startPrisonLevel": 0,
     "conditionList": [],
     "num": 10,
     "islockAddProgress": true,
     "isAutoComplete": false,
     "checkComplete": false,
     "isShowReceive": true,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
     "parentQuest": -1,
     "childQuestList": [
       {
@@ -78854,7 +78996,41 @@
         "num": 1
       }
     ],
-    "nextQuest": [],
+    "nextQuest": [
+      {
+        "id": 81001287
+      },
+      {
+        "id": 81001288
+      },
+      {
+        "id": 81001289
+      },
+      {
+        "id": 81001290
+      },
+      {
+        "id": 81001291
+      },
+      {
+        "id": 81001292
+      },
+      {
+        "id": 81001293
+      },
+      {
+        "id": 81001294
+      },
+      {
+        "id": 81001295
+      },
+      {
+        "id": 81001296
+      },
+      {
+        "id": 81001275
+      }
+    ],
     "changeCityStateList": [],
     "mailList": [],
     "isEvent": false,
@@ -78864,7 +79040,10 @@
     "isTime": false,
     "startTime": "",
     "endTime": "",
-    "correspondActivity": -1
+    "correspondActivity": -1,
+    "returnNum": 1,
+    "dontShowMain": false,
+    "IsPlotTask": false
   },
   {
     "id": 81000849,
@@ -79547,11 +79726,15 @@
     "describe": "将电力等级升级至50级",
     "story": "要想装配新的车厢，提高运输能力，目前列车组的电力系统亟需强化。\\n\\n可以通过【中控仪表】或【整备列车-改装】进入电力系统。",
     "questType": "Side",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
     "sort": 0,
     "isShowProgress": true,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
     "isAnecdote": false,
+    "isFURNQuest": false,
     "client": 82600010,
     "startStation": 83000053,
     "endStationList": [],
@@ -79568,7 +79751,10 @@
     "switchUI": "",
     "preQuestId": -1,
     "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
     "startLevel": 0,
+    "startPrisonLevel": 0,
     "conditionList": [],
     "num": 50,
     "islockAddProgress": false,
@@ -79585,7 +79771,11 @@
         "num": 50
       }
     ],
-    "nextQuest": [],
+    "nextQuest": [
+      {
+        "id": 81000878
+      }
+    ],
     "changeCityStateList": [],
     "mailList": [],
     "isEvent": false,
@@ -79595,7 +79785,10 @@
     "isTime": false,
     "startTime": "",
     "endTime": "",
-    "correspondActivity": -1
+    "correspondActivity": -1,
+    "returnNum": 1,
+    "dontShowMain": false,
+    "IsPlotTask": false
   },
   {
     "id": 81000878,
@@ -79825,11 +80018,15 @@
     "describe": "将超载核心升级至30级",
     "story": "列车的核心类型和等级会影响行车的方方面面，请升级列车的超载核心。",
     "questType": "Side",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
     "sort": 0,
     "isShowProgress": true,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
     "isAnecdote": false,
+    "isFURNQuest": false,
     "client": 82600010,
     "startStation": 83000053,
     "endStationList": [],
@@ -79852,7 +80049,10 @@
     "switchUI": "",
     "preQuestId": -1,
     "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
     "startLevel": 0,
+    "startPrisonLevel": 0,
     "conditionList": [
       {
         "key": "coreId",
@@ -79874,7 +80074,11 @@
         "num": 50
       }
     ],
-    "nextQuest": [],
+    "nextQuest": [
+      {
+        "id": 81001009
+      }
+    ],
     "changeCityStateList": [],
     "mailList": [],
     "isEvent": false,
@@ -79884,7 +80088,10 @@
     "isTime": false,
     "startTime": "",
     "endTime": "",
-    "correspondActivity": -1
+    "correspondActivity": -1,
+    "returnNum": 1,
+    "dontShowMain": false,
+    "IsPlotTask": false
   },
   {
     "id": 81000882,
@@ -80046,11 +80253,15 @@
     "describe": "将熔炉核心升级至30级",
     "story": "列车的核心类型和等级会影响行车的方方面面，请升级列车的熔炉核心。",
     "questType": "Side",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
     "sort": 0,
     "isShowProgress": true,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
     "isAnecdote": false,
+    "isFURNQuest": false,
     "client": 82600010,
     "startStation": 83000053,
     "endStationList": [],
@@ -80073,7 +80284,10 @@
     "switchUI": "",
     "preQuestId": -1,
     "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
     "startLevel": 0,
+    "startPrisonLevel": 0,
     "conditionList": [
       {
         "key": "coreId",
@@ -80095,7 +80309,11 @@
         "num": 50
       }
     ],
-    "nextQuest": [],
+    "nextQuest": [
+      {
+        "id": 81001184
+      }
+    ],
     "changeCityStateList": [],
     "mailList": [],
     "isEvent": false,
@@ -80105,7 +80323,10 @@
     "isTime": false,
     "startTime": "",
     "endTime": "",
-    "correspondActivity": -1
+    "correspondActivity": -1,
+    "returnNum": 1,
+    "dontShowMain": false,
+    "IsPlotTask": false
   },
   {
     "id": 81000885,
@@ -80264,11 +80485,15 @@
     "describe": "将冷凝核心升级至30级",
     "story": "列车的核心类型和等级会影响行车的方方面面，请升级列车的冷凝核心。",
     "questType": "Side",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
     "sort": 0,
     "isShowProgress": true,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
     "isAnecdote": false,
+    "isFURNQuest": false,
     "client": 82600010,
     "startStation": 83000053,
     "endStationList": [],
@@ -80291,7 +80516,10 @@
     "switchUI": "",
     "preQuestId": -1,
     "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
     "startLevel": 0,
+    "startPrisonLevel": 0,
     "conditionList": [
       {
         "key": "coreId",
@@ -80313,7 +80541,11 @@
         "num": 50
       }
     ],
-    "nextQuest": [],
+    "nextQuest": [
+      {
+        "id": 81001270
+      }
+    ],
     "changeCityStateList": [],
     "mailList": [],
     "isEvent": false,
@@ -80323,7 +80555,10 @@
     "isTime": false,
     "startTime": "",
     "endTime": "",
-    "correspondActivity": -1
+    "correspondActivity": -1,
+    "returnNum": 1,
+    "dontShowMain": false,
+    "IsPlotTask": false
   },
   {
     "id": 81000904,
@@ -80456,11 +80691,15 @@
     "describe": "完成10次虚演刻录",
     "story": "虚演刻录功能已开放，通过活动界面即可参与模拟战斗。如需兑换奖励请至澄明数据中心市政厅，我随时为您效劳。请完成10次虚演刻录。",
     "questType": "Side",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
     "sort": 0,
     "isShowProgress": true,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
     "isAnecdote": false,
+    "isFURNQuest": false,
     "client": 82600296,
     "startStation": 83000029,
     "endStationList": [
@@ -80475,7 +80714,10 @@
     "switchUI": "",
     "preQuestId": -1,
     "preLv": 35,
+    "playgroundId": -1,
+    "playgroundLv": 0,
     "startLevel": 0,
+    "startPrisonLevel": 0,
     "conditionList": [],
     "num": 10,
     "islockAddProgress": true,
@@ -80492,7 +80734,11 @@
         "num": 50
       }
     ],
-    "nextQuest": [],
+    "nextQuest": [
+      {
+        "id": 81001272
+      }
+    ],
     "changeCityStateList": [],
     "mailList": [],
     "isEvent": false,
@@ -80502,7 +80748,10 @@
     "isTime": false,
     "startTime": "",
     "endTime": "",
-    "correspondActivity": -1
+    "correspondActivity": -1,
+    "returnNum": 1,
+    "dontShowMain": false,
+    "IsPlotTask": false
   },
   {
     "id": 81000907,
@@ -81617,12 +81866,14 @@
     "story": "要试试列车武装工厂的撞角类装备吗？效果肯定超乎你的想象！制造1次列车撞击武器试试吧？",
     "questType": "Side",
     "questTab": "",
+    "questTabDes": -1,
     "completeTab": "",
     "sort": 0,
     "isShowProgress": true,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
     "isAnecdote": false,
+    "isFURNQuest": false,
     "client": 82600386,
     "startStation": 83000053,
     "endStationList": [
@@ -81650,7 +81901,10 @@
     "switchUI": "",
     "preQuestId": -1,
     "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
     "startLevel": 0,
+    "startPrisonLevel": 0,
     "conditionList": [
       {
         "key": "weaponType",
@@ -82322,15 +82576,11 @@
     "describe": "在阿妮塔战备工厂与安菲娅对话",
     "story": "继续与安菲娅交谈，挖掘更多的线索。",
     "questType": "Main",
-    "questTab": "",
-    "questTabDes": -1,
-    "completeTab": "",
     "sort": 0,
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
     "isAnecdote": false,
-    "isFURNQuest": false,
     "client": 82600474,
     "startStation": 83000012,
     "endStationList": [
@@ -82358,10 +82608,7 @@
     "switchUI": "",
     "preQuestId": -1,
     "preLv": 1,
-    "playgroundId": -1,
-    "playgroundLv": 0,
     "startLevel": 0,
-    "startPrisonLevel": 0,
     "conditionList": [
       {
         "key": "dialog",
@@ -82375,7 +82622,6 @@
     "isShowReceive": false,
     "isRefreshProgress": false,
     "refreshType": "Level",
-    "addProgress": 0,
     "parentQuest": -1,
     "childQuestList": [],
     "rewardsList": [
@@ -82402,10 +82648,7 @@
     "isTime": false,
     "startTime": "",
     "endTime": "",
-    "correspondActivity": -1,
-    "returnNum": 1,
-    "dontShowMain": false,
-    "IsPlotTask": false
+    "correspondActivity": -1
   },
   {
     "id": 81000317,
@@ -88080,6 +88323,7 @@
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
     "isAnecdote": false,
+    "isFURNQuest": false,
     "client": 82600297,
     "startStation": -1,
     "endStationList": [],
@@ -90274,6 +90518,7 @@
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
     "isAnecdote": false,
+    "isFURNQuest": true,
     "client": 82600266,
     "startStation": 83000004,
     "endStationList": [],
@@ -90321,8 +90566,7 @@
     "correspondActivity": -1,
     "returnNum": 1,
     "dontShowMain": false,
-    "IsPlotTask": false,
-    "isFURNQuest": true
+    "IsPlotTask": false
   },
   {
     "id": 81001347,
@@ -105581,10 +105825,13 @@
     "describe": "",
     "story": "",
     "questType": "Side",
+    "questTab": "",
+    "completeTab": "",
     "sort": 0,
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
+    "isAnecdote": false,
     "client": -1,
     "startStation": 83000002,
     "endStationList": [
@@ -105593,6 +105840,7 @@
         "weight": 10
       }
     ],
+    "isAutoTrace": false,
     "traceList": [
       {
         "apiListId": 86500038,
@@ -105610,7 +105858,9 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
     "startLevel": 0,
+    "startPrisonLevel": 0,
     "conditionList": [
       {
         "key": "levelId",
@@ -105622,6 +105872,8 @@
     "isAutoComplete": true,
     "checkComplete": false,
     "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
     "parentQuest": 81001580,
     "childQuestList": [],
     "rewardsList": [],
@@ -105640,14 +105892,6 @@
     "startTime": "",
     "endTime": "",
     "correspondActivity": -1,
-    "questTab": "",
-    "completeTab": "",
-    "isAnecdote": false,
-    "isAutoTrace": false,
-    "preLv": 1,
-    "startPrisonLevel": 0,
-    "isRefreshProgress": false,
-    "refreshType": "Level",
     "returnNum": 1,
     "dontShowMain": false,
     "IsPlotTask": false
@@ -122042,6 +122286,8 @@
     "switchUI": "",
     "preQuestId": -1,
     "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
     "startLevel": 0,
     "startPrisonLevel": 7,
     "conditionList": [],
@@ -123370,81 +123616,68 @@
     "IsPlotTask": false
   },
   {
-    "id": 81001909,
-    "idCN": "主线/EP6/6-13-对话",
+    "id": 81001850,
+    "idCN": "支线/核心/01超载6",
     "mod": "基础任务",
     "isInformalData": false,
-    "name": "牺牲品",
-    "describe": "与雅莱在汇流塔对话",
-    "story": "与雅莱对话，进一步挖掘天使计划的后果。",
-    "questType": "Main",
+    "name": "制造的基石·超载6",
+    "describe": "将超载核心升级至60级",
+    "story": "列车的核心类型和等级会影响行车的方方面面，请升级列车的超载核心。",
+    "questType": "Side",
     "questTab": "",
     "questTabDes": -1,
     "completeTab": "",
     "sort": 0,
-    "isShowProgress": false,
+    "isShowProgress": true,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
     "isAnecdote": false,
-    "isFURNQuest": false,
-    "client": 82600547,
-    "startStation": 83000030,
-    "endStationList": [
-      {
-        "id": 83000030,
-        "weight": 10
-      }
-    ],
+    "client": 82600010,
+    "startStation": 83000053,
+    "endStationList": [],
     "isAutoTrace": false,
     "traceList": [
       {
-        "apiListId": 86500038,
-        "btnListId": 86500036,
-        "traceId": 86500029,
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500097,
         "uiPath": "UI/MainUI/MainUI"
       },
       {
         "apiListId": -1,
         "btnListId": -1,
-        "traceId": 86500149,
-        "uiPath": "UI/CityMap/CityMap"
+        "traceId": 86500098,
+        "uiPath": "UI/Home/HomeElectric"
       }
     ],
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
     "preLv": 1,
-    "playgroundId": -1,
-    "playgroundLv": 0,
     "startLevel": 0,
     "startPrisonLevel": 0,
     "conditionList": [
       {
-        "key": "dialog",
-        "val": "0"
+        "key": "coreId",
+        "val": "85300004"
       }
     ],
-    "num": 1,
+    "num": 60,
     "islockAddProgress": false,
-    "isAutoComplete": false,
+    "isAutoComplete": true,
     "checkComplete": false,
-    "isShowReceive": false,
-    "isRefreshProgress": false,
-    "refreshType": "Level",
-    "addProgress": 0,
+    "isShowReceive": true,
+    "isRefreshProgress": true,
+    "refreshType": "Core",
     "parentQuest": -1,
     "childQuestList": [],
     "rewardsList": [
       {
-        "id": 11400217,
-        "num": 1
+        "id": 11400005,
+        "num": 50
       }
     ],
-    "nextQuest": [
-      {
-        "id": 81001910
-      }
-    ],
+    "nextQuest": [],
     "changeCityStateList": [],
     "mailList": [],
     "isEvent": false,
@@ -123457,6 +123690,500 @@
     "correspondActivity": -1,
     "returnNum": 1,
     "dontShowMain": false,
+    "IsPlotTask": false
+  },
+  {
+    "id": 81001851,
+    "idCN": "支线/核心/02熔炉6",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "制造的基石·熔炉6",
+    "describe": "将熔炉核心升级至60级",
+    "story": "列车的核心类型和等级会影响行车的方方面面，请升级列车的熔炉核心。",
+    "questType": "Side",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "sort": 0,
+    "isShowProgress": true,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "client": 82600010,
+    "startStation": 83000053,
+    "endStationList": [],
+    "isAutoTrace": false,
+    "traceList": [
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500097,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500098,
+        "uiPath": "UI/Home/HomeElectric"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
+    "startPrisonLevel": 0,
+    "conditionList": [
+      {
+        "key": "coreId",
+        "val": "85300001"
+      }
+    ],
+    "num": 60,
+    "islockAddProgress": false,
+    "isAutoComplete": true,
+    "checkComplete": false,
+    "isShowReceive": true,
+    "isRefreshProgress": true,
+    "refreshType": "Core",
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400005,
+        "num": 60
+      }
+    ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1,
+    "returnNum": 1,
+    "dontShowMain": false,
+    "IsPlotTask": false
+  },
+  {
+    "id": 81001852,
+    "idCN": "支线/核心/03冷凝6",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "制造的基石·冷凝6",
+    "describe": "将冷凝核心升级至60级",
+    "story": "列车的核心类型和等级会影响行车的方方面面，请升级列车的冷凝核心。",
+    "questType": "Side",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "sort": 0,
+    "isShowProgress": true,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "client": 82600010,
+    "startStation": 83000053,
+    "endStationList": [],
+    "isAutoTrace": false,
+    "traceList": [
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500097,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500098,
+        "uiPath": "UI/Home/HomeElectric"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "startLevel": 0,
+    "startPrisonLevel": 0,
+    "conditionList": [
+      {
+        "key": "coreId",
+        "val": "85300005"
+      }
+    ],
+    "num": 60,
+    "islockAddProgress": false,
+    "isAutoComplete": true,
+    "checkComplete": false,
+    "isShowReceive": true,
+    "isRefreshProgress": true,
+    "refreshType": "Core",
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400005,
+        "num": 50
+      }
+    ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1,
+    "returnNum": 1,
+    "dontShowMain": false,
+    "IsPlotTask": false
+  },
+  {
+    "id": 81001857,
+    "idCN": "导航手册/1战斗手册/阶段2/修格里驱逐任务",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "",
+    "describe": "于修格里城铁安局完成全部驱逐任务",
+    "story": "",
+    "questType": "Side",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "sort": 0,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "isFURNQuest": false,
+    "client": -1,
+    "startStation": -1,
+    "endStationList": [],
+    "isAutoTrace": false,
+    "traceList": [],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "startLevel": 0,
+    "startPrisonLevel": 0,
+    "conditionList": [
+      {
+        "key": "cityId",
+        "val": "83000001"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": true,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400005,
+        "num": 10
+      }
+    ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1,
+    "returnNum": 1,
+    "dontShowMain": true,
+    "IsPlotTask": false
+  },
+  {
+    "id": 81001856,
+    "idCN": "导航手册/1战斗手册/阶段2/完成主线滞留",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "",
+    "describe": "完成第二章主线任务“滞留过去之人”",
+    "story": "",
+    "questType": "Side",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "sort": 0,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "isFURNQuest": false,
+    "client": -1,
+    "startStation": -1,
+    "endStationList": [],
+    "isAutoTrace": false,
+    "traceList": [],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "startLevel": 0,
+    "startPrisonLevel": 0,
+    "conditionList": [
+      {
+        "key": "levelId",
+        "val": "20100175"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": true,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400005,
+        "num": 10
+      }
+    ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1,
+    "returnNum": 1,
+    "dontShowMain": true,
+    "IsPlotTask": false
+  },
+  {
+    "id": 81001855,
+    "idCN": "导航手册/1战斗手册/阶段2/2件装备20级",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "",
+    "describe": "将任意2件装备强化至20级",
+    "story": "",
+    "questType": "Side",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "sort": 0,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "isFURNQuest": false,
+    "client": -1,
+    "startStation": -1,
+    "endStationList": [],
+    "isAutoTrace": false,
+    "traceList": [],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "startLevel": 0,
+    "startPrisonLevel": 0,
+    "conditionList": [
+      {
+        "key": "equipmentLv",
+        "val": "20"
+      }
+    ],
+    "num": 2,
+    "islockAddProgress": true,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400005,
+        "num": 5
+      }
+    ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1,
+    "returnNum": 1,
+    "dontShowMain": true,
+    "IsPlotTask": false
+  },
+  {
+    "id": 81001854,
+    "idCN": "导航手册/1战斗手册/阶段2/5名队员20级",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "",
+    "describe": "将任意5名护卫乘员提升至20级",
+    "story": "",
+    "questType": "Side",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "sort": 63,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "isFURNQuest": false,
+    "client": -1,
+    "startStation": -1,
+    "endStationList": [],
+    "isAutoTrace": false,
+    "traceList": [],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "startLevel": 0,
+    "startPrisonLevel": 0,
+    "conditionList": [
+      {
+        "key": "roleGrade",
+        "val": "20"
+      }
+    ],
+    "num": 5,
+    "islockAddProgress": true,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400005,
+        "num": 5
+      }
+    ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1,
+    "returnNum": 1,
+    "dontShowMain": true,
+    "IsPlotTask": false
+  },
+  {
+    "id": 81001853,
+    "idCN": "导航手册/1战斗手册/阶段1/莉薇娅10级",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "",
+    "describe": "将乘员“莉薇娅”提升至10级",
+    "story": "",
+    "questType": "Side",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "sort": 64,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "isFURNQuest": false,
+    "client": -1,
+    "startStation": -1,
+    "endStationList": [],
+    "isAutoTrace": false,
+    "traceList": [],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "startLevel": 0,
+    "startPrisonLevel": 0,
+    "conditionList": [
+      {
+        "key": "roleId",
+        "val": "10000055"
+      }
+    ],
+    "num": 10,
+    "islockAddProgress": true,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400005,
+        "num": 5
+      }
+    ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1,
+    "returnNum": 1,
+    "dontShowMain": true,
     "IsPlotTask": false
   },
   {
@@ -124120,69 +124847,6 @@
     "IsPlotTask": false
   },
   {
-    "id": 81001898,
-    "idCN": "导航手册/2贸易手册/阶段4/使用进货书40",
-    "mod": "基础任务",
-    "isInformalData": false,
-    "name": "",
-    "describe": "使用40张【进货采买书】",
-    "story": "",
-    "questType": "Side",
-    "questTab": "",
-    "questTabDes": -1,
-    "completeTab": "",
-    "sort": 99,
-    "isShowProgress": false,
-    "isShowUnlock": false,
-    "isShowAchieveProgress": false,
-    "isAnecdote": false,
-    "isFURNQuest": false,
-    "client": -1,
-    "startStation": -1,
-    "endStationList": [],
-    "isAutoTrace": false,
-    "traceList": [],
-    "isSwitchUI": false,
-    "switchUI": "",
-    "preQuestId": -1,
-    "preLv": 1,
-    "playgroundId": -1,
-    "playgroundLv": 0,
-    "startLevel": 0,
-    "startPrisonLevel": 0,
-    "conditionList": [],
-    "num": 40,
-    "islockAddProgress": true,
-    "isAutoComplete": false,
-    "checkComplete": false,
-    "isShowReceive": false,
-    "isRefreshProgress": false,
-    "refreshType": "Level",
-    "addProgress": 0,
-    "parentQuest": -1,
-    "childQuestList": [],
-    "rewardsList": [
-      {
-        "id": 11400005,
-        "num": 10
-      }
-    ],
-    "nextQuest": [],
-    "changeCityStateList": [],
-    "mailList": [],
-    "isEvent": false,
-    "isOverwriteEvent": false,
-    "eventList": [],
-    "environmentList": [],
-    "isTime": false,
-    "startTime": "",
-    "endTime": "",
-    "correspondActivity": -1,
-    "returnNum": 3,
-    "dontShowMain": true,
-    "IsPlotTask": false
-  },
-  {
     "id": 81001899,
     "idCN": "导航手册/2贸易手册/阶段4/修格里投资100W",
     "mod": "基础任务",
@@ -124247,6 +124911,69 @@
     "endTime": "",
     "correspondActivity": -1,
     "returnNum": 1,
+    "dontShowMain": true,
+    "IsPlotTask": false
+  },
+  {
+    "id": 81001898,
+    "idCN": "导航手册/2贸易手册/阶段4/使用进货书40",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "",
+    "describe": "使用40张【进货采买书】",
+    "story": "",
+    "questType": "Side",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "sort": 99,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "isFURNQuest": false,
+    "client": -1,
+    "startStation": -1,
+    "endStationList": [],
+    "isAutoTrace": false,
+    "traceList": [],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "startLevel": 0,
+    "startPrisonLevel": 0,
+    "conditionList": [],
+    "num": 40,
+    "islockAddProgress": true,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400005,
+        "num": 10
+      }
+    ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1,
+    "returnNum": 3,
     "dontShowMain": true,
     "IsPlotTask": false
   },
@@ -125639,6 +126366,74 @@
     "IsPlotTask": false
   },
   {
+    "id": 81001876,
+    "idCN": "导航手册/1战斗手册/阶段5/发射中心驱逐任务",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "",
+    "describe": "于阿妮塔发射中心铁安局完成全部驱逐任务",
+    "story": "",
+    "questType": "Side",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "sort": 0,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "isFURNQuest": false,
+    "client": -1,
+    "startStation": -1,
+    "endStationList": [],
+    "isAutoTrace": false,
+    "traceList": [],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "startLevel": 0,
+    "startPrisonLevel": 0,
+    "conditionList": [
+      {
+        "key": "cityId",
+        "val": "83000010"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": true,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400005,
+        "num": 10
+      }
+    ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1,
+    "returnNum": 1,
+    "dontShowMain": true,
+    "IsPlotTask": false
+  },
+  {
     "id": 81001875,
     "idCN": "导航手册/1战斗手册/阶段5/完成主线过去与未来",
     "mod": "基础任务",
@@ -125843,74 +126638,6 @@
     "IsPlotTask": false
   },
   {
-    "id": 81001876,
-    "idCN": "导航手册/1战斗手册/阶段5/发射中心驱逐任务",
-    "mod": "基础任务",
-    "isInformalData": false,
-    "name": "",
-    "describe": "于阿妮塔发射中心铁安局完成全部驱逐任务",
-    "story": "",
-    "questType": "Side",
-    "questTab": "",
-    "questTabDes": -1,
-    "completeTab": "",
-    "sort": 0,
-    "isShowProgress": false,
-    "isShowUnlock": false,
-    "isShowAchieveProgress": false,
-    "isAnecdote": false,
-    "isFURNQuest": false,
-    "client": -1,
-    "startStation": -1,
-    "endStationList": [],
-    "isAutoTrace": false,
-    "traceList": [],
-    "isSwitchUI": false,
-    "switchUI": "",
-    "preQuestId": -1,
-    "preLv": 1,
-    "playgroundId": -1,
-    "playgroundLv": 0,
-    "startLevel": 0,
-    "startPrisonLevel": 0,
-    "conditionList": [
-      {
-        "key": "cityId",
-        "val": "83000010"
-      }
-    ],
-    "num": 1,
-    "islockAddProgress": true,
-    "isAutoComplete": false,
-    "checkComplete": false,
-    "isShowReceive": false,
-    "isRefreshProgress": false,
-    "refreshType": "Level",
-    "addProgress": 0,
-    "parentQuest": -1,
-    "childQuestList": [],
-    "rewardsList": [
-      {
-        "id": 11400005,
-        "num": 10
-      }
-    ],
-    "nextQuest": [],
-    "changeCityStateList": [],
-    "mailList": [],
-    "isEvent": false,
-    "isOverwriteEvent": false,
-    "eventList": [],
-    "environmentList": [],
-    "isTime": false,
-    "startTime": "",
-    "endTime": "",
-    "correspondActivity": -1,
-    "returnNum": 1,
-    "dontShowMain": true,
-    "IsPlotTask": false
-  },
-  {
     "id": 81001872,
     "idCN": "导航手册/1战斗手册/阶段5/10名队员50级",
     "mod": "基础任务",
@@ -125961,74 +126688,6 @@
       {
         "id": 11400005,
         "num": 5
-      }
-    ],
-    "nextQuest": [],
-    "changeCityStateList": [],
-    "mailList": [],
-    "isEvent": false,
-    "isOverwriteEvent": false,
-    "eventList": [],
-    "environmentList": [],
-    "isTime": false,
-    "startTime": "",
-    "endTime": "",
-    "correspondActivity": -1,
-    "returnNum": 1,
-    "dontShowMain": true,
-    "IsPlotTask": false
-  },
-  {
-    "id": 81001869,
-    "idCN": "导航手册/1战斗手册/阶段4/能源研究所作战计划",
-    "mod": "基础任务",
-    "isInformalData": false,
-    "name": "",
-    "describe": "于阿妮塔能源研究所完成全部作战计划",
-    "story": "",
-    "questType": "Side",
-    "questTab": "",
-    "questTabDes": -1,
-    "completeTab": "",
-    "sort": 0,
-    "isShowProgress": false,
-    "isShowUnlock": false,
-    "isShowAchieveProgress": false,
-    "isAnecdote": false,
-    "isFURNQuest": false,
-    "client": -1,
-    "startStation": -1,
-    "endStationList": [],
-    "isAutoTrace": false,
-    "traceList": [],
-    "isSwitchUI": false,
-    "switchUI": "",
-    "preQuestId": -1,
-    "preLv": 1,
-    "playgroundId": -1,
-    "playgroundLv": 0,
-    "startLevel": 0,
-    "startPrisonLevel": 0,
-    "conditionList": [
-      {
-        "key": "levelId",
-        "val": "20100014"
-      }
-    ],
-    "num": 1,
-    "islockAddProgress": true,
-    "isAutoComplete": false,
-    "checkComplete": false,
-    "isShowReceive": false,
-    "isRefreshProgress": false,
-    "refreshType": "Level",
-    "addProgress": 0,
-    "parentQuest": -1,
-    "childQuestList": [],
-    "rewardsList": [
-      {
-        "id": 11400005,
-        "num": 10
       }
     ],
     "nextQuest": [],
@@ -126149,6 +126808,74 @@
       {
         "key": "levelId",
         "val": "20100774"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": true,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400005,
+        "num": 10
+      }
+    ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1,
+    "returnNum": 1,
+    "dontShowMain": true,
+    "IsPlotTask": false
+  },
+  {
+    "id": 81001869,
+    "idCN": "导航手册/1战斗手册/阶段4/能源研究所作战计划",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "",
+    "describe": "于阿妮塔能源研究所完成全部作战计划",
+    "story": "",
+    "questType": "Side",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "sort": 0,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "isFURNQuest": false,
+    "client": -1,
+    "startStation": -1,
+    "endStationList": [],
+    "isAutoTrace": false,
+    "traceList": [],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "startLevel": 0,
+    "startPrisonLevel": 0,
+    "conditionList": [
+      {
+        "key": "levelId",
+        "val": "20100014"
       }
     ],
     "num": 1,
@@ -126945,339 +127672,58 @@
     "IsPlotTask": false
   },
   {
-    "id": 81001857,
-    "idCN": "导航手册/1战斗手册/阶段2/修格里驱逐任务",
+    "id": 81001916,
+    "idCN": "子任务/EP6/6-16-3-战斗",
     "mod": "基础任务",
     "isInformalData": false,
     "name": "",
-    "describe": "于修格里城铁安局完成全部驱逐任务",
+    "describe": "",
     "story": "",
     "questType": "Side",
-    "questTab": "",
-    "questTabDes": -1,
-    "completeTab": "",
     "sort": 0,
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
-    "isAnecdote": false,
-    "isFURNQuest": false,
     "client": -1,
-    "startStation": -1,
-    "endStationList": [],
-    "isAutoTrace": false,
-    "traceList": [],
+    "startStation": 83000002,
+    "endStationList": [
+      {
+        "id": 83000002,
+        "weight": 10
+      }
+    ],
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500152,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
-    "preLv": 1,
-    "playgroundId": -1,
-    "playgroundLv": 0,
     "startLevel": 0,
-    "startPrisonLevel": 0,
-    "conditionList": [
-      {
-        "key": "cityId",
-        "val": "83000001"
-      }
-    ],
-    "num": 1,
-    "islockAddProgress": true,
-    "isAutoComplete": false,
-    "checkComplete": false,
-    "isShowReceive": false,
-    "isRefreshProgress": false,
-    "refreshType": "Level",
-    "addProgress": 0,
-    "parentQuest": -1,
-    "childQuestList": [],
-    "rewardsList": [
-      {
-        "id": 11400005,
-        "num": 10
-      }
-    ],
-    "nextQuest": [],
-    "changeCityStateList": [],
-    "mailList": [],
-    "isEvent": false,
-    "isOverwriteEvent": false,
-    "eventList": [],
-    "environmentList": [],
-    "isTime": false,
-    "startTime": "",
-    "endTime": "",
-    "correspondActivity": -1,
-    "returnNum": 1,
-    "dontShowMain": true,
-    "IsPlotTask": false
-  },
-  {
-    "id": 81001856,
-    "idCN": "导航手册/1战斗手册/阶段2/完成主线滞留",
-    "mod": "基础任务",
-    "isInformalData": false,
-    "name": "",
-    "describe": "完成第二章主线任务“滞留过去之人”",
-    "story": "",
-    "questType": "Side",
-    "questTab": "",
-    "questTabDes": -1,
-    "completeTab": "",
-    "sort": 0,
-    "isShowProgress": false,
-    "isShowUnlock": false,
-    "isShowAchieveProgress": false,
-    "isAnecdote": false,
-    "isFURNQuest": false,
-    "client": -1,
-    "startStation": -1,
-    "endStationList": [],
-    "isAutoTrace": false,
-    "traceList": [],
-    "isSwitchUI": false,
-    "switchUI": "",
-    "preQuestId": -1,
-    "preLv": 1,
-    "playgroundId": -1,
-    "playgroundLv": 0,
-    "startLevel": 0,
-    "startPrisonLevel": 0,
     "conditionList": [
       {
         "key": "levelId",
-        "val": "20100175"
+        "val": "20101180"
       }
     ],
     "num": 1,
-    "islockAddProgress": true,
-    "isAutoComplete": false,
-    "checkComplete": false,
-    "isShowReceive": false,
-    "isRefreshProgress": false,
-    "refreshType": "Level",
-    "addProgress": 0,
-    "parentQuest": -1,
-    "childQuestList": [],
-    "rewardsList": [
-      {
-        "id": 11400005,
-        "num": 10
-      }
-    ],
-    "nextQuest": [],
-    "changeCityStateList": [],
-    "mailList": [],
-    "isEvent": false,
-    "isOverwriteEvent": false,
-    "eventList": [],
-    "environmentList": [],
-    "isTime": false,
-    "startTime": "",
-    "endTime": "",
-    "correspondActivity": -1,
-    "returnNum": 1,
-    "dontShowMain": true,
-    "IsPlotTask": false
-  },
-  {
-    "id": 81001855,
-    "idCN": "导航手册/1战斗手册/阶段2/2件装备20级",
-    "mod": "基础任务",
-    "isInformalData": false,
-    "name": "",
-    "describe": "将任意2件装备强化至20级",
-    "story": "",
-    "questType": "Side",
-    "questTab": "",
-    "questTabDes": -1,
-    "completeTab": "",
-    "sort": 0,
-    "isShowProgress": false,
-    "isShowUnlock": false,
-    "isShowAchieveProgress": false,
-    "isAnecdote": false,
-    "isFURNQuest": false,
-    "client": -1,
-    "startStation": -1,
-    "endStationList": [],
-    "isAutoTrace": false,
-    "traceList": [],
-    "isSwitchUI": false,
-    "switchUI": "",
-    "preQuestId": -1,
-    "preLv": 1,
-    "playgroundId": -1,
-    "playgroundLv": 0,
-    "startLevel": 0,
-    "startPrisonLevel": 0,
-    "conditionList": [
-      {
-        "key": "equipmentLv",
-        "val": "20"
-      }
-    ],
-    "num": 2,
-    "islockAddProgress": true,
-    "isAutoComplete": false,
-    "checkComplete": false,
-    "isShowReceive": false,
-    "isRefreshProgress": false,
-    "refreshType": "Level",
-    "addProgress": 0,
-    "parentQuest": -1,
-    "childQuestList": [],
-    "rewardsList": [
-      {
-        "id": 11400005,
-        "num": 5
-      }
-    ],
-    "nextQuest": [],
-    "changeCityStateList": [],
-    "mailList": [],
-    "isEvent": false,
-    "isOverwriteEvent": false,
-    "eventList": [],
-    "environmentList": [],
-    "isTime": false,
-    "startTime": "",
-    "endTime": "",
-    "correspondActivity": -1,
-    "returnNum": 1,
-    "dontShowMain": true,
-    "IsPlotTask": false
-  },
-  {
-    "id": 81001853,
-    "idCN": "导航手册/1战斗手册/阶段1/莉薇娅10级",
-    "mod": "基础任务",
-    "isInformalData": false,
-    "name": "",
-    "describe": "将乘员“莉薇娅”提升至10级",
-    "story": "",
-    "questType": "Side",
-    "questTab": "",
-    "questTabDes": -1,
-    "completeTab": "",
-    "sort": 64,
-    "isShowProgress": false,
-    "isShowUnlock": false,
-    "isShowAchieveProgress": false,
-    "isAnecdote": false,
-    "isFURNQuest": false,
-    "client": -1,
-    "startStation": -1,
-    "endStationList": [],
-    "isAutoTrace": false,
-    "traceList": [],
-    "isSwitchUI": false,
-    "switchUI": "",
-    "preQuestId": -1,
-    "preLv": 1,
-    "playgroundId": -1,
-    "playgroundLv": 0,
-    "startLevel": 0,
-    "startPrisonLevel": 0,
-    "conditionList": [
-      {
-        "key": "roleId",
-        "val": "10000055"
-      }
-    ],
-    "num": 10,
-    "islockAddProgress": true,
-    "isAutoComplete": false,
-    "checkComplete": false,
-    "isShowReceive": false,
-    "isRefreshProgress": false,
-    "refreshType": "Level",
-    "addProgress": 0,
-    "parentQuest": -1,
-    "childQuestList": [],
-    "rewardsList": [
-      {
-        "id": 11400005,
-        "num": 5
-      }
-    ],
-    "nextQuest": [],
-    "changeCityStateList": [],
-    "mailList": [],
-    "isEvent": false,
-    "isOverwriteEvent": false,
-    "eventList": [],
-    "environmentList": [],
-    "isTime": false,
-    "startTime": "",
-    "endTime": "",
-    "correspondActivity": -1,
-    "returnNum": 1,
-    "dontShowMain": true,
-    "IsPlotTask": false
-  },
-  {
-    "id": 81001852,
-    "idCN": "支线/核心/03冷凝6",
-    "mod": "基础任务",
-    "isInformalData": false,
-    "name": "制造的基石·冷凝6",
-    "describe": "将冷凝核心升级至60级",
-    "story": "列车的核心类型和等级会影响行车的方方面面，请升级列车的冷凝核心。",
-    "questType": "Side",
-    "questTab": "",
-    "questTabDes": -1,
-    "completeTab": "",
-    "sort": 0,
-    "isShowProgress": true,
-    "isShowUnlock": false,
-    "isShowAchieveProgress": false,
-    "isAnecdote": false,
-    "client": 82600010,
-    "startStation": 83000053,
-    "endStationList": [],
-    "isAutoTrace": false,
-    "traceList": [
-      {
-        "apiListId": -1,
-        "btnListId": -1,
-        "traceId": 86500097,
-        "uiPath": "UI/MainUI/MainUI"
-      },
-      {
-        "apiListId": -1,
-        "btnListId": -1,
-        "traceId": 86500098,
-        "uiPath": "UI/Home/HomeElectric"
-      }
-    ],
-    "isSwitchUI": false,
-    "switchUI": "",
-    "preQuestId": -1,
-    "preLv": 1,
-    "startLevel": 0,
-    "startPrisonLevel": 0,
-    "conditionList": [
-      {
-        "key": "coreId",
-        "val": "85300005"
-      }
-    ],
-    "num": 60,
     "islockAddProgress": false,
     "isAutoComplete": true,
     "checkComplete": false,
-    "isShowReceive": true,
-    "isRefreshProgress": true,
-    "refreshType": "Core",
-    "parentQuest": -1,
+    "isShowReceive": false,
+    "parentQuest": 81001912,
     "childQuestList": [],
-    "rewardsList": [
-      {
-        "id": 11400005,
-        "num": 50
-      }
-    ],
+    "rewardsList": [],
     "nextQuest": [],
     "changeCityStateList": [],
     "mailList": [],
@@ -127289,218 +127735,76 @@
     "startTime": "",
     "endTime": "",
     "correspondActivity": -1,
+    "questTab": "",
+    "completeTab": "",
+    "isAnecdote": false,
+    "isAutoTrace": false,
+    "preLv": 1,
+    "startPrisonLevel": 0,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
     "returnNum": 1,
     "dontShowMain": false,
     "IsPlotTask": false
   },
   {
-    "id": 81001851,
-    "idCN": "支线/核心/02熔炉6",
-    "mod": "基础任务",
-    "isInformalData": false,
-    "name": "制造的基石·熔炉6",
-    "describe": "将熔炉核心升级至60级",
-    "story": "列车的核心类型和等级会影响行车的方方面面，请升级列车的熔炉核心。",
-    "questType": "Side",
-    "questTab": "",
-    "questTabDes": -1,
-    "completeTab": "",
-    "sort": 0,
-    "isShowProgress": true,
-    "isShowUnlock": false,
-    "isShowAchieveProgress": false,
-    "isAnecdote": false,
-    "client": 82600010,
-    "startStation": 83000053,
-    "endStationList": [],
-    "isAutoTrace": false,
-    "traceList": [
-      {
-        "apiListId": -1,
-        "btnListId": -1,
-        "traceId": 86500097,
-        "uiPath": "UI/MainUI/MainUI"
-      },
-      {
-        "apiListId": -1,
-        "btnListId": -1,
-        "traceId": 86500098,
-        "uiPath": "UI/Home/HomeElectric"
-      }
-    ],
-    "isSwitchUI": false,
-    "switchUI": "",
-    "preQuestId": -1,
-    "preLv": 1,
-    "startLevel": 0,
-    "startPrisonLevel": 0,
-    "conditionList": [
-      {
-        "key": "coreId",
-        "val": "85300001"
-      }
-    ],
-    "num": 60,
-    "islockAddProgress": false,
-    "isAutoComplete": true,
-    "checkComplete": false,
-    "isShowReceive": true,
-    "isRefreshProgress": true,
-    "refreshType": "Core",
-    "parentQuest": -1,
-    "childQuestList": [],
-    "rewardsList": [
-      {
-        "id": 11400005,
-        "num": 60
-      }
-    ],
-    "nextQuest": [],
-    "changeCityStateList": [],
-    "mailList": [],
-    "isEvent": false,
-    "isOverwriteEvent": false,
-    "eventList": [],
-    "environmentList": [],
-    "isTime": false,
-    "startTime": "",
-    "endTime": "",
-    "correspondActivity": -1,
-    "returnNum": 1,
-    "dontShowMain": false,
-    "IsPlotTask": false
-  },
-  {
-    "id": 81001850,
-    "idCN": "支线/核心/01超载6",
-    "mod": "基础任务",
-    "isInformalData": false,
-    "name": "制造的基石·超载6",
-    "describe": "将超载核心升级至60级",
-    "story": "列车的核心类型和等级会影响行车的方方面面，请升级列车的超载核心。",
-    "questType": "Side",
-    "questTab": "",
-    "questTabDes": -1,
-    "completeTab": "",
-    "sort": 0,
-    "isShowProgress": true,
-    "isShowUnlock": false,
-    "isShowAchieveProgress": false,
-    "isAnecdote": false,
-    "client": 82600010,
-    "startStation": 83000053,
-    "endStationList": [],
-    "isAutoTrace": false,
-    "traceList": [
-      {
-        "apiListId": -1,
-        "btnListId": -1,
-        "traceId": 86500097,
-        "uiPath": "UI/MainUI/MainUI"
-      },
-      {
-        "apiListId": -1,
-        "btnListId": -1,
-        "traceId": 86500098,
-        "uiPath": "UI/Home/HomeElectric"
-      }
-    ],
-    "isSwitchUI": false,
-    "switchUI": "",
-    "preQuestId": -1,
-    "preLv": 1,
-    "startLevel": 0,
-    "startPrisonLevel": 0,
-    "conditionList": [
-      {
-        "key": "coreId",
-        "val": "85300004"
-      }
-    ],
-    "num": 60,
-    "islockAddProgress": false,
-    "isAutoComplete": true,
-    "checkComplete": false,
-    "isShowReceive": true,
-    "isRefreshProgress": true,
-    "refreshType": "Core",
-    "parentQuest": -1,
-    "childQuestList": [],
-    "rewardsList": [
-      {
-        "id": 11400005,
-        "num": 50
-      }
-    ],
-    "nextQuest": [],
-    "changeCityStateList": [],
-    "mailList": [],
-    "isEvent": false,
-    "isOverwriteEvent": false,
-    "eventList": [],
-    "environmentList": [],
-    "isTime": false,
-    "startTime": "",
-    "endTime": "",
-    "correspondActivity": -1,
-    "returnNum": 1,
-    "dontShowMain": false,
-    "IsPlotTask": false
-  },
-  {
-    "id": 81001854,
-    "idCN": "导航手册/1战斗手册/阶段2/5名队员20级",
+    "id": 81001915,
+    "idCN": "子任务/EP6/6-16-2-战斗",
     "mod": "基础任务",
     "isInformalData": false,
     "name": "",
-    "describe": "将任意5名护卫乘员提升至20级",
+    "describe": "",
     "story": "",
     "questType": "Side",
-    "questTab": "",
-    "questTabDes": -1,
-    "completeTab": "",
-    "sort": 63,
+    "sort": 0,
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
-    "isAnecdote": false,
-    "isFURNQuest": false,
     "client": -1,
-    "startStation": -1,
-    "endStationList": [],
-    "isAutoTrace": false,
-    "traceList": [],
+    "startStation": 83000002,
+    "endStationList": [
+      {
+        "id": 83000002,
+        "weight": 10
+      }
+    ],
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500152,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
-    "preLv": 1,
-    "playgroundId": -1,
-    "playgroundLv": 0,
     "startLevel": 0,
-    "startPrisonLevel": 0,
     "conditionList": [
       {
-        "key": "roleGrade",
-        "val": "20"
+        "key": "levelId",
+        "val": "20101179"
       }
     ],
-    "num": 5,
-    "islockAddProgress": true,
-    "isAutoComplete": false,
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": true,
     "checkComplete": false,
     "isShowReceive": false,
-    "isRefreshProgress": false,
-    "refreshType": "Level",
-    "addProgress": 0,
-    "parentQuest": -1,
+    "parentQuest": 81001912,
     "childQuestList": [],
-    "rewardsList": [
+    "rewardsList": [],
+    "nextQuest": [
       {
-        "id": 11400005,
-        "num": 5
+        "id": 81001916
       }
     ],
-    "nextQuest": [],
     "changeCityStateList": [],
     "mailList": [],
     "isEvent": false,
@@ -127511,18 +127815,106 @@
     "startTime": "",
     "endTime": "",
     "correspondActivity": -1,
+    "questTab": "",
+    "completeTab": "",
+    "isAnecdote": false,
+    "isAutoTrace": false,
+    "preLv": 1,
+    "startPrisonLevel": 0,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
     "returnNum": 1,
-    "dontShowMain": true,
+    "dontShowMain": false,
     "IsPlotTask": false
   },
   {
-    "id": 81001910,
-    "idCN": "主线/EP6/6-14-战斗",
+    "id": 81001914,
+    "idCN": "子任务/EP6/6-16-1-战斗",
     "mod": "基础任务",
     "isInformalData": false,
-    "name": "重回学社",
-    "describe": "与罗洁尔在海角城对话",
-    "story": "与罗洁尔一同回到学社。",
+    "name": "",
+    "describe": "",
+    "story": "",
+    "questType": "Side",
+    "sort": 0,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "client": -1,
+    "startStation": 83000002,
+    "endStationList": [
+      {
+        "id": 83000002,
+        "weight": 10
+      }
+    ],
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500152,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "levelId",
+        "val": "20101178"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": true,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "parentQuest": 81001912,
+    "childQuestList": [],
+    "rewardsList": [],
+    "nextQuest": [
+      {
+        "id": 81001915
+      }
+    ],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1,
+    "questTab": "",
+    "completeTab": "",
+    "isAnecdote": false,
+    "isAutoTrace": false,
+    "preLv": 1,
+    "startPrisonLevel": 0,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "returnNum": 1,
+    "dontShowMain": false,
+    "IsPlotTask": false
+  },
+  {
+    "id": 81001913,
+    "idCN": "主线/EP6/6-17-对话",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "她的嘱托",
+    "describe": "在学社与罗洁尔对话",
+    "story": "接受罗洁尔的委托。",
     "questType": "Main",
     "questTab": "",
     "questTabDes": -1,
@@ -127534,7 +127926,7 @@
     "isAnecdote": false,
     "isFURNQuest": false,
     "client": 82600541,
-    "startStation": 83000030,
+    "startStation": 83000002,
     "endStationList": [
       {
         "id": 83000002,
@@ -127552,7 +127944,7 @@
       {
         "apiListId": -1,
         "btnListId": -1,
-        "traceId": 86500150,
+        "traceId": 86500153,
         "uiPath": "UI/CityMap/CityMap"
       }
     ],
@@ -127566,13 +127958,13 @@
     "startPrisonLevel": 0,
     "conditionList": [
       {
-        "key": "levelId",
-        "val": "20101177"
+        "key": "dialog",
+        "val": "0"
       }
     ],
     "num": 1,
     "islockAddProgress": false,
-    "isAutoComplete": true,
+    "isAutoComplete": false,
     "checkComplete": false,
     "isShowReceive": false,
     "isRefreshProgress": false,
@@ -127582,13 +127974,99 @@
     "childQuestList": [],
     "rewardsList": [
       {
+        "id": 11400045,
+        "num": 1
+      }
+    ],
+    "nextQuest": [
+      {
+        "id": 81001959
+      }
+    ],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1,
+    "returnNum": 1,
+    "dontShowMain": false,
+    "IsPlotTask": false
+  },
+  {
+    "id": 81001912,
+    "idCN": "主线/EP6/6-16-副本-父任务",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "临危受命",
+    "describe": "打倒出现在海角城的所有桦树生物",
+    "story": "响应铁盟的征召，驱逐桦树生物和深眠者。",
+    "questType": "Main",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "sort": 0,
+    "isShowProgress": true,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "isFURNQuest": false,
+    "client": 82600002,
+    "startStation": 83000002,
+    "endStationList": [
+      {
+        "id": 83000002,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": false,
+    "traceList": [],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "startLevel": 0,
+    "startPrisonLevel": 0,
+    "conditionList": [],
+    "num": 3,
+    "islockAddProgress": false,
+    "isAutoComplete": true,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "parentQuest": -1,
+    "childQuestList": [
+      {
+        "id": 81001914
+      },
+      {
+        "id": 81001915
+      },
+      {
+        "id": 81001916
+      }
+    ],
+    "rewardsList": [
+      {
         "id": 11400005,
+        "num": 50
+      },
+      {
+        "id": 11400056,
         "num": 50
       }
     ],
     "nextQuest": [
       {
-        "id": 81001911
+        "id": 81001913
       }
     ],
     "changeCityStateList": [],
@@ -127699,99 +128177,13 @@
     "IsPlotTask": false
   },
   {
-    "id": 81001912,
-    "idCN": "主线/EP6/6-16-副本-父任务",
+    "id": 81001910,
+    "idCN": "主线/EP6/6-14-战斗",
     "mod": "基础任务",
     "isInformalData": false,
-    "name": "临危受命",
-    "describe": "打倒出现在海角城的所有桦树生物",
-    "story": "响应铁盟的征召，驱逐桦树生物和深眠者。",
-    "questType": "Main",
-    "questTab": "",
-    "questTabDes": -1,
-    "completeTab": "",
-    "sort": 0,
-    "isShowProgress": true,
-    "isShowUnlock": false,
-    "isShowAchieveProgress": false,
-    "isAnecdote": false,
-    "isFURNQuest": false,
-    "client": 82600002,
-    "startStation": 83000002,
-    "endStationList": [
-      {
-        "id": 83000002,
-        "weight": 10
-      }
-    ],
-    "isAutoTrace": false,
-    "traceList": [],
-    "isSwitchUI": false,
-    "switchUI": "",
-    "preQuestId": -1,
-    "preLv": 1,
-    "playgroundId": -1,
-    "playgroundLv": 0,
-    "startLevel": 0,
-    "startPrisonLevel": 0,
-    "conditionList": [],
-    "num": 3,
-    "islockAddProgress": false,
-    "isAutoComplete": true,
-    "checkComplete": false,
-    "isShowReceive": false,
-    "isRefreshProgress": false,
-    "refreshType": "Level",
-    "addProgress": 0,
-    "parentQuest": -1,
-    "childQuestList": [
-      {
-        "id": 81001914
-      },
-      {
-        "id": 81001915
-      },
-      {
-        "id": 81001916
-      }
-    ],
-    "rewardsList": [
-      {
-        "id": 11400005,
-        "num": 50
-      },
-      {
-        "id": 11400056,
-        "num": 50
-      }
-    ],
-    "nextQuest": [
-      {
-        "id": 81001913
-      }
-    ],
-    "changeCityStateList": [],
-    "mailList": [],
-    "isEvent": false,
-    "isOverwriteEvent": false,
-    "eventList": [],
-    "environmentList": [],
-    "isTime": false,
-    "startTime": "",
-    "endTime": "",
-    "correspondActivity": -1,
-    "returnNum": 1,
-    "dontShowMain": false,
-    "IsPlotTask": false
-  },
-  {
-    "id": 81001913,
-    "idCN": "主线/EP6/6-17-对话",
-    "mod": "基础任务",
-    "isInformalData": false,
-    "name": "她的嘱托",
-    "describe": "在学社与罗洁尔对话",
-    "story": "接受罗洁尔的委托。",
+    "name": "重回学社",
+    "describe": "与罗洁尔在海角城对话",
+    "story": "与罗洁尔一同回到学社。",
     "questType": "Main",
     "questTab": "",
     "questTabDes": -1,
@@ -127803,457 +128195,61 @@
     "isAnecdote": false,
     "isFURNQuest": false,
     "client": 82600541,
-    "startStation": 83000002,
-    "endStationList": [
-      {
-        "id": 83000002,
-        "weight": 10
-      }
-    ],
-    "isAutoTrace": false,
-    "traceList": [
-      {
-        "apiListId": 86500038,
-        "btnListId": 86500036,
-        "traceId": 86500029,
-        "uiPath": "UI/MainUI/MainUI"
-      },
-      {
-        "apiListId": -1,
-        "btnListId": -1,
-        "traceId": 86500153,
-        "uiPath": "UI/CityMap/CityMap"
-      }
-    ],
-    "isSwitchUI": false,
-    "switchUI": "",
-    "preQuestId": -1,
-    "preLv": 1,
-    "playgroundId": -1,
-    "playgroundLv": 0,
-    "startLevel": 0,
-    "startPrisonLevel": 0,
-    "conditionList": [
-      {
-        "key": "dialog",
-        "val": "0"
-      }
-    ],
-    "num": 1,
-    "islockAddProgress": false,
-    "isAutoComplete": false,
-    "checkComplete": false,
-    "isShowReceive": false,
-    "isRefreshProgress": false,
-    "refreshType": "Level",
-    "addProgress": 0,
-    "parentQuest": -1,
-    "childQuestList": [],
-    "rewardsList": [
-      {
-        "id": 11400045,
-        "num": 1
-      }
-    ],
-    "nextQuest": [
-      {
-        "id": 81001959
-      }
-    ],
-    "changeCityStateList": [],
-    "mailList": [],
-    "isEvent": false,
-    "isOverwriteEvent": false,
-    "eventList": [],
-    "environmentList": [],
-    "isTime": false,
-    "startTime": "",
-    "endTime": "",
-    "correspondActivity": -1,
-    "returnNum": 1,
-    "dontShowMain": false,
-    "IsPlotTask": false
-  },
-  {
-    "id": 81001914,
-    "idCN": "子任务/EP6/6-16-1-战斗",
-    "mod": "基础任务",
-    "isInformalData": false,
-    "name": "",
-    "describe": "",
-    "story": "",
-    "questType": "Side",
-    "sort": 0,
-    "isShowProgress": false,
-    "isShowUnlock": false,
-    "isShowAchieveProgress": false,
-    "client": -1,
-    "startStation": 83000002,
-    "endStationList": [
-      {
-        "id": 83000002,
-        "weight": 10
-      }
-    ],
-    "traceList": [
-      {
-        "apiListId": 86500038,
-        "btnListId": 86500036,
-        "traceId": 86500029,
-        "uiPath": "UI/MainUI/MainUI"
-      },
-      {
-        "apiListId": -1,
-        "btnListId": -1,
-        "traceId": 86500152,
-        "uiPath": "UI/CityMap/CityMap"
-      }
-    ],
-    "isSwitchUI": false,
-    "switchUI": "",
-    "preQuestId": -1,
-    "startLevel": 0,
-    "conditionList": [
-      {
-        "key": "levelId",
-        "val": "20101178"
-      }
-    ],
-    "num": 1,
-    "islockAddProgress": false,
-    "isAutoComplete": true,
-    "checkComplete": false,
-    "isShowReceive": false,
-    "parentQuest": 81001912,
-    "childQuestList": [],
-    "rewardsList": [],
-    "nextQuest": [
-      {
-        "id": 81001915
-      }
-    ],
-    "changeCityStateList": [],
-    "mailList": [],
-    "isEvent": false,
-    "isOverwriteEvent": false,
-    "eventList": [],
-    "environmentList": [],
-    "isTime": false,
-    "startTime": "",
-    "endTime": "",
-    "correspondActivity": -1,
-    "questTab": "",
-    "completeTab": "",
-    "isAnecdote": false,
-    "isAutoTrace": false,
-    "preLv": 1,
-    "startPrisonLevel": 0,
-    "isRefreshProgress": false,
-    "refreshType": "Level",
-    "returnNum": 1,
-    "dontShowMain": false,
-    "IsPlotTask": false
-  },
-  {
-    "id": 81001915,
-    "idCN": "子任务/EP6/6-16-2-战斗",
-    "mod": "基础任务",
-    "isInformalData": false,
-    "name": "",
-    "describe": "",
-    "story": "",
-    "questType": "Side",
-    "sort": 0,
-    "isShowProgress": false,
-    "isShowUnlock": false,
-    "isShowAchieveProgress": false,
-    "client": -1,
-    "startStation": 83000002,
-    "endStationList": [
-      {
-        "id": 83000002,
-        "weight": 10
-      }
-    ],
-    "traceList": [
-      {
-        "apiListId": 86500038,
-        "btnListId": 86500036,
-        "traceId": 86500029,
-        "uiPath": "UI/MainUI/MainUI"
-      },
-      {
-        "apiListId": -1,
-        "btnListId": -1,
-        "traceId": 86500152,
-        "uiPath": "UI/CityMap/CityMap"
-      }
-    ],
-    "isSwitchUI": false,
-    "switchUI": "",
-    "preQuestId": -1,
-    "startLevel": 0,
-    "conditionList": [
-      {
-        "key": "levelId",
-        "val": "20101179"
-      }
-    ],
-    "num": 1,
-    "islockAddProgress": false,
-    "isAutoComplete": true,
-    "checkComplete": false,
-    "isShowReceive": false,
-    "parentQuest": 81001912,
-    "childQuestList": [],
-    "rewardsList": [],
-    "nextQuest": [
-      {
-        "id": 81001916
-      }
-    ],
-    "changeCityStateList": [],
-    "mailList": [],
-    "isEvent": false,
-    "isOverwriteEvent": false,
-    "eventList": [],
-    "environmentList": [],
-    "isTime": false,
-    "startTime": "",
-    "endTime": "",
-    "correspondActivity": -1,
-    "questTab": "",
-    "completeTab": "",
-    "isAnecdote": false,
-    "isAutoTrace": false,
-    "preLv": 1,
-    "startPrisonLevel": 0,
-    "isRefreshProgress": false,
-    "refreshType": "Level",
-    "returnNum": 1,
-    "dontShowMain": false,
-    "IsPlotTask": false
-  },
-  {
-    "id": 81001916,
-    "idCN": "子任务/EP6/6-16-3-战斗",
-    "mod": "基础任务",
-    "isInformalData": false,
-    "name": "",
-    "describe": "",
-    "story": "",
-    "questType": "Side",
-    "sort": 0,
-    "isShowProgress": false,
-    "isShowUnlock": false,
-    "isShowAchieveProgress": false,
-    "client": -1,
-    "startStation": 83000002,
-    "endStationList": [
-      {
-        "id": 83000002,
-        "weight": 10
-      }
-    ],
-    "traceList": [
-      {
-        "apiListId": 86500038,
-        "btnListId": 86500036,
-        "traceId": 86500029,
-        "uiPath": "UI/MainUI/MainUI"
-      },
-      {
-        "apiListId": -1,
-        "btnListId": -1,
-        "traceId": 86500152,
-        "uiPath": "UI/CityMap/CityMap"
-      }
-    ],
-    "isSwitchUI": false,
-    "switchUI": "",
-    "preQuestId": -1,
-    "startLevel": 0,
-    "conditionList": [
-      {
-        "key": "levelId",
-        "val": "20101180"
-      }
-    ],
-    "num": 1,
-    "islockAddProgress": false,
-    "isAutoComplete": true,
-    "checkComplete": false,
-    "isShowReceive": false,
-    "parentQuest": 81001912,
-    "childQuestList": [],
-    "rewardsList": [],
-    "nextQuest": [],
-    "changeCityStateList": [],
-    "mailList": [],
-    "isEvent": false,
-    "isOverwriteEvent": false,
-    "eventList": [],
-    "environmentList": [],
-    "isTime": false,
-    "startTime": "",
-    "endTime": "",
-    "correspondActivity": -1,
-    "questTab": "",
-    "completeTab": "",
-    "isAnecdote": false,
-    "isAutoTrace": false,
-    "preLv": 1,
-    "startPrisonLevel": 0,
-    "isRefreshProgress": false,
-    "refreshType": "Level",
-    "returnNum": 1,
-    "dontShowMain": false,
-    "IsPlotTask": false
-  },
-  {
-    "id": 81001959,
-    "idCN": "主线/EP6/6-18-对话",
-    "mod": "基础任务",
-    "isInformalData": false,
-    "name": "她的牵挂",
-    "describe": "在修格里交易所与幼浅对话",
-    "story": "从修格里交易所提取罗洁尔预定的货物。",
-    "questType": "Main",
-    "questTab": "",
-    "questTabDes": -1,
-    "completeTab": "",
-    "sort": 0,
-    "isShowProgress": false,
-    "isShowUnlock": false,
-    "isShowAchieveProgress": false,
-    "isAnecdote": false,
-    "isFURNQuest": false,
-    "client": 82600541,
-    "startStation": 83000001,
-    "endStationList": [
-      {
-        "id": 83000001,
-        "weight": 10
-      }
-    ],
-    "isAutoTrace": false,
-    "traceList": [
-      {
-        "apiListId": 86500038,
-        "btnListId": 86500036,
-        "traceId": 86500029,
-        "uiPath": "UI/MainUI/MainUI"
-      }
-    ],
-    "isSwitchUI": false,
-    "switchUI": "",
-    "preQuestId": -1,
-    "preLv": 1,
-    "playgroundId": -1,
-    "playgroundLv": 0,
-    "startLevel": 0,
-    "startPrisonLevel": 0,
-    "conditionList": [
-      {
-        "key": "dialog",
-        "val": "0"
-      }
-    ],
-    "num": 1,
-    "islockAddProgress": false,
-    "isAutoComplete": false,
-    "checkComplete": false,
-    "isShowReceive": false,
-    "isRefreshProgress": false,
-    "refreshType": "Level",
-    "addProgress": 0,
-    "parentQuest": -1,
-    "childQuestList": [],
-    "rewardsList": [
-      {
-        "id": 11400045,
-        "num": 1
-      }
-    ],
-    "nextQuest": [
-      {
-        "id": 81001960
-      },
-      {
-        "id": 81001995
-      }
-    ],
-    "changeCityStateList": [],
-    "mailList": [],
-    "isEvent": false,
-    "isOverwriteEvent": false,
-    "eventList": [],
-    "environmentList": [],
-    "isTime": false,
-    "startTime": "",
-    "endTime": "",
-    "correspondActivity": -1,
-    "returnNum": 1,
-    "dontShowMain": false,
-    "IsPlotTask": false
-  },
-  {
-    "id": 81001960,
-    "idCN": "主线/EP6/6-19-副本-父任务",
-    "mod": "基础任务",
-    "isInformalData": false,
-    "name": "我是谁？",
-    "describe": "前往汇流塔，参与战斗",
-    "story": "打倒失控的机器人与雅莱，保全自己。",
-    "questType": "Main",
-    "sort": 0,
-    "isShowProgress": true,
-    "isShowUnlock": false,
-    "isShowAchieveProgress": false,
-    "client": 82600004,
     "startStation": 83000030,
     "endStationList": [
       {
-        "id": 83000030,
+        "id": 83000002,
         "weight": 10
       }
     ],
-    "traceList": [],
+    "isAutoTrace": false,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500150,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
     "startLevel": 0,
-    "conditionList": [],
-    "num": 3,
+    "startPrisonLevel": 0,
+    "conditionList": [
+      {
+        "key": "levelId",
+        "val": "20101177"
+      }
+    ],
+    "num": 1,
     "islockAddProgress": false,
     "isAutoComplete": true,
     "checkComplete": false,
     "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
     "parentQuest": -1,
-    "childQuestList": [
-      {
-        "id": 81001995
-      },
-      {
-        "id": 81001996
-      },
-      {
-        "id": 81001997
-      }
-    ],
+    "childQuestList": [],
     "rewardsList": [
       {
         "id": 11400005,
-        "num": 100
-      },
-      {
-        "id": 11400056,
-        "num": 100
+        "num": 50
       }
     ],
     "nextQuest": [
       {
-        "id": 81001994
+        "id": 81001911
       }
     ],
     "changeCityStateList": [],
@@ -128266,31 +128262,18 @@
     "startTime": "",
     "endTime": "",
     "correspondActivity": -1,
-    "questTab": "",
-    "questTabDes": -1,
-    "completeTab": "",
-    "isAnecdote": false,
-    "isFURNQuest": false,
-    "isAutoTrace": false,
-    "preLv": 1,
-    "playgroundId": -1,
-    "playgroundLv": 0,
-    "startPrisonLevel": 0,
-    "isRefreshProgress": false,
-    "refreshType": "Level",
-    "addProgress": 0,
     "returnNum": 1,
     "dontShowMain": false,
     "IsPlotTask": false
   },
   {
-    "id": 81001994,
-    "idCN": "主线/EP6/6-20-对话",
+    "id": 81001909,
+    "idCN": "主线/EP6/6-13-对话",
     "mod": "基础任务",
     "isInformalData": false,
-    "name": "她的谋划",
-    "describe": "在汇流塔与伊索斯对话",
-    "story": "与伊索斯交换情报，整理状况。",
+    "name": "牺牲品",
+    "describe": "与雅莱在汇流塔对话",
+    "story": "与雅莱对话，进一步挖掘天使计划的后果。",
     "questType": "Main",
     "questTab": "",
     "questTabDes": -1,
@@ -128301,7 +128284,7 @@
     "isShowAchieveProgress": false,
     "isAnecdote": false,
     "isFURNQuest": false,
-    "client": 82600550,
+    "client": 82600547,
     "startStation": 83000030,
     "endStationList": [
       {
@@ -128320,333 +128303,7 @@
       {
         "apiListId": -1,
         "btnListId": -1,
-        "traceId": 86500156,
-        "uiPath": "UI/CityMap/CityMap"
-      }
-    ],
-    "isSwitchUI": false,
-    "switchUI": "",
-    "preQuestId": -1,
-    "preLv": 1,
-    "playgroundId": -1,
-    "playgroundLv": 0,
-    "startLevel": 0,
-    "startPrisonLevel": 0,
-    "conditionList": [
-      {
-        "key": "dialog",
-        "val": "0"
-      }
-    ],
-    "num": 1,
-    "islockAddProgress": false,
-    "isAutoComplete": false,
-    "checkComplete": false,
-    "isShowReceive": false,
-    "isRefreshProgress": false,
-    "refreshType": "Level",
-    "addProgress": 0,
-    "parentQuest": -1,
-    "childQuestList": [],
-    "rewardsList": [
-      {
-        "id": 11400066,
-        "num": 1
-      }
-    ],
-    "nextQuest": [
-      {
-        "id": 81001998
-      }
-    ],
-    "changeCityStateList": [],
-    "mailList": [],
-    "isEvent": false,
-    "isOverwriteEvent": false,
-    "eventList": [],
-    "environmentList": [],
-    "isTime": false,
-    "startTime": "",
-    "endTime": "",
-    "correspondActivity": -1,
-    "returnNum": 1,
-    "dontShowMain": false,
-    "IsPlotTask": false
-  },
-  {
-    "id": 81001995,
-    "idCN": "子任务/EP6/6-19-1-战斗",
-    "mod": "基础任务",
-    "isInformalData": false,
-    "name": "",
-    "describe": "",
-    "story": "",
-    "questType": "Side",
-    "sort": 0,
-    "isShowProgress": false,
-    "isShowUnlock": false,
-    "isShowAchieveProgress": false,
-    "client": -1,
-    "startStation": 83000030,
-    "endStationList": [
-      {
-        "id": 83000030,
-        "weight": 10
-      }
-    ],
-    "traceList": [
-      {
-        "apiListId": 86500038,
-        "btnListId": 86500036,
-        "traceId": 86500029,
-        "uiPath": "UI/MainUI/MainUI"
-      },
-      {
-        "apiListId": -1,
-        "btnListId": -1,
-        "traceId": 86500155,
-        "uiPath": "UI/CityMap/CityMap"
-      }
-    ],
-    "isSwitchUI": false,
-    "switchUI": "",
-    "preQuestId": -1,
-    "startLevel": 0,
-    "conditionList": [
-      {
-        "key": "levelId",
-        "val": "20101181"
-      }
-    ],
-    "num": 1,
-    "islockAddProgress": false,
-    "isAutoComplete": true,
-    "checkComplete": false,
-    "isShowReceive": false,
-    "parentQuest": 81001960,
-    "childQuestList": [],
-    "rewardsList": [],
-    "nextQuest": [
-      {
-        "id": 81001996
-      }
-    ],
-    "changeCityStateList": [],
-    "mailList": [],
-    "isEvent": false,
-    "isOverwriteEvent": false,
-    "eventList": [],
-    "environmentList": [],
-    "isTime": false,
-    "startTime": "",
-    "endTime": "",
-    "correspondActivity": -1,
-    "questTab": "",
-    "completeTab": "",
-    "isAnecdote": false,
-    "isAutoTrace": false,
-    "preLv": 1,
-    "startPrisonLevel": 0,
-    "isRefreshProgress": false,
-    "refreshType": "Level",
-    "returnNum": 1,
-    "dontShowMain": false,
-    "IsPlotTask": false
-  },
-  {
-    "id": 81001996,
-    "idCN": "子任务/EP6/6-19-2-战斗",
-    "mod": "基础任务",
-    "isInformalData": false,
-    "name": "",
-    "describe": "",
-    "story": "",
-    "questType": "Side",
-    "sort": 0,
-    "isShowProgress": false,
-    "isShowUnlock": false,
-    "isShowAchieveProgress": false,
-    "client": -1,
-    "startStation": 83000030,
-    "endStationList": [
-      {
-        "id": 83000030,
-        "weight": 10
-      }
-    ],
-    "traceList": [
-      {
-        "apiListId": 86500038,
-        "btnListId": 86500036,
-        "traceId": 86500029,
-        "uiPath": "UI/MainUI/MainUI"
-      },
-      {
-        "apiListId": -1,
-        "btnListId": -1,
-        "traceId": 86500155,
-        "uiPath": "UI/CityMap/CityMap"
-      }
-    ],
-    "isSwitchUI": false,
-    "switchUI": "",
-    "preQuestId": -1,
-    "startLevel": 0,
-    "conditionList": [
-      {
-        "key": "levelId",
-        "val": "20101182"
-      }
-    ],
-    "num": 1,
-    "islockAddProgress": false,
-    "isAutoComplete": true,
-    "checkComplete": false,
-    "isShowReceive": false,
-    "parentQuest": 81001960,
-    "childQuestList": [],
-    "rewardsList": [],
-    "nextQuest": [
-      {
-        "id": 81001997
-      }
-    ],
-    "changeCityStateList": [],
-    "mailList": [],
-    "isEvent": false,
-    "isOverwriteEvent": false,
-    "eventList": [],
-    "environmentList": [],
-    "isTime": false,
-    "startTime": "",
-    "endTime": "",
-    "correspondActivity": -1,
-    "questTab": "",
-    "completeTab": "",
-    "isAnecdote": false,
-    "isAutoTrace": false,
-    "preLv": 1,
-    "startPrisonLevel": 0,
-    "isRefreshProgress": false,
-    "refreshType": "Level",
-    "returnNum": 1,
-    "dontShowMain": false,
-    "IsPlotTask": false
-  },
-  {
-    "id": 81001997,
-    "idCN": "子任务/EP6/6-19-3-战斗",
-    "mod": "基础任务",
-    "isInformalData": false,
-    "name": "",
-    "describe": "",
-    "story": "",
-    "questType": "Side",
-    "sort": 0,
-    "isShowProgress": false,
-    "isShowUnlock": false,
-    "isShowAchieveProgress": false,
-    "client": -1,
-    "startStation": 83000030,
-    "endStationList": [
-      {
-        "id": 83000030,
-        "weight": 10
-      }
-    ],
-    "traceList": [
-      {
-        "apiListId": 86500038,
-        "btnListId": 86500036,
-        "traceId": 86500029,
-        "uiPath": "UI/MainUI/MainUI"
-      },
-      {
-        "apiListId": -1,
-        "btnListId": -1,
-        "traceId": 86500155,
-        "uiPath": "UI/CityMap/CityMap"
-      }
-    ],
-    "isSwitchUI": false,
-    "switchUI": "",
-    "preQuestId": -1,
-    "startLevel": 0,
-    "conditionList": [
-      {
-        "key": "levelId",
-        "val": "20101183"
-      }
-    ],
-    "num": 1,
-    "islockAddProgress": false,
-    "isAutoComplete": true,
-    "checkComplete": false,
-    "isShowReceive": false,
-    "parentQuest": 81001960,
-    "childQuestList": [],
-    "rewardsList": [],
-    "nextQuest": [],
-    "changeCityStateList": [],
-    "mailList": [],
-    "isEvent": false,
-    "isOverwriteEvent": false,
-    "eventList": [],
-    "environmentList": [],
-    "isTime": false,
-    "startTime": "",
-    "endTime": "",
-    "correspondActivity": -1,
-    "questTab": "",
-    "completeTab": "",
-    "isAnecdote": false,
-    "isAutoTrace": false,
-    "preLv": 1,
-    "startPrisonLevel": 0,
-    "isRefreshProgress": false,
-    "refreshType": "Level",
-    "returnNum": 1,
-    "dontShowMain": false,
-    "IsPlotTask": false
-  },
-  {
-    "id": 81001998,
-    "idCN": "主线/EP6/6-21-对话",
-    "mod": "基础任务",
-    "isInformalData": false,
-    "name": "她的诀别",
-    "describe": "在学社与丽桑德拉对话",
-    "story": "从丽桑德拉那里了解罗洁尔的状况。",
-    "questType": "Main",
-    "questTab": "",
-    "questTabDes": -1,
-    "completeTab": "",
-    "sort": 0,
-    "isShowProgress": false,
-    "isShowUnlock": false,
-    "isShowAchieveProgress": false,
-    "isAnecdote": false,
-    "isFURNQuest": false,
-    "client": 82600294,
-    "startStation": 83000002,
-    "endStationList": [
-      {
-        "id": 83000002,
-        "weight": 10
-      }
-    ],
-    "isAutoTrace": false,
-    "traceList": [
-      {
-        "apiListId": 86500038,
-        "btnListId": 86500036,
-        "traceId": 86500029,
-        "uiPath": "UI/MainUI/MainUI"
-      },
-      {
-        "apiListId": -1,
-        "btnListId": -1,
-        "traceId": 86500157,
+        "traceId": 86500149,
         "uiPath": "UI/CityMap/CityMap"
       }
     ],
@@ -128682,7 +128339,7 @@
     ],
     "nextQuest": [
       {
-        "id": 81001999
+        "id": 81001910
       }
     ],
     "changeCityStateList": [],
@@ -128695,64 +128352,6 @@
     "startTime": "",
     "endTime": "",
     "correspondActivity": -1,
-    "returnNum": 1,
-    "dontShowMain": false,
-    "IsPlotTask": false
-  },
-  {
-    "id": 81001999,
-    "idCN": "主线/EP6/6-22-未完待续",
-    "mod": "基础任务",
-    "isInformalData": false,
-    "name": "未完待续",
-    "describe": "主线尚未完结，支线任务等您探索。",
-    "story": "故事尚未完结，丰富的支线任务正在等您探索，列车长的冒险旅途才刚刚开始！",
-    "questType": "Main",
-    "sort": 0,
-    "isShowProgress": false,
-    "isShowUnlock": false,
-    "isShowAchieveProgress": false,
-    "client": -1,
-    "startStation": -1,
-    "endStationList": [],
-    "traceList": [],
-    "isSwitchUI": false,
-    "switchUI": "",
-    "preQuestId": -1,
-    "startLevel": 0,
-    "conditionList": [],
-    "num": 1,
-    "islockAddProgress": false,
-    "isAutoComplete": false,
-    "checkComplete": false,
-    "isShowReceive": false,
-    "parentQuest": -1,
-    "childQuestList": [],
-    "rewardsList": [],
-    "nextQuest": [],
-    "changeCityStateList": [],
-    "mailList": [],
-    "isEvent": false,
-    "isOverwriteEvent": false,
-    "eventList": [],
-    "environmentList": [],
-    "isTime": false,
-    "startTime": "",
-    "endTime": "",
-    "correspondActivity": -1,
-    "questTab": "",
-    "questTabDes": -1,
-    "completeTab": "",
-    "isAnecdote": false,
-    "isFURNQuest": false,
-    "isAutoTrace": false,
-    "preLv": 1,
-    "playgroundId": -1,
-    "playgroundLv": 0,
-    "startPrisonLevel": 0,
-    "isRefreshProgress": false,
-    "refreshType": "Level",
-    "addProgress": 0,
     "returnNum": 1,
     "dontShowMain": false,
     "IsPlotTask": false
@@ -128859,74 +128458,6 @@
     "conditionList": [
       {
         "key": "foodScores",
-        "val": "5000"
-      }
-    ],
-    "num": 1,
-    "islockAddProgress": true,
-    "isAutoComplete": false,
-    "checkComplete": false,
-    "isShowReceive": false,
-    "isRefreshProgress": false,
-    "refreshType": "Level",
-    "addProgress": 0,
-    "parentQuest": -1,
-    "childQuestList": [],
-    "rewardsList": [
-      {
-        "id": 11400005,
-        "num": 5
-      }
-    ],
-    "nextQuest": [],
-    "changeCityStateList": [],
-    "mailList": [],
-    "isEvent": false,
-    "isOverwriteEvent": false,
-    "eventList": [],
-    "environmentList": [],
-    "isTime": false,
-    "startTime": "",
-    "endTime": "",
-    "correspondActivity": -1,
-    "returnNum": 1,
-    "dontShowMain": true,
-    "IsPlotTask": false
-  },
-  {
-    "id": 81001991,
-    "idCN": "导航手册/4客运手册/阶段6/娱乐5000",
-    "mod": "基础任务",
-    "isInformalData": false,
-    "name": "",
-    "describe": "将车厢内的娱乐评分提升至5000",
-    "story": "",
-    "questType": "Side",
-    "questTab": "",
-    "questTabDes": -1,
-    "completeTab": "",
-    "sort": 0,
-    "isShowProgress": true,
-    "isShowUnlock": false,
-    "isShowAchieveProgress": false,
-    "isAnecdote": false,
-    "isFURNQuest": true,
-    "client": -1,
-    "startStation": -1,
-    "endStationList": [],
-    "isAutoTrace": false,
-    "traceList": [],
-    "isSwitchUI": false,
-    "switchUI": "",
-    "preQuestId": -1,
-    "preLv": 30,
-    "playgroundId": -1,
-    "playgroundLv": 0,
-    "startLevel": 0,
-    "startPrisonLevel": 0,
-    "conditionList": [
-      {
-        "key": "playScores",
         "val": "5000"
       }
     ],
@@ -129098,12 +128629,12 @@
     "IsPlotTask": false
   },
   {
-    "id": 81001988,
-    "idCN": "导航手册/4客运手册/阶段6/绿植5000",
+    "id": 81001991,
+    "idCN": "导航手册/4客运手册/阶段6/娱乐5000",
     "mod": "基础任务",
     "isInformalData": false,
     "name": "",
-    "describe": "将车厢内的绿植评分提升至5000",
+    "describe": "将车厢内的娱乐评分提升至5000",
     "story": "",
     "questType": "Side",
     "questTab": "",
@@ -129130,7 +128661,7 @@
     "startPrisonLevel": 0,
     "conditionList": [
       {
-        "key": "plantScores",
+        "key": "playScores",
         "val": "5000"
       }
     ],
@@ -129166,12 +128697,12 @@
     "IsPlotTask": false
   },
   {
-    "id": 81001987,
-    "idCN": "导航手册/4客运手册/阶段6/舒适度30000",
+    "id": 81001988,
+    "idCN": "导航手册/4客运手册/阶段6/绿植5000",
     "mod": "基础任务",
     "isInformalData": false,
     "name": "",
-    "describe": "将车厢内的舒适度提升至30000",
+    "describe": "将车厢内的绿植评分提升至5000",
     "story": "",
     "questType": "Side",
     "questTab": "",
@@ -129198,8 +128729,8 @@
     "startPrisonLevel": 0,
     "conditionList": [
       {
-        "key": "comfortScores",
-        "val": "30000"
+        "key": "plantScores",
+        "val": "5000"
       }
     ],
     "num": 1,
@@ -129293,6 +128824,74 @@
     "endTime": "",
     "correspondActivity": -1,
     "returnNum": 3,
+    "dontShowMain": true,
+    "IsPlotTask": false
+  },
+  {
+    "id": 81001987,
+    "idCN": "导航手册/4客运手册/阶段6/舒适度30000",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "",
+    "describe": "将车厢内的舒适度提升至30000",
+    "story": "",
+    "questType": "Side",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "sort": 0,
+    "isShowProgress": true,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "isFURNQuest": true,
+    "client": -1,
+    "startStation": -1,
+    "endStationList": [],
+    "isAutoTrace": false,
+    "traceList": [],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 30,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "startLevel": 0,
+    "startPrisonLevel": 0,
+    "conditionList": [
+      {
+        "key": "comfortScores",
+        "val": "30000"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": true,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400005,
+        "num": 5
+      }
+    ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1,
+    "returnNum": 1,
     "dontShowMain": true,
     "IsPlotTask": false
   },
@@ -129569,6 +129168,74 @@
     "IsPlotTask": false
   },
   {
+    "id": 81001981,
+    "idCN": "导航手册/4客运手册/阶段5/水族3500",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "",
+    "describe": "将车厢内的水族评分提升至3500",
+    "story": "",
+    "questType": "Side",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "sort": 0,
+    "isShowProgress": true,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "isFURNQuest": true,
+    "client": -1,
+    "startStation": -1,
+    "endStationList": [],
+    "isAutoTrace": false,
+    "traceList": [],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 30,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "startLevel": 0,
+    "startPrisonLevel": 0,
+    "conditionList": [
+      {
+        "key": "fishScores",
+        "val": "3500"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": true,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400005,
+        "num": 5
+      }
+    ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1,
+    "returnNum": 1,
+    "dontShowMain": true,
+    "IsPlotTask": false
+  },
+  {
     "id": 81001980,
     "idCN": "导航手册/4客运手册/阶段5/绿植3500",
     "mod": "基础任务",
@@ -129637,12 +129304,75 @@
     "IsPlotTask": false
   },
   {
-    "id": 81001981,
-    "idCN": "导航手册/4客运手册/阶段5/水族3500",
+    "id": 81001978,
+    "idCN": "导航手册/4客运手册/阶段5/客运50级",
     "mod": "基础任务",
     "isInformalData": false,
     "name": "",
-    "describe": "将车厢内的水族评分提升至3500",
+    "describe": "客运等级达到50级",
+    "story": "",
+    "questType": "Side",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "sort": 99,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "isFURNQuest": false,
+    "client": -1,
+    "startStation": -1,
+    "endStationList": [],
+    "isAutoTrace": false,
+    "traceList": [],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "startLevel": 0,
+    "startPrisonLevel": 0,
+    "conditionList": [],
+    "num": 50,
+    "islockAddProgress": true,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400005,
+        "num": 10
+      }
+    ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1,
+    "returnNum": 3,
+    "dontShowMain": true,
+    "IsPlotTask": false
+  },
+  {
+    "id": 81001977,
+    "idCN": "导航手册/4客运手册/阶段4/医疗2500",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "",
+    "describe": "将车厢内的医疗评分提升至2500",
     "story": "",
     "questType": "Side",
     "questTab": "",
@@ -129669,8 +129399,8 @@
     "startPrisonLevel": 0,
     "conditionList": [
       {
-        "key": "fishScores",
-        "val": "3500"
+        "key": "medicalScores",
+        "val": "2500"
       }
     ],
     "num": 1,
@@ -129773,74 +129503,6 @@
     "IsPlotTask": false
   },
   {
-    "id": 81001977,
-    "idCN": "导航手册/4客运手册/阶段4/医疗2500",
-    "mod": "基础任务",
-    "isInformalData": false,
-    "name": "",
-    "describe": "将车厢内的医疗评分提升至2500",
-    "story": "",
-    "questType": "Side",
-    "questTab": "",
-    "questTabDes": -1,
-    "completeTab": "",
-    "sort": 0,
-    "isShowProgress": true,
-    "isShowUnlock": false,
-    "isShowAchieveProgress": false,
-    "isAnecdote": false,
-    "isFURNQuest": true,
-    "client": -1,
-    "startStation": -1,
-    "endStationList": [],
-    "isAutoTrace": false,
-    "traceList": [],
-    "isSwitchUI": false,
-    "switchUI": "",
-    "preQuestId": -1,
-    "preLv": 30,
-    "playgroundId": -1,
-    "playgroundLv": 0,
-    "startLevel": 0,
-    "startPrisonLevel": 0,
-    "conditionList": [
-      {
-        "key": "medicalScores",
-        "val": "2500"
-      }
-    ],
-    "num": 1,
-    "islockAddProgress": true,
-    "isAutoComplete": false,
-    "checkComplete": false,
-    "isShowReceive": false,
-    "isRefreshProgress": false,
-    "refreshType": "Level",
-    "addProgress": 0,
-    "parentQuest": -1,
-    "childQuestList": [],
-    "rewardsList": [
-      {
-        "id": 11400005,
-        "num": 5
-      }
-    ],
-    "nextQuest": [],
-    "changeCityStateList": [],
-    "mailList": [],
-    "isEvent": false,
-    "isOverwriteEvent": false,
-    "eventList": [],
-    "environmentList": [],
-    "isTime": false,
-    "startTime": "",
-    "endTime": "",
-    "correspondActivity": -1,
-    "returnNum": 1,
-    "dontShowMain": true,
-    "IsPlotTask": false
-  },
-  {
     "id": 81001976,
     "idCN": "导航手册/4客运手册/阶段4/美味2500",
     "mod": "基础任务",
@@ -129905,69 +129567,6 @@
     "endTime": "",
     "correspondActivity": -1,
     "returnNum": 1,
-    "dontShowMain": true,
-    "IsPlotTask": false
-  },
-  {
-    "id": 81001978,
-    "idCN": "导航手册/4客运手册/阶段5/客运50级",
-    "mod": "基础任务",
-    "isInformalData": false,
-    "name": "",
-    "describe": "客运等级达到50级",
-    "story": "",
-    "questType": "Side",
-    "questTab": "",
-    "questTabDes": -1,
-    "completeTab": "",
-    "sort": 99,
-    "isShowProgress": false,
-    "isShowUnlock": false,
-    "isShowAchieveProgress": false,
-    "isAnecdote": false,
-    "isFURNQuest": false,
-    "client": -1,
-    "startStation": -1,
-    "endStationList": [],
-    "isAutoTrace": false,
-    "traceList": [],
-    "isSwitchUI": false,
-    "switchUI": "",
-    "preQuestId": -1,
-    "preLv": 1,
-    "playgroundId": -1,
-    "playgroundLv": 0,
-    "startLevel": 0,
-    "startPrisonLevel": 0,
-    "conditionList": [],
-    "num": 50,
-    "islockAddProgress": true,
-    "isAutoComplete": false,
-    "checkComplete": false,
-    "isShowReceive": false,
-    "isRefreshProgress": false,
-    "refreshType": "Level",
-    "addProgress": 0,
-    "parentQuest": -1,
-    "childQuestList": [],
-    "rewardsList": [
-      {
-        "id": 11400005,
-        "num": 10
-      }
-    ],
-    "nextQuest": [],
-    "changeCityStateList": [],
-    "mailList": [],
-    "isEvent": false,
-    "isOverwriteEvent": false,
-    "eventList": [],
-    "environmentList": [],
-    "isTime": false,
-    "startTime": "",
-    "endTime": "",
-    "correspondActivity": -1,
-    "returnNum": 3,
     "dontShowMain": true,
     "IsPlotTask": false
   },
@@ -130312,6 +129911,69 @@
     "IsPlotTask": false
   },
   {
+    "id": 81001970,
+    "idCN": "导航手册/4客运手册/阶段4/客运40级",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "",
+    "describe": "客运等级达到40级",
+    "story": "",
+    "questType": "Side",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "sort": 99,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "isFURNQuest": false,
+    "client": -1,
+    "startStation": -1,
+    "endStationList": [],
+    "isAutoTrace": false,
+    "traceList": [],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "startLevel": 0,
+    "startPrisonLevel": 0,
+    "conditionList": [],
+    "num": 40,
+    "islockAddProgress": true,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400005,
+        "num": 10
+      }
+    ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1,
+    "returnNum": 3,
+    "dontShowMain": true,
+    "IsPlotTask": false
+  },
+  {
     "id": 81001969,
     "idCN": "导航手册/4客运手册/阶段3/医疗1500",
     "mod": "基础任务",
@@ -130448,137 +130110,6 @@
     "IsPlotTask": false
   },
   {
-    "id": 81001967,
-    "idCN": "导航手册/4客运手册/阶段3/娱乐1500",
-    "mod": "基础任务",
-    "isInformalData": false,
-    "name": "",
-    "describe": "将车厢内的娱乐评分提升至1500",
-    "story": "",
-    "questType": "Side",
-    "questTab": "",
-    "questTabDes": -1,
-    "completeTab": "",
-    "sort": 0,
-    "isShowProgress": true,
-    "isShowUnlock": false,
-    "isShowAchieveProgress": false,
-    "isAnecdote": false,
-    "isFURNQuest": true,
-    "client": -1,
-    "startStation": -1,
-    "endStationList": [],
-    "isAutoTrace": false,
-    "traceList": [],
-    "isSwitchUI": false,
-    "switchUI": "",
-    "preQuestId": -1,
-    "preLv": 30,
-    "playgroundId": -1,
-    "playgroundLv": 0,
-    "startLevel": 0,
-    "startPrisonLevel": 0,
-    "conditionList": [
-      {
-        "key": "playScores",
-        "val": "1000"
-      }
-    ],
-    "num": 1,
-    "islockAddProgress": true,
-    "isAutoComplete": false,
-    "checkComplete": false,
-    "isShowReceive": false,
-    "isRefreshProgress": false,
-    "refreshType": "Level",
-    "addProgress": 0,
-    "parentQuest": -1,
-    "childQuestList": [],
-    "rewardsList": [
-      {
-        "id": 11400005,
-        "num": 5
-      }
-    ],
-    "nextQuest": [],
-    "changeCityStateList": [],
-    "mailList": [],
-    "isEvent": false,
-    "isOverwriteEvent": false,
-    "eventList": [],
-    "environmentList": [],
-    "isTime": false,
-    "startTime": "",
-    "endTime": "",
-    "correspondActivity": -1,
-    "returnNum": 1,
-    "dontShowMain": true,
-    "IsPlotTask": false
-  },
-  {
-    "id": 81001970,
-    "idCN": "导航手册/4客运手册/阶段4/客运40级",
-    "mod": "基础任务",
-    "isInformalData": false,
-    "name": "",
-    "describe": "客运等级达到40级",
-    "story": "",
-    "questType": "Side",
-    "questTab": "",
-    "questTabDes": -1,
-    "completeTab": "",
-    "sort": 99,
-    "isShowProgress": false,
-    "isShowUnlock": false,
-    "isShowAchieveProgress": false,
-    "isAnecdote": false,
-    "isFURNQuest": false,
-    "client": -1,
-    "startStation": -1,
-    "endStationList": [],
-    "isAutoTrace": false,
-    "traceList": [],
-    "isSwitchUI": false,
-    "switchUI": "",
-    "preQuestId": -1,
-    "preLv": 1,
-    "playgroundId": -1,
-    "playgroundLv": 0,
-    "startLevel": 0,
-    "startPrisonLevel": 0,
-    "conditionList": [],
-    "num": 40,
-    "islockAddProgress": true,
-    "isAutoComplete": false,
-    "checkComplete": false,
-    "isShowReceive": false,
-    "isRefreshProgress": false,
-    "refreshType": "Level",
-    "addProgress": 0,
-    "parentQuest": -1,
-    "childQuestList": [],
-    "rewardsList": [
-      {
-        "id": 11400005,
-        "num": 10
-      }
-    ],
-    "nextQuest": [],
-    "changeCityStateList": [],
-    "mailList": [],
-    "isEvent": false,
-    "isOverwriteEvent": false,
-    "eventList": [],
-    "environmentList": [],
-    "isTime": false,
-    "startTime": "",
-    "endTime": "",
-    "correspondActivity": -1,
-    "returnNum": 3,
-    "dontShowMain": true,
-    "IsPlotTask": false
-  },
-  {
     "id": 81001966,
     "idCN": "导航手册/4客运手册/阶段3/宠物1500",
     "mod": "基础任务",
@@ -130613,6 +130144,74 @@
       {
         "key": "petScores",
         "val": "1500"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": true,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400005,
+        "num": 5
+      }
+    ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1,
+    "returnNum": 1,
+    "dontShowMain": true,
+    "IsPlotTask": false
+  },
+  {
+    "id": 81001967,
+    "idCN": "导航手册/4客运手册/阶段3/娱乐1500",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "",
+    "describe": "将车厢内的娱乐评分提升至1500",
+    "story": "",
+    "questType": "Side",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "sort": 0,
+    "isShowProgress": true,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "isFURNQuest": true,
+    "client": -1,
+    "startStation": -1,
+    "endStationList": [],
+    "isAutoTrace": false,
+    "traceList": [],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 30,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "startLevel": 0,
+    "startPrisonLevel": 0,
+    "conditionList": [
+      {
+        "key": "playScores",
+        "val": "1000"
       }
     ],
     "num": 1,
@@ -131919,74 +131518,6 @@
     "IsPlotTask": false
   },
   {
-    "id": 81001944,
-    "idCN": "导航手册/3制造手册/阶段5/纯金线材利润500W单",
-    "mod": "基础任务",
-    "isInformalData": false,
-    "name": "",
-    "describe": "通过交易【纯金线材】单笔利润达到5000000铁盟币",
-    "story": "",
-    "questType": "Side",
-    "questTab": "",
-    "questTabDes": -1,
-    "completeTab": "",
-    "sort": 99,
-    "isShowProgress": false,
-    "isShowUnlock": false,
-    "isShowAchieveProgress": false,
-    "isAnecdote": false,
-    "isFURNQuest": false,
-    "client": -1,
-    "startStation": -1,
-    "endStationList": [],
-    "isAutoTrace": false,
-    "traceList": [],
-    "isSwitchUI": false,
-    "switchUI": "",
-    "preQuestId": -1,
-    "preLv": 1,
-    "playgroundId": -1,
-    "playgroundLv": 0,
-    "startLevel": 0,
-    "startPrisonLevel": 0,
-    "conditionList": [
-      {
-        "key": "sellItemOnceProfit",
-        "val": "82900170"
-      }
-    ],
-    "num": 5000000,
-    "islockAddProgress": true,
-    "isAutoComplete": false,
-    "checkComplete": false,
-    "isShowReceive": false,
-    "isRefreshProgress": false,
-    "refreshType": "Level",
-    "addProgress": 0,
-    "parentQuest": -1,
-    "childQuestList": [],
-    "rewardsList": [
-      {
-        "id": 11400005,
-        "num": 5
-      }
-    ],
-    "nextQuest": [],
-    "changeCityStateList": [],
-    "mailList": [],
-    "isEvent": false,
-    "isOverwriteEvent": false,
-    "eventList": [],
-    "environmentList": [],
-    "isTime": false,
-    "startTime": "",
-    "endTime": "",
-    "correspondActivity": -1,
-    "returnNum": 1,
-    "dontShowMain": true,
-    "IsPlotTask": false
-  },
-  {
     "id": 81001943,
     "idCN": "导航手册/3制造手册/阶段5/制造形而上粒子10",
     "mod": "基础任务",
@@ -132024,6 +131555,74 @@
       }
     ],
     "num": 10,
+    "islockAddProgress": true,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400005,
+        "num": 5
+      }
+    ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1,
+    "returnNum": 1,
+    "dontShowMain": true,
+    "IsPlotTask": false
+  },
+  {
+    "id": 81001944,
+    "idCN": "导航手册/3制造手册/阶段5/纯金线材利润500W单",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "",
+    "describe": "通过交易【纯金线材】单笔利润达到5000000铁盟币",
+    "story": "",
+    "questType": "Side",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "sort": 99,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "isFURNQuest": false,
+    "client": -1,
+    "startStation": -1,
+    "endStationList": [],
+    "isAutoTrace": false,
+    "traceList": [],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "startLevel": 0,
+    "startPrisonLevel": 0,
+    "conditionList": [
+      {
+        "key": "sellItemOnceProfit",
+        "val": "82900170"
+      }
+    ],
+    "num": 5000000,
     "islockAddProgress": true,
     "isAutoComplete": false,
     "checkComplete": false,
@@ -132322,6 +131921,74 @@
     "IsPlotTask": false
   },
   {
+    "id": 81001938,
+    "idCN": "导航手册/3制造手册/阶段4/纯金零件出售200W",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "",
+    "describe": "通过出售【纯金零件】赚到2000000铁盟币",
+    "story": "",
+    "questType": "Side",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "sort": 0,
+    "isShowProgress": true,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "isFURNQuest": false,
+    "client": -1,
+    "startStation": -1,
+    "endStationList": [],
+    "isAutoTrace": false,
+    "traceList": [],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "startLevel": 0,
+    "startPrisonLevel": 0,
+    "conditionList": [
+      {
+        "key": "itemId",
+        "val": "11700182"
+      }
+    ],
+    "num": 2000000,
+    "islockAddProgress": true,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400005,
+        "num": 5
+      }
+    ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1,
+    "returnNum": 1,
+    "dontShowMain": true,
+    "IsPlotTask": false
+  },
+  {
     "id": 81001937,
     "idCN": "导航手册/3制造手册/阶段4/超导线圈出售200W",
     "mod": "基础任务",
@@ -132495,74 +132162,6 @@
       }
     ],
     "num": 10,
-    "islockAddProgress": true,
-    "isAutoComplete": false,
-    "checkComplete": false,
-    "isShowReceive": false,
-    "isRefreshProgress": false,
-    "refreshType": "Level",
-    "addProgress": 0,
-    "parentQuest": -1,
-    "childQuestList": [],
-    "rewardsList": [
-      {
-        "id": 11400005,
-        "num": 5
-      }
-    ],
-    "nextQuest": [],
-    "changeCityStateList": [],
-    "mailList": [],
-    "isEvent": false,
-    "isOverwriteEvent": false,
-    "eventList": [],
-    "environmentList": [],
-    "isTime": false,
-    "startTime": "",
-    "endTime": "",
-    "correspondActivity": -1,
-    "returnNum": 1,
-    "dontShowMain": true,
-    "IsPlotTask": false
-  },
-  {
-    "id": 81001938,
-    "idCN": "导航手册/3制造手册/阶段4/纯金零件出售200W",
-    "mod": "基础任务",
-    "isInformalData": false,
-    "name": "",
-    "describe": "通过出售【纯金零件】赚到2000000铁盟币",
-    "story": "",
-    "questType": "Side",
-    "questTab": "",
-    "questTabDes": -1,
-    "completeTab": "",
-    "sort": 0,
-    "isShowProgress": true,
-    "isShowUnlock": false,
-    "isShowAchieveProgress": false,
-    "isAnecdote": false,
-    "isFURNQuest": false,
-    "client": -1,
-    "startStation": -1,
-    "endStationList": [],
-    "isAutoTrace": false,
-    "traceList": [],
-    "isSwitchUI": false,
-    "switchUI": "",
-    "preQuestId": -1,
-    "preLv": 1,
-    "playgroundId": -1,
-    "playgroundLv": 0,
-    "startLevel": 0,
-    "startPrisonLevel": 0,
-    "conditionList": [
-      {
-        "key": "itemId",
-        "val": "11700182"
-      }
-    ],
-    "num": 2000000,
     "islockAddProgress": true,
     "isAutoComplete": false,
     "checkComplete": false,
@@ -133065,74 +132664,6 @@
     "IsPlotTask": false
   },
   {
-    "id": 81001927,
-    "idCN": "导航手册/3制造手册/阶段3/制造钛合金10",
-    "mod": "基础任务",
-    "isInformalData": false,
-    "name": "",
-    "describe": "使用【车载炼矿机】制造10次【钛合金】",
-    "story": "",
-    "questType": "Side",
-    "questTab": "",
-    "questTabDes": -1,
-    "completeTab": "",
-    "sort": 0,
-    "isShowProgress": true,
-    "isShowUnlock": false,
-    "isShowAchieveProgress": false,
-    "isAnecdote": false,
-    "isFURNQuest": false,
-    "client": -1,
-    "startStation": -1,
-    "endStationList": [],
-    "isAutoTrace": false,
-    "traceList": [],
-    "isSwitchUI": false,
-    "switchUI": "",
-    "preQuestId": -1,
-    "preLv": 1,
-    "playgroundId": -1,
-    "playgroundLv": 0,
-    "startLevel": 0,
-    "startPrisonLevel": 0,
-    "conditionList": [
-      {
-        "key": "itemId",
-        "val": "82900181"
-      }
-    ],
-    "num": 10,
-    "islockAddProgress": true,
-    "isAutoComplete": false,
-    "checkComplete": false,
-    "isShowReceive": false,
-    "isRefreshProgress": false,
-    "refreshType": "Level",
-    "addProgress": 0,
-    "parentQuest": -1,
-    "childQuestList": [],
-    "rewardsList": [
-      {
-        "id": 11400005,
-        "num": 5
-      }
-    ],
-    "nextQuest": [],
-    "changeCityStateList": [],
-    "mailList": [],
-    "isEvent": false,
-    "isOverwriteEvent": false,
-    "eventList": [],
-    "environmentList": [],
-    "isTime": false,
-    "startTime": "",
-    "endTime": "",
-    "correspondActivity": -1,
-    "returnNum": 1,
-    "dontShowMain": true,
-    "IsPlotTask": false
-  },
-  {
     "id": 81001926,
     "idCN": "导航手册/3制造手册/阶段3/制造重桦石10",
     "mod": "基础任务",
@@ -133332,6 +132863,142 @@
     "IsPlotTask": false
   },
   {
+    "id": 81001923,
+    "idCN": "导航手册/3制造手册/阶段2/制造纯金零件10",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "",
+    "describe": "使用【制造工作台】制造10次【纯金零件】",
+    "story": "",
+    "questType": "Side",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "sort": 0,
+    "isShowProgress": true,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "isFURNQuest": false,
+    "client": -1,
+    "startStation": -1,
+    "endStationList": [],
+    "isAutoTrace": false,
+    "traceList": [],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "startLevel": 0,
+    "startPrisonLevel": 0,
+    "conditionList": [
+      {
+        "key": "itemId",
+        "val": "11700182"
+      }
+    ],
+    "num": 10,
+    "islockAddProgress": true,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400005,
+        "num": 5
+      }
+    ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1,
+    "returnNum": 1,
+    "dontShowMain": true,
+    "IsPlotTask": false
+  },
+  {
+    "id": 81001927,
+    "idCN": "导航手册/3制造手册/阶段3/制造钛合金10",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "",
+    "describe": "使用【车载炼矿机】制造10次【钛合金】",
+    "story": "",
+    "questType": "Side",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "sort": 0,
+    "isShowProgress": true,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "isFURNQuest": false,
+    "client": -1,
+    "startStation": -1,
+    "endStationList": [],
+    "isAutoTrace": false,
+    "traceList": [],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "startLevel": 0,
+    "startPrisonLevel": 0,
+    "conditionList": [
+      {
+        "key": "itemId",
+        "val": "82900181"
+      }
+    ],
+    "num": 10,
+    "islockAddProgress": true,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400005,
+        "num": 5
+      }
+    ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1,
+    "returnNum": 1,
+    "dontShowMain": true,
+    "IsPlotTask": false
+  },
+  {
     "id": 81001922,
     "idCN": "导航手册/3制造手册/阶段2/制造镀金零件10",
     "mod": "基础任务",
@@ -133400,12 +133067,12 @@
     "IsPlotTask": false
   },
   {
-    "id": 81001923,
-    "idCN": "导航手册/3制造手册/阶段2/制造纯金零件10",
+    "id": 81001921,
+    "idCN": "导航手册/3制造手册/阶段2/制造精密零件10",
     "mod": "基础任务",
     "isInformalData": false,
     "name": "",
-    "describe": "使用【制造工作台】制造10次【纯金零件】",
+    "describe": "使用【制造工作台】制造10次【精密零件】",
     "story": "",
     "questType": "Side",
     "questTab": "",
@@ -133433,7 +133100,7 @@
     "conditionList": [
       {
         "key": "itemId",
-        "val": "11700182"
+        "val": "11700180"
       }
     ],
     "num": 10,
@@ -133599,74 +133266,6 @@
     "IsPlotTask": false
   },
   {
-    "id": 81001921,
-    "idCN": "导航手册/3制造手册/阶段2/制造精密零件10",
-    "mod": "基础任务",
-    "isInformalData": false,
-    "name": "",
-    "describe": "使用【制造工作台】制造10次【精密零件】",
-    "story": "",
-    "questType": "Side",
-    "questTab": "",
-    "questTabDes": -1,
-    "completeTab": "",
-    "sort": 0,
-    "isShowProgress": true,
-    "isShowUnlock": false,
-    "isShowAchieveProgress": false,
-    "isAnecdote": false,
-    "isFURNQuest": false,
-    "client": -1,
-    "startStation": -1,
-    "endStationList": [],
-    "isAutoTrace": false,
-    "traceList": [],
-    "isSwitchUI": false,
-    "switchUI": "",
-    "preQuestId": -1,
-    "preLv": 1,
-    "playgroundId": -1,
-    "playgroundLv": 0,
-    "startLevel": 0,
-    "startPrisonLevel": 0,
-    "conditionList": [
-      {
-        "key": "itemId",
-        "val": "11700180"
-      }
-    ],
-    "num": 10,
-    "islockAddProgress": true,
-    "isAutoComplete": false,
-    "checkComplete": false,
-    "isShowReceive": false,
-    "isRefreshProgress": false,
-    "refreshType": "Level",
-    "addProgress": 0,
-    "parentQuest": -1,
-    "childQuestList": [],
-    "rewardsList": [
-      {
-        "id": 11400005,
-        "num": 5
-      }
-    ],
-    "nextQuest": [],
-    "changeCityStateList": [],
-    "mailList": [],
-    "isEvent": false,
-    "isOverwriteEvent": false,
-    "eventList": [],
-    "environmentList": [],
-    "isTime": false,
-    "startTime": "",
-    "endTime": "",
-    "correspondActivity": -1,
-    "returnNum": 1,
-    "dontShowMain": true,
-    "IsPlotTask": false
-  },
-  {
     "id": 81001918,
     "idCN": "导航手册/3制造手册/阶段1/金箔利润200000",
     "mod": "基础任务",
@@ -133798,834 +133397,197 @@
     "IsPlotTask": false
   },
   {
-    "id": 81002026,
-    "idCN": "子任务/作战中心/汇流塔/汇流塔10",
+    "id": 81001959,
+    "idCN": "主线/EP6/6-18-对话",
     "mod": "基础任务",
     "isInformalData": false,
-    "name": "",
-    "describe": "",
-    "story": "",
-    "questType": "Side",
+    "name": "她的牵挂",
+    "describe": "在修格里交易所与幼浅对话",
+    "story": "从修格里交易所提取罗洁尔预定的货物。",
+    "questType": "Main",
     "questTab": "",
     "questTabDes": -1,
     "completeTab": "",
-    "sort": 5,
+    "sort": 0,
     "isShowProgress": false,
-    "isShowUnlock": false,
-    "isShowAchieveProgress": false,
-    "isAnecdote": false,
-    "isFURNQuest": false,
-    "client": -1,
-    "startStation": 83000030,
-    "endStationList": [
-      {
-        "id": 83000030,
-        "weight": 10
-      }
-    ],
-    "isAutoTrace": false,
-    "traceList": [
-      {
-        "apiListId": 86500038,
-        "btnListId": 86500036,
-        "traceId": 86500029,
-        "uiPath": "UI/MainUI/MainUI"
-      },
-      {
-        "apiListId": -1,
-        "btnListId": -1,
-        "traceId": 86500017,
-        "uiPath": "UI/CityMap/CityMap"
-      }
-    ],
-    "isSwitchUI": false,
-    "switchUI": "",
-    "preQuestId": -1,
-    "preLv": 1,
-    "playgroundId": -1,
-    "playgroundLv": 0,
-    "startLevel": 0,
-    "startPrisonLevel": 0,
-    "conditionList": [
-      {
-        "key": "levelId",
-        "val": "20101202"
-      }
-    ],
-    "num": 1,
-    "islockAddProgress": true,
-    "isAutoComplete": true,
-    "checkComplete": true,
-    "isShowReceive": false,
-    "isRefreshProgress": true,
-    "refreshType": "Level",
-    "addProgress": 0,
-    "parentQuest": 81002016,
-    "childQuestList": [],
-    "rewardsList": [],
-    "nextQuest": [],
-    "changeCityStateList": [],
-    "mailList": [],
-    "isEvent": false,
-    "isOverwriteEvent": false,
-    "eventList": [],
-    "environmentList": [],
-    "isTime": false,
-    "startTime": "",
-    "endTime": "",
-    "correspondActivity": -1,
-    "returnNum": 1,
-    "dontShowMain": false,
-    "IsPlotTask": false
-  },
-  {
-    "id": 81002025,
-    "idCN": "子任务/作战中心/汇流塔/汇流塔9",
-    "mod": "基础任务",
-    "isInformalData": false,
-    "name": "",
-    "describe": "",
-    "story": "",
-    "questType": "Side",
-    "questTab": "",
-    "questTabDes": -1,
-    "completeTab": "",
-    "sort": 5,
-    "isShowProgress": false,
-    "isShowUnlock": false,
-    "isShowAchieveProgress": false,
-    "isAnecdote": false,
-    "isFURNQuest": false,
-    "client": -1,
-    "startStation": 83000030,
-    "endStationList": [
-      {
-        "id": 83000030,
-        "weight": 10
-      }
-    ],
-    "isAutoTrace": false,
-    "traceList": [
-      {
-        "apiListId": 86500038,
-        "btnListId": 86500036,
-        "traceId": 86500029,
-        "uiPath": "UI/MainUI/MainUI"
-      },
-      {
-        "apiListId": -1,
-        "btnListId": -1,
-        "traceId": 86500017,
-        "uiPath": "UI/CityMap/CityMap"
-      }
-    ],
-    "isSwitchUI": false,
-    "switchUI": "",
-    "preQuestId": -1,
-    "preLv": 1,
-    "playgroundId": -1,
-    "playgroundLv": 0,
-    "startLevel": 0,
-    "startPrisonLevel": 0,
-    "conditionList": [
-      {
-        "key": "levelId",
-        "val": "20101201"
-      }
-    ],
-    "num": 1,
-    "islockAddProgress": true,
-    "isAutoComplete": true,
-    "checkComplete": true,
-    "isShowReceive": false,
-    "isRefreshProgress": true,
-    "refreshType": "Level",
-    "addProgress": 0,
-    "parentQuest": 81002016,
-    "childQuestList": [],
-    "rewardsList": [],
-    "nextQuest": [],
-    "changeCityStateList": [],
-    "mailList": [],
-    "isEvent": false,
-    "isOverwriteEvent": false,
-    "eventList": [],
-    "environmentList": [],
-    "isTime": false,
-    "startTime": "",
-    "endTime": "",
-    "correspondActivity": -1,
-    "returnNum": 1,
-    "dontShowMain": false,
-    "IsPlotTask": false
-  },
-  {
-    "id": 81002024,
-    "idCN": "子任务/作战中心/汇流塔/汇流塔8",
-    "mod": "基础任务",
-    "isInformalData": false,
-    "name": "",
-    "describe": "",
-    "story": "",
-    "questType": "Side",
-    "questTab": "",
-    "questTabDes": -1,
-    "completeTab": "",
-    "sort": 5,
-    "isShowProgress": false,
-    "isShowUnlock": false,
-    "isShowAchieveProgress": false,
-    "isAnecdote": false,
-    "isFURNQuest": false,
-    "client": -1,
-    "startStation": 83000030,
-    "endStationList": [
-      {
-        "id": 83000030,
-        "weight": 10
-      }
-    ],
-    "isAutoTrace": false,
-    "traceList": [
-      {
-        "apiListId": 86500038,
-        "btnListId": 86500036,
-        "traceId": 86500029,
-        "uiPath": "UI/MainUI/MainUI"
-      },
-      {
-        "apiListId": -1,
-        "btnListId": -1,
-        "traceId": 86500017,
-        "uiPath": "UI/CityMap/CityMap"
-      }
-    ],
-    "isSwitchUI": false,
-    "switchUI": "",
-    "preQuestId": -1,
-    "preLv": 1,
-    "playgroundId": -1,
-    "playgroundLv": 0,
-    "startLevel": 0,
-    "startPrisonLevel": 0,
-    "conditionList": [
-      {
-        "key": "levelId",
-        "val": "20101200"
-      }
-    ],
-    "num": 1,
-    "islockAddProgress": true,
-    "isAutoComplete": true,
-    "checkComplete": true,
-    "isShowReceive": false,
-    "isRefreshProgress": true,
-    "refreshType": "Level",
-    "addProgress": 0,
-    "parentQuest": 81002016,
-    "childQuestList": [],
-    "rewardsList": [],
-    "nextQuest": [],
-    "changeCityStateList": [],
-    "mailList": [],
-    "isEvent": false,
-    "isOverwriteEvent": false,
-    "eventList": [],
-    "environmentList": [],
-    "isTime": false,
-    "startTime": "",
-    "endTime": "",
-    "correspondActivity": -1,
-    "returnNum": 1,
-    "dontShowMain": false,
-    "IsPlotTask": false
-  },
-  {
-    "id": 81002023,
-    "idCN": "子任务/作战中心/汇流塔/汇流塔7",
-    "mod": "基础任务",
-    "isInformalData": false,
-    "name": "",
-    "describe": "",
-    "story": "",
-    "questType": "Side",
-    "questTab": "",
-    "questTabDes": -1,
-    "completeTab": "",
-    "sort": 5,
-    "isShowProgress": false,
-    "isShowUnlock": false,
-    "isShowAchieveProgress": false,
-    "isAnecdote": false,
-    "isFURNQuest": false,
-    "client": -1,
-    "startStation": 83000030,
-    "endStationList": [
-      {
-        "id": 83000030,
-        "weight": 10
-      }
-    ],
-    "isAutoTrace": false,
-    "traceList": [
-      {
-        "apiListId": 86500038,
-        "btnListId": 86500036,
-        "traceId": 86500029,
-        "uiPath": "UI/MainUI/MainUI"
-      },
-      {
-        "apiListId": -1,
-        "btnListId": -1,
-        "traceId": 86500017,
-        "uiPath": "UI/CityMap/CityMap"
-      }
-    ],
-    "isSwitchUI": false,
-    "switchUI": "",
-    "preQuestId": -1,
-    "preLv": 1,
-    "playgroundId": -1,
-    "playgroundLv": 0,
-    "startLevel": 0,
-    "startPrisonLevel": 0,
-    "conditionList": [
-      {
-        "key": "levelId",
-        "val": "20101199"
-      }
-    ],
-    "num": 1,
-    "islockAddProgress": true,
-    "isAutoComplete": true,
-    "checkComplete": true,
-    "isShowReceive": false,
-    "isRefreshProgress": true,
-    "refreshType": "Level",
-    "addProgress": 0,
-    "parentQuest": 81002016,
-    "childQuestList": [],
-    "rewardsList": [],
-    "nextQuest": [],
-    "changeCityStateList": [],
-    "mailList": [],
-    "isEvent": false,
-    "isOverwriteEvent": false,
-    "eventList": [],
-    "environmentList": [],
-    "isTime": false,
-    "startTime": "",
-    "endTime": "",
-    "correspondActivity": -1,
-    "returnNum": 1,
-    "dontShowMain": false,
-    "IsPlotTask": false
-  },
-  {
-    "id": 81002022,
-    "idCN": "子任务/作战中心/汇流塔/汇流塔6",
-    "mod": "基础任务",
-    "isInformalData": false,
-    "name": "",
-    "describe": "",
-    "story": "",
-    "questType": "Side",
-    "questTab": "",
-    "questTabDes": -1,
-    "completeTab": "",
-    "sort": 5,
-    "isShowProgress": false,
-    "isShowUnlock": false,
-    "isShowAchieveProgress": false,
-    "isAnecdote": false,
-    "isFURNQuest": false,
-    "client": -1,
-    "startStation": 83000030,
-    "endStationList": [
-      {
-        "id": 83000030,
-        "weight": 10
-      }
-    ],
-    "isAutoTrace": false,
-    "traceList": [
-      {
-        "apiListId": 86500038,
-        "btnListId": 86500036,
-        "traceId": 86500029,
-        "uiPath": "UI/MainUI/MainUI"
-      },
-      {
-        "apiListId": -1,
-        "btnListId": -1,
-        "traceId": 86500017,
-        "uiPath": "UI/CityMap/CityMap"
-      }
-    ],
-    "isSwitchUI": false,
-    "switchUI": "",
-    "preQuestId": -1,
-    "preLv": 1,
-    "playgroundId": -1,
-    "playgroundLv": 0,
-    "startLevel": 0,
-    "startPrisonLevel": 0,
-    "conditionList": [
-      {
-        "key": "levelId",
-        "val": "20101198"
-      }
-    ],
-    "num": 1,
-    "islockAddProgress": true,
-    "isAutoComplete": true,
-    "checkComplete": true,
-    "isShowReceive": false,
-    "isRefreshProgress": true,
-    "refreshType": "Level",
-    "addProgress": 0,
-    "parentQuest": 81002016,
-    "childQuestList": [],
-    "rewardsList": [],
-    "nextQuest": [],
-    "changeCityStateList": [],
-    "mailList": [],
-    "isEvent": false,
-    "isOverwriteEvent": false,
-    "eventList": [],
-    "environmentList": [],
-    "isTime": false,
-    "startTime": "",
-    "endTime": "",
-    "correspondActivity": -1,
-    "returnNum": 1,
-    "dontShowMain": false,
-    "IsPlotTask": false
-  },
-  {
-    "id": 81002021,
-    "idCN": "子任务/作战中心/汇流塔/汇流塔5",
-    "mod": "基础任务",
-    "isInformalData": false,
-    "name": "",
-    "describe": "",
-    "story": "",
-    "questType": "Side",
-    "questTab": "",
-    "questTabDes": -1,
-    "completeTab": "",
-    "sort": 5,
-    "isShowProgress": false,
-    "isShowUnlock": false,
-    "isShowAchieveProgress": false,
-    "isAnecdote": false,
-    "isFURNQuest": false,
-    "client": -1,
-    "startStation": 83000030,
-    "endStationList": [
-      {
-        "id": 83000030,
-        "weight": 10
-      }
-    ],
-    "isAutoTrace": false,
-    "traceList": [
-      {
-        "apiListId": 86500038,
-        "btnListId": 86500036,
-        "traceId": 86500029,
-        "uiPath": "UI/MainUI/MainUI"
-      },
-      {
-        "apiListId": -1,
-        "btnListId": -1,
-        "traceId": 86500017,
-        "uiPath": "UI/CityMap/CityMap"
-      }
-    ],
-    "isSwitchUI": false,
-    "switchUI": "",
-    "preQuestId": -1,
-    "preLv": 1,
-    "playgroundId": -1,
-    "playgroundLv": 0,
-    "startLevel": 0,
-    "startPrisonLevel": 0,
-    "conditionList": [
-      {
-        "key": "levelId",
-        "val": "20101197"
-      }
-    ],
-    "num": 1,
-    "islockAddProgress": true,
-    "isAutoComplete": true,
-    "checkComplete": true,
-    "isShowReceive": false,
-    "isRefreshProgress": true,
-    "refreshType": "Level",
-    "addProgress": 0,
-    "parentQuest": 81002016,
-    "childQuestList": [],
-    "rewardsList": [],
-    "nextQuest": [],
-    "changeCityStateList": [],
-    "mailList": [],
-    "isEvent": false,
-    "isOverwriteEvent": false,
-    "eventList": [],
-    "environmentList": [],
-    "isTime": false,
-    "startTime": "",
-    "endTime": "",
-    "correspondActivity": -1,
-    "returnNum": 1,
-    "dontShowMain": false,
-    "IsPlotTask": false
-  },
-  {
-    "id": 81002020,
-    "idCN": "子任务/作战中心/汇流塔/汇流塔4",
-    "mod": "基础任务",
-    "isInformalData": false,
-    "name": "",
-    "describe": "",
-    "story": "",
-    "questType": "Side",
-    "questTab": "",
-    "questTabDes": -1,
-    "completeTab": "",
-    "sort": 5,
-    "isShowProgress": false,
-    "isShowUnlock": false,
-    "isShowAchieveProgress": false,
-    "isAnecdote": false,
-    "isFURNQuest": false,
-    "client": -1,
-    "startStation": 83000030,
-    "endStationList": [
-      {
-        "id": 83000030,
-        "weight": 10
-      }
-    ],
-    "isAutoTrace": false,
-    "traceList": [
-      {
-        "apiListId": 86500038,
-        "btnListId": 86500036,
-        "traceId": 86500029,
-        "uiPath": "UI/MainUI/MainUI"
-      },
-      {
-        "apiListId": -1,
-        "btnListId": -1,
-        "traceId": 86500017,
-        "uiPath": "UI/CityMap/CityMap"
-      }
-    ],
-    "isSwitchUI": false,
-    "switchUI": "",
-    "preQuestId": -1,
-    "preLv": 1,
-    "playgroundId": -1,
-    "playgroundLv": 0,
-    "startLevel": 0,
-    "startPrisonLevel": 0,
-    "conditionList": [
-      {
-        "key": "levelId",
-        "val": "20101196"
-      }
-    ],
-    "num": 1,
-    "islockAddProgress": true,
-    "isAutoComplete": true,
-    "checkComplete": true,
-    "isShowReceive": false,
-    "isRefreshProgress": true,
-    "refreshType": "Level",
-    "addProgress": 0,
-    "parentQuest": 81002016,
-    "childQuestList": [],
-    "rewardsList": [],
-    "nextQuest": [],
-    "changeCityStateList": [],
-    "mailList": [],
-    "isEvent": false,
-    "isOverwriteEvent": false,
-    "eventList": [],
-    "environmentList": [],
-    "isTime": false,
-    "startTime": "",
-    "endTime": "",
-    "correspondActivity": -1,
-    "returnNum": 1,
-    "dontShowMain": false,
-    "IsPlotTask": false
-  },
-  {
-    "id": 81002019,
-    "idCN": "子任务/作战中心/汇流塔/汇流塔3",
-    "mod": "基础任务",
-    "isInformalData": false,
-    "name": "",
-    "describe": "",
-    "story": "",
-    "questType": "Side",
-    "questTab": "",
-    "questTabDes": -1,
-    "completeTab": "",
-    "sort": 5,
-    "isShowProgress": false,
-    "isShowUnlock": false,
-    "isShowAchieveProgress": false,
-    "isAnecdote": false,
-    "isFURNQuest": false,
-    "client": -1,
-    "startStation": 83000030,
-    "endStationList": [
-      {
-        "id": 83000030,
-        "weight": 10
-      }
-    ],
-    "isAutoTrace": false,
-    "traceList": [
-      {
-        "apiListId": 86500038,
-        "btnListId": 86500036,
-        "traceId": 86500029,
-        "uiPath": "UI/MainUI/MainUI"
-      },
-      {
-        "apiListId": -1,
-        "btnListId": -1,
-        "traceId": 86500017,
-        "uiPath": "UI/CityMap/CityMap"
-      }
-    ],
-    "isSwitchUI": false,
-    "switchUI": "",
-    "preQuestId": -1,
-    "preLv": 1,
-    "playgroundId": -1,
-    "playgroundLv": 0,
-    "startLevel": 0,
-    "startPrisonLevel": 0,
-    "conditionList": [
-      {
-        "key": "levelId",
-        "val": "20101195"
-      }
-    ],
-    "num": 1,
-    "islockAddProgress": true,
-    "isAutoComplete": true,
-    "checkComplete": true,
-    "isShowReceive": false,
-    "isRefreshProgress": true,
-    "refreshType": "Level",
-    "addProgress": 0,
-    "parentQuest": 81002016,
-    "childQuestList": [],
-    "rewardsList": [],
-    "nextQuest": [],
-    "changeCityStateList": [],
-    "mailList": [],
-    "isEvent": false,
-    "isOverwriteEvent": false,
-    "eventList": [],
-    "environmentList": [],
-    "isTime": false,
-    "startTime": "",
-    "endTime": "",
-    "correspondActivity": -1,
-    "returnNum": 1,
-    "dontShowMain": false,
-    "IsPlotTask": false
-  },
-  {
-    "id": 81002018,
-    "idCN": "子任务/作战中心/汇流塔/汇流塔2",
-    "mod": "基础任务",
-    "isInformalData": false,
-    "name": "",
-    "describe": "",
-    "story": "",
-    "questType": "Side",
-    "questTab": "",
-    "questTabDes": -1,
-    "completeTab": "",
-    "sort": 5,
-    "isShowProgress": false,
-    "isShowUnlock": false,
-    "isShowAchieveProgress": false,
-    "isAnecdote": false,
-    "isFURNQuest": false,
-    "client": -1,
-    "startStation": 83000030,
-    "endStationList": [
-      {
-        "id": 83000030,
-        "weight": 10
-      }
-    ],
-    "isAutoTrace": false,
-    "traceList": [
-      {
-        "apiListId": 86500038,
-        "btnListId": 86500036,
-        "traceId": 86500029,
-        "uiPath": "UI/MainUI/MainUI"
-      },
-      {
-        "apiListId": -1,
-        "btnListId": -1,
-        "traceId": 86500017,
-        "uiPath": "UI/CityMap/CityMap"
-      }
-    ],
-    "isSwitchUI": false,
-    "switchUI": "",
-    "preQuestId": -1,
-    "preLv": 1,
-    "playgroundId": -1,
-    "playgroundLv": 0,
-    "startLevel": 0,
-    "startPrisonLevel": 0,
-    "conditionList": [
-      {
-        "key": "levelId",
-        "val": "20101194"
-      }
-    ],
-    "num": 1,
-    "islockAddProgress": true,
-    "isAutoComplete": true,
-    "checkComplete": true,
-    "isShowReceive": false,
-    "isRefreshProgress": true,
-    "refreshType": "Level",
-    "addProgress": 0,
-    "parentQuest": 81002016,
-    "childQuestList": [],
-    "rewardsList": [],
-    "nextQuest": [],
-    "changeCityStateList": [],
-    "mailList": [],
-    "isEvent": false,
-    "isOverwriteEvent": false,
-    "eventList": [],
-    "environmentList": [],
-    "isTime": false,
-    "startTime": "",
-    "endTime": "",
-    "correspondActivity": -1,
-    "returnNum": 1,
-    "dontShowMain": false,
-    "IsPlotTask": false
-  },
-  {
-    "id": 81002017,
-    "idCN": "子任务/作战中心/汇流塔/汇流塔1",
-    "mod": "基础任务",
-    "isInformalData": false,
-    "name": "",
-    "describe": "",
-    "story": "",
-    "questType": "Side",
-    "questTab": "",
-    "questTabDes": -1,
-    "completeTab": "",
-    "sort": 5,
-    "isShowProgress": false,
-    "isShowUnlock": false,
-    "isShowAchieveProgress": false,
-    "isAnecdote": false,
-    "isFURNQuest": false,
-    "client": -1,
-    "startStation": 83000030,
-    "endStationList": [
-      {
-        "id": 83000030,
-        "weight": 10
-      }
-    ],
-    "isAutoTrace": false,
-    "traceList": [
-      {
-        "apiListId": 86500038,
-        "btnListId": 86500036,
-        "traceId": 86500029,
-        "uiPath": "UI/MainUI/MainUI"
-      },
-      {
-        "apiListId": -1,
-        "btnListId": -1,
-        "traceId": 86500017,
-        "uiPath": "UI/CityMap/CityMap"
-      }
-    ],
-    "isSwitchUI": false,
-    "switchUI": "",
-    "preQuestId": -1,
-    "preLv": 1,
-    "playgroundId": -1,
-    "playgroundLv": 0,
-    "startLevel": 0,
-    "startPrisonLevel": 0,
-    "conditionList": [
-      {
-        "key": "levelId",
-        "val": "20101193"
-      }
-    ],
-    "num": 1,
-    "islockAddProgress": true,
-    "isAutoComplete": true,
-    "checkComplete": true,
-    "isShowReceive": false,
-    "isRefreshProgress": true,
-    "refreshType": "Level",
-    "addProgress": 0,
-    "parentQuest": 81002016,
-    "childQuestList": [],
-    "rewardsList": [],
-    "nextQuest": [],
-    "changeCityStateList": [],
-    "mailList": [],
-    "isEvent": false,
-    "isOverwriteEvent": false,
-    "eventList": [],
-    "environmentList": [],
-    "isTime": false,
-    "startTime": "",
-    "endTime": "",
-    "correspondActivity": -1,
-    "returnNum": 1,
-    "dontShowMain": false,
-    "IsPlotTask": false
-  },
-  {
-    "id": 81002016,
-    "idCN": "支线/作战中心/汇流塔",
-    "mod": "基础任务",
-    "isInformalData": false,
-    "name": "汇流之际",
-    "describe": "于汇流塔完成10个作战计划",
-    "story": "汇流塔是索思学会的重要补给据点，维护它的安全有利于保证附近区域的稳定。请在汇流塔汇流之所完成10个作战计划。",
-    "questType": "Side",
-    "questTab": "",
-    "questTabDes": -1,
-    "completeTab": "",
-    "sort": 5,
-    "isShowProgress": true,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
     "isAnecdote": false,
     "isFURNQuest": false,
     "client": 82600541,
+    "startStation": 83000001,
+    "endStationList": [
+      {
+        "id": 83000001,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": false,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "startLevel": 0,
+    "startPrisonLevel": 0,
+    "conditionList": [
+      {
+        "key": "dialog",
+        "val": "0"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400045,
+        "num": 1
+      }
+    ],
+    "nextQuest": [
+      {
+        "id": 81001960
+      },
+      {
+        "id": 81001995
+      }
+    ],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1,
+    "returnNum": 1,
+    "dontShowMain": false,
+    "IsPlotTask": false
+  },
+  {
+    "id": 81001960,
+    "idCN": "主线/EP6/6-19-副本-父任务",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "我是谁？",
+    "describe": "前往汇流塔，参与战斗",
+    "story": "打倒失控的机器人与雅莱，保全自己。",
+    "questType": "Main",
+    "sort": 0,
+    "isShowProgress": true,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "client": 82600004,
+    "startStation": 83000030,
+    "endStationList": [
+      {
+        "id": 83000030,
+        "weight": 10
+      }
+    ],
+    "traceList": [],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "startLevel": 0,
+    "conditionList": [],
+    "num": 3,
+    "islockAddProgress": false,
+    "isAutoComplete": true,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "parentQuest": -1,
+    "childQuestList": [
+      {
+        "id": 81001995
+      },
+      {
+        "id": 81001996
+      },
+      {
+        "id": 81001997
+      }
+    ],
+    "rewardsList": [
+      {
+        "id": 11400005,
+        "num": 100
+      },
+      {
+        "id": 11400056,
+        "num": 100
+      }
+    ],
+    "nextQuest": [
+      {
+        "id": 81001994
+      }
+    ],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1,
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "isAnecdote": false,
+    "isFURNQuest": false,
+    "isAutoTrace": false,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "startPrisonLevel": 0,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "returnNum": 1,
+    "dontShowMain": false,
+    "IsPlotTask": false
+  },
+  {
+    "id": 81001994,
+    "idCN": "主线/EP6/6-20-对话",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "她的谋划",
+    "describe": "在汇流塔与伊索斯对话",
+    "story": "与伊索斯交换情报，整理状况。",
+    "questType": "Main",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "sort": 0,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "isFURNQuest": false,
+    "client": 82600550,
     "startStation": 83000030,
     "endStationList": [
       {
@@ -134634,63 +133596,349 @@
       }
     ],
     "isAutoTrace": false,
-    "traceList": [],
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500156,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
-    "preLv": 50,
+    "preLv": 1,
     "playgroundId": -1,
     "playgroundLv": 0,
     "startLevel": 0,
     "startPrisonLevel": 0,
-    "conditionList": [],
-    "num": 10,
-    "islockAddProgress": true,
+    "conditionList": [
+      {
+        "key": "dialog",
+        "val": "0"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
     "isAutoComplete": false,
     "checkComplete": false,
-    "isShowReceive": true,
+    "isShowReceive": false,
     "isRefreshProgress": false,
     "refreshType": "Level",
     "addProgress": 0,
     "parentQuest": -1,
-    "childQuestList": [
-      {
-        "id": 81002017
-      },
-      {
-        "id": 81002018
-      },
-      {
-        "id": 81002019
-      },
-      {
-        "id": 81002020
-      },
-      {
-        "id": 81002021
-      },
-      {
-        "id": 81002022
-      },
-      {
-        "id": 81002023
-      },
-      {
-        "id": 81002024
-      },
-      {
-        "id": 81002025
-      },
-      {
-        "id": 81002026
-      }
-    ],
+    "childQuestList": [],
     "rewardsList": [
       {
-        "id": 11400007,
+        "id": 11400066,
         "num": 1
       }
     ],
+    "nextQuest": [
+      {
+        "id": 81001998
+      }
+    ],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1,
+    "returnNum": 1,
+    "dontShowMain": false,
+    "IsPlotTask": false
+  },
+  {
+    "id": 81001995,
+    "idCN": "子任务/EP6/6-19-1-战斗",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "",
+    "describe": "",
+    "story": "",
+    "questType": "Side",
+    "sort": 0,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "client": -1,
+    "startStation": 83000030,
+    "endStationList": [
+      {
+        "id": 83000030,
+        "weight": 10
+      }
+    ],
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500155,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "levelId",
+        "val": "20101181"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": true,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "parentQuest": 81001960,
+    "childQuestList": [],
+    "rewardsList": [],
+    "nextQuest": [
+      {
+        "id": 81001996
+      }
+    ],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1,
+    "questTab": "",
+    "completeTab": "",
+    "isAnecdote": false,
+    "isAutoTrace": false,
+    "preLv": 1,
+    "startPrisonLevel": 0,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "returnNum": 1,
+    "dontShowMain": false,
+    "IsPlotTask": false
+  },
+  {
+    "id": 81001996,
+    "idCN": "子任务/EP6/6-19-2-战斗",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "",
+    "describe": "",
+    "story": "",
+    "questType": "Side",
+    "sort": 0,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "client": -1,
+    "startStation": 83000030,
+    "endStationList": [
+      {
+        "id": 83000030,
+        "weight": 10
+      }
+    ],
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500155,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "levelId",
+        "val": "20101182"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": true,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "parentQuest": 81001960,
+    "childQuestList": [],
+    "rewardsList": [],
+    "nextQuest": [
+      {
+        "id": 81001997
+      }
+    ],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1,
+    "questTab": "",
+    "completeTab": "",
+    "isAnecdote": false,
+    "isAutoTrace": false,
+    "preLv": 1,
+    "startPrisonLevel": 0,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "returnNum": 1,
+    "dontShowMain": false,
+    "IsPlotTask": false
+  },
+  {
+    "id": 81001998,
+    "idCN": "主线/EP6/6-21-对话",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "她的诀别",
+    "describe": "在学社与丽桑德拉对话",
+    "story": "从丽桑德拉那里了解罗洁尔的状况。",
+    "questType": "Main",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "sort": 0,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "isFURNQuest": false,
+    "client": 82600294,
+    "startStation": 83000002,
+    "endStationList": [
+      {
+        "id": 83000002,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": false,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500157,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "startLevel": 0,
+    "startPrisonLevel": 0,
+    "conditionList": [
+      {
+        "key": "dialog",
+        "val": "0"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400217,
+        "num": 1
+      }
+    ],
+    "nextQuest": [
+      {
+        "id": 81001999
+      }
+    ],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1,
+    "returnNum": 1,
+    "dontShowMain": false,
+    "IsPlotTask": false
+  },
+  {
+    "id": 81001999,
+    "idCN": "主线/EP6/6-22-未完待续",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "未完待续",
+    "describe": "主线尚未完结，支线任务等您探索。",
+    "story": "故事尚未完结，丰富的支线任务正在等您探索，列车长的冒险旅途才刚刚开始！",
+    "questType": "Main",
+    "sort": 0,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "client": -1,
+    "startStation": -1,
+    "endStationList": [],
+    "traceList": [],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "startLevel": 0,
+    "conditionList": [],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [],
     "nextQuest": [],
     "changeCityStateList": [],
     "mailList": [],
@@ -134702,6 +133950,95 @@
     "startTime": "",
     "endTime": "",
     "correspondActivity": -1,
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "isAnecdote": false,
+    "isFURNQuest": false,
+    "isAutoTrace": false,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "startPrisonLevel": 0,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "returnNum": 1,
+    "dontShowMain": false,
+    "IsPlotTask": false
+  },
+  {
+    "id": 81001997,
+    "idCN": "子任务/EP6/6-19-3-战斗",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "",
+    "describe": "",
+    "story": "",
+    "questType": "Side",
+    "sort": 0,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "client": -1,
+    "startStation": 83000030,
+    "endStationList": [
+      {
+        "id": 83000030,
+        "weight": 10
+      }
+    ],
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500155,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "levelId",
+        "val": "20101183"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": true,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "parentQuest": 81001960,
+    "childQuestList": [],
+    "rewardsList": [],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1,
+    "questTab": "",
+    "completeTab": "",
+    "isAnecdote": false,
+    "isAutoTrace": false,
+    "preLv": 1,
+    "startPrisonLevel": 0,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
     "returnNum": 1,
     "dontShowMain": false,
     "IsPlotTask": false
@@ -135866,5 +135203,914 @@
     "environmentList": [],
     "correspondActivity": -1,
     "returnNum": 1
+  },
+  {
+    "id": 81002016,
+    "idCN": "支线/作战中心/汇流塔",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "汇流之际",
+    "describe": "于汇流塔完成10个作战计划",
+    "story": "汇流塔是索思学会的重要补给据点，维护它的安全有利于保证附近区域的稳定。请在汇流塔汇流之所完成10个作战计划。",
+    "questType": "Side",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "sort": 5,
+    "isShowProgress": true,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "isFURNQuest": false,
+    "client": 82600541,
+    "startStation": 83000030,
+    "endStationList": [
+      {
+        "id": 83000030,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": false,
+    "traceList": [],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 50,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "startLevel": 0,
+    "startPrisonLevel": 0,
+    "conditionList": [],
+    "num": 10,
+    "islockAddProgress": true,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": true,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "parentQuest": -1,
+    "childQuestList": [
+      {
+        "id": 81002017
+      },
+      {
+        "id": 81002018
+      },
+      {
+        "id": 81002019
+      },
+      {
+        "id": 81002020
+      },
+      {
+        "id": 81002021
+      },
+      {
+        "id": 81002022
+      },
+      {
+        "id": 81002023
+      },
+      {
+        "id": 81002024
+      },
+      {
+        "id": 81002025
+      },
+      {
+        "id": 81002026
+      }
+    ],
+    "rewardsList": [
+      {
+        "id": 11400007,
+        "num": 1
+      }
+    ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1,
+    "returnNum": 1,
+    "dontShowMain": false,
+    "IsPlotTask": false
+  },
+  {
+    "id": 81002017,
+    "idCN": "子任务/作战中心/汇流塔/汇流塔1",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "",
+    "describe": "",
+    "story": "",
+    "questType": "Side",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "sort": 5,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "isFURNQuest": false,
+    "client": -1,
+    "startStation": 83000030,
+    "endStationList": [
+      {
+        "id": 83000030,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": false,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500017,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "startLevel": 0,
+    "startPrisonLevel": 0,
+    "conditionList": [
+      {
+        "key": "levelId",
+        "val": "20101193"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": true,
+    "isAutoComplete": true,
+    "checkComplete": true,
+    "isShowReceive": false,
+    "isRefreshProgress": true,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "parentQuest": 81002016,
+    "childQuestList": [],
+    "rewardsList": [],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1,
+    "returnNum": 1,
+    "dontShowMain": false,
+    "IsPlotTask": false
+  },
+  {
+    "id": 81002018,
+    "idCN": "子任务/作战中心/汇流塔/汇流塔2",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "",
+    "describe": "",
+    "story": "",
+    "questType": "Side",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "sort": 5,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "isFURNQuest": false,
+    "client": -1,
+    "startStation": 83000030,
+    "endStationList": [
+      {
+        "id": 83000030,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": false,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500017,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "startLevel": 0,
+    "startPrisonLevel": 0,
+    "conditionList": [
+      {
+        "key": "levelId",
+        "val": "20101194"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": true,
+    "isAutoComplete": true,
+    "checkComplete": true,
+    "isShowReceive": false,
+    "isRefreshProgress": true,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "parentQuest": 81002016,
+    "childQuestList": [],
+    "rewardsList": [],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1,
+    "returnNum": 1,
+    "dontShowMain": false,
+    "IsPlotTask": false
+  },
+  {
+    "id": 81002019,
+    "idCN": "子任务/作战中心/汇流塔/汇流塔3",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "",
+    "describe": "",
+    "story": "",
+    "questType": "Side",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "sort": 5,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "isFURNQuest": false,
+    "client": -1,
+    "startStation": 83000030,
+    "endStationList": [
+      {
+        "id": 83000030,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": false,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500017,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "startLevel": 0,
+    "startPrisonLevel": 0,
+    "conditionList": [
+      {
+        "key": "levelId",
+        "val": "20101195"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": true,
+    "isAutoComplete": true,
+    "checkComplete": true,
+    "isShowReceive": false,
+    "isRefreshProgress": true,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "parentQuest": 81002016,
+    "childQuestList": [],
+    "rewardsList": [],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1,
+    "returnNum": 1,
+    "dontShowMain": false,
+    "IsPlotTask": false
+  },
+  {
+    "id": 81002020,
+    "idCN": "子任务/作战中心/汇流塔/汇流塔4",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "",
+    "describe": "",
+    "story": "",
+    "questType": "Side",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "sort": 5,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "isFURNQuest": false,
+    "client": -1,
+    "startStation": 83000030,
+    "endStationList": [
+      {
+        "id": 83000030,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": false,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500017,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "startLevel": 0,
+    "startPrisonLevel": 0,
+    "conditionList": [
+      {
+        "key": "levelId",
+        "val": "20101196"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": true,
+    "isAutoComplete": true,
+    "checkComplete": true,
+    "isShowReceive": false,
+    "isRefreshProgress": true,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "parentQuest": 81002016,
+    "childQuestList": [],
+    "rewardsList": [],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1,
+    "returnNum": 1,
+    "dontShowMain": false,
+    "IsPlotTask": false
+  },
+  {
+    "id": 81002021,
+    "idCN": "子任务/作战中心/汇流塔/汇流塔5",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "",
+    "describe": "",
+    "story": "",
+    "questType": "Side",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "sort": 5,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "isFURNQuest": false,
+    "client": -1,
+    "startStation": 83000030,
+    "endStationList": [
+      {
+        "id": 83000030,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": false,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500017,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "startLevel": 0,
+    "startPrisonLevel": 0,
+    "conditionList": [
+      {
+        "key": "levelId",
+        "val": "20101197"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": true,
+    "isAutoComplete": true,
+    "checkComplete": true,
+    "isShowReceive": false,
+    "isRefreshProgress": true,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "parentQuest": 81002016,
+    "childQuestList": [],
+    "rewardsList": [],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1,
+    "returnNum": 1,
+    "dontShowMain": false,
+    "IsPlotTask": false
+  },
+  {
+    "id": 81002022,
+    "idCN": "子任务/作战中心/汇流塔/汇流塔6",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "",
+    "describe": "",
+    "story": "",
+    "questType": "Side",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "sort": 5,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "isFURNQuest": false,
+    "client": -1,
+    "startStation": 83000030,
+    "endStationList": [
+      {
+        "id": 83000030,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": false,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500017,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "startLevel": 0,
+    "startPrisonLevel": 0,
+    "conditionList": [
+      {
+        "key": "levelId",
+        "val": "20101198"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": true,
+    "isAutoComplete": true,
+    "checkComplete": true,
+    "isShowReceive": false,
+    "isRefreshProgress": true,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "parentQuest": 81002016,
+    "childQuestList": [],
+    "rewardsList": [],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1,
+    "returnNum": 1,
+    "dontShowMain": false,
+    "IsPlotTask": false
+  },
+  {
+    "id": 81002023,
+    "idCN": "子任务/作战中心/汇流塔/汇流塔7",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "",
+    "describe": "",
+    "story": "",
+    "questType": "Side",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "sort": 5,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "isFURNQuest": false,
+    "client": -1,
+    "startStation": 83000030,
+    "endStationList": [
+      {
+        "id": 83000030,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": false,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500017,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "startLevel": 0,
+    "startPrisonLevel": 0,
+    "conditionList": [
+      {
+        "key": "levelId",
+        "val": "20101199"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": true,
+    "isAutoComplete": true,
+    "checkComplete": true,
+    "isShowReceive": false,
+    "isRefreshProgress": true,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "parentQuest": 81002016,
+    "childQuestList": [],
+    "rewardsList": [],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1,
+    "returnNum": 1,
+    "dontShowMain": false,
+    "IsPlotTask": false
+  },
+  {
+    "id": 81002024,
+    "idCN": "子任务/作战中心/汇流塔/汇流塔8",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "",
+    "describe": "",
+    "story": "",
+    "questType": "Side",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "sort": 5,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "isFURNQuest": false,
+    "client": -1,
+    "startStation": 83000030,
+    "endStationList": [
+      {
+        "id": 83000030,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": false,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500017,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "startLevel": 0,
+    "startPrisonLevel": 0,
+    "conditionList": [
+      {
+        "key": "levelId",
+        "val": "20101200"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": true,
+    "isAutoComplete": true,
+    "checkComplete": true,
+    "isShowReceive": false,
+    "isRefreshProgress": true,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "parentQuest": 81002016,
+    "childQuestList": [],
+    "rewardsList": [],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1,
+    "returnNum": 1,
+    "dontShowMain": false,
+    "IsPlotTask": false
+  },
+  {
+    "id": 81002025,
+    "idCN": "子任务/作战中心/汇流塔/汇流塔9",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "",
+    "describe": "",
+    "story": "",
+    "questType": "Side",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "sort": 5,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "isFURNQuest": false,
+    "client": -1,
+    "startStation": 83000030,
+    "endStationList": [
+      {
+        "id": 83000030,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": false,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500017,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "startLevel": 0,
+    "startPrisonLevel": 0,
+    "conditionList": [
+      {
+        "key": "levelId",
+        "val": "20101201"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": true,
+    "isAutoComplete": true,
+    "checkComplete": true,
+    "isShowReceive": false,
+    "isRefreshProgress": true,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "parentQuest": 81002016,
+    "childQuestList": [],
+    "rewardsList": [],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1,
+    "returnNum": 1,
+    "dontShowMain": false,
+    "IsPlotTask": false
+  },
+  {
+    "id": 81002026,
+    "idCN": "子任务/作战中心/汇流塔/汇流塔10",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "",
+    "describe": "",
+    "story": "",
+    "questType": "Side",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "sort": 5,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "isFURNQuest": false,
+    "client": -1,
+    "startStation": 83000030,
+    "endStationList": [
+      {
+        "id": 83000030,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": false,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500017,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "startLevel": 0,
+    "startPrisonLevel": 0,
+    "conditionList": [
+      {
+        "key": "levelId",
+        "val": "20101202"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": true,
+    "isAutoComplete": true,
+    "checkComplete": true,
+    "isShowReceive": false,
+    "isRefreshProgress": true,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "parentQuest": 81002016,
+    "childQuestList": [],
+    "rewardsList": [],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1,
+    "returnNum": 1,
+    "dontShowMain": false,
+    "IsPlotTask": false
   }
 ]

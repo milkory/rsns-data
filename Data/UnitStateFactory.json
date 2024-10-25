@@ -93133,9 +93133,9 @@
     "viewId": 11000234,
     "aniName": "skill_02_02",
     "isLoop": false,
-    "aniTime_SN": 5000,
-    "totalFrame": 30,
-    "customFrameTag": "FinalAtkDuration",
+    "aniTime_SN": 2500,
+    "totalFrame": 15,
+    "customFrameTag": "",
     "frameChanged": true,
     "frameEventList": [
       {
@@ -93148,19 +93148,25 @@
         "y_SN": 0
       },
       {
+        "customDataTag": "",
+        "excuteTimes": 10000,
         "frameEventId": 10500664,
         "hHalf_SN": 0,
-        "triggerFrame": 2,
-        "triggerTime_SN": 167,
+        "timesSource": "FixedValue",
+        "triggerFrame": 1,
+        "triggerTime_SN": 0,
         "wHalf_SN": 0,
         "x_SN": 0,
         "y_SN": 0
       },
       {
+        "customDataTag": "",
+        "excuteTimes": 10000,
         "frameEventId": 10500595,
         "hHalf_SN": 0,
+        "timesSource": "FixedValue",
         "triggerFrame": 15,
-        "triggerTime_SN": 5833,
+        "triggerTime_SN": 2500,
         "wHalf_SN": 0,
         "x_SN": 0,
         "y_SN": 0
@@ -93178,8 +93184,8 @@
     "soundList": [
       {
         "soundId": 30002219,
-        "triggerFrame": 5,
-        "triggerTime_SN": 833
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
       }
     ],
     "isYChange": false,
@@ -93237,17 +93243,7 @@
     "totalFrame": 30,
     "customFrameTag": "",
     "frameChanged": true,
-    "frameEventList": [
-      {
-        "frameEventId": 10502144,
-        "hHalf_SN": 0,
-        "triggerFrame": 1,
-        "triggerTime_SN": 0,
-        "wHalf_SN": 0,
-        "x_SN": 0,
-        "y_SN": 0
-      }
-    ],
+    "frameEventList": [],
     "effectList": [
       {
         "effectId": 11104725,
@@ -181045,6 +181041,568 @@
     ],
     "effectList": [],
     "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203908,
+    "idCN": "深渊/06期/卡塔斯/S-0_攻击",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "SpecialSkill",
+    "viewId": 11000004,
+    "aniName": "skill_03",
+    "isLoop": false,
+    "aniTime_SN": 7500,
+    "totalFrame": 45,
+    "customFrameTag": "",
+    "frameChanged": true,
+    "frameEventList": [
+      {
+        "customDataTag": "",
+        "excuteTimes": 10000,
+        "frameEventId": 10500790,
+        "hHalf_SN": 10000,
+        "timesSource": "FixedValue",
+        "triggerFrame": 5,
+        "triggerTime_SN": 833,
+        "wHalf_SN": 20000,
+        "x_SN": 20000,
+        "y_SN": 10000
+      },
+      {
+        "frameEventId": 10501166,
+        "hHalf_SN": 10000,
+        "triggerFrame": 5,
+        "triggerTime_SN": 833,
+        "wHalf_SN": 20000,
+        "x_SN": 20000,
+        "y_SN": 10000
+      },
+      {
+        "frameEventId": 10501166,
+        "hHalf_SN": 10000,
+        "triggerFrame": 23,
+        "triggerTime_SN": 3832,
+        "wHalf_SN": 20000,
+        "x_SN": 20000,
+        "y_SN": 10000
+      },
+      {
+        "frameEventId": 10501166,
+        "hHalf_SN": 10000,
+        "triggerFrame": 41,
+        "triggerTime_SN": 6833,
+        "wHalf_SN": 20000,
+        "x_SN": 20000,
+        "y_SN": 10000
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11100247,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 4,
+        "triggerTime_SN": 667
+      },
+      {
+        "effectId": 11104912,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 4,
+        "triggerTime_SN": 667
+      },
+      {
+        "effectId": 11101474,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11101484,
+        "offsetX": 3.0,
+        "offsetY": 1.0,
+        "triggerFrame": 5,
+        "triggerTime_SN": 833
+      },
+      {
+        "effectId": 11101484,
+        "offsetX": 3.0,
+        "offsetY": 1.0,
+        "triggerFrame": 14,
+        "triggerTime_SN": 2333
+      },
+      {
+        "effectId": 11101484,
+        "offsetX": 3.0,
+        "offsetY": 1.0,
+        "triggerFrame": 23,
+        "triggerTime_SN": 3833
+      },
+      {
+        "effectId": 11101484,
+        "offsetX": 3.0,
+        "offsetY": 1.0,
+        "triggerFrame": 32,
+        "triggerTime_SN": 5333
+      },
+      {
+        "effectId": 11101484,
+        "offsetX": 3.0,
+        "offsetY": 1.0,
+        "triggerFrame": 41,
+        "triggerTime_SN": 6833
+      }
+    ],
+    "soundList": [
+      {
+        "soundId": 30000427,
+        "triggerFrame": 101,
+        "triggerTime_SN": 16833
+      },
+      {
+        "soundId": 30000082,
+        "triggerFrame": 4,
+        "triggerTime_SN": 0
+      }
+    ],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203913,
+    "idCN": "深渊/06期/卡塔斯/S-1_攻击",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "SpecialSkill",
+    "viewId": 11000004,
+    "aniName": "skill_04",
+    "isLoop": false,
+    "aniTime_SN": 7500,
+    "totalFrame": 45,
+    "customFrameTag": "",
+    "frameChanged": true,
+    "frameEventList": [
+      {
+        "frameEventId": 10500993,
+        "hHalf_SN": 10000,
+        "triggerFrame": 5,
+        "triggerTime_SN": 833,
+        "wHalf_SN": 20000,
+        "x_SN": 20000,
+        "y_SN": 10000
+      },
+      {
+        "frameEventId": 10501156,
+        "hHalf_SN": 10000,
+        "triggerFrame": 5,
+        "triggerTime_SN": 833,
+        "wHalf_SN": 20000,
+        "x_SN": 20000,
+        "y_SN": 10000
+      },
+      {
+        "frameEventId": 10501156,
+        "hHalf_SN": 10000,
+        "triggerFrame": 23,
+        "triggerTime_SN": 3832,
+        "wHalf_SN": 20000,
+        "x_SN": 20000,
+        "y_SN": 10000
+      },
+      {
+        "frameEventId": 10501156,
+        "hHalf_SN": 10000,
+        "triggerFrame": 41,
+        "triggerTime_SN": 6833,
+        "wHalf_SN": 20000,
+        "x_SN": 20000,
+        "y_SN": 10000
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11100250,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 4,
+        "triggerTime_SN": 667
+      },
+      {
+        "effectId": 11104912,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 4,
+        "triggerTime_SN": 667
+      },
+      {
+        "effectId": 11101475,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11101484,
+        "offsetX": 3.0,
+        "offsetY": 1.0,
+        "triggerFrame": 5,
+        "triggerTime_SN": 833
+      },
+      {
+        "effectId": 11101484,
+        "offsetX": 3.0,
+        "offsetY": 1.0,
+        "triggerFrame": 14,
+        "triggerTime_SN": 2333
+      },
+      {
+        "effectId": 11101484,
+        "offsetX": 3.0,
+        "offsetY": 1.0,
+        "triggerFrame": 23,
+        "triggerTime_SN": 3833
+      },
+      {
+        "effectId": 11101484,
+        "offsetX": 3.0,
+        "offsetY": 1.0,
+        "triggerFrame": 32,
+        "triggerTime_SN": 5333
+      },
+      {
+        "effectId": 11101484,
+        "offsetX": 3.0,
+        "offsetY": 1.0,
+        "triggerFrame": 41,
+        "triggerTime_SN": 6833
+      }
+    ],
+    "soundList": [],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203914,
+    "idCN": "深渊/06期/卡塔斯/S-2_攻击",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "SpecialSkill",
+    "viewId": 11000004,
+    "aniName": "skill_05",
+    "isLoop": false,
+    "aniTime_SN": 22333,
+    "totalFrame": 134,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "customDataTag": "",
+        "excuteTimes": 10000,
+        "frameEventId": 10502521,
+        "hHalf_SN": 10000,
+        "timesSource": "FixedValue",
+        "triggerFrame": 5,
+        "triggerTime_SN": 833,
+        "wHalf_SN": 20000,
+        "x_SN": 20000,
+        "y_SN": 10000
+      },
+      {
+        "frameEventId": 10501115,
+        "hHalf_SN": 10000,
+        "triggerFrame": 5,
+        "triggerTime_SN": 833,
+        "wHalf_SN": 20000,
+        "x_SN": 20000,
+        "y_SN": 10000
+      },
+      {
+        "frameEventId": 10501115,
+        "hHalf_SN": 10000,
+        "triggerFrame": 23,
+        "triggerTime_SN": 3832,
+        "wHalf_SN": 20000,
+        "x_SN": 20000,
+        "y_SN": 10000
+      },
+      {
+        "frameEventId": 10501115,
+        "hHalf_SN": 10000,
+        "triggerFrame": 41,
+        "triggerTime_SN": 6833,
+        "wHalf_SN": 20000,
+        "x_SN": 20000,
+        "y_SN": 10000
+      },
+      {
+        "customDataTag": "",
+        "excuteTimes": 10000,
+        "frameEventId": 10502522,
+        "hHalf_SN": 0,
+        "timesSource": "FixedValue",
+        "triggerFrame": 52,
+        "triggerTime_SN": 8667,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "customDataTag": "",
+        "excuteTimes": 10000,
+        "frameEventId": 10501604,
+        "hHalf_SN": 0,
+        "timesSource": "FixedValue",
+        "triggerFrame": 41,
+        "triggerTime_SN": 6833,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "customDataTag": "",
+        "excuteTimes": 10000,
+        "frameEventId": 10501885,
+        "hHalf_SN": 0,
+        "timesSource": "FixedValue",
+        "triggerFrame": 60,
+        "triggerTime_SN": 0,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11100251,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 4,
+        "triggerTime_SN": 667
+      },
+      {
+        "effectId": 11104912,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 4,
+        "triggerTime_SN": 667
+      },
+      {
+        "effectId": 11101476,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11101484,
+        "offsetX": 3.0,
+        "offsetY": 1.0,
+        "triggerFrame": 5,
+        "triggerTime_SN": 833
+      },
+      {
+        "effectId": 11101484,
+        "offsetX": 3.0,
+        "offsetY": 1.0,
+        "triggerFrame": 14,
+        "triggerTime_SN": 2333
+      },
+      {
+        "effectId": 11101484,
+        "offsetX": 3.0,
+        "offsetY": 1.0,
+        "triggerFrame": 23,
+        "triggerTime_SN": 3833
+      },
+      {
+        "effectId": 11101484,
+        "offsetX": 3.0,
+        "offsetY": 1.0,
+        "triggerFrame": 32,
+        "triggerTime_SN": 5333
+      },
+      {
+        "effectId": 11101484,
+        "offsetX": 3.0,
+        "offsetY": 1.0,
+        "triggerFrame": 41,
+        "triggerTime_SN": 6833
+      }
+    ],
+    "soundList": [
+      {
+        "soundId": 30000035,
+        "triggerFrame": 53,
+        "triggerTime_SN": 0
+      }
+    ],
+    "isYChange": false,
+    "offsetYList": [],
+    "speed_SN": 0,
+    "speedY_SN": 0,
+    "keyFrameList": [],
+    "isSetSortingOrder": false,
+    "sortingOrder": 0
+  },
+  {
+    "id": 10203915,
+    "idCN": "深渊/06期/卡塔斯/S-3",
+    "mod": "基础状态",
+    "isInformalData": false,
+    "actionLevel": "SpecialSkill",
+    "viewId": 11000004,
+    "aniName": "skill_06",
+    "isLoop": false,
+    "aniTime_SN": 23000,
+    "totalFrame": 138,
+    "customFrameTag": "",
+    "frameChanged": false,
+    "frameEventList": [
+      {
+        "frameEventId": 10501140,
+        "hHalf_SN": 10000,
+        "triggerFrame": 74,
+        "triggerTime_SN": 16167,
+        "wHalf_SN": 120000,
+        "x_SN": 0,
+        "y_SN": 10000
+      },
+      {
+        "customDataTag": "",
+        "excuteTimes": 10000,
+        "frameEventId": 10501497,
+        "hHalf_SN": 0,
+        "timesSource": "FixedValue",
+        "triggerFrame": 75,
+        "triggerTime_SN": 16333,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "frameEventId": 10501604,
+        "hHalf_SN": 0,
+        "triggerFrame": 75,
+        "triggerTime_SN": 12500,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      },
+      {
+        "customDataTag": "",
+        "excuteTimes": 10000,
+        "frameEventId": 10502523,
+        "hHalf_SN": 0,
+        "timesSource": "FixedValue",
+        "triggerFrame": 75,
+        "triggerTime_SN": 12500,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      }
+    ],
+    "effectList": [
+      {
+        "effectId": 11101900,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11101894,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 0,
+        "triggerTime_SN": 667
+      },
+      {
+        "effectId": 11101901,
+        "offsetX": -1.0,
+        "offsetY": 3.2,
+        "triggerFrame": 5,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11101898,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 22,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11100840,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 73,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11101898,
+        "offsetX": 0.5,
+        "offsetY": 0.0,
+        "triggerFrame": 72,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11101440,
+        "offsetX": 2.5,
+        "offsetY": 0.0,
+        "triggerFrame": 75,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11101465,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 71,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11101464,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 73,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11103871,
+        "offsetX": 2.0,
+        "offsetY": 0.0,
+        "triggerFrame": 72,
+        "triggerTime_SN": 0
+      }
+    ],
+    "soundList": [
+      {
+        "soundId": 30002957,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      },
+      {
+        "soundId": 30000079,
+        "triggerFrame": 3,
+        "triggerTime_SN": 0
+      }
+    ],
     "isYChange": false,
     "offsetYList": [],
     "speed_SN": 0,
