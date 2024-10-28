@@ -39971,7 +39971,7 @@
     "isInformalData": false,
     "name": "隼",
     "EnglishName": "Hayabusa",
-    "viewId": 11000156,
+    "viewId": 11000416,
     "skinList": [],
     "sideId": 12600023,
     "controllerId": 10300230,
@@ -54497,7 +54497,7 @@
   },
   {
     "id": 10000281,
-    "idCN": "爬塔/人形单位/劫掠者·执锯-3",
+    "idCN": "爬塔/人形单位/劫掠者·执锯-5",
     "mod": "敌方角色",
     "isInformalData": false,
     "name": "劫掠者·执锯",
@@ -55108,7 +55108,7 @@
   },
   {
     "id": 10000285,
-    "idCN": "爬塔/人形单位/劫掠者·执锯-2",
+    "idCN": "爬塔/人形单位/劫掠者·执锯-4",
     "mod": "敌方角色",
     "isInformalData": false,
     "name": "劫掠者·执锯",
@@ -55164,6 +55164,12 @@
       },
       {
         "skillId": 12300879
+      },
+      {
+        "skillId": 12301998
+      },
+      {
+        "skillId": 12301999
       },
       {
         "skillId": 12300975
@@ -55247,6 +55253,7 @@
     "hitAreaY_SN": 25000,
     "hitAreaHalfWidth_SN": 25000,
     "hitAreaHalfHeight_SN": 20000,
+    "canOverMaxSpeed": false,
     "battleDes": "",
     "safeInformation": "",
     "unitInformation": "",
@@ -55257,11 +55264,12 @@
     "enemyType": 12601048,
     "enemyCamp": 12601045,
     "enemyBookId": 10000255,
-    "prisonerDrop": []
+    "prisonerDrop": [],
+    "enemySkillList": []
   },
   {
     "id": 10000286,
-    "idCN": "爬塔/人形单位/劫掠者·执锯-1",
+    "idCN": "爬塔/人形单位/劫掠者·执锯-3",
     "mod": "敌方角色",
     "isInformalData": false,
     "name": "劫掠者·执锯",
@@ -55269,7 +55277,7 @@
     "viewId": 11000305,
     "skinList": [],
     "sideId": 12600907,
-    "controllerId": 10300314,
+    "controllerId": 10300480,
     "bulletControllerList": [],
     "isBoss": true,
     "bossHpTemp": 90100011,
@@ -55317,6 +55325,12 @@
       },
       {
         "skillId": 12300879
+      },
+      {
+        "skillId": 12301998
+      },
+      {
+        "skillId": 12301999
       },
       {
         "skillId": 12300975
@@ -55397,6 +55411,7 @@
     "hitAreaY_SN": 25000,
     "hitAreaHalfWidth_SN": 25000,
     "hitAreaHalfHeight_SN": 20000,
+    "canOverMaxSpeed": false,
     "battleDes": "",
     "safeInformation": "",
     "unitInformation": "",
@@ -55407,7 +55422,8 @@
     "enemyType": 12601048,
     "enemyCamp": 12601045,
     "enemyBookId": 10000255,
-    "prisonerDrop": []
+    "prisonerDrop": [],
+    "enemySkillList": []
   },
   {
     "id": 10000291,
@@ -67251,6 +67267,9 @@
       },
       {
         "unitViewId": 11000370
+      },
+      {
+        "unitViewId": 11000423
       }
     ],
     "sideId": 12600035,
@@ -67497,6 +67516,10 @@
       {
         "file": 80303520,
         "skinId": 11000370
+      },
+      {
+        "file": 80304587,
+        "skinId": 11000423
       }
     ],
     "age": 0,
@@ -87466,5 +87489,312 @@
         "id": 80304594
       }
     ]
+  },
+  {
+    "id": 10000544,
+    "idCN": "爬塔/人形单位/劫掠者·执锯-2",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "劫掠者·执锯",
+    "EnglishName": "Looter-in-Chief",
+    "viewId": 11000305,
+    "skinList": [],
+    "sideId": 12600907,
+    "controllerId": 10300480,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": 90100011,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600278
+      },
+      {
+        "tagId": 12601075
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301411
+      },
+      {
+        "skillId": 12301431
+      },
+      {
+        "skillId": 12301410
+      },
+      {
+        "skillId": 12301369
+      },
+      {
+        "skillId": 12301432
+      },
+      {
+        "skillId": 12301413
+      },
+      {
+        "skillId": 12301618
+      },
+      {
+        "skillId": 12300508
+      },
+      {
+        "skillId": 12300879
+      },
+      {
+        "skillId": 12301998
+      },
+      {
+        "skillId": 12301999
+      }
+    ],
+    "hp_SN": 1650000000,
+    "def_SN": 650000,
+    "atk_SN": 800000,
+    "atkSpeed_SN": 1500000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000358,
+    "growthTagList": [
+      {
+        "growthTagId": 12000353
+      },
+      {
+        "growthTagId": 12000060
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800292
+      },
+      {
+        "talentId": 12800293
+      },
+      {
+        "talentId": 12800294
+      },
+      {
+        "talentId": 12800295
+      },
+      {
+        "talentId": 12800296
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10102723,
+    "actionMoveID": 10102721,
+    "actionAttackedID": 10102722,
+    "actionAttackedBackID": 10102724,
+    "actionKnockUpID": -1,
+    "actionStunID": 10102720,
+    "actionDeadID": 10102725,
+    "actionVictoryID": -1,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 30000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 25000,
+    "hitAreaHalfWidth_SN": 25000,
+    "hitAreaHalfHeight_SN": 20000,
+    "canOverMaxSpeed": false,
+    "battleDes": "",
+    "safeInformation": "",
+    "unitInformation": "",
+    "enemyDrop": [],
+    "abilityList": [],
+    "weaknessList": [],
+    "resistanceList": [],
+    "enemyType": 12601048,
+    "enemyCamp": 12601045,
+    "enemyBookId": 10000255,
+    "prisonerDrop": [],
+    "enemySkillList": []
+  },
+  {
+    "id": 10000547,
+    "idCN": "爬塔/人形单位/劫掠者·执锯-1",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "劫掠者·执锯",
+    "EnglishName": "Looter-in-Chief",
+    "viewId": 11000305,
+    "skinList": [],
+    "sideId": 12600907,
+    "controllerId": 10300480,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": 90100011,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600278
+      },
+      {
+        "tagId": 12601075
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301411
+      },
+      {
+        "skillId": 12301431
+      },
+      {
+        "skillId": 12301410
+      },
+      {
+        "skillId": 12301369
+      },
+      {
+        "skillId": 12301432
+      },
+      {
+        "skillId": 12301413
+      },
+      {
+        "skillId": 12301618
+      },
+      {
+        "skillId": 12300508
+      },
+      {
+        "skillId": 12300879
+      },
+      {
+        "skillId": 12301998
+      }
+    ],
+    "hp_SN": 1650000000,
+    "def_SN": 650000,
+    "atk_SN": 800000,
+    "atkSpeed_SN": 1500000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000358,
+    "growthTagList": [
+      {
+        "growthTagId": 12000353
+      },
+      {
+        "growthTagId": 12000060
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800292
+      },
+      {
+        "talentId": 12800293
+      },
+      {
+        "talentId": 12800294
+      },
+      {
+        "talentId": 12800295
+      },
+      {
+        "talentId": 12800296
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10102723,
+    "actionMoveID": 10102721,
+    "actionAttackedID": 10102722,
+    "actionAttackedBackID": 10102724,
+    "actionKnockUpID": -1,
+    "actionStunID": 10102720,
+    "actionDeadID": 10102725,
+    "actionVictoryID": -1,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 30000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 25000,
+    "hitAreaHalfWidth_SN": 25000,
+    "hitAreaHalfHeight_SN": 20000,
+    "canOverMaxSpeed": false,
+    "battleDes": "",
+    "safeInformation": "",
+    "unitInformation": "",
+    "enemyDrop": [],
+    "abilityList": [],
+    "weaknessList": [],
+    "resistanceList": [],
+    "enemyType": 12601048,
+    "enemyCamp": 12601045,
+    "enemyBookId": 10000255,
+    "prisonerDrop": [],
+    "enemySkillList": []
   }
 ]

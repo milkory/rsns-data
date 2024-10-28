@@ -49543,27 +49543,20 @@
     "filterStance": "DeafaultStance",
     "filterPosition": "DefaultPos",
     "isAimSelf": false,
-    "targetCount": 30,
+    "targetCount": 1,
     "distance_SN": 240000,
     "radius_SN": 0,
     "isCustomRadius": false,
     "radiusTag": "",
     "damageHitBuffList": [],
     "healHitBuffList": [],
-    "cdFrame": 57,
+    "cdFrame": 60,
     "isUseBigNumber": false,
     "stateIdList": [
       {
         "bPlayTimes": false,
         "customDataTag": "",
         "stateId": 10200492,
-        "timesRate_SN": 10000,
-        "timesSource": "FixedValue"
-      },
-      {
-        "bPlayTimes": false,
-        "customDataTag": "",
-        "stateId": 10202008,
         "timesRate_SN": 10000,
         "timesSource": "FixedValue"
       }
@@ -49595,14 +49588,14 @@
     "filterStance": "DeafaultStance",
     "filterPosition": "DefaultPos",
     "isAimSelf": false,
-    "targetCount": 30,
+    "targetCount": 1,
     "distance_SN": 240000,
     "radius_SN": 0,
     "isCustomRadius": false,
     "radiusTag": "",
     "damageHitBuffList": [],
     "healHitBuffList": [],
-    "cdFrame": 110,
+    "cdFrame": 91,
     "isUseBigNumber": false,
     "stateIdList": [
       {
@@ -49611,13 +49604,6 @@
         "stateId": 10200900,
         "timesRate_SN": 10000,
         "timesSource": "CurrentHp"
-      },
-      {
-        "bPlayTimes": false,
-        "customDataTag": "",
-        "stateId": 10200949,
-        "timesRate_SN": 10000,
-        "timesSource": "FixedValue"
       }
     ],
     "backShakeFrame": 30
@@ -74533,7 +74519,7 @@
     "radiusTag": "",
     "damageHitBuffList": [],
     "healHitBuffList": [],
-    "cdFrame": 345,
+    "cdFrame": 162,
     "isUseBigNumber": false,
     "stateIdList": [
       {
@@ -74606,7 +74592,7 @@
     "radiusTag": "",
     "damageHitBuffList": [],
     "healHitBuffList": [],
-    "cdFrame": 167,
+    "cdFrame": 124,
     "isUseBigNumber": false,
     "stateIdList": [
       {
@@ -145485,6 +145471,58 @@
         "customDataTag": "",
         "stateId": 10203915,
         "timesRate_SN": 10000,
+        "timesSource": "FixedValue"
+      }
+    ],
+    "backShakeFrame": -1
+  },
+  {
+    "id": 10103465,
+    "idCN": "爬塔/人形单位/劫掠王/增幅5火种",
+    "mod": "基础动作",
+    "isInformalData": false,
+    "isCharge": false,
+    "isSkill": false,
+    "actionLevel": "System",
+    "isUseTargetFilter": true,
+    "isIgnoreInvisibleEnemy": true,
+    "targetType": "Self",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 120000,
+    "attributeType": "HpMax",
+    "condition": "All",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 1,
+    "distance_SN": 240000,
+    "radius_SN": 0,
+    "isCustomRadius": false,
+    "radiusTag": "",
+    "damageHitBuffList": [],
+    "healHitBuffList": [],
+    "cdFrame": 336,
+    "isUseBigNumber": false,
+    "stateIdList": [
+      {
+        "bPlayTimes": false,
+        "customDataTag": "",
+        "stateId": 10203916,
+        "timesRate_SN": 10000,
+        "timesSource": "CurrentHp"
+      },
+      {
+        "bPlayTimes": true,
+        "customDataTag": "",
+        "stateId": 10203917,
+        "timesRate_SN": 9990000,
         "timesSource": "FixedValue"
       }
     ],

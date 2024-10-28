@@ -19994,7 +19994,7 @@
   },
   {
     "id": 11000273,
-    "idCN": "敌方/000角色/遥",
+    "idCN": "敌方/000角色/商会/遥",
     "mod": "Spine",
     "isInformalData": false,
     "hpBarOffsetX": 0.0,
@@ -20027,11 +20027,15 @@
     "character": 10000027,
     "SkinName": "",
     "quality": "Blue",
+    "ownExclusiveVoice": false,
     "isSpine2": 0,
     "SkinDesc": "",
+    "HomeresDir": "",
+    "singleUrl": "",
     "GetWay": "-1",
     "offsetX": 14.7,
     "offsetY": -346.0,
+    "offsetScale": 1.0,
     "offsetX2": 0.0,
     "offsetY2": 0.0,
     "squadsX": 0.0,
@@ -20040,6 +20044,15 @@
     "spineY": 0.0,
     "spineScale": 1.0,
     "squadsHalf1": "RolePlus/Haruka/Squads_Half1",
+    "extraSpineList": [],
+    "clickEffectLayer": "Front",
+    "frontFixEffectUrl": "",
+    "bottomFixEffectUrl": "",
+    "clickHideFixEffect": "None",
+    "SpineBackground": "",
+    "SpineBGX": 0.0,
+    "SpineBGY": 0.0,
+    "SpineBGScale": 0.01,
     "State2Name": "",
     "State2Desc": "",
     "State2Face": "",
@@ -20047,18 +20060,26 @@
     "State2Res": "",
     "State2RoleListRes": "",
     "squadsHalf2": "",
+    "gachaSpine2Url": "",
     "spine2Url": "",
+    "gachaPerformUrl": "",
     "spine2EffectUrl": "",
     "spine2BgUrl": "",
+    "state2Overturn": false,
     "spine2Scale": 125.0,
     "spine2X": 0.0,
     "spine2Y": 0.0,
-    "gachaSpine2Url": "",
     "profilePhotoID": 82600266,
     "State2profilePhotoID": -1,
     "rewardList": [],
     "iconPath": "",
-    "tipsPath": ""
+    "tipsPath": "",
+    "ProfilePhotoList": [],
+    "skinBattlePass": -1,
+    "bookHalf": "",
+    "bookFull": "",
+    "bookX": 0.0,
+    "bookY": 0.0
   },
   {
     "id": 11000274,
@@ -30592,7 +30613,7 @@
     "a": 255,
     "effectScale": 1.0,
     "gachaVoice": -1,
-    "mainUIVoice": -1,
+    "mainUIVoice": 30005140,
     "face": "RolePlus/Anfiya/JK/Face",
     "gacha": "RolePlus/Anfiya/JK/Gacha",
     "resUrl": "RolePlus/Anfiya/JK/Full",
@@ -30634,14 +30655,6 @@
         "effectId": 11105884
       },
       {
-        "changeEffectId": 11105968,
-        "effectId": 11105886
-      },
-      {
-        "changeEffectId": 11105968,
-        "effectId": 11105886
-      },
-      {
         "changeEffectId": 11105945,
         "effectId": 11105882
       },
@@ -30662,24 +30675,12 @@
         "effectId": 11105889
       },
       {
-        "changeEffectId": 11105936,
-        "effectId": 11105915
-      },
-      {
-        "changeEffectId": 11105940,
-        "effectId": 11105916
-      },
-      {
         "changeEffectId": 11105976,
         "effectId": 11105893
       },
       {
         "changeEffectId": 11105966,
         "effectId": 11105892
-      },
-      {
-        "changeEffectId": 11105957,
-        "effectId": 11105894
       },
       {
         "changeEffectId": 11105967,
@@ -36910,7 +36911,7 @@
   },
   {
     "id": 11000416,
-    "idCN": "敌方/000角色/隼",
+    "idCN": "敌方/000角色/黑月/隼",
     "mod": "Spine",
     "isInformalData": false,
     "hpBarOffsetX": 0.0,
@@ -37709,28 +37710,126 @@
     "a": 255,
     "effectScale": 1.0,
     "gachaVoice": 30005167,
-    "mainUIVoice": 30005168,
-    "face": "RolePlus/Anfiya/Face",
+    "mainUIVoice": 30005411,
+    "face": "RolePlus/Anfiya/Halloween/Face",
     "gacha": "RolePlus/Anfiya/Gacha",
-    "resUrl": "RolePlus/Anfiya/Full",
-    "roleListResUrl": "RolePlus/Anfiya/Half",
+    "resUrl": "RolePlus/Anfiya/Halloween/Full",
+    "roleListResUrl": "RolePlus/Anfiya/Halloween/Half",
     "spineUrl": "Spine/Portrait/LH_Anfiya_Halloween/LH_Anfiya_Halloween_SkeletonData",
     "clickEffectUrl": "",
     "plotResList": [],
-    "exchangeEffectList": [],
-    "exchangeBulletList": [],
+    "exchangeEffectList": [
+      {
+        "changeEffectId": 11103053,
+        "effectId": 11105870
+      },
+      {
+        "changeEffectId": 11106579,
+        "effectId": 11105873
+      },
+      {
+        "changeEffectId": 11106565,
+        "effectId": 11105872
+      },
+      {
+        "changeEffectId": 11102437,
+        "effectId": 11105875
+      },
+      {
+        "changeEffectId": 11102423,
+        "effectId": 11105871
+      },
+      {
+        "changeEffectId": 11102420,
+        "effectId": 11105883
+      },
+      {
+        "changeEffectId": 11103054,
+        "effectId": 11105885
+      },
+      {
+        "changeEffectId": 11102390,
+        "effectId": 11105884
+      },
+      {
+        "changeEffectId": 11102444,
+        "effectId": 11105882
+      },
+      {
+        "changeEffectId": 11102414,
+        "effectId": 11105887
+      },
+      {
+        "changeEffectId": 11106584,
+        "effectId": 11105888
+      },
+      {
+        "changeEffectId": 11102422,
+        "effectId": 11105890
+      },
+      {
+        "changeEffectId": 11106582,
+        "effectId": 11105889
+      },
+      {
+        "changeEffectId": 11106581,
+        "effectId": 11105893
+      },
+      {
+        "changeEffectId": 11106577,
+        "effectId": 11105892
+      },
+      {
+        "changeEffectId": 11106578,
+        "effectId": 11105891
+      },
+      {
+        "changeEffectId": 11106583,
+        "effectId": 11105895
+      },
+      {
+        "changeEffectId": 11106558,
+        "effectId": 11105877
+      },
+      {
+        "changeEffectId": 11102424,
+        "effectId": 11105878
+      },
+      {
+        "changeEffectId": 11105137,
+        "effectId": 11105879
+      },
+      {
+        "changeEffectId": 11102396,
+        "effectId": 11105880
+      }
+    ],
+    "exchangeBulletList": [
+      {
+        "bulletId": 11200465,
+        "changeBulletId": 11200540
+      },
+      {
+        "bulletId": 11200475,
+        "changeBulletId": 11200541
+      },
+      {
+        "bulletId": 11200476,
+        "changeBulletId": 11200544
+      }
+    ],
     "character": 10000372,
     "SkinName": "回魂夜",
     "quality": "Golden",
     "ownExclusiveVoice": false,
     "isSpine2": 1,
     "SkinDesc": "安菲娅的生灵节变装。无需他人陪衬，魔女一个人即是一支狂欢的队列——当然，魔女的使仆荣列其中。",
-    "HomeresDir": "Home/Character/Dorm_Anfiya/Dorm_Anfiya_SkeletonData",
-    "singleUrl": "",
+    "HomeresDir": "Home/Character/Dorm_Anfiya_Skin_Halloween/Dorm_Anfiya_Skin_Halloween_SkeletonData",
+    "singleUrl": "RolePlus/Anfiya/Halloween/Single",
     "GetWay": "0",
-    "offsetX": 22.0,
-    "offsetY": -335.0,
-    "offsetScale": 1.09,
+    "offsetX": 117.0,
+    "offsetY": 21.0,
+    "offsetScale": 1.0,
     "offsetX2": -215.0,
     "offsetY2": 0.0,
     "squadsX": 0.0,
@@ -37738,25 +37837,25 @@
     "spineX": -20.0,
     "spineY": 0.0,
     "spineScale": 1.0,
-    "squadsHalf1": "RolePlus/Anfiya/Squads_Half1",
+    "squadsHalf1": "RolePlus/Anfiya/Halloween/Squads_Half1",
     "extraSpineList": [],
     "clickEffectLayer": "Front",
     "frontFixEffectUrl": "",
     "bottomFixEffectUrl": "",
     "clickHideFixEffect": "None",
-    "SpineBackground": "",
-    "SpineBGX": 0.0,
-    "SpineBGY": 0.0,
-    "SpineBGScale": 0.01,
+    "SpineBackground": "RolePlus/Anfiya/Halloween/bg",
+    "SpineBGX": -120.0,
+    "SpineBGY": 22.0,
+    "SpineBGScale": 1.0,
     "State2Name": "回魂夜-共振",
     "State2Desc": "宴席行将终结，魔女偷吃了甜甜圈。即使今夜的狂欢消散于明日的晨曦之中，也请你永远不要忘却。",
-    "State2Face": "RolePlus/Anfiya/State2_Face",
+    "State2Face": "RolePlus/Anfiya/Halloween/State2_Face",
     "State2Gacha": "",
-    "State2Res": "RolePlus/Anfiya/State2_Full",
-    "State2RoleListRes": "RolePlus/Anfiya/State2_Half",
-    "squadsHalf2": "RolePlus/Anfiya/Squads_Half2",
-    "gachaSpine2Url": "Spine/Portrait/LH_Anfiya_sp/LH_Anfiya_sp_SkeletonData",
-    "spine2Url": "RoleU3D/LH_Anfiya_sp/LH_Anfiya_sp",
+    "State2Res": "RolePlus/Anfiya/Halloween/State2_Full",
+    "State2RoleListRes": "RolePlus/Anfiya/Halloween/State2_Half",
+    "squadsHalf2": "RolePlus/Anfiya/Halloween/Squads_Half2",
+    "gachaSpine2Url": "",
+    "spine2Url": "RoleU3D/LH_Anfiya_Halloween_sp/LH_Anfiya_Halloween_sp",
     "gachaPerformUrl": "",
     "spine2EffectUrl": "",
     "spine2BgUrl": "",
@@ -37764,11 +37863,11 @@
     "spine2Scale": 100.0,
     "spine2X": -215.0,
     "spine2Y": 0.0,
-    "profilePhotoID": 82600474,
+    "profilePhotoID": 82600584,
     "State2profilePhotoID": -1,
     "rewardList": [],
-    "iconPath": "",
-    "tipsPath": "",
+    "iconPath": "Item/item/Small/skinbox",
+    "tipsPath": "Item/item/Big/skinbox",
     "ProfilePhotoList": [
       {
         "id": 82600571,
@@ -39592,7 +39691,16 @@
     "spineUrl": "",
     "clickEffectUrl": "",
     "plotResList": [],
-    "exchangeEffectList": [],
+    "exchangeEffectList": [
+      {
+        "changeEffectId": 11106547,
+        "effectId": 11103056
+      },
+      {
+        "changeEffectId": 11106549,
+        "effectId": 11104896
+      }
+    ],
     "exchangeBulletList": [],
     "character": -1,
     "SkinName": "",
@@ -39786,7 +39894,122 @@
     "spineUrl": "",
     "clickEffectUrl": "",
     "plotResList": [],
-    "exchangeEffectList": [],
+    "exchangeEffectList": [
+      {
+        "changeEffectId": 11106585,
+        "effectId": 11105915
+      },
+      {
+        "changeEffectId": 11106567,
+        "effectId": 11105916
+      },
+      {
+        "changeEffectId": 11102417,
+        "effectId": 11105894
+      }
+    ],
+    "exchangeBulletList": [],
+    "character": -1,
+    "SkinName": "",
+    "quality": "White",
+    "ownExclusiveVoice": false,
+    "isSpine2": 1,
+    "SkinDesc": "",
+    "HomeresDir": "",
+    "singleUrl": "",
+    "GetWay": "0",
+    "offsetX": 0.0,
+    "offsetY": 0.0,
+    "offsetScale": 1.0,
+    "offsetX2": 0.0,
+    "offsetY2": 0.0,
+    "squadsX": 0.0,
+    "squadsY": 0.0,
+    "spineX": 0.0,
+    "spineY": 0.0,
+    "spineScale": 1.0,
+    "squadsHalf1": "",
+    "extraSpineList": [],
+    "clickEffectLayer": "Front",
+    "frontFixEffectUrl": "",
+    "bottomFixEffectUrl": "",
+    "clickHideFixEffect": "None",
+    "SpineBackground": "",
+    "SpineBGX": 0.0,
+    "SpineBGY": 0.0,
+    "SpineBGScale": 0.01,
+    "State2Name": "",
+    "State2Desc": "",
+    "State2Face": "",
+    "State2Gacha": "",
+    "State2Res": "",
+    "State2RoleListRes": "",
+    "squadsHalf2": "",
+    "gachaSpine2Url": "",
+    "spine2Url": "",
+    "gachaPerformUrl": "",
+    "spine2EffectUrl": "",
+    "spine2BgUrl": "",
+    "state2Overturn": false,
+    "spine2Scale": 125.0,
+    "spine2X": 0.0,
+    "spine2Y": 0.0,
+    "profilePhotoID": -1,
+    "State2profilePhotoID": -1,
+    "rewardList": [],
+    "iconPath": "",
+    "tipsPath": "",
+    "ProfilePhotoList": [],
+    "skinBattlePass": -1,
+    "bookHalf": "",
+    "bookFull": "",
+    "bookX": 0.0,
+    "bookY": 0.0
+  },
+  {
+    "id": 11000410,
+    "idCN": "我方/50召唤物/安菲娅/空的寄存柜/克鲁索",
+    "mod": "Spine",
+    "isInformalData": false,
+    "hpBarOffsetX": 0.0,
+    "hpBarOffsetY": 5.0,
+    "battleTagOffsetX": 0.0,
+    "battleTagOffsetY": 3.0,
+    "resDir": "Role/Anfiya_bot/Anfiya_bot_SkeletonData",
+    "shadowID": 11100540,
+    "shadowScale": 0.5,
+    "userSpecialShadow": false,
+    "shadowOffsetY": 0.0,
+    "shadowOffsetZ": 0.0,
+    "useSpecialBeHitColor": false,
+    "r": 255,
+    "g": 255,
+    "b": 255,
+    "a": 255,
+    "effectScale": 1.0,
+    "gachaVoice": -1,
+    "mainUIVoice": -1,
+    "face": "",
+    "gacha": "",
+    "resUrl": "",
+    "roleListResUrl": "",
+    "spineUrl": "",
+    "clickEffectUrl": "",
+    "plotResList": [],
+    "exchangeEffectList": [
+      {
+        "changeEffectId": 11105936,
+        "effectId": 11105915
+      },
+      {
+        "changeEffectId": 11105940,
+        "effectId": 11105916
+      },
+      {
+        "changeEffectId": 11105957,
+        "effectId": 11105894
+      }
+    ],
     "exchangeBulletList": [],
     "character": -1,
     "SkinName": "",
