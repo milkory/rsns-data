@@ -27618,8 +27618,8 @@
     "tempdescription": "随机释放以下3种暗器的1种：\\n木扉流·暗器【梨花】，对敌方造成12段伤害并触发1次【灼心】/【撕裂】\\n梦玄流·暗器【刹风】，对随机3个敌方造成1段伤害并触发1次【灼心】/【斩裂】\\n幻羽流·暗器【黑砂羽】，对敌方造成6段伤害并触发1次【灼心】/【点燃】",
     "description": "随机释放以下3种暗器的1种：\\n木扉流·暗器【梨花】，对敌方造成12段伤害并触发1次<color=#FF6666>【灼心】</color>/<color=#FF6666>【撕裂】</color>\\n梦玄流·暗器【刹风】，对随机3个敌方造成1段伤害并触发1次<color=#FF6666>【灼心】</color>/<color=#FF6666>【斩裂】</color>\\n幻羽流·暗器【黑砂羽】，对敌方造成6段伤害并触发1次<color=#FF6666>【灼心】</color>/<color=#FF6666>【点燃】</color>",
     "levelUpDescription": "",
-    "tempdetailDescription": "伤害：【梨花】每段300%（物理）；【刹风】每段600%（物理）；【黑砂羽】每段1200%（物理）",
-    "detailDescription": "伤害：【梨花】每段300%（物理）；【刹风】每段600%（物理）；【黑砂羽】每段1200%（物理）",
+    "tempdetailDescription": "伤害：【梨花】每段300%（物理）；【刹风】每段1200%（物理）；【黑砂羽】每段600%（物理）",
+    "detailDescription": "伤害：【梨花】每段300%（物理）；【刹风】每段1200%（物理）；【黑砂羽】每段600%（物理）",
     "desParamList": [],
     "skillParamList": [
       {
@@ -27715,11 +27715,11 @@
     "name": "无相·转轮",
     "iconPath": "RolePlus\\Hayabusa\\skillicon\\S",
     "attriDetialList": [],
-    "tempdescription": "施展奥义【无相·转轮】，对敌方全体造成10段伤害，同时触发1次【撕裂】/【斩裂】/【点燃】/【燎原】/【枷锁】/【禁锢】",
-    "description": "施展奥义【无相·转轮】，对敌方全体造成10段伤害，同时触发1次<color=#FF6666>【撕裂】</color>/<color=#FF6666>【斩裂】</color>/<color=#FF6666>【点燃】</color>/<color=#FF6666>【燎原】</color>/<color=#B383FF>【枷锁】</color>/<color=#B383FF>【禁锢】</color>",
+    "tempdescription": "施展奥义【无相·转轮】，对敌方全体造成10段伤害，同时触发1次【撕裂】/【燎原】/【枷锁】/【禁锢】\\n同时每段伤害有33%概率触发【斩裂】或【点燃】",
+    "description": "施展奥义【无相·转轮】，对敌方全体造成10段伤害，同时触发1次<color=#FF6666>【撕裂】</color>/<color=#FF6666>【燎原】</color>/<color=#B383FF>【枷锁】</color>/<color=#B383FF>【禁锢】</color>\\n同时每段伤害有33%概率触发<color=#FF6666>【斩裂】</color>或<color=#FF6666>【点燃】</color>",
     "levelUpDescription": "",
-    "tempdetailDescription": "伤害：每段700%（物理）",
-    "detailDescription": "伤害：每段700%（物理）",
+    "tempdetailDescription": "伤害：每段900%（物理）",
+    "detailDescription": "伤害：每段900%（物理）",
     "desParamList": [
       {
         "isPercent": true,
@@ -27728,7 +27728,7 @@
     ],
     "skillParamList": [
       {
-        "skillRateA_SN": 70000,
+        "skillRateA_SN": 90000,
         "skillRateB_SN": 0,
         "skillRateC_SN": 0,
         "skillRateD_SN": 0,
@@ -63166,26 +63166,23 @@
     "levelUpDescription": "",
     "tempdetailDescription": "",
     "detailDescription": "",
-    "desParamList": [
-      {
-        "isPercent": false,
-        "param": "a"
-      }
-    ],
+    "desParamList": [],
     "skillParamList": [],
     "attributeList": [],
     "tagId": -1,
     "tagRemoveList": [],
     "tagFilterList": [],
     "tagFilterType": "And",
-    "buffId": 10410122,
+    "buffId": 10413154,
     "temptypeStr": "",
     "typeStr": "",
     "typeColor": "Orange",
     "CommonNum": 1.0,
     "floatNum": 1,
     "ExSkillList": [],
-    "specialTagList": []
+    "specialTagList": [],
+    "partList": [],
+    "campList": []
   },
   {
     "id": 12300975,
@@ -79249,7 +79246,7 @@
     "description": "帕拉笛吹哨，命令机器人进行高压镇暴\\n【A-1SO】释放声波波束，对敌方全体造成8段伤害并<color=#FF6666>【击晕】</color>\\n【A-1SO】释放高压电流，对敌方全体造成8段伤害，同时触发<color=#FFB800>【引雷】</color>\\n【A-1SO】和【A-2SO】为【机械单位】",
     "levelUpDescription": "",
     "tempdetailDescription": "伤害：500%（物理）×8；500%（电磁）×8",
-    "detailDescription": "",
+    "detailDescription": "伤害：500%（物理）×8；500%（电磁）×8",
     "desParamList": [],
     "skillParamList": [
       {
@@ -80523,6 +80520,236 @@
     "tagFilterList": [],
     "tagFilterType": "And",
     "buffId": 10413140,
+    "temptypeStr": "",
+    "typeStr": "",
+    "typeColor": "Orange",
+    "CommonNum": 1.0,
+    "floatNum": 1,
+    "ExSkillList": [],
+    "specialTagList": [],
+    "partList": [],
+    "campList": []
+  },
+  {
+    "id": 12302000,
+    "idCN": "00原版/05五星/生驹/A",
+    "mod": "主动技能",
+    "isInformalData": false,
+    "name": "贯筒射击",
+    "iconPath": "RolePlus\\Ikuma\\skillicon\\A",
+    "attriDetialList": [],
+    "tempdescription": "将【贯筒】抵住敌方射击\\n对敌方目标造成1段伤害并【崩坏】",
+    "description": "将【贯筒】抵住敌方射击\\n对敌方目标造成1段伤害并<color=#FF6666>【崩坏】</color>",
+    "levelUpDescription": "",
+    "tempdetailDescription": "伤害：3600%（物理）",
+    "detailDescription": "伤害：3600%（物理）",
+    "desParamList": [],
+    "skillParamList": [
+      {
+        "skillRateA_SN": 360000,
+        "skillRateB_SN": 0,
+        "skillRateC_SN": 0,
+        "skillRateD_SN": 0,
+        "skillRateE_SN": 0,
+        "skillRateF_SN": 0,
+        "skillRateG_SN": 0,
+        "skillRateH_SN": 0,
+        "skillRateI_SN": 0,
+        "skillRateJ_SN": 0,
+        "skillRateL_SN": 0,
+        "skillRateT_SN": 0
+      }
+    ],
+    "attributeList": [],
+    "tagId": -1,
+    "tagRemoveList": [],
+    "tagFilterList": [],
+    "tagFilterType": "And",
+    "cardID": 10600397,
+    "leaderCardEnableBuffId": -1,
+    "leaderCardConditionList": [],
+    "templeaderCardConditionDesc": "",
+    "leaderCardConditionDesc": "",
+    "temptypeStr": "",
+    "typeStr": "",
+    "typeColor": "Orange",
+    "CommonNum": 1.0,
+    "floatNum": 1,
+    "ExSkillList": [],
+    "specialTagList": [],
+    "partList": [],
+    "campList": []
+  },
+  {
+    "id": 12302001,
+    "idCN": "00原版/05五星/生驹/B",
+    "mod": "主动技能",
+    "isInformalData": false,
+    "name": "蓄力",
+    "iconPath": "RolePlus\\Ikuma\\skillicon\\B",
+    "attriDetialList": [],
+    "tempdescription": "蓄力增压，使【贯筒射击】和【爆裂射击】伤害提高#r，可叠加",
+    "description": "蓄力增压，使【贯筒射击】和【爆裂射击】伤害提高#r，可叠加",
+    "levelUpDescription": "",
+    "tempdetailDescription": "",
+    "detailDescription": "",
+    "desParamList": [
+      {
+        "isPercent": true,
+        "param": "A"
+      }
+    ],
+    "skillParamList": [
+      {
+        "skillRateA_SN": 1000,
+        "skillRateB_SN": 0,
+        "skillRateC_SN": 0,
+        "skillRateD_SN": 0,
+        "skillRateE_SN": 0,
+        "skillRateF_SN": 0,
+        "skillRateG_SN": 0,
+        "skillRateH_SN": 0,
+        "skillRateI_SN": 0,
+        "skillRateJ_SN": 0,
+        "skillRateL_SN": 0,
+        "skillRateT_SN": 0
+      }
+    ],
+    "attributeList": [],
+    "tagId": -1,
+    "tagRemoveList": [],
+    "tagFilterList": [],
+    "tagFilterType": "And",
+    "cardID": 10600398,
+    "leaderCardEnableBuffId": -1,
+    "leaderCardConditionList": [],
+    "templeaderCardConditionDesc": "",
+    "leaderCardConditionDesc": "",
+    "temptypeStr": "",
+    "typeStr": "",
+    "typeColor": "Orange",
+    "CommonNum": 1.0,
+    "floatNum": 1,
+    "ExSkillList": [],
+    "specialTagList": [],
+    "partList": [],
+    "campList": []
+  },
+  {
+    "id": 12302002,
+    "idCN": "00原版/05五星/生驹/S",
+    "mod": "主动技能",
+    "isInformalData": false,
+    "name": "爆裂射击",
+    "iconPath": "RolePlus\\Ikuma\\skillicon\\S",
+    "attriDetialList": [],
+    "tempdescription": "将【贯筒】刺入敌方体内爆裂射击\\n对敌方目标造成5段伤害并【斩裂】",
+    "description": "将【贯筒】刺入敌方体内爆裂射击\\n对敌方目标造成5段伤害并<color=#FF6666>【斩裂】</color>",
+    "levelUpDescription": "",
+    "tempdetailDescription": "伤害：每段1200%（物理）",
+    "detailDescription": "伤害：每段1200%（物理）",
+    "desParamList": [],
+    "skillParamList": [
+      {
+        "skillRateA_SN": 150000,
+        "skillRateB_SN": 0,
+        "skillRateC_SN": 0,
+        "skillRateD_SN": 0,
+        "skillRateE_SN": 0,
+        "skillRateF_SN": 0,
+        "skillRateG_SN": 0,
+        "skillRateH_SN": 0,
+        "skillRateI_SN": 0,
+        "skillRateJ_SN": 0,
+        "skillRateL_SN": 0,
+        "skillRateT_SN": 0
+      }
+    ],
+    "attributeList": [],
+    "tagId": -1,
+    "tagRemoveList": [],
+    "tagFilterList": [],
+    "tagFilterType": "And",
+    "cardID": 10600400,
+    "leaderCardEnableBuffId": -1,
+    "leaderCardConditionList": [
+      {
+        "leaderCardConditionFO": 10800092
+      }
+    ],
+    "templeaderCardConditionDesc": "冷却时间25秒，每次使用红卡，冷却缩短5秒",
+    "leaderCardConditionDesc": "冷却时间25秒，每次使用红卡，冷却缩短5秒",
+    "temptypeStr": "",
+    "typeStr": "",
+    "typeColor": "Orange",
+    "CommonNum": 1.0,
+    "floatNum": 1,
+    "ExSkillList": [
+      {
+        "ExSkillName": 12302003
+      }
+    ],
+    "specialTagList": [],
+    "partList": [],
+    "campList": []
+  },
+  {
+    "id": 12302003,
+    "idCN": "00原版/05五星/生驹/C",
+    "mod": "主动技能",
+    "isInformalData": false,
+    "name": "黑色药剂",
+    "iconPath": "RolePlus\\Ikuma\\skillicon\\C",
+    "attriDetialList": [],
+    "tempdescription": "注射【黑色药剂】，对敌方全体造成1段伤害，无视防御\\n每秒献祭自身#r生命值，持续#r秒\\n持续期间，全面强化自身\\n造成的最终伤害提高#r\\n受到的最终伤害降低#r",
+    "description": "注射【黑色药剂】，对敌方全体造成1段伤害，无视防御\\n每秒献祭自身#r生命值，持续#r秒\\n持续期间，全面强化自身\\n造成的最终伤害提高#r\\n受到的最终伤害降低#r",
+    "levelUpDescription": "",
+    "tempdetailDescription": "伤害：15000%（混响）",
+    "detailDescription": "伤害：15000%（混响）",
+    "desParamList": [
+      {
+        "isPercent": true,
+        "param": "B"
+      },
+      {
+        "isPercent": false,
+        "param": "C"
+      },
+      {
+        "isPercent": true,
+        "param": "D"
+      },
+      {
+        "isPercent": true,
+        "param": "D"
+      }
+    ],
+    "skillParamList": [
+      {
+        "skillRateA_SN": 1500000,
+        "skillRateB_SN": 300,
+        "skillRateC_SN": 300000,
+        "skillRateD_SN": 4000,
+        "skillRateE_SN": 0,
+        "skillRateF_SN": 0,
+        "skillRateG_SN": 0,
+        "skillRateH_SN": 0,
+        "skillRateI_SN": 0,
+        "skillRateJ_SN": 0,
+        "skillRateL_SN": 0,
+        "skillRateT_SN": 18000000
+      }
+    ],
+    "attributeList": [],
+    "tagId": -1,
+    "tagRemoveList": [],
+    "tagFilterList": [],
+    "tagFilterType": "And",
+    "cardID": 10600399,
+    "leaderCardEnableBuffId": -1,
+    "leaderCardConditionList": [],
+    "templeaderCardConditionDesc": "",
+    "leaderCardConditionDesc": "",
     "temptypeStr": "",
     "typeStr": "",
     "typeColor": "Orange",
