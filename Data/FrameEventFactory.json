@@ -6348,7 +6348,25 @@
     "bulletId": 11200244,
     "targetType": "CurrentTarget",
     "offSetX_SN": 0,
-    "offSetZ_SN": 0
+    "offSetZ_SN": 0,
+    "isUseTargetFilter": false,
+    "isIgnoreInvisibleEnemy": true,
+    "targetFilterType": "Ally",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 0,
+    "attributeType": "HpMax",
+    "condition": "Max",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 0
   },
   {
     "id": 10501198,
@@ -12355,32 +12373,11 @@
   },
   {
     "id": 10500635,
-    "idCN": "我方/05五星/隼/A_02梨花_伤害灼心撕裂",
-    "mod": "子弹事件",
+    "idCN": "我方/05五星/隼/A_02梨花_灼心撕裂",
+    "mod": "添加Buff",
     "isInformalData": false,
     "buffId": 10404214,
-    "bulletId": 11200244,
-    "targetType": "CurrentTarget",
-    "offSetX_SN": 0,
-    "offSetZ_SN": 0,
-    "isUseTargetFilter": false,
-    "isIgnoreInvisibleEnemy": true,
-    "targetFilterType": "Ally",
-    "targetTagList": [],
-    "tagType": "And",
-    "halfWidth_SN": 0,
-    "attributeType": "HpMax",
-    "condition": "Max",
-    "numberType": "Number",
-    "number_SN": 0,
-    "buffTypeFO": -1,
-    "buffFO": -1,
-    "buffJudgeType": "Greater",
-    "buffLevel": 0,
-    "filterStance": "DeafaultStance",
-    "filterPosition": "DefaultPos",
-    "isAimSelf": false,
-    "targetCount": 0
+    "targetType": "CurrentTarget"
   },
   {
     "id": 10500639,
@@ -28622,12 +28619,12 @@
     "idCN": "敌方/99化物/宝箱小狗-中/技能1回复",
     "mod": "添加Buff",
     "isInformalData": false,
-    "buffId": 10413082,
+    "buffId": 10413173,
     "targetType": "OneEach"
   },
   {
     "id": 10502528,
-    "idCN": "我方/05五星/生驹/S伤害",
+    "idCN": "我方/05五星/联动男/S伤害",
     "mod": "子弹事件",
     "isInformalData": false,
     "buffId": 10413178,
@@ -28656,7 +28653,7 @@
   },
   {
     "id": 10502529,
-    "idCN": "我方/05五星/生驹/A伤害",
+    "idCN": "我方/05五星/联动男/A伤害",
     "mod": "添加Buff",
     "isInformalData": false,
     "buffId": 10413179,
@@ -28664,7 +28661,7 @@
   },
   {
     "id": 10502524,
-    "idCN": "我方/05五星/生驹/普攻",
+    "idCN": "我方/05五星/联动男/普攻",
     "mod": "子弹事件",
     "isInformalData": false,
     "buffId": 10413167,
@@ -28693,7 +28690,7 @@
   },
   {
     "id": 10502526,
-    "idCN": "我方/05五星/生驹/S攻击特效",
+    "idCN": "我方/05五星/联动男/S攻击特效",
     "mod": "添加Buff",
     "isInformalData": false,
     "buffId": 10413181,
@@ -28701,10 +28698,31 @@
   },
   {
     "id": 10502527,
-    "idCN": "我方/05五星/生驹/A攻击特效",
+    "idCN": "我方/05五星/联动男/A攻击特效",
     "mod": "添加Buff",
     "isInformalData": false,
     "buffId": 10413183,
     "targetType": "CurrentTarget"
+  },
+  {
+    "id": 10502533,
+    "idCN": "敌方/99化物/宝箱小狗-中/被动1技能回复",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10413205
+  },
+  {
+    "id": 10502532,
+    "idCN": "敌方/99化物/宝箱小狗-中/被动1普攻回复",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10413204
+  },
+  {
+    "id": 10502531,
+    "idCN": "敌方/99化物/宝箱小狗-中/技能1献祭",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10413194
   }
 ]

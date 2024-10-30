@@ -19567,37 +19567,35 @@
     "effectOffsetY": 0.0,
     "actionList": [
       {
-        "actionID": 10102796
+        "actionID": 10103451
       },
       {
-        "actionID": 10102799
+        "actionID": 10103452
       }
     ],
     "normalAttackCritID": -1,
     "skillList": [
       {
-        "actionId": 10102801,
-        "activeFrame": 120,
+        "actionId": 10103450,
+        "activeFrame": 240,
         "activeTime": 2.0,
-        "rangeSN": -10000
-      },
-      {
-        "actionId": 10102802,
-        "activeFrame": 480,
-        "activeTime": 8.0,
-        "rangeSN": -10000
+        "rangeSN": 240000
       }
     ],
-    "isInvisibleBeforeShowUp": false,
-    "showupSkillList": [],
-    "skillLoopDelayFrame": 360,
+    "isInvisibleBeforeShowUp": true,
+    "showupSkillList": [
+      {
+        "actionId": 10103461
+      }
+    ],
+    "skillLoopDelayFrame": 220,
     "shapeShiftList": [],
     "commandList": [],
     "enemySkillList": [],
     "isUseEnergy": false,
     "energySkillList": [],
     "energyRestorePerFrameSN": 0,
-    "isSkillDelay": false,
+    "isSkillDelay": true,
     "minDelay": 120,
     "maxDelay": 360
   },
@@ -19725,7 +19723,7 @@
   },
   {
     "id": 10300466,
-    "idCN": "我方/05五星/生驹",
+    "idCN": "我方/05五星/联动男",
     "mod": "卡牌AI",
     "isInformalData": false,
     "targetInvisibleEffectId": -1,
@@ -19771,6 +19769,34 @@
     "isUseEnergy": false,
     "energySkillList": [],
     "energyRestorePerFrameSN": 420,
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300482,
+    "idCN": "敌方/99化物/宝箱小狗-中_无友军",
+    "mod": "基础AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10103453
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [],
+    "skillLoopDelayFrame": 360,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
     "isSkillDelay": false,
     "minDelay": 120,
     "maxDelay": 360
