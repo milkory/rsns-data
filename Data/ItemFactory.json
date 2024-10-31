@@ -15595,9 +15595,9 @@
     "name": "整顿中心仓库扩建书",
     "viewId": -1,
     "quality": "Golden",
-    "des": "由交易所老板亲自签字确认的扩建许可证，凭此证可以在交易所办理私人仓库扩建业务，增加交易所私人仓库的可购买容量数。\\n需要当地城市声望达到20级才可使用。",
-    "iconPath": "Item/item/Small/cangkukuojian",
-    "tipsPath": "Item/item/Big/cangkukuojian",
+    "des": "用于提出整顿中心仓库扩建的申请书。于对应仓库使用后，可直接增加整顿中心原料仓库或成品仓库的容量。",
+    "iconPath": "Item/item/Small/prisoncangkukuojian",
+    "tipsPath": "Item/item/Big/prisoncangkukuojian",
     "buyPath": "",
     "textIcon": "",
     "sort": 0,
@@ -15991,6 +15991,160 @@
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
+        "funcId": -1
+      }
+    ],
+    "gettipstype": "Default",
+    "techPoints": 100,
+    "skinID": -1,
+    "isDisplayInMaterialWare": false,
+    "isDisplayInFinishedlWare": false,
+    "chosekind": "其他",
+    "SkinChooseList": []
+  },
+  {
+    "id": 11400365,
+    "idCN": "1抽卡道具/自选协议S4",
+    "mod": "可使用道具",
+    "isInformalData": false,
+    "name": "安提基特拉协议S3",
+    "viewId": -1,
+    "quality": "Orange",
+    "useType": "Chosen",
+    "numRequired": 1,
+    "isBatch": false,
+    "exchangeList": [
+      {
+        "itemId": 10000031,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "itemId": 10000004,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "itemId": 10000352,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "itemId": 10000072,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "itemId": 10000069,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "itemId": 10000059,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "itemId": 10000739,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "itemId": 10000298,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "itemId": 10000139,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "itemId": 10000054,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "itemId": 10000388,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "itemId": 10000154,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "itemId": 10000276,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "itemId": 10000503,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "itemId": 10000051,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "itemId": 10000032,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "itemId": 10000095,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "itemId": 10000035,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "itemId": 10000094,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "itemId": 10000254,
+        "num": 1,
+        "weight": 1
+      }
+    ],
+    "des": "<size=25><color=#FFB800>可以从以下SSR乘员名单中自选一名乘员搭乘列车。</color></size>\r\\n约书亚，卡塔斯，苏恩，那由他，夏洛蒂，薇尔岚，柯娜，星花，卡洛琳，马吉拉，闻笙，伊洛那，苔妮，亚莉奈，妮蔻拉。\r\\n\\n出于对黑月的不信任，学会制作了自己版本的拉普拉斯协议。似乎能一定程度上对未来造成影响。黑月的人员对此感到不可思议。",
+    "iconPath": "Item\\item\\Small\\onepull3",
+    "tipsPath": "Item\\item\\Big\\onepull3",
+    "buyPath": "",
+    "textIcon": "",
+    "breakPath": "",
+    "sort": 0,
+    "isShowNum": true,
+    "isNotDisplayInBag": false,
+    "isCompose": false,
+    "containEquipment": false,
+    "batchUsetype": "Other",
+    "useLimitNum": 10,
+    "isTiredItem": false,
+    "isDrinkItem": false,
+    "drinkNum": 3,
+    "isBattlePassItem": false,
+    "BattlePassType": "Low",
+    "uiPath": "UI/SelectItem/SelectItem",
+    "plotAfter": -1,
+    "endTime": "",
+    "limitedTime": 0,
+    "saletype": "NotSale",
+    "rewardList": [],
+    "Getway": [
+      {
+        "DisplayName": "商城-自选SSR乘员礼包S3",
+        "FromLevel": -1,
+        "UIName": "UI/Store/Store",
+        "Way3": "3|82100107",
         "funcId": -1
       }
     ],

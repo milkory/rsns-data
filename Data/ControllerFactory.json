@@ -19716,14 +19716,14 @@
         "rangeSN": -10000
       }
     ],
-    "energyRestorePerFrameSN": 420,
+    "energyRestorePerFrameSN": 560,
     "isSkillDelay": false,
     "minDelay": 120,
     "maxDelay": 360
   },
   {
     "id": 10300466,
-    "idCN": "我方/05五星/联动男",
+    "idCN": "我方/05五星/生驹",
     "mod": "卡牌AI",
     "isInformalData": false,
     "targetInvisibleEffectId": -1,
@@ -19766,9 +19766,9 @@
     "shapeShiftList": [],
     "commandList": [],
     "enemySkillList": [],
-    "isUseEnergy": false,
+    "isUseEnergy": true,
     "energySkillList": [],
-    "energyRestorePerFrameSN": 420,
+    "energyRestorePerFrameSN": 560,
     "isSkillDelay": false,
     "minDelay": 120,
     "maxDelay": 360
@@ -19791,6 +19791,54 @@
     "isInvisibleBeforeShowUp": false,
     "showupSkillList": [],
     "skillLoopDelayFrame": 360,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300483,
+    "idCN": "敌方/核心/混响波克士",
+    "mod": "基础AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": -1,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10103480
+      },
+      {
+        "actionID": 10103481
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10103478,
+        "activeFrame": 360,
+        "activeTime": 1.0,
+        "rangeSN": 240000
+      },
+      {
+        "actionId": 10103479,
+        "activeFrame": 840,
+        "activeTime": 1.0,
+        "rangeSN": 240000
+      }
+    ],
+    "isInvisibleBeforeShowUp": true,
+    "showupSkillList": [
+      {
+        "actionId": 10103476
+      }
+    ],
+    "skillLoopDelayFrame": 234,
     "shapeShiftList": [],
     "commandList": [],
     "enemySkillList": [],
