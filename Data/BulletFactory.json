@@ -4872,7 +4872,7 @@
   },
   {
     "id": 11200274,
-    "idCN": "我方/04星/达斯廷/天火悬浮",
+    "idCN": "我方/04星/达斯廷/原版/天火悬浮",
     "mod": "悬浮",
     "isInformalData": false,
     "disappearEffectList": [],
@@ -4894,11 +4894,12 @@
   },
   {
     "id": 11200276,
-    "idCN": "我方/04星/达斯廷/天火抛物线",
+    "idCN": "我方/04星/达斯廷/原版/天火抛物线",
     "mod": "抛物线",
     "isInformalData": false,
     "bulletViewId": 11300191,
     "speedX_SN": 4500,
+    "xSpeedOffSet_SN": 0,
     "disappearEffectList": [],
     "appearEffectList": [],
     "effectID": 11104585,
@@ -4920,7 +4921,13 @@
     "zOffSet_SN": 0,
     "groundEffectList": [
       {
-        "effectId": 11102607
+        "effectId": 11104922
+      },
+      {
+        "effectId": 11106624
+      },
+      {
+        "effectId": 11103122
       }
     ],
     "isGroundEffectUseHitTimes": false,
@@ -13381,7 +13388,13 @@
     "zOffSet_SN": 0,
     "groundEffectList": [
       {
-        "effectId": 11106266
+        "effectId": 11104922
+      },
+      {
+        "effectId": 11106624
+      },
+      {
+        "effectId": 11103122
       }
     ],
     "isGroundEffectUseHitTimes": false,
@@ -14765,5 +14778,75 @@
     "hitFrameList": [
       {}
     ]
+  },
+  {
+    "id": 11200549,
+    "idCN": "我方/04星/达斯廷/旧宅的油画/天火抛物线",
+    "mod": "抛物线",
+    "isInformalData": false,
+    "bulletViewId": 11300333,
+    "speedX_SN": 4500,
+    "xSpeedOffSet_SN": 0,
+    "disappearEffectList": [],
+    "appearEffectList": [],
+    "effectID": 11100101,
+    "hitSoundId": -1,
+    "scaleTag": "",
+    "ySpeedStart_SN": 2000,
+    "ySpeedOffSet_SN": 1000,
+    "isAddSpeedZ": false,
+    "durationMin": 1,
+    "isCustomRadius": false,
+    "customRadiusTag": "",
+    "damageRadius_SN": 20000,
+    "isFixedPosition": false,
+    "xOffSetStart_SN": 0,
+    "xOffSet_SN": 0,
+    "yOffSetStart_SN": 0,
+    "yOffSet_SN": 0,
+    "zOffSetStart_SN": 0,
+    "zOffSet_SN": 0,
+    "groundEffectList": [
+      {
+        "effectId": 11106632
+      },
+      {
+        "effectId": 11106624
+      },
+      {
+        "effectId": 11103122
+      }
+    ],
+    "isGroundEffectUseHitTimes": false,
+    "groundSoundId": 30002563,
+    "isGroundSoundUseHitTimes": false,
+    "envBuffId": 10410357,
+    "hitTimes": 1,
+    "hitTimesCustomTag": "",
+    "intervalFrame": 1,
+    "isDoBuffOnly": false,
+    "isHitTargetOnly": false
+  },
+  {
+    "id": 11200550,
+    "idCN": "我方/04星/达斯廷/旧宅的油画/天火悬浮",
+    "mod": "悬浮",
+    "isInformalData": false,
+    "disappearEffectList": [],
+    "appearEffectList": [
+      {
+        "effectId": 11106649
+      }
+    ],
+    "effectID": -1,
+    "hitSoundId": -1,
+    "scaleTag": "",
+    "suspendView": 11300332,
+    "frameEvent": 10501384,
+    "isForever": true,
+    "durationFrame": 1,
+    "isActive": true,
+    "showSoundId": 30002556,
+    "controllerIndex": 1
   }
 ]
