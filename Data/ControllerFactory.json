@@ -19848,5 +19848,55 @@
     "isSkillDelay": false,
     "minDelay": 120,
     "maxDelay": 360
+  },
+  {
+    "id": 10300484,
+    "idCN": "爬塔/人形单位/劫掠王-4",
+    "mod": "BOSSAI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10102726
+      },
+      {
+        "actionID": 10102718
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10102719,
+        "activeFrame": 480,
+        "activeTime": 8.0,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10102727,
+        "activeFrame": 1440,
+        "activeTime": 24.0,
+        "rangeSN": -10000
+      }
+    ],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [],
+    "skillLoopDelayFrame": 760,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": true,
+    "energySkillList": [
+      {
+        "actionId": 10102728,
+        "isClearEnergy": true,
+        "rangeSN": -10000
+      }
+    ],
+    "energyRestorePerFrameSN": 560,
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
   }
 ]
