@@ -758,8 +758,15 @@
     "isInformalData": false,
     "costId": "lsns_20004",
     "correspondStore": 40300008,
+    "correspondCharacter": -1,
     "name": "列车长上任培养礼包",
     "describe": "",
+    "isText": false,
+    "showType": "Normal",
+    "title": -1,
+    "des": -1,
+    "desColor": "",
+    "tipsDesColor": "",
     "iconPath": "UI/Store/Store_gift_icon_02",
     "buyPath": "UI/Common/BuyGiftTips/gift_type_2",
     "isTips": true,
@@ -788,6 +795,7 @@
     "isFirst": false,
     "rewardFirstList": [],
     "rewardFollowList": [],
+    "specialRewardList": [],
     "buyType": "Money",
     "value": 68.0,
     "buyItemList": [],
@@ -796,14 +804,19 @@
     "purchaseNum": 1,
     "limitBuyType": "Forever",
     "isTime": false,
-    "startTime": "2023-03-11 00:00:00",
-    "endTime": "2023-04-11 00:00:00",
+    "startTime": "",
+    "endTime": "",
     "isBuyCondition": false,
     "gradeCondition": 0,
     "ismonthCard": false,
     "showList": [],
     "isCharacterSkin": false,
-    "BattlePassLevel": 0
+    "BattlePassLevel": 0,
+    "isTriggerTime": false,
+    "continueTime": 0,
+    "isRedPoint": false,
+    "isGuide": false,
+    "buyNumGuide": 2
   },
   {
     "id": 82100047,
@@ -8501,12 +8514,12 @@
     "isTips": true,
     "rewardList": [
       {
-        "id": 11000388,
+        "id": 11000448,
         "num": 1
       },
       {
         "id": 11400005,
-        "num": 680
+        "num": 1280
       }
     ],
     "isFirst": false,
@@ -8514,7 +8527,7 @@
     "rewardFollowList": [],
     "specialRewardList": [],
     "buyType": "Money",
-    "value": 68.0,
+    "value": 128.0,
     "buyItemList": [],
     "superValue": 0,
     "purchase": true,
@@ -8763,7 +8776,7 @@
     "costId": "lsns_20003",
     "correspondStore": 40300008,
     "correspondCharacter": -1,
-    "name": "自选SSR乘员礼包S3",
+    "name": "自选SSR乘员礼包S4",
     "describe": "",
     "isText": false,
     "showType": "Normal",
@@ -8780,7 +8793,7 @@
         "num": 3280
       },
       {
-        "id": 11400211,
+        "id": 11400365,
         "num": 1
       }
     ],
@@ -8796,8 +8809,8 @@
     "purchaseNum": 1,
     "limitBuyType": "Forever",
     "isTime": true,
-    "startTime": "2024-08-08 00:00:00",
-    "endTime": "2024-11-08 00:00:00",
+    "startTime": "2024-11-08 00:00:00",
+    "endTime": "2025-02-08 00:00:00",
     "isBuyCondition": false,
     "gradeCondition": 0,
     "ismonthCard": false,
@@ -8875,14 +8888,14 @@
     "correspondCharacter": -1,
     "name": "超级帮帮券礼包",
     "describe": "",
-    "isText": true,
+    "isText": false,
     "showType": "Normal",
-    "title": 80609051,
-    "des": 80609052,
+    "title": -1,
+    "des": -1,
     "desColor": "#8c45b0",
     "tipsDesColor": "#ffffff",
-    "iconPath": "UI/Store/Store_gift_icon_76",
-    "buyPath": "UI/Common/BuyGiftTips/gift_type_55",
+    "iconPath": "UI/Store/Store_gift_icon_84",
+    "buyPath": "UI/Common/BuyGiftTips/gift_type_62",
     "isTips": true,
     "rewardList": [
       {
@@ -9097,8 +9110,8 @@
     "des": -1,
     "desColor": "",
     "tipsDesColor": "",
-    "iconPath": "UI/Store/Store_gift_icon_11",
-    "buyPath": "UI/Common/BuyGiftTips/gift_type_11",
+    "iconPath": "UI/Store/Store_gift_icon_86",
+    "buyPath": "UI/Common/BuyGiftTips/gift_type_64",
     "isTips": true,
     "rewardList": [
       {
@@ -9115,9 +9128,9 @@
     "rewardFollowList": [],
     "specialRewardList": [],
     "buyType": "Money",
-    "value": 168.0,
+    "value": 12.0,
     "buyItemList": [],
-    "superValue": 800,
+    "superValue": 200,
     "purchase": true,
     "purchaseNum": 1,
     "limitBuyType": "Monthly",
@@ -9152,8 +9165,8 @@
     "des": -1,
     "desColor": "",
     "tipsDesColor": "",
-    "iconPath": "UI/Store/Store_gift_icon_11",
-    "buyPath": "UI/Common/BuyGiftTips/gift_type_11",
+    "iconPath": "UI/Store/Store_gift_icon_85",
+    "buyPath": "UI/Common/BuyGiftTips/gift_type_63",
     "isTips": true,
     "rewardList": [
       {
@@ -9170,9 +9183,9 @@
     "rewardFollowList": [],
     "specialRewardList": [],
     "buyType": "Money",
-    "value": 168.0,
+    "value": 68.0,
     "buyItemList": [],
-    "superValue": 800,
+    "superValue": 200,
     "purchase": true,
     "purchaseNum": 1,
     "limitBuyType": "Monthly",
@@ -9351,5 +9364,60 @@
     "isTriggerTime": false,
     "continueTime": 0,
     "isRedPoint": true
+  },
+  {
+    "id": 82100480,
+    "idCN": "07火车皮肤礼包/瓦沙克号",
+    "mod": "基础商品",
+    "isInformalData": false,
+    "costId": "lsns_20009",
+    "correspondStore": 40300065,
+    "correspondCharacter": -1,
+    "name": "波士机器人号",
+    "describe": "",
+    "isText": true,
+    "showType": "Awake",
+    "title": 80608799,
+    "des": 80608834,
+    "desColor": "#795730",
+    "tipsDesColor": "#795730",
+    "iconPath": "UI/Store/Store_gift_icon_bks",
+    "buyPath": "UI/Common/BuyGiftTips/skin_type_bks",
+    "isTips": true,
+    "rewardList": [
+      {
+        "id": 11400358,
+        "num": 1
+      },
+      {
+        "id": 11400005,
+        "num": 1280
+      }
+    ],
+    "isFirst": false,
+    "rewardFirstList": [],
+    "rewardFollowList": [],
+    "specialRewardList": [],
+    "buyType": "Money",
+    "value": 128.0,
+    "buyItemList": [],
+    "superValue": 0,
+    "purchase": true,
+    "purchaseNum": 1,
+    "limitBuyType": "Forever",
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "isBuyCondition": false,
+    "gradeCondition": 0,
+    "ismonthCard": false,
+    "showList": [],
+    "isCharacterSkin": true,
+    "BattlePassLevel": 0,
+    "isTriggerTime": false,
+    "continueTime": 0,
+    "isRedPoint": true,
+    "isGuide": false,
+    "buyNumGuide": 2
   }
 ]
