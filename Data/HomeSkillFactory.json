@@ -252,7 +252,7 @@
   },
   {
     "id": 83900018,
-    "idCN": "交易所/减少议价失败增加的疲劳值/从长计议",
+    "idCN": "交易所/减少议价失败疲劳值/从长计议",
     "mod": "增加可购买数量",
     "isInformalData": false,
     "name": "从长计议",
@@ -268,7 +268,7 @@
   },
   {
     "id": 83900020,
-    "idCN": "交易所/减少议价失败增加的疲劳值/从长计议+",
+    "idCN": "交易所/减少议价失败疲劳值/从长计议+",
     "mod": "增加可购买数量",
     "isInformalData": false,
     "name": "从长计议+",
@@ -1160,7 +1160,7 @@
   },
   {
     "id": 83900068,
-    "idCN": "产出/车厢收益/人气帅哥",
+    "idCN": "产出/客运/人气帅哥",
     "mod": "基础技能",
     "isInformalData": false,
     "name": "人气帅哥",
@@ -1173,7 +1173,7 @@
   },
   {
     "id": 83900069,
-    "idCN": "产出/车厢收益/人气帅哥+",
+    "idCN": "产出/客运/人气帅哥+",
     "mod": "基础技能",
     "isInformalData": false,
     "name": "人气帅哥+",
@@ -1182,11 +1182,12 @@
     "sort": 0,
     "homeSkillType": "AddFemaleGains",
     "param": 0.02,
+    "isReplace": true,
     "isPCT": true
   },
   {
     "id": 83900070,
-    "idCN": "产出/车厢收益/人气偶像",
+    "idCN": "产出/客运/人气偶像",
     "mod": "基础技能",
     "isInformalData": false,
     "name": "人气偶像",
@@ -1200,7 +1201,7 @@
   },
   {
     "id": 83900071,
-    "idCN": "产出/车厢收益/服务至上",
+    "idCN": "产出/客运/服务至上",
     "mod": "基础技能",
     "isInformalData": false,
     "name": "服务至上",
@@ -1214,7 +1215,7 @@
   },
   {
     "id": 83900072,
-    "idCN": "产出/车厢收益/服务至上+",
+    "idCN": "产出/客运/服务至上+",
     "mod": "基础技能",
     "isInformalData": false,
     "name": "服务至上+",
@@ -1267,7 +1268,7 @@
   },
   {
     "id": 83900076,
-    "idCN": "产出/车间/加工技术",
+    "idCN": "产出/制造加工/加工技术",
     "mod": "基础技能",
     "isInformalData": false,
     "name": "加工技术",
@@ -1535,7 +1536,7 @@
     "tag": 4,
     "sort": 0,
     "homeSkillType": "RiseFliersSaveLimited",
-    "param": 20.0,
+    "param": 25.0,
     "isReplace": true,
     "isPCT": false
   },
@@ -1632,6 +1633,7 @@
     "sort": 0,
     "homeSkillType": "AddPlantScores",
     "param": 0.05,
+    "isReplace": true,
     "isPCT": true
   },
   {
@@ -2304,7 +2306,7 @@
   },
   {
     "id": 83900149,
-    "idCN": "交易所/增加议价失败后下次成功率/好事多磨",
+    "idCN": "交易所/下次议价成功率/好事多磨",
     "mod": "基础技能",
     "isInformalData": false,
     "name": "好事多磨",
@@ -2318,7 +2320,7 @@
   },
   {
     "id": 83900150,
-    "idCN": "交易所/增加议价失败后下次成功率/好事多磨+",
+    "idCN": "交易所/下次议价成功率/好事多磨+",
     "mod": "基础技能",
     "isInformalData": false,
     "name": "好事多磨+",
@@ -2332,7 +2334,7 @@
   },
   {
     "id": 83900151,
-    "idCN": "交易所/每次第1次议价成功率/一鼓作气",
+    "idCN": "交易所/第1次议价成功率/一鼓作气",
     "mod": "基础技能",
     "isInformalData": false,
     "name": "一鼓作气",
@@ -2346,7 +2348,7 @@
   },
   {
     "id": 83900152,
-    "idCN": "交易所/每次第1次议价成功率/一鼓作气+",
+    "idCN": "交易所/第1次议价成功率/一鼓作气+",
     "mod": "基础技能",
     "isInformalData": false,
     "name": "一鼓作气+",
@@ -2572,7 +2574,7 @@
   },
   {
     "id": 83900164,
-    "idCN": "产出/车间/加工技术+",
+    "idCN": "产出/制造加工/加工技术+",
     "mod": "基础技能",
     "isInformalData": false,
     "name": "加工技术+",
@@ -2774,6 +2776,514 @@
     "tag": 2,
     "sort": 0,
     "homeSkillType": "AddEntrustReward",
+    "param": 0.03,
+    "isReplace": true,
+    "isPCT": true
+  },
+  {
+    "id": 83900177,
+    "idCN": "增加上限/疲劳值/永恒",
+    "mod": "基础技能",
+    "isInformalData": false,
+    "name": "永恒",
+    "desc": "疲劳值上限+%s",
+    "tag": 4,
+    "sort": 0,
+    "homeSkillType": "RiseEnergyLimited",
+    "param": 8.0,
+    "isReplace": true,
+    "isPCT": false
+  },
+  {
+    "id": 83900178,
+    "idCN": "增加上限/澄明度/晨光",
+    "mod": "基础技能",
+    "isInformalData": false,
+    "name": "晨光",
+    "desc": "澄明度上限+%s",
+    "tag": 4,
+    "sort": 0,
+    "homeSkillType": "AddEnergyMax",
+    "param": 4.0,
+    "isReplace": true,
+    "isPCT": false
+  },
+  {
+    "id": 83900179,
+    "idCN": "产出/海岛/海岛管理",
+    "mod": "基础技能",
+    "isInformalData": false,
+    "name": "海岛管理",
+    "desc": "海岛经营收益+%s%%",
+    "tag": 2,
+    "sort": 0,
+    "homeSkillType": "RiseFansRate",
+    "param": 0.01,
+    "isReplace": true,
+    "isPCT": true
+  },
+  {
+    "id": 83900180,
+    "idCN": "产出/客运/乘务管理",
+    "mod": "基础技能",
+    "isInformalData": false,
+    "name": "乘务管理",
+    "desc": "客运收益+%s%%",
+    "tag": 2,
+    "sort": 0,
+    "homeSkillType": "AddPassengerGains",
+    "param": 0.02,
+    "isReplace": true,
+    "isPCT": true
+  },
+  {
+    "id": 83900181,
+    "idCN": "交易所/指定交易品买卖/单晶硅-皮肤",
+    "mod": "增加可购买数量",
+    "isInformalData": false,
+    "name": "指定交易品买卖",
+    "desc": "单晶硅可买入数量+%s%%",
+    "tag": 1,
+    "sort": 765,
+    "homeSkillType": "AddQty",
+    "param": 0.1,
+    "isReplace": true,
+    "isPCT": true,
+    "city": -1,
+    "goodsList": [
+      {
+        "id": 82900079
+      }
+    ]
+  },
+  {
+    "id": 83900182,
+    "idCN": "家园相关/评分/火爆女仆",
+    "mod": "基础技能",
+    "isInformalData": false,
+    "name": "火爆女仆",
+    "desc": "美味评分+%s%%",
+    "tag": 3,
+    "sort": 0,
+    "homeSkillType": "AddFoodScores",
+    "param": 0.05,
+    "isReplace": true,
+    "isPCT": true
+  },
+  {
+    "id": 83900183,
+    "idCN": "增加上限/疲劳值/瞌睡虫",
+    "mod": "基础技能",
+    "isInformalData": false,
+    "name": "瞌睡虫",
+    "desc": "疲劳值上限+%s",
+    "tag": 4,
+    "sort": 0,
+    "homeSkillType": "RiseEnergyLimited",
+    "param": 8.0,
+    "isReplace": true,
+    "isPCT": false
+  },
+  {
+    "id": 83900184,
+    "idCN": "交易所/指定交易品买卖/太阳电池阵-皮肤",
+    "mod": "增加可购买数量",
+    "isInformalData": false,
+    "name": "指定交易品买卖",
+    "desc": "太阳电池阵可买入数量+%s%%",
+    "tag": 1,
+    "sort": 665,
+    "homeSkillType": "AddQty",
+    "param": 0.1,
+    "isReplace": true,
+    "isPCT": true,
+    "city": -1,
+    "goodsList": [
+      {
+        "id": 82900179
+      }
+    ]
+  },
+  {
+    "id": 83900185,
+    "idCN": "交易所/指定交易品买卖/花呢上衣-皮肤",
+    "mod": "增加可购买数量",
+    "isInformalData": false,
+    "name": "指定交易品买卖",
+    "desc": "花呢上衣可买入数量+%s%%",
+    "tag": 1,
+    "sort": 735,
+    "homeSkillType": "AddQty",
+    "param": 0.1,
+    "isReplace": true,
+    "isPCT": true,
+    "city": -1,
+    "goodsList": [
+      {
+        "id": 82900225
+      }
+    ]
+  },
+  {
+    "id": 83900186,
+    "idCN": "列车/加速/追风者",
+    "mod": "基础技能",
+    "isInformalData": false,
+    "name": "追风者",
+    "desc": "列车最高时速+%skm/时",
+    "tag": 4,
+    "sort": 0,
+    "homeSkillType": "AddSpeed",
+    "param": 5.0,
+    "isReplace": true,
+    "isPCT": false
+  },
+  {
+    "id": 83900187,
+    "idCN": "其他增益/喝一杯/海风微醺",
+    "mod": "基础技能",
+    "isInformalData": false,
+    "name": "海风微醺",
+    "desc": "银枝气泡水额外消除%s点疲劳值",
+    "tag": 4,
+    "sort": 0,
+    "homeSkillType": "RiseBentoEnergy",
+    "param": 2.0,
+    "isReplace": true,
+    "isPCT": false
+  },
+  {
+    "id": 83900188,
+    "idCN": "产出/素材回收/阿妮塔能源研究所",
+    "mod": "基础技能",
+    "isInformalData": false,
+    "name": "素材回收",
+    "desc": "阿妮塔能源研究所的素材回收价格+%s%%",
+    "tag": 2,
+    "sort": 0,
+    "homeSkillType": "RiseFansRate",
+    "param": 0.05,
+    "isReplace": true,
+    "isPCT": true
+  },
+  {
+    "id": 83900189,
+    "idCN": "交易所/指定交易品买卖/帝王蟹-皮肤",
+    "mod": "增加可购买数量",
+    "isInformalData": false,
+    "name": "指定交易品买卖",
+    "desc": "帝王蟹可买入数量+%s%%",
+    "tag": 1,
+    "sort": 755,
+    "homeSkillType": "AddQty",
+    "param": 0.1,
+    "isReplace": true,
+    "isPCT": true,
+    "city": -1,
+    "goodsList": [
+      {
+        "id": 82900221
+      }
+    ]
+  },
+  {
+    "id": 83900190,
+    "idCN": "产出/委派巡逻/遣巡",
+    "mod": "基础技能",
+    "isInformalData": false,
+    "name": "遣巡",
+    "desc": "委派巡逻的铁盟币收益+%s%%",
+    "tag": 2,
+    "sort": 0,
+    "homeSkillType": "AddEntrustReward",
+    "param": 0.03,
+    "isReplace": true,
+    "isPCT": true
+  },
+  {
+    "id": 83900191,
+    "idCN": "交易所/指定交易品买卖/学会纪念品-皮肤",
+    "mod": "增加可购买数量",
+    "isInformalData": false,
+    "name": "指定交易品买卖",
+    "desc": "学会纪念品可买入数量+%s%%",
+    "tag": 1,
+    "sort": 655,
+    "homeSkillType": "AddQty",
+    "param": 0.1,
+    "isReplace": true,
+    "isPCT": true,
+    "city": -1,
+    "goodsList": [
+      {
+        "id": 82900287
+      }
+    ]
+  },
+  {
+    "id": 83900192,
+    "idCN": "产出/海岛/西瓜之主",
+    "mod": "基础技能",
+    "isInformalData": false,
+    "name": "西瓜之主",
+    "desc": "海岛经营收益+%s%%",
+    "tag": 2,
+    "sort": 0,
+    "homeSkillType": "RiseFansRate",
+    "param": 0.01,
+    "isReplace": true,
+    "isPCT": true
+  },
+  {
+    "id": 83900193,
+    "idCN": "交易所/指定交易品买卖/芳纶纤维-皮肤",
+    "mod": "增加可购买数量",
+    "isInformalData": false,
+    "name": "指定交易品买卖",
+    "desc": "芳纶纤维可买入数量+%s%%",
+    "tag": 1,
+    "sort": 745,
+    "homeSkillType": "AddQty",
+    "param": 0.1,
+    "isReplace": true,
+    "isPCT": true,
+    "city": -1,
+    "goodsList": [
+      {
+        "id": 82900256
+      }
+    ]
+  },
+  {
+    "id": 83900194,
+    "idCN": "交易所/指定交易品买卖/鱼肝油-皮肤",
+    "mod": "增加可购买数量",
+    "isInformalData": false,
+    "name": "指定交易品买卖",
+    "desc": "鱼肝油可买入数量+%s%%",
+    "tag": 1,
+    "sort": 615,
+    "homeSkillType": "AddQty",
+    "param": 0.1,
+    "isReplace": true,
+    "isPCT": true,
+    "city": -1,
+    "goodsList": [
+      {
+        "id": 82900284
+      }
+    ]
+  },
+  {
+    "id": 83900195,
+    "idCN": "列车/闪点发生器/惊爆点",
+    "mod": "基础技能",
+    "isInformalData": false,
+    "name": "惊爆点",
+    "desc": "闪点发生器的持续时间+%s",
+    "tag": 4,
+    "sort": 0,
+    "homeSkillType": "RiseTrainWeaponATK",
+    "param": 5.0,
+    "isReplace": true,
+    "isPCT": false
+  },
+  {
+    "id": 83900196,
+    "idCN": "增加上限/载货上限/空间整理",
+    "mod": "基础技能",
+    "isInformalData": false,
+    "name": "空间整理",
+    "desc": "列车载货量上限+%s",
+    "tag": 4,
+    "sort": 0,
+    "homeSkillType": "RiseSpaceLimited",
+    "param": 5.0,
+    "isReplace": true,
+    "isPCT": false
+  },
+  {
+    "id": 83900197,
+    "idCN": "产出/素材回收/阿妮塔观测站",
+    "mod": "基础技能",
+    "isInformalData": false,
+    "name": "素材回收",
+    "desc": "阿妮塔观测站的素材回收价格+%s%%",
+    "tag": 2,
+    "sort": 0,
+    "homeSkillType": "RiseFansRate",
+    "param": 0.05,
+    "isReplace": true,
+    "isPCT": true
+  },
+  {
+    "id": 83900198,
+    "idCN": "交易所/砍价幅度/砍价技巧-皮肤",
+    "mod": "基础技能",
+    "isInformalData": false,
+    "name": "砍价技巧",
+    "desc": "交易所砍价幅度+%s%%",
+    "tag": 1,
+    "sort": 999,
+    "homeSkillType": "HaggleRange",
+    "param": 0.002,
+    "isReplace": true,
+    "isPCT": true
+  },
+  {
+    "id": 83900199,
+    "idCN": "交易所/抬价幅度/抬价技巧-皮肤",
+    "mod": "基础技能",
+    "isInformalData": false,
+    "name": "抬价技巧",
+    "desc": "交易所抬价幅度+%s%%",
+    "tag": 1,
+    "sort": 989,
+    "homeSkillType": "RiseRange",
+    "param": 0.002,
+    "isReplace": true,
+    "isPCT": true
+  },
+  {
+    "id": 83900200,
+    "idCN": "产出/客运/闪耀之旅",
+    "mod": "基础技能",
+    "isInformalData": false,
+    "name": "闪耀之旅",
+    "desc": "客运收益+%s%%",
+    "tag": 2,
+    "sort": 0,
+    "homeSkillType": "AddPassengerGains",
+    "param": 0.03,
+    "isReplace": true,
+    "isPCT": true
+  },
+  {
+    "id": 83900201,
+    "idCN": "交易所/特产品买卖/汇流塔-皮肤",
+    "mod": "增加可购买数量",
+    "isInformalData": false,
+    "name": "特产品买卖",
+    "desc": "汇流塔交易所特产品可买入数量+%s%%",
+    "tag": 1,
+    "sort": 913,
+    "homeSkillType": "AddSpecQty",
+    "param": 0.1,
+    "isReplace": true,
+    "isPCT": true,
+    "city": 83000030,
+    "goodsList": []
+  },
+  {
+    "id": 83900202,
+    "idCN": "产出/素材回收/形而上粒子研究所",
+    "mod": "基础技能",
+    "isInformalData": false,
+    "name": "素材回收",
+    "desc": "形而上粒子研究所的素材回收价格+%s%%",
+    "tag": 2,
+    "sort": 0,
+    "homeSkillType": "RiseFansRate",
+    "param": 0.05,
+    "isReplace": true,
+    "isPCT": true
+  },
+  {
+    "id": 83900203,
+    "idCN": "交易所/指定交易品买卖/游戏机和游戏卡带-皮肤",
+    "mod": "增加可购买数量",
+    "isInformalData": false,
+    "name": "指定交易品买卖",
+    "desc": "游戏机和游戏卡带可买入数量+%s%%",
+    "tag": 1,
+    "sort": 619,
+    "homeSkillType": "AddQty",
+    "param": 0.1,
+    "isReplace": true,
+    "isPCT": true,
+    "city": -1,
+    "goodsList": [
+      {
+        "id": 82900152
+      },
+      {
+        "id": 82900153
+      }
+    ]
+  },
+  {
+    "id": 83900204,
+    "idCN": "交易所/指定交易品买卖/沙金-皮肤",
+    "mod": "增加可购买数量",
+    "isInformalData": false,
+    "name": "指定交易品买卖",
+    "desc": "沙金可买入数量+%s%%",
+    "tag": 1,
+    "sort": 201,
+    "homeSkillType": "AddQty",
+    "param": 0.1,
+    "isReplace": true,
+    "isPCT": true,
+    "city": -1,
+    "goodsList": [
+      {
+        "id": 82900015
+      }
+    ]
+  },
+  {
+    "id": 83900205,
+    "idCN": "交易所/指定交易品买卖/珍珠-皮肤",
+    "mod": "增加可购买数量",
+    "isInformalData": false,
+    "name": "指定交易品买卖",
+    "desc": "珍珠可买入数量+%s%%",
+    "tag": 1,
+    "sort": 599,
+    "homeSkillType": "AddQty",
+    "param": 0.1,
+    "isReplace": true,
+    "isPCT": true,
+    "city": -1,
+    "goodsList": [
+      {
+        "id": 82900024
+      }
+    ]
+  },
+  {
+    "id": 83900206,
+    "idCN": "交易所/指定交易品买卖/蜂窝防热烧蚀材料和钛矿石-皮肤",
+    "mod": "增加可购买数量",
+    "isInformalData": false,
+    "name": "指定交易品买卖",
+    "desc": "蜂窝防热烧蚀材料和钛矿石可买入数量+%s%%",
+    "tag": 1,
+    "sort": 801,
+    "homeSkillType": "AddQty",
+    "param": 0.1,
+    "isReplace": true,
+    "isPCT": true,
+    "city": -1,
+    "goodsList": [
+      {
+        "id": 82900180
+      },
+      {
+        "id": 82900198
+      }
+    ]
+  },
+  {
+    "id": 83900207,
+    "idCN": "产出/客运/服务至上-皮肤",
+    "mod": "基础技能",
+    "isInformalData": false,
+    "name": "服务至上",
+    "desc": "客运收益+%s%%",
+    "tag": 2,
+    "sort": 0,
+    "homeSkillType": "AddPassengerGains",
     "param": 0.03,
     "isReplace": true,
     "isPCT": true

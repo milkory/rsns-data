@@ -28808,6 +28808,13 @@
     "targetCount": 0
   },
   {
+    "id": 10502549,
+    "idCN": "我方/05五星/联动男/共振4狂暴自身",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10400073
+  },
+  {
     "id": 10502543,
     "idCN": "敌方/99化物/宝箱小狗-后/普攻1",
     "mod": "子弹事件",
@@ -28958,5 +28965,69 @@
     "filterPosition": "DefaultPos",
     "isAimSelf": false,
     "targetCount": 99
+  },
+  {
+    "id": 10502550,
+    "idCN": "我方/05五星/联动男/共振4吸收子弹",
+    "mod": "子弹事件",
+    "isInformalData": false,
+    "buffId": -1,
+    "bulletId": 11200458,
+    "targetType": "CurrentTarget",
+    "offSetX_SN": 0,
+    "offSetZ_SN": 0,
+    "isUseTargetFilter": false,
+    "isIgnoreInvisibleEnemy": true,
+    "targetFilterType": "Ally",
+    "targetTagList": [
+      {
+        "tagId": 12600246
+      }
+    ],
+    "tagType": "And",
+    "halfWidth_SN": 240000,
+    "attributeType": "CurrentHp",
+    "condition": "Max",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 1
+  },
+  {
+    "id": 10502551,
+    "idCN": "深渊/07期/裂首骨龙/出场召唤头2",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10413273
+  },
+  {
+    "id": 10502552,
+    "idCN": "深渊/07期/共用/技能3-1",
+    "mod": "攻击事件",
+    "isInformalData": false,
+    "buffId": 10413365,
+    "hitSoundID": -1
+  },
+  {
+    "id": 10502553,
+    "idCN": "深渊/07期/共用/技能3-2",
+    "mod": "攻击事件",
+    "isInformalData": false,
+    "buffId": 10413369,
+    "hitSoundID": -1
+  },
+  {
+    "id": 10502554,
+    "idCN": "深渊/07期/共用/技能3-3",
+    "mod": "攻击事件",
+    "isInformalData": false,
+    "buffId": 10413364,
+    "hitSoundID": -1
   }
 ]
