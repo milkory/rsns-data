@@ -80911,7 +80911,6 @@
         "weight": 10
       }
     ],
-    "isAutoTrace": true,
     "traceList": [
       {
         "apiListId": 86500038,
@@ -80972,7 +80971,8 @@
     "preLevel": [],
     "correspondActivity": -1,
     "buffActivate": -1,
-    "showType": "Txt"
+    "showType": "Txt",
+    "isAutoTrace": true
   },
   {
     "id": 81000210,
@@ -146951,7 +146951,7 @@
   },
   {
     "id": 81002134,
-    "idCN": "活动/酒店疑案：叩响乐园之门/支线/任务1",
+    "idCN": "废弃/支线/任务1",
     "mod": "活动任务",
     "isInformalData": false,
     "name": "【活动】酒店疑案：叩响乐园之门",
@@ -147074,7 +147074,7 @@
     "conditionList": [
       {
         "key": "levelId",
-        "val": "20100800"
+        "val": "20101237"
       }
     ],
     "num": 1,
@@ -147084,7 +147084,16 @@
     "isShowReceive": false,
     "parentQuest": -1,
     "childQuestList": [],
-    "rewardsList": [],
+    "rewardsList": [
+      {
+        "id": 11400112,
+        "num": 20
+      },
+      {
+        "id": 11400067,
+        "num": 1
+      }
+    ],
     "nextQuest": [
       {
         "id": 81002136
@@ -147097,7 +147106,7 @@
     "eventList": [],
     "environmentList": [],
     "isTime": false,
-    "activityId": 86000009,
+    "activityId": 86000038,
     "startTime": "",
     "endTime": "",
     "preQuest": [],
@@ -147120,8 +147129,8 @@
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
-    "client": 82600296,
-    "startStation": 83000029,
+    "client": 82600093,
+    "startStation": 83000004,
     "endStationList": [
       {
         "id": 83000004,
@@ -147153,7 +147162,16 @@
     "isShowReceive": false,
     "parentQuest": -1,
     "childQuestList": [],
-    "rewardsList": [],
+    "rewardsList": [
+      {
+        "id": 11400112,
+        "num": 20
+      },
+      {
+        "id": 11400067,
+        "num": 1
+      }
+    ],
     "nextQuest": [
       {
         "id": 81002137
@@ -147166,7 +147184,7 @@
     "eventList": [],
     "environmentList": [],
     "isTime": false,
-    "activityId": 86000009,
+    "activityId": 86000038,
     "startTime": "",
     "endTime": "",
     "preQuest": [],
@@ -147222,7 +147240,16 @@
     "isShowReceive": false,
     "parentQuest": -1,
     "childQuestList": [],
-    "rewardsList": [],
+    "rewardsList": [
+      {
+        "id": 11400112,
+        "num": 20
+      },
+      {
+        "id": 11400067,
+        "num": 1
+      }
+    ],
     "nextQuest": [
       {
         "id": 81002138
@@ -147235,7 +147262,7 @@
     "eventList": [],
     "environmentList": [],
     "isTime": false,
-    "activityId": 86000009,
+    "activityId": 86000038,
     "startTime": "",
     "endTime": "",
     "preQuest": [],
@@ -147247,12 +147274,12 @@
   },
   {
     "id": 81002138,
-    "idCN": "活动/酒店疑案/支线/任务4",
+    "idCN": "活动/酒店疑案/支线/任务4-战斗",
     "mod": "活动任务",
     "isInformalData": false,
-    "name": "【活动】淘金大酒店",
-    "describe": "前往澄明数据中心与摩尔对话",
-    "story": "摩尔先生欢迎我们来到嘉年华，但似乎有哪里不太对劲？",
+    "name": "【活动】“遗产”",
+    "describe": "和飞鸟在酒店走廊对话。",
+    "story": "飞鸟和阿尔塞恩好像有什么秘密，令人十分在意。",
     "questType": "Side",
     "sort": 12,
     "isShowProgress": false,
@@ -147272,12 +147299,6 @@
         "btnListId": 86500036,
         "traceId": 86500029,
         "uiPath": "UI/MainUI/MainUI"
-      },
-      {
-        "apiListId": -1,
-        "btnListId": -1,
-        "traceId": 86500092,
-        "uiPath": "UI/CityMap/CityMap"
       }
     ],
     "isSwitchUI": false,
@@ -147286,13 +147307,13 @@
     "startLevel": 0,
     "conditionList": [
       {
-        "key": "dialog",
-        "val": "0"
+        "key": "levelId",
+        "val": "20101248"
       }
     ],
     "num": 1,
     "islockAddProgress": false,
-    "isAutoComplete": false,
+    "isAutoComplete": true,
     "checkComplete": false,
     "isShowReceive": false,
     "parentQuest": -1,
@@ -147309,7 +147330,7 @@
     ],
     "nextQuest": [
       {
-        "id": 81000210
+        "id": 81000213
       }
     ],
     "changeCityStateList": [],
@@ -147319,7 +147340,7 @@
     "eventList": [],
     "environmentList": [],
     "isTime": false,
-    "activityId": 86000009,
+    "activityId": 86000038,
     "startTime": "",
     "endTime": "",
     "preQuest": [],
@@ -147334,16 +147355,16 @@
     "idCN": "活动/酒店疑案/支线/任务5",
     "mod": "活动任务",
     "isInformalData": false,
-    "name": "【活动】淘金大酒店",
-    "describe": "前往澄明数据中心与摩尔对话",
-    "story": "摩尔先生欢迎我们来到嘉年华，但似乎有哪里不太对劲？",
+    "name": "【活动】第二轮游戏",
+    "describe": "和故事先生在酒店大厅对话。",
+    "story": "参加黑月为客人们准备的寻宝游戏。",
     "questType": "Side",
     "sort": 12,
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
-    "client": 82600296,
-    "startStation": 83000029,
+    "client": 82600609,
+    "startStation": 83000004,
     "endStationList": [
       {
         "id": 83000029,
@@ -147356,12 +147377,6 @@
         "btnListId": 86500036,
         "traceId": 86500029,
         "uiPath": "UI/MainUI/MainUI"
-      },
-      {
-        "apiListId": -1,
-        "btnListId": -1,
-        "traceId": 86500092,
-        "uiPath": "UI/CityMap/CityMap"
       }
     ],
     "isSwitchUI": false,
@@ -147393,7 +147408,7 @@
     ],
     "nextQuest": [
       {
-        "id": 81000210
+        "id": -1
       }
     ],
     "changeCityStateList": [],
@@ -147403,7 +147418,7 @@
     "eventList": [],
     "environmentList": [],
     "isTime": false,
-    "activityId": 86000009,
+    "activityId": 86000038,
     "startTime": "",
     "endTime": "",
     "preQuest": [],
@@ -147418,19 +147433,19 @@
     "idCN": "活动/酒店疑案/支线/任务6",
     "mod": "活动任务",
     "isInformalData": false,
-    "name": "【活动】淘金大酒店",
-    "describe": "前往澄明数据中心与摩尔对话",
-    "story": "摩尔先生欢迎我们来到嘉年华，但似乎有哪里不太对劲？",
+    "name": "【活动】第三轮游戏",
+    "describe": "参加黑月为客人们准备的情景推理游戏。",
+    "story": "参加黑月为客人们准备的情景推理游戏。",
     "questType": "Side",
     "sort": 12,
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
-    "client": 82600296,
-    "startStation": 83000029,
+    "client": 82600609,
+    "startStation": 83000004,
     "endStationList": [
       {
-        "id": 83000029,
+        "id": 83000004,
         "weight": 10
       }
     ],
@@ -147440,12 +147455,6 @@
         "btnListId": 86500036,
         "traceId": 86500029,
         "uiPath": "UI/MainUI/MainUI"
-      },
-      {
-        "apiListId": -1,
-        "btnListId": -1,
-        "traceId": 86500092,
-        "uiPath": "UI/CityMap/CityMap"
       }
     ],
     "isSwitchUI": false,
@@ -147477,7 +147486,7 @@
     ],
     "nextQuest": [
       {
-        "id": 81000210
+        "id": 81000215
       }
     ],
     "changeCityStateList": [],
@@ -147487,7 +147496,7 @@
     "eventList": [],
     "environmentList": [],
     "isTime": false,
-    "activityId": 86000009,
+    "activityId": 86000038,
     "startTime": "",
     "endTime": "",
     "preQuest": [],
@@ -147502,7 +147511,7 @@
     "idCN": "活动/酒店疑案/支线/任务7",
     "mod": "活动任务",
     "isInformalData": false,
-    "name": "【活动】淘金大酒店",
+    "name": "【活动】EV4-9",
     "describe": "前往澄明数据中心与摩尔对话",
     "story": "摩尔先生欢迎我们来到嘉年华，但似乎有哪里不太对劲？",
     "questType": "Side",
