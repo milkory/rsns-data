@@ -80911,6 +80911,7 @@
         "weight": 10
       }
     ],
+    "isAutoTrace": true,
     "traceList": [
       {
         "apiListId": 86500038,
@@ -80971,8 +80972,7 @@
     "preLevel": [],
     "correspondActivity": -1,
     "buffActivate": -1,
-    "showType": "Txt",
-    "isAutoTrace": true
+    "showType": "Txt"
   },
   {
     "id": 81000210,
@@ -146891,19 +146891,27 @@
     "isInformalData": false,
     "name": "完成关卡",
     "describe": "",
-    "story": "“表象”入口",
+    "story": "“归纳”乐园之门",
     "questType": "Activity",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
     "sort": 99,
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
+    "isFURNQuest": false,
     "client": -1,
     "startStation": -1,
     "endStationList": [],
+    "isAutoTrace": false,
     "traceList": [],
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
     "startLevel": 0,
     "conditionList": [
       {
@@ -146916,6 +146924,9 @@
     "isAutoComplete": false,
     "checkComplete": false,
     "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
     "parentQuest": -1,
     "childQuestList": [],
     "rewardsList": [
@@ -146947,7 +146958,8 @@
     "preLevel": [],
     "correspondActivity": -1,
     "buffActivate": -1,
-    "showType": "Txt"
+    "showType": "Txt",
+    "returnNum": 1
   },
   {
     "id": 81002134,
@@ -147042,7 +147054,7 @@
     "story": "昔日荒凉的淘金大酒店焕然一新，但是门口似乎有一些可疑的人在徘徊……",
     "questType": "Side",
     "sort": 12,
-    "isShowProgress": false,
+    "isShowProgress": true,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
     "client": 82600093,
@@ -147096,7 +147108,7 @@
     ],
     "nextQuest": [
       {
-        "id": 81002136
+        "id": 81002143
       }
     ],
     "changeCityStateList": [],
@@ -147508,12 +147520,12 @@
   },
   {
     "id": 81002141,
-    "idCN": "活动/酒店疑案/支线/任务7",
+    "idCN": "活动/酒店疑案/支线/任务7-战斗",
     "mod": "活动任务",
     "isInformalData": false,
     "name": "【活动】EV4-9",
-    "describe": "前往澄明数据中心与摩尔对话",
-    "story": "摩尔先生欢迎我们来到嘉年华，但似乎有哪里不太对劲？",
+    "describe": "暂缺",
+    "story": "暂缺",
     "questType": "Side",
     "sort": 12,
     "isShowProgress": false,
@@ -147533,12 +147545,6 @@
         "btnListId": 86500036,
         "traceId": 86500029,
         "uiPath": "UI/MainUI/MainUI"
-      },
-      {
-        "apiListId": -1,
-        "btnListId": -1,
-        "traceId": 86500092,
-        "uiPath": "UI/CityMap/CityMap"
       }
     ],
     "isSwitchUI": false,
@@ -147547,8 +147553,8 @@
     "startLevel": 0,
     "conditionList": [
       {
-        "key": "dialog",
-        "val": "0"
+        "key": "levelId",
+        "val": "20101251"
       }
     ],
     "num": 1,
@@ -147570,7 +147576,7 @@
     ],
     "nextQuest": [
       {
-        "id": 81000210
+        "id": -1
       }
     ],
     "changeCityStateList": [],
@@ -147580,7 +147586,7 @@
     "eventList": [],
     "environmentList": [],
     "isTime": false,
-    "activityId": 86000009,
+    "activityId": 86000038,
     "startTime": "",
     "endTime": "",
     "preQuest": [],
@@ -147592,19 +147598,19 @@
   },
   {
     "id": 81002142,
-    "idCN": "活动/酒店疑案/支线/任务8",
+    "idCN": "活动/酒店疑案/支线/任务8-副本",
     "mod": "活动任务",
     "isInformalData": false,
-    "name": "【活动】淘金大酒店",
-    "describe": "前往澄明数据中心与摩尔对话",
-    "story": "摩尔先生欢迎我们来到嘉年华，但似乎有哪里不太对劲？",
+    "name": "【活动】探求真相",
+    "describe": "在淘金大酒店内四处探索，跨越障碍。",
+    "story": "与大家一起在空间扭曲的淘金大酒店内寻找脱离的方法。",
     "questType": "Side",
     "sort": 12,
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
-    "client": 82600296,
-    "startStation": 83000029,
+    "client": 82600041,
+    "startStation": 83000004,
     "endStationList": [
       {
         "id": 83000029,
@@ -147617,31 +147623,36 @@
         "btnListId": 86500036,
         "traceId": 86500029,
         "uiPath": "UI/MainUI/MainUI"
-      },
-      {
-        "apiListId": -1,
-        "btnListId": -1,
-        "traceId": 86500092,
-        "uiPath": "UI/CityMap/CityMap"
       }
     ],
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
     "startLevel": 0,
-    "conditionList": [
-      {
-        "key": "dialog",
-        "val": "0"
-      }
-    ],
+    "conditionList": [],
     "num": 1,
     "islockAddProgress": false,
-    "isAutoComplete": false,
+    "isAutoComplete": true,
     "checkComplete": false,
     "isShowReceive": false,
     "parentQuest": -1,
-    "childQuestList": [],
+    "childQuestList": [
+      {
+        "id": 81002212
+      },
+      {
+        "id": 81002213
+      },
+      {
+        "id": 81002214
+      },
+      {
+        "id": 81002215
+      },
+      {
+        "id": 81002216
+      }
+    ],
     "rewardsList": [
       {
         "id": 11400112,
@@ -147679,19 +147690,19 @@
     "idCN": "活动/酒店疑案/支线/任务9",
     "mod": "活动任务",
     "isInformalData": false,
-    "name": "【活动】淘金大酒店",
-    "describe": "前往澄明数据中心与摩尔对话",
-    "story": "摩尔先生欢迎我们来到嘉年华，但似乎有哪里不太对劲？",
+    "name": "【活动】揭开假面",
+    "describe": "在酒店套房内与等候多时的他见面。",
+    "story": "是时候与真正的他来一次正式谈话了。",
     "questType": "Side",
     "sort": 12,
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
-    "client": 82600296,
-    "startStation": 83000029,
+    "client": 82600610,
+    "startStation": 83000004,
     "endStationList": [
       {
-        "id": 83000029,
+        "id": 83000004,
         "weight": 10
       }
     ],
@@ -147701,12 +147712,6 @@
         "btnListId": 86500036,
         "traceId": 86500029,
         "uiPath": "UI/MainUI/MainUI"
-      },
-      {
-        "apiListId": -1,
-        "btnListId": -1,
-        "traceId": 86500092,
-        "uiPath": "UI/CityMap/CityMap"
       }
     ],
     "isSwitchUI": false,
@@ -147736,9 +147741,1787 @@
         "num": 1
       }
     ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "activityId": 86000038,
+    "startTime": "",
+    "endTime": "",
+    "preQuest": [],
+    "preLevel": [],
+    "correspondActivity": -1,
+    "buffActivate": -1,
+    "showType": "Txt",
+    "isAutoTrace": true
+  },
+  {
+    "id": 81002202,
+    "idCN": "活动/酒店疑案/个人任务/任务14",
+    "mod": "活动任务",
+    "isInformalData": false,
+    "name": "完成关卡",
+    "describe": "",
+    "story": "“演绎”凋敝花园",
+    "questType": "Activity",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "sort": 99,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isFURNQuest": false,
+    "client": -1,
+    "startStation": -1,
+    "endStationList": [],
+    "isAutoTrace": false,
+    "traceList": [],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "levelId",
+        "val": "20100792"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400112,
+        "num": 100
+      },
+      {
+        "id": 11400217,
+        "num": 1
+      }
+    ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": true,
+    "activityId": -1,
+    "startTime": "2024-05-20 15:00:00",
+    "endTime": "2024-07-07 00:00:00",
+    "preQuest": [],
+    "preLevel": [],
+    "correspondActivity": -1,
+    "buffActivate": -1,
+    "showType": "Txt",
+    "returnNum": 1
+  },
+  {
+    "id": 81002209,
+    "idCN": "活动/酒店疑案/个人任务/任务15",
+    "mod": "活动任务",
+    "isInformalData": false,
+    "name": "完成关卡",
+    "describe": "",
+    "story": "“演绎”无光之影",
+    "questType": "Activity",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "sort": 99,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isFURNQuest": false,
+    "client": -1,
+    "startStation": -1,
+    "endStationList": [],
+    "isAutoTrace": false,
+    "traceList": [],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "levelId",
+        "val": "20100793"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400112,
+        "num": 100
+      },
+      {
+        "id": 11400217,
+        "num": 1
+      }
+    ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": true,
+    "activityId": -1,
+    "startTime": "2024-05-20 15:00:00",
+    "endTime": "2024-07-07 00:00:00",
+    "preQuest": [],
+    "preLevel": [],
+    "correspondActivity": -1,
+    "buffActivate": -1,
+    "showType": "Txt",
+    "returnNum": 1
+  },
+  {
+    "id": 81002148,
+    "idCN": "活动/酒店疑案/个人任务/任务8",
+    "mod": "活动任务",
+    "isInformalData": false,
+    "name": "完成关卡",
+    "describe": "",
+    "story": "“归纳”倾覆高塔",
+    "questType": "Activity",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "sort": 99,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isFURNQuest": false,
+    "client": -1,
+    "startStation": -1,
+    "endStationList": [],
+    "isAutoTrace": false,
+    "traceList": [],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "levelId",
+        "val": "20100786"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400112,
+        "num": 50
+      },
+      {
+        "id": 11400005,
+        "num": 50
+      },
+      {
+        "id": 86300002,
+        "num": 1
+      }
+    ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": true,
+    "activityId": -1,
+    "startTime": "2024-05-20 15:00:00",
+    "endTime": "2024-07-07 00:00:00",
+    "preQuest": [],
+    "preLevel": [],
+    "correspondActivity": -1,
+    "buffActivate": -1,
+    "showType": "Txt",
+    "returnNum": 1
+  },
+  {
+    "id": 81002149,
+    "idCN": "活动/酒店疑案/个人任务/任务7",
+    "mod": "活动任务",
+    "isInformalData": false,
+    "name": "完成关卡",
+    "describe": "",
+    "story": "“归纳”密室",
+    "questType": "Activity",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "sort": 99,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isFURNQuest": false,
+    "client": -1,
+    "startStation": -1,
+    "endStationList": [],
+    "isAutoTrace": false,
+    "traceList": [],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "levelId",
+        "val": "20100785"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400112,
+        "num": 50
+      },
+      {
+        "id": 11400005,
+        "num": 50
+      },
+      {
+        "id": 11400067,
+        "num": 1
+      }
+    ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": true,
+    "activityId": -1,
+    "startTime": "2024-05-20 15:00:00",
+    "endTime": "2024-07-07 00:00:00",
+    "preQuest": [],
+    "preLevel": [],
+    "correspondActivity": -1,
+    "buffActivate": -1,
+    "showType": "Txt",
+    "returnNum": 1
+  },
+  {
+    "id": 81002150,
+    "idCN": "活动/酒店疑案/个人任务/任务9",
+    "mod": "活动任务",
+    "isInformalData": false,
+    "name": "完成关卡",
+    "describe": "",
+    "story": "“演绎”倒悬门扉",
+    "questType": "Activity",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "sort": 99,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isFURNQuest": false,
+    "client": -1,
+    "startStation": -1,
+    "endStationList": [],
+    "isAutoTrace": false,
+    "traceList": [],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "levelId",
+        "val": "20100787"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400112,
+        "num": 100
+      },
+      {
+        "id": 11400217,
+        "num": 1
+      }
+    ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": true,
+    "activityId": -1,
+    "startTime": "2024-05-20 15:00:00",
+    "endTime": "2024-07-07 00:00:00",
+    "preQuest": [],
+    "preLevel": [],
+    "correspondActivity": -1,
+    "buffActivate": -1,
+    "showType": "Txt",
+    "returnNum": 1
+  },
+  {
+    "id": 81002151,
+    "idCN": "活动/酒店疑案/个人任务/任务22",
+    "mod": "活动任务",
+    "isInformalData": false,
+    "name": "以S级评分完成关卡",
+    "describe": "",
+    "story": "“演绎”凋敝花园",
+    "questType": "Activity",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "sort": 99,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isFURNQuest": false,
+    "client": -1,
+    "startStation": -1,
+    "endStationList": [],
+    "isAutoTrace": false,
+    "traceList": [],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "levelId",
+        "val": "20100792"
+      },
+      {
+        "key": "levelGrade",
+        "val": "0"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400112,
+        "num": 100
+      }
+    ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": true,
+    "activityId": -1,
+    "startTime": "2024-05-20 15:00:00",
+    "endTime": "2024-07-07 00:00:00",
+    "preQuest": [],
+    "preLevel": [],
+    "correspondActivity": -1,
+    "buffActivate": -1,
+    "showType": "Txt",
+    "returnNum": 1
+  },
+  {
+    "id": 81002156,
+    "idCN": "活动/酒店疑案/个人任务/任务23",
+    "mod": "活动任务",
+    "isInformalData": false,
+    "name": "以S级评分完成关卡",
+    "describe": "",
+    "story": "“演绎”无光之影",
+    "questType": "Activity",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "sort": 99,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isFURNQuest": false,
+    "client": -1,
+    "startStation": -1,
+    "endStationList": [],
+    "isAutoTrace": false,
+    "traceList": [],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "levelId",
+        "val": "20100793"
+      },
+      {
+        "key": "levelGrade",
+        "val": "0"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400112,
+        "num": 100
+      }
+    ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": true,
+    "activityId": -1,
+    "startTime": "2024-05-20 15:00:00",
+    "endTime": "2024-07-07 00:00:00",
+    "preQuest": [],
+    "preLevel": [],
+    "correspondActivity": -1,
+    "buffActivate": -1,
+    "showType": "Txt",
+    "returnNum": 1
+  },
+  {
+    "id": 81002157,
+    "idCN": "活动/酒店疑案/个人任务/任务24",
+    "mod": "活动任务",
+    "isInformalData": false,
+    "name": "以S级评分完成关卡",
+    "describe": "",
+    "story": "“演绎”无底深渊",
+    "questType": "Activity",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "sort": 99,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isFURNQuest": false,
+    "client": -1,
+    "startStation": -1,
+    "endStationList": [],
+    "isAutoTrace": false,
+    "traceList": [],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "levelId",
+        "val": "20100794"
+      },
+      {
+        "key": "levelGrade",
+        "val": "0"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400112,
+        "num": 100
+      }
+    ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": true,
+    "activityId": -1,
+    "startTime": "2024-05-20 15:00:00",
+    "endTime": "2024-07-07 00:00:00",
+    "preQuest": [],
+    "preLevel": [],
+    "correspondActivity": -1,
+    "buffActivate": -1,
+    "showType": "Txt",
+    "returnNum": 1
+  },
+  {
+    "id": 81002159,
+    "idCN": "活动/酒店疑案/个人任务/任务16",
+    "mod": "活动任务",
+    "isInformalData": false,
+    "name": "完成关卡",
+    "describe": "",
+    "story": "“演绎”无底深渊",
+    "questType": "Activity",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "sort": 99,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isFURNQuest": false,
+    "client": -1,
+    "startStation": -1,
+    "endStationList": [],
+    "isAutoTrace": false,
+    "traceList": [],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "levelId",
+        "val": "20100794"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400112,
+        "num": 100
+      },
+      {
+        "id": 11400217,
+        "num": 1
+      }
+    ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": true,
+    "activityId": -1,
+    "startTime": "2024-05-20 15:00:00",
+    "endTime": "2024-07-07 00:00:00",
+    "preQuest": [],
+    "preLevel": [],
+    "correspondActivity": -1,
+    "buffActivate": -1,
+    "showType": "Txt",
+    "returnNum": 1
+  },
+  {
+    "id": 81002154,
+    "idCN": "活动/酒店疑案/个人任务/任务19",
+    "mod": "活动任务",
+    "isInformalData": false,
+    "name": "以S级评分完成关卡",
+    "describe": "",
+    "story": "“演绎”隐秘庭院",
+    "questType": "Activity",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "sort": 99,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isFURNQuest": false,
+    "client": -1,
+    "startStation": -1,
+    "endStationList": [],
+    "isAutoTrace": false,
+    "traceList": [],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "levelId",
+        "val": "20100789"
+      },
+      {
+        "key": "levelGrade",
+        "val": "0"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400112,
+        "num": 100
+      }
+    ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": true,
+    "activityId": -1,
+    "startTime": "2024-05-20 15:00:00",
+    "endTime": "2024-07-07 00:00:00",
+    "preQuest": [],
+    "preLevel": [],
+    "correspondActivity": -1,
+    "buffActivate": -1,
+    "showType": "Txt",
+    "returnNum": 1
+  },
+  {
+    "id": 81002165,
+    "idCN": "活动/酒店疑案/个人任务/任务10",
+    "mod": "活动任务",
+    "isInformalData": false,
+    "name": "完成关卡",
+    "describe": "",
+    "story": "“演绎”昭显前路",
+    "questType": "Activity",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "sort": 99,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isFURNQuest": false,
+    "client": -1,
+    "startStation": -1,
+    "endStationList": [],
+    "isAutoTrace": false,
+    "traceList": [],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "levelId",
+        "val": "20100788"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400112,
+        "num": 100
+      },
+      {
+        "id": 11400217,
+        "num": 1
+      }
+    ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": true,
+    "activityId": -1,
+    "startTime": "2024-05-20 15:00:00",
+    "endTime": "2024-07-07 00:00:00",
+    "preQuest": [],
+    "preLevel": [],
+    "correspondActivity": -1,
+    "buffActivate": -1,
+    "showType": "Txt",
+    "returnNum": 1
+  },
+  {
+    "id": 81002171,
+    "idCN": "活动/酒店疑案/个人任务/任务17",
+    "mod": "活动任务",
+    "isInformalData": false,
+    "name": "以S级评分完成关卡",
+    "describe": "",
+    "story": "“演绎”倒悬门扉",
+    "questType": "Activity",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "sort": 99,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isFURNQuest": false,
+    "client": -1,
+    "startStation": -1,
+    "endStationList": [],
+    "isAutoTrace": false,
+    "traceList": [],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "levelId",
+        "val": "20100787"
+      },
+      {
+        "key": "levelGrade",
+        "val": "0"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400112,
+        "num": 100
+      }
+    ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": true,
+    "activityId": -1,
+    "startTime": "2024-05-20 15:00:00",
+    "endTime": "2024-07-07 00:00:00",
+    "preQuest": [],
+    "preLevel": [],
+    "correspondActivity": -1,
+    "buffActivate": -1,
+    "showType": "Txt",
+    "returnNum": 1
+  },
+  {
+    "id": 81002172,
+    "idCN": "活动/酒店疑案/个人任务/任务20",
+    "mod": "活动任务",
+    "isInformalData": false,
+    "name": "以S级评分完成关卡",
+    "describe": "",
+    "story": "“演绎”暗廊",
+    "questType": "Activity",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "sort": 99,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isFURNQuest": false,
+    "client": -1,
+    "startStation": -1,
+    "endStationList": [],
+    "isAutoTrace": false,
+    "traceList": [],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "levelId",
+        "val": "20100790"
+      },
+      {
+        "key": "levelGrade",
+        "val": "0"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400112,
+        "num": 100
+      }
+    ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": true,
+    "activityId": -1,
+    "startTime": "2024-05-20 15:00:00",
+    "endTime": "2024-07-07 00:00:00",
+    "preQuest": [],
+    "preLevel": [],
+    "correspondActivity": -1,
+    "buffActivate": -1,
+    "showType": "Txt",
+    "returnNum": 1
+  },
+  {
+    "id": 81002166,
+    "idCN": "活动/酒店疑案/个人任务/任务2",
+    "mod": "活动任务",
+    "isInformalData": false,
+    "name": "完成关卡",
+    "describe": "",
+    "story": "“归纳”黄金步道",
+    "questType": "Activity",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "sort": 99,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isFURNQuest": false,
+    "client": -1,
+    "startStation": -1,
+    "endStationList": [],
+    "isAutoTrace": false,
+    "traceList": [],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "levelId",
+        "val": "20100780"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400112,
+        "num": 50
+      },
+      {
+        "id": 11400005,
+        "num": 50
+      },
+      {
+        "id": 86300002,
+        "num": 1
+      }
+    ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": true,
+    "activityId": -1,
+    "startTime": "2024-05-20 15:00:00",
+    "endTime": "2024-07-07 00:00:00",
+    "preQuest": [],
+    "preLevel": [],
+    "correspondActivity": -1,
+    "buffActivate": -1,
+    "showType": "Txt",
+    "returnNum": 1
+  },
+  {
+    "id": 81002160,
+    "idCN": "活动/酒店疑案/个人任务/任务18",
+    "mod": "活动任务",
+    "isInformalData": false,
+    "name": "以S级评分完成关卡",
+    "describe": "",
+    "story": "“演绎”昭显前路",
+    "questType": "Activity",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "sort": 99,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isFURNQuest": false,
+    "client": -1,
+    "startStation": -1,
+    "endStationList": [],
+    "isAutoTrace": false,
+    "traceList": [],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "levelId",
+        "val": "20100788"
+      },
+      {
+        "key": "levelGrade",
+        "val": "0"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400112,
+        "num": 100
+      }
+    ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": true,
+    "activityId": -1,
+    "startTime": "2024-05-20 15:00:00",
+    "endTime": "2024-07-07 00:00:00",
+    "preQuest": [],
+    "preLevel": [],
+    "correspondActivity": -1,
+    "buffActivate": -1,
+    "showType": "Txt",
+    "returnNum": 1
+  },
+  {
+    "id": 81002161,
+    "idCN": "活动/酒店疑案/个人任务/任务11",
+    "mod": "活动任务",
+    "isInformalData": false,
+    "name": "完成关卡",
+    "describe": "",
+    "story": "“演绎”隐秘庭院",
+    "questType": "Activity",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "sort": 99,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isFURNQuest": false,
+    "client": -1,
+    "startStation": -1,
+    "endStationList": [],
+    "isAutoTrace": false,
+    "traceList": [],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "levelId",
+        "val": "20100789"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400112,
+        "num": 100
+      },
+      {
+        "id": 11400217,
+        "num": 1
+      }
+    ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": true,
+    "activityId": -1,
+    "startTime": "2024-05-20 15:00:00",
+    "endTime": "2024-07-07 00:00:00",
+    "preQuest": [],
+    "preLevel": [],
+    "correspondActivity": -1,
+    "buffActivate": -1,
+    "showType": "Txt",
+    "returnNum": 1
+  },
+  {
+    "id": 81002162,
+    "idCN": "活动/酒店疑案/个人任务/任务21",
+    "mod": "活动任务",
+    "isInformalData": false,
+    "name": "以S级评分完成关卡",
+    "describe": "",
+    "story": "“演绎”无终之路",
+    "questType": "Activity",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "sort": 99,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isFURNQuest": false,
+    "client": -1,
+    "startStation": -1,
+    "endStationList": [],
+    "isAutoTrace": false,
+    "traceList": [],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "levelId",
+        "val": "20100791"
+      },
+      {
+        "key": "levelGrade",
+        "val": "0"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400112,
+        "num": 100
+      }
+    ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": true,
+    "activityId": -1,
+    "startTime": "2024-05-20 15:00:00",
+    "endTime": "2024-07-07 00:00:00",
+    "preQuest": [],
+    "preLevel": [],
+    "correspondActivity": -1,
+    "buffActivate": -1,
+    "showType": "Txt",
+    "returnNum": 1
+  },
+  {
+    "id": 81002174,
+    "idCN": "活动/酒店疑案/个人任务/任务3",
+    "mod": "活动任务",
+    "isInformalData": false,
+    "name": "完成关卡",
+    "describe": "",
+    "story": "“归纳”抟塑大厅",
+    "questType": "Activity",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "sort": 99,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isFURNQuest": false,
+    "client": -1,
+    "startStation": -1,
+    "endStationList": [],
+    "isAutoTrace": false,
+    "traceList": [],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "levelId",
+        "val": "20100781"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400112,
+        "num": 50
+      },
+      {
+        "id": 11400005,
+        "num": 50
+      },
+      {
+        "id": 11400067,
+        "num": 1
+      }
+    ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": true,
+    "activityId": -1,
+    "startTime": "2024-05-20 15:00:00",
+    "endTime": "2024-07-07 00:00:00",
+    "preQuest": [],
+    "preLevel": [],
+    "correspondActivity": -1,
+    "buffActivate": -1,
+    "showType": "Txt",
+    "returnNum": 1
+  },
+  {
+    "id": 81002176,
+    "idCN": "活动/酒店疑案/个人任务/任务12",
+    "mod": "活动任务",
+    "isInformalData": false,
+    "name": "完成关卡",
+    "describe": "",
+    "story": "“演绎”暗廊",
+    "questType": "Activity",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "sort": 99,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isFURNQuest": false,
+    "client": -1,
+    "startStation": -1,
+    "endStationList": [],
+    "isAutoTrace": false,
+    "traceList": [],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "levelId",
+        "val": "20100790"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400112,
+        "num": 100
+      },
+      {
+        "id": 11400217,
+        "num": 1
+      }
+    ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": true,
+    "activityId": -1,
+    "startTime": "2024-05-20 15:00:00",
+    "endTime": "2024-07-07 00:00:00",
+    "preQuest": [],
+    "preLevel": [],
+    "correspondActivity": -1,
+    "buffActivate": -1,
+    "showType": "Txt",
+    "returnNum": 1
+  },
+  {
+    "id": 81002188,
+    "idCN": "活动/酒店疑案/个人任务/任务6",
+    "mod": "活动任务",
+    "isInformalData": false,
+    "name": "完成关卡",
+    "describe": "",
+    "story": "“归纳”主题乐园",
+    "questType": "Activity",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "sort": 99,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isFURNQuest": false,
+    "client": -1,
+    "startStation": -1,
+    "endStationList": [],
+    "isAutoTrace": false,
+    "traceList": [],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "levelId",
+        "val": "20100784"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400112,
+        "num": 50
+      },
+      {
+        "id": 11400005,
+        "num": 50
+      },
+      {
+        "id": 86300002,
+        "num": 1
+      }
+    ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": true,
+    "activityId": -1,
+    "startTime": "2024-05-20 15:00:00",
+    "endTime": "2024-07-07 00:00:00",
+    "preQuest": [],
+    "preLevel": [],
+    "correspondActivity": -1,
+    "buffActivate": -1,
+    "showType": "Txt",
+    "returnNum": 1
+  },
+  {
+    "id": 81002189,
+    "idCN": "活动/酒店疑案/个人任务/任务5",
+    "mod": "活动任务",
+    "isInformalData": false,
+    "name": "完成关卡",
+    "describe": "",
+    "story": "“归纳”迷宫",
+    "questType": "Activity",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "sort": 99,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isFURNQuest": false,
+    "client": -1,
+    "startStation": -1,
+    "endStationList": [],
+    "isAutoTrace": false,
+    "traceList": [],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "levelId",
+        "val": "20100783"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400112,
+        "num": 50
+      },
+      {
+        "id": 11400005,
+        "num": 50
+      },
+      {
+        "id": 11400067,
+        "num": 1
+      }
+    ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": true,
+    "activityId": -1,
+    "startTime": "2024-05-20 15:00:00",
+    "endTime": "2024-07-07 00:00:00",
+    "preQuest": [],
+    "preLevel": [],
+    "correspondActivity": -1,
+    "buffActivate": -1,
+    "showType": "Txt",
+    "returnNum": 1
+  },
+  {
+    "id": 81002182,
+    "idCN": "活动/酒店疑案/个人任务/任务13",
+    "mod": "活动任务",
+    "isInformalData": false,
+    "name": "完成关卡",
+    "describe": "",
+    "story": "“演绎”无终之路",
+    "questType": "Activity",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "sort": 99,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isFURNQuest": false,
+    "client": -1,
+    "startStation": -1,
+    "endStationList": [],
+    "isAutoTrace": false,
+    "traceList": [],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "levelId",
+        "val": "20100791"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400112,
+        "num": 100
+      },
+      {
+        "id": 11400217,
+        "num": 1
+      }
+    ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": true,
+    "activityId": -1,
+    "startTime": "2024-05-20 15:00:00",
+    "endTime": "2024-07-07 00:00:00",
+    "preQuest": [],
+    "preLevel": [],
+    "correspondActivity": -1,
+    "buffActivate": -1,
+    "showType": "Txt",
+    "returnNum": 1
+  },
+  {
+    "id": 81002178,
+    "idCN": "活动/酒店疑案/个人任务/任务4",
+    "mod": "活动任务",
+    "isInformalData": false,
+    "name": "完成关卡",
+    "describe": "",
+    "story": "“归纳”过道",
+    "questType": "Activity",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "sort": 99,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isFURNQuest": false,
+    "client": -1,
+    "startStation": -1,
+    "endStationList": [],
+    "isAutoTrace": false,
+    "traceList": [],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "levelId",
+        "val": "20100782"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400112,
+        "num": 50
+      },
+      {
+        "id": 11400005,
+        "num": 50
+      },
+      {
+        "id": 86300002,
+        "num": 1
+      }
+    ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": true,
+    "activityId": -1,
+    "startTime": "2024-05-20 15:00:00",
+    "endTime": "2024-07-07 00:00:00",
+    "preQuest": [],
+    "preLevel": [],
+    "correspondActivity": -1,
+    "buffActivate": -1,
+    "showType": "Txt",
+    "returnNum": 1
+  },
+  {
+    "id": 81002212,
+    "idCN": "子任务/活动/酒店/任务8-1",
+    "mod": "活动任务",
+    "isInformalData": false,
+    "name": "",
+    "describe": "",
+    "story": "",
+    "questType": "Side",
+    "sort": 11,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "client": -1,
+    "startStation": 83000004,
+    "endStationList": [
+      {
+        "id": 83000004,
+        "weight": 10
+      }
+    ],
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500160,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": true,
+    "switchUI": "",
+    "preQuestId": -1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "levelId",
+        "val": "20101245"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": true,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "parentQuest": 81002142,
+    "childQuestList": [],
+    "rewardsList": [],
     "nextQuest": [
       {
-        "id": 81000210
+        "id": 81002213
       }
     ],
     "changeCityStateList": [],
@@ -147748,14 +149531,305 @@
     "eventList": [],
     "environmentList": [],
     "isTime": false,
-    "activityId": 86000009,
+    "activityId": -1,
     "startTime": "",
     "endTime": "",
     "preQuest": [],
     "preLevel": [],
     "correspondActivity": -1,
     "buffActivate": -1,
-    "showType": "Txt",
-    "isAutoTrace": true
+    "showType": "Txt"
+  },
+  {
+    "id": 81002213,
+    "idCN": "子任务/活动/酒店/任务8-2",
+    "mod": "活动任务",
+    "isInformalData": false,
+    "name": "",
+    "describe": "",
+    "story": "",
+    "questType": "Side",
+    "sort": 11,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "client": -1,
+    "startStation": 83000004,
+    "endStationList": [
+      {
+        "id": 83000004,
+        "weight": 10
+      }
+    ],
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500160,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": true,
+    "switchUI": "",
+    "preQuestId": -1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "levelId",
+        "val": "20101233"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": true,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "parentQuest": 81002142,
+    "childQuestList": [],
+    "rewardsList": [],
+    "nextQuest": [
+      {
+        "id": 81002214
+      }
+    ],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "activityId": -1,
+    "startTime": "",
+    "endTime": "",
+    "preQuest": [],
+    "preLevel": [],
+    "correspondActivity": -1,
+    "buffActivate": -1,
+    "showType": "Txt"
+  },
+  {
+    "id": 81002214,
+    "idCN": "子任务/活动/酒店/任务8-3",
+    "mod": "活动任务",
+    "isInformalData": false,
+    "name": "",
+    "describe": "",
+    "story": "",
+    "questType": "Side",
+    "sort": 11,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "client": -1,
+    "startStation": 83000004,
+    "endStationList": [
+      {
+        "id": 83000004,
+        "weight": 10
+      }
+    ],
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500160,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": true,
+    "switchUI": "",
+    "preQuestId": -1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "levelId",
+        "val": "20101254"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": true,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "parentQuest": 81002142,
+    "childQuestList": [],
+    "rewardsList": [],
+    "nextQuest": [
+      {
+        "id": 81002215
+      }
+    ],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "activityId": -1,
+    "startTime": "",
+    "endTime": "",
+    "preQuest": [],
+    "preLevel": [],
+    "correspondActivity": -1,
+    "buffActivate": -1,
+    "showType": "Txt"
+  },
+  {
+    "id": 81002215,
+    "idCN": "子任务/活动/酒店/任务8-4",
+    "mod": "活动任务",
+    "isInformalData": false,
+    "name": "",
+    "describe": "",
+    "story": "",
+    "questType": "Side",
+    "sort": 11,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "client": -1,
+    "startStation": 83000004,
+    "endStationList": [
+      {
+        "id": 83000004,
+        "weight": 10
+      }
+    ],
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500160,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": true,
+    "switchUI": "",
+    "preQuestId": -1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "levelId",
+        "val": "20101242"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": true,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "parentQuest": 81002142,
+    "childQuestList": [],
+    "rewardsList": [],
+    "nextQuest": [
+      {
+        "id": 81002216
+      }
+    ],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "activityId": -1,
+    "startTime": "",
+    "endTime": "",
+    "preQuest": [],
+    "preLevel": [],
+    "correspondActivity": -1,
+    "buffActivate": -1,
+    "showType": "Txt"
+  },
+  {
+    "id": 81002216,
+    "idCN": "子任务/活动/酒店/任务8-5",
+    "mod": "活动任务",
+    "isInformalData": false,
+    "name": "",
+    "describe": "",
+    "story": "",
+    "questType": "Side",
+    "sort": 11,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "client": -1,
+    "startStation": 83000004,
+    "endStationList": [
+      {
+        "id": 83000004,
+        "weight": 10
+      }
+    ],
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500160,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": true,
+    "switchUI": "",
+    "preQuestId": -1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "levelId",
+        "val": "20101250"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": true,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "parentQuest": 81002142,
+    "childQuestList": [],
+    "rewardsList": [],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "activityId": -1,
+    "startTime": "",
+    "endTime": "",
+    "preQuest": [],
+    "preLevel": [],
+    "correspondActivity": -1,
+    "buffActivate": -1,
+    "showType": "Txt"
   }
 ]

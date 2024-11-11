@@ -15182,7 +15182,7 @@
   },
   {
     "id": 10300388,
-    "idCN": "爬塔/桦树生物/裂首骨龙-3",
+    "idCN": "爬塔/桦树生物/裂首骨龙/头1-3",
     "mod": "BOSSAI",
     "isInformalData": false,
     "targetInvisibleEffectId": 11102488,
@@ -15226,7 +15226,7 @@
     "isInvisibleBeforeShowUp": true,
     "showupSkillList": [
       {
-        "actionId": 10102812
+        "actionId": 10103523
       }
     ],
     "skillLoopDelayFrame": 390,
@@ -15251,14 +15251,14 @@
         "rangeSN": -10000
       }
     ],
-    "energyRestorePerFrameSN": 900,
+    "energyRestorePerFrameSN": 675,
     "isSkillDelay": true,
     "minDelay": 300,
     "maxDelay": 480
   },
   {
     "id": 10300389,
-    "idCN": "爬塔/桦树生物/裂首骨龙-4",
+    "idCN": "爬塔/桦树生物/裂首骨龙/头1-4",
     "mod": "BOSSAI",
     "isInformalData": false,
     "targetInvisibleEffectId": 11102488,
@@ -15327,14 +15327,14 @@
         "rangeSN": -10000
       }
     ],
-    "energyRestorePerFrameSN": 900,
+    "energyRestorePerFrameSN": 675,
     "isSkillDelay": true,
     "minDelay": 300,
     "maxDelay": 480
   },
   {
     "id": 10300390,
-    "idCN": "爬塔/桦树生物/裂首骨龙-5",
+    "idCN": "爬塔/桦树生物/裂首骨龙/头1-5",
     "mod": "BOSSAI",
     "isInformalData": false,
     "targetInvisibleEffectId": 11102488,
@@ -15378,7 +15378,7 @@
     "isInvisibleBeforeShowUp": true,
     "showupSkillList": [
       {
-        "actionId": 10103014
+        "actionId": 10103521
       }
     ],
     "skillLoopDelayFrame": 390,
@@ -15403,7 +15403,7 @@
         "rangeSN": -10000
       }
     ],
-    "energyRestorePerFrameSN": 900,
+    "energyRestorePerFrameSN": 675,
     "isSkillDelay": true,
     "minDelay": 300,
     "maxDelay": 480
@@ -20177,6 +20177,186 @@
       }
     ],
     "energyRestorePerFrameSN": 360,
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300490,
+    "idCN": "爬塔/桦树生物/裂首骨龙/头1-1",
+    "mod": "BOSSAI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10102814
+      },
+      {
+        "actionID": 10102815
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10102817,
+        "activeFrame": 360,
+        "activeTime": 6.0,
+        "rangeSN": 240000
+      },
+      {
+        "actionId": 10102816,
+        "activeFrame": 800,
+        "activeTime": 13.3333,
+        "rangeSN": 240000
+      },
+      {
+        "actionId": 10102818,
+        "activeFrame": 1440,
+        "activeTime": 24.0,
+        "rangeSN": 240000
+      },
+      {
+        "actionId": 10102817,
+        "activeFrame": 1960,
+        "activeTime": 32.6667,
+        "rangeSN": 240000
+      }
+    ],
+    "isInvisibleBeforeShowUp": true,
+    "showupSkillList": [
+      {
+        "actionId": 10103520
+      }
+    ],
+    "skillLoopDelayFrame": 390,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": true,
+    "energySkillList": [
+      {
+        "actionId": 10102955,
+        "isClearEnergy": true,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10102956,
+        "isClearEnergy": true,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10102819,
+        "isClearEnergy": true,
+        "rangeSN": -10000
+      }
+    ],
+    "energyRestorePerFrameSN": 450,
+    "isSkillDelay": true,
+    "minDelay": 300,
+    "maxDelay": 480
+  },
+  {
+    "id": 10300491,
+    "idCN": "爬塔/桦树生物/裂首骨龙/头1-2",
+    "mod": "BOSSAI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10102814
+      },
+      {
+        "actionID": 10102815
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10102817,
+        "activeFrame": 360,
+        "activeTime": 6.0,
+        "rangeSN": 240000
+      },
+      {
+        "actionId": 10102816,
+        "activeFrame": 800,
+        "activeTime": 13.3333,
+        "rangeSN": 240000
+      },
+      {
+        "actionId": 10102818,
+        "activeFrame": 1440,
+        "activeTime": 24.0,
+        "rangeSN": 240000
+      },
+      {
+        "actionId": 10102817,
+        "activeFrame": 1960,
+        "activeTime": 32.6667,
+        "rangeSN": 240000
+      }
+    ],
+    "isInvisibleBeforeShowUp": true,
+    "showupSkillList": [
+      {
+        "actionId": 10103522
+      }
+    ],
+    "skillLoopDelayFrame": 390,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": true,
+    "energySkillList": [
+      {
+        "actionId": 10102955,
+        "isClearEnergy": true,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10102956,
+        "isClearEnergy": true,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10102819,
+        "isClearEnergy": true,
+        "rangeSN": -10000
+      }
+    ],
+    "energyRestorePerFrameSN": 450,
+    "isSkillDelay": true,
+    "minDelay": 300,
+    "maxDelay": 480
+  },
+  {
+    "id": 10300492,
+    "idCN": "爬塔/桦树生物/裂首骨龙/头2",
+    "mod": "BOSSAI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [],
+    "normalAttackCritID": -1,
+    "skillList": [],
+    "isInvisibleBeforeShowUp": true,
+    "showupSkillList": [
+      {
+        "actionId": 10103524
+      }
+    ],
+    "skillLoopDelayFrame": 390,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
     "isSkillDelay": false,
     "minDelay": 120,
     "maxDelay": 360
