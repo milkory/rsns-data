@@ -1551,6 +1551,7 @@
     "sort": 0,
     "homeSkillType": "RiseElectricLimited",
     "param": 0.05,
+    "isReplace": true,
     "isPCT": true
   },
   {
@@ -2809,6 +2810,21 @@
     "isPCT": false
   },
   {
+    "id": 83900179,
+    "idCN": "产出/海岛/海岛管理",
+    "mod": "游乐场经营收益",
+    "isInformalData": false,
+    "name": "海岛管理",
+    "desc": "海岛经营收益+%s%%",
+    "tag": 2,
+    "sort": 0,
+    "homeSkillType": "AddPlaygroundReward",
+    "param": 0.01,
+    "isReplace": true,
+    "isPCT": true,
+    "mId": 87300002
+  },
+  {
     "id": 83900180,
     "idCN": "产出/客运/乘务管理",
     "mod": "基础技能",
@@ -2939,6 +2955,21 @@
     "isPCT": false
   },
   {
+    "id": 83900188,
+    "idCN": "产出/素材回收/阿妮塔能源研究所",
+    "mod": "素材回收",
+    "isInformalData": false,
+    "name": "素材回收",
+    "desc": "阿妮塔能源研究所的素材回收价格+%s%%",
+    "tag": 2,
+    "sort": 0,
+    "homeSkillType": "AddRecycleReward",
+    "param": 0.05,
+    "isReplace": true,
+    "isPCT": true,
+    "city": 83000014
+  },
+  {
     "id": 83900189,
     "idCN": "交易所/指定交易品买卖/帝王蟹-皮肤",
     "mod": "增加可购买数量",
@@ -2991,6 +3022,21 @@
         "id": 82900287
       }
     ]
+  },
+  {
+    "id": 83900192,
+    "idCN": "产出/海岛/西瓜之主",
+    "mod": "游乐场经营收益",
+    "isInformalData": false,
+    "name": "西瓜之主",
+    "desc": "海岛经营收益+%s%%",
+    "tag": 2,
+    "sort": 0,
+    "homeSkillType": "AddPlaygroundReward",
+    "param": 0.01,
+    "isReplace": true,
+    "isPCT": true,
+    "mId": 87300002
   },
   {
     "id": 83900193,
@@ -3061,6 +3107,21 @@
     "isPCT": false
   },
   {
+    "id": 83900197,
+    "idCN": "产出/素材回收/阿妮塔观测站",
+    "mod": "素材回收",
+    "isInformalData": false,
+    "name": "素材回收",
+    "desc": "阿妮塔观测站的素材回收价格+%s%%",
+    "tag": 2,
+    "sort": 0,
+    "homeSkillType": "AddRecycleReward",
+    "param": 0.05,
+    "isReplace": true,
+    "isPCT": true,
+    "city": 83000003
+  },
+  {
     "id": 83900198,
     "idCN": "交易所/砍价幅度/砍价技巧-皮肤",
     "mod": "基础技能",
@@ -3117,6 +3178,21 @@
     "isPCT": true,
     "city": 83000030,
     "goodsList": []
+  },
+  {
+    "id": 83900202,
+    "idCN": "产出/素材回收/形而上粒子研究所",
+    "mod": "素材回收",
+    "isInformalData": false,
+    "name": "素材回收",
+    "desc": "形而上粒子研究所的素材回收价格+%s%%",
+    "tag": 2,
+    "sort": 0,
+    "homeSkillType": "AddRecycleReward",
+    "param": 0.05,
+    "isReplace": true,
+    "isPCT": true,
+    "city": 83000020
   },
   {
     "id": 83900203,
@@ -3215,6 +3291,60 @@
     "sort": 0,
     "homeSkillType": "AddPassengerGains",
     "param": 0.03,
+    "isReplace": true,
+    "isPCT": true
+  },
+  {
+    "id": 83900208,
+    "idCN": "交易所/指定交易品买卖/太阳电池阵",
+    "mod": "增加可购买数量",
+    "isInformalData": false,
+    "name": "指定交易品买卖",
+    "desc": "太阳电池阵可买入数量+%s%%",
+    "tag": 1,
+    "sort": 667,
+    "homeSkillType": "AddQty",
+    "param": 0.2,
+    "isReplace": true,
+    "isPCT": true,
+    "city": -1,
+    "goodsList": [
+      {
+        "id": 82900179
+      }
+    ]
+  },
+  {
+    "id": 83900209,
+    "idCN": "交易所/指定交易品买卖/太阳电池阵+",
+    "mod": "增加可购买数量",
+    "isInformalData": false,
+    "name": "指定交易品买卖+",
+    "desc": "太阳电池阵可买入数量+%s%%",
+    "tag": 1,
+    "sort": 666,
+    "homeSkillType": "AddQty",
+    "param": 0.1,
+    "isReplace": true,
+    "isPCT": true,
+    "city": -1,
+    "goodsList": [
+      {
+        "id": 82900179
+      }
+    ]
+  },
+  {
+    "id": 83900210,
+    "idCN": "增加上限/电力上限/蓄电管理",
+    "mod": "基础技能",
+    "isInformalData": false,
+    "name": "蓄电管理",
+    "desc": "电力上限+%s%%",
+    "tag": 4,
+    "sort": 0,
+    "homeSkillType": "RiseElectricLimited",
+    "param": 0.05,
     "isReplace": true,
     "isPCT": true
   }

@@ -157,6 +157,7 @@
     "protectCount": 50,
     "upList": [],
     "name": "常驻招募",
+    "isRedPoint": false,
     "sort": 15,
     "questId": -1,
     "imageBg": "UI/Dialog/Back/traffic_light",
@@ -179,7 +180,7 @@
     "titleY": -280.0,
     "titleName": "以上角色",
     "btnList": [],
-    "details": "<size=30><b>详情说明：</b></size>\\n\r列车长可在<color=#FFB800>【常驻招募】</color>中使用【拉普拉斯协议】招募以下角色\\n\r<color=#FFE266>SSR</color>  <color=#FFB800>2%</color>\\n\r夏洛蒂/那由他/卡洛琳/约书亚/柯娜/卡塔斯/伊洛娜/星花/苏恩/闻笙/马吉拉/薇尔岚/苔妮/伊索斯/亚莉奈/妮蔻拉/多萝西/达斯廷/索玛/夏尔\\n\r<color=#E4B7FF>SR</color>   <color=#FFB800>10%</color>\\n\r莉薇娅/黛丝莉/叶珏/魇/苍叶/宵月/冯·里奈/菲妮娅/塞西尔/瓦伦汀/奈弥/霖/阿知波/甘雅/伊尔/卡莱雅/晃/海因里希\\n\r<color=#71CEFD>R</color>     <color=#FFB800>88%</color>\\n\r阿尔喀娜/艾略特/弗兰/伽罗尔/静流/卡莲/雷火/瑞秋/山岚/狮鬃/塔拉/跳鼠/朱利安\\n\\n\r<size=30><b>保底说明：</b></size>\\n\r在任意<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，未获得<color=#FFE266>SSR</color>角色的累计招募次数会一直累计于<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，招募次数保底互通。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>50</color>次没有获得<color=#FFE266>SSR</color>角色，则之后每次招募获得<color=#FFE266>SSR</color>角色的概率将提升<color=#FFB800>3%</color>，直至获得<color=#FFE266>SSR</color>角色，之后获得<color=#FFE266>SSR</color>角色的概率将恢复到<color=#FFB800>2%</color>。最多<color=#FFB800>83</color>次招募必定能通过保底获得<color=#FFE266>SSR</color>角色。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>9</color>次获得<color=#71CEFD>R</color>角色，则第<color=#FFB800>10</color>次必定获得<color=#E4B7FF>SR</color>角色或<color=#FFE266>SSR</color>角色。当前招募连续获得<color=#71CEFD>R</color>角色的招募次数不会继承至其他招募。\\n\\n\r<size=30><b>特殊说明：</b></size>\\n\r列车长每次招募时，将获得<color=#FFB800>1</color>个【履历情报】。\\n\r列车长在招募中获得已有角色时，每次将转化为<color=#FFB800>1</color>个该角色的【履历补充】，角色的【履历补充】可用于角色觉醒。列车长获得任一角色的【履历补充】累计达到<color=#FFB800>5</color>个后，之后获得的该角色的【履历补充】将按以下比例自动回收为【履历情报】：\\n\r<color=#FFB800>1</color>个<color=#71CEFD>R</color>角色的【履历补充】将被回收为<color=#FFB800>1</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#E4B7FF>SR</color>角色的【履历补充】将被回收为<color=#FFB800>3</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#FFE266>SSR</color>角色的【履历补充】将被回收为<color=#FFB800>10</color>个【履历情报】\\n\r列车长可使用【履历情报】在每个城市休息区中的黑月商店兑换道具。",
+    "details": "<size=30><b>详情说明：</b></size>\\n\r列车长可在<color=#FFB800>【常驻招募】</color>中使用【拉普拉斯协议】招募以下角色\\n\r<color=#FFE266>SSR</color>  <color=#FFB800>2%</color>\\n\r夏洛蒂/那由他/卡洛琳/约书亚/柯娜/卡塔斯/伊洛娜/星花/苏恩/闻笙/马吉拉/薇尔岚/苔妮/伊索斯/亚莉奈/妮蔻拉/多萝西/达斯廷/索玛/夏尔/安菲娅\\n\r<color=#E4B7FF>SR</color>   <color=#FFB800>10%</color>\\n\r莉薇娅/黛丝莉/叶珏/魇/苍叶/宵月/冯·里奈/菲妮娅/塞西尔/瓦伦汀/奈弥/霖/阿知波/甘雅/伊尔/卡莱雅/晃/海因里希\\n\r<color=#71CEFD>R</color>     <color=#FFB800>88%</color>\\n\r阿尔喀娜/艾略特/弗兰/伽罗尔/静流/卡莲/雷火/瑞秋/山岚/狮鬃/塔拉/跳鼠/朱利安\\n\\n\r<size=30><b>保底说明：</b></size>\\n\r在任意<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，未获得<color=#FFE266>SSR</color>角色的累计招募次数会一直累计于<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，招募次数保底互通。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>50</color>次没有获得<color=#FFE266>SSR</color>角色，则之后每次招募获得<color=#FFE266>SSR</color>角色的概率将提升<color=#FFB800>3%</color>，直至获得<color=#FFE266>SSR</color>角色，之后获得<color=#FFE266>SSR</color>角色的概率将恢复到<color=#FFB800>2%</color>。最多<color=#FFB800>83</color>次招募必定能通过保底获得<color=#FFE266>SSR</color>角色。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>9</color>次获得<color=#71CEFD>R</color>角色，则第<color=#FFB800>10</color>次必定获得<color=#E4B7FF>SR</color>角色或<color=#FFE266>SSR</color>角色。当前招募连续获得<color=#71CEFD>R</color>角色的招募次数不会继承至其他招募。\\n\\n\r<size=30><b>特殊说明：</b></size>\\n\r列车长每次招募时，将获得<color=#FFB800>1</color>个【履历情报】。\\n\r列车长在招募中获得已有角色时，每次将转化为<color=#FFB800>1</color>个该角色的【履历补充】，角色的【履历补充】可用于角色觉醒。列车长获得任一角色的【履历补充】累计达到<color=#FFB800>5</color>个后，之后获得的该角色的【履历补充】将按以下比例自动回收为【履历情报】：\\n\r<color=#FFB800>1</color>个<color=#71CEFD>R</color>角色的【履历补充】将被回收为<color=#FFB800>1</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#E4B7FF>SR</color>角色的【履历补充】将被回收为<color=#FFB800>3</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#FFE266>SSR</color>角色的【履历补充】将被回收为<color=#FFB800>10</color>个【履历情报】\\n\r列车长可使用【履历情报】在每个城市休息区中的黑月商店兑换道具。",
     "tryList": [
       {
         "levelId": 20100061,
@@ -1123,7 +1124,7 @@
         "y": -50.0
       }
     ],
-    "details": "<size=30><b>详情说明：</b></size>\\n\r列车长可在<color=#FFB800>【常驻招募-卡洛琳概率提升】</color>中使用【拉普拉斯协议】招募以下角色\\n\r<color=#FFE266>SSR</color>  <color=#FFB800>2%</color>\\n\r卡洛琳（UP）/夏洛蒂/那由他/约书亚/柯娜/卡塔斯/伊洛娜/星花/苏恩/闻笙/马吉拉/薇尔岚/苔妮/伊索斯/亚莉奈/妮蔻拉/多萝西/达斯廷/索玛/夏尔\\n\r<color=#E4B7FF>SR</color>   <color=#FFB800>10%</color>\\n\r莉薇娅/黛丝莉/叶珏/魇/苍叶/宵月/冯·里奈/菲妮娅/塞西尔/瓦伦汀/奈弥/霖/阿知波/甘雅/伊尔/卡莱雅/晃/海因里希\\n\r<color=#71CEFD>R</color>     <color=#FFB800>88%</color>\\n\r阿尔喀娜/艾略特/弗兰/伽罗尔/静流/卡莲/雷火/瑞秋/山岚/狮鬃/塔拉/跳鼠/朱利安\\n\\n\r<size=30><b>保底说明：</b></size>\\n\r在任意<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，未获得<color=#FFE266>SSR</color>角色的累计招募次数会一直累计于<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，招募次数保底互通。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>50</color>次没有获得<color=#FFE266>SSR</color>角色，则之后每次招募获得<color=#FFE266>SSR</color>角色的概率将提升<color=#FFB800>3%</color>，直至获得<color=#FFE266>SSR</color>角色，之后获得<color=#FFE266>SSR</color>角色的概率将恢复到<color=#FFB800>2%</color>。最多<color=#FFB800>83</color>次招募必定能通过保底获得<color=#FFE266>SSR</color>角色。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>9</color>次获得<color=#71CEFD>R</color>角色，则第<color=#FFB800>10</color>次必定获得<color=#E4B7FF>SR</color>角色或<color=#FFE266>SSR</color>角色。当前招募连续获得<color=#71CEFD>R</color>角色的招募次数不会继承至其他招募。\\n\\n\r<size=30><b>UP说明：</b></size>\\n\r当招募获得<color=#FFE266>SSR</color>角色时，有<color=#FFB800>50%</color>的概率为本期<color=#FFE266>SSR</color>概率提升角色<color=#FFB800>【卡洛琳】</color>。若本次招募获得的<color=#FFE266>SSR</color>角色非本期<color=#FFE266>SSR</color>概率提升角色，则下次招募获得的<color=#FFE266>SSR</color>角色必定为本期<color=#FFE266>SSR</color>概率提升角色。\\n\\n\r<size=30><b>特殊说明：</b></size>\\n\r列车长每次招募时，将获得<color=#FFB800>1</color>个【履历情报】。\\n\r列车长在招募中获得已有角色时，每次将转化为<color=#FFB800>1</color>个该角色的【履历补充】，角色的【履历补充】可用于角色觉醒。列车长获得任一角色的【履历补充】累计达到<color=#FFB800>5</color>个后，之后获得的该角色的【履历补充】将按以下比例自动回收为【履历情报】：\\n\r<color=#FFB800>1</color>个<color=#71CEFD>R</color>角色的【履历补充】将被回收为<color=#FFB800>1</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#E4B7FF>SR</color>角色的【履历补充】将被回收为<color=#FFB800>3</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#FFE266>SSR</color>角色的【履历补充】将被回收为<color=#FFB800>10</color>个【履历情报】\\n\r列车长可使用【履历情报】在每个城市休息区中的黑月商店兑换道具。",
+    "details": "<size=30><b>详情说明：</b></size>\\n\r列车长可在<color=#FFB800>【常驻招募-卡洛琳概率提升】</color>中使用【拉普拉斯协议】招募以下角色\\n\r<color=#FFE266>SSR</color>  <color=#FFB800>2%</color>\\n\r卡洛琳（UP）/夏洛蒂/那由他/约书亚/柯娜/卡塔斯/伊洛娜/星花/苏恩/闻笙/马吉拉/薇尔岚/苔妮/伊索斯/亚莉奈/妮蔻拉/多萝西/达斯廷/索玛/夏尔/安菲娅\\n\r<color=#E4B7FF>SR</color>   <color=#FFB800>10%</color>\\n\r莉薇娅/黛丝莉/叶珏/魇/苍叶/宵月/冯·里奈/菲妮娅/塞西尔/瓦伦汀/奈弥/霖/阿知波/甘雅/伊尔/卡莱雅/晃/海因里希\\n\r<color=#71CEFD>R</color>     <color=#FFB800>88%</color>\\n\r阿尔喀娜/艾略特/弗兰/伽罗尔/静流/卡莲/雷火/瑞秋/山岚/狮鬃/塔拉/跳鼠/朱利安\\n\\n\r<size=30><b>保底说明：</b></size>\\n\r在任意<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，未获得<color=#FFE266>SSR</color>角色的累计招募次数会一直累计于<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，招募次数保底互通。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>50</color>次没有获得<color=#FFE266>SSR</color>角色，则之后每次招募获得<color=#FFE266>SSR</color>角色的概率将提升<color=#FFB800>3%</color>，直至获得<color=#FFE266>SSR</color>角色，之后获得<color=#FFE266>SSR</color>角色的概率将恢复到<color=#FFB800>2%</color>。最多<color=#FFB800>83</color>次招募必定能通过保底获得<color=#FFE266>SSR</color>角色。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>9</color>次获得<color=#71CEFD>R</color>角色，则第<color=#FFB800>10</color>次必定获得<color=#E4B7FF>SR</color>角色或<color=#FFE266>SSR</color>角色。当前招募连续获得<color=#71CEFD>R</color>角色的招募次数不会继承至其他招募。\\n\\n\r<size=30><b>UP说明：</b></size>\\n\r当招募获得<color=#FFE266>SSR</color>角色时，有<color=#FFB800>50%</color>的概率为本期<color=#FFE266>SSR</color>概率提升角色<color=#FFB800>【卡洛琳】</color>。若本次招募获得的<color=#FFE266>SSR</color>角色非本期<color=#FFE266>SSR</color>概率提升角色，则下次招募获得的<color=#FFE266>SSR</color>角色必定为本期<color=#FFE266>SSR</color>概率提升角色。\\n\\n\r<size=30><b>特殊说明：</b></size>\\n\r列车长每次招募时，将获得<color=#FFB800>1</color>个【履历情报】。\\n\r列车长在招募中获得已有角色时，每次将转化为<color=#FFB800>1</color>个该角色的【履历补充】，角色的【履历补充】可用于角色觉醒。列车长获得任一角色的【履历补充】累计达到<color=#FFB800>5</color>个后，之后获得的该角色的【履历补充】将按以下比例自动回收为【履历情报】：\\n\r<color=#FFB800>1</color>个<color=#71CEFD>R</color>角色的【履历补充】将被回收为<color=#FFB800>1</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#E4B7FF>SR</color>角色的【履历补充】将被回收为<color=#FFB800>3</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#FFE266>SSR</color>角色的【履历补充】将被回收为<color=#FFB800>10</color>个【履历情报】\\n\r列车长可使用【履历情报】在每个城市休息区中的黑月商店兑换道具。",
     "tryList": [
       {
         "levelId": 20100100,
@@ -1318,7 +1319,7 @@
         "y": -23.0
       }
     ],
-    "details": "<size=30><b>详情说明：</b></size>\\n\r列车长可在<color=#FFB800>【常驻招募-星花概率提升】</color>中使用【拉普拉斯协议】招募以下角色\\n\r<color=#FFE266>SSR</color>  <color=#FFB800>2%</color>\\n\r星花（UP）/夏洛蒂/那由他/卡洛琳/约书亚/柯娜/卡塔斯/伊洛娜/苏恩/闻笙/马吉拉/薇尔岚/苔妮/伊索斯/亚莉奈/妮蔻拉/多萝西/达斯廷/索玛/夏尔\\n\r<color=#E4B7FF>SR</color>   <color=#FFB800>10%</color>\\n\r莉薇娅/黛丝莉/叶珏/魇/苍叶/宵月/冯·里奈/菲妮娅/塞西尔/瓦伦汀/奈弥/霖/阿知波/甘雅/伊尔/卡莱雅/晃/海因里希\\n\r<color=#71CEFD>R</color>     <color=#FFB800>88%</color>\\n\r阿尔喀娜/艾略特/弗兰/伽罗尔/静流/卡莲/雷火/瑞秋/山岚/狮鬃/塔拉/跳鼠/朱利安\\n\\n\r<size=30><b>保底说明：</b></size>\\n\r在任意<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，未获得<color=#FFE266>SSR</color>角色的累计招募次数会一直累计于<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，招募次数保底互通。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>50</color>次没有获得<color=#FFE266>SSR</color>角色，则之后每次招募获得<color=#FFE266>SSR</color>角色的概率将提升<color=#FFB800>3%</color>，直至获得<color=#FFE266>SSR</color>角色，之后获得<color=#FFE266>SSR</color>角色的概率将恢复到<color=#FFB800>2%</color>。最多<color=#FFB800>83</color>次招募必定能通过保底获得<color=#FFE266>SSR</color>角色。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>9</color>次获得<color=#71CEFD>R</color>角色，则第<color=#FFB800>10</color>次必定获得<color=#E4B7FF>SR</color>角色或<color=#FFE266>SSR</color>角色。当前招募连续获得<color=#71CEFD>R</color>角色的招募次数不会继承至其他招募。\\n\\n\r<size=30><b>UP说明：</b></size>\\n\r当招募获得<color=#FFE266>SSR</color>角色时，有<color=#FFB800>50%</color>的概率为本期<color=#FFE266>SSR</color>概率提升角色<color=#FFB800>【星花】</color>。若本次招募获得的<color=#FFE266>SSR</color>角色非本期<color=#FFE266>SSR</color>概率提升角色，则下次招募获得的<color=#FFE266>SSR</color>角色必定为本期<color=#FFE266>SSR</color>概率提升角色。\\n\\n\r<size=30><b>特殊说明：</b></size>\\n\r列车长每次招募时，将获得<color=#FFB800>1</color>个【履历情报】。\\n\r列车长在招募中获得已有角色时，每次将转化为<color=#FFB800>1</color>个该角色的【履历补充】，角色的【履历补充】可用于角色觉醒。列车长获得任一角色的【履历补充】累计达到<color=#FFB800>5</color>个后，之后获得的该角色的【履历补充】将按以下比例自动回收为【履历情报】：\\n\r<color=#FFB800>1</color>个<color=#71CEFD>R</color>角色的【履历补充】将被回收为<color=#FFB800>1</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#E4B7FF>SR</color>角色的【履历补充】将被回收为<color=#FFB800>3</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#FFE266>SSR</color>角色的【履历补充】将被回收为<color=#FFB800>10</color>个【履历情报】\\n\r列车长可使用【履历情报】在每个城市休息区中的黑月商店兑换道具。",
+    "details": "<size=30><b>详情说明：</b></size>\\n\r列车长可在<color=#FFB800>【常驻招募-星花概率提升】</color>中使用【拉普拉斯协议】招募以下角色\\n\r<color=#FFE266>SSR</color>  <color=#FFB800>2%</color>\\n\r星花（UP）/夏洛蒂/那由他/卡洛琳/约书亚/柯娜/卡塔斯/伊洛娜/苏恩/闻笙/马吉拉/薇尔岚/苔妮/伊索斯/亚莉奈/妮蔻拉/多萝西/达斯廷/索玛/夏尔/安菲娅\\n\r<color=#E4B7FF>SR</color>   <color=#FFB800>10%</color>\\n\r莉薇娅/黛丝莉/叶珏/魇/苍叶/宵月/冯·里奈/菲妮娅/塞西尔/瓦伦汀/奈弥/霖/阿知波/甘雅/伊尔/卡莱雅/晃/海因里希\\n\r<color=#71CEFD>R</color>     <color=#FFB800>88%</color>\\n\r阿尔喀娜/艾略特/弗兰/伽罗尔/静流/卡莲/雷火/瑞秋/山岚/狮鬃/塔拉/跳鼠/朱利安\\n\\n\r<size=30><b>保底说明：</b></size>\\n\r在任意<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，未获得<color=#FFE266>SSR</color>角色的累计招募次数会一直累计于<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，招募次数保底互通。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>50</color>次没有获得<color=#FFE266>SSR</color>角色，则之后每次招募获得<color=#FFE266>SSR</color>角色的概率将提升<color=#FFB800>3%</color>，直至获得<color=#FFE266>SSR</color>角色，之后获得<color=#FFE266>SSR</color>角色的概率将恢复到<color=#FFB800>2%</color>。最多<color=#FFB800>83</color>次招募必定能通过保底获得<color=#FFE266>SSR</color>角色。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>9</color>次获得<color=#71CEFD>R</color>角色，则第<color=#FFB800>10</color>次必定获得<color=#E4B7FF>SR</color>角色或<color=#FFE266>SSR</color>角色。当前招募连续获得<color=#71CEFD>R</color>角色的招募次数不会继承至其他招募。\\n\\n\r<size=30><b>UP说明：</b></size>\\n\r当招募获得<color=#FFE266>SSR</color>角色时，有<color=#FFB800>50%</color>的概率为本期<color=#FFE266>SSR</color>概率提升角色<color=#FFB800>【星花】</color>。若本次招募获得的<color=#FFE266>SSR</color>角色非本期<color=#FFE266>SSR</color>概率提升角色，则下次招募获得的<color=#FFE266>SSR</color>角色必定为本期<color=#FFE266>SSR</color>概率提升角色。\\n\\n\r<size=30><b>特殊说明：</b></size>\\n\r列车长每次招募时，将获得<color=#FFB800>1</color>个【履历情报】。\\n\r列车长在招募中获得已有角色时，每次将转化为<color=#FFB800>1</color>个该角色的【履历补充】，角色的【履历补充】可用于角色觉醒。列车长获得任一角色的【履历补充】累计达到<color=#FFB800>5</color>个后，之后获得的该角色的【履历补充】将按以下比例自动回收为【履历情报】：\\n\r<color=#FFB800>1</color>个<color=#71CEFD>R</color>角色的【履历补充】将被回收为<color=#FFB800>1</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#E4B7FF>SR</color>角色的【履历补充】将被回收为<color=#FFB800>3</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#FFE266>SSR</color>角色的【履历补充】将被回收为<color=#FFB800>10</color>个【履历情报】\\n\r列车长可使用【履历情报】在每个城市休息区中的黑月商店兑换道具。",
     "tryList": [
       {
         "levelId": 20100231,
@@ -1513,7 +1514,7 @@
         "y": -31.0
       }
     ],
-    "details": "<size=30><b>详情说明：</b></size>\\n\r列车长可在<color=#FFB800>【常驻招募-薇尔岚概率提升】</color>中使用【拉普拉斯协议】招募以下角色\\n\r<color=#FFE266>SSR</color>  <color=#FFB800>2%</color>\\n\r薇尔岚（UP）/夏洛蒂/那由他/卡洛琳/约书亚/柯娜/卡塔斯/伊洛娜/星花/苏恩/闻笙/马吉拉/苔妮/伊索斯/亚莉奈/妮蔻拉/多萝西/达斯廷/索玛/夏尔\\n\r<color=#E4B7FF>SR</color>   <color=#FFB800>10%</color>\\n\r莉薇娅/黛丝莉/叶珏/魇/苍叶/宵月/冯·里奈/菲妮娅/塞西尔/瓦伦汀/奈弥/霖/阿知波/甘雅/伊尔/卡莱雅/晃/海因里希\\n\r<color=#71CEFD>R</color>     <color=#FFB800>88%</color>\\n\r阿尔喀娜/艾略特/弗兰/伽罗尔/静流/卡莲/雷火/瑞秋/山岚/狮鬃/塔拉/跳鼠/朱利安\\n\\n\r<size=30><b>保底说明：</b></size>\\n\r在任意<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，未获得<color=#FFE266>SSR</color>角色的累计招募次数会一直累计于<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，招募次数保底互通。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>50</color>次没有获得<color=#FFE266>SSR</color>角色，则之后每次招募获得<color=#FFE266>SSR</color>角色的概率将提升<color=#FFB800>3%</color>，直至获得<color=#FFE266>SSR</color>角色，之后获得<color=#FFE266>SSR</color>角色的概率将恢复到<color=#FFB800>2%</color>。最多<color=#FFB800>83</color>次招募必定能通过保底获得<color=#FFE266>SSR</color>角色。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>9</color>次获得<color=#71CEFD>R</color>角色，则第<color=#FFB800>10</color>次必定获得<color=#E4B7FF>SR</color>角色或<color=#FFE266>SSR</color>角色。当前招募连续获得<color=#71CEFD>R</color>角色的招募次数不会继承至其他招募。\\n\\n\r<size=30><b>UP说明：</b></size>\\n\r当招募获得<color=#FFE266>SSR</color>角色时，有<color=#FFB800>50%</color>的概率为本期<color=#FFE266>SSR</color>概率提升角色<color=#FFB800>【薇尔岚】</color>。若本次招募获得的<color=#FFE266>SSR</color>角色非本期<color=#FFE266>SSR</color>概率提升角色，则下次招募获得的<color=#FFE266>SSR</color>角色必定为本期<color=#FFE266>SSR</color>概率提升角色。\\n\\n\r<size=30><b>特殊说明：</b></size>\\n\r列车长每次招募时，将获得<color=#FFB800>1</color>个【履历情报】。\\n\r列车长在招募中获得已有角色时，每次将转化为<color=#FFB800>1</color>个该角色的【履历补充】，角色的【履历补充】可用于角色觉醒。列车长获得任一角色的【履历补充】累计达到<color=#FFB800>5</color>个后，之后获得的该角色的【履历补充】将按以下比例自动回收为【履历情报】：\\n\r<color=#FFB800>1</color>个<color=#71CEFD>R</color>角色的【履历补充】将被回收为<color=#FFB800>1</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#E4B7FF>SR</color>角色的【履历补充】将被回收为<color=#FFB800>3</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#FFE266>SSR</color>角色的【履历补充】将被回收为<color=#FFB800>10</color>个【履历情报】\\n\r列车长可使用【履历情报】在每个城市休息区中的黑月商店兑换道具。",
+    "details": "<size=30><b>详情说明：</b></size>\\n\r列车长可在<color=#FFB800>【常驻招募-薇尔岚概率提升】</color>中使用【拉普拉斯协议】招募以下角色\\n\r<color=#FFE266>SSR</color>  <color=#FFB800>2%</color>\\n\r薇尔岚（UP）/夏洛蒂/那由他/卡洛琳/约书亚/柯娜/卡塔斯/伊洛娜/星花/苏恩/闻笙/马吉拉/苔妮/伊索斯/亚莉奈/妮蔻拉/多萝西/达斯廷/索玛/夏尔/安菲娅\\n\r<color=#E4B7FF>SR</color>   <color=#FFB800>10%</color>\\n\r莉薇娅/黛丝莉/叶珏/魇/苍叶/宵月/冯·里奈/菲妮娅/塞西尔/瓦伦汀/奈弥/霖/阿知波/甘雅/伊尔/卡莱雅/晃/海因里希\\n\r<color=#71CEFD>R</color>     <color=#FFB800>88%</color>\\n\r阿尔喀娜/艾略特/弗兰/伽罗尔/静流/卡莲/雷火/瑞秋/山岚/狮鬃/塔拉/跳鼠/朱利安\\n\\n\r<size=30><b>保底说明：</b></size>\\n\r在任意<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，未获得<color=#FFE266>SSR</color>角色的累计招募次数会一直累计于<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，招募次数保底互通。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>50</color>次没有获得<color=#FFE266>SSR</color>角色，则之后每次招募获得<color=#FFE266>SSR</color>角色的概率将提升<color=#FFB800>3%</color>，直至获得<color=#FFE266>SSR</color>角色，之后获得<color=#FFE266>SSR</color>角色的概率将恢复到<color=#FFB800>2%</color>。最多<color=#FFB800>83</color>次招募必定能通过保底获得<color=#FFE266>SSR</color>角色。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>9</color>次获得<color=#71CEFD>R</color>角色，则第<color=#FFB800>10</color>次必定获得<color=#E4B7FF>SR</color>角色或<color=#FFE266>SSR</color>角色。当前招募连续获得<color=#71CEFD>R</color>角色的招募次数不会继承至其他招募。\\n\\n\r<size=30><b>UP说明：</b></size>\\n\r当招募获得<color=#FFE266>SSR</color>角色时，有<color=#FFB800>50%</color>的概率为本期<color=#FFE266>SSR</color>概率提升角色<color=#FFB800>【薇尔岚】</color>。若本次招募获得的<color=#FFE266>SSR</color>角色非本期<color=#FFE266>SSR</color>概率提升角色，则下次招募获得的<color=#FFE266>SSR</color>角色必定为本期<color=#FFE266>SSR</color>概率提升角色。\\n\\n\r<size=30><b>特殊说明：</b></size>\\n\r列车长每次招募时，将获得<color=#FFB800>1</color>个【履历情报】。\\n\r列车长在招募中获得已有角色时，每次将转化为<color=#FFB800>1</color>个该角色的【履历补充】，角色的【履历补充】可用于角色觉醒。列车长获得任一角色的【履历补充】累计达到<color=#FFB800>5</color>个后，之后获得的该角色的【履历补充】将按以下比例自动回收为【履历情报】：\\n\r<color=#FFB800>1</color>个<color=#71CEFD>R</color>角色的【履历补充】将被回收为<color=#FFB800>1</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#E4B7FF>SR</color>角色的【履历补充】将被回收为<color=#FFB800>3</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#FFE266>SSR</color>角色的【履历补充】将被回收为<color=#FFB800>10</color>个【履历情报】\\n\r列车长可使用【履历情报】在每个城市休息区中的黑月商店兑换道具。",
     "tryList": [
       {
         "levelId": 20100452,
@@ -1708,7 +1709,7 @@
         "y": -41.0
       }
     ],
-    "details": "<size=30><b>详情说明：</b></size>\\n\r列车长可在<color=#FFB800>【常驻招募-卡塔斯概率提升】</color>中使用【拉普拉斯协议】招募以下角色\\n\r<color=#FFE266>SSR</color>  <color=#FFB800>2%</color>\\n\r卡塔斯（UP）/夏洛蒂/那由他/卡洛琳/约书亚/柯娜/伊洛娜/星花/苏恩/闻笙/马吉拉/薇尔岚/苔妮/伊索斯/亚莉奈/妮蔻拉/多萝西/达斯廷/索玛/夏尔\\n\r<color=#E4B7FF>SR</color>   <color=#FFB800>10%</color>\\n\r莉薇娅/黛丝莉/叶珏/魇/苍叶/宵月/冯·里奈/菲妮娅/塞西尔/瓦伦汀/奈弥/霖/阿知波/甘雅/伊尔/卡莱雅/晃/海因里希\\n\r<color=#71CEFD>R</color>     <color=#FFB800>88%</color>\\n\r阿尔喀娜/艾略特/弗兰/伽罗尔/静流/卡莲/雷火/瑞秋/山岚/狮鬃/塔拉/跳鼠/朱利安\\n\\n\r<size=30><b>保底说明：</b></size>\\n\r在任意<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，未获得<color=#FFE266>SSR</color>角色的累计招募次数会一直累计于<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，招募次数保底互通。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>50</color>次没有获得<color=#FFE266>SSR</color>角色，则之后每次招募获得<color=#FFE266>SSR</color>角色的概率将提升<color=#FFB800>3%</color>，直至获得<color=#FFE266>SSR</color>角色，之后获得<color=#FFE266>SSR</color>角色的概率将恢复到<color=#FFB800>2%</color>。最多<color=#FFB800>83</color>次招募必定能通过保底获得<color=#FFE266>SSR</color>角色。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>9</color>次获得<color=#71CEFD>R</color>角色，则第<color=#FFB800>10</color>次必定获得<color=#E4B7FF>SR</color>角色或<color=#FFE266>SSR</color>角色。当前招募连续获得<color=#71CEFD>R</color>角色的招募次数不会继承至其他招募。\\n\\n\r<size=30><b>UP说明：</b></size>\\n\r当招募获得<color=#FFE266>SSR</color>角色时，有<color=#FFB800>50%</color>的概率为本期<color=#FFE266>SSR</color>概率提升角色<color=#FFB800>【卡塔斯】</color>。若本次招募获得的<color=#FFE266>SSR</color>角色非本期<color=#FFE266>SSR</color>概率提升角色，则下次招募获得的<color=#FFE266>SSR</color>角色必定为本期<color=#FFE266>SSR</color>概率提升角色。\\n\\n\r<size=30><b>特殊说明：</b></size>\\n\r列车长每次招募时，将获得<color=#FFB800>1</color>个【履历情报】。\\n\r列车长在招募中获得已有角色时，每次将转化为<color=#FFB800>1</color>个该角色的【履历补充】，角色的【履历补充】可用于角色觉醒。列车长获得任一角色的【履历补充】累计达到<color=#FFB800>5</color>个后，之后获得的该角色的【履历补充】将按以下比例自动回收为【履历情报】：\\n\r<color=#FFB800>1</color>个<color=#71CEFD>R</color>角色的【履历补充】将被回收为<color=#FFB800>1</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#E4B7FF>SR</color>角色的【履历补充】将被回收为<color=#FFB800>3</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#FFE266>SSR</color>角色的【履历补充】将被回收为<color=#FFB800>10</color>个【履历情报】\\n\r列车长可使用【履历情报】在每个城市休息区中的黑月商店兑换道具。",
+    "details": "<size=30><b>详情说明：</b></size>\\n\r列车长可在<color=#FFB800>【常驻招募-卡塔斯概率提升】</color>中使用【拉普拉斯协议】招募以下角色\\n\r<color=#FFE266>SSR</color>  <color=#FFB800>2%</color>\\n\r卡塔斯（UP）/夏洛蒂/那由他/卡洛琳/约书亚/柯娜/伊洛娜/星花/苏恩/闻笙/马吉拉/薇尔岚/苔妮/伊索斯/亚莉奈/妮蔻拉/多萝西/达斯廷/索玛/夏尔/安菲娅\\n\r<color=#E4B7FF>SR</color>   <color=#FFB800>10%</color>\\n\r莉薇娅/黛丝莉/叶珏/魇/苍叶/宵月/冯·里奈/菲妮娅/塞西尔/瓦伦汀/奈弥/霖/阿知波/甘雅/伊尔/卡莱雅/晃/海因里希\\n\r<color=#71CEFD>R</color>     <color=#FFB800>88%</color>\\n\r阿尔喀娜/艾略特/弗兰/伽罗尔/静流/卡莲/雷火/瑞秋/山岚/狮鬃/塔拉/跳鼠/朱利安\\n\\n\r<size=30><b>保底说明：</b></size>\\n\r在任意<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，未获得<color=#FFE266>SSR</color>角色的累计招募次数会一直累计于<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，招募次数保底互通。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>50</color>次没有获得<color=#FFE266>SSR</color>角色，则之后每次招募获得<color=#FFE266>SSR</color>角色的概率将提升<color=#FFB800>3%</color>，直至获得<color=#FFE266>SSR</color>角色，之后获得<color=#FFE266>SSR</color>角色的概率将恢复到<color=#FFB800>2%</color>。最多<color=#FFB800>83</color>次招募必定能通过保底获得<color=#FFE266>SSR</color>角色。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>9</color>次获得<color=#71CEFD>R</color>角色，则第<color=#FFB800>10</color>次必定获得<color=#E4B7FF>SR</color>角色或<color=#FFE266>SSR</color>角色。当前招募连续获得<color=#71CEFD>R</color>角色的招募次数不会继承至其他招募。\\n\\n\r<size=30><b>UP说明：</b></size>\\n\r当招募获得<color=#FFE266>SSR</color>角色时，有<color=#FFB800>50%</color>的概率为本期<color=#FFE266>SSR</color>概率提升角色<color=#FFB800>【卡塔斯】</color>。若本次招募获得的<color=#FFE266>SSR</color>角色非本期<color=#FFE266>SSR</color>概率提升角色，则下次招募获得的<color=#FFE266>SSR</color>角色必定为本期<color=#FFE266>SSR</color>概率提升角色。\\n\\n\r<size=30><b>特殊说明：</b></size>\\n\r列车长每次招募时，将获得<color=#FFB800>1</color>个【履历情报】。\\n\r列车长在招募中获得已有角色时，每次将转化为<color=#FFB800>1</color>个该角色的【履历补充】，角色的【履历补充】可用于角色觉醒。列车长获得任一角色的【履历补充】累计达到<color=#FFB800>5</color>个后，之后获得的该角色的【履历补充】将按以下比例自动回收为【履历情报】：\\n\r<color=#FFB800>1</color>个<color=#71CEFD>R</color>角色的【履历补充】将被回收为<color=#FFB800>1</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#E4B7FF>SR</color>角色的【履历补充】将被回收为<color=#FFB800>3</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#FFE266>SSR</color>角色的【履历补充】将被回收为<color=#FFB800>10</color>个【履历情报】\\n\r列车长可使用【履历情报】在每个城市休息区中的黑月商店兑换道具。",
     "tryList": [
       {
         "levelId": 20100177,
@@ -1903,7 +1904,7 @@
         "y": -36.0
       }
     ],
-    "details": "<size=30><b>详情说明：</b></size>\\n\r列车长可在<color=#FFB800>【常驻招募-闻笙概率提升】</color>中使用【拉普拉斯协议】招募以下角色\\n\r<color=#FFE266>SSR</color>  <color=#FFB800>2%</color>\\n\r闻笙（UP）/夏洛蒂/那由他/卡洛琳/约书亚/柯娜/卡塔斯/伊洛娜/星花/苏恩/马吉拉/薇尔岚/苔妮/伊索斯/亚莉奈/妮蔻拉/多萝西/达斯廷/索玛/夏尔\\n\r<color=#E4B7FF>SR</color>   <color=#FFB800>10%</color>\\n\r莉薇娅/黛丝莉/叶珏/魇/苍叶/宵月/冯·里奈/菲妮娅/塞西尔/瓦伦汀/奈弥/霖/阿知波/甘雅/伊尔/卡莱雅/晃/海因里希\\n\r<color=#71CEFD>R</color>     <color=#FFB800>88%</color>\\n\r阿尔喀娜/艾略特/弗兰/伽罗尔/静流/卡莲/雷火/瑞秋/山岚/狮鬃/塔拉/跳鼠/朱利安\\n\\n\r<size=30><b>保底说明：</b></size>\\n\r在任意<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，未获得<color=#FFE266>SSR</color>角色的累计招募次数会一直累计于<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，招募次数保底互通。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>50</color>次没有获得<color=#FFE266>SSR</color>角色，则之后每次招募获得<color=#FFE266>SSR</color>角色的概率将提升<color=#FFB800>3%</color>，直至获得<color=#FFE266>SSR</color>角色，之后获得<color=#FFE266>SSR</color>角色的概率将恢复到<color=#FFB800>2%</color>。最多<color=#FFB800>83</color>次招募必定能通过保底获得<color=#FFE266>SSR</color>角色。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>9</color>次获得<color=#71CEFD>R</color>角色，则第<color=#FFB800>10</color>次必定获得<color=#E4B7FF>SR</color>角色或<color=#FFE266>SSR</color>角色。当前招募连续获得<color=#71CEFD>R</color>角色的招募次数不会继承至其他招募。\\n\\n\r<size=30><b>UP说明：</b></size>\\n\r当招募获得<color=#FFE266>SSR</color>角色时，有<color=#FFB800>50%</color>的概率为本期<color=#FFE266>SSR</color>概率提升角色<color=#FFB800>【闻笙】</color>。若本次招募获得的<color=#FFE266>SSR</color>角色非本期<color=#FFE266>SSR</color>概率提升角色，则下次招募获得的<color=#FFE266>SSR</color>角色必定为本期<color=#FFE266>SSR</color>概率提升角色。\\n\\n\r<size=30><b>特殊说明：</b></size>\\n\r列车长每次招募时，将获得<color=#FFB800>1</color>个【履历情报】。\\n\r列车长在招募中获得已有角色时，每次将转化为<color=#FFB800>1</color>个该角色的【履历补充】，角色的【履历补充】可用于角色觉醒。列车长获得任一角色的【履历补充】累计达到<color=#FFB800>5</color>个后，之后获得的该角色的【履历补充】将按以下比例自动回收为【履历情报】：\\n\r<color=#FFB800>1</color>个<color=#71CEFD>R</color>角色的【履历补充】将被回收为<color=#FFB800>1</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#E4B7FF>SR</color>角色的【履历补充】将被回收为<color=#FFB800>3</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#FFE266>SSR</color>角色的【履历补充】将被回收为<color=#FFB800>10</color>个【履历情报】\\n\r列车长可使用【履历情报】在每个城市休息区中的黑月商店兑换道具。",
+    "details": "<size=30><b>详情说明：</b></size>\\n\r列车长可在<color=#FFB800>【常驻招募-闻笙概率提升】</color>中使用【拉普拉斯协议】招募以下角色\\n\r<color=#FFE266>SSR</color>  <color=#FFB800>2%</color>\\n\r闻笙（UP）/夏洛蒂/那由他/卡洛琳/约书亚/柯娜/卡塔斯/伊洛娜/星花/苏恩/马吉拉/薇尔岚/苔妮/伊索斯/亚莉奈/妮蔻拉/多萝西/达斯廷/索玛/夏尔/安菲娅\\n\r<color=#E4B7FF>SR</color>   <color=#FFB800>10%</color>\\n\r莉薇娅/黛丝莉/叶珏/魇/苍叶/宵月/冯·里奈/菲妮娅/塞西尔/瓦伦汀/奈弥/霖/阿知波/甘雅/伊尔/卡莱雅/晃/海因里希\\n\r<color=#71CEFD>R</color>     <color=#FFB800>88%</color>\\n\r阿尔喀娜/艾略特/弗兰/伽罗尔/静流/卡莲/雷火/瑞秋/山岚/狮鬃/塔拉/跳鼠/朱利安\\n\\n\r<size=30><b>保底说明：</b></size>\\n\r在任意<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，未获得<color=#FFE266>SSR</color>角色的累计招募次数会一直累计于<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，招募次数保底互通。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>50</color>次没有获得<color=#FFE266>SSR</color>角色，则之后每次招募获得<color=#FFE266>SSR</color>角色的概率将提升<color=#FFB800>3%</color>，直至获得<color=#FFE266>SSR</color>角色，之后获得<color=#FFE266>SSR</color>角色的概率将恢复到<color=#FFB800>2%</color>。最多<color=#FFB800>83</color>次招募必定能通过保底获得<color=#FFE266>SSR</color>角色。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>9</color>次获得<color=#71CEFD>R</color>角色，则第<color=#FFB800>10</color>次必定获得<color=#E4B7FF>SR</color>角色或<color=#FFE266>SSR</color>角色。当前招募连续获得<color=#71CEFD>R</color>角色的招募次数不会继承至其他招募。\\n\\n\r<size=30><b>UP说明：</b></size>\\n\r当招募获得<color=#FFE266>SSR</color>角色时，有<color=#FFB800>50%</color>的概率为本期<color=#FFE266>SSR</color>概率提升角色<color=#FFB800>【闻笙】</color>。若本次招募获得的<color=#FFE266>SSR</color>角色非本期<color=#FFE266>SSR</color>概率提升角色，则下次招募获得的<color=#FFE266>SSR</color>角色必定为本期<color=#FFE266>SSR</color>概率提升角色。\\n\\n\r<size=30><b>特殊说明：</b></size>\\n\r列车长每次招募时，将获得<color=#FFB800>1</color>个【履历情报】。\\n\r列车长在招募中获得已有角色时，每次将转化为<color=#FFB800>1</color>个该角色的【履历补充】，角色的【履历补充】可用于角色觉醒。列车长获得任一角色的【履历补充】累计达到<color=#FFB800>5</color>个后，之后获得的该角色的【履历补充】将按以下比例自动回收为【履历情报】：\\n\r<color=#FFB800>1</color>个<color=#71CEFD>R</color>角色的【履历补充】将被回收为<color=#FFB800>1</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#E4B7FF>SR</color>角色的【履历补充】将被回收为<color=#FFB800>3</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#FFE266>SSR</color>角色的【履历补充】将被回收为<color=#FFB800>10</color>个【履历情报】\\n\r列车长可使用【履历情报】在每个城市休息区中的黑月商店兑换道具。",
     "tryList": [
       {
         "levelId": 20100415,
@@ -2098,7 +2099,7 @@
         "y": 0.0
       }
     ],
-    "details": "<size=30><b>详情说明：</b></size>\\n\r列车长可在<color=#FFB800>【常驻招募-夏洛蒂概率提升】</color>中使用【拉普拉斯协议】招募以下角色\\n\r<color=#FFE266>SSR</color>  <color=#FFB800>2%</color>\\n\r夏洛蒂（UP）/那由他/卡洛琳/约书亚/柯娜/卡塔斯/伊洛娜/星花/苏恩/闻笙/马吉拉/薇尔岚/苔妮/亚莉奈/妮蔻拉/多萝西/达斯廷/索玛/夏尔\\n\r<color=#E4B7FF>SR</color>   <color=#FFB800>10%</color>\\n\r莉薇娅/黛丝莉/叶珏/魇/苍叶/宵月/冯·里奈/菲妮娅/塞西尔/瓦伦汀/奈弥/霖/阿知波/甘雅/伊尔/卡莱雅/晃/海因里希\\n\r<color=#71CEFD>R</color>     <color=#FFB800>88%</color>\\n\r阿尔喀娜/艾略特/弗兰/伽罗尔/静流/卡莲/雷火/瑞秋/山岚/狮鬃/塔拉/跳鼠/朱利安\\n\\n\r<size=30><b>保底说明：</b></size>\\n\r在任意<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，未获得<color=#FFE266>SSR</color>角色的累计招募次数会一直累计于<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，招募次数保底互通。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>50</color>次没有获得<color=#FFE266>SSR</color>角色，则之后每次招募获得<color=#FFE266>SSR</color>角色的概率将提升<color=#FFB800>3%</color>，直至获得<color=#FFE266>SSR</color>角色，之后获得<color=#FFE266>SSR</color>角色的概率将恢复到<color=#FFB800>2%</color>。最多<color=#FFB800>83</color>次招募必定能通过保底获得<color=#FFE266>SSR</color>角色。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>9</color>次获得<color=#71CEFD>R</color>角色，则第<color=#FFB800>10</color>次必定获得<color=#E4B7FF>SR</color>角色或<color=#FFE266>SSR</color>角色。当前招募连续获得<color=#71CEFD>R</color>角色的招募次数不会继承至其他招募。\\n\\n\r<size=30><b>UP说明：</b></size>\\n\r当招募获得<color=#FFE266>SSR</color>角色时，有<color=#FFB800>50%</color>的概率为本期<color=#FFE266>SSR</color>概率提升角色<color=#FFB800>【夏洛蒂】</color>。若本次招募获得的<color=#FFE266>SSR</color>角色非本期<color=#FFE266>SSR</color>概率提升角色，则下次招募获得的<color=#FFE266>SSR</color>角色必定为本期<color=#FFE266>SSR</color>概率提升角色。\\n\\n\r<size=30><b>特殊说明：</b></size>\\n\r列车长每次招募时，将获得<color=#FFB800>1</color>个【履历情报】。\\n\r列车长在招募中获得已有角色时，每次将转化为<color=#FFB800>1</color>个该角色的【履历补充】，角色的【履历补充】可用于角色觉醒。列车长获得任一角色的【履历补充】累计达到<color=#FFB800>5</color>个后，之后获得的该角色的【履历补充】将按以下比例自动回收为【履历情报】：\\n\r<color=#FFB800>1</color>个<color=#71CEFD>R</color>角色的【履历补充】将被回收为<color=#FFB800>1</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#E4B7FF>SR</color>角色的【履历补充】将被回收为<color=#FFB800>3</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#FFE266>SSR</color>角色的【履历补充】将被回收为<color=#FFB800>10</color>个【履历情报】\\n\r列车长可使用【履历情报】在每个城市休息区中的黑月商店兑换道具。",
+    "details": "<size=30><b>详情说明：</b></size>\\n\r列车长可在<color=#FFB800>【常驻招募-夏洛蒂概率提升】</color>中使用【拉普拉斯协议】招募以下角色\\n\r<color=#FFE266>SSR</color>  <color=#FFB800>2%</color>\\n\r夏洛蒂（UP）/那由他/卡洛琳/约书亚/柯娜/卡塔斯/伊洛娜/星花/苏恩/闻笙/马吉拉/薇尔岚/苔妮/亚莉奈/妮蔻拉/多萝西/达斯廷/索玛/夏尔/安菲娅\\n\r<color=#E4B7FF>SR</color>   <color=#FFB800>10%</color>\\n\r莉薇娅/黛丝莉/叶珏/魇/苍叶/宵月/冯·里奈/菲妮娅/塞西尔/瓦伦汀/奈弥/霖/阿知波/甘雅/伊尔/卡莱雅/晃/海因里希\\n\r<color=#71CEFD>R</color>     <color=#FFB800>88%</color>\\n\r阿尔喀娜/艾略特/弗兰/伽罗尔/静流/卡莲/雷火/瑞秋/山岚/狮鬃/塔拉/跳鼠/朱利安\\n\\n\r<size=30><b>保底说明：</b></size>\\n\r在任意<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，未获得<color=#FFE266>SSR</color>角色的累计招募次数会一直累计于<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，招募次数保底互通。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>50</color>次没有获得<color=#FFE266>SSR</color>角色，则之后每次招募获得<color=#FFE266>SSR</color>角色的概率将提升<color=#FFB800>3%</color>，直至获得<color=#FFE266>SSR</color>角色，之后获得<color=#FFE266>SSR</color>角色的概率将恢复到<color=#FFB800>2%</color>。最多<color=#FFB800>83</color>次招募必定能通过保底获得<color=#FFE266>SSR</color>角色。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>9</color>次获得<color=#71CEFD>R</color>角色，则第<color=#FFB800>10</color>次必定获得<color=#E4B7FF>SR</color>角色或<color=#FFE266>SSR</color>角色。当前招募连续获得<color=#71CEFD>R</color>角色的招募次数不会继承至其他招募。\\n\\n\r<size=30><b>UP说明：</b></size>\\n\r当招募获得<color=#FFE266>SSR</color>角色时，有<color=#FFB800>50%</color>的概率为本期<color=#FFE266>SSR</color>概率提升角色<color=#FFB800>【夏洛蒂】</color>。若本次招募获得的<color=#FFE266>SSR</color>角色非本期<color=#FFE266>SSR</color>概率提升角色，则下次招募获得的<color=#FFE266>SSR</color>角色必定为本期<color=#FFE266>SSR</color>概率提升角色。\\n\\n\r<size=30><b>特殊说明：</b></size>\\n\r列车长每次招募时，将获得<color=#FFB800>1</color>个【履历情报】。\\n\r列车长在招募中获得已有角色时，每次将转化为<color=#FFB800>1</color>个该角色的【履历补充】，角色的【履历补充】可用于角色觉醒。列车长获得任一角色的【履历补充】累计达到<color=#FFB800>5</color>个后，之后获得的该角色的【履历补充】将按以下比例自动回收为【履历情报】：\\n\r<color=#FFB800>1</color>个<color=#71CEFD>R</color>角色的【履历补充】将被回收为<color=#FFB800>1</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#E4B7FF>SR</color>角色的【履历补充】将被回收为<color=#FFB800>3</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#FFE266>SSR</color>角色的【履历补充】将被回收为<color=#FFB800>10</color>个【履历情报】\\n\r列车长可使用【履历情报】在每个城市休息区中的黑月商店兑换道具。",
     "tryList": [
       {
         "levelId": 20100028,
@@ -2293,7 +2294,7 @@
         "y": -41.0
       }
     ],
-    "details": "<size=30><b>详情说明：</b></size>\\n\r列车长可在<color=#FFB800>【常驻招募-马吉拉概率提升】</color>中使用【拉普拉斯协议】招募以下角色\\n\r<color=#FFE266>SSR</color>  <color=#FFB800>2%</color>\\n\r马吉拉（UP）/夏洛蒂/那由他/卡洛琳/约书亚/柯娜/卡塔斯/伊洛娜/星花/苏恩/闻笙/薇尔岚/苔妮/伊索斯/亚莉奈/妮蔻拉/多萝西/达斯廷/索玛/夏尔\\n\r<color=#E4B7FF>SR</color>   <color=#FFB800>10%</color>\\n\r莉薇娅/黛丝莉/叶珏/魇/苍叶/宵月/冯·里奈/菲妮娅/塞西尔/瓦伦汀/奈弥/霖/阿知波/甘雅/伊尔/卡莱雅/晃/海因里希\\n\r<color=#71CEFD>R</color>     <color=#FFB800>88%</color>\\n\r阿尔喀娜/艾略特/弗兰/伽罗尔/静流/卡莲/雷火/瑞秋/山岚/狮鬃/塔拉/跳鼠/朱利安\\n\\n\r<size=30><b>保底说明：</b></size>\\n\r在任意<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，未获得<color=#FFE266>SSR</color>角色的累计招募次数会一直累计于<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，招募次数保底互通。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>50</color>次没有获得<color=#FFE266>SSR</color>角色，则之后每次招募获得<color=#FFE266>SSR</color>角色的概率将提升<color=#FFB800>3%</color>，直至获得<color=#FFE266>SSR</color>角色，之后获得<color=#FFE266>SSR</color>角色的概率将恢复到<color=#FFB800>2%</color>。最多<color=#FFB800>83</color>次招募必定能通过保底获得<color=#FFE266>SSR</color>角色。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>9</color>次获得<color=#71CEFD>R</color>角色，则第<color=#FFB800>10</color>次必定获得<color=#E4B7FF>SR</color>角色或<color=#FFE266>SSR</color>角色。当前招募连续获得<color=#71CEFD>R</color>角色的招募次数不会继承至其他招募。\\n\\n\r<size=30><b>UP说明：</b></size>\\n\r当招募获得<color=#FFE266>SSR</color>角色时，有<color=#FFB800>50%</color>的概率为本期<color=#FFE266>SSR</color>概率提升角色<color=#FFB800>【马吉拉】</color>。若本次招募获得的<color=#FFE266>SSR</color>角色非本期<color=#FFE266>SSR</color>概率提升角色，则下次招募获得的<color=#FFE266>SSR</color>角色必定为本期<color=#FFE266>SSR</color>概率提升角色。\\n\\n\r<size=30><b>特殊说明：</b></size>\\n\r列车长每次招募时，将获得<color=#FFB800>1</color>个【履历情报】。\\n\r列车长在招募中获得已有角色时，每次将转化为<color=#FFB800>1</color>个该角色的【履历补充】，角色的【履历补充】可用于角色觉醒。列车长获得任一角色的【履历补充】累计达到<color=#FFB800>5</color>个后，之后获得的该角色的【履历补充】将按以下比例自动回收为【履历情报】：\\n\r<color=#FFB800>1</color>个<color=#71CEFD>R</color>角色的【履历补充】将被回收为<color=#FFB800>1</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#E4B7FF>SR</color>角色的【履历补充】将被回收为<color=#FFB800>3</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#FFE266>SSR</color>角色的【履历补充】将被回收为<color=#FFB800>10</color>个【履历情报】\\n\r列车长可使用【履历情报】在每个城市休息区中的黑月商店兑换道具。",
+    "details": "<size=30><b>详情说明：</b></size>\\n\r列车长可在<color=#FFB800>【常驻招募-马吉拉概率提升】</color>中使用【拉普拉斯协议】招募以下角色\\n\r<color=#FFE266>SSR</color>  <color=#FFB800>2%</color>\\n\r马吉拉（UP）/夏洛蒂/那由他/卡洛琳/约书亚/柯娜/卡塔斯/伊洛娜/星花/苏恩/闻笙/薇尔岚/苔妮/伊索斯/亚莉奈/妮蔻拉/多萝西/达斯廷/索玛/夏尔/安菲娅\\n\r<color=#E4B7FF>SR</color>   <color=#FFB800>10%</color>\\n\r莉薇娅/黛丝莉/叶珏/魇/苍叶/宵月/冯·里奈/菲妮娅/塞西尔/瓦伦汀/奈弥/霖/阿知波/甘雅/伊尔/卡莱雅/晃/海因里希\\n\r<color=#71CEFD>R</color>     <color=#FFB800>88%</color>\\n\r阿尔喀娜/艾略特/弗兰/伽罗尔/静流/卡莲/雷火/瑞秋/山岚/狮鬃/塔拉/跳鼠/朱利安\\n\\n\r<size=30><b>保底说明：</b></size>\\n\r在任意<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，未获得<color=#FFE266>SSR</color>角色的累计招募次数会一直累计于<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，招募次数保底互通。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>50</color>次没有获得<color=#FFE266>SSR</color>角色，则之后每次招募获得<color=#FFE266>SSR</color>角色的概率将提升<color=#FFB800>3%</color>，直至获得<color=#FFE266>SSR</color>角色，之后获得<color=#FFE266>SSR</color>角色的概率将恢复到<color=#FFB800>2%</color>。最多<color=#FFB800>83</color>次招募必定能通过保底获得<color=#FFE266>SSR</color>角色。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>9</color>次获得<color=#71CEFD>R</color>角色，则第<color=#FFB800>10</color>次必定获得<color=#E4B7FF>SR</color>角色或<color=#FFE266>SSR</color>角色。当前招募连续获得<color=#71CEFD>R</color>角色的招募次数不会继承至其他招募。\\n\\n\r<size=30><b>UP说明：</b></size>\\n\r当招募获得<color=#FFE266>SSR</color>角色时，有<color=#FFB800>50%</color>的概率为本期<color=#FFE266>SSR</color>概率提升角色<color=#FFB800>【马吉拉】</color>。若本次招募获得的<color=#FFE266>SSR</color>角色非本期<color=#FFE266>SSR</color>概率提升角色，则下次招募获得的<color=#FFE266>SSR</color>角色必定为本期<color=#FFE266>SSR</color>概率提升角色。\\n\\n\r<size=30><b>特殊说明：</b></size>\\n\r列车长每次招募时，将获得<color=#FFB800>1</color>个【履历情报】。\\n\r列车长在招募中获得已有角色时，每次将转化为<color=#FFB800>1</color>个该角色的【履历补充】，角色的【履历补充】可用于角色觉醒。列车长获得任一角色的【履历补充】累计达到<color=#FFB800>5</color>个后，之后获得的该角色的【履历补充】将按以下比例自动回收为【履历情报】：\\n\r<color=#FFB800>1</color>个<color=#71CEFD>R</color>角色的【履历补充】将被回收为<color=#FFB800>1</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#E4B7FF>SR</color>角色的【履历补充】将被回收为<color=#FFB800>3</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#FFE266>SSR</color>角色的【履历补充】将被回收为<color=#FFB800>10</color>个【履历情报】\\n\r列车长可使用【履历情报】在每个城市休息区中的黑月商店兑换道具。",
     "tryList": [
       {
         "levelId": 20100427,
@@ -2488,7 +2489,7 @@
         "y": -36.0
       }
     ],
-    "details": "<size=30><b>详情说明：</b></size>\\n\r列车长可在<color=#FFB800>【常驻招募-伊洛娜概率提升】</color>中使用【拉普拉斯协议】招募以下角色\\n\r<color=#FFE266>SSR</color>  <color=#FFB800>2%</color>\\n\r伊洛娜（UP）/夏洛蒂/那由他/卡洛琳/约书亚/柯娜/卡塔斯/星花/苏恩/闻笙/马吉拉/薇尔岚/苔妮/伊索斯/亚莉奈/妮蔻拉/多萝西/达斯廷/索玛/夏尔\\n\r<color=#E4B7FF>SR</color>   <color=#FFB800>10%</color>\\n\r莉薇娅/黛丝莉/叶珏/魇/苍叶/宵月/冯·里奈/菲妮娅/塞西尔/瓦伦汀/奈弥/霖/阿知波/甘雅/伊尔/卡莱雅/晃/海因里希\\n\r<color=#71CEFD>R</color>     <color=#FFB800>88%</color>\\n\r阿尔喀娜/艾略特/弗兰/伽罗尔/静流/卡莲/雷火/瑞秋/山岚/狮鬃/塔拉/跳鼠/朱利安\\n\\n\r<size=30><b>保底说明：</b></size>\\n\r在任意<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，未获得<color=#FFE266>SSR</color>角色的累计招募次数会一直累计于<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，招募次数保底互通。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>50</color>次没有获得<color=#FFE266>SSR</color>角色，则之后每次招募获得<color=#FFE266>SSR</color>角色的概率将提升<color=#FFB800>3%</color>，直至获得<color=#FFE266>SSR</color>角色，之后获得<color=#FFE266>SSR</color>角色的概率将恢复到<color=#FFB800>2%</color>。最多<color=#FFB800>83</color>次招募必定能通过保底获得<color=#FFE266>SSR</color>角色。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>9</color>次获得<color=#71CEFD>R</color>角色，则第<color=#FFB800>10</color>次必定获得<color=#E4B7FF>SR</color>角色或<color=#FFE266>SSR</color>角色。当前招募连续获得<color=#71CEFD>R</color>角色的招募次数不会继承至其他招募。\\n\\n\r<size=30><b>UP说明：</b></size>\\n\r当招募获得<color=#FFE266>SSR</color>角色时，有<color=#FFB800>50%</color>的概率为本期<color=#FFE266>SSR</color>概率提升角色<color=#FFB800>【伊洛娜】</color>。若本次招募获得的<color=#FFE266>SSR</color>角色非本期<color=#FFE266>SSR</color>概率提升角色，则下次招募获得的<color=#FFE266>SSR</color>角色必定为本期<color=#FFE266>SSR</color>概率提升角色。\\n\\n\r<size=30><b>特殊说明：</b></size>\\n\r列车长每次招募时，将获得<color=#FFB800>1</color>个【履历情报】。\\n\r列车长在招募中获得已有角色时，每次将转化为<color=#FFB800>1</color>个该角色的【履历补充】，角色的【履历补充】可用于角色觉醒。列车长获得任一角色的【履历补充】累计达到<color=#FFB800>5</color>个后，之后获得的该角色的【履历补充】将按以下比例自动回收为【履历情报】：\\n\r<color=#FFB800>1</color>个<color=#71CEFD>R</color>角色的【履历补充】将被回收为<color=#FFB800>1</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#E4B7FF>SR</color>角色的【履历补充】将被回收为<color=#FFB800>3</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#FFE266>SSR</color>角色的【履历补充】将被回收为<color=#FFB800>10</color>个【履历情报】\\n\r列车长可使用【履历情报】在每个城市休息区中的黑月商店兑换道具。",
+    "details": "<size=30><b>详情说明：</b></size>\\n\r列车长可在<color=#FFB800>【常驻招募-伊洛娜概率提升】</color>中使用【拉普拉斯协议】招募以下角色\\n\r<color=#FFE266>SSR</color>  <color=#FFB800>2%</color>\\n\r伊洛娜（UP）/夏洛蒂/那由他/卡洛琳/约书亚/柯娜/卡塔斯/星花/苏恩/闻笙/马吉拉/薇尔岚/苔妮/伊索斯/亚莉奈/妮蔻拉/多萝西/达斯廷/索玛/夏尔/安菲娅\\n\r<color=#E4B7FF>SR</color>   <color=#FFB800>10%</color>\\n\r莉薇娅/黛丝莉/叶珏/魇/苍叶/宵月/冯·里奈/菲妮娅/塞西尔/瓦伦汀/奈弥/霖/阿知波/甘雅/伊尔/卡莱雅/晃/海因里希\\n\r<color=#71CEFD>R</color>     <color=#FFB800>88%</color>\\n\r阿尔喀娜/艾略特/弗兰/伽罗尔/静流/卡莲/雷火/瑞秋/山岚/狮鬃/塔拉/跳鼠/朱利安\\n\\n\r<size=30><b>保底说明：</b></size>\\n\r在任意<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，未获得<color=#FFE266>SSR</color>角色的累计招募次数会一直累计于<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，招募次数保底互通。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>50</color>次没有获得<color=#FFE266>SSR</color>角色，则之后每次招募获得<color=#FFE266>SSR</color>角色的概率将提升<color=#FFB800>3%</color>，直至获得<color=#FFE266>SSR</color>角色，之后获得<color=#FFE266>SSR</color>角色的概率将恢复到<color=#FFB800>2%</color>。最多<color=#FFB800>83</color>次招募必定能通过保底获得<color=#FFE266>SSR</color>角色。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>9</color>次获得<color=#71CEFD>R</color>角色，则第<color=#FFB800>10</color>次必定获得<color=#E4B7FF>SR</color>角色或<color=#FFE266>SSR</color>角色。当前招募连续获得<color=#71CEFD>R</color>角色的招募次数不会继承至其他招募。\\n\\n\r<size=30><b>UP说明：</b></size>\\n\r当招募获得<color=#FFE266>SSR</color>角色时，有<color=#FFB800>50%</color>的概率为本期<color=#FFE266>SSR</color>概率提升角色<color=#FFB800>【伊洛娜】</color>。若本次招募获得的<color=#FFE266>SSR</color>角色非本期<color=#FFE266>SSR</color>概率提升角色，则下次招募获得的<color=#FFE266>SSR</color>角色必定为本期<color=#FFE266>SSR</color>概率提升角色。\\n\\n\r<size=30><b>特殊说明：</b></size>\\n\r列车长每次招募时，将获得<color=#FFB800>1</color>个【履历情报】。\\n\r列车长在招募中获得已有角色时，每次将转化为<color=#FFB800>1</color>个该角色的【履历补充】，角色的【履历补充】可用于角色觉醒。列车长获得任一角色的【履历补充】累计达到<color=#FFB800>5</color>个后，之后获得的该角色的【履历补充】将按以下比例自动回收为【履历情报】：\\n\r<color=#FFB800>1</color>个<color=#71CEFD>R</color>角色的【履历补充】将被回收为<color=#FFB800>1</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#E4B7FF>SR</color>角色的【履历补充】将被回收为<color=#FFB800>3</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#FFE266>SSR</color>角色的【履历补充】将被回收为<color=#FFB800>10</color>个【履历情报】\\n\r列车长可使用【履历情报】在每个城市休息区中的黑月商店兑换道具。",
     "tryList": [
       {
         "levelId": 20100179,
@@ -2683,7 +2684,7 @@
         "y": -72.0
       }
     ],
-    "details": "<size=30><b>详情说明：</b></size>\\n\r列车长可在<color=#FFB800>【常驻招募-那由他概率提升】</color>中使用【拉普拉斯协议】招募以下角色\\n\r<color=#FFE266>SSR</color>  <color=#FFB800>2%</color>\\n\r那由他（UP）/夏洛蒂/卡洛琳/约书亚/柯娜/卡塔斯/伊洛娜/星花/苏恩/闻笙/马吉拉/薇尔岚/苔妮/伊索斯/亚莉奈/妮蔻拉/多萝西/达斯廷/索玛/夏尔\\n\r<color=#E4B7FF>SR</color>   <color=#FFB800>10%</color>\\n\r莉薇娅/黛丝莉/叶珏/魇/苍叶/宵月/冯·里奈/菲妮娅/塞西尔/瓦伦汀/奈弥/霖/阿知波/甘雅/伊尔/卡莱雅/晃/海因里希\\n\r<color=#71CEFD>R</color>     <color=#FFB800>88%</color>\\n\r阿尔喀娜/艾略特/弗兰/伽罗尔/静流/卡莲/雷火/瑞秋/山岚/狮鬃/塔拉/跳鼠/朱利安\\n\\n\r<size=30><b>保底说明：</b></size>\\n\r在任意<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，未获得<color=#FFE266>SSR</color>角色的累计招募次数会一直累计于<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，招募次数保底互通。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>50</color>次没有获得<color=#FFE266>SSR</color>角色，则之后每次招募获得<color=#FFE266>SSR</color>角色的概率将提升<color=#FFB800>3%</color>，直至获得<color=#FFE266>SSR</color>角色，之后获得<color=#FFE266>SSR</color>角色的概率将恢复到<color=#FFB800>2%</color>。最多<color=#FFB800>83</color>次招募必定能通过保底获得<color=#FFE266>SSR</color>角色。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>9</color>次获得<color=#71CEFD>R</color>角色，则第<color=#FFB800>10</color>次必定获得<color=#E4B7FF>SR</color>角色或<color=#FFE266>SSR</color>角色。当前招募连续获得<color=#71CEFD>R</color>角色的招募次数不会继承至其他招募。\\n\\n\r<size=30><b>UP说明：</b></size>\\n\r当招募获得<color=#FFE266>SSR</color>角色时，有<color=#FFB800>50%</color>的概率为本期<color=#FFE266>SSR</color>概率提升角色<color=#FFB800>【那由他】</color>。若本次招募获得的<color=#FFE266>SSR</color>角色非本期<color=#FFE266>SSR</color>概率提升角色，则下次招募获得的<color=#FFE266>SSR</color>角色必定为本期<color=#FFE266>SSR</color>概率提升角色。\\n\\n\r<size=30><b>特殊说明：</b></size>\\n\r列车长每次招募时，将获得<color=#FFB800>1</color>个【履历情报】。\\n\r列车长在招募中获得已有角色时，每次将转化为<color=#FFB800>1</color>个该角色的【履历补充】，角色的【履历补充】可用于角色觉醒。列车长获得任一角色的【履历补充】累计达到<color=#FFB800>5</color>个后，之后获得的该角色的【履历补充】将按以下比例自动回收为【履历情报】：\\n\r<color=#FFB800>1</color>个<color=#71CEFD>R</color>角色的【履历补充】将被回收为<color=#FFB800>1</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#E4B7FF>SR</color>角色的【履历补充】将被回收为<color=#FFB800>3</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#FFE266>SSR</color>角色的【履历补充】将被回收为<color=#FFB800>10</color>个【履历情报】\\n\r列车长可使用【履历情报】在每个城市休息区中的黑月商店兑换道具。",
+    "details": "<size=30><b>详情说明：</b></size>\\n\r列车长可在<color=#FFB800>【常驻招募-那由他概率提升】</color>中使用【拉普拉斯协议】招募以下角色\\n\r<color=#FFE266>SSR</color>  <color=#FFB800>2%</color>\\n\r那由他（UP）/夏洛蒂/卡洛琳/约书亚/柯娜/卡塔斯/伊洛娜/星花/苏恩/闻笙/马吉拉/薇尔岚/苔妮/伊索斯/亚莉奈/妮蔻拉/多萝西/达斯廷/索玛/夏尔/安菲娅\\n\r<color=#E4B7FF>SR</color>   <color=#FFB800>10%</color>\\n\r莉薇娅/黛丝莉/叶珏/魇/苍叶/宵月/冯·里奈/菲妮娅/塞西尔/瓦伦汀/奈弥/霖/阿知波/甘雅/伊尔/卡莱雅/晃/海因里希\\n\r<color=#71CEFD>R</color>     <color=#FFB800>88%</color>\\n\r阿尔喀娜/艾略特/弗兰/伽罗尔/静流/卡莲/雷火/瑞秋/山岚/狮鬃/塔拉/跳鼠/朱利安\\n\\n\r<size=30><b>保底说明：</b></size>\\n\r在任意<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，未获得<color=#FFE266>SSR</color>角色的累计招募次数会一直累计于<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，招募次数保底互通。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>50</color>次没有获得<color=#FFE266>SSR</color>角色，则之后每次招募获得<color=#FFE266>SSR</color>角色的概率将提升<color=#FFB800>3%</color>，直至获得<color=#FFE266>SSR</color>角色，之后获得<color=#FFE266>SSR</color>角色的概率将恢复到<color=#FFB800>2%</color>。最多<color=#FFB800>83</color>次招募必定能通过保底获得<color=#FFE266>SSR</color>角色。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>9</color>次获得<color=#71CEFD>R</color>角色，则第<color=#FFB800>10</color>次必定获得<color=#E4B7FF>SR</color>角色或<color=#FFE266>SSR</color>角色。当前招募连续获得<color=#71CEFD>R</color>角色的招募次数不会继承至其他招募。\\n\\n\r<size=30><b>UP说明：</b></size>\\n\r当招募获得<color=#FFE266>SSR</color>角色时，有<color=#FFB800>50%</color>的概率为本期<color=#FFE266>SSR</color>概率提升角色<color=#FFB800>【那由他】</color>。若本次招募获得的<color=#FFE266>SSR</color>角色非本期<color=#FFE266>SSR</color>概率提升角色，则下次招募获得的<color=#FFE266>SSR</color>角色必定为本期<color=#FFE266>SSR</color>概率提升角色。\\n\\n\r<size=30><b>特殊说明：</b></size>\\n\r列车长每次招募时，将获得<color=#FFB800>1</color>个【履历情报】。\\n\r列车长在招募中获得已有角色时，每次将转化为<color=#FFB800>1</color>个该角色的【履历补充】，角色的【履历补充】可用于角色觉醒。列车长获得任一角色的【履历补充】累计达到<color=#FFB800>5</color>个后，之后获得的该角色的【履历补充】将按以下比例自动回收为【履历情报】：\\n\r<color=#FFB800>1</color>个<color=#71CEFD>R</color>角色的【履历补充】将被回收为<color=#FFB800>1</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#E4B7FF>SR</color>角色的【履历补充】将被回收为<color=#FFB800>3</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#FFE266>SSR</color>角色的【履历补充】将被回收为<color=#FFB800>10</color>个【履历情报】\\n\r列车长可使用【履历情报】在每个城市休息区中的黑月商店兑换道具。",
     "tryList": [
       {
         "levelId": 20100099,
@@ -2899,8 +2900,8 @@
     "mod": "抽角色配置",
     "isInformalData": false,
     "commodityId": 40200012,
-    "startTime": "2024-09-12 12:00:00",
-    "endTime": "2024-09-26 12:00:00",
+    "startTime": "2024-11-13 12:00:00",
+    "endTime": "2024-11-27 12:00:00",
     "type": "Pay",
     "isNewbie": false,
     "costList": [
@@ -3079,7 +3080,7 @@
         "y": -63.0
       }
     ],
-    "details": "<size=30><b>详情说明：</b></size>\\n\r列车长可在<color=#FFB800>【常驻招募-苏恩概率提升】</color>中使用【拉普拉斯协议】招募以下角色\\n\r<color=#FFE266>SSR</color>  <color=#FFB800>2%</color>\\n\r苏恩（UP）/夏洛蒂/那由他/卡洛琳/约书亚/柯娜/卡塔斯/伊洛娜/星花/闻笙/马吉拉/薇尔岚/苔妮/伊索斯/亚莉奈/妮蔻拉/多萝西/达斯廷/索玛/夏尔\\n\r<color=#E4B7FF>SR</color>   <color=#FFB800>10%</color>\\n\r莉薇娅/黛丝莉/叶珏/魇/苍叶/宵月/冯·里奈/菲妮娅/塞西尔/瓦伦汀/奈弥/霖/阿知波/甘雅/伊尔/卡莱雅/晃/海因里希\\n\r<color=#71CEFD>R</color>     <color=#FFB800>88%</color>\\n\r阿尔喀娜/艾略特/弗兰/伽罗尔/静流/卡莲/雷火/瑞秋/山岚/狮鬃/塔拉/跳鼠/朱利安\\n\\n\r<size=30><b>保底说明：</b></size>\\n\r在任意<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，未获得<color=#FFE266>SSR</color>角色的累计招募次数会一直累计于<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，招募次数保底互通。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>50</color>次没有获得<color=#FFE266>SSR</color>角色，则之后每次招募获得<color=#FFE266>SSR</color>角色的概率将提升<color=#FFB800>3%</color>，直至获得<color=#FFE266>SSR</color>角色，之后获得<color=#FFE266>SSR</color>角色的概率将恢复到<color=#FFB800>2%</color>。最多<color=#FFB800>83</color>次招募必定能通过保底获得<color=#FFE266>SSR</color>角色。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>9</color>次获得<color=#71CEFD>R</color>角色，则第<color=#FFB800>10</color>次必定获得<color=#E4B7FF>SR</color>角色或<color=#FFE266>SSR</color>角色。当前招募连续获得<color=#71CEFD>R</color>角色的招募次数不会继承至其他招募。\\n\\n\r<size=30><b>UP说明：</b></size>\\n\r当招募获得<color=#FFE266>SSR</color>角色时，有<color=#FFB800>50%</color>的概率为本期<color=#FFE266>SSR</color>概率提升角色<color=#FFB800>【苏恩】</color>。若本次招募获得的<color=#FFE266>SSR</color>角色非本期<color=#FFE266>SSR</color>概率提升角色，则下次招募获得的<color=#FFE266>SSR</color>角色必定为本期<color=#FFE266>SSR</color>概率提升角色。\\n\\n\r<size=30><b>特殊说明：</b></size>\\n\r列车长每次招募时，将获得<color=#FFB800>1</color>个【履历情报】。\\n\r列车长在招募中获得已有角色时，每次将转化为<color=#FFB800>1</color>个该角色的【履历补充】，角色的【履历补充】可用于角色觉醒。列车长获得任一角色的【履历补充】累计达到<color=#FFB800>5</color>个后，之后获得的该角色的【履历补充】将按以下比例自动回收为【履历情报】：\\n\r<color=#FFB800>1</color>个<color=#71CEFD>R</color>角色的【履历补充】将被回收为<color=#FFB800>1</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#E4B7FF>SR</color>角色的【履历补充】将被回收为<color=#FFB800>3</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#FFE266>SSR</color>角色的【履历补充】将被回收为<color=#FFB800>10</color>个【履历情报】\\n\r列车长可使用【履历情报】在每个城市休息区中的黑月商店兑换道具。",
+    "details": "<size=30><b>详情说明：</b></size>\\n\r列车长可在<color=#FFB800>【常驻招募-苏恩概率提升】</color>中使用【拉普拉斯协议】招募以下角色\\n\r<color=#FFE266>SSR</color>  <color=#FFB800>2%</color>\\n\r苏恩（UP）/夏洛蒂/那由他/卡洛琳/约书亚/柯娜/卡塔斯/伊洛娜/星花/闻笙/马吉拉/薇尔岚/苔妮/伊索斯/亚莉奈/妮蔻拉/多萝西/达斯廷/索玛/夏尔/安菲娅\\n\r<color=#E4B7FF>SR</color>   <color=#FFB800>10%</color>\\n\r莉薇娅/黛丝莉/叶珏/魇/苍叶/宵月/冯·里奈/菲妮娅/塞西尔/瓦伦汀/奈弥/霖/阿知波/甘雅/伊尔/卡莱雅/晃/海因里希\\n\r<color=#71CEFD>R</color>     <color=#FFB800>88%</color>\\n\r阿尔喀娜/艾略特/弗兰/伽罗尔/静流/卡莲/雷火/瑞秋/山岚/狮鬃/塔拉/跳鼠/朱利安\\n\\n\r<size=30><b>保底说明：</b></size>\\n\r在任意<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，未获得<color=#FFE266>SSR</color>角色的累计招募次数会一直累计于<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，招募次数保底互通。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>50</color>次没有获得<color=#FFE266>SSR</color>角色，则之后每次招募获得<color=#FFE266>SSR</color>角色的概率将提升<color=#FFB800>3%</color>，直至获得<color=#FFE266>SSR</color>角色，之后获得<color=#FFE266>SSR</color>角色的概率将恢复到<color=#FFB800>2%</color>。最多<color=#FFB800>83</color>次招募必定能通过保底获得<color=#FFE266>SSR</color>角色。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>9</color>次获得<color=#71CEFD>R</color>角色，则第<color=#FFB800>10</color>次必定获得<color=#E4B7FF>SR</color>角色或<color=#FFE266>SSR</color>角色。当前招募连续获得<color=#71CEFD>R</color>角色的招募次数不会继承至其他招募。\\n\\n\r<size=30><b>UP说明：</b></size>\\n\r当招募获得<color=#FFE266>SSR</color>角色时，有<color=#FFB800>50%</color>的概率为本期<color=#FFE266>SSR</color>概率提升角色<color=#FFB800>【苏恩】</color>。若本次招募获得的<color=#FFE266>SSR</color>角色非本期<color=#FFE266>SSR</color>概率提升角色，则下次招募获得的<color=#FFE266>SSR</color>角色必定为本期<color=#FFE266>SSR</color>概率提升角色。\\n\\n\r<size=30><b>特殊说明：</b></size>\\n\r列车长每次招募时，将获得<color=#FFB800>1</color>个【履历情报】。\\n\r列车长在招募中获得已有角色时，每次将转化为<color=#FFB800>1</color>个该角色的【履历补充】，角色的【履历补充】可用于角色觉醒。列车长获得任一角色的【履历补充】累计达到<color=#FFB800>5</color>个后，之后获得的该角色的【履历补充】将按以下比例自动回收为【履历情报】：\\n\r<color=#FFB800>1</color>个<color=#71CEFD>R</color>角色的【履历补充】将被回收为<color=#FFB800>1</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#E4B7FF>SR</color>角色的【履历补充】将被回收为<color=#FFB800>3</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#FFE266>SSR</color>角色的【履历补充】将被回收为<color=#FFB800>10</color>个【履历情报】\\n\r列车长可使用【履历情报】在每个城市休息区中的黑月商店兑换道具。",
     "tryList": [
       {
         "levelId": 20100312,
@@ -3274,7 +3275,7 @@
         "y": -72.0
       }
     ],
-    "details": "<size=30><b>详情说明：</b></size>\\n\r列车长可在<color=#FFB800>【常驻招募-约书亚概率提升】</color>中使用【拉普拉斯协议】招募以下角色\\n\r<color=#FFE266>SSR</color>  <color=#FFB800>2%</color>\\n\r约书亚（UP）/夏洛蒂/那由他/卡洛琳/柯娜/卡塔斯/伊洛娜/星花/苏恩/闻笙/马吉拉/薇尔岚/苔妮/伊索斯/亚莉奈/妮蔻拉/多萝西/达斯廷/索玛/夏尔\\n\r<color=#E4B7FF>SR</color>   <color=#FFB800>10%</color>\\n\r莉薇娅/黛丝莉/叶珏/魇/苍叶/宵月/冯·里奈/菲妮娅/塞西尔/瓦伦汀/奈弥/霖/阿知波/甘雅/伊尔/卡莱雅/晃/海因里希\\n\r<color=#71CEFD>R</color>     <color=#FFB800>88%</color>\\n\r阿尔喀娜/艾略特/弗兰/伽罗尔/静流/卡莲/雷火/瑞秋/山岚/狮鬃/塔拉/跳鼠/朱利安\\n\\n\r<size=30><b>保底说明：</b></size>\\n\r在任意<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，未获得<color=#FFE266>SSR</color>角色的累计招募次数会一直累计于<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，招募次数保底互通。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>50</color>次没有获得<color=#FFE266>SSR</color>角色，则之后每次招募获得<color=#FFE266>SSR</color>角色的概率将提升<color=#FFB800>3%</color>，直至获得<color=#FFE266>SSR</color>角色，之后获得<color=#FFE266>SSR</color>角色的概率将恢复到<color=#FFB800>2%</color>。最多<color=#FFB800>83</color>次招募必定能通过保底获得<color=#FFE266>SSR</color>角色。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>9</color>次获得<color=#71CEFD>R</color>角色，则第<color=#FFB800>10</color>次必定获得<color=#E4B7FF>SR</color>角色或<color=#FFE266>SSR</color>角色。当前招募连续获得<color=#71CEFD>R</color>角色的招募次数不会继承至其他招募。\\n\\n\r<size=30><b>UP说明：</b></size>\\n\r当招募获得<color=#FFE266>SSR</color>角色时，有<color=#FFB800>50%</color>的概率为本期<color=#FFE266>SSR</color>概率提升角色<color=#FFB800>【约书亚】</color>。若本次招募获得的<color=#FFE266>SSR</color>角色非本期<color=#FFE266>SSR</color>概率提升角色，则下次招募获得的<color=#FFE266>SSR</color>角色必定为本期<color=#FFE266>SSR</color>概率提升角色。\\n\\n\r<size=30><b>特殊说明：</b></size>\\n\r列车长每次招募时，将获得<color=#FFB800>1</color>个【履历情报】。\\n\r列车长在招募中获得已有角色时，每次将转化为<color=#FFB800>1</color>个该角色的【履历补充】，角色的【履历补充】可用于角色觉醒。列车长获得任一角色的【履历补充】累计达到<color=#FFB800>5</color>个后，之后获得的该角色的【履历补充】将按以下比例自动回收为【履历情报】：\\n\r<color=#FFB800>1</color>个<color=#71CEFD>R</color>角色的【履历补充】将被回收为<color=#FFB800>1</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#E4B7FF>SR</color>角色的【履历补充】将被回收为<color=#FFB800>3</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#FFE266>SSR</color>角色的【履历补充】将被回收为<color=#FFB800>10</color>个【履历情报】\\n\r列车长可使用【履历情报】在每个城市休息区中的黑月商店兑换道具。",
+    "details": "<size=30><b>详情说明：</b></size>\\n\r列车长可在<color=#FFB800>【常驻招募-约书亚概率提升】</color>中使用【拉普拉斯协议】招募以下角色\\n\r<color=#FFE266>SSR</color>  <color=#FFB800>2%</color>\\n\r约书亚（UP）/夏洛蒂/那由他/卡洛琳/柯娜/卡塔斯/伊洛娜/星花/苏恩/闻笙/马吉拉/薇尔岚/苔妮/伊索斯/亚莉奈/妮蔻拉/多萝西/达斯廷/索玛/夏尔/安菲娅\\n\r<color=#E4B7FF>SR</color>   <color=#FFB800>10%</color>\\n\r莉薇娅/黛丝莉/叶珏/魇/苍叶/宵月/冯·里奈/菲妮娅/塞西尔/瓦伦汀/奈弥/霖/阿知波/甘雅/伊尔/卡莱雅/晃/海因里希\\n\r<color=#71CEFD>R</color>     <color=#FFB800>88%</color>\\n\r阿尔喀娜/艾略特/弗兰/伽罗尔/静流/卡莲/雷火/瑞秋/山岚/狮鬃/塔拉/跳鼠/朱利安\\n\\n\r<size=30><b>保底说明：</b></size>\\n\r在任意<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，未获得<color=#FFE266>SSR</color>角色的累计招募次数会一直累计于<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，招募次数保底互通。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>50</color>次没有获得<color=#FFE266>SSR</color>角色，则之后每次招募获得<color=#FFE266>SSR</color>角色的概率将提升<color=#FFB800>3%</color>，直至获得<color=#FFE266>SSR</color>角色，之后获得<color=#FFE266>SSR</color>角色的概率将恢复到<color=#FFB800>2%</color>。最多<color=#FFB800>83</color>次招募必定能通过保底获得<color=#FFE266>SSR</color>角色。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>9</color>次获得<color=#71CEFD>R</color>角色，则第<color=#FFB800>10</color>次必定获得<color=#E4B7FF>SR</color>角色或<color=#FFE266>SSR</color>角色。当前招募连续获得<color=#71CEFD>R</color>角色的招募次数不会继承至其他招募。\\n\\n\r<size=30><b>UP说明：</b></size>\\n\r当招募获得<color=#FFE266>SSR</color>角色时，有<color=#FFB800>50%</color>的概率为本期<color=#FFE266>SSR</color>概率提升角色<color=#FFB800>【约书亚】</color>。若本次招募获得的<color=#FFE266>SSR</color>角色非本期<color=#FFE266>SSR</color>概率提升角色，则下次招募获得的<color=#FFE266>SSR</color>角色必定为本期<color=#FFE266>SSR</color>概率提升角色。\\n\\n\r<size=30><b>特殊说明：</b></size>\\n\r列车长每次招募时，将获得<color=#FFB800>1</color>个【履历情报】。\\n\r列车长在招募中获得已有角色时，每次将转化为<color=#FFB800>1</color>个该角色的【履历补充】，角色的【履历补充】可用于角色觉醒。列车长获得任一角色的【履历补充】累计达到<color=#FFB800>5</color>个后，之后获得的该角色的【履历补充】将按以下比例自动回收为【履历情报】：\\n\r<color=#FFB800>1</color>个<color=#71CEFD>R</color>角色的【履历补充】将被回收为<color=#FFB800>1</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#E4B7FF>SR</color>角色的【履历补充】将被回收为<color=#FFB800>3</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#FFE266>SSR</color>角色的【履历补充】将被回收为<color=#FFB800>10</color>个【履历情报】\\n\r列车长可使用【履历情报】在每个城市休息区中的黑月商店兑换道具。",
     "tryList": [
       {
         "levelId": 20100101,
@@ -3469,7 +3470,7 @@
         "y": -41.0
       }
     ],
-    "details": "<size=30><b>详情说明：</b></size>\\n\r列车长可在<color=#FFB800>【常驻招募-柯娜概率提升】</color>中使用【拉普拉斯协议】招募以下角色\\n\r<color=#FFE266>SSR</color>  <color=#FFB800>2%</color>\\n\r柯娜（UP）/夏洛蒂/那由他/卡洛琳/约书亚/卡塔斯/伊洛娜/星花/苏恩/闻笙/马吉拉/薇尔岚/苔妮/伊索斯/亚莉奈/妮蔻拉/多萝西/达斯廷/索玛/夏尔\\n\r<color=#E4B7FF>SR</color>   <color=#FFB800>10%</color>\\n\r莉薇娅/黛丝莉/叶珏/魇/苍叶/宵月/冯·里奈/菲妮娅/塞西尔/瓦伦汀/奈弥/霖/阿知波/甘雅/伊尔/卡莱雅/晃/海因里希\\n\r<color=#71CEFD>R</color>     <color=#FFB800>88%</color>\\n\r阿尔喀娜/艾略特/弗兰/伽罗尔/静流/卡莲/雷火/瑞秋/山岚/狮鬃/塔拉/跳鼠/朱利安\\n\\n\r<size=30><b>保底说明：</b></size>\\n\r在任意<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，未获得<color=#FFE266>SSR</color>角色的累计招募次数会一直累计于<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，招募次数保底互通。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>50</color>次没有获得<color=#FFE266>SSR</color>角色，则之后每次招募获得<color=#FFE266>SSR</color>角色的概率将提升<color=#FFB800>3%</color>，直至获得<color=#FFE266>SSR</color>角色，之后获得<color=#FFE266>SSR</color>角色的概率将恢复到<color=#FFB800>2%</color>。最多<color=#FFB800>83</color>次招募必定能通过保底获得<color=#FFE266>SSR</color>角色。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>9</color>次获得<color=#71CEFD>R</color>角色，则第<color=#FFB800>10</color>次必定获得<color=#E4B7FF>SR</color>角色或<color=#FFE266>SSR</color>角色。当前招募连续获得<color=#71CEFD>R</color>角色的招募次数不会继承至其他招募。\\n\\n\r<size=30><b>UP说明：</b></size>\\n\r当招募获得<color=#FFE266>SSR</color>角色时，有<color=#FFB800>50%</color>的概率为本期<color=#FFE266>SSR</color>概率提升角色<color=#FFB800>【柯娜】</color>。若本次招募获得的<color=#FFE266>SSR</color>角色非本期<color=#FFE266>SSR</color>概率提升角色，则下次招募获得的<color=#FFE266>SSR</color>角色必定为本期<color=#FFE266>SSR</color>概率提升角色。\\n\\n\r<size=30><b>特殊说明：</b></size>\\n\r列车长每次招募时，将获得<color=#FFB800>1</color>个【履历情报】。\\n\r列车长在招募中获得已有角色时，每次将转化为<color=#FFB800>1</color>个该角色的【履历补充】，角色的【履历补充】可用于角色觉醒。列车长获得任一角色的【履历补充】累计达到<color=#FFB800>5</color>个后，之后获得的该角色的【履历补充】将按以下比例自动回收为【履历情报】：\\n\r<color=#FFB800>1</color>个<color=#71CEFD>R</color>角色的【履历补充】将被回收为<color=#FFB800>1</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#E4B7FF>SR</color>角色的【履历补充】将被回收为<color=#FFB800>3</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#FFE266>SSR</color>角色的【履历补充】将被回收为<color=#FFB800>10</color>个【履历情报】\\n\r列车长可使用【履历情报】在每个城市休息区中的黑月商店兑换道具。",
+    "details": "<size=30><b>详情说明：</b></size>\\n\r列车长可在<color=#FFB800>【常驻招募-柯娜概率提升】</color>中使用【拉普拉斯协议】招募以下角色\\n\r<color=#FFE266>SSR</color>  <color=#FFB800>2%</color>\\n\r柯娜（UP）/夏洛蒂/那由他/卡洛琳/约书亚/卡塔斯/伊洛娜/星花/苏恩/闻笙/马吉拉/薇尔岚/苔妮/伊索斯/亚莉奈/妮蔻拉/多萝西/达斯廷/索玛/夏尔/安菲娅\\n\r<color=#E4B7FF>SR</color>   <color=#FFB800>10%</color>\\n\r莉薇娅/黛丝莉/叶珏/魇/苍叶/宵月/冯·里奈/菲妮娅/塞西尔/瓦伦汀/奈弥/霖/阿知波/甘雅/伊尔/卡莱雅/晃/海因里希\\n\r<color=#71CEFD>R</color>     <color=#FFB800>88%</color>\\n\r阿尔喀娜/艾略特/弗兰/伽罗尔/静流/卡莲/雷火/瑞秋/山岚/狮鬃/塔拉/跳鼠/朱利安\\n\\n\r<size=30><b>保底说明：</b></size>\\n\r在任意<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，未获得<color=#FFE266>SSR</color>角色的累计招募次数会一直累计于<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，招募次数保底互通。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>50</color>次没有获得<color=#FFE266>SSR</color>角色，则之后每次招募获得<color=#FFE266>SSR</color>角色的概率将提升<color=#FFB800>3%</color>，直至获得<color=#FFE266>SSR</color>角色，之后获得<color=#FFE266>SSR</color>角色的概率将恢复到<color=#FFB800>2%</color>。最多<color=#FFB800>83</color>次招募必定能通过保底获得<color=#FFE266>SSR</color>角色。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>9</color>次获得<color=#71CEFD>R</color>角色，则第<color=#FFB800>10</color>次必定获得<color=#E4B7FF>SR</color>角色或<color=#FFE266>SSR</color>角色。当前招募连续获得<color=#71CEFD>R</color>角色的招募次数不会继承至其他招募。\\n\\n\r<size=30><b>UP说明：</b></size>\\n\r当招募获得<color=#FFE266>SSR</color>角色时，有<color=#FFB800>50%</color>的概率为本期<color=#FFE266>SSR</color>概率提升角色<color=#FFB800>【柯娜】</color>。若本次招募获得的<color=#FFE266>SSR</color>角色非本期<color=#FFE266>SSR</color>概率提升角色，则下次招募获得的<color=#FFE266>SSR</color>角色必定为本期<color=#FFE266>SSR</color>概率提升角色。\\n\\n\r<size=30><b>特殊说明：</b></size>\\n\r列车长每次招募时，将获得<color=#FFB800>1</color>个【履历情报】。\\n\r列车长在招募中获得已有角色时，每次将转化为<color=#FFB800>1</color>个该角色的【履历补充】，角色的【履历补充】可用于角色觉醒。列车长获得任一角色的【履历补充】累计达到<color=#FFB800>5</color>个后，之后获得的该角色的【履历补充】将按以下比例自动回收为【履历情报】：\\n\r<color=#FFB800>1</color>个<color=#71CEFD>R</color>角色的【履历补充】将被回收为<color=#FFB800>1</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#E4B7FF>SR</color>角色的【履历补充】将被回收为<color=#FFB800>3</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#FFE266>SSR</color>角色的【履历补充】将被回收为<color=#FFB800>10</color>个【履历情报】\\n\r列车长可使用【履历情报】在每个城市休息区中的黑月商店兑换道具。",
     "tryList": [
       {
         "levelId": 20100102,
@@ -3670,7 +3671,7 @@
         "y": -72.0
       }
     ],
-    "details": "<size=30><b>详情说明：</b></size>\\n\r列车长可在<color=#FFB800>【微醺回味-亚莉奈】</color>中使用【拉普拉斯协议】招募以下角色\\n\r<color=#FFE266>SSR</color>  <color=#FFB800>2%</color>\\n\r亚莉奈（UP）/夏洛蒂/那由他/卡洛琳/约书亚/柯娜/卡塔斯/伊洛娜/星花/苏恩/闻笙/马吉拉/薇尔岚/苔妮/伊索斯/妮蔻拉/多萝西/达斯廷/索玛/夏尔\\n\r<color=#E4B7FF>SR</color>   <color=#FFB800>10%</color>\\n\r莉薇娅/黛丝莉/叶珏/魇/苍叶/宵月/冯·里奈/菲妮娅/塞西尔/瓦伦汀/奈弥/霖/阿知波/甘雅/伊尔/卡莱雅/晃/海因里希\\n\r<color=#71CEFD>R</color>     <color=#FFB800>88%</color>\\n\r阿尔喀娜/艾略特/弗兰/伽罗尔/静流/卡莲/雷火/瑞秋/山岚/狮鬃/塔拉/跳鼠/朱利安\\n\\n\r<size=30><b>保底说明：</b></size>\\n\r在任意<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，未获得<color=#FFE266>SSR</color>角色的累计招募次数会一直累计于<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，招募次数保底互通。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>50</color>次没有获得<color=#FFE266>SSR</color>角色，则之后每次招募获得<color=#FFE266>SSR</color>角色的概率将提升<color=#FFB800>3%</color>，直至获得<color=#FFE266>SSR</color>角色，之后获得<color=#FFE266>SSR</color>角色的概率将恢复到<color=#FFB800>2%</color>。最多<color=#FFB800>83</color>次招募必定能通过保底获得<color=#FFE266>SSR</color>角色。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>9</color>次获得<color=#71CEFD>R</color>角色，则第<color=#FFB800>10</color>次必定获得<color=#E4B7FF>SR</color>角色或<color=#FFE266>SSR</color>角色。当前招募连续获得<color=#71CEFD>R</color>角色的招募次数不会继承至其他招募。\\n\\n\r<size=30><b>UP说明：</b></size>\\n\r当招募获得<color=#FFE266>SSR</color>角色时，有<color=#FFB800>50%</color>的概率为本期<color=#FFE266>SSR</color>概率提升角色<color=#FFB800>【亚莉奈】</color>。若本次招募获得的<color=#FFE266>SSR</color>角色非本期<color=#FFE266>SSR</color>概率提升角色，则下次招募获得的<color=#FFE266>SSR</color>角色必定为本期<color=#FFE266>SSR</color>概率提升角色。\\n\\n\r<size=30><b>特殊说明：</b></size>\\n\r列车长每次招募时，将获得<color=#FFB800>1</color>个【履历情报】。\\n\r列车长在招募中获得已有角色时，每次将转化为<color=#FFB800>1</color>个该角色的【履历补充】，角色的【履历补充】可用于角色觉醒。列车长获得任一角色的【履历补充】累计达到<color=#FFB800>5</color>个后，之后获得的该角色的【履历补充】将按以下比例自动回收为【履历情报】：\\n\r<color=#FFB800>1</color>个<color=#71CEFD>R</color>角色的【履历补充】将被回收为<color=#FFB800>1</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#E4B7FF>SR</color>角色的【履历补充】将被回收为<color=#FFB800>3</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#FFE266>SSR</color>角色的【履历补充】将被回收为<color=#FFB800>10</color>个【履历情报】\\n\r列车长可使用【履历情报】在每个城市休息区中的黑月商店兑换道具。",
+    "details": "<size=30><b>详情说明：</b></size>\\n\r列车长可在<color=#FFB800>【微醺回味-亚莉奈】</color>中使用【拉普拉斯协议】招募以下角色\\n\r<color=#FFE266>SSR</color>  <color=#FFB800>2%</color>\\n\r亚莉奈（UP）/夏洛蒂/那由他/卡洛琳/约书亚/柯娜/卡塔斯/伊洛娜/星花/苏恩/闻笙/马吉拉/薇尔岚/苔妮/伊索斯/妮蔻拉/多萝西/达斯廷/索玛/夏尔/安菲娅\\n\r<color=#E4B7FF>SR</color>   <color=#FFB800>10%</color>\\n\r莉薇娅/黛丝莉/叶珏/魇/苍叶/宵月/冯·里奈/菲妮娅/塞西尔/瓦伦汀/奈弥/霖/阿知波/甘雅/伊尔/卡莱雅/晃/海因里希\\n\r<color=#71CEFD>R</color>     <color=#FFB800>88%</color>\\n\r阿尔喀娜/艾略特/弗兰/伽罗尔/静流/卡莲/雷火/瑞秋/山岚/狮鬃/塔拉/跳鼠/朱利安\\n\\n\r<size=30><b>保底说明：</b></size>\\n\r在任意<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，未获得<color=#FFE266>SSR</color>角色的累计招募次数会一直累计于<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，招募次数保底互通。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>50</color>次没有获得<color=#FFE266>SSR</color>角色，则之后每次招募获得<color=#FFE266>SSR</color>角色的概率将提升<color=#FFB800>3%</color>，直至获得<color=#FFE266>SSR</color>角色，之后获得<color=#FFE266>SSR</color>角色的概率将恢复到<color=#FFB800>2%</color>。最多<color=#FFB800>83</color>次招募必定能通过保底获得<color=#FFE266>SSR</color>角色。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>9</color>次获得<color=#71CEFD>R</color>角色，则第<color=#FFB800>10</color>次必定获得<color=#E4B7FF>SR</color>角色或<color=#FFE266>SSR</color>角色。当前招募连续获得<color=#71CEFD>R</color>角色的招募次数不会继承至其他招募。\\n\\n\r<size=30><b>UP说明：</b></size>\\n\r当招募获得<color=#FFE266>SSR</color>角色时，有<color=#FFB800>50%</color>的概率为本期<color=#FFE266>SSR</color>概率提升角色<color=#FFB800>【亚莉奈】</color>。若本次招募获得的<color=#FFE266>SSR</color>角色非本期<color=#FFE266>SSR</color>概率提升角色，则下次招募获得的<color=#FFE266>SSR</color>角色必定为本期<color=#FFE266>SSR</color>概率提升角色。\\n\\n\r<size=30><b>特殊说明：</b></size>\\n\r列车长每次招募时，将获得<color=#FFB800>1</color>个【履历情报】。\\n\r列车长在招募中获得已有角色时，每次将转化为<color=#FFB800>1</color>个该角色的【履历补充】，角色的【履历补充】可用于角色觉醒。列车长获得任一角色的【履历补充】累计达到<color=#FFB800>5</color>个后，之后获得的该角色的【履历补充】将按以下比例自动回收为【履历情报】：\\n\r<color=#FFB800>1</color>个<color=#71CEFD>R</color>角色的【履历补充】将被回收为<color=#FFB800>1</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#E4B7FF>SR</color>角色的【履历补充】将被回收为<color=#FFB800>3</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#FFE266>SSR</color>角色的【履历补充】将被回收为<color=#FFB800>10</color>个【履历情报】\\n\r列车长可使用【履历情报】在每个城市休息区中的黑月商店兑换道具。",
     "tryList": [
       {
         "levelId": 20100194,
@@ -3871,7 +3872,7 @@
         "y": -158.0
       }
     ],
-    "details": "<size=30><b>详情说明：</b></size>\\n\r列车长可在<color=#FFB800>【移星驭电-妮蔻拉】</color>中使用【拉普拉斯协议】招募以下角色\\n\r<color=#FFE266>SSR</color>  <color=#FFB800>2%</color>\\n\r妮蔻拉（UP）/夏洛蒂/那由他/卡洛琳/约书亚/柯娜/卡塔斯/伊洛娜/星花/苏恩/闻笙/马吉拉/薇尔岚/苔妮/伊索斯/亚莉奈/多萝西/达斯廷/索玛/夏尔\\n\r<color=#E4B7FF>SR</color>   <color=#FFB800>10%</color>\\n\r莉薇娅/黛丝莉/叶珏/魇/苍叶/宵月/冯·里奈/菲妮娅/塞西尔/瓦伦汀/奈弥/霖/阿知波/甘雅/伊尔/卡莱雅/晃/海因里希\\n\r<color=#71CEFD>R</color>     <color=#FFB800>88%</color>\\n\r阿尔喀娜/艾略特/弗兰/伽罗尔/静流/卡莲/雷火/瑞秋/山岚/狮鬃/塔拉/跳鼠/朱利安\\n\\n\r<size=30><b>保底说明：</b></size>\\n\r在任意<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，未获得<color=#FFE266>SSR</color>角色的累计招募次数会一直累计于<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，招募次数保底互通。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>50</color>次没有获得<color=#FFE266>SSR</color>角色，则之后每次招募获得<color=#FFE266>SSR</color>角色的概率将提升<color=#FFB800>3%</color>，直至获得<color=#FFE266>SSR</color>角色，之后获得<color=#FFE266>SSR</color>角色的概率将恢复到<color=#FFB800>2%</color>。最多<color=#FFB800>83</color>次招募必定能通过保底获得<color=#FFE266>SSR</color>角色。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>9</color>次获得<color=#71CEFD>R</color>角色，则第<color=#FFB800>10</color>次必定获得<color=#E4B7FF>SR</color>角色或<color=#FFE266>SSR</color>角色。当前招募连续获得<color=#71CEFD>R</color>角色的招募次数不会继承至其他招募。\\n\\n\r<size=30><b>UP说明：</b></size>\\n\r当招募获得<color=#FFE266>SSR</color>角色时，有<color=#FFB800>50%</color>的概率为本期<color=#FFE266>SSR</color>概率提升角色<color=#FFB800>【妮蔻拉】</color>。若本次招募获得的<color=#FFE266>SSR</color>角色非本期<color=#FFE266>SSR</color>概率提升角色，则下次招募获得的<color=#FFE266>SSR</color>角色必定为本期<color=#FFE266>SSR</color>概率提升角色。\\n\\n\r<size=30><b>特殊说明：</b></size>\\n\r列车长每次招募时，将获得<color=#FFB800>1</color>个【履历情报】。\\n\r列车长在招募中获得已有角色时，每次将转化为<color=#FFB800>1</color>个该角色的【履历补充】，角色的【履历补充】可用于角色觉醒。列车长获得任一角色的【履历补充】累计达到<color=#FFB800>5</color>个后，之后获得的该角色的【履历补充】将按以下比例自动回收为【履历情报】：\\n\r<color=#FFB800>1</color>个<color=#71CEFD>R</color>角色的【履历补充】将被回收为<color=#FFB800>1</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#E4B7FF>SR</color>角色的【履历补充】将被回收为<color=#FFB800>3</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#FFE266>SSR</color>角色的【履历补充】将被回收为<color=#FFB800>10</color>个【履历情报】\\n\r列车长可使用【履历情报】在每个城市休息区中的黑月商店兑换道具。",
+    "details": "<size=30><b>详情说明：</b></size>\\n\r列车长可在<color=#FFB800>【移星驭电-妮蔻拉】</color>中使用【拉普拉斯协议】招募以下角色\\n\r<color=#FFE266>SSR</color>  <color=#FFB800>2%</color>\\n\r妮蔻拉（UP）/夏洛蒂/那由他/卡洛琳/约书亚/柯娜/卡塔斯/伊洛娜/星花/苏恩/闻笙/马吉拉/薇尔岚/苔妮/伊索斯/亚莉奈/多萝西/达斯廷/索玛/夏尔/安菲娅\\n\r<color=#E4B7FF>SR</color>   <color=#FFB800>10%</color>\\n\r莉薇娅/黛丝莉/叶珏/魇/苍叶/宵月/冯·里奈/菲妮娅/塞西尔/瓦伦汀/奈弥/霖/阿知波/甘雅/伊尔/卡莱雅/晃/海因里希\\n\r<color=#71CEFD>R</color>     <color=#FFB800>88%</color>\\n\r阿尔喀娜/艾略特/弗兰/伽罗尔/静流/卡莲/雷火/瑞秋/山岚/狮鬃/塔拉/跳鼠/朱利安\\n\\n\r<size=30><b>保底说明：</b></size>\\n\r在任意<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，未获得<color=#FFE266>SSR</color>角色的累计招募次数会一直累计于<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，招募次数保底互通。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>50</color>次没有获得<color=#FFE266>SSR</color>角色，则之后每次招募获得<color=#FFE266>SSR</color>角色的概率将提升<color=#FFB800>3%</color>，直至获得<color=#FFE266>SSR</color>角色，之后获得<color=#FFE266>SSR</color>角色的概率将恢复到<color=#FFB800>2%</color>。最多<color=#FFB800>83</color>次招募必定能通过保底获得<color=#FFE266>SSR</color>角色。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>9</color>次获得<color=#71CEFD>R</color>角色，则第<color=#FFB800>10</color>次必定获得<color=#E4B7FF>SR</color>角色或<color=#FFE266>SSR</color>角色。当前招募连续获得<color=#71CEFD>R</color>角色的招募次数不会继承至其他招募。\\n\\n\r<size=30><b>UP说明：</b></size>\\n\r当招募获得<color=#FFE266>SSR</color>角色时，有<color=#FFB800>50%</color>的概率为本期<color=#FFE266>SSR</color>概率提升角色<color=#FFB800>【妮蔻拉】</color>。若本次招募获得的<color=#FFE266>SSR</color>角色非本期<color=#FFE266>SSR</color>概率提升角色，则下次招募获得的<color=#FFE266>SSR</color>角色必定为本期<color=#FFE266>SSR</color>概率提升角色。\\n\\n\r<size=30><b>特殊说明：</b></size>\\n\r列车长每次招募时，将获得<color=#FFB800>1</color>个【履历情报】。\\n\r列车长在招募中获得已有角色时，每次将转化为<color=#FFB800>1</color>个该角色的【履历补充】，角色的【履历补充】可用于角色觉醒。列车长获得任一角色的【履历补充】累计达到<color=#FFB800>5</color>个后，之后获得的该角色的【履历补充】将按以下比例自动回收为【履历情报】：\\n\r<color=#FFB800>1</color>个<color=#71CEFD>R</color>角色的【履历补充】将被回收为<color=#FFB800>1</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#E4B7FF>SR</color>角色的【履历补充】将被回收为<color=#FFB800>3</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#FFE266>SSR</color>角色的【履历补充】将被回收为<color=#FFB800>10</color>个【履历情报】\\n\r列车长可使用【履历情报】在每个城市休息区中的黑月商店兑换道具。",
     "tryList": [
       {
         "levelId": 20100453,
@@ -4072,7 +4073,7 @@
         "y": -39.0
       }
     ],
-    "details": "<size=30><b>详情说明：</b></size>\\n\r列车长可在<color=#FFB800>【常驻招募-苔妮概率提升】</color>中使用【拉普拉斯协议】招募以下角色\\n\r<color=#FFE266>SSR</color>  <color=#FFB800>2%</color>\\n\r苔妮（UP）/夏洛蒂/那由他/卡洛琳/约书亚/柯娜/卡塔斯/伊洛娜/星花/苏恩/闻笙/马吉拉/薇尔岚/伊索斯/亚莉奈/妮蔻拉/多萝西/达斯廷/索玛/夏尔\\n\r<color=#E4B7FF>SR</color>   <color=#FFB800>10%</color>\\n\r莉薇娅/黛丝莉/叶珏/魇/苍叶/宵月/冯·里奈/菲妮娅/塞西尔/瓦伦汀/奈弥/霖/阿知波/甘雅/伊尔/卡莱雅/晃/海因里希\\n\r<color=#71CEFD>R</color>     <color=#FFB800>88%</color>\\n\r阿尔喀娜/艾略特/弗兰/伽罗尔/静流/卡莲/雷火/瑞秋/山岚/狮鬃/塔拉/跳鼠/朱利安\\n\\n\r<size=30><b>保底说明：</b></size>\\n\r在任意<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，未获得<color=#FFE266>SSR</color>角色的累计招募次数会一直累计于<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，招募次数保底互通。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>50</color>次没有获得<color=#FFE266>SSR</color>角色，则之后每次招募获得<color=#FFE266>SSR</color>角色的概率将提升<color=#FFB800>3%</color>，直至获得<color=#FFE266>SSR</color>角色，之后获得<color=#FFE266>SSR</color>角色的概率将恢复到<color=#FFB800>2%</color>。最多<color=#FFB800>83</color>次招募必定能通过保底获得<color=#FFE266>SSR</color>角色。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>9</color>次获得<color=#71CEFD>R</color>角色，则第<color=#FFB800>10</color>次必定获得<color=#E4B7FF>SR</color>角色或<color=#FFE266>SSR</color>角色。当前招募连续获得<color=#71CEFD>R</color>角色的招募次数不会继承至其他招募。\\n\\n\r<size=30><b>UP说明：</b></size>\\n\r当招募获得<color=#FFE266>SSR</color>角色时，有<color=#FFB800>50%</color>的概率为本期<color=#FFE266>SSR</color>概率提升角色<color=#FFB800>【苔妮】</color>。若本次招募获得的<color=#FFE266>SSR</color>角色非本期<color=#FFE266>SSR</color>概率提升角色，则下次招募获得的<color=#FFE266>SSR</color>角色必定为本期<color=#FFE266>SSR</color>概率提升角色。\\n\\n\r<size=30><b>特殊说明：</b></size>\\n\r列车长每次招募时，将获得<color=#FFB800>1</color>个【履历情报】。\\n\r列车长在招募中获得已有角色时，每次将转化为<color=#FFB800>1</color>个该角色的【履历补充】，角色的【履历补充】可用于角色觉醒。列车长获得任一角色的【履历补充】累计达到<color=#FFB800>5</color>个后，之后获得的该角色的【履历补充】将按以下比例自动回收为【履历情报】：\\n\r<color=#FFB800>1</color>个<color=#71CEFD>R</color>角色的【履历补充】将被回收为<color=#FFB800>1</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#E4B7FF>SR</color>角色的【履历补充】将被回收为<color=#FFB800>3</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#FFE266>SSR</color>角色的【履历补充】将被回收为<color=#FFB800>10</color>个【履历情报】\\n\r列车长可使用【履历情报】在每个城市休息区中的黑月商店兑换道具。",
+    "details": "<size=30><b>详情说明：</b></size>\\n\r列车长可在<color=#FFB800>【常驻招募-苔妮概率提升】</color>中使用【拉普拉斯协议】招募以下角色\\n\r<color=#FFE266>SSR</color>  <color=#FFB800>2%</color>\\n\r苔妮（UP）/夏洛蒂/那由他/卡洛琳/约书亚/柯娜/卡塔斯/伊洛娜/星花/苏恩/闻笙/马吉拉/薇尔岚/伊索斯/亚莉奈/妮蔻拉/多萝西/达斯廷/索玛/夏尔/安菲娅\\n\r<color=#E4B7FF>SR</color>   <color=#FFB800>10%</color>\\n\r莉薇娅/黛丝莉/叶珏/魇/苍叶/宵月/冯·里奈/菲妮娅/塞西尔/瓦伦汀/奈弥/霖/阿知波/甘雅/伊尔/卡莱雅/晃/海因里希\\n\r<color=#71CEFD>R</color>     <color=#FFB800>88%</color>\\n\r阿尔喀娜/艾略特/弗兰/伽罗尔/静流/卡莲/雷火/瑞秋/山岚/狮鬃/塔拉/跳鼠/朱利安\\n\\n\r<size=30><b>保底说明：</b></size>\\n\r在任意<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，未获得<color=#FFE266>SSR</color>角色的累计招募次数会一直累计于<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，招募次数保底互通。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>50</color>次没有获得<color=#FFE266>SSR</color>角色，则之后每次招募获得<color=#FFE266>SSR</color>角色的概率将提升<color=#FFB800>3%</color>，直至获得<color=#FFE266>SSR</color>角色，之后获得<color=#FFE266>SSR</color>角色的概率将恢复到<color=#FFB800>2%</color>。最多<color=#FFB800>83</color>次招募必定能通过保底获得<color=#FFE266>SSR</color>角色。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>9</color>次获得<color=#71CEFD>R</color>角色，则第<color=#FFB800>10</color>次必定获得<color=#E4B7FF>SR</color>角色或<color=#FFE266>SSR</color>角色。当前招募连续获得<color=#71CEFD>R</color>角色的招募次数不会继承至其他招募。\\n\\n\r<size=30><b>UP说明：</b></size>\\n\r当招募获得<color=#FFE266>SSR</color>角色时，有<color=#FFB800>50%</color>的概率为本期<color=#FFE266>SSR</color>概率提升角色<color=#FFB800>【苔妮】</color>。若本次招募获得的<color=#FFE266>SSR</color>角色非本期<color=#FFE266>SSR</color>概率提升角色，则下次招募获得的<color=#FFE266>SSR</color>角色必定为本期<color=#FFE266>SSR</color>概率提升角色。\\n\\n\r<size=30><b>特殊说明：</b></size>\\n\r列车长每次招募时，将获得<color=#FFB800>1</color>个【履历情报】。\\n\r列车长在招募中获得已有角色时，每次将转化为<color=#FFB800>1</color>个该角色的【履历补充】，角色的【履历补充】可用于角色觉醒。列车长获得任一角色的【履历补充】累计达到<color=#FFB800>5</color>个后，之后获得的该角色的【履历补充】将按以下比例自动回收为【履历情报】：\\n\r<color=#FFB800>1</color>个<color=#71CEFD>R</color>角色的【履历补充】将被回收为<color=#FFB800>1</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#E4B7FF>SR</color>角色的【履历补充】将被回收为<color=#FFB800>3</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#FFE266>SSR</color>角色的【履历补充】将被回收为<color=#FFB800>10</color>个【履历情报】\\n\r列车长可使用【履历情报】在每个城市休息区中的黑月商店兑换道具。",
     "tryList": [
       {
         "levelId": 20100756,
@@ -4273,7 +4274,7 @@
         "y": -70.0
       }
     ],
-    "details": "<size=30><b>详情说明：</b></size>\\n\r列车长可在<color=#FFB800>【爆破艺术-多萝西】</color>中使用【拉普拉斯协议】招募以下角色\\n\r<color=#FFE266>SSR</color>  <color=#FFB800>2%</color>\\n\r多萝西（UP）/夏洛蒂/那由他/卡洛琳/约书亚/柯娜/卡塔斯/伊洛娜/星花/苏恩/闻笙/马吉拉/薇尔岚/苔妮/伊索斯/亚莉奈/妮蔻拉/达斯廷/索玛/夏尔\\n\r<color=#E4B7FF>SR</color>   <color=#FFB800>10%</color>\\n\r莉薇娅/黛丝莉/叶珏/魇/苍叶/宵月/冯·里奈/菲妮娅/塞西尔/瓦伦汀/奈弥/霖/阿知波/甘雅/伊尔/卡莱雅/晃/海因里希\\n\r<color=#71CEFD>R</color>     <color=#FFB800>88%</color>\\n\r阿尔喀娜/艾略特/弗兰/伽罗尔/静流/卡莲/雷火/瑞秋/山岚/狮鬃/塔拉/跳鼠/朱利安/\\n\\n\r<size=30><b>保底说明：</b></size>\\n\r在任意<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，未获得<color=#FFE266>SSR</color>角色的累计招募次数会一直累计于<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，招募次数保底互通。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>50</color>次没有获得<color=#FFE266>SSR</color>角色，则之后每次招募获得<color=#FFE266>SSR</color>角色的概率将提升<color=#FFB800>3%</color>，直至获得<color=#FFE266>SSR</color>角色，之后获得<color=#FFE266>SSR</color>角色的概率将恢复到<color=#FFB800>2%</color>。最多<color=#FFB800>83</color>次招募必定能通过保底获得<color=#FFE266>SSR</color>角色。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>9</color>次获得<color=#71CEFD>R</color>角色，则第<color=#FFB800>10</color>次必定获得<color=#E4B7FF>SR</color>角色或<color=#FFE266>SSR</color>角色。当前招募连续获得<color=#71CEFD>R</color>角色的招募次数不会继承至其他招募。\\n\\n\r<size=30><b>UP说明：</b></size>\\n\r当招募获得<color=#FFE266>SSR</color>角色时，有<color=#FFB800>50%</color>的概率为本期<color=#FFE266>SSR</color>概率提升角色<color=#FFB800>【多萝西】</color>。若本次招募获得的<color=#FFE266>SSR</color>角色非本期<color=#FFE266>SSR</color>概率提升角色，则下次招募获得的<color=#FFE266>SSR</color>角色必定为本期<color=#FFE266>SSR</color>概率提升角色。\\n\\n\r<size=30><b>特殊说明：</b></size>\\n\r列车长每次招募时，将获得<color=#FFB800>1</color>个【履历情报】。\\n\r列车长在招募中获得已有角色时，每次将转化为<color=#FFB800>1</color>个该角色的【履历补充】，角色的【履历补充】可用于角色觉醒。列车长获得任一角色的【履历补充】累计达到<color=#FFB800>5</color>个后，之后获得的该角色的【履历补充】将按以下比例自动回收为【履历情报】：\\n\r<color=#FFB800>1</color>个<color=#71CEFD>R</color>角色的【履历补充】将被回收为<color=#FFB800>1</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#E4B7FF>SR</color>角色的【履历补充】将被回收为<color=#FFB800>3</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#FFE266>SSR</color>角色的【履历补充】将被回收为<color=#FFB800>10</color>个【履历情报】\\n\r列车长可使用【履历情报】在每个城市休息区中的黑月商店兑换道具。",
+    "details": "<size=30><b>详情说明：</b></size>\\n\r列车长可在<color=#FFB800>【爆破艺术-多萝西】</color>中使用【拉普拉斯协议】招募以下角色\\n\r<color=#FFE266>SSR</color>  <color=#FFB800>2%</color>\\n\r多萝西（UP）/夏洛蒂/那由他/卡洛琳/约书亚/柯娜/卡塔斯/伊洛娜/星花/苏恩/闻笙/马吉拉/薇尔岚/苔妮/伊索斯/亚莉奈/妮蔻拉/达斯廷/索玛/夏尔/安菲娅\\n\r<color=#E4B7FF>SR</color>   <color=#FFB800>10%</color>\\n\r莉薇娅/黛丝莉/叶珏/魇/苍叶/宵月/冯·里奈/菲妮娅/塞西尔/瓦伦汀/奈弥/霖/阿知波/甘雅/伊尔/卡莱雅/晃/海因里希\\n\r<color=#71CEFD>R</color>     <color=#FFB800>88%</color>\\n\r阿尔喀娜/艾略特/弗兰/伽罗尔/静流/卡莲/雷火/瑞秋/山岚/狮鬃/塔拉/跳鼠/朱利安/\\n\\n\r<size=30><b>保底说明：</b></size>\\n\r在任意<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，未获得<color=#FFE266>SSR</color>角色的累计招募次数会一直累计于<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，招募次数保底互通。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>50</color>次没有获得<color=#FFE266>SSR</color>角色，则之后每次招募获得<color=#FFE266>SSR</color>角色的概率将提升<color=#FFB800>3%</color>，直至获得<color=#FFE266>SSR</color>角色，之后获得<color=#FFE266>SSR</color>角色的概率将恢复到<color=#FFB800>2%</color>。最多<color=#FFB800>83</color>次招募必定能通过保底获得<color=#FFE266>SSR</color>角色。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>9</color>次获得<color=#71CEFD>R</color>角色，则第<color=#FFB800>10</color>次必定获得<color=#E4B7FF>SR</color>角色或<color=#FFE266>SSR</color>角色。当前招募连续获得<color=#71CEFD>R</color>角色的招募次数不会继承至其他招募。\\n\\n\r<size=30><b>UP说明：</b></size>\\n\r当招募获得<color=#FFE266>SSR</color>角色时，有<color=#FFB800>50%</color>的概率为本期<color=#FFE266>SSR</color>概率提升角色<color=#FFB800>【多萝西】</color>。若本次招募获得的<color=#FFE266>SSR</color>角色非本期<color=#FFE266>SSR</color>概率提升角色，则下次招募获得的<color=#FFE266>SSR</color>角色必定为本期<color=#FFE266>SSR</color>概率提升角色。\\n\\n\r<size=30><b>特殊说明：</b></size>\\n\r列车长每次招募时，将获得<color=#FFB800>1</color>个【履历情报】。\\n\r列车长在招募中获得已有角色时，每次将转化为<color=#FFB800>1</color>个该角色的【履历补充】，角色的【履历补充】可用于角色觉醒。列车长获得任一角色的【履历补充】累计达到<color=#FFB800>5</color>个后，之后获得的该角色的【履历补充】将按以下比例自动回收为【履历情报】：\\n\r<color=#FFB800>1</color>个<color=#71CEFD>R</color>角色的【履历补充】将被回收为<color=#FFB800>1</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#E4B7FF>SR</color>角色的【履历补充】将被回收为<color=#FFB800>3</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#FFE266>SSR</color>角色的【履历补充】将被回收为<color=#FFB800>10</color>个【履历情报】\\n\r列车长可使用【履历情报】在每个城市休息区中的黑月商店兑换道具。",
     "tryList": [
       {
         "levelId": 20100778,
@@ -4475,7 +4476,7 @@
         "y": -104.0
       }
     ],
-    "details": "<size=30><b>详情说明：</b></size>\\n\r列车长可在<color=#FFB800>【流火铸心-达斯廷】</color>中使用【拉普拉斯协议】招募以下角色\\n\r<color=#FFE266>SSR</color>  <color=#FFB800>2%</color>\\n\r达斯廷（UP）/夏洛蒂/那由他/卡洛琳/约书亚/柯娜/卡塔斯/伊洛娜/星花/苏恩/闻笙/马吉拉/薇尔岚/苔妮/伊索斯/亚莉奈/妮蔻拉/多萝西/索玛/夏尔\\n\r<color=#E4B7FF>SR</color>   <color=#FFB800>10%</color>\\n\r莉薇娅/黛丝莉/叶珏/魇/苍叶/宵月/冯·里奈/菲妮娅/塞西尔/瓦伦汀/奈弥/霖/阿知波/甘雅/伊尔/卡莱雅/晃/海因里希\\n\r<color=#71CEFD>R</color>     <color=#FFB800>88%</color>\\n\r阿尔喀娜/艾略特/弗兰/伽罗尔/静流/卡莲/雷火/瑞秋/山岚/狮鬃/塔拉/跳鼠/朱利安/\\n\\n\r<size=30><b>保底说明：</b></size>\\n\r在任意<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，未获得<color=#FFE266>SSR</color>角色的累计招募次数会一直累计于<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，招募次数保底互通。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>50</color>次没有获得<color=#FFE266>SSR</color>角色，则之后每次招募获得<color=#FFE266>SSR</color>角色的概率将提升<color=#FFB800>3%</color>，直至获得<color=#FFE266>SSR</color>角色，之后获得<color=#FFE266>SSR</color>角色的概率将恢复到<color=#FFB800>2%</color>。最多<color=#FFB800>83</color>次招募必定能通过保底获得<color=#FFE266>SSR</color>角色。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>9</color>次获得<color=#71CEFD>R</color>角色，则第<color=#FFB800>10</color>次必定获得<color=#E4B7FF>SR</color>角色或<color=#FFE266>SSR</color>角色。当前招募连续获得<color=#71CEFD>R</color>角色的招募次数不会继承至其他招募。\\n\\n\r<size=30><b>UP说明：</b></size>\\n\r当招募获得<color=#FFE266>SSR</color>角色时，有<color=#FFB800>50%</color>的概率为本期<color=#FFE266>SSR</color>概率提升角色<color=#FFB800>【达斯廷】</color>。若本次招募获得的<color=#FFE266>SSR</color>角色非本期<color=#FFE266>SSR</color>概率提升角色，则下次招募获得的<color=#FFE266>SSR</color>角色必定为本期<color=#FFE266>SSR</color>概率提升角色。\\n\\n\r<size=30><b>特殊说明：</b></size>\\n\r列车长每次招募时，将获得<color=#FFB800>1</color>个【履历情报】。\\n\r列车长在招募中获得已有角色时，每次将转化为<color=#FFB800>1</color>个该角色的【履历补充】，角色的【履历补充】可用于角色觉醒。列车长获得任一角色的【履历补充】累计达到<color=#FFB800>5</color>个后，之后获得的该角色的【履历补充】将按以下比例自动回收为【履历情报】：\\n\r<color=#FFB800>1</color>个<color=#71CEFD>R</color>角色的【履历补充】将被回收为<color=#FFB800>1</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#E4B7FF>SR</color>角色的【履历补充】将被回收为<color=#FFB800>3</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#FFE266>SSR</color>角色的【履历补充】将被回收为<color=#FFB800>10</color>个【履历情报】\\n\r列车长可使用【履历情报】在每个城市休息区中的黑月商店兑换道具。",
+    "details": "<size=30><b>详情说明：</b></size>\\n\r列车长可在<color=#FFB800>【流火铸心-达斯廷】</color>中使用【拉普拉斯协议】招募以下角色\\n\r<color=#FFE266>SSR</color>  <color=#FFB800>2%</color>\\n\r达斯廷（UP）/夏洛蒂/那由他/卡洛琳/约书亚/柯娜/卡塔斯/伊洛娜/星花/苏恩/闻笙/马吉拉/薇尔岚/苔妮/伊索斯/亚莉奈/妮蔻拉/多萝西/索玛/夏尔/安菲娅\\n\r<color=#E4B7FF>SR</color>   <color=#FFB800>10%</color>\\n\r莉薇娅/黛丝莉/叶珏/魇/苍叶/宵月/冯·里奈/菲妮娅/塞西尔/瓦伦汀/奈弥/霖/阿知波/甘雅/伊尔/卡莱雅/晃/海因里希\\n\r<color=#71CEFD>R</color>     <color=#FFB800>88%</color>\\n\r阿尔喀娜/艾略特/弗兰/伽罗尔/静流/卡莲/雷火/瑞秋/山岚/狮鬃/塔拉/跳鼠/朱利安/\\n\\n\r<size=30><b>保底说明：</b></size>\\n\r在任意<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，未获得<color=#FFE266>SSR</color>角色的累计招募次数会一直累计于<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，招募次数保底互通。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>50</color>次没有获得<color=#FFE266>SSR</color>角色，则之后每次招募获得<color=#FFE266>SSR</color>角色的概率将提升<color=#FFB800>3%</color>，直至获得<color=#FFE266>SSR</color>角色，之后获得<color=#FFE266>SSR</color>角色的概率将恢复到<color=#FFB800>2%</color>。最多<color=#FFB800>83</color>次招募必定能通过保底获得<color=#FFE266>SSR</color>角色。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>9</color>次获得<color=#71CEFD>R</color>角色，则第<color=#FFB800>10</color>次必定获得<color=#E4B7FF>SR</color>角色或<color=#FFE266>SSR</color>角色。当前招募连续获得<color=#71CEFD>R</color>角色的招募次数不会继承至其他招募。\\n\\n\r<size=30><b>UP说明：</b></size>\\n\r当招募获得<color=#FFE266>SSR</color>角色时，有<color=#FFB800>50%</color>的概率为本期<color=#FFE266>SSR</color>概率提升角色<color=#FFB800>【达斯廷】</color>。若本次招募获得的<color=#FFE266>SSR</color>角色非本期<color=#FFE266>SSR</color>概率提升角色，则下次招募获得的<color=#FFE266>SSR</color>角色必定为本期<color=#FFE266>SSR</color>概率提升角色。\\n\\n\r<size=30><b>特殊说明：</b></size>\\n\r列车长每次招募时，将获得<color=#FFB800>1</color>个【履历情报】。\\n\r列车长在招募中获得已有角色时，每次将转化为<color=#FFB800>1</color>个该角色的【履历补充】，角色的【履历补充】可用于角色觉醒。列车长获得任一角色的【履历补充】累计达到<color=#FFB800>5</color>个后，之后获得的该角色的【履历补充】将按以下比例自动回收为【履历情报】：\\n\r<color=#FFB800>1</color>个<color=#71CEFD>R</color>角色的【履历补充】将被回收为<color=#FFB800>1</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#E4B7FF>SR</color>角色的【履历补充】将被回收为<color=#FFB800>3</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#FFE266>SSR</color>角色的【履历补充】将被回收为<color=#FFB800>10</color>个【履历情报】\\n\r列车长可使用【履历情报】在每个城市休息区中的黑月商店兑换道具。",
     "tryList": [
       {
         "levelId": 20100804,
@@ -4677,7 +4678,7 @@
         "y": -119.0
       }
     ],
-    "details": "<size=30><b>详情说明：</b></size>\\n\r列车长可在<color=#FFB800>【纯真荆棘-索玛】</color>中使用【拉普拉斯协议】招募以下角色\\n\r<color=#FFE266>SSR</color>  <color=#FFB800>2%</color>\\n\r索玛（UP）/夏洛蒂/那由他/卡洛琳/约书亚/柯娜/卡塔斯/伊洛娜/星花/苏恩/闻笙/马吉拉/薇尔岚/苔妮/伊索斯/亚莉奈/妮蔻拉/多萝西/达斯廷/夏尔\\n\r<color=#E4B7FF>SR</color>   <color=#FFB800>10%</color>\\n\r莉薇娅/黛丝莉/叶珏/魇/苍叶/宵月/冯·里奈/菲妮娅/塞西尔/瓦伦汀/奈弥/霖/阿知波/甘雅/伊尔/卡莱雅/晃/海因里希\\n\r<color=#71CEFD>R</color>     <color=#FFB800>88%</color>\\n\r阿尔喀娜/艾略特/弗兰/伽罗尔/静流/卡莲/雷火/瑞秋/山岚/狮鬃/塔拉/跳鼠/朱利安/\\n\\n\r<size=30><b>保底说明：</b></size>\\n\r在任意<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，未获得<color=#FFE266>SSR</color>角色的累计招募次数会一直累计于<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，招募次数保底互通。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>50</color>次没有获得<color=#FFE266>SSR</color>角色，则之后每次招募获得<color=#FFE266>SSR</color>角色的概率将提升<color=#FFB800>3%</color>，直至获得<color=#FFE266>SSR</color>角色，之后获得<color=#FFE266>SSR</color>角色的概率将恢复到<color=#FFB800>2%</color>。最多<color=#FFB800>83</color>次招募必定能通过保底获得<color=#FFE266>SSR</color>角色。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>9</color>次获得<color=#71CEFD>R</color>角色，则第<color=#FFB800>10</color>次必定获得<color=#E4B7FF>SR</color>角色或<color=#FFE266>SSR</color>角色。当前招募连续获得<color=#71CEFD>R</color>角色的招募次数不会继承至其他招募。\\n\\n\r<size=30><b>UP说明：</b></size>\\n\r当招募获得<color=#FFE266>SSR</color>角色时，有<color=#FFB800>50%</color>的概率为本期<color=#FFE266>SSR</color>概率提升角色<color=#FFB800>【索玛】</color>。若本次招募获得的<color=#FFE266>SSR</color>角色非本期<color=#FFE266>SSR</color>概率提升角色，则下次招募获得的<color=#FFE266>SSR</color>角色必定为本期<color=#FFE266>SSR</color>概率提升角色。\\n\\n\r<size=30><b>特殊说明：</b></size>\\n\r列车长每次招募时，将获得<color=#FFB800>1</color>个【履历情报】。\\n\r列车长在招募中获得已有角色时，每次将转化为<color=#FFB800>1</color>个该角色的【履历补充】，角色的【履历补充】可用于角色觉醒。列车长获得任一角色的【履历补充】累计达到<color=#FFB800>5</color>个后，之后获得的该角色的【履历补充】将按以下比例自动回收为【履历情报】：\\n\r<color=#FFB800>1</color>个<color=#71CEFD>R</color>角色的【履历补充】将被回收为<color=#FFB800>1</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#E4B7FF>SR</color>角色的【履历补充】将被回收为<color=#FFB800>3</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#FFE266>SSR</color>角色的【履历补充】将被回收为<color=#FFB800>10</color>个【履历情报】\\n\r列车长可使用【履历情报】在每个城市休息区中的黑月商店兑换道具。",
+    "details": "<size=30><b>详情说明：</b></size>\\n\r列车长可在<color=#FFB800>【纯真荆棘-索玛】</color>中使用【拉普拉斯协议】招募以下角色\\n\r<color=#FFE266>SSR</color>  <color=#FFB800>2%</color>\\n\r索玛（UP）/夏洛蒂/那由他/卡洛琳/约书亚/柯娜/卡塔斯/伊洛娜/星花/苏恩/闻笙/马吉拉/薇尔岚/苔妮/伊索斯/亚莉奈/妮蔻拉/多萝西/达斯廷/夏尔/安菲娅\\n\r<color=#E4B7FF>SR</color>   <color=#FFB800>10%</color>\\n\r莉薇娅/黛丝莉/叶珏/魇/苍叶/宵月/冯·里奈/菲妮娅/塞西尔/瓦伦汀/奈弥/霖/阿知波/甘雅/伊尔/卡莱雅/晃/海因里希\\n\r<color=#71CEFD>R</color>     <color=#FFB800>88%</color>\\n\r阿尔喀娜/艾略特/弗兰/伽罗尔/静流/卡莲/雷火/瑞秋/山岚/狮鬃/塔拉/跳鼠/朱利安/\\n\\n\r<size=30><b>保底说明：</b></size>\\n\r在任意<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，未获得<color=#FFE266>SSR</color>角色的累计招募次数会一直累计于<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，招募次数保底互通。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>50</color>次没有获得<color=#FFE266>SSR</color>角色，则之后每次招募获得<color=#FFE266>SSR</color>角色的概率将提升<color=#FFB800>3%</color>，直至获得<color=#FFE266>SSR</color>角色，之后获得<color=#FFE266>SSR</color>角色的概率将恢复到<color=#FFB800>2%</color>。最多<color=#FFB800>83</color>次招募必定能通过保底获得<color=#FFE266>SSR</color>角色。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>9</color>次获得<color=#71CEFD>R</color>角色，则第<color=#FFB800>10</color>次必定获得<color=#E4B7FF>SR</color>角色或<color=#FFE266>SSR</color>角色。当前招募连续获得<color=#71CEFD>R</color>角色的招募次数不会继承至其他招募。\\n\\n\r<size=30><b>UP说明：</b></size>\\n\r当招募获得<color=#FFE266>SSR</color>角色时，有<color=#FFB800>50%</color>的概率为本期<color=#FFE266>SSR</color>概率提升角色<color=#FFB800>【索玛】</color>。若本次招募获得的<color=#FFE266>SSR</color>角色非本期<color=#FFE266>SSR</color>概率提升角色，则下次招募获得的<color=#FFE266>SSR</color>角色必定为本期<color=#FFE266>SSR</color>概率提升角色。\\n\\n\r<size=30><b>特殊说明：</b></size>\\n\r列车长每次招募时，将获得<color=#FFB800>1</color>个【履历情报】。\\n\r列车长在招募中获得已有角色时，每次将转化为<color=#FFB800>1</color>个该角色的【履历补充】，角色的【履历补充】可用于角色觉醒。列车长获得任一角色的【履历补充】累计达到<color=#FFB800>5</color>个后，之后获得的该角色的【履历补充】将按以下比例自动回收为【履历情报】：\\n\r<color=#FFB800>1</color>个<color=#71CEFD>R</color>角色的【履历补充】将被回收为<color=#FFB800>1</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#E4B7FF>SR</color>角色的【履历补充】将被回收为<color=#FFB800>3</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#FFE266>SSR</color>角色的【履历补充】将被回收为<color=#FFB800>10</color>个【履历情报】\\n\r列车长可使用【履历情报】在每个城市休息区中的黑月商店兑换道具。",
     "tryList": [
       {
         "levelId": 20100805,
@@ -4878,7 +4879,7 @@
         "y": -180.0
       }
     ],
-    "details": "<size=30><b>详情说明：</b></size>\\n\r<color=#FFB800>【轻快哨声-夏尔】</color>属于<color=#FFB800>【专列招募】</color>。\\n\r本次<color=#FFB800>【轻快哨声-夏尔】</color>结束后，将在未来三月内复刻。复刻结束后，角色<color=#FFB800>【夏尔】</color>将加入到除<color=#FFB800>【始发招募】</color>以外的所有招募中。\\n\r列车长可在<color=#FFB800>【轻快哨声-夏尔】</color>中使用【拉普拉斯协议】招募以下角色\\n\r<color=#FFE266>SSR</color>  <color=#FFB800>2%</color>\\n\r夏尔（UP）/夏洛蒂/那由他/卡洛琳/约书亚/柯娜/卡塔斯/伊洛娜/星花/苏恩/闻笙/马吉拉/薇尔岚/苔妮/伊索斯/亚莉奈/妮蔻拉/多萝西/达斯廷/索玛\\n\r<color=#E4B7FF>SR</color>   <color=#FFB800>10%</color>\\n\r莉薇娅/黛丝莉/叶珏/魇/苍叶/宵月/冯·里奈/菲妮娅/塞西尔/瓦伦汀/奈弥/霖/阿知波/甘雅/伊尔/卡莱雅/晃/海因里希\\n\r<color=#71CEFD>R</color>     <color=#FFB800>88%</color>\\n\r阿尔喀娜/艾略特/弗兰/伽罗尔/静流/卡莲/雷火/瑞秋/山岚/狮鬃/塔拉/跳鼠/朱利安/\\n\\n\r<size=30><b>保底说明：</b></size>\\n\r在任意<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，未获得<color=#FFE266>SSR</color>角色的累计招募次数会一直累计于<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，招募次数保底互通。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>50</color>次没有获得<color=#FFE266>SSR</color>角色，则之后每次招募获得<color=#FFE266>SSR</color>角色的概率将提升<color=#FFB800>3%</color>，直至获得<color=#FFE266>SSR</color>角色，之后获得<color=#FFE266>SSR</color>角色的概率将恢复到<color=#FFB800>2%</color>。最多<color=#FFB800>83</color>次招募必定能通过保底获得<color=#FFE266>SSR</color>角色。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>9</color>次获得<color=#71CEFD>R</color>角色，则第<color=#FFB800>10</color>次必定获得<color=#E4B7FF>SR</color>角色或<color=#FFE266>SSR</color>角色。当前招募连续获得<color=#71CEFD>R</color>角色的招募次数不会继承至其他招募。\\n\\n\r<size=30><b>UP说明：</b></size>\\n\r当招募获得<color=#FFE266>SSR</color>角色时，有<color=#FFB800>50%</color>的概率为本期<color=#FFE266>SSR</color>概率提升角色<color=#FFB800>【夏尔】</color>。若本次招募获得的<color=#FFE266>SSR</color>角色非本期<color=#FFE266>SSR</color>概率提升角色，则下次招募获得的<color=#FFE266>SSR</color>角色必定为本期<color=#FFE266>SSR</color>概率提升角色。\\n\\n\r<size=30><b>特殊说明：</b></size>\\n\r列车长每次招募时，将获得<color=#FFB800>1</color>个【履历情报】。\\n\r列车长在招募中获得已有角色时，每次将转化为<color=#FFB800>1</color>个该角色的【履历补充】，角色的【履历补充】可用于角色觉醒。列车长获得任一角色的【履历补充】累计达到<color=#FFB800>5</color>个后，之后获得的该角色的【履历补充】将按以下比例自动回收为【履历情报】：\\n\r<color=#FFB800>1</color>个<color=#71CEFD>R</color>角色的【履历补充】将被回收为<color=#FFB800>1</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#E4B7FF>SR</color>角色的【履历补充】将被回收为<color=#FFB800>3</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#FFE266>SSR</color>角色的【履历补充】将被回收为<color=#FFB800>10</color>个【履历情报】\\n\r列车长可使用【履历情报】在每个城市休息区中的黑月商店兑换道具。",
+    "details": "<size=30><b>详情说明：</b></size>\\n\r<color=#FFB800>【轻快哨声-夏尔】</color>属于<color=#FFB800>【专列招募】</color>。\\n\r本次<color=#FFB800>【轻快哨声-夏尔】</color>结束后，将在未来三月内复刻。复刻结束后，角色<color=#FFB800>【夏尔】</color>将加入到除<color=#FFB800>【始发招募】</color>以外的所有招募中。\\n\r列车长可在<color=#FFB800>【轻快哨声-夏尔】</color>中使用【拉普拉斯协议】招募以下角色\\n\r<color=#FFE266>SSR</color>  <color=#FFB800>2%</color>\\n\r夏尔（UP）/夏洛蒂/那由他/卡洛琳/约书亚/柯娜/卡塔斯/伊洛娜/星花/苏恩/闻笙/马吉拉/薇尔岚/苔妮/伊索斯/亚莉奈/妮蔻拉/多萝西/达斯廷/索玛/安菲娅\\n\r<color=#E4B7FF>SR</color>   <color=#FFB800>10%</color>\\n\r莉薇娅/黛丝莉/叶珏/魇/苍叶/宵月/冯·里奈/菲妮娅/塞西尔/瓦伦汀/奈弥/霖/阿知波/甘雅/伊尔/卡莱雅/晃/海因里希\\n\r<color=#71CEFD>R</color>     <color=#FFB800>88%</color>\\n\r阿尔喀娜/艾略特/弗兰/伽罗尔/静流/卡莲/雷火/瑞秋/山岚/狮鬃/塔拉/跳鼠/朱利安/\\n\\n\r<size=30><b>保底说明：</b></size>\\n\r在任意<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，未获得<color=#FFE266>SSR</color>角色的累计招募次数会一直累计于<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，招募次数保底互通。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>50</color>次没有获得<color=#FFE266>SSR</color>角色，则之后每次招募获得<color=#FFE266>SSR</color>角色的概率将提升<color=#FFB800>3%</color>，直至获得<color=#FFE266>SSR</color>角色，之后获得<color=#FFE266>SSR</color>角色的概率将恢复到<color=#FFB800>2%</color>。最多<color=#FFB800>83</color>次招募必定能通过保底获得<color=#FFE266>SSR</color>角色。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>9</color>次获得<color=#71CEFD>R</color>角色，则第<color=#FFB800>10</color>次必定获得<color=#E4B7FF>SR</color>角色或<color=#FFE266>SSR</color>角色。当前招募连续获得<color=#71CEFD>R</color>角色的招募次数不会继承至其他招募。\\n\\n\r<size=30><b>UP说明：</b></size>\\n\r当招募获得<color=#FFE266>SSR</color>角色时，有<color=#FFB800>50%</color>的概率为本期<color=#FFE266>SSR</color>概率提升角色<color=#FFB800>【夏尔】</color>。若本次招募获得的<color=#FFE266>SSR</color>角色非本期<color=#FFE266>SSR</color>概率提升角色，则下次招募获得的<color=#FFE266>SSR</color>角色必定为本期<color=#FFE266>SSR</color>概率提升角色。\\n\\n\r<size=30><b>特殊说明：</b></size>\\n\r列车长每次招募时，将获得<color=#FFB800>1</color>个【履历情报】。\\n\r列车长在招募中获得已有角色时，每次将转化为<color=#FFB800>1</color>个该角色的【履历补充】，角色的【履历补充】可用于角色觉醒。列车长获得任一角色的【履历补充】累计达到<color=#FFB800>5</color>个后，之后获得的该角色的【履历补充】将按以下比例自动回收为【履历情报】：\\n\r<color=#FFB800>1</color>个<color=#71CEFD>R</color>角色的【履历补充】将被回收为<color=#FFB800>1</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#E4B7FF>SR</color>角色的【履历补充】将被回收为<color=#FFB800>3</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#FFE266>SSR</color>角色的【履历补充】将被回收为<color=#FFB800>10</color>个【履历情报】\\n\r列车长可使用【履历情报】在每个城市休息区中的黑月商店兑换道具。",
     "tryList": [
       {
         "levelId": 20100857,
@@ -5094,8 +5095,8 @@
     "mod": "抽角色配置",
     "isInformalData": false,
     "commodityId": 40200012,
-    "startTime": "2024-08-15 12:00:00",
-    "endTime": "2024-09-05 12:00:00",
+    "startTime": "2024-11-13 12:00:00",
+    "endTime": "2024-12-04 12:00:00",
     "type": "Pay",
     "isNewbie": false,
     "costList": [
@@ -5280,7 +5281,7 @@
         "y": -55.0
       }
     ],
-    "details": "<size=30><b>详情说明：</b></size>\\n\r<color=#FFB800>【裁定真理-丽桑德拉】</color>属于<color=#FFB800>【专列招募】</color>。\\n\r本次<color=#FFB800>【裁定真理-丽桑德拉】</color>结束后，将在未来三月内复刻。复刻结束后，角色<color=#FFB800>【丽桑德拉】</color>将加入到除<color=#FFB800>【始发招募】</color>以外的所有招募中。\\n\r列车长可在<color=#FFB800>【裁定真理-丽桑德拉】</color>中使用【拉普拉斯协议】招募以下角色\\n\r<color=#FFE266>SSR</color>  <color=#FFB800>2%</color>\\n\r丽桑德拉（UP）/夏洛蒂/那由他/卡洛琳/约书亚/柯娜/卡塔斯/伊洛娜/星花/苏恩/闻笙/马吉拉/薇尔岚/苔妮/伊索斯/亚莉奈/妮蔻拉/多萝西\\n\r<color=#E4B7FF>SR</color>   <color=#FFB800>10%</color>\\n\r莉薇娅/黛丝莉/叶珏/魇/苍叶/宵月/冯·里奈/菲妮娅/塞西尔/瓦伦汀/奈弥/霖/阿知波/甘雅/伊尔/卡莱雅/晃/海因里希\\n\r<color=#71CEFD>R</color>     <color=#FFB800>88%</color>\\n\r阿尔喀娜/艾略特/弗兰/伽罗尔/静流/卡莲/雷火/瑞秋/山岚/狮鬃/塔拉/跳鼠/朱利安/\\n\\n\r<size=30><b>保底说明：</b></size>\\n\r在任意<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，未获得<color=#FFE266>SSR</color>角色的累计招募次数会一直累计于<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，招募次数保底互通。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>50</color>次没有获得<color=#FFE266>SSR</color>角色，则之后每次招募获得<color=#FFE266>SSR</color>角色的概率将提升<color=#FFB800>3%</color>，直至获得<color=#FFE266>SSR</color>角色，之后获得<color=#FFE266>SSR</color>角色的概率将恢复到<color=#FFB800>2%</color>。最多<color=#FFB800>83</color>次招募必定能通过保底获得<color=#FFE266>SSR</color>角色。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>9</color>次获得<color=#71CEFD>R</color>角色，则第<color=#FFB800>10</color>次必定获得<color=#E4B7FF>SR</color>角色或<color=#FFE266>SSR</color>角色。当前招募连续获得<color=#71CEFD>R</color>角色的招募次数不会继承至其他招募。\\n\\n\r<size=30><b>UP说明：</b></size>\\n\r当招募获得<color=#FFE266>SSR</color>角色时，有<color=#FFB800>50%</color>的概率为本期<color=#FFE266>SSR</color>概率提升角色<color=#FFB800>【丽桑德拉】</color>。若本次招募获得的<color=#FFE266>SSR</color>角色非本期<color=#FFE266>SSR</color>概率提升角色，则下次招募获得的<color=#FFE266>SSR</color>角色必定为本期<color=#FFE266>SSR</color>概率提升角色。\\n\\n\r<size=30><b>特殊说明：</b></size>\\n\r列车长每次招募时，将获得<color=#FFB800>1</color>个【履历情报】。\\n\r列车长在招募中获得已有角色时，每次将转化为<color=#FFB800>1</color>个该角色的【履历补充】，角色的【履历补充】可用于角色觉醒。列车长获得任一角色的【履历补充】累计达到<color=#FFB800>5</color>个后，之后获得的该角色的【履历补充】将按以下比例自动回收为【履历情报】：\\n\r<color=#FFB800>1</color>个<color=#71CEFD>R</color>角色的【履历补充】将被回收为<color=#FFB800>1</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#E4B7FF>SR</color>角色的【履历补充】将被回收为<color=#FFB800>3</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#FFE266>SSR</color>角色的【履历补充】将被回收为<color=#FFB800>10</color>个【履历情报】\\n\r列车长可使用【履历情报】在每个城市休息区中的黑月商店兑换道具。",
+    "details": "<size=30><b>详情说明：</b></size>\\n\r<color=#FFB800>【裁定真理-丽桑德拉】</color>属于<color=#FFB800>【专列招募】</color>。\\n\r本次<color=#FFB800>【裁定真理-丽桑德拉】</color>结束后，角色<color=#FFB800>【丽桑德拉】</color>将加入到除<color=#FFB800>【始发招募】</color>以外的所有招募中。\\n\r列车长可在<color=#FFB800>【裁定真理-丽桑德拉】</color>中使用【拉普拉斯协议】招募以下角色\\n\r<color=#FFE266>SSR</color>  <color=#FFB800>2%</color>\\n\r丽桑德拉（UP）/夏洛蒂/那由他/卡洛琳/约书亚/柯娜/卡塔斯/伊洛娜/星花/苏恩/闻笙/马吉拉/薇尔岚/苔妮/伊索斯/亚莉奈/妮蔻拉/多萝西/达斯廷/索玛/夏尔/安菲娅\\n\r<color=#E4B7FF>SR</color>   <color=#FFB800>10%</color>\\n\r莉薇娅/黛丝莉/叶珏/魇/苍叶/宵月/冯·里奈/菲妮娅/塞西尔/瓦伦汀/奈弥/霖/阿知波/甘雅/伊尔/卡莱雅/晃/海因里希\\n\r<color=#71CEFD>R</color>     <color=#FFB800>88%</color>\\n\r阿尔喀娜/艾略特/弗兰/伽罗尔/静流/卡莲/雷火/瑞秋/山岚/狮鬃/塔拉/跳鼠/朱利安/\\n\\n\r<size=30><b>保底说明：</b></size>\\n\r在任意<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，未获得<color=#FFE266>SSR</color>角色的累计招募次数会一直累计于<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，招募次数保底互通。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>50</color>次没有获得<color=#FFE266>SSR</color>角色，则之后每次招募获得<color=#FFE266>SSR</color>角色的概率将提升<color=#FFB800>3%</color>，直至获得<color=#FFE266>SSR</color>角色，之后获得<color=#FFE266>SSR</color>角色的概率将恢复到<color=#FFB800>2%</color>。最多<color=#FFB800>83</color>次招募必定能通过保底获得<color=#FFE266>SSR</color>角色。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>9</color>次获得<color=#71CEFD>R</color>角色，则第<color=#FFB800>10</color>次必定获得<color=#E4B7FF>SR</color>角色或<color=#FFE266>SSR</color>角色。当前招募连续获得<color=#71CEFD>R</color>角色的招募次数不会继承至其他招募。\\n\\n\r<size=30><b>UP说明：</b></size>\\n\r当招募获得<color=#FFE266>SSR</color>角色时，有<color=#FFB800>50%</color>的概率为本期<color=#FFE266>SSR</color>概率提升角色<color=#FFB800>【丽桑德拉】</color>。若本次招募获得的<color=#FFE266>SSR</color>角色非本期<color=#FFE266>SSR</color>概率提升角色，则下次招募获得的<color=#FFE266>SSR</color>角色必定为本期<color=#FFE266>SSR</color>概率提升角色。\\n\\n\r<size=30><b>特殊说明：</b></size>\\n\r列车长每次招募时，将获得<color=#FFB800>1</color>个【履历情报】。\\n\r列车长在招募中获得已有角色时，每次将转化为<color=#FFB800>1</color>个该角色的【履历补充】，角色的【履历补充】可用于角色觉醒。列车长获得任一角色的【履历补充】累计达到<color=#FFB800>5</color>个后，之后获得的该角色的【履历补充】将按以下比例自动回收为【履历情报】：\\n\r<color=#FFB800>1</color>个<color=#71CEFD>R</color>角色的【履历补充】将被回收为<color=#FFB800>1</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#E4B7FF>SR</color>角色的【履历补充】将被回收为<color=#FFB800>3</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#FFE266>SSR</color>角色的【履历补充】将被回收为<color=#FFB800>10</color>个【履历情报】\\n\r列车长可使用【履历情报】在每个城市休息区中的黑月商店兑换道具。",
     "tryList": [
       {
         "levelId": 20100758,
@@ -5682,7 +5683,7 @@
         "y": -32.0
       }
     ],
-    "details": "<size=30><b>详情说明：</b></size>\\n\r<color=#FFB800>【物竞天择-伊索斯】</color>属于<color=#FFB800>【定向招募】</color>。\\n\r本次<color=#FFB800>【物竞天择-伊索斯】</color>结束后，角色<color=#FFB800>【伊索斯】</color>将加入到除<color=#FFB800>【始发招募】</color>以外的所有招募中。\\n\r列车长可在<color=#FFB800>【物竞天择-伊索斯】</color>中使用【拉普拉斯协议】招募以下角色\\n\r<color=#FFE266>SSR</color>  <color=#FFB800>2%</color>\\n\r伊索斯（UP）/夏洛蒂/那由他/卡洛琳/约书亚/柯娜/卡塔斯/伊洛娜/星花/苏恩/闻笙/马吉拉/薇尔岚/苔妮/亚莉奈/妮蔻拉/多萝西/达斯廷/索玛/夏尔\\n\r<color=#E4B7FF>SR</color>   <color=#FFB800>10%</color>\\n\r莉薇娅/黛丝莉/叶珏/魇/苍叶/宵月/冯·里奈/菲妮娅/塞西尔/瓦伦汀/奈弥/霖/阿知波/甘雅/伊尔/卡莱雅/晃/海因里希\\n\r<color=#71CEFD>R</color>     <color=#FFB800>88%</color>\\n\r阿尔喀娜/艾略特/弗兰/伽罗尔/静流/卡莲/雷火/瑞秋/山岚/狮鬃/塔拉/跳鼠/朱利安/\\n\\n\r<size=30><b>保底说明：</b></size>\\n\r在任意<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，未获得<color=#FFE266>SSR</color>角色的累计招募次数会一直累计于<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，招募次数保底互通。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>50</color>次没有获得<color=#FFE266>SSR</color>角色，则之后每次招募获得<color=#FFE266>SSR</color>角色的概率将提升<color=#FFB800>3%</color>，直至获得<color=#FFE266>SSR</color>角色，之后获得<color=#FFE266>SSR</color>角色的概率将恢复到<color=#FFB800>2%</color>。最多<color=#FFB800>83</color>次招募必定能通过保底获得<color=#FFE266>SSR</color>角色。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>9</color>次获得<color=#71CEFD>R</color>角色，则第<color=#FFB800>10</color>次必定获得<color=#E4B7FF>SR</color>角色或<color=#FFE266>SSR</color>角色。当前招募连续获得<color=#71CEFD>R</color>角色的招募次数不会继承至其他招募。\\n\\n\r<size=30><b>UP说明：</b></size>\\n\r当招募获得<color=#FFE266>SSR</color>角色时，有<color=#FFB800>50%</color>的概率为本期<color=#FFE266>SSR</color>概率提升角色<color=#FFB800>【伊索斯】</color>。若本次招募获得的<color=#FFE266>SSR</color>角色非本期<color=#FFE266>SSR</color>概率提升角色，则下次招募获得的<color=#FFE266>SSR</color>角色必定为本期<color=#FFE266>SSR</color>概率提升角色。\\n\\n\r<size=30><b>特殊说明：</b></size>\\n\r列车长每次招募时，将获得<color=#FFB800>1</color>个【履历情报】。\\n\r列车长在招募中获得已有角色时，每次将转化为<color=#FFB800>1</color>个该角色的【履历补充】，角色的【履历补充】可用于角色觉醒。列车长获得任一角色的【履历补充】累计达到<color=#FFB800>5</color>个后，之后获得的该角色的【履历补充】将按以下比例自动回收为【履历情报】：\\n\r<color=#FFB800>1</color>个<color=#71CEFD>R</color>角色的【履历补充】将被回收为<color=#FFB800>1</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#E4B7FF>SR</color>角色的【履历补充】将被回收为<color=#FFB800>3</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#FFE266>SSR</color>角色的【履历补充】将被回收为<color=#FFB800>10</color>个【履历情报】\\n\r列车长可使用【履历情报】在每个城市休息区中的黑月商店兑换道具。",
+    "details": "<size=30><b>详情说明：</b></size>\\n\r<color=#FFB800>【物竞天择-伊索斯】</color>属于<color=#FFB800>【定向招募】</color>。\\n\r本次<color=#FFB800>【物竞天择-伊索斯】</color>结束后，角色<color=#FFB800>【伊索斯】</color>将加入到除<color=#FFB800>【始发招募】</color>以外的所有招募中。\\n\r列车长可在<color=#FFB800>【物竞天择-伊索斯】</color>中使用【拉普拉斯协议】招募以下角色\\n\r<color=#FFE266>SSR</color>  <color=#FFB800>2%</color>\\n\r伊索斯（UP）/夏洛蒂/那由他/卡洛琳/约书亚/柯娜/卡塔斯/伊洛娜/星花/苏恩/闻笙/马吉拉/薇尔岚/苔妮/亚莉奈/妮蔻拉/多萝西/达斯廷/索玛/夏尔/安菲娅\\n\r<color=#E4B7FF>SR</color>   <color=#FFB800>10%</color>\\n\r莉薇娅/黛丝莉/叶珏/魇/苍叶/宵月/冯·里奈/菲妮娅/塞西尔/瓦伦汀/奈弥/霖/阿知波/甘雅/伊尔/卡莱雅/晃/海因里希\\n\r<color=#71CEFD>R</color>     <color=#FFB800>88%</color>\\n\r阿尔喀娜/艾略特/弗兰/伽罗尔/静流/卡莲/雷火/瑞秋/山岚/狮鬃/塔拉/跳鼠/朱利安/\\n\\n\r<size=30><b>保底说明：</b></size>\\n\r在任意<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，未获得<color=#FFE266>SSR</color>角色的累计招募次数会一直累计于<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，招募次数保底互通。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>50</color>次没有获得<color=#FFE266>SSR</color>角色，则之后每次招募获得<color=#FFE266>SSR</color>角色的概率将提升<color=#FFB800>3%</color>，直至获得<color=#FFE266>SSR</color>角色，之后获得<color=#FFE266>SSR</color>角色的概率将恢复到<color=#FFB800>2%</color>。最多<color=#FFB800>83</color>次招募必定能通过保底获得<color=#FFE266>SSR</color>角色。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>9</color>次获得<color=#71CEFD>R</color>角色，则第<color=#FFB800>10</color>次必定获得<color=#E4B7FF>SR</color>角色或<color=#FFE266>SSR</color>角色。当前招募连续获得<color=#71CEFD>R</color>角色的招募次数不会继承至其他招募。\\n\\n\r<size=30><b>UP说明：</b></size>\\n\r当招募获得<color=#FFE266>SSR</color>角色时，有<color=#FFB800>50%</color>的概率为本期<color=#FFE266>SSR</color>概率提升角色<color=#FFB800>【伊索斯】</color>。若本次招募获得的<color=#FFE266>SSR</color>角色非本期<color=#FFE266>SSR</color>概率提升角色，则下次招募获得的<color=#FFE266>SSR</color>角色必定为本期<color=#FFE266>SSR</color>概率提升角色。\\n\\n\r<size=30><b>特殊说明：</b></size>\\n\r列车长每次招募时，将获得<color=#FFB800>1</color>个【履历情报】。\\n\r列车长在招募中获得已有角色时，每次将转化为<color=#FFB800>1</color>个该角色的【履历补充】，角色的【履历补充】可用于角色觉醒。列车长获得任一角色的【履历补充】累计达到<color=#FFB800>5</color>个后，之后获得的该角色的【履历补充】将按以下比例自动回收为【履历情报】：\\n\r<color=#FFB800>1</color>个<color=#71CEFD>R</color>角色的【履历补充】将被回收为<color=#FFB800>1</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#E4B7FF>SR</color>角色的【履历补充】将被回收为<color=#FFB800>3</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#FFE266>SSR</color>角色的【履历补充】将被回收为<color=#FFB800>10</color>个【履历情报】\\n\r列车长可使用【履历情报】在每个城市休息区中的黑月商店兑换道具。",
     "tryList": [
       {
         "levelId": 20101153,
@@ -6453,10 +6454,616 @@
         "y": -50.0
       }
     ],
+    "details": "<size=30><b>详情说明：</b></size>\\n\r<color=#FFB800>【夜翼，不鸣-隼】</color>属于<color=#FFB800>【专列招募】</color>。\\n\r本次<color=#FFB800>【夜翼，不鸣-隼】</color>结束后，将在未来三月内复刻。复刻结束后，角色<color=#FFB800>【隼】</color>将加入到除<color=#FFB800>【始发招募】</color>以外的所有招募中。\\n\r列车长可在<color=#FFB800>【夜翼，不鸣-隼】</color>中使用【拉普拉斯协议】招募以下角色\\n\r<color=#FFE266>SSR</color>  <color=#FFB800>2%</color>\\n\r隼（UP）/夏洛蒂/那由他/卡洛琳/约书亚/柯娜/卡塔斯/伊洛娜/星花/苏恩/闻笙/马吉拉/薇尔岚/苔妮/伊索斯/亚莉奈/妮蔻拉/多萝西/达斯廷/索玛/夏尔/安菲娅\\n\r<color=#E4B7FF>SR</color>   <color=#FFB800>10%</color>\\n\r莉薇娅/黛丝莉/叶珏/魇/苍叶/宵月/冯·里奈/菲妮娅/塞西尔/瓦伦汀/奈弥/霖/阿知波/甘雅/伊尔/卡莱雅/晃/海因里希\\n\r<color=#71CEFD>R</color>     <color=#FFB800>88%</color>\\n\r阿尔喀娜/艾略特/弗兰/伽罗尔/静流/卡莲/雷火/瑞秋/山岚/狮鬃/塔拉/跳鼠/朱利安/\\n\\n\r<size=30><b>保底说明：</b></size>\\n\r在任意<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，未获得<color=#FFE266>SSR</color>角色的累计招募次数会一直累计于<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，招募次数保底互通。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>50</color>次没有获得<color=#FFE266>SSR</color>角色，则之后每次招募获得<color=#FFE266>SSR</color>角色的概率将提升<color=#FFB800>3%</color>，直至获得<color=#FFE266>SSR</color>角色，之后获得<color=#FFE266>SSR</color>角色的概率将恢复到<color=#FFB800>2%</color>。最多<color=#FFB800>83</color>次招募必定能通过保底获得<color=#FFE266>SSR</color>角色。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>9</color>次获得<color=#71CEFD>R</color>角色，则第<color=#FFB800>10</color>次必定获得<color=#E4B7FF>SR</color>角色或<color=#FFE266>SSR</color>角色。当前招募连续获得<color=#71CEFD>R</color>角色的招募次数不会继承至其他招募。\\n\\n\r<size=30><b>UP说明：</b></size>\\n\r当招募获得<color=#FFE266>SSR</color>角色时，有<color=#FFB800>50%</color>的概率为本期<color=#FFE266>SSR</color>概率提升角色<color=#FFB800>【隼】</color>。若本次招募获得的<color=#FFE266>SSR</color>角色非本期<color=#FFE266>SSR</color>概率提升角色，则下次招募获得的<color=#FFE266>SSR</color>角色必定为本期<color=#FFE266>SSR</color>概率提升角色。\\n\\n\r<size=30><b>特殊说明：</b></size>\\n\r列车长每次招募时，将获得<color=#FFB800>1</color>个【履历情报】。\\n\r列车长在招募中获得已有角色时，每次将转化为<color=#FFB800>1</color>个该角色的【履历补充】，角色的【履历补充】可用于角色觉醒。列车长获得任一角色的【履历补充】累计达到<color=#FFB800>5</color>个后，之后获得的该角色的【履历补充】将按以下比例自动回收为【履历情报】：\\n\r<color=#FFB800>1</color>个<color=#71CEFD>R</color>角色的【履历补充】将被回收为<color=#FFB800>1</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#E4B7FF>SR</color>角色的【履历补充】将被回收为<color=#FFB800>3</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#FFE266>SSR</color>角色的【履历补充】将被回收为<color=#FFB800>10</color>个【履历情报】\\n\r列车长可使用【履历情报】在每个城市休息区中的黑月商店兑换道具。",
+    "tryList": [
+      {
+        "levelId": 20101232,
+        "x": -280.0,
+        "y": -444.5
+      }
+    ]
+  },
+  {
+    "id": 80500190,
+    "idCN": "卡池/05活动招募/杀人事件-隼up卡池",
+    "mod": "抽角色配置",
+    "isInformalData": false,
+    "commodityId": 40200012,
+    "startTime": "2024-11-07 12:00:00",
+    "endTime": "2024-11-07 12:00:00",
+    "type": "Pay",
+    "isNewbie": false,
+    "costList": [
+      {
+        "count": 1,
+        "id": 11400007,
+        "num": 1
+      }
+    ],
+    "costTenList": [
+      {
+        "count": 10,
+        "id": 11400007,
+        "num": 10
+      }
+    ],
+    "freeCD": 0,
+    "closeNum": -1,
+    "firstReward": [],
+    "secondReward": [],
+    "newNormalList": [
+      {
+        "id": 80300016,
+        "weight": 88000,
+        "weightVAR": -2694
+      },
+      {
+        "id": 80300017,
+        "weight": 10000,
+        "weightVAR": -306
+      },
+      {
+        "id": 80304615,
+        "weight": 2000,
+        "weightVAR": 3000
+      }
+    ],
+    "tenList": [
+      {
+        "id": 10000055,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "id": 10000068,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "id": 10000335,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "id": 10000063,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "id": 10000071,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "id": 10000153,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "id": 10000389,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "id": 10000300,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "id": 10000064,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "id": 10000047,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "id": 10000052,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "id": 10000110,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "id": 10000387,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "id": 10000112,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "id": 10000053,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "id": 10000101,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "id": 10000124,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "id": 10000270,
+        "num": 1,
+        "weight": 1
+      }
+    ],
+    "extraRewardsList": [
+      {
+        "id": 11400017,
+        "num": 1
+      }
+    ],
+    "tenSSRMax": 10,
+    "protectTag": 12600748,
+    "protectCount": 50,
+    "upList": [
+      {
+        "id": 10000034
+      }
+    ],
+    "name": "夜翼，不鸣-隼",
+    "isRedPoint": true,
+    "sort": 997,
+    "questId": 81000711,
+    "imageBg": "UI/Dialog/Back/traffic_light",
+    "spineBg": "RoleU3D/LH_Hayabusa_sp/LH_Hayabusa_sp",
+    "spineX": -40.0,
+    "spineY": 0.0,
+    "tabName": "活动招募",
+    "tabPath": "UI/Gacha/BG/Hayabusa_tab",
+    "animName": "anim1",
+    "imageList": [
+      {
+        "image": "",
+        "scale": 1.1,
+        "x": 916.0,
+        "y": 0.0
+      },
+      {
+        "image": "RolePlus/Hayabusa/type2/Full",
+        "scale": 0.92,
+        "x": 544.0,
+        "y": -275.0
+      },
+      {
+        "image": "UI/Gacha/BG/Hayabusa_title",
+        "scale": 1.0,
+        "x": 0.0,
+        "y": 70.0
+      }
+    ],
+    "titlePath": "UI/Gacha/gacha_bottom_up",
+    "titleX": -244.0,
+    "titleY": -331.0,
+    "titleName": "",
+    "btnList": [
+      {
+        "id": 10000034,
+        "x": 533.0,
+        "y": -50.0
+      }
+    ],
     "details": "<size=30><b>详情说明：</b></size>\\n\r<color=#FFB800>【夜翼，不鸣-隼】</color>属于<color=#FFB800>【专列招募】</color>。\\n\r本次<color=#FFB800>【夜翼，不鸣-隼】</color>结束后，将在未来三月内复刻。复刻结束后，角色<color=#FFB800>【隼】</color>将加入到除<color=#FFB800>【始发招募】</color>以外的所有招募中。\\n\r列车长可在<color=#FFB800>【夜翼，不鸣-隼】</color>中使用【拉普拉斯协议】招募以下角色\\n\r<color=#FFE266>SSR</color>  <color=#FFB800>2%</color>\\n\r隼（UP）/夏洛蒂/那由他/卡洛琳/约书亚/柯娜/卡塔斯/伊洛娜/星花/苏恩/闻笙/马吉拉/薇尔岚/苔妮/伊索斯/亚莉奈/妮蔻拉/多萝西/达斯廷/索玛/夏尔\\n\r<color=#E4B7FF>SR</color>   <color=#FFB800>10%</color>\\n\r莉薇娅/黛丝莉/叶珏/魇/苍叶/宵月/冯·里奈/菲妮娅/塞西尔/瓦伦汀/奈弥/霖/阿知波/甘雅/伊尔/卡莱雅/晃/海因里希\\n\r<color=#71CEFD>R</color>     <color=#FFB800>88%</color>\\n\r阿尔喀娜/艾略特/弗兰/伽罗尔/静流/卡莲/雷火/瑞秋/山岚/狮鬃/塔拉/跳鼠/朱利安/\\n\\n\r<size=30><b>保底说明：</b></size>\\n\r在任意<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，未获得<color=#FFE266>SSR</color>角色的累计招募次数会一直累计于<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，招募次数保底互通。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>50</color>次没有获得<color=#FFE266>SSR</color>角色，则之后每次招募获得<color=#FFE266>SSR</color>角色的概率将提升<color=#FFB800>3%</color>，直至获得<color=#FFE266>SSR</color>角色，之后获得<color=#FFE266>SSR</color>角色的概率将恢复到<color=#FFB800>2%</color>。最多<color=#FFB800>83</color>次招募必定能通过保底获得<color=#FFE266>SSR</color>角色。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>9</color>次获得<color=#71CEFD>R</color>角色，则第<color=#FFB800>10</color>次必定获得<color=#E4B7FF>SR</color>角色或<color=#FFE266>SSR</color>角色。当前招募连续获得<color=#71CEFD>R</color>角色的招募次数不会继承至其他招募。\\n\\n\r<size=30><b>UP说明：</b></size>\\n\r当招募获得<color=#FFE266>SSR</color>角色时，有<color=#FFB800>50%</color>的概率为本期<color=#FFE266>SSR</color>概率提升角色<color=#FFB800>【隼】</color>。若本次招募获得的<color=#FFE266>SSR</color>角色非本期<color=#FFE266>SSR</color>概率提升角色，则下次招募获得的<color=#FFE266>SSR</color>角色必定为本期<color=#FFE266>SSR</color>概率提升角色。\\n\\n\r<size=30><b>特殊说明：</b></size>\\n\r列车长每次招募时，将获得<color=#FFB800>1</color>个【履历情报】。\\n\r列车长在招募中获得已有角色时，每次将转化为<color=#FFB800>1</color>个该角色的【履历补充】，角色的【履历补充】可用于角色觉醒。列车长获得任一角色的【履历补充】累计达到<color=#FFB800>5</color>个后，之后获得的该角色的【履历补充】将按以下比例自动回收为【履历情报】：\\n\r<color=#FFB800>1</color>个<color=#71CEFD>R</color>角色的【履历补充】将被回收为<color=#FFB800>1</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#E4B7FF>SR</color>角色的【履历补充】将被回收为<color=#FFB800>3</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#FFE266>SSR</color>角色的【履历补充】将被回收为<color=#FFB800>10</color>个【履历情报】\\n\r列车长可使用【履历情报】在每个城市休息区中的黑月商店兑换道具。",
     "tryList": [
       {
         "levelId": 20101232,
+        "x": -280.0,
+        "y": -444.5
+      }
+    ]
+  },
+  {
+    "id": 80500191,
+    "idCN": "卡池/05活动招募/闹鬼-达斯廷up卡池",
+    "mod": "抽角色配置",
+    "isInformalData": false,
+    "commodityId": 40200012,
+    "startTime": "2024-10-31 12:00:00",
+    "endTime": "2024-10-31 12:00:00",
+    "type": "Pay",
+    "isNewbie": false,
+    "costList": [
+      {
+        "count": 1,
+        "id": 11400007,
+        "num": 1
+      }
+    ],
+    "costTenList": [
+      {
+        "count": 10,
+        "id": 11400007,
+        "num": 10
+      }
+    ],
+    "freeCD": 0,
+    "closeNum": -1,
+    "firstReward": [],
+    "secondReward": [],
+    "newNormalList": [
+      {
+        "id": 80300016,
+        "weight": 88000,
+        "weightVAR": -2694
+      },
+      {
+        "id": 80300017,
+        "weight": 10000,
+        "weightVAR": -306
+      },
+      {
+        "id": 80301944,
+        "weight": 2000,
+        "weightVAR": 3000
+      }
+    ],
+    "tenList": [
+      {
+        "id": 10000055,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "id": 10000068,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "id": 10000335,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "id": 10000063,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "id": 10000071,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "id": 10000153,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "id": 10000389,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "id": 10000300,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "id": 10000064,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "id": 10000047,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "id": 10000052,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "id": 10000110,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "id": 10000387,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "id": 10000112,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "id": 10000053,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "id": 10000101,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "id": 10000124,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "id": 10000270,
+        "num": 1,
+        "weight": 1
+      }
+    ],
+    "extraRewardsList": [
+      {
+        "id": 11400017,
+        "num": 1
+      }
+    ],
+    "tenSSRMax": 10,
+    "protectTag": 12600748,
+    "protectCount": 50,
+    "upList": [
+      {
+        "id": 10000035
+      }
+    ],
+    "name": "流火铸心-达斯廷",
+    "isRedPoint": true,
+    "sort": 9,
+    "questId": 81000711,
+    "imageBg": "UI/Dialog/Back/traffic_light",
+    "spineBg": "RoleU3D/LH_Dustin_sp/LH_Dustin_sp",
+    "spineX": 0.0,
+    "spineY": 0.0,
+    "tabName": "活动招募",
+    "tabPath": "UI/Gacha/BG/Dustin_tab",
+    "animName": "anim1",
+    "imageList": [
+      {
+        "image": "",
+        "scale": 1.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "image": "RolePlus/Dustin/Full",
+        "scale": 0.9,
+        "x": 547.0,
+        "y": -366.0
+      },
+      {
+        "image": "UI/Gacha/BG/Dustin_title",
+        "scale": 1.0,
+        "x": -168.0,
+        "y": -60.0
+      }
+    ],
+    "titlePath": "UI/Gacha/gacha_bottom_up",
+    "titleX": -244.0,
+    "titleY": -331.0,
+    "titleName": "",
+    "btnList": [
+      {
+        "id": 10000035,
+        "x": 581.0,
+        "y": -104.0
+      }
+    ],
+    "details": "<size=30><b>详情说明：</b></size>\\n\r列车长可在<color=#FFB800>【流火铸心-达斯廷】</color>中使用【拉普拉斯协议】招募以下角色\\n\r<color=#FFE266>SSR</color>  <color=#FFB800>2%</color>\\n\r达斯廷（UP）/夏洛蒂/那由他/卡洛琳/约书亚/柯娜/卡塔斯/伊洛娜/星花/苏恩/闻笙/马吉拉/薇尔岚/苔妮/伊索斯/亚莉奈/妮蔻拉/多萝西/索玛/夏尔\\n\r<color=#E4B7FF>SR</color>   <color=#FFB800>10%</color>\\n\r莉薇娅/黛丝莉/叶珏/魇/苍叶/宵月/冯·里奈/菲妮娅/塞西尔/瓦伦汀/奈弥/霖/阿知波/甘雅/伊尔/卡莱雅/晃/海因里希\\n\r<color=#71CEFD>R</color>     <color=#FFB800>88%</color>\\n\r阿尔喀娜/艾略特/弗兰/伽罗尔/静流/卡莲/雷火/瑞秋/山岚/狮鬃/塔拉/跳鼠/朱利安/\\n\\n\r<size=30><b>保底说明：</b></size>\\n\r在任意<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，未获得<color=#FFE266>SSR</color>角色的累计招募次数会一直累计于<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，招募次数保底互通。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>50</color>次没有获得<color=#FFE266>SSR</color>角色，则之后每次招募获得<color=#FFE266>SSR</color>角色的概率将提升<color=#FFB800>3%</color>，直至获得<color=#FFE266>SSR</color>角色，之后获得<color=#FFE266>SSR</color>角色的概率将恢复到<color=#FFB800>2%</color>。最多<color=#FFB800>83</color>次招募必定能通过保底获得<color=#FFE266>SSR</color>角色。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>9</color>次获得<color=#71CEFD>R</color>角色，则第<color=#FFB800>10</color>次必定获得<color=#E4B7FF>SR</color>角色或<color=#FFE266>SSR</color>角色。当前招募连续获得<color=#71CEFD>R</color>角色的招募次数不会继承至其他招募。\\n\\n\r<size=30><b>UP说明：</b></size>\\n\r当招募获得<color=#FFE266>SSR</color>角色时，有<color=#FFB800>50%</color>的概率为本期<color=#FFE266>SSR</color>概率提升角色<color=#FFB800>【达斯廷】</color>。若本次招募获得的<color=#FFE266>SSR</color>角色非本期<color=#FFE266>SSR</color>概率提升角色，则下次招募获得的<color=#FFE266>SSR</color>角色必定为本期<color=#FFE266>SSR</color>概率提升角色。\\n\\n\r<size=30><b>特殊说明：</b></size>\\n\r列车长每次招募时，将获得<color=#FFB800>1</color>个【履历情报】。\\n\r列车长在招募中获得已有角色时，每次将转化为<color=#FFB800>1</color>个该角色的【履历补充】，角色的【履历补充】可用于角色觉醒。列车长获得任一角色的【履历补充】累计达到<color=#FFB800>5</color>个后，之后获得的该角色的【履历补充】将按以下比例自动回收为【履历情报】：\\n\r<color=#FFB800>1</color>个<color=#71CEFD>R</color>角色的【履历补充】将被回收为<color=#FFB800>1</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#E4B7FF>SR</color>角色的【履历补充】将被回收为<color=#FFB800>3</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#FFE266>SSR</color>角色的【履历补充】将被回收为<color=#FFB800>10</color>个【履历情报】\\n\r列车长可使用【履历情报】在每个城市休息区中的黑月商店兑换道具。",
+    "tryList": [
+      {
+        "levelId": 20100804,
+        "x": -280.0,
+        "y": -444.5
+      }
+    ]
+  },
+  {
+    "id": 80500192,
+    "idCN": "卡池/05活动招募/闹鬼-索玛up卡池",
+    "mod": "抽角色配置",
+    "isInformalData": false,
+    "commodityId": 40200012,
+    "startTime": "2024-11-07 12:00:00",
+    "endTime": "2024-11-07 12:00:00",
+    "type": "Pay",
+    "isNewbie": false,
+    "costList": [
+      {
+        "count": 1,
+        "id": 11400007,
+        "num": 1
+      }
+    ],
+    "costTenList": [
+      {
+        "count": 10,
+        "id": 11400007,
+        "num": 10
+      }
+    ],
+    "freeCD": 0,
+    "closeNum": -1,
+    "firstReward": [],
+    "secondReward": [],
+    "newNormalList": [
+      {
+        "id": 80300016,
+        "weight": 88000,
+        "weightVAR": -2694
+      },
+      {
+        "id": 80300017,
+        "weight": 10000,
+        "weightVAR": -306
+      },
+      {
+        "id": 80302561,
+        "weight": 2000,
+        "weightVAR": 3000
+      }
+    ],
+    "tenList": [
+      {
+        "id": 10000055,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "id": 10000068,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "id": 10000335,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "id": 10000063,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "id": 10000071,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "id": 10000153,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "id": 10000389,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "id": 10000300,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "id": 10000064,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "id": 10000047,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "id": 10000052,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "id": 10000110,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "id": 10000387,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "id": 10000112,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "id": 10000053,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "id": 10000101,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "id": 10000124,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "id": 10000270,
+        "num": 1,
+        "weight": 1
+      }
+    ],
+    "extraRewardsList": [
+      {
+        "id": 11400017,
+        "num": 1
+      }
+    ],
+    "tenSSRMax": 10,
+    "protectTag": 12600748,
+    "protectCount": 50,
+    "upList": [
+      {
+        "id": 10000094
+      }
+    ],
+    "name": "纯真荆棘-索玛",
+    "isRedPoint": true,
+    "sort": 10,
+    "questId": 81000711,
+    "imageBg": "UI/Dialog/Back/traffic_light",
+    "spineBg": "RoleU3D/LH_Sommer_sp/LH_Sommer_sp",
+    "spineX": 0.0,
+    "spineY": 0.0,
+    "tabName": "活动招募",
+    "tabPath": "UI/Gacha/BG/Sommer_tab",
+    "animName": "anim4",
+    "imageList": [
+      {
+        "image": "",
+        "scale": 1.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "image": "RolePlus/Sommer/Full",
+        "scale": 0.8,
+        "x": 457.0,
+        "y": -229.0
+      },
+      {
+        "image": "UI/Gacha/BG/Sommer_title",
+        "scale": 0.9,
+        "x": -216.0,
+        "y": 0.0
+      }
+    ],
+    "titlePath": "UI/Gacha/gacha_bottom_up",
+    "titleX": -244.0,
+    "titleY": -331.0,
+    "titleName": "",
+    "btnList": [
+      {
+        "id": 10000094,
+        "x": 571.0,
+        "y": -119.0
+      }
+    ],
+    "details": "<size=30><b>详情说明：</b></size>\\n\r列车长可在<color=#FFB800>【纯真荆棘-索玛】</color>中使用【拉普拉斯协议】招募以下角色\\n\r<color=#FFE266>SSR</color>  <color=#FFB800>2%</color>\\n\r索玛（UP）/夏洛蒂/那由他/卡洛琳/约书亚/柯娜/卡塔斯/伊洛娜/星花/苏恩/闻笙/马吉拉/薇尔岚/苔妮/伊索斯/亚莉奈/妮蔻拉/多萝西/达斯廷/夏尔\\n\r<color=#E4B7FF>SR</color>   <color=#FFB800>10%</color>\\n\r莉薇娅/黛丝莉/叶珏/魇/苍叶/宵月/冯·里奈/菲妮娅/塞西尔/瓦伦汀/奈弥/霖/阿知波/甘雅/伊尔/卡莱雅/晃/海因里希\\n\r<color=#71CEFD>R</color>     <color=#FFB800>88%</color>\\n\r阿尔喀娜/艾略特/弗兰/伽罗尔/静流/卡莲/雷火/瑞秋/山岚/狮鬃/塔拉/跳鼠/朱利安/\\n\\n\r<size=30><b>保底说明：</b></size>\\n\r在任意<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，未获得<color=#FFE266>SSR</color>角色的累计招募次数会一直累计于<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，招募次数保底互通。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>50</color>次没有获得<color=#FFE266>SSR</color>角色，则之后每次招募获得<color=#FFE266>SSR</color>角色的概率将提升<color=#FFB800>3%</color>，直至获得<color=#FFE266>SSR</color>角色，之后获得<color=#FFE266>SSR</color>角色的概率将恢复到<color=#FFB800>2%</color>。最多<color=#FFB800>83</color>次招募必定能通过保底获得<color=#FFE266>SSR</color>角色。\\n\r在<color=#FFB800>【常驻招募】</color>、<color=#FFB800>【专列招募】</color>与<color=#FFB800>【定向招募】</color>中，如果连续<color=#FFB800>9</color>次获得<color=#71CEFD>R</color>角色，则第<color=#FFB800>10</color>次必定获得<color=#E4B7FF>SR</color>角色或<color=#FFE266>SSR</color>角色。当前招募连续获得<color=#71CEFD>R</color>角色的招募次数不会继承至其他招募。\\n\\n\r<size=30><b>UP说明：</b></size>\\n\r当招募获得<color=#FFE266>SSR</color>角色时，有<color=#FFB800>50%</color>的概率为本期<color=#FFE266>SSR</color>概率提升角色<color=#FFB800>【索玛】</color>。若本次招募获得的<color=#FFE266>SSR</color>角色非本期<color=#FFE266>SSR</color>概率提升角色，则下次招募获得的<color=#FFE266>SSR</color>角色必定为本期<color=#FFE266>SSR</color>概率提升角色。\\n\\n\r<size=30><b>特殊说明：</b></size>\\n\r列车长每次招募时，将获得<color=#FFB800>1</color>个【履历情报】。\\n\r列车长在招募中获得已有角色时，每次将转化为<color=#FFB800>1</color>个该角色的【履历补充】，角色的【履历补充】可用于角色觉醒。列车长获得任一角色的【履历补充】累计达到<color=#FFB800>5</color>个后，之后获得的该角色的【履历补充】将按以下比例自动回收为【履历情报】：\\n\r<color=#FFB800>1</color>个<color=#71CEFD>R</color>角色的【履历补充】将被回收为<color=#FFB800>1</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#E4B7FF>SR</color>角色的【履历补充】将被回收为<color=#FFB800>3</color>个【履历情报】\\n\r<color=#FFB800>1</color>个<color=#FFE266>SSR</color>角色的【履历补充】将被回收为<color=#FFB800>10</color>个【履历情报】\\n\r列车长可使用【履历情报】在每个城市休息区中的黑月商店兑换道具。",
+    "tryList": [
+      {
+        "levelId": 20100805,
         "x": -280.0,
         "y": -444.5
       }

@@ -11917,7 +11917,7 @@
         "rangeSN": 240000
       },
       {
-        "actionId": 10102553,
+        "actionId": 10102552,
         "activeFrame": 608,
         "activeTime": 1.0,
         "rangeSN": 240000
@@ -11932,13 +11932,13 @@
     "isUseEnergy": true,
     "energySkillList": [
       {
-        "actionId": 10102552,
-        "isClearEnergy": true,
-        "rangeSN": -10000
+        "actionId": 10103540,
+        "isClearEnergy": false,
+        "rangeSN": 240000
       }
     ],
-    "energyRestorePerFrameSN": 560,
-    "isSkillDelay": true,
+    "energyRestorePerFrameSN": 220,
+    "isSkillDelay": false,
     "minDelay": 120,
     "maxDelay": 360
   },
@@ -20093,23 +20093,23 @@
     "effectOffsetY": 0.0,
     "actionList": [
       {
-        "actionID": 10102300
+        "actionID": 10103508
       },
       {
-        "actionID": 10102348
+        "actionID": 10103509
       }
     ],
     "normalAttackCritID": -1,
     "skillList": [
       {
-        "actionId": 10102352,
-        "activeFrame": 320,
+        "actionId": 10103506,
+        "activeFrame": 420,
         "activeTime": 1.0,
-        "rangeSN": 90000
+        "rangeSN": 240000
       },
       {
-        "actionId": 10102507,
-        "activeFrame": 816,
+        "actionId": 10103507,
+        "activeFrame": 740,
         "activeTime": 1.0,
         "rangeSN": 240000
       }
@@ -20117,10 +20117,10 @@
     "isInvisibleBeforeShowUp": true,
     "showupSkillList": [
       {
-        "actionId": 10101946
+        "actionId": 10103504
       }
     ],
-    "skillLoopDelayFrame": 178,
+    "skillLoopDelayFrame": 194,
     "shapeShiftList": [],
     "commandList": [],
     "enemySkillList": [],
@@ -20151,12 +20151,24 @@
     "skillList": [
       {
         "actionId": 10103517,
-        "activeFrame": 480,
-        "activeTime": 8.0,
+        "activeFrame": 240,
+        "activeTime": 4.0,
         "rangeSN": 240000
       },
       {
         "actionId": 10103518,
+        "activeFrame": 720,
+        "activeTime": 12.0,
+        "rangeSN": 240000
+      },
+      {
+        "actionId": 10103517,
+        "activeFrame": 960,
+        "activeTime": 16.0,
+        "rangeSN": 240000
+      },
+      {
+        "actionId": 10103517,
         "activeFrame": 1200,
         "activeTime": 20.0,
         "rangeSN": 240000
@@ -20164,7 +20176,7 @@
     ],
     "isInvisibleBeforeShowUp": false,
     "showupSkillList": [],
-    "skillLoopDelayFrame": 480,
+    "skillLoopDelayFrame": 240,
     "shapeShiftList": [],
     "commandList": [],
     "enemySkillList": [],
@@ -20351,6 +20363,37 @@
       }
     ],
     "skillLoopDelayFrame": 390,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300493,
+    "idCN": "我方/05五星/佩罗塔",
+    "mod": "卡牌AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": -1,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10103534
+      },
+      {
+        "actionID": 10103537
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [],
+    "skillLoopDelayFrame": 1,
     "shapeShiftList": [],
     "commandList": [],
     "enemySkillList": [],

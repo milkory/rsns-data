@@ -7780,6 +7780,7 @@
     "isInformalData": false,
     "bulletViewId": 11300008,
     "speedX_SN": 240000,
+    "xSpeedOffSet_SN": 0,
     "disappearEffectList": [],
     "appearEffectList": [],
     "effectID": -1,
@@ -7789,6 +7790,8 @@
     "ySpeedOffSet_SN": 0,
     "isAddSpeedZ": false,
     "durationMin": 1,
+    "isCustomRadius": false,
+    "customRadiusTag": "",
     "damageRadius_SN": 20000,
     "isFixedPosition": false,
     "xOffSetStart_SN": 0,
@@ -7799,7 +7802,10 @@
     "zOffSet_SN": 0,
     "groundEffectList": [
       {
-        "effectId": 11101360
+        "effectId": 11101358
+      },
+      {
+        "effectId": 11101357
       }
     ],
     "isGroundEffectUseHitTimes": false,
@@ -15219,5 +15225,67 @@
     "reentrantCount": 0,
     "rangeSpeedY_SN": 0,
     "rangeShakeFrame": 0
+  },
+  {
+    "id": 11200562,
+    "idCN": "我方/05星/佩罗塔/普攻",
+    "mod": "追踪",
+    "isInformalData": false,
+    "bulletViewId": 11300338,
+    "speedX_SN": 5500,
+    "xSpeedOffSet_SN": 0,
+    "disappearEffectList": [],
+    "appearEffectList": [],
+    "effectID": -1,
+    "hitSoundId": -1,
+    "scaleTag": ""
+  },
+  {
+    "id": 11200563,
+    "idCN": "敌方/02桦树/BOSS/反曲桦树生物/技能3",
+    "mod": "抛物线",
+    "isInformalData": false,
+    "bulletViewId": 11300008,
+    "speedX_SN": 3000,
+    "xSpeedOffSet_SN": 0,
+    "disappearEffectList": [],
+    "appearEffectList": [],
+    "effectID": 11106712,
+    "hitSoundId": -1,
+    "scaleTag": "",
+    "ySpeedStart_SN": -1000,
+    "ySpeedOffSet_SN": 0,
+    "isAddSpeedZ": false,
+    "durationMin": 1,
+    "isCustomRadius": false,
+    "customRadiusTag": "",
+    "damageRadius_SN": 20000,
+    "isFixedPosition": false,
+    "xOffSetStart_SN": 0,
+    "xOffSet_SN": 0,
+    "yOffSetStart_SN": 0,
+    "yOffSet_SN": 0,
+    "zOffSetStart_SN": 0,
+    "zOffSet_SN": 0,
+    "groundEffectList": [
+      {
+        "effectId": 11106713
+      },
+      {
+        "effectId": 11106714
+      },
+      {
+        "effectId": 11104274
+      }
+    ],
+    "isGroundEffectUseHitTimes": false,
+    "groundSoundId": -1,
+    "isGroundSoundUseHitTimes": false,
+    "envBuffId": 10401936,
+    "hitTimes": 1,
+    "hitTimesCustomTag": "",
+    "intervalFrame": 0,
+    "isDoBuffOnly": false,
+    "isHitTargetOnly": false
   }
 ]
