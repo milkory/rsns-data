@@ -148375,14 +148375,10 @@
     "isCharge": false,
     "isSkill": true,
     "actionLevel": "NormalSkill",
-    "isUseTargetFilter": true,
+    "isUseTargetFilter": false,
     "isIgnoreInvisibleEnemy": true,
     "targetType": "Enemy",
-    "targetTagList": [
-      {
-        "tagId": 12600246
-      }
-    ],
+    "targetTagList": [],
     "tagType": "And",
     "halfWidth_SN": 0,
     "attributeType": "HpMax",
@@ -148397,8 +148393,8 @@
     "filterPosition": "DefaultPos",
     "isAimSelf": false,
     "targetCount": 0,
-    "distance_SN": 0,
-    "radius_SN": 0,
+    "distance_SN": 240000,
+    "radius_SN": 20000,
     "isCustomRadius": false,
     "radiusTag": "",
     "damageHitBuffList": [],
@@ -149018,6 +149014,72 @@
         "bPlayTimes": false,
         "customDataTag": "",
         "stateId": 10204004,
+        "timesRate_SN": 10000,
+        "timesSource": "FixedValue"
+      }
+    ],
+    "backShakeFrame": -1
+  },
+  {
+    "id": 10103542,
+    "idCN": "敌方/02桦树/BOSS/逆纹桦树生物/技能3",
+    "mod": "基础动作",
+    "isInformalData": false,
+    "isCharge": false,
+    "isSkill": true,
+    "actionLevel": "SpecialSkill",
+    "isUseTargetFilter": true,
+    "isIgnoreInvisibleEnemy": true,
+    "targetType": "Enemy",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 990000,
+    "attributeType": "HpMax",
+    "condition": "All",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": true,
+    "targetCount": 99,
+    "distance_SN": 470000,
+    "radius_SN": 0,
+    "isCustomRadius": false,
+    "radiusTag": "",
+    "damageHitBuffList": [],
+    "healHitBuffList": [],
+    "cdFrame": 250,
+    "isUseBigNumber": false,
+    "stateIdList": [
+      {
+        "bPlayTimes": false,
+        "customDataTag": "",
+        "stateId": 10204005,
+        "timesRate_SN": 10000,
+        "timesSource": "FixedValue"
+      },
+      {
+        "bPlayTimes": true,
+        "customDataTag": "",
+        "stateId": 10204006,
+        "timesRate_SN": 50000,
+        "timesSource": "FixedValue"
+      },
+      {
+        "bPlayTimes": false,
+        "customDataTag": "",
+        "stateId": 10204008,
+        "timesRate_SN": 10000,
+        "timesSource": "FixedValue"
+      },
+      {
+        "bPlayTimes": false,
+        "customDataTag": "",
+        "stateId": 10204007,
         "timesRate_SN": 10000,
         "timesSource": "FixedValue"
       }
