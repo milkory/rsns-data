@@ -132495,6 +132495,8 @@
     "paragraphId": -1,
     "levelBuffList": [],
     "mvpType": "TotalDamage",
+    "isAutoDifficulty": false,
+    "autoDifficultyMax": 10,
     "minRoleNum": 5,
     "characterExp": 200,
     "playerExp": 20,
@@ -193724,7 +193726,7 @@
     "bgResUrl": "",
     "insZoneBGMId": -1,
     "bossId": 10000119,
-    "description": "光啊！光啊！光啊！我苦苦哀求……\\n<color=#6a1c16>深眠者·沉溺等级大于100级时免疫控制效果\\n此关卡挑战成功后难度将递增\\n勾选</color><color=#9726B6>【锁定难度】</color><color=#6a1c16>后，关卡难度将锁定为最后挑战成功的难度</color>",
+    "description": "光啊！光啊！光啊！我苦苦哀求……\\n<color=#6a1c16>深眠者·沉溺等级大于100级时免疫控制效果\\n此关卡挑战成功后难度将递增\\n点击上方</color><color=#9726B6>【锁定难度】</color><color=#6a1c16>后，关卡难度将锁定为最后挑战成功的难度</color>",
     "levelName": "无底深渊",
     "levelChapter": "",
     "playerLevel": 1,
@@ -196904,6 +196906,7 @@
     "levelBuffList": [],
     "mvpType": "TotalDamage",
     "isAutoDifficulty": false,
+    "autoDifficultyMax": 10,
     "minRoleNum": 5,
     "characterExp": 0,
     "playerExp": 0,
@@ -196961,7 +196964,12 @@
         "num": 30
       }
     ],
-    "timeReward": [],
+    "timeReward": [
+      {
+        "id": 80302150,
+        "time": 240
+      }
+    ],
     "addStability": 0,
     "playgroundId": -1,
     "homeChrId": -1,

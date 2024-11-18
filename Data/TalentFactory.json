@@ -9312,12 +9312,18 @@
     "path": "RolePlus\\00Gift\\Square\\QiangCiDingWei",
     "attriDetialList": [],
     "attributeList": [],
-    "tempdesc": "",
-    "desc": "",
+    "tempdesc": "【磁力饵】增强为：\\n使下1张带有【引雷】词条的红卡造成的伤害提高100%\\n使用该红卡后，立刻从牌库或弃牌区将3张带有【引雷】词条的红卡加入手牌",
+    "desc": "【磁力饵】增强为：\\n使下1张带有<color=#FFB800>【引雷】</color>词条的红卡造成的伤害提高100%\\n使用该红卡后，立刻从牌库或弃牌区将3张带有<color=#FFB800>【引雷】</color>词条的红卡加入手牌",
     "awakeLv": 3,
     "skillList": [],
     "skillChangeList": [],
-    "skillParamOffsetList": [],
+    "skillParamOffsetList": [
+      {
+        "skillId": 12302008,
+        "tag": "C",
+        "value_SN": 10000
+      }
+    ],
     "name": "强磁定位"
   },
   {
@@ -9328,12 +9334,33 @@
     "path": "RolePlus\\00Gift\\Square\\GanYingShouZe",
     "attriDetialList": [],
     "attributeList": [],
-    "tempdesc": "",
-    "desc": "",
+    "tempdesc": "【磁力阱】和【蓄电磁场】的持续时间延长2秒",
+    "desc": "【磁力阱】和【蓄电磁场】的持续时间延长2秒",
     "awakeLv": 5,
     "skillList": [],
     "skillChangeList": [],
-    "skillParamOffsetList": [],
+    "skillParamOffsetList": [
+      {
+        "skillId": 12302005,
+        "tag": "A",
+        "value_SN": 20000
+      },
+      {
+        "skillId": 12302005,
+        "tag": "T",
+        "value_SN": 1200000
+      },
+      {
+        "skillId": 12302038,
+        "tag": "B",
+        "value_SN": 20000
+      },
+      {
+        "skillId": 12302038,
+        "tag": "T",
+        "value_SN": 1200000
+      }
+    ],
     "name": "感应守则"
   },
   {
@@ -9344,10 +9371,14 @@
     "path": "RolePlus\\00Gift\\Golden\\ShiWanFuTe",
     "attriDetialList": [],
     "attributeList": [],
-    "tempdesc": "",
-    "desc": "",
+    "tempdesc": "每积累十万【伏特值】，生成1张【十万伏特】加入手牌",
+    "desc": "每积累十万【伏特值】，生成1张【十万伏特】加入手牌",
     "awakeLv": 6,
-    "skillList": [],
+    "skillList": [
+      {
+        "skillId": 12302053
+      }
+    ],
     "skillChangeList": [],
     "skillParamOffsetList": [],
     "name": "十万伏特"
@@ -9360,10 +9391,14 @@
     "path": "RolePlus\\00Gift\\Square\\CiLiDun",
     "attriDetialList": [],
     "attributeList": [],
-    "tempdesc": "",
-    "desc": "",
+    "tempdesc": "【磁力阱】消失后，使1名生命值最低的我方获得【磁力盾】，持续10秒，【磁力盾】的耐久为自身防御力的2000%\\n【磁力盾】存在时，受到的电磁伤害降低50%",
+    "desc": "【磁力阱】消失后，使1名生命值最低的我方获得【磁力盾】，持续10秒，【磁力盾】的耐久为自身防御力的2000%\\n【磁力盾】存在时，受到的电磁伤害降低50%",
     "awakeLv": 2,
-    "skillList": [],
+    "skillList": [
+      {
+        "skillId": 12302052
+      }
+    ],
     "skillChangeList": [],
     "skillParamOffsetList": [],
     "name": "磁力盾"
