@@ -545,7 +545,8 @@
       {
         "id": 11400041
       }
-    ]
+    ],
+    "wcoinConverRatio": 10
   },
   {
     "id": 99900002,
@@ -9654,10 +9655,6 @@
         "value": "<color=#7AB2FF>冻结驱散</color>"
       },
       {
-        "key": "冻伤",
-        "value": "<color=#7AB2FF>冻伤</color>"
-      },
-      {
         "key": "封冻",
         "value": "<color=#7AB2FF>封冻</color>"
       },
@@ -10404,6 +10401,10 @@
       {
         "key": "”*",
         "value": "”</i></color>"
+      },
+      {
+        "key": "磁力屏障",
+        "value": "磁力屏障"
       }
     ]
   },
@@ -19372,6 +19373,169 @@
     ]
   },
   {
+    "id": 99900045,
+    "idCN": "大世界/列车切换相机-瓦沙克",
+    "mod": "列车相机",
+    "isInformalData": false,
+    "nameEN": "TrainCameraConfig",
+    "trainCameraList": [
+      {
+        "fieldView": 56.0,
+        "isCanMove": true,
+        "isRushView": true,
+        "mainPosY": 3.0,
+        "mainPosZ": -19.5,
+        "name": "默认车头正前方",
+        "nodePath": "",
+        "posX": 0.0,
+        "posY": 2.2,
+        "posZ": 2.5,
+        "rotX": -1.75,
+        "rotY": 180.0
+      },
+      {
+        "isCanMove": false,
+        "isRushView": true,
+        "mainPosY": 2.7,
+        "mainPosZ": -22.5,
+        "name": "驾驶舱",
+        "nodePath": "M_Map_window_drive",
+        "posX": 0.0,
+        "posY": 0.8,
+        "posZ": -11.0,
+        "rotX": -3.0,
+        "rotY": 180.0
+      },
+      {
+        "isCanMove": false,
+        "isRushView": false,
+        "mainPosY": 2.7,
+        "mainPosZ": -22.5,
+        "name": "左侧车窗",
+        "nodePath": "M_Map_window_side",
+        "posX": 7.5,
+        "posY": 0.5,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 90.0
+      },
+      {
+        "isCanMove": false,
+        "isRushView": false,
+        "mainPosY": 2.7,
+        "mainPosZ": -22.5,
+        "name": "右侧车窗",
+        "nodePath": "M_Map_window_side",
+        "posX": -7.5,
+        "posY": 0.5,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": -90.0
+      },
+      {
+        "fieldView": 56.0,
+        "isCanMove": true,
+        "isRushView": true,
+        "mainPosY": 3.0,
+        "mainPosZ": -19.5,
+        "name": "默认车头正前方",
+        "nodePath": "",
+        "posX": 0.0,
+        "posY": 2.2,
+        "posZ": 2.5,
+        "rotX": -1.75,
+        "rotY": 180.0
+      },
+      {
+        "mainPosY": 2.7,
+        "mainPosZ": -22.5,
+        "name": "第一人称",
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": -12.0,
+        "rotX": 0.0,
+        "rotY": 180.0
+      },
+      {
+        "mainPosY": 2.7,
+        "mainPosZ": -22.5,
+        "name": "右斜侧车头方向",
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 150.0
+      },
+      {
+        "isCanMove": true,
+        "isRushView": true,
+        "mainPosY": 2.7,
+        "mainPosZ": -22.5,
+        "name": "右正侧",
+        "nodePath": "",
+        "posX": 0.0,
+        "posY": 0.8,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 90.0
+      },
+      {
+        "mainPosY": 3.42,
+        "mainPosZ": -20.5,
+        "name": "右斜侧车尾方向",
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": -4.0,
+        "rotY": 25.0
+      },
+      {
+        "mainPosY": 1.8,
+        "mainPosZ": -25.0,
+        "name": "正对车头",
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 14.0,
+        "rotY": 0.0
+      },
+      {
+        "mainPosY": 3.42,
+        "mainPosZ": -20.5,
+        "name": "左斜侧车尾方向",
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": -4.0,
+        "rotY": -25.0
+      },
+      {
+        "isCanMove": true,
+        "isRushView": true,
+        "mainPosY": 2.7,
+        "mainPosZ": -22.5,
+        "name": "左正侧",
+        "nodePath": "",
+        "posX": 0.0,
+        "posY": 0.8,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": -90.0
+      },
+      {
+        "mainPosY": 2.7,
+        "mainPosZ": -22.5,
+        "name": "左斜侧车头方向",
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": -150.0
+      }
+    ],
+    "lookSpeed": 1.5
+  },
+  {
     "id": 99900053,
     "idCN": "交易所/行情反转概率表2",
     "mod": "行情反转概率表",
@@ -22443,6 +22607,17 @@
       },
       {
         "endTime": "",
+        "id": 86000001,
+        "isCompleteBottom": false,
+        "name": 80602404,
+        "png": "UI/Activity/Tab/tab_black",
+        "showUI": "",
+        "sort": 7,
+        "startTime": "2024-05-23 05:00:00",
+        "tag": 12601071
+      },
+      {
+        "endTime": "",
         "id": 86000005,
         "isCompleteBottom": false,
         "name": 80607258,
@@ -25238,8 +25413,8 @@
     ],
     "cocItemAddQuestNum": 1,
     "shareLv": 30,
-    "closingTimeStart": "3:59:59",
-    "closingTimeEnd": "5:00:01",
+    "closingTimeStart": "03:59:00",
+    "closingTimeEnd": "04:59:00",
     "shareTime": 3600,
     "cancelCD": 180,
     "cancelNumW": 20,
@@ -25247,166 +25422,39 @@
     "timeoutNumW": 10
   },
   {
-    "id": 99900045,
-    "idCN": "大世界/列车切换相机-瓦沙克",
-    "mod": "列车相机",
+    "id": 99900105,
+    "idCN": "卡池/卡池配置",
+    "mod": "卡池配置",
     "isInformalData": false,
-    "nameEN": "TrainCameraConfig",
-    "trainCameraList": [
+    "nameEN": "BannerConfig",
+    "bannerList": [
       {
-        "fieldView": 56.0,
-        "isCanMove": true,
-        "isRushView": true,
-        "mainPosY": 2.7,
-        "mainPosZ": -22.5,
-        "name": "默认车头正前方",
-        "nodePath": "",
-        "posX": 0.0,
-        "posY": 1.75,
-        "posZ": -1.5,
-        "rotX": -1.75,
-        "rotY": 180.0
+        "id": 80500190
       },
       {
-        "isCanMove": false,
-        "isRushView": true,
-        "mainPosY": 2.7,
-        "mainPosZ": -22.5,
-        "name": "驾驶舱",
-        "nodePath": "M_Map_window_drive",
-        "posX": 0.0,
-        "posY": 0.8,
-        "posZ": -11.0,
-        "rotX": -3.0,
-        "rotY": 180.0
+        "id": 80500191
       },
       {
-        "isCanMove": false,
-        "isRushView": false,
-        "mainPosY": 2.7,
-        "mainPosZ": -22.5,
-        "name": "左侧车窗",
-        "nodePath": "M_Map_window_side",
-        "posX": 7.5,
-        "posY": 0.5,
-        "posZ": 0.0,
-        "rotX": 0.0,
-        "rotY": 90.0
+        "id": 80500191
       },
       {
-        "isCanMove": false,
-        "isRushView": false,
-        "mainPosY": 2.7,
-        "mainPosZ": -22.5,
-        "name": "右侧车窗",
-        "nodePath": "M_Map_window_side",
-        "posX": -7.5,
-        "posY": 0.5,
-        "posZ": 0.0,
-        "rotX": 0.0,
-        "rotY": -90.0
+        "id": 80500028
       },
       {
-        "fieldView": 56.0,
-        "isCanMove": true,
-        "isRushView": true,
-        "mainPosY": 2.7,
-        "mainPosZ": -22.5,
-        "name": "默认车头正前方",
-        "nodePath": "",
-        "posX": 0.0,
-        "posY": 1.75,
-        "posZ": -0.5,
-        "rotX": -1.75,
-        "rotY": 180.0
+        "id": 80500033
       },
       {
-        "mainPosY": 2.7,
-        "mainPosZ": -22.5,
-        "name": "第一人称",
-        "posX": 0.0,
-        "posY": 0.0,
-        "posZ": -12.0,
-        "rotX": 0.0,
-        "rotY": 180.0
+        "id": 80500010
       },
       {
-        "mainPosY": 2.7,
-        "mainPosZ": -22.5,
-        "name": "右斜侧车头方向",
-        "posX": 0.0,
-        "posY": 0.0,
-        "posZ": 0.0,
-        "rotX": 0.0,
-        "rotY": 150.0
+        "id": 80500008
       },
       {
-        "isCanMove": true,
-        "isRushView": true,
-        "mainPosY": 2.7,
-        "mainPosZ": -22.5,
-        "name": "右正侧",
-        "nodePath": "",
-        "posX": 0.0,
-        "posY": 0.8,
-        "posZ": 0.0,
-        "rotX": 0.0,
-        "rotY": 90.0
+        "id": 80500021
       },
       {
-        "mainPosY": 3.42,
-        "mainPosZ": -20.5,
-        "name": "右斜侧车尾方向",
-        "posX": 0.0,
-        "posY": 0.0,
-        "posZ": 0.0,
-        "rotX": -4.0,
-        "rotY": 25.0
-      },
-      {
-        "mainPosY": 1.8,
-        "mainPosZ": -25.0,
-        "name": "正对车头",
-        "posX": 0.0,
-        "posY": 0.0,
-        "posZ": 0.0,
-        "rotX": 14.0,
-        "rotY": 0.0
-      },
-      {
-        "mainPosY": 3.42,
-        "mainPosZ": -20.5,
-        "name": "左斜侧车尾方向",
-        "posX": 0.0,
-        "posY": 0.0,
-        "posZ": 0.0,
-        "rotX": -4.0,
-        "rotY": -25.0
-      },
-      {
-        "isCanMove": true,
-        "isRushView": true,
-        "mainPosY": 2.7,
-        "mainPosZ": -22.5,
-        "name": "左正侧",
-        "nodePath": "",
-        "posX": 0.0,
-        "posY": 0.8,
-        "posZ": 0.0,
-        "rotX": 0.0,
-        "rotY": -90.0
-      },
-      {
-        "mainPosY": 2.7,
-        "mainPosZ": -22.5,
-        "name": "左斜侧车头方向",
-        "posX": 0.0,
-        "posY": 0.0,
-        "posZ": 0.0,
-        "rotX": 0.0,
-        "rotY": -150.0
+        "id": 80500009
       }
-    ],
-    "lookSpeed": 1.5
+    ]
   }
 ]

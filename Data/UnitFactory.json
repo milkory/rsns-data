@@ -51865,17 +51865,17 @@
   },
   {
     "id": 10000264,
-    "idCN": "敌方/99化物/宝箱小狗",
+    "idCN": "敌方/99化物/泥嚎箱-前金",
     "mod": "敌方角色",
     "isInformalData": false,
-    "name": "鲵嚎箱",
+    "name": "泥嚎箱",
     "EnglishName": "",
     "viewId": 11000310,
     "skinList": [],
     "sideId": 12601077,
-    "controllerId": 10300332,
+    "controllerId": 10300494,
     "bulletControllerList": [],
-    "isBoss": true,
+    "isBoss": false,
     "bossHpTemp": -1,
     "isDeadNotDisappear": false,
     "isFly": false,
@@ -51894,7 +51894,26 @@
         "tagId": 12601441
       }
     ],
-    "passiveSkillList": [],
+    "passiveSkillList": [
+      {
+        "skillId": 12301370
+      },
+      {
+        "skillId": 12301411
+      },
+      {
+        "skillId": 12300936
+      },
+      {
+        "skillId": 12301518
+      },
+      {
+        "skillId": 12301433
+      },
+      {
+        "skillId": 12300201
+      }
+    ],
     "hp_SN": 80000000,
     "def_SN": 550000,
     "atk_SN": 500000,
@@ -51975,22 +51994,11 @@
     "safeInformation": "",
     "unitInformation": "",
     "enemyDrop": [],
-    "abilityList": [
-      {
-        "id": 12600929
-      },
-      {
-        "id": 12600943
-      }
-    ],
-    "weaknessList": [
-      {
-        "id": 12600988
-      }
-    ],
+    "abilityList": [],
+    "weaknessList": [],
     "resistanceList": [],
     "enemyType": 12601047,
-    "enemyCamp": 12601045,
+    "enemyCamp": 12601098,
     "enemyBookId": 10000264,
     "prisonerDrop": [],
     "enemySkillList": []
@@ -59859,10 +59867,10 @@
   },
   {
     "id": 10000323,
-    "idCN": "桦树生物/BOSS/玫瑰粉钻骨龙-头",
+    "idCN": "桦树生物/BOSS/血影骨龙-头",
     "mod": "敌方角色",
     "isInformalData": false,
-    "name": "凛川骨龙",
+    "name": "血影骨龙",
     "EnglishName": "",
     "viewId": 11000338,
     "skinList": [],
@@ -60001,6 +60009,7 @@
     "hitAreaY_SN": 30000,
     "hitAreaHalfWidth_SN": 40000,
     "hitAreaHalfHeight_SN": 50000,
+    "canOverMaxSpeed": false,
     "battleDes": "",
     "safeInformation": "进行强大冰属性攻击的海龙桦树生物。能造成冻结、枷锁和晕眩等多种负面效果，会不断释放“龙威”，减少所受伤害。召唤出的冰川能同时对多个目标构成威胁。",
     "unitInformation": "名为骨龙，但实际上与“龙”毫无关联的大型桦树生物，外甲呈现出某种幻想生物骨架的形态。可以控制与自身形态类似的幻影，其共鸣腔中传出的咆哮响彻天际。当直面它时，恐怕人人都会理解为何称其为龙——它的吐息与威压，的确同那些虚构故事中的龙无异。\\n能造成【冻结】、【枷锁】和【禁锢】等多种负面效果，会不断释放“龙威”，减少所受伤害。召唤出的冰川能同时对多个目标构成威胁，并以一定概率附加【冻结】；能以强大的攻击造成【护盾击碎】效果。",
@@ -60072,14 +60081,15 @@
     "enemyType": 12601048,
     "enemyCamp": 12601044,
     "enemyBookId": 10000323,
-    "prisonerDrop": []
+    "prisonerDrop": [],
+    "enemySkillList": []
   },
   {
     "id": 10000324,
-    "idCN": "桦树生物/BOSS/玫瑰粉钻骨龙-尾",
+    "idCN": "桦树生物/BOSS/血影骨龙-尾",
     "mod": "敌方角色",
     "isInformalData": false,
-    "name": "凛川骨龙",
+    "name": "血影骨龙",
     "EnglishName": "",
     "viewId": 11000339,
     "skinList": [],
@@ -67139,31 +67149,13 @@
     ],
     "passiveSkillList": [
       {
-        "skillId": 12300372
+        "skillId": 12302062
       },
       {
-        "skillId": 12300373
+        "skillId": 12302061
       },
       {
-        "skillId": 12301369
-      },
-      {
-        "skillId": 12301447
-      },
-      {
-        "skillId": 12301446
-      },
-      {
-        "skillId": 12301443
-      },
-      {
-        "skillId": 12300936
-      },
-      {
-        "skillId": 12301372
-      },
-      {
-        "skillId": 12301142
+        "skillId": 12302060
       },
       {
         "skillId": 12301713
@@ -67250,6 +67242,7 @@
     "hitAreaY_SN": 10000,
     "hitAreaHalfWidth_SN": 15000,
     "hitAreaHalfHeight_SN": 10000,
+    "canOverMaxSpeed": false,
     "battleDes": "",
     "safeInformation": "",
     "unitInformation": "",
@@ -67260,7 +67253,8 @@
     "enemyType": 12601048,
     "enemyCamp": 12601098,
     "enemyBookId": 10000305,
-    "prisonerDrop": []
+    "prisonerDrop": [],
+    "enemySkillList": []
   },
   {
     "id": 10000385,
@@ -86223,10 +86217,10 @@
   },
   {
     "id": 10000525,
-    "idCN": "敌方/99化物/宝箱小狗-中",
+    "idCN": "敌方/99化物/泥嚎箱-中金",
     "mod": "敌方角色",
     "isInformalData": false,
-    "name": "鲵嚎箱",
+    "name": "泥嚎箱",
     "EnglishName": "",
     "viewId": 11000441,
     "skinList": [],
@@ -86251,7 +86245,22 @@
     ],
     "passiveSkillList": [
       {
-        "skillId": 12302004
+        "skillId": 12301370
+      },
+      {
+        "skillId": 12301411
+      },
+      {
+        "skillId": 12300936
+      },
+      {
+        "skillId": 12301518
+      },
+      {
+        "skillId": 12301433
+      },
+      {
+        "skillId": 12300201
       }
     ],
     "hp_SN": 80000000,
@@ -86334,22 +86343,11 @@
     "safeInformation": "",
     "unitInformation": "",
     "enemyDrop": [],
-    "abilityList": [
-      {
-        "id": 12600929
-      },
-      {
-        "id": 12600943
-      }
-    ],
-    "weaknessList": [
-      {
-        "id": 12600988
-      }
-    ],
+    "abilityList": [],
+    "weaknessList": [],
     "resistanceList": [],
     "enemyType": 12601047,
-    "enemyCamp": 12601045,
+    "enemyCamp": 12601098,
     "enemyBookId": 10000525,
     "prisonerDrop": [],
     "enemySkillList": []
@@ -89476,10 +89474,10 @@
   },
   {
     "id": 10000587,
-    "idCN": "敌方/99化物/宝箱小狗-后",
+    "idCN": "敌方/99化物/泥嚎箱-后金",
     "mod": "敌方角色",
     "isInformalData": false,
-    "name": "鲵嚎箱",
+    "name": "泥嚎箱",
     "EnglishName": "",
     "viewId": 11000450,
     "skinList": [],
@@ -89505,7 +89503,26 @@
         "tagId": 12601440
       }
     ],
-    "passiveSkillList": [],
+    "passiveSkillList": [
+      {
+        "skillId": 12301370
+      },
+      {
+        "skillId": 12301411
+      },
+      {
+        "skillId": 12300936
+      },
+      {
+        "skillId": 12301518
+      },
+      {
+        "skillId": 12301433
+      },
+      {
+        "skillId": 12300201
+      }
+    ],
     "hp_SN": 80000000,
     "def_SN": 550000,
     "atk_SN": 500000,
@@ -89586,22 +89603,11 @@
     "safeInformation": "",
     "unitInformation": "",
     "enemyDrop": [],
-    "abilityList": [
-      {
-        "id": 12600929
-      },
-      {
-        "id": 12600943
-      }
-    ],
-    "weaknessList": [
-      {
-        "id": 12600988
-      }
-    ],
+    "abilityList": [],
+    "weaknessList": [],
     "resistanceList": [],
     "enemyType": 12601047,
-    "enemyCamp": 12601045,
+    "enemyCamp": 12601098,
     "enemyBookId": 10000587,
     "prisonerDrop": [],
     "enemySkillList": []
@@ -93172,7 +93178,13 @@
     "isDoctor": false,
     "medicalPoint": 0,
     "WasteCoefficient": 1.0,
-    "FoodList": [],
+    "FoodList": [
+      {
+        "id": 83300014,
+        "letter": "妈妈从前教过我做饭~下次，列车长也教我怎么做好吃的吧！",
+        "weight": 1
+      }
+    ],
     "ProfilePhotoList": [
       {
         "id": 82600615,
@@ -93199,25 +93211,25 @@
       }
     ],
     "age": 0,
-    "gender": "",
-    "birthday": "8月8日",
-    "birthdayMonth": "8",
-    "birthdayDay": "8",
+    "gender": "女",
+    "birthday": "9月5日",
+    "birthdayMonth": "9",
+    "birthdayDay": "5",
     "birthdayCake": -1,
     "birthdayMessage": "",
-    "height": "192cm",
-    "birthplace": "曼杜斯帝国",
-    "ability": "",
-    "identity": "武器锻造师",
+    "height": "1150cm",
+    "birthplace": "未公开",
+    "ability": "“球球力场”",
+    "identity": "“园丁”·特别派遣专员",
     "basic": "",
     "ResumeList": [
       {
-        "des": "\\n埃兹拉从小就为了成为一名优秀的帝国骑士而不断努力，等到了合适的年龄便前往帝国首都的骑士训练营。\r\n\\n因为长年累月不懈锻炼出的身体素质和身为混响者的强大力量，他很快如愿被录取。\r\n\\n然而凡事有利有弊，普通武器不足以承担他狂放的战斗风格，损耗得相当厉害。\r\n\\n为寻求坚固的武器，埃兹拉暂别骑士团的同僚，最终认为求人不如求己，干脆拜师学起了武器锻造的技艺。\r\n\\n他做事心无旁骛，总是一门心思投入其中，因此培养出了对武器锻造的热爱，技术也是突飞猛进。\r\n\\n当埃兹拉见识到来自地表的武器图纸后，深深为这种闻所未闻的技术所打动，决心前往地表寻求全新的突破。"
+        "des": "兹证明我司佩罗塔女士（出生日期■■■■年9月5日，已成年），从事园丁特别派遣专员职务，是我单位在编在岗职工，已连续在我司工作两年时间。自即日起，安排佩罗塔女士于无垠号担任列车乘员一职，本次派遣为期■■天。在其派遣期间，我司保证其遵守各篝火城法律法规及无垠号列车乘员守则，并保证为合同规定范围内的意外损害进行赔偿。具体条款见《就佩罗塔女士特别派遣期间的各项事宜备忘录》合同文件。"
       }
     ],
     "StoryList": [],
     "CvName": "",
-    "getCharacter": "先说好，我干活的时候别来打扰我，懂了吗？",
+    "getCharacter": "我是佩罗塔！但是你愿意的话，也可以叫我球球。我很厉害的，一定能派上用场！……对了，你列车上的电子设备什么的，应该都投了保险吧？",
     "safeInformation": "",
     "unitInformation": ""
   }

@@ -17,17 +17,19 @@
     "isOnly": -1,
     "questId": 81001139,
     "unlockTips": 80600439,
-    "isTime": true,
-    "startTime": "2024-07-30 10:00:00",
-    "endTime": "2024-07-31 10:00:00",
+    "isTriggerTime": true,
+    "putTime": 4,
+    "continueTime": -1,
+    "closeTime": -1,
+    "isTime": false,
+    "startTime": "2024-05-23 05:00:00",
+    "endTime": "",
     "rewardEndTime": "",
     "replicateNum": 3,
-    "isClearCurrency": true,
-    "clearCurrencyList": [
-      {
-        "id": 11400231
-      }
-    ],
+    "isClearCurrency": false,
+    "clearCurrencyList": [],
+    "isClearAllQuest": true,
+    "isClearPersonalQuest": true,
     "allScheduleRefreshTime": 3600,
     "rewardPreviewList": [
       {
@@ -78,6 +80,7 @@
         "id": 40300055
       }
     ],
+    "bannerList": [],
     "joinPlotId": 20700039,
     "joinQuestId": 81000595,
     "sequenceList": [
@@ -152,6 +155,7 @@
         "missionId": 81000592
       }
     ],
+    "buffContinueTime": 14,
     "ServerProgressList": [
       {
         "buff": -1,
@@ -159,6 +163,7 @@
         "buyNum": 0,
         "buyPng": "UI/Activity/BlackTea/Main/icon_buy_not",
         "id": 81000582,
+        "limit": 81000088,
         "revenueIcon": "UI/Activity/BlackTea/Stage/icon_tax0",
         "revenueNum": 0,
         "revenuePng": "UI/Activity/BlackTea/Main/icon_revenue_not"
@@ -169,6 +174,7 @@
         "buyNum": 0,
         "buyPng": "UI/Activity/BlackTea/Main/icon_buy_not",
         "id": 81000583,
+        "limit": 81000089,
         "revenueIcon": "UI/Activity/BlackTea/BuffTips/icon_tax1",
         "revenueNum": 3,
         "revenuePng": "UI/Activity/BlackTea/Main/icon_revenue_1"
@@ -179,6 +185,7 @@
         "buyNum": 30,
         "buyPng": "UI/Activity/BlackTea/Main/icon_buy_1",
         "id": 81000584,
+        "limit": 81000092,
         "revenueIcon": "UI/Activity/BlackTea/BuffTips/icon_tax1",
         "revenueNum": 3,
         "revenuePng": "UI/Activity/BlackTea/Main/icon_revenue_1"
@@ -189,6 +196,7 @@
         "buyNum": 30,
         "buyPng": "UI/Activity/BlackTea/Main/icon_buy_1",
         "id": 81000585,
+        "limit": 81000105,
         "revenueIcon": "UI/Activity/BlackTea/BuffTips/icon_tax2",
         "revenueNum": 5,
         "revenuePng": "UI/Activity/BlackTea/Main/icon_revenue_2"
@@ -199,6 +207,7 @@
         "buyNum": 50,
         "buyPng": "UI/Activity/BlackTea/Main/icon_buy_2",
         "id": 81000586,
+        "limit": 81000106,
         "revenueIcon": "UI/Activity/BlackTea/BuffTips/icon_tax2",
         "revenueNum": 5,
         "revenuePng": "UI/Activity/BlackTea/Main/icon_revenue_2"
@@ -209,6 +218,7 @@
         "buyNum": 50,
         "buyPng": "UI/Activity/BlackTea/Main/icon_buy_2",
         "id": 81001185,
+        "limit": 81000616,
         "revenueIcon": "UI/Activity/BlackTea/BuffTips/icon_tax2",
         "revenueNum": 5,
         "revenuePng": "UI/Activity/BlackTea/Main/icon_revenue_2"
@@ -219,6 +229,7 @@
         "buyNum": 50,
         "buyPng": "UI/Activity/BlackTea/Main/icon_buy_2",
         "id": 81001189,
+        "limit": 81000617,
         "revenueIcon": "UI/Activity/BlackTea/BuffTips/icon_tax2",
         "revenueNum": 5,
         "revenuePng": "UI/Activity/BlackTea/Main/icon_revenue_2"
@@ -229,6 +240,7 @@
         "buyNum": 50,
         "buyPng": "UI/Activity/BlackTea/Main/icon_buy_2",
         "id": 81001190,
+        "limit": 81000618,
         "revenueIcon": "UI/Activity/BlackTea/BuffTips/icon_tax2",
         "revenueNum": 5,
         "revenuePng": "UI/Activity/BlackTea/Main/icon_revenue_2"
@@ -239,6 +251,7 @@
         "buyNum": 50,
         "buyPng": "UI/Activity/BlackTea/Main/icon_buy_2",
         "id": 81001191,
+        "limit": 81000619,
         "revenueIcon": "UI/Activity/BlackTea/BuffTips/icon_tax2",
         "revenueNum": 5,
         "revenuePng": "UI/Activity/BlackTea/Main/icon_revenue_2"
@@ -329,6 +342,10 @@
     "isOnly": -1,
     "questId": 81001199,
     "unlockTips": 80600475,
+    "isTriggerTime": false,
+    "putTime": -1,
+    "continueTime": -1,
+    "closeTime": -1,
     "isTime": false,
     "startTime": "2024-04-25 15:00:00",
     "endTime": "",
@@ -395,54 +412,63 @@
       {
         "construction": 4000000,
         "id": 80301801,
+        "limit": 1,
         "questId": -1,
         "tipsId": -1
       },
       {
         "construction": 10000000,
         "id": 80301812,
+        "limit": 2,
         "questId": -1,
         "tipsId": -1
       },
       {
         "construction": 20000000,
         "id": 80301813,
+        "limit": 3,
         "questId": -1,
         "tipsId": -1
       },
       {
         "construction": 30000000,
         "id": 80301814,
+        "limit": 4,
         "questId": -1,
         "tipsId": -1
       },
       {
         "construction": 40000000,
         "id": 80301815,
+        "limit": 5,
         "questId": -1,
         "tipsId": -1
       },
       {
         "construction": 50000000,
         "id": 80301882,
+        "limit": 6,
         "questId": -1,
         "tipsId": -1
       },
       {
         "construction": 60000000,
         "id": 80301883,
+        "limit": 7,
         "questId": -1,
         "tipsId": -1
       },
       {
         "construction": 70000000,
         "id": 80301884,
+        "limit": 8,
         "questId": -1,
         "tipsId": -1
       },
       {
         "construction": 80000000,
         "id": 80301885,
+        "limit": 9,
         "questId": 81001219,
         "tipsId": -1
       }
@@ -1269,7 +1295,8 @@
         "tvBgPng": "UI/Activity/GoldenWeek/City/eventWeek_zhanbeigongchang",
         "weight": 1
       }
-    ]
+    ],
+    "continueTime": 0
   },
   {
     "id": 86000009,
@@ -1289,6 +1316,10 @@
     "isOnly": -1,
     "questId": 81000037,
     "unlockTips": 80601386,
+    "isTriggerTime": false,
+    "putTime": -1,
+    "continueTime": -1,
+    "closeTime": -1,
     "isTime": true,
     "startTime": "2024-05-31 15:00:00",
     "endTime": "2024-06-30 00:00:00",
@@ -1439,7 +1470,15 @@
         "startTime": "2024-06-03 15:00:00"
       }
     ],
-    "activityCardPack": 86300002
+    "activityCardPack": 86300002,
+    "bannerList": [
+      {
+        "id": 80500192
+      },
+      {
+        "id": 80500191
+      }
+    ]
   },
   {
     "id": 86000012,
@@ -2519,6 +2558,10 @@
     "isOnly": -1,
     "questId": 81000037,
     "unlockTips": 80609165,
+    "isTriggerTime": false,
+    "putTime": -1,
+    "continueTime": 0,
+    "closeTime": -1,
     "isTime": true,
     "startTime": "2024-11-14 05:00:00",
     "endTime": "2024-12-13 00:00:00",
@@ -2666,7 +2709,12 @@
         "startTime": ""
       }
     ],
-    "activityCardPack": 86300006
+    "activityCardPack": 86300006,
+    "bannerList": [
+      {
+        "id": 80500190
+      }
+    ]
   },
   {
     "id": 86000029,
@@ -2686,6 +2734,10 @@
     "isOnly": -1,
     "questId": -1,
     "unlockTips": -1,
+    "isTriggerTime": false,
+    "putTime": -1,
+    "continueTime": -1,
+    "closeTime": -1,
     "isTime": true,
     "startTime": "2024-11-14 05:00:00",
     "endTime": "2024-11-28 04:59:00",
@@ -2696,6 +2748,7 @@
     "allScheduleRefreshTime": 60,
     "rewardPreviewList": [],
     "activityStoreList": [],
+    "bannerList": [],
     "joinPlotId": -1,
     "joinQuestId": -1,
     "signinId": 40100016,

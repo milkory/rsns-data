@@ -13241,7 +13241,7 @@
   },
   {
     "id": 10300332,
-    "idCN": "敌方/99化物/宝箱小狗",
+    "idCN": "敌方/99化物/宝箱小狗-前蓝",
     "mod": "基础AI",
     "isInformalData": false,
     "targetInvisibleEffectId": 11102488,
@@ -13271,7 +13271,11 @@
       }
     ],
     "isInvisibleBeforeShowUp": false,
-    "showupSkillList": [],
+    "showupSkillList": [
+      {
+        "actionId": 10103544
+      }
+    ],
     "skillLoopDelayFrame": 360,
     "shapeShiftList": [],
     "commandList": [],
@@ -15416,7 +15420,7 @@
   },
   {
     "id": 10300391,
-    "idCN": "敌方/02桦树/BOSS/玫瑰粉钻骨龙-头",
+    "idCN": "敌方/02桦树/BOSS/血影骨龙-头",
     "mod": "BOSSAI",
     "isInformalData": false,
     "targetInvisibleEffectId": 11102488,
@@ -15431,32 +15435,7 @@
       }
     ],
     "normalAttackCritID": -1,
-    "skillList": [
-      {
-        "actionId": 10103021,
-        "activeFrame": 180,
-        "activeTime": 1.0,
-        "rangeSN": 240000
-      },
-      {
-        "actionId": 10103020,
-        "activeFrame": 390,
-        "activeTime": 1.0,
-        "rangeSN": 240000
-      },
-      {
-        "actionId": 10103022,
-        "activeFrame": 690,
-        "activeTime": 1.0,
-        "rangeSN": 240000
-      },
-      {
-        "actionId": 10103021,
-        "activeFrame": 1020,
-        "activeTime": 1.0,
-        "rangeSN": 240000
-      }
-    ],
+    "skillList": [],
     "isInvisibleBeforeShowUp": true,
     "showupSkillList": [
       {
@@ -15467,7 +15446,7 @@
     "shapeShiftList": [],
     "commandList": [],
     "enemySkillList": [],
-    "isUseEnergy": true,
+    "isUseEnergy": false,
     "energySkillList": [
       {
         "actionId": 10103023,
@@ -15482,7 +15461,7 @@
   },
   {
     "id": 10300392,
-    "idCN": "敌方/02桦树/BOSS/玫瑰粉钻骨龙-尾",
+    "idCN": "敌方/02桦树/BOSS/血影骨龙-尾",
     "mod": "BOSSAI",
     "isInformalData": false,
     "targetInvisibleEffectId": 11102488,
@@ -19565,7 +19544,7 @@
   },
   {
     "id": 10300476,
-    "idCN": "敌方/99化物/宝箱小狗-中",
+    "idCN": "敌方/99化物/宝箱小狗-中金",
     "mod": "基础AI",
     "isInformalData": false,
     "targetInvisibleEffectId": 11102488,
@@ -19588,7 +19567,7 @@
         "rangeSN": 240000
       }
     ],
-    "isInvisibleBeforeShowUp": true,
+    "isInvisibleBeforeShowUp": false,
     "showupSkillList": [
       {
         "actionId": 10103461
@@ -19907,7 +19886,7 @@
   },
   {
     "id": 10300485,
-    "idCN": "敌方/99化物/宝箱小狗-后",
+    "idCN": "敌方/99化物/宝箱小狗-后金",
     "mod": "基础AI",
     "isInformalData": false,
     "targetInvisibleEffectId": 11102488,
@@ -19936,7 +19915,7 @@
         "rangeSN": 240000
       }
     ],
-    "isInvisibleBeforeShowUp": true,
+    "isInvisibleBeforeShowUp": false,
     "showupSkillList": [
       {
         "actionId": 10103497
@@ -20407,6 +20386,282 @@
     "energySkillList": [],
     "energyRestorePerFrameSN": 0,
     "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300494,
+    "idCN": "敌方/99化物/宝箱小狗-前金",
+    "mod": "基础AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10102796
+      },
+      {
+        "actionID": 10102799
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10102801,
+        "activeFrame": 120,
+        "activeTime": 2.0,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10102802,
+        "activeFrame": 480,
+        "activeTime": 8.0,
+        "rangeSN": -10000
+      }
+    ],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [
+      {
+        "actionId": 10103448
+      }
+    ],
+    "skillLoopDelayFrame": 360,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300495,
+    "idCN": "敌方/99化物/宝箱小狗-前紫",
+    "mod": "基础AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10102796
+      },
+      {
+        "actionID": 10102799
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10102801,
+        "activeFrame": 120,
+        "activeTime": 2.0,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10102802,
+        "activeFrame": 480,
+        "activeTime": 8.0,
+        "rangeSN": -10000
+      }
+    ],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [
+      {
+        "actionId": 10103545
+      }
+    ],
+    "skillLoopDelayFrame": 360,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300496,
+    "idCN": "敌方/99化物/宝箱小狗-后蓝",
+    "mod": "基础AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10103493
+      },
+      {
+        "actionID": 10103492
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10103495,
+        "activeFrame": 210,
+        "activeTime": 1.0,
+        "rangeSN": 240000
+      },
+      {
+        "actionId": 10103494,
+        "activeFrame": 544,
+        "activeTime": 1.0,
+        "rangeSN": 240000
+      }
+    ],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [
+      {
+        "actionId": 10103498
+      }
+    ],
+    "skillLoopDelayFrame": 356,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
+    "isSkillDelay": true,
+    "minDelay": 110,
+    "maxDelay": 210
+  },
+  {
+    "id": 10300497,
+    "idCN": "敌方/99化物/宝箱小狗-后紫",
+    "mod": "基础AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10103493
+      },
+      {
+        "actionID": 10103492
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10103495,
+        "activeFrame": 210,
+        "activeTime": 1.0,
+        "rangeSN": 240000
+      },
+      {
+        "actionId": 10103494,
+        "activeFrame": 544,
+        "activeTime": 1.0,
+        "rangeSN": 240000
+      }
+    ],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [
+      {
+        "actionId": 10103499
+      }
+    ],
+    "skillLoopDelayFrame": 356,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
+    "isSkillDelay": true,
+    "minDelay": 110,
+    "maxDelay": 210
+  },
+  {
+    "id": 10300498,
+    "idCN": "敌方/99化物/宝箱小狗-中蓝",
+    "mod": "基础AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10103451
+      },
+      {
+        "actionID": 10103452
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10103450,
+        "activeFrame": 240,
+        "activeTime": 2.0,
+        "rangeSN": 240000
+      }
+    ],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [
+      {
+        "actionId": 10103459
+      }
+    ],
+    "skillLoopDelayFrame": 220,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
+    "isSkillDelay": true,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300499,
+    "idCN": "敌方/99化物/宝箱小狗-中紫",
+    "mod": "基础AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10103451
+      },
+      {
+        "actionID": 10103452
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10103450,
+        "activeFrame": 240,
+        "activeTime": 2.0,
+        "rangeSN": 240000
+      }
+    ],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [
+      {
+        "actionId": 10103460
+      }
+    ],
+    "skillLoopDelayFrame": 220,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
+    "isSkillDelay": true,
     "minDelay": 120,
     "maxDelay": 360
   }

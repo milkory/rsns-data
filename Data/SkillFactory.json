@@ -69020,14 +69020,16 @@
     "tagRemoveList": [],
     "tagFilterList": [],
     "tagFilterType": "And",
-    "buffId": 10410911,
+    "buffId": 10413745,
     "temptypeStr": "",
     "typeStr": "",
     "typeColor": "Orange",
     "CommonNum": 1.0,
     "floatNum": 1,
     "ExSkillList": [],
-    "specialTagList": []
+    "specialTagList": [],
+    "partList": [],
+    "campList": []
   },
   {
     "id": 12301713,
@@ -69061,7 +69063,9 @@
     "CommonNum": 1.0,
     "floatNum": 1,
     "ExSkillList": [],
-    "specialTagList": []
+    "specialTagList": [],
+    "partList": [],
+    "campList": []
   },
   {
     "id": 12301714,
@@ -69095,7 +69099,9 @@
     "CommonNum": 1.0,
     "floatNum": 1,
     "ExSkillList": [],
-    "specialTagList": []
+    "specialTagList": [],
+    "partList": [],
+    "campList": []
   },
   {
     "id": 12301715,
@@ -71610,7 +71616,7 @@
     "iconPath": "",
     "attriDetialList": [],
     "tempdescription": "自身造成的冰冻伤害提高%s%%，可叠加",
-    "description": "自身造成的冰<color=#7AB2FF>冻伤</color>害提高%s%%，可叠加",
+    "description": "自身造成的冰冻伤害提高%s%%，可叠加",
     "levelUpDescription": "",
     "tempdetailDescription": "",
     "detailDescription": "",
@@ -81823,8 +81829,8 @@
     "name": "",
     "iconPath": "",
     "attriDetialList": [],
-    "tempdescription": "每抽到8张牌，获得1点费用",
-    "description": "每抽到8张牌，获得1点费用",
+    "tempdescription": "每抽到8张牌，获得0.8点费用",
+    "description": "每抽到8张牌，获得0.8点费用",
     "levelUpDescription": "",
     "tempdetailDescription": "",
     "detailDescription": "",
@@ -82081,7 +82087,16 @@
     "typeColor": "Orange",
     "CommonNum": 1.0,
     "floatNum": 1,
-    "ExSkillList": [],
+    "ExSkillList": [
+      {
+        "ExSkillName": 12302039,
+        "isNeturality": false
+      },
+      {
+        "ExSkillName": 12302040,
+        "isNeturality": false
+      }
+    ],
     "specialTagList": [],
     "partList": [],
     "campList": []
@@ -82530,30 +82545,26 @@
     "campList": []
   },
   {
-    "id": 12302052,
-    "idCN": "00原版/05五星/佩罗塔/共振1磁力盾",
+    "id": 12302057,
+    "idCN": "11固定词条/装备/黑月装备/紫霄宝甲",
     "mod": "被动技能",
     "isInformalData": false,
     "name": "",
     "iconPath": "",
     "attriDetialList": [],
-    "tempdescription": "",
-    "description": "",
+    "tempdescription": "自身处于【隐形】状态时，使除自身外我方队友受到伤害降低10%",
+    "description": "自身处于【隐形】状态时，使除自身外我方队友受到伤害降低10%",
     "levelUpDescription": "",
     "tempdetailDescription": "",
     "detailDescription": "",
     "desParamList": [],
     "skillParamList": [],
     "attributeList": [],
-    "tagId": 12601463,
+    "tagId": -1,
     "tagRemoveList": [],
-    "tagFilterList": [
-      {
-        "tagId": 12601462
-      }
-    ],
+    "tagFilterList": [],
     "tagFilterType": "And",
-    "buffId": 10413683,
+    "buffId": 10413701,
     "temptypeStr": "",
     "typeStr": "",
     "typeColor": "Orange",
@@ -82565,30 +82576,26 @@
     "campList": []
   },
   {
-    "id": 12302053,
-    "idCN": "00原版/05五星/佩罗塔/共振5十万伏特",
+    "id": 12302058,
+    "idCN": "11固定词条/装备/黑月装备/身代勾玉",
     "mod": "被动技能",
     "isInformalData": false,
     "name": "",
     "iconPath": "",
     "attriDetialList": [],
-    "tempdescription": "",
-    "description": "",
+    "tempdescription": "濒死时【无敌】/【隐形】1秒，同时回复自身60%生命值，限1次",
+    "description": "濒死时<color=#7AB2FF>【无敌】</color>/<color=#7AB2FF>【隐形】</color>1秒，同时回复自身60%生命值，限1次",
     "levelUpDescription": "",
     "tempdetailDescription": "",
     "detailDescription": "",
     "desParamList": [],
     "skillParamList": [],
     "attributeList": [],
-    "tagId": 12601465,
+    "tagId": -1,
     "tagRemoveList": [],
-    "tagFilterList": [
-      {
-        "tagId": 12601469
-      }
-    ],
+    "tagFilterList": [],
     "tagFilterType": "And",
-    "buffId": 10413675,
+    "buffId": 10413706,
     "temptypeStr": "",
     "typeStr": "",
     "typeColor": "Orange",
@@ -82600,8 +82607,8 @@
     "campList": []
   },
   {
-    "id": 12302054,
-    "idCN": "00原版/05五星/佩罗塔/觉醒5百万伏特",
+    "id": 12302060,
+    "idCN": "06敌方/爬塔/未知/永生者/增幅2降回费",
     "mod": "被动技能",
     "isInformalData": false,
     "name": "",
@@ -82612,18 +82619,19 @@
     "levelUpDescription": "",
     "tempdetailDescription": "",
     "detailDescription": "",
-    "desParamList": [],
-    "skillParamList": [],
-    "attributeList": [],
-    "tagId": 12601468,
-    "tagRemoveList": [],
-    "tagFilterList": [
+    "desParamList": [
       {
-        "tagId": 12601469
+        "isPercent": false,
+        "param": "a"
       }
     ],
+    "skillParamList": [],
+    "attributeList": [],
+    "tagId": -1,
+    "tagRemoveList": [],
+    "tagFilterList": [],
     "tagFilterType": "And",
-    "buffId": 10413676,
+    "buffId": 10413741,
     "temptypeStr": "",
     "typeStr": "",
     "typeColor": "Orange",
@@ -82635,8 +82643,8 @@
     "campList": []
   },
   {
-    "id": 12302055,
-    "idCN": "00原版/05五星/佩罗塔/觉醒2磁极反转",
+    "id": 12302061,
+    "idCN": "06敌方/爬塔/未知/永生者/增幅1减伤",
     "mod": "被动技能",
     "isInformalData": false,
     "name": "",
@@ -82647,18 +82655,55 @@
     "levelUpDescription": "",
     "tempdetailDescription": "",
     "detailDescription": "",
-    "desParamList": [],
-    "skillParamList": [],
-    "attributeList": [],
-    "tagId": 12601467,
-    "tagRemoveList": [],
-    "tagFilterList": [
+    "desParamList": [
       {
-        "tagId": 12601462
+        "isPercent": false,
+        "param": "a"
       }
     ],
+    "skillParamList": [],
+    "attributeList": [],
+    "tagId": -1,
+    "tagRemoveList": [],
+    "tagFilterList": [],
     "tagFilterType": "And",
-    "buffId": 10413686,
+    "buffId": 10413733,
+    "temptypeStr": "",
+    "typeStr": "",
+    "typeColor": "Orange",
+    "CommonNum": 1.0,
+    "floatNum": 1,
+    "ExSkillList": [],
+    "specialTagList": [],
+    "partList": [],
+    "campList": []
+  },
+  {
+    "id": 12302062,
+    "idCN": "06敌方/爬塔/未知/永生者/增幅4回精力",
+    "mod": "被动技能",
+    "isInformalData": false,
+    "name": "",
+    "iconPath": "",
+    "attriDetialList": [],
+    "tempdescription": "",
+    "description": "",
+    "levelUpDescription": "",
+    "tempdetailDescription": "",
+    "detailDescription": "",
+    "desParamList": [
+      {
+        "isPercent": false,
+        "param": "a"
+      }
+    ],
+    "skillParamList": [],
+    "attributeList": [],
+    "tagId": -1,
+    "tagRemoveList": [],
+    "tagFilterList": [],
+    "tagFilterType": "And",
+    "buffId": 10413762,
     "temptypeStr": "",
     "typeStr": "",
     "typeColor": "Orange",
@@ -82705,26 +82750,30 @@
     "campList": []
   },
   {
-    "id": 12302058,
-    "idCN": "11固定词条/装备/黑月装备/身代勾玉",
+    "id": 12302055,
+    "idCN": "00原版/05五星/佩罗塔/觉醒2磁极反转",
     "mod": "被动技能",
     "isInformalData": false,
     "name": "",
     "iconPath": "",
     "attriDetialList": [],
-    "tempdescription": "濒死时【无敌】/【隐形】1秒，同时回复自身60%生命值，限1次",
-    "description": "濒死时【无敌】/【隐形】1秒，同时回复自身60%生命值，限1次",
+    "tempdescription": "",
+    "description": "",
     "levelUpDescription": "",
     "tempdetailDescription": "",
     "detailDescription": "",
     "desParamList": [],
     "skillParamList": [],
     "attributeList": [],
-    "tagId": -1,
+    "tagId": 12601467,
     "tagRemoveList": [],
-    "tagFilterList": [],
+    "tagFilterList": [
+      {
+        "tagId": 12601462
+      }
+    ],
     "tagFilterType": "And",
-    "buffId": 10413706,
+    "buffId": 10413686,
     "temptypeStr": "",
     "typeStr": "",
     "typeColor": "Orange",
@@ -82736,26 +82785,100 @@
     "campList": []
   },
   {
-    "id": 12302057,
-    "idCN": "11固定词条/装备/黑月装备/紫霄宝甲",
+    "id": 12302054,
+    "idCN": "00原版/05五星/佩罗塔/觉醒5百万伏特",
     "mod": "被动技能",
     "isInformalData": false,
     "name": "",
     "iconPath": "",
     "attriDetialList": [],
-    "tempdescription": "自身处于【隐形】状态时，使除自身外我方队友受到伤害降低10%",
-    "description": "自身处于【隐形】状态时，使除自身外我方队友受到伤害降低10%",
+    "tempdescription": "",
+    "description": "",
     "levelUpDescription": "",
     "tempdetailDescription": "",
     "detailDescription": "",
     "desParamList": [],
     "skillParamList": [],
     "attributeList": [],
-    "tagId": -1,
+    "tagId": 12601468,
     "tagRemoveList": [],
-    "tagFilterList": [],
+    "tagFilterList": [
+      {
+        "tagId": 12601469
+      }
+    ],
     "tagFilterType": "And",
-    "buffId": 10413701,
+    "buffId": 10413676,
+    "temptypeStr": "",
+    "typeStr": "",
+    "typeColor": "Orange",
+    "CommonNum": 1.0,
+    "floatNum": 1,
+    "ExSkillList": [],
+    "specialTagList": [],
+    "partList": [],
+    "campList": []
+  },
+  {
+    "id": 12302053,
+    "idCN": "00原版/05五星/佩罗塔/共振5十万伏特",
+    "mod": "被动技能",
+    "isInformalData": false,
+    "name": "",
+    "iconPath": "",
+    "attriDetialList": [],
+    "tempdescription": "",
+    "description": "",
+    "levelUpDescription": "",
+    "tempdetailDescription": "",
+    "detailDescription": "",
+    "desParamList": [],
+    "skillParamList": [],
+    "attributeList": [],
+    "tagId": 12601465,
+    "tagRemoveList": [],
+    "tagFilterList": [
+      {
+        "tagId": 12601469
+      }
+    ],
+    "tagFilterType": "And",
+    "buffId": 10413675,
+    "temptypeStr": "",
+    "typeStr": "",
+    "typeColor": "Orange",
+    "CommonNum": 1.0,
+    "floatNum": 1,
+    "ExSkillList": [],
+    "specialTagList": [],
+    "partList": [],
+    "campList": []
+  },
+  {
+    "id": 12302052,
+    "idCN": "00原版/05五星/佩罗塔/共振1磁力盾",
+    "mod": "被动技能",
+    "isInformalData": false,
+    "name": "",
+    "iconPath": "",
+    "attriDetialList": [],
+    "tempdescription": "",
+    "description": "",
+    "levelUpDescription": "",
+    "tempdetailDescription": "",
+    "detailDescription": "",
+    "desParamList": [],
+    "skillParamList": [],
+    "attributeList": [],
+    "tagId": 12601463,
+    "tagRemoveList": [],
+    "tagFilterList": [
+      {
+        "tagId": 12601462
+      }
+    ],
+    "tagFilterType": "And",
+    "buffId": 10413683,
     "temptypeStr": "",
     "typeStr": "",
     "typeColor": "Orange",
