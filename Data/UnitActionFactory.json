@@ -124446,7 +124446,7 @@
     "tagType": "And",
     "halfWidth_SN": 990000,
     "attributeType": "HpMax",
-    "condition": "Max",
+    "condition": "All",
     "numberType": "Number",
     "number_SN": 0,
     "buffTypeFO": -1,
@@ -124456,9 +124456,11 @@
     "filterStance": "DeafaultStance",
     "filterPosition": "DefaultPos",
     "isAimSelf": false,
-    "targetCount": 1,
+    "targetCount": 99,
     "distance_SN": 990000,
     "radius_SN": 0,
+    "isCustomRadius": false,
+    "radiusTag": "",
     "damageHitBuffList": [],
     "healHitBuffList": [],
     "cdFrame": 120,
@@ -124472,9 +124474,7 @@
         "timesSource": "FixedValue"
       }
     ],
-    "backShakeFrame": -1,
-    "isCustomRadius": false,
-    "radiusTag": ""
+    "backShakeFrame": -1
   },
   {
     "id": 10103021,
@@ -148881,7 +148881,13 @@
     "isUseBigNumber": false,
     "stateIdList": [
       {
+        "stateId": 10204012
+      },
+      {
         "stateId": 10204000
+      },
+      {
+        "stateId": 10204013
       }
     ],
     "backShakeFrame": 60
@@ -148922,10 +148928,16 @@
     "isUseBigNumber": false,
     "stateIdList": [
       {
+        "stateId": 10204014
+      },
+      {
         "stateId": 10203996
+      },
+      {
+        "stateId": 10204015
       }
     ],
-    "backShakeFrame": 30
+    "backShakeFrame": 20
   },
   {
     "id": 10103540,

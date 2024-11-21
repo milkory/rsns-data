@@ -17687,6 +17687,7 @@
     "hitAreaY_SN": 15000,
     "hitAreaHalfWidth_SN": 15000,
     "hitAreaHalfHeight_SN": 15000,
+    "canOverMaxSpeed": false,
     "battleDes": "",
     "safeInformation": "穿着自制外置装甲的暴徒，是队伍中的主力。遇到危险时能收起电锯、展开护盾进行防御，并呼叫小型无人机空投炸药清场。",
     "unitInformation": "穿着自制的外置装甲的暴徒，手臂的延展部分加装了电锯，在团体中往往是领导者和主力身份。在危急时刻能将电锯收起，激活护盾进行防御，并借助防御时间呼叫小型无人机空投炸药清场。",
@@ -17724,7 +17725,8 @@
         "id": 86700070,
         "weight": 1
       }
-    ]
+    ],
+    "enemySkillList": []
   },
   {
     "id": 10000451,
@@ -18025,6 +18027,7 @@
     "hitAreaY_SN": 30000,
     "hitAreaHalfWidth_SN": 90000,
     "hitAreaHalfHeight_SN": 15000,
+    "canOverMaxSpeed": false,
     "battleDes": "",
     "safeInformation": "在被恐怖分子们“回收”以后被改造成了高效且强力的兵器，原本用于清障的多功能前臂现在已脱离了原本的功能，在战斗方面具备了更大的杀伤性。",
     "unitInformation": "地联在篝火城计划初期为了更方便地铺设轨道而设计的大型清障工程车，在轨道上可以进行高效率作业，紧急情况下也可以脱离轨道运转，只是性能会受到影响。\r在被恐怖分子们“回收”以后被改造成了高效且强力的兵器，原本用于清障的多功能前臂现在已脱离了原本的功能，在战斗方面具备了更大的杀伤性。",
@@ -18085,7 +18088,8 @@
         "id": 86700041,
         "weight": 1
       }
-    ]
+    ],
+    "enemySkillList": []
   },
   {
     "id": 10000455,
@@ -45295,6 +45299,7 @@
     "hitAreaY_SN": 15000,
     "hitAreaHalfWidth_SN": 15000,
     "hitAreaHalfHeight_SN": 15000,
+    "canOverMaxSpeed": false,
     "battleDes": "",
     "safeInformation": "",
     "unitInformation": "",
@@ -45329,7 +45334,8 @@
         "id": 86700070,
         "weight": 1
       }
-    ]
+    ],
+    "enemySkillList": []
   },
   {
     "id": 10000104,
@@ -59937,7 +59943,7 @@
     "hp_SN": 2000000000,
     "def_SN": 730000,
     "atk_SN": 870000,
-    "atkSpeed_SN": 1000000,
+    "atkSpeed_SN": 800000,
     "luck_SN": 0,
     "spName": "",
     "specialGiftDes": "",
@@ -88081,17 +88087,17 @@
     "isSpine2": 1,
     "homeSkillList": [
       {
-        "id": 83900149,
+        "id": 83900076,
         "nextIndex": 3,
         "resonanceLv": 1
       },
       {
-        "id": 83900160,
+        "id": 83900211,
         "nextIndex": 0,
         "resonanceLv": 4
       },
       {
-        "id": 83900150,
+        "id": 83900164,
         "nextIndex": -1,
         "resonanceLv": 5
       }
@@ -93025,8 +93031,8 @@
     ],
     "passiveSkillList": [],
     "hp_SN": 68000000,
-    "def_SN": 800000,
-    "atk_SN": 760000,
+    "def_SN": 780000,
+    "atk_SN": 820000,
     "atkSpeed_SN": 1000000,
     "luck_SN": 0,
     "line": 3,
@@ -93203,8 +93209,37 @@
         "weight": 15
       }
     ],
-    "classifyList": [],
-    "careerList": [],
+    "classifyList": [
+      {
+        "des": 12601226
+      },
+      {
+        "des": 12601216
+      },
+      {
+        "des": 12601221
+      },
+      {
+        "des": 12601219
+      },
+      {
+        "des": 12601220
+      },
+      {
+        "des": 12601218
+      },
+      {
+        "des": 12601223
+      },
+      {
+        "des": 12601215
+      }
+    ],
+    "careerList": [
+      {
+        "des": 12601213
+      }
+    ],
     "fileList": [
       {
         "file": 80304715
@@ -93215,9 +93250,9 @@
     "birthday": "9月5日",
     "birthdayMonth": "9",
     "birthdayDay": "5",
-    "birthdayCake": -1,
-    "birthdayMessage": "",
-    "height": "1150cm",
+    "birthdayCake": 11400128,
+    "birthdayMessage": "虽然球球不会做蛋糕，但还是去蛋糕店里买了一个！感觉很好吃，列车长也分享一些吧！",
+    "height": "150cm",
     "birthplace": "未公开",
     "ability": "“球球力场”",
     "identity": "“园丁”·特别派遣专员",
@@ -93232,5 +93267,374 @@
     "getCharacter": "我是佩罗塔！但是你愿意的话，也可以叫我球球。我很厉害的，一定能派上用场！……对了，你列车上的电子设备什么的，应该都投了保险吧？",
     "safeInformation": "",
     "unitInformation": ""
+  },
+  {
+    "id": 10000519,
+    "idCN": "深渊/08期/深眠者沉溺-4",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "深眠者·沉溺",
+    "EnglishName": "",
+    "viewId": 11000206,
+    "skinList": [],
+    "sideId": 12600910,
+    "controllerId": 10300456,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": 90100010,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600278
+      },
+      {
+        "tagId": 12600473
+      },
+      {
+        "tagId": 12601127
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301506
+      },
+      {
+        "skillId": 12301511
+      },
+      {
+        "skillId": 12301441
+      },
+      {
+        "skillId": 12301423
+      },
+      {
+        "skillId": 12301421
+      },
+      {
+        "skillId": 12301410
+      },
+      {
+        "skillId": 12301433
+      },
+      {
+        "skillId": 12300201
+      },
+      {
+        "skillId": 12301419
+      },
+      {
+        "skillId": 12302063
+      },
+      {
+        "skillId": 12300089
+      },
+      {
+        "skillId": 12301684
+      },
+      {
+        "skillId": 12302065
+      }
+    ],
+    "hp_SN": 1800000000,
+    "def_SN": 760000,
+    "atk_SN": 900000,
+    "atkSpeed_SN": 1000000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000281,
+    "growthTagList": [
+      {
+        "growthTagId": 12000353
+      },
+      {
+        "growthTagId": 12000060
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800470
+      },
+      {
+        "talentId": 12800471
+      },
+      {
+        "talentId": 12800467
+      },
+      {
+        "talentId": 12800468
+      },
+      {
+        "talentId": 12800469
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10101337,
+    "actionMoveID": 10101338,
+    "actionAttackedID": 10101341,
+    "actionAttackedBackID": 10101342,
+    "actionKnockUpID": -1,
+    "actionStunID": 10101340,
+    "actionDeadID": 10101339,
+    "actionVictoryID": -1,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 15000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 10000,
+    "hitAreaHalfWidth_SN": 5000,
+    "hitAreaHalfHeight_SN": 10000,
+    "canOverMaxSpeed": false,
+    "battleDes": "",
+    "safeInformation": "",
+    "unitInformation": "",
+    "enemyDrop": [],
+    "abilityList": [],
+    "weaknessList": [],
+    "resistanceList": [],
+    "enemyType": 12601048,
+    "enemyCamp": 12600237,
+    "enemyBookId": 10000119,
+    "prisonerDrop": [],
+    "enemySkillList": []
+  },
+  {
+    "id": 10000524,
+    "idCN": "深渊/08期/深眠者迷梦-4",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "深眠者·迷梦",
+    "EnglishName": "",
+    "viewId": 11000185,
+    "skinList": [],
+    "sideId": 12600910,
+    "controllerId": 10300233,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": 90100010,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600278
+      },
+      {
+        "tagId": 12601127
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301506
+      },
+      {
+        "skillId": 12301367
+      },
+      {
+        "skillId": 12301371
+      },
+      {
+        "skillId": 12301474
+      },
+      {
+        "skillId": 12302063
+      },
+      {
+        "skillId": 12300089
+      },
+      {
+        "skillId": 12301527
+      },
+      {
+        "skillId": 12301526
+      },
+      {
+        "skillId": 12301419
+      },
+      {
+        "skillId": 12301642
+      },
+      {
+        "skillId": 12301637
+      },
+      {
+        "skillId": 12301629
+      },
+      {
+        "skillId": 12301674
+      },
+      {
+        "skillId": 12301653
+      },
+      {
+        "skillId": 12301667
+      },
+      {
+        "skillId": 12302066
+      }
+    ],
+    "hp_SN": 1440000000,
+    "def_SN": 720000,
+    "atk_SN": 720000,
+    "atkSpeed_SN": 1000000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000397,
+    "growthTagList": [
+      {
+        "growthTagId": 12000353
+      },
+      {
+        "growthTagId": 12000060
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800470
+      },
+      {
+        "talentId": 12800471
+      },
+      {
+        "talentId": 12800467
+      },
+      {
+        "talentId": 12800468
+      },
+      {
+        "talentId": 12800469
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10101563,
+    "actionMoveID": 10101563,
+    "actionAttackedID": 10101304,
+    "actionAttackedBackID": 10101567,
+    "actionKnockUpID": -1,
+    "actionStunID": 10101569,
+    "actionDeadID": 10101409,
+    "actionVictoryID": -1,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 15000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 10000,
+    "hitAreaHalfWidth_SN": 5000,
+    "hitAreaHalfHeight_SN": 10000,
+    "canOverMaxSpeed": false,
+    "battleDes": "",
+    "safeInformation": "莫名令人感到熟悉的深眠者。通过附加”心魔共鸣”并引爆的方式造成伤害，能制造幻影与本体一同行动。",
+    "unitInformation": "于形态污染严重地区出现的深眠者，不知为何散发出令人怀念的气息……据部分目击报告声称，见到此类深眠者“就像是看见了妈妈的身影一样”。该现象可能与其制造幻影的能力有关。\r能对我方角色造成“心魔共鸣”标记，每隔一定时间造成伤害。蓄力后，可通过挥爪动作引爆我方的“心魔共鸣”标记。制造的幻影与本体能力相同，会与幻影一同行动，释放强大的全体攻击。",
+    "enemyDrop": [
+      {
+        "id": 11700077
+      },
+      {
+        "id": 11700147
+      },
+      {
+        "id": 11700079
+      },
+      {
+        "id": 11700080
+      }
+    ],
+    "abilityList": [
+      {
+        "id": 12601010
+      },
+      {
+        "id": 12601005
+      }
+    ],
+    "weaknessList": [
+      {
+        "id": 12600978
+      }
+    ],
+    "resistanceList": [
+      {
+        "id": 12600972
+      },
+      {
+        "id": 12600992
+      }
+    ],
+    "enemyType": 12601048,
+    "enemyCamp": 12600237,
+    "enemyBookId": 10000195,
+    "prisonerDrop": [],
+    "enemySkillList": [
+      {
+        "id": 80304090
+      }
+    ]
   }
 ]
