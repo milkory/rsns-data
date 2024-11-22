@@ -29634,14 +29634,6 @@
     "targetCount": 0
   },
   {
-    "id": 10502602,
-    "idCN": "我方/05五星/佩罗塔/S-2概率轰顶",
-    "mod": "攻击事件",
-    "isInformalData": false,
-    "buffId": 10413612,
-    "hitSoundID": -1
-  },
-  {
     "id": 10502601,
     "idCN": "敌方/02桦树/BOSS/血影骨龙/技能1",
     "mod": "攻击事件",
@@ -29656,7 +29648,7 @@
     "isInformalData": false,
     "buffId": 10413778,
     "bulletId": 11200009,
-    "targetType": "OneEach",
+    "targetType": "Random",
     "offSetX_SN": 0,
     "offSetZ_SN": 0,
     "isUseTargetFilter": false,
@@ -29677,5 +29669,108 @@
     "filterPosition": "DefaultPos",
     "isAimSelf": false,
     "targetCount": 99
+  },
+  {
+    "id": 10502602,
+    "idCN": "我方/05五星/佩罗塔/S-2概率轰顶",
+    "mod": "攻击事件",
+    "isInformalData": false,
+    "buffId": 10413612,
+    "hitSoundID": -1
+  },
+  {
+    "id": 10502604,
+    "idCN": "敌方/02桦树/BOSS/血影骨龙/技能3岩突",
+    "mod": "攻击事件",
+    "isInformalData": false,
+    "buffId": 10413783,
+    "hitSoundID": -1
+  },
+  {
+    "id": 10502605,
+    "idCN": "敌方/02桦树/BOSS/血影骨龙/技能3陨石",
+    "mod": "子弹事件",
+    "isInformalData": false,
+    "buffId": 10413833,
+    "bulletId": 11200565,
+    "targetType": "CurrentTarget",
+    "offSetX_SN": 0,
+    "offSetZ_SN": 0,
+    "isUseTargetFilter": true,
+    "isIgnoreInvisibleEnemy": true,
+    "targetFilterType": "Enemy",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 160000,
+    "attributeType": "HpMax",
+    "condition": "All",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "MiddleRow",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 99
+  },
+  {
+    "id": 10502606,
+    "idCN": "敌方/02桦树/BOSS/血影骨龙/技能2调动尾部",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10413834
+  },
+  {
+    "id": 10502607,
+    "idCN": "敌方/02桦树/BOSS/血影骨龙/技能4光束",
+    "mod": "攻击事件",
+    "isInformalData": false,
+    "buffId": 10413837,
+    "hitSoundID": -1
+  },
+  {
+    "id": 10502610,
+    "idCN": "敌方/02桦树/BOSS/血影骨龙/被动2陨石",
+    "mod": "子弹事件",
+    "isInformalData": false,
+    "buffId": 10413885,
+    "bulletId": 11200565,
+    "targetType": "CurrentTarget",
+    "offSetX_SN": 0,
+    "offSetZ_SN": 0,
+    "isUseTargetFilter": true,
+    "isIgnoreInvisibleEnemy": true,
+    "targetFilterType": "Enemy",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 160000,
+    "attributeType": "HpMax",
+    "condition": "All",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "MiddleRow",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 99
+  },
+  {
+    "id": 10502609,
+    "idCN": "敌方/02桦树/BOSS/血影骨龙/技能4调动尾部",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10413869
+  },
+  {
+    "id": 10502608,
+    "idCN": "敌方/02桦树/BOSS/血影骨龙/被动1霸体",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10413862
   }
 ]
