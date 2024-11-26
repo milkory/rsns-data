@@ -15428,11 +15428,33 @@
     "effectOffsetY": 0.0,
     "actionList": [
       {
+        "actionID": 10103024
+      },
+      {
         "actionID": 10103025
       }
     ],
     "normalAttackCritID": -1,
-    "skillList": [],
+    "skillList": [
+      {
+        "actionId": 10103021,
+        "activeFrame": 180,
+        "activeTime": 1.0,
+        "rangeSN": 240000
+      },
+      {
+        "actionId": 10103020,
+        "activeFrame": 450,
+        "activeTime": 1.0,
+        "rangeSN": 240000
+      },
+      {
+        "actionId": 10103022,
+        "activeFrame": 770,
+        "activeTime": 1.0,
+        "rangeSN": 240000
+      }
+    ],
     "isInvisibleBeforeShowUp": true,
     "showupSkillList": [
       {
@@ -15443,12 +15465,12 @@
     "shapeShiftList": [],
     "commandList": [],
     "enemySkillList": [],
-    "isUseEnergy": false,
+    "isUseEnergy": true,
     "energySkillList": [
       {
         "actionId": 10103023,
         "isClearEnergy": true,
-        "rangeSN": -10000
+        "rangeSN": 240000
       }
     ],
     "energyRestorePerFrameSN": 220,
@@ -20659,6 +20681,48 @@
     "energySkillList": [],
     "energyRestorePerFrameSN": 0,
     "isSkillDelay": true,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300500,
+    "idCN": "敌方/99化物/嚎虎箱",
+    "mod": "BOSSAI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10103548
+      },
+      {
+        "actionID": 10103547
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10103556,
+        "activeFrame": 240,
+        "activeTime": 1.0,
+        "rangeSN": 240000
+      }
+    ],
+    "isInvisibleBeforeShowUp": true,
+    "showupSkillList": [
+      {
+        "actionId": 10103549
+      }
+    ],
+    "skillLoopDelayFrame": 220,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
+    "isSkillDelay": false,
     "minDelay": 120,
     "maxDelay": 360
   }
