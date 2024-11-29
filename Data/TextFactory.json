@@ -76443,7 +76443,7 @@
     "idCN": "监狱/原料车间/每小时产生费用",
     "mod": "UI文本",
     "isInformalData": false,
-    "text": "每小时产生费用"
+    "text": "每单位时间产生费用"
   },
   {
     "id": 80608535,
@@ -76660,7 +76660,7 @@
     "idCN": "监狱/牢房/已解锁床位",
     "mod": "UI文本",
     "isInformalData": false,
-    "text": "已解锁床位：%d/%d"
+    "text": "已解锁床位："
   },
   {
     "id": 80608517,
@@ -83062,14 +83062,14 @@
     "idCN": "监狱/每周订单/已领取订单数量文本",
     "mod": "UI文本",
     "isInformalData": false,
-    "text": "已接受的订单数量"
+    "text": "已接受订单数量"
   },
   {
     "id": 80609190,
     "idCN": "监狱/每周订单/每周上限",
     "mod": "UI文本",
     "isInformalData": false,
-    "text": "每周最多接收3单"
+    "text": "每周最多接受3单"
   },
   {
     "id": 80609191,
@@ -83385,5 +83385,768 @@
     "mod": "UI文本",
     "isInformalData": false,
     "text": "列车尚在行驶，请进入站点后再进行配置"
+  },
+  {
+    "id": 80609235,
+    "idCN": "监狱/囚犯相关/一键放生",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "全部放生"
+  },
+  {
+    "id": 80609236,
+    "idCN": "监狱/囚犯相关/一键放生二次确认",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "是否放生%d名囚犯？"
+  },
+  {
+    "id": 80609237,
+    "idCN": "监狱/囚犯相关/一键全选",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "一键全选"
+  },
+  {
+    "id": 80609238,
+    "idCN": "监狱/囚犯相关/确认办理",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "确认办理"
+  },
+  {
+    "id": 80609239,
+    "idCN": "监狱/囚犯相关/整顿中囚犯数量",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "整顿中囚犯数量"
+  },
+  {
+    "id": 80609240,
+    "idCN": "监狱/囚犯相关/未整顿囚犯数量",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "未整顿囚犯数量"
+  },
+  {
+    "id": 80609241,
+    "idCN": "监狱/囚犯相关/办理按钮",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "办理囚犯入住"
+  },
+  {
+    "id": 80609264,
+    "idCN": "轮盘战斗/邀请函内容",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "诚邀您进入由澄明数据中心负责人摩尔改造的虚演空间！在虚演空间中，护卫乘员可以不受现实条件限制，尽情与各种敌人进行模拟战斗，并且获得丰厚的报酬。"
+  },
+  {
+    "id": 80609310,
+    "idCN": "大富翁/无产出",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "当前暂无产出"
+  },
+  {
+    "id": 80609312,
+    "idCN": "大富翁/地块等级",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "地块等级：%d"
+  },
+  {
+    "id": 80609313,
+    "idCN": "大富翁/进度显示",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "%d/%d"
+  },
+  {
+    "id": 80609311,
+    "idCN": "监狱/出狱留言/标题",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "整顿中心日报"
+  },
+  {
+    "id": 80609309,
+    "idCN": "监狱/逮捕相关/点击此处跳过动画",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "点击此处跳过动画"
+  },
+  {
+    "id": 80609308,
+    "idCN": "监狱/逮捕相关/逮捕成功提示",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "成功使用逮捕令逮捕敌人"
+  },
+  {
+    "id": 80609307,
+    "idCN": "监狱/逮捕相关/逮捕成功",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "逮捕成功"
+  },
+  {
+    "id": 80609306,
+    "idCN": "监狱/逮捕相关/逮捕囚犯提示",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "每消耗1张逮捕令将有概率捕捉1名囚犯"
+  },
+  {
+    "id": 80609305,
+    "idCN": "监狱/承包相关/自动补满",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "保证金低于80%自动补满"
+  },
+  {
+    "id": 80609304,
+    "idCN": "监狱/承包相关/补充保证金",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "补充保证金"
+  },
+  {
+    "id": 80609303,
+    "idCN": "监狱/承包相关/查看合同",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "查看合同"
+  },
+  {
+    "id": 80609302,
+    "idCN": "监狱/承包相关/紧张",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "紧张"
+  },
+  {
+    "id": 80609301,
+    "idCN": "监狱/承包相关/正常",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "正常"
+  },
+  {
+    "id": 80609300,
+    "idCN": "监狱/承包相关/保证金余量",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "保证金余量"
+  },
+  {
+    "id": 80609299,
+    "idCN": "监狱/承包相关/提示",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "需及时补充保证金，以供囚犯的生活运营成本。"
+  },
+  {
+    "id": 80609297,
+    "idCN": "监狱/承包相关/电力总值",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "电力总值"
+  },
+  {
+    "id": 80609298,
+    "idCN": "监狱/承包相关/财务中心",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "财务中心"
+  },
+  {
+    "id": 80609296,
+    "idCN": "监狱/承包相关/新宿舍开启",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "新整顿宿舍开启"
+  },
+  {
+    "id": 80609242,
+    "idCN": "监狱/囚犯相关/生活运营总成本",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "生活运营总成本"
+  },
+  {
+    "id": 80609243,
+    "idCN": "监狱/囚犯相关/生活成本",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "生活成本"
+  },
+  {
+    "id": 80609244,
+    "idCN": "监狱/通用/开启新功能",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "- 开启新功能 -"
+  },
+  {
+    "id": 80609245,
+    "idCN": "道具/概率-概率详情",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "概率详情"
+  },
+  {
+    "id": 80609246,
+    "idCN": "监狱/通用/可升级",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "可升级"
+  },
+  {
+    "id": 80609247,
+    "idCN": "监狱/通用/可解锁",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "可解锁"
+  },
+  {
+    "id": 80609248,
+    "idCN": "监狱/黑月订单站/运输订单",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "运输订单"
+  },
+  {
+    "id": 80609249,
+    "idCN": "监狱/黑月订单站/车载制造",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "车载制造"
+  },
+  {
+    "id": 80609250,
+    "idCN": "监狱/黑月订单站/仓库",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "仓库"
+  },
+  {
+    "id": 80609251,
+    "idCN": "监狱/黑月订单站/订单记录",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "订单记录"
+  },
+  {
+    "id": 80609252,
+    "idCN": "监狱/黑月订单站/订单调度中",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "订单调度中"
+  },
+  {
+    "id": 80609253,
+    "idCN": "监狱/黑月订单站/暂无订单",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "暂无订单"
+  },
+  {
+    "id": 80609254,
+    "idCN": "监狱/黑月订单站/桦石",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "桦石"
+  },
+  {
+    "id": 80609255,
+    "idCN": "监狱/黑月订单站/再交涉请求书",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "再交涉申请书"
+  },
+  {
+    "id": 80609256,
+    "idCN": "监狱/黑月订单站/立即获取新订单",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "立即获取新订单"
+  },
+  {
+    "id": 80609257,
+    "idCN": "监狱/黑月订单站/需求物资",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "需求物资"
+  },
+  {
+    "id": 80609258,
+    "idCN": "监狱/黑月订单站/奖励物品",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "奖励物品"
+  },
+  {
+    "id": 80609259,
+    "idCN": "监狱/黑月订单站/配方所需原料",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "库存配方所需原料"
+  },
+  {
+    "id": 80609260,
+    "idCN": "监狱/黑月订单站/删除订单",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "删除订单"
+  },
+  {
+    "id": 80609261,
+    "idCN": "监狱/黑月订单站/记录订单",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "记录订单"
+  },
+  {
+    "id": 80609262,
+    "idCN": "监狱/黑月订单站/交付订单",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "交付订单"
+  },
+  {
+    "id": 80609263,
+    "idCN": "监狱/黑月订单站/物资不足",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "物资不足"
+  },
+  {
+    "id": 80609265,
+    "idCN": "监狱/囚犯相关/囚犯编号",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "囚犯编号"
+  },
+  {
+    "id": 80609266,
+    "idCN": "监狱/囚犯相关/刑期标题",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "刑期"
+  },
+  {
+    "id": 80609267,
+    "idCN": "监狱/车间/上阵/囚犯信息/刑期",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "刑期"
+  },
+  {
+    "id": 80609268,
+    "idCN": "监狱/囚犯相关/放他一马",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "放TA一马"
+  },
+  {
+    "id": 80609270,
+    "idCN": "监狱/囚犯相关/押运中",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "押运中"
+  },
+  {
+    "id": 80609269,
+    "idCN": "监狱/车间/上阵/囚犯信息/筛选",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "筛选"
+  },
+  {
+    "id": 80609271,
+    "idCN": "监狱/囚犯相关/选择",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "选择"
+  },
+  {
+    "id": 80609272,
+    "idCN": "监狱/原料车间/加速",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "加速"
+  },
+  {
+    "id": 80609273,
+    "idCN": "监狱/车间/上阵/解锁地块/待清理区域",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "待清理区域"
+  },
+  {
+    "id": 80609274,
+    "idCN": "监狱/车间/上阵/解锁地块/整顿中心等级",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "整顿中心等级"
+  },
+  {
+    "id": 80609275,
+    "idCN": "监狱/车间/上阵/解锁地块/可清理",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "可清理"
+  },
+  {
+    "id": 80609276,
+    "idCN": "监狱/车间/上阵/生产效能",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "生产效能："
+  },
+  {
+    "id": 80609277,
+    "idCN": "监狱/车间/上阵/人员数量",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "人员数量："
+  },
+  {
+    "id": 80609278,
+    "idCN": "监狱/等级界面/整顿中心等级奖励",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "整顿中心等级奖励"
+  },
+  {
+    "id": 80609279,
+    "idCN": "监狱/等级界面/达成奖励",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "达成奖励"
+  },
+  {
+    "id": 80609280,
+    "idCN": "监狱/通用/处理",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "处理"
+  },
+  {
+    "id": 80609281,
+    "idCN": "监狱/通用/突发事件",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "突发事件"
+  },
+  {
+    "id": 80609282,
+    "idCN": "监狱/车间/上阵/解锁地块/待解锁",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "待解锁"
+  },
+  {
+    "id": 80609283,
+    "idCN": "监狱/承包相关/整顿中心承包合同标题",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "整顿中心承包合同"
+  },
+  {
+    "id": 80609284,
+    "idCN": "监狱/承包相关/车载缝纫机",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "车载缝纫机"
+  },
+  {
+    "id": 80609285,
+    "idCN": "监狱/承包相关/生产车间",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "生产车间"
+  },
+  {
+    "id": 80609286,
+    "idCN": "监狱/承包相关/工作区域",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "工作区域"
+  },
+  {
+    "id": 80609287,
+    "idCN": "监狱/承包相关/整顿宿舍",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "整顿宿舍"
+  },
+  {
+    "id": 80609288,
+    "idCN": "监狱/承包相关/生活区域",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "生活区域"
+  },
+  {
+    "id": 80609289,
+    "idCN": "监狱/承包相关/缝纫机",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "缝纫机"
+  },
+  {
+    "id": 80609290,
+    "idCN": "监狱/承包相关/承包价格",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "承包价格："
+  },
+  {
+    "id": 80609291,
+    "idCN": "监狱/承包相关/确认签署",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "确认签署"
+  },
+  {
+    "id": 80609292,
+    "idCN": "监狱/承包相关/生产资料",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "生产资料"
+  },
+  {
+    "id": 80609293,
+    "idCN": "监狱/承包相关/承包事宜",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "承包事宜"
+  },
+  {
+    "id": 80609294,
+    "idCN": "监狱/承包相关/宿舍承包合同标题",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "整顿宿舍承包合同"
+  },
+  {
+    "id": 80609295,
+    "idCN": "监狱/承包相关/车间承包合同标题",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "生产车间承包合同"
+  },
+  {
+    "id": 80609335,
+    "idCN": "大富翁/附身玩家",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "当前附身玩家：%s"
+  },
+  {
+    "id": 80609314,
+    "idCN": "监狱/通用/新区域开启",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "新区域开启"
+  },
+  {
+    "id": 80609315,
+    "idCN": "监狱/通用/工作区域",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "工作区域"
+  },
+  {
+    "id": 80609316,
+    "idCN": "监狱/通用/生活区域",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "生活区域"
+  },
+  {
+    "id": 80609317,
+    "idCN": "监狱/逮捕相关/逮捕大师",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "逮捕大师"
+  },
+  {
+    "id": 80609318,
+    "idCN": "监狱/承包相关/合同甲方",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "甲    方  ： 环大陆铁道同盟"
+  },
+  {
+    "id": 80609319,
+    "idCN": "监狱/承包相关/协议明细",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "协议明细"
+  },
+  {
+    "id": 80609320,
+    "idCN": "监狱/黑月订单站/已记录订单",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "已记录订单"
+  },
+  {
+    "id": 80609321,
+    "idCN": "监狱/黑月订单站/交货地点",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "交货地点"
+  },
+  {
+    "id": 80609322,
+    "idCN": "监狱/黑月订单站/黑月服装订单站",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "黑月服装订单站"
+  },
+  {
+    "id": 80609323,
+    "idCN": "监狱/黑月订单站/可提交",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "可提交"
+  },
+  {
+    "id": 80609324,
+    "idCN": "监狱/通用/新车间开启",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "新车间开启"
+  },
+  {
+    "id": 80609325,
+    "idCN": "监狱/通用/新生产车间开启",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "新生产车间开启"
+  },
+  {
+    "id": 80609326,
+    "idCN": "监狱/通用/整顿中心升级",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "整顿中心升级"
+  },
+  {
+    "id": 80609327,
+    "idCN": "监狱/通用/筛选",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "筛选"
+  },
+  {
+    "id": 80609328,
+    "idCN": "监狱/通用/触碰空白区域退出",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "触碰空白区域退出"
+  },
+  {
+    "id": 80609329,
+    "idCN": "监狱/通用/取消",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "取消"
+  },
+  {
+    "id": 80609330,
+    "idCN": "监狱/通用/确认",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "确认"
+  },
+  {
+    "id": 80609331,
+    "idCN": "监狱/通用/性格",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "性格"
+  },
+  {
+    "id": 80609332,
+    "idCN": "监狱/通用/擅长",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "擅长"
+  },
+  {
+    "id": 80609333,
+    "idCN": "监狱/等级界面/隶属于",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "隶属于：铁山城"
+  },
+  {
+    "id": 80609334,
+    "idCN": "1预制体/Home_MachiningLathe/Home_Worktable/文案33",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "疲劳不足"
+  },
+  {
+    "id": 80609337,
+    "idCN": "2预制体/Trainfactory/HomeCarriageeditor/文案51",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "进站时随机切换列车皮肤"
+  },
+  {
+    "id": 80609338,
+    "idCN": "监狱/囚犯相关/未整顿",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "未整顿"
+  },
+  {
+    "id": 80609339,
+    "idCN": "监狱/车间/上阵/设为组长",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "设为组长"
+  },
+  {
+    "id": 80609340,
+    "idCN": "监狱/车间/上阵/取消组长",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "取消组长"
+  },
+  {
+    "id": 80609341,
+    "idCN": "监狱/车间/上阵/下阵",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "下阵"
+  },
+  {
+    "id": 80609342,
+    "idCN": "监狱/车间/上阵/生活成本",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "生活成本"
+  },
+  {
+    "id": 80609343,
+    "idCN": "监狱/车间/上阵/点击上阵囚犯",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "点击上阵囚犯"
+  },
+  {
+    "id": 80609336,
+    "idCN": "大富翁/领取产出",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "领取产出"
   }
 ]

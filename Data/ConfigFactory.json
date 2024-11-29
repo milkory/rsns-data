@@ -1749,6 +1749,9 @@
       },
       {
         "id": 82500012
+      },
+      {
+        "id": 82500016
       }
     ],
     "StageQuestConfig": [
@@ -16854,6 +16857,7 @@
         "iconPath": "UI/MainUI/main_icon_build",
         "isShow": false,
         "name": "整备列车",
+        "playerLevel": 0,
         "quest": -1,
         "tips": 80601514
       },
@@ -17020,6 +17024,16 @@
         "iconPath": "",
         "isShow": false,
         "name": "游戏Wiki",
+        "playerLevel": 0,
+        "quest": -1,
+        "tips": -1
+      },
+      {
+        "funcId": 132,
+        "guideId": 0,
+        "iconPath": "UI/MainUI/main_icon_build",
+        "isShow": false,
+        "name": "列车",
         "playerLevel": 0,
         "quest": -1,
         "tips": -1
@@ -18173,6 +18187,11 @@
         "long": 1366,
         "resolution": "1366×768",
         "width": 768
+      },
+      {
+        "long": 1600,
+        "resolution": "1600×720",
+        "width": 720
       },
       {
         "long": 1600,
@@ -24579,13 +24598,6 @@
         "ratio": "Img_CircleCoc"
       },
       {
-        "icon": "UI/RevenueOverview/BtnIcon/Trash",
-        "label": "UI/RevenueOverview/RatioLabel/Trash",
-        "name": 80609028,
-        "rank": 84300015,
-        "ratio": "Img_CircleTrash"
-      },
-      {
         "icon": "UI/RevenueOverview/BtnIcon/Island",
         "label": "UI/RevenueOverview/RatioLabel/Island",
         "name": 80609029,
@@ -24598,6 +24610,13 @@
         "name": 80609030,
         "rank": 84300017,
         "ratio": "Img_CirclePrison"
+      },
+      {
+        "icon": "UI/RevenueOverview/BtnIcon/Trash",
+        "label": "UI/RevenueOverview/RatioLabel/Trash",
+        "name": 80609028,
+        "rank": 84300015,
+        "ratio": "Img_CircleTrash"
       }
     ],
     "rankList": [
@@ -24617,7 +24636,8 @@
         "bg": "UI/RevenueOverview/other_bg2",
         "ratio": "UI/RevenueOverview/BtnRatio3"
       }
-    ]
+    ],
+    "isRankOpen": true
   },
   {
     "id": 99900105,
@@ -24626,6 +24646,24 @@
     "isInformalData": false,
     "nameEN": "BannerConfig",
     "bannerList": [
+      {
+        "id": 80500122
+      },
+      {
+        "id": 80500123
+      },
+      {
+        "id": 80500124
+      },
+      {
+        "id": 80500126
+      },
+      {
+        "id": 80500127
+      },
+      {
+        "id": 80500128
+      },
       {
         "id": 80500193
       },
