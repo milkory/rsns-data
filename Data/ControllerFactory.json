@@ -20830,6 +20830,34 @@
     "shapeShiftList": [],
     "commandList": [],
     "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 333,
+    "isSkillDelay": true,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300506,
+    "idCN": "我方/50召唤物/金子掘金二号_共振2",
+    "mod": "基础AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": -1,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10103561
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [],
+    "skillLoopDelayFrame": 456,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
     "isUseEnergy": true,
     "energySkillList": [
       {
@@ -20840,6 +20868,56 @@
     ],
     "energyRestorePerFrameSN": 333,
     "isSkillDelay": true,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300505,
+    "idCN": "敌方/02桦树/BOSS/螺向桦树生物",
+    "mod": "基础AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10102550
+      },
+      {
+        "actionID": 10102551
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10102553,
+        "activeFrame": 180,
+        "activeTime": 1.0,
+        "rangeSN": 240000
+      },
+      {
+        "actionId": 10102552,
+        "activeFrame": 608,
+        "activeTime": 1.0,
+        "rangeSN": 240000
+      }
+    ],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [],
+    "skillLoopDelayFrame": 314,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": true,
+    "energySkillList": [
+      {
+        "actionId": 10103540,
+        "isClearEnergy": false,
+        "rangeSN": 240000
+      }
+    ],
+    "energyRestorePerFrameSN": 220,
+    "isSkillDelay": false,
     "minDelay": 120,
     "maxDelay": 360
   }
