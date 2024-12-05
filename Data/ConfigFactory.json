@@ -546,7 +546,7 @@
         "id": 11400041
       }
     ],
-    "wcoinConverRatio": 1
+    "wcoinConverRatio": 1.0
   },
   {
     "id": 99900002,
@@ -2202,7 +2202,8 @@
         "preloadPath": "CommonEffect/ZJJ/ZJJ_SkeletonData"
       }
     ],
-    "specialIcon05": "UI/Battle/CardDes/anyi_count"
+    "specialIcon05": "UI/Battle/CardDes/anyi_count",
+    "specialIcon06": "UI/Battle/CardDes/msgold_S_CoinCount"
   },
   {
     "id": 99900009,
@@ -15353,6 +15354,10 @@
         "guideNO": 132
       },
       {
+        "guideId": 20900141,
+        "guideNO": 132
+      },
+      {
         "guideId": 20900047,
         "guideNO": 141
       },
@@ -18768,7 +18773,16 @@
         "id": 11400283
       },
       {
+        "id": 11400384
+      },
+      {
+        "id": 11400360
+      },
+      {
         "id": 11400354
+      },
+      {
+        "id": 11400382
       },
       {
         "id": 11400254
@@ -18796,6 +18810,9 @@
       },
       {
         "id": 11400368
+      },
+      {
+        "id": 11400386
       }
     ]
   },
@@ -21790,10 +21807,10 @@
       },
       {
         "countDownMax": 3,
-        "endTime": "2024-07-07 00:00:00",
+        "endTime": "",
         "id": 86000009,
         "isCompleteBottom": false,
-        "isCountDown": false,
+        "isCountDown": true,
         "name": 80607103,
         "png": "UI/Activity/Tab/tab_monster",
         "showUI": "UI/Activity/Monster/MonsterActivity",
@@ -24598,18 +24615,18 @@
         "ratio": "Img_CircleCoc"
       },
       {
-        "icon": "UI/RevenueOverview/BtnIcon/Island",
-        "label": "UI/RevenueOverview/RatioLabel/Island",
-        "name": 80609029,
-        "rank": 84300016,
-        "ratio": "Img_CircleIsland"
-      },
-      {
         "icon": "UI/RevenueOverview/BtnIcon/Prison",
         "label": "UI/RevenueOverview/RatioLabel/Prison",
         "name": 80609030,
         "rank": 84300017,
         "ratio": "Img_CirclePrison"
+      },
+      {
+        "icon": "UI/RevenueOverview/BtnIcon/Island",
+        "label": "UI/RevenueOverview/RatioLabel/Island",
+        "name": 80609029,
+        "rank": 84300016,
+        "ratio": "Img_CircleIsland"
       },
       {
         "icon": "UI/RevenueOverview/BtnIcon/Trash",
@@ -24648,6 +24665,9 @@
     "bannerList": [
       {
         "id": 80500122
+      },
+      {
+        "id": 80500192
       },
       {
         "id": 80500123
@@ -24712,5 +24732,91 @@
     "isInformalData": false,
     "nameEN": "ServerGacheConfig",
     "gacheUI": true
+  },
+  {
+    "id": 99900112,
+    "idCN": "点赞配置",
+    "mod": "排行榜好友点赞",
+    "isInformalData": false,
+    "nameEN": "LikesConfig",
+    "refreshTime": "18:00:00",
+    "dailyFrequency": 3,
+    "rewardsList": [
+      {
+        "id": 11400005,
+        "num": 5,
+        "weight": 8
+      },
+      {
+        "id": 11400005,
+        "num": 10,
+        "weight": 2
+      },
+      {
+        "id": 11400001,
+        "num": 10000,
+        "weight": 5
+      },
+      {
+        "id": 11400001,
+        "num": 20000,
+        "weight": 5
+      },
+      {
+        "id": 11400001,
+        "num": 50000,
+        "weight": 5
+      },
+      {
+        "id": 11400001,
+        "num": 100000,
+        "weight": 5
+      },
+      {
+        "id": 11400045,
+        "num": 1,
+        "weight": 10
+      },
+      {
+        "id": 11400072,
+        "num": 1,
+        "weight": 10
+      },
+      {
+        "id": 11400044,
+        "num": 1,
+        "weight": 5
+      },
+      {
+        "id": 11700162,
+        "num": 1,
+        "weight": 5
+      },
+      {
+        "id": 11400016,
+        "num": 1,
+        "weight": 5
+      },
+      {
+        "id": 11400047,
+        "num": 1,
+        "weight": 5
+      },
+      {
+        "id": 11400067,
+        "num": 1,
+        "weight": 10
+      },
+      {
+        "id": 11400066,
+        "num": 1,
+        "weight": 10
+      },
+      {
+        "id": 11700161,
+        "num": 1,
+        "weight": 10
+      }
+    ]
   }
 ]

@@ -14681,5 +14681,80 @@
     "orderType": "SavePanelTriggerNo",
     "apiName": "",
     "guideNo": 34
+  },
+  {
+    "id": 81100825,
+    "idCN": "通用/条件跳转/等待主界面打开",
+    "mod": "IFELSE跳转",
+    "isInformalData": false,
+    "orderType": "ConditionJumpIndex",
+    "isLoop": true,
+    "trueLabel": -1,
+    "falseLabel": -1,
+    "keyList": [
+      {
+        "compareType": "EQ",
+        "key": "IsActivated",
+        "num": 1.0,
+        "uiPath": "UI/MainUI/MainUI",
+        "val": ""
+      }
+    ]
+  },
+  {
+    "id": 81100832,
+    "idCN": "通用/城市地图/4号位/高亮",
+    "mod": "指定UI高亮",
+    "isInformalData": false,
+    "orderType": "UIFocus",
+    "uiPath": "UI/CityMap/CityMap",
+    "nodeType": "Fixed",
+    "nodeName": "ScrollView_Map.Viewport.Group_BG.Group_Build4",
+    "mId": -1,
+    "delay": true,
+    "w": 190.0,
+    "h": 240.0,
+    "offsetX": 0.0,
+    "offsetY": 35.0,
+    "alpha": 0.7,
+    "isShowFinger": true
+  },
+  {
+    "id": 81100834,
+    "idCN": "通用/条件跳转/等待城市地图打开",
+    "mod": "IFELSE跳转",
+    "isInformalData": false,
+    "orderType": "ConditionJumpIndex",
+    "isLoop": true,
+    "trueLabel": -1,
+    "falseLabel": -1,
+    "keyList": [
+      {
+        "compareType": "EQ",
+        "key": "IsActivated",
+        "num": 1.0,
+        "uiPath": "UI/CityMap/CityMap",
+        "val": ""
+      }
+    ]
+  },
+  {
+    "id": 81100835,
+    "idCN": "EP1/条件跳转/大酒店未完成",
+    "mod": "IFELSE跳转",
+    "isInformalData": false,
+    "orderType": "ConditionJumpIndex",
+    "isLoop": false,
+    "trueLabel": -1,
+    "falseLabel": 81100651,
+    "keyList": [
+      {
+        "compareType": "EQ",
+        "key": "QuestCompleted",
+        "num": 0.0,
+        "uiPath": "",
+        "val": "81000015"
+      }
+    ]
   }
 ]
