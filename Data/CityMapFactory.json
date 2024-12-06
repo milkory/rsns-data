@@ -1366,8 +1366,8 @@
       },
       {
         "id": 86400211,
-        "x": -20.0,
-        "y": -170.0
+        "x": -160.0,
+        "y": -120.0
       },
       {
         "id": 86400219,
@@ -11458,5 +11458,84 @@
     "bgPath": "",
     "bgColor": "FFFFFF",
     "frontIconPath": ""
+  },
+  {
+    "id": 86400290,
+    "idCN": "01城市地图/T8远星大桥",
+    "mod": "城市地图",
+    "isInformalData": false,
+    "bgList": [
+      {
+        "bgPath": "UI/Dialog/Back3/City_HLT_1",
+        "changeTime": "05:30:00",
+        "effectListId": 86400283
+      },
+      {
+        "bgPath": "UI/Dialog/Back3/City_HLT_2",
+        "changeTime": "10:00:00",
+        "effectListId": 86400284
+      },
+      {
+        "bgPath": "UI/Dialog/Back3/City_HLT_3",
+        "changeTime": "14:30:00",
+        "effectListId": 86400285
+      },
+      {
+        "bgPath": "UI/Dialog/Back3/City_HLT_4",
+        "changeTime": "17:30:00",
+        "effectListId": 86400286
+      },
+      {
+        "bgPath": "UI/Dialog/Back3/City_HLT_5",
+        "changeTime": "19:30:00",
+        "effectListId": 86400287
+      }
+    ],
+    "offsetX": 0.0,
+    "offsetY": 0.0,
+    "bubbleList": [
+      {
+        "id": 86400304,
+        "x": 420.0,
+        "y": 46.0
+      }
+    ],
+    "isShowRep": true,
+    "isShowConstruct": true,
+    "exitId": -1
+  },
+  {
+    "id": 86400304,
+    "idCN": "03气泡/T8远星大桥S0/01建筑/交易所",
+    "mod": "气泡",
+    "isInformalData": false,
+    "name": "交易所",
+    "isSpecial": false,
+    "isInstance": false,
+    "iconPath": "NPC/HYZ/Exchange",
+    "nameIconPath": "UI/CityMap/citymap_icon_trade",
+    "frontIconPath": "",
+    "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/UI_cityBtn_trade",
+    "animLoop": "UI_CityBtn_01_Loop",
+    "animOut": "UI_CityBtn_01_Out",
+    "activityId": -1,
+    "startTime": "",
+    "endTime": "",
+    "displayConditionsList": [],
+    "unlockConditionsList": [],
+    "isLock": false,
+    "func": "OpenUI",
+    "btnType": "HomeTrade",
+    "mId": -1,
+    "uiPath": "UI/HomeTrade/HomeTrade",
+    "buildingId": -1,
+    "stationPlace": -1,
+    "dialogId": -1,
+    "dungeonId": -1,
+    "levelId": -1,
+    "textId": -1,
+    "npcId": 83700028,
+    "bgPath": "UI/Dialog/Back4/Exchange_KHDQ",
+    "bgColor": "FFFFFF"
   }
 ]
