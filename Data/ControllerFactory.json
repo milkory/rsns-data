@@ -20932,13 +20932,19 @@
     "actionList": [
       {
         "actionID": 10103608
+      },
+      {
+        "actionID": 10103631
+      },
+      {
+        "actionID": 10103632
       }
     ],
     "normalAttackCritID": -1,
     "skillList": [],
     "isInvisibleBeforeShowUp": false,
     "showupSkillList": [],
-    "skillLoopDelayFrame": 0,
+    "skillLoopDelayFrame": 160,
     "shapeShiftList": [],
     "commandList": [],
     "enemySkillList": [],
@@ -20952,6 +20958,47 @@
   {
     "id": 10300509,
     "idCN": "敌方/联动_甲铁城/死射",
+    "mod": "基础AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10103617
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10103619,
+        "activeFrame": 180,
+        "activeTime": 1.0,
+        "rangeSN": 240000
+      },
+      {
+        "actionId": 10103618,
+        "activeFrame": 612,
+        "activeTime": 1.0,
+        "rangeSN": 240000
+      }
+    ],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [],
+    "skillLoopDelayFrame": 228,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
+    "isSkillDelay": true,
+    "minDelay": 120,
+    "maxDelay": 180
+  },
+  {
+    "id": 10300510,
+    "idCN": "敌方/联动_甲铁城/铁御",
     "mod": "基础AI",
     "isInformalData": false,
     "targetInvisibleEffectId": 11102488,

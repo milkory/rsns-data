@@ -2074,39 +2074,6 @@
     "exitId": -1
   },
   {
-    "id": 86400034,
-    "idCN": "01城市地图/工地1站",
-    "mod": "城市地图",
-    "isInformalData": false,
-    "bgList": [
-      {
-        "bgPath": "UI/Dialog/Back/City_XGLC_1",
-        "changeTime": "05:30:00"
-      },
-      {
-        "bgPath": "UI/Dialog/Back/City_XGLC_2",
-        "changeTime": "10:00:00"
-      },
-      {
-        "bgPath": "UI/Dialog/Back/City_XGLC_3",
-        "changeTime": "14:30:00"
-      },
-      {
-        "bgPath": "UI/Dialog/Back/City_XGLC_4",
-        "changeTime": "17:30:00"
-      },
-      {
-        "bgPath": "UI/Dialog/Back/City_XGLC_5",
-        "changeTime": "19:30:00"
-      }
-    ],
-    "offsetX": 0.0,
-    "offsetY": 0.0,
-    "isShowRep": true,
-    "isShowConstruct": false,
-    "exitId": -1
-  },
-  {
     "id": 86400036,
     "idCN": "01城市地图/工地2站",
     "mod": "城市地图",
@@ -11466,29 +11433,29 @@
     "isInformalData": false,
     "bgList": [
       {
-        "bgPath": "UI/Dialog/Back3/City_HLT_1",
+        "bgPath": "UI/Dialog/Back4/City_KHDQ_1",
         "changeTime": "05:30:00",
-        "effectListId": 86400283
+        "effectListId": 86400056
       },
       {
-        "bgPath": "UI/Dialog/Back3/City_HLT_2",
+        "bgPath": "UI/Dialog/Back4/City_KHDQ_2",
         "changeTime": "10:00:00",
-        "effectListId": 86400284
+        "effectListId": 86400056
       },
       {
-        "bgPath": "UI/Dialog/Back3/City_HLT_3",
+        "bgPath": "UI/Dialog/Back4/City_KHDQ_3",
         "changeTime": "14:30:00",
-        "effectListId": 86400285
+        "effectListId": 86400056
       },
       {
-        "bgPath": "UI/Dialog/Back3/City_HLT_4",
+        "bgPath": "UI/Dialog/Back4/City_KHDQ_4",
         "changeTime": "17:30:00",
-        "effectListId": 86400286
+        "effectListId": 86400058
       },
       {
-        "bgPath": "UI/Dialog/Back3/City_HLT_5",
+        "bgPath": "UI/Dialog/Back4/City_KHDQ_5",
         "changeTime": "19:30:00",
-        "effectListId": 86400287
+        "effectListId": 86400058
       }
     ],
     "offsetX": 0.0,
@@ -11496,8 +11463,23 @@
     "bubbleList": [
       {
         "id": 86400304,
-        "x": 420.0,
-        "y": 46.0
+        "x": -626.0,
+        "y": 83.0
+      },
+      {
+        "id": 86400309,
+        "x": -50.0,
+        "y": -270.0
+      },
+      {
+        "id": 86400310,
+        "x": -290.0,
+        "y": 212.0
+      },
+      {
+        "id": 86400311,
+        "x": 270.0,
+        "y": -14.0
       }
     ],
     "isShowRep": true,
@@ -11536,6 +11518,108 @@
     "textId": -1,
     "npcId": 83700028,
     "bgPath": "UI/Dialog/Back4/Exchange_KHDQ",
+    "bgColor": "FFFFFF"
+  },
+  {
+    "id": 86400309,
+    "idCN": "03气泡/T8远星大桥S0/01建筑/垃圾站",
+    "mod": "气泡",
+    "isInformalData": false,
+    "name": "垃圾处理中心",
+    "isSpecial": false,
+    "isInstance": false,
+    "iconPath": "NPC/Homefurniture/RubbishRed_T",
+    "nameIconPath": "UI/CityMap/citymap_icon_waste",
+    "frontIconPath": "",
+    "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
+    "animLoop": "UI_CityBtn_01_Loop",
+    "animOut": "UI_CityBtn_01_Out",
+    "activityId": -1,
+    "startTime": "",
+    "endTime": "",
+    "displayConditionsList": [],
+    "unlockConditionsList": [],
+    "isLock": false,
+    "func": "OpenBuilding",
+    "btnType": "RubbishStation",
+    "mId": -1,
+    "uiPath": "",
+    "buildingId": 84400251,
+    "stationPlace": -1,
+    "dialogId": -1,
+    "dungeonId": -1,
+    "levelId": -1,
+    "textId": -1,
+    "npcId": 83700101,
+    "bgPath": "UI/Dialog/Back/caozuoshi",
+    "bgColor": "FFFFFF"
+  },
+  {
+    "id": 86400310,
+    "idCN": "03气泡/T8远星大桥S0/01建筑/兑换站",
+    "mod": "气泡",
+    "isInformalData": false,
+    "name": "黑月办事处",
+    "isSpecial": false,
+    "isInstance": false,
+    "iconPath": "NPC/YXDQ/Exchange",
+    "nameIconPath": "UI/CityMap/citymap_icon_exchange",
+    "frontIconPath": "",
+    "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
+    "animLoop": "UI_CityBtn_01_Loop",
+    "animOut": "UI_CityBtn_01_Out",
+    "activityId": -1,
+    "startTime": "",
+    "endTime": "",
+    "displayConditionsList": [],
+    "unlockConditionsList": [],
+    "isLock": false,
+    "func": "OpenBuilding",
+    "btnType": "Other",
+    "mId": -1,
+    "uiPath": "",
+    "buildingId": 84400252,
+    "stationPlace": -1,
+    "dialogId": -1,
+    "dungeonId": -1,
+    "levelId": -1,
+    "textId": -1,
+    "npcId": 83700103,
+    "bgPath": "UI/Dialog/Back/caozuoshi",
+    "bgColor": "FFFFFF"
+  },
+  {
+    "id": 86400311,
+    "idCN": "03气泡/T8远星大桥S0/01建筑/大桥管理中心",
+    "mod": "气泡",
+    "isInformalData": false,
+    "name": "大桥管理中心",
+    "isSpecial": false,
+    "isInstance": false,
+    "iconPath": "NPC/YXDQ/CityHall",
+    "nameIconPath": "UI/CityMap/citymap_icon_centre",
+    "frontIconPath": "",
+    "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
+    "animLoop": "UI_CityBtn_01_Loop",
+    "animOut": "UI_CityBtn_01_Out",
+    "activityId": -1,
+    "startTime": "",
+    "endTime": "",
+    "displayConditionsList": [],
+    "unlockConditionsList": [],
+    "isLock": false,
+    "func": "OpenUI",
+    "btnType": "BattleCenter",
+    "mId": -1,
+    "uiPath": "UI/HomeBattleCenter/HomeBattleCenter",
+    "buildingId": 84400031,
+    "stationPlace": -1,
+    "dialogId": -1,
+    "dungeonId": -1,
+    "levelId": -1,
+    "textId": -1,
+    "npcId": 83700102,
+    "bgPath": "UI/Dialog/Back/Anita_Office",
     "bgColor": "FFFFFF"
   }
 ]

@@ -1285,6 +1285,7 @@
     "buildingIconPath": "",
     "battleLevelName": "",
     "battleIconPath": "",
+    "battleTypeId": -1,
     "battleLevelList": [],
     "createOrderList": [],
     "refreshTime": 300,
@@ -2728,6 +2729,7 @@
     "buildingIconPath": "",
     "battleLevelName": "",
     "battleIconPath": "",
+    "battleTypeId": -1,
     "battleLevelList": [],
     "createOrderList": [],
     "refreshTime": 300,
@@ -4108,6 +4110,7 @@
     "buildingIconPath": "",
     "battleLevelName": "",
     "battleIconPath": "",
+    "battleTypeId": -1,
     "battleLevelList": [],
     "createOrderList": [],
     "refreshTime": 300,
@@ -5340,6 +5343,7 @@
     "buildingIconPath": "",
     "battleLevelName": "",
     "battleIconPath": "",
+    "battleTypeId": -1,
     "battleLevelList": [],
     "createOrderList": [],
     "refreshTime": 300,
@@ -6600,6 +6604,7 @@
     "buildingIconPath": "",
     "battleLevelName": "",
     "battleIconPath": "",
+    "battleTypeId": -1,
     "battleLevelList": [],
     "createOrderList": [],
     "refreshTime": 300,
@@ -12227,6 +12232,7 @@
     "buildingIconPath": "",
     "battleLevelName": "",
     "battleIconPath": "",
+    "battleTypeId": -1,
     "battleLevelList": [],
     "createOrderList": [],
     "refreshTime": 300,
@@ -17200,21 +17206,22 @@
   },
   {
     "id": 83000023,
-    "idCN": "新城市表/工地1站",
+    "idCN": "新城市表/T8远星大桥",
     "mod": "基础车站",
     "isInformalData": false,
     "isOpen": false,
-    "name": "工地1站",
-    "nameEN": "",
-    "des": "",
-    "dangerLevel": 1,
+    "name": "远星大桥",
+    "nameEN": "Apoaster Bridge",
+    "des": "连接海角城与贡露城的大桥，近期刚刚完成修复建设。此地不仅是连接两座重要篝火城的桥梁，也是发挥多种综合功能的据点。\r\\n<color=#b45e01>推荐等级：55级</color>",
+    "dangerLevel": 9,
     "attachedToCity": 83000002,
-    "force": -1,
+    "force": 12601432,
     "isShowRep": false,
     "sort": 0,
     "textArriveFirst": 80601108,
     "iconPath": "",
     "cityMapIconPath": "",
+    "trainSoundList": [],
     "voiceName": -1,
     "voiceDeparture": -1,
     "voiceDeparturePassenger": -1,
@@ -17224,23 +17231,23 @@
     "voiceArrivePassenger": -1,
     "voiceGetIn": -1,
     "voiceGetInPassenger": -1,
-    "defaultDevelop": 0,
-    "addDevelop": 0,
-    "developUpperLimit": 0,
+    "defaultDevelop": 160000,
+    "addDevelop": 1600,
+    "developUpperLimit": 14260000,
     "playerLevel": 100,
     "questId": -1,
     "specifiedLevelId": -1,
     "constructionActivityId": -1,
     "itemId": -1,
-    "isBanStop": false,
+    "isBanStop": true,
     "banStopTips": "当前执照无法申请该线路",
     "lockStationQuestList": [],
     "cityStateList": [
       {
-        "cityMapId": 86400034,
-        "dungeonId": -1,
+        "cityMapId": 86400290,
         "name": "访问城市",
-        "sceneId": 80300856,
+        "recommendLevel": 1,
+        "sceneId": 80304774,
         "state": 0
       }
     ],
@@ -17251,11 +17258,11 @@
     ],
     "pullOutTimeLineList": [],
     "pos": 516,
-    "isShowInMap": false,
-    "x": -700.0,
+    "isShowInMap": true,
+    "x": -600.0,
     "y": -1250.0,
-    "mapIconPath": "UI/MainUI/map_icon_station4",
-    "nodePath": "",
+    "mapIconPath": "UI/MainUI/map_icon_station3",
+    "nodePath": "Group_Common.SoftMask_HomeMap.Group_HomeMap.ScrollView_Map.Viewport.Content.ScrollGrid_Station.Viewport.Grid.Group_Item_010.Btn_S1",
     "showGoodsQuest": -1,
     "repRewardList": [],
     "enterStationPlotList": [],
@@ -17264,16 +17271,24 @@
     "cityPrestige": 1,
     "investList": [],
     "turntableId": -1,
-    "tradeRankList": [],
+    "turnExchangeBuildId": -1,
+    "tradeRankList": [
+      {
+        "id": 84300002
+      },
+      {
+        "id": 84300001
+      }
+    ],
     "sellList": [],
     "acquisitionList": [],
-    "bargainSpinePath": "",
+    "bargainSpinePath": "UI/UIEffect/Spine/juqing_kanjia05/juqing_kanjia05_SkeletonData",
     "actionM": "nan2_1",
     "actionW": "nv1_1",
     "action2M": "nan2_2",
     "action2W": "nv1_2",
-    "isWarehouse": false,
-    "warehousePrestige": 1,
+    "isWarehouse": true,
+    "warehousePrestige": 6,
     "buyPrice": [
       {
         "id": 11400001,
@@ -17286,6 +17301,15 @@
         "num": 5
       }
     ],
+    "extraWarehouseList": [
+      {
+        "addNum": 100,
+        "buyNum": 500,
+        "name": 80607530,
+        "reputation": 20,
+        "useNum": 5
+      }
+    ],
     "isCOC": false,
     "initCOCQuestList": [],
     "cocStoreList": [],
@@ -17296,37 +17320,132 @@
     "recoverItem": -1,
     "barStoreList": [],
     "drinkVideo": "Video/Bar/Drink_Bar",
-    "isHomeBattleCentre": false,
-    "openPageList": [],
-    "buildingIconPath": "",
-    "battleLevelName": "",
-    "battleIconPath": "",
-    "battleLevelList": [],
+    "isHomeBattleCentre": true,
+    "openPageList": [
+      {
+        "icon": "UI/Home/HomeSafe/icon_quzhu",
+        "isStore": false,
+        "isTalk": false,
+        "name": "作战计划",
+        "showUI": "Group_Battle"
+      },
+      {
+        "icon": "UI/HomeCOC/coc_icon_quest",
+        "isTalk": false,
+        "name": "物资运输",
+        "showUI": "Group_Order"
+      },
+      {
+        "icon": "UI/Home/HomeSafe/jiaotan",
+        "isStore": false,
+        "isTalk": true,
+        "name": "交谈"
+      }
+    ],
+    "buildingIconPath": "UI/HomeBattleCenter/battle_icon",
+    "battleLevelName": "形态污染清理计划",
+    "battleIconPath": "UI/HomeBattleCenter/icon",
+    "battleTypeId": 12601443,
+    "battleLevelList": [
+      {
+        "difficulty": 3,
+        "id": 20101328
+      },
+      {
+        "difficulty": 3,
+        "id": 20101329
+      },
+      {
+        "difficulty": 3,
+        "id": 20101330
+      },
+      {
+        "difficulty": 3,
+        "id": 20101331
+      },
+      {
+        "difficulty": 3,
+        "id": 20101332
+      },
+      {
+        "difficulty": 3,
+        "id": 20101333
+      },
+      {
+        "difficulty": 3,
+        "id": 20101334
+      },
+      {
+        "difficulty": 3,
+        "id": 20101335
+      },
+      {
+        "difficulty": 3,
+        "id": 20101336
+      },
+      {
+        "difficulty": 3,
+        "id": 20101337
+      }
+    ],
     "createOrderList": [],
     "refreshTime": 300,
-    "constructIconPath": "",
+    "constructIconPath": "UI/HomeBattleCenter/ConstructStage/construct_icon",
     "isPark": false,
+    "parkId": -1,
     "parkTicket": 0,
     "parkTicketMax": 0,
     "divide": 0.0,
     "maxDivide": 0.0,
     "added": 0,
     "travelDay": 0,
+    "travelDayPond": -1,
+    "intervalTime": 0,
+    "visitorNumPond": -1,
     "tax": 0.0,
     "investTime": 0.0,
-    "constructStageList": [],
+    "constructStageList": [
+      {
+        "basisNum": 0,
+        "constructNum": 2000,
+        "desc": "维护远星大桥的安全，保证连接贡露城与海角城的主要通道正常通行。",
+        "id": 80301113,
+        "name": "远星大桥建设计划1期",
+        "nameBtn": "建设计划1期",
+        "nameEN": "STATION CONSTRUCTION PLAN",
+        "overNum": 0,
+        "png": "UI/HomeBattleCenter/ConstructStage/yuanxing_bg",
+        "stagePng": "UI/HomeBattleCenter/ConstructStage/icon2",
+        "state": 10,
+        "upperNum": 0
+      },
+      {
+        "basisNum": 0,
+        "constructNum": 5000,
+        "desc": "维护远星大桥的安全，保证连接贡露城与海角城的主要通道正常通行。",
+        "id": 80301776,
+        "name": "远星大桥建设计划2期",
+        "nameBtn": "建设计划2期",
+        "nameEN": "STATION CONSTRUCTION PLAN",
+        "overNum": 0,
+        "png": "UI/HomeBattleCenter/ConstructStage/yuanxing_bg",
+        "stagePng": "UI/HomeBattleCenter/ConstructStage/icon2",
+        "state": 10,
+        "upperNum": 0
+      }
+    ],
     "exchangeName": "",
     "exchangeStoreList": [],
-    "exchangeIconPath": "",
-    "exchangePagePath": "",
-    "exchangeBottomPath": "",
-    "exchangeAffirmPath": "",
-    "exchangeCompletePath": "",
-    "saleName": "",
+    "exchangeIconPath": "UI/HomeBattleCenter/Exchange/huangyuan_icon",
+    "exchangePagePath": "UI/HomeBattleCenter/Exchange/di",
+    "exchangeBottomPath": "UI/HomeBattleCenter/Exchange/huangyuan_group_bg",
+    "exchangeAffirmPath": "UI/HomeBattleCenter/Exchange/exchange_can",
+    "exchangeCompletePath": "UI/HomeBattleCenter/Exchange/exchange_not",
+    "saleName": "素材回收清单",
     "materialRecycleList": [],
-    "correspondingConstruction": -1,
-    "saleBottomPath": "",
-    "saleHighPricePath": "",
+    "correspondingConstruction": 11400387,
+    "saleBottomPath": "UI/HomeBattleCenter/Exchange/di_element",
+    "saleHighPricePath": "UI/HomeBattleCenter/Exchange/bg",
     "petStoreList": [],
     "petRecycleStoreList": [],
     "keepSingleMealList": [],
@@ -17335,8 +17454,35 @@
     "isLeaflet": false,
     "leafletUnlock": 0,
     "leafletMap": "",
-    "order": 0,
-    "cityLeafletLest": [],
+    "order": 14,
+    "cityLeafletList": [
+      {
+        "id": 84400256
+      },
+      {
+        "id": 84400254
+      },
+      {
+        "id": 84400253
+      },
+      {
+        "id": 84400255
+      }
+    ],
+    "cityLeafletLest": [
+      {
+        "id": 80304812
+      },
+      {
+        "id": 80304813
+      },
+      {
+        "id": 80304814
+      },
+      {
+        "id": 80304811
+      }
+    ],
     "trainList": [],
     "recommendNum": 0,
     "kmCostList": [
@@ -18859,6 +19005,7 @@
     "buildingIconPath": "",
     "battleLevelName": "荒原作战计划",
     "battleIconPath": "",
+    "battleTypeId": -1,
     "battleLevelList": [],
     "createOrderList": [],
     "refreshTime": 20,

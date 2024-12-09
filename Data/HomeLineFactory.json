@@ -2021,9 +2021,9 @@
     "lineQuestList": [],
     "station01": 83000014,
     "station02": 83000023,
-    "distance": 9109.388,
+    "distance": 10109.388,
     "sceneGroup": 70400003,
-    "bgmId": 30000958,
+    "bgmId": 30002171,
     "bgmId2": -1,
     "playerLevel": 0,
     "questId": -1,
@@ -2032,7 +2032,7 @@
     "triggerNumMin": 1,
     "triggerNumMax": 2,
     "lineBgList": [],
-    "LineEnemyLv": 40,
+    "LineEnemyLv": 45,
     "LineEnemyLvRan": 2,
     "LineEnemyRn": 4,
     "LineWeatherRate": 5000,
@@ -2057,14 +2057,43 @@
       }
     ],
     "eventHpRatio": 1.0,
-    "enemyLevelMin": 38,
+    "enemyLevelMin": 43,
     "boxMin": 4,
     "boxMax": 8,
+    "boxPolluteNum": 0.5,
     "boxList": [],
-    "AreaTipList": [],
+    "robCountList": [],
+    "robDisMin": 0,
+    "robDisMax": 0,
+    "robInterval": 0,
+    "robList": [],
+    "AreaTipList": [
+      {
+        "disMax": 259,
+        "disMin": 0,
+        "id": 80601266
+      },
+      {
+        "disMax": 10200,
+        "disMin": 9920,
+        "id": 80609387
+      }
+    ],
     "AttractionList": [],
-    "areaList": [],
-    "cityList": [],
+    "areaList": [
+      {
+        "areaId": 84600010,
+        "disInterval": 300.0,
+        "disMax": 8000.0,
+        "disMin": 1500.0
+      }
+    ],
+    "cityList": [
+      {
+        "buildingId": 84400011,
+        "cityId": 83000002
+      }
+    ],
     "wayPointList": [
       {
         "x": -1075.0,
@@ -3896,14 +3925,15 @@
         "lineMin": 0.0
       }
     ],
+    "mapNeedleList": [],
+    "forceNeedleList": [],
     "lineQuestList": [],
     "station01": 83000023,
     "station02": 83000024,
-    "distance": 2000.0,
+    "distance": 1000.0,
     "sceneGroup": 70400003,
     "bgmId": 30002171,
     "bgmId2": -1,
-    "wayPointList": [],
     "playerLevel": 0,
     "questId": -1,
     "specifiedLevelId": -1,
@@ -3912,17 +3942,26 @@
     "triggerNumMax": 1,
     "lineBgList": [],
     "LineEnemyLv": 1,
+    "LineEnemyLvRan": 0,
     "LineEnemyRn": 0,
     "LineWeatherRate": 0,
     "LineWeatherList": [],
+    "eventHpRatio": 1.0,
     "enemyLevelMin": 1,
     "boxMin": 0,
     "boxMax": 0,
+    "boxPolluteNum": 0.5,
     "boxList": [],
+    "robCountList": [],
+    "robDisMin": 0,
+    "robDisMax": 0,
+    "robInterval": 0,
+    "robList": [],
     "AreaTipList": [],
     "AttractionList": [],
     "areaList": [],
-    "cityList": []
+    "cityList": [],
+    "wayPointList": []
   },
   {
     "id": 82700018,
@@ -3941,7 +3980,7 @@
     "lineQuestList": [],
     "station01": 83000002,
     "station02": 83000023,
-    "distance": 9575.637,
+    "distance": 10575.64,
     "sceneGroup": 70400003,
     "bgmId": 30002171,
     "bgmId2": -1,
@@ -3952,28 +3991,49 @@
     "triggerNumMin": 1,
     "triggerNumMax": 2,
     "lineBgList": [],
-    "LineEnemyLv": 40,
+    "LineEnemyLv": 45,
     "LineEnemyLvRan": 2,
     "LineEnemyRn": 4,
     "LineWeatherRate": 0,
     "LineWeatherList": [],
     "eventHpRatio": 1.0,
-    "enemyLevelMin": 38,
+    "enemyLevelMin": 43,
     "boxMin": 0,
     "boxMax": 0,
     "boxPolluteNum": 0.5,
     "boxList": [],
+    "robCountList": [],
+    "robDisMin": 0,
+    "robDisMax": 0,
+    "robInterval": 0,
+    "robList": [],
     "AreaTipList": [
       {
         "disMax": 250,
         "disMin": 0,
         "id": 80601213
       },
-      {}
+      {
+        "disMax": 10580,
+        "disMin": 10330,
+        "id": 80609387
+      }
     ],
     "AttractionList": [],
-    "areaList": [],
-    "cityList": [],
+    "areaList": [
+      {
+        "areaId": 84600010,
+        "disInterval": 300.0,
+        "disMax": 8000.0,
+        "disMin": 1500.0
+      }
+    ],
+    "cityList": [
+      {
+        "buildingId": 84400011,
+        "cityId": 83000002
+      }
+    ],
     "wayPointList": [
       {
         "x": -1225.0,
@@ -4055,12 +4115,7 @@
         "x": -1125.0,
         "y": -1250.0
       }
-    ],
-    "robCountList": [],
-    "robDisMin": 0,
-    "robDisMax": 0,
-    "robInterval": 0,
-    "robList": []
+    ]
   },
   {
     "id": 82700019,
@@ -6046,7 +6101,7 @@
         "distance0": 10091
       }
     ],
-    "LineEnemyLv": 25,
+    "LineEnemyLv": 23,
     "LineEnemyLvRan": 2,
     "LineEnemyRn": 2,
     "LineWeatherRate": 6000,
@@ -6074,7 +6129,7 @@
       }
     ],
     "eventHpRatio": 1.0,
-    "enemyLevelMin": 23,
+    "enemyLevelMin": 21,
     "boxMin": 5,
     "boxMax": 9,
     "boxPolluteNum": 0.5,
@@ -6305,6 +6360,11 @@
         "weight": 1
       }
     ],
+    "robCountList": [],
+    "robDisMin": 0,
+    "robDisMax": 0,
+    "robInterval": 0,
+    "robList": [],
     "AreaTipList": [
       {
         "disMax": 10100,

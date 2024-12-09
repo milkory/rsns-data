@@ -4547,6 +4547,9 @@
     "skinList": [
       {
         "unitViewId": 11000084
+      },
+      {
+        "unitViewId": 11000461
       }
     ],
     "sideId": 12600027,
@@ -34814,7 +34817,7 @@
     ],
     "hp_SN": 1600000000,
     "def_SN": 750000,
-    "atk_SN": 850000,
+    "atk_SN": 800000,
     "atkSpeed_SN": 1000000,
     "luck_SN": 0,
     "spName": "",
@@ -34887,6 +34890,7 @@
     "hitAreaY_SN": 20000,
     "hitAreaHalfWidth_SN": 15000,
     "hitAreaHalfHeight_SN": 20000,
+    "canOverMaxSpeed": false,
     "battleDes": "",
     "safeInformation": "能释放庞大能量对敌人造成负能伤害，在沙尘中时能够与环境共振，免疫所有负面效果。",
     "unitInformation": "拥有动物骨架般诡异的外形的大型桦树生物，无论是行动造成的冲击还是自体内释放出的庞大能量都让它比起一般桦树生物更加危险。\\n能对我方角色造成负能伤害。当它在漫天沙尘中行动时，可以与环境形成强大的共振，免疫所有的负面效果，但此能力会在雨天天气失效。能够通过类似蜕壳的方式隐形并脱身，原躯壳在爆炸后形成1只骸骨桦树生物。进入轰击模式时，会对随机目标发动负能炮击。",
@@ -34940,7 +34944,8 @@
     "enemyType": 12601048,
     "enemyCamp": 12601044,
     "enemyBookId": 10000144,
-    "prisonerDrop": []
+    "prisonerDrop": [],
+    "enemySkillList": []
   },
   {
     "id": 10000030,
@@ -37029,7 +37034,7 @@
     ],
     "hp_SN": 80000000,
     "def_SN": 750000,
-    "atk_SN": 850000,
+    "atk_SN": 800000,
     "atkSpeed_SN": 1000000,
     "luck_SN": 0,
     "spName": "",
@@ -37102,6 +37107,7 @@
     "hitAreaY_SN": 20000,
     "hitAreaHalfWidth_SN": 15000,
     "hitAreaHalfHeight_SN": 20000,
+    "canOverMaxSpeed": false,
     "battleDes": "",
     "safeInformation": "",
     "unitInformation": "",
@@ -37125,7 +37131,8 @@
     "enemyType": 12601048,
     "enemyCamp": 12601044,
     "enemyBookId": -1,
-    "prisonerDrop": []
+    "prisonerDrop": [],
+    "enemySkillList": []
   },
   {
     "id": 10000186,
@@ -67708,7 +67715,7 @@
   },
   {
     "id": 10000373,
-    "idCN": "敌方/06深眠者/远祖的果报",
+    "idCN": "敌方/06深眠者/远祖的果报BOSS",
     "mod": "敌方角色",
     "isInformalData": false,
     "name": "远祖的果报",
@@ -97613,5 +97620,798 @@
         "id": 80304782
       }
     ]
+  },
+  {
+    "id": 10000672,
+    "idCN": "敌方/联动_甲铁城/铁御",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "铁御",
+    "EnglishName": "",
+    "viewId": 11000470,
+    "skinList": [],
+    "sideId": 12600910,
+    "controllerId": 10300510,
+    "bulletControllerList": [],
+    "isBoss": false,
+    "bossHpTemp": -1,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301506
+      },
+      {
+        "skillId": 12301426
+      },
+      {
+        "skillId": 12301367
+      },
+      {
+        "skillId": 12302089
+      },
+      {
+        "skillId": 12302114
+      },
+      {
+        "skillId": 12302112
+      }
+    ],
+    "hp_SN": 140000000,
+    "def_SN": 560000,
+    "atk_SN": 680000,
+    "atkSpeed_SN": 1000000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000461,
+    "growthTagList": [
+      {
+        "growthTagId": 12000112
+      },
+      {
+        "growthTagId": 12000097
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800292
+      },
+      {
+        "talentId": 12800293
+      },
+      {
+        "talentId": 12800294
+      },
+      {
+        "talentId": 12800295
+      },
+      {
+        "talentId": 12800296
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10103629,
+    "actionMoveID": 10103628,
+    "actionAttackedID": 10103625,
+    "actionAttackedBackID": 10103626,
+    "actionKnockUpID": -1,
+    "actionStunID": 10103621,
+    "actionDeadID": 10103627,
+    "actionVictoryID": -1,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 15000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 15000,
+    "hitAreaHalfWidth_SN": 15000,
+    "hitAreaHalfHeight_SN": 15000,
+    "canOverMaxSpeed": false,
+    "battleDes": "",
+    "safeInformation": "",
+    "unitInformation": "",
+    "enemyDrop": [
+      {
+        "id": 11700077
+      },
+      {
+        "id": 11700147
+      },
+      {
+        "id": 11700079
+      }
+    ],
+    "abilityList": [
+      {
+        "id": 12600093
+      }
+    ],
+    "weaknessList": [
+      {
+        "id": 12600978
+      }
+    ],
+    "resistanceList": [
+      {
+        "id": 12600972
+      },
+      {
+        "id": 12600992
+      }
+    ],
+    "enemyType": 12601047,
+    "enemyCamp": 12600237,
+    "enemyBookId": 10000672,
+    "prisonerDrop": [],
+    "enemySkillList": []
+  },
+  {
+    "id": 10000673,
+    "idCN": "爬塔/深眠者/远祖的果报-5",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "远祖的果报",
+    "EnglishName": "",
+    "viewId": 11000368,
+    "skinList": [],
+    "sideId": 12600910,
+    "controllerId": 10300436,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": 90100010,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600278
+      },
+      {
+        "tagId": 12601261
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301506
+      },
+      {
+        "skillId": 12301368
+      },
+      {
+        "skillId": 12301410
+      },
+      {
+        "skillId": 12301412
+      },
+      {
+        "skillId": 12301814
+      },
+      {
+        "skillId": 12301415
+      },
+      {
+        "skillId": 12301527
+      },
+      {
+        "skillId": 12301526
+      },
+      {
+        "skillId": 12301519
+      },
+      {
+        "skillId": 12301433
+      },
+      {
+        "skillId": 12300201
+      }
+    ],
+    "hp_SN": 2100000000,
+    "def_SN": 630000,
+    "atk_SN": 900000,
+    "atkSpeed_SN": 1000000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000385,
+    "growthTagList": [
+      {
+        "growthTagId": 12000112
+      },
+      {
+        "growthTagId": 12000097
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800292
+      },
+      {
+        "talentId": 12800293
+      },
+      {
+        "talentId": 12800294
+      },
+      {
+        "talentId": 12800295
+      },
+      {
+        "talentId": 12800296
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10103081,
+    "actionMoveID": 10103086,
+    "actionAttackedID": 10103089,
+    "actionAttackedBackID": 10103088,
+    "actionKnockUpID": -1,
+    "actionStunID": 10103090,
+    "actionDeadID": 10103087,
+    "actionVictoryID": -1,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 15000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 15000,
+    "hitAreaHalfWidth_SN": 25000,
+    "hitAreaHalfHeight_SN": 25000,
+    "canOverMaxSpeed": false,
+    "battleDes": "",
+    "safeInformation": "强大的深眠者，外形与帝国故事中一位剑士相似。会根据我方所有红卡与蓝卡的数量决定战斗的攻防策略，剑气能够造成大量伤害并触发负面效果。",
+    "unitInformation": "强大的深眠者，身体的大部分组织已经异变，但仍紧握武器。外形与曼杜斯帝国的故事中某位长发的剑士相似——故事的最后，失去一切的剑士将自己放逐，永远地离开了故乡。\\n开局时检测手牌、牌库和弃牌区的所有卡牌数量，根据卡牌颜色决定自身状态。若红卡数量大于蓝卡，则转入【防御阶段】，免疫控制效果、降低所受伤害，令全场红卡入手费用降低，非红卡入手费用增加；若蓝卡数量大于红卡，则转入【进攻阶段】，攻击力提高，令全场蓝卡入手费用降低，非蓝卡入手费用增加。此外，如检测出红蓝卡数量相等或均不存在，则进入【均衡阶段】，攻击附加真实伤害，并使得全场卡牌入手费用随机发生增减。\\n能够发动多种强力的剑气攻击，并造成【灼心】【斩裂】等负面效果。",
+    "enemyDrop": [
+      {
+        "id": 11700077
+      },
+      {
+        "id": 11700147
+      },
+      {
+        "id": 11700079
+      },
+      {
+        "id": 11700080
+      }
+    ],
+    "abilityList": [
+      {
+        "id": 12600946
+      },
+      {
+        "id": 12600949
+      },
+      {
+        "id": 12600941
+      },
+      {
+        "id": 12600943
+      }
+    ],
+    "weaknessList": [
+      {
+        "id": 12600978
+      },
+      {
+        "id": 12600996
+      },
+      {
+        "id": 12601002
+      }
+    ],
+    "resistanceList": [
+      {
+        "id": 12600972
+      },
+      {
+        "id": 12600964
+      },
+      {
+        "id": 12600962
+      },
+      {
+        "id": 12600955
+      },
+      {
+        "id": 12600990
+      },
+      {
+        "id": 12600968
+      },
+      {
+        "id": 12600956
+      }
+    ],
+    "enemyType": 12601048,
+    "enemyCamp": 12600237,
+    "enemyBookId": 10000373,
+    "prisonerDrop": [],
+    "enemySkillList": [
+      {
+        "id": 80304378
+      }
+    ]
+  },
+  {
+    "id": 10000674,
+    "idCN": "敌方/06深眠者/祸链囚徒",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "祸链囚徒",
+    "EnglishName": "",
+    "viewId": 11000314,
+    "skinList": [],
+    "sideId": 12600910,
+    "controllerId": 10300341,
+    "bulletControllerList": [],
+    "isBoss": false,
+    "bossHpTemp": 90100010,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600278
+      },
+      {
+        "tagId": 12601080
+      },
+      {
+        "tagId": 12601127
+      },
+      {
+        "tagId": 12601261
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12300152
+      },
+      {
+        "skillId": 12300016
+      },
+      {
+        "skillId": 12301506
+      },
+      {
+        "skillId": 12300936
+      },
+      {
+        "skillId": 12301367
+      },
+      {
+        "skillId": 12301369
+      },
+      {
+        "skillId": 12301371
+      },
+      {
+        "skillId": 12301413
+      }
+    ],
+    "hp_SN": 2400000000,
+    "def_SN": 800000,
+    "atk_SN": 800000,
+    "atkSpeed_SN": 1000000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000366,
+    "growthTagList": [
+      {
+        "growthTagId": 12000353
+      },
+      {
+        "growthTagId": 12000060
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800470
+      },
+      {
+        "talentId": 12800471
+      },
+      {
+        "talentId": 12800467
+      },
+      {
+        "talentId": 12800468
+      },
+      {
+        "talentId": 12800469
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10102825,
+    "actionMoveID": 10102826,
+    "actionAttackedID": 10102835,
+    "actionAttackedBackID": 10102635,
+    "actionKnockUpID": -1,
+    "actionStunID": 10102831,
+    "actionDeadID": 10102827,
+    "actionVictoryID": -1,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 15000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 30000,
+    "hitAreaHalfWidth_SN": 40000,
+    "hitAreaHalfHeight_SN": 30000,
+    "canOverMaxSpeed": false,
+    "battleDes": "",
+    "safeInformation": "强大的深眠者，以锁链和重锤作为武器。会为我方附加标记，通过使用手牌方可解除。",
+    "unitInformation": "强大的深眠者，受到形态污染的严重影响，身体的大部分组织都异变为类似桦树生物的结构。据说曾是负责看守某处偏远的拘留设施之人，直至今日，他也不愿松开手中的锁链。\\n使用手牌时，会为祸链囚徒回复一定精力值。祸链囚徒会锁定并标记我方乘员，打出手牌可减少标记的层数，但在一定时间后尚未被消除的标记会造成伤害。当标记触发失败时，祸链囚徒会进入饥渴状态，并额外标记一个目标。",
+    "enemyDrop": [
+      {
+        "id": 11700049
+      },
+      {
+        "id": 11700048
+      },
+      {
+        "id": 11700077
+      },
+      {
+        "id": 11700147
+      },
+      {
+        "id": 11700079
+      },
+      {
+        "id": 11700080
+      }
+    ],
+    "abilityList": [
+      {
+        "id": 12600924
+      },
+      {
+        "id": 12600929
+      },
+      {
+        "id": 12600936
+      },
+      {
+        "id": 12600939
+      },
+      {
+        "id": 12600906
+      },
+      {
+        "id": 12600941
+      },
+      {
+        "id": 12600949
+      }
+    ],
+    "weaknessList": [
+      {
+        "id": 12600978
+      },
+      {
+        "id": 12600988
+      }
+    ],
+    "resistanceList": [
+      {
+        "id": 12600972
+      },
+      {
+        "id": 12600990
+      },
+      {
+        "id": 12600991
+      },
+      {
+        "id": 12600992
+      }
+    ],
+    "enemyType": 12601048,
+    "enemyCamp": 12600237,
+    "enemyBookId": 10000268,
+    "prisonerDrop": [],
+    "enemySkillList": [
+      {
+        "id": 80304396
+      }
+    ]
+  },
+  {
+    "id": 10000675,
+    "idCN": "敌方/03劫掠者/劫掠者·执锯",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "劫掠者·执锯",
+    "EnglishName": "Looter-in-Chief",
+    "viewId": 11000305,
+    "skinList": [],
+    "sideId": 12600907,
+    "controllerId": 10300314,
+    "bulletControllerList": [],
+    "isBoss": false,
+    "bossHpTemp": 90100011,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600278
+      },
+      {
+        "tagId": 12601075
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301411
+      },
+      {
+        "skillId": 12301431
+      },
+      {
+        "skillId": 12301410
+      },
+      {
+        "skillId": 12301369
+      },
+      {
+        "skillId": 12301432
+      },
+      {
+        "skillId": 12301413
+      },
+      {
+        "skillId": 12301618
+      },
+      {
+        "skillId": 12300508
+      },
+      {
+        "skillId": 12300879
+      }
+    ],
+    "hp_SN": 1650000000,
+    "def_SN": 650000,
+    "atk_SN": 800000,
+    "atkSpeed_SN": 800000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000358,
+    "growthTagList": [
+      {
+        "growthTagId": 12000353
+      },
+      {
+        "growthTagId": 12000060
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800470
+      },
+      {
+        "talentId": 12800471
+      },
+      {
+        "talentId": 12800467
+      },
+      {
+        "talentId": 12800468
+      },
+      {
+        "talentId": 12800469
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10102723,
+    "actionMoveID": 10102721,
+    "actionAttackedID": 10102722,
+    "actionAttackedBackID": 10102724,
+    "actionKnockUpID": -1,
+    "actionStunID": 10102720,
+    "actionDeadID": 10102725,
+    "actionVictoryID": -1,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 30000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 25000,
+    "hitAreaHalfWidth_SN": 25000,
+    "hitAreaHalfHeight_SN": 20000,
+    "canOverMaxSpeed": false,
+    "battleDes": "",
+    "safeInformation": "劫掠者的头领，以多功能轮锯作为武器。能造成电磁和火焰伤害，伴有多种负面效果。战斗意志顽强，濒死时触发【不灭的火种】。",
+    "unitInformation": "劫掠者团伙的首领，装备了精良的外部装甲，具有强烈的战斗意志。与其他劫掠者相比，他的武装程度更为夸张，可以说是武装到了牙缝儿。使用的武器是由阿妮塔出品的桦石开采装置改造而来。以多功能轮锯作为主要攻击手段，能对多个目标造成物理伤害。轮锯高速运转时能发射冲击弹，对我方全体角色造成电磁伤害，同时触发【引雷】；当将轮锯作为近距离武器使用时，能对范围内我方角色造成火焰伤害并【击飞】，同时有概率触发【点燃】。\\n【不灭的火种】：濒死时【无敌】并回复自身全部生命值，同时对全场造成【火海】。处于此状态时，驱散并免疫控制效果且技能释放频率加快，同时每秒损失自身生命值。该效果至多触发3次，每次回复的生命值递减。",
+    "enemyDrop": [
+      {
+        "id": 11700050
+      }
+    ],
+    "abilityList": [
+      {
+        "id": 12600930
+      },
+      {
+        "id": 12600904
+      },
+      {
+        "id": 12600903
+      },
+      {
+        "id": 12600923
+      },
+      {
+        "id": 12600925
+      },
+      {
+        "id": 12600934
+      },
+      {
+        "id": 12600944
+      }
+    ],
+    "weaknessList": [
+      {
+        "id": 12600993
+      },
+      {
+        "id": 12600974
+      }
+    ],
+    "resistanceList": [
+      {
+        "id": 12600962
+      },
+      {
+        "id": 12600991
+      },
+      {
+        "id": 12600989
+      },
+      {
+        "id": 12600990
+      }
+    ],
+    "enemyType": 12601048,
+    "enemyCamp": 12601045,
+    "enemyBookId": 10000255,
+    "prisonerDrop": [
+      {
+        "id": 86700085,
+        "weight": 1
+      }
+    ],
+    "enemySkillList": []
   }
 ]
