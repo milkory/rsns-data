@@ -21006,27 +21006,27 @@
     "effectOffsetY": 0.0,
     "actionList": [
       {
-        "actionID": 10103617
+        "actionID": 10103624
       }
     ],
     "normalAttackCritID": -1,
     "skillList": [
       {
-        "actionId": 10103619,
+        "actionId": 10103622,
         "activeFrame": 180,
         "activeTime": 1.0,
-        "rangeSN": 240000
+        "rangeSN": 40000
       },
       {
-        "actionId": 10103618,
-        "activeFrame": 612,
+        "actionId": 10103623,
+        "activeFrame": 640,
         "activeTime": 1.0,
-        "rangeSN": 240000
+        "rangeSN": 40000
       }
     ],
     "isInvisibleBeforeShowUp": false,
     "showupSkillList": [],
-    "skillLoopDelayFrame": 228,
+    "skillLoopDelayFrame": 300,
     "shapeShiftList": [],
     "commandList": [],
     "enemySkillList": [],
@@ -21034,7 +21034,79 @@
     "energySkillList": [],
     "energyRestorePerFrameSN": 0,
     "isSkillDelay": true,
+    "minDelay": 60,
+    "maxDelay": 120
+  },
+  {
+    "id": 10300504,
+    "idCN": "爬塔/深眠者/远祖的果报",
+    "mod": "BOSSAI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10103097
+      },
+      {
+        "actionID": 10103098
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10103091,
+        "activeFrame": 360,
+        "activeTime": 6.0,
+        "rangeSN": 240000
+      },
+      {
+        "actionId": 10103092,
+        "activeFrame": 960,
+        "activeTime": 16.0,
+        "rangeSN": 240000
+      },
+      {
+        "actionId": 10103095,
+        "activeFrame": 1560,
+        "activeTime": 26.0,
+        "rangeSN": 240000
+      },
+      {
+        "actionId": 10103092,
+        "activeFrame": 2160,
+        "activeTime": 36.0,
+        "rangeSN": 240000
+      },
+      {
+        "actionId": 10103095,
+        "activeFrame": 2760,
+        "activeTime": 46.0,
+        "rangeSN": 240000
+      }
+    ],
+    "isInvisibleBeforeShowUp": true,
+    "showupSkillList": [
+      {
+        "actionId": 10103633
+      }
+    ],
+    "skillLoopDelayFrame": 0,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": true,
+    "energySkillList": [
+      {
+        "actionId": 10103096,
+        "isClearEnergy": true,
+        "rangeSN": 240000
+      }
+    ],
+    "energyRestorePerFrameSN": 280,
+    "isSkillDelay": false,
     "minDelay": 120,
-    "maxDelay": 180
+    "maxDelay": 360
   }
 ]
