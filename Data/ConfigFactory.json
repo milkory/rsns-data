@@ -2343,6 +2343,54 @@
         "id": 81001011
       }
     ],
+    "passAnyTowerLevel": [
+      {
+        "id": 81001273
+      },
+      {
+        "id": 81001272
+      },
+      {
+        "id": 81000906
+      },
+      {
+        "id": 81000905
+      },
+      {
+        "id": 81000904
+      },
+      {
+        "id": 81001366
+      },
+      {
+        "id": 81001367
+      },
+      {
+        "id": 81001368
+      }
+    ],
+    "passAnyTwigLevel": [
+      {
+        "id": 81001297
+      },
+      {
+        "id": 81001298
+      },
+      {
+        "id": 81001299
+      }
+    ],
+    "passAnyBuoyLevel": [
+      {
+        "id": 81001300
+      },
+      {
+        "id": 81001301
+      },
+      {
+        "id": 81001302
+      }
+    ],
     "passBylevelId": [
       {
         "id": 81000650
@@ -3189,12 +3237,85 @@
       },
       {
         "id": 81001547
+      },
+      {
+        "id": 81001552
+      },
+      {
+        "id": 81001553
+      },
+      {
+        "id": 81001554
+      },
+      {
+        "id": 81001555
+      },
+      {
+        "id": 81001556
+      },
+      {
+        "id": 81001557
+      },
+      {
+        "id": 81001558
+      },
+      {
+        "id": 81001559
+      },
+      {
+        "id": 81001560
+      },
+      {
+        "id": 81001561
       }
     ],
     "passByChapterId": [],
     "passBylevelIdAndGrade": [],
     "passAnyLevelByGrade": [],
     "passMainLevelByGrade": [],
+    "passBattleLevelAll": [
+      {
+        "id": 81001864
+      },
+      {
+        "id": 81001858
+      },
+      {
+        "id": 81001869
+      },
+      {
+        "id": 81001870
+      },
+      {
+        "id": 81001871
+      },
+      {
+        "id": 81001877
+      },
+      {
+        "id": 81001883
+      }
+    ],
+    "passSafeLevelAll": [
+      {
+        "id": 81001857
+      },
+      {
+        "id": 81001863
+      },
+      {
+        "id": 81001862
+      },
+      {
+        "id": 81001868
+      },
+      {
+        "id": 81001876
+      },
+      {
+        "id": 81001882
+      }
+    ],
     "passSafeLevelLimitCity": [
       {
         "id": 81000014
@@ -4106,6 +4227,11 @@
         "id": 81001878
       }
     ],
+    "roleIdGrade": [
+      {
+        "id": 81001853
+      }
+    ],
     "resonance": [
       {
         "id": 81001024
@@ -4580,102 +4706,6 @@
       }
     ],
     "shopCostItem": [],
-    "passAnyTowerLevel": [
-      {
-        "id": 81001273
-      },
-      {
-        "id": 81001272
-      },
-      {
-        "id": 81000906
-      },
-      {
-        "id": 81000905
-      },
-      {
-        "id": 81000904
-      },
-      {
-        "id": 81001366
-      },
-      {
-        "id": 81001367
-      },
-      {
-        "id": 81001368
-      }
-    ],
-    "passAnyTwigLevel": [
-      {
-        "id": 81001297
-      },
-      {
-        "id": 81001298
-      },
-      {
-        "id": 81001299
-      }
-    ],
-    "passAnyBuoyLevel": [
-      {
-        "id": 81001300
-      },
-      {
-        "id": 81001301
-      },
-      {
-        "id": 81001302
-      }
-    ],
-    "passBattleLevelAll": [
-      {
-        "id": 81001864
-      },
-      {
-        "id": 81001858
-      },
-      {
-        "id": 81001869
-      },
-      {
-        "id": 81001870
-      },
-      {
-        "id": 81001871
-      },
-      {
-        "id": 81001877
-      },
-      {
-        "id": 81001883
-      }
-    ],
-    "passSafeLevelAll": [
-      {
-        "id": 81001857
-      },
-      {
-        "id": 81001863
-      },
-      {
-        "id": 81001862
-      },
-      {
-        "id": 81001868
-      },
-      {
-        "id": 81001876
-      },
-      {
-        "id": 81001882
-      }
-    ],
-    "roleIdGrade": [
-      {
-        "id": 81001853
-      }
-    ],
     "recycleMaterial": [
       {
         "id": 81001316
@@ -9501,6 +9531,10 @@
         "value": "<color=#FF6666>斩裂效果极佳</color>"
       },
       {
+        "key": "蚀灭",
+        "value": "<color=#FF6666>蚀灭</color>"
+      },
+      {
         "key": "重伤",
         "value": "<color=#FF6666>重伤</color>"
       },
@@ -9887,6 +9921,10 @@
       {
         "key": "【斩裂】",
         "value": "<color=#FF6666>【斩裂】</color>"
+      },
+      {
+        "key": "【蚀灭】",
+        "value": "<color=#FF6666>【蚀灭】</color>"
       },
       {
         "key": "【重伤】",
@@ -16808,6 +16846,10 @@
       {
         "ChapterList": 20602651,
         "questId": -1
+      },
+      {
+        "ChapterList": 20602739,
+        "questId": -1
       }
     ]
   },
@@ -21711,9 +21753,11 @@
     "nameEN": "ActivityConfig",
     "activeList": [
       {
+        "countDownMax": 3,
         "endTime": "2030-01-01 00:00:00",
         "id": 86000003,
-        "isCompleteBottom": false,
+        "isCompleteBottom": true,
+        "isCountDown": false,
         "name": 80602403,
         "png": "UI/Activity/Tab/tab_sign",
         "showUI": "",
@@ -21722,9 +21766,11 @@
         "tag": 12601070
       },
       {
+        "countDownMax": 3,
         "endTime": "2030-01-01 00:00:00",
         "id": 86000017,
         "isCompleteBottom": false,
+        "isCountDown": false,
         "name": 80607846,
         "png": "UI/Activity/Regression/tab",
         "showUI": "UI/Activity/Regression/Regression",
@@ -21733,9 +21779,11 @@
         "tag": 12601356
       },
       {
+        "countDownMax": 3,
         "endTime": "",
         "id": 86000005,
         "isCompleteBottom": false,
+        "isCountDown": false,
         "name": 80607258,
         "png": "UI/Activity/Tab/tab_battleBoss",
         "showUI": "UI/Activity/ActivityBattleBoss/ActivityBattleBoss",
@@ -21744,9 +21792,11 @@
         "tag": 12601209
       },
       {
+        "countDownMax": 3,
         "endTime": "",
         "id": 86000001,
         "isCompleteBottom": false,
+        "isCountDown": true,
         "name": 80602404,
         "png": "UI/Activity/Tab/tab_black",
         "showUI": "",
@@ -21755,9 +21805,11 @@
         "tag": 12601071
       },
       {
-        "endTime": "2024-12-21 00:00:00",
+        "countDownMax": 3,
+        "endTime": "",
         "id": 86000038,
         "isCompleteBottom": false,
+        "isCountDown": false,
         "name": 80609096,
         "png": "UI/Activity/Tab/tab_hotel",
         "showUI": "UI/Activity/Hotel/HotelActivity",
@@ -21766,9 +21818,11 @@
         "tag": 12601453
       },
       {
+        "countDownMax": 3,
         "endTime": "",
         "id": 86000002,
         "isCompleteBottom": false,
+        "isCountDown": false,
         "name": 80606880,
         "png": "UI/Activity/Tab/tab_construction",
         "showUI": "",
@@ -21777,9 +21831,11 @@
         "tag": 12600158
       },
       {
+        "countDownMax": 3,
         "endTime": "",
         "id": 86000022,
         "isCompleteBottom": false,
+        "isCountDown": false,
         "name": 80608042,
         "png": "UI/Activity/Tab/tab_prison",
         "showUI": "UI/Activity/Prison/PrisonActivity",
@@ -21788,9 +21844,11 @@
         "tag": 12601410
       },
       {
+        "countDownMax": 3,
         "endTime": "",
         "id": 86000009,
         "isCompleteBottom": false,
+        "isCountDown": true,
         "name": 80607103,
         "png": "UI/Activity/Tab/tab_monster",
         "showUI": "UI/Activity/Monster/MonsterActivity",
@@ -21799,9 +21857,11 @@
         "tag": 12600539
       },
       {
+        "countDownMax": 3,
         "endTime": "",
         "id": 86000016,
         "isCompleteBottom": false,
+        "isCountDown": false,
         "name": 80607837,
         "png": "UI/Activity/Tab/tab_summer",
         "showUI": "UI/Activity/Summer/IslandActivity/IslandActivity",
@@ -21810,9 +21870,11 @@
         "tag": 12601355
       },
       {
+        "countDownMax": 3,
         "endTime": "",
         "id": 86000014,
         "isCompleteBottom": false,
+        "isCountDown": false,
         "name": 80607407,
         "png": "UI/Activity/Tab/Tab_Anecdote",
         "showUI": "UI/Activity/Anecdote/AnecdoteActivity",
@@ -21832,9 +21894,11 @@
         "tag": 12601150
       },
       {
+        "countDownMax": 3,
         "endTime": "",
         "id": 86000004,
         "isCompleteBottom": false,
+        "isCountDown": false,
         "name": 80606888,
         "png": "UI/Activity/Tab/tab_level",
         "showUI": "",
@@ -21843,15 +21907,30 @@
         "tag": 12601086
       },
       {
+        "countDownMax": 3,
         "endTime": "",
         "id": 86000020,
         "isCompleteBottom": false,
+        "isCountDown": false,
         "name": 80608741,
         "png": "UI/Activity/Tab/tab_monster",
         "showUI": "UI/Activity/ActivityMonopoly/MonopolyMain",
         "sort": 0,
         "startTime": "2025-11-08 05:00:00",
         "tag": 12601422
+      },
+      {
+        "countDownMax": 3,
+        "endTime": "2025-01-31 04:59:00",
+        "id": 86000035,
+        "isCompleteBottom": false,
+        "isCountDown": false,
+        "name": 80609511,
+        "png": "UI/Activity/ActivitySignIn/IronFortress/Tag",
+        "showUI": "",
+        "sort": 0,
+        "startTime": "2025-01-01 05:00:00",
+        "tag": 12601103
       }
     ],
     "questList": []
@@ -24481,7 +24560,8 @@
     "cancelCD": 180,
     "cancelNumW": 20,
     "timeoutCD": 600,
-    "timeoutNumW": 10
+    "timeoutNumW": 10,
+    "refreshCD": 10
   },
   {
     "id": 99900088,
