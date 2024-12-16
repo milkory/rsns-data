@@ -1,0 +1,187 @@
+[
+  {
+    "id": 72800001,
+    "idCN": "拦路怪/路障怪",
+    "mod": "生成单位",
+    "isInformalData": false,
+    "camp": "Enemy",
+    "createList": [
+      {
+        "atk": 3000,
+        "atkCD": 10.0,
+        "distance": 30,
+        "exitTime": 10.0,
+        "hp": 100000,
+        "num": 1,
+        "score": 3000,
+        "subMonsterNum": 1,
+        "unit": 72600006
+      }
+    ]
+  },
+  {
+    "id": 72800003,
+    "idCN": "尸潮事件/测试尸潮",
+    "mod": "激增单位",
+    "isInformalData": false,
+    "camp": "Enemy",
+    "unit": 72600002,
+    "num": 66,
+    "duration": 10.0,
+    "createUnitRangeY": 20.0
+  },
+  {
+    "id": 72800004,
+    "idCN": "岔路/岔路测试加速",
+    "mod": "岔路",
+    "isInformalData": false,
+    "camp": "None",
+    "junctionNum": 2,
+    "buffList": [
+      {
+        "buff": 72600008,
+        "weight": 1
+      },
+      {
+        "buff": 72600008,
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": 72800005,
+    "idCN": "岔路/岔路测试无敌",
+    "mod": "岔路",
+    "isInformalData": false,
+    "camp": "None",
+    "junctionNum": 3,
+    "buffList": [
+      {
+        "buff": 72600018,
+        "weight": 1
+      },
+      {
+        "buff": 72600018,
+        "weight": 1
+      },
+      {
+        "buff": 72600018,
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": 72800006,
+    "idCN": "跟踪怪/自爆怪",
+    "mod": "生成单位",
+    "isInformalData": false,
+    "camp": "Enemy",
+    "createList": [
+      {
+        "atk": 500,
+        "atkCD": 10.0,
+        "distance": 10,
+        "exitTime": 1000.0,
+        "hp": 100000,
+        "num": 1,
+        "score": 100,
+        "subMonsterNum": 12,
+        "unit": 72600005
+      }
+    ]
+  },
+  {
+    "id": 72800007,
+    "idCN": "跟踪怪/大章鱼",
+    "mod": "生成单位",
+    "isInformalData": false,
+    "camp": "Enemy",
+    "createList": [
+      {
+        "atk": 500,
+        "atkCD": 10.0,
+        "distance": 10,
+        "exitTime": 50.0,
+        "hp": 5000,
+        "num": 1,
+        "score": 1000,
+        "subMonsterNum": 1,
+        "unit": 72600013
+      }
+    ]
+  },
+  {
+    "id": 72800008,
+    "idCN": "岔路/岔路测试装甲",
+    "mod": "岔路",
+    "isInformalData": false,
+    "camp": "None",
+    "junctionNum": 2,
+    "buffList": [
+      {
+        "buff": 72600010,
+        "weight": 1
+      },
+      {
+        "buff": 72600010,
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": 72800009,
+    "idCN": "岔路/岔路测试恢复耐久",
+    "mod": "岔路",
+    "isInformalData": false,
+    "camp": "None",
+    "junctionNum": 2,
+    "buffList": [
+      {
+        "buff": 72600009,
+        "weight": 1
+      },
+      {
+        "buff": 72600009,
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": 72800010,
+    "idCN": "岔路/岔路测试补充弹药",
+    "mod": "岔路",
+    "isInformalData": false,
+    "camp": "None",
+    "junctionNum": 2,
+    "buffList": [
+      {
+        "buff": 72600017,
+        "weight": 1
+      },
+      {
+        "buff": 72600017,
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": 72800011,
+    "idCN": "跟踪怪/大章鱼（测试逃跑）",
+    "mod": "生成单位",
+    "isInformalData": false,
+    "camp": "Enemy",
+    "createList": [
+      {
+        "atk": 100,
+        "atkCD": 1000.0,
+        "distance": 10,
+        "exitTime": 20.0,
+        "hp": 100000,
+        "num": 1,
+        "score": 1000,
+        "subMonsterNum": 1,
+        "unit": 72600013
+      }
+    ]
+  }
+]

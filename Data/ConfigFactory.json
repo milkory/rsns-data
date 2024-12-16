@@ -137,7 +137,7 @@
     "wActivityItem": 11400021,
     "isStageQuest": true,
     "isSkinSkill": false,
-    "emptyTipQuest": 81000028,
+    "emptyTipQuest": 81001199,
     "equipmentBag": 2000,
     "itemBag": 1000,
     "materialBag": 1000,
@@ -6240,13 +6240,69 @@
   },
   {
     "id": 99900010,
-    "idCN": "日常任务表",
+    "idCN": "活动/活跃任务",
     "mod": "日常任务表",
     "isInformalData": false,
     "nameEN": "DailyQuestConfig",
     "questNum": 0,
-    "dailyQuestList": [],
-    "apRewardList": [],
+    "dailyQuestList": [
+      {
+        "id": 81002041
+      },
+      {
+        "id": 81002045
+      },
+      {
+        "id": 81002046
+      },
+      {
+        "id": 81002047
+      },
+      {
+        "id": 81002048
+      },
+      {
+        "id": 81002049
+      },
+      {
+        "id": 81002050
+      },
+      {
+        "id": 81002051
+      }
+    ],
+    "apRewardList": [
+      {
+        "ap": 100,
+        "id": 11400045,
+        "num": 1
+      },
+      {
+        "ap": 200,
+        "id": 11400001,
+        "num": 100000
+      },
+      {
+        "ap": 300,
+        "id": 11400005,
+        "num": 10
+      },
+      {
+        "ap": 400,
+        "id": 11400001,
+        "num": 100000
+      },
+      {
+        "ap": 500,
+        "id": 11700078,
+        "num": 4
+      },
+      {
+        "ap": 600,
+        "id": 11400217,
+        "num": 1
+      }
+    ],
     "getCost": [],
     "weeklyQuestList": [],
     "wApRewardList": [],
@@ -24665,13 +24721,16 @@
         "id": 80500029
       },
       {
-        "id": 80500122
+        "id": 80500045
       },
       {
         "id": 80500192
       },
       {
-        "id": 80500045
+        "id": 80500190
+      },
+      {
+        "id": 80500122
       },
       {
         "id": 80500128
@@ -24746,6 +24805,27 @@
         "id": 80500008
       }
     ]
+  },
+  {
+    "id": 99900084,
+    "idCN": "尸潮/基础配置",
+    "mod": "尸潮配置",
+    "isInformalData": false,
+    "nameEN": "TradeConfig",
+    "Gravity": 15.0,
+    "perLoadMonsterPointCount": 10,
+    "firstPointLoadMonster": false,
+    "BuffDistance": 60.0,
+    "roadDistanceRange": 5.0,
+    "createUnitRangeY": 12.0,
+    "createUnitRangeX": 2.0,
+    "heightCamera": 1.36,
+    "offsetZCamera": -3.3,
+    "speedRatio": 20.0,
+    "sideRandom": 5,
+    "damageParam1": 100,
+    "damageParam2": 1.0,
+    "damageParam3": 1.0
   },
   {
     "id": 99900053,
@@ -24844,6 +24924,309 @@
       {
         "id": 11400018,
         "timesNum": 1
+      }
+    ]
+  },
+  {
+    "id": 99900114,
+    "idCN": "ESC映射配置表",
+    "mod": "ESC映射",
+    "isInformalData": false,
+    "nameEN": "ESCGroupConfig",
+    "groupList": [
+      {
+        "childName": "",
+        "childUrl": "",
+        "nameBtn": "Btn_Close",
+        "uiName": "Notice_beforeLogin"
+      },
+      {
+        "childName": "",
+        "childUrl": "",
+        "nameBtn": "Btn_GoBack",
+        "uiName": "TestLevelDetail"
+      },
+      {
+        "childName": "",
+        "childUrl": "",
+        "nameBtn": "Btn_BG",
+        "uiName": "PassageTrafficRank"
+      },
+      {
+        "childName": "",
+        "childUrl": "",
+        "nameBtn": "Btn_BG",
+        "uiName": "RankList"
+      },
+      {
+        "childName": "Screen_Chapter_New",
+        "childUrl": "Screen_Chapter_New/Btn_Cancel",
+        "nameBtn": "Group_CommonTopLeft/Btn_Return",
+        "uiName": "CharacterList"
+      },
+      {
+        "childName": "",
+        "childUrl": "",
+        "nameBtn": "Btn_",
+        "uiName": "Group_Help"
+      },
+      {
+        "childName": "",
+        "childUrl": "",
+        "nameBtn": "Btn_BG",
+        "uiName": "ItemTips"
+      },
+      {
+        "childName": "",
+        "childUrl": "",
+        "nameBtn": "Btn_Black",
+        "uiName": "Group_EquipmentItem"
+      },
+      {
+        "childName": "",
+        "childUrl": "",
+        "nameBtn": "Btn_BG",
+        "uiName": "EmptyTip"
+      },
+      {
+        "childName": "",
+        "childUrl": "",
+        "nameBtn": "Btn_Cancel",
+        "uiName": "QuickSet"
+      },
+      {
+        "childName": "",
+        "childUrl": "",
+        "nameBtn": "Btn_BG",
+        "uiName": "CardDeatil"
+      },
+      {
+        "childName": "",
+        "childUrl": "",
+        "nameBtn": "Btn_Close",
+        "uiName": "CardYard"
+      },
+      {
+        "childName": "",
+        "childUrl": "",
+        "nameBtn": "Btn_Close",
+        "uiName": "Setting"
+      },
+      {
+        "childName": "",
+        "childUrl": "",
+        "nameBtn": "Btn_Cancel",
+        "uiName": "Group_InputName"
+      },
+      {
+        "childName": "",
+        "childUrl": "",
+        "nameBtn": "Btn_Close",
+        "uiName": "LifeSkill"
+      },
+      {
+        "childName": "",
+        "childUrl": "",
+        "nameBtn": "Btn_Close",
+        "uiName": "DailyAttendance"
+      },
+      {
+        "childName": "",
+        "childUrl": "",
+        "nameBtn": "Btn_BG",
+        "uiName": "ItemPreTips"
+      },
+      {
+        "childName": "Group_AllRep",
+        "childUrl": "Group_AllRep/Btn_Close",
+        "nameBtn": "Btn_Close",
+        "uiName": "ESC"
+      },
+      {
+        "childName": "",
+        "childUrl": "",
+        "nameBtn": "Btn_Cancel",
+        "uiName": "Prompt"
+      },
+      {
+        "childName": "",
+        "childUrl": "",
+        "nameBtn": "Btn_",
+        "uiName": "Overview"
+      },
+      {
+        "childName": "Group_Filter#Group_CityChose",
+        "childUrl": "Group_Filter/Btn_BG#Group_CityChose/Btn_BG",
+        "nameBtn": "Group_CommonTopLeft/Btn_Return",
+        "uiName": "Depot"
+      },
+      {
+        "childName": "",
+        "childUrl": "",
+        "nameBtn": "Btn_OK",
+        "uiName": "ShowItem"
+      },
+      {
+        "childName": "",
+        "childUrl": "",
+        "nameBtn": "Btn_BG",
+        "uiName": "ChoseSkin"
+      },
+      {
+        "childName": "",
+        "childUrl": "",
+        "nameBtn": "Btn_BG",
+        "uiName": "SelectItem2"
+      },
+      {
+        "childName": "",
+        "childUrl": "",
+        "nameBtn": "Group_CardYard/Group_CommonTopLeft/Btn_Return",
+        "uiName": "Squads"
+      },
+      {
+        "childName": "",
+        "childUrl": "",
+        "nameBtn": "Btn_Back",
+        "uiName": "Group_GetWay"
+      },
+      {
+        "childName": "",
+        "childUrl": "",
+        "nameBtn": "Btn_BG",
+        "uiName": "GoodsTips"
+      },
+      {
+        "childName": "",
+        "childUrl": "",
+        "nameBtn": "Btn_BG",
+        "uiName": "Group_TabLevelUp"
+      },
+      {
+        "childName": "",
+        "childUrl": "",
+        "nameBtn": "Btn_Close",
+        "uiName": "LifeSkillTips"
+      },
+      {
+        "childName": "",
+        "childUrl": "",
+        "nameBtn": "Group_CommonTopLeft/Btn_Return",
+        "uiName": "FlierMain"
+      },
+      {
+        "childName": "GroupSendPosPanel#Group_SendNum",
+        "childUrl": "GroupSendPosPanel/Group_CommonTopLeft/Btn_Return#Group_SendNum/Btn_Cancel",
+        "nameBtn": "GroupTopPanel/Group_TopLeft/Group_CommonTopLeft/Btn_Return",
+        "uiName": "Flier"
+      },
+      {
+        "childName": "",
+        "childUrl": "",
+        "nameBtn": "Btn_OK",
+        "uiName": "FlierSendSuccess"
+      },
+      {
+        "childName": "",
+        "childUrl": "",
+        "nameBtn": "Btn_Close",
+        "uiName": "GachaDetails"
+      },
+      {
+        "childName": "",
+        "childUrl": "",
+        "nameBtn": "Group_BuyItem/Btn_Cancel",
+        "uiName": "GachaNew"
+      },
+      {
+        "childName": "Group_BuyLevel",
+        "childUrl": "Group_BuyLevel/Btn_Cancel",
+        "nameBtn": "Group_CommonTopLeft/Btn_Return",
+        "uiName": "BattlePass_Quest"
+      },
+      {
+        "childName": "",
+        "childUrl": "",
+        "nameBtn": "Btn_Close",
+        "uiName": "PhotoTips"
+      },
+      {
+        "childName": "",
+        "childUrl": "",
+        "nameBtn": "Btn_BG",
+        "uiName": "DressTips"
+      },
+      {
+        "childName": "",
+        "childUrl": "",
+        "nameBtn": "Btn_BG",
+        "uiName": "Screen_GetTies"
+      },
+      {
+        "childName": "",
+        "childUrl": "",
+        "nameBtn": "Group_CommonTopLeft/Btn_Return",
+        "uiName": "Store"
+      },
+      {
+        "childName": "",
+        "childUrl": "",
+        "nameBtn": "Btn_BG",
+        "uiName": "BuyGiftTips"
+      },
+      {
+        "childName": "",
+        "childUrl": "",
+        "nameBtn": "Group_Overview/Btn_",
+        "uiName": "CoreGradeTips"
+      },
+      {
+        "childName": "",
+        "childUrl": "",
+        "nameBtn": "Group_CommonTopLeft/Btn_Return",
+        "uiName": "PrisonerList"
+      },
+      {
+        "childName": "Screen_AddFood",
+        "childUrl": "Screen_AddFood/Btn_BG",
+        "nameBtn": "Group_CommonTopLeft/Btn_Return",
+        "uiName": "PetHouse"
+      },
+      {
+        "childName": "",
+        "childUrl": "",
+        "nameBtn": "Btn_Close",
+        "uiName": "MachineLevelTip"
+      },
+      {
+        "childName": "",
+        "childUrl": "",
+        "nameBtn": "Btn_Close",
+        "uiName": "TransportLevelTip"
+      },
+      {
+        "childName": "Group_MailInfo_Normal",
+        "childUrl": "Group_MailInfo_Normal/Group_CommonTopLeft/Btn_Return",
+        "nameBtn": "Group_CommonTopLeft/Btn_Return",
+        "uiName": "Mail"
+      },
+      {
+        "childName": "Group_CardChoose",
+        "childUrl": "Group_CardChoose/Btn_Close",
+        "nameBtn": "Group_TopLeft/Btn_Return",
+        "uiName": "Friends"
+      },
+      {
+        "childName": "Group_Page2",
+        "childUrl": "Group_Page2/Btn_Cancel",
+        "nameBtn": "Group_PickEnergyWay/Group_CommonTopLeft/Btn_Return",
+        "uiName": "Energy"
+      },
+      {
+        "childName": "Group_Tips",
+        "childUrl": "Group_Tips/Btn_Confirm",
+        "nameBtn": "Btn_Skip",
+        "uiName": "Dialog"
       }
     ]
   }

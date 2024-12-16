@@ -1,0 +1,257 @@
+[
+  {
+    "id": 72500003,
+    "idCN": "主技能/主-机关枪",
+    "mod": "主技能-同时",
+    "isInformalData": false,
+    "CD": 0.1,
+    "SubSkills": [
+      {
+        "id": 72500001
+      }
+    ],
+    "RunningEvents": []
+  },
+  {
+    "id": 72500001,
+    "idCN": "子技能/子-机关枪",
+    "mod": "子技能",
+    "isInformalData": false,
+    "LifeTime": 0.2,
+    "InterruptTime": 0.2,
+    "BulletList": [],
+    "EffectList": [],
+    "AudioList": [],
+    "AnimList": [
+      {
+        "StartTime": 0.0,
+        "StateName": "skill01"
+      }
+    ],
+    "RunningEvents": [
+      {
+        "EventType": "HitTarget",
+        "Param1": "",
+        "Param2": "",
+        "Param3": "",
+        "StartTime": 0.0
+      }
+    ]
+  },
+  {
+    "id": 72500002,
+    "idCN": "主技能/大章鱼/跟随撞击",
+    "mod": "主技能-同时",
+    "isInformalData": false,
+    "CD": 5.0,
+    "SubSkills": [
+      {
+        "id": 72500004
+      }
+    ],
+    "RunningEvents": []
+  },
+  {
+    "id": 72500004,
+    "idCN": "子技能/怪/跟随撞击",
+    "mod": "子技能",
+    "isInformalData": false,
+    "LifeTime": 1.0,
+    "InterruptTime": 0.5,
+    "BulletList": [],
+    "EffectList": [],
+    "AudioList": [],
+    "AnimList": [
+      {
+        "StartTime": 0.0,
+        "StateName": "Skill01"
+      }
+    ],
+    "RunningEvents": [
+      {
+        "EventType": "HitTarget",
+        "Param1": "Train",
+        "Param2": "",
+        "Param3": "",
+        "StartTime": 0.5
+      }
+    ]
+  },
+  {
+    "id": 72500005,
+    "idCN": "子技能/怪/跟随出场",
+    "mod": "子技能",
+    "isInformalData": false,
+    "LifeTime": 1.0,
+    "InterruptTime": 1.0,
+    "BulletList": [],
+    "EffectList": [],
+    "AudioList": [
+      {
+        "StartTime": 0.0,
+        "id": 30001206
+      }
+    ],
+    "AnimList": [
+      {
+        "StartTime": 0.0,
+        "StateName": "Born"
+      }
+    ],
+    "RunningEvents": []
+  },
+  {
+    "id": 72500006,
+    "idCN": "主技能/大章鱼/跟随出场",
+    "mod": "主技能-同时",
+    "isInformalData": false,
+    "CD": 0.0,
+    "SubSkills": [
+      {
+        "id": 72500005
+      }
+    ],
+    "RunningEvents": []
+  },
+  {
+    "id": 72500007,
+    "idCN": "主技能/列车/受击01",
+    "mod": "主技能-同时",
+    "isInformalData": false,
+    "CD": 0.0,
+    "SubSkills": [
+      {
+        "id": 72500008
+      }
+    ],
+    "RunningEvents": []
+  },
+  {
+    "id": 72500008,
+    "idCN": "子技能/列车/受击01",
+    "mod": "子技能",
+    "isInformalData": false,
+    "LifeTime": 1.0,
+    "InterruptTime": 1.0,
+    "BulletList": [],
+    "EffectList": [],
+    "AudioList": [
+      {}
+    ],
+    "AnimList": [
+      {
+        "StartTime": 0.0,
+        "StateName": "Hitted"
+      }
+    ],
+    "RunningEvents": []
+  },
+  {
+    "id": 72500009,
+    "idCN": "主技能/大章鱼/机枪受击",
+    "mod": "主技能-同时",
+    "isInformalData": false,
+    "CD": 0.0,
+    "SubSkills": [
+      {
+        "id": 72500010
+      }
+    ],
+    "RunningEvents": []
+  },
+  {
+    "id": 72500010,
+    "idCN": "子技能/怪/机枪受击",
+    "mod": "子技能",
+    "isInformalData": false,
+    "LifeTime": 1.0,
+    "InterruptTime": 0.0,
+    "BulletList": [],
+    "EffectList": [],
+    "AudioList": [],
+    "AnimList": [],
+    "RunningEvents": []
+  },
+  {
+    "id": 72500013,
+    "idCN": "主技能/测试/死亡",
+    "mod": "主技能-同时",
+    "isInformalData": false,
+    "CD": 0.0,
+    "SubSkills": [
+      {
+        "id": 72500014
+      }
+    ],
+    "RunningEvents": []
+  },
+  {
+    "id": 72500014,
+    "idCN": "子技能/测试/死亡",
+    "mod": "子技能",
+    "isInformalData": false,
+    "LifeTime": 1.0,
+    "InterruptTime": 1.0,
+    "BulletList": [],
+    "EffectList": [],
+    "AudioList": [
+      {
+        "StartTime": 0.0,
+        "id": 30001206
+      }
+    ],
+    "AnimList": [
+      {
+        "StartTime": 0.0,
+        "StateName": "Born"
+      }
+    ],
+    "RunningEvents": []
+  },
+  {
+    "id": 72500015,
+    "idCN": "子技能/自爆怪/跟随攻击",
+    "mod": "子技能",
+    "isInformalData": false,
+    "LifeTime": 1.0,
+    "InterruptTime": 0.5,
+    "BulletList": [],
+    "EffectList": [],
+    "AudioList": [],
+    "AnimList": [
+      {
+        "StartTime": 0.0,
+        "StateName": "Skill01"
+      }
+    ],
+    "RunningEvents": [
+      {
+        "EventType": "HitTarget",
+        "Param1": "Train",
+        "Param2": "",
+        "Param3": "",
+        "StartTime": 0.5
+      },
+      {
+        "EventType": "Death",
+        "Param1": "",
+        "Param2": "",
+        "Param3": "",
+        "StartTime": 0.98
+      }
+    ]
+  },
+  {
+    "id": 72500016,
+    "idCN": "主技能/自爆怪/跟随攻击",
+    "mod": "主技能-同时",
+    "isInformalData": false,
+    "CD": 5.0,
+    "SubSkills": [
+      {
+        "id": 72500015
+      }
+    ],
+    "RunningEvents": []
+  }
+]
