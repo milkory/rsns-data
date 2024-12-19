@@ -434,6 +434,30 @@
       {
         "levelId": 20100136,
         "unitId": 10000171
+      },
+      {
+        "levelId": 20101338,
+        "unitId": 10000679
+      },
+      {
+        "levelId": 20101339,
+        "unitId": 10000679
+      },
+      {
+        "levelId": 20101340,
+        "unitId": 10000679
+      },
+      {
+        "levelId": 20101341,
+        "unitId": 10000679
+      },
+      {
+        "levelId": 20101342,
+        "unitId": 10000679
+      },
+      {
+        "levelId": 20101343,
+        "unitId": 10000679
       }
     ],
     "LoadingTextList": [
@@ -3267,6 +3291,9 @@
       },
       {
         "id": 81001561
+      },
+      {
+        "id": 81002043
       }
     ],
     "passByChapterId": [],
@@ -3484,7 +3511,11 @@
       }
     ],
     "passAnyResLevel": [],
-    "energyCost": [],
+    "energyCost": [
+      {
+        "id": -1
+      }
+    ],
     "useShield": [],
     "dizziness": [],
     "cure": [],
@@ -4225,6 +4256,9 @@
       },
       {
         "id": 81001878
+      },
+      {
+        "id": -1
       }
     ],
     "roleIdGrade": [
@@ -4547,6 +4581,9 @@
       },
       {
         "id": 81001374
+      },
+      {
+        "id": 81002041
       }
     ],
     "elecLevelUp": [
@@ -4897,6 +4934,9 @@
       },
       {
         "id": 81001879
+      },
+      {
+        "id": -1
       }
     ],
     "makeTrainWeapon": [
@@ -5279,6 +5319,9 @@
       },
       {
         "id": 81001881
+      },
+      {
+        "id": -1
       }
     ],
     "publicize": [
@@ -15482,6 +15525,14 @@
         "guideNO": 132
       },
       {
+        "guideId": 20900144,
+        "guideNO": 132
+      },
+      {
+        "guideId": 20900145,
+        "guideNO": 141
+      },
+      {
         "guideId": 20900047,
         "guideNO": 141
       },
@@ -21978,6 +22029,19 @@
       {
         "countDownMax": 3,
         "endTime": "2025-01-31 04:59:00",
+        "id": 86000031,
+        "isCompleteBottom": false,
+        "isCountDown": false,
+        "name": 80609550,
+        "png": "UI/Activity/Tab/tab_kabaneri",
+        "showUI": "UI/Activity/Kabaneri/KabaneriActivity",
+        "sort": 0,
+        "startTime": "2025-01-01 05:00:00",
+        "tag": 12601501
+      },
+      {
+        "countDownMax": 3,
+        "endTime": "2025-01-31 04:59:00",
         "id": 86000035,
         "isCompleteBottom": false,
         "isCountDown": false,
@@ -22606,6 +22670,18 @@
         "spineX": -130.0,
         "spineY": 0.0,
         "startTime": "2024-11-27 05:00:00"
+      },
+      {
+        "anecdoteName": "为谁闪烁",
+        "brief": "星花特意发邮件说希望和你在7号自由港的咖啡厅碰面。平时总是独力解决问题的天才研究员小姐，遇见了什么样的困难呢？",
+        "characterId": 10000298,
+        "faceUrl": "UI/Quest/Anecdote/Images/Stella",
+        "id": 81002040,
+        "plotReviewId": 20602770,
+        "questId": 81002044,
+        "spineX": 0.0,
+        "spineY": 0.0,
+        "startTime": "2024-12-20 05:00:00"
       }
     ]
   },
@@ -22945,15 +23021,13 @@
       }
     ],
     "entrustQueueList": [
-      {
-        "id": -1
-      },
+      {},
       {
         "id": 84400009
       }
     ],
     "recommendCoefficient": 0.05,
-    "levelCoefficient": 6.0,
+    "levelCoefficient": 8.0,
     "gradeCoefficientSSR": 10,
     "resonanceCoefficientSSR": 50,
     "awakeCoefficientSSR": 100,
@@ -24718,6 +24792,9 @@
     "nameEN": "BannerConfig",
     "bannerList": [
       {
+        "id": 80500031
+      },
+      {
         "id": 80500029
       },
       {
@@ -24751,52 +24828,31 @@
         "id": 80500127
       },
       {
-        "id": 80500023
-      },
-      {
-        "id": 80500024
-      },
-      {
-        "id": 80500009
-      },
-      {
-        "id": 80500028
-      },
-      {
-        "id": 80500033
-      },
-      {
-        "id": 80500193
-      },
-      {
-        "id": 80500005
-      },
-      {
-        "id": 80500012
-      },
-      {
-        "id": 80500019
-      },
-      {
-        "id": 80500011
+        "id": 80500007
       },
       {
         "id": 80500016
       },
       {
-        "id": 80500017
+        "id": 80500025
       },
       {
-        "id": 80500007
+        "id": 80500026
+      },
+      {
+        "id": 80500009
       },
       {
         "id": 80500021
       },
       {
-        "id": 80500105
+        "id": 80500015
       },
       {
-        "id": 80500015
+        "id": 80500024
+      },
+      {
+        "id": 80500012
       },
       {
         "id": 80500010
@@ -24937,6 +24993,12 @@
       {
         "childName": "",
         "childUrl": "",
+        "nameBtn": "Btn_OK",
+        "uiName": "ShowItem"
+      },
+      {
+        "childName": "",
+        "childUrl": "",
         "nameBtn": "Btn_Close",
         "uiName": "Notice_beforeLogin"
       },
@@ -25056,15 +25118,9 @@
       },
       {
         "childName": "Group_Filter#Group_CityChose",
-        "childUrl": "Group_Filter/Btn_BG#Group_CityChose/Btn_BG",
+        "childUrl": "Group_Filter/Btn_BG#Group_CityChose/Btn_Cancel",
         "nameBtn": "Group_CommonTopLeft/Btn_Return",
         "uiName": "Depot"
-      },
-      {
-        "childName": "",
-        "childUrl": "",
-        "nameBtn": "Btn_OK",
-        "uiName": "ShowItem"
       },
       {
         "childName": "",
@@ -25079,9 +25135,9 @@
         "uiName": "SelectItem2"
       },
       {
-        "childName": "",
-        "childUrl": "",
-        "nameBtn": "Group_CardYard/Group_CommonTopLeft/Btn_Return",
+        "childName": "Group_CharacterSelect#Group_ProvingGround#Group_CardYard",
+        "childUrl": "Group_CharacterSelect/Group_CommonTopLeft/Btn_Return#Group_ProvingGround/Group_CommonTopLeft/Btn_Return#Group_CardYard/Group_CommonTopLeft/Btn_Return",
+        "nameBtn": "Group_CommonTopLeft/Btn_Return",
         "uiName": "Squads"
       },
       {
@@ -25115,8 +25171,8 @@
         "uiName": "FlierMain"
       },
       {
-        "childName": "GroupSendPosPanel#Group_SendNum",
-        "childUrl": "GroupSendPosPanel/Group_CommonTopLeft/Btn_Return#Group_SendNum/Btn_Cancel",
+        "childName": "Group_SendNum#GroupSendPosPanel",
+        "childUrl": "Group_SendNum/Btn_Cancel#GroupSendPosPanel/Group_CommonTopLeft/Btn_Return",
         "nameBtn": "GroupTopPanel/Group_TopLeft/Group_CommonTopLeft/Btn_Return",
         "uiName": "Flier"
       },
@@ -25135,7 +25191,7 @@
       {
         "childName": "",
         "childUrl": "",
-        "nameBtn": "Group_BuyItem/Btn_Cancel",
+        "nameBtn": "Group_CommonTopLeft/Btn_Return",
         "uiName": "GachaNew"
       },
       {
@@ -25159,7 +25215,7 @@
       {
         "childName": "",
         "childUrl": "",
-        "nameBtn": "Btn_BG",
+        "nameBtn": "Btn_Cancel",
         "uiName": "Screen_GetTies"
       },
       {
@@ -25179,12 +25235,6 @@
         "childUrl": "",
         "nameBtn": "Group_Overview/Btn_",
         "uiName": "CoreGradeTips"
-      },
-      {
-        "childName": "",
-        "childUrl": "",
-        "nameBtn": "Group_CommonTopLeft/Btn_Return",
-        "uiName": "PrisonerList"
       },
       {
         "childName": "Screen_AddFood",
@@ -25211,8 +25261,8 @@
         "uiName": "Mail"
       },
       {
-        "childName": "Group_CardChoose",
-        "childUrl": "Group_CardChoose/Btn_Close",
+        "childName": "Group_CardChoose#Group_FriendsInput",
+        "childUrl": "Group_CardChoose/Btn_Close#Group_FriendsInput/Btn_Cancel",
         "nameBtn": "Group_TopLeft/Btn_Return",
         "uiName": "Friends"
       },
@@ -25227,6 +25277,210 @@
         "childUrl": "Group_Tips/Btn_Confirm",
         "nameBtn": "Btn_Skip",
         "uiName": "Dialog"
+      },
+      {
+        "childName": "",
+        "childUrl": "",
+        "nameBtn": "Btn_Cancel",
+        "uiName": "SelectItem"
+      },
+      {
+        "childName": "",
+        "childUrl": "",
+        "nameBtn": "Btn_Black",
+        "uiName": "Group_TrainWeaponItem"
+      },
+      {
+        "childName": "",
+        "childUrl": "",
+        "nameBtn": "Btn_BG",
+        "uiName": "KeepsakeTips"
+      },
+      {
+        "childName": "",
+        "childUrl": "",
+        "nameBtn": "Btn_BG",
+        "uiName": "FurnitureTips"
+      },
+      {
+        "childName": "Group_Chapter",
+        "childUrl": "Group_Chapter/Btn_Cancel",
+        "nameBtn": "Group_CommonTopLeft/Btn_Return",
+        "uiName": "PrisonerList"
+      },
+      {
+        "childName": "",
+        "childUrl": "",
+        "nameBtn": "Btn_LogBack",
+        "uiName": "DialogReview"
+      },
+      {
+        "childName": "",
+        "childUrl": "",
+        "nameBtn": "Btn_Quit",
+        "uiName": "PersonalLeaderboards"
+      },
+      {
+        "childName": "Group_Defeat",
+        "childUrl": "Group_Defeat/Btn_Next",
+        "nameBtn": "Group_Victory/Btn_Next",
+        "uiName": "Settlement"
+      },
+      {
+        "childName": "",
+        "childUrl": "",
+        "nameBtn": "Btn_BG",
+        "uiName": "Enemy_SkillDetail"
+      },
+      {
+        "childName": "",
+        "childUrl": "",
+        "nameBtn": "Btn_Cancel",
+        "uiName": "ExchangeTips"
+      },
+      {
+        "childName": "",
+        "childUrl": "",
+        "nameBtn": "Btn_Close",
+        "uiName": "BuffTips"
+      },
+      {
+        "childName": "",
+        "childUrl": "",
+        "nameBtn": "Btn_Close",
+        "uiName": "PrisonerRelease"
+      },
+      {
+        "childName": "",
+        "childUrl": "",
+        "nameBtn": "Img_BG/Group_CommonTopLeft/Btn_Return",
+        "uiName": "Dictionary"
+      },
+      {
+        "childName": "",
+        "childUrl": "",
+        "nameBtn": "Group_/Btn_Exit",
+        "uiName": "BattlePause"
+      },
+      {
+        "childName": "Group_Page2",
+        "childUrl": "Group_Page2/Btn_Cancel",
+        "nameBtn": "Group_CommonTopLeft/Btn_Return",
+        "uiName": "MoveEnergy"
+      },
+      {
+        "childName": "",
+        "childUrl": "",
+        "nameBtn": "Btn_Cancel",
+        "uiName": "BuyTips"
+      },
+      {
+        "childName": "Group_TabInfo/Group_TIRight/Group_TIMiddle/Group_CardDesCharacter",
+        "childUrl": "Group_TabInfo/Group_TIRight/Group_TIMiddle/Btn_Close_Des",
+        "nameBtn": "Group_CommonTopLeft/Btn_Return",
+        "uiName": "CharacterInfo"
+      },
+      {
+        "childName": "Group_UnLock",
+        "childUrl": "Group_UnLock/Btn_Cancel",
+        "nameBtn": "Group_CommonTopLeft/Btn_Return",
+        "uiName": "TrainSound"
+      },
+      {
+        "childName": "",
+        "childUrl": "",
+        "nameBtn": "Btn_Cancel",
+        "uiName": "ShopSaleTips"
+      },
+      {
+        "childName": "Group_SendNum",
+        "childUrl": "Group_SendNum/Btn_Cancel",
+        "nameBtn": "Group_CommonTopLeft/Btn_Return",
+        "uiName": "PublicizeMain"
+      },
+      {
+        "childName": "",
+        "childUrl": "",
+        "nameBtn": "Btn_Close",
+        "uiName": "VolleyBall_open"
+      },
+      {
+        "childName": "",
+        "childUrl": "",
+        "nameBtn": "Btn_Close",
+        "uiName": "HomeUpgrade"
+      },
+      {
+        "childName": "",
+        "childUrl": "",
+        "nameBtn": "Group_Decorate/Group_CommonTopLeft/Btn_Return",
+        "uiName": "HomeCoach"
+      },
+      {
+        "childName": "Group_LevelDetails",
+        "childUrl": "Btn_Close",
+        "nameBtn": "Group_CommonTopLeft/Btn_Return",
+        "uiName": "HotelLevel"
+      },
+      {
+        "childName": "Group_BuffList",
+        "childUrl": "Group_BuffList/Btn_Close",
+        "nameBtn": "Group_CommonTopLeft/Btn_Return",
+        "uiName": "Battle_Boss"
+      },
+      {
+        "childName": "",
+        "childUrl": "",
+        "nameBtn": "Group_Welcome/Btn_Close",
+        "uiName": "Group_Welcome"
+      },
+      {
+        "childName": "",
+        "childUrl": "",
+        "nameBtn": "Btn_Cancel",
+        "uiName": "Extend"
+      },
+      {
+        "childName": "",
+        "childUrl": "",
+        "nameBtn": "Btn_BG",
+        "uiName": "BattleRankList"
+      },
+      {
+        "childName": "",
+        "childUrl": "",
+        "nameBtn": "Btn_Close",
+        "uiName": "Group_LikesTips"
+      },
+      {
+        "childName": "",
+        "childUrl": "",
+        "nameBtn": "Btn_BG",
+        "uiName": "RoleDetail"
+      },
+      {
+        "childName": "",
+        "childUrl": "",
+        "nameBtn": "Btn_Close",
+        "uiName": "HomeBubble"
+      },
+      {
+        "childName": "",
+        "childUrl": "",
+        "nameBtn": "Group_CommonTopLeft/Btn_Return",
+        "uiName": "BuildingShop"
+      },
+      {
+        "childName": "",
+        "childUrl": "",
+        "nameBtn": "Btn_BG",
+        "uiName": "HYOrderRecord"
+      },
+      {
+        "childName": "",
+        "childUrl": "",
+        "nameBtn": "Btn_Cancel",
+        "uiName": "PrisonPowerRoomPrompt"
       }
     ]
   }

@@ -203,6 +203,7 @@
     "mod": "铁安局",
     "isInformalData": false,
     "name": "",
+    "buildingIconPath": "",
     "firstPlotId": -1,
     "uiPath": "UI/Home/HomeSafe/HomeSafe",
     "bgPath": "UI/Dialog/Back/RPOC2",
@@ -211,7 +212,18 @@
     "npcId": 83700016,
     "helpId": -1,
     "rankId": -1,
-    "eventList": [],
+    "correspondingActivity": -1,
+    "eventList": [
+      {
+        "activityId": -1,
+        "endTime": "",
+        "eventId": 20700544,
+        "eventType": "Dialog",
+        "isAuto": false,
+        "questId": 81002039,
+        "startTime": ""
+      }
+    ],
     "createQuestList": [
       {
         "id": 80300666,
@@ -1734,7 +1746,7 @@
   },
   {
     "id": 84400001,
-    "idCN": "活动/建设活动",
+    "idCN": "我造我路/建设活动",
     "mod": "兑换站",
     "isInformalData": false,
     "name": "工程援助中心",
@@ -1819,8 +1831,8 @@
     "activityOrderList": [
       {
         "id": 11400001,
-        "limitNum": 10,
-        "onceNum": 100000,
+        "limitNum": 20,
+        "onceNum": 50000,
         "rewardId": 80301816
       },
       {
@@ -1873,19 +1885,19 @@
       },
       {
         "id": 82900173,
-        "limitNum": 6,
+        "limitNum": 10,
         "onceNum": 11,
         "rewardId": 80301896
       },
       {
         "id": 82900181,
-        "limitNum": 6,
+        "limitNum": 10,
         "onceNum": 11,
         "rewardId": 80301897
       },
       {
         "id": 82900174,
-        "limitNum": 6,
+        "limitNum": 10,
         "onceNum": 18,
         "rewardId": 80301898
       },
@@ -1967,7 +1979,7 @@
   },
   {
     "id": 84400007,
-    "idCN": "活动/建设活动（限时）",
+    "idCN": "我造我路/建设活动（限时）",
     "mod": "兑换站",
     "isInformalData": false,
     "name": "工程援助中心",
@@ -2024,8 +2036,8 @@
     "activityOrderList": [
       {
         "id": 11400001,
-        "limitNum": 10,
-        "onceNum": 100000,
+        "limitNum": 20,
+        "onceNum": 50000,
         "rewardId": 80301816
       },
       {

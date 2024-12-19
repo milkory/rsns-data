@@ -1393,6 +1393,12 @@
         "id": 11700052
       },
       {
+        "id": 11700051
+      },
+      {
+        "id": 11700223
+      },
+      {
         "id": 11700066
       },
       {
@@ -4416,14 +4422,14 @@
     "nameId": 80607493,
     "nameEN": "Gronru City",
     "des": "以旅游业和美食著称的大型临海城市，在城市执政的领导下，逐渐成为了吸引高端人群集中消费的特色城市。\\n<color=#b45e01>推荐等级：50级</color>",
-    "dangerLevel": 7,
+    "dangerLevel": 8,
     "attachedToCity": -1,
     "force": -1,
     "isShowRep": false,
     "sort": 0,
     "textArriveFirst": 80601107,
     "iconPath": "",
-    "cityMapIconPath": "",
+    "cityMapIconPath": "UI/Common/Common_icon_city_GLC_2",
     "trainSoundList": [],
     "voiceName": -1,
     "voiceDeparture": -1,
@@ -5738,7 +5744,7 @@
     "defaultDevelop": 800000,
     "addDevelop": 8000,
     "developUpperLimit": 60500000,
-    "playerLevel": 1,
+    "playerLevel": 0,
     "questId": 81000962,
     "specifiedLevelId": -1,
     "constructionActivityId": -1,
@@ -8266,6 +8272,7 @@
       },
       {
         "icon": "UI/HomeCOC/coc_icon_quest",
+        "isStore": false,
         "isTalk": false,
         "name": "物资运输",
         "showUI": "Group_Order"
@@ -9896,8 +9903,8 @@
     "name": "岚心城",
     "nameId": -1,
     "nameEN": "",
-    "des": "",
-    "dangerLevel": 1,
+    "des": "\\n<color=#b45e01>推荐等级：40级</color>",
+    "dangerLevel": 7,
     "attachedToCity": -1,
     "force": -1,
     "isShowRep": false,
@@ -9941,10 +9948,10 @@
       }
     ],
     "pullOutTimeLineList": [],
-    "pos": 123,
-    "isShowInMap": false,
-    "x": 1175.0,
-    "y": 950.0,
+    "pos": 554,
+    "isShowInMap": true,
+    "x": 2950.0,
+    "y": 675.0,
     "mapIconPath": "UI/MainUI/map_icon_station1",
     "nodePath": "",
     "showGoodsQuest": -1,
@@ -13021,13 +13028,13 @@
     "defaultDevelop": 350000,
     "addDevelop": 3500,
     "developUpperLimit": 23150000,
-    "playerLevel": 40,
-    "questId": -1,
+    "playerLevel": 0,
+    "questId": 81000311,
     "specifiedLevelId": -1,
     "constructionActivityId": -1,
     "itemId": -1,
     "isBanStop": false,
-    "banStopTips": "申请该线路需要执照等级40级",
+    "banStopTips": "当前执照无法申请该线路",
     "lockStationQuestList": [],
     "cityStateList": [
       {
@@ -17427,14 +17434,15 @@
   },
   {
     "id": 83000018,
-    "idCN": "新城市表/开元桥站",
+    "idCN": "新城市表/T9栖羽站",
     "mod": "基础车站",
     "isInformalData": false,
     "isOpen": false,
-    "name": "开元桥站",
+    "name": "栖羽站",
+    "nameId": -1,
     "nameEN": "",
     "des": "",
-    "dangerLevel": 1,
+    "dangerLevel": 7,
     "attachedToCity": -1,
     "force": -1,
     "isShowRep": false,
@@ -17442,6 +17450,7 @@
     "textArriveFirst": 80601108,
     "iconPath": "",
     "cityMapIconPath": "",
+    "trainSoundList": [],
     "voiceName": -1,
     "voiceDeparture": -1,
     "voiceDeparturePassenger": -1,
@@ -17477,10 +17486,10 @@
       }
     ],
     "pullOutTimeLineList": [],
-    "pos": 177,
-    "isShowInMap": false,
-    "x": 1024.0,
-    "y": 169.0,
+    "pos": 553,
+    "isShowInMap": true,
+    "x": 2350.0,
+    "y": 675.0,
     "mapIconPath": "UI/MainUI/map_icon_station4",
     "nodePath": "",
     "showGoodsQuest": -1,
@@ -17491,6 +17500,7 @@
     "cityPrestige": 1,
     "investList": [],
     "turntableId": -1,
+    "turnExchangeBuildId": -1,
     "tradeRankList": [],
     "sellList": [],
     "acquisitionList": [],
@@ -17513,6 +17523,7 @@
         "num": 5
       }
     ],
+    "extraWarehouseList": [],
     "isCOC": false,
     "initCOCQuestList": [],
     "cocStoreList": [],
@@ -17528,17 +17539,22 @@
     "buildingIconPath": "",
     "battleLevelName": "",
     "battleIconPath": "",
+    "battleTypeId": -1,
     "battleLevelList": [],
     "createOrderList": [],
     "refreshTime": 300,
     "constructIconPath": "",
     "isPark": false,
+    "parkId": -1,
     "parkTicket": 0,
     "parkTicketMax": 0,
     "divide": 0.0,
     "maxDivide": 0.0,
     "added": 0,
     "travelDay": 0,
+    "travelDayPond": -1,
+    "intervalTime": 0,
+    "visitorNumPond": -1,
     "tax": 0.0,
     "investTime": 0.0,
     "constructStageList": [],
@@ -17563,6 +17579,7 @@
     "leafletUnlock": 0,
     "leafletMap": "",
     "order": 0,
+    "cityLeafletList": [],
     "cityLeafletLest": [],
     "trainList": [],
     "recommendNum": 0,
@@ -18046,14 +18063,14 @@
     "idCN": "新城市表/T8远星大桥",
     "mod": "基础车站",
     "isInformalData": false,
-    "isOpen": false,
+    "isOpen": true,
     "name": "远星大桥",
     "nameId": 80609491,
     "nameEN": "Apoaster Bridge",
     "des": "连接海角城与贡露城的大桥，近期刚刚完成修复建设。此地不仅是连接两座重要篝火城的桥梁，也是发挥多种综合功能的据点。\r\\n<color=#b45e01>推荐等级：55级</color>",
     "dangerLevel": 9,
-    "attachedToCity": 83000002,
-    "force": 12601432,
+    "attachedToCity": 83000052,
+    "force": 12601481,
     "isShowRep": false,
     "sort": 0,
     "textArriveFirst": 80601108,
@@ -18072,12 +18089,12 @@
     "defaultDevelop": 160000,
     "addDevelop": 1600,
     "developUpperLimit": 14260000,
-    "playerLevel": 100,
-    "questId": -1,
+    "playerLevel": 0,
+    "questId": 81001998,
     "specifiedLevelId": -1,
     "constructionActivityId": -1,
     "itemId": -1,
-    "isBanStop": true,
+    "isBanStop": false,
     "banStopTips": "当前执照无法申请该线路",
     "lockStationQuestList": [],
     "cityStateList": [
@@ -18119,7 +18136,38 @@
         "id": 84300001
       }
     ],
-    "sellList": [],
+    "sellList": [
+      {
+        "id": 84705797
+      },
+      {
+        "id": 84705798
+      },
+      {
+        "id": 84705800
+      },
+      {
+        "id": 84705799
+      },
+      {
+        "id": 84705801
+      },
+      {
+        "id": 84705802
+      },
+      {
+        "id": 84705803
+      },
+      {
+        "id": 84704428
+      },
+      {
+        "id": 84704429
+      },
+      {
+        "id": 84705804
+      }
+    ],
     "acquisitionList": [
       {
         "id": 84704356
@@ -18806,6 +18854,13 @@
         "showUI": "Group_Battle"
       },
       {
+        "icon": "UI/HomeTrade/trade_icon_sell",
+        "isStore": false,
+        "isTalk": false,
+        "name": "素材回收",
+        "showUI": "Group_Sale"
+      },
+      {
         "icon": "UI/HomeCOC/coc_icon_quest",
         "isTalk": false,
         "name": "物资运输",
@@ -18935,16 +18990,86 @@
     ],
     "exchangeName": "",
     "exchangeStoreList": [],
-    "exchangeIconPath": "UI/HomeBattleCenter/Exchange/huangyuan_icon",
-    "exchangePagePath": "UI/HomeBattleCenter/Exchange/di",
-    "exchangeBottomPath": "UI/HomeBattleCenter/Exchange/huangyuan_group_bg",
-    "exchangeAffirmPath": "UI/HomeBattleCenter/Exchange/exchange_can",
-    "exchangeCompletePath": "UI/HomeBattleCenter/Exchange/exchange_not",
+    "exchangeIconPath": "UI/HomeBattleCenter/Exchange/icon_xuehui",
+    "exchangePagePath": "UI/HomeBattleCenter/Exchange/di_xuehui",
+    "exchangeBottomPath": "UI/HomeBattleCenter/Exchange/di_group_xuehui",
+    "exchangeAffirmPath": "UI/HomeBattleCenter/Exchange/btn_exchange_xuehui",
+    "exchangeCompletePath": "UI/HomeBattleCenter/Exchange/btn_complete_xuehui",
     "saleName": "素材回收清单",
-    "materialRecycleList": [],
+    "materialRecycleList": [
+      {
+        "id": 11700044
+      },
+      {
+        "id": 11700045
+      },
+      {
+        "id": 11700055
+      },
+      {
+        "id": 11700054
+      },
+      {
+        "id": 11700057
+      },
+      {
+        "id": 11700058
+      },
+      {
+        "id": 11700059
+      },
+      {
+        "id": 11700049
+      },
+      {
+        "id": 11700048
+      },
+      {
+        "id": 11700039
+      },
+      {
+        "id": 11700040
+      },
+      {
+        "id": 11700143
+      },
+      {
+        "id": 11700188
+      },
+      {
+        "id": 11700182
+      },
+      {
+        "id": 11700047
+      },
+      {
+        "id": 11700146
+      },
+      {
+        "id": 11700053
+      },
+      {
+        "id": 11700052
+      },
+      {
+        "id": 11700224
+      },
+      {
+        "id": 11700225
+      },
+      {
+        "id": 11700050
+      },
+      {
+        "id": 11700051
+      },
+      {
+        "id": 11700223
+      }
+    ],
     "correspondingConstruction": 11400387,
-    "saleBottomPath": "UI/HomeBattleCenter/Exchange/di_element",
-    "saleHighPricePath": "UI/HomeBattleCenter/Exchange/bg",
+    "saleBottomPath": "UI/HomeBattleCenter/Exchange/di_element_xuehui",
+    "saleHighPricePath": "UI/HomeBattleCenter/Exchange/bg_xuehui",
     "petStoreList": [],
     "petRecycleStoreList": [],
     "keepSingleMealList": [],
@@ -21624,9 +21749,9 @@
     "exchangeStoreList": [],
     "exchangeIconPath": "UI/HomeBattleCenter/Exchange/icon_xuehui",
     "exchangePagePath": "UI/HomeBattleCenter/Exchange/di_xuehui",
-    "exchangeBottomPath": "",
-    "exchangeAffirmPath": "",
-    "exchangeCompletePath": "",
+    "exchangeBottomPath": "UI/HomeBattleCenter/Exchange/di_group_xuehui",
+    "exchangeAffirmPath": "UI/HomeBattleCenter/Exchange/btn_exchange_xuehui",
+    "exchangeCompletePath": "UI/HomeBattleCenter/Exchange/btn_complete_xuehui",
     "saleName": "素材回收清单",
     "materialRecycleList": [
       {
@@ -23737,6 +23862,167 @@
         "id": 80301694
       }
     ],
+    "trainList": [],
+    "recommendNum": 0,
+    "kmCostList": [
+      {
+        "id": 11400001,
+        "num": 50
+      }
+    ],
+    "onhookCoefficient": 1.0,
+    "trainHelpChat": 20700007,
+    "prisonId": -1
+  },
+  {
+    "id": 83000027,
+    "idCN": "新城市表/T10隐岩站",
+    "mod": "基础车站",
+    "isInformalData": false,
+    "isOpen": false,
+    "name": "隐岩站",
+    "nameId": -1,
+    "nameEN": "",
+    "des": "",
+    "dangerLevel": 6,
+    "attachedToCity": -1,
+    "force": -1,
+    "isShowRep": false,
+    "sort": 0,
+    "textArriveFirst": 80601108,
+    "iconPath": "",
+    "cityMapIconPath": "",
+    "trainSoundList": [],
+    "voiceName": -1,
+    "voiceDeparture": -1,
+    "voiceDeparturePassenger": -1,
+    "voiceWillArrive": -1,
+    "voiceWillArrivePassenger": -1,
+    "voiceArrive": -1,
+    "voiceArrivePassenger": -1,
+    "voiceGetIn": -1,
+    "voiceGetInPassenger": -1,
+    "defaultDevelop": 0,
+    "addDevelop": 0,
+    "developUpperLimit": 0,
+    "playerLevel": 100,
+    "questId": -1,
+    "specifiedLevelId": -1,
+    "constructionActivityId": -1,
+    "itemId": -1,
+    "isBanStop": false,
+    "banStopTips": "当前执照无法申请该线路",
+    "lockStationQuestList": [],
+    "cityStateList": [
+      {
+        "cityMapId": 86400033,
+        "dungeonId": -1,
+        "name": "访问城市",
+        "sceneId": 80300856,
+        "state": 0
+      }
+    ],
+    "timeLineList": [
+      {
+        "id": 84000001
+      }
+    ],
+    "pullOutTimeLineList": [],
+    "pos": 542,
+    "isShowInMap": false,
+    "x": 1750.0,
+    "y": 300.0,
+    "mapIconPath": "UI/MainUI/map_icon_station4",
+    "nodePath": "",
+    "showGoodsQuest": -1,
+    "repRewardList": [],
+    "enterStationPlotList": [],
+    "refreshBuildList": [],
+    "cityHallName": "市政厅",
+    "cityPrestige": 1,
+    "investList": [],
+    "turntableId": -1,
+    "turnExchangeBuildId": -1,
+    "tradeRankList": [],
+    "sellList": [],
+    "acquisitionList": [],
+    "bargainSpinePath": "",
+    "actionM": "nan2_1",
+    "actionW": "nv1_1",
+    "action2M": "nan2_2",
+    "action2W": "nv1_2",
+    "isWarehouse": false,
+    "warehousePrestige": 1,
+    "buyPrice": [
+      {
+        "id": 11400001,
+        "num": 10000
+      }
+    ],
+    "buyReward": [
+      {
+        "id": 11400056,
+        "num": 5
+      }
+    ],
+    "extraWarehouseList": [],
+    "isCOC": false,
+    "initCOCQuestList": [],
+    "cocStoreList": [],
+    "cocRecycleStoreList": [],
+    "cocExchangeBuildId": -1,
+    "limitNum": 0,
+    "drinkCost": [],
+    "recoverItem": -1,
+    "barStoreList": [],
+    "drinkVideo": "Video/Bar/Drink_Bar",
+    "isHomeBattleCentre": false,
+    "openPageList": [],
+    "buildingIconPath": "",
+    "battleLevelName": "",
+    "battleIconPath": "",
+    "battleTypeId": -1,
+    "battleLevelList": [],
+    "createOrderList": [],
+    "refreshTime": 300,
+    "constructIconPath": "",
+    "isPark": false,
+    "parkId": -1,
+    "parkTicket": 0,
+    "parkTicketMax": 0,
+    "divide": 0.0,
+    "maxDivide": 0.0,
+    "added": 0,
+    "travelDay": 0,
+    "travelDayPond": -1,
+    "intervalTime": 0,
+    "visitorNumPond": -1,
+    "tax": 0.0,
+    "investTime": 0.0,
+    "constructStageList": [],
+    "exchangeName": "",
+    "exchangeStoreList": [],
+    "exchangeIconPath": "",
+    "exchangePagePath": "",
+    "exchangeBottomPath": "",
+    "exchangeAffirmPath": "",
+    "exchangeCompletePath": "",
+    "saleName": "",
+    "materialRecycleList": [],
+    "correspondingConstruction": -1,
+    "saleBottomPath": "",
+    "saleHighPricePath": "",
+    "petStoreList": [],
+    "petRecycleStoreList": [],
+    "keepSingleMealList": [],
+    "keepTeamMealList": [],
+    "inviteTimes": 1,
+    "isLeaflet": false,
+    "leafletUnlock": 0,
+    "leafletMap": "",
+    "order": 0,
+    "cityLeafletList": [],
+    "cityLeafletLest": [],
     "trainList": [],
     "recommendNum": 0,
     "kmCostList": [

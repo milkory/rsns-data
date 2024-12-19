@@ -9765,7 +9765,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "补货？当然可以，只要您把采购券带来！",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005990,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -9783,7 +9788,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "欢迎来到海角城！看你这样，是初来乍到？要不要我给你介绍介绍？",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30006003,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -9801,7 +9811,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "要有什么想吃的东西尽管问我，我可是当地的美食通！",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30006004,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -9819,7 +9834,24 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "<color=#b45e01>{station}</color>出货的<color=#b45e01>{goods}</color>的最近价格飞涨，列车长，可千万要抓住机会啊。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": -1,
+        "replaceType": "Station"
+      },
+      {
+        "id": 30005994,
+        "replaceType": "None"
+      },
+      {
+        "id": -1,
+        "replaceType": "Goods"
+      },
+      {
+        "id": 30006139,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -9837,7 +9869,28 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "我听说<color=#b45e01>{station}</color>附近<color=#b45e01>{goods}</color>的价格一直在跌，或许是个入手的好时机？",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005995,
+        "replaceType": "None"
+      },
+      {
+        "id": -1,
+        "replaceType": "Station"
+      },
+      {
+        "id": 30006140,
+        "replaceType": "None"
+      },
+      {
+        "id": -1,
+        "replaceType": "Goods"
+      },
+      {
+        "id": 30006141,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -9866,14 +9919,62 @@
     "idCN": "00NPC对话/交易所/包浮/交谈/特产情报（废弃）/特产情报1",
     "mod": "NPC对话",
     "isInformalData": false,
-    "text": "我们这儿的<color=#b45e01>{goods}</color>在<color=#b45e01>{station}</color>卖得特别火爆，听说都快赶上硬通货了。"
+    "text": "我们这儿的<color=#b45e01>{goods}</color>在<color=#b45e01>{station}</color>卖得特别火爆，听说都快赶上硬通货了。",
+    "soundList": [
+      {
+        "id": 30005997,
+        "replaceType": "None"
+      },
+      {
+        "id": -1,
+        "replaceType": "Goods"
+      },
+      {
+        "id": 30006142,
+        "replaceType": "None"
+      },
+      {
+        "id": -1,
+        "replaceType": "Station"
+      },
+      {
+        "id": 30006143,
+        "replaceType": "None"
+      }
+    ],
+    "preAnimName": "idle",
+    "animName": "idle",
+    "isLoop": true,
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......",
+    "noDataTextId": -1
   },
   {
     "id": 80600906,
     "idCN": "00NPC对话/交易所/包浮/交谈/特产情报（废弃）/特产情报2",
     "mod": "NPC对话",
     "isInformalData": false,
-    "text": "<color=#b45e01>{goods}</color>？这可是个好东西啊……你要是有不妨考虑卖给我，在这里没人不喜欢。"
+    "text": "<color=#b45e01>{goods}</color>？这可是个好东西啊……你要是有不妨考虑卖给我，在这里没人不喜欢。",
+    "soundList": [
+      {
+        "id": 30005998,
+        "replaceType": "None"
+      }
+    ],
+    "preAnimName": "idle",
+    "animName": "idle",
+    "isLoop": true,
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......",
+    "noDataTextId": -1
   },
   {
     "id": 80600907,
@@ -9881,7 +9982,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "真要说起来，我倒是对贡露城的著名餐厅更熟悉些，但海角城也有不少不逊于他们的店，店主都不愿宣传的，我下次偷偷告诉你！",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30006000,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -9899,7 +10005,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "您要有什么看中的东西想买但不知道买哪个，不妨都买下来吧？有时纠结于更一个合适的选项，反而会错过更多别的东西啊。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30006001,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -9917,7 +10028,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "好嘞，我这就让学徒几个把货都给您调过去！",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30006009,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -9935,7 +10051,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "随便瞧随便看，我这里的东西可都是好货。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30006010,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -9953,7 +10074,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "不买我可下班了啊，真不买吗？",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30006012,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -9971,7 +10097,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "这价格……中规中矩吧！",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30006013,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -9989,7 +10120,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "我是没什么意见，但你要不再看看这价格？",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30006014,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -10007,7 +10143,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "这价格挺划算的，真有眼光！",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30006015,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -10025,7 +10166,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "成交！合作愉快，列车长！",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30006016,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -10043,7 +10189,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "海角城的市场最近十分活跃，您要不要考虑来和我一起做生意？",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30006017,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -10061,7 +10212,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "您要是今天没什么做生意的心情，倒也可以我先请您吃顿饭。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30006019,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -10079,7 +10235,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "中规中矩吧，您要是为了清库存的话，倒也可以。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30006020,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -10097,7 +10258,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "行，我愿意多付一点儿！",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30006021,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -10115,7 +10281,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "哎，这价格对您来说可不太划算。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30006022,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -10133,7 +10304,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "嘶……勉勉强强给你降点儿。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30006024,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -10151,7 +10327,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "不行不行，不能再低了！再低我就亏本了！",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30006025,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -10169,7 +10350,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "这是为了我们长期的合作关系着想。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30006026,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -10187,7 +10373,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "依我看，您带来的东西抬不到那个价……",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30006027,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -65966,7 +66157,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "又见面了，{playername}，你看起来一切安好，我便放心了。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30006144,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -65984,7 +66180,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "我很乐意倾听你对它们的见解，也随时愿意为你答疑解惑。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30006145,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -66002,7 +66203,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "相信你能够好好使用它们。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30006146,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -66020,7 +66226,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "{playername}，你看上去有些体力不济，如果有需要，我可以带你去我常去的健身房体验一下锻炼课程。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30006147,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -66038,7 +66249,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "最近，我的好几位学生比以前更频繁地拜访此处，到底是真的对追求知识燃起热情，还是听说了可以在这里见到某个人呢？",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30006148,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -66056,7 +66272,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "你对我饮用的东西感兴趣？啊，与阿妮塔无关，只是我个人自制的鸡胸肉奶昔……果然，你也露出了这种难以理解的神色。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30006149,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -66074,7 +66295,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "形而上粒子研究所最初是一家医院……很意外？我想，如果我的那位旧友还在，这里也许仍然是一家医院，就没有我的用武之地了。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30006150,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -66092,7 +66318,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "负片中微子也是形而上粒子的一种，准确来说，形而上粒子……看起来你有些困了，那么这些话就待到下次再说吧。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30006151,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -70750,7 +70981,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "（奇奇）欢迎来到海角城市政厅，我是市长秘书奇奇，相关事务将由我代为办理。我身边这位是海角城市长，阿莱斯特先生。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005882,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "happy",
     "animName": "happy_idle",
     "isLoop": true,
@@ -70768,7 +71004,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "（奇奇）感谢您对海角城建设的支持……阿莱斯特先生也是这么说的。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005883,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "happy",
     "animName": "happy_idle",
     "isLoop": true,
@@ -70786,7 +71027,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "（阿莱斯特）喵呜……（奇奇）嗯？阿莱斯特先生居然主动打招呼，还真是少见。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005884,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "happy",
     "animName": "happy_idle",
     "isLoop": true,
@@ -70804,7 +71050,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "（奇奇）您在海角城的活跃事迹已经在市政厅传遍了，衷心希望您能与海角城保持良好的合作关系。（阿莱斯特）喵嗷~！",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005885,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "happy",
     "animName": "happy_idle",
     "isLoop": true,
@@ -70822,7 +71073,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "（阿莱斯特）嘿，人类。这什么表情，我这样有诚意地打招呼，你该感到荣幸。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005886,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "happy",
     "animName": "happy_idle",
     "isLoop": true,
@@ -70840,7 +71096,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "（阿莱斯特）我承认你是个很有本事的人类……不过我是不可能让你像抚摸普通家猫那样触碰我的。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005887,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "happy",
     "animName": "happy_idle",
     "isLoop": true,
@@ -70858,7 +71119,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "（奇奇）感谢您的投资。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005888,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -70876,7 +71142,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "（奇奇）这些资金将会被用于海角城最新的公共设施建设工程。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005889,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -70894,7 +71165,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "（阿莱斯特）喵？",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005890,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -70912,7 +71188,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "（阿莱斯特）我觉得你不妨多加点直接投资五十万，这不上不下的数字真让人心痒。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005891,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -70930,7 +71211,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "（阿莱斯特）干得不错，人类，像你这样的家伙我很欢迎哦？",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005892,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -70948,7 +71234,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "（阿莱斯特）喵？喵喵喵！喵喵！喵！（奇奇）阿莱斯特先生！请不要仗着人家听不懂就……那个，列车长，这是误会，阿莱斯特先生并没有别的意思。总之请您准备好足够的数额再办理相关手续吧。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005901,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "sad",
     "animName": "sad_idle",
     "isLoop": true,
@@ -70966,7 +71257,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "（奇奇）我的造型完全由阿莱斯特亲自设计，他对外形要求极高，作为站在他身边的人，我自然不能给他丢脸。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005893,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -70984,7 +71280,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "（奇奇）当年我只是个什么都不懂的学生，毕业后一直找不到工作，无比落魄……是阿莱斯特先生选中了我，从此改变了我的人生。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005894,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -71002,7 +71303,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "（奇奇）糟、糟糕了！列车长！阿莱斯特先生突然开始呕吐！难道是之前在诺玛餐厅的餐食出现了意外！？贡露城的阴谋——什么？只是吐了毛球？啊……真是惭愧，让您看到了我不像样的一面……关于阿莱斯特先生的事情我总是会过度紧张失去理智……",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005895,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -71020,7 +71326,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "（奇奇）您饲养了猫咪吗？这里有个黏毛筒，请先清理一下，稍后请用这里的安全香氛……是的，阿莱斯特先生他非常讨厌其他同类的气味，真是麻烦您了。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005896,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -71038,7 +71349,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "（阿莱斯特）我与奇奇拥有相同的升构能力，能帮助我用人类的语言沟通。不过这么做非常费事，我平时可不轻易这么做，要感到荣幸啊？",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005897,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -71056,7 +71372,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "（阿莱斯特）没错，“阿莱斯特”就是我亲自设计的品牌，你应该也在其他城市见过我设计的衣服。夸奖的话可以多来点，不用憋在心里~",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005898,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -71074,7 +71395,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "（阿莱斯特）奇奇那小子看着稳重，其实是个神经过度纤细的男人，很容易因为一些事情歇斯底里……",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005899,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -71092,7 +71418,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "（阿莱斯特）从品牌设计师到海角城的市长，很了不起对吧？但是我的目标不仅限于此，世界上还有很多有趣的事情等待我去尝试。到时候你要是厌倦了开火车的日子，我也可以给你个合适的职位。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005900,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -71570,7 +71901,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "有什么需要帮忙的吗？啊，列车长！你怎么在这里？……咳，没事，就是在想你有没有正、巧、在哪里碰见过我们队长呀？",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005939,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -71588,7 +71924,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "哦？看来我今天可以轻松点啦。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005940,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -71606,7 +71947,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "欢迎欢迎，上次干得不错哦！",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005941,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -71624,7 +71970,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "列车长精力真的有够旺盛的，呵欠——我恐怕就做不来。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005942,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -71642,7 +71993,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "来得正好，先喝杯茶再看看任务？",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005943,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -71660,7 +72016,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "看看这是谁，我们的明日之星！啊，你和小静流相处得怎么样？",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005944,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -71768,7 +72129,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "喏，这是今天的任务，要我说，倒也不用太为难自己……",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005945,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -71786,7 +72152,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "快点随便挑一个吧，我可还要忙别的事情呢。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005946,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -73995,7 +74366,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "要不要来和鱼进行一场辩论？这可是非常难得的机会，会说话的鱼在世界上可不多。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005921,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -74013,7 +74389,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "鱼的身体没办法承受过于复杂的思想，只能通过梦境让意识外显，在我的视角里这个世界只是鱼的一场梦而已，也许你也正做着自己是列车长的梦呢。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005922,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -74031,7 +74412,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "我尝过各种各样的鱼饵和饲料，虽然营养丰富，但并不怎么好吃……大多数鱼是不会喜欢的，即使我们必须依赖这些食物过活。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005923,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -74049,7 +74435,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "生活就是生活，不要在生活中寻找意义。这是我作为一条普通的鱼所得出的结论。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005925,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -74067,7 +74458,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "欢迎光临！这里是海角城水族馆，同时提供参观、导览和水族交易服务。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005926,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -74085,7 +74481,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "有什么问题尽管问我，没有人比我更懂水族！",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005927,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -74103,7 +74504,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "你已经有了狼脑袋的朋友，机械脑袋的朋友，现在又多了鱼脑袋的朋友——显然，能决定我们是谁的不是我们的外型，而是我们的自由意志，即使它并不自由。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005924,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -74121,7 +74527,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "不妨多在这里转转吧，毕竟人类可是很难潜到海底的。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005928,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -74139,7 +74550,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "如果有一天我不想开店了，可能会选择去您列车上当一条无忧无虑的鱼？",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005930,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -74157,7 +74573,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "今天的鱼和昨天的鱼可不是同样的鱼了，请多看看吧。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005932,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -74175,7 +74596,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "您不是鱼，您当然不会知道鱼在想什么，但我是鱼，我可以帮你问他们。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005929,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -74193,7 +74619,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "欢迎你，我亲爱的列车长。你看，我还记得你呢，鱼的记忆可不止七秒。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005931,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -74211,7 +74642,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "又有一些新朋友来到这了，如果您有兴趣，可以让它们去你那里住。当然，钱是要付给我的。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005933,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -74229,7 +74665,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "每种生物都有适合它生存的环境，不同的水质、温度、压力，在挑选的时候也请多加注意。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005934,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -74247,7 +74688,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "你喜欢它吗？稍等，我去问一下它的意见。……没问题，它愿意和你走。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005935,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -74265,7 +74711,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "贩卖同类？不不不，对这些水族来说，我只是帮他们换了一个住所，他们不会有意见的。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005936,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -74283,7 +74734,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "送它回来吗？没问题，把它交给我吧，它之前鱼缸还空着呢。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005937,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -74301,7 +74757,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "看来你们的契合度不太好。如果列车长也可以和鱼交流的话，说不定能解决这类问题……",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005938,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -74879,7 +75340,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "欢迎欢迎，您又来了！在海边玩得怎么样，还开心吧？",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30006005,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -74897,7 +75363,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "海角城很漂亮吧？当年我也是爱上了这里的景色，所以才决定定居这里的。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30006006,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -74915,7 +75386,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "海边好就好在随时有海鲜吃。要我去那种内陆站点，我肯定受不了！",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30006007,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -74933,7 +75409,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "这不是列车长嘛，欢迎欢迎！您要是有空的话，我们谈完生意以后请您吃顿好的？",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30006008,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -74951,7 +75432,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "我这儿的顾客大多眼光挑剔……所以你就放一万个心吧，我不会以次充好的！",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30006011,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -74969,7 +75455,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "只要您提供的东西好，我一定买下！",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30006018,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -74987,7 +75478,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "看来库存是一点儿都没了，您不介意的话，明天再来看看？",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30006023,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -75005,7 +75501,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "仓库这边走——那边的冷藏柜里是刚进的冰鲜龙虾，新鲜着呢！",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30006002,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -75023,7 +75524,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "<color=#b45e01>{goods}</color>这段时间销路可好了，列车长，不趁机赚点儿，请乘员们吃顿好的？",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005999,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -75041,7 +75547,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "……列车长，你有喜欢的人吗？如果有的话，可千万别和对方分开，也别吵架……",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005991,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -75059,7 +75570,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "我都好久没和家里人联系了，你在其他篝火城里是不是也多多少少和他们打过交道？……那个，你去贡露城的时候，在交易所一定能见到符渝吧？",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005992,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -75077,7 +75593,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "我现在的追求只有美食！自从离婚……哎，不提也罢。都是我的错，当时不该贪小便宜……现在一个人吃饭也太寂寞了……",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005993,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -75095,7 +75616,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "新的一天，挺胸抬头，打起精神来啊！",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005902,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -75113,7 +75639,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "呦，很准时，那么就来看看任务吧。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005903,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -75131,7 +75662,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "看起来蛮像样的嘛，不过还不是能得意忘形的时候。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005904,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -75149,7 +75685,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "上次做得不错，看起来这次也可以放心交给你喽？",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005905,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -75167,7 +75708,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "唔……最近的表现可以打个99分，可别松懈了。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005906,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -75185,7 +75731,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "呼……谢天谢地，看到你来了我就能喘口气了。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005907,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -75203,7 +75754,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "正好你来看看，（指）这里，还有这里，都有问题不是吗？你说这些人，怎么工作都能这样大意？一刻也不能放松才行啊。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005916,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -75221,7 +75777,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "不得不承认，你确实越来越靠得住了。嗯哼，我都这样说了，你还推脱什么？坦诚点接受好了，我也不会真的给你颁个奖。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005917,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -75239,7 +75800,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "来尝尝这个，新鲜出锅，你可是第一个试吃的。啊，喂！你怎么样了？快喝口水（递），什么啊？这就辣到这种程度吗？那你在海角城都靠吃什么活着的啊？",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005918,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -75257,7 +75823,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "休假，这个世界上还存在那种东西的吗？…… 当然是开玩笑的了，我又不是能24小时不眠不休的机器。不过……你等等，喂——那边的两个，不要偷懒！",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005919,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -75275,7 +75846,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "你说最近压力很大？我倒是知道家不错的攀岩俱乐部，你可以去放松一下——工作完成的前提下。别大惊小怪的，我当然也有自己的爱好了。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005920,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -75293,7 +75869,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "有什么可犹豫的，选力所能及的事情然后大胆去做就好了！",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005908,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -75311,7 +75892,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "我先忙着，你考虑好了再叫我吧，但可别在这步耽误太多时间。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005909,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -75329,7 +75915,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "这就对了，速战速决！",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005910,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -75347,7 +75938,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "决定了就快行动起来吧，祝你顺利！最好是顺利……可别让人来收拾烂摊子啊。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005911,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -75365,7 +75961,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "啧，年轻人畏手畏脚可怎么行啊？",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005912,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -75383,7 +75984,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "我还没说什么呢，别一副垂头丧气的样子啊。说到底，莽撞可不意味着办事有效率。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005913,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -75401,7 +76007,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "我说，已经没有任务的话就不要再在这里晃来晃去了，你没有其他的事情要做吗？",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005915,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -75419,7 +76030,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "这个订单很适合你的水平吧。那是什么表情啊？我可一直在认真考察你呢，而且你一直在这犹豫不决也不是回事。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005914,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -77157,7 +77773,7 @@
     "idCN": "委派/队列不足",
     "mod": "UI文本",
     "isInformalData": false,
-    "text": "派遣队员已达上限"
+    "text": "委托队伍已达上限"
   },
   {
     "id": 80608601,
@@ -78959,7 +79575,7 @@
     "idCN": "监狱/监狱入口/滚动播放",
     "mod": "UI文本",
     "isInformalData": false,
-    "text": "新站点“云岫桥基地”开放，列车长可获协管权限。整顿中心开放承包，工作流程透明公开，敦促罪犯积极劳动，助其重获美好人生。*本次整顿中心为beta测试1.0版本，记录将保存，不代表最终品质。"
+    "text": "新站点“云岫桥基地”开放，列车长可获协管权限。\\n整顿中心开放承包，工作流程透明公开，敦促罪犯积极劳动，助其重获美好人生。"
   },
   {
     "id": 80608708,
@@ -80339,7 +80955,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "之前瓦伦汀小姐来过，给我带了一些零食，说是看书的时候可以吃……结果我一边翻文件一边全吃掉了。希望没有碎屑落进那些重要文件里，啊哈哈……",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005989,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "smile",
     "animName": "smile_idle",
     "isLoop": true,
@@ -80357,7 +80978,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "汇流塔里的“住客”……我有听说哦。不过以我的职级不能向你透露，抱歉啦。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005988,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "zebei",
     "animName": "zebei_idle",
     "isLoop": true,
@@ -80375,7 +81001,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "不知道罗洁尔小姐怎么样了呢？上次偶遇的时候她还说要约我一起去城里逛街。不过一直没有去塔里拜访她，所以就暂时搁置了这个邀请……",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005987,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "zebei",
     "animName": "zebei_idle",
     "isLoop": true,
@@ -80393,7 +81024,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "啊……果然还是在这里工作心情会比较好……走到露台上就能看见一望无际的大海，简直就像是在度假一样……",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005986,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "smile",
     "animName": "smile_idle",
     "isLoop": true,
@@ -80411,7 +81047,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "被迫加班？不，完全没有，索思学会的加班制度是纯自愿的。当然紧急情况除外。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005985,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "sad",
     "animName": "sad_idle",
     "isLoop": true,
@@ -80429,7 +81070,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "很高兴为您提供帮助。只要是为了人类的安全，我——哈欠。抱歉，我昨晚没睡好……",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005984,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "smile",
     "animName": "smile_idle",
     "isLoop": true,
@@ -80447,7 +81093,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "这里都是顶尖的学会装备，可以随便挑选。话说我的对货单放哪去了……",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005983,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "doubt",
     "animName": "doubt_idle",
     "isLoop": true,
@@ -80465,7 +81116,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "欢迎光临，请问需要点什么？",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005982,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "doubt",
     "animName": "doubt_idle",
     "isLoop": true,
@@ -80483,7 +81139,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "学会的许多研究项目连我和丽桑德拉也不一定了解……所以无法全面地为你介绍，对不起哦。但，只要是我能说的，我一定说给你听。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005980,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "shy",
     "animName": "shy_idle",
     "isLoop": true,
@@ -80501,7 +81162,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "汇流塔的高处很适合看夕阳，当然也很适合看日出。如果你愿意在这里多待一会儿，我很乐意领你一起去看，列车长。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005981,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -80519,7 +81185,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "嗯……我的“心智漫步”，这种看起来很有意思的升构能力，有时却能对他人造成意料之外的影响，因此一定要慎重使用。不过我想，大多升构能力都是这样吧？",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005979,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "shy",
     "animName": "shy_idle",
     "isLoop": true,
@@ -80537,7 +81208,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "在外面遇见了什么危险的事情吗？你的衣服都染上灰尘了……别动哦，我来替你拍一拍。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005978,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "shock",
     "animName": "shock_idle",
     "isLoop": true,
@@ -80555,7 +81231,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "过去看过的书上说，“灯塔是伫立在海浪上的房子”，汇流塔在我看来也是一样。咦，这么说的话，我就是这里的守塔人了！",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005977,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -80573,7 +81254,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "我知道啦，让我来看看……",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005976,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -80591,7 +81277,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "好呀，我替你找一个其他的。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005975,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -80609,7 +81300,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "我相信你会合理安排工作的。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005974,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -80627,7 +81323,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "嗯？改变主意了吗？",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005973,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -80645,7 +81346,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "好，祝你一路顺风。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005972,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -80663,7 +81369,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "看来你觉得这项订单值得重视……",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005971,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -80681,7 +81392,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "我分析了周围的环境后，整理出这些讨伐委托。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005958,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -80699,7 +81415,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "战斗中的要点我都标注在任务详情中啦。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005961,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -80717,7 +81438,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "嗯，这些货物我收下了！",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005968,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -80735,7 +81461,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "有点像是第一次遇见的时候，你们帮我搬东西的场景呢……",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005969,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -80753,7 +81484,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "我自己也可以搬得动！啊，不过我只是个幻影，好像还是没办法……",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005970,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "upset",
     "animName": "upset_idle",
     "isLoop": true,
@@ -80771,7 +81507,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "谢谢你，辛苦啦。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005967,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -80789,7 +81530,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "看见了奇怪的订单的话，也不用勉强自己去做的。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005966,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -80807,7 +81553,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "保持物资储备充足是很重要的工作哦。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005965,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -80825,7 +81576,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "我准备了零食哦！不过是超级辣的，你吃得消吗？",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005964,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "shock",
     "animName": "shock_idle",
     "isLoop": true,
@@ -80843,7 +81599,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "一路上辛苦了吧？要不要先休息一下？",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005963,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -80861,7 +81622,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "多亏了有你帮忙，我才能在这里安心读书。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005962,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "shy",
     "animName": "shy_idle",
     "isLoop": true,
@@ -80879,7 +81645,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "决定出发战斗的话，一定要小心啊。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005960,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -80897,7 +81668,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "汇流塔附近也不太平呢……",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005959,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "upset",
     "animName": "upset_idle",
     "isLoop": true,
@@ -80915,7 +81691,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "看来你已经成为独当一面的列车长了……我很高兴。希望你的旅途一路顺风……如果需要我的帮助，请随时回到这里来。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005957,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -80933,7 +81714,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "接下来播放的是罗洁尔本人的录音。“做得很好哦，{playername}，请就这样继续加油吧。”",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005956,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "shy",
     "animName": "shy_idle",
     "isLoop": true,
@@ -80951,7 +81737,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "咦？你又来啦。我很开心哦，毕竟获得汇流塔访问权限的人本就不多，常来这里的人更是其中的少数。谢谢你愿意来和我见面。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005954,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "shock",
     "animName": "shock_idle",
     "isLoop": true,
@@ -80969,7 +81760,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "“是机器人”？不是哦，模拟人格影像就相当于停留在这里的另一个罗洁尔。我会完全遵循她的记忆和思考方式行动，请放心吧。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005953,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -80987,7 +81783,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "你好。我是罗洁尔的模拟人格影像，代替她处理一些汇流塔的接待事务。她不在的期间，请随意向我提问，我会尽力解答的。",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005952,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "shy",
     "animName": "shy_idle",
     "isLoop": true,
@@ -81005,7 +81806,12 @@
     "mod": "NPC对话",
     "isInformalData": false,
     "text": "多谢你一直对汇流塔这么上心……呼，有了你在，我的工作好像都变得轻松了不少呢！",
-    "soundList": [],
+    "soundList": [
+      {
+        "id": 30005955,
+        "replaceType": "None"
+      }
+    ],
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
@@ -86621,5 +87427,201 @@
     "mod": "UI文本",
     "isInformalData": false,
     "text": "1.列车长可每日为其他列车长点赞3次\\n\r2.为其他列车长点赞可获得铁盟赠送的随机礼物\\n\r3.点赞次数每日22：00刷新\\n\r4.购买桦石树养护套组可获得每日点赞次数+1\\n"
+  },
+  {
+    "id": 80609549,
+    "idCN": "排行榜/点赞数量",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "%d/%d"
+  },
+  {
+    "id": 80609551,
+    "idCN": "2预制体/Setting/Setting/文案45",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "Box托管配置同步"
+  },
+  {
+    "id": 80609552,
+    "idCN": "2预制体/Setting/Setting/文案46",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "开启后Box托管配置会在多设备间自动同步"
+  },
+  {
+    "id": 80609553,
+    "idCN": "战斗/自动战斗/是否开启同步",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "是否开启多设备自动同步Box托管配置，并将此设备的配置上传？"
+  },
+  {
+    "id": 80609554,
+    "idCN": "战斗/自动战斗/是否开启同步-否",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "已禁用同步，可在系统设置中开启和关闭"
+  },
+  {
+    "id": 80609555,
+    "idCN": "战斗/自动战斗/是否开启同步-是",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "已开启同步，可在系统设置中开启和关闭"
+  },
+  {
+    "id": 80609550,
+    "idCN": "活动总览/页签名/甲铁城联动",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "异乡之骏城"
+  },
+  {
+    "id": 80609560,
+    "idCN": "监狱/通用/整顿中心",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "整顿中心"
+  },
+  {
+    "id": 80609561,
+    "idCN": "监狱/越狱/越狱报告",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "越狱报告"
+  },
+  {
+    "id": 80609562,
+    "idCN": "监狱/越狱/越狱人数",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "囚犯发生越狱"
+  },
+  {
+    "id": 80609564,
+    "idCN": "营收排行/贸易营收排行榜",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "贸易营收排行榜"
+  },
+  {
+    "id": 80609557,
+    "idCN": "大富翁/剩余道具使用次数",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "剩余道具使用次数：%d"
+  },
+  {
+    "id": 80609566,
+    "idCN": "营收排行/近期营收统计",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "近期营收统计"
+  },
+  {
+    "id": 80609558,
+    "idCN": "大富翁/道具使用成功",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "%s使用成功"
+  },
+  {
+    "id": 80609567,
+    "idCN": "大富翁/Tips/剩余挑战次数为0",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "今日剩余请求次数不足"
+  },
+  {
+    "id": 80609568,
+    "idCN": "大富翁/Tips/剩余道具使用次数",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "剩余道具使用次数为0"
+  },
+  {
+    "id": 80609569,
+    "idCN": "大富翁/Tips/该地格已被使用了道具",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "该地格已被使用了道具"
+  },
+  {
+    "id": 80609570,
+    "idCN": "大富翁/Tips/您当前不在城市",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "您当前不在城市"
+  },
+  {
+    "id": 80609571,
+    "idCN": "大富翁/Tips/刷新过于频繁！",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "刷新过于频繁！"
+  },
+  {
+    "id": 80609572,
+    "idCN": "排行榜/每日点赞次数",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "每日\\n\r点赞\\n\r次数"
+  },
+  {
+    "id": 80609574,
+    "idCN": "2预制体/Notice/Notice_beforeLogin/文案6",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "暂时不能跳转界面"
+  },
+  {
+    "id": 80609576,
+    "idCN": "活动/甲铁城/主界面/关卡解锁",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "完成【在分别之后】后解锁"
+  },
+  {
+    "id": 80609575,
+    "idCN": "大富翁/Tips/受道具影响",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "受道具影响，最后的骰子值为%d"
+  },
+  {
+    "id": 80609573,
+    "idCN": "活动总览/页签名/无垠乱斗",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "无垠乱斗"
+  },
+  {
+    "id": 80609565,
+    "idCN": "导航手册/导航手册",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "导航手册"
+  },
+  {
+    "id": 80609563,
+    "idCN": "活跃任务/每日活跃",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "每日活跃"
+  },
+  {
+    "id": 80609559,
+    "idCN": "活跃任务/完成进度",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "完成进度"
+  },
+  {
+    "id": 80609556,
+    "idCN": "活跃任务/活跃度",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "活跃度"
   }
 ]

@@ -9366,7 +9366,11 @@
     "tempdesc": "",
     "desc": "",
     "awakeLv": 5,
-    "skillList": [],
+    "skillList": [
+      {
+        "skillId": 12302134
+      }
+    ],
     "skillChangeList": [],
     "skillParamOffsetList": [],
     "name": "卡巴内利之力"
@@ -9408,18 +9412,23 @@
     "idCN": "00原版/03三星/金子小姐/共振2-工作序列",
     "mod": "基础天赋",
     "isInformalData": false,
-    "path": "",
+    "path": "RolePlus\\00Gift\\Square\\GongZuoXuLie",
     "attriDetialList": [],
     "attributeList": [],
-    "tempdesc": "【掘金二号】获得得意技能【淘金】，精力值满时释放\r【淘金】：投掷3个采矿工具，每个对随机敌方目标造成1段伤害并【击晕】，同时总计随机获得1~3枚金币",
-    "desc": "【掘金二号】获得得意技能【淘金】，精力值满时释放\r【淘金】：投掷3个采矿工具，每个对随机敌方目标造成1段伤害并<color=#FF6666>【击晕】</color>，同时总计随机获得1~3枚金币",
+    "tempdesc": "【掘金二号】获得得意技能【淘金】，精力值满时释放\\n\r【淘金】：投掷3个采矿工具，每个对随机敌方目标造成1段伤害并【击晕】，同时总计随机获得1~3枚金币",
+    "desc": "【掘金二号】获得得意技能【淘金】，精力值满时释放\\n\r【淘金】：投掷3个采矿工具，每个对随机敌方目标造成1段伤害并<color=#FF6666>【击晕】</color>，同时总计随机获得1~3枚金币",
     "awakeLv": 3,
     "skillList": [
       {
         "skillId": 12302074
       }
     ],
-    "skillChangeList": [],
+    "skillChangeList": [
+      {
+        "newSkillId": 12301975,
+        "oldSkillId": 12302050
+      }
+    ],
     "skillParamOffsetList": [],
     "name": "工作序列"
   },
@@ -9428,11 +9437,11 @@
     "idCN": "00原版/03三星/金子小姐/共振4-重启序列",
     "mod": "基础天赋",
     "isInformalData": false,
-    "path": "",
+    "path": "RolePlus\\00Gift\\Square\\ChongQiXuLie",
     "attriDetialList": [],
     "attributeList": [],
-    "tempdesc": "【掘金二号】濒死时进入【瘫痪】状态无法行动，同时每秒回复10%生命值，持续10秒，持续期间内【无敌】\r持续时间结束后【掘金二号】脱离【瘫痪】状态",
-    "desc": "【掘金二号】濒死时进入【瘫痪】状态无法行动，同时每秒回复10%生命值，持续10秒，持续期间内<color=#7AB2FF>【无敌】</color>\r持续时间结束后【掘金二号】脱离【瘫痪】状态",
+    "tempdesc": "【掘金二号】濒死时进入【瘫痪】状态无法行动，同时每秒回复10%生命值，持续10秒，持续期间内【无敌】\\n\r持续时间结束后【掘金二号】脱离【瘫痪】状态",
+    "desc": "【掘金二号】濒死时进入【瘫痪】状态无法行动，同时每秒回复10%生命值，持续10秒，持续期间内<color=#7AB2FF>【无敌】</color>\\n\r持续时间结束后【掘金二号】脱离【瘫痪】状态",
     "awakeLv": 5,
     "skillList": [
       {
@@ -9448,11 +9457,11 @@
     "idCN": "00原版/03三星/金子小姐/共振1-掘金时代",
     "mod": "基础天赋",
     "isInformalData": false,
-    "path": "",
+    "path": "RolePlus\\00Gift\\Square\\JueJinShiDai",
     "attriDetialList": [],
     "attributeList": [],
-    "tempdesc": "开局召唤1只【掘金二号】登场助战，属性继承金子小姐\r【掘金二号】为【机械单位】",
-    "desc": "开局召唤1只【掘金二号】登场助战，属性继承金子小姐\r【掘金二号】为【机械单位】",
+    "tempdesc": "开局召唤1只【掘金二号】登场助战，属性继承金子小姐\\n\r【掘金二号】为【机械单位】",
+    "desc": "开局召唤1只【掘金二号】登场助战，属性继承金子小姐\\n\r【掘金二号】为【机械单位】",
     "awakeLv": 2,
     "skillList": [
       {
@@ -9491,8 +9500,8 @@
     "path": "RolePlus\\00Gift\\Square\\FuYuanJiQu",
     "attriDetialList": [],
     "attributeList": [],
-    "tempdesc": "每有1张黑卡在牌库中时，每秒获得0.03点费用\\n每有1张黑卡在手牌中时，每秒获得0.02点费用",
-    "desc": "每有1张黑卡在牌库中时，每秒获得0.03点费用\\n每有1张黑卡在手牌中时，每秒获得0.02点费用",
+    "tempdesc": "每有1张黑卡在牌库或手牌中时，每秒获得0.04点费用\\n从牌库抽到【负能】时，从弃牌区回收1张牌加入手牌",
+    "desc": "每有1张黑卡在牌库或手牌中时，每秒获得0.04点费用\\n从牌库抽到【负能】时，从弃牌区回收1张牌加入手牌",
     "awakeLv": 3,
     "skillList": [
       {
@@ -9642,6 +9651,108 @@
         "skillId": 12301011
       }
     ],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": ""
+  },
+  {
+    "id": 12800184,
+    "idCN": "01敌方/学会/索玛/共振1-荆棘誓约",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "RolePlus\\00Gift\\Square\\JingJiShiYue",
+    "attriDetialList": [],
+    "attributeList": [],
+    "tempdesc": "",
+    "desc": "",
+    "awakeLv": 2,
+    "skillList": [
+      {
+        "skillId": 12302138
+      }
+    ],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": ""
+  },
+  {
+    "id": 12800188,
+    "idCN": "01敌方/学会/索玛/共振2-底力",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "RolePlus\\00Gift\\Square\\DiLi",
+    "attriDetialList": [],
+    "attributeList": [],
+    "tempdesc": "",
+    "desc": "",
+    "awakeLv": 3,
+    "skillList": [
+      {
+        "skillId": 12302139
+      }
+    ],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": ""
+  },
+  {
+    "id": 12800192,
+    "idCN": "01敌方/学会/索玛/共振4-灵犀",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "RolePlus\\00Gift\\Square\\LingXi",
+    "attriDetialList": [],
+    "attributeList": [],
+    "tempdesc": "",
+    "desc": "",
+    "awakeLv": 5,
+    "skillList": [
+      {
+        "skillId": 12302140
+      }
+    ],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": ""
+  },
+  {
+    "id": 12800221,
+    "idCN": "01敌方/学会/索玛/共振5-浴血",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "RolePlus\\00Gift\\Golden\\YuXue",
+    "attriDetialList": [],
+    "attributeList": [],
+    "tempdesc": "",
+    "desc": "",
+    "awakeLv": 6,
+    "skillList": [
+      {
+        "skillId": 12302141
+      }
+    ],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": ""
+  },
+  {
+    "id": 12800236,
+    "idCN": "01敌方/学会/索玛/共振3-生机",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "RolePlus\\00Gift\\Square\\shengji",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "HpMax",
+        "numType": "Percent",
+        "num_SN": 1000
+      }
+    ],
+    "tempdesc": "",
+    "desc": "",
+    "awakeLv": 4,
+    "skillList": [],
     "skillChangeList": [],
     "skillParamOffsetList": [],
     "name": ""

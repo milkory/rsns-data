@@ -20788,9 +20788,6 @@
     "effectOffsetY": 0.0,
     "actionList": [
       {
-        "actionID": 10103576
-      },
-      {
         "actionID": 10103577
       }
     ],
@@ -21176,16 +21173,40 @@
       }
     ],
     "normalAttackCritID": -1,
-    "skillList": [],
+    "skillList": [
+      {
+        "actionId": 10103661,
+        "activeFrame": 243,
+        "activeTime": 1.0,
+        "rangeSN": 40000
+      },
+      {
+        "actionId": 10103660,
+        "activeFrame": 658,
+        "activeTime": 1.0,
+        "rangeSN": 40000
+      }
+    ],
     "isInvisibleBeforeShowUp": false,
     "showupSkillList": [],
-    "skillLoopDelayFrame": 0,
+    "skillLoopDelayFrame": 257,
     "shapeShiftList": [],
     "commandList": [],
     "enemySkillList": [],
-    "isUseEnergy": false,
-    "energySkillList": [],
-    "energyRestorePerFrameSN": 0,
+    "isUseEnergy": true,
+    "energySkillList": [
+      {
+        "actionId": 10103659,
+        "isClearEnergy": true,
+        "rangeSN": 240000
+      },
+      {
+        "actionId": 10103658,
+        "isClearEnergy": true,
+        "rangeSN": 70000
+      }
+    ],
+    "energyRestorePerFrameSN": 370,
     "isSkillDelay": false,
     "minDelay": 120,
     "maxDelay": 360
@@ -21237,5 +21258,49 @@
     "isSkillDelay": true,
     "minDelay": 120,
     "maxDelay": 360
+  },
+  {
+    "id": 10300514,
+    "idCN": "敌方/联动_甲铁城/狂徒",
+    "mod": "基础AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10103677
+      },
+      {
+        "actionID": 10103678
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10103680,
+        "activeFrame": 204,
+        "activeTime": 1.0,
+        "rangeSN": 40000
+      },
+      {
+        "actionId": 10103679,
+        "activeFrame": 670,
+        "activeTime": 1.0,
+        "rangeSN": 45000
+      }
+    ],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [],
+    "skillLoopDelayFrame": 236,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 204
   }
 ]

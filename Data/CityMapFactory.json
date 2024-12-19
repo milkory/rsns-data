@@ -128,6 +128,31 @@
         "id": 86400265,
         "x": 140.0,
         "y": 60.0
+      },
+      {
+        "id": 86400034,
+        "x": 221.0,
+        "y": -133.0
+      },
+      {
+        "id": 86400318,
+        "x": 221.0,
+        "y": -133.0
+      },
+      {
+        "id": 86400319,
+        "x": 221.0,
+        "y": -133.0
+      },
+      {
+        "id": 86400320,
+        "x": 221.0,
+        "y": -133.0
+      },
+      {
+        "id": 86400321,
+        "x": 221.0,
+        "y": -133.0
       }
     ],
     "isShowRep": true,
@@ -1263,6 +1288,11 @@
         "id": 86400281,
         "x": -276.0,
         "y": -130.0
+      },
+      {
+        "id": 86400316,
+        "x": -276.0,
+        "y": -130.0
       }
     ],
     "isShowRep": true,
@@ -2293,7 +2323,7 @@
   },
   {
     "id": 86400033,
-    "idCN": "01城市地图/开元桥站",
+    "idCN": "01城市地图/T9栖羽站",
     "mod": "城市地图",
     "isInformalData": false,
     "bgList": [
@@ -2320,6 +2350,7 @@
     ],
     "offsetX": 0.0,
     "offsetY": 0.0,
+    "bubbleList": [],
     "isShowRep": true,
     "isShowConstruct": false,
     "exitId": -1
@@ -11817,7 +11848,13 @@
     "activityId": -1,
     "startTime": "",
     "endTime": "",
-    "displayConditionsList": [],
+    "displayConditionsList": [
+      {
+        "condition": "Questing",
+        "mId": 81001999,
+        "val": 0
+      }
+    ],
     "unlockConditionsList": [],
     "isLock": false,
     "func": "OpenDialog",
@@ -11826,7 +11863,7 @@
     "uiPath": "",
     "buildingId": -1,
     "stationPlace": -1,
-    "dialogId": -1,
+    "dialogId": 20700532,
     "dungeonId": -1,
     "levelId": -1,
     "textId": -1,
@@ -11866,7 +11903,7 @@
     "levelId": -1,
     "textId": -1,
     "npcId": 83700101,
-    "bgPath": "UI/Dialog/Back/caozuoshi",
+    "bgPath": "UI/Dialog/Back4/Office_KHDQ2",
     "bgColor": "FFFFFF"
   },
   {
@@ -11900,7 +11937,7 @@
     "levelId": -1,
     "textId": -1,
     "npcId": 83700103,
-    "bgPath": "UI/Dialog/Back/caozuoshi",
+    "bgPath": "UI/Dialog/Back4/KHDQ_Shop",
     "bgColor": "FFFFFF"
   },
   {
@@ -11934,7 +11971,7 @@
     "levelId": -1,
     "textId": -1,
     "npcId": 83700102,
-    "bgPath": "UI/Dialog/Back/Anita_Office",
+    "bgPath": "UI/Dialog/Back4/Office_KHDQ",
     "bgColor": "FFFFFF"
   },
   {
@@ -11947,6 +11984,7 @@
     "isInstance": false,
     "iconPath": "RolePlus/Chelsea/Face",
     "nameIconPath": "UI/CityMap/citymap_icon_battlezone",
+    "frontIconPath": "",
     "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
     "animLoop": "UI_CityBtn_01_Loop",
     "animOut": "UI_CityBtn_01_Out",
@@ -11974,8 +12012,7 @@
     "textId": -1,
     "npcId": -1,
     "bgPath": "",
-    "bgColor": "FFFFFF",
-    "frontIconPath": ""
+    "bgColor": "FFFFFF"
   },
   {
     "id": 86400306,
@@ -12016,5 +12053,285 @@
     "bgPath": "",
     "bgColor": "FFFFFF",
     "frontIconPath": ""
+  },
+  {
+    "id": 86400323,
+    "idCN": "03气泡/T4阿妮塔能源研究所S0/剧情/EP5-15",
+    "mod": "气泡",
+    "isInformalData": false,
+    "name": "来袭的桦树生物",
+    "isSpecial": false,
+    "isInstance": true,
+    "iconPath": "EnemyPlus/manual170x170/BOSS_Tcattle",
+    "nameIconPath": "UI/CityMap/citymap_icon_battlezone",
+    "frontIconPath": "",
+    "effectPath": "UI/UIEffect/particle/UI_city/UI_dungeonBtn_01/UI_dungeonBtn_04_1",
+    "animLoop": "UI_CityBtn_01_Loop",
+    "animOut": "UI_CityBtn_01_Out",
+    "activityId": -1,
+    "startTime": "",
+    "endTime": "",
+    "displayConditionsList": [
+      {
+        "condition": "Questing",
+        "mId": 81000317,
+        "val": 0
+      }
+    ],
+    "unlockConditionsList": [],
+    "isLock": false,
+    "func": "OpenDungeon",
+    "btnType": "Other",
+    "mId": -1,
+    "uiPath": "",
+    "buildingId": -1,
+    "stationPlace": -1,
+    "dialogId": -1,
+    "dungeonId": 20200011,
+    "levelId": -1,
+    "textId": -1,
+    "npcId": -1,
+    "bgPath": "",
+    "bgColor": "FFFFFF"
+  },
+  {
+    "id": 86400322,
+    "idCN": "03气泡/T4阿妮塔能源研究所S0/剧情/EP5-14",
+    "mod": "气泡",
+    "isInformalData": false,
+    "name": "妮蔻拉",
+    "isSpecial": false,
+    "isInstance": false,
+    "iconPath": "RolePlus/Betty/Face",
+    "nameIconPath": "",
+    "frontIconPath": "",
+    "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
+    "animLoop": "UI_CityBtn_01_Loop",
+    "animOut": "UI_CityBtn_01_Out",
+    "activityId": -1,
+    "startTime": "",
+    "endTime": "",
+    "displayConditionsList": [
+      {
+        "condition": "Questing",
+        "mId": 81000964,
+        "val": 0
+      }
+    ],
+    "unlockConditionsList": [],
+    "isLock": false,
+    "func": "OpenDialog",
+    "btnType": "Other",
+    "mId": -1,
+    "uiPath": "",
+    "buildingId": -1,
+    "stationPlace": -1,
+    "dialogId": 20700406,
+    "dungeonId": -1,
+    "levelId": -1,
+    "textId": -1,
+    "npcId": -1,
+    "bgPath": "",
+    "bgColor": "FFFFFF"
+  },
+  {
+    "id": 86400321,
+    "idCN": "03气泡/C1七号自由港S0/03逸闻/星花ARC3-5",
+    "mod": "气泡",
+    "isInformalData": false,
+    "name": "STELLA",
+    "isSpecial": false,
+    "isInstance": false,
+    "iconPath": "RolePlus/Stella/star/Face",
+    "nameIconPath": "",
+    "frontIconPath": "",
+    "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
+    "animLoop": "UI_CityBtn_01_Loop",
+    "animOut": "UI_CityBtn_01_Out",
+    "activityId": -1,
+    "startTime": "",
+    "endTime": "",
+    "displayConditionsList": [
+      {
+        "condition": "Questing",
+        "mId": 81002044,
+        "val": 0
+      }
+    ],
+    "unlockConditionsList": [],
+    "isLock": false,
+    "func": "OpenDialog",
+    "btnType": "Other",
+    "mId": -1,
+    "uiPath": "",
+    "buildingId": -1,
+    "stationPlace": -1,
+    "dialogId": 20700550,
+    "dungeonId": -1,
+    "levelId": -1,
+    "textId": -1,
+    "npcId": -1,
+    "bgPath": "",
+    "bgColor": "FFFFFF"
+  },
+  {
+    "id": 86400320,
+    "idCN": "03气泡/C1七号自由港S0/03逸闻/星花ARC3-4",
+    "mod": "气泡",
+    "isInformalData": false,
+    "name": "STELLA",
+    "isSpecial": false,
+    "isInstance": false,
+    "iconPath": "RolePlus/Stella/star/Face",
+    "nameIconPath": "UI/CityMap/citymap_icon_battlezone",
+    "frontIconPath": "",
+    "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
+    "animLoop": "UI_CityBtn_01_Loop",
+    "animOut": "UI_CityBtn_01_Out",
+    "activityId": -1,
+    "startTime": "",
+    "endTime": "",
+    "displayConditionsList": [
+      {
+        "condition": "Questing",
+        "mId": 81002043,
+        "val": 0
+      }
+    ],
+    "unlockConditionsList": [],
+    "isLock": false,
+    "func": "OpenLevel",
+    "btnType": "Other",
+    "mId": -1,
+    "uiPath": "",
+    "buildingId": -1,
+    "stationPlace": -1,
+    "dialogId": -1,
+    "dungeonId": -1,
+    "levelId": 20101359,
+    "textId": -1,
+    "npcId": -1,
+    "bgPath": "",
+    "bgColor": "FFFFFF"
+  },
+  {
+    "id": 86400319,
+    "idCN": "03气泡/C1七号自由港S0/03逸闻/星花ARC3-3",
+    "mod": "气泡",
+    "isInformalData": false,
+    "name": "神秘偶像",
+    "isSpecial": false,
+    "isInstance": false,
+    "iconPath": "RolePlus/Stella/star/Face",
+    "nameIconPath": "",
+    "frontIconPath": "",
+    "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
+    "animLoop": "UI_CityBtn_01_Loop",
+    "animOut": "UI_CityBtn_01_Out",
+    "activityId": -1,
+    "startTime": "",
+    "endTime": "",
+    "displayConditionsList": [
+      {
+        "condition": "Questing",
+        "mId": 81002042,
+        "val": 0
+      }
+    ],
+    "unlockConditionsList": [],
+    "isLock": false,
+    "func": "OpenDialog",
+    "btnType": "Other",
+    "mId": -1,
+    "uiPath": "",
+    "buildingId": -1,
+    "stationPlace": -1,
+    "dialogId": 20700547,
+    "dungeonId": -1,
+    "levelId": -1,
+    "textId": -1,
+    "npcId": -1,
+    "bgPath": "",
+    "bgColor": "FFFFFF"
+  },
+  {
+    "id": 86400318,
+    "idCN": "03气泡/C1七号自由港S0/03逸闻/星花ARC3-2",
+    "mod": "气泡",
+    "isInformalData": false,
+    "name": "星花",
+    "isSpecial": false,
+    "isInstance": false,
+    "iconPath": "RolePlus/Stella/Face",
+    "nameIconPath": "",
+    "frontIconPath": "",
+    "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
+    "animLoop": "UI_CityBtn_01_Loop",
+    "animOut": "UI_CityBtn_01_Out",
+    "activityId": -1,
+    "startTime": "",
+    "endTime": "",
+    "displayConditionsList": [
+      {
+        "condition": "Questing",
+        "mId": 81002070,
+        "val": 0
+      }
+    ],
+    "unlockConditionsList": [],
+    "isLock": false,
+    "func": "OpenDialog",
+    "btnType": "Other",
+    "mId": -1,
+    "uiPath": "",
+    "buildingId": -1,
+    "stationPlace": -1,
+    "dialogId": 20700546,
+    "dungeonId": -1,
+    "levelId": -1,
+    "textId": -1,
+    "npcId": -1,
+    "bgPath": "",
+    "bgColor": "FFFFFF"
+  },
+  {
+    "id": 86400034,
+    "idCN": "03气泡/C1七号自由港S0/03逸闻/星花ARC3-1",
+    "mod": "气泡",
+    "isInformalData": false,
+    "name": "星花",
+    "isSpecial": false,
+    "isInstance": false,
+    "iconPath": "RolePlus/Stella/Face",
+    "nameIconPath": "",
+    "frontIconPath": "",
+    "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
+    "animLoop": "UI_CityBtn_01_Loop",
+    "animOut": "UI_CityBtn_01_Out",
+    "activityId": -1,
+    "startTime": "",
+    "endTime": "",
+    "displayConditionsList": [
+      {
+        "condition": "Questing",
+        "mId": 81002040,
+        "val": 0
+      }
+    ],
+    "unlockConditionsList": [],
+    "isLock": false,
+    "func": "OpenDialog",
+    "btnType": "Other",
+    "mId": -1,
+    "uiPath": "",
+    "buildingId": -1,
+    "stationPlace": -1,
+    "dialogId": 20700545,
+    "dungeonId": -1,
+    "levelId": -1,
+    "textId": -1,
+    "npcId": -1,
+    "bgPath": "",
+    "bgColor": "FFFFFF"
   }
 ]

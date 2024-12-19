@@ -168,7 +168,20 @@
         "loopTime": 0.0
       }
     ],
-    "pointLimit": 10000,
+    "rewardLimit": [
+      {
+        "pointLimit": 10000,
+        "time": 100
+      },
+      {
+        "pointLimit": 20000,
+        "time": 200
+      },
+      {
+        "pointLimit": 30000,
+        "time": 300
+      }
+    ],
     "completeAwardS": [
       {
         "id": 11400001,
@@ -185,11 +198,99 @@
     ],
     "tokenRatio": 1,
     "fatigueStart": 20,
-    "itemCost": [],
+    "itemCost": [
+      {
+        "id": 11400268,
+        "num": 1
+      }
+    ],
     "weatherPool": [
       {
         "id": 90500042,
         "weight": 1
+      }
+    ],
+    "luaEventList": [
+      {
+        "eventType": "time",
+        "eventVal": 30,
+        "eventid": 72800010,
+        "isLoop": false,
+        "loopOver": 0,
+        "loopTime": 30
+      },
+      {
+        "eventType": "time",
+        "eventVal": 60,
+        "eventid": 72800004,
+        "isLoop": false,
+        "loopOver": 0,
+        "loopTime": 10
+      },
+      {
+        "eventType": "time",
+        "eventVal": 90,
+        "eventid": 72800009,
+        "isLoop": false,
+        "loopOver": 0,
+        "loopTime": 10
+      },
+      {
+        "eventType": "time",
+        "eventVal": 150,
+        "eventid": 72800008,
+        "isLoop": false,
+        "loopOver": 0,
+        "loopTime": 10
+      },
+      {
+        "eventType": "time",
+        "eventVal": 240,
+        "eventid": 72800005,
+        "isLoop": true,
+        "loopFloat": 5,
+        "loopOver": 0,
+        "loopTime": 20
+      },
+      {
+        "eventType": "time",
+        "eventVal": 100,
+        "eventid": 72800006,
+        "isLoop": false,
+        "loopOver": 0,
+        "loopTime": 0
+      },
+      {
+        "eventType": "time",
+        "eventVal": 150,
+        "eventid": 72800001,
+        "isLoop": false,
+        "loopOver": 0,
+        "loopTime": 0
+      },
+      {
+        "eventType": "time",
+        "eventVal": 200,
+        "eventid": 72800003,
+        "isLoop": false,
+        "loopOver": 0,
+        "loopTime": 0
+      },
+      {
+        "eventType": "time",
+        "eventVal": 10,
+        "eventid": 72800007,
+        "isLoop": false,
+        "loopOver": 0,
+        "loopTime": 0
+      },
+      {
+        "eventType": "time",
+        "eventVal": 70,
+        "eventid": 72800011,
+        "isLoop": false,
+        "loopOver": 0,
+        "loopTime": 0
       }
     ]
   }

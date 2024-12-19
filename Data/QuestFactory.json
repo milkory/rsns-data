@@ -100277,10 +100277,6 @@
       {
         "id": 11400067,
         "num": 1
-      },
-      {
-        "id": 11400071,
-        "num": 1
       }
     ],
     "nextQuest": [
@@ -100746,10 +100742,6 @@
       {
         "id": 11400005,
         "num": 50
-      },
-      {
-        "id": 11400071,
-        "num": 1
       }
     ],
     "nextQuest": [
@@ -151260,33 +151252,83 @@
     "idCN": "主线/EP6间章/6.5-1-对话",
     "mod": "基础任务",
     "isInformalData": false,
-    "name": "未完待续",
-    "describe": "主线尚未完结，支线任务等您探索。",
-    "story": "故事尚未完结，丰富的支线任务正在等您探索，列车长的冒险旅途才刚刚开始！",
+    "name": "来自学会的联络",
+    "describe": "与莉薇娅在海角城对话",
+    "story": "等待索思学会的联络，搞清楚与雅莱见面的相关事宜。",
     "questType": "Main",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
     "sort": 0,
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
-    "client": -1,
-    "startStation": -1,
-    "endStationList": [],
-    "traceList": [],
+    "isAnecdote": false,
+    "isFURNQuest": false,
+    "client": 82600002,
+    "startStation": 83000002,
+    "endStationList": [
+      {
+        "id": 83000002,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": false,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500176,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
     "startLevel": 0,
-    "conditionList": [],
+    "startPrisonLevel": 0,
+    "conditionList": [
+      {
+        "key": "dialog",
+        "val": "0"
+      }
+    ],
     "num": 1,
     "islockAddProgress": false,
     "isAutoComplete": false,
     "checkComplete": false,
     "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
     "parentQuest": -1,
     "childQuestList": [],
-    "rewardsList": [],
-    "nextQuest": [],
+    "rewardsList": [
+      {
+        "id": 11400016,
+        "num": 1
+      },
+      {
+        "id": 11400071,
+        "num": 1
+      }
+    ],
+    "nextQuest": [
+      {
+        "id": 81001529
+      }
+    ],
     "changeCityStateList": [],
+    "bannerList": [],
     "mailList": [],
     "isEvent": false,
     "isOverwriteEvent": false,
@@ -151296,19 +151338,6 @@
     "startTime": "",
     "endTime": "",
     "correspondActivity": -1,
-    "questTab": "",
-    "questTabDes": -1,
-    "completeTab": "",
-    "isAnecdote": false,
-    "isFURNQuest": false,
-    "isAutoTrace": false,
-    "preLv": 1,
-    "playgroundId": -1,
-    "playgroundLv": 0,
-    "startPrisonLevel": 0,
-    "isRefreshProgress": false,
-    "refreshType": "Level",
-    "addProgress": 0,
     "returnNum": 1,
     "dontShowMain": false,
     "IsPlotTask": false
@@ -156781,10 +156810,15 @@
     "describe": "与那由他在汇流塔对话",
     "story": "在那由他的陪同下，倾听雅莱的请求。",
     "questType": "Main",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
     "sort": 0,
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "isFURNQuest": false,
     "client": 82600028,
     "startStation": 83000030,
     "endStationList": [
@@ -156793,6 +156827,7 @@
         "weight": 10
       }
     ],
+    "isAutoTrace": false,
     "traceList": [
       {
         "apiListId": 86500038,
@@ -156810,7 +156845,11 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
     "startLevel": 0,
+    "startPrisonLevel": 0,
     "conditionList": [
       {
         "key": "dialog",
@@ -156822,11 +156861,18 @@
     "isAutoComplete": false,
     "checkComplete": false,
     "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
     "parentQuest": -1,
     "childQuestList": [],
     "rewardsList": [
       {
-        "id": 11400016,
+        "id": 11400067,
+        "num": 1
+      },
+      {
+        "id": 11400071,
         "num": 1
       }
     ],
@@ -156836,6 +156882,7 @@
       }
     ],
     "changeCityStateList": [],
+    "bannerList": [],
     "mailList": [],
     "isEvent": false,
     "isOverwriteEvent": false,
@@ -156845,19 +156892,6 @@
     "startTime": "",
     "endTime": "",
     "correspondActivity": -1,
-    "questTab": "",
-    "questTabDes": -1,
-    "completeTab": "",
-    "isAnecdote": false,
-    "isFURNQuest": false,
-    "isAutoTrace": false,
-    "preLv": 1,
-    "playgroundId": -1,
-    "playgroundLv": 0,
-    "startPrisonLevel": 0,
-    "isRefreshProgress": false,
-    "refreshType": "Level",
-    "addProgress": 0,
     "returnNum": 1,
     "dontShowMain": false,
     "IsPlotTask": false
@@ -156871,10 +156905,15 @@
     "describe": "与那由他在远星大桥对话",
     "story": "与那由他一起打倒路上的阻碍，前往远星大桥站。",
     "questType": "Main",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
     "sort": 0,
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "isFURNQuest": false,
     "client": 82600028,
     "startStation": 83000023,
     "endStationList": [
@@ -156883,6 +156922,7 @@
         "weight": 10
       }
     ],
+    "isAutoTrace": false,
     "traceList": [
       {
         "apiListId": 86500038,
@@ -156900,7 +156940,11 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
     "startLevel": 0,
+    "startPrisonLevel": 0,
     "conditionList": [
       {
         "key": "levelId",
@@ -156912,16 +156956,15 @@
     "isAutoComplete": true,
     "checkComplete": false,
     "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
     "parentQuest": -1,
     "childQuestList": [],
     "rewardsList": [
       {
-        "id": 11400016,
-        "num": 1
-      },
-      {
-        "id": 11400071,
-        "num": 1
+        "id": 11400005,
+        "num": 50
       }
     ],
     "nextQuest": [
@@ -156930,6 +156973,7 @@
       }
     ],
     "changeCityStateList": [],
+    "bannerList": [],
     "mailList": [],
     "isEvent": false,
     "isOverwriteEvent": false,
@@ -156939,19 +156983,6 @@
     "startTime": "",
     "endTime": "",
     "correspondActivity": -1,
-    "questTab": "",
-    "questTabDes": -1,
-    "completeTab": "",
-    "isAnecdote": false,
-    "isFURNQuest": false,
-    "isAutoTrace": false,
-    "preLv": 1,
-    "playgroundId": -1,
-    "playgroundLv": 0,
-    "startPrisonLevel": 0,
-    "isRefreshProgress": false,
-    "refreshType": "Level",
-    "addProgress": 0,
     "returnNum": 1,
     "dontShowMain": false,
     "IsPlotTask": false
@@ -156965,10 +156996,15 @@
     "describe": "再次与那由他在远星大桥对话",
     "story": "等待那由他与远星大桥的负责人完成会面。",
     "questType": "Main",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
     "sort": 0,
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "isFURNQuest": false,
     "client": 82600028,
     "startStation": 83000023,
     "endStationList": [
@@ -156977,6 +157013,7 @@
         "weight": 10
       }
     ],
+    "isAutoTrace": false,
     "traceList": [
       {
         "apiListId": 86500038,
@@ -156994,7 +157031,11 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
     "startLevel": 0,
+    "startPrisonLevel": 0,
     "conditionList": [
       {
         "key": "levelId",
@@ -157006,16 +157047,15 @@
     "isAutoComplete": true,
     "checkComplete": false,
     "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
     "parentQuest": -1,
     "childQuestList": [],
     "rewardsList": [
       {
-        "id": 11400016,
-        "num": 1
-      },
-      {
-        "id": 11400071,
-        "num": 1
+        "id": 11400005,
+        "num": 50
       }
     ],
     "nextQuest": [
@@ -157024,6 +157064,7 @@
       }
     ],
     "changeCityStateList": [],
+    "bannerList": [],
     "mailList": [],
     "isEvent": false,
     "isOverwriteEvent": false,
@@ -157033,19 +157074,6 @@
     "startTime": "",
     "endTime": "",
     "correspondActivity": -1,
-    "questTab": "",
-    "questTabDes": -1,
-    "completeTab": "",
-    "isAnecdote": false,
-    "isFURNQuest": false,
-    "isAutoTrace": false,
-    "preLv": 1,
-    "playgroundId": -1,
-    "playgroundLv": 0,
-    "startPrisonLevel": 0,
-    "isRefreshProgress": false,
-    "refreshType": "Level",
-    "addProgress": 0,
     "returnNum": 1,
     "dontShowMain": false,
     "IsPlotTask": false
@@ -157059,10 +157087,15 @@
     "describe": "与苏利耶在远星大桥对话",
     "story": "将投影交给厂家派遣的技术人员后，在远星大桥打发时间。",
     "questType": "Main",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
     "sort": 0,
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "isFURNQuest": false,
     "client": 82600636,
     "startStation": 83000023,
     "endStationList": [
@@ -157071,6 +157104,7 @@
         "weight": 10
       }
     ],
+    "isAutoTrace": false,
     "traceList": [
       {
         "apiListId": 86500038,
@@ -157082,7 +157116,11 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
     "startLevel": 0,
+    "startPrisonLevel": 0,
     "conditionList": [
       {
         "key": "levelId",
@@ -157094,15 +157132,18 @@
     "isAutoComplete": true,
     "checkComplete": false,
     "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
     "parentQuest": -1,
     "childQuestList": [],
     "rewardsList": [
       {
-        "id": 11400016,
-        "num": 1
+        "id": 11400005,
+        "num": 50
       },
       {
-        "id": 11400071,
+        "id": 11400217,
         "num": 1
       }
     ],
@@ -157112,6 +157153,7 @@
       }
     ],
     "changeCityStateList": [],
+    "bannerList": [],
     "mailList": [],
     "isEvent": false,
     "isOverwriteEvent": false,
@@ -157121,19 +157163,6 @@
     "startTime": "",
     "endTime": "",
     "correspondActivity": -1,
-    "questTab": "",
-    "questTabDes": -1,
-    "completeTab": "",
-    "isAnecdote": false,
-    "isFURNQuest": false,
-    "isAutoTrace": false,
-    "preLv": 1,
-    "playgroundId": -1,
-    "playgroundLv": 0,
-    "startPrisonLevel": 0,
-    "isRefreshProgress": false,
-    "refreshType": "Level",
-    "addProgress": 0,
     "returnNum": 1,
     "dontShowMain": false,
     "IsPlotTask": false
@@ -157147,10 +157176,15 @@
     "describe": "打倒出现在远星大桥的桦树生物",
     "story": "打倒桦树生物，摆脱险境。",
     "questType": "Main",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
     "sort": 0,
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "isFURNQuest": false,
     "client": 82600637,
     "startStation": 83000023,
     "endStationList": [
@@ -157159,6 +157193,7 @@
         "weight": 10
       }
     ],
+    "isAutoTrace": false,
     "traceList": [
       {
         "apiListId": 86500038,
@@ -157176,7 +157211,11 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
     "startLevel": 0,
+    "startPrisonLevel": 0,
     "conditionList": [
       {
         "key": "levelId",
@@ -157188,16 +157227,15 @@
     "isAutoComplete": true,
     "checkComplete": false,
     "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
     "parentQuest": -1,
     "childQuestList": [],
     "rewardsList": [
       {
-        "id": 11400016,
-        "num": 1
-      },
-      {
-        "id": 11400071,
-        "num": 1
+        "id": 11400005,
+        "num": 50
       }
     ],
     "nextQuest": [
@@ -157206,6 +157244,7 @@
       }
     ],
     "changeCityStateList": [],
+    "bannerList": [],
     "mailList": [],
     "isEvent": false,
     "isOverwriteEvent": false,
@@ -157215,19 +157254,6 @@
     "startTime": "",
     "endTime": "",
     "correspondActivity": -1,
-    "questTab": "",
-    "questTabDes": -1,
-    "completeTab": "",
-    "isAnecdote": false,
-    "isFURNQuest": false,
-    "isAutoTrace": false,
-    "preLv": 1,
-    "playgroundId": -1,
-    "playgroundLv": 0,
-    "startPrisonLevel": 0,
-    "isRefreshProgress": false,
-    "refreshType": "Level",
-    "addProgress": 0,
     "returnNum": 1,
     "dontShowMain": false,
     "IsPlotTask": false
@@ -157241,10 +157267,15 @@
     "describe": "与切茜娅在远星大桥对话",
     "story": "切茜娅还有很多想知道的事情，倾听她的烦恼。",
     "questType": "Main",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
     "sort": 0,
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "isFURNQuest": false,
     "client": 82600637,
     "startStation": 83000023,
     "endStationList": [
@@ -157253,6 +157284,7 @@
         "weight": 10
       }
     ],
+    "isAutoTrace": false,
     "traceList": [
       {
         "apiListId": 86500038,
@@ -157270,7 +157302,11 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
     "startLevel": 0,
+    "startPrisonLevel": 0,
     "conditionList": [
       {
         "key": "levelId",
@@ -157282,16 +157318,15 @@
     "isAutoComplete": true,
     "checkComplete": false,
     "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
     "parentQuest": -1,
     "childQuestList": [],
     "rewardsList": [
       {
-        "id": 11400016,
-        "num": 1
-      },
-      {
-        "id": 11400071,
-        "num": 1
+        "id": 11400005,
+        "num": 50
       }
     ],
     "nextQuest": [
@@ -157300,6 +157335,7 @@
       }
     ],
     "changeCityStateList": [],
+    "bannerList": [],
     "mailList": [],
     "isEvent": false,
     "isOverwriteEvent": false,
@@ -157309,19 +157345,6 @@
     "startTime": "",
     "endTime": "",
     "correspondActivity": -1,
-    "questTab": "",
-    "questTabDes": -1,
-    "completeTab": "",
-    "isAnecdote": false,
-    "isFURNQuest": false,
-    "isAutoTrace": false,
-    "preLv": 1,
-    "playgroundId": -1,
-    "playgroundLv": 0,
-    "startPrisonLevel": 0,
-    "isRefreshProgress": false,
-    "refreshType": "Level",
-    "addProgress": 0,
     "returnNum": 1,
     "dontShowMain": false,
     "IsPlotTask": false
@@ -157335,10 +157358,15 @@
     "describe": "与苏利耶在远星大桥对话",
     "story": "投影的检修结束，听听苏利耶检查后的结果。",
     "questType": "Main",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
     "sort": 0,
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "isFURNQuest": false,
     "client": 82600636,
     "startStation": 83000023,
     "endStationList": [
@@ -157347,6 +157375,7 @@
         "weight": 10
       }
     ],
+    "isAutoTrace": false,
     "traceList": [
       {
         "apiListId": 86500038,
@@ -157358,7 +157387,11 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
     "startLevel": 0,
+    "startPrisonLevel": 0,
     "conditionList": [
       {
         "key": "dialog",
@@ -157370,15 +157403,14 @@
     "isAutoComplete": false,
     "checkComplete": false,
     "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
     "parentQuest": -1,
     "childQuestList": [],
     "rewardsList": [
       {
-        "id": 11400016,
-        "num": 1
-      },
-      {
-        "id": 11400071,
+        "id": 11400066,
         "num": 1
       }
     ],
@@ -157388,6 +157420,7 @@
       }
     ],
     "changeCityStateList": [],
+    "bannerList": [],
     "mailList": [],
     "isEvent": false,
     "isOverwriteEvent": false,
@@ -157397,19 +157430,6 @@
     "startTime": "",
     "endTime": "",
     "correspondActivity": -1,
-    "questTab": "",
-    "questTabDes": -1,
-    "completeTab": "",
-    "isAnecdote": false,
-    "isFURNQuest": false,
-    "isAutoTrace": false,
-    "preLv": 1,
-    "playgroundId": -1,
-    "playgroundLv": 0,
-    "startPrisonLevel": 0,
-    "isRefreshProgress": false,
-    "refreshType": "Level",
-    "addProgress": 0,
     "returnNum": 1,
     "dontShowMain": false,
     "IsPlotTask": false
@@ -157423,10 +157443,15 @@
     "describe": "与那由他在远星大桥对话",
     "story": "那由他似乎察觉到了一些不对劲，听听他的想法。",
     "questType": "Main",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
     "sort": 0,
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "isFURNQuest": false,
     "client": 82600028,
     "startStation": 83000023,
     "endStationList": [
@@ -157435,6 +157460,7 @@
         "weight": 10
       }
     ],
+    "isAutoTrace": false,
     "traceList": [
       {
         "apiListId": 86500038,
@@ -157452,7 +157478,11 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
     "startLevel": 0,
+    "startPrisonLevel": 0,
     "conditionList": [
       {
         "key": "levelId",
@@ -157464,12 +157494,15 @@
     "isAutoComplete": true,
     "checkComplete": false,
     "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
     "parentQuest": -1,
     "childQuestList": [],
     "rewardsList": [
       {
-        "id": 11400016,
-        "num": 1
+        "id": 11400005,
+        "num": 50
       },
       {
         "id": 11400071,
@@ -157482,6 +157515,7 @@
       }
     ],
     "changeCityStateList": [],
+    "bannerList": [],
     "mailList": [],
     "isEvent": false,
     "isOverwriteEvent": false,
@@ -157491,19 +157525,6 @@
     "startTime": "",
     "endTime": "",
     "correspondActivity": -1,
-    "questTab": "",
-    "questTabDes": -1,
-    "completeTab": "",
-    "isAnecdote": false,
-    "isFURNQuest": false,
-    "isAutoTrace": false,
-    "preLv": 1,
-    "playgroundId": -1,
-    "playgroundLv": 0,
-    "startPrisonLevel": 0,
-    "isRefreshProgress": false,
-    "refreshType": "Level",
-    "addProgress": 0,
     "returnNum": 1,
     "dontShowMain": false,
     "IsPlotTask": false
@@ -157517,10 +157538,15 @@
     "describe": "与雅莱在汇流塔对话",
     "story": "告知雅莱检修结果，将罗洁尔的教导传达给她。",
     "questType": "Main",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
     "sort": 0,
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "isFURNQuest": false,
     "client": 82600547,
     "startStation": 83000030,
     "endStationList": [
@@ -157529,6 +157555,7 @@
         "weight": 10
       }
     ],
+    "isAutoTrace": false,
     "traceList": [
       {
         "apiListId": 86500038,
@@ -157546,7 +157573,11 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
     "startLevel": 0,
+    "startPrisonLevel": 0,
     "conditionList": [
       {
         "key": "dialog",
@@ -157558,15 +157589,14 @@
     "isAutoComplete": false,
     "checkComplete": false,
     "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
     "parentQuest": -1,
     "childQuestList": [],
     "rewardsList": [
       {
-        "id": 11400016,
-        "num": 1
-      },
-      {
-        "id": 11400071,
+        "id": 11400066,
         "num": 1
       }
     ],
@@ -157576,6 +157606,7 @@
       }
     ],
     "changeCityStateList": [],
+    "bannerList": [],
     "mailList": [],
     "isEvent": false,
     "isOverwriteEvent": false,
@@ -157585,19 +157616,6 @@
     "startTime": "",
     "endTime": "",
     "correspondActivity": -1,
-    "questTab": "",
-    "questTabDes": -1,
-    "completeTab": "",
-    "isAnecdote": false,
-    "isFURNQuest": false,
-    "isAutoTrace": false,
-    "preLv": 1,
-    "playgroundId": -1,
-    "playgroundLv": 0,
-    "startPrisonLevel": 0,
-    "isRefreshProgress": false,
-    "refreshType": "Level",
-    "addProgress": 0,
     "returnNum": 1,
     "dontShowMain": false,
     "IsPlotTask": false
@@ -157611,10 +157629,15 @@
     "describe": "与那由他在汇流塔对话",
     "story": "与那由他告别。",
     "questType": "Main",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
     "sort": 0,
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "isFURNQuest": false,
     "client": 82600028,
     "startStation": 83000030,
     "endStationList": [
@@ -157623,6 +157646,7 @@
         "weight": 10
       }
     ],
+    "isAutoTrace": false,
     "traceList": [
       {
         "apiListId": 86500038,
@@ -157640,7 +157664,11 @@
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
     "startLevel": 0,
+    "startPrisonLevel": 0,
     "conditionList": [
       {
         "key": "dialog",
@@ -157652,15 +157680,14 @@
     "isAutoComplete": false,
     "checkComplete": false,
     "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
     "parentQuest": -1,
     "childQuestList": [],
     "rewardsList": [
       {
-        "id": 11400016,
-        "num": 1
-      },
-      {
-        "id": 11400071,
+        "id": 11400217,
         "num": 1
       }
     ],
@@ -157670,6 +157697,7 @@
       }
     ],
     "changeCityStateList": [],
+    "bannerList": [],
     "mailList": [],
     "isEvent": false,
     "isOverwriteEvent": false,
@@ -157679,19 +157707,6 @@
     "startTime": "",
     "endTime": "",
     "correspondActivity": -1,
-    "questTab": "",
-    "questTabDes": -1,
-    "completeTab": "",
-    "isAnecdote": false,
-    "isFURNQuest": false,
-    "isAutoTrace": false,
-    "preLv": 1,
-    "playgroundId": -1,
-    "playgroundLv": 0,
-    "startPrisonLevel": 0,
-    "isRefreshProgress": false,
-    "refreshType": "Level",
-    "addProgress": 0,
     "returnNum": 1,
     "dontShowMain": false,
     "IsPlotTask": false
@@ -159758,21 +159773,33 @@
   },
   {
     "id": 81002039,
-    "idCN": "活动/甲铁城/支线/任务1",
+    "idCN": "活动/甲铁城/支线/任务1-前往修格里城",
     "mod": "活动任务",
     "isInformalData": false,
-    "name": "",
-    "describe": "",
-    "story": "",
+    "name": "前往修格里城",
+    "describe": "前往修格里铁安局与海因里希对话",
+    "story": "前往修格里城铁安局，打听关于无名同伴的情况",
     "questType": "Side",
     "sort": 12,
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
-    "client": 82600093,
-    "startStation": 83000004,
-    "endStationList": [],
-    "traceList": [],
+    "client": 82600381,
+    "startStation": 83000001,
+    "endStationList": [
+      {
+        "id": 83000001,
+        "weight": 10
+      }
+    ],
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      }
+    ],
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
@@ -159790,8 +159817,19 @@
     "isShowReceive": false,
     "parentQuest": -1,
     "childQuestList": [],
-    "rewardsList": [],
-    "nextQuest": [],
+    "rewardsList": [
+      {
+        "id": 11400016,
+        "num": 1
+      },
+      {
+        "id": 11400071,
+        "num": 1
+      }
+    ],
+    "nextQuest": [
+      {}
+    ],
     "changeCityStateList": [],
     "mailList": [],
     "isEvent": false,
@@ -159799,7 +159837,7 @@
     "eventList": [],
     "environmentList": [],
     "isTime": false,
-    "activityId": -1,
+    "activityId": 86000031,
     "startTime": "",
     "endTime": "",
     "preQuest": [],
@@ -159853,8 +159891,12 @@
     "startPrisonLevel": 0,
     "conditionList": [
       {
-        "key": "priceDownWin",
-        "val": "0"
+        "key": "buyItem",
+        "val": "11400005"
+      },
+      {
+        "key": "shopId",
+        "val": "40300012"
       }
     ],
     "num": 1,
@@ -159869,8 +159911,8 @@
     "childQuestList": [],
     "rewardsList": [
       {
-        "id": 11400024,
-        "num": 1
+        "id": 11400013,
+        "num": 100
       }
     ],
     "nextQuest": [],
@@ -159920,12 +159962,7 @@
     "playgroundLv": 0,
     "startLevel": 0,
     "startPrisonLevel": 0,
-    "conditionList": [
-      {
-        "key": "priceDownWin",
-        "val": "0"
-      }
-    ],
+    "conditionList": [],
     "num": 1,
     "islockAddProgress": false,
     "isAutoComplete": false,
@@ -159989,13 +160026,8 @@
     "playgroundLv": 0,
     "startLevel": 0,
     "startPrisonLevel": 0,
-    "conditionList": [
-      {
-        "key": "priceDownWin",
-        "val": "0"
-      }
-    ],
-    "num": 1,
+    "conditionList": [],
+    "num": 120,
     "islockAddProgress": false,
     "isAutoComplete": false,
     "checkComplete": false,
@@ -160058,12 +160090,7 @@
     "playgroundLv": 0,
     "startLevel": 0,
     "startPrisonLevel": 0,
-    "conditionList": [
-      {
-        "key": "priceDownWin",
-        "val": "0"
-      }
-    ],
+    "conditionList": [],
     "num": 1,
     "islockAddProgress": false,
     "isAutoComplete": false,
@@ -160129,7 +160156,7 @@
     "startPrisonLevel": 0,
     "conditionList": [
       {
-        "key": "priceDownWin",
+        "key": "roleGrade",
         "val": "0"
       }
     ],
@@ -160198,7 +160225,7 @@
     "startPrisonLevel": 0,
     "conditionList": [
       {
-        "key": "priceDownWin",
+        "key": "equipmentLv",
         "val": "0"
       }
     ],
@@ -160265,12 +160292,7 @@
     "playgroundLv": 0,
     "startLevel": 0,
     "startPrisonLevel": 0,
-    "conditionList": [
-      {
-        "key": "priceDownWin",
-        "val": "0"
-      }
-    ],
+    "conditionList": [],
     "num": 1,
     "islockAddProgress": false,
     "isAutoComplete": false,
@@ -160334,13 +160356,8 @@
     "playgroundLv": 0,
     "startLevel": 0,
     "startPrisonLevel": 0,
-    "conditionList": [
-      {
-        "key": "priceDownWin",
-        "val": "0"
-      }
-    ],
-    "num": 1,
+    "conditionList": [],
+    "num": 3,
     "islockAddProgress": false,
     "isAutoComplete": false,
     "checkComplete": false,
@@ -160357,6 +160374,1505 @@
       }
     ],
     "nextQuest": [],
+    "changeCityStateList": [],
+    "bannerList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1,
+    "returnNum": 1,
+    "dontShowMain": false,
+    "IsPlotTask": false
+  },
+  {
+    "id": 81002052,
+    "idCN": "活动/甲铁城/支线/任务2",
+    "mod": "活动任务",
+    "isInformalData": false,
+    "name": "前往修格里城",
+    "describe": "前往修格里铁安局与海因里希对话",
+    "story": "前往修格里城铁安局，打听关于无名同伴的情况",
+    "questType": "Side",
+    "sort": 12,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "client": 82600381,
+    "startStation": 83000001,
+    "endStationList": [
+      {
+        "id": 83000001,
+        "weight": 10
+      }
+    ],
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "dialog",
+        "val": "0"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400016,
+        "num": 1
+      },
+      {
+        "id": 11400071,
+        "num": 1
+      }
+    ],
+    "nextQuest": [
+      {}
+    ],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "activityId": 86000031,
+    "startTime": "",
+    "endTime": "",
+    "preQuest": [],
+    "preLevel": [],
+    "correspondActivity": -1,
+    "buffActivate": -1,
+    "showType": "Txt",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "isFURNQuest": false,
+    "isAutoTrace": true,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "returnNum": 1
+  },
+  {
+    "id": 81002053,
+    "idCN": "活动/甲铁城/支线/任务3",
+    "mod": "活动任务",
+    "isInformalData": false,
+    "name": "前往修格里城",
+    "describe": "前往修格里铁安局与海因里希对话",
+    "story": "前往修格里城铁安局，打听关于无名同伴的情况",
+    "questType": "Side",
+    "sort": 12,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "client": 82600381,
+    "startStation": 83000001,
+    "endStationList": [
+      {
+        "id": 83000001,
+        "weight": 10
+      }
+    ],
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "dialog",
+        "val": "0"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400016,
+        "num": 1
+      },
+      {
+        "id": 11400071,
+        "num": 1
+      }
+    ],
+    "nextQuest": [
+      {}
+    ],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "activityId": 86000031,
+    "startTime": "",
+    "endTime": "",
+    "preQuest": [],
+    "preLevel": [],
+    "correspondActivity": -1,
+    "buffActivate": -1,
+    "showType": "Txt",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "isFURNQuest": false,
+    "isAutoTrace": true,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "returnNum": 1
+  },
+  {
+    "id": 81002054,
+    "idCN": "活动/甲铁城/支线/任务4",
+    "mod": "活动任务",
+    "isInformalData": false,
+    "name": "前往修格里城",
+    "describe": "前往修格里铁安局与海因里希对话",
+    "story": "前往修格里城铁安局，打听关于无名同伴的情况",
+    "questType": "Side",
+    "sort": 12,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "client": 82600381,
+    "startStation": 83000001,
+    "endStationList": [
+      {
+        "id": 83000001,
+        "weight": 10
+      }
+    ],
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "dialog",
+        "val": "0"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400016,
+        "num": 1
+      },
+      {
+        "id": 11400071,
+        "num": 1
+      }
+    ],
+    "nextQuest": [
+      {}
+    ],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "activityId": 86000031,
+    "startTime": "",
+    "endTime": "",
+    "preQuest": [],
+    "preLevel": [],
+    "correspondActivity": -1,
+    "buffActivate": -1,
+    "showType": "Txt",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "isFURNQuest": false,
+    "isAutoTrace": true,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "returnNum": 1
+  },
+  {
+    "id": 81002055,
+    "idCN": "活动/甲铁城/支线/任务5",
+    "mod": "活动任务",
+    "isInformalData": false,
+    "name": "前往修格里城",
+    "describe": "前往修格里铁安局与海因里希对话",
+    "story": "前往修格里城铁安局，打听关于无名同伴的情况",
+    "questType": "Side",
+    "sort": 12,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "client": 82600381,
+    "startStation": 83000001,
+    "endStationList": [
+      {
+        "id": 83000001,
+        "weight": 10
+      }
+    ],
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "dialog",
+        "val": "0"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400016,
+        "num": 1
+      },
+      {
+        "id": 11400071,
+        "num": 1
+      }
+    ],
+    "nextQuest": [
+      {}
+    ],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "activityId": 86000031,
+    "startTime": "",
+    "endTime": "",
+    "preQuest": [],
+    "preLevel": [],
+    "correspondActivity": -1,
+    "buffActivate": -1,
+    "showType": "Txt",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "isFURNQuest": false,
+    "isAutoTrace": true,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "returnNum": 1
+  },
+  {
+    "id": 81002056,
+    "idCN": "活动/甲铁城/支线/任务6",
+    "mod": "活动任务",
+    "isInformalData": false,
+    "name": "前往修格里城",
+    "describe": "前往修格里铁安局与海因里希对话",
+    "story": "前往修格里城铁安局，打听关于无名同伴的情况",
+    "questType": "Side",
+    "sort": 12,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "client": 82600381,
+    "startStation": 83000001,
+    "endStationList": [
+      {
+        "id": 83000001,
+        "weight": 10
+      }
+    ],
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "dialog",
+        "val": "0"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400016,
+        "num": 1
+      },
+      {
+        "id": 11400071,
+        "num": 1
+      }
+    ],
+    "nextQuest": [
+      {}
+    ],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "activityId": 86000031,
+    "startTime": "",
+    "endTime": "",
+    "preQuest": [],
+    "preLevel": [],
+    "correspondActivity": -1,
+    "buffActivate": -1,
+    "showType": "Txt",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "isFURNQuest": false,
+    "isAutoTrace": true,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "returnNum": 1
+  },
+  {
+    "id": 81002057,
+    "idCN": "活动/甲铁城/支线/任务7",
+    "mod": "活动任务",
+    "isInformalData": false,
+    "name": "前往修格里城",
+    "describe": "前往修格里铁安局与海因里希对话",
+    "story": "前往修格里城铁安局，打听关于无名同伴的情况",
+    "questType": "Side",
+    "sort": 12,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "client": 82600381,
+    "startStation": 83000001,
+    "endStationList": [
+      {
+        "id": 83000001,
+        "weight": 10
+      }
+    ],
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "dialog",
+        "val": "0"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400016,
+        "num": 1
+      },
+      {
+        "id": 11400071,
+        "num": 1
+      }
+    ],
+    "nextQuest": [
+      {}
+    ],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "activityId": 86000031,
+    "startTime": "",
+    "endTime": "",
+    "preQuest": [],
+    "preLevel": [],
+    "correspondActivity": -1,
+    "buffActivate": -1,
+    "showType": "Txt",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "isFURNQuest": false,
+    "isAutoTrace": true,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "returnNum": 1
+  },
+  {
+    "id": 81002058,
+    "idCN": "活动/甲铁城/支线/任务8",
+    "mod": "活动任务",
+    "isInformalData": false,
+    "name": "前往修格里城",
+    "describe": "前往修格里铁安局与海因里希对话",
+    "story": "前往修格里城铁安局，打听关于无名同伴的情况",
+    "questType": "Side",
+    "sort": 12,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "client": 82600381,
+    "startStation": 83000001,
+    "endStationList": [
+      {
+        "id": 83000001,
+        "weight": 10
+      }
+    ],
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "dialog",
+        "val": "0"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400016,
+        "num": 1
+      },
+      {
+        "id": 11400071,
+        "num": 1
+      }
+    ],
+    "nextQuest": [
+      {}
+    ],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "activityId": 86000031,
+    "startTime": "",
+    "endTime": "",
+    "preQuest": [],
+    "preLevel": [],
+    "correspondActivity": -1,
+    "buffActivate": -1,
+    "showType": "Txt",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "isFURNQuest": false,
+    "isAutoTrace": true,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "returnNum": 1
+  },
+  {
+    "id": 81002059,
+    "idCN": "活动/甲铁城/支线/任务9",
+    "mod": "活动任务",
+    "isInformalData": false,
+    "name": "前往修格里城",
+    "describe": "前往修格里铁安局与海因里希对话",
+    "story": "前往修格里城铁安局，打听关于无名同伴的情况",
+    "questType": "Side",
+    "sort": 12,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "client": 82600381,
+    "startStation": 83000001,
+    "endStationList": [
+      {
+        "id": 83000001,
+        "weight": 10
+      }
+    ],
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "dialog",
+        "val": "0"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400016,
+        "num": 1
+      },
+      {
+        "id": 11400071,
+        "num": 1
+      }
+    ],
+    "nextQuest": [
+      {}
+    ],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "activityId": 86000031,
+    "startTime": "",
+    "endTime": "",
+    "preQuest": [],
+    "preLevel": [],
+    "correspondActivity": -1,
+    "buffActivate": -1,
+    "showType": "Txt",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "isFURNQuest": false,
+    "isAutoTrace": true,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "returnNum": 1
+  },
+  {
+    "id": 81002066,
+    "idCN": "活动/甲铁城/支线/任务11",
+    "mod": "活动任务",
+    "isInformalData": false,
+    "name": "前往修格里城",
+    "describe": "前往修格里铁安局与海因里希对话",
+    "story": "前往修格里城铁安局，打听关于无名同伴的情况",
+    "questType": "Side",
+    "sort": 12,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "client": 82600381,
+    "startStation": 83000001,
+    "endStationList": [
+      {
+        "id": 83000001,
+        "weight": 10
+      }
+    ],
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "dialog",
+        "val": "0"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400016,
+        "num": 1
+      },
+      {
+        "id": 11400071,
+        "num": 1
+      }
+    ],
+    "nextQuest": [
+      {}
+    ],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "activityId": 86000031,
+    "startTime": "",
+    "endTime": "",
+    "preQuest": [],
+    "preLevel": [],
+    "correspondActivity": -1,
+    "buffActivate": -1,
+    "showType": "Txt",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "isFURNQuest": false,
+    "isAutoTrace": true,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "returnNum": 1
+  },
+  {
+    "id": 81002065,
+    "idCN": "活动/甲铁城/支线/任务10",
+    "mod": "活动任务",
+    "isInformalData": false,
+    "name": "前往修格里城",
+    "describe": "前往修格里铁安局与海因里希对话",
+    "story": "前往修格里城铁安局，打听关于无名同伴的情况",
+    "questType": "Side",
+    "sort": 12,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "client": 82600381,
+    "startStation": 83000001,
+    "endStationList": [
+      {
+        "id": 83000001,
+        "weight": 10
+      }
+    ],
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "dialog",
+        "val": "0"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400016,
+        "num": 1
+      },
+      {
+        "id": 11400071,
+        "num": 1
+      }
+    ],
+    "nextQuest": [
+      {}
+    ],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "activityId": 86000031,
+    "startTime": "",
+    "endTime": "",
+    "preQuest": [],
+    "preLevel": [],
+    "correspondActivity": -1,
+    "buffActivate": -1,
+    "showType": "Txt",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "isFURNQuest": false,
+    "isAutoTrace": true,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "returnNum": 1
+  },
+  {
+    "id": 81002067,
+    "idCN": "活动/甲铁城/支线/任务12",
+    "mod": "活动任务",
+    "isInformalData": false,
+    "name": "前往修格里城",
+    "describe": "前往修格里铁安局与海因里希对话",
+    "story": "前往修格里城铁安局，打听关于无名同伴的情况",
+    "questType": "Side",
+    "sort": 12,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "client": 82600381,
+    "startStation": 83000001,
+    "endStationList": [
+      {
+        "id": 83000001,
+        "weight": 10
+      }
+    ],
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "dialog",
+        "val": "0"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400016,
+        "num": 1
+      },
+      {
+        "id": 11400071,
+        "num": 1
+      }
+    ],
+    "nextQuest": [
+      {}
+    ],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "activityId": 86000031,
+    "startTime": "",
+    "endTime": "",
+    "preQuest": [],
+    "preLevel": [],
+    "correspondActivity": -1,
+    "buffActivate": -1,
+    "showType": "Txt",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "isFURNQuest": false,
+    "isAutoTrace": true,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "returnNum": 1
+  },
+  {
+    "id": 81002068,
+    "idCN": "活动/甲铁城/支线/任务13",
+    "mod": "活动任务",
+    "isInformalData": false,
+    "name": "前往修格里城",
+    "describe": "前往修格里铁安局与海因里希对话",
+    "story": "前往修格里城铁安局，打听关于无名同伴的情况",
+    "questType": "Side",
+    "sort": 12,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "client": 82600381,
+    "startStation": 83000001,
+    "endStationList": [
+      {
+        "id": 83000001,
+        "weight": 10
+      }
+    ],
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "startLevel": 0,
+    "conditionList": [
+      {
+        "key": "dialog",
+        "val": "0"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400016,
+        "num": 1
+      },
+      {
+        "id": 11400071,
+        "num": 1
+      }
+    ],
+    "nextQuest": [
+      {}
+    ],
+    "changeCityStateList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "activityId": 86000031,
+    "startTime": "",
+    "endTime": "",
+    "preQuest": [],
+    "preLevel": [],
+    "correspondActivity": -1,
+    "buffActivate": -1,
+    "showType": "Txt",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "isFURNQuest": false,
+    "isAutoTrace": true,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "returnNum": 1
+  },
+  {
+    "id": 81002040,
+    "idCN": "逸闻任务/星花/ARC3-1-对话",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "【逸闻】烦恼的两面",
+    "describe": "在7号自由港和星花交谈",
+    "story": "在咖啡店找到有约见面的星花。",
+    "questType": "Side",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "sort": 11,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": true,
+    "isFURNQuest": false,
+    "client": 82600030,
+    "startStation": 83000001,
+    "endStationList": [
+      {
+        "id": 83000020,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": true,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500179,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": true,
+    "switchUI": "",
+    "preQuestId": 81001139,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "startLevel": 0,
+    "startPrisonLevel": 0,
+    "conditionList": [
+      {
+        "key": "dialog",
+        "val": "0"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400005,
+        "num": 50
+      }
+    ],
+    "nextQuest": [
+      {
+        "id": 81002070
+      }
+    ],
+    "changeCityStateList": [],
+    "bannerList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1,
+    "returnNum": 1,
+    "dontShowMain": false,
+    "IsPlotTask": false
+  },
+  {
+    "id": 81002042,
+    "idCN": "逸闻任务/星花/ARC3-3-对话",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "【逸闻】STELLA救援行动",
+    "describe": "在7号自由港和STELLA交谈",
+    "story": "依照和星花的约定，前往约定地点和STELLA见面。",
+    "questType": "Side",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "sort": 11,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": true,
+    "isFURNQuest": false,
+    "client": 82600629,
+    "startStation": 83000020,
+    "endStationList": [
+      {
+        "id": 83000020,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": true,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500181,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": true,
+    "switchUI": "",
+    "preQuestId": 81001139,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "startLevel": 0,
+    "startPrisonLevel": 0,
+    "conditionList": [
+      {
+        "key": "dialog",
+        "val": "0"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400067,
+        "num": 1
+      }
+    ],
+    "nextQuest": [
+      {
+        "id": 81002043
+      }
+    ],
+    "changeCityStateList": [],
+    "bannerList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1,
+    "returnNum": 1,
+    "dontShowMain": false,
+    "IsPlotTask": false
+  },
+  {
+    "id": 81002043,
+    "idCN": "逸闻任务/星花/ARC3-4-战斗",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "【逸闻】“我即是你”",
+    "describe": "在7号自由港和STELLA交谈",
+    "story": "作为散心的一部分，和STELLA在海滨大道上讨论一下目前苦恼的事吧。",
+    "questType": "Side",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "sort": 11,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": true,
+    "isFURNQuest": false,
+    "client": 82600629,
+    "startStation": 83000020,
+    "endStationList": [
+      {
+        "id": 83000020,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": true,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500182,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": true,
+    "switchUI": "",
+    "preQuestId": 81001139,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "startLevel": 0,
+    "startPrisonLevel": 0,
+    "conditionList": [
+      {
+        "key": "levelId",
+        "val": "20101359"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": true,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400005,
+        "num": 50
+      }
+    ],
+    "nextQuest": [
+      {
+        "id": 81002044
+      }
+    ],
+    "changeCityStateList": [],
+    "bannerList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1,
+    "returnNum": 1,
+    "dontShowMain": false,
+    "IsPlotTask": false
+  },
+  {
+    "id": 81002044,
+    "idCN": "逸闻任务/星花/ARC3-5-对话",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "【逸闻】聚光灯外",
+    "describe": "在7号自由港和STELLA交谈",
+    "story": "虽然经历了波折，但还是按时赶到了接下来拍摄的片场。距离开始还有短暂的休息时间。",
+    "questType": "Side",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "sort": 11,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": true,
+    "isFURNQuest": false,
+    "client": 82600629,
+    "startStation": 83000020,
+    "endStationList": [
+      {
+        "id": 83000020,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": true,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500183,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": true,
+    "switchUI": "",
+    "preQuestId": 81001139,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "startLevel": 0,
+    "startPrisonLevel": 0,
+    "conditionList": [
+      {
+        "key": "dialog",
+        "val": "0"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400007,
+        "num": 1
+      },
+      {
+        "id": 11400388,
+        "num": 1
+      }
+    ],
+    "nextQuest": [],
+    "changeCityStateList": [],
+    "bannerList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1,
+    "returnNum": 1,
+    "dontShowMain": false,
+    "IsPlotTask": false
+  },
+  {
+    "id": 81002070,
+    "idCN": "逸闻任务/星花/ARC3-2-对话",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "【逸闻】“一位朋友”",
+    "describe": "在7号自由港和星花交谈",
+    "story": "星花看起来似乎有些困扰。作为朋友，和她聊聊天。",
+    "questType": "Side",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "sort": 11,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": true,
+    "isFURNQuest": false,
+    "client": 82600030,
+    "startStation": 83000020,
+    "endStationList": [
+      {
+        "id": 83000020,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": true,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500180,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": true,
+    "switchUI": "",
+    "preQuestId": 81001139,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "startLevel": 0,
+    "startPrisonLevel": 0,
+    "conditionList": [
+      {
+        "key": "dialog",
+        "val": "0"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400066,
+        "num": 1
+      }
+    ],
+    "nextQuest": [
+      {
+        "id": 81002042
+      }
+    ],
     "changeCityStateList": [],
     "bannerList": [],
     "mailList": [],
