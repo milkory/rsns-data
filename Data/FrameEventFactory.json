@@ -4152,7 +4152,7 @@
   },
   {
     "id": 10500564,
-    "idCN": "我方/04四星/叶珏/B周期电附近",
+    "idCN": "我方/04四星/叶珏/B周期电击附近敌方",
     "mod": "添加Buff",
     "isInformalData": false,
     "buffId": 10400908,
@@ -4160,7 +4160,7 @@
   },
   {
     "id": 10500624,
-    "idCN": "我方/04四星/叶珏/B电击弹道",
+    "idCN": "我方/04四星/叶珏/B电击",
     "mod": "子弹事件",
     "isInformalData": false,
     "buffId": 10404516,
@@ -4188,7 +4188,7 @@
   },
   {
     "id": 10500627,
-    "idCN": "我方/04四星/叶珏/A共振5",
+    "idCN": "我方/04四星/叶珏/共振5A慢速子弹",
     "mod": "子弹事件",
     "buffId": 10404515,
     "bulletId": 11200198,
@@ -8234,7 +8234,7 @@
   },
   {
     "id": 10501444,
-    "idCN": "我方/04四星/叶珏/B反击",
+    "idCN": "我方/04四星/叶珏/共振4B受击触发",
     "mod": "添加Buff",
     "isInformalData": false,
     "buffId": 10404512,
@@ -12188,7 +12188,7 @@
   },
   {
     "id": 10500090,
-    "idCN": "我方/04四星/叶珏/B击晕光环",
+    "idCN": "我方/04四星/叶珏/B光环击晕附近敌方",
     "mod": "添加Buff",
     "isInformalData": false,
     "buffId": 10401733,
@@ -28590,31 +28590,10 @@
   {
     "id": 10502528,
     "idCN": "我方/05五星/生驹/S伤害",
-    "mod": "子弹事件",
+    "mod": "添加Buff",
     "isInformalData": false,
     "buffId": 10413178,
-    "bulletId": 11200546,
-    "targetType": "CurrentTarget",
-    "offSetX_SN": 0,
-    "offSetZ_SN": 0,
-    "isUseTargetFilter": false,
-    "isIgnoreInvisibleEnemy": true,
-    "targetFilterType": "Ally",
-    "targetTagList": [],
-    "tagType": "And",
-    "halfWidth_SN": 0,
-    "attributeType": "HpMax",
-    "condition": "Max",
-    "numberType": "Number",
-    "number_SN": 0,
-    "buffTypeFO": -1,
-    "buffFO": -1,
-    "buffJudgeType": "Greater",
-    "buffLevel": 0,
-    "filterStance": "DeafaultStance",
-    "filterPosition": "DefaultPos",
-    "isAimSelf": false,
-    "targetCount": 0
+    "targetType": "CurrentTarget"
   },
   {
     "id": 10502529,
@@ -28627,38 +28606,17 @@
   {
     "id": 10502524,
     "idCN": "我方/05五星/生驹/普攻",
-    "mod": "子弹事件",
+    "mod": "添加Buff",
     "isInformalData": false,
     "buffId": 10413167,
-    "bulletId": 11200545,
-    "targetType": "CurrentTarget",
-    "offSetX_SN": 0,
-    "offSetZ_SN": 0,
-    "isUseTargetFilter": false,
-    "isIgnoreInvisibleEnemy": true,
-    "targetFilterType": "Ally",
-    "targetTagList": [],
-    "tagType": "And",
-    "halfWidth_SN": 0,
-    "attributeType": "HpMax",
-    "condition": "Max",
-    "numberType": "Number",
-    "number_SN": 0,
-    "buffTypeFO": -1,
-    "buffFO": -1,
-    "buffJudgeType": "Greater",
-    "buffLevel": 0,
-    "filterStance": "DeafaultStance",
-    "filterPosition": "DefaultPos",
-    "isAimSelf": false,
-    "targetCount": 0
+    "targetType": "CurrentTarget"
   },
   {
     "id": 10502526,
     "idCN": "我方/05五星/生驹/S攻击特效",
     "mod": "添加Buff",
     "isInformalData": false,
-    "buffId": 10413181,
+    "buffId": 10413168,
     "targetType": "CurrentTarget"
   },
   {
@@ -28666,7 +28624,7 @@
     "idCN": "我方/05五星/生驹/A攻击特效",
     "mod": "添加Buff",
     "isInformalData": false,
-    "buffId": 10413183,
+    "buffId": 10413169,
     "targetType": "CurrentTarget"
   },
   {
@@ -31676,11 +31634,20 @@
     "buffId": 10414303
   },
   {
-    "id": 10502698,
-    "idCN": "我方/05五星/无名/共振4增益",
-    "mod": "给自己上BUFF",
+    "id": 10501516,
+    "idCN": "敌方/联动_甲铁城/黑烟苍叶/普攻1",
+    "mod": "攻击事件",
     "isInformalData": false,
-    "buffId": 10414726
+    "buffId": 10414765,
+    "hitSoundID": -1
+  },
+  {
+    "id": 10502734,
+    "idCN": "敌方/联动_甲铁城/黑烟苍叶/普攻2",
+    "mod": "攻击事件",
+    "isInformalData": false,
+    "buffId": 10414767,
+    "hitSoundID": -1
   },
   {
     "id": 10502732,
@@ -31688,5 +31655,87 @@
     "mod": "给自己上BUFF",
     "isInformalData": false,
     "buffId": 10414762
+  },
+  {
+    "id": 10502698,
+    "idCN": "我方/05五星/无名/共振4增益",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10414726
+  },
+  {
+    "id": 10502735,
+    "idCN": "敌方/联动_甲铁城/黑烟苍叶/技能1子弹",
+    "mod": "子弹事件",
+    "isInformalData": false,
+    "buffId": 10414802,
+    "bulletId": 11200009,
+    "targetType": "Random",
+    "offSetX_SN": 0,
+    "offSetZ_SN": 0,
+    "isUseTargetFilter": false,
+    "isIgnoreInvisibleEnemy": true,
+    "targetFilterType": "Ally",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 0,
+    "attributeType": "HpMax",
+    "condition": "Max",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 0
+  },
+  {
+    "id": 10502736,
+    "idCN": "敌方/联动_甲铁城/黑烟苍叶/技能1伤害",
+    "mod": "攻击事件",
+    "isInformalData": false,
+    "buffId": 10414803,
+    "hitSoundID": -1
+  },
+  {
+    "id": 10502731,
+    "idCN": "我方/04四星/叶珏/共振2额外动作",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10414811
+  },
+  {
+    "id": 10502737,
+    "idCN": "我方/05五星/生驹/C增益",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10414812
+  },
+  {
+    "id": 10502738,
+    "idCN": "我方/05五星/生驹/bsA攻击特效",
+    "mod": "添加Buff",
+    "isInformalData": false,
+    "buffId": 10414819,
+    "targetType": "CurrentTarget"
+  },
+  {
+    "id": 10502739,
+    "idCN": "我方/05五星/生驹/bsS攻击特效",
+    "mod": "添加Buff",
+    "isInformalData": false,
+    "buffId": 10414818,
+    "targetType": "CurrentTarget"
+  },
+  {
+    "id": 10502740,
+    "idCN": "我方/05五星/生驹/C伤害",
+    "mod": "攻击事件",
+    "isInformalData": false,
+    "buffId": 10413170,
+    "hitSoundID": -1
   }
 ]

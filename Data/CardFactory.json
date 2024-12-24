@@ -10009,7 +10009,7 @@
     "cost_SN": 30000,
     "inhandBuffId": -1,
     "inhandOverBuffId": -1,
-    "startBuffId": 10403088,
+    "startBuffId": -1,
     "discardBuffId": -1,
     "discardBySkillBuffId": -1,
     "banishBuffId": -1,
@@ -10040,7 +10040,8 @@
     "deriveCardList": [],
     "cardAIActionList": [],
     "ExCondList": [],
-    "ExActList": []
+    "ExActList": [],
+    "linkCardId": []
   },
   {
     "id": 10600275,
@@ -24064,7 +24065,7 @@
     "idCN": "00原版/05五星/生驹/A",
     "mod": "基础卡牌",
     "isInformalData": false,
-    "name": "A",
+    "name": "贯筒射击",
     "isCutIn": false,
     "isUseSingleTarget": false,
     "isNoCD": false,
@@ -24116,7 +24117,7 @@
     "idCN": "00原版/05五星/生驹/B",
     "mod": "基础卡牌",
     "isInformalData": false,
-    "name": "B",
+    "name": "蓄力",
     "isCutIn": false,
     "isUseSingleTarget": false,
     "isNoCD": false,
@@ -24175,7 +24176,7 @@
     "idCN": "00原版/05五星/生驹/C",
     "mod": "基础卡牌",
     "isInformalData": false,
-    "name": "C",
+    "name": "黑色药剂",
     "isCutIn": false,
     "isUseSingleTarget": false,
     "isNoCD": false,
@@ -24185,7 +24186,7 @@
     "backPath": "",
     "roleImgPath": "",
     "color": "Purple",
-    "cardType": "Normal",
+    "cardType": "UseOnce",
     "sameCardGroupId": -1,
     "actionId": 10103473,
     "cost_SN": 40000,
@@ -24195,9 +24196,9 @@
     "discardBuffId": -1,
     "discardBySkillBuffId": -1,
     "banishBuffId": -1,
-    "atkAreaType": "Self",
-    "atkAreaColor": "Green",
-    "targetColor": "HealTest",
+    "atkAreaType": "FixedArea",
+    "atkAreaColor": "Yellow",
+    "targetColor": "AttackTest",
     "disappearEffectId": 11100047,
     "appearEffectId": 11100046,
     "createEffectId": 11100106,
@@ -24224,7 +24225,7 @@
     "idCN": "00原版/05五星/生驹/S",
     "mod": "基础卡牌",
     "isInformalData": false,
-    "name": "S",
+    "name": "爆裂射击",
     "isCutIn": true,
     "isUseSingleTarget": false,
     "isNoCD": false,
@@ -25013,6 +25014,9 @@
       },
       {
         "tagId": 12601510
+      },
+      {
+        "tagId": 12600275
       }
     ],
     "tagOutsideList": [],

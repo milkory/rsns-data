@@ -87387,7 +87387,7 @@
     "idCN": "活动/甲铁城/主界面/任务限制",
     "mod": "UI文本",
     "isInformalData": false,
-    "text": "完成【%s】后解锁"
+    "text": "需完成活动支线%s后开启"
   },
   {
     "id": 80609547,
@@ -87614,6 +87614,13 @@
     "text": "1、囚犯刑期内概率产生越狱事件，越狱成功者将离开整顿中心，越狱失败者将被关入禁闭室同时再次越狱的概率会降低。\\n\\n\r2、随着刑期时间增加，越狱事件发生的概率会递增。\\n\\n\r3、稀有度越高的囚犯，越狱概率和越狱成功率都会更高。"
   },
   {
+    "id": 80609582,
+    "idCN": "帮助/监狱帮助/大楼/囚犯越狱页签",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "囚犯越狱"
+  },
+  {
     "id": 80609579,
     "idCN": "路线地区/隐岩站",
     "mod": "UI文本",
@@ -87635,13 +87642,6 @@
     "text": "岚心城"
   },
   {
-    "id": 80609582,
-    "idCN": "帮助/监狱帮助/大楼/囚犯越狱页签",
-    "mod": "UI文本",
-    "isInformalData": false,
-    "text": "囚犯越狱"
-  },
-  {
     "id": 80609583,
     "idCN": "2预制体/Squads/Squads/文案65",
     "mod": "UI文本",
@@ -87656,60 +87656,11 @@
     "text": "可共振"
   },
   {
-    "id": 80609585,
-    "idCN": "2预制体/Squads/Squads/文案67",
+    "id": 80609593,
+    "idCN": "甲铁城/清缴界面/通关时间",
     "mod": "UI文本",
     "isInformalData": false,
-    "text": "可共振、装备空缺"
-  },
-  {
-    "id": 80609594,
-    "idCN": "活动/甲铁城/关卡/需剧情解锁",
-    "mod": "UI文本",
-    "isInformalData": false,
-    "text": "需完成【甲铁城】活动剧情"
-  },
-  {
-    "id": 80609586,
-    "idCN": "商会/待定/放弃CD限制",
-    "mod": "UI文本",
-    "isInformalData": false,
-    "text": "%s前不能重新接取该订单"
-  },
-  {
-    "id": 80609587,
-    "idCN": "商会/待定/放弃次数过多",
-    "mod": "UI文本",
-    "isInformalData": false,
-    "text": "由于多次放弃共享订单，本周无法接取新的订单！"
-  },
-  {
-    "id": 80609588,
-    "idCN": "商会/待定/超时CD限制",
-    "mod": "UI文本",
-    "isInformalData": false,
-    "text": "%s前不能接取新订单"
-  },
-  {
-    "id": 80609589,
-    "idCN": "商会/待定/超时次数过多",
-    "mod": "UI文本",
-    "isInformalData": false,
-    "text": "由于多次未完成共享订单，本周无法接取新的订单！"
-  },
-  {
-    "id": 80609590,
-    "idCN": "2预制体/MainUI/车站/隐岩站",
-    "mod": "UI文本",
-    "isInformalData": false,
-    "text": "隐岩站"
-  },
-  {
-    "id": 80609591,
-    "idCN": "2预制体/MainUI/车站/岚心城",
-    "mod": "UI文本",
-    "isInformalData": false,
-    "text": "岚心城"
+    "text": "通关时间： %d分钟"
   },
   {
     "id": 80609592,
@@ -87719,10 +87670,66 @@
     "text": "栖羽站"
   },
   {
-    "id": 80609593,
-    "idCN": "甲铁城/清缴界面/通关时间",
+    "id": 80609591,
+    "idCN": "2预制体/MainUI/车站/岚心城",
     "mod": "UI文本",
     "isInformalData": false,
-    "text": "通关时间： %d分钟"
+    "text": "岚心城"
+  },
+  {
+    "id": 80609590,
+    "idCN": "2预制体/MainUI/车站/隐岩站",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "隐岩站"
+  },
+  {
+    "id": 80609589,
+    "idCN": "商会/待定/超时次数过多",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "由于多次未完成共享订单，本周无法接取新的订单！"
+  },
+  {
+    "id": 80609588,
+    "idCN": "商会/待定/超时CD限制",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "%s前不能接取新订单"
+  },
+  {
+    "id": 80609587,
+    "idCN": "商会/待定/放弃次数过多",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "由于多次放弃共享订单，本周无法接取新的订单！"
+  },
+  {
+    "id": 80609586,
+    "idCN": "商会/待定/放弃CD限制",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "%s前不能重新接取该订单"
+  },
+  {
+    "id": 80609585,
+    "idCN": "2预制体/Squads/Squads/文案67",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "可共振、装备空缺"
+  },
+  {
+    "id": 80609595,
+    "idCN": "无垠乱斗/道具不足",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "道具不足，无法开始无垠乱斗"
+  },
+  {
+    "id": 80609594,
+    "idCN": "活动/甲铁城/关卡/需剧情解锁",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "需完成【甲铁城】活动剧情"
   }
 ]

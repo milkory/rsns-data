@@ -32964,6 +32964,7 @@
     "hitAreaY_SN": 10000,
     "hitAreaHalfWidth_SN": 5000,
     "hitAreaHalfHeight_SN": 10000,
+    "canOverMaxSpeed": false,
     "battleDes": "",
     "safeInformation": "来自阿妮塔能源公司的实习园丁，致力于一锤解决桦石，最好也能一锤解决战斗。",
     "unitInformation": "",
@@ -32974,7 +32975,8 @@
     "enemyType": 12601047,
     "enemyCamp": 12601045,
     "enemyBookId": -1,
-    "prisonerDrop": []
+    "prisonerDrop": [],
+    "enemySkillList": []
   },
   {
     "id": 10000131,
@@ -75574,10 +75576,10 @@
   },
   {
     "id": 10000478,
-    "idCN": "敌方/14学会/昴宿七",
+    "idCN": "敌方/14学会/昴宿六",
     "mod": "敌方角色",
     "isInformalData": false,
-    "name": "昴宿七",
+    "name": "昴宿六",
     "EnglishName": "",
     "viewId": 11000393,
     "skinList": [],
@@ -88207,7 +88209,7 @@
     "mod": "玩家角色",
     "isInformalData": false,
     "name": "生驹",
-    "EnglishName": "Man!",
+    "EnglishName": "Ikuma",
     "viewId": 11000446,
     "skinList": [
       {
@@ -88245,8 +88247,8 @@
     "atk_SN": 820000,
     "atkSpeed_SN": 1000000,
     "luck_SN": 0,
-    "line": 3,
-    "subLine": 210,
+    "line": 1,
+    "subLine": 139,
     "isUseCustomCostRestore": false,
     "costRestorePerFrame_SN": 22,
     "costRestore_SN": 1340,
@@ -95312,6 +95314,9 @@
     "skinList": [
       {
         "unitViewId": 11000465
+      },
+      {
+        "unitViewId": 11000474
       }
     ],
     "sideId": 12600035,
@@ -96356,10 +96361,10 @@
   },
   {
     "id": 10000633,
-    "idCN": "敌方/联动_甲铁城/死射",
+    "idCN": "敌方/联动_甲铁城/铁心铳士",
     "mod": "敌方角色",
     "isInformalData": false,
-    "name": "死射",
+    "name": "铁心铳士",
     "EnglishName": "",
     "viewId": 11000468,
     "skinList": [],
@@ -97780,10 +97785,10 @@
   },
   {
     "id": 10000672,
-    "idCN": "敌方/联动_甲铁城/铁御",
+    "idCN": "敌方/联动_甲铁城/铁心力士",
     "mod": "敌方角色",
     "isInformalData": false,
-    "name": "铁御",
+    "name": "铁心力士",
     "EnglishName": "",
     "viewId": 11000470,
     "skinList": [],
@@ -100083,10 +100088,10 @@
   },
   {
     "id": 10000542,
-    "idCN": "敌方/联动_甲铁城/狂徒",
+    "idCN": "敌方/联动_甲铁城/铁心武者",
     "mod": "敌方角色",
     "isInformalData": false,
-    "name": "铁御",
+    "name": "铁心武者",
     "EnglishName": "",
     "viewId": 11000478,
     "skinList": [],
@@ -100387,7 +100392,7 @@
         "id": 12600992
       }
     ],
-    "enemyType": 12601047,
+    "enemyType": 12601048,
     "enemyCamp": 12600237,
     "enemyBookId": 10000689,
     "prisonerDrop": [],
@@ -100495,8 +100500,8 @@
     "rewardList": [],
     "actionStandID": 10103684,
     "actionMoveID": 10103684,
-    "actionAttackedID": 10103684,
-    "actionAttackedBackID": 10103684,
+    "actionAttackedID": 10103710,
+    "actionAttackedBackID": 10103710,
     "actionKnockUpID": -1,
     "actionStunID": 10103684,
     "actionDeadID": 10103684,
@@ -100540,7 +100545,7 @@
         "id": 12600992
       }
     ],
-    "enemyType": 12601047,
+    "enemyType": 12601048,
     "enemyCamp": 12600237,
     "enemyBookId": 10000690,
     "prisonerDrop": [],
@@ -102568,5 +102573,682 @@
         "id": 80303805
       }
     ]
+  },
+  {
+    "id": 10000711,
+    "idCN": "敌方/联动_甲铁城/黑烟苍叶",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "黑烟苍叶",
+    "EnglishName": "",
+    "viewId": 11000486,
+    "skinList": [],
+    "sideId": 12600910,
+    "controllerId": 10300521,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": -1,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301506
+      },
+      {
+        "skillId": 12301426
+      },
+      {
+        "skillId": 12301367
+      }
+    ],
+    "hp_SN": 14000000000,
+    "def_SN": 560000,
+    "atk_SN": 680000,
+    "atkSpeed_SN": 1000000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000467,
+    "growthTagList": [
+      {
+        "growthTagId": 12000112
+      },
+      {
+        "growthTagId": 12000097
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800292
+      },
+      {
+        "talentId": 12800293
+      },
+      {
+        "talentId": 12800294
+      },
+      {
+        "talentId": 12800295
+      },
+      {
+        "talentId": 12800296
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10103708,
+    "actionMoveID": 10103707,
+    "actionAttackedID": 10103705,
+    "actionAttackedBackID": 10103704,
+    "actionKnockUpID": -1,
+    "actionStunID": 10103699,
+    "actionDeadID": 10103706,
+    "actionVictoryID": -1,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 20000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 20000,
+    "hitAreaHalfWidth_SN": 15000,
+    "hitAreaHalfHeight_SN": 20000,
+    "canOverMaxSpeed": false,
+    "battleDes": "",
+    "safeInformation": "",
+    "unitInformation": "",
+    "enemyDrop": [
+      {
+        "id": 11700077
+      },
+      {
+        "id": 11700147
+      },
+      {
+        "id": 11700079
+      }
+    ],
+    "abilityList": [
+      {
+        "id": 12600093
+      }
+    ],
+    "weaknessList": [
+      {
+        "id": 12600978
+      }
+    ],
+    "resistanceList": [
+      {
+        "id": 12600972
+      },
+      {
+        "id": 12600992
+      }
+    ],
+    "enemyType": 12601048,
+    "enemyCamp": 12600237,
+    "enemyBookId": 10000711,
+    "prisonerDrop": [],
+    "enemySkillList": []
+  },
+  {
+    "id": 10000712,
+    "idCN": "敌方/000角色/联动/无名",
+    "mod": "玩家角色",
+    "isInformalData": false,
+    "name": "无名",
+    "EnglishName": "Mumei",
+    "viewId": 11000465,
+    "skinList": [
+      {
+        "unitViewId": 11000465
+      }
+    ],
+    "sideId": 12600035,
+    "controllerId": 10300501,
+    "bulletControllerList": [],
+    "isBoss": false,
+    "bossHpTemp": -1,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12601488
+      },
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600067
+      }
+    ],
+    "passiveSkillList": [],
+    "hp_SN": 80000000,
+    "def_SN": 850000,
+    "atk_SN": 880000,
+    "atkSpeed_SN": 1000000,
+    "luck_SN": 0,
+    "line": 1,
+    "subLine": 140,
+    "isUseCustomCostRestore": false,
+    "costRestorePerFrame_SN": 22,
+    "costRestore_SN": 1340,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "FiveStar",
+    "allSkillList": [],
+    "skillList": [
+      {
+        "num": 2,
+        "skillId": 12302059
+      },
+      {
+        "num": 3,
+        "skillId": 12302083
+      },
+      {
+        "num": 1,
+        "skillId": 12302084
+      }
+    ],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [
+      {
+        "tagID": 12600155
+      },
+      {
+        "tagID": 12600161
+      },
+      {
+        "tagID": 12600162
+      }
+    ],
+    "growthId": 12000438,
+    "growthTagList": [],
+    "skillLvUpList": [],
+    "breakthroughList": [
+      {
+        "breakthroughId": 12100656
+      },
+      {
+        "breakthroughId": 12100657
+      },
+      {
+        "breakthroughId": 12100658
+      },
+      {
+        "breakthroughId": 12100659
+      },
+      {
+        "breakthroughId": 12100660
+      },
+      {
+        "breakthroughId": 12100653
+      }
+    ],
+    "awakeList": [
+      {
+        "awakeId": 12200197
+      },
+      {
+        "awakeId": 12200198
+      },
+      {
+        "awakeId": 12200199
+      },
+      {
+        "awakeId": 12200200
+      },
+      {
+        "awakeId": 12200201
+      },
+      {
+        "awakeId": 12200361
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800124
+      },
+      {
+        "talentId": 12800111
+      },
+      {
+        "talentId": 12800180
+      },
+      {
+        "talentId": 12800119
+      },
+      {
+        "talentId": 12800121
+      }
+    ],
+    "rewardList": [
+      {
+        "id": 11700229,
+        "num": 1
+      }
+    ],
+    "actionStandID": 10103581,
+    "actionMoveID": 10103574,
+    "actionAttackedID": 10103575,
+    "actionAttackedBackID": 10103584,
+    "actionKnockUpID": -1,
+    "actionStunID": 10103582,
+    "actionDeadID": 10103573,
+    "actionVictoryID": 10103580,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 15000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 10000,
+    "hitAreaHalfWidth_SN": 5000,
+    "hitAreaHalfHeight_SN": 10000,
+    "canOverMaxSpeed": false,
+    "decomposeRewardList": [
+      {
+        "id": 11400017,
+        "num": 10
+      }
+    ],
+    "isSpine2": 1,
+    "homeSkillList": [
+      {
+        "id": 83900213,
+        "nextIndex": 0,
+        "resonanceLv": 1
+      },
+      {
+        "id": 83900212,
+        "nextIndex": 3,
+        "resonanceLv": 4
+      },
+      {
+        "id": 83900214,
+        "nextIndex": -1,
+        "resonanceLv": 5
+      }
+    ],
+    "totalCost": 1,
+    "totalCardNum": 1,
+    "skillMin": 5,
+    "homeCharacter": 70000311,
+    "stationStoreCharacter": -1,
+    "gotoBed": true,
+    "isDoctor": false,
+    "medicalPoint": 0,
+    "WasteCoefficient": 1.0,
+    "FoodList": [
+      {
+        "id": 83300015,
+        "letter": "咖喱块随便买的，但我加了大量土豆，绝对不会难吃。",
+        "weight": 1
+      }
+    ],
+    "ProfilePhotoList": [
+      {
+        "id": 82600314,
+        "weight": 95
+      },
+      {
+        "id": 82600315,
+        "weight": 95
+      },
+      {
+        "id": 82600317,
+        "weight": 95
+      },
+      {
+        "id": 82600316,
+        "weight": 15
+      }
+    ],
+    "classifyList": [
+      {
+        "des": 12601219
+      },
+      {
+        "des": 12601226
+      }
+    ],
+    "careerList": [
+      {
+        "des": 12601211
+      }
+    ],
+    "fileList": [
+      {
+        "file": 80304773
+      }
+    ],
+    "age": 0,
+    "gender": "女",
+    "birthday": "10月20日",
+    "birthdayMonth": "3",
+    "birthdayDay": "5",
+    "birthdayCake": 11400129,
+    "birthdayMessage": "我不喜欢太甜的蛋糕，它的苦味正好。机会难得，我给你冲一杯咖啡搭配吧……对我的所有物，这种程度的照顾理所当然。",
+    "height": "不明",
+    "birthplace": "详情不明·甲铁城",
+    "ability": "待研究",
+    "identity": "无垠号临时乘员",
+    "basic": "",
+    "ResumeList": [
+      {
+        "des": "自称来自“甲铁城”的神秘少女。在岚心城周边发生的一系列事件中，许多人都已见识到了她不输升构者的战斗实力，但她的身份、来历以及这种能力的真身仍旧是个谜。目前，为了找到回到原本列车上的方法，无名暂时和无垠号乘组一同行动。"
+      }
+    ],
+    "StoryList": [],
+    "CvName": "",
+    "getCharacter": "我是无名，暂且在这里担任保镖——啊，酬金就不用了，你给我提供充足的食物还有睡觉的地方就好，嗯。",
+    "safeInformation": "",
+    "unitInformation": ""
+  },
+  {
+    "id": 10000713,
+    "idCN": "敌方/000角色/联动/生驹",
+    "mod": "玩家角色",
+    "isInformalData": false,
+    "name": "生驹",
+    "EnglishName": "Man!",
+    "viewId": 11000446,
+    "skinList": [
+      {
+        "unitViewId": 11000446
+      }
+    ],
+    "sideId": 12600026,
+    "controllerId": 10300466,
+    "bulletControllerList": [],
+    "isBoss": false,
+    "bossHpTemp": -1,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12601488
+      },
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600646
+      },
+      {
+        "tagId": 12601452
+      }
+    ],
+    "passiveSkillList": [],
+    "hp_SN": 75000000,
+    "def_SN": 780000,
+    "atk_SN": 820000,
+    "atkSpeed_SN": 1000000,
+    "luck_SN": 0,
+    "line": 3,
+    "subLine": 210,
+    "isUseCustomCostRestore": false,
+    "costRestorePerFrame_SN": 22,
+    "costRestore_SN": 1340,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "FiveStar",
+    "allSkillList": [],
+    "skillList": [
+      {
+        "num": 2,
+        "skillId": 12302000
+      },
+      {
+        "num": 2,
+        "skillId": 12302001
+      },
+      {
+        "num": 1,
+        "skillId": 12302002
+      }
+    ],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [
+      {
+        "tagID": 12600155
+      },
+      {
+        "tagID": 12600161
+      },
+      {
+        "tagID": 12600162
+      }
+    ],
+    "growthId": 12000422,
+    "growthTagList": [],
+    "skillLvUpList": [],
+    "breakthroughList": [
+      {
+        "breakthroughId": 12100643
+      },
+      {
+        "breakthroughId": 12100645
+      },
+      {
+        "breakthroughId": 12100648
+      },
+      {
+        "breakthroughId": 12100644
+      },
+      {
+        "breakthroughId": 12100646
+      },
+      {
+        "breakthroughId": 12100647
+      }
+    ],
+    "awakeList": [
+      {
+        "awakeId": 12200197
+      },
+      {
+        "awakeId": 12200198
+      },
+      {
+        "awakeId": 12200199
+      },
+      {
+        "awakeId": 12200200
+      },
+      {
+        "awakeId": 12200201
+      },
+      {
+        "awakeId": 12200361
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800078
+      },
+      {
+        "talentId": 12800083
+      },
+      {
+        "talentId": 12800180
+      },
+      {
+        "talentId": 12800090
+      },
+      {
+        "talentId": 12800084
+      }
+    ],
+    "rewardList": [
+      {
+        "id": 11700227,
+        "num": 1
+      }
+    ],
+    "actionStandID": 10103447,
+    "actionMoveID": 10103442,
+    "actionAttackedID": 10102229,
+    "actionAttackedBackID": 10103466,
+    "actionKnockUpID": -1,
+    "actionStunID": 10103467,
+    "actionDeadID": 10103468,
+    "actionVictoryID": 10103469,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 15000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 10000,
+    "hitAreaHalfWidth_SN": 5000,
+    "hitAreaHalfHeight_SN": 10000,
+    "canOverMaxSpeed": false,
+    "decomposeRewardList": [
+      {
+        "id": 11400017,
+        "num": 10
+      }
+    ],
+    "isSpine2": 1,
+    "homeSkillList": [
+      {
+        "id": 83900076,
+        "nextIndex": 3,
+        "resonanceLv": 1
+      },
+      {
+        "id": 83900211,
+        "nextIndex": 0,
+        "resonanceLv": 4
+      },
+      {
+        "id": 83900164,
+        "nextIndex": -1,
+        "resonanceLv": 5
+      }
+    ],
+    "totalCost": 1,
+    "totalCardNum": 1,
+    "skillMin": 5,
+    "homeCharacter": 70000254,
+    "stationStoreCharacter": -1,
+    "gotoBed": true,
+    "isDoctor": false,
+    "medicalPoint": 0,
+    "WasteCoefficient": 1.0,
+    "FoodList": [],
+    "ProfilePhotoList": [
+      {
+        "id": 82600585,
+        "weight": 95
+      },
+      {
+        "id": 82600586,
+        "weight": 95
+      },
+      {
+        "id": 82600587,
+        "weight": 95
+      },
+      {
+        "id": 82600588,
+        "weight": 15
+      }
+    ],
+    "classifyList": [
+      {
+        "des": 12601216
+      },
+      {
+        "des": 12601217
+      },
+      {
+        "des": 12601219
+      },
+      {
+        "des": 12601215
+      },
+      {
+        "des": 12601218
+      },
+      {
+        "des": 12601221
+      },
+      {
+        "des": 12601223
+      },
+      {
+        "des": 12601227
+      }
+    ],
+    "careerList": [
+      {
+        "des": 12601213
+      }
+    ],
+    "fileList": [
+      {
+        "file": 80304651
+      }
+    ],
+    "age": 0,
+    "gender": "男",
+    "birthday": "2月28日",
+    "birthdayMonth": "1",
+    "birthdayDay": "1",
+    "birthdayCake": -1,
+    "birthdayMessage": "",
+    "height": "不明",
+    "birthplace": "详情不明·甲铁城",
+    "ability": "待研究",
+    "identity": "无垠号临时乘员",
+    "basic": "",
+    "ResumeList": [
+      {
+        "des": "自称是“甲铁城”的列车整备员，努力向无垠号乘组介绍了自己的经历和来历，然而他解释的一切都在理解范围之外。在岚心城周边发生的一系列事件中与无垠号乘组并肩作战，提供了许多技术和战斗上的帮助。目前，为了找到回到原本列车上的方法，生驹暂时和无垠号乘组一同行动。"
+      }
+    ],
+    "StoryList": [],
+    "CvName": "",
+    "getCharacter": "我是生驹。……什么？还要其他介绍？那就不用了吧……！我会努力工作，也会努力战斗的。毕竟我还有想实现的理想！",
+    "safeInformation": "",
+    "unitInformation": ""
   }
 ]
