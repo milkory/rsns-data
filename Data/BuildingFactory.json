@@ -61941,50 +61941,6 @@
     "tradeRankList": []
   },
   {
-    "id": 84400237,
-    "idCN": "兑换站/乱斗竞技",
-    "mod": "兑换站",
-    "isInformalData": false,
-    "name": "",
-    "buildingIconPath": "",
-    "firstPlotId": -1,
-    "uiPath": "UI/ExchangeStation/ExchangeStation",
-    "bgPath": "UI/Dialog/Back/Arcade_center",
-    "bgColor": "FFFFFF",
-    "stationId": 83000029,
-    "npcId": 83700064,
-    "helpId": -1,
-    "rankId": -1,
-    "correspondingActivity": -1,
-    "eventList": [],
-    "playerLevel": 20,
-    "exchangeOpenPageList": [],
-    "exchangeStoreList": [
-      {
-        "id": 40300090
-      }
-    ],
-    "exchangeWeaponList": [],
-    "isShowConstruct": false,
-    "isShowReputation": false,
-    "exchangeName": "刻录凭证兑换",
-    "buildingPath": "UI/Home/HomeSafe/icon_safe",
-    "exchangePath": "UI/HomeBattleCenter/Exchange/icon_pata",
-    "pagePath": "UI/HomeBattleCenter/Exchange/di_pata",
-    "bottomPath": "UI/HomeBattleCenter/Exchange/di_group_pata",
-    "exchangeAffirmPath": "UI/HomeBattleCenter/Exchange/btn_exchange_tiemeng",
-    "exchangeCompletePath": "UI/HomeBattleCenter/Exchange/btn_complete_xuehui",
-    "orderNumMax": 6,
-    "orderNumMin": 4,
-    "activityOrderList": [],
-    "orderTitle": -1,
-    "orderDes": -1,
-    "orderBgPath": "",
-    "levelIconPath": "",
-    "buildLevelName": -1,
-    "constructionLevelList": []
-  },
-  {
     "id": 84400252,
     "idCN": "兑换站/远星大桥-苏利耶",
     "mod": "兑换站",
@@ -63372,5 +63328,165 @@
       }
     ],
     "openPageList": []
+  },
+  {
+    "id": 84400250,
+    "idCN": "01铁安局/岚心城",
+    "mod": "铁安局",
+    "isInformalData": false,
+    "name": "",
+    "buildingIconPath": "",
+    "firstPlotId": -1,
+    "uiPath": "UI/Home/HomeSafe/HomeSafe",
+    "bgPath": "UI/Dialog/Back4/LXC_PROC",
+    "bgColor": "FFFFFF",
+    "stationId": 83000006,
+    "npcId": 83700107,
+    "helpId": -1,
+    "rankId": -1,
+    "correspondingActivity": -1,
+    "eventList": [],
+    "createQuestList": [
+      {
+        "id": 80302474,
+        "repCondition": 0
+      },
+      {
+        "id": 80302478,
+        "repCondition": 0
+      },
+      {
+        "id": 80302472,
+        "repCondition": 1
+      }
+    ],
+    "triggerPlot": -1,
+    "triggerQuest": 81002060,
+    "tagOnPath": "UI/Home/HomeSafe/Level/tag_on",
+    "tagOffPath": "UI/Home/HomeSafe/Level/tag_off",
+    "expelBgPath": "UI/Home/HomeSafe/Level/di_level",
+    "offerPrestige": 5,
+    "offerQuestList": [
+      {
+        "bossId": 10000456,
+        "id": 20100273,
+        "isRepetition": true,
+        "weight": 10
+      },
+      {
+        "bossId": 10000457,
+        "id": 20100271,
+        "isRepetition": true,
+        "weight": 10
+      },
+      {
+        "bossId": 10000461,
+        "id": 20100976,
+        "isRepetition": true,
+        "weight": 10
+      },
+      {
+        "bossId": 10000252,
+        "id": 20100274,
+        "isRepetition": true,
+        "weight": 10
+      },
+      {
+        "bossId": 10000186,
+        "id": 20100984,
+        "isRepetition": true,
+        "weight": 10
+      },
+      {
+        "bossId": 10000187,
+        "id": 20100178,
+        "isRepetition": true,
+        "weight": 10
+      },
+      {
+        "bossId": 10000042,
+        "id": 20100270,
+        "isRepetition": true,
+        "weight": 10
+      },
+      {
+        "bossId": 10000244,
+        "id": 20100176,
+        "isRepetition": true,
+        "weight": 10
+      },
+      {
+        "bossId": 10000113,
+        "id": 20100492,
+        "isRepetition": true,
+        "weight": 10
+      },
+      {
+        "bossId": 10000116,
+        "id": 20100493,
+        "isRepetition": true,
+        "weight": 10
+      }
+    ],
+    "shareLevelNumMax": 10,
+    "changeRefreshTime": 10,
+    "returnCoefficient": 0.7,
+    "exchangeBuildId": 84400022
+  },
+  {
+    "id": 84400258,
+    "idCN": "兑换站/栖羽站-魇",
+    "mod": "兑换站",
+    "isInformalData": false,
+    "name": "",
+    "buildingIconPath": "",
+    "firstPlotId": -1,
+    "uiPath": "UI/ExchangeStation/ExchangeStation",
+    "bgPath": "UI/Dialog/Back4/QYZ_Exchange",
+    "bgColor": "FFFFFF",
+    "stationId": 83000006,
+    "npcId": 83700111,
+    "helpId": -1,
+    "rankId": -1,
+    "correspondingActivity": -1,
+    "eventList": [],
+    "playerLevel": 0,
+    "exchangeOpenPageList": [
+      {
+        "icon": "UI/Common/icon_weaponstore",
+        "isStore": false,
+        "isTalk": false,
+        "name": "整备库",
+        "showUI": "",
+        "uiPath": "UI/WeaponStore/WeaponStore"
+      },
+      {
+        "icon": "UI/Home/HomeSafe/jiaotan",
+        "isStore": false,
+        "isTalk": true,
+        "name": "交谈",
+        "showUI": ""
+      }
+    ],
+    "exchangeStoreList": [],
+    "exchangeWeaponList": [],
+    "isShowConstruct": false,
+    "isShowReputation": false,
+    "exchangeName": "兑换计划",
+    "buildingPath": "UI/ExchangeStation/icon_exchange_heiyue",
+    "exchangePath": "UI/HomeBattleCenter/Exchange/icon_heiyue",
+    "pagePath": "UI/HomeBattleCenter/Exchange/di_heiyue",
+    "bottomPath": "UI/HomeBattleCenter/Exchange/di_group_heiyue",
+    "exchangeAffirmPath": "UI/HomeBattleCenter/Exchange/btn_exchange_xuehui",
+    "exchangeCompletePath": "UI/HomeBattleCenter/Exchange/btn_complete_xuehui",
+    "orderNumMax": 6,
+    "orderNumMin": 4,
+    "activityOrderList": [],
+    "orderTitle": -1,
+    "orderDes": -1,
+    "orderBgPath": "",
+    "levelIconPath": "",
+    "buildLevelName": -1,
+    "constructionLevelList": []
   }
 ]
