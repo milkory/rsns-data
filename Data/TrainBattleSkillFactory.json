@@ -17,8 +17,8 @@
     "idCN": "子技能/子-机关枪",
     "mod": "子技能",
     "isInformalData": false,
-    "LifeTime": 0.2,
-    "InterruptTime": 0.2,
+    "LifeTime": 0.1,
+    "InterruptTime": 0.1,
     "BulletList": [],
     "EffectList": [],
     "AudioList": [],
@@ -35,6 +35,13 @@
         "Param2": "",
         "Param3": "",
         "StartTime": 0.0
+      },
+      {
+        "EventType": "CheckStaticMonster",
+        "Param1": "",
+        "Param2": "",
+        "Param3": "",
+        "StartTime": 0.0
       }
     ]
   },
@@ -43,7 +50,7 @@
     "idCN": "主技能/大章鱼/跟随撞击",
     "mod": "主技能-同时",
     "isInformalData": false,
-    "CD": 5.0,
+    "CD": 8.0,
     "SubSkills": [
       {
         "id": 72500004
@@ -53,18 +60,23 @@
   },
   {
     "id": 72500004,
-    "idCN": "子技能/怪/跟随撞击",
+    "idCN": "子技能/大章鱼/跟随撞击",
     "mod": "子技能",
     "isInformalData": false,
-    "LifeTime": 1.0,
+    "LifeTime": 2.0,
     "InterruptTime": 0.5,
     "BulletList": [],
     "EffectList": [],
-    "AudioList": [],
+    "AudioList": [
+      {
+        "StartTime": 1.2,
+        "id": 30006289
+      }
+    ],
     "AnimList": [
       {
         "StartTime": 0.0,
-        "StateName": "Skill01"
+        "StateName": "JTC_dzhangyu_Atk"
       }
     ],
     "RunningEvents": [
@@ -73,20 +85,20 @@
         "Param1": "Train",
         "Param2": "",
         "Param3": "",
-        "StartTime": 0.5
+        "StartTime": 1.2
       },
       {
         "EventType": "CameraShake",
         "Param1": "1",
-        "Param2": "",
-        "Param3": "",
-        "StartTime": 0.5
+        "Param2": "4",
+        "Param3": "4",
+        "StartTime": 1.2
       }
     ]
   },
   {
     "id": 72500005,
-    "idCN": "子技能/怪/跟随出场",
+    "idCN": "子技能/大章鱼/跟随出场",
     "mod": "子技能",
     "isInformalData": false,
     "LifeTime": 1.0,
@@ -96,13 +108,13 @@
     "AudioList": [
       {
         "StartTime": 0.0,
-        "id": 30001206
+        "id": 30006288
       }
     ],
     "AnimList": [
       {
         "StartTime": 0.0,
-        "StateName": "Born"
+        "StateName": "JTC_dzhangyu_Exit"
       }
     ],
     "RunningEvents": []
@@ -142,9 +154,7 @@
     "InterruptTime": 1.0,
     "BulletList": [],
     "EffectList": [],
-    "AudioList": [
-      {}
-    ],
+    "AudioList": [],
     "AnimList": [
       {
         "StartTime": 0.0,
@@ -168,7 +178,7 @@
   },
   {
     "id": 72500010,
-    "idCN": "子技能/怪/机枪受击",
+    "idCN": "子技能/大章鱼/机枪受击",
     "mod": "子技能",
     "isInformalData": false,
     "LifeTime": 1.0,
@@ -257,6 +267,78 @@
     "SubSkills": [
       {
         "id": 72500015
+      }
+    ],
+    "RunningEvents": []
+  },
+  {
+    "id": 72500017,
+    "idCN": "子技能/大章鱼/跟随离场",
+    "mod": "子技能",
+    "isInformalData": false,
+    "LifeTime": 3.5,
+    "InterruptTime": 1.0,
+    "BulletList": [],
+    "EffectList": [],
+    "AudioList": [
+      {
+        "StartTime": 0.0,
+        "id": 30006290
+      }
+    ],
+    "AnimList": [
+      {
+        "StartTime": 0.0,
+        "StateName": "JTC_dzhangyu_Run"
+      }
+    ],
+    "RunningEvents": []
+  },
+  {
+    "id": 72500018,
+    "idCN": "子技能/大章鱼/跟随死亡",
+    "mod": "子技能",
+    "isInformalData": false,
+    "LifeTime": 1.0,
+    "InterruptTime": 1.0,
+    "BulletList": [],
+    "EffectList": [],
+    "AudioList": [
+      {
+        "StartTime": 0.0,
+        "id": 30006291
+      }
+    ],
+    "AnimList": [
+      {
+        "StartTime": 0.0,
+        "StateName": "JTC_dzhangyu_Die"
+      }
+    ],
+    "RunningEvents": []
+  },
+  {
+    "id": 72500019,
+    "idCN": "主技能/大章鱼/跟随离场",
+    "mod": "主技能-同时",
+    "isInformalData": false,
+    "CD": 0.0,
+    "SubSkills": [
+      {
+        "id": 72500017
+      }
+    ],
+    "RunningEvents": []
+  },
+  {
+    "id": 72500020,
+    "idCN": "主技能/大章鱼/跟随死亡",
+    "mod": "主技能-同时",
+    "isInformalData": false,
+    "CD": 0.0,
+    "SubSkills": [
+      {
+        "id": 72500018
       }
     ],
     "RunningEvents": []

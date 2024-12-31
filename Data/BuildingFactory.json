@@ -529,7 +529,7 @@
         "repCondition": 1
       }
     ],
-    "triggerPlot": -1,
+    "triggerPlot": 20700422,
     "triggerQuest": 81001401,
     "tagOnPath": "UI/Home/HomeSafe/Level/tag_on",
     "tagOffPath": "UI/Home/HomeSafe/Level/tag_off",
@@ -22584,7 +22584,7 @@
     "mod": "兑换站",
     "isInformalData": false,
     "name": "海岛管理局",
-    "buildingIconPath": "UI/Common/Common_icon_camp_8",
+    "buildingIconPath": "UI/Common/Common_icon_ac2",
     "firstPlotId": -1,
     "uiPath": "UI/ExchangeStation/ExchangeStation",
     "bgPath": "UI/Building/Shop_Island/BG",
@@ -22615,7 +22615,7 @@
     "isShowConstruct": false,
     "isShowReputation": false,
     "exchangeName": "海岛兑换",
-    "buildingPath": "UI/Common/Common_icon_camp_8",
+    "buildingPath": "UI/Common/Common_icon_ac2",
     "exchangePath": "UI/HomeBattleCenter/Exchange/Island_icon",
     "pagePath": "UI/HomeBattleCenter/Exchange/Island_di",
     "bottomPath": "UI/HomeBattleCenter/Exchange/Island_group",
@@ -22637,7 +22637,7 @@
     "mod": "商店",
     "isInformalData": false,
     "name": "海岛管理局",
-    "buildingIconPath": "UI/Common/Common_icon_camp_8",
+    "buildingIconPath": "UI/Common/Common_icon_ac2",
     "firstPlotId": -1,
     "uiPath": "UI/Building/BuildingShop",
     "bgPath": "UI/Building/Shop_Island/BG",
@@ -22680,7 +22680,7 @@
     "mod": "动态建筑",
     "isInformalData": false,
     "name": "海岛管理局",
-    "buildingIconPath": "UI/Common/Common_icon_camp_8",
+    "buildingIconPath": "UI/Common/Common_icon_ac2",
     "firstPlotId": -1,
     "uiPath": "UI/Building/BuildingList",
     "bgPath": "UI/Island_Task/bg",
@@ -63360,7 +63360,7 @@
         "repCondition": 1
       }
     ],
-    "triggerPlot": -1,
+    "triggerPlot": 20700563,
     "triggerQuest": 81002060,
     "tagOnPath": "UI/Home/HomeSafe/Level/tag_on",
     "tagOffPath": "UI/Home/HomeSafe/Level/tag_off",
@@ -63444,7 +63444,7 @@
     "uiPath": "UI/ExchangeStation/ExchangeStation",
     "bgPath": "UI/Dialog/Back4/QYZ_Exchange",
     "bgColor": "FFFFFF",
-    "stationId": 83000006,
+    "stationId": 83000018,
     "npcId": 83700111,
     "helpId": -1,
     "rankId": -1,
@@ -63453,12 +63453,12 @@
     "playerLevel": 0,
     "exchangeOpenPageList": [
       {
-        "icon": "UI/Common/icon_weaponstore",
-        "isStore": false,
+        "icon": "UI/HomeBattleCenter/icon_exchange",
+        "isStore": true,
         "isTalk": false,
-        "name": "整备库",
-        "showUI": "",
-        "uiPath": "UI/WeaponStore/WeaponStore"
+        "name": "兑换计划",
+        "showUI": "Group_Exchange",
+        "uiPath": ""
       },
       {
         "icon": "UI/Home/HomeSafe/jiaotan",
@@ -63468,7 +63468,11 @@
         "showUI": ""
       }
     ],
-    "exchangeStoreList": [],
+    "exchangeStoreList": [
+      {
+        "id": 40300089
+      }
+    ],
     "exchangeWeaponList": [],
     "isShowConstruct": false,
     "isShowReputation": false,
@@ -63488,5 +63492,3049 @@
     "levelIconPath": "",
     "buildLevelName": -1,
     "constructionLevelList": []
+  },
+  {
+    "id": 84400259,
+    "idCN": "00传单地点/岚心城/4月之家居酒屋",
+    "mod": "传单地点",
+    "isInformalData": false,
+    "name": "",
+    "buildingIconPath": "",
+    "firstPlotId": -1,
+    "uiPath": "",
+    "bgPath": "",
+    "bgColor": "FFFFFF",
+    "stationId": -1,
+    "npcId": -1,
+    "helpId": -1,
+    "rankId": -1,
+    "correspondingActivity": -1,
+    "eventList": [],
+    "namePlace": "月之家居酒屋",
+    "placeType": 12601531,
+    "namePlaceIcon": "UI/Flier/map/lanxincheng/jujiuwu",
+    "PlaceDesc": 80609799,
+    "unlockPlace": 10,
+    "placeWeight": 4,
+    "passengerTypeList": [
+      {
+        "id": 84200023,
+        "weight": 48
+      },
+      {
+        "id": 84200024,
+        "weight": 48
+      },
+      {
+        "id": 84200057,
+        "weight": 48
+      },
+      {
+        "id": 84200058,
+        "weight": 48
+      },
+      {
+        "id": 84200008,
+        "weight": 2
+      },
+      {
+        "id": 84200009,
+        "weight": 2
+      },
+      {
+        "id": 84200010,
+        "weight": 2
+      },
+      {
+        "id": 84200011,
+        "weight": 2
+      },
+      {
+        "id": 84200033,
+        "weight": 24
+      },
+      {
+        "id": 84200020,
+        "weight": 24
+      },
+      {
+        "id": 84200004,
+        "weight": 24
+      },
+      {
+        "id": 84200019,
+        "weight": 24
+      },
+      {
+        "id": 84200003,
+        "weight": 16
+      },
+      {
+        "id": 84200005,
+        "weight": 16
+      },
+      {
+        "id": 84200006,
+        "weight": 16
+      },
+      {
+        "id": 84200007,
+        "weight": 16
+      },
+      {
+        "id": 84200012,
+        "weight": 8
+      },
+      {
+        "id": 84200013,
+        "weight": 8
+      },
+      {
+        "id": 84200014,
+        "weight": 8
+      },
+      {
+        "id": 84200015,
+        "weight": 8
+      },
+      {
+        "id": 84200016,
+        "weight": 41
+      },
+      {
+        "id": 84200017,
+        "weight": 41
+      },
+      {
+        "id": 84200018,
+        "weight": 41
+      },
+      {
+        "id": 84200059,
+        "weight": 8
+      },
+      {
+        "id": 84200051,
+        "weight": 8
+      },
+      {
+        "id": 84200052,
+        "weight": 8
+      },
+      {
+        "id": 84200053,
+        "weight": 8
+      },
+      {
+        "id": 84200042,
+        "weight": 8
+      },
+      {
+        "id": 84200022,
+        "weight": 16
+      },
+      {
+        "id": 84200021,
+        "weight": 16
+      },
+      {
+        "id": 84200054,
+        "weight": 8
+      },
+      {
+        "id": 84200025,
+        "weight": 33
+      },
+      {
+        "id": 84200056,
+        "weight": 67
+      },
+      {
+        "id": 84200047,
+        "weight": 67
+      },
+      {
+        "id": 84200026,
+        "weight": 67
+      },
+      {
+        "id": 84200001,
+        "weight": 33
+      },
+      {
+        "id": 84200002,
+        "weight": 33
+      },
+      {
+        "id": 84200044,
+        "weight": 45
+      },
+      {
+        "id": 84200045,
+        "weight": 45
+      },
+      {
+        "id": 84200055,
+        "weight": 10
+      }
+    ],
+    "passengerTagList": [
+      {
+        "id": 80300210,
+        "weight": 1
+      },
+      {
+        "id": 80300215,
+        "weight": 1
+      },
+      {
+        "id": 80300281,
+        "weight": 1
+      },
+      {
+        "id": 80301533,
+        "weight": 10
+      },
+      {
+        "id": 80300283,
+        "weight": 10
+      },
+      {
+        "id": 80300236,
+        "weight": 10
+      },
+      {
+        "id": 80300299,
+        "weight": 10
+      },
+      {
+        "id": 80300211,
+        "weight": 10
+      },
+      {
+        "id": 80300284,
+        "weight": 10
+      },
+      {
+        "id": 80300292,
+        "weight": 10
+      },
+      {
+        "id": 80300291,
+        "weight": 10
+      },
+      {
+        "id": 80300213,
+        "weight": 10
+      },
+      {
+        "id": 80300276,
+        "weight": 10
+      },
+      {
+        "id": 80300293,
+        "weight": 10
+      },
+      {
+        "id": 80300301,
+        "weight": 10
+      },
+      {
+        "id": 80301531,
+        "weight": 1
+      },
+      {
+        "id": 80300277,
+        "weight": 1
+      },
+      {
+        "id": 80300285,
+        "weight": 1
+      },
+      {
+        "id": 80300294,
+        "weight": 1
+      },
+      {
+        "id": 80300216,
+        "weight": 1
+      },
+      {
+        "id": 80300278,
+        "weight": 1
+      },
+      {
+        "id": 80300286,
+        "weight": 1
+      },
+      {
+        "id": 80300295,
+        "weight": 1
+      },
+      {
+        "id": 80300233,
+        "weight": 1
+      },
+      {
+        "id": 80300279,
+        "weight": 1
+      },
+      {
+        "id": 80300287,
+        "weight": 1
+      },
+      {
+        "id": 80300296,
+        "weight": 1
+      },
+      {
+        "id": 80300300,
+        "weight": 1
+      },
+      {
+        "id": 80300302,
+        "weight": 1
+      },
+      {
+        "id": 80300303,
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": 84400260,
+    "idCN": "00传单地点/岚心城/5黑月匠造",
+    "mod": "传单地点",
+    "isInformalData": false,
+    "name": "",
+    "buildingIconPath": "",
+    "firstPlotId": -1,
+    "uiPath": "",
+    "bgPath": "",
+    "bgColor": "FFFFFF",
+    "stationId": -1,
+    "npcId": -1,
+    "helpId": -1,
+    "rankId": -1,
+    "correspondingActivity": -1,
+    "eventList": [],
+    "namePlace": "黑月匠造",
+    "placeType": 12601535,
+    "namePlaceIcon": "UI/Flier/map/lanxincheng/heiyuejiangzao",
+    "PlaceDesc": 80609802,
+    "unlockPlace": 15,
+    "placeWeight": 5,
+    "passengerTypeList": [
+      {
+        "id": 84200023,
+        "weight": 30
+      },
+      {
+        "id": 84200024,
+        "weight": 30
+      },
+      {
+        "id": 84200057,
+        "weight": 30
+      },
+      {
+        "id": 84200058,
+        "weight": 30
+      },
+      {
+        "id": 84200008,
+        "weight": 3
+      },
+      {
+        "id": 84200009,
+        "weight": 3
+      },
+      {
+        "id": 84200010,
+        "weight": 3
+      },
+      {
+        "id": 84200011,
+        "weight": 3
+      },
+      {
+        "id": 84200033,
+        "weight": 30
+      },
+      {
+        "id": 84200020,
+        "weight": 30
+      },
+      {
+        "id": 84200004,
+        "weight": 30
+      },
+      {
+        "id": 84200019,
+        "weight": 30
+      },
+      {
+        "id": 84200003,
+        "weight": 23
+      },
+      {
+        "id": 84200005,
+        "weight": 23
+      },
+      {
+        "id": 84200006,
+        "weight": 23
+      },
+      {
+        "id": 84200007,
+        "weight": 23
+      },
+      {
+        "id": 84200012,
+        "weight": 8
+      },
+      {
+        "id": 84200013,
+        "weight": 8
+      },
+      {
+        "id": 84200014,
+        "weight": 8
+      },
+      {
+        "id": 84200015,
+        "weight": 8
+      },
+      {
+        "id": 84200016,
+        "weight": 8
+      },
+      {
+        "id": 84200017,
+        "weight": 8
+      },
+      {
+        "id": 84200018,
+        "weight": 8
+      },
+      {
+        "id": 84200059,
+        "weight": 16
+      },
+      {
+        "id": 84200051,
+        "weight": 16
+      },
+      {
+        "id": 84200052,
+        "weight": 16
+      },
+      {
+        "id": 84200053,
+        "weight": 16
+      },
+      {
+        "id": 84200042,
+        "weight": 8
+      },
+      {
+        "id": 84200022,
+        "weight": 8
+      },
+      {
+        "id": 84200021,
+        "weight": 8
+      },
+      {
+        "id": 84200054,
+        "weight": 16
+      },
+      {
+        "id": 84200025,
+        "weight": 58
+      },
+      {
+        "id": 84200056,
+        "weight": 58
+      },
+      {
+        "id": 84200047,
+        "weight": 58
+      },
+      {
+        "id": 84200026,
+        "weight": 58
+      },
+      {
+        "id": 84200001,
+        "weight": 58
+      },
+      {
+        "id": 84200002,
+        "weight": 58
+      },
+      {
+        "id": 84200044,
+        "weight": 60
+      },
+      {
+        "id": 84200045,
+        "weight": 60
+      },
+      {
+        "id": 84200055,
+        "weight": 30
+      }
+    ],
+    "passengerTagList": [
+      {
+        "id": 80300210,
+        "weight": 1
+      },
+      {
+        "id": 80300215,
+        "weight": 1
+      },
+      {
+        "id": 80300281,
+        "weight": 1
+      },
+      {
+        "id": 80301533,
+        "weight": 1
+      },
+      {
+        "id": 80300283,
+        "weight": 1
+      },
+      {
+        "id": 80300236,
+        "weight": 1
+      },
+      {
+        "id": 80300299,
+        "weight": 1
+      },
+      {
+        "id": 80300211,
+        "weight": 1
+      },
+      {
+        "id": 80300284,
+        "weight": 1
+      },
+      {
+        "id": 80300292,
+        "weight": 1
+      },
+      {
+        "id": 80300291,
+        "weight": 1
+      },
+      {
+        "id": 80300213,
+        "weight": 1
+      },
+      {
+        "id": 80300276,
+        "weight": 1
+      },
+      {
+        "id": 80300293,
+        "weight": 1
+      },
+      {
+        "id": 80300301,
+        "weight": 1
+      },
+      {
+        "id": 80301531,
+        "weight": 1
+      },
+      {
+        "id": 80300277,
+        "weight": 1
+      },
+      {
+        "id": 80300285,
+        "weight": 1
+      },
+      {
+        "id": 80300294,
+        "weight": 1
+      },
+      {
+        "id": 80300216,
+        "weight": 1
+      },
+      {
+        "id": 80300278,
+        "weight": 1
+      },
+      {
+        "id": 80300286,
+        "weight": 1
+      },
+      {
+        "id": 80300295,
+        "weight": 1
+      },
+      {
+        "id": 80300233,
+        "weight": 1
+      },
+      {
+        "id": 80300279,
+        "weight": 1
+      },
+      {
+        "id": 80300287,
+        "weight": 1
+      },
+      {
+        "id": 80300296,
+        "weight": 1
+      },
+      {
+        "id": 80300300,
+        "weight": 10
+      },
+      {
+        "id": 80300302,
+        "weight": 10
+      },
+      {
+        "id": 80300303,
+        "weight": 10
+      }
+    ]
+  },
+  {
+    "id": 84400261,
+    "idCN": "00传单地点/岚心城/6岚心阁",
+    "mod": "传单地点",
+    "isInformalData": false,
+    "name": "",
+    "buildingIconPath": "",
+    "firstPlotId": -1,
+    "uiPath": "",
+    "bgPath": "",
+    "bgColor": "FFFFFF",
+    "stationId": -1,
+    "npcId": -1,
+    "helpId": -1,
+    "rankId": -1,
+    "correspondingActivity": -1,
+    "eventList": [],
+    "namePlace": "岚心阁",
+    "placeType": 12601534,
+    "namePlaceIcon": "UI/Flier/map/lanxincheng/lanxinge",
+    "PlaceDesc": 80609798,
+    "unlockPlace": 20,
+    "placeWeight": 6,
+    "passengerTypeList": [
+      {
+        "id": 84200023,
+        "weight": 42
+      },
+      {
+        "id": 84200024,
+        "weight": 42
+      },
+      {
+        "id": 84200057,
+        "weight": 42
+      },
+      {
+        "id": 84200058,
+        "weight": 42
+      },
+      {
+        "id": 84200008,
+        "weight": 4
+      },
+      {
+        "id": 84200009,
+        "weight": 4
+      },
+      {
+        "id": 84200010,
+        "weight": 4
+      },
+      {
+        "id": 84200011,
+        "weight": 4
+      },
+      {
+        "id": 84200033,
+        "weight": 4
+      },
+      {
+        "id": 84200020,
+        "weight": 4
+      },
+      {
+        "id": 84200004,
+        "weight": 4
+      },
+      {
+        "id": 84200019,
+        "weight": 4
+      },
+      {
+        "id": 84200003,
+        "weight": 8
+      },
+      {
+        "id": 84200005,
+        "weight": 8
+      },
+      {
+        "id": 84200006,
+        "weight": 8
+      },
+      {
+        "id": 84200007,
+        "weight": 8
+      },
+      {
+        "id": 84200012,
+        "weight": 1
+      },
+      {
+        "id": 84200013,
+        "weight": 1
+      },
+      {
+        "id": 84200014,
+        "weight": 1
+      },
+      {
+        "id": 84200015,
+        "weight": 1
+      },
+      {
+        "id": 84200016,
+        "weight": 8
+      },
+      {
+        "id": 84200017,
+        "weight": 8
+      },
+      {
+        "id": 84200018,
+        "weight": 8
+      },
+      {
+        "id": 84200059,
+        "weight": 25
+      },
+      {
+        "id": 84200051,
+        "weight": 25
+      },
+      {
+        "id": 84200052,
+        "weight": 25
+      },
+      {
+        "id": 84200053,
+        "weight": 25
+      },
+      {
+        "id": 84200042,
+        "weight": 8
+      },
+      {
+        "id": 84200022,
+        "weight": 1
+      },
+      {
+        "id": 84200021,
+        "weight": 1
+      },
+      {
+        "id": 84200054,
+        "weight": 25
+      },
+      {
+        "id": 84200025,
+        "weight": 5
+      },
+      {
+        "id": 84200056,
+        "weight": 99
+      },
+      {
+        "id": 84200047,
+        "weight": 99
+      },
+      {
+        "id": 84200026,
+        "weight": 99
+      },
+      {
+        "id": 84200001,
+        "weight": 49
+      },
+      {
+        "id": 84200002,
+        "weight": 49
+      },
+      {
+        "id": 84200044,
+        "weight": 75
+      },
+      {
+        "id": 84200045,
+        "weight": 75
+      },
+      {
+        "id": 84200055,
+        "weight": 50
+      }
+    ],
+    "passengerTagList": [
+      {
+        "id": 80300210,
+        "weight": 1
+      },
+      {
+        "id": 80300215,
+        "weight": 1
+      },
+      {
+        "id": 80300281,
+        "weight": 1
+      },
+      {
+        "id": 80301533,
+        "weight": 1
+      },
+      {
+        "id": 80300283,
+        "weight": 1
+      },
+      {
+        "id": 80300236,
+        "weight": 1
+      },
+      {
+        "id": 80300299,
+        "weight": 1
+      },
+      {
+        "id": 80300211,
+        "weight": 1
+      },
+      {
+        "id": 80300284,
+        "weight": 1
+      },
+      {
+        "id": 80300292,
+        "weight": 1
+      },
+      {
+        "id": 80300291,
+        "weight": 1
+      },
+      {
+        "id": 80300213,
+        "weight": 1
+      },
+      {
+        "id": 80300276,
+        "weight": 1
+      },
+      {
+        "id": 80300293,
+        "weight": 1
+      },
+      {
+        "id": 80300301,
+        "weight": 1
+      },
+      {
+        "id": 80301531,
+        "weight": 1
+      },
+      {
+        "id": 80300277,
+        "weight": 1
+      },
+      {
+        "id": 80300285,
+        "weight": 1
+      },
+      {
+        "id": 80300294,
+        "weight": 1
+      },
+      {
+        "id": 80300216,
+        "weight": 1
+      },
+      {
+        "id": 80300278,
+        "weight": 1
+      },
+      {
+        "id": 80300286,
+        "weight": 1
+      },
+      {
+        "id": 80300295,
+        "weight": 1
+      },
+      {
+        "id": 80300233,
+        "weight": 1
+      },
+      {
+        "id": 80300279,
+        "weight": 1
+      },
+      {
+        "id": 80300287,
+        "weight": 1
+      },
+      {
+        "id": 80300296,
+        "weight": 1
+      },
+      {
+        "id": 80300300,
+        "weight": 10
+      },
+      {
+        "id": 80300302,
+        "weight": 10
+      },
+      {
+        "id": 80300303,
+        "weight": 10
+      }
+    ]
+  },
+  {
+    "id": 84400262,
+    "idCN": "00传单地点/岚心城/3金穗拉面店",
+    "mod": "传单地点",
+    "isInformalData": false,
+    "name": "",
+    "buildingIconPath": "",
+    "firstPlotId": -1,
+    "uiPath": "",
+    "bgPath": "",
+    "bgColor": "FFFFFF",
+    "stationId": -1,
+    "npcId": -1,
+    "helpId": -1,
+    "rankId": -1,
+    "correspondingActivity": -1,
+    "eventList": [],
+    "namePlace": "金穗拉面店",
+    "placeType": 12601530,
+    "namePlaceIcon": "UI/Flier/map/lanxincheng/jinsuilamiandian",
+    "PlaceDesc": 80609789,
+    "unlockPlace": 5,
+    "placeWeight": 3,
+    "passengerTypeList": [
+      {
+        "id": 84200023,
+        "weight": 63
+      },
+      {
+        "id": 84200024,
+        "weight": 63
+      },
+      {
+        "id": 84200057,
+        "weight": 63
+      },
+      {
+        "id": 84200058,
+        "weight": 63
+      },
+      {
+        "id": 84200008,
+        "weight": 2
+      },
+      {
+        "id": 84200009,
+        "weight": 2
+      },
+      {
+        "id": 84200010,
+        "weight": 2
+      },
+      {
+        "id": 84200011,
+        "weight": 2
+      },
+      {
+        "id": 84200033,
+        "weight": 21
+      },
+      {
+        "id": 84200020,
+        "weight": 21
+      },
+      {
+        "id": 84200004,
+        "weight": 21
+      },
+      {
+        "id": 84200019,
+        "weight": 21
+      },
+      {
+        "id": 84200003,
+        "weight": 24
+      },
+      {
+        "id": 84200005,
+        "weight": 24
+      },
+      {
+        "id": 84200006,
+        "weight": 24
+      },
+      {
+        "id": 84200007,
+        "weight": 24
+      },
+      {
+        "id": 84200012,
+        "weight": 24
+      },
+      {
+        "id": 84200013,
+        "weight": 24
+      },
+      {
+        "id": 84200014,
+        "weight": 24
+      },
+      {
+        "id": 84200015,
+        "weight": 24
+      },
+      {
+        "id": 84200016,
+        "weight": 24
+      },
+      {
+        "id": 84200017,
+        "weight": 24
+      },
+      {
+        "id": 84200018,
+        "weight": 24
+      },
+      {
+        "id": 84200059,
+        "weight": 2
+      },
+      {
+        "id": 84200051,
+        "weight": 2
+      },
+      {
+        "id": 84200052,
+        "weight": 2
+      },
+      {
+        "id": 84200053,
+        "weight": 2
+      },
+      {
+        "id": 84200042,
+        "weight": 24
+      },
+      {
+        "id": 84200022,
+        "weight": 24
+      },
+      {
+        "id": 84200021,
+        "weight": 24
+      },
+      {
+        "id": 84200054,
+        "weight": 2
+      },
+      {
+        "id": 84200025,
+        "weight": 42
+      },
+      {
+        "id": 84200056,
+        "weight": 42
+      },
+      {
+        "id": 84200047,
+        "weight": 42
+      },
+      {
+        "id": 84200026,
+        "weight": 42
+      },
+      {
+        "id": 84200001,
+        "weight": 42
+      },
+      {
+        "id": 84200002,
+        "weight": 42
+      },
+      {
+        "id": 84200044,
+        "weight": 30
+      },
+      {
+        "id": 84200045,
+        "weight": 30
+      }
+    ],
+    "passengerTagList": [
+      {
+        "id": 80300210,
+        "weight": 1
+      },
+      {
+        "id": 80300215,
+        "weight": 1
+      },
+      {
+        "id": 80300281,
+        "weight": 1
+      },
+      {
+        "id": 80301533,
+        "weight": 1
+      },
+      {
+        "id": 80300283,
+        "weight": 1
+      },
+      {
+        "id": 80300236,
+        "weight": 1
+      },
+      {
+        "id": 80300299,
+        "weight": 1
+      },
+      {
+        "id": 80300211,
+        "weight": 1
+      },
+      {
+        "id": 80300284,
+        "weight": 1
+      },
+      {
+        "id": 80300292,
+        "weight": 1
+      },
+      {
+        "id": 80300291,
+        "weight": 1
+      },
+      {
+        "id": 80300213,
+        "weight": 1
+      },
+      {
+        "id": 80300276,
+        "weight": 1
+      },
+      {
+        "id": 80300293,
+        "weight": 1
+      },
+      {
+        "id": 80300301,
+        "weight": 1
+      },
+      {
+        "id": 80301531,
+        "weight": 1
+      },
+      {
+        "id": 80300277,
+        "weight": 1
+      },
+      {
+        "id": 80300285,
+        "weight": 1
+      },
+      {
+        "id": 80300294,
+        "weight": 1
+      },
+      {
+        "id": 80300216,
+        "weight": 1
+      },
+      {
+        "id": 80300278,
+        "weight": 1
+      },
+      {
+        "id": 80300286,
+        "weight": 1
+      },
+      {
+        "id": 80300295,
+        "weight": 1
+      },
+      {
+        "id": 80300233,
+        "weight": 1
+      },
+      {
+        "id": 80300279,
+        "weight": 1
+      },
+      {
+        "id": 80300287,
+        "weight": 1
+      },
+      {
+        "id": 80300296,
+        "weight": 1
+      },
+      {
+        "id": 80300300,
+        "weight": 1
+      },
+      {
+        "id": 80300302,
+        "weight": 1
+      },
+      {
+        "id": 80300303,
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": 84400263,
+    "idCN": "00传单地点/岚心城/2街901",
+    "mod": "传单地点",
+    "isInformalData": false,
+    "name": "",
+    "buildingIconPath": "",
+    "firstPlotId": -1,
+    "uiPath": "",
+    "bgPath": "",
+    "bgColor": "FFFFFF",
+    "stationId": -1,
+    "npcId": -1,
+    "helpId": -1,
+    "rankId": -1,
+    "correspondingActivity": -1,
+    "eventList": [],
+    "namePlace": "901街",
+    "placeType": 12601529,
+    "namePlaceIcon": "UI/Flier/map/lanxincheng/901street",
+    "PlaceDesc": 80609800,
+    "unlockPlace": 1,
+    "placeWeight": 2,
+    "passengerTypeList": [
+      {
+        "id": 84200023,
+        "weight": 46
+      },
+      {
+        "id": 84200024,
+        "weight": 46
+      },
+      {
+        "id": 84200057,
+        "weight": 46
+      },
+      {
+        "id": 84200058,
+        "weight": 46
+      },
+      {
+        "id": 84200008,
+        "weight": 5
+      },
+      {
+        "id": 84200009,
+        "weight": 5
+      },
+      {
+        "id": 84200010,
+        "weight": 5
+      },
+      {
+        "id": 84200011,
+        "weight": 5
+      },
+      {
+        "id": 84200033,
+        "weight": 46
+      },
+      {
+        "id": 84200020,
+        "weight": 46
+      },
+      {
+        "id": 84200004,
+        "weight": 46
+      },
+      {
+        "id": 84200019,
+        "weight": 46
+      },
+      {
+        "id": 84200003,
+        "weight": 20
+      },
+      {
+        "id": 84200005,
+        "weight": 20
+      },
+      {
+        "id": 84200006,
+        "weight": 20
+      },
+      {
+        "id": 84200007,
+        "weight": 20
+      },
+      {
+        "id": 84200012,
+        "weight": 20
+      },
+      {
+        "id": 84200013,
+        "weight": 20
+      },
+      {
+        "id": 84200014,
+        "weight": 20
+      },
+      {
+        "id": 84200015,
+        "weight": 20
+      },
+      {
+        "id": 84200016,
+        "weight": 20
+      },
+      {
+        "id": 84200017,
+        "weight": 20
+      },
+      {
+        "id": 84200018,
+        "weight": 20
+      },
+      {
+        "id": 84200059,
+        "weight": 20
+      },
+      {
+        "id": 84200051,
+        "weight": 20
+      },
+      {
+        "id": 84200052,
+        "weight": 20
+      },
+      {
+        "id": 84200053,
+        "weight": 20
+      },
+      {
+        "id": 84200042,
+        "weight": 20
+      },
+      {
+        "id": 84200022,
+        "weight": 20
+      },
+      {
+        "id": 84200021,
+        "weight": 20
+      },
+      {
+        "id": 84200054,
+        "weight": 20
+      },
+      {
+        "id": 84200025,
+        "weight": 33
+      },
+      {
+        "id": 84200056,
+        "weight": 33
+      },
+      {
+        "id": 84200047,
+        "weight": 33
+      },
+      {
+        "id": 84200026,
+        "weight": 33
+      },
+      {
+        "id": 84200001,
+        "weight": 33
+      },
+      {
+        "id": 84200002,
+        "weight": 33
+      },
+      {
+        "id": 84200044,
+        "weight": 15
+      },
+      {
+        "id": 84200045,
+        "weight": 15
+      }
+    ],
+    "passengerTagList": [
+      {
+        "id": 80300210,
+        "weight": 1
+      },
+      {
+        "id": 80300215,
+        "weight": 1
+      },
+      {
+        "id": 80300281,
+        "weight": 1
+      },
+      {
+        "id": 80301533,
+        "weight": 1
+      },
+      {
+        "id": 80300283,
+        "weight": 1
+      },
+      {
+        "id": 80300236,
+        "weight": 1
+      },
+      {
+        "id": 80300299,
+        "weight": 1
+      },
+      {
+        "id": 80300211,
+        "weight": 1
+      },
+      {
+        "id": 80300284,
+        "weight": 1
+      },
+      {
+        "id": 80300292,
+        "weight": 1
+      },
+      {
+        "id": 80300291,
+        "weight": 1
+      },
+      {
+        "id": 80300213,
+        "weight": 1
+      },
+      {
+        "id": 80300276,
+        "weight": 1
+      },
+      {
+        "id": 80300293,
+        "weight": 1
+      },
+      {
+        "id": 80300301,
+        "weight": 1
+      },
+      {
+        "id": 80301531,
+        "weight": 10
+      },
+      {
+        "id": 80300277,
+        "weight": 10
+      },
+      {
+        "id": 80300285,
+        "weight": 10
+      },
+      {
+        "id": 80300294,
+        "weight": 10
+      },
+      {
+        "id": 80300216,
+        "weight": 1
+      },
+      {
+        "id": 80300278,
+        "weight": 1
+      },
+      {
+        "id": 80300286,
+        "weight": 1
+      },
+      {
+        "id": 80300295,
+        "weight": 1
+      },
+      {
+        "id": 80300233,
+        "weight": 1
+      },
+      {
+        "id": 80300279,
+        "weight": 1
+      },
+      {
+        "id": 80300287,
+        "weight": 1
+      },
+      {
+        "id": 80300296,
+        "weight": 1
+      },
+      {
+        "id": 80300300,
+        "weight": 1
+      },
+      {
+        "id": 80300302,
+        "weight": 1
+      },
+      {
+        "id": 80300303,
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": 84400264,
+    "idCN": "00传单地点/岚心城/1调度中枢",
+    "mod": "传单地点",
+    "isInformalData": false,
+    "name": "",
+    "buildingIconPath": "",
+    "firstPlotId": -1,
+    "uiPath": "",
+    "bgPath": "",
+    "bgColor": "FFFFFF",
+    "stationId": -1,
+    "npcId": -1,
+    "helpId": -1,
+    "rankId": -1,
+    "correspondingActivity": -1,
+    "eventList": [],
+    "namePlace": "调度中枢",
+    "placeType": 12601533,
+    "namePlaceIcon": "UI/Flier/map/lanxincheng/diaoduzhongshu",
+    "PlaceDesc": 80609801,
+    "unlockPlace": 0,
+    "placeWeight": 1,
+    "passengerTypeList": [
+      {
+        "id": 84200023,
+        "weight": 35
+      },
+      {
+        "id": 84200024,
+        "weight": 35
+      },
+      {
+        "id": 84200057,
+        "weight": 35
+      },
+      {
+        "id": 84200058,
+        "weight": 35
+      },
+      {
+        "id": 84200008,
+        "weight": 35
+      },
+      {
+        "id": 84200009,
+        "weight": 35
+      },
+      {
+        "id": 84200010,
+        "weight": 35
+      },
+      {
+        "id": 84200011,
+        "weight": 35
+      },
+      {
+        "id": 84200033,
+        "weight": 35
+      },
+      {
+        "id": 84200020,
+        "weight": 35
+      },
+      {
+        "id": 84200004,
+        "weight": 35
+      },
+      {
+        "id": 84200019,
+        "weight": 35
+      },
+      {
+        "id": 84200003,
+        "weight": 11
+      },
+      {
+        "id": 84200005,
+        "weight": 11
+      },
+      {
+        "id": 84200006,
+        "weight": 11
+      },
+      {
+        "id": 84200007,
+        "weight": 11
+      },
+      {
+        "id": 84200012,
+        "weight": 11
+      },
+      {
+        "id": 84200013,
+        "weight": 11
+      },
+      {
+        "id": 84200014,
+        "weight": 11
+      },
+      {
+        "id": 84200015,
+        "weight": 11
+      },
+      {
+        "id": 84200016,
+        "weight": 11
+      },
+      {
+        "id": 84200017,
+        "weight": 11
+      },
+      {
+        "id": 84200018,
+        "weight": 11
+      },
+      {
+        "id": 84200059,
+        "weight": 54
+      },
+      {
+        "id": 84200051,
+        "weight": 54
+      },
+      {
+        "id": 84200052,
+        "weight": 54
+      },
+      {
+        "id": 84200053,
+        "weight": 54
+      },
+      {
+        "id": 84200042,
+        "weight": 11
+      },
+      {
+        "id": 84200022,
+        "weight": 11
+      },
+      {
+        "id": 84200021,
+        "weight": 11
+      },
+      {
+        "id": 84200054,
+        "weight": 54
+      },
+      {
+        "id": 84200025,
+        "weight": 25
+      },
+      {
+        "id": 84200056,
+        "weight": 25
+      },
+      {
+        "id": 84200047,
+        "weight": 25
+      },
+      {
+        "id": 84200026,
+        "weight": 25
+      },
+      {
+        "id": 84200001,
+        "weight": 25
+      },
+      {
+        "id": 84200002,
+        "weight": 25
+      }
+    ],
+    "passengerTagList": [
+      {
+        "id": 80300210,
+        "weight": 1
+      },
+      {
+        "id": 80300215,
+        "weight": 1
+      },
+      {
+        "id": 80300281,
+        "weight": 1
+      },
+      {
+        "id": 80301533,
+        "weight": 1
+      },
+      {
+        "id": 80300283,
+        "weight": 1
+      },
+      {
+        "id": 80300236,
+        "weight": 1
+      },
+      {
+        "id": 80300299,
+        "weight": 1
+      },
+      {
+        "id": 80300211,
+        "weight": 1
+      },
+      {
+        "id": 80300284,
+        "weight": 1
+      },
+      {
+        "id": 80300292,
+        "weight": 1
+      },
+      {
+        "id": 80300291,
+        "weight": 1
+      },
+      {
+        "id": 80300213,
+        "weight": 1
+      },
+      {
+        "id": 80300276,
+        "weight": 1
+      },
+      {
+        "id": 80300293,
+        "weight": 1
+      },
+      {
+        "id": 80300301,
+        "weight": 1
+      },
+      {
+        "id": 80301531,
+        "weight": 1
+      },
+      {
+        "id": 80300277,
+        "weight": 1
+      },
+      {
+        "id": 80300285,
+        "weight": 1
+      },
+      {
+        "id": 80300294,
+        "weight": 1
+      },
+      {
+        "id": 80300216,
+        "weight": 1
+      },
+      {
+        "id": 80300278,
+        "weight": 1
+      },
+      {
+        "id": 80300286,
+        "weight": 1
+      },
+      {
+        "id": 80300295,
+        "weight": 1
+      },
+      {
+        "id": 80300233,
+        "weight": 1
+      },
+      {
+        "id": 80300279,
+        "weight": 1
+      },
+      {
+        "id": 80300287,
+        "weight": 1
+      },
+      {
+        "id": 80300296,
+        "weight": 1
+      },
+      {
+        "id": 80300300,
+        "weight": 1
+      },
+      {
+        "id": 80300302,
+        "weight": 1
+      },
+      {
+        "id": 80300303,
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": 84400265,
+    "idCN": "00传单地点/栖羽站/4禽类养殖厂",
+    "mod": "传单地点",
+    "isInformalData": false,
+    "name": "",
+    "buildingIconPath": "",
+    "firstPlotId": -1,
+    "uiPath": "",
+    "bgPath": "",
+    "bgColor": "FFFFFF",
+    "stationId": -1,
+    "npcId": -1,
+    "helpId": -1,
+    "rankId": -1,
+    "correspondingActivity": -1,
+    "eventList": [],
+    "namePlace": "禽类养殖厂",
+    "placeType": 12601537,
+    "namePlaceIcon": "UI/Flier/map/qiyuzhan/yangzhichang",
+    "PlaceDesc": 80609818,
+    "unlockPlace": 10,
+    "placeWeight": 4,
+    "passengerTypeList": [
+      {
+        "id": 84200023,
+        "weight": 53
+      },
+      {
+        "id": 84200024,
+        "weight": 53
+      },
+      {
+        "id": 84200057,
+        "weight": 53
+      },
+      {
+        "id": 84200058,
+        "weight": 53
+      },
+      {
+        "id": 84200008,
+        "weight": 2
+      },
+      {
+        "id": 84200009,
+        "weight": 2
+      },
+      {
+        "id": 84200010,
+        "weight": 2
+      },
+      {
+        "id": 84200011,
+        "weight": 2
+      },
+      {
+        "id": 84200033,
+        "weight": 2
+      },
+      {
+        "id": 84200020,
+        "weight": 2
+      },
+      {
+        "id": 84200004,
+        "weight": 2
+      },
+      {
+        "id": 84200019,
+        "weight": 2
+      },
+      {
+        "id": 84200003,
+        "weight": 6
+      },
+      {
+        "id": 84200005,
+        "weight": 6
+      },
+      {
+        "id": 84200006,
+        "weight": 6
+      },
+      {
+        "id": 84200007,
+        "weight": 6
+      },
+      {
+        "id": 84200012,
+        "weight": 1
+      },
+      {
+        "id": 84200013,
+        "weight": 1
+      },
+      {
+        "id": 84200014,
+        "weight": 1
+      },
+      {
+        "id": 84200015,
+        "weight": 1
+      },
+      {
+        "id": 84200016,
+        "weight": 29
+      },
+      {
+        "id": 84200017,
+        "weight": 29
+      },
+      {
+        "id": 84200018,
+        "weight": 29
+      },
+      {
+        "id": 84200059,
+        "weight": 17
+      },
+      {
+        "id": 84200051,
+        "weight": 17
+      },
+      {
+        "id": 84200052,
+        "weight": 17
+      },
+      {
+        "id": 84200053,
+        "weight": 17
+      },
+      {
+        "id": 84200042,
+        "weight": 17
+      },
+      {
+        "id": 84200022,
+        "weight": 6
+      },
+      {
+        "id": 84200021,
+        "weight": 17
+      },
+      {
+        "id": 84200054,
+        "weight": 6
+      },
+      {
+        "id": 84200025,
+        "weight": 2
+      },
+      {
+        "id": 84200056,
+        "weight": 54
+      },
+      {
+        "id": 84200047,
+        "weight": 54
+      },
+      {
+        "id": 84200026,
+        "weight": 54
+      },
+      {
+        "id": 84200001,
+        "weight": 18
+      },
+      {
+        "id": 84200002,
+        "weight": 18
+      },
+      {
+        "id": 84200044,
+        "weight": 125
+      },
+      {
+        "id": 84200045,
+        "weight": 125
+      },
+      {
+        "id": 84200055,
+        "weight": 100
+      }
+    ],
+    "passengerTagList": [
+      {
+        "id": 80300210,
+        "weight": 1
+      },
+      {
+        "id": 80300215,
+        "weight": 1
+      },
+      {
+        "id": 80300281,
+        "weight": 1
+      },
+      {
+        "id": 80301533,
+        "weight": 1
+      },
+      {
+        "id": 80300283,
+        "weight": 1
+      },
+      {
+        "id": 80300236,
+        "weight": 1
+      },
+      {
+        "id": 80300299,
+        "weight": 1
+      },
+      {
+        "id": 80300211,
+        "weight": 1
+      },
+      {
+        "id": 80300284,
+        "weight": 1
+      },
+      {
+        "id": 80300292,
+        "weight": 1
+      },
+      {
+        "id": 80300291,
+        "weight": 1
+      },
+      {
+        "id": 80300213,
+        "weight": 1
+      },
+      {
+        "id": 80300276,
+        "weight": 1
+      },
+      {
+        "id": 80300293,
+        "weight": 1
+      },
+      {
+        "id": 80300301,
+        "weight": 1
+      },
+      {
+        "id": 80301531,
+        "weight": 1
+      },
+      {
+        "id": 80300277,
+        "weight": 1
+      },
+      {
+        "id": 80300285,
+        "weight": 1
+      },
+      {
+        "id": 80300294,
+        "weight": 1
+      },
+      {
+        "id": 80300216,
+        "weight": 10
+      },
+      {
+        "id": 80300278,
+        "weight": 10
+      },
+      {
+        "id": 80300286,
+        "weight": 10
+      },
+      {
+        "id": 80300295,
+        "weight": 10
+      },
+      {
+        "id": 80300233,
+        "weight": 1
+      },
+      {
+        "id": 80300279,
+        "weight": 1
+      },
+      {
+        "id": 80300287,
+        "weight": 1
+      },
+      {
+        "id": 80300296,
+        "weight": 1
+      },
+      {
+        "id": 80300300,
+        "weight": 10
+      },
+      {
+        "id": 80300302,
+        "weight": 10
+      },
+      {
+        "id": 80300303,
+        "weight": 10
+      }
+    ]
+  },
+  {
+    "id": 84400266,
+    "idCN": "00传单地点/栖羽站/1货物装卸区",
+    "mod": "传单地点",
+    "isInformalData": false,
+    "name": "",
+    "buildingIconPath": "",
+    "firstPlotId": -1,
+    "uiPath": "",
+    "bgPath": "",
+    "bgColor": "FFFFFF",
+    "stationId": -1,
+    "npcId": -1,
+    "helpId": -1,
+    "rankId": -1,
+    "correspondingActivity": -1,
+    "eventList": [],
+    "namePlace": "货物装卸区",
+    "placeType": 12601538,
+    "namePlaceIcon": "UI/Flier/map/qiyuzhan/zhuangxiequ",
+    "PlaceDesc": 80609816,
+    "unlockPlace": 0,
+    "placeWeight": 1,
+    "passengerTypeList": [
+      {
+        "id": 84200023,
+        "weight": 80
+      },
+      {
+        "id": 84200024,
+        "weight": 80
+      },
+      {
+        "id": 84200057,
+        "weight": 80
+      },
+      {
+        "id": 84200058,
+        "weight": 80
+      },
+      {
+        "id": 84200008,
+        "weight": 3
+      },
+      {
+        "id": 84200009,
+        "weight": 3
+      },
+      {
+        "id": 84200010,
+        "weight": 3
+      },
+      {
+        "id": 84200011,
+        "weight": 3
+      },
+      {
+        "id": 84200033,
+        "weight": 27
+      },
+      {
+        "id": 84200020,
+        "weight": 27
+      },
+      {
+        "id": 84200004,
+        "weight": 27
+      },
+      {
+        "id": 84200019,
+        "weight": 27
+      },
+      {
+        "id": 84200003,
+        "weight": 11
+      },
+      {
+        "id": 84200005,
+        "weight": 11
+      },
+      {
+        "id": 84200006,
+        "weight": 11
+      },
+      {
+        "id": 84200007,
+        "weight": 11
+      },
+      {
+        "id": 84200012,
+        "weight": 11
+      },
+      {
+        "id": 84200013,
+        "weight": 11
+      },
+      {
+        "id": 84200014,
+        "weight": 11
+      },
+      {
+        "id": 84200015,
+        "weight": 11
+      },
+      {
+        "id": 84200016,
+        "weight": 11
+      },
+      {
+        "id": 84200017,
+        "weight": 11
+      },
+      {
+        "id": 84200018,
+        "weight": 11
+      },
+      {
+        "id": 84200059,
+        "weight": 56
+      },
+      {
+        "id": 84200051,
+        "weight": 56
+      },
+      {
+        "id": 84200052,
+        "weight": 56
+      },
+      {
+        "id": 84200053,
+        "weight": 56
+      },
+      {
+        "id": 84200042,
+        "weight": 11
+      },
+      {
+        "id": 84200022,
+        "weight": 11
+      },
+      {
+        "id": 84200021,
+        "weight": 11
+      },
+      {
+        "id": 84200054,
+        "weight": 56
+      },
+      {
+        "id": 84200025,
+        "weight": 15
+      },
+      {
+        "id": 84200056,
+        "weight": 15
+      },
+      {
+        "id": 84200047,
+        "weight": 15
+      },
+      {
+        "id": 84200026,
+        "weight": 15
+      },
+      {
+        "id": 84200001,
+        "weight": 30
+      },
+      {
+        "id": 84200002,
+        "weight": 30
+      }
+    ],
+    "passengerTagList": [
+      {
+        "id": 80300210,
+        "weight": 1
+      },
+      {
+        "id": 80300215,
+        "weight": 1
+      },
+      {
+        "id": 80300281,
+        "weight": 1
+      },
+      {
+        "id": 80301533,
+        "weight": 1
+      },
+      {
+        "id": 80300283,
+        "weight": 1
+      },
+      {
+        "id": 80300236,
+        "weight": 1
+      },
+      {
+        "id": 80300299,
+        "weight": 1
+      },
+      {
+        "id": 80300211,
+        "weight": 1
+      },
+      {
+        "id": 80300284,
+        "weight": 1
+      },
+      {
+        "id": 80300292,
+        "weight": 1
+      },
+      {
+        "id": 80300291,
+        "weight": 1
+      },
+      {
+        "id": 80300213,
+        "weight": 1
+      },
+      {
+        "id": 80300276,
+        "weight": 1
+      },
+      {
+        "id": 80300293,
+        "weight": 1
+      },
+      {
+        "id": 80300301,
+        "weight": 1
+      },
+      {
+        "id": 80301531,
+        "weight": 1
+      },
+      {
+        "id": 80300277,
+        "weight": 1
+      },
+      {
+        "id": 80300285,
+        "weight": 1
+      },
+      {
+        "id": 80300294,
+        "weight": 1
+      },
+      {
+        "id": 80300216,
+        "weight": 1
+      },
+      {
+        "id": 80300278,
+        "weight": 1
+      },
+      {
+        "id": 80300286,
+        "weight": 1
+      },
+      {
+        "id": 80300295,
+        "weight": 1
+      },
+      {
+        "id": 80300233,
+        "weight": 1
+      },
+      {
+        "id": 80300279,
+        "weight": 1
+      },
+      {
+        "id": 80300287,
+        "weight": 1
+      },
+      {
+        "id": 80300296,
+        "weight": 1
+      },
+      {
+        "id": 80300300,
+        "weight": 1
+      },
+      {
+        "id": 80300302,
+        "weight": 1
+      },
+      {
+        "id": 80300303,
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": 84400267,
+    "idCN": "00传单地点/栖羽站/3服装加工厂",
+    "mod": "传单地点",
+    "isInformalData": false,
+    "name": "",
+    "buildingIconPath": "",
+    "firstPlotId": -1,
+    "uiPath": "",
+    "bgPath": "",
+    "bgColor": "FFFFFF",
+    "stationId": -1,
+    "npcId": -1,
+    "helpId": -1,
+    "rankId": -1,
+    "correspondingActivity": -1,
+    "eventList": [],
+    "namePlace": "服装加工厂",
+    "placeType": 12601536,
+    "namePlaceIcon": "UI/Flier/map/qiyuzhan/jiagongchang",
+    "PlaceDesc": 80609817,
+    "unlockPlace": 5,
+    "placeWeight": 3,
+    "passengerTypeList": [
+      {
+        "id": 84200023,
+        "weight": 55
+      },
+      {
+        "id": 84200024,
+        "weight": 55
+      },
+      {
+        "id": 84200057,
+        "weight": 55
+      },
+      {
+        "id": 84200058,
+        "weight": 55
+      },
+      {
+        "id": 84200008,
+        "weight": 1
+      },
+      {
+        "id": 84200009,
+        "weight": 1
+      },
+      {
+        "id": 84200010,
+        "weight": 1
+      },
+      {
+        "id": 84200011,
+        "weight": 1
+      },
+      {
+        "id": 84200033,
+        "weight": 11
+      },
+      {
+        "id": 84200020,
+        "weight": 55
+      },
+      {
+        "id": 84200004,
+        "weight": 11
+      },
+      {
+        "id": 84200019,
+        "weight": 11
+      },
+      {
+        "id": 84200003,
+        "weight": 7
+      },
+      {
+        "id": 84200005,
+        "weight": 7
+      },
+      {
+        "id": 84200006,
+        "weight": 7
+      },
+      {
+        "id": 84200007,
+        "weight": 7
+      },
+      {
+        "id": 84200012,
+        "weight": 7
+      },
+      {
+        "id": 84200013,
+        "weight": 7
+      },
+      {
+        "id": 84200014,
+        "weight": 7
+      },
+      {
+        "id": 84200015,
+        "weight": 7
+      },
+      {
+        "id": 84200016,
+        "weight": 7
+      },
+      {
+        "id": 84200017,
+        "weight": 7
+      },
+      {
+        "id": 84200018,
+        "weight": 7
+      },
+      {
+        "id": 84200059,
+        "weight": 33
+      },
+      {
+        "id": 84200051,
+        "weight": 33
+      },
+      {
+        "id": 84200052,
+        "weight": 33
+      },
+      {
+        "id": 84200053,
+        "weight": 33
+      },
+      {
+        "id": 84200042,
+        "weight": 33
+      },
+      {
+        "id": 84200022,
+        "weight": 7
+      },
+      {
+        "id": 84200021,
+        "weight": 33
+      },
+      {
+        "id": 84200054,
+        "weight": 33
+      },
+      {
+        "id": 84200025,
+        "weight": 10
+      },
+      {
+        "id": 84200056,
+        "weight": 50
+      },
+      {
+        "id": 84200047,
+        "weight": 50
+      },
+      {
+        "id": 84200026,
+        "weight": 50
+      },
+      {
+        "id": 84200001,
+        "weight": 20
+      },
+      {
+        "id": 84200002,
+        "weight": 20
+      },
+      {
+        "id": 84200044,
+        "weight": 125
+      },
+      {
+        "id": 84200045,
+        "weight": 25
+      },
+      {
+        "id": 84200055,
+        "weight": 30
+      }
+    ],
+    "passengerTagList": [
+      {
+        "id": 80300210,
+        "weight": 1
+      },
+      {
+        "id": 80300215,
+        "weight": 1
+      },
+      {
+        "id": 80300281,
+        "weight": 1
+      },
+      {
+        "id": 80301533,
+        "weight": 1
+      },
+      {
+        "id": 80300283,
+        "weight": 1
+      },
+      {
+        "id": 80300236,
+        "weight": 1
+      },
+      {
+        "id": 80300299,
+        "weight": 1
+      },
+      {
+        "id": 80300211,
+        "weight": 1
+      },
+      {
+        "id": 80300284,
+        "weight": 1
+      },
+      {
+        "id": 80300292,
+        "weight": 1
+      },
+      {
+        "id": 80300291,
+        "weight": 1
+      },
+      {
+        "id": 80300213,
+        "weight": 1
+      },
+      {
+        "id": 80300276,
+        "weight": 1
+      },
+      {
+        "id": 80300293,
+        "weight": 1
+      },
+      {
+        "id": 80300301,
+        "weight": 1
+      },
+      {
+        "id": 80301531,
+        "weight": 1
+      },
+      {
+        "id": 80300277,
+        "weight": 1
+      },
+      {
+        "id": 80300285,
+        "weight": 1
+      },
+      {
+        "id": 80300294,
+        "weight": 1
+      },
+      {
+        "id": 80300216,
+        "weight": 10
+      },
+      {
+        "id": 80300278,
+        "weight": 10
+      },
+      {
+        "id": 80300286,
+        "weight": 10
+      },
+      {
+        "id": 80300295,
+        "weight": 10
+      },
+      {
+        "id": 80300233,
+        "weight": 1
+      },
+      {
+        "id": 80300279,
+        "weight": 1
+      },
+      {
+        "id": 80300287,
+        "weight": 1
+      },
+      {
+        "id": 80300296,
+        "weight": 1
+      },
+      {
+        "id": 80300300,
+        "weight": 1
+      },
+      {
+        "id": 80300302,
+        "weight": 10
+      },
+      {
+        "id": 80300303,
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": 84400268,
+    "idCN": "00传单地点/栖羽站/2观鸟公园",
+    "mod": "传单地点",
+    "isInformalData": false,
+    "name": "",
+    "buildingIconPath": "",
+    "firstPlotId": -1,
+    "uiPath": "",
+    "bgPath": "",
+    "bgColor": "FFFFFF",
+    "stationId": -1,
+    "npcId": -1,
+    "helpId": -1,
+    "rankId": -1,
+    "correspondingActivity": -1,
+    "eventList": [],
+    "namePlace": "观鸟公园",
+    "placeType": 12601532,
+    "namePlaceIcon": "UI/Flier/map/qiyuzhan/guanniaopark",
+    "PlaceDesc": 80609819,
+    "unlockPlace": 1,
+    "placeWeight": 2,
+    "passengerTypeList": [
+      {
+        "id": 84200023,
+        "weight": 73
+      },
+      {
+        "id": 84200024,
+        "weight": 73
+      },
+      {
+        "id": 84200057,
+        "weight": 73
+      },
+      {
+        "id": 84200058,
+        "weight": 73
+      },
+      {
+        "id": 84200008,
+        "weight": 2
+      },
+      {
+        "id": 84200009,
+        "weight": 2
+      },
+      {
+        "id": 84200010,
+        "weight": 2
+      },
+      {
+        "id": 84200011,
+        "weight": 2
+      },
+      {
+        "id": 84200033,
+        "weight": 24
+      },
+      {
+        "id": 84200020,
+        "weight": 24
+      },
+      {
+        "id": 84200004,
+        "weight": 24
+      },
+      {
+        "id": 84200019,
+        "weight": 24
+      },
+      {
+        "id": 84200003,
+        "weight": 10
+      },
+      {
+        "id": 84200005,
+        "weight": 10
+      },
+      {
+        "id": 84200006,
+        "weight": 10
+      },
+      {
+        "id": 84200007,
+        "weight": 10
+      },
+      {
+        "id": 84200012,
+        "weight": 10
+      },
+      {
+        "id": 84200013,
+        "weight": 10
+      },
+      {
+        "id": 84200014,
+        "weight": 10
+      },
+      {
+        "id": 84200015,
+        "weight": 10
+      },
+      {
+        "id": 84200016,
+        "weight": 10
+      },
+      {
+        "id": 84200017,
+        "weight": 10
+      },
+      {
+        "id": 84200018,
+        "weight": 10
+      },
+      {
+        "id": 84200059,
+        "weight": 51
+      },
+      {
+        "id": 84200051,
+        "weight": 51
+      },
+      {
+        "id": 84200052,
+        "weight": 51
+      },
+      {
+        "id": 84200053,
+        "weight": 51
+      },
+      {
+        "id": 84200042,
+        "weight": 10
+      },
+      {
+        "id": 84200022,
+        "weight": 10
+      },
+      {
+        "id": 84200021,
+        "weight": 10
+      },
+      {
+        "id": 84200054,
+        "weight": 51
+      },
+      {
+        "id": 84200025,
+        "weight": 19
+      },
+      {
+        "id": 84200056,
+        "weight": 19
+      },
+      {
+        "id": 84200047,
+        "weight": 19
+      },
+      {
+        "id": 84200026,
+        "weight": 19
+      },
+      {
+        "id": 84200001,
+        "weight": 38
+      },
+      {
+        "id": 84200002,
+        "weight": 38
+      },
+      {
+        "id": 84200044,
+        "weight": 25
+      },
+      {
+        "id": 84200045,
+        "weight": 25
+      }
+    ],
+    "passengerTagList": [
+      {
+        "id": 80300210,
+        "weight": 1
+      },
+      {
+        "id": 80300215,
+        "weight": 1
+      },
+      {
+        "id": 80300281,
+        "weight": 1
+      },
+      {
+        "id": 80301533,
+        "weight": 1
+      },
+      {
+        "id": 80300283,
+        "weight": 1
+      },
+      {
+        "id": 80300236,
+        "weight": 1
+      },
+      {
+        "id": 80300299,
+        "weight": 1
+      },
+      {
+        "id": 80300211,
+        "weight": 1
+      },
+      {
+        "id": 80300284,
+        "weight": 1
+      },
+      {
+        "id": 80300292,
+        "weight": 1
+      },
+      {
+        "id": 80300291,
+        "weight": 1
+      },
+      {
+        "id": 80300213,
+        "weight": 1
+      },
+      {
+        "id": 80300276,
+        "weight": 1
+      },
+      {
+        "id": 80300293,
+        "weight": 1
+      },
+      {
+        "id": 80300301,
+        "weight": 1
+      },
+      {
+        "id": 80301531,
+        "weight": 1
+      },
+      {
+        "id": 80300277,
+        "weight": 1
+      },
+      {
+        "id": 80300285,
+        "weight": 1
+      },
+      {
+        "id": 80300294,
+        "weight": 1
+      },
+      {
+        "id": 80300216,
+        "weight": 1
+      },
+      {
+        "id": 80300278,
+        "weight": 1
+      },
+      {
+        "id": 80300286,
+        "weight": 1
+      },
+      {
+        "id": 80300295,
+        "weight": 1
+      },
+      {
+        "id": 80300233,
+        "weight": 1
+      },
+      {
+        "id": 80300279,
+        "weight": 1
+      },
+      {
+        "id": 80300287,
+        "weight": 1
+      },
+      {
+        "id": 80300296,
+        "weight": 1
+      },
+      {
+        "id": 80300300,
+        "weight": 1
+      },
+      {
+        "id": 80300302,
+        "weight": 1
+      },
+      {
+        "id": 80300303,
+        "weight": 1
+      }
+    ]
   }
 ]

@@ -80870,7 +80870,7 @@
     "idCN": "帮助/监狱帮助/普通车间生产/事件效果内容",
     "mod": "UI文本",
     "isInformalData": false,
-    "text": "---羁绊事件---\\n\r装腔作势：发生事件两名囚犯停止生产，处理后继续生产，两名囚犯产量增加。\\n\\n\r争执：发生事件两名囚犯停止生产，处理后将其全部关入禁闭室且刑期延长。\\n\\n\r霸凌：发生事件两名囚犯停止生产，处理后将其分别送入禁闭室和医务室，关入禁闭室的囚犯刑期延长。\\n\\n\r顺手牵羊：发生事件两名囚犯停止生产，处理后将其全部关入禁闭室且刑期延长。\\n\\n\r闹事：发生事件两名囚犯停止生产，处理后将其全部关入禁闭室且刑期延长。\\n\\n\r越狱：发生事件两名囚犯停止生产，处理后将其全部关入禁闭室且刑期延长。\\n\\n\r---光环事件---\\n\r独来独往（孤僻）：发生事件该囚犯停止生产，处理后继续生产，该囚犯产量增加。\\n\\n\r偷懒（懒惰）：发生事件该囚犯停止生产，处理后继续生产，该囚犯及周围囚犯产量增加。\\n\\n\r干劲十足（幽默）：发生事件处理后该囚犯及周围囚犯产量小幅增加。\\n\\n\r奋发图强（热情）：发生事件处理后该囚犯及周围囚犯产量中幅增加。\\n\\n\r心无杂念（细致）：发生事件处理后该囚犯及周围囚犯产量大幅增加。\\n\\n"
+    "text": "---羁绊事件---\\n\r装腔作势：发生事件两名囚犯停止生产，处理后继续生产，两名囚犯产量增加。\\n\\n\r争执：发生事件两名囚犯停止生产，处理后将其全部关入禁闭室且刑期延长。\\n\\n\r霸凌：发生事件两名囚犯停止生产，处理后将其分别送入禁闭室和医务室，关入禁闭室的囚犯刑期延长。\\n\\n\r顺手牵羊：发生事件两名囚犯停止生产，处理后将其全部关入禁闭室且刑期延长。\\n\\n\r闹事：发生事件两名囚犯停止生产，处理后将其全部关入禁闭室且刑期延长。\\n\\n\r暴乱：发生事件两名囚犯停止生产，处理后将其全部关入禁闭室且刑期延长。\\n\\n\r---光环事件---\\n\r独来独往（孤僻）：发生事件该囚犯停止生产，处理后继续生产，该囚犯产量增加。\\n\\n\r偷懒（懒惰）：发生事件该囚犯停止生产，处理后继续生产，该囚犯及周围囚犯产量增加。\\n\\n\r干劲十足（幽默）：发生事件处理后该囚犯及周围囚犯产量小幅增加。\\n\\n\r奋发图强（热情）：发生事件处理后该囚犯及周围囚犯产量中幅增加。\\n\\n\r心无杂念（细致）：发生事件处理后该囚犯及周围囚犯产量大幅增加。\\n\\n"
   },
   {
     "id": 80608883,
@@ -87387,7 +87387,7 @@
     "idCN": "活动/甲铁城/主界面/任务限制",
     "mod": "UI文本",
     "isInformalData": false,
-    "text": "需完成活动支线%s后开启"
+    "text": "需完成主线第三章<size=26><color=#19d296>\"%s\"</color></size>后开启"
   },
   {
     "id": 80609547,
@@ -87555,7 +87555,7 @@
     "idCN": "活动/甲铁城/主界面/关卡解锁",
     "mod": "UI文本",
     "isInformalData": false,
-    "text": "完成【在分别之前】后解锁"
+    "text": "完成【前往云岫桥临时营地】后解锁"
   },
   {
     "id": 80609575,
@@ -87667,7 +87667,7 @@
     "idCN": "活动/甲铁城/关卡/需剧情解锁",
     "mod": "UI文本",
     "isInformalData": false,
-    "text": "需完成【甲铁城】活动剧情"
+    "text": "需完成【异乡之骏城】活动剧情"
   },
   {
     "id": 80609586,
@@ -87723,7 +87723,7 @@
     "idCN": "甲铁城/清缴界面/通关时间",
     "mod": "UI文本",
     "isInformalData": false,
-    "text": "通关时间： %d分钟"
+    "text": "通关时间： %d 秒"
   },
   {
     "id": 80609595,
@@ -89500,13 +89500,13 @@
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
-    "isReplace": false,
-    "replaceType": "PlayerName",
+    "isReplace": true,
+    "replaceType": "SellSuddenRise",
     "playerNameString": "{playername}",
     "stationString": "{station}",
     "goodsString": "{goods}",
     "noDataString": "......",
-    "noDataTextId": -1
+    "noDataTextId": 80609706
   },
   {
     "id": 80609704,
@@ -89518,13 +89518,13 @@
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
-    "isReplace": false,
-    "replaceType": "PlayerName",
+    "isReplace": true,
+    "replaceType": "SellSuddenRise",
     "playerNameString": "{playername}",
     "stationString": "{station}",
     "goodsString": "{goods}",
     "noDataString": "......",
-    "noDataTextId": -1
+    "noDataTextId": 80609707
   },
   {
     "id": 80609705,
@@ -89536,13 +89536,13 @@
     "preAnimName": "idle",
     "animName": "idle",
     "isLoop": true,
-    "isReplace": false,
-    "replaceType": "PlayerName",
+    "isReplace": true,
+    "replaceType": "RareGoods",
     "playerNameString": "{playername}",
     "stationString": "{station}",
     "goodsString": "{goods}",
     "noDataString": "......",
-    "noDataTextId": -1
+    "noDataTextId": 80609706
   },
   {
     "id": 80609706,
@@ -89964,5 +89964,806 @@
     "mod": "UI文本",
     "isInformalData": false,
     "text": "请使用手机版本游戏进行充值"
+  },
+  {
+    "id": 80609729,
+    "idCN": "2预制体/Squads/Group_CardYard/文案11",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "橙卡"
+  },
+  {
+    "id": 80609730,
+    "idCN": "大富翁/上次伤害",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "上次伤害"
+  },
+  {
+    "id": 80609731,
+    "idCN": "大富翁/已击杀",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "已击杀"
+  },
+  {
+    "id": 80609744,
+    "idCN": "大富翁/Lv",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "LV.%d"
+  },
+  {
+    "id": 80609745,
+    "idCN": "大富翁/剩余血量",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "剩余血量"
+  },
+  {
+    "id": 80609746,
+    "idCN": "大富翁/请求协助",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "请求协助"
+  },
+  {
+    "id": 80609748,
+    "idCN": "大富翁/协助好友",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "协助好友"
+  },
+  {
+    "id": 80609664,
+    "idCN": "00NPC对话/活动/伏见/购入/文本1",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "给。轻拿轻放，小心摔着。",
+    "soundList": [],
+    "preAnimName": "idle",
+    "animName": "idle",
+    "isLoop": true,
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......",
+    "noDataTextId": -1
+  },
+  {
+    "id": 80609732,
+    "idCN": "00NPC对话/活动/伏见/购入/文本2",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "你眼光很不错嘛，不愧是经验丰富的列车长。",
+    "soundList": [],
+    "preAnimName": "idle",
+    "animName": "idle",
+    "isLoop": true,
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......",
+    "noDataTextId": -1
+  },
+  {
+    "id": 80609733,
+    "idCN": "00NPC对话/活动/伏见/购入/文本3",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "这些东西都卖，除了我本人——开玩笑的。",
+    "soundList": [],
+    "preAnimName": "idle",
+    "animName": "idle",
+    "isLoop": true,
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......",
+    "noDataTextId": -1
+  },
+  {
+    "id": 80609734,
+    "idCN": "00NPC对话/活动/伏见/货币不足/文本1",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "听响声我就知道你带的岚纹小判还不够。走，我们一起给铁盟打打工去？",
+    "soundList": [],
+    "preAnimName": "idle",
+    "animName": "idle",
+    "isLoop": true,
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......",
+    "noDataTextId": -1
+  },
+  {
+    "id": 80609735,
+    "idCN": "00NPC对话/活动/伏见/交谈/文本1",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "这些突然出现的敌人可真够难缠的……说实话，幸亏有那个了解它们弱点的年轻人帮忙。",
+    "soundList": [],
+    "preAnimName": "idle",
+    "animName": "idle",
+    "isLoop": true,
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......",
+    "noDataTextId": -1
+  },
+  {
+    "id": 80609736,
+    "idCN": "00NPC对话/活动/伏见/交谈/文本2",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "岚心城本来就是有很多怪谈的地方，拜外面的危险情况所赐，最近城里的各种离奇流言更是满天飞……",
+    "soundList": [],
+    "preAnimName": "idle",
+    "animName": "idle",
+    "isLoop": true,
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......",
+    "noDataTextId": -1
+  },
+  {
+    "id": 80609737,
+    "idCN": "00NPC对话/活动/伏见/交谈/文本3",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "听说你是铁山城人？说起来，我有个老朋友应该在那边做生意——哦，你离家好几年了，那可能也不知道吧。",
+    "soundList": [],
+    "preAnimName": "idle",
+    "animName": "idle",
+    "isLoop": true,
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......",
+    "noDataTextId": -1
+  },
+  {
+    "id": 80609738,
+    "idCN": "00NPC对话/活动/伏见/交谈/文本4",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "想摸尾巴？这多不好，我们才认识几天！等你以后来铁安局帮忙了再说。",
+    "soundList": [],
+    "preAnimName": "idle",
+    "animName": "idle",
+    "isLoop": true,
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......",
+    "noDataTextId": -1
+  },
+  {
+    "id": 80609740,
+    "idCN": "00NPC对话/活动/伏见/进入界面/文本1",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "哟，来啦。之前我们应该打过照面了，而且现在又是紧急情况中……不如先省略一些礼节？",
+    "soundList": [],
+    "preAnimName": "idle",
+    "animName": "idle",
+    "isLoop": true,
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......",
+    "noDataTextId": -1
+  },
+  {
+    "id": 80609741,
+    "idCN": "00NPC对话/活动/伏见/浏览商品/文本1",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "这些物资有岚心城本地调取的，也有铁盟和黑月突破了重重危险送来的……也算是八方支援了吧。",
+    "soundList": [],
+    "preAnimName": "idle",
+    "animName": "idle",
+    "isLoop": true,
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......",
+    "noDataTextId": -1
+  },
+  {
+    "id": 80609739,
+    "idCN": "00NPC对话/活动/伏见/交谈/文本5",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "这次真要谢谢你及时赶到……等事态平息以后，我一定还你这个人情。",
+    "soundList": [],
+    "preAnimName": "idle",
+    "animName": "idle",
+    "isLoop": true,
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......",
+    "noDataTextId": -1
+  },
+  {
+    "id": 80609742,
+    "idCN": "00NPC对话/活动/伏见/浏览商品/文本2",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "按需交换就好，剩余的物资还很充足。",
+    "soundList": [],
+    "preAnimName": "idle",
+    "animName": "idle",
+    "isLoop": true,
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......",
+    "noDataTextId": -1
+  },
+  {
+    "id": 80609743,
+    "idCN": "00NPC对话/活动/伏见/售罄/文本1",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "虽然很想从身后变一个出来给你，但这个实在是没有了！",
+    "soundList": [],
+    "preAnimName": "idle",
+    "animName": "idle",
+    "isLoop": true,
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......",
+    "noDataTextId": -1
+  },
+  {
+    "id": 80609747,
+    "idCN": "活动/甲铁城/主界面/活动开启",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "完成主线第三章<size=26><color=#19d296>“%s”</color></size>后解锁"
+  },
+  {
+    "id": 80609749,
+    "idCN": "大富翁/前往战斗",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "前往战斗"
+  },
+  {
+    "id": 80609750,
+    "idCN": "大富翁/今日剩余次数",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "今日剩余次数: %d"
+  },
+  {
+    "id": 80609752,
+    "idCN": "大富翁/剩余协助次数",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "今日剩余协助次数: %d/%d"
+  },
+  {
+    "id": 80609757,
+    "idCN": "大富翁/协助",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "协助"
+  },
+  {
+    "id": 80609758,
+    "idCN": "大富翁/请求",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "请求"
+  },
+  {
+    "id": 80609759,
+    "idCN": "大富翁/Tips/已击杀",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "已击杀"
+  },
+  {
+    "id": 80609760,
+    "idCN": "大富翁/Tips/已邀请",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "已邀请"
+  },
+  {
+    "id": 80609761,
+    "idCN": "大富翁/Tips/未参加当期",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "未参加当期游戏"
+  },
+  {
+    "id": 80609762,
+    "idCN": "大富翁/Tips/邀请已满",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "该好友收到的\\n请求数量已满"
+  },
+  {
+    "id": 80609751,
+    "idCN": "1预制体/CharacterInfo/CharacterInfo/文案84",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "配队攻略"
+  },
+  {
+    "id": 80609753,
+    "idCN": "活动/通用/列车长亲启",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "列车长亲启"
+  },
+  {
+    "id": 80609754,
+    "idCN": "活动/通用/立即前往",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "立即前往"
+  },
+  {
+    "id": 80609755,
+    "idCN": "活动/闹鬼活动/开启介绍",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "亲爱的列车长，正值澄明数据中心嘉年华如火如荼展开之际，我衷心希望您也能参与到节日之中，享受狂欢的欢乐——我于澄明数据中心恭候您的到来。"
+  },
+  {
+    "id": 80609756,
+    "idCN": "活动/红茶战争/开启介绍",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "最近修格里城内似乎流行起了一种新型红茶，而且坊间还开始流传一些红茶的“神秘功效”……如果您对这些传闻感兴趣的话，请务必来修格里城商会一趟。"
+  },
+  {
+    "id": 80609763,
+    "idCN": "大富翁/收到请求",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "收到请求 %d/%d"
+  },
+  {
+    "id": 80609764,
+    "idCN": "大富翁/剩余请求次数",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "今日剩余请求次数: %d/%d"
+  },
+  {
+    "id": 80609765,
+    "idCN": "活动/甲铁城/主界面/小游戏前置",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "需完成活动支线%s后开启"
+  },
+  {
+    "id": 80609769,
+    "idCN": "大富翁/已击杀BOSS",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "已击杀BOSS"
+  },
+  {
+    "id": 80609766,
+    "idCN": "甲铁城/清缴界面/前往失败耐久不足",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "火车耐久不足，无法前往，建议修复耐久"
+  },
+  {
+    "id": 80609767,
+    "idCN": "甲铁城/清缴界面/前往失败疲劳不足",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "列车长疲劳已满，无法前往，建议减少疲劳"
+  },
+  {
+    "id": 80609768,
+    "idCN": "甲铁城/清缴界面/前往失败道具不足",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "清剿许可不足，无法前往，建议前往补给处兑换"
+  },
+  {
+    "id": 80609770,
+    "idCN": "活动/甲铁城/主界面/活动时间",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "活动时间："
+  },
+  {
+    "id": 80609771,
+    "idCN": "甲铁城/清缴界面/出发前自动按钮",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "出发前自动修理并补满弹丸"
+  },
+  {
+    "id": 80609772,
+    "idCN": "甲铁城/清缴界面/前往清剿",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "前往清剿"
+  },
+  {
+    "id": 80609773,
+    "idCN": "甲铁城/清缴界面/主炮和弹药",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "主炮和弹药"
+  },
+  {
+    "id": 80609774,
+    "idCN": "甲铁城/清缴界面/列车属性冲击力",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "撞角冲击力"
+  },
+  {
+    "id": 80609775,
+    "idCN": "甲铁城/清缴界面/列车属性炮台攻击力",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "炮台攻击力"
+  },
+  {
+    "id": 80609776,
+    "idCN": "甲铁城/主界面/列车耐久",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "列车耐久"
+  },
+  {
+    "id": 80609777,
+    "idCN": "甲铁城/主界面/弹药不足",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "弹药不足"
+  },
+  {
+    "id": 80609778,
+    "idCN": "甲铁城/主界面/弹药数量",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "弹药数量"
+  },
+  {
+    "id": 80609779,
+    "idCN": "甲铁城/主界面/退出",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "退出"
+  },
+  {
+    "id": 80609780,
+    "idCN": "甲铁城/主界面/继续",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "继续"
+  },
+  {
+    "id": 80609781,
+    "idCN": "甲铁城/主界面/暂停战斗",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "暂停战斗"
+  },
+  {
+    "id": 80609782,
+    "idCN": "甲铁城/主界面/自动射击",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "自动射击"
+  },
+  {
+    "id": 80609783,
+    "idCN": "甲铁城/主界面/游戏积分",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "游戏积分"
+  },
+  {
+    "id": 80609784,
+    "idCN": "甲铁城/主界面/清缴时长",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "清缴时长"
+  },
+  {
+    "id": 80609785,
+    "idCN": "甲铁城/主界面/再来一局",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "再来一局"
+  },
+  {
+    "id": 80609786,
+    "idCN": "海岛经营/游客种类/宣传游客",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "宣传游客"
+  },
+  {
+    "id": 80609787,
+    "idCN": "海岛经营/游客种类/散客",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "散客"
+  },
+  {
+    "id": 80609788,
+    "idCN": "海岛经营/游客种类/客运游客",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "客运游客"
+  },
+  {
+    "id": 80609790,
+    "idCN": "车站/发展度显示",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "发展度：%d"
+  },
+  {
+    "id": 80609791,
+    "idCN": "礼包/火车礼包/甲铁城号",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "装甲+15\\n载货量+15\\n列车冲击力+50\\n列车最高时速+15km/h"
+  },
+  {
+    "id": 80609792,
+    "idCN": "沙滩排球/操作提示",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "点击场地地格使角色移动到指定位置"
+  },
+  {
+    "id": 80609793,
+    "idCN": "排行榜/累计总榜",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "累计总榜"
+  },
+  {
+    "id": 80609794,
+    "idCN": "排行榜/本月总榜",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "本月榜单"
+  },
+  {
+    "id": 80609795,
+    "idCN": "排行榜/本周总榜",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "本周榜单"
+  },
+  {
+    "id": 80609796,
+    "idCN": "排行榜/本日总榜",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "本日榜单"
+  },
+  {
+    "id": 80609789,
+    "idCN": "乘客揽客/传单地点/岚心城/金穗拉面店",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "由一对犬亚人夫妇经营的拉面店，连续多年登上岚心篝火城必吃榜前十。"
+  },
+  {
+    "id": 80609798,
+    "idCN": "乘客揽客/传单地点/岚心城/岚心阁",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "过去岚心城主的住处，如今只是一介旅游名胜。"
+  },
+  {
+    "id": 80609799,
+    "idCN": "乘客揽客/传单地点/岚心城/月之家居酒屋",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "结合岚心古韵与现代风格的居酒屋，总是坐满了客人，其中偶尔会有出现在电视和报纸上的面孔。"
+  },
+  {
+    "id": 80609800,
+    "idCN": "乘客揽客/传单地点/岚心城/901街",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "由时尚地标901大楼而得名的街道，充满追逐潮流的时尚弄潮儿。"
+  },
+  {
+    "id": 80609801,
+    "idCN": "乘客揽客/传单地点/岚心城/调度中枢",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "岚心城的铁路调度中枢，也起到城内客货运枢纽的作用。"
+  },
+  {
+    "id": 80609802,
+    "idCN": "乘客揽客/传单地点/岚心城/黑月匠造",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "知名高端设计品牌“黑月匠造”的门店，穿上一件这里的衣服，就是荣升地位的最佳证明。"
+  },
+  {
+    "id": 80609797,
+    "idCN": "排行榜/投资额",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "投资额"
+  },
+  {
+    "id": 80609803,
+    "idCN": "排行榜/每日重置",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "每日5:00后重置"
+  },
+  {
+    "id": 80609804,
+    "idCN": "大富翁/小宝箱怪提示",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "*挑衅可以提升战斗难度"
+  },
+  {
+    "id": 80609805,
+    "idCN": "大富翁/小宝箱怪提示2",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "*难度越高可获得的素材奖励越好"
+  },
+  {
+    "id": 80609806,
+    "idCN": "大富翁/小宝箱怪提示3",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "！战斗失败后不可再次挑战"
+  },
+  {
+    "id": 80609807,
+    "idCN": "大富翁/放弃",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "放弃"
+  },
+  {
+    "id": 80609808,
+    "idCN": "大富翁/挑衅",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "挑衅 %d/%d"
+  },
+  {
+    "id": 80609809,
+    "idCN": "00通用/Lv.",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "Lv.%d"
+  },
+  {
+    "id": 80609810,
+    "idCN": "大富翁/排行榜/投资排行榜",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "投资排行榜"
+  },
+  {
+    "id": 80609815,
+    "idCN": "大富翁/排行榜/重置时间",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "每日 05:00 重置"
+  },
+  {
+    "id": 80609814,
+    "idCN": "活跃任务/获得活跃度",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "获得%d活跃度"
+  },
+  {
+    "id": 80609813,
+    "idCN": "委派/开启弹窗/派遣委托",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "派遣委托任务现已开启"
+  },
+  {
+    "id": 80609812,
+    "idCN": "委派/开启弹窗/新功能开启",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "新功能开启"
+  },
+  {
+    "id": 80609811,
+    "idCN": "委派/开启弹窗/名称",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "委托派遣"
+  },
+  {
+    "id": 80609816,
+    "idCN": "乘客揽客/传单地点/栖羽站/1货物装卸区",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "栖羽站主要的货物装卸区。"
+  },
+  {
+    "id": 80609817,
+    "idCN": "乘客揽客/传单地点/栖羽站/3服装加工厂",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "为初步处理栖羽站养殖厂产出的原料而设的加工厂。"
+  },
+  {
+    "id": 80609818,
+    "idCN": "乘客揽客/传单地点/栖羽站/4禽类养殖厂",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "西大陆铁路环线规模最大的禽类养殖场之一，产出鹅绒、鸭绒等重要服装填充材料。"
+  },
+  {
+    "id": 80609819,
+    "idCN": "乘客揽客/传单地点/栖羽站/2观鸟公园",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "历史悠久的观鸟地点，候鸟和观鸟客源源不断地拜访此处。"
+  },
+  {
+    "id": 80609820,
+    "idCN": "帮助/活动帮助/铁道清缴/帮助标题",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "铁道清缴"
+  },
+  {
+    "id": 80609821,
+    "idCN": "帮助/活动帮助/铁道清缴/活动说明",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "列车进击，冲破阻拦！\\n\\n\r列车的冲击力大于被撞敌方生命值时，即可成功碾压敌方，获得积分。\\n\r列车的冲击力小于被撞敌方生命值时，列车将会受到损伤，同时基于敌方残余生命值获得少量积分。\\n\r提高列车速度和装备列车【撞击武器】，可以提高列车的冲击力。\\n\r装备列车武装提高列车装甲值，可以减少受到的撞击伤害。\\n\\n\r装备列车射击武器，可以自动射击空中敌方和巨型阻拦敌方。\\n\r射击武器需要消耗弹药，弹药需要前往铁盟哨站购买交易品【子弹】进行补充。\\n\r1单位【子弹】可以提供30单位弹药。\\n\\n\r清缴结束时，会获得基础奖励和对应的积分奖励。\\n\r铁道清缴消耗【清缴许可】和疲劳值。\\n\r铁道清清缴可以获得【岚纹小判】，【赴命奖章】，【深眠须根】以及大量【铁盟币】\\n"
   }
 ]

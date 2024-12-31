@@ -552,7 +552,7 @@
         "id": 85300002
       }
     ],
-    "NoticeAddress": "https://eden-notice.gameduchy.com/notice_sc_test.html",
+    "NoticeAddress": "https://eden-notice.gameduchy.com/notice_sc.html",
     "limitTimes": 9,
     "maxTimes": 30,
     "BlockTime": 900,
@@ -1855,6 +1855,10 @@
       },
       {
         "id": 12601493,
+        "num": 50
+      },
+      {
+        "id": 12601521,
         "num": 50
       }
     ]
@@ -3381,6 +3385,36 @@
       },
       {
         "id": 81002089
+      },
+      {
+        "id": 81002100
+      },
+      {
+        "id": 81002101
+      },
+      {
+        "id": 81002102
+      },
+      {
+        "id": 81002104
+      },
+      {
+        "id": 81002105
+      },
+      {
+        "id": 81002106
+      },
+      {
+        "id": 81002107
+      },
+      {
+        "id": 81002108
+      },
+      {
+        "id": 81002109
+      },
+      {
+        "id": 81002110
       }
     ],
     "passByChapterId": [],
@@ -3600,7 +3634,12 @@
     "passAnyResLevel": [],
     "energyCost": [
       {
-        "id": -1
+        "id": 81002046
+      }
+    ],
+    "tiredAdd": [
+      {
+        "id": 81000594
       }
     ],
     "useShield": [],
@@ -3886,6 +3925,11 @@
       },
       {
         "id": 81001493
+      }
+    ],
+    "addGold": [
+      {
+        "id": 81002047
       }
     ],
     "addWeight": [
@@ -4345,7 +4389,7 @@
         "id": 81001878
       },
       {
-        "id": -1
+        "id": 81002048
       }
     ],
     "roleIdGrade": [
@@ -5023,7 +5067,7 @@
         "id": 81001879
       },
       {
-        "id": -1
+        "id": 81002049
       }
     ],
     "makeTrainWeapon": [
@@ -5408,7 +5452,7 @@
         "id": 81001881
       },
       {
-        "id": -1
+        "id": 81002050
       }
     ],
     "publicize": [
@@ -6366,6 +6410,16 @@
       {
         "id": 81001986
       }
+    ],
+    "delegationFinish": [
+      {
+        "id": 81002045
+      }
+    ],
+    "operationRankLike": [
+      {
+        "id": 81002051
+      }
     ]
   },
   {
@@ -6386,6 +6440,9 @@
         "id": 81002046
       },
       {
+        "id": 81000594
+      },
+      {
         "id": 81002047
       },
       {
@@ -6404,28 +6461,28 @@
     "apRewardList": [
       {
         "ap": 100,
-        "id": 11400045,
-        "num": 1
+        "id": 11400001,
+        "num": 50000
       },
       {
         "ap": 200,
-        "id": 11400001,
-        "num": 100000
+        "id": 11700078,
+        "num": 4
       },
       {
         "ap": 300,
-        "id": 11400005,
-        "num": 10
-      },
-      {
-        "ap": 400,
         "id": 11400001,
         "num": 100000
       },
       {
+        "ap": 400,
+        "id": 11400411,
+        "num": 1
+      },
+      {
         "ap": 500,
-        "id": 11700078,
-        "num": 4
+        "id": 11400045,
+        "num": 1
       },
       {
         "ap": 600,
@@ -8460,6 +8517,14 @@
       {
         "Level": 31,
         "Num": 5
+      },
+      {
+        "Level": 41,
+        "Num": 6
+      },
+      {
+        "Level": 51,
+        "Num": 7
       }
     ],
     "passengerMinimum": 8,
@@ -8952,7 +9017,7 @@
     ],
     "drinkRefreshType": "daily",
     "firstDrinkBuff": 84100012,
-    "drinkLimitNum": 5,
+    "drinkLimitNum": 6,
     "energyEnd": 0,
     "shareEnergyEnd": 10,
     "returnCoefficient": 0.7,
@@ -9035,6 +9100,9 @@
       },
       {
         "tagId": 12601172
+      },
+      {
+        "tagId": 12601524
       }
     ],
     "enumJobList": [
@@ -9247,6 +9315,9 @@
       },
       {
         "id": 12601172
+      },
+      {
+        "id": 12601524
       }
     ],
     "bookEquipmentEnumList": [
@@ -18148,6 +18219,10 @@
       {
         "id": 84600011,
         "weight": 0
+      },
+      {
+        "id": 84600012,
+        "weight": 10
       }
     ],
     "isClickPollute": true,
@@ -19092,10 +19167,19 @@
         "id": 11400360
       },
       {
+        "id": 11400402
+      },
+      {
         "id": 11400354
       },
       {
         "id": 11400382
+      },
+      {
+        "id": 11400390
+      },
+      {
+        "id": 11400403
       },
       {
         "id": 11400254
@@ -21979,6 +22063,32 @@
       },
       {
         "countDownMax": 3,
+        "endTime": "2025-01-31 04:59:00",
+        "id": 86000031,
+        "isCompleteBottom": false,
+        "isCountDown": false,
+        "name": 80609550,
+        "png": "UI/Activity/Tab/tab_kabaneri",
+        "showUI": "UI/Activity/Kabaneri/KabaneriActivity",
+        "sort": 0,
+        "startTime": "2024-12-31 15:00:00",
+        "tag": 12601501
+      },
+      {
+        "countDownMax": 3,
+        "endTime": "2025-01-31 04:59:00",
+        "id": 86000035,
+        "isCompleteBottom": false,
+        "isCountDown": false,
+        "name": 80609511,
+        "png": "UI/Activity/ActivitySignIn/IronFortress/Tag",
+        "showUI": "",
+        "sort": 0,
+        "startTime": "2025-01-01 05:00:00",
+        "tag": 12601103
+      },
+      {
+        "countDownMax": 3,
         "endTime": "2030-01-01 00:00:00",
         "id": 86000017,
         "isCompleteBottom": false,
@@ -22130,32 +22240,6 @@
         "sort": 0,
         "startTime": "2025-11-08 05:00:00",
         "tag": 12601422
-      },
-      {
-        "countDownMax": 3,
-        "endTime": "2025-01-31 04:59:00",
-        "id": 86000031,
-        "isCompleteBottom": false,
-        "isCountDown": false,
-        "name": 80609550,
-        "png": "UI/Activity/Tab/tab_kabaneri",
-        "showUI": "UI/Activity/Kabaneri/KabaneriActivity",
-        "sort": 0,
-        "startTime": "2025-01-01 05:00:00",
-        "tag": 12601501
-      },
-      {
-        "countDownMax": 3,
-        "endTime": "2025-01-31 04:59:00",
-        "id": 86000035,
-        "isCompleteBottom": false,
-        "isCountDown": false,
-        "name": 80609511,
-        "png": "UI/Activity/ActivitySignIn/IronFortress/Tag",
-        "showUI": "",
-        "sort": 0,
-        "startTime": "2025-01-01 05:00:00",
-        "tag": 12601103
       },
       {
         "countDownMax": 3,
@@ -22400,6 +22484,10 @@
       {
         "id": 86300006,
         "startTime": "2024-11-15 15:00:00"
+      },
+      {
+        "id": 86300008,
+        "startTime": "2025-01-01 12:00:00"
       }
     ]
   },
@@ -22604,8 +22692,8 @@
       {
         "adPath": "UI/Store/Store_big_skin03",
         "lv": 2,
-        "param": "",
-        "questId": 81000711,
+        "param": "{\"index\":4,\"subIndex\":82100274,\"storeId\":40300078}",
+        "questId": 81000650,
         "uiPath": "UI/Store/Store"
       }
     ]
@@ -22719,6 +22807,10 @@
       {
         "ChapterList": 20602720,
         "questId": -1
+      },
+      {
+        "ChapterList": 20602828,
+        "questId": -1
       }
     ]
   },
@@ -22791,7 +22883,7 @@
       },
       {
         "anecdoteName": "为谁闪烁",
-        "brief": "星花特意发邮件说希望和你在7号自由港的咖啡厅碰面。平时总是独力解决问题的天才研究员小姐，遇见了什么样的困难呢？",
+        "brief": "星花特意发邮件说希望和你在7号自由港的咖啡厅碰面。平时总是独自解决问题的天才研究员小姐，遇见了什么样的困难呢？",
         "characterId": 10000298,
         "faceUrl": "UI/Quest/Anecdote/Images/Stella",
         "id": 81002040,
@@ -24903,6 +24995,13 @@
     "isRankOpen": true
   },
   {
+    "id": 99900104,
+    "idCN": "大富翁配置",
+    "mod": "大富翁配置",
+    "isInformalData": false,
+    "nameEN": "MonopolyConfig"
+  },
+  {
     "id": 99900105,
     "idCN": "卡池/卡池配置",
     "mod": "卡池配置",
@@ -24910,10 +25009,16 @@
     "nameEN": "BannerConfig",
     "bannerList": [
       {
-        "id": 80500031
+        "id": 80500034
+      },
+      {
+        "id": 80500035
       },
       {
         "id": 80500107
+      },
+      {
+        "id": 80500031
       },
       {
         "id": 80500029
@@ -24989,26 +25094,47 @@
     "mod": "尸潮配置",
     "isInformalData": false,
     "nameEN": "TradeConfig",
-    "Gravity": 10.0,
-    "perLoadMonsterPointCount": 10,
+    "Gravity": 5.0,
+    "perLoadMonsterPointCount": 8,
     "firstPointLoadMonster": false,
     "BuffDistance": 60.0,
     "roadDistanceRange": 5.0,
-    "createUnitRangeY": 15.0,
-    "createUnitRangeX": 2.0,
-    "heightCamera": 1.36,
-    "offsetZCamera": -3.3,
-    "speedRatio": 20.0,
+    "createUnitRangeY": 5.0,
+    "createUnitRangeX": 5.0,
+    "heightCamera": 1.0,
+    "offsetZCamera": -1.15,
+    "speedRatio": 25.0,
     "sideRandom": 10,
-    "damageParam1": 100,
+    "damageParam1": 10000,
     "damageParam2": 1.0,
     "damageParam3": 1.0,
     "strikeAtkParam": 1.0,
     "flashWhiteDuration": 0.1,
     "flashWhiteValue": 2.0,
     "flashWhiteCD": 0.1,
-    "cameraShakeTime": 1,
-    "cameraShakeVal": 1
+    "cameraShakeTime": 0.2,
+    "cameraShakeValX": 0.9,
+    "cameraShakeValY": 0.9,
+    "cameraShakeExTime": 0.5,
+    "cameraShakeExValX": 3.0,
+    "cameraShakeExValY": 3.0,
+    "commonBlood": 0.3,
+    "corpseTideBlood": 0.5,
+    "bloodEffectList": [
+      {
+        "id": 11106943,
+        "weight": 1
+      },
+      {
+        "id": 11106988,
+        "weight": 1
+      }
+    ],
+    "bloodScreenLimitX": 0,
+    "bloodScreenLimitY": 0,
+    "bloodScreenRotRandom": 360,
+    "bloodScaleRandom": 1,
+    "choiceBuffval": 50
   },
   {
     "id": 99900053,
@@ -25017,6 +25143,13 @@
     "isInformalData": false,
     "nameEN": "ServerGacheConfig",
     "gacheUI": true
+  },
+  {
+    "id": 99900113,
+    "idCN": "活动/乱斗竞技配置",
+    "mod": "乱斗竞技",
+    "isInformalData": false,
+    "nameEN": "RandomBattleConfig"
   },
   {
     "id": 99900112,

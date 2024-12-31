@@ -1,7 +1,7 @@
 [
   {
     "id": 86000001,
-    "idCN": "活动/红茶战争",
+    "idCN": "活动/1红茶战争",
     "mod": "红茶活动",
     "isInformalData": false,
     "name": "红茶战争",
@@ -14,6 +14,8 @@
     "correspondingCity": [],
     "correspondingBuild": [],
     "showResidueUI": "Group_BlackTea",
+    "openTipsType": "normal",
+    "showOpenTipsUI": "UI/Activity/OpenTips/BlackTeaTip/BlackTeaTip",
     "isJoin": true,
     "isOnly": -1,
     "questId": 81001139,
@@ -46,34 +48,28 @@
         "id": 83100043
       },
       {
-        "id": 11400048
-      },
-      {
-        "id": 11700122
-      },
-      {
-        "id": 11400045
-      },
-      {
-        "id": 11700100
-      },
-      {
-        "id": 85000002
-      },
-      {
         "id": 83100042
+      },
+      {
+        "id": 11800002
+      },
+      {
+        "id": 11800274
+      },
+      {
+        "id": 11800269
+      },
+      {
+        "id": 11800267
       },
       {
         "id": 11400217
       },
       {
-        "id": 11400062
+        "id": 11400045
       },
       {
-        "id": 11400067
-      },
-      {
-        "id": 11400063
+        "id": 85000002
       }
     ],
     "activityStoreList": [
@@ -316,7 +312,7 @@
   },
   {
     "id": 86000002,
-    "idCN": "活动/我造我路",
+    "idCN": "活动/3我造我路",
     "mod": "建设活动",
     "isInformalData": false,
     "name": "我造我路",
@@ -333,6 +329,8 @@
       }
     ],
     "showResidueUI": "",
+    "openTipsType": "normal",
+    "showOpenTipsUI": "",
     "isJoin": true,
     "isOnly": -1,
     "questId": 81001199,
@@ -353,10 +351,19 @@
     "allScheduleRefreshTime": 60,
     "rewardPreviewList": [
       {
+        "id": 11400232
+      },
+      {
         "id": 11400005
       },
       {
         "id": 11400007
+      },
+      {
+        "id": 11800245
+      },
+      {
+        "id": 11800315
       },
       {
         "id": 11400236
@@ -371,25 +378,13 @@
         "id": 11700026
       },
       {
-        "id": 11400046
+        "id": 11400217
       },
       {
         "id": 11400048
       },
       {
-        "id": 11800315
-      },
-      {
-        "id": 11800245
-      },
-      {
-        "id": 11400217
-      },
-      {
-        "id": 11700078
-      },
-      {
-        "id": 11700161
+        "id": 11400046
       },
       {
         "id": 85000002
@@ -1310,7 +1305,7 @@
   },
   {
     "id": 86000009,
-    "idCN": "活动/澄明异闻奇谈",
+    "idCN": "活动/4澄明异闻奇谈",
     "mod": "关卡挑战活动",
     "isInformalData": false,
     "name": "澄明异闻奇谈",
@@ -1323,12 +1318,14 @@
     "correspondingCity": [],
     "correspondingBuild": [],
     "showResidueUI": "Group_Monster",
+    "openTipsType": "normal",
+    "showOpenTipsUI": "UI/Activity/OpenTips/MonsterTip/MonsterTip",
     "isJoin": true,
     "isOnly": -1,
     "questId": 81000311,
     "unlockTips": 80601386,
     "isTriggerTime": true,
-    "putTime": 20,
+    "putTime": 21,
     "continueTime": -1,
     "closeTime": -1,
     "isTime": false,
@@ -1343,43 +1340,37 @@
     "allScheduleRefreshTime": 60,
     "rewardPreviewList": [
       {
+        "id": 11000341
+      },
+      {
         "id": 11400005
       },
       {
         "id": 11400007
       },
       {
+        "id": 82600635
+      },
+      {
         "id": 83100005
       },
       {
-        "id": 11800290
+        "id": 11800018
       },
       {
-        "id": 11800257
+        "id": 11800015
       },
       {
-        "id": 11800258
+        "id": 11800012
       },
       {
-        "id": 11800288
+        "id": 11800016
       },
       {
         "id": 11400116
       },
       {
         "id": 11400217
-      },
-      {
-        "id": 11700078
-      },
-      {
-        "id": 11700161
-      },
-      {
-        "id": 11700122
-      },
-      {
-        "id": 11700100
       },
       {
         "id": 11400045
@@ -1393,8 +1384,13 @@
         "id": 40300060
       }
     ],
-    "bannerList": [],
+    "bannerList": [
+      {
+        "id": 80500192
+      }
+    ],
     "joinPlotId": 20700088,
+    "ActivityLevelId": -1,
     "joinQuestId": 81000209,
     "skipStationStart": 83000029,
     "skipQuestLimit": 81000217,
@@ -1484,8 +1480,12 @@
         "startTime": "2024-06-03 15:00:00"
       }
     ],
+    "levelPlotList": [],
+    "afterPlotLevel": -1,
     "gameQuestLimit": -1,
     "gameUnlockTips": -1,
+    "gameOpen": true,
+    "gameList": -1,
     "activityCardPack": 86300002
   },
   {
@@ -1780,17 +1780,36 @@
       }
     ],
     "correspondingBuild": [],
+    "showResidueUI": "",
+    "openTipsType": "normal",
+    "showOpenTipsUI": "UI/Chapter/Battle_Boss/BattleBossTip/BattleBossTip",
     "isJoin": false,
     "isOnly": -1,
     "questId": -1,
     "unlockTips": -1,
+    "isTriggerTime": false,
+    "putTime": -1,
+    "continueTime": -1,
+    "closeTime": -1,
     "isTime": false,
     "startTime": "2024-07-01 12:00:00",
     "endTime": "",
     "rewardEndTime": "",
+    "replicateNum": 1,
+    "isClearCurrency": false,
+    "clearCurrencyList": [],
+    "isClearAllQuest": false,
+    "isClearPersonalQuest": false,
+    "allScheduleRefreshTime": 60,
     "rewardPreviewList": [
       {
         "id": 11400005
+      },
+      {
+        "id": 82600453
+      },
+      {
+        "id": 82600454
       },
       {
         "id": 11400145
@@ -1800,6 +1819,7 @@
       }
     ],
     "activityStoreList": [],
+    "bannerList": [],
     "joinPlotId": -1,
     "joinQuestId": -1,
     "city": -1,
@@ -1848,20 +1868,30 @@
     "voiceActivity": -1,
     "correspondingCity": [],
     "correspondingBuild": [],
+    "showResidueUI": "",
+    "openTipsType": "normal",
+    "showOpenTipsUI": "",
     "isJoin": false,
     "isOnly": -1,
     "questId": -1,
     "unlockTips": -1,
+    "isTriggerTime": false,
+    "putTime": -1,
+    "continueTime": -1,
+    "closeTime": -1,
     "isTime": true,
-    "startTime": "2024-08-29 05:00:00",
-    "endTime": "2024-09-05 04:59:00",
-    "rewardEndTime": "2024-09-12 04:59:00",
+    "startTime": "2025-01-02 05:00:00",
+    "endTime": "2025-01-16 04:59:00",
+    "rewardEndTime": "2025-01-16 04:59:00",
     "replicateNum": 1,
     "isClearCurrency": false,
     "clearCurrencyList": [],
+    "isClearAllQuest": false,
+    "isClearPersonalQuest": false,
     "allScheduleRefreshTime": 60,
     "rewardPreviewList": [],
     "activityStoreList": [],
+    "bannerList": [],
     "joinPlotId": -1,
     "joinQuestId": -1,
     "signinId": 40100011,
@@ -1873,6 +1903,8 @@
     "daySignedColor": "FFFFFF",
     "daySignColor": "FFFFFF",
     "dayAligningType": "3",
+    "dayTxtY": 323,
+    "dayTxtSize": 100,
     "signedBG": "UI/Activity/ActivitySignIn/Sunmmer/SignedBG",
     "signBG": "UI/Activity/ActivitySignIn/Sunmmer/SignInBG",
     "claimedIcon": "UI/Activity/ActivitySignIn/Sunmmer/Icon-SignedItem",
@@ -1895,11 +1927,21 @@
     "signTitleAboveC": 80607784,
     "signTitleBottomC": 80607800,
     "signTitleAboveE": -1,
-    "signTitleBottomE": -1
+    "signTitleBottomE": -1,
+    "signTitleImg": "",
+    "ImgX": 0,
+    "ImgY": 0,
+    "timeImgX": 0,
+    "timeImgY": 0,
+    "signBgImg": "",
+    "signIconImg": "",
+    "isIconOpen": true,
+    "isBtnContentOpen": true,
+    "timeLineBG": ""
   },
   {
     "id": 86000016,
-    "idCN": "活动/海岛",
+    "idCN": "活动/5海岛",
     "mod": "夏日活动",
     "isInformalData": false,
     "name": "",
@@ -1920,6 +1962,8 @@
       }
     ],
     "showResidueUI": "",
+    "openTipsType": "normal",
+    "showOpenTipsUI": "",
     "isJoin": true,
     "isOnly": -1,
     "questId": 81000962,
@@ -1940,6 +1984,9 @@
     "allScheduleRefreshTime": 60,
     "rewardPreviewList": [
       {
+        "id": 11000387
+      },
+      {
         "id": 11400007
       },
       {
@@ -1958,19 +2005,10 @@
         "id": 11800259
       },
       {
-        "id": 11700078
-      },
-      {
-        "id": 11700161
-      },
-      {
         "id": 11400217
       },
       {
-        "id": 11700122
-      },
-      {
-        "id": 11700100
+        "id": 11400072
       },
       {
         "id": 11400045
@@ -1980,7 +2018,11 @@
       }
     ],
     "activityStoreList": [],
-    "bannerList": [],
+    "bannerList": [
+      {
+        "id": 80500045
+      }
+    ],
     "joinPlotId": 20700430,
     "joinQuestId": 81001319,
     "skipStationStart": 83000002,
@@ -1995,6 +2037,7 @@
         "startTime": ""
       }
     ],
+    "levelPlotList": [],
     "islandGrade": 5,
     "correspondingScene": 87300002,
     "correspondingFurniture": 81300437,
@@ -2310,10 +2353,17 @@
     "voiceActivity": -1,
     "correspondingCity": [],
     "correspondingBuild": [],
+    "showResidueUI": "",
+    "openTipsType": "normal",
+    "showOpenTipsUI": "",
     "isJoin": false,
     "isOnly": -1,
     "questId": -1,
     "unlockTips": -1,
+    "isTriggerTime": false,
+    "putTime": -1,
+    "continueTime": -1,
+    "closeTime": -1,
     "isTime": false,
     "startTime": "2025-11-08 05:00:00",
     "endTime": "",
@@ -2321,9 +2371,12 @@
     "replicateNum": 1,
     "isClearCurrency": false,
     "clearCurrencyList": [],
+    "isClearAllQuest": false,
+    "isClearPersonalQuest": false,
     "allScheduleRefreshTime": 60,
     "rewardPreviewList": [],
     "activityStoreList": [],
+    "bannerList": [],
     "joinPlotId": -1,
     "joinQuestId": -1,
     "city": -1,
@@ -2331,7 +2384,7 @@
   },
   {
     "id": 86000022,
-    "idCN": "活动/整顿中心",
+    "idCN": "活动/6整顿中心",
     "mod": "夏日活动",
     "isInformalData": false,
     "name": "",
@@ -2348,6 +2401,8 @@
     ],
     "correspondingBuild": [],
     "showResidueUI": "",
+    "openTipsType": "normal",
+    "showOpenTipsUI": "",
     "isJoin": true,
     "isOnly": -1,
     "questId": -1,
@@ -2371,16 +2426,28 @@
         "id": 11400007
       },
       {
+        "id": 11400354
+      },
+      {
         "id": 82600542
       },
       {
-        "id": 11400354
+        "id": 83100075
+      },
+      {
+        "id": 83100062
+      },
+      {
+        "id": 83100073
       },
       {
         "id": 11800022
       },
       {
         "id": 11800014
+      },
+      {
+        "id": 81300559
       },
       {
         "id": 11400217
@@ -2397,6 +2464,7 @@
     "levelQuestLimit": -1,
     "levelEndTime": "",
     "levelTypeList": [],
+    "levelPlotList": [],
     "islandGrade": 5,
     "correspondingScene": -1,
     "correspondingFurniture": -1,
@@ -2545,7 +2613,7 @@
   },
   {
     "id": 86000038,
-    "idCN": "活动/酒店疑案：叩响乐园之门",
+    "idCN": "活动/2酒店疑案：叩响乐园之门",
     "mod": "关卡挑战活动",
     "isInformalData": false,
     "name": "酒店疑案：叩响乐园之门",
@@ -2558,6 +2626,8 @@
     "correspondingCity": [],
     "correspondingBuild": [],
     "showResidueUI": "",
+    "openTipsType": "normal",
+    "showOpenTipsUI": "",
     "isJoin": true,
     "isOnly": -1,
     "questId": 81000037,
@@ -2578,10 +2648,16 @@
     "allScheduleRefreshTime": 60,
     "rewardPreviewList": [
       {
+        "id": 11400382
+      },
+      {
         "id": 11400005
       },
       {
         "id": 11400007
+      },
+      {
+        "id": 82600618
       },
       {
         "id": 83100083
@@ -2596,22 +2672,10 @@
         "id": 11800019
       },
       {
-        "id": 11700078
-      },
-      {
-        "id": 11700161
+        "id": 11800042
       },
       {
         "id": 11400217
-      },
-      {
-        "id": 11700122
-      },
-      {
-        "id": 11700100
-      },
-      {
-        "id": 11700121
       },
       {
         "id": 11400045
@@ -2627,6 +2691,7 @@
     ],
     "bannerList": [],
     "joinPlotId": 20700513,
+    "ActivityLevelId": -1,
     "joinQuestId": 81002135,
     "skipStationStart": 83000004,
     "skipQuestLimit": 81002143,
@@ -2716,6 +2781,12 @@
         "startTime": ""
       }
     ],
+    "levelPlotList": [],
+    "afterPlotLevel": -1,
+    "gameQuestLimit": -1,
+    "gameUnlockTips": -1,
+    "gameOpen": true,
+    "gameList": -1,
     "activityCardPack": 86300006
   },
   {
@@ -2795,7 +2866,7 @@
   },
   {
     "id": 86000031,
-    "idCN": "活动/异乡之骏城",
+    "idCN": "活动/9异乡之骏城",
     "mod": "关卡挑战活动",
     "isInformalData": false,
     "name": "异乡之骏城",
@@ -2808,16 +2879,18 @@
     "correspondingCity": [],
     "correspondingBuild": [],
     "showResidueUI": "",
+    "openTipsType": "normal",
+    "showOpenTipsUI": "",
     "isJoin": true,
     "isOnly": -1,
-    "questId": 81000037,
+    "questId": 81000578,
     "unlockTips": 80609546,
     "isTriggerTime": false,
-    "putTime": 21,
+    "putTime": -1,
     "continueTime": -1,
     "closeTime": -1,
     "isTime": true,
-    "startTime": "2025-01-01 15:00:00",
+    "startTime": "2024-12-31 15:00:00",
     "endTime": "2025-01-31 04:59:00",
     "rewardEndTime": "2025-01-31 04:59:00",
     "replicateNum": 1,
@@ -2828,43 +2901,31 @@
     "allScheduleRefreshTime": 60,
     "rewardPreviewList": [
       {
+        "id": 10000546
+      },
+      {
+        "id": 11400390
+      },
+      {
         "id": 11400005
       },
       {
-        "id": 11400007
+        "id": 82600656
       },
       {
-        "id": 83100005
+        "id": 82600655
       },
       {
-        "id": 11800290
+        "id": 11400407
       },
       {
-        "id": 11800257
+        "id": 11400084
       },
       {
-        "id": 11800258
-      },
-      {
-        "id": 11800288
-      },
-      {
-        "id": 11400116
+        "id": 11400138
       },
       {
         "id": 11400217
-      },
-      {
-        "id": 11700078
-      },
-      {
-        "id": 11700161
-      },
-      {
-        "id": 11700122
-      },
-      {
-        "id": 11700100
       },
       {
         "id": 11400045
@@ -2875,68 +2936,12 @@
     ],
     "activityStoreList": [
       {
-        "id": -1
-      },
-      {
-        "id": -1
-      },
-      {
-        "id": -1
-      },
-      {
-        "id": -1
-      },
-      {
-        "id": -1
-      },
-      {
-        "id": -1
-      },
-      {
-        "id": -1
-      },
-      {
-        "id": -1
-      },
-      {
-        "id": -1
-      },
-      {
-        "id": -1
-      },
-      {
-        "id": -1
-      },
-      {
-        "id": -1
-      },
-      {
-        "id": -1
-      },
-      {
-        "id": -1
-      },
-      {
-        "id": -1
-      },
-      {
-        "id": -1
-      },
-      {
-        "id": -1
-      },
-      {
-        "id": -1
-      },
-      {
-        "id": -1
-      },
-      {
-        "id": -1
+        "id": 40300132
       }
     ],
     "bannerList": [],
-    "joinPlotId": 20700039,
+    "joinPlotId": -1,
+    "ActivityLevelId": 20101355,
     "joinQuestId": 81002039,
     "skipStationStart": -1,
     "skipQuestLimit": 81002068,
@@ -3014,14 +3019,20 @@
       },
       {
         "id": 86100064,
-        "startTime": "2024-06-03 15:00:00"
+        "startTime": ""
+      }
+    ],
+    "levelPlotList": [
+      {
+        "id": 20101355
       }
     ],
     "afterPlotLevel": 81002068,
     "gameQuestLimit": 81002053,
-    "gameUnlockTips": 80609546,
+    "gameUnlockTips": 80609765,
     "gameOpen": true,
-    "activityCardPack": 86300008
+    "activityCardPack": 86300008,
+    "gameList": 80305090
   },
   {
     "id": 86000035,
@@ -3099,7 +3110,12 @@
     "closeTime": -1,
     "isClearAllQuest": false,
     "isClearPersonalQuest": false,
-    "bannerList": []
+    "bannerList": [],
+    "dayTxtY": 295,
+    "dayTxtSize": 66,
+    "isIconOpen": false,
+    "isBtnContentOpen": false,
+    "timeLineBG": "UI/Activity/ActivitySignIn/IronFortress/Time"
   },
   {
     "id": 86000037,

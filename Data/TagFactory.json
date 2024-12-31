@@ -12902,15 +12902,16 @@
   },
   {
     "id": 12601124,
-    "idCN": "监狱/囚犯性格羁绊/越狱",
+    "idCN": "监狱/囚犯性格羁绊/暴乱",
     "mod": "囚犯性格羁绊",
     "isInformalData": true,
     "icon": "",
-    "prisonerPersonalityFetterName": "越狱",
+    "prisonerPersonalityFetterName": "暴乱",
     "prisonerPersonalityFetterDesc": "在囚犯牢房的海报后发现一个通往下水道的大洞，而囚犯则不知所踪……",
     "prisonerBuffDesc": "你发动所有警力将越狱囚犯成功截获，%s。",
     "buffId": 84100125,
     "paramList": [],
+    "probabilityParamClient": 0.0,
     "timeAdd": 13,
     "occurrenceProbability": 1.0,
     "score": -100.0,
@@ -12920,7 +12921,8 @@
       }
     ],
     "prisonerEventCombinationAcotionName": "",
-    "prisonerEventCombinationAcotionSpinePath": ""
+    "prisonerEventCombinationAcotionSpinePath": "",
+    "sceneAnim": -1
   },
   {
     "id": 12601141,
@@ -16281,7 +16283,7 @@
     "mod": "标签",
     "isInformalData": false,
     "icon": "",
-    "tagName": "A",
+    "tagName": "C",
     "tagID": 0,
     "isShowDetail": false,
     "temptagNameRichText": "",
@@ -16299,7 +16301,7 @@
     "isShowDetail": true,
     "temptagNameRichText": "强化喷流弹",
     "tagNameRichText": "强化喷流弹",
-    "detail": "【贯筒射击】和【爆裂射击】造成的伤害提高20%，同时触发【点燃】和【重伤】"
+    "detail": "【贯筒射击】和【爆裂射击】造成伤害时同时触发【点燃】和【重伤】\\n使用【蓄力】后，使【贯筒射击】和【爆裂射击】伤害提高5%，上限100%"
   },
   {
     "id": 12601457,
@@ -16953,7 +16955,9 @@
     "id": 12601509,
     "idCN": "战斗/角色技能/05/无名/A",
     "mod": "标签",
-    "tagName": "B",
+    "isInformalData": false,
+    "icon": "",
+    "tagName": "A",
     "tagID": 0,
     "isShowDetail": false,
     "temptagNameRichText": "",
@@ -16995,13 +16999,15 @@
     "isShowDetail": true,
     "temptagNameRichText": "翩跹",
     "tagNameRichText": "翩跹",
-    "detail": "使用【蝶舞】后，本场战斗【蝶舞】的攻击段数+2，限6次\\n使用【鬼舞】后，使下1张【浮光连舞】伤害提高25%，可叠加"
+    "detail": "使用【蝶舞】后，本场战斗【蝶舞】的攻击段数+2，限6次\\n使用【鬼舞】后，使下1张【浮光连舞】伤害提高50%，可叠加"
   },
   {
     "id": 12601513,
     "idCN": "战斗/角色技能/05/无名/S",
     "mod": "标签",
-    "tagName": "B",
+    "isInformalData": false,
+    "icon": "",
+    "tagName": "S",
     "tagID": 0,
     "isShowDetail": false,
     "temptagNameRichText": "",
@@ -17032,7 +17038,7 @@
     "isShowDetail": true,
     "temptagNameRichText": "蝶应",
     "tagNameRichText": "蝶应",
-    "detail": "队友使用【队长技】或得意技能牌时，直接打出1次【蝶舞】"
+    "detail": "队友使用【队长技】或得意技能牌时，直接打出1次【蝶舞】或【鬼舞】\\n使用【浮光连舞】后，使敌方全体受到的伤害增加20%，持续5秒"
   },
   {
     "id": 12601514,
@@ -17085,5 +17091,194 @@
     "temptagNameRichText": "",
     "tagNameRichText": "",
     "detail": ""
+  },
+  {
+    "id": 12601520,
+    "idCN": "敌方/机制标签/约书亚/销毁标签",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "",
+    "tagName": "",
+    "tagID": 0,
+    "isShowDetail": false,
+    "temptagNameRichText": "",
+    "tagNameRichText": "",
+    "detail": ""
+  },
+  {
+    "id": 12601521,
+    "idCN": "卡池大保底/07异界招募-甲铁城",
+    "mod": "卡池大保底",
+    "isInformalData": false,
+    "icon": "",
+    "tagName": "异界招募",
+    "recordTips": "可在本页面查询最近6个月【异界招募】的招募记录。招募记录存在1分钟左右延迟，若无记录请稍后重新打开。"
+  },
+  {
+    "id": 12601522,
+    "idCN": "阵营标签/敌人/冥灯",
+    "mod": "阵营",
+    "isInformalData": false,
+    "icon": "",
+    "sideName": "冥灯",
+    "nameEnglish": "Marine C.R.",
+    "iconPath": "UI/Common/Enemy/SideIcon/Marine_Chaos_Remain",
+    "recommendPath": ""
+  },
+  {
+    "id": 12601523,
+    "idCN": "势力/岚心城",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "",
+    "tagName": "岚心城",
+    "tagID": 0,
+    "isShowDetail": false,
+    "temptagNameRichText": "",
+    "tagNameRichText": "",
+    "detail": ""
+  },
+  {
+    "id": 12601524,
+    "idCN": "阵营标签/角色/联动异乡来客",
+    "mod": "阵营",
+    "isInformalData": false,
+    "icon": "UI/Common/Common_icon_camp_9",
+    "sideName": "异乡来客",
+    "nameEnglish": "",
+    "iconPath": "UI/Common/Enemy/SideIcon/camp_2",
+    "recommendPath": "UI/Common/entrust_icon_camp_2"
+  },
+  {
+    "id": 12601525,
+    "idCN": "敌方/筛选标签/侵蚀",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "",
+    "tagName": "",
+    "tagID": 0,
+    "isShowDetail": false,
+    "temptagNameRichText": "",
+    "tagNameRichText": "",
+    "detail": ""
+  },
+  {
+    "id": 12601526,
+    "idCN": "战斗/词缀/04四星/叶珏/觉醒5-气象学",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "RolePlus\\Yejue\\Face",
+    "tagName": "气象学",
+    "tagID": 0,
+    "isShowDetail": true,
+    "temptagNameRichText": "气象学",
+    "tagNameRichText": "气象学",
+    "detail": "使用【电光石火】时，有50%概率触发天气【雨】/【大雨】/【暴雨】，限触发1次\\n同时在天气【雨】/【大雨】/【暴雨】时，使我方全体造成的电磁伤害提高10%"
+  },
+  {
+    "id": 12601527,
+    "idCN": "战斗/词缀/04四星/卡莱雅/觉醒5-气象学",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "RolePlus\\Kaleya\\Face",
+    "tagName": "气象学",
+    "tagID": 0,
+    "isShowDetail": true,
+    "temptagNameRichText": "气象学",
+    "tagNameRichText": "气象学",
+    "detail": "使用【富氧大气】时，有50%概率遇到天气【炎热】/【酷热】/【炙热】，限触发1次\\n同时在天气【炎热】/【酷热】/【炙热】时，使我方全体造成的火焰伤害提高10%"
+  },
+  {
+    "id": 12601528,
+    "idCN": "战斗/词缀/04四星/晃/觉醒5-气象学",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "RolePlus\\Akira\\Face",
+    "tagName": "气象学",
+    "tagID": 0,
+    "isShowDetail": true,
+    "temptagNameRichText": "气象学",
+    "tagNameRichText": "气象学",
+    "detail": "使用【开尔文笑话】时，有50%概率遇到天气【雪】/【大雪】/【暴雪】，限触发1次\\n同时在天气【雪】/【大雪】/【暴雪】时，使我方全体造成的冰冻伤害提高10%"
+  },
+  {
+    "id": 12601529,
+    "idCN": "传单地点标签/岚心城/901街",
+    "mod": "传单地点",
+    "isInformalData": false,
+    "icon": "",
+    "leafletPlace": "901街"
+  },
+  {
+    "id": 12601530,
+    "idCN": "传单地点标签/岚心城/金穗拉面店",
+    "mod": "传单地点",
+    "isInformalData": false,
+    "icon": "",
+    "leafletPlace": "金穗拉面店"
+  },
+  {
+    "id": 12601531,
+    "idCN": "传单地点标签/岚心城/月之家居酒屋",
+    "mod": "传单地点",
+    "isInformalData": false,
+    "icon": "",
+    "leafletPlace": "月之家居酒屋"
+  },
+  {
+    "id": 12601533,
+    "idCN": "传单地点标签/岚心城/调度中枢",
+    "mod": "传单地点",
+    "isInformalData": false,
+    "icon": "",
+    "leafletPlace": "调度中枢"
+  },
+  {
+    "id": 12601534,
+    "idCN": "传单地点标签/岚心城/岚心阁",
+    "mod": "传单地点",
+    "isInformalData": false,
+    "icon": "",
+    "leafletPlace": "岚心阁"
+  },
+  {
+    "id": 12601535,
+    "idCN": "传单地点标签/岚心城/黑月匠造",
+    "mod": "传单地点",
+    "isInformalData": false,
+    "icon": "",
+    "leafletPlace": "黑月匠造"
+  },
+  {
+    "id": 12601532,
+    "idCN": "传单地点标签/栖羽站/2观鸟公园",
+    "mod": "传单地点",
+    "isInformalData": false,
+    "icon": "",
+    "leafletPlace": "观鸟公园"
+  },
+  {
+    "id": 12601536,
+    "idCN": "传单地点标签/栖羽站/3服装加工厂",
+    "mod": "传单地点",
+    "isInformalData": false,
+    "icon": "",
+    "leafletPlace": "服装加工厂"
+  },
+  {
+    "id": 12601537,
+    "idCN": "传单地点标签/栖羽站/4禽类养殖厂",
+    "mod": "传单地点",
+    "isInformalData": false,
+    "icon": "",
+    "leafletPlace": "禽类养殖厂"
+  },
+  {
+    "id": 12601538,
+    "idCN": "传单地点标签/栖羽站/1货物装卸区",
+    "mod": "传单地点",
+    "isInformalData": false,
+    "icon": "",
+    "leafletPlace": "货物装卸区"
   }
 ]
