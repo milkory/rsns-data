@@ -32871,8 +32871,8 @@
     "name": "",
     "iconPath": "",
     "attriDetialList": [],
-    "tempdescription": "使用【弃牌】指令弃牌时，从弃牌区回收1张牌加入手牌",
-    "description": "使用【弃牌】指令弃牌时，从弃牌区回收1张牌加入手牌",
+    "tempdescription": "使用【弃牌】指令时，从弃牌区回收1张牌加入手牌",
+    "description": "使用【弃牌】指令时，从弃牌区回收1张牌加入手牌",
     "levelUpDescription": "",
     "tempdetailDescription": "",
     "detailDescription": "",
@@ -32895,6 +32895,7 @@
     ],
     "attributeList": [],
     "tagId": -1,
+    "tagRemoveList": [],
     "tagFilterList": [],
     "tagFilterType": "And",
     "buffId": 10405658,
@@ -32902,7 +32903,11 @@
     "typeStr": "",
     "typeColor": "Orange",
     "CommonNum": 1.0,
-    "ExSkillList": []
+    "floatNum": 1,
+    "ExSkillList": [],
+    "specialTagList": [],
+    "partList": [],
+    "campList": []
   },
   {
     "id": 12301083,
@@ -82497,8 +82502,8 @@
     "name": "",
     "iconPath": "",
     "attriDetialList": [],
-    "tempdescription": "每次自身【隐形】时，攻击力+%s%%，可叠加",
-    "description": "每次自身<color=#7AB2FF>【隐形】</color>时，攻击力+%s%%，可叠加",
+    "tempdescription": "每次自身【隐形】时，自身攻击力+%s%%，可叠加",
+    "description": "每次自身<color=#7AB2FF>【隐形】</color>时，自身攻击力+%s%%，可叠加",
     "levelUpDescription": "",
     "tempdetailDescription": "",
     "detailDescription": "",
@@ -82547,8 +82552,8 @@
     "name": "",
     "iconPath": "",
     "attriDetialList": [],
-    "tempdescription": "每次自身【隐形】时，防御力+%s%%，可叠加",
-    "description": "每次自身<color=#7AB2FF>【隐形】</color>时，防御力+%s%%，可叠加",
+    "tempdescription": "每次自身【隐形】时，自身防御力+%s%%，可叠加",
+    "description": "每次自身<color=#7AB2FF>【隐形】</color>时，自身防御力+%s%%，可叠加",
     "levelUpDescription": "",
     "tempdetailDescription": "",
     "detailDescription": "",
@@ -87123,6 +87128,107 @@
     "tagFilterList": [],
     "tagFilterType": "And",
     "buffId": 10415047,
+    "temptypeStr": "",
+    "typeStr": "",
+    "typeColor": "Orange",
+    "CommonNum": 1.0,
+    "floatNum": 1,
+    "ExSkillList": [],
+    "specialTagList": [],
+    "partList": [],
+    "campList": []
+  },
+  {
+    "id": 12302168,
+    "idCN": "12随机词条/06弃牌/加攻",
+    "mod": "随机属性技能",
+    "isInformalData": false,
+    "name": "",
+    "iconPath": "",
+    "attriDetialList": [],
+    "tempdescription": "使用【弃牌】指令时，自身攻击力+%s%%，可叠加",
+    "description": "使用【弃牌】指令时，自身攻击力+%s%%，可叠加",
+    "levelUpDescription": "",
+    "tempdetailDescription": "",
+    "detailDescription": "",
+    "desParamList": [],
+    "skillParamList": [],
+    "attributeList": [],
+    "tagId": -1,
+    "tagRemoveList": [],
+    "tagFilterList": [],
+    "tagFilterType": "And",
+    "buffId": 10415100,
+    "maxAttrSN": 200,
+    "minAttrSN": 100,
+    "digitSN": 100,
+    "isBaseAttr": false,
+    "tagName": "A",
+    "temptypeStr": "",
+    "typeStr": "",
+    "typeColor": "Orange",
+    "CommonNum": 100.0,
+    "floatNum": 0,
+    "ExSkillList": [],
+    "specialTagList": [],
+    "partList": [
+      {
+        "name": 12600155
+      },
+      {
+        "name": 12600161
+      },
+      {
+        "name": 12600162
+      }
+    ],
+    "campList": [
+      {
+        "name": 12600031
+      }
+    ]
+  },
+  {
+    "id": 12302167,
+    "idCN": "06敌方/爬塔/通用/通用-霸体60秒",
+    "mod": "被动技能",
+    "isInformalData": false,
+    "name": "",
+    "iconPath": "",
+    "attriDetialList": [],
+    "tempdescription": "",
+    "description": "",
+    "levelUpDescription": "",
+    "tempdetailDescription": "",
+    "detailDescription": "",
+    "desParamList": [
+      {
+        "isPercent": false,
+        "param": "a"
+      }
+    ],
+    "skillParamList": [
+      {
+        "skillRateA_SN": 0,
+        "skillRateB_SN": 0,
+        "skillRateC_SN": 0,
+        "skillRateD_SN": 100,
+        "skillRateE_SN": 0,
+        "skillRateF_SN": 0,
+        "skillRateG_SN": 0,
+        "skillRateH_SN": 0,
+        "skillRateI_SN": 0,
+        "skillRateJ_SN": 0,
+        "skillRateL_SN": 0,
+        "skillRateT_SN": 0
+      }
+    ],
+    "attributeList": [],
+    "tagId": -1,
+    "tagRemoveList": [],
+    "tagFilterList": [],
+    "tagFilterType": "And",
+    "buffId": 10415097,
     "temptypeStr": "",
     "typeStr": "",
     "typeColor": "Orange",
