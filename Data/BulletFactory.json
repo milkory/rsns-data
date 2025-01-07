@@ -831,20 +831,26 @@
     "isInformalData": false,
     "bulletViewId": 11300106,
     "speedX_SN": 10000,
+    "xSpeedOffSet_SN": 0,
     "disappearEffectList": [],
+    "appearEffectList": [],
     "effectID": -1,
-    "hitSoundId": 30000282
+    "hitSoundId": 30000282,
+    "scaleTag": ""
   },
   {
     "id": 11200130,
-    "idCN": "我方/05星/伊洛娜/原版/战术导弹单发",
+    "idCN": "我方/05星/伊洛娜/原版/战术导弹",
     "mod": "追踪",
     "isInformalData": false,
     "bulletViewId": 11300038,
     "speedX_SN": 10000,
+    "xSpeedOffSet_SN": 0,
     "disappearEffectList": [],
+    "appearEffectList": [],
     "effectID": -1,
-    "hitSoundId": 30000410
+    "hitSoundId": -1,
+    "scaleTag": ""
   },
   {
     "id": 11200132,
@@ -4530,28 +4536,6 @@
     "intervalFrame": 0,
     "isDoBuffOnly": false,
     "isHitTargetOnly": false
-  },
-  {
-    "id": 11200261,
-    "idCN": "我方/05星/伊洛娜/原版/战术导弹二连第一发",
-    "mod": "追踪",
-    "isInformalData": false,
-    "bulletViewId": 11300038,
-    "speedX_SN": 10000,
-    "disappearEffectList": [],
-    "effectID": -1,
-    "hitSoundId": 30000411
-  },
-  {
-    "id": 11200262,
-    "idCN": "我方/05星/伊洛娜/原版/战术导弹二连第二发",
-    "mod": "追踪",
-    "isInformalData": false,
-    "bulletViewId": 11300038,
-    "speedX_SN": 10000,
-    "disappearEffectList": [],
-    "effectID": -1,
-    "hitSoundId": -1
   },
   {
     "id": 11200264,
@@ -14565,22 +14549,8 @@
     "isHitTargetOnly": false
   },
   {
-    "id": 11200539,
-    "idCN": "我方/05星/伊洛娜/孤独即兴/战术导弹二连第二发",
-    "mod": "追踪",
-    "isInformalData": false,
-    "bulletViewId": 11300327,
-    "speedX_SN": 10000,
-    "xSpeedOffSet_SN": 0,
-    "disappearEffectList": [],
-    "appearEffectList": [],
-    "effectID": -1,
-    "hitSoundId": -1,
-    "scaleTag": ""
-  },
-  {
     "id": 11200542,
-    "idCN": "我方/05星/伊洛娜/孤独即兴/战术导弹单发",
+    "idCN": "我方/05星/伊洛娜/孤独即兴/战术导弹",
     "mod": "追踪",
     "isInformalData": false,
     "bulletViewId": 11300327,
@@ -14590,20 +14560,6 @@
     "appearEffectList": [],
     "effectID": -1,
     "hitSoundId": 30000410,
-    "scaleTag": ""
-  },
-  {
-    "id": 11200543,
-    "idCN": "我方/05星/伊洛娜/孤独即兴/战术导弹二连第一发",
-    "mod": "追踪",
-    "isInformalData": false,
-    "bulletViewId": 11300327,
-    "speedX_SN": 10000,
-    "xSpeedOffSet_SN": 0,
-    "disappearEffectList": [],
-    "appearEffectList": [],
-    "effectID": -1,
-    "hitSoundId": 30000411,
     "scaleTag": ""
   },
   {
@@ -16830,5 +16786,52 @@
     "intervalFrame": 0,
     "isDoBuffOnly": false,
     "isHitTargetOnly": false
+  },
+  {
+    "id": 11200610,
+    "idCN": "我方/05星/伊洛娜/原版/战术导弹1发_延迟",
+    "mod": "镭射",
+    "isInformalData": false,
+    "bulletViewId": 11300008,
+    "speedX_SN": 120000,
+    "xSpeedOffSet_SN": 0,
+    "disappearEffectList": [],
+    "appearEffectList": [],
+    "effectID": -1,
+    "hitSoundId": 30000410,
+    "scaleTag": "",
+    "hitEffect": -1,
+    "totalFrame": 61,
+    "dontBindOwner": true,
+    "hitFrameList": [
+      {
+        "hitFrame": 60
+      }
+    ]
+  },
+  {
+    "id": 11200611,
+    "idCN": "我方/05星/伊洛娜/原版/战术导弹2发_延迟",
+    "mod": "镭射",
+    "isInformalData": false,
+    "bulletViewId": 11300008,
+    "speedX_SN": 120000,
+    "xSpeedOffSet_SN": 0,
+    "disappearEffectList": [],
+    "appearEffectList": [],
+    "effectID": -1,
+    "hitSoundId": 30000411,
+    "scaleTag": "",
+    "hitEffect": -1,
+    "totalFrame": 70,
+    "dontBindOwner": true,
+    "hitFrameList": [
+      {
+        "hitFrame": 60
+      },
+      {
+        "hitFrame": 69
+      }
+    ]
   }
 ]

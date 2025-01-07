@@ -18422,19 +18422,19 @@
       },
       {
         "actionId": 10103338,
-        "activeFrame": 740,
+        "activeFrame": 780,
         "activeTime": 1.0,
         "rangeSN": 240000
       },
       {
         "actionId": 10103338,
-        "activeFrame": 1250,
+        "activeFrame": 1260,
         "activeTime": 1.0,
         "rangeSN": 240000
       },
       {
         "actionId": 10103337,
-        "activeFrame": 1640,
+        "activeFrame": 1680,
         "activeTime": 1.0,
         "rangeSN": 240000
       }
@@ -18445,7 +18445,7 @@
         "actionId": 10103341
       }
     ],
-    "skillLoopDelayFrame": 20,
+    "skillLoopDelayFrame": 60,
     "shapeShiftList": [],
     "commandList": [],
     "enemySkillList": [],
@@ -18457,7 +18457,7 @@
         "rangeSN": 240000
       }
     ],
-    "energyRestorePerFrameSN": 550,
+    "energyRestorePerFrameSN": 500,
     "isSkillDelay": false,
     "minDelay": 120,
     "maxDelay": 360
@@ -20192,7 +20192,7 @@
         "rangeSN": -10000
       }
     ],
-    "energyRestorePerFrameSN": 360,
+    "energyRestorePerFrameSN": 333,
     "isSkillDelay": false,
     "minDelay": 120,
     "maxDelay": 360
@@ -22002,6 +22002,72 @@
     "energySkillList": [],
     "energyRestorePerFrameSN": 0,
     "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300532,
+    "idCN": "我方/50召唤物/伊洛娜的战术狗",
+    "mod": "基础AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": -1,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10103787
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [],
+    "isInvisibleBeforeShowUp": true,
+    "showupSkillList": [],
+    "skillLoopDelayFrame": 0,
+    "shapeShiftList": [],
+    "commandList": [
+      {
+        "actionID": 10103763
+      },
+      {
+        "actionID": 10100493
+      },
+      {
+        "actionID": 10103786
+      }
+    ],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300533,
+    "idCN": "敌方/02桦树/冥灯/不知火烛",
+    "mod": "基础AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10103798
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [],
+    "skillLoopDelayFrame": 540,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 900,
+    "isSkillDelay": true,
     "minDelay": 120,
     "maxDelay": 360
   }
