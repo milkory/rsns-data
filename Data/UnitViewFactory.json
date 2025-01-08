@@ -38101,10 +38101,12 @@
         "changeBulletId": 11200544
       }
     ],
+    "exchangeSoundList": [],
+    "exchangeRolePathList": [],
     "character": 10000372,
     "SkinName": "回魂夜",
     "quality": "Golden",
-    "ownExclusiveVoice": false,
+    "ownExclusiveVoice": true,
     "isSpine2": 1,
     "SkinDesc": "安菲娅的生灵节变装。无需他人陪衬，魔女一个人即是一支狂欢的队列——当然，魔女的使仆荣列其中。",
     "HomeresDir": "Home/Character/Dorm_Anfiya_Skin_Halloween/Dorm_Anfiya_Skin_Halloween_SkeletonData",
@@ -38174,7 +38176,8 @@
     "bookFull": "",
     "bookX": 0.0,
     "bookY": 0.0,
-    "homeSkill": 83900197
+    "homeSkill": 83900197,
+    "SpineIdleListId": -1
   },
   {
     "id": 11000440,
@@ -40816,10 +40819,12 @@
         "changeBulletId": 11200553
       }
     ],
+    "exchangeSoundList": [],
+    "exchangeRolePathList": [],
     "character": 10000031,
     "SkinName": "安眠与飨宴",
     "quality": "Golden",
-    "ownExclusiveVoice": false,
+    "ownExclusiveVoice": true,
     "isSpine2": 1,
     "SkinDesc": "约书亚的生灵节装扮。当祂沉眠之时，常有过往景象浮现。记忆如花朵次第盛放，随后凋零。",
     "HomeresDir": "Home/Character/Dorm_Joshua_Skin_Halloween/Dorm_Joshua_Skin_Halloween_SkeletonData",
@@ -40889,7 +40894,8 @@
     "bookFull": "",
     "bookX": 0.0,
     "bookY": 0.0,
-    "homeSkill": 83900199
+    "homeSkill": 83900199,
+    "SpineIdleListId": -1
   },
   {
     "id": 11000449,
@@ -42345,7 +42351,7 @@
     "character": 10000298,
     "SkinName": "STELLA! 闪耀之路",
     "quality": "Golden",
-    "ownExclusiveVoice": false,
+    "ownExclusiveVoice": true,
     "isSpine2": 1,
     "SkinDesc": "大热偶像STELLA的新专《闪耀之路 ~Shining Way~》发售中！购买即赠特典海报！",
     "HomeresDir": "Home/Character/Dorm_Stella_Skin_Star/Dorm_Stella_Skin_Star_SkeletonData",
@@ -42415,7 +42421,8 @@
     "bookFull": "",
     "bookX": 0.0,
     "bookY": 0.0,
-    "homeSkill": 83900200
+    "homeSkill": 83900200,
+    "SpineIdleListId": -1
   },
   {
     "id": 11000464,
@@ -44656,7 +44663,7 @@
     "character": 10000632,
     "SkinName": "旧书签",
     "quality": "Golden",
-    "ownExclusiveVoice": false,
+    "ownExclusiveVoice": true,
     "isSpine2": 1,
     "SkinDesc": "罗洁尔更年轻时的形象。往昔总被封存，正如夹在书中不再使用的旧书签。",
     "HomeresDir": "Home/Character/Dorm_Raziel_Human_Skin_Reader/Dorm_Raziel_Human_Skin_Reader_SkeletonData",
@@ -44726,7 +44733,8 @@
     "bookFull": "",
     "bookX": 0.0,
     "bookY": 0.0,
-    "homeSkill": -1
+    "homeSkill": -1,
+    "SpineIdleListId": -1
   },
   {
     "id": 11000483,
@@ -48417,15 +48425,15 @@
     "SpineIdleListId": -1
   },
   {
-    "id": 11000521,
-    "idCN": "我方/50召唤物/伊洛娜的战术狗/原版",
+    "id": 11000522,
+    "idCN": "我方/50召唤物/伊洛娜的战术狗/孤独即兴",
     "mod": "Spine",
     "isInformalData": false,
     "hpBarOffsetX": 0.0,
     "hpBarOffsetY": 3.0,
     "battleTagOffsetX": 0.0,
     "battleTagOffsetY": 3.0,
-    "resDir": "Role/ilona_bot/ilona_bot_SkeletonData",
+    "resDir": "Role/ilona_Band_bot/ilona_Band_bot_SkeletonData",
     "shadowID": 11100540,
     "shadowScale": 0.5,
     "userSpecialShadow": false,
@@ -48446,8 +48454,26 @@
     "spineUrl": "",
     "clickEffectUrl": "",
     "plotResList": [],
-    "exchangeEffectList": [],
-    "exchangeBulletList": [],
+    "exchangeEffectList": [
+      {
+        "changeEffectId": 11106545,
+        "effectId": 11100485
+      },
+      {
+        "changeEffectId": 11107136,
+        "effectId": 11107135
+      },
+      {
+        "changeEffectId": 11106552,
+        "effectId": 11100469
+      }
+    ],
+    "exchangeBulletList": [
+      {
+        "bulletId": 11200130,
+        "changeBulletId": 11200542
+      }
+    ],
     "exchangeSoundList": [],
     "exchangeRolePathList": [],
     "character": -1,
@@ -48510,15 +48536,15 @@
     "SpineIdleListId": -1
   },
   {
-    "id": 11000522,
-    "idCN": "我方/50召唤物/伊洛娜的战术狗/孤独即兴",
+    "id": 11000521,
+    "idCN": "我方/50召唤物/伊洛娜的战术狗/原版",
     "mod": "Spine",
     "isInformalData": false,
     "hpBarOffsetX": 0.0,
     "hpBarOffsetY": 3.0,
     "battleTagOffsetX": 0.0,
     "battleTagOffsetY": 3.0,
-    "resDir": "Role/ilona_Band_bot/ilona_Band_bot_SkeletonData",
+    "resDir": "Role/ilona_bot/ilona_bot_SkeletonData",
     "shadowID": 11100540,
     "shadowScale": 0.5,
     "userSpecialShadow": false,
@@ -48539,26 +48565,8 @@
     "spineUrl": "",
     "clickEffectUrl": "",
     "plotResList": [],
-    "exchangeEffectList": [
-      {
-        "changeEffectId": 11106545,
-        "effectId": 11100485
-      },
-      {
-        "changeEffectId": 11107136,
-        "effectId": 11107135
-      },
-      {
-        "changeEffectId": 11106552,
-        "effectId": 11100469
-      }
-    ],
-    "exchangeBulletList": [
-      {
-        "bulletId": 11200130,
-        "changeBulletId": 11200542
-      }
-    ],
+    "exchangeEffectList": [],
+    "exchangeBulletList": [],
     "exchangeSoundList": [],
     "exchangeRolePathList": [],
     "character": -1,

@@ -19165,6 +19165,9 @@
       },
       {
         "actionID": 10103439
+      },
+      {
+        "actionID": 10103808
       }
     ],
     "enemySkillList": [],
@@ -22045,7 +22048,7 @@
   },
   {
     "id": 10300533,
-    "idCN": "敌方/02桦树/冥灯/不知火烛",
+    "idCN": "敌方/02桦树/冥灯/不知火烛/燃烧",
     "mod": "基础AI",
     "isInformalData": false,
     "targetInvisibleEffectId": 11102488,
@@ -22064,9 +22067,50 @@
     "shapeShiftList": [],
     "commandList": [],
     "enemySkillList": [],
+    "isUseEnergy": true,
+    "energySkillList": [
+      {
+        "actionId": 10103801,
+        "isClearEnergy": true,
+        "rangeSN": 160000
+      }
+    ],
+    "energyRestorePerFrameSN": 830,
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300534,
+    "idCN": "敌方/02桦树/冥灯/不知火烛/熄灭",
+    "mod": "基础AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10103797
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10103800,
+        "activeFrame": 270,
+        "activeTime": 1.0,
+        "rangeSN": 240000
+      }
+    ],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [],
+    "skillLoopDelayFrame": 600,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
     "isUseEnergy": false,
     "energySkillList": [],
-    "energyRestorePerFrameSN": 900,
+    "energyRestorePerFrameSN": 0,
     "isSkillDelay": true,
     "minDelay": 120,
     "maxDelay": 360

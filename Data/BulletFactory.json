@@ -14291,8 +14291,8 @@
   },
   {
     "id": 11200532,
-    "idCN": "我方/05星/帕拉笛/S声波",
-    "mod": "抛物线",
+    "idCN": "我方/05星/帕拉笛/B",
+    "mod": "镭射",
     "isInformalData": false,
     "bulletViewId": 11300008,
     "speedX_SN": 120000,
@@ -14302,34 +14302,18 @@
     "effectID": -1,
     "hitSoundId": -1,
     "scaleTag": "",
-    "ySpeedStart_SN": 0,
-    "ySpeedOffSet_SN": 0,
-    "isAddSpeedZ": false,
-    "durationMin": 1,
-    "isCustomRadius": false,
-    "customRadiusTag": "",
-    "damageRadius_SN": 240000,
-    "isFixedPosition": false,
-    "xOffSetStart_SN": 0,
-    "xOffSet_SN": 0,
-    "yOffSetStart_SN": 0,
-    "yOffSet_SN": 0,
-    "zOffSetStart_SN": 0,
-    "zOffSet_SN": 0,
-    "groundEffectList": [],
-    "isGroundEffectUseHitTimes": false,
-    "groundSoundId": -1,
-    "isGroundSoundUseHitTimes": false,
-    "envBuffId": -1,
-    "hitTimes": 8,
-    "hitTimesCustomTag": "",
-    "intervalFrame": 5,
-    "isDoBuffOnly": false,
-    "isHitTargetOnly": false
+    "hitEffect": -1,
+    "totalFrame": 16,
+    "dontBindOwner": true,
+    "hitFrameList": [
+      {
+        "hitFrame": 15
+      }
+    ]
   },
   {
     "id": 11200533,
-    "idCN": "我方/05星/帕拉笛/S电波",
+    "idCN": "地面/燎原-X偏移-5",
     "mod": "抛物线",
     "isInformalData": false,
     "bulletViewId": 11300008,
@@ -14340,15 +14324,15 @@
     "effectID": -1,
     "hitSoundId": -1,
     "scaleTag": "",
-    "ySpeedStart_SN": 0,
+    "ySpeedStart_SN": 1000,
     "ySpeedOffSet_SN": 0,
     "isAddSpeedZ": false,
     "durationMin": 1,
     "isCustomRadius": false,
     "customRadiusTag": "",
-    "damageRadius_SN": 240000,
+    "damageRadius_SN": 60000,
     "isFixedPosition": false,
-    "xOffSetStart_SN": 0,
+    "xOffSetStart_SN": -50000,
     "xOffSet_SN": 0,
     "yOffSetStart_SN": 0,
     "yOffSet_SN": 0,
@@ -14358,10 +14342,10 @@
     "isGroundEffectUseHitTimes": false,
     "groundSoundId": -1,
     "isGroundSoundUseHitTimes": false,
-    "envBuffId": -1,
-    "hitTimes": 8,
+    "envBuffId": 10401928,
+    "hitTimes": 1,
     "hitTimesCustomTag": "",
-    "intervalFrame": 5,
+    "intervalFrame": 1,
     "isDoBuffOnly": false,
     "isHitTargetOnly": false
   },
@@ -16831,6 +16815,244 @@
       },
       {
         "hitFrame": 69
+      }
+    ]
+  },
+  {
+    "id": 11200261,
+    "idCN": "敌方/02桦树/冥灯/不知火烛/普攻2子弹",
+    "mod": "抛物线",
+    "isInformalData": false,
+    "bulletViewId": 11300008,
+    "speedX_SN": 6000,
+    "xSpeedOffSet_SN": 0,
+    "disappearEffectList": [],
+    "appearEffectList": [],
+    "effectID": 11107139,
+    "hitSoundId": -1,
+    "scaleTag": "",
+    "ySpeedStart_SN": 1000,
+    "ySpeedOffSet_SN": 0,
+    "isAddSpeedZ": false,
+    "durationMin": 30,
+    "isCustomRadius": false,
+    "customRadiusTag": "",
+    "damageRadius_SN": 0,
+    "isFixedPosition": false,
+    "xOffSetStart_SN": 2000,
+    "xOffSet_SN": -4000,
+    "yOffSetStart_SN": 15000,
+    "yOffSet_SN": -5000,
+    "zOffSetStart_SN": 0,
+    "zOffSet_SN": 0,
+    "groundEffectList": [],
+    "isGroundEffectUseHitTimes": false,
+    "groundSoundId": -1,
+    "isGroundSoundUseHitTimes": false,
+    "envBuffId": -1,
+    "hitTimes": 1,
+    "hitTimesCustomTag": "",
+    "intervalFrame": 0,
+    "isDoBuffOnly": false,
+    "isHitTargetOnly": true
+  },
+  {
+    "id": 11200262,
+    "idCN": "敌方/02桦树/冥灯/不知火烛/普攻2子弹2",
+    "mod": "抛物线",
+    "isInformalData": false,
+    "bulletViewId": 11300008,
+    "speedX_SN": 6000,
+    "xSpeedOffSet_SN": 0,
+    "disappearEffectList": [],
+    "appearEffectList": [],
+    "effectID": 11107139,
+    "hitSoundId": -1,
+    "scaleTag": "",
+    "ySpeedStart_SN": 1000,
+    "ySpeedOffSet_SN": -3000,
+    "isAddSpeedZ": false,
+    "durationMin": 30,
+    "isCustomRadius": false,
+    "customRadiusTag": "",
+    "damageRadius_SN": 0,
+    "isFixedPosition": false,
+    "xOffSetStart_SN": 2000,
+    "xOffSet_SN": -4000,
+    "yOffSetStart_SN": 15000,
+    "yOffSet_SN": -5000,
+    "zOffSetStart_SN": 0,
+    "zOffSet_SN": 0,
+    "groundEffectList": [],
+    "isGroundEffectUseHitTimes": false,
+    "groundSoundId": -1,
+    "isGroundSoundUseHitTimes": false,
+    "envBuffId": -1,
+    "hitTimes": 1,
+    "hitTimesCustomTag": "",
+    "intervalFrame": 0,
+    "isDoBuffOnly": false,
+    "isHitTargetOnly": true
+  },
+  {
+    "id": 11200539,
+    "idCN": "敌方/02桦树/冥灯/不知火烛/技能1子弹",
+    "mod": "抛物线",
+    "isInformalData": false,
+    "bulletViewId": 11300008,
+    "speedX_SN": 8000,
+    "xSpeedOffSet_SN": 0,
+    "disappearEffectList": [],
+    "appearEffectList": [],
+    "effectID": 11107141,
+    "hitSoundId": -1,
+    "scaleTag": "",
+    "ySpeedStart_SN": 2000,
+    "ySpeedOffSet_SN": 0,
+    "isAddSpeedZ": false,
+    "durationMin": 30,
+    "isCustomRadius": false,
+    "customRadiusTag": "",
+    "damageRadius_SN": 0,
+    "isFixedPosition": false,
+    "xOffSetStart_SN": 2000,
+    "xOffSet_SN": -4000,
+    "yOffSetStart_SN": 15000,
+    "yOffSet_SN": -5000,
+    "zOffSetStart_SN": 0,
+    "zOffSet_SN": 0,
+    "groundEffectList": [],
+    "isGroundEffectUseHitTimes": false,
+    "groundSoundId": -1,
+    "isGroundSoundUseHitTimes": false,
+    "envBuffId": -1,
+    "hitTimes": 1,
+    "hitTimesCustomTag": "",
+    "intervalFrame": 0,
+    "isDoBuffOnly": false,
+    "isHitTargetOnly": true
+  },
+  {
+    "id": 11200543,
+    "idCN": "敌方/02桦树/冥灯/不知火烛/技能2子弹",
+    "mod": "直线飞行",
+    "isInformalData": false,
+    "bulletViewId": 11300008,
+    "speedX_SN": 3200,
+    "xSpeedOffSet_SN": 0,
+    "disappearEffectList": [],
+    "appearEffectList": [],
+    "effectID": 11107143,
+    "hitSoundId": -1,
+    "scaleTag": "",
+    "speedY_SN": 0,
+    "durationFrame": 120
+  },
+  {
+    "id": 11200613,
+    "idCN": "我方/05星/帕拉笛/S电波",
+    "mod": "镭射",
+    "isInformalData": false,
+    "bulletViewId": 11300008,
+    "speedX_SN": 120000,
+    "xSpeedOffSet_SN": 0,
+    "disappearEffectList": [],
+    "appearEffectList": [],
+    "effectID": -1,
+    "hitSoundId": -1,
+    "scaleTag": "",
+    "hitEffect": -1,
+    "totalFrame": 123,
+    "dontBindOwner": true,
+    "hitFrameList": [
+      {
+        "hitFrame": 87
+      },
+      {
+        "hitFrame": 92
+      },
+      {
+        "hitFrame": 97
+      },
+      {
+        "hitFrame": 102
+      },
+      {
+        "hitFrame": 107
+      },
+      {
+        "hitFrame": 112
+      },
+      {
+        "hitFrame": 117
+      },
+      {
+        "hitFrame": 122
+      }
+    ]
+  },
+  {
+    "id": 11200614,
+    "idCN": "我方/05星/帕拉笛/S击晕",
+    "mod": "镭射",
+    "isInformalData": false,
+    "bulletViewId": 11300008,
+    "speedX_SN": 120000,
+    "xSpeedOffSet_SN": 0,
+    "disappearEffectList": [],
+    "appearEffectList": [],
+    "effectID": -1,
+    "hitSoundId": -1,
+    "scaleTag": "",
+    "hitEffect": -1,
+    "totalFrame": 19,
+    "dontBindOwner": true,
+    "hitFrameList": [
+      {
+        "hitFrame": 18
+      }
+    ]
+  },
+  {
+    "id": 11200612,
+    "idCN": "我方/05星/帕拉笛/S声波",
+    "mod": "镭射",
+    "isInformalData": false,
+    "bulletViewId": 11300008,
+    "speedX_SN": 120000,
+    "xSpeedOffSet_SN": 0,
+    "disappearEffectList": [],
+    "appearEffectList": [],
+    "effectID": -1,
+    "hitSoundId": -1,
+    "scaleTag": "",
+    "hitEffect": -1,
+    "totalFrame": 54,
+    "dontBindOwner": true,
+    "hitFrameList": [
+      {
+        "hitFrame": 18
+      },
+      {
+        "hitFrame": 23
+      },
+      {
+        "hitFrame": 28
+      },
+      {
+        "hitFrame": 33
+      },
+      {
+        "hitFrame": 38
+      },
+      {
+        "hitFrame": 43
+      },
+      {
+        "hitFrame": 48
+      },
+      {
+        "hitFrame": 53
       }
     ]
   }
