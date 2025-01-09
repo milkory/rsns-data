@@ -83447,7 +83447,6 @@
     "name": "货运·航天半导体配给",
     "describe": "请运送65箱航天半导体至%s。",
     "story": "澄明数据中心也是咱们的固定供应点之一了，要好好送到啊！请运送65箱航天半导体至%s。",
-    "recommendLevel": 0,
     "questType": "Home",
     "questTab": "",
     "questTabDes": -1,
@@ -83475,7 +83474,6 @@
     ],
     "isSwitchUI": true,
     "switchUI": "",
-    "switchParameter": "",
     "conditionList": [],
     "num": 1,
     "islockAddProgress": false,
@@ -86500,7 +86498,6 @@
     "name": "客运·衔接天地之所2",
     "describe": "请运送10名乘客至阿妮塔能源研究所。",
     "story": "不少学生也会来阿妮塔的设施参加研学活动，真期待年轻人的未来，请运送10名乘客至阿妮塔能源研究所。",
-    "recommendLevel": 0,
     "questType": "Home",
     "questTab": "",
     "questTabDes": -1,
@@ -86521,7 +86518,6 @@
     "traceList": [],
     "isSwitchUI": true,
     "switchUI": "",
-    "switchParameter": "",
     "conditionList": [],
     "num": 1,
     "islockAddProgress": false,
@@ -102771,9 +102767,8 @@
     "mod": "基础任务",
     "isInformalData": false,
     "name": "始作俑者",
-    "describe": "清除阿妮塔战备工厂南部周边的威胁",
+    "describe": "清除阿妮塔能源研究所的威胁",
     "story": "打倒面前的一系列阻碍。",
-    "recommendLevel": 45,
     "questType": "Main",
     "questTab": "",
     "questTabDes": -1,
@@ -102785,10 +102780,10 @@
     "isAnecdote": false,
     "isFURNQuest": false,
     "client": 82600002,
-    "startStation": 83000012,
+    "startStation": 83000014,
     "endStationList": [
       {
-        "id": 83000012,
+        "id": 83000014,
         "weight": 10
       }
     ],
@@ -102796,7 +102791,6 @@
     "traceList": [],
     "isSwitchUI": false,
     "switchUI": "",
-    "switchParameter": "",
     "preQuestId": -1,
     "preLv": 1,
     "playgroundId": -1,
@@ -102871,7 +102865,9 @@
     "correspondActivity": -1,
     "returnNum": 1,
     "dontShowMain": false,
-    "IsPlotTask": false
+    "IsPlotTask": false,
+    "recommendLevel": 45,
+    "switchParameter": ""
   },
   {
     "id": 81000962,
@@ -103069,9 +103065,8 @@
     "mod": "基础任务",
     "isInformalData": false,
     "name": "真相之旅",
-    "describe": "清除阿妮塔战备工厂南部行车途中的威胁",
-    "story": "威胁已在导航地图中标记，位于阿妮塔战备工厂南部行车段，从阿妮塔战备工厂出发前往阿妮塔能源研究所的行车途中可以发现。",
-    "recommendLevel": 40,
+    "describe": "前往阿妮塔能源研究所",
+    "story": "前往阿妮塔能源研究所，探寻真相",
     "questType": "Main",
     "questTab": "",
     "questTabDes": -1,
@@ -103083,10 +103078,10 @@
     "isAnecdote": false,
     "isFURNQuest": false,
     "client": 82600293,
-    "startStation": 83000012,
+    "startStation": 83000014,
     "endStationList": [
       {
-        "id": 83000012,
+        "id": 83000014,
         "weight": 10
       }
     ],
@@ -103095,13 +103090,18 @@
       {
         "apiListId": 86500038,
         "btnListId": 86500036,
-        "traceId": 86500168,
+        "traceId": 86500029,
         "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500198,
+        "uiPath": "UI/CityMap/CityMap"
       }
     ],
     "isSwitchUI": false,
     "switchUI": "",
-    "switchParameter": "",
     "preQuestId": -1,
     "preLv": 1,
     "playgroundId": -1,
@@ -103110,15 +103110,15 @@
     "startPrisonLevel": 0,
     "conditionList": [
       {
-        "key": "paragraphId",
-        "val": "20700406"
+        "key": "dialog",
+        "val": "0"
       }
     ],
     "num": 1,
     "islockAddProgress": false,
-    "isAutoComplete": true,
+    "isAutoComplete": false,
     "checkComplete": false,
-    "isShowReceive": true,
+    "isShowReceive": false,
     "isRefreshProgress": false,
     "refreshType": "Level",
     "addProgress": 0,
@@ -103151,7 +103151,9 @@
     "correspondActivity": -1,
     "returnNum": 1,
     "dontShowMain": false,
-    "IsPlotTask": false
+    "IsPlotTask": false,
+    "recommendLevel": 40,
+    "switchParameter": ""
   },
   {
     "id": 81000965,
@@ -104231,16 +104233,20 @@
     "describe": "",
     "story": "",
     "questType": "Side",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
     "sort": 0,
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
     "isAnecdote": false,
+    "isFURNQuest": false,
     "client": -1,
-    "startStation": 83000012,
+    "startStation": 83000014,
     "endStationList": [
       {
-        "id": 83000012,
+        "id": 83000014,
         "weight": 10
       }
     ],
@@ -104249,15 +104255,24 @@
       {
         "apiListId": 86500038,
         "btnListId": 86500036,
-        "traceId": 86500118,
+        "traceId": 86500029,
         "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500201,
+        "uiPath": "UI/CityMap/CityMap"
       }
     ],
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
     "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
     "startLevel": 0,
+    "startPrisonLevel": 0,
     "conditionList": [
       {
         "key": "levelId",
@@ -104271,6 +104286,7 @@
     "isShowReceive": false,
     "isRefreshProgress": false,
     "refreshType": "Level",
+    "addProgress": 0,
     "parentQuest": 81000317,
     "childQuestList": [],
     "rewardsList": [],
@@ -104280,6 +104296,7 @@
       }
     ],
     "changeCityStateList": [],
+    "bannerList": [],
     "mailList": [],
     "isEvent": false,
     "isOverwriteEvent": false,
@@ -104288,7 +104305,10 @@
     "isTime": false,
     "startTime": "",
     "endTime": "",
-    "correspondActivity": -1
+    "correspondActivity": -1,
+    "returnNum": 1,
+    "dontShowMain": false,
+    "IsPlotTask": false
   },
   {
     "id": 81001002,
@@ -104299,16 +104319,20 @@
     "describe": "",
     "story": "",
     "questType": "Side",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
     "sort": 0,
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
     "isAnecdote": false,
+    "isFURNQuest": false,
     "client": -1,
-    "startStation": 83000012,
+    "startStation": 83000014,
     "endStationList": [
       {
-        "id": 83000012,
+        "id": 83000014,
         "weight": 10
       }
     ],
@@ -104317,15 +104341,24 @@
       {
         "apiListId": 86500038,
         "btnListId": 86500036,
-        "traceId": 86500118,
+        "traceId": 86500029,
         "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500201,
+        "uiPath": "UI/CityMap/CityMap"
       }
     ],
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
     "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
     "startLevel": 0,
+    "startPrisonLevel": 0,
     "conditionList": [
       {
         "key": "levelId",
@@ -104339,6 +104372,7 @@
     "isShowReceive": false,
     "isRefreshProgress": false,
     "refreshType": "Level",
+    "addProgress": 0,
     "parentQuest": 81000317,
     "childQuestList": [],
     "rewardsList": [],
@@ -104348,6 +104382,7 @@
       }
     ],
     "changeCityStateList": [],
+    "bannerList": [],
     "mailList": [],
     "isEvent": false,
     "isOverwriteEvent": false,
@@ -104356,7 +104391,10 @@
     "isTime": false,
     "startTime": "",
     "endTime": "",
-    "correspondActivity": -1
+    "correspondActivity": -1,
+    "returnNum": 1,
+    "dontShowMain": false,
+    "IsPlotTask": false
   },
   {
     "id": 81001003,
@@ -104367,16 +104405,20 @@
     "describe": "",
     "story": "",
     "questType": "Side",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
     "sort": 0,
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
     "isAnecdote": false,
+    "isFURNQuest": false,
     "client": -1,
-    "startStation": 83000012,
+    "startStation": 83000014,
     "endStationList": [
       {
-        "id": 83000012,
+        "id": 83000014,
         "weight": 10
       }
     ],
@@ -104385,15 +104427,24 @@
       {
         "apiListId": 86500038,
         "btnListId": 86500036,
-        "traceId": 86500118,
+        "traceId": 86500029,
         "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500201,
+        "uiPath": "UI/CityMap/CityMap"
       }
     ],
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
     "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
     "startLevel": 0,
+    "startPrisonLevel": 0,
     "conditionList": [
       {
         "key": "levelId",
@@ -104407,6 +104458,7 @@
     "isShowReceive": false,
     "isRefreshProgress": false,
     "refreshType": "Level",
+    "addProgress": 0,
     "parentQuest": 81000317,
     "childQuestList": [],
     "rewardsList": [],
@@ -104416,6 +104468,7 @@
       }
     ],
     "changeCityStateList": [],
+    "bannerList": [],
     "mailList": [],
     "isEvent": false,
     "isOverwriteEvent": false,
@@ -104424,7 +104477,10 @@
     "isTime": false,
     "startTime": "",
     "endTime": "",
-    "correspondActivity": -1
+    "correspondActivity": -1,
+    "returnNum": 1,
+    "dontShowMain": false,
+    "IsPlotTask": false
   },
   {
     "id": 81001004,
@@ -104435,16 +104491,20 @@
     "describe": "",
     "story": "",
     "questType": "Side",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
     "sort": 0,
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
     "isAnecdote": false,
+    "isFURNQuest": false,
     "client": -1,
-    "startStation": 83000012,
+    "startStation": 83000014,
     "endStationList": [
       {
-        "id": 83000012,
+        "id": 83000014,
         "weight": 10
       }
     ],
@@ -104453,15 +104513,24 @@
       {
         "apiListId": 86500038,
         "btnListId": 86500036,
-        "traceId": 86500118,
+        "traceId": 86500029,
         "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500201,
+        "uiPath": "UI/CityMap/CityMap"
       }
     ],
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
     "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
     "startLevel": 0,
+    "startPrisonLevel": 0,
     "conditionList": [
       {
         "key": "levelId",
@@ -104475,6 +104544,7 @@
     "isShowReceive": false,
     "isRefreshProgress": false,
     "refreshType": "Level",
+    "addProgress": 0,
     "parentQuest": 81000317,
     "childQuestList": [],
     "rewardsList": [],
@@ -104484,6 +104554,7 @@
       }
     ],
     "changeCityStateList": [],
+    "bannerList": [],
     "mailList": [],
     "isEvent": false,
     "isOverwriteEvent": false,
@@ -104492,7 +104563,10 @@
     "isTime": false,
     "startTime": "",
     "endTime": "",
-    "correspondActivity": -1
+    "correspondActivity": -1,
+    "returnNum": 1,
+    "dontShowMain": false,
+    "IsPlotTask": false
   },
   {
     "id": 81001005,
@@ -104503,16 +104577,20 @@
     "describe": "",
     "story": "",
     "questType": "Side",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
     "sort": 0,
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
     "isAnecdote": false,
+    "isFURNQuest": false,
     "client": -1,
-    "startStation": 83000012,
+    "startStation": 83000014,
     "endStationList": [
       {
-        "id": 83000012,
+        "id": 83000014,
         "weight": 10
       }
     ],
@@ -104521,15 +104599,24 @@
       {
         "apiListId": 86500038,
         "btnListId": 86500036,
-        "traceId": 86500118,
+        "traceId": 86500029,
         "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500201,
+        "uiPath": "UI/CityMap/CityMap"
       }
     ],
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
     "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
     "startLevel": 0,
+    "startPrisonLevel": 0,
     "conditionList": [
       {
         "key": "levelId",
@@ -104543,6 +104630,7 @@
     "isShowReceive": false,
     "isRefreshProgress": false,
     "refreshType": "Level",
+    "addProgress": 0,
     "parentQuest": 81000317,
     "childQuestList": [],
     "rewardsList": [],
@@ -104552,6 +104640,7 @@
       }
     ],
     "changeCityStateList": [],
+    "bannerList": [],
     "mailList": [],
     "isEvent": false,
     "isOverwriteEvent": false,
@@ -104560,7 +104649,10 @@
     "isTime": false,
     "startTime": "",
     "endTime": "",
-    "correspondActivity": -1
+    "correspondActivity": -1,
+    "returnNum": 1,
+    "dontShowMain": false,
+    "IsPlotTask": false
   },
   {
     "id": 81001006,
@@ -104571,16 +104663,20 @@
     "describe": "",
     "story": "",
     "questType": "Side",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
     "sort": 0,
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
     "isAnecdote": false,
+    "isFURNQuest": false,
     "client": -1,
-    "startStation": 83000012,
+    "startStation": 83000014,
     "endStationList": [
       {
-        "id": 83000012,
+        "id": 83000014,
         "weight": 10
       }
     ],
@@ -104589,15 +104685,24 @@
       {
         "apiListId": 86500038,
         "btnListId": 86500036,
-        "traceId": 86500118,
+        "traceId": 86500029,
         "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500201,
+        "uiPath": "UI/CityMap/CityMap"
       }
     ],
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
     "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
     "startLevel": 0,
+    "startPrisonLevel": 0,
     "conditionList": [
       {
         "key": "levelId",
@@ -104611,6 +104716,7 @@
     "isShowReceive": false,
     "isRefreshProgress": false,
     "refreshType": "Level",
+    "addProgress": 0,
     "parentQuest": 81000317,
     "childQuestList": [],
     "rewardsList": [],
@@ -104620,6 +104726,7 @@
       }
     ],
     "changeCityStateList": [],
+    "bannerList": [],
     "mailList": [],
     "isEvent": false,
     "isOverwriteEvent": false,
@@ -104628,7 +104735,10 @@
     "isTime": false,
     "startTime": "",
     "endTime": "",
-    "correspondActivity": -1
+    "correspondActivity": -1,
+    "returnNum": 1,
+    "dontShowMain": false,
+    "IsPlotTask": false
   },
   {
     "id": 81001007,
@@ -104639,16 +104749,20 @@
     "describe": "",
     "story": "",
     "questType": "Side",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
     "sort": 0,
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
     "isAnecdote": false,
+    "isFURNQuest": false,
     "client": -1,
-    "startStation": 83000012,
+    "startStation": 83000014,
     "endStationList": [
       {
-        "id": 83000012,
+        "id": 83000014,
         "weight": 10
       }
     ],
@@ -104657,15 +104771,24 @@
       {
         "apiListId": 86500038,
         "btnListId": 86500036,
-        "traceId": 86500118,
+        "traceId": 86500029,
         "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500201,
+        "uiPath": "UI/CityMap/CityMap"
       }
     ],
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
     "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
     "startLevel": 0,
+    "startPrisonLevel": 0,
     "conditionList": [
       {
         "key": "levelId",
@@ -104679,6 +104802,7 @@
     "isShowReceive": false,
     "isRefreshProgress": false,
     "refreshType": "Level",
+    "addProgress": 0,
     "parentQuest": 81000317,
     "childQuestList": [],
     "rewardsList": [],
@@ -104688,6 +104812,7 @@
       }
     ],
     "changeCityStateList": [],
+    "bannerList": [],
     "mailList": [],
     "isEvent": false,
     "isOverwriteEvent": false,
@@ -104696,7 +104821,10 @@
     "isTime": false,
     "startTime": "",
     "endTime": "",
-    "correspondActivity": -1
+    "correspondActivity": -1,
+    "returnNum": 1,
+    "dontShowMain": false,
+    "IsPlotTask": false
   },
   {
     "id": 81001008,
@@ -104707,16 +104835,20 @@
     "describe": "",
     "story": "",
     "questType": "Side",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
     "sort": 0,
     "isShowProgress": false,
     "isShowUnlock": false,
     "isShowAchieveProgress": false,
     "isAnecdote": false,
+    "isFURNQuest": false,
     "client": -1,
-    "startStation": 83000012,
+    "startStation": 83000014,
     "endStationList": [
       {
-        "id": 83000012,
+        "id": 83000014,
         "weight": 10
       }
     ],
@@ -104725,15 +104857,24 @@
       {
         "apiListId": 86500038,
         "btnListId": 86500036,
-        "traceId": 86500118,
+        "traceId": 86500029,
         "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500201,
+        "uiPath": "UI/CityMap/CityMap"
       }
     ],
     "isSwitchUI": false,
     "switchUI": "",
     "preQuestId": -1,
     "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
     "startLevel": 0,
+    "startPrisonLevel": 0,
     "conditionList": [
       {
         "key": "levelId",
@@ -104747,11 +104888,13 @@
     "isShowReceive": false,
     "isRefreshProgress": false,
     "refreshType": "Level",
+    "addProgress": 0,
     "parentQuest": 81000317,
     "childQuestList": [],
     "rewardsList": [],
     "nextQuest": [],
     "changeCityStateList": [],
+    "bannerList": [],
     "mailList": [],
     "isEvent": false,
     "isOverwriteEvent": false,
@@ -104760,7 +104903,10 @@
     "isTime": false,
     "startTime": "",
     "endTime": "",
-    "correspondActivity": -1
+    "correspondActivity": -1,
+    "returnNum": 1,
+    "dontShowMain": false,
+    "IsPlotTask": false
   },
   {
     "id": 81001009,
@@ -176025,5 +176171,102 @@
     "returnNum": 1,
     "dontShowMain": false,
     "IsPlotTask": false
+  },
+  {
+    "id": 81002262,
+    "idCN": "主线/EP7/7-2对话-前往海角城完成治安协力",
+    "mod": "基础任务",
+    "isInformalData": false,
+    "name": "前往海角城完成治安协力",
+    "describe": "",
+    "story": "",
+    "questType": "Main",
+    "questTab": "",
+    "questTabDes": -1,
+    "completeTab": "",
+    "sort": 0,
+    "isShowProgress": false,
+    "isShowUnlock": false,
+    "isShowAchieveProgress": false,
+    "isAnecdote": false,
+    "isFURNQuest": false,
+    "client": 82600002,
+    "startStation": 83000002,
+    "endStationList": [
+      {
+        "id": 83000002,
+        "weight": 10
+      }
+    ],
+    "isAutoTrace": false,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500176,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
+    "isSwitchUI": false,
+    "switchUI": "",
+    "preQuestId": -1,
+    "preLv": 1,
+    "playgroundId": -1,
+    "playgroundLv": 0,
+    "startLevel": 0,
+    "startPrisonLevel": 0,
+    "conditionList": [
+      {
+        "key": "dialog",
+        "val": "0"
+      }
+    ],
+    "num": 1,
+    "islockAddProgress": false,
+    "isAutoComplete": false,
+    "checkComplete": false,
+    "isShowReceive": false,
+    "isRefreshProgress": false,
+    "refreshType": "Level",
+    "addProgress": 0,
+    "parentQuest": -1,
+    "childQuestList": [],
+    "rewardsList": [
+      {
+        "id": 11400067,
+        "num": 1
+      },
+      {
+        "id": 11400071,
+        "num": 1
+      }
+    ],
+    "nextQuest": [
+      {
+        "id": 81001529
+      }
+    ],
+    "changeCityStateList": [],
+    "bannerList": [],
+    "mailList": [],
+    "isEvent": false,
+    "isOverwriteEvent": false,
+    "eventList": [],
+    "environmentList": [],
+    "isTime": false,
+    "startTime": "",
+    "endTime": "",
+    "correspondActivity": -1,
+    "returnNum": 1,
+    "dontShowMain": false,
+    "IsPlotTask": false,
+    "recommendLevel": 0,
+    "switchParameter": ""
   }
 ]
