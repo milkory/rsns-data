@@ -32782,7 +32782,7 @@
   },
   {
     "id": 10502632,
-    "idCN": "敌方/000角色/学会/雷比斯/A-1循环判断",
+    "idCN": "敌方/000角色/学会/雷比斯/A-1循环判定",
     "mod": "给自己上BUFF",
     "isInformalData": false,
     "buffId": 10415086
@@ -33117,24 +33117,26 @@
   },
   {
     "id": 10502807,
-    "idCN": "敌方/000角色/学会/雷比斯/B判断",
+    "idCN": "敌方/000角色/学会/雷比斯/B判定",
     "mod": "给自己上BUFF",
     "isInformalData": false,
-    "buffId": 10415086
+    "buffId": 10415158
   },
   {
     "id": 10502808,
     "idCN": "敌方/000角色/学会/雷比斯/B伤害帧事件",
-    "mod": "给自己上BUFF",
+    "mod": "攻击事件",
     "isInformalData": false,
-    "buffId": 10415086
+    "buffId": 10415193,
+    "hitSoundID": -1
   },
   {
     "id": 10502809,
     "idCN": "敌方/000角色/学会/雷比斯/B减攻帧事件",
-    "mod": "给自己上BUFF",
+    "mod": "攻击事件",
     "isInformalData": false,
-    "buffId": 10415086
+    "buffId": 10415194,
+    "hitSoundID": -1
   },
   {
     "id": 10502802,
@@ -33251,5 +33253,21 @@
     "filterPosition": "DefaultPos",
     "isAimSelf": false,
     "targetCount": 0
+  },
+  {
+    "id": 10502811,
+    "idCN": "敌方/99化物/嚎虎箱/技能1汇聚",
+    "mod": "添加Buff",
+    "isInformalData": false,
+    "buffId": 10415199,
+    "targetType": "OneEach"
+  },
+  {
+    "id": 10502812,
+    "idCN": "我方/05五星/乌刹娜/普攻",
+    "mod": "添加Buff",
+    "isInformalData": false,
+    "buffId": 10415201,
+    "targetType": "CurrentTarget"
   }
 ]
