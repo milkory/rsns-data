@@ -242,7 +242,7 @@
       {
         "id": 80305469,
         "isRedPoint": false,
-        "name": "赴命奖章",
+        "name": "赴命商店",
         "pngNotSelect": "UI/Store/fuming",
         "pngSelect": "UI/Store/Select_fuming"
       }
@@ -16831,6 +16831,13 @@
         "prefab": "UI/MainUI/PassageTrafficRank"
       },
       {
+        "funcId": 108,
+        "icon": "UI/MainUI/main_icon_build",
+        "name": "列车",
+        "param": "",
+        "prefab": "UI/Trainfactory/HomeCarriageeditor_splited/HomeCarriageeditor"
+      },
+      {
         "funcId": 113,
         "icon": "UI/MainUI/main_icon_achievement",
         "name": "成就",
@@ -17398,16 +17405,6 @@
         "iconPath": "",
         "isShow": false,
         "name": "游戏Wiki",
-        "playerLevel": 0,
-        "quest": -1,
-        "tips": -1
-      },
-      {
-        "funcId": 132,
-        "guideId": 0,
-        "iconPath": "UI/MainUI/main_icon_build",
-        "isShow": false,
-        "name": "列车",
         "playerLevel": 0,
         "quest": -1,
         "tips": -1
@@ -22710,31 +22707,73 @@
     "nameEN": "ADConfig",
     "adList": [
       {
-        "adPath": "UI/Store/Store_big_skin03",
-        "lv": 2,
-        "param": "{\"index\":4,\"subIndex\":82100274,\"storeId\":40300078}",
-        "questId": -1,
-        "uiPath": "UI/Store/Store"
-      },
-      {
-        "adPath": "UI/Store/Store_big_skin02",
+        "adPath": "UI/AD/Jalhay",
         "lv": 1,
-        "param": "{\"index\":4,\"subIndex\":82100274,\"storeId\":40300078}",
-        "questId": 81000650,
-        "uiPath": "UI/Store/Store"
-      },
-      {
-        "adPath": "UI/Store/Store_big_skin07",
-        "lv": 1,
-        "param": "{\"index\":4,\"subIndex\":82100274,\"storeId\":40300078}",
-        "questId": 81001319,
-        "uiPath": "UI/Store/Store"
-      },
-      {
-        "adPath": "UI/Store/Store_big_skin01",
-        "lv": 1,
-        "param": "{\"poolId\":80500035}",
+        "param": "{\"poolId\":80500129}",
         "questId": 81001149,
+        "uiPath": "UI/Gacha/GachaNew"
+      },
+      {
+        "adPath": "UI/AD/Jalhay",
+        "lv": 1,
+        "param": "{\"poolId\":80500123}",
+        "questId": 81001139,
+        "uiPath": "UI/Gacha/GachaNew"
+      },
+      {
+        "adPath": "UI/AD/Jalhay",
+        "lv": 1,
+        "param": "{\"poolId\":80500124}",
+        "questId": 81001208,
+        "uiPath": "UI/Gacha/GachaNew"
+      },
+      {
+        "adPath": "UI/AD/Jalhay",
+        "lv": 1,
+        "param": "{\"poolId\":80500126}",
+        "questId": 81000316,
+        "uiPath": "UI/Gacha/GachaNew"
+      },
+      {
+        "adPath": "UI/AD/Jalhay",
+        "lv": 1,
+        "param": "{\"poolId\":80500127}",
+        "questId": 81000317,
+        "uiPath": "UI/Gacha/GachaNew"
+      },
+      {
+        "adPath": "UI/AD/Jalhay",
+        "lv": 1,
+        "param": "{\"poolId\":80500128}",
+        "questId": 81001998,
+        "uiPath": "UI/Gacha/GachaNew"
+      },
+      {
+        "adPath": "UI/AD/Jalhay",
+        "lv": 1,
+        "param": "{\"poolId\":80500122}",
+        "questId": 81000608,
+        "uiPath": "UI/Gacha/GachaNew"
+      },
+      {
+        "adPath": "UI/AD/Jalhay",
+        "lv": 1,
+        "param": "{\"poolId\":80500190}",
+        "questId": 81002143,
+        "uiPath": "UI/Gacha/GachaNew"
+      },
+      {
+        "adPath": "UI/AD/Jalhay",
+        "lv": 1,
+        "param": "{\"poolId\":80500192}",
+        "questId": 81000209,
+        "uiPath": "UI/Gacha/GachaNew"
+      },
+      {
+        "adPath": "UI/AD/Jalhay",
+        "lv": 1,
+        "param": "{\"poolId\":80500045}",
+        "questId": 81001319,
         "uiPath": "UI/Gacha/GachaNew"
       }
     ]
@@ -25093,6 +25132,12 @@
       },
       {
         "id": 80500127
+      },
+      {
+        "id": 80500005
+      },
+      {
+        "id": 80500028
       },
       {
         "id": 80500007
