@@ -14765,5 +14765,40 @@
     "orderType": "OpenPanel",
     "panelName": "UI/Common/OpenTips/Entrust/EntrustOpenTips",
     "params": ""
+  },
+  {
+    "id": 81100839,
+    "idCN": "通用/弹窗/禁用弹窗",
+    "mod": "广告弹窗",
+    "isInformalData": false,
+    "orderType": "AD",
+    "isBan": true
+  },
+  {
+    "id": 81100841,
+    "idCN": "通用/弹窗/开启弹窗",
+    "mod": "广告弹窗",
+    "isInformalData": false,
+    "orderType": "AD",
+    "isBan": false
+  },
+  {
+    "id": 81100843,
+    "idCN": "通用/条件跳转/等待小地图关闭",
+    "mod": "IFELSE跳转",
+    "isInformalData": false,
+    "orderType": "ConditionJumpIndex",
+    "isLoop": true,
+    "trueLabel": -1,
+    "falseLabel": -1,
+    "keyList": [
+      {
+        "compareType": "EQ",
+        "key": "IsActivated",
+        "num": 0.0,
+        "uiPath": "UI/MainUI/MainUI",
+        "val": "Group_Common.SoftMask_HomeMap.Group_MapActive"
+      }
+    ]
   }
 ]
