@@ -33305,7 +33305,7 @@
     "idCN": "我方/05五星/乌刹娜/B法界",
     "mod": "给自己上BUFF",
     "isInformalData": false,
-    "buffId": 10415252
+    "buffId": 10415442
   },
   {
     "id": 10502827,
@@ -33505,23 +33505,23 @@
     "idCN": "敌方/14学会/罗洁尔/bs_技能3麻痹",
     "mod": "攻击事件",
     "isInformalData": false,
-    "buffId": 10415229,
+    "buffId": 10415233,
     "hitSoundID": -1
   },
   {
     "id": 10502822,
     "idCN": "敌方/14学会/罗洁尔/bs_技能3印卡",
-    "mod": "攻击事件",
+    "mod": "添加Buff",
     "isInformalData": false,
     "buffId": 10415289,
-    "hitSoundID": -1
+    "targetType": "OneEach"
   },
   {
     "id": 10502823,
     "idCN": "敌方/14学会/罗洁尔/bs_技能3伤害",
     "mod": "攻击事件",
     "isInformalData": false,
-    "buffId": 10415236,
+    "buffId": 10415384,
     "hitSoundID": -1
   },
   {
@@ -33615,14 +33615,6 @@
     "targetType": "CurrentTarget"
   },
   {
-    "id": 10502837,
-    "idCN": "我方/05五星/乌刹娜/共振2A斩裂",
-    "mod": "添加Buff",
-    "isInformalData": false,
-    "buffId": 10415300,
-    "targetType": "CurrentTarget"
-  },
-  {
     "id": 10502838,
     "idCN": "我方/05五星/乌刹娜/共振2A直接伤害",
     "mod": "添加Buff",
@@ -33635,38 +33627,9 @@
     "idCN": "我方/05五星/乌刹娜/共振4裂蚀",
     "mod": "子弹事件",
     "isInformalData": false,
-    "buffId": 10415320,
+    "buffId": 10415056,
     "bulletId": 11200617,
-    "targetType": "CurrentTarget",
-    "offSetX_SN": 0,
-    "offSetZ_SN": 0,
-    "isUseTargetFilter": false,
-    "isIgnoreInvisibleEnemy": true,
-    "targetFilterType": "Ally",
-    "targetTagList": [],
-    "tagType": "And",
-    "halfWidth_SN": 0,
-    "attributeType": "HpMax",
-    "condition": "Max",
-    "numberType": "Number",
-    "number_SN": 0,
-    "buffTypeFO": -1,
-    "buffFO": -1,
-    "buffJudgeType": "Greater",
-    "buffLevel": 0,
-    "filterStance": "DeafaultStance",
-    "filterPosition": "DefaultPos",
-    "isAimSelf": false,
-    "targetCount": 0
-  },
-  {
-    "id": 10502841,
-    "idCN": "我方/05五星/乌刹娜/共振5裂蚀",
-    "mod": "子弹事件",
-    "isInformalData": false,
-    "buffId": 10415320,
-    "bulletId": 11200623,
-    "targetType": "CurrentTarget",
+    "targetType": "Random",
     "offSetX_SN": 0,
     "offSetZ_SN": 0,
     "isUseTargetFilter": false,
@@ -33690,7 +33653,7 @@
   },
   {
     "id": 10502842,
-    "idCN": "我方/05五星/乌刹娜/共振5触发",
+    "idCN": "我方/05五星/乌刹娜/觉醒2触发",
     "mod": "给自己上BUFF",
     "isInformalData": false,
     "buffId": 10415331
@@ -33701,7 +33664,7 @@
     "mod": "子弹事件",
     "isInformalData": false,
     "buffId": 10415304,
-    "bulletId": 11200141,
+    "bulletId": 11200624,
     "targetType": "Random",
     "offSetX_SN": 0,
     "offSetZ_SN": 0,
@@ -33723,5 +33686,139 @@
     "filterPosition": "DefaultPos",
     "isAimSelf": false,
     "targetCount": 99
+  },
+  {
+    "id": 10502843,
+    "idCN": "我方/05五星/伊洛娜/出场召唤bot",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10405227
+  },
+  {
+    "id": 10502844,
+    "idCN": "我方/05五星/罗洁尓_天使/普攻01",
+    "mod": "添加Buff",
+    "isInformalData": false,
+    "buffId": 10415373,
+    "targetType": "CurrentTarget"
+  },
+  {
+    "id": 10502845,
+    "idCN": "我方/05五星/罗洁尓_天使/普攻02",
+    "mod": "添加Buff",
+    "isInformalData": false,
+    "buffId": 10415393,
+    "targetType": "CurrentTarget"
+  },
+  {
+    "id": 10502849,
+    "idCN": "敌方/000角色/学会/雷比斯/S伤害帧事件",
+    "mod": "攻击事件",
+    "isInformalData": false,
+    "buffId": 10415399,
+    "hitSoundID": -1
+  },
+  {
+    "id": 10502850,
+    "idCN": "敌方/000角色/学会/雷比斯/S循环判定",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10415386
+  },
+  {
+    "id": 10502852,
+    "idCN": "敌方/000角色/学会/雷比斯/共振4S循环判定",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10415418
+  },
+  {
+    "id": 10502856,
+    "idCN": "敌方/000角色/学会/雷比斯/共振5",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10415428
+  },
+  {
+    "id": 10502848,
+    "idCN": "我方/05五星/罗洁尓_天使/B召唤",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10415402
+  },
+  {
+    "id": 10502851,
+    "idCN": "我方/05五星/罗洁尓_天使/bot攻击",
+    "mod": "攻击事件",
+    "isInformalData": false,
+    "buffId": 10415415,
+    "hitSoundID": -1
+  },
+  {
+    "id": 10502853,
+    "idCN": "我方/05五星/罗洁尓_天使/S伤害",
+    "mod": "攻击事件",
+    "isInformalData": false,
+    "buffId": 10415427,
+    "hitSoundID": -1
+  },
+  {
+    "id": 10502854,
+    "idCN": "我方/05五星/罗洁尓_天使/S弃牌",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10415431
+  },
+  {
+    "id": 10502855,
+    "idCN": "我方/05五星/罗洁尓_天使/S增伤",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10415434
+  },
+  {
+    "id": 10502846,
+    "idCN": "我方/05五星/罗洁尓_天使/A伤害",
+    "mod": "攻击事件",
+    "isInformalData": false,
+    "buffId": 10415405,
+    "hitSoundID": -1
+  },
+  {
+    "id": 10502847,
+    "idCN": "我方/05五星/罗洁尓_天使/A诅咒",
+    "mod": "攻击事件",
+    "isInformalData": false,
+    "buffId": 10402753,
+    "hitSoundID": -1
+  },
+  {
+    "id": 10502837,
+    "idCN": "我方/05五星/乌刹娜/S背景板特效",
+    "mod": "子弹事件",
+    "isInformalData": false,
+    "buffId": 10406379,
+    "bulletId": 11200625,
+    "targetType": "CurrentTarget",
+    "offSetX_SN": 0,
+    "offSetZ_SN": 0,
+    "isUseTargetFilter": false,
+    "isIgnoreInvisibleEnemy": true,
+    "targetFilterType": "Ally",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 0,
+    "attributeType": "HpMax",
+    "condition": "Max",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 0
   }
 ]

@@ -3045,8 +3045,8 @@
         "skillId": 12300893
       }
     ],
-    "tempdesc": "每次自身【爆炸物】爆炸时，自身攻击力+0.5%，可叠加",
-    "desc": "每次自身【爆炸物】爆炸时，自身攻击力+0.5%，可叠加",
+    "tempdesc": "每次自身【爆炸物】爆炸时，自身攻击力+0.5%，可叠加，上限60%",
+    "desc": "每次自身【爆炸物】爆炸时，自身攻击力+0.5%，可叠加，上限60%",
     "skillChangeList": [],
     "skillParamOffsetList": []
   },
@@ -14641,8 +14641,8 @@
         "skillId": 12302030
       }
     ],
-    "tempdesc": "若【黑色药剂】效果结束后，自身生命值大于50%，生成1张【黑色药剂】加入手牌，但献祭的生命值消耗增加1%\r\\n生命值低于10%时【无敌】5秒并回复自身50%生命值，同时从牌库和弃牌区将所有的自身技能牌加入手牌，限1次",
-    "desc": "若【黑色药剂】效果结束后，自身生命值大于50%，生成1张【黑色药剂】加入手牌，但献祭的生命值消耗增加1%\\n生命值低于10%时<color=#7AB2FF>【无敌】</color>5秒并回复自身50%生命值，同时从牌库和弃牌区将所有的自身技能牌加入手牌，限1次",
+    "tempdesc": "若【黑色药剂】效果结束后，自身生命值大于50%，生成1张【黑色药剂】加入手牌，且能超出手牌上限，但献祭的生命值消耗增加1%\\n生命值低于10%时【无敌】5秒并回复自身50%生命值，同时从牌库和弃牌区将所有的自身技能牌加入手牌，限1次",
+    "desc": "若【黑色药剂】效果结束后，自身生命值大于50%，生成1张【黑色药剂】加入手牌，且能超出手牌上限，但献祭的生命值消耗增加1%\\n生命值低于10%时<color=#7AB2FF>【无敌】</color>5秒并回复自身50%生命值，同时从牌库和弃牌区将所有的自身技能牌加入手牌，限1次",
     "skillChangeList": [],
     "skillParamOffsetList": []
   },
@@ -14667,7 +14667,7 @@
       }
     ],
     "tempdesc": "【贯筒射击】和【爆裂射击】造成伤害时同时触发【点燃】和【重伤】\\n使用【蓄力】后，使【贯筒射击】和【爆裂射击】伤害提高5%，上限100%",
-    "desc": "【贯筒射击】和【爆裂射击】造成伤害时同时触发【点燃】和【重伤】\\n使用【蓄力】后，使【贯筒射击】和【爆裂射击】伤害提高5%，上限100%",
+    "desc": "【贯筒射击】和【爆裂射击】造成伤害时同时触发<color=#FF6666>【点燃】</color>和<color=#FF6666>【重伤】</color>\\n使用【蓄力】后，使【贯筒射击】和【爆裂射击】伤害提高5%，上限100%",
     "skillChangeList": [],
     "skillParamOffsetList": []
   },
@@ -15577,16 +15577,16 @@
       }
     ],
     "tempdesc": "每次我方造成【蚀灭】/【裂蚀】时，自身攻击力+0.5%，上限99%",
-    "desc": "每次我方造成【蚀灭】/【裂蚀】时，自身攻击力+0.5%，上限99%",
+    "desc": "每次我方造成<color=#FF6666>【蚀灭】</color>/【裂蚀】时，自身攻击力+0.5%，上限99%",
     "skillChangeList": [],
     "skillParamOffsetList": []
   },
   {
     "id": 12100680,
-    "idCN": "05五星/乌刹娜/觉醒2-刹那",
+    "idCN": "05五星/乌刹娜/觉醒2-寂静相",
     "mod": "基础突破",
     "isInformalData": false,
-    "name": "刹那",
+    "name": "寂静相",
     "path": "RolePlus\\00Gift\\Circular\\ChaNa",
     "attriDetialList": [],
     "attributeList": [],
@@ -15601,8 +15601,8 @@
         "skillId": 12302197
       }
     ],
-    "tempdesc": "开局获得50点怒气值\\n同时自身造成的【斩裂】有20%概率触发【裂蚀】",
-    "desc": "开局获得50点怒气值\\n同时自身造成的【斩裂】有20%概率触发【裂蚀】",
+    "tempdesc": "怒气值达到150以上时，【斩夜寰穹破魔光！】追加裂穹穿心终结剑技，将所有的【裂穹】贯穿敌方目标，每把对敌方造成1段伤害并【裂蚀】\\n同时基于牌库中的黑卡数量，额外释放等量的【裂穹】贯穿敌方目标",
+    "desc": "怒气值达到150以上时，【斩夜寰穹破魔光！】追加裂穹穿心终结剑技，将所有的【裂穹】贯穿敌方目标，每把对敌方造成1段伤害并【裂蚀】\\n同时基于牌库中的黑卡数量，额外释放等量的【裂穹】贯穿敌方目标",
     "skillChangeList": [],
     "skillParamOffsetList": []
   },
@@ -15701,8 +15701,271 @@
         "skillId": 12302199
       }
     ],
-    "tempdesc": "使处于【裂蚀】状态的敌方，受到的伤害提高20%",
-    "desc": "使处于【裂蚀】状态的敌方，受到的伤害提高20%",
+    "tempdesc": "开局将3张【斩！】加入手牌\\n自身怒气值越高，处于【裂蚀】状态的敌方受到的伤害越高，最高50%",
+    "desc": "开局将3张【斩！】加入手牌\\n自身怒气值越高，处于【裂蚀】状态的敌方受到的伤害越高，最高50%",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100687,
+    "idCN": "05五星/罗洁尓_天使/觉醒5-圣恩",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "圣恩",
+    "path": "RolePlus\\00Gift\\Circular\\ShengEn",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700243,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12302216
+      }
+    ],
+    "tempdesc": "",
+    "desc": "",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100689,
+    "idCN": "05五星/罗洁尓_天使/觉醒3-斗志",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "斗志",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 1500000
+      }
+    ],
+    "materialList": [
+      {
+        "itemId": 11700243,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "攻击力+150",
+    "desc": "攻击力+150",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100686,
+    "idCN": "05五星/罗洁尓_天使/觉醒2-黑狱",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "黑狱",
+    "path": "RolePlus\\00Gift\\Circular\\HeiYu",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700243,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12300883
+      }
+    ],
+    "tempdesc": "",
+    "desc": "",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100688,
+    "idCN": "05五星/罗洁尓_天使/觉醒4-强韧",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "强韧",
+    "path": "RolePlus\\00Gift\\Circular\\QiangRen",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 1500000
+      }
+    ],
+    "materialList": [
+      {
+        "itemId": 11700243,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "防御力+150",
+    "desc": "防御力+150",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100685,
+    "idCN": "05五星/罗洁尓_天使/觉醒1-灵感",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "灵感",
+    "path": "RolePlus\\00Gift\\Circular\\LingGan",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700243,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12302213
+      }
+    ],
+    "tempdesc": "",
+    "desc": "",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100690,
+    "idCN": "05五星/罗洁尓_天使/觉醒0",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "",
+    "path": "",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700243,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "",
+    "desc": "",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100678,
+    "idCN": "01敌方/学会/雷比斯/觉醒0",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "",
+    "path": "",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [],
+    "skillList": [],
+    "tempdesc": "",
+    "desc": "",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100691,
+    "idCN": "01敌方/学会/雷比斯/觉醒1-一生二",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "",
+    "path": "RolePlus\\00Gift\\Circular\\YiShengEr",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [],
+    "skillList": [],
+    "tempdesc": "",
+    "desc": "",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100692,
+    "idCN": "01敌方/学会/雷比斯/觉醒2-二生三",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "",
+    "path": "RolePlus\\00Gift\\Circular\\ErShengSan",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700160,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "",
+    "desc": "",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100693,
+    "idCN": "01敌方/学会/雷比斯/觉醒3-斗志",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 1500000
+      }
+    ],
+    "materialList": [],
+    "skillList": [],
+    "tempdesc": "",
+    "desc": "",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100694,
+    "idCN": "01敌方/学会/雷比斯/觉醒4-强韧",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "",
+    "path": "RolePlus\\00Gift\\Circular\\QiangRen",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 1500000
+      }
+    ],
+    "materialList": [],
+    "skillList": [],
+    "tempdesc": "",
+    "desc": "",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100695,
+    "idCN": "01敌方/学会/雷比斯/觉醒5-三生万物",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "",
+    "path": "RolePlus\\00Gift\\Circular\\SanShengWanWu",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [],
+    "skillList": [],
+    "tempdesc": "",
+    "desc": "",
     "skillChangeList": [],
     "skillParamOffsetList": []
   }

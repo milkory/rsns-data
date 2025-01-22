@@ -139,6 +139,7 @@
     "isSkinSkill": false,
     "emptyTipQuest": 81001199,
     "isShowWiki": true,
+    "questREC": -1,
     "equipmentBag": 2000,
     "itemBag": 1000,
     "materialBag": 1000,
@@ -1789,6 +1790,9 @@
       },
       {
         "id": 82500020
+      },
+      {
+        "id": 82500023
       }
     ],
     "StageQuestConfig": [
@@ -1869,6 +1873,10 @@
       },
       {
         "id": 12601521,
+        "num": 50
+      },
+      {
+        "id": 12601552,
         "num": 50
       }
     ],
@@ -3433,6 +3441,57 @@
       },
       {
         "id": 81002110
+      },
+      {
+        "id": 81001550
+      },
+      {
+        "id": 81002267
+      },
+      {
+        "id": 81002269
+      },
+      {
+        "id": 81002273
+      },
+      {
+        "id": 81002274
+      },
+      {
+        "id": 81002275
+      },
+      {
+        "id": 81002276
+      },
+      {
+        "id": 81002278
+      },
+      {
+        "id": 81002279
+      },
+      {
+        "id": 81002071
+      },
+      {
+        "id": 81002073
+      },
+      {
+        "id": 81002074
+      },
+      {
+        "id": 81002283
+      },
+      {
+        "id": 81002287
+      },
+      {
+        "id": 81002284
+      },
+      {
+        "id": 81002285
+      },
+      {
+        "id": 81002286
       }
     ],
     "passByChapterId": [],
@@ -3653,11 +3712,6 @@
     "energyCost": [
       {
         "id": 81002046
-      }
-    ],
-    "tiredAdd": [
-      {
-        "id": 81000594
       }
     ],
     "useShield": [],
@@ -6437,6 +6491,11 @@
     "operationRankLike": [
       {
         "id": 81002051
+      }
+    ],
+    "tiredAdd": [
+      {
+        "id": 81000594
       }
     ]
   },
@@ -18956,10 +19015,13 @@
         "id": 0
       },
       {
-        "id": 25
+        "id": 20
       },
       {
         "id": 35
+      },
+      {
+        "id": 60
       }
     ],
     "strengthList": [
@@ -22251,15 +22313,15 @@
       },
       {
         "countDownMax": 3,
-        "endTime": "",
+        "endTime": "2025-03-01 04:59:00",
         "id": 86000020,
         "isCompleteBottom": false,
         "isCountDown": false,
         "name": 80608741,
-        "png": "UI/Activity/Tab/tab_monster",
+        "png": "UI/Monopoly/UI/1/tag",
         "showUI": "UI/Activity/ActivityMonopoly/MonopolyMain",
         "sort": 0,
-        "startTime": "2025-11-08 05:00:00",
+        "startTime": "2025-01-23 05:00:00",
         "tag": 12601422
       },
       {
@@ -22269,10 +22331,10 @@
         "isCompleteBottom": false,
         "isCountDown": false,
         "name": 80609573,
-        "png": "UI/Activity/Tab/tab_black",
+        "png": "UI/Activity/Tab/tab_randombattle",
         "showUI": "UI/Activity/ActivityRandomBattle/ActivityRandomBattle",
         "sort": 0,
-        "startTime": "2025-12-01 12:00:00",
+        "startTime": "2025-01-24 12:00:00",
         "tag": 12601503
       }
     ],
@@ -22509,6 +22571,10 @@
       {
         "id": 86300008,
         "startTime": "2025-01-01 05:00:00"
+      },
+      {
+        "id": 86300007,
+        "startTime": "2025-01-23 05:00:00"
       }
     ]
   },
@@ -22709,7 +22775,98 @@
     "mod": "广告弹窗",
     "isInformalData": false,
     "nameEN": "ADConfig",
-    "adList": []
+    "adList": [
+      {
+        "adPath": "UI/AD/Arina",
+        "lv": 1,
+        "param": "{\"poolId\":80500129}",
+        "questId": 81001149,
+        "questType": "Complete",
+        "scale": 1.0,
+        "uiPath": "UI/Gacha/GachaNew"
+      },
+      {
+        "adPath": "UI/AD/Charlotte",
+        "lv": 1,
+        "param": "{\"poolId\":80500123}",
+        "questId": 81001139,
+        "questType": "Complete",
+        "scale": 1.0,
+        "uiPath": "UI/Gacha/GachaNew"
+      },
+      {
+        "adPath": "UI/AD/Nicola",
+        "lv": 1,
+        "param": "{\"poolId\":80500124}",
+        "questId": 81001208,
+        "questType": "Complete",
+        "scale": 1.0,
+        "uiPath": "UI/Gacha/GachaNew"
+      },
+      {
+        "adPath": "UI/AD/Anfiya",
+        "lv": 1,
+        "param": "{\"poolId\":80500126}",
+        "questId": 81000316,
+        "questType": "Complete",
+        "scale": 1.0,
+        "uiPath": "UI/Gacha/GachaNew"
+      },
+      {
+        "adPath": "UI/AD/Connor",
+        "lv": 1,
+        "param": "{\"poolId\":80500127}",
+        "questId": 81000317,
+        "questType": "Complete",
+        "scale": 1.0,
+        "uiPath": "UI/Gacha/GachaNew"
+      },
+      {
+        "adPath": "UI/AD/Jalhay",
+        "lv": 1,
+        "param": "{\"poolId\":80500128}",
+        "questId": 81001998,
+        "questType": "Complete",
+        "scale": 1.0,
+        "uiPath": "UI/Gacha/GachaNew"
+      },
+      {
+        "adPath": "UI/AD/Katas",
+        "lv": 1,
+        "param": "{\"poolId\":80500122}",
+        "questId": 81000608,
+        "questType": "Complete",
+        "scale": 1.0,
+        "uiPath": "UI/Gacha/GachaNew"
+      },
+      {
+        "adPath": "UI/AD/Hayabusa",
+        "lv": 1,
+        "param": "{\"poolId\":80500190}",
+        "questId": 81002143,
+        "questType": "Complete",
+        "scale": 1.0,
+        "uiPath": "UI/Gacha/GachaNew"
+      },
+      {
+        "adPath": "UI/AD/Sommer",
+        "lv": 1,
+        "param": "{\"poolId\":80500192}",
+        "questId": 81000209,
+        "questType": "Accept",
+        "scale": 1.0,
+        "uiPath": "UI/Gacha/GachaNew"
+      },
+      {
+        "adPath": "UI/AD/Lissandra",
+        "lv": 1,
+        "param": "{\"poolId\":80500045}",
+        "questId": 81001319,
+        "questType": "Accept",
+        "scale": 1.0,
+        "uiPath": "UI/Gacha/GachaNew"
+      }
+    ]
   },
   {
     "id": 99900076,
@@ -24959,18 +25116,18 @@
         "ratio": "Img_CircleMaterial"
       },
       {
-        "icon": "UI/RevenueOverview/BtnIcon/Coc",
-        "label": "UI/RevenueOverview/RatioLabel/Coc",
-        "name": 80609025,
-        "rank": 84300014,
-        "ratio": "Img_CircleCoc"
-      },
-      {
         "icon": "UI/RevenueOverview/BtnIcon/Prison",
         "label": "UI/RevenueOverview/RatioLabel/Prison",
         "name": 80609030,
         "rank": 84300017,
         "ratio": "Img_CirclePrison"
+      },
+      {
+        "icon": "UI/RevenueOverview/BtnIcon/Coc",
+        "label": "UI/RevenueOverview/RatioLabel/Coc",
+        "name": 80609025,
+        "rank": 84300014,
+        "ratio": "Img_CircleCoc"
       },
       {
         "icon": "UI/RevenueOverview/BtnIcon/Island",
@@ -25012,7 +25169,81 @@
     "idCN": "大富翁配置",
     "mod": "大富翁配置",
     "isInformalData": false,
-    "nameEN": "MonopolyConfig"
+    "nameEN": "MonopolyConfig",
+    "monopolyList": [
+      {
+        "id": 88600002
+      }
+    ],
+    "diceNum": 5,
+    "diceWeekendNum": 8,
+    "diceTimeNum": [
+      {
+        "endTime": "14:30:00",
+        "num": 2,
+        "startTime": "11:30:00"
+      },
+      {
+        "endTime": "21:00:00",
+        "num": 3,
+        "startTime": "18:00:00"
+      }
+    ],
+    "diceTimeWeekendNum": [
+      {
+        "endTime": "14:30:00",
+        "num": 3,
+        "startTime": "11:30:00"
+      },
+      {
+        "endTime": "21:00:00",
+        "num": 5,
+        "startTime": "18:00:00"
+      }
+    ],
+    "diceLimit": 50,
+    "showRankNum": 10,
+    "refreshRankTime": 1,
+    "monopolyRank": 84300021,
+    "antedate": 2,
+    "playerNum": 8,
+    "gameDate": 7,
+    "gameMinLV": 25,
+    "joinTicket": [
+      {
+        "id": 11400001,
+        "num": 100000
+      },
+      {
+        "id": 11400005,
+        "num": 100
+      }
+    ],
+    "clickLimit": 20,
+    "refreshLimit": 25,
+    "itemUseLimit": 1,
+    "diceItemList": [
+      {
+        "id": "diceChange"
+      },
+      {
+        "id": "diceFix"
+      },
+      {
+        "id": "diceFixPlus"
+      }
+    ],
+    "roundItemList": [
+      {
+        "id": "investNum"
+      },
+      {
+        "id": "randomArrow"
+      }
+    ],
+    "pathLimit": 10,
+    "itemLimit": 30,
+    "moneyId": 11400333
   },
   {
     "id": 99900105,
@@ -25021,6 +25252,9 @@
     "isInformalData": false,
     "nameEN": "BannerConfig",
     "bannerList": [
+      {
+        "id": 80500036
+      },
       {
         "id": 80500034
       },
@@ -25079,13 +25313,13 @@
         "id": 80500025
       },
       {
-        "id": 80500017
-      },
-      {
-        "id": 80500021
+        "id": 80500024
       },
       {
         "id": 80500027
+      },
+      {
+        "id": 80500007
       },
       {
         "id": 80500011
@@ -25098,9 +25332,6 @@
       },
       {
         "id": 80500028
-      },
-      {
-        "id": 80500007
       },
       {
         "id": 80500010
@@ -25173,7 +25404,38 @@
     "idCN": "活动/乱斗竞技配置",
     "mod": "乱斗竞技",
     "isInformalData": false,
-    "nameEN": "RandomBattleConfig"
+    "nameEN": "RandomBattleConfig",
+    "randomBattleLv": 10,
+    "randomBattleStartDay": 5,
+    "randomBattleLastDay": 3,
+    "randomBattleTicketDay": 1,
+    "randomBattleTicketId": 11400401,
+    "randomBattleCoinId": 11400437,
+    "randomBattleTicketCost": 1,
+    "randomBattleCost": [
+      {
+        "id": 11400001,
+        "num": 300000
+      }
+    ],
+    "randomBattleCostCount": 3,
+    "randomBattleLose": 1,
+    "exchangeBuildId": 84400237,
+    "randomBattleList": [
+      {
+        "id": 89000001,
+        "weight": 1
+      },
+      {
+        "id": 89000004,
+        "weight": 1
+      }
+    ],
+    "randomBattlePreList": [
+      {
+        "id": 89000001
+      }
+    ]
   },
   {
     "id": 99900112,

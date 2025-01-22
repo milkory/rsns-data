@@ -1358,15 +1358,36 @@
   },
   {
     "id": 10800096,
-    "idCN": "复合/乌刹娜",
-    "mod": "玩家修改Buff层数",
+    "idCN": "复合/乌刹娜-cd50获得红黄紫减5",
+    "mod": "累计入手卡牌数量",
     "isInformalData": false,
-    "progressMax": 45,
-    "buffFoList": [],
-    "buffFO": 10415200,
-    "isPositive": true,
-    "isNegative": false,
     "isTimeProg": true,
-    "progAddNum": 1
+    "progAddNum": 5,
+    "progressMax": 50,
+    "isOnlyDeck": false,
+    "tagList": [
+      {
+        "tagId": 12600073
+      },
+      {
+        "tagId": 12600146
+      },
+      {
+        "tagId": 12600145
+      }
+    ],
+    "tagType": "or"
+  },
+  {
+    "id": 10800098,
+    "idCN": "牌库抽卡/11",
+    "mod": "累计入手卡牌数量",
+    "isInformalData": false,
+    "isTimeProg": false,
+    "progAddNum": 1,
+    "progressMax": 10,
+    "isOnlyDeck": true,
+    "tagList": [],
+    "tagType": "And"
   }
 ]
