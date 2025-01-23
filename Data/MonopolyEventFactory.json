@@ -3054,7 +3054,7 @@
         "next": -1,
         "selection1": "算了，破财消灾……",
         "selection1Next": 88800057,
-        "selection2": "不能坐以待毙！",
+        "selection2": "凭什么？我要战斗！",
         "selection2Next": 88800067,
         "selection3": "",
         "selection3Next": -1,
@@ -3098,7 +3098,7 @@
     "rewardList": [
       {
         "id": 11400333,
-        "num": 1000,
+        "num": 10000,
         "rewardType": "reduce"
       }
     ],
@@ -3517,9 +3517,6 @@
     "rewardDialogList": [
       {
         "id": 88800057
-      },
-      {
-        "id": 88800084
       },
       {
         "id": 88800067
@@ -4558,7 +4555,7 @@
       {
         "anim": "",
         "dialogCV": "",
-        "dialogContent": "赢了",
+        "dialogContent": "为了保证列车上乘客和货物的安全，我们挺身而出！\r劫匪们开着装甲车落荒而逃，移开障碍物后，我们再次出发。",
         "dialogName": "",
         "eventBG": "",
         "eventSpine": "Spine/Activity/Monopoly/DFW_UI_01/DFW_UI_01_SkeletonData",
@@ -4576,13 +4573,7 @@
       }
     ],
     "randomRewardList": [],
-    "rewardList": [
-      {
-        "id": 11400333,
-        "num": 1000,
-        "rewardType": "add"
-      }
-    ],
+    "rewardList": [],
     "levelList": [],
     "showLevel": -1
   },
@@ -4955,7 +4946,7 @@
     "characterQPath": "",
     "sortDialog": [
       {
-        "dialogid": 88800056,
+        "dialogid": 88800092,
         "failTip": "持有资金不足，劫匪同情而嫌弃地把我们放走了。",
         "id": 11400333,
         "limiteType": "GreaterOrEqual",
@@ -4965,22 +4956,148 @@
     "randomDialog": [],
     "rewardDialogList": [
       {
-        "id": 88800057
+        "id": 88800094
       },
       {
-        "id": 88800084
-      },
-      {
-        "id": 88800067
+        "id": 88800093
       }
     ],
     "overDialogList": [
       {
-        "id": 88800057
+        "id": 88800094
       },
       {
-        "id": 88800084
+        "id": 88800095
       }
     ]
+  },
+  {
+    "id": 88800092,
+    "idCN": "第一期/劫匪强/打劫",
+    "mod": "对话",
+    "isInformalData": false,
+    "dialogList": [
+      {
+        "anim": "",
+        "dialogCV": "",
+        "dialogContent": "前方的轨道上发现了高高堆起的障碍物……为了乘车人员的安全，只好暂时停车了。\r一批劫匪开着重装甲车拦在了前面，嚣张地大叫着“留下买路财”之类的话。",
+        "dialogName": "",
+        "eventBG": "",
+        "eventSpine": "Spine/Activity/Monopoly/DFW_UI_01/DFW_UI_01_SkeletonData",
+        "iconPath": "UI/Monopoly/UI/Game/Event/Icon_Fight",
+        "next": -1,
+        "selection1": "算了，破财消灾……",
+        "selection1Next": 88800094,
+        "selection2": "凭什么？我要战斗！",
+        "selection2Next": 88800093,
+        "selection3": "",
+        "selection3Next": -1,
+        "selection4": "",
+        "selection4Next": -1,
+        "tachiePath": ""
+      }
+    ],
+    "randomRewardList": [],
+    "rewardList": [],
+    "levelList": [],
+    "showLevel": 20101514
+  },
+  {
+    "id": 88800093,
+    "idCN": "第一期/劫匪强/打劫-战斗",
+    "mod": "战斗对话",
+    "isInformalData": false,
+    "dialogList": [
+      {
+        "anim": "",
+        "dialogCV": "",
+        "dialogContent": "战斗",
+        "dialogName": "",
+        "eventBG": "",
+        "eventSpine": "Spine/Activity/Monopoly/DFW_UI_01/DFW_UI_01_SkeletonData",
+        "iconPath": "UI/Monopoly/UI/Game/Event/Icon_Fight",
+        "next": -1,
+        "selection1": "打!",
+        "selection1Next": -1,
+        "selection2": "",
+        "selection2Next": -1,
+        "selection3": "",
+        "selection3Next": -1,
+        "selection4": "",
+        "selection4Next": -1,
+        "tachiePath": ""
+      }
+    ],
+    "levelID": 20101514,
+    "sucid": 88800095,
+    "failid": 88800094
+  },
+  {
+    "id": 88800094,
+    "idCN": "第一期/劫匪强/打劫战斗结果-输",
+    "mod": "对话",
+    "isInformalData": false,
+    "dialogList": [
+      {
+        "anim": "",
+        "dialogCV": "",
+        "dialogContent": "为了保证列车上乘客和货物的安全，我们只好付钱走人。\r希望未来的某天我们能“回敬”这些不法之徒。",
+        "dialogName": "",
+        "eventBG": "",
+        "eventSpine": "Spine/Activity/Monopoly/DFW_UI_01/DFW_UI_01_SkeletonData",
+        "iconPath": "UI/Monopoly/UI/Game/Event/Icon_Fight",
+        "next": -1,
+        "selection1": "离开，继续咕噜噜大冒险！",
+        "selection1Next": -1,
+        "selection2": "",
+        "selection2Next": -1,
+        "selection3": "",
+        "selection3Next": -1,
+        "selection4": "",
+        "selection4Next": -1,
+        "tachiePath": ""
+      }
+    ],
+    "randomRewardList": [],
+    "rewardList": [
+      {
+        "id": 11400333,
+        "num": 20000,
+        "rewardType": "reduce"
+      }
+    ],
+    "levelList": [],
+    "showLevel": -1
+  },
+  {
+    "id": 88800095,
+    "idCN": "第一期/劫匪强/打劫战斗结果-赢",
+    "mod": "对话",
+    "isInformalData": false,
+    "dialogList": [
+      {
+        "anim": "",
+        "dialogCV": "",
+        "dialogContent": "为了保证列车上乘客和货物的安全，我们挺身而出！\r劫匪们开着装甲车落荒而逃，移开障碍物后，我们再次出发。",
+        "dialogName": "",
+        "eventBG": "",
+        "eventSpine": "Spine/Activity/Monopoly/DFW_UI_01/DFW_UI_01_SkeletonData",
+        "iconPath": "UI/Monopoly/UI/Game/Event/Icon_Fight",
+        "next": -1,
+        "selection1": "离开，继续咕噜噜大冒险！",
+        "selection1Next": -1,
+        "selection2": "",
+        "selection2Next": -1,
+        "selection3": "",
+        "selection3Next": -1,
+        "selection4": "",
+        "selection4Next": -1,
+        "tachiePath": ""
+      }
+    ],
+    "randomRewardList": [],
+    "rewardList": [],
+    "levelList": [],
+    "showLevel": -1
   }
 ]
