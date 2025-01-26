@@ -11581,11 +11581,20 @@
   {
     "id": 40300095,
     "idCN": "9活动商店/10大富翁/骰子商店",
-    "mod": "活动商店",
+    "mod": "商店",
     "isInformalData": false,
     "storeName": "每日骰子商店",
     "unlockConditions": false,
     "conditions": -1,
+    "maxShopNum": 2,
+    "autoRefresh": true,
+    "refreshTimeList": [
+      {
+        "refreshTime": "5:00:00"
+      }
+    ],
+    "moneyList": [],
+    "freeRefreshNum": 0,
     "pngSelect": "",
     "pngNotSelect": "",
     "shopList": [
@@ -11598,9 +11607,20 @@
         "weight": 1
       }
     ],
-    "storeType": "Regular",
+    "storeType": "Repeatable",
+    "TextLockId": -1,
     "showUI": "Group_DiamondStore",
-    "activityId": 86000020,
+    "commodityFixedList": [
+      {
+        "id": 40201251
+      },
+      {
+        "id": 40201252
+      }
+    ],
+    "isRecordTimes": false,
+    "rewardList": [],
+    "isStationRefresh": false,
     "capacityType": [],
     "refreshType": "Daily",
     "isTime": false,

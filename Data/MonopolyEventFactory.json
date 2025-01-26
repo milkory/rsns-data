@@ -3600,9 +3600,6 @@
       },
       {
         "id": 88800067
-      },
-      {
-        "id": 88800084
       }
     ],
     "overDialogList": [
@@ -4627,7 +4624,7 @@
     ],
     "levelID": 20101480,
     "sucid": 88800084,
-    "failid": 88800057
+    "failid": 88800096
   },
   {
     "id": 88800084,
@@ -4656,13 +4653,7 @@
       }
     ],
     "randomRewardList": [],
-    "rewardList": [
-      {
-        "id": 11400333,
-        "num": 40000,
-        "rewardType": "add"
-      }
-    ],
+    "rewardList": [],
     "levelList": [],
     "showLevel": -1
   },
@@ -4784,7 +4775,7 @@
     "effectsEndTime": 2.0,
     "boxLevel": 20101478,
     "levelTime": 1800,
-    "boxLvLitmit": 80,
+    "boxLvLitmit": 100,
     "addLvItem": [
       {
         "id": 11700159,
@@ -4798,16 +4789,36 @@
         "reward": 80304822
       },
       {
+        "lv": 30,
+        "reward": 80305714
+      },
+      {
         "lv": 35,
         "reward": 80304824
+      },
+      {
+        "lv": 40,
+        "reward": 80305166
+      },
+      {
+        "lv": 45,
+        "reward": 80305711
       },
       {
         "lv": 50,
         "reward": 80304825
       },
       {
+        "lv": 55,
+        "reward": 80305712
+      },
+      {
         "lv": 60,
         "reward": 80304827
+      },
+      {
+        "lv": 65,
+        "reward": 80305713
       },
       {
         "lv": 70,
@@ -4820,6 +4831,22 @@
       {
         "lv": 80,
         "reward": 80304830
+      },
+      {
+        "lv": 85,
+        "reward": 80305715
+      },
+      {
+        "lv": 90,
+        "reward": 80305716
+      },
+      {
+        "lv": 95,
+        "reward": 80305717
+      },
+      {
+        "lv": 100,
+        "reward": 80305718
       }
     ],
     "threeDPrefab": "Monopoly/Environment/Model/Prefab/M_Monopoly_box",
@@ -5049,9 +5076,6 @@
       },
       {
         "id": 88800093
-      },
-      {
-        "id": 88800095
       }
     ],
     "overDialogList": [
@@ -5122,7 +5146,7 @@
     ],
     "levelID": 20101514,
     "sucid": 88800095,
-    "failid": 88800094
+    "failid": 88800097
   },
   {
     "id": 88800094,
@@ -5188,13 +5212,69 @@
       }
     ],
     "randomRewardList": [],
-    "rewardList": [
+    "rewardList": [],
+    "levelList": [],
+    "showLevel": -1
+  },
+  {
+    "id": 88800096,
+    "idCN": "第一期/劫匪/打劫战斗结果-输前置",
+    "mod": "对话",
+    "isInformalData": false,
+    "dialogList": [
       {
-        "id": 11400333,
-        "num": 70000,
-        "rewardType": "add"
+        "anim": "",
+        "dialogCV": "",
+        "dialogContent": "虽然努力与劫匪战斗，却还是被他们钻空子了……没能打赢。",
+        "dialogName": "",
+        "eventBG": "",
+        "eventSpine": "Spine/Activity/Monopoly/DFW_UI_01/DFW_UI_01_SkeletonData",
+        "iconPath": "UI/Monopoly/UI/Game/Event/Icon_Fight",
+        "next": -1,
+        "selection1": "眼下无奈，还是尝试和他们交涉吧。",
+        "selection1Next": 88800057,
+        "selection2": "",
+        "selection2Next": -1,
+        "selection3": "",
+        "selection3Next": -1,
+        "selection4": "",
+        "selection4Next": -1,
+        "tachiePath": ""
       }
     ],
+    "randomRewardList": [],
+    "rewardList": [],
+    "levelList": [],
+    "showLevel": -1
+  },
+  {
+    "id": 88800097,
+    "idCN": "第一期/劫匪强/打劫战斗结果-输前置",
+    "mod": "对话",
+    "isInformalData": false,
+    "dialogList": [
+      {
+        "anim": "",
+        "dialogCV": "",
+        "dialogContent": "虽然努力与劫匪战斗，却还是被他们钻空子了……没能打赢。",
+        "dialogName": "",
+        "eventBG": "",
+        "eventSpine": "Spine/Activity/Monopoly/DFW_UI_01/DFW_UI_01_SkeletonData",
+        "iconPath": "UI/Monopoly/UI/Game/Event/Icon_Fight",
+        "next": -1,
+        "selection1": "眼下无奈，还是尝试和他们交涉吧。",
+        "selection1Next": 88800094,
+        "selection2": "",
+        "selection2Next": -1,
+        "selection3": "",
+        "selection3Next": -1,
+        "selection4": "",
+        "selection4Next": -1,
+        "tachiePath": ""
+      }
+    ],
+    "randomRewardList": [],
+    "rewardList": [],
     "levelList": [],
     "showLevel": -1
   }
