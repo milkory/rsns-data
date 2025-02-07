@@ -226,8 +226,8 @@
         "skillId": 12300542
       }
     ],
-    "tempdesc": "每有1张黑卡被丢弃时，回复生命值最低的队友5%生命值",
-    "desc": "每有1张黑卡被丢弃时，回复生命值最低的队友5%生命值",
+    "tempdesc": "每有1张黑卡被【销毁】时，回复生命值最低的队友5%生命值",
+    "desc": "每有1张黑卡被【销毁】时，回复生命值最低的队友5%生命值",
     "skillChangeList": [],
     "skillParamOffsetList": []
   },
@@ -740,8 +740,8 @@
         "skillId": 12300739
       }
     ],
-    "tempdesc": "使用【弃牌】指令后，抽1张牌，优先红卡",
-    "desc": "使用【弃牌】指令后，抽1张牌，优先红卡",
+    "tempdesc": "使用【弃牌】指令时，抽1张牌，优先红卡",
+    "desc": "使用【弃牌】指令时，抽1张牌，优先红卡",
     "skillChangeList": [],
     "skillParamOffsetList": []
   },
@@ -1407,8 +1407,8 @@
         "skillId": 12301963
       }
     ],
-    "tempdesc": "我方【护盾】消失或引爆时使【护盾】持有者受到的伤害降低15%，持续5秒",
-    "desc": "我方【护盾】消失或引爆时使【护盾】持有者受到的伤害降低15%，持续5秒",
+    "tempdesc": "我方【护盾】消失或引爆时，使【护盾】持有者受到的伤害降低15%，持续5秒",
+    "desc": "我方【护盾】消失或引爆时，使【护盾】持有者受到的伤害降低15%，持续5秒",
     "skillChangeList": [],
     "skillParamOffsetList": []
   },
@@ -2026,8 +2026,9 @@
   },
   {
     "id": 12100164,
-    "idCN": "03三星/艾略特/觉醒3-斗志",
+    "idCN": "03三星/艾略特/新觉醒3-斗志",
     "mod": "基础突破",
+    "isInformalData": false,
     "name": "斗志",
     "path": "RolePlus\\00Gift\\Circular\\DouZhi",
     "attriDetialList": [],
@@ -2036,26 +2037,7 @@
         "attributeType": "Atk",
         "numType": "Number",
         "num_SN": 600000
-      }
-    ],
-    "materialList": [
-      {
-        "itemId": 11700095,
-        "num": 1
-      }
-    ],
-    "skillList": [],
-    "tempdesc": "攻击力+60",
-    "desc": "攻击力+60"
-  },
-  {
-    "id": 12100165,
-    "idCN": "03三星/艾略特/觉醒4-强韧",
-    "mod": "基础突破",
-    "name": "强韧",
-    "path": "RolePlus\\00Gift\\Circular\\QiangRen",
-    "attriDetialList": [],
-    "attributeList": [
+      },
       {
         "attributeType": "Def",
         "numType": "Number",
@@ -2069,8 +2051,35 @@
       }
     ],
     "skillList": [],
-    "tempdesc": "防御力+60",
-    "desc": "防御力+60"
+    "tempdesc": "攻击力+60\\n防御力+60",
+    "desc": "攻击力+60\\n防御力+60",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100165,
+    "idCN": "03三星/艾略特/新觉醒4-弹链充能",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "弹链充能",
+    "path": "RolePlus\\00Gift\\Circular\\QiangRen",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700095,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12302228
+      }
+    ],
+    "tempdesc": "【飞电弹】回收的卡牌下1次使用所需费用-1",
+    "desc": "【飞电弹】回收的卡牌下1次使用所需费用-1",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
   },
   {
     "id": 12100166,
@@ -2683,12 +2692,18 @@
   },
   {
     "id": 12100192,
-    "idCN": "03三星/弗兰/觉醒3-强韧",
+    "idCN": "03三星/弗兰/新觉醒3-斗志",
     "mod": "基础突破",
-    "name": "强韧",
-    "path": "RolePlus\\00Gift\\Circular\\QiangRen",
+    "isInformalData": false,
+    "name": "斗志",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
     "attriDetialList": [],
     "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 600000
+      },
       {
         "attributeType": "Def",
         "numType": "Number",
@@ -2702,8 +2717,10 @@
       }
     ],
     "skillList": [],
-    "tempdesc": "防御力+60",
-    "desc": "防御力+60"
+    "tempdesc": "攻击力+60\\n防御力+60",
+    "desc": "攻击力+60\\n防御力+60",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
   },
   {
     "id": 12100193,
@@ -2757,27 +2774,28 @@
   },
   {
     "id": 12100195,
-    "idCN": "03三星/弗兰/觉醒4-斗志",
+    "idCN": "03三星/弗兰/新觉醒4-铁幕回响",
     "mod": "基础突破",
-    "name": "斗志",
+    "isInformalData": false,
+    "name": "铁幕回响",
     "path": "RolePlus\\00Gift\\Circular\\DouZhi",
     "attriDetialList": [],
-    "attributeList": [
-      {
-        "attributeType": "Atk",
-        "numType": "Number",
-        "num_SN": 600000
-      }
-    ],
+    "attributeList": [],
     "materialList": [
       {
         "itemId": 11700096,
         "num": 1
       }
     ],
-    "skillList": [],
-    "tempdesc": "攻击力+60",
-    "desc": "攻击力+60"
+    "skillList": [
+      {
+        "skillId": 12302229
+      }
+    ],
+    "tempdesc": "自身【护盾】存在期间，自身普通攻击有15%概率直接打出1次【盾牌撞击】",
+    "desc": "自身【护盾】存在期间，自身普通攻击有15%概率直接打出1次【盾牌撞击】",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
   },
   {
     "id": 12100007,
@@ -3070,8 +3088,8 @@
         "skillId": 12300945
       }
     ],
-    "tempdesc": "自身【爆炸物】随机触发【落雷】，【点燃】或【冻结】",
-    "desc": "自身【爆炸物】随机触发<color=#FFB800>【落雷】</color>，<color=#FF6666>【点燃】</color>或<color=#7AB2FF>【冻结】</color>",
+    "tempdesc": "自身【爆炸物】随机触发【落雷】/【点燃】/【冻结】",
+    "desc": "自身【爆炸物】随机触发<color=#FFB800>【落雷】</color>/<color=#FF6666>【点燃】</color>/<color=#7AB2FF>【冻结】</color>",
     "skillChangeList": [],
     "skillParamOffsetList": []
   },
@@ -3645,8 +3663,8 @@
         "skillId": 12300362
       }
     ],
-    "tempdesc": "每【销毁】1张【暗艺】，自身生命值上限提高13%，限13次\\n每【销毁】1张黑卡，自身攻击力+1%和防御力+1%，限13次",
-    "desc": "每【销毁】1张【暗艺】，自身生命值上限提高13%，限13次\\n每【销毁】1张黑卡，自身攻击力+1%和防御力+1%，限13次",
+    "tempdesc": "每【销毁】1张【暗艺】，自身生命值上限提高13%，限13次\\n每【销毁】1张黑卡，自身攻击力和防御力+2%，限13次",
+    "desc": "每【销毁】1张【暗艺】，自身生命值上限提高13%，限13次\\n每【销毁】1张黑卡，自身攻击力和防御力+2%，限13次",
     "skillChangeList": [],
     "skillParamOffsetList": []
   },
@@ -4196,6 +4214,7 @@
     "id": 12100225,
     "idCN": "03三星/瑞秋/觉醒2-医疗部署",
     "mod": "基础突破",
+    "isInformalData": false,
     "name": "医疗部署",
     "path": "RolePlus\\00Gift\\Circular\\YiLiaoBuShu",
     "attriDetialList": [],
@@ -4211,8 +4230,10 @@
         "skillId": 12300588
       }
     ],
-    "tempdesc": "开局从牌库中随机抽1张绿卡加入手牌",
-    "desc": "开局从牌库中随机抽1张绿卡加入手牌"
+    "tempdesc": "开局从牌库中将1张绿卡加入手牌",
+    "desc": "开局从牌库中将1张绿卡加入手牌",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
   },
   {
     "id": 12100226,
@@ -4426,8 +4447,8 @@
         "skillId": 12301124
       }
     ],
-    "tempdesc": "使用【弃牌】指令弃牌时，回复自身10%生命值",
-    "desc": "使用【弃牌】指令弃牌时，回复自身10%生命值",
+    "tempdesc": "使用【队长技】时，回复自身5%生命值",
+    "desc": "使用【队长技】时，回复自身5%生命值",
     "skillChangeList": [],
     "skillParamOffsetList": []
   },
@@ -5456,8 +5477,8 @@
         "skillId": 12301135
       }
     ],
-    "tempdesc": "【修复磁盘】增强为：\\n使1个损坏的【波克士系列】回复50%生命值\\n【波克士系列】：\\n【波克士】，【圣剑波克士】，【神盾波克士】，【火箭拳波克士】，【飞天波克士】，【波克美】\\n使用后【销毁】",
-    "desc": "【修复磁盘】增强为：\\n使1个损坏的【波克士系列】回复50%生命值\\n【波克士系列】：\\n【波克士】，【圣剑波克士】，【神盾波克士】，【火箭拳波克士】，【飞天波克士】，【波克美】\\n使用后【销毁】",
+    "tempdesc": "【修复磁盘】增强为：\\n使1个损坏的【波克士系列】回复50%生命值\\n【波克士系列】：\\n【波克士】/【圣剑波克士】/【神盾波克士】/【火箭拳波克士】/【飞天波克士】/【波克美】\\n【波克士系列】为【机器人】\\n使用后【销毁】",
+    "desc": "【修复磁盘】增强为：\\n使1个损坏的【波克士系列】回复50%生命值\\n【波克士系列】：\\n【波克士】/【圣剑波克士】/【神盾波克士】/【火箭拳波克士】/【飞天波克士】/【波克美】\\n【波克士系列】为【机器人】\\n使用后【销毁】",
     "skillChangeList": [
       {
         "newSkillId": 12301136,
@@ -5482,8 +5503,8 @@
       }
     ],
     "skillList": [],
-    "tempdesc": "【军械库】增强为：\\n随机生成1张【手枪】，【突击步枪】，【燃烧手雷】或【呼机】加入手牌",
-    "desc": "【军械库】增强为：\\n随机生成1张【手枪】，【突击步枪】，【燃烧手雷】或【呼机】加入手牌",
+    "tempdesc": "【军械库】增强为：\\n\"Drop the beat!\"\\n波克士搜索小军械库\\n随机生成1张【手枪】/【突击步枪】/【燃烧手雷】/【呼机】加入手牌",
+    "desc": "【军械库】增强为：\\n\"Drop the beat!\"\\n波克士搜索小军械库\\n随机生成1张【手枪】/【突击步枪】/【燃烧手雷】/【呼机】加入手牌",
     "skillChangeList": [
       {
         "newSkillId": 12300957,
@@ -7127,8 +7148,8 @@
         "skillId": 12300967
       }
     ],
-    "tempdesc": "“You can never kill me”\\n濒死或【挨揍宝】损坏时，生成3张【真棒】加入手牌，生成的【真棒】使用后销毁",
-    "desc": "“You can never kill me”\\n濒死或【挨揍宝】损坏时，生成3张【真棒】加入手牌，生成的【真棒】使用后销毁",
+    "tempdesc": "“You can never kill me”\\n【挨揍宝】存在期间：\\n每减少30%耐久值，从牌库或弃牌区将1张【真棒】加入手牌",
+    "desc": "“You can never kill me”\\n【挨揍宝】存在期间：\\n每减少30%耐久值，从牌库或弃牌区将1张【真棒】加入手牌",
     "skillChangeList": [],
     "skillParamOffsetList": []
   },
@@ -7823,8 +7844,8 @@
         "skillId": 12301111
       }
     ],
-    "tempdesc": "我方场上每有1架【无人机】时，造成的最终伤害提高2%",
-    "desc": "我方场上每有1架【无人机】时，造成的最终伤害提高2%",
+    "tempdesc": "我方场上每存在1架【无人机】时，我方【无人机】造成的最终伤害提高2%",
+    "desc": "我方场上每存在1架【无人机】时，我方【无人机】造成的最终伤害提高2%",
     "skillChangeList": [],
     "skillParamOffsetList": []
   },
@@ -8438,8 +8459,8 @@
         "skillId": 12301091
       }
     ],
-    "tempdesc": "当任意我方处于【隐形】状态时，直接释放1次【雷走】",
-    "desc": "当任意我方处于<color=#7AB2FF>【隐形】</color>状态时，直接释放1次【雷走】",
+    "tempdesc": "当任意我方处于【隐形】状态时，直接打出1次【雷走】",
+    "desc": "当任意我方处于<color=#7AB2FF>【隐形】</color>状态时，直接打出1次【雷走】",
     "skillChangeList": [],
     "skillParamOffsetList": []
   },
@@ -12007,8 +12028,8 @@
         "skillId": 12301705
       }
     ],
-    "tempdesc": "\"under your skin\"\\n对处于【混乱】/【昏睡】/【变萌】/【禁锢】/【枷锁】/【诅咒】状态下的敌方，造成的最终伤害提高25%",
-    "desc": "\"under your skin\"\\n对处于<color=#B383FF>【混乱】</color>/<color=#B383FF>【昏睡】</color>/<color=#B383FF>【变萌】</color>/<color=#B383FF>【禁锢】</color>/<color=#B383FF>【枷锁】</color>/<color=#B383FF>【诅咒】</color>状态下的敌方，造成的最终伤害提高25%",
+    "tempdesc": "\"Under your skin\"\\n对处于【混乱】/【昏睡】/【变萌】/【禁锢】/【枷锁】/【诅咒】状态下的敌方，造成的最终伤害提高25%",
+    "desc": "\"Under your skin\"\\n对处于<color=#B383FF>【混乱】</color>/<color=#B383FF>【昏睡】</color>/<color=#B383FF>【变萌】</color>/<color=#B383FF>【禁锢】</color>/<color=#B383FF>【枷锁】</color>/<color=#B383FF>【诅咒】</color>状态下的敌方，造成的最终伤害提高25%",
     "skillChangeList": [],
     "skillParamOffsetList": []
   },
@@ -14589,8 +14610,8 @@
         "skillId": 12302028
       }
     ],
-    "tempdesc": "使用【队长技】或得意技能牌时，自身防御力+3%，上限99%",
-    "desc": "使用【队长技】或得意技能牌时，自身防御力+3%，上限99%",
+    "tempdesc": "使用【队长技】或得意技能牌时，自身攻击力和防御力+1%，上限50%",
+    "desc": "使用【队长技】或得意技能牌时，自身攻击力和防御力+1%，上限50%",
     "skillChangeList": [],
     "skillParamOffsetList": []
   },
@@ -15577,7 +15598,7 @@
       }
     ],
     "tempdesc": "每次我方造成【蚀灭】/【裂蚀】时，自身攻击力+0.5%，上限99%",
-    "desc": "每次我方造成<color=#FF6666>【蚀灭】</color>/<color=#FF6666>【裂蚀】</color>时，自身攻击力+0.5%，上限99%",
+    "desc": "每次我方造成<color=#FF6666>【蚀灭】</color>/【裂蚀】时，自身攻击力+0.5%，上限99%",
     "skillChangeList": [],
     "skillParamOffsetList": []
   },
@@ -15602,7 +15623,7 @@
       }
     ],
     "tempdesc": "怒气值达到150以上时，【斩夜寰穹破魔光！】追加裂穹穿心终结剑技，将所有的【裂穹】贯穿敌方目标，每把对敌方造成1段伤害并【裂蚀】\\n同时基于牌库中的黑卡数量，额外释放等量的【裂穹】贯穿敌方目标",
-    "desc": "怒气值达到150以上时，【斩夜寰穹破魔光！】追加裂穹穿心终结剑技，将所有的【裂穹】贯穿敌方目标，每把对敌方造成1段伤害并<color=#FF6666>【裂蚀】</color>\\n同时基于牌库中的黑卡数量，额外释放等量的【裂穹】贯穿敌方目标",
+    "desc": "怒气值达到150以上时，【斩夜寰穹破魔光！】追加裂穹穿心终结剑技，将所有的【裂穹】贯穿敌方目标，每把对敌方造成1段伤害并【裂蚀】\\n同时基于牌库中的黑卡数量，额外释放等量的【裂穹】贯穿敌方目标",
     "skillChangeList": [],
     "skillParamOffsetList": []
   },
@@ -15702,7 +15723,7 @@
       }
     ],
     "tempdesc": "开局将3张【斩！】加入手牌\\n自身怒气值越高，处于【裂蚀】状态的敌方受到的伤害越高，最高50%",
-    "desc": "开局将3张【斩！】加入手牌\\n自身怒气值越高，处于<color=#FF6666>【裂蚀】</color>状态的敌方受到的伤害越高，最高50%",
+    "desc": "开局将3张【斩！】加入手牌\\n自身怒气值越高，处于【裂蚀】状态的敌方受到的伤害越高，最高50%",
     "skillChangeList": [],
     "skillParamOffsetList": []
   },
@@ -15726,8 +15747,8 @@
         "skillId": 12302216
       }
     ],
-    "tempdesc": "",
-    "desc": "",
+    "tempdesc": "【真理之眼】每发射1道光束，生成【同调之眼】，持续2秒，可叠加\\n持续期间，自身攻击力/防御力+我方队友平均攻击力/防御力的10%",
+    "desc": "【真理之眼】每发射1道光束，生成【同调之眼】，持续2秒，可叠加\\n持续期间，自身攻击力/防御力+我方队友平均攻击力/防御力的10%",
     "skillChangeList": [],
     "skillParamOffsetList": []
   },
@@ -15744,6 +15765,11 @@
         "attributeType": "Atk",
         "numType": "Number",
         "num_SN": 1500000
+      },
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 1500000
       }
     ],
     "materialList": [
@@ -15753,8 +15779,8 @@
       }
     ],
     "skillList": [],
-    "tempdesc": "攻击力+150",
-    "desc": "攻击力+150",
+    "tempdesc": "攻击力+150\\n防御力+150",
+    "desc": "攻击力+150\\n防御力+150",
     "skillChangeList": [],
     "skillParamOffsetList": []
   },
@@ -15778,35 +15804,33 @@
         "skillId": 12300883
       }
     ],
-    "tempdesc": "",
-    "desc": "",
+    "tempdesc": "每有1张黑卡被【销毁】时，发射1枚【狱灵弹】轰炸至敌方场上，对敌方全体造成1段负能伤害",
+    "desc": "每有1张黑卡被【销毁】时，发射1枚【狱灵弹】轰炸至敌方场上，对敌方全体造成1段负能伤害",
     "skillChangeList": [],
     "skillParamOffsetList": []
   },
   {
     "id": 12100688,
-    "idCN": "05五星/罗洁尓_天使/觉醒4-强韧",
+    "idCN": "05五星/罗洁尓_天使/觉醒4-新生",
     "mod": "基础突破",
     "isInformalData": false,
-    "name": "强韧",
-    "path": "RolePlus\\00Gift\\Circular\\QiangRen",
+    "name": "新生",
+    "path": "",
     "attriDetialList": [],
-    "attributeList": [
-      {
-        "attributeType": "Def",
-        "numType": "Number",
-        "num_SN": 1500000
-      }
-    ],
+    "attributeList": [],
     "materialList": [
       {
         "itemId": 11700243,
         "num": 1
       }
     ],
-    "skillList": [],
-    "tempdesc": "防御力+150",
-    "desc": "防御力+150",
+    "skillList": [
+      {
+        "skillId": 12302233
+      }
+    ],
+    "tempdesc": "每次有卡牌生成时，回复生命值最低的1名我方5%生命值",
+    "desc": "每次有卡牌生成时，回复生命值最低的1名我方5%生命值",
     "skillChangeList": [],
     "skillParamOffsetList": []
   },
@@ -15830,8 +15854,8 @@
         "skillId": 12302213
       }
     ],
-    "tempdesc": "",
-    "desc": "",
+    "tempdesc": "每次抽到黑卡时，自身攻击力+3%，上限99%",
+    "desc": "每次抽到黑卡时，自身攻击力+3%，上限99%",
     "skillChangeList": [],
     "skillParamOffsetList": []
   },
@@ -15966,6 +15990,3271 @@
     "skillList": [],
     "tempdesc": "",
     "desc": "",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100696,
+    "idCN": "04四星/莉薇娅/新觉醒4-谐律余音",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "谐律余音",
+    "path": "RolePlus\\00Gift\\Circular\\QiangRen",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700071,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "使用【奇异火花】后，使我方全体攻击力和防御力+1%，上限15%",
+    "desc": "使用【奇异火花】后，使我方全体攻击力和防御力+1%，上限15%",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100697,
+    "idCN": "03三星/弗兰/觉醒3-强韧",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "强韧",
+    "path": "RolePlus\\00Gift\\Circular\\QiangRen",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 600000
+      }
+    ],
+    "materialList": [
+      {
+        "itemId": 11700096,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "防御力+60",
+    "desc": "防御力+60",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100698,
+    "idCN": "03三星/弗兰/觉醒4-斗志",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "斗志",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 600000
+      }
+    ],
+    "materialList": [
+      {
+        "itemId": 11700096,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "攻击力+60",
+    "desc": "攻击力+60",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100699,
+    "idCN": "03三星/艾略特/觉醒4-强韧",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "强韧",
+    "path": "RolePlus\\00Gift\\Circular\\QiangRen",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 600000
+      }
+    ],
+    "materialList": [
+      {
+        "itemId": 11700095,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "防御力+60",
+    "desc": "防御力+60",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100700,
+    "idCN": "03三星/艾略特/觉醒3-斗志",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "斗志",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 600000
+      }
+    ],
+    "materialList": [
+      {
+        "itemId": 11700095,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "攻击力+60",
+    "desc": "攻击力+60",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100701,
+    "idCN": "04四星/莉薇娅/新觉醒3-斗志",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "斗志",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 1000000
+      },
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 1000000
+      }
+    ],
+    "materialList": [
+      {
+        "itemId": 11700071,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "攻击力+100\\n防御力+100",
+    "desc": "攻击力+100\\n防御力+100",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100702,
+    "idCN": "03三星/伽罗尔/新觉醒3-斗志",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "斗志",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 600000
+      },
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 600000
+      }
+    ],
+    "materialList": [
+      {
+        "itemId": 11700023,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "攻击力+60\\n防御力+60",
+    "desc": "攻击力+60\\n防御力+60",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100703,
+    "idCN": "03三星/伽罗尔/新觉醒4-戏法余韵",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "戏法余韵",
+    "path": "RolePlus\\00Gift\\Circular\\QiangRen",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700023,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12302230
+      }
+    ],
+    "tempdesc": "每次有【萌宠戏法】/【气球秀】被【销毁】时，使我方全体【普通攻击】速度提高10%\r同时有20%概率获得1点费用（需要加费特效）",
+    "desc": "每次有【萌宠戏法】/【气球秀】被【销毁】时，使我方全体【普通攻击】速度提高10%\r同时有20%概率获得1点费用（需要加费特效）",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100704,
+    "idCN": "04四星/叶珏/新觉醒3-斗志",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "斗志",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 1000000
+      },
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 1000000
+      }
+    ],
+    "materialList": [
+      {
+        "itemId": 11700063,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "攻击力+100\\n防御力+100",
+    "desc": "攻击力+100\\n防御力+100",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100705,
+    "idCN": "04四星/叶珏/新觉醒4-鸣",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "鸣",
+    "path": "RolePlus\\00Gift\\Circular\\QiangRen",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700063,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12302231
+      }
+    ],
+    "tempdesc": "使用【闪冕】后，将【闪冕】目标队友的1张技能牌加入手牌",
+    "desc": "使用【闪冕】后，将【闪冕】目标队友的1张技能牌加入手牌",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100706,
+    "idCN": "03三星/遥/新觉醒3-斗志",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "斗志",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 600000
+      },
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 600000
+      }
+    ],
+    "materialList": [
+      {
+        "itemId": 11700018,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "攻击力+60\\n防御力+60",
+    "desc": "攻击力+60\\n防御力+60",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100707,
+    "idCN": "03三星/遥/新觉醒4-《天下一家》",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "《天下一家》",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700018,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12302232
+      }
+    ],
+    "tempdesc": "“Just you and me\r使用【就是这样】后，每秒获得1点费用，持续5秒",
+    "desc": "“Just you and me\r使用【就是这样】后，每秒获得1点费用，持续5秒",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100708,
+    "idCN": "05五星/罗洁尓_人/新觉醒3-斗志",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "斗志",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 1500000
+      },
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 1500000
+      }
+    ],
+    "materialList": [
+      {
+        "itemId": 11700232,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "攻击力+150\\n防御力+150",
+    "desc": "攻击力+150\\n防御力+150",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100709,
+    "idCN": "05五星/罗洁尓_人/新觉醒4-星核",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "星核",
+    "path": "RolePlus\\00Gift\\Circular\\QiangRen",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700232,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12302234
+      }
+    ],
+    "tempdesc": "从牌库抽到【负能】时，随机生成1张【元素核·电】/【元素核·火】/【元素核·冰】加入手牌，可超出手牌上限",
+    "desc": "从牌库抽到【负能】时，随机生成1张【元素核·电】/【元素核·火】/【元素核·冰】加入手牌，可超出手牌上限",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100710,
+    "idCN": "05五星/乌刹娜/新觉醒3-斗志",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "斗志",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 1500000
+      },
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 1500000
+      }
+    ],
+    "materialList": [
+      {
+        "itemId": 11700240,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "攻击力+150\\n防御力+150",
+    "desc": "攻击力+150\\n防御力+150",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100711,
+    "idCN": "05五星/乌刹娜/新觉醒4-须臾",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "须臾",
+    "path": "RolePlus\\00Gift\\Circular\\QiangRen",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700240,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12302235
+      }
+    ],
+    "tempdesc": "【裂蚀法界】持续期间，自身受到的伤害降低50%",
+    "desc": "【裂蚀法界】持续期间，自身受到的伤害降低50%",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100712,
+    "idCN": "04四星/菲妮娅/新觉醒3-斗志",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "斗志",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 1000000
+      },
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 1000000
+      }
+    ],
+    "materialList": [
+      {
+        "itemId": 11700024,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "攻击力+100\\n防御力+100",
+    "desc": "攻击力+100\\n防御力+100",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100713,
+    "idCN": "04四星/菲妮娅/新觉醒4-神机",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "神机",
+    "path": "RolePlus\\00Gift\\Circular\\QiangRen",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700024,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12302236
+      }
+    ],
+    "tempdesc": "【锦囊】入手时，有8%概率生成1张黑卡【黑8】加入手牌",
+    "desc": "【锦囊】入手时，有8%概率生成1张黑卡【黑8】加入手牌",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100714,
+    "idCN": "05五星/约书亚/新觉醒3-斗志",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "斗志",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 1500000
+      },
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 1500000
+      }
+    ],
+    "materialList": [
+      {
+        "itemId": 11700064,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "攻击力+150\\n防御力+150",
+    "desc": "攻击力+150\\n防御力+150",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100715,
+    "idCN": "05五星/约书亚/新觉醒4-新生",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "新生",
+    "path": "RolePlus\\00Gift\\Circular\\QiangRen",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700064,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12302237
+      }
+    ],
+    "tempdesc": "每使用1点费用，回复自身1%生命值\\n使用【启示】时，使自身【点燃】",
+    "desc": "每使用1点费用，回复自身1%生命值\\n使用【启示】时，使自身<color=#FF6666>【点燃】</color>",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100716,
+    "idCN": "05五星/雅莱/新觉醒3-斗志",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "斗志",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 1500000
+      },
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 1500000
+      }
+    ],
+    "materialList": [
+      {
+        "itemId": 11700221,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "攻击力+150\\n防御力+150",
+    "desc": "攻击力+150\\n防御力+150",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100717,
+    "idCN": "05五星/雅莱/新觉醒4-精神回廊",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "精神回廊",
+    "path": "RolePlus\\00Gift\\Circular\\QianYing",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700221,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12302238
+      }
+    ],
+    "tempdesc": "【伴生体】拥有300点精力值上限\\n同时每次使用卡牌时，额外获得5点精力值",
+    "desc": "【伴生体】拥有300点精力值上限\\n同时每次使用卡牌时，额外获得5点精力值",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100718,
+    "idCN": "05五星/雅莱/新觉醒5-极变体",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "极变体",
+    "path": "RolePlus\\00Gift\\Circular\\JiBianTi",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700221,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12302239
+      }
+    ],
+    "tempdesc": "【伴生体】 精力值越高，雅莱和 【伴生体】造成的最终伤害越高，最高85%\\n同时受到的最终伤害也越高，最高30%",
+    "desc": "【伴生体】 精力值越高，雅莱和 【伴生体】造成的最终伤害越高，最高85%\\n同时受到的最终伤害也越高，最高30%",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100719,
+    "idCN": "05五星/丽桑德拉/新觉醒3-斗志",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "斗志",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 1500000
+      },
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 1500000
+      }
+    ],
+    "materialList": [
+      {
+        "itemId": 11700082,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "攻击力+150\\n防御力+150",
+    "desc": "攻击力+150\\n防御力+150",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100720,
+    "idCN": "05五星/丽桑德拉/新觉醒4-循迹",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "循迹",
+    "path": "RolePlus\\00Gift\\Circular\\QiangRen",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700082,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12302240
+      }
+    ],
+    "tempdesc": "使用【寻径】后，基于当前手牌数量和费用数量强化自身\\n每张手牌使我方全体攻击力+0.5%，上限30%\\n每点费用使我方全体防御力+0.5%，上限30%",
+    "desc": "使用【寻径】后，基于当前手牌数量和费用数量强化自身\\n每张手牌使我方全体攻击力+0.5%，上限30%\\n每点费用使我方全体防御力+0.5%，上限30%",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100721,
+    "idCN": "05五星/索玛/新觉醒3-斗志",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "斗志",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 1500000
+      },
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 1500000
+      }
+    ],
+    "materialList": [
+      {
+        "itemId": 11700011,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "攻击力+150\\n防御力+150",
+    "desc": "攻击力+150\\n防御力+150",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100722,
+    "idCN": "05五星/索玛/新觉醒4-血誓",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "血誓",
+    "path": "RolePlus\\00Gift\\Circular\\QiangRen",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700011,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12302241
+      }
+    ],
+    "tempdesc": "队友濒死时，为其释放黑荆棘吸取敌方生命值并【禁锢】，限2次",
+    "desc": "队友濒死时，为其释放黑荆棘吸取敌方生命值并<color=#B383FF>【禁锢】</color>，限2次",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100724,
+    "idCN": "05五星/达斯廷/新觉醒3-斗志",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "斗志",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 1500000
+      },
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 1500000
+      }
+    ],
+    "materialList": [
+      {
+        "itemId": 11700124,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "攻击力+150\\n防御力+150",
+    "desc": "攻击力+150\\n防御力+150",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100725,
+    "idCN": "05五星/达斯廷/新觉醒4-“芒种”",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "“芒种”",
+    "path": "RolePlus\\00Gift\\Circular\\QiangRen",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700124,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12302242
+      }
+    ],
+    "tempdesc": "每存在1个【天火】，自身受到的伤害降低3%",
+    "desc": "每存在1个【天火】，自身受到的伤害降低3%",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100726,
+    "idCN": "02二星/波克士/新觉醒3-斗志",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "斗志",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 400000
+      },
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 400000
+      }
+    ],
+    "materialList": [
+      {
+        "itemId": 11700029,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "攻击力+40\\n防御力+40",
+    "desc": "攻击力+40\\n防御力+40",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100727,
+    "idCN": "02二星/波克士/新觉醒4-战术预载",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "战术预载",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700029,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "【军械库】增强为：\\n\"Drop the beat! \"\\n波克士搜索小军械库\\n从【手枪】/【突击步枪】/【燃烧手雷】/【呼机】中选择1张加入手牌",
+    "desc": "【军械库】增强为：\\n\"Drop the beat! \"\\n波克士搜索小军械库\\n从【手枪】/【突击步枪】/【燃烧手雷】/【呼机】中选择1张加入手牌",
+    "skillChangeList": [
+      {
+        "newSkillId": 12302244,
+        "oldSkillId": 12300447
+      }
+    ],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100728,
+    "idCN": "03三星/圣剑波克士/新觉醒3-斗志",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "斗志",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 600000
+      },
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 600000
+      }
+    ],
+    "materialList": [
+      {
+        "itemId": 11700142,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "攻击力+60\\n防御力+60",
+    "desc": "攻击力+60\\n防御力+60",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100729,
+    "idCN": "03三星/圣剑波克士/新觉醒4-锻刃",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "锻刃",
+    "path": "RolePlus\\00Gift\\Circular\\QiangRen",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700142,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12302245
+      }
+    ],
+    "tempdesc": "防御力+60",
+    "desc": "防御力+60",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100723,
+    "idCN": "03三星/金子小姐/新觉醒3-斗志",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "斗志",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 600000
+      },
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 600000
+      }
+    ],
+    "materialList": [
+      {
+        "itemId": 11700231,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "攻击力+60\\n防御力+60",
+    "desc": "攻击力+60\\n防御力+60",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100730,
+    "idCN": "03三星/金子小姐/新觉醒4-淘金狂热",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "淘金狂热",
+    "path": "RolePlus\\00Gift\\Circular\\QiangRen",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700231,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12302243
+      }
+    ],
+    "tempdesc": "每获得1枚【金币】，自身攻击力和防御力+0.5%，上限30%",
+    "desc": "每获得1枚【金币】，自身攻击力和防御力+0.5%，上限30%",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100731,
+    "idCN": "03三星/跳鼠/新觉醒3-斗志",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "斗志",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 600000
+      },
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 600000
+      }
+    ],
+    "materialList": [
+      {
+        "itemId": 11700035,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "攻击力+60\\n防御力+60",
+    "desc": "攻击力+60\\n防御力+60",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100732,
+    "idCN": "03三星/跳鼠/新觉醒4-风影",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "风影",
+    "path": "RolePlus\\00Gift\\Circular\\QiangRen",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700035,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12302246
+      }
+    ],
+    "tempdesc": "使用【逆风】后，使自身【隐形】，持续3秒",
+    "desc": "使用【逆风】后，使自身<color=#7AB2FF>【隐形】</color>，持续3秒",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100733,
+    "idCN": "03三星/山岚/新觉醒3-斗志",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "斗志",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 600000
+      },
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 600000
+      }
+    ],
+    "materialList": [
+      {
+        "itemId": 11700046,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "攻击力+60\\n防御力+60",
+    "desc": "攻击力+60\\n防御力+60",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100734,
+    "idCN": "03三星/山岚/新觉醒4-风刃",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "风刃",
+    "path": "RolePlus\\00Gift\\Circular\\QiangRen",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700046,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12302247
+      }
+    ],
+    "tempdesc": "使处于【撕裂】状态的敌方，受到的最终伤害增加10%",
+    "desc": "使处于<color=#FF6666>【撕裂】</color>状态的敌方，受到的最终伤害增加10%",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100735,
+    "idCN": "03三星/狮鬃/新觉醒3-斗志",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "斗志",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 600000
+      },
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 600000
+      }
+    ],
+    "materialList": [
+      {
+        "itemId": 11700074,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "攻击力+60\\n防御力+60",
+    "desc": "攻击力+60\\n防御力+60",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100736,
+    "idCN": "03三星/狮鬃/新觉醒4-MIX",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "MIX",
+    "path": "RolePlus\\00Gift\\Circular\\QiangRen",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700074,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12302248
+      }
+    ],
+    "tempdesc": "使用【家虎】后，我方全体防御力+20%，持续6秒",
+    "desc": "使用【家虎】后，我方全体防御力+20%，持续6秒",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100737,
+    "idCN": "03三星/雷火/新觉醒3-斗志",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "斗志",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 600000
+      },
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 600000
+      }
+    ],
+    "materialList": [
+      {
+        "itemId": 11700093,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "攻击力+60\\n防御力+60",
+    "desc": "攻击力+60\\n防御力+60",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100738,
+    "idCN": "03三星/雷火/新觉醒4-预爆指令",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "预爆指令",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700093,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12302249
+      }
+    ],
+    "tempdesc": "使用【大红按钮】时，使我方前排获得【护盾】，持续10秒，【护盾】的耐久为自身防御力的2000%",
+    "desc": "使用【大红按钮】时，使我方前排获得【护盾】，持续10秒，【护盾】的耐久为自身防御力的2000%",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100739,
+    "idCN": "03三星/瑞秋/新觉醒3-斗志",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "斗志",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 600000
+      },
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 600000
+      }
+    ],
+    "materialList": [
+      {
+        "itemId": 11700022,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "攻击力+60\\n防御力+60",
+    "desc": "攻击力+60\\n防御力+60",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100740,
+    "idCN": "03三星/瑞秋/新觉醒4-医疗储备",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "医疗储备",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700022,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12302250
+      }
+    ],
+    "tempdesc": "触发【肾上腺素】时，从牌库或弃牌区将1张绿卡加入手牌",
+    "desc": "触发【肾上腺素】时，从牌库或弃牌区将1张绿卡加入手牌",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100741,
+    "idCN": "03三星/卡莲/新觉醒3-斗志",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "斗志",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 600000
+      },
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 600000
+      }
+    ],
+    "materialList": [
+      {
+        "itemId": 11700012,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "攻击力+60\\n防御力+60",
+    "desc": "攻击力+60\\n防御力+60",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100742,
+    "idCN": "03三星/卡莲/新觉醒4-活力装药",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "活力装药",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700012,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12302251
+      }
+    ],
+    "tempdesc": "每次受到卡莲治疗的我方目标【普通攻击】伤害提高10%，上限100%",
+    "desc": "每次受到卡莲治疗的我方目标【普通攻击】伤害提高10%，上限100%",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100743,
+    "idCN": "03三星/静流/新觉醒3-斗志",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "斗志",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 600000
+      },
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 600000
+      }
+    ],
+    "materialList": [
+      {
+        "itemId": 11700099,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "攻击力+60\\n防御力+60",
+    "desc": "攻击力+60\\n防御力+60",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100744,
+    "idCN": "03三星/静流/新觉醒4-绝境强袭",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "绝境强袭",
+    "path": "RolePlus\\00Gift\\Circular\\QiangRen",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700099,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12302252
+      }
+    ],
+    "tempdesc": "当任意我方生命值低于30%时，直接打出1次【强袭指令】\\n同时使我方所有【突击队员】获得【霸体】，持续10秒",
+    "desc": "当任意我方生命值低于30%时，直接打出1次【强袭指令】\\n同时使我方所有【突击队员】获得<color=#7AB2FF>【霸体】</color>，持续10秒",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100764,
+    "idCN": "04四星/黛丝莉/新觉醒4-脉冲共鸣",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "脉冲共鸣",
+    "path": "RolePlus\\00Gift\\Circular\\QiangRen",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700092,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12302262
+      }
+    ],
+    "tempdesc": "每次获得【磁弦脉冲】，自身攻击力+0.5%，上限30%",
+    "desc": "每次获得【磁弦脉冲】，自身攻击力+0.5%，上限30%",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100763,
+    "idCN": "04四星/黛丝莉/新觉醒3-斗志",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "斗志",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 1000000
+      },
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 1000000
+      }
+    ],
+    "materialList": [
+      {
+        "itemId": 11700092,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "攻击力+100\\n防御力+100",
+    "desc": "攻击力+100\\n防御力+100",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100762,
+    "idCN": "05五星/亚莉奈/新觉醒4-“黑色低语”",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "“黑色低语”",
+    "path": "RolePlus\\00Gift\\Circular\\QiangRen",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700131,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12302261
+      }
+    ],
+    "tempdesc": "每次“黑莓”出没时，自身攻击力+0.5%，上限50%",
+    "desc": "每次“黑莓”出没时，自身攻击力+0.5%，上限50%",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100761,
+    "idCN": "05五星/亚莉奈/新觉醒3-斗志",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "斗志",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 1500000
+      },
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 1500000
+      }
+    ],
+    "materialList": [
+      {
+        "itemId": 11700131,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "攻击力+150\\n防御力+150",
+    "desc": "攻击力+150\\n防御力+150",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100760,
+    "idCN": "04四星/冯里奈/新觉醒4-热浪",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "热浪",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700033,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12302260
+      }
+    ],
+    "tempdesc": "使处于【燎原】下的敌方，造成的最终伤害降低10%",
+    "desc": "使处于<color=#FF6666>【燎原】</color>下的敌方，造成的最终伤害降低10%",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100759,
+    "idCN": "04四星/冯里奈/新觉醒3-斗志",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "斗志",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 1000000
+      },
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 1000000
+      }
+    ],
+    "materialList": [
+      {
+        "itemId": 11700033,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "攻击力+100\\n防御力+100",
+    "desc": "攻击力+100\\n防御力+100",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100758,
+    "idCN": "04四星/瓦伦汀/新觉醒4-共济",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "共济",
+    "path": "RolePlus\\00Gift\\Circular\\QiangRen",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700019,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12302259
+      }
+    ],
+    "tempdesc": "每次造成【点燃】时，回复随机我方1%生命值",
+    "desc": "每次造成<color=#FF6666>【点燃】</color>时，回复随机我方1%生命值",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100757,
+    "idCN": "04四星/瓦伦汀/新觉醒3-斗志",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "斗志",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 1000000
+      },
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 1000000
+      }
+    ],
+    "materialList": [
+      {
+        "itemId": 11700019,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "攻击力+100\\n防御力+100",
+    "desc": "攻击力+100\\n防御力+100",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100756,
+    "idCN": "04四星/阿知波/新觉醒4-无明怒火",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "无明怒火",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700127,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12302258
+      }
+    ],
+    "tempdesc": "使用【无明】后，下1张【一发入魂】造成的伤害提高100%",
+    "desc": "使用【无明】后，下1张【一发入魂】造成的伤害提高100%",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100755,
+    "idCN": "04四星/阿知波/新觉醒3-斗志",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "斗志",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 1000000
+      },
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 1000000
+      }
+    ],
+    "materialList": [
+      {
+        "itemId": 11700031,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "攻击力+100\\n防御力+100",
+    "desc": "攻击力+100\\n防御力+100",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100754,
+    "idCN": "04四星/奈弥/新觉醒4-双极乱心",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "双极乱心",
+    "path": "RolePlus\\00Gift\\Circular\\QiangRen",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700127,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12302257
+      }
+    ],
+    "tempdesc": "每次造成【灼心】时，自身攻击力+1%，上限30%\\n每次造成【混乱】时，自身防御力+1%，上限30%",
+    "desc": "每次造成<color=#FF6666>【灼心】</color>时，自身攻击力+1%，上限30%\\n每次造成<color=#B383FF>【混乱】</color>时，自身防御力+1%，上限30%",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100753,
+    "idCN": "04四星/奈弥/新觉醒3-斗志",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "斗志",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 1000000
+      },
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 1000000
+      }
+    ],
+    "materialList": [
+      {
+        "itemId": 11700127,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "攻击力+100\\n防御力+100",
+    "desc": "攻击力+100\\n防御力+100",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100752,
+    "idCN": "04四星/甘雅/新觉醒4-战术护旋",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "战术护旋",
+    "path": "RolePlus\\00Gift\\Circular\\QiangRen",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700123,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12302256
+      }
+    ],
+    "tempdesc": "【回旋飞斧】释放期间，有25%概率【格挡】受到的攻击",
+    "desc": "【回旋飞斧】释放期间，有25%概率<color=#7AB2FF>【格挡】</color>受到的攻击",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100751,
+    "idCN": "04四星/甘雅/新觉醒3-斗志",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "斗志",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 1000000
+      },
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 1000000
+      }
+    ],
+    "materialList": [
+      {
+        "itemId": 11700123,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "攻击力+100\\n防御力+100",
+    "desc": "攻击力+100\\n防御力+100",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100750,
+    "idCN": "03三星/阿尔喀娜/新觉醒4-自然馈赠",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "自然馈赠",
+    "path": "RolePlus\\00Gift\\Circular\\DieMeng",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700098,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12302255
+      }
+    ],
+    "tempdesc": "【自然回声】持续期间，每秒回复随机我方1%生命值",
+    "desc": "【自然回声】持续期间，每秒回复随机我方1%生命值",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100749,
+    "idCN": "03三星/阿尔喀娜/新觉醒3-斗志",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "斗志",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 600000
+      },
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 600000
+      }
+    ],
+    "materialList": [
+      {
+        "itemId": 11700098,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "攻击力+60\\n防御力+60",
+    "desc": "攻击力+60\\n防御力+60",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100748,
+    "idCN": "03三星/塔拉/新觉醒4-赤羽",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "赤羽",
+    "path": "RolePlus\\00Gift\\Circular\\QiangRen",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700076,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12302254
+      }
+    ],
+    "tempdesc": "使用【旋羽】后，基于【旋羽】丢弃卡牌的费用，每点费用对敌方目标造成1段伤害，同时触发【点燃】",
+    "desc": "使用【旋羽】后，基于【旋羽】丢弃卡牌的费用，每点费用对敌方目标造成1段伤害，同时触发<color=#FF6666>【点燃】</color>",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100746,
+    "idCN": "03三星/朱利安/新觉醒4-雾中杀机",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "雾中杀机",
+    "path": "RolePlus\\00Gift\\Circular\\QiangRen",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700070,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12302253
+      }
+    ],
+    "tempdesc": "使处于【烟雾弹】下的目标，受到的最终伤害增加20%",
+    "desc": "使处于【烟雾弹】下的目标，受到的最终伤害增加20%",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100745,
+    "idCN": "03三星/朱利安/新觉醒3-斗志",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "斗志",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 600000
+      },
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 600000
+      }
+    ],
+    "materialList": [
+      {
+        "itemId": 11700070,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "攻击力+60\\n防御力+60",
+    "desc": "攻击力+60\\n防御力+60",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100747,
+    "idCN": "03三星/塔拉/新觉醒3-斗志",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "斗志",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 600000
+      },
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 600000
+      }
+    ],
+    "materialList": [
+      {
+        "itemId": 11700076,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "攻击力+60\\n防御力+60",
+    "desc": "攻击力+60\\n防御力+60",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100765,
+    "idCN": "04四星/晃/新觉醒3-斗志",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "斗志",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 1000000
+      },
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 1000000
+      }
+    ],
+    "materialList": [
+      {
+        "itemId": 11700140,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "攻击力+100\\n防御力+100",
+    "desc": "攻击力+100\\n防御力+100",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100766,
+    "idCN": "04四星/晃/新觉醒4-朗道冰刃",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "朗道冰刃",
+    "path": "RolePlus\\00Gift\\Circular\\QiangRen",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700140,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12302263
+      }
+    ],
+    "tempdesc": "【开尔文笑话】持续期间，我方造成的【斩裂】/【撕裂】伤害提高50%",
+    "desc": "【开尔文笑话】持续期间，我方造成的<color=#FF6666>【斩裂】</color>/<color=#FF6666>【撕裂】</color>伤害提高50%",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100767,
+    "idCN": "04四星/卡莱雅/新觉醒3-斗志",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "斗志",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 1000000
+      },
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 1000000
+      }
+    ],
+    "materialList": [
+      {
+        "itemId": 11700081,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "攻击力+100\\n防御力+100",
+    "desc": "攻击力+100\\n防御力+100",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100768,
+    "idCN": "04四星/卡莱雅/新觉醒4-链式氧化",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "链式氧化",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700081,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12302264
+      }
+    ],
+    "tempdesc": "【富氧大气】持续期间，每次自身造成【点燃】时，获得0.1点费用",
+    "desc": "【富氧大气】持续期间，每次自身造成<color=#FF6666>【点燃】</color>时，获得0.1点费用",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100769,
+    "idCN": "04四星/伊尔/新觉醒3-斗志",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "斗志",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 1000000
+      },
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 1000000
+      }
+    ],
+    "materialList": [
+      {
+        "itemId": 11700130,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "攻击力+100\\n防御力+100",
+    "desc": "攻击力+100\\n防御力+100",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100770,
+    "idCN": "04四星/伊尔/新觉醒4-蜂群协议",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "蜂群协议",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700130,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12302265
+      }
+    ],
+    "tempdesc": "每次有【无人机】回收时，自身攻击力+0.5%，上限30%",
+    "desc": "每次有【无人机】回收时，自身攻击力+0.5%，上限30%",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100771,
+    "idCN": "04四星/塞西尔/新觉醒3-斗志",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "斗志",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 1000000
+      },
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 1000000
+      }
+    ],
+    "materialList": [
+      {
+        "itemId": 11700090,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "攻击力+100\\n防御力+100",
+    "desc": "攻击力+100\\n防御力+100",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100772,
+    "idCN": "04四星/塞西尔/新觉醒4-“炽霞倾橙”",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "“炽霞倾橙”",
+    "path": "RolePlus\\00Gift\\Circular\\QiangRen",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700090,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12302266
+      }
+    ],
+    "tempdesc": "每有1张【焚心余烬】被【销毁】时，使我方后排攻击力+1%，上限30%",
+    "desc": "每有1张【焚心余烬】被【销毁】时，使我方后排攻击力+1%，上限30%",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100773,
+    "idCN": "04四星/魇/新觉醒3-斗志",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "斗志",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 1000000
+      },
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 1000000
+      }
+    ],
+    "materialList": [
+      {
+        "itemId": 11700072,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "攻击力+100\\n防御力+100",
+    "desc": "攻击力+100\\n防御力+100",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100774,
+    "idCN": "04四星/魇/新觉醒4-逆刃",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "逆刃",
+    "path": "RolePlus\\00Gift\\Circular\\QiangRen",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700072,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12302267
+      }
+    ],
+    "tempdesc": "自身处于【隐形】状态时，直接打出1次【电柱割】",
+    "desc": "自身处于<color=#7AB2FF>【隐形】</color>状态时，直接打出1次【电柱割】",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100775,
+    "idCN": "04四星/霖/新觉醒3-斗志",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "斗志",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 1000000
+      },
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 1000000
+      }
+    ],
+    "materialList": [
+      {
+        "itemId": 11700017,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "攻击力+100\\n防御力+100",
+    "desc": "攻击力+100\\n防御力+100",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100776,
+    "idCN": "04四星/霖/新觉醒4-蜃影",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "蜃影",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700017,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12302268
+      }
+    ],
+    "tempdesc": "【回避】成功时，使自身【隐形】，持续3秒",
+    "desc": "【回避】成功时，使自身<color=#7AB2FF>【隐形】</color>，持续3秒",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100777,
+    "idCN": "04四星/苍叶/新觉醒3-斗志",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "斗志",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 1000000
+      },
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 1000000
+      }
+    ],
+    "materialList": [
+      {
+        "itemId": 11700097,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "攻击力+100\\n防御力+100",
+    "desc": "攻击力+100\\n防御力+100",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100778,
+    "idCN": "04四星/苍叶/新觉醒4-千机",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "千机",
+    "path": "RolePlus\\00Gift\\Circular\\QiangRen",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700097,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12302269
+      }
+    ],
+    "tempdesc": "使用【舒卷】时，使自身随机触发【无敌】/【霸体】/【隐形】，持续2秒",
+    "desc": "使用【舒卷】时，使自身随机触发<color=#7AB2FF>【无敌】</color>/<color=#7AB2FF>【霸体】</color>/<color=#7AB2FF>【隐形】</color>，持续2秒",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100779,
+    "idCN": "04四星/宵月/新觉醒3-斗志",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "斗志",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 1000000
+      },
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 1000000
+      }
+    ],
+    "materialList": [
+      {
+        "itemId": 11700007,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "攻击力+100\\n防御力+100",
+    "desc": "攻击力+100\\n防御力+100",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100780,
+    "idCN": "04四星/宵月/新觉醒4-秋实",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "秋实",
+    "path": "RolePlus\\00Gift\\Circular\\QiangRen",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700007,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12302270
+      }
+    ],
+    "tempdesc": "每秒受到【花见之术】治疗的我方目标攻击力+0.2%，上限30%\\n每秒受到【月见之术】防护的我方目标防御力+0.1%，上限30%",
+    "desc": "每秒受到【花见之术】治疗的我方目标攻击力+0.2%，上限30%\\n每秒受到【月见之术】防护的我方目标防御力+0.1%，上限30%",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100781,
+    "idCN": "04四星/海因里希/新觉醒3-斗志",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "斗志",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 1000000
+      },
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 1000000
+      }
+    ],
+    "materialList": [
+      {
+        "itemId": 11700041,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "攻击力+100\\n防御力+100",
+    "desc": "攻击力+100\\n防御力+100",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100782,
+    "idCN": "04四星/海因里希/新觉醒4-战略威慑",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "战略威慑",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700041,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12302271
+      }
+    ],
+    "tempdesc": "每有1张带有【爆炸物】词条的卡牌在手牌中时，敌方造成的最终伤害降低3%",
+    "desc": "每有1张带有【爆炸物】词条的卡牌在手牌中时，敌方造成的最终伤害降低3%",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100783,
+    "idCN": "05五星/无名/新觉醒3-斗志",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "斗志",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 1500000
+      },
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 1500000
+      }
+    ],
+    "materialList": [
+      {
+        "itemId": 11700229,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "攻击力+150\\n防御力+150",
+    "desc": "攻击力+150\\n防御力+150",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100784,
+    "idCN": "05五星/无名/新觉醒4-血樱",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "血樱",
+    "path": "RolePlus\\00Gift\\Circular\\QiangRen",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700229,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12302272
+      }
+    ],
+    "tempdesc": "使【卡巴内利之力】吸取生命值的我方攻击力和防御力+3%，上限30%",
+    "desc": "使【卡巴内利之力】吸取生命值的我方攻击力和防御力+3%，上限30%",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100785,
+    "idCN": "05五星/生驹/新觉醒4-血樱",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "血樱",
+    "path": "RolePlus\\00Gift\\Circular\\QiangRen",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700227,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12302273
+      }
+    ],
+    "tempdesc": "使【卡巴内利之力】吸取生命值的我方攻击力和防御力+3%，上限30%",
+    "desc": "使【卡巴内利之力】吸取生命值的我方攻击力和防御力+3%，上限30%",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100786,
+    "idCN": "05五星/生驹/新觉醒3-斗志",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "斗志",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 1500000
+      },
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 1500000
+      }
+    ],
+    "materialList": [
+      {
+        "itemId": 11700227,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "攻击力+150\\n防御力+150",
+    "desc": "攻击力+150\\n防御力+150",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100787,
+    "idCN": "05五星/夏洛蒂/新觉醒3-斗志",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "斗志",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 1500000
+      },
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 1500000
+      }
+    ],
+    "materialList": [
+      {
+        "itemId": 11700091,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "攻击力+150\\n防御力+150",
+    "desc": "攻击力+150\\n防御力+150",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100788,
+    "idCN": "05五星/夏洛蒂/新觉醒4-胧月",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "胧月",
+    "path": "RolePlus\\00Gift\\Circular\\QiangRen",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700091,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12302274
+      }
+    ],
+    "tempdesc": "【普通攻击】有20%概率直接打出1次【灾月】，同时使自身造成的【斩裂】伤害提高10%，上限100%",
+    "desc": "【普通攻击】有20%概率直接打出1次【灾月】，同时使自身造成的<color=#FF6666>【斩裂】</color>伤害提高10%，上限100%",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100789,
+    "idCN": "05五星/马吉拉/新觉醒3-斗志",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "斗志",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 1500000
+      },
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 1500000
+      }
+    ],
+    "materialList": [
+      {
+        "itemId": 11700091,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "攻击力+150\\n防御力+150",
+    "desc": "攻击力+150\\n防御力+150",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100790,
+    "idCN": "05五星/马吉拉/新觉醒4-萌芽",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "萌芽",
+    "path": "RolePlus\\00Gift\\Circular\\QiangRen",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700073,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12302275
+      }
+    ],
+    "tempdesc": "每有1张【新星】被生成时，获得0.5点费用",
+    "desc": "每有1张【新星】被生成时，获得0.5点费用",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100791,
+    "idCN": "05五星/卡塔斯/新觉醒3-斗志",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "斗志",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 1500000
+      },
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 1500000
+      }
+    ],
+    "materialList": [
+      {
+        "itemId": 11700069,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "攻击力+150\\n防御力+150",
+    "desc": "攻击力+150\\n防御力+150",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100792,
+    "idCN": "05五星/卡塔斯/新觉醒4-魔剑主",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "魔剑主",
+    "path": "RolePlus\\00Gift\\Circular\\QiangRen",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700069,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12302277
+      }
+    ],
+    "tempdesc": "开局生成1张【暗耀斩钢】加入手牌\\n【暗耀斩钢】在手牌中时，持续【销毁】手牌中的所有黑卡和【暗艺】，每【销毁】1张，本场战斗【暗耀斩钢】伤害+10%，上限300%",
+    "desc": "开局生成1张【暗耀斩钢】加入手牌\\n【暗耀斩钢】在手牌中时，持续【销毁】手牌中的所有黑卡和【暗艺】，每【销毁】1张，本场战斗【暗耀斩钢】伤害+10%，上限300%",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100793,
+    "idCN": "05五星/薇尔岚/新觉醒3-斗志",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "斗志",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 1500000
+      },
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 1500000
+      }
+    ],
+    "materialList": [
+      {
+        "itemId": 11700061,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "攻击力+150\\n防御力+150",
+    "desc": "攻击力+150\\n防御力+150",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100794,
+    "idCN": "05五星/薇尔岚/新觉醒4-梦呓",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "梦呓",
+    "path": "RolePlus\\00Gift\\Circular\\QiangRen",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700061,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12302278
+      }
+    ],
+    "tempdesc": "使用【队长技】时，直接打出1次【星弧】",
+    "desc": "使用【队长技】时，直接打出1次【星弧】",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100795,
+    "idCN": "05五星/柯娜/新觉醒3-斗志",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "斗志",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 1500000
+      },
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 1500000
+      }
+    ],
+    "materialList": [
+      {
+        "itemId": 11700068,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "攻击力+150\\n防御力+150",
+    "desc": "攻击力+150\\n防御力+150",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100796,
+    "idCN": "05五星/柯娜/新觉醒4-衍星",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "衍星",
+    "path": "RolePlus\\00Gift\\Circular\\QiangRen",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700068,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12302279
+      }
+    ],
+    "tempdesc": "使用【新星冲击】后，生成1张【新星】加入手牌",
+    "desc": "使用【新星冲击】后，生成1张【新星】加入手牌",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100797,
+    "idCN": "05五星/闻笙/新觉醒3-斗志",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "斗志",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 1500000
+      },
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 1500000
+      }
+    ],
+    "materialList": [
+      {
+        "itemId": 11700032,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "攻击力+150\\n防御力+150",
+    "desc": "攻击力+150\\n防御力+150",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100798,
+    "idCN": "05五星/闻笙/新觉醒4-冽寒",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "冽寒",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700032,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12302281
+      }
+    ],
+    "tempdesc": "每次我方造成【冰封】时，自身攻击力+1%，上限50%",
+    "desc": "每次我方造成【冰封】时，自身攻击力+1%，上限50%",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100799,
+    "idCN": "05五星/伊洛娜/新觉醒3-斗志",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "斗志",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 1500000
+      },
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 1500000
+      }
+    ],
+    "materialList": [
+      {
+        "itemId": 11700094,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "攻击力+150\\n防御力+150",
+    "desc": "攻击力+150\\n防御力+150",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100800,
+    "idCN": "05五星/伊洛娜/新觉醒4-幽灵打击",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "幽灵打击",
+    "path": "RolePlus\\00Gift\\Circular\\QiangRen",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700094,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12302282
+      }
+    ],
+    "tempdesc": "当任意我方处于【隐形】状态时，直接释放1枚【战术导弹】",
+    "desc": "当任意我方处于【隐形】状态时，直接释放1枚【战术导弹】",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100801,
+    "idCN": "05五星/星花/新觉醒3-斗志",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "斗志",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 1500000
+      },
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 1500000
+      }
+    ],
+    "materialList": [
+      {
+        "itemId": 11700021,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "攻击力+150\\n防御力+150",
+    "desc": "攻击力+150\\n防御力+150",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100802,
+    "idCN": "05五星/星花/新觉醒4-战意沸腾",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "战意沸腾",
+    "path": "RolePlus\\00Gift\\Circular\\QiangRen",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700021,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12302283
+      }
+    ],
+    "tempdesc": "【TATAKAU】的初始状态为【TATAKAU!!】",
+    "desc": "【TATAKAU】的初始状态为【TATAKAU!!】",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100803,
+    "idCN": "05五星/卡洛琳/新觉醒3-斗志",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "斗志",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 1500000
+      },
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 1500000
+      }
+    ],
+    "materialList": [
+      {
+        "itemId": 11700141,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "攻击力+150\\n防御力+150",
+    "desc": "攻击力+150\\n防御力+150",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100804,
+    "idCN": "05五星/卡洛琳/新觉醒4-雷云协议",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "雷云协议",
+    "path": "RolePlus\\00Gift\\Circular\\QiangRen",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700141,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12302284
+      }
+    ],
+    "tempdesc": "每次有【无人机】回收时，对生命值最高的敌方触发1次【轰雷】，同时有10%概率触发【轰顶】",
+    "desc": "每次有【无人机】回收时，对生命值最高的敌方触发1次【轰雷】，同时有10%概率触发【轰顶】",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100805,
+    "idCN": "05五星/苔妮/新觉醒3-斗志",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "斗志",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 1500000
+      },
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 1500000
+      }
+    ],
+    "materialList": [
+      {
+        "itemId": 11700043,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "攻击力+150\\n防御力+150",
+    "desc": "攻击力+150\\n防御力+150",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100806,
+    "idCN": "05五星/苔妮/新觉醒4-萦回",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "萦回",
+    "path": "RolePlus\\00Gift\\Circular\\QiangRen",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700043,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12302285
+      }
+    ],
+    "tempdesc": "每回收1张卡牌，自身攻击力和防御力+1%，上限50%",
+    "desc": "每回收1张卡牌，自身攻击力和防御力+1%，上限50%",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100807,
+    "idCN": "05五星/苏恩/新觉醒3-斗志",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "斗志",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 1500000
+      },
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 1500000
+      }
+    ],
+    "materialList": [
+      {
+        "itemId": 11700036,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "攻击力+150\\n防御力+150",
+    "desc": "攻击力+150\\n防御力+150",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100808,
+    "idCN": "05五星/苏恩/新觉醒4-琉璃",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "琉璃",
+    "path": "RolePlus\\00Gift\\Circular\\QiangRen",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700036,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12302286
+      }
+    ],
+    "tempdesc": "【新音】持续期间，我方全体受到的最终伤害降低20%",
+    "desc": "【新音】持续期间，我方全体受到的最终伤害降低20%",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100809,
+    "idCN": "05五星/那由他/新觉醒3-斗志",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "斗志",
+    "path": "RolePlus\\00Gift\\Circular\\DouZhi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 1500000
+      },
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 1500000
+      }
+    ],
+    "materialList": [
+      {
+        "itemId": 11700010,
+        "num": 1
+      }
+    ],
+    "skillList": [],
+    "tempdesc": "攻击力+150\\n防御力+150",
+    "desc": "攻击力+150\\n防御力+150",
+    "skillChangeList": [],
+    "skillParamOffsetList": []
+  },
+  {
+    "id": 12100810,
+    "idCN": "05五星/那由他/新觉醒4-“恒河沙”",
+    "mod": "基础突破",
+    "isInformalData": false,
+    "name": "强韧",
+    "path": "RolePlus\\00Gift\\Circular\\QiangRen",
+    "attriDetialList": [],
+    "attributeList": [],
+    "materialList": [
+      {
+        "itemId": 11700010,
+        "num": 1
+      }
+    ],
+    "skillList": [
+      {
+        "skillId": 12302287
+      }
+    ],
+    "tempdesc": "每丢弃1张卡牌至弃牌区，自身攻击力+0.3%，上限30%",
+    "desc": "每丢弃1张卡牌至弃牌区，自身攻击力+0.3%，上限30%",
     "skillChangeList": [],
     "skillParamOffsetList": []
   }

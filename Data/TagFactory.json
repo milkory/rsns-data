@@ -3795,7 +3795,7 @@
     "isShowDetail": true,
     "temptagNameRichText": "会心连射",
     "tagNameRichText": "会心连射",
-    "detail": "【强愈弹】和【爆炎弹】有30%概率额外打出1发子弹"
+    "detail": "【强愈弹】和【爆炎弹】有30%概率额外打出1次"
   },
   {
     "id": 12600504,
@@ -4068,7 +4068,7 @@
     "isShowDetail": true,
     "temptagNameRichText": "破釜沉舟",
     "tagNameRichText": "破釜沉舟",
-    "detail": "使用【旋羽】后，自身防御力降低5%，攻击力+10%"
+    "detail": "使用【旋羽】后，自身防御力-5%，攻击力+15%，持续10秒"
   },
   {
     "id": 12600526,
@@ -4627,7 +4627,7 @@
     "isShowDetail": true,
     "temptagNameRichText": "多重装药",
     "tagNameRichText": "多重装药",
-    "detail": "自身【爆炸物】随机触发【落雷】，【点燃】或【冻结】"
+    "detail": "自身【爆炸物】随机触发【落雷】/【点燃】/【冻结】"
   },
   {
     "id": 12600573,
@@ -4744,7 +4744,7 @@
     "isShowDetail": true,
     "temptagNameRichText": "寸心",
     "tagNameRichText": "寸心",
-    "detail": "使用【队长技】或得意技能牌时，直接打出1次【无常】"
+    "detail": "使用【队长技】或得意技能牌时，直接打出1次【无常】\\n【无常】离手时，视为使用"
   },
   {
     "id": 12600584,
@@ -4770,7 +4770,7 @@
     "isShowDetail": true,
     "temptagNameRichText": "心眼",
     "tagNameRichText": "心眼",
-    "detail": "隼的【普通攻击】和【无常】追加【弹射】效果"
+    "detail": "隼的【普通攻击】和【无常】追加【弹射】效果\\n同时使处于【灼心】/【点燃】状态的敌方，受到的【撕裂】/【斩裂】伤害增加100%"
   },
   {
     "id": 12600586,
@@ -6109,7 +6109,7 @@
     "isShowDetail": true,
     "temptagNameRichText": "征服者波克士",
     "tagNameRichText": "征服者波克士",
-    "detail": "【手枪】，【突击步枪】，【燃烧手雷】和【呼机】所需费用-1"
+    "detail": "【手枪】/【突击步枪】/【燃烧手雷】/【呼机】所需费用-1"
   },
   {
     "id": 12600430,
@@ -12191,7 +12191,7 @@
     "isShowDetail": true,
     "temptagNameRichText": "血裔",
     "tagNameRichText": "血裔",
-    "detail": "每【销毁】1张【暗艺】，自身生命值上限提高13%，限13次\\n每【销毁】1张黑卡，自身攻击力+1%和防御力+1%，限13次"
+    "detail": "每【销毁】1张【暗艺】，自身生命值上限提高13%，限13次\\n每【销毁】1张黑卡，自身攻击力和防御力+2%，限13次"
   },
   {
     "id": 12601125,
@@ -17299,7 +17299,7 @@
     "tagID": 0,
     "isShowDetail": true,
     "temptagNameRichText": "裂蚀",
-    "tagNameRichText": "<color=#FF6666>裂蚀</color>",
+    "tagNameRichText": "裂蚀",
     "detail": "每秒对目标造成1段负能伤害，同时目标受到的治疗效果下降50%，持续5秒"
   },
   {
@@ -17544,5 +17544,478 @@
     "temptagNameRichText": "",
     "tagNameRichText": "",
     "detail": ""
+  },
+  {
+    "id": 12601565,
+    "idCN": "战斗/角色技能/05/罗洁尓_天使/S",
+    "mod": "标签",
+    "tagName": "B",
+    "tagID": 0,
+    "temptagNameRichText": ""
+  },
+  {
+    "id": 12601566,
+    "idCN": "战斗/角色技能/05/罗洁尓_天使/B",
+    "mod": "标签",
+    "tagName": "B",
+    "tagID": 0,
+    "temptagNameRichText": ""
+  },
+  {
+    "id": 12601567,
+    "idCN": "战斗/角色技能/05/罗洁尓_天使/A",
+    "mod": "标签",
+    "tagName": "B",
+    "tagID": 0,
+    "temptagNameRichText": ""
+  },
+  {
+    "id": 12601569,
+    "idCN": "战斗/词缀/05五星/罗洁尓_天使/觉醒5-圣恩",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "RolePlus\\Raziel_Angle\\Face",
+    "tagName": "圣恩",
+    "tagID": 0,
+    "isShowDetail": true,
+    "temptagNameRichText": "圣恩",
+    "tagNameRichText": "圣恩",
+    "detail": "使用【受难】后，将造成伤害的10%治疗除自身外队友"
+  },
+  {
+    "id": 12601570,
+    "idCN": "战斗/词缀/05五星/罗洁尓_天使/共振2-警言",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "RolePlus\\Raziel_Angle\\Face",
+    "tagName": "警言",
+    "tagID": 0,
+    "isShowDetail": true,
+    "temptagNameRichText": "警言",
+    "tagNameRichText": "警言",
+    "detail": "每次抽到【序言】时，抽1~2张牌，优先自身技能牌"
+  },
+  {
+    "id": 12601571,
+    "idCN": "战斗/词缀/05五星/罗洁尓_天使/共振1-福音",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "RolePlus\\Raziel_Angle\\Face",
+    "tagName": "福音",
+    "tagID": 0,
+    "isShowDetail": true,
+    "temptagNameRichText": "福音",
+    "tagNameRichText": "福音",
+    "detail": "每次抽到【受难】时，获得1~2点费用"
+  },
+  {
+    "id": 12601568,
+    "idCN": "战斗/词缀/04四星/莉薇娅/觉醒4-谐律余音",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "RolePlus\\Livia\\Face",
+    "tagName": "谐律余音",
+    "tagID": 0,
+    "isShowDetail": true,
+    "temptagNameRichText": "谐律余音",
+    "tagNameRichText": "谐律余音",
+    "detail": "使用【奇异火花】后，使我方全体攻击力和防御力+1%，上限15%"
+  },
+  {
+    "id": 12601572,
+    "idCN": "战斗/词缀/03三星/伽罗尔/觉醒4-戏法余韵",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "RolePlus\\Galore\\Face",
+    "tagName": "戏法余韵",
+    "tagID": 0,
+    "isShowDetail": true,
+    "temptagNameRichText": "戏法余韵",
+    "tagNameRichText": "戏法余韵",
+    "detail": "每次有【萌宠戏法】/【气球秀】被【销毁】时，使我方全体【普通攻击】速度提高10%\\n同时有20%概率获得1点费用"
+  },
+  {
+    "id": 12601573,
+    "idCN": "战斗/角色技能/03/伽罗尔/A-1",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "",
+    "tagName": "A-1",
+    "tagID": 0,
+    "isShowDetail": false,
+    "temptagNameRichText": "",
+    "tagNameRichText": "",
+    "detail": ""
+  },
+  {
+    "id": 12601574,
+    "idCN": "战斗/词缀/04四星/叶珏/觉醒4-鸣",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "RolePlus\\Yejue\\Face",
+    "tagName": "鸣",
+    "tagID": 0,
+    "isShowDetail": true,
+    "temptagNameRichText": "鸣",
+    "tagNameRichText": "鸣",
+    "detail": "使用【闪冕】后，将【闪冕】目标队友的1张技能牌加入手牌"
+  },
+  {
+    "id": 12601575,
+    "idCN": "战斗/角色技能/04/叶珏/B",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "",
+    "tagName": "B",
+    "tagID": 0,
+    "isShowDetail": false,
+    "temptagNameRichText": "",
+    "tagNameRichText": "",
+    "detail": ""
+  },
+  {
+    "id": 12601576,
+    "idCN": "战斗/词缀/03三星/遥/觉醒4-《天下一家》",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "RolePlus\\Haruka\\Face",
+    "tagName": "《天下一家》",
+    "tagID": 0,
+    "isShowDetail": true,
+    "temptagNameRichText": "《天下一家》",
+    "tagNameRichText": "《天下一家》",
+    "detail": "“Just you and me”\\n使用【就是这样】后，每秒获得1点费用，持续5秒"
+  },
+  {
+    "id": 12601577,
+    "idCN": "战斗/角色技能/03/遥/B",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "",
+    "tagName": "B",
+    "tagID": 0,
+    "isShowDetail": false,
+    "temptagNameRichText": "",
+    "tagNameRichText": "",
+    "detail": ""
+  },
+  {
+    "id": 12601578,
+    "idCN": "战斗/词缀/05五星/罗洁尓_人/觉醒4-星核",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "RolePlus\\Raziel_Human\\Face",
+    "tagName": "星核",
+    "tagID": 0,
+    "isShowDetail": true,
+    "temptagNameRichText": "星核",
+    "tagNameRichText": "星核",
+    "detail": "从牌库抽到【负能】时，随机生成1张【元素核·电】/【元素核·火】/【元素核·冰】加入手牌，可超出手牌上限"
+  },
+  {
+    "id": 12601579,
+    "idCN": "战斗/词缀/04四星/菲妮娅/觉醒4-神机",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "RolePlus\\Fenia\\Face",
+    "tagName": "神机",
+    "tagID": 0,
+    "isShowDetail": true,
+    "temptagNameRichText": "神机",
+    "tagNameRichText": "神机",
+    "detail": "【锦囊】入手时，有8%概率生成1张黑卡【黑8】加入手牌"
+  },
+  {
+    "id": 12601580,
+    "idCN": "战斗/词缀/05五星/丽桑德拉/觉醒4-循迹",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "RolePlus/Lissandra/Face",
+    "tagName": "循迹",
+    "tagID": 0,
+    "isShowDetail": true,
+    "temptagNameRichText": "循迹",
+    "tagNameRichText": "循迹",
+    "detail": "使用【寻径】后，基于当前手牌数量和费用数量强化自身\\n每张手牌使我方全体攻击力+0.5%，上限30%\\n每点费用使我方全体防御力+0.5%，上限30%"
+  },
+  {
+    "id": 12601581,
+    "idCN": "战斗/词缀/03三星/跳鼠/觉醒4-风影",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "RolePlus\\Jerboa\\Face",
+    "tagName": "风影",
+    "tagID": 0,
+    "isShowDetail": true,
+    "temptagNameRichText": "风影",
+    "tagNameRichText": "风影",
+    "detail": "使用【逆风】后，使自身【隐形】，持续3秒"
+  },
+  {
+    "id": 12601582,
+    "idCN": "战斗/词缀/03三星/狮鬃/觉醒4-MIX",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "RolePlus\\Solum\\Face",
+    "tagName": "MIX",
+    "tagID": 0,
+    "isShowDetail": true,
+    "temptagNameRichText": "MIX",
+    "tagNameRichText": "MIX",
+    "detail": "使用【家虎】后，我方全体防御力+20%，持续6秒"
+  },
+  {
+    "id": 12601583,
+    "idCN": "战斗/词缀/03三星/雷火/觉醒4-预爆指令",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "RolePlus\\Priming\\Face",
+    "tagName": "预爆指令",
+    "tagID": 0,
+    "isShowDetail": true,
+    "temptagNameRichText": "预爆指令",
+    "tagNameRichText": "预爆指令",
+    "detail": "使用【大红按钮】时，使我方前排获得【护盾】，持续10秒，【护盾】的耐久为自身防御力的2000%"
+  },
+  {
+    "id": 12601584,
+    "idCN": "战斗/词缀/03三星/瑞秋/觉醒4-医疗储备",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "RolePlus\\Rachel\\Face",
+    "tagName": "医疗储备",
+    "tagID": 0,
+    "isShowDetail": true,
+    "temptagNameRichText": "医疗储备",
+    "tagNameRichText": "医疗储备",
+    "detail": "触发【肾上腺素】时，从牌库或弃牌区将1张绿卡加入手牌"
+  },
+  {
+    "id": 12601585,
+    "idCN": "单位/05队员/瑞秋",
+    "mod": "标签",
+    "tagName": "突击队员",
+    "tagID": 0,
+    "isShowDetail": false,
+    "temptagNameRichText": "",
+    "tagNameRichText": "",
+    "detail": ""
+  },
+  {
+    "id": 12601586,
+    "idCN": "战斗/词缀/03三星/塔拉/觉醒4-赤羽",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "RolePlus\\Tara\\Face",
+    "tagName": "赤羽",
+    "tagID": 0,
+    "isShowDetail": true,
+    "temptagNameRichText": "赤羽",
+    "tagNameRichText": "赤羽",
+    "detail": "使用【旋羽】后，基于【旋羽】丢弃卡牌的费用，每点费用对敌方目标造成1段伤害，同时触发【点燃】"
+  },
+  {
+    "id": 12601587,
+    "idCN": "战斗/词缀/03三星/阿尔喀娜/觉醒4-自然馈赠",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "RolePlus\\Arcana\\Face",
+    "tagName": "自然馈赠",
+    "tagID": 0,
+    "isShowDetail": true,
+    "temptagNameRichText": "自然馈赠",
+    "tagNameRichText": "自然馈赠",
+    "detail": "【自然回声】持续期间，每秒回复随机我方1%生命值"
+  },
+  {
+    "id": 12601588,
+    "idCN": "战斗/词缀/04四星/甘雅/觉醒4-战术护旋",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "RolePlus\\Ganya\\Face",
+    "tagName": "战术护旋",
+    "tagID": 0,
+    "isShowDetail": true,
+    "temptagNameRichText": "战术护旋",
+    "tagNameRichText": "战术护旋",
+    "detail": "【回旋飞斧】释放期间，有25%概率【格挡】受到的攻击"
+  },
+  {
+    "id": 12601589,
+    "idCN": "战斗/词缀/04四星/阿知波/觉醒4-无明怒火",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "RolePlus\\Achiwa\\Face",
+    "tagName": "无明怒火",
+    "tagID": 0,
+    "isShowDetail": true,
+    "temptagNameRichText": "无明怒火",
+    "tagNameRichText": "无明怒火",
+    "detail": "使用【无明】后，下1张【一发入魂】造成的伤害提高100%"
+  },
+  {
+    "id": 12601590,
+    "idCN": "战斗/词缀/04四星/黛丝莉/觉醒4-脉冲共鸣",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "RolePlus\\Cynthia\\Face",
+    "tagName": "脉冲共鸣",
+    "tagID": 0,
+    "isShowDetail": true,
+    "temptagNameRichText": "脉冲共鸣",
+    "tagNameRichText": "脉冲共鸣",
+    "detail": "每次获得【磁弦脉冲】，自身攻击力+0.5%，上限30%"
+  },
+  {
+    "id": 12601591,
+    "idCN": "战斗/词缀/04四星/晃/觉醒4-朗道冰刃",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "RolePlus\\Akira\\Face",
+    "tagName": "朗道冰刃",
+    "tagID": 0,
+    "isShowDetail": true,
+    "temptagNameRichText": "朗道冰刃",
+    "tagNameRichText": "朗道冰刃",
+    "detail": "【开尔文笑话】持续期间，我方造成的【斩裂】/【撕裂】伤害提高50%"
+  },
+  {
+    "id": 12601592,
+    "idCN": "单位/05队员/晃",
+    "mod": "标签",
+    "tagName": "A",
+    "tagID": 0,
+    "temptagNameRichText": ""
+  },
+  {
+    "id": 12601593,
+    "idCN": "战斗/词缀/04四星/卡莱雅/觉醒4-链式氧化",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "RolePlus\\Kaleya\\Face",
+    "tagName": "链式氧化",
+    "tagID": 0,
+    "isShowDetail": true,
+    "temptagNameRichText": "链式氧化",
+    "tagNameRichText": "链式氧化",
+    "detail": "【富氧大气】持续期间，每次自身造成【点燃】时，获得0.1点费用"
+  },
+  {
+    "id": 12601594,
+    "idCN": "单位/05队员/卡莱雅",
+    "mod": "标签",
+    "tagName": "A",
+    "tagID": 0,
+    "temptagNameRichText": ""
+  },
+  {
+    "id": 12601595,
+    "idCN": "单位/05队员/伊尔",
+    "mod": "标签",
+    "tagName": "A",
+    "tagID": 0,
+    "temptagNameRichText": ""
+  },
+  {
+    "id": 12601596,
+    "idCN": "战斗/词缀/04四星/塞西尔/觉醒4-“炽霞倾橙”",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "RolePlus\\Cecil\\Face",
+    "tagName": "“炽霞倾橙”",
+    "tagID": 0,
+    "isShowDetail": true,
+    "temptagNameRichText": "“炽霞倾橙”",
+    "tagNameRichText": "“炽霞倾橙”",
+    "detail": "每有1张【焚心余烬】被【销毁】时，使我方后排攻击力+1%，上限30%"
+  },
+  {
+    "id": 12601597,
+    "idCN": "战斗/词缀/04四星/苍叶/觉醒4-千机",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "RolePlus\\Aoba\\Face",
+    "tagName": "千机",
+    "tagID": 0,
+    "isShowDetail": true,
+    "temptagNameRichText": "千机",
+    "tagNameRichText": "千机",
+    "detail": "使用【舒卷】时，使自身随机触发【无敌】/【霸体】/【隐形】，持续2秒"
+  },
+  {
+    "id": 12601598,
+    "idCN": "战斗/词缀/05五星/马吉拉/觉醒4-萌芽",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "RolePlus\\Margiela\\Face",
+    "tagName": "萌芽",
+    "tagID": 0,
+    "isShowDetail": true,
+    "temptagNameRichText": "萌芽",
+    "tagNameRichText": "萌芽",
+    "detail": "每有1张【新星】被生成时，获得0.5点费用"
+  },
+  {
+    "id": 12601599,
+    "idCN": "战斗/词缀/05五星/卡塔斯/觉醒4-魔剑主",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "RolePlus\\Katas\\Face",
+    "tagName": "魔剑主",
+    "tagID": 0,
+    "isShowDetail": true,
+    "temptagNameRichText": "魔剑主",
+    "tagNameRichText": "魔剑主",
+    "detail": "开局生成1张【暗耀斩钢】加入手牌\\n【暗耀斩钢】在手牌中时，持续【销毁】手牌中的所有黑卡和【暗艺】，每【销毁】1张，本场战斗【暗耀斩钢】伤害+10%，上限300%"
+  },
+  {
+    "id": 12601600,
+    "idCN": "单位/05队员/卡塔斯",
+    "mod": "标签",
+    "tagName": "A",
+    "tagID": 0,
+    "temptagNameRichText": ""
+  },
+  {
+    "id": 12601601,
+    "idCN": "战斗/词缀/05五星/柯娜/觉醒4-衍星",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "RolePlus\\Conor\\Face",
+    "tagName": "衍星",
+    "tagID": 0,
+    "isShowDetail": true,
+    "temptagNameRichText": "衍星",
+    "tagNameRichText": "衍星",
+    "detail": "使用【新星冲击】后，生成1张【新星】加入手牌"
+  },
+  {
+    "id": 12601602,
+    "idCN": "战斗/角色技能/05/柯娜/S-2",
+    "mod": "标签",
+    "tagName": "A",
+    "tagID": 0,
+    "temptagNameRichText": ""
+  },
+  {
+    "id": 12601539,
+    "idCN": "单位/05队员/卡洛琳",
+    "mod": "标签",
+    "tagName": "A",
+    "tagID": 0,
+    "temptagNameRichText": ""
+  },
+  {
+    "id": 12601603,
+    "idCN": "战斗/词缀/05五星/苏恩/觉醒4-琉璃",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "RolePlus\\Suen\\Face",
+    "tagName": "琉璃",
+    "tagID": 0,
+    "isShowDetail": true,
+    "temptagNameRichText": "琉璃",
+    "tagNameRichText": "琉璃",
+    "detail": "【新音】持续期间，我方全体受到的最终伤害降低20%"
   }
 ]
