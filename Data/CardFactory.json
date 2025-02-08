@@ -22995,7 +22995,12 @@
         "typeEnum": "number"
       }
     ],
-    "ExActList": []
+    "ExActList": [],
+    "linkCardId": [
+      {
+        "Id": 10600437
+      }
+    ]
   },
   {
     "id": 10600383,
@@ -25683,7 +25688,7 @@
     "cost_SN": 30000,
     "inhandBuffId": -1,
     "inhandOverBuffId": -1,
-    "startBuffId": 10400278,
+    "startBuffId": 10414303,
     "discardBuffId": -1,
     "discardBySkillBuffId": -1,
     "banishBuffId": -1,
@@ -25719,7 +25724,7 @@
     "idCN": "00原版/05五星/罗洁尓_天使/S",
     "mod": "基础卡牌",
     "isInformalData": false,
-    "name": "黑灵",
+    "name": "审判",
     "isCutIn": true,
     "isUseSingleTarget": false,
     "isNoCD": false,
@@ -25790,63 +25795,7 @@
     "cost_SN": 30000,
     "inhandBuffId": -1,
     "inhandOverBuffId": -1,
-    "startBuffId": 10414303,
-    "discardBuffId": -1,
-    "discardBySkillBuffId": -1,
-    "banishBuffId": -1,
-    "atkAreaType": "Direction",
-    "atkAreaColor": "Yellow",
-    "targetColor": "AttackTest",
-    "disappearEffectId": 11100047,
-    "appearEffectId": 11100046,
-    "createEffectId": 11100106,
-    "destroyEffectId": -1,
-    "createTweenDelay": 30,
-    "isCostX": false,
-    "tagList": [
-      {
-        "tagId": 12600145
-      },
-      {
-        "tagId": 12600272
-      },
-      {
-        "tagId": 12601567
-      }
-    ],
-    "tagOutsideList": [],
-    "deriveCardList": [],
-    "cardAIActionList": [],
-    "ExCondList": [],
-    "ExActList": [],
-    "linkCardId": [
-      {
-        "Id": 10600437
-      }
-    ]
-  },
-  {
-    "id": 10600437,
-    "idCN": "00原版/05五星/罗洁尓_天使/A共振5",
-    "mod": "基础卡牌",
-    "isInformalData": false,
-    "name": "受难",
-    "isCutIn": false,
-    "isUseSingleTarget": false,
-    "isNoCD": false,
-    "isUseInHand": false,
-    "isNotDiscard": false,
-    "iconPath": "RolePlus\\Raziel_Angel\\skillicon\\A",
-    "backPath": "",
-    "roleImgPath": "",
-    "color": "Red",
-    "cardType": "Normal",
-    "sameCardGroupId": -1,
-    "actionId": 10103865,
-    "cost_SN": 30000,
-    "inhandBuffId": -1,
-    "inhandOverBuffId": -1,
-    "startBuffId": 10415474,
+    "startBuffId": 10415883,
     "discardBuffId": -1,
     "discardBySkillBuffId": -1,
     "banishBuffId": -1,
@@ -25920,6 +25869,123 @@
     "deriveCardList": [],
     "cardAIActionList": [],
     "ExCondList": [
+      {
+        "condId": 96200031,
+        "des": 80608005,
+        "interValNum": 12,
+        "isNumCond": true,
+        "minNum": 0,
+        "numDuration": 1,
+        "typeEnum": "number"
+      }
+    ],
+    "ExActList": [],
+    "linkCardId": []
+  },
+  {
+    "id": 10600412,
+    "idCN": "00原版/05五星/罗洁尓_天使/C",
+    "mod": "基础卡牌",
+    "isInformalData": false,
+    "name": "圣痕",
+    "isCutIn": false,
+    "isUseSingleTarget": false,
+    "isNoCD": false,
+    "isUseInHand": false,
+    "isNotDiscard": false,
+    "iconPath": "RolePlus\\Raziel_Angel\\skillicon\\C",
+    "backPath": "",
+    "roleImgPath": "",
+    "color": "Purple",
+    "cardType": "Normal",
+    "sameCardGroupId": -1,
+    "actionId": 10103691,
+    "cost_SN": 20000,
+    "inhandBuffId": -1,
+    "inhandOverBuffId": -1,
+    "startBuffId": -1,
+    "discardBuffId": -1,
+    "discardBySkillBuffId": -1,
+    "banishBuffId": -1,
+    "atkAreaType": "Single",
+    "atkAreaColor": "Yellow",
+    "targetColor": "AttackTest",
+    "disappearEffectId": 11100047,
+    "appearEffectId": 11100046,
+    "createEffectId": 11100106,
+    "destroyEffectId": -1,
+    "createTweenDelay": 30,
+    "isCostX": false,
+    "tagList": [
+      {
+        "tagId": 12600073
+      },
+      {
+        "tagId": 12601476
+      },
+      {
+        "tagId": 12601605
+      }
+    ],
+    "tagOutsideList": [],
+    "deriveCardList": [],
+    "cardAIActionList": [],
+    "ExCondList": [],
+    "ExActList": [],
+    "linkCardId": []
+  },
+  {
+    "id": 10600437,
+    "idCN": "00原版/05五星/泳装静流/C_觉醒4",
+    "mod": "基础卡牌",
+    "isInformalData": false,
+    "name": "夏日回忆",
+    "isCutIn": false,
+    "isUseSingleTarget": false,
+    "isNoCD": false,
+    "isUseInHand": false,
+    "isNotDiscard": false,
+    "iconPath": "RolePlus/Shizuru_Summer/skillicon/C",
+    "backPath": "",
+    "roleImgPath": "",
+    "color": "Purple",
+    "cardType": "UseOnce",
+    "sameCardGroupId": -1,
+    "actionId": 10103269,
+    "cost_SN": 0,
+    "inhandBuffId": -1,
+    "inhandOverBuffId": -1,
+    "startBuffId": 10415996,
+    "discardBuffId": -1,
+    "discardBySkillBuffId": -1,
+    "banishBuffId": -1,
+    "atkAreaType": "Self",
+    "atkAreaColor": "Yellow",
+    "targetColor": "HealTest",
+    "disappearEffectId": 11100047,
+    "appearEffectId": 11100046,
+    "createEffectId": 11100106,
+    "destroyEffectId": -1,
+    "createTweenDelay": 30,
+    "isCostX": false,
+    "tagList": [
+      {
+        "tagId": 12600073
+      }
+    ],
+    "tagOutsideList": [],
+    "deriveCardList": [],
+    "cardAIActionList": [],
+    "ExCondList": [
+      {
+        "condId": 96200029,
+        "des": 80608007,
+        "interValNum": 12,
+        "isNumCond": true,
+        "minNum": 0,
+        "numDuration": 1,
+        "typeEnum": "number"
+      },
       {
         "condId": 96200031,
         "des": 80608005,
