@@ -9748,13 +9748,10 @@
   {
     "id": 10500041,
     "idCN": "我方/03三星/神盾波克士/普攻",
-    "mod": "子弹事件",
+    "mod": "添加Buff",
     "isInformalData": false,
     "buffId": 10400159,
-    "bulletId": 11200313,
-    "targetType": "CurrentTarget",
-    "offSetX_SN": 0,
-    "offSetZ_SN": 0
+    "targetType": "CurrentTarget"
   },
   {
     "id": 10500102,
@@ -34026,18 +34023,163 @@
     "targetCount": 0
   },
   {
-    "id": 10502873,
-    "idCN": "我方/05五星/隼/觉醒4上八苦",
-    "mod": "添加Buff",
-    "isInformalData": false,
-    "buffId": 10416023,
-    "targetType": "CurrentTarget"
-  },
-  {
     "id": 10502867,
     "idCN": "我方/05五星/夏洛蒂/觉醒4+5判断",
     "mod": "给自己上BUFF",
     "isInformalData": false,
     "buffId": 10415830
+  },
+  {
+    "id": 10502875,
+    "idCN": "敌方/02桦树/冥灯/不知火丛/普攻1",
+    "mod": "子弹事件",
+    "isInformalData": false,
+    "buffId": 10416070,
+    "bulletId": 11200009,
+    "targetType": "CurrentTarget",
+    "offSetX_SN": 0,
+    "offSetZ_SN": 0,
+    "isUseTargetFilter": false,
+    "isIgnoreInvisibleEnemy": true,
+    "targetFilterType": "Ally",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 0,
+    "attributeType": "HpMax",
+    "condition": "Max",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 0
+  },
+  {
+    "id": 10502876,
+    "idCN": "敌方/02桦树/冥灯/不知火丛/普攻2",
+    "mod": "攻击事件",
+    "isInformalData": false,
+    "buffId": 10416071,
+    "hitSoundID": -1
+  },
+  {
+    "id": 10502877,
+    "idCN": "敌方/02桦树/冥灯/不知火丛/bs_技能1",
+    "mod": "子弹事件",
+    "isInformalData": false,
+    "buffId": 10416101,
+    "bulletId": 11200629,
+    "targetType": "CurrentTarget",
+    "offSetX_SN": 0,
+    "offSetZ_SN": 0,
+    "isUseTargetFilter": false,
+    "isIgnoreInvisibleEnemy": true,
+    "targetFilterType": "Ally",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 0,
+    "attributeType": "HpMax",
+    "condition": "Max",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 0
+  },
+  {
+    "id": 10502878,
+    "idCN": "敌方/02桦树/冥灯/不知火丛/bs_技能2",
+    "mod": "攻击事件",
+    "isInformalData": false,
+    "buffId": 10416113,
+    "hitSoundID": -1
+  },
+  {
+    "id": 10502879,
+    "idCN": "敌方/02桦树/冥灯/不知火丛/状态转换",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10416118
+  },
+  {
+    "id": 10502880,
+    "idCN": "敌方/02桦树/冥灯/不知火丛/技能2产生环境",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10416121
+  },
+  {
+    "id": 10502881,
+    "idCN": "敌方/02桦树/冥灯/不知火丛/技能2子弹",
+    "mod": "子弹事件",
+    "isInformalData": false,
+    "buffId": 10416122,
+    "bulletId": 11200630,
+    "targetType": "Random",
+    "offSetX_SN": 0,
+    "offSetZ_SN": 0,
+    "isUseTargetFilter": false,
+    "isIgnoreInvisibleEnemy": true,
+    "targetFilterType": "Ally",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 0,
+    "attributeType": "HpMax",
+    "condition": "Max",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 0
+  },
+  {
+    "id": 10502882,
+    "idCN": "敌方/02桦树/冥灯/不知火丛/技能2选定友军",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10416133
+  },
+  {
+    "id": 10502872,
+    "idCN": "我方/03三星/神盾波克士/A打断并嘲讽",
+    "mod": "攻击事件",
+    "isInformalData": false,
+    "buffId": 10415952,
+    "hitSoundID": -1
+  },
+  {
+    "id": 10502869,
+    "idCN": "我方/03三星/神盾波克士/A减伤",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10416087
+  },
+  {
+    "id": 10502870,
+    "idCN": "我方/03三星/神盾波克士/B加防加血上限",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10416091
+  },
+  {
+    "id": 10502883,
+    "idCN": "我方/03三星/神盾波克士/S霸体自疗",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10416096
   }
 ]

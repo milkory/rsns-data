@@ -448,6 +448,11 @@
         "id": 86400092,
         "x": -190.0,
         "y": 190.0
+      },
+      {
+        "id": 86400368,
+        "x": -440.0,
+        "y": 40.0
       }
     ],
     "isShowRep": true,
@@ -2577,9 +2582,9 @@
         "y": -38.0
       },
       {
-        "id": 86400365,
-        "x": -227.0,
-        "y": -38.0
+        "id": 86400363,
+        "x": 61.0,
+        "y": 218.0
       }
     ],
     "isShowRep": false,
@@ -4169,7 +4174,8 @@
     "isSpecial": false,
     "isInstance": false,
     "iconPath": "NPC/Story/Asuka",
-    "nameIconPath": "UI/CityMap/citymap_icon_battlezone",
+    "nameIconPath": "",
+    "frontIconPath": "",
     "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
     "animLoop": "UI_CityBtn_01_Loop",
     "animOut": "UI_CityBtn_01_Out",
@@ -4208,7 +4214,8 @@
     "isSpecial": false,
     "isInstance": false,
     "iconPath": "NPC/Story/Terro",
-    "nameIconPath": "UI/CityMap/citymap_icon_battlezone",
+    "nameIconPath": "",
+    "frontIconPath": "",
     "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
     "animLoop": "UI_CityBtn_01_Loop",
     "animOut": "UI_CityBtn_01_Out",
@@ -13738,11 +13745,11 @@
     "idCN": "03气泡/T10塔图站S0/02剧情/EP7-10副本2",
     "mod": "气泡",
     "isInformalData": false,
-    "name": "",
+    "name": "哈伊玛之骰",
     "isSpecial": false,
-    "isInstance": false,
-    "iconPath": "",
-    "nameIconPath": "",
+    "isInstance": true,
+    "iconPath": "NPC/InsZone/TTZ_IconInstance",
+    "nameIconPath": "UI/CityMap/citymap_icon_battlezone",
     "frontIconPath": "",
     "effectPath": "UI/UIEffect/particle/UI_city/UI_dungeonBtn_01/UI_dungeonBtn_04_1",
     "animLoop": "UI_CityBtn_01_Loop",
@@ -13750,7 +13757,13 @@
     "activityId": -1,
     "startTime": "",
     "endTime": "",
-    "displayConditionsList": [],
+    "displayConditionsList": [
+      {
+        "condition": "Questing",
+        "mId": 81002282,
+        "val": 0
+      }
+    ],
     "unlockConditionsList": [],
     "isLock": false,
     "func": "OpenDungeon",
@@ -13760,7 +13773,7 @@
     "buildingId": -1,
     "stationPlace": -1,
     "dialogId": -1,
-    "dungeonId": -1,
+    "dungeonId": 20200018,
     "levelId": -1,
     "textId": -1,
     "npcId": -1,
@@ -13809,13 +13822,13 @@
   },
   {
     "id": 86400365,
-    "idCN": "03气泡/T10塔图站S0/02剧情/EP7-17",
+    "idCN": "03气泡/T10塔图站S0/02剧情/EP7-17废弃",
     "mod": "气泡",
     "isInformalData": false,
-    "name": "达斯廷",
+    "name": "",
     "isSpecial": false,
     "isInstance": false,
-    "iconPath": "RolePlus/Dustin/Face",
+    "iconPath": "",
     "nameIconPath": "",
     "frontIconPath": "",
     "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
@@ -13824,13 +13837,7 @@
     "activityId": -1,
     "startTime": "",
     "endTime": "",
-    "displayConditionsList": [
-      {
-        "condition": "Questing",
-        "mId": 81002288,
-        "val": 0
-      }
-    ],
+    "displayConditionsList": [],
     "unlockConditionsList": [],
     "isLock": false,
     "func": "OpenDialog",
@@ -13839,7 +13846,7 @@
     "uiPath": "",
     "buildingId": -1,
     "stationPlace": -1,
-    "dialogId": 20700597,
+    "dialogId": -1,
     "dungeonId": -1,
     "levelId": -1,
     "textId": -1,
@@ -13882,6 +13889,46 @@
     "dialogId": -1,
     "dungeonId": -1,
     "levelId": 20101447,
+    "textId": -1,
+    "npcId": -1,
+    "bgPath": "",
+    "bgColor": "FFFFFF"
+  },
+  {
+    "id": 86400368,
+    "idCN": "03气泡/C1修格里城S1/剧情/3容错",
+    "mod": "气泡",
+    "isInformalData": false,
+    "name": "",
+    "isSpecial": false,
+    "isInstance": false,
+    "iconPath": "NPC/Story/Asuka",
+    "nameIconPath": "",
+    "frontIconPath": "",
+    "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
+    "animLoop": "UI_CityBtn_01_Loop",
+    "animOut": "UI_CityBtn_01_Out",
+    "activityId": -1,
+    "startTime": "",
+    "endTime": "",
+    "displayConditionsList": [
+      {
+        "condition": "QuestIncomplete",
+        "mId": 81000001,
+        "val": 0
+      }
+    ],
+    "unlockConditionsList": [],
+    "isLock": false,
+    "func": "Guide",
+    "btnType": "Other",
+    "mId": 20900152,
+    "uiPath": "",
+    "buildingId": -1,
+    "stationPlace": -1,
+    "dialogId": -1,
+    "dungeonId": -1,
+    "levelId": -1,
     "textId": -1,
     "npcId": -1,
     "bgPath": "",

@@ -14800,5 +14800,89 @@
         "val": "Group_Common.SoftMask_HomeMap.Group_MapActive"
       }
     ]
+  },
+  {
+    "id": 81100861,
+    "idCN": "EP1/容错/82~102",
+    "mod": "更新引导序号",
+    "isInformalData": false,
+    "orderType": "RefreshGuideNo",
+    "skipOrderIdNum": 4,
+    "isChangesOrder": true
+  },
+  {
+    "id": 81100865,
+    "idCN": "通用/打开界面/数据异常",
+    "mod": "打开面板",
+    "isInformalData": false,
+    "orderType": "OpenPanel",
+    "panelName": "UI/Common/Tips",
+    "params": "{\"80610015\"}"
+  },
+  {
+    "id": 81100887,
+    "idCN": "EP1/条件跳转/容错/引导82",
+    "mod": "IFELSE跳转",
+    "isInformalData": false,
+    "orderType": "ConditionJumpIndex",
+    "isLoop": false,
+    "trueLabel": -1,
+    "falseLabel": 81100889,
+    "keyList": [
+      {
+        "compareType": "EQ",
+        "key": "GuideNo",
+        "num": 82.0,
+        "uiPath": "",
+        "val": ""
+      }
+    ]
+  },
+  {
+    "id": 81100889,
+    "idCN": "EP1/条件跳转/容错/引导83",
+    "mod": "IFELSE跳转",
+    "isInformalData": false,
+    "orderType": "ConditionJumpIndex",
+    "isLoop": false,
+    "trueLabel": -1,
+    "falseLabel": 81100651,
+    "keyList": [
+      {
+        "compareType": "EQ",
+        "key": "GuideNo",
+        "num": 83.0,
+        "uiPath": "",
+        "val": ""
+      }
+    ]
+  },
+  {
+    "id": 81100897,
+    "idCN": "EP1/容错/83~102",
+    "mod": "更新引导序号",
+    "isInformalData": false,
+    "orderType": "RefreshGuideNo",
+    "skipOrderIdNum": 3,
+    "isChangesOrder": true
+  },
+  {
+    "id": 81100921,
+    "idCN": "EP1/条件跳转/进站按钮激活",
+    "mod": "IFELSE跳转",
+    "isInformalData": false,
+    "orderType": "ConditionJumpIndex",
+    "isLoop": false,
+    "trueLabel": -1,
+    "falseLabel": 81100651,
+    "keyList": [
+      {
+        "compareType": "EQ",
+        "key": "IsActivated",
+        "num": 1.0,
+        "uiPath": "UI/MainUI/MainUI",
+        "val": "Group_Common.Btn_Enter"
+      }
+    ]
   }
 ]
