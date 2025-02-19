@@ -14589,7 +14589,7 @@
   },
   {
     "id": 81100763,
-    "idCN": "EP1/条件跳转/逛逛/休息区检测",
+    "idCN": "EP1/条件跳转/逛逛/01休息区检测",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "orderType": "ConditionJumpIndex",
@@ -14619,7 +14619,7 @@
   },
   {
     "id": 81100766,
-    "idCN": "EP1/条件跳转/逛逛/花鸟市场检测",
+    "idCN": "EP1/条件跳转/逛逛/02花鸟市场检测",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "orderType": "ConditionJumpIndex",
@@ -14638,13 +14638,13 @@
   },
   {
     "id": 81100781,
-    "idCN": "EP1/条件跳转/逛逛/炸鸡店检测",
+    "idCN": "EP1/条件跳转/逛逛/03炸鸡店检测",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "orderType": "ConditionJumpIndex",
     "isLoop": false,
     "trueLabel": -1,
-    "falseLabel": 81100676,
+    "falseLabel": 81100892,
     "keyList": [
       {
         "compareType": "EQ",
@@ -14657,7 +14657,7 @@
   },
   {
     "id": 81100794,
-    "idCN": "EP1/条件跳转/逛逛/结束",
+    "idCN": "EP1/条件跳转/逛逛/99结束",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "orderType": "ConditionJumpIndex",
@@ -14884,5 +14884,108 @@
         "val": "Group_Common.Btn_Enter"
       }
     ]
+  },
+  {
+    "id": 81100891,
+    "idCN": "通用/城市地图/1号位/高亮",
+    "mod": "指定UI高亮",
+    "isInformalData": false,
+    "orderType": "UIFocus",
+    "uiPath": "UI/CityMap/CityMap",
+    "nodeType": "Fixed",
+    "nodeName": "ScrollView_Map.Viewport.Group_BG.Group_Build1",
+    "mId": -1,
+    "delay": true,
+    "w": 190.0,
+    "h": 240.0,
+    "offsetX": 0.0,
+    "offsetY": 35.0,
+    "alpha": 0.7,
+    "isShowFinger": true
+  },
+  {
+    "id": 81100892,
+    "idCN": "EP1/条件跳转/逛逛/04黑月大酒店检测",
+    "mod": "IFELSE跳转",
+    "isInformalData": false,
+    "orderType": "ConditionJumpIndex",
+    "isLoop": false,
+    "trueLabel": -1,
+    "falseLabel": 81100918,
+    "keyList": [
+      {
+        "compareType": "EQ",
+        "key": "QuestProgress",
+        "num": 0.0,
+        "uiPath": "",
+        "val": "81000015"
+      }
+    ]
+  },
+  {
+    "id": 81100918,
+    "idCN": "EP1/条件跳转/逛逛/05商会检测",
+    "mod": "IFELSE跳转",
+    "isInformalData": false,
+    "orderType": "ConditionJumpIndex",
+    "isLoop": false,
+    "trueLabel": -1,
+    "falseLabel": 81100923,
+    "keyList": [
+      {
+        "compareType": "EQ",
+        "key": "QuestProgress",
+        "num": 0.0,
+        "uiPath": "",
+        "val": "81000379"
+      }
+    ]
+  },
+  {
+    "id": 81100923,
+    "idCN": "EP1/条件跳转/逛逛/06地下通道检测",
+    "mod": "IFELSE跳转",
+    "isInformalData": false,
+    "orderType": "ConditionJumpIndex",
+    "isLoop": false,
+    "trueLabel": -1,
+    "falseLabel": 81100676,
+    "keyList": [
+      {
+        "compareType": "EQ",
+        "key": "QuestProgress",
+        "num": 0.0,
+        "uiPath": "",
+        "val": "81000380"
+      }
+    ]
+  },
+  {
+    "id": 81100925,
+    "idCN": "通用/城市地图/8号位/点击",
+    "mod": "点击按钮",
+    "isInformalData": false,
+    "orderType": "ClickButton",
+    "panelName": "UI/CityMap/CityMap",
+    "btnName": "CityMap_ScrollView_Map_Viewport_Group_BG_Group_Build8_Btn_Build_Click",
+    "autoCompletedTime": -1.0
+  },
+  {
+    "id": 81100932,
+    "idCN": "通用/城市地图/8号位/高亮",
+    "mod": "指定UI高亮",
+    "isInformalData": false,
+    "orderType": "UIFocus",
+    "uiPath": "UI/CityMap/CityMap",
+    "nodeType": "Fixed",
+    "nodeName": "ScrollView_Map.Viewport.Group_BG.Group_Build8",
+    "mId": -1,
+    "delay": true,
+    "w": 190.0,
+    "h": 240.0,
+    "offsetX": 0.0,
+    "offsetY": 35.0,
+    "alpha": 0.7,
+    "isShowFinger": true
   }
 ]

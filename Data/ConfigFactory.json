@@ -17,7 +17,7 @@
     "bmRockItemId": 11400005,
     "energyItemId": 11400006,
     "resonanceSourceMaterialList": [],
-    "roleLevelMax": 75,
+    "roleLevelMax": 80,
     "mainChapter": [],
     "scoreRankComparison": [
       {
@@ -139,7 +139,7 @@
     "isSkinSkill": false,
     "emptyTipQuest": 81001199,
     "isShowWiki": true,
-    "questREC": 81000014,
+    "questREC": 81000460,
     "equipmentBag": 2000,
     "itemBag": 1000,
     "materialBag": 1000,
@@ -1643,6 +1643,51 @@
         "homeEnergyMax": 832,
         "levelUpEnergy": 60,
         "levelUpExp": 5240,
+        "questListId": -1,
+        "reduceHomeEnergy": 60,
+        "shareQuestNum": 5
+      },
+      {
+        "EnergyMax": 270,
+        "homeEnergyMax": 840,
+        "levelUpEnergy": 60,
+        "levelUpExp": 5680,
+        "questListId": -1,
+        "reduceHomeEnergy": 60,
+        "shareQuestNum": 5
+      },
+      {
+        "EnergyMax": 272,
+        "homeEnergyMax": 848,
+        "levelUpEnergy": 60,
+        "levelUpExp": 6140,
+        "questListId": -1,
+        "reduceHomeEnergy": 60,
+        "shareQuestNum": 5
+      },
+      {
+        "EnergyMax": 274,
+        "homeEnergyMax": 856,
+        "levelUpEnergy": 60,
+        "levelUpExp": 6620,
+        "questListId": -1,
+        "reduceHomeEnergy": 60,
+        "shareQuestNum": 5
+      },
+      {
+        "EnergyMax": 276,
+        "homeEnergyMax": 864,
+        "levelUpEnergy": 60,
+        "levelUpExp": 7120,
+        "questListId": -1,
+        "reduceHomeEnergy": 60,
+        "shareQuestNum": 5
+      },
+      {
+        "EnergyMax": 278,
+        "homeEnergyMax": 872,
+        "levelUpEnergy": 60,
+        "levelUpExp": 7640,
         "questListId": -1,
         "reduceHomeEnergy": 60,
         "shareQuestNum": 5
@@ -3498,6 +3543,57 @@
     "passBylevelIdAndGrade": [],
     "passAnyLevelByGrade": [],
     "passMainLevelByGrade": [],
+    "passByLevelIdGradeDifficult": [
+      {
+        "id": 81001848
+      },
+      {
+        "id": 81002027
+      },
+      {
+        "id": 81001849
+      },
+      {
+        "id": 81002095
+      },
+      {
+        "id": 81002096
+      }
+    ],
+    "levelMaxGoldByLevelId": [
+      {
+        "id": 81002087
+      },
+      {
+        "id": 81002091
+      },
+      {
+        "id": 81002164
+      },
+      {
+        "id": 81002179
+      },
+      {
+        "id": 81002184
+      }
+    ],
+    "allGoldByLevelActivityId": [
+      {
+        "id": 81002085
+      },
+      {
+        "id": 81002088
+      },
+      {
+        "id": 81002186
+      },
+      {
+        "id": 81002187
+      },
+      {
+        "id": 81002190
+      }
+    ],
     "passBattleLevelAll": [
       {
         "id": 81001864
@@ -3712,6 +3808,11 @@
     "energyCost": [
       {
         "id": 81002046
+      }
+    ],
+    "tiredAdd": [
+      {
+        "id": 81000594
       }
     ],
     "useShield": [],
@@ -6491,11 +6592,6 @@
     "operationRankLike": [
       {
         "id": 81002051
-      }
-    ],
-    "tiredAdd": [
-      {
-        "id": 81000594
       }
     ]
   },
@@ -10992,7 +11088,7 @@
     "mod": "贸易经验表",
     "isInformalData": false,
     "nameEN": "TradeExpConfig",
-    "levelMax": 75,
+    "levelMax": 80,
     "expList": [
       {
         "bargainRange": 0.031,
@@ -13221,7 +13317,7 @@
     "mod": "装备配置",
     "isInformalData": false,
     "nameEN": "EquipmentConfig",
-    "equipMaxLv": 75,
+    "equipMaxLv": 80,
     "ChangeNum": 999,
     "LevelNum": 10,
     "EquipPresetsNum": 3,
@@ -15910,6 +16006,14 @@
         "guideNO": 132
       },
       {
+        "guideId": 20900163,
+        "guideNO": 132
+      },
+      {
+        "guideId": 20900154,
+        "guideNO": 132
+      },
+      {
         "guideId": 20900145,
         "guideNO": 141
       },
@@ -15924,6 +16028,10 @@
       {
         "guideId": 20900156,
         "guideNO": 141
+      },
+      {
+        "guideId": 20900175,
+        "guideNO": 161
       },
       {
         "guideId": 20900050,
@@ -22287,6 +22395,32 @@
       },
       {
         "countDownMax": 3,
+        "endTime": "",
+        "id": 86000044,
+        "isCompleteBottom": false,
+        "isCountDown": true,
+        "name": 80610039,
+        "png": "UI/Activity/Tab/tab_yuwailianhe",
+        "showUI": "UI/Activity/Anniversary/AnniversaryActivity",
+        "sort": 0,
+        "startTime": "2025-02-19 05:00:00",
+        "tag": 12601618
+      },
+      {
+        "countDownMax": 3,
+        "endTime": "2025-03-19 23:59:59",
+        "id": 86000040,
+        "isCompleteBottom": false,
+        "isCountDown": false,
+        "name": 80610017,
+        "png": "UI/Activity/Tab/tab_signBattleRaziel",
+        "showUI": "UI/Activity/ActivitySignBattle/ActivitySignBattleLevel",
+        "sort": 0,
+        "startTime": "2025-02-18 12:00:00",
+        "tag": 12601613
+      },
+      {
+        "countDownMax": 3,
         "endTime": "2025-02-27 04:59:00",
         "id": 86000043,
         "isCompleteBottom": false,
@@ -22464,6 +22598,19 @@
         "sort": 0,
         "startTime": "2024-04-21 15:00:00",
         "tag": 12601086
+      },
+      {
+        "countDownMax": 3,
+        "endTime": "2025-03-09 04:59:00",
+        "id": 86000046,
+        "isCompleteBottom": false,
+        "isCountDown": false,
+        "name": 80610073,
+        "png": "UI/Activity/ActivitySignIn/FirstAnniversary/tag",
+        "showUI": "",
+        "sort": 0,
+        "startTime": "2025-02-20 05:00:00",
+        "tag": 12601103
       }
     ],
     "questList": []
@@ -25381,6 +25528,9 @@
     "nameEN": "BannerConfig",
     "bannerList": [
       {
+        "id": 80500037
+      },
+      {
         "id": 80500036
       },
       {
@@ -25424,6 +25574,21 @@
       },
       {
         "id": 80500127
+      },
+      {
+        "id": 80500018
+      },
+      {
+        "id": 80500013
+      },
+      {
+        "id": 80500016
+      },
+      {
+        "id": 80500006
+      },
+      {
+        "id": 80500105
       },
       {
         "id": 80500022
@@ -25548,15 +25713,11 @@
     "exchangeBuildId": 84400237,
     "randomBattleList": [
       {
-        "id": 89000002,
+        "id": 89000003,
         "weight": 1
       }
     ],
-    "randomBattlePreList": [
-      {
-        "id": 89000001
-      }
-    ]
+    "randomBattlePreList": []
   },
   {
     "id": 99900112,
@@ -26336,5 +26497,122 @@
       }
     ],
     "lookSpeed": 1.5
+  },
+  {
+    "id": 99900116,
+    "idCN": "引导/支线推荐",
+    "mod": "支线推荐",
+    "isInformalData": false,
+    "nameEN": "SideQuestConfig",
+    "questList": [
+      {
+        "id": 81001069
+      },
+      {
+        "id": 81001070
+      },
+      {
+        "id": 81001071
+      },
+      {
+        "id": 81001072
+      },
+      {
+        "id": 81001073
+      },
+      {
+        "id": 81001074
+      },
+      {
+        "id": 81000914
+      },
+      {
+        "id": 81001075
+      },
+      {
+        "id": 81001076
+      },
+      {
+        "id": 81001077
+      },
+      {
+        "id": 81000464
+      },
+      {
+        "id": 81000847
+      },
+      {
+        "id": 81000367
+      },
+      {
+        "id": 81001078
+      },
+      {
+        "id": 81000437
+      },
+      {
+        "id": 81001315
+      },
+      {
+        "id": 81001316
+      },
+      {
+        "id": 81001079
+      },
+      {
+        "id": 81001080
+      },
+      {
+        "id": 81000846
+      },
+      {
+        "id": 81000465
+      },
+      {
+        "id": 81001274
+      },
+      {
+        "id": 81000849
+      },
+      {
+        "id": 81000848
+      },
+      {
+        "id": 81001317
+      },
+      {
+        "id": 81001318
+      },
+      {
+        "id": 81000094
+      },
+      {
+        "id": 81000097
+      },
+      {
+        "id": 81000104
+      },
+      {
+        "id": 81001405
+      },
+      {
+        "id": 81001406
+      },
+      {
+        "id": 81001407
+      },
+      {
+        "id": 81002069
+      },
+      {
+        "id": 81001275
+      },
+      {
+        "id": 81001551
+      },
+      {
+        "id": 81002016
+      }
+    ]
   }
 ]

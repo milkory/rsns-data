@@ -438,11 +438,13 @@
     "isInformalData": false,
     "stateList": [
       {
+        "bubbleType": "Other",
+        "mId": -1,
         "nodePath": "Group_Edit.Btn_EditMode",
         "note": "",
         "offsetX": 40,
         "offsetY": 82,
-        "prefab": "UI/Common/Group_Track",
+        "prefab": "UI/Common/Group_Track_Q",
         "stateNo": 1,
         "tipsType": "Config"
       }
@@ -509,7 +511,7 @@
   },
   {
     "id": 86500029,
-    "idCN": "01任务追踪/主界面/通用追踪-剧情",
+    "idCN": "01任务追踪/主界面/通用追踪",
     "mod": "任务追踪",
     "isInformalData": false,
     "stateList": [
@@ -528,7 +530,7 @@
         "bubbleType": "Other",
         "mId": -1,
         "nodePath": "Btn_City",
-        "note": "在修格里-访问城市",
+        "note": "在目标车站-访问城市",
         "offsetX": -155,
         "offsetY": 40,
         "prefab": "UI/Common/Group_Track_Q",
@@ -707,71 +709,90 @@
     "isInformalData": false,
     "stateList": [
       {
+        "bubbleType": "Other",
+        "mId": -1,
         "nodePath": "Btn_Launch",
-        "note": "不在目的地-导航按钮",
+        "note": "车站-不是目标车站-导航按钮",
         "offsetX": -101,
         "offsetY": 74,
-        "prefab": "UI/Common/Group_Track",
+        "prefab": "UI/Common/Group_Track_Q",
         "stateNo": 0,
         "tipsType": "Config"
       },
       {
+        "bubbleType": "Other",
+        "mId": -1,
         "nodePath": "Group_Common.Btn_Enter",
         "note": "大地图-到站",
         "offsetX": -320,
         "offsetY": 30,
-        "prefab": "UI/Common/Group_Track",
-        "stateNo": 1
+        "prefab": "UI/Common/Group_Track_Q",
+        "stateNo": 1,
+        "tipsType": "Config"
       },
       {
+        "bubbleType": "Other",
+        "mId": -1,
         "nodePath": "",
         "note": "小地图-目标车站",
         "offsetX": 18,
-        "offsetY": 20,
-        "prefab": "UI/Common/Group_Track_Map",
+        "offsetY": 17,
+        "prefab": "UI/Common/Group_Track_Map_Q",
         "stateNo": 2,
         "tipsType": "EndStation"
       },
       {
+        "bubbleType": "Other",
+        "mId": -1,
         "nodePath": "",
         "note": "小地图-目标车站",
         "offsetX": 18,
-        "offsetY": 20,
-        "prefab": "UI/Common/Group_Track_Map",
+        "offsetY": 17,
+        "prefab": "UI/Common/Group_Track_Map_Q",
         "stateNo": 3,
         "tipsType": "EndStation"
       },
       {
+        "bubbleType": "Other",
+        "mId": -1,
         "nodePath": "Group_Common.Btn_Leave",
         "note": "大地图-离开",
         "offsetX": -320,
         "offsetY": 30,
-        "prefab": "UI/Common/Group_Track",
-        "stateNo": 4
+        "prefab": "UI/Common/Group_Track_Q",
+        "stateNo": 4,
+        "tipsType": "Config"
       },
       {
+        "bubbleType": "Other",
+        "mId": -1,
         "nodePath": "Group_Common.Btn_Enter",
         "note": "大地图-到站",
         "offsetX": -320,
         "offsetY": 30,
-        "prefab": "UI/Common/Group_Track",
-        "stateNo": 5
+        "prefab": "UI/Common/Group_Track_Q",
+        "stateNo": 5,
+        "tipsType": "Config"
       },
       {
+        "bubbleType": "Other",
+        "mId": -1,
         "nodePath": "",
         "note": "小地图-目标车站",
         "offsetX": 18,
-        "offsetY": 20,
-        "prefab": "UI/Common/Group_Track_Map",
+        "offsetY": 17,
+        "prefab": "UI/Common/Group_Track_Map_Q",
         "stateNo": 6,
         "tipsType": "EndStation"
       },
       {
+        "bubbleType": "Other",
+        "mId": -1,
         "nodePath": "",
         "note": "小地图-目标车站",
         "offsetX": 18,
-        "offsetY": 20,
-        "prefab": "UI/Common/Group_Track_Map",
+        "offsetY": 17,
+        "prefab": "UI/Common/Group_Track_Map_Q",
         "stateNo": 7,
         "tipsType": "EndStation"
       }
@@ -804,11 +825,13 @@
     "isInformalData": false,
     "stateList": [
       {
+        "bubbleType": "Other",
+        "mId": -1,
         "nodePath": "Group_OutSide.Group_Station.Btn_Build",
         "note": "在车站",
         "offsetX": 35,
         "offsetY": 35,
-        "prefab": "UI/Common/Group_Track",
+        "prefab": "UI/Common/Group_Track_Q",
         "stateNo": 1,
         "tipsType": "Config"
       }
@@ -1818,9 +1841,9 @@
         "mId": 86400179,
         "nodePath": "ScrollView_Map.Viewport.Group_BG.Group_Build%s.Btn_Build.Group_Anim",
         "note": "",
-        "offsetX": 40,
-        "offsetY": 82,
-        "prefab": "UI/Common/Group_Track",
+        "offsetX": 55,
+        "offsetY": 68,
+        "prefab": "UI/Common/Group_Track_Q",
         "stateNo": 1,
         "tipsType": "BubbleId"
       }
@@ -2126,9 +2149,9 @@
         "mId": -1,
         "nodePath": "ScrollView_Map.Viewport.Group_BG.Group_Build%s.Btn_Build.Group_Anim",
         "note": "",
-        "offsetX": 40,
-        "offsetY": 82,
-        "prefab": "UI/Common/Group_Track",
+        "offsetX": 55,
+        "offsetY": 68,
+        "prefab": "UI/Common/Group_Track_Q",
         "stateNo": 1,
         "tipsType": "BubbleType"
       }
@@ -2639,9 +2662,9 @@
         "mId": -1,
         "nodePath": "ScrollView_Map.Viewport.Group_BG.Group_Build%s.Btn_Build.Group_Anim",
         "note": "",
-        "offsetX": 40,
-        "offsetY": 82,
-        "prefab": "UI/Common/Group_Track",
+        "offsetX": 55,
+        "offsetY": 68,
+        "prefab": "UI/Common/Group_Track_Q",
         "stateNo": 1,
         "tipsType": "BubbleType"
       }
@@ -2803,7 +2826,7 @@
         "note": "电力入口",
         "offsetX": 95,
         "offsetY": 95,
-        "prefab": "UI/Common/Group_Track",
+        "prefab": "UI/Common/Group_Track_Q",
         "stateNo": 0,
         "tipsType": "Config"
       }
@@ -2823,7 +2846,7 @@
         "note": "电力入口",
         "offsetX": 105,
         "offsetY": 40,
-        "prefab": "UI/Common/Group_Track",
+        "prefab": "UI/Common/Group_Track_Q",
         "stateNo": 0,
         "tipsType": "Config"
       }
@@ -2841,9 +2864,9 @@
         "mId": 86400104,
         "nodePath": "ScrollView_Map.Viewport.Group_BG.Group_Build%s.Btn_Build.Group_Anim",
         "note": "",
-        "offsetX": 40,
-        "offsetY": 82,
-        "prefab": "UI/Common/Group_Track",
+        "offsetX": 55,
+        "offsetY": 68,
+        "prefab": "UI/Common/Group_Track_Q",
         "stateNo": 1,
         "tipsType": "BubbleId"
       }
@@ -4525,7 +4548,7 @@
     "stateList": [
       {
         "bubbleType": "Other",
-        "mId": 86400273,
+        "mId": 86400258,
         "nodePath": "ScrollView_Map.Viewport.Group_BG.Group_Build%s.Btn_Build.Group_Anim",
         "note": "",
         "offsetX": 55,
@@ -5540,7 +5563,7 @@
         "note": "活动挑战界面",
         "offsetX": 185,
         "offsetY": 29,
-        "prefab": "UI/Common/Group_Track",
+        "prefab": "UI/Common/Group_Track_Q",
         "stateNo": 0,
         "tipsType": "Config"
       }
@@ -5584,102 +5607,128 @@
   },
   {
     "id": 86500199,
-    "idCN": "01任务追踪/主界面/通用追踪-非剧情",
+    "idCN": "01任务追踪/主界面/通用追踪-废弃",
     "mod": "任务追踪",
     "isInformalData": false,
     "stateList": [
       {
+        "bubbleType": "Other",
+        "mId": -1,
         "nodePath": "Btn_Launch",
         "note": "车站-不是目标车站-导航按钮",
         "offsetX": -101,
         "offsetY": 74,
-        "prefab": "UI/Common/Group_Track",
+        "prefab": "UI/Common/Group_Track_Q",
         "stateNo": 0,
         "tipsType": "Config"
       },
       {
+        "bubbleType": "Other",
+        "mId": -1,
         "nodePath": "Btn_City",
-        "note": "在修格里-访问城市",
+        "note": "在目标车站-访问城市",
         "offsetX": -155,
         "offsetY": 40,
-        "prefab": "UI/Common/Group_Track",
-        "stateNo": 1
+        "prefab": "UI/Common/Group_Track_Q",
+        "stateNo": 1,
+        "tipsType": "Config"
       },
       {
+        "bubbleType": "Other",
+        "mId": -1,
         "nodePath": "",
         "note": "小地图-目标车站",
         "offsetX": 18,
-        "offsetY": 20,
-        "prefab": "UI/Common/Group_Track_Map",
+        "offsetY": 17,
+        "prefab": "UI/Common/Group_Track_Map_Q",
         "stateNo": 2,
         "tipsType": "EndStation"
       },
       {
+        "bubbleType": "Other",
+        "mId": -1,
         "nodePath": "",
         "note": "小地图-目标车站",
         "offsetX": 18,
-        "offsetY": 20,
-        "prefab": "UI/Common/Group_Track_Map",
+        "offsetY": 17,
+        "prefab": "UI/Common/Group_Track_Map_Q",
         "stateNo": 3,
         "tipsType": "EndStation"
       },
       {
+        "bubbleType": "Other",
+        "mId": -1,
         "nodePath": "Group_Common.Btn_Leave",
         "note": "大地图-离开",
         "offsetX": -320,
         "offsetY": 30,
-        "prefab": "UI/Common/Group_Track",
-        "stateNo": 4
+        "prefab": "UI/Common/Group_Track_Q",
+        "stateNo": 4,
+        "tipsType": "Config"
       },
       {
+        "bubbleType": "Other",
+        "mId": -1,
         "nodePath": "",
         "note": "小地图-目标车站",
         "offsetX": 18,
-        "offsetY": 20,
-        "prefab": "UI/Common/Group_Track_Map",
+        "offsetY": 17,
+        "prefab": "UI/Common/Group_Track_Map_Q",
         "stateNo": 6,
         "tipsType": "EndStation"
       },
       {
+        "bubbleType": "Other",
+        "mId": -1,
         "nodePath": "",
         "note": "小地图-目标车站",
         "offsetX": 18,
-        "offsetY": 20,
-        "prefab": "UI/Common/Group_Track_Map",
+        "offsetY": 17,
+        "prefab": "UI/Common/Group_Track_Map_Q",
         "stateNo": 7,
         "tipsType": "EndStation"
       },
       {
+        "bubbleType": "Other",
+        "mId": -1,
         "nodePath": "Group_Common.Btn_Enter",
         "note": "大地图-到站",
         "offsetX": -320,
         "offsetY": 30,
-        "prefab": "UI/Common/Group_Track",
-        "stateNo": 8
+        "prefab": "UI/Common/Group_Track_Q",
+        "stateNo": 8,
+        "tipsType": "Config"
       },
       {
+        "bubbleType": "Other",
+        "mId": -1,
         "nodePath": "",
         "note": "小地图-目标车站",
         "offsetX": 18,
-        "offsetY": 20,
-        "prefab": "UI/Common/Group_Track_Map",
+        "offsetY": 17,
+        "prefab": "UI/Common/Group_Track_Map_Q",
         "stateNo": 10,
         "tipsType": "EndStation"
       },
       {
+        "bubbleType": "Other",
+        "mId": -1,
         "nodePath": "Group_Common.Btn_Enter",
         "note": "大地图-到站",
         "offsetX": -320,
         "offsetY": 30,
-        "prefab": "UI/Common/Group_Track",
-        "stateNo": 12
+        "prefab": "UI/Common/Group_Track_Q",
+        "stateNo": 12,
+        "tipsType": "Config"
       },
       {
+        "bubbleType": "Other",
+        "mId": -1,
         "nodePath": "",
         "note": "小地图-目标车站",
         "offsetX": 18,
-        "offsetY": 20,
-        "prefab": "UI/Common/Group_Track_Map",
+        "offsetY": 17,
+        "prefab": "UI/Common/Group_Track_Map_Q",
         "stateNo": 14,
         "tipsType": "EndStation"
       }
@@ -6121,6 +6170,192 @@
         "intVal": 1,
         "key": "IsInEndStation",
         "stringVal": ""
+      }
+    ]
+  },
+  {
+    "id": 86500200,
+    "idCN": "01任务追踪/作战中心/1号位",
+    "mod": "任务追踪",
+    "isInformalData": false,
+    "stateList": [
+      {
+        "bubbleType": "Other",
+        "mId": -1,
+        "nodePath": "Group_Main.StaticGrid_List.Group_Btn_000.Btn_List",
+        "note": "",
+        "offsetX": 336,
+        "offsetY": 46,
+        "prefab": "UI/Common/Group_Track_Q",
+        "stateNo": 1,
+        "tipsType": "Config"
+      }
+    ],
+    "keyList": [
+      {
+        "factoryVal": -1,
+        "intVal": 1,
+        "key": "IsInEndStation",
+        "stringVal": ""
+      }
+    ]
+  },
+  {
+    "id": 86500216,
+    "idCN": "01任务追踪/列车武器工厂/制造武装",
+    "mod": "任务追踪",
+    "isInformalData": false,
+    "stateList": [
+      {
+        "bubbleType": "Other",
+        "mId": -1,
+        "nodePath": "Group_Main.Btn_Create",
+        "note": "栏位1",
+        "offsetX": 336,
+        "offsetY": 46,
+        "prefab": "UI/Common/Group_Track_Q",
+        "stateNo": 1,
+        "tipsType": "Config"
+      }
+    ],
+    "keyList": [
+      {
+        "factoryVal": -1,
+        "intVal": 1,
+        "key": "IsInEndStation",
+        "stringVal": ""
+      }
+    ]
+  },
+  {
+    "id": 86500217,
+    "idCN": "01任务追踪/作战中心/4号位",
+    "mod": "任务追踪",
+    "isInformalData": false,
+    "stateList": [
+      {
+        "bubbleType": "Other",
+        "mId": -1,
+        "nodePath": "Group_Main.StaticGrid_List.Group_Btn_003.Btn_List",
+        "note": "",
+        "offsetX": 336,
+        "offsetY": 46,
+        "prefab": "UI/Common/Group_Track_Q",
+        "stateNo": 1,
+        "tipsType": "Config"
+      }
+    ],
+    "keyList": [
+      {
+        "factoryVal": -1,
+        "intVal": 1,
+        "key": "IsInEndStation",
+        "stringVal": ""
+      }
+    ]
+  },
+  {
+    "id": 86500218,
+    "idCN": "01任务追踪/作战中心/3号位",
+    "mod": "任务追踪",
+    "isInformalData": false,
+    "stateList": [
+      {
+        "bubbleType": "Other",
+        "mId": -1,
+        "nodePath": "Group_Main.StaticGrid_List.Group_Btn_002.Btn_List",
+        "note": "",
+        "offsetX": 336,
+        "offsetY": 46,
+        "prefab": "UI/Common/Group_Track_Q",
+        "stateNo": 1,
+        "tipsType": "Config"
+      }
+    ],
+    "keyList": [
+      {
+        "factoryVal": -1,
+        "intVal": 1,
+        "key": "IsInEndStation",
+        "stringVal": ""
+      }
+    ]
+  },
+  {
+    "id": 86500219,
+    "idCN": "01任务追踪/作战中心/2号位",
+    "mod": "任务追踪",
+    "isInformalData": false,
+    "stateList": [
+      {
+        "bubbleType": "Other",
+        "mId": -1,
+        "nodePath": "Group_Main.StaticGrid_List.Group_Btn_001.Btn_List",
+        "note": "",
+        "offsetX": 336,
+        "offsetY": 46,
+        "prefab": "UI/Common/Group_Track_Q",
+        "stateNo": 1,
+        "tipsType": "Config"
+      }
+    ],
+    "keyList": [
+      {
+        "factoryVal": -1,
+        "intVal": 1,
+        "key": "IsInEndStation",
+        "stringVal": ""
+      }
+    ]
+  },
+  {
+    "id": 86500220,
+    "idCN": "01任务追踪/商会/运输订单",
+    "mod": "任务追踪",
+    "isInformalData": false,
+    "stateList": [
+      {
+        "bubbleType": "Other",
+        "mId": -1,
+        "nodePath": "Group_Main.Btn_Quest",
+        "note": "运输订单",
+        "offsetX": 336,
+        "offsetY": 46,
+        "prefab": "UI/Common/Group_Track_Q",
+        "stateNo": 1,
+        "tipsType": "Config"
+      }
+    ],
+    "keyList": [
+      {
+        "factoryVal": -1,
+        "intVal": 1,
+        "key": "IsInEndStation",
+        "stringVal": ""
+      }
+    ]
+  },
+  {
+    "id": 86500221,
+    "idCN": "02按钮列表/商会",
+    "mod": "按钮列表",
+    "isInformalData": false,
+    "btnList": [
+      {
+        "btnPath": "Group_Main.Btn_Quest",
+        "note": "运输订单"
+      }
+    ]
+  },
+  {
+    "id": 86500222,
+    "idCN": "03协议列表/商会",
+    "mod": "协议列表",
+    "isInformalData": false,
+    "apiList": [
+      {
+        "api": "quest.list",
+        "note": "订单列表"
       }
     ]
   }
