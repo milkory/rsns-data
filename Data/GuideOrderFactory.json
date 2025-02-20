@@ -10079,7 +10079,7 @@
     "orderType": "ConditionJumpIndex",
     "isLoop": false,
     "trueLabel": -1,
-    "falseLabel": 81100651,
+    "falseLabel": 81101041,
     "keyList": [
       {
         "compareType": "GE",
@@ -10261,7 +10261,7 @@
   },
   {
     "id": 81100874,
-    "idCN": "EP2/整备/编组/高亮",
+    "idCN": "EP2/整备/编组/页签高亮-透明",
     "mod": "指定UI高亮",
     "isInformalData": false,
     "orderType": "UIFocus",
@@ -10279,7 +10279,7 @@
   },
   {
     "id": 81100875,
-    "idCN": "EP2/整备/编组/点击",
+    "idCN": "EP2/整备/编组/页签点击",
     "mod": "点击按钮",
     "isInformalData": false,
     "orderType": "ClickButton",
@@ -10405,7 +10405,7 @@
   },
   {
     "id": 81100884,
-    "idCN": "首次进入/06整备",
+    "idCN": "首次进入/06整备-扩建",
     "mod": "保存面板触发引导序号",
     "isInformalData": false,
     "orderType": "SavePanelTriggerNo",
@@ -10970,7 +10970,7 @@
   },
   {
     "id": 81100941,
-    "idCN": "EP3/条件跳转/扩建列车未完成",
+    "idCN": "EP3/条件跳转/扩建列车未完成1",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "orderType": "ConditionJumpIndex",
@@ -13096,30 +13096,30 @@
   },
   {
     "id": 81101043,
-    "idCN": "EP2/整备/车厢编成/高亮",
+    "idCN": "EP2/整备/编组/应用高亮",
     "mod": "指定UI高亮",
     "isInformalData": false,
     "orderType": "UIFocus",
     "uiPath": "UI/Trainfactory/HomeCarriageeditor",
     "nodeType": "Fixed",
-    "nodeName": "Group_Edit.Btn_EditMode",
+    "nodeName": "Group_Edit.Btn_hold",
     "mId": -1,
     "delay": false,
-    "w": 262.0,
+    "w": 164.0,
     "h": 84.0,
     "offsetX": 0.0,
-    "offsetY": 0.0,
-    "alpha": 0.0,
+    "offsetY": 4.0,
+    "alpha": 0.7,
     "isShowFinger": true
   },
   {
     "id": 81101044,
-    "idCN": "EP2/整备/车厢编成/点击",
+    "idCN": "EP2/整备/编组/应用点击",
     "mod": "点击按钮",
     "isInformalData": false,
     "orderType": "ClickButton",
     "panelName": "UI/Trainfactory/HomeCarriageeditor",
-    "btnName": "HomeCarriageeditor_Group_Edit_Btn_EditMode_Click",
+    "btnName": "HomeCarriageeditor_Group_Edit_Btn_hold_Click",
     "autoCompletedTime": -1.0
   },
   {
@@ -14497,7 +14497,7 @@
   },
   {
     "id": 81100636,
-    "idCN": "首次进入/16委托",
+    "idCN": "首次进入/16整备-编组",
     "mod": "保存面板触发引导序号",
     "isInformalData": false,
     "orderType": "SavePanelTriggerNo",
@@ -14657,7 +14657,7 @@
   },
   {
     "id": 81100794,
-    "idCN": "EP1/条件跳转/逛逛/99结束",
+    "idCN": "通用/条件跳转/跳到/结束",
     "mod": "IFELSE跳转",
     "isInformalData": false,
     "orderType": "ConditionJumpIndex",
@@ -14987,5 +14987,231 @@
     "offsetY": 35.0,
     "alpha": 0.7,
     "isShowFinger": true
+  },
+  {
+    "id": 81100933,
+    "idCN": "EP3/条件跳转/扩建列车未完成2",
+    "mod": "IFELSE跳转",
+    "isInformalData": false,
+    "orderType": "ConditionJumpIndex",
+    "isLoop": false,
+    "trueLabel": -1,
+    "falseLabel": 81100651,
+    "keyList": [
+      {
+        "compareType": "EQ",
+        "key": "QuestCompleted",
+        "num": 0.0,
+        "uiPath": "",
+        "val": "81001151"
+      }
+    ]
+  },
+  {
+    "id": 81100948,
+    "idCN": "EP3/条件跳转/整备/立即完成",
+    "mod": "IFELSE跳转",
+    "isInformalData": false,
+    "orderType": "ConditionJumpIndex",
+    "isLoop": false,
+    "trueLabel": -1,
+    "falseLabel": 81100833,
+    "keyList": [
+      {
+        "compareType": "EQ",
+        "key": "IsActivated",
+        "num": 1.0,
+        "uiPath": "UI/Trainfactory/HomeCarriageeditor",
+        "val": "Group_Edit.Group_Build.Btn_Building"
+      }
+    ]
+  },
+  {
+    "id": 81100954,
+    "idCN": "EP3/条件跳转/整备/建造完成",
+    "mod": "IFELSE跳转",
+    "isInformalData": false,
+    "orderType": "ConditionJumpIndex",
+    "isLoop": false,
+    "trueLabel": -1,
+    "falseLabel": 81100948,
+    "keyList": [
+      {
+        "compareType": "EQ",
+        "key": "IsActivated",
+        "num": 1.0,
+        "uiPath": "UI/Trainfactory/HomeCarriageeditor",
+        "val": "Group_Edit.Group_Build.Btn_Built"
+      }
+    ]
+  },
+  {
+    "id": 81101038,
+    "idCN": "EP2/整备/建造完成/高亮",
+    "mod": "指定UI高亮",
+    "isInformalData": false,
+    "orderType": "UIFocus",
+    "uiPath": "UI/Trainfactory/HomeCarriageeditor",
+    "nodeType": "Fixed",
+    "nodeName": "Group_Edit.Group_Build.Btn_Built",
+    "mId": -1,
+    "delay": false,
+    "w": 268.0,
+    "h": 90.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0,
+    "alpha": 0.0,
+    "isShowFinger": true
+  },
+  {
+    "id": 81101040,
+    "idCN": "EP2/整备/建造完成/点击",
+    "mod": "点击按钮",
+    "isInformalData": false,
+    "orderType": "ClickButton",
+    "panelName": "UI/Trainfactory/HomeCarriageeditor",
+    "btnName": "HomeCarriageeditor_Group_Edit_Group_Build_Btn_Built_Click",
+    "autoCompletedTime": -1.0
+  },
+  {
+    "id": 81101052,
+    "idCN": "EP2/整备/立即完成/点击",
+    "mod": "点击按钮",
+    "isInformalData": false,
+    "orderType": "ClickButton",
+    "panelName": "UI/Trainfactory/HomeCarriageeditor",
+    "btnName": "HomeCarriageeditor_Group_Edit_Group_Build_Btn_Building_Click",
+    "autoCompletedTime": -1.0
+  },
+  {
+    "id": 81101053,
+    "idCN": "EP2/整备/立即完成/高亮-透明",
+    "mod": "指定UI高亮",
+    "isInformalData": false,
+    "orderType": "UIFocus",
+    "uiPath": "UI/Trainfactory/HomeCarriageeditor",
+    "nodeType": "Fixed",
+    "nodeName": "Group_Edit.Group_Build.Btn_Building",
+    "mId": -1,
+    "delay": false,
+    "w": 268.0,
+    "h": 90.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0,
+    "alpha": 0.0,
+    "isShowFinger": true
+  },
+  {
+    "id": 81101054,
+    "idCN": "通用/条件跳转/等待建造成功打开",
+    "mod": "IFELSE跳转",
+    "isInformalData": false,
+    "orderType": "ConditionJumpIndex",
+    "isLoop": true,
+    "trueLabel": -1,
+    "falseLabel": -1,
+    "keyList": [
+      {
+        "compareType": "EQ",
+        "key": "IsActivated",
+        "num": 1.0,
+        "uiPath": "UI/Trainfactory/Second/BuildWindows/NewCarriage",
+        "val": ""
+      }
+    ]
+  },
+  {
+    "id": 81101055,
+    "idCN": "通用/条件跳转/等待建造成功关闭",
+    "mod": "IFELSE跳转",
+    "isInformalData": false,
+    "orderType": "ConditionJumpIndex",
+    "isLoop": true,
+    "trueLabel": -1,
+    "falseLabel": -1,
+    "keyList": [
+      {
+        "compareType": "EQ",
+        "key": "IsActivated",
+        "num": 0.0,
+        "uiPath": "UI/Trainfactory/Second/BuildWindows/NewCarriage",
+        "val": ""
+      }
+    ]
+  },
+  {
+    "id": 81101056,
+    "idCN": "EP2/整备/编组/编组高亮",
+    "mod": "指定UI高亮",
+    "isInformalData": false,
+    "orderType": "UIFocus",
+    "uiPath": "UI/Trainfactory/HomeCarriageeditor",
+    "nodeType": "Fixed",
+    "nodeName": "Group_Edit.Btn_EditMode",
+    "mId": -1,
+    "delay": false,
+    "w": 164.0,
+    "h": 84.0,
+    "offsetX": 0.0,
+    "offsetY": 4.0,
+    "alpha": 0.7,
+    "isShowFinger": true
+  },
+  {
+    "id": 81101057,
+    "idCN": "EP2/整备/编组/编组点击",
+    "mod": "点击按钮",
+    "isInformalData": false,
+    "orderType": "ClickButton",
+    "panelName": "UI/Trainfactory/HomeCarriageeditor",
+    "btnName": "HomeCarriageeditor_Group_Edit_Btn_EditMode_Click",
+    "autoCompletedTime": -1.0
+  },
+  {
+    "id": 81101058,
+    "idCN": "EP2/整备/编组/槽位1高亮",
+    "mod": "指定UI高亮",
+    "isInformalData": false,
+    "orderType": "UIFocus",
+    "uiPath": "UI/Trainfactory/HomeCarriageeditor",
+    "nodeType": "Fixed",
+    "nodeName": "Group_Edit.Btn_NormalTrain",
+    "mId": -1,
+    "delay": false,
+    "w": 260.0,
+    "h": 260.0,
+    "offsetX": 4.0,
+    "offsetY": -180.0,
+    "alpha": 0.7,
+    "isShowFinger": true
+  },
+  {
+    "id": 81101059,
+    "idCN": "EP2/整备/编组/槽位1点击",
+    "mod": "点击按钮",
+    "isInformalData": false,
+    "orderType": "ClickButton",
+    "panelName": "UI/Trainfactory/HomeCarriageeditor",
+    "btnName": "HomeCarriageeditor_Group_Edit_NewScrollGrid_CoachList_Group_Item_Group_Item_Btn_Item_Click",
+    "autoCompletedTime": -1.0
+  },
+  {
+    "id": 81101060,
+    "idCN": "EP3/条件跳转/列车长度小于等于4",
+    "mod": "IFELSE跳转",
+    "isInformalData": false,
+    "orderType": "ConditionJumpIndex",
+    "isLoop": false,
+    "trueLabel": -1,
+    "falseLabel": 81100651,
+    "keyList": [
+      {
+        "compareType": "LE",
+        "key": "TrainLength",
+        "num": 4.0,
+        "uiPath": "",
+        "val": ""
+      }
+    ]
   }
 ]

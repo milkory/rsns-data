@@ -715,11 +715,7 @@
     "normalAttackCritID": -1,
     "skillList": [],
     "isInvisibleBeforeShowUp": false,
-    "showupSkillList": [
-      {
-        "actionId": 10103842
-      }
-    ],
+    "showupSkillList": [],
     "skillLoopDelayFrame": 1,
     "shapeShiftList": [],
     "commandList": [],
@@ -22721,12 +22717,42 @@
     "targetInvisibleEffectId": 11102488,
     "effectOffsetX": 0.0,
     "effectOffsetY": 0.0,
-    "actionList": [],
+    "actionList": [
+      {
+        "actionID": 10103908
+      },
+      {
+        "actionID": 10103909
+      }
+    ],
     "normalAttackCritID": -1,
-    "skillList": [],
-    "isInvisibleBeforeShowUp": false,
-    "showupSkillList": [],
-    "skillLoopDelayFrame": 360,
+    "skillList": [
+      {
+        "actionId": 10103905,
+        "activeFrame": 240,
+        "activeTime": 1.0,
+        "rangeSN": 240000
+      },
+      {
+        "actionId": 10103905,
+        "activeFrame": 596,
+        "activeTime": 1.0,
+        "rangeSN": 240000
+      },
+      {
+        "actionId": 10103906,
+        "activeFrame": 1072,
+        "activeTime": 1.0,
+        "rangeSN": 240000
+      }
+    ],
+    "isInvisibleBeforeShowUp": true,
+    "showupSkillList": [
+      {
+        "actionId": 10103910
+      }
+    ],
+    "skillLoopDelayFrame": 196,
     "shapeShiftList": [],
     "commandList": [],
     "enemySkillList": [],
@@ -22738,7 +22764,7 @@
         "rangeSN": 100000
       }
     ],
-    "energyRestorePerFrameSN": 220,
+    "energyRestorePerFrameSN": 280,
     "isSkillDelay": false,
     "minDelay": 120,
     "maxDelay": 360
@@ -22753,14 +22779,7 @@
     "effectOffsetY": 0.0,
     "actionList": [],
     "normalAttackCritID": -1,
-    "skillList": [
-      {
-        "actionId": 10103899,
-        "activeFrame": 240,
-        "activeTime": 1.0,
-        "rangeSN": 100000
-      }
-    ],
+    "skillList": [],
     "isInvisibleBeforeShowUp": false,
     "showupSkillList": [],
     "skillLoopDelayFrame": 360,
