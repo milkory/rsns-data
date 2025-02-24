@@ -15213,5 +15213,39 @@
         "val": ""
       }
     ]
+  },
+  {
+    "id": 81101061,
+    "idCN": "EP1/条件跳转/叶珏不在编队中",
+    "mod": "IFELSE跳转",
+    "isInformalData": false,
+    "orderType": "ConditionJumpIndex",
+    "isLoop": false,
+    "trueLabel": -1,
+    "falseLabel": 81100653,
+    "keyList": [
+      {
+        "compareType": "NE",
+        "key": "IsInSquads",
+        "num": 1.0,
+        "uiPath": "",
+        "val": "10000335"
+      }
+    ]
+  },
+  {
+    "id": 81101062,
+    "idCN": "EP1/编队/聚焦角色/上阵叶珏",
+    "mod": "聚焦角色并高亮",
+    "isInformalData": false,
+    "orderType": "UIFocusCharacter",
+    "unitId": 10000335,
+    "uiType": "SelectCharacter",
+    "w": 250.0,
+    "h": 430.0,
+    "offsetX": 150.0,
+    "offsetY": -240.0,
+    "alpha": 0.7,
+    "isShowFinger": true
   }
 ]
