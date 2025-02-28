@@ -11806,7 +11806,11 @@
     "tempdesc": "每遇到1波敌人时，直接释放1次【致幻瓦斯】",
     "desc": "每遇到1波敌人时，直接释放1次【致幻瓦斯】",
     "awakeLv": 2,
-    "skillList": [],
+    "skillList": [
+      {
+        "skillId": 12302956
+      }
+    ],
     "skillChangeList": [],
     "skillParamOffsetList": [],
     "name": "战术掩护"
@@ -11819,11 +11823,20 @@
     "path": "RolePlus\\00Gift\\Square\\JiaoZhiKuoSan",
     "attriDetialList": [],
     "attributeList": [],
-    "tempdesc": "【黏胶炸弹】增强为：\\n投掷3枚黏胶炸弹附着随机敌方，持续5秒\\n持续期间，每秒对敌方目标造成1段伤害并有45%概率随机触发【打断】/【击晕】/【点燃】\\n【黏胶炸弹】为【爆炸物】",
-    "desc": "【黏胶炸弹】增强为：\\n投掷3枚黏胶炸弹附着随机敌方，持续5秒\\n持续期间，每秒对敌方目标造成1段伤害并有45%概率随机触发<color=#FF6666>【打断】</color>/<color=#FF6666>【击晕】</color>/<color=#FF6666>【点燃】</color>\\n【黏胶炸弹】为【爆炸物】",
+    "tempdesc": "【黏胶炸弹】增强为：\\n投掷3枚黏胶炸弹附着随机敌方，持续5秒\\n持续期间，每秒对敌方目标造成1段伤害并有50%概率随机触发【打断】/【击晕】/【点燃】\\n【黏胶炸弹】为【爆炸物】",
+    "desc": "【黏胶炸弹】增强为：\\n投掷3枚黏胶炸弹附着随机敌方，持续5秒\\n持续期间，每秒对敌方目标造成1段伤害并有50%概率随机触发<color=#FF6666>【打断】</color>/<color=#FF6666>【击晕】</color>/<color=#FF6666>【点燃】</color>\\n【黏胶炸弹】为【爆炸物】",
     "awakeLv": 3,
-    "skillList": [],
-    "skillChangeList": [],
+    "skillList": [
+      {
+        "skillId": 12302963
+      }
+    ],
+    "skillChangeList": [
+      {
+        "newSkillId": 12302957,
+        "oldSkillId": 12302946
+      }
+    ],
     "skillParamOffsetList": [],
     "name": "胶质扩散"
   },
@@ -11838,7 +11851,11 @@
     "tempdesc": "【致幻瓦斯】被丢弃入弃牌区时，视为使用\\n使用【致幻瓦斯】后，使我方后排【隐形】，持续5秒",
     "desc": "【致幻瓦斯】被丢弃入弃牌区时，视为使用\\n使用【致幻瓦斯】后，使我方后排<color=#7AB2FF>【隐形】</color>，持续5秒",
     "awakeLv": 5,
-    "skillList": [],
+    "skillList": [
+      {
+        "skillId": 12302958
+      }
+    ],
     "skillChangeList": [],
     "skillParamOffsetList": [],
     "name": "战术潜影"
@@ -11851,10 +11868,14 @@
     "path": "RolePlus/00Gift/Golden/JiHuaFanYing",
     "attriDetialList": [],
     "attributeList": [],
-    "tempdesc": "附着【黏胶炸弹】的敌方，受到其他爆炸物伤害时，受到的爆炸物伤害增加25%（把黏胶当成点燃buff处理）\r触发激化反应时，自身攻击力+1%，上限30%",
-    "desc": "附着【黏胶炸弹】的敌方，受到其他爆炸物伤害时，受到的爆炸物伤害增加25%（把黏胶当成<color=#FF6666>点燃</color>buff处理）\r触发激化反应时，自身攻击力+1%，上限30%",
+    "tempdesc": "附着【黏胶炸弹】的敌方，受到其他爆炸物伤害时，受到的爆炸物伤害增加25%\\n触发激化反应时，【爆炸物】持有者攻击力+1%，上限50%",
+    "desc": "附着【黏胶炸弹】的敌方，受到其他爆炸物伤害时，受到的爆炸物伤害增加25%\\n触发激化反应时，【爆炸物】持有者攻击力+1%，上限50%",
     "awakeLv": 6,
-    "skillList": [],
+    "skillList": [
+      {
+        "skillId": 12302959
+      }
+    ],
     "skillChangeList": [],
     "skillParamOffsetList": [],
     "name": "激化反应"
