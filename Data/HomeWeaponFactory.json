@@ -14344,11 +14344,11 @@
     "idCN": "01撞角/00-1蓝-赠送撞角",
     "mod": "车厢撞角",
     "isInformalData": false,
-    "cannonModel": "Environment\\Prefab\\Map_train_blank_QZ\\Map_train_blank_QZ_03",
+    "cannonModel": "Environment/Prefab/Map_Train_Weapon/Map_Train_Weapon_09",
     "TbUnit": -1,
-    "hp": 1000,
-    "power": 300,
-    "hpLoss": 200,
+    "hp": 3000,
+    "power": 500,
+    "hpLoss": 300,
     "fixCoin": 0,
     "hitEventType": [
       {
@@ -14370,7 +14370,7 @@
         "id": 12600795
       }
     ],
-    "name": "合金撞击板",
+    "name": "爆炸反应撞击板",
     "effectStyleType": "none",
     "effectType": "0",
     "effectTypeEffect": -1,
@@ -14380,7 +14380,7 @@
     "YEffects": 0.0,
     "ZEffects": 0.0,
     "isCost": true,
-    "des": "最为常见的防撞装置，能撞开大部分杂物。",
+    "des": "随便贴爆反只会救了你。\\n\r<color=#FFB800>累计完成10次撞击后本列车武装损坏</color>",
     "createDes": "撞击用武器",
     "quality": "Blue",
     "techPoints": 10,
@@ -14397,13 +14397,16 @@
     ],
     "growUpEntryList": [
       {
-        "id": 85100036
+        "id": 85100335
       },
       {
         "id": 85100224
       },
       {
         "id": 85100263
+      },
+      {
+        "id": 85100336
       }
     ],
     "randomSkillNum": 0,
@@ -14430,90 +14433,9 @@
         "level": 0
       }
     ],
-    "materialList": [
-      {
-        "level": 0,
-        "list": -1
-      },
-      {
-        "level": 1,
-        "list": -1
-      },
-      {
-        "level": 2,
-        "list": -1
-      },
-      {
-        "level": 3,
-        "list": -1
-      },
-      {
-        "level": 4,
-        "list": -1
-      },
-      {
-        "level": 5,
-        "list": 80301391
-      },
-      {
-        "level": 6,
-        "list": 80301391
-      },
-      {
-        "level": 7,
-        "list": 80301391
-      },
-      {
-        "level": 8,
-        "list": 80301391
-      },
-      {
-        "level": 9,
-        "list": 80301391
-      },
-      {
-        "level": 10,
-        "list": 80301184
-      },
-      {
-        "level": 11,
-        "list": 80301184
-      },
-      {
-        "level": 12,
-        "list": 80301184
-      },
-      {
-        "level": 13,
-        "list": 80301184
-      },
-      {
-        "level": 14,
-        "list": 80301184
-      },
-      {
-        "level": 15,
-        "list": 80301184
-      },
-      {
-        "level": 16,
-        "list": 80301184
-      },
-      {
-        "level": 17,
-        "list": 80301184
-      },
-      {
-        "level": 18,
-        "list": 80301184
-      },
-      {
-        "level": 19,
-        "list": 80301184
-      }
-    ],
-    "imagePath": "Item/TrainWeapon/small/hejinzhuangjiban",
-    "tipsPath": "Item/TrainWeapon/big/hejinzhuangjiban",
+    "materialList": [],
+    "imagePath": "Item/TrainWeapon/small/baozhafanyingzhuangjiao",
+    "tipsPath": "Item/TrainWeapon/big/baozhafanyingzhuangjiao",
     "configWinPercent": 0.03,
     "configNumMin": 0.9,
     "configNumMax": 1.0,
