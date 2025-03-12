@@ -5340,7 +5340,7 @@
         "rangeSN": -10000
       }
     ],
-    "energyRestorePerFrameSN": 210,
+    "energyRestorePerFrameSN": 200,
     "isSkillDelay": true,
     "minDelay": 120,
     "maxDelay": 360
@@ -22944,7 +22944,11 @@
     "normalAttackCritID": -1,
     "skillList": [],
     "isInvisibleBeforeShowUp": true,
-    "showupSkillList": [],
+    "showupSkillList": [
+      {
+        "actionId": 10103881
+      }
+    ],
     "skillLoopDelayFrame": 0,
     "shapeShiftList": [],
     "commandList": [
@@ -22985,7 +22989,11 @@
     "normalAttackCritID": -1,
     "skillList": [],
     "isInvisibleBeforeShowUp": true,
-    "showupSkillList": [],
+    "showupSkillList": [
+      {
+        "actionId": 10103964
+      }
+    ],
     "skillLoopDelayFrame": 0,
     "shapeShiftList": [],
     "commandList": [
@@ -23026,7 +23034,11 @@
     "normalAttackCritID": -1,
     "skillList": [],
     "isInvisibleBeforeShowUp": true,
-    "showupSkillList": [],
+    "showupSkillList": [
+      {
+        "actionId": 10103965
+      }
+    ],
     "skillLoopDelayFrame": 0,
     "shapeShiftList": [],
     "commandList": [
@@ -23067,7 +23079,11 @@
     "normalAttackCritID": -1,
     "skillList": [],
     "isInvisibleBeforeShowUp": true,
-    "showupSkillList": [],
+    "showupSkillList": [
+      {
+        "actionId": 10103966
+      }
+    ],
     "skillLoopDelayFrame": 0,
     "shapeShiftList": [],
     "commandList": [
@@ -23085,6 +23101,44 @@
     "isUseEnergy": false,
     "energySkillList": [],
     "energyRestorePerFrameSN": 0,
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300556,
+    "idCN": "敌方/14学会/归墟",
+    "mod": "BOSSAI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10103976
+      },
+      {
+        "actionID": 10103977
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10103979,
+        "activeFrame": 240,
+        "activeTime": 1.0,
+        "rangeSN": 120000
+      }
+    ],
+    "isInvisibleBeforeShowUp": true,
+    "showupSkillList": [],
+    "skillLoopDelayFrame": 1500,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 500,
     "isSkillDelay": false,
     "minDelay": 120,
     "maxDelay": 360
