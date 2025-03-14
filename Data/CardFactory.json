@@ -26425,10 +26425,10 @@
     "isInformalData": false,
     "name": "厮杀",
     "isCutIn": false,
-    "isUseSingleTarget": false,
+    "isUseSingleTarget": true,
     "isNoCD": false,
     "isUseInHand": false,
-    "isNotDiscard": true,
+    "isNotDiscard": false,
     "iconPath": "",
     "backPath": "",
     "roleImgPath": "",
@@ -26438,7 +26438,7 @@
     "cost_SN": 20000,
     "inhandBuffId": -1,
     "inhandOverBuffId": -1,
-    "startBuffId": 10417253,
+    "startBuffId": 10417260,
     "discardBuffId": -1,
     "discardBySkillBuffId": -1,
     "banishBuffId": -1,
@@ -26466,7 +26466,7 @@
     "radius_SN": 240000,
     "isUseTargetFilter": true,
     "isIgnoreInvisibleEnemy": true,
-    "targetType": "Enemy",
+    "targetType": "OnlyTeam2",
     "targetTagList": [],
     "tagType": "And",
     "halfWidth_SN": 240000,
@@ -26491,7 +26491,7 @@
     "idCN": "06敌方/14学会/桎梏",
     "mod": "无动作卡",
     "isInformalData": false,
-    "name": "锋芒",
+    "name": "桎梏",
     "isCutIn": false,
     "isUseSingleTarget": false,
     "isNoCD": false,
@@ -26504,13 +26504,13 @@
     "cardType": "Normal",
     "sameCardGroupId": -1,
     "cost_SN": 200000,
-    "inhandBuffId": 10413277,
-    "inhandOverBuffId": -1,
-    "startBuffId": 10413309,
+    "inhandBuffId": -1,
+    "inhandOverBuffId": 10417445,
+    "startBuffId": -1,
     "discardBuffId": -1,
     "discardBySkillBuffId": -1,
-    "banishBuffId": -1,
-    "atkAreaType": "TargetArea",
+    "banishBuffId": 10417457,
+    "atkAreaType": "AllAlly",
     "atkAreaColor": "Yellow",
     "targetColor": "Normal",
     "disappearEffectId": 11100047,
@@ -26525,6 +26525,9 @@
       },
       {
         "tagId": 12601403
+      },
+      {
+        "tagId": 12601654
       }
     ],
     "tagOutsideList": [],
@@ -26575,7 +26578,7 @@
     "cost_SN": 10000,
     "inhandBuffId": -1,
     "inhandOverBuffId": -1,
-    "startBuffId": -1,
+    "startBuffId": 10417258,
     "discardBuffId": -1,
     "discardBySkillBuffId": -1,
     "banishBuffId": -1,
@@ -26598,7 +26601,11 @@
     "cardAIActionList": [],
     "ExCondList": [],
     "ExActList": [],
-    "linkCardId": []
+    "linkCardId": [
+      {
+        "Id": 10600445
+      }
+    ]
   },
   {
     "id": 10600443,
@@ -26686,6 +26693,52 @@
       },
       {
         "tagId": 12600007
+      }
+    ],
+    "tagOutsideList": [],
+    "deriveCardList": [],
+    "cardAIActionList": [],
+    "ExCondList": [],
+    "ExActList": [],
+    "linkCardId": []
+  },
+  {
+    "id": 10600445,
+    "idCN": "00原版/05五星/奥莉薇恩/A共振一",
+    "mod": "基础卡牌",
+    "isInformalData": false,
+    "name": "茶时法则",
+    "isCutIn": false,
+    "isUseSingleTarget": false,
+    "isNoCD": false,
+    "isUseInHand": false,
+    "isNotDiscard": false,
+    "iconPath": "RolePlus/Olivien/skillicon/A",
+    "backPath": "",
+    "roleImgPath": "",
+    "color": "Yellow",
+    "cardType": "Normal",
+    "sameCardGroupId": -1,
+    "actionId": 10103991,
+    "cost_SN": 10000,
+    "inhandBuffId": -1,
+    "inhandOverBuffId": -1,
+    "startBuffId": 10417394,
+    "discardBuffId": -1,
+    "discardBySkillBuffId": -1,
+    "banishBuffId": -1,
+    "atkAreaType": "Self",
+    "atkAreaColor": "Yellow",
+    "targetColor": "Normal",
+    "disappearEffectId": 11100047,
+    "appearEffectId": 11100046,
+    "createEffectId": 11100106,
+    "destroyEffectId": -1,
+    "createTweenDelay": 30,
+    "isCostX": false,
+    "tagList": [
+      {
+        "tagId": 12600146
       }
     ],
     "tagOutsideList": [],
