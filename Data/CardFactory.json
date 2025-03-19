@@ -5554,13 +5554,17 @@
       },
       {
         "tagId": 12600127
+      },
+      {
+        "tagId": 12601658
       }
     ],
     "tagOutsideList": [],
     "deriveCardList": [],
     "cardAIActionList": [],
     "ExCondList": [],
-    "ExActList": []
+    "ExActList": [],
+    "linkCardId": []
   },
   {
     "id": 10600077,
@@ -7545,6 +7549,9 @@
       },
       {
         "tagId": 12600028
+      },
+      {
+        "tagId": 12601658
       }
     ],
     "tagOutsideList": [],
@@ -7561,7 +7568,8 @@
         "typeEnum": "percent"
       }
     ],
-    "ExActList": []
+    "ExActList": [],
+    "linkCardId": []
   },
   {
     "id": 10600225,
@@ -12221,9 +12229,6 @@
     "tagList": [
       {
         "tagId": 12600073
-      },
-      {
-        "tagId": 12600056
       }
     ],
     "tagOutsideList": [],
@@ -12250,7 +12255,8 @@
     "isAimSelf": false,
     "targetCount": 0,
     "ExCondList": [],
-    "ExActList": []
+    "ExActList": [],
+    "linkCardId": []
   },
   {
     "id": 10600150,
@@ -12294,9 +12300,6 @@
       },
       {
         "tagId": 12600216
-      },
-      {
-        "tagId": 12600056
       }
     ],
     "tagOutsideList": [],
@@ -12323,7 +12326,8 @@
     "isAimSelf": false,
     "targetCount": 0,
     "ExCondList": [],
-    "ExActList": []
+    "ExActList": [],
+    "linkCardId": []
   },
   {
     "id": 10600151,
@@ -26594,6 +26598,9 @@
     "tagList": [
       {
         "tagId": 12600146
+      },
+      {
+        "tagId": 12601666
       }
     ],
     "tagOutsideList": [],
@@ -26643,17 +26650,36 @@
     "isCostX": false,
     "tagList": [
       {
-        "tagId": 12600009
+        "tagId": 12600001
       },
       {
-        "tagId": 12601658
+        "tagId": 12601667
       }
     ],
     "tagOutsideList": [],
     "deriveCardList": [],
-    "cardAIActionList": [],
+    "cardAIActionList": [
+      {
+        "actionId": 96300008,
+        "conditionId": -1,
+        "weight": 1
+      }
+    ],
     "ExCondList": [],
-    "ExActList": [],
+    "ExActList": [
+      {
+        "condId": 96300003,
+        "des": 80608013
+      },
+      {
+        "condId": 96300009,
+        "des": 80610277
+      },
+      {
+        "condId": 96300010,
+        "des": 80610278
+      }
+    ],
     "linkCardId": []
   },
   {
@@ -26698,7 +26724,10 @@
         "tagId": 12600007
       },
       {
-        "tagId": 12601657
+        "tagId": 12600001
+      },
+      {
+        "tagId": 12601668
       }
     ],
     "tagOutsideList": [],
@@ -26745,6 +26774,9 @@
     "tagList": [
       {
         "tagId": 12600146
+      },
+      {
+        "tagId": 12601666
       }
     ],
     "tagOutsideList": [],

@@ -23172,7 +23172,7 @@
     "skillList": [],
     "isInvisibleBeforeShowUp": false,
     "showupSkillList": [],
-    "skillLoopDelayFrame": 160,
+    "skillLoopDelayFrame": 1,
     "shapeShiftList": [],
     "commandList": [],
     "enemySkillList": [],
@@ -23286,23 +23286,23 @@
       }
     ],
     "normalAttackCritID": -1,
-    "skillList": [],
+    "skillList": [
+      {
+        "actionId": 10104008,
+        "activeFrame": 1,
+        "activeTime": 0.0,
+        "rangeSN": -10000
+      }
+    ],
     "isInvisibleBeforeShowUp": false,
     "showupSkillList": [
       {
         "actionId": 10104001
       }
     ],
-    "skillLoopDelayFrame": 1,
+    "skillLoopDelayFrame": 30,
     "shapeShiftList": [],
-    "commandList": [
-      {
-        "actionID": 10104002
-      },
-      {
-        "actionID": 10104004
-      }
-    ],
+    "commandList": [],
     "enemySkillList": [],
     "isUseEnergy": false,
     "energySkillList": [],
@@ -23415,6 +23415,73 @@
     "energySkillList": [],
     "energyRestorePerFrameSN": 450,
     "isSkillDelay": true,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300564,
+    "idCN": "爬塔/角色改/昴宿一",
+    "mod": "基础AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10103274
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [],
+    "skillLoopDelayFrame": 210,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 450,
+    "isSkillDelay": true,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300563,
+    "idCN": "我方/50召唤物/奥莉薇恩/bot02茶晶龙共振5",
+    "mod": "基础AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": -1,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10104031
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10104004,
+        "activeFrame": 1,
+        "activeTime": 0.0,
+        "rangeSN": -10000
+      }
+    ],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [
+      {
+        "actionId": 10104001
+      }
+    ],
+    "skillLoopDelayFrame": 30,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
+    "isSkillDelay": false,
     "minDelay": 120,
     "maxDelay": 360
   }
