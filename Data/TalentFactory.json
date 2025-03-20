@@ -3026,18 +3026,17 @@
     "desc": "【魔术糖】，【战地医生】和【肾上腺素】的治疗量+5%",
     "awakeLv": 3,
     "skillList": [],
-    "skillChangeList": [],
+    "skillChangeList": [
+      {
+        "newSkillId": 12303059,
+        "oldSkillId": 12300104
+      },
+      {
+        "newSkillId": 12303060,
+        "oldSkillId": 12300106
+      }
+    ],
     "skillParamOffsetList": [
-      {
-        "skillId": 12300104,
-        "tag": "A",
-        "value_SN": 500
-      },
-      {
-        "skillId": 12300106,
-        "tag": "A",
-        "value_SN": 500
-      },
       {
         "skillId": -1,
         "tag": "exEpinephrineHealing",
@@ -6974,16 +6973,16 @@
     "desc": "【微波】增强为：\\n释放1架【303】，照射微波 ，持续5秒后回收\\n持续期间，回复生命值最低的我方10%生命值，同时每秒对随机敌方触发<color=#FF6666>【点燃】</color>\\n【303】为【无人机】",
     "awakeLv": 5,
     "skillList": [],
-    "skillChangeList": [],
-    "skillParamOffsetList": [
+    "skillChangeList": [
       {
-        "skillId": 12300592,
-        "tag": "A",
-        "value_SN": 200
+        "newSkillId": 12303062,
+        "oldSkillId": 12300592
       }
     ],
+    "skillParamOffsetList": [],
     "name": "增幅",
     "skillIntensify": 12302483,
+    "skillActiveUpgrade": [],
     "attributeIntensify": [
       {
         "id": 80305773
