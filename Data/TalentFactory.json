@@ -5929,7 +5929,7 @@
     "attriDetialList": [],
     "attributeList": [],
     "tempdesc": "【谜】增强为：\\n激活【解构之箱】，将所有手牌洗回牌库并抽3张牌\\n基于其中红卡数量，生成等量的【立构之炎】加入手牌\\n基于其中黄卡数量，生成等量的【破构之雷】加入手牌\\n基于其中蓝卡数量，生成等量的【再构之力】加入手牌\\n基于其中绿卡数量，生成等量的【负能】加入手牌\\n基于其中紫卡数量，生成等量的【净化之光】加入手牌",
-    "desc": "【谜】增强为：\\n激活【解构之箱】，将所有手牌洗回牌库并抽3张牌\\n基于其中红卡数量，生成等量的【立构之炎】加入手牌\\n基于其中黄卡数量，生成等量的【破构之雷】加入手牌\\n基于其中蓝卡数量，生成等量的【再构之力】加入手牌\\n基于其中绿卡数量，生成等量的【负能】加入手牌\\n基于其中紫卡数量，生成等量的【净化之光】加入手牌",
+    "desc": "【谜】增强为：\\n激活【解构之箱】，将所有手牌洗回牌库并抽3张牌\\n基于其中红卡数量，生成等量的【立构之炎】加入手牌\\n基于其中黄卡数量，生成等量的【破构之雷】加入手牌\\n基于其中蓝卡数量，生成等量的【再构之力】加入手牌\\n基于其中绿卡数量，生成等量的【负能】加入手牌\\n基于其中紫卡数量，生成等量的【<color=#7AB2FF>净化</color>之光】加入手牌",
     "awakeLv": 6,
     "skillList": [],
     "skillChangeList": [
@@ -16480,7 +16480,7 @@
     "attriDetialList": [],
     "attributeList": [],
     "tempdesc": "每遇到1波敌人时，直接释放1次【致幻瓦斯】",
-    "desc": "每遇到1波敌人时，直接释放1次【致幻瓦斯】",
+    "desc": "每遇到1波敌人时，直接释放1次【<color=#B383FF>致幻</color>瓦斯】",
     "awakeLv": 2,
     "skillList": [
       {
@@ -16555,7 +16555,7 @@
     "attriDetialList": [],
     "attributeList": [],
     "tempdesc": "【致幻瓦斯】被丢弃入弃牌区时，视为使用\\n使用【致幻瓦斯】后，使我方后排【隐形】，持续5秒",
-    "desc": "【致幻瓦斯】被丢弃入弃牌区时，视为使用\\n使用【致幻瓦斯】后，使我方后排<color=#7AB2FF>【隐形】</color>，持续5秒",
+    "desc": "【<color=#B383FF>致幻</color>瓦斯】被丢弃入弃牌区时，视为使用\\n使用【<color=#B383FF>致幻</color>瓦斯】后，使我方后排<color=#7AB2FF>【隐形】</color>，持续5秒",
     "awakeLv": 5,
     "skillList": [
       {
@@ -16592,7 +16592,7 @@
     "attriDetialList": [],
     "attributeList": [],
     "tempdesc": "【致幻瓦斯】持续期间：\\n使我方前排受到的最终伤害降低25%\\n使我方【机械单位】【狂暴】\\n使我方后排造成的最终伤害提高25%",
-    "desc": "【致幻瓦斯】持续期间：\\n使我方前排受到的最终伤害降低25%\\n使我方【机械单位】<color=#FF6666>【狂暴】</color>\\n使我方后排造成的最终伤害提高25%",
+    "desc": "【<color=#B383FF>致幻</color>瓦斯】持续期间：\\n使我方前排受到的最终伤害降低25%\\n使我方【机械单位】<color=#FF6666>【狂暴】</color>\\n使我方后排造成的最终伤害提高25%",
     "awakeLv": 6,
     "skillList": [
       {
@@ -16816,6 +16816,177 @@
       },
       {
         "id": 80305922
+      }
+    ]
+  },
+  {
+    "id": 12800582,
+    "idCN": "00原版/05五星/涟/共振3-生机",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "RolePlus\\00Gift\\Square\\shengji",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "HpMax",
+        "numType": "Percent",
+        "num_SN": 1000
+      }
+    ],
+    "tempdesc": "生命值+10%",
+    "desc": "生命值+10%",
+    "awakeLv": 4,
+    "skillList": [],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": "生机",
+    "skillIntensify": 12303073,
+    "skillActiveUpgrade": [],
+    "attributeIntensify": [
+      {
+        "id": 80305929
+      },
+      {
+        "id": 80305930
+      },
+      {
+        "id": 80305931
+      }
+    ]
+  },
+  {
+    "id": 12800583,
+    "idCN": "00原版/05五星/涟/共振1-阈限解放",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "RolePlus/00Gift/Ren/YuXianJieFang",
+    "attriDetialList": [],
+    "attributeList": [],
+    "tempdesc": "开局自身攻击力+200并叠加10层【抑制】\\n每层【抑制】自身攻击力-20，上限10层\\n涟每次使用自身技能牌后移除1层【抑制】，当【抑制】减至0层时涟进入【暴走】状态\\n【暴走】状态期间，每秒移除自身1%生命值，涟无法使用自身技能牌同时将【普通攻击】转化为【碎骨】，每次【碎骨】叠加2层【抑制】\\n【抑制】叠加至10层时，解除【暴走】状态",
+    "desc": "开局自身攻击力+200并叠加10层【抑制】\\n每层【抑制】自身攻击力-20，上限10层\\n涟每次使用自身技能牌后移除1层【抑制】，当【抑制】减至0层时涟进入【暴走】状态\\n【暴走】状态期间，每秒移除自身1%生命值，涟无法使用自身技能牌同时将【普通攻击】转化为【碎骨】，每次【碎骨】叠加2层【抑制】\\n【抑制】叠加至10层时，解除【暴走】状态",
+    "awakeLv": 2,
+    "skillList": [
+      {
+        "skillId": 12303076
+      }
+    ],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": "阈限解放",
+    "skillIntensify": 12302622,
+    "skillActiveUpgrade": [],
+    "attributeIntensify": [
+      {
+        "id": 80305923
+      },
+      {
+        "id": 80305924
+      },
+      {
+        "id": 80305925
+      }
+    ]
+  },
+  {
+    "id": 12800584,
+    "idCN": "00原版/05五星/涟/共振2-“终焉毁灭者”",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "RolePlus/00Gift/Ren/ZhongYanHuiMieZhe",
+    "attriDetialList": [],
+    "attributeList": [],
+    "tempdesc": "每次使用【崩裂】后额外移除1层【抑制】",
+    "desc": "每次使用【崩裂】后额外移除1层【抑制】",
+    "awakeLv": 3,
+    "skillList": [
+      {
+        "skillId": 12303077
+      }
+    ],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": "“终焉毁灭者”",
+    "skillIntensify": 12303075,
+    "skillActiveUpgrade": [
+      {
+        "id": 12303070
+      }
+    ],
+    "attributeIntensify": [
+      {
+        "id": 80305926
+      },
+      {
+        "id": 80305927
+      },
+      {
+        "id": 80305928
+      }
+    ]
+  },
+  {
+    "id": 12800585,
+    "idCN": "00原版/05五星/涟/共振4-盈蚀协律",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "RolePlus/00Gift/Ren/YingShiXieLv",
+    "attriDetialList": [],
+    "attributeList": [],
+    "tempdesc": "每叠加1层【抑制】，获得0.5点费用\\n处于【暴走】状态时，每叠加1层【抑制】，获得0.5点费用",
+    "desc": "每叠加1层【抑制】，获得0.5点费用\\n处于【暴走】状态时，每叠加1层【抑制】，获得0.5点费用",
+    "awakeLv": 5,
+    "skillList": [
+      {
+        "skillId": 12303078
+      }
+    ],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": "盈蚀协律",
+    "skillIntensify": 12303074,
+    "skillActiveUpgrade": [
+      {
+        "id": 12303072
+      }
+    ],
+    "attributeIntensify": [
+      {
+        "id": 80305932
+      },
+      {
+        "id": 80305933
+      },
+      {
+        "id": 80305934
+      }
+    ]
+  },
+  {
+    "id": 12800586,
+    "idCN": "00原版/05五星/涟/共振5-晦夜真瞳",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "RolePlus/00Gift/Ren/HuiYeZhenTong",
+    "attriDetialList": [],
+    "attributeList": [],
+    "tempdesc": "【虚影视界】增强为：\\n展开【虚影视界】，持续5秒\\n持续期间：\\n使除自身外随机2名我方【隐形】\\n每秒丢弃1张手牌并从牌库或弃牌区将1张【崩裂】加入手牌\\n每秒对随机目标施加1层【注视】\\n每秒每只【瞵鸦】对随机敌方有50%概率随机触发【混乱】/【灼心】",
+    "desc": "【虚影视界】增强为：\\n展开【虚影视界】，持续5秒\\n持续期间：\\n使除自身外随机2名我方<color=#7AB2FF>【隐形】</color>\\n每秒丢弃1张手牌并从牌库或弃牌区将1张【崩裂】加入手牌\\n每秒对随机目标施加1层【注视】\\n每秒每只【瞵鸦】对随机敌方有50%概率随机触发<color=#B383FF>【混乱】</color>/<color=#FF6666>【灼心】</color>",
+    "awakeLv": 6,
+    "skillList": [],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": "晦夜真瞳",
+    "skillIntensify": -1,
+    "skillActiveUpgrade": [],
+    "attributeIntensify": [
+      {
+        "id": 80305935
+      },
+      {
+        "id": 80305936
+      },
+      {
+        "id": 80305937
       }
     ]
   }
