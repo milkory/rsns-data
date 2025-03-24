@@ -2115,7 +2115,7 @@
     "mod": "基础突破",
     "isInformalData": false,
     "name": "弹链充能",
-    "path": "RolePlus\\00Gift\\Box\\QiangRen",
+    "path": "RolePlus/00Gift/Eliot/DanLianChongNeng",
     "attriDetialList": [],
     "attributeList": [],
     "materialList": [
@@ -2844,7 +2844,7 @@
     "mod": "基础突破",
     "isInformalData": false,
     "name": "铁幕回响",
-    "path": "RolePlus\\00Gift\\Box\\QiangRen",
+    "path": "RolePlus/00Gift/Flan/TieMuHuiXiang",
     "attriDetialList": [],
     "attributeList": [],
     "materialList": [
@@ -12461,7 +12461,7 @@
     "mod": "基础突破",
     "isInformalData": false,
     "name": "备策",
-    "path": "RolePlus\\00Gift\\Heinrich\\BeiCe",
+    "path": "RolePlus\\00Gift\\Eliot\\BeiCe",
     "attriDetialList": [],
     "attributeList": [],
     "materialList": [
@@ -16095,7 +16095,7 @@
     "mod": "基础突破",
     "isInformalData": false,
     "name": "谐律余音",
-    "path": "RolePlus\\00Gift\\Box\\QiangRen",
+    "path": "RolePlus/00Gift/Livia/XieLvYuYin",
     "attriDetialList": [],
     "attributeList": [],
     "materialList": [
@@ -16349,7 +16349,7 @@
     "mod": "基础突破",
     "isInformalData": false,
     "name": "鸣",
-    "path": "RolePlus\\00Gift\\Box\\QiangRen",
+    "path": "RolePlus/00Gift/Yejue/Ming",
     "attriDetialList": [],
     "attributeList": [],
     "materialList": [
@@ -16406,7 +16406,7 @@
     "mod": "基础突破",
     "isInformalData": false,
     "name": "《天下一家》",
-    "path": "RolePlus\\00Gift\\Box\\QiangRen",
+    "path": "RolePlus/00Gift/Haruka/TianXiaYiJia",
     "attriDetialList": [],
     "attributeList": [],
     "materialList": [
@@ -20204,9 +20204,14 @@
       }
     ],
     "skillList": [],
-    "tempdesc": "每层【注视】使我方目标攻击力+3%，上限30%",
-    "desc": "每层【注视】使我方目标攻击力+3%，上限30%",
-    "skillChangeList": [],
+    "tempdesc": "【注视】增强为：\\n召唤使魔【瞵鸦】紧盯目标\\n持续期间，每6秒对目标施加1层【注视】\\n若对敌方使用时，每层【注视】使敌方目标防御力降低2%，上限10层\\n若对我方使用时，每层【注视】使我方目标攻击力+3%，上限10层\\n【瞵鸦】为【使魔】，协同冰冻属性【普通攻击】并为涟吸收伤害\\n【瞵鸦】的攻击力等于涟的攻击力，生命值等于涟生命值的25%",
+    "desc": "【注视】增强为：\\n召唤使魔【瞵鸦】紧盯目标\\n持续期间，每6秒对目标施加1层【注视】\\n若对敌方使用时，每层【注视】使敌方目标防御力降低2%，上限10层\\n若对我方使用时，每层【注视】使我方目标攻击力+3%，上限10层\\n【瞵鸦】为【使魔】，协同冰冻属性【普通攻击】并为涟吸收伤害\\n【瞵鸦】的攻击力等于涟的攻击力，生命值等于涟生命值的25%",
+    "skillChangeList": [
+      {
+        "newSkillId": 12303053,
+        "oldSkillId": 12303071
+      }
+    ],
     "skillParamOffsetList": []
   },
   {
@@ -20224,7 +20229,11 @@
         "num": 1
       }
     ],
-    "skillList": [],
+    "skillList": [
+      {
+        "skillId": 12303052
+      }
+    ],
     "tempdesc": "每次我方造成【崩坏】/【重伤】/【混乱】/【灼心】/【注视】时，自身攻击力+0.5%，上限60%",
     "desc": "每次我方造成<color=#FF6666>【崩坏】</color>/<color=#FF6666>【重伤】</color>/<color=#B383FF>【混乱】</color>/<color=#FF6666>【灼心】</color>/【注视】时，自身攻击力+0.5%，上限60%",
     "skillChangeList": [],
@@ -20298,7 +20307,11 @@
         "num": 1
       }
     ],
-    "skillList": [],
+    "skillList": [
+      {
+        "skillId": 12303054
+      }
+    ],
     "tempdesc": "我方场上每存在1只【瞵鸦】，手牌补充冷却时间缩短0.33秒，可叠加\\n敌方场上每存在1只【瞵鸦】，每秒获得0.1点费用，可叠加",
     "desc": "我方场上每存在1只【瞵鸦】，手牌补充冷却时间缩短0.33秒，可叠加\\n敌方场上每存在1只【瞵鸦】，每秒获得0.1点费用，可叠加",
     "skillChangeList": [],
@@ -20319,7 +20332,11 @@
         "num": 1
       }
     ],
-    "skillList": [],
+    "skillList": [
+      {
+        "skillId": 12303083
+      }
+    ],
     "tempdesc": "每获得3张自身技能牌，获得1点费用",
     "desc": "每获得3张自身技能牌，获得1点费用",
     "skillChangeList": [],
