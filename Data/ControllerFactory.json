@@ -23499,7 +23499,7 @@
   },
   {
     "id": 10300565,
-    "idCN": "敌方/06深眠者/哀怜魔女",
+    "idCN": "敌方/06深眠者/哀怜魔女/火",
     "mod": "BOSSAI",
     "isInformalData": false,
     "targetInvisibleEffectId": 11102488,
@@ -23514,14 +23514,17 @@
       }
     ],
     "normalAttackCritID": -1,
-    "skillList": [],
-    "isInvisibleBeforeShowUp": true,
-    "showupSkillList": [
+    "skillList": [
       {
-        "actionId": 10104040
+        "actionId": 10104041,
+        "activeFrame": 180,
+        "activeTime": 1.0,
+        "rangeSN": 240000
       }
     ],
-    "skillLoopDelayFrame": 360,
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [],
+    "skillLoopDelayFrame": 9999,
     "shapeShiftList": [],
     "commandList": [],
     "enemySkillList": [],
@@ -23573,34 +23576,20 @@
     "effectOffsetY": 0.0,
     "actionList": [
       {
-        "actionID": 10104060
+        "actionID": 10104049
       }
     ],
     "normalAttackCritID": -1,
-    "skillList": [
-      {
-        "actionId": 10104070,
-        "activeFrame": 120,
-        "activeTime": 2.0,
-        "rangeSN": -10000
-      }
-    ],
+    "skillList": [],
     "isInvisibleBeforeShowUp": false,
     "showupSkillList": [
       {
-        "actionId": 10103997
+        "actionId": 10104063
       }
     ],
-    "skillLoopDelayFrame": 240,
+    "skillLoopDelayFrame": 1,
     "shapeShiftList": [],
-    "commandList": [
-      {
-        "actionID": 10104048
-      },
-      {
-        "actionID": 10104009
-      }
-    ],
+    "commandList": [],
     "enemySkillList": [],
     "isUseEnergy": false,
     "energySkillList": [],
@@ -23610,36 +23599,101 @@
     "maxDelay": 360
   },
   {
-    "id": 10300568,
-    "idCN": "我方/50召唤物/涟/bot瞵鸦_我方",
-    "mod": "基础AI",
+    "id": 10300569,
+    "idCN": "我方/05五星/马吉拉·星仪",
+    "mod": "卡牌AI",
     "isInformalData": false,
     "targetInvisibleEffectId": -1,
     "effectOffsetX": 0.0,
     "effectOffsetY": 0.0,
     "actionList": [
       {
-        "actionID": 10104060
+        "actionID": 10104059
       }
     ],
     "normalAttackCritID": -1,
     "skillList": [],
     "isInvisibleBeforeShowUp": false,
-    "showupSkillList": [
-      {
-        "actionId": 10103997
-      }
-    ],
+    "showupSkillList": [],
     "skillLoopDelayFrame": 1,
     "shapeShiftList": [],
-    "commandList": [
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300570,
+    "idCN": "敌方/06深眠者/哀怜魔女/电",
+    "mod": "BOSSAI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
       {
-        "actionID": 10104048
+        "actionID": 10104038
       },
       {
-        "actionID": 10104009
+        "actionID": 10104037
       }
     ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10104042,
+        "activeFrame": 180,
+        "activeTime": 1.0,
+        "rangeSN": 240000
+      }
+    ],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [],
+    "skillLoopDelayFrame": 9999,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300571,
+    "idCN": "敌方/06深眠者/哀怜魔女/冰",
+    "mod": "BOSSAI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10104038
+      },
+      {
+        "actionID": 10104037
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10104043,
+        "activeFrame": 180,
+        "activeTime": 1.0,
+        "rangeSN": 240000
+      }
+    ],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [],
+    "skillLoopDelayFrame": 9999,
+    "shapeShiftList": [],
+    "commandList": [],
     "enemySkillList": [],
     "isUseEnergy": false,
     "energySkillList": [],

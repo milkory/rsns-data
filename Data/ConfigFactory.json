@@ -1842,6 +1842,9 @@
       },
       {
         "id": 82500028
+      },
+      {
+        "id": 82500032
       }
     ],
     "StageQuestConfig": [
@@ -2207,7 +2210,7 @@
         "tagId": 12600208
       },
       {
-        "buffId": 10401632,
+        "buffId": 10415200,
         "tagId": 12600088
       },
       {
@@ -3584,6 +3587,57 @@
     "passBylevelIdAndGrade": [],
     "passAnyLevelByGrade": [],
     "passMainLevelByGrade": [],
+    "passByLevelIdGradeDifficult": [
+      {
+        "id": 81001848
+      },
+      {
+        "id": 81002027
+      },
+      {
+        "id": 81001849
+      },
+      {
+        "id": 81002095
+      },
+      {
+        "id": 81002096
+      }
+    ],
+    "levelMaxGoldByLevelId": [
+      {
+        "id": 81002087
+      },
+      {
+        "id": 81002091
+      },
+      {
+        "id": 81002164
+      },
+      {
+        "id": 81002179
+      },
+      {
+        "id": 81002184
+      }
+    ],
+    "allGoldByLevelActivityId": [
+      {
+        "id": 81002085
+      },
+      {
+        "id": 81002088
+      },
+      {
+        "id": 81002186
+      },
+      {
+        "id": 81002187
+      },
+      {
+        "id": 81002190
+      }
+    ],
     "passBattleLevelAll": [
       {
         "id": 81001864
@@ -6583,57 +6637,6 @@
       {
         "id": 81002051
       }
-    ],
-    "passByLevelIdGradeDifficult": [
-      {
-        "id": 81001848
-      },
-      {
-        "id": 81002027
-      },
-      {
-        "id": 81001849
-      },
-      {
-        "id": 81002095
-      },
-      {
-        "id": 81002096
-      }
-    ],
-    "levelMaxGoldByLevelId": [
-      {
-        "id": 81002087
-      },
-      {
-        "id": 81002091
-      },
-      {
-        "id": 81002164
-      },
-      {
-        "id": 81002179
-      },
-      {
-        "id": 81002184
-      }
-    ],
-    "allGoldByLevelActivityId": [
-      {
-        "id": 81002085
-      },
-      {
-        "id": 81002088
-      },
-      {
-        "id": 81002186
-      },
-      {
-        "id": 81002187
-      },
-      {
-        "id": 81002190
-      }
     ]
   },
   {
@@ -8134,7 +8137,7 @@
     "energyPer": 1.0,
     "disExpPer": 10000.0,
     "expPer": 1.0,
-    "goodsOver": 16,
+    "goodsOver": 8,
     "goodsReduceSpeed": 16,
     "dayScale": 12.0,
     "defaultName": "无垠号",
@@ -10335,6 +10338,10 @@
         "value": "<color=#B383FF>致幻</color>"
       },
       {
+        "key": "注视",
+        "value": "<color=#B383FF>注视</color>"
+      },
+      {
         "key": "【霸体】",
         "value": "<color=#7AB2FF>【霸体】</color>"
       },
@@ -10523,6 +10530,10 @@
         "value": "<color=#B383FF>【致幻】</color>"
       },
       {
+        "key": "【注视】",
+        "value": "<color=#B383FF>【注视】</color>"
+      },
+      {
         "key": "冰冻抵抗",
         "value": "<color=#B383FF>冰冻抵抗</color>"
       },
@@ -10589,6 +10600,10 @@
       {
         "key": "磁力屏障",
         "value": "磁力屏障"
+      },
+      {
+        "key": "致幻瓦斯",
+        "value": "致幻瓦斯"
       }
     ]
   },
@@ -13368,33 +13383,7 @@
   {
     "id": 99900026,
     "idCN": "多语言配置",
-    "mod": "翻译配置",
-    "isInformalData": false,
-    "nameEN": "TranslateConfig",
-    "list": [
-      {
-        "languageDetail": "中文",
-        "languageType": "zh",
-        "translateResListId": -1
-      },
-      {
-        "languageDetail": "日本語",
-        "languageType": "jp",
-        "translateResListId": 99800001
-      }
-    ],
-    "soundList": [
-      {
-        "languageDetail": "中文",
-        "languageType": "zh",
-        "translateResListId": -1
-      },
-      {
-        "languageDetail": "日语",
-        "languageType": "jp",
-        "translateResListId": 99800001
-      }
-    ]
+    "mod": "翻译配置"
   },
   {
     "id": 99900027,
@@ -18574,6 +18563,9 @@
     "isInformalData": false,
     "nameEN": "PolluteConfig",
     "linePlyerLv": 12,
+    "eventDoubleStartTime": "2025-03-24 05:00:00",
+    "eventDoubleEndTime": "2025-04-01 05:00:00",
+    "eventDoubleNum": 2,
     "pollutePlyerLv": 21,
     "polluteQuestId": -1,
     "polluteMin": 2,
@@ -19584,6 +19576,12 @@
         "id": 11400402
       },
       {
+        "id": 11400551
+      },
+      {
+        "id": 11400588
+      },
+      {
         "id": 11400354
       },
       {
@@ -19594,6 +19592,18 @@
       },
       {
         "id": 11400403
+      },
+      {
+        "id": 11400586
+      },
+      {
+        "id": 11400589
+      },
+      {
+        "id": 11400546
+      },
+      {
+        "id": 11400586
       },
       {
         "id": 11400254
@@ -19624,9 +19634,6 @@
       },
       {
         "id": 11400386
-      },
-      {
-        "id": 11400589
       }
     ]
   },
@@ -22535,6 +22542,19 @@
         "showUI": "",
         "sort": 0,
         "startTime": "2025-01-24 05:00:00",
+        "tag": 12601103
+      },
+      {
+        "countDownMax": 3,
+        "endTime": "2025-04-12 04:59:00",
+        "id": 86000055,
+        "isCompleteBottom": false,
+        "isCountDown": false,
+        "name": 80610312,
+        "png": "UI/Activity/ActivitySignIn/Spring2025/Tag",
+        "showUI": "",
+        "sort": 0,
+        "startTime": "2025-03-28 05:00:00",
         "tag": 12601103
       },
       {
@@ -25756,11 +25776,7 @@
         "weight": 1
       }
     ],
-    "choiceBuffval": 50,
-    "bloodScreenLimitX": 0,
-    "bloodScreenLimitY": 0,
-    "bloodScreenRotRandom": 360,
-    "bloodScaleRandom": 1
+    "choiceBuffval": 50
   },
   {
     "id": 99900053,
