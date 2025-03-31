@@ -10014,7 +10014,7 @@
     "orderType": "ConditionJumpIndex",
     "isLoop": false,
     "trueLabel": -1,
-    "falseLabel": 81100651,
+    "falseLabel": 81101065,
     "keyList": [
       {
         "compareType": "GE",
@@ -15247,5 +15247,24 @@
     "offsetY": -240.0,
     "alpha": 0.7,
     "isShowFinger": true
+  },
+  {
+    "id": 81101065,
+    "idCN": "EP1/条件跳转/电力/电力小于10级",
+    "mod": "IFELSE跳转",
+    "isInformalData": false,
+    "orderType": "ConditionJumpIndex",
+    "isLoop": false,
+    "trueLabel": -1,
+    "falseLabel": 81100651,
+    "keyList": [
+      {
+        "compareType": "LT",
+        "key": "ELECLevel",
+        "num": 10.0,
+        "uiPath": "",
+        "val": "0"
+      }
+    ]
   }
 ]

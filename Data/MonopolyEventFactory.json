@@ -5310,21 +5310,21 @@
     "showLevel": 20101480
   },
   {
-    "id": 88800100,
-    "idCN": "魔女/战斗/战斗",
-    "mod": "战斗对话",
+    "id": 88800101,
+    "idCN": "魔女/战斗/战斗结果-输",
+    "mod": "对话",
     "isInformalData": false,
     "dialogList": [
       {
         "anim": "",
         "dialogCV": "",
-        "dialogContent": "战斗",
+        "dialogContent": "为了保证列车上乘客和货物的安全，我们只好付钱走人。\r希望未来的某天我们能“回敬”这些不法之徒。",
         "dialogName": "",
         "eventBG": "",
         "eventSpine": "Spine/Activity/Monopoly/DFW_UI_01/DFW_UI_01_SkeletonData",
         "iconPath": "UI/Monopoly/UI/Game/Event/Icon_Fight",
         "next": -1,
-        "selection1": "打!",
+        "selection1": "离开，继续咕噜噜大冒险！",
         "selection1Next": -1,
         "selection2": "",
         "selection2Next": -1,
@@ -5335,20 +5335,21 @@
         "tachiePath": ""
       }
     ],
-    "levelID": 20101480,
-    "sucid": 88800102,
-    "failid": 88800101
+    "randomRewardList": [],
+    "rewardList": [],
+    "levelList": [],
+    "showLevel": -1
   },
   {
-    "id": 88800101,
-    "idCN": "魔女/战斗/战斗结果-输",
+    "id": 88800102,
+    "idCN": "魔女/战斗/战斗结果-赢",
     "mod": "对话",
     "isInformalData": false,
     "dialogList": [
       {
         "anim": "",
         "dialogCV": "",
-        "dialogContent": "为了保证列车上乘客和货物的安全，我们只好付钱走人。\r希望未来的某天我们能“回敬”这些不法之徒。",
+        "dialogContent": "为了保证列车上乘客和货物的安全，我们挺身而出！\r劫匪们开着装甲车落荒而逃，移开障碍物后，我们再次出发。",
         "dialogName": "",
         "eventBG": "",
         "eventSpine": "Spine/Activity/Monopoly/DFW_UI_01/DFW_UI_01_SkeletonData",
@@ -5403,18 +5404,17 @@
   },
   {
     "id": 88800104,
-    "idCN": "魔女事件/角色对话/马吉拉",
+    "idCN": "魔女事件/咕卡对话事件",
     "mod": "事件",
     "isInformalData": false,
-    "name": "马吉拉",
-    "des": "这是马吉拉的对话",
+    "name": "咕卡对话",
+    "des": "这是对话之后咕卡三选一",
     "basePath": "UI/Monopoly/UI/1/Grid/tile_character",
     "resPath": "WitchesPark/Prefab/M_WitchesPark_Sjgk_05",
     "characterQPath": "",
     "sortDialog": [
       {
-        "dialogid": 88800104,
-        "failTip": "",
+        "dialogid": 88800126,
         "id": 11400333,
         "limiteType": "All",
         "num": 0
@@ -5423,104 +5423,5 @@
     "randomDialog": [],
     "rewardDialogList": [],
     "overDialogList": []
-  },
-  {
-    "id": 88800105,
-    "idCN": "魔女事件/战斗",
-    "mod": "事件",
-    "isInformalData": false,
-    "name": "战斗",
-    "des": "趁火打劫",
-    "basePath": "UI/Monopoly/UI/1/Grid/tile_rob",
-    "resPath": "WitchesPark/Prefab/M_WitchesPark_Sjgk_06",
-    "characterQPath": "",
-    "sortDialog": [
-      {
-        "dialogid": 88800099,
-        "failTip": "持有资金不足，劫匪同情而嫌弃地把我们放走了。",
-        "id": 11400333,
-        "limiteType": "GreaterOrEqual",
-        "num": 10000
-      }
-    ],
-    "randomDialog": [],
-    "rewardDialogList": [
-      {
-        "id": 88800101
-      },
-      {
-        "id": 88800100
-      }
-    ],
-    "overDialogList": [
-      {
-        "id": 88800101
-      },
-      {
-        "id": 88800102
-      }
-    ]
-  },
-  {
-    "id": 88800107,
-    "idCN": "魔女事件/道具商店",
-    "mod": "事件",
-    "isInformalData": false,
-    "name": "道具商店",
-    "des": "",
-    "basePath": "UI/Monopoly/UI/1/Grid/tile_shop",
-    "resPath": "WitchesPark/Prefab/M_WitchesPark_Sjgk_04",
-    "characterQPath": "",
-    "sortDialog": [
-      {
-        "dialogid": 88800088,
-        "failTip": "",
-        "id": 11400333,
-        "limiteType": "All",
-        "num": 100
-      }
-    ],
-    "randomDialog": [],
-    "rewardDialogList": [
-      {
-        "id": 88800090
-      }
-    ],
-    "overDialogList": [
-      {
-        "id": 88800090
-      }
-    ]
-  },
-  {
-    "id": 88800108,
-    "idCN": "魔女事件/宝箱",
-    "mod": "事件",
-    "isInformalData": false,
-    "name": "意外之喜",
-    "des": "这是一个无主的宝箱",
-    "basePath": "UI/Monopoly/UI/1/Grid/tile_box",
-    "resPath": "WitchesPark/Prefab/M_WitchesPark_Sjgk_03",
-    "characterQPath": "",
-    "sortDialog": [
-      {
-        "dialogid": 88800058,
-        "failTip": "",
-        "id": 11400333,
-        "limiteType": "All",
-        "num": 100
-      }
-    ],
-    "randomDialog": [],
-    "rewardDialogList": [
-      {
-        "id": 88800059
-      }
-    ],
-    "overDialogList": [
-      {
-        "id": 88800059
-      }
-    ]
   }
 ]
