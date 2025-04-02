@@ -23499,7 +23499,7 @@
   },
   {
     "id": 10300565,
-    "idCN": "敌方/06深眠者/哀怜魔女/火",
+    "idCN": "敌方/06深眠者/哀怜魔女/火-循环",
     "mod": "BOSSAI",
     "isInformalData": false,
     "targetInvisibleEffectId": 11102488,
@@ -23517,20 +23517,32 @@
     "skillList": [
       {
         "actionId": 10104041,
-        "activeFrame": 180,
+        "activeFrame": 360,
+        "activeTime": 1.0,
+        "rangeSN": 240000
+      },
+      {
+        "actionId": 10104041,
+        "activeFrame": 1200,
         "activeTime": 1.0,
         "rangeSN": 240000
       }
     ],
     "isInvisibleBeforeShowUp": false,
     "showupSkillList": [],
-    "skillLoopDelayFrame": 9999,
+    "skillLoopDelayFrame": 600,
     "shapeShiftList": [],
     "commandList": [],
     "enemySkillList": [],
-    "isUseEnergy": false,
-    "energySkillList": [],
-    "energyRestorePerFrameSN": 0,
+    "isUseEnergy": true,
+    "energySkillList": [
+      {
+        "actionId": 10104044,
+        "isClearEnergy": true,
+        "rangeSN": 240000
+      }
+    ],
+    "energyRestorePerFrameSN": 550,
     "isSkillDelay": false,
     "minDelay": 120,
     "maxDelay": 360
@@ -23628,7 +23640,7 @@
   },
   {
     "id": 10300570,
-    "idCN": "敌方/06深眠者/哀怜魔女/电",
+    "idCN": "敌方/06深眠者/哀怜魔女/电-循环",
     "mod": "BOSSAI",
     "isInformalData": false,
     "targetInvisibleEffectId": 11102488,
@@ -23646,27 +23658,39 @@
     "skillList": [
       {
         "actionId": 10104042,
-        "activeFrame": 180,
+        "activeFrame": 360,
+        "activeTime": 1.0,
+        "rangeSN": 240000
+      },
+      {
+        "actionId": 10104042,
+        "activeFrame": 1140,
         "activeTime": 1.0,
         "rangeSN": 240000
       }
     ],
     "isInvisibleBeforeShowUp": false,
     "showupSkillList": [],
-    "skillLoopDelayFrame": 9999,
+    "skillLoopDelayFrame": 660,
     "shapeShiftList": [],
     "commandList": [],
     "enemySkillList": [],
     "isUseEnergy": true,
-    "energySkillList": [],
-    "energyRestorePerFrameSN": 0,
+    "energySkillList": [
+      {
+        "actionId": 10104044,
+        "isClearEnergy": true,
+        "rangeSN": 240000
+      }
+    ],
+    "energyRestorePerFrameSN": 550,
     "isSkillDelay": false,
     "minDelay": 120,
     "maxDelay": 360
   },
   {
     "id": 10300571,
-    "idCN": "敌方/06深眠者/哀怜魔女/冰",
+    "idCN": "敌方/06深眠者/哀怜魔女/冰-循环",
     "mod": "BOSSAI",
     "isInformalData": false,
     "targetInvisibleEffectId": 11102488,
@@ -23684,20 +23708,32 @@
     "skillList": [
       {
         "actionId": 10104043,
-        "activeFrame": 180,
+        "activeFrame": 360,
+        "activeTime": 1.0,
+        "rangeSN": 240000
+      },
+      {
+        "actionId": 10104043,
+        "activeFrame": 1080,
         "activeTime": 1.0,
         "rangeSN": 240000
       }
     ],
     "isInvisibleBeforeShowUp": false,
     "showupSkillList": [],
-    "skillLoopDelayFrame": 9999,
+    "skillLoopDelayFrame": 720,
     "shapeShiftList": [],
     "commandList": [],
     "enemySkillList": [],
-    "isUseEnergy": false,
-    "energySkillList": [],
-    "energyRestorePerFrameSN": 0,
+    "isUseEnergy": true,
+    "energySkillList": [
+      {
+        "actionId": 10104044,
+        "isClearEnergy": true,
+        "rangeSN": 240000
+      }
+    ],
+    "energyRestorePerFrameSN": 550,
     "isSkillDelay": false,
     "minDelay": 120,
     "maxDelay": 360
@@ -23783,6 +23819,250 @@
       }
     ],
     "energyRestorePerFrameSN": 560,
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300574,
+    "idCN": "我方/04四星/小麦",
+    "mod": "卡牌AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": -1,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10104077
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [],
+    "skillLoopDelayFrame": 1,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300575,
+    "idCN": "敌方/06深眠者/哀怜魔女/火-入场",
+    "mod": "BOSSAI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10104038
+      },
+      {
+        "actionID": 10104037
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10104041,
+        "activeFrame": 360,
+        "activeTime": 1.0,
+        "rangeSN": 240000
+      },
+      {
+        "actionId": 10104041,
+        "activeFrame": 1200,
+        "activeTime": 1.0,
+        "rangeSN": 240000
+      }
+    ],
+    "isInvisibleBeforeShowUp": true,
+    "showupSkillList": [
+      {
+        "actionId": 10104040
+      }
+    ],
+    "skillLoopDelayFrame": 600,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": true,
+    "energySkillList": [
+      {
+        "actionId": 10104044,
+        "isClearEnergy": true,
+        "rangeSN": 240000
+      }
+    ],
+    "energyRestorePerFrameSN": 490,
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300576,
+    "idCN": "敌方/06深眠者/哀怜魔女/冰-独立",
+    "mod": "BOSSAI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10104038
+      },
+      {
+        "actionID": 10104037
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10104043,
+        "activeFrame": 360,
+        "activeTime": 1.0,
+        "rangeSN": 240000
+      },
+      {
+        "actionId": 10104043,
+        "activeFrame": 1080,
+        "activeTime": 1.0,
+        "rangeSN": 240000
+      }
+    ],
+    "isInvisibleBeforeShowUp": true,
+    "showupSkillList": [
+      {
+        "actionId": 10104082
+      }
+    ],
+    "skillLoopDelayFrame": 720,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": true,
+    "energySkillList": [
+      {
+        "actionId": 10104045,
+        "isClearEnergy": true,
+        "rangeSN": 240000
+      }
+    ],
+    "energyRestorePerFrameSN": 550,
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300577,
+    "idCN": "敌方/06深眠者/哀怜魔女/火-独立",
+    "mod": "BOSSAI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10104038
+      },
+      {
+        "actionID": 10104037
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10104041,
+        "activeFrame": 360,
+        "activeTime": 1.0,
+        "rangeSN": 240000
+      },
+      {
+        "actionId": 10104041,
+        "activeFrame": 1200,
+        "activeTime": 1.0,
+        "rangeSN": 240000
+      }
+    ],
+    "isInvisibleBeforeShowUp": true,
+    "showupSkillList": [
+      {
+        "actionId": 10104083
+      }
+    ],
+    "skillLoopDelayFrame": 600,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": true,
+    "energySkillList": [
+      {
+        "actionId": 10104045,
+        "isClearEnergy": true,
+        "rangeSN": 240000
+      }
+    ],
+    "energyRestorePerFrameSN": 550,
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300578,
+    "idCN": "敌方/06深眠者/哀怜魔女/电-独立",
+    "mod": "BOSSAI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10104038
+      },
+      {
+        "actionID": 10104037
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10104042,
+        "activeFrame": 360,
+        "activeTime": 1.0,
+        "rangeSN": 240000
+      },
+      {
+        "actionId": 10104042,
+        "activeFrame": 1140,
+        "activeTime": 1.0,
+        "rangeSN": 240000
+      }
+    ],
+    "isInvisibleBeforeShowUp": true,
+    "showupSkillList": [
+      {
+        "actionId": 10104084
+      }
+    ],
+    "skillLoopDelayFrame": 660,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": true,
+    "energySkillList": [
+      {
+        "actionId": 10104045,
+        "isClearEnergy": true,
+        "rangeSN": 240000
+      }
+    ],
+    "energyRestorePerFrameSN": 550,
     "isSkillDelay": false,
     "minDelay": 120,
     "maxDelay": 360

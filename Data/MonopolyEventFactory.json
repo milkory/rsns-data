@@ -5283,27 +5283,7 @@
     "idCN": "魔女/战斗/信息",
     "mod": "对话",
     "isInformalData": false,
-    "dialogList": [
-      {
-        "anim": "",
-        "dialogCV": "",
-        "dialogContent": "前方的轨道上发现了高高堆起的障碍物……为了乘车人员的安全，只好暂时停车了。\r一批劫匪开着重装甲车拦在了前面，嚣张地大叫着“留下买路财”之类的话。",
-        "dialogName": "",
-        "eventBG": "",
-        "eventSpine": "Spine/Activity/Monopoly/DFW_UI_01/DFW_UI_01_SkeletonData",
-        "iconPath": "UI/Monopoly/UI/Game/Event/Icon_Fight",
-        "next": -1,
-        "selection1": "算了，破财消灾……",
-        "selection1Next": 88800057,
-        "selection2": "凭什么？我要战斗！",
-        "selection2Next": 88800067,
-        "selection3": "",
-        "selection3Next": -1,
-        "selection4": "",
-        "selection4Next": -1,
-        "tachiePath": ""
-      }
-    ],
+    "dialogList": [],
     "randomRewardList": [],
     "rewardList": [],
     "levelList": [],
@@ -5314,29 +5294,15 @@
     "idCN": "魔女/战斗/战斗结果-输",
     "mod": "对话",
     "isInformalData": false,
-    "dialogList": [
+    "dialogList": [],
+    "randomRewardList": [],
+    "rewardList": [
       {
-        "anim": "",
-        "dialogCV": "",
-        "dialogContent": "为了保证列车上乘客和货物的安全，我们只好付钱走人。\r希望未来的某天我们能“回敬”这些不法之徒。",
-        "dialogName": "",
-        "eventBG": "",
-        "eventSpine": "Spine/Activity/Monopoly/DFW_UI_01/DFW_UI_01_SkeletonData",
-        "iconPath": "UI/Monopoly/UI/Game/Event/Icon_Fight",
-        "next": -1,
-        "selection1": "离开，继续咕噜噜大冒险！",
-        "selection1Next": -1,
-        "selection2": "",
-        "selection2Next": -1,
-        "selection3": "",
-        "selection3Next": -1,
-        "selection4": "",
-        "selection4Next": -1,
-        "tachiePath": ""
+        "id": 11400653,
+        "num": 20,
+        "rewardType": "reduce"
       }
     ],
-    "randomRewardList": [],
-    "rewardList": [],
     "levelList": [],
     "showLevel": -1
   },
@@ -5349,13 +5315,13 @@
       {
         "anim": "",
         "dialogCV": "",
-        "dialogContent": "为了保证列车上乘客和货物的安全，我们挺身而出！\r劫匪们开着装甲车落荒而逃，移开障碍物后，我们再次出发。",
+        "dialogContent": "",
         "dialogName": "",
         "eventBG": "",
-        "eventSpine": "Spine/Activity/Monopoly/DFW_UI_01/DFW_UI_01_SkeletonData",
-        "iconPath": "UI/Monopoly/UI/Game/Event/Icon_Fight",
-        "next": -1,
-        "selection1": "离开，继续咕噜噜大冒险！",
+        "eventSpine": "",
+        "iconPath": "",
+        "next": 88800106,
+        "selection1": "",
         "selection1Next": -1,
         "selection2": "",
         "selection2Next": -1,
@@ -5367,61 +5333,14 @@
       }
     ],
     "randomRewardList": [],
-    "rewardList": [],
-    "levelList": [],
-    "showLevel": -1
-  },
-  {
-    "id": 88800103,
-    "idCN": "魔女/战斗/战斗结果-输前置",
-    "mod": "对话",
-    "isInformalData": false,
-    "dialogList": [
+    "rewardList": [
       {
-        "anim": "",
-        "dialogCV": "",
-        "dialogContent": "虽然努力与劫匪战斗，却还是被他们钻空子了……没能打赢。",
-        "dialogName": "",
-        "eventBG": "",
-        "eventSpine": "Spine/Activity/Monopoly/DFW_UI_01/DFW_UI_01_SkeletonData",
-        "iconPath": "UI/Monopoly/UI/Game/Event/Icon_Fight",
-        "next": -1,
-        "selection1": "眼下无奈，还是尝试和他们交涉吧。",
-        "selection1Next": 88800057,
-        "selection2": "",
-        "selection2Next": -1,
-        "selection3": "",
-        "selection3Next": -1,
-        "selection4": "",
-        "selection4Next": -1,
-        "tachiePath": ""
+        "id": 11400659,
+        "num": 30,
+        "rewardType": "add"
       }
     ],
-    "randomRewardList": [],
-    "rewardList": [],
     "levelList": [],
     "showLevel": -1
-  },
-  {
-    "id": 88800104,
-    "idCN": "魔女事件/咕卡对话事件",
-    "mod": "事件",
-    "isInformalData": false,
-    "name": "咕卡对话",
-    "des": "这是对话之后咕卡三选一",
-    "basePath": "UI/Monopoly/UI/1/Grid/tile_character",
-    "resPath": "WitchesPark/Prefab/M_WitchesPark_Sjgk_05",
-    "characterQPath": "",
-    "sortDialog": [
-      {
-        "dialogid": 88800126,
-        "id": 11400333,
-        "limiteType": "All",
-        "num": 0
-      }
-    ],
-    "randomDialog": [],
-    "rewardDialogList": [],
-    "overDialogList": []
   }
 ]
