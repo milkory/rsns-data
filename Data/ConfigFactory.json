@@ -543,6 +543,26 @@
         "id": 11400066
       }
     ],
+    "stageBattleLabel": [
+      {
+        "desText": 80610389,
+        "nameText": 80610383,
+        "nodeName": "Group_Material",
+        "prefabPath": "UI/Chapter/Battle_Material/Battle_Material"
+      },
+      {
+        "desText": 80610390,
+        "nameText": 80610385,
+        "nodeName": "Group_EquipmentDay",
+        "prefabPath": "UI/Chapter/Battle_Material/Battle_EquipmentDay"
+      },
+      {
+        "desText": 80610390,
+        "nameText": 80610388,
+        "nodeName": "Group_EquipmentWeek",
+        "prefabPath": "UI/Chapter/Battle_Material/Battle_EquipmentWeek"
+      }
+    ],
     "skinState2Condition": "resonanceLv",
     "skinState2Num": 5,
     "coreList": [
@@ -22519,19 +22539,6 @@
       {
         "countDownMax": 3,
         "endTime": "",
-        "id": 86000044,
-        "isCompleteBottom": false,
-        "isCountDown": true,
-        "name": 80610039,
-        "png": "UI/Activity/Tab/tab_yuwailianhe",
-        "showUI": "UI/Activity/Anniversary/AnniversaryActivity",
-        "sort": 0,
-        "startTime": "2025-02-19 05:00:00",
-        "tag": 12601618
-      },
-      {
-        "countDownMax": 3,
-        "endTime": "",
         "id": 86000054,
         "isCompleteBottom": false,
         "isCountDown": false,
@@ -26734,6 +26741,87 @@
       },
       {
         "id": 81002016
+      }
+    ]
+  },
+  {
+    "id": 99900140,
+    "idCN": "活动/材料副本",
+    "mod": "材料副本",
+    "isInformalData": false,
+    "nameEN": "MaterialLevelConfig",
+    "materialRefreshType": "Day",
+    "materialLevelTimes": 3,
+    "materialLevelGroupList": [
+      {
+        "id": 60900004
+      },
+      {
+        "id": 60900005
+      },
+      {
+        "id": 60900006
+      },
+      {
+        "id": 60900007
+      },
+      {
+        "id": 60900008
+      },
+      {
+        "id": 60900009
+      },
+      {
+        "id": 60900010
+      },
+      {
+        "id": 60900011
+      },
+      {
+        "id": 60900012
+      }
+    ]
+  },
+  {
+    "id": 99900143,
+    "idCN": "活动/装备副本日刷",
+    "mod": "材料副本",
+    "isInformalData": false,
+    "nameEN": "EquipmentLevelDayConfig",
+    "materialRefreshType": "Day",
+    "materialLevelTimes": 3,
+    "materialLevelGroupList": [
+      {
+        "id": 60900014
+      },
+      {
+        "id": 60900017
+      },
+      {
+        "id": 60900016
+      },
+      {
+        "id": 60900015
+      },
+      {
+        "id": 60900013
+      },
+      {
+        "id": 60900018
+      }
+    ]
+  },
+  {
+    "id": 99900144,
+    "idCN": "活动/装备副本周刷",
+    "mod": "材料副本",
+    "isInformalData": false,
+    "nameEN": "EquipmentLevelConfig",
+    "materialRefreshType": "Week",
+    "materialLevelTimes": 3,
+    "materialLevelGroupList": [
+      {
+        "id": 60900019
       }
     ]
   }

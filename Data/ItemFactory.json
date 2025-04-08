@@ -27927,8 +27927,8 @@
     "viewId": -1,
     "quality": "Golden",
     "des": "一块凝固的血珀，倒映着永不服输的魔女精神。",
-    "iconPath": "UI/Monopoly/BuffItem/Img/RPG_Shield",
-    "tipsPath": "UI/Monopoly/BuffItem/Img/RPG_Shield",
+    "iconPath": "Item/item/Small/Yaoqinghan",
+    "tipsPath": "Item/item/Big/Yaoqinghan",
     "buyPath": "",
     "textIcon": "",
     "sort": 0,
@@ -28093,54 +28093,6 @@
     "Getway": [],
     "techPoints": 100,
     "skinID": 70500218,
-    "isDisplayInMaterialWare": false,
-    "isDisplayInFinishedlWare": false
-  },
-  {
-    "id": 11400659,
-    "idCN": "黑月游乐城道具/局内代币",
-    "mod": "基础道具",
-    "isInformalData": false,
-    "name": "梦的一角",
-    "viewId": -1,
-    "quality": "Golden",
-    "des": "一块凝固的血珀，倒映着永不服输的魔女精神。",
-    "iconPath": "UI/Monopoly/BuffItem/Img/RPG_Shield",
-    "tipsPath": "UI/Monopoly/BuffItem/Img/RPG_Shield",
-    "buyPath": "",
-    "textIcon": "",
-    "sort": 0,
-    "isShowNum": true,
-    "isNotDisplayInBag": true,
-    "useLimitNum": 10,
-    "endTime": "",
-    "saletype": "NotSale",
-    "rewardList": [],
-    "Getway": [
-      {
-        "DisplayName": "“咕噜噜大冒险”商店购买",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": -1
-      },
-      {
-        "DisplayName": "“咕噜噜大冒险”等级奖励",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": -1
-      },
-      {
-        "DisplayName": "“咕噜噜大冒险”随机事件奖励",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": -1
-      }
-    ],
-    "techPoints": 100,
-    "skinID": -1,
     "isDisplayInMaterialWare": false,
     "isDisplayInFinishedlWare": false
   },
@@ -28480,5 +28432,175 @@
     "skinID": 70500261,
     "isDisplayInMaterialWare": false,
     "isDisplayInFinishedlWare": false
+  },
+  {
+    "id": 11400566,
+    "idCN": "自选道具/列车外观方案辑录",
+    "mod": "可使用道具",
+    "isInformalData": false,
+    "name": "列车外观方案辑录",
+    "viewId": -1,
+    "quality": "Golden",
+    "useType": "Chosen",
+    "numRequired": 1,
+    "isBatch": false,
+    "exchangeList": [
+      {
+        "itemId": 11400283,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "itemId": 11400237,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "itemId": 11400207,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "itemId": 11400551,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "itemId": 11400252,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "itemId": 11400173,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "itemId": 11400384,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "itemId": 11400360,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "itemId": 11400229,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "itemId": 11400215,
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "itemId": 11400253,
+        "num": 1,
+        "weight": 1
+      }
+    ],
+    "des": "收录了至今为止的无垠号列车外观方案的纪念册，记下了无垠号外观变化的点滴。使用后，能从包含的列车外观方案中选择一款获得。<size=25><color=#FFB800>可在以下往期【环游手册·无垠】奖励包含的主题痛车方案中任选其中一套。</color></size>\r\\n雅莱、亚莉奈、夏尔、乌刹娜、苔妮、索玛、佩罗塔、帕拉笛、妮蔻拉、静流·逐夏、多萝西",
+    "iconPath": "Item\\item\\Small\\skinpiao",
+    "tipsPath": "Item\\item\\Big\\skinpiao",
+    "buyPath": "Item\\item\\Small\\skinpiao",
+    "textIcon": "",
+    "breakPath": "",
+    "sort": 0,
+    "isShowNum": true,
+    "isNotDisplayInBag": false,
+    "isCompose": false,
+    "containEquipment": false,
+    "batchUsetype": "Other",
+    "useLimitNum": 1,
+    "isTiredItem": false,
+    "isDrinkItem": false,
+    "drinkNum": 3,
+    "isBattlePassItem": false,
+    "BattlePassType": "Low",
+    "uiPath": "UI/Common/ChoseSkin/ChoseSkin",
+    "plotAfter": -1,
+    "endTime": "",
+    "limitedTime": 0,
+    "saletype": "NotSale",
+    "rewardList": [],
+    "Getway": [],
+    "gettipstype": "Default",
+    "techPoints": 100,
+    "skinID": -1,
+    "isDisplayInMaterialWare": false,
+    "isDisplayInFinishedlWare": false,
+    "chosekind": "列车外观",
+    "SkinChooseList": [
+      {
+        "skin": 11400283,
+        "skinfree": 680,
+        "skinrole": "Item\\item\\Small\\Topic_Yalai",
+        "skinshow": "UI/Common/ChoseSkin/sold/Livia_PeacefulMorning"
+      },
+      {
+        "skin": 11400237,
+        "skinfree": 680,
+        "skinrole": "Item\\item\\Small\\Topic_Arina",
+        "skinshow": "UI/Common/ChoseSkin/sold/Livia_PeacefulMorning"
+      },
+      {
+        "skin": 11400207,
+        "skinfree": 680,
+        "skinrole": "Item\\item\\Small\\Topic_Xiaer",
+        "skinshow": "UI/Common/ChoseSkin/sold/Arcana_Pajama"
+      },
+      {
+        "skin": 11400551,
+        "skinfree": 680,
+        "skinrole": "Item\\item\\Small\\wuchana",
+        "skinshow": "UI/Common/ChoseSkin/sold/Kaleya_Maid"
+      },
+      {
+        "skin": 11400252,
+        "skinfree": 680,
+        "skinrole": "Item\\item\\Small\\Topic_Taini",
+        "skinshow": "UI/Common/ChoseSkin/sold/Lin_Shenji"
+      },
+      {
+        "skin": 11400173,
+        "skinfree": 680,
+        "skinrole": "Item\\item\\Small\\Topic_Suoma",
+        "skinshow": "UI/Common/ChoseSkin/sold/RinaF_Summer"
+      },
+      {
+        "skin": 11400384,
+        "skinfree": 680,
+        "skinrole": "Item\\item\\Small\\Topic_Pelota",
+        "skinshow": "UI/Common/ChoseSkin/sold/Fenia_Summer"
+      },
+      {
+        "skin": 11400360,
+        "skinfree": 680,
+        "skinrole": "Item\\item\\Small\\Topic_Paladi",
+        "skinshow": "UI/Common/ChoseSkin/sold/Kaleya_Summer"
+      },
+      {
+        "skin": 11400229,
+        "skinfree": 680,
+        "skinrole": "Item\\item\\Small\\Topic_Nikoula",
+        "skinshow": "UI/Common/ChoseSkin/sold/ilona_Band"
+      },
+      {
+        "skin": 11400215,
+        "skinfree": 680,
+        "skinrole": "Item\\item\\Small\\Topic_Jingliu",
+        "skinshow": "UI/Common/ChoseSkin/sold/Suen_Maid"
+      },
+      {
+        "skin": 11400253,
+        "skinfree": 680,
+        "skinrole": "Item\\item\\Small\\Topic_Duoluoxi",
+        "skinshow": "UI/Common/ChoseSkin/sold/Nicola_Kimono"
+      }
+    ],
+    "isShowProbability": false,
+    "isShowReward": true
   }
 ]
