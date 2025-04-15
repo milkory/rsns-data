@@ -23513,7 +23513,7 @@
         "actionID": 10104037
       }
     ],
-    "normalAttackCritID": -1,
+    "normalAttackCritID": 10104037,
     "skillList": [
       {
         "actionId": 10104041,
@@ -24112,14 +24112,21 @@
       }
     ],
     "normalAttackCritID": -1,
-    "skillList": [],
+    "skillList": [
+      {
+        "actionId": 10104106,
+        "activeFrame": 180,
+        "activeTime": 1.0,
+        "rangeSN": 50000
+      }
+    ],
     "isInvisibleBeforeShowUp": true,
     "showupSkillList": [
       {
         "actionId": 10104104
       }
     ],
-    "skillLoopDelayFrame": 240,
+    "skillLoopDelayFrame": 360,
     "shapeShiftList": [],
     "commandList": [],
     "enemySkillList": [],
@@ -24146,9 +24153,9 @@
     "normalAttackCritID": -1,
     "skillList": [
       {
-        "actionId": 10104093,
+        "actionId": 10104091,
         "activeFrame": 1,
-        "activeTime": 1.0,
+        "activeTime": 0.0167,
         "rangeSN": -10000
       },
       {
@@ -24158,13 +24165,13 @@
         "rangeSN": -10000
       },
       {
-        "actionId": 10104091,
+        "actionId": 10104093,
         "activeFrame": 121,
         "activeTime": 2.0167,
         "rangeSN": -10000
       }
     ],
-    "isInvisibleBeforeShowUp": true,
+    "isInvisibleBeforeShowUp": false,
     "showupSkillList": [
       {
         "actionId": 10104071
@@ -24267,6 +24274,81 @@
     "isUseEnergy": true,
     "energySkillList": [],
     "energyRestorePerFrameSN": 370,
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300583,
+    "idCN": "敌方/000角色/黑月/闻笙·得心应手",
+    "mod": "基础AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10104115
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10104109,
+        "activeFrame": 360,
+        "activeTime": 6.0,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10104111,
+        "activeFrame": 880,
+        "activeTime": 14.6667,
+        "rangeSN": -10000
+      }
+    ],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [],
+    "skillLoopDelayFrame": 660,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": true,
+    "energySkillList": [
+      {
+        "actionId": 10104113,
+        "isClearEnergy": true,
+        "rangeSN": -10000
+      }
+    ],
+    "energyRestorePerFrameSN": 280,
+    "isSkillDelay": true,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300585,
+    "idCN": "我方/55测试/空",
+    "mod": "卡牌AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": -1,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10104129
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [],
+    "skillLoopDelayFrame": 1,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
     "isSkillDelay": false,
     "minDelay": 120,
     "maxDelay": 360

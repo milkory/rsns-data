@@ -2340,6 +2340,10 @@
       {
         "buffId": 10402226,
         "tagId": 12600276
+      },
+      {
+        "buffId": 10419392,
+        "tagId": 12601698
       }
     ],
     "damageCountDurarion": 180,
@@ -9746,6 +9750,14 @@
         "value": "<color=#D1BF53>潮汐秘境 ：</color>"
       },
       {
+        "key": "环境_白日耀",
+        "value": "<color=#D1BF53>白日耀：</color>"
+      },
+      {
+        "key": "环境_阳炎流",
+        "value": "<color=#FF6666>阳炎流 ：</color>"
+      },
+      {
         "key": "霸体",
         "value": "<color=#7AB2FF>霸体</color>"
       },
@@ -9768,6 +9780,10 @@
       {
         "key": "隐形",
         "value": "<color=#7AB2FF>隐形</color>"
+      },
+      {
+        "key": "冻伤",
+        "value": "<color=#7AB2FF>冻伤</color>"
       },
       {
         "key": "冰封",
@@ -10350,6 +10366,10 @@
         "value": "<color=#B383FF>诅咒效果极佳</color>"
       },
       {
+        "key": "麻痹",
+        "value": "<color=#FFB800>麻痹</color>"
+      },
+      {
         "key": "净化",
         "value": "<color=#7AB2FF>净化</color>"
       },
@@ -10544,6 +10564,10 @@
       {
         "key": "【净化】",
         "value": "<color=#7AB2FF>【净化】</color>"
+      },
+      {
+        "key": "【麻痹】",
+        "value": "<color=#FFB800>【麻痹】</color>"
       },
       {
         "key": "【晶化】",
@@ -19130,6 +19154,29 @@
         "isGrey": true,
         "memory": 64
       }
+    ],
+    "languageTextList": [
+      {
+        "cancel": "取消",
+        "confirm": "确定",
+        "key": "zh",
+        "text": "简体中文",
+        "tips": "切换语言选项需要重启后才能生效。是否立即重启游戏？"
+      },
+      {
+        "cancel": "Cancel",
+        "confirm": "Confirm",
+        "key": "en",
+        "text": "English",
+        "tips": "Test"
+      },
+      {
+        "cancel": "取消",
+        "confirm": "確定",
+        "key": "tw",
+        "text": "繁體中文",
+        "tips": "測試文本"
+      }
     ]
   },
   {
@@ -19698,6 +19745,9 @@
         "id": 11400648
       },
       {
+        "id": 11400654
+      },
+      {
         "id": 11400655
       },
       {
@@ -19708,6 +19758,81 @@
       },
       {
         "id": 11400658
+      },
+      {
+        "id": 11400567
+      },
+      {
+        "id": 11400568
+      },
+      {
+        "id": 11400575
+      },
+      {
+        "id": 11400578
+      },
+      {
+        "id": 11400618
+      }
+    ],
+    "lCost": [
+      {
+        "id": 11400005,
+        "num": 24
+      }
+    ],
+    "lTime": 300,
+    "hourCost": [
+      {
+        "id": 11400005,
+        "num": 1
+      }
+    ],
+    "studyList": [
+      {
+        "id": 60100003
+      },
+      {
+        "id": 60100005
+      },
+      {
+        "id": 60100013
+      },
+      {
+        "id": 60100007
+      },
+      {
+        "id": 60100008
+      },
+      {
+        "id": 60100009
+      },
+      {
+        "id": 60100011
+      },
+      {
+        "id": 60100012
+      },
+      {
+        "id": 60100010
+      },
+      {
+        "id": 60100018
+      },
+      {
+        "id": 60100014
+      },
+      {
+        "id": 60100015
+      },
+      {
+        "id": 60100016
+      },
+      {
+        "id": 60100017
+      },
+      {
+        "id": 60100006
       }
     ]
   },
@@ -22736,9 +22861,11 @@
         "tag": 12601299
       },
       {
+        "countDownMax": 3,
         "endTime": "",
         "id": 86000010,
         "isCompleteBottom": false,
+        "isCountDown": false,
         "name": 80600437,
         "png": "UI/Activity/Tab/tab_eventWeek",
         "showUI": "UI/Activity/GoldenWeek/Group_EventWeek",
@@ -25751,6 +25878,9 @@
       },
       {
         "id": 80500026
+      },
+      {
+        "id": 80500014
       },
       {
         "id": 80500005

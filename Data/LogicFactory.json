@@ -2060,5 +2060,18 @@
     "scriptPath": "GGScript/60000152",
     "scriptLabel": "main",
     "cacheAsGMF": true
+  },
+  {
+    "id": 60000148,
+    "idCN": "卡牌/功能节点/是复制牌",
+    "mod": "执行GS脚本",
+    "isInformalData": false,
+    "debug": false,
+    "autoRecycle": false,
+    "memo": "判断当前卡牌是否是复制牌",
+    "paramHelp": "",
+    "returnType": "bool",
+    "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rset $battleControlManager\r\rgetp curGSBuff\rset $curBuff\r\rgetp snapshot\rset $snapshot\r\rgetp actionData\rset $actionData\rif\r    getp sourceCard\r    set $sourceCard\r    if\r        getp isShadowCard\r        if\r            ret 1\r        endif\r    endif\rendif\r\rret 2",
+    "cacheAsGMF": true
   }
 ]
