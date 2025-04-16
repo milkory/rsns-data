@@ -21572,7 +21572,7 @@
         "rangeSN": 240000
       }
     ],
-    "energyRestorePerFrameSN": 250,
+    "energyRestorePerFrameSN": 200,
     "isSkillDelay": false,
     "minDelay": 120,
     "maxDelay": 360
@@ -24114,8 +24114,26 @@
     "normalAttackCritID": -1,
     "skillList": [
       {
+        "actionId": 10104102,
+        "activeFrame": 240,
+        "activeTime": 1.0,
+        "rangeSN": 50000
+      },
+      {
         "actionId": 10104106,
-        "activeFrame": 180,
+        "activeFrame": 1020,
+        "activeTime": 1.0,
+        "rangeSN": 50000
+      },
+      {
+        "actionId": 10104101,
+        "activeFrame": 1320,
+        "activeTime": 1.0,
+        "rangeSN": 50000
+      },
+      {
+        "actionId": 10104102,
+        "activeFrame": 2880,
         "activeTime": 1.0,
         "rangeSN": 50000
       }
@@ -24126,14 +24144,14 @@
         "actionId": 10104104
       }
     ],
-    "skillLoopDelayFrame": 360,
+    "skillLoopDelayFrame": 720,
     "shapeShiftList": [],
     "commandList": [],
     "enemySkillList": [],
     "isUseEnergy": false,
     "energySkillList": [],
-    "energyRestorePerFrameSN": 450,
-    "isSkillDelay": true,
+    "energyRestorePerFrameSN": 250,
+    "isSkillDelay": false,
     "minDelay": 120,
     "maxDelay": 360
   },
@@ -24349,6 +24367,126 @@
     "isUseEnergy": false,
     "energySkillList": [],
     "energyRestorePerFrameSN": 0,
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300586,
+    "idCN": "爬塔/桦树生物/血影骨龙-头-4",
+    "mod": "BOSSAI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10103024
+      },
+      {
+        "actionID": 10103025
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10103021,
+        "activeFrame": 180,
+        "activeTime": 1.0,
+        "rangeSN": 240000
+      },
+      {
+        "actionId": 10103020,
+        "activeFrame": 480,
+        "activeTime": 1.0,
+        "rangeSN": 240000
+      },
+      {
+        "actionId": 10103022,
+        "activeFrame": 780,
+        "activeTime": 1.0,
+        "rangeSN": 240000
+      }
+    ],
+    "isInvisibleBeforeShowUp": true,
+    "showupSkillList": [
+      {
+        "actionId": 10103018
+      }
+    ],
+    "skillLoopDelayFrame": 360,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": true,
+    "energySkillList": [
+      {
+        "actionId": 10103226,
+        "isClearEnergy": true,
+        "rangeSN": 240000
+      }
+    ],
+    "energyRestorePerFrameSN": 220,
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300587,
+    "idCN": "爬塔/桦树生物/血影骨龙-头-5",
+    "mod": "BOSSAI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10103024
+      },
+      {
+        "actionID": 10103025
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10103021,
+        "activeFrame": 180,
+        "activeTime": 1.0,
+        "rangeSN": 240000
+      },
+      {
+        "actionId": 10103020,
+        "activeFrame": 480,
+        "activeTime": 1.0,
+        "rangeSN": 240000
+      },
+      {
+        "actionId": 10103022,
+        "activeFrame": 780,
+        "activeTime": 1.0,
+        "rangeSN": 240000
+      }
+    ],
+    "isInvisibleBeforeShowUp": true,
+    "showupSkillList": [
+      {
+        "actionId": 10103018
+      }
+    ],
+    "skillLoopDelayFrame": 360,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": true,
+    "energySkillList": [
+      {
+        "actionId": 10103227,
+        "isClearEnergy": true,
+        "rangeSN": 240000
+      }
+    ],
+    "energyRestorePerFrameSN": 220,
     "isSkillDelay": false,
     "minDelay": 120,
     "maxDelay": 360
