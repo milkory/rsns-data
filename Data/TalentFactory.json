@@ -7195,8 +7195,8 @@
     "path": "RolePlus\\00Gift\\Lin\\WuYing",
     "attriDetialList": [],
     "attributeList": [],
-    "tempdesc": "生命值低于60%/30%时，使自身【隐形】，持续5秒，限1次",
-    "desc": "生命值低于60%/30%时，使自身<color=#7AB2FF>【隐形】</color>，持续5秒，限1次",
+    "tempdesc": "生命值低于70%/30%时，使自身【隐形】，持续5秒，限1次",
+    "desc": "生命值低于70%/30%时，使自身<color=#7AB2FF>【隐形】</color>，持续5秒，限1次",
     "awakeLv": 2,
     "skillList": [
       {
@@ -17122,7 +17122,11 @@
     "skillParamOffsetList": [],
     "name": "晶尘流饮",
     "skillIntensify": 12303024,
-    "skillActiveUpgrade": [],
+    "skillActiveUpgrade": [
+      {
+        "id": 12303020
+      }
+    ],
     "attributeIntensify": [
       {
         "id": 80305917
@@ -17356,8 +17360,8 @@
     "path": "RolePlus\\00Gift\\MargielaStargazer\\YuZhe",
     "attriDetialList": [],
     "attributeList": [],
-    "tempdesc": "每次使用【星星】/【月亮】/【太阳】时，判断选中卡牌的正逆，限12次\\n若为正位，则【新星】/【元素新星】/【超新星】/【奇异火花】伤害提高25%\\n若为逆位，则我方【使魔】伤害提高25%",
-    "desc": "每次使用【星星】/【月亮】/【太阳】时，判断选中卡牌的正逆，限12次\\n若为正位，则【新星】/【元素新星】/【超新星】/【奇异火花】伤害提高25%\\n若为逆位，则我方【使魔】伤害提高25%",
+    "tempdesc": "每次使用【星星】/【月亮】/【太阳】时，判断选中卡牌的正逆\\n若为正位，则【新星】/【元素新星】/【超新星】/【奇异火花】伤害提高10%，上限100%\\n若为逆位，则我方【使魔】伤害提高10%，上限100%",
+    "desc": "每次使用【星星】/【月亮】/【太阳】时，判断选中卡牌的正逆\\n若为正位，则【新星】/【元素新星】/【超新星】/【奇异火花】伤害提高10%，上限100%\\n若为逆位，则我方【使魔】伤害提高10%，上限100%",
     "awakeLv": 2,
     "skillList": [
       {
@@ -17392,7 +17396,11 @@
     "tempdesc": "【星星】/【月亮】/【太阳】/【塔】/【命运之轮】的持续时间延长3秒",
     "desc": "【星星】/【月亮】/【太阳】/【塔】/【命运之轮】的持续时间延长3秒",
     "awakeLv": 3,
-    "skillList": [],
+    "skillList": [
+      {
+        "skillId": 12303154
+      }
+    ],
     "skillChangeList": [
       {
         "newSkillId": 12303410,
@@ -17415,23 +17423,7 @@
         "oldSkillId": 12303096
       }
     ],
-    "skillParamOffsetList": [
-      {
-        "skillId": 12303094,
-        "tag": "T",
-        "value_SN": 5400000
-      },
-      {
-        "skillId": 12303095,
-        "tag": "T",
-        "value_SN": 5400000
-      },
-      {
-        "skillId": 12303096,
-        "tag": "T",
-        "value_SN": 5400000
-      }
-    ],
+    "skillParamOffsetList": [],
     "name": "力量",
     "skillIntensify": 12303091,
     "skillActiveUpgrade": [],

@@ -2251,24 +2251,29 @@
     "isInformalData": false,
     "bgList": [
       {
-        "bgPath": "UI/Dialog/Back/City_XGLC_1",
-        "changeTime": "05:30:00"
+        "bgPath": "UI/Dialog/Back5/City_HYYLC_1",
+        "changeTime": "05:30:00",
+        "effectListId": 86400393
       },
       {
-        "bgPath": "UI/Dialog/Back/City_XGLC_2",
-        "changeTime": "10:00:00"
+        "bgPath": "UI/Dialog/Back5/City_HYYLC_2",
+        "changeTime": "10:00:00",
+        "effectListId": 86400393
       },
       {
-        "bgPath": "UI/Dialog/Back/City_XGLC_3",
-        "changeTime": "14:30:00"
+        "bgPath": "UI/Dialog/Back5/City_HYYLC_3",
+        "changeTime": "14:30:00",
+        "effectListId": 86400393
       },
       {
-        "bgPath": "UI/Dialog/Back/City_XGLC_4",
-        "changeTime": "17:30:00"
+        "bgPath": "UI/Dialog/Back5/City_HYYLC_4",
+        "changeTime": "17:30:00",
+        "effectListId": 86400393
       },
       {
-        "bgPath": "UI/Dialog/Back/City_XGLC_5",
-        "changeTime": "19:30:00"
+        "bgPath": "UI/Dialog/Back5/City_HYYLC_5",
+        "changeTime": "19:30:00",
+        "effectListId": 86400394
       }
     ],
     "offsetX": 0.0,
@@ -2276,8 +2281,8 @@
     "bubbleList": [
       {
         "id": 86400391,
-        "x": 0.0,
-        "y": 0.0
+        "x": 676.0,
+        "y": -230.0
       },
       {
         "id": 86400294,
@@ -2286,13 +2291,13 @@
       },
       {
         "id": 86400379,
-        "x": -375.0,
-        "y": -130.0
+        "x": -138.0,
+        "y": 40.0
       },
       {
         "id": 86400380,
-        "x": -375.0,
-        "y": -130.0
+        "x": -277.0,
+        "y": 100.0
       },
       {
         "id": 86400381,
@@ -2311,8 +2316,8 @@
       },
       {
         "id": 86400384,
-        "x": -375.0,
-        "y": -130.0
+        "x": -277.0,
+        "y": 100.0
       },
       {
         "id": 86400385,
@@ -2343,10 +2348,20 @@
         "id": 86400389,
         "x": -375.0,
         "y": -130.0
+      },
+      {
+        "id": 86400267,
+        "x": 53.0,
+        "y": -162.0
+      },
+      {
+        "id": 86400392,
+        "x": -207.0,
+        "y": 409.0
       }
     ],
     "isShowRep": true,
-    "isShowConstruct": false,
+    "isShowConstruct": true,
     "exitId": -1
   },
   {
@@ -2721,6 +2736,7 @@
     ],
     "offsetX": 0.0,
     "offsetY": 0.0,
+    "bubbleList": [],
     "isShowRep": true,
     "isShowConstruct": false,
     "exitId": -1
@@ -14996,5 +15012,97 @@
     "npcId": 83700137,
     "bgPath": "UI/Dialog/Back5/YLC_Exchange",
     "bgColor": "FFFFFF"
+  },
+  {
+    "id": 86400267,
+    "idCN": "03气泡/T12黑月游乐城S0/01建筑/黑月瞳仁服饰",
+    "mod": "气泡",
+    "isInformalData": false,
+    "name": "瞳仁服饰总店",
+    "isSpecial": false,
+    "isInstance": false,
+    "iconPath": "NPC/HYYLC/Dress",
+    "nameIconPath": "UI/CityMap/citymap_icon_dress",
+    "frontIconPath": "",
+    "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
+    "animLoop": "UI_CityBtn_01_Loop",
+    "animOut": "UI_CityBtn_01_Out",
+    "activityId": -1,
+    "startTime": "",
+    "endTime": "",
+    "displayConditionsList": [],
+    "unlockConditionsList": [],
+    "isLock": false,
+    "func": "OpenScene",
+    "btnType": "Other",
+    "mId": -1,
+    "uiPath": "",
+    "buildingId": -1,
+    "stationPlace": 81500011,
+    "dialogId": -1,
+    "dungeonId": -1,
+    "levelId": -1,
+    "textId": -1,
+    "npcId": -1,
+    "bgPath": "",
+    "bgColor": "FFFFFF"
+  },
+  {
+    "id": 86400392,
+    "idCN": "03气泡/T12黑月游乐城S0/01建筑/管理中心",
+    "mod": "气泡",
+    "isInformalData": false,
+    "name": "管理中心",
+    "isSpecial": false,
+    "isInstance": false,
+    "iconPath": "NPC/HYYLC/Goethe",
+    "nameIconPath": "UI/CityMap/citymap_icon_centre",
+    "frontIconPath": "",
+    "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
+    "animLoop": "UI_CityBtn_01_Loop",
+    "animOut": "UI_CityBtn_01_Out",
+    "activityId": -1,
+    "startTime": "",
+    "endTime": "",
+    "displayConditionsList": [],
+    "unlockConditionsList": [],
+    "isLock": false,
+    "func": "OpenUI",
+    "btnType": "BattleCenter",
+    "mId": -1,
+    "uiPath": "UI/HomeBattleCenter/HomeBattleCenter",
+    "buildingId": -1,
+    "stationPlace": -1,
+    "dialogId": -1,
+    "dungeonId": -1,
+    "levelId": -1,
+    "textId": -1,
+    "npcId": 83700142,
+    "bgPath": "UI/Dialog/Back5/YLC_Office",
+    "bgColor": "FFFFFF"
+  },
+  {
+    "id": 86400393,
+    "idCN": "02地图特效/黑月游乐城/04",
+    "mod": "地图特效",
+    "isInformalData": false,
+    "effectList": [
+      {
+        "effectPath": "UI/UIEffect/particle/UI_city/UI_city_01/UI_City_HYYLC_04",
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": 86400394,
+    "idCN": "02地图特效/黑月游乐城/05",
+    "mod": "地图特效",
+    "isInformalData": false,
+    "effectList": [
+      {
+        "effectPath": "UI/UIEffect/particle/UI_city/UI_city_01/UI_City_HYYLC_05",
+        "weight": 1
+      }
+    ]
   }
 ]

@@ -10569,8 +10569,8 @@
     "cardType": "UseOnce",
     "sameCardGroupId": -1,
     "cost_SN": 20000,
-    "inhandBuffId": 10414416,
-    "inhandOverBuffId": -1,
+    "inhandBuffId": -1,
+    "inhandOverBuffId": 10414416,
     "startBuffId": 10404271,
     "discardBuffId": -1,
     "discardBySkillBuffId": -1,
@@ -11459,7 +11459,7 @@
     "isNoCD": false,
     "isUseInHand": false,
     "isNotDiscard": false,
-    "iconPath": "RolePlus\\02Common\\skillicon\\00Cheng",
+    "iconPath": "RolePlus/02Common/skillicon/TaiChuZhiGuang",
     "backPath": "",
     "roleImgPath": "",
     "color": "Orange",
@@ -11537,8 +11537,8 @@
     "cardType": "UseOnce",
     "sameCardGroupId": -1,
     "cost_SN": 20000,
-    "inhandBuffId": 10414449,
-    "inhandOverBuffId": -1,
+    "inhandBuffId": -1,
+    "inhandOverBuffId": 10414449,
     "startBuffId": 10414418,
     "discardBuffId": -1,
     "discardBySkillBuffId": -1,
@@ -11688,8 +11688,8 @@
     "cardType": "UseOnce",
     "sameCardGroupId": -1,
     "cost_SN": 20000,
-    "inhandBuffId": 10414455,
-    "inhandOverBuffId": -1,
+    "inhandBuffId": -1,
+    "inhandOverBuffId": 10414455,
     "startBuffId": 10414421,
     "discardBuffId": -1,
     "discardBySkillBuffId": -1,
@@ -11768,8 +11768,8 @@
     "cardType": "UseOnce",
     "sameCardGroupId": -1,
     "cost_SN": 20000,
-    "inhandBuffId": 10414456,
-    "inhandOverBuffId": -1,
+    "inhandBuffId": -1,
+    "inhandOverBuffId": 10414456,
     "startBuffId": 10414417,
     "discardBuffId": -1,
     "discardBySkillBuffId": -1,
@@ -27097,7 +27097,7 @@
         "tagId": 12600216
       },
       {
-        "tagId": 12600002
+        "tagId": 12601698
       }
     ],
     "tagOutsideList": [],
@@ -27147,6 +27147,9 @@
       },
       {
         "tagId": 12601688
+      },
+      {
+        "tagId": 12601698
       }
     ],
     "tagOutsideList": [],
@@ -27174,7 +27177,7 @@
     "cardType": "UseOnce",
     "sameCardGroupId": -1,
     "actionId": 10104066,
-    "cost_SN": 20000,
+    "cost_SN": 30000,
     "inhandBuffId": -1,
     "inhandOverBuffId": -1,
     "startBuffId": 10419338,
@@ -27226,7 +27229,7 @@
     "cardType": "UseOnce",
     "sameCardGroupId": -1,
     "actionId": 10104065,
-    "cost_SN": 20000,
+    "cost_SN": 30000,
     "inhandBuffId": -1,
     "inhandOverBuffId": -1,
     "startBuffId": 10419338,
@@ -27281,7 +27284,7 @@
     "cardType": "UseOnce",
     "sameCardGroupId": -1,
     "actionId": 10104064,
-    "cost_SN": 20000,
+    "cost_SN": 30000,
     "inhandBuffId": -1,
     "inhandOverBuffId": -1,
     "startBuffId": 10419338,
@@ -27333,10 +27336,10 @@
     "cardType": "Normal",
     "sameCardGroupId": -1,
     "actionId": 10104062,
-    "cost_SN": 20000,
+    "cost_SN": 0,
     "inhandBuffId": -1,
     "inhandOverBuffId": -1,
-    "startBuffId": 10418384,
+    "startBuffId": 10419725,
     "discardBuffId": -1,
     "discardBySkillBuffId": -1,
     "banishBuffId": -1,
@@ -27491,14 +27494,14 @@
     "isInformalData": false,
     "name": "镜中的幸福",
     "isCutIn": false,
-    "isUseSingleTarget": false,
+    "isUseSingleTarget": true,
     "isNoCD": false,
     "isUseInHand": false,
     "isNotDiscard": false,
-    "iconPath": "",
+    "iconPath": "EnemyPlus/card/xingfu",
     "backPath": "",
     "roleImgPath": "",
-    "color": "Red",
+    "color": "Purple",
     "cardType": "Derive",
     "sameCardGroupId": -1,
     "cost_SN": 10000,
@@ -27508,7 +27511,7 @@
     "discardBuffId": -1,
     "discardBySkillBuffId": -1,
     "banishBuffId": -1,
-    "atkAreaType": "AllAlly",
+    "atkAreaType": "Single",
     "atkAreaColor": "Yellow",
     "targetColor": "Normal",
     "disappearEffectId": 11100047,
@@ -27520,17 +27523,24 @@
     "tagList": [
       {
         "tagId": 12601403
+      },
+      {
+        "tagId": 12601504
       }
     ],
     "tagOutsideList": [],
     "deriveCardList": [],
     "cardAIActionList": [],
     "distance_SN": 240000,
-    "radius_SN": 0,
+    "radius_SN": 240000,
     "isUseTargetFilter": true,
     "isIgnoreInvisibleEnemy": true,
-    "targetType": "OnlyTeam1",
-    "targetTagList": [],
+    "targetType": "ExceptSelf",
+    "targetTagList": [
+      {
+        "tagId": 12601488
+      }
+    ],
     "tagType": "And",
     "halfWidth_SN": 240000,
     "attributeType": "HpMax",

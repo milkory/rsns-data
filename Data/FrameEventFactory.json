@@ -35682,13 +35682,6 @@
     "buffId": 10418571
   },
   {
-    "id": 10502986,
-    "idCN": "我方/05五星/马吉拉·星仪/A-0选择印卡",
-    "mod": "给自己上BUFF",
-    "isInformalData": false,
-    "buffId": 10418384
-  },
-  {
     "id": 10502960,
     "idCN": "我方/05五星/马吉拉·星仪/A-2冰封全体",
     "mod": "攻击事件",
@@ -35771,7 +35764,7 @@
   },
   {
     "id": 10502968,
-    "idCN": "我方/05五星/马吉拉·星仪/bot2入场",
+    "idCN": "我方/05五星/马吉拉·星仪/bot02入场",
     "mod": "给自己上BUFF",
     "isInformalData": false,
     "buffId": 10419155
@@ -35811,13 +35804,6 @@
     "mod": "给自己上BUFF",
     "isInformalData": false,
     "buffId": 10418566
-  },
-  {
-    "id": 10503006,
-    "idCN": "我方/05五星/马吉拉·星仪/共振4回血周期",
-    "mod": "给自己上BUFF",
-    "isInformalData": false,
-    "buffId": 10419185
   },
   {
     "id": 10503008,
@@ -35952,13 +35938,6 @@
     "hitSoundID": -1
   },
   {
-    "id": 10503007,
-    "idCN": "我方/05五星/马吉拉·星仪/A-123觉醒5增伤",
-    "mod": "给自己上BUFF",
-    "isInformalData": false,
-    "buffId": 10419409
-  },
-  {
     "id": 10500217,
     "idCN": "我方/05五星/马吉拉·星仪/A-1星持续特效",
     "mod": "给自己上BUFF",
@@ -35988,7 +35967,7 @@
   },
   {
     "id": 10500358,
-    "idCN": "我方/05五星/马吉拉·星仪/bot2背景板特效",
+    "idCN": "我方/05五星/马吉拉·星仪/bot02背景板特效",
     "mod": "给自己上BUFF",
     "isInformalData": false,
     "buffId": 10418985
@@ -36021,9 +36000,13 @@
     "isUseTargetFilter": true,
     "isIgnoreInvisibleEnemy": true,
     "targetFilterType": "Enemy",
-    "targetTagList": [],
+    "targetTagList": [
+      {
+        "tagId": 12601488
+      }
+    ],
     "tagType": "And",
-    "halfWidth_SN": 240000,
+    "halfWidth_SN": 480000,
     "attributeType": "HpMax",
     "condition": "All",
     "numberType": "Number",
@@ -36050,5 +36033,128 @@
     "mod": "给自己上BUFF",
     "isInformalData": false,
     "buffId": 10401797
+  },
+  {
+    "id": 10500364,
+    "idCN": "我方/05五星/马吉拉·星仪/bot02设置下一动作速度",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10419463
+  },
+  {
+    "id": 10500406,
+    "idCN": "敌方/13毛绒会/英武机甲/技能4火焰",
+    "mod": "攻击事件",
+    "isInformalData": false,
+    "buffId": 10419615,
+    "hitSoundID": -1
+  },
+  {
+    "id": 10500407,
+    "idCN": "敌方/13毛绒会/英武机甲/技能4物理",
+    "mod": "子弹事件",
+    "isInformalData": false,
+    "buffId": 10419619,
+    "bulletId": 11200009,
+    "targetType": "Random",
+    "offSetX_SN": 0,
+    "offSetZ_SN": 0,
+    "isUseTargetFilter": false,
+    "isIgnoreInvisibleEnemy": true,
+    "targetFilterType": "Ally",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 0,
+    "attributeType": "HpMax",
+    "condition": "Max",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 0
+  },
+  {
+    "id": 10500411,
+    "idCN": "我方/05五星/马吉拉·星仪/A-1星攻击子弹",
+    "mod": "子弹事件",
+    "isInformalData": false,
+    "buffId": 10404561,
+    "bulletId": 11200659,
+    "targetType": "CurrentTarget",
+    "offSetX_SN": 0,
+    "offSetZ_SN": 0,
+    "isUseTargetFilter": false,
+    "isIgnoreInvisibleEnemy": true,
+    "targetFilterType": "Ally",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 0,
+    "attributeType": "HpMax",
+    "condition": "Max",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 0
+  },
+  {
+    "id": 10500412,
+    "idCN": "我方/05五星/马吉拉·星仪/A-3星攻击子弹",
+    "mod": "子弹事件",
+    "isInformalData": false,
+    "buffId": 10418914,
+    "bulletId": 11200660,
+    "targetType": "CurrentTarget",
+    "offSetX_SN": 0,
+    "offSetZ_SN": 0,
+    "isUseTargetFilter": false,
+    "isIgnoreInvisibleEnemy": true,
+    "targetFilterType": "Ally",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 0,
+    "attributeType": "HpMax",
+    "condition": "Max",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 0
+  },
+  {
+    "id": 10500408,
+    "idCN": "我方/05五星/马吉拉·星仪/A-1额外效果",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10419702
+  },
+  {
+    "id": 10500409,
+    "idCN": "我方/05五星/马吉拉·星仪/A-2额外效果",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10419723
+  },
+  {
+    "id": 10500410,
+    "idCN": "我方/05五星/马吉拉·星仪/A-3额外效果",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10419724
   }
 ]
