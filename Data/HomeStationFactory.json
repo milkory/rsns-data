@@ -12061,19 +12061,31 @@
     "cityStateList": [
       {
         "cityMapId": 86400030,
-        "dungeonId": -1,
         "name": "访问城市",
         "recommendLevel": 1,
         "sceneId": 80306660,
         "state": 0
       },
       {
-        "cityMapId": 86400030,
-        "dungeonId": -1,
+        "cityMapId": 86400395,
         "name": "访问城市",
         "recommendLevel": 1,
         "sceneId": 80300322,
         "state": 1
+      },
+      {
+        "cityMapId": 86400396,
+        "name": "访问城市",
+        "recommendLevel": 1,
+        "sceneId": 80306660,
+        "state": 2
+      },
+      {
+        "cityMapId": 86400397,
+        "name": "访问城市",
+        "recommendLevel": 1,
+        "sceneId": 80300322,
+        "state": 3
       }
     ],
     "timeLineList": [
@@ -12127,7 +12139,7 @@
         "id": 84300001
       }
     ],
-    "isWarehouse": false,
+    "isWarehouse": true,
     "warehousePrestige": 6,
     "buyPrice": [
       {
@@ -13035,7 +13047,7 @@
     "keepSingleMealList": [],
     "keepTeamMealList": [],
     "inviteTimes": 1,
-    "isLeaflet": false,
+    "isLeaflet": true,
     "leafletUnlock": 0,
     "leafletMap": "UI/Flier/cityMap/city_heiyueyoulecheng",
     "order": 0,
@@ -13505,8 +13517,8 @@
     "investRankList": [],
     "investRankBuffList": [],
     "tradeRankList": [],
-    "isWarehouse": false,
-    "warehousePrestige": 1,
+    "isWarehouse": true,
+    "warehousePrestige": 6,
     "buyPrice": [
       {
         "id": 11400001,
@@ -13519,7 +13531,15 @@
         "num": 5
       }
     ],
-    "extraWarehouseList": [],
+    "extraWarehouseList": [
+      {
+        "addNum": 100,
+        "buyNum": 500,
+        "name": 80607530,
+        "reputation": 20,
+        "useNum": 5
+      }
+    ],
     "bargainSpinePath": "",
     "actionM": "nan2_1",
     "actionW": "nv1_1",
