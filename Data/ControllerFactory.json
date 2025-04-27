@@ -11912,20 +11912,26 @@
     "skillList": [
       {
         "actionId": 10102553,
-        "activeFrame": 180,
-        "activeTime": 1.0,
+        "activeFrame": 240,
+        "activeTime": 4.0,
         "rangeSN": 240000
       },
       {
         "actionId": 10102552,
-        "activeFrame": 608,
-        "activeTime": 1.0,
+        "activeFrame": 968,
+        "activeTime": 16.1333,
+        "rangeSN": 240000
+      },
+      {
+        "actionId": 10102553,
+        "activeFrame": 1440,
+        "activeTime": 24.0,
         "rangeSN": 240000
       }
     ],
     "isInvisibleBeforeShowUp": false,
     "showupSkillList": [],
-    "skillLoopDelayFrame": 360,
+    "skillLoopDelayFrame": 480,
     "shapeShiftList": [],
     "commandList": [],
     "enemySkillList": [],
@@ -22422,7 +22428,7 @@
         "rangeSN": 240000
       }
     ],
-    "energyRestorePerFrameSN": 500,
+    "energyRestorePerFrameSN": 350,
     "isSkillDelay": true,
     "minDelay": 120,
     "maxDelay": 360
@@ -23567,7 +23573,7 @@
     "skillList": [],
     "isInvisibleBeforeShowUp": false,
     "showupSkillList": [],
-    "skillLoopDelayFrame": 1,
+    "skillLoopDelayFrame": -1,
     "shapeShiftList": [],
     "commandList": [],
     "enemySkillList": [],
@@ -24571,6 +24577,98 @@
       }
     ],
     "energyRestorePerFrameSN": 100,
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300595,
+    "idCN": "学会迷宫/盾卫",
+    "mod": "基础AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": -1,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10103234
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [
+      {
+        "actionId": 10103236
+      }
+    ],
+    "skillLoopDelayFrame": 0,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300596,
+    "idCN": "学会迷宫/雷云",
+    "mod": "基础AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": -1,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10103234
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [
+      {
+        "actionId": 10104141
+      }
+    ],
+    "skillLoopDelayFrame": 0,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300589,
+    "idCN": "我方/05五星/真咲",
+    "mod": "卡牌AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": -1,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10104168
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [],
+    "skillLoopDelayFrame": 1,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
     "isSkillDelay": false,
     "minDelay": 120,
     "maxDelay": 360
