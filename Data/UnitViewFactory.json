@@ -25134,15 +25134,24 @@
     "offsetY2": 0.0,
     "squadsX": 0.0,
     "squadsY": 0.0,
+    "gachaX": 0.0,
+    "gachaY": 0.0,
     "spineX": 0.0,
     "spineY": 0.0,
     "spineScale": 1.0,
     "squadsHalf1": "RolePlus/Katas/TeatimeJumakenki/Squads_Half1",
     "extraSpineList": [
       {
+        "resScale": 1.0,
         "resUrl": "RolePlus/Katas/TeatimeJumakenki/Full2",
+        "resX": 0.0,
+        "resY": 0.0,
         "singleUrl": "RolePlus/Katas/TeatimeJumakenki/Single2",
-        "spineUrl": "Spine/Dialogue/LH_Katas_Teatime_Jumakenki_dialogue/LH_Katas_Teatime_Jumakenki_dialogue_SkeletonData"
+        "spineIdleListId": -1,
+        "spineScale": 1.0,
+        "spineUrl": "Spine/Dialogue/LH_Katas_Teatime_Jumakenki_dialogue/LH_Katas_Teatime_Jumakenki_dialogue_SkeletonData",
+        "spineX": 0.0,
+        "spineY": 0.0
       }
     ],
     "clickEffectLayer": "Front",
@@ -29530,6 +29539,8 @@
     "offsetY2": 0.0,
     "squadsX": 0.0,
     "squadsY": 0.0,
+    "gachaX": 0.0,
+    "gachaY": 0.0,
     "spineX": -10.0,
     "spineY": 0.0,
     "spineScale": 1.0,
@@ -29569,7 +29580,24 @@
     "rewardList": [],
     "iconPath": "Item/item/Small/skinbox",
     "tipsPath": "Item/item/Big/skinbox",
-    "ProfilePhotoList": [],
+    "ProfilePhotoList": [
+      {
+        "id": 82600768,
+        "weight": 95
+      },
+      {
+        "id": 82600769,
+        "weight": 95
+      },
+      {
+        "id": 82600770,
+        "weight": 95
+      },
+      {
+        "id": 82600771,
+        "weight": 15
+      }
+    ],
     "skinBattlePass": -1,
     "bookHalf": "",
     "bookFull": "",
@@ -54732,6 +54760,8 @@
     "offsetY2": 0.0,
     "squadsX": 0.0,
     "squadsY": 0.0,
+    "gachaX": 0.0,
+    "gachaY": 0.0,
     "spineX": 0.0,
     "spineY": 0.0,
     "spineScale": 1.0,
@@ -54771,16 +54801,31 @@
     "rewardList": [],
     "iconPath": "Item/item/Small/skinbox",
     "tipsPath": "Item/item/Big/skinbox",
-    "ProfilePhotoList": [],
-    "skinBattlePass": -1,
+    "ProfilePhotoList": [
+      {
+        "id": 82600756,
+        "weight": 95
+      },
+      {
+        "id": 82600757,
+        "weight": 95
+      },
+      {
+        "id": 82600758,
+        "weight": 95
+      },
+      {
+        "id": 82600759,
+        "weight": 15
+      }
+    ],
+    "skinBattlePass": 82500034,
     "bookHalf": "",
     "bookFull": "",
     "bookX": 0.0,
     "bookY": 0.0,
     "homeSkill": -1,
-    "SpineIdleListId": -1,
-    "gachaX": 0.0,
-    "gachaY": 0.0
+    "SpineIdleListId": -1
   },
   {
     "id": 11000569,
@@ -57006,6 +57051,221 @@
     "bookX": 0.0,
     "bookY": 0.0,
     "homeSkill": -1,
+    "SpineIdleListId": -1
+  },
+  {
+    "id": 11000590,
+    "idCN": "我方/05五星/卡塔斯/午后的魔剑使2",
+    "mod": "Spine",
+    "isInformalData": false,
+    "hpBarOffsetX": 0.0,
+    "hpBarOffsetY": 3.0,
+    "battleTagOffsetX": 0.0,
+    "battleTagOffsetY": 3.0,
+    "resDir": "Role/Katas_Teatime_Jumakenki/Katas_Teatime_Jumakenki_SkeletonData",
+    "shadowID": 11100346,
+    "shadowScale": 0.5,
+    "userSpecialShadow": false,
+    "shadowOffsetY": 0.0,
+    "shadowOffsetZ": 0.0,
+    "useSpecialBeHitColor": false,
+    "r": 255,
+    "g": 255,
+    "b": 255,
+    "a": 255,
+    "effectScale": 1.0,
+    "gachaVoice": 30001650,
+    "mainUIVoice": -1,
+    "face": "RolePlus/Katas/TeatimeJumakenki/Face",
+    "gacha": "RolePlus/Katas/TeatimeJumakenki/Gacha",
+    "resUrl": "RolePlus/Katas/TeatimeJumakenki/Full2",
+    "roleListResUrl": "RolePlus/Katas/TeatimeJumakenki/Half",
+    "spineUrl": "Spine/Dialogue/LH_Katas_Teatime_Jumakenki_dialogue/LH_Katas_Teatime_Jumakenki_dialogue_SkeletonData",
+    "clickEffectUrl": "",
+    "plotResList": [
+      {
+        "plotResUrl": "RolePlus\\Katas\\emo\\Katas_emo_5"
+      },
+      {
+        "plotResUrl": "RolePlus\\Katas\\emo\\Katas_emo_4"
+      },
+      {
+        "plotResUrl": "RolePlus\\Katas\\emo\\Katas_emo_3"
+      },
+      {
+        "plotResUrl": "RolePlus\\Katas\\emo\\Katas_emo_2"
+      },
+      {
+        "plotResUrl": "RolePlus\\Katas\\emo\\Katas_emo_1"
+      }
+    ],
+    "exchangeEffectList": [
+      {
+        "changeEffectId": 11102435,
+        "effectId": 11101437
+      },
+      {
+        "changeEffectId": 11102985,
+        "effectId": 11101435
+      },
+      {
+        "changeEffectId": 11101975,
+        "effectId": 11101480
+      },
+      {
+        "changeEffectId": 11101974,
+        "effectId": 11101484
+      },
+      {
+        "changeEffectId": 11102897,
+        "effectId": 11101901
+      },
+      {
+        "changeEffectId": 11103128,
+        "effectId": 11101430
+      },
+      {
+        "changeEffectId": 11103179,
+        "effectId": 11101431
+      },
+      {
+        "changeEffectId": 11102464,
+        "effectId": 11101432
+      },
+      {
+        "changeEffectId": 11103414,
+        "effectId": 11101440
+      },
+      {
+        "changeEffectId": 11102895,
+        "effectId": 11100083
+      },
+      {
+        "changeEffectId": 11105399,
+        "effectId": 11100247
+      },
+      {
+        "changeEffectId": 11103174,
+        "effectId": 11100250
+      },
+      {
+        "changeEffectId": 11102983,
+        "effectId": 11100251
+      },
+      {
+        "changeEffectId": 11102947,
+        "effectId": 11101894
+      },
+      {
+        "changeEffectId": 11103178,
+        "effectId": 11100013
+      },
+      {
+        "changeEffectId": 11102887,
+        "effectId": 11100010
+      },
+      {
+        "changeEffectId": 11102941,
+        "effectId": 11100011
+      },
+      {
+        "changeEffectId": 11102949,
+        "effectId": 11100248
+      },
+      {
+        "changeEffectId": 11105398,
+        "effectId": 11102217
+      }
+    ],
+    "exchangeBulletList": [
+      {
+        "bulletId": 11200049,
+        "changeBulletId": 11200148
+      }
+    ],
+    "exchangeSoundList": [],
+    "exchangeRolePathList": [],
+    "character": 10000004,
+    "SkinName": "午后的魔剑使",
+    "quality": "Golden",
+    "ownExclusiveVoice": false,
+    "isSpine2": 0,
+    "SkinDesc": "卡塔斯在女仆咖啡店打工时所穿的女仆裙。由担保人签字保证后，她得以扛着她心爱的暗耀斩钢在咖啡厅工作。",
+    "HomeresDir": "Home/Character/Dorm_Katas_Skin_Teatime_Jumakenki/Dorm_Katas_Skin_Teatime_Jumakenki_SkeletonData",
+    "singleUrl": "RolePlus/Katas/TeatimeJumakenki/Single2",
+    "GetWay": "0",
+    "offsetX": -32.0,
+    "offsetY": -220.0,
+    "offsetScale": 0.96,
+    "offsetX2": 0.0,
+    "offsetY2": 0.0,
+    "squadsX": 0.0,
+    "squadsY": 0.0,
+    "gachaX": 0.0,
+    "gachaY": 0.0,
+    "spineX": 0.0,
+    "spineY": 0.0,
+    "spineScale": 1.0,
+    "squadsHalf1": "RolePlus/Katas/TeatimeJumakenki/Squads_Half1",
+    "extraSpineList": [],
+    "clickEffectLayer": "Front",
+    "frontFixEffectUrl": "",
+    "bottomFixEffectUrl": "",
+    "clickHideFixEffect": "None",
+    "SpineBackground": "RolePlus/Katas/TeatimeJumakenki/BG",
+    "SpineBGX": 32.0,
+    "SpineBGY": -220.0,
+    "SpineBGScale": 0.96,
+    "State2Name": "",
+    "State2Desc": "",
+    "State2Face": "",
+    "State2Gacha": "",
+    "State2Res": "",
+    "State2RoleListRes": "",
+    "squadsHalf2": "",
+    "gachaSpine2Url": "",
+    "spine2Url": "",
+    "gachaPerformUrl": "",
+    "spine2EffectUrl": "",
+    "spine2BgUrl": "",
+    "state2Overturn": false,
+    "spine2Scale": 100.0,
+    "spine2X": 0.0,
+    "spine2Y": 0.0,
+    "blockCN": false,
+    "blockJP": false,
+    "blockTW": false,
+    "blockEN": true,
+    "blockKR": false,
+    "profilePhotoID": 82600360,
+    "State2profilePhotoID": -1,
+    "rewardList": [],
+    "iconPath": "Item/item/Small/skinbox",
+    "tipsPath": "Item/item/Big/skinbox",
+    "ProfilePhotoList": [
+      {
+        "id": 82600363,
+        "weight": 95
+      },
+      {
+        "id": 82600364,
+        "weight": 95
+      },
+      {
+        "id": 82600365,
+        "weight": 95
+      },
+      {
+        "id": 82600366,
+        "weight": 15
+      }
+    ],
+    "skinBattlePass": -1,
+    "bookHalf": "",
+    "bookFull": "",
+    "bookX": 0.0,
+    "bookY": 0.0,
+    "homeSkill": 83900182,
     "SpineIdleListId": -1
   }
 ]

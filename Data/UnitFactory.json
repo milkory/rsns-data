@@ -14147,6 +14147,7 @@
     "hitAreaY_SN": 15000,
     "hitAreaHalfWidth_SN": 80000,
     "hitAreaHalfHeight_SN": 15000,
+    "canOverMaxSpeed": false,
     "battleDes": "",
     "safeInformation": "",
     "unitInformation": "",
@@ -14157,7 +14158,8 @@
     "enemyType": 12601048,
     "enemyCamp": 12601044,
     "enemyBookId": 10000130,
-    "prisonerDrop": []
+    "prisonerDrop": [],
+    "enemySkillList": []
   },
   {
     "id": 10000191,
@@ -48286,7 +48288,7 @@
     "hitPointX_SN": 0,
     "hitPointY_SN": 15000,
     "hitAreaX_SN": 0,
-    "hitAreaY_SN": 15000,
+    "hitAreaY_SN": 35000,
     "hitAreaHalfWidth_SN": 10000,
     "hitAreaHalfHeight_SN": 15000,
     "canOverMaxSpeed": false,
@@ -55413,6 +55415,9 @@
       },
       {
         "unitViewId": 11000371
+      },
+      {
+        "unitViewId": 11000565
       }
     ],
     "sideId": 12600035,
@@ -137675,16 +137680,16 @@
     "totalCost": 20,
     "totalCardNum": 6,
     "skillMin": 5,
-    "homeCharacter": 70000321,
+    "homeCharacter": 70000329,
     "stationStoreCharacter": -1,
     "gotoBed": true,
-    "isDoctor": true,
+    "isDoctor": false,
     "medicalPoint": 87,
     "WasteCoefficient": 1.0,
     "FoodList": [
       {
-        "id": 83300018,
-        "letter": "有没有感觉比以前更好吃了？制作过程注入了奇妙的魔法哦！",
+        "id": 83300017,
+        "letter": "我借鉴了一些“过去的经验”，尤其是肉排的味道很有自信。",
         "weight": 1
       }
     ],
@@ -137745,7 +137750,7 @@
     ],
     "fileList": [
       {
-        "file": 80306319,
+        "file": 80306798,
         "skinId": -1
       }
     ],
@@ -139762,6 +139767,1045 @@
     "enemySkillList": [
       {
         "id": 80304389
+      }
+    ]
+  },
+  {
+    "id": 10000809,
+    "idCN": "00我方/09召唤物/真咲/倪克斯",
+    "mod": "召唤物",
+    "isInformalData": false,
+    "name": "倪克斯",
+    "EnglishName": "",
+    "viewId": 11000586,
+    "sideId": -1,
+    "controllerId": 10300591,
+    "bulletControllerList": [],
+    "isBoss": false,
+    "bossHpTemp": -1,
+    "isDeadNotDisappear": false,
+    "isFly": true,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "tagList": [
+      {
+        "tagId": 12601298
+      },
+      {
+        "tagId": 12600001
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12302013
+      }
+    ],
+    "hp_SN": 10000,
+    "def_SN": 0,
+    "atk_SN": 0,
+    "atkSpeed_SN": 1000000,
+    "luck_SN": 0,
+    "line": 3,
+    "subLine": 0,
+    "costRestore_SN": 0,
+    "actionStandID": 10104183,
+    "actionMoveID": 10104182,
+    "actionAttackedID": 10104183,
+    "actionAttackedBackID": 10104183,
+    "actionKnockUpID": -1,
+    "actionStunID": 10104183,
+    "actionDeadID": 10104184,
+    "actionVictoryID": -1,
+    "isNeutral": false,
+    "isCantBeHit": true,
+    "isImmuneAlly": true,
+    "isImmuneEnemy": true,
+    "ownerDeadAddBuffID": -1,
+    "deadAddBuffToOwner": -1,
+    "fightEndBuffId": -1,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 12500,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 12500,
+    "hitAreaHalfWidth_SN": 25000,
+    "hitAreaHalfHeight_SN": 12500,
+    "canOverMaxSpeed": false,
+    "safeInformation": "",
+    "unitInformation": ""
+  },
+  {
+    "id": 10000810,
+    "idCN": "爬塔/机械单位/御险对策机械·艾尼-5",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "御险对策机械·艾尼",
+    "EnglishName": "",
+    "viewId": 11000405,
+    "skinList": [],
+    "sideId": 12601357,
+    "controllerId": 10300453,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": 90100009,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600011
+      },
+      {
+        "tagId": 12601261
+      },
+      {
+        "tagId": 12600278
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301411
+      },
+      {
+        "skillId": 12301440
+      },
+      {
+        "skillId": 12301441
+      },
+      {
+        "skillId": 12301439
+      },
+      {
+        "skillId": 12301433
+      },
+      {
+        "skillId": 12301933
+      },
+      {
+        "skillId": 12303518
+      },
+      {
+        "skillId": 12303517
+      },
+      {
+        "skillId": 12303514
+      },
+      {
+        "skillId": 12303515
+      },
+      {
+        "skillId": 12303516
+      },
+      {
+        "skillId": 12301815
+      }
+    ],
+    "hp_SN": 3200000000,
+    "def_SN": 800000,
+    "atk_SN": 800000,
+    "atkSpeed_SN": 500000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000408,
+    "growthTagList": [
+      {
+        "growthTagId": 12000353
+      },
+      {
+        "growthTagId": 12000060
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800292
+      },
+      {
+        "talentId": 12800293
+      },
+      {
+        "talentId": 12800294
+      },
+      {
+        "talentId": 12800295
+      },
+      {
+        "talentId": 12800296
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10103330,
+    "actionMoveID": 10103331,
+    "actionAttackedID": 10103334,
+    "actionAttackedBackID": 10103333,
+    "actionKnockUpID": -1,
+    "actionStunID": 10103340,
+    "actionDeadID": 10103332,
+    "actionVictoryID": -1,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 30000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 30000,
+    "hitAreaHalfWidth_SN": 80000,
+    "hitAreaHalfHeight_SN": 30000,
+    "canOverMaxSpeed": false,
+    "battleDes": "",
+    "safeInformation": "",
+    "unitInformation": "",
+    "enemyDrop": [],
+    "abilityList": [
+      {
+        "id": 12600935
+      },
+      {
+        "id": 12600934
+      },
+      {
+        "id": 12600939
+      },
+      {
+        "id": 12600933
+      },
+      {
+        "id": 12600938
+      },
+      {
+        "id": 12600903
+      }
+    ],
+    "weaknessList": [
+      {
+        "id": 12600993
+      }
+    ],
+    "resistanceList": [
+      {
+        "id": 12600992
+      },
+      {
+        "id": 12600991
+      },
+      {
+        "id": 12600989
+      },
+      {
+        "id": 12600972
+      }
+    ],
+    "enemyType": 12601048,
+    "enemyCamp": 12600221,
+    "enemyBookId": 10000502,
+    "prisonerDrop": [],
+    "enemySkillList": [
+      {
+        "id": 80304380
+      }
+    ]
+  },
+  {
+    "id": 10000811,
+    "idCN": "爬塔/机械单位/御险对策机械·艾尼-4",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "御险对策机械·艾尼",
+    "EnglishName": "",
+    "viewId": 11000405,
+    "skinList": [],
+    "sideId": 12601357,
+    "controllerId": 10300453,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": 90100009,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600011
+      },
+      {
+        "tagId": 12601261
+      },
+      {
+        "tagId": 12600278
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301411
+      },
+      {
+        "skillId": 12301440
+      },
+      {
+        "skillId": 12301441
+      },
+      {
+        "skillId": 12301439
+      },
+      {
+        "skillId": 12301433
+      },
+      {
+        "skillId": 12301933
+      },
+      {
+        "skillId": 12303518
+      },
+      {
+        "skillId": 12303517
+      },
+      {
+        "skillId": 12303514
+      },
+      {
+        "skillId": 12303515
+      },
+      {
+        "skillId": 12301674
+      }
+    ],
+    "hp_SN": 3200000000,
+    "def_SN": 800000,
+    "atk_SN": 800000,
+    "atkSpeed_SN": 500000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000408,
+    "growthTagList": [
+      {
+        "growthTagId": 12000353
+      },
+      {
+        "growthTagId": 12000060
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800292
+      },
+      {
+        "talentId": 12800293
+      },
+      {
+        "talentId": 12800294
+      },
+      {
+        "talentId": 12800295
+      },
+      {
+        "talentId": 12800296
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10103330,
+    "actionMoveID": 10103331,
+    "actionAttackedID": 10103334,
+    "actionAttackedBackID": 10103333,
+    "actionKnockUpID": -1,
+    "actionStunID": 10103340,
+    "actionDeadID": 10103332,
+    "actionVictoryID": -1,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 30000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 30000,
+    "hitAreaHalfWidth_SN": 80000,
+    "hitAreaHalfHeight_SN": 30000,
+    "canOverMaxSpeed": false,
+    "battleDes": "",
+    "safeInformation": "",
+    "unitInformation": "",
+    "enemyDrop": [],
+    "abilityList": [
+      {
+        "id": 12600935
+      },
+      {
+        "id": 12600934
+      },
+      {
+        "id": 12600939
+      },
+      {
+        "id": 12600933
+      },
+      {
+        "id": 12600938
+      },
+      {
+        "id": 12600903
+      }
+    ],
+    "weaknessList": [
+      {
+        "id": 12600993
+      }
+    ],
+    "resistanceList": [
+      {
+        "id": 12600992
+      },
+      {
+        "id": 12600991
+      },
+      {
+        "id": 12600989
+      },
+      {
+        "id": 12600972
+      }
+    ],
+    "enemyType": 12601048,
+    "enemyCamp": 12600221,
+    "enemyBookId": 10000502,
+    "prisonerDrop": [],
+    "enemySkillList": [
+      {
+        "id": 80304380
+      }
+    ]
+  },
+  {
+    "id": 10000812,
+    "idCN": "爬塔/机械单位/御险对策机械·艾尼-3",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "御险对策机械·艾尼",
+    "EnglishName": "",
+    "viewId": 11000405,
+    "skinList": [],
+    "sideId": 12601357,
+    "controllerId": 10300453,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": 90100009,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600011
+      },
+      {
+        "tagId": 12601261
+      },
+      {
+        "tagId": 12600278
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301411
+      },
+      {
+        "skillId": 12301440
+      },
+      {
+        "skillId": 12301441
+      },
+      {
+        "skillId": 12301439
+      },
+      {
+        "skillId": 12301433
+      },
+      {
+        "skillId": 12301933
+      },
+      {
+        "skillId": 12303518
+      },
+      {
+        "skillId": 12303517
+      },
+      {
+        "skillId": 12303514
+      },
+      {
+        "skillId": 12301819
+      }
+    ],
+    "hp_SN": 3200000000,
+    "def_SN": 800000,
+    "atk_SN": 800000,
+    "atkSpeed_SN": 500000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000408,
+    "growthTagList": [
+      {
+        "growthTagId": 12000353
+      },
+      {
+        "growthTagId": 12000060
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800292
+      },
+      {
+        "talentId": 12800293
+      },
+      {
+        "talentId": 12800294
+      },
+      {
+        "talentId": 12800295
+      },
+      {
+        "talentId": 12800296
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10103330,
+    "actionMoveID": 10103331,
+    "actionAttackedID": 10103334,
+    "actionAttackedBackID": 10103333,
+    "actionKnockUpID": -1,
+    "actionStunID": 10103340,
+    "actionDeadID": 10103332,
+    "actionVictoryID": -1,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 30000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 30000,
+    "hitAreaHalfWidth_SN": 80000,
+    "hitAreaHalfHeight_SN": 30000,
+    "canOverMaxSpeed": false,
+    "battleDes": "",
+    "safeInformation": "",
+    "unitInformation": "",
+    "enemyDrop": [],
+    "abilityList": [
+      {
+        "id": 12600935
+      },
+      {
+        "id": 12600934
+      },
+      {
+        "id": 12600939
+      },
+      {
+        "id": 12600933
+      },
+      {
+        "id": 12600938
+      },
+      {
+        "id": 12600903
+      }
+    ],
+    "weaknessList": [
+      {
+        "id": 12600993
+      }
+    ],
+    "resistanceList": [
+      {
+        "id": 12600992
+      },
+      {
+        "id": 12600991
+      },
+      {
+        "id": 12600989
+      },
+      {
+        "id": 12600972
+      }
+    ],
+    "enemyType": 12601048,
+    "enemyCamp": 12600221,
+    "enemyBookId": 10000502,
+    "prisonerDrop": [],
+    "enemySkillList": [
+      {
+        "id": 80304380
+      }
+    ]
+  },
+  {
+    "id": 10000813,
+    "idCN": "爬塔/机械单位/御险对策机械·艾尼-2",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "御险对策机械·艾尼",
+    "EnglishName": "",
+    "viewId": 11000405,
+    "skinList": [],
+    "sideId": 12601357,
+    "controllerId": 10300453,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": 90100009,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600011
+      },
+      {
+        "tagId": 12601261
+      },
+      {
+        "tagId": 12600278
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301411
+      },
+      {
+        "skillId": 12301440
+      },
+      {
+        "skillId": 12301441
+      },
+      {
+        "skillId": 12301439
+      },
+      {
+        "skillId": 12301433
+      },
+      {
+        "skillId": 12301933
+      },
+      {
+        "skillId": 12303518
+      },
+      {
+        "skillId": 12303517
+      },
+      {
+        "skillId": 12301820
+      }
+    ],
+    "hp_SN": 3200000000,
+    "def_SN": 800000,
+    "atk_SN": 800000,
+    "atkSpeed_SN": 500000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000408,
+    "growthTagList": [
+      {
+        "growthTagId": 12000353
+      },
+      {
+        "growthTagId": 12000060
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800292
+      },
+      {
+        "talentId": 12800293
+      },
+      {
+        "talentId": 12800294
+      },
+      {
+        "talentId": 12800295
+      },
+      {
+        "talentId": 12800296
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10103330,
+    "actionMoveID": 10103331,
+    "actionAttackedID": 10103334,
+    "actionAttackedBackID": 10103333,
+    "actionKnockUpID": -1,
+    "actionStunID": 10103340,
+    "actionDeadID": 10103332,
+    "actionVictoryID": -1,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 30000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 30000,
+    "hitAreaHalfWidth_SN": 80000,
+    "hitAreaHalfHeight_SN": 30000,
+    "canOverMaxSpeed": false,
+    "battleDes": "",
+    "safeInformation": "",
+    "unitInformation": "",
+    "enemyDrop": [],
+    "abilityList": [
+      {
+        "id": 12600935
+      },
+      {
+        "id": 12600934
+      },
+      {
+        "id": 12600939
+      },
+      {
+        "id": 12600933
+      },
+      {
+        "id": 12600938
+      },
+      {
+        "id": 12600903
+      }
+    ],
+    "weaknessList": [
+      {
+        "id": 12600993
+      }
+    ],
+    "resistanceList": [
+      {
+        "id": 12600992
+      },
+      {
+        "id": 12600991
+      },
+      {
+        "id": 12600989
+      },
+      {
+        "id": 12600972
+      }
+    ],
+    "enemyType": 12601048,
+    "enemyCamp": 12600221,
+    "enemyBookId": 10000502,
+    "prisonerDrop": [],
+    "enemySkillList": [
+      {
+        "id": 80304380
+      }
+    ]
+  },
+  {
+    "id": 10000814,
+    "idCN": "爬塔/机械单位/御险对策机械·艾尼-1",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "御险对策机械·艾尼",
+    "EnglishName": "",
+    "viewId": 11000405,
+    "skinList": [],
+    "sideId": 12601357,
+    "controllerId": 10300453,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": 90100009,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600011
+      },
+      {
+        "tagId": 12601261
+      },
+      {
+        "tagId": 12600278
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301411
+      },
+      {
+        "skillId": 12301440
+      },
+      {
+        "skillId": 12301441
+      },
+      {
+        "skillId": 12301439
+      },
+      {
+        "skillId": 12301433
+      },
+      {
+        "skillId": 12301933
+      },
+      {
+        "skillId": 12303518
+      },
+      {
+        "skillId": 12301675
+      }
+    ],
+    "hp_SN": 3200000000,
+    "def_SN": 800000,
+    "atk_SN": 800000,
+    "atkSpeed_SN": 500000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000408,
+    "growthTagList": [
+      {
+        "growthTagId": 12000353
+      },
+      {
+        "growthTagId": 12000060
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800292
+      },
+      {
+        "talentId": 12800293
+      },
+      {
+        "talentId": 12800294
+      },
+      {
+        "talentId": 12800295
+      },
+      {
+        "talentId": 12800296
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10103330,
+    "actionMoveID": 10103331,
+    "actionAttackedID": 10103334,
+    "actionAttackedBackID": 10103333,
+    "actionKnockUpID": -1,
+    "actionStunID": 10103340,
+    "actionDeadID": 10103332,
+    "actionVictoryID": -1,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 30000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 30000,
+    "hitAreaHalfWidth_SN": 80000,
+    "hitAreaHalfHeight_SN": 30000,
+    "canOverMaxSpeed": false,
+    "battleDes": "",
+    "safeInformation": "",
+    "unitInformation": "",
+    "enemyDrop": [],
+    "abilityList": [
+      {
+        "id": 12600935
+      },
+      {
+        "id": 12600934
+      },
+      {
+        "id": 12600939
+      },
+      {
+        "id": 12600933
+      },
+      {
+        "id": 12600938
+      },
+      {
+        "id": 12600903
+      }
+    ],
+    "weaknessList": [
+      {
+        "id": 12600993
+      }
+    ],
+    "resistanceList": [
+      {
+        "id": 12600992
+      },
+      {
+        "id": 12600991
+      },
+      {
+        "id": 12600989
+      },
+      {
+        "id": 12600972
+      }
+    ],
+    "enemyType": 12601048,
+    "enemyCamp": 12600221,
+    "enemyBookId": 10000502,
+    "prisonerDrop": [],
+    "enemySkillList": [
+      {
+        "id": 80304380
       }
     ]
   }
