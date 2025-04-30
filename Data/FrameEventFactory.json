@@ -36375,24 +36375,17 @@
   {
     "id": 10500458,
     "idCN": "我方/05五星/真咲/S召唤bot03",
-    "mod": "给自己上BUFF",
+    "mod": "添加Buff",
     "isInformalData": false,
-    "buffId": 10420232
+    "buffId": 10420232,
+    "targetType": "CurrentTarget"
   },
   {
     "id": 10500459,
     "idCN": "我方/05五星/真咲/S标记",
     "mod": "添加Buff",
     "isInformalData": false,
-    "buffId": 10420225,
-    "targetType": "CurrentTarget"
-  },
-  {
-    "id": 10500461,
-    "idCN": "我方/05五星/真咲/bot03/平移至目标",
-    "mod": "添加Buff",
-    "isInformalData": false,
-    "buffId": 10420238,
+    "buffId": 10420254,
     "targetType": "CurrentTarget"
   },
   {
@@ -36403,19 +36396,99 @@
     "buffId": 10420231
   },
   {
-    "id": 10500463,
-    "idCN": "我方/05五星/真咲/S附加监测buff",
+    "id": 10500464,
+    "idCN": "我方/05五星/真咲/普攻",
+    "mod": "子弹事件",
+    "isInformalData": false,
+    "buffId": 10420240,
+    "bulletId": 11200664,
+    "targetType": "CurrentTarget",
+    "offSetX_SN": 0,
+    "offSetZ_SN": 0,
+    "isUseTargetFilter": false,
+    "isIgnoreInvisibleEnemy": true,
+    "targetFilterType": "Ally",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 0,
+    "attributeType": "HpMax",
+    "condition": "Max",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 0
+  },
+  {
+    "id": 10502986,
+    "idCN": "我方/05五星/真咲/bot03/攻击",
     "mod": "添加Buff",
     "isInformalData": false,
-    "buffId": 10420236,
+    "buffId": 10420263,
     "targetType": "CurrentTarget"
   },
   {
-    "id": 10500464,
-    "idCN": "我方/05五星/真咲/普攻",
+    "id": 10503018,
+    "idCN": "我方/05五星/真咲/bot03/禁止普攻",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10405148
+  },
+  {
+    "id": 10503020,
+    "idCN": "我方/05五星/真咲/bot03/平移",
     "mod": "添加Buff",
     "isInformalData": false,
-    "buffId": 10400342,
+    "buffId": 10420255,
     "targetType": "CurrentTarget"
+  },
+  {
+    "id": 10500465,
+    "idCN": "我方/05五星/真咲/bot03/周期",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10420266
+  },
+  {
+    "id": 10503023,
+    "idCN": "我方/05五星/真咲/S雨滴特效",
+    "mod": "添加Buff",
+    "isInformalData": false,
+    "buffId": 10420258,
+    "targetType": "CurrentTarget"
+  },
+  {
+    "id": 10500461,
+    "idCN": "我方/15中立卡/无界之渊/伤害",
+    "mod": "子弹事件",
+    "isInformalData": false,
+    "buffId": 10420317,
+    "bulletId": 11200657,
+    "targetType": "CurrentTarget",
+    "offSetX_SN": 0,
+    "offSetZ_SN": 0,
+    "isUseTargetFilter": false,
+    "isIgnoreInvisibleEnemy": true,
+    "targetFilterType": "Ally",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 0,
+    "attributeType": "HpMax",
+    "condition": "Max",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 0
   }
 ]
