@@ -5037,7 +5037,7 @@
     "quality": "Golden",
     "ownExclusiveVoice": false,
     "isSpine2": 0,
-    "SkinDesc": "",
+    "SkinDesc": "瑞瓦的默认形态",
     "HomeresDir": "Home\\Character\\Dorm_Reeva\\Dorm_Reeva_SkeletonData",
     "singleUrl": "",
     "GetWay": "0",
@@ -5048,6 +5048,8 @@
     "offsetY2": 0.0,
     "squadsX": 0.0,
     "squadsY": 0.0,
+    "gachaX": 0.0,
+    "gachaY": 0.0,
     "spineX": 0.0,
     "spineY": 0.0,
     "spineScale": 1.0,
@@ -5062,7 +5064,7 @@
     "SpineBGY": 0.0,
     "SpineBGScale": 0.01,
     "State2Name": "共振形态",
-    "State2Desc": "",
+    "State2Desc": "瑞瓦的共振形态",
     "State2Face": "RolePlus/Reeva/State2_Face",
     "State2Gacha": "",
     "State2Res": "RolePlus/Reeva/State2_Full",
@@ -5094,7 +5096,8 @@
     "bookX": 0.0,
     "bookY": 0.0,
     "homeSkill": -1,
-    "SpineIdleListId": -1
+    "SpineIdleListId": -1,
+    "extraClickAnimationList": []
   },
   {
     "id": 11000052,
@@ -29730,6 +29733,8 @@
     "offsetY2": 0.0,
     "squadsX": 0.0,
     "squadsY": 0.0,
+    "gachaX": 0.0,
+    "gachaY": 0.0,
     "spineX": -90.0,
     "spineY": 0.0,
     "spineScale": 1.0,
@@ -29767,16 +29772,34 @@
     "profilePhotoID": 82600427,
     "State2profilePhotoID": -1,
     "rewardList": [],
-    "iconPath": "",
-    "tipsPath": "",
-    "ProfilePhotoList": [],
+    "iconPath": "Item/item/Small/skinbox",
+    "tipsPath": "Item/item/Big/skinbox",
+    "ProfilePhotoList": [
+      {
+        "id": 82600785,
+        "weight": 95
+      },
+      {
+        "id": 82600786,
+        "weight": 95
+      },
+      {
+        "id": 82600787,
+        "weight": 95
+      },
+      {
+        "id": 82600788,
+        "weight": 15
+      }
+    ],
     "skinBattlePass": -1,
     "bookHalf": "",
     "bookFull": "",
     "bookX": 0.0,
     "bookY": 0.0,
     "homeSkill": 83900184,
-    "SpineIdleListId": -1
+    "SpineIdleListId": -1,
+    "extraClickAnimationList": []
   },
   {
     "id": 11000346,
@@ -35086,6 +35109,8 @@
     "offsetY2": 0.0,
     "squadsX": 0.0,
     "squadsY": 0.0,
+    "gachaX": 0.0,
+    "gachaY": 0.0,
     "spineX": 0.0,
     "spineY": 0.0,
     "spineScale": 1.0,
@@ -35119,7 +35144,7 @@
     "blockJP": false,
     "blockTW": false,
     "blockEN": true,
-    "blockKR": true,
+    "blockKR": false,
     "profilePhotoID": 82600484,
     "State2profilePhotoID": -1,
     "rewardList": [],
@@ -35149,7 +35174,8 @@
     "bookX": 0.0,
     "bookY": 0.0,
     "homeSkill": 83900191,
-    "SpineIdleListId": -1
+    "SpineIdleListId": -1,
+    "extraClickAnimationList": []
   },
   {
     "id": 11000389,
@@ -51189,6 +51215,8 @@
     "offsetY2": 0.0,
     "squadsX": 0.0,
     "squadsY": 0.0,
+    "gachaX": 0.0,
+    "gachaY": 0.0,
     "spineX": 0.0,
     "spineY": 0.0,
     "spineScale": 1.0,
@@ -51225,7 +51253,12 @@
     "blockKR": true,
     "profilePhotoID": 82600683,
     "State2profilePhotoID": -1,
-    "rewardList": [],
+    "rewardList": [
+      {
+        "id": 11400005,
+        "num": 680
+      }
+    ],
     "iconPath": "Item/item/Small/skinbox",
     "tipsPath": "Item/item/Big/skinbox",
     "ProfilePhotoList": [
@@ -51252,7 +51285,8 @@
     "bookX": 0.0,
     "bookY": 0.0,
     "homeSkill": -1,
-    "SpineIdleListId": -1
+    "SpineIdleListId": -1,
+    "extraClickAnimationList": []
   },
   {
     "id": 11000538,
@@ -52277,7 +52311,7 @@
     "hpBarOffsetY": 3.0,
     "battleTagOffsetX": 0.0,
     "battleTagOffsetY": 3.0,
-    "resDir": "Role/Ushana/Ushana_SkeletonData",
+    "resDir": "Role/Ushana_Mao/Ushana_Mao_SkeletonData",
     "shadowID": 11100346,
     "shadowScale": 0.5,
     "userSpecialShadow": false,
@@ -52298,8 +52332,114 @@
     "spineUrl": "Spine/Portrait/LH_Ushana/LH_Ushana_SkeletonData",
     "clickEffectUrl": "",
     "plotResList": [],
-    "exchangeEffectList": [],
-    "exchangeBulletList": [],
+    "exchangeEffectList": [
+      {
+        "changeEffectId": 11104379,
+        "effectId": 11107181
+      },
+      {
+        "changeEffectId": 11104380,
+        "effectId": 11107150
+      },
+      {
+        "changeEffectId": 11104381,
+        "effectId": 11107151
+      },
+      {
+        "changeEffectId": 11104383,
+        "effectId": 11107185
+      },
+      {
+        "changeEffectId": 11104384,
+        "effectId": 11107152
+      },
+      {
+        "changeEffectId": 11104385,
+        "effectId": 11107183
+      },
+      {
+        "changeEffectId": 11104387,
+        "effectId": 11107178
+      },
+      {
+        "changeEffectId": 11104388,
+        "effectId": 11107186
+      },
+      {
+        "changeEffectId": 11104389,
+        "effectId": 11107190
+      },
+      {
+        "changeEffectId": 11104390,
+        "effectId": 11107182
+      },
+      {
+        "changeEffectId": 11104391,
+        "effectId": 11107184
+      },
+      {
+        "changeEffectId": 11104392,
+        "effectId": 11107187
+      },
+      {
+        "changeEffectId": 11104393,
+        "effectId": 11107148
+      },
+      {
+        "changeEffectId": 11104394,
+        "effectId": 11107149
+      },
+      {
+        "changeEffectId": 11104396,
+        "effectId": 11107180
+      },
+      {
+        "changeEffectId": 11104397,
+        "effectId": 11107179
+      },
+      {
+        "changeEffectId": 11104399,
+        "effectId": 11107177
+      }
+    ],
+    "exchangeBulletList": [
+      {
+        "bulletId": 11200615,
+        "changeBulletId": 11200159
+      },
+      {
+        "bulletId": 11200616,
+        "changeBulletId": 11200132
+      },
+      {
+        "bulletId": 11200625,
+        "changeBulletId": 11200053
+      },
+      {
+        "bulletId": 11200618,
+        "changeBulletId": 11200069
+      },
+      {
+        "bulletId": 11200619,
+        "changeBulletId": 11200005
+      },
+      {
+        "bulletId": 11200620,
+        "changeBulletId": 11200026
+      },
+      {
+        "bulletId": 11200621,
+        "changeBulletId": 11200071
+      },
+      {
+        "bulletId": 11200622,
+        "changeBulletId": 11200073
+      },
+      {
+        "bulletId": 11200617,
+        "changeBulletId": 11200154
+      }
+    ],
     "exchangeSoundList": [],
     "exchangeRolePathList": [],
     "character": 10000749,
@@ -52318,6 +52458,8 @@
     "offsetY2": 0.0,
     "squadsX": 0.0,
     "squadsY": 0.0,
+    "gachaX": 0.0,
+    "gachaY": 0.0,
     "spineX": 0.0,
     "spineY": 0.0,
     "spineScale": 1.0,
@@ -52364,7 +52506,8 @@
     "bookX": 0.0,
     "bookY": 0.0,
     "homeSkill": -1,
-    "SpineIdleListId": -1
+    "SpineIdleListId": -1,
+    "extraClickAnimationList": []
   },
   {
     "id": 11000546,
@@ -53570,6 +53713,8 @@
     "offsetY2": 0.0,
     "squadsX": 0.0,
     "squadsY": 0.0,
+    "gachaX": 0.0,
+    "gachaY": 0.0,
     "spineX": 0.0,
     "spineY": 0.0,
     "spineScale": 1.0,
@@ -53638,7 +53783,8 @@
     "bookX": 0.0,
     "bookY": 0.0,
     "homeSkill": -1,
-    "SpineIdleListId": -1
+    "SpineIdleListId": -1,
+    "extraClickAnimationList": []
   },
   {
     "id": 11000555,
@@ -54822,7 +54968,12 @@
     "blockKR": true,
     "profilePhotoID": 82600753,
     "State2profilePhotoID": -1,
-    "rewardList": [],
+    "rewardList": [
+      {
+        "id": 11400005,
+        "num": 680
+      }
+    ],
     "iconPath": "Item/item/Small/skinbox",
     "tipsPath": "Item/item/Big/skinbox",
     "ProfilePhotoList": [
@@ -56057,7 +56208,7 @@
   },
   {
     "id": 11000581,
-    "idCN": "学会迷宫/医者",
+    "idCN": "推力/医者",
     "mod": "Spine",
     "isInformalData": false,
     "hpBarOffsetX": 0.0,
@@ -56155,7 +56306,7 @@
   },
   {
     "id": 11000582,
-    "idCN": "学会迷宫/盾卫",
+    "idCN": "推力/盾卫",
     "mod": "Spine",
     "isInformalData": false,
     "hpBarOffsetX": 0.0,
@@ -56253,7 +56404,7 @@
   },
   {
     "id": 11000583,
-    "idCN": "学会迷宫/雷云",
+    "idCN": "推力/雷云",
     "mod": "Spine",
     "isInformalData": false,
     "hpBarOffsetX": 0.0,
@@ -56390,12 +56541,12 @@
     "isSpine2": 1,
     "SkinDesc": "真咲的默认形态",
     "HomeresDir": "Home/Character/Dorm_Masaki/Dorm_Masaki_SkeletonData",
-    "singleUrl": "RolePlus/Masaki/Full",
+    "singleUrl": "",
     "GetWay": "0",
-    "offsetX": -21.9,
-    "offsetY": -94.8,
-    "offsetScale": 0.943,
-    "offsetX2": -265.0,
+    "offsetX": 24.0,
+    "offsetY": -175.0,
+    "offsetScale": 1.08,
+    "offsetX2": -320.0,
     "offsetY2": 0.0,
     "squadsX": 0.0,
     "squadsY": 0.0,
@@ -57687,6 +57838,212 @@
     "blockTW": true,
     "blockEN": true,
     "blockKR": true,
+    "profilePhotoID": -1,
+    "State2profilePhotoID": -1,
+    "rewardList": [],
+    "iconPath": "",
+    "tipsPath": "",
+    "ProfilePhotoList": [],
+    "skinBattlePass": -1,
+    "bookHalf": "",
+    "bookFull": "",
+    "bookX": 0.0,
+    "bookY": 0.0,
+    "homeSkill": -1,
+    "SpineIdleListId": -1,
+    "extraClickAnimationList": []
+  },
+  {
+    "id": 11000595,
+    "idCN": "我方/05五星/瑞瓦/晴空漫步",
+    "mod": "Spine",
+    "isInformalData": false,
+    "hpBarOffsetX": 0.0,
+    "hpBarOffsetY": 3.0,
+    "battleTagOffsetX": 0.0,
+    "battleTagOffsetY": 3.0,
+    "resDir": "",
+    "shadowID": 11100346,
+    "shadowScale": 0.5,
+    "userSpecialShadow": false,
+    "shadowOffsetY": 0.0,
+    "shadowOffsetZ": 0.0,
+    "useSpecialBeHitColor": false,
+    "r": 255,
+    "g": 255,
+    "b": 255,
+    "a": 255,
+    "effectScale": 1.0,
+    "gachaVoice": -1,
+    "mainUIVoice": -1,
+    "face": "RolePlus/Reeva/Face",
+    "gacha": "RolePlus/Reeva/Gacha",
+    "resUrl": "RolePlus/Reeva/Full",
+    "roleListResUrl": "RolePlus/Reeva/Half",
+    "spineUrl": "",
+    "clickEffectUrl": "",
+    "plotResList": [
+      {
+        "plotResUrl": "RolePlus\\Reeva\\Full"
+      }
+    ],
+    "exchangeEffectList": [],
+    "exchangeBulletList": [],
+    "exchangeSoundList": [],
+    "exchangeRolePathList": [],
+    "character": 10000297,
+    "SkinName": "晴空漫步",
+    "quality": "Golden",
+    "ownExclusiveVoice": false,
+    "isSpine2": 0,
+    "SkinDesc": "瑞瓦和朋友们一同在篝火城打工时所穿的衣服。旅行的安排重在随心所欲，既然如此，停下来赚个旅费也没什么不好。",
+    "HomeresDir": "Home\\Character\\Dorm_Reeva\\Dorm_Reeva_SkeletonData",
+    "singleUrl": "",
+    "GetWay": "0",
+    "offsetX": 0.0,
+    "offsetY": 19.0,
+    "offsetScale": 1.0,
+    "offsetX2": 0.0,
+    "offsetY2": 0.0,
+    "squadsX": 0.0,
+    "squadsY": 0.0,
+    "gachaX": 0.0,
+    "gachaY": 0.0,
+    "spineX": 0.0,
+    "spineY": 0.0,
+    "spineScale": 1.0,
+    "squadsHalf1": "RolePlus/Reeva/Squads_Half1",
+    "extraSpineList": [],
+    "clickEffectLayer": "Front",
+    "frontFixEffectUrl": "",
+    "bottomFixEffectUrl": "",
+    "clickHideFixEffect": "None",
+    "SpineBackground": "",
+    "SpineBGX": 0.0,
+    "SpineBGY": 0.0,
+    "SpineBGScale": 0.01,
+    "State2Name": "",
+    "State2Desc": "",
+    "State2Face": "",
+    "State2Gacha": "",
+    "State2Res": "",
+    "State2RoleListRes": "",
+    "squadsHalf2": "",
+    "gachaSpine2Url": "",
+    "spine2Url": "",
+    "gachaPerformUrl": "",
+    "spine2EffectUrl": "",
+    "spine2BgUrl": "",
+    "state2Overturn": false,
+    "spine2Scale": 125.0,
+    "spine2X": 0.0,
+    "spine2Y": 0.0,
+    "blockCN": false,
+    "blockJP": true,
+    "blockTW": true,
+    "blockEN": true,
+    "blockKR": true,
+    "profilePhotoID": 82600784,
+    "State2profilePhotoID": -1,
+    "rewardList": [],
+    "iconPath": "",
+    "tipsPath": "",
+    "ProfilePhotoList": [],
+    "skinBattlePass": -1,
+    "bookHalf": "",
+    "bookFull": "",
+    "bookX": 0.0,
+    "bookY": 0.0,
+    "homeSkill": -1,
+    "SpineIdleListId": -1,
+    "extraClickAnimationList": []
+  },
+  {
+    "id": 11000596,
+    "idCN": "推力/辉蚀之月",
+    "mod": "Spine",
+    "isInformalData": false,
+    "hpBarOffsetX": 0.0,
+    "hpBarOffsetY": 3.0,
+    "battleTagOffsetX": 0.0,
+    "battleTagOffsetY": 3.0,
+    "resDir": "Role/Empty/Empty_SkeletonData",
+    "shadowID": 11100346,
+    "shadowScale": 0.5,
+    "userSpecialShadow": false,
+    "shadowOffsetY": 0.0,
+    "shadowOffsetZ": 0.0,
+    "useSpecialBeHitColor": false,
+    "r": 255,
+    "g": 255,
+    "b": 255,
+    "a": 255,
+    "effectScale": 1.0,
+    "gachaVoice": -1,
+    "mainUIVoice": -1,
+    "face": "",
+    "gacha": "",
+    "resUrl": "",
+    "roleListResUrl": "",
+    "spineUrl": "",
+    "clickEffectUrl": "",
+    "plotResList": [],
+    "exchangeEffectList": [],
+    "exchangeBulletList": [],
+    "exchangeSoundList": [],
+    "exchangeRolePathList": [],
+    "character": 10000819,
+    "SkinName": "",
+    "quality": "Blue",
+    "ownExclusiveVoice": false,
+    "isSpine2": 0,
+    "SkinDesc": "",
+    "HomeresDir": "",
+    "singleUrl": "",
+    "GetWay": "-1",
+    "offsetX": 0.0,
+    "offsetY": -315.0,
+    "offsetScale": 1.0,
+    "offsetX2": 0.0,
+    "offsetY2": 0.0,
+    "squadsX": 0.0,
+    "squadsY": 0.0,
+    "gachaX": 0.0,
+    "gachaY": 0.0,
+    "spineX": 0.0,
+    "spineY": 0.0,
+    "spineScale": 1.0,
+    "squadsHalf1": "",
+    "extraSpineList": [],
+    "clickEffectLayer": "Front",
+    "frontFixEffectUrl": "",
+    "bottomFixEffectUrl": "",
+    "clickHideFixEffect": "None",
+    "SpineBackground": "",
+    "SpineBGX": 0.0,
+    "SpineBGY": 0.0,
+    "SpineBGScale": 0.01,
+    "State2Name": "",
+    "State2Desc": "",
+    "State2Face": "",
+    "State2Gacha": "",
+    "State2Res": "",
+    "State2RoleListRes": "",
+    "squadsHalf2": "",
+    "gachaSpine2Url": "",
+    "spine2Url": "",
+    "gachaPerformUrl": "",
+    "spine2EffectUrl": "",
+    "spine2BgUrl": "",
+    "state2Overturn": false,
+    "spine2Scale": 125.0,
+    "spine2X": 0.0,
+    "spine2Y": 0.0,
+    "blockCN": false,
+    "blockJP": false,
+    "blockTW": false,
+    "blockEN": false,
+    "blockKR": false,
     "profilePhotoID": -1,
     "State2profilePhotoID": -1,
     "rewardList": [],

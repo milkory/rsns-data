@@ -11388,7 +11388,7 @@
     "isNoCD": false,
     "isUseInHand": false,
     "isNotDiscard": false,
-    "iconPath": "RolePlus\\02Common\\skillicon\\00Cheng",
+    "iconPath": "RolePlus/Masaki/skillicon/C",
     "backPath": "",
     "roleImgPath": "",
     "color": "Orange",
@@ -27762,7 +27762,7 @@
     "cost_SN": 20000,
     "inhandBuffId": -1,
     "inhandOverBuffId": -1,
-    "startBuffId": 10420392,
+    "startBuffId": 10418699,
     "discardBuffId": -1,
     "discardBySkillBuffId": -1,
     "banishBuffId": -1,
@@ -27788,7 +27788,13 @@
     ],
     "tagOutsideList": [],
     "deriveCardList": [],
-    "cardAIActionList": [],
+    "cardAIActionList": [
+      {
+        "actionId": 96300003,
+        "conditionId": -1,
+        "weight": 1
+      }
+    ],
     "ExCondList": [],
     "ExActList": [],
     "linkCardId": []
@@ -27814,7 +27820,7 @@
     "cost_SN": 50000,
     "inhandBuffId": -1,
     "inhandOverBuffId": -1,
-    "startBuffId": -1,
+    "startBuffId": 10420414,
     "discardBuffId": -1,
     "discardBySkillBuffId": -1,
     "banishBuffId": -1,
@@ -27846,7 +27852,11 @@
     "cardAIActionList": [],
     "ExCondList": [],
     "ExActList": [],
-    "linkCardId": []
+    "linkCardId": [
+      {
+        "Id": 10600457
+      }
+    ]
   },
   {
     "id": 10600423,
@@ -27869,7 +27879,7 @@
     "cost_SN": 20000,
     "inhandBuffId": -1,
     "inhandOverBuffId": -1,
-    "startBuffId": 10420392,
+    "startBuffId": 10418699,
     "discardBuffId": -1,
     "discardBySkillBuffId": -1,
     "banishBuffId": -1,
@@ -27895,9 +27905,28 @@
     ],
     "tagOutsideList": [],
     "deriveCardList": [],
-    "cardAIActionList": [],
+    "cardAIActionList": [
+      {
+        "actionId": 96300009,
+        "conditionId": -1,
+        "weight": 1
+      }
+    ],
     "ExCondList": [],
-    "ExActList": [],
+    "ExActList": [
+      {
+        "condId": 96300003,
+        "des": 80608013
+      },
+      {
+        "condId": 96300009,
+        "des": 80610277
+      },
+      {
+        "condId": 96300010,
+        "des": 80610278
+      }
+    ],
     "linkCardId": []
   },
   {
@@ -27950,7 +27979,11 @@
     "cardAIActionList": [],
     "ExCondList": [],
     "ExActList": [],
-    "linkCardId": []
+    "linkCardId": [
+      {
+        "Id": 10600450
+      }
+    ]
   },
   {
     "id": 10600426,
@@ -28055,30 +28088,82 @@
   },
   {
     "id": 10600450,
-    "idCN": "00原版/05五星/真咲/C",
+    "idCN": "00原版/05五星/真咲/B_共振2",
     "mod": "基础卡牌",
     "isInformalData": false,
-    "name": "无界之渊",
+    "name": "战车",
     "isCutIn": false,
     "isUseSingleTarget": false,
     "isNoCD": false,
     "isUseInHand": false,
     "isNotDiscard": false,
-    "iconPath": "RolePlus/Masaki/skillicon/S",
+    "iconPath": "RolePlus/Masaki/skillicon/B",
     "backPath": "",
     "roleImgPath": "",
-    "color": "Orange",
+    "color": "Purple",
     "cardType": "Normal",
     "sameCardGroupId": -1,
-    "actionId": 10104169,
-    "cost_SN": 50000,
+    "actionId": 10104163,
+    "cost_SN": 30000,
     "inhandBuffId": -1,
     "inhandOverBuffId": -1,
     "startBuffId": -1,
     "discardBuffId": -1,
     "discardBySkillBuffId": -1,
     "banishBuffId": -1,
-    "atkAreaType": "Direction",
+    "atkAreaType": "Self",
+    "atkAreaColor": "Green",
+    "targetColor": "Normal",
+    "disappearEffectId": 11100047,
+    "appearEffectId": 11100046,
+    "createEffectId": 11100106,
+    "destroyEffectId": -1,
+    "createTweenDelay": 30,
+    "isCostX": false,
+    "tagList": [
+      {
+        "tagId": 12600073
+      },
+      {
+        "tagId": 12601723
+      },
+      {
+        "tagId": 12601730
+      }
+    ],
+    "tagOutsideList": [],
+    "deriveCardList": [],
+    "cardAIActionList": [],
+    "ExCondList": [],
+    "ExActList": [],
+    "linkCardId": []
+  },
+  {
+    "id": 10600457,
+    "idCN": "00原版/05五星/真咲/S_觉醒2",
+    "mod": "基础卡牌",
+    "isInformalData": false,
+    "name": "恶魔",
+    "isCutIn": true,
+    "isUseSingleTarget": true,
+    "isNoCD": false,
+    "isUseInHand": false,
+    "isNotDiscard": false,
+    "iconPath": "RolePlus/Masaki/skillicon/S",
+    "backPath": "",
+    "roleImgPath": "",
+    "color": "Purple",
+    "cardType": "Normal",
+    "sameCardGroupId": -1,
+    "actionId": 10104169,
+    "cost_SN": 50000,
+    "inhandBuffId": -1,
+    "inhandOverBuffId": -1,
+    "startBuffId": 10420414,
+    "discardBuffId": -1,
+    "discardBySkillBuffId": -1,
+    "banishBuffId": -1,
+    "atkAreaType": "Single",
     "atkAreaColor": "Yellow",
     "targetColor": "AttackTest",
     "disappearEffectId": 11100047,
@@ -28089,10 +28174,16 @@
     "isCostX": false,
     "tagList": [
       {
-        "tagId": 12600111
+        "tagId": 12600007
       },
       {
-        "tagId": 12601725
+        "tagId": 12600073
+      },
+      {
+        "tagId": 12601722
+      },
+      {
+        "tagId": 12601730
       }
     ],
     "tagOutsideList": [],

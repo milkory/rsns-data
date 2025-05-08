@@ -9439,6 +9439,10 @@
         "weight": 1
       },
       {
+        "id": 40201401,
+        "weight": 1
+      },
+      {
         "id": 40200960,
         "weight": 1
       },
@@ -12578,8 +12582,12 @@
     "unlockConditions": false,
     "conditions": -1,
     "maxShopNum": 20,
-    "autoRefresh": false,
-    "refreshTimeList": [],
+    "autoRefresh": true,
+    "refreshTimeList": [
+      {
+        "refreshTime": "05:00:00"
+      }
+    ],
     "moneyList": [],
     "freeRefreshNum": 0,
     "pngSelect": "UI/Home/HomeStore/chuang_select",
@@ -12694,14 +12702,14 @@
     "rewardList": [],
     "isStationRefresh": false,
     "capacityType": [],
-    "refreshType": "Daily",
+    "refreshType": "Monthly",
     "isTime": false,
     "startTime": "2023-04-01 00:00:00",
     "endTime": "2099-01-01 23:59:59",
     "currencyShow": [
       {
         "click": "Tips",
-        "id": 11400437
+        "id": 11400672
       }
     ]
   }
