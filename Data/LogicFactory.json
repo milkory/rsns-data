@@ -2086,5 +2086,18 @@
     "returnType": "int",
     "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rset $battleControlManager\r\rgetp curGSBuff\rset $curBuff\r\rgetp snapshot\rset $snapshot\r\rgetp targetCard\rset $targetCard\rif\r    getp cardProperty\r    if\r        getp property\r        if\r            getp propertyDic\r            if\r                set $cpropertyDic\r                callWith $snapshot SetParams $cpropertyDic $true\r            endif\r        endif\r    endif\rendif\r\rret 0",
     "cacheAsGMF": true
+  },
+  {
+    "id": 60000154,
+    "idCN": "卡牌/功能节点/寻找队长",
+    "mod": "执行GS脚本",
+    "isInformalData": false,
+    "debug": false,
+    "autoRecycle": false,
+    "memo": "寻找队长",
+    "paramHelp": "",
+    "returnType": "bool",
+    "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rset $bcm\rgetp rtUnitList\rset $rtUnitList\r\rif\r\tget $bcm\r    getp currentPlayerTeamData\r    getp cardSystem\r    getp leaderCard\r    getp card\r    getp owner\r    set $leader\r    if\r        getp isAlive\r        if\r            callWith $rtUnitList Clear\r            callWith $rtUnitList Add $leader\r        endif\r    endif\rendif\r\rret $true",
+    "cacheAsGMF": true
   }
 ]
