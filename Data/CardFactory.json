@@ -11388,7 +11388,7 @@
     "isNoCD": false,
     "isUseInHand": false,
     "isNotDiscard": false,
-    "iconPath": "RolePlus/Masaki/skillicon/C",
+    "iconPath": "RolePlus/02Common/skillicon/WuJieZhiYuan",
     "backPath": "",
     "roleImgPath": "",
     "color": "Orange",
@@ -23479,7 +23479,7 @@
     "mod": "基础卡牌",
     "isInformalData": false,
     "name": "精神风暴",
-    "isCutIn": false,
+    "isCutIn": true,
     "isUseSingleTarget": false,
     "isNoCD": false,
     "isUseInHand": false,
@@ -23525,7 +23525,8 @@
     "deriveCardList": [],
     "cardAIActionList": [],
     "ExCondList": [],
-    "ExActList": []
+    "ExActList": [],
+    "linkCardId": []
   },
   {
     "id": 10600389,
@@ -27796,7 +27797,16 @@
       }
     ],
     "ExCondList": [],
-    "ExActList": [],
+    "ExActList": [
+      {
+        "condId": 96300003,
+        "des": 80608013
+      },
+      {
+        "condId": 96300007,
+        "des": 80608012
+      }
+    ],
     "linkCardId": []
   },
   {
@@ -27839,6 +27849,9 @@
       },
       {
         "tagId": 12600073
+      },
+      {
+        "tagId": 12600001
       },
       {
         "tagId": 12601722
@@ -27901,6 +27914,9 @@
       },
       {
         "tagId": 12601719
+      },
+      {
+        "tagId": 12600001
       }
     ],
     "tagOutsideList": [],
@@ -27925,6 +27941,10 @@
       {
         "condId": 96300010,
         "des": 80610278
+      },
+      {
+        "condId": 96300007,
+        "des": 80608012
       }
     ],
     "linkCardId": []
@@ -27969,6 +27989,9 @@
       },
       {
         "tagId": 12601723
+      },
+      {
+        "tagId": 12600001
       },
       {
         "tagId": 12601730
@@ -28059,9 +28082,9 @@
     "discardBuffId": -1,
     "discardBySkillBuffId": -1,
     "banishBuffId": -1,
-    "atkAreaType": "Direction",
+    "atkAreaType": "Self",
     "atkAreaColor": "Yellow",
-    "targetColor": "AttackTest",
+    "targetColor": "Normal",
     "disappearEffectId": 11100047,
     "appearEffectId": 11100046,
     "createEffectId": 11100106,
@@ -28128,6 +28151,9 @@
         "tagId": 12601723
       },
       {
+        "tagId": 12600001
+      },
+      {
         "tagId": 12601730
       }
     ],
@@ -28180,6 +28206,9 @@
         "tagId": 12600073
       },
       {
+        "tagId": 12600001
+      },
+      {
         "tagId": 12601722
       },
       {
@@ -28204,7 +28233,7 @@
     "isNoCD": false,
     "isUseInHand": false,
     "isNotDiscard": false,
-    "iconPath": "RolePlus/Masaki/skillicon/D",
+    "iconPath": "RolePlus/Masaki/skillicon/C",
     "backPath": "",
     "roleImgPath": "",
     "color": "Purple",

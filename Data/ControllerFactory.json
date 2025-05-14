@@ -1435,11 +1435,7 @@
     "targetInvisibleEffectId": -1,
     "effectOffsetX": 0.0,
     "effectOffsetY": 0.0,
-    "actionList": [
-      {
-        "actionID": -1
-      }
-    ],
+    "actionList": [],
     "normalAttackCritID": -1,
     "skillList": [],
     "isInvisibleBeforeShowUp": false,
@@ -1450,7 +1446,10 @@
     "enemySkillList": [],
     "isUseEnergy": false,
     "energySkillList": [],
-    "energyRestorePerFrameSN": 0
+    "energyRestorePerFrameSN": 0,
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
   },
   {
     "id": 10300265,
@@ -15918,7 +15917,7 @@
         "rangeSN": -10000
       }
     ],
-    "energyRestorePerFrameSN": 560,
+    "energyRestorePerFrameSN": 500,
     "isSkillDelay": false,
     "minDelay": 360,
     "maxDelay": 360
@@ -24583,7 +24582,7 @@
   },
   {
     "id": 10300595,
-    "idCN": "推力/盾卫",
+    "idCN": "推力/磐石之垣",
     "mod": "基础AI",
     "isInformalData": false,
     "targetInvisibleEffectId": -1,
@@ -24662,7 +24661,7 @@
     "skillList": [],
     "isInvisibleBeforeShowUp": false,
     "showupSkillList": [],
-    "skillLoopDelayFrame": 1,
+    "skillLoopDelayFrame": -1,
     "shapeShiftList": [],
     "commandList": [],
     "enemySkillList": [],
@@ -24810,7 +24809,7 @@
         "rangeSN": 240000
       },
       {
-        "actionId": 10102553,
+        "actionId": 10102552,
         "activeFrame": 660,
         "activeTime": 11.0,
         "rangeSN": 240000
@@ -24850,7 +24849,7 @@
     ],
     "normalAttackCritID": -1,
     "skillList": [],
-    "isInvisibleBeforeShowUp": false,
+    "isInvisibleBeforeShowUp": true,
     "showupSkillList": [
       {
         "actionId": 10104147
@@ -24982,10 +24981,10 @@
     ],
     "normalAttackCritID": -1,
     "skillList": [],
-    "isInvisibleBeforeShowUp": false,
+    "isInvisibleBeforeShowUp": true,
     "showupSkillList": [
       {
-        "actionId": 10104199
+        "actionId": 10104216
       }
     ],
     "skillLoopDelayFrame": 0,
