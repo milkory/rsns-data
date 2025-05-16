@@ -332,7 +332,7 @@
   },
   {
     "id": 10000020,
-    "idCN": "00我方/09召唤物/瑞瓦/Bot2",
+    "idCN": "00我方/09召唤物/瑞瓦/bot02",
     "mod": "召唤物",
     "isInformalData": false,
     "name": "科劳",
@@ -353,6 +353,9 @@
         "tagId": 12600139
       },
       {
+        "tagId": 12600001
+      },
+      {
         "tagId": 12600048
       },
       {
@@ -366,23 +369,23 @@
     "hp_SN": 10000,
     "def_SN": 0,
     "atk_SN": 0,
-    "atkSpeed_SN": 0,
+    "atkSpeed_SN": 1000000,
     "luck_SN": 0,
     "line": 3,
     "subLine": 0,
     "costRestore_SN": 0,
-    "actionStandID": 10100131,
-    "actionMoveID": 10100090,
-    "actionAttackedID": 10100094,
-    "actionAttackedBackID": 10100094,
-    "actionKnockUpID": -1,
-    "actionStunID": 10100091,
-    "actionDeadID": 10100093,
-    "actionVictoryID": -1,
+    "actionStandID": 10104241,
+    "actionMoveID": 10104243,
+    "actionAttackedID": 10104249,
+    "actionAttackedBackID": 10104249,
+    "actionKnockUpID": 10104246,
+    "actionStunID": 10104246,
+    "actionDeadID": 10104242,
+    "actionVictoryID": 10104247,
     "isNeutral": false,
-    "isCantBeHit": false,
+    "isCantBeHit": true,
     "isImmuneAlly": false,
-    "isImmuneEnemy": false,
+    "isImmuneEnemy": true,
     "ownerDeadAddBuffID": -1,
     "deadAddBuffToOwner": -1,
     "fightEndBuffId": -1,
@@ -7208,7 +7211,7 @@
   },
   {
     "id": 10000297,
-    "idCN": "00我方/50未上线/05五星/瑞瓦",
+    "idCN": "00我方/05五星/瑞瓦",
     "mod": "玩家角色",
     "isInformalData": false,
     "name": "瑞瓦",
@@ -7241,7 +7244,14 @@
         "tagId": 12600067
       }
     ],
-    "passiveSkillList": [],
+    "passiveSkillList": [
+      {
+        "skillId": 12303598
+      },
+      {
+        "skillId": 12303213
+      }
+    ],
     "hp_SN": 80000000,
     "def_SN": 750000,
     "atk_SN": 850000,
@@ -7348,14 +7358,14 @@
         "num": 1
       }
     ],
-    "actionStandID": -1,
-    "actionMoveID": -1,
-    "actionAttackedID": -1,
-    "actionAttackedBackID": -1,
-    "actionKnockUpID": -1,
-    "actionStunID": -1,
-    "actionDeadID": -1,
-    "actionVictoryID": -1,
+    "actionStandID": 10104217,
+    "actionMoveID": 10104219,
+    "actionAttackedID": 10104221,
+    "actionAttackedBackID": 10104205,
+    "actionKnockUpID": 10104214,
+    "actionStunID": 10104214,
+    "actionDeadID": 10104220,
+    "actionVictoryID": 10104126,
     "hitPointX_SN": 0,
     "hitPointY_SN": 15000,
     "hitAreaX_SN": 0,
@@ -7363,6 +7373,7 @@
     "hitAreaHalfWidth_SN": 5000,
     "hitAreaHalfHeight_SN": 10000,
     "canOverMaxSpeed": false,
+    "finalSkill": -1,
     "decomposeRewardList": [
       {
         "id": 11400017,
@@ -7447,6 +7458,8 @@
     "StoryList": [],
     "CvName": "",
     "getCharacter": "我是瑞瓦，这个孩子是科劳。啊，奇怪，为什么科劳没有反应呢。",
+    "teamUzlShow": false,
+    "teamUzl": "",
     "safeInformation": "",
     "unitInformation": ""
   },
@@ -8510,7 +8523,7 @@
   },
   {
     "id": 10000005,
-    "idCN": "00我方/09召唤物/瑞瓦/Bot1",
+    "idCN": "00我方/09召唤物/瑞瓦/bot01",
     "mod": "召唤物",
     "isInformalData": false,
     "name": "塔隆",
@@ -8525,10 +8538,13 @@
     "isFly": false,
     "originFlyYSN": 0,
     "randomOffsetFlyYSN": 0,
-    "flyOnStraight": false,
+    "flyOnStraight": true,
     "tagList": [
       {
         "tagId": 12600139
+      },
+      {
+        "tagId": 12600001
       },
       {
         "tagId": 12600048
@@ -8544,23 +8560,23 @@
     "hp_SN": 10000,
     "def_SN": 0,
     "atk_SN": 0,
-    "atkSpeed_SN": 0,
+    "atkSpeed_SN": 1000000,
     "luck_SN": 0,
-    "line": 0,
+    "line": 1,
     "subLine": 0,
     "costRestore_SN": 0,
-    "actionStandID": 10100132,
-    "actionMoveID": 10100089,
-    "actionAttackedID": 10100084,
-    "actionAttackedBackID": 10100084,
-    "actionKnockUpID": -1,
-    "actionStunID": 10100085,
-    "actionDeadID": 10100086,
-    "actionVictoryID": -1,
+    "actionStandID": 10104226,
+    "actionMoveID": 10104227,
+    "actionAttackedID": 10104236,
+    "actionAttackedBackID": 10104236,
+    "actionKnockUpID": 10104237,
+    "actionStunID": 10104237,
+    "actionDeadID": 10104228,
+    "actionVictoryID": 10104239,
     "isNeutral": false,
-    "isCantBeHit": false,
+    "isCantBeHit": true,
     "isImmuneAlly": false,
-    "isImmuneEnemy": false,
+    "isImmuneEnemy": true,
     "ownerDeadAddBuffID": -1,
     "deadAddBuffToOwner": -1,
     "fightEndBuffId": -1,
@@ -48304,10 +48320,16 @@
         "id": 12600930
       },
       {
-        "id": 12600933
+        "id": 12600942
+      },
+      {
+        "id": 12600904
       },
       {
         "id": 12601175
+      },
+      {
+        "id": 12600925
       }
     ],
     "weaknessList": [],
@@ -134814,949 +134836,11 @@
     ]
   },
   {
-    "id": 10000781,
-    "idCN": "无限深渊/01期/佚亡之誓-阶段1",
-    "mod": "敌方角色",
-    "isInformalData": false,
-    "name": "佚亡之誓",
-    "EnglishName": "",
-    "viewId": 11000376,
-    "skinList": [],
-    "sideId": 12600910,
-    "controllerId": 10300423,
-    "bulletControllerList": [
-      {
-        "controllerId": 13400010
-      }
-    ],
-    "isBoss": true,
-    "bossHpTemp": 90100010,
-    "isDeadNotDisappear": false,
-    "isFly": false,
-    "originFlyYSN": 0,
-    "randomOffsetFlyYSN": 0,
-    "flyOnStraight": false,
-    "classifyTagList": [],
-    "tagList": [
-      {
-        "tagId": 12600246
-      },
-      {
-        "tagId": 12600278
-      },
-      {
-        "tagId": 12600473
-      }
-    ],
-    "passiveSkillList": [
-      {
-        "skillId": 12301506
-      },
-      {
-        "skillId": 12301511
-      },
-      {
-        "skillId": 12301441
-      },
-      {
-        "skillId": 12301449
-      },
-      {
-        "skillId": 12301423
-      },
-      {
-        "skillId": 12301421
-      },
-      {
-        "skillId": 12301418
-      },
-      {
-        "skillId": 12301747
-      },
-      {
-        "skillId": 12301780
-      },
-      {
-        "skillId": 12302063
-      }
-    ],
-    "hp_SN": 2400000000,
-    "def_SN": 760000,
-    "atk_SN": 880000,
-    "atkSpeed_SN": 1000000,
-    "luck_SN": 0,
-    "spName": "",
-    "specialGiftDes": "",
-    "quality": "oneStar",
-    "allSkillList": [],
-    "skillList": [],
-    "noUpgradeSkillList": [],
-    "equipmentSlotList": [],
-    "growthId": 12000388,
-    "growthTagList": [
-      {
-        "growthTagId": 12000353
-      },
-      {
-        "growthTagId": 12000060
-      }
-    ],
-    "skillLvUpList": [],
-    "breakthroughList": [],
-    "awakeList": [
-      {
-        "awakeId": 12200403
-      },
-      {
-        "awakeId": 12200404
-      },
-      {
-        "awakeId": 12200408
-      },
-      {
-        "awakeId": 12200405
-      },
-      {
-        "awakeId": 12200406
-      },
-      {
-        "awakeId": 12200407
-      }
-    ],
-    "talentList": [
-      {
-        "talentId": 12800292
-      },
-      {
-        "talentId": 12800293
-      },
-      {
-        "talentId": 12800294
-      },
-      {
-        "talentId": 12800295
-      },
-      {
-        "talentId": 12800296
-      }
-    ],
-    "rewardList": [],
-    "actionStandID": 10103110,
-    "actionMoveID": 10103109,
-    "actionAttackedID": 10101081,
-    "actionAttackedBackID": 10101332,
-    "actionKnockUpID": -1,
-    "actionStunID": 10103115,
-    "actionDeadID": 10103108,
-    "actionVictoryID": -1,
-    "hitPointX_SN": 0,
-    "hitPointY_SN": 30000,
-    "hitAreaX_SN": 0,
-    "hitAreaY_SN": 30000,
-    "hitAreaHalfWidth_SN": 13000,
-    "hitAreaHalfHeight_SN": 30000,
-    "canOverMaxSpeed": false,
-    "battleDes": "",
-    "safeInformation": "",
-    "unitInformation": "",
-    "enemyDrop": [],
-    "abilityList": [
-      {
-        "id": 12600933
-      },
-      {
-        "id": 12601007
-      },
-      {
-        "id": 12600923
-      },
-      {
-        "id": 12600930
-      },
-      {
-        "id": 12600927
-      }
-    ],
-    "weaknessList": [
-      {
-        "id": 12600978
-      },
-      {
-        "id": 12601008
-      }
-    ],
-    "resistanceList": [
-      {
-        "id": 12600972
-      },
-      {
-        "id": 12600965
-      },
-      {
-        "id": 12600956
-      },
-      {
-        "id": 12600968
-      },
-      {
-        "id": 12600992
-      }
-    ],
-    "enemyType": 12601048,
-    "enemyCamp": 12600237,
-    "enemyBookId": 10000399,
-    "prisonerDrop": [],
-    "enemySkillList": [
-      {
-        "id": 80306680
-      }
-    ]
-  },
-  {
-    "id": 10000782,
-    "idCN": "无限深渊/01期/佚亡之誓-阶段2",
-    "mod": "敌方角色",
-    "isInformalData": false,
-    "name": "佚亡之誓",
-    "EnglishName": "",
-    "viewId": 11000376,
-    "skinList": [],
-    "sideId": 12600910,
-    "controllerId": 10300423,
-    "bulletControllerList": [
-      {
-        "controllerId": 13400010
-      }
-    ],
-    "isBoss": true,
-    "bossHpTemp": 90100010,
-    "isDeadNotDisappear": false,
-    "isFly": false,
-    "originFlyYSN": 0,
-    "randomOffsetFlyYSN": 0,
-    "flyOnStraight": false,
-    "classifyTagList": [],
-    "tagList": [
-      {
-        "tagId": 12600246
-      },
-      {
-        "tagId": 12600278
-      },
-      {
-        "tagId": 12600473
-      }
-    ],
-    "passiveSkillList": [
-      {
-        "skillId": 12301506
-      },
-      {
-        "skillId": 12301511
-      },
-      {
-        "skillId": 12301441
-      },
-      {
-        "skillId": 12301449
-      },
-      {
-        "skillId": 12301423
-      },
-      {
-        "skillId": 12301421
-      },
-      {
-        "skillId": 12301418
-      },
-      {
-        "skillId": 12301747
-      },
-      {
-        "skillId": 12301780
-      },
-      {
-        "skillId": 12302063
-      },
-      {
-        "skillId": 12303464
-      }
-    ],
-    "hp_SN": 2400000000,
-    "def_SN": 760000,
-    "atk_SN": 880000,
-    "atkSpeed_SN": 1000000,
-    "luck_SN": 0,
-    "spName": "",
-    "specialGiftDes": "",
-    "quality": "oneStar",
-    "allSkillList": [],
-    "skillList": [],
-    "noUpgradeSkillList": [],
-    "equipmentSlotList": [],
-    "growthId": 12000388,
-    "growthTagList": [
-      {
-        "growthTagId": 12000353
-      },
-      {
-        "growthTagId": 12000060
-      }
-    ],
-    "skillLvUpList": [],
-    "breakthroughList": [],
-    "awakeList": [
-      {
-        "awakeId": 12200403
-      },
-      {
-        "awakeId": 12200404
-      },
-      {
-        "awakeId": 12200408
-      },
-      {
-        "awakeId": 12200405
-      },
-      {
-        "awakeId": 12200406
-      },
-      {
-        "awakeId": 12200407
-      }
-    ],
-    "talentList": [
-      {
-        "talentId": 12800292
-      },
-      {
-        "talentId": 12800293
-      },
-      {
-        "talentId": 12800294
-      },
-      {
-        "talentId": 12800295
-      },
-      {
-        "talentId": 12800296
-      }
-    ],
-    "rewardList": [],
-    "actionStandID": 10103110,
-    "actionMoveID": 10103109,
-    "actionAttackedID": 10101081,
-    "actionAttackedBackID": 10101332,
-    "actionKnockUpID": -1,
-    "actionStunID": 10103115,
-    "actionDeadID": 10103108,
-    "actionVictoryID": -1,
-    "hitPointX_SN": 0,
-    "hitPointY_SN": 30000,
-    "hitAreaX_SN": 0,
-    "hitAreaY_SN": 30000,
-    "hitAreaHalfWidth_SN": 13000,
-    "hitAreaHalfHeight_SN": 30000,
-    "canOverMaxSpeed": false,
-    "battleDes": "",
-    "safeInformation": "",
-    "unitInformation": "",
-    "enemyDrop": [],
-    "abilityList": [
-      {
-        "id": 12600933
-      },
-      {
-        "id": 12601007
-      },
-      {
-        "id": 12600923
-      },
-      {
-        "id": 12600930
-      },
-      {
-        "id": 12600927
-      }
-    ],
-    "weaknessList": [
-      {
-        "id": 12600978
-      },
-      {
-        "id": 12601008
-      }
-    ],
-    "resistanceList": [
-      {
-        "id": 12600972
-      },
-      {
-        "id": 12600965
-      },
-      {
-        "id": 12600956
-      },
-      {
-        "id": 12600968
-      },
-      {
-        "id": 12600992
-      }
-    ],
-    "enemyType": 12601048,
-    "enemyCamp": 12600237,
-    "enemyBookId": 10000399,
-    "prisonerDrop": [],
-    "enemySkillList": [
-      {
-        "id": 80306683
-      }
-    ]
-  },
-  {
-    "id": 10000783,
-    "idCN": "无限深渊/01期/佚亡之誓-阶段3",
-    "mod": "敌方角色",
-    "isInformalData": false,
-    "name": "佚亡之誓",
-    "EnglishName": "",
-    "viewId": 11000376,
-    "skinList": [],
-    "sideId": 12600910,
-    "controllerId": 10300423,
-    "bulletControllerList": [
-      {
-        "controllerId": 13400010
-      }
-    ],
-    "isBoss": true,
-    "bossHpTemp": 90100010,
-    "isDeadNotDisappear": false,
-    "isFly": false,
-    "originFlyYSN": 0,
-    "randomOffsetFlyYSN": 0,
-    "flyOnStraight": false,
-    "classifyTagList": [],
-    "tagList": [
-      {
-        "tagId": 12600246
-      },
-      {
-        "tagId": 12600278
-      },
-      {
-        "tagId": 12600473
-      }
-    ],
-    "passiveSkillList": [
-      {
-        "skillId": 12301506
-      },
-      {
-        "skillId": 12301511
-      },
-      {
-        "skillId": 12301441
-      },
-      {
-        "skillId": 12301449
-      },
-      {
-        "skillId": 12301423
-      },
-      {
-        "skillId": 12301421
-      },
-      {
-        "skillId": 12301418
-      },
-      {
-        "skillId": 12301747
-      },
-      {
-        "skillId": 12301780
-      },
-      {
-        "skillId": 12302063
-      },
-      {
-        "skillId": 12303464
-      },
-      {
-        "skillId": 12303465
-      }
-    ],
-    "hp_SN": 2400000000,
-    "def_SN": 760000,
-    "atk_SN": 880000,
-    "atkSpeed_SN": 1000000,
-    "luck_SN": 0,
-    "spName": "",
-    "specialGiftDes": "",
-    "quality": "oneStar",
-    "allSkillList": [],
-    "skillList": [],
-    "noUpgradeSkillList": [],
-    "equipmentSlotList": [],
-    "growthId": 12000388,
-    "growthTagList": [
-      {
-        "growthTagId": 12000353
-      },
-      {
-        "growthTagId": 12000060
-      }
-    ],
-    "skillLvUpList": [],
-    "breakthroughList": [],
-    "awakeList": [
-      {
-        "awakeId": 12200403
-      },
-      {
-        "awakeId": 12200404
-      },
-      {
-        "awakeId": 12200408
-      },
-      {
-        "awakeId": 12200405
-      },
-      {
-        "awakeId": 12200406
-      },
-      {
-        "awakeId": 12200407
-      }
-    ],
-    "talentList": [
-      {
-        "talentId": 12800292
-      },
-      {
-        "talentId": 12800293
-      },
-      {
-        "talentId": 12800294
-      },
-      {
-        "talentId": 12800295
-      },
-      {
-        "talentId": 12800296
-      }
-    ],
-    "rewardList": [],
-    "actionStandID": 10103110,
-    "actionMoveID": 10103109,
-    "actionAttackedID": 10101081,
-    "actionAttackedBackID": 10101332,
-    "actionKnockUpID": -1,
-    "actionStunID": 10103115,
-    "actionDeadID": 10103108,
-    "actionVictoryID": -1,
-    "hitPointX_SN": 0,
-    "hitPointY_SN": 30000,
-    "hitAreaX_SN": 0,
-    "hitAreaY_SN": 30000,
-    "hitAreaHalfWidth_SN": 13000,
-    "hitAreaHalfHeight_SN": 30000,
-    "canOverMaxSpeed": false,
-    "battleDes": "",
-    "safeInformation": "",
-    "unitInformation": "",
-    "enemyDrop": [],
-    "abilityList": [
-      {
-        "id": 12600933
-      },
-      {
-        "id": 12601007
-      },
-      {
-        "id": 12600923
-      },
-      {
-        "id": 12600930
-      },
-      {
-        "id": 12600927
-      }
-    ],
-    "weaknessList": [
-      {
-        "id": 12600978
-      },
-      {
-        "id": 12601008
-      }
-    ],
-    "resistanceList": [
-      {
-        "id": 12600972
-      },
-      {
-        "id": 12600965
-      },
-      {
-        "id": 12600956
-      },
-      {
-        "id": 12600968
-      },
-      {
-        "id": 12600992
-      }
-    ],
-    "enemyType": 12601048,
-    "enemyCamp": 12600237,
-    "enemyBookId": 10000399,
-    "prisonerDrop": [],
-    "enemySkillList": [
-      {
-        "id": 80306684
-      }
-    ]
-  },
-  {
-    "id": 10000784,
-    "idCN": "无限深渊/01期/背誓者-阶段1",
-    "mod": "敌方角色",
-    "isInformalData": false,
-    "name": "背誓者",
-    "EnglishName": "",
-    "viewId": 11000135,
-    "skinList": [],
-    "sideId": 12600910,
-    "controllerId": 10300146,
-    "bulletControllerList": [],
-    "isBoss": true,
-    "bossHpTemp": 90100010,
-    "isDeadNotDisappear": false,
-    "isFly": false,
-    "originFlyYSN": 0,
-    "randomOffsetFlyYSN": 0,
-    "flyOnStraight": false,
-    "classifyTagList": [],
-    "tagList": [
-      {
-        "tagId": 12600246
-      },
-      {
-        "tagId": 12600278
-      },
-      {
-        "tagId": 12600473
-      },
-      {
-        "tagId": 12601127
-      }
-    ],
-    "passiveSkillList": [
-      {
-        "skillId": 12301506
-      },
-      {
-        "skillId": 12301511
-      },
-      {
-        "skillId": 12301441
-      },
-      {
-        "skillId": 12301449
-      },
-      {
-        "skillId": 12301423
-      },
-      {
-        "skillId": 12301421
-      },
-      {
-        "skillId": 12301418
-      },
-      {
-        "skillId": 12302063
-      }
-    ],
-    "hp_SN": 1800000000,
-    "def_SN": 880000,
-    "atk_SN": 760000,
-    "atkSpeed_SN": 1000000,
-    "luck_SN": 0,
-    "spName": "",
-    "specialGiftDes": "",
-    "quality": "oneStar",
-    "allSkillList": [],
-    "skillList": [],
-    "noUpgradeSkillList": [],
-    "equipmentSlotList": [],
-    "growthId": 12000279,
-    "growthTagList": [
-      {
-        "growthTagId": 12000353
-      },
-      {
-        "growthTagId": 12000060
-      }
-    ],
-    "skillLvUpList": [],
-    "breakthroughList": [],
-    "awakeList": [
-      {
-        "awakeId": 12200403
-      },
-      {
-        "awakeId": 12200404
-      },
-      {
-        "awakeId": 12200408
-      },
-      {
-        "awakeId": 12200405
-      },
-      {
-        "awakeId": 12200406
-      },
-      {
-        "awakeId": 12200407
-      }
-    ],
-    "talentList": [
-      {
-        "talentId": 12800470
-      },
-      {
-        "talentId": 12800471
-      },
-      {
-        "talentId": 12800467
-      },
-      {
-        "talentId": 12800468
-      },
-      {
-        "talentId": 12800469
-      }
-    ],
-    "rewardList": [],
-    "actionStandID": 10101351,
-    "actionMoveID": 10101352,
-    "actionAttackedID": 10101355,
-    "actionAttackedBackID": 10101356,
-    "actionKnockUpID": -1,
-    "actionStunID": 10101354,
-    "actionDeadID": 10101353,
-    "actionVictoryID": -1,
-    "hitPointX_SN": 0,
-    "hitPointY_SN": 15000,
-    "hitAreaX_SN": 0,
-    "hitAreaY_SN": 10000,
-    "hitAreaHalfWidth_SN": 5000,
-    "hitAreaHalfHeight_SN": 10000,
-    "canOverMaxSpeed": false,
-    "battleDes": "",
-    "safeInformation": "",
-    "unitInformation": "深眠者，只是向“她”投去眼神都会让人浑身战栗。无论是可怖的外表、巨大化的盾牌还是持续不断的低语，都给人以极大的压迫感。在现在已知的深眠者中也可以说是执念深重的恐怖对手。\\n战斗风格似曾相识。她违背的，究竟是在何时许下的誓言？",
-    "enemyDrop": [
-      {
-        "id": 11700077
-      },
-      {
-        "id": 11700147
-      },
-      {
-        "id": 11700079
-      },
-      {
-        "id": 11700080
-      }
-    ],
-    "abilityList": [],
-    "weaknessList": [],
-    "resistanceList": [],
-    "enemyType": 12601048,
-    "enemyCamp": 12600237,
-    "enemyBookId": -1,
-    "prisonerDrop": [],
-    "enemySkillList": [
-      {
-        "id": 80306682
-      }
-    ]
-  },
-  {
-    "id": 10000785,
-    "idCN": "无限深渊/01期/破誓者-阶段1",
-    "mod": "敌方角色",
-    "isInformalData": false,
-    "name": "破誓者",
-    "EnglishName": "",
-    "viewId": 11000135,
-    "skinList": [],
-    "sideId": 12600910,
-    "controllerId": 10300155,
-    "bulletControllerList": [],
-    "isBoss": true,
-    "bossHpTemp": 90100010,
-    "isDeadNotDisappear": false,
-    "isFly": false,
-    "originFlyYSN": 0,
-    "randomOffsetFlyYSN": 0,
-    "flyOnStraight": false,
-    "classifyTagList": [],
-    "tagList": [
-      {
-        "tagId": 12600246
-      },
-      {
-        "tagId": 12600278
-      },
-      {
-        "tagId": 12600473
-      },
-      {
-        "tagId": 12601127
-      }
-    ],
-    "passiveSkillList": [
-      {
-        "skillId": 12301506
-      },
-      {
-        "skillId": 12301511
-      },
-      {
-        "skillId": 12301441
-      },
-      {
-        "skillId": 12301449
-      },
-      {
-        "skillId": 12301423
-      },
-      {
-        "skillId": 12301421
-      },
-      {
-        "skillId": 12301418
-      },
-      {
-        "skillId": 12302063
-      }
-    ],
-    "hp_SN": 2100000000,
-    "def_SN": 820000,
-    "atk_SN": 820000,
-    "atkSpeed_SN": 1000000,
-    "luck_SN": 0,
-    "spName": "",
-    "specialGiftDes": "",
-    "quality": "oneStar",
-    "allSkillList": [],
-    "skillList": [],
-    "noUpgradeSkillList": [],
-    "equipmentSlotList": [],
-    "growthId": 12000272,
-    "growthTagList": [
-      {
-        "growthTagId": 12000353
-      },
-      {
-        "growthTagId": 12000060
-      }
-    ],
-    "skillLvUpList": [],
-    "breakthroughList": [],
-    "awakeList": [
-      {
-        "awakeId": 12200403
-      },
-      {
-        "awakeId": 12200404
-      },
-      {
-        "awakeId": 12200408
-      },
-      {
-        "awakeId": 12200405
-      },
-      {
-        "awakeId": 12200406
-      },
-      {
-        "awakeId": 12200407
-      }
-    ],
-    "talentList": [
-      {
-        "talentId": 12800470
-      },
-      {
-        "talentId": 12800471
-      },
-      {
-        "talentId": 12800467
-      },
-      {
-        "talentId": 12800468
-      },
-      {
-        "talentId": 12800469
-      }
-    ],
-    "rewardList": [],
-    "actionStandID": 10101431,
-    "actionMoveID": 10101436,
-    "actionAttackedID": 10101434,
-    "actionAttackedBackID": 10101435,
-    "actionKnockUpID": -1,
-    "actionStunID": 10101433,
-    "actionDeadID": 10102079,
-    "actionVictoryID": -1,
-    "hitPointX_SN": 0,
-    "hitPointY_SN": 15000,
-    "hitAreaX_SN": 0,
-    "hitAreaY_SN": 10000,
-    "hitAreaHalfWidth_SN": 5000,
-    "hitAreaHalfHeight_SN": 10000,
-    "canOverMaxSpeed": false,
-    "battleDes": "",
-    "safeInformation": "",
-    "unitInformation": "“深眠者”……如果还能这样称呼她的话。各项数值上已经超越了迄今为止所有有记录的“深眠者”。异变不仅仅局限于面具，四肢都隐约可见木质的增生和纹理，再度提升的各项能力让她的攻势更为狂暴。不间断的呓语如同死神在耳边呼唤，使得对抗者的精神和肉体都遭受着折磨。\\n即使舍弃曾经的一切也要得到的东西，对她来说是什么？",
-    "enemyDrop": [
-      {
-        "id": 11700077
-      },
-      {
-        "id": 11700147
-      },
-      {
-        "id": 11700079
-      },
-      {
-        "id": 11700080
-      }
-    ],
-    "abilityList": [],
-    "weaknessList": [],
-    "resistanceList": [],
-    "enemyType": 12601048,
-    "enemyCamp": 12600237,
-    "enemyBookId": -1,
-    "prisonerDrop": [],
-    "enemySkillList": [
-      {
-        "id": 80306681
-      }
-    ]
-  },
-  {
     "id": 10000787,
-    "idCN": "推力/医者",
+    "idCN": "推力/司命一",
     "mod": "召唤物",
     "isInformalData": false,
-    "name": "医者",
+    "name": "司命一",
     "EnglishName": "",
     "viewId": 11000581,
     "sideId": -1,
@@ -135778,12 +134862,12 @@
       }
     ],
     "passiveSkillList": [],
-    "hp_SN": 10000000,
+    "hp_SN": 1000000000000,
     "def_SN": 0,
     "atk_SN": 0,
-    "atkSpeed_SN": 1000000,
+    "atkSpeed_SN": 0,
     "luck_SN": 0,
-    "line": 3,
+    "line": 2,
     "subLine": 0,
     "costRestore_SN": 0,
     "actionStandID": 10104078,
@@ -137812,7 +136896,7 @@
     "atk_SN": 0,
     "atkSpeed_SN": 0,
     "luck_SN": 0,
-    "line": 3,
+    "line": 1,
     "subLine": 0,
     "costRestore_SN": 0,
     "actionStandID": 10103235,
@@ -137995,10 +137079,16 @@
         "id": 12600930
       },
       {
-        "id": 12600933
+        "id": 12600942
+      },
+      {
+        "id": 12600904
       },
       {
         "id": 12601175
+      },
+      {
+        "id": 12600925
       }
     ],
     "weaknessList": [],
@@ -138212,7 +137302,7 @@
     "hitAreaX_SN": 0,
     "hitAreaY_SN": 15000,
     "hitAreaHalfWidth_SN": 40000,
-    "hitAreaHalfHeight_SN": 15000,
+    "hitAreaHalfHeight_SN": 35000,
     "canOverMaxSpeed": false,
     "battleDes": "",
     "safeInformation": "",
@@ -138223,10 +137313,16 @@
         "id": 12600930
       },
       {
-        "id": 12600933
+        "id": 12600942
+      },
+      {
+        "id": 12600904
       },
       {
         "id": 12601175
+      },
+      {
+        "id": 12600925
       }
     ],
     "weaknessList": [],
@@ -138448,10 +137544,16 @@
         "id": 12600930
       },
       {
-        "id": 12600933
+        "id": 12600942
+      },
+      {
+        "id": 12600904
       },
       {
         "id": 12601175
+      },
+      {
+        "id": 12600925
       }
     ],
     "weaknessList": [],
@@ -142482,6 +141584,9 @@
       },
       {
         "skillId": 12303563
+      },
+      {
+        "skillId": 12301667
       }
     ],
     "hp_SN": 1440000000,
@@ -142636,6 +141741,9 @@
       },
       {
         "skillId": 12303562
+      },
+      {
+        "skillId": 12302183
       }
     ],
     "hp_SN": 1440000000,
@@ -142787,6 +141895,9 @@
       },
       {
         "skillId": 12303561
+      },
+      {
+        "skillId": 12302182
       }
     ],
     "hp_SN": 1440000000,
@@ -142935,6 +142046,9 @@
       },
       {
         "skillId": 12303564
+      },
+      {
+        "skillId": 12301671
       }
     ],
     "hp_SN": 1440000000,
@@ -143080,6 +142194,9 @@
     "passiveSkillList": [
       {
         "skillId": 12303039
+      },
+      {
+        "skillId": 12303069
       }
     ],
     "hp_SN": 1440000000,

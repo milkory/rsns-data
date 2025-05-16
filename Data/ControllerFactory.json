@@ -1093,18 +1093,29 @@
     "id": 10300198,
     "idCN": "我方/05五星/瑞瓦",
     "mod": "卡牌AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": -1,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
     "actionList": [
       {
-        "actionID": 10100123
+        "actionID": 10104124
       }
     ],
-    "normalAttackCritID": 10100125,
+    "normalAttackCritID": -1,
     "skillList": [],
     "isInvisibleBeforeShowUp": false,
     "showupSkillList": [],
     "skillLoopDelayFrame": 1,
     "shapeShiftList": [],
-    "commandList": []
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
   },
   {
     "id": 10300199,
@@ -1180,63 +1191,87 @@
   },
   {
     "id": 10300007,
-    "idCN": "我方/50召唤物/瑞瓦/Bot1",
+    "idCN": "我方/50召唤物/瑞瓦/bot01",
     "mod": "基础AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": -1,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
     "actionList": [
       {
-        "actionID": 10100080
-      },
-      {
-        "actionID": 10100095
+        "actionID": 10104233
       }
     ],
+    "normalAttackCritID": -1,
     "skillList": [],
     "isInvisibleBeforeShowUp": false,
     "showupSkillList": [
       {
-        "actionId": 10100133
+        "actionId": 10104252
       }
     ],
     "skillLoopDelayFrame": 1,
     "shapeShiftList": [],
     "commandList": [
       {
-        "actionID": 10100087
+        "actionID": 10104240
       },
       {
-        "actionID": 10100088
+        "actionID": 10104232
+      },
+      {
+        "actionID": 10104234
       }
-    ]
+    ],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
   },
   {
     "id": 10300014,
-    "idCN": "我方/50召唤物/瑞瓦/Bot2",
+    "idCN": "我方/50召唤物/瑞瓦/bot02",
     "mod": "基础AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": -1,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
     "actionList": [
       {
-        "actionID": 10100092
-      },
-      {
-        "actionID": 10100096
+        "actionID": 10104245
       }
     ],
+    "normalAttackCritID": -1,
     "skillList": [],
     "isInvisibleBeforeShowUp": false,
     "showupSkillList": [
       {
-        "actionId": 10100134
+        "actionId": 10104251
       }
     ],
     "skillLoopDelayFrame": 1,
     "shapeShiftList": [],
     "commandList": [
       {
-        "actionID": 10100097
+        "actionID": 10104244
       },
       {
-        "actionID": 10100098
+        "actionID": 10104248
+      },
+      {
+        "actionID": 10104250
       }
-    ]
+    ],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
   },
   {
     "id": 10300078,
@@ -24492,7 +24527,7 @@
   },
   {
     "id": 10300594,
-    "idCN": "推力/医者",
+    "idCN": "推力/司命一（8秒）",
     "mod": "基础AI",
     "isInformalData": false,
     "targetInvisibleEffectId": -1,
@@ -24504,23 +24539,26 @@
       }
     ],
     "normalAttackCritID": -1,
-    "skillList": [],
+    "skillList": [
+      {
+        "actionId": 10103233,
+        "activeFrame": 61,
+        "activeTime": 1.0,
+        "rangeSN": -10000
+      }
+    ],
     "isInvisibleBeforeShowUp": false,
     "showupSkillList": [
       {
         "actionId": 10103232
       }
     ],
-    "skillLoopDelayFrame": 0,
+    "skillLoopDelayFrame": 480,
     "shapeShiftList": [],
     "commandList": [],
     "enemySkillList": [],
-    "isUseEnergy": true,
-    "energySkillList": [
-      {
-        "actionId": 10103233
-      }
-    ],
+    "isUseEnergy": false,
+    "energySkillList": [],
     "energyRestorePerFrameSN": 0,
     "isSkillDelay": false,
     "minDelay": 120,
@@ -25052,6 +25090,45 @@
       }
     ],
     "skillLoopDelayFrame": 0,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300584,
+    "idCN": "推力/司命一（6秒）",
+    "mod": "基础AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": -1,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10103231
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10103233,
+        "activeFrame": 61,
+        "activeTime": 1.0,
+        "rangeSN": -10000
+      }
+    ],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [
+      {
+        "actionId": 10103232
+      }
+    ],
+    "skillLoopDelayFrame": 360,
     "shapeShiftList": [],
     "commandList": [],
     "enemySkillList": [],
