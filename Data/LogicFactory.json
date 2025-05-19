@@ -2099,5 +2099,18 @@
     "returnType": "bool",
     "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rset $bcm\rgetp rtUnitList\rset $rtUnitList\r\rif\r\tget $bcm\r    getp currentPlayerTeamData\r    getp cardSystem\r    getp leaderCard\r    getp card\r    getp owner\r    set $leader\r    if\r        getp isAlive\r        if\r            callWith $rtUnitList Clear\r            callWith $rtUnitList Add $leader\r        endif\r    endif\rendif\r\rret $true",
     "cacheAsGMF": true
+  },
+  {
+    "id": 60000150,
+    "idCN": "战斗逻辑/召唤物控制器恢复",
+    "mod": "执行GS脚本",
+    "isInformalData": false,
+    "debug": false,
+    "autoRecycle": false,
+    "memo": "过波后恢复召唤物的控制器技能释放",
+    "paramHelp": "",
+    "returnType": "int",
+    "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rset $battleControlManager\r\rgetp curGSBuff\rset $curBuff\r\rgetp target\rset $target\r\rgetp ca mod\rset $mod\r\rif $mod eq \"召唤物\"\r    get $target\r    getp controller\r    set $controller\r    setp _isSkillStart $true\rendif\r\rret 0",
+    "cacheAsGMF": true
   }
 ]
