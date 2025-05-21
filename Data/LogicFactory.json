@@ -2112,5 +2112,44 @@
     "returnType": "int",
     "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rset $battleControlManager\r\rgetp curGSBuff\rset $curBuff\r\rgetp target\rset $target\r\rgetp ca mod\rset $mod\r\rif $mod eq \"召唤物\"\r    get $target\r    getp controller\r    set $controller\r    setp _isSkillStart $true\rendif\r\rret 0",
     "cacheAsGMF": true
+  },
+  {
+    "id": 60000155,
+    "idCN": "战斗逻辑/禁用弃牌按钮",
+    "mod": "执行GS脚本",
+    "isInformalData": false,
+    "debug": false,
+    "autoRecycle": false,
+    "memo": "禁用弃牌按钮",
+    "paramHelp": "",
+    "returnType": "int",
+    "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rset $battleControlManager\r\rgetp _uiManager\rgetp battleUI\rsetp _isActiveDiscardBtn $false\r\rret 0",
+    "cacheAsGMF": true
+  },
+  {
+    "id": 60000156,
+    "idCN": "战斗逻辑/解禁弃牌按钮",
+    "mod": "执行GS脚本",
+    "isInformalData": false,
+    "debug": false,
+    "autoRecycle": false,
+    "memo": "解禁弃牌按钮",
+    "paramHelp": "",
+    "returnType": "int",
+    "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rset $battleControlManager\r\rgetp _uiManager\rgetp battleUI\rsetp _isActiveDiscardBtn $true\r\rret 0",
+    "cacheAsGMF": true
+  },
+  {
+    "id": 60000157,
+    "idCN": "角色/瑞瓦/判断卡牌在墓地",
+    "mod": "执行GS脚本",
+    "isInformalData": false,
+    "debug": false,
+    "autoRecycle": false,
+    "memo": "判断卡牌是否在墓地",
+    "paramHelp": "",
+    "returnType": "int",
+    "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rset $battleControlManager\r\rgetp curGSBuff\rset $curBuff\r\rgetp _snapshot\rgetp targetCard\rgetp cardProperty\rgetp state\rset $state\r\rif $state eq \"InGrave\"\r    ret 1\rendif\r\rret 2",
+    "cacheAsGMF": true
   }
 ]

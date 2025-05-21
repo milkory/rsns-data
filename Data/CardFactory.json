@@ -88,7 +88,7 @@
     "discardBuffId": -1,
     "discardBySkillBuffId": -1,
     "banishBuffId": -1,
-    "atkAreaType": "Direction",
+    "atkAreaType": "TargetArea",
     "atkAreaColor": "Yellow",
     "targetColor": "AttackTest",
     "disappearEffectId": 11100047,
@@ -118,7 +118,8 @@
     "deriveCardList": [],
     "cardAIActionList": [],
     "ExCondList": [],
-    "ExActList": []
+    "ExActList": [],
+    "linkCardId": []
   },
   {
     "id": 10600014,
@@ -1968,7 +1969,7 @@
     "cost_SN": 60000,
     "inhandBuffId": -1,
     "inhandOverBuffId": -1,
-    "startBuffId": 10404639,
+    "startBuffId": 10421194,
     "discardBuffId": -1,
     "discardBySkillBuffId": -1,
     "banishBuffId": -1,
@@ -2268,7 +2269,7 @@
     "discardBuffId": -1,
     "discardBySkillBuffId": -1,
     "banishBuffId": -1,
-    "atkAreaType": "Direction",
+    "atkAreaType": "TargetArea",
     "atkAreaColor": "Yellow",
     "targetColor": "AttackTest",
     "disappearEffectId": 11100047,
@@ -2329,7 +2330,7 @@
     "discardBuffId": -1,
     "discardBySkillBuffId": -1,
     "banishBuffId": -1,
-    "atkAreaType": "Direction",
+    "atkAreaType": "TargetArea",
     "atkAreaColor": "Yellow",
     "targetColor": "AttackTest",
     "disappearEffectId": 11100047,
@@ -24898,7 +24899,7 @@
     "cost_SN": 60000,
     "inhandBuffId": -1,
     "inhandOverBuffId": -1,
-    "startBuffId": 10404639,
+    "startBuffId": 10421194,
     "discardBuffId": -1,
     "discardBySkillBuffId": -1,
     "banishBuffId": -1,
@@ -27026,8 +27027,24 @@
     ],
     "tagOutsideList": [],
     "deriveCardList": [],
-    "cardAIActionList": [],
-    "ExCondList": [],
+    "cardAIActionList": [
+      {
+        "actionId": 96300001,
+        "conditionId": -1,
+        "weight": 2
+      }
+    ],
+    "ExCondList": [
+      {
+        "condId": 96200029,
+        "des": 80608007,
+        "interValNum": 12,
+        "isNumCond": true,
+        "minNum": 0,
+        "numDuration": 1,
+        "typeEnum": "number"
+      }
+    ],
     "ExActList": [],
     "linkCardId": [
       {
@@ -27217,8 +27234,24 @@
     ],
     "tagOutsideList": [],
     "deriveCardList": [],
-    "cardAIActionList": [],
-    "ExCondList": [],
+    "cardAIActionList": [
+      {
+        "actionId": 96300001,
+        "conditionId": -1,
+        "weight": 2
+      }
+    ],
+    "ExCondList": [
+      {
+        "condId": 96200029,
+        "des": 80608007,
+        "interValNum": 12,
+        "isNumCond": true,
+        "minNum": 0,
+        "numDuration": 1,
+        "typeEnum": "number"
+      }
+    ],
     "ExActList": [],
     "linkCardId": []
   },
@@ -29510,6 +29543,9 @@
       },
       {
         "tagId": 12601744
+      },
+      {
+        "tagId": 12601504
       }
     ],
     "tagOutsideList": [],
