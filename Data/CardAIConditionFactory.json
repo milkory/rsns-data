@@ -148,7 +148,7 @@
         "conditionId": 96200015
       },
       {
-        "conditionId": 96200003
+        "conditionId": 96200034
       }
     ]
   },
@@ -292,5 +292,28 @@
     "isInformalData": false,
     "isInvert": false,
     "logicId": 60000142
+  },
+  {
+    "id": 96200027,
+    "idCN": "弃牌按钮/脚本",
+    "mod": "GS脚本",
+    "isInformalData": false,
+    "isInvert": false,
+    "logicId": 60000158
+  },
+  {
+    "id": 96200034,
+    "idCN": "弃牌按钮/条件",
+    "mod": "条件集",
+    "isInformalData": false,
+    "isInvert": false,
+    "conditionList": [
+      {
+        "conditionId": 96200003
+      },
+      {
+        "conditionId": 96200027
+      }
+    ]
   }
 ]

@@ -2151,5 +2151,18 @@
     "returnType": "int",
     "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rset $battleControlManager\r\rgetp curGSBuff\rset $curBuff\r\rgetp _snapshot\rgetp targetCard\rgetp cardProperty\rgetp state\rset $state\r\rif $state eq \"InGrave\"\r    ret 1\rendif\r\rret 2",
     "cacheAsGMF": true
+  },
+  {
+    "id": 60000158,
+    "idCN": "卡牌/弃牌按钮",
+    "mod": "执行GS脚本",
+    "isInformalData": false,
+    "debug": false,
+    "autoRecycle": false,
+    "memo": "见产品名称",
+    "paramHelp": "",
+    "returnType": "bool",
+    "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\r\rgetp _uiManager\rgetp battleUI\rgetp _isActiveDiscardBtn\r\rif\r    ret $true\rendif\r\rret $false",
+    "cacheAsGMF": true
   }
 ]
