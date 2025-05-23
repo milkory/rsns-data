@@ -5021,7 +5021,7 @@
     "gacha": "RolePlus/Reeva/Gacha",
     "resUrl": "RolePlus/Reeva/Full",
     "roleListResUrl": "RolePlus/Reeva/Half",
-    "spineUrl": "",
+    "spineUrl": "Spine/Portrait/LH_Reeva/LH_Reeva_SkeletonData",
     "clickEffectUrl": "",
     "plotResList": [
       {
@@ -5036,14 +5036,14 @@
     "SkinName": "默认",
     "quality": "Golden",
     "ownExclusiveVoice": false,
-    "isSpine2": 0,
+    "isSpine2": 1,
     "SkinDesc": "瑞瓦的默认形态",
     "HomeresDir": "Home\\Character\\Dorm_Reeva\\Dorm_Reeva_SkeletonData",
     "singleUrl": "",
     "GetWay": "0",
-    "offsetX": 0.0,
-    "offsetY": 19.0,
-    "offsetScale": 1.0,
+    "offsetX": -3.0,
+    "offsetY": -35.0,
+    "offsetScale": 1.12,
     "offsetX2": 0.0,
     "offsetY2": 0.0,
     "squadsX": 0.0,
@@ -5076,7 +5076,7 @@
     "spine2EffectUrl": "",
     "spine2BgUrl": "",
     "state2Overturn": false,
-    "spine2Scale": 125.0,
+    "spine2Scale": 100.0,
     "spine2X": 0.0,
     "spine2Y": 0.0,
     "blockCN": false,
@@ -5097,7 +5097,24 @@
     "bookY": 0.0,
     "homeSkill": -1,
     "SpineIdleListId": -1,
-    "extraClickAnimationList": []
+    "extraClickAnimationList": [
+      {
+        "name": "click",
+        "weight": 15
+      },
+      {
+        "name": "shy_click",
+        "weight": 10
+      },
+      {
+        "name": "smile_click",
+        "weight": 10
+      },
+      {
+        "name": "think_click",
+        "weight": 10
+      }
+    ]
   },
   {
     "id": 11000052,
@@ -54544,11 +54561,11 @@
     "effectScale": 1.0,
     "gachaVoice": 30003109,
     "mainUIVoice": 30003110,
-    "face": "RolePlus/Caroline/Face",
+    "face": "RolePlus/Caroline/Maid/Face",
     "gacha": "RolePlus/Caroline/Gacha",
-    "resUrl": "RolePlus/Caroline/Full",
-    "roleListResUrl": "RolePlus/Caroline/Half",
-    "spineUrl": "Spine/Portrait/LH_Caroline/LH_Caroline_SkeletonData",
+    "resUrl": "RolePlus/Caroline/Maid/Full",
+    "roleListResUrl": "RolePlus/Caroline/Maid/Half",
+    "spineUrl": "Spine/Portrait/LH_Caroline_Maid/LH_Caroline_Maid_SkeletonData",
     "clickEffectUrl": "",
     "plotResList": [],
     "exchangeEffectList": [],
@@ -54561,12 +54578,12 @@
     "ownExclusiveVoice": false,
     "isSpine2": 0,
     "SkinDesc": "卡洛琳的特别扫除装扮。尘封已久的度假别墅中灰尘弥漫，好在其中还有这样一束足以作为妆点的蔷薇。",
-    "HomeresDir": "Home/Character/Dorm_Caroline/Dorm_Caroline_SkeletonData",
-    "singleUrl": "",
+    "HomeresDir": "Home/Character/Dorm_Caroline_Skin_Maid/Dorm_Caroline_Skin_Maid_SkeletonData",
+    "singleUrl": "RolePlus/Caroline/Maid/Single",
     "GetWay": "0",
-    "offsetX": -10.0,
-    "offsetY": -331.0,
-    "offsetScale": 1.06,
+    "offsetX": 19.0,
+    "offsetY": -154.0,
+    "offsetScale": 1.02,
     "offsetX2": -80.0,
     "offsetY2": 0.0,
     "squadsX": 0.0,
@@ -54576,16 +54593,16 @@
     "spineX": 0.0,
     "spineY": 0.0,
     "spineScale": 1.0,
-    "squadsHalf1": "RolePlus/Caroline/Squads_Half1",
+    "squadsHalf1": "RolePlus/Caroline/Maid/Squads_Half1",
     "extraSpineList": [],
     "clickEffectLayer": "Front",
     "frontFixEffectUrl": "",
     "bottomFixEffectUrl": "",
     "clickHideFixEffect": "None",
-    "SpineBackground": "",
-    "SpineBGX": 0.0,
-    "SpineBGY": 0.0,
-    "SpineBGScale": 0.01,
+    "SpineBackground": "RolePlus/Caroline/Maid/BG",
+    "SpineBGX": -19.0,
+    "SpineBGY": -154.0,
+    "SpineBGScale": 1.02,
     "State2Name": "",
     "State2Desc": "",
     "State2Face": "",
@@ -57352,7 +57369,28 @@
     "bookY": 0.0,
     "homeSkill": -1,
     "SpineIdleListId": -1,
-    "extraClickAnimationList": []
+    "extraClickAnimationList": [
+      {
+        "name": "laugh_click",
+        "weight": 10
+      },
+      {
+        "name": "cry_click",
+        "weight": 5
+      },
+      {
+        "name": "angry_click",
+        "weight": 10
+      },
+      {
+        "name": "think_click",
+        "weight": 10
+      },
+      {
+        "name": "serious_click",
+        "weight": 10
+      }
+    ]
   },
   {
     "id": 11000590,
