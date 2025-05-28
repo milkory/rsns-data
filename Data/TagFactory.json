@@ -4239,7 +4239,7 @@
     "isShowDetail": true,
     "temptagNameRichText": "流转",
     "tagNameRichText": "流转",
-    "detail": "每有1张黑卡或【暗艺】被生成时，生成1个【天火】"
+    "detail": "每有1张黑卡或【暗艺】被生成时，生成1个【天火】\\n打出紫卡或紫卡进入弃牌区时，生成1个【天火】"
   },
   {
     "id": 12600540,
@@ -12206,7 +12206,7 @@
     "isShowDetail": true,
     "temptagNameRichText": "血裔",
     "tagNameRichText": "血裔",
-    "detail": "每【销毁】1张【暗艺】，自身生命值上限提高13%，限13次\\n每【销毁】1张黑卡，自身攻击力和防御力+2%，限13次"
+    "detail": "每【销毁】1张【暗艺】，自身生命值上限提高13%，限13次\\n每【销毁】1张黑卡，自身攻击力和防御力+3%，限13次"
   },
   {
     "id": 12601125,
@@ -12466,7 +12466,7 @@
     "isShowDetail": true,
     "temptagNameRichText": "焚心",
     "tagNameRichText": "焚心",
-    "detail": "打出红卡后，生成1个【天火】"
+    "detail": "打出红卡或红卡进入弃牌区时，生成1个【天火】"
   },
   {
     "id": 12601150,
@@ -12492,7 +12492,7 @@
     "isShowDetail": true,
     "temptagNameRichText": "爆炸艺术",
     "tagNameRichText": "爆炸艺术",
-    "detail": "我方全体【爆炸物】造成的伤害提高20%"
+    "detail": "我方全体【爆炸物】造成的伤害提高30%"
   },
   {
     "id": 12601152,
@@ -17298,6 +17298,66 @@
     "leafletPlace": "货物装卸区"
   },
   {
+    "id": 12601540,
+    "idCN": "肉鸽事件类型/普通战斗",
+    "mod": "肉鸽事件类型",
+    "isInformalData": false,
+    "icon": "UI/CubeRogue/TypeIcon/icon_fight_normal",
+    "eventTypeName": "",
+    "eventTypeDes": "",
+    "settlementNum": 10,
+    "eventDetailsPng": "UI/CubeRogue/TypeIcon/icon_fight_normal_1",
+    "skillBuff": 12303544,
+    "battleBuffType": "Boss关卡生效",
+    "gradeAdd": 0,
+    "model": "",
+    "offsetX": 1.0,
+    "offsetY": 1.0,
+    "offsetZ": 1.0,
+    "Scale": 1.0,
+    "cellModel": "CubeRoguePath/Model/Prefab/Rogue_Cube_MF_N_03"
+  },
+  {
+    "id": 12601541,
+    "idCN": "肉鸽事件类型/Boss战斗",
+    "mod": "肉鸽事件类型",
+    "isInformalData": false,
+    "icon": "UI/CubeRogue/TypeIcon/icon_fight_boss",
+    "eventTypeName": "",
+    "eventTypeDes": "",
+    "settlementNum": 200,
+    "eventDetailsPng": "UI/CubeRogue/TypeIcon/icon_fight_boss_1",
+    "skillBuff": -1,
+    "battleBuffType": "Boss关卡生效",
+    "gradeAdd": 0,
+    "model": "Monopoly/Environment/Model/Rogue_Boss/Prefab/Rogue_Boss",
+    "offsetX": -0.04,
+    "offsetY": -0.09,
+    "offsetZ": 1.1,
+    "Scale": 2.0,
+    "cellModel": "CubeRoguePath/Model/Prefab/Rogue_Cube_MF_N_04"
+  },
+  {
+    "id": 12601542,
+    "idCN": "肉鸽事件类型/精英战斗",
+    "mod": "肉鸽事件类型",
+    "isInformalData": false,
+    "icon": "UI/CubeRogue/TypeIcon/icon_fight_difficult",
+    "eventTypeName": "",
+    "eventTypeDes": "",
+    "settlementNum": 10,
+    "eventDetailsPng": "UI/CubeRogue/TypeIcon/icon_fight_difficult_1",
+    "skillBuff": 12303545,
+    "battleBuffType": "Boss关卡生效",
+    "gradeAdd": 0,
+    "model": "",
+    "offsetX": 1.0,
+    "offsetY": 1.0,
+    "offsetZ": 1.0,
+    "Scale": 1.0,
+    "cellModel": "CubeRoguePath/Model/Prefab/Rogue_Cube_MF_N_03"
+  },
+  {
     "id": 12601543,
     "idCN": "战斗/角色技能/05/乌刹娜/A",
     "mod": "标签",
@@ -18150,6 +18210,86 @@
     "temptagNameRichText": "",
     "tagNameRichText": "",
     "detail": ""
+  },
+  {
+    "id": 12601616,
+    "idCN": "肉鸽事件类型/奇遇",
+    "mod": "肉鸽事件类型",
+    "isInformalData": false,
+    "icon": "UI/CubeRogue/TypeIcon/icon_adventure",
+    "eventTypeName": "莫测漩涡",
+    "eventTypeDes": "每一步前行都在骰数空间引发特定的共振，未知的命运正在等待……",
+    "settlementNum": 10,
+    "eventDetailsPng": "UI/CubeRogue/TypeIcon/icon_adventure_1",
+    "skillBuff": -1,
+    "battleBuffType": "Boss关卡生效",
+    "gradeAdd": 1,
+    "model": "",
+    "offsetX": 1.0,
+    "offsetY": 1.0,
+    "offsetZ": 1.0,
+    "Scale": 1.0,
+    "cellModel": "CubeRoguePath/Model/Prefab/Rogue_Cube_MF_N_06"
+  },
+  {
+    "id": 12601615,
+    "idCN": "肉鸽事件类型/回血",
+    "mod": "肉鸽事件类型",
+    "isInformalData": false,
+    "icon": "UI/CubeRogue/TypeIcon/icon_rest",
+    "eventTypeName": "回生空洞",
+    "eventTypeDes": "奇妙空灵的旋律回荡在空间内，仿佛能治愈身心，洗去疲惫。",
+    "settlementNum": 10,
+    "eventDetailsPng": "UI/CubeRogue/TypeIcon/icon_rest_1",
+    "skillBuff": 12303549,
+    "battleBuffType": "Boss关卡生效",
+    "gradeAdd": 0,
+    "model": "",
+    "offsetX": 1.0,
+    "offsetY": 1.0,
+    "offsetZ": 1.0,
+    "Scale": 1.0,
+    "cellModel": "CubeRoguePath/Model/Prefab/Rogue_Cube_MF_N_02"
+  },
+  {
+    "id": 12601617,
+    "idCN": "肉鸽事件类型/宝箱",
+    "mod": "肉鸽事件类型",
+    "isInformalData": false,
+    "icon": "UI/CubeRogue/TypeIcon/icon_reward",
+    "eventTypeName": "“小玩意儿”",
+    "eventTypeDes": "一些被遗忘在角落的记忆，成为了如今珍贵的馈赠。",
+    "settlementNum": 10,
+    "eventDetailsPng": "UI/CubeRogue/TypeIcon/icon_reward_1",
+    "skillBuff": 12303548,
+    "battleBuffType": "Boss关卡生效",
+    "gradeAdd": 0,
+    "model": "",
+    "offsetX": 1.0,
+    "offsetY": 1.0,
+    "offsetZ": 1.0,
+    "Scale": 1.0,
+    "cellModel": "CubeRoguePath/Model/Prefab/Rogue_Cube_MF_N_01"
+  },
+  {
+    "id": 12601614,
+    "idCN": "肉鸽事件类型/商店",
+    "mod": "肉鸽事件类型",
+    "isInformalData": false,
+    "icon": "UI/CubeRogue/TypeIcon/icon_store",
+    "eventTypeName": "无休之所",
+    "eventTypeDes": "来一场公平的交换吧，他已经等候多时。",
+    "settlementNum": 10,
+    "eventDetailsPng": "UI/CubeRogue/TypeIcon/icon_store_1",
+    "skillBuff": 12303547,
+    "battleBuffType": "Boss关卡生效",
+    "gradeAdd": 0,
+    "model": "",
+    "offsetX": 1.0,
+    "offsetY": 1.0,
+    "offsetZ": 1.0,
+    "Scale": 1.0,
+    "cellModel": "CubeRoguePath/Model/Prefab/Rogue_Cube_MF_N_05"
   },
   {
     "id": 12601619,
@@ -19121,6 +19261,26 @@
     "detail": ""
   },
   {
+    "id": 12601699,
+    "idCN": "肉鸽事件类型/特殊商店",
+    "mod": "肉鸽事件类型",
+    "isInformalData": false,
+    "icon": "UI/CubeRogue/TypeIcon/icon_store",
+    "eventTypeName": "无休之所",
+    "eventTypeDes": "来一场公平的交换吧，他已经等候多时。",
+    "settlementNum": 10,
+    "eventDetailsPng": "UI/CubeRogue/TypeIcon/icon_store_1",
+    "skillBuff": 12303547,
+    "battleBuffType": "Boss关卡生效",
+    "gradeAdd": 0,
+    "model": "",
+    "offsetX": 1.0,
+    "offsetY": 1.0,
+    "offsetZ": 1.0,
+    "Scale": 1.0,
+    "cellModel": "CubeRoguePath/Model/Prefab/Rogue_Cube_MF_N_05"
+  },
+  {
     "id": 12601700,
     "idCN": "活动标签/限时累充",
     "mod": "标签",
@@ -19665,5 +19825,170 @@
     "icon": "",
     "tagName": "特设招募",
     "recordTips": "可在本页面查询最近6个月【净灭八苦-乌刹娜】的招募记录。招募记录存在1分钟左右延迟，若无记录请稍后重新打开。"
+  },
+  {
+    "id": 12601749,
+    "idCN": "战斗/角色技能/05/薇尔岚/待回收",
+    "mod": "标签",
+    "tagName": "A-2",
+    "tagID": 0,
+    "isShowDetail": false,
+    "temptagNameRichText": "",
+    "tagNameRichText": "",
+    "detail": ""
+  },
+  {
+    "id": 12601750,
+    "idCN": "战斗/决一卡",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "",
+    "tagName": "B+",
+    "tagID": 0,
+    "isShowDetail": false,
+    "temptagNameRichText": "",
+    "tagNameRichText": "",
+    "detail": ""
+  },
+  {
+    "id": 12601751,
+    "idCN": "战斗/角色技能/05/薇尔岚/特殊免控",
+    "mod": "标签",
+    "tagName": "A-2",
+    "tagID": 0,
+    "isShowDetail": false,
+    "temptagNameRichText": "",
+    "tagNameRichText": "",
+    "detail": ""
+  },
+  {
+    "id": 12601748,
+    "idCN": "单位/10召唤物/卡洛琳bot01",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "",
+    "tagName": "突击队员",
+    "tagID": 0,
+    "isShowDetail": false,
+    "temptagNameRichText": "",
+    "tagNameRichText": "",
+    "detail": ""
+  },
+  {
+    "id": 12601752,
+    "idCN": "家具类型/家具升级/乘客座椅",
+    "mod": "家具类型",
+    "isInformalData": false,
+    "icon": "",
+    "typeName": "乘客座椅",
+    "iconPath": ""
+  },
+  {
+    "id": 12601753,
+    "idCN": "家具类型/家具升级/列车用卫生间",
+    "mod": "家具类型",
+    "isInformalData": false,
+    "icon": "",
+    "typeName": "列车用卫生间",
+    "iconPath": ""
+  },
+  {
+    "id": 12601754,
+    "idCN": "家具类型/家具升级/护卫乘员用上下铺",
+    "mod": "家具类型",
+    "isInformalData": false,
+    "icon": "",
+    "typeName": "护卫乘员用上下铺",
+    "iconPath": ""
+  },
+  {
+    "id": 12601755,
+    "idCN": "家具类型/家具升级/坐便器",
+    "mod": "家具类型",
+    "isInformalData": false,
+    "icon": "",
+    "typeName": "坐便器",
+    "iconPath": ""
+  },
+  {
+    "id": 12601756,
+    "idCN": "家具类型/家具升级/乘客用单人卧铺",
+    "mod": "家具类型",
+    "isInformalData": false,
+    "icon": "",
+    "typeName": "乘客用单人卧铺",
+    "iconPath": ""
+  },
+  {
+    "id": 12601757,
+    "idCN": "家具类型/家具升级乘客用上下铺",
+    "mod": "家具类型",
+    "isInformalData": false,
+    "icon": "",
+    "typeName": "乘客座椅",
+    "iconPath": ""
+  },
+  {
+    "id": 12601758,
+    "idCN": "家具类型/家具升级/乘客用上下铺",
+    "mod": "家具类型",
+    "isInformalData": false,
+    "icon": "",
+    "typeName": "乘客用上下铺",
+    "iconPath": ""
+  },
+  {
+    "id": 12601759,
+    "idCN": "家具类型/家具升级/乘客用双人大床",
+    "mod": "家具类型",
+    "isInformalData": false,
+    "icon": "",
+    "typeName": "乘客用双人大床",
+    "iconPath": ""
+  },
+  {
+    "id": 12601760,
+    "idCN": "家具类型/家具升级/公共电话机",
+    "mod": "家具类型",
+    "isInformalData": false,
+    "icon": "",
+    "typeName": "公共电话机",
+    "iconPath": ""
+  },
+  {
+    "id": 12601761,
+    "idCN": "家具类型/家具升级/投币望远镜",
+    "mod": "家具类型",
+    "isInformalData": false,
+    "icon": "",
+    "typeName": "投币望远镜",
+    "iconPath": ""
+  },
+  {
+    "id": 12601762,
+    "idCN": "家具类型/家具升级/自动贩卖机",
+    "mod": "家具类型",
+    "isInformalData": false,
+    "icon": "",
+    "typeName": "自动贩卖机",
+    "iconPath": ""
+  },
+  {
+    "id": 12601763,
+    "idCN": "家具类型/家具升级/一体式宠物别墅",
+    "mod": "家具类型",
+    "isInformalData": false,
+    "icon": "",
+    "typeName": "一体式宠物别墅",
+    "iconPath": ""
+  },
+  {
+    "id": 12601764,
+    "idCN": "家具类型/家具升级/水草造景",
+    "mod": "家具类型",
+    "isInformalData": false,
+    "icon": "",
+    "typeName": "水草造景",
+    "iconPath": ""
   }
 ]
