@@ -2149,7 +2149,7 @@
     "memo": "判断卡牌是否在墓地",
     "paramHelp": "",
     "returnType": "int",
-    "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rset $battleControlManager\r\rgetp curGSBuff\rset $curBuff\r\rgetp _snapshot\rgetp targetCard\rgetp cardProperty\rgetp state\rset $state\r\rif $state eq \"InGrave\"\r    ret 1\rendif\r\rret 2",
+    "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rset $battleControlManager\r\rgetp curGSBuff\rset $curBuff\r\rgetp _snapshot\rgetp targetCard\rgetp cardProperty\rgetp state\rset $state\r\rif $state eq \"InGrave\"\r    ret 1\rendif\r\rif $state eq \"WaitToGrave\"\r    ret 1\rendif\r\rret 2",
     "cacheAsGMF": true
   },
   {
@@ -2163,6 +2163,19 @@
     "paramHelp": "",
     "returnType": "bool",
     "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\r\rgetp _uiManager\rgetp battleUI\rgetp _isActiveDiscardBtn\r\rif\r    ret $true\rendif\r\rret $false",
+    "cacheAsGMF": true
+  },
+  {
+    "id": 60000159,
+    "idCN": "角色/瑞瓦/判断手牌已满",
+    "mod": "执行GS脚本",
+    "isInformalData": false,
+    "debug": false,
+    "autoRecycle": false,
+    "memo": "判断卡牌是否已满",
+    "paramHelp": "",
+    "returnType": "int",
+    "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rset $battleControlManager\r\rcallWith $battleControlManager GetTeamData 1\rgetp cardSystem\rset $cardSys\rcallWith $cardSys IsHandCardNotFull $false\r\rif\r    ret 2\rendif\r\rret 1",
     "cacheAsGMF": true
   }
 ]

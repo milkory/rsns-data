@@ -379,22 +379,27 @@
       },
       {
         "levelId": 20100107,
+        "serialNumber": 2,
         "unitId": 10000431
       },
       {
         "levelId": 20100130,
+        "serialNumber": 3,
         "unitId": 10000432
       },
       {
         "levelId": 20100148,
+        "serialNumber": 4,
         "unitId": 10000433
       },
       {
         "levelId": 20100019,
+        "serialNumber": 5,
         "unitId": 10000434
       },
       {
         "levelId": 20100149,
+        "serialNumber": 6,
         "unitId": 10000435
       },
       {
@@ -403,22 +408,27 @@
       },
       {
         "levelId": 20100248,
+        "serialNumber": 2,
         "unitId": 10000043
       },
       {
         "levelId": 20100168,
+        "serialNumber": 3,
         "unitId": 10000044
       },
       {
         "levelId": 20100169,
+        "serialNumber": 4,
         "unitId": 10000045
       },
       {
         "levelId": 20100186,
+        "serialNumber": 5,
         "unitId": 10000046
       },
       {
         "levelId": 20100187,
+        "serialNumber": 6,
         "unitId": 10000048
       },
       {
@@ -427,22 +437,27 @@
       },
       {
         "levelId": 20100115,
+        "serialNumber": 2,
         "unitId": 10000171
       },
       {
         "levelId": 20100117,
+        "serialNumber": 3,
         "unitId": 10000171
       },
       {
         "levelId": 20100122,
+        "serialNumber": 4,
         "unitId": 10000171
       },
       {
         "levelId": 20100123,
+        "serialNumber": 5,
         "unitId": 10000171
       },
       {
         "levelId": 20100136,
+        "serialNumber": 6,
         "unitId": 10000171
       },
       {
@@ -451,22 +466,27 @@
       },
       {
         "levelId": 20101339,
+        "serialNumber": 2,
         "unitId": 10000679
       },
       {
         "levelId": 20101340,
+        "serialNumber": 3,
         "unitId": 10000679
       },
       {
         "levelId": 20101341,
+        "serialNumber": 4,
         "unitId": 10000679
       },
       {
         "levelId": 20101342,
+        "serialNumber": 5,
         "unitId": 10000679
       },
       {
         "levelId": 20101343,
+        "serialNumber": 6,
         "unitId": 10000679
       }
     ],
@@ -1868,6 +1888,9 @@
       },
       {
         "id": 82500034
+      },
+      {
+        "id": 82500036
       }
     ],
     "StageQuestConfig": [
@@ -2395,7 +2418,15 @@
       }
     ],
     "specialIcon05": "UI/Battle/CardDes/anyi_count",
-    "specialIcon06": "UI/Battle/CardDes/msgold_S_CoinCount"
+    "specialIcon06": "UI/Battle/CardDes/msgold_S_CoinCount",
+    "judgeAttributeList": [
+      {
+        "name": "Atk"
+      },
+      {
+        "name": "OriginalAtk"
+      }
+    ]
   },
   {
     "id": 99900009,
@@ -17722,7 +17753,10 @@
         "bgPath": "UI/Dialog/Back/MeetingRoom_Night",
         "changeTime": "17:30:00"
       }
-    ]
+    ],
+    "isDoubleTouchMap": true,
+    "mapScaleMin": 0.5,
+    "mapScaleMax": 1.5
   },
   {
     "id": 99900040,
@@ -18435,6 +18469,12 @@
         "guideId": 20900117,
         "id": 65,
         "ui": "UI/Playground/Playground",
+        "unlockQuest": -1
+      },
+      {
+        "guideId": 20900131,
+        "id": 66,
+        "ui": "UI/CubeRogue/Main/CubeRogueMain",
         "unlockQuest": -1
       }
     ]
@@ -20107,6 +20147,9 @@
       },
       {
         "id": 11400285
+      },
+      {
+        "id": 11400702
       },
       {
         "id": 11400254
@@ -23092,9 +23135,23 @@
     "activeList": [
       {
         "countDownMax": 3,
+        "endTime": "",
+        "id": 86000026,
+        "isCompleteBottom": false,
+        "isCountDown": false,
+        "isShow": false,
+        "name": 80610007,
+        "png": "UI/Activity/Tab/tab_yuwailianhe",
+        "showUI": "UI/Activity/ActivityCubeRogue/ActivityCubeRogue",
+        "sort": 0,
+        "startTime": "2025-05-28 12:00:00",
+        "tag": 12601604
+      },
+      {
+        "countDownMax": 3,
         "endTime": "2030-01-01 00:00:00",
         "id": 86000003,
-        "isCompleteBottom": false,
+        "isCompleteBottom": true,
         "isCountDown": false,
         "isShow": true,
         "name": 80602403,
@@ -23117,6 +23174,20 @@
         "sort": 0,
         "startTime": "2025-02-18 12:00:00",
         "tag": 12601684
+      },
+      {
+        "countDownMax": 3,
+        "endTime": "2025-07-01 04:59:59",
+        "id": 86000069,
+        "isCompleteBottom": false,
+        "isCountDown": false,
+        "isShow": false,
+        "name": 80610669,
+        "png": "UI/Activity/Tab/tab_MonthlyCard",
+        "showUI": "UI/Activity/ActivityMonthlyCard/ActivityMonthlyCard",
+        "sort": 0,
+        "startTime": "2025-05-21 05:00:00",
+        "tag": 12601727
       },
       {
         "countDownMax": 3,
@@ -23161,30 +23232,16 @@
       },
       {
         "countDownMax": 3,
-        "endTime": "2025-04-12 04:59:00",
-        "id": 86000055,
+        "endTime": "2025-06-15 04:59:00",
+        "id": 86000079,
         "isCompleteBottom": false,
         "isCountDown": false,
         "isShow": true,
-        "name": 80610312,
-        "png": "UI/Activity/ActivitySignIn/Spring2025/Tag",
+        "name": 80610861,
+        "png": "UI/Activity/ActivitySignIn/DragonBoat2025/Tag",
         "showUI": "",
         "sort": 0,
-        "startTime": "2025-03-28 05:00:00",
-        "tag": 12601103
-      },
-      {
-        "countDownMax": 3,
-        "endTime": "2025-05-14 04:59:00",
-        "id": 86000070,
-        "isCompleteBottom": false,
-        "isCountDown": false,
-        "isShow": true,
-        "name": 80610641,
-        "png": "UI/Activity/ActivitySignIn/WitchesPark/tag",
-        "showUI": "",
-        "sort": 0,
-        "startTime": "2025-04-29 05:00:00",
+        "startTime": "2025-05-31 05:00:00",
         "tag": 12601103
       },
       {
@@ -23257,7 +23314,8 @@
         "endTime": "",
         "id": 86000038,
         "isCompleteBottom": false,
-        "isCountDown": false,
+        "isCountDown": true,
+        "isShow": true,
         "name": 80609096,
         "png": "UI/Activity/Tab/tab_hotel",
         "showUI": "UI/Activity/Hotel/HotelActivity",
@@ -24140,6 +24198,18 @@
         "spineX": -150.0,
         "spineY": 0.0,
         "startTime": "2025-05-19 05:00:00"
+      },
+      {
+        "anecdoteName": "恶魔狩猎委托",
+        "brief": "这天，你在无垠号上发现了一张写明了时间、地点、以及“请求协助”的纸条。如约到达地点后，你遇见了一位恶魔猎人……与恶魔猎人的短暂共事之旅就此展开！",
+        "characterId": 10000297,
+        "faceUrl": "UI/Quest/Anecdote/Images/Reeva",
+        "id": 81002312,
+        "plotReviewId": 20603053,
+        "questId": 81002417,
+        "spineX": 150.0,
+        "spineY": 0.0,
+        "startTime": "2025-05-29 05:00:00"
       }
     ]
   },
@@ -26235,6 +26305,14 @@
         "name": 80609028,
         "rank": 84300015,
         "ratio": "Img_CircleTrash"
+      },
+      {
+        "icon": "UI/RevenueOverview/BtnIcon/PDD",
+        "isShow": true,
+        "label": "UI/RevenueOverview/RatioLabel/PDD",
+        "name": 80610854,
+        "rank": 84300029,
+        "ratio": "Img_CirclePDD"
       }
     ],
     "rankList": [
@@ -26349,10 +26427,10 @@
     "nameEN": "BannerConfig",
     "bannerList": [
       {
-        "id": 80500036
+        "id": 80500117
       },
       {
-        "id": 80500054
+        "id": 80500036
       },
       {
         "id": 80500055
@@ -26391,6 +26469,18 @@
         "id": 80500127
       },
       {
+        "id": 80500025
+      },
+      {
+        "id": 80500015
+      },
+      {
+        "id": 80500013
+      },
+      {
+        "id": 80500006
+      },
+      {
         "id": 80500026
       },
       {
@@ -26398,15 +26488,6 @@
       },
       {
         "id": 80500005
-      },
-      {
-        "id": 80500014
-      },
-      {
-        "id": 80500108
-      },
-      {
-        "id": 80500012
       },
       {
         "id": 80500010
@@ -26468,7 +26549,8 @@
     "nameEN": "ServerGacheConfig",
     "gacheUI": true,
     "gacheUIChange": false,
-    "wikiUzlUI": true
+    "wikiUzlUI": true,
+    "studyUI": false
   },
   {
     "id": 99900113,
@@ -26494,7 +26576,7 @@
     "exchangeBuildId": 84400237,
     "randomBattleList": [
       {
-        "id": 89000010,
+        "id": 89000011,
         "weight": 1
       }
     ],
@@ -27395,6 +27477,221 @@
         "id": 81002016
       }
     ]
+  },
+  {
+    "id": 99900134,
+    "idCN": "制造订单配置",
+    "mod": "制造订单",
+    "isInformalData": false,
+    "nameEN": "ManufacturingOrderConfig",
+    "repCountList": [
+      {
+        "orderNum": 3,
+        "repId": 11400612,
+        "repNum": 0
+      },
+      {
+        "orderNum": 4,
+        "repId": 11400612,
+        "repNum": 200
+      },
+      {
+        "orderNum": 5,
+        "repId": 11400612,
+        "repNum": 500
+      },
+      {
+        "orderNum": 6,
+        "repId": 11400612,
+        "repNum": 1000
+      }
+    ],
+    "productLevelList": [
+      {
+        "productLevel": 0,
+        "teamPro": 0.0
+      },
+      {
+        "productLevel": 10,
+        "teamPro": 0.05
+      },
+      {
+        "productLevel": 20,
+        "teamPro": 0.052
+      },
+      {
+        "productLevel": 30,
+        "teamPro": 0.054
+      },
+      {
+        "productLevel": 40,
+        "teamPro": 0.056
+      },
+      {
+        "productLevel": 50,
+        "teamPro": 0.058
+      },
+      {
+        "productLevel": 60,
+        "teamPro": 0.06
+      }
+    ],
+    "refreshItem": [
+      {
+        "id": 11400005,
+        "num": 5
+      }
+    ],
+    "refreshItemOther": [
+      {
+        "id": 11400044,
+        "num": 1
+      }
+    ],
+    "refreshLimit": 30,
+    "teamNum": 5,
+    "teamBuff": [
+      {
+        "buff": 0.0,
+        "num": 1
+      },
+      {
+        "buff": 0.02,
+        "num": 2
+      },
+      {
+        "buff": 0.03,
+        "num": 3
+      },
+      {
+        "buff": 0.04,
+        "num": 4
+      },
+      {
+        "buff": 0.05,
+        "num": 5
+      }
+    ],
+    "orderList": [
+      {
+        "frame": 0,
+        "order": 80306856
+      },
+      {
+        "frame": 500,
+        "order": 80306857
+      },
+      {
+        "frame": 1000,
+        "order": 80306858
+      },
+      {
+        "frame": 2000,
+        "order": 80306859
+      },
+      {
+        "frame": 5000,
+        "order": 80306860
+      },
+      {
+        "frame": 10000,
+        "order": 80306861
+      },
+      {
+        "frame": 20000,
+        "order": 80306862
+      },
+      {
+        "frame": 50000,
+        "order": 80306863
+      },
+      {
+        "frame": 100000,
+        "order": 80306864
+      },
+      {
+        "frame": 200000,
+        "order": 80306865
+      },
+      {
+        "frame": 500000,
+        "order": 80306866
+      }
+    ],
+    "teamOrderList": [
+      {
+        "id": 60300128,
+        "weight": 5.0
+      },
+      {
+        "id": 60300129,
+        "weight": 2.0
+      },
+      {
+        "id": 60300130,
+        "weight": 5.0
+      },
+      {
+        "id": 60300131,
+        "weight": 5.0
+      },
+      {
+        "id": 60300132,
+        "weight": 5.0
+      },
+      {
+        "id": 60300133,
+        "weight": 5.0
+      },
+      {
+        "id": 60300134,
+        "weight": 1.0
+      },
+      {
+        "id": 60300135,
+        "weight": 1.0
+      },
+      {
+        "id": 60300136,
+        "weight": 5.0
+      },
+      {
+        "id": 60300137,
+        "weight": 1.0
+      },
+      {
+        "id": 60300138,
+        "weight": 2.0
+      },
+      {
+        "id": 60300139,
+        "weight": 2.0
+      },
+      {
+        "id": 60300140,
+        "weight": 2.0
+      },
+      {
+        "id": 60300141,
+        "weight": 2.0
+      },
+      {
+        "id": 60300142,
+        "weight": 2.0
+      },
+      {
+        "id": 60300143,
+        "weight": 2.0
+      },
+      {
+        "id": 60300144,
+        "weight": 3.0
+      }
+    ],
+    "teamProLower": 20,
+    "teamProUpper": 60,
+    "teamRepLimit": 500,
+    "teamOrderNum": 3
   },
   {
     "id": 99900140,

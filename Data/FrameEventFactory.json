@@ -3850,13 +3850,6 @@
     "hitSoundID": -1
   },
   {
-    "id": 10500126,
-    "idCN": "我方/05五星/卡洛琳/旗自毁",
-    "mod": "给自己上BUFF",
-    "isInformalData": false,
-    "buffId": 10400524
-  },
-  {
     "id": 10500149,
     "idCN": "我方/03三星/艾略特/S开始周期",
     "mod": "给自己上BUFF",
@@ -9292,7 +9285,7 @@
   },
   {
     "id": 10501556,
-    "idCN": "我方/05五星/卡洛琳/A召唤",
+    "idCN": "我方/05五星/卡洛琳/A召唤bot02",
     "mod": "给自己上BUFF",
     "isInformalData": false,
     "buffId": 10403263
@@ -9554,7 +9547,7 @@
   },
   {
     "id": 10500102,
-    "idCN": "我方/05五星/卡洛琳/505普攻",
+    "idCN": "我方/05五星/卡洛琳/bot02/普攻",
     "mod": "子弹事件",
     "isInformalData": false,
     "buffId": 10400387,
@@ -9565,14 +9558,14 @@
   },
   {
     "id": 10500128,
-    "idCN": "我方/05五星/卡洛琳/505自杀",
+    "idCN": "我方/05五星/卡洛琳/bot02/自杀",
     "mod": "给自己上BUFF",
     "isInformalData": false,
     "buffId": 10400540
   },
   {
     "id": 10500103,
-    "idCN": "我方/05五星/卡洛琳/A目标嘲讽505",
+    "idCN": "我方/05五星/卡洛琳/bot02/光环嘲讽新bot02",
     "mod": "添加Buff",
     "isInformalData": false,
     "buffId": 10400495,
@@ -9580,10 +9573,10 @@
   },
   {
     "id": 10500190,
-    "idCN": "我方/05五星/卡洛琳/505自毁倒计时",
+    "idCN": "我方/05五星/卡洛琳/bot02/自毁倒计时",
     "mod": "给自己上BUFF",
     "isInformalData": false,
-    "buffId": 10400884
+    "buffId": 10421320
   },
   {
     "id": 10500105,
@@ -9680,18 +9673,17 @@
   },
   {
     "id": 10500210,
-    "idCN": "我方/05五星/卡洛琳/S召唤旗子",
+    "idCN": "我方/05五星/卡洛琳/S召唤bot01",
     "mod": "给自己上BUFF",
     "isInformalData": false,
-    "buffId": 10400810
+    "buffId": 10421324
   },
   {
     "id": 10500215,
-    "idCN": "我方/05五星/卡洛琳/旗强化队友命中",
-    "mod": "添加Buff",
+    "idCN": "我方/05五星/卡洛琳/bot01/光环",
+    "mod": "给自己上BUFF",
     "isInformalData": false,
-    "buffId": 10400832,
-    "targetType": "OneEach"
+    "buffId": 10421327
   },
   {
     "id": 10500221,
@@ -13654,18 +13646,11 @@
   },
   {
     "id": 10500570,
-    "idCN": "我方/05五星/薇尔岚/S昏睡降攻防",
+    "idCN": "我方/05五星/薇尔岚/S昏睡诅咒",
     "mod": "添加Buff",
     "isInformalData": false,
-    "buffId": 10401947,
+    "buffId": 10421348,
     "targetType": "OneEach"
-  },
-  {
-    "id": 10500568,
-    "idCN": "我方/05五星/薇尔岚/S强化bot",
-    "mod": "给自己上BUFF",
-    "isInformalData": false,
-    "buffId": 10407859
   },
   {
     "id": 10501290,
@@ -21477,13 +21462,6 @@
     "mod": "给自己上BUFF",
     "isInformalData": false,
     "buffId": 10400424
-  },
-  {
-    "id": 10500168,
-    "idCN": "我方/05五星/多萝西/觉醒1爆炸加攻",
-    "mod": "给自己上BUFF",
-    "isInformalData": false,
-    "buffId": 10406400
   },
   {
     "id": 10500181,
@@ -36964,7 +36942,7 @@
     "idCN": "我方/05五星/瑞瓦/bot01/普攻",
     "mod": "添加Buff",
     "isInformalData": false,
-    "buffId": 10420885,
+    "buffId": 10421436,
     "targetType": "CurrentTarget"
   },
   {
@@ -36972,8 +36950,8 @@
     "idCN": "我方/05五星/瑞瓦/bot02/普攻",
     "mod": "子弹事件",
     "isInformalData": false,
-    "buffId": 10420885,
-    "bulletId": 11200641,
+    "buffId": 10421437,
+    "bulletId": 11200691,
     "targetType": "CurrentTarget",
     "offSetX_SN": 0,
     "offSetZ_SN": 0,
@@ -37015,24 +36993,45 @@
   {
     "id": 10503046,
     "idCN": "我方/05五星/瑞瓦/bot02/A命中",
-    "mod": "攻击事件",
+    "mod": "子弹事件",
     "isInformalData": false,
     "buffId": 10420911,
-    "hitSoundID": -1
+    "bulletId": 11200692,
+    "targetType": "CurrentTarget",
+    "offSetX_SN": 0,
+    "offSetZ_SN": 0,
+    "isUseTargetFilter": false,
+    "isIgnoreInvisibleEnemy": true,
+    "targetFilterType": "Ally",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 0,
+    "attributeType": "HpMax",
+    "condition": "Max",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 0
   },
   {
     "id": 10503050,
     "idCN": "我方/05五星/瑞瓦/B-1召唤bot01",
     "mod": "给自己上BUFF",
     "isInformalData": false,
-    "buffId": 10420888
+    "buffId": 10421441
   },
   {
     "id": 10503051,
     "idCN": "我方/05五星/瑞瓦/B-2召唤bot02",
     "mod": "给自己上BUFF",
     "isInformalData": false,
-    "buffId": 10420889
+    "buffId": 10421442
   },
   {
     "id": 10503052,
@@ -37088,18 +37087,60 @@
   {
     "id": 10503059,
     "idCN": "我方/05五星/瑞瓦/bot01/S命中",
-    "mod": "攻击事件",
+    "mod": "子弹事件",
     "isInformalData": false,
     "buffId": 10420956,
-    "hitSoundID": -1
+    "bulletId": 11200694,
+    "targetType": "CurrentTarget",
+    "offSetX_SN": 0,
+    "offSetZ_SN": 0,
+    "isUseTargetFilter": false,
+    "isIgnoreInvisibleEnemy": true,
+    "targetFilterType": "Ally",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 0,
+    "attributeType": "HpMax",
+    "condition": "Max",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 0
   },
   {
     "id": 10503060,
     "idCN": "我方/05五星/瑞瓦/bot02/S命中",
-    "mod": "攻击事件",
+    "mod": "子弹事件",
     "isInformalData": false,
     "buffId": 10420957,
-    "hitSoundID": -1
+    "bulletId": 11200693,
+    "targetType": "CurrentTarget",
+    "offSetX_SN": 0,
+    "offSetZ_SN": 0,
+    "isUseTargetFilter": false,
+    "isIgnoreInvisibleEnemy": true,
+    "targetFilterType": "Ally",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 0,
+    "attributeType": "HpMax",
+    "condition": "Max",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 0
   },
   {
     "id": 10503061,
@@ -37204,6 +37245,94 @@
     "buffId": 10421068
   },
   {
+    "id": 10500596,
+    "idCN": "敌方/99化物/拳花/普攻2子弹",
+    "mod": "子弹事件",
+    "isInformalData": false,
+    "buffId": 10421217,
+    "bulletId": 11200684,
+    "targetType": "Random",
+    "offSetX_SN": 0,
+    "offSetZ_SN": 0,
+    "isUseTargetFilter": false,
+    "isIgnoreInvisibleEnemy": true,
+    "targetFilterType": "Ally",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 0,
+    "attributeType": "HpMax",
+    "condition": "Max",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 0
+  },
+  {
+    "id": 10503067,
+    "idCN": "敌方/99化物/拳花/普攻1",
+    "mod": "攻击事件",
+    "isInformalData": false,
+    "buffId": 10421222,
+    "hitSoundID": -1
+  },
+  {
+    "id": 10503068,
+    "idCN": "敌方/99化物/拳花/技能1",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10421225
+  },
+  {
+    "id": 10503069,
+    "idCN": "敌方/99化物/拳花/技能1终止",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10421230
+  },
+  {
+    "id": 10503070,
+    "idCN": "敌方/99化物/拳花/技能2",
+    "mod": "攻击事件",
+    "isInformalData": false,
+    "buffId": 10421238,
+    "hitSoundID": -1
+  },
+  {
+    "id": 10503047,
+    "idCN": "我方/05五星/瑞瓦/秘法飞弹",
+    "mod": "子弹事件",
+    "isInformalData": false,
+    "buffId": 10421056,
+    "bulletId": 11200695,
+    "targetType": "Random",
+    "offSetX_SN": 0,
+    "offSetZ_SN": 0,
+    "isUseTargetFilter": true,
+    "isIgnoreInvisibleEnemy": true,
+    "targetFilterType": "Enemy",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 240000,
+    "attributeType": "HpMax",
+    "condition": "All",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 99
+  },
+  {
     "id": 10503071,
     "idCN": "推力/源流/0-初始效果/周期执行动作",
     "mod": "给自己上BUFF",
@@ -37237,5 +37366,147 @@
     "mod": "给自己上BUFF",
     "isInformalData": false,
     "buffId": 10418887
+  },
+  {
+    "id": 10503048,
+    "idCN": "我方/05五星/薇尔岚/S伤害",
+    "mod": "添加Buff",
+    "isInformalData": false,
+    "buffId": 10421349,
+    "targetType": "OneEach"
+  },
+  {
+    "id": 10500126,
+    "idCN": "敌方/99化物/掀人掌/普攻1",
+    "mod": "攻击事件",
+    "isInformalData": false,
+    "buffId": 10400269,
+    "hitSoundID": -1
+  },
+  {
+    "id": 10500168,
+    "idCN": "敌方/99化物/掀人掌/普攻2",
+    "mod": "攻击事件",
+    "isInformalData": false,
+    "buffId": 10400889,
+    "hitSoundID": -1
+  },
+  {
+    "id": 10500568,
+    "idCN": "我方/05五星/薇尔岚/S强化bot",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10407859
+  },
+  {
+    "id": 10503076,
+    "idCN": "敌方/99化物/掀人掌/技能1打断",
+    "mod": "攻击事件",
+    "isInformalData": false,
+    "buffId": 10421423,
+    "hitSoundID": -1
+  },
+  {
+    "id": 10503077,
+    "idCN": "敌方/99化物/掀人掌/技能1击飞",
+    "mod": "攻击事件",
+    "isInformalData": false,
+    "buffId": 10421424,
+    "hitSoundID": -1
+  },
+  {
+    "id": 10503078,
+    "idCN": "我方/05五星/瑞瓦/bot01/C攻击特效01",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10421444
+  },
+  {
+    "id": 10503079,
+    "idCN": "我方/05五星/瑞瓦/bot01/C攻击特效02",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10421445
+  },
+  {
+    "id": 10503080,
+    "idCN": "我方/05五星/瑞瓦/bot01/站立特效",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10412914
+  },
+  {
+    "id": 10503081,
+    "idCN": "敌方/99化物/掀人掌/技能2击退",
+    "mod": "攻击事件",
+    "isInformalData": false,
+    "buffId": 10421424,
+    "hitSoundID": -1
+  },
+  {
+    "id": 10503082,
+    "idCN": "敌方/99化物/掀人掌/技能2减伤",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10419797
+  },
+  {
+    "id": 10503084,
+    "idCN": "我方/05五星/瑞瓦/B-3使魔增伤光环",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10420931
+  },
+  {
+    "id": 10503086,
+    "idCN": "敌方/99化物/掀人掌/技能2驱散监测",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10421506
+  },
+  {
+    "id": 10503083,
+    "idCN": "敌方/99化物/掀人掌/技能2切换反击动作",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10421453
+  },
+  {
+    "id": 10503085,
+    "idCN": "我方/05五星/瑞瓦/B-3使魔增伤特效",
+    "mod": "添加Buff",
+    "isInformalData": false,
+    "buffId": 10412890,
+    "targetType": "OneEach"
+  },
+  {
+    "id": 10503088,
+    "idCN": "敌方/99化物/掀人掌/技能2驱散受击记录",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10420130
+  },
+  {
+    "id": 10503090,
+    "idCN": "爬塔/桦树生物/冥霆仪者/增幅4驱散周期",
+    "mod": "添加Buff",
+    "isInformalData": false,
+    "buffId": 10421494,
+    "targetType": "CurrentTarget"
+  },
+  {
+    "id": 10503087,
+    "idCN": "爬塔/桦树生物/冥霆仪者/转阶段切控制器",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10421511
+  },
+  {
+    "id": 10503089,
+    "idCN": "爬塔/桦树生物/冥霆仪者/增幅1添加荒古之忆",
+    "mod": "添加Buff",
+    "isInformalData": false,
+    "buffId": 10407876,
+    "targetType": "CurrentTarget"
   }
 ]
