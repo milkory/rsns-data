@@ -8294,6 +8294,9 @@
       },
       {
         "tagId": 12600007
+      },
+      {
+        "tagId": 12600272
       }
     ],
     "tagOutsideList": [],
@@ -28135,7 +28138,7 @@
     "discardBuffId": -1,
     "discardBySkillBuffId": -1,
     "banishBuffId": -1,
-    "atkAreaType": "Single",
+    "atkAreaType": "VariableArea",
     "atkAreaColor": "Yellow",
     "targetColor": "AttackTest",
     "disappearEffectId": 11100047,
@@ -28147,6 +28150,18 @@
     "tagList": [
       {
         "tagId": 12600145
+      },
+      {
+        "tagId": 12600271
+      },
+      {
+        "tagId": 12600149
+      },
+      {
+        "tagId": 12600057
+      },
+      {
+        "tagId": 12601772
       }
     ],
     "tagOutsideList": [],
@@ -28163,7 +28178,7 @@
     "isInformalData": false,
     "name": "芥末棒骨！",
     "isCutIn": false,
-    "isUseSingleTarget": false,
+    "isUseSingleTarget": true,
     "isNoCD": false,
     "isUseInHand": false,
     "isNotDiscard": false,
@@ -28193,6 +28208,9 @@
     "tagList": [
       {
         "tagId": 12600028
+      },
+      {
+        "tagId": 12601658
       }
     ],
     "tagOutsideList": [],
@@ -28243,9 +28261,9 @@
     "discardBuffId": -1,
     "discardBySkillBuffId": -1,
     "banishBuffId": -1,
-    "atkAreaType": "FixedArea",
-    "atkAreaColor": "Yellow",
-    "targetColor": "AttackTest",
+    "atkAreaType": "Self",
+    "atkAreaColor": "Green",
+    "targetColor": "HealTest",
     "disappearEffectId": 11100047,
     "appearEffectId": 11100046,
     "createEffectId": 11100106,
@@ -28258,6 +28276,9 @@
       },
       {
         "tagId": 12600145
+      },
+      {
+        "tagId": 12600057
       }
     ],
     "tagOutsideList": [],
@@ -29365,6 +29386,9 @@
       },
       {
         "tagId": 12601744
+      },
+      {
+        "tagId": 12600007
       }
     ],
     "tagOutsideList": [],
@@ -29586,6 +29610,187 @@
       },
       {
         "tagId": 12601750
+      }
+    ],
+    "tagOutsideList": [],
+    "deriveCardList": [],
+    "cardAIActionList": [],
+    "ExCondList": [],
+    "ExActList": [],
+    "linkCardId": []
+  },
+  {
+    "id": 10600475,
+    "idCN": "00原版/04四星/小麦/S共振5",
+    "mod": "基础卡牌",
+    "isInformalData": false,
+    "name": "大福战车！",
+    "isCutIn": true,
+    "isUseSingleTarget": false,
+    "isNoCD": false,
+    "isUseInHand": false,
+    "isNotDiscard": false,
+    "iconPath": "RolePlus\\Komugi\\skillicon\\S",
+    "backPath": "",
+    "roleImgPath": "",
+    "color": "Red",
+    "cardType": "Normal",
+    "sameCardGroupId": -1,
+    "actionId": 10104079,
+    "cost_SN": 40000,
+    "inhandBuffId": -1,
+    "inhandOverBuffId": -1,
+    "startBuffId": -1,
+    "discardBuffId": -1,
+    "discardBySkillBuffId": -1,
+    "banishBuffId": -1,
+    "atkAreaType": "Self",
+    "atkAreaColor": "Green",
+    "targetColor": "HealTest",
+    "disappearEffectId": 11100047,
+    "appearEffectId": 11100046,
+    "createEffectId": 11100106,
+    "destroyEffectId": -1,
+    "createTweenDelay": 30,
+    "isCostX": false,
+    "tagList": [
+      {
+        "tagId": 12600007
+      },
+      {
+        "tagId": 12600145
+      },
+      {
+        "tagId": 12600057
+      },
+      {
+        "tagId": 12600206
+      }
+    ],
+    "tagOutsideList": [],
+    "deriveCardList": [],
+    "cardAIActionList": [],
+    "ExCondList": [],
+    "ExActList": [],
+    "linkCardId": []
+  },
+  {
+    "id": 10600476,
+    "idCN": "00原版/04四星/小麦/B共振2",
+    "mod": "基础卡牌",
+    "isInformalData": false,
+    "name": "芥末棒骨！",
+    "isCutIn": false,
+    "isUseSingleTarget": true,
+    "isNoCD": false,
+    "isUseInHand": false,
+    "isNotDiscard": false,
+    "iconPath": "RolePlus\\Komugi\\skillicon\\B",
+    "backPath": "",
+    "roleImgPath": "",
+    "color": "Green",
+    "cardType": "Normal",
+    "sameCardGroupId": -1,
+    "actionId": 10104287,
+    "cost_SN": 30000,
+    "inhandBuffId": -1,
+    "inhandOverBuffId": -1,
+    "startBuffId": -1,
+    "discardBuffId": -1,
+    "discardBySkillBuffId": -1,
+    "banishBuffId": -1,
+    "atkAreaType": "VariableArea",
+    "atkAreaColor": "Yellow",
+    "targetColor": "HealTest",
+    "disappearEffectId": 11100047,
+    "appearEffectId": 11100046,
+    "createEffectId": 11100106,
+    "destroyEffectId": -1,
+    "createTweenDelay": 30,
+    "isCostX": false,
+    "tagList": [
+      {
+        "tagId": 12600028
+      },
+      {
+        "tagId": 12601658
+      }
+    ],
+    "tagOutsideList": [],
+    "deriveCardList": [],
+    "cardAIActionList": [
+      {
+        "actionId": 96300003,
+        "conditionId": -1,
+        "weight": 1
+      }
+    ],
+    "ExCondList": [
+      {
+        "condId": 96200028,
+        "des": 80608008,
+        "interValNum": 19,
+        "isNumCond": true,
+        "minNum": 5,
+        "numDuration": 5,
+        "typeEnum": "percent"
+      }
+    ],
+    "ExActList": [],
+    "linkCardId": []
+  },
+  {
+    "id": 10600477,
+    "idCN": "00原版/04四星/小麦/A共振1",
+    "mod": "基础卡牌",
+    "isInformalData": false,
+    "name": "松果快递！",
+    "isCutIn": false,
+    "isUseSingleTarget": false,
+    "isNoCD": false,
+    "isUseInHand": false,
+    "isNotDiscard": false,
+    "iconPath": "RolePlus\\Komugi\\skillicon\\A",
+    "backPath": "",
+    "roleImgPath": "",
+    "color": "Red",
+    "cardType": "Normal",
+    "sameCardGroupId": -1,
+    "actionId": 10104081,
+    "cost_SN": 30000,
+    "inhandBuffId": -1,
+    "inhandOverBuffId": -1,
+    "startBuffId": -1,
+    "discardBuffId": -1,
+    "discardBySkillBuffId": -1,
+    "banishBuffId": -1,
+    "atkAreaType": "VariableArea",
+    "atkAreaColor": "Yellow",
+    "targetColor": "AttackTest",
+    "disappearEffectId": 11100047,
+    "appearEffectId": 11100046,
+    "createEffectId": 11100106,
+    "destroyEffectId": -1,
+    "createTweenDelay": 30,
+    "isCostX": false,
+    "tagList": [
+      {
+        "tagId": 12600145
+      },
+      {
+        "tagId": 12600271
+      },
+      {
+        "tagId": 12600149
+      },
+      {
+        "tagId": 12600057
+      },
+      {
+        "tagId": 12600273
+      },
+      {
+        "tagId": 12601772
       }
     ],
     "tagOutsideList": [],

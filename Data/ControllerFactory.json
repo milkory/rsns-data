@@ -19,17 +19,11 @@
     "id": 10300004,
     "idCN": "我方/05五星/卡塔斯",
     "mod": "卡牌AI",
-    "actionList": [
-      {
-        "actionID": 10100020
-      },
-      {
-        "actionID": 10100021
-      },
-      {
-        "actionID": 10100269
-      }
-    ],
+    "isInformalData": false,
+    "targetInvisibleEffectId": -1,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [],
     "normalAttackCritID": -1,
     "skillList": [],
     "isInvisibleBeforeShowUp": false,
@@ -37,9 +31,14 @@
     "skillLoopDelayFrame": 1,
     "shapeShiftList": [],
     "commandList": [],
+    "enemySkillList": [],
     "isUseEnergy": false,
     "energySkillList": [],
-    "energyRestorePerFrameSN": 0
+    "energyRestorePerFrameSN": 0,
+    "energyBarColor": "#FFB200",
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
   },
   {
     "id": 10300025,
@@ -23940,6 +23939,9 @@
     "actionList": [
       {
         "actionID": 10104077
+      },
+      {
+        "actionID": 10104235
       }
     ],
     "normalAttackCritID": -1,
@@ -25331,6 +25333,60 @@
     "isSkillDelay": true,
     "minDelay": 110,
     "maxDelay": 210
+  },
+  {
+    "id": 10300608,
+    "idCN": "我方/50召唤物/小麦/松果钻地炸弹",
+    "mod": "基础AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": -1,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10104294,
+        "activeFrame": 75,
+        "activeTime": 1.25,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10104294,
+        "activeFrame": 150,
+        "activeTime": 2.5,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10104294,
+        "activeFrame": 225,
+        "activeTime": 3.75,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10104295,
+        "activeFrame": 300,
+        "activeTime": 5.0,
+        "rangeSN": -10000
+      }
+    ],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [
+      {
+        "actionId": 10104291
+      }
+    ],
+    "skillLoopDelayFrame": 9999,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
+    "energyBarColor": "#FFB200",
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
   },
   {
     "id": 10300607,
