@@ -1404,7 +1404,7 @@
     "cardType": "Normal",
     "sameCardGroupId": -1,
     "actionId": 10100458,
-    "cost_SN": 60000,
+    "cost_SN": 50000,
     "inhandBuffId": -1,
     "inhandOverBuffId": -1,
     "startBuffId": 10402492,
@@ -1441,7 +1441,8 @@
     "deriveCardList": [],
     "cardAIActionList": [],
     "ExCondList": [],
-    "ExActList": []
+    "ExActList": [],
+    "linkCardId": []
   },
   {
     "id": 10600093,
@@ -1530,7 +1531,7 @@
     "cardType": "Normal",
     "sameCardGroupId": -1,
     "actionId": 10100466,
-    "cost_SN": 60000,
+    "cost_SN": 50000,
     "inhandBuffId": -1,
     "inhandOverBuffId": -1,
     "startBuffId": 10400011,
@@ -10234,7 +10235,24 @@
     "deriveCardList": [],
     "cardAIActionList": [],
     "ExCondList": [],
-    "ExActList": [],
+    "ExActList": [
+      {
+        "condId": 96300009,
+        "des": 80610277
+      },
+      {
+        "condId": 96300010,
+        "des": 80610278
+      },
+      {
+        "condId": 96300003,
+        "des": 80608013
+      },
+      {
+        "condId": 96300007,
+        "des": 80608012
+      }
+    ],
     "linkCardId": [
       {
         "Id": 10600275
@@ -10348,7 +10366,24 @@
     "deriveCardList": [],
     "cardAIActionList": [],
     "ExCondList": [],
-    "ExActList": [],
+    "ExActList": [
+      {
+        "condId": 96300009,
+        "des": 80610277
+      },
+      {
+        "condId": 96300010,
+        "des": 80610278
+      },
+      {
+        "condId": 96300003,
+        "des": 80608013
+      },
+      {
+        "condId": 96300007,
+        "des": 80608012
+      }
+    ],
     "linkCardId": []
   },
   {
@@ -13690,7 +13725,7 @@
     "cardType": "Normal",
     "sameCardGroupId": -1,
     "actionId": 10100773,
-    "cost_SN": 20000,
+    "cost_SN": 30000,
     "inhandBuffId": -1,
     "inhandOverBuffId": -1,
     "startBuffId": 10402754,
@@ -13725,7 +13760,8 @@
         "typeEnum": "number"
       }
     ],
-    "ExActList": []
+    "ExActList": [],
+    "linkCardId": []
   },
   {
     "id": 10600293,
@@ -29334,7 +29370,7 @@
     "mod": "基础卡牌",
     "isInformalData": false,
     "name": "造访者的礼物",
-    "isCutIn": false,
+    "isCutIn": true,
     "isUseSingleTarget": false,
     "isNoCD": false,
     "isUseInHand": false,
