@@ -182,7 +182,8 @@
         "numMax": 1,
         "numMin": 1
       }
-    ]
+    ],
+    "probability": 1.0
   },
   {
     "id": 89900016,
@@ -261,7 +262,7 @@
     "idCN": "失去/Buff/选1All",
     "mod": "失去Buff",
     "isInformalData": false,
-    "orderType": "LoseEquip",
+    "orderType": "LoseBuff",
     "loseType": "Select",
     "qualityType": "All",
     "refreshNum": 3,
@@ -321,7 +322,7 @@
     "orderType": "initialGet",
     "initialGetList": [
       {
-        "id": 11400683,
+        "id": 11400685,
         "num": 1
       }
     ]
@@ -1200,7 +1201,7 @@
   {
     "id": 89900099,
     "idCN": "局外技能/机制/03初始行动回合上限",
-    "mod": "初始招募人数",
+    "mod": "行动回合上限",
     "isInformalData": false,
     "orderType": "InitialAction",
     "param": 1.0
@@ -1403,7 +1404,7 @@
     "isInformalData": false,
     "orderType": "IntuitionMaxNum",
     "skillId": -1,
-    "param": 1.0,
+    "param": 2.0,
     "descent": 89500032
   },
   {
@@ -2257,7 +2258,7 @@
     "idCN": "骰子/条件/克己",
     "mod": "条件",
     "isInformalData": false,
-    "orderType": "0",
+    "orderType": "CurrentNum",
     "PlaneId": -1,
     "typeId": [],
     "skillId": -1,
@@ -2377,7 +2378,7 @@
     "orderType": "Skill",
     "skillId": 12303568,
     "battleBuffType": "Boss关卡生效",
-    "param": -10.0,
+    "param": 10.0,
     "param2": 0.0
   },
   {
@@ -3050,5 +3051,34 @@
     "isInformalData": false,
     "orderType": "Level",
     "levelId": 20101977
+  },
+  {
+    "id": 89900111,
+    "idCN": "获得/标准装备/随机1黑+紫金",
+    "mod": "获得奖励",
+    "isInformalData": false,
+    "orderType": "Reward",
+    "rewardList": [
+      {
+        "id": 86100287,
+        "numMax": 1,
+        "numMin": 1
+      },
+      {
+        "id": 86100282,
+        "numMax": 1,
+        "numMin": 1
+      }
+    ],
+    "probability": 1.0
+  },
+  {
+    "id": 89900113,
+    "idCN": "血量/增加0.25",
+    "mod": "血量恢复",
+    "isInformalData": false,
+    "orderType": "Recover",
+    "recoverType": "Upper",
+    "param": 0.25
   }
 ]

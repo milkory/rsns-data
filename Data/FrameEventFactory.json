@@ -37576,10 +37576,10 @@
   },
   {
     "id": 10503094,
-    "idCN": "我方/05五星/小麦/S导弹01斜飞",
+    "idCN": "我方/05五星/小麦/bot02/导弹01斜飞",
     "mod": "子弹事件",
     "isInformalData": false,
-    "buffId": 10421524,
+    "buffId": 10406379,
     "bulletId": 11200698,
     "targetType": "CurrentTarget",
     "offSetX_SN": 0,
@@ -37605,7 +37605,7 @@
   },
   {
     "id": 10503095,
-    "idCN": "我方/05五星/小麦/S导弹02下落",
+    "idCN": "我方/05五星/小麦/bot02/导弹02下落",
     "mod": "子弹事件",
     "isInformalData": false,
     "buffId": 10416506,
@@ -37830,5 +37830,169 @@
     "filterPosition": "DefaultPos",
     "isAimSelf": false,
     "targetCount": 0
+  },
+  {
+    "id": 10503108,
+    "idCN": "敌方/99化物/金快/普攻1",
+    "mod": "子弹事件",
+    "isInformalData": false,
+    "buffId": 10421646,
+    "bulletId": 11200685,
+    "targetType": "Random",
+    "offSetX_SN": 0,
+    "offSetZ_SN": 0,
+    "isUseTargetFilter": false,
+    "isIgnoreInvisibleEnemy": true,
+    "targetFilterType": "Ally",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 0,
+    "attributeType": "HpMax",
+    "condition": "Max",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 0
+  },
+  {
+    "id": 10503109,
+    "idCN": "敌方/99化物/金快/普攻2自身",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10421652
+  },
+  {
+    "id": 10503110,
+    "idCN": "敌方/99化物/金快/普攻2友军",
+    "mod": "子弹事件",
+    "isInformalData": false,
+    "buffId": 10421652,
+    "bulletId": 11200009,
+    "targetType": "Random",
+    "offSetX_SN": 0,
+    "offSetZ_SN": 0,
+    "isUseTargetFilter": false,
+    "isIgnoreInvisibleEnemy": true,
+    "targetFilterType": "Ally",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 0,
+    "attributeType": "HpMax",
+    "condition": "Max",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 0
+  },
+  {
+    "id": 10503111,
+    "idCN": "敌方/99化物/金快/技能1子弹",
+    "mod": "子弹事件",
+    "isInformalData": false,
+    "buffId": 10421673,
+    "bulletId": 11200703,
+    "targetType": "Random",
+    "offSetX_SN": 0,
+    "offSetZ_SN": 0,
+    "isUseTargetFilter": true,
+    "isIgnoreInvisibleEnemy": true,
+    "targetFilterType": "Enemy",
+    "targetTagList": [
+      {
+        "tagId": 12600246
+      }
+    ],
+    "tagType": "And",
+    "halfWidth_SN": 990000,
+    "attributeType": "HpMax",
+    "condition": "All",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 99
+  },
+  {
+    "id": 10503112,
+    "idCN": "敌方/99化物/金快/技能1激昂",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10421665
+  },
+  {
+    "id": 10503113,
+    "idCN": "敌方/99化物/金快/技能2",
+    "mod": "添加Buff",
+    "isInformalData": false,
+    "buffId": 10421706,
+    "targetType": "OneEach"
+  },
+  {
+    "id": 10503114,
+    "idCN": "敌方/99化物/金快/技能2自身触发",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10404561
+  },
+  {
+    "id": 10503107,
+    "idCN": "我方/05五星/小麦/bot02/用卡触发",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10421527
+  },
+  {
+    "id": 10503115,
+    "idCN": "我方/05五星/克洛伊/A回收",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10421623
+  },
+  {
+    "id": 10503116,
+    "idCN": "我方/05五星/克洛伊/B补牌CD",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10421723
+  },
+  {
+    "id": 10503117,
+    "idCN": "我方/05五星/克洛伊/S",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10421736
+  },
+  {
+    "id": 10503118,
+    "idCN": "敌方/02桦树/毒系/沼螺桦树生物/普攻1",
+    "mod": "攻击事件",
+    "isInformalData": false,
+    "buffId": 10421786,
+    "hitSoundID": -1
+  },
+  {
+    "id": 10503119,
+    "idCN": "敌方/02桦树/毒系/沼螺桦树生物/技能1",
+    "mod": "攻击事件",
+    "isInformalData": false,
+    "buffId": 10421791,
+    "hitSoundID": -1
   }
 ]
