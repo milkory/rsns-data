@@ -2203,5 +2203,18 @@
     "returnType": "int",
     "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rset $battleControlManager\r\rcallWith $battleControlManager GetTeamData 1\rgetp property\rset $property\rcallWith $property SetAttributeBase 10000 \"AutoDrawInterval\" \"Multiplier\"\r\rset $val\r\rret 0",
     "cacheAsGMF": true
+  },
+  {
+    "id": 60000162,
+    "idCN": "角色/克洛伊/卡牌目标清除",
+    "mod": "执行GS脚本",
+    "isInformalData": false,
+    "debug": false,
+    "autoRecycle": false,
+    "memo": "销毁目标卡牌",
+    "paramHelp": "",
+    "returnType": "int",
+    "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rset $battleControlManager\r\rgetp curGSBuff\rset $curBuff\r\rgetp snapshot\rset $_snapshot\r\rcallWith $_snapshot SetTargetCard $null\r\rret 0",
+    "cacheAsGMF": true
   }
 ]

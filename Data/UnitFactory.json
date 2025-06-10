@@ -7468,7 +7468,7 @@
       }
     ],
     "age": 0,
-    "gender": "",
+    "gender": "女",
     "birthday": "6月13日",
     "birthdayMonth": "6",
     "birthdayDay": "13",
@@ -80896,7 +80896,7 @@
     "canOverMaxSpeed": false,
     "battleDes": "",
     "safeInformation": "索思学会御险枢纽研发的大型对策机械，代号“艾尼”。能造成多种负面效果，还会按受到物理伤害的次数叠加减伤。每隔一定时间会清空我方全体的增益效果。",
-    "unitInformation": "索思学会御险枢纽研发的大型对策机械，代号“艾尼”。由后半部上方的胶囊形状对策系统控制其行动，可接受远程指令。\\n装配多种特殊武器，能造成包括【击退】【禁锢】【枷锁】【混乱】在内的多种负面效果，还能通过火焰喷射装置对我方全体造成高额伤害。每受到一次物理伤害就会降低自身所受物理伤害，减伤达到上限后将强制丢弃我方手牌中全部红卡并重置减伤效果。另外，每隔一定时间会清除我方全体的增益效果。",
+    "unitInformation": "索思学会御险枢纽研发的大型对策机械，代号“艾尼”。由后半部上方的胶囊形状对策系统控制其行动，可接受远程指令。\\n装配多种特殊武器，能造成包括【击退】【禁锢】【枷锁】【混乱】在内的多种负面效果，还能通过火焰喷射装置对我方全体造成高额伤害。每受到一次物理伤害就会降低自身受到的所有伤害，减伤达到上限后将强制丢弃我方手牌中全部红卡并重置减伤效果。另外，每隔一定时间会清除我方全体的增益效果。",
     "enemyDrop": [
       {
         "id": 11700217
@@ -109554,7 +109554,7 @@
         "skillId": 12302205
       }
     ],
-    "hp_SN": 81000000,
+    "hp_SN": 90000000,
     "def_SN": 900000,
     "atk_SN": 900000,
     "atkSpeed_SN": 1000000,
@@ -123363,15 +123363,6 @@
         "skillId": 12301444
       },
       {
-        "skillId": 12301440
-      },
-      {
-        "skillId": 12301441
-      },
-      {
-        "skillId": 12301439
-      },
-      {
         "skillId": 12301433
       },
       {
@@ -123469,20 +123460,16 @@
     "battleDes": "",
     "safeInformation": "",
     "unitInformation": "",
-    "enemyDrop": [
-      {
-        "id": 11700217
-      },
-      {
-        "id": 11700218
-      },
-      {
-        "id": 11700226
-      }
-    ],
+    "enemyDrop": [],
     "abilityList": [
       {
-        "id": 12600948
+        "id": 12600946
+      },
+      {
+        "id": 12601508
+      },
+      {
+        "id": 12600929
       }
     ],
     "weaknessList": [
@@ -123497,15 +123484,6 @@
       }
     ],
     "resistanceList": [
-      {
-        "id": 12600992
-      },
-      {
-        "id": 12600991
-      },
-      {
-        "id": 12600989
-      },
       {
         "id": 12600972
       },
@@ -145050,9 +145028,9 @@
         "skillId": 12303307
       }
     ],
-    "hp_SN": 86000000,
-    "def_SN": 860000,
-    "atk_SN": 860000,
+    "hp_SN": 88000000,
+    "def_SN": 880000,
+    "atk_SN": 880000,
     "atkSpeed_SN": 1000000,
     "luck_SN": 0,
     "line": 3,
@@ -145181,17 +145159,17 @@
     "isSpine2": 1,
     "homeSkillList": [
       {
-        "id": 83900167,
+        "id": 83900249,
         "nextIndex": 3,
         "resonanceLv": 1
       },
       {
-        "id": 83900169,
+        "id": 83900248,
         "nextIndex": 0,
         "resonanceLv": 4
       },
       {
-        "id": 83900168,
+        "id": 83900250,
         "nextIndex": -1,
         "resonanceLv": 5
       }
@@ -147054,6 +147032,9 @@
       },
       {
         "skillId": 12301372
+      },
+      {
+        "skillId": 12303357
       }
     ],
     "hp_SN": 310000000,
@@ -147173,6 +147154,441 @@
     "enemySkillList": [
       {
         "id": 80306758
+      }
+    ]
+  },
+  {
+    "id": 10000858,
+    "idCN": "无限深渊/02期/归墟-1",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "“归墟”",
+    "EnglishName": "",
+    "viewId": 11000550,
+    "skinList": [],
+    "sideId": 12601357,
+    "controllerId": 10300556,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": 90100009,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600278
+      },
+      {
+        "tagId": 12601655
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301411
+      },
+      {
+        "skillId": 12301442
+      },
+      {
+        "skillId": 12301444
+      },
+      {
+        "skillId": 12301433
+      },
+      {
+        "skillId": 12301527
+      },
+      {
+        "skillId": 12301526
+      },
+      {
+        "skillId": 12303025
+      },
+      {
+        "skillId": 12303513
+      }
+    ],
+    "hp_SN": 3200000000,
+    "def_SN": 800000,
+    "atk_SN": 800000,
+    "atkSpeed_SN": 800000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000487,
+    "growthTagList": [
+      {
+        "growthTagId": 12000353
+      },
+      {
+        "growthTagId": 12000060
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [],
+    "talentList": [],
+    "rewardList": [],
+    "actionStandID": 10103937,
+    "actionMoveID": 10103971,
+    "actionAttackedID": 10103974,
+    "actionAttackedBackID": 10103973,
+    "actionKnockUpID": -1,
+    "actionStunID": 10103980,
+    "actionDeadID": 10103972,
+    "actionVictoryID": -1,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 40000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 40000,
+    "hitAreaHalfWidth_SN": 25000,
+    "hitAreaHalfHeight_SN": 40000,
+    "canOverMaxSpeed": false,
+    "battleDes": "",
+    "safeInformation": "",
+    "unitInformation": "",
+    "enemyDrop": [],
+    "abilityList": [
+      {
+        "id": 12600946
+      },
+      {
+        "id": 12601508
+      },
+      {
+        "id": 12600929
+      }
+    ],
+    "weaknessList": [
+      {
+        "id": 12600993
+      },
+      {
+        "id": 12600980
+      },
+      {
+        "id": 12601001
+      }
+    ],
+    "resistanceList": [
+      {
+        "id": 12600972
+      },
+      {
+        "id": 12600956
+      },
+      {
+        "id": 12600968
+      }
+    ],
+    "enemyType": 12601048,
+    "enemyCamp": 12601045,
+    "enemyBookId": 10000981,
+    "prisonerDrop": [],
+    "enemySkillList": [
+      {
+        "id": 80306762
+      }
+    ]
+  },
+  {
+    "id": 10000859,
+    "idCN": "无限深渊/02期/归墟-2",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "“归墟”",
+    "EnglishName": "",
+    "viewId": 11000550,
+    "skinList": [],
+    "sideId": 12601357,
+    "controllerId": 10300556,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": 90100009,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600278
+      },
+      {
+        "tagId": 12601655
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301411
+      },
+      {
+        "skillId": 12301442
+      },
+      {
+        "skillId": 12301444
+      },
+      {
+        "skillId": 12301433
+      },
+      {
+        "skillId": 12301527
+      },
+      {
+        "skillId": 12301526
+      },
+      {
+        "skillId": 12303025
+      },
+      {
+        "skillId": 12303513
+      }
+    ],
+    "hp_SN": 3200000000,
+    "def_SN": 800000,
+    "atk_SN": 800000,
+    "atkSpeed_SN": 800000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000487,
+    "growthTagList": [
+      {
+        "growthTagId": 12000353
+      },
+      {
+        "growthTagId": 12000060
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [],
+    "talentList": [],
+    "rewardList": [],
+    "actionStandID": 10103937,
+    "actionMoveID": 10103971,
+    "actionAttackedID": 10103974,
+    "actionAttackedBackID": 10103973,
+    "actionKnockUpID": -1,
+    "actionStunID": 10103980,
+    "actionDeadID": 10103972,
+    "actionVictoryID": -1,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 40000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 40000,
+    "hitAreaHalfWidth_SN": 25000,
+    "hitAreaHalfHeight_SN": 40000,
+    "canOverMaxSpeed": false,
+    "battleDes": "",
+    "safeInformation": "",
+    "unitInformation": "",
+    "enemyDrop": [],
+    "abilityList": [
+      {
+        "id": 12600946
+      },
+      {
+        "id": 12601508
+      },
+      {
+        "id": 12600929
+      }
+    ],
+    "weaknessList": [
+      {
+        "id": 12600993
+      },
+      {
+        "id": 12600980
+      },
+      {
+        "id": 12601001
+      }
+    ],
+    "resistanceList": [
+      {
+        "id": 12600972
+      },
+      {
+        "id": 12600956
+      },
+      {
+        "id": 12600968
+      }
+    ],
+    "enemyType": 12601048,
+    "enemyCamp": 12601045,
+    "enemyBookId": 10000981,
+    "prisonerDrop": [],
+    "enemySkillList": [
+      {
+        "id": 80306761
+      }
+    ]
+  },
+  {
+    "id": 10000860,
+    "idCN": "无限深渊/02期/归墟-3",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "“归墟”",
+    "EnglishName": "",
+    "viewId": 11000550,
+    "skinList": [],
+    "sideId": 12601357,
+    "controllerId": 10300556,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": 90100009,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600278
+      },
+      {
+        "tagId": 12601655
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301411
+      },
+      {
+        "skillId": 12301442
+      },
+      {
+        "skillId": 12301444
+      },
+      {
+        "skillId": 12301433
+      },
+      {
+        "skillId": 12301527
+      },
+      {
+        "skillId": 12301526
+      },
+      {
+        "skillId": 12303025
+      },
+      {
+        "skillId": 12303513
+      }
+    ],
+    "hp_SN": 3200000000,
+    "def_SN": 800000,
+    "atk_SN": 800000,
+    "atkSpeed_SN": 800000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000487,
+    "growthTagList": [
+      {
+        "growthTagId": 12000353
+      },
+      {
+        "growthTagId": 12000060
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [],
+    "talentList": [],
+    "rewardList": [],
+    "actionStandID": 10103937,
+    "actionMoveID": 10103971,
+    "actionAttackedID": 10103974,
+    "actionAttackedBackID": 10103973,
+    "actionKnockUpID": -1,
+    "actionStunID": 10103980,
+    "actionDeadID": 10103972,
+    "actionVictoryID": -1,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 40000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 40000,
+    "hitAreaHalfWidth_SN": 25000,
+    "hitAreaHalfHeight_SN": 40000,
+    "canOverMaxSpeed": false,
+    "battleDes": "",
+    "safeInformation": "",
+    "unitInformation": "",
+    "enemyDrop": [],
+    "abilityList": [
+      {
+        "id": 12600946
+      },
+      {
+        "id": 12601508
+      },
+      {
+        "id": 12600929
+      }
+    ],
+    "weaknessList": [
+      {
+        "id": 12600993
+      },
+      {
+        "id": 12600980
+      },
+      {
+        "id": 12601001
+      }
+    ],
+    "resistanceList": [
+      {
+        "id": 12600972
+      },
+      {
+        "id": 12600956
+      },
+      {
+        "id": 12600968
+      }
+    ],
+    "enemyType": 12601048,
+    "enemyCamp": 12601045,
+    "enemyBookId": 10000981,
+    "prisonerDrop": [],
+    "enemySkillList": [
+      {
+        "id": 80306760
       }
     ]
   }

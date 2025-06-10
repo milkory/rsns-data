@@ -5969,7 +5969,8 @@
     "techPoints": 100,
     "skinID": -1,
     "isDisplayInMaterialWare": false,
-    "isDisplayInFinishedlWare": false
+    "isDisplayInFinishedlWare": false,
+    "isDisplayInKeyWare": false
   },
   {
     "id": 11400099,
@@ -15858,9 +15859,14 @@
         "itemId": 82600699,
         "num": 1,
         "weight": 1
+      },
+      {
+        "itemId": 82600736,
+        "num": 1,
+        "weight": 1
       }
     ],
-    "des": "由环游手册编辑部寄来的特殊胶片，每张都保留了旅途中的珍贵回忆。凭此留影胶片，<size=25><color=#FFB800>可在以下往期【环游手册·无垠】奖励包含的头像中任选其中一套。</color></size>\r\\n爆破艺术、饿鹅、好奇玛、桦事人、惬意、约书汪、逐夏一瞥、自彼方莱、啪啦滴、噼咔球、只在刹那、“我”",
+    "des": "由环游手册编辑部寄来的特殊胶片，每张都保留了旅途中的珍贵回忆。凭此留影胶片，<size=25><color=#FFB800>可在以下往期【环游手册·无垠】奖励包含的头像中任选其中一套。</color></size>\r\\n爆破艺术、饿鹅、好奇玛、桦事人、惬意、约书汪、逐夏一瞥、自彼方莱、啪啦滴、噼咔球、只在刹那、“我”、随叫随到",
     "iconPath": "Item\\item\\Small\\touxiangpiao",
     "tipsPath": "Item\\item\\Big\\touxiangpiao",
     "buyPath": "Item\\item\\Small\\touxiangpiao",
@@ -15890,6 +15896,7 @@
     "skinID": -1,
     "isDisplayInMaterialWare": false,
     "isDisplayInFinishedlWare": false,
+    "isDisplayInKeyWare": false,
     "chosekind": "其他",
     "SkinChooseList": [],
     "isShowProbability": false,
@@ -15966,9 +15973,14 @@
         "itemId": 11000537,
         "num": 1,
         "weight": 1
+      },
+      {
+        "itemId": 11000554,
+        "num": 1,
+        "weight": 1
       }
     ],
-    "des": "由环游手册编辑部与瞳仁服装店联手提供的特殊兑换服务，可为乘员量身定制一套合适的服装。凭此订制券，<size=25><color=#FFB800>可在以下往期【环游手册·无垠】奖励包含的皮肤中任选其中一套。</color></size>\r\\n菲尼亚-甜梦捕手、莉薇娅-晨光和煦、阿尔喀娜-乐园之夜、卡莱雅-真心珍藏、霖-神机、冯·里奈-摇曳夏日、菲尼亚-海的女儿、卡莱雅-飞跃浪花、伊洛娜-孤独即兴、苏恩-书页与裙摆、妮蔻拉-雾罗绮、佩罗塔-意外大王",
+    "des": "由环游手册编辑部与瞳仁服装店联手提供的特殊兑换服务，可为乘员量身定制一套合适的服装。凭此订制券，<size=25><color=#FFB800>可在以下往期【环游手册·无垠】奖励包含的皮肤中任选其中一套。</color></size>\r\\n菲尼亚-甜梦捕手、莉薇娅-晨光和煦、阿尔喀娜-乐园之夜、卡莱雅-真心珍藏、霖-神机、冯·里奈-摇曳夏日、菲尼亚-海的女儿、卡莱雅-飞跃浪花、伊洛娜-孤独即兴、苏恩-书页与裙摆、妮蔻拉-雾罗绮、佩罗塔-意外大王、星花-今夜的水晶鞋",
     "iconPath": "Item\\item\\Small\\skinpiao",
     "tipsPath": "Item\\item\\Big\\skinpiao",
     "buyPath": "Item\\item\\Small\\skinpiao",
@@ -15998,6 +16010,7 @@
     "skinID": -1,
     "isDisplayInMaterialWare": false,
     "isDisplayInFinishedlWare": false,
+    "isDisplayInKeyWare": false,
     "chosekind": "皮肤",
     "SkinChooseList": [
       {
@@ -16071,6 +16084,12 @@
         "skinfree": 680,
         "skinrole": "RolePlus/Pelota/Maid/Face",
         "skinshow": "UI/Common/ChoseSkin/sold/Pelota_Maid"
+      },
+      {
+        "skin": 11000554,
+        "skinfree": 680,
+        "skinrole": "RolePlus/Stella/Gown/Face",
+        "skinshow": "UI/Common/ChoseSkin/sold/Stella_Gown"
       }
     ],
     "isShowProbability": false,
@@ -31211,7 +31230,7 @@
     "name": "直觉·神会",
     "viewId": -1,
     "quality": "Golden",
-    "des": "使用后，当前位面行动回合数+1",
+    "des": "使用后，当前行动回合移动次数+1",
     "iconPath": "UI/CubeRogue/ItemTouzi/500/zhijueshenhui",
     "tipsPath": "UI/CubeRogue/ItemTouzi/180/zhijueshenhui",
     "buyPath": "",
@@ -31219,6 +31238,7 @@
     "sort": 0,
     "isShowNum": true,
     "isNotDisplayInBag": true,
+    "useLimitNum": 1,
     "endTime": "",
     "saletype": "NotSale",
     "rewardList": [],
@@ -31228,8 +31248,7 @@
     "isDisplayInMaterialWare": false,
     "isDisplayInFinishedlWare": false,
     "isDisplayInKeyWare": false,
-    "cubeItemEffect": 89900322,
-    "useLimitNum": 1,
+    "cubeItemEffect": 89900053,
     "diceListId": -1
   },
   {
@@ -31277,6 +31296,7 @@
     "sort": 0,
     "isShowNum": true,
     "isNotDisplayInBag": true,
+    "useLimitNum": 1,
     "endTime": "",
     "saletype": "NotSale",
     "rewardList": [],
@@ -31287,7 +31307,6 @@
     "isDisplayInFinishedlWare": false,
     "isDisplayInKeyWare": false,
     "cubeItemEffect": 89900320,
-    "useLimitNum": 1,
     "diceListId": -1
   },
   {
@@ -31392,7 +31411,7 @@
     "textIcon": "",
     "sort": 0,
     "isShowNum": true,
-    "isNotDisplayInBag": false,
+    "isNotDisplayInBag": true,
     "useLimitNum": 1,
     "endTime": "",
     "saletype": "NotSale",
@@ -31942,5 +31961,92 @@
     "isDisplayInMaterialWare": false,
     "isDisplayInFinishedlWare": false,
     "isDisplayInKeyWare": true
+  },
+  {
+    "id": 11400706,
+    "idCN": "魔方肉鸽/局内道具/直觉·囚徒",
+    "mod": "魔方局内道具",
+    "isInformalData": false,
+    "name": "直觉·囚徒",
+    "viewId": -1,
+    "quality": "Purple",
+    "des": "使用后，【位面奇点】行动回合移动次数-1",
+    "iconPath": "UI/CubeRogue/ItemTouzi/500/zhijueyixin",
+    "tipsPath": "UI/CubeRogue/ItemTouzi/180/zhijueyixin",
+    "buyPath": "",
+    "textIcon": "",
+    "sort": 0,
+    "isShowNum": true,
+    "isNotDisplayInBag": true,
+    "useLimitNum": 1,
+    "endTime": "",
+    "saletype": "NotSale",
+    "rewardList": [],
+    "Getway": [],
+    "techPoints": 100,
+    "skinID": -1,
+    "isDisplayInMaterialWare": false,
+    "isDisplayInFinishedlWare": false,
+    "isDisplayInKeyWare": false,
+    "cubeItemEffect": 89900313,
+    "diceListId": -1
+  },
+  {
+    "id": 11400707,
+    "idCN": "魔方肉鸽/局内道具/直觉·困兽",
+    "mod": "魔方局内道具",
+    "isInformalData": false,
+    "name": "直觉·困兽",
+    "viewId": -1,
+    "quality": "Golden",
+    "des": "使用后，【位面奇点】行动回合转动次数-1",
+    "iconPath": "UI/CubeRogue/ItemTouzi/500/zhijueyixin",
+    "tipsPath": "UI/CubeRogue/ItemTouzi/180/zhijueyixin",
+    "buyPath": "",
+    "textIcon": "",
+    "sort": 0,
+    "isShowNum": true,
+    "isNotDisplayInBag": true,
+    "useLimitNum": 1,
+    "endTime": "",
+    "saletype": "NotSale",
+    "rewardList": [],
+    "Getway": [],
+    "techPoints": 100,
+    "skinID": -1,
+    "isDisplayInMaterialWare": false,
+    "isDisplayInFinishedlWare": false,
+    "isDisplayInKeyWare": false,
+    "cubeItemEffect": 89900314,
+    "diceListId": -1
+  },
+  {
+    "id": 11400708,
+    "idCN": "魔方肉鸽/局内道具/直觉·隧穿",
+    "mod": "魔方局内道具",
+    "isInformalData": false,
+    "name": "直觉·隧穿",
+    "viewId": -1,
+    "quality": "Golden",
+    "des": "使用后，传送至【位面奇点】所在地格",
+    "iconPath": "UI/CubeRogue/ItemTouzi/500/zhijueyixin",
+    "tipsPath": "UI/CubeRogue/ItemTouzi/180/zhijueyixin",
+    "buyPath": "",
+    "textIcon": "",
+    "sort": 0,
+    "isShowNum": true,
+    "isNotDisplayInBag": true,
+    "useLimitNum": 1,
+    "endTime": "",
+    "saletype": "NotSale",
+    "rewardList": [],
+    "Getway": [],
+    "techPoints": 100,
+    "skinID": -1,
+    "isDisplayInMaterialWare": false,
+    "isDisplayInFinishedlWare": false,
+    "isDisplayInKeyWare": false,
+    "cubeItemEffect": 89900075,
+    "diceListId": -1
   }
 ]

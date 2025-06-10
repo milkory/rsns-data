@@ -2839,21 +2839,27 @@
   },
   {
     "id": 89900313,
-    "idCN": "直觉/坚守",
-    "mod": "属性",
+    "idCN": "直觉/怪物行动/移动次数减一",
+    "mod": "直觉",
     "isInformalData": false,
-    "orderType": "Battle",
+    "orderType": "DecMonsterStepNum",
     "skillId": -1,
-    "param": 0.0
+    "battleBuffType": "Boss关卡生效",
+    "recoverType": "Present",
+    "param": 0.0,
+    "isReuse": false
   },
   {
     "id": 89900314,
-    "idCN": "直觉/一心",
-    "mod": "属性",
+    "idCN": "直觉/怪物行动/转动次数减一",
+    "mod": "直觉",
     "isInformalData": false,
-    "orderType": "Battle",
+    "orderType": "DecMonsterSpinNum",
     "skillId": -1,
-    "param": 0.0
+    "battleBuffType": "Boss关卡生效",
+    "recoverType": "Present",
+    "param": 0.0,
+    "isReuse": false
   },
   {
     "id": 89900109,
@@ -3073,6 +3079,18 @@
     "probability": 1.0
   },
   {
+    "id": 89900075,
+    "idCN": "直觉/传送/传送至奇点",
+    "mod": "直觉",
+    "isInformalData": false,
+    "orderType": "TpBoss",
+    "skillId": -1,
+    "battleBuffType": "所有关卡生效",
+    "recoverType": "Present",
+    "param": 0.0,
+    "isReuse": false
+  },
+  {
     "id": 89900113,
     "idCN": "血量/增加0.25",
     "mod": "血量恢复",
@@ -3080,5 +3098,25 @@
     "orderType": "Recover",
     "recoverType": "Upper",
     "param": 0.25
+  },
+  {
+    "id": 89900066,
+    "idCN": "局外技能/机制/08解锁直觉格子",
+    "mod": "直觉格子数量",
+    "isInformalData": false,
+    "orderType": "instinctAddNum",
+    "param": 1.0
+  },
+  {
+    "id": 89900053,
+    "idCN": "直觉/行动/移动次数加1",
+    "mod": "直觉",
+    "isInformalData": false,
+    "orderType": "StepNumItem",
+    "skillId": -1,
+    "battleBuffType": "Boss关卡生效",
+    "recoverType": "Present",
+    "param": 1.0,
+    "isReuse": true
   }
 ]
