@@ -322,7 +322,7 @@
     "orderType": "initialGet",
     "initialGetList": [
       {
-        "id": 11400685,
+        "id": 11400683,
         "num": 1
       }
     ]
@@ -2846,7 +2846,7 @@
     "skillId": -1,
     "battleBuffType": "Boss关卡生效",
     "recoverType": "Present",
-    "param": 0.0,
+    "param": 1.0,
     "isReuse": false
   },
   {
@@ -2858,7 +2858,7 @@
     "skillId": -1,
     "battleBuffType": "Boss关卡生效",
     "recoverType": "Present",
-    "param": 0.0,
+    "param": 1.0,
     "isReuse": false
   },
   {
@@ -3118,5 +3118,38 @@
     "recoverType": "Present",
     "param": 1.0,
     "isReuse": true
+  },
+  {
+    "id": 89900114,
+    "idCN": "局外技能/机制/09解锁觉醒",
+    "mod": "解锁觉醒",
+    "isInformalData": false,
+    "orderType": "ActivateAwake"
+  },
+  {
+    "id": 89900115,
+    "idCN": "局外技能/机制/10招募人数",
+    "mod": "初始招募人数",
+    "isInformalData": false,
+    "orderType": "CharNum",
+    "param": 1.0
+  },
+  {
+    "id": 89900116,
+    "idCN": "血量/减少0.25",
+    "mod": "血量恢复",
+    "isInformalData": false,
+    "orderType": "Recover",
+    "recoverType": "Present",
+    "param": -0.25
+  },
+  {
+    "id": 89900117,
+    "idCN": "血量/增加1",
+    "mod": "血量恢复",
+    "isInformalData": false,
+    "orderType": "Recover",
+    "recoverType": "Upper",
+    "param": 1.0
   }
 ]

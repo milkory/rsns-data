@@ -282,8 +282,8 @@
     "name": "盈缺·参横",
     "quality": "Purple",
     "iconPath": "UI/CubeRogue/TacticsIcon/SkillIcon/YingQue_ZhuZhao",
-    "des": "每次战斗开局时，移除我方全体50%当前生命值，同时使我方全体攻击力和防御力+10%",
-    "intensifyDes": "每次战斗开局时，移除我方全体50%当前生命值，同时使我方全体攻击力和防御力+20%",
+    "des": "每次战斗开局时，移除我方全体50%当前生命值，同时使我方全体攻击力和防御力+15%",
+    "intensifyDes": "每次战斗开局时，移除我方全体50%当前生命值，同时使我方全体攻击力和防御力+25%",
     "effect": 12303317,
     "intensifyEffect": 12303185,
     "correspondingTeam": 89700001,
@@ -395,7 +395,7 @@
     "skillEffect": 89900090,
     "preSkillList": [
       {
-        "id": 89500029
+        "id": 89500035
       }
     ],
     "rogueId": 89400002
@@ -423,7 +423,7 @@
     "skillEffect": 89900078,
     "preSkillList": [
       {
-        "id": 89500145
+        "id": 89500162
       }
     ],
     "rogueId": 89400002
@@ -439,7 +439,7 @@
     "skillEffect": 89900077,
     "preSkillList": [
       {
-        "id": 89500029
+        "id": 89500035
       }
     ],
     "rogueId": 89400002
@@ -453,11 +453,7 @@
     "des": "获得3个同下潜策略的推力时，激活该策略共振天赋2",
     "iconPath": "UI/CubeRogue/Skill/Icon/Icon_Shi_2",
     "skillEffect": 89900025,
-    "preSkillList": [
-      {
-        "id": 89500026
-      }
-    ],
+    "preSkillList": [],
     "rogueId": 89400002
   },
   {
@@ -485,17 +481,7 @@
     "des": "获得4个同下潜策略的推力时，激活该策略共振天赋3",
     "iconPath": "UI/CubeRogue/Skill/Icon/Icon_Shi_3",
     "skillEffect": 89900025,
-    "preSkillList": [
-      {
-        "id": 89500025
-      },
-      {
-        "id": 89500028
-      },
-      {
-        "id": 89500150
-      }
-    ],
+    "preSkillList": [],
     "rogueId": 89400002
   },
   {
@@ -557,16 +543,16 @@
   },
   {
     "id": 89500052,
-    "idCN": "05推力/回生/紫-蓬勃",
+    "idCN": "05推力/回生/紫-决死",
     "mod": "局内Buff",
     "isInformalData": false,
-    "name": "回生·蓬勃",
+    "name": "回生·决死",
     "quality": "Purple",
     "iconPath": "UI/CubeRogue/TacticsIcon/SkillIcon/HuiSheng_PengBo",
-    "des": "我方【普通攻击】时，额外造成5%自身最大生命值的负能伤害",
-    "intensifyDes": "我方【普通攻击】时，额外造成10%自身最大生命值的负能伤害",
-    "effect": 12303175,
-    "intensifyEffect": 12303293,
+    "des": "任意我方生命值低于20%时，对敌方全体造成100%我方全体最大生命值之和的负能伤害，同时触发【蚀灭】，各限1次",
+    "intensifyDes": "任意我方生命值低于20%时，对敌方全体造成200%我方全体最大生命值之和的负能伤害，同时触发【蚀灭】，各限1次",
+    "effect": 12303344,
+    "intensifyEffect": 12303220,
     "correspondingTeam": 89700002,
     "intensifyList": [
       {
@@ -635,16 +621,16 @@
   },
   {
     "id": 89500045,
-    "idCN": "05推力/回生/蓝-激活",
+    "idCN": "05推力/回生/蓝-焕发",
     "mod": "局内Buff",
     "isInformalData": false,
-    "name": "回生·激活",
+    "name": "回生·焕发",
     "quality": "Blue",
     "iconPath": "UI/CubeRogue/TacticsIcon/SkillIcon/HuiSheng_JiHuo",
-    "des": "我方全体造成的治疗效果提高15%",
-    "intensifyDes": "我方全体造成的治疗效果提高25%",
-    "effect": 12303208,
-    "intensifyEffect": 12303327,
+    "des": "打出红卡时，基于该卡费用对随机敌方触发等量【点燃】",
+    "intensifyDes": "打出或丢弃红卡时，基于该卡费用对随机敌方触发等量【点燃】",
+    "effect": 12303173,
+    "intensifyEffect": 12303328,
     "correspondingTeam": 89700002,
     "intensifyList": [
       {
@@ -740,16 +726,16 @@
   },
   {
     "id": 89500050,
-    "idCN": "05推力/回生/紫-反蚀",
+    "idCN": "05推力/回生/紫-激活",
     "mod": "局内Buff",
     "isInformalData": false,
-    "name": "回生·反蚀",
+    "name": "回生·激活",
     "quality": "Purple",
     "iconPath": "UI/CubeRogue/TacticsIcon/SkillIcon/HuiSheng_FanShi",
-    "des": "我方造成直接治疗时，对敌方全体造成10%当前生命值的负能伤害\\n每秒回复类治疗效果除外",
-    "intensifyDes": "我方造成直接治疗时，对敌方全体造成20%当前生命值的负能伤害\\n每秒回复类治疗效果除外",
-    "effect": 12303176,
-    "intensifyEffect": 12303292,
+    "des": "使用带有【生命值回复】效果的卡牌时，我方全体攻击力和防御力+3，上限150",
+    "intensifyDes": "使用带有【生命值回复】效果的卡牌时，我方全体攻击力和防御力+3，上限150",
+    "effect": 12303208,
+    "intensifyEffect": 12303327,
     "correspondingTeam": 89700002,
     "intensifyList": [
       {
@@ -884,16 +870,16 @@
   },
   {
     "id": 89500044,
-    "idCN": "05推力/回生/紫-焕发",
+    "idCN": "05推力/回生/紫-弥新",
     "mod": "局内Buff",
     "isInformalData": false,
-    "name": "回生·焕发",
+    "name": "回生·弥新",
     "quality": "Purple",
     "iconPath": "UI/CubeRogue/TacticsIcon/SkillIcon/HuiSheng_HuanFa",
-    "des": "打出绿卡后，额外回复生命值最低的我方5%生命值",
-    "intensifyDes": "打出绿卡后，额外回复生命值最低的我方10%生命值",
-    "effect": 12303173,
-    "intensifyEffect": 12303328,
+    "des": "每生成1张卡牌，回复我方全体500点生命值，且能超出生命值上限",
+    "intensifyDes": "每生成1张卡牌，回复我方全体1000点生命值，且能超出生命值上限",
+    "effect": 12303201,
+    "intensifyEffect": 12303202,
     "correspondingTeam": 89700002,
     "intensifyList": [
       {
@@ -950,16 +936,16 @@
   },
   {
     "id": 89500055,
-    "idCN": "05推力/回生/金-弥新",
+    "idCN": "05推力/回生/金-反蚀",
     "mod": "局内Buff",
     "isInformalData": false,
-    "name": "回生·弥新",
+    "name": "回生·反蚀",
     "quality": "Golden",
     "iconPath": "UI/CubeRogue/TacticsIcon/SkillIcon/HuiSheng_MiXin",
-    "des": "我方持有【护盾】时，每秒生命值上限+1000",
-    "intensifyDes": "我方持有【护盾】时，每秒生命值上限+2000",
-    "effect": 12303201,
-    "intensifyEffect": 12303202,
+    "des": "使用【队长技】时，对敌方全体造成30%我方全体最大生命值之和的负能伤害，同时触发【蚀灭】",
+    "intensifyDes": "使用【队长技】时，对敌方全体造成50%我方全体最大生命值之和的负能伤害 ，同时触发【蚀灭】",
+    "effect": 12303176,
+    "intensifyEffect": 12303292,
     "correspondingTeam": 89700002,
     "intensifyList": [
       {
@@ -978,8 +964,8 @@
     "name": "回生·养心",
     "quality": "Blue",
     "iconPath": "UI/CubeRogue/TacticsIcon/SkillIcon/HuiSheng_YangXin",
-    "des": "打出绿卡时，我方全体生命值上限+2000",
-    "intensifyDes": "打出绿卡时，我方全体生命值上限+3000",
+    "des": "使用带有【生命值回复】效果的卡牌时，我方全体生命值上限+2000",
+    "intensifyDes": "使用带有【生命值回复】效果的卡牌时，我方全体生命值上限+2000",
     "effect": 12303209,
     "intensifyEffect": 12303322,
     "correspondingTeam": 89700002,
@@ -1039,8 +1025,8 @@
     "name": "捍卫·职守",
     "quality": "Blue",
     "iconPath": "UI/CubeRogue/TacticsIcon/SkillIcon/HanWei_ZhiShou",
-    "des": "每次战斗开局时，我方全体获得【护盾】，护盾耐久为目标已损失生命值的30%",
-    "intensifyDes": "每次战斗开局时，我方全体获得【护盾】，护盾耐久为目标已损失生命值的50%",
+    "des": "每次战斗开局时，我方全体获得【护盾】，护盾耐久为目标已损失生命值的30%，持续10秒",
+    "intensifyDes": "每次战斗开局时，我方全体获得【护盾】，护盾耐久为目标已损失生命值的50%，持续10秒",
     "effect": 12303345,
     "intensifyEffect": 12303237,
     "correspondingTeam": 89700003,
@@ -1116,16 +1102,16 @@
   },
   {
     "id": 89500065,
-    "idCN": "05推力/回生/金-决死",
+    "idCN": "05推力/回生/金-蓬勃",
     "mod": "局内Buff",
     "isInformalData": false,
-    "name": "回生·决死",
+    "name": "回生·蓬勃",
     "quality": "Golden",
     "iconPath": "UI/CubeRogue/TacticsIcon/SkillIcon/HuiSheng_JueSi",
-    "des": "任意1名我方生命值低于20%时，对敌方全体造成300%自身生命值上限的负能伤害，各限1次",
-    "intensifyDes": "任意1名我方生命值低于20%时，对敌方全体造成500%自身生命值上限的负能伤害，各限1次",
-    "effect": 12303344,
-    "intensifyEffect": 12303220,
+    "des": "打出绿卡时，基于该卡费用对随机敌方触发等量【炽地】\\n丢弃绿卡时，基于该卡费用对随机敌方触发等量【轰雷】",
+    "intensifyDes": "打出绿卡时，基于该卡费用对随机敌方触发等量【炽地】\\n丢弃绿卡时，基于该卡费用对随机敌方触发等量【轰雷】\\n获得绿卡时，基于该卡费用对随机敌方触发等量【冻伤】",
+    "effect": 12303175,
+    "intensifyEffect": 12303293,
     "correspondingTeam": 89700002,
     "intensifyList": [
       {
@@ -1144,8 +1130,8 @@
     "name": "捍卫·沉舟",
     "quality": "Purple",
     "iconPath": "UI/CubeRogue/TacticsIcon/SkillIcon/HanWei_ChenZhou",
-    "des": "每次战斗开局时，移除我方全体30%当前生命值并转化为双倍量耐久的【护盾】",
-    "intensifyDes": "每次战斗开局时，移除我方全体50%当前生命值并转化为双倍量耐久的【护盾】",
+    "des": "每次战斗开局时，移除我方全体10%当前生命值并转化为双倍量耐久的【护盾】，持续20秒",
+    "intensifyDes": "每次战斗开局时，移除我方全体15%当前生命值并转化为双倍量耐久的【护盾】，持续30秒",
     "effect": 12303350,
     "intensifyEffect": 12303240,
     "correspondingTeam": 89700003,
@@ -1210,8 +1196,8 @@
     "name": "捍卫·补济",
     "quality": "Blue",
     "iconPath": "UI/CubeRogue/TacticsIcon/SkillIcon/HanWei_BuJi",
-    "des": "我方获得【护盾】时，回复【护盾】持有者3%生命值",
-    "intensifyDes": "我方获得【护盾】时，回复【护盾】持有者5%生命值",
+    "des": "任意我方获得【护盾】时，回复3%生命值，同时获得0.1点费用",
+    "intensifyDes": "任意我方获得【护盾】时，回复5%生命值，同时获得0.2点费用",
     "effect": 12303338,
     "intensifyEffect": 12303230,
     "correspondingTeam": 89700003,
@@ -1232,8 +1218,8 @@
     "name": "捍卫·压阵",
     "quality": "Purple",
     "iconPath": "UI/CubeRogue/TacticsIcon/SkillIcon/HanWei_YaZhen",
-    "des": "使我方前排受到的最终伤害增加5%，我方后排受到的最终伤害降低10%",
-    "intensifyDes": "使我方前排受到的最终伤害增加10%，我方后排受到的最终伤害降低20%",
+    "des": "使用【弃牌】指令时，使我方前排获得【护盾】，护盾耐久为目标生命值上限的10%，持续10秒",
+    "intensifyDes": "使用【弃牌】指令时，使我方全体获得【护盾】，护盾耐久为目标生命值上限的10%，持续10秒",
     "effect": 12303346,
     "intensifyEffect": 12303242,
     "correspondingTeam": 89700003,
@@ -1343,14 +1329,14 @@
   },
   {
     "id": 89500077,
-    "idCN": "05推力/捍卫/紫-据守",
+    "idCN": "05推力/捍卫/紫-守御",
     "mod": "局内Buff",
     "isInformalData": false,
-    "name": "捍卫·据守",
+    "name": "捍卫·守御",
     "quality": "Purple",
     "iconPath": "UI/CubeRogue/TacticsIcon/SkillIcon/HanWei_JuShou",
-    "des": "任意我方生命值低于50%时，获得【护盾】，护盾耐久为目标生命值上限的20%，各限1次",
-    "intensifyDes": "任意我方生命值低于50%时，获得【护盾】，护盾耐久为目标生命值上限的30%，各限1次",
+    "des": "使用【队长技】时，使生命值最低的1名我方获得【护盾】，护盾耐久为目标生命值上限的10%，持续10秒",
+    "intensifyDes": "使用【队长技】时，使生命值最低的1名我方获得【护盾】，护盾耐久为目标生命值上限的20%，持续10秒",
     "effect": 12303351,
     "intensifyEffect": 12303218,
     "correspondingTeam": 89700003,
@@ -1387,14 +1373,14 @@
   },
   {
     "id": 89500079,
-    "idCN": "05推力/捍卫/蓝-溢流",
+    "idCN": "05推力/捍卫/蓝-据守",
     "mod": "局内Buff",
     "isInformalData": false,
-    "name": "捍卫·溢流",
+    "name": "捍卫·据守",
     "quality": "Blue",
     "iconPath": "UI/CubeRogue/TacticsIcon/SkillIcon/HanWei_YiLiu",
-    "des": "我方每获得1个【护盾】，获得0.1点费用",
-    "intensifyDes": "我方每获得1个【护盾】，获得0.2点费用",
+    "des": "任意我方生命值低于50%时，获得【护盾】，护盾耐久为目标生命值上限的20%，持续10秒，各限1次",
+    "intensifyDes": "任意我方生命值低于50%时，获得【护盾】，护盾耐久为目标生命值上限的30%，持续10秒，各限1次",
     "effect": 12303339,
     "intensifyEffect": 12303231,
     "correspondingTeam": 89700003,
@@ -1440,7 +1426,7 @@
     "skillEffect": 89900094,
     "preSkillList": [
       {
-        "id": 89500029
+        "id": 89500035
       }
     ],
     "rogueId": 89400002
@@ -1456,7 +1442,7 @@
     "skillEffect": 89900093,
     "preSkillList": [
       {
-        "id": 89500158
+        "id": 89500145
       }
     ],
     "rogueId": 89400002
@@ -1472,7 +1458,7 @@
     "skillEffect": 89900092,
     "preSkillList": [
       {
-        "id": 89500035
+        "id": 89500081
       }
     ],
     "rogueId": 89400002
@@ -1488,7 +1474,7 @@
     "skillEffect": 89900091,
     "preSkillList": [
       {
-        "id": 89500158
+        "id": 89500145
       }
     ],
     "rogueId": 89400002
@@ -1504,7 +1490,7 @@
     "skillEffect": 89900076,
     "preSkillList": [
       {
-        "id": 89500035
+        "id": 89500081
       }
     ],
     "rogueId": 89400002
@@ -1520,7 +1506,13 @@
     "skillEffect": 89900099,
     "preSkillList": [
       {
-        "id": 89500159
+        "id": 89500146
+      },
+      {
+        "id": 89500148
+      },
+      {
+        "id": 89500151
       }
     ],
     "rogueId": 89400002
@@ -1536,13 +1528,7 @@
     "skillEffect": 89900026,
     "preSkillList": [
       {
-        "id": 89500155
-      },
-      {
-        "id": 89500156
-      },
-      {
-        "id": 89500157
+        "id": 89500159
       }
     ],
     "rogueId": 89400002
@@ -1558,7 +1544,7 @@
     "skillEffect": 89900035,
     "preSkillList": [
       {
-        "id": 89500144
+        "id": 89500021
       }
     ],
     "rogueId": 89400002
@@ -1612,13 +1598,13 @@
     "skillEffect": 89900023,
     "preSkillList": [
       {
-        "id": 89500147
+        "id": 89500155
       },
       {
-        "id": 89500149
+        "id": 89500156
       },
       {
-        "id": 89500152
+        "id": 89500157
       }
     ],
     "rogueId": 89400002
@@ -1698,7 +1684,7 @@
     "skillEffect": 89900095,
     "preSkillList": [
       {
-        "id": 89500158
+        "id": 89500145
       }
     ],
     "rogueId": 89400002
@@ -1714,7 +1700,7 @@
     "skillEffect": 89900027,
     "preSkillList": [
       {
-        "id": 89500035
+        "id": 89500081
       }
     ],
     "rogueId": 89400002
@@ -1746,7 +1732,13 @@
     "skillEffect": 89900025,
     "preSkillList": [
       {
-        "id": 89500036
+        "id": 89500025
+      },
+      {
+        "id": 89500028
+      },
+      {
+        "id": 89500150
       }
     ],
     "rogueId": 89400002
@@ -1762,7 +1754,7 @@
     "skillEffect": 89900085,
     "preSkillList": [
       {
-        "id": 89500145
+        "id": 89500162
       }
     ],
     "rogueId": 89400002
@@ -1951,8 +1943,8 @@
     "name": "捍卫·斩棘",
     "quality": "Golden",
     "iconPath": "UI/CubeRogue/TacticsIcon/SkillIcon/HanWei_ZhanJi",
-    "des": "任意我方获得【护盾】时，攻击力+0.3%",
-    "intensifyDes": "任意我方获得【护盾】时，攻击力+0.5%",
+    "des": "任意我方获得【护盾】时，攻击力+0.5%",
+    "intensifyDes": "任意我方获得【护盾】时，攻击力+1%",
     "effect": 12303528,
     "intensifyEffect": 12303529,
     "correspondingTeam": 89700003,
@@ -1973,8 +1965,8 @@
     "name": "捍卫·不朽",
     "quality": "Golden",
     "iconPath": "UI/CubeRogue/TacticsIcon/SkillIcon/HanWei_BuXiu",
-    "des": "我方处于【无敌】状态时，每秒攻击力和防御力+1",
-    "intensifyDes": "我方处于【无敌】状态时，每秒攻击力和防御力+2",
+    "des": "任意我方濒死时，【无敌】5秒，各限1次\\n我方处于【无敌】状态时，每秒攻击力和防御力+2",
+    "intensifyDes": "任意我方濒死时，【无敌】10秒，各限1次\\n我方处于【无敌】状态时，每秒攻击力和防御力+3",
     "effect": 12303530,
     "intensifyEffect": 12303531,
     "correspondingTeam": 89700003,
@@ -1998,7 +1990,7 @@
     "skillEffect": 89900086,
     "preSkillList": [
       {
-        "id": 89500145
+        "id": 89500162
       }
     ],
     "rogueId": 89400002
@@ -2781,7 +2773,49 @@
     "des": "【直觉】的存放容量+1",
     "iconPath": "UI/CubeRogue/Skill/Icon/Icon_JiYun",
     "skillEffect": 89900066,
-    "preSkillList": [],
+    "preSkillList": [
+      {
+        "id": 89500147
+      },
+      {
+        "id": 89500149
+      },
+      {
+        "id": 89500152
+      }
+    ],
+    "rogueId": 89400002
+  },
+  {
+    "id": 89500081,
+    "idCN": "局外技能/机制/14解锁觉醒",
+    "mod": "局外技能",
+    "isInformalData": false,
+    "name": "洞彻",
+    "des": "位于【位面间隙】时，开启【队员觉醒】功能",
+    "iconPath": "UI/CubeRogue/Skill/Icon/Icon_Cun",
+    "skillEffect": 89900114,
+    "preSkillList": [
+      {
+        "id": 89500158
+      }
+    ],
+    "rogueId": 89400002
+  },
+  {
+    "id": 89500082,
+    "idCN": "局外技能/机制/15招募人员增加",
+    "mod": "局外技能",
+    "isInformalData": false,
+    "name": "洞彻",
+    "des": "【识海深潜】开始时，可招募队员数量+1",
+    "iconPath": "UI/CubeRogue/Skill/Icon/Icon_Cun",
+    "skillEffect": 89900115,
+    "preSkillList": [
+      {
+        "id": 89500036
+      }
+    ],
     "rogueId": 89400002
   }
 ]
