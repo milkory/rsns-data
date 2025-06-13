@@ -16753,14 +16753,6 @@
         "guideNO": 333
       },
       {
-        "guideId": 20900176,
-        "guideNO": 335
-      },
-      {
-        "guideId": 20900078,
-        "guideNO": 337
-      },
-      {
         "guideId": 20900190,
         "guideNO": 341
       },
@@ -17657,6 +17649,13 @@
         "prefab": "UI/Home_MachiningMenu/Home_MachiningMenu"
       },
       {
+        "funcId": 132,
+        "icon": "UI/MainUI/main_icon_Order",
+        "name": "拼单单",
+        "param": "",
+        "prefab": "UI/StageQuest/StageQuest"
+      },
+      {
         "funcId": 130,
         "icon": "UI/MainUI/main_icon_transport",
         "name": "客运管理",
@@ -18245,6 +18244,16 @@
         "iconPath": "",
         "isShow": false,
         "name": "游戏Wiki",
+        "playerLevel": 0,
+        "quest": -1,
+        "tips": -1
+      },
+      {
+        "funcId": 132,
+        "guideId": 0,
+        "iconPath": "UI/MainUI/main_icon_Order",
+        "isShow": false,
+        "name": "拼单单",
         "playerLevel": 0,
         "quest": -1,
         "tips": -1
@@ -23183,6 +23192,34 @@
       },
       {
         "countDownMax": 3,
+        "endTime": "2025-06-15 04:59:00",
+        "id": 86000079,
+        "isCompleteBottom": false,
+        "isCountDown": false,
+        "isShow": true,
+        "name": 80610861,
+        "png": "UI/Activity/ActivitySignIn/DragonBoat2025/Tag",
+        "showUI": "",
+        "sort": 0,
+        "startTime": "2025-05-31 05:00:00",
+        "tag": 12601103
+      },
+      {
+        "countDownMax": 3,
+        "endTime": "",
+        "id": 86000072,
+        "isCompleteBottom": false,
+        "isCountDown": false,
+        "isShow": true,
+        "name": 80610925,
+        "png": "UI/Activity/Tab/tag_zhengshou",
+        "showUI": "UI/Activity/pddOrder/SpecialOrder",
+        "sort": 0,
+        "startTime": "2024-06-12 05:00:00",
+        "tag": 12601789
+      },
+      {
+        "countDownMax": 3,
         "endTime": "2025-06-10 12:00:00",
         "id": 86000051,
         "isCompleteBottom": false,
@@ -23211,34 +23248,6 @@
       },
       {
         "countDownMax": 3,
-        "endTime": "2025-06-15 04:59:00",
-        "id": 86000079,
-        "isCompleteBottom": false,
-        "isCountDown": false,
-        "isShow": true,
-        "name": 80610861,
-        "png": "UI/Activity/ActivitySignIn/DragonBoat2025/Tag",
-        "showUI": "",
-        "sort": 0,
-        "startTime": "2025-05-31 05:00:00",
-        "tag": 12601103
-      },
-      {
-        "countDownMax": 3,
-        "endTime": "",
-        "id": 86000037,
-        "isCompleteBottom": false,
-        "isCountDown": false,
-        "isShow": true,
-        "name": 80609573,
-        "png": "UI/Activity/Tab/tab_randombattle",
-        "showUI": "UI/Activity/ActivityRandomBattle/ActivityRandomBattle",
-        "sort": 0,
-        "startTime": "2025-01-24 12:00:00",
-        "tag": 12601503
-      },
-      {
-        "countDownMax": 3,
         "endTime": "2025-07-17 04:59:00",
         "id": 86000020,
         "isCompleteBottom": false,
@@ -23264,6 +23273,20 @@
         "sort": 0,
         "startTime": "2024-01-01 00:00:00",
         "tag": 12601356
+      },
+      {
+        "countDownMax": 3,
+        "endTime": "",
+        "id": 86000037,
+        "isCompleteBottom": false,
+        "isCountDown": false,
+        "isShow": true,
+        "name": 80609573,
+        "png": "UI/Activity/Tab/tab_randombattle",
+        "showUI": "UI/Activity/ActivityRandomBattle/ActivityRandomBattle",
+        "sort": 0,
+        "startTime": "2025-01-24 12:00:00",
+        "tag": 12601503
       },
       {
         "countDownMax": 3,
@@ -23312,7 +23335,7 @@
         "endTime": "",
         "id": 86000002,
         "isCompleteBottom": true,
-        "isCountDown": false,
+        "isCountDown": true,
         "isShow": true,
         "name": 80606880,
         "png": "UI/Activity/Tab/tab_construction",
@@ -23350,7 +23373,7 @@
         "tag": 12600539
       },
       {
-        "countDownMax": 3,
+        "countDownMax": 5,
         "endTime": "",
         "id": 86000016,
         "isCompleteBottom": false,
@@ -27559,33 +27582,43 @@
         "order": 80306856
       },
       {
+        "level": 5,
         "order": 80306857
       },
       {
+        "level": 10,
         "order": 80306858
       },
       {
+        "level": 15,
         "order": 80306859
       },
       {
+        "level": 20,
         "order": 80306860
       },
       {
+        "level": 25,
         "order": 80306861
       },
       {
+        "level": 30,
         "order": 80306862
       },
       {
+        "level": 35,
         "order": 80306863
       },
       {
+        "level": 40,
         "order": 80306864
       },
       {
+        "level": 45,
         "order": 80306865
       },
       {
+        "level": 50,
         "order": 80306866
       }
     ],
@@ -27662,7 +27695,77 @@
     "teamProLower": 20,
     "teamProUpper": 60,
     "teamRepLimit": 20,
-    "teamOrderNum": 3
+    "teamOrderNum": 3,
+    "initialOrderList": [
+      {
+        "id": 60300044
+      },
+      {
+        "id": 60300087
+      },
+      {
+        "id": 60300008
+      },
+      {
+        "id": 60300051
+      },
+      {
+        "id": 60300021
+      },
+      {
+        "id": 60300004
+      }
+    ],
+    "oviceOrderList": [
+      {
+        "id": 80306810,
+        "weight": 3.0
+      },
+      {
+        "id": 80306811,
+        "weight": 4.0
+      },
+      {
+        "id": 80306813,
+        "weight": 5.0
+      },
+      {
+        "id": 80306816,
+        "weight": 2.0
+      },
+      {
+        "id": 80306817,
+        "weight": 3.0
+      },
+      {
+        "id": 80306814,
+        "weight": 3.0
+      },
+      {
+        "id": 80306824,
+        "weight": 5.0
+      },
+      {
+        "id": 80306825,
+        "weight": 2.0
+      },
+      {
+        "id": 80306826,
+        "weight": 2.0
+      },
+      {
+        "id": 80306829,
+        "weight": 2.0
+      },
+      {
+        "id": 80306815,
+        "weight": 2.0
+      },
+      {
+        "id": 80306841,
+        "weight": 1.0
+      }
+    ]
   },
   {
     "id": 99900140,

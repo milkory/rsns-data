@@ -1303,6 +1303,11 @@
         "y": 356.0
       },
       {
+        "id": 86400412,
+        "x": -789.0,
+        "y": 356.0
+      },
+      {
         "id": 86400144,
         "x": -33.0,
         "y": -80.0
@@ -6517,6 +6522,11 @@
         "condition": "NoQuesting",
         "mId": 81001322,
         "val": 0
+      },
+      {
+        "condition": "NoQuesting",
+        "mId": 81001572,
+        "val": 0
       }
     ],
     "unlockConditionsList": [
@@ -10562,7 +10572,7 @@
     "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/UI_SummerCityBtn_01",
     "animLoop": "UI_CityBtn_01_Loop",
     "animOut": "UI_CityBtn_01_Out",
-    "activityId": -1,
+    "activityId": 86000016,
     "startTime": "",
     "endTime": "",
     "displayConditionsList": [
@@ -16319,6 +16329,80 @@
     "buildingId": -1,
     "stationPlace": -1,
     "dialogId": 20700642,
+    "dungeonId": -1,
+    "levelId": -1,
+    "textId": -1,
+    "npcId": -1,
+    "bgPath": "",
+    "bgColor": "FFFFFF"
+  },
+  {
+    "id": 86400402,
+    "idCN": "03气泡/T11塔图站S0/01建筑/魔方骰子",
+    "mod": "气泡",
+    "isInformalData": false,
+    "name": "哈伊玛之骰",
+    "isSpecial": false,
+    "isInstance": false,
+    "iconPath": "NPC/InsZone/TTZ_IconInstance",
+    "nameIconPath": "UI/CityMap/citymap_icon_battlezone",
+    "frontIconPath": "",
+    "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
+    "animLoop": "UI_CityBtn_01_Loop",
+    "animOut": "UI_CityBtn_01_Out",
+    "activityId": 86000026,
+    "startTime": "",
+    "endTime": "",
+    "displayConditionsList": [],
+    "unlockConditionsList": [],
+    "isLock": false,
+    "func": "OpenUI",
+    "btnType": "Other",
+    "mId": -1,
+    "uiPath": "UI/CubeRogue/OverView/CubeRogueOverview",
+    "buildingId": -1,
+    "stationPlace": -1,
+    "dialogId": -1,
+    "dungeonId": -1,
+    "levelId": -1,
+    "textId": -1,
+    "npcId": -1,
+    "bgPath": "",
+    "bgColor": "FFFFFF"
+  },
+  {
+    "id": 86400412,
+    "idCN": "03气泡/C6海角城S0/02剧情/EP6-3",
+    "mod": "气泡",
+    "isInformalData": false,
+    "name": "市政厅",
+    "isSpecial": false,
+    "isInstance": false,
+    "iconPath": "NPC/HJC/CityHall",
+    "nameIconPath": "UI/CityMap/citymap_icon_cityhall",
+    "frontIconPath": "",
+    "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
+    "animLoop": "UI_CityBtn_01_Loop",
+    "animOut": "UI_CityBtn_01_Out",
+    "activityId": -1,
+    "startTime": "",
+    "endTime": "",
+    "displayConditionsList": [
+      {
+        "condition": "Questing",
+        "mId": 81001572,
+        "val": 0
+      }
+    ],
+    "unlockConditionsList": [],
+    "isLock": false,
+    "func": "OpenDialog",
+    "btnType": "Other",
+    "mId": -1,
+    "uiPath": "",
+    "buildingId": -1,
+    "stationPlace": -1,
+    "dialogId": 20700479,
     "dungeonId": -1,
     "levelId": -1,
     "textId": -1,

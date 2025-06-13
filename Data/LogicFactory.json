@@ -2216,5 +2216,19 @@
     "returnType": "int",
     "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rset $battleControlManager\r\rgetp curGSBuff\rset $curBuff\r\rgetp snapshot\rset $_snapshot\r\rcallWith $_snapshot SetTargetCard $null\r\rret 0",
     "cacheAsGMF": true
+  },
+  {
+    "id": 60000163,
+    "idCN": "主线/第三章新",
+    "mod": "逻辑脚本",
+    "isInformalData": false,
+    "debug": false,
+    "autoRecycle": false,
+    "memo": "第三章新",
+    "paramHelp": "",
+    "returnType": "int",
+    "scriptPath": "GGScript/MainLine3New",
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   }
 ]

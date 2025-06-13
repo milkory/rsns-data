@@ -3151,5 +3151,49 @@
     "orderType": "Recover",
     "recoverType": "Upper",
     "param": 1.0
+  },
+  {
+    "id": 89900118,
+    "idCN": "失去/Buff/选1蓝",
+    "mod": "失去Buff",
+    "isInformalData": false,
+    "orderType": "LoseBuff",
+    "loseType": "Select",
+    "qualityType": "Blue",
+    "refreshNum": 3,
+    "param": 1.0,
+    "insufficientTips": 80610374
+  },
+  {
+    "id": 89900119,
+    "idCN": "失去/Buff/选1紫",
+    "mod": "失去Buff",
+    "isInformalData": false,
+    "orderType": "LoseBuff",
+    "loseType": "Select",
+    "qualityType": "Purple",
+    "refreshNum": 3,
+    "param": 1.0,
+    "insufficientTips": 80610374
+  },
+  {
+    "id": 89900120,
+    "idCN": "获得/标准装备/随机1黑+钱",
+    "mod": "获得奖励",
+    "isInformalData": false,
+    "orderType": "Reward",
+    "rewardList": [
+      {
+        "id": 86100287,
+        "numMax": 1,
+        "numMin": 1
+      },
+      {
+        "id": 11400607,
+        "numMax": 200,
+        "numMin": 200
+      }
+    ],
+    "probability": 1.0
   }
 ]
