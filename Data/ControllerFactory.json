@@ -24444,7 +24444,11 @@
     "targetInvisibleEffectId": 11102488,
     "effectOffsetX": 0.0,
     "effectOffsetY": 0.0,
-    "actionList": [],
+    "actionList": [
+      {
+        "actionID": 10104338
+      }
+    ],
     "normalAttackCritID": -1,
     "skillList": [],
     "isInvisibleBeforeShowUp": false,
@@ -24456,6 +24460,7 @@
     "isUseEnergy": true,
     "energySkillList": [],
     "energyRestorePerFrameSN": 370,
+    "energyBarColor": "#FFB200",
     "isSkillDelay": false,
     "minDelay": 120,
     "maxDelay": 360
@@ -25651,27 +25656,46 @@
   {
     "id": 10300614,
     "idCN": "敌方/000角色/学会/克洛伊",
-    "mod": "卡牌AI",
+    "mod": "基础AI",
     "isInformalData": false,
-    "targetInvisibleEffectId": -1,
+    "targetInvisibleEffectId": 11102488,
     "effectOffsetX": 0.0,
     "effectOffsetY": 0.0,
     "actionList": [
       {
-        "actionID": 10104301
+        "actionID": 10104332
       }
     ],
     "normalAttackCritID": -1,
-    "skillList": [],
+    "skillList": [
+      {
+        "actionId": 10104337,
+        "activeFrame": 243,
+        "activeTime": 1.0,
+        "rangeSN": 240000
+      },
+      {
+        "actionId": 10104335,
+        "activeFrame": 626,
+        "activeTime": 1.0,
+        "rangeSN": 240000
+      }
+    ],
     "isInvisibleBeforeShowUp": false,
     "showupSkillList": [],
-    "skillLoopDelayFrame": 1,
+    "skillLoopDelayFrame": 274,
     "shapeShiftList": [],
     "commandList": [],
     "enemySkillList": [],
-    "isUseEnergy": false,
-    "energySkillList": [],
-    "energyRestorePerFrameSN": 0,
+    "isUseEnergy": true,
+    "energySkillList": [
+      {
+        "actionId": 10104334,
+        "isClearEnergy": true,
+        "rangeSN": 240000
+      }
+    ],
+    "energyRestorePerFrameSN": 370,
     "energyBarColor": "#FFB200",
     "isSkillDelay": false,
     "minDelay": 120,

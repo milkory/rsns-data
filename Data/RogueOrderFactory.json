@@ -2526,7 +2526,7 @@
     "orderType": "Skill",
     "skillId": 12303570,
     "battleBuffType": "Boss关卡生效",
-    "param": 0.01,
+    "param": 0.02,
     "param2": 0.0
   },
   {
@@ -2767,7 +2767,7 @@
   },
   {
     "id": 89900310,
-    "idCN": "骰子/效果/克己",
+    "idCN": "骰子/效果/财势",
     "mod": "获得技能",
     "isInformalData": false,
     "orderType": "Skill",
@@ -3195,5 +3195,53 @@
       }
     ],
     "probability": 1.0
+  },
+  {
+    "id": 89900124,
+    "idCN": "骰子/条件/盈余",
+    "mod": "条件",
+    "isInformalData": false,
+    "orderType": "IfCoinEnough",
+    "PlaneId": -1,
+    "typeId": [],
+    "skillId": -1,
+    "qualityType": "All",
+    "param": 150.0,
+    "param2": 0.0
+  },
+  {
+    "id": 89900123,
+    "idCN": "骰子/效果/财险",
+    "mod": "强化",
+    "isInformalData": false,
+    "orderType": "Intensify",
+    "qualityType": "All",
+    "param": 1.0,
+    "probability": 1.0,
+    "insufficientTips": -1
+  },
+  {
+    "id": 89900122,
+    "idCN": "骰子/效果/盈余",
+    "mod": "获得技能",
+    "isInformalData": false,
+    "orderType": "Skill",
+    "skillId": 12303710,
+    "battleBuffType": "所有关卡生效",
+    "param": 0.0,
+    "param2": 0.0
+  },
+  {
+    "id": 89900121,
+    "idCN": "骰子/条件/财险",
+    "mod": "条件",
+    "isInformalData": false,
+    "orderType": "EveryLose",
+    "PlaneId": -1,
+    "typeId": [],
+    "skillId": -1,
+    "qualityType": "All",
+    "param": 1.0,
+    "param2": 0.0
   }
 ]

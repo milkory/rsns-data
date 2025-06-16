@@ -5051,7 +5051,7 @@
     "isShowDetail": true,
     "temptagNameRichText": "余波",
     "tagNameRichText": "余波",
-    "detail": "使用【大地崩震】后，生成1张【震波】加入手牌"
+    "detail": "使用【大地崩震】后，生成1张【震波】加入手牌\\n我方【护盾】消失或引爆时，有20%概率直接打出1次【霜冻新星】"
   },
   {
     "id": 12600579,
@@ -5155,7 +5155,7 @@
     "isShowDetail": true,
     "temptagNameRichText": "定格",
     "tagNameRichText": "定格",
-    "detail": "使用【序】后，下3次【普通攻击】触发【冻结】"
+    "detail": "使用【序】后，使面前范围内敌方触发【冻结】，同时使自身生命值上限+10%，上限150%"
   },
   {
     "id": 12600589,
@@ -12654,7 +12654,7 @@
     "isShowDetail": true,
     "temptagNameRichText": "红王",
     "tagNameRichText": "红王",
-    "detail": "连续打出2张红卡时，下1张自身红卡伤害提高39%，受到【红王】加成的卡使用时不触发计数"
+    "detail": "连续打出2张红卡时，红卡造成的最终伤害提高2%，上限50%"
   },
   {
     "id": 12601123,
@@ -16497,7 +16497,7 @@
     "isShowDetail": true,
     "temptagNameRichText": "大地板",
     "tagNameRichText": "大地板",
-    "detail": "使用【元素核·冰】后，使生命值最低的1名我方目标获得【护盾】，持续10秒，【护盾】的耐久为自身防御力的2000%\\n同时自身免疫【冻结】和【冰封】效果"
+    "detail": "使用【元素核·冰】后，使生命值最低的1名我方目标获得【护盾】，持续10秒，【护盾】的耐久为自身防御力的2000%\\n同时自身免疫【冻结】/【冻伤】/【冰封】效果"
   },
   {
     "id": 12601415,
@@ -20963,5 +20963,42 @@
     "temptagNameRichText": "",
     "tagNameRichText": "",
     "detail": ""
+  },
+  {
+    "id": 12601791,
+    "idCN": "战斗/词缀/技术/重伤/重伤效果免疫",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "UI/CardTag/ZhongShang",
+    "tagName": "重伤",
+    "tagID": 0,
+    "isShowDetail": true,
+    "temptagNameRichText": "重伤免疫",
+    "tagNameRichText": "<color=#FF6666>重伤效果甚微</color>",
+    "detail": "使目标受到的最终伤害增加15%，持续5秒"
+  },
+  {
+    "id": 12601792,
+    "idCN": "战斗/中立卡/庇佑",
+    "mod": "标签",
+    "tagName": "",
+    "tagID": 0,
+    "isShowDetail": false,
+    "temptagNameRichText": "",
+    "tagNameRichText": "",
+    "detail": ""
+  },
+  {
+    "id": 12601793,
+    "idCN": "战斗/词缀/技术/熔心",
+    "mod": "标签",
+    "isInformalData": false,
+    "icon": "UI/CardTag/RanBao",
+    "tagName": "熔心",
+    "tagID": 0,
+    "isShowDetail": true,
+    "temptagNameRichText": "熔心",
+    "tagNameRichText": "<color=#FF6666>熔心</color>",
+    "detail": "使目标内部灼烧，每秒造成1段伤害，持续6秒，持续期间目标的精力值每秒下降1%，同时使目标受到的火焰伤害增加33%"
   }
 ]

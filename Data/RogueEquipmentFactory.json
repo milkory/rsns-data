@@ -511,15 +511,21 @@
   },
   {
     "id": 89600032,
-    "idCN": "骰子/金/盈余（不上）",
+    "idCN": "骰子/金/盈余",
     "mod": "默认",
     "isInformalData": true,
     "name": "盈余",
     "quality": "Golden",
     "iconPath": "UI/CubeRogue/ItemTouzi/500/yingyu",
-    "des": "离开第一/第二位面时，每剩余1个行动回合，位于第三位面时，获得30点【尘埃】",
+    "des": "【尘埃】数量≥150时，每次战斗开局获得1点费用，同时抽1张牌，优先得意技能牌",
     "attributeList": [],
-    "conditionList": [],
+    "conditionList": [
+      {
+        "conditionId": 89900124,
+        "effectId": 89900122,
+        "opportunity": "RoundStart"
+      }
+    ],
     "isNegative": false,
     "isSaveEffect": false,
     "rogueId": -1,
@@ -705,15 +711,21 @@
   },
   {
     "id": 89600041,
-    "idCN": "骰子/橙/财险(不上)",
+    "idCN": "骰子/橙/财险",
     "mod": "默认",
     "isInformalData": true,
     "name": "财险",
     "quality": "Orange",
     "iconPath": "UI/CubeRogue/ItemTouzi/500/caixian",
-    "des": "在【莫测漩涡】失去【尘埃】时，失去【尘埃】数量减少50%",
+    "des": "每失去1个【推力】，强化1个随机【推力】",
     "attributeList": [],
-    "conditionList": [],
+    "conditionList": [
+      {
+        "conditionId": 89900121,
+        "effectId": 89900123,
+        "opportunity": "LoseBuff"
+      }
+    ],
     "isNegative": false,
     "isSaveEffect": false,
     "rogueId": -1,
@@ -1065,7 +1077,7 @@
     "name": "杠杆",
     "quality": "Orange",
     "iconPath": "UI/CubeRogue/ItemTouzi/500/ganggan",
-    "des": "我方全体每失去1点防御力，同时增加2点攻击力\\n我方全体每失去1点防御力，同时增加2点攻击力",
+    "des": "手牌数量≤1时，抽1张牌，基于该卡费用抽取等量的卡牌，且能超出手牌上限，每场战斗限1次",
     "attributeList": [
       {
         "id": 89900213
@@ -1492,10 +1504,10 @@
   },
   {
     "id": 89600076,
-    "idCN": "骰子/紫/克己",
+    "idCN": "骰子/紫/财势",
     "mod": "默认",
     "isInformalData": true,
-    "name": "克己",
+    "name": "财势",
     "quality": "Purple",
     "iconPath": "UI/CubeRogue/ItemTouzi/500/keji",
     "des": "每拥有1点【尘埃】，我方全体受到的最终伤害降低0.05%",

@@ -6316,10 +6316,11 @@
   },
   {
     "id": 10501215,
-    "idCN": "我方/05五星/闻笙/共振1驱散替换普攻",
-    "mod": "给自己上BUFF",
+    "idCN": "我方/05五星/闻笙/共振1范围冻结",
+    "mod": "攻击事件",
     "isInformalData": false,
-    "buffId": 10401446
+    "buffId": 10402619,
+    "hitSoundID": -1
   },
   {
     "id": 10501216,
@@ -36284,14 +36285,14 @@
   },
   {
     "id": 10500418,
-    "idCN": "推力/源流/天赋2-凝天/亘古之冰延迟",
+    "idCN": "推力/源流/天赋4-凝天/亘古之冰延迟",
     "mod": "给自己上BUFF",
     "isInformalData": false,
     "buffId": 10418875
   },
   {
     "id": 10500419,
-    "idCN": "推力/源流/天赋2-凝天/亘古之冰",
+    "idCN": "推力/源流/天赋4-凝天/亘古之冰",
     "mod": "子弹事件",
     "isInformalData": false,
     "buffId": 10418910,
@@ -36349,14 +36350,14 @@
   },
   {
     "id": 10500447,
-    "idCN": "推力/源流/天赋4-沸天/原初之火延迟",
+    "idCN": "推力/源流/天赋2-沸天/原初之火延迟",
     "mod": "给自己上BUFF",
     "isInformalData": false,
     "buffId": 10418898
   },
   {
     "id": 10500446,
-    "idCN": "推力/源流/天赋4-沸天/原初之火",
+    "idCN": "推力/源流/天赋2-沸天/原初之火",
     "mod": "子弹事件",
     "isInformalData": false,
     "buffId": 10418947,
@@ -36867,7 +36868,7 @@
   },
   {
     "id": 10500425,
-    "idCN": "推力/回生/0-初始效果/抽绿卡",
+    "idCN": "推力/回生/0-初始效果/印卡庇佑",
     "mod": "给自己上BUFF",
     "isInformalData": false,
     "buffId": 10420856
@@ -37203,7 +37204,7 @@
   },
   {
     "id": 10503045,
-    "idCN": "推力/源流/天赋5-倾泻/清空费用",
+    "idCN": "推力/源流/天赋5-倾泻/抽3倾泻",
     "mod": "给自己上BUFF",
     "isInformalData": false,
     "buffId": 10418982
@@ -37341,7 +37342,7 @@
   },
   {
     "id": 10503072,
-    "idCN": "推力/源流/天赋2-凝天/驱散待执行",
+    "idCN": "推力/源流/天赋4-凝天/驱散待执行",
     "mod": "给自己上BUFF",
     "isInformalData": false,
     "buffId": 10418874
@@ -37355,7 +37356,7 @@
   },
   {
     "id": 10503074,
-    "idCN": "推力/源流/天赋4-沸天/驱散待执行",
+    "idCN": "推力/源流/天赋2-沸天/驱散待执行",
     "mod": "给自己上BUFF",
     "isInformalData": false,
     "buffId": 10421283
@@ -38329,5 +38330,229 @@
     "isInformalData": false,
     "buffId": 10421894,
     "targetType": "CurrentTarget"
+  },
+  {
+    "id": 10503144,
+    "idCN": "敌方/000角色/学会/克洛伊/A",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10422439
+  },
+  {
+    "id": 10503145,
+    "idCN": "敌方/000角色/学会/克洛伊/B补牌CD",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10422446
+  },
+  {
+    "id": 10503146,
+    "idCN": "敌方/000角色/学会/克洛伊/S",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10422451
+  },
+  {
+    "id": 10503147,
+    "idCN": "敌方/000角色/学会/克洛伊/普攻01",
+    "mod": "子弹事件",
+    "isInformalData": false,
+    "buffId": 10422448,
+    "bulletId": 11200701,
+    "targetType": "Random",
+    "offSetX_SN": 0,
+    "offSetZ_SN": 0,
+    "isUseTargetFilter": false,
+    "isIgnoreInvisibleEnemy": true,
+    "targetFilterType": "Ally",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 0,
+    "attributeType": "HpMax",
+    "condition": "Max",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 0
+  },
+  {
+    "id": 10503148,
+    "idCN": "敌方/000角色/学会/克洛伊/普攻02",
+    "mod": "子弹事件",
+    "isInformalData": false,
+    "buffId": 10422448,
+    "bulletId": 11200702,
+    "targetType": "Random",
+    "offSetX_SN": 0,
+    "offSetZ_SN": 0,
+    "isUseTargetFilter": false,
+    "isIgnoreInvisibleEnemy": true,
+    "targetFilterType": "Ally",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 0,
+    "attributeType": "HpMax",
+    "condition": "Max",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 0
+  },
+  {
+    "id": 10503142,
+    "idCN": "魔方词缀/位面词缀/蓝-火燎/点燃",
+    "mod": "添加Buff",
+    "isInformalData": false,
+    "buffId": 10404169,
+    "targetType": "CurrentTarget"
+  },
+  {
+    "id": 10503143,
+    "idCN": "魔方词缀/位面词缀/蓝-冰蚀/冻结",
+    "mod": "添加Buff",
+    "isInformalData": false,
+    "buffId": 10404687,
+    "targetType": "CurrentTarget"
+  },
+  {
+    "id": 10503149,
+    "idCN": "我方/35地面/燎原-当前目标X偏移9",
+    "mod": "子弹事件",
+    "isInformalData": false,
+    "buffId": 10406379,
+    "bulletId": 11200712,
+    "targetType": "CurrentTarget",
+    "offSetX_SN": 0,
+    "offSetZ_SN": 0,
+    "isUseTargetFilter": false,
+    "isIgnoreInvisibleEnemy": true,
+    "targetFilterType": "Ally",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 0,
+    "attributeType": "HpMax",
+    "condition": "Max",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 0
+  },
+  {
+    "id": 10503140,
+    "idCN": "推力/回生/蓝-固本Ⅰ/冻结",
+    "mod": "添加Buff",
+    "isInformalData": false,
+    "buffId": 10404687,
+    "targetType": "CurrentTarget"
+  },
+  {
+    "id": 10503134,
+    "idCN": "推力/回生/蓝-培元Ⅰ/轰雷",
+    "mod": "添加Buff",
+    "isInformalData": false,
+    "buffId": 10404561,
+    "targetType": "CurrentTarget"
+  },
+  {
+    "id": 10503141,
+    "idCN": "推力/回生/蓝-焕发Ⅰ/点燃",
+    "mod": "添加Buff",
+    "isInformalData": false,
+    "buffId": 10404169,
+    "targetType": "CurrentTarget"
+  },
+  {
+    "id": 10503150,
+    "idCN": "推力/回生/紫-激扬Ⅰ/蚀灭",
+    "mod": "添加Buff",
+    "isInformalData": false,
+    "buffId": 10414826,
+    "targetType": "CurrentTarget"
+  },
+  {
+    "id": 10503152,
+    "idCN": "推力/回生/金-蓬勃Ⅰ/轰雷",
+    "mod": "添加Buff",
+    "isInformalData": false,
+    "buffId": 10404561,
+    "targetType": "CurrentTarget"
+  },
+  {
+    "id": 10503153,
+    "idCN": "推力/回生/金-蓬勃Ⅱ/冻伤",
+    "mod": "添加Buff",
+    "isInformalData": false,
+    "buffId": 10419392,
+    "targetType": "CurrentTarget"
+  },
+  {
+    "id": 10503151,
+    "idCN": "我方/15中立卡/庇佑/治疗帧事件",
+    "mod": "添加Buff",
+    "isInformalData": false,
+    "buffId": 10422686,
+    "targetType": "CurrentTarget"
+  },
+  {
+    "id": 10503154,
+    "idCN": "魔方词缀/位面词缀/金-轰火/陨星",
+    "mod": "子弹事件",
+    "isInformalData": false,
+    "buffId": 10422682,
+    "bulletId": 11200713,
+    "targetType": "Random",
+    "offSetX_SN": 0,
+    "offSetZ_SN": 0,
+    "isUseTargetFilter": false,
+    "isIgnoreInvisibleEnemy": true,
+    "targetFilterType": "Ally",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 0,
+    "attributeType": "HpMax",
+    "condition": "Max",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 0
+  },
+  {
+    "id": 10503155,
+    "idCN": "敌方/000角色/学会/克洛伊/共振1轰雷帧事件",
+    "mod": "添加Buff",
+    "isInformalData": false,
+    "buffId": 10404561,
+    "targetType": "CurrentTarget"
+  },
+  {
+    "id": 10503156,
+    "idCN": "推力/源流/天赋5-倾泻/驱散待执行",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10418976
   }
 ]

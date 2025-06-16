@@ -97958,7 +97958,7 @@
     "idCN": "活动/魔方/局内/奇点信息",
     "mod": "UI文本",
     "isInformalData": false,
-    "text": "奇点信息"
+    "text": "奇点销毁地块信息"
   },
   {
     "id": 80610681,
@@ -98085,7 +98085,7 @@
     "idCN": "活动/魔方/压力/提升",
     "mod": "UI文本",
     "isInformalData": false,
-    "text": "提升"
+    "text": "说明"
   },
   {
     "id": 80610712,
@@ -99063,7 +99063,7 @@
     "idCN": "活动/魔方/压力/提升要求",
     "mod": "UI文本",
     "isInformalData": false,
-    "text": "完成难度Ⅶ时，压力值≥%d"
+    "text": "完成难度Ⅶ，同时压力值≥%d"
   },
   {
     "id": 80610802,
@@ -99427,14 +99427,14 @@
     "idCN": "活动/魔方/查看背包",
     "mod": "UI文本",
     "isInformalData": false,
-    "text": "查看背包"
+    "text": "查看增益"
   },
   {
     "id": 80610871,
     "idCN": "活动/魔方/目标提示",
     "mod": "UI文本",
     "isInformalData": false,
-    "text": "目标:击败位面奇点"
+    "text": "首要目标:击败位面奇点"
   },
   {
     "id": 80610872,
@@ -99490,7 +99490,7 @@
     "idCN": "活动/魔方/主界面信息/无休之所",
     "mod": "UI文本",
     "isInformalData": false,
-    "text": "无休之所 （商店）"
+    "text": "无休之所（商店）"
   },
   {
     "id": 80610888,
@@ -99763,7 +99763,7 @@
     "idCN": "活动/全面征收/活动描述",
     "mod": "UI文本",
     "isInformalData": false,
-    "text": "制造等级达到20级的列车长可领取对应的制造配方。拼单单限时刷新钛钢轨条特殊征收订单。完成后可累计全服及个人征收进度，并获得增益。"
+    "text": "制造等级达到20级且科伦巴商会声望达到500的列车长可领取对应的制造配方。拼单单限时刷新钛钢轨条特殊征收订单。完成后可累计全服及个人征收进度，并获得增益。"
   },
   {
     "id": 80610919,
@@ -99973,7 +99973,7 @@
     "idCN": "活动/魔方/位面奇点信息/敌方灵感天赋",
     "mod": "UI文本",
     "isInformalData": false,
-    "text": "精力回复速度"
+    "text": "敌方灵感天赋"
   },
   {
     "id": 80610945,
@@ -100037,5 +100037,272 @@
     "mod": "UI文本",
     "isInformalData": false,
     "text": "进度未到达"
+  },
+  {
+    "id": 80610959,
+    "idCN": "活动/魔方/直觉/直觉使用限制",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "暂时无法使用直觉跳转至其余地格，请先完成当前地格的事件"
+  },
+  {
+    "id": 80610962,
+    "idCN": "活动/魔方/复苏未开启",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "受额外压力影响，该功能无法使用"
+  },
+  {
+    "id": 80610960,
+    "idCN": "00NPC对话/活动/克洛伊/成功兑换/文本1",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "喏，这玩意现在是你的了。倒是可以“啪”地给你送回车上，不过我不保证安全哦？",
+    "soundList": [],
+    "preAnimName": "idle",
+    "animName": "idle",
+    "isLoop": true,
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......",
+    "noDataTextId": -1
+  },
+  {
+    "id": 80610961,
+    "idCN": "00NPC对话/活动/克洛伊/打开兑换界面/文本1",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "真是少见，无垠号的列车长居然会亲自大驾光临……别那么看着我！偶尔想模仿人类的样子做做生意也不行吗！",
+    "soundList": [],
+    "preAnimName": "idle",
+    "animName": "idle",
+    "isLoop": true,
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......",
+    "noDataTextId": -1
+  },
+  {
+    "id": 80610963,
+    "idCN": "活动/魔方/次要目标文本",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "次要目标:获得灵感（%d/%d）"
+  },
+  {
+    "id": 80610958,
+    "idCN": "00NPC对话/拼单单/小玲/进入界面",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "您好……！太好啦，有您在，小铃就用不着担心了！",
+    "soundList": [],
+    "preAnimName": "idle",
+    "animName": "idle",
+    "isLoop": true,
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......",
+    "noDataTextId": -1
+  },
+  {
+    "id": 80610975,
+    "idCN": "00NPC对话/拼单单/小玲/选中拼单",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "我明白了，确认是这个订单没错吧？",
+    "soundList": [],
+    "preAnimName": "idle",
+    "animName": "idle",
+    "isLoop": true,
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......",
+    "noDataTextId": -1
+  },
+  {
+    "id": 80610976,
+    "idCN": "00NPC对话/拼单单/小玲/加入拼单",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "祝您商运亨通。小铃会尽力帮忙的！",
+    "soundList": [],
+    "preAnimName": "idle",
+    "animName": "idle",
+    "isLoop": true,
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......",
+    "noDataTextId": -1
+  },
+  {
+    "id": 80610977,
+    "idCN": "00NPC对话/拼单单/小玲/刷新",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "是没有中意的吗？稍等，小铃帮您看看别的……",
+    "soundList": [],
+    "preAnimName": "idle",
+    "animName": "idle",
+    "isLoop": true,
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......",
+    "noDataTextId": -1
+  },
+  {
+    "id": 80610978,
+    "idCN": "00NPC对话/拼单单/墨伊拉/进入界面",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "嗯？原来听说要来的人是你啊……那看来这次会轻松很多了。当然是说你很有用的意思哦。",
+    "soundList": [],
+    "preAnimName": "idle",
+    "animName": "idle",
+    "isLoop": true,
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......",
+    "noDataTextId": -1
+  },
+  {
+    "id": 80610979,
+    "idCN": "00NPC对话/拼单单/墨伊拉/选中拼单",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "没问题，你挑合作伙伴的眼光倒是一如既往地好呢。",
+    "soundList": [],
+    "preAnimName": "idle",
+    "animName": "idle",
+    "isLoop": true,
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......",
+    "noDataTextId": -1
+  },
+  {
+    "id": 80610980,
+    "idCN": "00NPC对话/拼单单/墨伊拉/加入拼单",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "系统里已经登记了您的名字了，希望您与他们合作愉快。",
+    "soundList": [],
+    "preAnimName": "idle",
+    "animName": "idle",
+    "isLoop": true,
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......",
+    "noDataTextId": -1
+  },
+  {
+    "id": 80610974,
+    "idCN": "监狱/承包相关/贸易等级不足",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "贸易等级不足，无法承包整顿中心"
+  },
+  {
+    "id": 80610973,
+    "idCN": "大富翁/00土地管理/土地管理",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "土地管理"
+  },
+  {
+    "id": 80610972,
+    "idCN": "大富翁/00土地管理/土地已满",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "土地已满"
+  },
+  {
+    "id": 80610971,
+    "idCN": "跳蚤市场/当前无在售",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "当前无在售"
+  },
+  {
+    "id": 80610970,
+    "idCN": "活动/魔方/位面奇点信息/精力回复速度",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "精力回复速度"
+  },
+  {
+    "id": 80610969,
+    "idCN": "跳蚤市场/下架确认",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "是否下架%s？"
+  },
+  {
+    "id": 80610968,
+    "idCN": "跳蚤市场/上架成功",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "上架成功"
+  },
+  {
+    "id": 80610967,
+    "idCN": "跳蚤市场/手续费不足",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "手续费不足"
+  },
+  {
+    "id": 80610966,
+    "idCN": "跳蚤市场/槽位数量不足",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "剩余槽位不足，无法上架"
+  },
+  {
+    "id": 80610965,
+    "idCN": "00通用/黑月礼金不足",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "黑月礼金不足"
+  },
+  {
+    "id": 80610964,
+    "idCN": "00通用/仓库空间不足",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "仓库空间不足"
+  },
+  {
+    "id": 80610940,
+    "idCN": "好友/访问列表/当前车厢",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "当前车厢"
   }
 ]

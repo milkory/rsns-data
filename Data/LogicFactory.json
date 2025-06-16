@@ -2230,5 +2230,31 @@
     "scriptPath": "GGScript/MainLine3New",
     "scriptLabel": "main",
     "cacheAsGMF": true
+  },
+  {
+    "id": 60000164,
+    "idCN": "推力/补牌速度+10%",
+    "mod": "执行GS脚本",
+    "isInformalData": false,
+    "debug": false,
+    "autoRecycle": false,
+    "memo": "手牌补充冷却时间缩短10%",
+    "paramHelp": "",
+    "returnType": "int",
+    "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rset $battleControlManager\r\rcallWith $battleControlManager GetTeamData 1\rgetp property\rset $property\rcallWith $property SetAttributeBase 9000 \"AutoDrawInterval\" \"Multiplier\"\r\rset $val\r\rret 0",
+    "cacheAsGMF": true
+  },
+  {
+    "id": 60000165,
+    "idCN": "推力/补牌速度+15%",
+    "mod": "执行GS脚本",
+    "isInformalData": false,
+    "debug": false,
+    "autoRecycle": false,
+    "memo": "手牌补充冷却时间缩短15%",
+    "paramHelp": "",
+    "returnType": "int",
+    "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rset $battleControlManager\r\rcallWith $battleControlManager GetTeamData 1\rgetp property\rset $property\rcallWith $property SetAttributeBase 8500 \"AutoDrawInterval\" \"Multiplier\"\r\rset $val\r\rret 0",
+    "cacheAsGMF": true
   }
 ]

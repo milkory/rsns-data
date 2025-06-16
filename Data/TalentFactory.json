@@ -89,8 +89,8 @@
     "path": "RolePlus\\00Gift\\Conor\\DiLi",
     "attriDetialList": [],
     "attributeList": [],
-    "tempdesc": "生命值低于50%/40%/30%/20%/10%时，受到的最终伤害降低10%/15%/20%/25%/30%",
-    "desc": "生命值低于50%/40%/30%/20%/10%时，受到的最终伤害降低10%/15%/20%/25%/30%",
+    "tempdesc": "生命值越低，受到的最终伤害越低，上限50%",
+    "desc": "生命值越低，受到的最终伤害越低，上限50%",
     "awakeLv": 3,
     "skillList": [
       {
@@ -2691,8 +2691,8 @@
     "path": "RolePlus\\00Gift\\Conor\\DiLi",
     "attriDetialList": [],
     "attributeList": [],
-    "tempdesc": "生命值低于50%/40%/30%/20%/10%时，受到的最终伤害降低10%/15%/20%/25%/30%",
-    "desc": "生命值低于50%/40%/30%/20%/10%时，受到的最终伤害降低10%/15%/20%/25%/30%",
+    "tempdesc": "生命值越低，受到的最终伤害越低，上限50%",
+    "desc": "生命值越低，受到的最终伤害越低，上限50%",
     "awakeLv": 3,
     "skillList": [
       {
@@ -3309,8 +3309,8 @@
     "path": "RolePlus\\00Gift\\Wensheng\\DingGe",
     "attriDetialList": [],
     "attributeList": [],
-    "tempdesc": "使用【序】后，下3次【普通攻击】触发【冻结】",
-    "desc": "使用【序】后，下3次【普通攻击】触发<color=#7AB2FF>【冻结】</color>",
+    "tempdesc": "使用【序】后，使面前范围内敌方触发【冻结】，同时使自身生命值上限+10%，上限150%",
+    "desc": "使用【序】后，使面前范围内敌方触发【冻结】，同时使自身生命值上限+10%，上限150%",
     "awakeLv": 2,
     "skillList": [
       {
@@ -18055,7 +18055,7 @@
     "skillChangeList": [],
     "skillParamOffsetList": [],
     "name": "负能激发",
-    "skillIntensify": 12303356,
+    "skillIntensify": 12303354,
     "skillActiveUpgrade": [],
     "attributeIntensify": [
       {
@@ -18088,7 +18088,7 @@
     "skillChangeList": [],
     "skillParamOffsetList": [],
     "name": "电势传导",
-    "skillIntensify": 12302954,
+    "skillIntensify": 12303356,
     "skillActiveUpgrade": [],
     "attributeIntensify": [
       {
@@ -18121,7 +18121,7 @@
     "skillChangeList": [],
     "skillParamOffsetList": [],
     "name": "等离子迸涌",
-    "skillIntensify": 12303354,
+    "skillIntensify": 12302954,
     "skillActiveUpgrade": [],
     "attributeIntensify": [
       {
@@ -18252,6 +18252,123 @@
     "skillList": [
       {
         "skillId": 12303642
+      }
+    ],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": "",
+    "skillIntensify": -1,
+    "skillActiveUpgrade": [],
+    "attributeIntensify": []
+  },
+  {
+    "id": 12800610,
+    "idCN": "01敌方/学会/克洛伊/共振1-等离子迸涌",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "",
+    "attriDetialList": [],
+    "attributeList": [],
+    "tempdesc": "",
+    "desc": "",
+    "awakeLv": 2,
+    "skillList": [
+      {
+        "skillId": 12303698
+      }
+    ],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": "",
+    "skillIntensify": -1,
+    "skillActiveUpgrade": [],
+    "attributeIntensify": []
+  },
+  {
+    "id": 12800611,
+    "idCN": "01敌方/学会/克洛伊/共振2-负能激发",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "",
+    "attriDetialList": [],
+    "attributeList": [],
+    "tempdesc": "",
+    "desc": "",
+    "awakeLv": 3,
+    "skillList": [
+      {
+        "skillId": 12303702
+      }
+    ],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": "",
+    "skillIntensify": -1,
+    "skillActiveUpgrade": [],
+    "attributeIntensify": []
+  },
+  {
+    "id": 12800612,
+    "idCN": "01敌方/学会/克洛伊/共振3-生机",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "HpMax",
+        "numType": "Percent",
+        "num_SN": 1000
+      }
+    ],
+    "tempdesc": "",
+    "desc": "",
+    "awakeLv": 4,
+    "skillList": [],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": "",
+    "skillIntensify": -1,
+    "skillActiveUpgrade": [],
+    "attributeIntensify": []
+  },
+  {
+    "id": 12800613,
+    "idCN": "01敌方/学会/克洛伊/共振4-电势传导",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "",
+    "attriDetialList": [],
+    "attributeList": [],
+    "tempdesc": "",
+    "desc": "",
+    "awakeLv": 5,
+    "skillList": [
+      {
+        "skillId": 12303703
+      }
+    ],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": "",
+    "skillIntensify": -1,
+    "skillActiveUpgrade": [],
+    "attributeIntensify": []
+  },
+  {
+    "id": 12800614,
+    "idCN": "01敌方/学会/克洛伊/共振5-霆击弧光",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "",
+    "attriDetialList": [],
+    "attributeList": [],
+    "tempdesc": "",
+    "desc": "",
+    "awakeLv": 6,
+    "skillList": [
+      {
+        "skillId": 12303704
       }
     ],
     "skillChangeList": [],
