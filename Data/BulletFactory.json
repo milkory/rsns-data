@@ -8548,15 +8548,18 @@
     "isInformalData": false,
     "bulletViewId": 11300008,
     "speedX_SN": 120000,
+    "xSpeedOffSet_SN": 0,
     "disappearEffectList": [],
     "appearEffectList": [],
     "effectID": -1,
-    "hitSoundId": 30003028,
+    "hitSoundId": -1,
     "scaleTag": "",
     "ySpeedStart_SN": 0,
     "ySpeedOffSet_SN": 0,
     "isAddSpeedZ": false,
     "durationMin": 120,
+    "isCustomRadius": false,
+    "customRadiusTag": "",
     "damageRadius_SN": 240000,
     "isFixedPosition": true,
     "xOffSetStart_SN": 40000,
@@ -8571,7 +8574,7 @@
       }
     ],
     "isGroundEffectUseHitTimes": false,
-    "groundSoundId": -1,
+    "groundSoundId": 30003028,
     "isGroundSoundUseHitTimes": false,
     "envBuffId": -1,
     "hitTimes": 1,
@@ -19763,7 +19766,7 @@
       }
     ],
     "isGroundEffectUseHitTimes": false,
-    "groundSoundId": -1,
+    "groundSoundId": 30006785,
     "isGroundSoundUseHitTimes": false,
     "envBuffId": -1,
     "hitTimes": 0,
@@ -19878,91 +19881,138 @@
   },
   {
     "id": 11200704,
-    "idCN": "推力/盈缺/蓝-新月Ⅰ",
-    "mod": "镭射",
+    "idCN": "推力/盈缺/蓝-新月Ⅰ/秘法陨星",
+    "mod": "地面直线弹",
     "isInformalData": false,
-    "bulletViewId": 11300008,
-    "speedX_SN": 120000,
+    "bulletViewId": 11300394,
+    "speedX_SN": 5000,
     "xSpeedOffSet_SN": 0,
     "disappearEffectList": [],
     "appearEffectList": [],
     "effectID": -1,
     "hitSoundId": -1,
     "scaleTag": "",
-    "hitEffect": 11107857,
-    "totalFrame": 60,
-    "dontBindOwner": true,
-    "hitFrameList": [
+    "durationMin": 15,
+    "isCustomRadius": false,
+    "customRadiusTag": "",
+    "damageRadius_SN": 5000,
+    "isFixedPosition": false,
+    "xOffSetStart_SN": 0,
+    "xOffSet_SN": 0,
+    "yOffSetStart_SN": 0,
+    "yOffSet_SN": 0,
+    "zOffSetStart_SN": 0,
+    "zOffSet_SN": 0,
+    "groundEffectList": [
       {
-        "hitFrame": 21
+        "effectId": 11107892
+      },
+      {
+        "effectId": 11107889
+      },
+      {
+        "effectId": 11107898
       }
-    ]
+    ],
+    "isGroundEffectUseHitTimes": false,
+    "groundSoundId": -1,
+    "isGroundSoundUseHitTimes": false,
+    "envBuffId": -1,
+    "hitTimes": 0,
+    "hitTimesCustomTag": "",
+    "intervalFrame": 0,
+    "isDoBuffOnly": false,
+    "isHitTargetOnly": true
   },
   {
     "id": 11200705,
-    "idCN": "推力/盈缺/蓝-上弦Ⅰ",
-    "mod": "镭射",
+    "idCN": "推力/盈缺/蓝-上弦Ⅰ/火焰陨星",
+    "mod": "地面直线弹",
     "isInformalData": false,
-    "bulletViewId": 11300008,
-    "speedX_SN": 120000,
+    "bulletViewId": 11300392,
+    "speedX_SN": 5000,
     "xSpeedOffSet_SN": 0,
     "disappearEffectList": [],
     "appearEffectList": [],
     "effectID": -1,
     "hitSoundId": -1,
     "scaleTag": "",
-    "hitEffect": 11107857,
-    "totalFrame": 60,
-    "dontBindOwner": true,
-    "hitFrameList": [
+    "durationMin": 15,
+    "isCustomRadius": false,
+    "customRadiusTag": "",
+    "damageRadius_SN": 5000,
+    "isFixedPosition": false,
+    "xOffSetStart_SN": 0,
+    "xOffSet_SN": 0,
+    "yOffSetStart_SN": 0,
+    "yOffSet_SN": 0,
+    "zOffSetStart_SN": 0,
+    "zOffSet_SN": 0,
+    "groundEffectList": [
       {
-        "hitFrame": 21
+        "effectId": 11107893
+      },
+      {
+        "effectId": 11107890
+      },
+      {
+        "effectId": 11107898
       }
-    ]
+    ],
+    "isGroundEffectUseHitTimes": false,
+    "groundSoundId": -1,
+    "isGroundSoundUseHitTimes": false,
+    "envBuffId": -1,
+    "hitTimes": 0,
+    "hitTimesCustomTag": "",
+    "intervalFrame": 0,
+    "isDoBuffOnly": false,
+    "isHitTargetOnly": true
   },
   {
     "id": 11200706,
-    "idCN": "推力/盈缺/蓝-下弦Ⅰ",
-    "mod": "镭射",
+    "idCN": "推力/盈缺/蓝-下弦Ⅰ/闪电陨星",
+    "mod": "地面直线弹",
     "isInformalData": false,
-    "bulletViewId": 11300008,
-    "speedX_SN": 120000,
+    "bulletViewId": 11300393,
+    "speedX_SN": 5000,
     "xSpeedOffSet_SN": 0,
     "disappearEffectList": [],
     "appearEffectList": [],
     "effectID": -1,
     "hitSoundId": -1,
     "scaleTag": "",
-    "hitEffect": 11107857,
-    "totalFrame": 60,
-    "dontBindOwner": true,
-    "hitFrameList": [
+    "durationMin": 15,
+    "isCustomRadius": false,
+    "customRadiusTag": "",
+    "damageRadius_SN": 5000,
+    "isFixedPosition": false,
+    "xOffSetStart_SN": 0,
+    "xOffSet_SN": 0,
+    "yOffSetStart_SN": 0,
+    "yOffSet_SN": 0,
+    "zOffSetStart_SN": 0,
+    "zOffSet_SN": 0,
+    "groundEffectList": [
       {
-        "hitFrame": 21
-      }
-    ]
-  },
-  {
-    "id": 11200707,
-    "idCN": "推力/盈缺/蓝-满月Ⅰ",
-    "mod": "镭射",
-    "isInformalData": false,
-    "bulletViewId": 11300008,
-    "speedX_SN": 120000,
-    "xSpeedOffSet_SN": 0,
-    "disappearEffectList": [],
-    "appearEffectList": [],
-    "effectID": -1,
-    "hitSoundId": -1,
-    "scaleTag": "",
-    "hitEffect": 11107857,
-    "totalFrame": 60,
-    "dontBindOwner": true,
-    "hitFrameList": [
+        "effectId": 11107894
+      },
       {
-        "hitFrame": 21
+        "effectId": 11107891
+      },
+      {
+        "effectId": 11107898
       }
-    ]
+    ],
+    "isGroundEffectUseHitTimes": false,
+    "groundSoundId": -1,
+    "isGroundSoundUseHitTimes": false,
+    "envBuffId": -1,
+    "hitTimes": 0,
+    "hitTimesCustomTag": "",
+    "intervalFrame": 0,
+    "isDoBuffOnly": false,
+    "isHitTargetOnly": true
   },
   {
     "id": 11200708,
@@ -20041,48 +20091,49 @@
     "isHitTargetOnly": true
   },
   {
-    "id": 11200710,
-    "idCN": "推力/盈缺/紫-星沉Ⅰ",
-    "mod": "镭射",
-    "isInformalData": false,
-    "bulletViewId": 11300008,
-    "speedX_SN": 120000,
-    "xSpeedOffSet_SN": 0,
-    "disappearEffectList": [],
-    "appearEffectList": [],
-    "effectID": -1,
-    "hitSoundId": -1,
-    "scaleTag": "",
-    "hitEffect": 11107857,
-    "totalFrame": 60,
-    "dontBindOwner": true,
-    "hitFrameList": [
-      {
-        "hitFrame": 21
-      }
-    ]
-  },
-  {
     "id": 11200711,
-    "idCN": "推力/捍卫/紫-破釜Ⅰ",
-    "mod": "镭射",
+    "idCN": "推力/捍卫/紫-破釜Ⅰ/霜冻陨星",
+    "mod": "地面直线弹",
     "isInformalData": false,
-    "bulletViewId": 11300008,
-    "speedX_SN": 120000,
+    "bulletViewId": 11300391,
+    "speedX_SN": 5000,
     "xSpeedOffSet_SN": 0,
     "disappearEffectList": [],
     "appearEffectList": [],
     "effectID": -1,
     "hitSoundId": -1,
     "scaleTag": "",
-    "hitEffect": 11107857,
-    "totalFrame": 60,
-    "dontBindOwner": true,
-    "hitFrameList": [
+    "durationMin": 15,
+    "isCustomRadius": false,
+    "customRadiusTag": "",
+    "damageRadius_SN": 5000,
+    "isFixedPosition": false,
+    "xOffSetStart_SN": 0,
+    "xOffSet_SN": 0,
+    "yOffSetStart_SN": 0,
+    "yOffSet_SN": 0,
+    "zOffSetStart_SN": 0,
+    "zOffSet_SN": 0,
+    "groundEffectList": [
       {
-        "hitFrame": 21
+        "effectId": 11107887
+      },
+      {
+        "effectId": 11107886
+      },
+      {
+        "effectId": 11107898
       }
-    ]
+    ],
+    "isGroundEffectUseHitTimes": false,
+    "groundSoundId": -1,
+    "isGroundSoundUseHitTimes": false,
+    "envBuffId": -1,
+    "hitTimes": 0,
+    "hitTimesCustomTag": "",
+    "intervalFrame": 0,
+    "isDoBuffOnly": false,
+    "isHitTargetOnly": true
   },
   {
     "id": 11200712,
@@ -20159,5 +20210,72 @@
     "intervalFrame": 1,
     "isDoBuffOnly": false,
     "isHitTargetOnly": true
+  },
+  {
+    "id": 11200458,
+    "idCN": "推力/回生/蓝-固本Ⅰ/冻结",
+    "mod": "抛物线",
+    "isInformalData": false,
+    "bulletViewId": 11300008,
+    "speedX_SN": 120000,
+    "xSpeedOffSet_SN": 0,
+    "disappearEffectList": [],
+    "appearEffectList": [],
+    "effectID": -1,
+    "hitSoundId": -1,
+    "scaleTag": "",
+    "ySpeedStart_SN": 0,
+    "ySpeedOffSet_SN": 0,
+    "isAddSpeedZ": false,
+    "durationMin": 1,
+    "isCustomRadius": false,
+    "customRadiusTag": "",
+    "damageRadius_SN": 20000,
+    "isFixedPosition": false,
+    "xOffSetStart_SN": 0,
+    "xOffSet_SN": 0,
+    "yOffSetStart_SN": 15000,
+    "yOffSet_SN": 0,
+    "zOffSetStart_SN": 0,
+    "zOffSet_SN": 0,
+    "groundEffectList": [
+      {
+        "effectId": 11107884
+      },
+      {
+        "effectId": 11107883
+      }
+    ],
+    "isGroundEffectUseHitTimes": false,
+    "groundSoundId": -1,
+    "isGroundSoundUseHitTimes": false,
+    "envBuffId": -1,
+    "hitTimes": 0,
+    "hitTimesCustomTag": "",
+    "intervalFrame": 0,
+    "isDoBuffOnly": false,
+    "isHitTargetOnly": true
+  },
+  {
+    "id": 11200707,
+    "idCN": "推力/盈缺/紫-斗转Ⅰ/负能射线",
+    "mod": "镭射",
+    "isInformalData": false,
+    "bulletViewId": 11300395,
+    "speedX_SN": 5000,
+    "xSpeedOffSet_SN": 0,
+    "disappearEffectList": [],
+    "appearEffectList": [],
+    "effectID": -1,
+    "hitSoundId": -1,
+    "scaleTag": "",
+    "hitEffect": 11105345,
+    "totalFrame": 30,
+    "dontBindOwner": true,
+    "hitFrameList": [
+      {
+        "hitFrame": 1
+      }
+    ]
   }
 ]

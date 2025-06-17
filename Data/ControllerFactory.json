@@ -25619,7 +25619,7 @@
   },
   {
     "id": 10300613,
-    "idCN": "敌方/02桦树/毒系/沼螺桦树生物",
+    "idCN": "敌方/02桦树/沼泞/沼螺桦树生物",
     "mod": "基础AI",
     "isInformalData": false,
     "targetInvisibleEffectId": 11102488,
@@ -25699,6 +25699,80 @@
     "energyBarColor": "#FFB200",
     "isSkillDelay": false,
     "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300615,
+    "idCN": "敌方/02桦树/沼泞/沼啼桦树生物",
+    "mod": "基础AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10104343
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10104344,
+        "activeFrame": 264,
+        "activeTime": 1.0,
+        "rangeSN": 60000
+      },
+      {
+        "actionId": 10104344,
+        "activeFrame": 652,
+        "activeTime": 1.0,
+        "rangeSN": 60000
+      }
+    ],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [],
+    "skillLoopDelayFrame": 248,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 900,
+    "energyBarColor": "#FFB200",
+    "isSkillDelay": true,
+    "minDelay": 180,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300616,
+    "idCN": "敌方/02桦树/沼泞/沼沫桦树生物",
+    "mod": "基础AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10104350
+      },
+      {
+        "actionID": 10104354
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [],
+    "skillLoopDelayFrame": 248,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 900,
+    "energyBarColor": "#FFB200",
+    "isSkillDelay": true,
+    "minDelay": 180,
     "maxDelay": 360
   }
 ]
