@@ -444,9 +444,15 @@
     "difficultLimit": 1,
     "startTime": "",
     "endTime": "",
+    "coinLimit": 0,
+    "buffLimit": 0,
+    "weaponLimit": 0,
+    "completeNum": 99,
     "typeId": 12601614,
     "enemyId": -1,
     "bgPath": "",
+    "iconPath": "",
+    "npcId": -1,
     "name": "",
     "des": "",
     "bookDes": "",
@@ -464,7 +470,40 @@
         "num": 150
       }
     ],
+    "recruitPriceSSRList": [
+      {
+        "id": 11400607,
+        "num": 150
+      }
+    ],
+    "recruitPriceSRList": [
+      {
+        "id": 11400607,
+        "num": 100
+      }
+    ],
+    "recruitPriceRList": [
+      {
+        "id": 11400607,
+        "num": 50
+      }
+    ],
+    "recruitPriceNList": [
+      {
+        "id": 11400607,
+        "num": 10
+      }
+    ],
     "resurgencePriceList": [],
+    "resurgencePriceSSRList": [],
+    "resurgencePriceSRList": [],
+    "resurgencePriceRList": [],
+    "resurgencePriceNList": [],
+    "breakPriceList": [],
+    "breakPriceSSRList": [],
+    "breakPriceSRList": [],
+    "breakPriceRList": [],
+    "breakPriceNList": [],
     "weeklyExperienceNum": 0
   },
   {
@@ -500,13 +539,45 @@
     "nextEvent": -1,
     "storeList": [],
     "recruitPriceList": [],
+    "recruitPriceSSRList": [],
+    "recruitPriceSRList": [],
+    "recruitPriceRList": [],
+    "recruitPriceNList": [],
     "resurgencePriceList": [
       {
         "id": 11400607,
         "num": 200
       }
     ],
+    "resurgencePriceSSRList": [
+      {
+        "id": 11400607,
+        "num": 200
+      }
+    ],
+    "resurgencePriceSRList": [
+      {
+        "id": 11400607,
+        "num": 150
+      }
+    ],
+    "resurgencePriceRList": [
+      {
+        "id": 11400607,
+        "num": 100
+      }
+    ],
+    "resurgencePriceNList": [
+      {
+        "id": 11400607,
+        "num": 50
+      }
+    ],
     "breakPriceList": [],
+    "breakPriceSSRList": [],
+    "breakPriceSRList": [],
+    "breakPriceRList": [],
+    "breakPriceNList": [],
     "weeklyExperienceNum": 0
   },
   {
@@ -2518,7 +2589,7 @@
     "rewardList": [],
     "levelId": 20102200,
     "optionList": [],
-    "firstPlotId": 20700644,
+    "firstPlotId": -1,
     "nextEvent": -1,
     "storeList": [],
     "recruitPriceList": [],
@@ -2532,17 +2603,9 @@
     "mod": "事件",
     "isInformalData": false,
     "isBoss": true,
-    "isCertainly": true,
-    "eventLimitList": [
-      {
-        "id": 89800068
-      }
-    ],
-    "optionLimitList": [
-      {
-        "id": 86100175
-      }
-    ],
+    "isCertainly": false,
+    "eventLimitList": [],
+    "optionLimitList": [],
     "difficultLimit": 1,
     "startTime": "",
     "endTime": "",
@@ -2563,7 +2626,7 @@
     "rewardList": [],
     "levelId": 20102190,
     "optionList": [],
-    "firstPlotId": 20700645,
+    "firstPlotId": -1,
     "nextEvent": -1,
     "storeList": [],
     "recruitPriceList": [],
@@ -3424,13 +3487,17 @@
     "difficultLimit": 1,
     "startTime": "",
     "endTime": "",
+    "coinLimit": 0,
+    "buffLimit": 0,
+    "weaponLimit": 0,
     "completeNum": 99,
     "typeId": 12601616,
     "enemyId": -1,
     "bgPath": "UI/Dialog/Back/Anita_OB",
+    "iconPath": "",
     "npcId": 83700153,
     "name": "虔诚祈祷",
-    "des": "伴随着阵阵热闹的（或者说过分热闹了）的声响，雷比斯再次闪亮登场了。只是这次，她似乎看起来和平时有点儿不一样……可能是四肢看起来有点怪怪的，或者是样子更年轻了？你也说不准，毕竟她那个躯体也看不出年龄。\r“啊？你是谁？这给我整哪儿来了，难道是爆炸的时候出错——不管了，相逢就是缘，你帮我来试试这个！”\r好吧，无论何时，她都是她。",
+    "des": "在温暖的光芒中，你看见一群跪地祈祷之人……在他们身后，丽桑德拉静静站立着，不知是在监督还是陪伴他们一同祈祷。\r见你来了，红衣的丽桑德拉转过身。\r“你也是来许愿的吗？”",
     "bookDes": "只要虔诚许愿，你的愿望就将得到回应。这是每个帝国居民的期许，亦是审判庭的承诺。",
     "func": "Options",
     "uiPath": "",
@@ -3449,6 +3516,7 @@
     "storeList": [],
     "recruitPriceList": [],
     "resurgencePriceList": [],
+    "breakPriceList": [],
     "weeklyExperienceNum": 0
   },
   {
@@ -3982,11 +4050,43 @@
     "nextEvent": -1,
     "storeList": [],
     "recruitPriceList": [],
+    "recruitPriceSSRList": [],
+    "recruitPriceSRList": [],
+    "recruitPriceRList": [],
+    "recruitPriceNList": [],
     "resurgencePriceList": [],
+    "resurgencePriceSSRList": [],
+    "resurgencePriceSRList": [],
+    "resurgencePriceRList": [],
+    "resurgencePriceNList": [],
     "breakPriceList": [
       {
         "id": 11400607,
         "num": 150
+      }
+    ],
+    "breakPriceSSRList": [
+      {
+        "id": 11400607,
+        "num": 150
+      }
+    ],
+    "breakPriceSRList": [
+      {
+        "id": 11400607,
+        "num": 100
+      }
+    ],
+    "breakPriceRList": [
+      {
+        "id": 11400607,
+        "num": 50
+      }
+    ],
+    "breakPriceNList": [
+      {
+        "id": 11400607,
+        "num": 10
       }
     ],
     "weeklyExperienceNum": 0
@@ -4145,17 +4245,9 @@
     "mod": "事件",
     "isInformalData": false,
     "isBoss": true,
-    "isCertainly": true,
-    "eventLimitList": [
-      {
-        "id": 89800068
-      }
-    ],
-    "optionLimitList": [
-      {
-        "id": 86100175
-      }
-    ],
+    "isCertainly": false,
+    "eventLimitList": [],
+    "optionLimitList": [],
     "difficultLimit": 1,
     "startTime": "",
     "endTime": "",
@@ -4176,7 +4268,7 @@
     "rewardList": [],
     "levelId": 20102159,
     "optionList": [],
-    "firstPlotId": 20700645,
+    "firstPlotId": -1,
     "nextEvent": -1,
     "storeList": [],
     "recruitPriceList": [],
@@ -4213,7 +4305,7 @@
     "rewardList": [],
     "levelId": 20102163,
     "optionList": [],
-    "firstPlotId": 20700644,
+    "firstPlotId": -1,
     "nextEvent": -1,
     "storeList": [],
     "recruitPriceList": [],
@@ -8838,7 +8930,7 @@
     "rewardList": [],
     "levelId": 20102204,
     "optionList": [],
-    "firstPlotId": 20700644,
+    "firstPlotId": -1,
     "nextEvent": -1,
     "storeList": [],
     "recruitPriceList": [],
@@ -8889,17 +8981,9 @@
     "mod": "事件",
     "isInformalData": false,
     "isBoss": true,
-    "isCertainly": true,
-    "eventLimitList": [
-      {
-        "id": 89800068
-      }
-    ],
-    "optionLimitList": [
-      {
-        "id": 86100175
-      }
-    ],
+    "isCertainly": false,
+    "eventLimitList": [],
+    "optionLimitList": [],
     "difficultLimit": 1,
     "startTime": "",
     "endTime": "",
@@ -8920,7 +9004,7 @@
     "rewardList": [],
     "levelId": 20102224,
     "optionList": [],
-    "firstPlotId": 20700645,
+    "firstPlotId": -1,
     "nextEvent": -1,
     "storeList": [],
     "recruitPriceList": [],
@@ -9142,7 +9226,7 @@
     "rewardList": [],
     "levelId": 20102246,
     "optionList": [],
-    "firstPlotId": 20700644,
+    "firstPlotId": -1,
     "nextEvent": -1,
     "storeList": [],
     "recruitPriceList": [],
@@ -9156,17 +9240,9 @@
     "mod": "事件",
     "isInformalData": false,
     "isBoss": true,
-    "isCertainly": true,
-    "eventLimitList": [
-      {
-        "id": 89800068
-      }
-    ],
-    "optionLimitList": [
-      {
-        "id": 86100175
-      }
-    ],
+    "isCertainly": false,
+    "eventLimitList": [],
+    "optionLimitList": [],
     "difficultLimit": 1,
     "startTime": "",
     "endTime": "",
@@ -9187,7 +9263,7 @@
     "rewardList": [],
     "levelId": 20102242,
     "optionList": [],
-    "firstPlotId": 20700645,
+    "firstPlotId": -1,
     "nextEvent": -1,
     "storeList": [],
     "recruitPriceList": [],
@@ -9423,17 +9499,9 @@
     "mod": "事件",
     "isInformalData": false,
     "isBoss": true,
-    "isCertainly": true,
-    "eventLimitList": [
-      {
-        "id": 89800068
-      }
-    ],
-    "optionLimitList": [
-      {
-        "id": 86100175
-      }
-    ],
+    "isCertainly": false,
+    "eventLimitList": [],
+    "optionLimitList": [],
     "difficultLimit": 1,
     "startTime": "",
     "endTime": "",
@@ -9454,7 +9522,7 @@
     "rewardList": [],
     "levelId": 20102268,
     "optionList": [],
-    "firstPlotId": 20700645,
+    "firstPlotId": -1,
     "nextEvent": -1,
     "storeList": [],
     "recruitPriceList": [],
@@ -9491,7 +9559,7 @@
     "rewardList": [],
     "levelId": 20102261,
     "optionList": [],
-    "firstPlotId": 20700644,
+    "firstPlotId": -1,
     "nextEvent": -1,
     "storeList": [],
     "recruitPriceList": [],
@@ -9565,7 +9633,7 @@
     "rewardList": [],
     "levelId": 20102286,
     "optionList": [],
-    "firstPlotId": 20700644,
+    "firstPlotId": -1,
     "nextEvent": -1,
     "storeList": [],
     "recruitPriceList": [],
@@ -9616,17 +9684,9 @@
     "mod": "事件",
     "isInformalData": false,
     "isBoss": true,
-    "isCertainly": true,
-    "eventLimitList": [
-      {
-        "id": 89800068
-      }
-    ],
-    "optionLimitList": [
-      {
-        "id": 86100175
-      }
-    ],
+    "isCertainly": false,
+    "eventLimitList": [],
+    "optionLimitList": [],
     "difficultLimit": 1,
     "startTime": "",
     "endTime": "",
@@ -9647,7 +9707,7 @@
     "rewardList": [],
     "levelId": 20102287,
     "optionList": [],
-    "firstPlotId": 20700645,
+    "firstPlotId": -1,
     "nextEvent": -1,
     "storeList": [],
     "recruitPriceList": [],
@@ -9846,17 +9906,9 @@
     "mod": "事件",
     "isInformalData": false,
     "isBoss": true,
-    "isCertainly": true,
-    "eventLimitList": [
-      {
-        "id": 89800068
-      }
-    ],
-    "optionLimitList": [
-      {
-        "id": 86100175
-      }
-    ],
+    "isCertainly": false,
+    "eventLimitList": [],
+    "optionLimitList": [],
     "difficultLimit": 1,
     "startTime": "",
     "endTime": "",
@@ -9877,7 +9929,7 @@
     "rewardList": [],
     "levelId": 20102321,
     "optionList": [],
-    "firstPlotId": 20700645,
+    "firstPlotId": -1,
     "nextEvent": -1,
     "storeList": [],
     "recruitPriceList": [],
@@ -10335,17 +10387,9 @@
     "mod": "事件",
     "isInformalData": false,
     "isBoss": true,
-    "isCertainly": true,
-    "eventLimitList": [
-      {
-        "id": 89800068
-      }
-    ],
-    "optionLimitList": [
-      {
-        "id": 86100175
-      }
-    ],
+    "isCertainly": false,
+    "eventLimitList": [],
+    "optionLimitList": [],
     "difficultLimit": 1,
     "startTime": "",
     "endTime": "",
@@ -10366,7 +10410,7 @@
     "rewardList": [],
     "levelId": 20101647,
     "optionList": [],
-    "firstPlotId": 20700645,
+    "firstPlotId": -1,
     "nextEvent": -1,
     "storeList": [],
     "recruitPriceList": [],
@@ -10380,17 +10424,9 @@
     "mod": "事件",
     "isInformalData": false,
     "isBoss": true,
-    "isCertainly": true,
-    "eventLimitList": [
-      {
-        "id": 89800068
-      }
-    ],
-    "optionLimitList": [
-      {
-        "id": 86100175
-      }
-    ],
+    "isCertainly": false,
+    "eventLimitList": [],
+    "optionLimitList": [],
     "difficultLimit": 1,
     "startTime": "",
     "endTime": "",
@@ -10411,7 +10447,7 @@
     "rewardList": [],
     "levelId": 20101591,
     "optionList": [],
-    "firstPlotId": 20700645,
+    "firstPlotId": -1,
     "nextEvent": -1,
     "storeList": [],
     "recruitPriceList": [],
@@ -10425,17 +10461,9 @@
     "mod": "事件",
     "isInformalData": false,
     "isBoss": true,
-    "isCertainly": true,
-    "eventLimitList": [
-      {
-        "id": 89800068
-      }
-    ],
-    "optionLimitList": [
-      {
-        "id": 86100175
-      }
-    ],
+    "isCertainly": false,
+    "eventLimitList": [],
+    "optionLimitList": [],
     "difficultLimit": 1,
     "startTime": "",
     "endTime": "",
@@ -10456,7 +10484,7 @@
     "rewardList": [],
     "levelId": 20101592,
     "optionList": [],
-    "firstPlotId": 20700645,
+    "firstPlotId": -1,
     "nextEvent": -1,
     "storeList": [],
     "recruitPriceList": [],
@@ -10544,9 +10572,17 @@
     "mod": "事件",
     "isInformalData": false,
     "isBoss": true,
-    "isCertainly": false,
-    "eventLimitList": [],
-    "optionLimitList": [],
+    "isCertainly": true,
+    "eventLimitList": [
+      {
+        "id": 89800068
+      }
+    ],
+    "optionLimitList": [
+      {
+        "id": 86100175
+      }
+    ],
     "difficultLimit": 1,
     "startTime": "",
     "endTime": "",

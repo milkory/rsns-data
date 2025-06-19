@@ -130090,17 +130090,17 @@
     "isSpine2": 1,
     "homeSkillList": [
       {
-        "id": 83900102,
-        "nextIndex": 0,
+        "id": 83900252,
+        "nextIndex": 3,
         "resonanceLv": 1
       },
       {
-        "id": 83900033,
-        "nextIndex": 3,
+        "id": 83900236,
+        "nextIndex": 0,
         "resonanceLv": 4
       },
       {
-        "id": 83900054,
+        "id": 83900253,
         "nextIndex": -1,
         "resonanceLv": 5
       }
@@ -149264,7 +149264,7 @@
     "enemyDrop": [],
     "abilityList": [
       {
-        "id": 12600936
+        "id": 12600932
       }
     ],
     "weaknessList": [
@@ -149435,7 +149435,7 @@
     "enemyDrop": [],
     "abilityList": [
       {
-        "id": 12600936
+        "id": 12600934
       }
     ],
     "weaknessList": [
@@ -149699,6 +149699,9 @@
         "skillId": 12300508
       },
       {
+        "skillId": 12300879
+      },
+      {
         "skillId": 12303711
       },
       {
@@ -149895,6 +149898,9 @@
       },
       {
         "skillId": 12300508
+      },
+      {
+        "skillId": 12300879
       },
       {
         "skillId": 12303711
@@ -150659,6 +150665,9 @@
         "skillId": 12300508
       },
       {
+        "skillId": 12300879
+      },
+      {
         "skillId": 12303711
       }
     ],
@@ -151034,6 +151043,9 @@
         "skillId": 12300508
       },
       {
+        "skillId": 12300879
+      },
+      {
         "skillId": 12303711
       },
       {
@@ -151321,28 +151333,9 @@
     "hitAreaHalfHeight_SN": 25000,
     "canOverMaxSpeed": false,
     "battleDes": "",
-    "safeInformation": "强大的深眠者，外形与帝国故事中一位剑士相似。会根据我方所有红卡与蓝卡的数量决定战斗的攻防策略，剑气能够造成大量伤害并触发负面效果。",
-    "unitInformation": "强大的深眠者，身体的大部分组织已经异变，但仍紧握武器。外形与曼杜斯帝国的故事中某位长发的剑士相似——故事的最后，失去一切的剑士将自己放逐，永远地离开了故乡。\\n开局时检测手牌、牌库和弃牌区的所有卡牌数量，根据卡牌颜色决定自身状态。若红卡数量大于蓝卡，则转入【防御阶段】，免疫控制效果、降低所受伤害，令全场红卡入手费用降低，非红卡入手费用增加；若蓝卡数量大于红卡，则转入【进攻阶段】，攻击力提高，令全场蓝卡入手费用降低，非蓝卡入手费用增加。此外，如检测出红蓝卡数量相等或均不存在，则进入【均衡阶段】，攻击附加真实伤害，并使得全场卡牌入手费用随机发生增减。\\n能够发动多种强力的剑气攻击，并造成【灼心】【斩裂】等负面效果。",
-    "enemyDrop": [
-      {
-        "id": 11700077
-      },
-      {
-        "id": 11700147
-      },
-      {
-        "id": 11700079
-      },
-      {
-        "id": 11700080
-      },
-      {
-        "id": 11700039
-      },
-      {
-        "id": 11700040
-      }
-    ],
+    "safeInformation": "",
+    "unitInformation": "",
+    "enemyDrop": [],
     "abilityList": [
       {
         "id": 12600946
@@ -151397,7 +151390,359 @@
     "prisonerDrop": [],
     "enemySkillList": [
       {
-        "id": 80304378
+        "id": 80307164
+      }
+    ]
+  },
+  {
+    "id": 10000883,
+    "idCN": "魔方肉鸽/特殊BOSS/屠戮者·链锯",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "屠戮者·链锯",
+    "EnglishName": "Looter-in-Chief",
+    "viewId": 11000413,
+    "skinList": [],
+    "sideId": 12601428,
+    "controllerId": 10300467,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": 90100011,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600278
+      },
+      {
+        "tagId": 12601370
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301947
+      },
+      {
+        "skillId": 12302031
+      },
+      {
+        "skillId": 12301432
+      },
+      {
+        "skillId": 12301371
+      },
+      {
+        "skillId": 12301369
+      },
+      {
+        "skillId": 12301410
+      },
+      {
+        "skillId": 12301814
+      },
+      {
+        "skillId": 12301411
+      },
+      {
+        "skillId": 12303718
+      }
+    ],
+    "hp_SN": 2590000000,
+    "def_SN": 770000,
+    "atk_SN": 840000,
+    "atkSpeed_SN": 1000000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000418,
+    "growthTagList": [
+      {
+        "growthTagId": 12000353
+      },
+      {
+        "growthTagId": 12000060
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800470
+      },
+      {
+        "talentId": 12800471
+      },
+      {
+        "talentId": 12800467
+      },
+      {
+        "talentId": 12800468
+      },
+      {
+        "talentId": 12800469
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10103359,
+    "actionMoveID": 10103363,
+    "actionAttackedID": 10103307,
+    "actionAttackedBackID": 10103366,
+    "actionKnockUpID": -1,
+    "actionStunID": 10103362,
+    "actionDeadID": 10103367,
+    "actionVictoryID": -1,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 30000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 25000,
+    "hitAreaHalfWidth_SN": 25000,
+    "hitAreaHalfHeight_SN": 20000,
+    "canOverMaxSpeed": false,
+    "battleDes": "",
+    "safeInformation": "",
+    "unitInformation": "",
+    "enemyDrop": [],
+    "abilityList": [
+      {
+        "id": 12600943
+      },
+      {
+        "id": 12601007
+      },
+      {
+        "id": 12600936
+      }
+    ],
+    "weaknessList": [
+      {
+        "id": 12600993
+      }
+    ],
+    "resistanceList": [
+      {
+        "id": 12600992
+      },
+      {
+        "id": 12600989
+      },
+      {
+        "id": 12600991
+      },
+      {
+        "id": 12600962
+      },
+      {
+        "id": 12600971
+      }
+    ],
+    "enemyType": 12601048,
+    "enemyCamp": 12601045,
+    "enemyBookId": 10000606,
+    "prisonerDrop": [
+      {
+        "id": 86700007,
+        "weight": 1
+      }
+    ],
+    "enemySkillList": [
+      {
+        "id": 80307165
+      }
+    ]
+  },
+  {
+    "id": 10000872,
+    "idCN": "桦树生物/沼泞/沼颅桦树生物",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "沼颅桦树生物",
+    "EnglishName": "",
+    "viewId": 11000614,
+    "skinList": [],
+    "sideId": 12601794,
+    "controllerId": 10300617,
+    "bulletControllerList": [],
+    "isBoss": false,
+    "bossHpTemp": -1,
+    "isDeadNotDisappear": false,
+    "isFly": true,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301440
+      },
+      {
+        "skillId": 12301439
+      },
+      {
+        "skillId": 12302955
+      },
+      {
+        "skillId": 12301527
+      },
+      {
+        "skillId": 12301415
+      },
+      {
+        "skillId": 12301372
+      },
+      {
+        "skillId": 12303358
+      }
+    ],
+    "hp_SN": 310000000,
+    "def_SN": 830000,
+    "atk_SN": 740000,
+    "atkSpeed_SN": 650000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000524,
+    "growthTagList": [
+      {
+        "growthTagId": 12000112
+      },
+      {
+        "growthTagId": 12000097
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800292
+      },
+      {
+        "talentId": 12800293
+      },
+      {
+        "talentId": 12800294
+      },
+      {
+        "talentId": 12800295
+      },
+      {
+        "talentId": 12800296
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10104355,
+    "actionMoveID": 10104356,
+    "actionAttackedID": 10104358,
+    "actionAttackedBackID": 10104358,
+    "actionKnockUpID": -1,
+    "actionStunID": 10104363,
+    "actionDeadID": 10104357,
+    "actionVictoryID": -1,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 27000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 27000,
+    "hitAreaHalfWidth_SN": 18000,
+    "hitAreaHalfHeight_SN": 27000,
+    "canOverMaxSpeed": false,
+    "battleDes": "",
+    "safeInformation": "",
+    "unitInformation": "",
+    "enemyDrop": [],
+    "abilityList": [],
+    "weaknessList": [
+      {
+        "id": 12600996
+      }
+    ],
+    "resistanceList": [
+      {
+        "id": 12600989
+      },
+      {
+        "id": 12600991
+      },
+      {
+        "id": 12600955
+      },
+      {
+        "id": 12600956
+      },
+      {
+        "id": 12600968
+      },
+      {
+        "id": 12600965
+      }
+    ],
+    "enemyType": 12601047,
+    "enemyCamp": 12601044,
+    "enemyBookId": 10000872,
+    "prisonerDrop": [],
+    "enemySkillList": [
+      {
+        "id": 80307163
       }
     ]
   }

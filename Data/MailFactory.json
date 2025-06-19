@@ -5318,12 +5318,12 @@
     "idCN": "固定模板/制造订单道具返还",
     "mod": "基础邮件",
     "isInformalData": false,
-    "title": "联合运输订单物资返还",
+    "title": "拼单单物资返还",
     "content": "亲爱的列车长，很抱歉您未能按时完成联合运输订单，订单已被删除。保证金无法为您退还，这些是您提交的物资，请及时查收。",
     "addresser": "科伦巴商会",
     "rewards": [],
     "containEquipment": false,
-    "keepDays": 365,
+    "keepDays": 7,
     "addresserPath": ""
   },
   {
@@ -6400,5 +6400,83 @@
     "questId": -1,
     "startTime": "2023-01-01 00:00:00",
     "endTime": "2025-06-20 00:00:00"
+  },
+  {
+    "id": 80800472,
+    "idCN": "固定模板/0更新补偿06月19日",
+    "mod": "补偿邮件",
+    "isInformalData": false,
+    "title": "更新补偿6月19日",
+    "content": "亲爱的列车长：\\n非常抱歉游戏期间存在部分异常问题，影响了列车长的开车体验。为了弥补您在游戏中的不便，我们推出这次更新补丁，并附带了相应的补偿。这些补偿旨在为您带来更好的游戏体验，确保您在接下来的时间里能够享受到更加顺畅、愉快的驾驶时光。再次感谢您的理解和耐心！",
+    "addresser": "科伦巴调度中心",
+    "rewards": [
+      {
+        "id": 11400067,
+        "num": 2
+      },
+      {
+        "id": 11400066,
+        "num": 1
+      }
+    ],
+    "containEquipment": false,
+    "keepDays": 365,
+    "start_Lv": 1,
+    "end_Lv": 100,
+    "questId": -1,
+    "startTime": "2023-01-01 00:00:00",
+    "endTime": "2025-06-22 00:00:00"
+  },
+  {
+    "id": 80800474,
+    "idCN": "固定模板/拼单单过期道具返还",
+    "mod": "基础邮件",
+    "isInformalData": false,
+    "title": "拼单单订单过期物资返还",
+    "content": "亲爱的列车长，很抱歉您未能按时完成联合运输订单，订单已被删除。保证金无法为您退还，这些是您提交的物资，请及时查收。",
+    "addresser": "科伦巴商会",
+    "rewards": [],
+    "containEquipment": false,
+    "keepDays": 7,
+    "addresserPath": ""
+  },
+  {
+    "id": 80800475,
+    "idCN": "固定模板/拼单单离开拼单道具返还",
+    "mod": "基础邮件",
+    "isInformalData": false,
+    "title": "拼单单离开队列物资返还",
+    "content": "亲爱的列车长，您已退出或被队长请离拼单队列，订单已被删除。这些是您提交的保证金及物资，货物量过多时将分批发放，请及时查收。",
+    "addresser": "科伦巴商会",
+    "rewards": [],
+    "containEquipment": false,
+    "keepDays": 7,
+    "addresserPath": ""
+  },
+  {
+    "id": 80800473,
+    "idCN": "固定模板/0更新补偿06月19日其二",
+    "mod": "补偿邮件",
+    "isInformalData": false,
+    "title": "更新补偿6月19日",
+    "content": "亲爱的列车长：\\n非常抱歉游戏期间存在部分异常问题，影响了列车长的开车体验。为了弥补您在游戏中的不便，我们推出这次更新补丁，并附带了相应的补偿。这些补偿旨在为您带来更好的游戏体验，确保您在接下来的时间里能够享受到更加顺畅、愉快的驾驶时光。再次感谢您的理解和耐心！",
+    "addresser": "科伦巴调度中心",
+    "rewards": [
+      {
+        "id": 11400067,
+        "num": 2
+      },
+      {
+        "id": 11400066,
+        "num": 1
+      }
+    ],
+    "containEquipment": false,
+    "keepDays": 365,
+    "start_Lv": 1,
+    "end_Lv": 100,
+    "questId": -1,
+    "startTime": "2023-01-01 00:00:00",
+    "endTime": "2025-06-22 00:00:00"
   }
 ]
