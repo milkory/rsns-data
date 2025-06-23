@@ -826,25 +826,19 @@
   },
   {
     "id": 89600046,
-    "idCN": "骰子/黑/潜渊症(不上)",
+    "idCN": "骰子/黑/潜渊症",
     "mod": "默认",
     "isInformalData": true,
     "name": "潜渊症",
     "quality": "Blue",
     "iconPath": "UI/CubeRogue/ItemTouzi/500/qianyuanzheng",
-    "des": "所有位面的行动回合上限-1\\n每回合结束时，我方全体攻击力+10/防御力-10",
+    "des": "所有位面的行动回合上限-2",
     "attributeList": [
       {
         "id": 89900204
       }
     ],
-    "conditionList": [
-      {
-        "conditionId": 89900230,
-        "effectId": 89900273,
-        "opportunity": "RoundEnd"
-      }
-    ],
+    "conditionList": [],
     "isNegative": true,
     "isSaveEffect": false,
     "rogueId": -1,
@@ -918,13 +912,13 @@
   },
   {
     "id": 89600050,
-    "idCN": "骰子/黑/忐忑(不上)",
+    "idCN": "骰子/黑/忐忑",
     "mod": "默认",
     "isInformalData": true,
     "name": "忐忑",
     "quality": "Blue",
     "iconPath": "UI/CubeRogue/ItemTouzi/500/tante",
-    "des": "每回合开始时，我方全体随机触发攻击力/防御力±20，生效3次后该骰子损毁",
+    "des": "每次战斗开局时，我方全体随机触发【攻击力+50，防御力-50】/【防御力+50，攻击力-50】，生效3次后该骰子损毁",
     "attributeList": [],
     "conditionList": [
       {
@@ -936,7 +930,7 @@
     "isNegative": true,
     "isSaveEffect": false,
     "rogueId": -1,
-    "efficacyType": "RoundEnd",
+    "efficacyType": "BattleEnd",
     "efficacyNum": 3
   },
   {
@@ -1471,28 +1465,23 @@
   },
   {
     "id": 89600075,
-    "idCN": "骰子/金/拆借定投（不上）",
+    "idCN": "骰子/金/定投",
     "mod": "默认",
     "isInformalData": true,
-    "name": "拆借定投",
+    "name": "定投",
     "quality": "Golden",
     "iconPath": "UI/CubeRogue/ItemTouzi/500/chaijiedingtou",
-    "des": "每回合开始时，失去20点【尘埃】，我方全体攻击力+10\\n若【尘埃】不足20点，我方全体防御力-10",
+    "des": "每回合开始时，失去30点【尘埃】，我方全体攻击力+10",
     "attributeList": [],
     "conditionList": [
       {
-        "conditionId": 89900267,
+        "conditionId": -1,
         "effectId": 89900309,
         "opportunity": "RoundStart"
       },
       {
-        "conditionId": 89900267,
-        "effectId": 89900110,
-        "opportunity": "RoundStart"
-      },
-      {
         "conditionId": 89900109,
-        "effectId": 89900112,
+        "effectId": 89900110,
         "opportunity": "RoundStart"
       }
     ],

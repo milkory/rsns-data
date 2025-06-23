@@ -2256,5 +2256,18 @@
     "returnType": "int",
     "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rset $battleControlManager\r\rcallWith $battleControlManager GetTeamData 1\rgetp property\rset $property\rcallWith $property SetAttributeBase 8500 \"AutoDrawInterval\" \"Multiplier\"\r\rset $val\r\rret 0",
     "cacheAsGMF": true
+  },
+  {
+    "id": 60000166,
+    "idCN": "战斗逻辑/判断目标为敌方",
+    "mod": "执行GS脚本",
+    "isInformalData": false,
+    "debug": false,
+    "autoRecycle": false,
+    "memo": "判断目标为敌方",
+    "paramHelp": "",
+    "returnType": "int",
+    "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rset $battleControlManager\r\rgetp curGSBuff\rset $curBuff\r\rgetp target\rset $target\r\rcallWith $target GetTeamNO\rset $Side\r\rif $Side eq 1\relse\r    ret 1\rendif\r\rret 2",
+    "cacheAsGMF": true
   }
 ]
