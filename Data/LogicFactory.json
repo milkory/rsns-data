@@ -2269,5 +2269,18 @@
     "returnType": "int",
     "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rset $battleControlManager\r\rgetp curGSBuff\rset $curBuff\r\rgetp target\rset $target\r\rcallWith $target GetTeamNO\rset $Side\r\rif $Side eq 1\relse\r    ret 1\rendif\r\rret 2",
     "cacheAsGMF": true
+  },
+  {
+    "id": 60000167,
+    "idCN": "战斗逻辑/获取卡牌配置费用",
+    "mod": "执行GS脚本",
+    "isInformalData": false,
+    "debug": false,
+    "autoRecycle": false,
+    "memo": "获取卡牌配置费用",
+    "paramHelp": "",
+    "returnType": "int",
+    "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rset $battleControlManager\r\rgetp curGSBuff\rset $curBuff\r\rgetp snapshot\rset $snapshot\r\rget $curBuff\rgetp target\rgetp card\rgetp ca\rgetp cost_SN\rset $cost_SN\r\rcallWith $snapshot SetAttributeBase $cost_SN \"CardCost\" \"Number\" $true\r\rret 0",
+    "cacheAsGMF": true
   }
 ]

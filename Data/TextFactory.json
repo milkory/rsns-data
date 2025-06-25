@@ -52436,10 +52436,10 @@
   },
   {
     "id": 80605610,
-    "idCN": "2预制体/Mail-废弃/Mail/文案6",
+    "idCN": "邮件/数量",
     "mod": "UI文本",
     "isInformalData": false,
-    "text": ""
+    "text": "邮件：%d/%d"
   },
   {
     "id": 80605611,
@@ -95716,7 +95716,7 @@
     "idCN": "制造订单/重置订单帮助",
     "mod": "UI文本",
     "isInformalData": false,
-    "text": "1.每周有30次机会消耗桦石重置获取新订单，使用再交涉请求书消耗刷新次数\\n\r2.制造生产线等级自10级开始有概率获得联合运输订单。\\n\r3.拼单人数越多获得奖励增益越高。\\n\r4.拼单加入最低制造生产线等级限制为20，每周可接受或加入最多3个拼单订单。\\n\r5.订单不包含车载缝纫机相关制造成品。\\n\r6.全面征收活动订单每周做多可完成35个，每周一5：00刷新。"
+    "text": "1.每周有30次机会消耗桦石重置获取新订单，使用再交涉请求书消耗刷新次数\\n\r2.制造生产线等级自10级开始有概率获得组队拼单。\\n\r3.拼单人数越多获得奖励增益越高。\\n\r4.拼单加入最低制造生产线等级限制为20，每周可接受或加入最多5个拼单订单。\\n\r5.订单不包含车载缝纫机相关制造成品。\\n\r6.全面征收活动订单每周做多可完成35个，每周一5：00刷新。"
   },
   {
     "id": 80610411,
@@ -96024,7 +96024,7 @@
     "idCN": "黑月游乐城活动/事件/战斗/优速通使用确认",
     "mod": "UI文本",
     "isInformalData": false,
-    "text": "是否使用至臻快速通×1？"
+    "text": "是否使用%s×1？"
   },
   {
     "id": 80610455,
@@ -100436,7 +100436,7 @@
     "idCN": "制造订单/已完成",
     "mod": "UI文本",
     "isInformalData": false,
-    "text": "已完成"
+    "text": "已结束"
   },
   {
     "id": 80611002,
@@ -100558,6 +100558,27 @@
     "text": "列车长等级达到%d级开启"
   },
   {
+    "id": 80611028,
+    "idCN": "跳蚤市场/首充赠送",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "首次充值赠送%s黑月礼金"
+  },
+  {
+    "id": 80611029,
+    "idCN": "跳蚤市场/额外赠送",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "额外赠送%d黑月礼金"
+  },
+  {
+    "id": 80611022,
+    "idCN": "制造订单/已被请离",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "操作失败，您已被请离拼单队列"
+  },
+  {
     "id": 80611025,
     "idCN": "大富翁/Tips/道具数量不足",
     "mod": "UI文本",
@@ -100579,46 +100600,46 @@
     "text": "升级次数已达上限"
   },
   {
-    "id": 80611022,
-    "idCN": "制造订单/已被请离",
+    "id": 80611042,
+    "idCN": "制造订单/退出失败",
     "mod": "UI文本",
     "isInformalData": false,
-    "text": "操作失败，您已被请离拼单队列"
+    "text": "退出失败，订单已完成"
   },
   {
-    "id": 80611030,
-    "idCN": "活动/电力核心/可领取奖励",
+    "id": 80611040,
+    "idCN": "制造订单/加入成功",
     "mod": "UI文本",
     "isInformalData": false,
-    "text": "可领取奖励"
+    "text": "加入成功"
   },
   {
-    "id": 80611031,
-    "idCN": "活动/电力核心/查看进度",
+    "id": 80611041,
+    "idCN": "制造订单/退出成功",
     "mod": "UI文本",
     "isInformalData": false,
-    "text": "查看奖励进度"
+    "text": "退出成功，物资已通过邮件返还"
   },
   {
-    "id": 80611032,
-    "idCN": "活动/电力核心/前往",
+    "id": 80611039,
+    "idCN": "制造订单/返还物资邮件发放",
     "mod": "UI文本",
     "isInformalData": false,
-    "text": "前往引擎核心"
+    "text": "物资返还与保证金已通过邮件发放"
   },
   {
-    "id": 80611033,
-    "idCN": "活动/电力核心/名字",
+    "id": 80611038,
+    "idCN": "制造订单/领取返还物资",
     "mod": "UI文本",
     "isInformalData": false,
-    "text": "引擎核心挑战"
+    "text": "领取返还物资与保证金"
   },
   {
-    "id": 80611034,
-    "idCN": "活动/电力核心/描述",
+    "id": 80611037,
+    "idCN": "活动/电力核心/进度",
     "mod": "UI文本",
     "isInformalData": false,
-    "text": "引擎核心是制造的基石，而无垠号的特殊设计使得引擎更换和动力结构改造成为可能。发挥创造力，打造属于你的引擎系统"
+    "text": "<color=#F6CB18>%d</color>/2500"
   },
   {
     "id": 80611036,
@@ -100635,24 +100656,269 @@
     "text": "完成全部挑战可获得"
   },
   {
-    "id": 80611037,
-    "idCN": "活动/电力核心/进度",
+    "id": 80611034,
+    "idCN": "活动/电力核心/描述",
     "mod": "UI文本",
     "isInformalData": false,
-    "text": "<color=#F6CB18>%d</color>/%d"
+    "text": "引擎核心是制造的基石，发挥创造力完成挑战，打造属于你的引擎系统"
   },
   {
-    "id": 80611038,
-    "idCN": "制造订单/领取返还物资",
+    "id": 80611033,
+    "idCN": "活动/电力核心/名字",
     "mod": "UI文本",
     "isInformalData": false,
-    "text": "领取返还物资"
+    "text": "引擎核心挑战"
   },
   {
-    "id": 80611039,
-    "idCN": "制造订单/返还物资邮件发放",
+    "id": 80611032,
+    "idCN": "活动/电力核心/前往",
     "mod": "UI文本",
     "isInformalData": false,
-    "text": "物资返还已通过邮件发放"
+    "text": "前往引擎核心"
+  },
+  {
+    "id": 80611031,
+    "idCN": "活动/电力核心/查看进度",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "查看奖励进度"
+  },
+  {
+    "id": 80611030,
+    "idCN": "活动/电力核心/可领取奖励",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "可领取奖励"
+  },
+  {
+    "id": 80611046,
+    "idCN": "抽卡/常驻",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "常驻"
+  },
+  {
+    "id": 80611047,
+    "idCN": "抽卡/活动",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "活动"
+  },
+  {
+    "id": 80611044,
+    "idCN": "活动/通用/常规",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "常规"
+  },
+  {
+    "id": 80611045,
+    "idCN": "活动/通用/剧情",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "剧情"
+  },
+  {
+    "id": 80610981,
+    "idCN": "剧情/连续播放",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "连续播放"
+  },
+  {
+    "id": 80611005,
+    "idCN": "剧情/取消连续",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "取消连续"
+  },
+  {
+    "id": 80611006,
+    "idCN": "剧情/连续播放中",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "连续播放中"
+  },
+  {
+    "id": 80611007,
+    "idCN": "剧情/连播",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "连播"
+  },
+  {
+    "id": 80611043,
+    "idCN": "制造订单/暂无拼单",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "暂无拼单"
+  },
+  {
+    "id": 80611049,
+    "idCN": "轮盘战斗/总进度",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "虚演进度"
+  },
+  {
+    "id": 80611050,
+    "idCN": "邀请函/海岛标题",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "夏日海角城"
+  },
+  {
+    "id": 80611051,
+    "idCN": "邀请函/活动邀请函",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "活动邀请函"
+  },
+  {
+    "id": 80611048,
+    "idCN": "发动机/奖励提示",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "完成全部核心挑战可获得<color=#E9BA3B>2500桦石</color>"
+  },
+  {
+    "id": 80611052,
+    "idCN": "邀请函/海岛亲启",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "海岛度暑假！"
+  },
+  {
+    "id": 80611053,
+    "idCN": "邀请函/海岛正文",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "商会发邮件给我，说你会来蜃息岛协助建设和清理工作……虽然这儿活不少，但报酬绝对不赖。如果你想的话，就当做来岛上度个假吧！"
+  },
+  {
+    "id": 80611054,
+    "idCN": "邀请函/监狱标题",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "整顿中心"
+  },
+  {
+    "id": 80611055,
+    "idCN": "邀请函/监狱亲启",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "整顿中心承包邀请："
+  },
+  {
+    "id": 80611056,
+    "idCN": "邀请函/监狱正文",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "啪啪啪啪鼓掌~!恭喜您获得整顿中心的承包资格，大家都在云岫桥蓄势待发啦!为您准备的大礼包已经通过邮件发放——总之,就等你了,列车长！"
+  },
+  {
+    "id": 80611057,
+    "idCN": "邀请函/奖励",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "奖励"
+  },
+  {
+    "id": 80611058,
+    "idCN": "邀请函/淘金标题",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "叩响乐园之门"
+  },
+  {
+    "id": 80611059,
+    "idCN": "邀请函/淘金亲启",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "淘金大酒店落成典礼："
+  },
+  {
+    "id": 80611060,
+    "idCN": "邀请函/淘金正文",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "淘金乐园重建工作颇有成效，淘金大酒店的建设翻新工作也已告一段落。在此特别邀请CBCRR23无垠号列车长，于明日莅临淘金大酒店开业仪式，共襄盛会。"
+  },
+  {
+    "id": 80611069,
+    "idCN": "无限深渊/进入",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "进入"
+  },
+  {
+    "id": 80611070,
+    "idCN": "无限深渊/未拥有",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "未拥有"
+  },
+  {
+    "id": 80611062,
+    "idCN": "发动机/冷凝核心/奖励描述",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "冷凝核心等级达到"
+  },
+  {
+    "id": 80611061,
+    "idCN": "发动机/超载核心/奖励描述",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "超载核心等级达到"
+  },
+  {
+    "id": 80611064,
+    "idCN": "发动机/负能核心/奖励描述",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "负能核心等级达到"
+  },
+  {
+    "id": 80611063,
+    "idCN": "发动机/熔炉核心/奖励描述",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "熔炉核心等级达到"
+  },
+  {
+    "id": 80611065,
+    "idCN": "发动机/混响核心/奖励描述",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "混响核心等级达到"
+  },
+  {
+    "id": 80611066,
+    "idCN": "活动/电力核心/等级",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "LV%d"
+  },
+  {
+    "id": 80611067,
+    "idCN": "活动总览/页签名/核心挑战",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "核心挑战"
+  },
+  {
+    "id": 80611068,
+    "idCN": "黑月游乐城活动/商店/道具不足",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "道具不足"
+  },
+  {
+    "id": 80611074,
+    "idCN": "战斗/自动战斗/无可用手牌",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "手牌均不可使用时，立即弃牌"
   }
 ]
