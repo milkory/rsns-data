@@ -25971,6 +25971,45 @@
     "maxDelay": 360
   },
   {
+    "id": 10300621,
+    "idCN": "敌方/15屠戮者/屠戮者·延烧",
+    "mod": "基础AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10104401
+      },
+      {
+        "actionID": 10104402
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10104400,
+        "activeFrame": 240,
+        "activeTime": 3.0,
+        "rangeSN": 100000
+      }
+    ],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [],
+    "skillLoopDelayFrame": 720,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
+    "energyBarColor": "#FFB200",
+    "isSkillDelay": true,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
     "id": 10300622,
     "idCN": "我方/05五星/伊卡菈",
     "mod": "卡牌AI",
@@ -25980,7 +26019,7 @@
     "effectOffsetY": 0.0,
     "actionList": [
       {
-        "actionID": 10104301
+        "actionID": 10104415
       }
     ],
     "normalAttackCritID": -1,
@@ -25995,7 +26034,46 @@
     "energySkillList": [],
     "energyRestorePerFrameSN": 0,
     "energyBarColor": "#FFB200",
-    "isSkillDelay": false,
+    "isSkillDelay": true,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300623,
+    "idCN": "敌方/15屠戮者/屠戮者·重压",
+    "mod": "基础AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10104428
+      },
+      {
+        "actionID": 10104427
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10104429,
+        "activeFrame": 360,
+        "activeTime": 6.0,
+        "rangeSN": 40000
+      }
+    ],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [],
+    "skillLoopDelayFrame": 540,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
+    "energyBarColor": "#FFB200",
+    "isSkillDelay": true,
     "minDelay": 120,
     "maxDelay": 360
   }

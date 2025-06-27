@@ -7764,8 +7764,9 @@
       },
       {
         "cityMapId": 86400023,
+        "dungeonId": -1,
         "name": "探索地区",
-        "recommendLevel": 17,
+        "recommendLevel": 15,
         "sceneId": 80300844,
         "state": 2
       },
@@ -10769,7 +10770,7 @@
         "cityMapId": 86400035,
         "dungeonId": -1,
         "name": "访问城市",
-        "recommendLevel": 1,
+        "recommendLevel": 55,
         "sceneId": 80305216,
         "state": 0
       }
@@ -12124,29 +12125,33 @@
     "cityStateList": [
       {
         "cityMapId": 86400030,
+        "dungeonId": -1,
         "name": "访问城市",
-        "recommendLevel": 1,
+        "recommendLevel": 40,
         "sceneId": 80306660,
         "state": 0
       },
       {
         "cityMapId": 86400395,
+        "dungeonId": -1,
         "name": "访问城市",
-        "recommendLevel": 1,
+        "recommendLevel": 40,
         "sceneId": 80300322,
         "state": 1
       },
       {
         "cityMapId": 86400396,
+        "dungeonId": -1,
         "name": "访问城市",
-        "recommendLevel": 1,
+        "recommendLevel": 40,
         "sceneId": 80306660,
         "state": 2
       },
       {
         "cityMapId": 86400397,
+        "dungeonId": -1,
         "name": "访问城市",
-        "recommendLevel": 1,
+        "recommendLevel": 40,
         "sceneId": 80300322,
         "state": 3
       }
@@ -14337,7 +14342,7 @@
         "cityMapId": 86400018,
         "dungeonId": -1,
         "name": "访问城市",
-        "recommendLevel": 35,
+        "recommendLevel": 40,
         "sceneId": 80300318,
         "state": 0
       }
@@ -15837,7 +15842,7 @@
         "cityMapId": 86400031,
         "dungeonId": -1,
         "name": "访问城市",
-        "recommendLevel": 40,
+        "recommendLevel": 35,
         "sceneId": 80300315,
         "state": 0
       }
@@ -19058,7 +19063,7 @@
         "cityMapId": 86400044,
         "dungeonId": -1,
         "name": "探索地区",
-        "recommendLevel": 1,
+        "recommendLevel": 60,
         "sceneId": 80305549,
         "state": 1
       },
@@ -19066,7 +19071,7 @@
         "cityMapId": 86400369,
         "dungeonId": -1,
         "name": "访问地区",
-        "recommendLevel": 1,
+        "recommendLevel": 60,
         "sceneId": 80305549,
         "state": 0
       }
@@ -21339,7 +21344,7 @@
         "cityMapId": 86400033,
         "dungeonId": -1,
         "name": "访问城市",
-        "recommendLevel": 1,
+        "recommendLevel": 45,
         "sceneId": 80304619,
         "state": 0
       }
@@ -24436,7 +24441,7 @@
     "nameId": 80607490,
     "nameEN": "Clarity Data Center Administration Bureau",
     "desNew": "保存有未被污染的人类形态场样本，这些样本为测量澄明度提供参照。世界各地的现实稳定装置均以这里提供的数据为基准运行。经过数次扩建，如今已发展成一座繁荣的地下城市。\\n<color=#b45e01>推荐等级：%d级</color>",
-    "recommendLevel": 30,
+    "recommendLevel": 25,
     "dangerLevel": 4,
     "attachedToCity": -1,
     "force": -1,
@@ -29203,12 +29208,12 @@
     "name": "隐岩站",
     "nameId": 80609590,
     "nameEN": "",
-    "des": "",
     "desNew": "",
     "recommendLevel": 40,
     "dangerLevel": 6,
     "attachedToCity": -1,
     "force": -1,
+    "isAddRep": true,
     "isShowRep": false,
     "sort": 0,
     "textArriveFirst": 80601108,
@@ -29231,6 +29236,7 @@
         "cityMapId": 86400033,
         "dungeonId": -1,
         "name": "访问城市",
+        "recommendLevel": 40,
         "sceneId": 80300856,
         "state": 0
       }
@@ -29263,14 +29269,8 @@
     "cityInvestList": [],
     "totalBuffList": [],
     "investRankList": [],
+    "investRankBuffList": [],
     "tradeRankList": [],
-    "sellList": [],
-    "acquisitionList": [],
-    "bargainSpinePath": "",
-    "actionM": "nan2_1",
-    "actionW": "nv1_1",
-    "action2M": "nan2_2",
-    "action2W": "nv1_2",
     "isWarehouse": false,
     "warehousePrestige": 1,
     "buyPrice": [
@@ -29286,6 +29286,13 @@
       }
     ],
     "extraWarehouseList": [],
+    "bargainSpinePath": "",
+    "actionM": "nan2_1",
+    "actionW": "nv1_1",
+    "action2M": "nan2_2",
+    "action2W": "nv1_2",
+    "sellList": [],
+    "acquisitionList": [],
     "isCOC": false,
     "isCOCStation": false,
     "initCOCQuestList": [],
@@ -29354,7 +29361,8 @@
     ],
     "onhookCoefficient": 1.0,
     "trainHelpChat": 20700007,
-    "prisonId": -1
+    "prisonId": -1,
+    "des": ""
   },
   {
     "id": 83000054,
