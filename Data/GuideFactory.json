@@ -32,7 +32,7 @@
     "mod": "引导",
     "isInformalData": false,
     "isRunInterrupt": false,
-    "isInterruptedSkip": false,
+    "isInterruptedSkip": true,
     "assignGuideId": -1,
     "playerLevel": 1,
     "levelFinishedFO": -1,
@@ -40,12 +40,15 @@
     "completeQuest": -1,
     "curStationRepLvLimit": 0,
     "triggerMeetEvent": -1,
-    "triggerPanelName": "UI/MainUI/MainUI",
+    "triggerPanelName": "",
     "triggerProtocol": "",
     "triggerQuest": -1,
     "apiName": "plot.note",
     "isEndLoading": false,
     "orderList": [
+      {
+        "orderId": 81100392
+      },
       {
         "orderId": 81100333
       },
@@ -62,7 +65,8 @@
         "orderId": 81100049
       }
     ],
-    "scene": ""
+    "scene": "",
+    "levelId": -1
   },
   {
     "id": 20900087,
@@ -573,7 +577,8 @@
         "orderId": 81100027
       }
     ],
-    "scene": ""
+    "scene": "",
+    "levelId": -1
   },
   {
     "id": 20900148,
@@ -12838,6 +12843,72 @@
       },
       {
         "orderId": 81100098
+      }
+    ],
+    "scene": "",
+    "levelId": -1
+  },
+  {
+    "id": 20900195,
+    "idCN": "EP0/001_S1起名2",
+    "mod": "引导",
+    "isInformalData": false,
+    "isRunInterrupt": false,
+    "isInterruptedSkip": false,
+    "assignGuideId": -1,
+    "playerLevel": 1,
+    "levelFinishedFO": -1,
+    "reachStation": -1,
+    "completeQuest": -1,
+    "curStationRepLvLimit": 0,
+    "triggerMeetEvent": -1,
+    "triggerPanelName": "",
+    "triggerProtocol": "",
+    "triggerQuest": -1,
+    "apiName": "",
+    "isEndLoading": false,
+    "orderList": [
+      {
+        "orderId": 81100392
+      }
+    ],
+    "scene": "",
+    "levelId": -1
+  },
+  {
+    "id": 20900197,
+    "idCN": "EP1上/011_S0七号自由港-剧情-中断",
+    "mod": "引导",
+    "isInformalData": false,
+    "isRunInterrupt": true,
+    "isInterruptedSkip": false,
+    "assignGuideId": -1,
+    "playerLevel": 1,
+    "levelFinishedFO": -1,
+    "reachStation": -1,
+    "completeQuest": -1,
+    "curStationRepLvLimit": 0,
+    "triggerMeetEvent": -1,
+    "triggerPanelName": "UI/MainUI/MainUI",
+    "triggerProtocol": "",
+    "triggerQuest": -1,
+    "apiName": "plot.note",
+    "isEndLoading": false,
+    "orderList": [
+      {
+        "orderId": 81100333
+      },
+      {
+        "orderId": 81100547
+      },
+      {
+        "orderId": 81100278
+      },
+      {
+        "orderId": 81100410
+      },
+      {
+        "orderId": 81100049
       }
     ],
     "scene": "",

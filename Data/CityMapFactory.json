@@ -65,7 +65,17 @@
         "y": -220.0
       },
       {
+        "id": 86400079,
+        "x": 396.0,
+        "y": 25.0
+      },
+      {
         "id": 86400050,
+        "x": 396.0,
+        "y": 25.0
+      },
+      {
+        "id": 86400282,
         "x": 396.0,
         "y": 25.0
       },
@@ -158,11 +168,6 @@
         "id": 86400321,
         "x": 221.0,
         "y": -133.0
-      },
-      {
-        "id": 86400229,
-        "x": 245.0,
-        "y": -145.0
       }
     ],
     "isShowRep": true,
@@ -1550,6 +1555,11 @@
       },
       {
         "id": 86400228,
+        "x": -650.0,
+        "y": -34.0
+      },
+      {
+        "id": 86400229,
         "x": -650.0,
         "y": -34.0
       }
@@ -3483,10 +3493,21 @@
     "isInstance": false,
     "iconPath": "RolePlus/Julian/Face",
     "nameIconPath": "UI/CityMap/citymap_icon_police",
+    "frontIconPath": "",
     "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
+    "animLoop": "UI_CityBtn_01_Loop",
+    "animOut": "UI_CityBtn_01_Out",
     "activityId": -1,
     "startTime": "",
     "endTime": "",
+    "displayConditionsList": [
+      {
+        "condition": "QuestComplete",
+        "mId": 81000381,
+        "val": 0
+      }
+    ],
+    "unlockConditionsList": [],
     "isLock": false,
     "func": "OpenBuilding",
     "btnType": "HomeSafe",
@@ -3520,7 +3541,14 @@
     "startTime": "",
     "endTime": "",
     "displayConditionsList": [],
-    "unlockConditionsList": [],
+    "unlockConditionsList": [
+      {
+        "condition": "QuestId",
+        "mId": 81000381,
+        "textId": -1,
+        "val": 0
+      }
+    ],
     "isLock": false,
     "func": "OpenUI",
     "btnType": "HomeCOC",
@@ -3531,7 +3559,7 @@
     "dialogId": -1,
     "dungeonId": -1,
     "levelId": -1,
-    "textId": -1,
+    "textId": 80601020,
     "npcId": 83700010,
     "bgPath": "UI/Dialog/Back/coc_7FP",
     "bgColor": "FFFFFF"
@@ -3546,12 +3574,14 @@
     "isInstance": false,
     "iconPath": "NPC/7FP/CityHall",
     "nameIconPath": "UI/CityMap/citymap_icon_cityhall",
+    "frontIconPath": "",
     "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
     "animLoop": "UI_CityBtn_01_Loop",
     "animOut": "UI_CityBtn_01_Out",
     "activityId": -1,
     "startTime": "",
     "endTime": "",
+    "displayConditionsList": [],
     "unlockConditionsList": [
       {
         "condition": "REPLV",
@@ -3569,7 +3599,7 @@
     "dialogId": -1,
     "dungeonId": -1,
     "levelId": -1,
-    "textId": -1,
+    "textId": 80601020,
     "npcId": 83700009,
     "bgPath": "UI/Dialog/Back/office-night",
     "bgColor": "FFFFFF"
@@ -3584,6 +3614,7 @@
     "isInstance": false,
     "iconPath": "NPC/7FP/Exchange",
     "nameIconPath": "UI/CityMap/citymap_icon_trade",
+    "frontIconPath": "",
     "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/UI_cityBtn_trade",
     "animLoop": "UI_CityBtn_01_Loop",
     "animOut": "UI_CityBtn_01_Out",
@@ -3591,7 +3622,14 @@
     "startTime": "",
     "endTime": "",
     "displayConditionsList": [],
-    "unlockConditionsList": [],
+    "unlockConditionsList": [
+      {
+        "condition": "QuestId",
+        "mId": 81000381,
+        "textId": -1,
+        "val": 0
+      }
+    ],
     "isLock": false,
     "func": "OpenUI",
     "btnType": "HomeTrade",
@@ -3602,7 +3640,7 @@
     "dialogId": -1,
     "dungeonId": -1,
     "levelId": -1,
-    "textId": -1,
+    "textId": 80601020,
     "npcId": 83700006,
     "bgPath": "UI/Dialog/Back/Exchange_7FP",
     "bgColor": "FFFFFF"
@@ -3617,6 +3655,7 @@
     "isInstance": false,
     "iconPath": "RolePlus/Arina/Face",
     "nameIconPath": "UI/CityMap/citymap_icon_bar",
+    "frontIconPath": "",
     "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
     "animLoop": "UI_CityBtn_01_Loop",
     "animOut": "UI_CityBtn_01_Out",
@@ -3624,7 +3663,14 @@
     "startTime": "",
     "endTime": "",
     "displayConditionsList": [],
-    "unlockConditionsList": [],
+    "unlockConditionsList": [
+      {
+        "condition": "QuestId",
+        "mId": 81000381,
+        "textId": -1,
+        "val": 0
+      }
+    ],
     "isLock": false,
     "func": "OpenUI",
     "btnType": "RestArea",
@@ -3635,7 +3681,7 @@
     "dialogId": -1,
     "dungeonId": -1,
     "levelId": -1,
-    "textId": -1,
+    "textId": 80601020,
     "npcId": 83700004,
     "bgPath": "UI/Dialog/Back/RestArea",
     "bgColor": "FFFFFF"
@@ -3650,10 +3696,22 @@
     "isInstance": false,
     "iconPath": "NPC/7FP/MilkTea",
     "nameIconPath": "UI/CityMap/citymap_icon_milktea",
+    "frontIconPath": "",
     "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
+    "animLoop": "UI_CityBtn_01_Loop",
+    "animOut": "UI_CityBtn_01_Out",
     "activityId": -1,
     "startTime": "",
     "endTime": "",
+    "displayConditionsList": [],
+    "unlockConditionsList": [
+      {
+        "condition": "QuestId",
+        "mId": 81000673,
+        "textId": -1,
+        "val": 0
+      }
+    ],
     "isLock": false,
     "func": "OpenScene",
     "btnType": "Other",
@@ -3664,7 +3722,7 @@
     "dialogId": -1,
     "dungeonId": -1,
     "levelId": -1,
-    "textId": -1,
+    "textId": 80601020,
     "npcId": -1,
     "bgPath": "",
     "bgColor": "FFFFFF"
@@ -3679,6 +3737,7 @@
     "isInstance": false,
     "iconPath": "NPC/XGLC/Keep",
     "nameIconPath": "UI/CityMap/citymap_icon_fastfood",
+    "frontIconPath": "",
     "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
     "animLoop": "UI_CityBtn_01_Loop",
     "animOut": "UI_CityBtn_01_Out",
@@ -3686,7 +3745,14 @@
     "startTime": "",
     "endTime": "",
     "displayConditionsList": [],
-    "unlockConditionsList": [],
+    "unlockConditionsList": [
+      {
+        "condition": "QuestId",
+        "mId": 81000381,
+        "textId": -1,
+        "val": 0
+      }
+    ],
     "isLock": false,
     "func": "OpenScene",
     "btnType": "Other",
@@ -3697,7 +3763,7 @@
     "dialogId": -1,
     "dungeonId": -1,
     "levelId": -1,
-    "textId": -1,
+    "textId": 80601020,
     "npcId": -1,
     "bgPath": "",
     "bgColor": "FFFFFF"
@@ -4234,6 +4300,11 @@
       {
         "condition": "QuestIncomplete",
         "mId": 81000673,
+        "val": 0
+      },
+      {
+        "condition": "QuestIncomplete",
+        "mId": 81000381,
         "val": 0
       }
     ],
@@ -9855,14 +9926,15 @@
   },
   {
     "id": 86400229,
-    "idCN": "03气泡/C3七号自由港S0/02剧情/EP5对话7",
+    "idCN": "03气泡/T1荒原站S0/02剧情/EP5对话7",
     "mod": "气泡",
     "isInformalData": false,
-    "name": "安菲娅",
+    "name": "沃斯托克",
     "isSpecial": false,
     "isInstance": false,
-    "iconPath": "RolePlus/Anfiya/Face",
+    "iconPath": "RolePlus/Vostok/Face",
     "nameIconPath": "",
+    "frontIconPath": "",
     "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
     "animLoop": "UI_CityBtn_01_Loop",
     "animOut": "UI_CityBtn_01_Out",
@@ -11668,6 +11740,11 @@
         "condition": "QuestComplete",
         "mId": 81000673,
         "val": 0
+      },
+      {
+        "condition": "QuestIncomplete",
+        "mId": 81000381,
+        "val": 0
       }
     ],
     "unlockConditionsList": [],
@@ -11681,7 +11758,7 @@
     "dialogId": -1,
     "dungeonId": -1,
     "levelId": -1,
-    "textId": 80601154,
+    "textId": 80601020,
     "npcId": -1,
     "bgPath": "UI/Dialog/Back/RPOC1",
     "bgColor": "FFFFFF"
@@ -16421,5 +16498,170 @@
     "npcId": -1,
     "bgPath": "",
     "bgColor": "FFFFFF"
+  },
+  {
+    "id": 86400414,
+    "idCN": "01城市地图/C3七号自由港S0-备份",
+    "mod": "城市地图",
+    "isInformalData": false,
+    "bgList": [
+      {
+        "bgPath": "UI/Dialog/Back/City_7FP_1",
+        "changeTime": "05:30:00",
+        "effectListId": 86400056,
+        "sceneId": 80300601
+      },
+      {
+        "bgPath": "UI/Dialog/Back/City_7FP_2",
+        "changeTime": "10:00:00",
+        "effectListId": 86400056,
+        "sceneId": 80300601
+      },
+      {
+        "bgPath": "UI/Dialog/Back/City_7FP_3",
+        "changeTime": "14:30:00",
+        "effectListId": 86400056,
+        "sceneId": 80300601
+      },
+      {
+        "bgPath": "UI/Dialog/Back/City_7FP_4",
+        "changeTime": "17:30:00",
+        "effectListId": 86400049,
+        "sceneId": 80300601
+      },
+      {
+        "bgPath": "UI/Dialog/Back/City_7FP_5",
+        "changeTime": "19:30:00",
+        "effectListId": 86400049,
+        "sceneId": 80300601
+      }
+    ],
+    "offsetX": 0.0,
+    "offsetY": -15.0,
+    "bubbleList": [
+      {
+        "id": 86400055,
+        "x": -850.0,
+        "y": 140.0
+      },
+      {
+        "id": 86400066,
+        "x": -420.0,
+        "y": -120.0
+      },
+      {
+        "id": 86400057,
+        "x": -142.0,
+        "y": 156.0
+      },
+      {
+        "id": 86400059,
+        "x": 210.0,
+        "y": 362.0
+      },
+      {
+        "id": 86400061,
+        "x": 0.0,
+        "y": -220.0
+      },
+      {
+        "id": 86400050,
+        "x": 396.0,
+        "y": 25.0
+      },
+      {
+        "id": 86400063,
+        "x": 611.0,
+        "y": 214.0
+      },
+      {
+        "id": 86400064,
+        "x": 880.0,
+        "y": 79.0
+      },
+      {
+        "id": 86400067,
+        "x": 178.0,
+        "y": 40.0
+      },
+      {
+        "id": 86400068,
+        "x": 178.0,
+        "y": 40.0
+      },
+      {
+        "id": 86400069,
+        "x": 152.0,
+        "y": 72.0
+      },
+      {
+        "id": 86400065,
+        "x": 710.0,
+        "y": -224.0
+      },
+      {
+        "id": 86400070,
+        "x": 710.0,
+        "y": -224.0
+      },
+      {
+        "id": 86400060,
+        "x": 710.0,
+        "y": -224.0
+      },
+      {
+        "id": 86400199,
+        "x": 614.0,
+        "y": -198.0
+      },
+      {
+        "id": 86400200,
+        "x": 614.0,
+        "y": -198.0
+      },
+      {
+        "id": 86400201,
+        "x": 614.0,
+        "y": -198.0
+      },
+      {
+        "id": 86400240,
+        "x": 880.0,
+        "y": 79.0
+      },
+      {
+        "id": 86400265,
+        "x": 140.0,
+        "y": 60.0
+      },
+      {
+        "id": 86400034,
+        "x": 221.0,
+        "y": -133.0
+      },
+      {
+        "id": 86400318,
+        "x": 221.0,
+        "y": -133.0
+      },
+      {
+        "id": 86400319,
+        "x": 221.0,
+        "y": -133.0
+      },
+      {
+        "id": 86400320,
+        "x": 221.0,
+        "y": -133.0
+      },
+      {
+        "id": 86400321,
+        "x": 221.0,
+        "y": -133.0
+      }
+    ],
+    "isShowRep": true,
+    "isShowConstruct": false,
+    "exitId": -1
   }
 ]

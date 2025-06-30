@@ -492,7 +492,7 @@
     "cardType": "Normal",
     "sameCardGroupId": -1,
     "actionId": 10100369,
-    "cost_SN": 30000,
+    "cost_SN": 20000,
     "inhandBuffId": -1,
     "inhandOverBuffId": -1,
     "startBuffId": 10400519,
@@ -533,7 +533,8 @@
         "typeEnum": "number"
       }
     ],
-    "ExActList": []
+    "ExActList": [],
+    "linkCardId": []
   },
   {
     "id": 10600058,
@@ -29879,7 +29880,7 @@
     "deriveCardList": [],
     "cardAIActionList": [
       {
-        "actionId": 96300003,
+        "actionId": 96300008,
         "conditionId": -1,
         "weight": 1
       }
@@ -29895,7 +29896,12 @@
         "typeEnum": "percent"
       }
     ],
-    "ExActList": [],
+    "ExActList": [
+      {
+        "condId": 96300003,
+        "des": 80608013
+      }
+    ],
     "linkCardId": []
   },
   {
@@ -30421,6 +30427,9 @@
       },
       {
         "tagId": 12601797
+      },
+      {
+        "tagId": 12601801
       }
     ],
     "tagOutsideList": [],
