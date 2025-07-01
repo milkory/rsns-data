@@ -5243,8 +5243,8 @@
     "skillList": [
       {
         "actionId": 10101301,
-        "activeFrame": 120,
-        "activeTime": 2.0,
+        "activeFrame": 30,
+        "activeTime": 0.5,
         "rangeSN": -10000
       },
       {
@@ -5287,7 +5287,8 @@
     "isUseEnergy": false,
     "energySkillList": [],
     "energyRestorePerFrameSN": 167,
-    "isSkillDelay": true,
+    "energyBarColor": "#FFB200",
+    "isSkillDelay": false,
     "minDelay": 120,
     "maxDelay": 360
   },
@@ -26089,5 +26090,22 @@
     "isSkillDelay": true,
     "minDelay": 120,
     "maxDelay": 360
+  },
+  {
+    "id": 10300624,
+    "idCN": "我方/06剧情/列车长",
+    "mod": "卡牌AI",
+    "actionList": [
+      {
+        "actionID": 10100779
+      },
+      {
+        "actionID": 10100780
+      }
+    ],
+    "skillList": [],
+    "skillLoopDelayFrame": 1,
+    "showupSkillList": [],
+    "shapeShiftList": []
   }
 ]
