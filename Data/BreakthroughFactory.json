@@ -6186,13 +6186,19 @@
     ],
     "skillList": [
       {
-        "skillId": 12300702
+        "skillId": 12303743
       }
     ],
-    "tempdesc": "自身造成的【引雷】触发概率+10%",
-    "desc": "自身造成的<color=#FFB800>【引雷】</color>触发概率+10%",
+    "tempdesc": "我方造成【引雷】时，自身攻击力+0.3%，上限30%\\n同时自身造成的【引雷】概率+10%",
+    "desc": "我方造成<color=#FFB800>【引雷】</color>时，自身攻击力+0.3%，上限30%\\n同时自身造成的<color=#FFB800>【引雷】</color>概率+10%",
     "skillChangeList": [],
-    "skillParamOffsetList": []
+    "skillParamOffsetList": [
+      {
+        "skillId": -1,
+        "tag": "exTHPR",
+        "value_SN": 1000
+      }
+    ]
   },
   {
     "id": 12100294,
@@ -8859,8 +8865,8 @@
         "skillId": 12301134
       }
     ],
-    "tempdesc": "使我方全体对被燃烧的目标造成的最终伤害提高10%",
-    "desc": "使我方全体对被燃烧的目标造成的最终伤害提高10%",
+    "tempdesc": "使我方全体对被燃烧的目标造成的最终伤害提高20%",
+    "desc": "使我方全体对被燃烧的目标造成的最终伤害提高20%",
     "skillChangeList": [],
     "skillParamOffsetList": []
   },
@@ -9386,9 +9392,13 @@
         "num": 1
       }
     ],
-    "skillList": [],
-    "tempdesc": "自身造成的【引雷】概率+10%",
-    "desc": "自身造成的<color=#FFB800>【引雷】</color>概率+10%",
+    "skillList": [
+      {
+        "skillId": 12303281
+      }
+    ],
+    "tempdesc": "我方造成【引雷】时，自身攻击力+0.3%，上限30%\\n同时自身造成的【引雷】概率+10%",
+    "desc": "我方造成<color=#FFB800>【引雷】</color>时，自身攻击力+0.3%，上限30%\\n同时自身造成的<color=#FFB800>【引雷】</color>概率+10%",
     "skillChangeList": [],
     "skillParamOffsetList": [
       {
@@ -12151,8 +12161,8 @@
         "skillId": 12301705
       }
     ],
-    "tempdesc": "\"Under your skin\"\\n对处于【混乱】/【昏睡】/【变萌】/【禁锢】/【枷锁】/【诅咒】状态下的敌方，造成的最终伤害提高25%",
-    "desc": "\"Under your skin\"\\n对处于<color=#B383FF>【混乱】</color>/<color=#B383FF>【昏睡】</color>/<color=#B383FF>【变萌】</color>/<color=#B383FF>【禁锢】</color>/<color=#B383FF>【枷锁】</color>/<color=#B383FF>【诅咒】</color>状态下的敌方，造成的最终伤害提高25%",
+    "tempdesc": "\"Under your skin\"\\n对处于【混乱】/【昏睡】/【变萌】/【禁锢】/【枷锁】/【诅咒】状态下的敌方，造成的最终伤害提高30%",
+    "desc": "\"Under your skin\"\\n对处于<color=#B383FF>【混乱】</color>/<color=#B383FF>【昏睡】</color>/<color=#B383FF>【变萌】</color>/<color=#B383FF>【禁锢】</color>/<color=#B383FF>【枷锁】</color>/<color=#B383FF>【诅咒】</color>状态下的敌方，造成的最终伤害提高30%",
     "skillChangeList": [],
     "skillParamOffsetList": []
   },
@@ -12855,8 +12865,8 @@
         "skillId": 12301758
       }
     ],
-    "tempdesc": "使用【拟态】后，使我方后排攻击力+6%，可叠加",
-    "desc": "使用【拟态】后，使我方后排攻击力+6%，可叠加",
+    "tempdesc": "每次获得卡牌时，使随机1名我方攻击力+0.5%，上限30%",
+    "desc": "每次获得卡牌时，使随机1名我方攻击力+0.5%，上限30%",
     "skillChangeList": [],
     "skillParamOffsetList": []
   },
@@ -21218,8 +21228,8 @@
         "skillId": 12303733
       }
     ],
-    "tempdesc": "每抽到1张卡牌，获得0.15点费用",
-    "desc": "每抽到1张卡牌，获得0.15点费用",
+    "tempdesc": "每抽到1张卡牌，获得0.2点费用",
+    "desc": "每抽到1张卡牌，获得0.2点费用",
     "skillChangeList": [],
     "skillParamOffsetList": []
   },
@@ -21275,8 +21285,8 @@
         "skillId": 12303735
       }
     ],
-    "tempdesc": "每拥有1点费用，红卡造成的最终伤害提高6%，上限90%",
-    "desc": "每拥有1点费用，红卡造成的最终伤害提高6%，上限90%",
+    "tempdesc": "每拥有1点费用，红卡造成的最终伤害提高5%，上限100%",
+    "desc": "每拥有1点费用，红卡造成的最终伤害提高5%，上限100%",
     "skillChangeList": [],
     "skillParamOffsetList": []
   },
@@ -21301,7 +21311,7 @@
       }
     ],
     "tempdesc": "每次我方造成【点燃】/【炽地】/【燎原】/【熔心】/ 【烬灭】时，自身攻击力+0.15%/+0.3%/+0.6%/+1.8%/+5.4%，上限90%",
-    "desc": "每次我方造成【点燃】/【炽地】/【燎原】/【熔心】/ 【烬灭】时，自身攻击力+0.15%/+0.3%/+0.6%/+1.8%/+5.4%，上限90%",
+    "desc": "每次我方造成<color=#FF6666>【点燃】</color>/<color=#FF6666>【炽地】</color>/<color=#FF6666>【燎原】</color>/<color=#FF6666>【熔心】</color>/ 【烬灭】时，自身攻击力+0.15%/+0.3%/+0.6%/+1.8%/+5.4%，上限90%",
     "skillChangeList": [],
     "skillParamOffsetList": []
   },

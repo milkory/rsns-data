@@ -26095,17 +26095,68 @@
     "id": 10300624,
     "idCN": "我方/06剧情/列车长",
     "mod": "卡牌AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": -1,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
     "actionList": [
       {
-        "actionID": 10100779
-      },
-      {
-        "actionID": 10100780
+        "actionID": 10104448
       }
     ],
+    "normalAttackCritID": -1,
     "skillList": [],
-    "skillLoopDelayFrame": 1,
+    "isInvisibleBeforeShowUp": false,
     "showupSkillList": [],
-    "shapeShiftList": []
+    "skillLoopDelayFrame": 1,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
+    "energyBarColor": "#FFB200",
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300625,
+    "idCN": "敌方/02桦树/BOSS/魔沼之刃",
+    "mod": "BOSSAI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10104440
+      },
+      {
+        "actionID": 10104439
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10104445,
+        "activeFrame": 240,
+        "activeTime": 1.0,
+        "rangeSN": 240000
+      }
+    ],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [],
+    "skillLoopDelayFrame": 360,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 220,
+    "energyBarColor": "#FFB200",
+    "isSkillDelay": true,
+    "minDelay": 120,
+    "maxDelay": 360
   }
 ]

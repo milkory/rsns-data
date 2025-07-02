@@ -19,7 +19,7 @@
     "showOpenTipsUI": "UI/Activity/OpenTips/BlackTeaTip/BlackTeaTip",
     "isJoin": true,
     "isOnly": -1,
-    "questId": 81001139,
+    "questId": 81000025,
     "unlockTips": 80600439,
     "isTriggerTime": true,
     "putTime": 3,
@@ -1946,7 +1946,8 @@
     "joinQuestId": -1,
     "city": -1,
     "activityCardPack": -1,
-    "joinGetItem": []
+    "joinGetItem": [],
+    "openUi": ""
   },
   {
     "id": 86000014,
@@ -1993,7 +1994,8 @@
     "joinQuestId": -1,
     "city": -1,
     "activityCardPack": -1,
-    "joinGetItem": []
+    "joinGetItem": [],
+    "openUi": ""
   },
   {
     "id": 86000015,
@@ -4749,6 +4751,7 @@
     "voiceActivity": 30005824,
     "correspondingCity": [],
     "correspondingBuild": [],
+    "openLv": 1,
     "showResidueUI": "",
     "openTipsType": "normal",
     "showOpenTipsUI": "",
@@ -5057,7 +5060,6 @@
     "voiceActivity": 30001412,
     "correspondingCity": [],
     "correspondingBuild": [],
-    "openLv": 28,
     "showResidueUI": "",
     "openTipsType": "normal",
     "showOpenTipsUI": "",
@@ -5190,6 +5192,14 @@
         "levyNum": 44000
       }
     ],
+    "orderList": [
+      {
+        "id": 60300145,
+        "weight": 1
+      }
+    ],
+    "orderMaxNum": 35,
+    "openLv": 28,
     "personalRewardList": [
       {
         "id": 11400005,
@@ -5231,14 +5241,7 @@
         "id": 11400235,
         "num": 1
       }
-    ],
-    "orderList": [
-      {
-        "id": 60300145,
-        "weight": 1
-      }
-    ],
-    "orderMaxNum": 35
+    ]
   },
   {
     "id": 86000083,
@@ -5412,7 +5415,8 @@
     "joinQuestId": -1,
     "city": -1,
     "activityCardPack": -1,
-    "joinGetItem": []
+    "joinGetItem": [],
+    "openUi": "UI/EngineCore/EngineCore"
   },
   {
     "id": 86000093,
@@ -5566,7 +5570,11 @@
     "levelQuestLimit": -1,
     "levelTypeList": [
       {
-        "id": 86100097,
+        "id": 60900001,
+        "startTime": ""
+      },
+      {
+        "id": 60900002,
         "startTime": ""
       }
     ],
@@ -5577,7 +5585,7 @@
     "gameOpen": false,
     "gameList": -1,
     "activityCardPack": -1,
-    "isGoldLevel": true,
+    "isGoldLevel": false,
     "joinGetItem": []
   }
 ]

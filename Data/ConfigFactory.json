@@ -17640,13 +17640,6 @@
         "prefab": "UI/Gacha/GachaNew"
       },
       {
-        "funcId": 103,
-        "icon": "UI/MainUI/main_icon_depot",
-        "name": "仓库",
-        "param": "",
-        "prefab": "UI/Depot/Depot"
-      },
-      {
         "funcId": 104,
         "icon": "UI/MainUI/main_icon_member",
         "name": "队员",
@@ -17659,6 +17652,20 @@
         "name": "编队",
         "param": "",
         "prefab": "UI/Squads/Squads"
+      },
+      {
+        "funcId": 103,
+        "icon": "UI/MainUI/main_icon_depot",
+        "name": "仓库",
+        "param": "",
+        "prefab": "UI/Depot/Depot"
+      },
+      {
+        "funcId": 108,
+        "icon": "UI/MainUI/main_icon_build",
+        "name": "列车",
+        "param": "",
+        "prefab": "UI/Trainfactory/HomeCarriageeditor_splited/HomeCarriageeditor"
       },
       {
         "funcId": 119,
@@ -17675,18 +17682,18 @@
         "prefab": "UI/StageQuest/StageQuest"
       },
       {
+        "funcId": 133,
+        "icon": "UI/MainUI/main_icon_Prison",
+        "name": "整顿中心",
+        "param": "",
+        "prefab": "UI/Prison/Overview/Prison"
+      },
+      {
         "funcId": 130,
         "icon": "UI/MainUI/main_icon_transport",
         "name": "客运管理",
         "param": "",
         "prefab": "UI/MainUI/PassageTrafficRank"
-      },
-      {
-        "funcId": 108,
-        "icon": "UI/MainUI/main_icon_build",
-        "name": "列车",
-        "param": "",
-        "prefab": "UI/Trainfactory/HomeCarriageeditor_splited/HomeCarriageeditor"
       },
       {
         "funcId": 113,
@@ -18045,6 +18052,8 @@
         "iconPath": "UI/MainUI/main_icon_headhunt",
         "isShow": false,
         "name": "招募",
+        "playerLevel": 0,
+        "quest": -1,
         "tips": -1
       },
       {
@@ -18106,6 +18115,8 @@
         "iconPath": "UI/MainUI/main_icon_passenger",
         "isShow": false,
         "name": "招揽乘客",
+        "playerLevel": 0,
+        "quest": -1,
         "tips": 80601514
       },
       {
@@ -18274,6 +18285,16 @@
         "iconPath": "UI/MainUI/main_icon_Order",
         "isShow": false,
         "name": "拼单单",
+        "playerLevel": 28,
+        "quest": -1,
+        "tips": -1
+      },
+      {
+        "funcId": 133,
+        "guideId": 0,
+        "iconPath": "UI/MainUI/main_icon_Prison",
+        "isShow": false,
+        "name": "整顿中心",
         "playerLevel": 0,
         "quest": -1,
         "tips": -1
@@ -23255,7 +23276,7 @@
         "isShowLv": false,
         "isTask": true,
         "name": 80610007,
-        "png": "UI/Activity/Tab/tab_yuwailianhe",
+        "png": "UI/Activity/Tab/Tab_CubeRogue",
         "showLv": 10,
         "showUI": "UI/Activity/ActivityCubeRogue/ActivityCubeRogue",
         "sort": 0,
@@ -23362,6 +23383,25 @@
       {
         "countDownMax": 3,
         "endTime": "",
+        "id": 86000092,
+        "isCompleteBottom": true,
+        "isCountDown": false,
+        "isShow": true,
+        "isShowLv": false,
+        "isTask": false,
+        "name": 80611067,
+        "png": "UI/Activity/Tab/tab_enginecore",
+        "showLv": 10,
+        "showUI": "UI/Activity/ActivityEngineCore/ActivityEngineCore",
+        "sort": 0,
+        "startTime": "2025-02-08 05:00:00",
+        "tabType": "Main",
+        "tag": 12601795,
+        "taskIndex": 0
+      },
+      {
+        "countDownMax": 3,
+        "endTime": "",
         "id": 86000072,
         "isCompleteBottom": false,
         "isCountDown": false,
@@ -23457,6 +23497,25 @@
       {
         "countDownMax": 3,
         "endTime": "",
+        "id": 86000044,
+        "isCompleteBottom": true,
+        "isCountDown": true,
+        "isShow": true,
+        "isShowLv": false,
+        "isTask": true,
+        "name": 80610039,
+        "png": "UI/Activity/Tab/tab_yuwailianhe",
+        "showLv": 10,
+        "showUI": "UI/Activity/Anniversary/AnniversaryActivity",
+        "sort": 0,
+        "startTime": "2024-04-25 15:00:00",
+        "tabType": "Plot",
+        "tag": 12601618,
+        "taskIndex": 711
+      },
+      {
+        "countDownMax": 3,
+        "endTime": "",
         "id": 86000022,
         "isCompleteBottom": false,
         "isCountDown": false,
@@ -23499,8 +23558,8 @@
         "isCompleteBottom": false,
         "isCountDown": false,
         "isShow": true,
-        "isShowLv": true,
-        "isTask": false,
+        "isShowLv": false,
+        "isTask": true,
         "name": 80607407,
         "png": "UI/Activity/Tab/Tab_Anecdote",
         "showLv": 20,
@@ -23509,7 +23568,7 @@
         "startTime": "2024-07-01 12:00:00",
         "tabType": "Plot",
         "tag": 12601299,
-        "taskIndex": 0
+        "taskIndex": 209
       },
       {
         "countDownMax": 3,
@@ -27638,6 +27697,7 @@
     "mod": "制造订单",
     "isInformalData": false,
     "nameEN": "ManufacturingOrderConfig",
+    "openlevel": 28,
     "repCountList": [
       {
         "orderNum": 3,
