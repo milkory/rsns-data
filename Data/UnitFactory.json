@@ -21641,7 +21641,7 @@
         "skillId": 12301371
       }
     ],
-    "hp_SN": 260000000,
+    "hp_SN": 240000000,
     "def_SN": 550000,
     "atk_SN": 650000,
     "atkSpeed_SN": 1000000,
@@ -45410,7 +45410,7 @@
         "skillId": 12301371
       }
     ],
-    "hp_SN": 390000000,
+    "hp_SN": 360000000,
     "def_SN": 550000,
     "atk_SN": 650000,
     "atkSpeed_SN": 1000000,
@@ -50554,6 +50554,9 @@
       },
       {
         "skillId": 12303560
+      },
+      {
+        "skillId": 12300265
       },
       {
         "skillId": 12303428
@@ -57758,8 +57761,8 @@
     "hitAreaHalfHeight_SN": 15000,
     "canOverMaxSpeed": false,
     "battleDes": "",
-    "safeInformation": "以爪击和突刺攻击为主的桦树生物，能同时对多个目标发起近程攻击",
-    "unitInformation": "更具威胁性的桦树生物，需要至少小队级别的武装才可能正面对抗。躯干呈螺旋状，没有硬质外甲，攻击以突刺和爪击为主，攻击性强，但较易击倒。",
+    "safeInformation": "以电磁类型攻击为主的始源桦树生物，能以多种方式触发电磁伤害，还会生成反伤护盾。形态场与一般的桦树生物有所区别，能够在一定程度上降低自身所受伤害。",
+    "unitInformation": "具有强大威胁性的桦树生物，始源桦树生物的高级生命形态，形态场与一般的桦树生物有所区别，其余特性尚待研究——目前唯一能知道的是，此类桦树生物在源头上与地卫二密切相关。\\n攻击有概率触发引雷效果，并且能够小幅回复自身体力；能消耗自身体力生成反伤护盾，并使得自身下一次攻击必然触发相应的状态效果。另外，能够制造大范围的电磁领域，有一定概率对范围内敌人附加【磁化】效果。",
     "enemyDrop": [],
     "abilityList": [],
     "weaknessList": [],
@@ -103944,7 +103947,7 @@
   },
   {
     "id": 10000630,
-    "idCN": "桦树生物/BOSS/螺向桦树生物",
+    "idCN": "桦树生物/BOSS/12-螺向桦树生物",
     "mod": "敌方角色",
     "isInformalData": false,
     "name": "螺向桦树生物",
@@ -103974,6 +103977,72 @@
       }
     ],
     "passiveSkillList": [
+      {
+        "skillId": 12301432
+      },
+      {
+        "skillId": 12301369
+      },
+      {
+        "skillId": 12301371
+      },
+      {
+        "skillId": 12301421
+      },
+      {
+        "skillId": 12301423
+      },
+      {
+        "skillId": 12301418
+      },
+      {
+        "skillId": 12301446
+      },
+      {
+        "skillId": 12301367
+      },
+      {
+        "skillId": 12300200
+      },
+      {
+        "skillId": 12301412
+      },
+      {
+        "skillId": 12301410
+      },
+      {
+        "skillId": 12301447
+      },
+      {
+        "skillId": 12301413
+      },
+      {
+        "skillId": 12301445
+      },
+      {
+        "skillId": 12303487
+      },
+      {
+        "skillId": 12303488
+      },
+      {
+        "skillId": 12303489
+      },
+      {
+        "skillId": 12303485
+      },
+      {
+        "skillId": 12303486
+      },
+      {
+        "skillId": 12303559
+      },
+      {
+        "skillId": 12303560
+      },
+      {
+        "skillId": 12300265
+      },
       {
         "skillId": 12303428
       },
@@ -104073,12 +104142,77 @@
     "hitAreaHalfHeight_SN": 30000,
     "canOverMaxSpeed": false,
     "battleDes": "",
-    "safeInformation": "以火焰类型攻击为主的原始桦树生物，能力强大。",
-    "unitInformation": "具有强大威胁性的桦树生物，原始桦树生物的高级生命形态。需要至少小队级别的武装才可能正面对抗。以火焰类型的攻击为主，能点燃我方乘员并且提升自身火焰伤害；也能创造大范围的燃烧地面，对范围内的我方角色造成持续伤害。",
+    "safeInformation": "以冰冻类型攻击为主的始源桦树生物，可以生成屏蔽冰冻伤害的护盾，形态场与一般的桦树生物有所区别，能够在一定程度上降低自身所受伤害。",
+    "unitInformation": "具有强大威胁性的桦树生物，始源桦树生物的高级生命形态，形态场与一般的桦树生物有所区别，其余特性尚待研究——目前唯一能知道的是，此类桦树生物在源头上与地卫二密切相关。\\n攻击有概率为我方角色附加冻结效果，能召唤大范围的暴风雪。另外，能够在身前生成极光般的帷幕，减轻自身所受伤害并屏蔽所有的冰冻属性伤害。",
     "enemyDrop": [],
-    "abilityList": [],
+    "abilityList": [
+      {
+        "id": 12600927
+      },
+      {
+        "id": 12600934
+      }
+    ],
     "weaknessList": [],
-    "resistanceList": [],
+    "resistanceList": [
+      {
+        "id": 12600989
+      },
+      {
+        "id": 12600991
+      },
+      {
+        "id": 12600992
+      },
+      {
+        "id": 12600968
+      },
+      {
+        "id": 12600956
+      },
+      {
+        "id": 12600965
+      },
+      {
+        "id": 12600969
+      },
+      {
+        "id": 12600972
+      },
+      {
+        "id": 12600964
+      },
+      {
+        "id": 12600955
+      },
+      {
+        "id": 12600962
+      },
+      {
+        "id": 12600976
+      },
+      {
+        "id": 12600990
+      },
+      {
+        "id": 12601009
+      },
+      {
+        "id": 12601551
+      },
+      {
+        "id": 12600951
+      },
+      {
+        "id": 12600958
+      },
+      {
+        "id": 12601548
+      },
+      {
+        "id": 12601717
+      }
+    ],
     "enemyType": 12601048,
     "enemyCamp": 12601044,
     "enemyBookId": 10000630,
@@ -144861,6 +144995,9 @@
         "skillId": 12303486
       },
       {
+        "skillId": 12300265
+      },
+      {
         "skillId": 12303428
       },
       {
@@ -145110,6 +145247,9 @@
         "skillId": 12303486
       },
       {
+        "skillId": 12300265
+      },
+      {
         "skillId": 12303428
       },
       {
@@ -145354,6 +145494,9 @@
       },
       {
         "skillId": 12303486
+      },
+      {
+        "skillId": 12300265
       },
       {
         "skillId": 12303428
@@ -164909,5 +165052,1221 @@
         "id": 80307182
       }
     ]
+  },
+  {
+    "id": 10000911,
+    "idCN": "剧情/01克洛伊/雷暴波克士",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "雷暴波克士",
+    "EnglishName": "",
+    "viewId": 11000283,
+    "skinList": [],
+    "sideId": 12600987,
+    "controllerId": 10300274,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": 90100009,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600278
+      },
+      {
+        "tagId": 12600011
+      },
+      {
+        "tagId": 12601261
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301472
+      },
+      {
+        "skillId": 12301415
+      },
+      {
+        "skillId": 12301433
+      }
+    ],
+    "hp_SN": 100000000000,
+    "def_SN": 1000000,
+    "atk_SN": 1000000,
+    "atkSpeed_SN": 1000000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000064,
+    "growthTagList": [
+      {
+        "growthTagId": 12000353
+      },
+      {
+        "growthTagId": 12000060
+      },
+      {
+        "growthTagId": 12000525
+      },
+      {
+        "growthTagId": 12000526
+      },
+      {
+        "growthTagId": 12000528
+      },
+      {
+        "growthTagId": 12000527
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800470
+      },
+      {
+        "talentId": 12800471
+      },
+      {
+        "talentId": 12800467
+      },
+      {
+        "talentId": 12800468
+      },
+      {
+        "talentId": 12800469
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10101891,
+    "actionMoveID": 10101882,
+    "actionAttackedID": 10101892,
+    "actionAttackedBackID": 10101883,
+    "actionKnockUpID": -1,
+    "actionStunID": 10101884,
+    "actionDeadID": 10101890,
+    "actionVictoryID": -1,
+    "hitPointX_SN": -20000,
+    "hitPointY_SN": 15000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 35000,
+    "hitAreaHalfWidth_SN": 45000,
+    "hitAreaHalfHeight_SN": 35000,
+    "canOverMaxSpeed": false,
+    "battleDes": "",
+    "safeInformation": "雷暴波克士的完成体，噼里啪啦，电闪雷鸣！",
+    "unitInformation": "",
+    "enemyDrop": [],
+    "abilityList": [],
+    "weaknessList": [],
+    "resistanceList": [],
+    "enemyType": 12601048,
+    "enemyCamp": 12600221,
+    "enemyBookId": 10000149,
+    "prisonerDrop": [],
+    "enemySkillList": [
+      {
+        "id": 80305049
+      }
+    ]
+  },
+  {
+    "id": 10000912,
+    "idCN": "敌方/10淘金乐园/现实稳定装置",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "现实稳定装置",
+    "EnglishName": "",
+    "viewId": 11000629,
+    "skinList": [],
+    "sideId": 12600912,
+    "controllerId": 10300626,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": 90100009,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600278
+      },
+      {
+        "tagId": 12600011
+      }
+    ],
+    "passiveSkillList": [],
+    "hp_SN": 100000000000,
+    "def_SN": 1000000,
+    "atk_SN": 800000,
+    "atkSpeed_SN": 800000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000535,
+    "growthTagList": [],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800470
+      },
+      {
+        "talentId": 12800471
+      },
+      {
+        "talentId": 12800467
+      },
+      {
+        "talentId": 12800468
+      },
+      {
+        "talentId": 12800469
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10104317,
+    "actionMoveID": 10104317,
+    "actionAttackedID": 10104317,
+    "actionAttackedBackID": 10104317,
+    "actionKnockUpID": -1,
+    "actionStunID": 10104317,
+    "actionDeadID": 10104317,
+    "actionVictoryID": -1,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 15000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 20000,
+    "hitAreaHalfWidth_SN": 12000,
+    "hitAreaHalfHeight_SN": 20000,
+    "canOverMaxSpeed": false,
+    "battleDes": "",
+    "safeInformation": "",
+    "unitInformation": "",
+    "enemyDrop": [],
+    "abilityList": [],
+    "weaknessList": [],
+    "resistanceList": [],
+    "enemyType": 12601048,
+    "enemyCamp": 12600221,
+    "enemyBookId": 10000912,
+    "prisonerDrop": [],
+    "enemySkillList": []
+  },
+  {
+    "id": 10000913,
+    "idCN": "无限深渊/03期/螺向桦树生物-1",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "螺向桦树生物",
+    "EnglishName": "",
+    "viewId": 11000463,
+    "skinList": [],
+    "sideId": 12600921,
+    "controllerId": 10300505,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": 90100008,
+    "isDeadNotDisappear": false,
+    "isFly": true,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600278
+      },
+      {
+        "tagId": 12601261
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301432
+      },
+      {
+        "skillId": 12301369
+      },
+      {
+        "skillId": 12301371
+      },
+      {
+        "skillId": 12301421
+      },
+      {
+        "skillId": 12301423
+      },
+      {
+        "skillId": 12301418
+      },
+      {
+        "skillId": 12301446
+      },
+      {
+        "skillId": 12301367
+      },
+      {
+        "skillId": 12300200
+      },
+      {
+        "skillId": 12301412
+      },
+      {
+        "skillId": 12301410
+      },
+      {
+        "skillId": 12301447
+      },
+      {
+        "skillId": 12301413
+      },
+      {
+        "skillId": 12301445
+      },
+      {
+        "skillId": 12303487
+      },
+      {
+        "skillId": 12303488
+      },
+      {
+        "skillId": 12303489
+      },
+      {
+        "skillId": 12303485
+      },
+      {
+        "skillId": 12303486
+      },
+      {
+        "skillId": 12303559
+      },
+      {
+        "skillId": 12303560
+      },
+      {
+        "skillId": 12300265
+      },
+      {
+        "skillId": 12303428
+      },
+      {
+        "skillId": 12303431
+      },
+      {
+        "skillId": 12303513
+      }
+    ],
+    "hp_SN": 3600000000,
+    "def_SN": 900000,
+    "atk_SN": 900000,
+    "atkSpeed_SN": 1000000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000456,
+    "growthTagList": [
+      {
+        "growthTagId": 12000353
+      },
+      {
+        "growthTagId": 12000060
+      },
+      {
+        "growthTagId": 12000525
+      },
+      {
+        "growthTagId": 12000526
+      },
+      {
+        "growthTagId": 12000528
+      },
+      {
+        "growthTagId": 12000527
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800470
+      },
+      {
+        "talentId": 12800471
+      },
+      {
+        "talentId": 12800467
+      },
+      {
+        "talentId": 12800468
+      },
+      {
+        "talentId": 12800469
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10103596,
+    "actionMoveID": 10103597,
+    "actionAttackedID": 10103600,
+    "actionAttackedBackID": 10103599,
+    "actionKnockUpID": -1,
+    "actionStunID": 10103606,
+    "actionDeadID": 10103598,
+    "actionVictoryID": -1,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 30000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 30000,
+    "hitAreaHalfWidth_SN": 30000,
+    "hitAreaHalfHeight_SN": 30000,
+    "canOverMaxSpeed": false,
+    "battleDes": "",
+    "safeInformation": "以冰冻类型攻击为主的始源桦树生物，可以生成屏蔽冰冻伤害的护盾，形态场与一般的桦树生物有所区别，能够在一定程度上降低自身所受伤害。",
+    "unitInformation": "具有强大威胁性的桦树生物，始源桦树生物的高级生命形态，形态场与一般的桦树生物有所区别，其余特性尚待研究——目前唯一能知道的是，此类桦树生物在源头上与地卫二密切相关。\\n攻击有概率为我方角色附加冻结效果，能召唤大范围的暴风雪。另外，能够在身前生成极光般的帷幕，减轻自身所受伤害并屏蔽所有的冰冻属性伤害。",
+    "enemyDrop": [],
+    "abilityList": [
+      {
+        "id": 12600927
+      },
+      {
+        "id": 12600934
+      }
+    ],
+    "weaknessList": [],
+    "resistanceList": [
+      {
+        "id": 12600989
+      },
+      {
+        "id": 12600991
+      },
+      {
+        "id": 12600992
+      },
+      {
+        "id": 12600968
+      },
+      {
+        "id": 12600956
+      },
+      {
+        "id": 12600965
+      },
+      {
+        "id": 12600969
+      },
+      {
+        "id": 12600972
+      },
+      {
+        "id": 12600964
+      },
+      {
+        "id": 12600955
+      },
+      {
+        "id": 12600962
+      },
+      {
+        "id": 12600976
+      },
+      {
+        "id": 12600990
+      },
+      {
+        "id": 12601009
+      },
+      {
+        "id": 12601551
+      },
+      {
+        "id": 12600951
+      },
+      {
+        "id": 12600958
+      },
+      {
+        "id": 12601548
+      },
+      {
+        "id": 12601717
+      }
+    ],
+    "enemyType": 12601048,
+    "enemyCamp": 12601044,
+    "enemyBookId": 10000630,
+    "prisonerDrop": [],
+    "enemySkillList": [
+      {
+        "id": 80305064
+      }
+    ]
+  },
+  {
+    "id": 10000914,
+    "idCN": "无限深渊/03期/螺向桦树生物-2",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "螺向桦树生物",
+    "EnglishName": "",
+    "viewId": 11000463,
+    "skinList": [],
+    "sideId": 12600921,
+    "controllerId": 10300505,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": 90100008,
+    "isDeadNotDisappear": false,
+    "isFly": true,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600278
+      },
+      {
+        "tagId": 12601261
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301432
+      },
+      {
+        "skillId": 12301369
+      },
+      {
+        "skillId": 12301371
+      },
+      {
+        "skillId": 12301421
+      },
+      {
+        "skillId": 12301423
+      },
+      {
+        "skillId": 12301418
+      },
+      {
+        "skillId": 12301446
+      },
+      {
+        "skillId": 12301367
+      },
+      {
+        "skillId": 12300200
+      },
+      {
+        "skillId": 12301412
+      },
+      {
+        "skillId": 12301410
+      },
+      {
+        "skillId": 12301447
+      },
+      {
+        "skillId": 12301413
+      },
+      {
+        "skillId": 12301445
+      },
+      {
+        "skillId": 12303487
+      },
+      {
+        "skillId": 12303488
+      },
+      {
+        "skillId": 12303489
+      },
+      {
+        "skillId": 12303485
+      },
+      {
+        "skillId": 12303486
+      },
+      {
+        "skillId": 12303559
+      },
+      {
+        "skillId": 12303560
+      },
+      {
+        "skillId": 12300265
+      },
+      {
+        "skillId": 12303428
+      },
+      {
+        "skillId": 12303431
+      },
+      {
+        "skillId": 12303513
+      }
+    ],
+    "hp_SN": 3600000000,
+    "def_SN": 900000,
+    "atk_SN": 900000,
+    "atkSpeed_SN": 1000000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000456,
+    "growthTagList": [
+      {
+        "growthTagId": 12000353
+      },
+      {
+        "growthTagId": 12000060
+      },
+      {
+        "growthTagId": 12000525
+      },
+      {
+        "growthTagId": 12000526
+      },
+      {
+        "growthTagId": 12000528
+      },
+      {
+        "growthTagId": 12000527
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800470
+      },
+      {
+        "talentId": 12800471
+      },
+      {
+        "talentId": 12800467
+      },
+      {
+        "talentId": 12800468
+      },
+      {
+        "talentId": 12800469
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10103596,
+    "actionMoveID": 10103597,
+    "actionAttackedID": 10103600,
+    "actionAttackedBackID": 10103599,
+    "actionKnockUpID": -1,
+    "actionStunID": 10103606,
+    "actionDeadID": 10103598,
+    "actionVictoryID": -1,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 30000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 30000,
+    "hitAreaHalfWidth_SN": 30000,
+    "hitAreaHalfHeight_SN": 30000,
+    "canOverMaxSpeed": false,
+    "battleDes": "",
+    "safeInformation": "以冰冻类型攻击为主的始源桦树生物，可以生成屏蔽冰冻伤害的护盾，形态场与一般的桦树生物有所区别，能够在一定程度上降低自身所受伤害。",
+    "unitInformation": "具有强大威胁性的桦树生物，始源桦树生物的高级生命形态，形态场与一般的桦树生物有所区别，其余特性尚待研究——目前唯一能知道的是，此类桦树生物在源头上与地卫二密切相关。\\n攻击有概率为我方角色附加冻结效果，能召唤大范围的暴风雪。另外，能够在身前生成极光般的帷幕，减轻自身所受伤害并屏蔽所有的冰冻属性伤害。",
+    "enemyDrop": [],
+    "abilityList": [
+      {
+        "id": 12600927
+      },
+      {
+        "id": 12600934
+      }
+    ],
+    "weaknessList": [],
+    "resistanceList": [
+      {
+        "id": 12600989
+      },
+      {
+        "id": 12600991
+      },
+      {
+        "id": 12600992
+      },
+      {
+        "id": 12600968
+      },
+      {
+        "id": 12600956
+      },
+      {
+        "id": 12600965
+      },
+      {
+        "id": 12600969
+      },
+      {
+        "id": 12600972
+      },
+      {
+        "id": 12600964
+      },
+      {
+        "id": 12600955
+      },
+      {
+        "id": 12600962
+      },
+      {
+        "id": 12600976
+      },
+      {
+        "id": 12600990
+      },
+      {
+        "id": 12601009
+      },
+      {
+        "id": 12601551
+      },
+      {
+        "id": 12600951
+      },
+      {
+        "id": 12600958
+      },
+      {
+        "id": 12601548
+      },
+      {
+        "id": 12601717
+      }
+    ],
+    "enemyType": 12601048,
+    "enemyCamp": 12601044,
+    "enemyBookId": 10000630,
+    "prisonerDrop": [],
+    "enemySkillList": [
+      {
+        "id": 80307234
+      }
+    ]
+  },
+  {
+    "id": 10000915,
+    "idCN": "无限深渊/03期/螺向桦树生物-3",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "螺向桦树生物",
+    "EnglishName": "",
+    "viewId": 11000463,
+    "skinList": [],
+    "sideId": 12600921,
+    "controllerId": 10300505,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": 90100008,
+    "isDeadNotDisappear": false,
+    "isFly": true,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600278
+      },
+      {
+        "tagId": 12601261
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301432
+      },
+      {
+        "skillId": 12301369
+      },
+      {
+        "skillId": 12301371
+      },
+      {
+        "skillId": 12301421
+      },
+      {
+        "skillId": 12301423
+      },
+      {
+        "skillId": 12301418
+      },
+      {
+        "skillId": 12301446
+      },
+      {
+        "skillId": 12301367
+      },
+      {
+        "skillId": 12300200
+      },
+      {
+        "skillId": 12301412
+      },
+      {
+        "skillId": 12301410
+      },
+      {
+        "skillId": 12301447
+      },
+      {
+        "skillId": 12301413
+      },
+      {
+        "skillId": 12301445
+      },
+      {
+        "skillId": 12303487
+      },
+      {
+        "skillId": 12303488
+      },
+      {
+        "skillId": 12303489
+      },
+      {
+        "skillId": 12303485
+      },
+      {
+        "skillId": 12303486
+      },
+      {
+        "skillId": 12303559
+      },
+      {
+        "skillId": 12303560
+      },
+      {
+        "skillId": 12300265
+      },
+      {
+        "skillId": 12303428
+      },
+      {
+        "skillId": 12303431
+      },
+      {
+        "skillId": 12303513
+      }
+    ],
+    "hp_SN": 3600000000,
+    "def_SN": 900000,
+    "atk_SN": 900000,
+    "atkSpeed_SN": 1000000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000456,
+    "growthTagList": [
+      {
+        "growthTagId": 12000353
+      },
+      {
+        "growthTagId": 12000060
+      },
+      {
+        "growthTagId": 12000525
+      },
+      {
+        "growthTagId": 12000526
+      },
+      {
+        "growthTagId": 12000528
+      },
+      {
+        "growthTagId": 12000527
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800470
+      },
+      {
+        "talentId": 12800471
+      },
+      {
+        "talentId": 12800467
+      },
+      {
+        "talentId": 12800468
+      },
+      {
+        "talentId": 12800469
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10103596,
+    "actionMoveID": 10103597,
+    "actionAttackedID": 10103600,
+    "actionAttackedBackID": 10103599,
+    "actionKnockUpID": -1,
+    "actionStunID": 10103606,
+    "actionDeadID": 10103598,
+    "actionVictoryID": -1,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 30000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 30000,
+    "hitAreaHalfWidth_SN": 30000,
+    "hitAreaHalfHeight_SN": 30000,
+    "canOverMaxSpeed": false,
+    "battleDes": "",
+    "safeInformation": "以冰冻类型攻击为主的始源桦树生物，可以生成屏蔽冰冻伤害的护盾，形态场与一般的桦树生物有所区别，能够在一定程度上降低自身所受伤害。",
+    "unitInformation": "具有强大威胁性的桦树生物，始源桦树生物的高级生命形态，形态场与一般的桦树生物有所区别，其余特性尚待研究——目前唯一能知道的是，此类桦树生物在源头上与地卫二密切相关。\\n攻击有概率为我方角色附加冻结效果，能召唤大范围的暴风雪。另外，能够在身前生成极光般的帷幕，减轻自身所受伤害并屏蔽所有的冰冻属性伤害。",
+    "enemyDrop": [],
+    "abilityList": [
+      {
+        "id": 12600927
+      },
+      {
+        "id": 12600934
+      }
+    ],
+    "weaknessList": [],
+    "resistanceList": [
+      {
+        "id": 12600989
+      },
+      {
+        "id": 12600991
+      },
+      {
+        "id": 12600992
+      },
+      {
+        "id": 12600968
+      },
+      {
+        "id": 12600956
+      },
+      {
+        "id": 12600965
+      },
+      {
+        "id": 12600969
+      },
+      {
+        "id": 12600972
+      },
+      {
+        "id": 12600964
+      },
+      {
+        "id": 12600955
+      },
+      {
+        "id": 12600962
+      },
+      {
+        "id": 12600976
+      },
+      {
+        "id": 12600990
+      },
+      {
+        "id": 12601009
+      },
+      {
+        "id": 12601551
+      },
+      {
+        "id": 12600951
+      },
+      {
+        "id": 12600958
+      },
+      {
+        "id": 12601548
+      },
+      {
+        "id": 12601717
+      }
+    ],
+    "enemyType": 12601048,
+    "enemyCamp": 12601044,
+    "enemyBookId": 10000630,
+    "prisonerDrop": [],
+    "enemySkillList": [
+      {
+        "id": 80307235
+      }
+    ]
+  },
+  {
+    "id": 10000916,
+    "idCN": "敌方/10淘金乐园/现实稳定装置-不死",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "现实稳定装置",
+    "EnglishName": "",
+    "viewId": 11000629,
+    "skinList": [],
+    "sideId": 12600912,
+    "controllerId": 10300626,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": 90100009,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600278
+      },
+      {
+        "tagId": 12600011
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12303744
+      }
+    ],
+    "hp_SN": 100000000000,
+    "def_SN": 1000000,
+    "atk_SN": 800000,
+    "atkSpeed_SN": 800000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000535,
+    "growthTagList": [],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800470
+      },
+      {
+        "talentId": 12800471
+      },
+      {
+        "talentId": 12800467
+      },
+      {
+        "talentId": 12800468
+      },
+      {
+        "talentId": 12800469
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10104317,
+    "actionMoveID": 10104317,
+    "actionAttackedID": 10104317,
+    "actionAttackedBackID": 10104317,
+    "actionKnockUpID": -1,
+    "actionStunID": 10104317,
+    "actionDeadID": 10104317,
+    "actionVictoryID": -1,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 15000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 20000,
+    "hitAreaHalfWidth_SN": 12000,
+    "hitAreaHalfHeight_SN": 20000,
+    "canOverMaxSpeed": false,
+    "battleDes": "",
+    "safeInformation": "",
+    "unitInformation": "",
+    "enemyDrop": [],
+    "abilityList": [],
+    "weaknessList": [],
+    "resistanceList": [],
+    "enemyType": 12601048,
+    "enemyCamp": 12600221,
+    "enemyBookId": 10000912,
+    "prisonerDrop": [],
+    "enemySkillList": []
   }
 ]

@@ -79674,7 +79674,7 @@
     "idCN": "帮助/委托帮助/内容",
     "mod": "UI文本",
     "isInformalData": false,
-    "text": "1.列车长需要派遣5名护卫乘员承接委托任务。完成委托后可获得相应的奖励。\\n\\n\r\n2.每位护卫乘员同时只能进行一项委托任务。\\n\\n\r\n3.列车长可自行设置每项委托任务的时间。委托时间越长，完成委托后所获得的奖励就越丰富。\\n\\n\r\n4.派遣推荐阵营的护卫乘员且练度越高会增加每项委托的铁盟币基础奖励数量。\\n\\n\r\n5.派遣推荐阵营的护卫乘员会增加每项委托的素材基础奖励数量。\\n\\n\r\n6.若在委托过程中取消委托，可以快速解除占用的护卫乘员，但将无法获得奖励。\\n\\n\r\n7.完成曼德矿场铁安局的全部驱逐任务，可以增加列车长同时承接的委托种类。\\n\\n\r\n8.周三铁盟日，委托完成领取时可获得双倍奖励。\\n\\n\r\n9.开启环游无限手册，委托完成领取时可获得双倍奖励。"
+    "text": "1.列车长需要派遣5名护卫乘员承接委托任务。完成委托后可获得相应的奖励。\\n\\n\r\r2.每位护卫乘员同时只能进行一项委托任务。\\n\\n\r\r3.列车长可自行设置每项委托任务的时间。委托时间越长，完成委托后所获得的奖励就越丰富。\\n\\n\r\r4.派遣推荐阵营的护卫乘员且练度越高会增加每项委托的铁盟币基础奖励数量。\\n\\n\r\r5.派遣推荐阵营的护卫乘员会增加每项委托的素材基础奖励数量。\\n\\n\r\r6.若在委托过程中取消委托，可以快速解除占用的护卫乘员，但将无法获得奖励。\\n\\n\r\r7.提高铁安局驱逐进度可增加铁盟币奖励数量。\\n\\n\r\r8.完成曼德矿场铁安局的全部驱逐任务，可以增加列车长同时承接的委托种类。\\n\\n\r\r9.周三铁盟日，委托完成领取时可获得双倍奖励。\\n\\n\r\r10.开启环游无限手册，委托完成领取时可获得双倍奖励。"
   },
   {
     "id": 80608721,
@@ -83918,7 +83918,7 @@
     "idCN": "关卡/海岛周回/敌人等级",
     "mod": "UI文本",
     "isInformalData": false,
-    "text": "敌人等级：d%"
+    "text": "敌人等级：%d"
   },
   {
     "id": 80609198,
@@ -91719,7 +91719,7 @@
     "idCN": "无垠乱斗/说明文本",
     "mod": "UI文本",
     "isInformalData": false,
-    "text": "每周五、周六日（工作日除外），及法定节假日开放。进行中的进度将在每周一5点重置。"
+    "text": "每周五、周六、周日（工作日除外），及法定节假日开放。进行中的进度将在每周一5点重置。"
   },
   {
     "id": 80609977,
@@ -101164,7 +101164,7 @@
     "idCN": "快捷挑战/进度",
     "mod": "UI文本",
     "isInformalData": false,
-    "text": "%d%"
+    "text": "%d%%"
   },
   {
     "id": 80611109,
@@ -101258,10 +101258,334 @@
     "text": "醒游魔境"
   },
   {
+    "id": 80611129,
+    "idCN": "00NPC对话/活动/静流/交谈/交谈1",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "总觉得和你好久没见了，但你肯定一直在努力工作吧？所以我也不能松懈。",
+    "soundList": [],
+    "preAnimName": "smile",
+    "animName": "smile_idle",
+    "isLoop": true,
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......",
+    "noDataTextId": -1
+  },
+  {
+    "id": 80611130,
+    "idCN": "00NPC对话/活动/静流/交谈/交谈2",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "终端设置了远程跳转功能，即使不在对应的站点，也能直接开始执行任务……当然，可不会直接一下子把你送到对应车站去哦。",
+    "soundList": [],
+    "preAnimName": "smile",
+    "animName": "smile_idle",
+    "isLoop": true,
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......",
+    "noDataTextId": -1
+  },
+  {
+    "id": 80611131,
+    "idCN": "00NPC对话/活动/静流/交谈/交谈3",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "完成任务后，你也可以选择在终端上一起领取奖励。我认为这个系统还是非常人性化的……",
+    "soundList": [],
+    "preAnimName": "smile",
+    "animName": "smile_idle",
+    "isLoop": true,
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......",
+    "noDataTextId": -1
+  },
+  {
+    "id": 80611132,
+    "idCN": "00NPC对话/活动/静流/进入/进入1",
+    "mod": "NPC对话",
+    "isInformalData": false,
+    "text": "最近还好吗？由我来和你介绍一下，这是铁安局最新发布的协同终端功能，在这里可以方便地确认各地铁安局任务的完成情况。",
+    "soundList": [],
+    "preAnimName": "smile",
+    "animName": "smile_idle",
+    "isLoop": true,
+    "isReplace": false,
+    "replaceType": "PlayerName",
+    "playerNameString": "{playername}",
+    "stationString": "{station}",
+    "goodsString": "{goods}",
+    "noDataString": "......",
+    "noDataTextId": -1
+  },
+  {
     "id": 80611125,
     "idCN": "路线地区/维蒂林场",
     "mod": "UI文本",
     "isInformalData": false,
     "text": "维蒂林场"
+  },
+  {
+    "id": 80611126,
+    "idCN": "获取途径/暂无悬赏",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "暂无此类型悬赏任务"
+  },
+  {
+    "id": 80611127,
+    "idCN": "获取途径/城市未开启",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "城市未开启"
+  },
+  {
+    "id": 80611128,
+    "idCN": "获取途径/关卡未解锁",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "关卡未解锁"
+  },
+  {
+    "id": 80611122,
+    "idCN": "签到挑战/游历进度",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "游历进度"
+  },
+  {
+    "id": 80611123,
+    "idCN": "签到挑战/开始游历",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "开始游历"
+  },
+  {
+    "id": 80611124,
+    "idCN": "签到挑战/明日解锁",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "明日解锁"
+  },
+  {
+    "id": 80611133,
+    "idCN": "快捷挑战/铁安局",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "铁安局"
+  },
+  {
+    "id": 80611134,
+    "idCN": "快捷挑战/作战中心",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "管理中心"
+  },
+  {
+    "id": 80611135,
+    "idCN": "快捷挑战/提升等级",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "前往铁安协同终端提升等级"
+  },
+  {
+    "id": -99997,
+    "idCN": "2预制体/MainUI/车站/维蒂林场",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "维蒂林场"
+  },
+  {
+    "id": 80611136,
+    "idCN": "快捷挑战/完成全部驱逐",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "完成全部驱逐"
+  },
+  {
+    "id": 80611137,
+    "idCN": "快捷挑战/总览描述",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "铁安局的治安任务协同终端，在此可以迅速一览未完成的铁安局任务，帮助列车长更好的掌握篝火城中的治安状况"
+  },
+  {
+    "id": 80611138,
+    "idCN": "快捷挑战/进度名",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "进度"
+  },
+  {
+    "id": 80611139,
+    "idCN": "快捷挑战/查看奖励",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "查看驱逐进度奖励"
+  },
+  {
+    "id": 80611140,
+    "idCN": "快捷挑战/拉普拉斯",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "拉普拉斯协议"
+  },
+  {
+    "id": 80611141,
+    "idCN": "快捷挑战/桦石",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "桦石"
+  },
+  {
+    "id": 80611142,
+    "idCN": "快捷挑战/完成全部作战",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "完成全部作战计划可获得"
+  },
+  {
+    "id": 80611143,
+    "idCN": "快捷挑战/驱逐进度",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "完成全部作战计划可获得"
+  },
+  {
+    "id": 80611144,
+    "idCN": "快捷挑战/驱逐任务",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "驱逐任务"
+  },
+  {
+    "id": 80611145,
+    "idCN": "快捷挑战/悬赏任务",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "悬赏任务"
+  },
+  {
+    "id": 80611146,
+    "idCN": "签到挑战/已获得所有奖励",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "已获得所有奖励"
+  },
+  {
+    "id": 80611147,
+    "idCN": "签到挑战/游历可获得",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "游历总计获得"
+  },
+  {
+    "id": 80611148,
+    "idCN": "快捷挑战/作战进度",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "作战进度"
+  },
+  {
+    "id": 80611152,
+    "idCN": "发动机/轰雷计数/挑战记录",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "当前最高单场轰雷次数：%d"
+  },
+  {
+    "id": 80611153,
+    "idCN": "发动机/轰雷计数/MVP角色",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "轰雷%d次"
+  },
+  {
+    "id": 80611154,
+    "idCN": "发动机/轰雷计数/本次记录",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "本场轰雷次数：%d"
+  },
+  {
+    "id": 80611155,
+    "idCN": "发动机/轰雷计数/英文名称",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "OVERLOAD CORE"
+  },
+  {
+    "id": 80611156,
+    "idCN": "发动机/轰雷计数/名称",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "超载核心"
+  },
+  {
+    "id": 80611157,
+    "idCN": "发动机/轰雷计数/本次记录-战斗内",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "本场轰雷次数："
+  },
+  {
+    "id": 80611158,
+    "idCN": "发动机/轰雷计数/名称-战斗内",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "轰雷记录"
+  },
+  {
+    "id": 80611159,
+    "idCN": "发动机/轰雷计数/奖励描述",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "超载核心等级达到"
+  },
+  {
+    "id": 80611160,
+    "idCN": "发动机/轰雷计数/升级信息",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "- 在%s挑战中触发<color=#FFB800>【轰雷】</color>%d次"
+  },
+  {
+    "id": 80611149,
+    "idCN": "活动总览/页签名/金币扭蛋机",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "金币扭蛋机"
+  },
+  {
+    "id": 80611176,
+    "idCN": "监狱/建筑/医务室/一键处理生病",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "已将%d名囚犯转移至医务室"
+  },
+  {
+    "id": 80611177,
+    "idCN": "监狱/建筑/医务室/医务室已满",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "医务室已满"
+  },
+  {
+    "id": 80611178,
+    "idCN": "监狱/建筑/禁闭室/禁闭室或医务室已满",
+    "mod": "UI文本",
+    "isInformalData": false,
+    "text": "处理失败，医务室或禁闭室已满"
   }
 ]

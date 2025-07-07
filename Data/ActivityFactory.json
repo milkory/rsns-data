@@ -396,7 +396,7 @@
     "questId": 81000311,
     "unlockTips": 80600475,
     "isTriggerTime": true,
-    "putTime": 6,
+    "putTime": 7,
     "continueTime": -1,
     "closeTime": -1,
     "isTime": false,
@@ -4352,7 +4352,7 @@
   },
   {
     "id": 86000058,
-    "idCN": "活动/悖论之茧/01卷纸",
+    "idCN": "活动/悖论之茧/01反曲",
     "mod": "无限深渊",
     "isInformalData": false,
     "name": "",
@@ -4364,6 +4364,7 @@
     "voiceActivity": 30005017,
     "correspondingCity": [],
     "correspondingBuild": [],
+    "openLv": 1,
     "showResidueUI": "",
     "openTipsType": "normal",
     "showOpenTipsUI": "",
@@ -5060,6 +5061,7 @@
     "voiceActivity": 30001412,
     "correspondingCity": [],
     "correspondingBuild": [],
+    "openLv": 28,
     "showResidueUI": "",
     "openTipsType": "normal",
     "showOpenTipsUI": "",
@@ -5192,14 +5194,6 @@
         "levyNum": 44000
       }
     ],
-    "orderList": [
-      {
-        "id": 60300145,
-        "weight": 1
-      }
-    ],
-    "orderMaxNum": 35,
-    "openLv": 28,
     "personalRewardList": [
       {
         "id": 11400005,
@@ -5241,7 +5235,14 @@
         "id": 11400235,
         "num": 1
       }
-    ]
+    ],
+    "orderList": [
+      {
+        "id": 60300145,
+        "weight": 1
+      }
+    ],
+    "orderMaxNum": 35
   },
   {
     "id": 86000083,
@@ -5445,9 +5446,9 @@
     "continueTime": -1,
     "closeTime": -1,
     "isTime": true,
-    "startTime": "2024-12-31 15:00:00",
-    "endTime": "2025-01-31 04:59:00",
-    "rewardEndTime": "2025-01-31 04:59:00",
+    "startTime": "2025-07-15 15:00:00",
+    "endTime": "2025-08-04 04:59:00",
+    "rewardEndTime": "2025-08-11 04:59:00",
     "replicateNum": 1,
     "isClearCurrency": false,
     "clearCurrencyList": [],
@@ -5515,15 +5516,15 @@
     "bannerList": [],
     "bannerCapsuleList": [
       {
-        "id": 80500203
+        "id": 80500002
       }
     ],
     "giftList": [],
     "joinPlotId": -1,
-    "ActivityLevelId": 20101355,
-    "joinQuestId": 81002039,
+    "ActivityLevelId": -1,
+    "joinQuestId": -1,
     "skipStationStart": -1,
-    "skipQuestLimit": 81002068,
+    "skipQuestLimit": -1,
     "PersonalProgressList": [
       {
         "id": 81002080
@@ -5590,15 +5591,15 @@
       }
     ],
     "city": -1,
-    "levelQuestLimit": 81002053,
+    "levelQuestLimit": -1,
     "levelTypeList": [],
     "levelPlotList": [],
-    "afterPlotLevel": 81002068,
-    "gameQuestLimit": 81002053,
-    "gameUnlockTips": 80609765,
+    "afterPlotLevel": -1,
+    "gameQuestLimit": -1,
+    "gameUnlockTips": -1,
     "gameOpen": true,
     "gameList": 80305090,
-    "activityCardPack": 86300008,
+    "activityCardPack": -1,
     "isGoldLevel": false,
     "joinGetItem": []
   },
@@ -5619,26 +5620,42 @@
     "openLv": 1,
     "showResidueUI": "",
     "openTipsType": "normal",
-    "showOpenTipsUI": "",
+    "showOpenTipsUI": "UI/Activity/ActivitySignBattle/SignBattleTipChloe",
     "isJoin": false,
     "isOnly": -1,
-    "questId": -1,
+    "questId": 81000711,
     "unlockTips": -1,
     "isTriggerTime": false,
     "putTime": -1,
     "continueTime": -1,
     "closeTime": -1,
     "isTime": false,
-    "startTime": "2025-07-04 12:00:00",
-    "endTime": "2025-08-20 00:00:00",
-    "rewardEndTime": "2025-08-20 00:00:00",
+    "startTime": "2025-07-07 12:00:00",
+    "endTime": "2025-07-22 12:00:00",
+    "rewardEndTime": "2025-07-22 12:00:00",
     "replicateNum": 1,
     "isClearCurrency": false,
     "clearCurrencyList": [],
     "isClearAllQuest": false,
     "isClearPersonalQuest": false,
     "allScheduleRefreshTime": 60,
-    "rewardPreviewList": [],
+    "rewardPreviewList": [
+      {
+        "id": 11400005,
+        "isShowNum": true,
+        "num": 500
+      },
+      {
+        "id": 82600842,
+        "isShowNum": false,
+        "num": 0
+      },
+      {
+        "id": 81300699,
+        "isShowNum": false,
+        "num": 0
+      }
+    ],
     "activityStoreList": [],
     "bannerList": [],
     "bannerCapsuleList": [],
@@ -5672,16 +5689,72 @@
       },
       {
         "id": 20102092
+      },
+      {
+        "id": 20102114
       }
     ],
     "signBattleRewards": [
       {
-        "id": 11000536,
+        "id": 81300700,
         "num": 1
       }
     ],
-    "signBattleTimeExtra": 8,
-    "joinGetItem": []
+    "signBattleTimeExtra": 0,
+    "joinGetItem": [],
+    "signBattleInitLevel": 5
+  },
+  {
+    "id": 86000097,
+    "idCN": "活动/金币扭蛋机（废弃）",
+    "mod": "通用活动",
+    "isInformalData": false,
+    "name": "勤务扭蛋机",
+    "showUI": "UI/Home/HomeCapsule",
+    "bgPath": "",
+    "bgColor": "FFFFFF",
+    "npcId": -1,
+    "helpId": -1,
+    "voiceActivity": -1,
+    "correspondingCity": [],
+    "correspondingBuild": [],
+    "openLv": 1,
+    "showResidueUI": "",
+    "openTipsType": "normal",
+    "showOpenTipsUI": "",
+    "isJoin": true,
+    "isOnly": -1,
+    "questId": -1,
+    "unlockTips": -1,
+    "isTriggerTime": true,
+    "putTime": 3,
+    "continueTime": -1,
+    "closeTime": -1,
+    "isTime": true,
+    "startTime": "2030-05-23 05:00:00",
+    "endTime": "2077-05-23 05:00:00",
+    "rewardEndTime": "2077-05-23 05:00:00",
+    "replicateNum": 1,
+    "isClearCurrency": false,
+    "clearCurrencyList": [],
+    "isClearAllQuest": false,
+    "isClearPersonalQuest": false,
+    "allScheduleRefreshTime": 3600,
+    "rewardPreviewList": [],
+    "activityStoreList": [],
+    "bannerList": [],
+    "bannerCapsuleList": [
+      {
+        "id": 80500002
+      }
+    ],
+    "giftList": [],
+    "joinPlotId": -1,
+    "joinQuestId": -1,
+    "city": -1,
+    "activityCardPack": -1,
+    "joinGetItem": [],
+    "openUi": ""
   },
   {
     "id": 86000096,
@@ -5692,7 +5765,7 @@
     "showUI": "UI/Activity/ActivitySafe/ActivitySafe",
     "bgPath": "",
     "bgColor": "FFFFFF",
-    "npcId": 83700020,
+    "npcId": 83700160,
     "helpId": -1,
     "voiceActivity": -1,
     "correspondingCity": [],
@@ -5703,7 +5776,7 @@
     "showOpenTipsUI": "",
     "isJoin": false,
     "isOnly": -1,
-    "questId": -1,
+    "questId": 81001150,
     "unlockTips": -1,
     "isTriggerTime": false,
     "putTime": -1,
@@ -5730,5 +5803,133 @@
     "activityCardPack": -1,
     "joinGetItem": [],
     "openUi": ""
+  },
+  {
+    "id": 86000098,
+    "idCN": "活动/悖论之茧/03螺向",
+    "mod": "无限深渊",
+    "isInformalData": false,
+    "name": "",
+    "showUI": "",
+    "bgPath": "",
+    "bgColor": "FFFFFF",
+    "npcId": 83700157,
+    "helpId": -1,
+    "voiceActivity": 30005017,
+    "correspondingCity": [],
+    "correspondingBuild": [],
+    "openLv": 1,
+    "showResidueUI": "",
+    "openTipsType": "normal",
+    "showOpenTipsUI": "",
+    "isJoin": false,
+    "isOnly": -1,
+    "questId": -1,
+    "unlockTips": -1,
+    "isTriggerTime": false,
+    "putTime": -1,
+    "continueTime": -1,
+    "closeTime": -1,
+    "isTime": false,
+    "startTime": "2025-06-13 12:00:00",
+    "endTime": "2025-06-29 12:00:00",
+    "rewardEndTime": "",
+    "replicateNum": 1,
+    "isClearCurrency": false,
+    "clearCurrencyList": [],
+    "isClearAllQuest": false,
+    "isClearPersonalQuest": false,
+    "allScheduleRefreshTime": 60,
+    "rewardPreviewList": [
+      {
+        "id": 11400714
+      },
+      {
+        "id": 11700246
+      },
+      {
+        "id": 11400001
+      },
+      {
+        "id": 11400672
+      }
+    ],
+    "activityStoreList": [
+      {
+        "id": 40300126
+      }
+    ],
+    "bannerList": [],
+    "bannerCapsuleList": [],
+    "giftList": [],
+    "joinPlotId": -1,
+    "joinQuestId": -1,
+    "city": -1,
+    "activityCardPack": -1,
+    "joinGetItem": [],
+    "endlessBattleCoinId": 11400672,
+    "isRefreshStore": true,
+    "endlessBattleLv": 30,
+    "endlessRefresh": 1,
+    "endlessMaxTeams": 4,
+    "endlessLevelList": [
+      {
+        "id": 20102049
+      },
+      {
+        "id": 20102052
+      },
+      {
+        "id": 20102044
+      },
+      {
+        "id": 20102042
+      },
+      {
+        "id": 20102050
+      },
+      {
+        "id": 20102055
+      },
+      {
+        "id": 20102048
+      },
+      {
+        "id": 20102053
+      },
+      {
+        "id": 20102045
+      },
+      {
+        "id": 20102054
+      },
+      {
+        "id": 20102043
+      },
+      {
+        "id": 20102056
+      },
+      {
+        "id": 20102047
+      },
+      {
+        "id": 20102046
+      },
+      {
+        "id": 20102051
+      }
+    ],
+    "powerLv": 10,
+    "powerRoleList": [
+      {
+        "id": 10000843
+      },
+      {
+        "id": 10000749
+      },
+      {
+        "id": 10000468
+      }
+    ]
   }
 ]
