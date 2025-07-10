@@ -155655,7 +155655,7 @@
     "hitAreaHalfHeight_SN": 16000,
     "canOverMaxSpeed": false,
     "battleDes": "",
-    "safeInformation": "",
+    "safeInformation": "以操纵毒类能力为主的沼泞桦树生物，能够叠加【毒蚀】以及造成【击晕】。",
     "unitInformation": "以操纵毒类能力为主的沼泞桦树生物，有着类似海洋中贝壳类生物的外形，然而多了一些“不必要的部分”。\\n能够叠加【毒蚀】以及造成【击晕】。",
     "enemyDrop": [],
     "abilityList": [
@@ -160888,8 +160888,8 @@
     "hitAreaHalfHeight_SN": 20000,
     "canOverMaxSpeed": false,
     "battleDes": "",
-    "safeInformation": "",
-    "unitInformation": "",
+    "safeInformation": "屠戮者的成员之一，持用大剑，在近距离战斗时极具威胁。",
+    "unitInformation": "全副武装的屠戮者。使用大剑劈砍敌人，造成物理伤害。近距离攻击武器使得该敌人极具威慑性。",
     "enemyDrop": [],
     "abilityList": [
       {
@@ -160921,7 +160921,7 @@
     "idCN": "敌方/15屠戮者/屠戮者·铁拳",
     "mod": "敌方角色",
     "isInformalData": false,
-    "name": "屠戮者·铁拳",
+    "name": "屠戮者·怨击",
     "EnglishName": "",
     "viewId": 11000621,
     "skinList": [],
@@ -161029,8 +161029,8 @@
     "hitAreaHalfHeight_SN": 20000,
     "canOverMaxSpeed": false,
     "battleDes": "",
-    "safeInformation": "",
-    "unitInformation": "",
+    "safeInformation": "屠戮者的成员之一，能够使用一定程度的升构能力。",
+    "unitInformation": "全副武装的屠戮者，是屠戮者中难得一见的升构者。未持有武器，但可以使用升构能力发起攻击。",
     "enemyDrop": [],
     "abilityList": [
       {
@@ -161173,8 +161173,8 @@
     "hitAreaHalfHeight_SN": 20000,
     "canOverMaxSpeed": false,
     "battleDes": "",
-    "safeInformation": "",
-    "unitInformation": "",
+    "safeInformation": "屠戮者的成员之一，以能喷射火焰的喷枪作为主要武器。",
+    "unitInformation": "全副武装的屠戮者，体型健硕，以能喷射火焰的喷枪作为主要武器。非法改装后的喷枪可以短暂锁定在原地眩晕的敌人，释放镭射火柱，对于非眩晕状态的敌人则因难以锁定而无法生效。",
     "enemyDrop": [],
     "abilityList": [],
     "weaknessList": [
@@ -161310,8 +161310,8 @@
     "hitAreaHalfHeight_SN": 20000,
     "canOverMaxSpeed": false,
     "battleDes": "",
-    "safeInformation": "",
-    "unitInformation": "",
+    "safeInformation": "屠戮者的成员之一，双手持握长柄钉锤，在近距离战斗时极具威胁。",
+    "unitInformation": "全副武装的屠戮者，体型健硕，双手持握长柄钉锤，仅从外观上就能感受到危险，蓄力后对地面释放的锤击能让所有靠近的敌人遭受强烈的震荡并眩晕。",
     "enemyDrop": [],
     "abilityList": [
       {
@@ -161352,6 +161352,9 @@
     "skinList": [
       {
         "unitViewId": 11000623
+      },
+      {
+        "unitViewId": 11000610
       }
     ],
     "sideId": 12600026,
@@ -161545,19 +161548,19 @@
     ],
     "ProfilePhotoList": [
       {
-        "id": 82600810,
+        "id": 82600846,
         "weight": 95
       },
       {
-        "id": 82600811,
+        "id": 82600847,
         "weight": 95
       },
       {
-        "id": 82600812,
+        "id": 82600848,
         "weight": 95
       },
       {
-        "id": 82600813,
+        "id": 82600849,
         "weight": 15
       }
     ],
@@ -161614,7 +161617,7 @@
     "mod": "玩家角色",
     "isInformalData": false,
     "name": "列车长",
-    "EnglishName": "",
+    "EnglishName": "Conductor",
     "viewId": 11000624,
     "skinList": [
       {
@@ -161664,8 +161667,15 @@
     ],
     "noUpgradeSkillList": [],
     "equipmentSlotList": [
-      {},
-      {}
+      {
+        "tagID": 12600155
+      },
+      {
+        "tagID": 12600161
+      },
+      {
+        "tagID": 12600162
+      }
     ],
     "growthId": 12000029,
     "growthTagList": [],
@@ -166311,28 +166321,13 @@
     ],
     "passiveSkillList": [
       {
-        "skillId": 12301412
+        "skillId": 12301432
       },
       {
-        "skillId": 12301410
+        "skillId": 12301369
       },
       {
-        "skillId": 12301447
-      },
-      {
-        "skillId": 12301445
-      },
-      {
-        "skillId": 12300200
-      },
-      {
-        "skillId": 12301367
-      },
-      {
-        "skillId": 12301446
-      },
-      {
-        "skillId": 12301413
+        "skillId": 12301371
       },
       {
         "skillId": 12301421
@@ -166342,6 +166337,51 @@
       },
       {
         "skillId": 12301418
+      },
+      {
+        "skillId": 12301446
+      },
+      {
+        "skillId": 12301367
+      },
+      {
+        "skillId": 12300200
+      },
+      {
+        "skillId": 12301412
+      },
+      {
+        "skillId": 12301410
+      },
+      {
+        "skillId": 12301447
+      },
+      {
+        "skillId": 12301413
+      },
+      {
+        "skillId": 12301445
+      },
+      {
+        "skillId": 12303487
+      },
+      {
+        "skillId": 12303488
+      },
+      {
+        "skillId": 12303489
+      },
+      {
+        "skillId": 12303485
+      },
+      {
+        "skillId": 12303486
+      },
+      {
+        "skillId": 12303559
+      },
+      {
+        "skillId": 12303560
       },
       {
         "skillId": 12303513
@@ -166436,12 +166476,70 @@
     "hitAreaHalfHeight_SN": 45000,
     "canOverMaxSpeed": false,
     "battleDes": "",
-    "safeInformation": "",
-    "unitInformation": "",
+    "safeInformation": "始源桦树生物中极其强大的个体，能造成多种负面效果，另外，还能造成独有的【元素侵蚀】状态。",
+    "unitInformation": "始源桦树生物中极其强大的个体，拥有与其他始源桦树生物不同的外形特征。与其同类一样属于原始桦树生物的高级生命形态，形态场与一般的桦树生物有所区别，其余特性尚待研究——目前唯一能知道的是，此类桦树生物在源头上与地卫二密切相关。\\n能造成【诅咒】、【浸湿】和【诅咒】等多种负面效果，另外，还能造成独有的【元素侵蚀】状态，提高我方造成的特定伤害效果，降低我方造成的治疗效果。",
     "enemyDrop": [],
     "abilityList": [],
     "weaknessList": [],
-    "resistanceList": [],
+    "resistanceList": [
+      {
+        "id": 12600989
+      },
+      {
+        "id": 12600991
+      },
+      {
+        "id": 12600992
+      },
+      {
+        "id": 12600968
+      },
+      {
+        "id": 12600956
+      },
+      {
+        "id": 12600965
+      },
+      {
+        "id": 12600969
+      },
+      {
+        "id": 12600972
+      },
+      {
+        "id": 12600964
+      },
+      {
+        "id": 12600955
+      },
+      {
+        "id": 12600962
+      },
+      {
+        "id": 12600976
+      },
+      {
+        "id": 12600990
+      },
+      {
+        "id": 12601009
+      },
+      {
+        "id": 12601551
+      },
+      {
+        "id": 12600951
+      },
+      {
+        "id": 12600958
+      },
+      {
+        "id": 12601548
+      },
+      {
+        "id": 12601717
+      }
+    ],
     "enemyType": 12601048,
     "enemyCamp": 12601044,
     "enemyBookId": 10000917,
