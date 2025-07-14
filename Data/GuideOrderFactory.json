@@ -8491,7 +8491,7 @@
   },
   {
     "id": 81100817,
-    "idCN": "EP1/编队/装备/高亮",
+    "idCN": "EP1/编队/装备/高亮3号位",
     "mod": "指定UI高亮",
     "isInformalData": false,
     "orderType": "UIFocus",
@@ -15879,7 +15879,7 @@
     "isInformalData": false,
     "orderType": "ClickButton",
     "panelName": "UI/MainUI/MainUI",
-    "btnName": "MainUI_Group_Common.Btn_Safe",
+    "btnName": "MainUI_Group_Common_Btn_Safe_Click",
     "autoCompletedTime": -1.0
   },
   {
@@ -15899,5 +15899,126 @@
     "offsetY": 0.0,
     "alpha": 0.7,
     "isShowFinger": true
+  },
+  {
+    "id": 81101088,
+    "idCN": "EP4/条件跳转/在车站-等待",
+    "mod": "IFELSE跳转",
+    "isInformalData": false,
+    "orderType": "ConditionJumpIndex",
+    "isLoop": true,
+    "trueLabel": -1,
+    "falseLabel": -1,
+    "keyList": [
+      {
+        "compareType": "EQ",
+        "key": "IsActivated",
+        "num": 1.0,
+        "uiPath": "UI/MainUI/MainUI",
+        "val": "Group_OutSide.Group_Station"
+      }
+    ]
+  },
+  {
+    "id": 81101090,
+    "idCN": "EP4/条件跳转/编队打开-等待",
+    "mod": "IFELSE跳转",
+    "isInformalData": false,
+    "orderType": "ConditionJumpIndex",
+    "isLoop": true,
+    "trueLabel": -1,
+    "falseLabel": -1,
+    "keyList": [
+      {
+        "compareType": "EQ",
+        "key": "IsActivated",
+        "num": 1.0,
+        "uiPath": "UI/Squads/Squads",
+        "val": ""
+      }
+    ]
+  },
+  {
+    "id": 81101106,
+    "idCN": "EP4/条件跳转/装备/有装备",
+    "mod": "IFELSE跳转",
+    "isInformalData": false,
+    "orderType": "ConditionJumpIndex",
+    "isLoop": false,
+    "trueLabel": -1,
+    "falseLabel": 81100651,
+    "keyList": [
+      {
+        "compareType": "EQ",
+        "key": "IsActivated",
+        "num": 1.0,
+        "uiPath": "UI/Squads/Squads",
+        "val": "Group_Detail.Group_Equip.StaticGrid_Equip.Group_Equipment_000.Group_Equipment"
+      }
+    ]
+  },
+  {
+    "id": 81101107,
+    "idCN": "EP4/编队/装备/高亮1号位",
+    "mod": "指定UI高亮",
+    "isInformalData": false,
+    "orderType": "UIFocus",
+    "uiPath": "UI/Squads/Squads",
+    "nodeType": "Fixed",
+    "nodeName": "Group_Detail.Group_Equip.StaticGrid_Equip.Group_Equipment_000.Btn_Item",
+    "mId": -1,
+    "delay": false,
+    "w": 130.0,
+    "h": 130.0,
+    "offsetX": 0.0,
+    "offsetY": 0.0,
+    "alpha": 0.7,
+    "isShowFinger": true
+  },
+  {
+    "id": 81101109,
+    "idCN": "EP4/条件跳转/编队/1号位有角色",
+    "mod": "IFELSE跳转",
+    "isInformalData": false,
+    "orderType": "ConditionJumpIndex",
+    "isLoop": false,
+    "trueLabel": -1,
+    "falseLabel": 81100651,
+    "keyList": [
+      {
+        "compareType": "EQ",
+        "key": "IsActivated",
+        "num": 1.0,
+        "uiPath": "UI/Squads/Squads",
+        "val": "StaticGrid_List.Group_Slot_000.Btn_Character"
+      }
+    ]
+  },
+  {
+    "id": 81101110,
+    "idCN": "EP4/编队/装备/文本1",
+    "mod": "提示",
+    "isInformalData": false,
+    "orderType": "Tip",
+    "x": 0.0,
+    "y": 0.0,
+    "text": "列车长，敌人看起来不太好对付，先<color=#b45e01>强化下装备</color>再继续战斗吧！",
+    "isDoTween": true,
+    "speed": 0.02,
+    "soundId": -1,
+    "pfp": "UI/Guidance/PFP/Livia2_8",
+    "isWaitClick": true,
+    "left": 2,
+    "top": 2,
+    "autoCompletedTime": -1.0
+  },
+  {
+    "id": 81101111,
+    "idCN": "首次进入/17装备升级",
+    "mod": "保存面板触发引导序号",
+    "isInformalData": false,
+    "orderType": "SavePanelTriggerNo",
+    "apiName": "",
+    "guideNo": 17
   }
 ]

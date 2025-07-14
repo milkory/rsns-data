@@ -26243,7 +26243,7 @@
         "actionId": 10104464
       }
     ],
-    "skillLoopDelayFrame": 660,
+    "skillLoopDelayFrame": 150,
     "shapeShiftList": [],
     "commandList": [],
     "enemySkillList": [],
@@ -26295,6 +26295,49 @@
     "energyBarColor": "#FFB200",
     "isSkillDelay": false,
     "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300628,
+    "idCN": "敌方/02桦树/BOSS/二向之触-主线",
+    "mod": "BOSSAI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10104463
+      },
+      {
+        "actionID": 10104462
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10104469,
+        "activeFrame": 182,
+        "activeTime": 1.0,
+        "rangeSN": 240000
+      }
+    ],
+    "isInvisibleBeforeShowUp": true,
+    "showupSkillList": [
+      {
+        "actionId": 10104464
+      }
+    ],
+    "skillLoopDelayFrame": 150,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 370,
+    "energyBarColor": "#FFB200",
+    "isSkillDelay": true,
+    "minDelay": 360,
     "maxDelay": 360
   }
 ]

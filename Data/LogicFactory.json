@@ -2295,5 +2295,18 @@
     "returnType": "int",
     "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rset $battleControlManager\r\rgetp curGSBuff\rset $curBuff\r\rgetp _snapshot\rgetp targetCard\rgetp ca\rgetp targetColor\rset $targetColor\r\rif $targetColor eq \"AttackTest\"\r    ret 1\rendif\r\rret 2",
     "cacheAsGMF": true
+  },
+  {
+    "id": 60000169,
+    "idCN": "卡牌/判断卡牌目标类型/判断对友",
+    "mod": "执行GS脚本",
+    "isInformalData": false,
+    "debug": false,
+    "autoRecycle": false,
+    "memo": "见产品名称",
+    "paramHelp": "",
+    "returnType": "int",
+    "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rset $battleControlManager\r\rgetp curGSBuff\rset $curBuff\r\rgetp _snapshot\rgetp targetCard\rgetp ca\rgetp targetColor\rset $targetColor\r\rif $targetColor eq \"HealTest\"\r    ret 1\rendif\r\rret 2",
+    "cacheAsGMF": true
   }
 ]

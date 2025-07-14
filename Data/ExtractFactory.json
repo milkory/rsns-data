@@ -1034,18 +1034,18 @@
     "startTime": "2022-07-31 00:00:00",
     "endTime": "",
     "type": "limitCapsule",
-    "replicateNum": 1,
+    "replicateNum": 2,
     "costList": [
       {
         "count": 1,
-        "id": 11400664,
+        "id": 11400711,
         "num": 1
       }
     ],
     "costTenList": [
       {
         "count": 10,
-        "id": 11400664,
+        "id": 11400711,
         "num": 10
       }
     ],
@@ -1057,6 +1057,7 @@
         "id": 11700245,
         "index": 1,
         "isFirst": false,
+        "isResetNum": true,
         "limitNum": 4,
         "num": 1,
         "quality": "Purple",
@@ -1066,7 +1067,7 @@
         "id": 11700246,
         "index": 2,
         "isFirst": false,
-        "isResetNum": false,
+        "isResetNum": true,
         "limitNum": 4,
         "num": 1,
         "quality": "Purple",
@@ -1076,7 +1077,7 @@
         "id": 11700100,
         "index": 3,
         "isFirst": false,
-        "isResetNum": false,
+        "isResetNum": true,
         "limitNum": 50,
         "num": 4,
         "quality": "Blue",
@@ -1086,7 +1087,7 @@
         "id": 11700121,
         "index": 4,
         "isFirst": false,
-        "isResetNum": false,
+        "isResetNum": true,
         "limitNum": 50,
         "num": 10,
         "quality": "Blue",
@@ -1096,6 +1097,7 @@
         "id": 11700122,
         "index": 5,
         "isFirst": false,
+        "isResetNum": true,
         "limitNum": 42,
         "num": 1,
         "quality": "Blue",
@@ -1105,7 +1107,7 @@
         "id": 11400001,
         "index": 6,
         "isFirst": false,
-        "isResetNum": false,
+        "isResetNum": true,
         "limitNum": 40,
         "num": 100000,
         "quality": "Blue",
@@ -1115,6 +1117,7 @@
         "id": 11400001,
         "index": 7,
         "isFirst": false,
+        "isResetNum": true,
         "limitNum": 20,
         "num": 200000,
         "quality": "Blue",
@@ -1124,6 +1127,7 @@
         "id": 11400001,
         "index": 8,
         "isFirst": false,
+        "isResetNum": true,
         "limitNum": 8,
         "num": 500000,
         "quality": "Blue",
@@ -1133,6 +1137,7 @@
         "id": 11400290,
         "index": 9,
         "isFirst": false,
+        "isResetNum": true,
         "limitNum": 8,
         "num": 1,
         "quality": "Blue",
@@ -1142,6 +1147,7 @@
         "id": 11400406,
         "index": 10,
         "isFirst": false,
+        "isResetNum": true,
         "limitNum": 4,
         "num": 1,
         "quality": "Purple",
@@ -1151,6 +1157,7 @@
         "id": 11700161,
         "index": 11,
         "isFirst": false,
+        "isResetNum": true,
         "limitNum": 50,
         "num": 1,
         "quality": "Blue",
@@ -1160,6 +1167,7 @@
         "id": 11700078,
         "index": 12,
         "isFirst": false,
+        "isResetNum": true,
         "limitNum": 50,
         "num": 1,
         "quality": "Blue",
@@ -1169,6 +1177,7 @@
         "id": 11400217,
         "index": 13,
         "isFirst": false,
+        "isResetNum": true,
         "limitNum": 20,
         "num": 1,
         "quality": "Blue",
@@ -1178,6 +1187,7 @@
         "id": 11400067,
         "index": 14,
         "isFirst": false,
+        "isResetNum": true,
         "limitNum": 10,
         "num": 1,
         "quality": "Blue",
@@ -1187,6 +1197,7 @@
         "id": 11400066,
         "index": 15,
         "isFirst": false,
+        "isResetNum": true,
         "limitNum": 10,
         "num": 1,
         "quality": "Blue",
@@ -1268,6 +1279,7 @@
         "id": 85500205,
         "index": 24,
         "isFirst": false,
+        "isResetNum": false,
         "limitNum": 1,
         "num": 1,
         "quality": "Yellow",
@@ -1507,7 +1519,7 @@
     "exchangCount": 405,
     "goldenList": [
       {
-        "id": 11400664,
+        "id": 11400711,
         "showAdd": false
       }
     ],
@@ -1572,10 +1584,10 @@
     "preciousPath": "UI/Home/HomeCapsle_Witches/Precious",
     "rarePath": "UI/Home/HomeCapsle_Witches/Rare",
     "casualPath": "UI/Home/HomeCapsle_Witches/Common",
-    "btnBg": "UI/Home/HomeCapsle_Witches/Pay",
+    "btnBg": "UI/Home/HomeCapsle_Witches/Reset/Pay",
     "payOneX": -293.0,
     "payOneY": 142.0,
-    "btnTenBg": "UI/Home/HomeCapsle_Witches/PayTen",
+    "btnTenBg": "UI/Home/HomeCapsle_Witches/Reset/PayTen",
     "payTenX": 339.0,
     "payTenY": 142.0,
     "probability": "UI/Home/HomeCapsle_Witches/probability",
@@ -1613,6 +1625,23 @@
     "buyNoY": -271.0,
     "buyNoIconPath": "UI/Home/HomeCapsle_Witches/full",
     "buyNoTxtColor": "#2B2B2B",
+    "oldCoinStoreId": 40300129,
+    "oldCoinStoreBtnPath": "UI/Home/HomeCapsle_Witches/OldCoinStore/Btn_Open",
+    "oldCoinEntranceTxtX": 0.0,
+    "oldCoinEntranceTxtY": 0.0,
+    "oldCoinEntranceTxtColor": "#FFFFFF",
+    "oldCoinEntranceTxtSize": -1,
+    "oldCoinStoreDiPath": "UI/Home/HomeCapsle_Witches/OldCoinStore/Di",
+    "oldCoinTitleTxtX": 0.0,
+    "oldCoinTitleTxtY": 0.0,
+    "oldCoinTitleTxtColor": "#FFFFFF",
+    "oldCoinTitleTxtSize": -1,
+    "oldCoinStoreListPath": "UI/Home/HomeCapsle_Witches/OldCoinStore/ListBg",
+    "oldCoinStoreArrowPath": "UI/Home/HomeCapsle_Witches/OldCoinStore/Arrow",
+    "oldCoinStoreNamePath": "UI/Home/HomeCapsle_Witches/OldCoinStore/NameBg",
+    "oldCoinStoreNumPath": "UI/Home/HomeCapsle_MillionaireReset/OldCoinStore/NumBg",
+    "oldCoinStoreBtnCanPath": "UI/Home/HomeCapsle_Witches/OldCoinStore/Btn_Exchang_Can",
+    "oldCoinStoreBtnNotPath": "UI/Home/HomeCapsle_Witches/OldCoinStore/Btn_Exchang_Nont",
     "sort": 422
   },
   {
@@ -3437,8 +3466,8 @@
     "mod": "抽角色配置",
     "isInformalData": false,
     "commodityId": 40200012,
-    "startTime": "2025-03-24 12:00:00",
-    "endTime": "2025-04-01 12:00:00",
+    "startTime": "2025-07-14 12:00:00",
+    "endTime": "2025-07-21 12:00:00",
     "type": "Pay",
     "isNewbie": false,
     "isActBanner": false,
@@ -3587,7 +3616,6 @@
     "name": "常驻招募-伊洛娜概率提升",
     "isRedPoint": true,
     "isActivaty": false,
-    "sort": 6,
     "questId": 81000711,
     "imageBg": "UI/Gacha/BG/Permanent_bg",
     "spineBg": "RoleU3D/LH_Ilona_sp/LH_Ilona_sp",
@@ -3627,7 +3655,8 @@
         "x": -280.0,
         "y": -444.5
       }
-    ]
+    ],
+    "sort": 6
   },
   {
     "id": 80500019,
@@ -5039,8 +5068,8 @@
     "mod": "抽角色配置",
     "isInformalData": false,
     "commodityId": 40200012,
-    "startTime": "2025-06-27 12:00:00",
-    "endTime": "2025-07-07 12:00:00",
+    "startTime": "2025-07-14 12:00:00",
+    "endTime": "2025-07-21 12:00:00",
     "type": "Pay",
     "isNewbie": false,
     "isActBanner": false,
@@ -8977,7 +9006,7 @@
     ],
     "name": "主线招募-妮蔻拉",
     "isRedPoint": true,
-    "isActivaty": true,
+    "sort": 6,
     "questId": 81000711,
     "imageBg": "UI/Dialog/Back/traffic_light",
     "spineBg": "RoleU3D/LH_Nicola_sp/LH_Nicola_sp",
@@ -9023,8 +9052,7 @@
         "x": -280.0,
         "y": -444.5
       }
-    ],
-    "sort": 6
+    ]
   },
   {
     "id": 80500126,
@@ -14287,12 +14315,12 @@
   },
   {
     "id": 80500209,
-    "idCN": "卡池/99待定-伊卡菈",
+    "idCN": "卡池/04特设招募/04伊卡菈up卡池",
     "mod": "抽角色配置",
     "isInformalData": false,
     "commodityId": 40200012,
-    "startTime": "2025-07-01 12:00:00",
-    "endTime": "2025-07-01 12:00:00",
+    "startTime": "2025-07-14 12:00:00",
+    "endTime": "2025-08-15 12:00:00",
     "type": "Pay",
     "isNewbie": false,
     "isActBanner": false,
@@ -14300,11 +14328,21 @@
     "costList": [
       {
         "count": 1,
+        "id": 11400705,
+        "num": 1
+      },
+      {
+        "count": 1,
         "id": 11400007,
         "num": 1
       }
     ],
     "costTenList": [
+      {
+        "count": 10,
+        "id": 11400705,
+        "num": 10
+      },
       {
         "count": 10,
         "id": 11400007,
@@ -14327,7 +14365,7 @@
         "weightVAR": -306
       },
       {
-        "id": 80306573,
+        "id": 80306972,
         "weight": 2000,
         "weightVAR": 3000
       }
@@ -14431,7 +14469,7 @@
       }
     ],
     "tenSSRMax": 10,
-    "protectTag": 12601804,
+    "protectTag": 12601825,
     "protectCount": 50,
     "upList": [
       {
@@ -14486,10 +14524,10 @@
         "y": -30.0
       }
     ],
-    "details": "<size=30><b>详情说明：</b></size>\\n\r\r<color=#FFB800>【繁星的轨迹-马吉拉·星仪】</color>属于<color=#FFB800>【特设招募】</color>。\\n\r\r本次<color=#FFB800>【繁星的轨迹-马吉拉·星仪】</color>结束后，角色<color=#FFB800>【马吉拉·星仪】</color>不会加入<color=#FFB800>【常驻招募】</color>。\\n\r\r<size=30><b>保底说明：</b></size>\\n\r\r在任意<color=#FFB800>【特设招募】</color>中，未获得<color=#FFE266>SSR</color>角色的累计招募次数会一直累计于当期<color=#FFB800>【特设招募】</color>中，与其他招募的招募次数保底相互独立计算，互不影响。当期<color=#FFB800>【特设招募】</color>结束后，未获得<color=#FFE266>SSR</color>角色的累计招募次数将不会继承至下期<color=#FFB800>【特设招募】</color>中。\\n\r\r在<color=#FFB800>【特设招募】</color>中，如果连续<color=#FFB800>50</color>次没有获得<color=#FFE266>SSR</color>角色，则之后每次招募获得<color=#FFE266>SSR</color>角色的概率将提升<color=#FFB800>3%</color>，直至获得<color=#FFE266>SSR</color>角色，之后获得<color=#FFE266>SSR</color>角色的概率将恢复到<color=#FFB800>2%</color>。最多<color=#FFB800>83</color>次招募必定能通过保底获得<color=#FFE266>SSR</color>角色。\\n\r\r在<color=#FFB800>【特设招募】</color>中，如果连续<color=#FFB800>9</color>次获得<color=#71CEFD>R</color>角色，则第<color=#FFB800>10</color>次必定获得<color=#E4B7FF>SR</color>角色或<color=#FFE266>SSR</color>角色。当前招募连续获得<color=#71CEFD>R</color>角色的招募次数不会继承至其他招募。\\n\\n\r\r<size=30><b>UP说明：</b></size>\\n\r\r当招募获得<color=#FFE266>SSR</color>角色时，有<color=#FFB800>50%</color>的概率为本期<color=#FFE266>SSR</color>概率提升角色<color=#FFB800>【马吉拉·星仪】</color>。若本次招募获得的<color=#FFE266>SSR</color>角色非本期<color=#FFE266>SSR</color>概率提升角色，则下次招募获得的<color=#FFE266>SSR</color>角色必定为本期<color=#FFE266>SSR</color>概率提升角色。\\n\\n\r\r<size=30><b>特殊说明：</b></size>\\n\r\r列车长每次招募时，将获得<color=#FFB800>1</color>个【履历情报】。\\n\r\r列车长在招募中获得已有角色时，每次将转化为<color=#FFB800>1</color>个该角色的【履历补充】，角色的【履历补充】可用于角色觉醒。列车长获得任一角色的【履历补充】累计达到<color=#FFB800>5</color>个后，之后获得的该角色的【履历补充】将按以下比例自动回收为【履历情报】：\\n\r\r<color=#FFB800>1</color>个<color=#71CEFD>R</color>角色的【履历补充】将被回收为<color=#FFB800>1</color>个【履历情报】\\n\r\r<color=#FFB800>1</color>个<color=#E4B7FF>SR</color>角色的【履历补充】将被回收为<color=#FFB800>3</color>个【履历情报】\\n\r\r<color=#FFB800>1</color>个<color=#FFE266>SSR</color>角色的【履历补充】将被回收为<color=#FFB800>10</color>个【履历情报】\\n\r\r列车长可使用【履历情报】在每个城市休息区中的黑月商店兑换道具。",
+    "details": "<size=30><b>详情说明：</b></size>\\n\r\r<color=#FFB800>【天鳞至理-伊卡菈】</color>属于<color=#FFB800>【特设招募】</color>。\\n\r\r本次<color=#FFB800>【天鳞至理-伊卡菈】</color>结束后，角色<color=#FFB800>【伊卡菈】</color>不会加入<color=#FFB800>【常驻招募】</color>。\\n\r\r<size=30><b>保底说明：</b></size>\\n\r\r在任意<color=#FFB800>【特设招募】</color>中，未获得<color=#FFE266>SSR</color>角色的累计招募次数会一直累计于当期<color=#FFB800>【特设招募】</color>中，与其他招募的招募次数保底相互独立计算，互不影响。当期<color=#FFB800>【特设招募】</color>结束后，未获得<color=#FFE266>SSR</color>角色的累计招募次数将不会继承至下期<color=#FFB800>【特设招募】</color>中。\\n\r\r在<color=#FFB800>【特设招募】</color>中，如果连续<color=#FFB800>50</color>次没有获得<color=#FFE266>SSR</color>角色，则之后每次招募获得<color=#FFE266>SSR</color>角色的概率将提升<color=#FFB800>3%</color>，直至获得<color=#FFE266>SSR</color>角色，之后获得<color=#FFE266>SSR</color>角色的概率将恢复到<color=#FFB800>2%</color>。最多<color=#FFB800>83</color>次招募必定能通过保底获得<color=#FFE266>SSR</color>角色。\\n\r\r在<color=#FFB800>【特设招募】</color>中，如果连续<color=#FFB800>9</color>次获得<color=#71CEFD>R</color>角色，则第<color=#FFB800>10</color>次必定获得<color=#E4B7FF>SR</color>角色或<color=#FFE266>SSR</color>角色。当前招募连续获得<color=#71CEFD>R</color>角色的招募次数不会继承至其他招募。\\n\\n\r\r<size=30><b>UP说明：</b></size>\\n\r\r当招募获得<color=#FFE266>SSR</color>角色时，有<color=#FFB800>50%</color>的概率为本期<color=#FFE266>SSR</color>概率提升角色<color=#FFB800>【伊卡菈】</color>。若本次招募获得的<color=#FFE266>SSR</color>角色非本期<color=#FFE266>SSR</color>概率提升角色，则下次招募获得的<color=#FFE266>SSR</color>角色必定为本期<color=#FFE266>SSR</color>概率提升角色。\\n\\n\r\r<size=30><b>特殊说明：</b></size>\\n\r\r列车长每次招募时，将获得<color=#FFB800>1</color>个【履历情报】。\\n\r\r列车长在招募中获得已有角色时，每次将转化为<color=#FFB800>1</color>个该角色的【履历补充】，角色的【履历补充】可用于角色觉醒。列车长获得任一角色的【履历补充】累计达到<color=#FFB800>5</color>个后，之后获得的该角色的【履历补充】将按以下比例自动回收为【履历情报】：\\n\r\r<color=#FFB800>1</color>个<color=#71CEFD>R</color>角色的【履历补充】将被回收为<color=#FFB800>1</color>个【履历情报】\\n\r\r<color=#FFB800>1</color>个<color=#E4B7FF>SR</color>角色的【履历补充】将被回收为<color=#FFB800>3</color>个【履历情报】\\n\r\r<color=#FFB800>1</color>个<color=#FFE266>SSR</color>角色的【履历补充】将被回收为<color=#FFB800>10</color>个【履历情报】\\n\r\r列车长可使用【履历情报】在每个城市休息区中的黑月商店兑换道具。",
     "tryList": [
       {
-        "levelId": 20101884,
+        "levelId": 20100388,
         "x": -280.0,
         "y": -444.5
       }
