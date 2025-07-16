@@ -1190,6 +1190,11 @@
         "id": 86400410,
         "x": 377.0,
         "y": -67.0
+      },
+      {
+        "id": 86400436,
+        "x": 377.0,
+        "y": -67.0
       }
     ],
     "isShowRep": true,
@@ -5654,19 +5659,14 @@
     "isInstance": true,
     "iconPath": "NPC/InsZone/blacktea",
     "nameIconPath": "UI/CityMap/citymap_icon_battlezone",
+    "frontIconPath": "",
     "effectPath": "UI/UIEffect/particle/UI_city/UI_dungeonBtn_01/UI_dungeonBtn_04_1",
     "animLoop": "UI_CityBtn_01_Loop",
     "animOut": "UI_CityBtn_01_Out",
     "activityId": 86000001,
     "startTime": "",
     "endTime": "",
-    "displayConditionsList": [
-      {
-        "condition": "QuestComplete",
-        "mId": 81000606,
-        "val": 0
-      }
-    ],
+    "displayConditionsList": [],
     "unlockConditionsList": [],
     "isLock": false,
     "func": "OpenCityMap",
@@ -17648,6 +17648,46 @@
     "stationPlace": -1,
     "dialogId": 20700668,
     "dungeonId": -1,
+    "levelId": -1,
+    "textId": -1,
+    "npcId": -1,
+    "bgPath": "",
+    "bgColor": "FFFFFF"
+  },
+  {
+    "id": 86400436,
+    "idCN": "03气泡/C4澄明数据中心S0/红茶战争/1-7货源地战斗",
+    "mod": "气泡",
+    "isInformalData": false,
+    "name": "数据中心外围",
+    "isSpecial": false,
+    "isInstance": true,
+    "iconPath": "NPC/InsZone/blacktea",
+    "nameIconPath": "UI/CityMap/citymap_icon_battlezone",
+    "frontIconPath": "",
+    "effectPath": "UI/UIEffect/particle/UI_city/UI_dungeonBtn_01/UI_dungeonBtn_04_1",
+    "animLoop": "UI_CityBtn_01_Loop",
+    "animOut": "UI_CityBtn_01_Out",
+    "activityId": 86000001,
+    "startTime": "",
+    "endTime": "",
+    "displayConditionsList": [
+      {
+        "condition": "Questing",
+        "mId": 81000606,
+        "val": 0
+      }
+    ],
+    "unlockConditionsList": [],
+    "isLock": false,
+    "func": "OpenDungeon",
+    "btnType": "Other",
+    "mId": -1,
+    "uiPath": "",
+    "buildingId": -1,
+    "stationPlace": -1,
+    "dialogId": -1,
+    "dungeonId": 20200001,
     "levelId": -1,
     "textId": -1,
     "npcId": -1,
