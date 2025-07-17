@@ -695,8 +695,8 @@
     "type": "limitCapsule",
     "replicateNum": 1,
     "isLimitCapsuleNum": true,
-    "dailyCapsuleNum": 20,
-    "capsuleNumCeiling": 200,
+    "dailyCapsuleNum": 50,
+    "capsuleNumCeiling": 600,
     "costList": [
       {
         "count": 1,
@@ -827,13 +827,13 @@
       },
       {
         "id": 11400138,
-        "index": 0,
+        "index": 12,
         "isFirst": false,
-        "isResetNum": false,
+        "isResetNum": true,
         "limitNum": 1,
         "num": 1,
-        "quality": "none",
-        "weight": 0
+        "quality": "Golden",
+        "weight": 60
       },
       {
         "id": 11400217,
@@ -867,7 +867,7 @@
       },
       {
         "id": 11400007,
-        "index": 27,
+        "index": 16,
         "isFirst": false,
         "isResetNum": false,
         "limitNum": 5,
@@ -901,15 +901,15 @@
         "y": 0.0
       }
     ],
-    "modelPath": "UI/Home/Capsule/Group_Model",
+    "modelPath": "UI/Home/Capsule/Group_Model_FullChaos",
     "ndTime": 1.8,
     "eggup": 0.5,
     "eggopen": 0.5,
     "titlePath": "UI/Home/HomeCapsle_FullChaos/Tips",
     "titleX": 766.0,
     "titleY": 150.0,
-    "rewardBtnTxtX": -24.0,
-    "rewardBtnTxtY": -64.0,
+    "rewardBtnTxtX": 31.0,
+    "rewardBtnTxtY": -6.0,
     "titleName": "",
     "showList": [
       {
@@ -940,11 +940,11 @@
     "rewardBg": "UI/Home/HomeCapsle_FullChaos/RewardShow/rewardBG",
     "rewardBgX": -3.67,
     "rewardBgY": 67.0,
-    "decoratePath": "UI/Home/HomeCapsle_FullChaos/RewardShow/decorate",
+    "decoratePath": "",
     "decorateX": 0.0,
     "decorateY": 0.0,
-    "rewardQualityTitleX": 0.0,
-    "rewardQualityTitleY": 0.0,
+    "rewardQualityTitleX": 636.0,
+    "rewardQualityTitleY": -8.0,
     "treasurePath": "UI/Home/HomeCapsle_FullChaos/RewardShow/Treasure",
     "preciousPath": "UI/Home/HomeCapsle_FullChaos/RewardShow/Precious",
     "rarePath": "UI/Home/HomeCapsle_FullChaos/RewardShow/Rare",
@@ -979,7 +979,7 @@
     "buyBgPath": "UI/Home/Capsule_Millionaire/pop/Bg",
     "buyBgX": 0.0,
     "buyBgY": -270.0,
-    "buyArrowPath": "UI/Home/Capsule_Millionaire/pop/exchangSymbol",
+    "buyArrowPath": "UI/Home/HomeCapsle_FullChaos/OldCoinStore/Arrow",
     "buyOkPath": "UI/Home/Capsule_Millionaire/pop/BtnBlue",
     "buyOkX": 476.0,
     "buyOkY": -268.0,
@@ -992,13 +992,13 @@
     "buyNoTxtColor": "#FFFFFF",
     "oldCoinStoreId": 40300129,
     "oldCoinStoreBtnPath": "UI/Home/HomeCapsle_FullChaos/OldCoinStore/Btn_Open",
-    "oldCoinEntranceTxtX": 0.0,
-    "oldCoinEntranceTxtY": 0.0,
+    "oldCoinEntranceTxtX": 10.0,
+    "oldCoinEntranceTxtY": -94.0,
     "oldCoinEntranceTxtColor": "#FFFFFF",
     "oldCoinEntranceTxtSize": -1,
     "oldCoinStoreDiPath": "UI/Home/HomeCapsle_FullChaos/RewardShow/rewardBG",
-    "oldCoinTitleTxtX": 0.0,
-    "oldCoinTitleTxtY": 0.0,
+    "oldCoinTitleTxtX": -494.0,
+    "oldCoinTitleTxtY": 347.0,
     "oldCoinTitleTxtColor": "#FFFFFF",
     "oldCoinTitleTxtSize": -1,
     "oldCoinStoreListPath": "UI/Home/HomeCapsle_FullChaos/OldCoinStore/ListBg",
@@ -11343,6 +11343,8 @@
         "y": -444.5
       }
     ],
+    "adPath": "",
+    "adSerial": 10,
     "sort": 6
   },
   {
