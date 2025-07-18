@@ -625,9 +625,43 @@
     "btnBg": "UI/Home/HomeCapsle_MillionaireReset/Pay",
     "payOneX": -304.0,
     "payOneY": 111.0,
+    "payOutlineList": [
+      {
+        "colour": "#FF85AC",
+        "xVal": 1.0,
+        "yVal": -1.0
+      },
+      {
+        "colour": "#FF85AC",
+        "xVal": 1.0,
+        "yVal": -1.0
+      },
+      {
+        "colour": "#2D4362",
+        "xVal": 2.0,
+        "yVal": -2.0
+      }
+    ],
     "btnTenBg": "UI/Home/HomeCapsle_MillionaireReset/PayTen",
     "payTenX": 325.0,
     "payTenY": 111.0,
+    "payTenOutlineList": [
+      {
+        "colour": "#FF85AC",
+        "xVal": 1.0,
+        "yVal": -1.0
+      },
+      {
+        "colour": "#FF85AC",
+        "xVal": 1.0,
+        "yVal": -1.0
+      },
+      {
+        "colour": "#2D4362",
+        "xVal": 2.0,
+        "yVal": -2.0
+      }
+    ],
     "probability": "UI/Home/Capsule_Millionaire/probability",
     "probabilityOn": "UI/Home/Capsule_Millionaire/probabilityOn",
     "probabilityOff": "UI/Home/Capsule_Millionaire/probabilityOff",
@@ -696,19 +730,19 @@
     "replicateNum": 1,
     "isLimitCapsuleNum": true,
     "dailyCapsuleNum": 50,
-    "capsuleNumCeiling": 600,
+    "capsuleNumCeiling": 602,
     "costList": [
       {
         "count": 1,
         "id": 11400001,
-        "num": 10000
+        "num": 160000
       }
     ],
     "costTenList": [
       {
         "count": 10,
         "id": 11400001,
-        "num": 100000
+        "num": 1600000
       }
     ],
     "freeCD": 0,
@@ -826,54 +860,344 @@
         "weight": 60
       },
       {
-        "id": 11400138,
+        "id": 11400514,
         "index": 12,
         "isFirst": false,
         "isResetNum": true,
         "limitNum": 1,
         "num": 1,
-        "quality": "Golden",
-        "weight": 60
+        "quality": "Purple",
+        "weight": 30
+      },
+      {
+        "id": 11400144,
+        "index": 13,
+        "isFirst": false,
+        "isResetNum": true,
+        "limitNum": 1,
+        "num": 1,
+        "quality": "Purple",
+        "weight": 30
+      },
+      {
+        "id": 11400118,
+        "index": 14,
+        "isFirst": false,
+        "isResetNum": true,
+        "limitNum": 1,
+        "num": 1,
+        "quality": "Purple",
+        "weight": 30
+      },
+      {
+        "id": 11400261,
+        "index": 15,
+        "isFirst": false,
+        "isResetNum": true,
+        "limitNum": 1,
+        "num": 1,
+        "quality": "Purple",
+        "weight": 30
+      },
+      {
+        "id": 11400194,
+        "index": 16,
+        "isFirst": false,
+        "isResetNum": true,
+        "limitNum": 1,
+        "num": 1,
+        "quality": "Purple",
+        "weight": 30
       },
       {
         "id": 11400217,
-        "index": 13,
+        "index": 17,
+        "isFirst": false,
+        "isResetNum": true,
+        "limitNum": 30,
+        "num": 1,
+        "quality": "Blue",
+        "weight": 270
+      },
+      {
+        "id": 11400067,
+        "index": 18,
         "isFirst": false,
         "isResetNum": true,
         "limitNum": 20,
         "num": 1,
         "quality": "Blue",
-        "weight": 180
-      },
-      {
-        "id": 11400067,
-        "index": 14,
-        "isFirst": false,
-        "isResetNum": true,
-        "limitNum": 10,
-        "num": 1,
-        "quality": "Blue",
-        "weight": 150
+        "weight": 270
       },
       {
         "id": 11400066,
-        "index": 15,
+        "index": 19,
         "isFirst": false,
         "isResetNum": true,
-        "limitNum": 10,
+        "limitNum": 20,
         "num": 1,
         "quality": "Blue",
-        "weight": 150
+        "weight": 270
+      },
+      {
+        "id": 11400863,
+        "index": 20,
+        "isFirst": false,
+        "isResetNum": false,
+        "limitNum": 1,
+        "num": 1,
+        "quality": "Yellow",
+        "weight": 30
+      },
+      {
+        "id": 85500234,
+        "index": 21,
+        "isFirst": false,
+        "isResetNum": false,
+        "limitNum": 1,
+        "num": 1,
+        "quality": "Yellow",
+        "weight": 30
+      },
+      {
+        "id": 85500235,
+        "index": 22,
+        "isFirst": false,
+        "isResetNum": false,
+        "limitNum": 1,
+        "num": 1,
+        "quality": "Yellow",
+        "weight": 30
+      },
+      {
+        "id": 85500236,
+        "index": 23,
+        "isFirst": false,
+        "isResetNum": false,
+        "limitNum": 1,
+        "num": 1,
+        "quality": "Yellow",
+        "weight": 30
+      },
+      {
+        "id": 81300706,
+        "index": 24,
+        "isFirst": false,
+        "isResetNum": false,
+        "limitNum": 1,
+        "num": 1,
+        "quality": "Yellow",
+        "weight": 30
+      },
+      {
+        "id": 81300705,
+        "index": 25,
+        "isFirst": false,
+        "isResetNum": false,
+        "limitNum": 1,
+        "num": 1,
+        "quality": "Yellow",
+        "weight": 30
+      },
+      {
+        "id": 81300707,
+        "index": 26,
+        "isFirst": false,
+        "isResetNum": false,
+        "limitNum": 1,
+        "num": 1,
+        "quality": "Yellow",
+        "weight": 30
+      },
+      {
+        "id": 81300708,
+        "index": 27,
+        "isFirst": false,
+        "isResetNum": false,
+        "limitNum": 1,
+        "num": 1,
+        "quality": "Yellow",
+        "weight": 30
+      },
+      {
+        "id": 81300710,
+        "index": 28,
+        "isFirst": false,
+        "isResetNum": false,
+        "limitNum": 1,
+        "num": 1,
+        "quality": "Yellow",
+        "weight": 30
+      },
+      {
+        "id": 81300711,
+        "index": 29,
+        "isFirst": false,
+        "isResetNum": false,
+        "limitNum": 1,
+        "num": 1,
+        "quality": "Yellow",
+        "weight": 30
+      },
+      {
+        "id": 81300712,
+        "index": 30,
+        "isFirst": false,
+        "isResetNum": false,
+        "limitNum": 1,
+        "num": 1,
+        "quality": "Yellow",
+        "weight": 30
+      },
+      {
+        "id": 81300713,
+        "index": 31,
+        "isFirst": false,
+        "isResetNum": false,
+        "limitNum": 1,
+        "num": 1,
+        "quality": "Yellow",
+        "weight": 30
+      },
+      {
+        "id": 81300714,
+        "index": 32,
+        "isFirst": false,
+        "isResetNum": false,
+        "limitNum": 1,
+        "num": 1,
+        "quality": "Yellow",
+        "weight": 30
+      },
+      {
+        "id": 81300715,
+        "index": 33,
+        "isFirst": false,
+        "isResetNum": false,
+        "limitNum": 1,
+        "num": 1,
+        "quality": "Yellow",
+        "weight": 30
+      },
+      {
+        "id": 82600864,
+        "index": 34,
+        "isFirst": false,
+        "isResetNum": false,
+        "limitNum": 1,
+        "num": 1,
+        "quality": "Golden",
+        "weight": 30
+      },
+      {
+        "id": 82600865,
+        "index": 35,
+        "isFirst": false,
+        "isResetNum": false,
+        "limitNum": 1,
+        "num": 1,
+        "quality": "Golden",
+        "weight": 30
+      },
+      {
+        "id": 82600868,
+        "index": 36,
+        "isFirst": false,
+        "isResetNum": false,
+        "limitNum": 1,
+        "num": 1,
+        "quality": "Golden",
+        "weight": 30
+      },
+      {
+        "id": 82600869,
+        "index": 37,
+        "isFirst": false,
+        "isResetNum": false,
+        "limitNum": 1,
+        "num": 1,
+        "quality": "Golden",
+        "weight": 30
+      },
+      {
+        "id": 82600870,
+        "index": 38,
+        "isFirst": false,
+        "isResetNum": false,
+        "limitNum": 1,
+        "num": 1,
+        "quality": "Golden",
+        "weight": 30
+      },
+      {
+        "id": 82600871,
+        "index": 39,
+        "isFirst": false,
+        "isResetNum": false,
+        "limitNum": 1,
+        "num": 1,
+        "quality": "Golden",
+        "weight": 30
+      },
+      {
+        "id": 82600872,
+        "index": 40,
+        "isFirst": false,
+        "isResetNum": false,
+        "limitNum": 1,
+        "num": 1,
+        "quality": "Golden",
+        "weight": 30
+      },
+      {
+        "id": 82600873,
+        "index": 41,
+        "isFirst": false,
+        "isResetNum": false,
+        "limitNum": 1,
+        "num": 1,
+        "quality": "Golden",
+        "weight": 30
+      },
+      {
+        "id": 82600874,
+        "index": 42,
+        "isFirst": false,
+        "isResetNum": false,
+        "limitNum": 1,
+        "num": 1,
+        "quality": "Golden",
+        "weight": 30
+      },
+      {
+        "id": 82600875,
+        "index": 43,
+        "isFirst": false,
+        "isResetNum": false,
+        "limitNum": 1,
+        "num": 1,
+        "quality": "Golden",
+        "weight": 30
+      },
+      {
+        "id": 11400719,
+        "index": 44,
+        "isFirst": false,
+        "isResetNum": false,
+        "limitNum": 1,
+        "num": 1,
+        "quality": "Golden",
+        "weight": 30
       },
       {
         "id": 11400007,
-        "index": 16,
+        "index": 45,
         "isFirst": false,
         "isResetNum": false,
-        "limitNum": 5,
+        "limitNum": 10,
         "num": 1,
         "quality": "Golden",
-        "weight": 60
+        "weight": 30
       }
     ],
     "capTenList": [],
@@ -897,8 +1221,8 @@
       {
         "image": "UI/Home/HomeCapsle_FullChaos/ND",
         "scale": 1.0,
-        "x": 0.0,
-        "y": 0.0
+        "x": -66.0,
+        "y": 71.0
       }
     ],
     "modelPath": "UI/Home/Capsule/Group_Model_FullChaos",
@@ -915,31 +1239,31 @@
       {
         "image": "UI/Home/HomeCapsle_FullChaos/Show1",
         "scale": 1.0,
-        "x": -581.0,
-        "y": 195.0
+        "x": -563.0,
+        "y": 238.0
       },
       {
         "image": "UI/Home/HomeCapsle_FullChaos/Show2",
         "scale": 1.0,
-        "x": -497.0,
-        "y": -116.0
+        "x": -546.0,
+        "y": -85.0
       },
       {
         "image": "UI/Home/HomeCapsle_FullChaos/Show3",
         "scale": 1.0,
-        "x": 574.0,
-        "y": 190.0
+        "x": 513.0,
+        "y": 276.0
       },
       {
         "image": "UI/Home/HomeCapsle_FullChaos/Show4",
         "scale": 1.0,
-        "x": 510.0,
-        "y": -76.0
+        "x": 577.0,
+        "y": -51.0
       }
     ],
     "rewardBg": "UI/Home/HomeCapsle_FullChaos/RewardShow/rewardBG",
     "rewardBgX": -3.67,
-    "rewardBgY": 67.0,
+    "rewardBgY": 40.0,
     "decoratePath": "",
     "decorateX": 0.0,
     "decorateY": 0.0,
@@ -950,16 +1274,40 @@
     "rarePath": "UI/Home/HomeCapsle_FullChaos/RewardShow/Rare",
     "casualPath": "UI/Home/HomeCapsle_FullChaos/RewardShow/Common",
     "btnBg": "UI/Home/HomeCapsle_FullChaos/Pay",
-    "payOneX": -301.0,
-    "payOneY": 111.0,
+    "payOneX": -263.0,
+    "payOneY": 134.0,
+    "payOutlineList": [
+      {
+        "colour": "#2D4362",
+        "xVal": 1.0,
+        "yVal": -1.0
+      },
+      {
+        "colour": "#2D4362",
+        "xVal": 1.0,
+        "yVal": -1.0
+      }
+    ],
     "btnTenBg": "UI/Home/HomeCapsle_FullChaos/PayTen",
-    "payTenX": 325.0,
-    "payTenY": 111.0,
-    "probability": "",
+    "payTenX": 306.0,
+    "payTenY": 134.0,
+    "payTenOutlineList": [
+      {
+        "colour": "#2D4362",
+        "xVal": 1.0,
+        "yVal": -1.0
+      },
+      {
+        "colour": "#2D4362",
+        "xVal": 1.0,
+        "yVal": -1.0
+      }
+    ],
+    "probability": "UI/Home/HomeCapsle_Witches/probability",
     "probabilityOn": "UI/Home/HomeCapsle_FullChaos/RewardShow/probabilityOn",
     "probabilityOff": "UI/Home/HomeCapsle_FullChaos/RewardShow/probabilityOff",
-    "rewardProbilityX": 494.0,
-    "rewardProbilityY": 331.0,
+    "rewardProbilityX": 470.0,
+    "rewardProbilityY": 355.0,
     "rewardNumBg": "UI/Home/HomeCapsle_FullChaos/RewardShow/NumBG",
     "noNumBg": "UI/Home/HomeCapsle_FullChaos/RewardShow/NumBG",
     "currencyBg": "UI/Home/HomeCapsle_FullChaos/GoldenBG",
@@ -967,47 +1315,51 @@
     "skipPath": "UI/Home/HomeCapsle_FullChaos/skip",
     "isShowTitleImg": false,
     "showTitlePath": "UI/Monopoly/UI/ShowItem/GetItemTitle",
-    "showTitleTxtX": 671.0,
-    "showTitleTxtY": -90.0,
-    "showTitleTxtColor": "#FBF4DB",
-    "showTitleTxtSize": 36,
-    "showBgPath": "UI/Home/Capsule_Millionaire/pop/Bg",
+    "showTitleTxtX": 500.0,
+    "showTitleTxtY": -175.0,
+    "showTitleTxtColor": "#6155EC",
+    "showTitleTxtSize": 60,
+    "showBgPath": "UI/TrainBattle/main/stop/BG",
     "showBgX": 0.0,
     "showBgY": 120.0,
     "showBg580X": 0.0,
     "showBg580Y": 270.0,
-    "buyBgPath": "UI/Home/Capsule_Millionaire/pop/Bg",
+    "buyBgPath": "UI/TrainBattle/main/stop/BG",
     "buyBgX": 0.0,
-    "buyBgY": -270.0,
+    "buyBgY": -223.0,
     "buyArrowPath": "UI/Home/HomeCapsle_FullChaos/OldCoinStore/Arrow",
-    "buyOkPath": "UI/Home/Capsule_Millionaire/pop/BtnBlue",
+    "buyOkPath": "UI/TrainBattle/main/stop/rightbtn",
     "buyOkX": 476.0,
     "buyOkY": -268.0,
     "buyOkIconPath": "UI/Common/Prompt/Common_Confirm",
     "buyOkTxtColor": "#FFFFFF",
-    "buyNoPath": "UI/Home/Capsule_Millionaire/pop/BtnRed",
+    "buyNoPath": "UI/TrainBattle/main/stop/leftbtn",
     "buyNoX": -476.0,
     "buyNoY": -268.0,
     "buyNoIconPath": "UI/Common/Prompt/Common_Cancel",
     "buyNoTxtColor": "#FFFFFF",
     "oldCoinStoreId": 40300129,
     "oldCoinStoreBtnPath": "UI/Home/HomeCapsle_FullChaos/OldCoinStore/Btn_Open",
+    "oldCoinStoreBtnX": -668.0,
+    "oldCoinStoreBtnY": -250.0,
     "oldCoinEntranceTxtX": 10.0,
-    "oldCoinEntranceTxtY": -94.0,
+    "oldCoinEntranceTxtY": -112.0,
     "oldCoinEntranceTxtColor": "#FFFFFF",
     "oldCoinEntranceTxtSize": -1,
     "oldCoinStoreDiPath": "UI/Home/HomeCapsle_FullChaos/RewardShow/rewardBG",
-    "oldCoinTitleTxtX": -494.0,
-    "oldCoinTitleTxtY": 347.0,
+    "oldCoinTitleTxtX": 420.0,
+    "oldCoinTitleTxtY": 325.0,
     "oldCoinTitleTxtColor": "#FFFFFF",
-    "oldCoinTitleTxtSize": -1,
+    "oldCoinTitleTxtSize": 60,
     "oldCoinStoreListPath": "UI/Home/HomeCapsle_FullChaos/OldCoinStore/ListBg",
     "oldCoinStoreArrowPath": "UI/Home/HomeCapsle_FullChaos/OldCoinStore/Arrow",
     "oldCoinStoreNamePath": "UI/Home/HomeCapsle_FullChaos/OldCoinStore/NameBg",
     "oldCoinStoreNumPath": "UI/Home/HomeCapsle_MillionaireReset/OldCoinStore/NumBg",
     "oldCoinStoreBtnCanPath": "UI/Home/HomeCapsle_FullChaos/OldCoinStore/Btn_Exchang_Can",
     "oldCoinStoreBtnNotPath": "UI/Home/HomeCapsle_FullChaos/OldCoinStore/Btn_Exchang_Nont",
-    "sort": 555
+    "sort": 555,
+    "oldCoinStoreDiX": 0.0,
+    "oldCoinStoreDiY": 20.0
   },
   {
     "id": 80500003,
@@ -1576,9 +1928,33 @@
     "btnBg": "UI/Home/HomeCapsle_Witches/Reset/Pay",
     "payOneX": -293.0,
     "payOneY": 142.0,
+    "payOutlineList": [
+      {
+        "colour": "#2D4362",
+        "xVal": 1.0,
+        "yVal": -1.0
+      },
+      {
+        "colour": "#2D4362",
+        "xVal": 1.0,
+        "yVal": -1.0
+      }
+    ],
     "btnTenBg": "UI/Home/HomeCapsle_Witches/Reset/PayTen",
     "payTenX": 339.0,
     "payTenY": 142.0,
+    "payTenOutlineList": [
+      {
+        "colour": "#2D4362",
+        "xVal": 1.0,
+        "yVal": -1.0
+      },
+      {
+        "colour": "#2D4362",
+        "xVal": 1.0,
+        "yVal": -1.0
+      }
+    ],
     "probability": "UI/Home/HomeCapsle_Witches/probability",
     "probabilityOn": "UI/Home/HomeCapsle_Witches/probabilityOn",
     "probabilityOff": "UI/Home/HomeCapsle_Witches/probabilityOff",
@@ -4645,6 +5021,8 @@
         "y": -444.5
       }
     ],
+    "adPath": "",
+    "adSerial": 10,
     "sort": 6
   },
   {
@@ -5267,8 +5645,8 @@
     "mod": "抽角色配置",
     "isInformalData": false,
     "commodityId": 40200012,
-    "startTime": "2025-05-28 12:00:00",
-    "endTime": "2025-06-03 12:00:00",
+    "startTime": "2025-07-18 12:00:00",
+    "endTime": "2025-07-25 12:00:00",
     "type": "Pay",
     "isNewbie": false,
     "isActBanner": false,
@@ -5464,6 +5842,8 @@
         "y": -444.5
       }
     ],
+    "adPath": "",
+    "adSerial": 10,
     "sort": 6
   },
   {
@@ -6487,6 +6867,8 @@
         "y": -444.5
       }
     ],
+    "adPath": "Environment/MapModel/003_Background/2D/Scroll_Ad/AD/UpSummerShizuru",
+    "adSerial": 10,
     "sort": 6
   },
   {
@@ -7432,8 +7814,8 @@
     "mod": "抽角色配置",
     "isInformalData": false,
     "commodityId": 40200012,
-    "startTime": "2025-06-23 12:00:00",
-    "endTime": "2025-06-30 12:00:00",
+    "startTime": "2025-07-18 12:00:00",
+    "endTime": "2025-07-25 12:00:00",
     "type": "Pay",
     "isNewbie": false,
     "isActBanner": false,
@@ -7629,6 +8011,8 @@
         "y": -444.5
       }
     ],
+    "adPath": "",
+    "adSerial": 10,
     "sort": 6
   },
   {
@@ -10911,6 +11295,8 @@
         "y": -444.5
       }
     ],
+    "adPath": "Environment/MapModel/003_Background/2D/Scroll_Ad/AD/UpUshana",
+    "adSerial": 11,
     "sort": 6
   },
   {
@@ -11996,6 +12382,8 @@
         "y": -444.5
       }
     ],
+    "adPath": "Environment/MapModel/003_Background/2D/Scroll_Ad/AD/UpMargielaStargazer",
+    "adSerial": 10,
     "sort": 6
   },
   {
@@ -12223,6 +12611,8 @@
         "y": -444.5
       }
     ],
+    "adPath": "Environment/MapModel/003_Background/2D/Scroll_Ad/AD/UpMasaki",
+    "adSerial": 21,
     "sort": 6
   },
   {
@@ -12434,6 +12824,8 @@
         "y": -444.5
       }
     ],
+    "adPath": "Environment/MapModel/003_Background/2D/Scroll_Ad/AD/UpReeva",
+    "adSerial": 20,
     "sort": 6
   },
   {
@@ -14739,6 +15131,8 @@
         "y": -444.5
       }
     ],
+    "adPath": "Environment/MapModel/003_Background/2D/Scroll_Ad/AD/UpSummerShizuru",
+    "adSerial": 10,
     "sort": 6
   }
 ]
