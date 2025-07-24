@@ -26375,5 +26375,48 @@
     "isSkillDelay": false,
     "minDelay": 120,
     "maxDelay": 360
+  },
+  {
+    "id": 10300630,
+    "idCN": "敌方/联动_VS/辉夜",
+    "mod": "BOSSAI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10104483
+      },
+      {
+        "actionID": 10104484
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10104480,
+        "activeFrame": 180,
+        "activeTime": 1.0,
+        "rangeSN": 40000
+      }
+    ],
+    "isInvisibleBeforeShowUp": true,
+    "showupSkillList": [
+      {
+        "actionId": 10104490
+      }
+    ],
+    "skillLoopDelayFrame": 360,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 280,
+    "energyBarColor": "#FFB200",
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 204
   }
 ]

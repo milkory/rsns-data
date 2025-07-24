@@ -40084,6 +40084,35 @@
     "buffId": 10423522
   },
   {
+    "id": 10503236,
+    "idCN": "我方/35地面/封冻-当前目标X偏移12",
+    "mod": "子弹事件",
+    "isInformalData": false,
+    "buffId": 10406379,
+    "bulletId": 11200750,
+    "targetType": "CurrentTarget",
+    "offSetX_SN": 0,
+    "offSetZ_SN": 0,
+    "isUseTargetFilter": false,
+    "isIgnoreInvisibleEnemy": true,
+    "targetFilterType": "Ally",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 0,
+    "attributeType": "HpMax",
+    "condition": "Max",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 0
+  },
+  {
     "id": 10503235,
     "idCN": "我方/05五星/伊利亚德/C伤害命中",
     "mod": "子弹事件",
@@ -40113,12 +40142,20 @@
     "targetCount": 0
   },
   {
-    "id": 10503236,
-    "idCN": "我方/35地面/封冻-当前目标X偏移12",
+    "id": 10503229,
+    "idCN": "敌方/联动_VS/辉夜/普攻",
+    "mod": "攻击事件",
+    "isInformalData": false,
+    "buffId": 10423589,
+    "hitSoundID": -1
+  },
+  {
+    "id": 10503237,
+    "idCN": "敌方/联动_VS/辉夜/技能1点燃",
     "mod": "子弹事件",
     "isInformalData": false,
-    "buffId": 10406379,
-    "bulletId": 11200750,
+    "buffId": 10423593,
+    "bulletId": 11200084,
     "targetType": "CurrentTarget",
     "offSetX_SN": 0,
     "offSetZ_SN": 0,
@@ -40140,5 +40177,13 @@
     "filterPosition": "DefaultPos",
     "isAimSelf": false,
     "targetCount": 0
+  },
+  {
+    "id": 10503238,
+    "idCN": "敌方/联动_VS/辉夜/技能1燃爆",
+    "mod": "攻击事件",
+    "isInformalData": false,
+    "buffId": 10423594,
+    "hitSoundID": -1
   }
 ]
