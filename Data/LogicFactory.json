@@ -2308,5 +2308,47 @@
     "returnType": "int",
     "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rset $battleControlManager\r\rgetp curGSBuff\rset $curBuff\r\rgetp _snapshot\rgetp targetCard\rgetp ca\rgetp targetColor\rset $targetColor\r\rif $targetColor eq \"HealTest\"\r    ret 1\rendif\r\rret 2",
     "cacheAsGMF": true
+  },
+  {
+    "id": 60000170,
+    "idCN": "魔窟插针/消毒措施1",
+    "mod": "逻辑脚本",
+    "isInformalData": false,
+    "debug": false,
+    "autoRecycle": false,
+    "memo": "消毒措施1",
+    "paramHelp": "",
+    "returnType": "int",
+    "scriptPath": "GGScript/MK_XDCS_01",
+    "scriptLabel": "main",
+    "cacheAsGMF": true
+  },
+  {
+    "id": 60000171,
+    "idCN": "魔窟插针/消毒措施2",
+    "mod": "逻辑脚本",
+    "isInformalData": false,
+    "debug": false,
+    "autoRecycle": false,
+    "memo": "消毒措施2",
+    "paramHelp": "",
+    "returnType": "int",
+    "scriptPath": "GGScript/MK_XDCS_02",
+    "scriptLabel": "main",
+    "cacheAsGMF": true
+  },
+  {
+    "id": 60000172,
+    "idCN": "魔窟插针/消毒措施3",
+    "mod": "逻辑脚本",
+    "isInformalData": false,
+    "debug": false,
+    "autoRecycle": false,
+    "memo": "消毒措施3",
+    "paramHelp": "",
+    "returnType": "int",
+    "scriptPath": "GGScript/MK_XDCS_03",
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   }
 ]

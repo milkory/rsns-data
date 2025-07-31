@@ -3948,7 +3948,7 @@
     "cost_SN": 30000,
     "inhandBuffId": -1,
     "inhandOverBuffId": -1,
-    "startBuffId": 10400549,
+    "startBuffId": -1,
     "discardBuffId": -1,
     "discardBySkillBuffId": -1,
     "banishBuffId": -1,
@@ -6389,10 +6389,10 @@
     "isNoCD": false,
     "isUseInHand": false,
     "isNotDiscard": false,
-    "iconPath": "RolePlus\\Wensheng\\skillicon\\S",
+    "iconPath": "RolePlus/Wensheng/skillicon/S_Blue",
     "backPath": "",
     "roleImgPath": "",
-    "color": "Purple",
+    "color": "Blue",
     "cardType": "Normal",
     "sameCardGroupId": -1,
     "actionId": 10101137,
@@ -6420,7 +6420,7 @@
         "tagId": 12600019
       },
       {
-        "tagId": 12600073
+        "tagId": 12600009
       },
       {
         "tagId": 12601639
@@ -10768,7 +10768,7 @@
     "cost_SN": 30000,
     "inhandBuffId": -1,
     "inhandOverBuffId": -1,
-    "startBuffId": 10419390,
+    "startBuffId": -1,
     "discardBuffId": -1,
     "discardBySkillBuffId": -1,
     "banishBuffId": -1,
@@ -21813,6 +21813,9 @@
       },
       {
         "tagId": 12600088
+      },
+      {
+        "tagId": 12600019
       }
     ],
     "tagOutsideList": [],
@@ -30700,9 +30703,6 @@
       },
       {
         "tagId": 12600019
-      },
-      {
-        "tagId": 12601698
       }
     ],
     "tagOutsideList": [],
@@ -30761,7 +30761,7 @@
   {
     "id": 10600490,
     "idCN": "00原版/05五星/伊利亚德/C",
-    "mod": "基础卡牌",
+    "mod": "无动作卡",
     "isInformalData": false,
     "name": "海潮生",
     "isCutIn": false,
@@ -30772,18 +30772,17 @@
     "iconPath": "RolePlus\\Eliade\\skillicon\\C",
     "backPath": "",
     "roleImgPath": "",
-    "color": "Purple",
-    "cardType": "Normal",
+    "color": "Blue",
+    "cardType": "Derive",
     "sameCardGroupId": -1,
-    "actionId": 10104478,
-    "cost_SN": 0,
+    "cost_SN": 10000,
     "inhandBuffId": -1,
     "inhandOverBuffId": -1,
-    "startBuffId": -1,
+    "startBuffId": 10423725,
     "discardBuffId": -1,
     "discardBySkillBuffId": -1,
     "banishBuffId": -1,
-    "atkAreaType": "Direction",
+    "atkAreaType": "TargetArea",
     "atkAreaColor": "Yellow",
     "targetColor": "AttackTest",
     "disappearEffectId": 11100047,
@@ -30794,12 +30793,38 @@
     "isCostX": false,
     "tagList": [
       {
-        "tagId": 12600073
+        "tagId": 12600009
+      },
+      {
+        "tagId": 12601487
+      },
+      {
+        "tagId": 12601839
       }
     ],
     "tagOutsideList": [],
     "deriveCardList": [],
     "cardAIActionList": [],
+    "distance_SN": 240000,
+    "radius_SN": 40000,
+    "isUseTargetFilter": false,
+    "isIgnoreInvisibleEnemy": true,
+    "targetType": "Ally",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 0,
+    "attributeType": "HpMax",
+    "condition": "Max",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 0,
     "ExCondList": [],
     "ExActList": [],
     "linkCardId": []
@@ -30822,7 +30847,7 @@
     "cardType": "Normal",
     "sameCardGroupId": -1,
     "actionId": 10104397,
-    "cost_SN": 60000,
+    "cost_SN": 50000,
     "inhandBuffId": -1,
     "inhandOverBuffId": -1,
     "startBuffId": 10423552,
@@ -30847,6 +30872,12 @@
       },
       {
         "tagId": 12601837
+      },
+      {
+        "tagId": 12600019
+      },
+      {
+        "tagId": 12601698
       }
     ],
     "tagOutsideList": [],

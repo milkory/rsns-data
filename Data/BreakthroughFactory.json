@@ -4621,8 +4621,8 @@
         "skillId": 12300364
       }
     ],
-    "tempdesc": "使用【元素核·冰】后，有50%概率抽1张牌，优先蓝卡\\n对我方使用【元素核·冰】时，回复目标20%生命值",
-    "desc": "使用【元素核·冰】后，有50%概率抽1张牌，优先蓝卡\\n对我方使用【元素核·冰】时，回复目标20%生命值",
+    "tempdesc": "使用【元素核·冰】后，有50%概率抽1张牌，优先蓝卡\\n同时使我方蓝卡造成的伤害提高35%，持续6秒",
+    "desc": "使用【元素核·冰】后，有50%概率抽1张牌，优先蓝卡\\n同时使我方蓝卡造成的伤害提高35%，持续6秒",
     "skillChangeList": [],
     "skillParamOffsetList": []
   },
@@ -8342,9 +8342,13 @@
         "num": 1
       }
     ],
-    "skillList": [],
-    "tempdesc": "自身造成的【点燃】，【炽地】和【燎原】持续时间延长3秒",
-    "desc": "自身造成的<color=#FF6666>【点燃】</color>，<color=#FF6666>【炽地】</color>和<color=#FF6666>【燎原】</color>持续时间延长3秒",
+    "skillList": [
+      {
+        "skillId": 12303799
+      }
+    ],
+    "tempdesc": "我方造成【点燃】时，自身攻击力+0.3%，上限30%\\n自身造成的【点燃】，【炽地】和【燎原】持续时间延长3秒",
+    "desc": "我方造成<color=#FF6666>【点燃】</color>时，自身攻击力+0.3%，上限30%\\n自身造成的<color=#FF6666>【点燃】</color>，<color=#FF6666>【炽地】</color>和<color=#FF6666>【燎原】</color>持续时间延长3秒",
     "skillChangeList": [],
     "skillParamOffsetList": [
       {
@@ -9150,9 +9154,13 @@
         "num": 1
       }
     ],
-    "skillList": [],
-    "tempdesc": "自身造成的【冻结】持续时间延长3秒",
-    "desc": "自身造成的<color=#7AB2FF>【冻结】</color>持续时间延长3秒",
+    "skillList": [
+      {
+        "skillId": 12303798
+      }
+    ],
+    "tempdesc": "我方造成【冻结】时，自身攻击力+0.3%，上限30%\\n自身造成的【冻结】持续时间延长3秒",
+    "desc": "我方造成<color=#7AB2FF>【冻结】</color>时，自身攻击力+0.3%，上限30%\\n自身造成的<color=#7AB2FF>【冻结】</color>持续时间延长3秒",
     "skillChangeList": [],
     "skillParamOffsetList": [
       {
@@ -12684,9 +12692,13 @@
         "num": 1
       }
     ],
-    "skillList": [],
-    "tempdesc": "自身造成【冰封】的概率+10%",
-    "desc": "自身造成<color=#7AB2FF>【冰封】</color>的概率+10%",
+    "skillList": [
+      {
+        "skillId": 12303800
+      }
+    ],
+    "tempdesc": "我方造成【冰封】时，自身攻击力+1%，上限30%\\n自身造成【冰封】的概率+10%",
+    "desc": "我方造成<color=#7AB2FF>【冰封】</color>时，自身攻击力+1%，上限30%\\n自身造成<color=#7AB2FF>【冰封】</color>的概率+10%",
     "skillChangeList": [],
     "skillParamOffsetList": [
       {
@@ -19014,8 +19026,8 @@
         "skillId": 12302281
       }
     ],
-    "tempdesc": "每次造成【冻伤】/【冰封】时，自身攻击力+2%，上限50%",
-    "desc": "每次造成<color=#7AB2FF>【冻伤】</color>/<color=#7AB2FF>【冰封】</color>时，自身攻击力+2%，上限50%",
+    "tempdesc": "打出蓝卡后，自身攻击力+3%，上限60%",
+    "desc": "打出蓝卡后，自身攻击力+3%，上限60%",
     "skillChangeList": [],
     "skillParamOffsetList": []
   },
@@ -21382,7 +21394,7 @@
       }
     ],
     "tempdesc": "我方造成【冻结】/【冻伤】/【冰封】/【封冻】时，自身攻击力+0.3%/+0.6%/+1.5%/+3%，上限99%",
-    "desc": "我方造成【冻结】/【冻伤】/【冰封】/【封冻】时，自身攻击力+0.3%/+0.6%/+1.5%/+3%，上限99%",
+    "desc": "我方造成<color=#7AB2FF>【冻结】</color>/<color=#7AB2FF>【冻伤】</color>/<color=#7AB2FF>【冰封】</color>/<color=#7AB2FF>【封冻】</color>时，自身攻击力+0.3%/+0.6%/+1.5%/+3%，上限99%",
     "skillChangeList": [],
     "skillParamOffsetList": []
   },
@@ -21428,7 +21440,7 @@
       }
     ],
     "tempdesc": "我方造成【冻结】/【冻伤】/【冰封】/【封冻】时，对生命值最高的敌方目标造成1段/2段/3段/4段冰冻伤害",
-    "desc": "我方造成【冻结】/【冻伤】/【冰封】/【封冻】时，对生命值最高的敌方目标造成1段/2段/3段/4段冰冻伤害",
+    "desc": "我方造成<color=#7AB2FF>【冻结】</color>/<color=#7AB2FF>【冻伤】</color>/<color=#7AB2FF>【冰封】</color>/<color=#7AB2FF>【封冻】</color>时，对生命值最高的敌方目标造成1段/2段/3段/4段冰冻伤害",
     "skillChangeList": [],
     "skillParamOffsetList": []
   },
@@ -21506,8 +21518,8 @@
         "skillId": 12303781
       }
     ],
-    "tempdesc": "【冬去时】持续期间，我方全体受到的伤害降低30%，【形而上粒子】浓度上限提升至1000点",
-    "desc": "【冬去时】持续期间，我方全体受到的伤害降低30%，【形而上粒子】浓度上限提升至1000点",
+    "tempdesc": "【取其精粹】的上限提高至100%",
+    "desc": "【取其精粹】的上限提高至100%",
     "skillChangeList": [],
     "skillParamOffsetList": []
   },

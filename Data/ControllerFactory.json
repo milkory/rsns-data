@@ -26238,8 +26238,20 @@
     "normalAttackCritID": -1,
     "skillList": [
       {
-        "actionId": 10104469,
-        "activeFrame": 182,
+        "actionId": 10104466,
+        "activeFrame": 176,
+        "activeTime": 1.0,
+        "rangeSN": 240000
+      },
+      {
+        "actionId": 10104468,
+        "activeFrame": 502,
+        "activeTime": 1.0,
+        "rangeSN": 240000
+      },
+      {
+        "actionId": 10104470,
+        "activeFrame": 758,
         "activeTime": 1.0,
         "rangeSN": 240000
       }
@@ -26247,18 +26259,24 @@
     "isInvisibleBeforeShowUp": true,
     "showupSkillList": [
       {
-        "actionId": 10104464
+        "actionId": 10104492
       }
     ],
-    "skillLoopDelayFrame": 150,
+    "skillLoopDelayFrame": 192,
     "shapeShiftList": [],
     "commandList": [],
     "enemySkillList": [],
-    "isUseEnergy": false,
-    "energySkillList": [],
-    "energyRestorePerFrameSN": 370,
+    "isUseEnergy": true,
+    "energySkillList": [
+      {
+        "actionId": 10104467,
+        "isClearEnergy": true,
+        "rangeSN": 240000
+      }
+    ],
+    "energyRestorePerFrameSN": 330,
     "energyBarColor": "#FFB200",
-    "isSkillDelay": true,
+    "isSkillDelay": false,
     "minDelay": 360,
     "maxDelay": 360
   },
