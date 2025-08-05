@@ -7721,7 +7721,14 @@
         "tachiePath": ""
       }
     ],
-    "randomRewardList": [],
+    "randomRewardList": [
+      {
+        "id": 11400562,
+        "num": 1,
+        "rewardType": "add",
+        "weight": 1
+      }
+    ],
     "actionReduceList": 0,
     "rewardList": [],
     "levelList": [],
@@ -7755,7 +7762,14 @@
         "tachiePath": ""
       }
     ],
-    "randomRewardList": [],
+    "randomRewardList": [
+      {
+        "id": 11400562,
+        "num": 1,
+        "rewardType": "add",
+        "weight": 1
+      }
+    ],
     "actionReduceList": 0,
     "rewardList": [],
     "levelList": [],
@@ -7908,6 +7922,9 @@
     "rewardDialogList": [
       {
         "id": 88800165
+      },
+      {
+        "id": 88800163
       }
     ],
     "overDialogList": [
@@ -10921,6 +10938,9 @@
     "rewardDialogList": [
       {
         "id": 88800164
+      },
+      {
+        "id": 88800162
       }
     ],
     "overDialogList": [
@@ -11691,5 +11711,65 @@
         "weight": 1.0
       }
     ]
+  },
+  {
+    "id": 88800345,
+    "idCN": "魔女/战斗/限时-摩天轮",
+    "mod": "魔女战斗对话",
+    "isInformalData": false,
+    "dialogList": [],
+    "levelID": 20102786,
+    "levelPosX": 0.0,
+    "levelPosY": -356.0,
+    "levelScale": 1.2,
+    "sucid": 88800102,
+    "failid": 88800101,
+    "battleType": "Common"
+  },
+  {
+    "id": 88800346,
+    "idCN": "魔女事件/战斗/0摩天轮-连战3分钟",
+    "mod": "魔女事件",
+    "isInformalData": false,
+    "name": "摩天轮-连战三分钟",
+    "des": "摩天轮-连战三分钟",
+    "basePath": "UI/Monopoly/UI/1/Grid/tile_rob",
+    "resPath": "",
+    "characterQPath": "",
+    "belongArchi": [
+      {
+        "archi": "FerrisWheel",
+        "archiPath": "UI/Witches/Event/Building/FerrisWheel"
+      }
+    ],
+    "randomDialog": [
+      {
+        "id": 88800345
+      }
+    ],
+    "randomSampDialog": [],
+    "randomNPCDialog": [],
+    "rewardDialogList": [
+      {
+        "id": 88800102
+      },
+      {
+        "id": 88800101
+      },
+      {
+        "id": 88800345
+      }
+    ],
+    "overDialogList": [
+      {
+        "id": 88800101
+      },
+      {
+        "id": 88800102
+      }
+    ],
+    "BuffDialogList": [],
+    "EnergyNum": 0,
+    "EventMapIcon": "UI/Witches/Map/IconTip/battle"
   }
 ]

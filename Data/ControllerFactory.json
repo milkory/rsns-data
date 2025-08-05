@@ -26448,5 +26448,89 @@
     "isSkillDelay": false,
     "minDelay": 120,
     "maxDelay": 204
+  },
+  {
+    "id": 10300631,
+    "idCN": "我方/05五星/斯洛卡伊",
+    "mod": "卡牌AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": -1,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10104499
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [],
+    "skillLoopDelayFrame": 1,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
+    "energyBarColor": "#FFB200",
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300632,
+    "idCN": "敌方/联动_VS/尼禄",
+    "mod": "BOSSAI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10104483
+      },
+      {
+        "actionID": 10104484
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10104480,
+        "activeFrame": 230,
+        "activeTime": 1.0,
+        "rangeSN": 40000
+      },
+      {
+        "actionId": 10104481,
+        "activeFrame": 610,
+        "activeTime": 1.0,
+        "rangeSN": 40000
+      }
+    ],
+    "isInvisibleBeforeShowUp": true,
+    "showupSkillList": [
+      {
+        "actionId": 10104490
+      }
+    ],
+    "skillLoopDelayFrame": 290,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": true,
+    "energySkillList": [
+      {
+        "actionId": 10104482,
+        "isClearEnergy": true,
+        "rangeSN": 240000
+      }
+    ],
+    "energyRestorePerFrameSN": 370,
+    "energyBarColor": "#FFB200",
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 204
   }
 ]
