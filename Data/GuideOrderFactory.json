@@ -16392,5 +16392,61 @@
     "orderType": "SetPanel",
     "panelName": "UI/TrainBattle/TrainBattleSettlement",
     "isActive": true
+  },
+  {
+    "id": 81101114,
+    "idCN": "EP1/检测协议参数/地下通道",
+    "mod": "检测协议参数",
+    "isInformalData": false,
+    "orderType": "CheckProtocolParam",
+    "paramList": [
+      {
+        "paramEnum": "LevelId",
+        "paramVal": "20100146"
+      },
+      {
+        "paramEnum": "completed",
+        "paramVal": "1"
+      }
+    ],
+    "isWait": true
+  },
+  {
+    "id": 81101136,
+    "idCN": "EP1/条件跳转/关卡/地下通道未完成",
+    "mod": "IFELSE跳转",
+    "isInformalData": false,
+    "orderType": "ConditionJumpIndex",
+    "isLoop": false,
+    "trueLabel": -1,
+    "falseLabel": 81100798,
+    "keyList": [
+      {
+        "compareType": "EQ",
+        "key": "LevelCompleted",
+        "num": 0.0,
+        "uiPath": "",
+        "val": "20100146"
+      }
+    ]
+  },
+  {
+    "id": 81101137,
+    "idCN": "EP1/条件跳转/关卡/地下通道已完成",
+    "mod": "IFELSE跳转",
+    "isInformalData": false,
+    "orderType": "ConditionJumpIndex",
+    "isLoop": false,
+    "trueLabel": -1,
+    "falseLabel": 81101136,
+    "keyList": [
+      {
+        "compareType": "EQ",
+        "key": "LevelCompleted",
+        "num": 1.0,
+        "uiPath": "",
+        "val": "20100146"
+      }
+    ]
   }
 ]
