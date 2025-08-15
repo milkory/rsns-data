@@ -12987,6 +12987,13 @@
     "isHomeBattleCentre": true,
     "openPageList": [
       {
+        "icon": "UI/HomeBattleCenter/icon_exchange",
+        "isStore": true,
+        "isTalk": false,
+        "name": "兑换计划",
+        "showUI": "Group_Exchange"
+      },
+      {
         "icon": "UI/HomeTrade/trade_icon_sell",
         "isStore": false,
         "isTalk": false,
@@ -13082,7 +13089,11 @@
       }
     ],
     "exchangeName": "素材回收清单",
-    "exchangeStoreList": [],
+    "exchangeStoreList": [
+      {
+        "id": 40300194
+      }
+    ],
     "exchangeIconPath": "UI/HomeBattleCenter/Exchange/icon_heiyue",
     "exchangePagePath": "UI/HomeBattleCenter/Exchange/di_heiyue",
     "exchangeBottomPath": "UI/HomeBattleCenter/Exchange/di_group_heiyue",
