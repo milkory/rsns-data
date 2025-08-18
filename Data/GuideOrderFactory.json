@@ -16448,5 +16448,24 @@
         "val": "20100146"
       }
     ]
+  },
+  {
+    "id": 81101138,
+    "idCN": "EP4/条件跳转/剧情打开-等待",
+    "mod": "IFELSE跳转",
+    "isInformalData": false,
+    "orderType": "ConditionJumpIndex",
+    "isLoop": true,
+    "trueLabel": -1,
+    "falseLabel": -1,
+    "keyList": [
+      {
+        "compareType": "EQ",
+        "key": "IsActivated",
+        "num": 1.0,
+        "uiPath": "UI/Dialog/Dialog",
+        "val": ""
+      }
+    ]
   }
 ]
