@@ -1899,6 +1899,9 @@
       },
       {
         "id": 82500046
+      },
+      {
+        "id": 82500048
       }
     ],
     "StageQuestConfig": [
@@ -2049,6 +2052,14 @@
         "numMax": 30000000000,
         "numMin": 0,
         "type": "Number"
+      },
+      {
+        "isUseMax": true,
+        "isUseMin": false,
+        "name": "HpMax",
+        "numMax": 216000,
+        "numMin": 0,
+        "type": "Percent"
       }
     ],
     "isDotweenPause": false,
@@ -29145,6 +29156,169 @@
         "mainPosZ": -22.5,
         "name": "第一人称",
         "nodePath": "",
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": -12.0,
+        "rotX": 0.0,
+        "rotY": 180.0
+      },
+      {
+        "mainPosY": 2.7,
+        "mainPosZ": -22.5,
+        "name": "右斜侧车头方向",
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 150.0
+      },
+      {
+        "isCanMove": true,
+        "isRushView": true,
+        "mainPosY": 2.7,
+        "mainPosZ": -22.5,
+        "name": "右正侧",
+        "nodePath": "",
+        "posX": 0.0,
+        "posY": 0.8,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 90.0
+      },
+      {
+        "mainPosY": 3.42,
+        "mainPosZ": -20.5,
+        "name": "右斜侧车尾方向",
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": -4.0,
+        "rotY": 25.0
+      },
+      {
+        "mainPosY": 1.8,
+        "mainPosZ": -25.0,
+        "name": "正对车头",
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 14.0,
+        "rotY": 0.0
+      },
+      {
+        "mainPosY": 3.42,
+        "mainPosZ": -20.5,
+        "name": "左斜侧车尾方向",
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": -4.0,
+        "rotY": -25.0
+      },
+      {
+        "isCanMove": true,
+        "isRushView": true,
+        "mainPosY": 2.7,
+        "mainPosZ": -22.5,
+        "name": "左正侧",
+        "nodePath": "",
+        "posX": 0.0,
+        "posY": 0.8,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": -90.0
+      },
+      {
+        "mainPosY": 2.7,
+        "mainPosZ": -22.5,
+        "name": "左斜侧车头方向",
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": -150.0
+      }
+    ],
+    "lookSpeed": 1.5
+  },
+  {
+    "id": 99900214,
+    "idCN": "大世界/列车切换相机-A6076",
+    "mod": "列车相机",
+    "isInformalData": false,
+    "nameEN": "TrainCameraConfig",
+    "trainCameraList": [
+      {
+        "fieldView": 54.0,
+        "isCanMove": true,
+        "isRushView": true,
+        "mainPosY": 2.7,
+        "mainPosZ": -20.5,
+        "name": "默认车头正前方",
+        "nodePath": "",
+        "posX": 0.0,
+        "posY": 1.75,
+        "posZ": -3.0,
+        "rotX": -1.75,
+        "rotY": 180.0
+      },
+      {
+        "isCanMove": false,
+        "isRushView": true,
+        "mainPosY": 2.7,
+        "mainPosZ": -22.5,
+        "name": "驾驶舱",
+        "nodePath": "M_Map_window_drive",
+        "posX": 0.0,
+        "posY": 0.8,
+        "posZ": -11.0,
+        "rotX": -3.0,
+        "rotY": 180.0
+      },
+      {
+        "isCanMove": false,
+        "isRushView": false,
+        "mainPosY": 2.7,
+        "mainPosZ": -22.5,
+        "name": "左侧车窗",
+        "nodePath": "M_Map_window_side",
+        "posX": 7.5,
+        "posY": 0.5,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 90.0
+      },
+      {
+        "isCanMove": false,
+        "isRushView": false,
+        "mainPosY": 2.7,
+        "mainPosZ": -22.5,
+        "name": "右侧车窗",
+        "nodePath": "M_Map_window_side",
+        "posX": -7.5,
+        "posY": 0.5,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": -90.0
+      },
+      {
+        "fieldView": 54.0,
+        "isCanMove": true,
+        "isRushView": true,
+        "mainPosY": 2.7,
+        "mainPosZ": -20.5,
+        "name": "默认车头正前方",
+        "nodePath": "",
+        "posX": 0.0,
+        "posY": 1.75,
+        "posZ": -3.0,
+        "rotX": -1.75,
+        "rotY": 180.0
+      },
+      {
+        "mainPosY": 2.7,
+        "mainPosZ": -22.5,
+        "name": "第一人称",
         "posX": 0.0,
         "posY": 0.0,
         "posZ": -12.0,
