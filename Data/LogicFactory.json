@@ -2350,5 +2350,18 @@
     "scriptPath": "GGScript/MK_XDCS_03",
     "scriptLabel": "main",
     "cacheAsGMF": true
+  },
+  {
+    "id": 60000173,
+    "idCN": "战斗逻辑/清除快照中的溢出治疗",
+    "mod": "执行GS脚本",
+    "isInformalData": false,
+    "debug": false,
+    "autoRecycle": false,
+    "memo": "清除快照中的溢出治疗",
+    "paramHelp": "",
+    "returnType": "int",
+    "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rset $battleControlManager\r\rgetp curGSBuff\rset $curBuff\r\rgetp snapshot\rset $snapshot\r\rcallWith $snapshot SetAttributeBase 0 \"HealSpillover\" \"Number\"\r\rret 0",
+    "cacheAsGMF": true
   }
 ]
