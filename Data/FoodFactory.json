@@ -49,6 +49,7 @@
     "name": "万事如意双人餐",
     "foodImagePath": "Item/Food/Combo/SingleHighCombo",
     "foodSettlementImagePath": "UI/HomeKeepFastFood/Settlement/SingleHighCombo",
+    "foodSettlementPrefab": "UI/HomeKeepFastFood/TrustSettlement",
     "des": "超大杯可乐、双层芝士和牛堡、超大薯条",
     "trust": 60,
     "PriceIndex": 1.55,
@@ -504,6 +505,7 @@
     "name": "好运连连双人餐",
     "foodImagePath": "Item/Food/Combo/SingleMiddleCombo",
     "foodSettlementImagePath": "UI/HomeKeepFastFood/Settlement/SingleMiddleCombo",
+    "foodSettlementPrefab": "UI/HomeKeepFastFood/TrustSettlement",
     "des": "大杯可乐、双层芝士牛肉堡、大薯条",
     "trust": 45,
     "PriceIndex": 1.46,
@@ -959,6 +961,7 @@
     "name": "喜笑颜开双人餐",
     "foodImagePath": "Item/Food/Combo/SingleLowCombo",
     "foodSettlementImagePath": "UI/HomeKeepFastFood/Settlement/SingleLowCombo",
+    "foodSettlementPrefab": "UI/HomeKeepFastFood/TrustSettlement",
     "des": "中杯可乐、单层芝士牛肉堡、中薯条",
     "trust": 30,
     "PriceIndex": 1.37,
@@ -1414,6 +1417,7 @@
     "name": "五彩缤纷果派桶",
     "foodImagePath": "Item/Food/Combo/FruitPieBucket",
     "foodSettlementImagePath": "UI/HomeKeepFastFood/Settlement/FruitPieBucket",
+    "foodSettlementPrefab": "UI/HomeKeepFastFood/TrustSettlement",
     "des": "水果派*50、大杯可乐*5",
     "trust": 15,
     "PriceIndex": 2.17,
@@ -1881,6 +1885,7 @@
     "name": "十拿九稳十堡桶",
     "foodImagePath": "Item/Food/Combo/BurgerBucket",
     "foodSettlementImagePath": "UI/HomeKeepFastFood/Settlement/BurgerBucket",
+    "foodSettlementPrefab": "UI/HomeKeepFastFood/TrustSettlement",
     "des": "双层芝士牛肉堡*10+大杯可乐*5",
     "trust": 20,
     "PriceIndex": 2.52,
@@ -2348,6 +2353,7 @@
     "name": "吉祥如意鸡块桶",
     "foodImagePath": "Item/Food/Combo/FriedChickenBucket",
     "foodSettlementImagePath": "UI/HomeKeepFastFood/Settlement/FriedChickenBucket",
+    "foodSettlementPrefab": "UI/HomeKeepFastFood/TrustSettlement",
     "des": "香辣鸡块*50+大杯可乐*5",
     "trust": 25,
     "PriceIndex": 2.88,
@@ -2815,6 +2821,7 @@
     "name": "百战百胜百翅桶",
     "foodImagePath": "Item/Food/Combo/ChickenWingsBucket",
     "foodSettlementImagePath": "UI/HomeKeepFastFood/Settlement/ChickenWingsBucket",
+    "foodSettlementPrefab": "UI/HomeKeepFastFood/TrustSettlement",
     "des": "鸡翅*100+大杯可乐*5",
     "trust": 30,
     "PriceIndex": 3.4,
@@ -3488,8 +3495,11 @@
     "isInformalData": false,
     "name": "可乐1",
     "foodImagePath": "Item/Food/Combo/SingleLowCombo",
+    "foodSettlementImagePath": "",
+    "foodSettlementPrefab": "UI/HomeKeepFastFood/TrustSettlement",
     "des": "中杯可乐、单层芝士牛肉堡、中薯条",
     "trust": 30,
+    "PriceIndex": 3.0,
     "mealTypeNum": 1,
     "cost": [
       {
@@ -3497,7 +3507,25 @@
         "num": 300
       }
     ],
-    "foodRes": "Home/Furniture/3D/Prefabs/Cola3"
+    "foodRes": "Home/Furniture/3D/Prefabs/Cola3",
+    "iconBuffDesMember": "",
+    "numBuffDesMember": -1,
+    "tipBuffDesMember": -1,
+    "memberTrust": [],
+    "iconBuffDesLCZ": "",
+    "numBuffDesLCZ": -1,
+    "tipBuffDesLCZ": -1,
+    "speed": [],
+    "battleBuffList": [],
+    "battleBuffImagePath": "",
+    "battleBuffDes": -1,
+    "foodPrefab": "",
+    "playerAni": [],
+    "isPickFood": false,
+    "foodName": "",
+    "npcList": [],
+    "performFurnitureList": [],
+    "bgmPlay": -1
   },
   {
     "id": 83300023,
@@ -3507,6 +3535,7 @@
     "name": "幽游拿铁",
     "foodImagePath": "Item/Food/MilkTea/SingleLowMilkTea",
     "foodSettlementImagePath": "UI/HomeKeepFastFood/Settlement/SingleMilkTea",
+    "foodSettlementPrefab": "UI/HomeKeepFastFood/TrustSettlement",
     "des": "红茶\\n牛奶\\n奶油\\n碧根果碎",
     "trust": 30,
     "PriceIndex": 1.25,
@@ -3962,6 +3991,7 @@
     "name": "海滨焰火",
     "foodImagePath": "Item/Food/MilkTea/SingleHighMilkTea",
     "foodSettlementImagePath": "UI/HomeKeepFastFood/Settlement/SingleMilkTea",
+    "foodSettlementPrefab": "UI/HomeKeepFastFood/TrustSettlement",
     "des": "",
     "trust": 60,
     "PriceIndex": 1.33,
@@ -4417,6 +4447,7 @@
     "name": "桂花小弄",
     "foodImagePath": "Item/Food/MilkTea/SingleMiddleMilkTea",
     "foodSettlementImagePath": "UI/HomeKeepFastFood/Settlement/SingleMilkTea",
+    "foodSettlementPrefab": "UI/HomeKeepFastFood/TrustSettlement",
     "des": "桂花乌龙\\n牛奶\\n奶泡",
     "trust": 45,
     "PriceIndex": 1.28,
@@ -4872,6 +4903,7 @@
     "name": "会议必备提神饮",
     "foodImagePath": "Item/Food/MilkTea/TeamMilkTea1",
     "foodSettlementImagePath": "UI/HomeKeepFastFood/Settlement/TeamMilkTea1",
+    "foodSettlementPrefab": "UI/HomeKeepFastFood/TrustSettlement",
     "des": "冰美式*5",
     "trust": 15,
     "PriceIndex": 1.65,
@@ -5281,6 +5313,11 @@
         "buff": 84100013,
         "id": 10000942,
         "like": 12600377
+      },
+      {
+        "buff": 84100014,
+        "id": 10001003,
+        "like": 12600378
       }
     ],
     "iconBuffDesLCZ": "UI/HomeKeepFastFood/IconBuffLCZ",
@@ -5334,6 +5371,7 @@
     "name": "多喝多健康套组",
     "foodImagePath": "Item/Food/MilkTea/TeamMilkTea2",
     "foodSettlementImagePath": "UI/HomeKeepFastFood/Settlement/TeamMilkTea2",
+    "foodSettlementPrefab": "UI/HomeKeepFastFood/TrustSettlement",
     "des": "牛油果奶昔*5",
     "trust": 20,
     "PriceIndex": 1.95,
@@ -5743,6 +5781,11 @@
         "buff": 84100013,
         "id": 10000942,
         "like": 12600377
+      },
+      {
+        "buff": 84100015,
+        "id": 10001003,
+        "like": 12600379
       }
     ],
     "iconBuffDesLCZ": "UI/HomeKeepFastFood/IconBuffLCZ",
@@ -5796,6 +5839,7 @@
     "name": "复古潮流下午茶",
     "foodImagePath": "Item/Food/MilkTea/TeamMilkTea4",
     "foodSettlementImagePath": "UI/HomeKeepFastFood/Settlement/TeamMilkTea4",
+    "foodSettlementPrefab": "UI/HomeKeepFastFood/TrustSettlement",
     "des": "红茶*5\\n曲奇\\n草莓奶油蛋糕\\n黑森林",
     "trust": 30,
     "PriceIndex": 3.9,
@@ -6205,6 +6249,11 @@
         "buff": 84100015,
         "id": 10000942,
         "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10001003,
+        "like": 12600380
       }
     ],
     "iconBuffDesLCZ": "UI/HomeKeepFastFood/IconBuffLCZ",
@@ -6258,6 +6307,7 @@
     "name": "暖阳煦风早午餐",
     "foodImagePath": "Item/Food/MilkTea/TeamMilkTea3",
     "foodSettlementImagePath": "UI/HomeKeepFastFood/Settlement/TeamMilkTea3",
+    "foodSettlementPrefab": "UI/HomeKeepFastFood/TrustSettlement",
     "des": "果汁*5\\n三明治篮",
     "trust": 25,
     "PriceIndex": 2.67,
@@ -6667,6 +6717,11 @@
         "buff": 84100015,
         "id": 10000942,
         "like": 12600379
+      },
+      {
+        "buff": 84100016,
+        "id": 10001003,
+        "like": 12600380
       }
     ],
     "iconBuffDesLCZ": "UI/HomeKeepFastFood/IconBuffLCZ",
@@ -6720,6 +6775,7 @@
     "name": "节奏摇摆",
     "foodImagePath": "Item/Food/BarActivity/SingleLowBar",
     "foodSettlementImagePath": "UI/HomeKeepFastFood/Settlement/BarSettlement",
+    "foodSettlementPrefab": "UI/HomeKeepFastFood/TrustSettlement",
     "des": "每天扭一扭，活到九十九",
     "trust": 30,
     "PriceIndex": 1.65,
@@ -7200,6 +7256,7 @@
     "name": "跳支舞吧",
     "foodImagePath": "Item/Food/BarActivity/SingleMiddleBar",
     "foodSettlementImagePath": "UI/HomeKeepFastFood/Settlement/BarSettlement",
+    "foodSettlementPrefab": "UI/HomeKeepFastFood/TrustSettlement",
     "des": "舞蹈跳一跳，烦恼都忘掉",
     "trust": 30,
     "PriceIndex": 1.91,
@@ -7680,6 +7737,7 @@
     "name": "现在是我的主场！",
     "foodImagePath": "Item/Food/BarActivity/SingleHighBar",
     "foodSettlementImagePath": "UI/HomeKeepFastFood/Settlement/BarSettlement",
+    "foodSettlementPrefab": "UI/HomeKeepFastFood/TrustSettlement",
     "des": "享受舞台，体验巨星人生！",
     "trust": 30,
     "PriceIndex": 2.17,
@@ -8160,6 +8218,7 @@
     "name": "释放天性",
     "foodImagePath": "Item/Food/BarActivity/TeamBar1",
     "foodSettlementImagePath": "UI/HomeKeepFastFood/Settlement/BarSettlement",
+    "foodSettlementPrefab": "UI/HomeKeepFastFood/TrustSettlement",
     "des": "享乐至上",
     "trust": 30,
     "PriceIndex": 3.67,
@@ -8652,6 +8711,7 @@
     "name": "女士之夜",
     "foodImagePath": "Item/Food/BarActivity/TeamBar2",
     "foodSettlementImagePath": "UI/HomeKeepFastFood/Settlement/BarSettlement",
+    "foodSettlementPrefab": "UI/HomeKeepFastFood/TrustSettlement",
     "des": "女士友好",
     "trust": 30,
     "PriceIndex": 4.02,
@@ -9144,6 +9204,7 @@
     "name": "寂寞星期一",
     "foodImagePath": "Item/Food/BarActivity/TeamBar3",
     "foodSettlementImagePath": "UI/HomeKeepFastFood/Settlement/BarSettlement",
+    "foodSettlementPrefab": "UI/HomeKeepFastFood/TrustSettlement",
     "des": "音乐相伴",
     "trust": 30,
     "PriceIndex": 5.48,
@@ -9636,6 +9697,7 @@
     "name": "彼得的私人派对",
     "foodImagePath": "Item/Food/BarActivity/TeamBar4",
     "foodSettlementImagePath": "UI/HomeKeepFastFood/Settlement/BarSettlement",
+    "foodSettlementPrefab": "UI/HomeKeepFastFood/TrustSettlement",
     "des": "黄彼得的包场演出",
     "trust": 30,
     "PriceIndex": 5.5,
@@ -10133,6 +10195,7 @@
     "name": "海魂拉面",
     "foodImagePath": "Item/Food/Ramen/SingleHaihunRamen",
     "foodSettlementImagePath": "UI/HomeKeepFastFood/Settlement/HaihunRamen",
+    "foodSettlementPrefab": "UI/HomeKeepFastFood/TrustSettlement",
     "des": "只有葱和海鲜汤，海鲜汤由虾，柴鱼等熬制而成",
     "trust": 30,
     "PriceIndex": 2.35,
@@ -10617,6 +10680,7 @@
     "name": "海魂拉面",
     "foodImagePath": "Item/Food/Ramen/TeamHaihunRamen",
     "foodSettlementImagePath": "UI/HomeKeepFastFood/Settlement/HaihunRamen",
+    "foodSettlementPrefab": "UI/HomeKeepFastFood/TrustSettlement",
     "des": "贝类、斑节虾、鱿鱼",
     "trust": 30,
     "PriceIndex": 2.35,
@@ -11031,11 +11095,6 @@
         "buff": 84100014,
         "id": 10001003,
         "like": 12600378
-      },
-      {
-        "buff": 84100014,
-        "id": 10001003,
-        "like": 12600378
       }
     ],
     "iconBuffDesLCZ": "UI/HomeKeepFastFood/IconBuffLCZ",
@@ -11118,6 +11177,7 @@
     "name": "青龙虾拉面",
     "foodImagePath": "Item/Food/Ramen/SingleQinglongxiaRamen",
     "foodSettlementImagePath": "UI/HomeKeepFastFood/Settlement/QinglongxiaRamen",
+    "foodSettlementPrefab": "UI/HomeKeepFastFood/TrustSettlement",
     "des": "只有葱和海鲜汤，海鲜汤由虾，柴鱼等熬制而成",
     "trust": 30,
     "PriceIndex": 2.22,
@@ -11602,6 +11662,7 @@
     "name": "青龙虾拉面",
     "foodImagePath": "Item/Food/Ramen/TeamQinglongxiaRamen",
     "foodSettlementImagePath": "UI/HomeKeepFastFood/Settlement/QinglongxiaRamen",
+    "foodSettlementPrefab": "UI/HomeKeepFastFood/TrustSettlement",
     "des": "只有葱和海鲜汤，海鲜汤由虾，柴鱼等熬制而成",
     "trust": 30,
     "PriceIndex": 2.22,
@@ -12098,6 +12159,7 @@
     "name": "松茸山珍拉面",
     "foodImagePath": "Item/Food/Ramen/SingleSongrongshanzhenRamen",
     "foodSettlementImagePath": "UI/HomeKeepFastFood/Settlement/SongrongshanzhenRamen",
+    "foodSettlementPrefab": "UI/HomeKeepFastFood/TrustSettlement",
     "des": "只有葱和海鲜汤，海鲜汤由虾，柴鱼等熬制而成",
     "trust": 30,
     "PriceIndex": 2.09,
@@ -12594,6 +12656,7 @@
     "name": "松茸山珍拉面",
     "foodImagePath": "Item/Food/Ramen/TeamSongrongshanzhenRamen",
     "foodSettlementImagePath": "UI/HomeKeepFastFood/Settlement/SongrongshanzhenRamen",
+    "foodSettlementPrefab": "UI/HomeKeepFastFood/TrustSettlement",
     "des": "只有葱和海鲜汤，海鲜汤由虾，柴鱼等熬制而成",
     "trust": 30,
     "PriceIndex": 2.09,
@@ -13102,6 +13165,7 @@
     "name": "龙虾松茸拉面",
     "foodImagePath": "Item/Food/Ramen/SingleLongxiasongrongRamen",
     "foodSettlementImagePath": "UI/HomeKeepFastFood/Settlement/LongxiasongrongRamen",
+    "foodSettlementPrefab": "UI/HomeKeepFastFood/TrustSettlement",
     "des": "只有葱和海鲜汤，海鲜汤由虾，柴鱼等熬制而成",
     "trust": 30,
     "PriceIndex": 2.0,
@@ -13598,6 +13662,7 @@
     "name": "龙虾松茸拉面",
     "foodImagePath": "Item/Food/Ramen/TeamLongxiasongrongRamen",
     "foodSettlementImagePath": "UI/HomeKeepFastFood/Settlement/LongxiasongrongRamen",
+    "foodSettlementPrefab": "UI/HomeKeepFastFood/TrustSettlement",
     "des": "只有葱和海鲜汤，海鲜汤由虾，柴鱼等熬制而成",
     "trust": 30,
     "PriceIndex": 2.0,
@@ -14106,6 +14171,7 @@
     "name": "黑松露拉面",
     "foodImagePath": "Item/Food/Ramen/SingleHeisongluRamen",
     "foodSettlementImagePath": "UI/HomeKeepFastFood/Settlement/HeisongluRamen",
+    "foodSettlementPrefab": "UI/HomeKeepFastFood/TrustSettlement",
     "des": "只有葱和海鲜汤，海鲜汤由虾，柴鱼等熬制而成",
     "trust": 30,
     "PriceIndex": 1.91,
@@ -14614,6 +14680,7 @@
     "name": "黑松露拉面",
     "foodImagePath": "Item/Food/Ramen/TeamHeisongluRamen",
     "foodSettlementImagePath": "UI/HomeKeepFastFood/Settlement/HeisongluRamen",
+    "foodSettlementPrefab": "UI/HomeKeepFastFood/TrustSettlement",
     "des": "只有葱和海鲜汤，海鲜汤由虾，柴鱼等熬制而成",
     "trust": 30,
     "PriceIndex": 1.91,
@@ -15134,6 +15201,7 @@
     "name": "海鲜拉面",
     "foodImagePath": "Item/Food/Ramen/SingleHaixianRamen",
     "foodSettlementImagePath": "UI/HomeKeepFastFood/Settlement/HaixianRamen",
+    "foodSettlementPrefab": "UI/HomeKeepFastFood/TrustSettlement",
     "des": "只有葱和海鲜汤，海鲜汤由虾，柴鱼等熬制而成",
     "trust": 30,
     "PriceIndex": 1.78,
@@ -15642,6 +15710,7 @@
     "name": "海鲜拉面",
     "foodImagePath": "Item/Food/Ramen/TeamHaixianRamen",
     "foodSettlementImagePath": "UI/HomeKeepFastFood/Settlement/HaixianRamen",
+    "foodSettlementPrefab": "UI/HomeKeepFastFood/TrustSettlement",
     "des": "只有葱和海鲜汤，海鲜汤由虾，柴鱼等熬制而成",
     "trust": 30,
     "PriceIndex": 1.78,
@@ -16162,6 +16231,7 @@
     "name": "丸子拉面",
     "foodImagePath": "Item/Food/Ramen/SingleWanziRamen",
     "foodSettlementImagePath": "UI/HomeKeepFastFood/Settlement/WanziRamen",
+    "foodSettlementPrefab": "UI/HomeKeepFastFood/TrustSettlement",
     "des": "只有葱和海鲜汤，海鲜汤由虾，柴鱼等熬制而成",
     "trust": 30,
     "PriceIndex": 1.95,
@@ -16638,6 +16708,7 @@
     "name": "丸子拉面",
     "foodImagePath": "Item/Food/Ramen/TeamWanziRamen",
     "foodSettlementImagePath": "UI/HomeKeepFastFood/Settlement/WanziRamen",
+    "foodSettlementPrefab": "UI/HomeKeepFastFood/TrustSettlement",
     "des": "只有葱和海鲜汤，海鲜汤由虾，柴鱼等熬制而成",
     "trust": 30,
     "PriceIndex": 1.95,
@@ -17126,6 +17197,7 @@
     "name": "海味饭团",
     "foodImagePath": "Item/Food/Ramen/SingleHaiweiFantuan",
     "foodSettlementImagePath": "UI/HomeKeepFastFood/Settlement/HaiweiFantuan",
+    "foodSettlementPrefab": "UI/HomeKeepFastFood/TrustSettlement",
     "des": "只有葱和海鲜汤，海鲜汤由虾，柴鱼等熬制而成",
     "trust": 30,
     "PriceIndex": 1.56,
@@ -17594,6 +17666,7 @@
     "name": "海味饭团",
     "foodImagePath": "Item/Food/Ramen/TeamHaiweiFantuan",
     "foodSettlementImagePath": "UI/HomeKeepFastFood/Settlement/HaiweiFantuan",
+    "foodSettlementPrefab": "UI/HomeKeepFastFood/TrustSettlement",
     "des": "只有葱和海鲜汤，海鲜汤由虾，柴鱼等熬制而成",
     "trust": 30,
     "PriceIndex": 1.56,
@@ -18074,6 +18147,7 @@
     "name": "天妇罗乌冬",
     "foodImagePath": "Item/Food/Ramen/SingleTianfuluoUdon",
     "foodSettlementImagePath": "UI/HomeKeepFastFood/Settlement/TianfuluoUdon",
+    "foodSettlementPrefab": "UI/HomeKeepFastFood/TrustSettlement",
     "des": "只有葱和海鲜汤，海鲜汤由虾，柴鱼等熬制而成",
     "trust": 30,
     "PriceIndex": 1.65,
@@ -18562,6 +18636,7 @@
     "name": "天妇罗乌冬",
     "foodImagePath": "Item/Food/Ramen/TeamTianfuluoUdon",
     "foodSettlementImagePath": "UI/HomeKeepFastFood/Settlement/TianfuluoUdon",
+    "foodSettlementPrefab": "UI/HomeKeepFastFood/TrustSettlement",
     "des": "只有葱和海鲜汤，海鲜汤由虾，柴鱼等熬制而成",
     "trust": 30,
     "PriceIndex": 1.65,
@@ -19082,6 +19157,7 @@
     "name": "三文鱼寿司",
     "foodImagePath": "Item/Food/Sushi/SingleSanwenyu",
     "foodSettlementImagePath": "UI/HomeKeepFastFood/Settlement/SushiSanwenyu",
+    "foodSettlementPrefab": "UI/HomeKeepFastFood/Sushi/TrustSettlement",
     "des": "只有葱和海鲜汤，海鲜汤由虾，柴鱼等熬制而成",
     "trust": 30,
     "PriceIndex": 1.78,
@@ -19558,6 +19634,7 @@
     "name": "金枪鱼寿司",
     "foodImagePath": "Item/Food/Sushi/SingleJinqiangyu",
     "foodSettlementImagePath": "UI/HomeKeepFastFood/Settlement/SushiJinqiangyu",
+    "foodSettlementPrefab": "UI/HomeKeepFastFood/Sushi/TrustSettlement",
     "des": "只有葱和海鲜汤，海鲜汤由虾，柴鱼等熬制而成",
     "trust": 30,
     "PriceIndex": 1.82,
@@ -20054,6 +20131,7 @@
     "name": "北极贝寿司",
     "foodImagePath": "Item/Food/Sushi/SingleBeijibei",
     "foodSettlementImagePath": "UI/HomeKeepFastFood/Settlement/SushiBeijibei",
+    "foodSettlementPrefab": "UI/HomeKeepFastFood/Sushi/TrustSettlement",
     "des": "只有葱和海鲜汤，海鲜汤由虾，柴鱼等熬制而成",
     "trust": 30,
     "PriceIndex": 1.73,
@@ -20562,6 +20640,7 @@
     "name": "鲜虾寿司",
     "foodImagePath": "Item/Food/Sushi/TeamXia",
     "foodSettlementImagePath": "UI/HomeKeepFastFood/Settlement/SushiXia",
+    "foodSettlementPrefab": "UI/HomeKeepFastFood/Sushi/TrustSettlement",
     "des": "只有葱和海鲜汤，海鲜汤由虾，柴鱼等熬制而成",
     "trust": 30,
     "PriceIndex": 1.73,
@@ -20971,6 +21050,11 @@
         "buff": 84100013,
         "id": 10000942,
         "like": 12600377
+      },
+      {
+        "buff": 84100014,
+        "id": 10001003,
+        "like": 12600378
       }
     ],
     "iconBuffDesLCZ": "UI/HomeKeepFastFood/IconBuffLCZ",
@@ -21037,6 +21121,7 @@
     "name": "鲜虾寿司",
     "foodImagePath": "Item/Food/Sushi/SingleXia",
     "foodSettlementImagePath": "UI/HomeKeepFastFood/Settlement/SushiXia",
+    "foodSettlementPrefab": "UI/HomeKeepFastFood/Sushi/TrustSettlement",
     "des": "只有葱和海鲜汤，海鲜汤由虾，柴鱼等熬制而成",
     "trust": 30,
     "PriceIndex": 1.73,
@@ -21505,6 +21590,7 @@
     "name": "玉子烧寿司",
     "foodImagePath": "Item/Food/Sushi/SingleYuzishao",
     "foodSettlementImagePath": "UI/HomeKeepFastFood/Settlement/SushiYuzishao",
+    "foodSettlementPrefab": "UI/HomeKeepFastFood/Sushi/TrustSettlement",
     "des": "只有葱和海鲜汤，海鲜汤由虾，柴鱼等熬制而成",
     "trust": 30,
     "PriceIndex": 1.51,
@@ -21914,6 +22000,11 @@
         "buff": 84100016,
         "id": 10000942,
         "like": 12600380
+      },
+      {
+        "buff": 84100016,
+        "id": 10001003,
+        "like": 12600380
       }
     ],
     "iconBuffDesLCZ": "UI/HomeKeepFastFood/IconBuffLCZ",
@@ -21988,6 +22079,7 @@
     "name": "玉子烧寿司",
     "foodImagePath": "Item/Food/Sushi/TeamYuzishao",
     "foodSettlementImagePath": "UI/HomeKeepFastFood/Settlement/SushiYuzishao",
+    "foodSettlementPrefab": "UI/HomeKeepFastFood/Sushi/TrustSettlement",
     "des": "只有葱和海鲜汤，海鲜汤由虾，柴鱼等熬制而成",
     "trust": 30,
     "PriceIndex": 1.51,
@@ -22397,6 +22489,11 @@
         "buff": 84100016,
         "id": 10000942,
         "like": 12600380
+      },
+      {
+        "buff": 84100016,
+        "id": 10001003,
+        "like": 12600380
       }
     ],
     "iconBuffDesLCZ": "UI/HomeKeepFastFood/IconBuffLCZ",
@@ -22483,6 +22580,7 @@
     "name": "鱼子酱寿司",
     "foodImagePath": "Item/Food/Sushi/TeamYuzi",
     "foodSettlementImagePath": "UI/HomeKeepFastFood/Settlement/SushiYuzi",
+    "foodSettlementPrefab": "UI/HomeKeepFastFood/Sushi/TrustSettlement",
     "des": "贝类、斑节虾、鱿鱼",
     "trust": 30,
     "PriceIndex": 2.04,
@@ -22892,6 +22990,11 @@
         "buff": 84100013,
         "id": 10000942,
         "like": 12600377
+      },
+      {
+        "buff": 84100014,
+        "id": 10001003,
+        "like": 12600378
       }
     ],
     "iconBuffDesLCZ": "UI/HomeKeepFastFood/IconBuffLCZ",
@@ -22974,6 +23077,7 @@
     "name": "北极贝寿司",
     "foodImagePath": "Item/Food/Sushi/TeamBeijibei",
     "foodSettlementImagePath": "UI/HomeKeepFastFood/Settlement/SushiBeijibei",
+    "foodSettlementPrefab": "UI/HomeKeepFastFood/Sushi/TrustSettlement",
     "des": "只有葱和海鲜汤，海鲜汤由虾，柴鱼等熬制而成",
     "trust": 30,
     "PriceIndex": 1.73,
@@ -23383,6 +23487,11 @@
         "buff": 84100014,
         "id": 10000942,
         "like": 12600378
+      },
+      {
+        "buff": 84100013,
+        "id": 10001003,
+        "like": 12600377
       }
     ],
     "iconBuffDesLCZ": "UI/HomeKeepFastFood/IconBuffLCZ",
@@ -23489,6 +23598,7 @@
     "name": "三文鱼寿司",
     "foodImagePath": "Item/Food/Sushi/TeamSanwenyu",
     "foodSettlementImagePath": "UI/HomeKeepFastFood/Settlement/SushiSanwenyu",
+    "foodSettlementPrefab": "UI/HomeKeepFastFood/Sushi/TrustSettlement",
     "des": "只有葱和海鲜汤，海鲜汤由虾，柴鱼等熬制而成",
     "trust": 30,
     "PriceIndex": 1.78,
@@ -23898,6 +24008,11 @@
         "buff": 84100014,
         "id": 10000942,
         "like": 12600378
+      },
+      {
+        "buff": 84100014,
+        "id": 10001003,
+        "like": 12600378
       }
     ],
     "iconBuffDesLCZ": "UI/HomeKeepFastFood/IconBuffLCZ",
@@ -23972,6 +24087,7 @@
     "name": "鱼子酱寿司",
     "foodImagePath": "Item/Food/Sushi/SingleYuzi",
     "foodSettlementImagePath": "UI/HomeKeepFastFood/Settlement/SushiYuzi",
+    "foodSettlementPrefab": "UI/HomeKeepFastFood/Sushi/TrustSettlement",
     "des": "只有葱和海鲜汤，海鲜汤由虾，柴鱼等熬制而成",
     "trust": 30,
     "PriceIndex": 2.04,
@@ -24456,6 +24572,7 @@
     "name": "金枪鱼寿司",
     "foodImagePath": "Item/Food/Sushi/TeamJinqiangyu",
     "foodSettlementImagePath": "UI/HomeKeepFastFood/Settlement/SushiJinqiangyu",
+    "foodSettlementPrefab": "UI/HomeKeepFastFood/Sushi/TrustSettlement",
     "des": "只有葱和海鲜汤，海鲜汤由虾，柴鱼等熬制而成",
     "trust": 30,
     "PriceIndex": 1.82,
@@ -24864,6 +24981,11 @@
       {
         "buff": 84100015,
         "id": 10000942,
+        "like": 12600379
+      },
+      {
+        "buff": 84100015,
+        "id": 10001003,
         "like": 12600379
       }
     ],
