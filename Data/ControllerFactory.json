@@ -26660,5 +26660,116 @@
     "isSkillDelay": false,
     "minDelay": 120,
     "maxDelay": 360
+  },
+  {
+    "id": 10300636,
+    "idCN": "敌方/02桦树/BOSS/鮟鱇鱼",
+    "mod": "BOSSAI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10104548
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10102947,
+        "activeFrame": 120,
+        "activeTime": 2.0,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10102949,
+        "activeFrame": 650,
+        "activeTime": 10.8333,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10102947,
+        "activeFrame": 950,
+        "activeTime": 15.8333,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10102950,
+        "activeFrame": 1170,
+        "activeTime": 19.5,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10102947,
+        "activeFrame": 1600,
+        "activeTime": 26.6667,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10102951,
+        "activeFrame": 1700,
+        "activeTime": 28.3333,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10102947,
+        "activeFrame": 2100,
+        "activeTime": 35.0,
+        "rangeSN": -10000
+      }
+    ],
+    "isInvisibleBeforeShowUp": true,
+    "showupSkillList": [
+      {
+        "actionId": 10104549
+      }
+    ],
+    "skillLoopDelayFrame": 660,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": true,
+    "energySkillList": [
+      {
+        "actionId": 10102952,
+        "isClearEnergy": true,
+        "rangeSN": -10000
+      }
+    ],
+    "energyRestorePerFrameSN": 370,
+    "energyBarColor": "#FFB200",
+    "isSkillDelay": true,
+    "minDelay": 360,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300637,
+    "idCN": "我方/05五星/切茜娅",
+    "mod": "卡牌AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": -1,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10104556
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [],
+    "skillLoopDelayFrame": 0,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
+    "energyBarColor": "#FFB200",
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
   }
 ]
