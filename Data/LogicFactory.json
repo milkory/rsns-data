@@ -2363,5 +2363,18 @@
     "returnType": "int",
     "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rset $battleControlManager\r\rgetp curGSBuff\rset $curBuff\r\rgetp snapshot\rset $snapshot\r\rcallWith $snapshot SetAttributeBase 0 \"HealSpillover\" \"Number\"\r\rret 0",
     "cacheAsGMF": true
+  },
+  {
+    "id": 60000174,
+    "idCN": "卡牌/判断手牌权重低于弃牌按钮",
+    "mod": "执行GS脚本",
+    "isInformalData": false,
+    "debug": false,
+    "autoRecycle": false,
+    "memo": "判断手牌权重低于弃牌按钮",
+    "paramHelp": "",
+    "returnType": "bool",
+    "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rgetp currentCore\rset $core\rif\r\tget $core currentCard\r\tset $card\r\tif\r        get $card\r\t\tgetp ca id\r\t\tset $id\r\t\t\r        get $core extraCardWeightDic\r        set $extraCardWeightDic\r\r        callWith $extraCardWeightDic ContainsKey 10600474\r        set $discardBtnWeight -11\r        if\r            get $extraCardWeightDic 10600474\r            set $discardBtnWeight\r        endif\r\r        callWith $extraCardWeightDic ContainsKey $id\r        if\r            get $extraCardWeightDic $id\r            set $weight\r            if $weight gt $discardBtnWeight\r                ret $false\r            endif\r        endif\r\tendif\rendif\r\rret $true",
+    "cacheAsGMF": true
   }
 ]
