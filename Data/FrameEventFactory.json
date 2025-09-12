@@ -41365,10 +41365,10 @@
   {
     "id": 10503319,
     "idCN": "敌方/02桦树/BOSS/鮟鱇鱼/普攻1",
-    "mod": "攻击事件",
+    "mod": "添加Buff",
     "isInformalData": false,
     "buffId": 10424510,
-    "hitSoundID": -1
+    "targetType": "OneEach"
   },
   {
     "id": 10503323,
@@ -41400,5 +41400,108 @@
     "isInformalData": false,
     "buffId": 10424548,
     "hitSoundID": -1
+  },
+  {
+    "id": 10503324,
+    "idCN": "敌方/02桦树/BOSS/鮟鱇鱼/技能3嘲讽",
+    "mod": "添加Buff",
+    "isInformalData": false,
+    "buffId": 10424637,
+    "targetType": "OneEach"
+  },
+  {
+    "id": 10503325,
+    "idCN": "敌方/02桦树/BOSS/鮟鱇鱼/技能1",
+    "mod": "子弹事件",
+    "isInformalData": false,
+    "buffId": 10424629,
+    "bulletId": 11200767,
+    "targetType": "Random",
+    "offSetX_SN": 0,
+    "offSetZ_SN": 0,
+    "isUseTargetFilter": false,
+    "isIgnoreInvisibleEnemy": true,
+    "targetFilterType": "Ally",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 0,
+    "attributeType": "HpMax",
+    "condition": "Max",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 0
+  },
+  {
+    "id": 10503326,
+    "idCN": "敌方/02桦树/BOSS/鮟鱇鱼/技能2伤害",
+    "mod": "攻击事件",
+    "isInformalData": false,
+    "buffId": 10424631,
+    "hitSoundID": -1
+  },
+  {
+    "id": 10503327,
+    "idCN": "敌方/02桦树/BOSS/鮟鱇鱼/技能2击退",
+    "mod": "子弹事件",
+    "isInformalData": false,
+    "buffId": 10410758,
+    "bulletId": 11200768,
+    "targetType": "CurrentTarget",
+    "offSetX_SN": 0,
+    "offSetZ_SN": 0,
+    "isUseTargetFilter": false,
+    "isIgnoreInvisibleEnemy": true,
+    "targetFilterType": "Ally",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 0,
+    "attributeType": "HpMax",
+    "condition": "Max",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 0
+  },
+  {
+    "id": 10503328,
+    "idCN": "敌方/02桦树/BOSS/鮟鱇鱼/技能3判断诱饵被击破",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10424643
+  },
+  {
+    "id": 10503329,
+    "idCN": "敌方/02桦树/BOSS/鮟鱇鱼/技能3深海黑暗降层",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10424644
+  },
+  {
+    "id": 10503330,
+    "idCN": "敌方/02桦树/BOSS/鮟鱇鱼/技能3敌方失去牌色",
+    "mod": "攻击事件",
+    "isInformalData": false,
+    "buffId": 10424643,
+    "hitSoundID": -1
+  },
+  {
+    "id": 10503331,
+    "idCN": "敌方/02桦树/BOSS/鮟鱇鱼/技能3召唤诱饵",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10424635
   }
 ]
