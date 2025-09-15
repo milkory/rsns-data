@@ -1601,6 +1601,46 @@
         "id": 86400463,
         "x": -63.0,
         "y": 345.0
+      },
+      {
+        "id": 86400470,
+        "x": -499.0,
+        "y": -83.0
+      },
+      {
+        "id": 86400471,
+        "x": -499.0,
+        "y": -83.0
+      },
+      {
+        "id": 86400472,
+        "x": -499.0,
+        "y": -83.0
+      },
+      {
+        "id": 86400473,
+        "x": -499.0,
+        "y": -83.0
+      },
+      {
+        "id": 86400474,
+        "x": -499.0,
+        "y": -83.0
+      },
+      {
+        "id": 86400475,
+        "x": -499.0,
+        "y": -83.0
+      },
+      {
+        "id": 86400476,
+        "x": -499.0,
+        "y": -83.0
+      },
+      {
+        "id": 86400477,
+        "x": -499.0,
+        "y": -83.0
       }
     ],
     "isShowRep": true,
@@ -12717,6 +12757,11 @@
         "y": -14.0
       },
       {
+        "id": 86400469,
+        "x": 270.0,
+        "y": -14.0
+      },
+      {
         "id": 86400305,
         "x": 0.0,
         "y": 113.0
@@ -13050,7 +13095,13 @@
     "activityId": -1,
     "startTime": "",
     "endTime": "",
-    "displayConditionsList": [],
+    "displayConditionsList": [
+      {
+        "condition": "QuestIncomplete",
+        "mId": 81002514,
+        "val": 0
+      }
+    ],
     "unlockConditionsList": [],
     "isLock": false,
     "func": "OpenUI",
@@ -18784,7 +18835,7 @@
     "displayConditionsList": [
       {
         "condition": "QuestComplete",
-        "mId": -1,
+        "mId": 81002514,
         "val": 0
       }
     ],
@@ -18809,10 +18860,10 @@
     "idCN": "03气泡/C7贡露城S0/02剧情/EP8-08",
     "mod": "气泡",
     "isInformalData": false,
-    "name": "罗洁尔",
+    "name": "切茜娅",
     "isSpecial": false,
     "isInstance": false,
-    "iconPath": "RolePlus/Raziel/Face",
+    "iconPath": "RolePlus/Chelsea/Face",
     "nameIconPath": "UI/CityMap/citymap_icon_battlezone",
     "frontIconPath": "",
     "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
@@ -18839,6 +18890,286 @@
     "dialogId": -1,
     "dungeonId": -1,
     "levelId": 20102864,
+    "textId": -1,
+    "npcId": -1,
+    "bgPath": "",
+    "bgColor": "FFFFFF"
+  },
+  {
+    "id": 86400473,
+    "idCN": "03气泡/C7贡露城S0/02剧情/EP8-01",
+    "mod": "气泡",
+    "isInformalData": false,
+    "name": "乌刹娜",
+    "isSpecial": false,
+    "isInstance": false,
+    "iconPath": "RolePlus/Ushana/Face",
+    "nameIconPath": "",
+    "frontIconPath": "",
+    "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
+    "animLoop": "UI_CityBtn_01_Loop",
+    "animOut": "UI_CityBtn_01_Out",
+    "activityId": -1,
+    "startTime": "",
+    "endTime": "",
+    "displayConditionsList": [
+      {
+        "condition": "Questing",
+        "mId": 81002433,
+        "val": 0
+      }
+    ],
+    "unlockConditionsList": [],
+    "isLock": false,
+    "func": "OpenDialog",
+    "btnType": "Other",
+    "mId": -1,
+    "uiPath": "",
+    "buildingId": -1,
+    "stationPlace": -1,
+    "dialogId": 20700726,
+    "dungeonId": -1,
+    "levelId": -1,
+    "textId": -1,
+    "npcId": -1,
+    "bgPath": "",
+    "bgColor": "FFFFFF"
+  },
+  {
+    "id": 86400474,
+    "idCN": "03气泡/C7贡露城S0/02剧情/EP8-02",
+    "mod": "气泡",
+    "isInformalData": false,
+    "name": "乌刹娜",
+    "isSpecial": false,
+    "isInstance": false,
+    "iconPath": "RolePlus/Ushana/Face",
+    "nameIconPath": "UI/CityMap/citymap_icon_battlezone",
+    "frontIconPath": "",
+    "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
+    "animLoop": "UI_CityBtn_01_Loop",
+    "animOut": "UI_CityBtn_01_Out",
+    "activityId": -1,
+    "startTime": "",
+    "endTime": "",
+    "displayConditionsList": [
+      {
+        "condition": "Questing",
+        "mId": 81002496,
+        "val": 0
+      }
+    ],
+    "unlockConditionsList": [],
+    "isLock": false,
+    "func": "OpenLevel",
+    "btnType": "Other",
+    "mId": -1,
+    "uiPath": "",
+    "buildingId": -1,
+    "stationPlace": -1,
+    "dialogId": -1,
+    "dungeonId": -1,
+    "levelId": 20102858,
+    "textId": -1,
+    "npcId": -1,
+    "bgPath": "",
+    "bgColor": "FFFFFF"
+  },
+  {
+    "id": 86400475,
+    "idCN": "03气泡/C7贡露城S0/02剧情/EP8-03",
+    "mod": "气泡",
+    "isInformalData": false,
+    "name": "乌刹娜",
+    "isSpecial": false,
+    "isInstance": false,
+    "iconPath": "RolePlus/Ushana/Face",
+    "nameIconPath": "UI/CityMap/citymap_icon_battlezone",
+    "frontIconPath": "",
+    "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
+    "animLoop": "UI_CityBtn_01_Loop",
+    "animOut": "UI_CityBtn_01_Out",
+    "activityId": -1,
+    "startTime": "",
+    "endTime": "",
+    "displayConditionsList": [
+      {
+        "condition": "Questing",
+        "mId": 81002498,
+        "val": 0
+      }
+    ],
+    "unlockConditionsList": [],
+    "isLock": false,
+    "func": "OpenLevel",
+    "btnType": "Other",
+    "mId": -1,
+    "uiPath": "",
+    "buildingId": -1,
+    "stationPlace": -1,
+    "dialogId": -1,
+    "dungeonId": -1,
+    "levelId": 20102859,
+    "textId": -1,
+    "npcId": -1,
+    "bgPath": "",
+    "bgColor": "FFFFFF"
+  },
+  {
+    "id": 86400476,
+    "idCN": "03气泡/C7贡露城S0/02剧情/EP8-04",
+    "mod": "气泡",
+    "isInformalData": false,
+    "name": "乌刹娜",
+    "isSpecial": false,
+    "isInstance": false,
+    "iconPath": "RolePlus/Ushana/Face",
+    "nameIconPath": "UI/CityMap/citymap_icon_battlezone",
+    "frontIconPath": "",
+    "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
+    "animLoop": "UI_CityBtn_01_Loop",
+    "animOut": "UI_CityBtn_01_Out",
+    "activityId": -1,
+    "startTime": "",
+    "endTime": "",
+    "displayConditionsList": [
+      {
+        "condition": "Questing",
+        "mId": 81002502,
+        "val": 0
+      }
+    ],
+    "unlockConditionsList": [],
+    "isLock": false,
+    "func": "OpenLevel",
+    "btnType": "Other",
+    "mId": -1,
+    "uiPath": "",
+    "buildingId": -1,
+    "stationPlace": -1,
+    "dialogId": -1,
+    "dungeonId": -1,
+    "levelId": 20102860,
+    "textId": -1,
+    "npcId": -1,
+    "bgPath": "",
+    "bgColor": "FFFFFF"
+  },
+  {
+    "id": 86400470,
+    "idCN": "03气泡/C7贡露城S0/02剧情/EP8-05",
+    "mod": "气泡",
+    "isInformalData": false,
+    "name": "丽桑德拉",
+    "isSpecial": false,
+    "isInstance": false,
+    "iconPath": "RolePlus/Lissandra/Face",
+    "nameIconPath": "UI/CityMap/citymap_icon_battlezone",
+    "frontIconPath": "",
+    "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
+    "animLoop": "UI_CityBtn_01_Loop",
+    "animOut": "UI_CityBtn_01_Out",
+    "activityId": -1,
+    "startTime": "",
+    "endTime": "",
+    "displayConditionsList": [
+      {
+        "condition": "Questing",
+        "mId": 81002505,
+        "val": 0
+      }
+    ],
+    "unlockConditionsList": [],
+    "isLock": false,
+    "func": "OpenLevel",
+    "btnType": "Other",
+    "mId": -1,
+    "uiPath": "",
+    "buildingId": -1,
+    "stationPlace": -1,
+    "dialogId": -1,
+    "dungeonId": -1,
+    "levelId": 20102861,
+    "textId": -1,
+    "npcId": -1,
+    "bgPath": "",
+    "bgColor": "FFFFFF"
+  },
+  {
+    "id": 86400471,
+    "idCN": "03气泡/C7贡露城S0/02剧情/EP8-06",
+    "mod": "气泡",
+    "isInformalData": false,
+    "name": "丽桑德拉",
+    "isSpecial": false,
+    "isInstance": false,
+    "iconPath": "RolePlus/Lissandra/Face",
+    "nameIconPath": "UI/CityMap/citymap_icon_battlezone",
+    "frontIconPath": "",
+    "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
+    "animLoop": "UI_CityBtn_01_Loop",
+    "animOut": "UI_CityBtn_01_Out",
+    "activityId": -1,
+    "startTime": "",
+    "endTime": "",
+    "displayConditionsList": [
+      {
+        "condition": "Questing",
+        "mId": 81002509,
+        "val": 0
+      }
+    ],
+    "unlockConditionsList": [],
+    "isLock": false,
+    "func": "OpenLevel",
+    "btnType": "Other",
+    "mId": -1,
+    "uiPath": "",
+    "buildingId": -1,
+    "stationPlace": -1,
+    "dialogId": -1,
+    "dungeonId": -1,
+    "levelId": 20102862,
+    "textId": -1,
+    "npcId": -1,
+    "bgPath": "",
+    "bgColor": "FFFFFF"
+  },
+  {
+    "id": 86400472,
+    "idCN": "03气泡/C7贡露城S0/02剧情/EP8-07",
+    "mod": "气泡",
+    "isInformalData": false,
+    "name": "丽桑德拉",
+    "isSpecial": false,
+    "isInstance": false,
+    "iconPath": "RolePlus/Lissandra/Face",
+    "nameIconPath": "UI/CityMap/citymap_icon_battlezone",
+    "frontIconPath": "",
+    "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
+    "animLoop": "UI_CityBtn_01_Loop",
+    "animOut": "UI_CityBtn_01_Out",
+    "activityId": -1,
+    "startTime": "",
+    "endTime": "",
+    "displayConditionsList": [
+      {
+        "condition": "Questing",
+        "mId": 81002511,
+        "val": 0
+      }
+    ],
+    "unlockConditionsList": [],
+    "isLock": false,
+    "func": "OpenLevel",
+    "btnType": "Other",
+    "mId": -1,
+    "uiPath": "",
+    "buildingId": -1,
+    "stationPlace": -1,
+    "dialogId": -1,
+    "dungeonId": -1,
+    "levelId": 20102863,
     "textId": -1,
     "npcId": -1,
     "bgPath": "",
