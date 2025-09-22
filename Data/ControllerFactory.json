@@ -26681,26 +26681,20 @@
     "skillList": [
       {
         "actionId": 10104568,
-        "activeFrame": 61,
-        "activeTime": 1.0,
-        "rangeSN": -10000
-      },
-      {
-        "actionId": 10104569,
-        "activeFrame": 181,
+        "activeFrame": 180,
         "activeTime": 3.0,
         "rangeSN": -10000
       },
       {
-        "actionId": 10104570,
-        "activeFrame": 301,
-        "activeTime": 5.0,
+        "actionId": 10104569,
+        "activeFrame": 360,
+        "activeTime": 6.0,
         "rangeSN": -10000
       },
       {
-        "actionId": 10104585,
-        "activeFrame": 721,
-        "activeTime": 12.0,
+        "actionId": 10104570,
+        "activeFrame": 780,
+        "activeTime": 13.0,
         "rangeSN": -10000
       }
     ],
@@ -26710,13 +26704,19 @@
         "actionId": 10104549
       }
     ],
-    "skillLoopDelayFrame": 0,
+    "skillLoopDelayFrame": 360,
     "shapeShiftList": [],
     "commandList": [],
     "enemySkillList": [],
     "isUseEnergy": true,
-    "energySkillList": [],
-    "energyRestorePerFrameSN": 370,
+    "energySkillList": [
+      {
+        "actionId": 10104585,
+        "isClearEnergy": true,
+        "rangeSN": -10000
+      }
+    ],
+    "energyRestorePerFrameSN": 350,
     "energyBarColor": "#FFB200",
     "isSkillDelay": true,
     "minDelay": 360,
@@ -26809,6 +26809,48 @@
     "skillLoopDelayFrame": 180,
     "shapeShiftList": [],
     "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
+    "energyBarColor": "#FFB200",
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300640,
+    "idCN": "我方/50召唤物/朵拉弥丝/bot帕姆",
+    "mod": "基础AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": -1,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [],
+    "normalAttackCritID": -1,
+    "skillList": [],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [
+      {
+        "actionId": 10104589
+      }
+    ],
+    "skillLoopDelayFrame": 1,
+    "shapeShiftList": [],
+    "commandList": [
+      {
+        "actionID": 10104589
+      },
+      {
+        "actionID": 10104562
+      },
+      {
+        "actionID": 10104592
+      },
+      {
+        "actionID": 10104587
+      }
+    ],
     "enemySkillList": [],
     "isUseEnergy": false,
     "energySkillList": [],

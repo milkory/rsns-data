@@ -41543,10 +41543,11 @@
   },
   {
     "id": 10503335,
-    "idCN": "敌方/02桦树/BOSS/鮟鱇鱼/技能4护盾",
-    "mod": "给自己上BUFF",
+    "idCN": "敌方/02桦树/BOSS/鮟鱇鱼/技能4吸攻",
+    "mod": "添加Buff",
     "isInformalData": false,
-    "buffId": 10424681
+    "buffId": 10424691,
+    "targetType": "OneEach"
   },
   {
     "id": 10503336,
@@ -41583,5 +41584,117 @@
     "filterPosition": "DefaultPos",
     "isAimSelf": false,
     "targetCount": 0
+  },
+  {
+    "id": 10503338,
+    "idCN": "敌方/02桦树/BOSS/鮟鱇鱼/技能4护盾",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10424681
+  },
+  {
+    "id": 10503339,
+    "idCN": "我方/05五星/朵拉弥丝/普攻",
+    "mod": "添加Buff",
+    "isInformalData": false,
+    "buffId": 10424697,
+    "targetType": "CurrentTarget"
+  },
+  {
+    "id": 10503340,
+    "idCN": "我方/05五星/朵拉弥丝/A/bot召唤",
+    "mod": "添加Buff",
+    "isInformalData": false,
+    "buffId": 10424703,
+    "targetType": "CurrentTarget"
+  },
+  {
+    "id": 10503341,
+    "idCN": "我方/05五星/朵拉弥丝/bot/普攻",
+    "mod": "子弹事件",
+    "isInformalData": false,
+    "buffId": 10424706,
+    "bulletId": 11200764,
+    "targetType": "CurrentTarget",
+    "offSetX_SN": 0,
+    "offSetZ_SN": 0,
+    "isUseTargetFilter": false,
+    "isIgnoreInvisibleEnemy": true,
+    "targetFilterType": "Ally",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 0,
+    "attributeType": "HpMax",
+    "condition": "Max",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 0
+  },
+  {
+    "id": 10503342,
+    "idCN": "我方/05五星/朵拉弥丝/B/直接打出",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10424715
+  },
+  {
+    "id": 10503343,
+    "idCN": "我方/05五星/朵拉弥丝/S-0/命中",
+    "mod": "攻击事件",
+    "isInformalData": false,
+    "buffId": 10424720,
+    "hitSoundID": -1
+  },
+  {
+    "id": 10503344,
+    "idCN": "我方/05五星/朵拉弥丝/S-0/降攻",
+    "mod": "攻击事件",
+    "isInformalData": false,
+    "buffId": 10424719,
+    "hitSoundID": -1
+  },
+  {
+    "id": 10503345,
+    "idCN": "我方/05五星/朵拉弥丝/S-1/计算倍率",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10424728
+  },
+  {
+    "id": 10503346,
+    "idCN": "我方/05五星/朵拉弥丝/S-1/命中",
+    "mod": "攻击事件",
+    "isInformalData": false,
+    "buffId": 10424727,
+    "hitSoundID": -1
+  },
+  {
+    "id": 10503347,
+    "idCN": "我方/05五星/朵拉弥丝/bot/计算倍率",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10424735
+  },
+  {
+    "id": 10503348,
+    "idCN": "我方/05五星/朵拉弥丝/bot/命中",
+    "mod": "攻击事件",
+    "isInformalData": false,
+    "buffId": 10424736,
+    "hitSoundID": -1
+  },
+  {
+    "id": 10503349,
+    "idCN": "我方/05五星/朵拉弥丝/C/生效",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10424738
   }
 ]
