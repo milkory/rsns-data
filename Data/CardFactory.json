@@ -30386,7 +30386,17 @@
     "tagOutsideList": [],
     "deriveCardList": [],
     "cardAIActionList": [],
-    "ExCondList": [],
+    "ExCondList": [
+      {
+        "condId": 96200031,
+        "des": 80608005,
+        "interValNum": 12,
+        "isNumCond": true,
+        "minNum": 0,
+        "numDuration": 1,
+        "typeEnum": "number"
+      }
+    ],
     "ExActList": [],
     "linkCardId": []
   },
@@ -30499,17 +30509,7 @@
     "tagOutsideList": [],
     "deriveCardList": [],
     "cardAIActionList": [],
-    "ExCondList": [
-      {
-        "condId": 96200031,
-        "des": 80608005,
-        "interValNum": 12,
-        "isNumCond": true,
-        "minNum": 0,
-        "numDuration": 1,
-        "typeEnum": "number"
-      }
-    ],
+    "ExCondList": [],
     "ExActList": [],
     "linkCardId": []
   },
@@ -32085,7 +32085,7 @@
     "discardBuffId": -1,
     "discardBySkillBuffId": -1,
     "banishBuffId": -1,
-    "atkAreaType": "Direction",
+    "atkAreaType": "TargetArea",
     "atkAreaColor": "Yellow",
     "targetColor": "AttackTest",
     "disappearEffectId": 11100047,
@@ -32123,16 +32123,20 @@
     "cardAIActionList": [],
     "ExCondList": [],
     "ExActList": [],
-    "linkCardId": []
+    "linkCardId": [
+      {
+        "Id": 10600511
+      }
+    ]
   },
   {
     "id": 10600510,
     "idCN": "00原版/05五星/朵拉弥丝/A",
-    "mod": "基础卡牌",
+    "mod": "无动作卡",
     "isInformalData": false,
     "name": "共生",
     "isCutIn": false,
-    "isUseSingleTarget": false,
+    "isUseSingleTarget": true,
     "isNoCD": false,
     "isUseInHand": false,
     "isNotDiscard": false,
@@ -32142,11 +32146,10 @@
     "color": "Purple",
     "cardType": "UseOnce",
     "sameCardGroupId": -1,
-    "actionId": 10104575,
     "cost_SN": 30000,
     "inhandBuffId": -1,
     "inhandOverBuffId": -1,
-    "startBuffId": -1,
+    "startBuffId": 10424940,
     "discardBuffId": -1,
     "discardBySkillBuffId": -1,
     "banishBuffId": -1,
@@ -32171,11 +32174,35 @@
     "deriveCardList": [],
     "cardAIActionList": [
       {
-        "actionId": 96300008,
+        "actionId": 96300011,
         "conditionId": -1,
         "weight": 1
       }
     ],
+    "distance_SN": 0,
+    "radius_SN": 0,
+    "isUseTargetFilter": true,
+    "isIgnoreInvisibleEnemy": true,
+    "targetType": "AllyExceptSelf",
+    "targetTagList": [
+      {
+        "tagId": 12600246
+      }
+    ],
+    "tagType": "And",
+    "halfWidth_SN": 0,
+    "attributeType": "HpMax",
+    "condition": "All",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 0,
     "ExCondList": [],
     "ExActList": [
       {
@@ -32185,6 +32212,18 @@
       {
         "condId": 96300010,
         "des": 80610278
+      },
+      {
+        "condId": 96300013,
+        "des": 80611603
+      },
+      {
+        "condId": 96300011,
+        "des": 80611604
+      },
+      {
+        "condId": 96300014,
+        "des": 80611605
       }
     ],
     "linkCardId": []
@@ -32214,7 +32253,7 @@
     "discardBuffId": -1,
     "discardBySkillBuffId": -1,
     "banishBuffId": -1,
-    "atkAreaType": "Direction",
+    "atkAreaType": "TargetArea",
     "atkAreaColor": "Yellow",
     "targetColor": "AttackTest",
     "disappearEffectId": 11100047,

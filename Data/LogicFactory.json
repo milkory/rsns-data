@@ -2376,5 +2376,60 @@
     "returnType": "bool",
     "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rgetp currentCore\rset $core\rif\r\tget $core currentCard\r\tset $card\r\tif\r        get $card\r\t\tgetp ca id\r\t\tset $id\r\t\t\r        get $core extraCardWeightDic\r        set $extraCardWeightDic\r\r        callWith $extraCardWeightDic ContainsKey 10600474\r        set $discardBtnWeight -11\r        if\r            get $extraCardWeightDic 10600474\r            set $discardBtnWeight\r        endif\r\r        callWith $extraCardWeightDic ContainsKey $id\r        if\r            get $extraCardWeightDic $id\r            set $weight\r            if $weight gt $discardBtnWeight\r                ret $false\r            endif\r        endif\r\tendif\rendif\r\rret $true",
     "cacheAsGMF": true
+  },
+  {
+    "id": 60000175,
+    "idCN": "卡牌/剔除共生目标-朵拉弥丝",
+    "mod": "执行GS脚本",
+    "isInformalData": false,
+    "debug": false,
+    "autoRecycle": false,
+    "memo": "见产品名称",
+    "paramHelp": "",
+    "returnType": "int",
+    "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rgetp rtUnitList\rset $rtUnitList\r\rif\r\tget $rtUnitList Count\r\tset $count\r\tadd 1\r\tset $cnt\r\tfor $i 1 $cnt \r\t\tsub $count $i\r\t\tset $idx\r\t\tget $rtUnitList $idx\r\t\tset $curUnit\r\t\tgetp buffSystem\r\t\tset $buffSystem\r\r        callWith $buffSystem GetSpecifiedBuff 10424731\r        set $buff\r\t\tif $buff\r\t\t\tcallWith $rtUnitList Remove $curUnit\r\t\telse\r\t\t\tget $curUnit\r\t\t\tgetp ca\r\t\t\tgetp id\r\t\t\tset $unitId\r\t\t\tif $unitId eq 10001019\r\t\t\t\tcallWith $rtUnitList Remove $curUnit\r\t\t\tendif\r\t\tendif\r\tendfor\rendif\r\rret $true",
+    "cacheAsGMF": true
+  },
+  {
+    "id": 60000176,
+    "idCN": "卡牌/寻找我方-朵拉弥丝/攻击力最高",
+    "mod": "逻辑脚本",
+    "isInformalData": false,
+    "debug": false,
+    "autoRecycle": false,
+    "memo": "见产品名称",
+    "paramHelp": "",
+    "returnType": "int",
+    "scriptPath": "GGScript/60000114",
+    "scriptLabel": "main",
+    "cacheAsGMF": true
+  },
+  {
+    "id": 60000177,
+    "idCN": "卡牌/寻找我方-朵拉弥丝/随机",
+    "mod": "逻辑脚本",
+    "isInformalData": false,
+    "debug": false,
+    "autoRecycle": false,
+    "memo": "见产品名称",
+    "paramHelp": "",
+    "returnType": "int",
+    "scriptPath": "GGScript/60000113",
+    "scriptLabel": "main",
+    "cacheAsGMF": true
+  },
+  {
+    "id": 60000178,
+    "idCN": "卡牌/寻找我方-朵拉弥丝/血量最高",
+    "mod": "逻辑脚本",
+    "isInformalData": false,
+    "debug": false,
+    "autoRecycle": false,
+    "memo": "见产品名称",
+    "paramHelp": "",
+    "returnType": "int",
+    "scriptPath": "GGScript/60000115",
+    "scriptLabel": "main",
+    "cacheAsGMF": true
   }
 ]
