@@ -1781,6 +1781,11 @@
         "id": 86400492,
         "x": -647.0,
         "y": 183.0
+      },
+      {
+        "id": 86400495,
+        "x": -647.0,
+        "y": 183.0
       }
     ],
     "isShowRep": true,
@@ -20000,10 +20005,10 @@
     "idCN": "03气泡/C7贡露城S0/02剧情/EP9-19",
     "mod": "气泡",
     "isInformalData": false,
-    "name": "",
+    "name": "朵拉弥丝",
     "isSpecial": false,
     "isInstance": false,
-    "iconPath": "",
+    "iconPath": "RolePlus/DRamis/Face",
     "nameIconPath": "",
     "frontIconPath": "",
     "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
@@ -20012,7 +20017,13 @@
     "activityId": -1,
     "startTime": "",
     "endTime": "",
-    "displayConditionsList": [],
+    "displayConditionsList": [
+      {
+        "condition": "Questing",
+        "mId": 81002616,
+        "val": 0
+      }
+    ],
     "unlockConditionsList": [],
     "isLock": false,
     "func": "OpenDialog",
@@ -20021,7 +20032,7 @@
     "uiPath": "",
     "buildingId": -1,
     "stationPlace": -1,
-    "dialogId": -1,
+    "dialogId": 20700749,
     "dungeonId": -1,
     "levelId": -1,
     "textId": -1,
