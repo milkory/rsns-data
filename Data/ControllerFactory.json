@@ -26987,14 +26987,21 @@
     "effectOffsetY": 0.0,
     "actionList": [],
     "normalAttackCritID": -1,
-    "skillList": [],
+    "skillList": [
+      {
+        "actionId": 10104615,
+        "activeFrame": 1,
+        "activeTime": 1.0,
+        "rangeSN": -10000
+      }
+    ],
     "isInvisibleBeforeShowUp": true,
     "showupSkillList": [
       {
         "actionId": 10104614
       }
     ],
-    "skillLoopDelayFrame": 0,
+    "skillLoopDelayFrame": 99999,
     "shapeShiftList": [],
     "commandList": [
       {
@@ -27007,6 +27014,69 @@
     "energyRestorePerFrameSN": 0,
     "energyBarColor": "#FFB200",
     "isSkillDelay": false,
+    "minDelay": 0,
+    "maxDelay": 0
+  },
+  {
+    "id": 10300647,
+    "idCN": "敌方/000角色/园丁/卡洛琳02",
+    "mod": "基础AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10100234
+      },
+      {
+        "actionID": 10100236
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10100434,
+        "activeFrame": 121,
+        "activeTime": 2.0,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10100434,
+        "activeFrame": 241,
+        "activeTime": 4.0,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10100434,
+        "activeFrame": 361,
+        "activeTime": 6.0,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10100220,
+        "activeFrame": 721,
+        "activeTime": 12.0,
+        "rangeSN": -10000
+      }
+    ],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [],
+    "skillLoopDelayFrame": 360,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": true,
+    "energySkillList": [
+      {
+        "actionId": 10100201,
+        "isClearEnergy": true,
+        "rangeSN": -10000
+      }
+    ],
+    "energyRestorePerFrameSN": 370,
+    "energyBarColor": "#FFB200",
+    "isSkillDelay": true,
     "minDelay": 120,
     "maxDelay": 360
   }

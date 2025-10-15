@@ -3665,7 +3665,7 @@
     "idCN": "签到挑战/罗洁尔皮肤活动",
     "mod": "登录解锁挑战",
     "isInformalData": false,
-    "name": "无垠乱斗",
+    "name": "",
     "showUI": "",
     "bgPath": "",
     "bgColor": "FFFFFF",
@@ -3675,12 +3675,14 @@
     "correspondingCity": [],
     "correspondingBuild": [],
     "openLv": 1,
+    "openTradeLv": 0,
     "showResidueUI": "",
     "openTipsType": "normal",
     "showOpenTipsUI": "",
     "isJoin": false,
     "isOnly": -1,
     "questId": -1,
+    "taskIndex": 0,
     "unlockTips": -1,
     "isTriggerTime": false,
     "putTime": -1,
@@ -3707,6 +3709,7 @@
     "activityRewardRankList": [],
     "city": -1,
     "activityCardPack": -1,
+    "signBattleUI": "",
     "isCloseReward": false,
     "isDynamicEndTime": false,
     "needRegisterTime": "",
@@ -3736,9 +3739,12 @@
       }
     ],
     "signBattleTimeExtra": 8,
+    "signBattleExtract": -1,
+    "videoHttp": "",
     "joinGetItem": [],
     "rankingReward": [],
-    "rankingMail": -1
+    "rankingMail": -1,
+    "signChallengeActivityId": -1
   },
   {
     "id": 86000044,
@@ -4829,7 +4835,7 @@
     "idCN": "签到挑战/罗洁尔皮肤日服活动",
     "mod": "登录解锁挑战",
     "isInformalData": false,
-    "name": "无垠乱斗",
+    "name": "",
     "showUI": "",
     "bgPath": "",
     "bgColor": "FFFFFF",
@@ -4873,6 +4879,7 @@
     "activityRewardRankList": [],
     "city": -1,
     "activityCardPack": -1,
+    "signBattleUI": "",
     "isCloseReward": true,
     "isDynamicEndTime": true,
     "needRegisterTime": "2024-01-01 00:00:00",
@@ -4911,9 +4918,12 @@
       }
     ],
     "signBattleTimeExtra": 999,
+    "signBattleExtract": -1,
+    "videoHttp": "",
     "joinGetItem": [],
     "rankingReward": [],
-    "rankingMail": -1
+    "rankingMail": -1,
+    "signChallengeActivityId": -1
   },
   {
     "id": 86000070,
@@ -8055,5 +8065,139 @@
         "id": 60900031
       }
     ]
+  },
+  {
+    "id": 86000171,
+    "idCN": "签到挑战/时萝试用活动",
+    "mod": "登录解锁挑战",
+    "isInformalData": false,
+    "name": "",
+    "showUI": "",
+    "bgPath": "",
+    "bgColor": "FFFFFF",
+    "npcId": -1,
+    "helpId": -1,
+    "voiceActivity": 30005861,
+    "correspondingCity": [],
+    "correspondingBuild": [],
+    "openLv": 1,
+    "openTradeLv": 0,
+    "showResidueUI": "",
+    "openTipsType": "normal",
+    "showOpenTipsUI": "UI/Activity/ActivitySignBattle/SignBattleTipAnethum",
+    "isJoin": false,
+    "isOnly": -1,
+    "questId": -1,
+    "taskIndex": 0,
+    "unlockTips": -1,
+    "isTriggerTime": false,
+    "putTime": -1,
+    "continueTime": -1,
+    "closeTime": -1,
+    "isTime": false,
+    "startTime": "2025-10-15 12:00:00",
+    "endTime": "2025-11-05 12:00:00",
+    "rewardEndTime": "2025-11-05 12:00:00",
+    "replicateNum": 1,
+    "isClearCurrency": false,
+    "clearCurrencyList": [],
+    "isClearAllQuest": false,
+    "isClearPersonalQuest": false,
+    "allScheduleRefreshTime": 60,
+    "rewardPreviewList": [
+      {
+        "id": 11400005,
+        "isShowNum": true,
+        "num": 500
+      },
+      {
+        "id": 82600999,
+        "isShowNum": false,
+        "num": 0
+      },
+      {
+        "id": 81300771,
+        "isShowNum": false,
+        "num": 0
+      },
+      {
+        "id": 81300770,
+        "isShowNum": false,
+        "num": 0
+      },
+      {
+        "id": 82600998,
+        "isShowNum": false,
+        "num": 0
+      }
+    ],
+    "activityStoreList": [],
+    "bannerList": [],
+    "bannerCapsuleList": [],
+    "giftList": [],
+    "joinPlotId": -1,
+    "joinQuestId": -1,
+    "activityRankList": [
+      {
+        "id": 84300050
+      }
+    ],
+    "activityRewardRankList": [
+      {
+        "id": 84300050
+      }
+    ],
+    "city": -1,
+    "activityCardPack": -1,
+    "signBattleUI": "UI/Activity/ActivitySignBattle/SignBattleLevelAnethum",
+    "isCloseReward": false,
+    "isDynamicEndTime": false,
+    "needRegisterTime": "",
+    "signBattleLimitLv": 999,
+    "signBattleInitLevel": 5,
+    "signLevelList": [
+      {
+        "id": 20102545
+      },
+      {
+        "id": 20102546
+      },
+      {
+        "id": 20102547
+      },
+      {
+        "id": 20102549
+      },
+      {
+        "id": 20102544
+      },
+      {
+        "id": 20102550
+      },
+      {
+        "id": 20102551
+      },
+      {
+        "id": 20102548
+      }
+    ],
+    "signBattleRewards": [
+      {
+        "id": 82600998,
+        "num": 1
+      }
+    ],
+    "signBattleTimeExtra": 5,
+    "signBattleExtract": 80500283,
+    "videoHttp": "",
+    "joinGetItem": [],
+    "rankingReward": [
+      {
+        "id": 80307787,
+        "rank": 2000
+      }
+    ],
+    "rankingMail": 80800619,
+    "signChallengeActivityId": -1
   }
 ]
