@@ -27079,5 +27079,94 @@
     "isSkillDelay": true,
     "minDelay": 120,
     "maxDelay": 360
+  },
+  {
+    "id": 10300646,
+    "idCN": "敌方/000角色/教国/赫卡蒂",
+    "mod": "基础AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10100176
+      },
+      {
+        "actionID": 10100177
+      },
+      {
+        "actionID": 10100164
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10100173,
+        "activeFrame": 240,
+        "activeTime": 4.0,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10100167,
+        "activeFrame": 960,
+        "activeTime": 16.0,
+        "rangeSN": -10000
+      }
+    ],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [],
+    "skillLoopDelayFrame": 480,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": true,
+    "energySkillList": [
+      {
+        "actionId": 10100165,
+        "isClearEnergy": true,
+        "rangeSN": -10000
+      }
+    ],
+    "energyRestorePerFrameSN": 300,
+    "energyBarColor": "#FFB200",
+    "isSkillDelay": true,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300645,
+    "idCN": "我方/05五星/赫卡蒂",
+    "mod": "卡牌AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": -1,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10104638
+      },
+      {
+        "actionID": 10104641
+      },
+      {
+        "actionID": 10104631
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [],
+    "skillLoopDelayFrame": 0,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
+    "energyBarColor": "#FFB200",
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
   }
 ]
