@@ -22409,19 +22409,16 @@
   {
     "id": 11200779,
     "idCN": "敌方/000角色/教国/赫卡蒂/技能03",
-    "mod": "抛物线",
+    "mod": "地面直线弹",
     "isInformalData": false,
-    "bulletViewId": 11300147,
-    "speedX_SN": 4000,
+    "bulletViewId": 11300369,
+    "speedX_SN": 8500,
     "xSpeedOffSet_SN": 0,
     "disappearEffectList": [],
     "appearEffectList": [],
     "effectID": -1,
     "hitSoundId": -1,
     "scaleTag": "",
-    "ySpeedStart_SN": 0,
-    "ySpeedOffSet_SN": 0,
-    "isAddSpeedZ": false,
     "durationMin": 1,
     "isCustomRadius": false,
     "customRadiusTag": "",
@@ -22433,14 +22430,21 @@
     "yOffSet_SN": 0,
     "zOffSetStart_SN": 0,
     "zOffSet_SN": 0,
-    "groundEffectList": [],
+    "groundEffectList": [
+      {
+        "effectId": 11107889
+      },
+      {
+        "effectId": 11107892
+      }
+    ],
     "isGroundEffectUseHitTimes": false,
     "groundSoundId": -1,
     "isGroundSoundUseHitTimes": false,
     "envBuffId": -1,
     "hitTimes": 5,
     "hitTimesCustomTag": "",
-    "intervalFrame": 12,
+    "intervalFrame": 3,
     "isDoBuffOnly": false,
     "isHitTargetOnly": true
   }

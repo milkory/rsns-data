@@ -27090,7 +27090,7 @@
     "effectOffsetY": 0.0,
     "actionList": [
       {
-        "actionID": 10104623
+        "actionID": 10104638
       },
       {
         "actionID": 10104625
@@ -27099,21 +27099,39 @@
     "normalAttackCritID": -1,
     "skillList": [
       {
+        "actionId": 10104607,
+        "activeFrame": 121,
+        "activeTime": 2.0,
+        "rangeSN": -10000
+      },
+      {
         "actionId": 10104620,
         "activeFrame": 241,
         "activeTime": 4.0,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10104620,
+        "activeFrame": 601,
+        "activeTime": 10.0,
         "rangeSN": -10000
       }
     ],
     "isInvisibleBeforeShowUp": false,
     "showupSkillList": [],
-    "skillLoopDelayFrame": 0,
+    "skillLoopDelayFrame": 300,
     "shapeShiftList": [],
     "commandList": [],
     "enemySkillList": [],
     "isUseEnergy": true,
-    "energySkillList": [],
-    "energyRestorePerFrameSN": 300,
+    "energySkillList": [
+      {
+        "actionId": 10104627,
+        "isClearEnergy": true,
+        "rangeSN": -10000
+      }
+    ],
+    "energyRestorePerFrameSN": 800,
     "energyBarColor": "#FFB200",
     "isSkillDelay": true,
     "minDelay": 120,
@@ -27151,6 +27169,45 @@
     "energyRestorePerFrameSN": 0,
     "energyBarColor": "#FFB200",
     "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300648,
+    "idCN": "敌方/000角色/教国/赫卡蒂长枪兵",
+    "mod": "基础AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10104648
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [
+      {
+        "actionId": 10104650
+      }
+    ],
+    "skillLoopDelayFrame": 300,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": true,
+    "energySkillList": [
+      {
+        "actionId": 10104649,
+        "isClearEnergy": true,
+        "rangeSN": -10000
+      }
+    ],
+    "energyRestorePerFrameSN": 800,
+    "energyBarColor": "#FFB200",
+    "isSkillDelay": true,
     "minDelay": 120,
     "maxDelay": 360
   }

@@ -171735,7 +171735,7 @@
     "homeCharacter": 70000340,
     "stationStoreCharacter": -1,
     "gotoBed": true,
-    "isDoctor": true,
+    "isDoctor": false,
     "medicalPoint": 0,
     "WasteCoefficient": 1.0,
     "FoodList": [
@@ -205283,8 +205283,8 @@
     "sideId": 12601920,
     "controllerId": 10300646,
     "bulletControllerList": [],
-    "isBoss": false,
-    "bossHpTemp": -1,
+    "isBoss": true,
+    "bossHpTemp": 90100011,
     "isDeadNotDisappear": false,
     "isFly": false,
     "originFlyYSN": 0,
@@ -205297,9 +205297,25 @@
       },
       {
         "tagId": 12600067
+      },
+      {
+        "tagId": 12601926
       }
     ],
-    "passiveSkillList": [],
+    "passiveSkillList": [
+      {
+        "skillId": 12303985
+      },
+      {
+        "skillId": 12301449
+      },
+      {
+        "skillId": 12301441
+      },
+      {
+        "skillId": 12300373
+      }
+    ],
     "hp_SN": 320000000,
     "def_SN": 900000,
     "atk_SN": 850000,
@@ -205373,7 +205389,7 @@
     "hitAreaHalfHeight_SN": 10000,
     "canOverMaxSpeed": false,
     "battleDes": "",
-    "safeInformation": "来自阿妮塔能源公司的实习园丁，致力于一锤解决桦石，最好也能一锤解决战斗。",
+    "safeInformation": "",
     "unitInformation": "",
     "enemyDrop": [],
     "abilityList": [],
@@ -205400,6 +205416,9 @@
     "skinList": [
       {
         "unitViewId": 11000677
+      },
+      {
+        "unitViewId": 11000679
       }
     ],
     "sideId": 12601921,
@@ -205577,7 +205596,7 @@
     "totalCost": 1,
     "totalCardNum": 1,
     "skillMin": 5,
-    "homeCharacter": 70000311,
+    "homeCharacter": 70000350,
     "stationStoreCharacter": -1,
     "gotoBed": true,
     "isDoctor": false,
@@ -205632,7 +205651,8 @@
     ],
     "fileList": [
       {
-        "file": 80304773
+        "file": 80307799,
+        "skinId": -1
       }
     ],
     "age": 0,
@@ -207407,6 +207427,141 @@
     "enemySkillList": [
       {
         "id": 80307793
+      }
+    ]
+  },
+  {
+    "id": 10001166,
+    "idCN": "敌方/000角色/教国/赫卡蒂长枪兵",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "长枪骑士",
+    "EnglishName": "",
+    "viewId": 11000678,
+    "skinList": [],
+    "sideId": 12601920,
+    "controllerId": 10300648,
+    "bulletControllerList": [],
+    "isBoss": false,
+    "bossHpTemp": -1,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      }
+    ],
+    "passiveSkillList": [],
+    "hp_SN": 140000000,
+    "def_SN": 600000,
+    "atk_SN": 660000,
+    "atkSpeed_SN": 800000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000554,
+    "growthTagList": [
+      {
+        "growthTagId": 12000112
+      },
+      {
+        "growthTagId": 12000097
+      },
+      {
+        "growthTagId": 12000525
+      },
+      {
+        "growthTagId": 12000526
+      },
+      {
+        "growthTagId": 12000528
+      },
+      {
+        "growthTagId": 12000527
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800292
+      },
+      {
+        "talentId": 12800293
+      },
+      {
+        "talentId": 12800294
+      },
+      {
+        "talentId": 12800295
+      },
+      {
+        "talentId": 12800296
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10104629,
+    "actionMoveID": 10104626,
+    "actionAttackedID": 10104644,
+    "actionAttackedBackID": 10104645,
+    "actionKnockUpID": -1,
+    "actionStunID": 10104646,
+    "actionDeadID": 10104647,
+    "actionVictoryID": -1,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 20000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 20000,
+    "hitAreaHalfWidth_SN": 10000,
+    "hitAreaHalfHeight_SN": 20000,
+    "canOverMaxSpeed": false,
+    "battleDes": "",
+    "safeInformation": "",
+    "unitInformation": "",
+    "enemyDrop": [],
+    "abilityList": [
+      {
+        "id": 12600929
+      }
+    ],
+    "weaknessList": [],
+    "resistanceList": [],
+    "enemyType": 12601046,
+    "enemyCamp": 12601045,
+    "enemyBookId": -1,
+    "prisonerDrop": [],
+    "enemySkillList": [
+      {
+        "id": 80307802
       }
     ]
   }
