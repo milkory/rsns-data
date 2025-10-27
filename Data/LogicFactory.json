@@ -2444,5 +2444,18 @@
     "returnType": "int",
     "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rset $battleControlManager\r\rgetp curGSBuff\rset $curBuff\r\rgetp target\rset $target\r\rgetp ca mod\rset $mod\r\rif $mod eq \"召唤物\"\r    get $curBuff\r    getp _buffFactory\r    set $buffFactory\r\r    get $curBuff\r    getp owner\r    set $owner\r\r    get $curBuff\r    getp snapshot\r    set $snapshot\r\r    getp action\r    set $action\r\r    get $target\r    getp owner\r    set $buffTarget\r\r    get $curBuff\r    getp positionSN\r    set $positionSN\r\r    get $curBuff\r    getp isSkill\r    set $isSkill\r    \r    get $curBuff\r    getp from\r    set $from\r\r    get $curBuff\r    getp fromUnitSID\r    set $fromUnitSID\r\r    getc BuffFactory\r\tgetMethodInfo Produce 9 \"System.Int32\" \"Unit\" \"Snapshot\" \"UnitAction\" \"IBuffSystem\" \"PointSN\" \"System.Boolean\" \"System.Int32\" \"System.Int32\"\r    callMethodInfo $buffFactory 10425150 $owner $snapshot $action $buffTarget $positionSN $isSkill $from $fromUnitSID\r    set $tBuff\r    callWith $buffTarget AddBuff $tBuff\rendif\r\rret 0",
     "cacheAsGMF": true
+  },
+  {
+    "id": 60000180,
+    "idCN": "卡牌/判断卡牌目标类型/判断对自身",
+    "mod": "执行GS脚本",
+    "isInformalData": false,
+    "debug": false,
+    "autoRecycle": false,
+    "memo": "见产品名称",
+    "paramHelp": "",
+    "returnType": "int",
+    "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rset $battleControlManager\r\rgetp curGSBuff\rset $curBuff\r\rgetp _snapshot\rgetp targetCard\rgetp ca\rgetp targetColor\rset $targetColor\r\rif $targetColor eq \"Self\"\r    ret 1\rendif\r\rret 2",
+    "cacheAsGMF": true
   }
 ]

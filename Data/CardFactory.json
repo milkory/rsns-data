@@ -5175,7 +5175,7 @@
     "cost_SN": 30000,
     "inhandBuffId": -1,
     "inhandOverBuffId": -1,
-    "startBuffId": 10405195,
+    "startBuffId": -1,
     "discardBuffId": -1,
     "discardBySkillBuffId": -1,
     "banishBuffId": -1,
@@ -5203,7 +5203,8 @@
     "deriveCardList": [],
     "cardAIActionList": [],
     "ExCondList": [],
-    "ExActList": []
+    "ExActList": [],
+    "linkCardId": []
   },
   {
     "id": 10600099,
@@ -32457,7 +32458,7 @@
   {
     "id": 10600224,
     "idCN": "00原版/05五星/赫卡蒂/A",
-    "mod": "基础卡牌",
+    "mod": "无动作卡",
     "isInformalData": false,
     "name": "神谕",
     "isCutIn": false,
@@ -32471,7 +32472,6 @@
     "color": "Black",
     "cardType": "Normal",
     "sameCardGroupId": -1,
-    "actionId": 10104635,
     "cost_SN": 0,
     "inhandBuffId": 10425186,
     "inhandOverBuffId": -1,
@@ -32499,6 +32499,26 @@
     "tagOutsideList": [],
     "deriveCardList": [],
     "cardAIActionList": [],
+    "distance_SN": 20000,
+    "radius_SN": 0,
+    "isUseTargetFilter": false,
+    "isIgnoreInvisibleEnemy": true,
+    "targetType": "Ally",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 0,
+    "attributeType": "HpMax",
+    "condition": "Max",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 0,
     "ExCondList": [],
     "ExActList": [],
     "linkCardId": []
@@ -32517,7 +32537,7 @@
     "iconPath": "RolePlus\\Hecate\\skillicon\\B",
     "backPath": "",
     "roleImgPath": "",
-    "color": "Purple",
+    "color": "Yellow",
     "cardType": "Normal",
     "sameCardGroupId": -1,
     "actionId": 10104637,
@@ -32539,7 +32559,7 @@
     "isCostX": false,
     "tagList": [
       {
-        "tagId": 12600073
+        "tagId": 12600146
       },
       {
         "tagId": 12601923
