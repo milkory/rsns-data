@@ -2392,7 +2392,7 @@
   },
   {
     "id": 60000176,
-    "idCN": "卡牌/寻找我方-朵拉弥丝/攻击力最高",
+    "idCN": "卡牌/寻找我方-朵拉弥丝/除共生攻击力最高",
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
@@ -2406,7 +2406,7 @@
   },
   {
     "id": 60000177,
-    "idCN": "卡牌/寻找我方-朵拉弥丝/随机",
+    "idCN": "卡牌/寻找我方-朵拉弥丝/除共生随机",
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
@@ -2420,7 +2420,7 @@
   },
   {
     "id": 60000178,
-    "idCN": "卡牌/寻找我方-朵拉弥丝/血量最高",
+    "idCN": "卡牌/寻找我方-朵拉弥丝/除共生血量最高",
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
@@ -2456,6 +2456,62 @@
     "paramHelp": "",
     "returnType": "int",
     "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rset $battleControlManager\r\rgetp curGSBuff\rset $curBuff\r\rgetp _snapshot\rgetp targetCard\rgetp ca\rgetp targetColor\rset $targetColor\r\rif $targetColor eq \"Self\"\r    ret 1\rendif\r\rret 2",
+    "cacheAsGMF": true
+  },
+  {
+    "id": 60000181,
+    "idCN": "卡牌/寻找我方/血量白值最高",
+    "mod": "逻辑脚本",
+    "isInformalData": false,
+    "debug": false,
+    "autoRecycle": false,
+    "memo": "见产品名称",
+    "paramHelp": "",
+    "returnType": "int",
+    "scriptPath": "GGScript/60000116",
+    "scriptLabel": "main",
+    "cacheAsGMF": true
+  },
+  {
+    "id": 60000182,
+    "idCN": "卡牌/寻找我方/除自身攻击力最高",
+    "mod": "逻辑脚本",
+    "isInformalData": false,
+    "debug": false,
+    "autoRecycle": false,
+    "memo": "见产品名称",
+    "paramHelp": "",
+    "returnType": "int",
+    "scriptPath": "GGScript/60000117",
+    "scriptLabel": "main",
+    "cacheAsGMF": true
+  },
+  {
+    "id": 60000183,
+    "idCN": "卡牌/寻找我方/除自身血量最高",
+    "mod": "逻辑脚本",
+    "isInformalData": false,
+    "debug": false,
+    "autoRecycle": false,
+    "memo": "见产品名称",
+    "paramHelp": "",
+    "returnType": "int",
+    "scriptPath": "GGScript/60000119",
+    "scriptLabel": "main",
+    "cacheAsGMF": true
+  },
+  {
+    "id": 60000184,
+    "idCN": "卡牌/寻找我方/除自身血量百分比最低",
+    "mod": "逻辑脚本",
+    "isInformalData": false,
+    "debug": false,
+    "autoRecycle": false,
+    "memo": "见产品名称",
+    "paramHelp": "",
+    "returnType": "int",
+    "scriptPath": "GGScript/60000118",
+    "scriptLabel": "main",
     "cacheAsGMF": true
   }
 ]
