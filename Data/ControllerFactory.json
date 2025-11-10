@@ -19378,7 +19378,7 @@
   },
   {
     "id": 10300474,
-    "idCN": "敌方/06深眠者/异嵌深眠者",
+    "idCN": "敌方/06深眠者/轮锯异嵌体",
     "mod": "基础AI",
     "isInformalData": false,
     "targetInvisibleEffectId": 11102488,
@@ -27395,5 +27395,56 @@
     "isSkillDelay": false,
     "minDelay": 120,
     "maxDelay": 360
+  },
+  {
+    "id": 10300653,
+    "idCN": "敌方/06深眠者/志逍遥",
+    "mod": "基础AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10104669
+      },
+      {
+        "actionID": 10104670
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10104663,
+        "activeFrame": 150,
+        "activeTime": 1.0,
+        "rangeSN": 240000
+      },
+      {
+        "actionId": 10104663,
+        "activeFrame": 408,
+        "activeTime": 1.0,
+        "rangeSN": 240000
+      },
+      {
+        "actionId": 10104668,
+        "activeFrame": 560,
+        "activeTime": 1.0,
+        "rangeSN": 50000
+      }
+    ],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [],
+    "skillLoopDelayFrame": 284,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
+    "energyBarColor": "#FFB200",
+    "isSkillDelay": true,
+    "minDelay": 80,
+    "maxDelay": 150
   }
 ]
