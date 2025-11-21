@@ -19393,35 +19393,17 @@
       }
     ],
     "normalAttackCritID": -1,
-    "skillList": [
-      {
-        "actionId": 10103426,
-        "activeFrame": 150,
-        "activeTime": 1.0,
-        "rangeSN": 240000
-      },
-      {
-        "actionId": 10103426,
-        "activeFrame": 408,
-        "activeTime": 1.0,
-        "rangeSN": 240000
-      },
-      {
-        "actionId": 10103427,
-        "activeFrame": 560,
-        "activeTime": 1.0,
-        "rangeSN": 50000
-      }
-    ],
+    "skillList": [],
     "isInvisibleBeforeShowUp": false,
     "showupSkillList": [],
-    "skillLoopDelayFrame": 284,
+    "skillLoopDelayFrame": 360,
     "shapeShiftList": [],
     "commandList": [],
     "enemySkillList": [],
     "isUseEnergy": false,
     "energySkillList": [],
     "energyRestorePerFrameSN": 0,
+    "energyBarColor": "#FFB200",
     "isSkillDelay": true,
     "minDelay": 80,
     "maxDelay": 150
@@ -27458,21 +27440,120 @@
     "actionList": [
       {
         "actionID": 10104684
+      },
+      {
+        "actionID": 10104675
       }
     ],
     "normalAttackCritID": -1,
-    "skillList": [],
+    "skillList": [
+      {
+        "actionId": 10104681,
+        "activeFrame": 270,
+        "activeTime": 1.0,
+        "rangeSN": 240000
+      },
+      {
+        "actionId": 10104681,
+        "activeFrame": 720,
+        "activeTime": 12.0,
+        "rangeSN": 240000
+      },
+      {
+        "actionId": 10104682,
+        "activeFrame": 1560,
+        "activeTime": 26.0,
+        "rangeSN": 240000
+      }
+    ],
     "isInvisibleBeforeShowUp": false,
     "showupSkillList": [],
-    "skillLoopDelayFrame": 480,
+    "skillLoopDelayFrame": -1,
     "shapeShiftList": [],
     "commandList": [],
     "enemySkillList": [],
     "isUseEnergy": true,
-    "energySkillList": [],
+    "energySkillList": [
+      {
+        "actionId": 10104685
+      }
+    ],
     "energyRestorePerFrameSN": 300,
     "energyBarColor": "#FFB200",
     "isSkillDelay": true,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300655,
+    "idCN": "深渊/34期/永生者-4",
+    "mod": "BOSSAI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10102983
+      },
+      {
+        "actionID": 10102984
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10102981,
+        "activeFrame": 480,
+        "activeTime": 8.0,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10102980,
+        "activeFrame": 960,
+        "activeTime": 16.0,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10102981,
+        "activeFrame": 1440,
+        "activeTime": 24.0,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10102980,
+        "activeFrame": 1920,
+        "activeTime": 32.0,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10102981,
+        "activeFrame": 2400,
+        "activeTime": 40.0,
+        "rangeSN": -10000
+      }
+    ],
+    "isInvisibleBeforeShowUp": true,
+    "showupSkillList": [
+      {
+        "actionId": 10102996
+      }
+    ],
+    "skillLoopDelayFrame": 2000,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": true,
+    "energySkillList": [
+      {
+        "actionId": 10104687,
+        "isClearEnergy": false,
+        "rangeSN": -10000
+      }
+    ],
+    "energyRestorePerFrameSN": 0,
+    "energyBarColor": "#FFB200",
+    "isSkillDelay": false,
     "minDelay": 120,
     "maxDelay": 360
   }
