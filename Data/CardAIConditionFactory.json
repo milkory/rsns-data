@@ -335,5 +335,23 @@
     "isInformalData": false,
     "isInvert": false,
     "logicId": 60000174
+  },
+  {
+    "id": 96200039,
+    "idCN": "弃牌按钮/判断手牌权重低于弃牌按钮且弃牌可用",
+    "mod": "条件集",
+    "isInformalData": false,
+    "isInvert": false,
+    "conditionList": [
+      {
+        "conditionId": 96200003
+      },
+      {
+        "conditionId": 96200027
+      },
+      {
+        "conditionId": 96200035
+      }
+    ]
   }
 ]
