@@ -2233,7 +2233,7 @@
   },
   {
     "id": 60000164,
-    "idCN": "推力/补牌速度+10%",
+    "idCN": "推力/补牌速度+25%",
     "mod": "执行GS脚本",
     "isInformalData": false,
     "debug": false,
@@ -2241,7 +2241,7 @@
     "memo": "手牌补充冷却时间缩短10%",
     "paramHelp": "",
     "returnType": "int",
-    "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rset $battleControlManager\r\rcallWith $battleControlManager GetTeamData 1\rgetp property\rset $property\rcallWith $property SetAttributeBase 9000 \"AutoDrawInterval\" \"Multiplier\"\r\rset $val\r\rret 0",
+    "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rset $battleControlManager\r\rcallWith $battleControlManager GetTeamData 1\rgetp property\rset $property\rcallWith $property SetAttributeBase 7500 \"AutoDrawInterval\" \"Multiplier\"\r\rset $val\r\rret 0",
     "cacheAsGMF": true
   },
   {
