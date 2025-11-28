@@ -42958,10 +42958,31 @@
   {
     "id": 10503429,
     "idCN": "我方/05五星/陈书闲/A/入口",
-    "mod": "添加Buff",
+    "mod": "子弹事件",
     "isInformalData": false,
     "buffId": 10425759,
-    "targetType": "CurrentTarget"
+    "bulletId": 11200804,
+    "targetType": "CurrentTarget",
+    "offSetX_SN": 0,
+    "offSetZ_SN": 0,
+    "isUseTargetFilter": false,
+    "isIgnoreInvisibleEnemy": true,
+    "targetFilterType": "Ally",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 0,
+    "attributeType": "HpMax",
+    "condition": "Max",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 0
   },
   {
     "id": 10503430,
@@ -43057,6 +43078,14 @@
     "mod": "添加Buff",
     "isInformalData": false,
     "buffId": 10425851,
+    "targetType": "OneEach"
+  },
+  {
+    "id": 10503437,
+    "idCN": "敌方/06深眠者/志逍遥/被动2",
+    "mod": "添加Buff",
+    "isInformalData": false,
+    "buffId": 10404637,
     "targetType": "OneEach"
   }
 ]
