@@ -13076,6 +13076,11 @@
         "id": 86400435,
         "x": 70.0,
         "y": 154.0
+      },
+      {
+        "id": 86400533,
+        "x": 0.0,
+        "y": 0.0
       }
     ],
     "isShowRep": true,
@@ -13126,6 +13131,7 @@
     "isInstance": false,
     "iconPath": "RolePlus/Nayuta/Face",
     "nameIconPath": "UI/CityMap/citymap_icon_battlezone",
+    "frontIconPath": "",
     "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
     "animLoop": "UI_CityBtn_01_Loop",
     "animOut": "UI_CityBtn_01_Out",
@@ -13149,12 +13155,11 @@
     "stationPlace": -1,
     "dialogId": -1,
     "dungeonId": -1,
-    "levelId": 20101327,
+    "levelId": 20102450,
     "textId": -1,
     "npcId": -1,
     "bgPath": "",
-    "bgColor": "FFFFFF",
-    "frontIconPath": ""
+    "bgColor": "FFFFFF"
   },
   {
     "id": 86400314,
@@ -21675,6 +21680,46 @@
     "dialogId": -1,
     "dungeonId": -1,
     "levelId": 20102400,
+    "textId": -1,
+    "npcId": -1,
+    "bgPath": "",
+    "bgColor": "FFFFFF"
+  },
+  {
+    "id": 86400533,
+    "idCN": "03气泡/T8远星大桥S0/02剧情/EP6.5-9-2-副本",
+    "mod": "气泡",
+    "isInformalData": false,
+    "name": "街道",
+    "isSpecial": false,
+    "isInstance": true,
+    "iconPath": "RolePlus/Nayuta/Face",
+    "nameIconPath": "UI/CityMap/citymap_icon_battlezone",
+    "frontIconPath": "",
+    "effectPath": "UI/UIEffect/particle/UI_city/UI_dungeonBtn_01/UI_dungeonBtn_04_1",
+    "animLoop": "UI_CityBtn_01_Loop",
+    "animOut": "UI_CityBtn_01_Out",
+    "activityId": -1,
+    "startTime": "",
+    "endTime": "",
+    "displayConditionsList": [
+      {
+        "condition": "Questing",
+        "mId": 81002449,
+        "val": 0
+      }
+    ],
+    "unlockConditionsList": [],
+    "isLock": false,
+    "func": "OpenDungeon",
+    "btnType": "Other",
+    "mId": -1,
+    "uiPath": "",
+    "buildingId": -1,
+    "stationPlace": -1,
+    "dialogId": -1,
+    "dungeonId": 20200026,
+    "levelId": -1,
     "textId": -1,
     "npcId": -1,
     "bgPath": "",
