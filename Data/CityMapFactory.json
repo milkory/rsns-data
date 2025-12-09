@@ -2433,8 +2433,8 @@
       },
       {
         "id": 86400182,
-        "x": 762.0,
-        "y": -32.0
+        "x": 700.0,
+        "y": -56.0
       },
       {
         "id": 86400293,
@@ -2780,6 +2780,11 @@
       },
       {
         "id": 86400239,
+        "x": -180.0,
+        "y": 100.0
+      },
+      {
+        "id": 86400532,
         "x": -180.0,
         "y": 100.0
       }
@@ -10944,6 +10949,7 @@
     "isInstance": false,
     "iconPath": "RolePlus/Anfiya/Face",
     "nameIconPath": "UI/CityMap/citymap_icon_battlezone",
+    "frontIconPath": "",
     "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
     "animLoop": "UI_CityBtn_01_Loop",
     "animOut": "UI_CityBtn_01_Out",
@@ -21720,6 +21726,46 @@
     "dialogId": -1,
     "dungeonId": 20200026,
     "levelId": -1,
+    "textId": -1,
+    "npcId": -1,
+    "bgPath": "",
+    "bgColor": "FFFFFF"
+  },
+  {
+    "id": 86400532,
+    "idCN": "03气泡/T5阿妮塔战备工厂S0/02剧情/关卡5-14新",
+    "mod": "气泡",
+    "isInformalData": false,
+    "name": "安菲娅",
+    "isSpecial": false,
+    "isInstance": false,
+    "iconPath": "RolePlus/Anfiya/Face",
+    "nameIconPath": "UI/CityMap/citymap_icon_battlezone",
+    "frontIconPath": "",
+    "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
+    "animLoop": "UI_CityBtn_01_Loop",
+    "animOut": "UI_CityBtn_01_Out",
+    "activityId": -1,
+    "startTime": "",
+    "endTime": "",
+    "displayConditionsList": [
+      {
+        "condition": "Questing",
+        "mId": 81002763,
+        "val": 0
+      }
+    ],
+    "unlockConditionsList": [],
+    "isLock": false,
+    "func": "OpenLevel",
+    "btnType": "Other",
+    "mId": -1,
+    "uiPath": "",
+    "buildingId": -1,
+    "stationPlace": -1,
+    "dialogId": -1,
+    "dungeonId": -1,
+    "levelId": 20102402,
     "textId": -1,
     "npcId": -1,
     "bgPath": "",
