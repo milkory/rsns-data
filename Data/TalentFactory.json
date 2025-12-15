@@ -19757,7 +19757,7 @@
   },
   {
     "id": 12800675,
-    "idCN": "01敌方/苔妮/共振1-凝星",
+    "idCN": "01敌方/园丁/苔妮/共振1-凝星",
     "mod": "基础天赋",
     "isInformalData": false,
     "path": "",
@@ -19780,7 +19780,7 @@
   },
   {
     "id": 12800676,
-    "idCN": "01敌方/苔妮/共振2-磁控",
+    "idCN": "01敌方/园丁/苔妮/共振2-磁控",
     "mod": "基础天赋",
     "isInformalData": false,
     "path": "",
@@ -19803,7 +19803,7 @@
   },
   {
     "id": 12800678,
-    "idCN": "01敌方/苔妮/共振5-霜星",
+    "idCN": "01敌方/园丁/苔妮/共振5-霜星",
     "mod": "基础天赋",
     "isInformalData": false,
     "path": "",
@@ -19826,7 +19826,7 @@
   },
   {
     "id": 12800679,
-    "idCN": "01敌方/苔妮/共振4-星幕",
+    "idCN": "01敌方/园丁/苔妮/共振4-星幕",
     "mod": "基础天赋",
     "isInformalData": false,
     "path": "",
@@ -19858,7 +19858,11 @@
     "tempdesc": "【宅急送5号】每次命中触发【爆轰】\\n【爆轰】每秒对目标造成3段伤害，持续3秒",
     "desc": "【宅急送5号】每次命中触发【爆轰】\\n【爆轰】每秒对目标造成3段伤害，持续3秒",
     "awakeLv": 6,
-    "skillList": [],
+    "skillList": [
+      {
+        "skillId": 12304356
+      }
+    ],
     "skillChangeList": [],
     "skillParamOffsetList": [],
     "name": "能量爆轰",
@@ -19884,10 +19888,14 @@
     "path": "RolePlus\\00Gift\\Vostok\\RongYuXiTong",
     "attriDetialList": [],
     "attributeList": [],
-    "tempdesc": "使用【逃逸塔】后，使我方全体攻击力/防御力/生命值上限+10%",
-    "desc": "使用【逃逸塔】后，使我方全体攻击力/防御力/生命值上限+10%",
+    "tempdesc": "使用【逃逸塔】后，使我方全体攻击力/防御力/生命值上限+10%，限10次",
+    "desc": "使用【逃逸塔】后，使我方全体攻击力/防御力/生命值上限+10%，限10次",
     "awakeLv": 3,
-    "skillList": [],
+    "skillList": [
+      {
+        "skillId": 12304354
+      }
+    ],
     "skillChangeList": [],
     "skillParamOffsetList": [],
     "name": "冗余系统",
@@ -19916,12 +19924,20 @@
     "tempdesc": "使【一级分离】/【二级推进】抽到卡牌的持有者造成的最终伤害提高25%，持续10秒",
     "desc": "使【一级分离】/【二级推进】抽到卡牌的持有者造成的最终伤害提高25%，持续10秒",
     "awakeLv": 5,
-    "skillList": [],
+    "skillList": [
+      {
+        "skillId": 12304355
+      }
+    ],
     "skillChangeList": [],
     "skillParamOffsetList": [],
     "name": "脉冲变轨",
     "skillIntensify": 12304346,
-    "skillActiveUpgrade": [],
+    "skillActiveUpgrade": [
+      {
+        "id": 12304343
+      }
+    ],
     "attributeIntensify": [
       {
         "id": 80305773
@@ -19939,7 +19955,7 @@
     "idCN": "00原版/05五星/沃斯托克/共振3-生机",
     "mod": "基础天赋",
     "isInformalData": false,
-    "path": "RolePlus\\00Gift\\Vostok\\",
+    "path": "RolePlus\\00Gift\\Box\\ShengJi",
     "attriDetialList": [],
     "attributeList": [
       {
@@ -19980,7 +19996,11 @@
     "tempdesc": "牌库每有1张牌，【宅急送5号】造成的伤害最终提高5%",
     "desc": "牌库每有1张牌，【宅急送5号】造成的伤害最终提高5%",
     "awakeLv": 2,
-    "skillList": [],
+    "skillList": [
+      {
+        "skillId": 12304353
+      }
+    ],
     "skillChangeList": [],
     "skillParamOffsetList": [],
     "name": "燃料管理",
@@ -19997,5 +20017,97 @@
         "id": 80305762
       }
     ]
+  },
+  {
+    "id": 12800064,
+    "idCN": "01敌方/铁盟/莱卡吉亚/共振2-胶质扩散",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "",
+    "attriDetialList": [],
+    "attributeList": [],
+    "tempdesc": "",
+    "desc": "",
+    "awakeLv": 3,
+    "skillList": [
+      {
+        "skillId": 12304349
+      }
+    ],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": "",
+    "skillIntensify": -1,
+    "skillActiveUpgrade": [],
+    "attributeIntensify": []
+  },
+  {
+    "id": 12800069,
+    "idCN": "01敌方/铁盟/莱卡吉亚/共振4-战术潜影",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "",
+    "attriDetialList": [],
+    "attributeList": [],
+    "tempdesc": "",
+    "desc": "",
+    "awakeLv": 5,
+    "skillList": [
+      {
+        "skillId": 12304351
+      }
+    ],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": "",
+    "skillIntensify": -1,
+    "skillActiveUpgrade": [],
+    "attributeIntensify": []
+  },
+  {
+    "id": 12800073,
+    "idCN": "01敌方/铁盟/莱卡吉亚/共振1-战术掩护",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "",
+    "attriDetialList": [],
+    "attributeList": [],
+    "tempdesc": "",
+    "desc": "",
+    "awakeLv": 2,
+    "skillList": [
+      {
+        "skillId": 12304350
+      }
+    ],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": "",
+    "skillIntensify": -1,
+    "skillActiveUpgrade": [],
+    "attributeIntensify": []
+  },
+  {
+    "id": 12800176,
+    "idCN": "01敌方/铁盟/莱卡吉亚/共振5-三角阵型",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "",
+    "attriDetialList": [],
+    "attributeList": [],
+    "tempdesc": "",
+    "desc": "",
+    "awakeLv": 6,
+    "skillList": [
+      {
+        "skillId": 12304352
+      }
+    ],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": "",
+    "skillIntensify": -1,
+    "skillActiveUpgrade": [],
+    "attributeIntensify": []
   }
 ]

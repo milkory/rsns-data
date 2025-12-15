@@ -27647,32 +27647,32 @@
     "skillList": [
       {
         "actionId": 10104702,
-        "activeFrame": 241,
-        "activeTime": 4.0,
+        "activeFrame": 361,
+        "activeTime": 6.0,
         "rangeSN": -10000
       },
       {
         "actionId": 10104708,
-        "activeFrame": 481,
-        "activeTime": 8.0,
-        "rangeSN": -10000
-      },
-      {
-        "actionId": 10104702,
         "activeFrame": 721,
         "activeTime": 12.0,
         "rangeSN": -10000
       },
       {
+        "actionId": 10104702,
+        "activeFrame": 1081,
+        "activeTime": 18.0,
+        "rangeSN": -10000
+      },
+      {
         "actionId": 10104708,
-        "activeFrame": 961,
-        "activeTime": 16.0,
+        "activeFrame": 1441,
+        "activeTime": 24.0,
         "rangeSN": -10000
       },
       {
         "actionId": 10104702,
-        "activeFrame": 1201,
-        "activeTime": 20.0,
+        "activeFrame": 1801,
+        "activeTime": 30.0,
         "rangeSN": -10000
       }
     ],
@@ -27690,9 +27690,9 @@
     ],
     "energyRestorePerFrameSN": 417,
     "energyBarColor": "#FFB200",
-    "isSkillDelay": true,
-    "minDelay": 120,
-    "maxDelay": 360
+    "isSkillDelay": false,
+    "minDelay": 0,
+    "maxDelay": 0
   },
   {
     "id": 10300658,
@@ -27964,46 +27964,105 @@
     "id": 10300665,
     "idCN": "我方/50召唤物/沃斯托克/火箭",
     "mod": "基础AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": -1,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
     "actionList": [],
     "normalAttackCritID": -1,
-    "skillList": [
+    "skillList": [],
+    "isInvisibleBeforeShowUp": false,
+    "showupSkillList": [
       {
-        "actionId": 10101249,
-        "activeFrame": 1440,
-        "activeTime": 24.0
+        "actionId": 10104768
       }
     ],
-    "isInvisibleBeforeShowUp": false,
-    "showupSkillList": [],
-    "skillLoopDelayFrame": 1,
+    "skillLoopDelayFrame": -1,
     "shapeShiftList": [],
     "commandList": [
       {
-        "actionID": 10101244
+        "actionID": 10104771
+      },
+      {
+        "actionID": 10104769
       }
-    ]
+    ],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
+    "energyBarColor": "#FFB200",
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
   },
   {
     "id": 10300666,
     "idCN": "我方/50召唤物/沃斯托克/Kto",
     "mod": "基础AI",
-    "actionList": [],
-    "normalAttackCritID": -1,
-    "skillList": [
+    "isInformalData": false,
+    "targetInvisibleEffectId": -1,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
       {
-        "actionId": 10101249,
-        "activeFrame": 1440,
-        "activeTime": 24.0
+        "actionID": 10104760
       }
     ],
+    "normalAttackCritID": -1,
+    "skillList": [],
     "isInvisibleBeforeShowUp": false,
-    "showupSkillList": [],
-    "skillLoopDelayFrame": 1,
+    "showupSkillList": [
+      {
+        "actionId": 10104761
+      }
+    ],
+    "skillLoopDelayFrame": -1,
     "shapeShiftList": [],
     "commandList": [
       {
-        "actionID": 10101244
+        "actionID": 10104758
       }
-    ]
+    ],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
+    "energyBarColor": "#FFB200",
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300667,
+    "idCN": "敌方/000角色/铁盟/bot-莱卡吉亚-机械狗04",
+    "mod": "基础AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": -1,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10104775
+      },
+      {
+        "actionID": 10104773
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [],
+    "isInvisibleBeforeShowUp": true,
+    "showupSkillList": [],
+    "skillLoopDelayFrame": 0,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": false,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 0,
+    "energyBarColor": "#FFB200",
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
   }
 ]

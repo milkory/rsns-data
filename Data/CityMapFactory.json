@@ -248,6 +248,11 @@
         "id": 86400434,
         "x": 130.0,
         "y": 59.0
+      },
+      {
+        "id": 86400535,
+        "x": 130.0,
+        "y": 59.0
       }
     ],
     "isShowRep": true,
@@ -1796,6 +1801,11 @@
         "id": 86400495,
         "x": -647.0,
         "y": 183.0
+      },
+      {
+        "id": 86400509,
+        "x": -499.0,
+        "y": -83.0
       }
     ],
     "isShowRep": true,
@@ -21855,6 +21865,86 @@
     "stationPlace": -1,
     "dialogId": -1,
     "dungeonId": 20200028,
+    "levelId": -1,
+    "textId": -1,
+    "npcId": -1,
+    "bgPath": "",
+    "bgColor": "FFFFFF"
+  },
+  {
+    "id": 86400535,
+    "idCN": "03气泡/C3七号自由港S0/02剧情/EP8-战斗-疑影",
+    "mod": "气泡",
+    "isInformalData": false,
+    "name": "莉薇娅",
+    "isSpecial": false,
+    "isInstance": false,
+    "iconPath": "RolePlus/Livia/Face",
+    "nameIconPath": "UI/CityMap/citymap_icon_battlezone",
+    "frontIconPath": "",
+    "effectPath": "UI/UIEffect/particle/UI_city/UI_cityBtn_01/Group_UI_cityBtn_01",
+    "animLoop": "UI_CityBtn_01_Loop",
+    "animOut": "UI_CityBtn_01_Out",
+    "activityId": -1,
+    "startTime": "",
+    "endTime": "",
+    "displayConditionsList": [
+      {
+        "condition": "Questing",
+        "mId": 81002559,
+        "val": 0
+      }
+    ],
+    "unlockConditionsList": [],
+    "isLock": false,
+    "func": "OpenLevel",
+    "btnType": "Other",
+    "mId": -1,
+    "uiPath": "",
+    "buildingId": -1,
+    "stationPlace": -1,
+    "dialogId": -1,
+    "dungeonId": -1,
+    "levelId": 20102518,
+    "textId": -1,
+    "npcId": -1,
+    "bgPath": "",
+    "bgColor": "FFFFFF"
+  },
+  {
+    "id": 86400509,
+    "idCN": "03气泡/C7贡露城S0/02剧情/EP8-09",
+    "mod": "气泡",
+    "isInformalData": false,
+    "name": "车站",
+    "isSpecial": false,
+    "isInstance": true,
+    "iconPath": "NPC/InsZone/Station_GLC",
+    "nameIconPath": "UI/CityMap/citymap_icon_battlezone",
+    "frontIconPath": "",
+    "effectPath": "UI/UIEffect/particle/UI_city/UI_dungeonBtn_01/UI_dungeonBtn_04_1",
+    "animLoop": "UI_CityBtn_01_Loop",
+    "animOut": "UI_CityBtn_01_Out",
+    "activityId": -1,
+    "startTime": "",
+    "endTime": "",
+    "displayConditionsList": [
+      {
+        "condition": "Questing",
+        "mId": 81002803,
+        "val": 0
+      }
+    ],
+    "unlockConditionsList": [],
+    "isLock": false,
+    "func": "OpenDungeon",
+    "btnType": "Other",
+    "mId": -1,
+    "uiPath": "",
+    "buildingId": -1,
+    "stationPlace": -1,
+    "dialogId": -1,
+    "dungeonId": 20200029,
     "levelId": -1,
     "textId": -1,
     "npcId": -1,

@@ -19874,6 +19874,20 @@
       {
         "path": "UI/MainUI/Map_icon_pollute_4"
       }
+    ],
+    "helpRoleBoxPath": [
+      {
+        "path": "UI/Friends/HelpBattle/HelpBattle_rarity_N"
+      },
+      {
+        "path": "UI/Friends/HelpBattle/HelpBattle_rarity_R"
+      },
+      {
+        "path": "UI/Friends/HelpBattle/HelpBattle_rarity_SR"
+      },
+      {
+        "path": "UI/Friends/HelpBattle/HelpBattle_rarity_SSR"
+      }
     ]
   },
   {
@@ -25703,11 +25717,18 @@
       }
     ],
     "itemAddNum": 1,
+    "rewardMaxNum": 3,
     "timeLimit": 14400,
+    "timeCostBaseList": [
+      {
+        "id": 11400005,
+        "num": 0
+      }
+    ],
     "timeCostList": [
       {
         "id": 11400005,
-        "num": 5
+        "num": 20
       }
     ]
   },
@@ -29975,6 +29996,26 @@
       }
     ],
     "lookSpeed": 1.5
+  },
+  {
+    "id": 99900217,
+    "idCN": "助战配置",
+    "mod": "助战配置",
+    "isInformalData": false,
+    "nameEN": "HelpBattleConfig",
+    "helpBattleSetup": 3,
+    "helpBattleCd": 8,
+    "helpBattleMax": 8,
+    "helpBattleFriend": 4,
+    "helpBattleRewardList": [
+      {
+        "id": 11400001,
+        "num": 10000
+      }
+    ],
+    "helpBattleRewardMax": 60,
+    "helpBattleRewardDay": 15,
+    "helpBattleCanHelp": 3
   },
   {
     "id": 99900220,

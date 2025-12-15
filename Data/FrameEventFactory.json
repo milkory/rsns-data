@@ -42650,7 +42650,7 @@
   },
   {
     "id": 10503409,
-    "idCN": "深渊/33期/破立场无敌",
+    "idCN": "深渊/33期/破力场无敌",
     "mod": "给自己上BUFF",
     "isInformalData": false,
     "buffId": 10425543
@@ -43080,7 +43080,7 @@
     "idCN": "敌方/000角色/铁盟/莱卡吉亚/A",
     "mod": "子弹事件",
     "isInformalData": false,
-    "buffId": 10425966,
+    "buffId": 10426137,
     "bulletId": 11200805,
     "targetType": "Random",
     "offSetX_SN": 0,
@@ -43182,7 +43182,7 @@
     "idCN": "敌方/000角色/铁盟/莱卡吉亚/bot入场被动",
     "mod": "给自己上BUFF",
     "isInformalData": false,
-    "buffId": 10426117
+    "buffId": 10426128
   },
   {
     "id": 10503446,
@@ -43203,9 +43203,9 @@
     "idCN": "敌方/000角色/铁盟/莱卡吉亚/bot狼牙导弹",
     "mod": "子弹事件",
     "isInformalData": false,
-    "buffId": 10426120,
+    "buffId": 10426127,
     "bulletId": 11200635,
-    "targetType": "CurrentTarget",
+    "targetType": "Random",
     "offSetX_SN": 0,
     "offSetZ_SN": 0,
     "isUseTargetFilter": false,
@@ -43215,7 +43215,7 @@
     "tagType": "And",
     "halfWidth_SN": 0,
     "attributeType": "CurrentHp",
-    "condition": "Less",
+    "condition": "Max",
     "numberType": "Number",
     "number_SN": 0,
     "buffTypeFO": -1,
@@ -43232,23 +43232,19 @@
     "idCN": "敌方/000角色/铁盟/莱卡吉亚/bot治疗弹",
     "mod": "子弹事件",
     "isInformalData": false,
-    "buffId": 10426119,
+    "buffId": 10426121,
     "bulletId": 11200636,
     "targetType": "CurrentTarget",
     "offSetX_SN": 0,
     "offSetZ_SN": 0,
-    "isUseTargetFilter": true,
+    "isUseTargetFilter": false,
     "isIgnoreInvisibleEnemy": true,
     "targetFilterType": "Ally",
-    "targetTagList": [
-      {
-        "tagId": 12600246
-      }
-    ],
+    "targetTagList": [],
     "tagType": "And",
-    "halfWidth_SN": 240000,
+    "halfWidth_SN": 0,
     "attributeType": "CurrentHp",
-    "condition": "Min",
+    "condition": "Max",
     "numberType": "Number",
     "number_SN": 0,
     "buffTypeFO": -1,
@@ -43258,7 +43254,7 @@
     "filterStance": "DeafaultStance",
     "filterPosition": "DefaultPos",
     "isAimSelf": false,
-    "targetCount": 1
+    "targetCount": 0
   },
   {
     "id": 10503451,
@@ -43330,7 +43326,7 @@
     "mod": "子弹事件",
     "isInformalData": false,
     "buffId": 10426086,
-    "bulletId": 11200799,
+    "bulletId": 11200808,
     "targetType": "CurrentTarget",
     "offSetX_SN": 0,
     "offSetZ_SN": 0,
@@ -43366,20 +43362,126 @@
     "idCN": "敌方/000角色/铁盟/莱卡吉亚/bot01发射导弹",
     "mod": "给自己上BUFF",
     "isInformalData": false,
-    "buffId": 10426118
+    "buffId": 10425648
   },
   {
     "id": 10503458,
     "idCN": "敌方/000角色/铁盟/莱卡吉亚/bot02发射导弹",
     "mod": "给自己上BUFF",
     "isInformalData": false,
-    "buffId": 10426123
+    "buffId": 10426129
   },
   {
     "id": 10503459,
     "idCN": "敌方/000角色/铁盟/莱卡吉亚/bot03发射导弹",
     "mod": "给自己上BUFF",
     "isInformalData": false,
-    "buffId": 10426124
+    "buffId": 10426130
+  },
+  {
+    "id": 10503460,
+    "idCN": "敌方/000角色/铁盟/莱卡吉亚/共振4",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10426142
+  },
+  {
+    "id": 10503461,
+    "idCN": "敌方/000角色/铁盟/莱卡吉亚/共振5",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10426154
+  },
+  {
+    "id": 10503462,
+    "idCN": "我方/05五星/沃斯托克/B-0/计算增伤",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10426159
+  },
+  {
+    "id": 10503463,
+    "idCN": "我方/05五星/沃斯托克/B-1/抽1",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10426162
+  },
+  {
+    "id": 10503464,
+    "idCN": "我方/05五星/沃斯托克/B-2/抽2",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10426161
+  },
+  {
+    "id": 10503465,
+    "idCN": "我方/05五星/沃斯托克/S/发射火箭",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10426173
+  },
+  {
+    "id": 10503469,
+    "idCN": "我方/05五星/沃斯托克/bot01/普攻1",
+    "mod": "添加Buff",
+    "isInformalData": false,
+    "buffId": 10426267,
+    "targetType": "CurrentTarget"
+  },
+  {
+    "id": 10503466,
+    "idCN": "敌方/000角色/铁盟/莱卡吉亚/bot04发射导弹",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10426256
+  },
+  {
+    "id": 10503467,
+    "idCN": "敌方/000角色/铁盟/莱卡吉亚/S召唤机械狗04",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10426257
+  },
+  {
+    "id": 10503468,
+    "idCN": "敌方/000角色/铁盟/莱卡吉亚/bot04入场被动",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10426259
+  },
+  {
+    "id": 10503470,
+    "idCN": "我方/05五星/沃斯托克/A/指挥bot01",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10426290
+  },
+  {
+    "id": 10503471,
+    "idCN": "我方/05五星/沃斯托克/B-0/指挥bot02",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10426292
+  },
+  {
+    "id": 10503472,
+    "idCN": "我方/05五星/沃斯托克/S/指挥bot02执行1",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10426294
+  },
+  {
+    "id": 10503473,
+    "idCN": "我方/05五星/沃斯托克/bot02/自杀",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10426302
+  },
+  {
+    "id": 10503474,
+    "idCN": "我方/05五星/沃斯托克/bot02/重新出场",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10426303
   }
 ]
