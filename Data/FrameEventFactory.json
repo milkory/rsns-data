@@ -43727,10 +43727,31 @@
   {
     "id": 10503484,
     "idCN": "我方/05五星/蒂丝塔尔/普攻",
-    "mod": "添加Buff",
+    "mod": "子弹事件",
     "isInformalData": false,
     "buffId": 10426331,
-    "targetType": "CurrentTarget"
+    "bulletId": 11200818,
+    "targetType": "CurrentTarget",
+    "offSetX_SN": 0,
+    "offSetZ_SN": 0,
+    "isUseTargetFilter": false,
+    "isIgnoreInvisibleEnemy": true,
+    "targetFilterType": "Ally",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 0,
+    "attributeType": "HpMax",
+    "condition": "Max",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 0
   },
   {
     "id": 10503485,
@@ -43952,17 +43973,16 @@
   {
     "id": 10503513,
     "idCN": "敌方/98未知/bot-格鲁夫-信号灯/技能2效果",
-    "mod": "添加Buff",
+    "mod": "给自己上BUFF",
     "isInformalData": false,
-    "buffId": 10426727,
-    "targetType": "OneEach"
+    "buffId": 10426746
   },
   {
     "id": 10503514,
     "idCN": "敌方/98未知/bot-格鲁夫-信号灯/技能3效果",
     "mod": "添加Buff",
     "isInformalData": false,
-    "buffId": 10426727,
+    "buffId": 10426745,
     "targetType": "OneEach"
   },
   {
@@ -43971,5 +43991,29 @@
     "mod": "给自己上BUFF",
     "isInformalData": false,
     "buffId": 10426736
+  },
+  {
+    "id": 10503516,
+    "idCN": "敌方/98未知/格鲁夫/被动2伤害",
+    "mod": "添加Buff",
+    "isInformalData": false,
+    "buffId": 10426758,
+    "targetType": "OneEach"
+  },
+  {
+    "id": 10503517,
+    "idCN": "我方/55测试/属性伤害相关/风",
+    "mod": "添加Buff",
+    "isInformalData": false,
+    "buffId": 10426741,
+    "targetType": "OneEach"
+  },
+  {
+    "id": 10503518,
+    "idCN": "我方/55测试/属性伤害相关/音",
+    "mod": "添加Buff",
+    "isInformalData": false,
+    "buffId": 10426740,
+    "targetType": "OneEach"
   }
 ]
