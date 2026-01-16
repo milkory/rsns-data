@@ -20292,11 +20292,16 @@
     "path": "RolePlus\\00Gift\\Rada\\TieYiJunShi",
     "attriDetialList": [],
     "attributeList": [],
-    "tempdesc": "【压制哨戒炮】增强为：\\n设置1架【自动机炮】，对敌方目标进行扫射，持续5秒\\n持续期间，每秒对敌方目标造成3段伤害\\n持续时间结束后，【自动机炮】引导【铁翼攻击机】对地面投射【燧石导弹】进行轰炸，对敌方全体造成3段伤害，同时触发【炽地】\\n【自动机炮】为【机械单位】\\n【铁翼攻击机】为【无人机】\\n【燧石导弹】为【爆炸物】",
-    "desc": "",
+    "tempdesc": "【压制哨戒炮】增强为：\\n设置1架【自动机炮】，对敌方目标进行扫射，持续5秒\\n5秒后，【自动机炮】引导【铁翼】对地面投射【燧石导弹】进行轰炸，对敌方全体造成3段伤害，同时每段伤害有50%概率触发【燎原】\\n【自动机炮】为【机械单位】\\n【铁翼】为【机械单位】\\n【燧石导弹】为【爆炸物】",
+    "desc": "【压制哨戒炮】增强为：\\n设置1架【自动机炮】，对敌方目标进行扫射，持续5秒\\n5秒后，【自动机炮】引导【铁翼】对地面投射【燧石导弹】进行轰炸，对敌方全体造成3段伤害，同时每段伤害有50%概率触发【燎原】\\n【自动机炮】为【机械单位】\\n【铁翼】为【机械单位】\\n【燧石导弹】为【爆炸物】",
     "awakeLv": 6,
     "skillList": [],
-    "skillChangeList": [],
+    "skillChangeList": [
+      {
+        "newSkillId": 12304439,
+        "oldSkillId": 12304423
+      }
+    ],
     "skillParamOffsetList": [],
     "name": "铁翼军势",
     "skillIntensify": -1,
@@ -20356,10 +20361,14 @@
     "path": "RolePlus\\00Gift\\Rada\\DanMuYanHu",
     "attriDetialList": [],
     "attributeList": [],
-    "tempdesc": "场上每存在1架【压制哨戒炮】，使敌方造成的最终伤害降低10%",
-    "desc": "",
+    "tempdesc": "场上每存在1架【压制哨戒炮】/【雷兽】，使敌方全体造成的最终伤害降低7%，上限35%",
+    "desc": "场上每存在1架【压制哨戒炮】/【雷兽】，使敌方全体造成的最终伤害降低7%，上限35%",
     "awakeLv": 2,
-    "skillList": [],
+    "skillList": [
+      {
+        "skillId": 12304431
+      }
+    ],
     "skillChangeList": [],
     "skillParamOffsetList": [],
     "name": "弹幕掩护",
@@ -20385,10 +20394,14 @@
     "path": "RolePlus\\00Gift\\Rada\\HuoLiJiaoZhun",
     "attriDetialList": [],
     "attributeList": [],
-    "tempdesc": "使用【压制哨戒炮】后，使下1张带有【机械单位】词条的卡牌造成的伤害提高50%",
-    "desc": "",
+    "tempdesc": "使用【压制哨戒炮】后，【雷兽】造成的伤害提高10%，上限150%",
+    "desc": "使用【压制哨戒炮】后，【雷兽】造成的伤害提高10%，上限150%",
     "awakeLv": 3,
-    "skillList": [],
+    "skillList": [
+      {
+        "skillId": 12304432
+      }
+    ],
     "skillChangeList": [],
     "skillParamOffsetList": [],
     "name": "火力校准",
@@ -20414,15 +20427,23 @@
     "path": "RolePlus\\00Gift\\Rada\\ZhanChangDiaoDu",
     "attriDetialList": [],
     "attributeList": [],
-    "tempdesc": "带有【机械单位】词条的卡牌进入弃牌区时，有20%概率返回牌库最上方\\n触发该效果时，使下1张【压制哨戒炮】持续时间延长2秒",
-    "desc": "",
+    "tempdesc": "带有【机械单位】词条的卡牌进入弃牌区时，有25%概率获得1点费用，同时使下1张【压制哨戒炮】持续时间延长2秒",
+    "desc": "带有【机械单位】词条的卡牌进入弃牌区时，有25%概率获得1点费用，同时使下1张【压制哨戒炮】持续时间延长2秒",
     "awakeLv": 5,
-    "skillList": [],
+    "skillList": [
+      {
+        "skillId": 12304433
+      }
+    ],
     "skillChangeList": [],
     "skillParamOffsetList": [],
     "name": "战场调度",
     "skillIntensify": 12304428,
-    "skillActiveUpgrade": [],
+    "skillActiveUpgrade": [
+      {
+        "id": 12304425
+      }
+    ],
     "attributeIntensify": [
       {
         "id": 80305992
