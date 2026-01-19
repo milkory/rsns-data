@@ -278,8 +278,8 @@
     "mainUIBannerArgs": "{\"shopId\":80307398}",
     "mainUIBannerStoreId": 40300086,
     "mainUIBannerValuableId": 82101609,
-    "mainUIBannerDrivingIsOpen": true,
-    "mainUIBannerStationIsOpen": true,
+    "mainUIBannerDrivingIsOpen": false,
+    "mainUIBannerStationIsOpen": false,
     "energyItemList": [
       {
         "id": 11400067
@@ -23935,7 +23935,57 @@
       }
     ],
     "questList": [],
-    "dayRedPoint": 2
+    "dayRedPoint": 2,
+    "adMainList": [
+      {
+        "UIType": "Store",
+        "Way3": "{\"shopId\":80307398}",
+        "adpicture": "UI/MainUI/Advertisement/Pic/store",
+        "id": 82101609
+      },
+      {
+        "UIType": "Activity",
+        "Way3": "3|86000001",
+        "adpicture": "UI/MainUI/Advertisement/Pic/BlackTea",
+        "id": 86000001
+      },
+      {
+        "UIType": "Activity",
+        "Way3": "3|86000002",
+        "adpicture": "UI/MainUI/Advertisement/Pic/construction",
+        "id": 86000002
+      },
+      {
+        "UIType": "Activity",
+        "Way3": "3|86000009",
+        "adpicture": "UI/MainUI/Advertisement/Pic/monster",
+        "id": 86000009
+      },
+      {
+        "UIType": "Activity",
+        "Way3": "3|86000016",
+        "adpicture": "UI/MainUI/Advertisement/Pic/summer",
+        "id": 86000016
+      },
+      {
+        "UIType": "Activity",
+        "Way3": "3|86000038",
+        "adpicture": "UI/MainUI/Advertisement/Pic/hotel",
+        "id": 86000038
+      },
+      {
+        "UIType": "Activity",
+        "Way3": "3|86000037",
+        "adpicture": "UI/MainUI/Advertisement/Pic/randombattle",
+        "id": 86000037
+      },
+      {
+        "UIType": "Activity",
+        "Way3": "3|86000093",
+        "adpicture": "UI/MainUI/Advertisement/Pic/trainbattle",
+        "id": 86000093
+      }
+    ]
   },
   {
     "id": 99900057,
@@ -28520,7 +28570,11 @@
       },
       {
         "id": 60300150,
-        "weight": 2.0
+        "weight": 1.0
+      },
+      {
+        "id": 60300151,
+        "weight": 1.0
       },
       {
         "id": 60300152,
@@ -30274,7 +30328,8 @@
     "activityPlotList": [],
     "activityOperateList": [],
     "questList": [],
-    "dayRedPoint": 2
+    "dayRedPoint": 2,
+    "adMainList": []
   },
   {
     "id": 99900235,
