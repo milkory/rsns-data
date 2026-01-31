@@ -1369,16 +1369,20 @@
     "mod": "基础装备",
     "isInformalData": true,
     "name": "泡沫塑料剑",
-    "quality": "White",
+    "quality": "Golden",
     "des": "攻击力+99999，防御力+9999，生命值+9999",
     "attack_SN": 999990000,
     "healthPoint_SN": 99990000,
     "defence_SN": 99990000,
-    "growthId": 12000592,
+    "growthId": 12000591,
     "SetId": -1,
     "equipTagId": 12600155,
     "campTagId": -1,
-    "skillList": [],
+    "skillList": [
+      {
+        "skillId": 12304454
+      }
+    ],
     "randomSkillList": [
       {
         "skillId": 80300039,
@@ -6624,16 +6628,20 @@
     "mod": "基础装备",
     "isInformalData": true,
     "name": "泡沫塑料棒",
-    "quality": "White",
+    "quality": "Golden",
     "des": "攻击力+9999，生命值+99999",
     "attack_SN": 99990000,
     "healthPoint_SN": 999990000,
     "defence_SN": 0,
-    "growthId": 12000592,
+    "growthId": 12000591,
     "SetId": -1,
     "equipTagId": 12600155,
     "campTagId": -1,
-    "skillList": [],
+    "skillList": [
+      {
+        "skillId": 12304473
+      }
+    ],
     "randomSkillList": [],
     "disappearSkillList": [],
     "iconPath": "UI\\ParkPublicity\\PublicizeReward\\PublicizeEnd_List_FristMark",
@@ -6776,12 +6784,12 @@
     "mod": "基础装备",
     "isInformalData": true,
     "name": "泡沫激光剑",
-    "quality": "White",
-    "des": "秒杀",
-    "attack_SN": 0,
+    "quality": "Golden",
+    "des": "每3秒对所有敌方造成目标120%最大生命值的真实伤害",
+    "attack_SN": 550000,
     "healthPoint_SN": 0,
     "defence_SN": 0,
-    "growthId": 12000592,
+    "growthId": 12000591,
     "SetId": -1,
     "equipTagId": 12600155,
     "campTagId": -1,
@@ -7002,16 +7010,20 @@
     "mod": "基础装备",
     "isInformalData": true,
     "name": "泡沫塑料盾",
-    "quality": "White",
-    "des": "防御力+9999，生命值+99999",
+    "quality": "Golden",
+    "des": "濒死时自动回满血",
     "attack_SN": 0,
-    "healthPoint_SN": 999990000,
-    "defence_SN": 99990000,
-    "growthId": 12000324,
+    "healthPoint_SN": 0,
+    "defence_SN": 550000,
+    "growthId": 12000590,
     "SetId": -1,
     "equipTagId": 12600161,
     "campTagId": -1,
-    "skillList": [],
+    "skillList": [
+      {
+        "skillId": 12304453
+      }
+    ],
     "randomSkillList": [
       {
         "skillId": 80300039,
@@ -10132,7 +10144,7 @@
     "isInformalData": false,
     "name": "无尽焚灭",
     "quality": "Golden",
-    "des": "中火焰的魔剑，也是帝国代表正义的图腾，传说其火焰只会焚烧罪恶的灵魂。",
+    "des": "曾被帝国七骑之一使用过、缠绕火焰的魔剑，也是帝国代表正义的图腾，传说其火焰将焚烧不义之人的灵魂。",
     "attack_SN": 450000,
     "healthPoint_SN": 0,
     "defence_SN": 0,
@@ -10906,12 +10918,12 @@
     "mod": "基础装备",
     "isInformalData": true,
     "name": "泡沫塑料书",
-    "quality": "White",
+    "quality": "Golden",
     "des": "暴击伤害+50%",
     "attack_SN": 0,
-    "healthPoint_SN": 0,
+    "healthPoint_SN": 5500000,
     "defence_SN": 0,
-    "growthId": 12000592,
+    "growthId": 12000324,
     "SetId": -1,
     "equipTagId": 12600162,
     "campTagId": -1,
@@ -10937,12 +10949,12 @@
     "mod": "基础装备",
     "isInformalData": true,
     "name": "泡沫塑料棍",
-    "quality": "White",
-    "des": "暴击+50%",
-    "attack_SN": 0,
+    "quality": "Golden",
+    "des": "暴击率+50%",
+    "attack_SN": 550000,
     "healthPoint_SN": 0,
     "defence_SN": 0,
-    "growthId": 12000592,
+    "growthId": 12000591,
     "SetId": -1,
     "equipTagId": 12600155,
     "campTagId": -1,
@@ -10968,18 +10980,18 @@
     "mod": "基础装备",
     "isInformalData": true,
     "name": "泡沫塑料甲",
-    "quality": "White",
-    "des": "濒死时自动回满血",
+    "quality": "Golden",
+    "des": "受到最终伤害降低100%",
     "attack_SN": 0,
     "healthPoint_SN": 0,
-    "defence_SN": 0,
-    "growthId": 12000592,
+    "defence_SN": 550000,
+    "growthId": 12000590,
     "SetId": -1,
     "equipTagId": 12600161,
     "campTagId": -1,
     "skillList": [
       {
-        "skillId": 12300383
+        "skillId": 12300523
       }
     ],
     "randomSkillList": [
@@ -10991,6 +11003,68 @@
     "disappearSkillList": [],
     "iconPath": "UI\\ParkPublicity\\PublicizeReward\\PublicizeEnd_List_SecondMark",
     "tipsPath": "UI\\ParkPublicity\\PublicizeReward\\PublicizeEnd_List_SecondMark",
+    "Getway": []
+  },
+  {
+    "id": 11800113,
+    "idCN": "学会装备/橙/武器/独乐琶音",
+    "mod": "基础装备",
+    "isInformalData": false,
+    "name": "独乐琶音",
+    "quality": "Orange",
+    "des": "",
+    "attack_SN": 600000,
+    "healthPoint_SN": 0,
+    "defence_SN": 0,
+    "growthId": 12000597,
+    "SetId": -1,
+    "equipTagId": 12600155,
+    "campTagId": 12600031,
+    "skillList": [
+      {
+        "skillId": 12304484
+      }
+    ],
+    "randomSkillList": [
+      {
+        "skillId": 80301404,
+        "weight": 1
+      }
+    ],
+    "disappearSkillList": [],
+    "iconPath": "Item\\weapon\\Xuehui\\Small\\35",
+    "tipsPath": "Item\\weapon\\Xuehui\\Big\\35",
+    "Getway": []
+  },
+  {
+    "id": 11800114,
+    "idCN": "帝国装备/橙/武器/白夜·真辉",
+    "mod": "基础装备",
+    "isInformalData": false,
+    "name": "白夜·真辉",
+    "quality": "Orange",
+    "des": "",
+    "attack_SN": 600000,
+    "healthPoint_SN": 0,
+    "defence_SN": 0,
+    "growthId": 12000596,
+    "SetId": -1,
+    "equipTagId": 12600155,
+    "campTagId": 12600026,
+    "skillList": [
+      {
+        "skillId": 12304483
+      }
+    ],
+    "randomSkillList": [
+      {
+        "skillId": 80301403,
+        "weight": 1
+      }
+    ],
+    "disappearSkillList": [],
+    "iconPath": "Item\\weapon\\Diguo\\Small\\36",
+    "tipsPath": "Item\\weapon\\Diguo\\Big\\36",
     "Getway": []
   }
 ]
