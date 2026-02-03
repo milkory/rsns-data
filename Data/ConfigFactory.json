@@ -2351,6 +2351,22 @@
         "numMax": 80000,
         "numMin": 0,
         "type": "Percent"
+      },
+      {
+        "isUseMax": true,
+        "isUseMin": false,
+        "name": "GetDamageFinalDown",
+        "numMax": 8000,
+        "numMin": 0,
+        "type": "Percent"
+      },
+      {
+        "isUseMax": true,
+        "isUseMin": false,
+        "name": "GetDamageDown",
+        "numMax": 8000,
+        "numMin": 0,
+        "type": "Percent"
       }
     ],
     "isDotweenPause": false,
@@ -9167,6 +9183,7 @@
         "num": 5000
       }
     ],
+    "stickerMax": 50,
     "HBPStoreList": [
       {
         "id": 40300019
@@ -10953,6 +10970,10 @@
       {
         "key": "【崩坏】",
         "value": "<color=#FF6666>【崩坏】</color>"
+      },
+      {
+        "key": "【焚天】",
+        "value": "<color=#FF6666>【焚天】</color>"
       },
       {
         "key": "【炽地】",
@@ -23520,6 +23541,7 @@
       },
       {
         "countDownMax": 3,
+        "endTime": "",
         "id": 86000054,
         "isCompleteBottom": true,
         "isCountDown": true,
@@ -23533,16 +23555,31 @@
       },
       {
         "countDownMax": 3,
-        "endTime": "2026-01-18 12:00:00",
-        "id": 86000238,
+        "endTime": "2026-03-13 04:59:00",
+        "id": 86000256,
         "isCompleteBottom": false,
         "isCountDown": false,
         "isShow": true,
-        "name": 80611951,
-        "png": "UI/Activity/ActivitySignIn/NewYear2026/tag",
+        "name": 80612081,
+        "png": "UI/Activity/ActivitySignIn/fire2nd/tag",
+        "showUI": "",
         "sort": 0,
-        "startTime": "2025-12-31 12:00:00",
+        "startTime": "2026-02-03 05:00:00",
         "tag": 12601103
+      },
+      {
+        "countDownMax": 3,
+        "endTime": "2026-03-03 12:00:00",
+        "id": 86000253,
+        "isCompleteBottom": false,
+        "isCountDown": false,
+        "isShow": true,
+        "name": 80612080,
+        "png": "UI/Activity/Tab/tab_fire",
+        "showUI": "UI/Activity/Fire/FireActivity",
+        "sort": 0,
+        "startTime": "2026-02-03 12:00:00",
+        "tag": 12602004
       },
       {
         "countDownMax": 3,
@@ -23616,20 +23653,6 @@
       },
       {
         "countDownMax": 3,
-        "endTime": "2026-02-06 12:00:00",
-        "id": 86000229,
-        "isCompleteBottom": false,
-        "isCountDown": false,
-        "isShow": false,
-        "name": -1,
-        "png": "",
-        "showUI": "",
-        "sort": 0,
-        "startTime": "2025-12-31 12:00:02",
-        "tag": 12601908
-      },
-      {
-        "countDownMax": 3,
         "endTime": "2030-01-01 00:00:00",
         "id": 86000017,
         "isCompleteBottom": false,
@@ -23655,6 +23678,34 @@
         "sort": 0,
         "startTime": "2025-12-01 12:00:00",
         "tag": 12601727
+      },
+      {
+        "countDownMax": 3,
+        "endTime": "2026-03-03 12:00:00",
+        "id": 86000255,
+        "isCompleteBottom": false,
+        "isCountDown": false,
+        "isShow": false,
+        "name": -1,
+        "png": "",
+        "showUI": "",
+        "sort": 0,
+        "startTime": "2026-02-03 12:00:00",
+        "tag": 12601908
+      },
+      {
+        "countDownMax": 3,
+        "endTime": "2026-02-06 12:00:00",
+        "id": 86000229,
+        "isCompleteBottom": false,
+        "isCountDown": false,
+        "isShow": false,
+        "name": -1,
+        "png": "",
+        "showUI": "",
+        "sort": 0,
+        "startTime": "2025-12-31 12:00:02",
+        "tag": 12601908
       },
       {
         "countDownMax": 3,
@@ -24708,6 +24759,10 @@
       },
       {
         "ChapterList": 20603673,
+        "questId": -1
+      },
+      {
+        "ChapterList": 20603735,
         "questId": -1
       }
     ]
@@ -27127,6 +27182,9 @@
       },
       {
         "id": 80500235
+      },
+      {
+        "id": 80500347
       },
       {
         "id": 80500327
@@ -29842,6 +29900,20 @@
     "nameEN": "",
     "activeList": [],
     "activityTimeList": [
+      {
+        "countDownMax": 3,
+        "endTime": "2026-01-18 12:00:00",
+        "id": 86000238,
+        "isCompleteBottom": false,
+        "isCountDown": false,
+        "isShow": true,
+        "name": 80611951,
+        "png": "UI/Activity/ActivitySignIn/NewYear2026/tag",
+        "showUI": "",
+        "sort": 0,
+        "startTime": "2025-12-31 12:00:00",
+        "tag": 12601103
+      },
       {
         "countDownMax": 3,
         "endTime": "2026-03-06 12:00:00",
