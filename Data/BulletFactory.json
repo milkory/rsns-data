@@ -24028,16 +24028,24 @@
   {
     "id": 11200825,
     "idCN": "我方/05星/夏洛蒂·澄心/原版/A",
-    "mod": "追踪",
+    "mod": "冲击波",
     "isInformalData": false,
-    "bulletViewId": 11300444,
-    "speedX_SN": 4500,
+    "bulletViewId": 11300461,
+    "speedX_SN": 6500,
     "xSpeedOffSet_SN": 0,
     "disappearEffectList": [],
     "appearEffectList": [],
     "effectID": -1,
     "hitSoundId": -1,
-    "scaleTag": ""
+    "scaleTag": "",
+    "durationFrame": 60,
+    "xlSN": 5000,
+    "xrSN": 5000,
+    "intervalFrame": 0,
+    "bRepeated": false,
+    "reentrantCount": 0,
+    "rangeSpeedY_SN": 0,
+    "rangeShakeFrame": 0
   },
   {
     "id": 11200826,
@@ -24297,5 +24305,86 @@
     "intervalFrame": 2,
     "isDoBuffOnly": false,
     "isHitTargetOnly": false
+  },
+  {
+    "id": 11200841,
+    "idCN": "我方/05星/夏洛蒂·澄心/原版/C大剑",
+    "mod": "地面直线弹",
+    "isInformalData": false,
+    "bulletViewId": 11300465,
+    "speedX_SN": 4500,
+    "xSpeedOffSet_SN": 0,
+    "disappearEffectList": [],
+    "appearEffectList": [],
+    "effectID": -1,
+    "hitSoundId": -1,
+    "scaleTag": "",
+    "durationMin": 1,
+    "isCustomRadius": false,
+    "customRadiusTag": "",
+    "damageRadius_SN": 240000,
+    "isFixedPosition": false,
+    "xOffSetStart_SN": 20000,
+    "xOffSet_SN": 10000,
+    "yOffSetStart_SN": 0,
+    "yOffSet_SN": 0,
+    "zOffSetStart_SN": 0,
+    "zOffSet_SN": 0,
+    "groundEffectList": [
+      {
+        "effectId": 11108962
+      },
+      {
+        "effectId": 11108986
+      }
+    ],
+    "isGroundEffectUseHitTimes": false,
+    "groundSoundId": -1,
+    "isGroundSoundUseHitTimes": false,
+    "envBuffId": -1,
+    "hitTimes": 5,
+    "hitTimesCustomTag": "",
+    "intervalFrame": 8,
+    "isDoBuffOnly": false,
+    "isHitTargetOnly": false
+  },
+  {
+    "id": 11200842,
+    "idCN": "我方/05星/夏洛蒂·澄心/原版/C目标高亮",
+    "mod": "地面直线弹",
+    "isInformalData": false,
+    "bulletViewId": 11300008,
+    "speedX_SN": 120000,
+    "xSpeedOffSet_SN": 0,
+    "disappearEffectList": [],
+    "appearEffectList": [],
+    "effectID": -1,
+    "hitSoundId": -1,
+    "scaleTag": "",
+    "durationMin": 1,
+    "isCustomRadius": false,
+    "customRadiusTag": "",
+    "damageRadius_SN": 5000,
+    "isFixedPosition": false,
+    "xOffSetStart_SN": 20000,
+    "xOffSet_SN": 10000,
+    "yOffSetStart_SN": 0,
+    "yOffSet_SN": 0,
+    "zOffSetStart_SN": 0,
+    "zOffSet_SN": 0,
+    "groundEffectList": [
+      {
+        "effectId": 11108983
+      }
+    ],
+    "isGroundEffectUseHitTimes": false,
+    "groundSoundId": -1,
+    "isGroundSoundUseHitTimes": false,
+    "envBuffId": -1,
+    "hitTimes": 0,
+    "hitTimesCustomTag": "",
+    "intervalFrame": 0,
+    "isDoBuffOnly": true,
+    "isHitTargetOnly": true
   }
 ]

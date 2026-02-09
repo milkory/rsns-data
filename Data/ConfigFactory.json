@@ -145,6 +145,7 @@
     "itemBag": 1000,
     "materialBag": 1000,
     "furnitureBag": 3000,
+    "emailLimit": 200,
     "playerHeadList": [
       {
         "playerHeadPath": "UI\\Common\\PlayerHead\\A_01"
@@ -2134,6 +2135,12 @@
         "id": 82500084
       }
     ],
+    "BattlePassEXList": [],
+    "businessIdList": [
+      {
+        "id": 82500082
+      }
+    ],
     "StageQuestConfig": [
       {
         "id": 80304015,
@@ -2232,7 +2239,8 @@
       },
       {
         "id": 12601949,
-        "num": 50
+        "num": 50,
+        "replicateNum": 1
       },
       {
         "id": 12601552,
@@ -2268,7 +2276,8 @@
       },
       {
         "id": 12601959,
-        "num": 50
+        "num": 50,
+        "replicateNum": 1
       },
       {
         "id": 12601909,
@@ -2276,7 +2285,8 @@
       },
       {
         "id": 12601984,
-        "num": 50
+        "num": 50,
+        "replicateNum": 1
       },
       {
         "id": 12601928,
@@ -2288,15 +2298,18 @@
       },
       {
         "id": 12601952,
-        "num": 50
+        "num": 50,
+        "replicateNum": 1
       },
       {
         "id": 12601985,
-        "num": 50
+        "num": 50,
+        "replicateNum": 1
       },
       {
         "id": 12601989,
-        "num": 50
+        "num": 50,
+        "replicateNum": 1
       }
     ],
     "formationTipOpen": 15,
@@ -9183,7 +9196,6 @@
         "num": 5000
       }
     ],
-    "stickerMax": 50,
     "HBPStoreList": [
       {
         "id": 40300019
@@ -19409,6 +19421,52 @@
         "id": 80301824,
         "startTime": "2024-04-04"
       }
+    ],
+    "scanCostList": [
+      {
+        "id": 11400049,
+        "num": 1
+      }
+    ],
+    "scanDungeonCountList": [
+      {
+        "weight": 1
+      },
+      {
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "num": 2,
+        "weight": 1
+      }
+    ],
+    "scanPolluteCountList": [
+      {
+        "weight": 1
+      },
+      {
+        "num": 1,
+        "weight": 1
+      },
+      {
+        "num": 2,
+        "weight": 1
+      }
+    ],
+    "scanResidentCountList": [
+      {
+        "num": 5,
+        "weight": 1
+      },
+      {
+        "num": 8,
+        "weight": 1
+      },
+      {
+        "num": 10,
+        "weight": 1
+      }
     ]
   },
   {
@@ -21868,6 +21926,19 @@
       }
     ],
     "extraWarehouse": 11400235,
+    "whsInitNum": 2,
+    "whsMaxNum": 5,
+    "whsExpandCost": 11400614,
+    "whsFriendLimit": 7,
+    "whsMinQTN": 1.1,
+    "whsMaxQTN": 1.4,
+    "whsDefaultQTN": 1.2,
+    "commissionRate": 0.02,
+    "whsLockTime": 180,
+    "whsRefreshCD": 10,
+    "whsRewardsMail": 80800426,
+    "whsLogDay": 7,
+    "whsLogNum": 10,
     "extraQuotation": 0.01,
     "quotationThresholdList": [
       {
@@ -23583,6 +23654,20 @@
       },
       {
         "countDownMax": 3,
+        "endTime": "2026-03-13 12:00:00",
+        "id": 86000266,
+        "isCompleteBottom": false,
+        "isCountDown": false,
+        "isShow": true,
+        "name": 80612083,
+        "png": "UI/Activity/Tab/Tab_Turntable02",
+        "showUI": "UI/Activity/ActivityTurntable/ActivityTurntable",
+        "sort": 0,
+        "startTime": "2026-02-13 12:00:00",
+        "tag": 12601942
+      },
+      {
+        "countDownMax": 3,
         "endTime": "2026-02-06 12:00:00",
         "id": 86000139,
         "isCompleteBottom": false,
@@ -23733,6 +23818,20 @@
         "showUI": "",
         "sort": 0,
         "startTime": "2026-01-16 12:00:00",
+        "tag": 12601908
+      },
+      {
+        "countDownMax": 3,
+        "endTime": "2026-03-03 12:00:00",
+        "id": 86000268,
+        "isCompleteBottom": false,
+        "isCountDown": false,
+        "isShow": false,
+        "name": -1,
+        "png": "",
+        "showUI": "",
+        "sort": 0,
+        "startTime": "2026-02-13 12:00:00",
         "tag": 12601908
       }
     ],
@@ -24203,6 +24302,8 @@
     ],
     "autoFightLv": 30,
     "autoFightPath": "UI/MainUI/map_icon_driveSetup1",
+    "autoFightLvOffset": 5,
+    "autoFightTime": 120,
     "autoFightUnLock": [
       {
         "id": 11400004,
@@ -25275,7 +25376,7 @@
         "day": 3
       }
     ],
-    "battlePassCoefficient": 2.0,
+    "battlePassCoefficient": 1.0,
     "openBuildingList": [
       {
         "id": 84400008
@@ -26032,7 +26133,19 @@
     "stealRate": 1.0,
     "petReduceRate": 0.3,
     "petExScore": 10000,
-    "doReduceRate": 0.3
+    "doReduceRate": 0.3,
+    "cardList": [
+      {
+        "card": 80307477,
+        "id": 11400890,
+        "tag": "UI/CardCase/cardselect_normal"
+      },
+      {
+        "card": 80307478,
+        "id": 11400891,
+        "tag": "UI/CardCase/heluna/select"
+      }
+    ]
   },
   {
     "id": 99900073,
@@ -27440,7 +27553,9 @@
         "weight": 1
       }
     ],
-    "choiceBuffval": 50
+    "choiceBuffval": 50,
+    "hitSoundCommon": 0.5,
+    "hitSoundCorpseTide": 0.3
   },
   {
     "id": 99900053,
@@ -29807,7 +29922,7 @@
     "levelLock": 20,
     "NextLock": 10,
     "BuffRate": 100000000.0,
-    "BuffFloor": 0.6,
+    "BuffFloor": 0.55,
     "distanceMag": 25.0,
     "levelMag": 1.2,
     "cityMag": 1.2,
@@ -30407,6 +30522,20 @@
         "sort": 0,
         "startTime": "2026-01-01 12:00:00",
         "tag": 12601908
+      },
+      {
+        "countDownMax": 3,
+        "endTime": "2026-03-13 05:00:00",
+        "id": 86000266,
+        "isCompleteBottom": false,
+        "isCountDown": false,
+        "isShow": true,
+        "name": 80612083,
+        "png": "UI/Activity/Tab/Tab_Turntable02",
+        "showUI": "UI/Activity/ActivityTurntable/ActivityTurntable",
+        "sort": 0,
+        "startTime": "2026-02-08 05:00:00",
+        "tag": 12601942
       }
     ],
     "activityMainList": [
