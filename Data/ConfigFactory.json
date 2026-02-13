@@ -2133,9 +2133,16 @@
       },
       {
         "id": 82500084
+      },
+      {
+        "id": 82500086
       }
     ],
-    "BattlePassEXList": [],
+    "BattlePassEXList": [
+      {
+        "id": 82500088
+      }
+    ],
     "businessIdList": [
       {
         "id": 82500082
@@ -2265,6 +2272,11 @@
       {
         "id": 12601835,
         "num": 50
+      },
+      {
+        "id": 12602013,
+        "num": 50,
+        "replicateNum": 1
       },
       {
         "id": 12601825,
@@ -7651,27 +7663,27 @@
     "apRewardList": [
       {
         "ap": 100,
-        "id": 11400005,
-        "num": 60
+        "id": 11401012,
+        "num": 3
       },
       {
         "ap": 200,
-        "id": 11700078,
-        "num": 4
-      },
-      {
-        "ap": 300,
         "id": 11400001,
         "num": 100000
       },
       {
+        "ap": 300,
+        "id": 11400005,
+        "num": 60
+      },
+      {
         "ap": 400,
-        "id": 11400411,
-        "num": 1
+        "id": 11700078,
+        "num": 4
       },
       {
         "ap": 500,
-        "id": 11400045,
+        "id": 11400411,
         "num": 1
       },
       {
@@ -9196,6 +9208,7 @@
         "num": 5000
       }
     ],
+    "stickerMax": 50,
     "HBPStoreList": [
       {
         "id": 40300019
@@ -11062,6 +11075,14 @@
       {
         "key": "【斩裂】",
         "value": "<color=#FF6666>【斩裂】</color>"
+      },
+      {
+        "key": "【迸裂】",
+        "value": "<color=#FF6666>【迸裂】</color>"
+      },
+      {
+        "key": "【擘裂】",
+        "value": "<color=#FF6666>【擘裂】</color>"
       },
       {
         "key": "【蚀灭】",
@@ -19424,47 +19445,161 @@
     ],
     "scanCostList": [
       {
-        "id": 11400049,
+        "id": 11401012,
         "num": 1
       }
     ],
     "scanDungeonCountList": [
       {
-        "weight": 1
-      },
-      {
         "num": 1,
-        "weight": 1
+        "weight": 80
       },
       {
         "num": 2,
-        "weight": 1
+        "weight": 20
       }
     ],
     "scanPolluteCountList": [
       {
-        "weight": 1
-      },
-      {
         "num": 1,
-        "weight": 1
+        "weight": 70
       },
       {
         "num": 2,
-        "weight": 1
+        "weight": 20
+      },
+      {
+        "num": 3,
+        "weight": 10
       }
     ],
     "scanResidentCountList": [
       {
-        "num": 5,
-        "weight": 1
+        "num": 1,
+        "weight": 60
       },
       {
-        "num": 8,
-        "weight": 1
+        "num": 2,
+        "weight": 30
       },
       {
-        "num": 10,
+        "num": 3,
+        "weight": 10
+      }
+    ],
+    "scanHiddenLv": 60,
+    "scanHiddenCountMax": 12,
+    "scanHiddenCountList": [
+      {
+        "num": 0,
+        "weight": 67
+      },
+      {
+        "num": 1,
+        "weight": 33
+      }
+    ],
+    "ClickHiddenEventPosList": [
+      {
+        "icon_x": 50.0,
+        "icon_y": -200.0
+      },
+      {
+        "icon_x": -150.0,
+        "icon_y": -150.0
+      },
+      {
+        "icon_x": -250.0,
+        "icon_y": -400.0
+      },
+      {
+        "icon_x": 0.0,
+        "icon_y": -450.0
+      },
+      {
+        "icon_x": 400.0,
+        "icon_y": -100.0
+      },
+      {
+        "icon_x": 500.0,
+        "icon_y": -250.0
+      },
+      {
+        "icon_x": 800.0,
+        "icon_y": -150.0
+      },
+      {
+        "icon_x": 1100.0,
+        "icon_y": 110.0
+      },
+      {
+        "icon_x": 1300.0,
+        "icon_y": -370.0
+      },
+      {
+        "icon_x": 1100.0,
+        "icon_y": -100.0
+      },
+      {
+        "icon_x": 340.0,
+        "icon_y": -540.0
+      },
+      {
+        "icon_x": 580.0,
+        "icon_y": -700.0
+      },
+      {
+        "icon_x": 300.0,
+        "icon_y": -700.0
+      },
+      {
+        "icon_x": 460.0,
+        "icon_y": -800.0
+      },
+      {
+        "icon_x": 940.0,
+        "icon_y": -630.0
+      },
+      {
+        "icon_x": 25.0,
+        "icon_y": 135.0
+      },
+      {
+        "icon_x": -560.0,
+        "icon_y": 110.0
+      },
+      {
+        "icon_x": -275.0,
+        "icon_y": -700.0
+      },
+      {
+        "icon_x": -25.0,
+        "icon_y": -800.0
+      },
+      {
+        "icon_x": -480.0,
+        "icon_y": -720.0
+      },
+      {
+        "icon_x": -400.0,
+        "icon_y": -400.0
+      },
+      {
+        "icon_x": -400.0,
+        "icon_y": -70.0
+      },
+      {
+        "icon_x": 500.0,
+        "icon_y": 270.0
+      },
+      {
+        "icon_x": -600.0,
+        "icon_y": -160.0
+      }
+    ],
+    "ClickHiddenEventList": [
+      {
+        "id": 82800500,
         "weight": 1
       }
     ]
@@ -19518,6 +19653,85 @@
       },
       {
         "path": "UI/Activity/ActivityTurntable/Images/Turntable_rarity_UR"
+      }
+    ],
+    "materialBattleIconPath": [
+      {
+        "path": "UI/Activity/ActivityGlobalBattle/Images/MaterialBattle_right_icon_1"
+      },
+      {
+        "path": "UI/Activity/ActivityGlobalBattle/Images/MaterialBattle_right_icon_2"
+      },
+      {
+        "path": "UI/Activity/ActivityGlobalBattle/Images/MaterialBattle_right_icon_3"
+      }
+    ],
+    "scanOffIconPath": [
+      {
+        "path": "UI/Activity/ActivityGlobalBattle/Images/WorldScan_event_icon_off_1"
+      },
+      {
+        "path": "UI/Activity/ActivityGlobalBattle/Images/WorldScan_event_icon_off_2"
+      },
+      {
+        "path": "UI/Activity/ActivityGlobalBattle/Images/WorldScan_event_icon_off_3"
+      },
+      {
+        "path": "UI/Activity/ActivityGlobalBattle/Images/WorldScan_event_icon_off_4"
+      },
+      {
+        "path": "UI/Activity/ActivityGlobalBattle/Images/WorldScan_event_icon_off_5"
+      }
+    ],
+    "scanOnIconPath": [
+      {
+        "path": "UI/Activity/ActivityGlobalBattle/Images/WorldScan_event_icon_on_1"
+      },
+      {
+        "path": "UI/Activity/ActivityGlobalBattle/Images/WorldScan_event_icon_on_2"
+      },
+      {
+        "path": "UI/Activity/ActivityGlobalBattle/Images/WorldScan_event_icon_on_3"
+      },
+      {
+        "path": "UI/Activity/ActivityGlobalBattle/Images/WorldScan_event_icon_on_4"
+      },
+      {
+        "path": "UI/Activity/ActivityGlobalBattle/Images/WorldScan_event_icon_on_5"
+      }
+    ],
+    "scanBtnIconPath": [
+      {
+        "path": "UI/Activity/ActivityGlobalBattle/Images/WorldScan_event_icon_btn_1"
+      },
+      {
+        "path": "UI/Activity/ActivityGlobalBattle/Images/WorldScan_event_icon_btn_2"
+      },
+      {
+        "path": "UI/Activity/ActivityGlobalBattle/Images/WorldScan_event_icon_btn_3"
+      },
+      {
+        "path": "UI/Activity/ActivityGlobalBattle/Images/WorldScan_event_icon_btn_4"
+      },
+      {
+        "path": "UI/Activity/ActivityGlobalBattle/Images/WorldScan_event_icon_btn_5"
+      }
+    ],
+    "scanOffRoundPath": [
+      {
+        "path": "UI/Activity/ActivityGlobalBattle/Images/WorldScan_event_icon_off_round_1"
+      },
+      {
+        "path": "UI/Activity/ActivityGlobalBattle/Images/WorldScan_event_icon_off_round_1"
+      },
+      {
+        "path": "UI/Activity/ActivityGlobalBattle/Images/WorldScan_event_icon_off_round_3"
+      },
+      {
+        "path": "UI/Activity/ActivityGlobalBattle/Images/WorldScan_event_icon_off_round_4"
+      },
+      {
+        "path": "UI/Activity/ActivityGlobalBattle/Images/WorldScan_event_icon_off_round_5"
       }
     ]
   },
@@ -20499,6 +20713,9 @@
       },
       {
         "id": 11400953
+      },
+      {
+        "id": 11400966
       },
       {
         "id": 11400354
@@ -23640,7 +23857,7 @@
       },
       {
         "countDownMax": 3,
-        "endTime": "2026-03-03 12:00:00",
+        "endTime": "2026-03-13 12:00:00",
         "id": 86000253,
         "isCompleteBottom": false,
         "isCountDown": false,
@@ -23649,7 +23866,7 @@
         "png": "UI/Activity/Tab/tab_fire",
         "showUI": "UI/Activity/Fire/FireActivity",
         "sort": 0,
-        "startTime": "2026-02-03 12:00:00",
+        "startTime": "2026-02-03 12:00:01",
         "tag": 12602004
       },
       {
@@ -23663,7 +23880,7 @@
         "png": "UI/Activity/Tab/Tab_Turntable02",
         "showUI": "UI/Activity/ActivityTurntable/ActivityTurntable",
         "sort": 0,
-        "startTime": "2026-02-13 12:00:00",
+        "startTime": "2026-02-11 12:00:00",
         "tag": 12601942
       },
       {
@@ -23752,6 +23969,34 @@
       },
       {
         "countDownMax": 3,
+        "endTime": "2026-03-13 04:59:00",
+        "id": 86000051,
+        "isCompleteBottom": false,
+        "isCountDown": false,
+        "isShow": true,
+        "name": 80610280,
+        "png": "UI/Activity/Tab/tab_witches",
+        "showUI": "UI/Witches/ActivityMain/WitchsActivityMain",
+        "sort": 0,
+        "startTime": "2026-02-11 12:00:00",
+        "tag": 12601669
+      },
+      {
+        "countDownMax": 3,
+        "endTime": "2026-02-28 04:59:00",
+        "id": 86000274,
+        "isCompleteBottom": false,
+        "isCountDown": false,
+        "isShow": true,
+        "name": 80610439,
+        "png": "UI/Activity/Tab/tab_endlessBattle",
+        "showUI": "UI/Activity/ActivityEndlessBattle/ActivityEndlessBattle",
+        "sort": 0,
+        "startTime": "2026-02-12 05:00:00",
+        "tag": 12601701
+      },
+      {
+        "countDownMax": 3,
         "endTime": "2030-01-01 00:00:00",
         "id": 86000017,
         "isCompleteBottom": false,
@@ -23780,7 +24025,7 @@
       },
       {
         "countDownMax": 3,
-        "endTime": "2026-03-03 12:00:00",
+        "endTime": "2026-03-13 12:00:00",
         "id": 86000255,
         "isCompleteBottom": false,
         "isCountDown": false,
@@ -23789,7 +24034,7 @@
         "png": "",
         "showUI": "",
         "sort": 0,
-        "startTime": "2026-02-03 12:00:00",
+        "startTime": "2026-02-03 12:00:01",
         "tag": 12601908
       },
       {
@@ -23822,7 +24067,7 @@
       },
       {
         "countDownMax": 3,
-        "endTime": "2026-03-03 12:00:00",
+        "endTime": "2026-03-13 12:00:00",
         "id": 86000268,
         "isCompleteBottom": false,
         "isCountDown": false,
@@ -23831,7 +24076,7 @@
         "png": "",
         "showUI": "",
         "sort": 0,
-        "startTime": "2026-02-13 12:00:00",
+        "startTime": "2026-02-11 12:00:00",
         "tag": 12601908
       }
     ],
@@ -23863,6 +24108,18 @@
         "sort": 0,
         "startTime": "2024-04-21 15:00:00",
         "tag": 12601086
+      },
+      {
+        "countDownMax": 3,
+        "id": 86000258,
+        "isCompleteBottom": false,
+        "isCountDown": false,
+        "isShow": true,
+        "name": 80612061,
+        "png": "UI/Activity/Tab/tab_global",
+        "showUI": "UI/Activity/ActivityGlobalBattle/ActivityGlobalBattle",
+        "sort": 0,
+        "tag": 12601990
       },
       {
         "countDownMax": 3,
@@ -24883,6 +25140,10 @@
       {
         "ChapterList": 20603735,
         "questId": -1
+      },
+      {
+        "ChapterList": 20603752,
+        "questId": -1
       }
     ]
   },
@@ -25314,7 +25575,7 @@
   },
   {
     "id": 99900069,
-    "idCN": "委派/委派",
+    "idCN": "委派",
     "mod": "委派相关",
     "isInformalData": false,
     "nameEN": "EntrustConfig",
@@ -27313,6 +27574,9 @@
       },
       {
         "id": 80500235
+      },
+      {
+        "id": 80500348
       },
       {
         "id": 80500347
@@ -30033,6 +30297,20 @@
     "nameEN": "",
     "activeList": [],
     "activityTimeList": [
+      {
+        "countDownMax": 3,
+        "endTime": "2026-03-18 23:59:00",
+        "id": 86000182,
+        "isCompleteBottom": false,
+        "isCountDown": false,
+        "isShow": true,
+        "name": 80611358,
+        "png": "UI/Activity/Tab/tag_wordbossHKD",
+        "showUI": "UI/Activity/ActivityWorldBoss/ActivityWorldBoss",
+        "sort": 0,
+        "startTime": "2026-03-01 00:00:00",
+        "tag": 12601815
+      },
       {
         "countDownMax": 3,
         "endTime": "2026-01-18 12:00:00",

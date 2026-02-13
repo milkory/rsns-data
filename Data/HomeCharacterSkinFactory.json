@@ -5124,6 +5124,7 @@
     "des": "根据魔女诱拐事件中被找回的孩子们的描述，复原了这顶“魔女的帽子”，和原来有些区别。",
     "spineDataPath": "Home/Dress/head27/head27_SkeletonData",
     "skinPath": "Head",
+    "hairType": "Hat",
     "iconPath": "Item/Dress/Head_27",
     "tipsPath": "Item/Dress/180/Head_27",
     "quality": "Golden",
@@ -5135,7 +5136,6 @@
         "id": 10000173
       }
     ],
-    "hairType": "Hat",
     "attachments": [
       {
         "attachName": "hat_back001",
@@ -7132,6 +7132,7 @@
     "des": "两位魔女为表谢意而制作的魔女帽，缝制和设计均由她们二人共同完成。循此苦旅，以达群星。",
     "spineDataPath": "Home/Dress/head38/head38_SkeletonData",
     "skinPath": "Head",
+    "hairType": "Hat",
     "iconPath": "Item/Dress/hat_3",
     "tipsPath": "Item/Dress/180/hat_3",
     "quality": "Golden",
@@ -7143,9 +7144,34 @@
         "id": 10000173
       }
     ],
-    "hairType": "Hat",
-    "attachments": [],
-    "overlay": false,
+    "attachments": [
+      {
+        "attachName": "hat_back003",
+        "slotName": "hat_back",
+        "spineUrl": "Home/Dress/Hat/hat/hat_SkeletonData"
+      },
+      {
+        "attachName": "hat_back_t003",
+        "slotName": "hat_back",
+        "spineUrl": "Home/Dress/Hat/hat/hat_SkeletonData"
+      },
+      {
+        "attachName": "R_hat_back003",
+        "slotName": "hat_back",
+        "spineUrl": "Home/Dress/Hat/hat/hat_SkeletonData"
+      },
+      {
+        "attachName": "hat_front003",
+        "slotName": "hat_front",
+        "spineUrl": "Home/Dress/Hat/hat/hat_SkeletonData"
+      },
+      {
+        "attachName": "hat_front_t003",
+        "slotName": "hat_front",
+        "spineUrl": "Home/Dress/Hat/hat/hat_SkeletonData"
+      }
+    ],
+    "overlay": true,
     "auction": false,
     "tradeNum": -1,
     "isHave": true,
@@ -7875,6 +7901,143 @@
     "hairType": "Default",
     "iconPath": "Item/Dress/Shoes_dress88",
     "tipsPath": "Item/Dress/180/Shoes_dress88",
+    "quality": "Golden",
+    "character": [
+      {
+        "id": 10000137
+      },
+      {
+        "id": 10000173
+      }
+    ],
+    "attachments": [],
+    "overlay": false,
+    "auction": false,
+    "tradeNum": -1,
+    "isHave": true,
+    "sellNumMin": 1,
+    "sellNumMax": 100,
+    "buyNumMin": 1,
+    "buyNumMax": 100,
+    "price": 1000,
+    "priceMin": 10,
+    "priceMax": 10000,
+    "buyMode": "Auto",
+    "rangeNum": 10
+  },
+  {
+    "id": 70000067,
+    "idCN": "头饰/可叠帽/hat4",
+    "mod": "默认",
+    "isInformalData": false,
+    "skinType": 12600687,
+    "name": "湖光魔女帽",
+    "des": "某位魔女在受到黑月游乐城中发生的事件启发而制作的魔女帽。如同月光下的湖面，倒映粼粼湖光。",
+    "spineDataPath": "",
+    "skinPath": "Head",
+    "hairType": "Hat",
+    "iconPath": "Item/Dress/hat_4",
+    "tipsPath": "Item/Dress/180/hat_4",
+    "quality": "Golden",
+    "character": [
+      {
+        "id": 10000137
+      },
+      {
+        "id": 10000173
+      }
+    ],
+    "attachments": [
+      {
+        "attachName": "hat_back004",
+        "slotName": "hat_back",
+        "spineUrl": "Home/Dress/Hat/hat/hat_SkeletonData"
+      },
+      {
+        "attachName": "hat_back_t004",
+        "slotName": "hat_back",
+        "spineUrl": "Home/Dress/Hat/hat/hat_SkeletonData"
+      },
+      {
+        "attachName": "R_hat_back004",
+        "slotName": "hat_back",
+        "spineUrl": "Home/Dress/Hat/hat/hat_SkeletonData"
+      },
+      {
+        "attachName": "hat_front004",
+        "slotName": "hat_front",
+        "spineUrl": "Home/Dress/Hat/hat/hat_SkeletonData"
+      },
+      {
+        "attachName": "hat_front_t004",
+        "slotName": "hat_front",
+        "spineUrl": "Home/Dress/Hat/hat/hat_SkeletonData"
+      }
+    ],
+    "overlay": true,
+    "auction": false,
+    "tradeNum": -1,
+    "isHave": true,
+    "sellNumMin": 1,
+    "sellNumMax": 100,
+    "buyNumMin": 1,
+    "buyNumMax": 100,
+    "price": 1000,
+    "priceMin": 10,
+    "priceMax": 10000,
+    "buyMode": "Auto",
+    "rangeNum": 10
+  },
+  {
+    "id": 70000067,
+    "idCN": "套装/dress80__纽带制服",
+    "mod": "默认",
+    "isInformalData": false,
+    "skinType": 12600691,
+    "name": "纽带制服",
+    "des": "某部少女乐队相关的作品中出现的虚构高中制服，象征着主人公们偶然相遇、结成乐队的过程。",
+    "spineDataPath": "Home/Dress/dress80/dress80_SkeletonData",
+    "skinPath": "Suit",
+    "hairType": "Default",
+    "iconPath": "Item/Dress/Suit_dress80",
+    "tipsPath": "Item/Dress/180/Suit_dress80",
+    "quality": "Golden",
+    "character": [
+      {
+        "id": 10000137
+      },
+      {
+        "id": 10000173
+      }
+    ],
+    "attachments": [],
+    "overlay": false,
+    "auction": false,
+    "tradeNum": -1,
+    "isHave": true,
+    "sellNumMin": 1,
+    "sellNumMax": 100,
+    "buyNumMin": 1,
+    "buyNumMax": 100,
+    "price": 1000,
+    "priceMin": 10,
+    "priceMax": 10000,
+    "buyMode": "Auto",
+    "rangeNum": 10
+  },
+  {
+    "id": 70000067,
+    "idCN": "鞋子/dress80__纽带制服鞋",
+    "mod": "默认",
+    "isInformalData": false,
+    "skinType": 12600693,
+    "name": "纽带制服鞋",
+    "des": "某部少女乐队相关的作品中出现的虚构高中制服所配的鞋子，象征着主人公们为乐队奔走的青春时光。",
+    "spineDataPath": "Home/Dress/dress80/dress80_SkeletonData",
+    "skinPath": "Shoes",
+    "hairType": "Default",
+    "iconPath": "Item/Dress/Shoes_dress80",
+    "tipsPath": "Item/Dress/180/Shoes_dress80",
     "quality": "Golden",
     "character": [
       {
