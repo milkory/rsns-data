@@ -20889,7 +20889,7 @@
     "attriDetialList": [],
     "attributeList": [],
     "tempdesc": "自身每次命中同时触发【斩裂】，伤害类特殊效果除外\\n同时自身造成的【斩裂】伤害加倍",
-    "desc": "自身每次命中同时触发<color=#FF6666>【斩裂】</color>，伤害类特殊效果除外\\n同时自身造成的【斩裂】伤害加倍",
+    "desc": "自身每次命中同时触发<color=#FF6666>【斩裂】</color>，伤害类特殊效果除外\\n同时自身造成的<color=#FF6666>【斩裂】</color>伤害加倍",
     "awakeLv": 5,
     "skillList": [
       {
@@ -20988,7 +20988,7 @@
     "attriDetialList": [],
     "attributeList": [],
     "tempdesc": "每次牌库抽光触发洗牌时，生成1张【锐锋】加入牌库",
-    "desc": "使处于<color=#FF6666>【躁动】</color>状态的我方目标受到的最终伤害降低50%",
+    "desc": "每次牌库抽光触发洗牌时，生成1张【锐锋】加入牌库",
     "awakeLv": 2,
     "skillList": [
       {
@@ -21032,7 +21032,11 @@
     "skillParamOffsetList": [],
     "name": "机械师",
     "skillIntensify": 12304583,
-    "skillActiveUpgrade": [],
+    "skillActiveUpgrade": [
+      {
+        "id": 12304578
+      }
+    ],
     "attributeIntensify": [
       {
         "id": 80305773
@@ -21067,7 +21071,11 @@
     "skillParamOffsetList": [],
     "name": "生机",
     "skillIntensify": 12304582,
-    "skillActiveUpgrade": [],
+    "skillActiveUpgrade": [
+      {
+        "id": 12304575
+      }
+    ],
     "attributeIntensify": [
       {
         "id": 80305770
@@ -21089,7 +21097,7 @@
     "attriDetialList": [],
     "attributeList": [],
     "tempdesc": "【转子飞拳】入手时，直接打出",
-    "desc": "使用【醒神单丛】后，为目标叠加1层【焦灼】\\n每层【焦灼】使目标受到的<color=#FF6666>【躁动】</color>/<color=#FF6666>【狂暴】</color>效果提高10%，上限10层",
+    "desc": "【转子飞拳】入手时，直接打出",
     "awakeLv": 6,
     "skillList": [
       {
@@ -21133,7 +21141,11 @@
     "skillParamOffsetList": [],
     "name": "转子增压",
     "skillIntensify": 12304581,
-    "skillActiveUpgrade": [],
+    "skillActiveUpgrade": [
+      {
+        "id": 12304571
+      }
+    ],
     "attributeIntensify": [
       {
         "id": 80305767
@@ -21143,6 +21155,173 @@
       },
       {
         "id": 80305765
+      }
+    ]
+  },
+  {
+    "id": 12800692,
+    "idCN": "00原版/05五星/迪妮莎/共振4-执念",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "RolePlus/00Gift/Teresa/ZhiNian",
+    "attriDetialList": [],
+    "attributeList": [],
+    "tempdesc": "自身免疫所有受到的负面效果",
+    "desc": "自身免疫所有受到的负面效果",
+    "awakeLv": 5,
+    "skillList": [
+      {
+        "skillId": 12304591
+      }
+    ],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": "执念",
+    "skillIntensify": 12304599,
+    "skillActiveUpgrade": [],
+    "attributeIntensify": [
+      {
+        "id": 80305977
+      },
+      {
+        "id": 80305978
+      },
+      {
+        "id": 80305979
+      }
+    ]
+  },
+  {
+    "id": 12800693,
+    "idCN": "00原版/05五星/迪妮莎/共振3-生机",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "RolePlus\\00Gift\\Box\\ShengJi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "HpMax",
+        "numType": "Percent",
+        "num_SN": 3500
+      }
+    ],
+    "tempdesc": "生命值+35%",
+    "desc": "生命值+35%",
+    "awakeLv": 4,
+    "skillList": [],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": "生机",
+    "skillIntensify": 12304598,
+    "skillActiveUpgrade": [],
+    "attributeIntensify": [
+      {
+        "id": 80305974
+      },
+      {
+        "id": 80305975
+      },
+      {
+        "id": 80305976
+      }
+    ]
+  },
+  {
+    "id": 12800694,
+    "idCN": "00原版/05五星/迪妮莎/共振2-狙击手",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "RolePlus/00Gift/Teresa/JuJiShou",
+    "attriDetialList": [],
+    "attributeList": [],
+    "tempdesc": "自身每次命中有5%概率触发【重伤】，伤害类特殊效果除外",
+    "desc": "自身每次命中有5%概率触发<color=#FF6666>【重伤】</color>，伤害类特殊效果除外",
+    "awakeLv": 3,
+    "skillList": [
+      {
+        "skillId": 12304589
+      }
+    ],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": "狙击手",
+    "skillIntensify": 12304600,
+    "skillActiveUpgrade": [],
+    "attributeIntensify": [
+      {
+        "id": 80305971
+      },
+      {
+        "id": 80305972
+      },
+      {
+        "id": 80305973
+      }
+    ]
+  },
+  {
+    "id": 12800695,
+    "idCN": "00原版/05五星/迪妮莎/共振1-灵犀",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "RolePlus\\00Gift\\Fenia\\LingXi",
+    "attriDetialList": [],
+    "attributeList": [],
+    "tempdesc": "每轮牌库【连锁EMP】置顶",
+    "desc": "每轮牌库【连锁EMP】置顶",
+    "awakeLv": 2,
+    "skillList": [
+      {
+        "skillId": 12304586
+      }
+    ],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": "灵犀",
+    "skillIntensify": 12302625,
+    "skillActiveUpgrade": [],
+    "attributeIntensify": [
+      {
+        "id": 80305968
+      },
+      {
+        "id": 80305969
+      },
+      {
+        "id": 80305970
+      }
+    ]
+  },
+  {
+    "id": 12800696,
+    "idCN": "00原版/05五星/迪妮莎/共振5-王牌杀手",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "RolePlus/00Gift/Teresa/WangPaiShaShou",
+    "attriDetialList": [],
+    "attributeList": [],
+    "tempdesc": "自身造成的最终伤害提高10%，每有1张手牌，额外提高5%",
+    "desc": "自身造成的最终伤害提高10%，每有1张手牌，额外提高5%",
+    "awakeLv": 6,
+    "skillList": [
+      {
+        "skillId": 12304593
+      }
+    ],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": "王牌杀手",
+    "skillIntensify": -1,
+    "skillActiveUpgrade": [],
+    "attributeIntensify": [
+      {
+        "id": 80305980
+      },
+      {
+        "id": 80305981
+      },
+      {
+        "id": 80305982
       }
     ]
   }
