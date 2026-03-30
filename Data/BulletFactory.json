@@ -24913,12 +24913,15 @@
     "isInformalData": false,
     "bulletViewId": 11300173,
     "speedX_SN": 6500,
+    "xSpeedOffSet_SN": 0,
     "disappearEffectList": [],
     "appearEffectList": [],
     "effectID": -1,
     "hitSoundId": -1,
     "scaleTag": "",
     "durationMin": 1,
+    "isCustomRadius": false,
+    "customRadiusTag": "",
     "damageRadius_SN": 5000,
     "isFixedPosition": false,
     "xOffSetStart_SN": 0,
@@ -24927,7 +24930,11 @@
     "yOffSet_SN": 20000,
     "zOffSetStart_SN": 0,
     "zOffSet_SN": 0,
-    "groundEffectList": [],
+    "groundEffectList": [
+      {
+        "effectId": 11103086
+      }
+    ],
     "isGroundEffectUseHitTimes": false,
     "groundSoundId": -1,
     "isGroundSoundUseHitTimes": false,
@@ -24940,17 +24947,20 @@
   },
   {
     "id": 11200857,
-    "idCN": "敌方/000角色/黑月/亚莉奈/B匕首",
+    "idCN": "敌方/000角色/黑月/亚莉奈/B匕首01",
     "mod": "地面直线弹",
     "isInformalData": false,
     "bulletViewId": 11300173,
     "speedX_SN": 6500,
+    "xSpeedOffSet_SN": 0,
     "disappearEffectList": [],
     "appearEffectList": [],
     "effectID": -1,
     "hitSoundId": 30002450,
     "scaleTag": "",
     "durationMin": 1,
+    "isCustomRadius": false,
+    "customRadiusTag": "",
     "damageRadius_SN": 5000,
     "isFixedPosition": false,
     "xOffSetStart_SN": 0,
@@ -24959,7 +24969,11 @@
     "yOffSet_SN": 20000,
     "zOffSetStart_SN": 0,
     "zOffSet_SN": 0,
-    "groundEffectList": [],
+    "groundEffectList": [
+      {
+        "effectId": 11109150
+      }
+    ],
     "isGroundEffectUseHitTimes": false,
     "groundSoundId": -1,
     "isGroundSoundUseHitTimes": false,
@@ -24977,12 +24991,15 @@
     "isInformalData": false,
     "bulletViewId": 11300173,
     "speedX_SN": 6500,
+    "xSpeedOffSet_SN": 0,
     "disappearEffectList": [],
     "appearEffectList": [],
     "effectID": -1,
     "hitSoundId": -1,
     "scaleTag": "",
     "durationMin": 1,
+    "isCustomRadius": false,
+    "customRadiusTag": "",
     "damageRadius_SN": 5000,
     "isFixedPosition": false,
     "xOffSetStart_SN": 0,
@@ -24991,7 +25008,11 @@
     "yOffSet_SN": 20000,
     "zOffSetStart_SN": 0,
     "zOffSet_SN": 0,
-    "groundEffectList": [],
+    "groundEffectList": [
+      {
+        "effectId": 11100182
+      }
+    ],
     "isGroundEffectUseHitTimes": false,
     "groundSoundId": -1,
     "isGroundSoundUseHitTimes": false,
@@ -25004,7 +25025,7 @@
   },
   {
     "id": 11200859,
-    "idCN": "敌方/000角色/黑月/亚莉奈/S伤害",
+    "idCN": "敌方/000角色/黑月/亚莉奈/S近战",
     "mod": "镭射",
     "isInformalData": false,
     "bulletViewId": 11300008,
@@ -25016,7 +25037,7 @@
     "hitSoundId": -1,
     "scaleTag": "",
     "hitEffect": -1,
-    "totalFrame": 70,
+    "totalFrame": 130,
     "dontBindOwner": true,
     "hitFrameList": [
       {
@@ -25030,22 +25051,34 @@
       },
       {
         "hitFrame": 67
+      },
+      {
+        "hitFrame": 80
+      },
+      {
+        "hitFrame": 105
+      },
+      {
+        "hitFrame": 127
       }
     ]
   },
   {
-    "id": 11200860,
-    "idCN": "敌方/000角色/黑月/亚莉奈/S匕首",
+    "id": 11200861,
+    "idCN": "敌方/000角色/黑月/亚莉奈/普攻03",
     "mod": "地面直线弹",
     "isInformalData": false,
     "bulletViewId": 11300173,
     "speedX_SN": 6500,
+    "xSpeedOffSet_SN": 0,
     "disappearEffectList": [],
     "appearEffectList": [],
     "effectID": -1,
-    "hitSoundId": 30002450,
+    "hitSoundId": -1,
     "scaleTag": "",
     "durationMin": 1,
+    "isCustomRadius": false,
+    "customRadiusTag": "",
     "damageRadius_SN": 5000,
     "isFixedPosition": false,
     "xOffSetStart_SN": 0,
@@ -25054,7 +25087,128 @@
     "yOffSet_SN": 20000,
     "zOffSetStart_SN": 0,
     "zOffSet_SN": 0,
-    "groundEffectList": [],
+    "groundEffectList": [
+      {
+        "effectId": 11101239
+      }
+    ],
+    "isGroundEffectUseHitTimes": false,
+    "groundSoundId": -1,
+    "isGroundSoundUseHitTimes": false,
+    "envBuffId": -1,
+    "hitTimes": 0,
+    "hitTimesCustomTag": "",
+    "intervalFrame": 0,
+    "isDoBuffOnly": false,
+    "isHitTargetOnly": true
+  },
+  {
+    "id": 11200862,
+    "idCN": "敌方/000角色/黑月/亚莉奈/B匕首02",
+    "mod": "地面直线弹",
+    "isInformalData": false,
+    "bulletViewId": 11300173,
+    "speedX_SN": 6500,
+    "xSpeedOffSet_SN": 0,
+    "disappearEffectList": [],
+    "appearEffectList": [],
+    "effectID": -1,
+    "hitSoundId": 30002450,
+    "scaleTag": "",
+    "durationMin": 1,
+    "isCustomRadius": false,
+    "customRadiusTag": "",
+    "damageRadius_SN": 5000,
+    "isFixedPosition": false,
+    "xOffSetStart_SN": 0,
+    "xOffSet_SN": 0,
+    "yOffSetStart_SN": 5000,
+    "yOffSet_SN": 20000,
+    "zOffSetStart_SN": 0,
+    "zOffSet_SN": 0,
+    "groundEffectList": [
+      {
+        "effectId": 11109151
+      }
+    ],
+    "isGroundEffectUseHitTimes": false,
+    "groundSoundId": -1,
+    "isGroundSoundUseHitTimes": false,
+    "envBuffId": -1,
+    "hitTimes": 0,
+    "hitTimesCustomTag": "",
+    "intervalFrame": 0,
+    "isDoBuffOnly": false,
+    "isHitTargetOnly": true
+  },
+  {
+    "id": 11200863,
+    "idCN": "敌方/000角色/黑月/亚莉奈/B匕首03",
+    "mod": "地面直线弹",
+    "isInformalData": false,
+    "bulletViewId": 11300173,
+    "speedX_SN": 6500,
+    "xSpeedOffSet_SN": 0,
+    "disappearEffectList": [],
+    "appearEffectList": [],
+    "effectID": -1,
+    "hitSoundId": 30002450,
+    "scaleTag": "",
+    "durationMin": 1,
+    "isCustomRadius": false,
+    "customRadiusTag": "",
+    "damageRadius_SN": 5000,
+    "isFixedPosition": false,
+    "xOffSetStart_SN": 0,
+    "xOffSet_SN": 0,
+    "yOffSetStart_SN": 5000,
+    "yOffSet_SN": 20000,
+    "zOffSetStart_SN": 0,
+    "zOffSet_SN": 0,
+    "groundEffectList": [
+      {
+        "effectId": 11109152
+      }
+    ],
+    "isGroundEffectUseHitTimes": false,
+    "groundSoundId": -1,
+    "isGroundSoundUseHitTimes": false,
+    "envBuffId": -1,
+    "hitTimes": 0,
+    "hitTimesCustomTag": "",
+    "intervalFrame": 0,
+    "isDoBuffOnly": false,
+    "isHitTargetOnly": true
+  },
+  {
+    "id": 11200864,
+    "idCN": "敌方/000角色/黑月/亚莉奈/共振1弹射",
+    "mod": "地面直线弹",
+    "isInformalData": false,
+    "bulletViewId": 11300473,
+    "speedX_SN": 6500,
+    "xSpeedOffSet_SN": 0,
+    "disappearEffectList": [],
+    "appearEffectList": [],
+    "effectID": -1,
+    "hitSoundId": -1,
+    "scaleTag": "",
+    "durationMin": 1,
+    "isCustomRadius": false,
+    "customRadiusTag": "",
+    "damageRadius_SN": 5000,
+    "isFixedPosition": false,
+    "xOffSetStart_SN": 0,
+    "xOffSet_SN": 0,
+    "yOffSetStart_SN": 5000,
+    "yOffSet_SN": 20000,
+    "zOffSetStart_SN": 0,
+    "zOffSet_SN": 0,
+    "groundEffectList": [
+      {
+        "effectId": 11109153
+      }
+    ],
     "isGroundEffectUseHitTimes": false,
     "groundSoundId": -1,
     "isGroundSoundUseHitTimes": false,
