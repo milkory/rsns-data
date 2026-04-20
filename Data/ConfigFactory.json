@@ -8901,6 +8901,9 @@
       },
       {
         "id": 83000008
+      },
+      {
+        "id": 83000046
       }
     ],
     "lineList": [
@@ -9038,6 +9041,9 @@
       },
       {
         "id": 82700045
+      },
+      {
+        "id": 82700043
       }
     ],
     "cocQuestMax": 9,
@@ -14112,7 +14118,145 @@
         "id": 12600162,
         "num": 2
       }
-    ]
+    ],
+    "URWeaponBreakCost": [
+      {
+        "costMaterial": -1,
+        "costMaterialNum": 0,
+        "costMoney": 5000000,
+        "costSameEquip": 1
+      },
+      {
+        "costMaterial": -1,
+        "costMaterialNum": 0,
+        "costMoney": 10000000,
+        "costSameEquip": 1
+      },
+      {
+        "costMaterial": 11700247,
+        "costMaterialNum": 1,
+        "costMoney": 20000000,
+        "costSameEquip": 1
+      },
+      {
+        "costMaterial": 11700247,
+        "costMaterialNum": 1,
+        "costMoney": 40000000,
+        "costSameEquip": 1
+      },
+      {
+        "costMaterial": 11700247,
+        "costMaterialNum": 1,
+        "costMoney": 80000000,
+        "costSameEquip": 1
+      }
+    ],
+    "SSRWeaponBreakCost": [
+      {
+        "costMoney": 1000000,
+        "costSameEquip": 1
+      },
+      {
+        "costMoney": 2000000,
+        "costSameEquip": 2
+      },
+      {
+        "costMoney": 4000000,
+        "costSameEquip": 3
+      },
+      {
+        "costMoney": 8000000,
+        "costSameEquip": 4
+      },
+      {
+        "costMoney": 16000000,
+        "costSameEquip": 5
+      }
+    ],
+    "SRWeaponBreakCost": [
+      {
+        "costMoney": 500000,
+        "costSameEquip": 1
+      },
+      {
+        "costMoney": 1000000,
+        "costSameEquip": 2
+      },
+      {
+        "costMoney": 2000000,
+        "costSameEquip": 4
+      },
+      {
+        "costMoney": 4000000,
+        "costSameEquip": 8
+      },
+      {
+        "costMoney": 8000000,
+        "costSameEquip": 16
+      }
+    ],
+    "RWeaponBreakCost": [
+      {
+        "costMoney": 250000,
+        "costSameEquip": 1
+      },
+      {
+        "costMoney": 500000,
+        "costSameEquip": 2
+      },
+      {
+        "costMoney": 1000000,
+        "costSameEquip": 4
+      },
+      {
+        "costMoney": 2000000,
+        "costSameEquip": 8
+      },
+      {
+        "costMoney": 4000000,
+        "costSameEquip": 16
+      }
+    ],
+    "WeaponBreakEffect": [
+      {
+        "addVal": 0.1,
+        "effect": "MainAttrUp",
+        "effectDes": 80612099,
+        "lvCapBreak": 10,
+        "requireEquipLv": 35
+      },
+      {
+        "addVal": 0.1,
+        "effect": "MainAttrUp",
+        "effectDes": 80612099,
+        "lvCapBreak": 10,
+        "requireEquipLv": 45
+      },
+      {
+        "addVal": 1.0,
+        "effect": "AddRandomSkill",
+        "effectDes": 80612100,
+        "lvCapBreak": 10,
+        "requireEquipLv": 55
+      },
+      {
+        "addVal": 0.1,
+        "effect": "MainAttrUp",
+        "effectDes": 80612099,
+        "lvCapBreak": 10,
+        "requireEquipLv": 65
+      },
+      {
+        "addVal": 0.2,
+        "effect": "MainAttrUp",
+        "effectDes": 80612099,
+        "lvCapBreak": 10,
+        "requireEquipLv": 75
+      }
+    ],
+    "EquipAttrBreakAtk": 12304698,
+    "EquipAttrBreakDef": 12304699,
+    "EquipAttrBreakHp": 12304700
   },
   {
     "id": 99900028,
@@ -23952,17 +24096,17 @@
       },
       {
         "countDownMax": 3,
-        "endTime": "2026-04-16 12:00:00",
-        "id": 86000288,
+        "endTime": "2025-05-01 12:00:00",
+        "id": 86000155,
         "isCompleteBottom": false,
         "isCountDown": false,
         "isShow": true,
-        "name": 80612183,
-        "png": "UI/Activity/Tab/Tab_Turntable03",
-        "showUI": "UI/Activity/ActivityTurntable/ActivityTurntable",
+        "name": 80611597,
+        "png": "UI/Activity/Tab/tab_signBattleDRamis",
+        "showUI": "UI/Activity/ActivitySignBattle/ActivitySignBattleLevelDRamisSkin",
         "sort": 0,
-        "startTime": "2026-03-18 12:00:00",
-        "tag": 12601942
+        "startTime": "2026-04-20 12:00:00",
+        "tag": 12601908
       },
       {
         "countDownMax": 3,
@@ -24032,6 +24176,20 @@
         "showUI": "",
         "sort": 0,
         "startTime": "2026-04-16 12:00:01",
+        "tag": 12601908
+      },
+      {
+        "countDownMax": 3,
+        "endTime": "2026-05-01 12:00:00",
+        "id": 86000156,
+        "isCompleteBottom": false,
+        "isCountDown": false,
+        "isShow": false,
+        "name": 80611597,
+        "png": "UI/Activity/Tab/tab_signBattleDRamis",
+        "showUI": "UI/Activity/ActivitySignBattle/ActivitySignBattleLevelDRamisSkin",
+        "sort": 0,
+        "startTime": "2026-04-20 02:00:00",
         "tag": 12601908
       }
     ],
