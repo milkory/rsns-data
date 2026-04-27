@@ -1498,7 +1498,7 @@
   },
   {
     "id": 60000103,
-    "idCN": "卡牌/卡牌可使用/卡牌Buff",
+    "idCN": "卡牌/卡牌可使用-废弃/卡牌Buff",
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
@@ -1532,7 +1532,7 @@
   },
   {
     "id": 60000111,
-    "idCN": "卡牌/卡牌可使用/释放者Buff",
+    "idCN": "卡牌/卡牌可使用-废弃/释放者Buff",
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
@@ -1544,7 +1544,7 @@
   },
   {
     "id": 60000112,
-    "idCN": "卡牌/卡牌可使用/小队Buff",
+    "idCN": "卡牌/卡牌可使用-废弃/小队Buff",
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
@@ -2567,6 +2567,33 @@
     "paramHelp": "",
     "returnType": "int",
     "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rset $battleControlManager\r\rgetp curGSBuff\rset $curBuff\r\rgetp target\rset $target\r\rgetp ca mod\rset $mod\r\rif $mod eq \"召唤物\"\r    get $curBuff\r    getp _buffFactory\r    set $buffFactory\r\r    get $curBuff\r    getp owner\r    set $owner\r\r    get $curBuff\r    getp snapshot\r    set $snapshot\r\r    getp action\r    set $action\r\r    get $target\r    getp owner\r    set $buffTarget\r\r    get $curBuff\r    getp positionSN\r    set $positionSN\r\r    get $curBuff\r    getp isSkill\r    set $isSkill\r    \r    get $curBuff\r    getp from\r    set $from\r\r    get $curBuff\r    getp fromUnitSID\r    set $fromUnitSID\r\r    getc BuffFactory\r    if\r        getMethodInfo Produce 9 \"System.Int32\" \"Unit\" \"Snapshot\" \"UnitAction\" \"IBuffSystem\" \"PointSN\" \"System.Boolean\" \"System.Int32\" \"System.Int32\"\r        callMethodInfo $buffFactory 10417001 $owner $snapshot $action $buffTarget $positionSN $isSkill $from $fromUnitSID\r        set $tBuff\r        callWith $buffTarget AddBuff $tBuff\r        \r    else\r\t    getc Battle.BuffFactory\r\t    getMethodInfo Produce 9 \"System.Int32\" \"Battle.Unit\" \"Battle.Snapshot\" \"Battle.UnitAction\" \"Battle.IBuffSystem\" \"PointSN\" \"System.Boolean\" \"System.Int32\" \"System.Int32\"\r        callMethodInfo $buffFactory 10428369 $owner $snapshot $action $buffTarget $positionSN $isSkill $from $fromUnitSID\r        set $tBuff\r        callWith $buffTarget AddBuff $tBuff\r    endif\rendif\r\rret 0",
+    "cacheAsGMF": true
+  },
+  {
+    "id": 60000189,
+    "idCN": "卡牌/卡牌可使用/释放者Buff",
+    "mod": "执行GS脚本",
+    "isInformalData": false,
+    "debug": false,
+    "autoRecycle": false,
+    "memo": "检测卡牌使用者上是否有传入的buff。\r全都没有返回true",
+    "paramHelp": "buff0\rbuff1\rbuff2\rbuff3\rbuff4\rbuff5",
+    "returnType": "bool",
+    "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rgetp currentCore\rset $core\r\rif\r\tget $core currentCard\r\tset $card\r\tif\r\t\tgetp owner\r\t\tset $owner\r\t\tif\r\t\t\tgetp buffSystem\r\t\t\tset $buffSystem\r\t\t\tget $__param0\r\t\t\tset $buffId\r\t\t\tif\r\t\t\t    get $__param1\r                set $buffLevel\r\t\t\t\tget $buffSystem\r\t\t\t\tcgf GetBuffLevel $buffId\r\t\t\t\tset $lv\r\t\t\t\tif $lv ge $buffLevel\r\t\t\t\t\tret $true\r\t\t\t\tendif\r\t\t\tendif\r\t\tendif\r\tendif\rendif\r\rret $false",
+    "cacheAsGMF": true
+  },
+  {
+    "id": 60000190,
+    "idCN": "卡牌/使用条件/夏洛蒂·澄心/buff层数大于",
+    "mod": "逻辑脚本",
+    "isInformalData": false,
+    "debug": false,
+    "autoRecycle": false,
+    "memo": "见产品名称",
+    "paramHelp": "",
+    "returnType": "int",
+    "scriptPath": "GGScript/60000153",
+    "scriptLabel": "main",
     "cacheAsGMF": true
   }
 ]
