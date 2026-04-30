@@ -2516,7 +2516,7 @@
   },
   {
     "id": 60000185,
-    "idCN": "卡牌/寻找我方/序号1",
+    "idCN": "卡牌/寻找我方/序号",
     "mod": "逻辑脚本",
     "isInformalData": false,
     "debug": false,
@@ -2524,7 +2524,7 @@
     "memo": "见产品名称",
     "paramHelp": "",
     "returnType": "int",
-    "scriptPath": "GGScript/60000153",
+    "scriptPath": "GGScript/60000154",
     "scriptLabel": "main",
     "cacheAsGMF": true
   },
@@ -2579,7 +2579,7 @@
     "memo": "检测卡牌使用者上是否有传入的buff。\r全都没有返回true",
     "paramHelp": "buff0\rbuff1\rbuff2\rbuff3\rbuff4\rbuff5",
     "returnType": "bool",
-    "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rgetp currentCore\rset $core\r\rif\r\tget $core currentCard\r\tset $card\r\tif\r\t\tgetp owner\r\t\tset $owner\r\t\tif\r\t\t\tgetp buffSystem\r\t\t\tset $buffSystem\r\t\t\tget $__param0\r\t\t\tset $buffId\r\t\t\tif\r\t\t\t    get $__param1\r                set $buffLevel\r\t\t\t\tget $buffSystem\r\t\t\t\tcgf GetBuffLevel $buffId\r\t\t\t\tset $lv\r\t\t\t\tif $lv ge $buffLevel\r\t\t\t\t\tret $true\r\t\t\t\tendif\r\t\t\tendif\r\t\tendif\r\tendif\rendif\r\rret $false",
+    "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rgetp currentCore\rset $core\r\rif\r\tget $core currentCard\r\tset $card\r\tif\r\t\tgetp owner\r\t\tset $owner\r\t\tif\r\t\t\tgetp buffSystem\r\t\t\tset $buffSystem\r\t\t\tget $__param0\r\t\t\tset $buffId\r\t\t\tif\r\t\t\t    get $__param1\r                set $buffLevel\r\t\t\t\tget $buffSystem\r\t\t\t\tcgf GetBuffLevel $buffId\r\t\t\t\tset $lv\r\t\t\t\tif $lv ge $buffLevel\r\t\t\t\t\tret $false\r\t\t\t\tendif\r\t\t\tendif\r\t\tendif\r\tendif\rendif\r\rret $true",
     "cacheAsGMF": true
   },
   {
@@ -2591,7 +2591,7 @@
     "autoRecycle": false,
     "memo": "见产品名称",
     "paramHelp": "",
-    "returnType": "int",
+    "returnType": "bool",
     "scriptPath": "GGScript/60000153",
     "scriptLabel": "main",
     "cacheAsGMF": true
