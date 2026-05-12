@@ -2595,5 +2595,31 @@
     "scriptPath": "GGScript/60000153",
     "scriptLabel": "main",
     "cacheAsGMF": true
+  },
+  {
+    "id": 60000192,
+    "idCN": "角色/通用/获取指定tagbuff数量",
+    "mod": "执行GS脚本",
+    "isInformalData": false,
+    "debug": false,
+    "autoRecycle": false,
+    "memo": "判断指定tagBuff数量",
+    "paramHelp": "",
+    "returnType": "int",
+    "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rset $battleControlManager\r\rgetp curGSBuff\rset $curBuff\r\rgetp target\rset $target\r\rgetp buffSystem\rset $buffSystem\r\rcallWith $buffSystem GetBuffLink\rset $_buffLink\rgetp count\rset $count\rsub $count 1\rset $count\r\rset $valueSN 0\r\rget $_buffLink\rgetp first\rset $node\rfor $i 0 $count\r    if $node\r        get $node\r\t\tgetp item\r        getp ca\r        getp typeTagList\r        set $typeTagList\r        getp Count\r        set $length\r        for $j 0 $length\r            get $typeTagList $j\r            getp tagId\r            getp id\r            set $tagId\r            if $tagId eq 12602075\r                add $valueSN 10000\r                set $valueSN\r            endif\r        endFor\r\r        get $node\r        getp next\r\t\tset $node\r    endif\rendFor\r\rcallWith $buffSystem GetCannotBeDispelledBuffLink\rset $_cannotBeDispelled\rgetp count\rset $count\rsub $count 1\rset $count\r\rget $_cannotBeDispelled\rgetp first\rset $node\rfor $i 0 $count\r    if $node\r        get $node\r\t\tgetp item\r        getp ca\r        getp typeTagList\r        set $typeTagList\r        getp Count\r        set $length\r        for $j 0 $length\r            get $typeTagList $j\r            getp tagId\r            getp id\r            set $tagId\r            if $tagId eq 12602075\r                add $valueSN 10000\r                set $valueSN\r            endif\r        endFor\r\r        get $node\r        getp next\r\t\tset $node\r    endif\rendFor\r\rget $curBuff\rgetp snapshot\rset $snapshot\rcallWith $snapshot SetAttributeBase $valueSN \"duanHunDmgUpCount\" \"Number\" $true\r\rret 0",
+    "cacheAsGMF": true
+  },
+  {
+    "id": 60000194,
+    "idCN": "角色/蓝鹊儿/宝镜通明补算观真自身费用",
+    "mod": "执行GS脚本",
+    "isInformalData": false,
+    "debug": false,
+    "autoRecycle": false,
+    "memo": "宝镜通明读取观真本次SpendCost，按每3费抽1并把余数写回持续累计触发器",
+    "paramHelp": "",
+    "returnType": "int",
+    "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rset $battleControlManager\r\rgetp curGSBuff\rset $curBuff\r\rgetp target\rset $target\r\rget $curBuff\rgetp snapshot\rset $snapshot\r\rif $target\r    get $target\r    getp buffSystem\r    set $buffSystem\r\r    callWith $buffSystem GetSpecifiedBuff 10428479\r    set $costBuff\r\r    set $needAdd 1\r    if $costBuff\r        set $needAdd 0\r    endif\r\r    if $needAdd eq 1\r        callWith $snapshot GetValueSN \"SpendCost\" $false\r        set $remain\r\r    get $curBuff\r    getp _buffFactory\r    set $buffFactory\r\r    get $curBuff\r    getp owner\r    set $owner\r\r    get $curBuff\r    getp action\r    set $action\r\r    get $curBuff\r    getp positionSN\r    set $positionSN\r\r    get $curBuff\r    getp isSkill\r    set $isSkill\r\r    get $curBuff\r    getp from\r    set $from\r\r    get $curBuff\r    getp fromUnitSID\r    set $fromUnitSID\r\r        getc BuffFactory\r        if\r            getMethodInfo Produce 9 \"System.Int32\" \"Unit\" \"Snapshot\" \"UnitAction\" \"IBuffSystem\" \"PointSN\" \"System.Boolean\" \"System.Int32\" \"System.Int32\"\r            callMethodInfo $buffFactory 10428479 $owner $snapshot $action $target $positionSN $isSkill $from $fromUnitSID\r            set $costBuff\r            callWith $target AddBuff $costBuff\r        else\r            getc Battle.BuffFactory\r            getMethodInfo Produce 9 \"System.Int32\" \"Battle.Unit\" \"Battle.Snapshot\" \"Battle.UnitAction\" \"Battle.IBuffSystem\" \"PointSN\" \"System.Boolean\" \"System.Int32\" \"System.Int32\"\r            callMethodInfo $buffFactory 10428479 $owner $snapshot $action $target $positionSN $isSkill $from $fromUnitSID\r            set $costBuff\r            callWith $target AddBuff $costBuff\r        endif\r\r    for $i 0 99\r        if $remain ge 30000\r            getc BuffFactory\r            if\r                getMethodInfo Produce 9 \"System.Int32\" \"Unit\" \"Snapshot\" \"UnitAction\" \"IBuffSystem\" \"PointSN\" \"System.Boolean\" \"System.Int32\" \"System.Int32\"\r                callMethodInfo $buffFactory 10428481 $owner $snapshot $action $target $positionSN $isSkill $from $fromUnitSID\r                set $tBuff\r                callWith $target AddBuff $tBuff\r            else\r                getc Battle.BuffFactory\r                getMethodInfo Produce 9 \"System.Int32\" \"Battle.Unit\" \"Battle.Snapshot\" \"Battle.UnitAction\" \"Battle.IBuffSystem\" \"PointSN\" \"System.Boolean\" \"System.Int32\" \"System.Int32\"\r                callMethodInfo $buffFactory 10428481 $owner $snapshot $action $target $positionSN $isSkill $from $fromUnitSID\r                set $tBuff\r                callWith $target AddBuff $tBuff\r            endif\r\r            sub $remain 30000\r            set $remain\r        endif\r    endFor\r\r    if $costBuff\r        get $costBuff\r        setp curVal $remain\r    endif\r    endif\rendif\r\rret 0",
+    "cacheAsGMF": true
   }
 ]

@@ -4381,7 +4381,14 @@
         "rank": 500
       }
     ],
-    "rankingMail": 80800393
+    "rankingMail": 80800393,
+    "itemConvert": [
+      {
+        "newItemId": 11401014,
+        "oldItemId": 11400664,
+        "ratio": 1.0
+      }
+    ]
   },
   {
     "id": 86000054,
@@ -8065,6 +8072,9 @@
         "num": 1
       }
     ],
+    "URDColor": "FFFFFF",
+    "RColor": "FFFFFF",
+    "RDColor": "FFFFFF",
     "activityStoreList": [],
     "bannerList": [],
     "bannerCapsuleList": [],
@@ -8080,7 +8090,7 @@
     "bossSpineScaleY": 1.2,
     "bossSpineX": 1300.0,
     "bossSpineY": -350.0,
-    "bossHpReduceRatio": 1.0,
+    "bossHpReduceRatio": 2.0,
     "bossTimes": 5,
     "bossTimesBuy": 5,
     "bossTimesCost": [
@@ -10145,16 +10155,16 @@
   },
   {
     "id": 86000242,
-    "idCN": "活动/限时累充/05",
+    "idCN": "活动/限时累充/05踏枝臻礼",
     "mod": "累充",
     "isInformalData": false,
-    "name": "曙光酬礼",
+    "name": "踏枝臻礼",
     "showUI": "",
     "bgPath": "",
     "bgColor": "FFFFFF",
     "npcId": -1,
     "helpId": -1,
-    "voiceActivity": 30007102,
+    "voiceActivity": 30007373,
     "correspondingCity": [],
     "correspondingBuild": [],
     "openLv": 1,
@@ -10171,9 +10181,11 @@
     "putTime": 0,
     "continueTime": -1,
     "closeTime": -1,
+    "countDownMax": -1,
+    "adShowTime": 7,
     "isTime": true,
-    "startTime": "2025-12-31 12:00:00",
-    "endTime": "2026-01-30 12:00:00",
+    "startTime": "2026-05-13 00:00:00",
+    "endTime": "2026-06-15 12:00:00",
     "rewardEndTime": "",
     "replicateNum": 1,
     "isClearCurrency": false,
@@ -10184,54 +10196,146 @@
     "rewardPreviewList": [],
     "rewardsList": [
       {
+        "Bg1": "UI/Activity/ActivityRecharge/05/item01",
+        "Bg2": "UI/Activity/ActivityRecharge/05/item02",
+        "Bg3": "UI/Activity/ActivityRecharge/05/item03",
+        "BgR": "",
+        "BgRD": "",
+        "BgUR": "",
+        "BgX": -560.2,
+        "BgY": 94.5,
         "amount": 0,
         "iconMan": "",
         "iconWoman": "",
-        "rewardsListId": 86100288
+        "itemX": 15.0,
+        "itemY": -15.0,
+        "rewardsListId": 86100477
       },
       {
+        "Bg1": "UI/Activity/ActivityRecharge/05/item01",
+        "Bg2": "UI/Activity/ActivityRecharge/05/item02",
+        "Bg3": "UI/Activity/ActivityRecharge/05/item03",
+        "BgR": "",
+        "BgRD": "",
+        "BgUR": "",
+        "BgX": -468.5,
+        "BgY": -166.2,
         "amount": 30,
         "iconMan": "",
         "iconWoman": "",
-        "rewardsListId": 86100289
+        "itemX": 15.0,
+        "itemY": -10.0,
+        "rewardsListId": 86100478
       },
       {
+        "Bg1": "UI/Activity/ActivityRecharge/05/item01",
+        "Bg2": "UI/Activity/ActivityRecharge/05/item02",
+        "Bg3": "UI/Activity/ActivityRecharge/05/item03",
+        "BgR": "",
+        "BgRD": "",
+        "BgUR": "",
+        "BgX": -228.2,
+        "BgY": -301.8,
         "amount": 128,
         "iconMan": "",
         "iconWoman": "",
-        "rewardsListId": 86100290
+        "itemX": 10.0,
+        "itemY": -20.0,
+        "rewardsListId": 86100479
       },
       {
+        "Bg1": "UI/Activity/ActivityRecharge/05/item01",
+        "Bg2": "UI/Activity/ActivityRecharge/05/item02",
+        "Bg3": "UI/Activity/ActivityRecharge/05/item03",
+        "BgR": "",
+        "BgRD": "",
+        "BgUR": "",
+        "BgX": 72.6,
+        "BgY": -363.0,
         "amount": 198,
         "iconMan": "",
         "iconWoman": "",
-        "rewardsListId": 86100291
+        "itemX": 15.0,
+        "itemY": -15.0,
+        "rewardsListId": 86100480
       },
       {
+        "Bg1": "UI/Activity/ActivityRecharge/05/item01",
+        "Bg2": "UI/Activity/ActivityRecharge/05/item02",
+        "Bg3": "UI/Activity/ActivityRecharge/05/item03",
+        "BgR": "",
+        "BgRD": "",
+        "BgUR": "",
+        "BgX": 380.0,
+        "BgY": -310.8,
         "amount": 398,
         "iconMan": "",
         "iconWoman": "",
-        "rewardsListId": 86100292
+        "itemX": 15.0,
+        "itemY": -10.0,
+        "rewardsListId": 86100481
       },
       {
+        "Bg1": "UI/Activity/ActivityRecharge/05/item01",
+        "Bg2": "UI/Activity/ActivityRecharge/05/item02",
+        "Bg3": "UI/Activity/ActivityRecharge/05/item03",
+        "BgR": "",
+        "BgRD": "",
+        "BgUR": "",
+        "BgX": 611.5,
+        "BgY": -166.2,
         "amount": 598,
         "iconMan": "",
         "iconWoman": "",
-        "rewardsListId": 86100293
+        "itemX": 15.0,
+        "itemY": -15.0,
+        "rewardsListId": 86100482
       },
       {
+        "Bg1": "UI/Activity/ActivityRecharge/05/item01",
+        "Bg2": "UI/Activity/ActivityRecharge/05/item02",
+        "Bg3": "UI/Activity/ActivityRecharge/05/item03",
+        "BgR": "",
+        "BgRD": "",
+        "BgUR": "",
+        "BgX": 690.5,
+        "BgY": 94.5,
         "amount": 998,
         "iconMan": "",
         "iconWoman": "",
-        "rewardsListId": 86100294
+        "itemX": 15.0,
+        "itemY": -15.0,
+        "rewardsListId": 86100483
       },
       {
+        "Bg1": "UI/Activity/ActivityRecharge/05/item0108",
+        "Bg2": "UI/Activity/ActivityRecharge/05/item0208",
+        "Bg3": "UI/Activity/ActivityRecharge/05/item0308",
+        "BgR": "UI/Activity/ActivityRecharge/05/item010801",
+        "BgRD": "UI/Activity/ActivityRecharge/05/item020801",
+        "BgUR": "UI/Activity/ActivityRecharge/05/item030801",
+        "BgX": 39.0,
+        "BgY": 161.0,
         "amount": 1288,
-        "iconMan": "UI/Activity/ActivityRecharge/04/item0108",
-        "iconWoman": "UI/Activity/ActivityRecharge/04/item0108",
-        "rewardsListId": 86100466
+        "iconMan": "UI/Activity/ActivityRecharge/05/item0108",
+        "iconWoman": "UI/Activity/ActivityRecharge/05/item0108",
+        "itemX": 0.0,
+        "itemY": 0.0,
+        "rewardsListId": 86100484
       }
     ],
+    "FullBgD": "UI/Activity/ActivityRecharge/05/bard",
+    "FullBgU": "UI/Activity/ActivityRecharge/05/bar",
+    "TimeBg": "UI/Activity/ActivityRecharge/05/timed",
+    "Bg": "UI/Activity/ActivityRecharge/05/bg",
+    "titleId": 88300317,
+    "logoX": 149.2,
+    "logoY": -171.2,
+    "coinX": -306.0,
+    "coinY": -39.6,
+    "URDColor": "777777",
+    "RColor": "373434",
+    "RDColor": "9D9396",
     "activityStoreList": [],
     "bannerList": [],
     "bannerCapsuleList": [],
@@ -13130,16 +13234,16 @@
     "showUI": "",
     "bgPath": "",
     "bgColor": "FFFFFF",
-    "npcId": 83700186,
-    "helpId": 80309584,
-    "voiceActivity": 30007503,
+    "npcId": 83700183,
+    "helpId": 80309309,
+    "voiceActivity": 30007504,
     "correspondingCity": [],
     "correspondingBuild": [],
     "openLv": 1,
     "openTradeLv": 0,
     "showResidueUI": "",
     "openTipsType": "normal",
-    "showOpenTipsUI": "",
+    "showOpenTipsUI": "UI/Activity/ActivitySignBattle/SignBattleTipLanque",
     "isJoin": true,
     "isOnly": -1,
     "questId": 81000037,
@@ -13152,9 +13256,9 @@
     "countDownMax": 3,
     "adShowTime": 7,
     "isTime": true,
-    "startTime": "2026-03-13 12:00:00",
-    "endTime": "2026-04-15 12:00:00",
-    "rewardEndTime": "2026-04-15 12:00:00",
+    "startTime": "2026-05-13 00:00:00",
+    "endTime": "2026-07-15 12:00:00",
+    "rewardEndTime": "2026-07-15 12:00:00",
     "replicateNum": 1,
     "isClearCurrency": false,
     "clearCurrencyList": [],
@@ -13163,39 +13267,19 @@
     "allScheduleRefreshTime": 60,
     "rewardPreviewList": [
       {
-        "id": 11400005,
-        "isShowNum": true,
-        "num": 500
-      },
-      {
-        "id": 11400978,
+        "id": 82601296,
         "isShowNum": false,
         "num": 0
       },
       {
-        "id": 82601204,
+        "id": 82601297,
         "isShowNum": false,
         "num": 0
       },
       {
-        "id": 82601203,
-        "isShowNum": false,
-        "num": 0
-      },
-      {
-        "id": 11400972,
+        "id": 11401075,
         "isShowNum": false,
         "num": 10
-      },
-      {
-        "id": 11400084,
-        "isShowNum": false,
-        "num": 0
-      },
-      {
-        "id": 11400407,
-        "isShowNum": false,
-        "num": 0
       },
       {
         "id": 11700245,
@@ -13215,96 +13299,72 @@
     ],
     "activityStoreList": [
       {
-        "id": 40300151
+        "id": 40300215
       }
     ],
     "bannerList": [],
     "bannerCapsuleList": [],
     "giftList": [],
-    "joinPlotId": -1,
+    "joinPlotId": 20700889,
     "ActivityLevelId": -1,
-    "joinQuestId": -1,
+    "joinQuestId": 81003152,
     "skipStationStart": -1,
     "skipQuestLimit": -1,
     "PersonalProgressList": [
       {
-        "id": 81002982
+        "id": 81003054
       },
       {
-        "id": 81002975
+        "id": 81003055
       },
       {
-        "id": 81002985
+        "id": 81003058
       },
       {
-        "id": 81002993
+        "id": 81003086
       },
       {
-        "id": 81002981
+        "id": 81003059
       },
       {
-        "id": 81002995
+        "id": 81003091
       },
       {
-        "id": 81002978
+        "id": 81003062
       },
       {
-        "id": 81002980
+        "id": 81003094
       },
       {
-        "id": 81002992
+        "id": 81003063
       },
       {
-        "id": 81002984
+        "id": 81003095
       },
       {
-        "id": 81002987
+        "id": 81003065
       },
       {
-        "id": 81002976
+        "id": 81003096
       },
       {
-        "id": 81002934
+        "id": 81003074
       },
       {
-        "id": 81002994
+        "id": 81003101
       },
       {
-        "id": 81002989
+        "id": 81003083
       },
       {
-        "id": 81002991
-      },
-      {
-        "id": 81002927
-      },
-      {
-        "id": 81002979
-      },
-      {
-        "id": 81002988
-      },
-      {
-        "id": 81002986
-      },
-      {
-        "id": 81002977
-      },
-      {
-        "id": 81002990
-      },
-      {
-        "id": 81002996
-      },
-      {
-        "id": 81002983
+        "id": 81003102
       }
     ],
     "city": -1,
     "levelQuestLimit": -1,
     "levelTypeList": [
       {
-        "id": 86100467,
+        "id": 86100485,
         "startTime": ""
       }
     ],
@@ -13315,9 +13375,125 @@
     "gameOpen": false,
     "gameList": -1,
     "gamePrefabUrl": "",
-    "activityCardPack": 86300015,
+    "activityCardPack": 86300016,
     "isGoldLevel": false,
     "joinGetItem": [],
-    "signChallengeActivityId": 86000281
+    "signChallengeActivityId": 86000322,
+    "URDColor": "FFFFFF",
+    "RColor": "FFFFFF",
+    "RDColor": "FFFFFF"
+  },
+  {
+    "id": 86000322,
+    "idCN": "签到挑战/蓝鹊儿试用活动",
+    "mod": "登录解锁挑战",
+    "isInformalData": false,
+    "name": "",
+    "showUI": "",
+    "bgPath": "",
+    "bgColor": "FFFFFF",
+    "npcId": -1,
+    "helpId": -1,
+    "voiceActivity": 30006925,
+    "correspondingCity": [],
+    "correspondingBuild": [],
+    "openLv": 1,
+    "openTradeLv": 0,
+    "showResidueUI": "",
+    "openTipsType": "normal",
+    "showOpenTipsUI": "",
+    "isJoin": false,
+    "isOnly": -1,
+    "questId": -1,
+    "taskIndex": 0,
+    "unlockTips": -1,
+    "isTriggerTime": false,
+    "putTime": -1,
+    "continueTime": -1,
+    "closeTime": -1,
+    "countDownMax": -1,
+    "adShowTime": 7,
+    "isTime": false,
+    "startTime": "2026-05-13 00:00:00",
+    "endTime": "2026-07-15 12:00:00",
+    "rewardEndTime": "2026-07-15 12:00:00",
+    "replicateNum": 1,
+    "isClearCurrency": false,
+    "clearCurrencyList": [],
+    "isClearAllQuest": false,
+    "isClearPersonalQuest": false,
+    "allScheduleRefreshTime": 60,
+    "rewardPreviewList": [],
+    "URDColor": "FFFFFF",
+    "RColor": "FFFFFF",
+    "RDColor": "FFFFFF",
+    "activityStoreList": [],
+    "bannerList": [],
+    "bannerCapsuleList": [],
+    "giftList": [],
+    "joinPlotId": -1,
+    "joinQuestId": -1,
+    "activityRankList": [
+      {
+        "id": 84300062
+      }
+    ],
+    "activityRewardRankList": [
+      {
+        "id": 84300062
+      }
+    ],
+    "city": -1,
+    "activityCardPack": -1,
+    "signBattleUI": "UI/Activity/ActivitySignBattle/SignBattleLevelLanque",
+    "isCloseReward": false,
+    "isDynamicEndTime": false,
+    "needRegisterTime": "",
+    "signBattleLimitLv": 999,
+    "signBattleInitLevel": 12,
+    "signLevelList": [
+      {
+        "id": 20103514
+      },
+      {
+        "id": 20103512
+      },
+      {
+        "id": 20103508
+      },
+      {
+        "id": 20103513
+      },
+      {
+        "id": 20103509
+      },
+      {
+        "id": 20103511
+      },
+      {
+        "id": 20103507
+      },
+      {
+        "id": 20103510
+      }
+    ],
+    "signBattleRewards": [
+      {
+        "id": 82601292,
+        "num": 1
+      }
+    ],
+    "signBattleTimeExtra": 5,
+    "signBattleExtract": 80500378,
+    "videoHttp": "",
+    "joinGetItem": [],
+    "rankingReward": [
+      {
+        "id": 80309360,
+        "rank": 2000
+      }
+    ],
+    "rankingMail": 80800975,
+    "signChallengeActivityId": -1
   }
 ]
