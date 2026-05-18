@@ -29179,7 +29179,7 @@
   },
   {
     "id": 10300695,
-    "idCN": "敌方/02桦树/始源/云螭",
+    "idCN": "敌方/02桦树/始源/云螭/鱼",
     "mod": "BOSSAI",
     "isInformalData": false,
     "targetInvisibleEffectId": 11102488,
@@ -29191,14 +29191,27 @@
       }
     ],
     "normalAttackCritID": -1,
-    "skillList": [],
+    "skillList": [
+      {
+        "actionId": 10105061,
+        "activeFrame": 241,
+        "activeTime": 4.0,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10105059,
+        "activeFrame": 601,
+        "activeTime": 10.0,
+        "rangeSN": -10000
+      }
+    ],
     "isInvisibleBeforeShowUp": true,
     "showupSkillList": [
       {
         "actionId": 10105057
       }
     ],
-    "skillLoopDelayFrame": 192,
+    "skillLoopDelayFrame": 300,
     "shapeShiftList": [],
     "commandList": [],
     "enemySkillList": [],
@@ -29208,10 +29221,59 @@
         "actionId": 10105054
       }
     ],
-    "energyRestorePerFrameSN": 330,
+    "energyRestorePerFrameSN": 278,
     "energyBarColor": "#FFB200",
     "isSkillDelay": false,
     "minDelay": 360,
     "maxDelay": 360
+  },
+  {
+    "id": 10300696,
+    "idCN": "敌方/02桦树/始源/云螭/龙",
+    "mod": "BOSSAI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10105046
+      },
+      {
+        "actionID": 10105048
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10105043,
+        "activeFrame": 481,
+        "activeTime": 8.0,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10105044,
+        "activeFrame": 961,
+        "activeTime": 16.0,
+        "rangeSN": -10000
+      }
+    ],
+    "isInvisibleBeforeShowUp": true,
+    "showupSkillList": [],
+    "skillLoopDelayFrame": 360,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": true,
+    "energySkillList": [
+      {
+        "actionId": 10105050
+      }
+    ],
+    "energyRestorePerFrameSN": 417,
+    "energyBarColor": "#FFB200",
+    "isSkillDelay": true,
+    "minDelay": 0,
+    "maxDelay": 240
   }
 ]

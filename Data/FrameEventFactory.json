@@ -47194,17 +47194,17 @@
   },
   {
     "id": 10503724,
-    "idCN": "敌方/02桦树/始源/云螭/技能3",
+    "idCN": "敌方/02桦树/始源/云螭/技能3转阶段开始",
     "mod": "给自己上BUFF",
     "isInformalData": false,
-    "buffId": 10428630
+    "buffId": 10428632
   },
   {
     "id": 10503725,
-    "idCN": "敌方/02桦树/始源/云螭/技能2段1",
+    "idCN": "敌方/02桦树/始源/云螭/技能2攻击",
     "mod": "攻击事件",
     "isInformalData": false,
-    "buffId": 10428630,
+    "buffId": 10428631,
     "hitSoundID": -1
   },
   {
@@ -47219,7 +47219,7 @@
     "idCN": "敌方/02桦树/始源/云螭/bs普攻1",
     "mod": "子弹事件",
     "isInformalData": false,
-    "buffId": 10428630,
+    "buffId": 10428645,
     "bulletId": 11200835,
     "targetType": "CurrentTarget",
     "offSetX_SN": 0,
@@ -47248,25 +47248,25 @@
     "idCN": "敌方/02桦树/始源/云螭/bs普攻2",
     "mod": "攻击事件",
     "isInformalData": false,
-    "buffId": 10428630,
+    "buffId": 10428646,
     "hitSoundID": -1
   },
   {
     "id": 10503729,
     "idCN": "敌方/02桦树/始源/云螭/普攻1",
-    "mod": "攻击事件",
+    "mod": "添加Buff",
     "isInformalData": false,
-    "buffId": 10428630,
-    "hitSoundID": -1
+    "buffId": 10428640,
+    "targetType": "CurrentTarget"
   },
   {
     "id": 10503730,
     "idCN": "敌方/02桦树/始源/云螭/bs技能1",
     "mod": "子弹事件",
     "isInformalData": false,
-    "buffId": 10428630,
+    "buffId": 10428654,
     "bulletId": 11200834,
-    "targetType": "CurrentTarget",
+    "targetType": "Random",
     "offSetX_SN": 0,
     "offSetZ_SN": 0,
     "isUseTargetFilter": false,
@@ -47293,17 +47293,17 @@
     "idCN": "敌方/02桦树/始源/云螭/bs技能2",
     "mod": "添加Buff",
     "isInformalData": false,
-    "buffId": 10428630,
-    "targetType": "CurrentTarget"
+    "buffId": 10428655,
+    "targetType": "Random"
   },
   {
     "id": 10503732,
     "idCN": "敌方/02桦树/始源/云螭/bs技能3",
     "mod": "子弹事件",
     "isInformalData": false,
-    "buffId": 10428630,
+    "buffId": 10428671,
     "bulletId": 11200833,
-    "targetType": "CurrentTarget",
+    "targetType": "Random",
     "offSetX_SN": 0,
     "offSetZ_SN": 0,
     "isUseTargetFilter": false,
@@ -47327,33 +47327,25 @@
   },
   {
     "id": 10503733,
-    "idCN": "敌方/02桦树/始源/云螭/共振4",
-    "mod": "给自己上BUFF",
-    "isInformalData": false,
-    "buffId": 10428630
-  },
-  {
-    "id": 10503734,
-    "idCN": "敌方/02桦树/始源/云螭/技能2段2",
+    "idCN": "敌方/02桦树/始源/云螭/被动4击晕",
     "mod": "攻击事件",
     "isInformalData": false,
-    "buffId": 10428630,
+    "buffId": 10428709,
     "hitSoundID": -1
   },
   {
     "id": 10503735,
-    "idCN": "敌方/02桦树/始源/云螭/技能2段3",
-    "mod": "攻击事件",
+    "idCN": "敌方/02桦树/始源/云螭/技能2计算增伤",
+    "mod": "给自己上BUFF",
     "isInformalData": false,
-    "buffId": 10428630,
-    "hitSoundID": -1
+    "buffId": 10428633
   },
   {
     "id": 10503736,
-    "idCN": "敌方/02桦树/始源/云螭/共振2",
+    "idCN": "敌方/02桦树/始源/云螭/被动2UI子弹",
     "mod": "子弹事件",
     "isInformalData": false,
-    "buffId": 10428630,
+    "buffId": 10406379,
     "bulletId": 11200882,
     "targetType": "CurrentTarget",
     "offSetX_SN": 0,
@@ -47376,5 +47368,57 @@
     "filterPosition": "DefaultPos",
     "isAimSelf": false,
     "targetCount": 0
+  },
+  {
+    "id": 10503734,
+    "idCN": "敌方/02桦树/始源/云螭/技能3转阶段结束",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10428644
+  },
+  {
+    "id": 10503737,
+    "idCN": "敌方/02桦树/始源/云螭/被动2伤害子弹",
+    "mod": "子弹事件",
+    "isInformalData": false,
+    "buffId": 10428692,
+    "bulletId": 11200836,
+    "targetType": "CurrentTarget",
+    "offSetX_SN": 0,
+    "offSetZ_SN": 0,
+    "isUseTargetFilter": false,
+    "isIgnoreInvisibleEnemy": true,
+    "targetFilterType": "Ally",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 0,
+    "attributeType": "HpMax",
+    "condition": "Max",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 0
+  },
+  {
+    "id": 10503738,
+    "idCN": "敌方/02桦树/始源/云螭/被动4昏睡",
+    "mod": "攻击事件",
+    "isInformalData": false,
+    "buffId": 10428710,
+    "hitSoundID": -1
+  },
+  {
+    "id": 10503739,
+    "idCN": "敌方/02桦树/始源/云螭/被动4冰封",
+    "mod": "攻击事件",
+    "isInformalData": false,
+    "buffId": 10428711,
+    "hitSoundID": -1
   }
 ]
