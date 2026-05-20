@@ -11856,8 +11856,8 @@
     "path": "RolePlus\\00Gift\\Jalhay\\JingShenYaZhi",
     "attriDetialList": [],
     "attributeList": [],
-    "tempdesc": "【精神吞噬】增强为：\\n【伴生体】感知混沌，使敌方全体受到的混响/负能伤害增加20%，持续12秒\\n触发以下效果，有效3次\\n使用紫卡时，获得10点精力值，释放强大的精神攻击对敌方目标造成1段伤害并【混乱】，同时使敌方目标攻击力下降2%，使自身攻击力+2%，可叠加\\n此卡使用时，计数1次",
-    "desc": "【精神吞噬】增强为：\\n【伴生体】感知混沌，使敌方全体受到的混响/负能伤害增加20%，持续12秒\\n触发以下效果，有效3次\\n使用紫卡时，获得10点精力值，释放强大的精神攻击对敌方目标造成1段伤害并<color=#B383FF>【混乱】</color>，同时使敌方目标攻击力下降2%，使自身攻击力+2%，可叠加\\n此卡使用时，计数1次",
+    "tempdesc": "【精神吞噬】增强为：\\n【伴生体】感知混沌，使敌方全体受到的混响/负能/精神伤害增加20%，持续12秒\\n触发以下效果，有效3次\\n使用紫卡时，获得10点精力值，释放强大的精神攻击对敌方目标造成1段伤害并【混乱】，同时使敌方目标攻击力下降2%，使自身攻击力+2%，可叠加\\n此卡使用时，计数1次",
+    "desc": "【精神吞噬】增强为：\\n【伴生体】感知混沌，使敌方全体受到的混响/负能/精神伤害增加20%，持续12秒\\n触发以下效果，有效3次\\n使用紫卡时，获得10点精力值，释放强大的精神攻击对敌方目标造成1段伤害并<color=#B383FF>【混乱】</color>，同时使敌方目标攻击力下降2%，使自身攻击力+2%，可叠加\\n此卡使用时，计数1次",
     "awakeLv": 5,
     "skillList": [],
     "skillChangeList": [
@@ -21594,20 +21594,24 @@
   },
   {
     "id": 12800706,
-    "idCN": "00原版/05五星/铁盟/黎美琪/共振1-肾上腺素",
+    "idCN": "00原版/05五星/铁盟/美琪/共振1-肾上腺素",
     "mod": "基础天赋",
     "isInformalData": false,
-    "path": "RolePlus\\00Gift\\Shizuru\\ShenShangXianSu",
+    "path": "RolePlus/00Gift/Meiqi/ShenShangXianSu",
     "attriDetialList": [],
     "attributeList": [],
     "tempdesc": "使用【全息干扰网】时，注射肾上腺素，回复自身与链接的目标队友15%生命值，同时自身【普通攻击】攻击速度提高至最大，持续10秒",
     "desc": "使用【全息干扰网】时，注射肾上腺素，回复自身与链接的目标队友15%生命值，同时自身【普通攻击】攻击速度提高至最大，持续10秒",
     "awakeLv": 2,
-    "skillList": [],
+    "skillList": [
+      {
+        "skillId": 12304853
+      }
+    ],
     "skillChangeList": [],
     "skillParamOffsetList": [],
     "name": "肾上腺素",
-    "skillIntensify": 12302626,
+    "skillIntensify": -1,
     "skillActiveUpgrade": [],
     "attributeIntensify": [
       {
@@ -21623,7 +21627,7 @@
   },
   {
     "id": 12800707,
-    "idCN": "00原版/05五星/铁盟/黎美琪/共振2-战术补给",
+    "idCN": "00原版/05五星/铁盟/美琪/共振2-战术补给",
     "mod": "基础天赋",
     "isInformalData": false,
     "path": "RolePlus/00Gift/Meiqi/ZhanShuBuJi",
@@ -21632,11 +21636,15 @@
     "tempdesc": "开局生成1张【信号覆写】加入牌库底",
     "desc": "开局生成1张【信号覆写】加入牌库底",
     "awakeLv": 3,
-    "skillList": [],
+    "skillList": [
+      {
+        "skillId": 12304854
+      }
+    ],
     "skillChangeList": [],
     "skillParamOffsetList": [],
     "name": "战术补给",
-    "skillIntensify": 12304834,
+    "skillIntensify": -1,
     "skillActiveUpgrade": [],
     "attributeIntensify": [
       {
@@ -21652,7 +21660,7 @@
   },
   {
     "id": 12800708,
-    "idCN": "00原版/05五星/铁盟/黎美琪/共振3-生机",
+    "idCN": "00原版/05五星/铁盟/美琪/共振3-生机",
     "mod": "基础天赋",
     "isInformalData": false,
     "path": "RolePlus\\00Gift\\Box\\ShengJi",
@@ -21671,7 +21679,7 @@
     "skillChangeList": [],
     "skillParamOffsetList": [],
     "name": "生机",
-    "skillIntensify": 12304835,
+    "skillIntensify": -1,
     "skillActiveUpgrade": [],
     "attributeIntensify": [
       {
@@ -21687,7 +21695,7 @@
   },
   {
     "id": 12800709,
-    "idCN": "00原版/05五星/铁盟/黎美琪/共振4-专线补给",
+    "idCN": "00原版/05五星/铁盟/美琪/共振4-专线补给",
     "mod": "基础天赋",
     "isInformalData": false,
     "path": "RolePlus/00Gift/Meiqi/ZhuanXianBuJi",
@@ -21696,11 +21704,15 @@
     "tempdesc": "使用【密语专线】后，从牌库将1张目标队友的技能牌加入手牌",
     "desc": "使用【密语专线】后，从牌库将1张目标队友的技能牌加入手牌",
     "awakeLv": 5,
-    "skillList": [],
+    "skillList": [
+      {
+        "skillId": 12304857
+      }
+    ],
     "skillChangeList": [],
     "skillParamOffsetList": [],
     "name": "专线补给",
-    "skillIntensify": 12304836,
+    "skillIntensify": -1,
     "skillActiveUpgrade": [],
     "attributeIntensify": [
       {
@@ -21716,7 +21728,7 @@
   },
   {
     "id": 12800710,
-    "idCN": "00原版/05五星/铁盟/黎美琪/共振5-统合协议",
+    "idCN": "00原版/05五星/铁盟/美琪/共振5-统合协议",
     "mod": "基础天赋",
     "isInformalData": false,
     "path": "RolePlus/00Gift/Meiqi/TongHeXieYi",
@@ -21726,7 +21738,12 @@
     "desc": "【全息干扰网】增强为：\\n部署干扰装置，形成环境【全息干扰网】，持续12秒\\n持续期间：\\n使敌方全体<color=#B383FF>【致幻】</color>\\n使我方全体【无人机】/【机械单位】/【铁盟队员】造成的最终伤害提高50%",
     "awakeLv": 6,
     "skillList": [],
-    "skillChangeList": [],
+    "skillChangeList": [
+      {
+        "newSkillId": 12304861,
+        "oldSkillId": 12304491
+      }
+    ],
     "skillParamOffsetList": [],
     "name": "统合协议",
     "skillIntensify": -1,
