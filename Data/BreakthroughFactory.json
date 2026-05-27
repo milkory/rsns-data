@@ -19896,11 +19896,11 @@
   },
   {
     "id": 12100203,
-    "idCN": "05五星/美琪/觉醒2-附加弹仓",
+    "idCN": "05五星/美琪/觉醒2-战术补给",
     "mod": "基础突破",
     "isInformalData": false,
-    "name": "附加弹仓",
-    "path": "RolePlus/00Gift/Meiqi/FuJiaTanCang",
+    "name": "战术补给",
+    "path": "RolePlus/00Gift/Meiqi/ZhanShuBuJi",
     "attriDetialList": [],
     "attributeList": [],
     "materialList": [
@@ -19911,12 +19911,17 @@
     ],
     "skillList": [
       {
-        "skillId": 12304859
+        "skillId": 12304873
       }
     ],
-    "tempdesc": "【普通攻击】/【协同射击】弹药数+2（随机效果也触发3次）",
-    "desc": "【普通攻击】/【协同射击】弹药数+2（随机效果也触发3次）",
-    "skillChangeList": [],
+    "tempdesc": "【信号覆写】增强为：\\n抽2张牌，优先费用最高的卡牌\\n使抽到的卡牌费用变为0，同时本场战斗所需费用-2\\n使用后【销毁】",
+    "desc": "【信号覆写】增强为：\\n抽2张牌，优先费用最高的卡牌\\n使抽到的卡牌费用变为0，同时本场战斗所需费用-2\\n使用后【销毁】",
+    "skillChangeList": [
+      {
+        "newSkillId": 12304859,
+        "oldSkillId": 12304490
+      }
+    ],
     "skillParamOffsetList": []
   },
   {
@@ -19976,8 +19981,8 @@
         "skillId": 12304860
       }
     ],
-    "tempdesc": "【密语专线】可链接的队友数量上限+1",
-    "desc": "【密语专线】可链接的队友数量上限+1",
+    "tempdesc": "使用【密语专线】时额外链接1名随机队友，优先队长/铁盟队员，最多可额外链接1名我方\\n【密语专线】链接的目标若为铁盟队长，使其队长技冷却缩短5秒",
+    "desc": "使用【密语专线】时额外链接1名随机队友，优先队长/铁盟队员，最多可额外链接1名我方\\n【密语专线】链接的目标若为铁盟队长，使其队长技冷却缩短5秒",
     "skillChangeList": [],
     "skillParamOffsetList": []
   },
