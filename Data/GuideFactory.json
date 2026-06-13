@@ -1024,7 +1024,7 @@
     "mod": "引导",
     "isInformalData": false,
     "isRunInterrupt": false,
-    "isInterruptedSkip": false,
+    "isInterruptedSkip": true,
     "assignGuideId": -1,
     "playerLevel": 1,
     "levelFinishedFO": -1,
@@ -1032,7 +1032,7 @@
     "completeQuest": -1,
     "curStationRepLvLimit": 0,
     "triggerMeetEvent": -1,
-    "triggerPanelName": "UI/MainUI/MainUI",
+    "triggerPanelName": "UI/MainUI/Group_ArriveNewCity",
     "triggerProtocol": "",
     "triggerQuest": -1,
     "apiName": "",
@@ -1051,7 +1051,8 @@
         "orderId": 81100363
       }
     ],
-    "scene": ""
+    "scene": "",
+    "levelId": -1
   },
   {
     "id": 20900090,
@@ -13620,6 +13621,42 @@
     "orderList": [
       {
         "orderId": 81101114
+      }
+    ],
+    "scene": "",
+    "levelId": -1
+  },
+  {
+    "id": 20900208,
+    "idCN": "EP1下/103_S1入城后剧情(中断)",
+    "mod": "引导",
+    "isInformalData": false,
+    "isRunInterrupt": true,
+    "isInterruptedSkip": false,
+    "assignGuideId": -1,
+    "playerLevel": 1,
+    "levelFinishedFO": -1,
+    "reachStation": 83000001,
+    "completeQuest": -1,
+    "curStationRepLvLimit": 0,
+    "triggerMeetEvent": -1,
+    "triggerPanelName": "UI/MainUI/MainUI",
+    "triggerProtocol": "",
+    "triggerQuest": -1,
+    "apiName": "",
+    "isEndLoading": false,
+    "orderList": [
+      {
+        "orderId": 81100333
+      },
+      {
+        "orderId": 81100100
+      },
+      {
+        "orderId": 81100278
+      },
+      {
+        "orderId": 81100363
       }
     ],
     "scene": "",

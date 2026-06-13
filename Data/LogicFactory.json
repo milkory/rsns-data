@@ -2621,5 +2621,31 @@
     "returnType": "int",
     "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rset $battleControlManager\r\rgetp curGSBuff\rset $curBuff\r\rgetp target\rset $target\r\rget $curBuff\rgetp snapshot\rset $snapshot\r\rif $target\r    get $target\r    getp buffSystem\r    set $buffSystem\r\r    callWith $buffSystem GetSpecifiedBuff 10428479\r    set $costBuff\r\r    set $needAdd 1\r    if $costBuff\r        set $needAdd 0\r    endif\r\r    if $needAdd eq 1\r        callWith $snapshot GetValueSN \"SpendCost\" $false\r        set $remain\r\r    get $curBuff\r    getp _buffFactory\r    set $buffFactory\r\r    get $curBuff\r    getp owner\r    set $owner\r\r    get $curBuff\r    getp action\r    set $action\r\r    get $curBuff\r    getp positionSN\r    set $positionSN\r\r    get $curBuff\r    getp isSkill\r    set $isSkill\r\r    get $curBuff\r    getp from\r    set $from\r\r    get $curBuff\r    getp fromUnitSID\r    set $fromUnitSID\r\r        getc BuffFactory\r        if\r            getMethodInfo Produce 9 \"System.Int32\" \"Unit\" \"Snapshot\" \"UnitAction\" \"IBuffSystem\" \"PointSN\" \"System.Boolean\" \"System.Int32\" \"System.Int32\"\r            callMethodInfo $buffFactory 10428479 $owner $snapshot $action $target $positionSN $isSkill $from $fromUnitSID\r            set $costBuff\r            callWith $target AddBuff $costBuff\r        else\r            getc Battle.BuffFactory\r            getMethodInfo Produce 9 \"System.Int32\" \"Battle.Unit\" \"Battle.Snapshot\" \"Battle.UnitAction\" \"Battle.IBuffSystem\" \"PointSN\" \"System.Boolean\" \"System.Int32\" \"System.Int32\"\r            callMethodInfo $buffFactory 10428479 $owner $snapshot $action $target $positionSN $isSkill $from $fromUnitSID\r            set $costBuff\r            callWith $target AddBuff $costBuff\r        endif\r\r    for $i 0 99\r        if $remain ge 30000\r            getc BuffFactory\r            if\r                getMethodInfo Produce 9 \"System.Int32\" \"Unit\" \"Snapshot\" \"UnitAction\" \"IBuffSystem\" \"PointSN\" \"System.Boolean\" \"System.Int32\" \"System.Int32\"\r                callMethodInfo $buffFactory 10428481 $owner $snapshot $action $target $positionSN $isSkill $from $fromUnitSID\r                set $tBuff\r                callWith $target AddBuff $tBuff\r            else\r                getc Battle.BuffFactory\r                getMethodInfo Produce 9 \"System.Int32\" \"Battle.Unit\" \"Battle.Snapshot\" \"Battle.UnitAction\" \"Battle.IBuffSystem\" \"PointSN\" \"System.Boolean\" \"System.Int32\" \"System.Int32\"\r                callMethodInfo $buffFactory 10428481 $owner $snapshot $action $target $positionSN $isSkill $from $fromUnitSID\r                set $tBuff\r                callWith $target AddBuff $tBuff\r            endif\r\r            sub $remain 30000\r            set $remain\r        endif\r    endFor\r\r    if $costBuff\r        get $costBuff\r        setp curVal $remain\r    endif\r    endif\rendif\r\rret 0",
     "cacheAsGMF": true
+  },
+  {
+    "id": 60000191,
+    "idCN": "战斗逻辑/单位设置飞行",
+    "mod": "执行GS脚本",
+    "isInformalData": false,
+    "debug": false,
+    "autoRecycle": false,
+    "memo": "请作者添加注释，否则影响维护稳定性",
+    "paramHelp": "",
+    "returnType": "int",
+    "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rset $battleControlManager\r\rgetp curGSBuff\rset $curBuff\r\rgetp target\rset $target\r\rgetp ca\rsetp isFly $true\r\rret 0",
+    "cacheAsGMF": true
+  },
+  {
+    "id": 60000193,
+    "idCN": "战斗逻辑/单位设置非飞行",
+    "mod": "执行GS脚本",
+    "isInformalData": false,
+    "debug": false,
+    "autoRecycle": false,
+    "memo": "请作者添加注释，否则影响维护稳定性",
+    "paramHelp": "",
+    "returnType": "int",
+    "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rset $battleControlManager\r\rgetp curGSBuff\rset $curBuff\r\rgetp target\rset $target\r\rgetp ca\rsetp isFly $false\r\rret 0",
+    "cacheAsGMF": true
   }
 ]
