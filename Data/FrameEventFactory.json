@@ -20466,7 +20466,7 @@
   },
   {
     "id": 10502032,
-    "idCN": "敌方/02桦树/BOSS/涡旋之眼/普攻1",
+    "idCN": "敌方/02桦树/BOSS/涡旋之眼/普攻1斩裂",
     "mod": "子弹事件",
     "isInformalData": false,
     "buffId": 10409861,
@@ -20589,7 +20589,7 @@
   },
   {
     "id": 10502033,
-    "idCN": "敌方/02桦树/BOSS/涡旋之眼/普攻2",
+    "idCN": "敌方/02桦树/BOSS/涡旋之眼/普攻2撕裂",
     "mod": "攻击事件",
     "isInformalData": false,
     "buffId": 10409862,
@@ -20597,11 +20597,32 @@
   },
   {
     "id": 10502034,
-    "idCN": "敌方/02桦树/BOSS/涡旋之眼/普攻3",
-    "mod": "添加Buff",
+    "idCN": "敌方/02桦树/BOSS/涡旋之眼/普攻3禁锢",
+    "mod": "子弹事件",
     "isInformalData": false,
-    "buffId": 10409846,
-    "targetType": "Random"
+    "buffId": 10409863,
+    "bulletId": 11200897,
+    "targetType": "Random",
+    "offSetX_SN": 0,
+    "offSetZ_SN": 0,
+    "isUseTargetFilter": false,
+    "isIgnoreInvisibleEnemy": true,
+    "targetFilterType": "Ally",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 0,
+    "attributeType": "HpMax",
+    "condition": "Max",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 0
   },
   {
     "id": 10502039,
@@ -20634,7 +20655,7 @@
   },
   {
     "id": 10502040,
-    "idCN": "敌方/02桦树/BOSS/涡旋之眼/技能1火",
+    "idCN": "敌方/02桦树/BOSS/涡旋之眼/技能2火",
     "mod": "子弹事件",
     "isInformalData": false,
     "buffId": 10409864,
@@ -20663,10 +20684,10 @@
   },
   {
     "id": 10502041,
-    "idCN": "敌方/02桦树/BOSS/涡旋之眼/技能1冰",
+    "idCN": "敌方/02桦树/BOSS/涡旋之眼/技能3冰",
     "mod": "子弹事件",
     "isInformalData": false,
-    "buffId": 10409908,
+    "buffId": 10409865,
     "bulletId": 11200416,
     "targetType": "Random",
     "offSetX_SN": 0,
@@ -20697,7 +20718,7 @@
     "isInformalData": false,
     "buffId": 10409869,
     "bulletId": 11200418,
-    "targetType": "CurrentTarget",
+    "targetType": "Random",
     "offSetX_SN": 0,
     "offSetZ_SN": 0,
     "isUseTargetFilter": false,
@@ -20718,14 +20739,6 @@
     "filterPosition": "DefaultPos",
     "isAimSelf": false,
     "targetCount": 0
-  },
-  {
-    "id": 10502043,
-    "idCN": "敌方/02桦树/BOSS/涡旋之眼/技能4添加子弹",
-    "mod": "添加Buff",
-    "isInformalData": false,
-    "buffId": 10409913,
-    "targetType": "Random"
   },
   {
     "id": 10502044,
@@ -20734,7 +20747,7 @@
     "isInformalData": false,
     "buffId": 10409918,
     "bulletId": 11200419,
-    "targetType": "CurrentTarget",
+    "targetType": "Random",
     "offSetX_SN": 0,
     "offSetZ_SN": 0,
     "isUseTargetFilter": false,
@@ -20755,14 +20768,6 @@
     "filterPosition": "DefaultPos",
     "isAimSelf": false,
     "targetCount": 0
-  },
-  {
-    "id": 10502045,
-    "idCN": "敌方/02桦树/BOSS/涡旋之眼/技能5添加子弹",
-    "mod": "添加Buff",
-    "isInformalData": false,
-    "buffId": 10409917,
-    "targetType": "Random"
   },
   {
     "id": 10502036,
@@ -20892,7 +20897,7 @@
   },
   {
     "id": 10502052,
-    "idCN": "敌方/02桦树/BOSS/涡旋之眼/技能7",
+    "idCN": "敌方/02桦树/BOSS/涡旋之眼/技能7伤害",
     "mod": "攻击事件",
     "isInformalData": false,
     "buffId": 10409870,
@@ -48077,5 +48082,12 @@
     "filterPosition": "DefaultPos",
     "isAimSelf": false,
     "targetCount": 0
+  },
+  {
+    "id": 10502043,
+    "idCN": "敌方/02桦树/BOSS/涡旋之眼/技能7环境",
+    "mod": "给自己上BUFF",
+    "isInformalData": false,
+    "buffId": 10409965
   }
 ]
