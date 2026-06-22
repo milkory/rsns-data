@@ -2647,5 +2647,18 @@
     "returnType": "int",
     "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rset $battleControlManager\r\rgetp curGSBuff\rset $curBuff\r\rgetp target\rset $target\r\rgetp ca\rsetp isFly $false\r\rret 0",
     "cacheAsGMF": true
+  },
+  {
+    "id": 60000195,
+    "idCN": "角色/伊洛娜·暮光/判断队长技颜色",
+    "mod": "执行GS脚本",
+    "isInformalData": false,
+    "debug": false,
+    "autoRecycle": false,
+    "memo": "根据当前GS Buff的metaID映射指定颜色，读取当前小队队长技卡牌配置颜色并判断是否一致",
+    "paramHelp": "",
+    "returnType": "int",
+    "script": "main:\ngetc CBus Instance\ncgf GetManager \"BattleControlManager\"\nset $bcm\n\ngetp curGSBuff\nset $curBuff\n\nset $judgeColor \"\"\nget $curBuff\ngetp ca\ngetp id\nset $curBuffId\n\nif $curBuffId eq 10429359\n    set $judgeColor \"Red\"\nendif\nif $curBuffId eq 10429360\n    set $judgeColor \"Yellow\"\nendif\nif $curBuffId eq 10429361\n    set $judgeColor \"Blue\"\nendif\nif $curBuffId eq 10429362\n    set $judgeColor \"Green\"\nendif\nif $curBuffId eq 10429363\n    set $judgeColor \"Purple\"\nendif\nif $curBuffId eq 10429364\n    set $judgeColor \"Black\"\nendif\nif $curBuffId eq 10429365\n    set $judgeColor \"Orange\"\nendif\n\nif $judgeColor eq \"\"\n    ret 2\nendif\n\nget $bcm\ngetp currentPlayerTeamData\ngetp cardSystem\ngetp leaderCard\nset $leaderCardProperty\nif $leaderCardProperty\n    get $leaderCardProperty\n    getp card\n    set $leaderCard\n    if $leaderCard\n        get $leaderCard\n        getp ca\n        getp color\n        set $leaderColor\n        if $leaderColor eq $judgeColor\n            ret 1\n        endif\n    endif\nendif\n\nret 2",
+    "cacheAsGMF": true
   }
 ]
