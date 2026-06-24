@@ -43205,6 +43205,11 @@
     "isBatch": false,
     "exchangeList": [
       {
+        "itemId": 10001357,
+        "num": 1,
+        "weight": 1
+      },
+      {
         "itemId": 10001356,
         "num": 1,
         "weight": 1
@@ -48696,7 +48701,7 @@
     "textIcon": "",
     "sort": 5,
     "isShowNum": true,
-    "isNotDisplayInBag": false,
+    "isNotDisplayInBag": true,
     "endTime": "",
     "saletype": "NotSale",
     "rewardList": [],
@@ -48833,7 +48838,7 @@
     "textIcon": "",
     "sort": 5,
     "isShowNum": true,
-    "isNotDisplayInBag": false,
+    "isNotDisplayInBag": true,
     "endTime": "",
     "saletype": "NotSale",
     "rewardList": [],
@@ -48871,7 +48876,7 @@
     "textIcon": "",
     "sort": 5,
     "isShowNum": true,
-    "isNotDisplayInBag": false,
+    "isNotDisplayInBag": true,
     "endTime": "",
     "saletype": "NotSale",
     "rewardList": [],
@@ -48885,6 +48890,8 @@
         "time": "17:30:00"
       }
     ],
+    "bgName": "大喜之日",
+    "bgCost": -1,
     "Getway": [
       {
         "DisplayName": "商城-副官室设计方案·【大喜之日】",
@@ -48898,9 +48905,7 @@
     "skinID": -1,
     "isDisplayInMaterialWare": false,
     "isDisplayInFinishedlWare": false,
-    "isDisplayInKeyWare": true,
-    "bgName": "大喜之日",
-    "bgCost": -1
+    "isDisplayInKeyWare": true
   },
   {
     "id": 11401078,
@@ -51231,6 +51236,87 @@
     "saletype": "NotSale",
     "rewardList": [],
     "Getway": [],
+    "techPoints": 100,
+    "skinID": -1,
+    "isDisplayInMaterialWare": false,
+    "isDisplayInFinishedlWare": false,
+    "isDisplayInKeyWare": false,
+    "playerParkItemType": "floatInquiry"
+  },
+  {
+    "id": 11401159,
+    "idCN": "副官室背景/淘金酒馆",
+    "mod": "副官室背景",
+    "isInformalData": false,
+    "name": "副官室装扮·【午后酒馆】",
+    "viewId": -1,
+    "quality": "Golden",
+    "des": "可切换副官室内的装扮风格为【午后酒馆】。",
+    "iconPath": "Item/item/2026/BJTY180",
+    "tipsPath": "Item/item/2026/BJTY500",
+    "buyPath": "",
+    "textIcon": "",
+    "sort": 5,
+    "isShowNum": true,
+    "isNotDisplayInBag": true,
+    "endTime": "",
+    "saletype": "NotSale",
+    "rewardList": [],
+    "bgPathList": [
+      {
+        "bgPath": "UI/Dialog/Back/cityhall_GT",
+        "time": "05:30:00"
+      },
+      {
+        "bgPath": "UI/Dialog/Back/cityhall_GT",
+        "time": "17:30:00"
+      }
+    ],
+    "bgName": "午后酒馆",
+    "bgCost": -1,
+    "Getway": [
+      {
+        "DisplayName": "商城-副官室设计方案·【大喜之日】",
+        "FromLevel": -1,
+        "UIName": "UI/Store/Store",
+        "Way3": "5|82102412",
+        "funcId": -1
+      }
+    ],
+    "techPoints": 100,
+    "skinID": -1,
+    "isDisplayInMaterialWare": false,
+    "isDisplayInFinishedlWare": false,
+    "isDisplayInKeyWare": true
+  },
+  {
+    "id": 11401164,
+    "idCN": "活动代币/万象秘钥·球场小将",
+    "mod": "基础道具",
+    "isInformalData": false,
+    "name": "万象秘钥·球场小将",
+    "viewId": -1,
+    "quality": "Golden",
+    "des": "一把铸入了无限可能的钥匙。转动它，就可以开启链接万千秘宝的门扉——说明书上是这么写的，效果如何还需要你亲自尝试。\\n可在转盘活动中使用。",
+    "iconPath": "Item/item/Small/Wanxiangyaoshi_s",
+    "tipsPath": "Item/item/Big/Wanxiangyaoshi_b",
+    "buyPath": "Item/item/Small/Wanxiangyaoshi_s",
+    "textIcon": "",
+    "sort": 40,
+    "isShowNum": true,
+    "isNotDisplayInBag": true,
+    "useLimitNum": 10,
+    "endTime": "",
+    "saletype": "NotSale",
+    "rewardList": [],
+    "Getway": [
+      {
+        "DisplayName": "桦石购买",
+        "FromLevel": -1,
+        "UIName": "UI/Gacha/GachaNew",
+        "Way3": ""
+      }
+    ],
     "techPoints": 100,
     "skinID": -1,
     "isDisplayInMaterialWare": false,
