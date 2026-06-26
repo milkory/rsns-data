@@ -22046,14 +22046,14 @@
   },
   {
     "id": 12800721,
-    "idCN": "00原版/05五星/铁盟/伊洛娜·暮光/共振5-糖果盒",
+    "idCN": "00原版/05五星/铁盟/伊洛娜·暮光/共振5-默契游戏",
     "mod": "基础天赋",
     "isInformalData": false,
-    "path": "RolePlus\\00Gift\\IlonaTwilight\\TangGuoHe",
+    "path": "RolePlus\\00Gift\\IlonaTwilight\\MoQiYouXi",
     "attriDetialList": [],
     "attributeList": [],
-    "tempdesc": "开局时在牌库中随机挑选4张卡牌并附着【糖果】，使用附着【糖果】的卡牌后释放1个【发条列车长】，同时获得1点费用",
-    "desc": "开局时在牌库中随机挑选4张卡牌并附着【糖果】，使用附着【糖果】的卡牌后释放1个【发条列车长】，同时获得1点费用",
+    "tempdesc": "使用【盛绽的百合花】抽到的卡牌后，释放1个【发条列车长】\\n多萝西·瑰晨在场时，额外召唤1列【玩具火车】",
+    "desc": "使用【盛绽的百合花】抽到的卡牌后，释放1个【发条列车长】\\n多萝西·瑰晨在场时，额外召唤1列【玩具火车】",
     "awakeLv": 6,
     "skillList": [
       {
@@ -22062,7 +22062,7 @@
     ],
     "skillChangeList": [],
     "skillParamOffsetList": [],
-    "name": "糖果盒",
+    "name": "默契游戏",
     "skillIntensify": -1,
     "skillActiveUpgrade": [],
     "attributeIntensify": [
@@ -22209,6 +22209,702 @@
       },
       {
         "id": 80305988
+      }
+    ]
+  },
+  {
+    "id": 12800726,
+    "idCN": "00原版/05五星/联动/二阶堂希罗/共振5-羽化",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "RolePlus\\00Gift\\Carr\\YuHua",
+    "attriDetialList": [],
+    "attributeList": [],
+    "tempdesc": "【生命称赞诗】的持续时间延长2秒",
+    "desc": "【生命称赞诗】的持续时间延长2秒",
+    "awakeLv": 6,
+    "skillList": [],
+    "skillChangeList": [],
+    "skillParamOffsetList": [
+      {
+        "skillId": 12303993,
+        "tag": "T",
+        "value_SN": 1200000
+      },
+      {
+        "skillId": 12303993,
+        "tag": "A",
+        "value_SN": 20000
+      }
+    ],
+    "name": "羽化",
+    "skillIntensify": -1,
+    "skillActiveUpgrade": [],
+    "attributeIntensify": [
+      {
+        "id": 80305980
+      },
+      {
+        "id": 80305981
+      },
+      {
+        "id": 80305982
+      }
+    ]
+  },
+  {
+    "id": 12800727,
+    "idCN": "00原版/05五星/联动/二阶堂希罗/共振3-生机",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "RolePlus\\00Gift\\Box\\ShengJi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "HpMax",
+        "numType": "Percent",
+        "num_SN": 3500
+      }
+    ],
+    "tempdesc": "生命值+35%",
+    "desc": "生命值+35%",
+    "awakeLv": 4,
+    "skillList": [],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": "生机",
+    "skillIntensify": 12303995,
+    "skillActiveUpgrade": [],
+    "attributeIntensify": [
+      {
+        "id": 80305974
+      },
+      {
+        "id": 80305975
+      },
+      {
+        "id": 80305976
+      }
+    ]
+  },
+  {
+    "id": 12800728,
+    "idCN": "00原版/05五星/联动/二阶堂希罗/共振1-心之壳",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "RolePlus\\00Gift\\Carr\\XinZhiKe",
+    "attriDetialList": [],
+    "attributeList": [],
+    "tempdesc": "【生命称赞诗】持续期间，我方全体获得【霸体】",
+    "desc": "【生命称赞诗】持续期间，我方全体获得<color=#7AB2FF>【霸体】</color>",
+    "awakeLv": 2,
+    "skillList": [
+      {
+        "skillId": 12304006
+      }
+    ],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": "心之壳",
+    "skillIntensify": 12302625,
+    "skillActiveUpgrade": [],
+    "attributeIntensify": [
+      {
+        "id": 80305968
+      },
+      {
+        "id": 80305969
+      },
+      {
+        "id": 80305970
+      }
+    ]
+  },
+  {
+    "id": 12800729,
+    "idCN": "00原版/05五星/联动/二阶堂希罗/共振4-星谕",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "RolePlus\\00Gift\\Carr\\XingYu",
+    "attriDetialList": [],
+    "attributeList": [],
+    "tempdesc": "使用【生命称赞诗】后，从牌库或弃牌区将1张自身技能牌加入手牌",
+    "desc": "使用【生命称赞诗】后，从牌库或弃牌区将1张自身技能牌加入手牌",
+    "awakeLv": 5,
+    "skillList": [
+      {
+        "skillId": 12304008
+      }
+    ],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": "星谕",
+    "skillIntensify": 12303996,
+    "skillActiveUpgrade": [],
+    "attributeIntensify": [
+      {
+        "id": 80305977
+      },
+      {
+        "id": 80305978
+      },
+      {
+        "id": 80305979
+      }
+    ]
+  },
+  {
+    "id": 12800730,
+    "idCN": "00原版/05五星/联动/二阶堂希罗/共振2-羽织",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "RolePlus\\00Gift\\Carr\\YuZhi",
+    "attriDetialList": [],
+    "attributeList": [],
+    "tempdesc": "使用【羽栖】后，目标队友生命值上限提高15%，上限150%\\n【羽栖】环绕目标时，可以为目标队友抵御1次致死攻击，同时回复目标20%生命值，触发该效果后该【羽栖】消失",
+    "desc": "使用【羽栖】后，目标队友生命值上限提高15%，上限150%\\n【羽栖】环绕目标时，可以为目标队友抵御1次致死攻击，同时回复目标20%生命值，触发该效果后该【羽栖】消失",
+    "awakeLv": 3,
+    "skillList": [
+      {
+        "skillId": 12304007
+      }
+    ],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": "羽织",
+    "skillIntensify": 12303994,
+    "skillActiveUpgrade": [],
+    "attributeIntensify": [
+      {
+        "id": 80305971
+      },
+      {
+        "id": 80305972
+      },
+      {
+        "id": 80305973
+      }
+    ]
+  },
+  {
+    "id": 12800731,
+    "idCN": "00原版/05五星/联动/橘雪莉/共振3-生机",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "RolePlus\\00Gift\\Box\\ShengJi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "HpMax",
+        "numType": "Percent",
+        "num_SN": 3500
+      }
+    ],
+    "tempdesc": "生命值+35%",
+    "desc": "生命值+35%",
+    "awakeLv": 4,
+    "skillList": [],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": "生机",
+    "skillIntensify": 12303995,
+    "skillActiveUpgrade": [],
+    "attributeIntensify": [
+      {
+        "id": 80305974
+      },
+      {
+        "id": 80305975
+      },
+      {
+        "id": 80305976
+      }
+    ]
+  },
+  {
+    "id": 12800732,
+    "idCN": "00原版/05五星/联动/橘雪莉/共振2-羽织",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "RolePlus\\00Gift\\Carr\\YuZhi",
+    "attriDetialList": [],
+    "attributeList": [],
+    "tempdesc": "使用【羽栖】后，目标队友生命值上限提高15%，上限150%\\n【羽栖】环绕目标时，可以为目标队友抵御1次致死攻击，同时回复目标20%生命值，触发该效果后该【羽栖】消失",
+    "desc": "使用【羽栖】后，目标队友生命值上限提高15%，上限150%\\n【羽栖】环绕目标时，可以为目标队友抵御1次致死攻击，同时回复目标20%生命值，触发该效果后该【羽栖】消失",
+    "awakeLv": 3,
+    "skillList": [
+      {
+        "skillId": 12304007
+      }
+    ],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": "羽织",
+    "skillIntensify": 12303994,
+    "skillActiveUpgrade": [],
+    "attributeIntensify": [
+      {
+        "id": 80305971
+      },
+      {
+        "id": 80305972
+      },
+      {
+        "id": 80305973
+      }
+    ]
+  },
+  {
+    "id": 12800733,
+    "idCN": "00原版/05五星/联动/橘雪莉/共振5-羽化",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "RolePlus\\00Gift\\Carr\\YuHua",
+    "attriDetialList": [],
+    "attributeList": [],
+    "tempdesc": "【生命称赞诗】的持续时间延长2秒",
+    "desc": "【生命称赞诗】的持续时间延长2秒",
+    "awakeLv": 6,
+    "skillList": [],
+    "skillChangeList": [],
+    "skillParamOffsetList": [
+      {
+        "skillId": 12303993,
+        "tag": "T",
+        "value_SN": 1200000
+      },
+      {
+        "skillId": 12303993,
+        "tag": "A",
+        "value_SN": 20000
+      }
+    ],
+    "name": "羽化",
+    "skillIntensify": -1,
+    "skillActiveUpgrade": [],
+    "attributeIntensify": [
+      {
+        "id": 80305980
+      },
+      {
+        "id": 80305981
+      },
+      {
+        "id": 80305982
+      }
+    ]
+  },
+  {
+    "id": 12800734,
+    "idCN": "00原版/05五星/联动/橘雪莉/共振1-心之壳",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "RolePlus\\00Gift\\Carr\\XinZhiKe",
+    "attriDetialList": [],
+    "attributeList": [],
+    "tempdesc": "【生命称赞诗】持续期间，我方全体获得【霸体】",
+    "desc": "【生命称赞诗】持续期间，我方全体获得<color=#7AB2FF>【霸体】</color>",
+    "awakeLv": 2,
+    "skillList": [
+      {
+        "skillId": 12304006
+      }
+    ],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": "心之壳",
+    "skillIntensify": 12302625,
+    "skillActiveUpgrade": [],
+    "attributeIntensify": [
+      {
+        "id": 80305968
+      },
+      {
+        "id": 80305969
+      },
+      {
+        "id": 80305970
+      }
+    ]
+  },
+  {
+    "id": 12800735,
+    "idCN": "00原版/05五星/联动/橘雪莉/共振4-星谕",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "RolePlus\\00Gift\\Carr\\XingYu",
+    "attriDetialList": [],
+    "attributeList": [],
+    "tempdesc": "使用【生命称赞诗】后，从牌库或弃牌区将1张自身技能牌加入手牌",
+    "desc": "使用【生命称赞诗】后，从牌库或弃牌区将1张自身技能牌加入手牌",
+    "awakeLv": 5,
+    "skillList": [
+      {
+        "skillId": 12304008
+      }
+    ],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": "星谕",
+    "skillIntensify": 12303996,
+    "skillActiveUpgrade": [],
+    "attributeIntensify": [
+      {
+        "id": 80305977
+      },
+      {
+        "id": 80305978
+      },
+      {
+        "id": 80305979
+      }
+    ]
+  },
+  {
+    "id": 12800736,
+    "idCN": "00原版/05五星/联动/樱羽艾玛/共振5-羽化",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "RolePlus\\00Gift\\Carr\\YuHua",
+    "attriDetialList": [],
+    "attributeList": [],
+    "tempdesc": "【生命称赞诗】的持续时间延长2秒",
+    "desc": "【生命称赞诗】的持续时间延长2秒",
+    "awakeLv": 6,
+    "skillList": [],
+    "skillChangeList": [],
+    "skillParamOffsetList": [
+      {
+        "skillId": 12303993,
+        "tag": "T",
+        "value_SN": 1200000
+      },
+      {
+        "skillId": 12303993,
+        "tag": "A",
+        "value_SN": 20000
+      }
+    ],
+    "name": "羽化",
+    "skillIntensify": -1,
+    "skillActiveUpgrade": [],
+    "attributeIntensify": [
+      {
+        "id": 80305980
+      },
+      {
+        "id": 80305981
+      },
+      {
+        "id": 80305982
+      }
+    ]
+  },
+  {
+    "id": 12800737,
+    "idCN": "00原版/05五星/联动/樱羽艾玛/共振3-生机",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "RolePlus\\00Gift\\Box\\ShengJi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "HpMax",
+        "numType": "Percent",
+        "num_SN": 3500
+      }
+    ],
+    "tempdesc": "生命值+35%",
+    "desc": "生命值+35%",
+    "awakeLv": 4,
+    "skillList": [],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": "生机",
+    "skillIntensify": 12303995,
+    "skillActiveUpgrade": [],
+    "attributeIntensify": [
+      {
+        "id": 80305974
+      },
+      {
+        "id": 80305975
+      },
+      {
+        "id": 80305976
+      }
+    ]
+  },
+  {
+    "id": 12800738,
+    "idCN": "00原版/05五星/联动/樱羽艾玛/共振4-星谕",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "RolePlus\\00Gift\\Carr\\XingYu",
+    "attriDetialList": [],
+    "attributeList": [],
+    "tempdesc": "使用【生命称赞诗】后，从牌库或弃牌区将1张自身技能牌加入手牌",
+    "desc": "使用【生命称赞诗】后，从牌库或弃牌区将1张自身技能牌加入手牌",
+    "awakeLv": 5,
+    "skillList": [
+      {
+        "skillId": 12304008
+      }
+    ],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": "星谕",
+    "skillIntensify": 12303996,
+    "skillActiveUpgrade": [],
+    "attributeIntensify": [
+      {
+        "id": 80305977
+      },
+      {
+        "id": 80305978
+      },
+      {
+        "id": 80305979
+      }
+    ]
+  },
+  {
+    "id": 12800739,
+    "idCN": "00原版/05五星/联动/樱羽艾玛/共振1-心之壳",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "RolePlus\\00Gift\\Carr\\XinZhiKe",
+    "attriDetialList": [],
+    "attributeList": [],
+    "tempdesc": "【生命称赞诗】持续期间，我方全体获得【霸体】",
+    "desc": "【生命称赞诗】持续期间，我方全体获得<color=#7AB2FF>【霸体】</color>",
+    "awakeLv": 2,
+    "skillList": [
+      {
+        "skillId": 12304006
+      }
+    ],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": "心之壳",
+    "skillIntensify": 12302625,
+    "skillActiveUpgrade": [],
+    "attributeIntensify": [
+      {
+        "id": 80305968
+      },
+      {
+        "id": 80305969
+      },
+      {
+        "id": 80305970
+      }
+    ]
+  },
+  {
+    "id": 12800740,
+    "idCN": "00原版/05五星/联动/樱羽艾玛/共振2-羽织",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "RolePlus\\00Gift\\Carr\\YuZhi",
+    "attriDetialList": [],
+    "attributeList": [],
+    "tempdesc": "使用【羽栖】后，目标队友生命值上限提高15%，上限150%\\n【羽栖】环绕目标时，可以为目标队友抵御1次致死攻击，同时回复目标20%生命值，触发该效果后该【羽栖】消失",
+    "desc": "使用【羽栖】后，目标队友生命值上限提高15%，上限150%\\n【羽栖】环绕目标时，可以为目标队友抵御1次致死攻击，同时回复目标20%生命值，触发该效果后该【羽栖】消失",
+    "awakeLv": 3,
+    "skillList": [
+      {
+        "skillId": 12304007
+      }
+    ],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": "羽织",
+    "skillIntensify": 12303994,
+    "skillActiveUpgrade": [],
+    "attributeIntensify": [
+      {
+        "id": 80305971
+      },
+      {
+        "id": 80305972
+      },
+      {
+        "id": 80305973
+      }
+    ]
+  },
+  {
+    "id": 12800741,
+    "idCN": "00原版/05五星/联动/远野汉娜/共振4-星谕",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "RolePlus\\00Gift\\Carr\\XingYu",
+    "attriDetialList": [],
+    "attributeList": [],
+    "tempdesc": "使用【生命称赞诗】后，从牌库或弃牌区将1张自身技能牌加入手牌",
+    "desc": "使用【生命称赞诗】后，从牌库或弃牌区将1张自身技能牌加入手牌",
+    "awakeLv": 5,
+    "skillList": [
+      {
+        "skillId": 12304008
+      }
+    ],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": "星谕",
+    "skillIntensify": 12303996,
+    "skillActiveUpgrade": [],
+    "attributeIntensify": [
+      {
+        "id": 80305977
+      },
+      {
+        "id": 80305978
+      },
+      {
+        "id": 80305979
+      }
+    ]
+  },
+  {
+    "id": 12800742,
+    "idCN": "00原版/05五星/联动/远野汉娜/共振2-羽织",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "RolePlus\\00Gift\\Carr\\YuZhi",
+    "attriDetialList": [],
+    "attributeList": [],
+    "tempdesc": "使用【羽栖】后，目标队友生命值上限提高15%，上限150%\\n【羽栖】环绕目标时，可以为目标队友抵御1次致死攻击，同时回复目标20%生命值，触发该效果后该【羽栖】消失",
+    "desc": "使用【羽栖】后，目标队友生命值上限提高15%，上限150%\\n【羽栖】环绕目标时，可以为目标队友抵御1次致死攻击，同时回复目标20%生命值，触发该效果后该【羽栖】消失",
+    "awakeLv": 3,
+    "skillList": [
+      {
+        "skillId": 12304007
+      }
+    ],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": "羽织",
+    "skillIntensify": 12303994,
+    "skillActiveUpgrade": [],
+    "attributeIntensify": [
+      {
+        "id": 80305971
+      },
+      {
+        "id": 80305972
+      },
+      {
+        "id": 80305973
+      }
+    ]
+  },
+  {
+    "id": 12800743,
+    "idCN": "00原版/05五星/联动/远野汉娜/共振5-羽化",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "RolePlus\\00Gift\\Carr\\YuHua",
+    "attriDetialList": [],
+    "attributeList": [],
+    "tempdesc": "【生命称赞诗】的持续时间延长2秒",
+    "desc": "【生命称赞诗】的持续时间延长2秒",
+    "awakeLv": 6,
+    "skillList": [],
+    "skillChangeList": [],
+    "skillParamOffsetList": [
+      {
+        "skillId": 12303993,
+        "tag": "T",
+        "value_SN": 1200000
+      },
+      {
+        "skillId": 12303993,
+        "tag": "A",
+        "value_SN": 20000
+      }
+    ],
+    "name": "羽化",
+    "skillIntensify": -1,
+    "skillActiveUpgrade": [],
+    "attributeIntensify": [
+      {
+        "id": 80305980
+      },
+      {
+        "id": 80305981
+      },
+      {
+        "id": 80305982
+      }
+    ]
+  },
+  {
+    "id": 12800744,
+    "idCN": "00原版/05五星/联动/远野汉娜/共振3-生机",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "RolePlus\\00Gift\\Box\\ShengJi",
+    "attriDetialList": [],
+    "attributeList": [
+      {
+        "attributeType": "HpMax",
+        "numType": "Percent",
+        "num_SN": 3500
+      }
+    ],
+    "tempdesc": "生命值+35%",
+    "desc": "生命值+35%",
+    "awakeLv": 4,
+    "skillList": [],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": "生机",
+    "skillIntensify": 12303995,
+    "skillActiveUpgrade": [],
+    "attributeIntensify": [
+      {
+        "id": 80305974
+      },
+      {
+        "id": 80305975
+      },
+      {
+        "id": 80305976
+      }
+    ]
+  },
+  {
+    "id": 12800745,
+    "idCN": "00原版/05五星/联动/远野汉娜/共振1-心之壳",
+    "mod": "基础天赋",
+    "isInformalData": false,
+    "path": "RolePlus\\00Gift\\Carr\\XinZhiKe",
+    "attriDetialList": [],
+    "attributeList": [],
+    "tempdesc": "【生命称赞诗】持续期间，我方全体获得【霸体】",
+    "desc": "【生命称赞诗】持续期间，我方全体获得<color=#7AB2FF>【霸体】</color>",
+    "awakeLv": 2,
+    "skillList": [
+      {
+        "skillId": 12304006
+      }
+    ],
+    "skillChangeList": [],
+    "skillParamOffsetList": [],
+    "name": "心之壳",
+    "skillIntensify": 12302625,
+    "skillActiveUpgrade": [],
+    "attributeIntensify": [
+      {
+        "id": 80305968
+      },
+      {
+        "id": 80305969
+      },
+      {
+        "id": 80305970
       }
     ]
   }
