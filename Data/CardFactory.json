@@ -36921,6 +36921,9 @@
     "tagList": [
       {
         "tagId": 12600146
+      },
+      {
+        "tagId": 12602111
       }
     ],
     "tagOutsideList": [],
@@ -36932,7 +36935,7 @@
   },
   {
     "id": 10600588,
-    "idCN": "00原版/05五星/铁盟/伊洛娜·暮光/B-共振2",
+    "idCN": "00原版/05五星/铁盟/伊洛娜·暮光/B-觉醒2",
     "mod": "基础卡牌",
     "isInformalData": false,
     "name": "盛绽的百合花",
@@ -36967,6 +36970,15 @@
     "tagList": [
       {
         "tagId": 12600146
+      },
+      {
+        "tagId": 12600057
+      },
+      {
+        "tagId": 12600011
+      },
+      {
+        "tagId": 12602111
       }
     ],
     "tagOutsideList": [],
@@ -37022,6 +37034,9 @@
       },
       {
         "tagId": 12600011
+      },
+      {
+        "tagId": 12602110
       }
     ],
     "tagOutsideList": [],
@@ -37036,95 +37051,20 @@
     "idCN": "00原版/05五星/联动魔裁/二阶堂希罗/A-0",
     "mod": "基础卡牌",
     "isInformalData": false,
-    "name": "羽栖",
+    "name": "不正确的",
     "isCutIn": false,
     "isUseSingleTarget": true,
     "isNoCD": false,
     "isUseInHand": false,
     "isNotDiscard": false,
-    "iconPath": "RolePlus\\NHiro\\skillicon\\A",
+    "iconPath": "RolePlus\\NHiro\\skillicon\\A-0",
     "backPath": "",
     "roleImgPath": "",
-    "color": "Purple",
+    "color": "Black",
     "cardType": "Normal",
     "sameCardGroupId": -1,
-    "actionId": 10104660,
-    "cost_SN": 20000,
-    "inhandBuffId": -1,
-    "inhandOverBuffId": -1,
-    "startBuffId": -1,
-    "discardBuffId": -1,
-    "discardBySkillBuffId": -1,
-    "banishBuffId": -1,
-    "atkAreaType": "Single",
-    "atkAreaColor": "Green",
-    "targetColor": "HealTest",
-    "disappearEffectId": 11100047,
-    "appearEffectId": 11100046,
-    "createEffectId": 11100106,
-    "destroyEffectId": -1,
-    "createTweenDelay": 30,
-    "isCostX": false,
-    "tagList": [
-      {
-        "tagId": 12601937
-      },
-      {
-        "tagId": 12600073
-      }
-    ],
-    "tagOutsideList": [],
-    "deriveCardList": [],
-    "cardAIActionList": [],
-    "ExCondList": [],
-    "ExActList": [
-      {
-        "condId": 96300003,
-        "des": 80608013
-      },
-      {
-        "condId": 96300009,
-        "des": 80610277
-      },
-      {
-        "condId": 96300010,
-        "des": 80610278
-      },
-      {
-        "condId": 96300012,
-        "des": 80611770
-      },
-      {
-        "condId": 96300018,
-        "des": 80612481,
-        "interValNum": 5,
-        "isNumCond": true,
-        "minNum": 1,
-        "numDuration": 1,
-        "typeEnum": "number"
-      }
-    ],
-    "linkCardId": []
-  },
-  {
-    "id": 10600589,
-    "idCN": "00原版/05五星/联动魔裁/二阶堂希罗/B",
-    "mod": "基础卡牌",
-    "isInformalData": false,
-    "name": "星诵",
-    "isCutIn": false,
-    "isUseSingleTarget": false,
-    "isNoCD": false,
-    "isUseInHand": false,
-    "isNotDiscard": false,
-    "iconPath": "RolePlus\\Carr\\skillicon\\B",
-    "backPath": "",
-    "roleImgPath": "",
-    "color": "Yellow",
-    "cardType": "Normal",
-    "sameCardGroupId": -1,
-    "actionId": 10104659,
-    "cost_SN": 30000,
+    "actionId": 10105151,
+    "cost_SN": 0,
     "inhandBuffId": -1,
     "inhandOverBuffId": -1,
     "startBuffId": -1,
@@ -37133,7 +37073,7 @@
     "banishBuffId": -1,
     "atkAreaType": "Self",
     "atkAreaColor": "Green",
-    "targetColor": "HealTest",
+    "targetColor": "Normal",
     "disappearEffectId": 11100047,
     "appearEffectId": 11100046,
     "createEffectId": 11100106,
@@ -37142,8 +37082,51 @@
     "isCostX": false,
     "tagList": [
       {
-        "tagId": 12601938
-      },
+        "tagId": 12600037
+      }
+    ],
+    "tagOutsideList": [],
+    "deriveCardList": [],
+    "cardAIActionList": [],
+    "ExCondList": [],
+    "ExActList": [],
+    "linkCardId": []
+  },
+  {
+    "id": 10600589,
+    "idCN": "00原版/05五星/联动魔裁/二阶堂希罗/B",
+    "mod": "基础卡牌",
+    "isInformalData": false,
+    "name": "逻辑陷阱",
+    "isCutIn": false,
+    "isUseSingleTarget": false,
+    "isNoCD": false,
+    "isUseInHand": false,
+    "isNotDiscard": false,
+    "iconPath": "RolePlus\\NHiro\\skillicon\\B",
+    "backPath": "",
+    "roleImgPath": "",
+    "color": "Yellow",
+    "cardType": "Normal",
+    "sameCardGroupId": -1,
+    "actionId": 10105155,
+    "cost_SN": 30000,
+    "inhandBuffId": -1,
+    "inhandOverBuffId": -1,
+    "startBuffId": -1,
+    "discardBuffId": -1,
+    "discardBySkillBuffId": -1,
+    "banishBuffId": -1,
+    "atkAreaType": "Single",
+    "atkAreaColor": "Yellow",
+    "targetColor": "AttackTest",
+    "disappearEffectId": 11100047,
+    "appearEffectId": 11100046,
+    "createEffectId": 11100106,
+    "destroyEffectId": -1,
+    "createTweenDelay": 30,
+    "isCostX": false,
+    "tagList": [
       {
         "tagId": 12600146
       }
@@ -37151,17 +37134,7 @@
     "tagOutsideList": [],
     "deriveCardList": [],
     "cardAIActionList": [],
-    "ExCondList": [
-      {
-        "condId": 96200031,
-        "des": 80608005,
-        "interValNum": 12,
-        "isNumCond": true,
-        "minNum": 0,
-        "numDuration": 1,
-        "typeEnum": "number"
-      }
-    ],
+    "ExCondList": [],
     "ExActList": [],
     "linkCardId": []
   },
@@ -37170,29 +37143,29 @@
     "idCN": "00原版/05五星/联动魔裁/二阶堂希罗/S",
     "mod": "基础卡牌",
     "isInformalData": false,
-    "name": "生命称赞诗",
+    "name": "绞刑台",
     "isCutIn": true,
     "isUseSingleTarget": false,
     "isNoCD": false,
     "isUseInHand": false,
     "isNotDiscard": false,
-    "iconPath": "RolePlus\\Carr\\skillicon\\S",
+    "iconPath": "RolePlus\\NHiro\\skillicon\\S",
     "backPath": "",
     "roleImgPath": "",
-    "color": "Green",
+    "color": "Red",
     "cardType": "Normal",
     "sameCardGroupId": -1,
-    "actionId": 10104661,
-    "cost_SN": 50000,
+    "actionId": 10105157,
+    "cost_SN": 60000,
     "inhandBuffId": -1,
     "inhandOverBuffId": -1,
     "startBuffId": -1,
     "discardBuffId": -1,
     "discardBySkillBuffId": -1,
     "banishBuffId": -1,
-    "atkAreaType": "AllAlly",
-    "atkAreaColor": "Green",
-    "targetColor": "HealTest",
+    "atkAreaType": "Single",
+    "atkAreaColor": "Yellow",
+    "targetColor": "AttackTest",
     "disappearEffectId": 11100047,
     "appearEffectId": 11100046,
     "createEffectId": 11100106,
@@ -37204,13 +37177,7 @@
         "tagId": 12600007
       },
       {
-        "tagId": 12601939
-      },
-      {
-        "tagId": 12600028
-      },
-      {
-        "tagId": 12601658
+        "tagId": 12600145
       }
     ],
     "tagOutsideList": [],
@@ -37225,19 +37192,19 @@
     "idCN": "00原版/05五星/联动魔裁/橘雪莉/A-0",
     "mod": "基础卡牌",
     "isInformalData": false,
-    "name": "羽栖",
+    "name": "怪力",
     "isCutIn": false,
     "isUseSingleTarget": true,
     "isNoCD": false,
     "isUseInHand": false,
     "isNotDiscard": false,
-    "iconPath": "RolePlus\\Carr\\skillicon\\A",
+    "iconPath": "RolePlus\\TSheri\\skillicon\\A-0",
     "backPath": "",
     "roleImgPath": "",
-    "color": "Purple",
+    "color": "Blue",
     "cardType": "Normal",
     "sameCardGroupId": -1,
-    "actionId": 10104660,
+    "actionId": 10105140,
     "cost_SN": 20000,
     "inhandBuffId": -1,
     "inhandOverBuffId": -1,
@@ -37245,9 +37212,9 @@
     "discardBuffId": -1,
     "discardBySkillBuffId": -1,
     "banishBuffId": -1,
-    "atkAreaType": "Single",
-    "atkAreaColor": "Green",
-    "targetColor": "HealTest",
+    "atkAreaType": "Direction",
+    "atkAreaColor": "Yellow",
+    "targetColor": "AttackTest",
     "disappearEffectId": 11100047,
     "appearEffectId": 11100046,
     "createEffectId": 11100106,
@@ -37256,43 +37223,14 @@
     "isCostX": false,
     "tagList": [
       {
-        "tagId": 12601937
-      },
-      {
-        "tagId": 12600073
+        "tagId": 12600009
       }
     ],
     "tagOutsideList": [],
     "deriveCardList": [],
     "cardAIActionList": [],
     "ExCondList": [],
-    "ExActList": [
-      {
-        "condId": 96300003,
-        "des": 80608013
-      },
-      {
-        "condId": 96300009,
-        "des": 80610277
-      },
-      {
-        "condId": 96300010,
-        "des": 80610278
-      },
-      {
-        "condId": 96300012,
-        "des": 80611770
-      },
-      {
-        "condId": 96300018,
-        "des": 80612481,
-        "interValNum": 5,
-        "isNumCond": true,
-        "minNum": 1,
-        "numDuration": 1,
-        "typeEnum": "number"
-      }
-    ],
+    "ExActList": [],
     "linkCardId": []
   },
   {
@@ -37300,19 +37238,19 @@
     "idCN": "00原版/05五星/联动魔裁/橘雪莉/S-0",
     "mod": "基础卡牌",
     "isInformalData": false,
-    "name": "生命称赞诗",
+    "name": "魔女小屋",
     "isCutIn": true,
     "isUseSingleTarget": false,
     "isNoCD": false,
     "isUseInHand": false,
     "isNotDiscard": false,
-    "iconPath": "RolePlus\\Carr\\skillicon\\S",
+    "iconPath": "RolePlus\\TSheri\\skillicon\\S-0",
     "backPath": "",
     "roleImgPath": "",
-    "color": "Green",
+    "color": "Blue",
     "cardType": "Normal",
     "sameCardGroupId": -1,
-    "actionId": 10104661,
+    "actionId": 10105146,
     "cost_SN": 50000,
     "inhandBuffId": -1,
     "inhandOverBuffId": -1,
@@ -37320,9 +37258,9 @@
     "discardBuffId": -1,
     "discardBySkillBuffId": -1,
     "banishBuffId": -1,
-    "atkAreaType": "AllAlly",
-    "atkAreaColor": "Green",
-    "targetColor": "HealTest",
+    "atkAreaType": "Direction",
+    "atkAreaColor": "Yellow",
+    "targetColor": "AttackTest",
     "disappearEffectId": 11100047,
     "appearEffectId": 11100046,
     "createEffectId": 11100106,
@@ -37331,16 +37269,7 @@
     "isCostX": false,
     "tagList": [
       {
-        "tagId": 12600007
-      },
-      {
-        "tagId": 12601939
-      },
-      {
-        "tagId": 12600028
-      },
-      {
-        "tagId": 12601658
+        "tagId": 12600009
       }
     ],
     "tagOutsideList": [],
@@ -37355,19 +37284,19 @@
     "idCN": "00原版/05五星/联动魔裁/橘雪莉/B-1",
     "mod": "基础卡牌",
     "isInformalData": false,
-    "name": "星诵",
+    "name": "原罪透析",
     "isCutIn": false,
     "isUseSingleTarget": false,
     "isNoCD": false,
     "isUseInHand": false,
     "isNotDiscard": false,
-    "iconPath": "RolePlus\\Carr\\skillicon\\B",
+    "iconPath": "RolePlus\\TSheri\\skillicon\\B-1",
     "backPath": "",
     "roleImgPath": "",
-    "color": "Yellow",
+    "color": "Purple",
     "cardType": "Normal",
     "sameCardGroupId": -1,
-    "actionId": 10104659,
+    "actionId": 10105166,
     "cost_SN": 30000,
     "inhandBuffId": -1,
     "inhandOverBuffId": -1,
@@ -37375,68 +37304,9 @@
     "discardBuffId": -1,
     "discardBySkillBuffId": -1,
     "banishBuffId": -1,
-    "atkAreaType": "Self",
-    "atkAreaColor": "Green",
-    "targetColor": "HealTest",
-    "disappearEffectId": 11100047,
-    "appearEffectId": 11100046,
-    "createEffectId": 11100106,
-    "destroyEffectId": -1,
-    "createTweenDelay": 30,
-    "isCostX": false,
-    "tagList": [
-      {
-        "tagId": 12601938
-      },
-      {
-        "tagId": 12600146
-      }
-    ],
-    "tagOutsideList": [],
-    "deriveCardList": [],
-    "cardAIActionList": [],
-    "ExCondList": [
-      {
-        "condId": 96200031,
-        "des": 80608005,
-        "interValNum": 12,
-        "isNumCond": true,
-        "minNum": 0,
-        "numDuration": 1,
-        "typeEnum": "number"
-      }
-    ],
-    "ExActList": [],
-    "linkCardId": []
-  },
-  {
-    "id": 10600594,
-    "idCN": "00原版/05五星/联动魔裁/樱羽艾玛/A",
-    "mod": "基础卡牌",
-    "isInformalData": false,
-    "name": "羽栖",
-    "isCutIn": false,
-    "isUseSingleTarget": true,
-    "isNoCD": false,
-    "isUseInHand": false,
-    "isNotDiscard": false,
-    "iconPath": "RolePlus\\Carr\\skillicon\\A",
-    "backPath": "",
-    "roleImgPath": "",
-    "color": "Purple",
-    "cardType": "Normal",
-    "sameCardGroupId": -1,
-    "actionId": 10104660,
-    "cost_SN": 20000,
-    "inhandBuffId": -1,
-    "inhandOverBuffId": -1,
-    "startBuffId": -1,
-    "discardBuffId": -1,
-    "discardBySkillBuffId": -1,
-    "banishBuffId": -1,
     "atkAreaType": "Single",
-    "atkAreaColor": "Green",
-    "targetColor": "HealTest",
+    "atkAreaColor": "Yellow",
+    "targetColor": "AttackTest",
     "disappearEffectId": 11100047,
     "appearEffectId": 11100046,
     "createEffectId": 11100106,
@@ -37444,9 +37314,6 @@
     "createTweenDelay": 30,
     "isCostX": false,
     "tagList": [
-      {
-        "tagId": 12601937
-      },
       {
         "tagId": 12600073
       }
@@ -37455,53 +37322,27 @@
     "deriveCardList": [],
     "cardAIActionList": [],
     "ExCondList": [],
-    "ExActList": [
-      {
-        "condId": 96300003,
-        "des": 80608013
-      },
-      {
-        "condId": 96300009,
-        "des": 80610277
-      },
-      {
-        "condId": 96300010,
-        "des": 80610278
-      },
-      {
-        "condId": 96300012,
-        "des": 80611770
-      },
-      {
-        "condId": 96300018,
-        "des": 80612481,
-        "interValNum": 5,
-        "isNumCond": true,
-        "minNum": 1,
-        "numDuration": 1,
-        "typeEnum": "number"
-      }
-    ],
+    "ExActList": [],
     "linkCardId": []
   },
   {
-    "id": 10600595,
-    "idCN": "00原版/05五星/联动魔裁/樱羽艾玛/B",
+    "id": 10600594,
+    "idCN": "00原版/05五星/联动魔裁/樱羽艾玛/A-0",
     "mod": "基础卡牌",
     "isInformalData": false,
-    "name": "星诵",
+    "name": "搜查开始",
     "isCutIn": false,
-    "isUseSingleTarget": false,
+    "isUseSingleTarget": true,
     "isNoCD": false,
     "isUseInHand": false,
     "isNotDiscard": false,
-    "iconPath": "RolePlus\\Carr\\skillicon\\B",
+    "iconPath": "RolePlus\\SEma\\skillicon\\A-0",
     "backPath": "",
     "roleImgPath": "",
     "color": "Yellow",
     "cardType": "Normal",
     "sameCardGroupId": -1,
-    "actionId": 10104659,
+    "actionId": 10105129,
     "cost_SN": 30000,
     "inhandBuffId": -1,
     "inhandOverBuffId": -1,
@@ -37509,9 +37350,9 @@
     "discardBuffId": -1,
     "discardBySkillBuffId": -1,
     "banishBuffId": -1,
-    "atkAreaType": "Self",
-    "atkAreaColor": "Green",
-    "targetColor": "HealTest",
+    "atkAreaType": "Single",
+    "atkAreaColor": "Yellow",
+    "targetColor": "AttackTest",
     "disappearEffectId": 11100047,
     "appearEffectId": 11100046,
     "createEffectId": 11100106,
@@ -37520,26 +37361,59 @@
     "isCostX": false,
     "tagList": [
       {
-        "tagId": 12601938
-      },
-      {
         "tagId": 12600146
       }
     ],
     "tagOutsideList": [],
     "deriveCardList": [],
     "cardAIActionList": [],
-    "ExCondList": [
+    "ExCondList": [],
+    "ExActList": [],
+    "linkCardId": []
+  },
+  {
+    "id": 10600595,
+    "idCN": "00原版/05五星/联动魔裁/樱羽艾玛/B",
+    "mod": "基础卡牌",
+    "isInformalData": false,
+    "name": "呈堂指证",
+    "isCutIn": false,
+    "isUseSingleTarget": false,
+    "isNoCD": false,
+    "isUseInHand": false,
+    "isNotDiscard": false,
+    "iconPath": "RolePlus\\SEma\\skillicon\\B",
+    "backPath": "",
+    "roleImgPath": "",
+    "color": "Purple",
+    "cardType": "Normal",
+    "sameCardGroupId": -1,
+    "actionId": 10105133,
+    "cost_SN": 40000,
+    "inhandBuffId": -1,
+    "inhandOverBuffId": -1,
+    "startBuffId": -1,
+    "discardBuffId": -1,
+    "discardBySkillBuffId": -1,
+    "banishBuffId": -1,
+    "atkAreaType": "Single",
+    "atkAreaColor": "Yellow",
+    "targetColor": "AttackTest",
+    "disappearEffectId": 11100047,
+    "appearEffectId": 11100046,
+    "createEffectId": 11100106,
+    "destroyEffectId": -1,
+    "createTweenDelay": 30,
+    "isCostX": false,
+    "tagList": [
       {
-        "condId": 96200031,
-        "des": 80608005,
-        "interValNum": 12,
-        "isNumCond": true,
-        "minNum": 0,
-        "numDuration": 1,
-        "typeEnum": "number"
+        "tagId": 12600073
       }
     ],
+    "tagOutsideList": [],
+    "deriveCardList": [],
+    "cardAIActionList": [],
+    "ExCondList": [],
     "ExActList": [],
     "linkCardId": []
   },
@@ -37548,29 +37422,29 @@
     "idCN": "00原版/05五星/联动魔裁/樱羽艾玛/S",
     "mod": "基础卡牌",
     "isInformalData": false,
-    "name": "生命称赞诗",
+    "name": "断头台",
     "isCutIn": true,
     "isUseSingleTarget": false,
     "isNoCD": false,
     "isUseInHand": false,
     "isNotDiscard": false,
-    "iconPath": "RolePlus\\Carr\\skillicon\\S",
+    "iconPath": "RolePlus\\SEma\\skillicon\\S",
     "backPath": "",
     "roleImgPath": "",
-    "color": "Green",
+    "color": "Red",
     "cardType": "Normal",
     "sameCardGroupId": -1,
-    "actionId": 10104661,
-    "cost_SN": 50000,
+    "actionId": 10105135,
+    "cost_SN": 60000,
     "inhandBuffId": -1,
     "inhandOverBuffId": -1,
     "startBuffId": -1,
     "discardBuffId": -1,
     "discardBySkillBuffId": -1,
     "banishBuffId": -1,
-    "atkAreaType": "AllAlly",
-    "atkAreaColor": "Green",
-    "targetColor": "HealTest",
+    "atkAreaType": "Direction",
+    "atkAreaColor": "Yellow",
+    "targetColor": "AttackTest",
     "disappearEffectId": 11100047,
     "appearEffectId": 11100046,
     "createEffectId": 11100106,
@@ -37582,13 +37456,7 @@
         "tagId": 12600007
       },
       {
-        "tagId": 12601939
-      },
-      {
-        "tagId": 12600028
-      },
-      {
-        "tagId": 12601658
+        "tagId": 12600145
       }
     ],
     "tagOutsideList": [],
@@ -37603,19 +37471,19 @@
     "idCN": "00原版/05五星/联动魔裁/远野汉娜/B",
     "mod": "基础卡牌",
     "isInformalData": false,
-    "name": "星诵",
+    "name": "魔女的华服",
     "isCutIn": false,
     "isUseSingleTarget": false,
     "isNoCD": false,
     "isUseInHand": false,
     "isNotDiscard": false,
-    "iconPath": "RolePlus\\Carr\\skillicon\\B",
+    "iconPath": "RolePlus\\THanna\\skillicon\\B",
     "backPath": "",
     "roleImgPath": "",
     "color": "Yellow",
     "cardType": "Normal",
     "sameCardGroupId": -1,
-    "actionId": 10104659,
+    "actionId": 10105119,
     "cost_SN": 30000,
     "inhandBuffId": -1,
     "inhandOverBuffId": -1,
@@ -37625,7 +37493,7 @@
     "banishBuffId": -1,
     "atkAreaType": "Self",
     "atkAreaColor": "Green",
-    "targetColor": "HealTest",
+    "targetColor": "Normal",
     "disappearEffectId": 11100047,
     "appearEffectId": 11100046,
     "createEffectId": 11100106,
@@ -37634,26 +37502,13 @@
     "isCostX": false,
     "tagList": [
       {
-        "tagId": 12601938
-      },
-      {
         "tagId": 12600146
       }
     ],
     "tagOutsideList": [],
     "deriveCardList": [],
     "cardAIActionList": [],
-    "ExCondList": [
-      {
-        "condId": 96200031,
-        "des": 80608005,
-        "interValNum": 12,
-        "isNumCond": true,
-        "minNum": 0,
-        "numDuration": 1,
-        "typeEnum": "number"
-      }
-    ],
+    "ExCondList": [],
     "ExActList": [],
     "linkCardId": []
   },
@@ -37662,19 +37517,19 @@
     "idCN": "00原版/05五星/联动魔裁/远野汉娜/S",
     "mod": "基础卡牌",
     "isInformalData": false,
-    "name": "生命称赞诗",
+    "name": "漂浮",
     "isCutIn": true,
     "isUseSingleTarget": false,
     "isNoCD": false,
     "isUseInHand": false,
     "isNotDiscard": false,
-    "iconPath": "RolePlus\\Carr\\skillicon\\S",
+    "iconPath": "RolePlus\\THanna\\skillicon\\S",
     "backPath": "",
     "roleImgPath": "",
-    "color": "Green",
+    "color": "Red",
     "cardType": "Normal",
     "sameCardGroupId": -1,
-    "actionId": 10104661,
+    "actionId": 10105125,
     "cost_SN": 50000,
     "inhandBuffId": -1,
     "inhandOverBuffId": -1,
@@ -37682,9 +37537,9 @@
     "discardBuffId": -1,
     "discardBySkillBuffId": -1,
     "banishBuffId": -1,
-    "atkAreaType": "AllAlly",
-    "atkAreaColor": "Green",
-    "targetColor": "HealTest",
+    "atkAreaType": "Direction",
+    "atkAreaColor": "Yellow",
+    "targetColor": "AttackTest",
     "disappearEffectId": 11100047,
     "appearEffectId": 11100046,
     "createEffectId": 11100106,
@@ -37693,16 +37548,7 @@
     "isCostX": false,
     "tagList": [
       {
-        "tagId": 12600007
-      },
-      {
-        "tagId": 12601939
-      },
-      {
-        "tagId": 12600028
-      },
-      {
-        "tagId": 12601658
+        "tagId": 12600145
       }
     ],
     "tagOutsideList": [],
@@ -37717,20 +37563,20 @@
     "idCN": "00原版/05五星/联动魔裁/远野汉娜/A",
     "mod": "基础卡牌",
     "isInformalData": false,
-    "name": "羽栖",
+    "name": "空想",
     "isCutIn": false,
     "isUseSingleTarget": true,
     "isNoCD": false,
     "isUseInHand": false,
     "isNotDiscard": false,
-    "iconPath": "RolePlus\\Carr\\skillicon\\A",
+    "iconPath": "RolePlus\\THanna\\skillicon\\A",
     "backPath": "",
     "roleImgPath": "",
-    "color": "Purple",
+    "color": "Green",
     "cardType": "Normal",
     "sameCardGroupId": -1,
-    "actionId": 10104660,
-    "cost_SN": 20000,
+    "actionId": 10105107,
+    "cost_SN": 30000,
     "inhandBuffId": -1,
     "inhandOverBuffId": -1,
     "startBuffId": -1,
@@ -37748,43 +37594,14 @@
     "isCostX": false,
     "tagList": [
       {
-        "tagId": 12601937
-      },
-      {
-        "tagId": 12600073
+        "tagId": 12600028
       }
     ],
     "tagOutsideList": [],
     "deriveCardList": [],
     "cardAIActionList": [],
     "ExCondList": [],
-    "ExActList": [
-      {
-        "condId": 96300003,
-        "des": 80608013
-      },
-      {
-        "condId": 96300009,
-        "des": 80610277
-      },
-      {
-        "condId": 96300010,
-        "des": 80610278
-      },
-      {
-        "condId": 96300012,
-        "des": 80611770
-      },
-      {
-        "condId": 96300018,
-        "des": 80612481,
-        "interValNum": 5,
-        "isNumCond": true,
-        "minNum": 1,
-        "numDuration": 1,
-        "typeEnum": "number"
-      }
-    ],
+    "ExActList": [],
     "linkCardId": []
   },
   {
@@ -37792,19 +37609,19 @@
     "idCN": "00原版/05五星/联动魔裁/二阶堂希罗/A-1",
     "mod": "基础卡牌",
     "isInformalData": false,
-    "name": "羽栖",
+    "name": "赞同",
     "isCutIn": false,
     "isUseSingleTarget": true,
     "isNoCD": false,
     "isUseInHand": false,
     "isNotDiscard": false,
-    "iconPath": "RolePlus\\NHiro\\skillicon\\A",
+    "iconPath": "RolePlus\\NHiro\\skillicon\\A-1",
     "backPath": "",
     "roleImgPath": "",
-    "color": "Purple",
+    "color": "Red",
     "cardType": "Normal",
     "sameCardGroupId": -1,
-    "actionId": 10104660,
+    "actionId": 10105163,
     "cost_SN": 20000,
     "inhandBuffId": -1,
     "inhandOverBuffId": -1,
@@ -37813,8 +37630,8 @@
     "discardBySkillBuffId": -1,
     "banishBuffId": -1,
     "atkAreaType": "Single",
-    "atkAreaColor": "Green",
-    "targetColor": "HealTest",
+    "atkAreaColor": "Yellow",
+    "targetColor": "AttackTest",
     "disappearEffectId": 11100047,
     "appearEffectId": 11100046,
     "createEffectId": 11100106,
@@ -37823,43 +37640,14 @@
     "isCostX": false,
     "tagList": [
       {
-        "tagId": 12601937
-      },
-      {
-        "tagId": 12600073
+        "tagId": 12600145
       }
     ],
     "tagOutsideList": [],
     "deriveCardList": [],
     "cardAIActionList": [],
     "ExCondList": [],
-    "ExActList": [
-      {
-        "condId": 96300003,
-        "des": 80608013
-      },
-      {
-        "condId": 96300009,
-        "des": 80610277
-      },
-      {
-        "condId": 96300010,
-        "des": 80610278
-      },
-      {
-        "condId": 96300012,
-        "des": 80611770
-      },
-      {
-        "condId": 96300018,
-        "des": 80612481,
-        "interValNum": 5,
-        "isNumCond": true,
-        "minNum": 1,
-        "numDuration": 1,
-        "typeEnum": "number"
-      }
-    ],
+    "ExActList": [],
     "linkCardId": []
   },
   {
@@ -37867,19 +37655,19 @@
     "idCN": "00原版/05五星/联动魔裁/二阶堂希罗/A-2",
     "mod": "基础卡牌",
     "isInformalData": false,
-    "name": "羽栖",
+    "name": "疑问",
     "isCutIn": false,
     "isUseSingleTarget": true,
     "isNoCD": false,
     "isUseInHand": false,
     "isNotDiscard": false,
-    "iconPath": "RolePlus\\NHiro\\skillicon\\A",
+    "iconPath": "RolePlus\\NHiro\\skillicon\\A-2",
     "backPath": "",
     "roleImgPath": "",
     "color": "Purple",
     "cardType": "Normal",
     "sameCardGroupId": -1,
-    "actionId": 10104660,
+    "actionId": 10105165,
     "cost_SN": 20000,
     "inhandBuffId": -1,
     "inhandOverBuffId": -1,
@@ -37888,8 +37676,8 @@
     "discardBySkillBuffId": -1,
     "banishBuffId": -1,
     "atkAreaType": "Single",
-    "atkAreaColor": "Green",
-    "targetColor": "HealTest",
+    "atkAreaColor": "Yellow",
+    "targetColor": "AttackTest",
     "disappearEffectId": 11100047,
     "appearEffectId": 11100046,
     "createEffectId": 11100106,
@@ -37898,43 +37686,14 @@
     "isCostX": false,
     "tagList": [
       {
-        "tagId": 12601937
-      },
-      {
-        "tagId": 12600073
+        "tagId": 12600145
       }
     ],
     "tagOutsideList": [],
     "deriveCardList": [],
     "cardAIActionList": [],
     "ExCondList": [],
-    "ExActList": [
-      {
-        "condId": 96300003,
-        "des": 80608013
-      },
-      {
-        "condId": 96300009,
-        "des": 80610277
-      },
-      {
-        "condId": 96300010,
-        "des": 80610278
-      },
-      {
-        "condId": 96300012,
-        "des": 80611770
-      },
-      {
-        "condId": 96300018,
-        "des": 80612481,
-        "interValNum": 5,
-        "isNumCond": true,
-        "minNum": 1,
-        "numDuration": 1,
-        "typeEnum": "number"
-      }
-    ],
+    "ExActList": [],
     "linkCardId": []
   },
   {
@@ -37942,20 +37701,20 @@
     "idCN": "00原版/05五星/联动魔裁/二阶堂希罗/A-3",
     "mod": "基础卡牌",
     "isInformalData": false,
-    "name": "羽栖",
+    "name": "反驳",
     "isCutIn": false,
     "isUseSingleTarget": true,
     "isNoCD": false,
     "isUseInHand": false,
     "isNotDiscard": false,
-    "iconPath": "RolePlus\\NHiro\\skillicon\\A",
+    "iconPath": "RolePlus\\NHiro\\skillicon\\A-3",
     "backPath": "",
     "roleImgPath": "",
-    "color": "Purple",
+    "color": "Red",
     "cardType": "Normal",
     "sameCardGroupId": -1,
-    "actionId": 10104660,
-    "cost_SN": 20000,
+    "actionId": 10105164,
+    "cost_SN": 30000,
     "inhandBuffId": -1,
     "inhandOverBuffId": -1,
     "startBuffId": -1,
@@ -37963,8 +37722,8 @@
     "discardBySkillBuffId": -1,
     "banishBuffId": -1,
     "atkAreaType": "Single",
-    "atkAreaColor": "Green",
-    "targetColor": "HealTest",
+    "atkAreaColor": "Yellow",
+    "targetColor": "AttackTest",
     "disappearEffectId": 11100047,
     "appearEffectId": 11100046,
     "createEffectId": 11100106,
@@ -37973,43 +37732,14 @@
     "isCostX": false,
     "tagList": [
       {
-        "tagId": 12601937
-      },
-      {
-        "tagId": 12600073
+        "tagId": 12600145
       }
     ],
     "tagOutsideList": [],
     "deriveCardList": [],
     "cardAIActionList": [],
     "ExCondList": [],
-    "ExActList": [
-      {
-        "condId": 96300003,
-        "des": 80608013
-      },
-      {
-        "condId": 96300009,
-        "des": 80610277
-      },
-      {
-        "condId": 96300010,
-        "des": 80610278
-      },
-      {
-        "condId": 96300012,
-        "des": 80611770
-      },
-      {
-        "condId": 96300018,
-        "des": 80612481,
-        "interValNum": 5,
-        "isNumCond": true,
-        "minNum": 1,
-        "numDuration": 1,
-        "typeEnum": "number"
-      }
-    ],
+    "ExActList": [],
     "linkCardId": []
   },
   {
@@ -38017,19 +37747,19 @@
     "idCN": "00原版/05五星/联动魔裁/橘雪莉/A-1",
     "mod": "基础卡牌",
     "isInformalData": false,
-    "name": "羽栖",
+    "name": "心之怪力",
     "isCutIn": false,
     "isUseSingleTarget": true,
     "isNoCD": false,
     "isUseInHand": false,
     "isNotDiscard": false,
-    "iconPath": "RolePlus\\Carr\\skillicon\\A",
+    "iconPath": "RolePlus\\TSheri\\skillicon\\A-1",
     "backPath": "",
     "roleImgPath": "",
-    "color": "Purple",
+    "color": "Blue",
     "cardType": "Normal",
     "sameCardGroupId": -1,
-    "actionId": 10104660,
+    "actionId": 10105167,
     "cost_SN": 20000,
     "inhandBuffId": -1,
     "inhandOverBuffId": -1,
@@ -38037,9 +37767,9 @@
     "discardBuffId": -1,
     "discardBySkillBuffId": -1,
     "banishBuffId": -1,
-    "atkAreaType": "Single",
-    "atkAreaColor": "Green",
-    "targetColor": "HealTest",
+    "atkAreaType": "Direction",
+    "atkAreaColor": "Yellow",
+    "targetColor": "AttackTest",
     "disappearEffectId": 11100047,
     "appearEffectId": 11100046,
     "createEffectId": 11100106,
@@ -38048,43 +37778,14 @@
     "isCostX": false,
     "tagList": [
       {
-        "tagId": 12601937
-      },
-      {
-        "tagId": 12600073
+        "tagId": 12600009
       }
     ],
     "tagOutsideList": [],
     "deriveCardList": [],
     "cardAIActionList": [],
     "ExCondList": [],
-    "ExActList": [
-      {
-        "condId": 96300003,
-        "des": 80608013
-      },
-      {
-        "condId": 96300009,
-        "des": 80610277
-      },
-      {
-        "condId": 96300010,
-        "des": 80610278
-      },
-      {
-        "condId": 96300012,
-        "des": 80611770
-      },
-      {
-        "condId": 96300018,
-        "des": 80612481,
-        "interValNum": 5,
-        "isNumCond": true,
-        "minNum": 1,
-        "numDuration": 1,
-        "typeEnum": "number"
-      }
-    ],
+    "ExActList": [],
     "linkCardId": []
   },
   {
@@ -38092,19 +37793,19 @@
     "idCN": "00原版/05五星/联动魔裁/远野汉娜/C",
     "mod": "基础卡牌",
     "isInformalData": false,
-    "name": "生命称赞诗",
+    "name": "飞天扫帚！！！",
     "isCutIn": true,
     "isUseSingleTarget": false,
     "isNoCD": false,
     "isUseInHand": false,
     "isNotDiscard": false,
-    "iconPath": "RolePlus\\Carr\\skillicon\\S",
+    "iconPath": "RolePlus\\THanna\\skillicon\\C",
     "backPath": "",
     "roleImgPath": "",
     "color": "Green",
     "cardType": "Normal",
     "sameCardGroupId": -1,
-    "actionId": 10104661,
+    "actionId": 10105171,
     "cost_SN": 50000,
     "inhandBuffId": -1,
     "inhandOverBuffId": -1,
@@ -38123,16 +37824,7 @@
     "isCostX": false,
     "tagList": [
       {
-        "tagId": 12600007
-      },
-      {
-        "tagId": 12601939
-      },
-      {
         "tagId": 12600028
-      },
-      {
-        "tagId": 12601658
       }
     ],
     "tagOutsideList": [],
@@ -38147,19 +37839,19 @@
     "idCN": "00原版/05五星/联动魔裁/橘雪莉/B-0",
     "mod": "基础卡牌",
     "isInformalData": false,
-    "name": "星诵",
+    "name": "刑侦学",
     "isCutIn": false,
     "isUseSingleTarget": false,
     "isNoCD": false,
     "isUseInHand": false,
     "isNotDiscard": false,
-    "iconPath": "RolePlus\\Carr\\skillicon\\B",
+    "iconPath": "RolePlus\\TSheri\\skillicon\\B-0",
     "backPath": "",
     "roleImgPath": "",
-    "color": "Yellow",
+    "color": "Purple",
     "cardType": "Normal",
     "sameCardGroupId": -1,
-    "actionId": 10104659,
+    "actionId": 10105144,
     "cost_SN": 30000,
     "inhandBuffId": -1,
     "inhandOverBuffId": -1,
@@ -38167,9 +37859,9 @@
     "discardBuffId": -1,
     "discardBySkillBuffId": -1,
     "banishBuffId": -1,
-    "atkAreaType": "Self",
-    "atkAreaColor": "Green",
-    "targetColor": "HealTest",
+    "atkAreaType": "Single",
+    "atkAreaColor": "Yellow",
+    "targetColor": "AttackTest",
     "disappearEffectId": 11100047,
     "appearEffectId": 11100046,
     "createEffectId": 11100106,
@@ -38178,26 +37870,13 @@
     "isCostX": false,
     "tagList": [
       {
-        "tagId": 12601938
-      },
-      {
-        "tagId": 12600146
+        "tagId": 12600073
       }
     ],
     "tagOutsideList": [],
     "deriveCardList": [],
     "cardAIActionList": [],
-    "ExCondList": [
-      {
-        "condId": 96200031,
-        "des": 80608005,
-        "interValNum": 12,
-        "isNumCond": true,
-        "minNum": 0,
-        "numDuration": 1,
-        "typeEnum": "number"
-      }
-    ],
+    "ExCondList": [],
     "ExActList": [],
     "linkCardId": []
   },
@@ -38206,19 +37885,19 @@
     "idCN": "00原版/05五星/联动魔裁/橘雪莉/S-1",
     "mod": "基础卡牌",
     "isInformalData": false,
-    "name": "生命称赞诗",
+    "name": "火车来啦！！！",
     "isCutIn": true,
     "isUseSingleTarget": false,
     "isNoCD": false,
     "isUseInHand": false,
     "isNotDiscard": false,
-    "iconPath": "RolePlus\\Carr\\skillicon\\S",
+    "iconPath": "RolePlus\\TSheri\\skillicon\\S-1",
     "backPath": "",
     "roleImgPath": "",
-    "color": "Green",
+    "color": "Red",
     "cardType": "Normal",
     "sameCardGroupId": -1,
-    "actionId": 10104661,
+    "actionId": 10105168,
     "cost_SN": 50000,
     "inhandBuffId": -1,
     "inhandOverBuffId": -1,
@@ -38226,9 +37905,9 @@
     "discardBuffId": -1,
     "discardBySkillBuffId": -1,
     "banishBuffId": -1,
-    "atkAreaType": "AllAlly",
-    "atkAreaColor": "Green",
-    "targetColor": "HealTest",
+    "atkAreaType": "Direction",
+    "atkAreaColor": "Yellow",
+    "targetColor": "AttackTest",
     "disappearEffectId": 11100047,
     "appearEffectId": 11100046,
     "createEffectId": 11100106,
@@ -38240,13 +37919,53 @@
         "tagId": 12600007
       },
       {
-        "tagId": 12601939
-      },
+        "tagId": 12600145
+      }
+    ],
+    "tagOutsideList": [],
+    "deriveCardList": [],
+    "cardAIActionList": [],
+    "ExCondList": [],
+    "ExActList": [],
+    "linkCardId": []
+  },
+  {
+    "id": 10600607,
+    "idCN": "00原版/05五星/联动魔裁/樱羽艾玛/A-1",
+    "mod": "基础卡牌",
+    "isInformalData": false,
+    "name": "当庭对质",
+    "isCutIn": false,
+    "isUseSingleTarget": true,
+    "isNoCD": false,
+    "isUseInHand": false,
+    "isNotDiscard": false,
+    "iconPath": "RolePlus\\SEma\\skillicon\\A-1",
+    "backPath": "",
+    "roleImgPath": "",
+    "color": "Red",
+    "cardType": "Normal",
+    "sameCardGroupId": -1,
+    "actionId": 10105169,
+    "cost_SN": 30000,
+    "inhandBuffId": -1,
+    "inhandOverBuffId": -1,
+    "startBuffId": -1,
+    "discardBuffId": -1,
+    "discardBySkillBuffId": -1,
+    "banishBuffId": -1,
+    "atkAreaType": "Single",
+    "atkAreaColor": "Yellow",
+    "targetColor": "AttackTest",
+    "disappearEffectId": 11100047,
+    "appearEffectId": 11100046,
+    "createEffectId": 11100106,
+    "destroyEffectId": -1,
+    "createTweenDelay": 30,
+    "isCostX": false,
+    "tagList": [
       {
-        "tagId": 12600028
-      },
-      {
-        "tagId": 12601658
+        "tagId": 12600145
       }
     ],
     "tagOutsideList": [],
