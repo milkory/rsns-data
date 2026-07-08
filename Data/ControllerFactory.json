@@ -29555,23 +29555,33 @@
     "normalAttackCritID": -1,
     "skillList": [
       {
-        "actionId": 10105193,
-        "activeFrame": 360,
+        "actionId": 10105179,
+        "activeFrame": 361,
         "activeTime": 6.0,
-        "rangeSN": 40000
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10105195,
+        "activeFrame": 721,
+        "activeTime": 12.0,
+        "rangeSN": -10000
       }
     ],
     "isInvisibleBeforeShowUp": false,
     "showupSkillList": [],
-    "skillLoopDelayFrame": 540,
+    "skillLoopDelayFrame": 360,
     "shapeShiftList": [],
     "commandList": [],
     "enemySkillList": [],
-    "isUseEnergy": false,
-    "energySkillList": [],
-    "energyRestorePerFrameSN": 0,
+    "isUseEnergy": true,
+    "energySkillList": [
+      {
+        "actionId": 10105193
+      }
+    ],
+    "energyRestorePerFrameSN": 550,
     "energyBarColor": "#FFB200",
-    "isSkillDelay": true,
+    "isSkillDelay": false,
     "minDelay": 120,
     "maxDelay": 360
   },
