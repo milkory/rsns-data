@@ -2598,7 +2598,7 @@
   },
   {
     "id": 60000192,
-    "idCN": "角色/通用/获取指定tagbuff数量",
+    "idCN": "角色/通用/断魂/获取指定tagbuff数量",
     "mod": "执行GS脚本",
     "isInformalData": false,
     "debug": false,
@@ -2672,6 +2672,19 @@
     "paramHelp": "",
     "returnType": "int",
     "script": "main:\ngetc CBus Instance\ncgf GetManager \"BattleControlManager\"\nset $bcm\n\ngetp curGSBuff\nset $curBuff\nget $curBuff\ngetp ca\ngetp id\nset $curBuffId\n\nget $bcm\ngetp currentPlayerTeamData\ngetp cardSystem\ngetp hand\nset $hand\nget $hand\ngetp first\nset $node\n\nset $handCount 0\nset $red 0\nset $yellow 0\nset $green 0\nset $blue 0\nset $purple 0\nset $black 0\nset $orange 0\n\nfor $i 0 99\n    if $node\n        add $handCount 1\n        set $handCount\n\n        get $node\n        getp item\n        getp card\n        getp ca\n        getp color\n        set $color\n\n        if $color eq \"Red\"\n            add $red 1\n            set $red\n        endif\n        if $color eq \"Yellow\"\n            add $yellow 1\n            set $yellow\n        endif\n        if $color eq \"Green\"\n            add $green 1\n            set $green\n        endif\n        if $color eq \"Blue\"\n            add $blue 1\n            set $blue\n        endif\n        if $color eq \"Purple\"\n            add $purple 1\n            set $purple\n        endif\n        if $color eq \"Black\"\n            add $black 1\n            set $black\n        endif\n        if $color eq \"Orange\"\n            add $orange 1\n            set $orange\n        endif\n\n        get $node\n        getp next\n        set $node\n    endif\nendFor\n\nif $handCount eq 0\n    if $curBuffId eq 10429906\n        ret 1\n    endif\n    ret 2\nendif\n\nset $max 0\nif $red gt $max\n    get $red\n    set $max\nendif\nif $yellow gt $max\n    get $yellow\n    set $max\nendif\nif $green gt $max\n    get $green\n    set $max\nendif\nif $blue gt $max\n    get $blue\n    set $max\nendif\nif $purple gt $max\n    get $purple\n    set $max\nendif\nif $black gt $max\n    get $black\n    set $max\nendif\nif $orange gt $max\n    get $orange\n    set $max\nendif\n\nset $maxCount 0\nif $red eq $max\n    add $maxCount 1\n    set $maxCount\nendif\nif $yellow eq $max\n    add $maxCount 1\n    set $maxCount\nendif\nif $green eq $max\n    add $maxCount 1\n    set $maxCount\nendif\nif $blue eq $max\n    add $maxCount 1\n    set $maxCount\nendif\nif $purple eq $max\n    add $maxCount 1\n    set $maxCount\nendif\nif $black eq $max\n    add $maxCount 1\n    set $maxCount\nendif\nif $orange eq $max\n    add $maxCount 1\n    set $maxCount\nendif\n\nif $maxCount gt 1\n    if $curBuffId eq 10429905\n        ret 1\n    endif\n    ret 2\nendif\n\nif $curBuffId eq 10429898\n    if $red eq $max\n        ret 1\n    endif\nendif\nif $curBuffId eq 10429899\n    if $yellow eq $max\n        ret 1\n    endif\nendif\nif $curBuffId eq 10429900\n    if $green eq $max\n        ret 1\n    endif\nendif\nif $curBuffId eq 10429901\n    if $blue eq $max\n        ret 1\n    endif\nendif\nif $curBuffId eq 10429902\n    if $purple eq $max\n        ret 1\n    endif\nendif\nif $curBuffId eq 10429903\n    if $black eq $max\n        ret 1\n    endif\nendif\nif $curBuffId eq 10429904\n    if $orange eq $max\n        ret 1\n    endif\nendif\n\nret 2",
+    "cacheAsGMF": true
+  },
+  {
+    "id": 60000197,
+    "idCN": "角色/通用/黯噬/获取指定tagbuff数量",
+    "mod": "执行GS脚本",
+    "isInformalData": false,
+    "debug": false,
+    "autoRecycle": false,
+    "memo": "判断指定tagBuff数量",
+    "paramHelp": "",
+    "returnType": "int",
+    "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rset $battleControlManager\r\rgetp curGSBuff\rset $curBuff\r\rgetp target\rset $target\r\rgetp buffSystem\rset $buffSystem\r\rcallWith $buffSystem GetBuffLink\rset $_buffLink\rgetp count\rset $count\rsub $count 1\rset $count\r\rset $valueSN 0\r\rget $_buffLink\rgetp first\rset $node\rfor $i 0 $count\r    if $node\r        get $node\r\t\tgetp item\r        getp ca\r        getp typeTagList\r        set $typeTagList\r        getp Count\r        set $length\r        for $j 0 $length\r            get $typeTagList $j\r            getp tagId\r            getp id\r            set $tagId\r            if $tagId eq 12602075\r                add $valueSN 10000\r                set $valueSN\r            endif\r        endFor\r\r        get $node\r        getp next\r\t\tset $node\r    endif\rendFor\r\rcallWith $buffSystem GetCannotBeDispelledBuffLink\rset $_cannotBeDispelled\rgetp count\rset $count\rsub $count 1\rset $count\r\rget $_cannotBeDispelled\rgetp first\rset $node\rfor $i 0 $count\r    if $node\r        get $node\r\t\tgetp item\r        getp ca\r        getp typeTagList\r        set $typeTagList\r        getp Count\r        set $length\r        for $j 0 $length\r            get $typeTagList $j\r            getp tagId\r            getp id\r            set $tagId\r            if $tagId eq 12602075\r                add $valueSN 10000\r                set $valueSN\r            endif\r        endFor\r\r        get $node\r        getp next\r\t\tset $node\r    endif\rendFor\r\rget $curBuff\rgetp snapshot\rset $snapshot\rcallWith $snapshot SetAttributeBase $valueSN \"anShiDmgUpCount\" \"Number\" $true\r\rret 0",
     "cacheAsGMF": true
   }
 ]
