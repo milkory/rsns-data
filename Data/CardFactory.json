@@ -35526,7 +35526,7 @@
     "isInformalData": false,
     "name": "",
     "isCutIn": true,
-    "isUseSingleTarget": false,
+    "isUseSingleTarget": true,
     "isNoCD": false,
     "isUseInHand": false,
     "isNotDiscard": false,
@@ -35544,9 +35544,9 @@
     "discardBuffId": -1,
     "discardBySkillBuffId": -1,
     "banishBuffId": -1,
-    "atkAreaType": "Direction",
-    "atkAreaColor": "Yellow",
-    "targetColor": "AttackTest",
+    "atkAreaType": "Self",
+    "atkAreaColor": "Green",
+    "targetColor": "HealTest",
     "disappearEffectId": 11100047,
     "appearEffectId": 11100046,
     "createEffectId": 11100106,
@@ -35575,7 +35575,7 @@
     "isInformalData": false,
     "name": "",
     "isCutIn": false,
-    "isUseSingleTarget": false,
+    "isUseSingleTarget": true,
     "isNoCD": false,
     "isUseInHand": false,
     "isNotDiscard": false,
@@ -35593,9 +35593,9 @@
     "discardBuffId": -1,
     "discardBySkillBuffId": -1,
     "banishBuffId": -1,
-    "atkAreaType": "Direction",
-    "atkAreaColor": "Yellow",
-    "targetColor": "AttackTest",
+    "atkAreaType": "Self",
+    "atkAreaColor": "Green",
+    "targetColor": "HealTest",
     "disappearEffectId": 11100047,
     "appearEffectId": 11100046,
     "createEffectId": 11100106,
@@ -35621,7 +35621,7 @@
     "isInformalData": false,
     "name": "",
     "isCutIn": false,
-    "isUseSingleTarget": false,
+    "isUseSingleTarget": true,
     "isNoCD": false,
     "isUseInHand": false,
     "isNotDiscard": false,
@@ -35639,9 +35639,9 @@
     "discardBuffId": -1,
     "discardBySkillBuffId": -1,
     "banishBuffId": -1,
-    "atkAreaType": "Direction",
-    "atkAreaColor": "Yellow",
-    "targetColor": "AttackTest",
+    "atkAreaType": "Self",
+    "atkAreaColor": "Green",
+    "targetColor": "HealTest",
     "disappearEffectId": 11100047,
     "appearEffectId": 11100046,
     "createEffectId": 11100106,
@@ -37770,7 +37770,33 @@
     "deriveCardList": [],
     "cardAIActionList": [],
     "ExCondList": [],
-    "ExActList": [],
+    "ExActList": [
+      {
+        "condId": 96300003,
+        "des": 80608013
+      },
+      {
+        "condId": 96300009,
+        "des": 80610277
+      },
+      {
+        "condId": 96300010,
+        "des": 80610278
+      },
+      {
+        "condId": 96300012,
+        "des": 80611770
+      },
+      {
+        "condId": 96300018,
+        "des": 80612481,
+        "interValNum": 5,
+        "isNumCond": true,
+        "minNum": 1,
+        "numDuration": 1,
+        "typeEnum": "number"
+      }
+    ],
     "linkCardId": []
   },
   {
