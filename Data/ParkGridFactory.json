@@ -22384,7 +22384,7 @@
     "idCN": "2期/20层城堡boss/固定格子1",
     "mod": "固定建筑",
     "isInformalData": false,
-    "name": "城堡",
+    "name": "书林核心",
     "x": 0,
     "y": 74,
     "floor": 20,
@@ -22401,7 +22401,7 @@
     "canMoveExtraGridList": [],
     "prefabName": "Group_Building10",
     "pic": "UI/Witches/Map/Building/chengbao",
-    "des": "魔女独自在此编织永恒的黑夜，无人的住所不能被称之为家，只是守住幻梦的最后堡垒。",
+    "des": "被禁忌的学识诱惑而来的人啊，拥抱你的蒙昧与渴求，将此身于深渊中重铸，窥探真实的边界……",
     "FerrisWheel": -1,
     "clickX": 3.0,
     "clickY": 3.0,
@@ -23683,10 +23683,10 @@
   },
   {
     "id": 60700276,
-    "idCN": "2期/15层/格子8",
+    "idCN": "2期/15层/固定格子8哲人釜",
     "mod": "固定建筑",
     "isInformalData": false,
-    "name": "",
+    "name": "哲人釜",
     "x": 0,
     "y": 53,
     "floor": 15,
@@ -23694,51 +23694,24 @@
     "levelParam": 15,
     "gridEventList": [
       {
-        "id": 88800449,
+        "id": 88800409,
         "weight": 6
-      },
-      {
-        "id": 88800433,
-        "weight": 6
-      },
-      {
-        "id": 88800495,
-        "weight": 6
-      },
-      {
-        "id": 88800527,
-        "weight": 6
-      },
-      {
-        "id": 88800480,
-        "weight": 6
-      },
-      {
-        "id": 88800431,
-        "weight": 8
-      },
-      {
-        "id": 88800529,
-        "weight": 8
-      },
-      {
-        "id": 88800461,
-        "weight": 8
-      },
-      {
-        "id": 88800458,
-        "weight": 16
-      },
-      {
-        "id": 88800530,
-        "weight": 14
-      },
-      {
-        "id": 88800432,
-        "weight": 16
       }
     ],
-    "gridSealList": [],
+    "gridSealList": [
+      {
+        "id": 11400422
+      },
+      {
+        "id": 11400421
+      },
+      {
+        "id": 11400423
+      },
+      {
+        "id": 11400424
+      }
+    ],
     "canMoveGridList": [
       {
         "id": 60700275
@@ -23758,10 +23731,14 @@
         "id": 60700364
       }
     ],
-    "prefabName": "",
-    "pic": "",
-    "des": "",
-    "FerrisWheel": -1
+    "prefabName": "Group_Building8",
+    "pic": "UI/Witches/Map/Building/tangguowu",
+    "des": "财富、智慧、永生……这里面酿造着无穷无尽的野心，静待一瞬的奇迹。",
+    "FerrisWheel": -1,
+    "clickX": 3.0,
+    "clickY": 3.0,
+    "clickZ": 3.0,
+    "particlePath": ""
   },
   {
     "id": 60700277,
@@ -24043,49 +24020,22 @@
       {
         "id": 88800449,
         "weight": 6
-      },
-      {
-        "id": 88800433,
-        "weight": 6
-      },
-      {
-        "id": 88800495,
-        "weight": 6
-      },
-      {
-        "id": 88800527,
-        "weight": 6
-      },
-      {
-        "id": 88800480,
-        "weight": 6
-      },
-      {
-        "id": 88800431,
-        "weight": 8
-      },
-      {
-        "id": 88800529,
-        "weight": 8
-      },
-      {
-        "id": 88800461,
-        "weight": 8
-      },
-      {
-        "id": 88800458,
-        "weight": 16
-      },
-      {
-        "id": 88800530,
-        "weight": 14
-      },
-      {
-        "id": 88800432,
-        "weight": 16
       }
     ],
-    "gridSealList": [],
+    "gridSealList": [
+      {
+        "id": 11400422
+      },
+      {
+        "id": 11400421
+      },
+      {
+        "id": 11400423
+      },
+      {
+        "id": 11400424
+      }
+    ],
     "canMoveGridList": [
       {
         "id": 60700347
@@ -24102,7 +24052,11 @@
     "prefabName": "",
     "pic": "",
     "des": "",
-    "FerrisWheel": -1
+    "FerrisWheel": -1,
+    "clickX": 1.0,
+    "clickY": 1.0,
+    "clickZ": 1.0,
+    "particlePath": ""
   },
   {
     "id": 60700281,
@@ -26868,9 +26822,9 @@
         "id": 60700454
       }
     ],
-    "prefabName": "Group_Building6",
-    "pic": "",
-    "des": "",
+    "prefabName": "Group_Building4",
+    "pic": "UI/Witches/Map/Building/saoba",
+    "des": "静心感受，归拢思绪，抛却杂念，直至你我的共振彼此呼应。",
     "FerrisWheel": -1,
     "clickX": 3.0,
     "clickY": 3.0,
@@ -31265,9 +31219,9 @@
         "id": 60700340
       }
     ],
-    "prefabName": "Group_Building2",
-    "pic": "",
-    "des": "",
+    "prefabName": "Group_Building7",
+    "pic": "UI/Witches/Map/Building/zhanbuwu",
+    "des": "交错的枝条中摇曳着提灯的光芒，树叶沙沙低语，发出指点迷津的邀约。\\n此处可以装帧书籍。",
     "FerrisWheel": -1,
     "clickX": 1.0,
     "clickY": 1.0,
@@ -33469,9 +33423,9 @@
         "id": 60700498
       }
     ],
-    "prefabName": "Group_Building1",
-    "pic": "",
-    "des": "",
+    "prefabName": "Group_Building6",
+    "pic": "UI/Witches/Map/Building/tangguowu",
+    "des": "不仅是填饱肚子的地方，更是思维交流碰撞的场所，很多奇思妙想就在此处偶得。\\n此处可以装帧书籍。",
     "FerrisWheel": -1,
     "clickX": 1.0,
     "clickY": 1.0,
@@ -33529,8 +33483,8 @@
       }
     ],
     "prefabName": "Group_Building5",
-    "pic": "",
-    "des": "",
+    "pic": "UI/Witches/Map/Building/saoba",
+    "des": "切勿使提灯中的火焰熄灭。火光仍在跳动，持灯者永不迷途。",
     "FerrisWheel": -1,
     "clickX": 3.0,
     "clickY": 3.0,
@@ -35369,7 +35323,7 @@
     "idCN": "2期/17层魔女屋/固定格子1",
     "mod": "固定建筑",
     "isInformalData": false,
-    "name": "魔女屋",
+    "name": "迷津之门",
     "x": 0,
     "y": 63,
     "floor": 17,
@@ -35409,7 +35363,7 @@
     "canMoveExtraGridList": [],
     "prefabName": "Group_Building9",
     "pic": "UI/Witches/Map/Building/monvwu",
-    "des": "寂静神秘的房屋，偶尔能听到零落的笑语声，似乎只是过去的回响。她等待着那个人的归来，哪怕已经忘却一切。",
+    "des": "哪怕是灼伤双目，焚毁双手、崩裂身躯，只要能解答疑问，触碰到真谛——请回答我、垂怜我——",
     "FerrisWheel": -1,
     "clickX": 3.0,
     "clickY": 3.0,
@@ -43047,7 +43001,7 @@
     "idCN": "2期/3层/固定格子5广场",
     "mod": "固定建筑",
     "isInformalData": false,
-    "name": "喷泉",
+    "name": "广场",
     "x": -9,
     "y": 17,
     "floor": 3,
@@ -43092,9 +43046,9 @@
         "id": 60700476
       }
     ],
-    "prefabName": "Group_Building3",
-    "pic": "UI/Witches/Map/Building/penquan",
-    "des": "喷泉中似乎传来呼唤声——向喷泉里抛入一枚硬币，就能实现一个小小的愿望。\\n可通过许愿获得查看花车轨迹的道具【寻踪觅影咒器】。",
+    "prefabName": "Group_Building1",
+    "pic": "UI/Witches/Map/Building/huayuan",
+    "des": "学生们漫步放松、交友畅谈的场所。\\n可通过许愿获得查看雷比斯车队轨迹的道具【寻踪觅影咒器】。",
     "FerrisWheel": -1,
     "clickX": 3.0,
     "clickY": 3.0,
@@ -43200,7 +43154,7 @@
     "idCN": "2期/3层/固定格子11学生中心",
     "mod": "固定建筑",
     "isInformalData": false,
-    "name": "",
+    "name": "学生中心",
     "x": 9,
     "y": 17,
     "floor": 3,
@@ -43245,9 +43199,9 @@
         "id": 60700308
       }
     ],
-    "prefabName": "",
-    "pic": "",
-    "des": "",
+    "prefabName": "Group_Building2",
+    "pic": "UI/Witches/Map/Building/hechawu",
+    "des": "学生们解决后勤保障、开展课余活动的场所。\\n可通过许愿获得查看雷比斯车队轨迹的道具【寻踪觅影咒器】。",
     "FerrisWheel": -1,
     "clickX": 3.0,
     "clickY": 3.0,
