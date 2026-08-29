@@ -133539,6 +133539,9 @@
     "skinList": [
       {
         "unitViewId": 11000552
+      },
+      {
+        "unitViewId": 11000804
       }
     ],
     "sideId": 12600026,
@@ -133724,6 +133727,7 @@
     "totalCardNum": 1,
     "skillMin": 5,
     "homeCharacter": 70000319,
+    "homeCharacter2": -1,
     "stationStoreCharacter": -1,
     "gotoBed": true,
     "isDoctor": false,
@@ -133788,6 +133792,8 @@
     "birthdayDay": "10",
     "birthdayCake": 11400126,
     "birthdayMessage": "稍微花了些心思做的蛋糕，如果主家愿意和我一同品尝就再好不过了。",
+    "birthFace": "",
+    "birthdayList": [],
     "height": "170cm",
     "birthplace": "曼杜斯花园",
     "ability": "“专业女仆的秘密能力”",
@@ -134095,8 +134101,8 @@
     "idCN": "00我方/05五星/科伦巴/西蒙姐弟",
     "mod": "玩家角色",
     "isInformalData": false,
-    "name": "西蒙姐弟",
-    "EnglishName": "Simon",
+    "name": "婕丝&西蒙",
+    "EnglishName": "Jessy&Simon",
     "viewId": 11000803,
     "skinList": [
       {
@@ -134140,7 +134146,7 @@
     "critDMG_SN": 5000,
     "atkSpeed_SN": 1000000,
     "luck_SN": 0,
-    "line": 1,
+    "line": 3,
     "subLine": 0,
     "isUseCustomCostRestore": false,
     "costRestorePerFrame_SN": 22,
@@ -134269,13 +134275,20 @@
     "totalCost": 15,
     "totalCardNum": 5,
     "skillMin": 5,
-    "homeCharacter": -1,
+    "homeCharacter": 70000386,
+    "homeCharacter2": 70000385,
     "stationStoreCharacter": -1,
     "gotoBed": false,
     "isDoctor": false,
     "medicalPoint": 0,
     "WasteCoefficient": 1.0,
-    "FoodList": [],
+    "FoodList": [
+      {
+        "id": 83300015,
+        "letter": "不许嫌弃，心怀感激地吃了就行了！这可是亲手做的！",
+        "weight": 1
+      }
+    ],
     "ProfilePhotoList": [],
     "classifyList": [
       {
@@ -134299,22 +134312,38 @@
         "des": 12601212
       }
     ],
-    "fileList": [],
+    "fileList": [
+      {
+        "file": 80309238
+      }
+    ],
     "age": 0,
-    "gender": "",
-    "birthday": "1月1日",
-    "birthdayMonth": "1",
-    "birthdayDay": "1",
-    "birthdayCake": -1,
-    "birthdayMessage": "",
-    "birthFace": "",
-    "birthdayList": [],
-    "height": "150",
-    "birthplace": "",
-    "ability": "",
-    "identity": "",
+    "gender": "女/男",
+    "birthday": "9月10日/6月29日",
+    "birthdayMonth": "9",
+    "birthdayDay": "10",
+    "birthdayCake": 11400129,
+    "birthdayMessage": "这是从本小姐中意的蛋糕店订购的。好了，你也来一起庆祝吧，这个因为本小姐的诞生而闪闪发光的日子。",
+    "birthFace": "RolePlus/JessySimon/State2_Face",
+    "birthdayList": [
+      {
+        "birthFace": "RolePlus/JessySimon/State2_Face2",
+        "birthdayCake": 11400126,
+        "birthdayDay": "29",
+        "birthdayMessage": "果然生日蛋糕就要有巧克力才对，你也这么认为吧？话说，生日礼物……咳，我可不是很想要，也没指望你能送什么有品位的东西……",
+        "birthdayMonth": "6"
+      }
+    ],
+    "height": "168cm/178cm",
+    "birthplace": "贡露城",
+    "ability": "无",
+    "identity": "科伦巴商会·列车长",
     "basic": "",
-    "ResumeList": [],
+    "ResumeList": [
+      {
+        "des": "贡露城名门望族之一罗勒伊家的继承人。出于开拓眼界和扩张家族业务的目的，姐弟两人在完成必要的教育后入学列车组乘员资格培训学校并相继取得列车长资格。经历升构塔对贡露城展开的大规模袭击事件后，两人的车组与隶属于同一商会的CBCRR23车组缔结更为紧密的合作关系。"
+      }
+    ],
     "StoryList": [],
     "CvName": "",
     "getCharacter": "",
@@ -273524,7 +273553,7 @@
     "viewId": 11000802,
     "skinList": [
       {
-        "unitViewId": 11000785
+        "unitViewId": 11000802
       }
     ],
     "sideId": 12600025,
@@ -275727,6 +275756,1980 @@
     "enemySkillList": [
       {
         "id": 80309736
+      }
+    ]
+  },
+  {
+    "id": 10001378,
+    "idCN": "00我方/09召唤物/西蒙姐弟/车组乘员",
+    "mod": "召唤物",
+    "isInformalData": false,
+    "name": "车组乘员",
+    "EnglishName": "",
+    "viewId": 11000806,
+    "sideId": -1,
+    "controllerId": 10300715,
+    "bulletControllerList": [],
+    "isBoss": false,
+    "bossHpTemp": -1,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "tagList": [
+      {
+        "tagId": 12600139
+      },
+      {
+        "tagId": 12601298
+      }
+    ],
+    "passiveSkillList": [],
+    "hp_SN": 10000,
+    "def_SN": 0,
+    "atk_SN": 0,
+    "crit_SN": 0,
+    "critDMG_SN": 5000,
+    "atkSpeed_SN": 0,
+    "luck_SN": 0,
+    "line": 3,
+    "subLine": 0,
+    "costRestore_SN": 0,
+    "actionStandID": 10105250,
+    "actionMoveID": 10105255,
+    "actionAttackedID": 10105253,
+    "actionAttackedBackID": 10105253,
+    "actionKnockUpID": 10105270,
+    "actionStunID": 10105270,
+    "actionDeadID": 10105251,
+    "actionVictoryID": 10105250,
+    "isNeutral": false,
+    "isCantBeHit": false,
+    "isImmuneAlly": false,
+    "isImmuneEnemy": false,
+    "ownerDeadAddBuffID": 10405632,
+    "deadAddBuffToOwner": -1,
+    "fightEndBuffId": -1,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 15000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 15000,
+    "hitAreaHalfWidth_SN": 10000,
+    "hitAreaHalfHeight_SN": 15000,
+    "canOverMaxSpeed": false,
+    "notRecordTakeDamage": false,
+    "safeInformation": "",
+    "unitInformation": ""
+  },
+  {
+    "id": 10001395,
+    "idCN": "00我方/09召唤物/西蒙姐弟/车组乘员-仅射击",
+    "mod": "召唤物",
+    "isInformalData": false,
+    "name": "车组乘员",
+    "EnglishName": "",
+    "viewId": 11000806,
+    "sideId": -1,
+    "controllerId": 10300716,
+    "bulletControllerList": [],
+    "isBoss": false,
+    "bossHpTemp": -1,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "tagList": [
+      {
+        "tagId": 12600139
+      },
+      {
+        "tagId": 12601298
+      }
+    ],
+    "passiveSkillList": [],
+    "hp_SN": 10000,
+    "def_SN": 0,
+    "atk_SN": 0,
+    "crit_SN": 0,
+    "critDMG_SN": 5000,
+    "atkSpeed_SN": 0,
+    "luck_SN": 0,
+    "line": 3,
+    "subLine": 0,
+    "costRestore_SN": 0,
+    "actionStandID": 10105250,
+    "actionMoveID": 10105255,
+    "actionAttackedID": 10105253,
+    "actionAttackedBackID": 10105253,
+    "actionKnockUpID": 10105270,
+    "actionStunID": 10105270,
+    "actionDeadID": 10105251,
+    "actionVictoryID": 10105250,
+    "isNeutral": false,
+    "isCantBeHit": false,
+    "isImmuneAlly": false,
+    "isImmuneEnemy": false,
+    "ownerDeadAddBuffID": 10405632,
+    "deadAddBuffToOwner": -1,
+    "fightEndBuffId": -1,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 15000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 15000,
+    "hitAreaHalfWidth_SN": 10000,
+    "hitAreaHalfHeight_SN": 15000,
+    "canOverMaxSpeed": false,
+    "notRecordTakeDamage": false,
+    "safeInformation": "",
+    "unitInformation": ""
+  },
+  {
+    "id": 10001457,
+    "idCN": "深渊/54期/金子小姐-1",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "金子小姐",
+    "EnglishName": "",
+    "viewId": 11000184,
+    "skinList": [],
+    "sideId": 12600912,
+    "controllerId": 10300135,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": 90100009,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600278
+      },
+      {
+        "tagId": 12600011
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12303513
+      },
+      {
+        "skillId": 12304323
+      },
+      {
+        "skillId": 12301624
+      },
+      {
+        "skillId": 12304566
+      },
+      {
+        "skillId": 12301667
+      }
+    ],
+    "hp_SN": 1600000000,
+    "def_SN": 640000,
+    "atk_SN": 800000,
+    "crit_SN": 0,
+    "critDMG_SN": 5000,
+    "atkSpeed_SN": 800000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000299,
+    "growthTagList": [
+      {
+        "growthTagId": 12000353
+      },
+      {
+        "growthTagId": 12000060
+      },
+      {
+        "growthTagId": 12000525
+      },
+      {
+        "growthTagId": 12000526
+      },
+      {
+        "growthTagId": 12000528
+      },
+      {
+        "growthTagId": 12000527
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800470
+      },
+      {
+        "talentId": 12800471
+      },
+      {
+        "talentId": 12800467
+      },
+      {
+        "talentId": 12800468
+      },
+      {
+        "talentId": 12800469
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10101901,
+    "actionMoveID": 10101902,
+    "actionAttackedID": 10101906,
+    "actionAttackedBackID": 10101907,
+    "actionKnockUpID": -1,
+    "actionStunID": 10101911,
+    "actionDeadID": 10101903,
+    "actionVictoryID": -1,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 15000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 20000,
+    "hitAreaHalfWidth_SN": 12000,
+    "hitAreaHalfHeight_SN": 20000,
+    "canOverMaxSpeed": false,
+    "notRecordTakeDamage": false,
+    "battleDes": "掘金机器人的领袖，能够驱动所有掘金机器人一同释放技能。",
+    "safeInformation": "掘金机器人的领袖，在场上有其他掘金机器人时无法被伤害。能够驱动所有掘金机器人一同释放技能。",
+    "unitInformation": "金闪闪的金子小姐，淘金乐园的守护者。慧眼如炬，颇具领袖气质，两条手臂都可以随意拆卸下来变成火箭飞拳，其实每根手指也都可以拆卸。作为掘金机器人的领导者，可以通过物理和精神方式对手下进行激励，使战场上出现扳手螺丝镐子乱飞的状况。在有其他掘金机器人为她打掩护时，她就是不可能被打倒的金子小姐。",
+    "enemyDrop": [],
+    "abilityList": [],
+    "weaknessList": [],
+    "resistanceList": [],
+    "enemyType": 12601048,
+    "enemyCamp": 12600221,
+    "enemyBookId": 10000106,
+    "prisonerDrop": [],
+    "enemySkillList": [
+      {
+        "id": 80309737
+      }
+    ]
+  },
+  {
+    "id": 10001458,
+    "idCN": "深渊/54期/金子小姐-2",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "金子小姐",
+    "EnglishName": "",
+    "viewId": 11000184,
+    "skinList": [],
+    "sideId": 12600912,
+    "controllerId": 10300135,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": 90100009,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600278
+      },
+      {
+        "tagId": 12600011
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12303513
+      },
+      {
+        "skillId": 12304323
+      },
+      {
+        "skillId": 12301624
+      },
+      {
+        "skillId": 12304566
+      },
+      {
+        "skillId": 12301667
+      },
+      {
+        "skillId": 12305024
+      }
+    ],
+    "hp_SN": 1600000000,
+    "def_SN": 640000,
+    "atk_SN": 800000,
+    "crit_SN": 0,
+    "critDMG_SN": 5000,
+    "atkSpeed_SN": 800000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000299,
+    "growthTagList": [
+      {
+        "growthTagId": 12000353
+      },
+      {
+        "growthTagId": 12000060
+      },
+      {
+        "growthTagId": 12000525
+      },
+      {
+        "growthTagId": 12000526
+      },
+      {
+        "growthTagId": 12000528
+      },
+      {
+        "growthTagId": 12000527
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800470
+      },
+      {
+        "talentId": 12800471
+      },
+      {
+        "talentId": 12800467
+      },
+      {
+        "talentId": 12800468
+      },
+      {
+        "talentId": 12800469
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10101901,
+    "actionMoveID": 10101902,
+    "actionAttackedID": 10101906,
+    "actionAttackedBackID": 10101907,
+    "actionKnockUpID": -1,
+    "actionStunID": 10101911,
+    "actionDeadID": 10101903,
+    "actionVictoryID": -1,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 15000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 20000,
+    "hitAreaHalfWidth_SN": 12000,
+    "hitAreaHalfHeight_SN": 20000,
+    "canOverMaxSpeed": false,
+    "notRecordTakeDamage": false,
+    "battleDes": "掘金机器人的领袖，能够驱动所有掘金机器人一同释放技能。",
+    "safeInformation": "掘金机器人的领袖，在场上有其他掘金机器人时无法被伤害。能够驱动所有掘金机器人一同释放技能。",
+    "unitInformation": "金闪闪的金子小姐，淘金乐园的守护者。慧眼如炬，颇具领袖气质，两条手臂都可以随意拆卸下来变成火箭飞拳，其实每根手指也都可以拆卸。作为掘金机器人的领导者，可以通过物理和精神方式对手下进行激励，使战场上出现扳手螺丝镐子乱飞的状况。在有其他掘金机器人为她打掩护时，她就是不可能被打倒的金子小姐。",
+    "enemyDrop": [],
+    "abilityList": [],
+    "weaknessList": [],
+    "resistanceList": [],
+    "enemyType": 12601048,
+    "enemyCamp": 12600221,
+    "enemyBookId": 10000106,
+    "prisonerDrop": [],
+    "enemySkillList": [
+      {
+        "id": 80309738
+      }
+    ]
+  },
+  {
+    "id": 10001459,
+    "idCN": "深渊/54期/金子小姐-3",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "金子小姐",
+    "EnglishName": "",
+    "viewId": 11000184,
+    "skinList": [],
+    "sideId": 12600912,
+    "controllerId": 10300135,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": 90100009,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600278
+      },
+      {
+        "tagId": 12600011
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12303513
+      },
+      {
+        "skillId": 12304323
+      },
+      {
+        "skillId": 12301624
+      },
+      {
+        "skillId": 12304566
+      },
+      {
+        "skillId": 12301667
+      },
+      {
+        "skillId": 12305024
+      },
+      {
+        "skillId": 12305025
+      }
+    ],
+    "hp_SN": 1600000000,
+    "def_SN": 640000,
+    "atk_SN": 800000,
+    "crit_SN": 0,
+    "critDMG_SN": 5000,
+    "atkSpeed_SN": 800000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000299,
+    "growthTagList": [
+      {
+        "growthTagId": 12000353
+      },
+      {
+        "growthTagId": 12000060
+      },
+      {
+        "growthTagId": 12000525
+      },
+      {
+        "growthTagId": 12000526
+      },
+      {
+        "growthTagId": 12000528
+      },
+      {
+        "growthTagId": 12000527
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800470
+      },
+      {
+        "talentId": 12800471
+      },
+      {
+        "talentId": 12800467
+      },
+      {
+        "talentId": 12800468
+      },
+      {
+        "talentId": 12800469
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10101901,
+    "actionMoveID": 10101902,
+    "actionAttackedID": 10101906,
+    "actionAttackedBackID": 10101907,
+    "actionKnockUpID": -1,
+    "actionStunID": 10101911,
+    "actionDeadID": 10101903,
+    "actionVictoryID": -1,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 15000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 20000,
+    "hitAreaHalfWidth_SN": 12000,
+    "hitAreaHalfHeight_SN": 20000,
+    "canOverMaxSpeed": false,
+    "notRecordTakeDamage": false,
+    "battleDes": "掘金机器人的领袖，能够驱动所有掘金机器人一同释放技能。",
+    "safeInformation": "掘金机器人的领袖，在场上有其他掘金机器人时无法被伤害。能够驱动所有掘金机器人一同释放技能。",
+    "unitInformation": "金闪闪的金子小姐，淘金乐园的守护者。慧眼如炬，颇具领袖气质，两条手臂都可以随意拆卸下来变成火箭飞拳，其实每根手指也都可以拆卸。作为掘金机器人的领导者，可以通过物理和精神方式对手下进行激励，使战场上出现扳手螺丝镐子乱飞的状况。在有其他掘金机器人为她打掩护时，她就是不可能被打倒的金子小姐。",
+    "enemyDrop": [],
+    "abilityList": [],
+    "weaknessList": [],
+    "resistanceList": [],
+    "enemyType": 12601048,
+    "enemyCamp": 12600221,
+    "enemyBookId": 10000106,
+    "prisonerDrop": [],
+    "enemySkillList": [
+      {
+        "id": 80309739
+      }
+    ]
+  },
+  {
+    "id": 10001460,
+    "idCN": "深渊/54期/金子小姐-4",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "金子小姐",
+    "EnglishName": "",
+    "viewId": 11000184,
+    "skinList": [],
+    "sideId": 12600912,
+    "controllerId": 10300135,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": 90100009,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600278
+      },
+      {
+        "tagId": 12600011
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12303513
+      },
+      {
+        "skillId": 12304323
+      },
+      {
+        "skillId": 12301624
+      },
+      {
+        "skillId": 12304566
+      },
+      {
+        "skillId": 12301667
+      },
+      {
+        "skillId": 12305024
+      },
+      {
+        "skillId": 12305026
+      }
+    ],
+    "hp_SN": 1600000000,
+    "def_SN": 640000,
+    "atk_SN": 800000,
+    "crit_SN": 0,
+    "critDMG_SN": 5000,
+    "atkSpeed_SN": 800000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000299,
+    "growthTagList": [
+      {
+        "growthTagId": 12000353
+      },
+      {
+        "growthTagId": 12000060
+      },
+      {
+        "growthTagId": 12000525
+      },
+      {
+        "growthTagId": 12000526
+      },
+      {
+        "growthTagId": 12000528
+      },
+      {
+        "growthTagId": 12000527
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800470
+      },
+      {
+        "talentId": 12800471
+      },
+      {
+        "talentId": 12800467
+      },
+      {
+        "talentId": 12800468
+      },
+      {
+        "talentId": 12800469
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10101901,
+    "actionMoveID": 10101902,
+    "actionAttackedID": 10101906,
+    "actionAttackedBackID": 10101907,
+    "actionKnockUpID": -1,
+    "actionStunID": 10101911,
+    "actionDeadID": 10101903,
+    "actionVictoryID": -1,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 15000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 20000,
+    "hitAreaHalfWidth_SN": 12000,
+    "hitAreaHalfHeight_SN": 20000,
+    "canOverMaxSpeed": false,
+    "notRecordTakeDamage": false,
+    "battleDes": "掘金机器人的领袖，能够驱动所有掘金机器人一同释放技能。",
+    "safeInformation": "掘金机器人的领袖，在场上有其他掘金机器人时无法被伤害。能够驱动所有掘金机器人一同释放技能。",
+    "unitInformation": "金闪闪的金子小姐，淘金乐园的守护者。慧眼如炬，颇具领袖气质，两条手臂都可以随意拆卸下来变成火箭飞拳，其实每根手指也都可以拆卸。作为掘金机器人的领导者，可以通过物理和精神方式对手下进行激励，使战场上出现扳手螺丝镐子乱飞的状况。在有其他掘金机器人为她打掩护时，她就是不可能被打倒的金子小姐。",
+    "enemyDrop": [],
+    "abilityList": [],
+    "weaknessList": [],
+    "resistanceList": [],
+    "enemyType": 12601048,
+    "enemyCamp": 12600221,
+    "enemyBookId": 10000106,
+    "prisonerDrop": [],
+    "enemySkillList": [
+      {
+        "id": 80309740
+      }
+    ]
+  },
+  {
+    "id": 10001461,
+    "idCN": "深渊/54期/夏尔-1",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "夏尔",
+    "EnglishName": "",
+    "viewId": 11000101,
+    "skinList": [],
+    "sideId": 12600911,
+    "controllerId": 10300164,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": 90100011,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600278
+      },
+      {
+        "tagId": 12601127
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12303513
+      },
+      {
+        "skillId": 12304323
+      },
+      {
+        "skillId": 12301624
+      },
+      {
+        "skillId": 12304566
+      },
+      {
+        "skillId": 12301667
+      }
+    ],
+    "hp_SN": 1400000000,
+    "def_SN": 720000,
+    "atk_SN": 860000,
+    "crit_SN": 0,
+    "critDMG_SN": 5000,
+    "atkSpeed_SN": 1000000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000302,
+    "growthTagList": [
+      {
+        "growthTagId": 12000353
+      },
+      {
+        "growthTagId": 12000060
+      },
+      {
+        "growthTagId": 12000525
+      },
+      {
+        "growthTagId": 12000526
+      },
+      {
+        "growthTagId": 12000528
+      },
+      {
+        "growthTagId": 12000527
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800470
+      },
+      {
+        "talentId": 12800471
+      },
+      {
+        "talentId": 12800467
+      },
+      {
+        "talentId": 12800468
+      },
+      {
+        "talentId": 12800469
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10101316,
+    "actionMoveID": 10101317,
+    "actionAttackedID": 10101319,
+    "actionAttackedBackID": 10101320,
+    "actionKnockUpID": -1,
+    "actionStunID": 10101315,
+    "actionDeadID": 10101318,
+    "actionVictoryID": -1,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 15000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 15000,
+    "hitAreaHalfWidth_SN": 15000,
+    "hitAreaHalfHeight_SN": 15000,
+    "canOverMaxSpeed": false,
+    "notRecordTakeDamage": false,
+    "battleDes": "",
+    "safeInformation": "名为夏尔的沙盗团成员，与外表完全不同，是一名十分难对付的升构者。身边形影不离的大鹅是她的好搭档。",
+    "unitInformation": "体型、外表乃至嗓音都会让人觉得“只不过是个孩子”的升构者，沙盗团成员。使用与外形完全不符的霰弹枪进行战斗，有许多人会被第一印象蒙骗，认为那不过是玩具而已。将她视为“可爱的孩子”而降低戒心的行为是十分危险的，轻视她的人通常会被教训得很惨。\r\n经常被目击到和随身携带的鹅对话，据说是真的在进行沟通。",
+    "enemyDrop": [],
+    "abilityList": [],
+    "weaknessList": [],
+    "resistanceList": [],
+    "enemyType": 12601048,
+    "enemyCamp": 12601045,
+    "enemyBookId": 10000086,
+    "prisonerDrop": [],
+    "enemySkillList": [
+      {
+        "id": 80309741
+      }
+    ]
+  },
+  {
+    "id": 10001462,
+    "idCN": "深渊/54期/夏尔-2",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "夏尔",
+    "EnglishName": "",
+    "viewId": 11000101,
+    "skinList": [],
+    "sideId": 12600911,
+    "controllerId": 10300164,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": 90100011,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600278
+      },
+      {
+        "tagId": 12601127
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12303513
+      },
+      {
+        "skillId": 12304323
+      },
+      {
+        "skillId": 12301624
+      },
+      {
+        "skillId": 12304566
+      },
+      {
+        "skillId": 12301667
+      },
+      {
+        "skillId": 12305024
+      }
+    ],
+    "hp_SN": 1400000000,
+    "def_SN": 720000,
+    "atk_SN": 860000,
+    "crit_SN": 0,
+    "critDMG_SN": 5000,
+    "atkSpeed_SN": 1000000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000302,
+    "growthTagList": [
+      {
+        "growthTagId": 12000353
+      },
+      {
+        "growthTagId": 12000060
+      },
+      {
+        "growthTagId": 12000525
+      },
+      {
+        "growthTagId": 12000526
+      },
+      {
+        "growthTagId": 12000528
+      },
+      {
+        "growthTagId": 12000527
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800470
+      },
+      {
+        "talentId": 12800471
+      },
+      {
+        "talentId": 12800467
+      },
+      {
+        "talentId": 12800468
+      },
+      {
+        "talentId": 12800469
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10101316,
+    "actionMoveID": 10101317,
+    "actionAttackedID": 10101319,
+    "actionAttackedBackID": 10101320,
+    "actionKnockUpID": -1,
+    "actionStunID": 10101315,
+    "actionDeadID": 10101318,
+    "actionVictoryID": -1,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 15000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 15000,
+    "hitAreaHalfWidth_SN": 15000,
+    "hitAreaHalfHeight_SN": 15000,
+    "canOverMaxSpeed": false,
+    "notRecordTakeDamage": false,
+    "battleDes": "",
+    "safeInformation": "名为夏尔的沙盗团成员，与外表完全不同，是一名十分难对付的升构者。身边形影不离的大鹅是她的好搭档。",
+    "unitInformation": "体型、外表乃至嗓音都会让人觉得“只不过是个孩子”的升构者，沙盗团成员。使用与外形完全不符的霰弹枪进行战斗，有许多人会被第一印象蒙骗，认为那不过是玩具而已。将她视为“可爱的孩子”而降低戒心的行为是十分危险的，轻视她的人通常会被教训得很惨。\r\n经常被目击到和随身携带的鹅对话，据说是真的在进行沟通。",
+    "enemyDrop": [],
+    "abilityList": [],
+    "weaknessList": [],
+    "resistanceList": [],
+    "enemyType": 12601048,
+    "enemyCamp": 12601045,
+    "enemyBookId": 10000086,
+    "prisonerDrop": [],
+    "enemySkillList": [
+      {
+        "id": 80309742
+      }
+    ]
+  },
+  {
+    "id": 10001463,
+    "idCN": "深渊/54期/夏尔-3",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "夏尔",
+    "EnglishName": "",
+    "viewId": 11000101,
+    "skinList": [],
+    "sideId": 12600911,
+    "controllerId": 10300164,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": 90100011,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600278
+      },
+      {
+        "tagId": 12601127
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12303513
+      },
+      {
+        "skillId": 12304323
+      },
+      {
+        "skillId": 12301624
+      },
+      {
+        "skillId": 12304566
+      },
+      {
+        "skillId": 12301667
+      },
+      {
+        "skillId": 12305024
+      },
+      {
+        "skillId": 12305025
+      }
+    ],
+    "hp_SN": 1400000000,
+    "def_SN": 720000,
+    "atk_SN": 860000,
+    "crit_SN": 0,
+    "critDMG_SN": 5000,
+    "atkSpeed_SN": 1000000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000302,
+    "growthTagList": [
+      {
+        "growthTagId": 12000353
+      },
+      {
+        "growthTagId": 12000060
+      },
+      {
+        "growthTagId": 12000525
+      },
+      {
+        "growthTagId": 12000526
+      },
+      {
+        "growthTagId": 12000528
+      },
+      {
+        "growthTagId": 12000527
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800470
+      },
+      {
+        "talentId": 12800471
+      },
+      {
+        "talentId": 12800467
+      },
+      {
+        "talentId": 12800468
+      },
+      {
+        "talentId": 12800469
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10101316,
+    "actionMoveID": 10101317,
+    "actionAttackedID": 10101319,
+    "actionAttackedBackID": 10101320,
+    "actionKnockUpID": -1,
+    "actionStunID": 10101315,
+    "actionDeadID": 10101318,
+    "actionVictoryID": -1,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 15000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 15000,
+    "hitAreaHalfWidth_SN": 15000,
+    "hitAreaHalfHeight_SN": 15000,
+    "canOverMaxSpeed": false,
+    "notRecordTakeDamage": false,
+    "battleDes": "",
+    "safeInformation": "名为夏尔的沙盗团成员，与外表完全不同，是一名十分难对付的升构者。身边形影不离的大鹅是她的好搭档。",
+    "unitInformation": "体型、外表乃至嗓音都会让人觉得“只不过是个孩子”的升构者，沙盗团成员。使用与外形完全不符的霰弹枪进行战斗，有许多人会被第一印象蒙骗，认为那不过是玩具而已。将她视为“可爱的孩子”而降低戒心的行为是十分危险的，轻视她的人通常会被教训得很惨。\r\n经常被目击到和随身携带的鹅对话，据说是真的在进行沟通。",
+    "enemyDrop": [],
+    "abilityList": [],
+    "weaknessList": [],
+    "resistanceList": [],
+    "enemyType": 12601048,
+    "enemyCamp": 12601045,
+    "enemyBookId": 10000086,
+    "prisonerDrop": [],
+    "enemySkillList": [
+      {
+        "id": 80309743
+      }
+    ]
+  },
+  {
+    "id": 10001464,
+    "idCN": "深渊/54期/夏尔-4",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "夏尔",
+    "EnglishName": "",
+    "viewId": 11000101,
+    "skinList": [],
+    "sideId": 12600911,
+    "controllerId": 10300164,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": 90100011,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600278
+      },
+      {
+        "tagId": 12601127
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12303513
+      },
+      {
+        "skillId": 12304323
+      },
+      {
+        "skillId": 12301624
+      },
+      {
+        "skillId": 12304566
+      },
+      {
+        "skillId": 12301667
+      },
+      {
+        "skillId": 12305024
+      },
+      {
+        "skillId": 12305026
+      }
+    ],
+    "hp_SN": 1400000000,
+    "def_SN": 720000,
+    "atk_SN": 860000,
+    "crit_SN": 0,
+    "critDMG_SN": 5000,
+    "atkSpeed_SN": 1000000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000302,
+    "growthTagList": [
+      {
+        "growthTagId": 12000353
+      },
+      {
+        "growthTagId": 12000060
+      },
+      {
+        "growthTagId": 12000525
+      },
+      {
+        "growthTagId": 12000526
+      },
+      {
+        "growthTagId": 12000528
+      },
+      {
+        "growthTagId": 12000527
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800470
+      },
+      {
+        "talentId": 12800471
+      },
+      {
+        "talentId": 12800467
+      },
+      {
+        "talentId": 12800468
+      },
+      {
+        "talentId": 12800469
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10101316,
+    "actionMoveID": 10101317,
+    "actionAttackedID": 10101319,
+    "actionAttackedBackID": 10101320,
+    "actionKnockUpID": -1,
+    "actionStunID": 10101315,
+    "actionDeadID": 10101318,
+    "actionVictoryID": -1,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 15000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 15000,
+    "hitAreaHalfWidth_SN": 15000,
+    "hitAreaHalfHeight_SN": 15000,
+    "canOverMaxSpeed": false,
+    "notRecordTakeDamage": false,
+    "battleDes": "",
+    "safeInformation": "名为夏尔的沙盗团成员，与外表完全不同，是一名十分难对付的升构者。身边形影不离的大鹅是她的好搭档。",
+    "unitInformation": "体型、外表乃至嗓音都会让人觉得“只不过是个孩子”的升构者，沙盗团成员。使用与外形完全不符的霰弹枪进行战斗，有许多人会被第一印象蒙骗，认为那不过是玩具而已。将她视为“可爱的孩子”而降低戒心的行为是十分危险的，轻视她的人通常会被教训得很惨。\r\n经常被目击到和随身携带的鹅对话，据说是真的在进行沟通。",
+    "enemyDrop": [],
+    "abilityList": [],
+    "weaknessList": [],
+    "resistanceList": [],
+    "enemyType": 12601048,
+    "enemyCamp": 12601045,
+    "enemyBookId": 10000086,
+    "prisonerDrop": [],
+    "enemySkillList": [
+      {
+        "id": 80309744
+      }
+    ]
+  },
+  {
+    "id": 10001465,
+    "idCN": "01敌方/98未知/BOSS-妮基塔",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "BOSS-妮基塔",
+    "EnglishName": "Nikita",
+    "viewId": 11000807,
+    "skinList": [],
+    "sideId": 12601160,
+    "controllerId": 10300717,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": -1,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600278
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301432
+      },
+      {
+        "skillId": 12301441
+      },
+      {
+        "skillId": 12301421
+      },
+      {
+        "skillId": 12301423
+      },
+      {
+        "skillId": 12301418
+      },
+      {
+        "skillId": 12301446
+      },
+      {
+        "skillId": 12301367
+      },
+      {
+        "skillId": 12300200
+      },
+      {
+        "skillId": 12301412
+      },
+      {
+        "skillId": 12301410
+      },
+      {
+        "skillId": 12301447
+      },
+      {
+        "skillId": 12301413
+      },
+      {
+        "skillId": 12301445
+      },
+      {
+        "skillId": 12303487
+      },
+      {
+        "skillId": 12303489
+      },
+      {
+        "skillId": 12303485
+      },
+      {
+        "skillId": 12303486
+      },
+      {
+        "skillId": 12305027
+      },
+      {
+        "skillId": 12305028
+      },
+      {
+        "skillId": 12305029
+      },
+      {
+        "skillId": 12305030
+      }
+    ],
+    "hp_SN": 7400000000,
+    "def_SN": 850000,
+    "atk_SN": 900000,
+    "crit_SN": 0,
+    "critDMG_SN": 5000,
+    "atkSpeed_SN": 800000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000630,
+    "growthTagList": [
+      {
+        "growthTagId": 12000112
+      },
+      {
+        "growthTagId": 12000097
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800470
+      },
+      {
+        "talentId": 12800471
+      },
+      {
+        "talentId": 12800467
+      },
+      {
+        "talentId": 12800468
+      },
+      {
+        "talentId": 12800469
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10105272,
+    "actionMoveID": 10105275,
+    "actionAttackedID": 10105274,
+    "actionAttackedBackID": 10105277,
+    "actionKnockUpID": -1,
+    "actionStunID": 10105278,
+    "actionDeadID": 10105279,
+    "actionVictoryID": 10105272,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 15000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 15000,
+    "hitAreaHalfWidth_SN": 10000,
+    "hitAreaHalfHeight_SN": 15000,
+    "canOverMaxSpeed": false,
+    "notRecordTakeDamage": false,
+    "battleDes": "",
+    "safeInformation": "",
+    "unitInformation": "",
+    "enemyDrop": [],
+    "abilityList": [],
+    "weaknessList": [],
+    "resistanceList": [],
+    "enemyType": 12601046,
+    "enemyCamp": 12601098,
+    "enemyBookId": 10001465,
+    "prisonerDrop": [],
+    "enemySkillList": [
+      {
+        "id": 80309745
+      }
+    ]
+  },
+  {
+    "id": 10001466,
+    "idCN": "01敌方/98未知/BOSS-妮基塔·究异",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "BOSS-妮基塔·究异",
+    "EnglishName": "",
+    "viewId": 11000808,
+    "skinList": [],
+    "sideId": 12601160,
+    "controllerId": 10300718,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": -1,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600278
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301432
+      },
+      {
+        "skillId": 12301441
+      },
+      {
+        "skillId": 12301421
+      },
+      {
+        "skillId": 12301423
+      },
+      {
+        "skillId": 12301418
+      },
+      {
+        "skillId": 12301446
+      },
+      {
+        "skillId": 12301367
+      },
+      {
+        "skillId": 12300200
+      },
+      {
+        "skillId": 12301412
+      },
+      {
+        "skillId": 12301410
+      },
+      {
+        "skillId": 12301447
+      },
+      {
+        "skillId": 12301413
+      },
+      {
+        "skillId": 12301445
+      },
+      {
+        "skillId": 12303487
+      },
+      {
+        "skillId": 12303489
+      },
+      {
+        "skillId": 12303485
+      },
+      {
+        "skillId": 12303486
+      },
+      {
+        "skillId": 12305031
+      },
+      {
+        "skillId": 12305032
+      },
+      {
+        "skillId": 12305033
+      },
+      {
+        "skillId": 12305034
+      }
+    ],
+    "hp_SN": 340000000,
+    "def_SN": 750000,
+    "atk_SN": 880000,
+    "crit_SN": 0,
+    "critDMG_SN": 5000,
+    "atkSpeed_SN": 800000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000631,
+    "growthTagList": [
+      {
+        "growthTagId": 12000112
+      },
+      {
+        "growthTagId": 12000097
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800470
+      },
+      {
+        "talentId": 12800471
+      },
+      {
+        "talentId": 12800467
+      },
+      {
+        "talentId": 12800468
+      },
+      {
+        "talentId": 12800469
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10105284,
+    "actionMoveID": 10105287,
+    "actionAttackedID": 10105286,
+    "actionAttackedBackID": 10105289,
+    "actionKnockUpID": -1,
+    "actionStunID": 10105290,
+    "actionDeadID": 10105291,
+    "actionVictoryID": 10105284,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 20000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 20000,
+    "hitAreaHalfWidth_SN": 10000,
+    "hitAreaHalfHeight_SN": 20000,
+    "canOverMaxSpeed": false,
+    "notRecordTakeDamage": false,
+    "battleDes": "",
+    "safeInformation": "",
+    "unitInformation": "",
+    "enemyDrop": [],
+    "abilityList": [],
+    "weaknessList": [],
+    "resistanceList": [],
+    "enemyType": 12601046,
+    "enemyCamp": 12601098,
+    "enemyBookId": 10001466,
+    "prisonerDrop": [],
+    "enemySkillList": [
+      {
+        "id": 80309746
+      }
+    ]
+  },
+  {
+    "id": 10001467,
+    "idCN": "01敌方/02桦树/海怪/BOSS-克拉肯",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "BOSS-克拉肯",
+    "EnglishName": "",
+    "viewId": 11000809,
+    "skinList": [],
+    "sideId": 12601160,
+    "controllerId": 10300719,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": -1,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600278
+      },
+      {
+        "tagId": 12601261
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301432
+      },
+      {
+        "skillId": 12301441
+      },
+      {
+        "skillId": 12301421
+      },
+      {
+        "skillId": 12301423
+      },
+      {
+        "skillId": 12301418
+      },
+      {
+        "skillId": 12301446
+      },
+      {
+        "skillId": 12301367
+      },
+      {
+        "skillId": 12300200
+      },
+      {
+        "skillId": 12301412
+      },
+      {
+        "skillId": 12301410
+      },
+      {
+        "skillId": 12301447
+      },
+      {
+        "skillId": 12301413
+      },
+      {
+        "skillId": 12301445
+      },
+      {
+        "skillId": 12303487
+      },
+      {
+        "skillId": 12303489
+      },
+      {
+        "skillId": 12303485
+      },
+      {
+        "skillId": 12303486
+      },
+      {
+        "skillId": 12305035
+      },
+      {
+        "skillId": 12305036
+      },
+      {
+        "skillId": 12305037
+      },
+      {
+        "skillId": 12305038
+      }
+    ],
+    "hp_SN": 340000000,
+    "def_SN": 750000,
+    "atk_SN": 880000,
+    "crit_SN": 0,
+    "critDMG_SN": 5000,
+    "atkSpeed_SN": 800000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000632,
+    "growthTagList": [
+      {
+        "growthTagId": 12000112
+      },
+      {
+        "growthTagId": 12000097
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800292
+      },
+      {
+        "talentId": 12800293
+      },
+      {
+        "talentId": 12800294
+      },
+      {
+        "talentId": 12800295
+      },
+      {
+        "talentId": 12800296
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10105296,
+    "actionMoveID": 10105299,
+    "actionAttackedID": 10105298,
+    "actionAttackedBackID": 10105301,
+    "actionKnockUpID": -1,
+    "actionStunID": 10105302,
+    "actionDeadID": 10105303,
+    "actionVictoryID": 10105296,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 20000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 20000,
+    "hitAreaHalfWidth_SN": 10000,
+    "hitAreaHalfHeight_SN": 20000,
+    "canOverMaxSpeed": false,
+    "notRecordTakeDamage": false,
+    "battleDes": "",
+    "safeInformation": "",
+    "unitInformation": "",
+    "enemyDrop": [],
+    "abilityList": [],
+    "weaknessList": [],
+    "resistanceList": [],
+    "enemyType": 12601046,
+    "enemyCamp": 12601098,
+    "enemyBookId": 10001467,
+    "prisonerDrop": [],
+    "enemySkillList": [
+      {
+        "id": 80309747
       }
     ]
   }
