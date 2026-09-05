@@ -242301,16 +242301,16 @@
   },
   {
     "id": 81002625,
-    "idCN": "主线/EP9/9-22-未完待续",
+    "idCN": "主线/EP10/10-01-对话-混乱",
     "mod": "基础任务",
     "isInformalData": false,
-    "name": "未完待续",
-    "describeNew": "主线尚未完结，支线任务等您探索。",
-    "target": "0",
-    "targetMain": "",
-    "targetCity": "",
-    "story": "故事尚未完结，丰富的支线任务正在等您探索，列车长的冒险旅途才刚刚开始！",
-    "episode": "<color=#FEC032>第九章</color>主线",
+    "name": "10-1 混乱",
+    "describeNew": "在铁安局与静流对话。",
+    "target": "前往贡露城",
+    "targetMain": "访问城市",
+    "targetCity": "0",
+    "story": "妮基塔的所作所为让贡露城的人们陷入了恐慌之中。",
+    "episode": "<color=#FEC032>第十章</color>主线",
     "recommendLevel": 0,
     "questType": "Main",
     "typeIcon": 12601805,
@@ -242323,12 +242323,30 @@
     "isShowAchieveProgress": false,
     "isAnecdote": false,
     "isFURNQuest": false,
-    "client": -1,
-    "startStation": -1,
-    "endStationList": [],
+    "client": 82600500,
+    "startStation": 83000052,
+    "endStationList": [
+      {
+        "id": 83000052,
+        "weight": 10
+      }
+    ],
     "isAutoTrace": false,
-    "isTBC": true,
-    "traceList": [],
+    "isTBC": false,
+    "traceList": [
+      {
+        "apiListId": 86500038,
+        "btnListId": 86500036,
+        "traceId": 86500029,
+        "uiPath": "UI/MainUI/MainUI"
+      },
+      {
+        "apiListId": -1,
+        "btnListId": -1,
+        "traceId": 86500388,
+        "uiPath": "UI/CityMap/CityMap"
+      }
+    ],
     "isSwitchUI": false,
     "switchUI": "",
     "switchParameter": "",
@@ -242338,7 +242356,12 @@
     "playgroundLv": 0,
     "startLevel": 0,
     "startPrisonLevel": 0,
-    "conditionList": [],
+    "conditionList": [
+      {
+        "key": "dialog",
+        "val": "0"
+      }
+    ],
     "num": 1,
     "islockAddProgress": false,
     "isAutoComplete": false,
@@ -242349,8 +242372,22 @@
     "addProgress": 0,
     "parentQuest": -1,
     "childQuestList": [],
-    "rewardsList": [],
-    "nextQuest": [],
+    "rewardsList": [
+      {
+        "id": 11400001,
+        "num": 50000
+      },
+      {
+        "id": 11700078,
+        "num": 1
+      }
+    ],
+    "requireItemList": [],
+    "nextQuest": [
+      {
+        "id": 81003776
+      }
+    ],
     "changeCityStateList": [],
     "bannerList": [],
     "giftList": [],
@@ -320423,116 +320460,6 @@
     "describe": ""
   },
   {
-    "id": 81003775,
-    "idCN": "主线/EP10/10-01-对话-混乱",
-    "mod": "基础任务",
-    "isInformalData": false,
-    "name": "10-1 混乱",
-    "describeNew": "在铁安局与静流对话。",
-    "target": "前往贡露城",
-    "targetMain": "访问城市",
-    "targetCity": "0",
-    "story": "妮基塔的所作所为让贡露城的人们陷入了恐慌之中。",
-    "episode": "<color=#FEC032>第十章</color>主线",
-    "recommendLevel": 0,
-    "questType": "Main",
-    "typeIcon": 12601805,
-    "sort": 0,
-    "questTab": "",
-    "questTabDes": -1,
-    "completeTab": "",
-    "isShowProgress": false,
-    "isShowUnlock": false,
-    "isShowAchieveProgress": false,
-    "isAnecdote": false,
-    "isFURNQuest": false,
-    "client": 82600500,
-    "startStation": 83000052,
-    "endStationList": [
-      {
-        "id": 83000052,
-        "weight": 10
-      }
-    ],
-    "isAutoTrace": false,
-    "isTBC": false,
-    "traceList": [
-      {
-        "apiListId": 86500038,
-        "btnListId": 86500036,
-        "traceId": 86500029,
-        "uiPath": "UI/MainUI/MainUI"
-      },
-      {
-        "apiListId": -1,
-        "btnListId": -1,
-        "traceId": 86500388,
-        "uiPath": "UI/CityMap/CityMap"
-      }
-    ],
-    "isSwitchUI": false,
-    "switchUI": "",
-    "switchParameter": "",
-    "preQuestId": -1,
-    "preLv": 1,
-    "playgroundId": -1,
-    "playgroundLv": 0,
-    "startLevel": 0,
-    "startPrisonLevel": 0,
-    "conditionList": [
-      {
-        "key": "dialog",
-        "val": "0"
-      }
-    ],
-    "num": 1,
-    "islockAddProgress": false,
-    "isAutoComplete": false,
-    "checkComplete": false,
-    "isShowReceive": false,
-    "isRefreshProgress": false,
-    "refreshType": "Level",
-    "addProgress": 0,
-    "parentQuest": -1,
-    "childQuestList": [],
-    "rewardsList": [
-      {
-        "id": 11400001,
-        "num": 50000
-      },
-      {
-        "id": 11700078,
-        "num": 1
-      }
-    ],
-    "requireItemList": [],
-    "nextQuest": [
-      {
-        "id": 81003776
-      }
-    ],
-    "changeCityStateList": [],
-    "bannerList": [],
-    "giftList": [],
-    "mailList": [],
-    "isEvent": false,
-    "isOverwriteEvent": false,
-    "eventList": [],
-    "environmentList": [],
-    "isTime": false,
-    "startTime": "",
-    "endTime": "",
-    "correspondActivity": -1,
-    "returnNum": 1,
-    "dontShowMain": false,
-    "IsPlotTask": false,
-    "isTeleport": false,
-    "teleportStartStation": -1,
-    "teleportEndStation": -1,
-    "teleportText": "",
-    "describe": ""
-  },
-  {
     "id": 81003776,
     "idCN": "主线/EP10/10-02-战斗-谈判",
     "mod": "基础任务",
@@ -320766,7 +320693,7 @@
     "isShowAchieveProgress": false,
     "isAnecdote": false,
     "isFURNQuest": false,
-    "client": -1,
+    "client": 82601466,
     "startStation": 83000052,
     "endStationList": [
       {
@@ -320876,7 +320803,7 @@
     "isShowAchieveProgress": false,
     "isAnecdote": false,
     "isFURNQuest": false,
-    "client": -1,
+    "client": 82601466,
     "startStation": 83000052,
     "endStationList": [
       {
@@ -321091,7 +321018,7 @@
     "isShowAchieveProgress": false,
     "isAnecdote": false,
     "isFURNQuest": false,
-    "client": -1,
+    "client": 82601466,
     "startStation": 83000052,
     "endStationList": [
       {
@@ -321406,7 +321333,7 @@
     "isShowAchieveProgress": false,
     "isAnecdote": false,
     "isFURNQuest": false,
-    "client": -1,
+    "client": 82601468,
     "startStation": 83000052,
     "endStationList": [
       {
@@ -321516,7 +321443,7 @@
     "isShowAchieveProgress": false,
     "isAnecdote": false,
     "isFURNQuest": false,
-    "client": -1,
+    "client": 82601467,
     "startStation": 83000052,
     "endStationList": [
       {
@@ -321621,7 +321548,7 @@
     "isShowAchieveProgress": false,
     "isAnecdote": false,
     "isFURNQuest": false,
-    "client": -1,
+    "client": 82601467,
     "startStation": 83000052,
     "endStationList": [
       {
@@ -322261,7 +322188,7 @@
     "isShowAchieveProgress": false,
     "isAnecdote": false,
     "isFURNQuest": false,
-    "client": -1,
+    "client": 82601469,
     "startStation": 83000052,
     "endStationList": [
       {
@@ -322795,11 +322722,7 @@
     "parentQuest": 81003796,
     "childQuestList": [],
     "rewardsList": [],
-    "nextQuest": [
-      {
-        "id": 81003801
-      }
-    ],
+    "nextQuest": [],
     "changeCityStateList": [],
     "bannerList": [],
     "giftList": [],
@@ -322940,7 +322863,7 @@
     "isShowAchieveProgress": false,
     "isAnecdote": false,
     "isFURNQuest": false,
-    "client": -1,
+    "client": 82601469,
     "startStation": 83000052,
     "endStationList": [
       {
@@ -322961,7 +322884,7 @@
     "startLevel": 0,
     "startPrisonLevel": 0,
     "conditionList": [],
-    "num": 6,
+    "num": 4,
     "islockAddProgress": false,
     "isAutoComplete": true,
     "checkComplete": false,
@@ -322982,12 +322905,6 @@
       },
       {
         "id": 81003800
-      },
-      {
-        "id": 81003801
-      },
-      {
-        "id": 81003802
       }
     ],
     "rewardsList": [
@@ -323063,7 +322980,7 @@
     "isShowAchieveProgress": false,
     "isAnecdote": false,
     "isFURNQuest": false,
-    "client": -1,
+    "client": 82601470,
     "startStation": 83000052,
     "endStationList": [
       {
@@ -323199,16 +323116,7 @@
     "addProgress": 0,
     "parentQuest": -1,
     "childQuestList": [],
-    "rewardsList": [
-      {
-        "id": 11400056,
-        "num": 100
-      },
-      {
-        "id": 11400001,
-        "num": 100000
-      }
-    ],
+    "rewardsList": [],
     "requireItemList": [],
     "nextQuest": [],
     "changeCityStateList": [],

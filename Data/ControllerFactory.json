@@ -28591,7 +28591,9 @@
     "isUseEnergy": true,
     "energySkillList": [
       {
-        "actionId": 10104888
+        "actionId": 10104888,
+        "isClearEnergy": true,
+        "rangeSN": -10000
       }
     ],
     "energyRestorePerFrameSN": 555,
@@ -28643,7 +28645,9 @@
     "isUseEnergy": true,
     "energySkillList": [
       {
-        "actionId": 10104895
+        "actionId": 10104895,
+        "isClearEnergy": true,
+        "rangeSN": -10000
       }
     ],
     "energyRestorePerFrameSN": 555,
@@ -30151,21 +30155,15 @@
         "rangeSN": -10000
       },
       {
-        "actionId": 10105276,
-        "activeFrame": 601,
-        "activeTime": 10.0,
-        "rangeSN": -10000
-      },
-      {
-        "actionId": 10105276,
-        "activeFrame": 1201,
-        "activeTime": 20.0,
-        "rangeSN": -10000
-      },
-      {
         "actionId": 10105282,
         "activeFrame": 361,
         "activeTime": 6.0,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10105276,
+        "activeFrame": 601,
+        "activeTime": 10.0,
         "rangeSN": -10000
       },
       {
@@ -30178,6 +30176,12 @@
         "actionId": 10105282,
         "activeFrame": 1081,
         "activeTime": 18.0,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10105276,
+        "activeFrame": 1201,
+        "activeTime": 20.0,
         "rangeSN": -10000
       },
       {
@@ -30200,7 +30204,9 @@
     "isUseEnergy": true,
     "energySkillList": [
       {
-        "actionId": 10105281
+        "actionId": 10105281,
+        "isClearEnergy": true,
+        "rangeSN": -10000
       }
     ],
     "energyRestorePerFrameSN": 417,
@@ -30220,9 +30226,6 @@
     "actionList": [
       {
         "actionID": 10105292
-      },
-      {
-        "actionID": 10105285
       }
     ],
     "normalAttackCritID": -1,
@@ -30230,13 +30233,13 @@
       {
         "actionId": 10105288,
         "activeFrame": 241,
-        "activeTime": 6.0,
+        "activeTime": 4.0,
         "rangeSN": -10000
       },
       {
         "actionId": 10105294,
-        "activeFrame": 580,
-        "activeTime": 12.0,
+        "activeFrame": 481,
+        "activeTime": 8.0,
         "rangeSN": -10000
       }
     ],
@@ -30246,21 +30249,23 @@
         "actionId": 10105295
       }
     ],
-    "skillLoopDelayFrame": 120,
+    "skillLoopDelayFrame": 240,
     "shapeShiftList": [],
     "commandList": [],
     "enemySkillList": [],
     "isUseEnergy": true,
     "energySkillList": [
       {
-        "actionId": 10105293
+        "actionId": 10105293,
+        "isClearEnergy": true,
+        "rangeSN": -10000
       }
     ],
-    "energyRestorePerFrameSN": 550,
+    "energyRestorePerFrameSN": 417,
     "energyBarColor": "#FFB200",
-    "isSkillDelay": false,
-    "minDelay": 120,
-    "maxDelay": 360
+    "isSkillDelay": true,
+    "minDelay": 60,
+    "maxDelay": 180
   },
   {
     "id": 10300719,

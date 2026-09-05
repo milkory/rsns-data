@@ -229810,14 +229810,14 @@
     "isCharge": false,
     "isSkill": false,
     "actionLevel": "NormalAttack",
-    "isUseTargetFilter": true,
-    "isIgnoreInvisibleEnemy": false,
+    "isUseTargetFilter": false,
+    "isIgnoreInvisibleEnemy": true,
     "targetType": "Enemy",
     "targetTagList": [],
     "tagType": "And",
-    "halfWidth_SN": 240000,
-    "attributeType": "Def",
-    "condition": "Max",
+    "halfWidth_SN": 0,
+    "attributeType": "HpMax",
+    "condition": "All",
     "numberType": "Number",
     "number_SN": 0,
     "buffTypeFO": -1,
@@ -229828,7 +229828,7 @@
     "filterPosition": "DefaultPos",
     "isAimSelf": false,
     "targetCount": 1,
-    "distance_SN": 80000,
+    "distance_SN": 60000,
     "radius_SN": 0,
     "isCustomRadius": false,
     "radiusTag": "",
@@ -229945,16 +229945,12 @@
     "isCharge": false,
     "isSkill": true,
     "actionLevel": "NormalSkill",
-    "isUseTargetFilter": true,
+    "isUseTargetFilter": false,
     "isIgnoreInvisibleEnemy": true,
     "targetType": "Enemy",
-    "targetTagList": [
-      {
-        "tagId": 12600246
-      }
-    ],
+    "targetTagList": [],
     "tagType": "And",
-    "halfWidth_SN": 240000,
+    "halfWidth_SN": 0,
     "attributeType": "HpMax",
     "condition": "All",
     "numberType": "Number",
@@ -229966,8 +229962,8 @@
     "filterStance": "DeafaultStance",
     "filterPosition": "DefaultPos",
     "isAimSelf": false,
-    "targetCount": 1,
-    "distance_SN": 240000,
+    "targetCount": 0,
+    "distance_SN": 0,
     "radius_SN": 0,
     "isCustomRadius": false,
     "radiusTag": "",
@@ -230129,12 +230125,12 @@
     "isCharge": false,
     "isSkill": false,
     "actionLevel": "NormalAttack",
-    "isUseTargetFilter": true,
-    "isIgnoreInvisibleEnemy": false,
+    "isUseTargetFilter": false,
+    "isIgnoreInvisibleEnemy": true,
     "targetType": "Enemy",
     "targetTagList": [],
     "tagType": "And",
-    "halfWidth_SN": 240000,
+    "halfWidth_SN": 0,
     "attributeType": "HpMax",
     "condition": "All",
     "numberType": "Number",
@@ -230146,8 +230142,8 @@
     "filterStance": "DeafaultStance",
     "filterPosition": "DefaultPos",
     "isAimSelf": false,
-    "targetCount": 1,
-    "distance_SN": 80000,
+    "targetCount": 0,
+    "distance_SN": 60000,
     "radius_SN": 0,
     "isCustomRadius": false,
     "radiusTag": "",
@@ -230174,9 +230170,9 @@
     "isCharge": false,
     "isSkill": true,
     "actionLevel": "SpecialSkill",
-    "isUseTargetFilter": true,
+    "isUseTargetFilter": false,
     "isIgnoreInvisibleEnemy": true,
-    "targetType": "Enemy",
+    "targetType": "Self",
     "targetTagList": [],
     "tagType": "And",
     "halfWidth_SN": 0,
@@ -230191,8 +230187,8 @@
     "filterStance": "DeafaultStance",
     "filterPosition": "DefaultPos",
     "isAimSelf": false,
-    "targetCount": 99,
-    "distance_SN": 30000,
+    "targetCount": 0,
+    "distance_SN": 0,
     "radius_SN": 0,
     "isCustomRadius": false,
     "radiusTag": "",
@@ -230205,6 +230201,69 @@
         "bPlayTimes": false,
         "customDataTag": "",
         "stateId": 10205847,
+        "timesRate_SN": 10000,
+        "timesSource": "FixedValue"
+      },
+      {
+        "bPlayTimes": false,
+        "customDataTag": "",
+        "stateId": 10202066,
+        "timesRate_SN": 10000,
+        "timesSource": "FixedValue"
+      },
+      {
+        "bPlayTimes": false,
+        "customDataTag": "keepHold",
+        "stateId": 10202066,
+        "timesRate_SN": 10000,
+        "timesSource": "CustomData"
+      },
+      {
+        "bPlayTimes": true,
+        "customDataTag": "keepHold",
+        "stateId": 10202066,
+        "timesRate_SN": 10000,
+        "timesSource": "CustomData"
+      },
+      {
+        "bPlayTimes": true,
+        "customDataTag": "keepHold",
+        "stateId": 10202066,
+        "timesRate_SN": 10000,
+        "timesSource": "CustomData"
+      },
+      {
+        "bPlayTimes": true,
+        "customDataTag": "keepHold",
+        "stateId": 10202066,
+        "timesRate_SN": 10000,
+        "timesSource": "CustomData"
+      },
+      {
+        "bPlayTimes": true,
+        "customDataTag": "keepHold",
+        "stateId": 10202066,
+        "timesRate_SN": 10000,
+        "timesSource": "CustomData"
+      },
+      {
+        "bPlayTimes": true,
+        "customDataTag": "keepHold",
+        "stateId": 10202066,
+        "timesRate_SN": 10000,
+        "timesSource": "CustomData"
+      },
+      {
+        "bPlayTimes": true,
+        "customDataTag": "keepHold",
+        "stateId": 10202066,
+        "timesRate_SN": 10000,
+        "timesSource": "CustomData"
+      },
+      {
+        "bPlayTimes": false,
+        "customDataTag": "",
+        "stateId": 10202083,
         "timesRate_SN": 10000,
         "timesSource": "FixedValue"
       }
@@ -230221,7 +230280,7 @@
     "actionLevel": "NormalSkill",
     "isUseTargetFilter": true,
     "isIgnoreInvisibleEnemy": true,
-    "targetType": "AllyExceptSelf",
+    "targetType": "Enemy",
     "targetTagList": [
       {
         "tagId": 12600246
@@ -230230,8 +230289,8 @@
     "tagType": "And",
     "halfWidth_SN": 240000,
     "attributeType": "CurrentHp",
-    "condition": "Max",
-    "numberType": "Number",
+    "condition": "Min",
+    "numberType": "Percent",
     "number_SN": 0,
     "buffTypeFO": -1,
     "buffFO": -1,
@@ -230254,6 +230313,20 @@
         "bPlayTimes": false,
         "customDataTag": "",
         "stateId": 10205848,
+        "timesRate_SN": 10000,
+        "timesSource": "FixedValue"
+      },
+      {
+        "bPlayTimes": false,
+        "customDataTag": "",
+        "stateId": 10201842,
+        "timesRate_SN": 10000,
+        "timesSource": "FixedValue"
+      },
+      {
+        "bPlayTimes": false,
+        "customDataTag": "",
+        "stateId": 10202009,
         "timesRate_SN": 10000,
         "timesSource": "FixedValue"
       }
