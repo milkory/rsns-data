@@ -134309,7 +134309,7 @@
     "homeCharacter": 70000386,
     "homeCharacter2": 70000385,
     "stationStoreCharacter": -1,
-    "gotoBed": false,
+    "gotoBed": true,
     "isDoctor": false,
     "medicalPoint": 0,
     "WasteCoefficient": 1.0,
@@ -249963,7 +249963,7 @@
       },
       {
         "id": 83900280,
-        "nextIndex": -1,
+        "nextIndex": 0,
         "resonanceLv": 4
       },
       {
@@ -249976,6 +249976,7 @@
     "totalCardNum": 1,
     "skillMin": 5,
     "homeCharacter": 70000364,
+    "homeCharacter2": -1,
     "stationStoreCharacter": -1,
     "gotoBed": true,
     "isDoctor": false,
@@ -250038,6 +250039,8 @@
     "birthdayDay": "5",
     "birthdayCake": 11400128,
     "birthdayMessage": "妈妈从家里做了寄来的蛋糕，据说配料里和以前一样采用了胡萝卜。很好吃哦，列车长也尝尝吧。",
+    "birthFace": "",
+    "birthdayList": [],
     "height": "153cm",
     "birthplace": "7号自由港",
     "ability": "无",
@@ -277535,9 +277538,9 @@
         "skillId": 12305034
       }
     ],
-    "hp_SN": 340000000,
-    "def_SN": 750000,
-    "atk_SN": 880000,
+    "hp_SN": 6400000000,
+    "def_SN": 850000,
+    "atk_SN": 900000,
     "crit_SN": 0,
     "critDMG_SN": 5000,
     "atkSpeed_SN": 800000,
@@ -277636,8 +277639,8 @@
     "idCN": "01敌方/02桦树/海怪/BOSS-克拉肯",
     "mod": "敌方角色",
     "isInformalData": false,
-    "name": "BOSS-克拉肯",
-    "EnglishName": "",
+    "name": "克拉肯",
+    "EnglishName": "Kraken",
     "viewId": 11000809,
     "skinList": [],
     "sideId": 12601160,
@@ -277667,9 +277670,6 @@
         "skillId": 12301432
       },
       {
-        "skillId": 12301441
-      },
-      {
         "skillId": 12301421
       },
       {
@@ -277682,12 +277682,6 @@
         "skillId": 12301446
       },
       {
-        "skillId": 12301367
-      },
-      {
-        "skillId": 12300200
-      },
-      {
         "skillId": 12301412
       },
       {
@@ -277695,9 +277689,6 @@
       },
       {
         "skillId": 12301447
-      },
-      {
-        "skillId": 12301413
       },
       {
         "skillId": 12301445
@@ -277727,7 +277718,7 @@
         "skillId": 12305038
       }
     ],
-    "hp_SN": 340000000,
+    "hp_SN": 8000000000,
     "def_SN": 750000,
     "atk_SN": 880000,
     "crit_SN": 0,
@@ -277798,12 +277789,12 @@
     "actionStunID": 10105302,
     "actionDeadID": 10105303,
     "actionVictoryID": 10105296,
-    "hitPointX_SN": 0,
-    "hitPointY_SN": 20000,
+    "hitPointX_SN": 60000,
+    "hitPointY_SN": 35000,
     "hitAreaX_SN": 0,
-    "hitAreaY_SN": 20000,
-    "hitAreaHalfWidth_SN": 10000,
-    "hitAreaHalfHeight_SN": 20000,
+    "hitAreaY_SN": 35000,
+    "hitAreaHalfWidth_SN": 40000,
+    "hitAreaHalfHeight_SN": 35000,
     "canOverMaxSpeed": false,
     "notRecordTakeDamage": false,
     "battleDes": "",
@@ -277990,6 +277981,9 @@
       },
       {
         "skillId": 12305042
+      },
+      {
+        "skillId": 12305047
       }
     ],
     "hp_SN": 7400000000,
@@ -278282,5 +278276,1647 @@
         "id": 80309745
       }
     ]
+  },
+  {
+    "id": 10001470,
+    "idCN": "深渊/55期/鼹鼠重机-1",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "鼹鼠重机",
+    "EnglishName": "",
+    "viewId": 11000070,
+    "skinList": [],
+    "sideId": 12600909,
+    "controllerId": 10300072,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": 90100009,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600278
+      },
+      {
+        "tagId": 12600011
+      },
+      {
+        "tagId": 12601261
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301745
+      },
+      {
+        "skillId": 12301472
+      },
+      {
+        "skillId": 12303513
+      },
+      {
+        "skillId": 12304323
+      },
+      {
+        "skillId": 12305043
+      }
+    ],
+    "hp_SN": 1200000000,
+    "def_SN": 600000,
+    "atk_SN": 600000,
+    "crit_SN": 0,
+    "critDMG_SN": 5000,
+    "atkSpeed_SN": 800000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000274,
+    "growthTagList": [
+      {
+        "growthTagId": 12000353
+      },
+      {
+        "growthTagId": 12000060
+      },
+      {
+        "growthTagId": 12000525
+      },
+      {
+        "growthTagId": 12000526
+      },
+      {
+        "growthTagId": 12000528
+      },
+      {
+        "growthTagId": 12000527
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800470
+      },
+      {
+        "talentId": 12800471
+      },
+      {
+        "talentId": 12800467
+      },
+      {
+        "talentId": 12800468
+      },
+      {
+        "talentId": 12800469
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10100571,
+    "actionMoveID": 10100572,
+    "actionAttackedID": 10100573,
+    "actionAttackedBackID": 10100573,
+    "actionKnockUpID": -1,
+    "actionStunID": 10100574,
+    "actionDeadID": 10100575,
+    "actionVictoryID": -1,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 20000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 30000,
+    "hitAreaHalfWidth_SN": 90000,
+    "hitAreaHalfHeight_SN": 15000,
+    "canOverMaxSpeed": false,
+    "notRecordTakeDamage": false,
+    "battleDes": "",
+    "safeInformation": "在被恐怖分子们“回收”以后被改造成了高效且强力的兵器，原本用于清障的多功能前臂现在已脱离了原本的功能，在战斗方面具备了更大的杀伤性。",
+    "unitInformation": "地联在篝火城计划初期为了更方便地铺设轨道而设计的大型清障工程车，在轨道上可以进行高效率作业，紧急情况下也可以脱离轨道运转，只是性能会受到影响。\r\n在被恐怖分子们“回收”以后被改造成了高效且强力的兵器，原本用于清障的多功能前臂现在已脱离了原本的功能，在战斗方面具备了更大的杀伤性。",
+    "enemyDrop": [],
+    "abilityList": [],
+    "weaknessList": [],
+    "resistanceList": [],
+    "enemyType": 12601048,
+    "enemyCamp": 12601045,
+    "enemyBookId": 10000452,
+    "prisonerDrop": [],
+    "enemySkillList": [
+      {
+        "id": 80309780
+      }
+    ]
+  },
+  {
+    "id": 10001471,
+    "idCN": "深渊/55期/鼹鼠重机-2",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "鼹鼠重机",
+    "EnglishName": "",
+    "viewId": 11000070,
+    "skinList": [],
+    "sideId": 12600909,
+    "controllerId": 10300072,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": 90100009,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600278
+      },
+      {
+        "tagId": 12600011
+      },
+      {
+        "tagId": 12601261
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301745
+      },
+      {
+        "skillId": 12301472
+      },
+      {
+        "skillId": 12303513
+      },
+      {
+        "skillId": 12304323
+      },
+      {
+        "skillId": 12305043
+      },
+      {
+        "skillId": 12305044
+      }
+    ],
+    "hp_SN": 1200000000,
+    "def_SN": 600000,
+    "atk_SN": 600000,
+    "crit_SN": 0,
+    "critDMG_SN": 5000,
+    "atkSpeed_SN": 800000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000274,
+    "growthTagList": [
+      {
+        "growthTagId": 12000353
+      },
+      {
+        "growthTagId": 12000060
+      },
+      {
+        "growthTagId": 12000525
+      },
+      {
+        "growthTagId": 12000526
+      },
+      {
+        "growthTagId": 12000528
+      },
+      {
+        "growthTagId": 12000527
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800470
+      },
+      {
+        "talentId": 12800471
+      },
+      {
+        "talentId": 12800467
+      },
+      {
+        "talentId": 12800468
+      },
+      {
+        "talentId": 12800469
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10100571,
+    "actionMoveID": 10100572,
+    "actionAttackedID": 10100573,
+    "actionAttackedBackID": 10100573,
+    "actionKnockUpID": -1,
+    "actionStunID": 10100574,
+    "actionDeadID": 10100575,
+    "actionVictoryID": -1,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 20000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 30000,
+    "hitAreaHalfWidth_SN": 90000,
+    "hitAreaHalfHeight_SN": 15000,
+    "canOverMaxSpeed": false,
+    "notRecordTakeDamage": false,
+    "battleDes": "",
+    "safeInformation": "在被恐怖分子们“回收”以后被改造成了高效且强力的兵器，原本用于清障的多功能前臂现在已脱离了原本的功能，在战斗方面具备了更大的杀伤性。",
+    "unitInformation": "地联在篝火城计划初期为了更方便地铺设轨道而设计的大型清障工程车，在轨道上可以进行高效率作业，紧急情况下也可以脱离轨道运转，只是性能会受到影响。\r\n在被恐怖分子们“回收”以后被改造成了高效且强力的兵器，原本用于清障的多功能前臂现在已脱离了原本的功能，在战斗方面具备了更大的杀伤性。",
+    "enemyDrop": [],
+    "abilityList": [],
+    "weaknessList": [],
+    "resistanceList": [],
+    "enemyType": 12601048,
+    "enemyCamp": 12601045,
+    "enemyBookId": 10000452,
+    "prisonerDrop": [],
+    "enemySkillList": [
+      {
+        "id": 80309781
+      }
+    ]
+  },
+  {
+    "id": 10001472,
+    "idCN": "深渊/55期/鼹鼠重机-3",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "鼹鼠重机",
+    "EnglishName": "",
+    "viewId": 11000070,
+    "skinList": [],
+    "sideId": 12600909,
+    "controllerId": 10300072,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": 90100009,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600278
+      },
+      {
+        "tagId": 12600011
+      },
+      {
+        "tagId": 12601261
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301745
+      },
+      {
+        "skillId": 12301472
+      },
+      {
+        "skillId": 12303513
+      },
+      {
+        "skillId": 12304323
+      },
+      {
+        "skillId": 12305043
+      },
+      {
+        "skillId": 12305044
+      },
+      {
+        "skillId": 12305045
+      }
+    ],
+    "hp_SN": 1200000000,
+    "def_SN": 600000,
+    "atk_SN": 600000,
+    "crit_SN": 0,
+    "critDMG_SN": 5000,
+    "atkSpeed_SN": 800000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000274,
+    "growthTagList": [
+      {
+        "growthTagId": 12000353
+      },
+      {
+        "growthTagId": 12000060
+      },
+      {
+        "growthTagId": 12000525
+      },
+      {
+        "growthTagId": 12000526
+      },
+      {
+        "growthTagId": 12000528
+      },
+      {
+        "growthTagId": 12000527
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800470
+      },
+      {
+        "talentId": 12800471
+      },
+      {
+        "talentId": 12800467
+      },
+      {
+        "talentId": 12800468
+      },
+      {
+        "talentId": 12800469
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10100571,
+    "actionMoveID": 10100572,
+    "actionAttackedID": 10100573,
+    "actionAttackedBackID": 10100573,
+    "actionKnockUpID": -1,
+    "actionStunID": 10100574,
+    "actionDeadID": 10100575,
+    "actionVictoryID": -1,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 20000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 30000,
+    "hitAreaHalfWidth_SN": 90000,
+    "hitAreaHalfHeight_SN": 15000,
+    "canOverMaxSpeed": false,
+    "notRecordTakeDamage": false,
+    "battleDes": "",
+    "safeInformation": "在被恐怖分子们“回收”以后被改造成了高效且强力的兵器，原本用于清障的多功能前臂现在已脱离了原本的功能，在战斗方面具备了更大的杀伤性。",
+    "unitInformation": "地联在篝火城计划初期为了更方便地铺设轨道而设计的大型清障工程车，在轨道上可以进行高效率作业，紧急情况下也可以脱离轨道运转，只是性能会受到影响。\r\n在被恐怖分子们“回收”以后被改造成了高效且强力的兵器，原本用于清障的多功能前臂现在已脱离了原本的功能，在战斗方面具备了更大的杀伤性。",
+    "enemyDrop": [],
+    "abilityList": [],
+    "weaknessList": [],
+    "resistanceList": [],
+    "enemyType": 12601048,
+    "enemyCamp": 12601045,
+    "enemyBookId": 10000452,
+    "prisonerDrop": [],
+    "enemySkillList": [
+      {
+        "id": 80309782
+      }
+    ]
+  },
+  {
+    "id": 10001473,
+    "idCN": "深渊/55期/鼹鼠重机-4",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "鼹鼠重机",
+    "EnglishName": "",
+    "viewId": 11000070,
+    "skinList": [],
+    "sideId": 12600909,
+    "controllerId": 10300072,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": 90100009,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600278
+      },
+      {
+        "tagId": 12600011
+      },
+      {
+        "tagId": 12601261
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301745
+      },
+      {
+        "skillId": 12301472
+      },
+      {
+        "skillId": 12303513
+      },
+      {
+        "skillId": 12304323
+      },
+      {
+        "skillId": 12305043
+      },
+      {
+        "skillId": 12305044
+      },
+      {
+        "skillId": 12305046
+      }
+    ],
+    "hp_SN": 1200000000,
+    "def_SN": 600000,
+    "atk_SN": 600000,
+    "crit_SN": 0,
+    "critDMG_SN": 5000,
+    "atkSpeed_SN": 800000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000274,
+    "growthTagList": [
+      {
+        "growthTagId": 12000353
+      },
+      {
+        "growthTagId": 12000060
+      },
+      {
+        "growthTagId": 12000525
+      },
+      {
+        "growthTagId": 12000526
+      },
+      {
+        "growthTagId": 12000528
+      },
+      {
+        "growthTagId": 12000527
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800470
+      },
+      {
+        "talentId": 12800471
+      },
+      {
+        "talentId": 12800467
+      },
+      {
+        "talentId": 12800468
+      },
+      {
+        "talentId": 12800469
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10100571,
+    "actionMoveID": 10100572,
+    "actionAttackedID": 10100573,
+    "actionAttackedBackID": 10100573,
+    "actionKnockUpID": -1,
+    "actionStunID": 10100574,
+    "actionDeadID": 10100575,
+    "actionVictoryID": -1,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 20000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 30000,
+    "hitAreaHalfWidth_SN": 90000,
+    "hitAreaHalfHeight_SN": 15000,
+    "canOverMaxSpeed": false,
+    "notRecordTakeDamage": false,
+    "battleDes": "",
+    "safeInformation": "在被恐怖分子们“回收”以后被改造成了高效且强力的兵器，原本用于清障的多功能前臂现在已脱离了原本的功能，在战斗方面具备了更大的杀伤性。",
+    "unitInformation": "地联在篝火城计划初期为了更方便地铺设轨道而设计的大型清障工程车，在轨道上可以进行高效率作业，紧急情况下也可以脱离轨道运转，只是性能会受到影响。\r\n在被恐怖分子们“回收”以后被改造成了高效且强力的兵器，原本用于清障的多功能前臂现在已脱离了原本的功能，在战斗方面具备了更大的杀伤性。",
+    "enemyDrop": [],
+    "abilityList": [],
+    "weaknessList": [],
+    "resistanceList": [],
+    "enemyType": 12601048,
+    "enemyCamp": 12601045,
+    "enemyBookId": 10000452,
+    "prisonerDrop": [],
+    "enemySkillList": [
+      {
+        "id": 80309783
+      }
+    ]
+  },
+  {
+    "id": 10001474,
+    "idCN": "深渊/55期/蝎型机械体-1",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "蝎型机械体",
+    "EnglishName": "",
+    "viewId": 11000046,
+    "skinList": [],
+    "sideId": 12600913,
+    "controllerId": 10300241,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": 90100009,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600278
+      },
+      {
+        "tagId": 12600011
+      },
+      {
+        "tagId": 12601127
+      },
+      {
+        "tagId": 12601261
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301472
+      },
+      {
+        "skillId": 12303513
+      },
+      {
+        "skillId": 12304323
+      },
+      {
+        "skillId": 12305043
+      }
+    ],
+    "hp_SN": 1800000000,
+    "def_SN": 760000,
+    "atk_SN": 760000,
+    "crit_SN": 0,
+    "critDMG_SN": 5000,
+    "atkSpeed_SN": 1000000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000286,
+    "growthTagList": [
+      {
+        "growthTagId": 12000353
+      },
+      {
+        "growthTagId": 12000060
+      },
+      {
+        "growthTagId": 12000525
+      },
+      {
+        "growthTagId": 12000526
+      },
+      {
+        "growthTagId": 12000528
+      },
+      {
+        "growthTagId": 12000527
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800470
+      },
+      {
+        "talentId": 12800471
+      },
+      {
+        "talentId": 12800467
+      },
+      {
+        "talentId": 12800468
+      },
+      {
+        "talentId": 12800469
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10100327,
+    "actionMoveID": 10100328,
+    "actionAttackedID": 10100329,
+    "actionAttackedBackID": 10100329,
+    "actionKnockUpID": -1,
+    "actionStunID": 10100330,
+    "actionDeadID": 10100331,
+    "actionVictoryID": -1,
+    "hitPointX_SN": 10000,
+    "hitPointY_SN": 15000,
+    "hitAreaX_SN": 5000,
+    "hitAreaY_SN": 15000,
+    "hitAreaHalfWidth_SN": 30000,
+    "hitAreaHalfHeight_SN": 15000,
+    "canOverMaxSpeed": false,
+    "notRecordTakeDamage": false,
+    "battleDes": "",
+    "safeInformation": "冷冽简洁的涂饰、破坏力极强的武装，以及极高的结构稳定性，这些特征揭示了眼前这辆战车应该是曾经服役于“北方阵线”的型号。",
+    "unitInformation": "无论从时代还是环境角度考虑都不应该出现在此地的战车。\r\n冷冽简洁的涂饰、破坏力极强的武装，以及极高的结构稳定性，这些特征揭示了眼前这辆战车应该是曾经服役于“北方阵线”的型号。在“北阵”解散多年后的现在，北方阵线的机械现身于此的原因，还是个谜。",
+    "enemyDrop": [],
+    "abilityList": [],
+    "weaknessList": [],
+    "resistanceList": [],
+    "enemyType": 12601048,
+    "enemyCamp": 12600221,
+    "enemyBookId": 10000461,
+    "prisonerDrop": [],
+    "enemySkillList": [
+      {
+        "id": 80309784
+      }
+    ]
+  },
+  {
+    "id": 10001475,
+    "idCN": "深渊/55期/蝎型机械体-2",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "蝎型机械体",
+    "EnglishName": "",
+    "viewId": 11000046,
+    "skinList": [],
+    "sideId": 12600913,
+    "controllerId": 10300241,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": 90100009,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600278
+      },
+      {
+        "tagId": 12600011
+      },
+      {
+        "tagId": 12601127
+      },
+      {
+        "tagId": 12601261
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301472
+      },
+      {
+        "skillId": 12303513
+      },
+      {
+        "skillId": 12304323
+      },
+      {
+        "skillId": 12305043
+      },
+      {
+        "skillId": 12305044
+      }
+    ],
+    "hp_SN": 1800000000,
+    "def_SN": 760000,
+    "atk_SN": 760000,
+    "crit_SN": 0,
+    "critDMG_SN": 5000,
+    "atkSpeed_SN": 1000000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000286,
+    "growthTagList": [
+      {
+        "growthTagId": 12000353
+      },
+      {
+        "growthTagId": 12000060
+      },
+      {
+        "growthTagId": 12000525
+      },
+      {
+        "growthTagId": 12000526
+      },
+      {
+        "growthTagId": 12000528
+      },
+      {
+        "growthTagId": 12000527
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800470
+      },
+      {
+        "talentId": 12800471
+      },
+      {
+        "talentId": 12800467
+      },
+      {
+        "talentId": 12800468
+      },
+      {
+        "talentId": 12800469
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10100327,
+    "actionMoveID": 10100328,
+    "actionAttackedID": 10100329,
+    "actionAttackedBackID": 10100329,
+    "actionKnockUpID": -1,
+    "actionStunID": 10100330,
+    "actionDeadID": 10100331,
+    "actionVictoryID": -1,
+    "hitPointX_SN": 10000,
+    "hitPointY_SN": 15000,
+    "hitAreaX_SN": 5000,
+    "hitAreaY_SN": 15000,
+    "hitAreaHalfWidth_SN": 30000,
+    "hitAreaHalfHeight_SN": 15000,
+    "canOverMaxSpeed": false,
+    "notRecordTakeDamage": false,
+    "battleDes": "",
+    "safeInformation": "冷冽简洁的涂饰、破坏力极强的武装，以及极高的结构稳定性，这些特征揭示了眼前这辆战车应该是曾经服役于“北方阵线”的型号。",
+    "unitInformation": "无论从时代还是环境角度考虑都不应该出现在此地的战车。\r\n冷冽简洁的涂饰、破坏力极强的武装，以及极高的结构稳定性，这些特征揭示了眼前这辆战车应该是曾经服役于“北方阵线”的型号。在“北阵”解散多年后的现在，北方阵线的机械现身于此的原因，还是个谜。",
+    "enemyDrop": [],
+    "abilityList": [],
+    "weaknessList": [],
+    "resistanceList": [],
+    "enemyType": 12601048,
+    "enemyCamp": 12600221,
+    "enemyBookId": 10000461,
+    "prisonerDrop": [],
+    "enemySkillList": [
+      {
+        "id": 80309785
+      }
+    ]
+  },
+  {
+    "id": 10001476,
+    "idCN": "深渊/55期/蝎型机械体-3",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "蝎型机械体",
+    "EnglishName": "",
+    "viewId": 11000046,
+    "skinList": [],
+    "sideId": 12600913,
+    "controllerId": 10300241,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": 90100009,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600278
+      },
+      {
+        "tagId": 12600011
+      },
+      {
+        "tagId": 12601127
+      },
+      {
+        "tagId": 12601261
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301472
+      },
+      {
+        "skillId": 12303513
+      },
+      {
+        "skillId": 12304323
+      },
+      {
+        "skillId": 12305043
+      },
+      {
+        "skillId": 12305044
+      },
+      {
+        "skillId": 12305045
+      }
+    ],
+    "hp_SN": 1800000000,
+    "def_SN": 760000,
+    "atk_SN": 760000,
+    "crit_SN": 0,
+    "critDMG_SN": 5000,
+    "atkSpeed_SN": 1000000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000286,
+    "growthTagList": [
+      {
+        "growthTagId": 12000353
+      },
+      {
+        "growthTagId": 12000060
+      },
+      {
+        "growthTagId": 12000525
+      },
+      {
+        "growthTagId": 12000526
+      },
+      {
+        "growthTagId": 12000528
+      },
+      {
+        "growthTagId": 12000527
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800470
+      },
+      {
+        "talentId": 12800471
+      },
+      {
+        "talentId": 12800467
+      },
+      {
+        "talentId": 12800468
+      },
+      {
+        "talentId": 12800469
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10100327,
+    "actionMoveID": 10100328,
+    "actionAttackedID": 10100329,
+    "actionAttackedBackID": 10100329,
+    "actionKnockUpID": -1,
+    "actionStunID": 10100330,
+    "actionDeadID": 10100331,
+    "actionVictoryID": -1,
+    "hitPointX_SN": 10000,
+    "hitPointY_SN": 15000,
+    "hitAreaX_SN": 5000,
+    "hitAreaY_SN": 15000,
+    "hitAreaHalfWidth_SN": 30000,
+    "hitAreaHalfHeight_SN": 15000,
+    "canOverMaxSpeed": false,
+    "notRecordTakeDamage": false,
+    "battleDes": "",
+    "safeInformation": "冷冽简洁的涂饰、破坏力极强的武装，以及极高的结构稳定性，这些特征揭示了眼前这辆战车应该是曾经服役于“北方阵线”的型号。",
+    "unitInformation": "无论从时代还是环境角度考虑都不应该出现在此地的战车。\r\n冷冽简洁的涂饰、破坏力极强的武装，以及极高的结构稳定性，这些特征揭示了眼前这辆战车应该是曾经服役于“北方阵线”的型号。在“北阵”解散多年后的现在，北方阵线的机械现身于此的原因，还是个谜。",
+    "enemyDrop": [],
+    "abilityList": [],
+    "weaknessList": [],
+    "resistanceList": [],
+    "enemyType": 12601048,
+    "enemyCamp": 12600221,
+    "enemyBookId": 10000461,
+    "prisonerDrop": [],
+    "enemySkillList": [
+      {
+        "id": 80309786
+      }
+    ]
+  },
+  {
+    "id": 10001477,
+    "idCN": "深渊/55期/蝎型机械体-4",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "蝎型机械体",
+    "EnglishName": "",
+    "viewId": 11000046,
+    "skinList": [],
+    "sideId": 12600913,
+    "controllerId": 10300241,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": 90100009,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600278
+      },
+      {
+        "tagId": 12600011
+      },
+      {
+        "tagId": 12601127
+      },
+      {
+        "tagId": 12601261
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301472
+      },
+      {
+        "skillId": 12303513
+      },
+      {
+        "skillId": 12304323
+      },
+      {
+        "skillId": 12305043
+      },
+      {
+        "skillId": 12305044
+      },
+      {
+        "skillId": 12305046
+      }
+    ],
+    "hp_SN": 1800000000,
+    "def_SN": 760000,
+    "atk_SN": 760000,
+    "crit_SN": 0,
+    "critDMG_SN": 5000,
+    "atkSpeed_SN": 1000000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000286,
+    "growthTagList": [
+      {
+        "growthTagId": 12000353
+      },
+      {
+        "growthTagId": 12000060
+      },
+      {
+        "growthTagId": 12000525
+      },
+      {
+        "growthTagId": 12000526
+      },
+      {
+        "growthTagId": 12000528
+      },
+      {
+        "growthTagId": 12000527
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800470
+      },
+      {
+        "talentId": 12800471
+      },
+      {
+        "talentId": 12800467
+      },
+      {
+        "talentId": 12800468
+      },
+      {
+        "talentId": 12800469
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10100327,
+    "actionMoveID": 10100328,
+    "actionAttackedID": 10100329,
+    "actionAttackedBackID": 10100329,
+    "actionKnockUpID": -1,
+    "actionStunID": 10100330,
+    "actionDeadID": 10100331,
+    "actionVictoryID": -1,
+    "hitPointX_SN": 10000,
+    "hitPointY_SN": 15000,
+    "hitAreaX_SN": 5000,
+    "hitAreaY_SN": 15000,
+    "hitAreaHalfWidth_SN": 30000,
+    "hitAreaHalfHeight_SN": 15000,
+    "canOverMaxSpeed": false,
+    "notRecordTakeDamage": false,
+    "battleDes": "",
+    "safeInformation": "冷冽简洁的涂饰、破坏力极强的武装，以及极高的结构稳定性，这些特征揭示了眼前这辆战车应该是曾经服役于“北方阵线”的型号。",
+    "unitInformation": "无论从时代还是环境角度考虑都不应该出现在此地的战车。\r\n冷冽简洁的涂饰、破坏力极强的武装，以及极高的结构稳定性，这些特征揭示了眼前这辆战车应该是曾经服役于“北方阵线”的型号。在“北阵”解散多年后的现在，北方阵线的机械现身于此的原因，还是个谜。",
+    "enemyDrop": [],
+    "abilityList": [],
+    "weaknessList": [],
+    "resistanceList": [],
+    "enemyType": 12601048,
+    "enemyCamp": 12600221,
+    "enemyBookId": 10000461,
+    "prisonerDrop": [],
+    "enemySkillList": [
+      {
+        "id": 80309787
+      }
+    ]
+  },
+  {
+    "id": 10001478,
+    "idCN": "00我方/05五星/学会/菲妮娅·烁梦",
+    "mod": "玩家角色",
+    "isInformalData": false,
+    "name": "菲妮娅·烁梦",
+    "EnglishName": "Fenia the Dream Glimmer",
+    "viewId": 11000818,
+    "skinList": [
+      {
+        "unitViewId": 11000818
+      }
+    ],
+    "sideId": 12600031,
+    "controllerId": 10300721,
+    "bulletControllerList": [],
+    "isBoss": false,
+    "bossHpTemp": -1,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12601488
+      },
+      {
+        "tagId": 12600246
+      }
+    ],
+    "passiveSkillList": [],
+    "hp_SN": 80000000,
+    "def_SN": 760000,
+    "atk_SN": 840000,
+    "crit_SN": 0,
+    "critDMG_SN": 5000,
+    "atkSpeed_SN": 1000000,
+    "luck_SN": 0,
+    "line": 3,
+    "subLine": 980,
+    "isUseCustomCostRestore": false,
+    "costRestorePerFrame_SN": 22,
+    "costRestore_SN": 1340,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "FiveStar",
+    "allSkillList": [],
+    "skillList": [
+      {
+        "num": 2,
+        "skillId": 12305048
+      },
+      {
+        "num": 2,
+        "skillId": 12305049
+      },
+      {
+        "num": 1,
+        "skillId": 12305050
+      }
+    ],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [
+      {
+        "tagID": 12600155
+      },
+      {
+        "tagID": 12600161
+      },
+      {
+        "tagID": 12600162
+      }
+    ],
+    "growthId": 12000633,
+    "growthTagList": [],
+    "skillLvUpList": [],
+    "breakthroughList": [
+      {
+        "breakthroughId": 12100370
+      },
+      {
+        "breakthroughId": 12100375
+      },
+      {
+        "breakthroughId": 12100379
+      },
+      {
+        "breakthroughId": 12100384
+      },
+      {
+        "breakthroughId": 12100385
+      },
+      {
+        "breakthroughId": 12100374
+      }
+    ],
+    "awakeList": [
+      {
+        "awakeId": 12200197
+      },
+      {
+        "awakeId": 12200198
+      },
+      {
+        "awakeId": 12200199
+      },
+      {
+        "awakeId": 12200200
+      },
+      {
+        "awakeId": 12200201
+      },
+      {
+        "awakeId": 12200361
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800757
+      },
+      {
+        "talentId": 12800758
+      },
+      {
+        "talentId": 12800756
+      },
+      {
+        "talentId": 12800760
+      },
+      {
+        "talentId": 12800759
+      }
+    ],
+    "rewardList": [
+      {
+        "id": 11700319,
+        "num": 1
+      }
+    ],
+    "actionStandID": 10105314,
+    "actionMoveID": 10105315,
+    "actionAttackedID": 10105316,
+    "actionAttackedBackID": 10105317,
+    "actionKnockUpID": -1,
+    "actionStunID": 10105318,
+    "actionDeadID": 10105319,
+    "actionVictoryID": 10105320,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 15000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 10000,
+    "hitAreaHalfWidth_SN": 5000,
+    "hitAreaHalfHeight_SN": 10000,
+    "canOverMaxSpeed": false,
+    "notRecordTakeDamage": false,
+    "finalSkill": 12303012,
+    "decomposeRewardList": [
+      {
+        "id": 11400017,
+        "num": 10
+      }
+    ],
+    "isSpine2": 1,
+    "homeSkillList": [
+      {
+        "id": 83900089,
+        "nextIndex": 3,
+        "resonanceLv": 1
+      },
+      {
+        "id": 83900076,
+        "nextIndex": 0,
+        "resonanceLv": 4
+      },
+      {
+        "id": 83900090,
+        "nextIndex": -1,
+        "resonanceLv": 5
+      }
+    ],
+    "totalCost": 15,
+    "totalCardNum": 6,
+    "skillMin": 5,
+    "homeCharacter": 70000387,
+    "stationStoreCharacter": -1,
+    "gotoBed": true,
+    "isDoctor": true,
+    "medicalPoint": 90,
+    "WasteCoefficient": 1.0,
+    "FoodList": [
+      {
+        "id": 83300019,
+        "letter": "这是那两个孩子都很喜欢的餐点。趁此机会，休息片刻吧。"
+      }
+    ],
+    "ProfilePhotoList": [
+      {
+        "id": 82601427,
+        "weight": 95
+      },
+      {
+        "id": 82601428,
+        "weight": 95
+      },
+      {
+        "id": 82601429,
+        "weight": 95
+      },
+      {
+        "id": 82601430,
+        "weight": 15
+      }
+    ],
+    "classifyList": [
+      {
+        "des": 12601217
+      },
+      {
+        "des": 12601221
+      },
+      {
+        "des": 12601219
+      },
+      {
+        "des": 12601218
+      },
+      {
+        "des": 12601216
+      },
+      {
+        "des": 12601226
+      },
+      {
+        "des": 12601225
+      }
+    ],
+    "careerList": [
+      {
+        "des": 12601213
+      }
+    ],
+    "fileList": [
+      {
+        "file": 80309790,
+        "skinId": -1
+      }
+    ],
+    "age": 0,
+    "gender": "男",
+    "birthday": "1月20日",
+    "birthdayMonth": "1",
+    "birthdayDay": "20",
+    "birthdayCake": 11400126,
+    "birthdayMessage": "虽然我的身体已经无法再摄入食物，但希望你们能开开心心地分享这个蛋糕。",
+    "height": "198cm",
+    "birthplace": "铁山城",
+    "ability": "燎原",
+    "identity": "索思学会·战斗先导",
+    "basic": "",
+    "ResumeList": [
+      {
+        "des": "学会的核心人物，御敌枢纽先导——达斯廷。如果仅从外观判断，很难断定他是否还能被称为“人”。他的四肢、皮肤乃至部分器官都被机械结构代替，仅剩下部分特征尚能证明其人类身份。如果说万事背后皆有原因，那么他付出如此之大的代价仍要活着、仍要战斗的原因，就是为了创造一个能让“孩子们”安心生活的世界——为此，他能忍受任何代价与苦难，只为引导、伴随他所爱的孩子们，走向未来。"
+      }
+    ],
+    "StoryList": [],
+    "CvName": "",
+    "getCharacter": "我是索思学会的达斯廷，向世人揭示希望即是我的使命。今后请多多关照，列车长。",
+    "teamUzlShow": true,
+    "teamUzl": "https://wiki.biligame.com/resonance/?curid=10934",
+    "safeInformation": "",
+    "unitInformation": ""
+  },
+  {
+    "id": 10001479,
+    "idCN": "01敌方/02桦树/海怪/bot-克拉肯-增殖触腕",
+    "mod": "召唤物",
+    "isInformalData": false,
+    "name": "增殖触腕",
+    "EnglishName": "",
+    "viewId": 11000819,
+    "sideId": -1,
+    "controllerId": 10300722,
+    "bulletControllerList": [],
+    "isBoss": false,
+    "bossHpTemp": -1,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "tagList": [
+      {
+        "tagId": 12600139
+      },
+      {
+        "tagId": 12601298
+      },
+      {
+        "tagId": 12602193
+      }
+    ],
+    "passiveSkillList": [],
+    "hp_SN": 10000,
+    "def_SN": 0,
+    "atk_SN": 0,
+    "crit_SN": 0,
+    "critDMG_SN": 5000,
+    "atkSpeed_SN": 1000000,
+    "luck_SN": 0,
+    "line": 0,
+    "subLine": 0,
+    "costRestore_SN": 0,
+    "actionStandID": 10105297,
+    "actionMoveID": 10105328,
+    "actionAttackedID": 10105329,
+    "actionAttackedBackID": 10105330,
+    "actionKnockUpID": -1,
+    "actionStunID": 10105331,
+    "actionDeadID": 10105332,
+    "actionVictoryID": 10105297,
+    "isNeutral": false,
+    "isCantBeHit": false,
+    "isImmuneAlly": false,
+    "isImmuneEnemy": false,
+    "ownerDeadAddBuffID": -1,
+    "deadAddBuffToOwner": 10409523,
+    "fightEndBuffId": -1,
+    "hitPointX_SN": 0,
+    "hitPointY_SN": 20000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 20000,
+    "hitAreaHalfWidth_SN": 10000,
+    "hitAreaHalfHeight_SN": 20000,
+    "canOverMaxSpeed": false,
+    "notRecordTakeDamage": false,
+    "safeInformation": "",
+    "unitInformation": ""
   }
 ]
