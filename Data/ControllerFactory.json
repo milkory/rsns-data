@@ -26664,7 +26664,7 @@
   },
   {
     "id": 10300638,
-    "idCN": "敌方/02桦树/海怪/bot-捕人达鱼-发光诱饵",
+    "idCN": "敌方/02桦树/海怪/捕人达鱼-发光诱饵",
     "mod": "基础AI",
     "isInformalData": false,
     "targetInvisibleEffectId": -1,
@@ -28155,7 +28155,7 @@
   },
   {
     "id": 10300670,
-    "idCN": "敌方/98未知/bot-格鲁夫-信号灯",
+    "idCN": "敌方/98未知/格鲁夫-信号灯",
     "mod": "BOSSAI",
     "isInformalData": false,
     "targetInvisibleEffectId": 11102488,
@@ -30132,7 +30132,7 @@
   },
   {
     "id": 10300717,
-    "idCN": "敌方/98未知/BOSS-妮基塔",
+    "idCN": "敌方/98未知/妮基塔",
     "mod": "基础AI",
     "isInformalData": false,
     "targetInvisibleEffectId": 11102488,
@@ -30217,7 +30217,7 @@
   },
   {
     "id": 10300718,
-    "idCN": "敌方/98未知/BOSS-妮基塔·究异",
+    "idCN": "敌方/98未知/妮基塔·究异",
     "mod": "基础AI",
     "isInformalData": false,
     "targetInvisibleEffectId": 11102488,
@@ -30269,7 +30269,7 @@
   },
   {
     "id": 10300719,
-    "idCN": "敌方/02桦树/海怪/BOSS-克拉肯",
+    "idCN": "敌方/02桦树/海怪/克拉肯",
     "mod": "基础AI",
     "isInformalData": false,
     "targetInvisibleEffectId": 11102488,
@@ -30325,7 +30325,7 @@
   },
   {
     "id": 10300720,
-    "idCN": "敌方/98未知/bot-妮基塔-未知触手",
+    "idCN": "敌方/98未知/妮基塔-未知触手",
     "mod": "基础AI",
     "isInformalData": false,
     "targetInvisibleEffectId": 11102488,
@@ -30390,7 +30390,7 @@
   },
   {
     "id": 10300722,
-    "idCN": "敌方/02桦树/海怪/bot-克拉肯-增殖触腕",
+    "idCN": "敌方/02桦树/海怪/克拉肯-增殖触腕",
     "mod": "基础AI",
     "isInformalData": false,
     "targetInvisibleEffectId": -1,
@@ -30416,6 +30416,42 @@
     "isUseEnergy": false,
     "energySkillList": [],
     "energyRestorePerFrameSN": 0,
+    "energyBarColor": "#FFB200",
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
+  },
+  {
+    "id": 10300723,
+    "idCN": "敌方/98未知/查特兰奇",
+    "mod": "基础AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10105358
+      },
+      {
+        "actionID": 10105347
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [],
+    "isInvisibleBeforeShowUp": true,
+    "showupSkillList": [
+      {
+        "actionId": 10105361
+      }
+    ],
+    "skillLoopDelayFrame": 360,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": true,
+    "energySkillList": [],
+    "energyRestorePerFrameSN": 417,
     "energyBarColor": "#FFB200",
     "isSkillDelay": false,
     "minDelay": 120,
