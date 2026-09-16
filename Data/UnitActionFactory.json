@@ -231566,51 +231566,6 @@
     "backShakeFrame": -1
   },
   {
-    "id": 10105322,
-    "idCN": "我方/05五星/学会/菲妮娅·烁梦/普攻2",
-    "mod": "基础动作",
-    "isInformalData": false,
-    "isCharge": false,
-    "isSkill": false,
-    "actionLevel": "NormalAttack",
-    "isUseTargetFilter": false,
-    "isIgnoreInvisibleEnemy": true,
-    "targetType": "Enemy",
-    "targetTagList": [],
-    "tagType": "And",
-    "halfWidth_SN": 0,
-    "attributeType": "HpMax",
-    "condition": "All",
-    "numberType": "Number",
-    "number_SN": 0,
-    "buffTypeFO": -1,
-    "buffFO": -1,
-    "buffJudgeType": "Greater",
-    "buffLevel": 0,
-    "filterStance": "DeafaultStance",
-    "filterPosition": "DefaultPos",
-    "isAimSelf": false,
-    "targetCount": 0,
-    "distance_SN": 80000,
-    "radius_SN": 0,
-    "isCustomRadius": false,
-    "radiusTag": "",
-    "damageHitBuffList": [],
-    "healHitBuffList": [],
-    "cdFrame": 84,
-    "isUseBigNumber": false,
-    "stateIdList": [
-      {
-        "bPlayTimes": false,
-        "customDataTag": "",
-        "stateId": 10202683,
-        "timesRate_SN": 10000,
-        "timesSource": "FixedValue"
-      }
-    ],
-    "backShakeFrame": -1
-  },
-  {
     "id": 10105323,
     "idCN": "我方/05五星/学会/菲妮娅·烁梦/A-0",
     "mod": "基础动作",
@@ -231666,11 +231621,7 @@
     "isUseTargetFilter": true,
     "isIgnoreInvisibleEnemy": true,
     "targetType": "Enemy",
-    "targetTagList": [
-      {
-        "tagId": 12600246
-      }
-    ],
+    "targetTagList": [],
     "tagType": "And",
     "halfWidth_SN": 0,
     "attributeType": "HpMax",
@@ -231684,7 +231635,7 @@
     "filterStance": "DeafaultStance",
     "filterPosition": "DefaultPos",
     "isAimSelf": false,
-    "targetCount": 0,
+    "targetCount": 1,
     "distance_SN": 0,
     "radius_SN": 0,
     "isCustomRadius": false,
@@ -231715,16 +231666,12 @@
     "isUseTargetFilter": true,
     "isIgnoreInvisibleEnemy": true,
     "targetType": "Enemy",
-    "targetTagList": [
-      {
-        "tagId": 12600246
-      }
-    ],
+    "targetTagList": [],
     "tagType": "And",
     "halfWidth_SN": 240000,
     "attributeType": "CurrentHp",
     "condition": "Max",
-    "numberType": "Percent",
+    "numberType": "Number",
     "number_SN": 0,
     "buffTypeFO": -1,
     "buffFO": -1,
@@ -231808,7 +231755,7 @@
     "actionLevel": "SpecialSkill",
     "isUseTargetFilter": false,
     "isIgnoreInvisibleEnemy": true,
-    "targetType": "Enemy",
+    "targetType": "Self",
     "targetTagList": [],
     "tagType": "And",
     "halfWidth_SN": 0,
@@ -231823,7 +231770,7 @@
     "filterStance": "DeafaultStance",
     "filterPosition": "DefaultPos",
     "isAimSelf": false,
-    "targetCount": 0,
+    "targetCount": 1,
     "distance_SN": 0,
     "radius_SN": 0,
     "isCustomRadius": false,

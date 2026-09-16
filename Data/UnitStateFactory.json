@@ -276240,8 +276240,8 @@
     "viewId": 11000818,
     "aniName": "stun",
     "isLoop": false,
-    "aniTime_SN": 20000,
-    "totalFrame": 120,
+    "aniTime_SN": 13333,
+    "totalFrame": 80,
     "customFrameTag": "",
     "frameChanged": false,
     "scaleRateSN": 10000,
@@ -276263,21 +276263,43 @@
     "isInformalData": false,
     "actionLevel": "NormalSkill",
     "viewId": 11000818,
-    "aniName": "skill_01_01",
+    "aniName": "skill_01",
     "isLoop": false,
-    "aniTime_SN": 11000,
-    "totalFrame": 66,
+    "aniTime_SN": 13333,
+    "totalFrame": 80,
     "customFrameTag": "",
     "frameChanged": false,
     "scaleRateSN": 10000,
-    "frameEventList": [],
+    "frameEventList": [
+      {
+        "excuteTimes": 10000,
+        "frameEventId": 10503853,
+        "timesSource": "FixedValue",
+        "triggerFrame": 30,
+        "triggerTime_SN": 5000
+      }
+    ],
     "effectList": [
       {
         "effectId": 11100002,
         "offsetX": 0.0,
-        "offsetY": 0.4,
+        "offsetY": 1.5,
         "triggerFrame": 1,
         "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11101384,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11109812,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 30,
+        "triggerTime_SN": 5000
       }
     ],
     "soundList": [],
@@ -276321,19 +276343,29 @@
     "isInformalData": false,
     "actionLevel": "SpecialSkill",
     "viewId": 11000818,
-    "aniName": "preskl_03",
+    "aniName": "skill_03",
     "isLoop": false,
-    "aniTime_SN": 8333,
-    "totalFrame": 50,
+    "aniTime_SN": 15000,
+    "totalFrame": 90,
     "customFrameTag": "",
     "frameChanged": false,
     "scaleRateSN": 10000,
     "frameEventList": [
       {
+        "excuteTimes": 10000,
         "frameEventId": 10500302,
-        "hHalf_SN": 0,
+        "timesSource": "FixedValue",
         "triggerFrame": 1,
-        "triggerTime_SN": 0,
+        "triggerTime_SN": 0
+      },
+      {
+        "customDataTag": "",
+        "excuteTimes": 10000,
+        "frameEventId": 10503857,
+        "hHalf_SN": 0,
+        "timesSource": "FixedValue",
+        "triggerFrame": 35,
+        "triggerTime_SN": 5833,
         "wHalf_SN": 0,
         "x_SN": 0,
         "y_SN": 0
@@ -276341,7 +276373,32 @@
     ],
     "effectList": [
       {
-        "effectId": 11105088
+        "effectId": 11105190,
+        "offsetX": 0.0,
+        "offsetY": 1.5,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11101387,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11101296,
+        "offsetX": 0.0,
+        "offsetY": 2.5,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11101304,
+        "offsetX": 0.0,
+        "offsetY": 2.5,
+        "triggerFrame": 35,
+        "triggerTime_SN": 5833
       }
     ],
     "soundList": [
@@ -276383,65 +276440,49 @@
     "sortingOrder": 0
   },
   {
-    "id": 10202683,
-    "idCN": "我方/05五星/学会/菲妮娅·烁梦/普攻2",
-    "mod": "基础状态",
-    "isInformalData": false,
-    "actionLevel": "NormalAttack",
-    "viewId": 11000818,
-    "aniName": "attack_02",
-    "isLoop": false,
-    "aniTime_SN": 16666,
-    "totalFrame": 100,
-    "customFrameTag": "",
-    "frameChanged": false,
-    "scaleRateSN": 10000,
-    "frameEventList": [
-      {
-        "customDataTag": "",
-        "excuteTimes": 10000,
-        "frameEventId": 10501150,
-        "hHalf_SN": 0,
-        "timesSource": "FixedValue",
-        "triggerFrame": 36,
-        "triggerTime_SN": 6000,
-        "wHalf_SN": 0,
-        "x_SN": 0,
-        "y_SN": 0
-      }
-    ],
-    "effectList": [],
-    "soundList": [],
-    "isYChange": false,
-    "offsetYList": [],
-    "speed_SN": 0,
-    "speedY_SN": 0,
-    "keyFrameList": [],
-    "isSetSortingOrder": false,
-    "sortingOrder": 0
-  },
-  {
     "id": 10202684,
     "idCN": "我方/05五星/学会/菲妮娅·烁梦/A-1",
     "mod": "基础状态",
     "isInformalData": false,
     "actionLevel": "NormalSkill",
     "viewId": 11000818,
-    "aniName": "skill_01_01",
+    "aniName": "skill_01",
     "isLoop": false,
-    "aniTime_SN": 11000,
-    "totalFrame": 66,
+    "aniTime_SN": 13333,
+    "totalFrame": 80,
     "customFrameTag": "",
     "frameChanged": false,
     "scaleRateSN": 10000,
-    "frameEventList": [],
+    "frameEventList": [
+      {
+        "excuteTimes": 10000,
+        "frameEventId": 10503854,
+        "timesSource": "FixedValue",
+        "triggerFrame": 30,
+        "triggerTime_SN": 5000
+      }
+    ],
     "effectList": [
       {
         "effectId": 11100002,
         "offsetX": 0.0,
-        "offsetY": 0.4,
+        "offsetY": 1.5,
         "triggerFrame": 1,
         "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11101384,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11109812,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 30,
+        "triggerTime_SN": 5000
       }
     ],
     "soundList": [],
@@ -276462,8 +276503,8 @@
     "viewId": 11000818,
     "aniName": "dead",
     "isLoop": false,
-    "aniTime_SN": 15000,
-    "totalFrame": 90,
+    "aniTime_SN": 13333,
+    "totalFrame": 80,
     "customFrameTag": "",
     "frameChanged": false,
     "scaleRateSN": 10000,
@@ -276495,8 +276536,8 @@
     "viewId": 11000818,
     "aniName": "cheer",
     "isLoop": false,
-    "aniTime_SN": 61666,
-    "totalFrame": 370,
+    "aniTime_SN": 53333,
+    "totalFrame": 320,
     "customFrameTag": "",
     "frameChanged": false,
     "scaleRateSN": 10000,
@@ -276520,19 +276561,53 @@
     "viewId": 11000818,
     "aniName": "skill_02",
     "isLoop": false,
-    "aniTime_SN": 14000,
-    "totalFrame": 84,
+    "aniTime_SN": 10000,
+    "totalFrame": 60,
     "customFrameTag": "",
     "frameChanged": false,
     "scaleRateSN": 10000,
-    "frameEventList": [],
+    "frameEventList": [
+      {
+        "customDataTag": "",
+        "excuteTimes": 10000,
+        "frameEventId": 10503856,
+        "hHalf_SN": 0,
+        "timesSource": "FixedValue",
+        "triggerFrame": 16,
+        "triggerTime_SN": 2667,
+        "wHalf_SN": 0,
+        "x_SN": 0,
+        "y_SN": 0
+      }
+    ],
     "effectList": [
       {
         "effectId": 11100002,
         "offsetX": 0.0,
-        "offsetY": 0.4,
+        "offsetY": 1.5,
         "triggerFrame": 1,
         "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11101386,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11109813,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 16,
+        "triggerTime_SN": 2667
+      },
+      {
+        "effectId": 11101374,
+        "offsetX": 4.0,
+        "offsetY": 0.0,
+        "triggerFrame": 16,
+        "triggerTime_SN": 2667
       }
     ],
     "soundList": [],
@@ -276578,8 +276653,8 @@
     "viewId": 11000818,
     "aniName": "attack_01",
     "isLoop": false,
-    "aniTime_SN": 13333,
-    "totalFrame": 80,
+    "aniTime_SN": 15000,
+    "totalFrame": 90,
     "customFrameTag": "",
     "frameChanged": false,
     "scaleRateSN": 10000,
@@ -276593,11 +276668,19 @@
         "triggerFrame": 36,
         "triggerTime_SN": 6000,
         "wHalf_SN": 0,
-        "x_SN": 0,
-        "y_SN": 0
+        "x_SN": 22400,
+        "y_SN": 8600
       }
     ],
-    "effectList": [],
+    "effectList": [
+      {
+        "effectId": 11101364,
+        "offsetX": 2.24,
+        "offsetY": 0.86,
+        "triggerFrame": 32,
+        "triggerTime_SN": 5333
+      }
+    ],
     "soundList": [],
     "isYChange": false,
     "offsetYList": [],
@@ -276616,8 +276699,8 @@
     "viewId": 11000818,
     "aniName": "run",
     "isLoop": false,
-    "aniTime_SN": 5333,
-    "totalFrame": 32,
+    "aniTime_SN": 6667,
+    "totalFrame": 40,
     "customFrameTag": "",
     "frameChanged": false,
     "scaleRateSN": 10000,
@@ -276639,21 +276722,43 @@
     "isInformalData": false,
     "actionLevel": "NormalSkill",
     "viewId": 11000818,
-    "aniName": "skill_03",
+    "aniName": "skill_01",
     "isLoop": false,
-    "aniTime_SN": 21333,
-    "totalFrame": 128,
+    "aniTime_SN": 13333,
+    "totalFrame": 80,
     "customFrameTag": "",
     "frameChanged": false,
     "scaleRateSN": 10000,
-    "frameEventList": [],
+    "frameEventList": [
+      {
+        "excuteTimes": 10000,
+        "frameEventId": 10503855,
+        "timesSource": "FixedValue",
+        "triggerFrame": 30,
+        "triggerTime_SN": 5000
+      }
+    ],
     "effectList": [
       {
         "effectId": 11100002,
         "offsetX": 0.0,
-        "offsetY": 0.4,
+        "offsetY": 1.5,
         "triggerFrame": 1,
         "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11101384,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 1,
+        "triggerTime_SN": 0
+      },
+      {
+        "effectId": 11109812,
+        "offsetX": 0.0,
+        "offsetY": 0.0,
+        "triggerFrame": 30,
+        "triggerTime_SN": 5000
       }
     ],
     "soundList": [],
