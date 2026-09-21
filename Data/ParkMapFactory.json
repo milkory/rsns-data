@@ -39,6 +39,8 @@
     "mod": "魔女活动",
     "isInformalData": false,
     "name": "WitchesPark_Asset",
+    "times": 1,
+    "seasonPath": "",
     "startList": [
       {
         "id": 60700002
@@ -1088,16 +1090,20 @@
     ],
     "singleSealList": [
       {
-        "id": 60800002
+        "id": 60800002,
+        "weight": 1000
       },
       {
-        "id": 60800003
+        "id": 60800003,
+        "weight": 100
       },
       {
-        "id": 60800004
+        "id": 60800004,
+        "weight": 10
       },
       {
-        "id": 60800005
+        "id": 60800005,
+        "weight": 1
       }
     ],
     "combineSealList": [
@@ -1230,6 +1236,8 @@
       }
     ],
     "animMove": "walk_1",
+    "animBroomStand": "",
+    "animBroomWalk": "",
     "finialWinAward": [
       {
         "id": 11400001,
@@ -1353,6 +1361,7 @@
         "id": 81002339
       }
     ],
+    "teaTip": 80610506,
     "singleDialogList": [
       {
         "id": 88800148,
@@ -1396,6 +1405,8 @@
     "mod": "魔女活动",
     "isInformalData": false,
     "name": "WitchesPark2_Asset",
+    "times": 2,
+    "seasonPath": "Witches2",
     "startList": [
       {
         "id": 60700499
@@ -2154,7 +2165,7 @@
     ],
     "loadingList": [
       {
-        "imagePath": "UI/Loading/YLC_‌Castle‌_Loading"
+        "imagePath": "UI/Loading/Witches2Loading"
       }
     ],
     "ticketReresh": [],
@@ -2216,17 +2227,17 @@
     "ticketBuffList": [
       {
         "id": 11401236,
-        "ticketShowPath": "UI/Witches/Main/TicketShow/Ticket_bing",
+        "ticketShowPath": "Item/item/Big/Yaoqinghan_bing2",
         "weight": 1
       },
       {
         "id": 11401239,
-        "ticketShowPath": "UI/Witches/Main/TicketShow/Ticket_dian",
+        "ticketShowPath": "Item/item/Big/Yaoqinghan_dian2",
         "weight": 1
       },
       {
         "id": 11401244,
-        "ticketShowPath": "UI/Witches/Main/TicketShow/Ticket_huo",
+        "ticketShowPath": "Item/item/Big/Yaoqinghan_huo2",
         "weight": 1
       }
     ],
@@ -2430,16 +2441,20 @@
     ],
     "singleSealList": [
       {
-        "id": 60800044
+        "id": 60800044,
+        "weight": 1000
       },
       {
-        "id": 60800042
+        "id": 60800042,
+        "weight": 100
       },
       {
-        "id": 60800043
+        "id": 60800043,
+        "weight": 10
       },
       {
-        "id": 60800041
+        "id": 60800041,
+        "weight": 1
       }
     ],
     "combineSealList": [
@@ -2556,7 +2571,7 @@
     ],
     "carMoveNum": 2,
     "carLengthNum": 3,
-    "carEvent": 88800186,
+    "carEvent": 88800490,
     "buyCarCostList": [],
     "moveNum": 3,
     "animInitialStand": "stand_1",
@@ -2572,6 +2587,8 @@
       }
     ],
     "animMove": "walk_1",
+    "animBroomStand": "stand_tideng",
+    "animBroomWalk": "walk_tideng",
     "finialWinAward": [
       {
         "id": 11400001,
@@ -2695,36 +2712,37 @@
         "id": 81003624
       }
     ],
+    "teaTip": 80612800,
     "singleDialogList": [
       {
-        "id": 88800148,
-        "name": "海伦娜",
-        "tabPath": "UI/Witches/Guka/Handbook/Event/NPC/hailunna"
-      },
-      {
-        "id": 88800154,
-        "name": "故事先生",
-        "tabPath": "UI/Witches/Guka/Handbook/Event/NPC/StoryMan"
-      },
-      {
-        "id": 88800156,
+        "id": 88800415,
         "name": "丽桑德拉",
-        "tabPath": "UI/Witches/Guka/Handbook/Event/NPC/Lissandra"
+        "tabPath": "UI/Witches/Witches2/GuKa/Handbook/Event/NPC/Lissandra"
       },
       {
-        "id": 88800153,
-        "name": "涟",
-        "tabPath": "UI/Witches/Guka/Handbook/Event/NPC/Ren"
+        "id": 88800423,
+        "name": "达斯廷",
+        "tabPath": "UI/Witches/Witches2/GuKa/Handbook/Event/NPC/Dustin"
       },
       {
-        "id": 88800155,
-        "name": "露卡薇",
-        "tabPath": "UI/Witches/Guka/Handbook/Event/NPC/lukawei"
+        "id": 88800455,
+        "name": "苏恩",
+        "tabPath": "UI/Witches/Witches2/GuKa/Handbook/Event/NPC/Suen"
       },
       {
-        "id": 88800157,
-        "name": "瑞瓦",
-        "tabPath": "UI/Witches/Guka/Handbook/Event/NPC/Reeva"
+        "id": 88800466,
+        "name": "贝雷司",
+        "tabPath": "UI/Witches/Witches2/GuKa/Handbook/Event/NPC/Beleth"
+      },
+      {
+        "id": 88800528,
+        "name": "约书亚",
+        "tabPath": "UI/Witches/Witches2/GuKa/Handbook/Event/NPC/Joshu"
+      },
+      {
+        "id": 88800533,
+        "name": "索玛",
+        "tabPath": "UI/Witches/Witches2/GuKa/Handbook/Event/NPC/Sommer"
       }
     ],
     "fireworkCameraPosX": 0.0,

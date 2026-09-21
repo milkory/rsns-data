@@ -2686,5 +2686,62 @@
     "returnType": "int",
     "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rset $battleControlManager\r\rgetp curGSBuff\rset $curBuff\r\rgetp target\rset $target\r\rgetp buffSystem\rset $buffSystem\r\rcallWith $buffSystem GetBuffLink\rset $_buffLink\rgetp count\rset $count\rsub $count 1\rset $count\r\rset $valueSN 0\r\rget $_buffLink\rgetp first\rset $node\rfor $i 0 $count\r    if $node\r        get $node\r\t\tgetp item\r        getp ca\r        getp typeTagList\r        set $typeTagList\r        getp Count\r        set $length\r        for $j 0 $length\r            get $typeTagList $j\r            getp tagId\r            getp id\r            set $tagId\r            if $tagId eq 12602075\r                add $valueSN 10000\r                set $valueSN\r            endif\r        endFor\r\r        get $node\r        getp next\r\t\tset $node\r    endif\rendFor\r\rcallWith $buffSystem GetCannotBeDispelledBuffLink\rset $_cannotBeDispelled\rgetp count\rset $count\rsub $count 1\rset $count\r\rget $_cannotBeDispelled\rgetp first\rset $node\rfor $i 0 $count\r    if $node\r        get $node\r\t\tgetp item\r        getp ca\r        getp typeTagList\r        set $typeTagList\r        getp Count\r        set $length\r        for $j 0 $length\r            get $typeTagList $j\r            getp tagId\r            getp id\r            set $tagId\r            if $tagId eq 12602075\r                add $valueSN 10000\r                set $valueSN\r            endif\r        endFor\r\r        get $node\r        getp next\r\t\tset $node\r    endif\rendFor\r\rget $curBuff\rgetp snapshot\rset $snapshot\rcallWith $snapshot SetAttributeBase $valueSN \"anShiDmgUpCount\" \"Number\" $true\r\rret 0",
     "cacheAsGMF": true
+  },
+  {
+    "id": 60000198,
+    "idCN": "卡牌/功能节点/常规手牌排除自动打出和队长技",
+    "mod": "执行GS脚本",
+    "isInformalData": false,
+    "debug": false,
+    "autoRecycle": false,
+    "memo": "返回1表示常规手牌，返回2表示队长技、自动打出、影牌或无目标卡。手动减到0费仍返回1。自动打出使用小队临时计数标记10430781。",
+    "paramHelp": "",
+    "returnType": "int",
+    "script": "main:\ngetc CBus Instance\ncgf GetManager \"BattleControlManager\"\ngetp curGSBuff\ngetp snapshot\ngetp targetCard\nset $card\nif $card\n    get $card\n    getp isShadowCard\n    if\n        ret 2\n    endif\n    get $card\n    getp ca isUseInHand\n    if\n        ret 2\n    endif\n    get $card\n    getp cardProperty\n    set $cardProperty\n    if $cardProperty\n        get $cardProperty\n        getp teamData\n        cgf GetTeamNO\n        set $teamNO\n        if $teamNO ne 1\n            ret 2\n        endif\n        get $cardProperty\n        getp isLeaderCard\n        if\n            ret 2\n        endif\n        get $cardProperty\n        getp teamData buffSystem\n        cgf GetSpecifiedBuff 10430781\n        set $marker\n        if $marker\n            get $marker\n            getp IsEnd\n            if\n                ret 1\n            else\n                ret 2\n            endif\n        endif\n        ret 1\n    endif\nendif\nret 2",
+    "cacheAsGMF": true
+  },
+  {
+    "id": 60000199,
+    "idCN": "战斗/魔女活动/2期/咕卡/虫之诗/为目标补齐来源监听",
+    "mod": "执行GS脚本",
+    "isInformalData": false,
+    "debug": false,
+    "autoRecycle": false,
+    "returnType": "int",
+    "script": "main:\n    getc CBus Instance\n    cgf GetManager \"BattleControlManager\"\n    getp curGSBuff\n    set $curBuff\n    getp target\n    set $target\n    get $curBuff\n    getp owner\n    set $owner\n    get $curBuff\n    getp snapshot\n    set $snapshot\n    get $owner\n    getp sid\n    set $ownerSid\n    get $target\n    getp buffSystem\n    cgf GetCannotBeDispelledBuffLink\n    set $link\n    getp count\n    set $length\n    get $link\n    getp first\n    set $node\n    if $length gt 0\n        for $i 0 $length\n        if $node\n        get $node\n        getp item\n        set $oldBuff\n        getp ca id\n        set $id\n        if $id eq 10431138\n            get $oldBuff\n            getp owner sid\n            set $oldSid\n            if $oldSid eq $ownerSid\n                ret 0\n            endif\n        endif\n        get $node\n        getp next\n        set $node\n        endif\n        endFor\n    endif\n    get $curBuff\n    getp _buffFactory\n    set $buffFactory\n    get $curBuff\n    getp action\n    set $action\n    get $curBuff\n    getp positionSN\n    set $positionSN\n    get $curBuff\n    getp isSkill\n    set $isSkill\n    get $curBuff\n    getp from\n    set $from\n    get $curBuff\n    getp fromUnitSID\n    set $fromUnitSID\n    getc BuffFactory\n    if\n        getMethodInfo Produce 9 \"System.Int32\" \"Unit\" \"Snapshot\" \"UnitAction\" \"IBuffSystem\" \"PointSN\" \"System.Boolean\" \"System.Int32\" \"System.Int32\"\n    else\n        getc Battle.BuffFactory\n        getMethodInfo Produce 9 \"System.Int32\" \"Battle.Unit\" \"Battle.Snapshot\" \"Battle.UnitAction\" \"Battle.IBuffSystem\" \"PointSN\" \"System.Boolean\" \"System.Int32\" \"System.Int32\"\n    endif\n    callMethodInfo $buffFactory 10431138 $owner $snapshot $action $target $positionSN $isSkill $from $fromUnitSID\n    set $newBuff\n    callWith $target AddBuff $newBuff\n    ret 0",
+    "cacheAsGMF": true
+  },
+  {
+    "id": 60000200,
+    "idCN": "战斗/魔女活动/2期/咕卡/虫之诗/以实际施加者建立监听",
+    "mod": "执行GS脚本",
+    "isInformalData": false,
+    "debug": false,
+    "autoRecycle": false,
+    "returnType": "int",
+    "script": "main:\n    getc CBus Instance\n    cgf GetManager \"BattleControlManager\"\n    getp curGSBuff\n    set $curBuff\n    getp target\n    set $target\n    get $curBuff\n    getp owner\n    set $owner\n    get $curBuff\n    getp snapshot\n    set $snapshot\n    get $curBuff\n    getp _buffFactory\n    set $buffFactory\n    get $curBuff\n    getp action\n    set $action\n    get $curBuff\n    getp positionSN\n    set $positionSN\n    get $curBuff\n    getp isSkill\n    set $isSkill\n    get $curBuff\n    getp from\n    set $from\n    get $curBuff\n    getp fromUnitSID\n    set $fromUnitSID\n    getc BuffFactory\n    if\n        getMethodInfo Produce 9 \"System.Int32\" \"Unit\" \"Snapshot\" \"UnitAction\" \"IBuffSystem\" \"PointSN\" \"System.Boolean\" \"System.Int32\" \"System.Int32\"\n    else\n        getc Battle.BuffFactory\n        getMethodInfo Produce 9 \"System.Int32\" \"Battle.Unit\" \"Battle.Snapshot\" \"Battle.UnitAction\" \"Battle.IBuffSystem\" \"PointSN\" \"System.Boolean\" \"System.Int32\" \"System.Int32\"\n    endif\n    callMethodInfo $buffFactory 10431140 $target $snapshot $action $target $positionSN $isSkill $from $fromUnitSID\n    set $newBuff\n    callWith $target AddBuff $newBuff\n    ret 0",
+    "cacheAsGMF": true
+  },
+  {
+    "id": 60000201,
+    "idCN": "战斗/魔女活动/2期/咕卡/尼比鲁之仆/计算目标自身在场使魔数量",
+    "mod": "执行GS脚本",
+    "isInformalData": false,
+    "debug": false,
+    "autoRecycle": false,
+    "returnType": "int",
+    "script": "main:\n    getc CBus Instance\n    cgf GetManager \"BattleControlManager\"\n    getp curGSBuff\n    set $curBuff\n    getp target\n    set $target\n    get $curBuff\n    getp owner\n    set $owner\n    get $curBuff\n    getp snapshot\n    set $snapshot\n    set $countSN 0\n    get $target\n    getp summonList\n    set $summons\n    getp Count\n    set $length\n    if $length gt 0\n        for $i 0 $length\n            get $summons $i\n            set $summon\n            getp property\n            cgf GetValueSN \"CurrentHp\"\n            set $hp\n            if $hp gt 0\n                get $summon\n                getp extraTagList\n                set $tags\n                getp Count\n                set $tagLength\n                if $tagLength gt 0\n                    for $j 0 $tagLength\n                        get $tags $j\n                        getp tagId id\n                        set $tagId\n                        if $tagId eq 12600001\n                            add $countSN 10000\n                            set $countSN\n                        endif\n                    endFor\n                endif\n            endif\n        endFor\n    endif\n    callWith $snapshot SetAttributeBase $countSN \"GuKaCount\" \"Number\" $true\n    ret 0",
+    "cacheAsGMF": true
+  },
+  {
+    "id": 60000202,
+    "idCN": "战斗/魔女活动/2期/咕卡/通用/判断非队长技手牌",
+    "mod": "执行GS脚本",
+    "isInformalData": false,
+    "debug": false,
+    "autoRecycle": false,
+    "returnType": "int",
+    "script": "main:\n    getc CBus Instance\n    cgf GetManager \"BattleControlManager\"\n    getp curGSBuff\n    set $curBuff\n    getp target\n    set $target\n    get $curBuff\n    getp owner\n    set $owner\n    get $curBuff\n    getp snapshot\n    set $snapshot\n    get $snapshot\n    getp targetCard\n    if\n        getp cardProperty\n        if\n            getp isLeaderCard\n            if\n                ret 2\n            endif\n            ret 1\n        endif\n    endif\n    ret 2",
+    "cacheAsGMF": true
   }
 ]
