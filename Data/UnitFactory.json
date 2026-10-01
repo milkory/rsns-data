@@ -190152,7 +190152,7 @@
   },
   {
     "id": 10001042,
-    "idCN": "01敌方/02桦树/海怪/BOSS-捕人达鱼",
+    "idCN": "01敌方/02桦树/海怪/捕人达鱼/BOSS-捕人达鱼",
     "mod": "敌方角色",
     "isInformalData": false,
     "name": "捕人达鱼",
@@ -192573,7 +192573,7 @@
   },
   {
     "id": 10001054,
-    "idCN": "01敌方/02桦树/海怪/bot-捕人达鱼-发光诱饵",
+    "idCN": "01敌方/02桦树/海怪/捕人达鱼/bot-捕人达鱼-发光诱饵",
     "mod": "召唤物",
     "isInformalData": false,
     "name": "发光诱饵",
@@ -277628,7 +277628,7 @@
   },
   {
     "id": 10001467,
-    "idCN": "01敌方/02桦树/海怪/BOSS-克拉肯",
+    "idCN": "01敌方/02桦树/海怪/克拉肯/BOSS-克拉肯",
     "mod": "敌方角色",
     "isInformalData": false,
     "name": "克拉肯",
@@ -279888,7 +279888,7 @@
   },
   {
     "id": 10001479,
-    "idCN": "01敌方/02桦树/海怪/bot-克拉肯-增殖触腕",
+    "idCN": "01敌方/02桦树/海怪/克拉肯/bot-克拉肯-增殖触腕",
     "mod": "召唤物",
     "isInformalData": false,
     "name": "增殖触腕",
@@ -282227,37 +282227,72 @@
     "totalCost": 19,
     "totalCardNum": 6,
     "skillMin": 5,
-    "homeCharacter": 70000097,
+    "homeCharacter": 70000391,
+    "homeCharacter2": -1,
     "stationStoreCharacter": -1,
     "gotoBed": true,
     "isDoctor": true,
     "medicalPoint": 88,
     "WasteCoefficient": 1.0,
-    "FoodList": [],
-    "ProfilePhotoList": [],
+    "FoodList": [
+      {
+        "id": 83300015,
+        "letter": "和平常一样准备了便当，在学校要好好吃午饭哦！",
+        "weight": 1
+      }
+    ],
+    "ProfilePhotoList": [
+      {
+        "id": 82601491,
+        "weight": 95
+      },
+      {
+        "id": 82601492,
+        "weight": 95
+      },
+      {
+        "id": 82601493,
+        "weight": 95
+      },
+      {
+        "id": 82601494,
+        "weight": 15
+      }
+    ],
     "classifyList": [
       {
         "des": 12601964
       }
     ],
     "careerList": [],
-    "fileList": [],
+    "fileList": [
+      {
+        "file": 80309766,
+        "skinId": -1
+      }
+    ],
     "age": 0,
     "gender": "女",
     "birthday": "11月13日",
     "birthdayMonth": "11",
     "birthdayDay": "13",
     "birthdayCake": 11400129,
-    "birthdayMessage": "",
+    "birthdayMessage": "今天我们叫上班里的大家都来家里，一起过个生日吧！",
+    "birthFace": "",
+    "birthdayList": [],
     "height": "164cm",
-    "birthplace": "雪金城",
-    "ability": "多重分身",
-    "identity": "黑月锁链·侍应生",
+    "birthplace": "本地",
+    "ability": "？？？？",
+    "identity": "落羽村·学生/？？？？·？？",
     "basic": "",
-    "ResumeList": [],
+    "ResumeList": [
+      {
+        "des": "你的同级生、同班同学，可爱的年轻女孩，寄宿家庭的独女，亚莉奈。她对你的关心和照顾无微不至，稍加观察就会发现，她总是和你的生活轨迹保持同步——一起上学、一起放学，为你准备便当、熨烫制服，解答你的每个问题，回应你的每个请求。最近她似乎对调饮产生了兴趣，开始总把各种饮品和无酒精鸡尾酒的事挂在嘴边；每次她提到相关的事时，总是万分期待地看着你。这一定是因为她非常、非常需要你的建议，对吧？"
+      }
+    ],
     "StoryList": [],
     "CvName": "",
-    "getCharacter": "",
+    "getCharacter": "欢迎回来！……啊，不，这里应该说“我回来了”才对……嗯？怎么了？",
     "teamUzlShow": false,
     "teamUzl": "",
     "safeInformation": "",
@@ -288931,6 +288966,189 @@
     "enemySkillList": [
       {
         "id": 80309861
+      }
+    ]
+  },
+  {
+    "id": 10001521,
+    "idCN": "01敌方/02桦树/海怪/克拉肯/BOSS-克拉肯-不死",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "克拉肯",
+    "EnglishName": "Kraken",
+    "viewId": 11000809,
+    "skinList": [],
+    "sideId": 12601160,
+    "controllerId": 10300719,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": -1,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12600278
+      },
+      {
+        "tagId": 12601261
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301432
+      },
+      {
+        "skillId": 12301421
+      },
+      {
+        "skillId": 12301423
+      },
+      {
+        "skillId": 12301418
+      },
+      {
+        "skillId": 12301446
+      },
+      {
+        "skillId": 12301412
+      },
+      {
+        "skillId": 12301410
+      },
+      {
+        "skillId": 12301447
+      },
+      {
+        "skillId": 12301445
+      },
+      {
+        "skillId": 12303487
+      },
+      {
+        "skillId": 12303489
+      },
+      {
+        "skillId": 12303485
+      },
+      {
+        "skillId": 12303486
+      },
+      {
+        "skillId": 12305035
+      },
+      {
+        "skillId": 12305036
+      },
+      {
+        "skillId": 12305037
+      },
+      {
+        "skillId": 12305038
+      },
+      {
+        "skillId": 12300453
+      }
+    ],
+    "hp_SN": 8000000000,
+    "def_SN": 750000,
+    "atk_SN": 880000,
+    "crit_SN": 0,
+    "critDMG_SN": 5000,
+    "atkSpeed_SN": 800000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "oneStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000632,
+    "growthTagList": [
+      {
+        "growthTagId": 12000112
+      },
+      {
+        "growthTagId": 12000097
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800292
+      },
+      {
+        "talentId": 12800293
+      },
+      {
+        "talentId": 12800294
+      },
+      {
+        "talentId": 12800295
+      },
+      {
+        "talentId": 12800296
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10105296,
+    "actionMoveID": 10105299,
+    "actionAttackedID": 10105298,
+    "actionAttackedBackID": 10105301,
+    "actionKnockUpID": -1,
+    "actionStunID": 10105302,
+    "actionDeadID": 10105303,
+    "actionVictoryID": 10105296,
+    "hitPointX_SN": 60000,
+    "hitPointY_SN": 35000,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 35000,
+    "hitAreaHalfWidth_SN": 40000,
+    "hitAreaHalfHeight_SN": 35000,
+    "canOverMaxSpeed": false,
+    "notRecordTakeDamage": false,
+    "battleDes": "",
+    "safeInformation": "",
+    "unitInformation": "",
+    "enemyDrop": [],
+    "abilityList": [],
+    "weaknessList": [],
+    "resistanceList": [],
+    "enemyType": 12601046,
+    "enemyCamp": 12601098,
+    "enemyBookId": 10001467,
+    "prisonerDrop": [],
+    "enemySkillList": [
+      {
+        "id": 80309747
       }
     ]
   }
