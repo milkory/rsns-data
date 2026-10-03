@@ -5736,6 +5736,9 @@
     "showResidueUI": "",
     "openTipsType": "normal",
     "showOpenTipsUI": "",
+    "GroupName": "",
+    "videoPath": "",
+    "poolId": -1,
     "isJoin": true,
     "isOnly": -1,
     "questId": 81002446,
@@ -5784,6 +5787,9 @@
         "num": 0
       }
     ],
+    "URDColor": "FFFFFF",
+    "RColor": "FFFFFF",
+    "RDColor": "FFFFFF",
     "activityStoreList": [],
     "bannerList": [],
     "bannerCapsuleList": [
@@ -5875,7 +5881,8 @@
     "activityCardPack": -1,
     "isGoldLevel": false,
     "joinGetItem": [],
-    "signChallengeActivityId": -1
+    "signChallengeActivityId": -1,
+    "signBattleActivityId": -1
   },
   {
     "id": 86000095,
@@ -15972,7 +15979,7 @@
     "countDownMax": -1,
     "adShowTime": 7,
     "isTime": false,
-    "startTime": "2026-09-30 12:00:00",
+    "startTime": "2026-10-01 12:00:00",
     "endTime": "2026-10-28 12:00:00",
     "rewardEndTime": "2026-10-28 12:00:00",
     "replicateNum": 1,
@@ -15993,12 +16000,12 @@
     "joinQuestId": -1,
     "activityRankList": [
       {
-        "id": 84300056
+        "id": 84300071
       }
     ],
     "activityRewardRankList": [
       {
-        "id": 84300056
+        "id": 84300071
       }
     ],
     "city": -1,
@@ -16011,63 +16018,47 @@
     "signBattleInitLevel": 24,
     "signLevelList": [
       {
-        "id": 20103746
+        "id": 20103752
       },
       {
-        "id": 20103480
+        "id": 20103754
       },
       {
-        "id": 20103744
+        "id": 20103750
       },
       {
-        "id": 20103704
+        "id": 20103748
       },
       {
-        "id": 20103743
+        "id": 20103755
       },
       {
-        "id": 20103477
+        "id": 20103749
       },
       {
-        "id": 20103747
+        "id": 20103753
       },
       {
-        "id": 20103476
-      },
-      {
-        "id": 20103742
-      },
-      {
-        "id": 20103479
-      },
-      {
-        "id": 20103745
-      },
-      {
-        "id": 20103474
-      },
-      {
-        "id": 20103475
-      },
-      {
-        "id": 20103478
-      },
-      {
-        "id": 20103756
+        "id": 20103751
       }
     ],
-    "signBattleRewards": [],
+    "signBattleRewards": [
+      {
+        "id": 82601511,
+        "num": 1
+      }
+    ],
     "signBattleTimeExtra": 5,
     "signBattleExtract": 80500426,
     "videoHttp": "",
     "joinGetItem": [],
     "rankingReward": [
       {
-        "id": 80308328,
+        "id": 80309888,
         "rank": 2000
       }
     ],
-    "rankingMail": 80800878,
+    "rankingMail": 80801154,
     "signChallengeActivityId": -1,
     "signBattleActivityId": -1
   },
@@ -16089,10 +16080,10 @@
     "openTradeLv": 0,
     "showResidueUI": "",
     "openTipsType": "normal",
-    "showOpenTipsUI": "",
-    "GroupName": "",
-    "videoPath": "",
-    "poolId": -1,
+    "showOpenTipsUI": "UI/Activity/ActivitySignBattle/SignBattleTipCommon",
+    "GroupName": "Group_Moon",
+    "videoPath": "Video/SignBattle/Arina_SP/Arina_SP",
+    "poolId": 80500426,
     "isJoin": true,
     "isOnly": -1,
     "questId": 81000037,
@@ -16105,9 +16096,9 @@
     "countDownMax": -1,
     "adShowTime": 7,
     "isTime": true,
-    "startTime": "2026-06-12 12:00:02",
-    "endTime": "2026-07-29 12:00:00",
-    "rewardEndTime": "2026-07-29 12:00:00",
+    "startTime": "2026-10-01 12:00:00",
+    "endTime": "2026-10-28 12:00:00",
+    "rewardEndTime": "2026-10-28 12:00:00",
     "replicateNum": 1,
     "isClearCurrency": false,
     "clearCurrencyList": [],
@@ -16119,6 +16110,31 @@
         "id": 11401301,
         "isShowNum": true,
         "num": 10
+      },
+      {
+        "id": 82601517,
+        "isShowNum": false,
+        "num": 0
+      },
+      {
+        "id": 82601516,
+        "isShowNum": false,
+        "num": 0
+      },
+      {
+        "id": 82601511,
+        "isShowNum": false,
+        "num": 0
+      },
+      {
+        "id": 82601513,
+        "isShowNum": false,
+        "num": 0
+      },
+      {
+        "id": 82601514,
+        "isShowNum": false,
+        "num": 0
       },
       {
         "id": 11700245,
@@ -16180,30 +16196,6 @@
         "id": 81003480
       },
       {
-        "id": 81003478
-      },
-      {
-        "id": 81003482
-      },
-      {
-        "id": 81003466
-      },
-      {
-        "id": 81003477
-      },
-      {
-        "id": 81003463
-      },
-      {
-        "id": 81003475
-      },
-      {
-        "id": 81003484
-      },
-      {
-        "id": 81003485
-      },
-      {
         "id": 81003461
       },
       {
@@ -16256,7 +16248,12 @@
     "levelQuestLimit": -1,
     "levelTypeList": [
       {
-        "id": 86100476
+        "id": 86100490
+      }
+    ],
+    "levelPlotTypeList": [
+      {
+        "id": 86100499
       }
     ],
     "levelPlotList": [],
@@ -16266,7 +16263,7 @@
     "gameOpen": false,
     "gameList": -1,
     "gamePrefabUrl": "",
-    "activityCardPack": -1,
+    "activityCardPack": 86300017,
     "isGoldLevel": false,
     "joinGetItem": [],
     "signChallengeActivityId": 86000418,
@@ -16306,7 +16303,7 @@
     "countDownMax": -1,
     "adShowTime": 7,
     "isTime": false,
-    "startTime": "2026-09-30 12:00:00",
+    "startTime": "2026-10-01 12:00:00",
     "endTime": "2026-10-30 12:00:00",
     "rewardEndTime": "",
     "replicateNum": 1,
@@ -16320,6 +16317,31 @@
         "id": 11400007,
         "isShowNum": true,
         "num": 7
+      },
+      {
+        "id": 82601502,
+        "isShowNum": false,
+        "num": 1
+      },
+      {
+        "id": 82601504,
+        "isShowNum": false,
+        "num": 1
+      },
+      {
+        "id": 82601500,
+        "isShowNum": false,
+        "num": 1
+      },
+      {
+        "id": 82601503,
+        "isShowNum": false,
+        "num": 1
+      },
+      {
+        "id": 82601499,
+        "isShowNum": false,
+        "num": 1
       }
     ],
     "URDColor": "FFFFFF",

@@ -232752,10 +232752,10 @@
     "actionLevel": "NormalSkill",
     "isUseTargetFilter": true,
     "isIgnoreInvisibleEnemy": true,
-    "targetType": "Self",
+    "targetType": "Enemy",
     "targetTagList": [],
     "tagType": "And",
-    "halfWidth_SN": 1000000,
+    "halfWidth_SN": 240000,
     "attributeType": "HpMax",
     "condition": "All",
     "numberType": "Number",
@@ -232768,8 +232768,8 @@
     "filterPosition": "DefaultPos",
     "isAimSelf": false,
     "targetCount": 99,
-    "distance_SN": 0,
-    "radius_SN": 1000000,
+    "distance_SN": 240000,
+    "radius_SN": 240000,
     "isCustomRadius": false,
     "radiusTag": "",
     "damageHitBuffList": [],
@@ -232778,10 +232778,10 @@
     "isUseBigNumber": false,
     "stateIdList": [
       {
+        "bPlayTimes": false,
         "stateId": 10205871,
-        "timesSource": "FixedValue",
         "timesRate_SN": 10000,
-        "bPlayTimes": false
+        "timesSource": "FixedValue"
       }
     ],
     "backShakeFrame": -1
