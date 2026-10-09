@@ -969327,5 +969327,910 @@
       },
       {}
     ]
+  },
+  {
+    "id": 10430722,
+    "idCN": "BUFF/00我方/05五星/伊利亚德/觉醒1/小队添加",
+    "mod": "小队添加buff",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "buffId": 10423565,
+    "sound": -1
+  },
+  {
+    "id": 10430739,
+    "idCN": "快乐BUFF树/00我方/05五星/伊利亚德/觉醒1/入口",
+    "mod": "BUFF树",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "treeRoot": [
+      {
+        "buffId": 10430722,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10423556,
+        "targetType": "Owner"
+      },
+      {},
+      {}
+    ],
+    "sound": -1
+  },
+  {
+    "id": 10431968,
+    "idCN": "BUFF/00我方/05五星/亚莉奈·危情/B-0/使用触发",
+    "mod": "带帧事件",
+    "baseEffect": "OtherEffect",
+    "frameEventList": [
+      {
+        "frameEventId": 10503860,
+        "timesSource": "FixedValue",
+        "excuteTimes": 10000,
+        "x_SN": 0,
+        "y_SN": 0,
+        "wHalf_SN": 0,
+        "hHalf_SN": 0,
+        "isUseTargetPosition": false,
+        "isUseCardViewPosition": false
+      }
+    ]
+  },
+  {
+    "id": 10431969,
+    "idCN": "BUFF/02深渊/57期/共用/火焰电磁虚光伤害降低50%",
+    "mod": "持续效果",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "isBindAction": false,
+    "isDispelFightEnd": true,
+    "isNotRecordDamageAsCard": false,
+    "iconUrl": "",
+    "cantBeDispelled": true,
+    "bForever": true,
+    "durationFrame": 1,
+    "sourceBase": "FixedValue",
+    "customDataTagBase": "",
+    "buffTypeFO": -1,
+    "overlayType": "NotChange",
+    "sourceList": [],
+    "overlayTimeType": "NotChange",
+    "level": 1,
+    "levelTag": "",
+    "levelMax": 1,
+    "levelMaxTag": "",
+    "maxLevelBuffId": -1,
+    "isSameAttribute": false,
+    "attributeChangeList": [
+      {
+        "attributeType": "GetDamageDownFire",
+        "level": 1,
+        "numberType": "Percent",
+        "rateTag": "",
+        "skillSelect": "Default",
+        "value_SN": 5000
+      },
+      {
+        "attributeType": "GetDamageDownElectric",
+        "level": 1,
+        "numberType": "Percent",
+        "rateTag": "",
+        "skillSelect": "Default",
+        "value_SN": 5000
+      },
+      {
+        "attributeType": "GetDamageDownMirageLight",
+        "level": 1,
+        "numberType": "Percent",
+        "rateTag": "",
+        "skillSelect": "Default",
+        "value_SN": 5000
+      }
+    ],
+    "baseValue_SN": 10000,
+    "baseRateTag": "",
+    "timeUpEffectList": [],
+    "dispelEffectList": [],
+    "appearEffectList": [],
+    "buffEffectByLevel": [],
+    "disappearEffectList": [],
+    "bDamageWithLevel": false,
+    "bShowLevel": false,
+    "showLevelInfoId": -1
+  },
+  {
+    "id": 10431970,
+    "idCN": "BUFF/02深渊/57期/共用/基础生命提高100%",
+    "mod": "持续效果",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [
+      {
+        "tagId": 12601271
+      },
+      {
+        "tagId": 12601275
+      }
+    ],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "isBindAction": false,
+    "isDispelFightEnd": true,
+    "isNotRecordDamageAsCard": false,
+    "iconUrl": "",
+    "cantBeDispelled": true,
+    "bForever": true,
+    "durationFrame": 1,
+    "recycleDelayFrame": 0,
+    "sourceBase": "FixedValue",
+    "customDataTagBase": "",
+    "buffTypeFO": -1,
+    "overlayType": "NotChange",
+    "sourceList": [],
+    "overlayTimeType": "NotChange",
+    "level": 1,
+    "levelTag": "",
+    "levelMax": 1,
+    "levelMaxTag": "",
+    "maxLevelBuffId": -1,
+    "isSameAttribute": false,
+    "attributeChangeList": [
+      {
+        "attributeType": "HpMax",
+        "level": 1,
+        "numberType": "Percent",
+        "rateTag": "",
+        "skillSelect": "Default",
+        "value_SN": 10000
+      }
+    ],
+    "baseValue_SN": 10000,
+    "baseRateTag": "",
+    "timeUpEffectList": [],
+    "dispelEffectList": [],
+    "appearEffectList": [],
+    "buffEffectByLevel": [],
+    "disappearEffectList": [],
+    "bDamageWithLevel": false,
+    "bShowLevel": false,
+    "showLevelInfoId": -1,
+    "sound": -1
+  },
+  {
+    "id": 10431971,
+    "idCN": "快乐BUFF树/02深渊/57期/共用/增幅3/入口",
+    "mod": "BUFF树",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "treeRoot": [
+      {
+        "buffId": 10431970,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10431973,
+        "targetType": "Target"
+      },
+      {},
+      {}
+    ]
+  },
+  {
+    "id": 10431972,
+    "idCN": "快乐BUFF树/02深渊/57期/共用/增幅4/入口",
+    "mod": "BUFF树",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "treeRoot": [
+      {
+        "buffId": 10431970,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10431974,
+        "targetType": "Target"
+      },
+      {},
+      {}
+    ]
+  },
+  {
+    "id": 10431973,
+    "idCN": "BUFF/02深渊/57期/共用/增幅3/第一场战斗开始",
+    "mod": "触发-第一场战斗开始",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "isBindAction": false,
+    "isDispelFightEnd": true,
+    "isNotRecordDamageAsCard": false,
+    "iconUrl": "",
+    "cantBeDispelled": true,
+    "bForever": true,
+    "durationFrame": 1,
+    "sourceBase": "FixedValue",
+    "customDataTagBase": "",
+    "buffTypeFO": -1,
+    "overlayType": "NotChange",
+    "sourceList": [],
+    "overlayTimeType": "NotChange",
+    "level": 1,
+    "levelTag": "",
+    "levelMax": 1,
+    "levelMaxTag": "",
+    "maxLevelBuffId": -1,
+    "isSameAttribute": false,
+    "attributeChangeList": [],
+    "baseValue_SN": 10000,
+    "baseRateTag": "",
+    "timeUpEffectList": [],
+    "dispelEffectList": [],
+    "appearEffectList": [],
+    "buffEffectByLevel": [],
+    "disappearEffectList": [],
+    "bDamageWithLevel": false,
+    "bShowLevel": false,
+    "showLevelInfoId": -1,
+    "buffId": 10431975,
+    "cooldownFrame": 0,
+    "isRefreshSnapshot": true
+  },
+  {
+    "id": 10431974,
+    "idCN": "BUFF/02深渊/57期/共用/增幅4/第一场战斗开始",
+    "mod": "触发-第一场战斗开始",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "isBindAction": false,
+    "isDispelFightEnd": true,
+    "isNotRecordDamageAsCard": false,
+    "iconUrl": "",
+    "cantBeDispelled": true,
+    "bForever": true,
+    "durationFrame": 1,
+    "sourceBase": "FixedValue",
+    "customDataTagBase": "",
+    "buffTypeFO": -1,
+    "overlayType": "NotChange",
+    "sourceList": [],
+    "overlayTimeType": "NotChange",
+    "level": 1,
+    "levelTag": "",
+    "levelMax": 1,
+    "levelMaxTag": "",
+    "maxLevelBuffId": -1,
+    "isSameAttribute": false,
+    "attributeChangeList": [],
+    "baseValue_SN": 10000,
+    "baseRateTag": "",
+    "timeUpEffectList": [],
+    "dispelEffectList": [],
+    "appearEffectList": [],
+    "buffEffectByLevel": [],
+    "disappearEffectList": [],
+    "bDamageWithLevel": false,
+    "bShowLevel": false,
+    "showLevelInfoId": -1,
+    "buffId": 10431976,
+    "cooldownFrame": 0,
+    "isRefreshSnapshot": true
+  },
+  {
+    "id": 10431975,
+    "idCN": "快乐BUFF树/02深渊/57期/共用/增幅3/开局进入沉梦",
+    "mod": "BUFF树",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "treeRoot": [
+      {
+        "buffId": 10431977,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10431981,
+        "targetType": "Target"
+      },
+      {},
+      {}
+    ]
+  },
+  {
+    "id": 10431976,
+    "idCN": "快乐BUFF树/02深渊/57期/共用/增幅4/开局进入沉梦",
+    "mod": "BUFF树",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "treeRoot": [
+      {
+        "buffId": 10431978,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10431982,
+        "targetType": "Target"
+      },
+      {},
+      {}
+    ]
+  },
+  {
+    "id": 10431977,
+    "idCN": "BUFF/02深渊/57期/共用/增幅3/移除开局监听",
+    "mod": "驱散对应buff",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "targetBuffId": 10431973,
+    "dispelTime": 99,
+    "isTriggerDispelEffect": false
+  },
+  {
+    "id": 10431978,
+    "idCN": "BUFF/02深渊/57期/共用/增幅4/移除开局监听",
+    "mod": "驱散对应buff",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "targetBuffId": 10431974,
+    "dispelTime": 99,
+    "isTriggerDispelEffect": false
+  },
+  {
+    "id": 10431979,
+    "idCN": "BUFF/02深渊/57期/共用/增幅3/沉梦",
+    "mod": "自身触发-受击触发",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "isBindAction": false,
+    "isDispelFightEnd": true,
+    "isNotRecordDamageAsCard": false,
+    "iconUrl": "",
+    "cantBeDispelled": true,
+    "bForever": true,
+    "durationFrame": 1,
+    "sourceBase": "FixedValue",
+    "customDataTagBase": "",
+    "buffTypeFO": -1,
+    "overlayType": "NotChange",
+    "sourceList": [],
+    "overlayTimeType": "NotChange",
+    "level": 1,
+    "levelTag": "",
+    "levelMax": 1,
+    "levelMaxTag": "",
+    "maxLevelBuffId": -1,
+    "isSameAttribute": false,
+    "attributeChangeList": [
+      {
+        "attributeType": "GetDamageFinalDown",
+        "level": 1,
+        "numberType": "Percent",
+        "rateTag": "",
+        "skillSelect": "Default",
+        "value_SN": 3000
+      }
+    ],
+    "baseValue_SN": 10000,
+    "baseRateTag": "",
+    "timeUpEffectList": [],
+    "dispelEffectList": [],
+    "appearEffectList": [],
+    "buffEffectByLevel": [],
+    "disappearEffectList": [],
+    "bDamageWithLevel": false,
+    "bShowLevel": false,
+    "showLevelInfoId": -1,
+    "buffId": 10431984,
+    "cooldownFrame": 60,
+    "typeList": [
+      {
+        "type": "Psychic"
+      }
+    ],
+    "ignoreBuffList": []
+  },
+  {
+    "id": 10431980,
+    "idCN": "BUFF/02深渊/57期/共用/增幅4/沉梦",
+    "mod": "自身触发-受击触发",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "isBindAction": false,
+    "isDispelFightEnd": true,
+    "isNotRecordDamageAsCard": false,
+    "iconUrl": "",
+    "cantBeDispelled": true,
+    "bForever": true,
+    "durationFrame": 1,
+    "sourceBase": "FixedValue",
+    "customDataTagBase": "",
+    "buffTypeFO": -1,
+    "overlayType": "NotChange",
+    "sourceList": [],
+    "overlayTimeType": "NotChange",
+    "level": 1,
+    "levelTag": "",
+    "levelMax": 1,
+    "levelMaxTag": "",
+    "maxLevelBuffId": -1,
+    "isSameAttribute": false,
+    "attributeChangeList": [
+      {
+        "attributeType": "GetDamageFinalDown",
+        "level": 1,
+        "numberType": "Percent",
+        "rateTag": "",
+        "skillSelect": "Default",
+        "value_SN": 5000
+      }
+    ],
+    "baseValue_SN": 10000,
+    "baseRateTag": "",
+    "timeUpEffectList": [],
+    "dispelEffectList": [],
+    "appearEffectList": [],
+    "buffEffectByLevel": [],
+    "disappearEffectList": [],
+    "bDamageWithLevel": false,
+    "bShowLevel": false,
+    "showLevelInfoId": -1,
+    "buffId": 10431984,
+    "cooldownFrame": 60,
+    "typeList": [
+      {
+        "type": "Psychic"
+      }
+    ],
+    "ignoreBuffList": []
+  },
+  {
+    "id": 10431981,
+    "idCN": "快乐BUFF树/02深渊/57期/共用/增幅3/重置计数进入沉梦",
+    "mod": "BUFF树",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "treeRoot": [
+      {
+        "buffId": 10431993,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10431979,
+        "targetType": "Target"
+      },
+      {},
+      {}
+    ]
+  },
+  {
+    "id": 10431982,
+    "idCN": "快乐BUFF树/02深渊/57期/共用/增幅4/重置计数进入沉梦",
+    "mod": "BUFF树",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "treeRoot": [
+      {
+        "buffId": 10431993,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10431980,
+        "targetType": "Target"
+      },
+      {},
+      {}
+    ]
+  },
+  {
+    "id": 10431983,
+    "idCN": "BUFF/02深渊/57期/共用/惊扰/计数",
+    "mod": "持续效果",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "isBindAction": false,
+    "isDispelFightEnd": true,
+    "isNotRecordDamageAsCard": false,
+    "iconUrl": "",
+    "cantBeDispelled": true,
+    "bForever": true,
+    "durationFrame": 1,
+    "sourceBase": "FixedValue",
+    "customDataTagBase": "",
+    "buffTypeFO": -1,
+    "overlayType": "NotChange",
+    "sourceList": [],
+    "overlayTimeType": "NotChange",
+    "level": 1,
+    "levelTag": "",
+    "levelMax": 8,
+    "levelMaxTag": "",
+    "maxLevelBuffId": -1,
+    "isSameAttribute": false,
+    "attributeChangeList": [],
+    "baseValue_SN": 10000,
+    "baseRateTag": "",
+    "timeUpEffectList": [],
+    "dispelEffectList": [],
+    "appearEffectList": [],
+    "buffEffectByLevel": [],
+    "disappearEffectList": [],
+    "bDamageWithLevel": false,
+    "bShowLevel": false,
+    "showLevelInfoId": -1
+  },
+  {
+    "id": 10431984,
+    "idCN": "快乐BUFF树/02深渊/57期/共用/惊扰/叠加并检查8层",
+    "mod": "BUFF树",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "treeRoot": [
+      {
+        "buffId": 10431983,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10431985,
+        "targetType": "Target"
+      },
+      {},
+      {}
+    ]
+  },
+  {
+    "id": 10431985,
+    "idCN": "快乐BUFF树/02深渊/57期/共用/惊扰/达到8层进入惊梦",
+    "mod": "BUFF树",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "treeRoot": [
+      {
+        "buffId": 10431986,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10431987,
+        "targetType": "Target"
+      },
+      {},
+      {}
+    ]
+  },
+  {
+    "id": 10431986,
+    "idCN": "BUFF/02深渊/57期/共用/惊扰/判断已达到8层",
+    "mod": "判断层级",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "judgeBuffId": 10431983,
+    "judgeLevel": 7,
+    "judgeType": "Greater"
+  },
+  {
+    "id": 10431987,
+    "idCN": "快乐BUFF树/02深渊/57期/共用/惊梦/根据增幅选择状态",
+    "mod": "BUFF树",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "treeRoot": [
+      {
+        "buffId": 10431988,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10431990,
+        "targetType": "Target"
+      },
+      {},
+      {
+        "buffId": 10431989,
+        "targetType": "Target"
+      },
+      {},
+      {}
+    ]
+  },
+  {
+    "id": 10431988,
+    "idCN": "BUFF/02深渊/57期/共用/惊梦/判断增幅4沉梦",
+    "mod": "判断层级",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "judgeBuffId": 10431980,
+    "judgeLevel": 0,
+    "judgeType": "Greater"
+  },
+  {
+    "id": 10431989,
+    "idCN": "快乐BUFF树/02深渊/57期/共用/增幅3/清空惊扰解除沉梦进入惊梦",
+    "mod": "BUFF树",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "treeRoot": [
+      {
+        "buffId": 10431993,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10431991,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10431994,
+        "targetType": "Target"
+      },
+      {},
+      {},
+      {}
+    ]
+  },
+  {
+    "id": 10431990,
+    "idCN": "快乐BUFF树/02深渊/57期/共用/增幅4/清空惊扰解除沉梦进入惊梦",
+    "mod": "BUFF树",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "treeRoot": [
+      {
+        "buffId": 10431993,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10431992,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10431995,
+        "targetType": "Target"
+      },
+      {},
+      {},
+      {}
+    ]
+  },
+  {
+    "id": 10431991,
+    "idCN": "BUFF/02深渊/57期/共用/增幅3/解除沉梦",
+    "mod": "驱散对应buff",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "targetBuffId": 10431979,
+    "dispelTime": 99,
+    "isTriggerDispelEffect": false
+  },
+  {
+    "id": 10431992,
+    "idCN": "BUFF/02深渊/57期/共用/增幅4/解除沉梦",
+    "mod": "驱散对应buff",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "targetBuffId": 10431980,
+    "dispelTime": 99,
+    "isTriggerDispelEffect": false
+  },
+  {
+    "id": 10431993,
+    "idCN": "BUFF/02深渊/57期/共用/惊扰/清空所有层数",
+    "mod": "驱散对应buff",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "targetBuffId": 10431983,
+    "dispelTime": 99,
+    "isTriggerDispelEffect": false
+  },
+  {
+    "id": 10431994,
+    "idCN": "BUFF/02深渊/57期/共用/增幅3/惊梦",
+    "mod": "持续效果",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "isBindAction": false,
+    "isDispelFightEnd": true,
+    "isNotRecordDamageAsCard": false,
+    "iconUrl": "",
+    "cantBeDispelled": true,
+    "bForever": false,
+    "durationFrame": 600,
+    "sourceBase": "FixedValue",
+    "customDataTagBase": "",
+    "buffTypeFO": -1,
+    "overlayType": "NotChange",
+    "sourceList": [],
+    "overlayTimeType": "NotChange",
+    "level": 1,
+    "levelTag": "",
+    "levelMax": 1,
+    "levelMaxTag": "",
+    "maxLevelBuffId": -1,
+    "isSameAttribute": false,
+    "attributeChangeList": [
+      {
+        "attributeType": "Accelerate",
+        "level": 1,
+        "numberType": "Percent",
+        "rateTag": "",
+        "skillSelect": "Default",
+        "value_SN": 5000
+      },
+      {
+        "attributeType": "MakeDamageFinalUp",
+        "level": 1,
+        "numberType": "Percent",
+        "rateTag": "",
+        "skillSelect": "Default",
+        "value_SN": 3000
+      },
+      {
+        "attributeType": "GetDamageFinalUp",
+        "level": 1,
+        "numberType": "Percent",
+        "rateTag": "",
+        "skillSelect": "Default",
+        "value_SN": 3000
+      }
+    ],
+    "baseValue_SN": 10000,
+    "baseRateTag": "",
+    "timeUpEffectList": [
+      {
+        "buffId": 10431981,
+        "targetType": "Target"
+      }
+    ],
+    "dispelEffectList": [],
+    "appearEffectList": [],
+    "buffEffectByLevel": [],
+    "disappearEffectList": [],
+    "bDamageWithLevel": false,
+    "bShowLevel": false,
+    "showLevelInfoId": -1
+  },
+  {
+    "id": 10431995,
+    "idCN": "BUFF/02深渊/57期/共用/增幅4/惊梦",
+    "mod": "持续效果",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "isBindAction": false,
+    "isDispelFightEnd": true,
+    "isNotRecordDamageAsCard": false,
+    "iconUrl": "",
+    "cantBeDispelled": true,
+    "bForever": false,
+    "durationFrame": 600,
+    "sourceBase": "FixedValue",
+    "customDataTagBase": "",
+    "buffTypeFO": -1,
+    "overlayType": "NotChange",
+    "sourceList": [],
+    "overlayTimeType": "NotChange",
+    "level": 1,
+    "levelTag": "",
+    "levelMax": 1,
+    "levelMaxTag": "",
+    "maxLevelBuffId": -1,
+    "isSameAttribute": false,
+    "attributeChangeList": [
+      {
+        "attributeType": "Accelerate",
+        "level": 1,
+        "numberType": "Percent",
+        "rateTag": "",
+        "skillSelect": "Default",
+        "value_SN": 10000
+      },
+      {
+        "attributeType": "MakeDamageFinalUp",
+        "level": 1,
+        "numberType": "Percent",
+        "rateTag": "",
+        "skillSelect": "Default",
+        "value_SN": 5000
+      },
+      {
+        "attributeType": "GetDamageFinalUp",
+        "level": 1,
+        "numberType": "Percent",
+        "rateTag": "",
+        "skillSelect": "Default",
+        "value_SN": 5000
+      }
+    ],
+    "baseValue_SN": 10000,
+    "baseRateTag": "",
+    "timeUpEffectList": [
+      {
+        "buffId": 10431982,
+        "targetType": "Target"
+      }
+    ],
+    "dispelEffectList": [],
+    "appearEffectList": [],
+    "buffEffectByLevel": [],
+    "disappearEffectList": [],
+    "bDamageWithLevel": false,
+    "bShowLevel": false,
+    "showLevelInfoId": -1
   }
 ]
