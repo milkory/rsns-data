@@ -190568,6 +190568,7 @@
         "num": 50
       }
     ],
+    "requireItemList": [],
     "nextQuest": [
       {
         "id": 81001212
@@ -190588,6 +190589,10 @@
     "returnNum": 1,
     "dontShowMain": false,
     "IsPlotTask": false,
+    "isTeleport": false,
+    "teleportStartStation": -1,
+    "teleportEndStation": -1,
+    "teleportText": "",
     "describe": "主线尚未完结，支线任务等您探索。"
   },
   {
@@ -240493,79 +240498,6 @@
     "describe": ""
   },
   {
-    "id": 81002606,
-    "idCN": "主线/EP10（暂时存放勿动）/9-31-未完待续",
-    "mod": "基础任务",
-    "isInformalData": false,
-    "name": "未完待续",
-    "describeNew": "主线尚未完结，支线任务等您探索。",
-    "target": "0",
-    "targetMain": "",
-    "targetCity": "",
-    "story": "故事尚未完结，丰富的支线任务正在等您探索，列车长的冒险旅途才刚刚开始！",
-    "episode": "<color=#FEC032>第八章间章</color>主线",
-    "recommendLevel": 0,
-    "questType": "Main",
-    "typeIcon": 12601805,
-    "sort": 0,
-    "questTab": "",
-    "questTabDes": -1,
-    "completeTab": "",
-    "isShowProgress": false,
-    "isShowUnlock": false,
-    "isShowAchieveProgress": false,
-    "isAnecdote": false,
-    "isFURNQuest": false,
-    "client": -1,
-    "startStation": -1,
-    "endStationList": [],
-    "isAutoTrace": false,
-    "isTBC": true,
-    "traceList": [],
-    "isSwitchUI": false,
-    "switchUI": "",
-    "switchParameter": "",
-    "preQuestId": -1,
-    "preLv": 1,
-    "playgroundId": -1,
-    "playgroundLv": 0,
-    "startLevel": 0,
-    "startPrisonLevel": 0,
-    "conditionList": [],
-    "num": 1,
-    "islockAddProgress": false,
-    "isAutoComplete": false,
-    "checkComplete": false,
-    "isShowReceive": false,
-    "isRefreshProgress": false,
-    "refreshType": "Level",
-    "addProgress": 0,
-    "parentQuest": -1,
-    "childQuestList": [],
-    "rewardsList": [],
-    "nextQuest": [],
-    "changeCityStateList": [],
-    "bannerList": [],
-    "giftList": [],
-    "mailList": [],
-    "isEvent": false,
-    "isOverwriteEvent": false,
-    "eventList": [],
-    "environmentList": [],
-    "isTime": false,
-    "startTime": "",
-    "endTime": "",
-    "correspondActivity": -1,
-    "returnNum": 1,
-    "dontShowMain": false,
-    "IsPlotTask": false,
-    "isTeleport": false,
-    "teleportStartStation": -1,
-    "teleportEndStation": -1,
-    "teleportText": "",
-    "describe": ""
-  },
-  {
     "id": 81002607,
     "idCN": "主线/EP9/9-12-战斗-搜集样本",
     "mod": "基础任务",
@@ -242386,863 +242318,6 @@
     "nextQuest": [
       {
         "id": 81003776
-      }
-    ],
-    "changeCityStateList": [],
-    "bannerList": [],
-    "giftList": [],
-    "mailList": [],
-    "isEvent": false,
-    "isOverwriteEvent": false,
-    "eventList": [],
-    "environmentList": [],
-    "isTime": false,
-    "startTime": "",
-    "endTime": "",
-    "correspondActivity": -1,
-    "returnNum": 1,
-    "dontShowMain": false,
-    "IsPlotTask": false,
-    "isTeleport": false,
-    "teleportStartStation": -1,
-    "teleportEndStation": -1,
-    "teleportText": "",
-    "describe": ""
-  },
-  {
-    "id": 81002626,
-    "idCN": "主线/EP10（暂时存放勿动）/9-23-战斗-任务23-第十章内容勿动",
-    "mod": "基础任务",
-    "isInformalData": false,
-    "name": "9-12 搜集样本",
-    "describeNew": "在贡露城与朵拉弥丝对话",
-    "target": "前往贡露城",
-    "targetMain": "访问城市",
-    "targetCity": "0",
-    "story": "与朵拉弥丝配合继续完成任务。",
-    "episode": "<color=#FEC032>第九章</color>主线",
-    "recommendLevel": 0,
-    "questType": "Main",
-    "typeIcon": 12601805,
-    "sort": 0,
-    "questTab": "",
-    "questTabDes": -1,
-    "completeTab": "",
-    "isShowProgress": false,
-    "isShowUnlock": false,
-    "isShowAchieveProgress": false,
-    "isAnecdote": false,
-    "isFURNQuest": false,
-    "client": 82600961,
-    "startStation": 83000052,
-    "endStationList": [
-      {
-        "id": 83000052,
-        "weight": 10
-      }
-    ],
-    "isAutoTrace": false,
-    "isTBC": false,
-    "traceList": [
-      {
-        "apiListId": 86500038,
-        "btnListId": 86500036,
-        "traceId": 86500029,
-        "uiPath": "UI/MainUI/MainUI"
-      },
-      {
-        "apiListId": -1,
-        "btnListId": -1,
-        "traceId": 86500324,
-        "uiPath": "UI/CityMap/CityMap"
-      }
-    ],
-    "isSwitchUI": false,
-    "switchUI": "",
-    "switchParameter": "",
-    "preQuestId": -1,
-    "preLv": 1,
-    "playgroundId": -1,
-    "playgroundLv": 0,
-    "startLevel": 0,
-    "startPrisonLevel": 0,
-    "conditionList": [],
-    "num": 1,
-    "islockAddProgress": false,
-    "isAutoComplete": true,
-    "checkComplete": false,
-    "isShowReceive": false,
-    "isRefreshProgress": false,
-    "refreshType": "Level",
-    "addProgress": 0,
-    "parentQuest": -1,
-    "childQuestList": [],
-    "rewardsList": [
-      {
-        "id": 11400001,
-        "num": 50000
-      },
-      {
-        "id": 11700078,
-        "num": 1
-      }
-    ],
-    "nextQuest": [
-      {
-        "id": 81002627
-      }
-    ],
-    "changeCityStateList": [],
-    "bannerList": [],
-    "giftList": [],
-    "mailList": [],
-    "isEvent": false,
-    "isOverwriteEvent": false,
-    "eventList": [],
-    "environmentList": [],
-    "isTime": false,
-    "startTime": "",
-    "endTime": "",
-    "correspondActivity": -1,
-    "returnNum": 1,
-    "dontShowMain": false,
-    "IsPlotTask": false,
-    "isTeleport": false,
-    "teleportStartStation": -1,
-    "teleportEndStation": -1,
-    "teleportText": "",
-    "describe": ""
-  },
-  {
-    "id": 81002627,
-    "idCN": "主线/EP10（暂时存放勿动）/9-24-战斗-任务24",
-    "mod": "基础任务",
-    "isInformalData": false,
-    "name": "9-12 搜集样本",
-    "describeNew": "在贡露城与朵拉弥丝对话",
-    "target": "前往贡露城",
-    "targetMain": "访问城市",
-    "targetCity": "0",
-    "story": "与朵拉弥丝配合，继续完成任务。",
-    "episode": "<color=#FEC032>第九章</color>主线",
-    "recommendLevel": 0,
-    "questType": "Main",
-    "typeIcon": 12601805,
-    "sort": 0,
-    "questTab": "",
-    "questTabDes": -1,
-    "completeTab": "",
-    "isShowProgress": false,
-    "isShowUnlock": false,
-    "isShowAchieveProgress": false,
-    "isAnecdote": false,
-    "isFURNQuest": false,
-    "client": 82600961,
-    "startStation": 83000052,
-    "endStationList": [
-      {
-        "id": 83000052,
-        "weight": 10
-      }
-    ],
-    "isAutoTrace": false,
-    "isTBC": false,
-    "traceList": [
-      {
-        "apiListId": 86500038,
-        "btnListId": 86500036,
-        "traceId": 86500029,
-        "uiPath": "UI/MainUI/MainUI"
-      },
-      {
-        "apiListId": -1,
-        "btnListId": -1,
-        "traceId": 86500325,
-        "uiPath": "UI/CityMap/CityMap"
-      }
-    ],
-    "isSwitchUI": false,
-    "switchUI": "",
-    "switchParameter": "",
-    "preQuestId": -1,
-    "preLv": 1,
-    "playgroundId": -1,
-    "playgroundLv": 0,
-    "startLevel": 0,
-    "startPrisonLevel": 0,
-    "conditionList": [],
-    "num": 1,
-    "islockAddProgress": false,
-    "isAutoComplete": true,
-    "checkComplete": false,
-    "isShowReceive": false,
-    "isRefreshProgress": false,
-    "refreshType": "Level",
-    "addProgress": 0,
-    "parentQuest": -1,
-    "childQuestList": [],
-    "rewardsList": [
-      {
-        "id": 11400001,
-        "num": 50000
-      },
-      {
-        "id": 11700078,
-        "num": 1
-      }
-    ],
-    "nextQuest": [
-      {
-        "id": 81002628
-      }
-    ],
-    "changeCityStateList": [],
-    "bannerList": [],
-    "giftList": [],
-    "mailList": [],
-    "isEvent": false,
-    "isOverwriteEvent": false,
-    "eventList": [],
-    "environmentList": [],
-    "isTime": false,
-    "startTime": "",
-    "endTime": "",
-    "correspondActivity": -1,
-    "returnNum": 1,
-    "dontShowMain": false,
-    "IsPlotTask": false,
-    "isTeleport": false,
-    "teleportStartStation": -1,
-    "teleportEndStation": -1,
-    "teleportText": "",
-    "describe": ""
-  },
-  {
-    "id": 81002628,
-    "idCN": "主线/EP10（暂时存放勿动）/9-25-对话-任务25",
-    "mod": "基础任务",
-    "isInformalData": false,
-    "name": "9-21 任务21",
-    "describeNew": "前往贡露城与乌刹娜交谈",
-    "target": "前往贡露城",
-    "targetMain": "访问城市",
-    "targetCity": "0",
-    "story": "乌刹娜和那由他来到了贡露城，发生什么事情了呢？",
-    "episode": "<color=#FEC032>第九章</color>主线",
-    "recommendLevel": 0,
-    "questType": "Main",
-    "typeIcon": 12601805,
-    "sort": 0,
-    "questTab": "",
-    "questTabDes": -1,
-    "completeTab": "",
-    "isShowProgress": false,
-    "isShowUnlock": false,
-    "isShowAchieveProgress": false,
-    "isAnecdote": false,
-    "isFURNQuest": false,
-    "client": 82600672,
-    "startStation": 83000052,
-    "endStationList": [
-      {
-        "id": 83000052,
-        "weight": 10
-      }
-    ],
-    "isAutoTrace": false,
-    "isTBC": false,
-    "traceList": [
-      {
-        "apiListId": 86500038,
-        "btnListId": 86500036,
-        "traceId": 86500029,
-        "uiPath": "UI/MainUI/MainUI"
-      },
-      {
-        "apiListId": -1,
-        "btnListId": -1,
-        "traceId": 86500326,
-        "uiPath": "UI/CityMap/CityMap"
-      }
-    ],
-    "isSwitchUI": false,
-    "switchUI": "",
-    "switchParameter": "",
-    "preQuestId": -1,
-    "preLv": 1,
-    "playgroundId": -1,
-    "playgroundLv": 0,
-    "startLevel": 0,
-    "startPrisonLevel": 0,
-    "conditionList": [
-      {
-        "key": "dialog",
-        "val": "0"
-      }
-    ],
-    "num": 1,
-    "islockAddProgress": false,
-    "isAutoComplete": false,
-    "checkComplete": false,
-    "isShowReceive": false,
-    "isRefreshProgress": false,
-    "refreshType": "Level",
-    "addProgress": 0,
-    "parentQuest": -1,
-    "childQuestList": [],
-    "rewardsList": [
-      {
-        "id": 11400001,
-        "num": 50000
-      },
-      {
-        "id": 11700078,
-        "num": 1
-      }
-    ],
-    "nextQuest": [
-      {
-        "id": 81002629
-      }
-    ],
-    "changeCityStateList": [],
-    "bannerList": [],
-    "giftList": [],
-    "mailList": [],
-    "isEvent": false,
-    "isOverwriteEvent": false,
-    "eventList": [],
-    "environmentList": [],
-    "isTime": false,
-    "startTime": "",
-    "endTime": "",
-    "correspondActivity": -1,
-    "returnNum": 1,
-    "dontShowMain": false,
-    "IsPlotTask": false,
-    "isTeleport": false,
-    "teleportStartStation": -1,
-    "teleportEndStation": -1,
-    "teleportText": "",
-    "describe": ""
-  },
-  {
-    "id": 81002629,
-    "idCN": "主线/EP10（暂时存放勿动）/9-26-对话-任务26",
-    "mod": "基础任务",
-    "isInformalData": false,
-    "name": "9-21 任务21",
-    "describeNew": "前往贡露城与乌刹娜交谈",
-    "target": "前往贡露城",
-    "targetMain": "访问城市",
-    "targetCity": "0",
-    "story": "乌刹娜和那由他来到了贡露城，发生什么事情了呢？",
-    "episode": "<color=#FEC032>第九章</color>主线",
-    "recommendLevel": 0,
-    "questType": "Main",
-    "typeIcon": 12601805,
-    "sort": 0,
-    "questTab": "",
-    "questTabDes": -1,
-    "completeTab": "",
-    "isShowProgress": false,
-    "isShowUnlock": false,
-    "isShowAchieveProgress": false,
-    "isAnecdote": false,
-    "isFURNQuest": false,
-    "client": 82600672,
-    "startStation": 83000052,
-    "endStationList": [
-      {
-        "id": 83000052,
-        "weight": 10
-      }
-    ],
-    "isAutoTrace": false,
-    "isTBC": false,
-    "traceList": [
-      {
-        "apiListId": 86500038,
-        "btnListId": 86500036,
-        "traceId": 86500029,
-        "uiPath": "UI/MainUI/MainUI"
-      },
-      {
-        "apiListId": -1,
-        "btnListId": -1,
-        "traceId": 86500327,
-        "uiPath": "UI/CityMap/CityMap"
-      }
-    ],
-    "isSwitchUI": false,
-    "switchUI": "",
-    "switchParameter": "",
-    "preQuestId": -1,
-    "preLv": 1,
-    "playgroundId": -1,
-    "playgroundLv": 0,
-    "startLevel": 0,
-    "startPrisonLevel": 0,
-    "conditionList": [
-      {
-        "key": "dialog",
-        "val": "0"
-      }
-    ],
-    "num": 1,
-    "islockAddProgress": false,
-    "isAutoComplete": false,
-    "checkComplete": false,
-    "isShowReceive": false,
-    "isRefreshProgress": false,
-    "refreshType": "Level",
-    "addProgress": 0,
-    "parentQuest": -1,
-    "childQuestList": [],
-    "rewardsList": [
-      {
-        "id": 11400001,
-        "num": 50000
-      },
-      {
-        "id": 11700078,
-        "num": 1
-      }
-    ],
-    "nextQuest": [
-      {
-        "id": 81002630
-      }
-    ],
-    "changeCityStateList": [],
-    "bannerList": [],
-    "giftList": [],
-    "mailList": [],
-    "isEvent": false,
-    "isOverwriteEvent": false,
-    "eventList": [],
-    "environmentList": [],
-    "isTime": false,
-    "startTime": "",
-    "endTime": "",
-    "correspondActivity": -1,
-    "returnNum": 1,
-    "dontShowMain": false,
-    "IsPlotTask": false,
-    "isTeleport": false,
-    "teleportStartStation": -1,
-    "teleportEndStation": -1,
-    "teleportText": "",
-    "describe": ""
-  },
-  {
-    "id": 81002630,
-    "idCN": "主线/EP10（暂时存放勿动）/9-27-对话-任务27",
-    "mod": "基础任务",
-    "isInformalData": false,
-    "name": "9-21 任务21",
-    "describeNew": "前往贡露城与乌刹娜交谈",
-    "target": "前往贡露城",
-    "targetMain": "访问城市",
-    "targetCity": "0",
-    "story": "乌刹娜和那由他来到了贡露城，发生什么事情了呢？",
-    "episode": "<color=#FEC032>第九章</color>主线",
-    "recommendLevel": 0,
-    "questType": "Main",
-    "typeIcon": 12601805,
-    "sort": 0,
-    "questTab": "",
-    "questTabDes": -1,
-    "completeTab": "",
-    "isShowProgress": false,
-    "isShowUnlock": false,
-    "isShowAchieveProgress": false,
-    "isAnecdote": false,
-    "isFURNQuest": false,
-    "client": 82600672,
-    "startStation": 83000052,
-    "endStationList": [
-      {
-        "id": 83000052,
-        "weight": 10
-      }
-    ],
-    "isAutoTrace": false,
-    "isTBC": false,
-    "traceList": [
-      {
-        "apiListId": 86500038,
-        "btnListId": 86500036,
-        "traceId": 86500029,
-        "uiPath": "UI/MainUI/MainUI"
-      },
-      {
-        "apiListId": -1,
-        "btnListId": -1,
-        "traceId": 86500328,
-        "uiPath": "UI/CityMap/CityMap"
-      }
-    ],
-    "isSwitchUI": false,
-    "switchUI": "",
-    "switchParameter": "",
-    "preQuestId": -1,
-    "preLv": 1,
-    "playgroundId": -1,
-    "playgroundLv": 0,
-    "startLevel": 0,
-    "startPrisonLevel": 0,
-    "conditionList": [
-      {
-        "key": "dialog",
-        "val": "0"
-      }
-    ],
-    "num": 1,
-    "islockAddProgress": false,
-    "isAutoComplete": false,
-    "checkComplete": false,
-    "isShowReceive": false,
-    "isRefreshProgress": false,
-    "refreshType": "Level",
-    "addProgress": 0,
-    "parentQuest": -1,
-    "childQuestList": [],
-    "rewardsList": [
-      {
-        "id": 11400001,
-        "num": 50000
-      },
-      {
-        "id": 11700078,
-        "num": 1
-      }
-    ],
-    "nextQuest": [
-      {
-        "id": 81002632
-      }
-    ],
-    "changeCityStateList": [],
-    "bannerList": [],
-    "giftList": [],
-    "mailList": [],
-    "isEvent": false,
-    "isOverwriteEvent": false,
-    "eventList": [],
-    "environmentList": [],
-    "isTime": false,
-    "startTime": "",
-    "endTime": "",
-    "correspondActivity": -1,
-    "returnNum": 1,
-    "dontShowMain": false,
-    "IsPlotTask": false,
-    "isTeleport": false,
-    "teleportStartStation": -1,
-    "teleportEndStation": -1,
-    "teleportText": "",
-    "describe": ""
-  },
-  {
-    "id": 81002631,
-    "idCN": "主线/EP10（暂时存放勿动）/9-29-对话-任务29",
-    "mod": "基础任务",
-    "isInformalData": false,
-    "name": "9-21 任务21",
-    "describeNew": "前往贡露城与乌刹娜交谈",
-    "target": "前往贡露城",
-    "targetMain": "访问城市",
-    "targetCity": "0",
-    "story": "乌刹娜和那由他来到了贡露城发生什么事情了呢？",
-    "episode": "<color=#FEC032>第九章</color>主线",
-    "recommendLevel": 0,
-    "questType": "Main",
-    "typeIcon": 12601805,
-    "sort": 0,
-    "questTab": "",
-    "questTabDes": -1,
-    "completeTab": "",
-    "isShowProgress": false,
-    "isShowUnlock": false,
-    "isShowAchieveProgress": false,
-    "isAnecdote": false,
-    "isFURNQuest": false,
-    "client": 82600672,
-    "startStation": 83000052,
-    "endStationList": [
-      {
-        "id": 83000052,
-        "weight": 10
-      }
-    ],
-    "isAutoTrace": false,
-    "isTBC": false,
-    "traceList": [
-      {
-        "apiListId": 86500038,
-        "btnListId": 86500036,
-        "traceId": 86500029,
-        "uiPath": "UI/MainUI/MainUI"
-      },
-      {
-        "apiListId": -1,
-        "btnListId": -1,
-        "traceId": 86500330,
-        "uiPath": "UI/CityMap/CityMap"
-      }
-    ],
-    "isSwitchUI": false,
-    "switchUI": "",
-    "switchParameter": "",
-    "preQuestId": -1,
-    "preLv": 1,
-    "playgroundId": -1,
-    "playgroundLv": 0,
-    "startLevel": 0,
-    "startPrisonLevel": 0,
-    "conditionList": [
-      {
-        "key": "dialog",
-        "val": "0"
-      }
-    ],
-    "num": 1,
-    "islockAddProgress": false,
-    "isAutoComplete": false,
-    "checkComplete": false,
-    "isShowReceive": false,
-    "isRefreshProgress": false,
-    "refreshType": "Level",
-    "addProgress": 0,
-    "parentQuest": -1,
-    "childQuestList": [],
-    "rewardsList": [
-      {
-        "id": 11400001,
-        "num": 50000
-      },
-      {
-        "id": 11700078,
-        "num": 1
-      }
-    ],
-    "nextQuest": [
-      {
-        "id": 81002633
-      }
-    ],
-    "changeCityStateList": [],
-    "bannerList": [],
-    "giftList": [],
-    "mailList": [],
-    "isEvent": false,
-    "isOverwriteEvent": false,
-    "eventList": [],
-    "environmentList": [],
-    "isTime": false,
-    "startTime": "",
-    "endTime": "",
-    "correspondActivity": -1,
-    "returnNum": 1,
-    "dontShowMain": false,
-    "IsPlotTask": false,
-    "isTeleport": false,
-    "teleportStartStation": -1,
-    "teleportEndStation": -1,
-    "teleportText": "",
-    "describe": ""
-  },
-  {
-    "id": 81002632,
-    "idCN": "主线/EP10（暂时存放勿动）/9-28-战斗-任务28",
-    "mod": "基础任务",
-    "isInformalData": false,
-    "name": "9-12 搜集样本",
-    "describeNew": "在贡露城与朵拉弥丝对话",
-    "target": "前往贡露城",
-    "targetMain": "访问城市",
-    "targetCity": "0",
-    "story": "与朵拉弥丝配合继续完成任务。",
-    "episode": "<color=#FEC032>第九章</color>主线",
-    "recommendLevel": 0,
-    "questType": "Main",
-    "typeIcon": 12601805,
-    "sort": 0,
-    "questTab": "",
-    "questTabDes": -1,
-    "completeTab": "",
-    "isShowProgress": false,
-    "isShowUnlock": false,
-    "isShowAchieveProgress": false,
-    "isAnecdote": false,
-    "isFURNQuest": false,
-    "client": 82600961,
-    "startStation": 83000052,
-    "endStationList": [
-      {
-        "id": 83000052,
-        "weight": 10
-      }
-    ],
-    "isAutoTrace": false,
-    "isTBC": false,
-    "traceList": [
-      {
-        "apiListId": 86500038,
-        "btnListId": 86500036,
-        "traceId": 86500029,
-        "uiPath": "UI/MainUI/MainUI"
-      },
-      {
-        "apiListId": -1,
-        "btnListId": -1,
-        "traceId": 86500329,
-        "uiPath": "UI/CityMap/CityMap"
-      }
-    ],
-    "isSwitchUI": false,
-    "switchUI": "",
-    "switchParameter": "",
-    "preQuestId": -1,
-    "preLv": 1,
-    "playgroundId": -1,
-    "playgroundLv": 0,
-    "startLevel": 0,
-    "startPrisonLevel": 0,
-    "conditionList": [],
-    "num": 1,
-    "islockAddProgress": false,
-    "isAutoComplete": true,
-    "checkComplete": false,
-    "isShowReceive": false,
-    "isRefreshProgress": false,
-    "refreshType": "Level",
-    "addProgress": 0,
-    "parentQuest": -1,
-    "childQuestList": [],
-    "rewardsList": [
-      {
-        "id": 11400001,
-        "num": 50000
-      },
-      {
-        "id": 11700078,
-        "num": 1
-      }
-    ],
-    "nextQuest": [
-      {
-        "id": 81002631
-      }
-    ],
-    "changeCityStateList": [],
-    "bannerList": [],
-    "giftList": [],
-    "mailList": [],
-    "isEvent": false,
-    "isOverwriteEvent": false,
-    "eventList": [],
-    "environmentList": [],
-    "isTime": false,
-    "startTime": "",
-    "endTime": "",
-    "correspondActivity": -1,
-    "returnNum": 1,
-    "dontShowMain": false,
-    "IsPlotTask": false,
-    "isTeleport": false,
-    "teleportStartStation": -1,
-    "teleportEndStation": -1,
-    "teleportText": "",
-    "describe": ""
-  },
-  {
-    "id": 81002633,
-    "idCN": "主线/EP10（暂时存放勿动）/9-30-对话-任务30",
-    "mod": "基础任务",
-    "isInformalData": false,
-    "name": "9-21 任务21",
-    "describeNew": "前往贡露城与乌刹娜交谈",
-    "target": "前往贡露城",
-    "targetMain": "访问城市",
-    "targetCity": "0",
-    "story": "乌刹娜和那由他来到了贡露城，发生什么事情了呢？",
-    "episode": "<color=#FEC032>第九章</color>主线",
-    "recommendLevel": 0,
-    "questType": "Main",
-    "typeIcon": 12601805,
-    "sort": 0,
-    "questTab": "",
-    "questTabDes": -1,
-    "completeTab": "",
-    "isShowProgress": false,
-    "isShowUnlock": false,
-    "isShowAchieveProgress": false,
-    "isAnecdote": false,
-    "isFURNQuest": false,
-    "client": 82600672,
-    "startStation": 83000052,
-    "endStationList": [
-      {
-        "id": 83000052,
-        "weight": 10
-      }
-    ],
-    "isAutoTrace": false,
-    "isTBC": false,
-    "traceList": [
-      {
-        "apiListId": 86500038,
-        "btnListId": 86500036,
-        "traceId": 86500029,
-        "uiPath": "UI/MainUI/MainUI"
-      },
-      {
-        "apiListId": -1,
-        "btnListId": -1,
-        "traceId": 86500331,
-        "uiPath": "UI/CityMap/CityMap"
-      }
-    ],
-    "isSwitchUI": false,
-    "switchUI": "",
-    "switchParameter": "",
-    "preQuestId": -1,
-    "preLv": 1,
-    "playgroundId": -1,
-    "playgroundLv": 0,
-    "startLevel": 0,
-    "startPrisonLevel": 0,
-    "conditionList": [
-      {
-        "key": "dialog",
-        "val": "0"
-      }
-    ],
-    "num": 1,
-    "islockAddProgress": false,
-    "isAutoComplete": false,
-    "checkComplete": false,
-    "isShowReceive": false,
-    "isRefreshProgress": false,
-    "refreshType": "Level",
-    "addProgress": 0,
-    "parentQuest": -1,
-    "childQuestList": [],
-    "rewardsList": [
-      {
-        "id": 11400001,
-        "num": 50000
-      },
-      {
-        "id": 11700078,
-        "num": 1
-      }
-    ],
-    "nextQuest": [
-      {
-        "id": 81002606
       }
     ],
     "changeCityStateList": [],
@@ -320471,7 +319546,7 @@
     "targetCity": "0",
     "story": "面对妮基塔的要求，卡莲似有决断。",
     "episode": "<color=#FEC032>第十章</color>主线",
-    "recommendLevel": 0,
+    "recommendLevel": 68,
     "questType": "Main",
     "typeIcon": 12601805,
     "sort": 0,
@@ -320576,7 +319651,7 @@
     "targetCity": "0",
     "story": "基于对现状的判断，海因里希有一项任务交给你。",
     "episode": "<color=#FEC032>第十章</color>主线",
-    "recommendLevel": 0,
+    "recommendLevel": 68,
     "questType": "Main",
     "typeIcon": 12601805,
     "sort": 0,
@@ -320901,7 +319976,7 @@
     "targetCity": "0",
     "story": "新鱼记餐厅内，有人开始顶不住压力……",
     "episode": "<color=#FEC032>第十章</color>主线",
-    "recommendLevel": 0,
+    "recommendLevel": 68,
     "questType": "Main",
     "typeIcon": 12601805,
     "sort": 0,
@@ -321006,7 +320081,7 @@
     "targetCity": "0",
     "story": "不知为何出现了很多阻拦的人，击败他们继续前进。",
     "episode": "<color=#FEC032>第十章</color>主线",
-    "recommendLevel": 0,
+    "recommendLevel": 68,
     "questType": "Main",
     "typeIcon": 12601805,
     "sort": 0,
@@ -321111,7 +320186,7 @@
     "targetCity": "0",
     "story": "你们面前似乎出现了新的阻碍……",
     "episode": "<color=#FEC032>第十章</color>主线",
-    "recommendLevel": 0,
+    "recommendLevel": 68,
     "questType": "Main",
     "typeIcon": 12601805,
     "sort": 0,
@@ -321216,7 +320291,7 @@
     "targetCity": "0",
     "story": "击败试图抓住你的人，继续前进。",
     "episode": "<color=#FEC032>第十章</color>主线",
-    "recommendLevel": 0,
+    "recommendLevel": 68,
     "questType": "Main",
     "typeIcon": 12601805,
     "sort": 0,
@@ -321431,7 +320506,7 @@
     "targetCity": "0",
     "story": "在徐佳心的帮助下，你们继续回收权限密钥。",
     "episode": "<color=#FEC032>第十章</color>主线",
-    "recommendLevel": 0,
+    "recommendLevel": 68,
     "questType": "Main",
     "typeIcon": 12601805,
     "sort": 0,
@@ -321536,7 +320611,7 @@
     "targetCity": "0",
     "story": "徐佳心打算协助你。",
     "episode": "<color=#FEC032>第十章</color>主线",
-    "recommendLevel": 0,
+    "recommendLevel": 68,
     "questType": "Main",
     "typeIcon": 12601805,
     "sort": 0,
@@ -321641,7 +320716,7 @@
     "targetCity": "0",
     "story": "击败试图抓住你的人，决定下一步行动。",
     "episode": "<color=#FEC032>第十章</color>主线",
-    "recommendLevel": 0,
+    "recommendLevel": 68,
     "questType": "Main",
     "typeIcon": 12601805,
     "sort": 0,
@@ -321856,7 +320931,7 @@
     "targetCity": "0",
     "story": "如何将解药顺利交给阿妮塔的人，你们需要制定一个方案。",
     "episode": "<color=#FEC032>第十章</color>主线",
-    "recommendLevel": 0,
+    "recommendLevel": 68,
     "questType": "Main",
     "typeIcon": 12601805,
     "sort": 0,
@@ -322071,7 +321146,7 @@
     "targetCity": "0",
     "story": "你们共同商讨解救人质的方案。",
     "episode": "<color=#FEC032>第十章</color>主线",
-    "recommendLevel": 0,
+    "recommendLevel": 68,
     "questType": "Main",
     "typeIcon": 12601805,
     "sort": 0,
@@ -322855,7 +321930,7 @@
     "targetCity": "0",
     "story": "按照计划前往贡露城海滩。",
     "episode": "<color=#FEC032>第十章</color>主线",
-    "recommendLevel": 0,
+    "recommendLevel": 70,
     "questType": "Main",
     "typeIcon": 12601805,
     "sort": 0,

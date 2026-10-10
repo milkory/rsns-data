@@ -64631,7 +64631,7 @@
         "targetType": "Target"
       },
       {
-        "buffId": 10400014,
+        "buffId": 10431999,
         "targetType": "Target"
       },
       {},
@@ -689481,6 +689481,11 @@
         "buffId": 10423078,
         "targetType": "Owner"
       },
+      {
+        "buffId": 10432046,
+        "targetType": "Owner"
+      },
+      {},
       {},
       {},
       {},
@@ -689654,6 +689659,11 @@
         "buffId": 10423089,
         "targetType": "Owner"
       },
+      {
+        "buffId": 10432043,
+        "targetType": "Owner"
+      },
+      {},
       {},
       {},
       {},
@@ -689665,6 +689675,11 @@
         "buffId": 10423089,
         "targetType": "Owner"
       },
+      {
+        "buffId": 10432043,
+        "targetType": "Owner"
+      },
+      {},
       {},
       {},
       {},
@@ -693137,7 +693152,7 @@
     "isRefreshSnapshot": true,
     "side": "Ally",
     "judgeBuffId": 10422988,
-    "judgeLevel": 0,
+    "judgeLevel": -1,
     "judgeType": "Greater",
     "sound": -1
   },
@@ -702155,7 +702170,7 @@
   },
   {
     "id": 10423475,
-    "idCN": "快乐BUFF树/00我方/05五星/伊卡菈/S-1/燎原烬灭",
+    "idCN": "快乐BUFF树/00我方/05五星/伊卡菈/S-1/焚天烬灭",
     "mod": "BUFF树",
     "isInformalData": false,
     "battleTagIdList": [],
@@ -702164,7 +702179,7 @@
     "isNotChangePos": false,
     "treeRoot": [
       {
-        "buffId": 10409085,
+        "buffId": 10427386,
         "targetType": "Target"
       },
       {
@@ -856350,7 +856365,7 @@
     "skillParamSN": 0,
     "skillParamTag": "qianHunCount",
     "loopFrame": 1,
-    "buffId": 10428418,
+    "buffId": 10432002,
     "isFirst": true,
     "sound": -1
   },
@@ -862958,7 +862973,7 @@
         "targetType": "Target"
       },
       {
-        "buffId": 10428407,
+        "buffId": 10432000,
         "targetType": "Target"
       },
       {},
@@ -862968,7 +862983,7 @@
         "targetType": "Target"
       },
       {
-        "buffId": 10428413,
+        "buffId": 10432001,
         "targetType": "Target"
       },
       {},
@@ -893753,7 +893768,7 @@
         "targetType": "Target"
       },
       {
-        "buffId": 10429581,
+        "buffId": 10432003,
         "targetType": "Target"
       },
       {},
@@ -893989,7 +894004,7 @@
         "targetType": "Target"
       },
       {
-        "buffId": 10429588,
+        "buffId": 10432004,
         "targetType": "Target"
       },
       {},
@@ -964269,7 +964284,7 @@
   },
   {
     "id": 10431749,
-    "idCN": "BUFF/00我方/05五星/亚莉奈·危情/S/读取心雷养成增伤",
+    "idCN": "BUFF/00我方/05五星/亚莉奈·危情/S/读取特殊效果养成增伤",
     "mod": "计算自定义数据",
     "baseEffect": "OtherEffect",
     "tag": "ArinaHeartSUp",
@@ -964557,22 +964572,48 @@
     "id": 10431768,
     "idCN": "BUFF/00我方/05五星/亚莉奈·危情/心雷/监听目标施放技能",
     "mod": "自身触发-施放技能",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
     "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "isBindAction": false,
+    "isDispelFightEnd": false,
+    "isNotRecordDamageAsCard": false,
+    "iconUrl": "",
     "cantBeDispelled": true,
     "bForever": true,
     "durationFrame": 1,
     "sourceBase": "FixedValue",
+    "customDataTagBase": "",
+    "buffTypeFO": -1,
     "overlayType": "NotChange",
+    "sourceList": [],
     "overlayTimeType": "NotChange",
     "level": 1,
+    "levelTag": "",
     "levelMax": 1,
+    "levelMaxTag": "",
+    "maxLevelBuffId": -1,
+    "isSameAttribute": false,
+    "attributeChangeList": [],
     "baseValue_SN": 10000,
+    "baseRateTag": "",
+    "timeUpEffectList": [],
+    "dispelEffectList": [],
+    "appearEffectList": [],
+    "buffEffectByLevel": [],
+    "disappearEffectList": [],
+    "bDamageWithLevel": false,
+    "bShowLevel": false,
+    "showLevelInfoId": -1,
     "cooldownFrame": 0,
-    "buffId": 10431777
+    "buffId": 10431777,
+    "sound": -1
   },
   {
     "id": 10431769,
-    "idCN": "快乐BUFF树/00我方/05五星/亚莉奈·危情/心雷/挂载层数与行动监听",
+    "idCN": "快乐BUFF树/00我方/05五星/亚莉奈·危情/心雷/挂载层数与精神特殊效果监听",
     "mod": "BUFF树",
     "baseEffect": "OtherEffect",
     "treeRoot": [
@@ -964581,18 +964622,13 @@
         "targetType": "Target"
       },
       {
-        "buffId": 10431767,
-        "targetType": "Target"
-      },
-      {
-        "buffId": 10431768,
+        "buffId": 10431998,
         "targetType": "Target"
       },
       {
         "buffId": 10431921,
         "targetType": "Target"
       },
-      {},
       {},
       {},
       {}
@@ -964797,7 +964833,7 @@
     "skillRateFactorSN": 360000,
     "skillRateTag": "ArinaHeartRate",
     "isStraightDamage": false,
-    "isIgnoreDefence": false,
+    "isIgnoreDefence": true,
     "skillMultTag": false,
     "isLeaderSource": false,
     "shakeXPerFrame": 0.0,
@@ -965243,7 +965279,7 @@
   },
   {
     "id": 10431799,
-    "idCN": "BUFF/00我方/05五星/亚莉奈·危情/觉醒2/超上限抽一张优先得意技能牌",
+    "idCN": "BUFF/00我方/05五星/亚莉奈·危情/觉醒2/未读满三层抽一张优先紫卡",
     "mod": "标签检索",
     "baseEffect": "OtherEffect",
     "cardSource": "OnlyDeck",
@@ -965252,13 +965288,13 @@
     "condition": "All",
     "tagList": [
       {
-        "tagId": 12600007
+        "tagId": 12600073
       }
     ],
     "tagType": "And",
     "isRandomDeck": true,
     "isRandom": true,
-    "isOverHandNum": true,
+    "isOverHandNum": false,
     "buffId": 10431920
   },
   {
@@ -965285,7 +965321,7 @@
   },
   {
     "id": 10431801,
-    "idCN": "快乐BUFF树/00我方/05五星/亚莉奈·危情/觉醒2/未接来电丢弃抽牌判定",
+    "idCN": "快乐BUFF树/00我方/05五星/亚莉奈·危情/觉醒2/未读满三层清计数并抽牌",
     "mod": "BUFF树",
     "isInformalData": false,
     "battleTagIdList": [],
@@ -965294,11 +965330,11 @@
     "isNotChangePos": false,
     "treeRoot": [
       {
-        "buffId": 10431753,
-        "targetType": "Owner"
+        "buffId": 10432032,
+        "targetType": "Target"
       },
       {
-        "buffId": 10431800,
+        "buffId": 10432039,
         "targetType": "Owner"
       },
       {},
@@ -965357,12 +965393,12 @@
         "targetType": "Target"
       },
       {
-        "buffId": 10431747,
-        "targetType": "Owner"
+        "buffId": 10432027,
+        "targetType": "Target"
       },
       {
-        "buffId": 10400048,
-        "targetType": "Owner"
+        "buffId": 10432028,
+        "targetType": "Target"
       },
       {},
       {},
@@ -965612,7 +965648,8 @@
     "isRefreshSnapshot": true,
     "isIgnoreDeadCard": false,
     "isLeaderCard": false,
-    "sound": -1
+    "sound": -1,
+    "isNotUseCardActionData": true
   },
   {
     "id": 10431814,
@@ -966176,14 +966213,10 @@
   },
   {
     "id": 10431840,
-    "idCN": "快乐BUFF树/00我方/05五星/亚莉奈·危情/B-1/丢弃时结算觉醒二与觉醒五",
+    "idCN": "快乐BUFF树/00我方/05五星/亚莉奈·危情/B-1/丢弃时结算觉醒五",
     "mod": "BUFF树",
     "baseEffect": "OtherEffect",
     "treeRoot": [
-      {
-        "buffId": 10431801,
-        "targetType": "Owner"
-      },
       {
         "buffId": 10431757,
         "targetType": "Owner"
@@ -966192,7 +966225,6 @@
         "buffId": 10431839,
         "targetType": "Owner"
       },
-      {},
       {},
       {}
     ]
@@ -966240,7 +966272,7 @@
   },
   {
     "id": 10431843,
-    "idCN": "快乐BUFF树/00我方/05五星/亚莉奈·危情/S/引爆心雷",
+    "idCN": "快乐BUFF树/00我方/05五星/亚莉奈·危情/S/概率触发撕心",
     "mod": "BUFF树",
     "isInformalData": false,
     "battleTagIdList": [],
@@ -966261,9 +966293,14 @@
         "targetType": "Target"
       },
       {
-        "buffId": 10431777,
+        "buffId": 10431914,
         "targetType": "Target"
       },
+      {
+        "buffId": 10432006,
+        "targetType": "Target"
+      },
+      {},
       {},
       {},
       {},
@@ -966276,9 +966313,14 @@
         "targetType": "Target"
       },
       {
-        "buffId": 10431777,
+        "buffId": 10431914,
         "targetType": "Target"
       },
+      {
+        "buffId": 10432006,
+        "targetType": "Target"
+      },
+      {},
       {},
       {},
       {},
@@ -966576,14 +966618,9 @@
         "targetType": "Target"
       },
       {
-        "buffId": 10404388,
-        "targetType": "Target"
-      },
-      {
         "buffId": 10431843,
         "targetType": "Target"
       },
-      {},
       {},
       {}
     ],
@@ -968622,8 +968659,8 @@
         "targetType": "Target"
       },
       {
-        "buffId": 10431919,
-        "targetType": "Owner"
+        "buffId": 10432038,
+        "targetType": "Target"
       },
       {},
       {},
@@ -968717,15 +968754,21 @@
   },
   {
     "id": 10431930,
-    "idCN": "BUFF/00我方/05五星/亚莉奈·危情/S/每段三十三概率引爆心雷",
+    "idCN": "BUFF/00我方/05五星/亚莉奈·危情/S/每段三十三概率触发撕心",
     "mod": "判断概率",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
     "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
     "judgeRate_SN": 3300,
-    "luckType": "IgnoreLuck"
+    "judgeRateTag": "",
+    "luckType": "AddLuck",
+    "sound": -1
   },
   {
     "id": 10431931,
-    "idCN": "BUFF/00我方/05五星/亚莉奈·危情/觉醒5/持牌期间手牌上限补偿",
+    "idCN": "BUFF/00我方/05五星/亚莉奈·危情/B-1/持牌期间手牌上限补偿",
     "mod": "调整小队属性",
     "baseEffect": "OtherEffect",
     "cantBeDispelled": true,
@@ -968757,27 +968800,28 @@
   },
   {
     "id": 10431933,
-    "idCN": "BUFF/00我方/05五星/亚莉奈·危情/觉醒4/全部拉黑五十概率引爆",
+    "idCN": "BUFF/00我方/05五星/亚莉奈·危情/觉醒4/全部拉黑五十概率触发撕心",
     "mod": "判断概率",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
     "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
     "judgeRate_SN": 5000,
-    "luckType": "IgnoreLuck"
+    "judgeRateTag": "",
+    "luckType": "AddLuck",
+    "sound": -1
   },
   {
     "id": 10431934,
-    "idCN": "快乐BUFF树/00我方/05五星/亚莉奈·危情/觉醒5/持牌期间手牌上限补偿判定",
+    "idCN": "快乐BUFF树/00我方/05五星/亚莉奈·危情/B-1/持牌期间手牌上限补偿入口",
     "mod": "BUFF树",
     "baseEffect": "OtherEffect",
     "treeRoot": [
       {
-        "buffId": 10431757,
-        "targetType": "Owner"
-      },
-      {
         "buffId": 10431931,
         "targetType": "Target"
       },
-      {},
       {}
     ]
   },
@@ -968792,17 +968836,22 @@
   },
   {
     "id": 10431936,
-    "idCN": "BUFF/00我方/05五星/亚莉奈·危情/共振5/初始化心雷诛心倍率",
+    "idCN": "BUFF/00我方/05五星/亚莉奈·危情/共振5/初始化心雷撕心诛心倍率",
     "mod": "计算自定义数据",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
     "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
     "tag": "ArinaEmotionRate",
     "formulaStr": "1",
     "targetPrefix": "tar",
-    "customDataList": []
+    "customDataList": [],
+    "sound": -1
   },
   {
     "id": 10431937,
-    "idCN": "BUFF/00我方/05五星/亚莉奈·危情/共振5/设置心雷诛心双倍倍率",
+    "idCN": "BUFF/00我方/05五星/亚莉奈·危情/共振5/设置心雷撕心诛心双倍倍率",
     "mod": "计算自定义数据",
     "baseEffect": "OtherEffect",
     "tag": "ArinaEmotionRate",
@@ -968965,7 +969014,7 @@
     "idCN": "BUFF/00我方/05五星/亚莉奈·危情/B-0/对应卡牌记录技能目标",
     "mod": "卡牌添加buff",
     "baseEffect": "OtherEffect",
-    "buffId": 10431949
+    "buffId": 10432037
   },
   {
     "id": 10431949,
@@ -969271,7 +969320,7 @@
   },
   {
     "id": 10431965,
-    "idCN": "快乐BUFF树/00我方/05五星/亚莉奈·危情/共振5/心雷诛心双倍判定",
+    "idCN": "快乐BUFF树/00我方/05五星/亚莉奈·危情/共振5/心雷撕心诛心双倍判定",
     "mod": "BUFF树",
     "baseEffect": "OtherEffect",
     "treeRoot": [
@@ -970232,5 +970281,1215 @@
     "bDamageWithLevel": false,
     "bShowLevel": false,
     "showLevelInfoId": -1
+  },
+  {
+    "id": 10431996,
+    "idCN": "BUFF/40通用机制/精神类特殊效果/逐段伤害触发标记",
+    "mod": "持续效果",
+    "baseEffect": "OtherEffect",
+    "cantBeDispelled": true,
+    "bForever": false,
+    "durationFrame": 1,
+    "sourceBase": "FixedValue",
+    "overlayType": "NotChange",
+    "overlayTimeType": "NotChange",
+    "level": 1,
+    "levelMax": 1,
+    "baseValue_SN": 10000,
+    "bShowLevel": false,
+    "buffTypeFO": 13000028,
+    "typeTagList": [
+      {
+        "tagId": 12602227
+      }
+    ]
+  },
+  {
+    "id": 10431997,
+    "idCN": "快乐BUFF树/40通用机制/精神类特殊效果/逐段伤害统一触发",
+    "mod": "BUFF树",
+    "baseEffect": "OtherEffect",
+    "treeRoot": [
+      {
+        "buffId": 10431996,
+        "targetType": "Target"
+      },
+      {}
+    ]
+  },
+  {
+    "id": 10431998,
+    "idCN": "BUFF/00我方/05五星/亚莉奈·危情/心雷/监听目标承受精神特殊效果伤害",
+    "mod": "触发-特定标签buff",
+    "baseEffect": "OtherEffect",
+    "cantBeDispelled": true,
+    "bForever": true,
+    "durationFrame": 1,
+    "sourceBase": "FixedValue",
+    "overlayType": "NotChange",
+    "overlayTimeType": "NotChange",
+    "level": 1,
+    "levelMax": 1,
+    "baseValue_SN": 10000,
+    "bShowLevel": false,
+    "buffId": 10431777,
+    "cooldownFrame": 0,
+    "isRefreshSnapshot": false,
+    "isSelf": false,
+    "isTarget": false,
+    "isToSelf": false,
+    "isToTarget": true,
+    "judgeType": "And",
+    "targetTagIds": [
+      {
+        "tagId": 12602227
+      }
+    ]
+  },
+  {
+    "id": 10431999,
+    "idCN": "快乐BUFF树/40通用机制/精神类特殊效果/混乱伤害与逐段触发",
+    "mod": "BUFF树",
+    "baseEffect": "OtherEffect",
+    "treeRoot": [
+      {
+        "buffId": 10400014,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10431997,
+        "targetType": "Target"
+      },
+      {},
+      {}
+    ]
+  },
+  {
+    "id": 10432000,
+    "idCN": "快乐BUFF树/40通用机制/精神类特殊效果/诛心伤害与逐段触发",
+    "mod": "BUFF树",
+    "baseEffect": "OtherEffect",
+    "treeRoot": [
+      {
+        "buffId": 10428407,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10431997,
+        "targetType": "Target"
+      },
+      {},
+      {}
+    ]
+  },
+  {
+    "id": 10432001,
+    "idCN": "快乐BUFF树/40通用机制/精神类特殊效果/诛心强化伤害与逐段触发",
+    "mod": "BUFF树",
+    "baseEffect": "OtherEffect",
+    "treeRoot": [
+      {
+        "buffId": 10428413,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10431997,
+        "targetType": "Target"
+      },
+      {},
+      {}
+    ]
+  },
+  {
+    "id": 10432002,
+    "idCN": "快乐BUFF树/40通用机制/精神类特殊效果/断魂伤害与逐段触发",
+    "mod": "BUFF树",
+    "baseEffect": "OtherEffect",
+    "treeRoot": [
+      {
+        "buffId": 10428418,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10431997,
+        "targetType": "Target"
+      },
+      {},
+      {}
+    ]
+  },
+  {
+    "id": 10432003,
+    "idCN": "快乐BUFF树/40通用机制/精神类特殊效果/退化伤害与逐段触发",
+    "mod": "BUFF树",
+    "baseEffect": "OtherEffect",
+    "treeRoot": [
+      {
+        "buffId": 10429581,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10431997,
+        "targetType": "Target"
+      },
+      {},
+      {}
+    ]
+  },
+  {
+    "id": 10432004,
+    "idCN": "快乐BUFF树/40通用机制/精神类特殊效果/劣化伤害与逐段触发",
+    "mod": "BUFF树",
+    "baseEffect": "OtherEffect",
+    "treeRoot": [
+      {
+        "buffId": 10429588,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10431997,
+        "targetType": "Target"
+      },
+      {},
+      {}
+    ]
+  },
+  {
+    "id": 10432005,
+    "idCN": "BUFF/00我方/05五星/亚莉奈·危情/撕心/判断施加时自身心伤",
+    "mod": "判断层级",
+    "baseEffect": "OtherEffect",
+    "judgeBuffId": 10431838,
+    "judgeType": "Greater",
+    "judgeLevel": 0
+  },
+  {
+    "id": 10432006,
+    "idCN": "快乐BUFF树/00我方/05五星/亚莉奈·危情/撕心/按施加时心伤选择三段或四段",
+    "mod": "BUFF树",
+    "baseEffect": "OtherEffect",
+    "treeRoot": [
+      {
+        "buffId": 10432005,
+        "targetType": "Owner"
+      },
+      {
+        "buffId": 10432014,
+        "targetType": "Target"
+      },
+      {},
+      {
+        "buffId": 10432013,
+        "targetType": "Target"
+      },
+      {},
+      {}
+    ]
+  },
+  {
+    "id": 10432009,
+    "idCN": "BUFF/00我方/05五星/亚莉奈·危情/撕心/首段固定伤害倍率",
+    "mod": "计算自定义数据",
+    "baseEffect": "OtherEffect",
+    "tag": "ArinaSixinRate",
+    "formulaStr": "5.4*(1+ArinaHeartSUp)*ArinaEmotionRate",
+    "targetPrefix": "tar",
+    "customDataList": [
+      {
+        "customTag": "ArinaHeartSUp"
+      },
+      {
+        "customTag": "ArinaEmotionRate"
+      }
+    ]
+  },
+  {
+    "id": 10432010,
+    "idCN": "BUFF/00我方/05五星/亚莉奈·危情/撕心/第二段固定伤害倍率",
+    "mod": "计算自定义数据",
+    "baseEffect": "OtherEffect",
+    "tag": "ArinaSixinRate",
+    "formulaStr": "10.8*(1+ArinaHeartSUp)*ArinaEmotionRate",
+    "targetPrefix": "tar",
+    "customDataList": [
+      {
+        "customTag": "ArinaHeartSUp"
+      },
+      {
+        "customTag": "ArinaEmotionRate"
+      }
+    ]
+  },
+  {
+    "id": 10432011,
+    "idCN": "BUFF/00我方/05五星/亚莉奈·危情/撕心/第三段固定伤害倍率",
+    "mod": "计算自定义数据",
+    "baseEffect": "OtherEffect",
+    "tag": "ArinaSixinRate",
+    "formulaStr": "21.6*(1+ArinaHeartSUp)*ArinaEmotionRate",
+    "targetPrefix": "tar",
+    "customDataList": [
+      {
+        "customTag": "ArinaHeartSUp"
+      },
+      {
+        "customTag": "ArinaEmotionRate"
+      }
+    ]
+  },
+  {
+    "id": 10432012,
+    "idCN": "BUFF/00我方/05五星/亚莉奈·危情/撕心/第四段固定伤害倍率",
+    "mod": "计算自定义数据",
+    "baseEffect": "OtherEffect",
+    "tag": "ArinaSixinRate",
+    "formulaStr": "43.2*(1+ArinaHeartSUp)*ArinaEmotionRate",
+    "targetPrefix": "tar",
+    "customDataList": [
+      {
+        "customTag": "ArinaHeartSUp"
+      },
+      {
+        "customTag": "ArinaEmotionRate"
+      }
+    ]
+  },
+  {
+    "id": 10432007,
+    "idCN": "BUFF/00我方/05五星/亚莉奈·危情/撕心/每秒精神伤害",
+    "mod": "伤害",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [
+      {
+        "tagId": 12601827
+      },
+      {
+        "tagId": 12602076
+      },
+      {
+        "tagId": 12601954
+      },
+      {
+        "tagId": 12602226
+      }
+    ],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "type": "Psychic",
+    "isNotShowDamage": false,
+    "isNotRecord": false,
+    "banCrit": false,
+    "isMustCrit": false,
+    "isNoAdditionalAttack": true,
+    "isNormalAttack": false,
+    "isSkillAttack": true,
+    "source": "Atk",
+    "customDataTag": "",
+    "skillSelect": "Default",
+    "skillRateFactorSN": 54000,
+    "skillRateTag": "ArinaSixinRate",
+    "isStraightDamage": false,
+    "isIgnoreDefence": false,
+    "skillMultTag": false,
+    "isLeaderSource": false,
+    "shakeXPerFrame": 0.0,
+    "shakeDuration": 0,
+    "setCustomValue": "",
+    "isHitSpakle": false,
+    "critAddBuff": -1,
+    "sound": -1,
+    "isSkillLua": false
+  },
+  {
+    "id": 10432008,
+    "idCN": "快乐BUFF树/00我方/05五星/亚莉奈·危情/撕心/单段伤害与精神特殊效果触发",
+    "mod": "BUFF树",
+    "baseEffect": "OtherEffect",
+    "treeRoot": [
+      {
+        "buffId": 10432007,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10431997,
+        "targetType": "Target"
+      },
+      {},
+      {}
+    ]
+  },
+  {
+    "id": 10432013,
+    "idCN": "BUFF/00我方/05五星/亚莉奈·危情/撕心/3段路径/第1秒独立计时",
+    "mod": "循环",
+    "baseEffect": "OtherEffect",
+    "cantBeDispelled": true,
+    "bForever": false,
+    "durationFrame": 60,
+    "sourceBase": "FixedValue",
+    "overlayType": "NotChange",
+    "overlayTimeType": "NotChange",
+    "level": 1,
+    "levelMax": 1,
+    "baseValue_SN": 10000,
+    "bShowLevel": false,
+    "buffTypeFO": 13000028,
+    "skillParamSN": 10000,
+    "loopFrame": 60,
+    "buffId": 10432020,
+    "isFirst": false,
+    "typeTagList": [
+      {
+        "tagId": 12602226
+      }
+    ]
+  },
+  {
+    "id": 10432020,
+    "idCN": "快乐BUFF树/00我方/05五星/亚莉奈·危情/撕心/3段路径/第1秒伤害结算",
+    "mod": "BUFF树",
+    "baseEffect": "OtherEffect",
+    "treeRoot": [
+      {
+        "buffId": 10431936,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10431965,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432009,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432008,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432015,
+        "targetType": "Target"
+      },
+      {},
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  {
+    "id": 10432015,
+    "idCN": "BUFF/00我方/05五星/亚莉奈·危情/撕心/3段路径/第2秒独立计时",
+    "mod": "循环",
+    "baseEffect": "OtherEffect",
+    "cantBeDispelled": true,
+    "bForever": false,
+    "durationFrame": 60,
+    "sourceBase": "FixedValue",
+    "overlayType": "NotChange",
+    "overlayTimeType": "NotChange",
+    "level": 1,
+    "levelMax": 1,
+    "baseValue_SN": 10000,
+    "bShowLevel": false,
+    "buffTypeFO": 13000028,
+    "skillParamSN": 10000,
+    "loopFrame": 60,
+    "buffId": 10432022,
+    "isFirst": false,
+    "typeTagList": [
+      {
+        "tagId": 12602226
+      }
+    ]
+  },
+  {
+    "id": 10432022,
+    "idCN": "快乐BUFF树/00我方/05五星/亚莉奈·危情/撕心/3段路径/第2秒伤害结算",
+    "mod": "BUFF树",
+    "baseEffect": "OtherEffect",
+    "treeRoot": [
+      {
+        "buffId": 10431936,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10431965,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432010,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432008,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432017,
+        "targetType": "Target"
+      },
+      {},
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  {
+    "id": 10432017,
+    "idCN": "BUFF/00我方/05五星/亚莉奈·危情/撕心/3段路径/第3秒独立计时",
+    "mod": "循环",
+    "baseEffect": "OtherEffect",
+    "cantBeDispelled": true,
+    "bForever": false,
+    "durationFrame": 60,
+    "sourceBase": "FixedValue",
+    "overlayType": "NotChange",
+    "overlayTimeType": "NotChange",
+    "level": 1,
+    "levelMax": 1,
+    "baseValue_SN": 10000,
+    "bShowLevel": false,
+    "buffTypeFO": 13000028,
+    "skillParamSN": 10000,
+    "loopFrame": 60,
+    "buffId": 10432024,
+    "isFirst": false,
+    "typeTagList": [
+      {
+        "tagId": 12602226
+      }
+    ]
+  },
+  {
+    "id": 10432024,
+    "idCN": "快乐BUFF树/00我方/05五星/亚莉奈·危情/撕心/3段路径/第3秒伤害结算",
+    "mod": "BUFF树",
+    "baseEffect": "OtherEffect",
+    "treeRoot": [
+      {
+        "buffId": 10431936,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10431965,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432011,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432008,
+        "targetType": "Target"
+      },
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  {
+    "id": 10432014,
+    "idCN": "BUFF/00我方/05五星/亚莉奈·危情/撕心/4段路径/第1秒独立计时",
+    "mod": "循环",
+    "baseEffect": "OtherEffect",
+    "cantBeDispelled": true,
+    "bForever": false,
+    "durationFrame": 60,
+    "sourceBase": "FixedValue",
+    "overlayType": "NotChange",
+    "overlayTimeType": "NotChange",
+    "level": 1,
+    "levelMax": 1,
+    "baseValue_SN": 10000,
+    "bShowLevel": false,
+    "buffTypeFO": 13000028,
+    "skillParamSN": 10000,
+    "loopFrame": 60,
+    "buffId": 10432021,
+    "isFirst": false,
+    "typeTagList": [
+      {
+        "tagId": 12602226
+      }
+    ]
+  },
+  {
+    "id": 10432021,
+    "idCN": "快乐BUFF树/00我方/05五星/亚莉奈·危情/撕心/4段路径/第1秒伤害结算",
+    "mod": "BUFF树",
+    "baseEffect": "OtherEffect",
+    "treeRoot": [
+      {
+        "buffId": 10431936,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10431965,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432009,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432008,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432016,
+        "targetType": "Target"
+      },
+      {},
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  {
+    "id": 10432016,
+    "idCN": "BUFF/00我方/05五星/亚莉奈·危情/撕心/4段路径/第2秒独立计时",
+    "mod": "循环",
+    "baseEffect": "OtherEffect",
+    "cantBeDispelled": true,
+    "bForever": false,
+    "durationFrame": 60,
+    "sourceBase": "FixedValue",
+    "overlayType": "NotChange",
+    "overlayTimeType": "NotChange",
+    "level": 1,
+    "levelMax": 1,
+    "baseValue_SN": 10000,
+    "bShowLevel": false,
+    "buffTypeFO": 13000028,
+    "skillParamSN": 10000,
+    "loopFrame": 60,
+    "buffId": 10432023,
+    "isFirst": false,
+    "typeTagList": [
+      {
+        "tagId": 12602226
+      }
+    ]
+  },
+  {
+    "id": 10432023,
+    "idCN": "快乐BUFF树/00我方/05五星/亚莉奈·危情/撕心/4段路径/第2秒伤害结算",
+    "mod": "BUFF树",
+    "baseEffect": "OtherEffect",
+    "treeRoot": [
+      {
+        "buffId": 10431936,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10431965,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432010,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432008,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432018,
+        "targetType": "Target"
+      },
+      {},
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  {
+    "id": 10432018,
+    "idCN": "BUFF/00我方/05五星/亚莉奈·危情/撕心/4段路径/第3秒独立计时",
+    "mod": "循环",
+    "baseEffect": "OtherEffect",
+    "cantBeDispelled": true,
+    "bForever": false,
+    "durationFrame": 60,
+    "sourceBase": "FixedValue",
+    "overlayType": "NotChange",
+    "overlayTimeType": "NotChange",
+    "level": 1,
+    "levelMax": 1,
+    "baseValue_SN": 10000,
+    "bShowLevel": false,
+    "buffTypeFO": 13000028,
+    "skillParamSN": 10000,
+    "loopFrame": 60,
+    "buffId": 10432025,
+    "isFirst": false,
+    "typeTagList": [
+      {
+        "tagId": 12602226
+      }
+    ]
+  },
+  {
+    "id": 10432025,
+    "idCN": "快乐BUFF树/00我方/05五星/亚莉奈·危情/撕心/4段路径/第3秒伤害结算",
+    "mod": "BUFF树",
+    "baseEffect": "OtherEffect",
+    "treeRoot": [
+      {
+        "buffId": 10431936,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10431965,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432011,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432008,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432019,
+        "targetType": "Target"
+      },
+      {},
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  {
+    "id": 10432019,
+    "idCN": "BUFF/00我方/05五星/亚莉奈·危情/撕心/4段路径/第4秒独立计时",
+    "mod": "循环",
+    "baseEffect": "OtherEffect",
+    "cantBeDispelled": true,
+    "bForever": false,
+    "durationFrame": 60,
+    "sourceBase": "FixedValue",
+    "overlayType": "NotChange",
+    "overlayTimeType": "NotChange",
+    "level": 1,
+    "levelMax": 1,
+    "baseValue_SN": 10000,
+    "bShowLevel": false,
+    "buffTypeFO": 13000028,
+    "skillParamSN": 10000,
+    "loopFrame": 60,
+    "buffId": 10432026,
+    "isFirst": false,
+    "typeTagList": [
+      {
+        "tagId": 12602226
+      }
+    ]
+  },
+  {
+    "id": 10432026,
+    "idCN": "快乐BUFF树/00我方/05五星/亚莉奈·危情/撕心/4段路径/第4秒伤害结算",
+    "mod": "BUFF树",
+    "baseEffect": "OtherEffect",
+    "treeRoot": [
+      {
+        "buffId": 10431936,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10431965,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432012,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432008,
+        "targetType": "Target"
+      },
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  {
+    "id": 10432027,
+    "idCN": "BUFF/00我方/05五星/亚莉奈·危情/B-1/本张卡未读叠加完成标记",
+    "mod": "持续效果",
+    "baseEffect": "OtherEffect",
+    "cantBeDispelled": true,
+    "bForever": false,
+    "durationFrame": 1,
+    "sourceBase": "FixedValue",
+    "overlayType": "NotChange",
+    "overlayTimeType": "NotChange",
+    "level": 1,
+    "levelMax": 1,
+    "baseValue_SN": 10000,
+    "bShowLevel": false,
+    "buffTypeFO": 13000028,
+    "typeTagList": [
+      {
+        "tagId": 12602228
+      }
+    ]
+  },
+  {
+    "id": 10432028,
+    "idCN": "快乐BUFF树/00我方/05五星/亚莉奈·危情/共振4/每层未读获得费用判定",
+    "mod": "BUFF树",
+    "baseEffect": "OtherEffect",
+    "treeRoot": [
+      {
+        "buffId": 10431747,
+        "targetType": "Owner"
+      },
+      {
+        "buffId": 10400048,
+        "targetType": "Owner"
+      },
+      {},
+      {}
+    ]
+  },
+  {
+    "id": 10432030,
+    "idCN": "BUFF/00我方/05五星/亚莉奈·危情/觉醒2/本张来电未读抽牌计数",
+    "mod": "持续效果",
+    "baseEffect": "OtherEffect",
+    "cantBeDispelled": true,
+    "bForever": true,
+    "durationFrame": 1,
+    "sourceBase": "FixedValue",
+    "overlayType": "AddSource",
+    "overlayTimeType": "NotChange",
+    "level": 1,
+    "levelMax": 3,
+    "maxLevelBuffId": 10431801,
+    "baseValue_SN": 10000,
+    "bShowLevel": false,
+    "levelTag": "ArinaUnreadStep"
+  },
+  {
+    "id": 10432031,
+    "idCN": "BUFF/00我方/05五星/亚莉奈·危情/觉醒2/计算初始额外未读计数",
+    "mod": "计算自定义数据",
+    "baseEffect": "OtherEffect",
+    "tag": "ArinaUnreadStep",
+    "formulaStr": "ArinaUnreadStep-1",
+    "targetPrefix": "tar",
+    "customDataList": [
+      {
+        "customTag": "ArinaUnreadStep"
+      }
+    ]
+  },
+  {
+    "id": 10432032,
+    "idCN": "BUFF/00我方/05五星/亚莉奈·危情/觉醒2/清空本次三层未读计数",
+    "mod": "驱散对应buff",
+    "baseEffect": "OtherEffect",
+    "targetBuffId": 10432030,
+    "dispelTime": 3,
+    "isTriggerDispelEffect": false
+  },
+  {
+    "id": 10432033,
+    "idCN": "BUFF/00我方/05五星/亚莉奈·危情/觉醒2/本次未读计数增加一层",
+    "mod": "计算自定义数据",
+    "baseEffect": "OtherEffect",
+    "tag": "ArinaUnreadStep",
+    "formulaStr": "1",
+    "targetPrefix": "tar",
+    "customDataList": []
+  },
+  {
+    "id": 10432034,
+    "idCN": "快乐BUFF树/00我方/05五星/亚莉奈·危情/觉醒2/未读增长后独立计数",
+    "mod": "BUFF树",
+    "baseEffect": "OtherEffect",
+    "treeRoot": [
+      {
+        "buffId": 10432033,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432030,
+        "targetType": "Target"
+      },
+      {},
+      {}
+    ]
+  },
+  {
+    "id": 10432029,
+    "idCN": "BUFF/00我方/05五星/亚莉奈·危情/觉醒2/本张来电监听未读叠加",
+    "mod": "触发-特定标签buff",
+    "baseEffect": "OtherEffect",
+    "cantBeDispelled": true,
+    "bForever": true,
+    "durationFrame": 1,
+    "sourceBase": "FixedValue",
+    "overlayType": "NotChange",
+    "overlayTimeType": "NotChange",
+    "level": 1,
+    "levelMax": 1,
+    "baseValue_SN": 10000,
+    "bShowLevel": false,
+    "buffId": 10432034,
+    "cooldownFrame": 0,
+    "isRefreshSnapshot": false,
+    "isSelf": false,
+    "isTarget": false,
+    "isToSelf": false,
+    "isToTarget": true,
+    "judgeType": "And",
+    "targetTagIds": [
+      {
+        "tagId": 12602228
+      }
+    ]
+  },
+  {
+    "id": 10432039,
+    "idCN": "BUFF/00我方/05五星/亚莉奈·危情/觉醒2/首次立即执行独立抽牌快照",
+    "mod": "循环",
+    "baseEffect": "OtherEffect",
+    "cantBeDispelled": true,
+    "bForever": false,
+    "durationFrame": 1,
+    "sourceBase": "FixedValue",
+    "overlayType": "NotChange",
+    "overlayTimeType": "NotChange",
+    "level": 1,
+    "levelMax": 1,
+    "baseValue_SN": 10000,
+    "bShowLevel": false,
+    "buffTypeFO": 13000028,
+    "skillParamSN": 10000,
+    "loopFrame": 1,
+    "buffId": 10431799,
+    "isFirst": true
+  },
+  {
+    "id": 10432035,
+    "idCN": "BUFF/00我方/05五星/亚莉奈·危情/觉醒2/读取本张来电初始未读计数",
+    "mod": "记录数据-获取指定Buff层数",
+    "baseEffect": "OtherEffect",
+    "buffId": 10431795,
+    "tag": "ArinaUnreadStep",
+    "targetType": "Target"
+  },
+  {
+    "id": 10432036,
+    "idCN": "快乐BUFF树/00我方/05五星/亚莉奈·危情/觉醒2/绑定后初始化本张来电计数",
+    "mod": "BUFF树",
+    "baseEffect": "OtherEffect",
+    "treeRoot": [
+      {
+        "buffId": 10431753,
+        "targetType": "Owner"
+      },
+      {
+        "buffId": 10432029,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432033,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432030,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10431747,
+        "targetType": "Owner"
+      },
+      {
+        "buffId": 10432035,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432031,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432030,
+        "targetType": "Target"
+      },
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  {
+    "id": 10432037,
+    "idCN": "快乐BUFF树/00我方/05五星/亚莉奈·危情/B-1/保存目标并初始化未读抽牌",
+    "mod": "BUFF树",
+    "baseEffect": "OtherEffect",
+    "treeRoot": [
+      {
+        "buffId": 10431949,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432036,
+        "targetType": "Target"
+      },
+      {},
+      {}
+    ]
+  },
+  {
+    "id": 10432038,
+    "idCN": "BUFF/00我方/05五星/亚莉奈·危情/觉醒2/向本张来电绑定目标施加心雷",
+    "mod": "带帧事件",
+    "baseEffect": "OtherEffect",
+    "frameEventList": [
+      {
+        "frameEventId": 10503866,
+        "x_SN": 0,
+        "y_SN": 0,
+        "wHalf_SN": 0,
+        "hHalf_SN": 0,
+        "isUseTargetPosition": false,
+        "isUseCardViewPosition": false,
+        "timesSource": "FixedValue",
+        "excuteTimes": 10000
+      }
+    ]
+  },
+  {
+    "id": 10432040,
+    "idCN": "BUFF/00我方/05五星/伊卡菈/觉醒5/计算凭依龙脉易伤",
+    "mod": "计算自定义数据",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "tag": "PingYiGetDraconicDamageUp",
+    "formulaStr": "PingYiCountMakeRedCardDamageUp",
+    "targetPrefix": "tar",
+    "customDataList": [
+      {
+        "customTag": "PingYiCountMakeRedCardDamageUp"
+      }
+    ],
+    "sound": -1
+  },
+  {
+    "id": 10432041,
+    "idCN": "BUFF/00我方/05五星/伊卡菈/觉醒5/检索全体敌方",
+    "mod": "检索单位添加buff",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "isForceSearch": true,
+    "targetType": "Enemy",
+    "targetTagList": [],
+    "halfWidth_SN": 240000,
+    "attributeType": "HpMax",
+    "condition": "All",
+    "numberType": "Number",
+    "number_SN": 0,
+    "filterBuffTypeFO": -1,
+    "filterBuffFO": -1,
+    "filterBuffJudgeType": "All",
+    "filterBuffLevel": 0,
+    "buffSortType": "All",
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 99,
+    "radius_SN": 240000,
+    "buffId": 10432042,
+    "isRandom": false,
+    "useTargetProperty": false,
+    "sound": -1
+  },
+  {
+    "id": 10432042,
+    "idCN": "BUFF/00我方/05五星/伊卡菈/觉醒5/敌方龙脉易伤",
+    "mod": "持续效果",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [
+      {
+        "tagId": 12600800
+      }
+    ],
+    "baseEffect": "NegativeEffect",
+    "isNotChangePos": false,
+    "isBindAction": false,
+    "isDispelFightEnd": false,
+    "isNotRecordDamageAsCard": false,
+    "iconUrl": "",
+    "cantBeDispelled": true,
+    "bForever": true,
+    "durationFrame": 1,
+    "recycleDelayFrame": 0,
+    "sourceBase": "FixedValue",
+    "customDataTagBase": "",
+    "buffTypeFO": 13000128,
+    "overlayType": "UseNew",
+    "sourceList": [],
+    "overlayTimeType": "NotChange",
+    "level": 1,
+    "levelTag": "",
+    "levelMax": 1,
+    "levelMaxTag": "",
+    "maxLevelBuffId": -1,
+    "isSameAttribute": false,
+    "attributeChangeList": [
+      {
+        "attributeType": "GetDamageUpDraconic",
+        "level": 1,
+        "numberType": "Percent",
+        "rateTag": "PingYiGetDraconicDamageUp",
+        "skillSelect": "Default",
+        "value_SN": 0
+      }
+    ],
+    "baseValue_SN": 10000,
+    "baseRateTag": "",
+    "timeUpEffectList": [],
+    "dispelEffectList": [],
+    "appearEffectList": [],
+    "buffEffectByLevel": [],
+    "disappearEffectList": [],
+    "bDamageWithLevel": false,
+    "bShowLevel": false,
+    "showLevelInfoId": -1,
+    "sound": -1
+  },
+  {
+    "id": 10432043,
+    "idCN": "快乐BUFF树/00我方/05五星/伊卡菈/觉醒5/更新敌方龙脉易伤",
+    "mod": "BUFF树",
+    "baseEffect": "OtherEffect",
+    "treeRoot": [
+      {
+        "buffId": 10432040,
+        "targetType": "Owner"
+      },
+      {
+        "buffId": 10432041,
+        "targetType": "Owner"
+      },
+      {},
+      {}
+    ]
+  },
+  {
+    "id": 10432044,
+    "idCN": "BUFF/00我方/05五星/伊卡菈/觉醒5/场上单位变化更新凭依加成",
+    "mod": "战斗触发-单位数量变动",
+    "baseEffect": "OtherEffect",
+    "cantBeDispelled": true,
+    "bForever": true,
+    "durationFrame": 1,
+    "sourceBase": "FixedValue",
+    "overlayType": "UseNew",
+    "overlayTimeType": "NotChange",
+    "level": 1,
+    "levelMax": 1,
+    "baseValue_SN": 10000,
+    "bShowLevel": false,
+    "cooldownFrame": 0,
+    "buffId": 10423096,
+    "isRefreshSnapshot": true
+  },
+  {
+    "id": 10432045,
+    "idCN": "快乐BUFF树/00我方/05五星/伊卡菈/觉醒5/凭依加成技能入口",
+    "mod": "BUFF树",
+    "baseEffect": "OtherEffect",
+    "treeRoot": [
+      {
+        "buffId": 10423216,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432044,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10423096,
+        "targetType": "Target"
+      },
+      {},
+      {},
+      {}
+    ]
+  },
+  {
+    "id": 10432046,
+    "idCN": "BUFF/00我方/05五星/伊卡菈/觉醒4/龙脉伤害提高",
+    "mod": "持续效果",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "isBindAction": false,
+    "isDispelFightEnd": false,
+    "isNotRecordDamageAsCard": false,
+    "iconUrl": "",
+    "cantBeDispelled": true,
+    "bForever": true,
+    "durationFrame": 1,
+    "recycleDelayFrame": 0,
+    "sourceBase": "FixedValue",
+    "customDataTagBase": "",
+    "buffTypeFO": 13000129,
+    "overlayType": "UseNew",
+    "sourceList": [],
+    "overlayTimeType": "NotChange",
+    "level": 1,
+    "levelTag": "",
+    "levelMax": 1,
+    "levelMaxTag": "",
+    "maxLevelBuffId": -1,
+    "isSameAttribute": false,
+    "attributeChangeList": [
+      {
+        "attributeType": "MakeDamageUpDraconic",
+        "level": 1,
+        "numberType": "Percent",
+        "rateTag": "",
+        "skillSelect": "Default",
+        "value_SN": 3000
+      }
+    ],
+    "baseValue_SN": 0,
+    "baseRateTag": "LongYiCount",
+    "timeUpEffectList": [],
+    "dispelEffectList": [],
+    "appearEffectList": [],
+    "buffEffectByLevel": [],
+    "disappearEffectList": [],
+    "bDamageWithLevel": false,
+    "bShowLevel": false,
+    "showLevelInfoId": -1,
+    "sound": -1
   }
 ]
