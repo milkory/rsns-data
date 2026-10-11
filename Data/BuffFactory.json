@@ -971491,5 +971491,85 @@
     "bShowLevel": false,
     "showLevelInfoId": -1,
     "sound": -1
+  },
+  {
+    "id": 10432047,
+    "idCN": "快乐BUFF树/00我方/05五星/朱月/普攻/命中",
+    "mod": "BUFF树",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "treeRoot": [
+      {
+        "buffId": 10432049,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432048,
+        "targetType": "Target"
+      },
+      {},
+      {}
+    ],
+    "sound": -1
+  },
+  {
+    "id": 10432048,
+    "idCN": "BUFF/00我方/05五星/朱月/普攻/伤害",
+    "mod": "伤害",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [
+      {
+        "tagId": 12601827
+      },
+      {
+        "tagId": 12601833
+      }
+    ],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "type": "Physic",
+    "isNotShowDamage": false,
+    "isNotRecord": false,
+    "banCrit": false,
+    "isMustCrit": false,
+    "isNoAdditionalAttack": false,
+    "isNormalAttack": true,
+    "isSkillAttack": false,
+    "source": "Atk",
+    "customDataTag": "",
+    "skillSelect": "Default",
+    "skillRateFactorSN": 20000,
+    "skillRateTag": "",
+    "isStraightDamage": false,
+    "isIgnoreDefence": false,
+    "skillMultTag": false,
+    "isLeaderSource": false,
+    "shakeXPerFrame": 0.0,
+    "shakeDuration": 0,
+    "setCustomValue": "",
+    "isHitSpakle": true,
+    "critAddBuff": -1,
+    "sound": -1,
+    "isSkillLua": false
+  },
+  {
+    "id": 10432049,
+    "idCN": "BUFF/00我方/05五星/朱月/普攻/受击特效",
+    "mod": "特效",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "effectPointType": "GetHit",
+    "effectId": -1,
+    "offsetX": 0.0,
+    "offsetY": 0.0,
+    "isUseSnapshotDirection": false,
+    "sound": -1
   }
 ]
