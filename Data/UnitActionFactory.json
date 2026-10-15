@@ -233173,21 +233173,21 @@
     "filterStance": "DeafaultStance",
     "filterPosition": "DefaultPos",
     "isAimSelf": false,
-    "targetCount": 1,
+    "targetCount": 99,
     "distance_SN": 0,
     "radius_SN": 1000000,
     "isCustomRadius": false,
     "radiusTag": "",
     "damageHitBuffList": [],
     "healHitBuffList": [],
-    "cdFrame": 140,
+    "cdFrame": 75,
     "isUseBigNumber": false,
     "stateIdList": [
       {
+        "bPlayTimes": false,
         "stateId": 10205881,
-        "timesSource": "FixedValue",
         "timesRate_SN": 10000,
-        "bPlayTimes": false
+        "timesSource": "FixedValue"
       }
     ],
     "backShakeFrame": -1
@@ -233202,7 +233202,7 @@
     "actionLevel": "NormalSkill",
     "isUseTargetFilter": true,
     "isIgnoreInvisibleEnemy": true,
-    "targetType": "Enemy",
+    "targetType": "Self",
     "targetTagList": [],
     "tagType": "And",
     "halfWidth_SN": 240000,
@@ -233217,14 +233217,14 @@
     "filterStance": "DeafaultStance",
     "filterPosition": "DefaultPos",
     "isAimSelf": false,
-    "targetCount": 99,
-    "distance_SN": 240000,
-    "radius_SN": 240000,
+    "targetCount": 1,
+    "distance_SN": 0,
+    "radius_SN": 0,
     "isCustomRadius": false,
     "radiusTag": "",
     "damageHitBuffList": [],
     "healHitBuffList": [],
-    "cdFrame": 140,
+    "cdFrame": 54,
     "isUseBigNumber": false,
     "stateIdList": [
       {
@@ -233268,14 +233268,14 @@
     "radiusTag": "",
     "damageHitBuffList": [],
     "healHitBuffList": [],
-    "cdFrame": 197,
+    "cdFrame": 81,
     "isUseBigNumber": false,
     "stateIdList": [
       {
+        "bPlayTimes": false,
         "stateId": 10205883,
-        "timesSource": "FixedValue",
         "timesRate_SN": 10000,
-        "bPlayTimes": false
+        "timesSource": "FixedValue"
       }
     ],
     "backShakeFrame": -1
@@ -233286,10 +233286,13 @@
     "mod": "基础动作",
     "isInformalData": false,
     "isCharge": false,
+    "isSkill": false,
     "actionLevel": "NormalAttack",
     "isUseTargetFilter": true,
+    "isIgnoreInvisibleEnemy": true,
     "targetType": "Enemy",
     "targetTagList": [],
+    "tagType": "And",
     "halfWidth_SN": 1000000,
     "attributeType": "HpMax",
     "condition": "All",
@@ -233305,19 +233308,21 @@
     "targetCount": 1,
     "distance_SN": 61000,
     "radius_SN": 1000000,
+    "isCustomRadius": false,
+    "radiusTag": "",
     "damageHitBuffList": [],
     "healHitBuffList": [],
-    "cdFrame": 81,
+    "cdFrame": 54,
     "isUseBigNumber": false,
     "stateIdList": [
       {
+        "bPlayTimes": false,
         "stateId": 10205884,
-        "timesSource": "FixedValue",
         "timesRate_SN": 10000,
-        "bPlayTimes": false
+        "timesSource": "FixedValue"
       }
     ],
-    "isSkill": false
+    "backShakeFrame": -1
   },
   {
     "id": 10105381,
@@ -233364,10 +233369,13 @@
     "mod": "基础动作",
     "isInformalData": false,
     "isCharge": false,
+    "isSkill": false,
     "actionLevel": "Move",
     "isUseTargetFilter": false,
+    "isIgnoreInvisibleEnemy": true,
     "targetType": "Enemy",
     "targetTagList": [],
+    "tagType": "And",
     "halfWidth_SN": 0,
     "attributeType": "HpMax",
     "condition": "All",
@@ -233383,9 +233391,11 @@
     "targetCount": 0,
     "distance_SN": 40000,
     "radius_SN": 0,
+    "isCustomRadius": false,
+    "radiusTag": "",
     "damageHitBuffList": [],
     "healHitBuffList": [],
-    "cdFrame": 41,
+    "cdFrame": 33,
     "isUseBigNumber": false,
     "stateIdList": [
       {
@@ -233395,7 +233405,8 @@
         "timesRate_SN": 10000,
         "timesSource": "FixedValue"
       }
-    ]
+    ],
+    "backShakeFrame": -1
   },
   {
     "id": 10105383,
@@ -233403,10 +233414,13 @@
     "mod": "基础动作",
     "isInformalData": false,
     "isCharge": false,
+    "isSkill": false,
     "actionLevel": "Hit",
     "isUseTargetFilter": false,
+    "isIgnoreInvisibleEnemy": true,
     "targetType": "Enemy",
     "targetTagList": [],
+    "tagType": "And",
     "halfWidth_SN": 0,
     "attributeType": "HpMax",
     "condition": "All",
@@ -233422,9 +233436,11 @@
     "targetCount": 0,
     "distance_SN": 40000,
     "radius_SN": 0,
+    "isCustomRadius": false,
+    "radiusTag": "",
     "damageHitBuffList": [],
     "healHitBuffList": [],
-    "cdFrame": 41,
+    "cdFrame": 40,
     "isUseBigNumber": false,
     "stateIdList": [
       {
@@ -233434,7 +233450,8 @@
         "timesRate_SN": 10000,
         "timesSource": "FixedValue"
       }
-    ]
+    ],
+    "backShakeFrame": -1
   },
   {
     "id": 10105384,
@@ -233442,10 +233459,13 @@
     "mod": "基础动作",
     "isInformalData": false,
     "isCharge": false,
+    "isSkill": false,
     "actionLevel": "Hit",
     "isUseTargetFilter": false,
+    "isIgnoreInvisibleEnemy": true,
     "targetType": "Enemy",
     "targetTagList": [],
+    "tagType": "And",
     "halfWidth_SN": 0,
     "attributeType": "HpMax",
     "condition": "All",
@@ -233461,9 +233481,11 @@
     "targetCount": 0,
     "distance_SN": 40000,
     "radius_SN": 0,
+    "isCustomRadius": false,
+    "radiusTag": "",
     "damageHitBuffList": [],
     "healHitBuffList": [],
-    "cdFrame": 41,
+    "cdFrame": 40,
     "isUseBigNumber": false,
     "stateIdList": [
       {
@@ -233473,7 +233495,8 @@
         "timesRate_SN": 10000,
         "timesSource": "FixedValue"
       }
-    ]
+    ],
+    "backShakeFrame": -1
   },
   {
     "id": 10105385,
