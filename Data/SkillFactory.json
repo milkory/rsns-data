@@ -279417,7 +279417,7 @@
     "mod": "随机属性技能",
     "isInformalData": false,
     "name": "罪痕",
-    "iconPath": "",
+    "iconPath": "RolePlus/Akatsuki/skillicon/A",
     "attriDetialList": [],
     "tempdescription": "【罪痕】伤害提高%s",
     "description": "【罪痕】伤害提高%s",
@@ -279490,7 +279490,7 @@
     "mod": "随机属性技能",
     "isInformalData": false,
     "name": "断线",
-    "iconPath": "",
+    "iconPath": "RolePlus/Akatsuki/skillicon/B-0",
     "attriDetialList": [],
     "tempdescription": "【断线】伤害提高%s",
     "description": "【断线】伤害提高%s",
@@ -279563,7 +279563,7 @@
     "mod": "随机属性技能",
     "isInformalData": false,
     "name": "归云",
-    "iconPath": "",
+    "iconPath": "RolePlus/Akatsuki/skillicon/S",
     "attriDetialList": [],
     "tempdescription": "【归云】伤害提高%s",
     "description": "【归云】伤害提高%s",
@@ -279636,7 +279636,7 @@
     "mod": "主动技能",
     "isInformalData": false,
     "name": "鸦指",
-    "iconPath": "",
+    "iconPath": "RolePlus/Akatsuki/skillicon/A",
     "attriDetialList": [],
     "tempdescription": "驱使肩上的乌鸦标记敌方目标，随后拔刀，对其造成2段伤害并【斩裂】，同时使其叠加1层【罪痕】\\n【罪痕】每层每秒对目标造成1段精神伤害，持续9秒，仅对1名敌方生效",
     "description": "驱使肩上的乌鸦标记敌方目标，随后拔刀，对其造成2段伤害并【斩裂】，同时使其叠加1层【罪痕】\\n【罪痕】每层每秒对目标造成1段精神伤害，持续9秒，仅对1名敌方生效",
@@ -279709,10 +279709,10 @@
     "mod": "主动技能",
     "isInformalData": false,
     "name": "候月",
-    "iconPath": "",
+    "iconPath": "RolePlus/Akatsuki/skillicon/B-0",
     "attriDetialList": [],
-    "tempdescription": "从弃牌区将1张非自身黄卡加入手牌\\n进入【纳刀】状态，持续6秒\\n持续期间：\\n牌库卡牌数量越多，自身受到的最终伤害越低\\n手牌数量越多，自身造成的最终伤害越高\\n3秒后，生成1张【断线】加入手牌，且能超出手牌上限",
-    "description": "从弃牌区将1张非自身黄卡加入手牌\\n进入【纳刀】状态，持续6秒\\n持续期间：\\n牌库卡牌数量越多，自身受到的最终伤害越低\\n手牌数量越多，自身造成的最终伤害越高\\n3秒后，生成1张【断线】加入手牌，且能超出手牌上限",
+    "tempdescription": "从弃牌区将1张非自身黄卡加入手牌\\n进入【纳刀】状态，持续6秒\\n持续期间：\\n牌库卡牌数量越多，自身受到的最终伤害越低\\n手牌数量越多，自身造成的最终伤害越高\\n生成1张【断线】加入手牌，且能超出手牌上限",
+    "description": "从弃牌区将1张非自身黄卡加入手牌\\n进入【纳刀】状态，持续6秒\\n持续期间：\\n牌库卡牌数量越多，自身受到的最终伤害越低\\n手牌数量越多，自身造成的最终伤害越高\\n生成1张【断线】加入手牌，且能超出手牌上限",
     "levelUpDescription": "",
     "tempdetailDescription": "",
     "detailDescription": "",
@@ -279787,47 +279787,58 @@
     "mod": "主动技能",
     "isInformalData": false,
     "name": "断线",
-    "iconPath": "",
+    "iconPath": "RolePlus/Akatsuki/skillicon/B-1",
     "attriDetialList": [],
-    "tempdescription": "对敌方目标造成1段伤害并【崩坏】/【斩裂】/【裂心】\\n使用后【销毁】\\n【裂心】对目标造成1段精神伤害，每次触发该效果时伤害加倍，3次后重置",
-    "description": "对敌方目标造成1段伤害并【崩坏】/【斩裂】/【裂心】\\n使用后【销毁】\\n【裂心】对目标造成1段精神伤害，每次触发该效果时伤害加倍，3次后重置",
+    "tempdescription": "对敌方目标造成1段伤害并【崩坏】/【斩裂】/【裂心】\\n弃牌区卡牌数量越多，造成的伤害越高\\n【纳刀】状态结束后/使用后【销毁】\\n【裂心】对目标造成1段精神伤害，每次触发该效果时伤害加倍，3次后重置",
+    "description": "对敌方目标造成1段伤害并【崩坏】/【斩裂】/【裂心】\\n弃牌区卡牌数量越多，造成的伤害越高\\n【纳刀】状态结束后/使用后【销毁】\\n【裂心】对目标造成1段精神伤害，每次触发该效果时伤害加倍，3次后重置",
     "levelUpDescription": "",
     "tempdetailDescription": "伤害：10800%（精神）",
     "detailDescription": "伤害：10800%（精神）",
     "desParamList": [],
     "skillParamList": [
       {
-        "skillRateA_SN": 1080000
+        "skillRateA_SN": 1080000,
+        "skillRateB_SN": 200000
       },
       {
-        "skillRateA_SN": 1134000
+        "skillRateA_SN": 1134000,
+        "skillRateB_SN": 210000
       },
       {
-        "skillRateA_SN": 1188000
+        "skillRateA_SN": 1188000,
+        "skillRateB_SN": 220000
       },
       {
-        "skillRateA_SN": 1242000
+        "skillRateA_SN": 1242000,
+        "skillRateB_SN": 230000
       },
       {
-        "skillRateA_SN": 1296000
+        "skillRateA_SN": 1296000,
+        "skillRateB_SN": 240000
       },
       {
-        "skillRateA_SN": 1350000
+        "skillRateA_SN": 1350000,
+        "skillRateB_SN": 250000
       },
       {
-        "skillRateA_SN": 1404000
+        "skillRateA_SN": 1404000,
+        "skillRateB_SN": 260000
       },
       {
-        "skillRateA_SN": 1458000
+        "skillRateA_SN": 1458000,
+        "skillRateB_SN": 270000
       },
       {
-        "skillRateA_SN": 1512000
+        "skillRateA_SN": 1512000,
+        "skillRateB_SN": 280000
       },
       {
-        "skillRateA_SN": 1566000
+        "skillRateA_SN": 1566000,
+        "skillRateB_SN": 290000
       },
       {
-        "skillRateA_SN": 1620000
+        "skillRateA_SN": 1620000,
+        "skillRateB_SN": 300000
       }
     ],
     "attributeList": [],
@@ -279860,7 +279871,7 @@
     "mod": "主动技能",
     "isInformalData": false,
     "name": "归云",
-    "iconPath": "",
+    "iconPath": "RolePlus/Akatsuki/skillicon/S",
     "attriDetialList": [],
     "tempdescription": "对敌方全体造成3段伤害并【斩裂】\\n对拥有【罪痕】的敌方，每层【罪痕】额外造成1段伤害并【斩裂】",
     "description": "对敌方全体造成3段伤害并【斩裂】\\n对拥有【罪痕】的敌方，每层【罪痕】额外造成1段伤害并【斩裂】",
@@ -280088,5 +280099,42 @@
     "tempdescription": "",
     "detailDescription": "",
     "tempdetailDescription": ""
+  },
+  {
+    "id": 12305061,
+    "idCN": "00原版/05五星/黑月/朱月/乌鸦动作",
+    "mod": "被动技能",
+    "isInformalData": false,
+    "name": "",
+    "iconPath": "",
+    "attriDetialList": [],
+    "tempdescription": "",
+    "description": "",
+    "levelUpDescription": "",
+    "tempdetailDescription": "",
+    "detailDescription": "",
+    "desParamList": [],
+    "skillParamList": [],
+    "attributeList": [],
+    "tagId": -1,
+    "tagRemoveList": [],
+    "tagFilterList": [],
+    "tagFilterType": "And",
+    "buffId": 10411331,
+    "effectTarget": "Ally",
+    "skillWeight": -1,
+    "isPercent": false,
+    "temptypeStr": "",
+    "typeStr": "",
+    "typeColor": "Red",
+    "rarityColor": "White",
+    "CommonNum": 1.0,
+    "floatNum": 1,
+    "ExSkillList": [],
+    "specialTagList": [],
+    "partList": [],
+    "campList": [],
+    "attributeIntensify": [],
+    "playerLevel": 0
   }
 ]

@@ -971566,7 +971566,7 @@
     "baseEffect": "OtherEffect",
     "isNotChangePos": false,
     "effectPointType": "GetHit",
-    "effectId": -1,
+    "effectId": 11109849,
     "offsetX": 0.0,
     "offsetY": 0.0,
     "isUseSnapshotDirection": false,
@@ -971989,29 +971989,32 @@
     "idCN": "BUFF/00我方/05五星/朱月/罪痕/罪痕",
     "mod": "周期效果",
     "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
     "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "isBindAction": false,
+    "isDispelFightEnd": false,
+    "isNotRecordDamageAsCard": false,
+    "iconUrl": "",
     "cantBeDispelled": true,
     "bForever": false,
     "durationFrame": 1,
     "sourceBase": "CustomData",
+    "customDataTagBase": "AkatsukiZuihenTime",
+    "buffTypeFO": 13000028,
     "overlayType": "NotChange",
+    "sourceList": [],
     "overlayTimeType": "NotChange",
     "level": 1,
+    "levelTag": "",
     "levelMax": 1,
-    "buffTypeFO": 13000028,
+    "levelMaxTag": "",
+    "maxLevelBuffId": -1,
     "isSameAttribute": false,
+    "attributeChangeList": [],
     "baseValue_SN": 10000,
-    "bShowLevel": false,
-    "customDataTagBase": "AkatsukiZuihenTime",
-    "isRefreshSnapshot": true,
-    "firstFrame": 60,
-    "intervalFrame": 60,
-    "dotEffectList": [
-      {
-        "buffId": 10432081,
-        "targetType": "Target"
-      }
-    ],
+    "baseRateTag": "",
     "timeUpEffectList": [
       {
         "buffId": 10432074,
@@ -972023,7 +972026,33 @@
         "buffId": 10432074,
         "targetType": "Target"
       }
-    ]
+    ],
+    "appearEffectList": [],
+    "buffEffectByLevel": [
+      {
+        "effectIdFirst": 11101675,
+        "effectIdSecond": -1,
+        "effectIdThird": -1,
+        "effectPointType": "Effect",
+        "level": 1,
+        "offsetX": 0.0,
+        "offsetY": 0.0
+      }
+    ],
+    "disappearEffectList": [],
+    "isRefreshSnapshot": true,
+    "firstFrame": 60,
+    "intervalFrame": 60,
+    "dotEffectList": [
+      {
+        "buffId": 10432081,
+        "targetType": "Target"
+      }
+    ],
+    "bDamageWithLevel": false,
+    "bShowLevel": false,
+    "showLevelInfoId": -1,
+    "sound": -1
   },
   {
     "id": 10432076,
@@ -972175,10 +972204,22 @@
     "idCN": "BUFF/00我方/05五星/朱月/A/伤害",
     "mod": "伤害",
     "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [
+      {
+        "tagId": 12601827
+      },
+      {
+        "tagId": 12602076
+      }
+    ],
     "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
     "type": "Psychic",
+    "isNotShowDamage": false,
     "isNotRecord": false,
     "banCrit": false,
+    "isMustCrit": false,
     "isNoAdditionalAttack": false,
     "isNormalAttack": false,
     "isSkillAttack": true,
@@ -972190,15 +972231,14 @@
     "isStraightDamage": false,
     "isIgnoreDefence": false,
     "skillMultTag": false,
-    "isHitSpakle": false,
-    "typeTagList": [
-      {
-        "tagId": 12601827
-      },
-      {
-        "tagId": 12602076
-      }
-    ]
+    "isLeaderSource": false,
+    "shakeXPerFrame": 0.2,
+    "shakeDuration": 2,
+    "setCustomValue": "",
+    "isHitSpakle": true,
+    "critAddBuff": -1,
+    "sound": -1,
+    "isSkillLua": false
   },
   {
     "id": 10432084,
@@ -972211,6 +972251,10 @@
     "isNotChangePos": false,
     "treeRoot": [
       {
+        "buffId": 10411329,
+        "targetType": "Target"
+      },
+      {
         "buffId": 10432083,
         "targetType": "Target"
       },
@@ -972218,6 +972262,7 @@
         "buffId": 10402405,
         "targetType": "Target"
       },
+      {},
       {},
       {}
     ],
@@ -972238,14 +972283,9 @@
         "targetType": "Target"
       },
       {
-        "buffId": 10432084,
-        "targetType": "Target"
-      },
-      {
         "buffId": 10432082,
         "targetType": "Target"
       },
-      {},
       {},
       {}
     ],
@@ -972407,34 +972447,36 @@
     "idCN": "BUFF/00我方/05五星/朱月/B-0/纳刀",
     "mod": "周期效果",
     "isInformalData": false,
-    "baseEffect": "OtherEffect",
-    "cantBeDispelled": true,
-    "bForever": false,
-    "durationFrame": 1,
-    "sourceBase": "CustomData",
-    "overlayType": "UseNew",
-    "overlayTimeType": "NotChange",
-    "level": 1,
-    "levelMax": 1,
-    "isSameAttribute": false,
-    "baseValue_SN": 10000,
-    "bShowLevel": false,
-    "buffTypeFO": 13000130,
-    "customDataTagBase": "AkatsukiNadaoTime",
-    "isRefreshSnapshot": true,
-    "firstFrame": 1,
-    "intervalFrame": 1,
+    "battleTagIdList": [],
     "typeTagList": [
       {
         "tagId": 12602235
       }
     ],
-    "dotEffectList": [
-      {
-        "buffId": 10432102,
-        "targetType": "Owner"
-      }
-    ],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "isBindAction": false,
+    "isDispelFightEnd": false,
+    "isNotRecordDamageAsCard": false,
+    "iconUrl": "",
+    "cantBeDispelled": true,
+    "bForever": false,
+    "durationFrame": 1,
+    "sourceBase": "CustomData",
+    "customDataTagBase": "AkatsukiNadaoTime",
+    "buffTypeFO": 13000130,
+    "overlayType": "UseNew",
+    "sourceList": [],
+    "overlayTimeType": "NotChange",
+    "level": 1,
+    "levelTag": "",
+    "levelMax": 1,
+    "levelMaxTag": "",
+    "maxLevelBuffId": -1,
+    "isSameAttribute": false,
+    "attributeChangeList": [],
+    "baseValue_SN": 10000,
+    "baseRateTag": "",
     "timeUpEffectList": [
       {
         "buffId": 10432105,
@@ -972446,7 +972488,33 @@
         "buffId": 10432105,
         "targetType": "Owner"
       }
-    ]
+    ],
+    "appearEffectList": [],
+    "buffEffectByLevel": [
+      {
+        "effectIdFirst": 11101677,
+        "effectIdSecond": -1,
+        "effectIdThird": -1,
+        "effectPointType": "Origin",
+        "level": 1,
+        "offsetX": 0.0,
+        "offsetY": -1.5
+      }
+    ],
+    "disappearEffectList": [],
+    "isRefreshSnapshot": true,
+    "firstFrame": 1,
+    "intervalFrame": 1,
+    "dotEffectList": [
+      {
+        "buffId": 10432102,
+        "targetType": "Owner"
+      }
+    ],
+    "bDamageWithLevel": false,
+    "bShowLevel": false,
+    "showLevelInfoId": -1,
+    "sound": -1
   },
   {
     "id": 10432097,
@@ -972481,7 +972549,7 @@
     "isInformalData": false,
     "baseEffect": "OtherEffect",
     "tag": "AkatsukiMake",
-    "formulaStr": "0.1+0.05*AkatsukiHand",
+    "formulaStr": "0.2+0.07*AkatsukiHand",
     "targetPrefix": "tar",
     "customDataList": [
       {
@@ -972496,7 +972564,7 @@
     "isInformalData": false,
     "baseEffect": "OtherEffect",
     "tag": "AkatsukiTake",
-    "formulaStr": "0.1+0.03*AkatsukiDeck",
+    "formulaStr": "0.2+0.05*AkatsukiDeck",
     "targetPrefix": "tar",
     "customDataList": [
       {
@@ -972618,7 +972686,7 @@
         "targetType": "Target"
       },
       {
-        "buffId": 10432104,
+        "buffId": 10432183,
         "targetType": "Target"
       },
       {},
@@ -972797,15 +972865,15 @@
         "targetType": "Target"
       },
       {
+        "buffId": 10432102,
+        "targetType": "Target"
+      },
+      {
         "buffId": 10432108,
         "targetType": "Target"
       },
       {
-        "buffId": 10432112,
-        "targetType": "Target"
-      },
-      {
-        "buffId": 10432107,
+        "buffId": 10432106,
         "targetType": "Target"
       },
       {},
@@ -973216,6 +973284,10 @@
         "targetType": "Target"
       },
       {
+        "buffId": 10432185,
+        "targetType": "Target"
+      },
+      {
         "buffId": 10432135,
         "targetType": "Target"
       },
@@ -973223,6 +973295,7 @@
         "buffId": 10432134,
         "targetType": "Target"
       },
+      {},
       {},
       {},
       {},
@@ -973235,22 +973308,7 @@
     "idCN": "BUFF/00我方/05五星/朱月/B-1/伤害",
     "mod": "伤害",
     "isInformalData": false,
-    "baseEffect": "OtherEffect",
-    "type": "Psychic",
-    "isNotRecord": false,
-    "banCrit": false,
-    "isNoAdditionalAttack": false,
-    "isNormalAttack": false,
-    "isSkillAttack": true,
-    "source": "Atk",
-    "customDataTag": "",
-    "skillSelect": "Default",
-    "skillRateFactorSN": 1080000,
-    "skillRateTag": "A",
-    "isStraightDamage": false,
-    "isIgnoreDefence": false,
-    "skillMultTag": false,
-    "isHitSpakle": false,
+    "battleTagIdList": [],
     "typeTagList": [
       {
         "tagId": 12601827
@@ -973258,7 +973316,33 @@
       {
         "tagId": 12602076
       }
-    ]
+    ],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "type": "Psychic",
+    "isNotShowDamage": false,
+    "isNotRecord": false,
+    "banCrit": false,
+    "isMustCrit": false,
+    "isNoAdditionalAttack": false,
+    "isNormalAttack": false,
+    "isSkillAttack": true,
+    "source": "Atk",
+    "customDataTag": "",
+    "skillSelect": "Default",
+    "skillRateFactorSN": 1080000,
+    "skillRateTag": "AkatsukiDuanxianRate",
+    "isStraightDamage": false,
+    "isIgnoreDefence": false,
+    "skillMultTag": false,
+    "isLeaderSource": false,
+    "shakeXPerFrame": 0.2,
+    "shakeDuration": 2,
+    "setCustomValue": "",
+    "isHitSpakle": true,
+    "critAddBuff": -1,
+    "sound": -1,
+    "isSkillLua": false
   },
   {
     "id": 10432138,
@@ -973268,9 +973352,19 @@
     "baseEffect": "OtherEffect",
     "treeRoot": [
       {
+        "buffId": 10432181,
+        "targetType": "Owner"
+      },
+      {
+        "buffId": 10432182,
+        "targetType": "Target"
+      },
+      {
         "buffId": 10432137,
         "targetType": "Target"
       },
+      {},
+      {},
       {}
     ]
   },
@@ -973308,10 +973402,22 @@
     "idCN": "BUFF/00我方/05五星/朱月/S/伤害",
     "mod": "伤害",
     "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [
+      {
+        "tagId": 12601827
+      },
+      {
+        "tagId": 12602076
+      }
+    ],
     "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
     "type": "Psychic",
+    "isNotShowDamage": false,
     "isNotRecord": false,
     "banCrit": false,
+    "isMustCrit": false,
     "isNoAdditionalAttack": false,
     "isNormalAttack": false,
     "isSkillAttack": true,
@@ -973323,15 +973429,14 @@
     "isStraightDamage": false,
     "isIgnoreDefence": false,
     "skillMultTag": false,
-    "isHitSpakle": false,
-    "typeTagList": [
-      {
-        "tagId": 12601827
-      },
-      {
-        "tagId": 12602076
-      }
-    ]
+    "isLeaderSource": false,
+    "shakeXPerFrame": 0.4,
+    "shakeDuration": 2,
+    "setCustomValue": "",
+    "isHitSpakle": true,
+    "critAddBuff": -1,
+    "sound": -1,
+    "isSkillLua": false
   },
   {
     "id": 10432141,
@@ -974001,17 +974106,17 @@
   },
   {
     "id": 10432170,
-    "idCN": "快乐BUFF树/00我方/05五星/朱月/觉醒2/罪痕期间斩裂触发",
+    "idCN": "快乐BUFF树/00我方/05五星/朱月/觉醒2/斩裂罪痕目标触发裂心",
     "mod": "BUFF树",
     "isInformalData": false,
     "baseEffect": "OtherEffect",
     "treeRoot": [
       {
-        "buffId": 10432169,
-        "targetType": "Owner"
+        "buffId": 10432063,
+        "targetType": "Target"
       },
       {
-        "buffId": 10432168,
+        "buffId": 10432136,
         "targetType": "Target"
       },
       {},
@@ -974260,5 +974365,260 @@
     "judgeBuffId": 10432179,
     "judgeLevel": 99,
     "judgeType": "Less"
+  },
+  {
+    "id": 10432181,
+    "idCN": "BUFF/00我方/05五星/朱月/B-1/读取弃牌区数量",
+    "mod": "记录数据-指定Tag卡牌数量",
+    "isInformalData": false,
+    "baseEffect": "OtherEffect",
+    "tag": "AkatsukiGrave",
+    "isIncludeDeck": false,
+    "isIncludeHand": false,
+    "isIncludeGrave": true,
+    "tagType": "And",
+    "tagList": []
+  },
+  {
+    "id": 10432182,
+    "idCN": "BUFF/00我方/05五星/朱月/B-1/计算弃牌区增伤倍率",
+    "mod": "计算自定义数据",
+    "isInformalData": false,
+    "baseEffect": "OtherEffect",
+    "tag": "AkatsukiDuanxianRate",
+    "formulaStr": "A+B*AkatsukiGrave",
+    "targetPrefix": "tar",
+    "customDataList": [
+      {
+        "customTag": "A"
+      },
+      {
+        "customTag": "B"
+      },
+      {
+        "customTag": "AkatsukiGrave"
+      }
+    ]
+  },
+  {
+    "id": 10432183,
+    "idCN": "BUFF/00我方/05五星/朱月/B-0/纳刀结束销毁断线",
+    "mod": "摧毁指定Tag卡牌",
+    "isInformalData": false,
+    "baseEffect": "OtherEffect",
+    "isIncludeDeck": true,
+    "isIncludeHand": true,
+    "isIncludeGrave": true,
+    "tagList": [
+      {
+        "tagId": 12602236
+      }
+    ],
+    "tagType": "And",
+    "source": "FixedValue",
+    "cardNumRate_SN": 21474836470000,
+    "targetType": "Self",
+    "isRandomMakeUp": false,
+    "hideViewDelay": -1,
+    "destroyViewDelay": -1,
+    "isTempory": false
+  },
+  {
+    "id": 10432184,
+    "idCN": "BUFF/00我方/05五星/朱月/觉醒4/裂心伤害提高50%",
+    "mod": "计算自定义数据",
+    "isInformalData": false,
+    "baseEffect": "OtherEffect",
+    "tag": "AkatsukiLiexinRate",
+    "formulaStr": "AkatsukiLiexinRate*1.5",
+    "targetPrefix": "tar",
+    "customDataList": [
+      {
+        "customTag": "AkatsukiLiexinRate"
+      }
+    ]
+  },
+  {
+    "id": 10432185,
+    "idCN": "快乐BUFF树/00我方/05五星/朱月/觉醒4/纳刀期间裂心增伤",
+    "mod": "BUFF树",
+    "isInformalData": false,
+    "baseEffect": "OtherEffect",
+    "treeRoot": [
+      {
+        "buffId": 10432109,
+        "targetType": "Owner"
+      },
+      {
+        "buffId": 10432116,
+        "targetType": "Owner"
+      },
+      {
+        "buffId": 10432184,
+        "targetType": "Target"
+      },
+      {},
+      {
+        "buffId": 10432050,
+        "targetType": "Target"
+      },
+      {},
+      {},
+      {
+        "buffId": 10432050,
+        "targetType": "Target"
+      },
+      {},
+      {}
+    ]
+  },
+  {
+    "id": 10411329,
+    "idCN": "BUFF/00我方/05五星/朱月/A/受击特效",
+    "mod": "特效",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "effectPointType": "GetHit",
+    "effectId": 11101992,
+    "offsetX": 0.0,
+    "offsetY": 0.0,
+    "isUseSnapshotDirection": false,
+    "sound": -1
+  },
+  {
+    "id": 10411331,
+    "idCN": "BUFF/00我方/05五星/朱月/乌鸦特效/站立",
+    "mod": "持续效果",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "isBindAction": false,
+    "isDispelFightEnd": false,
+    "isNotRecordDamageAsCard": false,
+    "iconUrl": "",
+    "cantBeDispelled": true,
+    "bForever": true,
+    "durationFrame": 1,
+    "recycleDelayFrame": 0,
+    "sourceBase": "FixedValue",
+    "customDataTagBase": "",
+    "buffTypeFO": -1,
+    "overlayType": "NotChange",
+    "sourceList": [],
+    "overlayTimeType": "NotChange",
+    "level": 1,
+    "levelTag": "",
+    "levelMax": 1,
+    "levelMaxTag": "",
+    "maxLevelBuffId": -1,
+    "isSameAttribute": false,
+    "attributeChangeList": [],
+    "baseValue_SN": 10000,
+    "baseRateTag": "",
+    "timeUpEffectList": [],
+    "dispelEffectList": [
+      {
+        "buffId": 10411694,
+        "targetType": "Target"
+      }
+    ],
+    "appearEffectList": [],
+    "buffEffectByLevel": [
+      {
+        "effectIdFirst": 11101825,
+        "effectIdSecond": -1,
+        "effectIdThird": -1,
+        "effectPointType": "Effect",
+        "level": 1,
+        "offsetX": 1.0,
+        "offsetY": 1.5
+      }
+    ],
+    "disappearEffectList": [],
+    "bDamageWithLevel": false,
+    "bShowLevel": false,
+    "showLevelInfoId": -1,
+    "sound": -1
+  },
+  {
+    "id": 10411692,
+    "idCN": "BUFF/00我方/05五星/朱月/乌鸦特效/驱散站立",
+    "mod": "驱散对应buff",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "targetBuffId": 10411331,
+    "dispelTime": 1,
+    "isTriggerDispelEffect": true,
+    "sound": -1
+  },
+  {
+    "id": 10411694,
+    "idCN": "BUFF/00我方/05五星/朱月/乌鸦特效/技能1",
+    "mod": "持续效果",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "isBindAction": false,
+    "isDispelFightEnd": false,
+    "isNotRecordDamageAsCard": false,
+    "iconUrl": "",
+    "cantBeDispelled": true,
+    "bForever": false,
+    "durationFrame": 68,
+    "recycleDelayFrame": 0,
+    "sourceBase": "FixedValue",
+    "customDataTagBase": "",
+    "buffTypeFO": -1,
+    "overlayType": "NotChange",
+    "sourceList": [],
+    "overlayTimeType": "NotChange",
+    "level": 1,
+    "levelTag": "",
+    "levelMax": 1,
+    "levelMaxTag": "",
+    "maxLevelBuffId": -1,
+    "isSameAttribute": false,
+    "attributeChangeList": [],
+    "baseValue_SN": 10000,
+    "baseRateTag": "",
+    "timeUpEffectList": [
+      {
+        "buffId": 10411331,
+        "targetType": "Target"
+      }
+    ],
+    "dispelEffectList": [
+      {
+        "buffId": 10411331,
+        "targetType": "Target"
+      }
+    ],
+    "appearEffectList": [],
+    "buffEffectByLevel": [
+      {
+        "effectIdFirst": 11101826,
+        "effectIdSecond": -1,
+        "effectIdThird": -1,
+        "effectPointType": "Effect",
+        "level": 1,
+        "offsetX": 1.0,
+        "offsetY": 1.5
+      }
+    ],
+    "disappearEffectList": [],
+    "bDamageWithLevel": false,
+    "bShowLevel": false,
+    "showLevelInfoId": -1,
+    "sound": -1
   }
 ]
