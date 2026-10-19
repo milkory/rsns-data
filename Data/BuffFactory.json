@@ -972071,7 +972071,7 @@
     "isInformalData": false,
     "baseEffect": "OtherEffect",
     "tag": "AkatsukiZuihenRate",
-    "formulaStr": "10*(1+AkatsukiZuihenUp)",
+    "formulaStr": "18*(1+AkatsukiZuihenUp)",
     "targetPrefix": "tar",
     "customDataList": [
       {
@@ -972094,7 +972094,7 @@
     "source": "Atk",
     "customDataTag": "",
     "skillSelect": "Default",
-    "skillRateFactorSN": 100000,
+    "skillRateFactorSN": 180000,
     "skillRateTag": "AkatsukiZuihenRate",
     "isStraightDamage": false,
     "isIgnoreDefence": false,
@@ -972737,12 +972737,12 @@
   },
   {
     "id": 10432108,
-    "idCN": "BUFF/00我方/05五星/朱月/队长技/纳刀冷却缩短6秒",
+    "idCN": "BUFF/00我方/05五星/朱月/队长技/纳刀冷却缩短9秒",
     "mod": "指定队长技充能",
     "isInformalData": false,
     "baseEffect": "OtherEffect",
     "leaderId": 10800136,
-    "progress": 6
+    "progress": 9
   },
   {
     "id": 10432109,
@@ -973391,6 +973391,11 @@
         "buffId": 10432136,
         "targetType": "Target"
       },
+      {
+        "buffId": 10432186,
+        "targetType": "Target"
+      },
+      {},
       {},
       {},
       {},
@@ -974470,6 +974475,27 @@
       },
       {},
       {}
+    ]
+  },
+  {
+    "id": 10432186,
+    "idCN": "BUFF/00我方/05五星/朱月/B-1/按弃牌区数量附加罪痕",
+    "mod": "带帧事件",
+    "isInformalData": false,
+    "baseEffect": "OtherEffect",
+    "frameEventList": [
+      {
+        "frameEventId": 10503874,
+        "x_SN": 0,
+        "y_SN": 0,
+        "wHalf_SN": 0,
+        "hHalf_SN": 0,
+        "isUseTargetPosition": true,
+        "isUseCardViewPosition": false,
+        "timesSource": "CustomData",
+        "customDataTag": "AkatsukiGrave",
+        "excuteTimes": 10000
+      }
     ]
   },
   {
