@@ -72120,7 +72120,7 @@
     "baseEffect": "OtherEffect",
     "isNotChangePos": false,
     "tag": "finalZhanLieDmg",
-    "formulaStr": "200*(1-tarZhanLieDR)*(1-RE)*(1+ZhanLieDmgRate)*(finalATK/startATK)*(finalATK/startATK)*(1+tarGetZhanLieDmgRate+DongJieDmgRate)*(1+MakeZhanLieDmgRate)",
+    "formulaStr": "250*(1-tarZhanLieDR)*(1-RE)*(1+ZhanLieDmgRate)*(finalATK/startATK)*(finalATK/startATK)*(1+tarGetZhanLieDmgRate+DongJieDmgRate)*(1+MakeZhanLieDmgRate)",
     "targetPrefix": "tar",
     "customDataList": [
       {
@@ -72852,7 +72852,7 @@
     "baseEffect": "OtherEffect",
     "isNotChangePos": false,
     "tag": "finalSiLieDmg",
-    "formulaStr": "20*(1-tarSiLieDR)*(1-RE)*(1+SiLieDmgRate)*(1+tarGetSiLieDmgRate)*(1+MakeSiLieDmgRate)",
+    "formulaStr": "25*(1-tarSiLieDR)*(1-RE)*(1+SiLieDmgRate)*(1+tarGetSiLieDmgRate)*(1+MakeSiLieDmgRate)",
     "targetPrefix": "tar",
     "customDataList": [
       {
@@ -418961,7 +418961,7 @@
     "baseEffect": "OtherEffect",
     "isNotChangePos": false,
     "tag": "finalShiMieTeamDmg",
-    "formulaStr": "300*(ShiMieTeamAtkAvg/ShiMieTeamOriginalAtkAvg)*(ShiMieTeamAtkAvg/ShiMieTeamOriginalAtkAvg)*(1-tarShiMieDR)*(1+ShiMieDmgRate)",
+    "formulaStr": "400*(ShiMieTeamAtkAvg/ShiMieTeamOriginalAtkAvg)*(ShiMieTeamAtkAvg/ShiMieTeamOriginalAtkAvg)*(1-tarShiMieDR)*(1+ShiMieDmgRate)",
     "targetPrefix": "tar",
     "customDataList": [
       {
@@ -435247,7 +435247,7 @@
     "baseEffect": "OtherEffect",
     "isNotChangePos": false,
     "tag": "finalShiMieDmg",
-    "formulaStr": "300*(ShiMieAtk/ShiMieOriginalAtk)*(ShiMieAtk/ShiMieOriginalAtk)*(1+ShiMieDmgRate)*(1-tarShiMieDR)",
+    "formulaStr": "400*(ShiMieAtk/ShiMieOriginalAtk)*(ShiMieAtk/ShiMieOriginalAtk)*(1+ShiMieDmgRate)*(1-tarShiMieDR)",
     "targetPrefix": "tar",
     "customDataList": [
       {
@@ -449099,7 +449099,7 @@
     "baseEffect": "OtherEffect",
     "isNotChangePos": false,
     "tag": "finalCorrosionDmg",
-    "formulaStr": "300*(finalATK/startATK)*(finalATK/startATK)*(1+CorrosionDmgRate)*(1-tarCorrosionDR)",
+    "formulaStr": "400*(finalATK/startATK)*(finalATK/startATK)*(1+CorrosionDmgRate)*(1-tarCorrosionDR)",
     "targetPrefix": "tar",
     "customDataList": [
       {
@@ -970605,8 +970605,16 @@
     "id": 10432008,
     "idCN": "快乐BUFF树/00我方/05五星/亚莉奈·危情/撕心/单段伤害与精神特殊效果触发",
     "mod": "BUFF树",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
     "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
     "treeRoot": [
+      {
+        "buffId": 10411710,
+        "targetType": "Target"
+      },
       {
         "buffId": 10432007,
         "targetType": "Target"
@@ -970616,8 +970624,10 @@
         "targetType": "Target"
       },
       {},
+      {},
       {}
-    ]
+    ],
+    "sound": -1
   },
   {
     "id": 10432013,
@@ -971755,7 +971765,7 @@
   {
     "id": 10432061,
     "idCN": "BUFF/00我方/05五星/朱月/觉醒4/幻羽解锁",
-    "mod": "持续效果",
+    "mod": "周期效果",
     "isInformalData": false,
     "baseEffect": "OtherEffect",
     "cantBeDispelled": true,
@@ -971769,7 +971779,22 @@
     "isSameAttribute": false,
     "baseValue_SN": 10000,
     "bShowLevel": false,
-    "recycleDelayFrame": 0
+    "isRefreshSnapshot": true,
+    "firstFrame": 1,
+    "intervalFrame": 1,
+    "dotEffectList": [
+      {
+        "buffId": 10432185,
+        "targetType": "Owner"
+      }
+    ],
+    "bDamageWithLevel": false,
+    "dispelEffectList": [
+      {
+        "buffId": 10432107,
+        "targetType": "Owner"
+      }
+    ]
   },
   {
     "id": 10432062,
@@ -972101,6 +972126,9 @@
     "skillMultTag": false,
     "isHitSpakle": false,
     "typeTagList": [
+      {
+        "tagId": 12602233
+      },
       {
         "tagId": 12601827
       },
@@ -972666,13 +972694,27 @@
   },
   {
     "id": 10432104,
-    "idCN": "BUFF/00我方/05五星/朱月/觉醒4/移除紫卡光环",
-    "mod": "驱散对应buff",
+    "idCN": "BUFF/00我方/05五星/朱月/觉醒4/检索场上全部目标",
+    "mod": "替换目标列表",
     "isInformalData": false,
     "baseEffect": "OtherEffect",
-    "targetBuffId": 10432111,
-    "dispelTime": 2147483647,
-    "isTriggerDispelEffect": true
+    "targetType": "Every",
+    "targetTagList": [],
+    "halfWidth_SN": 240000,
+    "attributeType": "HpMax",
+    "condition": "All",
+    "numberType": "Number",
+    "number_SN": 0,
+    "filterBuffTypeFO": -1,
+    "filterBuffFO": -1,
+    "filterBuffJudgeType": "Greater",
+    "filterBuffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 99,
+    "isRandom": false,
+    "isForce": true
   },
   {
     "id": 10432105,
@@ -972695,7 +972737,7 @@
   },
   {
     "id": 10432106,
-    "idCN": "BUFF/00我方/05五星/朱月/B-0/生成断线",
+    "idCN": "BUFF/00我方/05五星/朱月/B-0/生成断空",
     "mod": "印卡继承技能等级",
     "isInformalData": false,
     "baseEffect": "OtherEffect",
@@ -972711,29 +972753,13 @@
   },
   {
     "id": 10432107,
-    "idCN": "BUFF/00我方/05五星/朱月/B-0/3秒后生成断线",
-    "mod": "持续效果",
+    "idCN": "BUFF/00我方/05五星/朱月/觉醒4/移除全队紫卡光环",
+    "mod": "驱散对应buff",
     "isInformalData": false,
     "baseEffect": "OtherEffect",
-    "cantBeDispelled": true,
-    "bForever": false,
-    "durationFrame": 180,
-    "sourceBase": "FixedValue",
-    "overlayType": "UseNew",
-    "overlayTimeType": "NotChange",
-    "level": 1,
-    "levelMax": 1,
-    "isSameAttribute": false,
-    "baseValue_SN": 10000,
-    "bShowLevel": false,
-    "recycleDelayFrame": 0,
-    "buffTypeFO": 13000028,
-    "timeUpEffectList": [
-      {
-        "buffId": 10432106,
-        "targetType": "Owner"
-      }
-    ]
+    "targetBuffId": 10432111,
+    "dispelTime": 2147483647,
+    "isTriggerDispelEffect": true
   },
   {
     "id": 10432108,
@@ -972756,7 +972782,7 @@
   },
   {
     "id": 10432110,
-    "idCN": "BUFF/00我方/05五星/朱月/觉醒4/紫卡最终伤害提高50%",
+    "idCN": "BUFF/00我方/05五星/朱月/觉醒4/按罪痕层数提高紫卡最终伤害",
     "mod": "持续效果",
     "isInformalData": false,
     "baseEffect": "OtherEffect",
@@ -972767,7 +972793,8 @@
     "overlayType": "NotChange",
     "overlayTimeType": "NotChange",
     "level": 1,
-    "levelMax": 1,
+    "levelTag": "AkatsukiPurpleLevel",
+    "levelMax": 4,
     "isSameAttribute": false,
     "baseValue_SN": 10000,
     "bShowLevel": false,
@@ -972779,7 +972806,31 @@
         "numberType": "Percent",
         "rateTag": "",
         "skillSelect": "Default",
+        "value_SN": 0
+      },
+      {
+        "attributeType": "MakeDamageFinalUp",
+        "level": 2,
+        "numberType": "Percent",
+        "rateTag": "",
+        "skillSelect": "Default",
         "value_SN": 5000
+      },
+      {
+        "attributeType": "MakeDamageFinalUp",
+        "level": 3,
+        "numberType": "Percent",
+        "rateTag": "",
+        "skillSelect": "Default",
+        "value_SN": 10000
+      },
+      {
+        "attributeType": "MakeDamageFinalUp",
+        "level": 4,
+        "numberType": "Percent",
+        "rateTag": "",
+        "skillSelect": "Default",
+        "value_SN": 15000
       }
     ]
   },
@@ -972815,27 +972866,12 @@
   },
   {
     "id": 10432112,
-    "idCN": "快乐BUFF树/00我方/05五星/朱月/觉醒4/纳刀期间开启紫卡光环",
-    "mod": "BUFF树",
+    "idCN": "BUFF/00我方/05五星/朱月/觉醒4/记录场上罪痕总层数",
+    "mod": "记录数据-所有目标Buff层数之和",
     "isInformalData": false,
     "baseEffect": "OtherEffect",
-    "treeRoot": [
-      {
-        "buffId": 10432109,
-        "targetType": "Target"
-      },
-      {
-        "buffId": 10432111,
-        "targetType": "Target"
-      },
-      {},
-      {
-        "buffId": 10432050,
-        "targetType": "Target"
-      },
-      {},
-      {}
-    ]
+    "tag": "AkatsukiFieldSin",
+    "buffFO": 10432179
   },
   {
     "id": 10432113,
@@ -972942,9 +972978,13 @@
     "isInformalData": false,
     "baseEffect": "OtherEffect",
     "tag": "AkatsukiLiexinRate",
-    "formulaStr": "54",
+    "formulaStr": "54*(1+AkatsukiZuihenUp)",
     "targetPrefix": "tar",
-    "customDataList": []
+    "customDataList": [
+      {
+        "customTag": "AkatsukiZuihenUp"
+      }
+    ]
   },
   {
     "id": 10432119,
@@ -972963,9 +973003,13 @@
     "isInformalData": false,
     "baseEffect": "OtherEffect",
     "tag": "AkatsukiLiexinRate",
-    "formulaStr": "108",
+    "formulaStr": "108*(1+AkatsukiZuihenUp)",
     "targetPrefix": "tar",
-    "customDataList": []
+    "customDataList": [
+      {
+        "customTag": "AkatsukiZuihenUp"
+      }
+    ]
   },
   {
     "id": 10432121,
@@ -972984,9 +973028,13 @@
     "isInformalData": false,
     "baseEffect": "OtherEffect",
     "tag": "AkatsukiLiexinRate",
-    "formulaStr": "216",
+    "formulaStr": "216*(1+AkatsukiZuihenUp)",
     "targetPrefix": "tar",
-    "customDataList": []
+    "customDataList": [
+      {
+        "customTag": "AkatsukiZuihenUp"
+      }
+    ]
   },
   {
     "id": 10432123,
@@ -972995,9 +973043,13 @@
     "isInformalData": false,
     "baseEffect": "OtherEffect",
     "tag": "AkatsukiLiexinRate",
-    "formulaStr": "432",
+    "formulaStr": "432*(1+AkatsukiZuihenUp)",
     "targetPrefix": "tar",
-    "customDataList": []
+    "customDataList": [
+      {
+        "customTag": "AkatsukiZuihenUp"
+      }
+    ]
   },
   {
     "id": 10432124,
@@ -973177,44 +973229,27 @@
   },
   {
     "id": 10432132,
-    "idCN": "BUFF/00我方/05五星/朱月/觉醒5/判断长夜期间",
+    "idCN": "BUFF/00我方/05五星/朱月/觉醒2/判断血夜解锁",
     "mod": "判断Buff列表",
     "isInformalData": false,
     "baseEffect": "OtherEffect",
     "compareType": "Equal",
-    "num": 2,
+    "num": 1,
     "buffList": [
       {
-        "buffId": 10432062
-      },
-      {
-        "buffId": 10432096
+        "buffId": 10432171
       }
     ]
   },
   {
     "id": 10432133,
-    "idCN": "快乐BUFF树/00我方/05五星/朱月/裂心/状态结束后恢复三档",
-    "mod": "BUFF树",
+    "idCN": "BUFF/00我方/05五星/朱月/觉醒1/判断砥刃解锁",
+    "mod": "判断层级",
     "isInformalData": false,
     "baseEffect": "OtherEffect",
-    "treeRoot": [
-      {
-        "buffId": 10432132,
-        "targetType": "Owner"
-      },
-      {
-        "buffId": 10432050,
-        "targetType": "Target"
-      },
-      {},
-      {
-        "buffId": 10432130,
-        "targetType": "Target"
-      },
-      {},
-      {}
-    ]
+    "judgeBuffId": 10432166,
+    "judgeLevel": 0,
+    "judgeType": "Greater"
   },
   {
     "id": 10432134,
@@ -973245,8 +973280,15 @@
     "idCN": "快乐BUFF树/00我方/05五星/朱月/裂心/伤害与特殊效果触发",
     "mod": "BUFF树",
     "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
     "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
     "treeRoot": [
+      {
+        "buffId": 10411786,
+        "targetType": "Target"
+      },
       {
         "buffId": 10432124,
         "targetType": "Target"
@@ -973261,8 +973303,10 @@
       },
       {},
       {},
+      {},
       {}
-    ]
+    ],
+    "sound": -1
   },
   {
     "id": 10432136,
@@ -973272,19 +973316,11 @@
     "baseEffect": "OtherEffect",
     "treeRoot": [
       {
-        "buffId": 10432133,
-        "targetType": "Target"
-      },
-      {
         "buffId": 10432114,
         "targetType": "Target"
       },
       {
         "buffId": 10432127,
-        "targetType": "Target"
-      },
-      {
-        "buffId": 10432185,
         "targetType": "Target"
       },
       {
@@ -973295,8 +973331,6 @@
         "buffId": 10432134,
         "targetType": "Target"
       },
-      {},
-      {},
       {},
       {},
       {},
@@ -973599,11 +973633,11 @@
     "baseEffect": "OtherEffect",
     "treeRoot": [
       {
-        "buffId": 10432147,
+        "buffId": 10432148,
         "targetType": "Target"
       },
       {
-        "buffId": 10432148,
+        "buffId": 10432150,
         "targetType": "Target"
       },
       {},
@@ -973630,7 +973664,7 @@
     "recycleDelayFrame": 0,
     "timeUpEffectList": [
       {
-        "buffId": 10432149,
+        "buffId": 10432147,
         "targetType": "Owner"
       }
     ]
@@ -974068,27 +974102,28 @@
   },
   {
     "id": 10432167,
-    "idCN": "BUFF/00我方/05五星/朱月/觉醒2/裂心10%概率",
-    "mod": "判断概率",
+    "idCN": "BUFF/00我方/05五星/朱月/共振1/判断栖肩解锁",
+    "mod": "判断层级",
     "isInformalData": false,
     "baseEffect": "OtherEffect",
-    "judgeRate_SN": 1000,
-    "luckType": "Default"
+    "judgeBuffId": 10432148,
+    "judgeLevel": 0,
+    "judgeType": "Greater"
   },
   {
     "id": 10432168,
-    "idCN": "快乐BUFF树/00我方/05五星/朱月/觉醒2/斩裂概率触发裂心",
+    "idCN": "快乐BUFF树/00我方/05五星/朱月/共振1/获得鸦指回复费用",
     "mod": "BUFF树",
     "isInformalData": false,
     "baseEffect": "OtherEffect",
     "treeRoot": [
       {
         "buffId": 10432167,
-        "targetType": "Target"
+        "targetType": "Owner"
       },
       {
-        "buffId": 10432136,
-        "targetType": "Target"
+        "buffId": 10400048,
+        "targetType": "Owner"
       },
       {},
       {
@@ -974407,7 +974442,7 @@
   },
   {
     "id": 10432183,
-    "idCN": "BUFF/00我方/05五星/朱月/B-0/纳刀结束销毁断线",
+    "idCN": "BUFF/00我方/05五星/朱月/B-0/纳刀结束销毁断空",
     "mod": "摧毁指定Tag卡牌",
     "isInformalData": false,
     "baseEffect": "OtherEffect",
@@ -974430,22 +974465,22 @@
   },
   {
     "id": 10432184,
-    "idCN": "BUFF/00我方/05五星/朱月/觉醒4/裂心伤害提高50%",
+    "idCN": "BUFF/00我方/05五星/朱月/觉醒4/计算紫卡增伤档位",
     "mod": "计算自定义数据",
     "isInformalData": false,
     "baseEffect": "OtherEffect",
-    "tag": "AkatsukiLiexinRate",
-    "formulaStr": "AkatsukiLiexinRate*1.5",
+    "tag": "AkatsukiPurpleLevel",
+    "formulaStr": "1+AkatsukiFieldSin",
     "targetPrefix": "tar",
     "customDataList": [
       {
-        "customTag": "AkatsukiLiexinRate"
+        "customTag": "AkatsukiFieldSin"
       }
     ]
   },
   {
     "id": 10432185,
-    "idCN": "快乐BUFF树/00我方/05五星/朱月/觉醒4/纳刀期间裂心增伤",
+    "idCN": "快乐BUFF树/00我方/05五星/朱月/觉醒4/统计罪痕增伤",
     "mod": "BUFF树",
     "isInformalData": false,
     "baseEffect": "OtherEffect",
@@ -974455,18 +974490,28 @@
         "targetType": "Owner"
       },
       {
-        "buffId": 10432116,
+        "buffId": 10432104,
+        "targetType": "Owner"
+      },
+      {
+        "buffId": 10432112,
         "targetType": "Owner"
       },
       {
         "buffId": 10432184,
-        "targetType": "Target"
+        "targetType": "Owner"
+      },
+      {
+        "buffId": 10432107,
+        "targetType": "Owner"
+      },
+      {
+        "buffId": 10432111,
+        "targetType": "Owner"
       },
       {},
-      {
-        "buffId": 10432050,
-        "targetType": "Target"
-      },
+      {},
+      {},
       {},
       {},
       {
@@ -974479,7 +974524,7 @@
   },
   {
     "id": 10432186,
-    "idCN": "BUFF/00我方/05五星/朱月/B-1/按弃牌区数量附加罪痕",
+    "idCN": "BUFF/00我方/05五星/朱月/B-1/附加3层罪痕",
     "mod": "带帧事件",
     "isInformalData": false,
     "baseEffect": "OtherEffect",
@@ -974492,9 +974537,9 @@
         "hHalf_SN": 0,
         "isUseTargetPosition": true,
         "isUseCardViewPosition": false,
-        "timesSource": "CustomData",
-        "customDataTag": "AkatsukiGrave",
-        "excuteTimes": 10000
+        "timesSource": "FixedValue",
+        "customDataTag": "",
+        "excuteTimes": 30000
       }
     ]
   },
@@ -974645,6 +974690,353 @@
     "bDamageWithLevel": false,
     "bShowLevel": false,
     "showLevelInfoId": -1,
+    "sound": -1
+  },
+  {
+    "id": 10411710,
+    "idCN": "BUFF/00我方/05五星/亚莉奈·危情/撕心/受击特效",
+    "mod": "特效",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "effectPointType": "GetHit",
+    "effectId": 11101857,
+    "offsetX": 0.0,
+    "offsetY": 0.0,
+    "isUseSnapshotDirection": false,
+    "sound": -1
+  },
+  {
+    "id": 10411786,
+    "idCN": "BUFF/00我方/05五星/朱月/裂心/受击特效",
+    "mod": "特效",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "effectPointType": "GetHit",
+    "effectId": 11101827,
+    "offsetX": 0.0,
+    "offsetY": 0.0,
+    "isUseSnapshotDirection": false,
+    "sound": -1
+  },
+  {
+    "id": 10432187,
+    "idCN": "BUFF/00我方/05五星/朱月/觉醒1/裂心每段伤害练功",
+    "mod": "额外附加buff-指定伤害buff",
+    "isInformalData": false,
+    "baseEffect": "OtherEffect",
+    "cantBeDispelled": true,
+    "bForever": true,
+    "durationFrame": 1,
+    "sourceBase": "FixedValue",
+    "overlayType": "NotChange",
+    "overlayTimeType": "NotChange",
+    "level": 1,
+    "levelMax": 1,
+    "isSameAttribute": false,
+    "baseValue_SN": 10000,
+    "bShowLevel": false,
+    "buffId": 10432188,
+    "cooldownFrame": 0,
+    "isRefreshSnapshot": true,
+    "snapshotSource": 1,
+    "targetBuffId": -1,
+    "targetTagList": [
+      {
+        "tagId": 12602234
+      }
+    ],
+    "toDamageSource": true,
+    "onlyFromSelf": true,
+    "onlyFromTarget": false,
+    "onlyToSelf": false,
+    "onlyToTarget": false,
+    "excuteBeforeDamage": 2,
+    "isCumulativeTrigger": false,
+    "tag": "",
+    "overflowTag": "",
+    "judgeType": "And",
+    "targetSN": 0,
+    "isPercent": false
+  },
+  {
+    "id": 10432188,
+    "idCN": "快乐BUFF树/00我方/05五星/朱月/觉醒1/裂心三层练功",
+    "mod": "BUFF树",
+    "isInformalData": false,
+    "baseEffect": "OtherEffect",
+    "treeRoot": [
+      {
+        "buffId": 10432165,
+        "targetType": "Owner"
+      },
+      {
+        "buffId": 10432165,
+        "targetType": "Owner"
+      },
+      {
+        "buffId": 10432165,
+        "targetType": "Owner"
+      },
+      {},
+      {},
+      {}
+    ]
+  },
+  {
+    "id": 10432189,
+    "idCN": "快乐BUFF树/00我方/05五星/朱月/觉醒1/砥刃",
+    "mod": "BUFF树",
+    "isInformalData": false,
+    "baseEffect": "OtherEffect",
+    "treeRoot": [
+      {
+        "buffId": 10432166,
+        "targetType": "Owner"
+      },
+      {
+        "buffId": 10432187,
+        "targetType": "Owner"
+      },
+      {},
+      {}
+    ]
+  },
+  {
+    "id": 10432190,
+    "idCN": "快乐BUFF树/00我方/05五星/沙罗/普攻1",
+    "mod": "BUFF树",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "treeRoot": [
+      {
+        "buffId": 10432191,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432192,
+        "targetType": "Target"
+      }
+    ],
+    "sound": -1
+  },
+  {
+    "id": 10432191,
+    "idCN": "BUFF/00我方/05五星/沙罗/普攻1伤害",
+    "mod": "伤害",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [
+      {
+        "tagId": 12601827
+      },
+      {
+        "tagId": 12601833
+      }
+    ],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "type": "Physic",
+    "isNotShowDamage": false,
+    "isNotRecord": false,
+    "banCrit": false,
+    "isMustCrit": false,
+    "isNoAdditionalAttack": false,
+    "isNormalAttack": false,
+    "isSkillAttack": false,
+    "source": "Atk",
+    "customDataTag": "",
+    "skillSelect": "Default",
+    "skillRateFactorSN": 20000,
+    "skillRateTag": "",
+    "isStraightDamage": false,
+    "isIgnoreDefence": false,
+    "skillMultTag": false,
+    "isLeaderSource": false,
+    "shakeXPerFrame": 0.0,
+    "shakeDuration": 0,
+    "setCustomValue": "",
+    "isHitSpakle": false,
+    "sound": -1,
+    "isSkillLua": false
+  },
+  {
+    "id": 10432192,
+    "idCN": "BUFF/00我方/05五星/沙罗/普攻1受击特效",
+    "mod": "特效",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "effectPointType": "GetHit",
+    "effectId": 11108680,
+    "offsetX": 0.0,
+    "offsetY": 0.0,
+    "isUseSnapshotDirection": false,
+    "sound": -1
+  },
+  {
+    "id": 10432193,
+    "idCN": "快乐BUFF树/00我方/05五星/蕾克/普攻1",
+    "mod": "BUFF树",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "treeRoot": [
+      {
+        "buffId": 10432194,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432195,
+        "targetType": "Target"
+      }
+    ],
+    "sound": -1
+  },
+  {
+    "id": 10432194,
+    "idCN": "BUFF/00我方/05五星/蕾克/普攻1伤害",
+    "mod": "伤害",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [
+      {
+        "tagId": 12601827
+      },
+      {
+        "tagId": 12601833
+      }
+    ],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "type": "Physic",
+    "isNotShowDamage": false,
+    "isNotRecord": false,
+    "banCrit": false,
+    "isMustCrit": false,
+    "isNoAdditionalAttack": false,
+    "isNormalAttack": false,
+    "isSkillAttack": false,
+    "source": "Atk",
+    "customDataTag": "",
+    "skillSelect": "Default",
+    "skillRateFactorSN": 20000,
+    "skillRateTag": "",
+    "isStraightDamage": false,
+    "isIgnoreDefence": false,
+    "skillMultTag": false,
+    "isLeaderSource": false,
+    "shakeXPerFrame": 0.0,
+    "shakeDuration": 0,
+    "setCustomValue": "",
+    "isHitSpakle": false,
+    "critAddBuff": -1,
+    "sound": -1,
+    "isSkillLua": false
+  },
+  {
+    "id": 10432195,
+    "idCN": "BUFF/00我方/05五星/蕾克/普攻1受击特效",
+    "mod": "特效",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "effectPointType": "GetHit",
+    "effectId": 11101971,
+    "offsetX": 0.0,
+    "offsetY": 0.0,
+    "isUseSnapshotDirection": false,
+    "sound": -1
+  },
+  {
+    "id": 10432196,
+    "idCN": "快乐BUFF树/00我方/05五星/爱丽丝/普攻1",
+    "mod": "BUFF树",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "treeRoot": [
+      {
+        "buffId": 10432197,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432198,
+        "targetType": "Target"
+      }
+    ],
+    "sound": -1
+  },
+  {
+    "id": 10432197,
+    "idCN": "BUFF/00我方/05五星/爱丽丝/普攻1伤害",
+    "mod": "伤害",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [
+      {
+        "tagId": 12601827
+      },
+      {
+        "tagId": 12601833
+      }
+    ],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "type": "Physic",
+    "isNotShowDamage": false,
+    "isNotRecord": false,
+    "banCrit": false,
+    "isMustCrit": false,
+    "isNoAdditionalAttack": false,
+    "isNormalAttack": false,
+    "isSkillAttack": false,
+    "source": "Atk",
+    "customDataTag": "",
+    "skillSelect": "Default",
+    "skillRateFactorSN": 20000,
+    "skillRateTag": "",
+    "isStraightDamage": false,
+    "isIgnoreDefence": false,
+    "skillMultTag": false,
+    "isLeaderSource": false,
+    "shakeXPerFrame": 0.0,
+    "shakeDuration": 0,
+    "setCustomValue": "",
+    "isHitSpakle": false,
+    "sound": -1,
+    "isSkillLua": false
+  },
+  {
+    "id": 10432198,
+    "idCN": "BUFF/00我方/05五星/爱丽丝/普攻1受击特效",
+    "mod": "特效",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "effectPointType": "GetHit",
+    "effectId": 11101997,
+    "offsetX": 0.0,
+    "offsetY": 0.0,
+    "isUseSnapshotDirection": false,
     "sound": -1
   }
 ]
