@@ -2743,5 +2743,18 @@
     "returnType": "int",
     "script": "main:\n    getc CBus Instance\n    cgf GetManager \"BattleControlManager\"\n    getp curGSBuff\n    set $curBuff\n    getp target\n    set $target\n    get $curBuff\n    getp owner\n    set $owner\n    get $curBuff\n    getp snapshot\n    set $snapshot\n    get $snapshot\n    getp targetCard\n    if\n        getp cardProperty\n        if\n            getp isLeaderCard\n            if\n                ret 2\n            endif\n            ret 1\n        endif\n    endif\n    ret 2",
     "cacheAsGMF": true
+  },
+  {
+    "id": 60000203,
+    "idCN": "卡牌/默认条件/卡牌费用可使用",
+    "mod": "执行GS脚本",
+    "isInformalData": false,
+    "debug": false,
+    "autoRecycle": false,
+    "memo": "见产品名称",
+    "paramHelp": "",
+    "returnType": "bool",
+    "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rgetp currentCore\rset $core\r\rif\r\tget $core currentCard\r\tset $card\r\tif\r\t\tgetp cardProperty\r\t\tset $property\r\t\tif\r\t\t\tcallWith $property GetCostSN $true $false\r            set $cost\r            get $core teamData\r            set $teamData\r            \r            get $teamData CostMax_SN\r            set $costMax\r            if $cost le $costMax\r                ret $true\r            endif\r\r            get $teamData Cost_SN\r            set $costTeam\r            if $cost le $costTeam\r                ret $true\r            endif\r\t\tendif\r\tendif\rendif\r\rret $false",
+    "cacheAsGMF": true
   }
 ]
