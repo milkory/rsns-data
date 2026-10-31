@@ -58806,13 +58806,14 @@
     "g": 255,
     "b": 255,
     "a": 255,
+    "characterId": -1,
     "effectScale": 1.0,
     "gachaVoice": 30002080,
     "mainUIVoice": 30002081,
-    "face": "RolePlus/Hayabusa/type2/Face",
-    "gacha": "RolePlus/Hayabusa/type2/Gacha",
-    "resUrl": "RolePlus/Hayabusa/type2/Full2",
-    "roleListResUrl": "RolePlus/Hayabusa/type2/Half",
+    "face": "RolePlus/Hayabusa/type3/Face",
+    "gacha": "RolePlus/Hayabusa/type3/Gacha",
+    "resUrl": "RolePlus/Hayabusa/type3/Full",
+    "roleListResUrl": "RolePlus/Hayabusa/type3/Half",
     "spineUrl": "Spine/Portrait/LH_Hayabusa_Asuka/LH_Hayabusa_Asuka_SkeletonData",
     "clickEffectUrl": "",
     "plotResList": [
@@ -58828,10 +58829,12 @@
     "SkinName": "片羽",
     "quality": "Golden",
     "ownExclusiveVoice": false,
-    "isSpine2": 1,
+    "isSpine2": 0,
+    "gachaVideoUzl": "",
     "SkinDesc": "隼的变装之一，“飞鸟”的样子。若无法飞翔，不如将其羽翼折毁——这是他的真心话吗？",
     "HomeresDir": "Home/Character/Dorm_Hayabusa_Asuka/Dorm_Hayabusa_Asuka_SkeletonData",
-    "singleUrl": "RolePlus/Hayabusa/type2/Full",
+    "HomeresDir2": "",
+    "singleUrl": "",
     "offsetX": 9.7,
     "offsetY": -304.0,
     "offsetScale": 1.0,
@@ -58844,7 +58847,7 @@
     "spineX": 0.0,
     "spineY": 0.0,
     "spineScale": 1.0,
-    "squadsHalf1": "RolePlus/Hayabusa/type2/Squads_Half1",
+    "squadsHalf1": "RolePlus/Hayabusa/type3/Formation",
     "extraSpineList": [],
     "clickEffectLayer": "Front",
     "frontFixEffectUrl": "",
@@ -58854,15 +58857,15 @@
     "SpineBGX": 0.0,
     "SpineBGY": 0.0,
     "SpineBGScale": 0.01,
-    "State2Name": "共振形态",
-    "State2Desc": "隼的共振形态",
-    "State2Face": "RolePlus/Hayabusa/State2_Face",
-    "State2Gacha": "RolePlus/Hayabusa/State2_Gacha",
-    "State2Res": "RolePlus/Hayabusa/State2_Full",
-    "State2RoleListRes": "RolePlus/Hayabusa/State2_Half",
-    "squadsHalf2": "RolePlus/Hayabusa/Squads_Half2",
-    "gachaSpine2Url": "Spine/Portrait/LH_Hayabusa_sp/LH_Hayabusa_sp_SkeletonData",
-    "spine2Url": "RoleU3D/LH_Hayabusa_sp/LH_Hayabusa_sp",
+    "State2Name": "",
+    "State2Desc": "",
+    "State2Face": "",
+    "State2Gacha": "",
+    "State2Res": "",
+    "State2RoleListRes": "",
+    "squadsHalf2": "",
+    "gachaSpine2Url": "",
+    "spine2Url": "",
     "gachaPerformUrl": "",
     "spine2EffectUrl": "",
     "spine2BgUrl": "",
@@ -58888,7 +58891,18 @@
     "bookY": 0.0,
     "homeSkill": -1,
     "SpineIdleListId": -1,
-    "extraClickAnimationList": []
+    "extraClickAnimationList": [],
+    "Getway": [],
+    "videoSpine": false,
+    "moveBoolen": false,
+    "pngFemale": "",
+    "singleFemale": "",
+    "spineFemale": "",
+    "videoFemale": "",
+    "videoPath": "",
+    "videoX": 0.0,
+    "videoY": 0.0,
+    "videoScale": 0.0
   },
   {
     "id": 11000592,
@@ -88565,7 +88579,7 @@
     "hpBarOffsetY": 3.0,
     "battleTagOffsetX": 0.0,
     "battleTagOffsetY": 3.0,
-    "resDir": "Role/redhood/redhood_SkeletonData",
+    "resDir": "Role/RedHood/RedHood_SkeletonData",
     "shadowID": 11100346,
     "shadowScale": 0.5,
     "userSpecialShadow": false,
@@ -89033,16 +89047,16 @@
     "plotResList": [],
     "exchangeEffectList": [
       {
-        "effectId": 11108833,
-        "changeEffectId": 11102022
+        "changeEffectId": 11102022,
+        "effectId": 11108833
       },
       {
-        "effectId": 11108834,
-        "changeEffectId": 11102023
+        "changeEffectId": 11102023,
+        "effectId": 11108834
       },
       {
-        "effectId": 11108769,
-        "changeEffectId": 11101682
+        "changeEffectId": 11101682,
+        "effectId": 11108769
       }
     ],
     "exchangeBulletList": [],
@@ -89058,9 +89072,9 @@
     "HomeresDir": "Home/Character/Dorm_Rada_Skin_Teacher/Dorm_Rada_Skin_Teacher_SkeletonData",
     "HomeresDir2": "",
     "singleUrl": "RolePlus/Rada/teacher/Char",
-    "offsetX": -28.0,
-    "offsetY": -371.0,
-    "offsetScale": 0.95,
+    "offsetX": 24.0,
+    "offsetY": -154.0,
+    "offsetScale": 1.2,
     "offsetX2": -215.0,
     "offsetY2": 0.0,
     "squadsX": 0.0,
@@ -89077,9 +89091,9 @@
     "bottomFixEffectUrl": "",
     "clickHideFixEffect": "None",
     "SpineBackground": "RolePlus/Rada/teacher/Bg",
-    "SpineBGX": 0.0,
-    "SpineBGY": 0.0,
-    "SpineBGScale": 0.01,
+    "SpineBGX": -24.0,
+    "SpineBGY": -154.0,
+    "SpineBGScale": 1.2,
     "State2Name": "",
     "State2Desc": "",
     "State2Face": "",
@@ -89106,8 +89120,25 @@
     "rewardList": [],
     "iconPath": "Item/item/Small/skinbox",
     "tipsPath": "Item/item/Big/skinbox",
-    "ProfilePhotoList": [],
-    "skinBattlePass": -1,
+    "ProfilePhotoList": [
+      {
+        "id": 82601564,
+        "weight": 95
+      },
+      {
+        "id": 82601565,
+        "weight": 95
+      },
+      {
+        "id": 82601566,
+        "weight": 95
+      },
+      {
+        "id": 82601567,
+        "weight": 15
+      }
+    ],
+    "skinBattlePass": 82500154,
     "bookHalf": "",
     "bookFull": "",
     "bookX": 0.0,
@@ -89160,8 +89191,8 @@
     "plotResList": [],
     "exchangeEffectList": [
       {
-        "effectId": 11108828,
-        "changeEffectId": 11101998
+        "effectId": 11101998,
+        "changeEffectId": 11108828
       }
     ],
     "exchangeBulletList": [],
@@ -89275,14 +89306,14 @@
     "plotResList": [],
     "exchangeEffectList": [
       {
-        "effectId": 11108829,
-        "changeEffectId": 11102007
+        "effectId": 11102007,
+        "changeEffectId": 11108829
       }
     ],
     "exchangeBulletList": [
       {
-        "bulletId": 11200821,
-        "changeBulletId": 11200127
+        "bulletId": 11200127,
+        "changeBulletId": 11200821
       }
     ],
     "exchangeSoundList": [],
@@ -89396,12 +89427,12 @@
     "exchangeEffectList": [],
     "exchangeBulletList": [
       {
-        "bulletId": 11200822,
-        "changeBulletId": 11200142
+        "bulletId": 11200142,
+        "changeBulletId": 11200822
       },
       {
-        "bulletId": 11200824,
-        "changeBulletId": 11200120
+        "bulletId": 11200120,
+        "changeBulletId": 11200824
       }
     ],
     "exchangeSoundList": [],
@@ -89505,110 +89536,112 @@
     "effectScale": 1.0,
     "gachaVoice": 30006898,
     "mainUIVoice": 30006899,
-    "face": "RolePlus/Slokai/JK/Face",
-    "gacha": "RolePlus/Slokai/JK/Gacha",
-    "resUrl": "RolePlus/Slokai/JK/Full",
-    "roleListResUrl": "RolePlus/Slokai/JK/Half",
-    "spineUrl": "Spine/Portrait/LH_Slokai_ootd/LH_Slokai_ootd_SkeletonData",
+    "face": "RolePlus/Slokai/White/Face",
+    "gacha": "RolePlus/Slokai/White/Gacha",
+    "resUrl": "RolePlus/Slokai/White/Full",
+    "roleListResUrl": "RolePlus/Slokai/White/Half",
+    "spineUrl": "Spine/Portrait/LH_Slokai_White/LH_Slokai_White_SkeletonData",
     "clickEffectUrl": "",
     "plotResList": [],
     "exchangeEffectList": [
       {
-        "changeEffectId": 11108268,
+        "changeEffectId": 11102028,
         "effectId": 11108246
       },
       {
-        "changeEffectId": 11108263,
+        "changeEffectId": 11102024,
         "effectId": 11108247
       },
       {
-        "changeEffectId": 11108269,
+        "changeEffectId": 11102029,
         "effectId": 11108237
       },
       {
-        "changeEffectId": 11108270,
+        "changeEffectId": 11102030,
         "effectId": 11108238
       },
       {
-        "changeEffectId": 11108284,
+        "changeEffectId": 11102197,
         "effectId": 11108235
       },
       {
-        "changeEffectId": 11108283,
+        "changeEffectId": 11102196,
         "effectId": 11108234
       },
       {
-        "changeEffectId": 11108280,
+        "changeEffectId": 11102155,
         "effectId": 11108221
       },
       {
-        "changeEffectId": 11108273,
+        "changeEffectId": 11102104,
         "effectId": 11108239
       },
       {
-        "changeEffectId": 11108274,
+        "changeEffectId": 11102105,
         "effectId": 11108240
       },
       {
-        "changeEffectId": 11108271,
+        "changeEffectId": 11102031,
         "effectId": 11108241
       },
       {
-        "changeEffectId": 11108264,
+        "changeEffectId": 11102025,
         "effectId": 11108227
       },
       {
-        "changeEffectId": 11108265,
+        "changeEffectId": 11102026,
         "effectId": 11108228
       },
       {
-        "changeEffectId": 11108272,
+        "changeEffectId": 11102072,
         "effectId": 11108242
       },
       {
-        "changeEffectId": 11108285,
+        "changeEffectId": 11102199,
         "effectId": 11108236
       },
       {
-        "changeEffectId": 11108276,
+        "changeEffectId": 11102106,
         "effectId": 11108244
       },
       {
-        "changeEffectId": 11108277,
+        "changeEffectId": 11102152,
         "effectId": 11108245
       },
       {
-        "changeEffectId": 11108288,
+        "changeEffectId": 11102727,
         "effectId": 11108259
       }
     ],
     "exchangeBulletList": [
       {
         "bulletId": 11200756,
-        "changeBulletId": 11200763
+        "changeBulletId": 11200174
       },
       {
         "bulletId": 11200757,
-        "changeBulletId": 11200748
+        "changeBulletId": 11200173
       },
       {
         "bulletId": 11200755,
-        "changeBulletId": 11200760
+        "changeBulletId": 11200157
       }
     ],
     "exchangeSoundList": [],
     "exchangeRolePathList": [],
     "character": 10000942,
-    "SkinName": "爱丽的午后",
+    "SkinName": "至圣之光",
     "quality": "Golden",
     "ownExclusiveVoice": false,
     "isSpine2": 0,
-    "SkinDesc": "“爱丽”的学生装束，一位再普通不过的少女应该穿的服装。斯洛卡伊允许你偶尔这样称呼她，这个名字到底有什么含义呢？",
-    "HomeresDir": "Home/Character/Dorm_Slokai_Skin_ootd/Dorm_Slokai_Skin_ootd_SkeletonData",
+    "gachaVideoUzl": "",
+    "SkinDesc": "于某个或然的未来中出现的斯洛卡伊。光之意识引导真理与和平，顺便还带有一点儿孩子气。",
+    "HomeresDir": "Home/Character/Dorm_Slokai_White/Dorm_Slokai_White_SkeletonData",
+    "HomeresDir2": "",
     "singleUrl": "",
-    "offsetX": 106.0,
-    "offsetY": -144.0,
-    "offsetScale": 0.8,
+    "offsetX": 11.0,
+    "offsetY": 0.0,
+    "offsetScale": 1.15,
     "offsetX2": 0.0,
     "offsetY2": 0.0,
     "squadsX": 0.0,
@@ -89618,7 +89651,7 @@
     "spineX": -10.0,
     "spineY": 0.0,
     "spineScale": 1.0,
-    "squadsHalf1": "RolePlus/Slokai/JK/Squads_Half1",
+    "squadsHalf1": "RolePlus/Slokai/White/Formation",
     "extraSpineList": [],
     "clickEffectLayer": "Front",
     "frontFixEffectUrl": "",
@@ -89648,8 +89681,8 @@
     "blockJP": false,
     "blockTW": false,
     "blockEN": false,
-    "blockKR": false,
-    "profilePhotoID": 82600897,
+    "blockKR": true,
+    "profilePhotoID": 82601569,
     "State2profilePhotoID": -1,
     "rewardList": [
       {
@@ -89661,30 +89694,41 @@
     "tipsPath": "Item/item/Big/skinbox",
     "ProfilePhotoList": [
       {
-        "id": 82600920,
+        "id": 82601571,
         "weight": 95
       },
       {
-        "id": 82600921,
+        "id": 82601576,
         "weight": 95
       },
       {
-        "id": 82600922,
+        "id": 82601577,
         "weight": 95
       },
       {
-        "id": 82600923,
+        "id": 82601578,
         "weight": 15
       }
     ],
-    "skinBattlePass": 82500048,
+    "skinBattlePass": -1,
     "bookHalf": "",
     "bookFull": "",
     "bookX": 0.0,
     "bookY": 0.0,
     "homeSkill": -1,
     "SpineIdleListId": -1,
-    "extraClickAnimationList": []
+    "extraClickAnimationList": [],
+    "Getway": [],
+    "videoSpine": false,
+    "moveBoolen": false,
+    "pngFemale": "",
+    "singleFemale": "",
+    "spineFemale": "",
+    "videoFemale": "",
+    "videoPath": "",
+    "videoX": 0.0,
+    "videoY": 0.0,
+    "videoScale": 0.0
   },
   {
     "id": 11000849,
@@ -89710,110 +89754,112 @@
     "effectScale": 1.0,
     "gachaVoice": 30006898,
     "mainUIVoice": 30006899,
-    "face": "RolePlus/Slokai/JK/Face",
-    "gacha": "RolePlus/Slokai/JK/Gacha",
-    "resUrl": "RolePlus/Slokai/JK/Full",
-    "roleListResUrl": "RolePlus/Slokai/JK/Half",
-    "spineUrl": "Spine/Portrait/LH_Slokai_ootd/LH_Slokai_ootd_SkeletonData",
+    "face": "RolePlus/Slokai/Black/Face",
+    "gacha": "RolePlus/Slokai/Black/Gacha",
+    "resUrl": "RolePlus/Slokai/Black/Full",
+    "roleListResUrl": "RolePlus/Slokai/Black/Half",
+    "spineUrl": "Spine/Portrait/LH_Slokai_Black/LH_Slokai_Black_SkeletonData",
     "clickEffectUrl": "",
     "plotResList": [],
     "exchangeEffectList": [
       {
-        "changeEffectId": 11108268,
+        "changeEffectId": 11102227,
         "effectId": 11108246
       },
       {
-        "changeEffectId": 11108263,
+        "changeEffectId": 11102200,
         "effectId": 11108247
       },
       {
-        "changeEffectId": 11108269,
+        "changeEffectId": 11102271,
         "effectId": 11108237
       },
       {
-        "changeEffectId": 11108270,
+        "changeEffectId": 11102310,
         "effectId": 11108238
       },
       {
-        "changeEffectId": 11108284,
+        "changeEffectId": 11102645,
         "effectId": 11108235
       },
       {
-        "changeEffectId": 11108283,
+        "changeEffectId": 11102640,
         "effectId": 11108234
       },
       {
-        "changeEffectId": 11108280,
+        "changeEffectId": 11102589,
         "effectId": 11108221
       },
       {
-        "changeEffectId": 11108273,
+        "changeEffectId": 11102324,
         "effectId": 11108239
       },
       {
-        "changeEffectId": 11108274,
+        "changeEffectId": 11102331,
         "effectId": 11108240
       },
       {
-        "changeEffectId": 11108271,
+        "changeEffectId": 11102315,
         "effectId": 11108241
       },
       {
-        "changeEffectId": 11108264,
+        "changeEffectId": 11102201,
         "effectId": 11108227
       },
       {
-        "changeEffectId": 11108265,
+        "changeEffectId": 11102224,
         "effectId": 11108228
       },
       {
-        "changeEffectId": 11108272,
+        "changeEffectId": 11102321,
         "effectId": 11108242
       },
       {
-        "changeEffectId": 11108285,
+        "changeEffectId": 11102698,
         "effectId": 11108236
       },
       {
-        "changeEffectId": 11108276,
+        "changeEffectId": 11102502,
         "effectId": 11108244
       },
       {
-        "changeEffectId": 11108277,
+        "changeEffectId": 11102507,
         "effectId": 11108245
       },
       {
-        "changeEffectId": 11108288,
+        "changeEffectId": 11102717,
         "effectId": 11108259
       }
     ],
     "exchangeBulletList": [
       {
         "bulletId": 11200756,
-        "changeBulletId": 11200763
+        "changeBulletId": 11200150
       },
       {
         "bulletId": 11200757,
-        "changeBulletId": 11200748
+        "changeBulletId": 11200146
       },
       {
         "bulletId": 11200755,
-        "changeBulletId": 11200760
+        "changeBulletId": 11200122
       }
     ],
     "exchangeSoundList": [],
     "exchangeRolePathList": [],
     "character": 10000942,
-    "SkinName": "爱丽的午后",
+    "SkinName": "极幽之暗",
     "quality": "Golden",
     "ownExclusiveVoice": false,
     "isSpine2": 0,
+    "gachaVideoUzl": "",
     "SkinDesc": "“爱丽”的学生装束，一位再普通不过的少女应该穿的服装。斯洛卡伊允许你偶尔这样称呼她，这个名字到底有什么含义呢？",
-    "HomeresDir": "Home/Character/Dorm_Slokai_Skin_ootd/Dorm_Slokai_Skin_ootd_SkeletonData",
+    "HomeresDir": "Home/Character/Dorm_Slokai_Black/Dorm_Slokai_Black_SkeletonData",
+    "HomeresDir2": "",
     "singleUrl": "",
-    "offsetX": 106.0,
-    "offsetY": -144.0,
-    "offsetScale": 0.8,
+    "offsetX": 11.0,
+    "offsetY": 0.0,
+    "offsetScale": 1.15,
     "offsetX2": 0.0,
     "offsetY2": 0.0,
     "squadsX": 0.0,
@@ -89823,7 +89869,7 @@
     "spineX": -10.0,
     "spineY": 0.0,
     "spineScale": 1.0,
-    "squadsHalf1": "RolePlus/Slokai/JK/Squads_Half1",
+    "squadsHalf1": "RolePlus/Slokai/Black/Formation",
     "extraSpineList": [],
     "clickEffectLayer": "Front",
     "frontFixEffectUrl": "",
@@ -89853,8 +89899,8 @@
     "blockJP": false,
     "blockTW": false,
     "blockEN": false,
-    "blockKR": false,
-    "profilePhotoID": 82600897,
+    "blockKR": true,
+    "profilePhotoID": 82601570,
     "State2profilePhotoID": -1,
     "rewardList": [
       {
@@ -89866,29 +89912,128 @@
     "tipsPath": "Item/item/Big/skinbox",
     "ProfilePhotoList": [
       {
-        "id": 82600920,
+        "id": 82601572,
         "weight": 95
       },
       {
-        "id": 82600921,
+        "id": 82601573,
         "weight": 95
       },
       {
-        "id": 82600922,
+        "id": 82601574,
         "weight": 95
       },
       {
-        "id": 82600923,
+        "id": 82601575,
         "weight": 15
       }
     ],
-    "skinBattlePass": 82500048,
+    "skinBattlePass": -1,
     "bookHalf": "",
     "bookFull": "",
     "bookX": 0.0,
     "bookY": 0.0,
     "homeSkill": -1,
     "SpineIdleListId": -1,
-    "extraClickAnimationList": []
+    "extraClickAnimationList": [],
+    "Getway": [],
+    "videoSpine": false,
+    "moveBoolen": false,
+    "pngFemale": "",
+    "singleFemale": "",
+    "spineFemale": "",
+    "videoFemale": "",
+    "videoPath": "",
+    "videoX": 0.0,
+    "videoY": 0.0,
+    "videoScale": 0.0
+  },
+  {
+    "id": 11000850,
+    "idCN": "我方/09召唤物/蕾克/原版/魄罗",
+    "mod": "Spine",
+    "isInformalData": false,
+    "hpBarOffsetX": 0.0,
+    "hpBarOffsetY": 3.0,
+    "battleTagOffsetX": 0.0,
+    "battleTagOffsetY": 3.0,
+    "resDir": "Role/RedHood_bot01/RedHood_SkeletonData",
+    "shadowID": 11100540,
+    "shadowScale": 0.5,
+    "userSpecialShadow": false,
+    "shadowOffsetY": 0.0,
+    "shadowOffsetZ": 0.0,
+    "useSpecialBeHitColor": false,
+    "r": 255,
+    "g": 255,
+    "b": 255,
+    "a": 255,
+    "effectScale": 1.0,
+    "gachaVoice": -1,
+    "mainUIVoice": -1,
+    "face": "",
+    "gacha": "",
+    "resUrl": "",
+    "roleListResUrl": "",
+    "spineUrl": "",
+    "clickEffectUrl": "",
+    "plotResList": [],
+    "exchangeEffectList": [],
+    "exchangeBulletList": [],
+    "character": -1,
+    "SkinName": "",
+    "quality": "White",
+    "ownExclusiveVoice": false,
+    "isSpine2": 1,
+    "SkinDesc": "",
+    "HomeresDir": "",
+    "singleUrl": "",
+    "offsetX": 0.0,
+    "offsetY": 0.0,
+    "offsetScale": 1.0,
+    "offsetX2": 0.0,
+    "offsetY2": 0.0,
+    "squadsX": 0.0,
+    "squadsY": 0.0,
+    "spineX": 0.0,
+    "spineY": 0.0,
+    "spineScale": 1.0,
+    "squadsHalf1": "",
+    "extraSpineList": [],
+    "clickEffectLayer": "Front",
+    "frontFixEffectUrl": "",
+    "bottomFixEffectUrl": "",
+    "clickHideFixEffect": "None",
+    "SpineBackground": "",
+    "SpineBGX": 0.0,
+    "SpineBGY": 0.0,
+    "SpineBGScale": 0.01,
+    "State2Name": "",
+    "State2Desc": "",
+    "State2Face": "",
+    "State2Gacha": "",
+    "State2Res": "",
+    "State2RoleListRes": "",
+    "squadsHalf2": "",
+    "gachaSpine2Url": "",
+    "spine2Url": "",
+    "gachaPerformUrl": "",
+    "spine2EffectUrl": "",
+    "spine2BgUrl": "",
+    "state2Overturn": false,
+    "spine2Scale": 125.0,
+    "spine2X": 0.0,
+    "spine2Y": 0.0,
+    "profilePhotoID": -1,
+    "State2profilePhotoID": -1,
+    "rewardList": [],
+    "iconPath": "",
+    "tipsPath": "",
+    "ProfilePhotoList": [],
+    "skinBattlePass": -1,
+    "bookHalf": "",
+    "bookFull": "",
+    "bookX": 0.0,
+    "bookY": 0.0
   }
 ]
