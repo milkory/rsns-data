@@ -40654,7 +40654,7 @@
     "durationFrame": 1,
     "sourceBase": "FixedValue",
     "customDataTagBase": "",
-    "buffTypeFO": -1,
+    "buffTypeFO": 13000028,
     "overlayType": "UseNew",
     "sourceList": [],
     "overlayTimeType": "NotChange",
@@ -976025,16 +976025,16 @@
     "baseEffect": "OtherEffect",
     "isNotChangePos": false,
     "isBindAction": false,
-    "sound": -1,
     "isDispelFightEnd": false,
     "isNotRecordDamageAsCard": false,
     "iconUrl": "",
     "cantBeDispelled": false,
     "bForever": false,
     "durationFrame": 600,
+    "recycleDelayFrame": 0,
     "sourceBase": "FixedValue",
     "customDataTagBase": "",
-    "buffTypeFO": -1,
+    "buffTypeFO": 13000028,
     "overlayType": "AddSource",
     "sourceList": [],
     "overlayTimeType": "Reset",
@@ -976064,7 +976064,7 @@
     "bDamageWithLevel": false,
     "bShowLevel": false,
     "showLevelInfoId": -1,
-    "recycleDelayFrame": 0
+    "sound": -1
   },
   {
     "id": 10432236,
@@ -976133,7 +976133,6 @@
     "typeTagList": [],
     "baseEffect": "OtherEffect",
     "isNotChangePos": false,
-    "sound": -1,
     "treeRoot": [
       {
         "buffId": 10432237,
@@ -976145,7 +976144,8 @@
       },
       {},
       {}
-    ]
+    ],
+    "sound": -1
   },
   {
     "id": 10432239,
@@ -976661,6 +976661,11 @@
         "buffId": 10432249,
         "targetType": "Target"
       },
+      {
+        "buffId": 10432332,
+        "targetType": "Target"
+      },
+      {},
       {},
       {}
     ]
@@ -976675,7 +976680,6 @@
     "baseEffect": "OtherEffect",
     "isNotChangePos": false,
     "isBindAction": false,
-    "sound": -1,
     "isDispelFightEnd": false,
     "isNotRecordDamageAsCard": false,
     "iconUrl": "",
@@ -976707,24 +976711,25 @@
     "showLevelInfoId": -1,
     "targetType": "Self",
     "targetTagList": [],
-    "halfWidth_SN": 2400000,
+    "halfWidth_SN": 240000,
     "attributeType": "HpMax",
     "condition": "All",
     "numberType": "Number",
     "number_SN": 0,
-    "targetCount": 1,
     "filterBuffTypeFO": -1,
     "filterBuffFO": -1,
     "filterBuffJudgeType": "Greater",
     "filterBuffLevel": 0,
+    "buffSortType": "All",
     "filterStance": "DeafaultStance",
     "filterPosition": "DefaultPos",
     "isAimSelf": false,
-    "buffSortType": "All",
-    "radius_SN": 2400000,
+    "targetCount": 1,
+    "radius_SN": 240000,
     "intervalFrame": 0,
     "firstFrame": 1,
-    "buffId": 10432251
+    "buffId": 10432251,
+    "sound": -1
   },
   {
     "id": 10432253,
@@ -976753,21 +976758,6 @@
     "sound": -1,
     "unitId": 10001545,
     "buffId": 10432253
-  },
-  {
-    "id": 10432255,
-    "idCN": "BUFF/00我方/05五星/蕾克/B/判断魄罗在场",
-    "mod": "判断指定单位存活",
-    "isInformalData": false,
-    "battleTagIdList": [],
-    "typeTagList": [],
-    "baseEffect": "OtherEffect",
-    "isNotChangePos": false,
-    "sound": -1,
-    "team": "Team1",
-    "unit": 10001545,
-    "targetTagList": [],
-    "isDead": false
   },
   {
     "id": 10432256,
@@ -977113,77 +977103,18 @@
     ]
   },
   {
-    "id": 10432268,
-    "idCN": "BUFF/00我方/05五星/蕾克/通用/检索追击肉断斩击",
-    "mod": "指定Tag卡牌添加buff",
-    "isInformalData": false,
-    "battleTagIdList": [],
-    "typeTagList": [],
-    "baseEffect": "OtherEffect",
-    "isNotChangePos": false,
-    "sound": -1,
-    "from": "Hand",
-    "tagList": [
-      {
-        "tagId": 12602245
-      }
-    ],
-    "tagType": "And",
-    "cardNum": 1,
-    "isRepeatable": false,
-    "buffId": 10432267,
-    "targetType": "Self"
-  },
-  {
-    "id": 10432269,
-    "idCN": "BUFF/00我方/05五星/蕾克/通用/生成追击肉断斩击",
-    "mod": "印卡继承技能等级",
-    "isInformalData": false,
-    "battleTagIdList": [],
-    "typeTagList": [],
-    "baseEffect": "OtherEffect",
-    "isNotChangePos": false,
-    "sound": -1,
-    "destination": "Hand",
-    "drawCardId": 12305269,
-    "source": "FixedValue",
-    "customDataTag": "",
-    "rateFactorSN": 10000,
-    "cost_SN": 0,
-    "isTempCost": true,
-    "isChangeCardType": false,
-    "cardType": "Derive",
-    "canOverHand": true,
-    "isTarget": false,
-    "skillSelect": "Skill1"
-  },
-  {
     "id": 10432270,
-    "idCN": "快乐BUFF树/00我方/05五星/蕾克/通用/直接打出肉断斩击",
-    "mod": "BUFF树",
+    "idCN": "BUFF/00我方/05五星/蕾克/通用/直接使用肉断斩击",
+    "mod": "自动使用技能",
     "isInformalData": false,
     "battleTagIdList": [],
     "typeTagList": [],
     "baseEffect": "OtherEffect",
     "isNotChangePos": false,
     "sound": -1,
-    "treeRoot": [
-      {
-        "buffId": 10432269,
-        "targetType": "Owner"
-      },
-      {
-        "buffId": 10432265,
-        "targetType": "Owner"
-      },
-      {
-        "buffId": 10432268,
-        "targetType": "Owner"
-      },
-      {},
-      {},
-      {}
-    ]
+    "skillSelect": "Skill1",
+    "buffId": -1,
+    "isFirstUse": false
   },
   {
     "id": 10432271,
@@ -977660,6 +977591,11 @@
         "buffId": 10432263,
         "targetType": "Target"
       },
+      {
+        "buffId": 10432332,
+        "targetType": "Owner"
+      },
+      {},
       {},
       {},
       {},
@@ -977678,87 +977614,59 @@
     "typeTagList": [],
     "baseEffect": "OtherEffect",
     "isNotChangePos": false,
-    "sound": -1,
     "summonID": 10001545,
     "isSummonSelf": false,
     "skinList": [],
     "buffId": 10432284,
     "isFixedPosition": false,
-    "offsetX_SN": 20000,
+    "offsetX_SN": -20000,
     "randomOffsetX_SN": 0,
-    "offsetZ_SN": 0,
+    "offsetZ_SN": 30000,
     "randomOffsetZ_SN": 0,
     "waveOffsetX_SN": 20000,
     "propertyList": [
       {
+        "customDataTag": "",
+        "numType": "Number",
         "propertyType": "HpMax",
-        "numType": "Number",
-        "sourcesProperty": "HpMax",
-        "customDataTag": "",
         "skillRateFactorSN": 30000,
-        "skillRateTag": ""
+        "skillRateTag": "",
+        "sourcesProperty": "HpMax"
       },
       {
+        "customDataTag": "",
+        "numType": "Number",
         "propertyType": "Atk",
-        "numType": "Number",
-        "sourcesProperty": "Atk",
-        "customDataTag": "",
         "skillRateFactorSN": 10000,
-        "skillRateTag": ""
+        "skillRateTag": "",
+        "sourcesProperty": "Atk"
       },
       {
+        "customDataTag": "",
+        "numType": "Number",
         "propertyType": "Def",
-        "numType": "Number",
-        "sourcesProperty": "Atk",
-        "customDataTag": "",
         "skillRateFactorSN": 10000,
-        "skillRateTag": ""
+        "skillRateTag": "",
+        "sourcesProperty": "Atk"
       },
       {
+        "customDataTag": "",
+        "numType": "Number",
         "propertyType": "Accelerate",
-        "numType": "Number",
-        "sourcesProperty": "Accelerate",
-        "customDataTag": "",
         "skillRateFactorSN": 10000,
-        "skillRateTag": ""
+        "skillRateTag": "",
+        "sourcesProperty": "Accelerate"
       },
       {
-        "propertyType": "CurrentHp",
-        "numType": "Number",
-        "sourcesProperty": "HpMax",
         "customDataTag": "",
+        "numType": "Number",
+        "propertyType": "CurrentHp",
         "skillRateFactorSN": 30000,
-        "skillRateTag": ""
+        "skillRateTag": "",
+        "sourcesProperty": "HpMax"
       }
-    ]
-  },
-  {
-    "id": 10432286,
-    "idCN": "快乐BUFF树/00我方/05五星/蕾克/B/召唤或治疗",
-    "mod": "BUFF树",
-    "isInformalData": false,
-    "battleTagIdList": [],
-    "typeTagList": [],
-    "baseEffect": "OtherEffect",
-    "isNotChangePos": false,
-    "sound": -1,
-    "treeRoot": [
-      {
-        "buffId": 10432255,
-        "targetType": "Owner"
-      },
-      {
-        "buffId": 10432254,
-        "targetType": "Owner"
-      },
-      {},
-      {
-        "buffId": 10432285,
-        "targetType": "Owner"
-      },
-      {},
-      {}
-    ]
+    ],
+    "sound": -1
   },
   {
     "id": 10432287,
@@ -977902,50 +977810,15 @@
   },
   {
     "id": 10432294,
-    "idCN": "BUFF/00我方/05五星/蕾克/觉醒2/入手完成后打出",
-    "mod": "持续效果",
+    "idCN": "BUFF/00我方/05五星/蕾克/觉醒2/小队添加自动打出",
+    "mod": "小队添加buff",
     "isInformalData": false,
     "battleTagIdList": [],
     "typeTagList": [],
     "baseEffect": "OtherEffect",
     "isNotChangePos": false,
-    "isBindAction": false,
     "sound": -1,
-    "isDispelFightEnd": false,
-    "isNotRecordDamageAsCard": false,
-    "iconUrl": "",
-    "cantBeDispelled": true,
-    "bForever": false,
-    "durationFrame": 1,
-    "sourceBase": "FixedValue",
-    "customDataTagBase": "",
-    "buffTypeFO": -1,
-    "overlayType": "Coexist",
-    "sourceList": [],
-    "overlayTimeType": "NotChange",
-    "level": 1,
-    "levelTag": "",
-    "levelMax": 1,
-    "levelMaxTag": "",
-    "maxLevelBuffId": -1,
-    "isSameAttribute": false,
-    "attributeChangeList": [],
-    "baseValue_SN": 10000,
-    "baseRateTag": "",
-    "timeUpEffectList": [
-      {
-        "buffId": 10432267,
-        "targetType": "Target"
-      }
-    ],
-    "dispelEffectList": [],
-    "appearEffectList": [],
-    "buffEffectByLevel": [],
-    "disappearEffectList": [],
-    "bDamageWithLevel": false,
-    "bShowLevel": false,
-    "showLevelInfoId": -1,
-    "recycleDelayFrame": 0
+    "buffId": 10432267
   },
   {
     "id": 10432295,
@@ -978044,7 +977917,6 @@
     "typeTagList": [],
     "baseEffect": "OtherEffect",
     "isNotChangePos": false,
-    "sound": -1,
     "treeRoot": [
       {
         "buffId": 10432289,
@@ -978071,7 +977943,8 @@
       {},
       {},
       {}
-    ]
+    ],
+    "sound": -1
   },
   {
     "id": 10432299,
@@ -978191,7 +978064,6 @@
     "baseEffect": "OtherEffect",
     "isNotChangePos": false,
     "isBindAction": false,
-    "sound": -1,
     "isDispelFightEnd": false,
     "isNotRecordDamageAsCard": false,
     "iconUrl": "",
@@ -978221,18 +978093,19 @@
     "bDamageWithLevel": false,
     "bShowLevel": false,
     "showLevelInfoId": -1,
-    "buffId": 10432302,
     "cooldownFrame": 0,
+    "buffId": 10432302,
     "isRefreshSnapshot": true,
-    "count_SN": 10000,
+    "notUseCardActionData": true,
     "tag": "",
+    "count_SN": 10000,
     "tagList": [
       {
         "tagId": 12600007
       }
     ],
-    "tagType": "And",
-    "notUseCardActionData": true
+    "tagType": "Or",
+    "sound": -1
   },
   {
     "id": 10432304,
@@ -978487,7 +978360,7 @@
     "targetBuffId": -1,
     "isJudge": false,
     "isRandom": false,
-    "isReturnInHand": false,
+    "isReturnInHand": true,
     "isOverHandNum": false,
     "tagList": [
       {
@@ -978827,10 +978700,6 @@
     "sound": -1,
     "treeRoot": [
       {
-        "buffId": 10432286,
-        "targetType": "Owner"
-      },
-      {
         "buffId": 10432308,
         "targetType": "Owner"
       },
@@ -978842,7 +978711,6 @@
         "buffId": 10432321,
         "targetType": "Owner"
       },
-      {},
       {},
       {},
       {}
@@ -979137,5 +979005,52 @@
     "offsetZ_SN": 40000,
     "randomOffsetZ_SN": 0,
     "propertyList": []
+  },
+  {
+    "id": 10432332,
+    "idCN": "BUFF/00我方/05五星/蕾克/B/魄罗在场替换动作",
+    "mod": "替换动作",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "isBindAction": false,
+    "sound": -1,
+    "isDispelFightEnd": false,
+    "isNotRecordDamageAsCard": false,
+    "iconUrl": "",
+    "cantBeDispelled": true,
+    "bForever": false,
+    "durationFrame": 3,
+    "sourceBase": "FixedValue",
+    "customDataTagBase": "",
+    "buffTypeFO": -1,
+    "overlayType": "UseNew",
+    "sourceList": [],
+    "overlayTimeType": "Reset",
+    "level": 1,
+    "levelTag": "",
+    "levelMax": 1,
+    "levelMaxTag": "",
+    "maxLevelBuffId": -1,
+    "isSameAttribute": false,
+    "attributeChangeList": [],
+    "baseValue_SN": 10000,
+    "baseRateTag": "",
+    "timeUpEffectList": [],
+    "dispelEffectList": [],
+    "appearEffectList": [],
+    "buffEffectByLevel": [],
+    "disappearEffectList": [],
+    "bDamageWithLevel": false,
+    "bShowLevel": false,
+    "showLevelInfoId": -1,
+    "changeActionList": [
+      {
+        "sourceActionID": 10105408,
+        "targetActionID": 10105322
+      }
+    ]
   }
 ]
