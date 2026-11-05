@@ -2756,5 +2756,17 @@
     "returnType": "bool",
     "script": "main:\rgetc CBus Instance\rcgf GetManager \"BattleControlManager\"\rgetp currentCore\rset $core\r\rif\r\tget $core currentCard\r\tset $card\r\tif\r\t\tgetp cardProperty\r\t\tset $property\r\t\tif\r\t\t\tcallWith $property GetCostSN $true $false\r            set $cost\r            get $core teamData\r            set $teamData\r            \r            get $teamData CostMax_SN\r            set $costMax\r            if $cost le $costMax\r                ret $true\r            endif\r\r            get $teamData Cost_SN\r            set $costTeam\r            if $cost le $costTeam\r                ret $true\r            endif\r\t\tendif\r\tendif\rendif\r\rret $false",
     "cacheAsGMF": true
+  },
+  {
+    "id": 60000204,
+    "idCN": "角色/蕾克/红染/来源限定与伤害",
+    "mod": "执行GS脚本",
+    "isInformalData": false,
+    "debug": false,
+    "autoRecycle": false,
+    "memo": "仅红染施加者或其魄罗的非特殊伤害触发，额外伤害归红染施加者。",
+    "returnType": "int",
+    "script": "main:\ngetc CBus Instance\ncgf GetManager \"BattleControlManager\"\ngetp curGSBuff\nset $curBuff\ngetp target\nset $target\ngetp buffSystem\ncgf GetSpecifiedBuff 10432241\nset $mark\nif $mark\n    getp owner\n    set $caster\n    get $curBuff\n    getp owner\n    set $attacker\n    if $attacker\n        getp ca id\n        set $attackerId\n        if $attackerId eq 10001545\n            get $attacker\n            getp Owner\n            set $attacker\n        endif\n        callWith $caster Equals $attacker\n        if\n            get $curBuff\n            getp _buffFactory\n            set $factory\n            get $mark\n            getp snapshot\n            set $snapshot\n            get $caster\n            getp property propertyDic\n            set $properties\n            callWith $snapshot SetParams $properties $true\n            get $curBuff\n            getp action\n            set $action\n            get $curBuff\n            getp positionSN\n            set $position\n            get $curBuff\n            getp isSkill\n            set $isSkill\n            get $curBuff\n            getp from\n            set $from\n            get $curBuff\n            getp fromUnitSID\n            set $fromUnitSID\n            getc Battle.BuffFactory\n            getMethodInfo Produce 9 \"System.Int32\" \"Battle.Unit\" \"Battle.Snapshot\" \"Battle.UnitAction\" \"Battle.IBuffSystem\" \"PointSN\" \"System.Boolean\" \"System.Int32\" \"System.Int32\"\n            callMethodInfo $factory 10432365 $caster $snapshot $action $target $position $isSkill $from $fromUnitSID\n            set $damage\n            callWith $target AddBuff $damage\n        endif\n    endif\nendif\nret 0",
+    "cacheAsGMF": true
   }
 ]
