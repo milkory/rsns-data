@@ -30711,5 +30711,55 @@
     "isSkillDelay": false,
     "minDelay": 0,
     "maxDelay": 0
+  },
+  {
+    "id": 10300732,
+    "idCN": "敌方/22联动BS/玛丽·苏",
+    "mod": "基础AI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10105363
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [
+      {
+        "actionId": 10105364,
+        "activeFrame": 241,
+        "activeTime": 4.0,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10105365,
+        "activeFrame": 481,
+        "activeTime": 8.0,
+        "rangeSN": -10000
+      }
+    ],
+    "isInvisibleBeforeShowUp": true,
+    "showupSkillList": [
+      {
+        "actionId": 10105438
+      }
+    ],
+    "skillLoopDelayFrame": 120,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": true,
+    "energySkillList": [
+      {
+        "actionId": 10105406
+      }
+    ],
+    "energyRestorePerFrameSN": 800,
+    "energyBarColor": "#FFB200",
+    "isSkillDelay": true,
+    "minDelay": 0,
+    "maxDelay": 90
   }
 ]
