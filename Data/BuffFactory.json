@@ -7204,7 +7204,7 @@
     "sourceBase": "FixedValue",
     "customDataTagBase": "",
     "buffTypeFO": 13000006,
-    "overlayType": "新的覆盖旧的",
+    "overlayType": "UseNew",
     "sourceList": [],
     "overlayTimeType": "Reset",
     "level": 1,
@@ -7283,7 +7283,7 @@
     "sourceBase": "FixedValue",
     "customDataTagBase": "",
     "buffTypeFO": -1,
-    "overlayType": "新的覆盖旧的",
+    "overlayType": "UseNew",
     "sourceList": [],
     "overlayTimeType": "Reset",
     "level": 1,
@@ -7471,7 +7471,7 @@
     "id": 10401922,
     "idCN": "BUFF/01敌方/05鼹鼠帮/突击车暴徒/技能2受击特效",
     "mod": "特效",
-    "effectPointType": "原点",
+    "effectPointType": "Origin",
     "effectId": 11100820,
     "offsetX": 0.0,
     "offsetY": 0.0
@@ -7904,7 +7904,7 @@
     "sourceBase": "FixedValue",
     "customDataTagBase": "",
     "buffTypeFO": 13000006,
-    "overlayType": "新的覆盖旧的",
+    "overlayType": "UseNew",
     "sourceList": [],
     "overlayTimeType": "Reset",
     "level": 1,
@@ -9133,7 +9133,7 @@
     "dispelEffectList": [
       {
         "buffId": 10404297,
-        "targetType": "Self"
+        "targetType": "Target"
       }
     ],
     "appearEffectList": [
@@ -11894,10 +11894,10 @@
     "isSameAttribute": false,
     "attributeChangeList": [
       {
-        "attributeType": "GetHealedUp",
+        "attributeType": "GetHealUp",
         "level": 1,
         "numberType": "Percent",
-        "rateTag": "Null",
+        "rateTag": "",
         "value_SN": -5000
       }
     ],
@@ -12139,7 +12139,7 @@
     "timeUpEffectList": [
       {
         "buffId": 10401076,
-        "targetType": "Self"
+        "targetType": "Target"
       }
     ],
     "dispelEffectList": [],
@@ -12834,7 +12834,7 @@
     "timeUpEffectList": [
       {
         "buffId": 10401183,
-        "targetType": "Self"
+        "targetType": "Target"
       }
     ],
     "dispelEffectList": [],
@@ -16744,7 +16744,7 @@
     "dispelEffectList": [
       {
         "buffId": 10401549,
-        "targetType": "Self"
+        "targetType": "Target"
       }
     ],
     "appearEffectList": [],
@@ -17554,7 +17554,7 @@
     "id": 10401042,
     "idCN": "BUFF/01敌方/04拾荒者/火枪组/燃烧瓶受击特效",
     "mod": "特效",
-    "effectPointType": "原点",
+    "effectPointType": "Origin",
     "effectId": 11100852,
     "offsetX": 0.0,
     "offsetY": 0.0
@@ -19074,7 +19074,7 @@
     "dotEffectList": [
       {
         "buffId": 10402274,
-        "targetType": "Self"
+        "targetType": "Owner"
       }
     ],
     "bDamageWithLevel": false,
@@ -19132,7 +19132,7 @@
     "dotEffectList": [
       {
         "buffId": 10402274,
-        "targetType": "Self"
+        "targetType": "Owner"
       }
     ],
     "bDamageWithLevel": false,
@@ -19414,7 +19414,7 @@
     "timeUpEffectList": [
       {
         "buffId": 10402324,
-        "targetType": "Ally"
+        "targetType": "Owner"
       }
     ],
     "dispelEffectList": [],
@@ -19810,7 +19810,7 @@
     "dotEffectList": [
       {
         "buffId": 10402345,
-        "targetType": "Self"
+        "targetType": "Owner"
       }
     ],
     "bDamageWithLevel": false,
@@ -19859,7 +19859,7 @@
     "dotEffectList": [
       {
         "buffId": 10402345,
-        "targetType": "Self"
+        "targetType": "Owner"
       }
     ],
     "bDamageWithLevel": false,
@@ -19917,7 +19917,7 @@
     "dotEffectList": [
       {
         "buffId": 10402345,
-        "targetType": "Self"
+        "targetType": "Owner"
       }
     ],
     "bDamageWithLevel": false,
@@ -19966,7 +19966,7 @@
     "dotEffectList": [
       {
         "buffId": 10402345,
-        "targetType": "Self"
+        "targetType": "Owner"
       }
     ],
     "bDamageWithLevel": false,
@@ -20304,7 +20304,7 @@
     "id": 10402440,
     "idCN": "BUFF/01敌方/02桦树/触须/多倍体桦树生物/自杀",
     "mod": "设置血量",
-    "type": "Real",
+    "type": "Number",
     "num_SN": 0,
     "source": "HpMax",
     "customDataTag": ""
@@ -24241,7 +24241,7 @@
     "dotEffectList": [
       {
         "buffId": 10402288,
-        "targetType": "Self"
+        "targetType": "Target"
       }
     ],
     "bDamageWithLevel": false,
@@ -24626,7 +24626,7 @@
     "dotEffectList": [
       {
         "buffId": 10402746,
-        "targetType": "Self"
+        "targetType": "Target"
       }
     ],
     "bDamageWithLevel": false,
@@ -27820,10 +27820,10 @@
     "isSameAttribute": false,
     "attributeChangeList": [
       {
-        "attributeType": "GetHealedUp",
+        "attributeType": "GetHealUp",
         "level": 1,
         "numberType": "Percent",
-        "rateTag": "Null",
+        "rateTag": "",
         "value_SN": -5000
       }
     ],
@@ -32139,7 +32139,7 @@
     "dispelEffectList": [
       {
         "buffId": 10404297,
-        "targetType": "Self"
+        "targetType": "Owner"
       }
     ],
     "appearEffectList": [
@@ -40704,7 +40704,7 @@
     "filterBuffLevel": 0,
     "targetCount": 30,
     "filterStance": "DeafaultStance",
-    "filterPosition": "Default",
+    "filterPosition": "DefaultPos",
     "isAimSelf": false,
     "isRandom": false,
     "sound": -1
@@ -76234,7 +76234,7 @@
         "tagId": 12600146
       }
     ],
-    "judgeType": "Greater"
+    "judgeType": "And"
   },
   {
     "id": 10404673,
@@ -97594,7 +97594,7 @@
     "timeUpEffectList": [
       {
         "buffId": 10401183,
-        "targetType": "Self"
+        "targetType": "Owner"
       }
     ],
     "dispelEffectList": [],
@@ -111461,7 +111461,7 @@
     "dispelEffectList": [
       {
         "buffId": 10404297,
-        "targetType": "Self"
+        "targetType": "Owner"
       }
     ],
     "appearEffectList": [
@@ -112112,7 +112112,7 @@
     "dispelEffectList": [
       {
         "buffId": 10404297,
-        "targetType": "Self"
+        "targetType": "Owner"
       }
     ],
     "appearEffectList": [
@@ -126658,7 +126658,7 @@
     "sourceBase": "FixedValue",
     "customDataTagBase": "",
     "buffTypeFO": -1,
-    "overlayType": "新的覆盖旧的",
+    "overlayType": "UseNew",
     "sourceList": [],
     "overlayTimeType": "Reset",
     "level": 1,
@@ -144904,7 +144904,7 @@
         "tagId": 12600073
       }
     ],
-    "judgeType": "Greater",
+    "judgeType": "And",
     "sound": -1
   },
   {
@@ -146745,7 +146745,7 @@
         "tagId": 12600073
       }
     ],
-    "judgeType": "Greater",
+    "judgeType": "And",
     "sound": -1
   },
   {
@@ -160869,7 +160869,7 @@
     "sourceBase": "FixedValue",
     "customDataTagBase": "",
     "buffTypeFO": -1,
-    "overlayType": "新的覆盖旧的",
+    "overlayType": "UseNew",
     "sourceList": [],
     "overlayTimeType": "Reset",
     "level": 1,
@@ -201554,7 +201554,7 @@
     "timeUpEffectList": [
       {
         "buffId": 10408036,
-        "targetType": "Self"
+        "targetType": "Owner"
       }
     ],
     "dispelEffectList": [],
@@ -242451,7 +242451,7 @@
         "tagId": 12600037
       }
     ],
-    "judgeType": "Greater",
+    "judgeType": "And",
     "sound": -1
   },
   {
@@ -271426,7 +271426,7 @@
     "dispelEffectList": [
       {
         "buffId": 10409552,
-        "targetType": "Self"
+        "targetType": "Owner"
       }
     ],
     "appearEffectList": [
@@ -329012,7 +329012,7 @@
     "dispelEffectList": [
       {
         "buffId": 10404297,
-        "targetType": "Self"
+        "targetType": "Owner"
       }
     ],
     "appearEffectList": [
@@ -385515,7 +385515,7 @@
     ],
     "isAimSelfMakeDammage": true,
     "sound": -1,
-    "judgeType": "Greater"
+    "judgeType": "And"
   },
   {
     "id": 10413209,
@@ -385567,7 +385567,7 @@
     ],
     "isAimSelfMakeDammage": true,
     "sound": -1,
-    "judgeType": "Greater"
+    "judgeType": "And"
   },
   {
     "id": 10413213,
@@ -387239,7 +387239,7 @@
     "baseEffect": "OtherEffect",
     "isNotChangePos": false,
     "tag": "CostTime",
-    "targetType": "Everyone",
+    "targetType": "Target",
     "buffId": 10413282,
     "sound": -1
   },
@@ -434826,7 +434826,7 @@
         "tagId": 12601821
       }
     ],
-    "judgeType": "Greater",
+    "judgeType": "And",
     "isTriggerDispelEffect": true,
     "isDispelCantDispel": true,
     "dispelTime": 999,
@@ -455620,7 +455620,7 @@
         "tagId": 12601565
       }
     ],
-    "tagType": "or",
+    "tagType": "Or",
     "condition": "All",
     "cost_SN": 10000,
     "isRandomDeck": true,
@@ -455660,7 +455660,7 @@
         "tagId": 12601565
       }
     ],
-    "tagType": "or",
+    "tagType": "Or",
     "condition": "All",
     "cost_SN": 10000,
     "isRandomDeck": true,
@@ -898709,7 +898709,6 @@
     "bDamageWithLevel": false,
     "bShowLevel": false,
     "showLevelInfoId": -1,
-    "overlayValueType": "UseNew",
     "hitEffect": -1,
     "sound": -1
   },
@@ -941813,7 +941812,7 @@
     "buffTypeFO": -1,
     "overlayType": "UseNew",
     "sourceList": [],
-    "overlayTimeType": "UseNew",
+    "overlayTimeType": "Reset",
     "level": 1,
     "levelTag": "",
     "levelMax": 1,
@@ -943435,7 +943434,7 @@
     "buffTypeFO": -1,
     "overlayType": "UseNew",
     "sourceList": [],
-    "overlayTimeType": "UseNew",
+    "overlayTimeType": "Reset",
     "level": 1,
     "levelTag": "",
     "levelMax": 1,
@@ -964019,7 +964018,7 @@
     "buffTypeFO": -1,
     "overlayType": "UseNew",
     "sourceList": [],
-    "overlayTimeType": "UseNew",
+    "overlayTimeType": "Reset",
     "level": 1,
     "levelTag": "",
     "levelMax": 1,
@@ -964060,7 +964059,7 @@
     "buffTypeFO": -1,
     "overlayType": "UseNew",
     "sourceList": [],
-    "overlayTimeType": "UseNew",
+    "overlayTimeType": "Reset",
     "level": 1,
     "levelTag": "",
     "levelMax": 1,
@@ -976043,7 +976042,17 @@
     "timeUpEffectList": [],
     "dispelEffectList": [],
     "appearEffectList": [],
-    "buffEffectByLevel": [],
+    "buffEffectByLevel": [
+      {
+        "level": 1,
+        "effectIdFirst": 11102886,
+        "effectIdSecond": -1,
+        "effectIdThird": -1,
+        "effectPointType": "Effect",
+        "offsetX": 0.0,
+        "offsetY": 0.0
+      }
+    ],
     "disappearEffectList": [],
     "bDamageWithLevel": false,
     "bShowLevel": false,
@@ -976105,6 +976114,11 @@
         "buffId": 10432236,
         "targetType": "Target"
       },
+      {
+        "buffId": 10411810,
+        "targetType": "Target"
+      },
+      {},
       {}
     ]
   },
@@ -976256,7 +976270,17 @@
     "timeUpEffectList": [],
     "dispelEffectList": [],
     "appearEffectList": [],
-    "buffEffectByLevel": [],
+    "buffEffectByLevel": [
+      {
+        "level": 1,
+        "effectIdFirst": 11102888,
+        "effectIdSecond": -1,
+        "effectIdThird": -1,
+        "effectPointType": "Effect",
+        "offsetX": 0.0,
+        "offsetY": 0.0
+      }
+    ],
     "disappearEffectList": [],
     "bDamageWithLevel": false,
     "bShowLevel": false,
@@ -976310,7 +976334,7 @@
         "targetType": "Target"
       },
       {
-        "buffId": 10432239,
+        "buffId": 10411813,
         "targetType": "Target"
       },
       {},
@@ -976318,134 +976342,6 @@
       {}
     ],
     "sound": -1
-  },
-  {
-    "id": 10432243,
-    "idCN": "BUFF/00我方/05五星/蕾克/A/全体首段",
-    "mod": "检索单位添加buff",
-    "isInformalData": false,
-    "battleTagIdList": [],
-    "typeTagList": [],
-    "baseEffect": "OtherEffect",
-    "isNotChangePos": false,
-    "sound": -1,
-    "isForceSearch": true,
-    "targetType": "Enemy",
-    "targetTagList": [],
-    "halfWidth_SN": 2400000,
-    "attributeType": "HpMax",
-    "condition": "All",
-    "numberType": "Number",
-    "number_SN": 0,
-    "targetCount": 99,
-    "filterBuffTypeFO": -1,
-    "filterBuffFO": -1,
-    "filterBuffJudgeType": "Greater",
-    "filterBuffLevel": 0,
-    "filterStance": "DeafaultStance",
-    "filterPosition": "DefaultPos",
-    "isAimSelf": false,
-    "radius_SN": 2400000,
-    "isRandom": false,
-    "useTargetProperty": false,
-    "buffSortType": "All",
-    "buffId": 10432237
-  },
-  {
-    "id": 10432244,
-    "idCN": "BUFF/00我方/05五星/蕾克/A/全体末段",
-    "mod": "检索单位添加buff",
-    "isInformalData": false,
-    "battleTagIdList": [],
-    "typeTagList": [],
-    "baseEffect": "OtherEffect",
-    "isNotChangePos": false,
-    "sound": -1,
-    "isForceSearch": true,
-    "targetType": "Enemy",
-    "targetTagList": [],
-    "halfWidth_SN": 2400000,
-    "attributeType": "HpMax",
-    "condition": "All",
-    "numberType": "Number",
-    "number_SN": 0,
-    "targetCount": 99,
-    "filterBuffTypeFO": -1,
-    "filterBuffFO": -1,
-    "filterBuffJudgeType": "Greater",
-    "filterBuffLevel": 0,
-    "filterStance": "DeafaultStance",
-    "filterPosition": "DefaultPos",
-    "isAimSelf": false,
-    "radius_SN": 2400000,
-    "isRandom": false,
-    "useTargetProperty": false,
-    "buffSortType": "All",
-    "buffId": 10432238
-  },
-  {
-    "id": 10432245,
-    "idCN": "BUFF/00我方/05五星/蕾克/S/全体伤害",
-    "mod": "检索单位添加buff",
-    "isInformalData": false,
-    "battleTagIdList": [],
-    "typeTagList": [],
-    "baseEffect": "OtherEffect",
-    "isNotChangePos": false,
-    "sound": -1,
-    "isForceSearch": true,
-    "targetType": "Enemy",
-    "targetTagList": [],
-    "halfWidth_SN": 2400000,
-    "attributeType": "HpMax",
-    "condition": "All",
-    "numberType": "Number",
-    "number_SN": 0,
-    "targetCount": 99,
-    "filterBuffTypeFO": -1,
-    "filterBuffFO": -1,
-    "filterBuffJudgeType": "Greater",
-    "filterBuffLevel": 0,
-    "filterStance": "DeafaultStance",
-    "filterPosition": "DefaultPos",
-    "isAimSelf": false,
-    "radius_SN": 2400000,
-    "isRandom": false,
-    "useTargetProperty": false,
-    "buffSortType": "All",
-    "buffId": 10432239
-  },
-  {
-    "id": 10432246,
-    "idCN": "BUFF/00我方/05五星/蕾克/S/全体末段",
-    "mod": "检索单位添加buff",
-    "isInformalData": false,
-    "battleTagIdList": [],
-    "typeTagList": [],
-    "baseEffect": "OtherEffect",
-    "isNotChangePos": false,
-    "sound": -1,
-    "isForceSearch": true,
-    "targetType": "Enemy",
-    "targetTagList": [],
-    "halfWidth_SN": 2400000,
-    "attributeType": "HpMax",
-    "condition": "All",
-    "numberType": "Number",
-    "number_SN": 0,
-    "targetCount": 99,
-    "filterBuffTypeFO": -1,
-    "filterBuffFO": -1,
-    "filterBuffJudgeType": "Greater",
-    "filterBuffLevel": 0,
-    "filterStance": "DeafaultStance",
-    "filterPosition": "DefaultPos",
-    "isAimSelf": false,
-    "radius_SN": 2400000,
-    "isRandom": false,
-    "useTargetProperty": false,
-    "buffSortType": "All",
-    "buffId": 10432242
   },
   {
     "id": 10432247,
@@ -977014,7 +976910,7 @@
     "isNotChangePos": false,
     "sound": -1,
     "unitId": 10001545,
-    "buffId": 10432253
+    "buffId": 10432545
   },
   {
     "id": 10432256,
@@ -977190,10 +977086,6 @@
     "sound": -1,
     "treeRoot": [
       {
-        "buffId": 10432259,
-        "targetType": "Target"
-      },
-      {
         "buffId": 10432261,
         "targetType": "Target"
       },
@@ -977203,9 +977095,53 @@
       },
       {},
       {
+        "buffId": 10432544,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432301,
+        "targetType": "Target"
+      },
+      {},
+      {
+        "buffId": 10432549,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432301,
+        "targetType": "Target"
+      },
+      {},
+      {
+        "buffId": 10432541,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432543,
+        "targetType": "Target"
+      },
+      {},
+      {
+        "buffId": 10432546,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432548,
+        "targetType": "Target"
+      },
+      {},
+      {
+        "buffId": 10432259,
+        "targetType": "Target"
+      },
+      {
         "buffId": 10432290,
         "targetType": "Target"
       },
+      {},
+      {},
+      {},
+      {},
       {},
       {},
       {}
@@ -977273,6 +977209,10 @@
     "sound": -1,
     "treeRoot": [
       {
+        "buffId": 10411843,
+        "targetType": "Target"
+      },
+      {
         "buffId": 10432260,
         "targetType": "Owner"
       },
@@ -977292,6 +977232,7 @@
         "buffId": 10432370,
         "targetType": "Target"
       },
+      {},
       {},
       {},
       {},
@@ -984657,5 +984598,321 @@
     "battleTagIdList": [],
     "typeTagList": [],
     "logicId": 60000220
+  },
+  {
+    "id": 10432540,
+    "idCN": "BUFF/00我方/05五星/蕾克/B/魄罗/待播放受疗次数",
+    "mod": "持续效果",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "isBindAction": false,
+    "sound": -1,
+    "isDispelFightEnd": false,
+    "isNotRecordDamageAsCard": false,
+    "iconUrl": "",
+    "cantBeDispelled": true,
+    "bForever": true,
+    "durationFrame": 1,
+    "sourceBase": "FixedValue",
+    "customDataTagBase": "",
+    "buffTypeFO": -1,
+    "overlayType": "AddSource",
+    "sourceList": [],
+    "overlayTimeType": "NotChange",
+    "level": 1,
+    "levelTag": "",
+    "levelMax": 99,
+    "levelMaxTag": "",
+    "maxLevelBuffId": -1,
+    "isSameAttribute": false,
+    "attributeChangeList": [],
+    "baseValue_SN": 10000,
+    "baseRateTag": "",
+    "timeUpEffectList": [],
+    "dispelEffectList": [],
+    "appearEffectList": [],
+    "buffEffectByLevel": [],
+    "disappearEffectList": [],
+    "bDamageWithLevel": false,
+    "bShowLevel": false,
+    "showLevelInfoId": -1,
+    "recycleDelayFrame": 0
+  },
+  {
+    "id": 10432541,
+    "idCN": "BUFF/00我方/05五星/蕾克/B/魄罗/判断待播放受疗",
+    "mod": "判断层级",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "sound": -1,
+    "judgeBuffId": 10432540,
+    "judgeType": "Greater",
+    "judgeLevel": 0
+  },
+  {
+    "id": 10432542,
+    "idCN": "BUFF/00我方/05五星/蕾克/B/魄罗/消耗一次受疗播放",
+    "mod": "驱散对应buff",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "sound": -1,
+    "targetBuffId": 10432540,
+    "dispelTime": 1,
+    "isTriggerDispelEffect": false
+  },
+  {
+    "id": 10432543,
+    "idCN": "BUFF/00我方/05五星/蕾克/B/魄罗/播放受疗动作",
+    "mod": "执行指定命令",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "sound": -1,
+    "commandIndex": 1
+  },
+  {
+    "id": 10432544,
+    "idCN": "BUFF/00我方/05五星/蕾克/B/魄罗/判断正在受疗",
+    "mod": "判断当前动作",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "sound": -1,
+    "actionId": 10105454
+  },
+  {
+    "id": 10432545,
+    "idCN": "快乐BUFF树/00我方/05五星/蕾克/B/魄罗/回复并播放受疗",
+    "mod": "BUFF树",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "sound": -1,
+    "treeRoot": [
+      {
+        "buffId": 10432253,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432540,
+        "targetType": "Target"
+      },
+      {},
+      {}
+    ]
+  },
+  {
+    "id": 10411810,
+    "idCN": "BUFF/00我方/05五星/蕾克/A/受击特效",
+    "mod": "特效",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "sound": -1,
+    "effectId": 11102751
+  },
+  {
+    "id": 10411813,
+    "idCN": "快乐BUFF树/00我方/05五星/蕾克/S/伤害",
+    "mod": "BUFF树",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "treeRoot": [
+      {
+        "buffId": 10411822,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432239,
+        "targetType": "Target"
+      },
+      {},
+      {}
+    ],
+    "sound": -1
+  },
+  {
+    "id": 10411822,
+    "idCN": "BUFF/00我方/05五星/蕾克/S/受击特效",
+    "mod": "特效",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "sound": -1,
+    "effectId": 11102813,
+    "effectPointType": "GetHit"
+  },
+  {
+    "id": 10411825,
+    "idCN": "BUFF/00我方/05五星/蕾克/魄罗/普攻/受击特效",
+    "mod": "特效",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "sound": -1,
+    "effectPointType": "GetHit",
+    "effectId": 11102735
+  },
+  {
+    "id": 10411841,
+    "idCN": "快乐BUFF树/00我方/05五星/蕾克/魄罗/普攻",
+    "mod": "BUFF树",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "sound": -1,
+    "treeRoot": [
+      {
+        "buffId": 10411825,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432256,
+        "targetType": "Target"
+      },
+      {},
+      {}
+    ]
+  },
+  {
+    "id": 10411843,
+    "idCN": "BUFF/00我方/05五星/蕾克/魄罗/夹击/攻击特效",
+    "mod": "特效",
+    "isInformalData": false,
+    "baseEffect": "OtherEffect",
+    "effectId": 11102806
+  },
+  {
+    "id": 10411852,
+    "idCN": "BUFF/00我方/05五星/蕾克/S/魄罗/待播放联动次数",
+    "mod": "持续效果",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "isBindAction": false,
+    "sound": -1,
+    "isDispelFightEnd": false,
+    "isNotRecordDamageAsCard": false,
+    "iconUrl": "",
+    "cantBeDispelled": true,
+    "bForever": true,
+    "durationFrame": 1,
+    "sourceBase": "FixedValue",
+    "customDataTagBase": "",
+    "buffTypeFO": -1,
+    "overlayType": "AddSource",
+    "sourceList": [],
+    "overlayTimeType": "NotChange",
+    "level": 1,
+    "levelTag": "",
+    "levelMax": 99,
+    "levelMaxTag": "",
+    "maxLevelBuffId": -1,
+    "isSameAttribute": false,
+    "attributeChangeList": [],
+    "baseValue_SN": 10000,
+    "baseRateTag": "",
+    "timeUpEffectList": [],
+    "dispelEffectList": [],
+    "appearEffectList": [],
+    "buffEffectByLevel": [],
+    "disappearEffectList": [],
+    "bDamageWithLevel": false,
+    "bShowLevel": false,
+    "showLevelInfoId": -1,
+    "recycleDelayFrame": 0
+  },
+  {
+    "id": 10411874,
+    "idCN": "BUFF/00我方/05五星/蕾克/S/指挥魄罗动作",
+    "mod": "对自身召唤物释放",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "sound": -1,
+    "unitId": 10001545,
+    "buffId": 10411852
+  },
+  {
+    "id": 10432546,
+    "idCN": "BUFF/00我方/05五星/蕾克/S/魄罗/判断待播放联动",
+    "mod": "判断层级",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "sound": -1,
+    "judgeBuffId": 10411852,
+    "judgeType": "Greater",
+    "judgeLevel": 0
+  },
+  {
+    "id": 10432547,
+    "idCN": "BUFF/00我方/05五星/蕾克/S/魄罗/消耗一次联动播放",
+    "mod": "驱散对应buff",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "sound": -1,
+    "targetBuffId": 10411852,
+    "dispelTime": 1,
+    "isTriggerDispelEffect": false
+  },
+  {
+    "id": 10432548,
+    "idCN": "BUFF/00我方/05五星/蕾克/S/魄罗/播放联动动作",
+    "mod": "执行指定命令",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "sound": -1,
+    "commandIndex": 2
+  },
+  {
+    "id": 10432549,
+    "idCN": "BUFF/00我方/05五星/蕾克/S/魄罗/判断正在联动",
+    "mod": "判断当前动作",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "sound": -1,
+    "actionId": 10105453
   }
 ]
