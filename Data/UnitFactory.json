@@ -107629,7 +107629,7 @@
   },
   {
     "id": 10000633,
-    "idCN": "01敌方/21联动甲铁城/铁心铳士",
+    "idCN": "01敌方/22联动甲铁城/铁心铳士",
     "mod": "敌方角色",
     "isInformalData": false,
     "name": "铁心铳士",
@@ -109204,7 +109204,7 @@
   },
   {
     "id": 10000672,
-    "idCN": "01敌方/21联动甲铁城/铁心力士",
+    "idCN": "01敌方/22联动甲铁城/铁心力士",
     "mod": "敌方角色",
     "isInformalData": false,
     "name": "铁心力士",
@@ -111254,7 +111254,7 @@
   },
   {
     "id": 10000542,
-    "idCN": "01敌方/21联动甲铁城/铁心武者",
+    "idCN": "01敌方/22联动甲铁城/铁心武者",
     "mod": "敌方角色",
     "isInformalData": false,
     "name": "铁心武者",
@@ -111450,7 +111450,7 @@
   },
   {
     "id": 10000689,
-    "idCN": "01敌方/21联动甲铁城/鵺-后",
+    "idCN": "01敌方/22联动甲铁城/鵺-后",
     "mod": "敌方角色",
     "isInformalData": false,
     "name": "聚合群体·鵺",
@@ -111633,7 +111633,7 @@
   },
   {
     "id": 10000690,
-    "idCN": "01敌方/21联动甲铁城/鵺-前",
+    "idCN": "01敌方/22联动甲铁城/鵺-前",
     "mod": "敌方角色",
     "isInformalData": false,
     "name": "聚合群体·鵺",
@@ -114048,7 +114048,7 @@
   },
   {
     "id": 10000711,
-    "idCN": "01敌方/21联动甲铁城/黑烟苍叶",
+    "idCN": "01敌方/22联动甲铁城/黑烟苍叶",
     "mod": "敌方角色",
     "isInformalData": false,
     "name": "“钢之心”·苍叶",
@@ -114759,7 +114759,7 @@
   },
   {
     "id": 10000718,
-    "idCN": "01敌方/21联动甲铁城/鵺-前-即死",
+    "idCN": "01敌方/22联动甲铁城/鵺-前-即死",
     "mod": "敌方角色",
     "isInformalData": false,
     "name": "聚合群体·鵺",
@@ -114938,7 +114938,7 @@
   },
   {
     "id": 10000717,
-    "idCN": "01敌方/21联动甲铁城/鵺-后-即死",
+    "idCN": "01敌方/22联动甲铁城/鵺-后-即死",
     "mod": "敌方角色",
     "isInformalData": false,
     "name": "聚合群体·鵺",
@@ -258669,9 +258669,9 @@
       }
     ],
     "passiveSkillList": [],
-    "hp_SN": 126421300,
-    "def_SN": 1259900,
-    "atk_SN": 1304000,
+    "hp_SN": 79000000,
+    "def_SN": 800000,
+    "atk_SN": 840000,
     "crit_SN": 0,
     "critDMG_SN": 5000,
     "atkSpeed_SN": 1000000,
@@ -258857,9 +258857,9 @@
       }
     ],
     "passiveSkillList": [],
-    "hp_SN": 126421300,
-    "def_SN": 1259900,
-    "atk_SN": 1304000,
+    "hp_SN": 79000000,
+    "def_SN": 800000,
+    "atk_SN": 840000,
     "crit_SN": 0,
     "critDMG_SN": 5000,
     "atkSpeed_SN": 1000000,
@@ -259045,9 +259045,9 @@
       }
     ],
     "passiveSkillList": [],
-    "hp_SN": 126421300,
-    "def_SN": 1259900,
-    "atk_SN": 1304000,
+    "hp_SN": 79000000,
+    "def_SN": 800000,
+    "atk_SN": 840000,
     "crit_SN": 0,
     "critDMG_SN": 5000,
     "atkSpeed_SN": 1000000,
@@ -291392,18 +291392,21 @@
   },
   {
     "id": 10001533,
-    "idCN": "00我方/05五星/联动BS/蕾克",
+    "idCN": "00我方/05五星/联动BS/小红帽",
     "mod": "玩家角色",
     "isInformalData": false,
-    "name": "蕾克",
+    "name": "小红帽",
     "EnglishName": "Red Hood",
     "viewId": 11000839,
     "skinList": [
       {
         "unitViewId": 11000839
+      },
+      {
+        "unitViewId": 11000863
       }
     ],
-    "sideId": 12601524,
+    "sideId": 12602257,
     "controllerId": 10300728,
     "bulletControllerList": [],
     "isBoss": false,
@@ -291565,11 +291568,27 @@
       }
     ],
     "isSpine2": 1,
-    "homeSkillList": [],
+    "homeSkillList": [
+      {
+        "id": 83900301,
+        "nextIndex": 3,
+        "resonanceLv": 1
+      },
+      {
+        "id": 83900302,
+        "nextIndex": 0,
+        "resonanceLv": 4
+      },
+      {
+        "id": 83900303,
+        "nextIndex": -1,
+        "resonanceLv": 5
+      }
+    ],
     "totalCost": 1,
     "totalCardNum": 1,
     "skillMin": 5,
-    "homeCharacter": -1,
+    "homeCharacter": 70000395,
     "homeCharacter2": -1,
     "stationStoreCharacter": -1,
     "gotoBed": true,
@@ -291577,30 +291596,79 @@
     "medicalPoint": 0,
     "WasteCoefficient": 1.0,
     "FoodList": [],
-    "ProfilePhotoList": [],
-    "classifyList": [],
-    "careerList": [],
-    "fileList": [],
+    "ProfilePhotoList": [
+      {
+        "id": 82601544,
+        "weight": 95
+      },
+      {
+        "id": 82601545,
+        "weight": 95
+      },
+      {
+        "id": 82601546,
+        "weight": 95
+      },
+      {
+        "id": 82601547,
+        "weight": 15
+      }
+    ],
+    "classifyList": [
+      {
+        "des": 12601962
+      },
+      {
+        "des": 12601215
+      },
+      {
+        "des": 12601223
+      },
+      {
+        "des": 12601219
+      },
+      {
+        "des": 12601220
+      },
+      {
+        "des": 12601221
+      }
+    ],
+    "careerList": [
+      {
+        "des": 12601211
+      }
+    ],
+    "fileList": [
+      {
+        "file": 80309918,
+        "skinId": -1
+      }
+    ],
     "age": 0,
     "gender": "女",
-    "birthday": "",
-    "birthdayMonth": "0",
-    "birthdayDay": "0",
+    "birthday": "12月20日",
+    "birthdayMonth": "1",
+    "birthdayDay": "1",
     "birthdayCake": -1,
     "birthdayMessage": "",
     "birthFace": "",
     "birthdayList": [],
-    "height": "",
-    "birthplace": "",
-    "ability": "",
-    "identity": "",
+    "height": "149cm",
+    "birthplace": "不明",
+    "ability": "不明",
+    "identity": "旅行者",
     "basic": "",
-    "ResumeList": [],
+    "ResumeList": [
+      {
+        "des": "无垠号的乘客之一，来历、过往与真实身份均成谜的女孩。因其表示目前无处可去，故暂时收留其在无垠号上生活，同时兼任护卫乘员的部分工作；同时由于本人要求，在无垠号驻留期间隐去真名，以代称“小红帽”作为日常称谓使用。另，鉴于本人态度良好、战斗实力优秀，特授予其使用无垠号乘员车厢以及休息区域的资格。"
+      }
+    ],
     "StoryList": [],
     "CvName": "",
-    "getCharacter": "",
-    "teamUzlShow": false,
-    "teamUzl": "",
+    "getCharacter": "你在这里啊。这么快就能找到你让我有点意外……不过，也是因为那“羽毛”的指引吧。",
+    "teamUzlShow": true,
+    "teamUzl": "https://wiki.biligame.com/resonance/?curid=16754",
     "safeInformation": "",
     "unitInformation": ""
   },
@@ -291617,7 +291685,7 @@
         "unitViewId": 11000840
       }
     ],
-    "sideId": 12602190,
+    "sideId": 12602257,
     "controllerId": 10300729,
     "bulletControllerList": [],
     "isBoss": false,
@@ -291778,17 +291846,17 @@
     "isSpine2": 1,
     "homeSkillList": [
       {
-        "id": 83900266,
-        "nextIndex": 0,
+        "id": 83900304,
+        "nextIndex": 3,
         "resonanceLv": 1
       },
       {
-        "id": 83900264,
-        "nextIndex": 3,
+        "id": 83900305,
+        "nextIndex": 0,
         "resonanceLv": 4
       },
       {
-        "id": 83900265,
+        "id": 83900306,
         "nextIndex": -1,
         "resonanceLv": 5
       }
@@ -291861,26 +291929,26 @@
     ],
     "age": 0,
     "gender": "女",
-    "birthday": "8月17日",
-    "birthdayMonth": "8",
-    "birthdayDay": "17",
-    "birthdayCake": 11400130,
-    "birthdayMessage": "我专门尝试了甜味新素材做的蛋糕，都自己尝过了，保证没有危害，而且味道很好！",
+    "birthday": "5月4日",
+    "birthdayMonth": "1",
+    "birthdayDay": "1",
+    "birthdayCake": -1,
+    "birthdayMessage": "",
     "birthFace": "",
     "birthdayList": [],
-    "height": "163cm",
-    "birthplace": "雪金城",
-    "ability": "未公开",
-    "identity": "阿妮塔能源·导师",
+    "height": "154cm",
+    "birthplace": "仙境",
+    "ability": "不明",
+    "identity": "？？？",
     "basic": "",
     "ResumeList": [
       {
-        "des": "阿妮塔导师、卓越的桦树生物研究者，形态污染预防和治疗研究专家。关于她的一切家庭关系和经历背景档案，以及基于当年七号自由港爆炸事故中意外的调查报告，均基于其意愿留档封存，不得在无本人允许的情况下对外公开。另，阿妮塔能源公司已安排为其购买当前市面上所有形式的人身以及意外保险，无垠号及科伦巴商会进行人事移交时可参阅乘员合同的附属条款以进一步了解详情。"
+        "des": "晚上好，亲爱的列车长，故事的另一个主角。多么希望这些文字能够传达给彼方的你，又多么希望你能够作为我想要寻找的人的一部分留在我的身边……可是，大人的世界就是这样不讲道理、又充满了别离，对吗？所以作为替代，我写了这封信，并且夹上我找到的可爱的羽毛一起，希望它能够送到你的身边。请你一定要回信给我哦！"
       }
     ],
     "StoryList": [],
     "CvName": "",
-    "getCharacter": "你好你好，吃饭没有呀？别管报道不报道的了，我给你带了吃的……衣服？哎呀，这些都是小事，来喝汤啦先！",
+    "getCharacter": "{playername}？{playername}。您回想起来了吗？我的名字，以及……",
     "teamUzlShow": true,
     "teamUzl": "https://wiki.biligame.com/resonance/?curid=13726",
     "safeInformation": "",
@@ -293474,10 +293542,10 @@
   },
   {
     "id": 10001545,
-    "idCN": "00我方/09召唤物/蕾克/魄罗",
+    "idCN": "00我方/09召唤物/小红帽/bot01-魄罗",
     "mod": "召唤物",
     "isInformalData": false,
-    "name": "魄罗",
+    "name": "bot01-魄罗",
     "EnglishName": "",
     "viewId": 11000850,
     "sideId": -1,
@@ -293525,7 +293593,7 @@
     "isImmuneAlly": false,
     "isImmuneEnemy": true,
     "ownerDeadAddBuffID": 10432330,
-    "deadAddBuffToOwner": 10432329,
+    "deadAddBuffToOwner": 10432555,
     "fightEndBuffId": -1,
     "hitPointX_SN": 0,
     "hitPointY_SN": 12500,
@@ -294947,7 +295015,7 @@
   },
   {
     "id": 10001555,
-    "idCN": "01敌方/22联动BS/BOSS-玛丽·苏",
+    "idCN": "01敌方/23联动BS/BOSS-玛丽·苏",
     "mod": "敌方角色",
     "isInformalData": false,
     "name": "玛丽·苏",
@@ -294960,8 +295028,8 @@
     "isBoss": true,
     "bossHpTemp": -1,
     "isDeadNotDisappear": false,
-    "isFly": true,
-    "originFlyYSN": 15000,
+    "isFly": false,
+    "originFlyYSN": 0,
     "randomOffsetFlyYSN": 0,
     "flyOnStraight": false,
     "classifyTagList": [],
@@ -295018,9 +295086,12 @@
       },
       {
         "skillId": 12303489
+      },
+      {
+        "skillId": 12305283
       }
     ],
-    "hp_SN": 5500000000,
+    "hp_SN": 8580000000,
     "def_SN": 880000,
     "atk_SN": 920000,
     "crit_SN": 0,
@@ -295103,12 +295174,12 @@
     "actionStunID": 10105359,
     "actionDeadID": 10105362,
     "actionVictoryID": 10105348,
-    "hitPointX_SN": 30000,
-    "hitPointY_SN": 20000,
-    "hitAreaX_SN": 5000,
-    "hitAreaY_SN": 20000,
-    "hitAreaHalfWidth_SN": 55000,
-    "hitAreaHalfHeight_SN": 45000,
+    "hitPointX_SN": 3000,
+    "hitPointY_SN": 28200,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 22500,
+    "hitAreaHalfWidth_SN": 20000,
+    "hitAreaHalfHeight_SN": 22500,
     "canOverMaxSpeed": false,
     "notRecordTakeDamage": false,
     "battleDes": "",
@@ -295125,6 +295196,3246 @@
     "enemySkillList": [
       {
         "id": 80303986
+      }
+    ]
+  },
+  {
+    "id": 10001556,
+    "idCN": "01敌方/23联动BS/BOSS-玛丽·安",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "玛丽·安",
+    "EnglishName": "",
+    "viewId": 11000857,
+    "skinList": [],
+    "sideId": 12601160,
+    "controllerId": 10300731,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": -1,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12602190
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301432
+      },
+      {
+        "skillId": 12301441
+      },
+      {
+        "skillId": 12301421
+      },
+      {
+        "skillId": 12301423
+      },
+      {
+        "skillId": 12301418
+      },
+      {
+        "skillId": 12301446
+      },
+      {
+        "skillId": 12301367
+      },
+      {
+        "skillId": 12300200
+      },
+      {
+        "skillId": 12301412
+      },
+      {
+        "skillId": 12301410
+      },
+      {
+        "skillId": 12301447
+      },
+      {
+        "skillId": 12301413
+      },
+      {
+        "skillId": 12301445
+      },
+      {
+        "skillId": 12303487
+      },
+      {
+        "skillId": 12303489
+      },
+      {
+        "skillId": 12305283
+      },
+      {
+        "skillId": 12305285
+      }
+    ],
+    "hp_SN": 8970000000,
+    "def_SN": 920000,
+    "atk_SN": 970000,
+    "crit_SN": 0,
+    "critDMG_SN": 5000,
+    "atkSpeed_SN": 800000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "FiveStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000650,
+    "growthTagList": [
+      {
+        "growthTagId": 12000353
+      },
+      {
+        "growthTagId": 12000060
+      },
+      {
+        "growthTagId": 12000526
+      },
+      {
+        "growthTagId": 12000525
+      },
+      {
+        "growthTagId": 12000527
+      },
+      {
+        "growthTagId": 12000528
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800470
+      },
+      {
+        "talentId": 12800471
+      },
+      {
+        "talentId": 12800467
+      },
+      {
+        "talentId": 12800468
+      },
+      {
+        "talentId": 12800469
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10105440,
+    "actionMoveID": 10105441,
+    "actionAttackedID": 10105442,
+    "actionAttackedBackID": 10105443,
+    "actionKnockUpID": -1,
+    "actionStunID": 10105444,
+    "actionDeadID": 10105445,
+    "actionVictoryID": 10105440,
+    "hitPointX_SN": 3000,
+    "hitPointY_SN": 28200,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 22500,
+    "hitAreaHalfWidth_SN": 20000,
+    "hitAreaHalfHeight_SN": 22500,
+    "canOverMaxSpeed": false,
+    "notRecordTakeDamage": false,
+    "battleDes": "",
+    "safeInformation": "",
+    "unitInformation": "",
+    "enemyDrop": [],
+    "abilityList": [],
+    "weaknessList": [],
+    "resistanceList": [],
+    "enemyType": 12601048,
+    "enemyCamp": 12601098,
+    "enemyBookId": 10001556,
+    "prisonerDrop": [],
+    "enemySkillList": [
+      {
+        "id": 80303992
+      }
+    ]
+  },
+  {
+    "id": 10001557,
+    "idCN": "01敌方/23联动BS/BOSS-莉耶芙",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "莉耶芙",
+    "EnglishName": "",
+    "viewId": 11000858,
+    "skinList": [],
+    "sideId": 12601160,
+    "controllerId": 10300733,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": -1,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12602190
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301432
+      },
+      {
+        "skillId": 12301441
+      },
+      {
+        "skillId": 12301421
+      },
+      {
+        "skillId": 12301423
+      },
+      {
+        "skillId": 12301418
+      },
+      {
+        "skillId": 12301446
+      },
+      {
+        "skillId": 12301367
+      },
+      {
+        "skillId": 12300200
+      },
+      {
+        "skillId": 12301412
+      },
+      {
+        "skillId": 12301410
+      },
+      {
+        "skillId": 12301447
+      },
+      {
+        "skillId": 12301413
+      },
+      {
+        "skillId": 12301445
+      },
+      {
+        "skillId": 12303487
+      },
+      {
+        "skillId": 12303489
+      },
+      {
+        "skillId": 12305190
+      }
+    ],
+    "hp_SN": 7410000000,
+    "def_SN": 760000,
+    "atk_SN": 800000,
+    "crit_SN": 0,
+    "critDMG_SN": 5000,
+    "atkSpeed_SN": 800000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "FiveStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000651,
+    "growthTagList": [
+      {
+        "growthTagId": 12000353
+      },
+      {
+        "growthTagId": 12000060
+      },
+      {
+        "growthTagId": 12000526
+      },
+      {
+        "growthTagId": 12000525
+      },
+      {
+        "growthTagId": 12000527
+      },
+      {
+        "growthTagId": 12000528
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800470
+      },
+      {
+        "talentId": 12800471
+      },
+      {
+        "talentId": 12800467
+      },
+      {
+        "talentId": 12800468
+      },
+      {
+        "talentId": 12800469
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10105498,
+    "actionMoveID": 10105499,
+    "actionAttackedID": 10105500,
+    "actionAttackedBackID": 10105501,
+    "actionKnockUpID": -1,
+    "actionStunID": 10105502,
+    "actionDeadID": 10105503,
+    "actionVictoryID": 10105498,
+    "hitPointX_SN": 3000,
+    "hitPointY_SN": 28200,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 22500,
+    "hitAreaHalfWidth_SN": 20000,
+    "hitAreaHalfHeight_SN": 22500,
+    "canOverMaxSpeed": false,
+    "notRecordTakeDamage": false,
+    "battleDes": "",
+    "safeInformation": "",
+    "unitInformation": "",
+    "enemyDrop": [],
+    "abilityList": [],
+    "weaknessList": [],
+    "resistanceList": [],
+    "enemyType": 12601048,
+    "enemyCamp": 12601098,
+    "enemyBookId": 10001557,
+    "prisonerDrop": [],
+    "enemySkillList": [
+      {
+        "id": 80303990
+      }
+    ]
+  },
+  {
+    "id": 10001558,
+    "idCN": "世界BOSS/联动-箱庭内外/01莉耶芙/难度1",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "莉耶芙",
+    "EnglishName": "",
+    "viewId": 11000858,
+    "skinList": [],
+    "sideId": 12601160,
+    "controllerId": 10300733,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": -1,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12602190
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301432
+      },
+      {
+        "skillId": 12301441
+      },
+      {
+        "skillId": 12301421
+      },
+      {
+        "skillId": 12301423
+      },
+      {
+        "skillId": 12301418
+      },
+      {
+        "skillId": 12301446
+      },
+      {
+        "skillId": 12301367
+      },
+      {
+        "skillId": 12300200
+      },
+      {
+        "skillId": 12301412
+      },
+      {
+        "skillId": 12301410
+      },
+      {
+        "skillId": 12301447
+      },
+      {
+        "skillId": 12301413
+      },
+      {
+        "skillId": 12301445
+      },
+      {
+        "skillId": 12303487
+      },
+      {
+        "skillId": 12303489
+      },
+      {
+        "skillId": 12305190
+      },
+      {
+        "skillId": 12305287
+      }
+    ],
+    "hp_SN": 7410000000,
+    "def_SN": 760000,
+    "atk_SN": 800000,
+    "crit_SN": 0,
+    "critDMG_SN": 5000,
+    "atkSpeed_SN": 800000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "FiveStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000651,
+    "growthTagList": [
+      {
+        "growthTagId": 12000353
+      },
+      {
+        "growthTagId": 12000060
+      },
+      {
+        "growthTagId": 12000526
+      },
+      {
+        "growthTagId": 12000525
+      },
+      {
+        "growthTagId": 12000527
+      },
+      {
+        "growthTagId": 12000528
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800470
+      },
+      {
+        "talentId": 12800471
+      },
+      {
+        "talentId": 12800467
+      },
+      {
+        "talentId": 12800468
+      },
+      {
+        "talentId": 12800469
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10105498,
+    "actionMoveID": 10105499,
+    "actionAttackedID": 10105500,
+    "actionAttackedBackID": 10105501,
+    "actionKnockUpID": -1,
+    "actionStunID": 10105502,
+    "actionDeadID": 10105503,
+    "actionVictoryID": 10105498,
+    "hitPointX_SN": 3000,
+    "hitPointY_SN": 28200,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 22500,
+    "hitAreaHalfWidth_SN": 20000,
+    "hitAreaHalfHeight_SN": 22500,
+    "canOverMaxSpeed": false,
+    "notRecordTakeDamage": false,
+    "battleDes": "",
+    "safeInformation": "",
+    "unitInformation": "",
+    "enemyDrop": [],
+    "abilityList": [],
+    "weaknessList": [],
+    "resistanceList": [],
+    "enemyType": 12601048,
+    "enemyCamp": 12601098,
+    "enemyBookId": 10001557,
+    "prisonerDrop": [],
+    "enemySkillList": [
+      {
+        "id": 80309984
+      }
+    ]
+  },
+  {
+    "id": 10001559,
+    "idCN": "世界BOSS/联动-箱庭内外/01莉耶芙/难度2",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "莉耶芙",
+    "EnglishName": "",
+    "viewId": 11000858,
+    "skinList": [],
+    "sideId": 12601160,
+    "controllerId": 10300733,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": -1,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12602190
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301432
+      },
+      {
+        "skillId": 12301441
+      },
+      {
+        "skillId": 12301421
+      },
+      {
+        "skillId": 12301423
+      },
+      {
+        "skillId": 12301418
+      },
+      {
+        "skillId": 12301446
+      },
+      {
+        "skillId": 12301367
+      },
+      {
+        "skillId": 12300200
+      },
+      {
+        "skillId": 12301412
+      },
+      {
+        "skillId": 12301410
+      },
+      {
+        "skillId": 12301447
+      },
+      {
+        "skillId": 12301413
+      },
+      {
+        "skillId": 12301445
+      },
+      {
+        "skillId": 12303487
+      },
+      {
+        "skillId": 12303489
+      },
+      {
+        "skillId": 12305190
+      },
+      {
+        "skillId": 12305288
+      }
+    ],
+    "hp_SN": 7410000000,
+    "def_SN": 760000,
+    "atk_SN": 800000,
+    "crit_SN": 0,
+    "critDMG_SN": 5000,
+    "atkSpeed_SN": 800000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "FiveStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000651,
+    "growthTagList": [
+      {
+        "growthTagId": 12000353
+      },
+      {
+        "growthTagId": 12000060
+      },
+      {
+        "growthTagId": 12000526
+      },
+      {
+        "growthTagId": 12000525
+      },
+      {
+        "growthTagId": 12000527
+      },
+      {
+        "growthTagId": 12000528
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800470
+      },
+      {
+        "talentId": 12800471
+      },
+      {
+        "talentId": 12800467
+      },
+      {
+        "talentId": 12800468
+      },
+      {
+        "talentId": 12800469
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10105498,
+    "actionMoveID": 10105499,
+    "actionAttackedID": 10105500,
+    "actionAttackedBackID": 10105501,
+    "actionKnockUpID": -1,
+    "actionStunID": 10105502,
+    "actionDeadID": 10105503,
+    "actionVictoryID": 10105498,
+    "hitPointX_SN": 3000,
+    "hitPointY_SN": 28200,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 22500,
+    "hitAreaHalfWidth_SN": 20000,
+    "hitAreaHalfHeight_SN": 22500,
+    "canOverMaxSpeed": false,
+    "notRecordTakeDamage": false,
+    "battleDes": "",
+    "safeInformation": "",
+    "unitInformation": "",
+    "enemyDrop": [],
+    "abilityList": [],
+    "weaknessList": [],
+    "resistanceList": [],
+    "enemyType": 12601048,
+    "enemyCamp": 12601098,
+    "enemyBookId": 10001557,
+    "prisonerDrop": [],
+    "enemySkillList": [
+      {
+        "id": 80309985
+      }
+    ]
+  },
+  {
+    "id": 10001560,
+    "idCN": "世界BOSS/联动-箱庭内外/01莉耶芙/难度3",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "莉耶芙",
+    "EnglishName": "",
+    "viewId": 11000858,
+    "skinList": [],
+    "sideId": 12601160,
+    "controllerId": 10300733,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": -1,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12602190
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301432
+      },
+      {
+        "skillId": 12301441
+      },
+      {
+        "skillId": 12301421
+      },
+      {
+        "skillId": 12301423
+      },
+      {
+        "skillId": 12301418
+      },
+      {
+        "skillId": 12301446
+      },
+      {
+        "skillId": 12301367
+      },
+      {
+        "skillId": 12300200
+      },
+      {
+        "skillId": 12301412
+      },
+      {
+        "skillId": 12301410
+      },
+      {
+        "skillId": 12301447
+      },
+      {
+        "skillId": 12301413
+      },
+      {
+        "skillId": 12301445
+      },
+      {
+        "skillId": 12303487
+      },
+      {
+        "skillId": 12303489
+      },
+      {
+        "skillId": 12305190
+      },
+      {
+        "skillId": 12305289
+      }
+    ],
+    "hp_SN": 7410000000,
+    "def_SN": 760000,
+    "atk_SN": 800000,
+    "crit_SN": 0,
+    "critDMG_SN": 5000,
+    "atkSpeed_SN": 800000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "FiveStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000651,
+    "growthTagList": [
+      {
+        "growthTagId": 12000353
+      },
+      {
+        "growthTagId": 12000060
+      },
+      {
+        "growthTagId": 12000526
+      },
+      {
+        "growthTagId": 12000525
+      },
+      {
+        "growthTagId": 12000527
+      },
+      {
+        "growthTagId": 12000528
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800470
+      },
+      {
+        "talentId": 12800471
+      },
+      {
+        "talentId": 12800467
+      },
+      {
+        "talentId": 12800468
+      },
+      {
+        "talentId": 12800469
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10105498,
+    "actionMoveID": 10105499,
+    "actionAttackedID": 10105500,
+    "actionAttackedBackID": 10105501,
+    "actionKnockUpID": -1,
+    "actionStunID": 10105502,
+    "actionDeadID": 10105503,
+    "actionVictoryID": 10105498,
+    "hitPointX_SN": 3000,
+    "hitPointY_SN": 28200,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 22500,
+    "hitAreaHalfWidth_SN": 20000,
+    "hitAreaHalfHeight_SN": 22500,
+    "canOverMaxSpeed": false,
+    "notRecordTakeDamage": false,
+    "battleDes": "",
+    "safeInformation": "",
+    "unitInformation": "",
+    "enemyDrop": [],
+    "abilityList": [],
+    "weaknessList": [],
+    "resistanceList": [],
+    "enemyType": 12601048,
+    "enemyCamp": 12601098,
+    "enemyBookId": 10001557,
+    "prisonerDrop": [],
+    "enemySkillList": [
+      {
+        "id": 80309986
+      }
+    ]
+  },
+  {
+    "id": 10001561,
+    "idCN": "世界BOSS/联动-箱庭内外/01莉耶芙/难度4",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "莉耶芙",
+    "EnglishName": "",
+    "viewId": 11000858,
+    "skinList": [],
+    "sideId": 12601160,
+    "controllerId": 10300733,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": -1,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12602190
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301432
+      },
+      {
+        "skillId": 12301441
+      },
+      {
+        "skillId": 12301421
+      },
+      {
+        "skillId": 12301423
+      },
+      {
+        "skillId": 12301418
+      },
+      {
+        "skillId": 12301446
+      },
+      {
+        "skillId": 12301367
+      },
+      {
+        "skillId": 12300200
+      },
+      {
+        "skillId": 12301412
+      },
+      {
+        "skillId": 12301410
+      },
+      {
+        "skillId": 12301447
+      },
+      {
+        "skillId": 12301413
+      },
+      {
+        "skillId": 12301445
+      },
+      {
+        "skillId": 12303487
+      },
+      {
+        "skillId": 12303489
+      },
+      {
+        "skillId": 12305190
+      },
+      {
+        "skillId": 12305290
+      }
+    ],
+    "hp_SN": 7410000000,
+    "def_SN": 760000,
+    "atk_SN": 800000,
+    "crit_SN": 0,
+    "critDMG_SN": 5000,
+    "atkSpeed_SN": 800000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "FiveStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000651,
+    "growthTagList": [
+      {
+        "growthTagId": 12000353
+      },
+      {
+        "growthTagId": 12000060
+      },
+      {
+        "growthTagId": 12000526
+      },
+      {
+        "growthTagId": 12000525
+      },
+      {
+        "growthTagId": 12000527
+      },
+      {
+        "growthTagId": 12000528
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800470
+      },
+      {
+        "talentId": 12800471
+      },
+      {
+        "talentId": 12800467
+      },
+      {
+        "talentId": 12800468
+      },
+      {
+        "talentId": 12800469
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10105498,
+    "actionMoveID": 10105499,
+    "actionAttackedID": 10105500,
+    "actionAttackedBackID": 10105501,
+    "actionKnockUpID": -1,
+    "actionStunID": 10105502,
+    "actionDeadID": 10105503,
+    "actionVictoryID": 10105498,
+    "hitPointX_SN": 3000,
+    "hitPointY_SN": 28200,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 22500,
+    "hitAreaHalfWidth_SN": 20000,
+    "hitAreaHalfHeight_SN": 22500,
+    "canOverMaxSpeed": false,
+    "notRecordTakeDamage": false,
+    "battleDes": "",
+    "safeInformation": "",
+    "unitInformation": "",
+    "enemyDrop": [],
+    "abilityList": [],
+    "weaknessList": [],
+    "resistanceList": [],
+    "enemyType": 12601048,
+    "enemyCamp": 12601098,
+    "enemyBookId": 10001557,
+    "prisonerDrop": [],
+    "enemySkillList": [
+      {
+        "id": 80309987
+      }
+    ]
+  },
+  {
+    "id": 10001562,
+    "idCN": "世界BOSS/联动-箱庭内外/01莉耶芙/难度5",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "莉耶芙",
+    "EnglishName": "",
+    "viewId": 11000858,
+    "skinList": [],
+    "sideId": 12601160,
+    "controllerId": 10300733,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": -1,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12602190
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301432
+      },
+      {
+        "skillId": 12301441
+      },
+      {
+        "skillId": 12301421
+      },
+      {
+        "skillId": 12301423
+      },
+      {
+        "skillId": 12301418
+      },
+      {
+        "skillId": 12301446
+      },
+      {
+        "skillId": 12301367
+      },
+      {
+        "skillId": 12300200
+      },
+      {
+        "skillId": 12301412
+      },
+      {
+        "skillId": 12301410
+      },
+      {
+        "skillId": 12301447
+      },
+      {
+        "skillId": 12301413
+      },
+      {
+        "skillId": 12301445
+      },
+      {
+        "skillId": 12303487
+      },
+      {
+        "skillId": 12303489
+      },
+      {
+        "skillId": 12305190
+      },
+      {
+        "skillId": 12305291
+      }
+    ],
+    "hp_SN": 7410000000,
+    "def_SN": 760000,
+    "atk_SN": 800000,
+    "crit_SN": 0,
+    "critDMG_SN": 5000,
+    "atkSpeed_SN": 800000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "FiveStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000651,
+    "growthTagList": [
+      {
+        "growthTagId": 12000353
+      },
+      {
+        "growthTagId": 12000060
+      },
+      {
+        "growthTagId": 12000526
+      },
+      {
+        "growthTagId": 12000525
+      },
+      {
+        "growthTagId": 12000527
+      },
+      {
+        "growthTagId": 12000528
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800470
+      },
+      {
+        "talentId": 12800471
+      },
+      {
+        "talentId": 12800467
+      },
+      {
+        "talentId": 12800468
+      },
+      {
+        "talentId": 12800469
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10105498,
+    "actionMoveID": 10105499,
+    "actionAttackedID": 10105500,
+    "actionAttackedBackID": 10105501,
+    "actionKnockUpID": -1,
+    "actionStunID": 10105502,
+    "actionDeadID": 10105503,
+    "actionVictoryID": 10105498,
+    "hitPointX_SN": 3000,
+    "hitPointY_SN": 28200,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 22500,
+    "hitAreaHalfWidth_SN": 20000,
+    "hitAreaHalfHeight_SN": 22500,
+    "canOverMaxSpeed": false,
+    "notRecordTakeDamage": false,
+    "battleDes": "",
+    "safeInformation": "",
+    "unitInformation": "",
+    "enemyDrop": [],
+    "abilityList": [],
+    "weaknessList": [],
+    "resistanceList": [],
+    "enemyType": 12601048,
+    "enemyCamp": 12601098,
+    "enemyBookId": 10001557,
+    "prisonerDrop": [],
+    "enemySkillList": [
+      {
+        "id": 80309988
+      }
+    ]
+  },
+  {
+    "id": 10001563,
+    "idCN": "世界BOSS/联动-箱庭内外/02玛丽·苏/难度1",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "玛丽·苏",
+    "EnglishName": "",
+    "viewId": 11000851,
+    "skinList": [],
+    "sideId": 12601160,
+    "controllerId": 10300732,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": -1,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12602190
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301432
+      },
+      {
+        "skillId": 12301441
+      },
+      {
+        "skillId": 12301421
+      },
+      {
+        "skillId": 12301423
+      },
+      {
+        "skillId": 12301418
+      },
+      {
+        "skillId": 12301446
+      },
+      {
+        "skillId": 12301367
+      },
+      {
+        "skillId": 12300200
+      },
+      {
+        "skillId": 12301412
+      },
+      {
+        "skillId": 12301410
+      },
+      {
+        "skillId": 12301447
+      },
+      {
+        "skillId": 12301413
+      },
+      {
+        "skillId": 12301445
+      },
+      {
+        "skillId": 12303487
+      },
+      {
+        "skillId": 12303489
+      },
+      {
+        "skillId": 12305283
+      },
+      {
+        "skillId": 12305292
+      }
+    ],
+    "hp_SN": 8580000000,
+    "def_SN": 880000,
+    "atk_SN": 920000,
+    "crit_SN": 0,
+    "critDMG_SN": 5000,
+    "atkSpeed_SN": 800000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "FiveStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000649,
+    "growthTagList": [
+      {
+        "growthTagId": 12000353
+      },
+      {
+        "growthTagId": 12000060
+      },
+      {
+        "growthTagId": 12000526
+      },
+      {
+        "growthTagId": 12000525
+      },
+      {
+        "growthTagId": 12000527
+      },
+      {
+        "growthTagId": 12000528
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800470
+      },
+      {
+        "talentId": 12800471
+      },
+      {
+        "talentId": 12800467
+      },
+      {
+        "talentId": 12800468
+      },
+      {
+        "talentId": 12800469
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10105348,
+    "actionMoveID": 10105351,
+    "actionAttackedID": 10105356,
+    "actionAttackedBackID": 10105357,
+    "actionKnockUpID": -1,
+    "actionStunID": 10105359,
+    "actionDeadID": 10105362,
+    "actionVictoryID": 10105348,
+    "hitPointX_SN": 3000,
+    "hitPointY_SN": 28200,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 22500,
+    "hitAreaHalfWidth_SN": 20000,
+    "hitAreaHalfHeight_SN": 22500,
+    "canOverMaxSpeed": false,
+    "notRecordTakeDamage": false,
+    "battleDes": "",
+    "safeInformation": "",
+    "unitInformation": "",
+    "enemyDrop": [],
+    "abilityList": [],
+    "weaknessList": [],
+    "resistanceList": [],
+    "enemyType": 12601048,
+    "enemyCamp": 12601098,
+    "enemyBookId": 10001555,
+    "prisonerDrop": [],
+    "enemySkillList": [
+      {
+        "id": 80309989
+      }
+    ]
+  },
+  {
+    "id": 10001564,
+    "idCN": "世界BOSS/联动-箱庭内外/02玛丽·苏/难度2",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "玛丽·苏",
+    "EnglishName": "",
+    "viewId": 11000851,
+    "skinList": [],
+    "sideId": 12601160,
+    "controllerId": 10300732,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": -1,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12602190
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301432
+      },
+      {
+        "skillId": 12301441
+      },
+      {
+        "skillId": 12301421
+      },
+      {
+        "skillId": 12301423
+      },
+      {
+        "skillId": 12301418
+      },
+      {
+        "skillId": 12301446
+      },
+      {
+        "skillId": 12301367
+      },
+      {
+        "skillId": 12300200
+      },
+      {
+        "skillId": 12301412
+      },
+      {
+        "skillId": 12301410
+      },
+      {
+        "skillId": 12301447
+      },
+      {
+        "skillId": 12301413
+      },
+      {
+        "skillId": 12301445
+      },
+      {
+        "skillId": 12303487
+      },
+      {
+        "skillId": 12303489
+      },
+      {
+        "skillId": 12305283
+      },
+      {
+        "skillId": 12305293
+      }
+    ],
+    "hp_SN": 8580000000,
+    "def_SN": 880000,
+    "atk_SN": 920000,
+    "crit_SN": 0,
+    "critDMG_SN": 5000,
+    "atkSpeed_SN": 800000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "FiveStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000649,
+    "growthTagList": [
+      {
+        "growthTagId": 12000353
+      },
+      {
+        "growthTagId": 12000060
+      },
+      {
+        "growthTagId": 12000526
+      },
+      {
+        "growthTagId": 12000525
+      },
+      {
+        "growthTagId": 12000527
+      },
+      {
+        "growthTagId": 12000528
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800470
+      },
+      {
+        "talentId": 12800471
+      },
+      {
+        "talentId": 12800467
+      },
+      {
+        "talentId": 12800468
+      },
+      {
+        "talentId": 12800469
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10105348,
+    "actionMoveID": 10105351,
+    "actionAttackedID": 10105356,
+    "actionAttackedBackID": 10105357,
+    "actionKnockUpID": -1,
+    "actionStunID": 10105359,
+    "actionDeadID": 10105362,
+    "actionVictoryID": 10105348,
+    "hitPointX_SN": 3000,
+    "hitPointY_SN": 28200,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 22500,
+    "hitAreaHalfWidth_SN": 20000,
+    "hitAreaHalfHeight_SN": 22500,
+    "canOverMaxSpeed": false,
+    "notRecordTakeDamage": false,
+    "battleDes": "",
+    "safeInformation": "",
+    "unitInformation": "",
+    "enemyDrop": [],
+    "abilityList": [],
+    "weaknessList": [],
+    "resistanceList": [],
+    "enemyType": 12601048,
+    "enemyCamp": 12601098,
+    "enemyBookId": 10001555,
+    "prisonerDrop": [],
+    "enemySkillList": [
+      {
+        "id": 80309990
+      }
+    ]
+  },
+  {
+    "id": 10001565,
+    "idCN": "世界BOSS/联动-箱庭内外/02玛丽·苏/难度3",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "玛丽·苏",
+    "EnglishName": "",
+    "viewId": 11000851,
+    "skinList": [],
+    "sideId": 12601160,
+    "controllerId": 10300732,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": -1,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12602190
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301432
+      },
+      {
+        "skillId": 12301441
+      },
+      {
+        "skillId": 12301421
+      },
+      {
+        "skillId": 12301423
+      },
+      {
+        "skillId": 12301418
+      },
+      {
+        "skillId": 12301446
+      },
+      {
+        "skillId": 12301367
+      },
+      {
+        "skillId": 12300200
+      },
+      {
+        "skillId": 12301412
+      },
+      {
+        "skillId": 12301410
+      },
+      {
+        "skillId": 12301447
+      },
+      {
+        "skillId": 12301413
+      },
+      {
+        "skillId": 12301445
+      },
+      {
+        "skillId": 12303487
+      },
+      {
+        "skillId": 12303489
+      },
+      {
+        "skillId": 12305283
+      },
+      {
+        "skillId": 12305294
+      }
+    ],
+    "hp_SN": 8580000000,
+    "def_SN": 880000,
+    "atk_SN": 920000,
+    "crit_SN": 0,
+    "critDMG_SN": 5000,
+    "atkSpeed_SN": 800000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "FiveStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000649,
+    "growthTagList": [
+      {
+        "growthTagId": 12000353
+      },
+      {
+        "growthTagId": 12000060
+      },
+      {
+        "growthTagId": 12000526
+      },
+      {
+        "growthTagId": 12000525
+      },
+      {
+        "growthTagId": 12000527
+      },
+      {
+        "growthTagId": 12000528
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800470
+      },
+      {
+        "talentId": 12800471
+      },
+      {
+        "talentId": 12800467
+      },
+      {
+        "talentId": 12800468
+      },
+      {
+        "talentId": 12800469
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10105348,
+    "actionMoveID": 10105351,
+    "actionAttackedID": 10105356,
+    "actionAttackedBackID": 10105357,
+    "actionKnockUpID": -1,
+    "actionStunID": 10105359,
+    "actionDeadID": 10105362,
+    "actionVictoryID": 10105348,
+    "hitPointX_SN": 3000,
+    "hitPointY_SN": 28200,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 22500,
+    "hitAreaHalfWidth_SN": 20000,
+    "hitAreaHalfHeight_SN": 22500,
+    "canOverMaxSpeed": false,
+    "notRecordTakeDamage": false,
+    "battleDes": "",
+    "safeInformation": "",
+    "unitInformation": "",
+    "enemyDrop": [],
+    "abilityList": [],
+    "weaknessList": [],
+    "resistanceList": [],
+    "enemyType": 12601048,
+    "enemyCamp": 12601098,
+    "enemyBookId": 10001555,
+    "prisonerDrop": [],
+    "enemySkillList": [
+      {
+        "id": 80309991
+      }
+    ]
+  },
+  {
+    "id": 10001566,
+    "idCN": "世界BOSS/联动-箱庭内外/02玛丽·苏/难度4",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "玛丽·苏",
+    "EnglishName": "",
+    "viewId": 11000851,
+    "skinList": [],
+    "sideId": 12601160,
+    "controllerId": 10300732,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": -1,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12602190
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301432
+      },
+      {
+        "skillId": 12301441
+      },
+      {
+        "skillId": 12301421
+      },
+      {
+        "skillId": 12301423
+      },
+      {
+        "skillId": 12301418
+      },
+      {
+        "skillId": 12301446
+      },
+      {
+        "skillId": 12301367
+      },
+      {
+        "skillId": 12300200
+      },
+      {
+        "skillId": 12301412
+      },
+      {
+        "skillId": 12301410
+      },
+      {
+        "skillId": 12301447
+      },
+      {
+        "skillId": 12301413
+      },
+      {
+        "skillId": 12301445
+      },
+      {
+        "skillId": 12303487
+      },
+      {
+        "skillId": 12303489
+      },
+      {
+        "skillId": 12305283
+      },
+      {
+        "skillId": 12305295
+      }
+    ],
+    "hp_SN": 8580000000,
+    "def_SN": 880000,
+    "atk_SN": 920000,
+    "crit_SN": 0,
+    "critDMG_SN": 5000,
+    "atkSpeed_SN": 800000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "FiveStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000649,
+    "growthTagList": [
+      {
+        "growthTagId": 12000353
+      },
+      {
+        "growthTagId": 12000060
+      },
+      {
+        "growthTagId": 12000526
+      },
+      {
+        "growthTagId": 12000525
+      },
+      {
+        "growthTagId": 12000527
+      },
+      {
+        "growthTagId": 12000528
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800470
+      },
+      {
+        "talentId": 12800471
+      },
+      {
+        "talentId": 12800467
+      },
+      {
+        "talentId": 12800468
+      },
+      {
+        "talentId": 12800469
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10105348,
+    "actionMoveID": 10105351,
+    "actionAttackedID": 10105356,
+    "actionAttackedBackID": 10105357,
+    "actionKnockUpID": -1,
+    "actionStunID": 10105359,
+    "actionDeadID": 10105362,
+    "actionVictoryID": 10105348,
+    "hitPointX_SN": 3000,
+    "hitPointY_SN": 28200,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 22500,
+    "hitAreaHalfWidth_SN": 20000,
+    "hitAreaHalfHeight_SN": 22500,
+    "canOverMaxSpeed": false,
+    "notRecordTakeDamage": false,
+    "battleDes": "",
+    "safeInformation": "",
+    "unitInformation": "",
+    "enemyDrop": [],
+    "abilityList": [],
+    "weaknessList": [],
+    "resistanceList": [],
+    "enemyType": 12601048,
+    "enemyCamp": 12601098,
+    "enemyBookId": 10001555,
+    "prisonerDrop": [],
+    "enemySkillList": [
+      {
+        "id": 80309992
+      }
+    ]
+  },
+  {
+    "id": 10001567,
+    "idCN": "世界BOSS/联动-箱庭内外/02玛丽·苏/难度5",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "玛丽·苏",
+    "EnglishName": "",
+    "viewId": 11000851,
+    "skinList": [],
+    "sideId": 12601160,
+    "controllerId": 10300732,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": -1,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12602190
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301432
+      },
+      {
+        "skillId": 12301441
+      },
+      {
+        "skillId": 12301421
+      },
+      {
+        "skillId": 12301423
+      },
+      {
+        "skillId": 12301418
+      },
+      {
+        "skillId": 12301446
+      },
+      {
+        "skillId": 12301367
+      },
+      {
+        "skillId": 12300200
+      },
+      {
+        "skillId": 12301412
+      },
+      {
+        "skillId": 12301410
+      },
+      {
+        "skillId": 12301447
+      },
+      {
+        "skillId": 12301413
+      },
+      {
+        "skillId": 12301445
+      },
+      {
+        "skillId": 12303487
+      },
+      {
+        "skillId": 12303489
+      },
+      {
+        "skillId": 12305283
+      },
+      {
+        "skillId": 12305296
+      }
+    ],
+    "hp_SN": 8580000000,
+    "def_SN": 880000,
+    "atk_SN": 920000,
+    "crit_SN": 0,
+    "critDMG_SN": 5000,
+    "atkSpeed_SN": 800000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "FiveStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000649,
+    "growthTagList": [
+      {
+        "growthTagId": 12000353
+      },
+      {
+        "growthTagId": 12000060
+      },
+      {
+        "growthTagId": 12000526
+      },
+      {
+        "growthTagId": 12000525
+      },
+      {
+        "growthTagId": 12000527
+      },
+      {
+        "growthTagId": 12000528
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800470
+      },
+      {
+        "talentId": 12800471
+      },
+      {
+        "talentId": 12800467
+      },
+      {
+        "talentId": 12800468
+      },
+      {
+        "talentId": 12800469
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10105348,
+    "actionMoveID": 10105351,
+    "actionAttackedID": 10105356,
+    "actionAttackedBackID": 10105357,
+    "actionKnockUpID": -1,
+    "actionStunID": 10105359,
+    "actionDeadID": 10105362,
+    "actionVictoryID": 10105348,
+    "hitPointX_SN": 3000,
+    "hitPointY_SN": 28200,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 22500,
+    "hitAreaHalfWidth_SN": 20000,
+    "hitAreaHalfHeight_SN": 22500,
+    "canOverMaxSpeed": false,
+    "notRecordTakeDamage": false,
+    "battleDes": "",
+    "safeInformation": "",
+    "unitInformation": "",
+    "enemyDrop": [],
+    "abilityList": [],
+    "weaknessList": [],
+    "resistanceList": [],
+    "enemyType": 12601048,
+    "enemyCamp": 12601098,
+    "enemyBookId": 10001555,
+    "prisonerDrop": [],
+    "enemySkillList": [
+      {
+        "id": 80309993
+      }
+    ]
+  },
+  {
+    "id": 10001568,
+    "idCN": "世界BOSS/联动-箱庭内外/03玛丽·安/难度1",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "玛丽·安",
+    "EnglishName": "",
+    "viewId": 11000857,
+    "skinList": [],
+    "sideId": 12601160,
+    "controllerId": 10300731,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": -1,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12602190
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301432
+      },
+      {
+        "skillId": 12301441
+      },
+      {
+        "skillId": 12301421
+      },
+      {
+        "skillId": 12301423
+      },
+      {
+        "skillId": 12301418
+      },
+      {
+        "skillId": 12301446
+      },
+      {
+        "skillId": 12301367
+      },
+      {
+        "skillId": 12300200
+      },
+      {
+        "skillId": 12301412
+      },
+      {
+        "skillId": 12301410
+      },
+      {
+        "skillId": 12301447
+      },
+      {
+        "skillId": 12301413
+      },
+      {
+        "skillId": 12301445
+      },
+      {
+        "skillId": 12303487
+      },
+      {
+        "skillId": 12303489
+      },
+      {
+        "skillId": 12305283
+      },
+      {
+        "skillId": 12305285
+      },
+      {
+        "skillId": 12303859
+      },
+      {
+        "skillId": 12305297
+      }
+    ],
+    "hp_SN": 8970000000,
+    "def_SN": 920000,
+    "atk_SN": 970000,
+    "crit_SN": 0,
+    "critDMG_SN": 5000,
+    "atkSpeed_SN": 800000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "FiveStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000650,
+    "growthTagList": [
+      {
+        "growthTagId": 12000353
+      },
+      {
+        "growthTagId": 12000060
+      },
+      {
+        "growthTagId": 12000526
+      },
+      {
+        "growthTagId": 12000525
+      },
+      {
+        "growthTagId": 12000527
+      },
+      {
+        "growthTagId": 12000528
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800470
+      },
+      {
+        "talentId": 12800471
+      },
+      {
+        "talentId": 12800467
+      },
+      {
+        "talentId": 12800468
+      },
+      {
+        "talentId": 12800469
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10105440,
+    "actionMoveID": 10105441,
+    "actionAttackedID": 10105442,
+    "actionAttackedBackID": 10105443,
+    "actionKnockUpID": -1,
+    "actionStunID": 10105444,
+    "actionDeadID": 10105445,
+    "actionVictoryID": 10105440,
+    "hitPointX_SN": 3000,
+    "hitPointY_SN": 28200,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 22500,
+    "hitAreaHalfWidth_SN": 20000,
+    "hitAreaHalfHeight_SN": 22500,
+    "canOverMaxSpeed": false,
+    "notRecordTakeDamage": false,
+    "battleDes": "",
+    "safeInformation": "",
+    "unitInformation": "",
+    "enemyDrop": [],
+    "abilityList": [],
+    "weaknessList": [],
+    "resistanceList": [],
+    "enemyType": 12601048,
+    "enemyCamp": 12601098,
+    "enemyBookId": 10001556,
+    "prisonerDrop": [],
+    "enemySkillList": [
+      {
+        "id": 80309994
+      }
+    ]
+  },
+  {
+    "id": 10001569,
+    "idCN": "世界BOSS/联动-箱庭内外/03玛丽·安/难度2",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "玛丽·安",
+    "EnglishName": "",
+    "viewId": 11000857,
+    "skinList": [],
+    "sideId": 12601160,
+    "controllerId": 10300731,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": -1,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12602190
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301432
+      },
+      {
+        "skillId": 12301441
+      },
+      {
+        "skillId": 12301421
+      },
+      {
+        "skillId": 12301423
+      },
+      {
+        "skillId": 12301418
+      },
+      {
+        "skillId": 12301446
+      },
+      {
+        "skillId": 12301367
+      },
+      {
+        "skillId": 12300200
+      },
+      {
+        "skillId": 12301412
+      },
+      {
+        "skillId": 12301410
+      },
+      {
+        "skillId": 12301447
+      },
+      {
+        "skillId": 12301413
+      },
+      {
+        "skillId": 12301445
+      },
+      {
+        "skillId": 12303487
+      },
+      {
+        "skillId": 12303489
+      },
+      {
+        "skillId": 12305283
+      },
+      {
+        "skillId": 12305285
+      },
+      {
+        "skillId": 12303859
+      },
+      {
+        "skillId": 12305298
+      }
+    ],
+    "hp_SN": 8970000000,
+    "def_SN": 920000,
+    "atk_SN": 970000,
+    "crit_SN": 0,
+    "critDMG_SN": 5000,
+    "atkSpeed_SN": 800000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "FiveStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000650,
+    "growthTagList": [
+      {
+        "growthTagId": 12000353
+      },
+      {
+        "growthTagId": 12000060
+      },
+      {
+        "growthTagId": 12000526
+      },
+      {
+        "growthTagId": 12000525
+      },
+      {
+        "growthTagId": 12000527
+      },
+      {
+        "growthTagId": 12000528
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800470
+      },
+      {
+        "talentId": 12800471
+      },
+      {
+        "talentId": 12800467
+      },
+      {
+        "talentId": 12800468
+      },
+      {
+        "talentId": 12800469
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10105440,
+    "actionMoveID": 10105441,
+    "actionAttackedID": 10105442,
+    "actionAttackedBackID": 10105443,
+    "actionKnockUpID": -1,
+    "actionStunID": 10105444,
+    "actionDeadID": 10105445,
+    "actionVictoryID": 10105440,
+    "hitPointX_SN": 3000,
+    "hitPointY_SN": 28200,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 22500,
+    "hitAreaHalfWidth_SN": 20000,
+    "hitAreaHalfHeight_SN": 22500,
+    "canOverMaxSpeed": false,
+    "notRecordTakeDamage": false,
+    "battleDes": "",
+    "safeInformation": "",
+    "unitInformation": "",
+    "enemyDrop": [],
+    "abilityList": [],
+    "weaknessList": [],
+    "resistanceList": [],
+    "enemyType": 12601048,
+    "enemyCamp": 12601098,
+    "enemyBookId": 10001556,
+    "prisonerDrop": [],
+    "enemySkillList": [
+      {
+        "id": 80309995
+      }
+    ]
+  },
+  {
+    "id": 10001570,
+    "idCN": "世界BOSS/联动-箱庭内外/03玛丽·安/难度3",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "玛丽·安",
+    "EnglishName": "",
+    "viewId": 11000857,
+    "skinList": [],
+    "sideId": 12601160,
+    "controllerId": 10300731,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": -1,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12602190
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301432
+      },
+      {
+        "skillId": 12301441
+      },
+      {
+        "skillId": 12301421
+      },
+      {
+        "skillId": 12301423
+      },
+      {
+        "skillId": 12301418
+      },
+      {
+        "skillId": 12301446
+      },
+      {
+        "skillId": 12301367
+      },
+      {
+        "skillId": 12300200
+      },
+      {
+        "skillId": 12301412
+      },
+      {
+        "skillId": 12301410
+      },
+      {
+        "skillId": 12301447
+      },
+      {
+        "skillId": 12301413
+      },
+      {
+        "skillId": 12301445
+      },
+      {
+        "skillId": 12303487
+      },
+      {
+        "skillId": 12303489
+      },
+      {
+        "skillId": 12305283
+      },
+      {
+        "skillId": 12305285
+      },
+      {
+        "skillId": 12303859
+      },
+      {
+        "skillId": 12305299
+      }
+    ],
+    "hp_SN": 8970000000,
+    "def_SN": 920000,
+    "atk_SN": 970000,
+    "crit_SN": 0,
+    "critDMG_SN": 5000,
+    "atkSpeed_SN": 800000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "FiveStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000650,
+    "growthTagList": [
+      {
+        "growthTagId": 12000353
+      },
+      {
+        "growthTagId": 12000060
+      },
+      {
+        "growthTagId": 12000526
+      },
+      {
+        "growthTagId": 12000525
+      },
+      {
+        "growthTagId": 12000527
+      },
+      {
+        "growthTagId": 12000528
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800470
+      },
+      {
+        "talentId": 12800471
+      },
+      {
+        "talentId": 12800467
+      },
+      {
+        "talentId": 12800468
+      },
+      {
+        "talentId": 12800469
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10105440,
+    "actionMoveID": 10105441,
+    "actionAttackedID": 10105442,
+    "actionAttackedBackID": 10105443,
+    "actionKnockUpID": -1,
+    "actionStunID": 10105444,
+    "actionDeadID": 10105445,
+    "actionVictoryID": 10105440,
+    "hitPointX_SN": 3000,
+    "hitPointY_SN": 28200,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 22500,
+    "hitAreaHalfWidth_SN": 20000,
+    "hitAreaHalfHeight_SN": 22500,
+    "canOverMaxSpeed": false,
+    "notRecordTakeDamage": false,
+    "battleDes": "",
+    "safeInformation": "",
+    "unitInformation": "",
+    "enemyDrop": [],
+    "abilityList": [],
+    "weaknessList": [],
+    "resistanceList": [],
+    "enemyType": 12601048,
+    "enemyCamp": 12601098,
+    "enemyBookId": 10001556,
+    "prisonerDrop": [],
+    "enemySkillList": [
+      {
+        "id": 80309996
+      }
+    ]
+  },
+  {
+    "id": 10001572,
+    "idCN": "世界BOSS/联动-箱庭内外/03玛丽·安/难度5",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "玛丽·安",
+    "EnglishName": "",
+    "viewId": 11000857,
+    "skinList": [],
+    "sideId": 12601160,
+    "controllerId": 10300731,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": -1,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12602190
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301432
+      },
+      {
+        "skillId": 12301441
+      },
+      {
+        "skillId": 12301421
+      },
+      {
+        "skillId": 12301423
+      },
+      {
+        "skillId": 12301418
+      },
+      {
+        "skillId": 12301446
+      },
+      {
+        "skillId": 12301367
+      },
+      {
+        "skillId": 12300200
+      },
+      {
+        "skillId": 12301412
+      },
+      {
+        "skillId": 12301410
+      },
+      {
+        "skillId": 12301447
+      },
+      {
+        "skillId": 12301413
+      },
+      {
+        "skillId": 12301445
+      },
+      {
+        "skillId": 12303487
+      },
+      {
+        "skillId": 12303489
+      },
+      {
+        "skillId": 12305283
+      },
+      {
+        "skillId": 12305285
+      },
+      {
+        "skillId": 12303859
+      },
+      {
+        "skillId": 12305301
+      }
+    ],
+    "hp_SN": 8970000000,
+    "def_SN": 920000,
+    "atk_SN": 970000,
+    "crit_SN": 0,
+    "critDMG_SN": 5000,
+    "atkSpeed_SN": 800000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "FiveStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000650,
+    "growthTagList": [
+      {
+        "growthTagId": 12000353
+      },
+      {
+        "growthTagId": 12000060
+      },
+      {
+        "growthTagId": 12000526
+      },
+      {
+        "growthTagId": 12000525
+      },
+      {
+        "growthTagId": 12000527
+      },
+      {
+        "growthTagId": 12000528
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800470
+      },
+      {
+        "talentId": 12800471
+      },
+      {
+        "talentId": 12800467
+      },
+      {
+        "talentId": 12800468
+      },
+      {
+        "talentId": 12800469
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10105440,
+    "actionMoveID": 10105441,
+    "actionAttackedID": 10105442,
+    "actionAttackedBackID": 10105443,
+    "actionKnockUpID": -1,
+    "actionStunID": 10105444,
+    "actionDeadID": 10105445,
+    "actionVictoryID": 10105440,
+    "hitPointX_SN": 3000,
+    "hitPointY_SN": 28200,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 22500,
+    "hitAreaHalfWidth_SN": 20000,
+    "hitAreaHalfHeight_SN": 22500,
+    "canOverMaxSpeed": false,
+    "notRecordTakeDamage": false,
+    "battleDes": "",
+    "safeInformation": "",
+    "unitInformation": "",
+    "enemyDrop": [],
+    "abilityList": [],
+    "weaknessList": [],
+    "resistanceList": [],
+    "enemyType": 12601048,
+    "enemyCamp": 12601098,
+    "enemyBookId": 10001556,
+    "prisonerDrop": [],
+    "enemySkillList": [
+      {
+        "id": 80309998
+      }
+    ]
+  },
+  {
+    "id": 10001571,
+    "idCN": "世界BOSS/联动-箱庭内外/03玛丽·安/难度4",
+    "mod": "敌方角色",
+    "isInformalData": false,
+    "name": "玛丽·安",
+    "EnglishName": "",
+    "viewId": 11000857,
+    "skinList": [],
+    "sideId": 12601160,
+    "controllerId": 10300731,
+    "bulletControllerList": [],
+    "isBoss": true,
+    "bossHpTemp": -1,
+    "isDeadNotDisappear": false,
+    "isFly": false,
+    "originFlyYSN": 0,
+    "randomOffsetFlyYSN": 0,
+    "flyOnStraight": false,
+    "classifyTagList": [],
+    "tagList": [
+      {
+        "tagId": 12600246
+      },
+      {
+        "tagId": 12602190
+      }
+    ],
+    "passiveSkillList": [
+      {
+        "skillId": 12301432
+      },
+      {
+        "skillId": 12301441
+      },
+      {
+        "skillId": 12301421
+      },
+      {
+        "skillId": 12301423
+      },
+      {
+        "skillId": 12301418
+      },
+      {
+        "skillId": 12301446
+      },
+      {
+        "skillId": 12301367
+      },
+      {
+        "skillId": 12300200
+      },
+      {
+        "skillId": 12301412
+      },
+      {
+        "skillId": 12301410
+      },
+      {
+        "skillId": 12301447
+      },
+      {
+        "skillId": 12301413
+      },
+      {
+        "skillId": 12301445
+      },
+      {
+        "skillId": 12303487
+      },
+      {
+        "skillId": 12303489
+      },
+      {
+        "skillId": 12305283
+      },
+      {
+        "skillId": 12305285
+      },
+      {
+        "skillId": 12303859
+      },
+      {
+        "skillId": 12305300
+      }
+    ],
+    "hp_SN": 8970000000,
+    "def_SN": 920000,
+    "atk_SN": 970000,
+    "crit_SN": 0,
+    "critDMG_SN": 5000,
+    "atkSpeed_SN": 800000,
+    "luck_SN": 0,
+    "spName": "",
+    "specialGiftDes": "",
+    "quality": "FiveStar",
+    "allSkillList": [],
+    "skillList": [],
+    "noUpgradeSkillList": [],
+    "equipmentSlotList": [],
+    "growthId": 12000650,
+    "growthTagList": [
+      {
+        "growthTagId": 12000353
+      },
+      {
+        "growthTagId": 12000060
+      },
+      {
+        "growthTagId": 12000526
+      },
+      {
+        "growthTagId": 12000525
+      },
+      {
+        "growthTagId": 12000527
+      },
+      {
+        "growthTagId": 12000528
+      }
+    ],
+    "skillLvUpList": [],
+    "breakthroughList": [],
+    "awakeList": [
+      {
+        "awakeId": 12200403
+      },
+      {
+        "awakeId": 12200404
+      },
+      {
+        "awakeId": 12200408
+      },
+      {
+        "awakeId": 12200405
+      },
+      {
+        "awakeId": 12200406
+      },
+      {
+        "awakeId": 12200407
+      }
+    ],
+    "talentList": [
+      {
+        "talentId": 12800470
+      },
+      {
+        "talentId": 12800471
+      },
+      {
+        "talentId": 12800467
+      },
+      {
+        "talentId": 12800468
+      },
+      {
+        "talentId": 12800469
+      }
+    ],
+    "rewardList": [],
+    "actionStandID": 10105440,
+    "actionMoveID": 10105441,
+    "actionAttackedID": 10105442,
+    "actionAttackedBackID": 10105443,
+    "actionKnockUpID": -1,
+    "actionStunID": 10105444,
+    "actionDeadID": 10105445,
+    "actionVictoryID": 10105440,
+    "hitPointX_SN": 3000,
+    "hitPointY_SN": 28200,
+    "hitAreaX_SN": 0,
+    "hitAreaY_SN": 22500,
+    "hitAreaHalfWidth_SN": 20000,
+    "hitAreaHalfHeight_SN": 22500,
+    "canOverMaxSpeed": false,
+    "notRecordTakeDamage": false,
+    "battleDes": "",
+    "safeInformation": "",
+    "unitInformation": "",
+    "enemyDrop": [],
+    "abilityList": [],
+    "weaknessList": [],
+    "resistanceList": [],
+    "enemyType": 12601048,
+    "enemyCamp": 12601098,
+    "enemyBookId": 10001556,
+    "prisonerDrop": [],
+    "enemySkillList": [
+      {
+        "id": 80309997
       }
     ]
   }
