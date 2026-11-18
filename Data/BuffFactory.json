@@ -264645,7 +264645,7 @@
         "targetType": "Target"
       },
       {
-        "buffId": 10404206,
+        "buffId": 10432589,
         "targetType": "Target"
       },
       {
@@ -265116,11 +265116,6 @@
         "buffId": 10409275,
         "targetType": "Target"
       },
-      {
-        "buffId": 10409295,
-        "targetType": "Target"
-      },
-      {},
       {}
     ],
     "sound": -1
@@ -383938,11 +383933,6 @@
         "buffId": 10413155,
         "targetType": "Target"
       },
-      {
-        "buffId": 10409295,
-        "targetType": "Target"
-      },
-      {},
       {}
     ],
     "sound": -1
@@ -384525,7 +384515,7 @@
         "targetType": "Target"
       },
       {
-        "buffId": 10404206,
+        "buffId": 10432589,
         "targetType": "Target"
       },
       {
@@ -977830,7 +977820,12 @@
     "isNotChangePos": false,
     "summonID": 10001545,
     "isSummonSelf": false,
-    "skinList": [],
+    "skinList": [
+      {
+        "ownerSkinId": 11000863,
+        "selfSkinId": 11000865
+      }
+    ],
     "buffId": 10432284,
     "isFixedPosition": false,
     "offsetX_SN": -20000,
@@ -978875,7 +978870,7 @@
     "baseEffect": "OtherEffect",
     "isNotChangePos": false,
     "isBindAction": false,
-    "sound": -1,
+    "sound": 30001333,
     "isDispelFightEnd": false,
     "isNotRecordDamageAsCard": false,
     "iconUrl": "",
@@ -978901,14 +978896,8 @@
     "dispelEffectList": [],
     "appearEffectList": [
       {
-        "effectId": 11102889,
-        "effectPointType": "Origin",
-        "offsetX": 0.0,
-        "offsetY": 0.0
-      },
-      {
-        "effectId": 11102891,
-        "effectPointType": "Origin",
+        "effectId": 11103611,
+        "effectPointType": "BattleCenter",
         "offsetX": 0.0,
         "offsetY": 0.0
       }
@@ -986360,7 +986349,7 @@
     "typeTagList": [],
     "baseEffect": "OtherEffect",
     "isNotChangePos": false,
-    "sound": -1,
+    "sound": 30001363,
     "effectPointType": "GetHit",
     "effectId": 11103028
   },
@@ -989884,5 +989873,138 @@
     "sound": -1,
     "targetBuffId": 10413108,
     "dispelTime": 4
+  },
+  {
+    "id": 10432589,
+    "idCN": "快乐BUFF树/01敌方/通用/转阶段无敌",
+    "mod": "BUFF树",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "treeRoot": [
+      {
+        "buffId": 10400616,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432590,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432591,
+        "targetType": "Target"
+      },
+      {},
+      {},
+      {}
+    ],
+    "sound": -1
+  },
+  {
+    "id": 10432590,
+    "idCN": "BUFF/01敌方/通用/转阶段无敌/霸体",
+    "mod": "霸体",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "isBindAction": false,
+    "isDispelFightEnd": false,
+    "isNotRecordDamageAsCard": false,
+    "iconUrl": "",
+    "cantBeDispelled": true,
+    "bForever": false,
+    "durationFrame": 1,
+    "sourceBase": "CustomData",
+    "customDataTagBase": "WuDiT",
+    "buffTypeFO": -1,
+    "overlayType": "NotChange",
+    "sourceList": [],
+    "overlayTimeType": "Reset",
+    "level": 1,
+    "levelTag": "",
+    "levelMax": 1,
+    "levelMaxTag": "",
+    "maxLevelBuffId": -1,
+    "isSameAttribute": false,
+    "attributeChangeList": [],
+    "baseValue_SN": 10000,
+    "baseRateTag": "",
+    "timeUpEffectList": [],
+    "dispelEffectList": [],
+    "appearEffectList": [],
+    "buffEffectByLevel": [],
+    "disappearEffectList": [],
+    "bDamageWithLevel": false,
+    "bShowLevel": false,
+    "showLevelInfoId": -1,
+    "enableOutline": false,
+    "lineColorR": 0,
+    "lineColorG": 0,
+    "lineColorB": 0,
+    "lineColorA": 0.0,
+    "outlineWidth": 0.0,
+    "sound": -1
+  },
+  {
+    "id": 10432591,
+    "idCN": "BUFF/01敌方/通用/转阶段无敌/免疫伤害",
+    "mod": "免疫伤害",
+    "isInformalData": false,
+    "battleTagIdList": [
+      {
+        "tagId": 12600089
+      }
+    ],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "isBindAction": false,
+    "isDispelFightEnd": false,
+    "isNotRecordDamageAsCard": false,
+    "iconUrl": "",
+    "cantBeDispelled": true,
+    "bForever": false,
+    "durationFrame": 0,
+    "sourceBase": "CustomData",
+    "customDataTagBase": "WuDiT",
+    "buffTypeFO": -1,
+    "overlayType": "NotChange",
+    "sourceList": [],
+    "overlayTimeType": "Reset",
+    "level": 1,
+    "levelTag": "",
+    "levelMax": 1,
+    "levelMaxTag": "",
+    "maxLevelBuffId": -1,
+    "isSameAttribute": true,
+    "attributeChangeList": [
+      {
+        "attributeType": "GetDamageFinalDown",
+        "level": 1,
+        "numberType": "Percent",
+        "rateTag": "",
+        "skillSelect": "Default",
+        "value_SN": 10000
+      }
+    ],
+    "baseValue_SN": 10000,
+    "baseRateTag": "",
+    "timeUpEffectList": [],
+    "dispelEffectList": [],
+    "appearEffectList": [],
+    "buffEffectByLevel": [],
+    "disappearEffectList": [],
+    "bDamageWithLevel": false,
+    "bShowLevel": false,
+    "showLevelInfoId": -1,
+    "isImmuneOnlyOne": false,
+    "isFromSelf": false,
+    "buff": -1,
+    "isShowImmune": false,
+    "sound": 30003065
   }
 ]
