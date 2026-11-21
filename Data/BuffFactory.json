@@ -258379,12 +258379,13 @@
     "filterBuffFO": -1,
     "filterBuffJudgeType": "Greater",
     "filterBuffLevel": 0,
+    "buffSortType": "All",
     "filterStance": "DeafaultStance",
     "filterPosition": "DefaultPos",
     "isAimSelf": false,
     "targetCount": 30,
     "radius_SN": 240000,
-    "buffId": 10404687,
+    "buffId": 10432513,
     "isRandom": false,
     "useTargetProperty": false,
     "sound": -1
@@ -579644,34 +579645,9 @@
         "targetType": "Target"
       },
       {
-        "buffId": 10420400,
-        "targetType": "Target"
-      },
-      {
-        "buffId": 10420401,
-        "targetType": "Target"
-      },
-      {
-        "buffId": 10420402,
-        "targetType": "Target"
-      },
-      {
         "buffId": 10422569,
-        "targetType": "Target"
+        "targetType": "Owner"
       },
-      {
-        "buffId": 10422568,
-        "targetType": "Target"
-      },
-      {
-        "buffId": 10420410,
-        "targetType": "Target"
-      },
-      {},
-      {},
-      {},
-      {},
-      {},
       {},
       {}
     ],
@@ -579743,41 +579719,15 @@
   },
   {
     "id": 10420402,
-    "idCN": "快乐BUFF树/00我方/05五星/真咲/共振5/判断无界之渊融合数量",
-    "mod": "BUFF树",
+    "idCN": "BUFF/00我方/05五星/真咲/共振5/结算手牌融合",
+    "mod": "GS",
     "isInformalData": false,
     "battleTagIdList": [],
     "typeTagList": [],
     "baseEffect": "OtherEffect",
     "isNotChangePos": false,
-    "treeRoot": [
-      {
-        "buffId": 10420403,
-        "targetType": "Target"
-      },
-      {
-        "buffId": 10420404,
-        "targetType": "Target"
-      },
-      {
-        "buffId": 10420405,
-        "targetType": "Target"
-      },
-      {
-        "buffId": 10420406,
-        "targetType": "Target"
-      },
-      {},
-      {
-        "buffId": 10420407,
-        "targetType": "Target"
-      },
-      {},
-      {},
-      {},
-      {}
-    ],
-    "sound": -1
+    "sound": -1,
+    "logicId": 60000221
   },
   {
     "id": 10420403,
@@ -580006,8 +579956,8 @@
     "isNotChangePos": false,
     "destination": "Hand",
     "drawCardId": 12300756,
-    "source": "CustomData",
-    "customDataTag": "taiWuJieZhiYuanCount",
+    "source": "FixedValue",
+    "customDataTag": "",
     "rateFactorSN": 10000,
     "cost_SN": 0,
     "isTempCost": true,
@@ -580032,34 +579982,9 @@
         "targetType": "Owner"
       },
       {
-        "buffId": 10420400,
-        "targetType": "Target"
-      },
-      {
-        "buffId": 10420401,
-        "targetType": "Target"
-      },
-      {
-        "buffId": 10420402,
-        "targetType": "Target"
-      },
-      {
         "buffId": 10422569,
-        "targetType": "Target"
+        "targetType": "Owner"
       },
-      {
-        "buffId": 10422568,
-        "targetType": "Target"
-      },
-      {
-        "buffId": 10420410,
-        "targetType": "Target"
-      },
-      {},
-      {},
-      {},
-      {},
-      {},
       {},
       {}
     ],
@@ -672823,7 +672748,7 @@
   },
   {
     "id": 10422569,
-    "idCN": "BUFF/00我方/05五星/真咲/共振5/延迟销毁恶果",
+    "idCN": "BUFF/00我方/05五星/真咲/共振5/入手完成后检查融合",
     "mod": "循环",
     "isInformalData": false,
     "battleTagIdList": [],
@@ -672839,7 +672764,7 @@
     "durationFrame": 1,
     "sourceBase": "FixedValue",
     "customDataTagBase": "",
-    "buffTypeFO": -1,
+    "buffTypeFO": 13000028,
     "overlayType": "UseNew",
     "sourceList": [],
     "overlayTimeType": "NotChange",
@@ -672863,7 +672788,7 @@
     "skillParamSN": 10000,
     "skillParamTag": "",
     "loopFrame": 1,
-    "buffId": 10420409,
+    "buffId": 10420402,
     "isFirst": false,
     "sound": -1
   },
@@ -874409,7 +874334,7 @@
         "tagId": 12601827
       },
       {
-        "tagId": 12601832
+        "tagId": 12602180
       },
       {
         "tagId": 12601152
@@ -874417,7 +874342,7 @@
     ],
     "baseEffect": "OtherEffect",
     "isNotChangePos": false,
-    "type": "AntiEnergy",
+    "type": "Umbra",
     "isNotShowDamage": false,
     "isNotRecord": false,
     "banCrit": false,
@@ -982129,7 +982054,7 @@
   },
   {
     "id": 10432444,
-    "idCN": "BUFF/00我方/05五星/爱丽丝/共振2/持有者最终增伤",
+    "idCN": "BUFF/00我方/05五星/爱丽丝/共振2/邀约目标减伤",
     "mod": "持续效果",
     "isInformalData": false,
     "baseEffect": "OtherEffect",
@@ -982137,12 +982062,12 @@
     "isBindAction": false,
     "battleTagIdList": [],
     "typeTagList": [],
-    "bForever": true,
-    "durationFrame": 1,
+    "bForever": false,
+    "durationFrame": 3,
     "overlayType": "AddSource",
     "overlayTimeType": "NotChange",
     "level": 1,
-    "levelMax": 99,
+    "levelMax": 23,
     "isSameAttribute": true,
     "cantBeDispelled": true,
     "bShowLevel": false,
@@ -982150,14 +982075,16 @@
     "sourceBase": "FixedValue",
     "attributeChangeList": [
       {
-        "attributeType": "MakeDamageFinalUp",
+        "attributeType": "GetDamageDown",
         "level": 1,
         "value_SN": 2300,
         "numberType": "Percent",
         "rateTag": "",
         "skillSelect": "Default"
       }
-    ]
+    ],
+    "levelTag": "AliceFieldCount",
+    "levelMaxTag": "AliceFieldCount"
   },
   {
     "id": 10432445,
@@ -982184,7 +982111,7 @@
   },
   {
     "id": 10432446,
-    "idCN": "BUFF/00我方/05五星/爱丽丝/B/等待选牌结果",
+    "idCN": "BUFF/00我方/05五星/爱丽丝/B/置底卡牌奖励标记",
     "mod": "持续效果",
     "isInformalData": false,
     "baseEffect": "OtherEffect",
@@ -982194,10 +982121,10 @@
     "typeTagList": [],
     "bForever": true,
     "durationFrame": 1,
-    "overlayType": "UseNew",
+    "overlayType": "NotChange",
     "overlayTimeType": "NotChange",
     "level": 1,
-    "levelMax": 1,
+    "levelMax": 99,
     "isSameAttribute": true,
     "cantBeDispelled": true,
     "bShowLevel": false,
@@ -982253,7 +982180,7 @@
   },
   {
     "id": 10432449,
-    "idCN": "BUFF/00我方/05五星/爱丽丝/共振5/潜行者的恐惧/攻击降低",
+    "idCN": "BUFF/00我方/05五星/爱丽丝/养成2/低语延时参数",
     "mod": "持续效果",
     "isInformalData": false,
     "baseEffect": "OtherEffect",
@@ -982263,29 +982190,20 @@
     "typeTagList": [],
     "bForever": true,
     "durationFrame": 1,
-    "overlayType": "AddSource",
+    "overlayType": "UseNew",
     "overlayTimeType": "NotChange",
     "level": 1,
-    "levelMax": 23,
+    "levelMax": 1,
     "isSameAttribute": true,
     "cantBeDispelled": true,
     "bShowLevel": false,
     "baseValue_SN": 10000,
     "sourceBase": "FixedValue",
-    "attributeChangeList": [
-      {
-        "attributeType": "Atk",
-        "level": 1,
-        "value_SN": -100,
-        "numberType": "Percent",
-        "rateTag": "",
-        "skillSelect": "Default"
-      }
-    ]
+    "attributeChangeList": []
   },
   {
     "id": 10432450,
-    "idCN": "BUFF/00我方/05五星/爱丽丝/共振5/潜行者的恐惧/防御降低",
+    "idCN": "BUFF/00我方/05五星/爱丽丝/A-1/队长技加倍剩余次数",
     "mod": "持续效果",
     "isInformalData": false,
     "baseEffect": "OtherEffect",
@@ -982298,22 +982216,13 @@
     "overlayType": "AddSource",
     "overlayTimeType": "NotChange",
     "level": 1,
-    "levelMax": 23,
+    "levelMax": 99,
     "isSameAttribute": true,
     "cantBeDispelled": true,
     "bShowLevel": false,
     "baseValue_SN": 10000,
     "sourceBase": "FixedValue",
-    "attributeChangeList": [
-      {
-        "attributeType": "Def",
-        "level": 1,
-        "value_SN": -100,
-        "numberType": "Percent",
-        "rateTag": "",
-        "skillSelect": "Default"
-      }
-    ]
+    "attributeChangeList": []
   },
   {
     "id": 10432451,
@@ -982338,9 +982247,9 @@
     "sourceBase": "FixedValue",
     "attributeChangeList": [
       {
-        "attributeType": "GetDamageFinalUp",
+        "attributeType": "GetDamageUp",
         "level": 1,
-        "value_SN": 100,
+        "value_SN": 230,
         "numberType": "Percent",
         "rateTag": "",
         "skillSelect": "Default"
@@ -982605,13 +982514,20 @@
   },
   {
     "id": 10432463,
-    "idCN": "BUFF/00我方/05五星/爱丽丝/B/顶部五张选牌",
+    "idCN": "BUFF/00我方/05五星/爱丽丝/B/检索目标自身至多五张",
     "mod": "牌库选牌",
     "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
     "baseEffect": "OtherEffect",
     "isNotChangePos": false,
     "cardNum": 5,
-    "cardNumTag": ""
+    "isSelf": true,
+    "isRandomDeck": false,
+    "cardNumTag": "",
+    "sound": -1,
+    "putSelectedCardOnDeckBottom": true,
+    "selectedDeckBottomBuffId": 10432446
   },
   {
     "id": 10432464,
@@ -982630,7 +982546,7 @@
   },
   {
     "id": 10432465,
-    "idCN": "BUFF/00我方/05五星/爱丽丝/队长技/每点费用缩短三秒",
+    "idCN": "BUFF/00我方/05五星/爱丽丝/队长技/每点费用缩短两秒",
     "mod": "指定队长技充能",
     "isInformalData": false,
     "battleTagIdList": [],
@@ -982639,7 +982555,7 @@
     "isNotChangePos": false,
     "sound": -1,
     "leaderId": 10800139,
-    "progress": 3
+    "progress": 2
   },
   {
     "id": 10432466,
@@ -982699,10 +982615,10 @@
     "customDataTag": "",
     "skillSelect": "Default",
     "skillRateFactorSN": 460000,
-    "skillRateTag": "A",
+    "skillRateTag": "",
     "isStraightDamage": false,
     "isIgnoreDefence": false,
-    "skillMultTag": true,
+    "skillMultTag": false,
     "isLeaderSource": false,
     "shakeXPerFrame": 0.0,
     "shakeDuration": 0,
@@ -982739,10 +982655,10 @@
     "customDataTag": "",
     "skillSelect": "Default",
     "skillRateFactorSN": 460000,
-    "skillRateTag": "A",
+    "skillRateTag": "",
     "isStraightDamage": false,
     "isIgnoreDefence": false,
-    "skillMultTag": true,
+    "skillMultTag": false,
     "isLeaderSource": false,
     "shakeXPerFrame": 0.0,
     "shakeDuration": 0,
@@ -982779,10 +982695,10 @@
     "customDataTag": "",
     "skillSelect": "Default",
     "skillRateFactorSN": 460000,
-    "skillRateTag": "A",
+    "skillRateTag": "",
     "isStraightDamage": false,
     "isIgnoreDefence": false,
-    "skillMultTag": true,
+    "skillMultTag": false,
     "isLeaderSource": false,
     "shakeXPerFrame": 0.0,
     "shakeDuration": 0,
@@ -982832,132 +982748,77 @@
   },
   {
     "id": 10432471,
-    "idCN": "BUFF/00我方/05五星/爱丽丝/A-1/恼怒低语/伤害",
-    "mod": "伤害",
+    "idCN": "BUFF/00我方/05五星/爱丽丝/觉醒2/已施加一次预告",
+    "mod": "持续效果",
     "isInformalData": false,
-    "battleTagIdList": [],
-    "typeTagList": [
-      {
-        "tagId": 12601827
-      },
-      {
-        "tagId": 12601830
-      },
-      {
-        "tagId": 12601954
-      }
-    ],
     "baseEffect": "OtherEffect",
     "isNotChangePos": false,
-    "sound": -1,
-    "type": "Fire",
-    "isNotShowDamage": false,
-    "isNotRecord": false,
-    "banCrit": false,
-    "isMustCrit": false,
-    "isNoAdditionalAttack": true,
-    "isNormalAttack": false,
-    "isSkillAttack": true,
-    "source": "Atk",
-    "customDataTag": "",
-    "skillSelect": "Default",
-    "skillRateFactorSN": 230000,
-    "skillRateTag": "",
-    "isStraightDamage": false,
-    "isIgnoreDefence": false,
-    "skillMultTag": false,
-    "isLeaderSource": false,
-    "shakeXPerFrame": 0.0,
-    "shakeDuration": 0,
-    "setCustomValue": "",
-    "isHitSpakle": false,
-    "critAddBuff": -1
+    "isBindAction": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "bForever": true,
+    "durationFrame": 1,
+    "overlayType": "UseNew",
+    "overlayTimeType": "NotChange",
+    "level": 1,
+    "levelMax": 1,
+    "isSameAttribute": true,
+    "cantBeDispelled": true,
+    "bShowLevel": false,
+    "baseValue_SN": 10000,
+    "sourceBase": "FixedValue",
+    "attributeChangeList": []
   },
   {
     "id": 10432472,
-    "idCN": "BUFF/00我方/05五星/爱丽丝/A-2/支配低语/伤害",
-    "mod": "伤害",
+    "idCN": "BUFF/00我方/05五星/爱丽丝/共振5/全队晦暗增伤",
+    "mod": "持续效果",
     "isInformalData": false,
-    "battleTagIdList": [],
-    "typeTagList": [
-      {
-        "tagId": 12601827
-      },
-      {
-        "tagId": 12602180
-      },
-      {
-        "tagId": 12601954
-      }
-    ],
     "baseEffect": "OtherEffect",
     "isNotChangePos": false,
-    "sound": -1,
-    "type": "Umbra",
-    "isNotShowDamage": false,
-    "isNotRecord": false,
-    "banCrit": false,
-    "isMustCrit": false,
-    "isNoAdditionalAttack": true,
-    "isNormalAttack": false,
-    "isSkillAttack": true,
-    "source": "Atk",
-    "customDataTag": "",
-    "skillSelect": "Default",
-    "skillRateFactorSN": 230000,
-    "skillRateTag": "",
-    "isStraightDamage": false,
-    "isIgnoreDefence": false,
-    "skillMultTag": false,
-    "isLeaderSource": false,
-    "shakeXPerFrame": 0.0,
-    "shakeDuration": 0,
-    "setCustomValue": "",
-    "isHitSpakle": false,
-    "critAddBuff": -1
+    "isBindAction": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "bForever": false,
+    "durationFrame": 3,
+    "overlayType": "AddSource",
+    "overlayTimeType": "NotChange",
+    "level": 1,
+    "levelMax": 99,
+    "isSameAttribute": true,
+    "cantBeDispelled": true,
+    "bShowLevel": false,
+    "baseValue_SN": 10000,
+    "sourceBase": "FixedValue",
+    "attributeChangeList": [
+      {
+        "attributeType": "MakeDamageUpUmbra",
+        "level": 1,
+        "value_SN": 230,
+        "numberType": "Percent",
+        "rateTag": "",
+        "skillSelect": "Default"
+      }
+    ],
+    "levelTag": "AliceFieldCount",
+    "levelMaxTag": "AliceFieldCount"
   },
   {
     "id": 10432473,
-    "idCN": "BUFF/00我方/05五星/爱丽丝/A-3/疯狂低语/伤害",
-    "mod": "伤害",
+    "idCN": "BUFF/00我方/05五星/爱丽丝/A-1/给队长牌增加一次加倍次数",
+    "mod": "指定Tag卡牌添加buff",
     "isInformalData": false,
     "battleTagIdList": [],
-    "typeTagList": [
-      {
-        "tagId": 12601827
-      },
-      {
-        "tagId": 12602076
-      },
-      {
-        "tagId": 12601954
-      }
-    ],
+    "typeTagList": [],
     "baseEffect": "OtherEffect",
     "isNotChangePos": false,
-    "sound": -1,
-    "type": "Psychic",
-    "isNotShowDamage": false,
-    "isNotRecord": false,
-    "banCrit": false,
-    "isMustCrit": false,
-    "isNoAdditionalAttack": true,
-    "isNormalAttack": false,
-    "isSkillAttack": true,
-    "source": "Atk",
-    "customDataTag": "",
-    "skillSelect": "Default",
-    "skillRateFactorSN": 230000,
-    "skillRateTag": "",
-    "isStraightDamage": false,
-    "isIgnoreDefence": true,
-    "skillMultTag": false,
-    "isLeaderSource": false,
-    "shakeXPerFrame": 0.0,
-    "shakeDuration": 0,
-    "setCustomValue": "",
-    "isHitSpakle": false,
-    "critAddBuff": -1
+    "from": "LeaderCard",
+    "tagList": [],
+    "tagType": "And",
+    "cardNum": 1,
+    "isRepeatable": false,
+    "targetType": "Everyone",
+    "buffId": 10432450
   },
   {
     "id": 10432474,
@@ -982991,7 +982852,7 @@
     "customDataTag": "",
     "skillSelect": "Default",
     "skillRateFactorSN": 230000,
-    "skillRateTag": "",
+    "skillRateTag": "AliceForecastDamage",
     "isStraightDamage": false,
     "isIgnoreDefence": false,
     "skillMultTag": false,
@@ -983074,10 +982935,10 @@
     "customDataTag": "",
     "skillSelect": "Default",
     "skillRateFactorSN": 230000,
-    "skillRateTag": "",
+    "skillRateTag": "AliceInviteMultiplier",
     "isStraightDamage": false,
     "isIgnoreDefence": false,
-    "skillMultTag": false,
+    "skillMultTag": true,
     "isLeaderSource": false,
     "shakeXPerFrame": 0.0,
     "shakeDuration": 0,
@@ -983087,116 +982948,74 @@
   },
   {
     "id": 10432477,
-    "idCN": "BUFF/00我方/05五星/爱丽丝/A-3/疯狂低语/逐段结算",
-    "mod": "BUFF树",
+    "idCN": "BUFF/00我方/05五星/爱丽丝/觉醒2/抽牌优先晦暗",
+    "mod": "标签检索",
     "isInformalData": false,
-    "baseEffect": "OtherEffect",
-    "isNotChangePos": false,
     "battleTagIdList": [],
     "typeTagList": [],
-    "treeRoot": [
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "sound": -1,
+    "cardSource": "OnlyDeck",
+    "isRandomDeck": true,
+    "isRandomGrave": false,
+    "source": "FixedValue",
+    "customDataTag": "",
+    "isCardNumFillHand": false,
+    "cardNum_SN": 10000,
+    "cardNumRateTag": "",
+    "condition": "All",
+    "cost_SN": 0,
+    "buffId": -1,
+    "targetBuffId": -1,
+    "isJudge": false,
+    "isRandom": false,
+    "isReturnInHand": true,
+    "isOverHandNum": false,
+    "tagList": [
       {
-        "buffId": 10432473,
-        "targetType": "Target"
-      },
-      {
-        "buffId": 10431997,
-        "targetType": "Target"
-      },
-      {},
-      {}
-    ]
+        "tagId": 12602254
+      }
+    ],
+    "tagType": "And",
+    "isSelf": false
   },
   {
     "id": 10432478,
-    "idCN": "BUFF/00我方/05五星/爱丽丝/A-1/恼怒低语/监听抽牌",
-    "mod": "卡牌触发-进入手牌",
+    "idCN": "BUFF/00我方/05五星/爱丽丝/A-1/恼怒低语/施加或续时",
+    "mod": "GS",
     "isInformalData": false,
     "baseEffect": "OtherEffect",
     "isNotChangePos": false,
-    "isBindAction": false,
     "battleTagIdList": [],
     "typeTagList": [],
-    "bForever": false,
-    "durationFrame": 300,
-    "overlayType": "UseNew",
-    "overlayTimeType": "Reset",
-    "level": 1,
-    "levelMax": 1,
-    "isSameAttribute": true,
-    "cantBeDispelled": true,
-    "bShowLevel": false,
-    "baseValue_SN": 10000,
-    "sourceBase": "FixedValue",
-    "attributeChangeList": [],
-    "buffId": 10432533,
-    "cooldownFrame": 0,
-    "isRefreshSnapshot": true,
-    "notUseCardActionData": true,
-    "isIgnoreDeadCard": false
+    "logicId": 60000214
   },
   {
     "id": 10432479,
-    "idCN": "BUFF/00我方/05五星/爱丽丝/A-2/支配低语/监听费用",
-    "mod": "累计费用触发",
+    "idCN": "BUFF/00我方/05五星/爱丽丝/A-2/支配低语/施加或续时",
+    "mod": "GS",
     "isInformalData": false,
     "baseEffect": "OtherEffect",
     "isNotChangePos": false,
-    "isBindAction": false,
     "battleTagIdList": [],
     "typeTagList": [],
-    "bForever": false,
-    "durationFrame": 300,
-    "overlayType": "UseNew",
-    "overlayTimeType": "Reset",
-    "level": 1,
-    "levelMax": 1,
-    "isSameAttribute": true,
-    "cantBeDispelled": true,
-    "bShowLevel": false,
-    "baseValue_SN": 10000,
-    "sourceBase": "FixedValue",
-    "attributeChangeList": [],
-    "buffId": 10432472,
-    "cooldownFrame": 0,
-    "isRefreshSnapshot": true,
-    "isAdd": false,
-    "targetSN": 10000,
-    "onlySkillC": false
+    "logicId": 60000214
   },
   {
     "id": 10432480,
-    "idCN": "BUFF/00我方/05五星/爱丽丝/A-3/疯狂低语/监听用牌",
-    "mod": "卡牌触发-连续使用指定tag卡牌",
+    "idCN": "BUFF/00我方/05五星/爱丽丝/A-3/疯狂低语/施加或续时",
+    "mod": "GS",
     "isInformalData": false,
     "baseEffect": "OtherEffect",
     "isNotChangePos": false,
-    "isBindAction": false,
     "battleTagIdList": [],
     "typeTagList": [],
-    "bForever": false,
-    "durationFrame": 300,
-    "overlayType": "UseNew",
-    "overlayTimeType": "Reset",
-    "level": 1,
-    "levelMax": 1,
-    "isSameAttribute": true,
-    "cantBeDispelled": true,
-    "bShowLevel": false,
-    "baseValue_SN": 10000,
-    "sourceBase": "FixedValue",
-    "attributeChangeList": [],
-    "buffId": 10432534,
-    "cooldownFrame": 0,
-    "isRefreshSnapshot": true,
-    "notUseCardActionData": true,
-    "count_SN": 10000,
-    "tagList": [],
-    "tagType": "And"
+    "logicId": 60000214
   },
   {
     "id": 10432481,
-    "idCN": "BUFF/00我方/05五星/爱丽丝/A-1/恼怒低语/最终易伤",
+    "idCN": "BUFF/00我方/05五星/爱丽丝/A-1/恼怒低语/防御降低",
     "mod": "持续效果",
     "isInformalData": false,
     "baseEffect": "OtherEffect",
@@ -983206,25 +983025,26 @@
     "typeTagList": [],
     "bForever": false,
     "durationFrame": 300,
-    "overlayType": "UseNew",
-    "overlayTimeType": "Reset",
+    "overlayType": "AddSource",
+    "overlayTimeType": "Add",
     "level": 1,
     "levelMax": 1,
     "isSameAttribute": true,
     "cantBeDispelled": true,
     "bShowLevel": false,
     "baseValue_SN": 10000,
-    "sourceBase": "FixedValue",
+    "sourceBase": "CustomData",
     "attributeChangeList": [
       {
-        "attributeType": "GetDamageFinalUp",
+        "attributeType": "Def",
         "level": 1,
-        "value_SN": 2300,
+        "value_SN": -2300,
         "numberType": "Percent",
         "rateTag": "",
         "skillSelect": "Default"
       }
-    ]
+    ],
+    "customDataTagBase": "AliceWhisperFrames"
   },
   {
     "id": 10432482,
@@ -983238,15 +983058,15 @@
     "typeTagList": [],
     "bForever": false,
     "durationFrame": 300,
-    "overlayType": "UseNew",
-    "overlayTimeType": "Reset",
+    "overlayType": "AddSource",
+    "overlayTimeType": "Add",
     "level": 1,
     "levelMax": 1,
     "isSameAttribute": true,
     "cantBeDispelled": true,
     "bShowLevel": false,
     "baseValue_SN": 10000,
-    "sourceBase": "FixedValue",
+    "sourceBase": "CustomData",
     "attributeChangeList": [
       {
         "attributeType": "Atk",
@@ -983256,11 +983076,12 @@
         "rateTag": "",
         "skillSelect": "Default"
       }
-    ]
+    ],
+    "customDataTagBase": "AliceWhisperFrames"
   },
   {
     "id": 10432483,
-    "idCN": "BUFF/00我方/05五星/爱丽丝/A-2/支配低语/防御降低",
+    "idCN": "BUFF/00我方/05五星/爱丽丝/S/假面下次额外结算",
     "mod": "持续效果",
     "isInformalData": false,
     "baseEffect": "OtherEffect",
@@ -983268,10 +983089,10 @@
     "isBindAction": false,
     "battleTagIdList": [],
     "typeTagList": [],
-    "bForever": false,
-    "durationFrame": 300,
+    "bForever": true,
+    "durationFrame": 1,
     "overlayType": "UseNew",
-    "overlayTimeType": "Reset",
+    "overlayTimeType": "NotChange",
     "level": 1,
     "levelMax": 1,
     "isSameAttribute": true,
@@ -983279,16 +983100,7 @@
     "bShowLevel": false,
     "baseValue_SN": 10000,
     "sourceBase": "FixedValue",
-    "attributeChangeList": [
-      {
-        "attributeType": "Def",
-        "level": 1,
-        "value_SN": -2300,
-        "numberType": "Percent",
-        "rateTag": "",
-        "skillSelect": "Default"
-      }
-    ]
+    "attributeChangeList": []
   },
   {
     "id": 10432484,
@@ -983306,12 +983118,12 @@
     "cantBeDispelled": false,
     "bForever": false,
     "durationFrame": 300,
-    "sourceBase": "FixedValue",
-    "customDataTagBase": "",
+    "sourceBase": "CustomData",
+    "customDataTagBase": "AliceWhisperFrames",
     "buffTypeFO": -1,
-    "overlayType": "UseNew",
+    "overlayType": "AddSource",
     "sourceList": [],
-    "overlayTimeType": "Reset",
+    "overlayTimeType": "Add",
     "level": 1,
     "levelTag": "",
     "levelMax": 1,
@@ -983388,63 +983200,14 @@
   },
   {
     "id": 10432487,
-    "idCN": "BUFF/00我方/05五星/爱丽丝/共振5/潜行者的恐惧/命中降低",
-    "mod": "额外附加buff-指定伤害buff",
+    "idCN": "BUFF/00我方/05五星/爱丽丝/觉醒2/施加预告并计数",
+    "mod": "GS",
     "isInformalData": false,
-    "battleTagIdList": [],
-    "typeTagList": [],
     "baseEffect": "OtherEffect",
     "isNotChangePos": false,
-    "isBindAction": false,
-    "isDispelFightEnd": false,
-    "isNotRecordDamageAsCard": false,
-    "iconUrl": "",
-    "cantBeDispelled": false,
-    "bForever": true,
-    "durationFrame": 1,
-    "sourceBase": "FixedValue",
-    "customDataTagBase": "",
-    "buffTypeFO": -1,
-    "overlayType": "UseNew",
-    "sourceList": [],
-    "overlayTimeType": "Reset",
-    "level": 1,
-    "levelTag": "",
-    "levelMax": 1,
-    "levelMaxTag": "",
-    "maxLevelBuffId": -1,
-    "isSameAttribute": false,
-    "attributeChangeList": [],
-    "baseValue_SN": 10000,
-    "baseRateTag": "",
-    "timeUpEffectList": [],
-    "dispelEffectList": [],
-    "appearEffectList": [],
-    "buffEffectByLevel": [],
-    "disappearEffectList": [],
-    "bDamageWithLevel": false,
-    "bShowLevel": false,
-    "showLevelInfoId": -1,
-    "sound": -1,
-    "buffId": 10432536,
-    "cooldownFrame": 0,
-    "isRefreshSnapshot": false,
-    "snapshotSource": 2,
-    "targetBuffId": -1,
-    "targetTagList": [],
-    "judgeType": "Or",
-    "toDamageSource": false,
-    "onlyFromSelf": false,
-    "onlyFromTarget": true,
-    "onlyToSelf": false,
-    "onlyToTarget": false,
-    "excuteBeforeDamage": 1,
-    "tag": "",
-    "overflowTag": "",
-    "isCumulativeTrigger": false,
-    "targetSN": 0,
-    "isPercent": false,
-    "targetTag": ""
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "logicId": 60000217
   },
   {
     "id": 10432488,
@@ -983515,11 +983278,6 @@
         "buffId": 10432478,
         "targetType": "Target"
       },
-      {
-        "buffId": 10432481,
-        "targetType": "Target"
-      },
-      {},
       {},
       {}
     ]
@@ -983546,16 +983304,6 @@
         "buffId": 10432479,
         "targetType": "Target"
       },
-      {
-        "buffId": 10432482,
-        "targetType": "Target"
-      },
-      {
-        "buffId": 10432483,
-        "targetType": "Target"
-      },
-      {},
-      {},
       {},
       {},
       {}
@@ -983583,11 +983331,6 @@
         "buffId": 10432480,
         "targetType": "Target"
       },
-      {
-        "buffId": 10432484,
-        "targetType": "Target"
-      },
-      {},
       {},
       {},
       {}
@@ -983691,7 +983434,7 @@
   },
   {
     "id": 10432497,
-    "idCN": "BUFF/00我方/05五星/爱丽丝/S/敌方全体每段",
+    "idCN": "BUFF/00我方/05五星/爱丽丝/S/给敌方全体挂伤害循环",
     "mod": "检索单位添加buff",
     "isInformalData": false,
     "battleTagIdList": [],
@@ -983716,7 +983459,7 @@
     "isAimSelf": false,
     "targetCount": 99,
     "radius_SN": 2400000,
-    "buffId": 10432470,
+    "buffId": 10432594,
     "isRandom": false,
     "useTargetProperty": false,
     "sound": -1
@@ -983780,7 +983523,7 @@
     "isAimSelf": false,
     "targetCount": 1,
     "radius_SN": 2400000,
-    "buffId": 10432452,
+    "buffId": 10432487,
     "isRandom": true,
     "useTargetProperty": false,
     "sound": -1
@@ -984071,6 +983814,10 @@
         "targetType": "Owner"
       },
       {
+        "buffId": 10432473,
+        "targetType": "Owner"
+      },
+      {
         "buffId": 10432508,
         "targetType": "Owner"
       },
@@ -984082,6 +983829,12 @@
         "buffId": 10401928,
         "targetType": "Owner"
       },
+      {
+        "buffId": 10432534,
+        "targetType": "Owner"
+      },
+      {},
+      {},
       {},
       {},
       {},
@@ -984106,6 +983859,11 @@
         "buffId": 10432495,
         "targetType": "Target"
       },
+      {
+        "buffId": 10432534,
+        "targetType": "Owner"
+      },
+      {},
       {},
       {}
     ]
@@ -984128,28 +983886,11 @@
         "buffId": 10432496,
         "targetType": "Target"
       },
+      {
+        "buffId": 10432534,
+        "targetType": "Owner"
+      },
       {},
-      {}
-    ]
-  },
-  {
-    "id": 10432513,
-    "idCN": "BUFF/00我方/05五星/爱丽丝/B/执行",
-    "mod": "BUFF树",
-    "isInformalData": false,
-    "baseEffect": "OtherEffect",
-    "isNotChangePos": false,
-    "battleTagIdList": [],
-    "typeTagList": [],
-    "treeRoot": [
-      {
-        "buffId": 10432446,
-        "targetType": "Target"
-      },
-      {
-        "buffId": 10432463,
-        "targetType": "Target"
-      },
       {},
       {}
     ]
@@ -984299,26 +984040,44 @@
     "idCN": "BUFF/00我方/05五星/爱丽丝/通用/监听洗牌",
     "mod": "触发-洗牌",
     "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
     "baseEffect": "OtherEffect",
     "isNotChangePos": false,
     "isBindAction": false,
-    "battleTagIdList": [],
-    "typeTagList": [],
+    "isDispelFightEnd": false,
+    "isNotRecordDamageAsCard": false,
+    "iconUrl": "",
+    "cantBeDispelled": true,
     "bForever": true,
     "durationFrame": 1,
+    "sourceBase": "FixedValue",
+    "customDataTagBase": "",
+    "buffTypeFO": -1,
     "overlayType": "UseNew",
+    "sourceList": [],
     "overlayTimeType": "NotChange",
     "level": 1,
+    "levelTag": "",
     "levelMax": 1,
+    "levelMaxTag": "",
+    "maxLevelBuffId": -1,
     "isSameAttribute": true,
-    "cantBeDispelled": true,
-    "bShowLevel": false,
-    "baseValue_SN": 10000,
-    "sourceBase": "FixedValue",
     "attributeChangeList": [],
-    "buffId": 10432532,
+    "baseValue_SN": 10000,
+    "baseRateTag": "",
+    "timeUpEffectList": [],
+    "dispelEffectList": [],
+    "appearEffectList": [],
+    "buffEffectByLevel": [],
+    "disappearEffectList": [],
+    "bDamageWithLevel": false,
+    "bShowLevel": false,
+    "showLevelInfoId": -1,
     "cooldownFrame": 0,
-    "isRefreshSnapshot": true
+    "buffId": 10432532,
+    "isRefreshSnapshot": true,
+    "sound": -1
   },
   {
     "id": 10432520,
@@ -984384,7 +984143,7 @@
   },
   {
     "id": 10432522,
-    "idCN": "BUFF/00我方/05五星/爱丽丝/养成3/我方晦暗增伤",
+    "idCN": "BUFF/00我方/05五星/爱丽丝/养成3/邀约增伤参数",
     "mod": "持续效果",
     "isInformalData": false,
     "baseEffect": "OtherEffect",
@@ -984392,10 +984151,10 @@
     "isBindAction": false,
     "battleTagIdList": [],
     "typeTagList": [],
-    "bForever": false,
-    "durationFrame": 65,
+    "bForever": true,
+    "durationFrame": 1,
     "overlayType": "UseNew",
-    "overlayTimeType": "Reset",
+    "overlayTimeType": "NotChange",
     "level": 1,
     "levelMax": 1,
     "isSameAttribute": true,
@@ -984403,27 +984162,19 @@
     "bShowLevel": false,
     "baseValue_SN": 10000,
     "sourceBase": "FixedValue",
-    "attributeChangeList": [
-      {
-        "attributeType": "MakeDamageUpUmbra",
-        "level": 1,
-        "value_SN": 0,
-        "numberType": "Percent",
-        "rateTag": "A",
-        "skillSelect": "Default"
-      }
-    ]
+    "attributeChangeList": []
   },
   {
     "id": 10432523,
-    "idCN": "BUFF/00我方/05五星/爱丽丝/养成3/我方全体增伤光环",
-    "mod": "光环",
+    "idCN": "BUFF/00我方/05五星/爱丽丝/通用/刷新场上低语和恐惧",
+    "mod": "周期效果",
     "isInformalData": false,
     "battleTagIdList": [],
     "typeTagList": [],
     "baseEffect": "OtherEffect",
     "isNotChangePos": false,
     "isBindAction": false,
+    "sound": -1,
     "isDispelFightEnd": false,
     "isNotRecordDamageAsCard": false,
     "iconUrl": "",
@@ -984433,9 +984184,9 @@
     "sourceBase": "FixedValue",
     "customDataTagBase": "",
     "buffTypeFO": -1,
-    "overlayType": "NotChange",
+    "overlayType": "UseNew",
     "sourceList": [],
-    "overlayTimeType": "Reset",
+    "overlayTimeType": "NotChange",
     "level": 1,
     "levelTag": "",
     "levelMax": 1,
@@ -984453,27 +984204,15 @@
     "bDamageWithLevel": false,
     "bShowLevel": false,
     "showLevelInfoId": -1,
-    "targetType": "Ally",
-    "targetTagList": [],
-    "halfWidth_SN": 240000,
-    "attributeType": "HpMax",
-    "condition": "All",
-    "numberType": "Number",
-    "number_SN": 0,
-    "filterBuffTypeFO": -1,
-    "filterBuffFO": -1,
-    "filterBuffJudgeType": "Greater",
-    "filterBuffLevel": 0,
-    "buffSortType": "All",
-    "filterStance": "DeafaultStance",
-    "filterPosition": "DefaultPos",
-    "isAimSelf": false,
-    "targetCount": 99,
-    "radius_SN": 240000,
-    "intervalFrame": 60,
+    "isRefreshSnapshot": true,
     "firstFrame": 1,
-    "buffId": 10432522,
-    "sound": -1
+    "intervalFrame": 1,
+    "dotEffectList": [
+      {
+        "buffId": 10432534,
+        "targetType": "Owner"
+      }
+    ]
   },
   {
     "id": 10432524,
@@ -984587,7 +984326,7 @@
   },
   {
     "id": 10432534,
-    "idCN": "BUFF/00我方/05五星/爱丽丝/A-3/疯狂低语/用牌伤害",
+    "idCN": "BUFF/00我方/05五星/爱丽丝/通用/统计不同低语与恐惧层数",
     "mod": "GS",
     "isInformalData": false,
     "baseEffect": "OtherEffect",
@@ -984642,7 +984381,7 @@
   },
   {
     "id": 10432539,
-    "idCN": "BUFF/00我方/05五星/爱丽丝/S/手牌段数与弃牌重演",
+    "idCN": "BUFF/00我方/05五星/爱丽丝/S/取回并强化已有假面",
     "mod": "GS",
     "isInformalData": false,
     "baseEffect": "OtherEffect",
@@ -990006,5 +989745,2647 @@
     "buff": -1,
     "isShowImmune": false,
     "sound": 30003065
+  },
+  {
+    "id": 10432592,
+    "idCN": "BUFF/00我方/05五星/爱丽丝/S/记录手牌并挂循环后取回假面",
+    "mod": "带帧事件",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "frameEventList": [
+      {
+        "excuteTimes": 10000,
+        "frameEventId": 10503896,
+        "timesSource": "FixedValue"
+      },
+      {
+        "excuteTimes": 10000,
+        "frameEventId": 10503894,
+        "timesSource": "FixedValue"
+      },
+      {
+        "excuteTimes": 10000,
+        "frameEventId": 10503895,
+        "timesSource": "FixedValue"
+      }
+    ],
+    "sound": -1
+  },
+  {
+    "id": 10432593,
+    "idCN": "BUFF/00我方/05五星/爱丽丝/S/记录本次手牌数",
+    "mod": "记录数据-数据源",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "source": "CurrentHandCard",
+    "tag": "AliceBoxHandCount",
+    "isAdditive": false,
+    "sound": -1
+  },
+  {
+    "id": 10432594,
+    "idCN": "BUFF/00我方/05五星/爱丽丝/S/目标按手牌数分帧受击",
+    "mod": "循环",
+    "isInformalData": false,
+    "baseEffect": "OtherEffect",
+    "isBindAction": false,
+    "bForever": false,
+    "buffTypeFO": 13000028,
+    "level": 1,
+    "levelMax": 1,
+    "skillParamTag": "AliceBoxHandCount",
+    "skillParamSN": 0,
+    "loopFrame": 2,
+    "isFirst": true,
+    "buffId": 10432470
+  },
+  {
+    "id": 10432595,
+    "idCN": "BUFF/02深渊/60期/共用/冰冻混响电磁减伤50%",
+    "mod": "持续效果",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "isBindAction": false,
+    "isDispelFightEnd": true,
+    "isNotRecordDamageAsCard": false,
+    "iconUrl": "",
+    "cantBeDispelled": true,
+    "bForever": true,
+    "durationFrame": 1,
+    "sourceBase": "FixedValue",
+    "customDataTagBase": "",
+    "buffTypeFO": -1,
+    "overlayType": "NotChange",
+    "sourceList": [],
+    "overlayTimeType": "NotChange",
+    "level": 1,
+    "levelTag": "",
+    "levelMax": 1,
+    "levelMaxTag": "",
+    "maxLevelBuffId": -1,
+    "isSameAttribute": false,
+    "attributeChangeList": [
+      {
+        "attributeType": "GetDamageDownFreeze",
+        "level": 1,
+        "numberType": "Percent",
+        "rateTag": "",
+        "skillSelect": "Default",
+        "value_SN": 5000
+      },
+      {
+        "attributeType": "GetDamageDownMagic",
+        "level": 1,
+        "numberType": "Percent",
+        "rateTag": "",
+        "skillSelect": "Default",
+        "value_SN": 5000
+      },
+      {
+        "attributeType": "GetDamageDownElectric",
+        "level": 1,
+        "numberType": "Percent",
+        "rateTag": "",
+        "skillSelect": "Default",
+        "value_SN": 5000
+      }
+    ],
+    "baseValue_SN": 10000,
+    "baseRateTag": "",
+    "timeUpEffectList": [],
+    "dispelEffectList": [],
+    "appearEffectList": [],
+    "buffEffectByLevel": [],
+    "disappearEffectList": [],
+    "bDamageWithLevel": false,
+    "bShowLevel": false,
+    "showLevelInfoId": -1,
+    "sound": -1
+  },
+  {
+    "id": 10432596,
+    "idCN": "快乐BUFF树/02深渊/60期/共用/第三层入口",
+    "mod": "BUFF树",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "treeRoot": [
+      {
+        "buffId": 10432396,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432597,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432599,
+        "targetType": "Target"
+      },
+      {},
+      {},
+      {}
+    ],
+    "sound": -1
+  },
+  {
+    "id": 10432597,
+    "idCN": "BUFF/02深渊/60期/共用/我方禁霸体光环",
+    "mod": "光环",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "isBindAction": false,
+    "isDispelFightEnd": true,
+    "isNotRecordDamageAsCard": false,
+    "iconUrl": "",
+    "cantBeDispelled": true,
+    "bForever": true,
+    "durationFrame": 1,
+    "sourceBase": "FixedValue",
+    "customDataTagBase": "",
+    "buffTypeFO": -1,
+    "overlayType": "NotChange",
+    "sourceList": [],
+    "overlayTimeType": "NotChange",
+    "level": 1,
+    "levelTag": "",
+    "levelMax": 1,
+    "levelMaxTag": "",
+    "maxLevelBuffId": -1,
+    "isSameAttribute": false,
+    "attributeChangeList": [],
+    "baseValue_SN": 10000,
+    "baseRateTag": "",
+    "timeUpEffectList": [],
+    "dispelEffectList": [],
+    "appearEffectList": [],
+    "buffEffectByLevel": [],
+    "disappearEffectList": [],
+    "bDamageWithLevel": false,
+    "bShowLevel": false,
+    "showLevelInfoId": -1,
+    "targetType": "OnlyTeam1",
+    "condition": "All",
+    "attributeType": "HpMax",
+    "numberType": "Number",
+    "radius_SN": 2000000,
+    "halfWidth_SN": 2000000,
+    "targetCount": 99,
+    "firstFrame": 0,
+    "intervalFrame": 30,
+    "buffId": 10432598,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "buffSortType": "All",
+    "targetTagList": [],
+    "filterBuffTypeFO": -1,
+    "filterBuffFO": -1,
+    "sound": -1
+  },
+  {
+    "id": 10432598,
+    "idCN": "BUFF/02深渊/60期/共用/免疫霸体",
+    "mod": "免疫特殊效果",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "isBindAction": false,
+    "isDispelFightEnd": true,
+    "isNotRecordDamageAsCard": false,
+    "iconUrl": "",
+    "cantBeDispelled": true,
+    "bForever": false,
+    "durationFrame": 31,
+    "sourceBase": "FixedValue",
+    "customDataTagBase": "",
+    "buffTypeFO": -1,
+    "overlayType": "UseNew",
+    "sourceList": [],
+    "overlayTimeType": "Reset",
+    "level": 1,
+    "levelTag": "",
+    "levelMax": 1,
+    "levelMaxTag": "",
+    "maxLevelBuffId": -1,
+    "isSameAttribute": false,
+    "attributeChangeList": [],
+    "baseValue_SN": 10000,
+    "baseRateTag": "",
+    "timeUpEffectList": [],
+    "dispelEffectList": [],
+    "appearEffectList": [],
+    "buffEffectByLevel": [],
+    "disappearEffectList": [],
+    "bDamageWithLevel": false,
+    "bShowLevel": false,
+    "showLevelInfoId": -1,
+    "immuneEffect": "SuperArmor",
+    "judgeRate_SN": 10000,
+    "sound": -1
+  },
+  {
+    "id": 10432599,
+    "idCN": "BUFF/02深渊/60期/共用/每三十秒驱散",
+    "mod": "循环",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "isBindAction": false,
+    "isDispelFightEnd": true,
+    "isNotRecordDamageAsCard": false,
+    "iconUrl": "",
+    "cantBeDispelled": true,
+    "bForever": true,
+    "durationFrame": 1,
+    "sourceBase": "FixedValue",
+    "customDataTagBase": "",
+    "buffTypeFO": -1,
+    "overlayType": "NotChange",
+    "sourceList": [],
+    "overlayTimeType": "NotChange",
+    "level": 1,
+    "levelTag": "",
+    "levelMax": 1,
+    "levelMaxTag": "",
+    "maxLevelBuffId": -1,
+    "isSameAttribute": false,
+    "attributeChangeList": [],
+    "baseValue_SN": 10000,
+    "baseRateTag": "",
+    "timeUpEffectList": [],
+    "dispelEffectList": [],
+    "appearEffectList": [],
+    "buffEffectByLevel": [],
+    "disappearEffectList": [],
+    "bDamageWithLevel": false,
+    "bShowLevel": false,
+    "showLevelInfoId": -1,
+    "skillParamSN": 1000000000,
+    "loopFrame": 1800,
+    "isFirst": false,
+    "buffId": 10432600,
+    "sound": -1
+  },
+  {
+    "id": 10432600,
+    "idCN": "BUFF/02深渊/60期/共用/检索我方全体",
+    "mod": "检索单位添加buff",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "targetType": "OnlyTeam1",
+    "condition": "All",
+    "attributeType": "HpMax",
+    "numberType": "Number",
+    "radius_SN": 2000000,
+    "halfWidth_SN": 2000000,
+    "targetCount": 99,
+    "buffId": 10432601,
+    "isAimSelf": false,
+    "isRandom": false,
+    "useTargetProperty": false,
+    "isForceSearch": true,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "buffSortType": "All",
+    "targetTagList": [],
+    "filterBuffTypeFO": -1,
+    "filterBuffFO": -1,
+    "sound": -1
+  },
+  {
+    "id": 10432601,
+    "idCN": "BUFF/02深渊/60期/共用/驱散攻防生命提升",
+    "mod": "驱散指定标签buff",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "judgeType": "Or",
+    "isTriggerDispelEffect": true,
+    "isDispelCantDispel": true,
+    "dispelTime": 2147483647,
+    "targetTagIds": [
+      {
+        "tagId": 12602204
+      },
+      {
+        "tagId": 12602205
+      },
+      {
+        "tagId": 12602206
+      }
+    ],
+    "sound": -1
+  },
+  {
+    "id": 10432644,
+    "idCN": "BUFF/02深渊/60期/上半/第一波开战启动",
+    "mod": "触发-第一场战斗开始",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "isBindAction": false,
+    "isDispelFightEnd": true,
+    "isNotRecordDamageAsCard": false,
+    "iconUrl": "",
+    "cantBeDispelled": true,
+    "bForever": true,
+    "durationFrame": 1,
+    "sourceBase": "FixedValue",
+    "customDataTagBase": "",
+    "buffTypeFO": -1,
+    "overlayType": "NotChange",
+    "sourceList": [],
+    "overlayTimeType": "NotChange",
+    "level": 1,
+    "levelTag": "",
+    "levelMax": 1,
+    "levelMaxTag": "",
+    "maxLevelBuffId": -1,
+    "isSameAttribute": false,
+    "attributeChangeList": [],
+    "baseValue_SN": 10000,
+    "baseRateTag": "",
+    "timeUpEffectList": [],
+    "dispelEffectList": [],
+    "appearEffectList": [],
+    "buffEffectByLevel": [],
+    "disappearEffectList": [],
+    "bDamageWithLevel": false,
+    "bShowLevel": false,
+    "showLevelInfoId": -1,
+    "cooldownFrame": 0,
+    "buffId": 10432645,
+    "isRefreshSnapshot": true,
+    "sound": -1
+  },
+  {
+    "id": 10432645,
+    "idCN": "快乐BUFF树/02深渊/60期/上半/第一波启动手牌机制",
+    "mod": "BUFF树",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "treeRoot": [
+      {
+        "buffId": 10432612,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432603,
+        "targetType": "Target"
+      },
+      {},
+      {}
+    ],
+    "sound": -1
+  },
+  {
+    "id": 10432602,
+    "idCN": "BUFF/02深渊/60期/下半/波次倍率就绪后入场",
+    "mod": "持续效果",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "isBindAction": false,
+    "isDispelFightEnd": true,
+    "isNotRecordDamageAsCard": false,
+    "iconUrl": "",
+    "cantBeDispelled": true,
+    "bForever": false,
+    "durationFrame": 1,
+    "sourceBase": "FixedValue",
+    "customDataTagBase": "",
+    "buffTypeFO": -1,
+    "overlayType": "UseNew",
+    "sourceList": [],
+    "overlayTimeType": "Reset",
+    "level": 1,
+    "levelTag": "",
+    "levelMax": 1,
+    "levelMaxTag": "",
+    "maxLevelBuffId": -1,
+    "isSameAttribute": false,
+    "attributeChangeList": [],
+    "baseValue_SN": 10000,
+    "baseRateTag": "",
+    "timeUpEffectList": [
+      {
+        "buffId": 10432630,
+        "targetType": "Target"
+      }
+    ],
+    "dispelEffectList": [],
+    "appearEffectList": [],
+    "buffEffectByLevel": [],
+    "disappearEffectList": [],
+    "bDamageWithLevel": false,
+    "bShowLevel": false,
+    "showLevelInfoId": -1,
+    "sound": -1
+  },
+  {
+    "id": 10432603,
+    "idCN": "快乐BUFF树/02深渊/60期/上半/按联动乘员选择整场卡名",
+    "mod": "BUFF树",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "treeRoot": [
+      {
+        "buffId": 10432604,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432610,
+        "targetType": "Target"
+      },
+      {},
+      {
+        "buffId": 10432611,
+        "targetType": "Target"
+      },
+      {},
+      {}
+    ],
+    "sound": -1
+  },
+  {
+    "id": 10432604,
+    "idCN": "BUFF/02深渊/60期/上半/判断我方有BS乘员",
+    "mod": "判断单位数量",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "targetType": "OnlyTeam1",
+    "condition": "All",
+    "attributeType": "HpMax",
+    "numberType": "Number",
+    "radius_SN": 2000000,
+    "halfWidth_SN": 2000000,
+    "judgeCondition": "Greater",
+    "count": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "targetTagList": [
+      {
+        "tagId": 12602262
+      }
+    ],
+    "filterBuffTypeFO": -1,
+    "filterBuffFO": -1,
+    "sound": -1
+  },
+  {
+    "id": 10432608,
+    "idCN": "BUFF/02深渊/60期/上半/每十秒发牌/1",
+    "mod": "循环",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "isBindAction": false,
+    "isDispelFightEnd": true,
+    "isNotRecordDamageAsCard": false,
+    "iconUrl": "",
+    "cantBeDispelled": true,
+    "bForever": true,
+    "durationFrame": 1,
+    "sourceBase": "FixedValue",
+    "customDataTagBase": "",
+    "buffTypeFO": -1,
+    "overlayType": "NotChange",
+    "sourceList": [],
+    "overlayTimeType": "NotChange",
+    "level": 1,
+    "levelTag": "",
+    "levelMax": 1,
+    "levelMaxTag": "",
+    "maxLevelBuffId": -1,
+    "isSameAttribute": false,
+    "attributeChangeList": [],
+    "baseValue_SN": 10000,
+    "baseRateTag": "",
+    "timeUpEffectList": [],
+    "dispelEffectList": [],
+    "appearEffectList": [],
+    "buffEffectByLevel": [],
+    "disappearEffectList": [],
+    "bDamageWithLevel": false,
+    "bShowLevel": false,
+    "showLevelInfoId": -1,
+    "skillParamSN": 1000000000,
+    "loopFrame": 600,
+    "isFirst": true,
+    "buffId": 10432606,
+    "sound": -1
+  },
+  {
+    "id": 10432610,
+    "idCN": "BUFF/02深渊/60期/上半/我方小队持续发牌/1",
+    "mod": "小队添加buff",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "buffId": 10432608,
+    "sound": -1
+  },
+  {
+    "id": 10432646,
+    "idCN": "BUFF/02深渊/60期/上半/BOSS濒死停止发牌/1",
+    "mod": "驱散对应buff",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "targetBuffId": 10432608,
+    "dispelTime": 1,
+    "isTriggerDispelEffect": false,
+    "sound": -1
+  },
+  {
+    "id": 10432606,
+    "idCN": "BUFF/02深渊/60期/上半/生成/面包屑",
+    "mod": "印卡",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "drawCardId": 12305307,
+    "destination": "Hand",
+    "source": "FixedValue",
+    "rateFactorSN": 10000,
+    "isTarget": true,
+    "canOverHand": true,
+    "sound": -1
+  },
+  {
+    "id": 10432609,
+    "idCN": "BUFF/02深渊/60期/上半/每十秒发牌/2",
+    "mod": "循环",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "isBindAction": false,
+    "isDispelFightEnd": true,
+    "isNotRecordDamageAsCard": false,
+    "iconUrl": "",
+    "cantBeDispelled": true,
+    "bForever": true,
+    "durationFrame": 1,
+    "sourceBase": "FixedValue",
+    "customDataTagBase": "",
+    "buffTypeFO": -1,
+    "overlayType": "NotChange",
+    "sourceList": [],
+    "overlayTimeType": "NotChange",
+    "level": 1,
+    "levelTag": "",
+    "levelMax": 1,
+    "levelMaxTag": "",
+    "maxLevelBuffId": -1,
+    "isSameAttribute": false,
+    "attributeChangeList": [],
+    "baseValue_SN": 10000,
+    "baseRateTag": "",
+    "timeUpEffectList": [],
+    "dispelEffectList": [],
+    "appearEffectList": [],
+    "buffEffectByLevel": [],
+    "disappearEffectList": [],
+    "bDamageWithLevel": false,
+    "bShowLevel": false,
+    "showLevelInfoId": -1,
+    "skillParamSN": 1000000000,
+    "loopFrame": 600,
+    "isFirst": true,
+    "buffId": 10432607,
+    "sound": -1
+  },
+  {
+    "id": 10432611,
+    "idCN": "BUFF/02深渊/60期/上半/我方小队持续发牌/2",
+    "mod": "小队添加buff",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "buffId": 10432609,
+    "sound": -1
+  },
+  {
+    "id": 10432647,
+    "idCN": "BUFF/02深渊/60期/上半/BOSS濒死停止发牌/2",
+    "mod": "驱散对应buff",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "targetBuffId": 10432609,
+    "dispelTime": 1,
+    "isTriggerDispelEffect": false,
+    "sound": -1
+  },
+  {
+    "id": 10432607,
+    "idCN": "BUFF/02深渊/60期/上半/生成/E99DA2E58C85E5B191",
+    "mod": "印卡",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "drawCardId": 12305308,
+    "destination": "Hand",
+    "source": "FixedValue",
+    "rateFactorSN": 10000,
+    "isTarget": true,
+    "canOverHand": true,
+    "sound": -1
+  },
+  {
+    "id": 10432612,
+    "idCN": "BUFF/02深渊/60期/上半/我方小队监听限时手牌",
+    "mod": "小队添加buff",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "buffId": 10432613,
+    "sound": -1
+  },
+  {
+    "id": 10432613,
+    "idCN": "BUFF/02深渊/60期/上半/为入手面包屑附加计时",
+    "mod": "小队手牌变动添加buff",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "isBindAction": false,
+    "isDispelFightEnd": true,
+    "isNotRecordDamageAsCard": false,
+    "iconUrl": "",
+    "cantBeDispelled": true,
+    "bForever": true,
+    "durationFrame": 1,
+    "sourceBase": "FixedValue",
+    "customDataTagBase": "",
+    "buffTypeFO": -1,
+    "overlayType": "NotChange",
+    "sourceList": [],
+    "overlayTimeType": "NotChange",
+    "level": 1,
+    "levelTag": "",
+    "levelMax": 1,
+    "levelMaxTag": "",
+    "maxLevelBuffId": -1,
+    "isSameAttribute": false,
+    "attributeChangeList": [],
+    "baseValue_SN": 10000,
+    "baseRateTag": "",
+    "timeUpEffectList": [],
+    "dispelEffectList": [],
+    "appearEffectList": [],
+    "buffEffectByLevel": [],
+    "disappearEffectList": [],
+    "bDamageWithLevel": false,
+    "bShowLevel": false,
+    "showLevelInfoId": -1,
+    "judgeType": "Or",
+    "isTargetsCardOnly": false,
+    "judgeTagList": [
+      {
+        "tagId": 12602263
+      }
+    ],
+    "list": [
+      {
+        "buff": 10432614
+      }
+    ],
+    "sound": -1
+  },
+  {
+    "id": 10432614,
+    "idCN": "BUFF/02深渊/60期/上半/单张面包屑保留十秒",
+    "mod": "持续效果",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "isBindAction": false,
+    "isDispelFightEnd": true,
+    "isNotRecordDamageAsCard": false,
+    "iconUrl": "",
+    "cantBeDispelled": true,
+    "bForever": false,
+    "durationFrame": 600,
+    "sourceBase": "FixedValue",
+    "customDataTagBase": "",
+    "buffTypeFO": -1,
+    "overlayType": "UseNew",
+    "sourceList": [],
+    "overlayTimeType": "Reset",
+    "level": 1,
+    "levelTag": "",
+    "levelMax": 1,
+    "levelMaxTag": "",
+    "maxLevelBuffId": -1,
+    "isSameAttribute": false,
+    "attributeChangeList": [],
+    "baseValue_SN": 10000,
+    "baseRateTag": "",
+    "timeUpEffectList": [
+      {
+        "buffId": 10432615,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432616,
+        "targetType": "Target"
+      }
+    ],
+    "dispelEffectList": [],
+    "appearEffectList": [],
+    "buffEffectByLevel": [],
+    "disappearEffectList": [],
+    "bDamageWithLevel": false,
+    "bShowLevel": false,
+    "showLevelInfoId": -1,
+    "sound": -1
+  },
+  {
+    "id": 10432615,
+    "idCN": "BUFF/02深渊/60期/上半/仅标记本张已到期手牌",
+    "mod": "持续效果",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "isBindAction": false,
+    "isDispelFightEnd": true,
+    "isNotRecordDamageAsCard": false,
+    "iconUrl": "",
+    "cantBeDispelled": true,
+    "bForever": true,
+    "durationFrame": 1,
+    "sourceBase": "FixedValue",
+    "customDataTagBase": "",
+    "buffTypeFO": -1,
+    "overlayType": "NotChange",
+    "sourceList": [],
+    "overlayTimeType": "NotChange",
+    "level": 1,
+    "levelTag": "",
+    "levelMax": 1,
+    "levelMaxTag": "",
+    "maxLevelBuffId": -1,
+    "isSameAttribute": false,
+    "attributeChangeList": [],
+    "baseValue_SN": 10000,
+    "baseRateTag": "",
+    "timeUpEffectList": [],
+    "dispelEffectList": [],
+    "appearEffectList": [],
+    "buffEffectByLevel": [],
+    "disappearEffectList": [],
+    "bDamageWithLevel": false,
+    "bShowLevel": false,
+    "showLevelInfoId": -1,
+    "sound": -1
+  },
+  {
+    "id": 10432616,
+    "idCN": "BUFF/02深渊/60期/上半/到期销毁挂给小队",
+    "mod": "小队添加buff",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "buffId": 10432617,
+    "sound": -1
+  },
+  {
+    "id": 10432617,
+    "idCN": "BUFF/02深渊/60期/上半/下帧销毁到期实例",
+    "mod": "持续效果",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "isBindAction": false,
+    "isDispelFightEnd": true,
+    "isNotRecordDamageAsCard": false,
+    "iconUrl": "",
+    "cantBeDispelled": true,
+    "bForever": false,
+    "durationFrame": 1,
+    "sourceBase": "FixedValue",
+    "customDataTagBase": "",
+    "buffTypeFO": -1,
+    "overlayType": "UseNew",
+    "sourceList": [],
+    "overlayTimeType": "Reset",
+    "level": 1,
+    "levelTag": "",
+    "levelMax": 1,
+    "levelMaxTag": "",
+    "maxLevelBuffId": -1,
+    "isSameAttribute": false,
+    "attributeChangeList": [],
+    "baseValue_SN": 10000,
+    "baseRateTag": "",
+    "timeUpEffectList": [
+      {
+        "buffId": 10432618,
+        "targetType": "Target"
+      }
+    ],
+    "dispelEffectList": [],
+    "appearEffectList": [],
+    "buffEffectByLevel": [],
+    "disappearEffectList": [],
+    "bDamageWithLevel": false,
+    "bShowLevel": false,
+    "showLevelInfoId": -1,
+    "sound": -1
+  },
+  {
+    "id": 10432618,
+    "idCN": "BUFF/02深渊/60期/上半/仅销毁已到期面包屑",
+    "mod": "摧毁指定Tag卡牌",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "targetType": "Everyone",
+    "tagType": "Or",
+    "source": "FixedValue",
+    "cardNumRate_SN": 990000,
+    "isIncludeHand": true,
+    "isIncludeDeck": false,
+    "isIncludeGrave": false,
+    "handBuffId": 10432615,
+    "isTempory": false,
+    "destroyViewDelay": -1,
+    "tagList": [
+      {
+        "tagId": 12602263
+      }
+    ],
+    "buffId": -1,
+    "effectId": -1,
+    "sound": -1
+  },
+  {
+    "id": 10432619,
+    "idCN": "BUFF/02深渊/60期/上半/记录我方使用过面包屑",
+    "mod": "小队添加buff",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "buffId": 10432605,
+    "sound": -1
+  },
+  {
+    "id": 10432605,
+    "idCN": "BUFF/02深渊/60期/上半/我方用过面包屑标志",
+    "mod": "持续效果",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "isBindAction": false,
+    "isDispelFightEnd": true,
+    "isNotRecordDamageAsCard": false,
+    "iconUrl": "",
+    "cantBeDispelled": true,
+    "bForever": true,
+    "durationFrame": 1,
+    "sourceBase": "FixedValue",
+    "customDataTagBase": "",
+    "buffTypeFO": -1,
+    "overlayType": "NotChange",
+    "sourceList": [],
+    "overlayTimeType": "NotChange",
+    "level": 1,
+    "levelTag": "",
+    "levelMax": 1,
+    "levelMaxTag": "",
+    "maxLevelBuffId": -1,
+    "isSameAttribute": false,
+    "attributeChangeList": [],
+    "baseValue_SN": 10000,
+    "baseRateTag": "",
+    "timeUpEffectList": [],
+    "dispelEffectList": [],
+    "appearEffectList": [],
+    "buffEffectByLevel": [],
+    "disappearEffectList": [],
+    "bDamageWithLevel": false,
+    "bShowLevel": false,
+    "showLevelInfoId": -1,
+    "sound": -1
+  },
+  {
+    "id": 10432620,
+    "idCN": "快乐BUFF树/02深渊/60期/面包屑/使用入口",
+    "mod": "BUFF树",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "treeRoot": [
+      {
+        "buffId": 10432619,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432621,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432622,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432623,
+        "targetType": "Target"
+      },
+      {},
+      {},
+      {},
+      {}
+    ],
+    "sound": -1
+  },
+  {
+    "id": 10432621,
+    "idCN": "BUFF/02深渊/60期/面包屑/获得五点费用",
+    "mod": "战斗费用",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "costSource": "FixedValue",
+    "costRate_SN": 50000,
+    "bMore": false,
+    "sound": -1
+  },
+  {
+    "id": 10432622,
+    "idCN": "BUFF/02深渊/60期/面包屑/抽两张牌",
+    "mod": "抽卡",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "cardSource": "OnlyDeck",
+    "source": "FixedValue",
+    "cardNum_SN": 20000,
+    "condition": "All",
+    "isReturnInHand": false,
+    "buffId": -1,
+    "targetBuffId": -1,
+    "sound": -1
+  },
+  {
+    "id": 10432623,
+    "idCN": "BUFF/02深渊/60期/面包屑/检索我方全体",
+    "mod": "检索单位添加buff",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "targetType": "OnlyTeam1",
+    "condition": "All",
+    "attributeType": "HpMax",
+    "numberType": "Number",
+    "radius_SN": 2000000,
+    "halfWidth_SN": 2000000,
+    "targetCount": 99,
+    "buffId": 10432624,
+    "isAimSelf": false,
+    "isRandom": false,
+    "useTargetProperty": false,
+    "isForceSearch": true,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "buffSortType": "All",
+    "targetTagList": [],
+    "filterBuffTypeFO": -1,
+    "filterBuffFO": -1,
+    "sound": -1
+  },
+  {
+    "id": 10432624,
+    "idCN": "BUFF/02深渊/60期/面包屑/回复目标最大生命一半",
+    "mod": "伤害",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "type": "Heal",
+    "source": "TargetHpMax",
+    "skillRateFactorSN": 5000,
+    "banCrit": true,
+    "isNoAdditionalAttack": true,
+    "critAddBuff": -1,
+    "sound": -1
+  },
+  {
+    "id": 10432625,
+    "idCN": "BUFF/02深渊/60期/上半/BOSS致命伤害监听",
+    "mod": "自身触发-受到致命伤害",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "isBindAction": false,
+    "isDispelFightEnd": true,
+    "isNotRecordDamageAsCard": false,
+    "iconUrl": "",
+    "cantBeDispelled": true,
+    "bForever": true,
+    "durationFrame": 1,
+    "sourceBase": "FixedValue",
+    "customDataTagBase": "",
+    "buffTypeFO": -1,
+    "overlayType": "NotChange",
+    "sourceList": [],
+    "overlayTimeType": "NotChange",
+    "level": 1,
+    "levelTag": "",
+    "levelMax": 1,
+    "levelMaxTag": "",
+    "maxLevelBuffId": -1,
+    "isSameAttribute": false,
+    "attributeChangeList": [],
+    "baseValue_SN": 10000,
+    "baseRateTag": "",
+    "timeUpEffectList": [],
+    "dispelEffectList": [],
+    "appearEffectList": [],
+    "buffEffectByLevel": [],
+    "disappearEffectList": [],
+    "bDamageWithLevel": false,
+    "bShowLevel": false,
+    "showLevelInfoId": -1,
+    "cooldownFrame": 1,
+    "buffId": 10432626,
+    "sound": -1
+  },
+  {
+    "id": 10432626,
+    "idCN": "BUFF/02深渊/60期/上半/向我方小队核对用牌记录",
+    "mod": "小队添加buff",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "buffId": 10432627,
+    "sound": -1
+  },
+  {
+    "id": 10432627,
+    "idCN": "快乐BUFF树/02深渊/60期/上半/停发并判断是否召唤增援",
+    "mod": "BUFF树",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "treeRoot": [
+      {
+        "buffId": 10432646,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432647,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432634,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432628,
+        "targetType": "Owner"
+      },
+      {},
+      {},
+      {},
+      {}
+    ],
+    "sound": -1
+  },
+  {
+    "id": 10432634,
+    "idCN": "BUFF/02深渊/60期/上半/判断使用记录",
+    "mod": "判断小队buff层级",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "buff": 10432605,
+    "level": 0,
+    "judgeType": "Greater",
+    "sound": -1
+  },
+  {
+    "id": 10432628,
+    "idCN": "BUFF/02深渊/60期/上半/召唤/深眠者·沉溺",
+    "mod": "召唤物",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "summonID": 10001581,
+    "buffId": 10432656,
+    "isFixedPosition": true,
+    "offsetX_SN": 175000,
+    "offsetZ_SN": -35000,
+    "waveOffsetX_SN": 0,
+    "skinList": [],
+    "propertyList": [],
+    "sound": -1
+  },
+  {
+    "id": 10432629,
+    "idCN": "BUFF/02深渊/60期/上半/召唤/深眠者·迷惘",
+    "mod": "召唤物",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "summonID": 10001582,
+    "buffId": 10432656,
+    "isFixedPosition": true,
+    "offsetX_SN": 195000,
+    "offsetZ_SN": -12000,
+    "waveOffsetX_SN": 0,
+    "skinList": [],
+    "propertyList": [],
+    "sound": -1
+  },
+  {
+    "id": 10432630,
+    "idCN": "快乐BUFF树/02深渊/60期/下半/第四层入口",
+    "mod": "BUFF树",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "treeRoot": [
+      {
+        "buffId": 10432631,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432632,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10405454,
+        "targetType": "Target"
+      },
+      {},
+      {},
+      {}
+    ],
+    "sound": -1
+  },
+  {
+    "id": 10432648,
+    "idCN": "BUFF/02深渊/60期/下半/随机深眠者/位置1",
+    "mod": "随机召唤物",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "buffId": 10432661,
+    "isFixedPosition": true,
+    "offsetX_SN": 175000,
+    "offsetZ_SN": -42000,
+    "summonList": [
+      {
+        "summonId": 10001583
+      },
+      {
+        "summonId": 10001584
+      },
+      {
+        "summonId": 10001585
+      },
+      {
+        "summonId": 10001586
+      },
+      {
+        "summonId": 10001587
+      },
+      {
+        "summonId": 10001588
+      },
+      {
+        "summonId": 10001589
+      },
+      {
+        "summonId": 10001590
+      }
+    ],
+    "skinUnitList": [],
+    "propertyList": [],
+    "sound": -1
+  },
+  {
+    "id": 10432649,
+    "idCN": "BUFF/02深渊/60期/下半/随机深眠者/位置2",
+    "mod": "随机召唤物",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "buffId": 10432661,
+    "isFixedPosition": true,
+    "offsetX_SN": 190000,
+    "offsetZ_SN": -19000,
+    "summonList": [
+      {
+        "summonId": 10001583
+      },
+      {
+        "summonId": 10001584
+      },
+      {
+        "summonId": 10001585
+      },
+      {
+        "summonId": 10001586
+      },
+      {
+        "summonId": 10001587
+      },
+      {
+        "summonId": 10001588
+      },
+      {
+        "summonId": 10001589
+      },
+      {
+        "summonId": 10001590
+      }
+    ],
+    "skinUnitList": [],
+    "propertyList": [],
+    "sound": -1
+  },
+  {
+    "id": 10432650,
+    "idCN": "BUFF/02深渊/60期/下半/随机深眠者/位置3",
+    "mod": "随机召唤物",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "buffId": 10432661,
+    "isFixedPosition": true,
+    "offsetX_SN": 201000,
+    "offsetZ_SN": -3000,
+    "summonList": [
+      {
+        "summonId": 10001583
+      },
+      {
+        "summonId": 10001584
+      },
+      {
+        "summonId": 10001585
+      },
+      {
+        "summonId": 10001586
+      },
+      {
+        "summonId": 10001587
+      },
+      {
+        "summonId": 10001588
+      },
+      {
+        "summonId": 10001589
+      },
+      {
+        "summonId": 10001590
+      }
+    ],
+    "skinUnitList": [],
+    "propertyList": [],
+    "sound": -1
+  },
+  {
+    "id": 10432651,
+    "idCN": "BUFF/02深渊/60期/下半/随机深眠者/位置4",
+    "mod": "随机召唤物",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "buffId": 10432661,
+    "isFixedPosition": true,
+    "offsetX_SN": 168000,
+    "offsetZ_SN": -52000,
+    "summonList": [
+      {
+        "summonId": 10001583
+      },
+      {
+        "summonId": 10001584
+      },
+      {
+        "summonId": 10001585
+      },
+      {
+        "summonId": 10001586
+      },
+      {
+        "summonId": 10001587
+      },
+      {
+        "summonId": 10001588
+      },
+      {
+        "summonId": 10001589
+      },
+      {
+        "summonId": 10001590
+      }
+    ],
+    "skinUnitList": [],
+    "propertyList": [],
+    "sound": -1
+  },
+  {
+    "id": 10432652,
+    "idCN": "BUFF/02深渊/60期/下半/随机深眠者/位置5",
+    "mod": "随机召唤物",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "buffId": 10432661,
+    "isFixedPosition": true,
+    "offsetX_SN": 184000,
+    "offsetZ_SN": -28000,
+    "summonList": [
+      {
+        "summonId": 10001583
+      },
+      {
+        "summonId": 10001584
+      },
+      {
+        "summonId": 10001585
+      },
+      {
+        "summonId": 10001586
+      },
+      {
+        "summonId": 10001587
+      },
+      {
+        "summonId": 10001588
+      },
+      {
+        "summonId": 10001589
+      },
+      {
+        "summonId": 10001590
+      }
+    ],
+    "skinUnitList": [],
+    "propertyList": [],
+    "sound": -1
+  },
+  {
+    "id": 10432653,
+    "idCN": "BUFF/02深渊/60期/下半/随机深眠者/位置6",
+    "mod": "随机召唤物",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "buffId": 10432661,
+    "isFixedPosition": true,
+    "offsetX_SN": 197000,
+    "offsetZ_SN": -9000,
+    "summonList": [
+      {
+        "summonId": 10001583
+      },
+      {
+        "summonId": 10001584
+      },
+      {
+        "summonId": 10001585
+      },
+      {
+        "summonId": 10001586
+      },
+      {
+        "summonId": 10001587
+      },
+      {
+        "summonId": 10001588
+      },
+      {
+        "summonId": 10001589
+      },
+      {
+        "summonId": 10001590
+      }
+    ],
+    "skinUnitList": [],
+    "propertyList": [],
+    "sound": -1
+  },
+  {
+    "id": 10432654,
+    "idCN": "BUFF/02深渊/60期/下半/随机深眠者/位置7",
+    "mod": "随机召唤物",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "buffId": 10432661,
+    "isFixedPosition": true,
+    "offsetX_SN": 173000,
+    "offsetZ_SN": -41000,
+    "summonList": [
+      {
+        "summonId": 10001583
+      },
+      {
+        "summonId": 10001584
+      },
+      {
+        "summonId": 10001585
+      },
+      {
+        "summonId": 10001586
+      },
+      {
+        "summonId": 10001587
+      },
+      {
+        "summonId": 10001588
+      },
+      {
+        "summonId": 10001589
+      },
+      {
+        "summonId": 10001590
+      }
+    ],
+    "skinUnitList": [],
+    "propertyList": [],
+    "sound": -1
+  },
+  {
+    "id": 10432631,
+    "idCN": "BUFF/02深渊/60期/下半/自身血量低于一半",
+    "mod": "战斗触发-血量不足",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "isBindAction": false,
+    "isDispelFightEnd": true,
+    "isNotRecordDamageAsCard": false,
+    "iconUrl": "",
+    "cantBeDispelled": true,
+    "bForever": true,
+    "durationFrame": 1,
+    "sourceBase": "FixedValue",
+    "customDataTagBase": "",
+    "buffTypeFO": -1,
+    "overlayType": "NotChange",
+    "sourceList": [],
+    "overlayTimeType": "NotChange",
+    "level": 1,
+    "levelTag": "",
+    "levelMax": 1,
+    "levelMaxTag": "",
+    "maxLevelBuffId": -1,
+    "isSameAttribute": false,
+    "attributeChangeList": [],
+    "baseValue_SN": 10000,
+    "baseRateTag": "",
+    "timeUpEffectList": [],
+    "dispelEffectList": [],
+    "appearEffectList": [],
+    "buffEffectByLevel": [],
+    "disappearEffectList": [],
+    "bDamageWithLevel": false,
+    "bShowLevel": false,
+    "showLevelInfoId": -1,
+    "side": "Self",
+    "percent_SN": 5000,
+    "cooldownFrame": 0,
+    "buffId": 10432633,
+    "sound": -1
+  },
+  {
+    "id": 10432632,
+    "idCN": "BUFF/02深渊/60期/下半/跳过半血的致命一击",
+    "mod": "自身触发-受到致命伤害",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "isBindAction": false,
+    "isDispelFightEnd": true,
+    "isNotRecordDamageAsCard": false,
+    "iconUrl": "",
+    "cantBeDispelled": true,
+    "bForever": true,
+    "durationFrame": 1,
+    "sourceBase": "FixedValue",
+    "customDataTagBase": "",
+    "buffTypeFO": -1,
+    "overlayType": "NotChange",
+    "sourceList": [],
+    "overlayTimeType": "NotChange",
+    "level": 1,
+    "levelTag": "",
+    "levelMax": 1,
+    "levelMaxTag": "",
+    "maxLevelBuffId": -1,
+    "isSameAttribute": false,
+    "attributeChangeList": [],
+    "baseValue_SN": 10000,
+    "baseRateTag": "",
+    "timeUpEffectList": [],
+    "dispelEffectList": [],
+    "appearEffectList": [],
+    "buffEffectByLevel": [],
+    "disappearEffectList": [],
+    "bDamageWithLevel": false,
+    "bShowLevel": false,
+    "showLevelInfoId": -1,
+    "cooldownFrame": 0,
+    "buffId": 10432633,
+    "sound": -1
+  },
+  {
+    "id": 10432633,
+    "idCN": "快乐BUFF树/02深渊/60期/下半/仅首次转阶段",
+    "mod": "BUFF树",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "treeRoot": [
+      {
+        "buffId": 10432635,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432637,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432636,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10415464,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432638,
+        "targetType": "Target"
+      },
+      {},
+      {},
+      {},
+      {},
+      {}
+    ],
+    "sound": -1
+  },
+  {
+    "id": 10432635,
+    "idCN": "BUFF/02深渊/60期/下半/判断未进入融化",
+    "mod": "判断层级",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "judgeBuffId": 10432637,
+    "judgeType": "Equal",
+    "judgeLevel": 0,
+    "sound": -1
+  },
+  {
+    "id": 10432637,
+    "idCN": "BUFF/02深渊/60期/下半/融化造成最终伤害加300%",
+    "mod": "持续效果",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "isBindAction": false,
+    "isDispelFightEnd": true,
+    "isNotRecordDamageAsCard": false,
+    "iconUrl": "",
+    "cantBeDispelled": true,
+    "bForever": true,
+    "durationFrame": 1,
+    "sourceBase": "FixedValue",
+    "customDataTagBase": "",
+    "buffTypeFO": -1,
+    "overlayType": "NotChange",
+    "sourceList": [],
+    "overlayTimeType": "NotChange",
+    "level": 1,
+    "levelTag": "",
+    "levelMax": 1,
+    "levelMaxTag": "",
+    "maxLevelBuffId": -1,
+    "isSameAttribute": false,
+    "attributeChangeList": [
+      {
+        "attributeType": "MakeDamageFinalUp",
+        "level": 1,
+        "numberType": "Percent",
+        "rateTag": "",
+        "skillSelect": "Default",
+        "value_SN": 30000
+      }
+    ],
+    "baseValue_SN": 10000,
+    "baseRateTag": "",
+    "timeUpEffectList": [],
+    "dispelEffectList": [],
+    "appearEffectList": [],
+    "buffEffectByLevel": [],
+    "disappearEffectList": [],
+    "bDamageWithLevel": false,
+    "bShowLevel": false,
+    "showLevelInfoId": -1,
+    "sound": -1
+  },
+  {
+    "id": 10432636,
+    "idCN": "BUFF/02深渊/60期/下半/直接回满生命",
+    "mod": "设置血量",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "type": "Percent",
+    "num_SN": 10000,
+    "source": "FixedValue",
+    "sound": -1
+  },
+  {
+    "id": 10432638,
+    "idCN": "BUFF/02深渊/60期/下半/融化每秒扣血",
+    "mod": "循环",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "isBindAction": false,
+    "isDispelFightEnd": true,
+    "isNotRecordDamageAsCard": false,
+    "iconUrl": "",
+    "cantBeDispelled": true,
+    "bForever": true,
+    "durationFrame": 1,
+    "sourceBase": "FixedValue",
+    "customDataTagBase": "",
+    "buffTypeFO": -1,
+    "overlayType": "NotChange",
+    "sourceList": [],
+    "overlayTimeType": "NotChange",
+    "level": 1,
+    "levelTag": "",
+    "levelMax": 1,
+    "levelMaxTag": "",
+    "maxLevelBuffId": -1,
+    "isSameAttribute": false,
+    "attributeChangeList": [],
+    "baseValue_SN": 10000,
+    "baseRateTag": "",
+    "timeUpEffectList": [],
+    "dispelEffectList": [],
+    "appearEffectList": [],
+    "buffEffectByLevel": [],
+    "disappearEffectList": [],
+    "bDamageWithLevel": false,
+    "bShowLevel": false,
+    "showLevelInfoId": -1,
+    "skillParamSN": 1000000000,
+    "loopFrame": 60,
+    "isFirst": false,
+    "buffId": 10432639,
+    "sound": -1
+  },
+  {
+    "id": 10432639,
+    "idCN": "快乐BUFF树/02深渊/60期/下半/扣除最大生命百分之三或死亡",
+    "mod": "BUFF树",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "treeRoot": [
+      {
+        "buffId": 10432640,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432641,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432642,
+        "targetType": "Target"
+      },
+      {},
+      {},
+      {
+        "buffId": 10432643,
+        "targetType": "Target"
+      },
+      {},
+      {}
+    ],
+    "sound": -1
+  },
+  {
+    "id": 10432640,
+    "idCN": "BUFF/02深渊/60期/下半/判断剩余生命超过百分之三",
+    "mod": "判断血量百分比",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "judgeType": "Greater",
+    "value_SN": 300,
+    "sound": -1
+  },
+  {
+    "id": 10432641,
+    "idCN": "BUFF/02深渊/60期/下半/计算扣血后的生命",
+    "mod": "计算自定义数据",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "tag": "AbyssMeltHp",
+    "targetPrefix": "tar",
+    "formulaStr": "tarCurrentHp-tarHpMax*3/100",
+    "customDataList": [],
+    "sound": -1
+  },
+  {
+    "id": 10432642,
+    "idCN": "BUFF/02深渊/60期/下半/直接设置扣血后生命",
+    "mod": "设置血量",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "type": "Number",
+    "source": "CustomData",
+    "customDataTag": "AbyssMeltHp",
+    "sound": -1
+  },
+  {
+    "id": 10432643,
+    "idCN": "BUFF/02深渊/60期/下半/融化失去最后生命",
+    "mod": "致死",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "sound": -1
+  },
+  {
+    "id": 10432513,
+    "idCN": "BUFF/55测试/敌方全体/伤害",
+    "mod": "伤害",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "type": "Real",
+    "isNotShowDamage": false,
+    "isNotRecord": false,
+    "banCrit": false,
+    "isMustCrit": false,
+    "isNoAdditionalAttack": false,
+    "isNormalAttack": false,
+    "isSkillAttack": false,
+    "source": "TargetHpMax",
+    "customDataTag": "",
+    "skillSelect": "Default",
+    "skillRateFactorSN": 2000,
+    "skillRateTag": "",
+    "isStraightDamage": false,
+    "isIgnoreDefence": false,
+    "skillMultTag": false,
+    "isLeaderSource": false,
+    "shakeXPerFrame": 0.0,
+    "shakeDuration": 0,
+    "setCustomValue": "",
+    "isHitSpakle": false,
+    "critAddBuff": -1,
+    "sound": -1,
+    "isSkillLua": false
+  },
+  {
+    "id": 10432655,
+    "idCN": "BUFF/02深渊/60期/上半/沉溺入场三帧后召唤迷惘",
+    "mod": "免疫致命伤害",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "isBindAction": false,
+    "isDispelFightEnd": true,
+    "isNotRecordDamageAsCard": false,
+    "iconUrl": "",
+    "cantBeDispelled": true,
+    "bForever": false,
+    "durationFrame": 3,
+    "sourceBase": "FixedValue",
+    "customDataTagBase": "",
+    "buffTypeFO": -1,
+    "overlayType": "UseNew",
+    "sourceList": [],
+    "overlayTimeType": "Reset",
+    "level": 1,
+    "levelTag": "",
+    "levelMax": 1,
+    "levelMaxTag": "",
+    "maxLevelBuffId": -1,
+    "isSameAttribute": false,
+    "attributeChangeList": [],
+    "baseValue_SN": 10000,
+    "baseRateTag": "",
+    "timeUpEffectList": [
+      {
+        "buffId": 10432629,
+        "targetType": "Target"
+      }
+    ],
+    "dispelEffectList": [],
+    "appearEffectList": [],
+    "buffEffectByLevel": [],
+    "disappearEffectList": [],
+    "bDamageWithLevel": false,
+    "bShowLevel": false,
+    "showLevelInfoId": -1,
+    "buff": -1,
+    "isShowImmuneDamage": false,
+    "sound": -1
+  },
+  {
+    "id": 10432656,
+    "idCN": "快乐BUFF树/02深渊/60期/上半/增援入场/保留原生命倍率并进场",
+    "mod": "BUFF树",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "treeRoot": [
+      {
+        "buffId": 10432396,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432657,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432667,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432668,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432658,
+        "targetType": "Target"
+      },
+      {},
+      {},
+      {},
+      {},
+      {}
+    ],
+    "sound": -1
+  },
+  {
+    "id": 10432657,
+    "idCN": "BUFF/02深渊/60期/上半/增援入场/临时启用沉溺跑动",
+    "mod": "替换动作",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "isBindAction": false,
+    "isDispelFightEnd": true,
+    "isNotRecordDamageAsCard": false,
+    "iconUrl": "",
+    "cantBeDispelled": true,
+    "bForever": true,
+    "durationFrame": 1,
+    "sourceBase": "FixedValue",
+    "customDataTagBase": "",
+    "buffTypeFO": -1,
+    "overlayType": "NotChange",
+    "sourceList": [],
+    "overlayTimeType": "NotChange",
+    "level": 1,
+    "levelTag": "",
+    "levelMax": 1,
+    "levelMaxTag": "",
+    "maxLevelBuffId": -1,
+    "isSameAttribute": false,
+    "attributeChangeList": [],
+    "baseValue_SN": 10000,
+    "baseRateTag": "",
+    "timeUpEffectList": [],
+    "dispelEffectList": [],
+    "appearEffectList": [],
+    "buffEffectByLevel": [],
+    "disappearEffectList": [],
+    "bDamageWithLevel": false,
+    "bShowLevel": false,
+    "showLevelInfoId": -1,
+    "changeActionList": [
+      {
+        "sourceActionID": 10101338,
+        "targetActionID": 10105509
+      }
+    ],
+    "sound": -1
+  },
+  {
+    "id": 10432658,
+    "idCN": "BUFF/02深渊/60期/上半/增援入场/自出生点向左行进十二米",
+    "mod": "执行移动命令",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "isBindAction": false,
+    "isDispelFightEnd": true,
+    "isNotRecordDamageAsCard": false,
+    "iconUrl": "",
+    "cantBeDispelled": true,
+    "bForever": true,
+    "durationFrame": 1,
+    "sourceBase": "FixedValue",
+    "customDataTagBase": "",
+    "buffTypeFO": -1,
+    "overlayType": "UseNew",
+    "sourceList": [],
+    "overlayTimeType": "NotChange",
+    "level": 1,
+    "levelTag": "",
+    "levelMax": 1,
+    "levelMaxTag": "",
+    "maxLevelBuffId": -1,
+    "isSameAttribute": false,
+    "attributeChangeList": [],
+    "baseValue_SN": 10000,
+    "baseRateTag": "",
+    "timeUpEffectList": [],
+    "dispelEffectList": [],
+    "appearEffectList": [],
+    "buffEffectByLevel": [],
+    "disappearEffectList": [],
+    "bDamageWithLevel": false,
+    "bShowLevel": false,
+    "showLevelInfoId": -1,
+    "isBasedOnBattleAreaCenter": false,
+    "isBasedOnSelf": true,
+    "offsetXSN": -120000,
+    "customDataTag": "",
+    "offsetYSN": 0,
+    "yTag": "",
+    "buffId": 10432670,
+    "sound": -1
+  },
+  {
+    "id": 10432659,
+    "idCN": "BUFF/02深渊/60期/上半/增援入场/到位清除临时跑动",
+    "mod": "驱散对应buff",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "targetBuffId": 10432657,
+    "dispelTime": 1,
+    "isTriggerDispelEffect": false,
+    "sound": -1
+  },
+  {
+    "id": 10432660,
+    "idCN": "快乐BUFF树/02深渊/60期/上半/增援特性3/禁霸体与定时驱散",
+    "mod": "BUFF树",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "treeRoot": [
+      {
+        "buffId": 10432597,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432599,
+        "targetType": "Target"
+      },
+      {},
+      {}
+    ],
+    "sound": -1
+  },
+  {
+    "id": 10432661,
+    "idCN": "快乐BUFF树/02深渊/60期/下半/深眠者增援入场/提高生命后从右侧入场",
+    "mod": "BUFF树",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "treeRoot": [
+      {
+        "buffId": 10432396,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432662,
+        "targetType": "Target"
+      },
+      {},
+      {}
+    ],
+    "sound": -1
+  },
+  {
+    "id": 10432662,
+    "idCN": "BUFF/02深渊/60期/下半/深眠者增援入场/向左行进十二米",
+    "mod": "执行移动命令",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "isBindAction": false,
+    "isDispelFightEnd": true,
+    "isNotRecordDamageAsCard": false,
+    "iconUrl": "",
+    "cantBeDispelled": true,
+    "bForever": true,
+    "durationFrame": 1,
+    "sourceBase": "FixedValue",
+    "customDataTagBase": "",
+    "buffTypeFO": -1,
+    "overlayType": "UseNew",
+    "sourceList": [],
+    "overlayTimeType": "NotChange",
+    "level": 1,
+    "levelTag": "",
+    "levelMax": 1,
+    "levelMaxTag": "",
+    "maxLevelBuffId": -1,
+    "isSameAttribute": false,
+    "attributeChangeList": [],
+    "baseValue_SN": 10000,
+    "baseRateTag": "",
+    "timeUpEffectList": [],
+    "dispelEffectList": [],
+    "appearEffectList": [],
+    "buffEffectByLevel": [],
+    "disappearEffectList": [],
+    "bDamageWithLevel": false,
+    "bShowLevel": false,
+    "showLevelInfoId": -1,
+    "isBasedOnBattleAreaCenter": false,
+    "isBasedOnSelf": true,
+    "offsetXSN": -120000,
+    "customDataTag": "",
+    "offsetYSN": 0,
+    "yTag": "",
+    "buffId": -1,
+    "sound": -1
+  },
+  {
+    "id": 10432663,
+    "idCN": "BUFF/02深渊/60期/上半/进场控制/暂停我方动作及位移",
+    "mod": "冻结",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "isBindAction": false,
+    "isDispelFightEnd": true,
+    "isNotRecordDamageAsCard": false,
+    "iconUrl": "",
+    "cantBeDispelled": true,
+    "bForever": false,
+    "durationFrame": 4,
+    "sourceBase": "FixedValue",
+    "customDataTagBase": "",
+    "buffTypeFO": -1,
+    "overlayType": "NotChange",
+    "sourceList": [],
+    "overlayTimeType": "Reset",
+    "level": 1,
+    "levelTag": "",
+    "levelMax": 1,
+    "levelMaxTag": "",
+    "maxLevelBuffId": -1,
+    "isSameAttribute": false,
+    "attributeChangeList": [],
+    "baseValue_SN": 10000,
+    "baseRateTag": "",
+    "timeUpEffectList": [],
+    "dispelEffectList": [],
+    "appearEffectList": [],
+    "buffEffectByLevel": [],
+    "disappearEffectList": [],
+    "bDamageWithLevel": false,
+    "bShowLevel": false,
+    "showLevelInfoId": -1,
+    "sound": -1
+  },
+  {
+    "id": 10432664,
+    "idCN": "BUFF/02深渊/60期/上半/进场控制/暂停我方手动用卡",
+    "mod": "禁止使用卡牌",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "isBindAction": false,
+    "isDispelFightEnd": true,
+    "isNotRecordDamageAsCard": false,
+    "iconUrl": "",
+    "cantBeDispelled": true,
+    "bForever": false,
+    "durationFrame": 4,
+    "sourceBase": "FixedValue",
+    "customDataTagBase": "",
+    "buffTypeFO": -1,
+    "overlayType": "NotChange",
+    "sourceList": [],
+    "overlayTimeType": "Reset",
+    "level": 1,
+    "levelTag": "",
+    "levelMax": 1,
+    "levelMaxTag": "",
+    "maxLevelBuffId": -1,
+    "isSameAttribute": false,
+    "attributeChangeList": [],
+    "baseValue_SN": 10000,
+    "baseRateTag": "",
+    "timeUpEffectList": [],
+    "dispelEffectList": [],
+    "appearEffectList": [],
+    "buffEffectByLevel": [],
+    "disappearEffectList": [],
+    "bDamageWithLevel": false,
+    "bShowLevel": false,
+    "showLevelInfoId": -1,
+    "sound": -1
+  },
+  {
+    "id": 10432665,
+    "idCN": "BUFF/02深渊/60期/上半/进场控制/暂停我方拖拽及自律用卡",
+    "mod": "禁止拖拽卡牌",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "isBindAction": false,
+    "isDispelFightEnd": true,
+    "isNotRecordDamageAsCard": false,
+    "iconUrl": "",
+    "cantBeDispelled": true,
+    "bForever": false,
+    "durationFrame": 4,
+    "sourceBase": "FixedValue",
+    "customDataTagBase": "",
+    "buffTypeFO": -1,
+    "overlayType": "NotChange",
+    "sourceList": [],
+    "overlayTimeType": "Reset",
+    "level": 1,
+    "levelTag": "",
+    "levelMax": 1,
+    "levelMaxTag": "",
+    "maxLevelBuffId": -1,
+    "isSameAttribute": false,
+    "attributeChangeList": [],
+    "baseValue_SN": 10000,
+    "baseRateTag": "",
+    "timeUpEffectList": [],
+    "dispelEffectList": [],
+    "appearEffectList": [],
+    "buffEffectByLevel": [],
+    "disappearEffectList": [],
+    "bDamageWithLevel": false,
+    "bShowLevel": false,
+    "showLevelInfoId": -1,
+    "sound": -1
+  },
+  {
+    "id": 10432666,
+    "idCN": "快乐BUFF树/02深渊/60期/上半/进场控制/暂停单名我方单位操作",
+    "mod": "BUFF树",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "treeRoot": [
+      {
+        "buffId": 10432663,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432664,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432665,
+        "targetType": "Target"
+      },
+      {},
+      {},
+      {}
+    ],
+    "sound": -1
+  },
+  {
+    "id": 10432667,
+    "idCN": "BUFF/02深渊/60期/上半/进场控制/强制检索我方全体并暂停操作",
+    "mod": "检索单位添加buff",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "targetType": "OnlyTeam1",
+    "condition": "All",
+    "attributeType": "HpMax",
+    "numberType": "Number",
+    "radius_SN": 2000000,
+    "targetCount": 99,
+    "buffId": 10432666,
+    "isAimSelf": false,
+    "isRandom": false,
+    "useTargetProperty": false,
+    "isForceSearch": true,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "buffSortType": "All",
+    "targetTagList": [],
+    "filterBuffTypeFO": -1,
+    "filterBuffFO": -1,
+    "sound": -1
+  },
+  {
+    "id": 10432668,
+    "idCN": "BUFF/02深渊/60期/上半/进场控制/行进期间维持操作限制",
+    "mod": "循环",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "isBindAction": false,
+    "isDispelFightEnd": true,
+    "isNotRecordDamageAsCard": false,
+    "iconUrl": "",
+    "cantBeDispelled": true,
+    "bForever": true,
+    "durationFrame": 1,
+    "sourceBase": "FixedValue",
+    "customDataTagBase": "",
+    "buffTypeFO": -1,
+    "overlayType": "NotChange",
+    "sourceList": [],
+    "overlayTimeType": "NotChange",
+    "level": 1,
+    "levelTag": "",
+    "levelMax": 1,
+    "levelMaxTag": "",
+    "maxLevelBuffId": -1,
+    "isSameAttribute": false,
+    "attributeChangeList": [],
+    "baseValue_SN": 10000,
+    "baseRateTag": "",
+    "timeUpEffectList": [],
+    "dispelEffectList": [],
+    "appearEffectList": [],
+    "buffEffectByLevel": [],
+    "disappearEffectList": [],
+    "bDamageWithLevel": false,
+    "bShowLevel": false,
+    "showLevelInfoId": -1,
+    "skillParamSN": 1000000000,
+    "loopFrame": 2,
+    "isFirst": false,
+    "buffId": 10432667,
+    "sound": -1
+  },
+  {
+    "id": 10432669,
+    "idCN": "BUFF/02深渊/60期/上半/进场控制/停止本增援的操作限制",
+    "mod": "驱散对应buff",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "targetBuffId": 10432668,
+    "dispelTime": 1,
+    "isTriggerDispelEffect": false,
+    "sound": -1
+  },
+  {
+    "id": 10432670,
+    "idCN": "快乐BUFF树/02深渊/60期/上半/进场控制/到位停止限制并还原移动动作",
+    "mod": "BUFF树",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "treeRoot": [
+      {
+        "buffId": 10432669,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432659,
+        "targetType": "Target"
+      },
+      {},
+      {}
+    ],
+    "sound": -1
+  },
+  {
+    "id": 10432671,
+    "idCN": "快乐BUFF树/02深渊/60期/下半/进场控制/出生时设置待召唤标记并保留原特性",
+    "mod": "BUFF树",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "treeRoot": [
+      {
+        "buffId": 10432672,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432602,
+        "targetType": "Target"
+      },
+      {},
+      {}
+    ],
+    "sound": -1
+  },
+  {
+    "id": 10432672,
+    "idCN": "BUFF/02深渊/60期/下半/进场控制/本次入场待召唤标记",
+    "mod": "持续效果",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "isBindAction": false,
+    "isDispelFightEnd": true,
+    "isNotRecordDamageAsCard": false,
+    "iconUrl": "",
+    "cantBeDispelled": true,
+    "bForever": true,
+    "durationFrame": 1,
+    "sourceBase": "FixedValue",
+    "customDataTagBase": "",
+    "buffTypeFO": -1,
+    "overlayType": "NotChange",
+    "sourceList": [],
+    "overlayTimeType": "NotChange",
+    "level": 1,
+    "levelTag": "",
+    "levelMax": 1,
+    "levelMaxTag": "",
+    "maxLevelBuffId": -1,
+    "isSameAttribute": false,
+    "attributeChangeList": [],
+    "baseValue_SN": 10000,
+    "baseRateTag": "",
+    "timeUpEffectList": [],
+    "dispelEffectList": [],
+    "appearEffectList": [],
+    "buffEffectByLevel": [],
+    "disappearEffectList": [],
+    "bDamageWithLevel": false,
+    "bShowLevel": false,
+    "showLevelInfoId": -1,
+    "sound": -1
+  },
+  {
+    "id": 10432673,
+    "idCN": "BUFF/02深渊/60期/下半/进场控制/消耗待召唤标记",
+    "mod": "驱散对应buff",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "targetBuffId": 10432672,
+    "dispelTime": 1,
+    "isTriggerDispelEffect": false,
+    "sound": -1
+  },
+  {
+    "id": 10432674,
+    "idCN": "快乐BUFF树/02深渊/60期/下半/进场控制/出场动画播完只召唤一次七名增援",
+    "mod": "BUFF树",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "treeRoot": [
+      {
+        "buffId": 10432675,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432673,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432648,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432649,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432650,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432651,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432652,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432653,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432654,
+        "targetType": "Target"
+      },
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {}
+    ],
+    "sound": -1
+  },
+  {
+    "id": 10432675,
+    "idCN": "BUFF/02深渊/60期/下半/进场控制/判断本次入场尚未召唤",
+    "mod": "判断层级",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "judgeBuffId": 10432672,
+    "judgeType": "Greater",
+    "judgeLevel": 0,
+    "sound": -1
   }
 ]

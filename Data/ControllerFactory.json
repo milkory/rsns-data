@@ -30871,5 +30871,56 @@
     "isSkillDelay": true,
     "minDelay": 0,
     "maxDelay": 90
+  },
+  {
+    "id": 10300734,
+    "idCN": "敌方/深渊/60期/下半/祸链囚徒/第四层专用控制器",
+    "mod": "BOSSAI",
+    "isInformalData": false,
+    "targetInvisibleEffectId": 11102488,
+    "effectOffsetX": 0.0,
+    "effectOffsetY": 0.0,
+    "actionList": [
+      {
+        "actionID": 10102830
+      },
+      {
+        "actionID": 10102834
+      }
+    ],
+    "normalAttackCritID": -1,
+    "skillList": [],
+    "isInvisibleBeforeShowUp": true,
+    "showupSkillList": [
+      {
+        "actionId": 10105510
+      }
+    ],
+    "skillLoopDelayFrame": 360,
+    "shapeShiftList": [],
+    "commandList": [],
+    "enemySkillList": [],
+    "isUseEnergy": true,
+    "energySkillList": [
+      {
+        "actionId": 10102824,
+        "isClearEnergy": true,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10102828,
+        "isClearEnergy": true,
+        "rangeSN": -10000
+      },
+      {
+        "actionId": 10102829,
+        "isClearEnergy": true,
+        "rangeSN": -10000
+      }
+    ],
+    "energyRestorePerFrameSN": 0,
+    "isSkillDelay": false,
+    "minDelay": 120,
+    "maxDelay": 360
   }
 ]

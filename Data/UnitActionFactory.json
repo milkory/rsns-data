@@ -234996,10 +234996,14 @@
     "isCharge": false,
     "isSkill": true,
     "actionLevel": "NormalSkill",
-    "isUseTargetFilter": false,
+    "isUseTargetFilter": true,
     "isIgnoreInvisibleEnemy": true,
-    "targetType": "Enemy",
-    "targetTagList": [],
+    "targetType": "Ally",
+    "targetTagList": [
+      {
+        "tagId": 12600246
+      }
+    ],
     "tagType": "And",
     "halfWidth_SN": 0,
     "attributeType": "HpMax",
@@ -237964,6 +237968,88 @@
         "stateId": 10205961,
         "timesRate_SN": 10000,
         "timesSource": "FixedValue"
+      }
+    ],
+    "backShakeFrame": -1
+  },
+  {
+    "id": 10105509,
+    "idCN": "敌方/深渊/60期/上半/深眠者·沉溺/增援入场跑动",
+    "mod": "基础动作",
+    "actionLevel": "Move",
+    "isUseTargetFilter": false,
+    "targetType": "Self",
+    "targetTagList": [],
+    "halfWidth_SN": 990000,
+    "attributeType": "HpMax",
+    "condition": "All",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "targetCount": 99,
+    "distance_SN": 473000,
+    "radius_SN": 0,
+    "cdFrame": 400,
+    "isUseBigNumber": false,
+    "stateIdList": [
+      {
+        "bPlayTimes": false,
+        "customDataTag": "",
+        "stateId": 10205962,
+        "timesRate_SN": 10000,
+        "timesSource": "CurrentHp"
+      }
+    ]
+  },
+  {
+    "id": 10105510,
+    "idCN": "敌方/深渊/60期/下半/祸链囚徒/原出场动作后召唤增援",
+    "mod": "基础动作",
+    "isInformalData": false,
+    "isCharge": false,
+    "isSkill": false,
+    "actionLevel": "System",
+    "isUseTargetFilter": false,
+    "isIgnoreInvisibleEnemy": true,
+    "targetType": "Enemy",
+    "targetTagList": [],
+    "tagType": "And",
+    "halfWidth_SN": 990000,
+    "attributeType": "HpMax",
+    "condition": "All",
+    "numberType": "Number",
+    "number_SN": 0,
+    "buffTypeFO": -1,
+    "buffFO": -1,
+    "buffJudgeType": "Greater",
+    "buffLevel": 0,
+    "filterStance": "DeafaultStance",
+    "filterPosition": "DefaultPos",
+    "isAimSelf": false,
+    "targetCount": 99,
+    "distance_SN": 240000,
+    "radius_SN": 0,
+    "damageHitBuffList": [],
+    "healHitBuffList": [],
+    "cdFrame": 280,
+    "isUseBigNumber": false,
+    "stateIdList": [
+      {
+        "bPlayTimes": false,
+        "customDataTag": "",
+        "stateId": 10203231,
+        "timesRate_SN": 10000,
+        "timesSource": "CurrentHp"
+      },
+      {
+        "bPlayTimes": false,
+        "customDataTag": "",
+        "stateId": 10205963,
+        "timesRate_SN": 10000,
+        "timesSource": "CurrentHp"
       }
     ],
     "backShakeFrame": -1
