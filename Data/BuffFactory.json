@@ -892117,7 +892117,7 @@
     "skillRateTag": "",
     "isStraightDamage": false,
     "isIgnoreDefence": false,
-    "skillMultTag": true,
+    "skillMultTag": false,
     "isLeaderSource": false,
     "shakeXPerFrame": 0.0,
     "shakeDuration": 0,
@@ -974766,11 +974766,6 @@
         "buffId": 10432197,
         "targetType": "Target"
       },
-      {
-        "buffId": 10432198,
-        "targetType": "Target"
-      },
-      {},
       {}
     ],
     "sound": -1
@@ -974784,9 +974779,6 @@
     "typeTagList": [
       {
         "tagId": 12601827
-      },
-      {
-        "tagId": 12601833
       },
       {
         "tagId": 12602180
@@ -974815,24 +974807,9 @@
     "shakeDuration": 0,
     "setCustomValue": "",
     "isHitSpakle": false,
+    "critAddBuff": -1,
     "sound": -1,
     "isSkillLua": false
-  },
-  {
-    "id": 10432198,
-    "idCN": "BUFF/00我方/05五星/爱丽丝/普攻1受击特效",
-    "mod": "特效",
-    "isInformalData": false,
-    "battleTagIdList": [],
-    "typeTagList": [],
-    "baseEffect": "OtherEffect",
-    "isNotChangePos": false,
-    "effectPointType": "GetHit",
-    "effectId": 11101997,
-    "offsetX": 0.0,
-    "offsetY": 0.0,
-    "isUseSnapshotDirection": false,
-    "sound": -1
   },
   {
     "id": 10432200,
@@ -978685,6 +978662,16 @@
         "buffId": 10432388,
         "targetType": "Owner"
       },
+      {
+        "buffId": 10432837,
+        "targetType": "Owner"
+      },
+      {
+        "buffId": 10432836,
+        "targetType": "Owner"
+      },
+      {},
+      {},
       {},
       {},
       {}
@@ -980254,7 +980241,7 @@
         "customDataTag": "",
         "numType": "Number",
         "propertyType": "Def",
-        "skillRateFactorSN": 30000,
+        "skillRateFactorSN": 0,
         "skillRateTag": "",
         "sourcesProperty": "Def"
       },
@@ -982101,7 +982088,7 @@
     "overlayType": "AddSource",
     "overlayTimeType": "NotChange",
     "level": 1,
-    "levelMax": 99,
+    "levelMax": 6,
     "isSameAttribute": true,
     "cantBeDispelled": true,
     "bShowLevel": false,
@@ -982176,7 +982163,15 @@
     "bShowLevel": false,
     "baseValue_SN": 10000,
     "sourceBase": "FixedValue",
-    "attributeChangeList": []
+    "attributeChangeList": [],
+    "appearEffectList": [
+      {
+        "effectId": 11103656,
+        "effectPointType": "Effect",
+        "offsetX": 0.0,
+        "offsetY": 0.0
+      }
+    ]
   },
   {
     "id": 10432449,
@@ -982251,7 +982246,7 @@
       {
         "attributeType": "GetDamageUp",
         "level": 1,
-        "value_SN": 700,
+        "value_SN": 600,
         "numberType": "Percent",
         "rateTag": "",
         "skillSelect": "Default"
@@ -982279,7 +982274,15 @@
     "bShowLevel": false,
     "baseValue_SN": 10000,
     "sourceBase": "FixedValue",
-    "attributeChangeList": []
+    "attributeChangeList": [],
+    "appearEffectList": [
+      {
+        "effectId": 11103654,
+        "effectPointType": "Effect",
+        "offsetX": 0.0,
+        "offsetY": 0.0
+      }
+    ]
   },
   {
     "id": 10432453,
@@ -982542,7 +982545,7 @@
     "typeTagList": [],
     "costSource": "FixedValue",
     "costRate_SN": 120000,
-    "bMore": true,
+    "bMore": false,
     "isRecord": true,
     "isSetCost": false
   },
@@ -982564,28 +982567,47 @@
     "idCN": "BUFF/00我方/05五星/爱丽丝/队长技/累计消耗费用",
     "mod": "累计费用触发",
     "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
     "baseEffect": "OtherEffect",
     "isNotChangePos": false,
     "isBindAction": false,
-    "battleTagIdList": [],
-    "typeTagList": [],
+    "isDispelFightEnd": false,
+    "isNotRecordDamageAsCard": false,
+    "iconUrl": "",
+    "cantBeDispelled": true,
     "bForever": true,
     "durationFrame": 1,
+    "sourceBase": "FixedValue",
+    "customDataTagBase": "",
+    "buffTypeFO": -1,
     "overlayType": "UseNew",
+    "sourceList": [],
     "overlayTimeType": "NotChange",
     "level": 1,
+    "levelTag": "",
     "levelMax": 1,
+    "levelMaxTag": "",
+    "maxLevelBuffId": -1,
     "isSameAttribute": true,
-    "cantBeDispelled": true,
-    "bShowLevel": false,
-    "baseValue_SN": 10000,
-    "sourceBase": "FixedValue",
     "attributeChangeList": [],
-    "buffId": 10432465,
+    "baseValue_SN": 10000,
+    "baseRateTag": "",
+    "timeUpEffectList": [],
+    "dispelEffectList": [],
+    "appearEffectList": [],
+    "buffEffectByLevel": [],
+    "disappearEffectList": [],
+    "bDamageWithLevel": false,
+    "bShowLevel": false,
+    "showLevelInfoId": -1,
     "cooldownFrame": 0,
+    "buffId": 10432465,
     "isRefreshSnapshot": true,
+    "sound": -1,
     "isAdd": false,
     "targetSN": 10000,
+    "targetTag": "",
     "onlySkillC": false
   },
   {
@@ -982740,7 +982762,7 @@
     "skillRateTag": "A",
     "isStraightDamage": false,
     "isIgnoreDefence": false,
-    "skillMultTag": true,
+    "skillMultTag": false,
     "isLeaderSource": false,
     "shakeXPerFrame": 0.0,
     "shakeDuration": 0,
@@ -982853,7 +982875,7 @@
     "source": "Atk",
     "customDataTag": "",
     "skillSelect": "Default",
-    "skillRateFactorSN": 460000,
+    "skillRateFactorSN": 690000,
     "skillRateTag": "AliceForecastDamage",
     "isStraightDamage": false,
     "isIgnoreDefence": false,
@@ -983306,9 +983328,14 @@
     "typeTagList": [],
     "treeRoot": [
       {
+        "buffId": 10413270,
+        "targetType": "Target"
+      },
+      {
         "buffId": 10432467,
         "targetType": "Target"
       },
+      {},
       {}
     ]
   },
@@ -983323,9 +983350,14 @@
     "typeTagList": [],
     "treeRoot": [
       {
+        "buffId": 10413308,
+        "targetType": "Target"
+      },
+      {
         "buffId": 10432468,
         "targetType": "Target"
       },
+      {},
       {}
     ]
   },
@@ -983340,9 +983372,14 @@
     "typeTagList": [],
     "treeRoot": [
       {
+        "buffId": 10413469,
+        "targetType": "Target"
+      },
+      {
         "buffId": 10432469,
         "targetType": "Target"
       },
+      {},
       {}
     ]
   },
@@ -983741,7 +983778,7 @@
     "skillRateTag": "",
     "isStraightDamage": false,
     "isIgnoreDefence": false,
-    "skillMultTag": true,
+    "skillMultTag": false,
     "isLeaderSource": false,
     "shakeXPerFrame": 0.0,
     "shakeDuration": 0,
@@ -983768,7 +983805,7 @@
   },
   {
     "id": 10432505,
-    "idCN": "快乐BUFF树/00我方/05五星/爱丽丝/共振4/治疗与净化躁动",
+    "idCN": "快乐BUFF树/00我方/05五星/爱丽丝/通用/轮换时结算单名友方效果",
     "mod": "BUFF树",
     "isInformalData": false,
     "baseEffect": "OtherEffect",
@@ -983777,25 +983814,20 @@
     "typeTagList": [],
     "treeRoot": [
       {
-        "buffId": 10432504,
+        "buffId": 10432680,
         "targetType": "Target"
       },
       {
-        "buffId": 10417451,
+        "buffId": 10432681,
         "targetType": "Target"
       },
-      {
-        "buffId": 10420567,
-        "targetType": "Target"
-      },
-      {},
       {},
       {}
     ]
   },
   {
     "id": 10432506,
-    "idCN": "BUFF/00我方/05五星/爱丽丝/共振4/我方全体",
+    "idCN": "BUFF/00我方/05五星/爱丽丝/通用/轮换时检索我方全体",
     "mod": "检索单位添加buff",
     "isInformalData": false,
     "battleTagIdList": [],
@@ -983866,7 +983898,7 @@
     "isDispelFightEnd": false,
     "isNotRecordDamageAsCard": false,
     "iconUrl": "",
-    "cantBeDispelled": false,
+    "cantBeDispelled": true,
     "bForever": true,
     "durationFrame": 1,
     "recycleDelayFrame": 0,
@@ -983931,13 +983963,23 @@
         "targetType": "Owner"
       },
       {
-        "buffId": 10401928,
-        "targetType": "Owner"
-      },
-      {
         "buffId": 10432534,
         "targetType": "Owner"
       },
+      {
+        "buffId": 10432265,
+        "targetType": "Owner"
+      },
+      {
+        "buffId": 10432755,
+        "targetType": "Owner"
+      },
+      {
+        "buffId": 10409085,
+        "targetType": "Owner"
+      },
+      {},
+      {},
       {},
       {},
       {},
@@ -984195,29 +984237,6 @@
       {},
       {}
     ]
-  },
-  {
-    "id": 10432522,
-    "idCN": "BUFF/00我方/05五星/爱丽丝/养成3/邀约增伤参数",
-    "mod": "持续效果",
-    "isInformalData": false,
-    "baseEffect": "OtherEffect",
-    "isNotChangePos": false,
-    "isBindAction": false,
-    "battleTagIdList": [],
-    "typeTagList": [],
-    "bForever": true,
-    "durationFrame": 1,
-    "overlayType": "UseNew",
-    "overlayTimeType": "NotChange",
-    "level": 1,
-    "levelMax": 1,
-    "isSameAttribute": true,
-    "cantBeDispelled": true,
-    "bShowLevel": false,
-    "baseValue_SN": 10000,
-    "sourceBase": "FixedValue",
-    "attributeChangeList": []
   },
   {
     "id": 10432523,
@@ -984478,13 +984497,28 @@
         "targetType": "Owner"
       },
       {
-        "buffId": 10432680,
+        "buffId": 10432678,
         "targetType": "Owner"
       },
       {
-        "buffId": 10432681,
+        "buffId": 10432506,
         "targetType": "Owner"
       },
+      {
+        "buffId": 10432500,
+        "targetType": "Owner"
+      },
+      {},
+      {},
+      {
+        "buffId": 10432677,
+        "targetType": "Owner"
+      },
+      {
+        "buffId": 10432506,
+        "targetType": "Owner"
+      },
+      {},
       {},
       {},
       {}
@@ -985258,7 +985292,7 @@
     "offsetX": 0.0,
     "offsetY": 0.0,
     "isUseSnapshotDirection": false,
-    "sound": -1
+    "sound": 30008339
   },
   {
     "id": 10412051,
@@ -985356,7 +985390,7 @@
     "offsetX": 0.0,
     "offsetY": 0.0,
     "isUseSnapshotDirection": false,
-    "sound": -1
+    "sound": 30008363
   },
   {
     "id": 10412110,
@@ -985413,7 +985447,7 @@
     "offsetX": 0.0,
     "offsetY": 0.0,
     "isUseSnapshotDirection": false,
-    "sound": -1
+    "sound": 30008366
   },
   {
     "id": 10412114,
@@ -985734,7 +985768,7 @@
     "offsetX": 0.0,
     "offsetY": 0.0,
     "isUseSnapshotDirection": false,
-    "sound": -1
+    "sound": 30008367
   },
   {
     "id": 10412435,
@@ -986138,7 +986172,7 @@
     "typeTagList": [],
     "baseEffect": "OtherEffect",
     "isNotChangePos": false,
-    "sound": -1,
+    "sound": 30008359,
     "effectPointType": "GetHit",
     "effectId": 11103046
   },
@@ -986711,7 +986745,7 @@
     "offsetX": 0.0,
     "offsetY": 0.0,
     "isUseSnapshotDirection": false,
-    "sound": -1
+    "sound": 30008352
   },
   {
     "id": 10412671,
@@ -986727,7 +986761,7 @@
     "offsetX": 0.0,
     "offsetY": 0.0,
     "isUseSnapshotDirection": false,
-    "sound": -1
+    "sound": 30008355
   },
   {
     "id": 10412672,
@@ -987300,8 +987334,18 @@
     "attributeChangeList": [],
     "baseValue_SN": 10000,
     "baseRateTag": "",
-    "timeUpEffectList": [],
-    "dispelEffectList": [],
+    "timeUpEffectList": [
+      {
+        "targetType": "Target",
+        "buffId": 10413146
+      }
+    ],
+    "dispelEffectList": [
+      {
+        "targetType": "Target",
+        "buffId": 10413146
+      }
+    ],
     "appearEffectList": [],
     "buffEffectByLevel": [
       {
@@ -987325,7 +987369,7 @@
     "bDamageWithLevel": false,
     "bShowLevel": false,
     "showLevelInfoId": -1,
-    "sound": -1
+    "sound": 30008381
   },
   {
     "id": 10412681,
@@ -987704,7 +987748,7 @@
     "offsetX": 0.0,
     "offsetY": 0.0,
     "isUseSnapshotDirection": false,
-    "sound": -1
+    "sound": 30008343
   },
   {
     "id": 10412979,
@@ -987796,7 +987840,7 @@
     "offsetX": 0.0,
     "offsetY": 0.0,
     "isUseSnapshotDirection": false,
-    "sound": -1
+    "sound": 30008346
   },
   {
     "id": 10413108,
@@ -990057,10 +990101,10 @@
     "level": 1,
     "levelMax": 1,
     "skillParamTag": "AliceBoxHandCount",
-    "skillParamSN": 0,
-    "loopFrame": 2,
+    "skillParamSN": 10000,
+    "loopFrame": 6,
     "isFirst": true,
-    "buffId": 10432470
+    "buffId": 10413524
   },
   {
     "id": 10432595,
@@ -992743,7 +992787,7 @@
   },
   {
     "id": 10432680,
-    "idCN": "快乐BUFF树/00我方/05五星/爱丽丝/共振4/轮换时执行",
+    "idCN": "快乐BUFF树/00我方/05五星/爱丽丝/共振4/轮换时治疗并净化友方",
     "mod": "BUFF树",
     "isInformalData": false,
     "baseEffect": "OtherEffect",
@@ -992756,16 +992800,21 @@
         "targetType": "Owner"
       },
       {
-        "buffId": 10432506,
-        "targetType": "Owner"
+        "buffId": 10432504,
+        "targetType": "Target"
       },
+      {
+        "buffId": 10417451,
+        "targetType": "Target"
+      },
+      {},
       {},
       {}
     ]
   },
   {
     "id": 10432681,
-    "idCN": "快乐BUFF树/00我方/05五星/爱丽丝/觉醒2/轮换时执行",
+    "idCN": "快乐BUFF树/00我方/05五星/爱丽丝/觉醒2/轮换时使友方躁动",
     "mod": "BUFF树",
     "isInformalData": false,
     "baseEffect": "OtherEffect",
@@ -992778,8 +992827,8 @@
         "targetType": "Owner"
       },
       {
-        "buffId": 10432500,
-        "targetType": "Owner"
+        "buffId": 10420567,
+        "targetType": "Target"
       },
       {},
       {}
@@ -992974,6 +993023,10 @@
         "targetType": "Owner"
       },
       {
+        "buffId": 10432526,
+        "targetType": "Owner"
+      },
+      {
         "buffId": 10432527,
         "targetType": "Target"
       },
@@ -992985,8 +993038,10 @@
       {},
       {},
       {},
+      {},
       {}
-    ]
+    ],
+    "sound": -1
   },
   {
     "id": 10432693,
@@ -994052,13 +994107,18 @@
     "isNotChangePos": false,
     "treeRoot": [
       {
-        "buffId": 10432742,
-        "targetType": "Target"
-      },
-      {
         "buffId": 10432749,
         "targetType": "Target"
       },
+      {
+        "buffId": 10432726,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432742,
+        "targetType": "Target"
+      },
+      {},
       {},
       {}
     ]
@@ -994135,9 +994195,24 @@
         "targetType": "Owner"
       },
       {
+        "buffId": 10432726,
+        "targetType": "Owner"
+      },
+      {
         "buffId": 10432751,
         "targetType": "Owner"
       },
+      {},
+      {
+        "buffId": 10432742,
+        "targetType": "Owner"
+      },
+      {
+        "buffId": 10432751,
+        "targetType": "Owner"
+      },
+      {},
+      {},
       {},
       {},
       {},
@@ -994169,9 +994244,24 @@
         "targetType": "Owner"
       },
       {
+        "buffId": 10432726,
+        "targetType": "Owner"
+      },
+      {
         "buffId": 10432751,
         "targetType": "Owner"
       },
+      {},
+      {
+        "buffId": 10432742,
+        "targetType": "Owner"
+      },
+      {
+        "buffId": 10432751,
+        "targetType": "Owner"
+      },
+      {},
+      {},
       {},
       {},
       {}
@@ -994554,7 +994644,7 @@
   },
   {
     "id": 10432771,
-    "idCN": "快乐BUFF树/00我方/05五星/爱丽丝/B/使用自己的晦暗牌时结算邀约",
+    "idCN": "快乐BUFF树/00我方/05五星/爱丽丝/B/邀约目标使用自身晦暗牌时结算邀约",
     "mod": "BUFF树",
     "isInformalData": false,
     "battleTagIdList": [],
@@ -994564,21 +994654,16 @@
     "treeRoot": [
       {
         "buffId": 10432769,
-        "targetType": "Owner"
+        "targetType": "Target"
       },
       {
         "buffId": 10432770,
-        "targetType": "Owner"
-      },
-      {
-        "buffId": 10432726,
-        "targetType": "Owner"
+        "targetType": "Target"
       },
       {
         "buffId": 10432538,
-        "targetType": "Owner"
+        "targetType": "Target"
       },
-      {},
       {},
       {},
       {}
@@ -994821,7 +994906,7 @@
     "baseEffect": "OtherEffect",
     "isNotChangePos": false,
     "tag": "AliceForecastDamage",
-    "formulaStr": "AliceForecastLayerCount*46",
+    "formulaStr": "AliceForecastLayerCount*69",
     "targetPrefix": "tar",
     "customDataList": [
       {
@@ -994857,9 +994942,14 @@
         "targetType": "Target"
       },
       {
+        "buffId": 10413525,
+        "targetType": "Target"
+      },
+      {
         "buffId": 10432474,
         "targetType": "Target"
       },
+      {},
       {},
       {}
     ]
@@ -994938,9 +995028,14 @@
         "targetType": "Owner"
       },
       {
+        "buffId": 10413470,
+        "targetType": "Target"
+      },
+      {
         "buffId": 10432476,
         "targetType": "Target"
       },
+      {},
       {},
       {}
     ]
@@ -995057,11 +995152,11 @@
     "treeRoot": [
       {
         "buffId": 10432726,
-        "targetType": "Owner"
+        "targetType": "Target"
       },
       {
         "buffId": 10432813,
-        "targetType": "Owner"
+        "targetType": "Target"
       },
       {
         "buffId": 10432826,
@@ -995147,5 +995242,216 @@
     "bDamageWithLevel": false,
     "bShowLevel": false,
     "showLevelInfoId": -1
+  },
+  {
+    "id": 10413146,
+    "idCN": "BUFF/01敌方/23联动BS/玛丽·安/技能3/定格破碎音效",
+    "mod": "音效",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "sound": -1,
+    "soundId": 30008356
+  },
+  {
+    "id": 10432836,
+    "idCN": "BUFF/00我方/05五星/小红帽/觉醒4/小红帽防御倍率设为三倍",
+    "mod": "复制属性",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "propertyList": [
+      {
+        "customDataTag": "",
+        "numType": "Multiplier",
+        "propertyType": "Def",
+        "skillRateFactorSN": 30000,
+        "skillRateTag": "",
+        "sourcesProperty": "FixedValue"
+      }
+    ],
+    "igonreSustainBuff": false,
+    "sound": -1
+  },
+  {
+    "id": 10432837,
+    "idCN": "BUFF/00我方/05五星/小红帽/觉醒4/小红帽三倍防御持续时间",
+    "mod": "持续效果",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "isBindAction": false,
+    "sound": -1,
+    "isDispelFightEnd": false,
+    "isNotRecordDamageAsCard": false,
+    "iconUrl": "",
+    "cantBeDispelled": true,
+    "bForever": false,
+    "durationFrame": 900,
+    "sourceBase": "FixedValue",
+    "customDataTagBase": "",
+    "buffTypeFO": -1,
+    "overlayType": "NotChange",
+    "sourceList": [],
+    "overlayTimeType": "Reset",
+    "level": 1,
+    "levelTag": "",
+    "levelMax": 1,
+    "levelMaxTag": "",
+    "maxLevelBuffId": -1,
+    "isSameAttribute": false,
+    "attributeChangeList": [],
+    "baseValue_SN": 10000,
+    "baseRateTag": "",
+    "timeUpEffectList": [
+      {
+        "buffId": 10432838,
+        "targetType": "Target"
+      }
+    ],
+    "dispelEffectList": [
+      {
+        "buffId": 10432838,
+        "targetType": "Target"
+      }
+    ],
+    "appearEffectList": [],
+    "buffEffectByLevel": [],
+    "disappearEffectList": [],
+    "bDamageWithLevel": false,
+    "bShowLevel": false,
+    "showLevelInfoId": -1,
+    "recycleDelayFrame": 0
+  },
+  {
+    "id": 10432838,
+    "idCN": "BUFF/00我方/05五星/小红帽/觉醒4/小红帽防御倍率还原",
+    "mod": "复制属性",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "propertyList": [
+      {
+        "customDataTag": "",
+        "numType": "Multiplier",
+        "propertyType": "Def",
+        "skillRateFactorSN": 10000,
+        "skillRateTag": "",
+        "sourcesProperty": "FixedValue"
+      }
+    ],
+    "igonreSustainBuff": false,
+    "sound": -1
+  },
+  {
+    "id": 10413270,
+    "idCN": "BUFF/00我方/05五星/爱丽丝/A-1/受击特效",
+    "mod": "特效",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "sound": -1,
+    "effectPointType": "GetHit",
+    "effectId": 11103663
+  },
+  {
+    "id": 10413308,
+    "idCN": "BUFF/00我方/05五星/爱丽丝/A-2/受击特效",
+    "mod": "特效",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "sound": -1,
+    "effectPointType": "GetHit",
+    "effectId": 11103669
+  },
+  {
+    "id": 10413469,
+    "idCN": "BUFF/00我方/05五星/爱丽丝/A-3/受击特效",
+    "mod": "特效",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "sound": -1,
+    "effectPointType": "GetHit",
+    "effectId": 11103669
+  },
+  {
+    "id": 10413470,
+    "idCN": "BUFF/00我方/05五星/爱丽丝/B/持有者追加伤害受击特效",
+    "mod": "特效",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "sound": -1,
+    "effectPointType": "GetHit",
+    "effectId": 11103677
+  },
+  {
+    "id": 10413471,
+    "idCN": "BUFF/00我方/05五星/爱丽丝/S/每段伤害受击特效",
+    "mod": "特效",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [
+      {
+        "tagId": 12602180
+      }
+    ],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "sound": -1,
+    "effectPointType": "GetHit",
+    "effectId": 11103684
+  },
+  {
+    "id": 10413524,
+    "idCN": "快乐BUFF树/00我方/05五星/爱丽丝/S/单段伤害",
+    "mod": "BUFF树",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "treeRoot": [
+      {
+        "buffId": 10413471,
+        "targetType": "Target"
+      },
+      {
+        "buffId": 10432470,
+        "targetType": "Target"
+      },
+      {},
+      {}
+    ]
+  },
+  {
+    "id": 10413525,
+    "idCN": "BUFF/00我方/05五星/爱丽丝/觉醒2/预告/伤害受击特效",
+    "mod": "特效",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "sound": -1,
+    "effectId": 11103655
   }
 ]

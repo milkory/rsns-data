@@ -39942,7 +39942,7 @@
     "discardBuffId": -1,
     "discardBySkillBuffId": -1,
     "banishBuffId": -1,
-    "atkAreaType": "FixedArea",
+    "atkAreaType": "Self",
     "atkAreaColor": "Yellow",
     "targetColor": "Normal",
     "disappearEffectId": 11100047,
@@ -39973,7 +39973,7 @@
     "isInformalData": false,
     "name": "KING假面",
     "isCutIn": false,
-    "isUseSingleTarget": true,
+    "isUseSingleTarget": false,
     "isNoCD": false,
     "isUseInHand": false,
     "isNotDiscard": false,
@@ -39991,7 +39991,7 @@
     "discardBuffId": -1,
     "discardBySkillBuffId": -1,
     "banishBuffId": -1,
-    "atkAreaType": "Single",
+    "atkAreaType": "FixedArea",
     "atkAreaColor": "Yellow",
     "targetColor": "Normal",
     "disappearEffectId": 11100047,
@@ -40006,6 +40006,9 @@
       },
       {
         "tagId": 12602264
+      },
+      {
+        "tagId": 12600216
       }
     ],
     "tagOutsideList": [],
@@ -40022,7 +40025,7 @@
     "isInformalData": false,
     "name": "QUEEN假面",
     "isCutIn": false,
-    "isUseSingleTarget": true,
+    "isUseSingleTarget": false,
     "isNoCD": false,
     "isUseInHand": false,
     "isNotDiscard": false,
@@ -40040,7 +40043,7 @@
     "discardBuffId": -1,
     "discardBySkillBuffId": -1,
     "banishBuffId": -1,
-    "atkAreaType": "Single",
+    "atkAreaType": "FixedArea",
     "atkAreaColor": "Yellow",
     "targetColor": "Normal",
     "disappearEffectId": 11100047,
@@ -40058,6 +40061,9 @@
       },
       {
         "tagId": 12602265
+      },
+      {
+        "tagId": 12600272
       }
     ],
     "tagOutsideList": [],
@@ -40074,7 +40080,7 @@
     "isInformalData": false,
     "name": "JACK假面",
     "isCutIn": false,
-    "isUseSingleTarget": true,
+    "isUseSingleTarget": false,
     "isNoCD": false,
     "isUseInHand": false,
     "isNotDiscard": false,
@@ -40092,7 +40098,7 @@
     "discardBuffId": -1,
     "discardBySkillBuffId": -1,
     "banishBuffId": -1,
-    "atkAreaType": "Single",
+    "atkAreaType": "FixedArea",
     "atkAreaColor": "Yellow",
     "targetColor": "Normal",
     "disappearEffectId": 11100047,
@@ -40107,6 +40113,9 @@
       },
       {
         "tagId": 12602266
+      },
+      {
+        "tagId": 12600149
       }
     ],
     "tagOutsideList": [],
@@ -40162,7 +40171,7 @@
     "deriveCardList": [],
     "cardAIActionList": [
       {
-        "actionId": 96300009,
+        "actionId": 96300007,
         "conditionId": -1,
         "weight": 1
       }
@@ -40193,6 +40202,15 @@
         "interValNum": 5,
         "isNumCond": true,
         "minNum": 1,
+        "numDuration": 1,
+        "typeEnum": "number"
+      },
+      {
+        "condId": 96300007,
+        "des": 80608012,
+        "interValNum": 1,
+        "isNumCond": false,
+        "minNum": 0,
         "numDuration": 1,
         "typeEnum": "number"
       }
@@ -40287,6 +40305,9 @@
     "tagList": [
       {
         "tagId": 12602263
+      },
+      {
+        "tagId": 12601403
       }
     ],
     "tagOutsideList": [],
@@ -40352,6 +40373,9 @@
     "tagList": [
       {
         "tagId": 12602263
+      },
+      {
+        "tagId": 12601403
       }
     ],
     "tagOutsideList": [],
