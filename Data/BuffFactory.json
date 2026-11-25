@@ -925901,6 +925901,7 @@
     "cantBeDispelled": true,
     "bForever": false,
     "durationFrame": 31,
+    "recycleDelayFrame": 0,
     "sourceBase": "FixedValue",
     "customDataTagBase": "",
     "buffTypeFO": -1,
@@ -925915,7 +925916,7 @@
     "isSameAttribute": true,
     "attributeChangeList": [
       {
-        "attributeType": "GetDamageUp",
+        "attributeType": "GetDamageFinalUp",
         "level": 1,
         "numberType": "Percent",
         "rateTag": "",
@@ -925932,7 +925933,8 @@
     "disappearEffectList": [],
     "bDamageWithLevel": false,
     "bShowLevel": false,
-    "showLevelInfoId": -1
+    "showLevelInfoId": -1,
+    "sound": -1
   },
   {
     "id": 10430493,
@@ -982226,32 +982228,51 @@
     "idCN": "BUFF/00我方/05五星/爱丽丝/觉醒5/恐惧易伤",
     "mod": "持续效果",
     "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
     "baseEffect": "OtherEffect",
     "isNotChangePos": false,
     "isBindAction": false,
-    "battleTagIdList": [],
-    "typeTagList": [],
+    "isDispelFightEnd": false,
+    "isNotRecordDamageAsCard": false,
+    "iconUrl": "",
+    "cantBeDispelled": true,
     "bForever": true,
     "durationFrame": 1,
+    "recycleDelayFrame": 0,
+    "sourceBase": "FixedValue",
+    "customDataTagBase": "",
+    "buffTypeFO": -1,
     "overlayType": "AddSource",
+    "sourceList": [],
     "overlayTimeType": "NotChange",
     "level": 1,
+    "levelTag": "",
     "levelMax": 13,
+    "levelMaxTag": "",
+    "maxLevelBuffId": -1,
     "isSameAttribute": true,
-    "cantBeDispelled": true,
-    "bShowLevel": false,
-    "baseValue_SN": 10000,
-    "sourceBase": "FixedValue",
     "attributeChangeList": [
       {
-        "attributeType": "GetDamageUp",
+        "attributeType": "GetDamageFinalUp",
         "level": 1,
-        "value_SN": 600,
         "numberType": "Percent",
         "rateTag": "",
-        "skillSelect": "Default"
+        "skillSelect": "Default",
+        "value_SN": 600
       }
-    ]
+    ],
+    "baseValue_SN": 10000,
+    "baseRateTag": "",
+    "timeUpEffectList": [],
+    "dispelEffectList": [],
+    "appearEffectList": [],
+    "buffEffectByLevel": [],
+    "disappearEffectList": [],
+    "bDamageWithLevel": false,
+    "bShowLevel": false,
+    "showLevelInfoId": -1,
+    "sound": -1
   },
   {
     "id": 10432452,
@@ -982539,15 +982560,17 @@
     "idCN": "BUFF/00我方/05五星/爱丽丝/B/获得十二点费用",
     "mod": "战斗费用",
     "isInformalData": false,
-    "baseEffect": "OtherEffect",
-    "isNotChangePos": false,
     "battleTagIdList": [],
     "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
     "costSource": "FixedValue",
+    "customDataTag": "",
     "costRate_SN": 120000,
     "bMore": false,
-    "isRecord": true,
-    "isSetCost": false
+    "isRecord": false,
+    "isSetCost": false,
+    "sound": -1
   },
   {
     "id": 10432465,
@@ -982798,34 +982821,51 @@
     "idCN": "BUFF/00我方/05五星/爱丽丝/共振5/全队晦暗增伤",
     "mod": "持续效果",
     "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
     "baseEffect": "OtherEffect",
     "isNotChangePos": false,
     "isBindAction": false,
-    "battleTagIdList": [],
-    "typeTagList": [],
+    "isDispelFightEnd": false,
+    "isNotRecordDamageAsCard": false,
+    "iconUrl": "",
+    "cantBeDispelled": true,
     "bForever": false,
     "durationFrame": 32,
+    "recycleDelayFrame": 0,
+    "sourceBase": "FixedValue",
+    "customDataTagBase": "",
+    "buffTypeFO": -1,
     "overlayType": "AddSource",
+    "sourceList": [],
     "overlayTimeType": "NotChange",
     "level": 1,
+    "levelTag": "AliceFieldFear",
     "levelMax": 99,
+    "levelMaxTag": "AliceFieldFear",
+    "maxLevelBuffId": -1,
     "isSameAttribute": true,
-    "cantBeDispelled": true,
-    "bShowLevel": false,
-    "baseValue_SN": 10000,
-    "sourceBase": "FixedValue",
     "attributeChangeList": [
       {
         "attributeType": "MakeDamageUpUmbra",
         "level": 1,
-        "value_SN": 600,
         "numberType": "Percent",
         "rateTag": "",
-        "skillSelect": "Default"
+        "skillSelect": "Default",
+        "value_SN": 600
       }
     ],
-    "levelTag": "AliceFieldFear",
-    "levelMaxTag": "AliceFieldFear"
+    "baseValue_SN": 10000,
+    "baseRateTag": "",
+    "timeUpEffectList": [],
+    "dispelEffectList": [],
+    "appearEffectList": [],
+    "buffEffectByLevel": [],
+    "disappearEffectList": [],
+    "bDamageWithLevel": false,
+    "bShowLevel": false,
+    "showLevelInfoId": -1,
+    "sound": -1
   },
   {
     "id": 10432473,
@@ -983862,11 +983902,17 @@
     "idCN": "BUFF/00我方/05五星/爱丽丝/A-1/丢弃最低费手牌",
     "mod": "弃除费用最低的手牌",
     "isInformalData": false,
-    "baseEffect": "OtherEffect",
-    "isNotChangePos": false,
     "battleTagIdList": [],
     "typeTagList": [],
-    "count": 1
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "count": 1,
+    "countType": "",
+    "cardBuff": -1,
+    "targetBuff": -1,
+    "isEnough": false,
+    "tag": "",
+    "sound": -1
   },
   {
     "id": 10432508,
@@ -995453,5 +995499,39 @@
     "isNotChangePos": false,
     "sound": -1,
     "effectId": 11103655
+  },
+  {
+    "id": 10432839,
+    "idCN": "快乐BUFF树/00我方/05五星/美琪/普攻",
+    "mod": "BUFF树",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "treeRoot": [
+      {
+        "buffId": 10428773,
+        "targetType": "Target"
+      },
+      {}
+    ],
+    "sound": -1
+  },
+  {
+    "id": 10413536,
+    "idCN": "BUFF/00我方/05五星/爱丽丝/A-3/攻击特效",
+    "mod": "特效",
+    "isInformalData": false,
+    "battleTagIdList": [],
+    "typeTagList": [],
+    "baseEffect": "OtherEffect",
+    "isNotChangePos": false,
+    "effectPointType": "Origin",
+    "effectId": 11103768,
+    "offsetX": 0.0,
+    "offsetY": 0.0,
+    "isUseSnapshotDirection": false,
+    "sound": -1
   }
 ]
